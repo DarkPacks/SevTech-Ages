@@ -1,0 +1,14 @@
+setIcon("pickletweaks:grass_mesh")
+
+setTitle("Mesh Your Flint")
+
+setDescription("Flint won't drop from breaking gravel. Use the Grass Fiber Mesh in a crafting grid with Gravel to obtain flint")
+
+setParent("triumph:stage0/fiber")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("pickletweaks:grass_mesh")
+
+setRewardExperience(8)

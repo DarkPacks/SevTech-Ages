@@ -1,0 +1,62 @@
+A more configurable version of GenLayerBiomeDC. Replaces the heat map with a pseudo-random 
+weighted biome map. For the vanilla heat map, normally 1 is desert, 2 is warm, 3 
+is cool, 4 is icy.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent
+    Notes:
+        Constructs the layer with the seed and parent.
+
+addBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID, int
+    Usage:
+        heat ID, biome ID, weight
+    Notes:
+        Adds the provided biome id to the provided heat id with the provided weight. What heat ids are available depends on the GenLayer used before this.
+
+addBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        heat ID, biome ID
+    Notes:
+        Adds the provided biome id to the provided heat id with a weight of 1. What heat ids are available depends on the GenLayer used before this
+
+setSpecialBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        heat ID, biome ID
+    Notes:
+        Sets the special biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
+
+setSpecialVariantChance:
+    Arguments:
+        Non_Null_Biome_ID, int
+    Usage:
+        heat ID, chance
+    Notes:
+        Sets the chance for the special variant biome to be used for the provided heat id. The chance is 1 in the provided number. What heat ids are available depends on the GenLayer used before this.
+
+setSpecialVariantChance:
+    Arguments:
+        int
+    Usage:
+        chance
+    Notes:
+        Sets the global chance for the special variant biome to be used. This will set the chance for all heat ids. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
+
+setSpecialVariantBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        heat ID, biome ID
+    Notes:
+        Sets the special variant biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
+

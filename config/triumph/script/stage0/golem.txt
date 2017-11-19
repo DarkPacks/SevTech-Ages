@@ -1,0 +1,21 @@
+setIcon("embers:ancient_motive_core")
+
+setTitle("Search and Destroy")
+
+setDescription("Locate a Golem and destroy them to loot Ancient Motive Cores and Archaic Bricks")
+
+setParent("triumph:stage0/weaponize")
+setRequiresParent(true)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria1 = addCriteria("killed_spider1", "minecraft:player_killed_entity")
+criteria.setEntityType("embers:ancient_golem")
+criteria1.setEntityType("emberroot:rainbow_golem")
+
+setRewardItem("embers:archaic_brick, 2, 0")
+
+
+setRequirements("any")
+
+
+

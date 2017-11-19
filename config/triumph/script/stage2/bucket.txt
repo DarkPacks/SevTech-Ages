@@ -1,0 +1,13 @@
+setIcon("minecraft:bucket")
+
+setTitle("They Be Stealin' My Bucket")
+
+setDescription("Now that you have acquired Iron, use your smeltery to cast an Iron Bucket")
+
+setParent("triumph:stage2/controller")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:bucket")
+
+setRewardExperience(8)

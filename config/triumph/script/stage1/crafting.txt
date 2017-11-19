@@ -1,0 +1,16 @@
+setIcon("minecraft:crafting_table")
+
+setTitle("Upgrade your crafting")
+
+setDescription("Craft a regular table")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+criteria.setItem("minecraft:crafting_table")
+
+setRewardExperience(4)
+
+//By not setting anything about requirements here, all criteria are automatically required

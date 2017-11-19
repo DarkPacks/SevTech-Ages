@@ -1,0 +1,16 @@
+setIcon("roots:spellcraft_book")
+
+setTitle("§2Join the Book Club")
+
+setDescription("Trade with a Villager for these useful books to learn Druidic Magic")
+
+setParent("triumph:stage0/birchbarktome")
+setRequiresParent(true)
+
+criteria = addCriteria("book1", "minecraft:inventory_changed")
+criteria2 = addCriteria("book2", "minecraft:inventory_changed")
+criteria.setItem("roots:spellcraft_book")
+criteria2.setItem("roots:herblore_book")
+
+
+setRewardExperience(4)

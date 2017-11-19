@@ -1,0 +1,16 @@
+{
+  "blockGroups": [
+    [
+      "treeLeaves"
+    ],
+    [
+      "logWood"
+    ]
+  ],
+  "strictSubtypes": [
+    "cropWheat",
+    "cropPotato",
+    "cropCarrot",
+    "cropNetherWart"
+  ]
+}

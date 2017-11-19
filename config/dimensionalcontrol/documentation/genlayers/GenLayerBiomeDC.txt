@@ -1,0 +1,61 @@
+A configurable version of the vanilla GenLayerBiome. Replaces the heat map with a 
+pseudo-random weighted biome map.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its seed and parent layer.
+
+addBiome:
+    Arguments:
+        String, Non_Null_Biome_ID, int
+    Usage:
+        biome type, biome ID, weight
+    Notes:
+        Adds the provided biome id to the provided type with the provided weight. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+
+addBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Adds the provided biome id to the provided type with a weight of 1. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+
+setSpecialBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Sets the special biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+
+setSpecialVariantChance:
+    Arguments:
+        String, int
+    Usage:
+        biome type, chance
+    Notes:
+        Sets the chance for the special variant biome to be used for the provided type. The chance is 1 in the provided number. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+
+setSpecialVariantChance:
+    Arguments:
+        int
+    Usage:
+        chance
+    Notes:
+        Sets the global chance for the special variant biome to be used. This will set the chance for all types. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
+
+setSpecialVariantBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Sets the special variant biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+

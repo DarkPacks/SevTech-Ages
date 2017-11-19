@@ -1,0 +1,14 @@
+setIcon("antiqueatlas:empty_antique_atlas")
+
+setTitle("§1Lost but Now Found")
+
+setDescription("Get a map from a Villager")
+
+setParent("triumph:stage0/birchbarktome")
+setRequiresParent(true)
+
+
+criteria = addCriteria("book1", "minecraft:inventory_changed")
+criteria.setItem("antiqueatlas:empty_antique_atlas", 0)
+
+setRewardExperience(4)

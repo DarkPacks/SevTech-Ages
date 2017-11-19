@@ -1,0 +1,47 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "fletcher",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:flint_point",
+          "Count": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        "sell": {
+          "id": "minecraft:string",
+          "Count": {
+            "min": 3,
+            "max": 8
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:wool",
+          "Count": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        "sell": {
+          "id": "primal:fire_bow",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    ]
+  }
+}

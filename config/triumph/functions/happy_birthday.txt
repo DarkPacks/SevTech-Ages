@@ -1,0 +1,25 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake
+give @p minecraft:cake

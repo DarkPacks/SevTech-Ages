@@ -1,0 +1,14 @@
+setIcon("astralsorcery:itemjournal")
+
+setTitle("This Is Going in My Diary")
+
+setDescription("Access the knowledge of the stars by crafting the Astral Sorcery Journal")
+
+setParent("triumph:stage1/aquamarine")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+criteria.setItem("astralsorcery:itemjournal")
+
+setRewardExperience(8)

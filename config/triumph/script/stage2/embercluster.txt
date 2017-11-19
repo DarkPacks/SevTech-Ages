@@ -1,0 +1,13 @@
+setIcon("embers:ember_cluster")
+
+setTitle("Clustered")
+
+setDescription("The Embers Cluster is a very powerful item used to power blocks and machines. Aside from the Tinkers' Smeltery Controller it's used in a number of recipes")
+
+setParent("triumph:stage2/alchemicaltable")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("embers:ember_cluster")
+
+setRewardExperience(8)

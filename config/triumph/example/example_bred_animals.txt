@@ -1,0 +1,21 @@
+//Set icon item
+setIcon("minecraft:wool")
+
+//Set title String
+setTitle("How is babby formed?")
+
+//Set description String
+setDescription("Breed a sheep, with a sheep, to produce... a sheep.")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "bred_sheep" with the trigger type "minecraft:bred_animals". This function returns the criteria as an object
+criteria = addCriteria("bred_sheep", "minecraft:bred_animals")
+
+//Sets the required parent entity type for the criteria. This is the entity that the player must breed with the partner entity.
+criteria.setParentType("minecraft:sheep")
+//Sets the required partner entity type for the criteria. This is the entity that the player must breed with the parent entity.
+criteria.setParentType("minecraft:sheep")
+//Sets the required child entity type for the criteria. This is the entity that the player must produce by breeding the parent and partner together.
+criteria.setParentType("minecraft:sheep")

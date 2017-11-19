@@ -1,0 +1,17 @@
+//Set the icon item
+setIcon("minecraft:melon")
+
+//Set the title String
+setTitle("Mmmmmmmmmm, melon")
+
+//Set the description String
+setDescription("Eat delicious melon")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
+criteria = addCriteria("consumed", "minecraft:consume_item")
+
+//Sets the required item for the criteria. This is the item that needs to be consumed. First variable is the item name, second is the metadata and is not required.
+criteria.setItem("minecraft:melon")

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon("minecraft:netherrack")
+
+//Set title String
+setTitle("Caveman no like red rocks.")
+
+//Set description String
+setDescription("Enter the nether")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "entered_nether" with the trigger type "minecraft:changed_dimension". This function returns the criteria as an object
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+
+//Sets the required destination dimension type for the criteria. Overworld is "overworld", Nether is "the_nether", End is "the_end".
+criteria.setDimensionDestination("the_nether")
+
+//By not setting anything about requirements here, all criteria are automatically required

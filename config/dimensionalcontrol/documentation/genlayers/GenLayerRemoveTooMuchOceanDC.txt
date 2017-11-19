@@ -1,0 +1,21 @@
+A configurable version of the vanilla GenLayerRemoveTooMuchOcean. Removes "excess" 
+ocean biomes.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its base seed and parent layer.
+
+setOceanSize:
+    Arguments:
+        String
+    Usage:
+        ocean size
+    Notes:
+        Sets the ocean size for the layer. Options are "Small", "Large", "Default". Small replaces all ocean with plains, large does nothing, default does vanilla removal behavior.
+

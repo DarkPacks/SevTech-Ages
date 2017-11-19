@@ -1,0 +1,13 @@
+setIcon("stevescarts:cartmodule", 38)
+
+setTitle("Steve's Carts Standard Hull")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/woodhull")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 38)
+
+setRewardExperience(8)

@@ -1,0 +1,16 @@
+//Set icon item
+setIcon("minecraft:iron_sword")
+
+//Set title String
+setTitle("Caveman hate spider!")
+
+//Set description String
+setDescription("Crush a spider.")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "killed_spider" with the trigger type "minecraft:player_killed_entity". This function returns the criteria as an object
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+//Sets the required entity type for the criteria. This is the entity that the player must kill.
+criteria.setEntityType("minecraft:spider")

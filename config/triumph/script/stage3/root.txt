@@ -1,0 +1,19 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon("rustic:iron_lantern")
+
+setTitle("Stage 3")
+
+setDescription("Welcome to the next stage!")
+
+setBackground("minecraft:textures/blocks/soul_sand.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage2/stevescarts")
+
+
+

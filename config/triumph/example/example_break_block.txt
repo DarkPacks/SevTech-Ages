@@ -1,0 +1,27 @@
+//Set icon item
+setIcon("minecraft:log")
+
+//Set title String
+setTitle("Caveman hate tree!")
+
+//Set description String
+setDescription("Break a wood block")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player. First variable is the block name, second is the metadata and is not required.
+criteria.setBlock("minecraft:log")
+
+//Adds a second criteria same as the first, but with the other vanilla log block
+criteria = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria.setBlock("minecraft:log2")
+
+//Sets the item reward. A second variable can be added for meta, and a third can be added for stack size
+setRewardItem("minecraft:melon", 0, 64)
+
+//Sets the requirements to be any. This means that if ANY of the criteria triggers is acquired, the advancement is acquired.
+setRequirements("any")

@@ -1,0 +1,16 @@
+setIcon("minecraft:saddle")
+
+setTitle("Don't Saddle For Anything Less")
+
+setDescription("Gotta Go Fast!")
+
+setParent("triumph:stage0/lead")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("minecraft:saddle")
+
+setRewardExperience(4)
+
+//By not setting anything about requirements here, all criteria are automatically required

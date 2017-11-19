@@ -1,0 +1,15 @@
+//Set icon item
+setIcon("minecraft:bedrock")
+
+//Set title String
+setTitle("Impossible!")
+
+//Set description String
+setDescription("This cannot be completed")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "impossible" with the trigger type "minecraft:impossible". This function returns the criteria as an object
+//This trigger type is impossible to complete. It is useful as the trigger for a root when you want to have a page of permanently hidden advancements. Vanilla uses this for the root of its recipes page.
+criteria = addCriteria("impossible", "minecraft:impossible")

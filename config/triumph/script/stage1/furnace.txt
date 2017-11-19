@@ -1,0 +1,15 @@
+setIcon("minecraft:furnace")
+
+setTitle("It's Getting Hot in Here")
+
+setDescription("Light up your life with a new furnace")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem("minecraft:furnace")
+
+setRewardExperience(4)
+
+//By not setting anything about requirements here, all criteria are automatically required

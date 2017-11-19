@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("minecraft:skull")
+
+//Set title String
+setTitle("What is hiss?")
+
+//Set description String
+setDescription("Get killed by a creeper.")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "killed_by_creeper" with the trigger type "minecraft:entity_killed_player". This function returns the criteria as an object
+criteria = addCriteria("killed_by_creeper", "minecraft:entity_killed_player")
+
+//Sets the required entity type for the criteria. This is the entity that the player must be killed by.
+criteria.setEntityType("minecraft:creeper")

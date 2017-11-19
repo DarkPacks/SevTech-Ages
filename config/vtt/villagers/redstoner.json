@@ -1,0 +1,10 @@
+{
+  "profession": {
+    "name": "vtt:redstoner",
+    "texture": "vtt:textures/entity/villager/redstoner.png",
+    "zombieTexture": "vtt:textures/entity/zombie_villager/zombie_redstoner.png"
+  },
+  "careers": [
+    "redstoner"
+  ]
+}

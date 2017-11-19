@@ -1,0 +1,14 @@
+setIcon("primal_tech:wooden_hopper")
+
+setTitle("Supersize It!")
+
+setDescription("Is your current Wooden Hopper not cutting it? Craft a Wopper Mk2 to add more functionality!")
+
+setParent("triumph:stage0/woodhopper1")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("primal_tech:wooden_hopper")
+
+setRewardExperience(7)

@@ -1,0 +1,16 @@
+setIcon("astikoor:wheel")
+
+setTitle("§5§l§nThe Wheels on the Bus")
+
+setDescription("You have invented... The Wheel!")
+
+setParent("triumph:stage0/saddle")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("astikoor:wheel", 0)
+
+setRewardExperience(4)
+
+//By not setting anything about requirements here, all criteria are automatically required

@@ -1,0 +1,22 @@
+//Set the icon item
+setIcon("primal_tech:work_stump")
+
+//Set the title String
+setTitle("I'm Stumped!")
+
+//Set the description String
+setDescription("No crafting tables! Use a Work Stump instead. To craft the items, place them on the table in the correct pattern and use a Crafting Rock to beat the recipe into existence. When you're finished place the rock in its home at the front of the table")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:stage0/collectplank")
+setRequiresParent(true)
+
+//Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+//Sets the required item for the criteria. This is the item that needs to be crafted. First variable is the item name, second is the metadata and is not required.
+criteria.setItem("primal_tech:work_stump")
+
+//Sets the item reward. A second variable can be added for meta, and a third can be added for stack size
+setRewardItem("primal_tech:rock, 1, 0")
+
+//By not setting anything about requirements here, all criteria are automatically required

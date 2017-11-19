@@ -1,0 +1,74 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "farmer",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:dye",
+          "Count": 8,
+          "Damage": 15
+        },
+        "sell": {
+          "id": "minecraft:farmland",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:dye",
+          "Count": 16,
+          "Damage": 15
+        },
+        "sell": {
+          "id": "rustic:apple_seeds",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:baked_potato",
+          "Count": 8
+        },
+        "sell": {
+          "id": "natura:overworld_seeds",
+          "Count": 1,
+          "Damage": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:food_carrot_baked",
+          "Count": 8
+        },
+        "sell": {
+          "id": "rustic:grape_stem",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:bread",
+          "Count": 4
+        },
+        "sell": {
+          "id": "rustic:tomato_seeds",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

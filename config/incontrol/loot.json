@@ -1,0 +1,417 @@
+[
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:arrow"
+  },
+  {
+    "mob": "Skeleton",
+    "remove": "minecraft:bow"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:iron_ingot"
+  },
+  {
+    "mob": "roots:deer",
+    "remove": "minecraft:leather"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:iron_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:iron_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:iron_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:iron_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:diamond_helmet"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:diamond_chestplate"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:diamond_leggings"
+  },
+  {
+    "mob": "Zombie",
+    "remove": "minecraft:diamond_boots"
+  },
+  {
+    "mob": "Witch",
+    "remove": "minecraft:glass_bottle"
+  },
+  {
+    "mob": "Witch",
+    "remove": "minecraft:potion"
+  },
+  {
+    "mob": "Witch",
+    "item": "quark:witch_hat",
+    "random": 0.5
+  },
+  {
+    "mob": "roots:deer",
+    "item": "primal:pelt_animal",
+    "random": 0.25
+  },
+  {
+    "mob": "Enderman",
+    "remove": "minecraft:ender_pearl"
+  },
+  {
+    "mob": "Enderman",
+    "item": "appliedenergistics2:material@46",
+    "random": 0.50
+  },
+  {
+    "mob": "totemic:buffalo",
+    "item": "totemic:buffalo_items@1",
+    "random": 0.5
+  },
+  {
+    "mob": "totemic:buffalo",
+    "item": "totemic:buffalo_items@1",
+    "random": 0.25
+  },
+  {
+    "mob": "totemic:buffalo",
+    "item": "totemic:buffalo_items@1",
+    "random": 0.10
+  },
+  {
+    "mob": "totemic:buffalo",
+    "remove": "primal:pelt_cow"
+  },
+  {
+    "mob": "primal:canis_campestris",
+    "item": "primal:pelt_wolf",
+    "random": 0.25
+  },
+  {
+    "mob": "emberroot:dire_wolf",
+    "item": "primal:pelt_wolf",
+    "random": 0.50
+  },
+  {
+    "mob": "emberroot:dire_wolf",
+    "item": "primal:wolf_head_item",
+    "random": 0.25
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:iron_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:leather_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:iron_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:iron_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:iron_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:iron_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:golden_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:chainmail_boots"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:diamond_helmet"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:diamond_chestplate"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:diamond_leggings"
+  },
+  {
+    "mob": "minecraft:zombie_villager",
+    "remove": "minecraft:diamond_boots"
+  },
+  {
+    "mob": "minecraft:vindication_illager",
+    "remove": "minecraft:emerald"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_ingot"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:gold_nugget"
+  },
+  {
+    "mob": "minecraft:zombie_pigman",
+    "remove": "minecraft:golden_sword"
+  },
+  {
+    "mob": "minecraft:evocation_illager",
+    "remove": "minecraft:emerald"
+  },
+  {
+    "mob": "Husk",
+    "remove": "minecraft:iron_ingot"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:arrow"
+  },
+  {
+    "mob": "Stray",
+    "remove": "minecraft:tipped_arrow"
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "remove": "minecraft:magma_cream"
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "remove": "minecraft:blaze_powder"
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "remove": "minecraft:obsidian"
+  },
+  {
+    "mob": "magma_monsters:magma_monster_grunt",
+    "remove": "minecraft:magma_cream"
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "item": "minecraft:coal@1",
+    "random": 0.45
+  },
+  {
+    "mob": "magma_monsters:magma_monster",
+    "item": "minecraft:coal@1",
+    "random": 0.15
+  },
+  {
+    "mob": "magma_monsters:magma_monster_grunt",
+    "item": "minecraft:coal@1",
+    "random": 0.45
+  },
+  {
+    "mob": "magma_monsters:magma_monster_grunt",
+    "item": "minecraft:coal@1",
+    "random": 0.15
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "remove": "minecraft:coal@1"
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "remove": "minecraft:fire_charge"
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "remove": "minecraft:iron_nugget"
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "remove": "minecraft:redstone"
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "remove": "minecraft:spider_eye"
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "item": "embers:archaic_brick",
+    "random": 1.0
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "item": "embers:archaic_brick",
+    "random": 0.50
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "item": "embers:archaic_brick",
+    "random": 0.25
+  },
+  {
+    "mob": "emberroot:rainbow_golem",
+    "item": "embers:ancient_motive_core",
+    "random": 1.0
+  },
+  {
+    "mob": "emberroot:witherwitch",
+    "remove": "minecraft:glass_bottle"
+  },
+  {
+    "mob": "emberroot:witherwitch",
+    "remove": "minecraft:potion"
+  },
+  {
+    "mob": "emberroot:witherwitch",
+    "item": "quark:witch_hat",
+    "random": 0.5
+  },
+  {
+    "mob": "Zombie",
+    "item": "minecraft:bone",
+    "random": 0.40
+  },
+  {
+    "mob": "totemic:buffalo",
+    "item": "minecraft:bone",
+    "random": 0.40
+  },
+  {
+    "mob": "emberroot:rootsonespriteling",
+    "remove": "minecraft:glowstone_dust"
+  },
+  {
+    "mob": "fat_cat:fat_cat",
+    "item": "minecraft:rotten_flesh",
+    "random": 0.75
+  },
+  {
+    "mob": "fat_cat:fat_cat",
+    "item": "minecraft:clock",
+    "random": 0.1
+  },
+  {
+    "mob": "fat_cat:fat_cat",
+    "item": "minecraft:bone",
+    "random": 0.65
+  },
+  {
+    "mob": "fat_cat:fat_cat",
+    "item": "bibliocraft:biblioglasses@2",
+    "random": 0.1
+  },
+  {
+    "mob": "Blaze",
+    "item": "minecraft:blaze_powder",
+    "random": 0.5
+  },
+  {
+    "mob": "nex:monster_spinout",
+    "item": "teslacorelib:gear_stone",
+    "random": 0.33
+  },
+  {
+    "mob": "nex:monster_spinout",
+    "item": "contenttweaker:material_part",
+    "random": 0.015
+  },
+  {
+    "mob": "nex:monster_spinout",
+    "remove": "minecraft:quartz"
+  }
+]

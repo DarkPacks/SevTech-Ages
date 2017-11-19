@@ -1,0 +1,15 @@
+setIcon("embers:ingot_copper")
+
+setTitle("Get To The Copper")
+
+setDescription("Find a surface sample and dig for copper! Located Y12 to 45 and named Malachite or Azurite")
+
+setParent("triumph:stage1/plumbline")
+setRequiresParent(true)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore", 2)
+criteria2.setBlock("geolosys:ore", 3)
+
+setRequirements("any")

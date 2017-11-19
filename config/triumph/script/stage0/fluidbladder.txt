@@ -1,0 +1,15 @@
+setIcon("primal_tech:fluid_bladder")
+
+setTitle("Bladder Than Nothing")
+
+setDescription("No buckets! Use a Fluid Bladder to craft with")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("primal_tech:fluid_bladder")
+
+setRewardExperience(4)
+

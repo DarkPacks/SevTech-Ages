@@ -1,0 +1,27 @@
+setIcon("minecraft:cobblestone")
+
+setTitle("Railways")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+
+criteria.setItem("minecraft:rail")
+criteria1.setItem("minecraft:golden_rail")
+criteria2.setItem("betterwithmods:booster")
+criteria3.setItem("minecraft:detector_rail")
+criteria4.setItem("minecraft:activator_rail")
+criteria5.setItem("tconstruct:wood_rail_trapdoor")
+criteria6.setItem("tconstruct:wood_rail")
+
+
+setRewardExperience(12)

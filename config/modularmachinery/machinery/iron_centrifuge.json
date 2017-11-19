@@ -1,0 +1,169 @@
+{
+    "registryname": "iron_centrifuge",
+    "localizedname": "Iron Reinforced Centrifuge",
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "casings_all"
+        },
+
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": "casings_all"
+        },
+
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": "casings_all"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "minecraft:glass"
+        },
+
+
+
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": "minecraft:iron_block"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:iron_bars"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "minecraft:water"
+        }
+
+    ]
+}

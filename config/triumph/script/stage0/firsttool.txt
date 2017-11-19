@@ -1,0 +1,11 @@
+setIcon("primal:flint_hatchet")
+
+setTitle("It's Too Dangerous to Go Alone")
+
+setDescription("Craft a Flint Hatchet")
+
+setParent("triumph:stage0/root")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem("primal:flint_hatchet")

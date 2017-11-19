@@ -1,0 +1,18 @@
+setIcon("totemic:drum")
+
+setTitle("Shake, Rattle, and Roll")
+
+setDescription("Craft the instruments needed create a magical ceremony")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria.setItem("totemic:rattle")
+criteria2.setItem("totemic:flute")
+criteria3.setItem("totemic:drum")
+
+setRewardItem("totemic:totempedia", 1, 0)
+

@@ -1,0 +1,15 @@
+setIcon("prospectors:prospector_lowest")
+
+setTitle("Prospecting")
+
+setDescription("Craft a Weak Dowsing Rod to help you locate ore")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+criteria.setItem("prospectors:prospector_lowest")
+
+setRewardExperience(4)
+

@@ -1,0 +1,16 @@
+setIcon("primal_tech:stone_anvil")
+
+setTitle("Anvil Lavigne")
+
+setDescription("Need plates? Smash some ingots with a mallet on the Stone Anvil")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+criteria.setItem("primal_tech:stone_anvil")
+
+setRewardItem("primal_tech:stone_mallet", 0, 1)
+
+//By not setting anything about requirements here, all criteria are automatically required

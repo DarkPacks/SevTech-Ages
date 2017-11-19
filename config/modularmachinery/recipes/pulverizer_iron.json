@@ -1,0 +1,35 @@
+{
+    "machine": "pulverizer",
+    "registryName": "pulverizer_iron",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:iron_ingot",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:iron_ingot",
+            "amount": 1,
+            "chance": 0.05
+        }, 
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:iron_ore",
+            "amount": 1
+        }
+    ]
+}
+
+
+
+

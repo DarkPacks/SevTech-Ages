@@ -1,0 +1,26 @@
+setIcon("abyssalcraft:necronomicon")
+
+setTitle("Enter the Darklands")
+
+setDescription("Find and enter a dark biome")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+criteria = addCriteria("entered_forest", "minecraft:location")
+criteria2 = addCriteria("entered_forest2", "minecraft:location")
+criteria3 = addCriteria("entered_forest3", "minecraft:location")
+criteria4 = addCriteria("entered_forest4", "minecraft:location")
+criteria5 = addCriteria("entered_forest5", "minecraft:location")
+criteria6 = addCriteria("entered_forest6", "minecraft:location")
+
+
+criteria.setBiome("abyssalcraft:darklands")
+criteria2.setBiome("abyssalcraft:darklands_forest")
+criteria3.setBiome("abyssalcraft:darklands_plains")
+criteria4.setBiome("abyssalcraft:darklands_hills")
+criteria5.setBiome("abyssalcraft:darklands_mountains")
+criteria6.setBiome("abyssalcraft:coralium_infested_swamp")
+
+
+setRequirements("any")

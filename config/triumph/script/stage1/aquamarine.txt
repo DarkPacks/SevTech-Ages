@@ -1,0 +1,13 @@
+setIcon("contenttweaker:sub_block_holder_0")
+
+setTitle("The Search for Aquamarine")
+
+setDescription("Travel to the beneath and search the upper caves for Aquamarine gems")
+
+setParent("triumph:stage1/beneath")
+setRequiresParent(true)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("contenttweaker:sub_block_holder_0")
+
+setRewardExperience(8)

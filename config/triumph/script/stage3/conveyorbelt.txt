@@ -1,0 +1,13 @@
+setIcon("immersiveengineering:conveyor")
+
+setTitle("Conveyor Belt")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/workbench")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:conveyor")
+
+setRewardExperience(8)

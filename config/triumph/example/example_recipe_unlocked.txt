@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("minecraft:crafting_table")
+
+//Set title String
+setTitle("Recipe Unlocked!")
+
+//Set description String
+setDescription("Unlock the recipe for diamonds")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "unlocked_recipe" with the trigger type "minecraft:recipe_unlocked". This function returns the criteria as an object
+criteria = addCriteria("unlocked_recipe", "minecraft:recipe_unlocked")
+
+//Sets the required recipe for the criteria. This is the recipe that the player must unlock.
+criteria.setString("minecraft:diamond")

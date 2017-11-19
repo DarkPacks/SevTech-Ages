@@ -1,0 +1,13 @@
+setIcon("minecraft:cobblestone")
+
+setTitle("Caveman like rock!")
+
+setDescription("Acquire delicious cobblestone")
+
+setParent("triumph:example/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:cobblestone")
+
+setRewardExperience(4)

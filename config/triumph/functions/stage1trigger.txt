@@ -1,0 +1,3 @@
+gamestage add @p one
+summon minecraft:fireworks_rocket ~ ~ ~
+say You are Now In Stage 1

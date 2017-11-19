@@ -1,0 +1,14 @@
+mekcrusher= ae2:material.FluixCrystal -> ae2:material.FluixDust
+mekcrusher= ae2:sky_stone_block:0 -> ae2:material.SkyDust
+mekcrusher= mc:ender_pearl -> ae2:material.EnderDust
+mekcrusher= ae2:material.CertusQuartzCrystalCharged -> ae2:material.CertusQuartzDust
+mekcrusher= ae2:material.CertusQuartzCrystal -> ae2:material.CertusQuartzDust
+mekcrusher= mc:quartz -> ae2:material.NetherQuartzDust
+mekechamber= ae2:quartz_ore -> 3 ae2:material.CertusQuartzDust
+mekechamber= ae2:charged_quartz_ore -> 3 ae2:material.CertusQuartzDust
+
+#nb, mekanism adds its own sand -> silicon based on oredict.
+
+#allow crystal reconstruction
+#mekechamber= ae2:material.CertusQuartzDust -> ae2:material.CertusQuartzCrystal
+#mekechamber= ae2:material.FluixDust -> ae2:material.FluixCrystal

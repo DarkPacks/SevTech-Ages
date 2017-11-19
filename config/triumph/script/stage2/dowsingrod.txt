@@ -1,0 +1,14 @@
+setIcon("prospectors:prospector_low")
+
+setTitle("Upgrade Your Prospects")
+
+setDescription("Craft Tough Dowsing Rod to help locate a larger variety of ores")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem("prospectors:prospector_low")
+
+
+setRewardExperience(8)

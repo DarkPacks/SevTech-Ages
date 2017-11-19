@@ -1,0 +1,11 @@
+{
+  "Profession": "minecraft:butcher",
+  "Career": "butcher",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      }
+    ]
+  }
+}

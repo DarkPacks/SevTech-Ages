@@ -1,0 +1,34 @@
+//Set icon item
+setIcon("minecraft:cake")
+
+//Set title String
+setTitle("Happy Birthday Darkosto!")
+
+//Set description String
+setDescription("I am so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, sorry")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Sets the frame type
+setFrameType("challenge")
+
+//Adds criteria for most things, so this gets triggered almost immediately.
+addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("enterDimension", "minecraft:changed_dimension")
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("killEntity", "minecraft:player_killed_entity")
+addCriteria("killedByEntity", "minecraft:entity_killed_player")
+
+//Sets the item reward. A second variable can be added for meta, and a third can be added for stack size
+setRewardItem("minecraft:cake", 0, 64)
+
+//Sets the experience reward
+setRewardExperience(500000000000000)
+
+//Sets the function reward
+setRewardFunction("triumph:happy_birthday")
+
+//Sets the requirements to be any. This means that if ANY of the criteria triggers is acquired, the advancement is acquired.
+setRequirements("any")

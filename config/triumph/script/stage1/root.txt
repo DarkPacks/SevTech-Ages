@@ -1,0 +1,19 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon("progressiontweaks:stone_hammer")
+
+setTitle("Stage 1")
+
+setDescription("Welcome to the next stage!")
+
+setBackground("embers:textures/blocks/ore_tin_vanilla.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("completedStage0", "triumph:completed_advancement")
+criteria.setString("triumph:stage0/melter")
+
+
+

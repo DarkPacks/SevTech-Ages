@@ -1,0 +1,14 @@
+setIcon("abyssalcraft:shadowgem")
+
+setTitle("§5Dark Gems")
+
+setDescription("Acquire a Shadow Gem from Shadow Creatures residing in the darklands")
+
+setParent("triumph:stage0/abyssalbiome")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("abyssalcraft:shadowgem", 0)
+
+setRewardExperience(4)

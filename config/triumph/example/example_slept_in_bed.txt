@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("minecraft:bed")
+
+//Set title String
+setTitle("Nap time in the forest!")
+
+//Set description String
+setDescription("Sleep in a bed in a forest biome")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/example_enter_biome")
+
+//Adds criteria named "slept_in_bed" with the trigger type "minecraft:slept_in_bed". This function returns the criteria as an object
+criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")
+
+//Sets the required biome for the criteria. This is the biome the player must be in.
+criteria.setBiome("minecraft:forest")

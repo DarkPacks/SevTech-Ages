@@ -1,0 +1,3 @@
+shapeless=
+    ae2:material.CalcProcessor mc:redstone_torch
+    -> ae2:part.LevelEmitter

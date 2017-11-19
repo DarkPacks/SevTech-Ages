@@ -1,0 +1,14 @@
+setIcon("minecraft:coal")
+
+setTitle("Locate and mine coal")
+
+setDescription("Find a surface sample and dig for coal! Located Y48 to 70")
+
+setParent("triumph:stage1/plumbline")
+setRequiresParent(true)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore_vanilla")
+
+
+

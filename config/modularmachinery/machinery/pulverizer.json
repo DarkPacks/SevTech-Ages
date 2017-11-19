@@ -1,0 +1,174 @@
+{
+    "registryname": "pulverizer",
+    "localizedname": "Pulverizer",
+    "color": "f44295",
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": "minecraft:stone"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": "minecraft:stone"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": "minecraft:stone"
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": "minecraft:stone"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+
+
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:cobblestone"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": "minecraft:cobblestone"
+        },
+
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": "minecraft:water"
+        },
+
+
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": "modularmachinery:blockcasing@0"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": "modularmachinery:blockcasing@0"
+        }
+    ]
+}

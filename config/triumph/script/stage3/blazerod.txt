@@ -1,0 +1,13 @@
+setIcon("minecraft:blaze_rod", 0)
+
+setTitle("Blaze Rod")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:blaze_rod", 0)
+
+setRewardExperience(12)

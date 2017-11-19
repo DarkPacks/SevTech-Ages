@@ -1,0 +1,23 @@
+This file is for basic mod options. It does nothing to modify dimensions. Dimensions 
+can be traversed using custom portals or with the command /tpdim dimension <x> <y> 
+<z>. If DimensionalControl.cfg does not exist, default configs and documentation 
+will be printed.
+
+
+
+printDocumentation:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether DimensionalControl should print config documentation.
+
+printDefaultConfigs:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether DC should print default config files. This will replace files. Always backup first!
+

@@ -1,0 +1,13 @@
+setIcon("ceramics:clay_barrel", 1)
+
+setTitle("Extensions")
+
+setDescription("Craft a Barrel Extension and place it on top of a Barrel to increase the amount of liquid it can hold")
+
+setParent("triumph:stage1/claybarrel")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ceramics:clay_barrel", 1)
+
+setRewardExperience(6)

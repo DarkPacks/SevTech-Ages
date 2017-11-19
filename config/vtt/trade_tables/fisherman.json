@@ -1,0 +1,37 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "fisherman",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:fish",
+          "Count": 16,
+          "Damage": 1
+        },
+        "sell": {
+          "id": "cyclicmagic:block_fishing",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:cooked_fish",
+          "Count": 10,
+          "Damage": 1
+        },
+        "sell": {
+          "id": "cyclicmagic:block_fishing",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

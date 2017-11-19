@@ -1,0 +1,14 @@
+setIcon("primal_tech:wooden_basin")
+
+setTitle("Stirring the Pot")
+
+setDescription("Looking for a more efficient way to make leather or dough? Craft the Wooden Basin, fill it with the correct liquid and items, then stir!")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("primal_tech:wooden_basin")
+
+setRewardExperience(4)

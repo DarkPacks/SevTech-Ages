@@ -1,0 +1,4 @@
+gamestage add @p two
+summon minecraft:fireworks_rocket ~ ~ ~
+astralsorcery research @p BASIC_CRAFT
+say You are Now In Stage 2

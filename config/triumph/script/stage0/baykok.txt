@@ -1,0 +1,11 @@
+setIcon("totemic:baykok_bow")
+
+setTitle("Spooky Boss Battle")
+
+setDescription("Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow")
+
+setParent("triumph:stage0/buffalo")
+setRequiresParent(true)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("totemic:baykok")

@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("minecraft:map")
+
+//Set title String
+setTitle("To the forest!")
+
+//Set description String
+setDescription("Enter a forest biome")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "entered_forest" with the trigger type "minecraft:location". This function returns the criteria as an object
+criteria = addCriteria("entered_forest", "minecraft:location")
+
+//Sets the required biome for the criteria. This is the biome the player must be in.
+criteria.setBiome("minecraft:forest")

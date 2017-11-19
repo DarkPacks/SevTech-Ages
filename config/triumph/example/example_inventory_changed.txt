@@ -1,0 +1,21 @@
+//Set icon item
+setIcon("minecraft:cobblestone")
+
+//Set title String
+setTitle("Caveman like rock!")
+
+//Set description String
+setDescription("Acquire delicious cobblestone")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "hasRock" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+//Sets the required item for the criteria. This is the item that needs to be in the player inventory. First variable is the item name, second is the metadata and is not required.
+criteria.setItem("minecraft:cobblestone")
+
+//Sets the experience reward for the advancement.
+setRewardExperience(500)
+
+//By not setting anything about requirements here, all criteria are automatically required

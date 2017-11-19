@@ -1,0 +1,27 @@
+{
+  "Profession": "minecraft:priest",
+  "Career": "necromancer",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "abyssalcraft:shadowshard",
+          "Count": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        "sell": {
+          "id": "abyssalcraft:stone",
+          "Count": 1,
+          "Damage": 7
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Profession": "minecraft:butcher",
+  "Career": "leather",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "buy": {
+          "id": "primal:pelt_horse",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "primal:leather_cordage",
+          "Count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        "CareerLevel": 1
+      },
+      {
+        "action": "add",
+        "buy": {
+          "id": "primal:pelt_llama",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:saddle",
+          "Count": 1
+        },
+        "CareerLevel": 1
+      },
+      {
+        "action": "add",
+        "buy": {
+          "id": "primal:pelt_cow",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather_helmet",
+          "Count": 1
+        },
+        "CareerLevel": 1
+      },
+      {
+        "action": "add",
+        "buy": {
+          "id": "primal:pelt_sheep",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather",
+          "Count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        "CareerLevel": 1
+      }
+    ]
+  }
+}

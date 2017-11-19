@@ -1,0 +1,13 @@
+setIcon("embers:ingot_dawnstone")
+
+setTitle("It Just Dawned on Me")
+
+setDescription("Dawnstone is a stronger type of alloy needed for a number of recipes, armor, and tools. Craft a Dawnstone Ingot to get started")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("embers:ingot_dawnstone")
+
+setRewardExperience(8)

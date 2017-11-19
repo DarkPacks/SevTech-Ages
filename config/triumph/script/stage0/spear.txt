@@ -1,0 +1,14 @@
+setIcon("progressiontweaks:spear")
+
+setTitle("Spearmint")
+
+setDescription("Craft a spear for fishing and ranged combat")
+
+setParent("triumph:stage0/weaponize")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("progressiontweaks:spear")
+
+setRewardExperience(4)
+

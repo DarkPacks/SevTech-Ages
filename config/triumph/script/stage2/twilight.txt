@@ -1,0 +1,13 @@
+setIcon("astralsorcery:itemcraftingcomponent", 1)
+
+setTitle("Enter the Twilight")
+
+setDescription("Enter the Twilight Forest dimension to continue your journey. Fill a 2x2 hole with water, surround it with plants, saplings, or flowers and throw a Starmetal Ingot into the water to create the portal")
+
+setParent("triumph:stage2/astable2")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent", 1)
+
+setRewardExperience(10)

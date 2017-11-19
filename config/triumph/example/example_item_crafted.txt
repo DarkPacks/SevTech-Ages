@@ -1,0 +1,21 @@
+//Set the icon item
+setIcon("minecraft:crafting_table")
+
+//Set the title String
+setTitle("Caveman like stick!")
+
+//Set the description String
+setDescription("Craft a stick")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+//Sets the required item for the criteria. This is the item that needs to be crafted. First variable is the item name, second is the metadata and is not required.
+criteria.setItem("minecraft:stick")
+
+//Sets the item reward. A second variable can be added for meta, and a third can be added for stack size
+setRewardItem("minecraft:pumpkin, 0, 42")
+
+//By not setting anything about requirements here, all criteria are automatically required

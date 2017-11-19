@@ -1,0 +1,13 @@
+setIcon("primal_tech:fire_sticks")
+
+setTitle("I HAVE CREATED FIRE")
+
+setDescription("Use a Fire Stick in Each hand and click on a block to create fire")
+
+setParent("triumph:stage0/firsttool")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:fire_sticks")
+
+setRewardItem("primal_tech:fire_sticks, 1, 0")

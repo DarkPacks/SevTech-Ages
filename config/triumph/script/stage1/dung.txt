@@ -1,0 +1,18 @@
+setIcon("dungpipe:dung_pipe")
+
+setTitle("Pipe Me Up Inside")
+
+setDescription("Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:stage1/core")
+setRequiresParent(true)
+
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria1 = addCriteria("placedDirt1", "minecraft:placed_block")
+criteria.setBlock("dungpipe:dung_pipe")
+criteria1.setBlock("dungpipe:sewer_pipe")
+
+setRewardExperience(4)
+
+setRequirements("any")

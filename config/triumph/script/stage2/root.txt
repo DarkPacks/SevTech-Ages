@@ -1,0 +1,19 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon("astralsorcery:itemcraftingcomponent", 4)
+
+setTitle("Stage 2")
+
+setDescription("Welcome to the next stage!")
+
+setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage1/astable")
+
+
+

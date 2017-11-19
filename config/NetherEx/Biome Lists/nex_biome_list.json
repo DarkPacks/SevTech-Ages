@@ -1,0 +1,1332 @@
+{
+    "name": "NetherEx Biome List",
+    "mods": [
+        {
+            "modId": "nex",
+            "biomes": [
+                {
+                    "biomeId": "torrid_wasteland",
+                    "weight": 6,
+                    "climateType": "hot",
+                    "topBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                    "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                    "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
+                    "entitySpawnList": [
+                        { "entityId": "nex:neutral_salamander", "creatureType": "monster", "weight": 100, "minGroupCount": 3, "maxGroupCount": 6 },
+                        { "entityId": "nex:monster_ember", "creatureType": "monster", "weight": 50, "minGroupCount": 4, "maxGroupCount": 6 },
+                        { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 4 }
+                    ],
+                    "featureList": [
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "hidden": false,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "scattered",
+                            "blockToSpawn": { "blockId": "minecraft:fire", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "rarity": 30,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_quartz", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "size": 14,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:block_basalt", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "size": 24,
+                            "rarity": 14,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "minecraft:magma", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "size": 32,
+                            "rarity": 12,
+                            "minHeight": 28,
+                            "maxHeight": 38
+                        },
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "hidden": true,
+                            "rarity": 48,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "pool",
+                            "blockToSpawn": { "blockId": "minecraft:lava", "meta": 0 },
+                            "surroundingBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
+                            "rarity": 8,
+                            "minHeight": 32,
+                            "maxHeight": 96
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:crypt_torrid_wasteland",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_torrid_wasteland" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_torrid_wasteland_chest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_base" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_torrid_wasteland_empty",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:graveyard_torrid_wasteland",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_torrid_wasteland" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:sarcophagus_torrid_wasteland",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 84,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:pyramid_torrid_wasteland_advanced",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/temple_torrid_wasteland", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:pyramid_torrid_wasteland_hard",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2,
+                                    "lootTables": [ "nex:chest/temple_torrid_wasteland", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:pyramid_torrid_wasteland_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3,
+                                    "lootTables": [ "nex:chest/temple_torrid_wasteland", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:pyramid_torrid_wasteland_easy",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 4,
+                                    "lootTables": [ "nex:chest/temple_torrid_wasteland", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 4,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        }
+                    ]
+                },
+                {
+                    "biomeId": "hell",
+                    "weight": 10,
+                    "climateType": "warm",
+                    "topBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                    "fillerBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                    "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
+                    "entitySpawnList": [
+                        { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:ghast", "creatureType": "monster", "weight": 50, "minGroupCount": 4, "maxGroupCount": 4 },
+                        { "entityId": "nex:monster_ember", "creatureType": "monster", "weight": 25, "minGroupCount": 4, "maxGroupCount": 6 },
+                        { "entityId": "minecraft:blaze", "creatureType": "monster", "weight": 3, "minGroupCount": 4, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:magma_cube", "creatureType": "monster", "weight": 2, "minGroupCount": 4, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:enderman", "creatureType": "monster", "weight": 1, "minGroupCount": 4, "maxGroupCount": 4 }
+                    ],
+                    "featureList": [
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "hidden": false,
+                            "rarity": 8,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "scattered",
+                            "blockToSpawn": { "blockId": "minecraft:fire", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "scattered",
+                            "blockToSpawn": { "blockId": "minecraft:brown_mushroom", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "rarity": 5,
+                            "superRare": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "scattered",
+                            "blockToSpawn": { "blockId": "minecraft:red_mushroom", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "rarity": 5,
+                            "superRare": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "minecraft:quartz_ore", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 14,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_amethyst", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 3,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "minecraft:magma", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "size": 32,
+                            "rarity": 4,
+                            "minHeight": 28,
+                            "maxHeight": 38
+                        },
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
+                            "hidden": true,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:crypt_hell",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_hell" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_hell_chest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_base" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_hell_empty",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:graveyard_hell",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_hell" ],
+                                    "spawnerMobs": [ "minecraft:zombie_pigman", "minecraft:magma_cube" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:sarcophagus_hell",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "minecraft:zombie_pigman", "minecraft:magma_cube" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 84,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:mausoleum_hell",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "minecraft:zombie_pigman", "minecraft:magma_cube" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_huge",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_large_variant",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_large",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_medium_variant_2",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 4,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_medium_variant",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 5,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_medium",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 6,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_small_variant_2",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 7,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_small_variant",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 8,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_small",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 9,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_tiny_variant_3",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 10,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_tiny_variant_2",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 11,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_tiny_variant",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 12,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:village_pigtificate_hell_tiny",
+                                    "replacedBlock": "minecraft:structure_void",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 13,
+                                    "lootTables": [ "nex:chest/base_village", "nex:chest/base_temple", "nex:chest/temple_rare" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 2,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        }
+                    ]
+                },
+                {
+                    "biomeId": "ruthless_sands",
+                    "weight": 8,
+                    "climateType": "temperate",
+                    "topBlock": { "blockId": "minecraft:soul_sand", "meta": 0 },
+                    "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
+                    "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
+                    "entitySpawnList": [
+                        { "entityId": "nex:monster_spinout", "creatureType": "monster", "weight": 100, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:wither_skeleton", "creatureType": "monster", "weight": 65, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 45, "minGroupCount": 1, "maxGroupCount": 4 }
+                    ],
+                    "featureList": [
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
+                            "hidden": false,
+                            "rarity": 8,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_quartz", "meta": 3 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
+                            "size": 14,
+                            "rarity": 24,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "fluid",
+                            "blockToSpawn": { "blockId": "minecraft:flowing_lava", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
+                            "hidden": true,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:crypt_ruthless_sands",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_ruthless_sands" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_ruthless_sands_chest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_base" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_ruthless_sands_empty",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:graveyard_ruthless_sands",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_ruthless_sands" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:sarcophagus_ruthless_sands",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 84,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:altar_ruthless_sands_destroyed",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:altar_ruthless_sands_ruined",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:altar_ruthless_sands_intact",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:waypoint_ruthless_sands",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 32,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        }
+                    ]
+                },
+                {
+                    "biomeId": "fungi_forest",
+                    "biome_weight": 4,
+                    "climateType": "cool",
+                    "topBlock": { "blockId": "nex:block_hyphae", "meta": 0 },
+                    "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 2 },
+                    "oceanBlock": { "blockId": "minecraft:lava", "meta": 0 },
+                    "entitySpawnList": [
+                        { "entityId": "nex:neutral_mogus", "creatureType": "monster", "weight": 100, "minGroupCount": 4, "maxGroupCount": 6 },
+                        { "entityId": "nex:monster_spore_creeper", "creatureType": "monster", "weight": 50, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "nex:monster_spore", "creatureType": "monster", "weight": 25, "minGroupCount": 1, "maxGroupCount": 4 }
+                    ],
+                    "featureList": [
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_quartz", "meta": 2 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 2 },
+                            "size": 14,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:crypt_fungi_forest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_fungi_forest" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_fungi_forest_chest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_base" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_fungi_forest_empty",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:graveyard_fungi_forest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_fungi_forest" ],
+                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:sarcophagus_fungi_forest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 84,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:temple_fungi_forest_hard",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:temple_fungi_forest_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2,
+                                    "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:temple_fungi_forest_easy",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3,
+                                    "lootTables": [ "nex:chest/temple_fungi_forest", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "nex:monster_spore_creeper" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "air",
+                                    "structureId": "nex:castle_fungi_forest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:ghast" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 192,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        }
+                    ]
+                },
+                {
+                    "biomeId": "arctic_abyss",
+                    "weight": 1,
+                    "climateType": "cold",
+                    "topBlock": { "blockId": "nex:block_ice_frostburn", "meta": 0 },
+                    "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
+                    "oceanBlock": { "blockId": "minecraft:magma", "meta": 0 },
+                    "entitySpawnList": [
+                        { "entityId": "nex:monster_wight", "creatureType": "monster", "weight": 100, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:ghast", "creatureType": "monster", "weight": 50, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "nex:monster_bone_spider", "creatureType": "monster", "weight": 35, "minGroupCount": 1, "maxGroupCount": 4 },
+                        { "entityId": "minecraft:zombie_pigman", "creatureType": "monster", "weight": 25, "minGroupCount": 1, "maxGroupCount": 1 },
+                        { "entityId": "nex:monster_brute", "creatureType": "monster", "weight": 15, "minGroupCount": 1, "maxGroupCount": 1 }
+                    ],
+                    "featureList": [
+                        {
+                            "featureType": "scattered",
+                            "blockToSpawn": { "blockId": "nex:block_fire_blue", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_ice_frostburn", "meta": 0 },
+                            "rarity": 5,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "randomRarity": true,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "clumped",
+                            "blockToSpawn": { "blockId": "minecraft:glowstone", "meta": 0 },
+                            "rarity": 10,
+                            "minHeight": 32,
+                            "maxHeight": 128
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_quartz", "meta": 1 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
+                            "size": 14,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "ore",
+                            "blockToSpawn": { "blockId": "nex:ore_rime", "meta": 0 },
+                            "targetBlock": { "blockId": "nex:block_netherrack", "meta": 1 },
+                            "size": 7,
+                            "rarity": 16,
+                            "minHeight": 10,
+                            "maxHeight": 118
+                        },
+                        {
+                            "featureType": "pool",
+                            "blockToSpawn": { "blockId": "nex:fluid_ichor", "meta": 0 },
+                            "surroundingBlock": { "blockId": "nex:block_ice_frostburn", "meta": 1 },
+                            "rarity": 6,
+                            "superRare": true,
+                            "minHeight": 32,
+                            "maxHeight": 96
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:crypt_arctic_abyss",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_arctic_abyss" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_arctic_abyss_chest",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_base" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:grave_arctic_abyss_empty",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:graveyard_arctic_abyss",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/base_grave", "nex:chest/grave_rare", "nex:chest/grave_arctic_abyss" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:sarcophagus_arctic_abyss",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_ember" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 84,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_skull_huge_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_skull_creeper_variant",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_skull_creeper",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_skull_extinct_variant",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 4
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_skull_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 5
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_jaw_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 6
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_rib_huge_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 7
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_rib_creeper",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 8
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_rib_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 9
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_leg_creeper_variant_2",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 10
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_leg_creeper_variant",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 11
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_leg_creeper",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 12
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_leg_extinct_variant",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 13
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_leg_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 14
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_tail_huge_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 15
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_tail_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 16
+                                },
+                                {
+                                    "structureType": "wall",
+                                    "structureId": "nex:fossil_arctic_abyss_fin_extinct",
+                                    "replacedBlock": "minecraft:air",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 17
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 64,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:prison_arctic_abyss_large",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1,
+                                    "lootTables": [ "nex:chest/grave_rare", "nex:chest/temple_arctic_abyss", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_wight", "nex:monster_bone_spider" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:prison_arctic_abyss_medium_variant",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2,
+                                    "lootTables": [ "nex:chest/grave_rare", "nex:chest/temple_arctic_abyss", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_wight", "nex:monster_bone_spider" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:prison_arctic_abyss_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3,
+                                    "lootTables": [ "nex:chest/grave_rare", "nex:chest/temple_arctic_abyss", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_wight", "nex:monster_bone_spider" ]
+                                },
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:prison_arctic_abyss_small",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 4,
+                                    "lootTables": [ "nex:chest/grave_rare", "nex:chest/temple_arctic_abyss", "nex:chest/temple_rare" ],
+                                    "spawnerMobs": [ "minecraft:blaze", "nex:monster_wight", "nex:monster_bone_spider" ]
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 4,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_island_large",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_island_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_island_small",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 1,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_hanging_long",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_hanging_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_hanging_short",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 24,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        },
+                        {
+                            "featureType": "structure",
+                            "structureList": [
+                                {
+                                    "structureType": "ground",
+                                    "structureId": "nex:chain_arctic_abyss_fallen_long",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 1
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_fallen_medium",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 2
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_fallen_short_variant",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 3
+                                },
+                                {
+                                    "structureType": "hanging",
+                                    "structureId": "nex:chain_arctic_abyss_fallen_short",
+                                    "rotate": true,
+                                    "mirror": true,
+                                    "weight": 4
+                                }
+                            ],
+                            "superRare": true,
+                            "rarity": 12,
+                            "minHeight": 32,
+                            "maxHeight": 112
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

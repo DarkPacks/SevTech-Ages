@@ -1,0 +1,14 @@
+The role of a BiomeProvider is to handle the generation of the dimensions biome map. 
+This particular type uses only a single biome, and is what is used for the Nether 
+and the End.
+
+
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome ID
+    Notes:
+        Sets the single biome to be used for this BiomeProvider as the provided biome ID.
+

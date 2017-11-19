@@ -1,0 +1,17 @@
+setIcon("actuallyadditions:block_atomic_reconstructor")
+
+setTitle("Atomic Reconstruction")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("actuallyadditions:block_atomic_reconstructor")
+
+
+
+
+setRewardExperience(16)
+setRewardFunction("triumph:stage5trigger") 

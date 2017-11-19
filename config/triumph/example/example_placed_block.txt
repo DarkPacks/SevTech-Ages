@@ -1,0 +1,11 @@
+setIcon("minecraft:dirt")
+
+setTitle("That's dirty!")
+
+setDescription("Place a dirt block")
+
+setParent("triumph:example/root")
+
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+
+criteria.setBlock("minecraft:dirt")

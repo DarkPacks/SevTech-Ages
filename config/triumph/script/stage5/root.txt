@@ -1,0 +1,19 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon("industrialforegoing:laser_lens", 14)
+
+setTitle("Stage 5")
+
+setDescription("Welcome to the next stage!")
+
+setBackground("minecraft:textures/blocks/stone.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage4/atomicreconstructor")
+
+
+

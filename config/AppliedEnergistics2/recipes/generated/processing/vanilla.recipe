@@ -1,0 +1,8 @@
+# Ore Processing
+smelt= ae2:material.GoldDust -> mc:gold_ingot
+smelt= ae2:material.IronDust -> mc:iron_ingot
+smelt= ae2:material.Flour -> mc:bread
+
+# Silicon
+smelt= ae2:material.NetherQuartzDust -> ae2:material.Silicon
+smelt= ae2:material.CertusQuartzDust -> ae2:material.Silicon

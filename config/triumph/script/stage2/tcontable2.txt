@@ -1,0 +1,15 @@
+setIcon("tconstruct:tooltables", 1)
+
+setTitle("Part Maker")
+
+setDescription("You can start working on replacing your tools by crafting a Stencil Table and Part Builder")
+
+setParent("triumph:stage2/tcontable1")
+setRequiresParent(true)
+
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria1.setItem("tconstruct:tooltables", 1)
+criteria2.setItem("tconstruct:tooltables", 2)
+
+setRewardExperience(8)

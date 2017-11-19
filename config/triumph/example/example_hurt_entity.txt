@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("minecraft:wooden_sword")
+
+//Set title String
+setTitle("Evil wolf!")
+
+//Set description String
+setDescription("Damage a wolf.")
+
+//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+setParent("triumph:example/root")
+
+//Adds criteria named "hurt_wolf" with the trigger type "minecraft:player_hurt_entity". This function returns the criteria as an object
+criteria = addCriteria("hurt_wolf", "minecraft:player_hurt_entity")
+
+//Sets the required entity type for the criteria. This is the entity that the player must damage.
+criteria.setEntityType("minecraft:wolf")

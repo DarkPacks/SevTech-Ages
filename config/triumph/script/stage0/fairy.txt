@@ -1,0 +1,14 @@
+setIcon("roots:fairy_dust")
+
+setTitle("Magical Fairy Dust")
+
+setDescription("Locate a Fairy Pool and slay a fairy for Fairy Dust")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("roots:fairy_dust")
+
+setRewardExperience(8)

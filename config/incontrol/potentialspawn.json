@@ -1,0 +1,25 @@
+[
+  {
+    "dimension": 0,
+    "block": [
+      "minecraft:grass",
+      "minecraft:sand",
+      "minecraft:sand@1"
+    ],
+    "biome": [
+      "Desert",
+      "Savanna",
+      "Forest",
+      "Beach",
+      "Red Desert"
+    ],
+    "mobs": [
+      {
+        "mob": "Horse",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      }
+    ]
+  }
+]

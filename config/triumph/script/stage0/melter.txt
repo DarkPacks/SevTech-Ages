@@ -1,0 +1,23 @@
+setIcon("tcomplement:porcelain_melter")
+
+setTitle("Let's Get Down and Melty")
+
+setDescription("Craft a Melter to begin smelting down ores")
+
+setParent("triumph:stage0/melterbase")
+setRequiresParent(true)
+
+//Sets the frame type
+setFrameType("challenge")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria.setItem("tcomplement:porcelain_melter", 0)
+criteria2.setItem("tcomplement:melter", 0)
+
+
+setRequirements("any")
+
+setRewardExperience(4)
+setRewardFunction("triumph:stage1trigger")
+setRewardItem("tconstruct:book", 1, 0)

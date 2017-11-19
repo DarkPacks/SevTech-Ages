@@ -1,0 +1,16 @@
+setIcon("contenttweaker:material_part", 37)
+
+setTitle("Platinum Ore")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore", 8)
+
+
+setRequirements("any")
+
+

@@ -1,0 +1,14 @@
+setIcon("primal_tech:charcoal_hopper")
+
+setTitle("Flame Grilled Goodness")
+
+setDescription("A hopper that moves items and keeps things toasty!")
+
+setParent("triumph:stage0/fairy")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("primal_tech:charcoal_hopper")
+
+setRewardExperience(4)

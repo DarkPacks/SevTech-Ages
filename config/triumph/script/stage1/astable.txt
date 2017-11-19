@@ -1,0 +1,18 @@
+setIcon("astralsorcery:blockaltar")
+
+setTitle("Link to the Stars")
+
+setDescription("Complete the ritual to transform a crafting table into the Luminous Crafting Table")
+
+setParent("triumph:stage1/journal")
+setRequiresParent(true)
+
+//Sets the frame type
+setFrameType("challenge")
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+
+criteria.setItem("astralsorcery:blockaltar")
+
+setRewardExperience(8)
+setRewardFunction("triumph:stage2trigger") 

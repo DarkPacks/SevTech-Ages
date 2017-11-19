@@ -1,0 +1,69 @@
+This is where the main things can be configured for each dimension. WorldProvider, 
+ChunkGenerator, BiomeProvider and BlockReplacements.
+
+
+
+setBiomeProvider:
+    Arguments:
+        String, String
+    Usage:
+        script name, BiomeProvider type
+    Notes:
+        Used to set the BiomeProvider script and BiomeProvider type. Neither option may be null. Type options are "SURFACE", "SINGLE", "CUSTOM_LIGHT", "CUSTOM_MEDIUM"
+
+setWorldProvider:
+    Arguments:
+        String, String
+    Usage:
+        script name, WorldProvider type
+    Notes:
+        Used to set the WorldProvider script and WorldProvider type. Either option can be null. Type options are "Overworld", "Nether", "The End"
+
+setChunkGenerator:
+    Arguments:
+        String, String
+    Usage:
+        script name, ChunkGenerator type
+    Notes:
+        Sets the ChunkGenerator script and ChunkGenerator type. The ChunkGenerator type can be null. Type options are "SURFACE", "FLAT", "HELL", "END", "VOID"
+
+setChunkGeneratorType:
+    Arguments:
+        String
+    Usage:
+        ChunkProvider type
+    Notes:
+        Used to set the ChunkGenerator type. Type options are "SURFACE", "FLAT", "HELL", "END", "VOID"
+
+addBlockReplacement:
+    Arguments:
+        String, String
+    Usage:
+        script name, BlockReplacement type
+    Notes:
+        Used to add a BlockReplacement script of the provided type. Type options are "Simple"
+
+setWorldProviderScript:
+    Arguments:
+        String
+    Usage:
+        script name
+    Notes:
+        Used to set the WorldProvider script.
+
+setWorldProviderType:
+    Arguments:
+        String
+    Usage:
+        WorldProvider type
+    Notes:
+        Sets the WorldProvider type. Options are "Overworld", "Nether", "The End"
+
+setChunkGeneratorScript:
+    Arguments:
+        String
+    Usage:
+        script name
+    Notes:
+        Sets the ChunkGenerator script.
+

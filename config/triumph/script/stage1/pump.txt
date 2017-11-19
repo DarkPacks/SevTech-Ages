@@ -1,0 +1,17 @@
+
+setIcon("ceramics:channel")
+
+setTitle("Follow My Channel Plz")
+
+setDescription("A Channel is a great way to transport liquids from tanks and other sources. When placing down the Channel, follow the arrow on top and Right Click to change directions/disconnect/etc. Pour liquids onto the channel using a normal or porcelain Faucet")
+
+setParent("triumph:stage1/emitter")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+criteria.setItem("ceramics:channel")
+
+setRewardExperience(4)
+
+//By not setting anything about requirements here, all criteria are automatically required

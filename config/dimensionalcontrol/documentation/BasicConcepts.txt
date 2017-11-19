@@ -1,0 +1,144 @@
+
+
+Scripting:
+
+    Calling a function:
+        A function can be called by putting the function call before a pair of () brackets containing any required variables.
+        
+        Examples:
+            printDocumentation(true)
+            addBiomePrinter(0, 500, 500, 20, -5000, -5000, false)
+            setMinHeight(0)
+            doSomething()
+            
+            
+    
+    Calling a function on a local variable:
+        A function can be called on a local variable by putting the local variable name followed by a period before the function call.
+    
+        Examples:
+            genLayer.addData("deep_ocean", "jungle", null, 1, "jungle", 5)
+            
+            
+    
+    Creating a local variable:
+        A local variable can be created by putting the desired name of your variable before an equals character and calling a function which returns something.
+        Generally this will be a Constructor. A Constructor requires that "new" is put before the function call. What Constructors are available depends on the 
+        type of script file you're writing in.
+        
+        Examples:
+            MyVariable = new GenLayerIsland(1)
+            data = new HillData()
+            genLayer4 = magnify(1000, genLayer3, 2)
+            genLayer = new GenLayerTouching(1000, genLayer)
+            tempGenLayer = new GenLayerHeatZ(1, ["desert", "extreme_hills", "forest", "extreme_hills", "desert", "plains"])
+    
+
+
+
+
+Config presets:
+    
+    A preset can be created by creating a folder in the folder /config/dimensionalcontrol/presets/ named what you want your preset to be called. Your folder can then 
+    be filled with config files the same way as the /config/dimensionalcontrol folder.
+    
+    Presets can be chosen on the client side in the world creation screen, which will have a new button which functions like the WorldType button. Presets can be 
+    chosen on the server side by adding the 'dc_preset' to your servers properties file. Once a preset is chosen for a world, it cannot be changed without editing 
+    the DimensionalControlPreset.txt file in the save.
+    
+    If no presets exist, no preset is chosen, or the "default" preset is chosen, configs will be read directly from the /config/dimensionalcontrol folder.
+
+
+
+
+
+null:
+    null is the Java representation of nothing. It can be used when you need to fill a variable space, but don't want to put anything there.
+    
+    
+    
+    
+
+Variable types:
+
+    array:
+        A list of variables within square brackets, seperated by commas.
+        
+        Examples:
+            [0]
+            [1, 5, 6, 1]
+            ["This", "Is", "A", "String", "Array"]
+    
+    
+    int:
+        A number with no decimals. Cannot be null.
+        
+        Examples:
+            0
+            1
+            3534636435435
+            -6437556435
+            42
+    
+    
+    long:
+        A number that can handle decimals. Cannot be null.
+        
+        Examples:
+            0
+            1
+            -6437556435
+            42
+            0.0
+            -10.7834343
+            57344343.67345543
+    
+    
+    String:
+        A string of characters. Must start and end with ".
+        
+        Examples:
+            "this is a string"
+            "this is another string"
+            "36j4;5kjf09utjwtgjfjap'fj;4tfjf;j';jgds;gjdslf"
+    
+    
+    NON_NULL_BIOME_ID:
+        A String or int representing a biome ID. Cannot be null.
+        
+        Examples:
+            "ocean"
+            0
+            "jungle"
+            21
+            "mutated_extreme_hills_with_trees"
+            162
+    
+    
+    BIOME_ID_ARRAY:
+        An int, String, int array or String array used to represent biome IDs. May be null.
+        
+        Examples:
+            0
+            "ocean"
+            [0, 21, 162]
+            ["ocean", "jungle", "mutated_extreme_hills_with_trees"]
+            null
+    
+    
+    NON_NULL_BIOME_ID_ARRAY:
+        An int, String, int array or String array used to represent biome IDs. Cannot be null.
+        
+        Examples:
+            0
+            "ocean"
+            [0, 21, 162]
+            ["ocean", "jungle", "mutated_extreme_hills_with_trees"]
+    
+    
+    GenLayer:
+        A GenLayer object. Will generally be being held as a local variable. May not be null.
+        
+        Examples:
+            insertYourLocalVariableName
+

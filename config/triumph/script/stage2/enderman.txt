@@ -1,0 +1,11 @@
+setIcon("appliedenergistics2:material", 46)
+
+setTitle("Defeat the Endermenace!")
+
+setDescription("Endermen have begun spawning in the world, slay them to obtain their Ender Dust")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:enderman")

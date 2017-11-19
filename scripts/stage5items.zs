@@ -1,0 +1,694 @@
+
+
+//mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
+
+
+var modIDs = [
+"compactmachines3",
+"mysticalagriculture",
+"mysticalagradditions",
+"environmentaltech",
+"enderutilities",
+"quantumstorage",
+"refinedstorage",
+"rftools",
+"rftoolscontrol",
+"scannable",
+"refinedstorageaddons"
+] as string[];
+for id in modIDs {
+    for item in loadedMods[id].items {
+        mods.ItemStages.addItemStage("five", item);
+    }
+}
+
+
+
+
+
+mods.ItemStages.addItemStage("five", <prospectors:prospector_best>);
+
+mods.ItemStages.addItemStage("five", <minecraft:diamond>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_block>);
+mods.ItemStages.addItemStage("five", <minecraft:emerald>);
+mods.ItemStages.addItemStage("five", <minecraft:emerald_block>);
+
+mods.ItemStages.addItemStage("five", <minecraft:diamond_helmet>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_chestplate>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_leggings>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_boots>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_sword>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_pickaxe>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_shovel>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_axe>);
+mods.ItemStages.addItemStage("five", <minecraft:diamond_hoe>);
+
+//Ore 
+mods.ItemStages.addItemStage("five", <minecraft:diamond_ore>);
+mods.ItemStages.addItemStage("five", <minecraft:emerald_ore>);
+mods.ItemStages.addItemStage("five", <abyssalcraft:abydiaore>);
+
+//Emerald
+mods.ItemStages.addItemStage("five", <minecraft:emerald_ore>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_dust:3>);
+mods.ItemStages.addItemStage("five", <advancedrocketry:crystal:2>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:trimmed:3>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:129>);
+mods.ItemStages.addItemStage("five", <pickletweaks:emerald_apple>);
+mods.ItemStages.addItemStage("five", <primal:emerald_knapp>);
+mods.ItemStages.addItemStage("five", <primal:emerald_point>);
+mods.ItemStages.addItemStage("five", <primal:emerald_pickaxe>);
+mods.ItemStages.addItemStage("five", <primal:emerald_shovel>);
+mods.ItemStages.addItemStage("five", <primal:emerald_hoe>);
+mods.ItemStages.addItemStage("five", <primal:emerald_hatchet>);
+mods.ItemStages.addItemStage("five", <primal:emerald_axe>);
+mods.ItemStages.addItemStage("five", <primal:emerald_workblade>);
+mods.ItemStages.addItemStage("five", <primal:emerald_saw>);
+
+
+
+//Test
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:1>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:2>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:3>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:4>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:5>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:6>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:7>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:8>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:9>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:10>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:11>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:12>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:13>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:14>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:15>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:16>);
+
+
+//Actually Additions
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_redstone>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_lapis>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_diamond>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_coal>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_cluster_iron>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_empowerer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_display_stand>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_atomic_reconstructor>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal:3>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal:4>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal:5>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered:3>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered:4>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_crystal_empowered:5>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay_advanced>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay_extreme>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay_fluids>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay_item>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_laser_relay_item_whitelist>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_ranged_collector>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantomface>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_placer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_liquiface>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_energyface>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_redstoneface>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_breaker>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_item_repairer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard:3>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard:4>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_shard:5>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_engineer_goggles_advanced>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_engineer_goggles>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_laser_upgrade_range>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_laser_upgrade_invisibility>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_filling_wand>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_filling_wand>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_color_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_explosion_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_damage_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_more_damage_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_disenchanting_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_mining_lens>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal:3>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal:4>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal:5>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered:3>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered:4>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_crystal_empowered:5>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_red>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_light_blue>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_black>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_green>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_paxel_crystal_white>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_xp_solidifier>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_green_wall>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_white_wall>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_green_stairs>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_white_stairs>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_green_slab>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_white_slab>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_green_fence>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_testifi_bucks_white_fence>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_helm_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_misc:23>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_misc:24>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_misc:19>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_misc:18>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_phantom_booster>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_spawner_changer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_colored_lamp:1>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_colored_lamp>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_player_probe>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_fluid_collector>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_fluid_placer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_dropper>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_placer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_breaker>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_inputter_advanced>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_inputter>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_lava_factory_controller>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_enervator>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_energizer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_lamp_powerer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_shock_suppressor>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_player_interface>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_item_viewer>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_firework_box>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_miner>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_leaf_generator>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_dust:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:diamond_paxel>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_shovel_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_axe_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pickaxe_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_leaf_blower_advanced>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_phantom_connector>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_tele_staff>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_boots_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_pants_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_chest_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:emerald_paxel>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_hoe_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_sword_emerald>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_potion_ring_advanced:*>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:block_colored_lamp:*>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_suction_ring>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_water_removal_ring>);
+
+//Storage Drawers
+mods.ItemStages.addItemStage("five", <storagedrawers:upgrade_storage:3>);
+mods.ItemStages.addItemStage("five", <storagedrawers:upgrade_storage:4>);
+
+//Bedrock Miner 
+mods.ItemStages.addItemStage("five", <bedrockores:bedrock_miner>);
+
+//Diamond Stuff
+mods.ItemStages.addItemStage("five", <minecraft:diamond_horse_armor>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:item_dust:2>);
+mods.ItemStages.addItemStage("five", <actuallyadditions:diamond_paxel>);
+mods.ItemStages.addItemStage("five", <betterbuilderswands:wanddiamond>);
+mods.ItemStages.addItemStage("five", <betterwithmods:material:45>);
+mods.ItemStages.addItemStage("five", <betterwithmods:material:46>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_spade>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_matchpick>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_machete>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_kukri>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_carpentersaw>);
+mods.ItemStages.addItemStage("five", <betterwithaddons:diamond_masonpick>);
+mods.ItemStages.addItemStage("five", <chiselsandbits:chisel_diamond>);
+mods.ItemStages.addItemStage("five", <chiselsandbits:bitsaw_diamond>);
+mods.ItemStages.addItemStage("five", <ironbackpacks:backpack>);
+mods.ItemStages.addItemStage("five", <ironbackpacks:backpack>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_chest:2>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:128>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:horse_upgrade_health>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:spikes_diamond>);
+mods.ItemStages.addItemStage("five", <jaff:diamond_fishing_rod>);
+mods.ItemStages.addItemStage("five", <pickletweaks:diamond_apple>);
+mods.ItemStages.addItemStage("five", <pickletweaks:repair_kit:4>);
+mods.ItemStages.addItemStage("five", <primal:diamond_knapp>);
+mods.ItemStages.addItemStage("five", <primal:diamond_point>);
+mods.ItemStages.addItemStage("five", <primal:diamond_pickaxe>);
+mods.ItemStages.addItemStage("five", <primal:diamond_shovel>);
+mods.ItemStages.addItemStage("five", <primal:diamond_hoe>);
+mods.ItemStages.addItemStage("five", <primal:diamond_hatchet>);
+mods.ItemStages.addItemStage("five", <primal:diamond_axe>);
+mods.ItemStages.addItemStage("five", <primal:diamond_workblade>);
+mods.ItemStages.addItemStage("five", <primal:diamond_saw>);
+mods.ItemStages.addItemStage("five", <quantumstorage:chest_diamond>);
+mods.ItemStages.addItemStage("five", <roots:diamond_knife>);
+mods.ItemStages.addItemStage("five", <roots:diamond_hammer>);
+
+//Ender Storage
+mods.ItemStages.addItemStage("five", <enderstorage:ender_storage>);
+mods.ItemStages.addItemStage("five", <enderstorage:ender_storage:1>);
+mods.ItemStages.addItemStage("five", <enderstorage:ender_pouch>);
+
+//Shulker Boxes
+mods.ItemStages.addItemStage("five", <minecraft:shulker_shell>);
+mods.ItemStages.addItemStage("five", <minecraft:white_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:orange_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:magenta_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:light_blue_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:yellow_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:lime_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:pink_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:gray_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:silver_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:cyan_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:purple_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:blue_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:brown_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:green_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:red_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <minecraft:black_shulker_box:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_gold_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:gold_diamond_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:copper_silver_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:silver_gold_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:copper_iron_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:diamond_crystal_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:vanilla_iron_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:vanilla_copper_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:diamond_obsidian_shulker_upgrade>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_white:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_orange:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_magenta:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_light_blue:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_yellow:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_lime:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_pink:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_gray:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_silver:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_cyan:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_purple:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_blue:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_brown:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_green:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_red:*>);
+mods.ItemStages.addItemStage("five", <ironchest:iron_shulker_box_black:*>);
+
+
+mods.ItemStages.addItemStage("five", <teslacorelib:gear_diamond>);
+
+//Mystical Aggriculture/Aggggggraditions
+mods.ItemStages.addItemStage("five", <mysticalagradditions:tinkering_table>);
+mods.ItemStages.addItemStage("five", <mysticalagradditions:tier6_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagradditions:nether_star_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagradditions:nether_star_essence>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:tier1_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:tier2_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:tier3_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:tier4_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:tier5_inferium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:stone_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:dirt_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:nature_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:wood_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:water_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:ice_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:fire_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:dye_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:nether_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:coal_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:iron_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:nether_quartz_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:glowstone_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:redstone_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:obsidian_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:gold_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:lapis_lazuli_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:end_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:experience_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:diamond_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:emerald_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:zombie_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:pig_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:chicken_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:cow_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:sheep_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:slime_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:skeleton_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:creeper_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:spider_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:rabbit_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:guardian_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:blaze_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:ghast_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:enderman_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:wither_skeleton_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:silicon_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:aluminum_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:copper_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:silver_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:lead_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:steel_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:nickel_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:constantan_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:electrum_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:uranium_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:aluminum_brass_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:knightslime_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:ardite_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:cobalt_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:manyullyn_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:marble_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:limestone_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:basalt_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:steeleaf_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:ironwood_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:knightmetal_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:fiery_ingot_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:black_quartz_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:aquamarine_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:starmetal_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:rock_crystal_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:ender_biotite_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:slate_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:sky_stone_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:certus_quartz_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:fluix_crop>);
+mods.ItemStages.addItemStage("five", <mysticalagriculture:quartz_enriched_iron_crop>);
+
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "soulium", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "base_essence", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "inferium", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "prudentium", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "intermedium", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "superium", Amount: 1000}));
+mods.ItemStages.addItemStage("five", <forge:bucketfilled>.withTag({FluidName: "supremium", Amount: 1000}));
+
+//End
+mods.ItemStages.addItemStage("five", <minecraft:end_rod>);
+mods.ItemStages.addItemStage("five", <minecraft:chorus_fruit>);
+mods.ItemStages.addItemStage("five", <minecraft:end_crystal>);
+mods.ItemStages.addItemStage("five", <minecraft:chorus_flower>);
+mods.ItemStages.addItemStage("five", <minecraft:elytra>);
+mods.ItemStages.addItemStage("five", <minecraft:chorus_plant>);
+mods.ItemStages.addItemStage("five", <minecraft:chorus_fruit_popped>);
+mods.ItemStages.addItemStage("five", <minecraft:dragon_breath>);
+mods.ItemStages.addItemStage("five", <minecraft:dragon_egg>);
+mods.ItemStages.addItemStage("five", <minecraft:purpur_block>);
+mods.ItemStages.addItemStage("five", <minecraft:purpur_pillar>);
+mods.ItemStages.addItemStage("five", <minecraft:purpur_slab>);
+mods.ItemStages.addItemStage("five", <minecraft:end_bricks>);
+mods.ItemStages.addItemStage("five", <minecraft:end_stone>);
+mods.ItemStages.addItemStage("five", <quark:end_bricks_wall>);
+mods.ItemStages.addItemStage("five", <quark:end_bricks_slab>);
+mods.ItemStages.addItemStage("five", <quark:end_bricks_stairs>);
+mods.ItemStages.addItemStage("five", <quark:biotite>);
+mods.ItemStages.addItemStage("five", <quark:biotite_ore>);
+mods.ItemStages.addItemStage("five", <minecraft:end_portal_frame>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:end_diamond_ore>);
+mods.ItemStages.addItemStage("five", <betterwithmods:material:39>);
+mods.ItemStages.addItemStage("five", <minecraft:skull:5>);
+
+//Chisel
+mods.ItemStages.addItemStage("five", <chisel:chisel_diamond>);
+mods.ItemStages.addItemStage("five", <chisel:chisel_hitech>);
+mods.ItemStages.addItemStage("five", <chisel:emerald:*>);
+mods.ItemStages.addItemStage("five", <chisel:purpur:*>);
+mods.ItemStages.addItemStage("five", <chisel:purpur1:*>);
+mods.ItemStages.addItemStage("five", <chisel:purpur2:*>);
+mods.ItemStages.addItemStage("five", <chisel:endstone:*>);
+mods.ItemStages.addItemStage("five", <chisel:endstone1:*>);
+mods.ItemStages.addItemStage("five", <chisel:endstone2:*>);
+mods.ItemStages.addItemStage("five", <chisel:diamond:*>);
+
+//Cyclic
+mods.ItemStages.addItemStage("five", <cyclicmagic:horse_upgrade_type>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:tool_swap_match>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:book_ender>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:beacon_potion>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:password_remote>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:water_spreader>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:sword_slowness>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:sword_weakness>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:tool_warp_home>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:inventory_food>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:heart_food>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:apple_emerald>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:glowing_chorus>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:builder_pattern>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:charm_boat>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:tool_warp_spawn>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:magic_net>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:ender_wool>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:crafting_food>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:tool_elevate>);
+mods.ItemStages.addItemStage("five", <cyclicmagic:sword_ender>);
+
+//Applied Energistics 2
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_ore>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:charged_quartz_ore>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_block>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_pillar>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:chiseled_quartz_block>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_glass>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_vibrant_glass>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_fixture>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:fluix_block>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_block>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:smooth_sky_stone_block>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_brick>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_small_brick>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:grindstone>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crank>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:inscriber>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:wireless_access_point>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:charger>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:tiny_tnt>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:security_station>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quantum_ring>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quantum_link>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:spatial_pylon>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:spatial_io_port>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:controller>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:drive>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:chest>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:interface>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:cell_workbench>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:io_port>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:condenser>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:energy_acceptor>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:vibration_chamber>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_growth_accelerator>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:energy_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:energy_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:dense_energy_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:dense_energy_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:creative_energy_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_unit>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_accelerator>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_storage_1k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_storage_4k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_storage_16k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_storage_64k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crafting_monitor>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:molecular_assembler>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:light_detector>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:smooth_sky_stone_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_brick_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_small_brick_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:fluix_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:chiseled_quartz_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_pillar_stairs>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:smooth_sky_stone_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_brick_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:sky_stone_small_brick_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:fluix_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:chiseled_quartz_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:quartz_pillar_slab>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_axe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_hoe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_spade>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_pickaxe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_sword>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_wrench>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:certus_quartz_cutting_knife>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_axe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_hoe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_spade>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_pickaxe>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_sword>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_wrench>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:nether_quartz_cutting_knife>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:entropy_manipulator>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:wireless_terminal>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:charged_staff>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:matter_cannon>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:portable_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:color_applicator>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:biometric_card>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:memory_card>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:network_tool>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:creative_storage_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:view_cell>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:storage_cell_1k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:storage_cell_4k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:storage_cell_16k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:storage_cell_64k>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:spatial_storage_cell_2_cubed>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:spatial_storage_cell_16_cubed>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:spatial_storage_cell_128_cubed>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:crystal_seed:*>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:encoded_pattern:*>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:1>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:10>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:11>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:12>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:13>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:14>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:15>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:16>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:17>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:18>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:19>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:2>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:20>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:21>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:22>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:23>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:24>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:25>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:26>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:27>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:28>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:29>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:30>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:31>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:32>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:33>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:34>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:35>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:36>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:37>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:38>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:39>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:41>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:42>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:43>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:44>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:45>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:47>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:48>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:5>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:52>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:53>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:6>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:7>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:8>);
+mods.ItemStages.addItemStage("five", <appliedenergistics2:material:9>);
+
+
+
+mods.ItemStages.addItemStage("five", <appliedenergistics2:part:*>);
+
+//Environmental Tech
+mods.ItemStages.addItemStage("five", <environmentaltech:litherite:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:erodium:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:kyronite:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:pladium:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:ionite:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:aethium:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:lonsdaleite:*>);
+mods.ItemStages.addItemStage("five", <environmentaltech:laser_lens_colored:*>);
+
+//Extended Crafting 
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:13>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:12>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:11>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:table_ultimate>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:table_elite>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:compressor>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:17>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:19>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:18>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:16>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:24>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:25>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:32>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:33>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:material:140>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:storage:2>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:storage:3>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:singularity:*>);
+mods.ItemStages.addItemStage("five", <extendedcrafting:singularity_ultimate>);

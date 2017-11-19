@@ -1,0 +1,17 @@
+
+setIcon("embers:mech_core")
+
+setTitle("Rotten to the Core")
+
+setDescription("Place a Mechanical Core on top of the Ember Bore to facilitate inventory access")
+
+setParent("triumph:stage1/emberbore")
+setRequiresParent(true)
+
+
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+
+criteria.setBlock("embers:mech_core", 0)
+
+
+setRewardExperience(4)

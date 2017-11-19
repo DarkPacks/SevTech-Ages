@@ -1,0 +1,18 @@
+setIcon("minecraft:paper")
+
+setTitle("Papers Please")
+
+setDescription("Evolve your paper production technique")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:paper")
+
+setRewardExperience(10)
+
+setUncompletedIconColor(1)
+setCompletedIconColor(101)
+setUncompletedTitleColor(1001)
+setCompletedTitleColor(10001)

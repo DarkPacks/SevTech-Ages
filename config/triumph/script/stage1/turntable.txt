@@ -1,0 +1,13 @@
+setIcon("betterwithmods:single_machine", 3)
+
+setTitle("Turning the Tables")
+
+setDescription("Craft a Turntable, connect the bottom with Mechanical Power, and place a block on top to begin shaping")
+
+setParent("triumph:stage1/gearbox")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine", 3)
+
+setRewardExperience(4)

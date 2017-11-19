@@ -1,0 +1,14 @@
+setIcon("weirdinggadget:weirding_gadget")
+
+setTitle("Top 10 Weirdest Gadgets")
+
+setDescription("If you would like a chunk loader, craft a Weirding Gadget and place it down to load a 3x3 area")
+
+setParent("triumph:stage2/enderman")
+setRequiresParent(true)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem("weirdinggadget:weirding_gadget")
+
+
+setRewardExperience(8)

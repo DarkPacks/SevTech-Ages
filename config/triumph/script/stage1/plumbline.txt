@@ -1,0 +1,14 @@
+setIcon("bibliocraft:plumbline")
+
+setTitle("Plumbing the Depths")
+
+setDescription("Use the Plumb Line to discover your Y level")
+
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem("bibliocraft:plumbline")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+setRewardExperience(4)

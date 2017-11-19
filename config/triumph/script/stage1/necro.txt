@@ -1,0 +1,14 @@
+setIcon("abyssalcraft:necronomicon")
+
+setTitle("Abyssalcrafted")
+
+setDescription("Craft the Necronomicon to guide you through Abyssalcraft")
+
+setParent("triumph:stage1/bronze")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("abyssalcraft:necronomicon")
+
+
+setRewardExperience(8)

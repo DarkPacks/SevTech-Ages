@@ -20,8 +20,8 @@ for id in modIDs {
         mods.jei.JEI.removeAndHide(item);
     }
 }
- 
- 
+
+
 //Remove Recipes Only
 var modIDs2 = [
 "antiqueatlas",
@@ -610,6 +610,12 @@ mods.jei.JEI.hide(<primal:llama_meat_rotten>);
 mods.jei.JEI.hide(<actuallyadditions:item_dust:1>);
 
 //Compressed
+recipes.removeShapeless(<minecraft:cobblestone>, [<overloaded:compressed_cobblestone>]);
+recipes.removeShapeless(<minecraft:obsidian>, [<overloaded:compressed_obsidian>]);
+recipes.removeShapeless(<minecraft:dirt>, [<overloaded:compressed_dirt>]);
+recipes.removeShapeless(<minecraft:gravel>, [<overloaded:compressed_gravel>]);
+recipes.removeShapeless(<minecraft:stone>, [<overloaded:compressed_stone>]);
+recipes.removeShapeless(<minecraft:sand>, [<overloaded:compressed_sand>]);
 recipes.remove(<overloaded:compressed_cobblestone:*>);
 recipes.remove(<overloaded:compressed_sand:*>);
 recipes.remove(<overloaded:compressed_dirt:*>);
@@ -645,4 +651,3 @@ mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:*>);
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:*>);
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_base>);
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_drill>);
-

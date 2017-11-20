@@ -100,44 +100,41 @@ var rfRates = [
 	2500
 ] as int[];
 
-function addCompressionRecipe(output as IItemStack, input as IItemStack, rfRates as int[][], i as int) {
-  var catalyst = <extendedcrafting:material>.definition; // For the sake of readablity
-  var obsidian = <overloaded:compressed_obsidian>.definition.makeStack(i); // For no better solution to match obsidian.
-
-	//Calculate RF Cost
-	var baseCost = (pow(2, i) * 1000) as int;
-
-	//Default catalyst
-	var catalystMeta = 8;
-
-	//Set catalystMeta based on criteria
-  if (i <= 7) {
-    if (output.matches(obsidian)) {
-			catalystMeta = 11;
-    }
-  } else if (i <= 11) {
-		catalystMeta = output.matches(obsidian) ? 12 : 11;
-  } else {
-		catalystMeta = 13;
-  }
-
-	//Add compression crafting recipe to compress
-	mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, 9, catalyst.makeStack(catalystMeta), baseCost, rfRates[i]);
-
-  //Add standard crafting recipe to decompress
-  recipes.addShapeless(input * 9, [output]);
-}
-
 for pair in compressionCraftingPairs {
   for i in 0 to 15 {
 		var output = pair[0].definition.makeStack(i);
+		var input = pair[1];
+	  var obsidian = <overloaded:compressed_obsidian>.definition.makeStack(i); // For no better solution to match obsidian.
 
-		if (i == 0) {
-      var input = pair[1];
-      addCompressionRecipe(output, input, rfRates, i);
-    } else {
-      var input = pair[0].definition.makeStack(i - 1);
-      addCompressionRecipe(output, input, rfRates, i);
+		//Calculate RF Cost
+		var baseCost = (pow(2, i) * 1000) as int;
+
+		if (i != 0) {
+			//If not the initial/standard block to 1x
+      input = pair[0].definition.makeStack(i - 1);
     }
+
+		//Default catalyst
+		var catalystMeta = 8;
+
+		//Set catalystMeta based on criteria
+	  if (i <= 7) {
+	    if (output.matches(obsidian)) {
+				catalystMeta = 11;
+	    }
+	  } else if (i <= 11) {
+			catalystMeta = output.matches(obsidian) ? 12 : 11;
+	  } else {
+			catalystMeta = 13;
+	  }
+
+		//Now that we have the meta wanted for the catalyst, create the item
+		var catalyst = <extendedcrafting:material>.definition.makeStack(catalystMeta);
+
+		//Add compression crafting recipe to compress
+		mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);
+
+	  //Add standard crafting recipe to decompress
+	  recipes.addShapeless(input * 9, [output]);
   }
 }

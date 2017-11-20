@@ -133,7 +133,7 @@ for pair in compressionCraftingPairs {
 		var output = pair[0].definition.makeStack(i);
 
 		if (i == 0) {
-      var input = pair[1].definition.makeStack(i);
+      var input = pair[1];
       addCompressionRecipe(output, input, rfRates, i);
     } else {
       var input = pair[0].definition.makeStack(i - 1);

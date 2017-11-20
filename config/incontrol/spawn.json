@@ -80,7 +80,8 @@
       "primal:ovis_atre",
       "primal:rock",
       "primal:shark_hammerhead",
-      "Blaze"
+      "Blaze",
+      "trumpetskeleton:trumpet_skeleton"
     ],
     "dimension": 7,
     "result": "deny"

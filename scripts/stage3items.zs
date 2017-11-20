@@ -684,7 +684,6 @@ mods.ItemStages.addItemStage("three", <immersiveengineering:conveyor>.withTag({c
 mods.ItemStages.addItemStage("three", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}));
 mods.ItemStages.addItemStage("three", <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}));
 //mods.ItemStages.addItemStage("three", <immersiveengineering:material>);
-mods.ItemStages.addItemStage("three", <immersiveengineering:material:4>);
 mods.ItemStages.addItemStage("three", <immersiveengineering:material:5>);
 mods.ItemStages.addItemStage("three", <immersiveengineering:material:6>);
 mods.ItemStages.addItemStage("three", <immersiveengineering:material:7>);

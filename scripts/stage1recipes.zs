@@ -331,11 +331,7 @@ mods.recipestages.Recipes.setRecipeStage("one", <quark:prismarine_dark_stairs>);
 
 
 //Better With Mods
-mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:bamboo_chime:*>);
-mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:material:11>);
-mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:axle_generator>);
-mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:axle_generator:2>);
-
+recipes.remove(<betterwithmods:rope>);
 recipes.remove(<betterwithmods:material:24>);
 recipes.remove(<betterwithmods:cooking_pot:1>);
 recipes.remove(<betterwithmods:wooden_axle>);
@@ -344,6 +340,21 @@ recipes.remove(<betterwithmods:material:10>);
 recipes.remove(<betterwithmods:axle_generator:1>);
 recipes.remove(<betterwithmods:saw>);
 recipes.remove(<betterwithmods:single_machine:3>);
+recipes.remove(<betterwithaddons:aqueduct:0>);
+recipes.remove(<betterwithaddons:aqueduct:1>);
+recipes.remove(<betterwithaddons:aqueduct:2>);
+recipes.remove(<betterwithaddons:aqueduct:3>);
+recipes.remove(<betterwithaddons:aqueduct:4>);
+recipes.remove(<betterwithaddons:aqueduct:5>);
+recipes.remove(<betterwithaddons:aqueduct:6>);
+recipes.remove(<betterwithaddons:aqueduct:7>);
+recipes.remove(<betterwithaddons:aqueduct:8>);
+recipes.remove(<betterwithaddons:aqueduct:9>);
+recipes.remove(<betterwithaddons:aqueduct:10>);
+mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:bamboo_chime:*>);
+mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:material:11>);
+mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:axle_generator>);
+mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:axle_generator:2>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:grate:*>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:slats:*>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithmods:vase:*>);
@@ -366,18 +377,6 @@ mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:chute>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:scaffold>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:spindle>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:loom>);
-
-recipes.remove(<betterwithaddons:aqueduct:0>);
-recipes.remove(<betterwithaddons:aqueduct:1>);
-recipes.remove(<betterwithaddons:aqueduct:2>);
-recipes.remove(<betterwithaddons:aqueduct:3>);
-recipes.remove(<betterwithaddons:aqueduct:4>);
-recipes.remove(<betterwithaddons:aqueduct:5>);
-recipes.remove(<betterwithaddons:aqueduct:6>);
-recipes.remove(<betterwithaddons:aqueduct:7>);
-recipes.remove(<betterwithaddons:aqueduct:8>);
-recipes.remove(<betterwithaddons:aqueduct:9>);
-recipes.remove(<betterwithaddons:aqueduct:10>);
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]);
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:1> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:2> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:quartz_block:*>, <minecraft:quartz_block:*>, <minecraft:quartz_block:*>]]);
@@ -389,20 +388,16 @@ mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:7> * 3, [[
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:8> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]]);
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:9> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]]);
 mods.recipestages.Recipes.addShaped("one", <betterwithaddons:aqueduct:10> * 3, [[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]]);
-
-
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:bag:*>);
 mods.recipestages.Recipes.setRecipeStage("one", <betterwithaddons:crate:*>);
-
+mods.recipestages.Recipes.addShaped("one", <betterwithmods:rope> * 3, [[<immersiveengineering:material:4>, <immersiveengineering:material:4>], [<immersiveengineering:material:4>, <immersiveengineering:material:4>], [<immersiveengineering:material:4>, <immersiveengineering:material:4>]]);
+mods.recipestages.Recipes.addShaped("one", <betterwithmods:rope>, [[<betterwithmods:material:3>, <betterwithmods:material:3>], [<betterwithmods:material:3>, <betterwithmods:material:3>], [<betterwithmods:material:3>, <betterwithmods:material:3>]]);
 
 //Dung Pipe Sewer
 recipes.remove(<dungpipe:dung_pipe>);
 recipes.remove(<dungpipe:sewer_pipe>);
 mods.recipestages.Recipes.addShaped("one", <dungpipe:dung_pipe>, [[null, <ore:slabWood>, plank], [<ore:slabWood>, null, <ore:slabWood>], [null, <ore:slabWood>, null]]);
 mods.recipestages.Recipes.addShaped("one", <dungpipe:sewer_pipe>, [[null, null, null], [<dungpipe:dung_pipe>, tp, tp], [null, null, null]]);
-
-
-
 
 //Embers recipes fixed for Stage1
 recipes.remove(<embers:pickaxe_bronze>);

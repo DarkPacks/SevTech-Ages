@@ -1,9 +1,11 @@
 --------------------------------------------------------------------------------------------------------------------------
 
 §l§nAlpha 9
-* §3Turned the Better With Mods hunger mechanic off
-* 
-
+* §3Turned the Better With Mods hunger mechanic off. Sorry for calling everyone fat and obese FeelsBadMan
+* Added marble, limestone, and slate to stage 0 so you can now interact with them. I swear it actually works this time
+* §3Turned village generation down slightly
+* Turned trumpet skeletons off in the Twilight, they were a bit too frequent
+* Allowed the use of Industrial Hemp earlier and added a recipe for BWM Hemp Rope in stage 1 that gives 3x
 
 --------------------------------------------------------------------------------------------------------------------------
 

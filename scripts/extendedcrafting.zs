@@ -106,7 +106,8 @@ for pair in compressionCraftingPairs {
 	var isObsidian = pair[1].matches(<minecraft:obsidian>);
 	var isNetherrack = pair[1].matches(<minecraft:netherrack>);
 
-  for i in 0 to 15 {
+	//Loop i = 0 thru 15 (doesnt do 16)
+  for i in 0 to 16 {
 		var output = pair[0].definition.makeStack(i);
 		var input = pair[1];
 

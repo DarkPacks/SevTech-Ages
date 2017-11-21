@@ -79,7 +79,7 @@ var compressionCraftingPairs = [
 	[<overloaded:compressed_gravel>, <minecraft:gravel>],
 	[<overloaded:compressed_stone>, <minecraft:stone>],
 	[<overloaded:compressed_sand>, <minecraft:sand>],
-	[<overloaded:compressed_netherrack, <minecraft:netherrack>]
+	[<overloaded:compressed_netherrack>, <minecraft:netherrack>]
 ] as IItemStack[][];
 
 var rfRates = [

@@ -104,9 +104,6 @@ recipes.addShaped(<natura:nether_slab:3> * 3, [[<natura:nether_planks:3>, <natur
 recipes.addShaped(<primal:slab_ironwood> * 3, [[<primal:planks:6>, <primal:planks:6>, <primal:planks:6>]]);
 recipes.addShaped(<traverse:fir_slab> * 3, [[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]);
 
-
-
-
 //Bolts use spindle instead of moulding
 recipes.remove(<betterwithaddons:bolt:6>);
 recipes.addShaped(<betterwithaddons:bolt:6>, [[<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <betterwithaddons:spindle>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);

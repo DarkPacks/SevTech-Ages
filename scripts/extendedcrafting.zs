@@ -78,7 +78,8 @@ var compressionCraftingPairs = [
   [<overloaded:compressed_dirt>, <minecraft:dirt>],
   [<overloaded:compressed_gravel>, <minecraft:gravel>],
   [<overloaded:compressed_stone>, <minecraft:stone>],
-  [<overloaded:compressed_sand>, <minecraft:sand>]
+  [<overloaded:compressed_sand>, <minecraft:sand>],
+	[<overloaded:compressed_netherrack, <minecraft:netherrack>]
 ] as IItemStack[][];
 
 var rfRates = [
@@ -101,8 +102,9 @@ var rfRates = [
 ] as int[];
 
 for pair in compressionCraftingPairs {
-	//Check at the start of every pair loop to see if it is obsidian
+	//Check at the start of every pair loop to see if it is one of the unique types
 	var isObsidian = pair[1].matches(<minecraft:obsidian>);
+	var isNetherrack = pair[1].matches(<minecraft:netherrack>);
 
   for i in 0 to 15 {
 		var output = pair[0].definition.makeStack(i);
@@ -121,11 +123,11 @@ for pair in compressionCraftingPairs {
 
 		//Set catalystMeta based on criteria
 	  if (i <= 7) {
-	    if (isObsidian) {
+	    if (isObsidian || isNetherrack) {
 				catalystMeta = 11;
 	    }
 	  } else if (i <= 11) {
-			catalystMeta = isObsidian ? 12 : 11;
+			catalystMeta = isObsidian || isNetherrack ? 12 : 11;
 	  } else {
 			catalystMeta = 13;
   	}

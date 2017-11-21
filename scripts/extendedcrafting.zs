@@ -73,12 +73,12 @@ mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_balloon>,
 
 // [<firstOutput>, <firstInput>]
 var compressionCraftingPairs = [
-  [<overloaded:compressed_cobblestone>, <minecraft:cobblestone>],
-  [<overloaded:compressed_obsidian>, <minecraft:obsidian>],
-  [<overloaded:compressed_dirt>, <minecraft:dirt>],
-  [<overloaded:compressed_gravel>, <minecraft:gravel>],
-  [<overloaded:compressed_stone>, <minecraft:stone>],
-  [<overloaded:compressed_sand>, <minecraft:sand>],
+	[<overloaded:compressed_cobblestone>, <minecraft:cobblestone>],
+	[<overloaded:compressed_obsidian>, <minecraft:obsidian>],
+	[<overloaded:compressed_dirt>, <minecraft:dirt>],
+	[<overloaded:compressed_gravel>, <minecraft:gravel>],
+	[<overloaded:compressed_stone>, <minecraft:stone>],
+	[<overloaded:compressed_sand>, <minecraft:sand>],
 	[<overloaded:compressed_netherrack, <minecraft:netherrack>]
 ] as IItemStack[][];
 
@@ -106,8 +106,8 @@ for pair in compressionCraftingPairs {
 	var isObsidian = pair[1].matches(<minecraft:obsidian>);
 	var isNetherrack = pair[1].matches(<minecraft:netherrack>);
 
-	//Loop i = 0 thru 15 (doesnt do 16)
-  for i in 0 to 16 {
+	//Loop i = 0 through 15 (doesnt do 16)
+    for i in 0 to 16 {
 		var output = pair[0].definition.makeStack(i);
 		var input = pair[1];
 
@@ -116,22 +116,22 @@ for pair in compressionCraftingPairs {
 
 		if (i != 0) {
 			//If not the initial/standard block to 1x
-    	input = pair[0].definition.makeStack(i - 1);
-  	}
+			input = pair[0].definition.makeStack(i - 1);
+		}
 
 		//Default catalyst
 		var catalystMeta = 8;
 
 		//Set catalystMeta based on criteria
-	  if (i <= 7) {
-	    if (isObsidian || isNetherrack) {
+		if (i <= 7) {
+			if (isObsidian || isNetherrack) {
 				catalystMeta = 11;
-	    }
-	  } else if (i <= 11) {
+			}
+		} else if (i <= 11) {
 			catalystMeta = isObsidian || isNetherrack ? 12 : 11;
-	  } else {
+		} else {
 			catalystMeta = 13;
-  	}
+		}
 
 		//Now that we have the meta wanted for the catalyst, create the item
 		var catalyst = <extendedcrafting:material>.definition.makeStack(catalystMeta);
@@ -139,7 +139,7 @@ for pair in compressionCraftingPairs {
 		//Add compression crafting recipe to compress
 		mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);
 
-  	//Add standard crafting recipe to decompress
-  	recipes.addShapeless(input * 9, [output]);
+		//Add standard crafting recipe to decompress
+		recipes.addShapeless(input * 9, [output]);
 	}
 }

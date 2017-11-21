@@ -124,11 +124,11 @@ for pair in compressionCraftingPairs {
 
 		//Set catalystMeta based on criteria
 		if (i <= 7) {
-			if (isObsidian || isNetherrack) {
+			if (isObsidian | isNetherrack) {
 				catalystMeta = 11;
 			}
 		} else if (i <= 11) {
-			catalystMeta = isObsidian || isNetherrack ? 12 : 11;
+			catalystMeta = isObsidian | isNetherrack ? 12 : 11;
 		} else {
 			catalystMeta = 13;
 		}
@@ -143,3 +143,4 @@ for pair in compressionCraftingPairs {
 		recipes.addShapeless(input * 9, [output]);
 	}
 }
+

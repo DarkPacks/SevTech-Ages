@@ -101,10 +101,12 @@ var rfRates = [
 ] as int[];
 
 for pair in compressionCraftingPairs {
+	//Check at the start of every pair loop to see if it is obsidian
+	var isObsidian = pair[1].matches(<minecraft:obsidian>);
+
   for i in 0 to 15 {
 		var output = pair[0].definition.makeStack(i);
 		var input = pair[1];
-	  var obsidian = <overloaded:compressed_obsidian>.definition.makeStack(i); // For no better solution to match obsidian.
 
 		//Calculate RF Cost
 		var baseCost = (pow(2, i) * 1000) as int;
@@ -119,11 +121,11 @@ for pair in compressionCraftingPairs {
 
 		//Set catalystMeta based on criteria
 	  if (i <= 7) {
-	    if (output.matches(obsidian)) {
+	    if (isObsidian) {
 				catalystMeta = 11;
 	    }
 	  } else if (i <= 11) {
-			catalystMeta = output.matches(obsidian) ? 12 : 11;
+			catalystMeta = isObsidian ? 12 : 11;
 	  } else {
 			catalystMeta = 13;
 	  }

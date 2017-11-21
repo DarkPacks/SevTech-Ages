@@ -113,8 +113,8 @@ for pair in compressionCraftingPairs {
 
 		if (i != 0) {
 			//If not the initial/standard block to 1x
-      input = pair[0].definition.makeStack(i - 1);
-    }
+    	input = pair[0].definition.makeStack(i - 1);
+  	}
 
 		//Default catalyst
 		var catalystMeta = 8;
@@ -128,7 +128,7 @@ for pair in compressionCraftingPairs {
 			catalystMeta = isObsidian ? 12 : 11;
 	  } else {
 			catalystMeta = 13;
-	  }
+  	}
 
 		//Now that we have the meta wanted for the catalyst, create the item
 		var catalyst = <extendedcrafting:material>.definition.makeStack(catalystMeta);
@@ -136,7 +136,7 @@ for pair in compressionCraftingPairs {
 		//Add compression crafting recipe to compress
 		mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);
 
-	  //Add standard crafting recipe to decompress
-	  recipes.addShapeless(input * 9, [output]);
-  }
+  	//Add standard crafting recipe to decompress
+  	recipes.addShapeless(input * 9, [output]);
+	}
 }

@@ -51,56 +51,64 @@ mods.ltt.LootTable.removeItem("minecraft:chests/simple_dungeon", "pool1", "minec
 mods.ltt.LootTable.removeGlobalItem("minecraft:pumpkin_seeds");
 */
 
+var items = [
+	"minecraft:chests/simple_dungeon",
+	"minecraft:chests/nether_bridge",
+	"minecraft:chests/abandoned_mineshaft",
+	"minecraft:chests/jungle_temple",
+	"minecraft:chests/desert_pyramid",
+	"minecraft:chests/stronghold_library",
+	"astralsorcery:chest_shrine",
+	"minecraft:chests/spawn_bonus_chest",
+	"minecraft:chests/stronghold_corridor",
+	"minecraft:gameplay/fishing/treasure",
+	"minecraft:gameplay/fishing/fish",
+	"minecraft:chests/igloo_chest",
+	"minecraft:chests/stronghold_crossing",
+	"minecraft:gameplay/fishing/junk",
+	"minecraft:chests/village_blacksmith",
+	"minecraft:chests/jungle_temple_dispenser",
+	"minecraft:chests/woodland_mansion",
+	"minecraft:chests/end_city_treasure",
+	"minecraft:gameplay/fishing"
+] as string[];
 
+for item in items {
+	mods.ltt.LootTable.removeTable(item);
+}
 
-mods.ltt.LootTable.removeTable("minecraft:chests/simple_dungeon");
-mods.ltt.LootTable.removeTable("minecraft:chests/nether_bridge");
-mods.ltt.LootTable.removeTable("minecraft:chests/abandoned_mineshaft");
-mods.ltt.LootTable.removeTable("minecraft:chests/jungle_temple");
-mods.ltt.LootTable.removeTable("minecraft:chests/desert_pyramid");
-mods.ltt.LootTable.removeTable("minecraft:chests/stronghold_library");
-mods.ltt.LootTable.removeTable("astralsorcery:chest_shrine");
-mods.ltt.LootTable.removeTable("minecraft:chests/spawn_bonus_chest");
-mods.ltt.LootTable.removeTable("minecraft:chests/stronghold_corridor");
-mods.ltt.LootTable.removeTable("minecraft:gameplay/fishing/treasure");
-mods.ltt.LootTable.removeTable("minecraft:gameplay/fishing/fish");
-mods.ltt.LootTable.removeTable("minecraft:chests/igloo_chest");
-mods.ltt.LootTable.removeTable("minecraft:chests/stronghold_crossing");
-mods.ltt.LootTable.removeTable("minecraft:gameplay/fishing/junk");
-mods.ltt.LootTable.removeTable("minecraft:chests/village_blacksmith");
-mods.ltt.LootTable.removeTable("minecraft:chests/jungle_temple_dispenser");
-mods.ltt.LootTable.removeTable("minecraft:chests/woodland_mansion");
-mods.ltt.LootTable.removeTable("minecraft:chests/end_city_treasure");
-mods.ltt.LootTable.removeTable("minecraft:gameplay/fishing");
+var globalItems = [
+	"minecraft:blaze_powder",
+	"minecraft:glowstone",
+	"minecraft:redstone",
+	"minecraft:redstone_block",
+	"minecraft:blaze_rod",
+	"minecraft:bucket",
+	"minecraft:diamond",
+	"minecraft:diamond_block",
+	"minecraft:diamond_hoe",
+	"minecraft:diamond_sword",
+	"minecraft:emerald",
+	"minecraft:emerald_block",
+	"minecraft:ender_chest",
+	"minecraft:ender_pearl",
+	"minecraft:gold_nugget",
+	"minecraft:golden_apple",
+	"minecraft:golden_helmet",
+	"minecraft:golden_pickaxe",
+	"minecraft:iron_ingot",
+	"minecraft:iron_leggings",
+	"minecraft:iron_pickaxe",
+	"minecraft:magma_cream",
+	"minecraft:milk_bucket",
+	"minecraft:obsidian",
+	"minecraft:water_bucket",
+	"twilightforest:ore_magnet",
+	"twilightforest:uncrafting_table"
+] as string[];
 
-
-mods.ltt.LootTable.removeGlobalItem("minecraft:blaze_powder");
-mods.ltt.LootTable.removeGlobalItem("minecraft:glowstone");
-mods.ltt.LootTable.removeGlobalItem("minecraft:redstone");
-mods.ltt.LootTable.removeGlobalItem("minecraft:redstone_block");
-mods.ltt.LootTable.removeGlobalItem("minecraft:blaze_rod");
-mods.ltt.LootTable.removeGlobalItem("minecraft:bucket");
-mods.ltt.LootTable.removeGlobalItem("minecraft:diamond");
-mods.ltt.LootTable.removeGlobalItem("minecraft:diamond_block");
-mods.ltt.LootTable.removeGlobalItem("minecraft:diamond_hoe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:diamond_sword");
-mods.ltt.LootTable.removeGlobalItem("minecraft:emerald");
-mods.ltt.LootTable.removeGlobalItem("minecraft:emerald_block");
-mods.ltt.LootTable.removeGlobalItem("minecraft:ender_chest");
-mods.ltt.LootTable.removeGlobalItem("minecraft:ender_pearl");
-mods.ltt.LootTable.removeGlobalItem("minecraft:gold_nugget");
-mods.ltt.LootTable.removeGlobalItem("minecraft:golden_apple");
-mods.ltt.LootTable.removeGlobalItem("minecraft:golden_helmet");
-mods.ltt.LootTable.removeGlobalItem("minecraft:golden_pickaxe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:iron_ingot");
-mods.ltt.LootTable.removeGlobalItem("minecraft:iron_leggings");
-mods.ltt.LootTable.removeGlobalItem("minecraft:iron_pickaxe");
-mods.ltt.LootTable.removeGlobalItem("minecraft:magma_cream");
-mods.ltt.LootTable.removeGlobalItem("minecraft:milk_bucket");
-mods.ltt.LootTable.removeGlobalItem("minecraft:obsidian");
-mods.ltt.LootTable.removeGlobalItem("minecraft:water_bucket");
-mods.ltt.LootTable.removeGlobalItem("twilightforest:ore_magnet");
-mods.ltt.LootTable.removeGlobalItem("twilightforest:uncrafting_table");
-
+for globalItem in globalItems {
+	mods.ltt.LootTable.removeGlobalItem(globalItem);
+}
 
 mods.ltt.LootTable.removeEntry("twilightforest:structures/tower_room", "pool1", "minecraft:ghast_tear");

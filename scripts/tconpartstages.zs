@@ -90,9 +90,9 @@ var materialsForStage = {
 } as string[][string];
 
 for part in parts {
-  for stage in materialsForStage {
-  	for material in materialsForStage[stage] {
-		mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
-  	}
-  }
+	for stage in materialsForStage {
+		for material in materialsForStage[stage] {
+			mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
+		}
+	}
 }

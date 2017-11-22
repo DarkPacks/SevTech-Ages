@@ -30,11 +30,10 @@ mods.MobStages.toggleSpawners(String entityId, boolean allow, int dimension);
 var stages = [
 	"one",
 	"two",
-	"three",
-	"four",
-	"five"
+	"three"
 ] as string[];
 
+//Make sure each stage has a matching stage in the stages array!
 var mobsForStages = {
 	//Stage one
 	"one" : [

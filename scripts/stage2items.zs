@@ -602,7 +602,7 @@ var stage2Items = [
 	<cyclicmagic:charm_antidote>,
 	<cyclicmagic:charm_speed>,
 	<cyclicmagic:charm_water>,
-	<cyclicmagic:ender_dungeon>
+	<cyclicmagic:ender_dungeon>,
 	<cyclicmagic:ender_lightning>,
 	<cyclicmagic:food_step>,
 	<cyclicmagic:horse_upgrade_variant>,
@@ -614,7 +614,7 @@ var stage2Items = [
 	<cyclicmagic:tool_spelunker>,
 	<cyclicmagic:tool_torch_launcher>,
 	<cyclicmagic:tool_trade>,
-	<cyclicmagic:water_freezer>,
+	<cyclicmagic:water_freezer>
 ] as IItemStack[];
 
 for item in stage2Items {

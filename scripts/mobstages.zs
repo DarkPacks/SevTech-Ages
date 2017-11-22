@@ -27,23 +27,37 @@ mods.MobStages.addRange(String entityId, int range, int dimension);
 mods.MobStages.toggleSpawners(String entityId, boolean allow, int dimension);
 */
 
+var mobsForStages = {
+	//Stage one
+	"one" : [
+		"emberroot:rainbowslime",
+		"emberroot:slime"
+		"minecraft:skeleton",
+	],
 
-//Stage one
-mods.MobStages.addStage("one", "minecraft:skeleton");
-mods.MobStages.addStage("one", "emberroot:rainbowslime");
-mods.MobStages.addStage("one", "emberroot:slime");
+	//Stage two
+	"two" : [
+		"emberroot:enderminy",
+		"emberroot:fallenmount",
+		"emberroot:hero"
+		"emberroot:knight_fallen",
+		"emberroot:skeleton_frozen",
+		"emberroot:withercat",
+		"emberroot:witherwitch",
+		"minecraft:enderman",
+	],
 
-//Stage two
-mods.MobStages.addStage("two", "minecraft:enderman");
-mods.MobStages.addStage("two", "emberroot:enderminy");
-mods.MobStages.addStage("two", "emberroot:fallenmount");
-mods.MobStages.addStage("two", "emberroot:knight_fallen");
-mods.MobStages.addStage("two", "emberroot:witherwitch");
-mods.MobStages.addStage("two", "emberroot:withercat");
-mods.MobStages.addStage("two", "emberroot:skeleton_frozen");
-mods.MobStages.addStage("two", "emberroot:hero");
+	//Stage three
+	"three" : [
+		"fat_cat:fat_cat"
+	]
+} as string[][string];
 
+for stage in mobsForStages {
+	for mob in mobsForStages[stage] {
+		mods.MobStages.addStage(stage, mob);
+	}
+}
 
 //Stage three
 //mods.MobStages.addReplacement("three", "minecraft:zombie", "fat_cat:fat_cat");
-mods.MobStages.addStage("three", "fat_cat:fat_cat");

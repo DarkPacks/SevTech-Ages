@@ -51,37 +51,34 @@ mods.ltt.LootTable.removeItem("minecraft:chests/simple_dungeon", "pool1", "minec
 mods.ltt.LootTable.removeGlobalItem("minecraft:pumpkin_seeds");
 */
 
-var items = [
-	"minecraft:chests/simple_dungeon",
-	"minecraft:chests/nether_bridge",
-	"minecraft:chests/abandoned_mineshaft",
-	"minecraft:chests/jungle_temple",
-	"minecraft:chests/desert_pyramid",
-	"minecraft:chests/stronghold_library",
+var tables = [
 	"astralsorcery:chest_shrine",
+	"minecraft:chests/abandoned_mineshaft",
+	"minecraft:chests/desert_pyramid",
+	"minecraft:chests/end_city_treasure",
+	"minecraft:chests/igloo_chest",
+	"minecraft:chests/jungle_temple",
+	"minecraft:chests/jungle_temple_dispenser",
+	"minecraft:chests/nether_bridge",
+	"minecraft:chests/simple_dungeon",
 	"minecraft:chests/spawn_bonus_chest",
 	"minecraft:chests/stronghold_corridor",
-	"minecraft:gameplay/fishing/treasure",
-	"minecraft:gameplay/fishing/fish",
-	"minecraft:chests/igloo_chest",
 	"minecraft:chests/stronghold_crossing",
-	"minecraft:gameplay/fishing/junk",
+	"minecraft:chests/stronghold_library",
 	"minecraft:chests/village_blacksmith",
-	"minecraft:chests/jungle_temple_dispenser",
 	"minecraft:chests/woodland_mansion",
-	"minecraft:chests/end_city_treasure",
 	"minecraft:gameplay/fishing"
+	"minecraft:gameplay/fishing/fish",
+	"minecraft:gameplay/fishing/junk",
+	"minecraft:gameplay/fishing/treasure",
 ] as string[];
 
-for item in items {
-	mods.ltt.LootTable.removeTable(item);
+for table in tables {
+	mods.ltt.LootTable.removeTable(table);
 }
 
 var globalItems = [
 	"minecraft:blaze_powder",
-	"minecraft:glowstone",
-	"minecraft:redstone",
-	"minecraft:redstone_block",
 	"minecraft:blaze_rod",
 	"minecraft:bucket",
 	"minecraft:diamond",
@@ -92,6 +89,7 @@ var globalItems = [
 	"minecraft:emerald_block",
 	"minecraft:ender_chest",
 	"minecraft:ender_pearl",
+	"minecraft:glowstone",
 	"minecraft:gold_nugget",
 	"minecraft:golden_apple",
 	"minecraft:golden_helmet",
@@ -102,6 +100,8 @@ var globalItems = [
 	"minecraft:magma_cream",
 	"minecraft:milk_bucket",
 	"minecraft:obsidian",
+	"minecraft:redstone",
+	"minecraft:redstone_block",
 	"minecraft:water_bucket",
 	"twilightforest:ore_magnet",
 	"twilightforest:uncrafting_table"

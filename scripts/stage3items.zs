@@ -12,10 +12,10 @@ var ITEM_STAGE = "three";
 
 var modIDs = [
 	"immersivepetroleum",
-	"immersiverailroading"
+	"immersiverailroading",
 	"nex",
 	"openglider",
-	"vc",
+	"vc"
 ] as string[];
 
 for id in modIDs {

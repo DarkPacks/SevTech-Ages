@@ -20,7 +20,7 @@ var modIDs = [
 
 for id in modIDs {
     for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage("five", item);
+        mods.ItemStages.addItemStage(ITEM_STAGE, item);
     }
 }
 

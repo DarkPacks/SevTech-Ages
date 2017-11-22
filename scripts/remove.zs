@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 //recipes.removeAll();
 
 ////////

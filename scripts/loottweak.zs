@@ -67,10 +67,10 @@ var tables = [
 	"minecraft:chests/stronghold_library",
 	"minecraft:chests/village_blacksmith",
 	"minecraft:chests/woodland_mansion",
-	"minecraft:gameplay/fishing"
+	"minecraft:gameplay/fishing",
 	"minecraft:gameplay/fishing/fish",
 	"minecraft:gameplay/fishing/junk",
-	"minecraft:gameplay/fishing/treasure",
+	"minecraft:gameplay/fishing/treasure"
 ] as string[];
 
 for table in tables {

@@ -31,20 +31,20 @@ var mobsForStages = {
 	//Stage one
 	"one" : [
 		"emberroot:rainbowslime",
-		"emberroot:slime"
-		"minecraft:skeleton",
+		"emberroot:slime",
+		"minecraft:skeleton"
 	],
 
 	//Stage two
 	"two" : [
 		"emberroot:enderminy",
 		"emberroot:fallenmount",
-		"emberroot:hero"
+		"emberroot:hero",
 		"emberroot:knight_fallen",
 		"emberroot:skeleton_frozen",
 		"emberroot:withercat",
 		"emberroot:witherwitch",
-		"minecraft:enderman",
+		"minecraft:enderman"
 	],
 
 	//Stage three

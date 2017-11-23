@@ -276,11 +276,6 @@ var stage2Items = [
 	<minecraft:enchanted_book:*>,
 	<minecraft:enchanted_book:0>,
 
-	//TCon Test
-	//TODO: Is this still needed?
-	<tconstruct:pick_head>.withTag({Material: "flint"}),
-	<tconstruct:pick_head>.withTag({Material: "wood"}),
-
 	//Astral Sorcery Stage 2
 	<astralsorcery:blockaltar:*>,
 	<astralsorcery:blockattunementaltar>,

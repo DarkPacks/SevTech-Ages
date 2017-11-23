@@ -189,7 +189,13 @@ var hideItems = [
 	<cyclicmagic:uncrafting_block>,
 	<darkutils:sneaky_bedrock>,
 	<embers:block_furnace>,
+	<embers:nugget_aluminum>,
+	<embers:nugget_copper>,
 	<embers:nugget_iron>,
+	<embers:nugget_lead>,
+	<embers:nugget_mithril>,
+	<embers:nugget_nickel>,
+	<embers:nugget_silver>,
 	<embers:ore_aluminum>,
 	<embers:ore_copper>,
 	<embers:ore_lead>,
@@ -211,6 +217,7 @@ var hideItems = [
 	<immcraft:in_world_vertical_placer>,
 	<immcraft:workbench>,
 	<immcraft:workbench_sec>,
+	<immersiveengineering:metal:29>,
 	<improvedbackpacks:bound_leather>,
 	<improvedbackpacks:tanned_leather>,
 	<libvulpes:productdust:1>,
@@ -389,15 +396,7 @@ var hideItems = [
 	<roots:wildroot>,
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
-	<tconstruct:throwball:1>,
-  
-  <embers:nugget_nickel>,
-  <embers:nugget_aluminum>,
-  <embers:nugget_mithril>,
-  <embers:nugget_copper>,
-  <immersiveengineering:metal:29>,
-  <embers:nugget_silver>,
-  <embers:nugget_lead>
+	<tconstruct:throwball:1>
 
 	//<buildcraftcore:spring:1>,
 	//<buildcraftcore:spring>,
@@ -516,19 +515,19 @@ var removeAndHideItems = [
 	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
   
-  //Nuggets 
-  <extendedcrafting:material:1>,
-  <embers:nugget_tin>,
-  <embers:nugget_bronze>,
-  <embers:nugget_dawnstone>,
-  <betterwithmods:material:46>,
-  <tconstruct:nuggets:4>,
-  <tconstruct:nuggets:3>,
-  <mysticalagriculture:crafting:45>,
-  <mysticalagradditions:insanium:3>,
-  <immersiveengineering:metal:25>,
-  <immersiveengineering:metal:21>,
-  <immersiveengineering:metal:20>
+	//Nuggets 
+	<betterwithmods:material:46>,
+	<embers:nugget_bronze>,
+	<embers:nugget_dawnstone>,
+	<embers:nugget_tin>,
+	<extendedcrafting:material:1>,
+	<immersiveengineering:metal:20>,
+	<immersiveengineering:metal:21>,
+	<immersiveengineering:metal:25>,
+	<mysticalagradditions:insanium:3>,
+	<mysticalagriculture:crafting:45>,
+	<tconstruct:nuggets:3>,
+	<tconstruct:nuggets:4>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

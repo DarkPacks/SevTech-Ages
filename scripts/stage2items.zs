@@ -276,27 +276,6 @@ var stage2Items = [
 	<minecraft:enchanted_book:*>,
 	<minecraft:enchanted_book:0>,
 
-	//Garden Stuffs
-	<gardenstuff:bloomery_furnace>,
-	<gardenstuff:candelabra:1>,
-	<gardenstuff:candelabra:2>,
-	<gardenstuff:candelabra:3>,
-	<gardenstuff:material:1>,
-	<gardenstuff:material:2>,
-	<gardenstuff:material:3>,
-	<gardenstuff:material:4>,
-	<gardenstuff:material:5>,
-	<gardenstuff:metal_block>,
-	<gardenstuff:metal_fence:1>,
-	<gardenstuff:metal_fence:2>,
-	<gardenstuff:metal_fence:3>,
-	<gardenstuff:metal_fence>,
-	<gardenstuff:metal_lattice:1>,
-	<gardenstuff:metal_lattice:2>,
-	<gardenstuff:metal_lattice:3>,
-	<gardenstuff:metal_lattice:4>,
-	<gardenstuff:metal_lattice>,
-
 	//TCon Test
 	//TODO: Is this still needed?
 	<tconstruct:pick_head>.withTag({Material: "flint"}),

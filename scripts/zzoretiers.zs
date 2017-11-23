@@ -103,13 +103,11 @@ mods.OreTiers.addReplacement("two", <minecraft:iron_ore>);
 mods.OreTiers.addReplacement("two", <geolosys:ore:0>);
 mods.OreTiers.addReplacement("two", <geolosys:ore_sample:0>, <immcraft:rock>);
 
-
 //lapis
 mods.OreTiers.addReplacement("two", <minecraft:lapis_ore>);
 mods.OreTiers.addReplacement("two", <minecraft:lapis_block:0>);
 mods.OreTiers.addReplacement("two", <geolosys:ore_vanilla:3>);
 mods.OreTiers.addReplacement("two", <geolosys:ore_sample_vanilla:3>, <immcraft:rock>);
-
 
 //gold
 mods.OreTiers.addReplacement("two", <minecraft:gold_ore>);
@@ -119,12 +117,7 @@ mods.OreTiers.addReplacement("two", <geolosys:ore_sample_vanilla:2>, <immcraft:r
 //Astral Sorcery
 mods.OreTiers.addReplacement("two", <astralsorcery:blockcustomsandore>, <minecraft:sand>);
 mods.OreTiers.addReplacement("two", <astralsorcery:blockcustomore>);
-
-
-
 mods.OreTiers.addReplacement("two", <astralsorcery:blockgeolosyssamplecluster>, <immcraft:rock>);
-
-
 
 ////
 //

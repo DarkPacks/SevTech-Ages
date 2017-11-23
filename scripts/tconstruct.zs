@@ -138,3 +138,14 @@ mods.tconstruct.Melting.addRecipe(<liquid:redstone_alloy> * 144, <contenttweaker
 mods.tconstruct.Melting.addRecipe(<liquid:redstone_alloy> * 576, <contenttweaker:material_part:54>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone_alloy> * 144, <contenttweaker:material_part:58>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone_alloy> * 1296, <contenttweaker:sub_block_holder_0:2>);
+
+//Nugget Removal
+mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_tin>);
+mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_bronze>);
+mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_dawnstone>);
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:4>);
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:3>);
+mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:25>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:21>);
+mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:20>);

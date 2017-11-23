@@ -279,33 +279,16 @@ mods.ItemStages.addItemStage("two", <chisel:gold:*>);
 mods.ItemStages.addItemStage("two", <minecraft:enchanted_book:0>);
 mods.ItemStages.addItemStage("two", <minecraft:enchanted_book:*>);
 
-//Garden Stuffs
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_block>);
-mods.ItemStages.addItemStage("two", <gardenstuff:bloomery_furnace>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_fence>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_fence:1>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_fence:2>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_fence:3>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_lattice>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_lattice:1>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_lattice:2>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_lattice:3>);
-mods.ItemStages.addItemStage("two", <gardenstuff:metal_lattice:4>);
-mods.ItemStages.addItemStage("two", <gardenstuff:candelabra:1>);
-mods.ItemStages.addItemStage("two", <gardenstuff:candelabra:2>);
-mods.ItemStages.addItemStage("two", <gardenstuff:candelabra:3>);
-mods.ItemStages.addItemStage("two", <gardenstuff:material:1>);
-mods.ItemStages.addItemStage("two", <gardenstuff:material:2>);
-mods.ItemStages.addItemStage("two", <gardenstuff:material:3>);
-mods.ItemStages.addItemStage("two", <gardenstuff:material:4>);
-mods.ItemStages.addItemStage("two", <gardenstuff:material:5>);
-
 //TCon Test
 mods.ItemStages.addItemStage("two", <tconstruct:pick_head>.withTag({Material: "wood"}));
 mods.ItemStages.addItemStage("two", <tconstruct:pick_head>.withTag({Material: "flint"}));
 
 //Astral Sorcery Stage 2
-mods.ItemStages.addItemStage("two", <astralsorcery:itemcraftingcomponent:*>);
+mods.ItemStages.addItemStage("two", <astralsorcery:itemcraftingcomponent:4>);
+mods.ItemStages.addItemStage("two", <astralsorcery:itemcraftingcomponent:3>);
+mods.ItemStages.addItemStage("two", <astralsorcery:itemcraftingcomponent:1>);
+mods.ItemStages.addItemStage("two", <astralsorcery:itemcraftingcomponent:2>);
+
 mods.ItemStages.addItemStage("two", <astralsorcery:itemconstellationpaper:*>);
 mods.ItemStages.addItemStage("two", <astralsorcery:iteminfusedglass:*>);
 mods.ItemStages.addItemStage("two", <astralsorcery:itemrockcrystalsimple>);

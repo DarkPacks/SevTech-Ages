@@ -88,7 +88,6 @@ mods.jei.JEI.hide(<primal:carbonate_slack>);
 //No
 mods.jei.JEI.hide(<actuallyadditions:item_jam:*>);
 
-mods.jei.JEI.hide(<gardenstuff:material>);
 mods.jei.JEI.hide(<mob_grinding_utils:mob_swab>);
 mods.jei.JEI.hide(<mob_grinding_utils:gm_chicken_feed>);
 mods.jei.JEI.hide(<mob_grinding_utils:null_sword>);
@@ -190,21 +189,14 @@ mods.jei.JEI.hide(<chisel:ironpane:8>);
 mods.jei.JEI.hide(<chisel:ironpane:9>);
 mods.jei.JEI.hide(<chisel:ironpane:10>);
 
-
-
 mods.jei.JEI.hide(<immcraft:workbench>);
 mods.jei.JEI.hide(<immcraft:workbench_sec>);
 mods.jei.JEI.hide(<immcraft:in_world_placer>);
 mods.jei.JEI.hide(<immcraft:in_world_vertical_placer>);
 
-
-
-
-mods.jei.JEI.removeAndHide(<gardenstuff:stone_block>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_misc:5>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:11>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:10>);
-
 
 mods.jei.JEI.hide(<roots:moonglow>);
 mods.jei.JEI.hide(<roots:terra_moss>);
@@ -646,8 +638,29 @@ recipes.remove(<extendedcrafting:material>);
 recipes.remove(<extendedcrafting:material:2>);
 recipes.remove(<extendedcrafting:material:3>);
 
-//Industrial Foregoing TBD
+//Nuggets 
+mods.jei.JEI.removeAndHide(<extendedcrafting:material:1>);
+mods.jei.JEI.removeAndHide(<embers:nugget_tin>);
+mods.jei.JEI.removeAndHide(<embers:nugget_bronze>);
+mods.jei.JEI.removeAndHide(<embers:nugget_dawnstone>);
+mods.jei.JEI.removeAndHide(<betterwithmods:material:46>);
+mods.jei.JEI.removeAndHide(<tconstruct:nuggets:4>);
+mods.jei.JEI.removeAndHide(<tconstruct:nuggets:3>);
+mods.jei.JEI.removeAndHide(<mysticalagriculture:crafting:45>);
+mods.jei.JEI.removeAndHide(<mysticalagradditions:insanium:3>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal:25>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal:21>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal:20>);
 
+mods.jei.JEI.hide(<embers:nugget_nickel>);
+mods.jei.JEI.hide(<embers:nugget_aluminum>);
+mods.jei.JEI.hide(<embers:nugget_mithril>);
+mods.jei.JEI.hide(<embers:nugget_copper>);
+mods.jei.JEI.hide(<immersiveengineering:metal:29>);
+mods.jei.JEI.hide(<embers:nugget_silver>);
+mods.jei.JEI.hide(<embers:nugget_lead>);
+
+//Industrial Foregoing TBD
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:*>);
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:*>);
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_base>);

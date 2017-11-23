@@ -19,7 +19,3 @@
 <geolosys:ore_vanilla:3>.hardness = 3.5;
 <geolosys:ore_vanilla:4>.hardness = 5;
 <geolosys:ore_vanilla:5>.hardness = 7;
-
-
-
-<gardenstuff:candelabra>.hardness = 0.1;

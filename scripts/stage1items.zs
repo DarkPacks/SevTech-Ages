@@ -457,7 +457,9 @@ mods.ItemStages.addItemStage("one", <actuallyadditions:item_crafter_on_a_stick>)
 mods.ItemStages.addItemStage("one", <teslacorelib:gear_stone>);
 
 //Astral Sorcery in Stage 1
+mods.ItemStages.addItemStage("one", <astralsorcery:itemjournal>);
 mods.ItemStages.addItemStage("one", <astralsorcery:itemcraftingcomponent>);
+mods.ItemStages.addItemStage("one", <astralsorcery:itemcraftingcomponent:5>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:1>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:2>);
@@ -465,7 +467,6 @@ mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:3>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:4>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:5>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarble:6>);
-mods.ItemStages.addItemStage("one", <astralsorcery:itemjournal>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockaltar>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarblestairs>);
 mods.ItemStages.addItemStage("one", <astralsorcery:blockmarbleslab>);

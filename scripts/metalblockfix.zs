@@ -2,6 +2,7 @@
 //chosen block for mods when processing
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 //<chiselBlock> : <oreDict>
 var oreDictChiselPairs = {
@@ -23,7 +24,7 @@ var oreDictChiselPairs = {
 	<chisel:blocksilver> : <ore:blockSilver>,
 	<chisel:blocksteel> : <ore:blockSteel>,
 	<chisel:blocktin> : <ore:blockTin>
-}; //TODO: Define
+} as IOreDictEntry[IItemStack];
 
 //<chiselBlock> : count
 //count = how many blocks there are

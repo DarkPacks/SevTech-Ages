@@ -2,81 +2,106 @@
 import crafttweaker.item.IItemStack;
 
 var parts = [
-  <tconstruct:pick_head>,
-  <tconstruct:shovel_head>,
-  <tconstruct:axe_head>,
-  <tconstruct:broad_axe_head>,
-  <tconstruct:sword_blade>,
-  <tconstruct:large_sword_blade>,
-  <tconstruct:hammer_head>,
-  <tconstruct:excavator_head>,
-  <tconstruct:scythe_head>,
-  <tconstruct:pan_head>,
-  <tconstruct:sign_head>,
-  <tconstruct:tool_rod>,
-  <tconstruct:tough_tool_rod>,
-  <tconstruct:binding>,
-  <tconstruct:tough_binding>,
-  <tconstruct:wide_guard>,
-  <tconstruct:hand_guard>,
-  <tconstruct:cross_guard>,
-  <tconstruct:large_plate>,
-  <tconstruct:knife_blade>,
-  <tconstruct:bow_limb>,
-  <tconstruct:bow_string>,
-  <tconstruct:arrow_head>,
-  <tconstruct:arrow_shaft>,
-  <tconstruct:fletching>,
-  <tconstruct:sharpening_kit>
+	<tconstruct:arrow_head>,
+	<tconstruct:arrow_shaft>,
+	<tconstruct:axe_head>,
+	<tconstruct:binding>,
+	<tconstruct:bow_limb>,
+	<tconstruct:bow_string>,
+	<tconstruct:broad_axe_head>,
+	<tconstruct:cross_guard>,
+	<tconstruct:excavator_head>,
+	<tconstruct:fletching>,
+	<tconstruct:hammer_head>,
+	<tconstruct:hand_guard>,
+	<tconstruct:knife_blade>,
+	<tconstruct:large_plate>,
+	<tconstruct:large_sword_blade>,
+	<tconstruct:pan_head>,
+	<tconstruct:pick_head>,
+	<tconstruct:scythe_head>,
+	<tconstruct:sharpening_kit>,
+	<tconstruct:shovel_head>,
+	<tconstruct:sign_head>,
+	<tconstruct:sword_blade>,
+	<tconstruct:tool_rod>,
+	<tconstruct:tough_binding>,
+	<tconstruct:tough_tool_rod>,
+	<tconstruct:wide_guard>
 ] as IItemStack[];
 
-var stageMaterial = [
-  ["one", "wood"],
-  ["one", "stone"],
-  ["one", "flint"],
-  ["one", "cactus"],
-  ["one", "bone"],
-  ["two", "copper"],
-  ["two", "bronze"],
-  ["two", "knightslime"],
-  ["two", "slime"],
-  ["two", "blueslime"],
-  ["two", "prismarine"],
-  ["two", "sponge"],
-  ["two", "electrum"],
-  ["two", "constantan"],
-  ["two", "abyssalnite"],
-  ["two", "refined_coralium"],
-  ["two", "dreadium"],
-  ["two", "silver"],
-  ["two", "iron"],
-  ["three", "paper"],
-  ["three", "lead"],
-  ["three", "firewood"],
-  ["three", "magmaslime"],
-  ["three", "netherrack"],
-  ["three", "endstone"],
-  ["three", "steel"],
-  ["three", "treatedwood"],
-  ["three", "obsidian"],
-  ["four", "pigiron"],
-  ["four", "cobalt"],
-  ["four", "ardite"],
-  ["four", "manyullyn"],
-  ["four", "integrationforegoing.plastic"],
-  ["four", "integrationforegoing.pink_slime"],
-  ["five", "ma.prosperity"],
-  ["five", "ma.soulium"],
-  ["five", "ma.base_essence"],
-  ["five", "ma.inferium"],
-  ["five", "ma.prudentium"],
-  ["five", "ma.intermedium"],
-  ["five", "ma.superium"],
-  ["five", "ma.supremium"]
-] as string[][];
+var stages = [
+	"one",
+	"two",
+	"three",
+	"four",
+	"five"
+] as string[];
+
+//Make sure each stage has a matching stage in the stages array!
+var materialsForStage = {
+	"one" : [
+		"bone",
+		"cactus",
+		"flint",
+		"stone",
+		"wood"
+	],
+
+	"two" : [
+		"abyssalnite",
+		"blueslime",
+		"bronze",
+		"constantan",
+		"copper",
+		"dreadium",
+		"electrum",
+		"iron",
+		"knightslime",
+		"prismarine",
+		"refined_coralium",
+		"silver",
+		"slime",
+		"sponge"
+	],
+
+	"three" : [
+		"endstone",
+		"firewood",
+		"lead",
+		"magmaslime",
+		"netherrack",
+		"obsidian",
+		"paper",
+		"steel",
+		"treatedwood"
+	],
+
+	"four" : [
+		"ardite",
+		"cobalt",
+		"integrationforegoing.pink_slime",
+		"integrationforegoing.plastic",
+		"manyullyn",
+		"pigiron"
+	],
+
+	"five" : [
+		"ma.base_essence",
+		"ma.inferium",
+		"ma.intermedium",
+		"ma.prosperity",
+		"ma.prudentium",
+		"ma.soulium",
+		"ma.superium",
+		"ma.supremium"
+	]
+} as string[][string];
 
 for part in parts {
-  for array in stageMaterial {
-    mods.ItemStages.addItemStage(array[0], part.withTag({Material: array[1]}));
-  }
+	for stage in stages {
+		for material in materialsForStage[stage] {
+			mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
+		}
+	}
 }

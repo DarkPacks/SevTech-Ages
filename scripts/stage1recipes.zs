@@ -239,17 +239,13 @@ mods.recipestages.Recipes.setRecipeStage("one", <minecraft:item_frame>);
 recipes.remove(<minecraft:crafting_table>);
 mods.recipestages.Recipes.addShaped("one", <minecraft:crafting_table>, [[plank, plank], [plank, plank]]);
 
-
-
 //Gear recipes for Stage1 only
-mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part>, [[null, cp, null], [cp, null, cp], [null, cp, null]]);
-mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part:5>, [[null, tp, null], [tp, null, tp], [null, tp, null]]);
-mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part:25>, [[null, bp, null], [bp, null, bp], [null, bp, null]]);
-
+mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part>, [[null, cp, null], [cp, <teslacorelib:gear_stone>, cp], [null, cp, null]]);
+mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part:5>, [[null, tp, null], [tp, <teslacorelib:gear_stone>, tp], [null, tp, null]]);
+mods.recipestages.Recipes.addShaped("one", <contenttweaker:material_part:25>, [[null, bp, null], [bp, <teslacorelib:gear_stone>, bp], [null, bp, null]]);
 
 recipes.remove(<primal_tech:leaf_bed>);
 mods.recipestages.Recipes.addShaped("one", <primal_tech:leaf_bed>, [[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]);
-
 
 mods.recipestages.Recipes.addShaped("one", <minecraft:stone_slab> * 6, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 mods.recipestages.Recipes.addShaped("one", <minecraft:stone_slab:1> * 6, [[<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>]]);
@@ -284,7 +280,6 @@ mods.recipestages.Recipes.addShaped("one", <natura:nether_slab:2> * 6, [[<natura
 mods.recipestages.Recipes.addShaped("one", <natura:nether_slab:3> * 6, [[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]]);
 mods.recipestages.Recipes.addShaped("one", <primal:slab_ironwood> * 6, [[<primal:planks:6>, <primal:planks:6>, <primal:planks:6>]]);
 mods.recipestages.Recipes.addShaped("one", <traverse:fir_slab> * 6, [[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]);
-
 
 //Stairs
 mods.recipestages.Recipes.setRecipeStage("one", <minecraft:oak_stairs>);

@@ -41,6 +41,9 @@ mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<actuallya
 
 mods.betterwithmods.Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
 
+mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
+
+
 /*
 mods.betterwithaddons.SoakingBox.add(IItemStack output, IItemStack input);
 mods.betterwithaddons.SoakingBox.remove(IItemStack input);

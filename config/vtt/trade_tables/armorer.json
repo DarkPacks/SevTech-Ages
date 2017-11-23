@@ -43,7 +43,7 @@
         "action": "add",
         "CareerLevel": 1,
         "buy": {
-          "id": "primal:wolf_pelt",
+          "id": "primal:pelt_wolf",
           "Count": {
             "min": 2,
             "max": 4

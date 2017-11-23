@@ -468,6 +468,7 @@ var stage1Items = [
 	<astralsorcery:blockmarble>,
 	<astralsorcery:blockmarbleslab>,
 	<astralsorcery:blockmarblestairs>,
+  <astralsorcery:itemcraftingcomponent:5>,
 	<astralsorcery:itemcraftingcomponent>,
 	<astralsorcery:itemjournal>,
 

@@ -2,7 +2,7 @@ setIcon("astralsorcery:itemskyresonator")
 
 setTitle("Starlight Geolocation")
 
-setDescription("The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be finished. Craft and use the Sky Wave Resonator to locate an area in the world that is rich in starlight to craft with")
+setDescription("The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be completed. Craft and use the Fosic Resonator to locate an area in the world that is rich in starlight to craft with")
 
 setParent("triumph:stage2/conpaper")
 setRequiresParent(true)

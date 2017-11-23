@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "minecraft:baked_potato"
+  },
+  "pattern": [
+    "xox",
+    "obo",
+    "xox"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "o": {
+      "item": "minecraft:glass"
+    }
+  }
+}

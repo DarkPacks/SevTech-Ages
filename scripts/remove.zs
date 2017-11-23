@@ -389,7 +389,15 @@ var hideItems = [
 	<roots:wildroot>,
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
-	<tconstruct:throwball:1>
+	<tconstruct:throwball:1>,
+  
+  <embers:nugget_nickel>,
+  <embers:nugget_aluminum>,
+  <embers:nugget_mithril>,
+  <embers:nugget_copper>,
+  <immersiveengineering:metal:29>,
+  <embers:nugget_silver>,
+  <embers:nugget_lead>
 
 	//<buildcraftcore:spring:1>,
 	//<buildcraftcore:spring>,
@@ -506,7 +514,21 @@ var removeAndHideItems = [
 	<rustic:fertile_soil>,
 	<storagedrawers:basicdrawers:*>,
 	<teslacorelib:gear_iron>,
-	<totemic:medicine_bag>
+	<totemic:medicine_bag>,
+  
+  //Nuggets 
+  <extendedcrafting:material:1>,
+  <embers:nugget_tin>,
+  <embers:nugget_bronze>,
+  <embers:nugget_dawnstone>,
+  <betterwithmods:material:46>,
+  <tconstruct:nuggets:4>,
+  <tconstruct:nuggets:3>,
+  <mysticalagriculture:crafting:45>,
+  <mysticalagradditions:insanium:3>,
+  <immersiveengineering:metal:25>,
+  <immersiveengineering:metal:21>,
+  <immersiveengineering:metal:20>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

@@ -305,27 +305,6 @@ mods.recipestages.Recipes.setRecipeStage("two", <totemic:baykok_bow>);
 
 mods.recipestages.Recipes.setRecipeStage("two", <natura:materials:5>);
 
-//Garden Stuffs
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_block>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:bloomery_furnace>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_fence>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_fence:1>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_fence:2>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_fence:3>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_lattice>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_lattice:1>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_lattice:2>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_lattice:3>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:metal_lattice:4>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:candelabra:1>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:candelabra:2>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:candelabra:3>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:material:1>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:material:2>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:material:3>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:material:4>);
-mods.recipestages.Recipes.setRecipeStage("two", <gardenstuff:material:5>);
-
 //Boats in Stage2
 recipes.remove(<minecraft:boat>);
 recipes.remove(<minecraft:spruce_boat>);
@@ -744,7 +723,6 @@ mods.recipestages.Recipes.setRecipeStage("two", <embers:ashen_brick>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:stairs_ashen_brick>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:ashen_tile>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:stairs_ashen_tile>);
-mods.recipestages.Recipes.setRecipeStage("two", <embers:cinder_plinth>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:alchemy_pedestal>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:alchemy_tablet>);
 mods.recipestages.Recipes.setRecipeStage("two", <embers:item_transfer>);

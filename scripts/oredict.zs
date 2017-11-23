@@ -162,6 +162,27 @@ for seed in seeds {
 <ore:blockSteel>.remove(<libvulpes:metal0:6>);
 <ore:blockAluminum>.remove(<libvulpes:metal0:9>);
 
+<ore:plateBronze>.remove(<embers:plate_bronze>);
+
+<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
+<ore:nuggetTin>.remove(<embers:nugget_tin>);
+<ore:nuggetNickel>.remove(<embers:nugget_nickel>);
+<ore:nuggetBronze>.remove(<embers:nugget_bronze>);
+<ore:nuggetAluminum>.remove(<embers:nugget_aluminum>);
+<ore:nuggetDawnstone>.remove(<embers:nugget_dawnstone>);
+<ore:nuggetCopper>.remove(<embers:nugget_copper>);
+<ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
+<ore:nuggetPigiron>.remove(<tconstruct:nuggets:4>);
+<ore:nuggetKnightslime>.remove(<tconstruct:nuggets:3>);
+<ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
+<ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
+<ore:nuggetIron>.remove(<immersiveengineering:metal:29>);
+<ore:nuggetUranium>.remove(<immersiveengineering:metal:25>);
+<ore:nuggetSilver>.remove(<embers:nugget_silver>);
+<ore:nuggetLead>.remove(<embers:nugget_lead>);
+<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
+<ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
+
 //Knightminer made me do it! XD
 <ore:knightTorch>.add(<minecraft:torch>);
 <ore:knightTorch>.add(<tconstruct:stone_torch>);
@@ -207,7 +228,6 @@ for seed in seeds {
 //<ore:shears>.add(<xreliquary:shears_of_winter>);
 <ore:shears>.add(<roots:wood_shears>);
 <ore:shears>.add(<primal_tech:bone_shears>);
-
 
 //Unregister Extra items
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
@@ -259,6 +279,9 @@ for seed in seeds {
 <ore:dustGold>.remove(<factorytech:ore_dust:7>);
 <ore:oreNickel>.remove(<factorytech:ore:1>);
 <ore:oreCopper>.remove(<factorytech:ore>);
+
+//Temp Fix
+<ore:logWood>.add(<minecraft:log:1>);
 
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 <ore:hideScoured>.remove(<betterwithmods:material:7>);

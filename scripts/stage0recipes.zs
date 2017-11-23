@@ -69,7 +69,7 @@ recipes.remove(<natura:nether_slab:1>);
 recipes.remove(<natura:nether_slab:2>);
 recipes.remove(<natura:nether_slab:3>);
 recipes.remove(<primal:slab_ironwood>);
-
+recipes.remove(<traverse:fir_slab>);
 recipes.addShaped(<minecraft:stone_slab> * 3, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
 recipes.addShaped(<minecraft:stone_slab:1> * 3, [[<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>]]);
 recipes.addShaped(<minecraft:stone_slab:3> * 3, [[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);

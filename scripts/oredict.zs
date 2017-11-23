@@ -1,40 +1,48 @@
-val seed = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
-//IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
-seed.add(<minecraft:wheat_seeds>);
-seed.add(<minecraft:pumpkin_seeds>);
-seed.add(<minecraft:beetroot_seeds>);
-seed.add(<minecraft:melon_seeds>);
-seed.add(<actuallyadditions:item_coffee_seed>);
-seed.add(<actuallyadditions:item_canola_seed>);
-seed.add(<actuallyadditions:item_rice_seed>);
-seed.add(<actuallyadditions:item_flax_seed>);
-seed.add(<actuallyadditions:item_misc:23>);
-seed.add(<actuallyadditions:item_misc:24>);
-seed.add(<betterwithmods:hemp>);
-seed.add(<betterwithaddons:crop_rice>);
-seed.add(<betterwithaddons:crop_rush>);
+import crafttweaker.item.IItemStack;
 
-//seed.add(<cavern:acresia>);
-seed.add(<natura:overworld_seeds>);
-seed.add(<natura:overworld_seeds:1>);
-seed.add(<primal:daucus_murn_seeds>);
-seed.add(<primal:corn_seeds>);
-seed.add(<primal:sinuous_spores>);
-seed.add(<primal:valus_seed>);
-seed.add(<primal:dry_grass_seed>);
-seed.add(<primal:void_seed>);
-seed.add(<primal:corypha_seed>);
-seed.add(<primal:aconite_root>);
-seed.add(<primal:nether_seed>);
-seed.add(<primal:searing_ember>);
-seed.add(<primal:rush_seeds>);
-seed.add(<roots:moontinged_seed>);
-seed.add(<roots:aubergine_seeds>);
-seed.add(<minecraft:carrot>);
-seed.add(<minecraft:potato>);
-seed.add(<minecraft:nether_wart>);
+var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
+//IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
+var seeds = [
+	<actuallyadditions:item_canola_seed>,
+	<actuallyadditions:item_coffee_seed>,
+	<actuallyadditions:item_flax_seed>,
+	<actuallyadditions:item_misc:23>,
+	<actuallyadditions:item_misc:24>,
+	<actuallyadditions:item_rice_seed>,
+	<betterwithaddons:crop_rice>,
+	<betterwithaddons:crop_rush>,
+	<betterwithmods:hemp>,
+	//<cavern:acresia>,
+	<minecraft:beetroot_seeds>,
+	<minecraft:carrot>,
+	<minecraft:melon_seeds>,
+	<minecraft:nether_wart>,
+	<minecraft:potato>,
+	<minecraft:pumpkin_seeds>,
+	<minecraft:wheat_seeds>,
+	<natura:overworld_seeds:1>,
+	<natura:overworld_seeds>,
+	<primal:aconite_root>,
+	<primal:corn_seeds>,
+	<primal:corypha_seed>,
+	<primal:daucus_murn_seeds>,
+	<primal:dry_grass_seed>,
+	<primal:nether_seed>,
+	<primal:rush_seeds>,
+	<primal:searing_ember>,
+	<primal:sinuous_spores>,
+	<primal:valus_seed>,
+	<primal:void_seed>,
+	<roots:aubergine_seeds>,
+	<roots:moontinged_seed>
+] as IItemStack[];
+
+for seed in seeds {
+	seedOreDict.add(seed);
+}
 
 <ore:rock>.add(<immcraft:rock>);
+
 <ore:cordageGeneral>.add(<primal_tech:twine>);
 
 <ore:plantfiber>.add(<primal:plant_fiber>);
@@ -44,13 +52,19 @@ seed.add(<minecraft:nether_wart>);
 <ore:foodFlour>.add(<horsepower:flour>);
 
 <ore:thatchingMaterialBasic>.add(<primal:rush_stems>);
+
 <ore:torch>.add(<primal_tech:fibre_torch>);
 <ore:torch>.add(<primal_tech:fibre_torch_lit>);
 
 <ore:dyeBrown>.remove(<betterwithmods:material:5>);
+
 <ore:dung>.remove(<betterwithmods:material:5>);
+
 <ore:cordageGeneral>.remove(<primal:silk_cordage>);
 
+<ore:logWood>.add(<abyssalcraft:dltlog:12>);
+<ore:logWood>.add(<minecraft:log:1>); //Temp Fix
+<ore:logWood>.add(<totemic:stripped_cedar_log>);
 <ore:logWood>.add(<traverse:fir_log>);
 <ore:logWood>.add(<traverse:fir_log:1>);
 <ore:logWood>.add(<traverse:fir_log:2>);
@@ -69,11 +83,6 @@ seed.add(<minecraft:nether_wart>);
 <ore:stickWood>.remove(<natura:sticks:10>);
 <ore:stickWood>.remove(<natura:sticks:11>);
 <ore:stickWood>.remove(<natura:sticks:12>);
-
-
-<ore:logWood>.add(<totemic:stripped_cedar_log>);
-<ore:logWood>.add(<abyssalcraft:dltlog:12>);
-
 
 <ore:table>.add(<bibliocraft:table>);
 <ore:table>.add(<bibliocraft:table:1>);
@@ -153,17 +162,9 @@ seed.add(<minecraft:nether_wart>);
 <ore:blockSteel>.remove(<libvulpes:metal0:6>);
 <ore:blockAluminum>.remove(<libvulpes:metal0:9>);
 
-
-
-
-
 //Knightminer made me do it! XD
 <ore:knightTorch>.add(<minecraft:torch>);
 <ore:knightTorch>.add(<tconstruct:stone_torch>);
-
-
-
-
 
 //Flowers and Lapis no longer are just dye!
 <ore:dye>.remove(<minecraft:dye:*>);
@@ -197,9 +198,7 @@ seed.add(<minecraft:nether_wart>);
 <ore:barkWood>.add(<roots:bark_dark_oak>);
 <ore:barkWood>.add(<roots:bark_acacia>);
 
-
 <ore:plankWood>.add(<primal:planks:6>);
-
 
 <ore:shears>.add(<minecraft:shears>);
 <ore:shears>.add(<cyclicmagic:ender_wool>);
@@ -208,7 +207,6 @@ seed.add(<minecraft:nether_wart>);
 //<ore:shears>.add(<xreliquary:shears_of_winter>);
 <ore:shears>.add(<roots:wood_shears>);
 <ore:shears>.add(<primal_tech:bone_shears>);
-
 
 
 //Unregister Extra items
@@ -262,13 +260,5 @@ seed.add(<minecraft:nether_wart>);
 <ore:oreNickel>.remove(<factorytech:ore:1>);
 <ore:oreCopper>.remove(<factorytech:ore>);
 
-
-//Temp Fix
-<ore:logWood>.add(<minecraft:log:1>);
-
-
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
-
-
-

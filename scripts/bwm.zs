@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+
 //@param input (Block) - May not be null. @param output (Block) - Can be null. @param extra_materials (ItemStack[]) - Optional.
 
 mods.betterwithmods.Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
@@ -76,71 +78,109 @@ mods.betterwithmods.StokedCauldron.remove(<betterwithmods:material:12>);
 //Saw
 //mods.betterwithmods.Saw.add(IItemStack[] output, IItemStack input);
 //mods.betterwithmods.Saw.add([<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,], <minecraft:fence>);
+var sawRemovals = [
+	//Sawing Corners only give 1 gear instead of 2
+	<betterwithmods:rustic_compat_corner>,
+	<betterwithmods:rustic_compat_corner:1>,
+	<betterwithmods:wood_corner>,
+	<betterwithmods:wood_corner:1>,
+	<betterwithmods:wood_corner:2>,
+	<betterwithmods:wood_corner:3>,
+	<betterwithmods:wood_corner:4>,
+	<betterwithmods:wood_corner:5>,
 
+	<betterwithmods:saw>,
+	<betterwithmods:bellows>,
+	<betterwithmods:wooden_gearbox>,
+	<betterwithmods:single_machine:2>,
+	<betterwithmods:single_machine:1>
+] as IItemStack[];
 
-//Sawing leaves gives 2 sticks to add later automation
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves:3>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <minecraft:leaves2:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <abyssalcraft:dltleaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <abyssalcraft:dreadleaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <betterwithmods:blood_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves:3>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves2:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves2:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:overworld_leaves2:3>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:redwood_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves2:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <natura:nether_leaves2:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <rustic:leaves_apple>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <twilightforest:twilight_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <twilightforest:twilight_leaves:1>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <twilightforest:twilight_leaves:2>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <twilightforest:twilight_leaves:3>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <twilightforest:magic_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <totemic:cedar_leaves>);
-mods.betterwithmods.Saw.add([<minecraft:stick>*2], <traverse:fir_leaves>);
+// Input : [Outputs]
+var sawRecipes = {
+	<minecraft:leaves> : [<minecraft:stick>*2],
+	<minecraft:leaves:1> : [<minecraft:stick>*2],
+	<minecraft:leaves:2> : [<minecraft:stick>*2],
+	<minecraft:leaves:3> : [<minecraft:stick>*2],
+	<minecraft:leaves2> : [<minecraft:stick>*2],
+	<minecraft:leaves2:1> : [<minecraft:stick>*2],
+	<abyssalcraft:dltleaves> : [<minecraft:stick>*2],
+	<abyssalcraft:dreadleaves> : [<minecraft:stick>*2],
+	<betterwithmods:blood_leaves> : [<minecraft:stick>*2],
+	<natura:overworld_leaves> : [<minecraft:stick>*2],
+	<natura:overworld_leaves:1> : [<minecraft:stick>*2],
+	<natura:overworld_leaves:2> : [<minecraft:stick>*2],
+	<natura:overworld_leaves2> : [<minecraft:stick>*2],
+	<natura:overworld_leaves:3> : [<minecraft:stick>*2],
+	<natura:overworld_leaves2:1> : [<minecraft:stick>*2],
+	<natura:overworld_leaves2:2> : [<minecraft:stick>*2],
+	<natura:overworld_leaves2:3> : [<minecraft:stick>*2],
+	<natura:redwood_leaves> : [<minecraft:stick>*2],
+	<natura:nether_leaves> : [<minecraft:stick>*2],
+	<natura:nether_leaves:1> : [<minecraft:stick>*2],
+	<natura:nether_leaves:2> : [<minecraft:stick>*2],
+	<natura:nether_leaves2> : [<minecraft:stick>*2],
+	<natura:nether_leaves2:1> : [<minecraft:stick>*2],
+	<natura:nether_leaves2:2> : [<minecraft:stick>*2],
+	<rustic:leaves_apple> : [<minecraft:stick>*2],
+	<twilightforest:twilight_leaves> : [<minecraft:stick>*2],
+	<twilightforest:twilight_leaves:1> : [<minecraft:stick>*2],
+	<twilightforest:twilight_leaves:2> : [<minecraft:stick>*2],
+	<twilightforest:twilight_leaves:3> : [<minecraft:stick>*2],
+	<twilightforest:magic_leaves> : [<minecraft:stick>*2],
+	<totemic:cedar_leaves> : [<minecraft:stick>*2],
+	<traverse:fir_leaves> : [<minecraft:stick>*2],
 
+	//Sawing Corners only give 1 gear instead of 2
+	<betterwithmods:rustic_compat_corner> : [<betterwithmods:material>],
+	<betterwithmods:rustic_compat_corner:1> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner:1> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner:2> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner:3> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner:4> : [<betterwithmods:material>],
+	<betterwithmods:wood_corner:5> : [<betterwithmods:material>],
 
-//Sawing Corners only give 1 gear instead of 2
-mods.betterwithmods.Saw.remove(<betterwithmods:rustic_compat_corner>);
-mods.betterwithmods.Saw.remove(<betterwithmods:rustic_compat_corner:1>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner:1>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner:2>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner:3>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner:4>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wood_corner:5>);
-mods.betterwithmods.Saw.remove(<betterwithmods:saw>);
-mods.betterwithmods.Saw.remove(<betterwithmods:bellows>);
-mods.betterwithmods.Saw.remove(<betterwithmods:wooden_gearbox>);
-mods.betterwithmods.Saw.remove(<betterwithmods:single_machine:2>);
-mods.betterwithmods.Saw.remove(<betterwithmods:single_machine:1>);
+	<twilightforest:twilight_log:2> : [
+		<minecraft:planks:2> * 6,
+		<betterwithmods:bark:2>,
+		<betterwithmods:material:22> * 2
+	],
+	<twilightforest:twilight_log> : [
+		<minecraft:planks> * 6,
+		<betterwithmods:bark>,
+		<betterwithmods:material:22> * 2
+	],
+	<twilightforest:twilight_log:3> : [
+		<minecraft:planks:1> * 6,
+		<betterwithmods:bark:1>,
+		<betterwithmods:material:22> * 2
+	],
+	<twilightforest:twilight_log:1> : [
+		<minecraft:planks:1> * 6,
+		<betterwithmods:bark:1>,
+		<betterwithmods:material:22> * 2
+	],
+	<totemic:cedar_log> : [
+		<totemic:cedar_plank> * 6,
+		<betterwithmods:bark:4>,
+		<betterwithmods:material:22> * 2
+	],
+	<totemic:stripped_cedar_log> : [
+		<totemic:cedar_plank> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<traverse:fir_log> : [
+		<traverse:fir_log> * 6,
+		<betterwithmods:bark:5>,
+		<betterwithmods:material:22> * 2
+	]
+} as IItemStack[][IItemStack];
 
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:rustic_compat_corner>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:rustic_compat_corner:1>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner:1>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner:2>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner:3>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner:4>);
-mods.betterwithmods.Saw.add([<betterwithmods:material>], <betterwithmods:wood_corner:5>);
+for item in sawRemovals {
+	mods.betterwithmods.Saw.remove(item);
+}
 
-mods.betterwithmods.Saw.add([<minecraft:planks:2> * 6,  <betterwithmods:bark:2>, <betterwithmods:material:22> * 2], <twilightforest:twilight_log:2>);
-mods.betterwithmods.Saw.add([<minecraft:planks> * 6,  <betterwithmods:bark>, <betterwithmods:material:22> * 2], <twilightforest:twilight_log>);
-mods.betterwithmods.Saw.add([<minecraft:planks:1> * 6,  <betterwithmods:bark:1>, <betterwithmods:material:22> * 2], <twilightforest:twilight_log:3>);
-mods.betterwithmods.Saw.add([<minecraft:planks:1> * 6,  <betterwithmods:bark:1>, <betterwithmods:material:22> * 2], <twilightforest:twilight_log:1>);
-mods.betterwithmods.Saw.add([<totemic:cedar_plank> * 6,  <betterwithmods:bark:4>, <betterwithmods:material:22> * 2], <totemic:cedar_log>);
-mods.betterwithmods.Saw.add([<totemic:cedar_plank> * 6, <betterwithmods:material:22> * 2], <totemic:stripped_cedar_log>);
-mods.betterwithmods.Saw.add([<traverse:fir_log> * 6,  <betterwithmods:bark:5>, <betterwithmods:material:22> * 2], <traverse:fir_log>);
+for input in sawRecipes {
+	mods.betterwithmods.Saw.add(sawRecipes[input], input);
+}

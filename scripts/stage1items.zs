@@ -708,7 +708,13 @@ var stage1Items = [
 	<quark:stained_clay_tiles_silver_slab>,
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
-	<quark:sturdy_stone>
+	<quark:sturdy_stone>,
+
+
+	//Spartan Shields
+	<spartanshields:shield_basic_bronze>,
+	<spartanshields:shield_basic_copper>,
+	<spartanshields:shield_basic_tin>
 ] as IItemStack[];
 
 for item in stage1Items {

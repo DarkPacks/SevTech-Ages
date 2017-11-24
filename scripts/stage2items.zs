@@ -591,7 +591,11 @@ var stage2Items = [
 	<cyclicmagic:tool_spelunker>,
 	<cyclicmagic:tool_torch_launcher>,
 	<cyclicmagic:tool_trade>,
-	<cyclicmagic:water_freezer>
+	<cyclicmagic:water_freezer>,
+
+	//Spartan Shields
+	<spartanshields:shield_basic_iron>,
+	<spartanshields:shield_basic_gold>
 ] as IItemStack[];
 
 for item in stage2Items {

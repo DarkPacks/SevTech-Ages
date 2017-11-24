@@ -43,7 +43,6 @@ for i, metal in metal_list {
 //   blockData.addDataValue("harvestLevel", "1");
 }
 
-
 //Aquamarine Ore
 var aquamarine = MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build();
 var aquamarineOre = aquamarine.registerPart("ore");
@@ -72,6 +71,15 @@ fluidRedstoneData.addDataValue("density", "8000");
 fluidRedstoneData.addDataValue("viscosity", "3000");
 fluidRedstoneData.addDataValue("temperature", "1000");
 fluidRedstoneData.addDataValue("vaporize", "false");
+
+//Liquid Invar
+var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9410979).build();
+var invarFluid = invar.registerPart("molten");
+var fluidInvarData = invarFluid.getData();
+fluidInvarData.addDataValue("density", "8000");
+fluidInvarData.addDataValue("viscosity", "3000");
+fluidInvarData.addDataValue("temperature", "1000");
+fluidInvarData.addDataValue("vaporize", "false");
 
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
@@ -102,8 +110,6 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("temperature", "550");
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
-
-
 
 /*
 //Invar

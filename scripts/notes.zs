@@ -742,3 +742,8 @@ mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>, 
 // Currently the compressor runs at 500rf a tick and I need to make it changeable on a per recipe basis still
 mods.extendedcrafting.CompressionCrafting.addRecipe(<outputStack>, <inputStack>, inputCount, <catalystStack>, rfCost);
 */
+
+
+
+
+//if you want a list of files in a folder just open a cmd window in the folder and go dir > " filename.txt "

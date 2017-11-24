@@ -149,3 +149,18 @@ mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:25>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:21>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:20>);
+
+//Spartan Shields 
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_bronze>, <spartanshields:shield_basic_wood>, <liquid:bronze>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_steel>, <spartanshields:shield_basic_wood>, <liquid:steel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_copper>, <spartanshields:shield_basic_wood>, <liquid:copper>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_tin>, <spartanshields:shield_basic_wood>, <liquid:tin>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_silver>, <spartanshields:shield_basic_wood>, <liquid:silver>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_platinum>, <spartanshields:shield_basic_wood>, <liquid:platinum>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_electrum>, <spartanshields:shield_basic_wood>, <liquid:electrum>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_nickel>, <spartanshields:shield_basic_wood>, <liquid:nickel>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_iron>, <spartanshields:shield_basic_wood>, <liquid:iron>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_gold>, <spartanshields:shield_basic_wood>, <liquid:gold>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_obsidian>, <spartanshields:shield_basic_wood>, <liquid:obsidian>, 576, true);
+mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_lead>, <spartanshields:shield_basic_wood>, <liquid:lead>, 576, true);
+//mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_invar>, <spartanshields:shield_basic_wood>, <liquid:invar>, 576, true);

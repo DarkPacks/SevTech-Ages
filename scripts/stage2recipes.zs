@@ -260,24 +260,9 @@ mods.recipestages.Recipes.addShaped("two", <minecraft:golden_hoe>, [[gp, gp, nul
 recipes.remove(<actuallyadditions:block_smiley_cloud>);
 mods.recipestages.Recipes.addShaped("two", <actuallyadditions:block_smiley_cloud>, [[null, <minecraft:wool:*>, null], [<minecraft:wool:*>, <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}), <minecraft:wool:*>], [null, <minecraft:wool:*>, null]]);
 
-
-//Shields
-recipes.remove(<spartanshields:shield_basic_iron>);
-recipes.remove(<spartanshields:shield_basic_gold>);
-recipes.remove(<spartanshields:shield_basic_silver>);
-recipes.remove(<minecraft:shield>);
-mods.recipestages.Recipes.addShaped("two", <spartanshields:shield_basic_iron>, [[null, ip, null], [ip, <spartanshields:shield_basic_wood>, ip], [null, ip, null]]);
-mods.recipestages.Recipes.addShaped("two", <spartanshields:shield_basic_gold>, [[null, gp, null], [gp, <spartanshields:shield_basic_wood>, gp], [null, gp, null]]);
-mods.recipestages.Recipes.addShaped("two", <spartanshields:shield_basic_silver>, [[null, sp, null], [sp, <spartanshields:shield_basic_wood>, sp], [null, sp, null]]);
-mods.recipestages.Recipes.addShaped("two", <minecraft:shield>, [[plank, ip, plank], [plank, plank, plank], [null, plank, null]]);
-
-
 //Prospector
 recipes.remove(<prospectors:prospector_low>);
 mods.recipestages.Recipes.addShaped("two", <prospectors:prospector_low>, [[null, <minecraft:coal:*>, <ore:blockGlass>], [null, <ore:logWood>, <minecraft:coal:*>], [<ore:logWood>, null, null]]);
-
-
-
 
 //Recipes needed for this stage - Create later
 

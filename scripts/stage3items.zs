@@ -835,7 +835,17 @@ var stage3Items = [
 
 	//Compressed
 	<overloaded:compressed_netherrack:*>,
-	<overloaded:compressed_obsidian:*>
+	<overloaded:compressed_obsidian:*>,
+
+	//Spartan Shields
+	<spartanshields:shield_basic_obsidian>,
+	<spartanshields:shield_basic_steel>,
+	<spartanshields:shield_basic_silver>,
+	<spartanshields:shield_basic_platinum>,
+	<spartanshields:shield_basic_electrum>,
+	<spartanshields:shield_basic_nickel>,
+	<spartanshields:shield_basic_lead>,
+	<spartanshields:shield_basic_invar>
 ] as IItemStack[];
 
 for item in stage3Items {

@@ -104,6 +104,9 @@ recipes.addShaped(<natura:nether_slab:3> * 3, [[<natura:nether_planks:3>, <natur
 recipes.addShaped(<primal:slab_ironwood> * 3, [[<primal:planks:6>, <primal:planks:6>, <primal:planks:6>]]);
 recipes.addShaped(<traverse:fir_slab> * 3, [[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]);
 
+//Minecraft 
+recipes.addShaped(<minecraft:stone_sword>, [[cobblestone], [cobblestone], [stick]]);
+
 //Bolts use spindle instead of moulding
 recipes.remove(<betterwithaddons:bolt:6>);
 recipes.addShaped(<betterwithaddons:bolt:6>, [[<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <betterwithaddons:spindle>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
@@ -146,14 +149,10 @@ recipes.addShaped(<tcomplement:porcelain_melter>, [[<ceramics:unfired_clay:5>, <
 recipes.remove(<tcomplement:porcelain_melter:8>);
 recipes.addShaped(<tcomplement:porcelain_melter:8>, [[<ceramics:unfired_clay:5>, <ceramics:clay_barrel:1>, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ceramics:clay_barrel:1>, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <primal_tech:stone_grill>, <ceramics:unfired_clay:5>]]);
 
-
 recipes.remove(<tcomplement:melter>);
 recipes.addShaped(<tcomplement:melter>, [[<tconstruct:seared:3>, <primal_tech:charcoal_hopper>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <primal_tech:stone_grill>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <roots:chiseled_runestone>, <tconstruct:seared:3>]]);
 recipes.remove(<tcomplement:melter:8>);
 recipes.addShaped(<tcomplement:melter:8>, [[<tconstruct:seared:3>, <ceramics:clay_barrel:1>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <ceramics:clay_barrel:1>, <tconstruct:seared:3>], [<tconstruct:seared:3>, <primal_tech:stone_grill>, <tconstruct:seared:3>]]);
-
-
-
 
 //wolf armor
 recipes.addShaped(<primal:armor_wolf_head>, [[<primal:pelt_wolf>, <primal:wolf_head_item>, <primal:pelt_wolf>], [<primal:pelt_wolf>, null, <primal:pelt_wolf>]]);
@@ -167,7 +166,6 @@ recipes.addShaped(<betterwithmods:wicker>, [[<minecraft:reeds>, <minecraft:reeds
 
 recipes.remove(<actuallyadditions:block_compost>);
 recipes.addShaped(<actuallyadditions:block_compost>, [[<betterwithmods:wicker>, null, <betterwithmods:wicker>], [<betterwithmods:wicker>, null, <betterwithmods:wicker>], [<betterwithmods:wicker>, <immcraft:chest>, <betterwithmods:wicker>]]);
-
 
 //Primal Slats
 recipes.addShaped(<primal:slat_acacia>, [[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>], [stick, stick, stick], [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]]);

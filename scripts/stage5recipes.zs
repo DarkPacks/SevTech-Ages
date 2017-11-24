@@ -402,3 +402,13 @@ mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:magic_net>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:ender_wool>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_elevate>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_ender>);
+
+//Spartan Shields
+mods.recipestages.Recipes.addShaped("five", <spartanshields:shield_basic_diamond>, [[null, <minecraft:diamond>, null], [<minecraft:diamond>, <spartanshields:shield_basic_iron>, <minecraft:diamond>], [null, <minecraft:diamond>, null]]);
+mods.recipestages.Recipes.addShaped("five", <spartanshields:shield_riot_rftools>, [[null, <actuallyadditions:item_battery_quadruple>, null], [<tconstruct:materials:14>, <spartanshields:shield_basic_copper>, <tconstruct:materials:14>], [null, <rftools:shield_block3>, null]]);
+
+
+
+
+
+

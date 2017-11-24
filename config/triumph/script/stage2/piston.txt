@@ -2,7 +2,7 @@ setIcon("minecraft:piston")
 
 setTitle("Push It Real Good")
 
-setDescription("Need to push items around?! Craft a Piston!")
+setDescription("Need to push items around?! Find a Piston in the Ur-Ghast Tower located in the Twilight Forest")
 
 setParent("triumph:stage2/twilight")
 setRequiresParent(true)

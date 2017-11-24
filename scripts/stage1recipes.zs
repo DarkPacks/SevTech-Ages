@@ -480,7 +480,7 @@ recipes.remove(<abyssalcraft:shadowshard>);
 recipes.remove(<abyssalcraft:shadowfragment>);
 recipes.remove(<abyssalcraft:necronomicon>);
 mods.recipestages.Recipes.addShaped("one", <abyssalcraft:necronomicon>, [[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>], [<abyssalcraft:corflesh>, <roots:book_base>, <abyssalcraft:corflesh>], [<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]]);
-mods.recipestages.Recipes.addShapeless("one", <abyssalcraft:corflesh>, [<abyssalcraft:corbone>, <ore:toolWorkBlade>]);
+mods.recipestages.Recipes.addShapeless("one", <abyssalcraft:corflesh>, [<abyssalcraft:corbone>.giveBack(<minecraft:bone>), <ore:toolWorkBlade>]);
 
 //Beneath Porter Recipe
 recipes.remove(<progressiontweaks:blank_teleporter>);
@@ -516,12 +516,6 @@ mods.recipestages.Recipes.addShaped("one", <tcomplement:porcelain_melter:8>, [[n
 
 mods.recipestages.Recipes.addShaped("one", <tcomplement:melter>, [[null, <tconstruct:materials:0>, null], [<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>], [<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]]);
 mods.recipestages.Recipes.addShaped("one", <tcomplement:melter:8>, [[null, <tconstruct:materials:0>, null], [<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>], [<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>]]);
-
-//Shield
-recipes.remove(<spartanshields:shield_basic_copper>);
-recipes.remove(<spartanshields:shield_basic_tin>);
-mods.recipestages.Recipes.addShaped("one", <spartanshields:shield_basic_copper>, [[null, cp, null], [cp, <spartanshields:shield_basic_wood>, cp], [null, cp, null]]);
-mods.recipestages.Recipes.addShaped("one", <spartanshields:shield_basic_tin>, [[null, tp, null], [tp, <spartanshields:shield_basic_wood>, tp], [null, tp, null]]);
 
 //Prospector
 recipes.remove(<prospectors:prospector_lowest>);

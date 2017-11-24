@@ -660,7 +660,12 @@ var stage5Items = [
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
 	<extendedcrafting:table_elite>,
-	<extendedcrafting:table_ultimate>
+	<extendedcrafting:table_ultimate>,
+
+	//Spartan Shields
+	<spartanshields:shield_riot_rftools>,
+	<spartanshields:shield_riot_rftools>,
+	<spartanshields:shield_basic_diamond>,
 ] as IItemStack[];
 
 for item in stage5Items {

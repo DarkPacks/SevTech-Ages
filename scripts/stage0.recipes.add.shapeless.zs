@@ -35,6 +35,22 @@ var cane = <minecraft:reeds>;
 var wool = <ore:wool>;
 var str = <minecraft:string>;
 
+/*
+<item> : [
+	[RECIPE1],
+	[RECIPE2],
+	[Recipe3],
+	[etc...]
+]
+
+Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
+
+<betterwithaddons:bolt:1> : [
+	//You can do one recipe or as many recipes as you want
+	[<actuallyadditions:item_coffee_seed>, <minecraft:paper>],
+	[<actuallyadditions:item_coffee_beans>]
+]
+*/
 var shapelessRecipes = {
 	<actuallyadditions:item_booklet> : [
 		[<actuallyadditions:item_coffee_seed>, <minecraft:paper>]

@@ -1,116 +1,115 @@
+import crafttweaker.item.IItemStack;
 
-<cyclicmagic:sleeping_mat>.maxDamage = 25;
+var durabilityArray = {
+	<cyclicmagic:sleeping_mat> : "25",
 
-<primal:sharp_bone>.maxDamage = 135;
-<primal:flint_hatchet>.maxDamage = 100;
+	<primal:sharp_bone> : "135",
 
-//Bone Tools
-<primal_tech:bone_axe>.maxDamage = 195;
-<primal_tech:bone_pickaxe>.maxDamage = 195;
-<primal_tech:bone_shovel>.maxDamage = 195;
-<primal_tech:bone_sword>.maxDamage = 195;
-<primal_tech:bone_club>.maxDamage = 195;
+	//Bone Tools
+	<primal_tech:bone_axe> : "195",
+	<primal_tech:bone_pickaxe> : "195",
+	<primal_tech:bone_shovel> : "195",
+	<primal_tech:bone_sword> : "195",
+	<primal_tech:bone_club> : "195",
 
-//Flint Tools
-<primal:flint_pickaxe>.maxDamage = 140;
-<primal:flint_axe>.maxDamage = 140;
-<primal:flint_shovel>.maxDamage = 140;
+	//Flint Tools
+	<primal:flint_pickaxe> : "140",
+	<primal:flint_axe> : "140",
+	<primal:flint_shovel> : "140",
+	<primal:flint_hatchet> : "100",
 
-//Wooden Tools
-<minecraft:wooden_sword>.maxDamage = 70;
-<minecraft:wooden_pickaxe>.maxDamage = 70;
-<minecraft:wooden_shovel>.maxDamage = 70;
-<minecraft:wooden_axe>.maxDamage = 70;
-<primal_tech:wood_club>.maxDamage = 70;
+	//Wooden Tools
+	<minecraft:wooden_sword> : "70",
+	<minecraft:wooden_pickaxe> : "70",
+	<minecraft:wooden_shovel> : "70",
+	<minecraft:wooden_axe> : "70",
+	<primal_tech:wood_club> : "70",
 
-//Stone Tools
-<minecraft:stone_axe>.maxDamage = 225;
-<minecraft:stone_sword>.maxDamage = 225;
-<minecraft:stone_pickaxe>.maxDamage = 225;
-<minecraft:stone_shovel>.maxDamage = 225;
-<primal_tech:stone_club>.maxDamage = 225;
+	//Stone Tools
+	<minecraft:stone_axe> : "225",
+	<minecraft:stone_sword> : "225",
+	<minecraft:stone_pickaxe> : "225",
+	<minecraft:stone_shovel> : "225",
+	<primal_tech:stone_club> : "225",
 
-//Gold Tools
-<minecraft:golden_sword>.maxDamage = 72;
-<minecraft:golden_shovel>.maxDamage = 72;
-<minecraft:golden_pickaxe>.maxDamage = 72;
-<minecraft:golden_axe>.maxDamage = 72;
-<minecraft:golden_hoe>.maxDamage = 72;
+	//Gold Tools
+	<minecraft:golden_sword> : "72",
+	<minecraft:golden_shovel> : "72",
+	<minecraft:golden_pickaxe> : "72",
+	<minecraft:golden_axe> : "72",
+	<minecraft:golden_hoe> : "72",
 
-<minecraft:golden_helmet>.maxDamage = 100;
-<minecraft:golden_chestplate>.maxDamage = 165;
-<minecraft:golden_leggings>.maxDamage = 155;
-<minecraft:golden_boots>.maxDamage = 95;
+	//Gold Armor
+	<minecraft:golden_helmet> : "100",
+	<minecraft:golden_chestplate> : "165",
+	<minecraft:golden_leggings> : "155",
+	<minecraft:golden_boots> : "95",
 
+	//Tin
+	<embers:pickaxe_tin> : "240",
+	<embers:axe_tin> : "240",
+	<embers:shovel_tin> : "240",
+	<embers:sword_tin> : "240",
+	<embers:hoe_tin> : "240",
 
+	//Copper Tools
+	<embers:pickaxe_copper> : "340",
+	<embers:axe_copper> : "340",
+	<embers:shovel_copper> : "340",
+	<embers:hoe_copper> : "340",
+	<embers:sword_copper> : "340",
 
-//Tin
-<embers:pickaxe_tin>.maxDamage = 240;
-<embers:axe_tin>.maxDamage = 240;
-<embers:shovel_tin>.maxDamage = 240;
-<embers:sword_tin>.maxDamage = 240;
-<embers:hoe_tin>.maxDamage = 240;
+	//Iron Tools
+	<minecraft:iron_shovel> : "450",
+	<minecraft:iron_pickaxe> : "450",
+	<minecraft:iron_axe> : "450",
+	<minecraft:iron_sword> : "450",
+	<minecraft:iron_hoe> : "450",
 
-//Copper Tools
-<embers:pickaxe_copper>.maxDamage = 340;
-<embers:axe_copper>.maxDamage = 340;
-<embers:shovel_copper>.maxDamage = 340;
-<embers:hoe_copper>.maxDamage = 340;
-<embers:sword_copper>.maxDamage = 340;
+	//Iron Armor
+	<minecraft:iron_helmet> : "250",
+	<minecraft:iron_chestplate> : "450",
+	<minecraft:iron_leggings> : "425",
+	<minecraft:iron_boots> : "275",
 
+	<actuallyadditions:item_helm_quartz> : "115",
+	<actuallyadditions:item_chest_quartz> : "165",
+	<actuallyadditions:item_pants_quartz> : "155",
+	<actuallyadditions:item_boots_quartz> : "105",
 
-//Iron Tools
-<minecraft:iron_shovel>.maxDamage = 450;
-<minecraft:iron_pickaxe>.maxDamage = 450;
-<minecraft:iron_axe>.maxDamage = 450;
-<minecraft:iron_sword>.maxDamage = 450;
-<minecraft:iron_hoe>.maxDamage = 450;
+	<actuallyadditions:item_pickaxe_quartz> : "275",
+	<actuallyadditions:item_sword_quartz> : "275",
+	<actuallyadditions:item_axe_quartz> : "275",
+	<actuallyadditions:item_shovel_quartz> : "275",
+	<actuallyadditions:item_hoe_quartz> : "275",
 
-//Iron Armor
-<minecraft:iron_helmet>.maxDamage = 250;
-<minecraft:iron_chestplate>.maxDamage = 450;
-<minecraft:iron_leggings>.maxDamage = 425;
-<minecraft:iron_boots>.maxDamage = 275;
+	//Armor
+	<primal:armor_wolf_head> : "140",
+	<primal:armor_wolf_body> : "168",
+	<primal:armor_wolf_legs> : "160",
+	<primal:armor_wolf_feet> : "140",
 
+	<minecraft:leather_helmet> : "75",
+	<minecraft:leather_chestplate> : "100", 
+	<minecraft:leather_leggings> : "95",
+	<minecraft:leather_boots> : "75",
 
+	<primal_tech:bone_shears> : "170",
+	<primal:iron_workblade> : "650",
 
-<actuallyadditions:item_helm_quartz>.maxDamage = 115;
-<actuallyadditions:item_chest_quartz>.maxDamage = 165;
-<actuallyadditions:item_pants_quartz>.maxDamage = 155;
-<actuallyadditions:item_boots_quartz>.maxDamage = 105;
+	//Better Builder Wands
+	<betterbuilderswands:wandstone> : "400",
+	<betterbuilderswands:wandiron> : "650",
+	<betterbuilderswands:wanddiamond> : "2500",
 
-<actuallyadditions:item_pickaxe_quartz>.maxDamage = 275;
-<actuallyadditions:item_sword_quartz>.maxDamage = 275;
-<actuallyadditions:item_axe_quartz>.maxDamage = 275;
-<actuallyadditions:item_shovel_quartz>.maxDamage = 275;
-<actuallyadditions:item_hoe_quartz>.maxDamage = 275;
+	//Chisel 
+	<chisel:chisel_iron> : "1500",
+	<chisel:chisel_diamond> : "6500",
+	<chisel:chisel_hitech> : "12500",
 
-//Armor
-<primal:armor_wolf_head>.maxDamage = 140;
-<primal:armor_wolf_body>.maxDamage = 168;
-<primal:armor_wolf_legs>.maxDamage = 160;
-<primal:armor_wolf_feet>.maxDamage = 140;
+	<pickletweaks:grass_mesh> : "64"
+} as string[IItemStack];
 
-<minecraft:leather_helmet>.maxDamage = 75;
-<minecraft:leather_chestplate>.maxDamage = 100; 
-<minecraft:leather_leggings>.maxDamage = 95;
-<minecraft:leather_boots>.maxDamage = 75;
-
-
-<primal_tech:bone_shears>.maxDamage = 170;
-<primal:iron_workblade>.maxDamage = 650;
-
-
-//Better Builder Wands
-<betterbuilderswands:wandstone>.maxDamage = 400;
-<betterbuilderswands:wandiron>.maxDamage = 650;
-<betterbuilderswands:wanddiamond>.maxDamage = 2500;
-
-
-//Chisel 
-<chisel:chisel_iron>.maxDamage = 1500;
-<chisel:chisel_diamond>.maxDamage = 6500;
-<chisel:chisel_hitech>.maxDamage = 12500;
-
-
-<pickletweaks:grass_mesh>.maxDamage = 64;
+for item in durabilityArray {
+	item.maxDamage = durabilityArray[item] as int;
+}

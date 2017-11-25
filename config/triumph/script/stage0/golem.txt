@@ -12,10 +12,6 @@ criteria1 = addCriteria("killed_spider1", "minecraft:player_killed_entity")
 criteria.setEntityType("embers:ancient_golem")
 criteria1.setEntityType("emberroot:rainbow_golem")
 
-setRewardItem("embers:archaic_brick, 2, 0")
-
+setRewardItem("embers:archaic_brick", 0, 2)
 
 setRequirements("any")
-
-
-

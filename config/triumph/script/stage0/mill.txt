@@ -13,4 +13,4 @@ criteria.setItem("betterwithmods:single_machine")
 
 setRewardExperience(4)
 
-setRewardItem("betterwithmods:manual", 1, 0)
+setRewardItem("betterwithmods:manual", 0, 1)

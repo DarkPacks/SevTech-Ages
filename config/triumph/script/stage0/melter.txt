@@ -20,4 +20,4 @@ setRequirements("any")
 
 setRewardExperience(4)
 setRewardFunction("triumph:stage1trigger")
-setRewardItem("tconstruct:book", 1, 0)
+setRewardItem("tconstruct:book", 0, 1)

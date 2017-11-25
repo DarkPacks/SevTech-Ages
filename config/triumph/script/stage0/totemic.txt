@@ -14,5 +14,4 @@ criteria.setItem("totemic:rattle")
 criteria2.setItem("totemic:flute")
 criteria3.setItem("totemic:drum")
 
-setRewardItem("totemic:totempedia", 1, 0)
-
+setRewardItem("totemic:totempedia", 0, 1)

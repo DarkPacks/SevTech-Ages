@@ -8,6 +8,12 @@
 * §3Allowed the use of Industrial Hemp earlier and added a recipe for BWM Hemp Rope in stage 1 that gives 3x
 * Cleaned up / deleted old config files
 * §3Netherrack was added to the compression list
+* Totempedia is now a shapeless recipe and edited others to be craftable in 2x2 grids
+* §3Fixed a number of Advancements not giving rewards
+* A number of Scripts have been cleaned up
+* §3Removed the Garden Stuff mod
+* Added Buildcraft for testing purposes
+
 --------------------------------------------------------------------------------------------------------------------------
 
 §l§nAlpha 8

@@ -10,4 +10,4 @@ setRequiresParent(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("primal_tech:fire_sticks")
 
-setRewardItem("primal_tech:fire_sticks, 1, 0")
+setRewardItem("primal_tech:fire_sticks", 0, 1)

@@ -12,5 +12,3 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("charcoalblock:charcoal_block")
 
 setRewardExperience(4)
-
-//By not setting anything about requirements here, all criteria are automatically required

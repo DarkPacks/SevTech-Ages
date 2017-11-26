@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+var STAGE = "one";
+
 //Shorthand
 var ip = <ore:plateIron>;
 var cp = <ore:plateCopper>;
@@ -26,7 +28,7 @@ var log = <ore:logWood>;
 var flint = <minecraft:flint>;
 var plank = <ore:plankWood>;
 var stick = <minecraft:stick>;
-var stone = <minecraft:stone>;
+var stone = <minecraft:stone:*>;
 var bone = <minecraft:bone>;
 var leather = <minecraft:leather>;
 var cobblestone = <minecraft:cobblestone>;
@@ -52,20 +54,47 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes = {
-	<actuallyadditions:item_booklet> : [
-		[<actuallyadditions:item_coffee_seed>, <minecraft:paper>]
+	<minecraft:torch> * 2 : [
+		[<minecraft:coal:*>, cordage, stick]
 	],
-	<actuallyadditions:item_coffee_seed> : [
-		[<actuallyadditions:item_coffee_beans>]
+	<primal:bark_acacia> : [
+		[<minecraft:log2>.giveBack(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
 	],
-	<actuallyadditions:item_rice_seed> : [
-		[<actuallyadditions:item_food:16>]
+	<primal:bark_bigoak> : [
+		[<minecraft:log2:1>.giveBack(<primal:logs_stripped:5>), <ore:toolWorkBlade>]
 	],
-	<minecraft:farmland> : [
-		[<minecraft:dirt>, <minecraft:dye:15>]
+	<primal:bark_birch> : [
+		[<minecraft:log:2>.giveBack(<primal:logs_stripped:2>), <ore:toolWorkBlade>]
 	],
-	<minecraft:gunpowder> : [
-		[<roots:fairy_dust>, <actuallyadditions:item_misc:17>, <minecraft:dye:15>]
+	<primal:bark_jungle> : [
+		[<minecraft:log:3>.giveBack(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
+	],
+	<primal:bark_oak> : [
+		[<minecraft:log>.giveBack(<primal:logs_stripped>), <ore:toolWorkBlade>]
+	],
+	<primal:bark_spruce> : [
+		[<minecraft:log:1>.giveBack(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
+	],
+	<primal:bark_yew> : [
+		[<primal:logs:1>.giveBack(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
+	],
+	<tconstruct:stone_torch> * 2 : [
+		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
+	],
+
+	//Embers recipes fixed for Stage1
+	<embers:blend_caminite> : [
+		[<minecraft:sand>, <minecraft:clay_ball>, <primal:mud_clump>]
+	],
+
+	//Abyssalcraft for Stage1
+	<abyssalcraft:corflesh> : [
+		[<abyssalcraft:corbone>.giveBack(<minecraft:bone>), <ore:toolWorkBlade>]
+	],
+
+	//Astral Sorcery Start
+	<betterwithaddons:japanmat:8> : [
+		[<primal_tech:fluid_bladder>, <betterwithaddons:japanmat:36>]
 	]
 } as IIngredient[][][IItemStack];
 
@@ -73,6 +102,9 @@ for item in shapelessRecipes {
 	var recipesForItem = shapelessRecipes[item];
 
 	for recipe in recipesForItem {
-		recipes.addShapeless(item, recipe);
+		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
+
+//Pickle Tweaks Mesh
+recipes.addShapeless(<minecraft:flint>, [<pickletweaks:reinforced_mesh:*>, <betterwithmods:gravel_pile>]);

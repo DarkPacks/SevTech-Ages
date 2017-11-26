@@ -8,7 +8,7 @@ setParent("triumph:stage2/compass")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("infoaccessories:info_accessory")
+criteria.setItem("infoaccessories:info_accessory", 0)
 
 
 setRewardExperience(8)

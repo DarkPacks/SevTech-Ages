@@ -1,0 +1,19 @@
+setIcon("tcomplement:porcelain_tank")
+
+setTitle("Smelter Tank")
+
+setDescription("Solid fuels only get you so far. Iron requires lava to melt down and so you will need a tank to hold this lava.")
+
+setParent("triumph:stage2/iron")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tcomplement:porcelain_tank")
+criteria2.setItem("tconstruct:seared_tank")
+
+setRequirements("any")
+
+setRewardExperience(8)
+
+

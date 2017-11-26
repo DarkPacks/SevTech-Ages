@@ -46,3 +46,5 @@
 
 <prospectors:prospector_best>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_best>.addTooltip(format.yellow("for ore in Stage 5 and below"));
+
+<ceramics:clay_bucket>.addTooltip(format.red("Will literally melt away after transporting HOT liquid"));

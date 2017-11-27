@@ -73,13 +73,14 @@ fluidRedstoneData.addDataValue("temperature", "1000");
 fluidRedstoneData.addDataValue("vaporize", "false");
 
 //Liquid Invar
-var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9410979).build();
-var invarFluid = invar.registerPart("molten");
-var fluidInvarData = invarFluid.getData();
-fluidInvarData.addDataValue("density", "8000");
-fluidInvarData.addDataValue("viscosity", "3000");
-fluidInvarData.addDataValue("temperature", "1000");
-fluidInvarData.addDataValue("vaporize", "false");
+var ostonium = MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build();
+var ostoniumFluid = ostonium.registerPart("molten");
+var fluidOstoniumData = ostoniumFluid.getData();
+fluidOstoniumData.addDataValue("density", "20000");
+fluidOstoniumData.addDataValue("viscosity", "16000");
+fluidOstoniumData.addDataValue("luminosity", "15");
+fluidOstoniumData.addDataValue("temperature", "1000");
+fluidOstoniumData.addDataValue("vaporize", "false");
 
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
@@ -110,6 +111,8 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("temperature", "550");
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
+
+
 
 /*
 //Invar

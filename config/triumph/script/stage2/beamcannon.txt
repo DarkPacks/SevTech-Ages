@@ -1,0 +1,13 @@
+setIcon("embers:beam_cannon")
+
+setTitle("MEME Cannon")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage2/dawnstone")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("embers:beam_cannon")
+
+setRewardExperience(8)

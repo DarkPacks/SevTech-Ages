@@ -445,6 +445,8 @@ mods.recipestages.Recipes.setRecipeStage("two", <bibliocraft:paintingframefancy:
 mods.recipestages.Recipes.setRecipeStage("two", <bibliocraft:paintingframeborderless:*>);
 
 //Storage Drawers
+recipes.remove(<storagedrawers:upgrade_template>);
+recipes.remove(<storagedrawers:upgrade_storage>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:framingtable>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:customdrawers>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:customdrawers:1>);
@@ -459,7 +461,6 @@ mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:trim:3>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:trim:4>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:trim:5>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_template>);
-mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_storage>);
 mods.recipestages.Recipes.addShaped("two", <storagedrawers:upgrade_storage>, [[stick, stick, stick], [<minecraft:coal_block>, <storagedrawers:upgrade_template>, <minecraft:coal_block>], [stick, stick, stick]]);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_storage:1>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_storage:2>);
@@ -478,8 +479,7 @@ mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:quantify_key>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:tape>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_one_stack>);
 mods.recipestages.Recipes.setRecipeStage("two", <storagedrawers:upgrade_conversion>);
-
-
+mods.recipestages.Recipes.addShaped("two", <storagedrawers:upgrade_template>, [[stick, stick, stick], [stick, <ore:drawerTrim>, stick], [stick, stick, stick]]);
 
 //Workblade
 mods.recipestages.Recipes.addShaped("two", <primal:iron_workblade>, [[ip, stick, ip], [ip, stick, ip], [null, stick, null]]);

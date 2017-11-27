@@ -45,6 +45,7 @@ mods.betterwithmods.Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoa
 
 mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
 
+mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
 
 /*
 mods.betterwithaddons.SoakingBox.add(IItemStack output, IItemStack input);

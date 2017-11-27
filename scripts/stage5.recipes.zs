@@ -325,8 +325,6 @@ mods.recipestages.Recipes.setRecipeStage("five", <roots:diamond_hammer>);
 //NEEDS RECIPES
 mods.recipestages.Recipes.setRecipeStage("five", <extendedcrafting:material:128>);
 
-mods.recipestages.Recipes.setRecipeStage("five", <bedrockores:bedrock_miner>);
-
 //Ender Storage
 mods.recipestages.Recipes.setRecipeStage("five", <enderstorage:ender_storage>);
 mods.recipestages.Recipes.setRecipeStage("five", <enderstorage:ender_storage:1>);

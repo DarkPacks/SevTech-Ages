@@ -1,0 +1,21 @@
+setIcon("embers:aspectus_dawnstone")
+
+setTitle("Aspectus")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage2/dawnstone")
+setRequiresParent(true)
+
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria1.setItem("embers:aspectus_iron")
+criteria2.setItem("embers:aspectus_copper")
+criteria3.setItem("embers:aspectus_lead")
+criteria4.setItem("embers:aspectus_silver")
+criteria5.setItem("embers:aspectus_dawnstone")
+
+setRewardExperience(8)

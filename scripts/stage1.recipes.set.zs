@@ -363,6 +363,13 @@ var itemsForStage = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
+
+	//Embers
+	<embers:plate_caminite_raw>,
+	<embers:stamp_bar_raw>,
+	<embers:stamp_flat_raw>,
+	<embers:stamp_plate_raw>,
+	<embers:stone_edge>
 ] as IItemStack[];
 
 for item in itemsForStage {

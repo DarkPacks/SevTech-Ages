@@ -78,6 +78,7 @@ var removeItems = [
 	<embers:sword_bronze>,
 	<embers:sword_copper>,
 	<embers:sword_tin>,
+	<embers:tinker_hammer>,
 	<embers:wall_caminite_brick>,
 
 	//Abyssalcraft for Stage1

@@ -11,7 +11,7 @@ var stages = [
 ] as string[];
 
 var replacementItemsForStage = {
-	"one" : [
+	STAGES.one : [
 		//Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks>],
 		[<minecraft:stone_stairs:*>, <minecraft:cobblestone>],
@@ -88,7 +88,7 @@ var replacementItemsForStage = {
 		[<contenttweaker:sub_block_holder_0>]
 	],
 
-	"two" : [
+	STAGES.two : [
 		[<minecraft:iron_bars:*>],
 
 		//Nitre
@@ -123,7 +123,7 @@ var replacementItemsForStage = {
 		[<astralsorcery:blockgeolosyssamplecluster>, <immcraft:rock>]
 	],
 
-	"three" : [
+	STAGES.three : [
 		[<minecraft:obsidian>, <chisel:basalt>],
 		[<chisel:obsidian>, <chisel:basalt:1>],
 		[<chisel:obsidian:1>, <chisel:basalt:2>],
@@ -212,7 +212,7 @@ var replacementItemsForStage = {
 		[<immersiveengineering:ore:3>]
 	],
 
-	"four" : [
+	STAGES.four : [
 		//Nuclear Physics
 		[<nuclearphysics:uranium_ore>],
 
@@ -220,7 +220,7 @@ var replacementItemsForStage = {
 		[<tconstruct:ore:1>, <minecraft:netherrack>]
 	],
 
-	"five" : [
+	STAGES.five : [
 		//Diamond
 		[<minecraft:diamond_ore>],
 		[<geolosys:ore_vanilla:5>],

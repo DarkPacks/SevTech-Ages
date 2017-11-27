@@ -40,7 +40,7 @@ var stages = [
 
 //Make sure each stage has a matching stage in the stages array!
 var materialsForStage = {
-	"one" : [
+	STAGES.one : [
 		"bone",
 		"cactus",
 		"flint",
@@ -48,7 +48,7 @@ var materialsForStage = {
 		"wood"
 	],
 
-	"two" : [
+	STAGES.two : [
 		"abyssalnite",
 		"blueslime",
 		"bronze",
@@ -65,7 +65,7 @@ var materialsForStage = {
 		"sponge"
 	],
 
-	"three" : [
+	STAGES.three : [
 		"endstone",
 		"firewood",
 		"lead",
@@ -77,7 +77,7 @@ var materialsForStage = {
 		"treatedwood"
 	],
 
-	"four" : [
+	STAGES.four : [
 		"ardite",
 		"cobalt",
 		"integrationforegoing.pink_slime",
@@ -86,7 +86,7 @@ var materialsForStage = {
 		"pigiron"
 	],
 
-	"five" : [
+	STAGES.five : [
 		"ma.base_essence",
 		"ma.inferium",
 		"ma.intermedium",

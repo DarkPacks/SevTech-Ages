@@ -36,14 +36,14 @@ var stages = [
 //Make sure each stage has a matching stage in the stages array!
 var mobsForStages = {
 	//Stage one
-	"one" : [
+	STAGES.one : [
 		"emberroot:rainbowslime",
 		"emberroot:slime",
 		"minecraft:skeleton"
 	],
 
 	//Stage two
-	"two" : [
+	STAGES.two : [
 		"emberroot:enderminy",
 		"emberroot:fallenmount",
 		"emberroot:hero",
@@ -55,7 +55,7 @@ var mobsForStages = {
 	],
 
 	//Stage three
-	"three" : [
+	STAGES.three : [
 		"fat_cat:fat_cat"
 	]
 } as string[][string];

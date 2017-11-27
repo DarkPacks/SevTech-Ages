@@ -35,9 +35,7 @@ var shapelessRecipes = {
 	]
 } as IIngredient[][][IItemStack];
 
-for item in shapelessRecipes {
-	var recipesForItem = shapelessRecipes[item];
-
+for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {
 		recipes.addShapeless(item, recipe);
 	}

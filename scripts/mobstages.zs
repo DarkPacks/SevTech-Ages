@@ -27,13 +27,6 @@ mods.MobStages.addRange(String entityId, int range, int dimension);
 mods.MobStages.toggleSpawners(String entityId, boolean allow, int dimension);
 */
 
-var stages = [
-	"one",
-	"two",
-	"three"
-] as string[];
-
-//Make sure each stage has a matching stage in the stages array!
 var mobsForStages = {
 	//Stage one
 	STAGES.one : [
@@ -60,8 +53,8 @@ var mobsForStages = {
 	]
 } as string[][string];
 
-for stage in stages {
-	for mob in mobsForStages[stage] {
+for stage, mobs in mobsForStages {
+	for mob in mobs {
 		mods.MobStages.addStage(stage, mob);
 	}
 }

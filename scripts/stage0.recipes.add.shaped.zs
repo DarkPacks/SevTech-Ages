@@ -299,9 +299,7 @@ var shapedRecipes = {
 	]
 } as IIngredient[][][][IItemStack];
 
-for item in shapedRecipes {
-	var recipesForItem = shapedRecipes[item];
-
+for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
 		recipes.addShaped(item, recipe);
 	}

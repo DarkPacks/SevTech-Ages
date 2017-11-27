@@ -2,14 +2,6 @@ import crafttweaker.item.IItemStack;
 
 //mods.OreTiers.blacklist(<minecraft:stone>);
 
-var stages = [
-	"one",
-	"two",
-	"three",
-	"four",
-	"five"
-] as string[];
-
 var replacementItemsForStage = {
 	STAGES.one : [
 		//Village Replacement for stage1
@@ -244,8 +236,8 @@ var replacementItemsForStage = {
 	]
 } as IItemStack[][][string];
 
-for stage in stages {
-	for itemReplacementPair in replacementItemsForStage[stage] {
+for stage, itemReplacementPairs in replacementItemsForStage {
+	for itemReplacementPair in itemReplacementPairs {
 		var length = itemReplacementPair.length;
 
 		if (length == 1) {

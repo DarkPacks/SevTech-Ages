@@ -128,3 +128,14 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>,
 <ore:rodSteeleaf>, <ore:rodSteeleaf>,
 <minecraft:sticky_piston>, <minecraft:sticky_piston>
 ]);
+
+
+
+
+
+// Adds a new Infusion recipe to the starlight infusion
+// Parameters:
+// InputStack, OutputStack, consumeMultiple (true/false), consumptionChance, craftTickTime
+// Example:
+// mods.astralsorcery.StarlightInfusion.addInfusion(<astralsorcery:itemjournal>, <minecraft:bow>, false, 0.7, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 1.0, 300);

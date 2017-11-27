@@ -13,5 +13,6 @@ criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria1.setItem("embers:ember_emitter")
 criteria2.setItem("embers:ember_receiver")
 
+setRewardItem("embers:tinker_hammer", 0, 1)
 
 setRewardExperience(4)

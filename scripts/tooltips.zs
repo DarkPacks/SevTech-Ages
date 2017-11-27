@@ -48,3 +48,7 @@
 <prospectors:prospector_best>.addTooltip(format.yellow("for ore in Stage 5 and below"));
 
 <ceramics:clay_bucket>.addTooltip(format.red("Will literally melt away after transporting HOT liquid"));
+
+<embers:tinker_hammer>..addTooltip(format.red("Use to connect Embers blocks"));
+<embers:tinker_hammer>..addTooltip(format.red("Reciever first Emitter Second"));
+<embers:tinker_hammer>..addTooltip(format.red("Shift-click on reciever and right-click on emitter"));

@@ -353,7 +353,7 @@ var shapedRecipes = {
 		[[null, <ore:rodCopper>, null], [<embers:plate_caminite>, <ore:rodCopper>, <embers:plate_caminite>], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
 	],
 	<embers:ember_gauge> : [
-		[[null, tp, null], [tp, <contenttweaker:material_part:4>, tp], [null, <ore:ingotCopper>, null]]
+		[[null, cp, null], [cp, <contenttweaker:material_part:4>, cp], [null, <ore:ingotTin>, null]]
 	],
 	<embers:ember_receiver> : [
 		[[null, null, null], [<embers:plate_caminite>, null, <embers:plate_caminite>], [<ore:plateCopper>, <embers:plate_caminite>, <ore:plateCopper>]]

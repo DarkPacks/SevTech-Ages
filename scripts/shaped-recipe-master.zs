@@ -256,11 +256,6 @@ recipes.addShaped(<roots:iron_knife>, [[null, iron], [stick, null]]);
 recipes.addShaped(<roots:diamond_knife>, [[null, diamond], [stick, null]]);
 recipes.addShaped(<roots:gold_knife>, [[null, gold], [stick, null]]);
 
-
-
-
-
-
 //recipes.addShaped(<simplyjuices:itemtooljuicer>, [[null, <roots:pestle>], [null, stone]]);
 
 //Totemic
@@ -270,28 +265,16 @@ recipes.addShaped(<totemic:totem_whittling_knife>, [[null, <primal:flint_knapp>]
 recipes.addShaped(<totemic:drum>, [[<ore:plankWood>, leather, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
 recipes.addShaped(<totemic:flute>, [[null, <minecraft:tallgrass:*>, <minecraft:reeds>], [null, <minecraft:reeds>, null], [<minecraft:reeds>, null, null]]);
 recipes.addShaped(<totemic:totem_torch>, [[null, <primal_tech:fibre_torch_lit>, null], [null, stick, null], [null, stick, null]]);
-recipes.addShaped(<totemic:totempedia>, [[null, <ore:treeSapling>, null], [null, <roots:book_base>, null], [null, null, null]]);
+recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <roots:book_base>]);
 recipes.addShaped(<totemic:sub_items:1>, [[bone, cane, bone], [cane, bone, cane], [null, null, null]]);
 recipes.addShaped(<totemic:totemic_staff>, [[null, <minecraft:red_flower>, <minecraft:double_plant>], [null, stick, <minecraft:yellow_flower>], [stick, null, null]]);
-recipes.addShaped(<totemic:jingle_dress>, [[str, str, str], [<totemic:sub_items:1>, <totemic:sub_items:1>, <totemic:sub_items:1>], [null, null, null]]);
+recipes.addShaped(<totemic:jingle_dress>, [[str, str, str], [<totemic:sub_items:1>, <totemic:sub_items:1>, <totemic:sub_items:1>]]);
 recipes.addShaped(<totemic:rattle>, [[stick, null], [null, <totemic:sub_items:1>]]);
-
-
-
-
-
-
-
-
-
-
 
 //Millstone requires grindstone
 recipes.remove(<betterwithmods:single_machine>);
 recipes.addShaped(<betterwithmods:single_machine>, [[stone, <minecraft:stone_slab>, stone], [stone, <horsepower:hand_grindstone>, stone], [stone, stone, stone]]);
 recipes.addShaped(<horsepower:press>, [[<minecraft:lead>, stick, <minecraft:lead>], [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
-
-
 
 //I'm tired of the annoyance of getting flint and we've changed that! Thanks to BlakeBr0! <3
 recipes.remove(<minecraft:flint>);
@@ -300,14 +283,8 @@ recipes.addShapeless(<minecraft:flint>, [<pickletweaks:grass_mesh:*>, <minecraft
 recipes.remove(<pickletweaks:mesh>);
 recipes.addShapedMirrored(<pickletweaks:grass_mesh>, [[stick, <ore:cordageGeneral>], [<ore:cordageGeneral>, stick]]);
 
-
-
 recipes.addShaped(<primal_tech:charcoal_hopper>, [[<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <abyssalcraft:shadowgem>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})], [<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <embers:ancient_motive_core>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})], [null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null]]);
 //recipes.addShaped(<primal_tech:charcoal_hopper>, [[<roots:petal_dust>, <abyssalcraft:shadowgem>, <roots:petal_dust>], [<roots:petal_dust>, <embers:ancient_motive_core>, <roots:petal_dust>], [null, <roots:petal_dust>, null]]);
-
-
-
-
 
 //Leather Processing
 recipes.addShapeless(<primal:hide_salted>, [<primal:hide_raw>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
@@ -339,21 +316,8 @@ recipes.addShapeless(<minecraft:string> * 8, [<betterwithaddons:bolt:6>]);
 recipes.addShapeless(str, [<ore:toolWorkBlade>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 recipes.addShaped(<betterwithaddons:loom>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <betterwithmods:material>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
-
-//Wood Armor uses bark
-//recipes.remove(<tp:wooden_helmet>);
-//recipes.addShaped(<tp:wooden_helmet>, [[<primal:bark_oak>, <primal:bark_oak>, <primal:bark_oak>], [<primal:bark_oak>, null, <primal:bark_oak>]]);
-//recipes.remove(<tp:wooden_chestplate>);
-//recipes.addShaped(<tp:wooden_chestplate>, [[<primal:bark_oak>, null, <primal:bark_oak>], [<primal:bark_oak>, <primal:bark_oak>, <primal:bark_oak>], [<primal:bark_oak>, <primal:bark_oak>, <primal:bark_oak>]]);
-//recipes.remove(<tp:wooden_leggings>);
-//recipes.addShaped(<tp:wooden_leggings>, [[<primal:bark_oak>, <primal:bark_oak>, <primal:bark_oak>], [<primal:bark_oak>, null, <primal:bark_oak>], [<primal:bark_oak>, null, <primal:bark_oak>]]);
-//recipes.remove(<tp:wooden_boots>);
-//recipes.addShaped(<tp:wooden_boots>, [[<primal:bark_oak>, null, <primal:bark_oak>], [<primal:bark_oak>, null, <primal:bark_oak>]]);
-
 //backpack
 recipes.addShaped(<improvedbackpacks:backpack>, [[leather, leather, leather], [leather, <immcraft:chest>, leather], [leather, <primal:leather_cordage>, leather]]);
-
-
 recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 0}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:0>]);
 recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 1}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:1>]);
 recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 2}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:2>]);
@@ -371,12 +335,8 @@ recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 13}), [<improv
 recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 14}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:14>]);
 recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 15}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:15>]);
 
-
-
 //Useless seeds can now be used!
 recipes.addShaped(<actuallyadditions:item_misc:1>, [[null, null, null], [null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>], [null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>]]);
-
-
 
 recipes.addShaped(<primal:flint_hatchet>, [[cordage, <primal:flint_knapp>], [stick, null]]);
 recipes.addShaped(<primal:flint_shovel>, [[null, cordage, <primal:flint_knapp>], [null, stick, cordage], [stick, null, null]]);
@@ -387,32 +347,18 @@ recipes.addShaped(<primal:flint_workblade>, [[<primal:flint_knapp>, cordage, <pr
 recipes.addShaped(<primal:flint_saw>, [[cordage, null, null], [<primal:flint_knapp>, stick, null], [null, <primal:flint_knapp>, stick]]);
 recipes.addShaped(<primal:flint_pickaxe>, [[null, <primal:flint_knapp>, cordage], [null, stick, <primal:flint_knapp>], [stick, null, null]]);
 
-
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, stick, <>], [null, stick, null]]);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, stick, <>], [null, stick, null]]);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, stick, <>], [null, stick, null]]);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [null, stick, null]]);
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, stick, <>], [null, stick, null]]);
-
-
 //Tinkers Compliment Recipes
 recipes.remove(<tcomplement:porcelain_casting:1>);
 recipes.addShaped(<tcomplement:porcelain_casting:1>, [[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]]);
 
-
-
-
 //Runestone is more harder 'n stuff
 recipes.remove(<roots:chiseled_runestone>);
-recipes.addShaped(<roots:chiseled_runestone>, [[null, null, null], [null, null, null], [<primal:flint_point>, <roots:runestone>, null]]);
+recipes.addShapeless(<roots:chiseled_runestone>, [<primal:flint_point>, <roots:runestone>]);
 
 recipes.remove(<primal:leather_cordage>);
 recipes.addShaped(<primal:leather_cordage>, [[null, <primal:leather_strip>, null], [<primal:leather_strip>, str, <primal:leather_strip>], [null, null, null]]);
 recipes.remove(<betterwithmods:material:9>);
 recipes.addShaped(<betterwithmods:material:9>, [[null, <ore:cordageLeather>, null], [<ore:cordageLeather>, <ore:slimeball>, <ore:cordageLeather>], [null, <ore:cordageLeather>, null]]);
-
-
-
 
 //Fluid Bladder to Rice Slimeball
 recipes.addShaped(<actuallyadditions:item_misc:12>, [[null, <actuallyadditions:item_misc:9>, null], [<actuallyadditions:item_misc:9>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>], [null, <actuallyadditions:item_misc:9>, null]]);

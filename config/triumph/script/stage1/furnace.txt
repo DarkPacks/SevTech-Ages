@@ -11,5 +11,3 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("minecraft:furnace")
 
 setRewardExperience(4)
-
-//By not setting anything about requirements here, all criteria are automatically required

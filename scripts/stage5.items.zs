@@ -248,9 +248,6 @@ var stage5Items = [
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,
 
-	//Bedrock Miner 
-	<bedrockores:bedrock_miner>,
-
 	//Diamond Stuff
 	<actuallyadditions:diamond_paxel>,
 	<actuallyadditions:item_dust:2>,

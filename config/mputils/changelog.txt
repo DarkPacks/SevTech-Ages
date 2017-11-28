@@ -13,6 +13,8 @@
 * A number of Scripts have been cleaned up
 * §3Removed the Garden Stuff mod
 * Added Buildcraft for testing purposes
+* §3Staged the PlayerSkins mod and configured
+* Storage Drawer upgrades can now be crafted
 
 --------------------------------------------------------------------------------------------------------------------------
 

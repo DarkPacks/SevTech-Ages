@@ -245,6 +245,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:38>,
 		rod: <immersiveengineering:material:2>
 	},
+	steeleaf: {
+		block: <twilightforest:block_storage:2>,
+		dust: null,
+		gear: <contenttweaker:material_part:38>,
+		ingot: <twilightforest:steeleaf_ingot>,
+		liquid: <liquid:steeleaf>,
+		nugget: null,
+		plate: <contenttweaker:material_part:39>,
+		rod: <contenttweaker:material_part:42>,
+	}
 	tin: {
 		block: <embers:block_tin>,
 		dust: null,

@@ -19,6 +19,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 	[<actuallyadditions:item_coffee_beans>]
 ]
 */
+/*UNCOMMENT WHEN NEEDED
 var shapelessRecipes = {
 
 } as IIngredient[][][IItemStack];
@@ -28,3 +29,4 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
+*/

@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-var STAGE = STAGES.one;
+var STAGE = STAGES.four;
 
 /*
 <item> : [

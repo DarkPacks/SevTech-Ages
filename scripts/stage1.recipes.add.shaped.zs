@@ -45,7 +45,7 @@ var shapedRecipes = {
 		[[null, <ore:slabWood>, plank], [<ore:slabWood>, null, <ore:slabWood>], [null, <ore:slabWood>, null]]
 	],
 	<dungpipe:sewer_pipe> : [
-		[[null, null, null], [<dungpipe:dung_pipe>, tp, tp], [null, null, null]]
+		[[null, null, null], [<dungpipe:dung_pipe>, metals.tin.plate, metals.tin.plate], [null, null, null]]
 	],
 	<minecraft:crafting_table> : [
 		[[plank, plank], [plank, plank]]
@@ -70,13 +70,13 @@ var shapedRecipes = {
 
 	//Gear recipes for Stage1 only
 	<contenttweaker:material_part:25> : [
-		[[null, bp, null], [bp, <teslacorelib:gear_stone>, bp], [null, bp, null]]
+		[[null, metals.bronze.plate, null], [metals.bronze.plate, <teslacorelib:gear_stone>, metals.bronze.plate], [null, metals.bronze.plate, null]]
 	],
 	<contenttweaker:material_part:5> : [
-		[[null, tp, null], [tp, <teslacorelib:gear_stone>, tp], [null, tp, null]]
+		[[null, metals.tin.plate, null], [metals.tin.plate, <teslacorelib:gear_stone>, metals.tin.plate], [null, metals.tin.plate, null]]
 	],
 	<contenttweaker:material_part> : [
-		[[null, cp, null], [cp, <teslacorelib:gear_stone>, cp], [null, cp, null]]
+		[[null, metals.copper.plate, null], [metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate], [null, metals.copper.plate, null]]
 	],
 
 	//Slabs
@@ -217,7 +217,7 @@ var shapedRecipes = {
 	<betterwithmods:axle_generator:1> : [
 		[
 			[<betterwithmods:material:10>, <betterwithmods:material:10>, <betterwithmods:material:10>],
-			[<betterwithmods:material:10>, cgear, <betterwithmods:material:10>],
+			[<betterwithmods:material:10>, metals.copper.gear, <betterwithmods:material:10>],
 			[<betterwithmods:material:10>, <betterwithmods:material:10>, <betterwithmods:material:10>]
 		]
 	],
@@ -244,7 +244,7 @@ var shapedRecipes = {
 		[[<betterwithmods:material:3>, <betterwithmods:material:3>], [<betterwithmods:material:3>, <betterwithmods:material:3>], [<betterwithmods:material:3>, <betterwithmods:material:3>]]
 	],
 	<betterwithmods:saw> : [
-		[[null, <primal_tech:flint_edged_disc>, null], [cgear, <betterwithmods:material:9>, cgear], [<ore:plankWood>, bgear, <ore:plankWood>]]
+		[[null, <primal_tech:flint_edged_disc>, null], [metals.copper.gear, <betterwithmods:material:9>, metals.copper.gear], [<ore:plankWood>, metals.bronze.gear, <ore:plankWood>]]
 	],
 	<betterwithmods:single_machine:3> : [
 		[[<betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>], [stone, <ore:gearCopper>, stone], [stone, <betterwithmods:wooden_axle>, stone]]
@@ -253,7 +253,11 @@ var shapedRecipes = {
 		[[null, <minecraft:stick>, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <minecraft:stick>, null]]
 	],
 	<betterwithmods:wooden_gearbox> : [
-		[[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>], [bp, <betterwithmods:wooden_axle>, bp], [<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]]
+		[
+			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>],
+			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
+			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]
+		]
 	],
 
 	//Embers recipes fixed for Stage1
@@ -275,13 +279,13 @@ var shapedRecipes = {
 		[[null, <embers:archaic_brick>, null], [<embers:archaic_brick>, <embers:crystal_ember>, <embers:archaic_brick>], [null, <embers:archaic_brick>, null]]
 	],
 	<embers:axe_bronze> : [
-		[[bp, bp, null], [bp, stick, null], [null, stick, null]]
+		[[metals.bronze.plate, metals.bronze.plate, null], [metals.bronze.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_copper> : [
-		[[cp, cp, null], [cp, stick, null], [null, stick, null]]
+		[[metals.copper.plate, metals.copper.plate, null], [metals.copper.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_tin> : [
-		[[tp, tp, null], [tp, stick, null], [null, stick, null]]
+		[[metals.tin.plate, metals.tin.plate, null], [metals.tin.plate, stick, null], [null, stick, null]]
 	],
 	<embers:block_caminite_brick> : [
 		[[<embers:brick_caminite>, <embers:brick_caminite>], [<embers:brick_caminite>, <embers:brick_caminite>]]
@@ -319,25 +323,25 @@ var shapedRecipes = {
 		[[null, <ore:rodCopper>, null], [<embers:plate_caminite>, <ore:rodCopper>, <embers:plate_caminite>], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
 	],
 	<embers:ember_gauge> : [
-		[[null, cp, null], [cp, <contenttweaker:material_part:4>, cp], [null, <ore:ingotTin>, null]]
+		[[null, metals.copper.plate, null], [metals.copper.plate, <contenttweaker:material_part:4>, metals.copper.plate], [null, <ore:ingotTin>, null]]
 	],
 	<embers:ember_receiver> : [
 		[[null, null, null], [<embers:plate_caminite>, null, <embers:plate_caminite>], [<ore:plateCopper>, <embers:plate_caminite>, <ore:plateCopper>]]
 	],
 	<embers:fluid_gauge> : [
-		[[null, tp, null], [tp, <contenttweaker:material_part:4>, tp], [null, <ore:ingotTin>, null]]
+		[[null, metals.tin.plate, null], [metals.tin.plate, <contenttweaker:material_part:4>, metals.tin.plate], [null, <ore:ingotTin>, null]]
 	],
 	<embers:hoe_bronze> : [
-		[[bp, bp, null], [null, stick, null], [null, stick, null]]
+		[[metals.bronze.plate, metals.bronze.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_copper> : [
-		[[cp, cp, null], [null, stick, null], [null, stick, null]]
+		[[metals.copper.plate, metals.copper.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_tin> : [
-		[[tp, tp, null], [null, stick, null], [null, stick, null]]
+		[[metals.tin.plate, metals.tin.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:mech_accessor> : [
-		[[null, null, null], [<embers:stairs_caminite_brick>, <embers:plate_caminite>, tp], [null, null, null]]
+		[[null, null, null], [<embers:stairs_caminite_brick>, <embers:plate_caminite>, metals.tin.plate], [null, null, null]]
 	],
 	<embers:mech_core> : [
 		[[<ore:plateTin>, <ore:plateCopper>, <ore:plateTin>], [<ore:plateCopper>, <embers:archaic_circuit>, <ore:plateCopper>], [<ore:plateTin>, <ore:plateCopper>, <ore:plateTin>]]
@@ -346,22 +350,22 @@ var shapedRecipes = {
 		[[<ore:plateTin>, null, <ore:plateTin>], [<ore:plateTin>, <embers:mech_core>, <ore:plateTin>], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
 	],
 	<embers:pickaxe_bronze> : [
-		[[bp, bp, bp], [null, stick, null], [null, stick, null]]
+		[[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_copper> : [
-		[[cp, cp, cp], [null, stick, null], [null, stick, null]]
+		[[metals.copper.plate, metals.copper.plate, metals.copper.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_tin> : [
-		[[tp, tp, tp], [null, stick, null], [null, stick, null]]
+		[[metals.tin.plate, metals.tin.plate, metals.tin.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_bronze> : [
-		[[null, bp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.bronze.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_copper> : [
-		[[null, cp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.copper.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_tin> : [
-		[[null, tp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.tin.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:stairs_caminite_brick> * 6 : [
 		[
@@ -381,13 +385,13 @@ var shapedRecipes = {
 		[[<embers:plate_caminite>, <ceramics:clay_barrel:1>, <embers:plate_caminite>], [<embers:block_caminite_brick>, <ceramics:clay_barrel>, <embers:block_caminite_brick>]]
 	],
 	<embers:sword_bronze> : [
-		[[null, bp, null], [null, bp, null], [null, stick, null]]
+		[[null, metals.bronze.plate, null], [null, metals.bronze.plate, null], [null, stick, null]]
 	],
 	<embers:sword_copper> : [
-		[[null, cp, null], [null, cp, null], [null, stick, null]]
+		[[null, metals.copper.plate, null], [null, metals.copper.plate, null], [null, stick, null]]
 	],
 	<embers:sword_tin> : [
-		[[null, tp, null], [null, tp, null], [null, stick, null]]
+		[[null, metals.tin.plate, null], [null, metals.tin.plate, null], [null, stick, null]]
 	],
 	<embers:wall_caminite_brick> * 6 : [
 		[
@@ -416,10 +420,18 @@ var shapedRecipes = {
 
 	//Iron Chests use plates
 	<ironchest:iron_chest:3> : [
-		[[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateCopper>, <minecraft:chest>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]
+		[
+			[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+			[<ore:plateCopper>, <minecraft:chest>, <ore:plateCopper>],
+			[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]
+		]
 	],
 	<ironchest:wood_copper_chest_upgrade> : [
-		[[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateCopper>, log, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]
+		[
+			[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>],
+			[<ore:plateCopper>, log, <ore:plateCopper>],
+			[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]
+		]
 	],
 
 	//Tinkers'

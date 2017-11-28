@@ -39,7 +39,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapedRecipes = {
 	<betterbuilderswands:wandiron> : [
-		[[null, null, ip], [null, <ore:logWood>, null], [<ore:logWood>, null, null]]
+		[[null, null, metals.iron.plate], [null, <ore:logWood>, null], [<ore:logWood>, null, null]]
 	],
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}) : [
 		[[<minecraft:wool:*>, leather, <minecraft:wool:*>], [leather, <primal:storage_crate:*>, leather], [<minecraft:wool:*>, leather, <minecraft:wool:*>]]
@@ -96,64 +96,84 @@ var shapedRecipes = {
 		[[plank, plank, plank], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [plank, plank, plank]]
 	],
 	<minecraft:golden_axe> : [
-		[[gp, gp, null], [gp, stick, null], [null, stick, null]]
+		[[metals.gold.plate, metals.gold.plate, null], [metals.gold.plate, stick, null], [null, stick, null]]
 	],
 	<minecraft:golden_boots> : [
-		[[gp, null, gp], [gp, null, gp]]
+		[[metals.gold.plate, null, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
 	],
 	<minecraft:golden_chestplate> : [
-		[[gp, null, gp], [gp, gp, gp], [gp, gp, gp]]
+		[
+			[metals.gold.plate, null, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
 	],
 	<minecraft:golden_helmet> : [
-		[[gp, gp, gp], [gp, null, gp]]
+		[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
 	],
 	<minecraft:golden_hoe> : [
-		[[gp, gp, null], [null, stick, null], [null, stick, null]]
+		[[metals.gold.plate, metals.gold.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:golden_leggings> : [
-		[[gp, gp, gp], [gp, null, gp], [gp, null, gp]]
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, null, metals.gold.plate],
+			[metals.gold.plate, null, metals.gold.plate]
+		]
 	],
 	<minecraft:golden_pickaxe> : [
-		[[gp, gp, gp], [null, stick, null], [null, stick, null]]
+		[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:golden_shovel> : [
-		[[null, gp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.gold.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:golden_sword> : [
-		[[null, gp, null], [null, gp, null], [null, stick, null]]
+		[[null, metals.gold.plate, null], [null, metals.gold.plate, null], [null, stick, null]]
 	],
 	<minecraft:hopper> : [
-		[[ip, <minecraft:chest>,ip], [ip, bgear,ip], [null, ip, null]]
+		[
+			[metals.iron.plate, <minecraft:chest>,metals.iron.plate],
+			[metals.iron.plate, metals.bronze.gear,metals.iron.plate],
+			[null, metals.iron.plate, null]
+		]
 	],
 	<minecraft:iron_axe> : [
-		[[ip, ip, null], [ip, stick, null], [null, stick, null]]
+		[[metals.iron.plate, metals.iron.plate, null], [metals.iron.plate, stick, null], [null, stick, null]]
 	],
 	<minecraft:iron_boots> : [
-		[[ip, null, ip], [ip, null, ip]]
+		[[metals.iron.plate, null, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
 	],
 	<minecraft:iron_chestplate> : [
-		[[ip, null, ip], [ip, ip, ip], [ip, ip, ip]]
+		[
+			[metals.iron.plate, null, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		]
 	],
 	<minecraft:iron_helmet> : [
-		[[ip, ip, ip], [ip, null, ip]]
+		[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
 	],
 	<minecraft:iron_hoe> : [
-		[[ip, ip, null], [null, stick, null], [null, stick, null]]
+		[[metals.iron.plate, metals.iron.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:iron_leggings> : [
-		[[ip, ip, ip], [ip, null, ip], [ip, null, ip]]
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, null, metals.iron.plate],
+			[metals.iron.plate, null, metals.iron.plate]
+		]
 	],
 	<minecraft:iron_pickaxe> : [
-		[[ip, ip, ip], [null, stick, null], [null, stick, null]]
+		[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:iron_shovel> : [
-		[[null, ip, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.iron.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<minecraft:iron_sword> : [
-		[[null, ip, null], [null, ip, null], [null, stick, null]]
+		[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, stick, null]]
 	],
 	<minecraft:piston> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, ip, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
+		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
 	],
 	<minecraft:wool:10> : [
 		[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
@@ -204,7 +224,7 @@ var shapedRecipes = {
 		[[null, <betterwithaddons:wool>, null], [<betterwithaddons:wool>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool>], [null, <betterwithaddons:wool>, null]]
 	],
 	<pickletweaks:watering_can> : [
-		[[ip, <actuallyadditions:item_fertilizer>, null], [ip, <minecraft:bucket>, ip], [null, ip, null]]
+		[[metals.iron.plate, <actuallyadditions:item_fertilizer>, null], [metals.iron.plate, <minecraft:bucket>, metals.iron.plate], [null, metals.iron.plate, null]]
 	],
 	<prospectors:prospector_low> : [
 		[[null, <minecraft:coal:*>, <ore:blockGlass>], [null, <ore:logWood>, <minecraft:coal:*>], [<ore:logWood>, null, null]]
@@ -291,34 +311,66 @@ var shapedRecipes = {
 
 	//Workblade
 	<primal:iron_workblade> : [
-		[[ip, stick, ip], [ip, stick, ip], [null, stick, null]]
+		[[metals.iron.plate, stick, metals.iron.plate], [metals.iron.plate, stick, metals.iron.plate], [null, stick, null]]
 	],
 
 	//Iron Chests
 	//Iron Chests use plates
 	<ironchest:copper_iron_chest_upgrade> : [
-		[[ip, ip, ip], [ip, cp, ip], [ip, ip, ip]]
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, metals.copper.plate, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		]
 	],
 	<ironchest:copper_silver_chest_upgrade> : [
-		[[sp, sp, sp], [sp, cp, sp], [sp, sp, sp]]
+		[
+			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
+			[metals.steel.plate, metals.copper.plate, metals.steel.plate],
+			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+		]
 	],
 	<ironchest:iron_chest:1> : [
-		[[gp, gp, gp], [gp, <minecraft:chest>, gp], [gp, gp, gp]]
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, <minecraft:chest>, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
 	],
 	<ironchest:iron_chest:4> : [
-		[[sp, sp, sp], [sp, <minecraft:chest>, sp], [sp, sp, sp]]
+		[
+			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
+			[metals.steel.plate, <minecraft:chest>, metals.steel.plate],
+			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+		]
 	],
 	<ironchest:iron_chest> : [
-		[[ip, ip, ip], [ip, <minecraft:chest>, ip], [ip, ip, ip]]
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		]
 	],
 	<ironchest:iron_gold_chest_upgrade> : [
-		[[gp, gp, gp], [gp, ip, gp], [gp, gp, gp]]
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, metals.iron.plate, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
 	],
 	<ironchest:silver_gold_chest_upgrade> : [
-		[[gp, gp, gp], [gp, sp, gp], [gp, gp, gp]]
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, metals.steel.plate, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
 	],
 	<ironchest:wood_iron_chest_upgrade> : [
-		[[ip, ip, ip], [ip, log, ip], [ip, ip, ip]]
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, log, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		]
 	],
 
 	//Astral
@@ -355,7 +407,7 @@ var shapedRecipes = {
 
 	//InfoItems
 	<infoaccessories:info_accessory:2> : [
-		[[null, <twilightforest:ironwood_ingot>, null], [<twilightforest:ironwood_ingot>, <minecraft:compass>, <twilightforest:ironwood_ingot>], [null, tgear, null]]
+		[[null, <twilightforest:ironwood_ingot>, null], [<twilightforest:ironwood_ingot>, <minecraft:compass>, <twilightforest:ironwood_ingot>], [null, metals.tin.gear, null]]
 	],
 	<infoaccessories:info_accessory:6> : [
 		[
@@ -365,13 +417,13 @@ var shapedRecipes = {
 		]
 	],
 	<infoaccessories:info_accessory> : [
-		[[null, <abyssalcraft:dsbutton>, null], [<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>], [null, tgear, null]]
+		[[null, <abyssalcraft:dsbutton>, null], [<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>], [null, metals.tin.gear, null]]
 	],
 	<minecraft:clock> : [
-		[[<minecraft:dye:4>, gp, <minecraft:dye:4>], [gp, <minecraft:dye:4>, gp], [<minecraft:dye:4>, gp, <minecraft:dye:4>]]
+		[[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>], [metals.gold.plate, <minecraft:dye:4>, metals.gold.plate], [<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]]
 	],
 	<minecraft:compass> : [
-		[[null, ip, null], [ip, <tconstruct:arrow_head>.withTag({Material: "iron"}), ip], [null, ip, null]]
+		[[null, metals.iron.plate, null], [metals.iron.plate, <tconstruct:arrow_head>.withTag({Material: "iron"}), metals.iron.plate], [null, metals.iron.plate, null]]
 	],
 
 	//Tinkers'
@@ -399,13 +451,13 @@ var shapedRecipes = {
 
 	//Recipes to allow lift in Stage2
 	<betterwithmods:anchor> : [
-		[[null, ip, null], [<ore:stone>, <ore:stone>, <ore:stone>]]
+		[[null, metals.iron.plate, null], [<ore:stone>, <ore:stone>, <ore:stone>]]
 	],
 	<betterwithmods:material:34> : [
-		[[<minecraft:lever>, null], [gp, null]]
+		[[<minecraft:lever>, null], [metals.gold.plate, null]]
 	],
 	<betterwithmods:single_machine:1> : [
-		[[plank, ip, plank], [<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>], [plank, ip, plank]]
+		[[plank, metals.iron.plate, plank], [<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>], [plank, metals.iron.plate, plank]]
 	],
 
 	//Stage 2 Easier Gearbox and Axle
@@ -413,7 +465,11 @@ var shapedRecipes = {
 		[[null, <minecraft:stick>, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <minecraft:stick>, null]]
 	],
 	<betterwithmods:wooden_gearbox> : [
-		[[<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>], [bp, <betterwithmods:wooden_axle>, bp], [<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>]]
+		[
+			[<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>],
+			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
+			[<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>]
+		]
 	],
 
 	//Composting
@@ -432,22 +488,22 @@ var shapedRecipes = {
 
 	//Embers Stage 2
 	<embers:axe_dawnstone> : [
-		[[dp, dp, null], [dp, stick, null], [null, stick, null]]
+		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [metals.dawnstone.plate, stick, null], [null, stick, null]]
 	],
 	<embers:cinder_plinth> : [
-		[[null, ip, null], [ip, <minecraft:furnace>, ip], [ip, <embers:block_caminite_brick>, ip]]
+		[[null, metals.iron.plate, null], [metals.iron.plate, <minecraft:furnace>, metals.iron.plate], [metals.iron.plate, <embers:block_caminite_brick>, metals.iron.plate]]
 	],
 	<embers:hoe_dawnstone> : [
-		[[dp, dp, null], [null, stick, null], [null, stick, null]]
+		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_dawnstone> : [
-		[[dp, dp, dp], [null, stick, null], [null, stick, null]]
+		[[metals.dawnstone.plate, metals.dawnstone.plate, metals.dawnstone.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_dawnstone> : [
-		[[null, dp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:sword_dawnstone> : [
-		[[null, dp, null], [null, dp, null], [null, stick, null]]
+		[[null, metals.dawnstone.plate, null], [null, metals.dawnstone.plate, null], [null, stick, null]]
 	]
 } as IIngredient[][][][IItemStack];
 

@@ -49,9 +49,9 @@ var shapedRecipes = {
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[
-			[ip, <contenttweaker:material_part:55>, ip],
+			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate],
 			[<contenttweaker:material_part:55>, <immersiveengineering:material:26>, <contenttweaker:material_part:55>],
-			[ip, <contenttweaker:material_part:55>, ip]
+			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate]
 		]
 	],
 	<immersiveengineering:tool:1> : [
@@ -63,78 +63,86 @@ var shapedRecipes = {
 
 	//Embers Stage 3
 	<embers:axe_aluminum> : [
-		[[ap, ap, null], [ap, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_lead> : [
-		[[lp, lp, null], [lp, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, null], [metals.lead.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_nickel> : [
-		[[np, np, null], [np, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, null], [metals.nickel.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_silver> : [
-		[[sip, sip, null], [sip, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, null], [metals.silver.plate, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_aluminum> : [
-		[[ap, ap, null], [null, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_lead> : [
-		[[lp, lp, null], [null, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_nickel> : [
-		[[np, np, null], [null, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_silver> : [
-		[[sip, sip, null], [null, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_aluminum> : [
-		[[ap, ap, ap], [null, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_lead> : [
-		[[lp, lp, lp], [null, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, metals.lead.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_nickel> : [
-		[[np, np, np], [null, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_silver> : [
-		[[sip, sip, sip], [null, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, metals.silver.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_aluminum> : [
-		[[null, ap, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_lead> : [
-		[[null, lp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_nickel> : [
-		[[null, np, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_silver> : [
-		[[null, sip, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:sword_aluminum> : [
-		[[null, ap, null], [null, ap, null], [null, stick, null]]
+		[[null, metals.aluminum.plate, null], [null, metals.aluminum.plate, null], [null, stick, null]]
 	],
 	<embers:sword_lead> : [
-		[[null, lp, null], [null, lp, null], [null, stick, null]]
+		[[null, metals.lead.plate, null], [null, metals.lead.plate, null], [null, stick, null]]
 	],
 	<embers:sword_nickel> : [
-		[[null, np, null], [null, np, null], [null, stick, null]]
+		[[null, metals.nickel.plate, null], [null, metals.nickel.plate, null], [null, stick, null]]
 	],
 	<embers:sword_silver> : [
-		[[null, sip, null], [null, sip, null], [null, stick, null]]
+		[[null, metals.silver.plate, null], [null, metals.silver.plate, null], [null, stick, null]]
 	],
 
 	//Rails
 	<minecraft:activator_rail> : [
-		[[ip, plank, ip], [ip, <minecraft:redstone_torch>, ip], [ip, plank, ip]]
+		[
+			[metals.iron.plate, plank, metals.iron.plate],
+			[metals.iron.plate, <minecraft:redstone_torch>, metals.iron.plate],
+			[metals.iron.plate, plank, metals.iron.plate]
+		]
 	],
 	<minecraft:detector_rail> : [
-		[[ip, <minecraft:redstone>, ip], [ip, <minecraft:light_weighted_pressure_plate>, ip], [ip, <minecraft:redstone>, ip]]
+		[
+			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:light_weighted_pressure_plate>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate]
+		]
 	],
 	<minecraft:golden_rail> : [
-		[[gp, <minecraft:redstone>, gp], [gp, plank, gp], [gp, <minecraft:redstone>, gp]]
+		[[metals.gold.plate, <minecraft:redstone>, metals.gold.plate], [metals.gold.plate, plank, metals.gold.plate], [metals.gold.plate, <minecraft:redstone>, metals.gold.plate]]
 	],
 	<minecraft:rail> : [
-		[[ip, plank, ip], [ip, plank, ip], [ip, plank, ip]]
+		[[metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate]]
 	],
 	<tconstruct:wood_rail> : [
 		[[<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>]]
@@ -142,7 +150,11 @@ var shapedRecipes = {
 
 	//Storage Drawers
 	<storagedrawers:compdrawers> : [
-		[[ip, <ore:platePlatinum>, ip], [<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>], [ip, <astralsorcery:itemcraftingcomponent:1>, ip]]
+		[
+			[metals.iron.plate, <ore:platePlatinum>, metals.iron.plate],
+			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
+			[metals.iron.plate, <astralsorcery:itemcraftingcomponent:1>, metals.iron.plate]
+		]
 	],
 	<storagedrawers:controller> : [
 		[
@@ -152,7 +164,11 @@ var shapedRecipes = {
 		]
 	],
 	<storagedrawers:controllerslave> : [
-		[[<ore:platePlatinum>, <ore:plateRedstoneAlloy>, <ore:platePlatinum>], [ip, <ore:drawerTrim>, ip], [<ore:platePlatinum>, <immersiveengineering:metal_decoration0:3>, <ore:platePlatinum>]]
+		[
+			[<ore:platePlatinum>, <ore:plateRedstoneAlloy>, <ore:platePlatinum>],
+			[metals.iron.plate, <ore:drawerTrim>, metals.iron.plate],
+			[<ore:platePlatinum>, <immersiveengineering:metal_decoration0:3>, <ore:platePlatinum>]
+		]
 	],
 } as IIngredient[][][][IItemStack];
 

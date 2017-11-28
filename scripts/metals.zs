@@ -1,5 +1,3 @@
-import crafttweaker.item.IIngredient;
-
 for metalName, metal in metals {
 	//Remove block recipes
 	if (isNull(metal.block)) {

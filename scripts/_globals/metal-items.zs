@@ -135,6 +135,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	fiery: {
+		block: <twilightforest:block_storage:1>,
+		dust: null,
+		gear: <contenttweaker:material_part:43>,
+		ingot: <twilightforest:fiery_ingot>,
+		liquid: <liquid:fiery>,
+		nugget: null,
+		plate: <contenttweaker:material_part:44>,
+		rod: <contenttweaker:material_part:47>,
+	},
 	gold: {
 		block: <minecraft:gold_block>,
 		dust: <immersiveengineering:metal:19>,

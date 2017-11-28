@@ -123,6 +123,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: null,
 		rod: null
 	},
+	fiery: {
+		block: <ore:blockFiery>,
+		dust: null,
+		gear: <ore:gearFiery>,
+		ingot: <ore:ingotFiery>,
+		nugget: null,
+		plate: <ore:plateFiery>,
+		rod: <ore:rodFiery>
+	},
 	gold: {
 		block: <ore:blockGold>,
 		dust: <ore:dustGold>,

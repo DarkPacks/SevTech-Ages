@@ -1,6 +1,8 @@
 //Make this script top execution priority
 #priority 998
 
+import crafttweaker.item.IIngredient;
+
 //Metal unification
 /*
 	METAL_TYPE: {

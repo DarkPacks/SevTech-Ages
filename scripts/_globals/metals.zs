@@ -1,6 +1,8 @@
 //Make this script top execution priority
 #priority 998
 
+import crafttweaker.oredict.IOreDictEntry;
+
 //Metal unification
 /*
 	METAL_TYPE: {

@@ -264,7 +264,7 @@ global metalItems as IIngredient[string][string] = {
 		nugget: null,
 		plate: <contenttweaker:material_part:39>,
 		rod: <contenttweaker:material_part:42>,
-	}
+	},
 	tin: {
 		block: <embers:block_tin>,
 		dust: null,

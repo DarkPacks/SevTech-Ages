@@ -2,16 +2,8 @@ import crafttweaker.item.IItemStack;
 
 //mods.OreTiers.blacklist(<minecraft:stone>);
 
-var stages = [
-	"one",
-	"two",
-	"three",
-	"four",
-	"five"
-] as string[];
-
 var replacementItemsForStage = {
-	"one" : [
+	STAGES.one : [
 		//Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks>],
 		[<minecraft:stone_stairs:*>, <minecraft:cobblestone>],
@@ -88,7 +80,7 @@ var replacementItemsForStage = {
 		[<contenttweaker:sub_block_holder_0>]
 	],
 
-	"two" : [
+	STAGES.two : [
 		[<minecraft:iron_bars:*>],
 
 		//Nitre
@@ -123,7 +115,7 @@ var replacementItemsForStage = {
 		[<astralsorcery:blockgeolosyssamplecluster>, <immcraft:rock>]
 	],
 
-	"three" : [
+	STAGES.three : [
 		[<minecraft:obsidian>, <chisel:basalt>],
 		[<chisel:obsidian>, <chisel:basalt:1>],
 		[<chisel:obsidian:1>, <chisel:basalt:2>],
@@ -212,7 +204,7 @@ var replacementItemsForStage = {
 		[<immersiveengineering:ore:3>]
 	],
 
-	"four" : [
+	STAGES.four : [
 		//Nuclear Physics
 		[<nuclearphysics:uranium_ore>],
 
@@ -220,7 +212,7 @@ var replacementItemsForStage = {
 		[<tconstruct:ore:1>, <minecraft:netherrack>]
 	],
 
-	"five" : [
+	STAGES.five : [
 		//Diamond
 		[<minecraft:diamond_ore>],
 		[<geolosys:ore_vanilla:5>],
@@ -244,8 +236,8 @@ var replacementItemsForStage = {
 	]
 } as IItemStack[][][string];
 
-for stage in stages {
-	for itemReplacementPair in replacementItemsForStage[stage] {
+for stage, itemReplacementPairs in replacementItemsForStage {
+	for itemReplacementPair in itemReplacementPairs {
 		var length = itemReplacementPair.length;
 
 		if (length == 1) {

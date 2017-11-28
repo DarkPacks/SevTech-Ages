@@ -3,89 +3,89 @@
 //
 //GENERAL RESTRICTIONS
 //Prevents all tools unless the stage is unlocked.
-mods.TinkerStages.addGeneralCraftingStage("two");
+mods.TinkerStages.addGeneralCraftingStage(STAGES.two);
 
 //Prevents all tool swapping unless the stage is unlocked.
-mods.TinkerStages.addGeneralPartReplacingStage("two");
+mods.TinkerStages.addGeneralPartReplacingStage(STAGES.two);
 
 //Prvents all part building unless the stage is unlocked.
-mods.TinkerStages.addGeneralPartBuildingStage("two");
+mods.TinkerStages.addGeneralPartBuildingStage(STAGES.two);
 
 //Prevents applying any tool modifiers unless the stage is unlocked.
-mods.TinkerStages.addGeneralModifierStage("three");
+mods.TinkerStages.addGeneralModifierStage(STAGES.three);
 
 
 //SPECIFIC RESTRICTIONS
 //Prevents crafting pickaxes unless the stage is unlocked.
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:pickaxe");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:shovel");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:hatchet");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:broadsword");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:mattock");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:battlesign");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:shortbow");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:crossbow");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:arrow");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:scythe");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:longsword");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:rapier");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:bolt");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:hammer");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:excavator");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:lumberaxe");
-mods.TinkerStages.addToolTypeStage("two", "tconstruct:frypan");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:pickaxe");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:shovel");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:hatchet");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:broadsword");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:mattock");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:battlesign");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:shortbow");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:crossbow");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:arrow");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:scythe");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:longsword");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:rapier");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:bolt");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:hammer");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:excavator");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:lumberaxe");
+mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:frypan");
 
-mods.TinkerStages.addToolTypeStage("three", "tconstruct:cleaver");
-mods.TinkerStages.addToolTypeStage("three", "tconstruct:longbow");
-mods.TinkerStages.addToolTypeStage("three", "tconstruct:shuriken");
+mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:cleaver");
+mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:longbow");
+mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:shuriken");
 
 
 
 //Prevents the material from being used. 
-mods.TinkerStages.addMaterialStage("one", "bone");
-mods.TinkerStages.addMaterialStage("one", "flint");
-mods.TinkerStages.addMaterialStage("one", "stone");
-mods.TinkerStages.addMaterialStage("one", "wood");
-mods.TinkerStages.addMaterialStage("one", "cactus");
+mods.TinkerStages.addMaterialStage(STAGES.one, "bone");
+mods.TinkerStages.addMaterialStage(STAGES.one, "flint");
+mods.TinkerStages.addMaterialStage(STAGES.one, "stone");
+mods.TinkerStages.addMaterialStage(STAGES.one, "wood");
+mods.TinkerStages.addMaterialStage(STAGES.one, "cactus");
 
 
 //Two
-mods.TinkerStages.addMaterialStage("two", "copper");
-mods.TinkerStages.addMaterialStage("two", "bronze");
+mods.TinkerStages.addMaterialStage(STAGES.two, "copper");
+mods.TinkerStages.addMaterialStage(STAGES.two, "bronze");
 
-mods.TinkerStages.addMaterialStage("two", "knightslime");
-mods.TinkerStages.addMaterialStage("two", "slime");
-mods.TinkerStages.addMaterialStage("two", "blueslime");
-mods.TinkerStages.addMaterialStage("two", "prismarine");
-mods.TinkerStages.addMaterialStage("two", "sponge");
-mods.TinkerStages.addMaterialStage("two", "electrum");
-mods.TinkerStages.addMaterialStage("two", "constantan");
-mods.TinkerStages.addMaterialStage("two", "abyssalnite");
-mods.TinkerStages.addMaterialStage("two", "refined_coralium");
-mods.TinkerStages.addMaterialStage("two", "dreadium");
-mods.TinkerStages.addMaterialStage("two", "silver");
-mods.TinkerStages.addMaterialStage("two", "iron");
+mods.TinkerStages.addMaterialStage(STAGES.two, "knightslime");
+mods.TinkerStages.addMaterialStage(STAGES.two, "slime");
+mods.TinkerStages.addMaterialStage(STAGES.two, "blueslime");
+mods.TinkerStages.addMaterialStage(STAGES.two, "prismarine");
+mods.TinkerStages.addMaterialStage(STAGES.two, "sponge");
+mods.TinkerStages.addMaterialStage(STAGES.two, "electrum");
+mods.TinkerStages.addMaterialStage(STAGES.two, "constantan");
+mods.TinkerStages.addMaterialStage(STAGES.two, "abyssalnite");
+mods.TinkerStages.addMaterialStage(STAGES.two, "refined_coralium");
+mods.TinkerStages.addMaterialStage(STAGES.two, "dreadium");
+mods.TinkerStages.addMaterialStage(STAGES.two, "silver");
+mods.TinkerStages.addMaterialStage(STAGES.two, "iron");
 
 //Three
-mods.TinkerStages.addMaterialStage("three", "paper");
-mods.TinkerStages.addMaterialStage("three", "lead");
-mods.TinkerStages.addMaterialStage("three", "firewood");
-mods.TinkerStages.addMaterialStage("three", "magmaslime");
-mods.TinkerStages.addMaterialStage("three", "netherrack");
-mods.TinkerStages.addMaterialStage("three", "endstone");
-mods.TinkerStages.addMaterialStage("three", "steel");
-mods.TinkerStages.addMaterialStage("three", "treatedwood");
-mods.TinkerStages.addMaterialStage("three", "obsidian");
+mods.TinkerStages.addMaterialStage(STAGES.three, "paper");
+mods.TinkerStages.addMaterialStage(STAGES.three, "lead");
+mods.TinkerStages.addMaterialStage(STAGES.three, "firewood");
+mods.TinkerStages.addMaterialStage(STAGES.three, "magmaslime");
+mods.TinkerStages.addMaterialStage(STAGES.three, "netherrack");
+mods.TinkerStages.addMaterialStage(STAGES.three, "endstone");
+mods.TinkerStages.addMaterialStage(STAGES.three, "steel");
+mods.TinkerStages.addMaterialStage(STAGES.three, "treatedwood");
+mods.TinkerStages.addMaterialStage(STAGES.three, "obsidian");
 
 //Four
-mods.TinkerStages.addMaterialStage("four", "pigiron");
-mods.TinkerStages.addMaterialStage("four", "cobalt");
-mods.TinkerStages.addMaterialStage("four", "ardite");
-mods.TinkerStages.addMaterialStage("four", "manyullyn");
+mods.TinkerStages.addMaterialStage(STAGES.four, "pigiron");
+mods.TinkerStages.addMaterialStage(STAGES.four, "cobalt");
+mods.TinkerStages.addMaterialStage(STAGES.four, "ardite");
+mods.TinkerStages.addMaterialStage(STAGES.four, "manyullyn");
 
 
 //Prevents the modifier from being applied.
-mods.TinkerStages.addModifierStage("three", "luck");
-mods.TinkerStages.addModifierStage("three", "haste");
-mods.TinkerStages.addModifierStage("three", "mending_moss");
+mods.TinkerStages.addModifierStage(STAGES.three, "luck");
+mods.TinkerStages.addModifierStage(STAGES.three, "haste");
+mods.TinkerStages.addModifierStage(STAGES.three, "mending_moss");
 

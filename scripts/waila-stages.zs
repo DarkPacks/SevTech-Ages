@@ -1,8 +1,8 @@
-mods.WailaStages.addWailaStage("one");
+mods.WailaStages.addWailaStage(STAGES.one);
 
-mods.WailaStages.addRequirement("two", "Currently");
-mods.WailaStages.addRequirement("two", "Harvest");
-mods.WailaStages.addRequirement("two", "Harvestable");
-mods.WailaStages.addRequirement("two", "Effective");
-mods.WailaStages.addRequirement("two", "Progression");
-mods.WailaStages.addRequirement("two", "Progress");
+mods.WailaStages.addRequirement(STAGES.two, "Currently");
+mods.WailaStages.addRequirement(STAGES.two, "Harvest");
+mods.WailaStages.addRequirement(STAGES.two, "Harvestable");
+mods.WailaStages.addRequirement(STAGES.two, "Effective");
+mods.WailaStages.addRequirement(STAGES.two, "Progression");
+mods.WailaStages.addRequirement(STAGES.two, "Progress");

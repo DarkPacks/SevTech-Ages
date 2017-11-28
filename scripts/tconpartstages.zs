@@ -30,17 +30,9 @@ var parts = [
 	<tconstruct:wide_guard>
 ] as IItemStack[];
 
-var stages = [
-	"one",
-	"two",
-	"three",
-	"four",
-	"five"
-] as string[];
-
 //Make sure each stage has a matching stage in the stages array!
 var materialsForStage = {
-	"one" : [
+	STAGES.one : [
 		"bone",
 		"cactus",
 		"flint",
@@ -48,7 +40,7 @@ var materialsForStage = {
 		"wood"
 	],
 
-	"two" : [
+	STAGES.two : [
 		"abyssalnite",
 		"blueslime",
 		"bronze",
@@ -65,7 +57,7 @@ var materialsForStage = {
 		"sponge"
 	],
 
-	"three" : [
+	STAGES.three : [
 		"endstone",
 		"firewood",
 		"lead",
@@ -77,7 +69,7 @@ var materialsForStage = {
 		"treatedwood"
 	],
 
-	"four" : [
+	STAGES.four : [
 		"ardite",
 		"cobalt",
 		"integrationforegoing.pink_slime",
@@ -86,7 +78,7 @@ var materialsForStage = {
 		"pigiron"
 	],
 
-	"five" : [
+	STAGES.five : [
 		"ma.base_essence",
 		"ma.inferium",
 		"ma.intermedium",
@@ -99,8 +91,8 @@ var materialsForStage = {
 } as string[][string];
 
 for part in parts {
-	for stage in stages {
-		for material in materialsForStage[stage] {
+	for stage, materials in materialsForStage {
+		for material in materials {
 			mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
 		}
 	}

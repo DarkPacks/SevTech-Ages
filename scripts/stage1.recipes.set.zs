@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var STAGE = "one";
+var STAGE = STAGES.one;
 
 var itemsForStage = [
 	<minecraft:chest>,

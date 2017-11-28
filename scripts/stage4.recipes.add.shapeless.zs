@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+var STAGE = STAGES.four;
+
 /*
 <item> : [
 	[RECIPE1],
@@ -18,25 +20,11 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes = {
-	<actuallyadditions:item_booklet> : [
-		[<actuallyadditions:item_coffee_seed>, <minecraft:paper>]
-	],
-	<actuallyadditions:item_coffee_seed> : [
-		[<actuallyadditions:item_coffee_beans>]
-	],
-	<actuallyadditions:item_rice_seed> : [
-		[<actuallyadditions:item_food:16>]
-	],
-	<minecraft:farmland> : [
-		[<minecraft:dirt>, <minecraft:dye:15>]
-	],
-	<minecraft:gunpowder> : [
-		[<roots:fairy_dust>, <actuallyadditions:item_misc:17>, <minecraft:dye:15>]
-	]
+
 } as IIngredient[][][IItemStack];
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {
-		recipes.addShapeless(item, recipe);
+		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }

@@ -57,7 +57,15 @@ var mobsForStages = {
 	//Stage three
 	"three" : [
 		"fat_cat:fat_cat"
+	],
+
+
+	//Stage three
+	"four" : [
+		"playerskins:playermob"
 	]
+
+
 } as string[][string];
 
 for stage in stages {

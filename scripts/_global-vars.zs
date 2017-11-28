@@ -85,657 +85,231 @@ global wool as IOreDictEntry = <ore:wool>;
 		}
 	}
 */
-global metals as IIngredient[string][string][string] = {
+global metals as IOreDictEntry[string][string] = {
 	abyssalnite: {
-		block: {
-			item: <abyssalcraft:ingotblock>,
-			ore: <ore:blockAbyssalnite>
-		},
-		dust: {
-			item: <acintegration:dust>,
-			ore: <ore:dustAbyssalnite>
-		},
+		block: <ore:blockAbyssalnite>,
+		dust: <ore:dustAbyssalnite>,
 		gear: null,
-		ingot: {
-			item: <abyssalcraft:abyingot>,
-			ore: <ore:ingotAbyssalnite>
-		},
-		liquid: {
-			liquid: <liquid:moltenabyssalnite>
-		},
-		nugget: {
-			item: <abyssalcraft:ingotnugget>,
-			ore: <ore:nuggetAbyssalnite>
-		},
+		ingot: <ore:ingotAbyssalnite>,
+		nugget: <ore:nuggetAbyssalnite>,
 		plate: null,
 		rod: null
 	},
 	aluminum: {
-		block: {
-			item: <immersiveengineering:storage:1>,
-			ore: <ore:blockAluminum>
-		},
-		dust: {
-			item: <immersiveengineering:metal:10>,
-			ore: <ore:dustAluminum>
-		},
+		block: <ore:blockAluminum>,
+		dust: <ore:dustAluminum>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:1>,
-			ore: <ore:ingotAluminum>
-		},
-		liquid: {
-			liquid: <liquid:aluminum>
-		},
+		ingot: <ore:ingotAluminum>,
 		nugget: null,
-		plate: {
-			item: <immersiveengineering:metal:31>,
-			ore: <ore:plateAluminum>
-		},
-		rod: {
-			item: <immersiveengineering:material:3>,
-			ore: <ore:stickAluminum>
-		}
+		plate: <ore:plateAluminum>,
+		rod: <ore:stickAluminum>
 	},
 	aluminumBrass: {
-		block: {
-			item: <tconstruct:metal:5>,
-			ore: <ore:blockAlubrass>
-		},
+		block: <ore:blockAlubrass>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <tconstruct:ingots:5>,
-			ore: <ore:ingotAlubrass>
-		},
-		liquid: {
-			liquid: <liquid:alubrass>
-		},
-		nugget: {
-			item: <tconstruct:nuggets:5>,
-			ore: <ore:nuggetAlubrass>
-		},
+		ingot: <ore:ingotAlubrass>,
+		nugget: <ore:nuggetAlubrass>,
 		plate: null,
 		rod: null
 	},
 	ardite: {
-		block: {
-			item: <tconstruct:metal:1>,
-			ore: <ore:blockArdite>
-		},
+		block: <ore:blockArdite>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <tconstruct:ingots:1>,
-			ore: <ore:ingotArdite>
-		},
-		liquid: {
-			liquid: <liquid:ardite>
-		},
-		nugget: {
-			item: <tconstruct:nuggets:1>,
-			ore: <ore:nuggetArdite>
-		},
+		ingot: <ore:ingotArdite>,
+		nugget: <ore:nuggetArdite>,
 		plate: null,
 		rod: null
 	},
 	bronze: {
-		block: {
-			item: <embers:block_bronze>,
-			ore: <ore:blockBronze>
-		},
+		block: <ore:blockBronze>,
 		dust: null,
-		gear: {
-			item: <contenttweaker:material_part:25>,
-			ore: <ore:gearBronze>
-		},
-		ingot: {
-			item: <embers:ingot_bronze>,
-			ore: <ore:ingotBronze>
-		},
-		liquid: {
-			liquid: <liquid:bronze>
-		},
-		nugget: {
-			item: <embers:nugget_bronze>,
-			ore: <ore:nuggetBronze>
-		},
-		plate: {
-			item: <contenttweaker:material_part:26>,
-			ore: <ore:plateBronze>
-		},
-		rod: {
-			item: <contenttweaker:material_part:29>,
-			ore: <ore:rodBronze>
-		}
+		gear: <ore:gearBronze>,
+		ingot: <ore:ingotBronze>,
+		nugget: <ore:nuggetBronze>,
+		plate: <ore:plateBronze>,
+		rod: <ore:rodBronze>
 	},
 	cobalt: {
-		block: {
-			item: <tconstruct:metal>,
-			ore: <ore:blockCobalt>
-		},
+		block: <ore:blockCobalt>,
 		dust: null,
-		gear: {
-			item: <contenttweaker:material_part:20>,
-			ore: <ore:gearCobalt>
-		},
-		ingot: {
-			item: <tconstruct:ingots>,
-			ore: <ore:ingotCobalt>
-		},
-		liquid: {
-			liquid: <liquid:cobalt>
-		},
-		nugget: {
-			item: <tconstruct:nuggets>,
-			ore: <ore:nuggetCobalt>
-		},
-		plate: {
-			item: <contenttweaker:material_part:21>,
-			ore: <ore:plateCobalt>
-		},
-		rod: {
-			item: <contenttweaker:material_part:24>,
-			ore: <ore:rodCobalt>
-		}
+		gear: <ore:gearCobalt>,
+		ingot: <ore:ingotCobalt>,
+		nugget: <ore:nuggetCobalt>,
+		plate: <ore:plateCobalt>,
+		rod: <ore:rodCobalt>
 	},
 	constantan: {
-		block: {
-			item: <immersiveengineering:storage:6>,
-			ore: <ore:blockConstantan>
-		},
-		dust: {
-			item: <immersiveengineering:metal:15>,
-			ore: <ore:dustConstantan>
-		},
+		block: <ore:blockConstantan>,
+		dust: <ore:dustConstantan>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:6>,
-			ore: <ore:ingotConstantan>
-		},
-		liquid: {
-			liquid: <liquid:constantan>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:26>,
-			ore: <ore:nuggetConstantan>
-		},
-		plate: {
-			item: <immersiveengineering:metal:36>,
-			ore: <ore:plateConstantan>
-		},
+		ingot: <ore:ingotConstantan>,
+		nugget: <ore:nuggetConstantan>,
+		plate: <ore:plateConstantan>,
 		rod: null
 	},
 	copper: {
-		block: {
-			item: <immersiveengineering:storage>,
-			ore: <ore:blockCopper>
-		},
-		dust: {
-			item: <immersiveengineering:metal:9>,
-			ore: <ore:dustCopper>
-		},
-		gear: {
-			item: <contenttweaker:material_part>,
-			ore: <ore:gearCopper>
-		},
-		ingot: {
-			item: <immersiveengineering:metal>,
-			ore: <ore:ingotCopper>
-		},
-		liquid: {
-			liquid: <liquid:copper>
-		},
-		nugget: {
-			item: null,
-			ore: <ore:nuggetCopper>
-		},
-		plate: {
-			item: <immersiveengineering:metal:30>,
-			ore: <ore:plateCopper>
-		},
-		rod: {
-			item: <contenttweaker:material_part:4>,
-			ore: <ore:rodCopper>
-		}
+		block: <ore:blockCopper>,
+		dust: <ore:dustCopper>,
+		gear: <ore:gearCopper>,
+		ingot: <ore:ingotCopper>,
+		nugget: <ore:nuggetCopper>,
+		plate: <ore:plateCopper>,
+		rod: <ore:rodCopper>
 	},
 	dawnstone: {
-		block: {
-			item: <embers:block_dawnstone>,
-			ore: <ore:blockDawnstone>
-		},
+		block: <ore:blockDawnstone>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <embers:ingot_dawnstone>,
-			ore: <ore:ingotDawnstone>
-		},
-		liquid: {
-			liquid: <liquid:dawnstone>
-		},
-		nugget: {
-			item: <embers:nugget_dawnstone>,
-			ore: <ore:nuggetDawnstone>
-		},
-		plate: {
-			item: <embers:plate_dawnstone>,
-			ore: <ore:plateDawnstone>
-		},
+		ingot: <ore:ingotDawnstone>,
+		nugget: <ore:nuggetDawnstone>,
+		plate: <ore:plateDawnstone>,
 		rod: null
 	},
 	dreadium: {
-		block: {
-			item: <abyssalcraft:ingotblock:2>,
-			ore: <ore:blockDreadium>
-		},
-		dust: {
-			item: <acintegration:dust:2>,
-			ore: <ore:dustDreadium>
-		},
+		block: <ore:blockDreadium>,
+		dust: <ore:dustDreadium>,
 		gear: null,
-		ingot: {
-			item: <abyssalcraft:dreadiumingot>,
-			ore: <ore:ingotDreadium>
-		},
-		liquid: {
-			liquid: <liquid:moltendreadium>
-		},
-		nugget: {
-			item: <abyssalcraft:ingotnugget:2>,
-			ore: <ore:nuggetDreadium>
-		},
+		ingot: <ore:ingotDreadium>,
+		nugget: <ore:nuggetDreadium>,
 		plate: null,
 		rod: null
 	},
 	electrum: {
-		block: {
-			item: <immersiveengineering:storage:7>,
-			ore: <ore:blockElectrum>
-		},
-		dust: {
-			item: <immersiveengineering:metal:16>,
-			ore: <ore:dustElectrum>
-		},
+		block: <ore:blockElectrum>,
+		dust: <ore:dustElectrum>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:7>,
-			ore: <ore:ingotElectrum>
-		},
-		liquid: {
-			liquid: <liquid:electrum>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:27>,
-			ore: <ore:nuggetElectrum>
-		},
-		plate: {
-			item: <immersiveengineering:metal:37>,
-			ore: <ore:plateElectrum>
-		},
+		ingot: <ore:ingotElectrum>,
+		nugget: <ore:nuggetElectrum>,
+		plate: <ore:plateElectrum>,
 		rod: null
 	},
 	ethaxium: {
-		block: {
-			item: <abyssalcraft:ingotblock:3>,
-			ore: <ore:blockEthaxium>
-		},
+		block: <ore:blockEthaxium>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <abyssalcraft:ethaxiumingot>,
-			ore: <ore:ingotEthaxium>
-		},
+		ingot: <ore:ingotEthaxium>,
 		liquid: null,
-		nugget: {
-			item: <abyssalcraft:ingotnugget:3>,
-			ore: <ore:nuggetEthaxium>
-		},
+		nugget: <ore:nuggetEthaxium>,
 		plate: null,
 		rod: null
 	},
 	gold: {
-		block: {
-			item: <minecraft:gold_block>,
-			ore: <ore:blockGold>
-		},
-		dust: {
-			item: <immersiveengineering:metal:19>,
-			ore: <ore:dustGold>
-		},
+		block: <ore:blockGold>,
+		dust: <ore:dustGold>,
 		gear: null,
-		ingot: {
-			item: <minecraft:gold_ingot>,
-			ore: <ore:ingotGold>
-		},
-		liquid: {
-			liquid: <liquid:gold>
-		},
-		nugget: {
-			item: <minecraft:gold_nugget>,
-			ore: <ore:nuggetGold>
-		},
-		plate: {
-			item: <immersiveengineering:metal:40>,
-			ore: <ore:plateGold>
-		},
-		rod: {
-			item: <primal:golden_stick>,
-			ore: <ore:firesource>
-		}
+		ingot: <ore:ingotGold>,
+		nugget: <ore:nuggetGold>,
+		plate: <ore:plateGold>,
+		rod: <ore:firesource>
 	},
 	iron: {
-		block: {
-			item: <minecraft:iron_block>,
-			ore: <ore:blockIron>
-		},
-		dust: {
-			item: <immersiveengineering:metal:18>,
-			ore: <ore:dustIron>
-		},
+		block: <ore:blockIron>,
+		dust: <ore:dustIron>,
 		gear: null,
-		ingot: {
-			item: <minecraft:iron_ingot>,
-			ore: <ore:ingotIron>
-		},
-		liquid: {
-			liquid: <liquid:iron>
-		},
-		nugget: {
-			item: <minecraft:iron_nugget>,
-			ore: <ore:nuggetIron>
-		},
-		plate: {
-			item: <immersiveengineering:metal:39>,
-			ore: <ore:plateIron>
-		},
-		rod: {
-			item: <immersiveengineering:material:1>,
-			ore: <ore:stickIron>
-		}
+		ingot: <ore:ingotIron>,
+		nugget: <ore:nuggetIron>,
+		plate: <ore:plateIron>,
+		rod: <ore:stickIron>
 	},
 	knightslime: {
-		block: {
-			item: <tconstruct:metal:3>,
-			ore: <ore:blockKnightslime>
-		},
+		block: <ore:blockKnightslime>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <tconstruct:ingots:3>,
-			ore: <ore:ingotKnightslime>
-		},
-		liquid: {
-			liquid: <liquid:knightslime>
-		},
+		ingot: <ore:ingotKnightslime>,
 		nugget: null,
 		plate: null,
 		rod: null
 	},
 	lead: {
-		block: {
-			item: <immersiveengineering:storage:2>,
-			ore: <ore:blockLead>
-		},
-		dust: {
-			item: <immersiveengineering:metal:11>,
-			ore: <ore:dustLead>
-		},
-		gear: {
-			item: <contenttweaker:material_part:15>,
-			ore: <ore:gearLead>
-		},
-		ingot: {
-			item: <immersiveengineering:metal:2>,
-			ore: <ore:ingotLead>
-		},
-		liquid: {
-			liquid: <liquid:lead>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:22>,
-			ore: <ore:nuggetLead>
-		},
-		plate: {
-			item: <immersiveengineering:metal:32>,
-			ore: <ore:plateLead>
-		},
-		rod: {
-			item: <contenttweaker:material_part:19>,
-			ore: <ore:rodLead>
-		}
+		block: <ore:blockLead>,
+		dust: <ore:dustLead>,
+		gear: <ore:gearLead>,
+		ingot: <ore:ingotLead>,
+		nugget: <ore:nuggetLead>,
+		plate: <ore:plateLead>,
+		rod: <ore:rodLead>
 	},
 	manyullyn: {
-		block: {
-			item: <tconstruct:metal:2>,
-			ore: <ore:blockManyullyn>
-		},
+		block: <ore:blockManyullyn>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <tconstruct:ingots:2>,
-			ore: <ore:ingotManyullyn>
-		},
-		liquid: {
-			liquid: <liquid:manyullyn>
-		},
-		nugget: {
-			item: <tconstruct:nuggets:2>,
-			ore: <ore:nuggetManyullyn>
-		},
+		ingot: <ore:ingotManyullyn>,
+		nugget: <ore:nuggetManyullyn>,
 		plate: null,
 		rod: null
 	},
 	nickel: {
-		block: {
-			item: <immersiveengineering:storage:4>,
-			ore: <ore:blockNickel>
-		},
-		dust: {
-			item: <immersiveengineering:metal:13>,
-			ore: <ore:dustNickel>
-		},
+		block: <ore:blockNickel>,
+		dust: <ore:dustNickel>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:4>,
-			ore: <ore:ingotNickel>
-		},
-		liquid: {
-			liquid: <liquid:nickel>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:24>,
-			ore: <ore:nuggetNickel>
-		},
-		plate: {
-			item: <immersiveengineering:metal:34>,
-			ore: <ore:plateNickel>
-		},
+		ingot: <ore:ingotNickel>,
+		nugget: <ore:nuggetNickel>,
+		plate: <ore:plateNickel>,
 		rod: null
 	},
 	pigiron: {
-		block: {
-			item: <tconstruct:metal:4>,
-			ore: <ore:blockPigiron>
-		},
+		block: <ore:blockPigiron>,
 		dust: null,
 		gear: null,
-		ingot: {
-			item: <tconstruct:ingots:4>,
-			ore: <ore:ingotPigiron>
-		},
-		liquid: {
-			liquid: <liquid:pigiron>
-		},
+		ingot: <ore:ingotPigiron>,
 		nugget: null,
 		plate: null,
 		rod: null
 	},
 	platinum: {
-		block: {
-			item: <contenttweaker:sub_block_holder_0:1>,
-			ore: <ore:blockPlatinum>
-		},
+		block: <ore:blockPlatinum>,
 		dust: null,
-		gear: {
-			item: <contenttweaker:material_part:32>,
-			ore: <ore:gearPlatinum>
-		},
-		ingot: {
-			item: <contenttweaker:material_part:37>,
-			ore: <ore:ingotPlatinum>
-		},
-		liquid: {
-			liquid: <liquid:platinum>
-		},
+		gear: <ore:gearPlatinum>,
+		ingot: <ore:ingotPlatinum>,
 		nugget: null,
-		plate: {
-			item: <contenttweaker:material_part:33>,
-			ore: <ore:platePlatinum>
-		},
-		rod: {
-			item: <contenttweaker:material_part:36>,
-			ore: <ore:rodPlatinum>
-		}
+		plate: <ore:platePlatinum>,
+		rod: <ore:rodPlatinum>
 	},
 	refinedCoralium: {
-		block: {
-			item: <abyssalcraft:ingotblock:1>,
-			ore: <ore:blockLiquifiedCoralium>
-		},
-		dust: {
-			item: <acintegration:dust:1>,
-			ore: <ore:dustLiquifiedCoralium>
-		},
+		block: <ore:blockLiquifiedCoralium>,
+		dust: <ore:dustLiquifiedCoralium>,
 		gear: null,
-		ingot: {
-			item: <abyssalcraft:cingot>,
-			ore: <ore:ingotLiquifiedCoralium>
-		},
-		liquid: {
-			liquid: <liquid:moltenrefinedcoralium>
-		},
-		nugget: {
-			item: <abyssalcraft:ingotnugget:1>,
-			ore: <ore:nuggetLiquifiedCoralium>
-		},
+		ingot: <ore:ingotLiquifiedCoralium>,
+		nugget: <ore:nuggetLiquifiedCoralium>,
 		plate: null,
 		rod: null
 	},
 	silver: {
-		block: {
-			item: <immersiveengineering:storage:3>,
-			ore: <ore:blockSilver>
-		},
-		dust: {
-			item: <immersiveengineering:metal:12>,
-			ore: <ore:dustSilver>
-		},
-		gear: {
-			item: <contenttweaker:material_part:10>,
-			ore: <ore:gearSilver>
-		},
-		ingot: {
-			item: <immersiveengineering:metal:3>,
-			ore: <ore:ingotSilver>
-		},
-		liquid: {
-			liquid: <liquid:silver>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:23>,
-			ore: <ore:nuggetSilver>
-		},
-		plate: {
-			item: <immersiveengineering:metal:33>,
-			ore: <ore:plateSilver>
-		},
-		rod: {
-			item: <contenttweaker:material_part:14>,
-			ore: <ore:rodSilver>
-		}
+		block: <ore:blockSilver>,
+		dust: <ore:dustSilver>,
+		gear: <ore:gearSilver>,
+		ingot: <ore:ingotSilver>,
+		nugget: <ore:nuggetSilver>,
+		plate: <ore:plateSilver>,
+		rod: <ore:rodSilver>
 	},
 	steel: {
-		block: {
-			item: <immersiveengineering:storage:8>,
-			ore: <ore:blockSteel>
-		},
-		dust: {
-			item: <immersiveengineering:metal:17>,
-			ore: <ore:dustSteel>
-		},
+		block: <ore:blockSteel>,
+		dust: <ore:dustSteel>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:8>,
-			ore: <ore:ingotSteel>
-		},
-		liquid: {
-			liquid: <liquid:steel>
-		},
-		nugget: {
-			item: <immersiveengineering:metal:28>,
-			ore: <ore:nuggetSteel>
-		},
-		plate: {
-			item: <immersiveengineering:metal:38>,
-			ore: <ore:plateSteel>
-		},
-		rod: {
-			item: <immersiveengineering:material:2>,
-			ore: <ore:stickSteel>
-		}
+		ingot: <ore:ingotSteel>,
+		nugget: <ore:nuggetSteel>,
+		plate: <ore:plateSteel>,
+		rod: <ore:stickSteel>
 	},
 	tin: {
-		block: {
-			item: <embers:block_tin>,
-			ore: <ore:blockTin>
-		},
+		block: <ore:blockTin>,
 		dust: null,
-		gear: {
-			item: <contenttweaker:material_part:5>,
-			ore: <ore:gearTin>
-		},
-		ingot: {
-			item: <embers:ingot_tin>,
-			ore: <ore:ingotTin>
-		},
-		liquid: {
-			liquid: <liquid:tin>
-		},
-		nugget: {
-			item: <embers:nugget_tin>,
-			ore: <ore:nuggetTin>
-		},
-		plate: {
-			item: <contenttweaker:material_part:6>,
-			ore: <ore:plateTin>
-		},
-		rod: {
-			item: <contenttweaker:material_part:9>,
-			ore: <ore:rodTin>
-		}
+		gear: <ore:gearTin>,
+		ingot: <ore:ingotTin>,
+		nugget: <ore:nuggetTin>,
+		plate: <ore:plateTin>,
+		rod: <ore:rodTin>
 	},
 	uranium: {
-		block: {
-			item: <immersiveengineering:storage:5>,
-			ore: <ore:blockUranium>
-		},
-		dust: {
-			item: <immersiveengineering:metal:14>,
-			ore: <ore:dustUranium>
-		},
+		block: <ore:blockUranium>,
+		dust: <ore:dustUranium>,
 		gear: null,
-		ingot: {
-			item: <immersiveengineering:metal:5>,
-			ore: <ore:ingotUranium>
-		},
-		liquid: {
-			liquid: <liquid:uranium>
-		},
+		ingot: <ore:ingotUranium>,
 		nugget: null,
-		plate: {
-			item: <immersiveengineering:metal:35>,
-			ore: <ore:plateUranium>
-		},
+		plate: <ore:plateUranium>,
 		rod: null
 	}
 };

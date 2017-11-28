@@ -157,6 +157,16 @@
     "random": 0.25
   },
   {
+    "mob": "playerskins:playermob",
+    "item": "minecraft:rotten_flesh",
+    "random": 0.9
+  },
+  {
+    "mob": "playerskins:playermob",
+    "item": "minecraft:bone",
+    "random": 0.5
+  },
+  {
     "mob": "minecraft:zombie_villager",
     "remove": "minecraft:iron_ingot"
   },

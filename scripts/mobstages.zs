@@ -60,7 +60,7 @@ var mobsForStages = {
 	],
 
 
-	//Stage three
+	//Stage four
 	"four" : [
 		"playerskins:playermob"
 	]

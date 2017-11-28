@@ -39,7 +39,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapedRecipes = {
 	<betterbuilderswands:wandiron> : [
-		[[null, null, metals.iron.plate], [null, <ore:logWood>, null], [<ore:logWood>, null, null]]
+		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}) : [
 		[[<minecraft:wool:*>, leather, <minecraft:wool:*>], [leather, <primal:storage_crate:*>, leather], [<minecraft:wool:*>, leather, <minecraft:wool:*>]]
@@ -227,7 +227,7 @@ var shapedRecipes = {
 		[[metals.iron.plate, <actuallyadditions:item_fertilizer>, null], [metals.iron.plate, <minecraft:bucket>, metals.iron.plate], [null, metals.iron.plate, null]]
 	],
 	<prospectors:prospector_low> : [
-		[[null, <minecraft:coal:*>, <ore:blockGlass>], [null, <ore:logWood>, <minecraft:coal:*>], [<ore:logWood>, null, null]]
+		[[null, <minecraft:coal:*>, <ore:blockGlass>], [null, log, <minecraft:coal:*>], [log, null, null]]
 	],
 	<tcomplement:porcelain_tank> : [
 		[
@@ -378,14 +378,12 @@ var shapedRecipes = {
 		[
 			[null, <astralsorcery:itemcraftingcomponent>, null],
 			[<ore:stoneMarble>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "astralsorcery.liquidstarlight", Amount: 1000}}), <ore:stoneMarble>],
-			[null, <ore:rodBronze>, null]
-		]
-	],
-	<astralsorcery:itemskyresonator> : [
+			[null, metals.bronze.rod, null]
+		],
 		[
 			[null, <astralsorcery:itemcraftingcomponent>, null],
 			[<ore:stoneMarble>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <ore:stoneMarble>],
-			[null, <ore:rodBronze>, null]
+			[null, metals.bronze.rod, null]
 		]
 	],
 	<astralsorcery:itemwand> : [
@@ -399,9 +397,9 @@ var shapedRecipes = {
 	//Weirding Gadget
 	<weirdinggadget:weirding_gadget> : [
 		[
-			[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-			[<ore:blockGold>, <minecraft:ender_pearl>, <ore:blockGold>],
-			[<ore:blockGold>, <ore:blockGold>, <ore:blockGold>]
+			[metals.gold.ingot, metals.gold.ingot, metals.gold.ingot],
+			[metals.gold.block, <minecraft:ender_pearl>, metals.gold.block],
+			[metals.gold.block, metals.gold.block, metals.gold.block]
 		]
 	],
 

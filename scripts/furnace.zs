@@ -20,7 +20,7 @@ furnace.addRecipe(<actuallyadditions:item_misc:5> ,<actuallyadditions:item_dust:
 
 
 //furnace.remove(<rockhounding_oretiers:tiers_items:5>);
-//furnace.addRecipe(<rockhounding_oretiers:tiers_items:4> ,<ore:logWood>);
+//furnace.addRecipe(<rockhounding_oretiers:tiers_items:4>, log);
 
 furnace.remove(<minecraft:iron_ingot>);
 furnace.remove(<minecraft:gold_ingot>);

@@ -151,23 +151,23 @@ var shapedRecipes = {
 	//Storage Drawers
 	<storagedrawers:compdrawers> : [
 		[
-			[metals.iron.plate, <ore:platePlatinum>, metals.iron.plate],
+			[metals.iron.plate, metals.platinum.plate, metals.iron.plate],
 			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
 			[metals.iron.plate, <astralsorcery:itemcraftingcomponent:1>, metals.iron.plate]
 		]
 	],
 	<storagedrawers:controller> : [
 		[
-			[<ore:platePlatinum>, <nex:block_amethyst>, <ore:platePlatinum>],
+			[metals.platinum.plate, <nex:block_amethyst>, metals.platinum.plate],
 			[<immersiveengineering:metal_decoration0:3>, <ore:drawerTrim>, <immersiveengineering:metal_decoration0:3>],
-			[<ore:platePlatinum>, <astralsorcery:itemcraftingcomponent:1>, <ore:platePlatinum>]
+			[metals.platinum.plate, <astralsorcery:itemcraftingcomponent:1>, metals.platinum.plate]
 		]
 	],
 	<storagedrawers:controllerslave> : [
 		[
-			[<ore:platePlatinum>, <ore:plateRedstoneAlloy>, <ore:platePlatinum>],
+			[metals.platinum.plate, <ore:plateRedstoneAlloy>, metals.platinum.plate],
 			[metals.iron.plate, <ore:drawerTrim>, metals.iron.plate],
-			[<ore:platePlatinum>, <immersiveengineering:metal_decoration0:3>, <ore:platePlatinum>]
+			[metals.platinum.plate, <immersiveengineering:metal_decoration0:3>, metals.platinum.plate]
 		]
 	],
 } as IIngredient[][][][IItemStack];

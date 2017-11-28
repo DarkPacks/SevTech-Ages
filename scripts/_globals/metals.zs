@@ -130,7 +130,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotGold>,
 		nugget: <ore:nuggetGold>,
 		plate: <ore:plateGold>,
-		rod: <ore:firesource>
+		rod: <ore:rodGold>
 	},
 	iron: {
 		block: <ore:blockIron>,

@@ -13,6 +13,8 @@ var itemsForStage = [
 	<minecraft:skull:1>,
 	<minecraft:soul_sand>,
 	<minecraft:trapped_chest>,
+	<minecraft:beacon>,
+	<minecraft:ender_chest>,
 	<primal:opal_hoe>,
 	<primal:quartz_hoe>,
 

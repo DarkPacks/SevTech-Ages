@@ -33,12 +33,12 @@ for item in outputToRemove {
 }
 
 var recipesToAdd = [
- [<minecraft:bread>, <horsepower:dough>],
- [<progressiontweaks:flat_bread>, <horsepower:flour>],
- [<primal:shark_meat_cooked>, <primal:shark_meat_raw>],
- [<actuallyadditions:item_misc:5> ,<actuallyadditions:item_dust:7>],
- [<quark:glass_shards>, <betterwithmods:sand_pile>],
- [<quark:glass_shards>, <betterwithmods:red_sand_pile>]
+  [<minecraft:bread>, <horsepower:dough>],
+  [<progressiontweaks:flat_bread>, <horsepower:flour>],
+  [<primal:shark_meat_cooked>, <primal:shark_meat_raw>],
+  [<actuallyadditions:item_misc:5> ,<actuallyadditions:item_dust:7>],
+  [<quark:glass_shards>, <betterwithmods:sand_pile>],
+  [<quark:glass_shards>, <betterwithmods:red_sand_pile>]
 ] as IItemstack[][];
 
 for items in recipesToAdd {

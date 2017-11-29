@@ -581,4 +581,4 @@ mods.recipestages.Recipes.setRecipeStage("two", <natura:materials:5>);
 //Steve's Carts Engine for End of Stage 2
 recipes.remove(<stevescarts:cartmodule>);
 //Recipe now exists in Astral Sorcery
-//mods.recipestages.Recipes.addShaped("two", <stevescarts:cartmodule>, [[<ore:gearFiery>, <minecraft:sticky_piston>, <ore:gearFiery>], [<minecraft:ghast_tear>, <twilightforest:tower_device:12>, <minecraft:ghast_tear>], [<ore:rodSteeleaf>, <minecraft:sticky_piston>, <ore:rodSteeleaf>]]);
+//mods.recipestages.Recipes.addShaped("two", <stevescarts:cartmodule>, [[metals.fiery.gear, <minecraft:sticky_piston>, metals.fiery.gear], [<minecraft:ghast_tear>, <twilightforest:tower_device:12>, <minecraft:ghast_tear>], [metals.steeleaf.rod, <minecraft:sticky_piston>, metals.steeleaf.rod]]);

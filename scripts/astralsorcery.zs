@@ -119,13 +119,13 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 1
 
 
 mods.astralsorcery.Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>, 3000, 900, [
-<ore:gearFiery>, <tconstruct:seared_furnace_controller>, <ore:gearFiery>,
+metals.fiery.gear, <tconstruct:seared_furnace_controller>, metals.fiery.gear,
 <minecraft:ghast_tear>, <twilightforest:tower_device:12>, <minecraft:ghast_tear>,
-<ore:gearFiery>, <betterwithmods:cooking_pot:1>, <ore:gearFiery>,
+metals.fiery.gear, <betterwithmods:cooking_pot:1>, metals.fiery.gear,
 <minecraft:anvil>, <minecraft:anvil>, <ironchest:iron_chest:1>, <ironchest:iron_chest:1>,
 <minecraft:sticky_piston>, <minecraft:sticky_piston>,
-<ore:rodSteeleaf>, <ore:rodSteeleaf>,
-<ore:rodSteeleaf>, <ore:rodSteeleaf>,
+metals.steeleaf.rod, metals.steeleaf.rod,
+metals.steeleaf.rod, metals.steeleaf.rod,
 <minecraft:sticky_piston>, <minecraft:sticky_piston>
 ]);
 

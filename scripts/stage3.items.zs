@@ -55,6 +55,9 @@ var stage3Items = [
 	<minecraft:tipped_arrow:*>,
 	<minecraft:tnt_minecart>,
 	<minecraft:trapped_chest>,
+	<minecraft:enchanting_table>,
+	<minecraft:beacon>,
+	<minecraft:ender_chest>,
 	<prospectors:prospector_med>,
 
 	//Ore 

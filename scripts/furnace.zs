@@ -42,7 +42,7 @@ var recipesToAdd = [
 	[<progressiontweaks:flat_bread>, <horsepower:flour>],
 	[<quark:glass_shards>, <betterwithmods:red_sand_pile>],
 	[<quark:glass_shards>, <betterwithmods:sand_pile>]
-] as IItemstack[][];
+] as IItemStack[][];
 
 for items in recipesToAdd {
 	furnace.addRecipe(items[0], items[1]);

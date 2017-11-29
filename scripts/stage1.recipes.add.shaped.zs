@@ -56,6 +56,9 @@ var shapedRecipes = {
 	<primal_tech:leaf_bed> : [
 		[[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]
 	],
+	<primal_tech:flint_edged_disc> : [
+		[[null, <primal:flint_knapp>, null], [<primal:flint_knapp>, <ore:gearTin>, <primal:flint_knapp>], [null, <primal:flint_knapp>, null]]
+	],
 	<progressiontweaks:unfired_clay_bowl> : [
 		[[<minecraft:clay_ball>, null, <minecraft:clay_ball>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]
 	],

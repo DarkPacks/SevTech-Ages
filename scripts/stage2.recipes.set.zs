@@ -44,6 +44,7 @@ var itemsForStage = [
 	<minecraft:stonebrick>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
+	<minecraft:painting>,
 	<quark:glass_item_frame>,
 
 	//Chisel 

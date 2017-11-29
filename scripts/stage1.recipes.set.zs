@@ -278,6 +278,16 @@ var itemsForStage = [
 	<actuallyadditions:block_tiny_torch>,
 	<actuallyadditions:item_crafter_on_a_stick>,
 	<actuallyadditions:item_misc:5>,
+	<actuallyadditions:item_axe_quartz>,
+	<actuallyadditions:item_boots_quartz>,
+	<actuallyadditions:item_chest_quartz>,
+	<actuallyadditions:item_helm_quartz>,
+	<actuallyadditions:item_hoe_quartz>,
+	<actuallyadditions:item_pants_quartz>,
+	<actuallyadditions:item_pickaxe_quartz>,
+	<actuallyadditions:item_shovel_quartz>,
+	<actuallyadditions:item_sword_quartz>,
+	<actuallyadditions:quartz_paxel>,
 
 	//TeslaCore
 	<teslacorelib:gear_stone>,

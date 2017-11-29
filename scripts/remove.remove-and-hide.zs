@@ -5,6 +5,7 @@ var removeAndHideItems = [
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
+	<actuallyadditions:item_dust:0>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,

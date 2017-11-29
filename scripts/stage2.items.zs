@@ -63,7 +63,7 @@ var stage2Items = [
 	<minecraft:wool:*>,
 	<minecraft:writable_book>,
 	<minecraft:written_book>,
-	<minecarft:painting>,
+	<minecraft:painting>,
 	<prospectors:prospector_low>,
 
 	//Ore 

@@ -138,7 +138,6 @@ recipes.addShaped(<primal_tech:fibre_torch>, [[<ore:cordageGeneral>], [stick]]);
 recipes.addShaped(<primal_tech:stick_bundle>, [[stick, <ore:cordageGeneral>, stick], [stick, stick, stick], [stick, <ore:cordageGeneral>, stick]]);
 recipes.addShaped(<primal_tech:stone_grill>, [[null, <immcraft:rock>, null], [<immcraft:rock>, null, <immcraft:rock>], [<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]]);
 recipes.addShaped(<primal_tech:fluid_bladder>, [[null, null, null], [<ore:dyeBrown>, <minecraft:dye>, <ore:dyeBrown>], [<primal:plant_cordage>, <primal:plant_cordage>, <primal:plant_cordage>]]);
-recipes.addShaped(<primal_tech:flint_edged_disc>, [[null, <primal:flint_knapp>, null], [<primal:flint_knapp>, <ore:gearTin>, <primal:flint_knapp>], [null, <primal:flint_knapp>, null]]);
 
 recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <minecraft:log2:1>, null]]);
 recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <natura:overworld_logs2:1>, null]]);

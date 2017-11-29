@@ -27,23 +27,16 @@ mods.MobStages.addRange(String entityId, int range, int dimension);
 mods.MobStages.toggleSpawners(String entityId, boolean allow, int dimension);
 */
 
-var stages = [
-	"one",
-	"two",
-	"three"
-] as string[];
-
-//Make sure each stage has a matching stage in the stages array!
 var mobsForStages = {
 	//Stage one
-	"one" : [
+	STAGES.one : [
 		"emberroot:rainbowslime",
 		"emberroot:slime",
 		"minecraft:skeleton"
 	],
 
 	//Stage two
-	"two" : [
+	STAGES.two : [
 		"emberroot:enderminy",
 		"emberroot:fallenmount",
 		"emberroot:hero",
@@ -55,21 +48,18 @@ var mobsForStages = {
 	],
 
 	//Stage three
-	"three" : [
+	STAGES.three : [
 		"fat_cat:fat_cat"
 	],
 
-
 	//Stage four
-	"four" : [
+	STAGES.four : [
 		"playerskins:playermob"
 	]
-
-
 } as string[][string];
 
-for stage in stages {
-	for mob in mobsForStages[stage] {
+for stage, mobs in mobsForStages {
+	for mob in mobs {
 		mods.MobStages.addStage(stage, mob);
 	}
 }

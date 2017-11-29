@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var ITEM_STAGE = "two";
+var STAGE = STAGES.two;
 
 var modIDs = [
 	"twilightforest",
@@ -9,7 +9,7 @@ var modIDs = [
 ] as string[];
 for id in modIDs {
     for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(ITEM_STAGE, item);
+        mods.ItemStages.addItemStage(STAGE, item);
     }
 }
 
@@ -601,5 +601,5 @@ var stage2Items = [
 ] as IItemStack[];
 
 for item in stage2Items {
-	mods.ItemStages.addItemStage(ITEM_STAGE, item);
+	mods.ItemStages.addItemStage(STAGE, item);
 }

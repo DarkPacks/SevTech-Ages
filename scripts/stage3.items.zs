@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var ITEM_STAGE = "three";
+var STAGE = STAGES.three;
 
 ////
 //
@@ -20,7 +20,7 @@ var modIDs = [
 
 for id in modIDs {
     for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(ITEM_STAGE, item);
+        mods.ItemStages.addItemStage(STAGE, item);
     }
 }
 
@@ -849,5 +849,5 @@ var stage3Items = [
 ] as IItemStack[];
 
 for item in stage3Items {
-	mods.ItemStages.addItemStage(ITEM_STAGE, item);
+	mods.ItemStages.addItemStage(STAGE, item);
 }

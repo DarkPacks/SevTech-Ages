@@ -1,39 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-//Shorthand
-var ip = <ore:plateIron>;
-var cp = <ore:plateCopper>;
-var lp = <ore:plateLead>;
-var np = <ore:plateNickel>;
-var tp = <ore:plateTin>;
-var sp = <ore:plateSteel>;
-var gp = <ore:plateGold>;
-var bp = <ore:plateBronze>;
-var cgear = <ore:gearCopper>;
-var tgear = <ore:gearTin>;
-var bgear = <ore:gearBronze>;
-var iron = <minecraft:iron_ingot>;
-var gold = <minecraft:gold_ingot>;
-var diamond = <minecraft:diamond>;
-var emerald = <minecraft:emerald>;
-var redstone = <minecraft:redstone>;
-var coal = <minecraft:coal>;
-var charcoal = <minecraft:coal:1>;
-var shears = <ore:shears>;
-var clayball = <minecraft:clay_ball>;
-var log = <ore:logWood>;
-var flint = <minecraft:flint>;
-var plank = <ore:plankWood>;
-var stick = <minecraft:stick>;
-var stone = <minecraft:stone>;
-var bone = <minecraft:bone>;
-var leather = <minecraft:leather>;
-var cobblestone = <minecraft:cobblestone>;
-var cordage = <ore:cordageGeneral>;
-var cane = <minecraft:reeds>;
-var wool = <ore:wool>;
-var str = <minecraft:string>;
 //recipes.addShapeless(, []);
 
 /*
@@ -332,9 +299,7 @@ var shapedRecipes = {
 	]
 } as IIngredient[][][][IItemStack];
 
-for item in shapedRecipes {
-	var recipesForItem = shapedRecipes[item];
-
+for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
 		recipes.addShaped(item, recipe);
 	}

@@ -72,7 +72,7 @@ fluidRedstoneData.addDataValue("viscosity", "3000");
 fluidRedstoneData.addDataValue("temperature", "1000");
 fluidRedstoneData.addDataValue("vaporize", "false");
 
-//Liquid Invar
+//Liquid Ostonium
 var ostonium = MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build();
 var fluidOstoniumData = ostonium.registerPart("molten").getData();
 fluidOstoniumData.addDataValue("density", "20000");

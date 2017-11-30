@@ -1,3 +1,5 @@
+#priority 900
+
 import crafttweaker.item.IItemStack;
 
 var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;

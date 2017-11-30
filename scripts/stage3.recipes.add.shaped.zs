@@ -124,19 +124,19 @@ var shapedRecipes = {
 	],
 
 	//Rails
-	<minecraft:activator_rail> : [
+	<minecraft:activator_rail>*2 : [
 		[[ip, plank, ip], [ip, <minecraft:redstone_torch>, ip], [ip, plank, ip]]
 	],
-	<minecraft:detector_rail> : [
+	<minecraft:detector_rail>*2 : [
 		[[ip, <minecraft:redstone>, ip], [ip, <minecraft:light_weighted_pressure_plate>, ip], [ip, <minecraft:redstone>, ip]]
 	],
-	<minecraft:golden_rail> : [
+	<minecraft:golden_rail>*4 : [
 		[[gp, <minecraft:redstone>, gp], [gp, plank, gp], [gp, <minecraft:redstone>, gp]]
 	],
-	<minecraft:rail> : [
+	<minecraft:rail>*8 : [
 		[[ip, plank, ip], [ip, plank, ip], [ip, plank, ip]]
 	],
-	<tconstruct:wood_rail> : [
+	<tconstruct:wood_rail>*8 : [
 		[[<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>]]
 	],
 

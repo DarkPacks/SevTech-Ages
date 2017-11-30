@@ -15,6 +15,9 @@
 * Added Buildcraft for testing purposes
 * §3Staged the PlayerSkins mod and configured
 * Storage Drawer upgrades can now be crafted
+* §3Removed the Skillable Roadwalk upgrade
+* Doubled the amount of Luminessence recieved from recipe
+* §3Increased the amount of rails per crafting operation
 
 --------------------------------------------------------------------------------------------------------------------------
 

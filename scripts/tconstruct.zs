@@ -35,11 +35,11 @@ mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <tconstruct:cast
 mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>, 2250);
 
 mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket>, metalItems.gold.liquid.liquids[0], 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket>, metalItems.brass.liquid.liquids[0], 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket>, <liquid:brass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket>, metalItems.aluminumBrass.liquid.liquids[0], 144, true);
 
 mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket_block>, metalItems.gold.liquid.liquids[0], 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket_block>, metalItems.brass.liquid.liquids[0], 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket_block>, <liquid:brass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tcomplement:cast>, <ceramics:clay_bucket_block>, metalItems.aluminumBrass.liquid.liquids[0], 144, true);
 
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:42>, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
@@ -56,7 +56,7 @@ mods.tconstruct.Casting.addBasinRecipe(<twilightforest:block_storage:1>, null, m
 
 //Gem cast with Astral Sorcery Aquamarine
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>, metalItems.gold.liquid.liquids[0], 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>, metalItems.brass.liquid.liquids[0], 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>, <liquid:brass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>, metalItems.aluminumBrass.liquid.liquids[0], 144, true);
 
 mods.tconstruct.Casting.addTableRecipe(<embers:nugget_dawnstone>, <tconstruct:cast_custom:1>, metalItems.dawnstone.liquid.liquids[0], 16, false);
@@ -98,9 +98,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:stone> * 288, <tconstruct:seared:*>);
 //Remove Constantan Allowing
 mods.tconstruct.Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
 
-//Gear Cast Allows Stone now. You're welcome. -________________- Oh, it's also made from stone so all the people don't get upset with me and call me names or tell me I don't know rocket surgery. 
+//Gear Cast Allows Stone now. You're welcome. -________________- Oh, it's also made from stone so all the people don't get upset with me and call me names or tell me I don't know rocket surgery.
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, metalItems.gold.liquid.liquids[0], 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, metalItems.brass.liquid.liquids[0], 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, <liquid:brass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>, metalItems.aluminumBrass.liquid.liquids[0], 144, true);
 
 //Platinum
@@ -150,7 +150,7 @@ mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:25>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:21>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:20>);
 
-//Spartan Shields 
+//Spartan Shields
 mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_bronze>, <spartanshields:shield_basic_wood>, metalItems.bronze.liquid.liquids[0], 576, true);
 mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_steel>, <spartanshields:shield_basic_wood>, metalItems.steel.liquid.liquids[0], 576, true);
 mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_copper>, <spartanshields:shield_basic_wood>, metalItems.copper.liquid.liquids[0], 576, true);

@@ -1,7 +1,7 @@
 for metalName, metal in metals {
 	//Remove block recipes
-	if (isNull(metal.block)) {
-		var preferredMetalBlock = metalItems[metalName].block.itemArray[0];
+	if (metal.block as bool) {
+		var preferredMetalBlock = metalItems[metalName].block as bool ? metalItems[metalName].block.itemArray[0] : null;
 		//TODO: Remove recipes we dont want on the preferredMetalBlock
 
 		//Remove other blocks completely
@@ -15,8 +15,8 @@ for metalName, metal in metals {
 	}
 
 	//Remove ingot recipes
-	if (isNull(metal.ingot)) {
-		var preferredMetalIngot = metalItems[metalName].ingot.itemArray[0];
+	if (metal.ingot as bool) {
+		var preferredMetalIngot = metalItems[metalName].ingot as bool ? metalItems[metalName].ingot.itemArray[0] : null;
 		//TODO: Remove recipes we dont want on the preferredMetalIngot
 
 		//Remove other ingots completely
@@ -30,8 +30,8 @@ for metalName, metal in metals {
 	}
 
 	//Remove nugget recipes
-	if (isNull(metal.nugget)) {
-		var preferredMetalNugget = metalItems[metalName].nugget.itemArray[0];
+	if (metal.nugget as bool) {
+		var preferredMetalNugget = metalItems[metalName].nugget as bool ? metalItems[metalName].nugget.itemArray[0] : null;
 		//TODO: Remove recipes we dont want on the preferredMetalNugget
 
 		//Remove other nuggets completely

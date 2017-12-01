@@ -242,6 +242,7 @@ recipes.addShaped(<horsepower:press>, [[<minecraft:lead>, stick, <minecraft:lead
 
 //I'm tired of the annoyance of getting flint and we've changed that! Thanks to BlakeBr0! <3
 recipes.remove(<minecraft:flint>);
+recipes.remove(<pickletweaks:grass_mesh>);
 recipes.addShapeless(<minecraft:flint> * 9, [<betterwithmods:aesthetic:5>]);
 recipes.addShapeless(<minecraft:flint>, [<pickletweaks:grass_mesh:*>, <minecraft:gravel>]);
 recipes.remove(<pickletweaks:mesh>);

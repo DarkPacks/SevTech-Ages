@@ -276,7 +276,9 @@
       "simplyjuices:itemjuicestrawberry",
       "progressiontweaks:lime",
       "plants:pineapple",
-      "betterwithmods:apple_pie"
+      "betterwithmods:apple_pie",
+      "betterwithaddons:food_pie_melon",
+      "betterwithaddons:food_mulberry"
     ]
   }
 }

@@ -1,4 +1,6 @@
 for metalName, metal in metals {
+	var hasLiquid = metalItems[metalName].liquid as bool;
+
 	//Remove block recipes
 	if (metal.block as bool) {
 		var preferredMetalBlock = metalItems[metalName].block as bool ? metalItems[metalName].block.itemArray[0] : null;
@@ -9,8 +11,11 @@ for metalName, metal in metals {
 			//If this block is the one we want, skip
 			if (!metalBlock.matches(preferredMetalBlock)) {
 				mods.jei.JEI.removeAndHide(metalBlock);
-				mods.tconstruct.Casting.removeBasinRecipe(metalBlock);
-				mods.tconstruct.Smeltery.removeMelting(metalBlock);
+
+				if (hasLiquid) {
+					mods.tconstruct.Casting.removeBasinRecipe(metalBlock);
+					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalBlock);
+				}
 
 				//Remove from Ore Dict
 				metal.block.remove(metalBlock);
@@ -29,8 +34,11 @@ for metalName, metal in metals {
 			if (!metalIngot.matches(preferredMetalIngot)) {
 				mods.jei.JEI.removeAndHide(metalIngot);
 				furnace.remove(metalIngot);
-				mods.tconstruct.Casting.removeTableRecipe(metalIngot);
-				mods.tconstruct.Smeltery.removeMelting(metalIngot);
+
+				if (hasLiquid) {
+					mods.tconstruct.Casting.removeTableRecipe(metalIngot);
+					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalIngot);
+				}
 
 				//Remove from Ore Dict
 				metal.ingot.remove(metalIngot);
@@ -48,8 +56,11 @@ for metalName, metal in metals {
 			//If this nugget is the one we want, skip
 			if (!metalNugget.matches(preferredMetalNugget)) {
 				mods.jei.JEI.removeAndHide(metalNugget);
-				mods.tconstruct.Casting.removeTableRecipe(metalNugget);
-				mods.tconstruct.Smeltery.removeMelting(metalNugget);
+
+				if (hasLiquid) {
+					mods.tconstruct.Casting.removeTableRecipe(metalNugget);
+					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalNugget);
+				}
 
 				//Remove from Ore Dict
 				metal.nugget.remove(metalNugget);

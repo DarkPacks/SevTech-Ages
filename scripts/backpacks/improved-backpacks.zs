@@ -1,5 +1,3 @@
-import crafttweaker.data.IData;
-
 var backpack = <improvedbackpacks:backpack>;
 
 //Base backpack

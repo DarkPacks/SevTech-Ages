@@ -30,7 +30,7 @@ global metals as IOreDictEntry[string][string] = {
 		dust: <ore:dustAluminum>,
 		gear: null,
 		ingot: <ore:ingotAluminum>,
-		nugget: null,
+		nugget: <ore:nuggetAluminum>,
 		plate: <ore:plateAluminum>,
 		rod: <ore:stickAluminum>
 	},

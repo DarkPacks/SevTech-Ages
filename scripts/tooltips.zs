@@ -52,3 +52,5 @@
 <embers:tinker_hammer>.addTooltip(format.red("Use to connect Embers blocks"));
 <embers:tinker_hammer>.addTooltip(format.red("Reciever first Emitter Second"));
 <embers:tinker_hammer>.addTooltip(format.red("Shift-click on reciever and right-click on emitter"));
+
+<embers:codex>.addTooltip(format.yellow("Informational Book"));

@@ -9,6 +9,10 @@ for metalName, metal in metals {
 			//If this block is the one we want, skip
 			if (!metalBlock.matches(preferredMetalBlock)) {
 				mods.jei.JEI.removeAndHide(metalBlock);
+				mods.tconstruct.Casting.removeBasinRecipe(metalBlock);
+				mods.tconstruct.Smeltery.removeMelting(metalBlock);
+
+				//Remove from Ore Dict
 				metal.block.remove(metalBlock);
 			}
 		}
@@ -25,6 +29,10 @@ for metalName, metal in metals {
 			if (!metalIngot.matches(preferredMetalIngot)) {
 				mods.jei.JEI.removeAndHide(metalIngot);
 				furnace.remove(metalIngot);
+				mods.tconstruct.Casting.removeTableRecipe(metalIngot);
+				mods.tconstruct.Smeltery.removeMelting(metalIngot);
+
+				//Remove from Ore Dict
 				metal.ingot.remove(metalIngot);
 			}
 		}
@@ -40,6 +48,10 @@ for metalName, metal in metals {
 			//If this nugget is the one we want, skip
 			if (!metalNugget.matches(preferredMetalNugget)) {
 				mods.jei.JEI.removeAndHide(metalNugget);
+				mods.tconstruct.Casting.removeTableRecipe(metalNugget);
+				mods.tconstruct.Smeltery.removeMelting(metalNugget);
+
+				//Remove from Ore Dict
 				metal.nugget.remove(metalNugget);
 			}
 		}

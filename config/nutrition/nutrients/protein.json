@@ -410,7 +410,22 @@
       "twilightforest:hydra_chop",
       "twilightforest:raw_venison",
       "twilightforest:meef_stroganoff",
-      "nex:food_meat_ghast_cooked"
+      "nex:food_meat_ghast_cooked",
+      "thebetweenlands:mince_pie",
+      "thebetweenlands:yellow_dotted_fungus",
+      "thebetweenlands:kraken_calamari",
+      "thebetweenlands:kraken_tentacle",
+      "thebetweenlands:frog_legs_cooked",
+      "thebetweenlands:snail_flesh_cooked",
+      "thebetweenlands:snail_flesh_raw",
+      "thebetweenlands:black_hat_mushroom_item",
+      "thebetweenlands:flat_head_mushroom_item",
+      "thebetweenlands:frog_legs_raw",
+      "thebetweenlands:angler_meat_cooked",
+      "thebetweenlands:angler_meat_raw",
+      "thebetweenlands:bulb_capped_mushroom_item",
+      "thebetweenlands:crab_stick",
+      "thebetweenlands:silt_crab_claw"
     ]
   }
 }

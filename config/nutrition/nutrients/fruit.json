@@ -276,7 +276,16 @@
       "simplyjuices:itemjuicestrawberry",
       "progressiontweaks:lime",
       "plants:pineapple",
-      "betterwithmods:apple_pie"
+      "thebetweenlands:mince_pie",
+      "betterwithmods:apple_pie",
+      "thebetweenlands:candy_blue",
+      "thebetweenlands:candy_red",
+      "thebetweenlands:candy_yellow",
+      "thebetweenlands:middle_fruit",
+      "thebetweenlands:middle_fruit_jello",
+      "thebetweenlands:sludge_jello",
+      "thebetweenlands:sap_jello",
+      "thebetweenlands:forbidden_fig"
     ]
   }
 }

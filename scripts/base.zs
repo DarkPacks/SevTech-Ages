@@ -75,10 +75,9 @@ fluidRedstoneData.addDataValue("vaporize", "false");
 //Liquid Ostonium
 var ostonium = MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build();
 var fluidOstoniumData = ostonium.registerPart("molten").getData();
-fluidOstoniumData.addDataValue("density", "20000");
-fluidOstoniumData.addDataValue("viscosity", "16000");
-fluidOstoniumData.addDataValue("luminosity", "15");
-fluidOstoniumData.addDataValue("temperature", "1000");
+fluidOstoniumData.addDataValue("density", "4000");
+fluidOstoniumData.addDataValue("viscosity", "3000");
+fluidOstoniumData.addDataValue("temperature", "550");
 fluidOstoniumData.addDataValue("vaporize", "false");
 
 //Redstone Alloy

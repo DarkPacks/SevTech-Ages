@@ -1,3 +1,5 @@
+import crafttweaker.data.IData;
+
 var blankBackpackUpgrade = <ironbackpacks:upgrade>;
 var chest = <minecraft:chest>;
 

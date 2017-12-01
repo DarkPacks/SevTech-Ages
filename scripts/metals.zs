@@ -24,6 +24,7 @@ for metalName, metal in metals {
 			//If this ingot is the one we want, skip
 			if (!metalIngot.matches(preferredMetalIngot)) {
 				mods.jei.JEI.removeAndHide(metalIngot);
+				furnace.remove(metalIngot);
 				metal.ingot.remove(metalIngot);
 			}
 		}

@@ -138,4 +138,4 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>,
 // InputStack, OutputStack, consumeMultiple (true/false), consumptionChance, craftTickTime
 // Example:
 // mods.astralsorcery.StarlightInfusion.addInfusion(<astralsorcery:itemjournal>, <minecraft:bow>, false, 0.7, 200);
-mods.astralsorcery.StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 1.0, 300);
+mods.astralsorcery.StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 0.25, 300);

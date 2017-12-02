@@ -1,158 +1,85 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+//Returns item if it exists for that metal, or null
+function getPreferredMetalItem(metalName as string, metalType as string) as IItemStack {
+	return metalItems[metalName][metalType] as bool ? metalItems[metalName][metalType].itemArray[0] : null;
+}
+
+function handleMetalItem(metalName as string, metal as IOreDictEntry[string], metalType as string, preferredMetalItem as IItemStack, doFurnace as bool, hasLiquid as bool) {
+	//TODO: Remove recipes we dont want on the preferredMetalItem
+
+	//Remove other metal items completely
+	for metalItem in metal[metalType].itemArray {
+		//If this item is the one we want, skip
+		if (!metalItem.matches(preferredMetalItem)) {
+			mods.jei.JEI.removeAndHide(metalItem);
+
+			if (doFurnace) {
+				furnace.remove(metalItem);
+			}
+
+			if (hasLiquid) {
+				mods.tconstruct.Casting.removeBasinRecipe(metalItem);
+				mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalItem);
+			}
+
+			//Remove from Ore Dict
+			//TODO: Conditionally remove oredict based on mod
+			//metal.block.remove(metalItem);
+		}
+	}
+}
+
 for metalName, metal in metals {
 	var hasLiquid = metalItems[metalName].liquid as bool;
 
 	//Remove block recipes
 	if (metal.block as bool) {
-		var preferredMetalBlock = metalItems[metalName].block as bool ? metalItems[metalName].block.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalBlock
+		var preferredMetalBlock = getPreferredMetalItem(metalName, "block");
 
-		//Remove other blocks completely
-		for metalBlock in metal.block.itemArray {
-			//If this block is the one we want, skip
-			if (!metalBlock.matches(preferredMetalBlock)) {
-				mods.jei.JEI.removeAndHide(metalBlock);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeBasinRecipe(metalBlock);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalBlock);
-				}
-
-				//Remove from Ore Dict
-				metal.block.remove(metalBlock);
-			}
-		}
+		handleMetalItem(metalName, metal, "block", preferredMetalBlock, false, hasLiquid);
 	}
 
 	//Remove ingot recipes
 	if (metal.ingot as bool) {
-		var preferredMetalIngot = metalItems[metalName].ingot as bool ? metalItems[metalName].ingot.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalIngot
+		var preferredMetalIngot = getPreferredMetalItem(metalName, "ingot");
 
-		//Remove other ingots completely
-		for metalIngot in metal.ingot.itemArray {
-			//If this ingot is the one we want, skip
-			if (!metalIngot.matches(preferredMetalIngot)) {
-				mods.jei.JEI.removeAndHide(metalIngot);
-				furnace.remove(metalIngot);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalIngot);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalIngot);
-				}
-
-				//Remove from Ore Dict
-				metal.ingot.remove(metalIngot);
-			}
-		}
+		handleMetalItem(metalName, metal, "ingot", preferredMetalIngot, true, hasLiquid);
 	}
 
 	//Remove nugget recipes
 	if (metal.nugget as bool) {
-		var preferredMetalNugget = metalItems[metalName].nugget as bool ? metalItems[metalName].nugget.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalNugget
+		var preferredMetalNugget = getPreferredMetalItem(metalName, "nugget");
 
-		//Remove other nuggets completely
-		for metalNugget in metal.nugget.itemArray {
-			//If this nugget is the one we want, skip
-			if (!metalNugget.matches(preferredMetalNugget)) {
-				mods.jei.JEI.removeAndHide(metalNugget);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalNugget);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalNugget);
-				}
-
-				//Remove from Ore Dict
-				metal.nugget.remove(metalNugget);
-			}
-		}
+		handleMetalItem(metalName, metal, "nugget", preferredMetalNugget, false, hasLiquid);
 	}
 
 	//Remove dust/grit recipes
 	if (metal.dust as bool) {
-		var preferredMetalDust = metalItems[metalName].dust as bool ? metalItems[metalName].dust.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalDust
+		var preferredMetalDust = getPreferredMetalItem(metalName, "dust");
 
-		//Remove other dusts completely
-		for metalDust in metal.dust.itemArray {
-			//If this dust is the one we want, skip
-			if (!metalDust.matches(preferredMetalDust)) {
-				mods.jei.JEI.removeAndHide(metalDust);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalDust);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalDust);
-				}
-
-				//Remove from Ore Dict
-				metal.dust.remove(metalDust);
-			}
-		}
+		handleMetalItem(metalName, metal, "dust", preferredMetalDust, false, hasLiquid);
 	}
 
 	//Remove plate recipes
 	if (metal.plate as bool) {
-		var preferredMetalPlate = metalItems[metalName].plate as bool ? metalItems[metalName].plate.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalPlate
+		var preferredMetalPlate = getPreferredMetalItem(metalName, "plate");
 
-		//Remove other plates completely
-		for metalPlate in metal.plate.itemArray {
-			//If this plate is the one we want, skip
-			if (!metalPlate.matches(preferredMetalPlate)) {
-				mods.jei.JEI.removeAndHide(metalPlate);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalPlate);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalPlate);
-				}
-
-				//Remove from Ore Dict
-				metal.plate.remove(metalPlate);
-			}
-		}
+		handleMetalItem(metalName, metal, "plate", preferredMetalPlate, false, hasLiquid);
 	}
 
 	//Remove gear recipes
 	if (metal.gear as bool) {
-		var preferredMetalGear = metalItems[metalName].gear as bool ? metalItems[metalName].gear.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalGear
+		var preferredMetalGear = getPreferredMetalItem(metalName, "gear");
 
-		//Remove other gears completely
-		for metalGear in metal.gear.itemArray {
-			//If this gear is the one we want, skip
-			if (!metalGear.matches(preferredMetalGear)) {
-				mods.jei.JEI.removeAndHide(metalGear);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalGear);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalGear);
-				}
-
-				//Remove from Ore Dict
-				metal.gear.remove(metalGear);
-			}
-		}
+		handleMetalItem(metalName, metal, "gear", preferredMetalGear, false, hasLiquid);
 	}
 
 	//Remove rod recipes
 	if (metal.rod as bool) {
-		var preferredMetalRod = metalItems[metalName].rod as bool ? metalItems[metalName].rod.itemArray[0] : null;
-		//TODO: Remove recipes we dont want on the preferredMetalRod
+		var preferredMetalRod = getPreferredMetalItem(metalName, "rod");
 
-		//Remove other rods completely
-		for metalRod in metal.rod.itemArray {
-			//If this rod is the one we want, skip
-			if (!metalRod.matches(preferredMetalRod)) {
-				mods.jei.JEI.removeAndHide(metalRod);
-
-				if (hasLiquid) {
-					mods.tconstruct.Casting.removeTableRecipe(metalRod);
-					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalRod);
-				}
-
-				//Remove from Ore Dict
-				metal.rod.remove(metalRod);
-			}
-		}
+		handleMetalItem(metalName, metal, "rod", preferredMetalRod, false, hasLiquid);
 	}
 }

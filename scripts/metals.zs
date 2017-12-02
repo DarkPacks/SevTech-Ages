@@ -1,6 +1,20 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+function isItemToKeep(item as IItemStack) as bool {
+	var modsToKeep = [
+		"embers"
+	] as string[];
+
+	var itemOwner as string = item.definition.owner;
+	for modName in modsToKeep {
+		if (itemOwner == modName) {
+			return true;
+		}
+	}
+	return false;
+}
+
 //Returns item if it exists for that metal, or null
 function getPreferredMetalItem(metalName as string, metalType as string) as IItemStack {
 	return metalItems[metalName][metalType] as bool ? metalItems[metalName][metalType].itemArray[0] : null;
@@ -25,8 +39,9 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			}
 
 			//Remove from Ore Dict
-			//TODO: Conditionally remove oredict based on mod
-			//metal.block.remove(metalItem);
+			if (!isItemToKeep(metalItem)) {
+				metal[metalType].remove(metalItem);
+			}
 		}
 	}
 }

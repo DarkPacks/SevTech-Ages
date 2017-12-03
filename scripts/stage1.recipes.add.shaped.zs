@@ -165,7 +165,7 @@ var shapedRecipes = {
 		[[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]]
 	],
 	<primal:slab_ironwood> * 6 : [
-		[[<primal:planks:6>, <primal:planks:6>, <primal:planks:6>]]
+		[[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]]
 	],
 	<rustic:ironwood_slab_item> * 6 : [
 		[[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]]
@@ -500,23 +500,23 @@ var shapedRecipes = {
 	],
 	<primal:storage_crate:7> : [
 		[
-			[<primal:planks:7>, <primal:planks:7>, <primal:planks:7>],
-			[<primal:planks:7>, <minecraft:chest>, <primal:planks:7>],
-			[<primal:planks:7>, <primal:planks:7>, <primal:planks:7>]
+			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>],
+			[<primal:planks:1>, <minecraft:chest>, <primal:planks:1>],
+			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>]
 		]
 	],
 	<primal:storage_crate:8> : [
 		[
-			[<primal:planks:8>, <primal:planks:8>, <primal:planks:8>],
-			[<primal:planks:8>, <minecraft:chest>, <primal:planks:8>],
-			[<primal:planks:8>, <primal:planks:8>, <primal:planks:8>]
+			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>],
+			[<primal:planks:2>, <minecraft:chest>, <primal:planks:2>],
+			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>]
 		]
 	],
 	<primal:storage_crate:9> : [
 		[
-			[<primal:planks:9>, <primal:planks:9>, <primal:planks:9>],
-			[<primal:planks:9>, <minecraft:chest>, <primal:planks:9>],
-			[<primal:planks:9>, <primal:planks:9>, <primal:planks:9>]
+			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>],
+			[<primal:planks:3>, <minecraft:chest>, <primal:planks:3>],
+			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>]
 		]
 	],
 	<primal:storage_crate> : [

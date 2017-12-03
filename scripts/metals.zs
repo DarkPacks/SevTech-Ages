@@ -2,8 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 function isItemToKeep(item as IItemStack) as bool {
+	return false; //Comment this out if there are mods we want kept
+
 	var modsToKeep = [
-		"embers"
 	] as string[];
 
 	var itemOwner as string = item.definition.owner;
@@ -21,6 +22,19 @@ function getPreferredMetalItem(metalName as string, metalType as string) as IIte
 }
 
 function handleMetalItem(metalName as string, metal as IOreDictEntry[string], metalType as string, preferredMetalItem as IItemStack, doFurnace as bool, hasLiquid as bool) {
+	var metalLiquid = hasLiquid ? metalItems[metalName].liquid.liquids[0] : null;
+
+	/*
+		Add Metal Recipes
+	*/
+	//Embers Stamper
+	if ((metalType == "ingot" | metalType == "plate") & hasLiquid) {
+		mods.embers.Stamper.remove(preferredMetalItem);
+
+		var stamp as IItemStack = metalType == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
+		mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
+	}
+
 	//TODO: Remove recipes we dont want on the preferredMetalItem
 
 	//Remove other metal items completely
@@ -34,6 +48,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			}
 
 			if (hasLiquid) {
+				mods.embers.Stamper.remove(metalItem);
+
 				mods.tconstruct.Casting.removeBasinRecipe(metalItem);
 				mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalItem);
 			}

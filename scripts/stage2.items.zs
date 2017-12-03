@@ -284,6 +284,8 @@ var stage2Items = [
 	<astralsorcery:blockattunementaltar>,
 	<astralsorcery:blockattunementrelay>,
 	<astralsorcery:blockblackmarble:*>,
+	<astralsorcery:blockbore>,
+	<astralsorcery:blockborehead>,
 	<astralsorcery:blockcelestialcollectorcrystal:*>,
 	<astralsorcery:blockcelestialcrystals:*>,
 	<astralsorcery:blockcelestialgateway>,
@@ -334,6 +336,7 @@ var stage2Items = [
 	<astralsorcery:itemtunedrockcrystal:*>,
 	<astralsorcery:itemusabledust:*>,
 	<astralsorcery:itemwand:*>,
+	<astralsorcery:itemwand:0>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 
 	//Embers Stage 2

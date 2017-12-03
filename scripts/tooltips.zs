@@ -25,12 +25,6 @@
 
 <dungpipe:sewer_pipe>.addTooltip(format.red("Pipes items through a solid block"));
 
-
-//Item deletion warning message
-<improvedbackpacks:backpack>.addTooltip(format.red("Does not keep items when used in a recipe"));
-
-<ironbackpacks:backpack>.addTooltip(format.red("Does not keep items when used in a recipe"));
-
 //Prospecting Rods
 <prospectors:prospector_lowest>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_lowest>.addTooltip(format.yellow("for ore in Stage 1 and below"));
@@ -52,3 +46,5 @@
 <embers:tinker_hammer>.addTooltip(format.red("Use to connect Embers blocks"));
 <embers:tinker_hammer>.addTooltip(format.red("Reciever first Emitter Second"));
 <embers:tinker_hammer>.addTooltip(format.red("Shift-click on reciever and right-click on emitter"));
+
+<embers:codex>.addTooltip(format.yellow("Informational Book"));

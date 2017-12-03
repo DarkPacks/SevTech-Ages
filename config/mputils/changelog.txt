@@ -1,5 +1,11 @@
 --------------------------------------------------------------------------------------------------------------------------
 
+§l§nAlpha 10
+* §3Fixed the Wooden Basin recipes
+* Altered the consumption chance of liquid starlight for the Stardust recipe
+
+--------------------------------------------------------------------------------------------------------------------------
+
 §l§nAlpha 9
 * §3Turned the Better With Mods hunger mechanic off. Sorry for calling everyone fat and obese FeelsBadMan
 * Added marble, limestone, and slate to stage 0 so you can now interact with them. I swear it actually works this time

@@ -848,7 +848,20 @@ var stage3Items = [
 	<spartanshields:shield_basic_electrum>,
 	<spartanshields:shield_basic_nickel>,
 	<spartanshields:shield_basic_lead>,
-	<spartanshields:shield_basic_invar>
+	<spartanshields:shield_basic_invar>,
+
+
+	//Modular Machinery
+	<modularmachinery:itemmodularium>,
+	<modularmachinery:blockcasing>,
+	<modularmachinery:blockcontroller>,
+	<modularmachinery:blockcasing:1>,
+	<modularmachinery:blockoutputbus:1>,
+	<modularmachinery:blockinputbus:1>,
+	<modularmachinery:blockfluidinputhatch>,
+	<modularmachinery:blockenergyinputhatch>
+
+
 ] as IItemStack[];
 
 for item in stage3Items {

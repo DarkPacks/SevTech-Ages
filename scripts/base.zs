@@ -105,8 +105,13 @@ var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(987201
 var invarParts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
 invar.registerParts(invarParts);
 
+//Modularium
+var modularium = MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(16730368).build();
+var modulariumparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+modularium.registerParts(modulariumparts);
+
 //Fluids
-var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar] as Material[];
+var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium] as Material[];
 for i, fluid in fluidMaterials {
    var fluidMaterialsData = fluid.registerPart("molten").getData();
    fluidMaterialsData.addDataValue("density", "4000");
@@ -114,7 +119,6 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("temperature", "550");
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
-
 
 
 /*

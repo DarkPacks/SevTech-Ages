@@ -85,7 +85,10 @@ var removeAndHideItems = [
 	<storagedrawers:basicdrawers:*>,
 	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
-  
+  	<modularmachinery:blockinputbus:0>,
+	<modularmachinery:blockoutputbus:0>,
+
+
 	//Nuggets 
 	<betterwithmods:material:46>,
 	<embers:nugget_bronze>,

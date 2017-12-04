@@ -164,3 +164,19 @@ mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_gold>, <spar
 mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_obsidian>, <spartanshields:shield_basic_wood>, <liquid:obsidian>, 576, true);
 mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_lead>, <spartanshields:shield_basic_wood>, <liquid:lead>, 576, true);
 //mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_invar>, <spartanshields:shield_basic_wood>, <liquid:invar>, 576, true);
+
+
+//Modularium
+mods.tconstruct.Alloy.addRecipe(<liquid:modularium> * 288, [<liquid:redstone> * 100, <liquid:iron>* 144, <liquid:dawnstone> * 144]);
+//ingot, plate, gear, block 
+mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, 144, false);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:71>, <tconstruct:cast_custom:3>, <liquid:modularium>, 144, false);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:70>, <tconstruct:cast_custom:4>, <liquid:modularium>, 576, false);
+//mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:sub_block_holder_0:1>, null, <liquid:modularium>, 1296, false);
+
+//ingot, plate, gear, rod 
+mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <modularmachinery:itemmodularium>);
+mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <contenttweaker:material_part:71>);
+mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 576, <contenttweaker:material_part:70>);
+mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <contenttweaker:material_part:74>);
+//mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 1296, <contenttweaker:sub_block_holder_0:2>);

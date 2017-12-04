@@ -48,3 +48,6 @@
 <embers:tinker_hammer>.addTooltip(format.red("Shift-click on reciever and right-click on emitter"));
 
 <embers:codex>.addTooltip(format.yellow("Informational Book"));
+
+<progressiontweaks:spear>.addTooltip(format.red("Hold Mouse Button To Charge"));
+<progressiontweaks:spear>.addTooltip(format.red("Release to throw"));

@@ -219,7 +219,7 @@ for seed in seeds {
 <ore:barkWood>.add(<roots:bark_dark_oak>);
 <ore:barkWood>.add(<roots:bark_acacia>);
 
-<ore:plankWood>.add(<primal:planks:6>);
+<ore:plankWood>.add(<primal:planks:0>);
 
 <ore:shears>.add(<minecraft:shears>);
 <ore:shears>.add(<cyclicmagic:ender_wool>);

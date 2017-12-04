@@ -342,7 +342,13 @@ var shapedRecipes = {
 			[<ore:stoneMarble>, null, null]
 		]
 	],
-
+	<astralsorcery:itemjournal> : [
+		[
+			[null, <astralsorcery:itemcraftingcomponent:5>, null],
+			[<astralsorcery:itemcraftingcomponent>, <minecraft:book>, <astralsorcery:itemcraftingcomponent>],
+			[null, <astralsorcery:itemcraftingcomponent>, null]
+		]
+	],
 	//Weirding Gadget
 	<weirdinggadget:weirding_gadget> : [
 		[

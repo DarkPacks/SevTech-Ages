@@ -1,4 +1,4 @@
-//Stop Chisel Blocks from becoming the 
+//Stop Chisel Blocks from becoming the
 //chosen block for mods when processing
 
 import crafttweaker.item.IItemStack;
@@ -50,12 +50,12 @@ var oreDictChiselPairCounts = {
 	<chisel:blocktin> : 7
 } as int[IItemStack];
 
-for key in oreDictChiselPairs {
-	//key (the chiselBlock) to reference the count in the map
-	var count = oreDictChiselPairCounts[key];
+for chiselBlock, oreDict in oreDictChiselPairs {
+	//use chiselBlock to reference the count in the map
+	var count = oreDictChiselPairCounts[chiselBlock];
 
 	for i in 0 to count {
-		var chiselBlock = key.definition.makeStack(i);
-		oreDictChiselPairs[key].remove(chiselBlock);
+		var chiselBlockItem = chiselBlock.definition.makeStack(i);
+		oreDict.remove(chiselBlockItem);
 	}
 }

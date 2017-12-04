@@ -46,7 +46,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapedRecipes = {
 	<betterbuilderswands:wandunbreakable> : [
-		[[null, null, <minecraft:nether_star>], [null, <ore:logWood>, null], [<ore:logWood>, null, null]]
+		[[null, null, <minecraft:nether_star>], [null, log, null], [log, null, null]]
 	],
 	<prospectors:prospector_best> : [
 		[[null, <minecraft:diamond>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:diamond>], [<minecraft:blaze_rod>, null, null]]

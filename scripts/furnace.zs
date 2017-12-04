@@ -50,4 +50,4 @@ for items in recipesToAdd {
 
 //furnace.remove(<exsartagine:breadfine>);
 //furnace.remove(<rockhounding_oretiers:tiers_items:5>);
-//furnace.addRecipe(<rockhounding_oretiers:tiers_items:4> ,<ore:logWood>);
+//furnace.addRecipe(<rockhounding_oretiers:tiers_items:4>, log);

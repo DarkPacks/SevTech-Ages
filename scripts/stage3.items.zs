@@ -60,7 +60,7 @@ var stage3Items = [
 	<minecraft:ender_chest>,
 	<prospectors:prospector_med>,
 
-	//Ore 
+	//Ore
 	<immersiveengineering:ore:1>,
 	<immersiveengineering:ore:2>,
 	<immersiveengineering:ore:3>,
@@ -74,7 +74,7 @@ var stage3Items = [
 	<immersiveengineering:metal:36>,
 	<immersiveengineering:metal:37>,
 
-	//Nether 
+	//Nether
 	<minecraft:blaze_powder>,
 	<minecraft:blaze_rod>,
 	<minecraft:brewing_stand>,
@@ -106,7 +106,7 @@ var stage3Items = [
 	<primal:quartz_shovel>,
 	<primal:quartz_workblade>,
 
-	//Chisel 
+	//Chisel
 	<chisel:blockaluminum:*>,
 	<chisel:blockcobalt:*>,
 	<chisel:blockelectrum:*>,
@@ -138,7 +138,7 @@ var stage3Items = [
 	<chisel:voidstone:*>,
 	<chisel:voidstonerunic:*>,
 
-	//Redstone 
+	//Redstone
 	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone", Amount: 1000}}),
 	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone_alloy", Amount: 1000}}),
 	<cyclicmagic:builder_block>,
@@ -342,7 +342,7 @@ var stage3Items = [
 	<rustic:elixir>,
 	<rustic:fluid_bottle>,
 
-	//Rails 
+	//Rails
 	<betterwithmods:booster>,
 	<minecraft:activator_rail>,
 	<minecraft:detector_rail>,
@@ -410,28 +410,16 @@ var stage3Items = [
 	<embers:hoe_lead>,
 	<embers:hoe_nickel>,
 	<embers:hoe_silver>,
-	<embers:ingot_aluminum>,
-	<embers:ingot_lead>,
-	<embers:ingot_nickel>,
-	<embers:ingot_silver>,
 	<embers:item_dropper>,
 	<embers:item_pipe>,
 	<embers:item_pump>,
 	<embers:large_tank>,
-	<embers:nugget_aluminum>,
-	<embers:nugget_lead>,
-	<embers:nugget_nickel>,
-	<embers:nugget_silver>,
 	<embers:ore_quartz>,
 	<embers:pickaxe_aluminum>,
 	<embers:pickaxe_lead>,
 	<embers:pickaxe_nickel>,
 	<embers:pickaxe_silver>,
 	<embers:pipe>,
-	<embers:plate_aluminum>,
-	<embers:plate_lead>,
-	<embers:plate_nickel>,
-	<embers:plate_silver>,
 	<embers:pump>,
 	<embers:seed:3>,
 	<embers:seed:4>,
@@ -850,9 +838,7 @@ var stage3Items = [
 	<spartanshields:shield_basic_lead>,
 	<spartanshields:shield_basic_invar>,
 
-
 	//Modular Machinery
-	<modularmachinery:itemmodularium>,
 	<modularmachinery:blockcasing>,
 	<modularmachinery:blockcontroller>,
 	<modularmachinery:blockcasing:1>,

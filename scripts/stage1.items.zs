@@ -31,7 +31,7 @@ var stage1Items = [
 	<rustic:book>,
 	<teslacorelib:gear_stone>,
 
-	//Ore 
+	//Ore
 	<abyssalcraft:abycopore>,
 	<abyssalcraft:abytinore>,
 	<actuallyadditions:block_misc:3>,
@@ -41,7 +41,7 @@ var stage1Items = [
 	//Plate
 	<immersiveengineering:metal:30>,
 
-	//Bricks 
+	//Bricks
 	<betterwithaddons:bricks_stained:*>,
 	<betterwithaddons:material:*>,
 	<minecraft:brick_block>,
@@ -206,7 +206,7 @@ var stage1Items = [
 	<minecraft:wooden_hoe>,
 	<primal:flint_hoe>,
 
-	//Chisel 
+	//Chisel
 	<chisel:andesite1:*>,
 	<chisel:andesite2:*>,
 	<chisel:andesite:*>,
@@ -342,7 +342,7 @@ var stage1Items = [
 	<chisel:temple:*>,
 	<chisel:templemossy:*>,
 
-	//Rustic 
+	//Rustic
 	<rustic:andesite_pillar>,
 	<rustic:barrel>,
 	<rustic:cabinet>,
@@ -517,7 +517,7 @@ var stage1Items = [
 	<tconstruct:slime_boots:4>,
 	<tconstruct:slime_boots>,
 
-	//Embers 
+	//Embers
 	<embers:archaic_circuit>,
 	<embers:archaic_edge>,
 	<embers:archaic_light>,
@@ -546,13 +546,11 @@ var stage1Items = [
 	<embers:hoe_copper>,
 	<embers:hoe_tin>,
 	<embers:ingot_bronze>,
-	<embers:ingot_copper>,
 	<embers:ingot_tin>,
 	<embers:mech_accessor>,
 	<embers:mech_core>,
 	<embers:mixer>,
 	<embers:nugget_bronze>,
-	<embers:nugget_copper>,
 	<embers:nugget_tin>,
 	<embers:ore_tin>,
 	<embers:pickaxe_bronze>,
@@ -561,7 +559,6 @@ var stage1Items = [
 	<embers:plate_bronze>,
 	<embers:plate_caminite>,
 	<embers:plate_caminite_raw>,
-	<embers:plate_copper>,
 	<embers:plate_tin>,
 	<embers:shard_ember>,
 	<embers:shovel_bronze>,

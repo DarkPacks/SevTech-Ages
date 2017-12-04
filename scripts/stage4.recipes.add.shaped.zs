@@ -49,7 +49,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapedRecipes = {
 	<betterbuilderswands:wanddiamond> : [
-		[[null, null, <minecraft:diamond>], [null, <ore:logWood>, null], [<ore:logWood>, null, null]]
+		[[null, null, <minecraft:diamond>], [null, log, null], [log, null, null]]
 	],
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]

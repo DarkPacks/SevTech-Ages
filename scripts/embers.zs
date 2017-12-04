@@ -17,3 +17,4 @@ mods.embers.DawnstoneAnvil.add([<immersiveengineering:metal:39>], <minecraft:iro
 mods.embers.DawnstoneAnvil.add([<contenttweaker:material_part:55> * 2], <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>);
 mods.embers.DawnstoneAnvil.add([<contenttweaker:material_part:55>], <ore:ingotRedstoneAlloy>, null);
 
+

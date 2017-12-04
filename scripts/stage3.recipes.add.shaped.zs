@@ -154,6 +154,69 @@ var shapedRecipes = {
 	<storagedrawers:controllerslave> : [
 		[[<ore:platePlatinum>, <ore:plateRedstoneAlloy>, <ore:platePlatinum>], [ip, <ore:drawerTrim>, ip], [<ore:platePlatinum>, <immersiveengineering:metal_decoration0:3>, <ore:platePlatinum>]]
 	],
+
+	//Natura
+	<natura:netherrack_furnace> : [
+		[[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
+		[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>], 
+		[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]]
+	],
+
+	//Steve's Carts
+	<stevescarts:blockcartassembler> : [
+		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>], 
+		[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>], 
+		[lp, <ironchest:iron_chest:1>, lp]]
+	],
+
+
+	//Modular Machinery 
+
+	<modularmachinery:blockcontroller> : [
+		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>], 
+		[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>], 
+		[<contenttweaker:material_part:71>, <immersiveengineering:material:27>, <contenttweaker:material_part:71>]]
+	],
+
+	<modularmachinery:blockcasing> : [
+		[[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>], 
+		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>], 
+		[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>]]
+	],
+
+	<modularmachinery:blockcasing:1> : [
+		[[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>], 
+		[<minecraft:iron_bars>, null, <minecraft:iron_bars>], 
+		[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>]]
+	],
+
+	<modularmachinery:blockoutputbus:1> : [
+		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>], 
+		[null, <modularmachinery:blockcasing>, null], 
+		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+	],
+
+	<modularmachinery:blockinputbus:1> : [
+		[[<contenttweaker:material_part:71>, <minecraft:hopper>, <contenttweaker:material_part:71>], 
+		[null, <modularmachinery:blockcasing>, null], 
+		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+	],
+
+
+	<modularmachinery:blockfluidinputhatch> : [
+		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>], 
+		[null, <immersiveengineering:metal_device0:4>, null], 
+		[<contenttweaker:material_part:71>, <immersiveengineering:metal_device0:4>, <contenttweaker:material_part:71>]]
+	],
+
+
+	<modularmachinery:blockenergyinputhatch> : [
+		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>], 
+		[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>], 
+		[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>]]
+	]
+
+
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {
@@ -210,9 +273,3 @@ mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalcluster2:
 mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalfragment:*>);
 mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:transmutator>);
 mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:transmutationgem>);
-
-//Steve's Carts
-recipes.remove(<stevescarts:blockcartassembler>);
-recipes.remove(<stevescarts:modulecomponents:9>);
-//mods.recipestages.Recipes.addShaped("three", <stevescarts:blockcartassembler>, [<primal:nether_cordage>, <primal:nether_cordage>, <primal:nether_cordage>]);
-//mods.recipestages.Recipes.addShaped("three", <stevescarts:modulecomponents:9>, [<primal:nether_cordage>, <primal:nether_cordage>, <primal:nether_cordage>]);

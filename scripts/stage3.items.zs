@@ -838,9 +838,7 @@ var stage3Items = [
 	<spartanshields:shield_basic_lead>,
 	<spartanshields:shield_basic_invar>,
 
-
 	//Modular Machinery
-	<modularmachinery:itemmodularium>,
 	<modularmachinery:blockcasing>,
 	<modularmachinery:blockcontroller>,
 	<modularmachinery:blockcasing:1>,

@@ -197,6 +197,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	modularium: {
+		block: null,
+		dust: null,
+		gear: <materialpart:modularium:gear>.getItemStack(),
+		ingot: <modularmachinery:itemmodularium>,
+		liquid: <liquid:modularium>,
+		nugget: null,
+		plate: <materialpart:modularium:plate>.getItemStack(),
+		rod: <materialpart:modularium:rod>.getItemStack()
+	},
 	nickel: {
 		block: <immersiveengineering:storage:4>,
 		dust: <immersiveengineering:metal:13>,

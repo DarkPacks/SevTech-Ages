@@ -20,6 +20,7 @@ var metalStages = {
 	knightslime: "",
 	lead: "three",
 	manyullyn: "",
+	modularium: "three",
 	nickel: "",
 	pigiron: "",
 	platinum: "three",

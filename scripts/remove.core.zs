@@ -46,7 +46,7 @@ for id in modIDs2 {
     }
 }
 
-recipes.remove(<ore:plankWood>);
+recipes.remove(plank);
 recipes.remove(<ore:stickWood>);
 
 //Compressed

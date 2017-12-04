@@ -49,9 +49,9 @@ var shapedRecipes = {
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[
-			[ip, <contenttweaker:material_part:55>, ip],
+			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate],
 			[<contenttweaker:material_part:55>, <immersiveengineering:material:26>, <contenttweaker:material_part:55>],
-			[ip, <contenttweaker:material_part:55>, ip]
+			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate]
 		]
 	],
 	<immersiveengineering:tool:1> : [
@@ -63,157 +63,187 @@ var shapedRecipes = {
 
 	//Embers Stage 3
 	<embers:axe_aluminum> : [
-		[[ap, ap, null], [ap, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_lead> : [
-		[[lp, lp, null], [lp, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, null], [metals.lead.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_nickel> : [
-		[[np, np, null], [np, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, null], [metals.nickel.plate, stick, null], [null, stick, null]]
 	],
 	<embers:axe_silver> : [
-		[[sip, sip, null], [sip, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, null], [metals.silver.plate, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_aluminum> : [
-		[[ap, ap, null], [null, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_lead> : [
-		[[lp, lp, null], [null, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_nickel> : [
-		[[np, np, null], [null, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:hoe_silver> : [
-		[[sip, sip, null], [null, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_aluminum> : [
-		[[ap, ap, ap], [null, stick, null], [null, stick, null]]
+		[[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_lead> : [
-		[[lp, lp, lp], [null, stick, null], [null, stick, null]]
+		[[metals.lead.plate, metals.lead.plate, metals.lead.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_nickel> : [
-		[[np, np, np], [null, stick, null], [null, stick, null]]
+		[[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:pickaxe_silver> : [
-		[[sip, sip, sip], [null, stick, null], [null, stick, null]]
+		[[metals.silver.plate, metals.silver.plate, metals.silver.plate], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_aluminum> : [
-		[[null, ap, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_lead> : [
-		[[null, lp, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_nickel> : [
-		[[null, np, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:shovel_silver> : [
-		[[null, sip, null], [null, stick, null], [null, stick, null]]
+		[[null, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
 	],
 	<embers:sword_aluminum> : [
-		[[null, ap, null], [null, ap, null], [null, stick, null]]
+		[[null, metals.aluminum.plate, null], [null, metals.aluminum.plate, null], [null, stick, null]]
 	],
 	<embers:sword_lead> : [
-		[[null, lp, null], [null, lp, null], [null, stick, null]]
+		[[null, metals.lead.plate, null], [null, metals.lead.plate, null], [null, stick, null]]
 	],
 	<embers:sword_nickel> : [
-		[[null, np, null], [null, np, null], [null, stick, null]]
+		[[null, metals.nickel.plate, null], [null, metals.nickel.plate, null], [null, stick, null]]
 	],
 	<embers:sword_silver> : [
-		[[null, sip, null], [null, sip, null], [null, stick, null]]
+		[[null, metals.silver.plate, null], [null, metals.silver.plate, null], [null, stick, null]]
 	],
 
 	//Rails
-	<minecraft:activator_rail>*2 : [
-		[[ip, plank, ip], [ip, <minecraft:redstone_torch>, ip], [ip, plank, ip]]
+	<minecraft:activator_rail> * 2 : [
+		[
+			[metals.iron.plate, plank, metals.iron.plate],
+			[metals.iron.plate, <minecraft:redstone_torch>, metals.iron.plate],
+			[metals.iron.plate, plank, metals.iron.plate]
+		]
 	],
-	<minecraft:detector_rail>*2 : [
-		[[ip, <minecraft:redstone>, ip], [ip, <minecraft:light_weighted_pressure_plate>, ip], [ip, <minecraft:redstone>, ip]]
+	<minecraft:detector_rail> * 2 : [
+		[
+			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:light_weighted_pressure_plate>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate]
+		]
 	],
-	<minecraft:golden_rail>*4 : [
-		[[gp, <minecraft:redstone>, gp], [gp, plank, gp], [gp, <minecraft:redstone>, gp]]
+	<minecraft:golden_rail> * 4 : [
+		[[metals.gold.plate, <minecraft:redstone>, metals.gold.plate], [metals.gold.plate, plank, metals.gold.plate], [metals.gold.plate, <minecraft:redstone>, metals.gold.plate]]
 	],
-	<minecraft:rail>*8 : [
-		[[ip, plank, ip], [ip, plank, ip], [ip, plank, ip]]
+	<minecraft:rail> * 8 : [
+		[[metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate]]
 	],
-	<tconstruct:wood_rail>*8 : [
+	<tconstruct:wood_rail> * 8 : [
 		[[<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>]]
 	],
 
 	//Storage Drawers
 	<storagedrawers:compdrawers> : [
-		[[ip, <ore:platePlatinum>, ip], [<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>], [ip, <astralsorcery:itemcraftingcomponent:1>, ip]]
+		[
+			[metals.iron.plate, metals.platinum.plate, metals.iron.plate],
+			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
+			[metals.iron.plate, <astralsorcery:itemcraftingcomponent:1>, metals.iron.plate]
+		]
 	],
 	<storagedrawers:controller> : [
 		[
-			[<ore:platePlatinum>, <nex:block_amethyst>, <ore:platePlatinum>],
+			[metals.platinum.plate, <nex:block_amethyst>, metals.platinum.plate],
 			[<immersiveengineering:metal_decoration0:3>, <ore:drawerTrim>, <immersiveengineering:metal_decoration0:3>],
-			[<ore:platePlatinum>, <astralsorcery:itemcraftingcomponent:1>, <ore:platePlatinum>]
+			[metals.platinum.plate, <astralsorcery:itemcraftingcomponent:1>, metals.platinum.plate]
 		]
 	],
 	<storagedrawers:controllerslave> : [
-		[[<ore:platePlatinum>, <ore:plateRedstoneAlloy>, <ore:platePlatinum>], [ip, <ore:drawerTrim>, ip], [<ore:platePlatinum>, <immersiveengineering:metal_decoration0:3>, <ore:platePlatinum>]]
+		[
+			[metals.platinum.plate, <ore:plateRedstoneAlloy>, metals.platinum.plate],
+			[metals.iron.plate, <ore:drawerTrim>, metals.iron.plate],
+			[metals.platinum.plate, <immersiveengineering:metal_decoration0:3>, metals.platinum.plate]
+		]
 	],
 
 	//Natura
 	<natura:netherrack_furnace> : [
-		[[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
-		[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>], 
+		[[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
+		[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>],
 		[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]]
 	],
 
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
-		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>], 
-		[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>], 
-		[lp, <ironchest:iron_chest:1>, lp]]
+		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>],
+		[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>],
+		[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]]
 	],
 
 
-	//Modular Machinery 
+	//Modular Machinery
 
 	<modularmachinery:blockcontroller> : [
-		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>], 
-		[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>], 
-		[<contenttweaker:material_part:71>, <immersiveengineering:material:27>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
+			[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:material:27>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockcasing> : [
-		[[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>], 
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>], 
-		[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]],
+			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockcasing:1> : [
-		[[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>], 
-		[<minecraft:iron_bars>, null, <minecraft:iron_bars>], 
-		[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockoutputbus:1> : [
-		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>], 
-		[null, <modularmachinery:blockcasing>, null], 
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <modularmachinery:blockcasing>, null],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockinputbus:1> : [
-		[[<contenttweaker:material_part:71>, <minecraft:hopper>, <contenttweaker:material_part:71>], 
-		[null, <modularmachinery:blockcasing>, null], 
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <minecraft:hopper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <modularmachinery:blockcasing>, null],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 
 	<modularmachinery:blockfluidinputhatch> : [
-		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>], 
-		[null, <immersiveengineering:metal_device0:4>, null], 
-		[<contenttweaker:material_part:71>, <immersiveengineering:metal_device0:4>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <immersiveengineering:metal_device0:4>, null],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:metal_device0:4>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 
 	<modularmachinery:blockenergyinputhatch> : [
-		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>], 
-		[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>], 
-		[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
+			[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]]
+		]
 	]
 
 

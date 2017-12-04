@@ -1,3 +1,5 @@
+#priority 900
+
 import crafttweaker.item.IItemStack;
 
 var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
@@ -91,27 +93,6 @@ for seed in seeds {
 <ore:table>.add(<bibliocraft:table:4>);
 <ore:table>.add(<bibliocraft:table:5>);
 
-<ore:dustBrass>.remove(<primal:brass_dust>);
-<ore:ingotBrass>.remove(<primal:brass_ingot>);
-<ore:nuggetBrass>.remove(<primal:brass_nugget>);
-<ore:dustBronze>.remove(<primal:bronze_dust>);
-<ore:ingotBronze>.remove(<primal:bronze_ingot>);
-<ore:nuggetBronze>.remove(<primal:bronze_nugget>);
-<ore:dustCopper>.remove(<primal:copper_dust>);
-<ore:ingotCopper>.remove(<primal:copper_ingot>);
-<ore:nuggetCopper>.remove(<primal:copper_nugget>);
-<ore:dustLead>.remove(<primal:lead_dust>);
-<ore:ingotLead>.remove(<primal:lead_ingot>);
-<ore:nuggetLead>.remove(<primal:lead_nugget>);
-<ore:dustPigiron>.remove(<primal:pigiron_dust>);
-<ore:ingotPigiron>.remove(<primal:pigiron_ingot>);
-<ore:nuggetPigiron>.remove(<primal:pigiron_nugget>);
-<ore:dustSilver>.remove(<primal:silver_dust>);
-<ore:ingotSilver>.remove(<primal:silver_ingot>);
-<ore:nuggetSilver>.remove(<primal:silver_nugget>);
-<ore:dustTin>.remove(<primal:tin_dust>);
-<ore:ingotTin>.remove(<primal:tin_ingot>);
-<ore:nuggetTin>.remove(<primal:tin_nugget>);
 <ore:dustVanadium>.remove(<primal:vanadium_dust>);
 <ore:ingotVanadium>.remove(<primal:vanadium_ingot>);
 <ore:nuggetVanadium>.remove(<primal:vanadium_nugget>);
@@ -121,67 +102,16 @@ for seed in seeds {
 <ore:dustZinc>.remove(<primal:zinc_dust>);
 <ore:ingotZinc>.remove(<primal:zinc_ingot>);
 <ore:nuggetZinc>.remove(<primal:zinc_nugget>);
-<ore:ingotSteel>.remove(<primal:steel_ingot>);
 <ore:ingotTamahagane>.remove(<primal:tamahagane_ingot>);
-<ore:dustIron>.remove(<primal:iron_dust>);
 
-<ore:plateIron>.remove(<primal:iron_plate>);
-<ore:plateGold>.remove(<primal:gold_plate>);
-<ore:platePigiron>.remove(<primal:pigiron_plate>);
-<ore:plateSilver>.remove(<primal:silver_plate>);
 <ore:plateZinc>.remove(<primal:zinc_plate>);
-<ore:plateBrass>.remove(<primal:brass_plate>);
 
-<ore:plateSteel>.remove(<nuclearphysics:plate_steel>);
-<ore:plateBronze>.remove(<nuclearphysics:plate_bronze>);
-
-<ore:ingotCopper>.remove(<factorytech:ingot>);
-<ore:ingotNickel>.remove(<factorytech:ingot:1>);
 <ore:ingotInvar>.remove(<factorytech:ingot:3>);
 
-<ore:dustIron>.remove(<actuallyadditions:item_dust>);
-<ore:dustGold>.remove(<actuallyadditions:item_dust:1>);
-
-<ore:dustIron>.remove(<libvulpes:productdust:1>);
-<ore:dustGold>.remove(<libvulpes:productdust:2>);
-<ore:dustCopper>.remove(<libvulpes:productdust:4>);
-<ore:dustTin>.remove(<libvulpes:productdust:5>);
-<ore:dustSteel>.remove(<libvulpes:productdust:6>);
-<ore:dustAluminum>.remove(<libvulpes:productdust:9>);
-<ore:plateIron>.remove(<libvulpes:productplate:1>);
-<ore:plateGold>.remove(<libvulpes:productplate:2>);
-<ore:plateCopper>.remove(<libvulpes:productplate:4>);
-<ore:plateTin>.remove(<libvulpes:productplate:5>);
-<ore:plateSteel>.remove(<libvulpes:productplate:6>);
-<ore:plateAluminum>.remove(<libvulpes:productplate:9>);
-<ore:rodIron>.remove(<libvulpes:productrod:1>);
-<ore:rodCopper>.remove(<libvulpes:productrod:4>);
-<ore:rodSteel>.remove(<libvulpes:productrod:6>);
-<ore:blockCopper>.remove(<libvulpes:metal0:4>);
-<ore:blockTin>.remove(<libvulpes:metal0:5>);
-<ore:blockSteel>.remove(<libvulpes:metal0:6>);
-<ore:blockAluminum>.remove(<libvulpes:metal0:9>);
-
-<ore:plateBronze>.remove(<embers:plate_bronze>);
-
 <ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
-<ore:nuggetTin>.remove(<embers:nugget_tin>);
-<ore:nuggetNickel>.remove(<embers:nugget_nickel>);
-<ore:nuggetBronze>.remove(<embers:nugget_bronze>);
-<ore:nuggetAluminum>.remove(<embers:nugget_aluminum>);
-<ore:nuggetDawnstone>.remove(<embers:nugget_dawnstone>);
-<ore:nuggetCopper>.remove(<embers:nugget_copper>);
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
-<ore:nuggetPigiron>.remove(<tconstruct:nuggets:4>);
-<ore:nuggetKnightslime>.remove(<tconstruct:nuggets:3>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
 <ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
-<ore:nuggetIron>.remove(<immersiveengineering:metal:29>);
-<ore:nuggetUranium>.remove(<immersiveengineering:metal:25>);
-<ore:nuggetSilver>.remove(<embers:nugget_silver>);
-<ore:nuggetLead>.remove(<embers:nugget_lead>);
-<ore:nuggetAluminum>.remove(<immersiveengineering:metal:21>);
-<ore:nuggetCopper>.remove(<immersiveengineering:metal:20>);
 
 //Knightminer made me do it! XD
 <ore:knightTorch>.add(<minecraft:torch>);
@@ -232,51 +162,12 @@ for seed in seeds {
 //Unregister Extra items
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 
-<ore:ingotCopper>.remove(<abyssalcraft:copperingot>);
-<ore:ingotTin>.remove(<abyssalcraft:tiningot>);
-
-<ore:plateLead>.remove(<primal:lead_plate>);
-<ore:plateTin>.remove(<primal:tin_plate>);
-
-<ore:plateCopper>.remove(<contenttweaker:material_part:1>);
-<ore:plateCopper>.remove(<primal:copper_plate>);
-
-<ore:plateBronze>.remove(<primal:bronze_plate>);
-
-<ore:blockBronze>.remove(<embers:block_bronze>);
-
-<ore:ingotCopper>.remove(<embers:ingot_copper>);
-<ore:blockCopper>.remove(<embers:block_copper>);
-
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
 
-<ore:ingotAluminum>.remove(<embers:ingot_aluminum>);
-<ore:plateAluminum>.remove(<embers:plate_aluminum>);
-<ore:ingotNickel>.remove(<embers:ingot_nickel>);
-<ore:plateNickel>.remove(<embers:plate_nickel>);
-<ore:ingotCopper>.remove(<embers:ingot_copper>);
-<ore:ingotLead>.remove(<embers:ingot_lead>);
-<ore:ingotSilver>.remove(<embers:ingot_silver>);
-<ore:plateCopper>.remove(<embers:plate_copper>);
-<ore:plateLead>.remove(<embers:plate_lead>);
-<ore:plateSilver>.remove(<embers:plate_silver>);
-<ore:plateIron>.remove(<embers:plate_iron>);
-<ore:plateGold>.remove(<embers:plate_gold>);
-
-<ore:gearGold>.remove(<teslacorelib:gear_gold>);
-<ore:gearIron>.remove(<teslacorelib:gear_iron>);
 <ore:gearWood>.remove(<teslacorelib:gear_wood>);
 
-<ore:nuggetCopper>.remove(<factorytech:ore_dust:4>);
-<ore:nuggetNickel>.remove(<factorytech:ore_dust:5>);
-<ore:blockNickel>.remove(<factorytech:oreblock:1>);
-<ore:blockCopper>.remove(<factorytech:oreblock>);
-<ore:dustNickel>.remove(<factorytech:ore_dust:9>);
-<ore:dustIron>.remove(<factorytech:ore_dust:6>);
-<ore:dustCopper>.remove(<factorytech:ore_dust:8>);
-<ore:dustGold>.remove(<factorytech:ore_dust:7>);
 <ore:oreNickel>.remove(<factorytech:ore:1>);
 <ore:oreCopper>.remove(<factorytech:ore>);
 

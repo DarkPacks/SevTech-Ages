@@ -1,3 +1,4 @@
+#priority 1000
 #loader contenttweaker
 //////////
 // Calls

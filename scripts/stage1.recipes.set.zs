@@ -391,7 +391,6 @@ for item in itemsForStage {
 //Off and still need recipes for this stage
 //
 ////
-var plank = <ore:plankWood>; //Temp until a home is found for buttons
 
 //buttons
 mods.recipestages.Recipes.setRecipeStage("one", <minecraft:stone_button>);

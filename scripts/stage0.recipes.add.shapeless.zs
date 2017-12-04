@@ -24,9 +24,6 @@ var shapelessRecipes = {
 	<actuallyadditions:item_coffee_seed> : [
 		[<actuallyadditions:item_coffee_beans>]
 	],
-	<actuallyadditions:item_rice_seed> : [
-		[<actuallyadditions:item_food:16>]
-	],
 	<minecraft:farmland> : [
 		[<minecraft:dirt>, <minecraft:dye:15>]
 	],

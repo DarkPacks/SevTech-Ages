@@ -17,4 +17,5 @@ criteria2.setItem("primal:salt_dust_fire")
 criteria3.setItem("primal:salt_dust_netjry")
 criteria4.setItem("primal:salt_dust_rock")
 
+setRequirements("any")
 setRewardExperience(4)

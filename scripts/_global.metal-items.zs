@@ -237,6 +237,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <materialpart:platinum:plate>.getItemStack(),
 		rod: <materialpart:platinum:rod>.getItemStack()
 	},
+	redstoneAlloy: {
+		block: <materialpart:redstone_alloy:block>.getItemStack(),
+		dust: null,
+		gear: <materialpart:redstone_alloy:gear>.getItemStack(),
+		ingot: <materialpart:redstone_alloy:ingot>.getItemStack(),
+		liquid: <liquid:redstone_alloy>,
+		nugget: null,
+		plate: <materialpart:redstone_alloy:plate>.getItemStack(),
+		rod: <materialpart:redstone_alloy:rod>.getItemStack()
+	},
 	refinedCoralium: {
 		block: <abyssalcraft:ingotblock:1>,
 		dust: <acintegration:dust:1>,

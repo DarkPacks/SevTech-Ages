@@ -215,6 +215,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:platePlatinum>,
 		rod: <ore:rodPlatinum>
 	},
+	redstoneAlloy: {
+		block: <ore:blockRedstoneAlloy>,
+		dust: null,
+		gear: <ore:gearRedstoneAlloy>,
+		ingot: <ore:ingotRedstoneAlloy>,
+		nugget: null,
+		plate: <ore:plateRedstoneAlloy>,
+		rod: <ore:rodRedstoneAlloy>
+	},
 	refinedCoralium: {
 		block: <ore:blockLiquifiedCoralium>,
 		dust: <ore:dustLiquifiedCoralium>,

@@ -25,6 +25,15 @@
       "listAllveggie"
     ],
     "items": [
+      "betterwithaddons:food_amanita_baked",
+      "betterwithaddons:food_beetroot_baked",
+      "betterwithaddons:food_beetroot_cooked",
+      "betterwithaddons:food_carrot_baked",
+      "betterwithaddons:food_carrot_cooked",
+      "betterwithaddons:food_mushroom_baked",
+      "betterwithaddons:food_pie_amanita",
+      "betterwithaddons:food_pie_mushroom",
+      "betterwithaddons:food_potato_cooked",
       "betterwithmods:beef_dinner",
       "betterwithmods:beef_potatoes",
       "betterwithmods:chicken_soup",
@@ -310,6 +319,7 @@
       "plants:okra",
       "plants:plantago_m",
       "plants:saffron",
+      "primal:nether_wart_cooked",
       "roots:aubergine_item",
       "rustic:chili_pepper",
       "rustic:cloudsbluff",
@@ -321,15 +331,11 @@
       "simplytea:cup_tea_black:1",
       "simplytea:cup_tea_green:0",
       "simplytea:cup_tea_green:1",
-      "betterwithaddons:food_carrot_baked",
-      "betterwithaddons:food_beetroot_baked",
-      "betterwithaddons:food_potato_cooked",
-      "betterwithaddons:food_carrot_cooked",
-      "thebetweenlands:marshmallow_pink",
+      "thebetweenlands:fried_swamp_kelp",
       "thebetweenlands:marshmallow",
+      "thebetweenlands:marshmallow_pink",
       "thebetweenlands:nettle_soup",
-      "thebetweenlands:weeping_blue_petal",
-      "thebetweenlands:fried_swamp_kelp"
+      "thebetweenlands:weeping_blue_petal"
     ]
   }
 }

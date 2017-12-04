@@ -5,7 +5,6 @@ var STAGE = STAGES.two;
 
 //Entire Mods into Stage two
 var modIDs = [
-	"astralsorcery",
 	"farmingforblockheads",
 	"uppers"
 ] as string[];

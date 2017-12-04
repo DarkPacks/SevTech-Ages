@@ -17,7 +17,7 @@
 
 
 
-//Ores
+//Ores 
 recipes.remove(<minecraft:iron_ingot>);
 recipes.remove(<minecraft:gold_ingot>);
 recipes.remove(<minecraft:brick>);
@@ -117,7 +117,7 @@ recipes.addShaped(<primal_tech:bone_shears>, [[<minecraft:bone>, null], [cordage
 recipes.addShapeless(<primal:plant_cordage>, [<primal:plant_fiber>, <primal:plant_fiber>, <primal:plant_fiber>]);
 
 
-//AbyssalCraft
+//AbyssalCraft 
 
 
 
@@ -190,7 +190,7 @@ recipes.addShaped(<primal:thatching_wet> * 4, [[<ore:thatchingMaterialBasic>, <o
 
 
 
-//Wooden Hooper
+//Wooden Hooper 
 recipes.remove(<wopper:wopper>);
 recipes.remove(<primal_tech:wooden_hopper>);
 recipes.addShaped(<wopper:wopper>, [[<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <immcraft:chest>, <ore:plankWood>], [null, <ore:plankWood>, null]]);
@@ -310,11 +310,11 @@ recipes.addShaped(<betterwithmods:material:9>, [[null, <ore:cordageLeather>, nul
 recipes.addShaped(<actuallyadditions:item_misc:12>, [[null, <actuallyadditions:item_misc:9>, null], [<actuallyadditions:item_misc:9>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>], [null, <actuallyadditions:item_misc:9>, null]]);
 recipes.addShaped(<actuallyadditions:item_misc:12>, [[null, <actuallyadditions:item_misc:9>, null], [<actuallyadditions:item_misc:9>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>], [null, <actuallyadditions:item_misc:9>, null]]);
 
-//Horse Cart
+//Horse Cart 
 recipes.addShaped(<astikoor:cargocart>, [[<ore:plankWood>, null, <ore:plankWood>], [<primalchests:primal_chest_advanced>, plank, <primalchests:primal_chest_advanced>], [<astikoor:wheel>, <ore:slabWood>, <astikoor:wheel>]]);
 recipes.addShaped(<astikoor:wheel>, [[stick, stick, stick], [stick, plank, stick], [stick, stick, stick]]);
 recipes.addShaped(<astikoor:plowcart>, [[null, null, null], [stick, stick, stick], [<astikoor:wheel>, <astikoor:wheel>, <minecraft:stone>]]);
 
-//Teacup uses porcelain
+//Teacup uses porcelain 
 recipes.remove(<simplytea:cup>);
  recipes.addShaped(<simplytea:cup>, [[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [null, <ceramics:unfired_clay:5>, null]]);

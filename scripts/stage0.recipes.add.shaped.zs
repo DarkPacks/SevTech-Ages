@@ -180,7 +180,7 @@ var shapedRecipes = {
 		[[<primal:pelt_wolf>, <primal:pelt_wolf>, <primal:pelt_wolf>], [<primal:pelt_wolf>, null, <primal:pelt_wolf>], [<primal:pelt_wolf>, null, <primal:pelt_wolf>]]
 	],
 	<primal:slab_ironwood> * 3 : [
-		[[<primal:planks:6>, <primal:planks:6>, <primal:planks:6>]]
+		[[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]]
 	],
 	<primal:slat_acacia> : [
 		[

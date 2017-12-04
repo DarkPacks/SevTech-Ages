@@ -189,47 +189,61 @@ var shapedRecipes = {
 	//Modular Machinery
 
 	<modularmachinery:blockcontroller> : [
-		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>],
-		[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>],
-		[<contenttweaker:material_part:71>, <immersiveengineering:material:27>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
+			[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:material:27>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockcasing> : [
-		[[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>],
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>],
-		[<contenttweaker:material_part:71>, <contenttweaker:material_part:71>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]],
+			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockcasing:1> : [
-		[[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>],
-		[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
-		[<contenttweaker:material_part:71>, <minecraft:iron_bars>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockoutputbus:1> : [
-		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>],
-		[null, <modularmachinery:blockcasing>, null],
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <modularmachinery:blockcasing>, null],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 	<modularmachinery:blockinputbus:1> : [
-		[[<contenttweaker:material_part:71>, <minecraft:hopper>, <contenttweaker:material_part:71>],
-		[null, <modularmachinery:blockcasing>, null],
-		[<contenttweaker:material_part:71>, null, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <minecraft:hopper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <modularmachinery:blockcasing>, null],
+			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 
 	<modularmachinery:blockfluidinputhatch> : [
-		[[<contenttweaker:material_part:71>, <uppers:upper>, <contenttweaker:material_part:71>],
-		[null, <immersiveengineering:metal_device0:4>, null],
-		[<contenttweaker:material_part:71>, <immersiveengineering:metal_device0:4>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[null, <immersiveengineering:metal_device0:4>, null],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:metal_device0:4>, metalItems.modularium.plate.itemArray[0]]
+		]
 	],
 
 
 	<modularmachinery:blockenergyinputhatch> : [
-		[[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>],
-		[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>],
-		[<contenttweaker:material_part:71>, <immersiveengineering:wirecoil>, <contenttweaker:material_part:71>]]
+		[
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
+			[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>],
+			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]]
+		]
 	]
 
 

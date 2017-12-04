@@ -166,7 +166,7 @@ mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_lead>, <spar
 //mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_invar>, <spartanshields:shield_basic_wood>, <liquid:invar>, 576, true);
 
 //Modularium
-mods.tconstruct.Alloy.addRecipe(<liquid:modularium> * 288, [<liquid:redstone> * 100, <liquid:iron>* 144, <liquid:dawnstone> * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:iron>* 144, <liquid:dawnstone> * 144]);
 //ingot, plate, gear, block
 mods.tconstruct.Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, 144, false);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:71>, <tconstruct:cast_custom:3>, <liquid:modularium>, 144, false);
@@ -174,8 +174,8 @@ mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:70>, <tcons
 //mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:sub_block_holder_0:1>, null, <liquid:modularium>, 1296, false);
 
 //ingot, plate, gear, rod
-mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <modularmachinery:itemmodularium>);
-mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <contenttweaker:material_part:71>);
-mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 576, <contenttweaker:material_part:70>);
-mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 144, <contenttweaker:material_part:74>);
-//mods.tconstruct.Melting.addRecipe(<liquid:modularium> * 1296, <contenttweaker:sub_block_holder_0:2>);
+mods.tconstruct.Melting.addRecipe(metalItems.modularium.liquid.liquids[0] * 144, metalItems.modularium.ingot.itemArray[0]);
+mods.tconstruct.Melting.addRecipe(metalItems.modularium.liquid.liquids[0] * 144, metalItems.modularium.plate.itemArray[0]);
+mods.tconstruct.Melting.addRecipe(metalItems.modularium.liquid.liquids[0] * 576, metalItems.modularium.gear.itemArray[0]);
+mods.tconstruct.Melting.addRecipe(metalItems.modularium.liquid.liquids[0] * 144, metalItems.modularium.rod.itemArray[0]);
+//mods.tconstruct.Melting.addRecipe(metalItems.modularium.liquid.liquids[0] * 1296, <contenttweaker:sub_block_holder_0:2>);

@@ -11,13 +11,13 @@ recipes.addShaped(
 	"ct-ironbackpacks-iron-upgrade_spec",
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
 	[
-		[ip, blankBackpackUpgrade, ip],
+		[metals.iron.plate, blankBackpackUpgrade, metals.iron.plate],
 		[
-			ip,
+			metals.iron.plate,
 			<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
-			ip
+			metals.iron.plate
 		],
-		[ip, ip, ip]
+		[metals.iron.plate, metals.iron.plate, metals.iron.plate]
 	],
 
 	//Recipe Function
@@ -42,13 +42,13 @@ recipes.addShaped(
 	"ct-ironbackpacks-iron-storage_spec",
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
 	[
-		[ip, chest, ip],
+		[metals.iron.plate, chest, metals.iron.plate],
 		[
-			ip, //Middle-Left
+			metals.iron.plate, //Middle-Left
 			<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
-			ip //Middle-Right
+			metals.iron.plate //Middle-Right
 		],
-		[ip, ip, ip]
+		[metals.iron.plate, metals.iron.plate, metals.iron.plate]
 	],
 
 	//Recipe Function
@@ -76,13 +76,13 @@ recipes.addShaped(
 	"ct-ironbackpacks-gold-upgrade_spec",
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	[
-		[gp, blankBackpackUpgrade, gp],
+		[metals.gold.plate, blankBackpackUpgrade, metals.gold.plate],
 		[
-			gp,
+			metals.gold.plate,
 			<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "UPGRADE"}}).marked("bag"),
-			gp
+			metals.gold.plate
 		],
-		[gp, gp, gp]
+		[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 	],
 
 	//Recipe Function
@@ -107,13 +107,13 @@ recipes.addShaped(
 	"ct-ironbackpacks-gold-storage_spec",
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
 	[
-		[gp, chest, gp],
+		[metals.gold.plate, chest, metals.gold.plate],
 		[
-			gp, //Middle-Left
+			metals.gold.plate, //Middle-Left
 			<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "STORAGE"}}).marked("bag"),
-			gp //Middle-Right
+			metals.gold.plate //Middle-Right
 		],
-		[gp, gp, gp]
+		[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 	],
 
 	//Recipe Function

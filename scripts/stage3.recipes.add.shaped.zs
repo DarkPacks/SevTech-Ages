@@ -182,7 +182,7 @@ var shapedRecipes = {
 	<stevescarts:blockcartassembler> : [
 		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>],
 		[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>],
-		[lp, <ironchest:iron_chest:1>, lp]]
+		[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]]
 	],
 
 

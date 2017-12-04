@@ -11,7 +11,6 @@ var modIDs = [
 	"environmentaltech",
 	"factorytech",
 	"jp.crafterkina.pipes",
-	"modularmachinery",
 	"modularrouters",
 	"nuclearphysics",
 	"quantumstorage",

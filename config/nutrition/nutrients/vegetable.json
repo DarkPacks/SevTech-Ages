@@ -324,7 +324,12 @@
       "betterwithaddons:food_carrot_baked",
       "betterwithaddons:food_beetroot_baked",
       "betterwithaddons:food_potato_cooked",
-      "betterwithaddons:food_carrot_cooked"
+      "betterwithaddons:food_carrot_cooked",
+      "thebetweenlands:marshmallow_pink",
+      "thebetweenlands:marshmallow",
+      "thebetweenlands:nettle_soup",
+      "thebetweenlands:weeping_blue_petal",
+      "thebetweenlands:fried_swamp_kelp"
     ]
   }
 }

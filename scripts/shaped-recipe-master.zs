@@ -242,6 +242,7 @@ recipes.addShaped(<horsepower:press>, [[<minecraft:lead>, stick, <minecraft:lead
 
 //I'm tired of the annoyance of getting flint and we've changed that! Thanks to BlakeBr0! <3
 recipes.remove(<minecraft:flint>);
+recipes.remove(<pickletweaks:grass_mesh>);
 recipes.addShapeless(<minecraft:flint> * 9, [<betterwithmods:aesthetic:5>]);
 recipes.addShapeless(<minecraft:flint>, [<pickletweaks:grass_mesh:*>, <minecraft:gravel>]);
 recipes.remove(<pickletweaks:mesh>);
@@ -279,25 +280,6 @@ recipes.remove(<betterwithaddons:loom>);
 recipes.addShapeless(<minecraft:string> * 8, [<betterwithaddons:bolt:6>]);
 recipes.addShapeless(str, [<ore:toolWorkBlade>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 recipes.addShaped(<betterwithaddons:loom>, [[plank, plank, plank], [plank, <betterwithmods:material>, plank], [plank, plank, plank]]);
-
-//backpack
-recipes.addShaped(<improvedbackpacks:backpack>, [[leather, leather, leather], [leather, <immcraft:chest>, leather], [leather, <primal:leather_cordage>, leather]]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 0}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:0>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 1}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:1>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 2}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:2>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 3}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:3>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 4}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:4>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 5}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:5>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 6}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:6>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 7}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:7>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 8}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:8>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 9}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:9>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 10}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:10>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 11}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:11>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 12}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:12>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 13}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:13>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 14}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:14>]);
-recipes.addShapeless(<improvedbackpacks:backpack>.withTag({Color: 15}), [<improvedbackpacks:backpack>, <pickletweaks:dye_powder:15>]);
 
 //Useless seeds can now be used!
 recipes.addShaped(<actuallyadditions:item_misc:1>, [[null, null, null], [null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>], [null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>]]);

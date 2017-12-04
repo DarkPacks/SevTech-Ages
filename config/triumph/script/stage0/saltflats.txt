@@ -1,4 +1,4 @@
-setIcon("primal:salt_netjry_dust")
+setIcon("primal:salt_dust_netjry")
 
 setTitle("reSalt of Your Labors")
 
@@ -7,17 +7,14 @@ setDescription("Salt Flats exist in Deserts. Find one and become a salt farmer")
 setParent("triumph:stage0/grill")
 setRequiresParent(true)
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 
-criteria.setItem("primal:salt_void_dust")
-criteria2.setItem("primal:salt_fire_dust")
-criteria3.setItem("primal:salt_netjry_dust")
-criteria4.setItem("primal:salt_halite_dust")
+criteria1.setItem("primal:salt_dust_void")
+criteria2.setItem("primal:salt_dust_fire")
+criteria3.setItem("primal:salt_dust_netjry")
+criteria4.setItem("primal:salt_dust_rock")
 
 setRewardExperience(4)
-
-//By not setting anything about requirements here, all criteria are automatically required
-setRequirements("any")

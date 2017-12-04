@@ -1,15 +1,13 @@
-setIcon("immersiveengineering:wooden_device1", 1)
+setIcon("betterwithmods:bellows")
 
-setTitle("Windmill!")
+setTitle("Bellows")
 
 setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
 
-setParent("triumph:stage3/creosote")
+setParent("triumph:stage3/hibachi")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("immersiveengineering:wooden_device1", 1)
+criteria.setBlock("betterwithmods:bellows")
 
-setRewardExperience(8)
-
-
+setRequirements("any")

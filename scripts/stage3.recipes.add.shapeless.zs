@@ -46,7 +46,7 @@ var shapelessRecipes = {
 	<extendedcrafting:material:15> : [
 		[<primal:golden_stick>, <primal:golden_stick>, <extendedcrafting:material:2>, <extendedcrafting:material:7>]
 	],
-	<extendedcrafting:material:7> : [
+	<extendedcrafting:material:7>*2 : [
 		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]
 	]
 } as IIngredient[][][IItemStack];

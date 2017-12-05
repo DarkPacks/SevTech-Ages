@@ -124,6 +124,20 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			}
 		}
 
+		//Immersive Engineering
+		//mods.immersiveengineering.MetalPress.removeRecipe(output);
+		//mods.mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy, optionalInputSize);
+		if (metalType == "plate") {
+			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold>, 2400);
+		} else if (metalType == "gear") {
+			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold:1>, 2400, 4);
+		} else if (metalType == "rod") {
+			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem * 2, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold:2>, 2400);
+		}
+
 		//TODO: Remove recipes we dont want on the preferredMetalItem
 	}
 

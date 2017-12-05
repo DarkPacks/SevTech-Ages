@@ -147,6 +147,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		if (!metalItem.matches(preferredMetalItem)) {
 			mods.jei.JEI.removeAndHide(metalItem);
 
+			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+
 			if (doFurnace) {
 				furnace.remove(metalItem);
 			}

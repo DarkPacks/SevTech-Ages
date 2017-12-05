@@ -84,7 +84,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 		//Tinker's Construct
 		if (hasLiquid) {
-			var fluidAmount as int = null;
+			var fluidAmount as int = 0;
 
 			if (metalType == "ingot" | metalType == "plate" | metalType == "rod" | metalType == "dust") {
 				fluidAmount = 144;

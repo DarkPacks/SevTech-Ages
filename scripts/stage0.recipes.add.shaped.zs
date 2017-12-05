@@ -36,7 +36,7 @@ var shapedRecipes = {
 			[<betterwithmods:wicker>, <immcraft:chest>, <betterwithmods:wicker>]
 		]
 	],
-	<betterwithaddons:bolt:1> : [
+	<betterwithaddons:bolt:0> : [
 		//Bolts use spindle instead of moulding
 		[
 			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
@@ -44,7 +44,15 @@ var shapedRecipes = {
 			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
 		]
 	],
-	<betterwithaddons:bolt:3> : [
+	<betterwithaddons:bolt:1> : [
+		//Bolts use spindle instead of moulding
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, <betterwithaddons:spindle>, <minecraft:leather>],
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
+		]
+	],
+	<betterwithaddons:bolt:2> : [
 		//Bolts use spindle instead of moulding
 		[
 			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
@@ -305,7 +313,7 @@ for item, recipesForItem in shapedRecipes {
 	}
 }
 
-//Actually Additions 
+//Actually Additions
 /*
 actuallyadditions:item_misc:12
 actuallyadditions:item_misc:9

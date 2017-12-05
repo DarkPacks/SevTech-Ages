@@ -54,6 +54,30 @@ for castCreationRecipe in castCreationRecipes {
 	}
 }
 
+//Spartan Shields
+//As long as the metal is in the metals global stuff, this will work without any modifications
+var shieldMetals = [
+	"bronze",
+	"steel",
+	"copper",
+	"tin",
+	"silver",
+	"platinum",
+	"electrum",
+	"nickel",
+	"iron",
+	"gold",
+	"obsidian",
+	"lead"
+	//"invar"
+] as string[];
+
+for shieldMetal in shieldMetals {
+	var shield as IItemStack[] = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$");
+	var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
+	mods.tconstruct.Casting.addTableRecipe(shield[0], <spartanshields:shield_basic_wood>, liquid, 576, true);
+}
+
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_pane>, null, <liquid:glass>, 500);
 
@@ -109,21 +133,6 @@ mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:25>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:21>);
 mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:20>);
-
-//Spartan Shields
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_bronze>, <spartanshields:shield_basic_wood>, metalItems.bronze.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_steel>, <spartanshields:shield_basic_wood>, metalItems.steel.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_copper>, <spartanshields:shield_basic_wood>, metalItems.copper.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_tin>, <spartanshields:shield_basic_wood>, metalItems.tin.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_silver>, <spartanshields:shield_basic_wood>, metalItems.silver.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_platinum>, <spartanshields:shield_basic_wood>, metalItems.platinum.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_electrum>, <spartanshields:shield_basic_wood>, metalItems.electrum.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_nickel>, <spartanshields:shield_basic_wood>, metalItems.nickel.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_iron>, <spartanshields:shield_basic_wood>, metalItems.iron.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_gold>, <spartanshields:shield_basic_wood>, metalItems.gold.liquid.liquids[0], 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_obsidian>, <spartanshields:shield_basic_wood>, <liquid:obsidian>, 576, true);
-mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_lead>, <spartanshields:shield_basic_wood>, metalItems.lead.liquid.liquids[0], 576, true);
-//mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_invar>, <spartanshields:shield_basic_wood>, <liquid:invar>, 576, true);
 
 //Modularium
 mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);

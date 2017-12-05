@@ -1,4 +1,6 @@
+#priority 100
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 var metalStages = {
@@ -55,7 +57,7 @@ function getPreferredMetalItem(metalName as string, metalType as string) as IIte
 
 function handleMetalItem(metalName as string, metal as IOreDictEntry[string], metalType as string, preferredMetalItem as IItemStack, doFurnace as bool, hasLiquid as bool, metalStages as string[string]) {
 	var hasPreferredItem = preferredMetalItem as bool;
-	var metalLiquid = hasLiquid ? metalItems[metalName].liquid.liquids[0] : null;
+	var metalLiquid as ILiquidStack = hasLiquid ? metalItems[metalName].liquid.liquids[0] : null;
 
 	//Add preferredMetalItem to oreDict if it does not exist already
 	if (hasPreferredItem & !(metal[metalType] in preferredMetalItem)) {
@@ -78,6 +80,48 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 			var stamp as IItemStack = metalType == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
 			mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
+		}
+
+		//Tinker's Construct
+		if (hasLiquid) {
+			var fluidAmount as int = null;
+
+			if (metalType == "ingot" | metalType == "plate" | metalType == "rod" | metalType == "dust") {
+				fluidAmount = 144;
+			} else if (metalType == "block") {
+				fluidAmount = 1296;
+			} else if (metalType == "gear") {
+				fluidAmount = 576;
+			} else if (metalType == "nugget") {
+				fluidAmount = 16;
+			}
+
+			mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
+
+			//Casting
+			if (metalType == "block") {
+				var consumeCast = false;
+
+				mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
+				mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
+			} else {
+				var cast as IItemStack = null;
+				var consumeCast = false;
+
+				if (metalType == "ingot") {
+					cast = <tconstruct:cast_custom>;
+				} else if (metalType == "gear") {
+					cast = <tconstruct:cast_custom:4>;
+				} else if (metalType == "plate") {
+					cast = <tconstruct:cast_custom:3>;
+				} else if (metalType == "nugget") {
+					cast = <tconstruct:cast_custom:1>;
+				}
+
+				mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
+				mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, cast, metalLiquid, fluidAmount, consumeCast);
+			}
 		}
 
 		//TODO: Remove recipes we dont want on the preferredMetalItem

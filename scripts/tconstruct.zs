@@ -82,10 +82,10 @@ mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>)
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
 
 //Redstone Alloy Creation
-mods.tconstruct.Alloy.addRecipe(<liquid:redstone_alloy> * 288, [<liquid:redstone> * 100, <liquid:ftglowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:ftglowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Redstone Alloy Rod
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:material_part:58>, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), <liquid:redstone_alloy>, 144, false);
+mods.tconstruct.Casting.addTableRecipe(metalItems.redstoneAlloy.rod.itemArray[0], <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
 
 //Nugget Removal
 mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_tin>);
@@ -114,4 +114,4 @@ mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_lead>, <spar
 //mods.tconstruct.Casting.addTableRecipe(<spartanshields:shield_basic_invar>, <spartanshields:shield_basic_wood>, <liquid:invar>, 576, true);
 
 //Modularium
-mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:iron>* 144, <liquid:dawnstone> * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);

@@ -77,7 +77,7 @@ var replacementItemsForStage = {
 		[<minecraft:torch:4>, <primal_tech:fibre_torch:4>],
 
 		//Aquamarine ContentTweaker
-		[<materialpart:aquamarine:ore_minecraft_stone>.getItemStack()]
+		[<materialpart:aquamarine:ore_minecraft_stone>]
 	],
 
 	STAGES.two : [

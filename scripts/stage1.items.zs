@@ -581,13 +581,13 @@ var stage1Items = [
 	<embers:wall_caminite_brick>,
 
 	//Content Tweaker
-	<materialpart:aquamarine:ore_minecraft_stone>.getItemStack(),
-	<materialpart:bronze:beam>.getItemStack(),
-	<materialpart:bronze:bolt>.getItemStack(),
-	<materialpart:copper:beam>.getItemStack(),
-	<materialpart:copper:bolt>.getItemStack(),
-	<materialpart:tin:beam>.getItemStack(),
-	<materialpart:tin:bolt>.getItemStack(),
+	<materialpart:aquamarine:ore_minecraft_stone>,
+	<materialpart:bronze:beam>,
+	<materialpart:bronze:bolt>,
+	<materialpart:copper:beam>,
+	<materialpart:copper:bolt>,
+	<materialpart:tin:beam>,
+	<materialpart:tin:bolt>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:*>,

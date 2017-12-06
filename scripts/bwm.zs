@@ -21,7 +21,7 @@ mods.betterwithmods.Mill.add(<horsepower:flour>, null, [<natura:materials>]);
 mods.betterwithmods.Mill.add(<embers:archaic_brick> * 4, null, [<embers:archaic_bricks>]);
 mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:7>, null, [<actuallyadditions:block_misc:3>]);
 mods.betterwithmods.Mill.add(<embers:shard_ember> * 9, null, [<embers:crystal_ember>]);
-mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>.getItemStack()]);
+mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>]);
 
 mods.betterwithmods.Mill.add(<minecraft:flint> * 2, null, [<primal_tech:flint_block>]);
 

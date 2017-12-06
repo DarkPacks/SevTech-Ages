@@ -442,10 +442,10 @@ var stage2Items = [
 	<forge:bucketfilled>.withTag({FluidName: "ender_pearl", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "fiery", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "steeleaf", Amount: 1000}),
-	<materialpart:fiery:beam>.getItemStack(),
-	<materialpart:fiery:bolt>.getItemStack(),
-	<materialpart:steeleaf:beam>.getItemStack(),
-	<materialpart:steeleaf:bolt>.getItemStack(),
+	<materialpart:fiery:beam>,
+	<materialpart:fiery:bolt>,
+	<materialpart:steeleaf:beam>,
+	<materialpart:steeleaf:bolt>,
 
 	//Tinkers' Construct
 	<tcomplement:porcelain_casting>,

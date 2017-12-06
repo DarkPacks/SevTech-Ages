@@ -185,6 +185,17 @@ var shapedRecipes = {
 		[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]]
 	],
 
+	<stevescarts:cartmodule> : [
+		[[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
+		[metals.iron.plate, <natura:netherrack_furnace>, metals.iron.plate],
+		[metals.iron.plate, metals.iron.plate, metals.iron.plate]]
+	],
+
+	<stevescarts:cartmodule:44> : [
+		[[null, <minecraft:piston>, null],
+		[metals.iron.plate, <minecraft:furnace>, metals.iron.plate],
+		[null, metals.iron.plate, null]]
+	],
 
 	//Modular Machinery
 
@@ -243,6 +254,25 @@ var shapedRecipes = {
 			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
 			[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>],
 			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]]
+		]
+	],
+
+	//Viescraft 
+
+	<vc:upgrades/upgrade_airship_core:1> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <stevescarts:cartmodule>, <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+
+
+	<vc:upgrades/upgrade_airship_core:2> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	]
 

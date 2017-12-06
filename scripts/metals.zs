@@ -89,8 +89,10 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			if (hasLiquid) {
 				var fluidAmount as int = 0;
 
-				if (metalType == "ingot" | metalType == "plate" | metalType == "rod" | metalType == "dust") {
+				if (metalType == "ingot" | metalType == "plate" | metalType == "dust") {
 					fluidAmount = 144;
+				} else if (metalType == "rod") {
+					fluidAmount = 72;
 				} else if (metalType == "block") {
 					fluidAmount = 1296;
 				} else if (metalType == "gear") {
@@ -145,6 +147,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				immersivePressMold = <immersiveengineering:mold:1>;
 				immersivePressInputCount = 4;
 			} else if (metalType == "rod") {
+				immersivePressOutputCount = 2;
 				immersivePressMold = <immersiveengineering:mold:2>;
 			}
 

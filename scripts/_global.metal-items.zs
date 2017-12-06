@@ -60,22 +60,22 @@ global metalItems as IIngredient[string][string] = {
 	bronze: {
 		block: <embers:block_bronze>,
 		dust: null,
-		gear: <materialpart:bronze:gear>.getItemStack(),
+		gear: <materialpart:bronze:gear>,
 		ingot: <embers:ingot_bronze>,
 		liquid: <liquid:bronze>,
 		nugget: <embers:nugget_bronze>,
-		plate: <materialpart:bronze:plate>.getItemStack(),
-		rod: <materialpart:bronze:rod>.getItemStack()
+		plate: <materialpart:bronze:plate>,
+		rod: <materialpart:bronze:rod>
 	},
 	cobalt: {
 		block: <tconstruct:metal>,
 		dust: null,
-		gear: <materialpart:cobalt:gear>.getItemStack(),
+		gear: <materialpart:cobalt:gear>,
 		ingot: <tconstruct:ingots>,
 		liquid: <liquid:cobalt>,
 		nugget: <tconstruct:nuggets>,
-		plate: <materialpart:cobalt:plate>.getItemStack(),
-		rod: <materialpart:cobalt:rod>.getItemStack()
+		plate: <materialpart:cobalt:plate>,
+		rod: <materialpart:cobalt:rod>
 	},
 	constantan: {
 		block: <immersiveengineering:storage:6>,
@@ -90,12 +90,12 @@ global metalItems as IIngredient[string][string] = {
 	copper: {
 		block: <immersiveengineering:storage>,
 		dust: <immersiveengineering:metal:9>,
-		gear: <materialpart:copper:gear>.getItemStack(),
+		gear: <materialpart:copper:gear>,
 		ingot: <immersiveengineering:metal>,
 		liquid: <liquid:copper>,
 		nugget: null,
 		plate: <immersiveengineering:metal:30>,
-		rod: <materialpart:copper:rod>.getItemStack()
+		rod: <materialpart:copper:rod>
 	},
 	dawnstone: {
 		block: <embers:block_dawnstone>,
@@ -140,12 +140,12 @@ global metalItems as IIngredient[string][string] = {
 	fiery: {
 		block: <twilightforest:block_storage:1>,
 		dust: null,
-		gear: <materialpart:fiery:gear>.getItemStack(),
+		gear: <materialpart:fiery:gear>,
 		ingot: <twilightforest:fiery_ingot>,
 		liquid: <liquid:fiery>,
 		nugget: null,
-		plate: <materialpart:fiery:plate>.getItemStack(),
-		rod: <materialpart:fiery:rod>.getItemStack()
+		plate: <materialpart:fiery:plate>,
+		rod: <materialpart:fiery:rod>
 	},
 	gold: {
 		block: <minecraft:gold_block>,
@@ -180,12 +180,12 @@ global metalItems as IIngredient[string][string] = {
 	lead: {
 		block: <immersiveengineering:storage:2>,
 		dust: <immersiveengineering:metal:11>,
-		gear: <materialpart:lead:gear>.getItemStack(),
+		gear: <materialpart:lead:gear>,
 		ingot: <immersiveengineering:metal:2>,
 		liquid: <liquid:lead>,
 		nugget: <immersiveengineering:metal:22>,
 		plate: <immersiveengineering:metal:32>,
-		rod: <materialpart:lead:rod>.getItemStack()
+		rod: <materialpart:lead:rod>
 	},
 	manyullyn: {
 		block: <tconstruct:metal:2>,
@@ -200,12 +200,12 @@ global metalItems as IIngredient[string][string] = {
 	modularium: {
 		block: null,
 		dust: null,
-		gear: <materialpart:modularium:gear>.getItemStack(),
+		gear: <materialpart:modularium:gear>,
 		ingot: <modularmachinery:itemmodularium>,
 		liquid: <liquid:modularium>,
 		nugget: null,
-		plate: <materialpart:modularium:plate>.getItemStack(),
-		rod: <materialpart:modularium:rod>.getItemStack()
+		plate: <materialpart:modularium:plate>,
+		rod: <materialpart:modularium:rod>
 	},
 	nickel: {
 		block: <immersiveengineering:storage:4>,
@@ -228,14 +228,24 @@ global metalItems as IIngredient[string][string] = {
 		rod: null
 	},
 	platinum: {
-		block: <materialpart:platinum:block>.getItemStack(),
+		block: <materialpart:platinum:block>,
 		dust: null,
-		gear: <materialpart:platinum:gear>.getItemStack(),
-		ingot: <materialpart:platinum:ingot>.getItemStack(),
+		gear: <materialpart:platinum:gear>,
+		ingot: <materialpart:platinum:ingot>,
 		liquid: <liquid:platinum>,
 		nugget: null,
-		plate: <materialpart:platinum:plate>.getItemStack(),
-		rod: <materialpart:platinum:rod>.getItemStack()
+		plate: <materialpart:platinum:plate>,
+		rod: <materialpart:platinum:rod>
+	},
+	redstoneAlloy: {
+		block: <materialpart:redstone_alloy:block>,
+		dust: null,
+		gear: <materialpart:redstone_alloy:gear>,
+		ingot: <materialpart:redstone_alloy:ingot>,
+		liquid: <liquid:redstone_alloy>,
+		nugget: null,
+		plate: <materialpart:redstone_alloy:plate>,
+		rod: <materialpart:redstone_alloy:rod>
 	},
 	refinedCoralium: {
 		block: <abyssalcraft:ingotblock:1>,
@@ -250,12 +260,12 @@ global metalItems as IIngredient[string][string] = {
 	silver: {
 		block: <immersiveengineering:storage:3>,
 		dust: <immersiveengineering:metal:12>,
-		gear: <materialpart:silver:gear>.getItemStack(),
+		gear: <materialpart:silver:gear>,
 		ingot: <immersiveengineering:metal:3>,
 		liquid: <liquid:silver>,
 		nugget: <immersiveengineering:metal:23>,
 		plate: <immersiveengineering:metal:33>,
-		rod: <materialpart:silver:rod>.getItemStack()
+		rod: <materialpart:silver:rod>
 	},
 	steel: {
 		block: <immersiveengineering:storage:8>,
@@ -270,22 +280,22 @@ global metalItems as IIngredient[string][string] = {
 	steeleaf: {
 		block: <twilightforest:block_storage:2>,
 		dust: null,
-		gear: <materialpart:steeleaf:gear>.getItemStack(),
+		gear: <materialpart:steeleaf:gear>,
 		ingot: <twilightforest:steeleaf_ingot>,
 		liquid: <liquid:steeleaf>,
 		nugget: null,
-		plate: <materialpart:steeleaf:plate>.getItemStack(),
-		rod: <materialpart:steeleaf:rod>.getItemStack()
+		plate: <materialpart:steeleaf:plate>,
+		rod: <materialpart:steeleaf:rod>
 	},
 	tin: {
 		block: <embers:block_tin>,
 		dust: null,
-		gear: <materialpart:tin:gear>.getItemStack(),
+		gear: <materialpart:tin:gear>,
 		ingot: <embers:ingot_tin>,
 		liquid: <liquid:tin>,
 		nugget: <embers:nugget_tin>,
-		plate: <materialpart:tin:plate>.getItemStack(),
-		rod: <materialpart:tin:rod>.getItemStack()
+		plate: <materialpart:tin:plate>,
+		rod: <materialpart:tin:rod>
 	},
 	uranium: {
 		block: <immersiveengineering:storage:5>,

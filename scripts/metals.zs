@@ -119,8 +119,10 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 					cast = <tconstruct:cast_custom:1>;
 				}
 
-				mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
-				mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, cast, metalLiquid, fluidAmount, consumeCast);
+				if (cast as bool) {
+					mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
+					mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, cast, metalLiquid, fluidAmount, consumeCast);
+				}
 			}
 		}
 

@@ -28,7 +28,7 @@ var metalStages = {
 	platinum: "three",
 	redstoneAlloy: "three",
 	refinedCoralium: "",
-	silver: "",
+	silver: "three",
 	steel: "",
 	steeleaf: "two",
 	tin: "one",

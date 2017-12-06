@@ -14,5 +14,5 @@ mods.embers.DawnstoneAnvil.add([metalItems.bronze.plate.items[0]], metals.bronze
 mods.embers.DawnstoneAnvil.add([metalItems.iron.plate.items[0] * 2], metals.iron.ingot, metals.iron.ingot);
 mods.embers.DawnstoneAnvil.add([metalItems.iron.plate.items[0]], metals.iron.ingot, null);
 //Redstone Alloy
-mods.embers.DawnstoneAnvil.add([<contenttweaker:material_part:55> * 2], <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>);
-mods.embers.DawnstoneAnvil.add([<contenttweaker:material_part:55>], <ore:ingotRedstoneAlloy>, null);
+mods.embers.DawnstoneAnvil.add([metalItems.redstoneAlloy.plate.items[0] * 2], <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>);
+mods.embers.DawnstoneAnvil.add([metalItems.redstoneAlloy.plate.items[0]], <ore:ingotRedstoneAlloy>, null);

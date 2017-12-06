@@ -66,7 +66,7 @@ var stage2Items = [
 	<minecraft:painting>,
 	<prospectors:prospector_low>,
 
-	//Ore 
+	//Ore
 	<abyssalcraft:abygolore>,
 	<abyssalcraft:abyiroore>,
 	<abyssalcraft:abynitore>,
@@ -141,12 +141,12 @@ var stage2Items = [
 	<nex:tool_sword_bone>,
 	<roots:gold_knife>,
 
-	//Better With Mods 
+	//Better With Mods
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:ender_spectacles>,
 	<betterwithmods:metal_chime:*>,
 
-	//Storage Drawers 
+	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
 	<storagedrawers:customdrawers:2>,
 	<storagedrawers:customdrawers:3>,
@@ -221,7 +221,7 @@ var stage2Items = [
 	<bibliocraft:swordpedestal:*>,
 	<bibliocraft:table:*>,
 
-	//Chisel 
+	//Chisel
 	<chisel:antiblock:*>,
 	<chisel:blockgold:*>,
 	<chisel:blockiron:*>,
@@ -275,7 +275,7 @@ var stage2Items = [
 	<chisel:waterstone2:*>,
 	<chisel:waterstone:*>,
 
-	//Enchantment Book 
+	//Enchantment Book
 	<minecraft:enchanted_book:*>,
 	<minecraft:enchanted_book:0>,
 
@@ -439,19 +439,13 @@ var stage2Items = [
 	<actuallyadditions:iron_paxel>,
 
 	//Content Tweaker
-	<contenttweaker:material_part:38>,
-	<contenttweaker:material_part:39>,
-	<contenttweaker:material_part:40>,
-	<contenttweaker:material_part:41>,
-	<contenttweaker:material_part:42>,
-	<contenttweaker:material_part:43>,
-	<contenttweaker:material_part:44>,
-	<contenttweaker:material_part:45>,
-	<contenttweaker:material_part:46>,
-	<contenttweaker:material_part:47>,
 	<forge:bucketfilled>.withTag({FluidName: "ender_pearl", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "fiery", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "steeleaf", Amount: 1000}),
+	<materialpart:fiery:beam>.getItemStack(),
+	<materialpart:fiery:bolt>.getItemStack(),
+	<materialpart:steeleaf:beam>.getItemStack(),
+	<materialpart:steeleaf:bolt>.getItemStack(),
 
 	//Tinkers' Construct
 	<tcomplement:porcelain_casting>,

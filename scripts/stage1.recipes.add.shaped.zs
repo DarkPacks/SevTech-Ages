@@ -72,13 +72,13 @@ var shapedRecipes = {
 	],
 
 	//Gear recipes for Stage1 only
-	<contenttweaker:material_part:25> : [
+	metalItems.bronze.gear.items[0] : [
 		[[null, metals.bronze.plate, null], [metals.bronze.plate, <teslacorelib:gear_stone>, metals.bronze.plate], [null, metals.bronze.plate, null]]
 	],
-	<contenttweaker:material_part:5> : [
+	metalItems.tin.gear.items[0] : [
 		[[null, metals.tin.plate, null], [metals.tin.plate, <teslacorelib:gear_stone>, metals.tin.plate], [null, metals.tin.plate, null]]
 	],
-	<contenttweaker:material_part> : [
+	metalItems.copper.gear.items[0] : [
 		[[null, metals.copper.plate, null], [metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate], [null, metals.copper.plate, null]]
 	],
 
@@ -326,13 +326,13 @@ var shapedRecipes = {
 		[[null, metals.copper.rod, null], [<embers:plate_caminite>, metals.copper.rod, <embers:plate_caminite>], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
 	],
 	<embers:ember_gauge> : [
-		[[null, metals.copper.plate, null], [metals.copper.plate, <contenttweaker:material_part:4>, metals.copper.plate], [null, metals.tin.ingot, null]]
+		[[null, metals.copper.plate, null], [metals.copper.plate, metals.copper.rod, metals.copper.plate], [null, metals.tin.ingot, null]]
 	],
 	<embers:ember_receiver> : [
 		[[null, null, null], [<embers:plate_caminite>, null, <embers:plate_caminite>], [metals.copper.plate, <embers:plate_caminite>, metals.copper.plate]]
 	],
 	<embers:fluid_gauge> : [
-		[[null, metals.tin.plate, null], [metals.tin.plate, <contenttweaker:material_part:4>, metals.tin.plate], [null, metals.tin.ingot, null]]
+		[[null, metals.tin.plate, null], [metals.tin.plate, metals.copper.red, metals.tin.plate], [null, metals.tin.ingot, null]]
 	],
 	<embers:hoe_bronze> : [
 		[[metals.bronze.plate, metals.bronze.plate, null], [null, stick, null], [null, stick, null]]
@@ -467,7 +467,7 @@ var shapedRecipes = {
 		]
 	],
 
-	//Primal 
+	//Primal
 	<primal:storage_crate:1> : [
 		[
 			[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],

@@ -91,17 +91,9 @@ var removeAndHideItems = [
 
 	//Nuggets
 	<betterwithmods:material:46>,
-	<embers:nugget_bronze>,
-	<embers:nugget_dawnstone>,
-	<embers:nugget_tin>,
 	<extendedcrafting:material:1>,
-	<immersiveengineering:metal:20>,
-	<immersiveengineering:metal:21>,
-	<immersiveengineering:metal:25>,
 	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>,
-	<tconstruct:nuggets:3>,
-	<tconstruct:nuggets:4>
+	<mysticalagriculture:crafting:45>  //Soulium Nugget
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

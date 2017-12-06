@@ -72,13 +72,13 @@ var shapedRecipes = {
 	],
 
 	//Gear recipes for Stage1 only
-	metalItems.bronze.gear.items[0] : [
+	metals.bronze.gear.firstItem : [
 		[[null, metals.bronze.plate, null], [metals.bronze.plate, <teslacorelib:gear_stone>, metals.bronze.plate], [null, metals.bronze.plate, null]]
 	],
-	metalItems.tin.gear.items[0] : [
+	metals.tin.gear.firstItem : [
 		[[null, metals.tin.plate, null], [metals.tin.plate, <teslacorelib:gear_stone>, metals.tin.plate], [null, metals.tin.plate, null]]
 	],
-	metalItems.copper.gear.items[0] : [
+	metals.copper.gear.firstItem : [
 		[[null, metals.copper.plate, null], [metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate], [null, metals.copper.plate, null]]
 	],
 

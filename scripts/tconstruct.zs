@@ -88,9 +88,9 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 
 mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:ender_pearl>, 250, false);
 mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>, 2250);
 
-mods.tconstruct.Casting.addTableRecipe(metalItems.steeleaf.rod.itemArray[0], <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
+mods.tconstruct.Casting.addTableRecipe(metals.steeleaf.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
 
-mods.tconstruct.Casting.addTableRecipe(metalItems.fiery.rod.itemArray[0], <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
+mods.tconstruct.Casting.addTableRecipe(metals.fiery.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
 
 //Melting
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>);
@@ -121,18 +121,10 @@ mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_b
 mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:ftglowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Redstone Alloy Rod
-mods.tconstruct.Casting.addTableRecipe(metalItems.redstoneAlloy.rod.itemArray[0], <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
+mods.tconstruct.Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
 
 //Nugget Removal
-mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_tin>);
-mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_bronze>);
-mods.tconstruct.Casting.removeTableRecipe(<embers:nugget_dawnstone>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:4>);
-mods.tconstruct.Casting.removeTableRecipe(<tconstruct:nuggets:3>);
-mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>);
-mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:25>);
-mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:21>);
-mods.tconstruct.Casting.removeTableRecipe(<immersiveengineering:metal:20>);
+mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //Soulium Nugget
 
 //Modularium
 mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);

@@ -157,7 +157,7 @@ global metals as IOreDictEntry[string][string] = {
 		dust: null,
 		gear: null,
 		ingot: <ore:ingotKnightslime>,
-		nugget: null,
+		nugget: <ore:nuggetKnightslime>,
 		plate: null,
 		rod: null
 	},
@@ -202,7 +202,7 @@ global metals as IOreDictEntry[string][string] = {
 		dust: null,
 		gear: null,
 		ingot: <ore:ingotPigiron>,
-		nugget: null,
+		nugget: <ore:nuggetPigiron>,
 		plate: null,
 		rod: null
 	},
@@ -274,7 +274,7 @@ global metals as IOreDictEntry[string][string] = {
 		dust: <ore:dustUranium>,
 		gear: null,
 		ingot: <ore:ingotUranium>,
-		nugget: null,
+		nugget: <ore:nuggetUranium>,
 		plate: <ore:plateUranium>,
 		rod: null
 	}

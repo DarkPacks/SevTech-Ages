@@ -9,7 +9,7 @@ var metalStages = {
 	aluminumBrass: "",
 	ardite: "",
 	bronze: "one",
-	cobalt: "",
+	cobalt: "three",
 	constantan: "",
 	copper: "one",
 	dawnstone: "two",

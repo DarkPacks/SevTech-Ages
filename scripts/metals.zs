@@ -75,53 +75,57 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			Add Metal Recipes
 		*/
 		//Embers Stamper
-		if ((metalType == "ingot" | metalType == "plate") & hasLiquid) {
-			mods.embers.Stamper.remove(preferredMetalItem);
+		if (loadedMods.contains("embers")) {
+			if ((metalType == "ingot" | metalType == "plate") & hasLiquid) {
+				mods.embers.Stamper.remove(preferredMetalItem);
 
-			var stamp as IItemStack = metalType == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
-			mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
+				var stamp as IItemStack = metalType == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
+				mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
+			}
 		}
 
 		//Tinker's Construct
-		if (hasLiquid) {
-			var fluidAmount as int = 0;
+		if (loadedMods.contains("tconstruct")) {
+			if (hasLiquid) {
+				var fluidAmount as int = 0;
 
-			if (metalType == "ingot" | metalType == "plate" | metalType == "rod" | metalType == "dust") {
-				fluidAmount = 144;
-			} else if (metalType == "block") {
-				fluidAmount = 1296;
-			} else if (metalType == "gear") {
-				fluidAmount = 576;
-			} else if (metalType == "nugget") {
-				fluidAmount = 16;
-			}
-
-			mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
-			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
-
-			//Casting
-			if (metalType == "block") {
-				var consumeCast = false;
-
-				mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
-				mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
-			} else {
-				var tinkersCast as IItemStack = null;
-				var consumeCast = false;
-
-				if (metalType == "ingot") {
-					tinkersCast = <tconstruct:cast_custom>;
+				if (metalType == "ingot" | metalType == "plate" | metalType == "rod" | metalType == "dust") {
+					fluidAmount = 144;
+				} else if (metalType == "block") {
+					fluidAmount = 1296;
 				} else if (metalType == "gear") {
-					tinkersCast = <tconstruct:cast_custom:4>;
-				} else if (metalType == "plate") {
-					tinkersCast = <tconstruct:cast_custom:3>;
+					fluidAmount = 576;
 				} else if (metalType == "nugget") {
-					tinkersCast = <tconstruct:cast_custom:1>;
+					fluidAmount = 16;
 				}
 
-				if (tinkersCast as bool) {
-					mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
-					mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, tinkersCast, metalLiquid, fluidAmount, consumeCast);
+				mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+				mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
+
+				//Casting
+				if (metalType == "block") {
+					var consumeCast = false;
+
+					mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
+					mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
+				} else {
+					var tinkersCast as IItemStack = null;
+					var consumeCast = false;
+
+					if (metalType == "ingot") {
+						tinkersCast = <tconstruct:cast_custom>;
+					} else if (metalType == "gear") {
+						tinkersCast = <tconstruct:cast_custom:4>;
+					} else if (metalType == "plate") {
+						tinkersCast = <tconstruct:cast_custom:3>;
+					} else if (metalType == "nugget") {
+						tinkersCast = <tconstruct:cast_custom:1>;
+					}
+
+					if (tinkersCast as bool) {
+						mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
+						mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, tinkersCast, metalLiquid, fluidAmount, consumeCast);
+					}
 				}
 			}
 		}
@@ -129,30 +133,32 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		//Immersive Engineering
 		//mods.immersiveengineering.MetalPress.removeRecipe(output);
 		//mods.mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy, optionalInputSize);
-		var immersivePressMold as IItemStack = null;
-		var immersivePressInputCount = 1;
-		var immersivePressOutputCount = 1;
-		var immersivePressEnergy = 2400;
+		if (loadedMods.contains("immersiveengineering")) {
+			var immersivePressMold as IItemStack = null;
+			var immersivePressInputCount = 1;
+			var immersivePressOutputCount = 1;
+			var immersivePressEnergy = 2400;
 
-		if (metalType == "plate") {
-			immersivePressMold = <immersiveengineering:mold>;
-		} else if (metalType == "gear") {
-			immersivePressMold = <immersiveengineering:mold:1>;
-			immersivePressInputCount = 4;
-		} else if (metalType == "rod") {
-			immersivePressMold = <immersiveengineering:mold:2>;
-		}
+			if (metalType == "plate") {
+				immersivePressMold = <immersiveengineering:mold>;
+			} else if (metalType == "gear") {
+				immersivePressMold = <immersiveengineering:mold:1>;
+				immersivePressInputCount = 4;
+			} else if (metalType == "rod") {
+				immersivePressMold = <immersiveengineering:mold:2>;
+			}
 
-		//If immersive mold isnt null, remove/create recipes
-		if (immersivePressMold as bool) {
-			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(
-				preferredMetalItem * immersivePressOutputCount, //Output
-				metalItems[metalName].ingot.items[0], //Input
-				immersivePressMold, //Mold
-				immersivePressEnergy, //Energy
-				immersivePressInputCount //Input Count
-			);
+			//If immersive mold isnt null, remove/create recipes
+			if (immersivePressMold as bool) {
+				mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
+				mods.immersiveengineering.MetalPress.addRecipe(
+					preferredMetalItem * immersivePressOutputCount, //Output
+					metalItems[metalName].ingot.items[0], //Input
+					immersivePressMold, //Mold
+					immersivePressEnergy, //Energy
+					immersivePressInputCount //Input Count
+				);
+			}
 		}
 
 		/*
@@ -169,18 +175,24 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		if (!metalItem.matches(preferredMetalItem)) {
 			mods.jei.JEI.removeAndHide(metalItem);
 
-			mods.immersiveengineering.MetalPress.removeRecipe(metalItem);
+			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.MetalPress.removeRecipe(metalItem);
+			}
 
 			if (doFurnace) {
 				furnace.remove(metalItem);
 			}
 
 			if (hasLiquid) {
-				mods.embers.Stamper.remove(metalItem);
+				if (loadedMods.contains("embers")) {
+					mods.embers.Stamper.remove(metalItem);
+				}
 
-				mods.tconstruct.Casting.removeBasinRecipe(metalItem);
-				mods.tconstruct.Casting.removeTableRecipe(metalItem);
-				mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalItem);
+				if (loadedMods.contains("tconstruct")) {
+					mods.tconstruct.Casting.removeBasinRecipe(metalItem);
+					mods.tconstruct.Casting.removeTableRecipe(metalItem);
+					mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalItem);
+				}
 			}
 
 			//Remove from Ore Dict

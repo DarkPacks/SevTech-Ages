@@ -106,22 +106,22 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				mods.tconstruct.Casting.removeBasinRecipe(preferredMetalItem);
 				mods.tconstruct.Casting.addBasinRecipe(preferredMetalItem, null, metalLiquid, fluidAmount, consumeCast);
 			} else {
-				var cast as IItemStack = null;
+				var tinkersCast as IItemStack = null;
 				var consumeCast = false;
 
 				if (metalType == "ingot") {
-					cast = <tconstruct:cast_custom>;
+					tinkersCast = <tconstruct:cast_custom>;
 				} else if (metalType == "gear") {
-					cast = <tconstruct:cast_custom:4>;
+					tinkersCast = <tconstruct:cast_custom:4>;
 				} else if (metalType == "plate") {
-					cast = <tconstruct:cast_custom:3>;
+					tinkersCast = <tconstruct:cast_custom:3>;
 				} else if (metalType == "nugget") {
-					cast = <tconstruct:cast_custom:1>;
+					tinkersCast = <tconstruct:cast_custom:1>;
 				}
 
-				if (cast as bool) {
+				if (tinkersCast as bool) {
 					mods.tconstruct.Casting.removeTableRecipe(preferredMetalItem);
-					mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, cast, metalLiquid, fluidAmount, consumeCast);
+					mods.tconstruct.Casting.addTableRecipe(preferredMetalItem, tinkersCast, metalLiquid, fluidAmount, consumeCast);
 				}
 			}
 		}
@@ -129,15 +129,30 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		//Immersive Engineering
 		//mods.immersiveengineering.MetalPress.removeRecipe(output);
 		//mods.mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy, optionalInputSize);
+		var immersivePressMold as IItemStack = null;
+		var immersivePressInputCount = 1;
+		var immersivePressOutputCount = 1;
+		var immersivePressEnergy = 2400;
+
 		if (metalType == "plate") {
-			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold>, 2400);
+			immersivePressMold = <immersiveengineering:mold>;
 		} else if (metalType == "gear") {
-			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold:1>, 2400, 4);
+			immersivePressMold = <immersiveengineering:mold:1>;
+			immersivePressInputCount = 4;
 		} else if (metalType == "rod") {
+			immersivePressMold = <immersiveengineering:mold:2>;
+		}
+
+		//If immersive mold isnt null, remove/create recipes
+		if (immersivePressMold as bool) {
 			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold:2>, 2400);
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * immersivePressOutputCount, //Output
+				metalItems[metalName].ingot.items[0], //Input
+				immersivePressMold, //Mold
+				immersivePressEnergy, //Energy
+				immersivePressInputCount //Input Count
+			);
 		}
 
 		/*

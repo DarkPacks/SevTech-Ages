@@ -138,7 +138,12 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold:2>, 2400);
 		}
 
-		//TODO: Remove recipes we dont want on the preferredMetalItem
+		/*
+			Remove Metal Recipes
+		*/
+		if (metalType == "rod") {
+			recipes.remove(preferredMetalItem);
+		}
 	}
 
 	//Remove other metal items completely

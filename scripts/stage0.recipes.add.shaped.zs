@@ -305,7 +305,7 @@ for item, recipesForItem in shapedRecipes {
 	}
 }
 
-//Actually Additions 
+//Actually Additions
 /*
 actuallyadditions:item_misc:12
 actuallyadditions:item_misc:9

@@ -254,7 +254,7 @@ var itemsForStage = [
 	//Shulker
 	<minecraft:purple_shulker_box>,
 
-	//Extended Crafting 
+	//Extended Crafting
 	<extendedcrafting:compressor>,
 	<extendedcrafting:material:11>,
 	<extendedcrafting:material:12>,

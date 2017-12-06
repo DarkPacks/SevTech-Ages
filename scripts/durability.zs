@@ -90,7 +90,7 @@ var durabilityArray = {
 	<primal:armor_wolf_feet> : 140,
 
 	<minecraft:leather_helmet> : 75,
-	<minecraft:leather_chestplate> : 100, 
+	<minecraft:leather_chestplate> : 100,
 	<minecraft:leather_leggings> : 95,
 	<minecraft:leather_boots> : 75,
 
@@ -102,7 +102,7 @@ var durabilityArray = {
 	<betterbuilderswands:wandiron> : 650,
 	<betterbuilderswands:wanddiamond> : 2500,
 
-	//Chisel 
+	//Chisel
 	<chisel:chisel_iron> : 1500,
 	<chisel:chisel_diamond> : 6500,
 	<chisel:chisel_hitech> : 12500,

@@ -349,7 +349,7 @@ var itemsForStage = [
 	<ceramics:rainbow_clay>,
 	<ceramics:unfired_clay:8>,
 
-	//Quark 
+	//Quark
 	<quark:candle:*>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,

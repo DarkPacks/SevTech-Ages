@@ -257,7 +257,7 @@ var shapedRecipes = {
 		]
 	],
 
-	//Viescraft 
+	//Viescraft
 
 	<vc:upgrades/upgrade_airship_core:1> : [
 		[

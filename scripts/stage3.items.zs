@@ -475,6 +475,8 @@ var stage3Items = [
 	<materialpart:cobalt:bolt>.getItemStack(),
 	<materialpart:lead:beam>.getItemStack(),
 	<materialpart:lead:bolt>.getItemStack(),
+	<materialpart:modularium:beam>.getItemStack(),
+	<materialpart:modularium:bolt>.getItemStack(),
 	<materialpart:platinum:beam>.getItemStack(),
 	<materialpart:platinum:bolt>.getItemStack(),
 	<materialpart:redstone_alloy:beam>.getItemStack(),

@@ -52,7 +52,7 @@ function isItemToKeep(item as IItemStack) as bool {
 
 //Returns item if it exists for that metal, or null
 function getPreferredMetalItem(metalName as string, metalType as string) as IItemStack {
-	return metalItems[metalName][metalType] as bool ? metalItems[metalName][metalType].itemArray[0] : null;
+	return metalItems[metalName][metalType] as bool ? metalItems[metalName][metalType].items[0] : null;
 }
 
 function handleMetalItem(metalName as string, metal as IOreDictEntry[string], metalType as string, preferredMetalItem as IItemStack, doFurnace as bool, hasLiquid as bool, metalStages as string[string]) {
@@ -129,20 +129,20 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		//mods.mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy, optionalInputSize);
 		if (metalType == "plate") {
 			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold>, 2400);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold>, 2400);
 		} else if (metalType == "gear") {
 			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold:1>, 2400, 4);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold:1>, 2400, 4);
 		} else if (metalType == "rod") {
 			mods.immersiveengineering.MetalPress.removeRecipe(preferredMetalItem);
-			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.itemArray[0], <immersiveengineering:mold:2>, 2400);
+			mods.immersiveengineering.MetalPress.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], <immersiveengineering:mold:2>, 2400);
 		}
 
 		//TODO: Remove recipes we dont want on the preferredMetalItem
 	}
 
 	//Remove other metal items completely
-	for metalItem in metal[metalType].itemArray {
+	for metalItem in metal[metalType].items {
 		//If this item is the one we want, skip
 		if (!metalItem.matches(preferredMetalItem)) {
 			mods.jei.JEI.removeAndHide(metalItem);

@@ -89,7 +89,7 @@ var removeAndHideItems = [
 	<modularmachinery:blockoutputbus:0>,
 
 
-	//Nuggets 
+	//Nuggets
 	<betterwithmods:material:46>,
 	<embers:nugget_bronze>,
 	<embers:nugget_dawnstone>,

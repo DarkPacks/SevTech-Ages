@@ -157,6 +157,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				mods.embers.Stamper.remove(metalItem);
 
 				mods.tconstruct.Casting.removeBasinRecipe(metalItem);
+				mods.tconstruct.Casting.removeTableRecipe(metalItem);
 				mods.tconstruct.Melting.removeRecipe(metalItems[metalName].liquid.liquids[0], metalItem);
 			}
 

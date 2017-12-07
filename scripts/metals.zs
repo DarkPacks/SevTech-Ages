@@ -171,6 +171,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0]);
 			} else if (metalType == "rod" & metalItems[metalName].plate as bool) {
 				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem, metalItems[metalName].plate.items[0]);
+			} else if (metalType == "block") {
+				mods.primaltech.StoneAnvil.addRecipe(metalItems[metalName].ingot.items[0] * 9, preferredMetalItem);
 			}
 		}
 

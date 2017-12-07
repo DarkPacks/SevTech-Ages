@@ -76,24 +76,8 @@ for output, inputs in defaultKilnCookTimeRecipes {
 	Stone Anvil
 */
 var stoneAnvilPair = [
-	[<contenttweaker:material_part:4>, <immersiveengineering:metal:30>],
-	[<contenttweaker:material_part:6>, <embers:ingot_tin>],
-	[<contenttweaker:material_part:9>, <contenttweaker:material_part:6>],
-	[<contenttweaker:material_part:26>, <embers:ingot_bronze>],
-	[<contenttweaker:material_part:29>, <contenttweaker:material_part:26>],
-	[<embers:ingot_bronze> * 9, <embers:block_bronze>],
-	[<embers:ingot_dawnstone> * 9, <embers:block_dawnstone>],
-	[<embers:ingot_tin> * 9, <embers:block_tin>],
 	[<embers:plate_caminite>, <embers:brick_caminite>],
-	[<embers:plate_dawnstone>, <embers:ingot_dawnstone>],
-	[<immersiveengineering:metal> * 9, <immersiveengineering:storage>],
-	[<immersiveengineering:metal:30>, <immersiveengineering:metal>],
-	[<immersiveengineering:metal:39>, <minecraft:iron_ingot>],
-	[<immersiveengineering:metal:40>, <minecraft:gold_ingot>],
-	[<minecraft:flint> * 4, <primal_tech:flint_block>],
-	[<minecraft:gold_ingot> * 9, <minecraft:gold_block>],
-	[<minecraft:gold_nugget> * 9, <minecraft:gold_ingot>],
-	[<minecraft:iron_ingot> * 9, <minecraft:iron_block>]
+	[<minecraft:flint> * 4, <primal_tech:flint_block>]
 ] as IItemStack[][];
 
 for pair in stoneAnvilPair {

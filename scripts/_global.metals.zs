@@ -54,7 +54,7 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	bronze: {
 		block: <ore:blockBronze>,
-		dust: null,
+		dust: <ore:dustBronze>,
 		gear: <ore:gearBronze>,
 		ingot: <ore:ingotBronze>,
 		nugget: <ore:nuggetBronze>,
@@ -137,7 +137,7 @@ global metals as IOreDictEntry[string][string] = {
 	gold: {
 		block: <ore:blockGold>,
 		dust: <ore:dustGold>,
-		gear: null,
+		gear: <ore:gearGold>,
 		ingot: <ore:ingotGold>,
 		nugget: <ore:nuggetGold>,
 		plate: <ore:plateGold>,
@@ -146,7 +146,7 @@ global metals as IOreDictEntry[string][string] = {
 	iron: {
 		block: <ore:blockIron>,
 		dust: <ore:dustIron>,
-		gear: null,
+		gear: <ore:gearIron>,
 		ingot: <ore:ingotIron>,
 		nugget: <ore:nuggetIron>,
 		plate: <ore:plateIron>,
@@ -199,11 +199,11 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	pigiron: {
 		block: <ore:blockPigiron>,
-		dust: null,
+		dust: <ore:dustPigiron>,
 		gear: null,
 		ingot: <ore:ingotPigiron>,
 		nugget: <ore:nuggetPigiron>,
-		plate: null,
+		plate: <ore:platePigiron>,
 		rod: null
 	},
 	platinum: {
@@ -262,7 +262,7 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	tin: {
 		block: <ore:blockTin>,
-		dust: null,
+		dust: <ore:dustTin>,
 		gear: <ore:gearTin>,
 		ingot: <ore:ingotTin>,
 		nugget: <ore:nuggetTin>,

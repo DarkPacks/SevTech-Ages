@@ -18,16 +18,7 @@ var removeAndHideItems = [
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
-	<factorytech:ingot:1>,
-	<factorytech:ingot>,
 	<immcraft:furnace>,
-	<libvulpes:metal0:4>,
-	<libvulpes:metal0:5>,
-	<libvulpes:metal0:6>,
-	<libvulpes:metal0:9>,
-	<libvulpes:productrod:1>,
-	<libvulpes:productrod:4>,
-	<libvulpes:productrod:6>,
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,
 	<natura:amaranth_trap_door>,
@@ -87,7 +78,6 @@ var removeAndHideItems = [
 	<totemic:medicine_bag>,
   	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
-
 
 	//Nuggets
 	<betterwithmods:material:46>,

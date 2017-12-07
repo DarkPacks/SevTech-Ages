@@ -41,6 +41,7 @@ var removeItems = [
 	<immersiveengineering:metal:39>,
 	<immersiveengineering:metal:40>,
 	<immersiveengineering:metal:9>, //IE grit no longer made with a hammer
+	<immersiveengineering:tool>,
 	<minecraft:bed:*>,
 	<minecraft:book>,
 	<minecraft:bucket>,

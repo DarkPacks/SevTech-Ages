@@ -27,3 +27,8 @@ mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>, <e
 mods.immersiveengineering.MetalPress.addRecipe(<primal:golden_stick>, <minecraft:gold_ingot>, <immersiveengineering:mold:2>, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:3>, <extendedcrafting:material>, <immersiveengineering:mold:2>, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
+
+/*
+	Squeezer
+*/
+mods.mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather

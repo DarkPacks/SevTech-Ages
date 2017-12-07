@@ -32,7 +32,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotAluminum>,
 		nugget: <ore:nuggetAluminum>,
 		plate: <ore:plateAluminum>,
-		rod: <ore:stickAluminum>
+		rod: <ore:rodAluminum>
 	},
 	aluminumBrass: {
 		block: <ore:blockAlubrass>,
@@ -150,7 +150,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotIron>,
 		nugget: <ore:nuggetIron>,
 		plate: <ore:plateIron>,
-		rod: <ore:stickIron>
+		rod: <ore:rodIron>
 	},
 	knightslime: {
 		block: <ore:blockKnightslime>,
@@ -249,7 +249,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotSteel>,
 		nugget: <ore:nuggetSteel>,
 		plate: <ore:plateSteel>,
-		rod: <ore:stickSteel>
+		rod: <ore:rodSteel>
 	},
 	steeleaf: {
 		block: <ore:blockSteeleaf>,

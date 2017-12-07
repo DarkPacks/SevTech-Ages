@@ -164,6 +164,20 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			}
 		}
 
+		//Primal Tech
+		if (loadedMods.contains("primal_tech")) {
+			//mods.primaltech.StoneAnvil.addRecipe(Itemstack output, IIngredient input);
+			if (metalType == "plate") {
+				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0]);
+			} else if (metalType == "rod" & metalItems[metalName].plate as bool) {
+				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem, metalItems[metalName].plate.items[0]);
+			} else if (metalType == "block") {
+				mods.primaltech.StoneAnvil.addRecipe(metalItems[metalName].ingot.items[0] * 9, preferredMetalItem);
+			} else if (metalType == "nugget") {
+				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem * 9, metalItems[metalName].ingot.items[0]);
+			}
+		}
+
 		/*
 			Remove Metal Recipes
 		*/

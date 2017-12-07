@@ -176,3 +176,5 @@ for seed in seeds {
 
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
+
+<ore:dustWood>.add(<betterwithmods:material:22>);

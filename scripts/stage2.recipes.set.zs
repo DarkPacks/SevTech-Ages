@@ -52,7 +52,6 @@ var itemsForStage = [
 
 	//TComplement Melter Changes for Stage 2 / Twilight Access
 	<tcomplement:materials>,
-	<tconstruct:faucet>,
 	<tconstruct:toolforge>,
 	<tconstruct:tooltables>,
 

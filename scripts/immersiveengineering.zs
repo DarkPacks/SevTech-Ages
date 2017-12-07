@@ -31,4 +31,4 @@ mods.immersiveengineering.MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft
 /*
 	Squeezer
 */
-mods.mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
+mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather

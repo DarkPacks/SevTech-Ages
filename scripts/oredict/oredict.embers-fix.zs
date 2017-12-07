@@ -69,3 +69,4 @@ metals.tin.plate.add(<embers:plate_tin>);
 //Other
 metals.gold.plate.add(<embers:plate_gold>);
 metals.iron.plate.add(<embers:plate_iron>);
+metals.iron.nugget.add(<embers:nugget_iron>);

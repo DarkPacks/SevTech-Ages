@@ -6,7 +6,6 @@ for item in loadedMods["primalchests"].items {
 recipes.remove(<actuallyadditions:item_misc:17>);
 
 recipes.remove(<ceramics:unfired_clay:4>);
-recipes.remove(<tconstruct:faucet>);
 recipes.remove(<minecraft:dye:15>);
 
 

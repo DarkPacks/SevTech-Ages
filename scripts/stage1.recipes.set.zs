@@ -244,6 +244,7 @@ var itemsForStage = [
 	<betterwithmods:vase:*>,
 
 	//Tinkers'
+	<tconstruct:faucet>,
 	<tconstruct:slime_boots:1>,
 	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:3>,

@@ -510,6 +510,7 @@ var stage1Items = [
 	<minecraft:flower_pot>,
 
 	//Tinkers'
+	<tconstruct:faucet>,
 	<tcomplement:porcelain_casting:1>,
 	<tconstruct:slime_boots:1>,
 	<tconstruct:slime_boots:2>,

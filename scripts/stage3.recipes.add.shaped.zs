@@ -207,7 +207,7 @@ var shapedRecipes = {
 		]
 	],
 
-	<modularmachinery:blockcasing> : [
+	<modularmachinery:blockcasing>*2 : [
 		[
 			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
 			[metals.modularium.plate, null, metals.modularium.plate],
@@ -215,7 +215,7 @@ var shapedRecipes = {
 		]
 	],
 
-	<modularmachinery:blockcasing:1> : [
+	<modularmachinery:blockcasing:1>*2 : [
 		[
 			[metals.modularium.plate, <minecraft:iron_bars>, metals.modularium.plate],
 			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],

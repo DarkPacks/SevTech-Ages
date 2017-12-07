@@ -1,0 +1,25 @@
+{
+  "machine": "industrial_drying_unit",
+  "registryName": "salted_hide_drying",
+  "recipeTime": 600,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 5
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "primal:hide_dried",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "primal:hide_salted",
+      "amount": 4
+    }
+  ]
+}
+

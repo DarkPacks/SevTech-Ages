@@ -1,0 +1,24 @@
+{
+  "machine": "industrail_loom",
+  "registryName": "string",
+  "recipeTime": 150,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 10
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "minecraft:string",
+      "amount": 1
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "natura:materials@3",
+      "amount": 2
+    }
+  ]
+}

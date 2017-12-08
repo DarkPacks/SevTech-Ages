@@ -1,0 +1,25 @@
+{
+  "machine": "plastics",
+  "registryName": "plastic",
+  "recipeTime": 20,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 1
+    },
+    {
+      "type": "fluid",
+      "io-type": "output",
+      "fluid": "plastic",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "io-type": "input",
+      "fluid": "propene",
+      "amount": 250,
+      "chance": 1.0
+    }
+  ]
+}

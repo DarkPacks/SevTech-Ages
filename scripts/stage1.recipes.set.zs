@@ -134,7 +134,6 @@ var itemsForStage = [
 	<abyssalcraft:dhoe>,
 	<cyclicmagic:sandstone_hoe>,
 	<minecraft:stone_hoe>,
-	<minecraft:wooden_hoe>,
 	<primal:flint_hoe>,
 
 	//Rustic

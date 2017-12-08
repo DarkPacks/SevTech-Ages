@@ -253,6 +253,77 @@ var shapedRecipes = {
 			[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]
 		]
 	],
+	<primal:barrel> : [
+		[
+			[<minecraft:planks>, null, <minecraft:planks>],
+			[<minecraft:planks>, null, <minecraft:planks>],
+			[<minecraft:planks>, <minecraft:wooden_slab>, <minecraft:planks>]
+		]
+	],
+	<primal:barrel:1> : [
+		[
+			[<minecraft:planks:1>, null, <minecraft:planks:1>],
+			[<minecraft:planks:1>, null, <minecraft:planks:1>],
+			[<minecraft:planks:1>, <minecraft:wooden_slab:1>, <minecraft:planks:1>]
+		]
+	],
+	<primal:barrel:2> : [
+		[
+			[<minecraft:planks:2>, null, <minecraft:planks:2>],
+			[<minecraft:planks:2>, null, <minecraft:planks:2>],
+			[<minecraft:planks:2>, <minecraft:wooden_slab:2>, <minecraft:planks:2>]
+		]
+	],
+	<primal:barrel:3> : [
+		[
+			[<minecraft:planks:3>, null, <minecraft:planks:3>],
+			[<minecraft:planks:3>, null, <minecraft:planks:3>],
+			[<minecraft:planks:3>, <minecraft:wooden_slab:3>, <minecraft:planks:3>]
+		]
+	],
+	<primal:barrel:4> : [
+		[
+			[<minecraft:planks:4>, null, <minecraft:planks:4>],
+			[<minecraft:planks:4>, null, <minecraft:planks:4>],
+			[<minecraft:planks:4>, <minecraft:wooden_slab:4>, <minecraft:planks:4>]
+		]
+	],
+	<primal:barrel:5> : [
+		[
+			[<minecraft:planks:5>, null, <minecraft:planks:5>],
+			[<minecraft:planks:5>, null, <minecraft:planks:5>],
+			[<minecraft:planks:5>, <minecraft:wooden_slab:5>, <minecraft:planks:5>]
+		]
+	],
+	<primal:barrel:6> : [
+		[
+			[<primal:planks>, null, <primal:planks>],
+			[<primal:planks>, null, <primal:planks>],
+			[<primal:planks>, <primal:slab_ironwood>, <primal:planks>]
+		]
+	],
+	<primal:barrel:7> : [
+		[
+			[<primal:planks:1>, null, <primal:planks:1>],
+			[<primal:planks:1>, null, <primal:planks:1>],
+			[<primal:planks:1>, <primal:slab_yew>, <primal:planks:1>]
+		]
+	],
+	<primal:barrel:8> : [
+		[
+			[<primal:planks:2>, null, <primal:planks:2>],
+			[<primal:planks:2>, null, <primal:planks:2>],
+			[<primal:planks:2>, <primal:slab_lacquer>, <primal:planks:2>]
+		]
+	],
+	<primal:barrel:9> : [
+		[
+			[<primal:planks:3>, null, <primal:planks:3>],
+			[<primal:planks:3>, null, <primal:planks:3>],
+			[<primal:planks:3>, <primal:slab_corypha>, <primal:planks:3>]
+		]
+	],
+
 	<roots:firestarter> : [
 		[[<minecraft:coal:1>, null], [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>]]
 	],

@@ -11,7 +11,7 @@
 //mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:material:6>);
 
 //Black Iron Creation
-mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>, <embers:dust_ash>, <minecraft:iron_ingot>, 600);
+mods.immersiveengineering.AlloySmelter.addRecipe(metals.blackIron.ingot, <embers:dust_ash>, metals.iron.ingot, 600);
 
 /*
 //Metal Press
@@ -23,9 +23,6 @@ mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:30
 mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:2>);
 */
 
-mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>, <immersiveengineering:mold>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<primal:golden_stick>, <minecraft:gold_ingot>, <immersiveengineering:mold:2>, 500, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<extendedcrafting:material:3>, <extendedcrafting:material>, <immersiveengineering:mold:2>, 500, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
 
 /*

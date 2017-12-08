@@ -46,10 +46,10 @@ var shapelessRecipes = {
 
 	//Extended Crafting
 	<extendedcrafting:material:14> : [
-		[metals.iron.rod, metals.iron.rod, <extendedcrafting:material:2>, <extendedcrafting:material:7>]
+		[metals.iron.rod, metals.iron.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
 	<extendedcrafting:material:15> : [
-		[metals.gold.rod, metals.gold.rod, <extendedcrafting:material:2>, <extendedcrafting:material:7>]
+		[metals.gold.rod, metals.gold.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
 	<extendedcrafting:material:7>*2 : [
 		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]

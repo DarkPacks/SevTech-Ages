@@ -82,7 +82,6 @@ var removeAndHideItems = [
 
 	//Nuggets
 	<betterwithmods:material:46>,
-	<extendedcrafting:material:1>,
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>  //Soulium Nugget
 

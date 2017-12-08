@@ -178,3 +178,5 @@ for seed in seeds {
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 
 <ore:dustWood>.add(<betterwithmods:material:22>);
+
+<ore:nuggetBlackIron>.add(<extendedcrafting:material:1>);

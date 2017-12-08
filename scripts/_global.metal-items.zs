@@ -57,6 +57,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	blackIron: {
+		block: <extendedcrafting:storage>,
+		dust: null,
+		gear: null,
+		ingot: <extendedcrafting:material>,
+		liquid: null,
+		nugget: null,
+		plate: <extendedcrafting:material:2>,
+		rod: <extendedcrafting:material:3>
+	},
 	bronze: {
 		block: <embers:block_bronze>,
 		dust: null,

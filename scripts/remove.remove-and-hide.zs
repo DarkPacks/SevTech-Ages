@@ -20,6 +20,11 @@ var removeAndHideItems = [
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
 	<immcraft:furnace>,
+	<minecraft:wooden_sword>,
+	<minecraft:wooden_shovel>,
+	<minecraft:wooden_pickaxe>,
+	<minecraft:wooden_axe>,
+	<minecraft:wooden_hoe>,
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,
 	<natura:amaranth_trap_door>,
@@ -77,7 +82,7 @@ var removeAndHideItems = [
 	<storagedrawers:basicdrawers:*>,
 	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
-  	<modularmachinery:blockinputbus:0>,
+	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 
 	//Nuggets

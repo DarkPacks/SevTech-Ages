@@ -22,7 +22,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 var shapelessRecipes = {
 	//Vanilla
 	<minecraft:torch> * 4 : [
-		[<immersiveengineering:material:6>, cordage, stick]	
+		[<immersiveengineering:material:6>, <betterwithmods:rope>, stick]	
 	],
 
 	//Immersive Engineering

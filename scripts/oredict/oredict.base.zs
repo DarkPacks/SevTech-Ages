@@ -108,7 +108,6 @@ for seed in seeds {
 
 <ore:ingotInvar>.remove(<factorytech:ingot:3>);
 
-<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
 <ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
@@ -178,5 +177,3 @@ for seed in seeds {
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 
 <ore:dustWood>.add(<betterwithmods:material:22>);
-
-<ore:nuggetBlackIron>.add(<extendedcrafting:material:1>);

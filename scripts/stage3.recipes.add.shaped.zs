@@ -63,7 +63,7 @@ var shapedRecipes = {
 
 	<immersiveengineering:metal_device0:5> : [
 		[
-			[<industrialforegoing:plastic>, <immersiveengineering:material:9>, <industrialforegoing:plastic>],
+			[plastic, <immersiveengineering:material:9>, plastic],
 			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
 			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
 		]

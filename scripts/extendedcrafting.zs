@@ -35,17 +35,17 @@ recipes.remove(<vc:airship_balloon>);
 //Viescraft Airship Ignition
 mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_ignition>,
 	[[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <minecraft:blaze_rod>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, <minecraft:quartz>, <contenttweaker:material_part:32>, <minecraft:quartz>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:material:1>, <contenttweaker:material_part:32>, <stevescarts:cartmodule:0>, <contenttweaker:material_part:32>, <immersiveengineering:material:1>],
-	[<immersiveengineering:metal:39>, <minecraft:quartz>, <contenttweaker:material_part:32>, <minecraft:quartz>, <immersiveengineering:metal:39>],
+	[<immersiveengineering:metal:39>, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, <immersiveengineering:metal:39>],
+	[<immersiveengineering:material:1>, metals.platinum.gear, <stevescarts:cartmodule:0>, metals.platinum.gear, <immersiveengineering:material:1>],
+	[<immersiveengineering:metal:39>, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, <immersiveengineering:metal:39>],
 	[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <minecraft:blaze_rod>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>]]);
 
 //Viescraft Ship Engine
 mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_engine>,
 	[[<immersiveengineering:metal:38>, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>, <immersiveengineering:metal:38>],
-	[<immersiveengineering:metal:39>, <contenttweaker:material_part:47>, <contenttweaker:material_part:47>, <contenttweaker:material_part:47>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, <contenttweaker:material_part:38>, <stevescarts:cartmodule:44>, <contenttweaker:material_part:38>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, <contenttweaker:material_part:55>, <contenttweaker:material_part:55>, <contenttweaker:material_part:55>, <immersiveengineering:metal:39>],
+	[<immersiveengineering:metal:39>, metals.fiery.rod, metals.fiery.rod, metals.fiery.rod, <immersiveengineering:metal:39>],
+	[<immersiveengineering:metal:39>, metals.steeleaf.gear, <stevescarts:cartmodule:44>, metals.steeleaf.gear, <immersiveengineering:metal:39>],
+	[<immersiveengineering:metal:39>, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, <immersiveengineering:metal:39>],
 	[<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <minecraft:redstone_block>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>]]);
 
 //Viescraft Ship Balloon

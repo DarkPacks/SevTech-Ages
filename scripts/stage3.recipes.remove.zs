@@ -41,6 +41,7 @@ var removeItems = [
 	<storagedrawers:controllerslave>,
 	<tconstruct:wood_rail>,
 	<stevescarts:blockcartassembler>,
+	<stevescarts:cartmodule:44>,
 	<modularmachinery:itemmodularium>,
 	<modularmachinery:blockcontroller>,
 	<modularmachinery:blockcasing>,
@@ -48,7 +49,8 @@ var removeItems = [
 	<modularmachinery:blockoutputbus:1>,
 	<modularmachinery:blockinputbus:1>,
 	<modularmachinery:blockfluidinputhatch>,
-	<modularmachinery:blockenergyinputhatch>
+	<modularmachinery:blockenergyinputhatch>,
+	<vc:upgrades/upgrade_airship_core:1>
 
 
 ] as IItemStack[];

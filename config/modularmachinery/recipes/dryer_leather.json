@@ -1,0 +1,24 @@
+{
+  "machine": "industrial_drying_unit",
+  "registryName": "leather_drying",
+  "recipeTime": 600,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 5
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "minecraft:leather",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "primal:hide_tanned",
+      "amount": 4
+    }
+  ]
+}

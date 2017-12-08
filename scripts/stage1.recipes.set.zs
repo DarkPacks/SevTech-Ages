@@ -244,6 +244,7 @@ var itemsForStage = [
 	<betterwithmods:vase:*>,
 
 	//Tinkers'
+	<tconstruct:faucet>,
 	<tconstruct:slime_boots:1>,
 	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:3>,
@@ -349,7 +350,7 @@ var itemsForStage = [
 	<ceramics:rainbow_clay>,
 	<ceramics:unfired_clay:8>,
 
-	//Quark 
+	//Quark
 	<quark:candle:*>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,

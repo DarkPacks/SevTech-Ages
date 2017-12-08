@@ -49,9 +49,9 @@ var shapedRecipes = {
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[
-			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate],
-			[<contenttweaker:material_part:55>, <immersiveengineering:material:26>, <contenttweaker:material_part:55>],
-			[metals.iron.plate, <contenttweaker:material_part:55>, metals.iron.plate]
+			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate],
+			[metals.redstoneAlloy.plate, <immersiveengineering:material:26>, metals.redstoneAlloy.plate],
+			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate]
 		]
 	],
 	<immersiveengineering:tool:1> : [
@@ -185,64 +185,94 @@ var shapedRecipes = {
 		[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]]
 	],
 
+	<stevescarts:cartmodule> : [
+		[[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
+		[metals.iron.plate, <natura:netherrack_furnace>, metals.iron.plate],
+		[metals.iron.plate, metals.iron.plate, metals.iron.plate]]
+	],
+
+	<stevescarts:cartmodule:44> : [
+		[[null, <minecraft:piston>, null],
+		[metals.iron.plate, <minecraft:furnace>, metals.iron.plate],
+		[null, metals.iron.plate, null]]
+	],
 
 	//Modular Machinery
 
 	<modularmachinery:blockcontroller> : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
-			[<contenttweaker:material_part:54>, <modularmachinery:blockcasing>, <contenttweaker:material_part:54>],
-			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:material:27>, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate],
+			[metals.redstoneAlloy.gear, <modularmachinery:blockcasing>, metals.redstoneAlloy.gear],
+			[metals.modularium.plate, <immersiveengineering:material:27>, metals.modularium.plate]
 		]
 	],
 
-	<modularmachinery:blockcasing> : [
+	<modularmachinery:blockcasing>*2 : [
 		[
-			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]],
-			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]],
-			[metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0], metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[metals.modularium.plate, null, metals.modularium.plate],
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate]
 		]
 	],
 
-	<modularmachinery:blockcasing:1> : [
+	<modularmachinery:blockcasing:1>*2 : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]],
+			[metals.modularium.plate, <minecraft:iron_bars>, metals.modularium.plate],
 			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
-			[metalItems.modularium.plate.itemArray[0], <minecraft:iron_bars>, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, <minecraft:iron_bars>, metals.modularium.plate]
 		]
 	],
 
 	<modularmachinery:blockoutputbus:1> : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[metals.modularium.plate, <uppers:upper>, metals.modularium.plate],
 			[null, <modularmachinery:blockcasing>, null],
-			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, null, metals.modularium.plate]
 		]
 	],
 
 	<modularmachinery:blockinputbus:1> : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <minecraft:hopper>, metalItems.modularium.plate.itemArray[0]],
+			[metals.modularium.plate, <minecraft:hopper>, metals.modularium.plate],
 			[null, <modularmachinery:blockcasing>, null],
-			[metalItems.modularium.plate.itemArray[0], null, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, null, metals.modularium.plate]
 		]
 	],
 
 
 	<modularmachinery:blockfluidinputhatch> : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <uppers:upper>, metalItems.modularium.plate.itemArray[0]],
+			[metals.modularium.plate, <uppers:upper>, metals.modularium.plate],
 			[null, <immersiveengineering:metal_device0:4>, null],
-			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:metal_device0:4>, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, <immersiveengineering:metal_device0:4>, metals.modularium.plate]
 		]
 	],
 
 
 	<modularmachinery:blockenergyinputhatch> : [
 		[
-			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]],
+			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate],
 			[<immersiveengineering:wirecoil>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:wirecoil>],
-			[metalItems.modularium.plate.itemArray[0], <immersiveengineering:wirecoil>, metalItems.modularium.plate.itemArray[0]]
+			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate]
+		]
+	],
+
+	//Viescraft
+
+	<vc:upgrades/upgrade_airship_core:1> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <stevescarts:cartmodule>, <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+
+
+	<vc:upgrades/upgrade_airship_core:2> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	]
 

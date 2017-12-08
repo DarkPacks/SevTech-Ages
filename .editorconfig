@@ -8,5 +8,8 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+[/config/**]
+end_of_line = none
+
 [*.md]
 trim_trailing_whitespace = false

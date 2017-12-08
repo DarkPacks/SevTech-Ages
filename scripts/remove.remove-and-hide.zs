@@ -15,19 +15,11 @@ var removeAndHideItems = [
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
 	<betterwithmods:stump:*>,
+	<buildcraftcore:gear_stone>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
-	<factorytech:ingot:1>,
-	<factorytech:ingot>,
 	<immcraft:furnace>,
-	<libvulpes:metal0:4>,
-	<libvulpes:metal0:5>,
-	<libvulpes:metal0:6>,
-	<libvulpes:metal0:9>,
-	<libvulpes:productrod:1>,
-	<libvulpes:productrod:4>,
-	<libvulpes:productrod:6>,
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,
 	<natura:amaranth_trap_door>,
@@ -88,20 +80,11 @@ var removeAndHideItems = [
   	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 
-
-	//Nuggets 
+	//Nuggets
 	<betterwithmods:material:46>,
-	<embers:nugget_bronze>,
-	<embers:nugget_dawnstone>,
-	<embers:nugget_tin>,
 	<extendedcrafting:material:1>,
-	<immersiveengineering:metal:20>,
-	<immersiveengineering:metal:21>,
-	<immersiveengineering:metal:25>,
 	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>,
-	<tconstruct:nuggets:3>,
-	<tconstruct:nuggets:4>
+	<mysticalagriculture:crafting:45>  //Soulium Nugget
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

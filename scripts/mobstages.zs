@@ -5,7 +5,7 @@
 mods.MobStages.addStage(String stage, String entityId);
 
 // Adds a replacement for a mob. If the mob fails to spawn, the replacement
-// mob will be spawned in it's place. 
+// mob will be spawned in it's place.
 mods.MobStages.addReplacement(String entityId, String replacementId);
 
 // Adds a range value for players to find. The default range is 256, and is
@@ -13,13 +13,13 @@ mods.MobStages.addReplacement(String entityId, String replacementId);
 mods.MobStages.addRange(String entityId, int range);
 
 // Toggles whether or not mobs from spawners can spawn without a nearby player
-// with the stage. true = allow. Default is false. 
+// with the stage. true = allow. Default is false.
 mods.MobStages.toggleSpawners(String entityId, boolean allow);
 
 // The above non-dimension specific methods will apply globally to all dimensions
-// unless you override them with a dimension specific one. For example, you can 
-// make skeletons in the nether spawn at stage three, and use stage two for every 
-// other dimension. 
+// unless you override them with a dimension specific one. For example, you can
+// make skeletons in the nether spawn at stage three, and use stage two for every
+// other dimension.
 
 mods.MobStages.addStage(String stage, String entityId, int dimension);
 mods.MobStages.addReplacement(String entityId, String replacementId, int dimension);

@@ -108,7 +108,7 @@ var stage4Items = [
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
-	//Ore 
+	//Ore
 	<immersiveengineering:ore:5>,
 
 	//Tesla
@@ -197,7 +197,7 @@ var stage4Items = [
 	<actuallyadditions:magnet_ring_bauble>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
 
-	//Car Mod 
+	//Car Mod
 	<car:arrow>,
 	<car:arrow_cross>,
 	<car:arrow_cross_yellow>,
@@ -518,7 +518,7 @@ var stage4Items = [
 	<embers:pipe>,
 	<embers:pump>,
 
-	//Modular Machinery 
+	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
 	<modularmachinery:blockcasing:3>,
 	<modularmachinery:blockcasing:4>,

@@ -1,7 +1,7 @@
 //Dimensions
 //Beneath
 mods.DimensionStages.addDimensionStage(STAGES.one, 10);
-//Twilight Forest 
+//Twilight Forest
 mods.DimensionStages.addDimensionStage(STAGES.two, 7);
 //Nether
 mods.DimensionStages.addDimensionStage(STAGES.three, -1);

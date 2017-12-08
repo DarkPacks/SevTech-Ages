@@ -1,0 +1,119 @@
+{
+  "registryname": "industrial_loom",
+  "localizedname": "Industrial Loom",
+  "color": "4c4c4c",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    }
+  ]
+}

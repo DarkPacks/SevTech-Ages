@@ -41,7 +41,7 @@ mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:shuriken");
 
 
 
-//Prevents the material from being used. 
+//Prevents the material from being used.
 mods.TinkerStages.addMaterialStage(STAGES.one, "bone");
 mods.TinkerStages.addMaterialStage(STAGES.one, "flint");
 mods.TinkerStages.addMaterialStage(STAGES.one, "stone");

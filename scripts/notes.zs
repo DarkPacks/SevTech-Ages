@@ -18,7 +18,7 @@
 //Prevents crafting pickaxes unless the stage is unlocked.
 //mods.TinkerStages.addToolTypeStage("two", "tconstruct:pickaxe");
 
-//Prevents the material from being used. 
+//Prevents the material from being used.
 //mods.TinkerStages.addMaterialStage("two", "stone");
 
 //Prevents the modifier from being applied.
@@ -28,7 +28,7 @@
 
 
 //
-//BASE 
+//BASE
 //
 //import mods.contenttweaker.VanillaFactory;
 //import mods.contenttweaker.Block;
@@ -109,19 +109,19 @@
 // inputStack is the item you put on the Crafting Core
 // pedestalStack is one of the items you place on a pedestal to be combined with the input; you can have up to 48 of these, not sure why anyone would want that (and you probably wouldnt be able to see the ingredients in jei)
 //mods.extendedcrafting.CombinationCrafting.addRecipe(<outputStack>, rfCost, rfPerTick, <inputStack>, [<pedestalStack>, <pedestalStack>]);
-// 
+//
 // Table Crafting
 // Shapeless - this is the same for all of them, with the size of the input deciding which table it's for, max is 81 stacks
 // I most likely will make it so you can optionally set a recipe to a specific tier
 //mods.extendedcrafting.TableCrafting.addShapeless(<outputStack>, [<inputStack>, <inputStack>]);
-// 
+//
 // Shaped - same syntax for all of them, also note that the recipes will work in all the tables with enough slots
 // Probably gonna add the ability to set a tier for these as well
 //mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
 //mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>]]);
 //mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>]]);
 //mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
-// 
+//
 // Compression crafting
 // inputStack is the stack that gets consumed, inputCount is how much of that stack is required to make the thing
 // catalystStack is the recipe identifier item, does not get consumed (might make it possible to be though)
@@ -130,10 +130,10 @@
 //mods.extendedcrafting.CompressionCrafting.addRecipe(<outputStack>, <inputStack>, inputCount, <catalystStack>, rfCost);
 
 
-//removing all chest loot: 
+//removing all chest loot:
 
 //Use string array for loot table names, then use a "for loop" to get them and call
-//LootTable.clear() 
+//LootTable.clear()
 
 
 //for item in loadedMods["primal"].items {
@@ -722,19 +722,19 @@ minecraft: obsidian
 // inputStack is the item you put on the Crafting Core
 // pedestalStack is one of the items you place on a pedestal to be combined with the input; you can have up to 48 of these, not sure why anyone would want that (and you probably wouldnt be able to see the ingredients in jei)
 mods.extendedcrafting.CombinationCrafting.addRecipe(<outputStack>, rfCost, rfPerTick, <inputStack>, [<pedestalStack>, <pedestalStack>]);
- 
+
 // Table Crafting
 // Shapeless - this is the same for all of them, with the size of the input deciding which table it's for, max is 81 stacks
 // I most likely will make it so you can optionally set a recipe to a specific tier
 mods.extendedcrafting.TableCrafting.addShapeless(<outputStack>, [<inputStack>, <inputStack>]);
- 
+
 // Shaped - same syntax for all of them, also note that the recipes will work in all the tables with enough slots
 // Probably gonna add the ability to set a tier for these as well
 mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
 mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>]]);
 mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>]]);
 mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
- 
+
 // Compression crafting
 // inputStack is the stack that gets consumed, inputCount is how much of that stack is required to make the thing
 // catalystStack is the recipe identifier item, does not get consumed (might make it possible to be though)

@@ -77,7 +77,7 @@ var replacementItemsForStage = {
 		[<minecraft:torch:4>, <primal_tech:fibre_torch:4>],
 
 		//Aquamarine ContentTweaker
-		[<contenttweaker:sub_block_holder_0>]
+		[<materialpart:aquamarine:ore_minecraft_stone>]
 	],
 
 	STAGES.two : [
@@ -244,7 +244,7 @@ for stage, itemReplacementPairs in replacementItemsForStage {
 			mods.OreTiers.addReplacement(stage, itemReplacementPair[0]);
 		} else if (length == 2) {
 			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1]);
-		}	
+		}
 	}
 }
 

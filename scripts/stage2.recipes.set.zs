@@ -47,12 +47,11 @@ var itemsForStage = [
 	<minecraft:painting>,
 	<quark:glass_item_frame>,
 
-	//Chisel 
+	//Chisel
 	<chisel:waterstone1:1>,
 
 	//TComplement Melter Changes for Stage 2 / Twilight Access
 	<tcomplement:materials>,
-	<tconstruct:faucet>,
 	<tconstruct:toolforge>,
 	<tconstruct:tooltables>,
 

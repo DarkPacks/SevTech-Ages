@@ -13,16 +13,6 @@ recipes.addShapeless(<primal_tech:fire_sticks>, [stick, stick]);
 
 recipes.addShapeless(<primal:leather_strip> * 9, [leather, <ore:toolWorkBlade>]);
 
-//Horse Power
-
-//mods.horsepower.Recipes.addShaped(<ore:plankWood, <horsepower:chopping_block>, [<ingredients>]);
-
-
-mods.horsepower.Recipes.addShapeless(log, <horsepower:chopping_block>, [log]);
-
-
-mods.horsepower.Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead>, <ore:stickWood>, <minecraft:lead>], [plank, <minecraft:flint>, plank], [plank, <horsepower:chopping_block>, plank]]);
-
 
 recipes.addShapeless(<primal:plant_cloth>, [cordage, cordage, cordage, cordage, cordage, cordage, cordage, cordage, cordage]);
 

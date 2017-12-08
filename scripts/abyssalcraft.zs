@@ -1,17 +1,17 @@
 mods.abyssalcraft.InfusionRitual.addRitual("beneathritual", 0, 0, 1000, false, <beneath:teleporterbeneath>, <progressiontweaks:blank_teleporter>, [<embers:block_lantern>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>, <betterwithmods:material:18>, <abyssalcraft:stone:7>, <roots:fairy_dust>, <abyssalcraft:stone:7>,  <minecraft:dark_oak_fence_gate>], false, []);
-game.setLocalization("ac.ritual.beneathritual", "Beneath Portal Creation Ritual"); 
+game.setLocalization("ac.ritual.beneathritual", "Beneath Portal Creation Ritual");
 
 
 //Astral Sorcery Table 1
 mods.abyssalcraft.InfusionRitual.addRitual("ascraftingtable", 0, 0, 1000, false, <astralsorcery:blockaltar>, <minecraft:crafting_table>, [<ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>,  <astralsorcery:itemcraftingcomponent>], false, []);
-game.setLocalization("ac.ritual.ascraftingtable", "Luminous Crafting Table Creation"); 
+game.setLocalization("ac.ritual.ascraftingtable", "Luminous Crafting Table Creation");
 game.setLocalization("ac.ritual.ascraftingtable.desc", "This ritual can only be performed in Stage 2");
 mods.abyssalcraft.RitualStages.addRitualStage("one", "ascraftingtable");
 
 
 //Astral Sorcery Constellation Paper
 mods.abyssalcraft.InfusionRitual.addRitual("constellationpaper", 0, 0, 500, false, <astralsorcery:itemconstellationpaper>, <astralsorcery:itemcraftingcomponent:5>, [<ore:asCrystal>, <astralsorcery:itemcraftingcomponent>, <minecraft:gold_ingot>, <astralsorcery:itemcraftingcomponent>, <ore:asCrystal>, <astralsorcery:itemcraftingcomponent>, <minecraft:gold_ingot>, <astralsorcery:itemcraftingcomponent>], false, []);
-game.setLocalization("ac.ritual.constellationpaper", "Constellation Paper"); 
+game.setLocalization("ac.ritual.constellationpaper", "Constellation Paper");
 game.setLocalization("ac.ritual.constellationpaper.desc", "This ritual can only be performed in Stage 2");
 mods.abyssalcraft.RitualStages.addRitualStage("two", "constellationpaper");
 

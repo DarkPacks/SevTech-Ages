@@ -38,11 +38,11 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 2
 // Inputs have to have at least 1 non-null input.
 // Arrays are indexed as follows:
 //
-// [ 9]                [10] 
-//      [ 0] [ 1] [ 2] 
-//      [ 3] [ 4] [ 5] 
+// [ 9]                [10]
+//      [ 0] [ 1] [ 2]
+//      [ 3] [ 4] [ 5]
 //      [ 6] [ 7] [ 8]
-// [11]                [12] 
+// [11]                [12]
 //
 // Parameters:
 // OutputStack, (int) starlightRequired, (int) craftTickTime, Inputs-Array (*has* to be 13 elements)
@@ -97,11 +97,11 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 1
 // Inputs have to have at least 1 non-null input.
 // Arrays are indexed as follows:
 //
-// [ 9] [13]      [14] [10] 
-// [15] [ 0] [ 1] [ 2] [16] 
-//      [ 3] [ 4] [ 5] 
-// [17] [ 6] [ 7] [ 8] [18] 
-// [11] [19]      [20] [12] 
+// [ 9] [13]      [14] [10]
+// [15] [ 0] [ 1] [ 2] [16]
+//      [ 3] [ 4] [ 5]
+// [17] [ 6] [ 7] [ 8] [18]
+// [11] [19]      [20] [12]
 //
 // Parameters:
 // OutputStack, (int) starlightRequired, (int) craftTickTime, Inputs-Array (*has* to be 21 elements)

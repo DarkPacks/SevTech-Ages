@@ -185,7 +185,7 @@ var itemsForStage = [
 	<teslacorelib:speed_tier2>,
 	<teslacorelib:wrench>,
 
-	//Modular Machinery 
+	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
 	<modularmachinery:blockcasing:3>,
 	<modularmachinery:blockcasing:4>,

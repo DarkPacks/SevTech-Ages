@@ -41,7 +41,7 @@ var stage5Items = [
 	<prospectors:prospector_best>,
 	<teslacorelib:gear_diamond>,
 
-	//Ore 
+	//Ore
 	<abyssalcraft:abydiaore>,
 	<minecraft:diamond_ore>,
 	<minecraft:emerald_ore>,
@@ -638,7 +638,7 @@ var stage5Items = [
 	<environmentaltech:lonsdaleite:*>,
 	<environmentaltech:pladium:*>,
 
-	//Extended Crafting 
+	//Extended Crafting
 	<extendedcrafting:compressor>,
 	<extendedcrafting:material:11>,
 	<extendedcrafting:material:12>,

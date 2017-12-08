@@ -11,7 +11,7 @@
 //mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:material:6>);
 
 //Black Iron Creation
-mods.immersiveengineering.AlloySmelter.addRecipe(metals.blackIron.ingot, <embers:dust_ash>, metals.iron.ingot, 600);
+mods.immersiveengineering.AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
 
 /*
 //Metal Press

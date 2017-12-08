@@ -61,6 +61,22 @@ var shapedRecipes = {
 		[[null, iron, str], [null, stick, iron], [stick, null, null]]
 	],
 
+	<immersiveengineering:metal_device0:5> : [
+		[
+			[<industrialforegoing:plastic>, <immersiveengineering:material:9>, <industrialforegoing:plastic>],
+			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
+			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
+		]
+	],
+
+	<betterwithmods:rope>*3 : [
+		[
+			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
+			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
+			[<immersiveengineering:material:4>, <immersiveengineering:material:4>]
+		]
+	],
+
 	//Embers Stage 3
 	<embers:axe_aluminum> : [
 		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
@@ -178,6 +194,29 @@ var shapedRecipes = {
 		[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]]
 	],
 
+	//Tinkers' Construct
+	 <tconstruct:smeltery_controller> : [
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+		]
+	],
+	 <tconstruct:seared_furnace_controller> : [
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
+		]
+	],
+	 <tconstruct:tinker_tank_controller> : [
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
+		]
+	],
+
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
 		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>],
@@ -198,7 +237,6 @@ var shapedRecipes = {
 	],
 
 	//Modular Machinery
-
 	<modularmachinery:blockcontroller> : [
 		[
 			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate],
@@ -206,7 +244,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, <immersiveengineering:material:27>, metals.modularium.plate]
 		]
 	],
-
 	<modularmachinery:blockcasing>*2 : [
 		[
 			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
@@ -214,7 +251,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate]
 		]
 	],
-
 	<modularmachinery:blockcasing:1>*2 : [
 		[
 			[metals.modularium.plate, <minecraft:iron_bars>, metals.modularium.plate],
@@ -222,7 +258,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, <minecraft:iron_bars>, metals.modularium.plate]
 		]
 	],
-
 	<modularmachinery:blockoutputbus:1> : [
 		[
 			[metals.modularium.plate, <uppers:upper>, metals.modularium.plate],
@@ -230,7 +265,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, null, metals.modularium.plate]
 		]
 	],
-
 	<modularmachinery:blockinputbus:1> : [
 		[
 			[metals.modularium.plate, <minecraft:hopper>, metals.modularium.plate],
@@ -238,8 +272,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, null, metals.modularium.plate]
 		]
 	],
-
-
 	<modularmachinery:blockfluidinputhatch> : [
 		[
 			[metals.modularium.plate, <uppers:upper>, metals.modularium.plate],
@@ -247,8 +279,6 @@ var shapedRecipes = {
 			[metals.modularium.plate, <immersiveengineering:metal_device0:4>, metals.modularium.plate]
 		]
 	],
-
-
 	<modularmachinery:blockenergyinputhatch> : [
 		[
 			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate],
@@ -258,7 +288,6 @@ var shapedRecipes = {
 	],
 
 	//Viescraft
-
 	<vc:upgrades/upgrade_airship_core:1> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
@@ -266,16 +295,139 @@ var shapedRecipes = {
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
-
-
 	<vc:upgrades/upgrade_airship_core:2> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
 			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
+	],
+	<vc:upgrades/upgrade_airship_core:3> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:2>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_core:4> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:3>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_core:5> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:4>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_frame:1> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:airship_frame>, <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_frame:2> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_frame:3> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:2>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_frame:4> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:3>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_frame:5> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:4>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_engine:1> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_engine>, <stevescarts:cartmodule>, <vc:upgrades/upgrade_airship_engine>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_engine:2> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:1>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_engine:3> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:2>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_engine:4> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:3>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_engine:5> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:4>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_balloon:1> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:airship_balloon>, <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_balloon:2> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:1>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_balloon:3> : [
+	  	[
+	  		[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+	  		[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+	  		[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+	  	]
+	],
+	<vc:upgrades/upgrade_airship_balloon:4> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:3>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
+	],
+	<vc:upgrades/upgrade_airship_balloon:5> : [
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:4>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
 	]
-
 
 } as IIngredient[][][][IItemStack];
 

@@ -38,9 +38,6 @@ var stage1Items = [
 	<immersiveengineering:ore>,
 	<minecraft:coal_ore>,
 
-	//Plate
-	<immersiveengineering:metal:30>,
-
 	//Bricks
 	<betterwithaddons:bricks_stained:*>,
 	<betterwithaddons:material:*>,
@@ -526,13 +523,10 @@ var stage1Items = [
 	<embers:axe_copper>,
 	<embers:axe_tin>,
 	<embers:blend_caminite>,
-	<embers:block_bronze>,
 	<embers:block_caminite_brick>,
 	<embers:block_caminite_brick_slab>,
 	<embers:block_caminite_brick_slab_double>,
-	<embers:block_copper>,
 	<embers:block_lantern>,
-	<embers:block_tin>,
 	<embers:brick_caminite>,
 	<embers:copper_cell>,
 	<embers:crystal_ember>,
@@ -546,21 +540,15 @@ var stage1Items = [
 	<embers:hoe_bronze>,
 	<embers:hoe_copper>,
 	<embers:hoe_tin>,
-	<embers:ingot_bronze>,
-	<embers:ingot_tin>,
 	<embers:mech_accessor>,
 	<embers:mech_core>,
 	<embers:mixer>,
-	<embers:nugget_bronze>,
-	<embers:nugget_tin>,
 	<embers:ore_tin>,
 	<embers:pickaxe_bronze>,
 	<embers:pickaxe_copper>,
 	<embers:pickaxe_tin>,
-	<embers:plate_bronze>,
 	<embers:plate_caminite>,
 	<embers:plate_caminite_raw>,
-	<embers:plate_tin>,
 	<embers:shard_ember>,
 	<embers:shovel_bronze>,
 	<embers:shovel_copper>,
@@ -583,12 +571,6 @@ var stage1Items = [
 
 	//Content Tweaker
 	<materialpart:aquamarine:ore_minecraft_stone>,
-	<materialpart:bronze:beam>,
-	<materialpart:bronze:bolt>,
-	<materialpart:copper:beam>,
-	<materialpart:copper:bolt>,
-	<materialpart:tin:beam>,
-	<materialpart:tin:bolt>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:*>,
@@ -659,7 +641,6 @@ var stage1Items = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
-
 
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,

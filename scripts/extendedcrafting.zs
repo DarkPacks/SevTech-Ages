@@ -33,29 +33,40 @@ recipes.remove(<vc:airship_engine>);
 recipes.remove(<vc:airship_balloon>);
 
 //Viescraft Airship Ignition
-mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_ignition>,
-	[[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <minecraft:blaze_rod>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:material:1>, metals.platinum.gear, <stevescarts:cartmodule:0>, metals.platinum.gear, <immersiveengineering:material:1>],
-	[<immersiveengineering:metal:39>, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <minecraft:blaze_rod>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>]]);
+mods.extendedcrafting.TableCrafting.addShaped(
+	<vc:airship_ignition>,
+	[
+		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod>, metals.iron.plate, metals.iron.plate],
+		[metals.iron.plate, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, metals.iron.plate],
+		[metals.iron.rod, metals.platinum.gear, <stevescarts:cartmodule:0>, metals.platinum.gear, metals.iron.rod],
+		[metals.iron.plate, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, metals.iron.plate],
+		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod>, metals.iron.plate, metals.iron.plate]
+	]
+);
 
 //Viescraft Ship Engine
-mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_engine>,
-	[[<immersiveengineering:metal:38>, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>, <immersiveengineering:metal:38>],
-	[<immersiveengineering:metal:39>, metals.fiery.rod, metals.fiery.rod, metals.fiery.rod, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, metals.steeleaf.gear, <stevescarts:cartmodule:44>, metals.steeleaf.gear, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:39>, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, <immersiveengineering:metal:39>],
-	[<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <minecraft:redstone_block>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>]]);
+mods.extendedcrafting.TableCrafting.addShaped(
+	<vc:airship_engine>,
+	[
+		[metals.steel.plate, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>, metals.steel.plate],
+		[metals.iron.plate, metals.fiery.rod, metals.fiery.rod, metals.fiery.rod, metals.iron.plate],
+		[metals.iron.plate, metals.steeleaf.gear, <stevescarts:cartmodule:44>, metals.steeleaf.gear, metals.iron.plate],
+		[metals.iron.plate, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, metals.redstoneAlloy.plate, metals.iron.plate],
+		[metals.steel.plate, metals.steel.plate, <minecraft:redstone_block>, metals.steel.plate, metals.steel.plate]
+	]
+);
 
 //Viescraft Ship Balloon
-mods.extendedcrafting.TableCrafting.addShaped(<vc:airship_balloon>,
-	[[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>],
-	[<minecraft:string>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string>],
-	[<betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>],
-	[<minecraft:string>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string>],
-	[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>]]);
-
+mods.extendedcrafting.TableCrafting.addShaped(
+	<vc:airship_balloon>,
+	[
+		[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>],
+		[<minecraft:string>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string>],
+		[<betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>],
+		[<minecraft:string>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string>],
+		[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>]
+	]
+);
 
 
 //

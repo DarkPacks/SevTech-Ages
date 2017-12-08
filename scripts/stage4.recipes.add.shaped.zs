@@ -87,8 +87,8 @@ mods.recipestages.Recipes.setRecipeStage("four", <embers:item_pipe>);
 
 
 recipes.remove(<factorytech:intermediate:2>);
-mods.recipestages.Recipes.addShaped("four", <factorytech:intermediate:2>, [[<factorytech:salvage:7>, <minecraft:gold_nugget>], [<immersiveengineering:metal:20>, null]]);
-mods.recipestages.Recipes.addShaped("four", <factorytech:intermediate:2>, [[<minecraft:iron_nugget>, <immersiveengineering:metal:19>, <minecraft:iron_nugget>], [<minecraft:iron_nugget>, <factorytech:machinepart:6>, <minecraft:iron_nugget>], [<minecraft:iron_nugget>, <immersiveengineering:metal:9>, <minecraft:iron_nugget>]]);
+mods.recipestages.Recipes.addShaped("four", <factorytech:intermediate:2>, [[<factorytech:salvage:7>, metals.gold.nugget], [metals.copper.nugget, null]]);
+mods.recipestages.Recipes.addShaped("four", <factorytech:intermediate:2>, [[metals.iron.nugget, metals.gold.dust, metals.iron.nugget], [metals.iron.nugget, <factorytech:machinepart:6>, metals.iron.nugget], [metals.iron.nugget, metals.copper.dust, metals.iron.nugget]]);
 
 //mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantum_tank>);
 //mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantum_barrel>);

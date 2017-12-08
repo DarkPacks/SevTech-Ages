@@ -28,7 +28,6 @@ var removeItems = [
 	<immersiveengineering:material:21>,
 	<immersiveengineering:material:22>,
 	<immersiveengineering:material:23>,
-	<immersiveengineering:metal:15>,
 	<immersiveengineering:metal_decoration0:3>,
 	<immersiveengineering:tool:1>,
 	<minecraft:activator_rail>,

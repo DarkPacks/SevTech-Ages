@@ -72,11 +72,6 @@ var stage2Items = [
 	<abyssalcraft:abynitore>,
 	<minecraft:gold_ore>,
 
-	//Plates
-	<immersiveengineering:metal:38>,
-	<immersiveengineering:metal:39>,
-	<immersiveengineering:metal:40>,
-
 	//Glass
 	<minecraft:glass>,
 	<minecraft:glass_pane>,
@@ -91,16 +86,13 @@ var stage2Items = [
 	<betterbuilderswands:wandiron>,
 	<minecraft:iron_axe>,
 	<minecraft:iron_bars>,
-	<minecraft:iron_block>,
 	<minecraft:iron_boots>,
 	<minecraft:iron_chestplate>,
 	<minecraft:iron_door>,
 	<minecraft:iron_helmet>,
 	<minecraft:iron_hoe>,
 	<minecraft:iron_horse_armor>,
-	<minecraft:iron_ingot>,
 	<minecraft:iron_leggings>,
-	<minecraft:iron_nugget>,
 	<minecraft:iron_pickaxe>,
 	<minecraft:iron_shovel>,
 	<minecraft:iron_sword>,

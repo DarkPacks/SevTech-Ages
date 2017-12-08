@@ -81,6 +81,24 @@ fluidOstoniumData.addDataValue("viscosity", "3000");
 fluidOstoniumData.addDataValue("temperature", "550");
 fluidOstoniumData.addDataValue("vaporize", "false");
 
+//Naphtha
+var naphtha = MaterialSystem.getMaterialBuilder().setName("Naphtha").setColor(10703708).build();
+var fluidNaphthaData = naphtha.registerPart("molten").getData();
+fluidNaphthaData.addDataValue("density", "4000");
+fluidNaphthaData.addDataValue("viscosity", "3000");
+
+//Liquid Plastic
+var plastic = MaterialSystem.getMaterialBuilder().setName("Plastic").setColor(16777215).build();
+var fluidPlasticData = plastic.registerPart("molten").getData();
+fluidPlasticData.addDataValue("density", "4000");
+fluidPlasticData.addDataValue("viscosity", "3000");
+
+//Propene "Gas"
+var propene = MaterialSystem.getMaterialBuilder().setName("Propene").setColor(8026746).build();
+var fluidPropeneData = propene.registerPart("molten").getData();
+fluidPropeneData.addDataValue("density", "4000");
+fluidPropeneData.addDataValue("viscosity", "3000");
+
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
 var redparts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];

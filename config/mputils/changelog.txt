@@ -3,6 +3,7 @@
 §l§nAlpha 10
 * §3Fixed the Wooden Basin recipes
 * Altered the consumption chance of liquid starlight for the Stardust recipe
+* §3Disabled Buildcraft world generation
 
 --------------------------------------------------------------------------------------------------------------------------
 

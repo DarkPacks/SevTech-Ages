@@ -1,6 +1,6 @@
 {
-  "registryname": "industrial_loom",
-  "localizedname": "Industrial Loom",
+  "registryname": "hardener",
+  "localizedname": "Hardener",
   "color": "4c4c4c",
   "parts": [
     {
@@ -16,23 +16,7 @@
       "y": 0,
       "z": 1,
       "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": -2,
-      "y": 0,
-      "z": 2,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "z": 1,
-      "elements": [
-        "modularmachinery:blockcasing@0"
+        "modularmachinery:blockfluidinputhatch@0"
       ]
     },
     {
@@ -44,9 +28,9 @@
       ]
     },
     {
-      "x": -2,
-      "y": 0,
-      "z": 0,
+      "x": -1,
+      "y": -1,
+      "z": 1,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]
@@ -60,9 +44,17 @@
       ]
     },
     {
-      "x": 1,
+      "x": 0,
       "y": 0,
       "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]
@@ -72,23 +64,31 @@
       "y": 0,
       "z": 2,
       "elements": [
-        "modularmachinery:blockenergyinputhatch"
+        "modularmachinery:blockcasing@0"
       ]
     },
     {
-      "x": 2,
+      "x": 1,
       "y": 0,
-      "z": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]
     },
     {
-      "x": 2,
-      "y": 0,
-      "z": 1,
+      "x": 0,
+      "y": -1,
+      "z": 2,
       "elements": [
-        "modularmachinery:blockinputbus"
+        "modularmachinery:blockenergyinputhatch@1"
       ]
     },
     {
@@ -100,19 +100,43 @@
       ]
     },
     {
-      "x": 2,
-      "y": 0,
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
       "z": 2,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]
     },
     {
-      "x": -2,
-      "y": 0,
-      "z": 1,
+      "x": 1,
+      "y": -1,
+      "z": 0,
       "elements": [
-        "modularmachinery:blockoutputbus"
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
       ]
     }
   ]

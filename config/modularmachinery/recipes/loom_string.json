@@ -1,5 +1,5 @@
 {
-  "machine": "industrail_loom",
+  "machine": "industrial_loom",
   "registryName": "string",
   "recipeTime": 150,
   "requirements": [
@@ -11,8 +11,7 @@
     {
       "type": "item",
       "io-type": "output",
-      "item": "minecraft:string",
-      "amount": 1
+      "item": "minecraft:string"
     },
     {
       "type": "item",

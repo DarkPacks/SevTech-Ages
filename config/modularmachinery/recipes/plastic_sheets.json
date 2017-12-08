@@ -1,0 +1,25 @@
+{
+  "machine": "hardener",
+  "registryName": "plasticsheets",
+  "recipeTime": 100,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 10
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "industrialforegoing:plastic",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "io-type": "input",
+      "fluid": "plastic",
+      "amount": 250,
+      "chance": 1.0
+    }
+  ]
+}

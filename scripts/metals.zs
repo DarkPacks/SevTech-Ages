@@ -181,7 +181,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		/*
 			Remove Metal Recipes
 		*/
-		if (metalType == "rod") {
+		if (metalType == "rod" | metalType == "plate" | metalType == "dust") {
 			recipes.remove(preferredMetalItem);
 		}
 	}

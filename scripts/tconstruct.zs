@@ -68,8 +68,8 @@ var shieldMetals = [
 	"iron",
 	"gold",
 	"obsidian",
-	"lead"
-	//"invar"
+	"lead",
+	"invar"
 ] as string[];
 
 for shieldMetal in shieldMetals {

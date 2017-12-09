@@ -195,6 +195,13 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		if (!metalItem.matches(preferredMetalItem)) {
 			mods.jei.JEI.removeAndHide(metalItem);
 
+			//Try removing by regex because some mods are the greatest and wont remove otherwise
+			recipes.removeByRegex(".*" + metalType + metalName + ".*");
+			if (metalType == "rod") {
+				//Since some mods want to be special and use stick for rods' ore dict prefix
+				recipes.removeByRegex(".*" + "stick" + metalName + ".*");
+			}
+
 			if (loadedMods.contains("immersiveengineering")) {
 				mods.immersiveengineering.MetalPress.removeRecipe(metalItem);
 			}

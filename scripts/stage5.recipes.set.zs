@@ -1,5 +1,5 @@
 import crafttweaker.item.IItemStack;
-#debug
+
 var STAGE = STAGES.five;
 
 var itemsForStage = [

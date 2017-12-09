@@ -870,6 +870,6 @@ var recipesForStage = [
 	"mysticalagradditions:wither_skeleton_skull_souls"
 ] as string[];
 
-for recipeList in recipesForStage {
-	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeList);
+for recipeName in recipesForStage {
+	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
 }

@@ -67,7 +67,15 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 	}
 
 	if (hasPreferredItem) {
-		//Stage Metal Item
+		/*
+			Remove Metal Recipes
+		*/
+		recipes.remove(preferredMetalItem);
+		furnace.remove(preferredMetalItem);
+
+		/*
+			Stage Metal Item
+		*/
 		if (metalStages[metalName] != "" & hasPreferredItem) {
 			mods.ItemStages.addItemStage(metalStages[metalName], preferredMetalItem);
 			mods.recipestages.Recipes.setRecipeStage(metalStages[metalName], preferredMetalItem);
@@ -178,13 +186,6 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			} else if (metalType == "nugget") {
 				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem * 9, metalItems[metalName].ingot.items[0]);
 			}
-		}
-
-		/*
-			Remove Metal Recipes
-		*/
-		if (metalType == "rod" | metalType == "plate" | metalType == "dust") {
-			recipes.remove(preferredMetalItem);
 		}
 	}
 

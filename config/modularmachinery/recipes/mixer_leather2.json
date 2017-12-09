@@ -11,7 +11,7 @@
     {
       "type": "item",
       "io-type": "output",
-      "item": "minecraft:leather",
+      "item": "primal:hide_tanned",
       "amount": 4
     },
     {

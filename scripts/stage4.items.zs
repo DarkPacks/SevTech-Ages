@@ -5,7 +5,6 @@ var STAGE = STAGES.four;
 var modIDs = [
 	"cookingforblockheads",
 	"elevatorid",
-	"jp.crafterkina.pipes",
 	"modularrouters",
 	"nuclearphysics",
 	"quantumstorage",

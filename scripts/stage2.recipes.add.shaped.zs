@@ -131,9 +131,23 @@ var shapedRecipes = {
 	],
 	<minecraft:hopper> : [
 		[
-			[metals.iron.plate, <minecraft:chest>,metals.iron.plate],
-			[metals.iron.plate, metals.bronze.gear,metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
 			[null, metals.iron.plate, null]
+		]
+	],
+	<uppers:upper> : [
+		[
+			[null, metals.iron.plate, null],
+			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate]
+		]
+	],
+	<minecraft:iron_bars>*16 : [
+		[
+			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
+			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
+			[null, null, null]
 		]
 	],
 	<minecraft:iron_axe> : [
@@ -170,6 +184,11 @@ var shapedRecipes = {
 	],
 	<minecraft:iron_sword> : [
 		[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, stick, null]]
+	],
+	<minecraft:name_tag> : [
+		[[null, null, <minecraft:string>], 
+		[null, <minecraft:paper>, null], 
+		[null, <ore:dyeBlack>, null]]
 	],
 	<minecraft:piston> : [
 		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]

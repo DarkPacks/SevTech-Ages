@@ -4,6 +4,16 @@
 * §3Fixed the Wooden Basin recipes
 * Altered the consumption chance of liquid starlight for the Stardust recipe
 * §3Disabled Buildcraft world generation
+* Fully converted skillable skills to advancements
+* §3Added "Wooden Barrel" and "Market" advancements
+* Removed Wooden Tools
+* §3Added recipe for Primal Barrel
+* Added a "nicer" recipe for BWM rope as you progress
+* §3Modified BWM Wooden Axle Recipe
+* Adjusted recipe for I.E. Pump
+* §3Added "nicer" recipe for Tcon smeltery parts as you progress
+* Added Viescraft Core, Frame, Engine, and Balloon recipes
+* §3Adjusted 4x Minecraft torch recipe
 
 --------------------------------------------------------------------------------------------------------------------------
 

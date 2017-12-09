@@ -268,7 +268,7 @@ var shapedRecipes = {
 	],
 	<modularmachinery:blockfluidinputhatch> : [
 		[
-			[metals.modularium.plate, <uppers:upper>, metals.modularium.plate],
+			[metals.modularium.plate, <minecraft:hopper>, metals.modularium.plate],
 			[null, <immersiveengineering:metal_device0:4>, null],
 			[metals.modularium.plate, <immersiveengineering:metal_device0:4>, metals.modularium.plate]
 		]

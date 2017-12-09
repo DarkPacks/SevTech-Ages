@@ -167,6 +167,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:40>,
 		rod: <primal:golden_stick>
 	},
+	invar: {
+		block: <materialpart:invar:block>,
+		dust: <factorytech:ore_dust:11>,
+		gear: <materialpart:invar:gear>,
+		ingot: <materialpart:invar:ingot>,
+		liquid: <liquid:invar>,
+		nugget: null,
+		plate: <materialpart:invar:plate>,
+		rod: <materialpart:invar:rod>,
+	},
 	iron: {
 		block: <minecraft:iron_block>,
 		dust: <immersiveengineering:metal:18>,

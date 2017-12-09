@@ -473,6 +473,8 @@ var stage3Items = [
 	<materialpart:redstone_alloy:bolt>,
 	<materialpart:silver:beam>,
 	<materialpart:silver:bolt>,
+	<materialpart:invar:beam>,
+	<materialpart:invar:bolt>,
 
 	//Dark Utils
 	<darkutils:charm_agression>,

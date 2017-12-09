@@ -19,6 +19,7 @@ var metalStages = {
 	ethaxium: "",
 	fiery: "two",
 	gold: "two",
+	invar: "three",
 	iron: "two",
 	knightslime: "",
 	lead: "three",

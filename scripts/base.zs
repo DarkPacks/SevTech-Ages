@@ -1,14 +1,9 @@
 #priority 1000
 #loader contenttweaker
-//////////
-// Calls
-//////////
+
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 
-//////////////
-// Variables
-//////////////
 var metal_list = [
 	MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build(),
 	MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(18347).build(),
@@ -18,7 +13,6 @@ var metal_list = [
 	MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build()
 ] as Material[];
 var part_names = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-//var ore_types = ["ore", "poor_ore", "dense_ore"] as string[];
 
 ///////////////////////////
 // Material registration
@@ -26,22 +20,6 @@ var part_names = ["gear", "plate", "beam", "bolt", "rod"] as string[];
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
-
-//    var ores = metal.registerParts(ore_types);
-//    for i, ore in ores {
-//        var oreData = ore.getData();
-//        oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack");
-//        oreData.addDataValue("hardness", "3,3,3");
-//        oreData.addDataValue("resistance", "15,15,15");
-//        oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
-//        oreData.addDataValue("harvestLevel", "1,1,1");
-//    }
-//
-//   var blockData = metal.registerPart("block").getData();
-//   blockData.addDataValue("hardness", "5");
-//   blockData.addDataValue("resistance", "30");
-//   blockData.addDataValue("harvestTool", "pickaxe");
-//   blockData.addDataValue("harvestLevel", "1");
 }
 
 //Aquamarine Ore
@@ -109,8 +87,8 @@ fluidPropeneData.addDataValue("viscosity", "3000");
 
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
-var redparts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
-redalloy.registerParts(redparts);
+var redParts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
+redalloy.registerParts(redParts);
 
 //Platinum
 var platinum = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(15066338).build();
@@ -119,13 +97,13 @@ platinum.registerParts(platParts);
 
 //Steeleaf
 var steeleaf = MaterialSystem.getMaterialBuilder().setName("Steeleaf").setColor(4283598394).build();
-var steelparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-steeleaf.registerParts(steelparts);
+var steelParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+steeleaf.registerParts(steelParts);
 
 //Fiery
 var fiery = MaterialSystem.getMaterialBuilder().setName("Fiery").setColor(2891807).setHasEffect(true).build();
-var fieryparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-fiery.registerParts(fieryparts);
+var fieryParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+fiery.registerParts(fieryParts);
 
 //Invar
 var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9872012).build();
@@ -151,13 +129,3 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("temperature", "550");
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
-
-
-/*
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Item;
-
-var pulp = VanillaFactory.createItem("pulp");
-zsItem.maxStackSize = 64;
-zsItem.register();
-*/

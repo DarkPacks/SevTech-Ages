@@ -112,6 +112,7 @@ mods.tconstruct.Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <
 
 //Liquid Glowstone
 mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
+mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 400, <minecraft:glowstone>);
 
 //Liquid Redstone
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);

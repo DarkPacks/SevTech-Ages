@@ -134,8 +134,13 @@ invar.registerParts(invarParts);
 
 //Modularium
 var modularium = MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(16730368).build();
-var modulariumparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-modularium.registerParts(modulariumparts);
+var modulariumParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+modularium.registerParts(modulariumParts);
+
+//Compressed Iron
+var compressedIron = MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build();
+var compressedIronParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+compressedIron.registerParts(compressedIronParts);
 
 //Fluids
 var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium] as Material[];

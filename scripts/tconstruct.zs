@@ -120,7 +120,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>)
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
 
 //Redstone Alloy Creation
-mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Redstone Alloy Rod
 mods.tconstruct.Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);

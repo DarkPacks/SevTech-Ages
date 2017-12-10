@@ -73,6 +73,14 @@ fluidRedstoneData.addDataValue("viscosity", "3000");
 fluidRedstoneData.addDataValue("temperature", "1000");
 fluidRedstoneData.addDataValue("vaporize", "false");
 
+//Liquid Glowstone
+var glowstone = MaterialSystem.getMaterialBuilder().setName("Glowstone").setColor(16708616).build();
+var fluidGlowstoneData = glowstone.registerPart("molten").getData();
+fluidRedstoneData.addDataValue("density", "8000");
+fluidRedstoneData.addDataValue("viscosity", "3000");
+fluidRedstoneData.addDataValue("temperature", "1000");
+fluidRedstoneData.addDataValue("vaporize", "false");
+
 //Liquid Ostonium
 var ostonium = MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build();
 var fluidOstoniumData = ostonium.registerPart("molten").getData();

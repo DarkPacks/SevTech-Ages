@@ -111,14 +111,14 @@ mods.tconstruct.Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
 mods.tconstruct.Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <geolosys:cluster:8>);
 
 //Liquid Glowstone
-mods.tconstruct.Melting.addRecipe(<liquid:ftglowstone> * 100, <minecraft:glowstone_dust>);
+mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
 
 //Liquid Redstone
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
 
 //Redstone Alloy Creation
-mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:ftglowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Redstone Alloy Rod
 mods.tconstruct.Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);

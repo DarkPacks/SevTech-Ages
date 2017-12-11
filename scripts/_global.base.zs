@@ -5,11 +5,17 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 global STAGES as string[string] = {
+	zero_mob : "zero_mob",
 	one : "one",
+	one_mob : "one_mob",
 	two : "two",
+	two_mob : "two_mob",
 	three : "three",
+	three_mob : "three_mob",
 	four : "four",
-	five : "five"
+	four_mob : "four_mob",
+	five : "five",
+	five_mob : "five_mob"
 };
 
 global bone as IItemStack = <minecraft:bone>;

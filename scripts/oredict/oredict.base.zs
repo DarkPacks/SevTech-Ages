@@ -146,7 +146,7 @@ for seed in seeds {
 <ore:barkWood>.add(<roots:bark_dark_oak>);
 <ore:barkWood>.add(<roots:bark_acacia>);
 
-<ore:plankWood>.add(<primal:planks:6>);
+<ore:plankWood>.add(<primal:planks:0>);
 
 <ore:shears>.add(<minecraft:shears>);
 <ore:shears>.add(<cyclicmagic:ender_wool>);
@@ -164,9 +164,6 @@ for seed in seeds {
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
 
 <ore:gearWood>.remove(<teslacorelib:gear_wood>);
-
-<ore:oreNickel>.remove(<factorytech:ore:1>);
-<ore:oreCopper>.remove(<factorytech:ore>);
 
 //Temp Fix
 <ore:logWood>.add(<minecraft:log:1>);

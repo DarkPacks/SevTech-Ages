@@ -33,6 +33,7 @@ var removeItems = [
 	<minecraft:golden_shovel>,
 	<minecraft:golden_sword>,
 	<minecraft:hopper>,
+	<minecraft:iron_bars>,
 	<minecraft:iron_axe>,
 	<minecraft:iron_boots>,
 	<minecraft:iron_chestplate>,
@@ -55,6 +56,7 @@ var removeItems = [
 	<tconstruct:smeltery_controller>,
 	<tconstruct:tinker_tank_controller>,
 	<twilightforest:magic_map_focus>,
+	<uppers:upper>,
 	<weirdinggadget:weirding_gadget>
 ] as IItemStack[];
 

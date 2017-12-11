@@ -11,6 +11,8 @@ var STAGE = STAGES.three;
 //mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
 
 var modIDs = [
+	"immersivepetroleum",
+	"immersivetech",
 	"nex",
 	"openglider",
 	"vc"

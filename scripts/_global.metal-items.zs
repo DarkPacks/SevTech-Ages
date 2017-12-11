@@ -87,6 +87,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <materialpart:cobalt:plate>,
 		rod: <materialpart:cobalt:rod>
 	},
+	compressedIron: {
+		block: <pneumaticcraft:compressed_iron_block>,
+		dust: null,
+		gear: <pneumaticcraft:compressed_iron_gear>,
+		ingot: <pneumaticcraft:ingot_iron_compressed>,
+		liquid: null,
+		nugget: null,
+		plate: <materialpart:compressed_iron:plate>,
+		rod: <materialpart:compressed_iron:rod>
+	},
 	constantan: {
 		block: <immersiveengineering:storage:6>,
 		dust: <immersiveengineering:metal:15>,

@@ -8,7 +8,7 @@ setParent("triumph:stage2/iron")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria2 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria.setItem("tcomplement:porcelain_tank")
 criteria2.setItem("tconstruct:seared_tank")
 

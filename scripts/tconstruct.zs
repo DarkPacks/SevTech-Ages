@@ -113,11 +113,14 @@ mods.tconstruct.Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <
 //Liquid Glowstone
 mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
 mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 400, <minecraft:glowstone>);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glowstone>, 400);
 
 //Liquid Redstone
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900);
 
 //Redstone Alloy Creation
 mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);

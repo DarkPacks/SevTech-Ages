@@ -57,6 +57,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	blackIron: {
+		block: <extendedcrafting:storage>,
+		dust: null,
+		gear: null,
+		ingot: <extendedcrafting:material>,
+		liquid: null,
+		nugget: null,
+		plate: <extendedcrafting:material:2>,
+		rod: <extendedcrafting:material:3>
+	},
 	bronze: {
 		block: <embers:block_bronze>,
 		dust: null,
@@ -166,6 +176,16 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <minecraft:gold_nugget>,
 		plate: <immersiveengineering:metal:40>,
 		rod: <primal:golden_stick>
+	},
+	invar: {
+		block: <materialpart:invar:block>,
+		dust: <factorytech:ore_dust:11>,
+		gear: <materialpart:invar:gear>,
+		ingot: <materialpart:invar:ingot>,
+		liquid: <liquid:invar>,
+		nugget: null,
+		plate: <materialpart:invar:plate>,
+		rod: <materialpart:invar:rod>,
 	},
 	iron: {
 		block: <minecraft:iron_block>,

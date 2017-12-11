@@ -66,14 +66,6 @@ var stage3Items = [
 	<immersiveengineering:ore:3>,
 	<immersiveengineering:ore:4>,
 
-	//Plate
-	<immersiveengineering:metal:31>,
-	<immersiveengineering:metal:32>,
-	<immersiveengineering:metal:33>,
-	<immersiveengineering:metal:34>,
-	<immersiveengineering:metal:36>,
-	<immersiveengineering:metal:37>,
-
 	//Nether
 	<minecraft:blaze_powder>,
 	<minecraft:blaze_rod>,
@@ -483,6 +475,8 @@ var stage3Items = [
 	<materialpart:redstone_alloy:bolt>,
 	<materialpart:silver:beam>,
 	<materialpart:silver:bolt>,
+	<materialpart:invar:beam>,
+	<materialpart:invar:bolt>,
 
 	//Dark Utils
 	<darkutils:charm_agression>,
@@ -593,7 +587,6 @@ var stage3Items = [
 	<immersiveengineering:material:8>,
 	<immersiveengineering:material:9>,
 	<immersiveengineering:material>,
-	//<immersiveengineering:metal>,
 	<immersiveengineering:metal_decoration0:1>,
 	<immersiveengineering:metal_decoration0:2>,
 	<immersiveengineering:metal_decoration0:3>,
@@ -694,14 +687,6 @@ var stage3Items = [
 	<immersiveengineering:stone_decoration_stairs_concrete_leaded>,
 	<immersiveengineering:stone_decoration_stairs_concrete_tile>,
 	<immersiveengineering:stone_decoration_stairs_hempcrete>,
-	<immersiveengineering:storage:1>,
-	<immersiveengineering:storage:2>,
-	<immersiveengineering:storage:3>,
-	<immersiveengineering:storage:4>,
-	<immersiveengineering:storage:6>,
-	<immersiveengineering:storage:7>,
-	<immersiveengineering:storage:8>,
-	//<immersiveengineering:storage>,
 	<immersiveengineering:storage_slab:1>,
 	<immersiveengineering:storage_slab:2>,
 	<immersiveengineering:storage_slab:3>,
@@ -829,8 +814,6 @@ var stage3Items = [
 	<modularmachinery:blockinputbus:1>,
 	<modularmachinery:blockfluidinputhatch>,
 	<modularmachinery:blockenergyinputhatch>
-
-
 ] as IItemStack[];
 
 for item in stage3Items {

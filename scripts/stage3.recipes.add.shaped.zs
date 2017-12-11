@@ -63,7 +63,7 @@ var shapedRecipes = {
 
 	<immersiveengineering:metal_device0:5> : [
 		[
-			[<industrialforegoing:plastic>, <immersiveengineering:material:9>, <industrialforegoing:plastic>],
+			[plastic, <immersiveengineering:material:9>, plastic],
 			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
 			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
 		]
@@ -196,19 +196,25 @@ var shapedRecipes = {
 
 	//Tinkers' Construct
 	 <tconstruct:smeltery_controller> : [
-		[[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-		[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-		[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+		]
 	],
 	 <tconstruct:seared_furnace_controller> : [
-		[[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-		[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-		[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]]
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
+		]
 	],
 	 <tconstruct:tinker_tank_controller> : [
-		[[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-		[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-		[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]]
+		[
+			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
+			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
+		]
 	],
 
 	//Steve's Carts
@@ -407,7 +413,7 @@ var shapedRecipes = {
 	  		[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
 	  		[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 	  	]
-	],	
+	],
 	<vc:upgrades/upgrade_airship_balloon:4> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],

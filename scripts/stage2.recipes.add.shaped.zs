@@ -484,9 +484,11 @@ var shapedRecipes = {
 
 	//Stage 2 Easier Gearbox and Axle
 	<betterwithmods:wooden_axle> : [
-		[[null, <ore:mouldingWood>, null], 
-		[null, <betterwithmods:rope>, null], 
-		[null, <ore:mouldingWood>, null]]
+		[
+			[null, <ore:mouldingWood>, null],
+			[null, <betterwithmods:rope>, null],
+			[null, <ore:mouldingWood>, null]
+		]
 	],
 	<betterwithmods:wooden_gearbox> : [
 		[

@@ -68,14 +68,14 @@ var shieldMetals = [
 	"iron",
 	"gold",
 	"obsidian",
-	"lead"
-	//"invar"
+	"lead",
+	"invar"
 ] as string[];
 
 for shieldMetal in shieldMetals {
-	var shield as IItemStack[] = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$");
+	var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$")[0];
 	var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
-	mods.tconstruct.Casting.addTableRecipe(shield[0], <spartanshields:shield_basic_wood>, liquid, 576, true);
+	mods.tconstruct.Casting.addTableRecipe(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);
 }
 
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);

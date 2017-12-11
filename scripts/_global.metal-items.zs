@@ -179,7 +179,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	invar: {
 		block: <materialpart:invar:block>,
-		dust: <factorytech:ore_dust:11>,
+		dust: null,
 		gear: <materialpart:invar:gear>,
 		ingot: <materialpart:invar:ingot>,
 		liquid: <liquid:invar>,

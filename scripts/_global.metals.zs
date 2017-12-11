@@ -87,7 +87,7 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: null,
 		plate: <ore:plateCompressedIron>,
 		rod: <ore:rodCompressedIron>
-	}
+	},
 	constantan: {
 		block: <ore:blockConstantan>,
 		dust: <ore:dustConstantan>,

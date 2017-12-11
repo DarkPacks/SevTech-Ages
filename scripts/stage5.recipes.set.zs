@@ -20,7 +20,6 @@ var itemsForStage = [
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:table_elite>,
 	<extendedcrafting:table_ultimate>,
-	<factorytech:autocrafter>,
 	<ironbackpacks:backpack>,
 	<ironbackpacks:backpack>,
 	<jaff:diamond_fishing_rod>,

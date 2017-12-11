@@ -106,8 +106,6 @@ for seed in seeds {
 
 <ore:plateZinc>.remove(<primal:zinc_plate>);
 
-<ore:ingotInvar>.remove(<factorytech:ingot:3>);
-
 <ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
@@ -167,9 +165,6 @@ for seed in seeds {
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
 
 <ore:gearWood>.remove(<teslacorelib:gear_wood>);
-
-<ore:oreNickel>.remove(<factorytech:ore:1>);
-<ore:oreCopper>.remove(<factorytech:ore>);
 
 //Temp Fix
 <ore:logWood>.add(<minecraft:log:1>);

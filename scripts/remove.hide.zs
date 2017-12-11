@@ -83,8 +83,6 @@ var hideItems = [
 	<embers:ore_lead>,
 	<embers:ore_silver>,
 	<extendedcrafting:crafting_table>,
-	<factorytech:ore:1>,
-	<factorytech:ore>,
 	<immcraft:dummybook>,
 	<immcraft:in_world_placer>,
 	<immcraft:in_world_vertical_placer>,

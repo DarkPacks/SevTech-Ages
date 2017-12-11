@@ -13,6 +13,9 @@
 //Black Iron Creation
 mods.immersiveengineering.AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
 
+//Invar must be in Arc Furnace
+mods.immersiveengineering.AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);
+
 /*
 //Metal Press
 //OutputStack, InputStack, MoldStack, Energy, SizeValue

@@ -90,7 +90,7 @@ global metalItems as IIngredient[string][string] = {
 	compressedIron: {
 		block: <pneumaticcraft:compressed_iron_block>,
 		dust: null,
-		gear: <pneumaticcraft:compressed_iron_gear>,
+		gear: <materialpart:compressed_iron:gear>,
 		ingot: <pneumaticcraft:ingot_iron_compressed>,
 		liquid: null,
 		nugget: null,

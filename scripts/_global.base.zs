@@ -5,20 +5,20 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 global STAGES as string[string] = {
-	zero_mob : "zero_mob",
+	zeroMob : "zero_mob",
 	one : "one",
-	one_mob : "one_mob",
+	oneMob : "one_mob",
 	two : "two",
-	two_mob : "two_mob",
+	twoMob : "two_mob",
 	three : "three",
-	three_mob : "three_mob",
+	threeMob : "three_mob",
 	four : "four",
-	four_mob : "four_mob",
+	fourMob : "four_mob",
 	five : "five",
-	five_mob : "five_mob"
+	fiveMob : "five_mob"
 };
 
-global defaultArmorDropChance as float = 0.15;
+global defaultArmorDropChance as double = 0.15;
 
 global bone as IItemStack = <minecraft:bone>;
 global cane as IItemStack = <minecraft:reeds>;

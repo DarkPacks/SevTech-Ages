@@ -48,6 +48,7 @@ mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<as
 mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
 
 for bark in <ore:barkWood>.items {
+	mods.betterwithmods.Mill.add(<primal:tannin_ground> * 2, null, [bark]);
 }
 
 /*

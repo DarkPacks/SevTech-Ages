@@ -1,0 +1,2 @@
+gamestage add @p zero_mob
+say You are Now In The Mob 0 Stage

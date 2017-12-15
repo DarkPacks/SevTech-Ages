@@ -2,6 +2,26 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.five;
 
+//Entire Mods into Stage five
+var modIDs = [
+	"appliedenergistics2",
+	"compactmachines3",
+	"enderutilities",
+	"environmentaltech",
+	"mysticalagradditions",
+	"mysticalagriculture",
+	"quantumstorage",
+	"refinedstorage",
+	"refinedstorageaddons",
+	"scannable"
+] as string[];
+
+for id in modIDs {
+    for item in loadedMods[id].items {
+        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+    }
+}
+
 var itemsForStage = [
 	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,

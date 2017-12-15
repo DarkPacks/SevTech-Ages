@@ -172,3 +172,7 @@ for seed in seeds {
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 
 <ore:dustWood>.add(<betterwithmods:material:22>);
+
+//AE Wrenches
+<ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench>);
+<ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench>);

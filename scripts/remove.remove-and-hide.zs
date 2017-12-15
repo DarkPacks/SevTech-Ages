@@ -90,7 +90,10 @@ var removeAndHideItems = [
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>,  //Soulium Nugget
 
-	<appliedenergistics2:material:21> //Inscriber Name Press
+	<appliedenergistics2:material:21>, //Inscriber Name Press
+	<appliedenergistics2:vibration_chamber>,
+	<appliedenergistics2:material:45> //Skystone Dust
+
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

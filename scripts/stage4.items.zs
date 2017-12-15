@@ -502,6 +502,7 @@ var stage4Items = [
 	<refinedstorage:processor:4>,
 	<refinedstorage:processor>,
 	<refinedstorage:quartz_enriched_iron>,
+	<refinedstorage:quartz_enriched_iron_block>,
 	<refinedstorage:security_card>,
 	<refinedstorage:security_manager>,
 	<refinedstorage:solderer>

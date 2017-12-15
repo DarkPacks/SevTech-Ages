@@ -539,7 +539,6 @@ var stage5Items = [
 	<appliedenergistics2:material:19>,
 	<appliedenergistics2:material:1>,
 	<appliedenergistics2:material:20>,
-	<appliedenergistics2:material:21>,
 	<appliedenergistics2:material:22>,
 	<appliedenergistics2:material:23>,
 	<appliedenergistics2:material:24>,

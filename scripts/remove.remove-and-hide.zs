@@ -88,7 +88,9 @@ var removeAndHideItems = [
 	//Nuggets
 	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>  //Soulium Nugget
+	<mysticalagriculture:crafting:45>,  //Soulium Nugget
+
+	<appliedenergistics2:material:21> //Inscriber Name Press
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

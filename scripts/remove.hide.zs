@@ -219,7 +219,15 @@ var hideItems = [
 	<roots:wildroot>,
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
-	<tconstruct:throwball:1>
+	<tconstruct:throwball:1>,
+
+	//Hide In-progress AE Crystal seeds
+	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
+	<appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
+	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
+	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 200}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 400})
 
 	//<buildcraftcore:spring:1>,
 	//<buildcraftcore:spring>,

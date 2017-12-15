@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 
 var removeItems = [
 	<actuallyadditions:block_smiley_cloud>,
+	<appliedenergistics2:crank>,
+	<appliedenergistics2:grindstone>,
 	<astralsorcery:itemwand>,
 	<betterbuilderswands:wandiron>,
 	<betterwithaddons:redstone_emitter>,
@@ -33,8 +35,8 @@ var removeItems = [
 	<minecraft:golden_shovel>,
 	<minecraft:golden_sword>,
 	<minecraft:hopper>,
-	<minecraft:iron_bars>,
 	<minecraft:iron_axe>,
+	<minecraft:iron_bars>,
 	<minecraft:iron_boots>,
 	<minecraft:iron_chestplate>,
 	<minecraft:iron_helmet>,

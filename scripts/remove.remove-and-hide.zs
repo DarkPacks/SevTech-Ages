@@ -92,8 +92,16 @@ var removeAndHideItems = [
 
 	<appliedenergistics2:material:21>, //Inscriber Name Press
 	<appliedenergistics2:vibration_chamber>,
-	<appliedenergistics2:material:45> //Skystone Dust
+	<appliedenergistics2:material:45>, //Skystone Dust
 
+	//Pneumaticraft
+	<pneumaticcraft:refinery>,
+	<pneumaticcraft:thermopneumatic_processing_plant>,
+
+	//Buildcraft
+	<buildcraftcore:gear_wood>,
+	<buildcraftcore:spring:1>,
+	<buildcraftcore:spring>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

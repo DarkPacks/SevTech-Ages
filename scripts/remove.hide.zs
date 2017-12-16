@@ -227,7 +227,17 @@ var hideItems = [
 	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
 	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}),
 	<appliedenergistics2:crystal_seed>.withTag({progress: 200}),
-	<appliedenergistics2:crystal_seed>.withTag({progress: 400})
+	<appliedenergistics2:crystal_seed>.withTag({progress: 400}),
+
+	//Buildcraft
+	<buildcraftbuilders:filler_planner>,
+	<buildcraftbuilders:replacer>,
+	<buildcraftcore:decorated:3>,
+	<buildcraftcore:decorated:4>,
+	<buildcraftcore:decorated>,
+	<buildcraftcore:volume_box>,
+	<buildcraftlib:debugger>,
+	<buildcraftlib:guide_note>
 
 	//<buildcraftcore:spring:1>,
 	//<buildcraftcore:spring>,

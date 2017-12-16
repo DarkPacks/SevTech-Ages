@@ -565,7 +565,15 @@ var itemsForStage = [
 	<refinedstorageaddons:network_picker:1>,
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid:1>,
-	<refinedstorageaddons:wireless_crafting_grid>
+	<refinedstorageaddons:wireless_crafting_grid>,
+
+	//Buildcraft
+	<buildcrafttransport:pipe_daizuli_item>,
+	<buildcrafttransport:pipe_diamond_fluid>,
+	<buildcrafttransport:pipe_diamond_item>,
+	<buildcrafttransport:pipe_diamond_wood_fluid>,
+	<buildcrafttransport:pipe_diamond_wood_item>,
+	<buildcrafttransport:pipe_emzuli_item>
 ] as IItemStack[];
 
 for item in itemsForStage {

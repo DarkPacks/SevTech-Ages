@@ -774,6 +774,14 @@ var stage5Items = [
 	<spartanshields:shield_riot_rftools>,
 	<spartanshields:shield_riot_rftools>,
 	<spartanshields:shield_basic_diamond>,
+
+	//Buildcraft
+	<buildcrafttransport:pipe_diamond_wood_fluid>,
+	<buildcrafttransport:pipe_diamond_fluid>,
+	<buildcrafttransport:pipe_emzuli_item>,
+	<buildcrafttransport:pipe_daizuli_item>,
+	<buildcrafttransport:pipe_diamond_wood_item>,
+	<buildcrafttransport:pipe_diamond_item>
 ] as IItemStack[];
 
 for item in stage5Items {

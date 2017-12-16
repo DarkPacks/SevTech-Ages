@@ -18,4 +18,6 @@ criteria3.setItem("embers:aspectus_lead")
 criteria4.setItem("embers:aspectus_silver")
 criteria5.setItem("embers:aspectus_dawnstone")
 
+setRequirements("any")
+
 setRewardExperience(8)

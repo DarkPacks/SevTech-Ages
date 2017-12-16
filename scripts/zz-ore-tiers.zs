@@ -233,7 +233,10 @@ var replacementItemsForStage = {
 		[<immersiveengineering:ore:5>],
 		[<geolosys:ore:9>],
 		[<geolosys:ore_sample:9>, <immcraft:rock>]
-	]
+
+  		//Soulstone
+		//[<mysticalagriculture:soulstone>, <minecraft:netherrack>]
+  	]
 } as IItemStack[][][string];
 
 for stage, itemReplacementPairs in replacementItemsForStage {

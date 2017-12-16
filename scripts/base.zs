@@ -139,6 +139,6 @@ var gearMaterialList = [
 	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build()
 ] as Material[];
 
-for i, metal in metal_list {
-    metal.registerPart("gear");
+for material in gearMaterialList {
+    material.registerPart("gear");
 }

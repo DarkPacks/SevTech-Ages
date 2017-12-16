@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.four;
 
 var itemsForStage = [
+	//Unified items
+	<ore:gearGold>.firstItem,
+
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
 
@@ -177,7 +180,6 @@ var itemsForStage = [
 	<teslacorelib:base_addon>,
 	<teslacorelib:energy_tier1>,
 	<teslacorelib:energy_tier2>,
-	<teslacorelib:gear_gold>,
 	<teslacorelib:machine_case>,
 	<teslacorelib:speed_tier1>,
 	<teslacorelib:speed_tier2>,

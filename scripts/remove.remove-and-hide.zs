@@ -93,7 +93,6 @@ var removeAndHideItems = [
 	<pneumaticcraft:refinery>,
 
 	//Buildcraft
-	<buildcraftcore:gear_wood>,
 	<buildcraftcore:spring:1>,
 	<buildcraftcore:spring>
 

@@ -1,0 +1,37 @@
+{
+  "machine": "mixer_mk3",
+  "registryName": "leather_mk3",
+  "recipeTime": 75,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 60
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "primal:hide_salted",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "ore:foodSalt",
+      "amount": 1
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "primal:hide_raw",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "io-type": "input",
+      "fluid": "water",
+      "amount": 250,
+      "chance": 1.0
+    }
+  ]
+}

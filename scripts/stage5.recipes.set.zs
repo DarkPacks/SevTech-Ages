@@ -289,7 +289,16 @@ var itemsForStage = [
 	<minecraft:purpur_slab>,
 	<quark:end_bricks_slab>,
 	<quark:end_bricks_stairs>,
-	<quark:end_bricks_wall>
+	<quark:end_bricks_wall>,
+
+	//Buildcraft
+	<buildcrafttransport:pipe_diamond_wood_fluid>,
+	<buildcrafttransport:pipe_diamond_fluid>,
+	<buildcrafttransport:pipe_emzuli_item>,
+	<buildcrafttransport:pipe_daizuli_item>,
+	<buildcrafttransport:pipe_diamond_wood_item>,
+	<buildcrafttransport:pipe_diamond_item>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

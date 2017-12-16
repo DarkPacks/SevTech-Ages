@@ -36,5 +36,3 @@
 ////gigaherz.survivalist.Dryable.addRecipe(<primal:fish_puffer_salted>,<primal:fish_puffer_cured>,1600);
 ////gigaherz.survivalist.Dryable.addRecipe(<primal:shark_meat_raw>,<primal:shark_meat_dried>,1600);
 ////gigaherz.survivalist.Dryable.addRecipe(<primal:shark_meat_salted>,<primal:shark_meat_cured>,1600);
-
-

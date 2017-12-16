@@ -233,7 +233,10 @@ var replacementItemsForStage = {
 		//Certus Quartz
 		[<appliedenergistics2:quartz_ore>],
 		[<appliedenergistics2:charged_quartz_ore>]
-	]
+
+  		//Soulstone
+//		[<mysticalagriculture:soulstone>, <minecraft:netherrack>]
+  	]
 } as IItemStack[][][string];
 
 for stage, itemReplacementPairs in replacementItemsForStage {

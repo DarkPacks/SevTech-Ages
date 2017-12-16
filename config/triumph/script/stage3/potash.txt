@@ -8,6 +8,4 @@ setParent("triumph:stage3/bellows")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setBlock("betterwithmods:material", 21)
-
-setRequirements("any")
+criteria.setItem("betterwithmods:material", 21)

@@ -219,7 +219,16 @@ var hideItems = [
 	<roots:wildroot>,
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
-	<tconstruct:throwball:1>
+	<tconstruct:throwball:1>,
+
+	<buildcraftcore:decorated>,
+	<buildcraftcore:decorated:4>,
+	<buildcraftcore:decorated:3>,
+	<buildcraftlib:guide_note>, 
+	<buildcraftcore:volume_box>, 
+	<buildcraftlib:debugger>,
+	<buildcraftbuilders:filler_planner>,
+	<buildcraftbuilders:replacer>
 
 	//<buildcraftcore:spring:1>,
 	//<buildcraftcore:spring>,

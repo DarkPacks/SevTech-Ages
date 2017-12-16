@@ -516,7 +516,32 @@ var itemsForStage = [
 	<stevescarts:cartmodule:94>,
 	<stevescarts:cartmodule:95>,
 	<stevescarts:cartmodule:99>,
-	<stevescarts:cartmodule:9>
+	<stevescarts:cartmodule:9>,
+
+	//Buildcraft
+	<buildcrafttransport:pipe_stone_item>,
+	<buildcrafttransport:pipe_cobble_item>,
+	<buildcrafttransport:pipe_quartz_item>,
+	<buildcrafttransport:pipe_iron_item>,
+	<buildcrafttransport:pipe_wood_item>,
+	<buildcrafttransport:pipe_structure>,
+	<buildcrafttransport:pipe_clay_item>,
+	<buildcraftlib:guide>,
+	<buildcraftcore:engine>,
+	<buildcraftfactory:tank>,
+	<buildcrafttransport:plug_blocker>,
+	<buildcraftcore:wrench>,
+	<buildcrafttransport:pipe_stone_fluid>,
+	<buildcrafttransport:pipe_cobble_fluid>,
+	<buildcrafttransport:pipe_quartz_fluid>,
+	<buildcrafttransport:pipe_iron_fluid>,
+	<buildcrafttransport:pipe_wood_fluid>,
+	<buildcrafttransport:pipe_clay_fluid>,
+	<buildcrafttransport:pipe_void_item>,
+	<buildcrafttransport:pipe_void_fluid>,
+	<buildcrafttransport:pipe_sandstone_item>,
+	<buildcrafttransport:pipe_sandstone_fluid>,
+	<buildcrafttransport:waterproof>
 ] as IItemStack[];
 
 for item in itemsForStage {

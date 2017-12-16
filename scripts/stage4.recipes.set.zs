@@ -324,6 +324,8 @@ var itemsForStage = [
 	<appliedenergistics2:certus_quartz_cutting_knife>,
 	<appliedenergistics2:nether_quartz_cutting_knife>,
 	<appliedenergistics2:part:120>,
+	<appliedenergistics2:part:140>,
+	<appliedenergistics2:material:1>,
 	<appliedenergistics2:material:43>,
 	<appliedenergistics2:material:44>,
 

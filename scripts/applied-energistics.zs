@@ -11,9 +11,9 @@ import mods.appliedenergistics2.Inscriber;
 var printedSilicon = <appliedenergistics2:material:20>;
 Inscriber.removeRecipe(printedSilicon);
 
-var printedLogic = <appliedenergistics2:material:18>;
-var printedCalculation = <appliedenergistics2:material:16>;
-var printedEngineering = <appliedenergistics2:material:17>;
+var printedLogic as IItemStack = <appliedenergistics2:material:18>;
+var printedCalculation as IItemStack = <appliedenergistics2:material:16>;
+var printedEngineering as IItemStack = <appliedenergistics2:material:17>;
 
 var processorLogic as IItemStack = <appliedenergistics2:material:22>;
 var processorCalculation as IItemStack = <appliedenergistics2:material:23>;

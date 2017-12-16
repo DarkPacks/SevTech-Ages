@@ -8,6 +8,4 @@ setParent("triumph:stage3/workbench")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setBlock("storagedrawers:controller")
-
-setRequirements("any")
+criteria.setItem("storagedrawers:controller")

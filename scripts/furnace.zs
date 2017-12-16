@@ -17,7 +17,8 @@ var outputToRemove = [
 	<minecraft:glass>, //Glass Revamp
 	<minecraft:leather>,
 	<minecraft:netherbrick>,
-	<primal:carbonate_stone>
+	<primal:carbonate_stone>,
+	<industrialforegoing:plastic>
 ] as IItemStack[];
 
 for item in outputToRemove {

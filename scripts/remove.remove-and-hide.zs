@@ -88,7 +88,16 @@ var removeAndHideItems = [
 	//Nuggets
 	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>  //Soulium Nugget
+	<mysticalagriculture:crafting:45>,  //Soulium Nugget
+
+	//Pneumaticraft
+	<pneumaticcraft:thermopneumatic_processing_plant>,
+	<pneumaticcraft:refinery>,
+
+	//Buildcraft
+	<buildcraftcore:gear_wood>,
+	<buildcraftcore:spring:1>,
+	<buildcraftcore:spring>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

@@ -1,0 +1,24 @@
+{
+  "machine": "industrial_drying_unit_mk3",
+  "registryName": "paper_drying_mk3",
+  "recipeTime": 150,
+  "requirements": [
+    {
+      "type": "energy",
+      "io-type": "input",
+      "energyPerTick": 40
+    },
+    {
+      "type": "item",
+      "io-type": "output",
+      "item": "minecraft:paper",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "io-type": "input",
+      "item": "primal:plant_fiber_pulp",
+      "amount": 4
+    }
+  ]
+}

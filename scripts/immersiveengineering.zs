@@ -1,3 +1,5 @@
+import mods.immersiveengineering.Crusher;
+
 //Blast Furnace
 //Smelting
 //OutputStack, InputStack, Time in Ticks, SlagOutput
@@ -28,7 +30,16 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
 
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
 
+mods.immersiveengineering.MetalPress.addRecipe(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1);
+
 /*
 	Squeezer
 */
 mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
+
+/*
+	Crusher
+	IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
+*/
+//Ground Resin from bark
+Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);

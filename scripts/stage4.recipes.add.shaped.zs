@@ -51,6 +51,21 @@ var shapedRecipes = {
 	],
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]
+	],
+
+	<pneumaticcraft:flux_compressor> : [
+		[
+			[<minecraft:redstone>, metals.compressedIron.gear, <pneumaticcraft:printed_circuit_board>],
+			[<minecraft:redstone_block>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:advanced_pressure_tube>],
+			[<minecraft:redstone>, <minecraft:furnace>, <pneumaticcraft:printed_circuit_board>]
+		]
+	],
+	<pneumaticcraft:pneumatic_dynamo> : [
+		[
+			[null, <pneumaticcraft:advanced_pressure_tube>, null],
+			[metals.compressedIron.gear, metals.compressedIron.ingot, metals.compressedIron.gear],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
+		]
 	]
 } as IIngredient[][][][IItemStack];
 

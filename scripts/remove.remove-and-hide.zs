@@ -80,7 +80,6 @@ var removeAndHideItems = [
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
 	<storagedrawers:basicdrawers:*>,
-	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,

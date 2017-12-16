@@ -129,3 +129,16 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("temperature", "550");
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
+
+/*
+	Custom gears to keep the same look
+*/
+var gearMaterialList = [
+	MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
+	MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16776971).build(),
+	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build()
+] as Material[];
+
+for i, metal in metal_list {
+    metal.registerPart("gear");
+}

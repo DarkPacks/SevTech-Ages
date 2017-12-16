@@ -11,8 +11,6 @@ var modIDs = [
 	"mysticalagradditions",
 	"mysticalagriculture",
 	"quantumstorage",
-	"refinedstorage",
-	"refinedstorageaddons",
 	"rftools",
 	"rftoolscontrol",
 	"scannable"

@@ -3,17 +3,6 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.two;
 
-//Entire Mods into Stage two
-var modIDs = [
-	"farmingforblockheads",
-	"uppers"
-] as string[];
-for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
-}
-
 /*
 <item> : [
 	[RECIPE1],
@@ -186,8 +175,8 @@ var shapedRecipes = {
 		[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, stick, null]]
 	],
 	<minecraft:name_tag> : [
-		[[null, null, <minecraft:string>], 
-		[null, <minecraft:paper>, null], 
+		[[null, null, <minecraft:string>],
+		[null, <minecraft:paper>, null],
 		[null, <ore:dyeBlack>, null]]
 	],
 	<minecraft:piston> : [

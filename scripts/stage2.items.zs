@@ -14,6 +14,7 @@ for id in modIDs {
 }
 
 var stage2Items = [
+	<appliedenergistics2:material:46>, //Ender dust
 	<minecraft:acacia_boat>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,

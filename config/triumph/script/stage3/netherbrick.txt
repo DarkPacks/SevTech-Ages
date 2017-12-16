@@ -8,6 +8,4 @@ setParent("triumph:stage3/potash")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setBlock("minecraft:netherbrick")
-
-setRequirements("any")
+criteria.setItem("minecraft:netherbrick")

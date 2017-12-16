@@ -3,19 +3,6 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.three;
 
-//Entire Mods into Stage three
-var modIDs = [
-	"enderutilities",
-	"immersivepetroleum",
-	"openglider",
-	"stevescarts"
-] as string[];
-for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
-}
-
 /*
 <item> : [
 	[RECIPE1],

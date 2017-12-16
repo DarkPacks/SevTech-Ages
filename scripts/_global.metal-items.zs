@@ -90,7 +90,7 @@ global metalItems as IIngredient[string][string] = {
 	compressedIron: {
 		block: <pneumaticcraft:compressed_iron_block>,
 		dust: null,
-		gear: <pneumaticcraft:compressed_iron_gear>,
+		gear: <materialpart:compressed_iron:gear>,
 		ingot: <pneumaticcraft:ingot_iron_compressed>,
 		liquid: null,
 		nugget: null,
@@ -170,7 +170,7 @@ global metalItems as IIngredient[string][string] = {
 	gold: {
 		block: <minecraft:gold_block>,
 		dust: <immersiveengineering:metal:19>,
-		gear: null,
+		gear: <materialpart:gold:gear>,
 		ingot: <minecraft:gold_ingot>,
 		liquid: <liquid:gold>,
 		nugget: <minecraft:gold_nugget>,
@@ -190,7 +190,7 @@ global metalItems as IIngredient[string][string] = {
 	iron: {
 		block: <minecraft:iron_block>,
 		dust: <immersiveengineering:metal:18>,
-		gear: null,
+		gear: <materialpart:iron:gear>,
 		ingot: <minecraft:iron_ingot>,
 		liquid: <liquid:iron>,
 		nugget: <minecraft:iron_nugget>,

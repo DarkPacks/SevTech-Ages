@@ -188,6 +188,16 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				mods.primaltech.StoneAnvil.addRecipe(preferredMetalItem * 9, metalItems[metalName].ingot.items[0]);
 			}
 		}
+
+		//PneumaticCraft
+		if (loadedMods.contains("pneumaticcraft")) {
+			var defaultChamberPressure as double = 2.0;
+			if (metalType == "nugget") {
+				mods.pneumaticcraft.pressurechamber.addRecipe([preferredMetalItem * 9], defaultChamberPressure, [metalItems[metalName].ingot.items[0]]);
+			} else if (metalType == "block") {
+				mods.pneumaticcraft.pressurechamber.addRecipe([metalItems[metalName].ingot.items[0] * 9], defaultChamberPressure, [preferredMetalItem]);
+			}
+		}
 	}
 
 	//Remove other metal items completely

@@ -34,4 +34,5 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 }
 
 unify(<ore:gearWood>, <betterwithmods:material>, null);
+unify(<ore:gearStone>, <teslacorelib:gear_stone>, null);
 unify(<ore:gearDiamond>, <materialpart:diamond:gear>, null);

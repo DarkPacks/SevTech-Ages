@@ -156,14 +156,9 @@ for seed in seeds {
 <ore:shears>.add(<roots:wood_shears>);
 <ore:shears>.add(<primal_tech:bone_shears>);
 
-//Unregister Extra items
-<ore:gearWood>.remove(<appliedenergistics2:material:40>);
-
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
-
-<ore:gearWood>.remove(<teslacorelib:gear_wood>);
 
 //Temp Fix
 <ore:logWood>.add(<minecraft:log:1>);

@@ -52,8 +52,6 @@ function capitalize(str as string) as string {
 
 for metalName, metal in metals {
 	if (metal.rod as bool) {
-		print("==Adding " + metal.rod.firstItem.definition.id + " ==");
 		oreDict.get("stick" + capitalize(metalName)).mirror(metal.rod);
-		print("===============================");
 	}
 }

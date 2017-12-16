@@ -15,7 +15,6 @@ var removeAndHideItems = [
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
 	<betterwithmods:stump:*>,
-	<buildcraftcore:gear_stone>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
@@ -80,7 +79,6 @@ var removeAndHideItems = [
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
 	<storagedrawers:basicdrawers:*>,
-	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
@@ -99,7 +97,6 @@ var removeAndHideItems = [
 	<pneumaticcraft:thermopneumatic_processing_plant>,
 
 	//Buildcraft
-	<buildcraftcore:gear_wood>,
 	<buildcraftcore:spring:1>,
 	<buildcraftcore:spring>
 

@@ -8,6 +8,4 @@ setParent("triumph:stage3/nether")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setBlock("betterwithmods:single_machine", 2)
-
-setRequirements("any")
+criteria.setItem("betterwithmods:single_machine", 2)

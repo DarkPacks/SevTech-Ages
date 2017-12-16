@@ -2,6 +2,18 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.two;
 
+//Entire Mods into Stage two
+var modIDs = [
+	"farmingforblockheads",
+	"uppers"
+] as string[];
+
+for id in modIDs {
+    for item in loadedMods[id].items {
+        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+    }
+}
+
 var itemsForStage = [
 	<abyssalcraft:ahoe>,
 	<abyssalcraft:corhoe>,

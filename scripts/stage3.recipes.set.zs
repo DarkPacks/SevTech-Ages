@@ -2,6 +2,20 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.three;
 
+//Entire Mods into Stage three
+var modIDs = [
+	"enderutilities",
+	"immersivepetroleum",
+	"openglider",
+	"stevescarts"
+] as string[];
+
+for id in modIDs {
+    for item in loadedMods[id].items {
+        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+    }
+}
+
 var itemsForStage = [
 	<minecraft:brewing_stand>,
 	<minecraft:dispenser>,

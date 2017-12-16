@@ -3,6 +3,9 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.five;
 
 var itemsForStage = [
+	//Unified items
+	<ore:gearDiamond>.firstItem,
+
 	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,
 	<betterwithaddons:diamond_kukri>,
@@ -42,7 +45,6 @@ var itemsForStage = [
 	<primal:obsidian_hoe>,
 	<roots:diamond_hammer>,
 	<roots:diamond_knife>,
-	<teslacorelib:gear_diamond>,
 
 	//Emerald
 	<extendedcrafting:material:129>,

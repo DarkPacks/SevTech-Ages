@@ -25,6 +25,9 @@ for id in modIDs {
 }
 
 var stage5Items = [
+	//Unified items
+	<ore:gearDiamond>.firstItem,
+
 	<minecraft:diamond>,
 	<minecraft:diamond_axe>,
 	<minecraft:diamond_block>,
@@ -39,7 +42,6 @@ var stage5Items = [
 	<minecraft:emerald>,
 	<minecraft:emerald_block>,
 	<prospectors:prospector_best>,
-	<teslacorelib:gear_diamond>,
 
 	//Ore
 	<abyssalcraft:abydiaore>,

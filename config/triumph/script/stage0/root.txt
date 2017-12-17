@@ -32,4 +32,4 @@ addCriteria("location", "minecraft:location")
 //Sets the requirements to be any. This means that if ANY of the criteria triggers is acquired, the advancement is acquired.
 setRequirements("any")
 
-setRewardFunction("triumph:mob0trigger")
+setRewardFunction("triumph:stage0trigger")

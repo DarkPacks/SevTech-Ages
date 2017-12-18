@@ -136,7 +136,8 @@ for i, fluid in fluidMaterials {
 var gearMaterialList = [
 	MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
 	MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16776971).build(),
-	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build()
+	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
+	MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build()
 ] as Material[];
 
 for material in gearMaterialList {

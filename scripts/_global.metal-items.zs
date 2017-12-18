@@ -300,7 +300,7 @@ global metalItems as IIngredient[string][string] = {
 	steel: {
 		block: <immersiveengineering:storage:8>,
 		dust: <immersiveengineering:metal:17>,
-		gear: null,
+		gear: <materialpart:steel:gear>,
 		ingot: <immersiveengineering:metal:8>,
 		liquid: <liquid:steel>,
 		nugget: <immersiveengineering:metal:28>,

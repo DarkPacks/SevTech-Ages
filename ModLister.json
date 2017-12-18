@@ -1193,11 +1193,11 @@
   },
   {
     "n": "PneumaticCraft: Repressurized",
-    "v": "1.12.2-0.1.0-47",
-    "f": "pneumaticcraft-repressurized-1.12.2-0.1.0-47.jar",
-    "a": "desht",
-    "u": "",
-    "m": "4c618f2d2da7a16ed893f8347d30cb7f"
+    "v": "1.12.2-0.2.0-88",
+    "f": "pneumaticcraft-repressurized-1.12.2-0.2.0-88.jar",
+    "a": "desht, MineMaarten",
+    "u": "https://minecraft.curseforge.com/projects/pneumaticcraft-repressurized",
+    "m": "195339d82f9baaa546d20670b7e1d3b5"
   },
   {
     "n": "primal_tech",

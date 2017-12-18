@@ -1,5 +1,5 @@
-import crafttweaker.item.IItemStack;
-import mods.refinedstorage.Solderer;
+//import crafttweaker.item.IItemStack;
+//import mods.refinedstorage.Solderer;
 
 /*
 	Solderer
@@ -9,6 +9,7 @@ import mods.refinedstorage.Solderer;
 	mods.refinedstorage.Solderer.remove(IItemStack output);
 */
 
+/*
 //Remove Silicon
 Solderer.remove(<refinedstorage:processor:6>);
 
@@ -28,3 +29,4 @@ Solderer.add(processorImproved, 10, printedImproved, <minecraft:redstone>, <ore:
 
 Solderer.remove(processorAdvanced);
 Solderer.add(processorAdvanced, 10, printedAdvanced, <minecraft:redstone>, <ore:siliconWafer>.firstItem);
+*/

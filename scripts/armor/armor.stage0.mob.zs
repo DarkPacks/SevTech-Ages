@@ -5,9 +5,9 @@ import mods.armoreablemobs.ArmorGroup;
 
 var STAGE = STAGES.zeroMob;
 
-var boneSword = ArmorHandler.createArmorGroup("Bone Sword", 0.4);
-boneSword.addArmor(ArmorHandler.createArmorSlot("mainhand", <primal_tech:bone_sword>, 1, defaultArmorDropChance));
-boneSword.addGameStage(STAGE);
+var sharpBone = ArmorHandler.createArmorGroup("Sharp Bone", 0.4);
+sharpBone.addArmor(ArmorHandler.createArmorSlot("mainhand", <primal:sharp_bone>, 1, defaultArmorDropChance));
+sharpBone.addGameStage(STAGE);
 
 var leather = ArmorHandler.createArmorGroup("Leather", 0.5);
 leather.addArmor(ArmorHandler.createArmorSlot("head", <minecraft:leather_helmet>, 1, defaultArmorDropChance));
@@ -25,7 +25,7 @@ wolf.addArmor(ArmorHandler.createArmorSlot("feet", <primal:armor_wolf_feet>, 1, 
 	Add Entities
 */
 //Add groups to this array
-var armorGroups = [boneSword, leather, wolf] as ArmorGroup[];
+var armorGroups = [sharpBone, leather, wolf] as ArmorGroup[];
 
 var mobEntities = [
 	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),

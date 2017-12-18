@@ -8,9 +8,6 @@ setParent("triumph:stage1/centrifuge")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("embers:block_bronze")
 
 setRewardExperience(4)
-
-//By not setting anything about requirements here, all criteria are automatically required

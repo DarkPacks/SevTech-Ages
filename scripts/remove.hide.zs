@@ -170,7 +170,6 @@ var hideItems = [
 	<primal:rock_diorite>,
 	<primal:rock_granite>,
 	<primal:rock_netherrack>,
-	<primal:rock_sarsen>,
 	<primal:rock_stone>,
 	<primal:rock_vitrified>,
 	<primal:shark_meat_rotten>,

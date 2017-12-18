@@ -15,4 +15,3 @@ criteria.setBlock("embers:ember_bore")
 
 setRewardExperience(4)
 setRewardItem("embers:codex", 0, 1)
-

@@ -20,10 +20,10 @@ var processorCalculation as IItemStack = <appliedenergistics2:material:23>;
 var processorEngineering as IItemStack = <appliedenergistics2:material:24>;
 
 Inscriber.removeRecipe(processorLogic);
-Inscriber.addRecipe(processorLogic, <minecraft:redstone>, true, printedLogic, <ore:waferSilicon>.firstItem);
+Inscriber.addRecipe(processorLogic, <minecraft:redstone>, true, printedLogic, <ore:waferSilicon>);
 
 Inscriber.removeRecipe(processorCalculation);
-Inscriber.addRecipe(processorCalculation, <minecraft:redstone>, true, printedCalculation, <ore:waferSilicon>.firstItem);
+Inscriber.addRecipe(processorCalculation, <minecraft:redstone>, true, printedCalculation, <ore:waferSilicon>);
 
 Inscriber.removeRecipe(processorEngineering);
-Inscriber.addRecipe(processorEngineering, <minecraft:redstone>, true, printedEngineering, <ore:waferSilicon>.firstItem);
+Inscriber.addRecipe(processorEngineering, <minecraft:redstone>, true, printedEngineering, <ore:waferSilicon>);

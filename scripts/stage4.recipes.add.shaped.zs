@@ -58,35 +58,35 @@ var shapedRecipes = {
 	],
 	<actuallyadditions:block_oil_generator> : [
 		[
-			[Cobblestone, <actuallyadditions:block_canola_press>, Cobblestone],
-			[Cobblestone, <teslacorelib:machine_case>, Cobblestone],
-			[Cobblestone, <actuallyadditions:block_canola_press>, Cobblestone]
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone],
+			[cobblestone, <teslacorelib:machine_case>, cobblestone],
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone]
 		]
 	],
 	<actuallyadditions:block_feeder> : [
 		[
-			[metals.CompressedIron.plate, <darkutils:grate>, metals.CompressedIron.plate],
+			[metals.compressedIron.plate, <darkutils:grate>, metals.compressedIron.plate],
 			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case>, <immersiveengineering:metal_decoration0:1>],
-			[metals.compressedIron.ingot, metals.CompressedIron.plate, metals.compressedIron.ingot]
+			[metals.compressedIron.ingot, metals.compressedIron.plate, metals.compressedIron.ingot]
 		]
 	],
 	<actuallyadditions:block_grinder> : [
 		[
-			[metals.CompressedIron.plate, <minecraft:piston>, metals.CompressedIron.plate],
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate],
 			[<minecraft:piston>, <teslacorelib:machine_case>, <minecraft:piston>],
-			[metals.CompressedIron.plate, <minecraft:piston>, metals.CompressedIron.plate]
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate]
 		]
 	],
 	<actuallyadditions:block_grinder_double> : [
 		[
-			[metals.CompressedIron.plate, metals.CompressedIron.plate, metals.CompressedIron.plate],
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
 			[<actuallyadditions:block_grinder>, <teslacorelib:machine_case>, <actuallyadditions:block_grinder>],
-			[metals.CompressedIron.plate, metals.CompressedIron.plate, metals.CompressedIron.plate]
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
 		]
 	],
 	<actuallyadditions:block_furnace_double> : [
 		[
-			[metals.CompressedIron.plate, <natura:netherrack_furnace>, metals.CompressedIron.plate],
+			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
 			[<actuallyadditions:block_coal_generator>, <teslacorelib:machine_case>, <actuallyadditions:block_coal_generator>],
 			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
 		]

@@ -6,7 +6,7 @@ setTitle("Stage 4")
 
 setDescription("Welcome to the next stage!")
 
-setBackground("minecraft:textures/blocks/sand.png")
+setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
 
 setShowToast(false)
 
@@ -14,6 +14,3 @@ setAnnounceToChat(true)
 
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
 criteria.setString("triumph:stage3/plastic")
-
-
-

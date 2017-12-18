@@ -541,7 +541,6 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_structure>,
 	<buildcrafttransport:pipe_clay_item>,
 	<buildcraftlib:guide>,
-	<buildcraftcore:engine>,
 	<buildcraftfactory:tank>,
 	<buildcrafttransport:plug_blocker>,
 	<buildcraftcore:wrench>,

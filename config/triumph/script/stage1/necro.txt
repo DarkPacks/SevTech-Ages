@@ -10,5 +10,4 @@ setRequiresParent(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("abyssalcraft:necronomicon")
 
-
 setRewardExperience(8)

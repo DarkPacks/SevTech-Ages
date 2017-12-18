@@ -11,5 +11,6 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 criteria.setItem("prospectors:prospector_lowest")
 
-setRewardExperience(4)
+setRewardItem("geolosys:field_manual", 0, 1)
 
+setRewardExperience(4)

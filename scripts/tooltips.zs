@@ -51,3 +51,16 @@
 
 <progressiontweaks:spear>.addTooltip(format.red("Hold Mouse Button To Charge"));
 <progressiontweaks:spear>.addTooltip(format.red("Release to throw"));
+
+//Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things
+<geolosys:ore>.addTooltip(format.red("Iron Ore"));
+<geolosys:ore:1>.addTooltip(format.red("Iron and Nickel Ore"));
+<geolosys:ore:2>.addTooltip(format.red("Copper Ore"));
+<geolosys:ore:3>.addTooltip(format.red("Copper Ore"));
+<geolosys:ore:4>.addTooltip(format.red("Tin Ore"));
+<geolosys:ore:5>.addTooltip(format.red("Tin Ore"));
+<geolosys:ore:6>.addTooltip(format.red("Silver and Lead Ore"));
+<geolosys:ore:7>.addTooltip(format.red("Aluminum Ore"));
+<geolosys:ore:9>.addTooltip(format.red("Zinc Ore"));
+<geolosys:ore:10>.addTooltip(format.red("Uranium Ore"));
+<geolosys:ore_vanilla:5>.addTooltip(format.red("Diamond Ore"));

@@ -46,7 +46,60 @@ var shapedRecipes = {
 			[metals.compressedIron.gear, metals.compressedIron.ingot, metals.compressedIron.gear],
 			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
 		]
+	],
+
+	//Actually Additions
+	<actuallyadditions:block_coal_generator> : [
+		[
+			[cobblestone, <stevescarts:cartmodule>, cobblestone],
+			[cobblestone, <teslacorelib:machine_case>, cobblestone],
+			[cobblestone, <stevescarts:cartmodule>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_oil_generator> : [
+		[
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone],
+			[cobblestone, <teslacorelib:machine_case>, cobblestone],
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_feeder> : [
+		[
+			[metals.compressedIron.plate, <darkutils:grate>, metals.compressedIron.plate],
+			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case>, <immersiveengineering:metal_decoration0:1>],
+			[metals.compressedIron.ingot, metals.compressedIron.plate, metals.compressedIron.ingot]
+		]
+	],
+	<actuallyadditions:block_grinder> : [
+		[
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate],
+			[<minecraft:piston>, <teslacorelib:machine_case>, <minecraft:piston>],
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate]
+		]
+	],
+	<actuallyadditions:block_grinder_double> : [
+		[
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
+			[<actuallyadditions:block_grinder>, <teslacorelib:machine_case>, <actuallyadditions:block_grinder>],
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
+		]
+	],
+	<actuallyadditions:block_furnace_double> : [
+		[
+			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
+			[<actuallyadditions:block_coal_generator>, <teslacorelib:machine_case>, <actuallyadditions:block_coal_generator>],
+			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
+		]
+	],
+	<actuallyadditions:block_farmer> : [
+		[
+			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot],
+			[metals.compressedIron.gear, <teslacorelib:machine_case>, metals.compressedIron.gear],
+			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot]
+		]
 	]
+
+
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

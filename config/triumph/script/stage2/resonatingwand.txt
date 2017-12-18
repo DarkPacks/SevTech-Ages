@@ -10,5 +10,4 @@ setRequiresParent(true)
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("astralsorcery:itemwand")
 
-
 setRewardExperience(8)

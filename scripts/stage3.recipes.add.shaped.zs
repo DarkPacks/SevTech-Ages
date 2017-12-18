@@ -395,11 +395,11 @@ var shapedRecipes = {
 		]
 	],
 	<vc:upgrades/upgrade_airship_balloon:3> : [
-	  	[
-	  		[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
-	  		[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
-	  		[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
-	  	]
+		[
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
 	],
 	<vc:upgrades/upgrade_airship_balloon:4> : [
 		[
@@ -413,6 +413,15 @@ var shapedRecipes = {
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
 			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:4>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
+		]
+	],
+
+	//Buildcraft
+	<buildcraftcore:engine> : [
+		[
+			[<minecraft:glass>, <minecraft:sticky_piston>, <minecraft:glass>],
+			[metals.redstoneAlloy.gear, <immersiveengineering:material:27>, metals.redstoneAlloy.gear],
+			[<immersiveengineering:treated_wood>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:treated_wood>]
 		]
 	]
 

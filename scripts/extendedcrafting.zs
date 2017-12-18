@@ -68,6 +68,17 @@ mods.extendedcrafting.TableCrafting.addShaped(
 	]
 );
 
+//Stage 4 Machine Frame
+mods.extendedcrafting.TableCrafting.addShaped(
+	<teslacorelib:machine_case>,
+	[
+		[metals.CompressedIron.plate, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, metals.CompressedIron.plate],
+		[<industrialforegoing:plastic>, <stevescarts:modulecomponents:49>, <pneumaticcraft:printed_circuit_board>, <stevescarts:modulecomponents:49>, <industrialforegoing:plastic>],
+		[<betterwithmods:material:4>, <appliedenergistics2:material>, <extendedcrafting:frame>, <appliedenergistics2:material>, <betterwithmods:material:4>],
+		[<industrialforegoing:plastic>, metals.cobalt.plate, <stevescarts:modulecomponents:49>, metals.cobalt.plate, <industrialforegoing:plastic>],
+		[metals.CompressedIron.plate, <industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>, metals.CompressedIron.plate]
+	]
+);
 
 //
 //

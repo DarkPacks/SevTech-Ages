@@ -10,8 +10,5 @@ setRequiresParent(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("actuallyadditions:block_atomic_reconstructor")
 
-
-
-
 setRewardExperience(16)
 setRewardFunction("triumph:stage5trigger") 

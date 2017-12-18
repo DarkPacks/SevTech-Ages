@@ -8,7 +8,6 @@ setParent("triumph:stage1/root")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("primal_tech:wooden_basin")
 
 setRewardExperience(4)

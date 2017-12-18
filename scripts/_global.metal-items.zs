@@ -167,6 +167,26 @@ global metalItems as IIngredient[string][string] = {
 		plate: <materialpart:fiery:plate>,
 		rod: <materialpart:fiery:rod>
 	},
+	galgadorian: {
+		block: <stevescarts:blockmetalstorage:1>,
+		dust: null,
+		gear: <materialpart:galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:47>,
+		liquid: <liquid:galgadorian>,
+		nugget: null,
+		plate: <materialpart:galgadorian:plate>,
+		rod: <materialpart:galgadorian:rod>
+	},
+	galgadorianEnhanced: {
+		block: <stevescarts:blockmetalstorage:2>,
+		dust: null,
+		gear: <materialpart:enhanced_galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:49>,
+		liquid: <liquid:enhanced_galgadorian>,
+		nugget: null,
+		plate: <materialpart:enhanced_galgadorian:plate>,
+		rod: <materialpart:enhanced_galgadorian:rod>
+	},
 	gold: {
 		block: <minecraft:gold_block>,
 		dust: <immersiveengineering:metal:19>,
@@ -286,6 +306,16 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <abyssalcraft:ingotnugget:1>,
 		plate: null,
 		rod: null
+	},
+	reinforcedMetal: {
+		block: <stevescarts:blockmetalstorage>,
+		dust: null,
+		gear: <materialpart:reinforced_metal:gear>,
+		ingot: <stevescarts:modulecomponents:22>,
+		liquid: <liquid:reinforced_metal>,
+		nugget: null,
+		plate: <materialpart:reinforced_metal:plate>,
+		rod: <materialpart:reinforced_metal:rod>
 	},
 	silver: {
 		block: <immersiveengineering:storage:3>,

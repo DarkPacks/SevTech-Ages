@@ -1,0 +1,13 @@
+setIcon("tconstruct:metal", 2)
+
+setTitle("Manylyn")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage4/ardite")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:metal", 2)
+
+setRequirements("any")

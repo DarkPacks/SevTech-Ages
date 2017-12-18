@@ -1,11 +1,11 @@
-mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:lpg>);
-mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:plastic>);
-mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:fuel>);
-mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:kerosene>);
-mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:lubricant>);
+import mods.pneumaticcraft.thermopneumaticprocessingplant as ThermopneumaticProcessingPlant;
+import mods.pneumaticcraft.refinery as Refinery;
+import mods.pneumaticcraft.liquidfuel as LiquidFuel;
 
-mods.pneumaticcraft.refinery.removeRecipe([<liquid:diesel>, <liquid:kerosene>, <liquid:fuel>, <liquid:lpg>]);
+ThermopneumaticProcessingPlant.removeAllRecipes();
+
+Refinery.removeAllRecipes();
 
 //Replace PneumaticCraft gasoline with Immersive Petroleum gasoline
-mods.pneumaticcraft.liquidfuel.removeFuel(<liquid:fuel>);
-mods.pneumaticcraft.liquidfuel.addFuel(<liquid:gasoline>, 1500);
+LiquidFuel.removeFuel(<liquid:fuel>);
+LiquidFuel.addFuel(<liquid:gasoline>, 1500);

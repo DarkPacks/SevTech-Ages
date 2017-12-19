@@ -6,6 +6,19 @@ ThermopneumaticProcessingPlant.removeAllRecipes();
 
 Refinery.removeAllRecipes();
 
-//Replace PneumaticCraft gasoline with Immersive Petroleum gasoline
-LiquidFuel.removeFuel(<liquid:fuel>);
-LiquidFuel.addFuel(<liquid:gasoline>, 1500);
+/*
+	Fuels
+
+	mods.pneumaticcraft.liquidfuel.addFuel(ILiquidStack fuelLiquid, double mLPerBucket);
+	mods.pneumaticcraft.liquidfuel.removeFuel(ILiquidstack fuelLiquid);
+
+	Defaults:
+	LPG - 1800
+	Gasoline - 1500
+	Kerosene - 1100
+	Diesel - 700
+*/
+LiquidFuel.removeAllFuels();
+LiquidFuel.addFuel(<liquid:gasoline>, 1500 * 1000);
+LiquidFuel.addFuel(<liquid:kerosene>, 1100 * 1000);
+LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);

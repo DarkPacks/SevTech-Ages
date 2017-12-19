@@ -13,7 +13,8 @@ var modIDs = [
 	"quantumstorage",
 	"rftools",
 	"rftoolscontrol",
-	"scannable"
+	"scannable",
+	"overloaded"
 ] as string[];
 
 for id in modIDs {
@@ -40,6 +41,7 @@ var stage5Items = [
 	<minecraft:emerald>,
 	<minecraft:emerald_block>,
 	<prospectors:prospector_best>,
+	<minecraft:nether_star>,
 
 	//Ore
 	<abyssalcraft:abydiaore>,

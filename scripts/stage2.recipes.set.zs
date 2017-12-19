@@ -58,6 +58,13 @@ var itemsForStage = [
 	<minecraft:writable_book>,
 	<minecraft:painting>,
 	<quark:glass_item_frame>,
+	<minecraft:carrot_on_a_stick>,
+	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
+	<bibliocraft:recipebook>,
+	<jaff:iron_fishing_rod>,
+	<jaff:wooden_fishing_rod>,
+	<jaff:iron_hook>,
+	<jaff:tank>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -288,6 +295,7 @@ var itemsForStage = [
 	<tconstruct:seared_tank:2>,
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
+	<tconstruct:slimesling>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),

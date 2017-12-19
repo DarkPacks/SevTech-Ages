@@ -4,10 +4,9 @@ var STAGE = STAGES.three;
 
 //Entire Mods into Stage three
 var modIDs = [
-	"enderutilities",
 	"immersivepetroleum",
+	"immersiverailroading",
 	"openglider",
-	"stevescarts"
 ] as string[];
 
 for id in modIDs {
@@ -31,6 +30,9 @@ var itemsForStage = [
 	<minecraft:ender_chest>,
 	<primal:opal_hoe>,
 	<primal:quartz_hoe>,
+	<bonsaitrees:bonsaipot>,
+	<bonsaitrees:bonsaipot:1>,
+	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,

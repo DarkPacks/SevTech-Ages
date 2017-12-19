@@ -14,7 +14,9 @@ var modIDs = [
 	"refinedstorage",
 	"rftools",
 	"rftoolscontrol",
-	"storagenetwork"
+	"storagenetwork",
+	"indlog",
+	"integrateddynamics"
 ] as string[];
 
 for id in modIDs {

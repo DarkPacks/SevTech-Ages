@@ -176,6 +176,33 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 					immersivePressInputCount //Input Count
 				);
 			}
+
+			//Dust can only be used in arc furnace
+			if (metalType == "dust") {
+				if (loadedMods.contains("appliedenergistics2")) {
+					mods.appliedenergistics2.Grinder.removeRecipe(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("astralsorcery")) {
+					mods.astralsorcery.Grindstone.removeRecipe(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("immersiveengineering")) {
+					mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
+					mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
+				}
+
+				var defaultArcEnergyPerTick as int = 512;
+				var defaultArcTickTime as int = 100;
+				var arcGivesSlag as bool = false;
+				mods.immersiveengineering.ArcFurnace.addRecipe(
+					metalItems[metalName].ingot.items[0],
+					preferredMetalItem,
+					arcGivesSlag ? <ore:itemSlag>.firstItem : null,
+					defaultArcTickTime,
+					defaultArcEnergyPerTick
+				);
+			}
 		}
 
 		//Primal Tech
@@ -210,6 +237,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			mods.jei.JEI.removeAndHide(metalItem);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.ArcFurnace.removeRecipe(metalItem);
+				mods.immersiveengineering.Crusher.removeRecipe(metalItem);
 				mods.immersiveengineering.MetalPress.removeRecipe(metalItem);
 			}
 
@@ -217,9 +246,18 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				furnace.remove(metalItem);
 			}
 
+			if (loadedMods.contains("appliedenergistics2")) {
+				mods.appliedenergistics2.Grinder.removeRecipe(metalItem);
+			}
+
+			if (loadedMods.contains("astralsorcery")) {
+				mods.astralsorcery.Grindstone.removeRecipe(metalItem);
+			}
+
 			if (hasLiquid) {
 				if (loadedMods.contains("embers")) {
 					mods.embers.Stamper.remove(metalItem);
+					mods.embers.Melter.remove(metalItem);
 				}
 
 				if (loadedMods.contains("tconstruct")) {

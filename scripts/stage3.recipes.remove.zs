@@ -69,6 +69,7 @@ var removeItems = [
 	<vc:upgrades/upgrade_airship_frame:3>,
 	<vc:upgrades/upgrade_airship_frame:4>,
 	<vc:upgrades/upgrade_airship_frame:5>,
+	<buildcraftcore:engine>
 
 ] as IItemStack[];
 

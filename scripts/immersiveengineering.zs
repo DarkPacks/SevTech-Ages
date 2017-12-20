@@ -57,3 +57,6 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.bloc
 ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulecomponents:20>, slag, 200, 512,
 	[metals.iron.ingot.firstItem * 5, <stevescarts:modulecomponents:19> * 3]
 );
+
+//Dawnstone
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.firstItem, slag, 400, 512, [metals.gold.ingot.firstItem]);

@@ -51,9 +51,9 @@ Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);
 //Add Steve's carts recipes
 //Lump of Galgador
 ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.block.firstItem, slag, 200, 512,
-	[<minecraft:glowstone_dust> * 2, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
+	[<minecraft:glowstone_dust> * 3, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
 );
 //Stabilized Metal
-ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, metals.iron.ingot.firstItem * 5, slag, 200, 512,
-	[<stevescarts:modulecomponents:20>, <stevescarts:modulecomponents:19> * 3]
+ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulecomponents:20>, slag, 200, 512,
+	[metals.iron.ingot.firstItem * 5, <stevescarts:modulecomponents:19> * 3]
 );

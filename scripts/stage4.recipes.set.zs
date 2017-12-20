@@ -24,9 +24,6 @@ for id in modIDs {
 }
 
 var itemsForStage = [
-	//Unified items
-	<ore:gearGold>.firstItem,
-
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
 

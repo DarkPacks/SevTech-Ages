@@ -35,7 +35,7 @@ var metalStages = {
 	refinedCoralium: "",
 	reinforcedMetal: "three",
 	silver: "three",
-	steel: "",
+	steel: "three",
 	steeleaf: "two",
 	tin: "one",
 	uranium: ""

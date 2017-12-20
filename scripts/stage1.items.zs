@@ -573,13 +573,12 @@ var stage1Items = [
 
 	//Content Tweaker
 	<materialpart:aquamarine:ore_minecraft_stone>,
-	<contenttweaker:material_part:2>,
-	<contenttweaker:material_part:3>,
-	<contenttweaker:material_part:7>,
-	<contenttweaker:material_part:8>,
-	<contenttweaker:material_part:27>,
-	<contenttweaker:material_part:28>,
-
+	<materialpart:bronze:beam>,
+	<materialpart:bronze:bolt>,
+	<materialpart:copper:beam>,
+	<materialpart:copper:bolt>,
+	<materialpart:tin:beam>,
+	<materialpart:tin:bolt>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:*>,

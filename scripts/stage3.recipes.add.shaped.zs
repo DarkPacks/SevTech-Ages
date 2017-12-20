@@ -209,251 +209,349 @@ var shapedRecipes = {
 
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
-		[[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>],
-		[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>],
-		[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]]
+		[
+			[<minecraft:clock>, <extendedcrafting:material:8>, <immersiveengineering:material:27>],
+			[<minecraft:glass>, <natura:netherrack_furnace>, <minecraft:glass>],
+			[metals.lead.plate, <ironchest:iron_chest:1>, metals.lead.plate]
+		]
 	],
 
 	<stevescarts:cartmodule> : [
-		[[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
-		[metals.iron.plate, <natura:netherrack_furnace>, metals.iron.plate],
-		[metals.iron.plate, metals.iron.plate, metals.iron.plate]]
+		[
+			[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
+			[metals.iron.plate, <natura:netherrack_furnace>, metals.iron.plate],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		]
 	],
 	<stevescarts:cartmodule:44> : [
-		[[null, <minecraft:piston>, null],
-		[metals.iron.plate, <minecraft:furnace>, metals.iron.plate],
-		[null, metals.iron.plate, null]]
+		[
+			[null, <minecraft:piston>, null],
+			[metals.iron.plate, <minecraft:furnace>, metals.iron.plate],
+			[null, metals.iron.plate, null]
+		]
 	],
 	<stevescarts:cartmodule:91> : [
-		[[metals.aluminum.plate, <minecraft:furnace>, metals.aluminum.plate],
-		[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
-		[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, <minecraft:furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:modulecomponents:17> : [
-		[[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>],
-		[<ore:treeSapling>, <stevescarts:modulecomponents:16>, <ore:treeSapling>],
-		[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]]
+		[
+			[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>],
+			[<ore:treeSapling>, <stevescarts:modulecomponents:16>, <ore:treeSapling>],
+			[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]
+		]
 	],
 	<stevescarts:modulecomponents:16> : [
-		[[<minecraft:redstone>, metals.aluminum.plate, <minecraft:redstone>],
-		[<immersiveengineering:material:27>, metals.aluminum.plate, <immersiveengineering:material:27>],
-		[<minecraft:redstone>, metals.aluminum.plate, <minecraft:redstone>]]
+		[
+			[<minecraft:redstone>, metals.aluminum.plate, <minecraft:redstone>],
+			[<immersiveengineering:material:27>, metals.aluminum.plate, <immersiveengineering:material:27>],
+			[<minecraft:redstone>, metals.aluminum.plate, <minecraft:redstone>]
+		]
 	],
 	<stevescarts:modulecomponents:15> : [
-		[[null, null, null],
-		[metals.iron.rod, metals.iron.rod, <primal_tech:flint_edged_disc>],
-		[null, null, null]]
+		[
+			[null, null, null],
+			[metals.iron.rod, metals.iron.rod, <primal_tech:flint_edged_disc>],
+			[null, null, null]
+		]
 	],
 	<stevescarts:cartmodule:79> : [
-		[[<stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>],
-		[<stevescarts:modulecomponents:80>, metals.platinum.plate, <stevescarts:modulecomponents:80>],
-		[null, <stevescarts:modulecomponents:17>, null]]
+		[
+			[<stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>],
+			[<stevescarts:modulecomponents:80>, metals.platinum.plate, <stevescarts:modulecomponents:80>],
+			[null, <stevescarts:modulecomponents:17>, null]
+		]
 	],
 	<stevescarts:cartmodule:79> : [
-		[[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
-		[<stevescarts:modulecomponents:22>, metals.iron.plate, <stevescarts:modulecomponents:22>],
-		[null, <stevescarts:cartmodule:15>, null]]
+		[
+			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
+			[<stevescarts:modulecomponents:22>, metals.iron.plate, <stevescarts:modulecomponents:22>],
+			[null, <stevescarts:cartmodule:15>, null]
+		]
 	],
 	<stevescarts:modulecomponents:59> : [
-		[[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
-		[<stevescarts:modulecomponents:22>, <minecraft:redstone>, <stevescarts:modulecomponents:22>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:16>, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
+			[<stevescarts:modulecomponents:22>, <minecraft:redstone>, <stevescarts:modulecomponents:22>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:16>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:blockdistributor> : [
-		[[stone, <immersiveengineering:material:27>, stone],
-		[<immersiveengineering:material:27>, <minecraft:redstone>, <immersiveengineering:material:27>],
-		[stone, <immersiveengineering:material:27>, stone]]
+		[
+			[stone, <immersiveengineering:material:27>, stone],
+			[<immersiveengineering:material:27>, <minecraft:redstone>, <immersiveengineering:material:27>],
+			[stone, <immersiveengineering:material:27>, stone]
+		]
 	],
 	<stevescarts:upgrade:10> : [
-		[[metals.aluminum.plate, <minecraft:rail>, metals.aluminum.plate],
-		[<immersiveengineering:material:27>, metals.iron.plate, <immersiveengineering:material:27>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, <minecraft:rail>, metals.aluminum.plate],
+			[<immersiveengineering:material:27>, metals.iron.plate, <immersiveengineering:material:27>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:upgrade:12> : [
-		[[<minecraft:piston>, <minecraft:rail>, <minecraft:piston>],
-		[<immersiveengineering:material:27>, metals.aluminum.plate, <immersiveengineering:material:27>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]]
+		[
+			[<minecraft:piston>, <minecraft:rail>, <minecraft:piston>],
+			[<immersiveengineering:material:27>, metals.aluminum.plate, <immersiveengineering:material:27>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:upgrade:17> : [
-		[[metals.aluminum.plate, <minecraft:ender_pearl>, metals.aluminum.plate],
-		[<immersiveengineering:material:27>, <stevescarts:blockdistributor>, <immersiveengineering:material:27>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, <minecraft:ender_pearl>, metals.aluminum.plate],
+			[<immersiveengineering:material:27>, <stevescarts:blockdistributor>, <immersiveengineering:material:27>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:upgrade:13> : [
-		[[<immersiveengineering:material:27>, <minecraft:repeater>, <immersiveengineering:material:27>],
-		[<minecraft:redstone>, <stevescarts:modulecomponents:16>, <minecraft:redstone>],
-		[<minecraft:redstone>, <stevescarts:modulecomponents:59>, <minecraft:redstone>]]
+		[
+			[<immersiveengineering:material:27>, <minecraft:repeater>, <immersiveengineering:material:27>],
+			[<minecraft:redstone>, <stevescarts:modulecomponents:16>, <minecraft:redstone>],
+			[<minecraft:redstone>, <stevescarts:modulecomponents:59>, <minecraft:redstone>]
+		]
 	],
 	<stevescarts:upgrade:7> : [
-		[[null, <immersiveengineering:material:27>, null],
-		[<minecraft:piston>, <natura:netherrack_furnace>, <minecraft:piston>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]]
+		[
+			[null, <immersiveengineering:material:27>, null],
+			[<minecraft:piston>, <natura:netherrack_furnace>, <minecraft:piston>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:upgrade:9> : [
-		[[null, <immersiveengineering:material:27>, null],
-		[<stevescarts:modulecomponents:16>, <minecraft:redstone>, <stevescarts:modulecomponents:16>],
-		[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:22>]]
+		[
+			[null, <immersiveengineering:material:27>, null],
+			[<stevescarts:modulecomponents:16>, <minecraft:redstone>, <stevescarts:modulecomponents:16>],
+			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:22>]
+		]
 	],
 	<stevescarts:upgrade:11> : [
-		[[metals.aluminum.plate, null, metals.aluminum.plate],
-		[<stevescarts:modulecomponents:16>, <minecraft:anvil>, <stevescarts:modulecomponents:16>],
-		[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, null, metals.aluminum.plate],
+			[<stevescarts:modulecomponents:16>, <minecraft:anvil>, <stevescarts:modulecomponents:16>],
+			[metals.aluminum.plate, <stevescarts:modulecomponents:59>, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:upgrade:6> : [
-		[[null, <minecraft:piston>, null],
-		[<immersiveengineering:material:27>, <minecraft:fence>, <immersiveengineering:material:27>],
-		[null, <stevescarts:modulecomponents:59>, null]]
+		[
+			[null, <minecraft:piston>, null],
+			[<immersiveengineering:material:27>, <minecraft:fence>, <immersiveengineering:material:27>],
+			[null, <stevescarts:modulecomponents:59>, null]
+		]
 	],
 	<stevescarts:blockdetector:1> : [
-		[[cobblestone, <minecraft:stone_pressure_plate>, cobblestone],
-		[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
-		[cobblestone, <minecraft:redstone>, cobblestone]]
+		[
+			[cobblestone, <minecraft:stone_pressure_plate>, cobblestone],
+			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
+			[cobblestone, <minecraft:redstone>, cobblestone]
+		]
 	],
 	<stevescarts:blockdetector> : [
-		[[null, <immersiveengineering:material:27>, null],
-		[null, <stevescarts:blockdetector:1>, null],
-		[null, null, null]]
+		[
+			[null, <immersiveengineering:material:27>, null],
+			[null, <stevescarts:blockdetector:1>, null],
+			[null, null, null]
+		]
 	],
 	<stevescarts:blockdetector:2> : [
-		[[metals.aluminum.plate, metals.iron.plate, metals.aluminum.plate],
-		[null, <stevescarts:blockdetector:1>, null],
-		[null, <immersiveengineering:material:27>, null]]
+		[
+			[metals.aluminum.plate, metals.iron.plate, metals.aluminum.plate],
+			[null, <stevescarts:blockdetector:1>, null],
+			[null, <immersiveengineering:material:27>, null]
+		]
 	],
 	<stevescarts:cartmodule:14> : [
-		[[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
-		[null, metals.aluminum.plate, null],
-		[<immersiveengineering:material:27>, metals.gold.plate, <immersiveengineering:material:27>]]
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[null, metals.aluminum.plate, null],
+			[<immersiveengineering:material:27>, metals.gold.plate, <immersiveengineering:material:27>]
+		]
 	],
 	<stevescarts:cartmodule:84> : [
-		[[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
-		[null, <stevescarts:modulecomponents:22>, null],
-		[<stevescarts:modulecomponents:16>, metals.gold.plate, <stevescarts:modulecomponents:16>]]
+		[
+			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
+			[null, <stevescarts:modulecomponents:22>, null],
+			[<stevescarts:modulecomponents:16>, metals.gold.plate, <stevescarts:modulecomponents:16>]
+		]
 	],
 	<stevescarts:cartmodule:84> : [
-		[[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
-		[null, <stevescarts:cartmodule:14>, null],
-		[null, <immersiveengineering:material:27>, null]]
+		[
+			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
+			[null, <stevescarts:cartmodule:14>, null],
+			[null, <immersiveengineering:material:27>, null]
+		]
 	],
 	<stevescarts:cartmodule:18> : [
-		[[<actuallyadditions:item_fertilizer>, null, <actuallyadditions:item_fertilizer>],
-		[<buildcraftfactory:tank>, <minecraft:leather>, <buildcraftfactory:tank>],
-		[<minecraft:leather>,<immersiveengineering:material:27>, <minecraft:leather>]]
+		[
+			[<actuallyadditions:item_fertilizer>, null, <actuallyadditions:item_fertilizer>],
+			[<buildcraftfactory:tank>, <minecraft:leather>, <buildcraftfactory:tank>],
+			[<minecraft:leather>,<immersiveengineering:material:27>, <minecraft:leather>]
+		]
 	],
 	<stevescarts:cartmodule:85> : [
-		[[<stevescarts:modulecomponents:84>, null, <stevescarts:modulecomponents:84>],
-		[null, <immersiveengineering:material:27>, null],
-		[<stevescarts:modulecomponents:84>, null, <stevescarts:modulecomponents:84>]]
+		[
+			[<stevescarts:modulecomponents:84>, null, <stevescarts:modulecomponents:84>],
+			[null, <immersiveengineering:material:27>, null],
+			[<stevescarts:modulecomponents:84>, null, <stevescarts:modulecomponents:84>]
+		]
 	],
 	<stevescarts:cartmodule:86> : [
-		[[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
-		[<immersiveengineering:material:27>, <minecraft:bucket>, <immersiveengineering:material:27>],
-		[null, <immersiveengineering:material:27>, null]]
+		[
+			[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
+			[<immersiveengineering:material:27>, <minecraft:bucket>, <immersiveengineering:material:27>],
+			[null, <immersiveengineering:material:27>, null]
+		]
 	],
 	<stevescarts:cartmodule:8> : [
-		[[null, <immersiveengineering:drillhead>, null],
-		[null, null, <immersiveengineering:drillhead>],
-		[null, <immersiveengineering:drillhead>, null]]
+		[
+			[null, <immersiveengineering:drillhead>, null],
+			[null, null, <immersiveengineering:drillhead>],
+			[null, <immersiveengineering:drillhead>, null]
+		]
 	],
 	<stevescarts:cartmodule:57> : [
-		[[<minecraft:fence>, <minecraft:fence>, <minecraft:fence>],
-		[<minecraft:fence>, <immersiveengineering:material:27>, <minecraft:fence>],
-		[<minecraft:fence>, <minecraft:fence>, <minecraft:fence>]]
+		[
+			[<minecraft:fence>, <minecraft:fence>, <minecraft:fence>],
+			[<minecraft:fence>, <immersiveengineering:material:27>, <minecraft:fence>],
+			[<minecraft:fence>, <minecraft:fence>, <minecraft:fence>]
+		]
 	],
 	<stevescarts:cartmodule:12> : [
-		[[null, <minecraft:redstone>, null],
-		[<minecraft:brick_block>, <immersiveengineering:material:27>, <minecraft:brick_block>],
-		[null, <minecraft:piston>, null]]
+		[
+			[null, <minecraft:redstone>, null],
+			[<minecraft:brick_block>, <immersiveengineering:material:27>, <minecraft:brick_block>],
+			[null, <minecraft:piston>, null]
+		]
 	],
 	<stevescarts:modulecomponents:10> : [
-		[[metals.gold.plate, metals.platinum.plate, metals.gold.plate],
-		[<minecraft:glass_pane>, <immersiveengineering:material:27>, <minecraft:glass_pane>],
-		[<minecraft:redstone>, <minecraft:glass_pane>, <minecraft:redstone>]]
+		[
+			[metals.gold.plate, metals.platinum.plate, metals.gold.plate],
+			[<minecraft:glass_pane>, <immersiveengineering:material:27>, <minecraft:glass_pane>],
+			[<minecraft:redstone>, <minecraft:glass_pane>, <minecraft:redstone>]
+		]
 	],
 	<stevescarts:modulecomponents:39> : [
-		[[<stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>],
-		[<stevescarts:modulecomponents:37>, <immersiveengineering:material:27>, <stevescarts:modulecomponents:37>],
-		[<stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>]]
+		[
+			[<stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>],
+			[<stevescarts:modulecomponents:37>, <immersiveengineering:material:27>, <stevescarts:modulecomponents:37>],
+			[<stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>, <stevescarts:modulecomponents:37>]
+		]
 	],
 	<stevescarts:modulecomponents:26> : [
-		[[metals.gold.plate, <immersiveengineering:material:27>, metals.gold.plate],
-		[<minecraft:redstone>, <stevescarts:modulecomponents:16>, <minecraft:redstone>],
-		[<minecraft:redstone>, null, <minecraft:redstone>]]
+		[
+			[metals.gold.plate, <immersiveengineering:material:27>, metals.gold.plate],
+			[<minecraft:redstone>, <stevescarts:modulecomponents:16>, <minecraft:redstone>],
+			[<minecraft:redstone>, null, <minecraft:redstone>]
+		]
 	],
 	<stevescarts:modulecomponents:18> : [
-		[[<minecraft:obsidian>, null, <minecraft:obsidian>],
-		[null, metals.platinum.plate, null],
-		[<minecraft:obsidian>, null, <minecraft:obsidian>]]
+		[
+			[<minecraft:obsidian>, null, <minecraft:obsidian>],
+			[null, metals.platinum.plate, null],
+			[<minecraft:obsidian>, null, <minecraft:obsidian>]
+		]
 	],
 	<stevescarts:modulecomponents:58> : [
-		[[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>],
-		[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
-		[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>]]
+		[
+			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>],
+			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
+			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>]
+		]
 	],
 	<stevescarts:modulecomponents:11> : [
-		[[null, null, metals.blackIron.rod],
-		[null, metals.blackIron.rod, null],
-		[metals.blackIron.rod, null, null]]
+		[
+			[null, null, metals.blackIron.rod],
+			[null, metals.blackIron.rod, null],
+			[metals.blackIron.rod, null, null]
+		]
 	],
 	<stevescarts:modulecomponents:28> : [
-		[[null, <minecraft:redstone>, null],
-		[null, <immersiveengineering:material:27>, null],
-		[null, null, null]]
+		[
+			[null, <minecraft:redstone>, null],
+			[null, <immersiveengineering:material:27>, null],
+			[null, null, null]
+		]
 	],
 	<stevescarts:modulecomponents:27> : [
-		[[metals.aluminum.plate, <minecraft:redstone>, metals.aluminum.plate],
-		[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
-		[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]]
+		[
+			[metals.aluminum.plate, <minecraft:redstone>, metals.aluminum.plate],
+			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
+			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]
+		]
 	],
 	<stevescarts:modulecomponents:25> : [
-		[[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-		[<minecraft:redstone>, metals.gold.plate, <minecraft:redstone>],
-		[<minecraft:dispenser>, <immersiveengineering:material:27>, <minecraft:dispenser>]]
+		[
+			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+			[<minecraft:redstone>, metals.gold.plate, <minecraft:redstone>],
+			[<minecraft:dispenser>, <immersiveengineering:material:27>, <minecraft:dispenser>]
+		]
 	],
 	<stevescarts:cartmodule:99> : [
-		[[null, <minecraft:cake>, null],
-		[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-		[null, <immersiveengineering:material:27>, null]]
+		[
+			[null, <minecraft:cake>, null],
+			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+			[null, <immersiveengineering:material:27>, null]
+		]
 	],
 	<stevescarts:cartmodule:87> : [
-		[[null, <immersiveengineering:material:27>, null],
-		[null, <extendedcrafting:table_basic>, null],
-		[null, null, null]]
+		[
+			[null, <immersiveengineering:material:27>, null],
+			[null, <extendedcrafting:table_basic>, null],
+			[null, null, null]
+		]
 	],
 	<stevescarts:cartmodule:92> : [
-		[[null, <minecraft:cake>, null],
-		[null, <stevescarts:modulecomponents:16>, null],
-		[<immersiveengineering:material:27>, <stevescarts:cartmodule:87>, <immersiveengineering:material:27>]]
+		[
+			[null, <minecraft:cake>, null],
+			[null, <stevescarts:modulecomponents:16>, null],
+			[<immersiveengineering:material:27>, <stevescarts:cartmodule:87>, <immersiveengineering:material:27>]
+		]
 	],
 	<stevescarts:cartmodule:23> : [
-		[[null, metals.lead.plate, null],
-		[null, <stevescarts:modulecomponents:28>, null],
-		[null, null, null]]
+		[
+			[null, metals.lead.plate, null],
+			[null, <stevescarts:modulecomponents:28>, null],
+			[null, null, null]
+		]
 	],
 	<stevescarts:cartmodule:78> : [
-		[[null, <minecraft:glass_pane>, null],
-		[plank, <immersiveengineering:material:27>, plank],
-		[<minecraft:redstone>, plank, <minecraft:redstone>]]
+		[
+			[null, <minecraft:glass_pane>, null],
+			[plank, <immersiveengineering:material:27>, plank],
+			[<minecraft:redstone>, plank, <minecraft:redstone>]
+		]
 	],
 	<stevescarts:cartmodule:45> : [
-		[[<stevescarts:modulecomponents:44>, metals.iron.plate, <stevescarts:modulecomponents:44>],
-		[metals.iron.plate, <immersiveengineering:material:27>, metals.iron.plate],
-		[null, <minecraft:piston>, null]]
+		[
+			[<stevescarts:modulecomponents:44>, metals.iron.plate, <stevescarts:modulecomponents:44>],
+			[metals.iron.plate, <immersiveengineering:material:27>, metals.iron.plate],
+			[null, <minecraft:piston>, null]
+		]
 	],
 	<stevescarts:upgrade:1> : [
-		[[metals.platinum.gear, <minecraft:glowstone>, metals.platinum.gear],
-		[<minecraft:glowstone>, <embers:block_dawnstone>, <minecraft:glowstone>],
-		[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]]
+		[
+			[metals.platinum.gear, <minecraft:glowstone>, metals.platinum.gear],
+			[<minecraft:glowstone>, <embers:block_dawnstone>, <minecraft:glowstone>],
+			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
+		]
 	],
 
 	<stevescarts:cartmodule:22> : [
-		[[null, <nex:item_crystal_amethyst>, null],
-		[<minecraft:glowstone>, <stevescarts:modulecomponents:28>, <minecraft:glowstone>],
-		[null, null, null]]
+
+			[[null, <nex:item_crystal_amethyst>, null],
+			[<minecraft:glowstone>, <stevescarts:modulecomponents:28>, <minecraft:glowstone>],
+			[null, null, null]
+		]
 	],
 	<stevescarts:cartmodule:93> : [
-		[[null, metals.platinum.plate, null],
-		[null, <stevescarts:modulecomponents:16>, null],
-		[<immersiveengineering:material:27>, <stevescarts:cartmodule:91>, <immersiveengineering:material:27>]]
+		[
+			[null, metals.platinum.plate, null],
+			[null, <stevescarts:modulecomponents:16>, null],
+			[<immersiveengineering:material:27>, <stevescarts:cartmodule:91>, <immersiveengineering:material:27>]
+		]
 	],
 
 	//Modular Machinery

@@ -171,3 +171,6 @@ for seed in seeds {
 //AE Wrenches
 <ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench>);
 <ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench>);
+
+//Add to oredict so it can be removed
+<ore:gearCompressedIron>.add(<pneumaticcraft:compressed_iron_gear>);

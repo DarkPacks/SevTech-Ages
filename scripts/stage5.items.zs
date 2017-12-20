@@ -13,7 +13,8 @@ var modIDs = [
 	"quantumstorage",
 	"rftools",
 	"rftoolscontrol",
-	"scannable"
+	"scannable",
+	"overloaded"
 ] as string[];
 
 for id in modIDs {
@@ -40,6 +41,7 @@ var stage5Items = [
 	<minecraft:emerald>,
 	<minecraft:emerald_block>,
 	<prospectors:prospector_best>,
+	<minecraft:nether_star>,
 
 	//Ore
 	<abyssalcraft:abydiaore>,
@@ -265,8 +267,8 @@ var stage5Items = [
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:material:128>,
-	<ironbackpacks:backpack>,
-	<ironbackpacks:backpack>,
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
 	<ironchest:iron_chest:2>,
 	<jaff:diamond_fishing_rod>,
 	<minecraft:diamond_horse_armor>,

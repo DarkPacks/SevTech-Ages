@@ -170,7 +170,6 @@ var hideItems = [
 	<primal:rock_diorite>,
 	<primal:rock_granite>,
 	<primal:rock_netherrack>,
-	<primal:rock_sarsen>,
 	<primal:rock_stone>,
 	<primal:rock_vitrified>,
 	<primal:shark_meat_rotten>,
@@ -220,6 +219,10 @@ var hideItems = [
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
 	<tconstruct:throwball:1>,
+	<minecraft:bedrock>,
+	<minecraft:command_block_minecart>,
+	<cd4017be_lib:m>,
+
 
 	//Hide In-progress AE Crystal seeds
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),

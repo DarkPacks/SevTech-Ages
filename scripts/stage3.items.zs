@@ -13,6 +13,7 @@ var STAGE = STAGES.three;
 var modIDs = [
 	"immersivepetroleum",
 	"immersivetech",
+	"immersiverailroading",
 	"nex",
 	"openglider",
 	"vc"
@@ -59,6 +60,16 @@ var stage3Items = [
 	<minecraft:beacon>,
 	<minecraft:ender_chest>,
 	<prospectors:prospector_med>,
+	<minecraft:flint_and_steel>,
+	<bonsaitrees:bonsaipot>,
+	<bonsaitrees:bonsaipot:1>,
+	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
+	<natura:netherrack_furnace>,
+	<nex:slab_vanilla_double>,
+	<nex:slab_brick_nether_double:3>,
+	<nex:slab_brick_nether_double:2>,
+	<nex:slab_brick_nether_double:1>,
+	<nex:slab_brick_nether_double>,
 
 	//Ore
 	<immersiveengineering:ore:1>,
@@ -360,6 +371,9 @@ var stage3Items = [
 	<storagedrawers:upgrade_status:1>,
 	<storagedrawers:upgrade_status>,
 	<storagedrawers:upgrade_void>,
+
+	//Better With Mods
+	<betterwithmods:hibachi>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,

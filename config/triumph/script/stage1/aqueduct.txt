@@ -30,10 +30,6 @@ criteria8.setBlock("betterwithaddons:aqueduct", 8)
 criteria9.setBlock("betterwithaddons:aqueduct", 9)
 criteria10.setBlock("betterwithaddons:aqueduct", 10)
 
-
-
-
 setRewardExperience(4)
-
 
 setRequirements("any")

@@ -5,7 +5,8 @@ var STAGE = STAGES.two;
 //Entire Mods into Stage two
 var modIDs = [
 	"farmingforblockheads",
-	"uppers"
+	"uppers",
+	"thebetweenlands"
 ] as string[];
 
 for id in modIDs {
@@ -58,6 +59,15 @@ var itemsForStage = [
 	<minecraft:writable_book>,
 	<minecraft:painting>,
 	<quark:glass_item_frame>,
+	<minecraft:carrot_on_a_stick>,
+	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
+	<bibliocraft:recipebook>,
+	<jaff:iron_fishing_rod>,
+	<jaff:wooden_fishing_rod>,
+	<jaff:iron_hook>,
+	<jaff:tank>,
+	<betterwithaddons:bundle:1>,
+	<betterwithmods:material:43>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -288,15 +298,16 @@ var itemsForStage = [
 	<tconstruct:seared_tank:2>,
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
+	<tconstruct:slimesling>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>,
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

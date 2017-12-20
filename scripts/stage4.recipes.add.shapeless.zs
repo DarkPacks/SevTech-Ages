@@ -20,14 +20,20 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 
-/*UNCOMMENT WHEN NEEDED
-var shapelessRecipes = {
 
+var shapelessRecipes = {
+	<pneumaticcraft:printed_circuit_board> : [
+		[
+			<pneumaticcraft:unassembled_pcb>, <pneumaticcraft:transistor>, <pneumaticcraft:transistor>,
+			<pneumaticcraft:transistor>, <pneumaticcraft:capacitor>, <pneumaticcraft:capacitor>,
+			<pneumaticcraft:capacitor>, <appliedenergistics2:material>, <appliedenergistics2:material>
+		]
+	]
 } as IIngredient[][][IItemStack];
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
+	 	mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-*/
+

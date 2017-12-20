@@ -741,7 +741,17 @@ var stage2Items = [
 
 	//Spartan Shields
 	<spartanshields:shield_basic_iron>,
-	<spartanshields:shield_basic_gold>
+	<spartanshields:shield_basic_gold>,
+
+	//Iron Backpacks
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>
 ] as IItemStack[];
 
 for item in stage2Items {

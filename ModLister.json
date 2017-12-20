@@ -106,10 +106,10 @@
   {
     "n": "ArmoreableMobs",
     "v": "1.1.2",
-    "f": "armoreablemobs-1.1.3.jar",
+    "f": "armoreablemobs-1.1.4.jar",
     "a": "Buuz135",
     "u": "",
-    "m": "a7110ffb0d84a51131efc44724eb7b19"
+    "m": "b737560b4d50c711bce833b230816311"
   },
   {
     "n": "Astikoor",
@@ -369,11 +369,11 @@
   },
   {
     "n": "Chisel",
-    "v": "MC1.12-0.0.14.18",
-    "f": "Chisel-MC1.12-0.0.14.18.jar",
+    "v": "MC1.12-0.1.0.23",
+    "f": "Chisel-MC1.12-0.1.0.23.jar",
     "a": "tterrag, Drullkus, minecreatr",
     "u": "https://minecraft.curseforge.com/projects/chisel",
-    "m": "7dc3d328722d30c573a78d15d81d82dc"
+    "m": "75b15150dc2a756bf586710a10c79768"
   },
   {
     "n": "Chisels \u0026 Bits",
@@ -1602,18 +1602,18 @@
   {
     "n": "Tinkers\u0027 Complement",
     "v": "${version}",
-    "f": "TinkersComplement-1.12.1-0.2.1.jar",
+    "f": "TinkersComplement-1.12.1-0.2.2b.jar",
     "a": "KnightMiner",
     "u": "https://minecraft.curseforge.com/projects/tinkers-complement",
-    "m": "a019a27bd20815c5097726b6c07949e6"
+    "m": "1c9e7f69104d5a0f55cc4c04fab72423"
   },
   {
     "n": "Tinkers\u0027 Construct",
-    "v": "1.12-2.7.4.34",
-    "f": "TConstruct-1.12-2.7.4.34.jar",
+    "v": "1.12-2.8.0.45",
+    "f": "TConstruct-1.12-2.8.0.45.jar",
     "a": "boni, KnightMiner",
     "u": "https://github.com/SlimeKnights/TinkersConstruct",
-    "m": "10d46b5fd8e6293ad21c33276f34a09a"
+    "m": "6b561dd25d5520a37affb13f048e2002"
   },
   {
     "n": "To the Bat Poles!",

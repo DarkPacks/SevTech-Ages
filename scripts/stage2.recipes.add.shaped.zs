@@ -180,7 +180,7 @@ var shapedRecipes = {
 		[null, <ore:dyeBlack>, null]]
 	],
 	<minecraft:piston> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
+		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
 	],
 	<minecraft:wool:10> : [
 		[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
@@ -332,9 +332,9 @@ var shapedRecipes = {
 	],
 	<ironchest:copper_silver_chest_upgrade> : [
 		[
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
-			[metals.steel.plate, metals.copper.plate, metals.steel.plate],
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
+			[metals.silver.plate, metals.copper.plate, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
 	],
 	<ironchest:iron_chest:1> : [
@@ -346,9 +346,9 @@ var shapedRecipes = {
 	],
 	<ironchest:iron_chest:4> : [
 		[
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
-			[metals.steel.plate, <minecraft:chest>, metals.steel.plate],
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
+			[metals.silver.plate, <minecraft:chest>, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
 	],
 	<ironchest:iron_chest> : [
@@ -368,7 +368,7 @@ var shapedRecipes = {
 	<ironchest:silver_gold_chest_upgrade> : [
 		[
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, metals.steel.plate, metals.gold.plate],
+			[metals.gold.plate, metals.silver.plate, metals.gold.plate],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],

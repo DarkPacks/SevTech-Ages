@@ -14,6 +14,3 @@ setAnnounceToChat(false)
 
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
 criteria.setString("triumph:stage1/astable")
-
-
-

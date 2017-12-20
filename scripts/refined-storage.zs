@@ -1,5 +1,7 @@
-//import crafttweaker.item.IItemStack;
-//import mods.refinedstorage.Solderer;
+/*
+import crafttweaker.item.IItemStack;
+import mods.refinedstorage.Solderer;
+*/
 
 /*
 	Solderer

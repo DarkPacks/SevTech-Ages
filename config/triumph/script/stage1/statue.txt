@@ -23,7 +23,5 @@ criteria5.setItem("abyssalcraft:statue", 4)
 criteria6.setItem("abyssalcraft:statue", 5)
 criteria7.setItem("abyssalcraft:statue", 6)
 
-
 setRewardExperience(10)
 setRequirements("any")
-

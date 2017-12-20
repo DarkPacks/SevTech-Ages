@@ -1,4 +1,5 @@
 #priority 100
+import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -90,6 +91,35 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		if (metalStages[metalName] != "" & hasPreferredItem) {
 			mods.ItemStages.addItemStage(metalStages[metalName], preferredMetalItem);
 			mods.recipestages.Recipes.setRecipeStage(metalStages[metalName], preferredMetalItem);
+
+			if (hasLiquid) {
+				var liquidContainers = [
+					<ceramics:clay_bucket>,
+					<forge:bucketfilled>,
+					<thebetweenlands:syrmorite_bucket_filled>,
+					<thebetweenlands:weedwood_bucket_filled>
+				] as IItemStack[];
+				var liquidName = metalLiquid.name;
+
+				for liquidContainer in liquidContainers {
+					var data as IData = null;
+					if (liquidContainer.matches(<ceramics:clay_bucket>)) {
+						data = {
+							fluids: {
+								FluidName: metalLiquid.name,
+								Amount: 1000
+							}
+						};
+					} else {
+						data = {
+							FluidName: metalLiquid.name,
+							Amount: 1000
+						};
+					}
+
+					mods.ItemStages.addItemStage(metalStages[metalName], liquidContainer.withTag(data));
+				}
+			}
 		}
 
 		/*

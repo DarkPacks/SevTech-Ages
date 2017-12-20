@@ -70,6 +70,7 @@ var removeItems = [
 	<stevescarts:modulecomponents:27>,
 	<stevescarts:modulecomponents:28>,
 	<stevescarts:modulecomponents:39>,
+	<stevescarts:modulecomponents:46>,
 	<stevescarts:modulecomponents:58>,
 	<stevescarts:modulecomponents:59>,
 	<stevescarts:upgrade:6>,

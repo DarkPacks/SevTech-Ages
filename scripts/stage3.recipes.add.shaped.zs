@@ -538,7 +538,6 @@ var shapedRecipes = {
 			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
 		]
 	],
-
 	<stevescarts:cartmodule:22> : [
 
 			[[null, <nex:item_crystal_amethyst>, null],
@@ -553,6 +552,14 @@ var shapedRecipes = {
 			[<immersiveengineering:material:27>, <stevescarts:cartmodule:91>, <immersiveengineering:material:27>]
 		]
 	],
+	<stevescarts:modulecomponents:46> * 2 : [
+		[
+			[<minecraft:glowstone_dust>, metals.platinum.block, <minecraft:glowstone_dust>],
+			[<stevescarts:modulecomponents:45>, <minecraft:glowstone_dust>, <stevescarts:modulecomponents:45>],
+			[<stevescarts:modulecomponents:21>, <stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:21>]
+		]
+	],
+
 
 	//Modular Machinery
 	<modularmachinery:blockcontroller> : [

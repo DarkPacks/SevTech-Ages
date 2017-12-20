@@ -691,12 +691,8 @@ var stage4Items = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
-	<contenttweaker:material_part:80>,
-	<contenttweaker:material_part:81>,
-	<contenttweaker:material_part:82>,
-	<contenttweaker:material_part:83>,
-	<contenttweaker:material_part:84>,
-	<pneumaticcraft:ingot_iron_compressed>,
+	<materialpart:compressed_iron:beam>,
+	<materialpart:compressed_iron:bolt>,
 	<pneumaticcraft:turbine_blade>,
 	<pneumaticcraft:plastic>,
 	<pneumaticcraft:plastic:1>,
@@ -725,7 +721,6 @@ var stage4Items = [
 	<pneumaticcraft:failed_pcb>,
 	<pneumaticcraft:stop_worm>,
 	<pneumaticcraft:nuke_virus>,
-	<pneumaticcraft:compressed_iron_gear>,
 	<pneumaticcraft:programming_puzzle:1>,
 	<pneumaticcraft:programming_puzzle:2>,
 	<pneumaticcraft:programming_puzzle:3>,
@@ -739,9 +734,7 @@ var stage4Items = [
 	<pneumaticcraft:programming_puzzle:12>,
 	<pneumaticcraft:programming_puzzle:14>,
 	<pneumaticcraft:programming_puzzle:15>,
-	<pneumaticcraft:advanced_pressure_tube>,
-	<pneumaticcraft:compressed_iron_block>
-
+	<pneumaticcraft:advanced_pressure_tube>
 ] as IItemStack[];
 
 for item in stage4Items {

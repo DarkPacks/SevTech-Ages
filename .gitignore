@@ -1,5 +1,6 @@
 config/AppliedEnergistics2/Facades.cfg
-config/AppliedEnergistics2/aerecipes/items.csv
+config/AppliedEnergistics2/aerecipes/*
+config/AppliedEnergistics2/recipes/*
 config/InvTweaks.cfg
 config/Mercurius.cfg
 config/MouseTweaks.cfg

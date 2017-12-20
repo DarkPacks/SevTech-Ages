@@ -184,7 +184,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				}
 
 				if (loadedMods.contains("astralsorcery")) {
-					mods.astralsorcery.Grindstone.removeRecipe(preferredMetalItem);
+					//TODO: Change to removeRecipe once fixed in AS
+					mods.astralsorcery.Grindstone.removeReipce(preferredMetalItem);
 				}
 
 				if (loadedMods.contains("immersiveengineering")) {
@@ -251,7 +252,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			}
 
 			if (loadedMods.contains("astralsorcery")) {
-				mods.astralsorcery.Grindstone.removeRecipe(metalItem);
+				//TODO: Change to removeRecipe once fixed in AS
+				mods.astralsorcery.Grindstone.removeReipce(metalItem);
 			}
 
 			if (hasLiquid) {

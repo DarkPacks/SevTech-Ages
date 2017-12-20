@@ -305,9 +305,9 @@ var itemsForStage = [
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>,
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

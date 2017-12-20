@@ -78,6 +78,3 @@ mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_ender>);
 
 //NEEDS RECIPES
 mods.recipestages.Recipes.setRecipeStage("five", <extendedcrafting:material:128>);
-
-//<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}})
-//<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}})

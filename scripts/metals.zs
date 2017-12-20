@@ -11,7 +11,7 @@ var metalStages = {
 	blackIron: "three",
 	bronze: "one",
 	cobalt: "three",
-	compressedIron: "",
+	compressedIron: "four",
 	constantan: "",
 	copper: "one",
 	dawnstone: "two",

@@ -14,7 +14,9 @@ var modIDs = [
 	"refinedstorage",
 	"rftools",
 	"rftoolscontrol",
-	"storagenetwork"
+	"storagenetwork",
+	"indlog",
+	"integrateddynamics"
 ] as string[];
 
 for id in modIDs {
@@ -462,7 +464,6 @@ var itemsForStage = [
 	<pneumaticcraft:programmable_controller>,
 	<pneumaticcraft:programmer>,
 	<pneumaticcraft:range_upgrade>,
-	<pneumaticcraft:refinery>,
 	<pneumaticcraft:regulator_tube_module>,
 	<pneumaticcraft:remote>,
 	<pneumaticcraft:safety_tube_module>,
@@ -473,7 +474,6 @@ var itemsForStage = [
 	<pneumaticcraft:sentry_turret>,
 	<pneumaticcraft:speed_upgrade>,
 	<pneumaticcraft:stone_base>,
-	<pneumaticcraft:thermopneumatic_processing_plant>,
 	<pneumaticcraft:turbine_rotor>,
 	<pneumaticcraft:universal_sensor>,
 	<pneumaticcraft:uv_light_box>,

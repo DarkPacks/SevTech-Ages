@@ -33,11 +33,3 @@ recipes.remove(<minecraft:dye:14>);
 
 recipes.remove(<minecraft:dye:11>);
 recipes.remove(<minecraft:dye:1>);
-
-
-
-
-
-
-
-

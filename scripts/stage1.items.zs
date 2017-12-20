@@ -28,8 +28,10 @@ var stage1Items = [
 	<minecraft:stone_button>,
 	<minecraft:wooden_button>,
 	<prospectors:prospector_lowest>,
+	<minecraft:ladder>,
 	<rustic:book>,
 	<teslacorelib:gear_stone>,
+	<minecraft:cake>,
 
 	//Ore
 	<abyssalcraft:abycopore>,
@@ -571,6 +573,12 @@ var stage1Items = [
 
 	//Content Tweaker
 	<materialpart:aquamarine:ore_minecraft_stone>,
+	<materialpart:bronze:beam>,
+	<materialpart:bronze:bolt>,
+	<materialpart:copper:beam>,
+	<materialpart:copper:bolt>,
+	<materialpart:tin:beam>,
+	<materialpart:tin:bolt>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:*>,

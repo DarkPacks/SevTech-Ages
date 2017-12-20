@@ -4,10 +4,9 @@ var STAGE = STAGES.three;
 
 //Entire Mods into Stage three
 var modIDs = [
-	"enderutilities",
 	"immersivepetroleum",
+	"immersiverailroading",
 	"openglider",
-	"stevescarts"
 ] as string[];
 
 for id in modIDs {
@@ -31,6 +30,9 @@ var itemsForStage = [
 	<minecraft:ender_chest>,
 	<primal:opal_hoe>,
 	<primal:quartz_hoe>,
+	<bonsaitrees:bonsaipot>,
+	<bonsaitrees:bonsaipot:1>,
+	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,
@@ -262,6 +264,9 @@ var itemsForStage = [
 	<embers:item_dropper>,
 	<embers:large_tank>,
 
+	//Better With Mods
+	<betterwithmods:hibachi>,
+
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
 	<bibliocraft:bell>,
@@ -450,18 +455,15 @@ var itemsForStage = [
 	<stevescarts:cartmodule:101>,
 	<stevescarts:cartmodule:10>,
 	<stevescarts:cartmodule:11>,
-	<stevescarts:cartmodule:12>,
 	<stevescarts:cartmodule:13>,
 	<stevescarts:cartmodule:14>,
 	<stevescarts:cartmodule:15>,
 	<stevescarts:cartmodule:16>,
-	<stevescarts:cartmodule:18>,
 	<stevescarts:cartmodule:19>,
 	<stevescarts:cartmodule:1>,
 	<stevescarts:cartmodule:20>,
 	<stevescarts:cartmodule:21>,
 	<stevescarts:cartmodule:22>,
-	<stevescarts:cartmodule:23>,
 	<stevescarts:cartmodule:24>,
 	<stevescarts:cartmodule:25>,
 	<stevescarts:cartmodule:26>,
@@ -484,13 +486,11 @@ var itemsForStage = [
 	<stevescarts:cartmodule:42>,
 	<stevescarts:cartmodule:43>,
 	<stevescarts:cartmodule:44>,
-	<stevescarts:cartmodule:45>,
 	<stevescarts:cartmodule:49>,
 	<stevescarts:cartmodule:4>,
 	<stevescarts:cartmodule:51>,
 	<stevescarts:cartmodule:53>,
 	<stevescarts:cartmodule:56>,
-	<stevescarts:cartmodule:57>,
 	<stevescarts:cartmodule:58>,
 	<stevescarts:cartmodule:59>,
 	<stevescarts:cartmodule:5>,
@@ -511,7 +511,6 @@ var itemsForStage = [
 	<stevescarts:cartmodule:75>,
 	<stevescarts:cartmodule:76>,
 	<stevescarts:cartmodule:77>,
-	<stevescarts:cartmodule:78>,
 	<stevescarts:cartmodule:79>,
 	<stevescarts:cartmodule:7>,
 	<stevescarts:cartmodule:80>,
@@ -521,15 +520,11 @@ var itemsForStage = [
 	<stevescarts:cartmodule:84>,
 	<stevescarts:cartmodule:85>,
 	<stevescarts:cartmodule:86>,
-	<stevescarts:cartmodule:87>,
 	<stevescarts:cartmodule:89>,
 	<stevescarts:cartmodule:8>,
-	<stevescarts:cartmodule:91>,
-	<stevescarts:cartmodule:92>,
 	<stevescarts:cartmodule:93>,
 	<stevescarts:cartmodule:94>,
 	<stevescarts:cartmodule:95>,
-	<stevescarts:cartmodule:99>,
 	<stevescarts:cartmodule:9>,
 
 	//Buildcraft

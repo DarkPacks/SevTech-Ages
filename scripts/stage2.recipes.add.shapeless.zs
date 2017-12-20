@@ -36,14 +36,22 @@ var shapelessRecipes = {
 		[<minecraft:glass>]
 	],
 
-//Now you can make fleece in stage 2
+	//Now you can make fleece in stage 2
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
 	],
 
-//Twilight Forest
+	//Twilight Forest
 	<twilightforest:magic_map_focus> : [
 		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]
+	],
+
+	//Upper to hopper and reversed
+	<uppers:upper> : [
+		[<minecraft:hopper>]
+	],
+	<minecraft:hopper> : [
+		[<uppers:upper>]
 	]
 } as IIngredient[][][IItemStack];
 

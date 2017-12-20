@@ -11,6 +11,7 @@ var itemsForStage = [
 	<minecraft:item_frame>,
 	<minecraft:sign>,
 	<tconstruct:stone_ladder>,
+	<minecraft:cake>,
 
 	//Brick
 	<betterwithaddons:bricks_stained:*>,

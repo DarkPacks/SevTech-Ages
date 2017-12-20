@@ -1,3 +1,4 @@
+import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
 
 //Blast Furnace
@@ -43,3 +44,16 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remo
 */
 //Ground Resin from bark
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);
+
+/*
+	Arc Furnace
+*/
+//Add Steve's carts recipes
+//Lump of Galgador
+ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.block.firstItem, slag, 200, 512,
+	[<minecraft:glowstone_dust> * 2, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
+);
+//Stabilized Metal
+ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, metals.iron.ingot.firstItem * 5, slag, 200, 512,
+	[<stevescarts:modulecomponents:20>, <stevescarts:modulecomponents:19> * 3]
+);

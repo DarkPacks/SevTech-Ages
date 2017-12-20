@@ -20,9 +20,6 @@ for id in modIDs {
 }
 
 var stage4Items = [
-	//Unified items
-	<ore:gearGold>.firstItem,
-
 	<forge:bucketfilled>.withTag({FluidName: "biofuel", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "essence", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "if.pink_slime", Amount: 1000}),

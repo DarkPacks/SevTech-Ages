@@ -5,7 +5,8 @@ var STAGE = STAGES.two;
 //Entire Mods into Stage two
 var modIDs = [
 	"farmingforblockheads",
-	"uppers"
+	"uppers",
+	"thebetweenlands"
 ] as string[];
 
 for id in modIDs {
@@ -65,6 +66,8 @@ var itemsForStage = [
 	<jaff:wooden_fishing_rod>,
 	<jaff:iron_hook>,
 	<jaff:tank>,
+	<betterwithaddons:bundle:1>,
+	<betterwithmods:material:43>,
 
 	//Chisel
 	<chisel:waterstone1:1>,

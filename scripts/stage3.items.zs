@@ -372,6 +372,9 @@ var stage3Items = [
 	<storagedrawers:upgrade_status>,
 	<storagedrawers:upgrade_void>,
 
+	//Better With Mods
+	<betterwithmods:hibachi>,
+
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
 	<bibliocraft:bell>,

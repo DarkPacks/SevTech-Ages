@@ -5,7 +5,8 @@ var STAGE = STAGES.two;
 var modIDs = [
 	"twilightforest",
 	"uppers",
-	"farmingforblockheads"
+	"farmingforblockheads",
+	"thebetweenlands"
 ] as string[];
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -84,6 +85,12 @@ var stage2Items = [
 	<jaff:fish_bucket_salmon>,
 	<jaff:fish_bucket_clownfish>,
 	<jaff:fish_bucket_pufferfish>,
+	<quark:arrow_ender>,
+	<betterwithmods:broadhead_arrow>,
+	<betterwithaddons:greatarrow>,
+	<quark:arrow_explosive>,
+	<betterwithaddons:bundle:1>,
+	<betterwithmods:material:43>,
 
 	//Ore
 	<abyssalcraft:abygolore>,

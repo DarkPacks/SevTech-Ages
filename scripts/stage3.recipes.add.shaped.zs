@@ -176,6 +176,13 @@ var shapedRecipes = {
 			[metals.platinum.plate, <immersiveengineering:metal_decoration0:3>, metals.platinum.plate]
 		]
 	],
+	<storagedrawers:upgrade_storage:2> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[metals.gold.ingot, <storagedrawers:upgrade_template>, metals.gold.ingot],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
+	],
 
 	//Natura
 	<natura:netherrack_furnace> : [
@@ -454,13 +461,6 @@ var shapedRecipes = {
 			[<minecraft:obsidian>, null, <minecraft:obsidian>]
 		]
 	],
-	<stevescarts:modulecomponents:58> : [
-		[
-			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>],
-			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
-			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>]
-		]
-	],
 	<stevescarts:modulecomponents:11> : [
 		[
 			[null, null, metals.blackIron.rod],
@@ -522,13 +522,6 @@ var shapedRecipes = {
 			[null, <minecraft:glass_pane>, null],
 			[plank, <immersiveengineering:material:27>, plank],
 			[<minecraft:redstone>, plank, <minecraft:redstone>]
-		]
-	],
-	<stevescarts:cartmodule:45> : [
-		[
-			[<stevescarts:modulecomponents:44>, metals.iron.plate, <stevescarts:modulecomponents:44>],
-			[metals.iron.plate, <immersiveengineering:material:27>, metals.iron.plate],
-			[null, <minecraft:piston>, null]
 		]
 	],
 	<stevescarts:upgrade:1> : [

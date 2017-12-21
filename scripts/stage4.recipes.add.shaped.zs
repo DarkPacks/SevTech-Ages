@@ -97,8 +97,30 @@ var shapedRecipes = {
 			[metals.compressedIron.gear, <teslacorelib:machine_case>, metals.compressedIron.gear],
 			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot]
 		]
-	]
+	],
 
+	//Steve's Carts
+	<stevescarts:cartmodule:45> : [
+		[
+			[<stevescarts:modulecomponents:44>, metals.iron.plate, <stevescarts:modulecomponents:44>],
+			[metals.iron.plate, <immersiveengineering:material:27>, metals.iron.plate],
+			[null, <minecraft:piston>, null]
+		]
+	],
+	<stevescarts:modulecomponents:58> : [
+		[
+			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>],
+			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
+			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>]
+		]
+	],
+	<stevescarts:upgrade:19> : [
+		[
+			[<stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>, <stevescarts:modulecomponents:44>],
+			[metals.platinum.plate, <minecraft:redstone>, metals.platinum.plate],
+			[<minecraft:redstone>, <stevescarts:modulecomponents:59>, <minecraft:redstone>]
+		]
+	]
 
 } as IIngredient[][][][IItemStack];
 

@@ -731,7 +731,15 @@ var stage4Items = [
 	<pneumaticcraft:programming_puzzle:12>,
 	<pneumaticcraft:programming_puzzle:14>,
 	<pneumaticcraft:programming_puzzle:15>,
-	<pneumaticcraft:advanced_pressure_tube>
+	<pneumaticcraft:advanced_pressure_tube>,
+
+	//Steve's Carts
+	<stevescarts:cartmodule:1>,
+	<stevescarts:cartmodule:45>,
+	<stevescarts:cartmodule:56>,
+	<stevescarts:modulecomponents:44>,
+	<stevescarts:modulecomponents:58>,
+	<stevescarts:upgrade:19>
 ] as IItemStack[];
 
 for item in stage4Items {

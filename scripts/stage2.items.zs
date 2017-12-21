@@ -186,7 +186,6 @@ var stage2Items = [
 	<storagedrawers:upgrade_conversion>,
 	<storagedrawers:upgrade_one_stack>,
 	<storagedrawers:upgrade_storage:1>,
-	<storagedrawers:upgrade_storage:2>,
 	<storagedrawers:upgrade_storage>,
 	<storagedrawers:upgrade_template>,
 

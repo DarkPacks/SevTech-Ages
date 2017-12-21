@@ -28,6 +28,7 @@ wolf.addArmor(ArmorHandler.createArmorSlot("feet", <primal:armor_wolf_feet>, 1, 
 var armorGroups = [stoneSword, leather, wolf] as ArmorGroup[];
 
 var mobEntities = [
+	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_villager")

@@ -7,6 +7,7 @@ import mods.armoreablemobs.ArmorGroup;
 	Clear mobs
 */
 var mobEntitiesToClear = [
+	ArmorHandler.createArmorEntity("minecraft:husk"),
 	ArmorHandler.createArmorEntity("minecraft:skeleton"),
 	ArmorHandler.createArmorEntity("minecraft:zombie"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman"),

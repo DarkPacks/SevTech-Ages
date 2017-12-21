@@ -32,6 +32,7 @@ gold.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots>, 1, 
 var armorGroups = [ironSword, goldSword, iron, gold] as ArmorGroup[];
 
 var mobEntities = [
+	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_villager")

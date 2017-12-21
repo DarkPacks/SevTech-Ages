@@ -39,6 +39,22 @@ var shapedRecipes = {
 	],
 	<spartanshields:shield_riot_rftools> : [
 		[[null, <actuallyadditions:item_battery_quadruple>, null], [<tconstruct:materials:14>, <spartanshields:shield_basic_copper>, <tconstruct:materials:14>], [null, <rftools:shield_block3>, null]]
+	],
+
+	//Storage Drawers
+	<storagedrawers:upgrade_storage:3> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[<minecraft:diamond>, <storagedrawers:upgrade_template>, <minecraft:diamond>],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
+	],
+	<storagedrawers:upgrade_storage:4> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[<minecraft:emerald>, <storagedrawers:upgrade_template>, <minecraft:emerald>],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
 	]
 } as IIngredient[][][][IItemStack];
 

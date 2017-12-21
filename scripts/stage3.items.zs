@@ -364,6 +364,7 @@ var stage3Items = [
 	<storagedrawers:upgrade_redstone>,
 	<storagedrawers:upgrade_status:1>,
 	<storagedrawers:upgrade_status>,
+	<storagedrawers:upgrade_storage:2>,
 	<storagedrawers:upgrade_void>,
 
 	//Better With Mods

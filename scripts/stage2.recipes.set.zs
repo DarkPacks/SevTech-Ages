@@ -248,7 +248,6 @@ var itemsForStage = [
 	<storagedrawers:upgrade_status:1>,
 	<storagedrawers:upgrade_status>,
 	<storagedrawers:upgrade_storage:1>,
-	<storagedrawers:upgrade_storage:2>,
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
 

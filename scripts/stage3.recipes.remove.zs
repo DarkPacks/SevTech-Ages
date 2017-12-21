@@ -38,6 +38,7 @@ var removeItems = [
 	<storagedrawers:compdrawers>,
 	<storagedrawers:controller>,
 	<storagedrawers:controllerslave>,
+	<storagedrawers:upgrade_storage:2>,
 	<tconstruct:wood_rail>,
 	<stevescarts:blockcartassembler>,
 	<stevescarts:cartmodule:44>,

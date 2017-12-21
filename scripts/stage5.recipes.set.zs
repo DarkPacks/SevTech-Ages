@@ -257,10 +257,6 @@ var itemsForStage = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
-	//Storage Drawers
-	<storagedrawers:upgrade_storage:3>,
-	<storagedrawers:upgrade_storage:4>,
-
 	//Diamond Stuff
 	<minecraft:diamond_horse_armor>,
 

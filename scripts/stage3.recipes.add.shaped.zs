@@ -176,6 +176,13 @@ var shapedRecipes = {
 			[metals.platinum.plate, <immersiveengineering:metal_decoration0:3>, metals.platinum.plate]
 		]
 	],
+	<storagedrawers:upgrade_storage:2> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[metals.gold.ingot, <storagedrawers:upgrade_template>, metals.gold.ingot],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
+	],
 
 	//Natura
 	<natura:netherrack_furnace> : [

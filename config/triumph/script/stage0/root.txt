@@ -2,7 +2,7 @@ addCriteria("location", "minecraft:location")
 
 setIcon("primal_tech:stone_club")
 
-setTitle("§l§bStage 0")
+setTitle("Â§lÂ§bStage 0")
 
 setDescription("")
 
@@ -21,3 +21,5 @@ addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
 setRequirements("any")
+
+setRewardFunction("triumph:stage0trigger")

@@ -91,35 +91,6 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		if (metalStages[metalName] != "" & hasPreferredItem) {
 			mods.ItemStages.addItemStage(metalStages[metalName], preferredMetalItem);
 			mods.recipestages.Recipes.setRecipeStage(metalStages[metalName], preferredMetalItem);
-
-			if (hasLiquid) {
-				var liquidContainers = [
-					<ceramics:clay_bucket>,
-					<forge:bucketfilled>,
-					<thebetweenlands:syrmorite_bucket_filled>,
-					<thebetweenlands:weedwood_bucket_filled>
-				] as IItemStack[];
-				var liquidName = metalLiquid.name;
-
-				for liquidContainer in liquidContainers {
-					var data as IData = null;
-					if (liquidContainer.matches(<ceramics:clay_bucket>)) {
-						data = {
-							fluids: {
-								FluidName: metalLiquid.name,
-								Amount: 1000
-							}
-						};
-					} else {
-						data = {
-							FluidName: metalLiquid.name,
-							Amount: 1000
-						};
-					}
-
-					mods.ItemStages.addItemStage(metalStages[metalName], liquidContainer.withTag(data));
-				}
-			}
 		}
 
 		/*
@@ -316,6 +287,37 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 for metalName, metal in metals {
 	var hasLiquid = metalItems[metalName].liquid as bool;
+
+	//Stage liquid containers
+	if (hasLiquid) {
+		var liquidContainers = [
+			<ceramics:clay_bucket>,
+			<forge:bucketfilled>,
+			<thebetweenlands:syrmorite_bucket_filled>,
+			<thebetweenlands:weedwood_bucket_filled>
+		] as IItemStack[];
+		var metalLiquid as ILiquidStack = metalItems[metalName].liquid.liquids[0];
+		var liquidName = metalLiquid.name;
+
+		for liquidContainer in liquidContainers {
+			var data as IData = null;
+			if (liquidContainer.matches(<ceramics:clay_bucket>)) {
+				data = {
+					fluids: {
+						FluidName: metalLiquid.name,
+						Amount: 1000
+					}
+				};
+			} else {
+				data = {
+					FluidName: metalLiquid.name,
+					Amount: 1000
+				};
+			}
+
+			mods.ItemStages.addItemStage(metalStages[metalName], liquidContainer.withTag(data));
+		}
+	}
 
 	//Remove block recipes
 	if (metal.block as bool) {

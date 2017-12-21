@@ -483,7 +483,12 @@ var itemsForStage = [
 	<pneumaticcraft:vacuum_pump>,
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
-	<pneumaticcraft:vortex_tube>
+	<pneumaticcraft:vortex_tube>,
+
+	//Steve's Carts
+	<stevescarts:cartmodule:1>,
+	<stevescarts:cartmodule:56>,
+	<stevescarts:modulecomponents:44>
 ] as IItemStack[];
 
 for item in itemsForStage {

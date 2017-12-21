@@ -13,8 +13,10 @@ var removeItems = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_furnace_double>,
-	<actuallyadditions:block_farmer>
-
+	<actuallyadditions:block_farmer>,
+	<stevescarts:cartmodule:45>,
+	<stevescarts:modulecomponents:58>,
+	<stevescarts:upgrade:19>
 ] as IItemStack[];
 
 for item in removeItems {

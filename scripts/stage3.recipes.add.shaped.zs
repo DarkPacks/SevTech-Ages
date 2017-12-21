@@ -454,13 +454,6 @@ var shapedRecipes = {
 			[<minecraft:obsidian>, null, <minecraft:obsidian>]
 		]
 	],
-	<stevescarts:modulecomponents:58> : [
-		[
-			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>],
-			[metals.aluminum.plate, <immersiveengineering:material:27>, metals.aluminum.plate],
-			[<stevescarts:modulecomponents:44>, null, <stevescarts:modulecomponents:44>]
-		]
-	],
 	<stevescarts:modulecomponents:11> : [
 		[
 			[null, null, metals.blackIron.rod],
@@ -524,13 +517,6 @@ var shapedRecipes = {
 			[<minecraft:redstone>, plank, <minecraft:redstone>]
 		]
 	],
-	<stevescarts:cartmodule:45> : [
-		[
-			[<stevescarts:modulecomponents:44>, metals.iron.plate, <stevescarts:modulecomponents:44>],
-			[metals.iron.plate, <immersiveengineering:material:27>, metals.iron.plate],
-			[null, <minecraft:piston>, null]
-		]
-	],
 	<stevescarts:upgrade:1> : [
 		[
 			[metals.platinum.gear, <minecraft:glowstone>, metals.platinum.gear],
@@ -538,7 +524,6 @@ var shapedRecipes = {
 			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
 		]
 	],
-
 	<stevescarts:cartmodule:22> : [
 
 			[[null, <nex:item_crystal_amethyst>, null],

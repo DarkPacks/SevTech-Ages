@@ -139,7 +139,25 @@ var removeItems = [
 	<vc:upgrades/upgrade_airship_frame:3>,
 	<vc:upgrades/upgrade_airship_frame:4>,
 	<vc:upgrades/upgrade_airship_frame:5>,
-	<buildcraftcore:engine>
+	<vc:item_logic_chip>,
+	<vc:modules/item_module_type>,
+	<vc:modules/item_module_type:2>,
+	<vc:modules/item_module_type:14>,
+	<vc:modules/item_module_type:17>,
+	<vc:modules/item_module_type:20>,
+	<vc:modules/item_module_type:9>,
+	<vc:modules/item_module_type:11>,
+	<vc:modules/item_module_type:5>,
+	<vc:modules/item_module_type:21>,
+	<vc:modules/item_module_type:8>,
+	<vc:modules/item_module_type:24>,
+	<vc:modules/item_module_type:6>,
+	<vc:modules/item_module_type:18>,
+	<vc:modules/item_module_type:15>,
+	<vc:modules/item_module_type:12>,
+	<buildcraftcore:engine>,
+	<cyclicmagic:placer_block>,
+	<minecraft:jukebox>
 
 ] as IItemStack[];
 

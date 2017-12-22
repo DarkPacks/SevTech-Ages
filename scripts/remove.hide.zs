@@ -200,7 +200,7 @@ var hideItems = [
 	<minecraft:bedrock>,
 	<minecraft:command_block_minecart>,
 	<cd4017be_lib:m>,
-
+	<cookingforblockheads:cow_jar>,
 
 	//Hide In-progress AE Crystal seeds
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),

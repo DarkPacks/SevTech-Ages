@@ -4,6 +4,19 @@ var removeItems = [
 	<betterbuilderswands:wanddiamond>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:pneumatic_dynamo>,
+	<pneumaticcraft:programming_puzzle:1>,
+	<pneumaticcraft:programming_puzzle:2>,
+	<pneumaticcraft:programming_puzzle:3>,
+	<pneumaticcraft:programming_puzzle:4>,
+	<pneumaticcraft:programming_puzzle:5>,
+	<pneumaticcraft:programming_puzzle:6>,
+	<pneumaticcraft:programming_puzzle:8>,
+	<pneumaticcraft:programming_puzzle:9>,
+	<pneumaticcraft:programming_puzzle:10>,
+	<pneumaticcraft:programming_puzzle:11>,
+	<pneumaticcraft:programming_puzzle:12>,
+	<pneumaticcraft:programming_puzzle:14>,
+	<pneumaticcraft:programming_puzzle:15>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
 	<pneumaticcraft:printed_circuit_board>,
@@ -23,6 +36,8 @@ var removeItems = [
 	<modularrouters:blank_upgrade>,
 	<modularrouters:blank_module>,
 	<modularrouters:item_router>,
+	<modularrouters:upgrade:4>,
+	<modularrouters:upgrade:5>,
 	<storagenetwork:master>,
 	<storagenetwork:kabel>,
 	<storagenetwork:request>,
@@ -33,7 +48,13 @@ var removeItems = [
 	<storagenetwork:upgrade>,
 	<storagenetwork:upgrade:2>,
 	<storagenetwork:upgrade:3>,
-	<minecraft:ender_chest>
+	<minecraft:ender_chest>,
+	<cookingforblockheads:recipe_book:2>,
+	<cookingforblockheads:oven>,
+	<cookingforblockheads:sink>,
+	<cookingforblockheads:tool_rack>,
+	<cookingforblockheads:toaster>,
+	<cyclicmagic:clock>
 ] as IItemStack[];
 
 for item in removeItems {

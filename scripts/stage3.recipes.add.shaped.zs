@@ -270,9 +270,8 @@ var shapedRecipes = {
 			[<stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>],
 			[<stevescarts:modulecomponents:80>, metals.platinum.plate, <stevescarts:modulecomponents:80>],
 			[null, <stevescarts:modulecomponents:17>, null]
-		]
-	],
-	<stevescarts:cartmodule:79> : [
+
+		],
 		[
 			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
 			[<stevescarts:modulecomponents:22>, metals.iron.plate, <stevescarts:modulecomponents:22>],
@@ -382,9 +381,7 @@ var shapedRecipes = {
 			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
 			[null, <stevescarts:modulecomponents:22>, null],
 			[<stevescarts:modulecomponents:16>, metals.gold.plate, <stevescarts:modulecomponents:16>]
-		]
-	],
-	<stevescarts:cartmodule:84> : [
+		],
 		[
 			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
 			[null, <stevescarts:cartmodule:14>, null],
@@ -410,13 +407,6 @@ var shapedRecipes = {
 			[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
 			[<immersiveengineering:material:27>, <minecraft:bucket>, <immersiveengineering:material:27>],
 			[null, <immersiveengineering:material:27>, null]
-		]
-	],
-	<stevescarts:cartmodule:8> : [
-		[
-			[null, <immersiveengineering:drillhead>, null],
-			[null, null, <immersiveengineering:drillhead>],
-			[null, <immersiveengineering:drillhead>, null]
 		]
 	],
 	<stevescarts:cartmodule:57> : [
@@ -531,6 +521,13 @@ var shapedRecipes = {
 			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
 		]
 	],
+	<stevescarts:upgrade:16> : [
+		[
+			[<stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:22>, null],
+			[metals.platinum.plates, <minecraft:lapis_block>, metals.platinum.plates],
+			[null, <stevescarts:upgrade:15>, <stevescarts:modulecomponents:45>]
+		]
+	],
 	<stevescarts:cartmodule:22> : [
 
 			[[null, <nex:item_crystal_amethyst>, null],
@@ -543,6 +540,187 @@ var shapedRecipes = {
 			[null, metals.platinum.plate, null],
 			[null, <stevescarts:modulecomponents:16>, null],
 			[<immersiveengineering:material:27>, <stevescarts:cartmodule:91>, <immersiveengineering:material:27>]
+		]
+	],
+	<stevescarts:cartmodule:19> : [
+		[
+			[null, <minecraft:compass>, null],
+			[<minecraft:paper>, <immersiveengineering:material:27>, <minecraft:paper>],
+			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+		]
+	],
+	<stevescarts:cartmodule:49> : [
+		[
+			[null, <minecraft:ender_pearl>, null],
+			[<immersiveengineering:material:27>, metals.iron.plate, <immersiveengineering:material:27>],
+			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:16>, <stevescarts:modulecomponents:22>]
+		]
+	],
+	<stevescarts:cartmodule:59> : [
+		[
+			[<ore:fenceWood>, <minecraft:dispenser>, <ore:fenceWood>],
+			[<minecraft:crafting_table>, <stevescarts:modulecomponents:43>, <minecraft:crafting_table>],
+			[<immersiveengineering:material:27>, <minecraft:flint_and_steel>, <immersiveengineering:material:27>]
+		]
+	],
+	<stevescarts:cartmodule:89> : [
+		[
+			[<minecraft:redstone>, <stevescarts:modulecomponents:16>, <minecraft:redstone>],
+			[null, <ore:treeSapling>, null],
+			[<immersiveengineering:material:27>, <ore:treeSapling>, <immersiveengineering:material:27>]
+		]
+	],
+	<stevescarts:cartmodule:94> : [
+		[
+			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
+			[metals.iron.plate, <minecraft:glowstone_dust>, metals.iron.plate],
+			[<immersiveengineering:material:27>, <minecraft:sign>, <immersiveengineering:material:27>]
+		]
+	],
+	<stevescarts:cartmodule:95> : [
+		[
+			[null, <minecraft:redstone>, null],
+			[<minecraft:glowstone_dust>, metals.platinum.plate, <minecraft:glowstone_dust>],
+			[<immersiveengineering:material:27>, <minecraft:cauldron>, <immersiveengineering:material:27>]
+		]
+	],
+	<stevescarts:cartmodule:101> : [
+		[
+			[null, <stevescarts:cartmodule:41>, null],
+			[null, <immersiveengineering:material:27>, null],
+			[null, null, null]
+		]
+	],
+	<stevescarts:blockdetector:3> : [
+		[
+			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+			[<minecraft:redstone>, <stevescarts:blockdetector>, <minecraft:redstone>],
+			[null, <immersiveengineering:material:27>, null]
+		]
+	],
+
+	<stevescarts:modulecomponents:43> * 12 : [
+		[
+			[null, null, <minecraft:string>],
+			[null, <minecraft:string>, null],
+			[<minecraft:string>, null, null]
+		]
+	],
+	<stevescarts:cartmodule:15> : [
+		[
+			[<stevescarts:modulecomponents:15>, <stevescarts:modulecomponents:15>, <stevescarts:modulecomponents:15>],
+			[<stevescarts:modulecomponents:15>, <immersiveengineering:material:27>, <stevescarts:modulecomponents:15>],
+			[null, <stevescarts:modulecomponents:17>, null]
+		]
+	],
+	<stevescarts:cartmodule:80> : [
+		[
+			[<stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:81>],
+			[<stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:81>],
+			[null, <stevescarts:modulecomponents:17>, null]
+		],
+		[
+			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
+			[<stevescarts:modulecomponents:47>, metals.iron.plate, <stevescarts:modulecomponents:47>],
+			[null, <stevescarts:cartmodule:79>, null]
+		]
+	],
+	<stevescarts:blockadvdetector> * 2: [
+		[
+			[metals.iron.plate, <minecraft:stone_pressure_plate>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:stone_pressure_plate>, metals.iron.plate]
+		]
+	],
+	<stevescarts:modulecomponents:42> * 2: [
+		[
+			[<ore:dyeOrange>, metals.iron.plate, <ore:dyeOrange>],
+			[<ore:dyeOrange>, metals.iron.plate, <ore:dyeOrange>],
+			[<ore:dyeOrange>, metals.iron.plate, <ore:dyeOrange>]
+		]
+	],
+	<stevescarts:modulecomponents:65> * 2: [
+		[
+			[<ore:dyeGreen>, metals.iron.plate, <ore:dyeGreen>],
+			[<ore:dyeGreen>, metals.iron.plate, <ore:dyeGreen>],
+			[<ore:dyeGreen>, metals.iron.plate, <ore:dyeGreen>]
+		]
+	],
+	<stevescarts:modulecomponents:30> * 32 : [
+		[
+			[plank, plank, plank],
+			[log, plank, log],
+			[plank, plank, plank]
+		]
+	],
+	<stevescarts:modulecomponents:34> * 8 : [
+		[
+			[<stevescarts:modulecomponents:30>, <stevescarts:modulecomponents:30>, <stevescarts:modulecomponents:30>],
+			[<stevescarts:modulecomponents:30>, metals.iron.plate, <stevescarts:modulecomponents:30>],
+			[<stevescarts:modulecomponents:30>, <stevescarts:modulecomponents:30>, <stevescarts:modulecomponents:30>]
+		]
+	],
+	<stevescarts:modulecomponents:61> * 32 : [
+		[
+			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>],
+			[<minecraft:glass>, <minecraft:glass_pane>, <minecraft:glass>],
+			[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]
+		]
+	],
+	<stevescarts:modulecomponents:33> * 8 : [
+		[
+			[null, metals.iron.plate, null],
+			[null, <ore:stone>, null],
+			[null, null, null]
+		]
+	],
+	<stevescarts:modulecomponents:60> * 8 : [
+		[
+			[null, metals.iron.plate, null],
+			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate],
+			[null, metals.iron.plate, null]
+		]
+	],
+	<stevescarts:modulecomponents:83> * 4 : [
+		[
+			[null, <tconstruct:knife_blade>.withTag({Material: "iron"}), null],
+			[metals.iron.rod, metals.iron.plate, metals.iron.rod],
+			[null, metals.iron.rod, null]
+		]
+	],
+	<stevescarts:cartmodule:42> : [
+		[
+			[metals.iron.plate, metals.iron.plate, null],
+			[metals.iron.plate, metals.iron.plate, <immersiveengineering:drillhead:1>],
+			[metals.iron.plate, metals.iron.plate, null]
+		]
+	],
+	<stevescarts:cartmodule:8> : [
+		[
+			[metals.steel.plate, metals.steel.plate, null],
+			[metals.steel.plate, metals.steel.plate, <stevescarts:cartmodule:42>],
+			[metals.steel.plate, metals.steel.plate, null]
+		]
+	],
+	<stevescarts:cartmodule:43> : [
+		[
+			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, null],
+			[metals.platinum.plate, <stevescarts:modulecomponents:22>, <stevescarts:cartmodule:8>],
+			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, null]
+		]
+	],
+	<stevescarts:cartmodule:9> : [
+		[
+			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:49>, null],
+			[metals.platinum.plate, <stevescarts:modulecomponents:49>, <stevescarts:cartmodule:43>],
+			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:49>, null]
+		]
+	],
+	<stevescarts:blockliquidmanager> : [
+		[
+			[<stevescarts:cartmodule:66>, metals.aluminum.plate, <stevescarts:cartmodule:66>],
+			[metals.aluminum.plate, null, metals.aluminum.plate],
+			[<stevescarts:cartmodule:66>, metals.aluminum.plate, <stevescarts:cartmodule:66>]
 		]
 	],
 
@@ -745,6 +923,15 @@ var shapedRecipes = {
 			[<minecraft:glass>, <minecraft:sticky_piston>, <minecraft:glass>],
 			[metals.redstoneAlloy.gear, <immersiveengineering:material:27>, metals.redstoneAlloy.gear],
 			[<immersiveengineering:treated_wood>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:treated_wood>]
+		]
+	],
+
+	//Iron Chests
+	<ironchest:iron_chest:6> : [
+		[
+			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
+			[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>],
+			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
 		]
 	]
 

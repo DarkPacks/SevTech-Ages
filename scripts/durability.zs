@@ -98,16 +98,17 @@ var durabilityArray = {
 	<primal:iron_workblade> : 650,
 
 	//Better Builder Wands
-	<betterbuilderswands:wandstone> : 400,
-	<betterbuilderswands:wandiron> : 650,
-	<betterbuilderswands:wanddiamond> : 2500,
+	<betterbuilderswands:wandstone> : 650,
+	<betterbuilderswands:wandiron> : 1000,
+	<betterbuilderswands:wanddiamond> : 3500,
 
 	//Chisel
 	<chisel:chisel_iron> : 1500,
 	<chisel:chisel_diamond> : 6500,
 	<chisel:chisel_hitech> : 12500,
 
-	<pickletweaks:grass_mesh> : 64
+	<pickletweaks:grass_mesh> : 64,
+
 } as int[IItemStack];
 
 for item in durabilityArray {

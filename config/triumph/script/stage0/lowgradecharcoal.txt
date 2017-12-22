@@ -2,7 +2,7 @@ setIcon("primal_tech:charcoal_block")
 
 setTitle("Forever Fire")
 
-setDescription("Low Grade Charcoal blocks are a great source of Charcoal and you can light an fire on top that will never go out")
+setDescription("Low Grade Charcoal blocks are a great source of Charcoal and you can light a fire on top that will never go out")
 
 setParent("triumph:stage0/kiln")
 setRequiresParent(true)

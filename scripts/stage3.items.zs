@@ -118,7 +118,6 @@ var stage3Items = [
 	<chisel:blockplatinum:*>,
 	<chisel:blocksilver:*>,
 	<chisel:blocksteel:*>,
-	<chisel:blocksteel:*>,
 	<chisel:energizedvoidstone:*>,
 	<chisel:factory1:*>,
 	<chisel:factory:*>,
@@ -149,14 +148,10 @@ var stage3Items = [
 	<cyclicmagic:placer_block>,
 	<minecraft:activator_rail>,
 	<minecraft:comparator>,
-	<minecraft:comparator>,
 	<minecraft:daylight_detector>,
-	<minecraft:dropper>,
 	<minecraft:redstone_lamp>,
 	<minecraft:redstone_ore>,
 	<minecraft:redstone_torch>,
-	<minecraft:redstone_torch>,
-	<minecraft:repeater>,
 	<minecraft:repeater>,
 
 	//Steves Carts
@@ -314,7 +309,6 @@ var stage3Items = [
 	<stevescarts:modulecomponents:82>,
 	<stevescarts:modulecomponents:83>,
 	<stevescarts:modulecomponents:84>,
-	<stevescarts:modulecomponents:9>,
 	<stevescarts:upgrade:10>,
 	<stevescarts:upgrade:11>,
 	<stevescarts:upgrade:12>,
@@ -341,7 +335,6 @@ var stage3Items = [
 
 	//Rails
 	<betterwithmods:booster>,
-	<minecraft:activator_rail>,
 	<minecraft:detector_rail>,
 	<minecraft:golden_rail>,
 	<minecraft:rail>,
@@ -519,10 +512,6 @@ var stage3Items = [
 	<immersiveengineering:aluminum_scaffolding_stairs1>,
 	<immersiveengineering:aluminum_scaffolding_stairs2>,
 	<immersiveengineering:blueprint>,
-	<immersiveengineering:blueprint>,
-	<immersiveengineering:blueprint>,
-	<immersiveengineering:blueprint>,
-	<immersiveengineering:blueprint>,
 	<immersiveengineering:bullet:1>,
 	<immersiveengineering:bullet:2>.withTag({bullet: "armor_piercing"}),
 	<immersiveengineering:bullet:2>.withTag({bullet: "buckshot"}),
@@ -553,16 +542,10 @@ var stage3Items = [
 	<immersiveengineering:connector>,
 	<immersiveengineering:conveyor>,
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
-	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
 	<immersiveengineering:drill>,
 	<immersiveengineering:drillhead:1>,
@@ -598,7 +581,6 @@ var stage3Items = [
 	<immersiveengineering:material>,
 	<immersiveengineering:metal_decoration0:1>,
 	<immersiveengineering:metal_decoration0:2>,
-	<immersiveengineering:metal_decoration0:3>,
 	<immersiveengineering:metal_decoration0:3>,
 	<immersiveengineering:metal_decoration0:4>,
 	<immersiveengineering:metal_decoration0:5>,
@@ -703,7 +685,6 @@ var stage3Items = [
 	<immersiveengineering:storage_slab:6>,
 	<immersiveengineering:storage_slab:7>,
 	<immersiveengineering:storage_slab:8>,
-	<immersiveengineering:tool:1>,
 	<immersiveengineering:tool:1>,
 	<immersiveengineering:tool:2>,
 	<immersiveengineering:tool:3>,
@@ -847,7 +828,8 @@ var stage3Items = [
 	<buildcrafttransport:pipe_void_fluid>,
 	<buildcrafttransport:pipe_sandstone_item>,
 	<buildcrafttransport:pipe_sandstone_fluid>,
-	<buildcrafttransport:waterproof>
+	<buildcrafttransport:waterproof>,
+	<ironchest:iron_chest:6>
 ] as IItemStack[];
 
 for item in stage3Items {

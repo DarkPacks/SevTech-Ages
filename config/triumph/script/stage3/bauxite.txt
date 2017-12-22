@@ -1,5 +1,3 @@
-<immersiveengineering:metal:1>
-
 setIcon("immersiveengineering:metal", 1)
 
 setTitle("Bauxite Ore")

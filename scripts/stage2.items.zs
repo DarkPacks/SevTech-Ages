@@ -250,7 +250,6 @@ var stage2Items = [
 	<chisel:bookshelf_spruce:*>,
 	<chisel:carpet_black:*>,
 	<chisel:carpet_blue:*>,
-	<chisel:carpet_blue:*>,
 	<chisel:carpet_brown:*>,
 	<chisel:carpet_cyan:*>,
 	<chisel:carpet_gray:*>,

@@ -227,14 +227,14 @@ var shapedRecipes = {
 	<betterwithmods:material:10> : [
 		[[<ore:slabWood>, null, null], [<ore:slabWood>, <ore:slimeball>, <ore:slabWood>], [<ore:slabWood>, null, null]]
 	],
-<betterwithmods:material:24> : [
+	<betterwithmods:material:24> : [
         [[metals.bronze.rod, metals.bronze.rod, null], [null, metals.bronze.rod, metals.bronze.rod], [metals.bronze.rod, metals.bronze.rod, null]],
         [[metals.copper.rod, metals.copper.rod, null], [null, metals.copper.rod, metals.copper.rod], [metals.copper.rod, metals.copper.rod, null]],
         [[metals.tin.rod, metals.tin.rod, null], [null, metals.tin.rod, metals.tin.rod], [metals.tin.rod, metals.tin.rod, null]]
     ],
 	<betterwithmods:rope> : [
-		[[<betterwithmods:material:3>, <betterwithmods:material:3>], 
-		[<betterwithmods:material:3>, <betterwithmods:material:3>], 
+		[[<betterwithmods:material:3>, <betterwithmods:material:3>],
+		[<betterwithmods:material:3>, <betterwithmods:material:3>],
 		[<betterwithmods:material:3>, <betterwithmods:material:3>]]
 	],
 	<betterwithmods:saw> : [

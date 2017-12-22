@@ -32,6 +32,13 @@ var shapedRecipes = {
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]
 	],
+	<minecraft:ender_chest> : [
+		[
+			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],
+			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
+			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
+		]
+	],
 
 	<pneumaticcraft:flux_compressor> : [
 		[
@@ -250,19 +257,7 @@ var shapedRecipes = {
 			[null, <storagenetwork:kabel>, null],
 			[null, <minecraft:comparator>, null]
 		]
-	],
-
-
-	<minecraft:ender_chest> : [
-		[
-			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],
-			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
-			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
-		]
 	]
-
-
-
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

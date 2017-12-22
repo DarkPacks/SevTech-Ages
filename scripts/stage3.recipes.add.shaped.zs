@@ -270,7 +270,6 @@ var shapedRecipes = {
 			[<stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>, <stevescarts:modulecomponents:80>],
 			[<stevescarts:modulecomponents:80>, metals.platinum.plate, <stevescarts:modulecomponents:80>],
 			[null, <stevescarts:modulecomponents:17>, null]
-
 		],
 		[
 			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
@@ -598,7 +597,6 @@ var shapedRecipes = {
 			[null, <immersiveengineering:material:27>, null]
 		]
 	],
-
 	<stevescarts:modulecomponents:43> * 12 : [
 		[
 			[null, null, <minecraft:string>],

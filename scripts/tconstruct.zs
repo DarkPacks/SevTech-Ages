@@ -133,3 +133,10 @@ mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //
 
 //Modularium
 mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);
+
+//Iron Chests
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);

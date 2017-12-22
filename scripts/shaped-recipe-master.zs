@@ -181,6 +181,8 @@ recipes.addShaped(<progressiontweaks:stone_hammer>, [[cordage, <ore:rock>], [sti
 recipes.addShaped(<progressiontweaks:tomahawk>, [[cordage, <primal:flint_knapp>], [<primal:flint_point>, stick]]);
 recipes.remove(<primal:thatching_wet>);
 recipes.addShaped(<primal:thatching_wet> * 4, [[<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>], [<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>]]);
+recipes.addShaped(<primal:thatch_wet>, [[<primal:thatching_wet>, <primal:thatching_wet>], [<primal:thatching_wet>, <primal:thatching_wet>]]);
+recipes.addShaped(<primal:thatch>, [[<primal:thatching_dry>, <primal:thatching_dry>]]);
 
 //recipes.remove(<impstorage:controller>);
 //recipes.addShaped(<impstorage:controller>, [[plank, <immcraft:cupboard>, plank], [<immcraft:cupboard>, <immcraft:chest>, <immcraft:cupboard>], [plank, plank, plank]]);

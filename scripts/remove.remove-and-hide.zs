@@ -82,6 +82,7 @@ var removeAndHideItems = [
 	<totemic:medicine_bag>,
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
+	<stevescarts:modulecomponents:9>,
 
 	//Nuggets
 	<betterwithmods:material:46>,

@@ -32,6 +32,13 @@ var shapedRecipes = {
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]
 	],
+	<minecraft:ender_chest> : [
+		[
+			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],
+			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
+			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
+		]
+	],
 
 	<pneumaticcraft:flux_compressor> : [
 		[
@@ -120,8 +127,137 @@ var shapedRecipes = {
 			[metals.platinum.plate, <minecraft:redstone>, metals.platinum.plate],
 			[<minecraft:redstone>, <stevescarts:modulecomponents:59>, <minecraft:redstone>]
 		]
-	]
+	],
 
+	//Storage Drawers
+	<storagedrawers:controller> : [
+		[
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
+			[<minecraft:comparator>, <ore:drawerTrim>, <minecraft:comparator>],
+			[metals.compressedIron.plate, metals.redstoneAlloy.plate, metals.compressedIron.plate]
+		]
+	],
+	<storagedrawers:compdrawers> : [
+		[
+			[metals.iron.plate, metals.compressedIron.plate, metals.iron.plate],
+			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
+			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate]
+		]
+	],
+
+	//Modular Routers
+	<modularrouters:module:13> : [
+		[
+			[null, <tcomplement:manyullyn_helmet>, null],
+			[<modularrouters:module:7>, <minecraft:skull:*>, <modularrouters:module:9>],
+			[null, <tcomplement:manyullyn_chestplate>, null]
+		]
+	],
+	<modularrouters:filter> : [
+		[
+			[metals.iron.plate, <ore:blockGlass>, metals.iron.plate],
+			[<modularrouters:blank_module>, metals.platinum.plate, <modularrouters:blank_module>],
+			[metals.iron.plate, <ore:blockGlass>, metals.iron.plate]
+		]
+	],
+	<modularrouters:augment_core> * 4: [
+		[
+			[<modularrouters:blank_module>, <modularrouters:blank_upgrade>, null],
+			[null, null, null],
+			[null, null, null]
+		]
+	],
+	<modularrouters:blank_upgrade> * 4: [
+		[
+			[<minecraft:paper>, <minecraft:paper>, metals.gold.plate],
+			[<minecraft:paper>, <minecraft:dye:4>, metals.gold.plate],
+			[null, <minecraft:paper>, metals.gold.plate]
+		]
+	],
+	<modularrouters:blank_module> * 6: [
+		[
+			[null, <minecraft:paper>, null],
+			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
+	],
+	<modularrouters:item_router> * 4: [
+		[
+			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate],
+			[<minecraft:iron_bars>, <minecraft:paper>, <minecraft:iron_bars>],
+			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate]
+		]
+	],
+
+	//Storage Network
+	<storagenetwork:master>: [
+		[
+			[metals.compressedIron.plate, <storagenetwork:kabel>, metals.compressedIron.plate],
+			[<storagenetwork:kabel>, <teslacorelib:machine_case>, <storagenetwork:kabel>],
+			[metals.compressedIron.plate, <storagenetwork:kabel>, metals.compressedIron.plate]
+		]
+	],
+	<storagenetwork:kabel> * 8 : [
+		[
+			[metals.compressedIron.plate, <immersiveengineering:wirecoil:4>, metals.compressedIron.plate],
+		]
+	],
+	<storagenetwork:request>: [
+		[
+			[metals.compressedIron.plate, <integrateddynamics:part_display_panel_item>, metals.compressedIron.plate],
+			[<storagenetwork:kabel>, <immersiveengineering:metal_decoration0:5>, <storagenetwork:kabel>],
+			[metals.compressedIron.plate, <storagedrawers:controller>, metals.compressedIron.plate]
+		]
+	],
+	<storagenetwork:im_kabel> * 4: [
+		[
+			[null, <storagenetwork:kabel>, null],
+			[<storagenetwork:kabel>, <minecraft:hopper>, <storagenetwork:kabel>],
+			[null, <storagenetwork:kabel>, null]
+		]
+	],
+	<storagenetwork:ex_kabel> * 4: [
+		[
+			[null, <storagenetwork:kabel>, null],
+			[<storagenetwork:kabel>, <minecraft:piston>, <storagenetwork:kabel>],
+			[null, <storagenetwork:kabel>, null]
+		]
+	],
+	<storagenetwork:storage_kabel> * 4: [
+		[
+			[null, <storagenetwork:kabel>, null],
+			[<storagenetwork:kabel>, <minecraft:chest>, <storagenetwork:kabel>],
+			[null, <storagenetwork:kabel>, null]
+		]
+	],
+	<storagenetwork:upgrade:1> * 4: [
+		[
+			[null, <minecraft:comparator>, null],
+			[<minecraft:redstone>, <storagenetwork:kabel>, <minecraft:redstone>],
+			[null, <minecraft:comparator>, null]
+		]
+	],
+	<storagenetwork:upgrade> * 4: [
+		[
+			[null, metals.redstoneAlloy.plate, null],
+			[metals.gold.plate, <storagenetwork:kabel>, metals.gold.plate],
+			[null, metals.redstoneAlloy.plate, null]
+		]
+	],
+	<storagenetwork:upgrade:2> * 4: [
+		[
+			[null, metals.redstoneAlloy.plate, null],
+			[<minecraft:blaze_powder>, <storagenetwork:kabel>, <minecraft:blaze_powder>],
+			[null, metals.redstoneAlloy.plate, null]
+		]
+	],
+	<storagenetwork:upgrade:3> * 4: [
+		[
+			[null, <minecraft:comparator>, null],
+			[null, <storagenetwork:kabel>, null],
+			[null, <minecraft:comparator>, null]
+		]
+	]
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

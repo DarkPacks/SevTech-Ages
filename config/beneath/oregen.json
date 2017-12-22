@@ -20,16 +20,6 @@
     "maxy": 246
   },
   {
-    "ore": "minecraft:emerald_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 2,
-    "size": 4,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
     "ore": "actuallyadditions:block_misc",
     "oremeta": 3,
     "source": "minecraft:stone",
@@ -44,8 +34,8 @@
     "oremeta": 0,
     "source": "minecraft:stone",
     "srcmeta": 0,
-    "veins": 48,
-    "size": 24,
+    "veins": 24,
+    "size": 16,
     "miny": 10,
     "maxy": 246
   }

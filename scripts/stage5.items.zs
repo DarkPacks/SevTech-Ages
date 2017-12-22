@@ -53,7 +53,6 @@ var stage5Items = [
 	<advancedrocketry:crystal:2>,
 	<extendedcrafting:material:129>,
 	<extendedcrafting:trimmed:3>,
-	<minecraft:emerald_ore>,
 	<pickletweaks:emerald_apple>,
 	<primal:emerald_axe>,
 	<primal:emerald_hatchet>,
@@ -180,7 +179,6 @@ var stage5Items = [
 	<actuallyadditions:item_engineer_goggles_advanced>,
 	<actuallyadditions:item_explosion_lens>,
 	<actuallyadditions:item_filling_wand>,
-	<actuallyadditions:item_filling_wand>,
 	<actuallyadditions:item_helm_crystal_black>,
 	<actuallyadditions:item_helm_crystal_blue>,
 	<actuallyadditions:item_helm_crystal_green>,
@@ -251,8 +249,6 @@ var stage5Items = [
 	<storagedrawers:upgrade_storage:4>,
 
 	//Diamond Stuff
-	<actuallyadditions:diamond_paxel>,
-	<actuallyadditions:item_dust:2>,
 	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,
 	<betterwithaddons:diamond_kukri>,
@@ -291,50 +287,6 @@ var stage5Items = [
 	<enderstorage:ender_pouch>,
 	<enderstorage:ender_storage:1>,
 	<enderstorage:ender_storage>,
-
-	//Shulker Boxes
-	<ironchest:copper_iron_shulker_upgrade>,
-	<ironchest:copper_silver_shulker_upgrade>,
-	<ironchest:diamond_crystal_shulker_upgrade>,
-	<ironchest:diamond_obsidian_shulker_upgrade>,
-	<ironchest:gold_diamond_shulker_upgrade>,
-	<ironchest:iron_gold_shulker_upgrade>,
-	<ironchest:iron_shulker_box_black:*>,
-	<ironchest:iron_shulker_box_blue:*>,
-	<ironchest:iron_shulker_box_brown:*>,
-	<ironchest:iron_shulker_box_cyan:*>,
-	<ironchest:iron_shulker_box_gray:*>,
-	<ironchest:iron_shulker_box_green:*>,
-	<ironchest:iron_shulker_box_light_blue:*>,
-	<ironchest:iron_shulker_box_lime:*>,
-	<ironchest:iron_shulker_box_magenta:*>,
-	<ironchest:iron_shulker_box_orange:*>,
-	<ironchest:iron_shulker_box_pink:*>,
-	<ironchest:iron_shulker_box_purple:*>,
-	<ironchest:iron_shulker_box_red:*>,
-	<ironchest:iron_shulker_box_silver:*>,
-	<ironchest:iron_shulker_box_white:*>,
-	<ironchest:iron_shulker_box_yellow:*>,
-	<ironchest:silver_gold_shulker_upgrade>,
-	<ironchest:vanilla_copper_shulker_upgrade>,
-	<ironchest:vanilla_iron_shulker_upgrade>,
-	<minecraft:black_shulker_box:*>,
-	<minecraft:blue_shulker_box:*>,
-	<minecraft:brown_shulker_box:*>,
-	<minecraft:cyan_shulker_box:*>,
-	<minecraft:gray_shulker_box:*>,
-	<minecraft:green_shulker_box:*>,
-	<minecraft:light_blue_shulker_box:*>,
-	<minecraft:lime_shulker_box:*>,
-	<minecraft:magenta_shulker_box:*>,
-	<minecraft:orange_shulker_box:*>,
-	<minecraft:pink_shulker_box:*>,
-	<minecraft:purple_shulker_box:*>,
-	<minecraft:red_shulker_box:*>,
-	<minecraft:shulker_shell>,
-	<minecraft:silver_shulker_box:*>,
-	<minecraft:white_shulker_box:*>,
-	<minecraft:yellow_shulker_box:*>,
 
 	//Mystical Aggriculture/Aggggggraditions
 	<forge:bucketfilled>.withTag({FluidName: "base_essence", Amount: 1000}),
@@ -422,42 +374,11 @@ var stage5Items = [
 	<mysticalagriculture:wood_crop>,
 	<mysticalagriculture:zombie_crop>,
 
-	//End
-	<betterwithmods:material:39>,
-	<cyclicmagic:end_diamond_ore>,
-	<minecraft:chorus_flower>,
-	<minecraft:chorus_fruit>,
-	<minecraft:chorus_fruit_popped>,
-	<minecraft:chorus_plant>,
-	<minecraft:dragon_breath>,
-	<minecraft:dragon_egg>,
-	<minecraft:elytra>,
-	<minecraft:end_bricks>,
-	<minecraft:end_crystal>,
-	<minecraft:end_portal_frame>,
-	<minecraft:end_rod>,
-	<minecraft:end_stone>,
-	<minecraft:purpur_block>,
-	<minecraft:purpur_pillar>,
-	<minecraft:purpur_slab>,
-	<minecraft:skull:5>,
-	<quark:biotite>,
-	<quark:biotite_ore>,
-	<quark:end_bricks_slab>,
-	<quark:end_bricks_stairs>,
-	<quark:end_bricks_wall>,
-
 	//Chisel
 	<chisel:chisel_diamond>,
 	<chisel:chisel_hitech>,
 	<chisel:diamond:*>,
 	<chisel:emerald:*>,
-	<chisel:endstone1:*>,
-	<chisel:endstone2:*>,
-	<chisel:endstone:*>,
-	<chisel:purpur1:*>,
-	<chisel:purpur2:*>,
-	<chisel:purpur:*>,
 
 	//Cyclic
 	<cyclicmagic:apple_emerald>,
@@ -776,7 +697,6 @@ var stage5Items = [
 
 	//Spartan Shields
 	<spartanshields:shield_riot_rftools>,
-	<spartanshields:shield_riot_rftools>,
 	<spartanshields:shield_basic_diamond>,
 
 	//Buildcraft
@@ -791,3 +711,6 @@ var stage5Items = [
 for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+//Leave this to allow Dragon Scales to be used in Stage 4
+mods.ItemStages.addItemStage("four", <mysticalagradditions:stuff:3>);

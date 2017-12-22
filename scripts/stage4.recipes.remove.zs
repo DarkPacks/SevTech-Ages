@@ -16,7 +16,24 @@ var removeItems = [
 	<actuallyadditions:block_farmer>,
 	<stevescarts:cartmodule:45>,
 	<stevescarts:modulecomponents:58>,
-	<stevescarts:upgrade:19>
+	<stevescarts:upgrade:19>,
+	<modularrouters:module:13>,
+	<modularrouters:filter>,
+	<modularrouters:augment_core>,
+	<modularrouters:blank_upgrade>,
+	<modularrouters:blank_module>,
+	<modularrouters:item_router>,
+	<storagenetwork:master>,
+	<storagenetwork:kabel>,
+	<storagenetwork:request>,
+	<storagenetwork:im_kabel>,
+	<storagenetwork:ex_kabel>,
+	<storagenetwork:storage_kabel>,
+	<storagenetwork:upgrade:1>,
+	<storagenetwork:upgrade>,
+	<storagenetwork:upgrade:2>,
+	<storagenetwork:upgrade:3>,
+	<minecraft:ender_chest>
 ] as IItemStack[];
 
 for item in removeItems {

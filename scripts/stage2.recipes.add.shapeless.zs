@@ -27,9 +27,7 @@ var shapelessRecipes = {
 		[<minecraft:book>, <minecraft:dye>, <minecraft:feather>]
 	],
 	<primal:plant_fiber_pulp> * 3 : [
-		[<betterwithmods:material:22>, <betterwithmods:material:12>, <minecraft:water_bucket>]
-	],
-	<primal:plant_fiber_pulp> * 3 : [
+		[<betterwithmods:material:22>, <betterwithmods:material:12>, <minecraft:water_bucket>],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
 	<tconstruct:clear_glass> : [

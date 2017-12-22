@@ -45,6 +45,8 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remo
 //Ground Resin from bark
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);
 
+Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
+
 /*
 	Arc Furnace
 */

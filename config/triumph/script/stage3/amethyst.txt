@@ -1,0 +1,11 @@
+setIcon("nex:item_crystal_amethyst")
+
+setTitle("Nether Amethyst Ore")
+
+setDescription("A rare gem found in the Nether. Can be located using the Stage 3 and above Prospectors")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("nex:item_crystal_amethyst")

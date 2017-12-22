@@ -111,7 +111,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			if (hasLiquid) {
 				var fluidAmount as int = 0;
 
-				if (metalType == "ingot" | metalType == "plate" | metalType == "dust") {
+				if (metalType == "ingot" | metalType == "plate") {
 					fluidAmount = 144;
 				} else if (metalType == "rod") {
 					fluidAmount = 72;
@@ -199,6 +199,10 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				if (loadedMods.contains("immersiveengineering")) {
 					mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
 					mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("tconstruct") & hasLiquid) {
+					mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
 				}
 
 				var defaultArcEnergyPerTick as int = 512;

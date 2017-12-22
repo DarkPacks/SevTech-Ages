@@ -409,7 +409,160 @@ var shapedRecipes = {
 			[<pneumaticcraft:plastic:15>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:15>],
 			[<pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>]
 		]
+	],
+
+	//Inductive Logistics
+	<indlog:inv_connector> : [
+		[
+			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>],
+			[metals.aluminum.plate, <minecraft:ender_eye>, metals.aluminum.plate],
+			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>]
+		]
+	],
+	<indlog:buffer:1> : [
+		[
+			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>],
+			[<minecraft:iron_bars>, <minecraft:chest>, <minecraft:iron_bars>],
+			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>]
+		]
+	],
+	<indlog:buffer:5> : [
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.gear, <indlog:buffer:1>, metals.iron.gear],
+			[metals.iron.plate, metals.iron.gear, metals.iron.plate]
+		]
+	],
+	<indlog:buffer:9> : [
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.gear, <indlog:buffer:5>, metals.gold.gear],
+			[metals.gold.plate, metals.gold.gear, metals.gold.plate]
+		]
+	],
+	<indlog:buffer:13> : [
+	  	[
+	  		[<minecraft:ender_eye>, metals.platinum.gear, <minecraft:ender_eye>],
+	  		[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
+	  		[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
+	  	]
+	],	
+	<indlog:fluid_pipe> * 8: [
+		[
+			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>]
+		]
+	],
+	<indlog:fluid_pipe:1> * 4 : [
+		[
+			[null, <indlog:fluid_pipe>, null],
+			[<indlog:fluid_pipe>, <minecraft:piston>, <indlog:fluid_pipe>],
+			[null, <indlog:fluid_pipe>, null]
+		]
+	],
+	<indlog:fluid_pipe:2> * 4 : [
+		[
+			[null, <indlog:fluid_pipe:1>, null],
+			[<indlog:fluid_pipe:1>, <thebetweenlands:octine_ingot>, <indlog:fluid_pipe:1>],
+			[null, <indlog:fluid_pipe:1>, null]
+		]
+	],
+	<indlog:item_pipe> * 8: [
+		[
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>]
+		]
+	],
+	<indlog:item_pipe:1> * 4: [
+		[
+			[null, <indlog:item_pipe>, null],
+			[<indlog:item_pipe>, <pneumaticcraft:plastic:2>, <indlog:item_pipe>],
+			[null, <indlog:item_pipe>, null]
+		]
+	],
+	<indlog:item_pipe:2> * 4: [
+		[
+			[null, <indlog:item_pipe:1>, null],
+			[<indlog:item_pipe:1>, <pneumaticcraft:plastic:1>, <indlog:item_pipe:1>],
+			[null, <indlog:item_pipe:1>, null]
+		]
+	],
+	<indlog:warp_pipe> * 12: [
+		[
+			[<indlog:fluid_pipe>, <indlog:fluid_pipe>, <indlog:fluid_pipe>],
+			[<minecraft:ender_eye>, <quark:biotite_block>, <minecraft:ender_eye>],
+			[<indlog:item_pipe>, <indlog:item_pipe>, <indlog:item_pipe>]
+		]
+	],
+	<indlog:tank>: [
+		[
+			[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+			[<ore:paneGlass>, <mob_grinding_utils:tank>, <ore:paneGlass>],
+			[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+		]
+	],
+	<indlog:tank:1>: [
+		[
+			[null, <ore:blockGlass>, null],
+			[<ore:blockGlass>, metals.iron.plate, <ore:blockGlass>],
+			[null, <ore:blockGlass>, null]
+		],
+		[
+			[<indlog:tank>, <indlog:tank>, <indlog:tank>],
+			[<indlog:tank>, null, <indlog:tank>],
+			[<indlog:tank>, <indlog:tank>, <indlog:tank>]
+		]
+	],
+	<indlog:tank:2>: [
+		[
+			[<indlog:tank:1>, <indlog:tank:1>, <indlog:tank:1>],
+			[<indlog:tank:1>, null, <indlog:tank:1>],
+			[<indlog:tank:1>, <indlog:tank:1>, <indlog:tank:1>]
+		]
+	],
+	<indlog:tank:3>: [
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, <indlog:tank:2>, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		],
+		[
+			[<indlog:tank:2>, <indlog:tank:2>, <indlog:tank:2>],
+			[<indlog:tank:2>, null, <indlog:tank:2>],
+			[<indlog:tank:2>, <indlog:tank:2>, <indlog:tank:2>]
+		]
+	],
+	<indlog:tank:4>: [
+		[
+			[null, <quark:biotite_block>, null],
+			[<minecraft:purpur_block>, <indlog:tank:3>, <minecraft:purpur_block>],
+			[null, <quark:biotite_block>, null]
+		]
+	],
+	<indlog:tank:5>: [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[metals.platinum.plate, <indlog:tank:4>, metals.platinum.plate],
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate]
+		]
+	],
+	<indlog:tank:6>: [
+		[
+			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>],
+			[<minecraft:nether_star>, <indlog:tank:5>, <minecraft:nether_star>],
+			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>]
+		]
+	],
+	<indlog:tank:7>: [
+		[
+			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>],
+			[<indlog:tank:6>, null, <indlog:tank:6>],
+			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>]
+		]
 	]
+
 
 } as IIngredient[][][][IItemStack];
 

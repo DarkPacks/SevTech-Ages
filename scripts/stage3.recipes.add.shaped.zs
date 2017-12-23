@@ -272,15 +272,15 @@ var shapedRecipes = {
 			[null, <stevescarts:modulecomponents:17>, null]
 		],
 		[
-			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>],
-			[<stevescarts:modulecomponents:22>, metals.iron.plate, <stevescarts:modulecomponents:22>],
+			[metals.reinforcedMetal.ingot, metals.reinforcedMetal.ingot, metals.reinforcedMetal.ingot],
+			[metals.reinforcedMetal.ingot, metals.iron.plate, metals.reinforcedMetal.ingot],
 			[null, <stevescarts:cartmodule:15>, null]
 		]
 	],
 	<stevescarts:modulecomponents:59> : [
 		[
 			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
-			[<stevescarts:modulecomponents:22>, <minecraft:redstone>, <stevescarts:modulecomponents:22>],
+			[metals.reinforcedMetal.ingot, <minecraft:redstone>, metals.reinforcedMetal.ingot],
 			[metals.aluminum.plate, <stevescarts:modulecomponents:16>, metals.aluminum.plate]
 		]
 	],
@@ -330,7 +330,7 @@ var shapedRecipes = {
 		[
 			[null, <immersiveengineering:material:27>, null],
 			[<stevescarts:modulecomponents:16>, <minecraft:redstone>, <stevescarts:modulecomponents:16>],
-			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:22>]
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:59>, metals.reinforcedMetal.ingot]
 		]
 	],
 	<stevescarts:upgrade:11> : [
@@ -377,12 +377,12 @@ var shapedRecipes = {
 	],
 	<stevescarts:cartmodule:84> : [
 		[
-			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
-			[null, <stevescarts:modulecomponents:22>, null],
+			[metals.galgadorian.ingot, metals.galgadorian.ingot, metals.galgadorian.ingot],
+			[null, metals.reinforcedMetal.ingot, null],
 			[<stevescarts:modulecomponents:16>, metals.gold.plate, <stevescarts:modulecomponents:16>]
 		],
 		[
-			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
+			[metals.galgadorian.ingot, metals.galgadorian.ingot, metals.galgadorian.ingot],
 			[null, <stevescarts:cartmodule:14>, null],
 			[null, <immersiveengineering:material:27>, null]
 		]
@@ -522,7 +522,7 @@ var shapedRecipes = {
 	],
 	<stevescarts:upgrade:16> : [
 		[
-			[<stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:22>, null],
+			[<stevescarts:modulecomponents:45>, metals.reinforcedMetal.ingot, null],
 			[metals.platinum.plates, <minecraft:lapis_block>, metals.platinum.plates],
 			[null, <stevescarts:upgrade:15>, <stevescarts:modulecomponents:45>]
 		]
@@ -560,7 +560,7 @@ var shapedRecipes = {
 		[
 			[null, <minecraft:ender_pearl>, null],
 			[<immersiveengineering:material:27>, metals.iron.plate, <immersiveengineering:material:27>],
-			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:16>, <stevescarts:modulecomponents:22>]
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot]
 		]
 	],
 	<stevescarts:cartmodule:59> : [
@@ -622,12 +622,12 @@ var shapedRecipes = {
 	<stevescarts:cartmodule:80> : [
 		[
 			[<stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:81>],
-			[<stevescarts:modulecomponents:81>, <stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:81>],
+			[<stevescarts:modulecomponents:81>, metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:81>],
 			[null, <stevescarts:modulecomponents:17>, null]
 		],
 		[
-			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:47>],
-			[<stevescarts:modulecomponents:47>, metals.iron.plate, <stevescarts:modulecomponents:47>],
+			[metals.galgadorian.ingot, metals.galgadorian.ingot, metals.galgadorian.ingot],
+			[metals.galgadorian.ingot, metals.iron.plate, metals.galgadorian.ingot],
 			[null, <stevescarts:cartmodule:79>, null]
 		]
 	],
@@ -710,16 +710,16 @@ var shapedRecipes = {
 	],
 	<stevescarts:cartmodule:43> : [
 		[
-			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, null],
-			[metals.platinum.plate, <stevescarts:modulecomponents:22>, <stevescarts:cartmodule:8>],
-			[<stevescarts:modulecomponents:22>, <stevescarts:modulecomponents:22>, null]
+			[metals.reinforcedMetal.ingot, metals.reinforcedMetal.ingot, null],
+			[metals.platinum.plate, metals.reinforcedMetal.ingot, <stevescarts:cartmodule:8>],
+			[metals.reinforcedMetal.ingot, metals.reinforcedMetal.ingot, null]
 		]
 	],
 	<stevescarts:cartmodule:9> : [
 		[
-			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:49>, null],
-			[metals.platinum.plate, <stevescarts:modulecomponents:49>, <stevescarts:cartmodule:43>],
-			[<stevescarts:modulecomponents:47>, <stevescarts:modulecomponents:49>, null]
+			[metals.galgadorian.ingot, metals.enhancedGalgadorian.ingot, null],
+			[metals.platinum.plate, metals.enhancedGalgadorian.ingot, <stevescarts:cartmodule:43>],
+			[metals.galgadorian.ingot, metals.enhancedGalgadorian.ingot, null]
 		]
 	],
 	<stevescarts:blockliquidmanager> : [

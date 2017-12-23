@@ -147,6 +147,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:37>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <stevescarts:blockmetalstorage:2>,
+		dust: null,
+		gear: <materialpart:enhanced_galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:49>,
+		liquid: <liquid:enhanced_galgadorian>,
+		nugget: null,
+		plate: <materialpart:enhanced_galgadorian:plate>,
+		rod: <materialpart:enhanced_galgadorian:rod>
+	},
 	ethaxium: {
 		block: <abyssalcraft:ingotblock:3>,
 		dust: null,
@@ -176,16 +186,6 @@ global metalItems as IIngredient[string][string] = {
 		nugget: null,
 		plate: <materialpart:galgadorian:plate>,
 		rod: <materialpart:galgadorian:rod>
-	},
-	galgadorianEnhanced: {
-		block: <stevescarts:blockmetalstorage:2>,
-		dust: null,
-		gear: <materialpart:enhanced_galgadorian:gear>,
-		ingot: <stevescarts:modulecomponents:49>,
-		liquid: <liquid:enhanced_galgadorian>,
-		nugget: null,
-		plate: <materialpart:enhanced_galgadorian:plate>,
-		rod: <materialpart:enhanced_galgadorian:rod>
 	},
 	gold: {
 		block: <minecraft:gold_block>,

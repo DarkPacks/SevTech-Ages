@@ -133,6 +133,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateElectrum>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <ore:blockEnhancedGalgadorian>,
+		dust: null,
+		gear: <ore:gearEnhancedGalgadorian>,
+		ingot: <ore:ingotEnhancedGalgadorian>,
+		nugget: null,
+		plate: <ore:plateEnhancedGalgadorian>,
+		rod: <ore:rodEnhancedGalgadorian>
+	},
 	ethaxium: {
 		block: <ore:blockEthaxium>,
 		dust: null,
@@ -160,15 +169,6 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: null,
 		plate: <ore:plateGalgadorian>,
 		rod: <ore:rodGalgadorian>
-	},
-	galgadorianEnhanced: {
-		block: <ore:blockEnhancedGalgadorian>,
-		dust: null,
-		gear: <ore:gearEnhancedGalgadorian>,
-		ingot: <ore:ingotEnhancedGalgadorian>,
-		nugget: null,
-		plate: <ore:plateEnhancedGalgadorian>,
-		rod: <ore:rodEnhancedGalgadorian>
 	},
 	gold: {
 		block: <ore:blockGold>,

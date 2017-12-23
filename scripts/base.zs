@@ -125,9 +125,9 @@ var galgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
 galgadorian.registerParts(galgadorianParts);
 
 //Enhanced Galgadorian
-var galgadorianEnhanced = MaterialSystem.getMaterialBuilder().setName("Enhanced Galgadorian").setColor(9850751).build();
-var galgadorianEnhancedParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-galgadorianEnhanced.registerParts(galgadorianEnhancedParts);
+var enhancedGalgadorian = MaterialSystem.getMaterialBuilder().setName("Enhanced Galgadorian").setColor(9850751).build();
+var enhancedGalgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+enhancedGalgadorian.registerParts(enhancedGalgadorianParts);
 
 //Reinforced Metal
 var reinforcedMetal = MaterialSystem.getMaterialBuilder().setName("Reinforced Metal").setColor(7643841).build();
@@ -136,7 +136,7 @@ reinforcedMetal.registerParts(reinforcedMetalParts);
 
 //--------------------------
 //Apply Molten to Materials
-var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium, galgadorian, galgadorianEnhanced, reinforcedMetal] as Material[];
+var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium, galgadorian, enhancedGalgadorian, reinforcedMetal] as Material[];
 for i, fluid in fluidMaterials {
    var fluidMaterialsData = fluid.registerPart("molten").getData();
    fluidMaterialsData.addDataValue("density", "4000");

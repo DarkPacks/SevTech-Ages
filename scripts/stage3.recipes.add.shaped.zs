@@ -922,6 +922,118 @@ var shapedRecipes = {
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 		]
 	],
+	<vc:item_logic_chip> : [
+		[
+			[null, null, null],
+			[<ore:dyeGreen>, metals.redstoneAlloy.plate, <ore:dyeGreen>],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		]
+	],
+	<vc:modules/item_module_type> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[metals.platinum.plate, <vc:item_logic_chip>, metals.platinum.plate],
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate]
+		]
+	],
+	<vc:modules/item_module_type:2> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:1>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:14> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:13>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:17> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:16>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:20> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:19>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:9> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:8>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:11> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:10>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:5> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:4>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:21> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:20>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:8> : [
+		[
+			[metals.modularium.plate, metals.modularium.plate, metals.modularium.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:7>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:24> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:23>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:6> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:5>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:18> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:17>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:15> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:14>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
+	<vc:modules/item_module_type:12> : [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<minecraft:quartz>, <vc:modules/item_module_type:11>, <minecraft:quartz>],
+			[<vc:modules/item_module_type>, <minecraft:heavy_weighted_pressure_plate>, <vc:modules/item_module_type>]
+		]
+	],
 
 	//Buildcraft
 	<buildcraftcore:engine> : [
@@ -938,6 +1050,20 @@ var shapedRecipes = {
 			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
 			[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>],
 			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+		]
+	],
+	<cyclicmagic:placer_block> : [
+		[
+			[stone, <minecraft:dispenser>, stone],
+			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate],
+			[stone, metals.platinum.plate, stone]
+		]
+	],
+	<cyclicmagic:clock> : [
+		[
+			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate],
+			[metals.redstoneAlloy.plate, <minecraft:quartz_block>, metals.redstoneAlloy.plate],
+			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate]
 		]
 	]
 } as IIngredient[][][][IItemStack];

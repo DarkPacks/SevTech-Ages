@@ -521,6 +521,7 @@ var itemsForStage = [
 	<stevescarts:cartmodule:94>,
 	<stevescarts:cartmodule:95>,
 	<stevescarts:cartmodule:9>,
+
 	<stevescarts:modulecomponents:0>,
 	<stevescarts:modulecomponents:1>,
 	<stevescarts:modulecomponents:2>,

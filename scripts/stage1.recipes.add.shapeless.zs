@@ -23,6 +23,9 @@ var shapelessRecipes = {
 	<minecraft:torch> * 2 : [
 		[<minecraft:coal:*>, cordage, stick]
 	],
+	<minecraft:torch> * 2 : [
+		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
+	],
 	<primal:bark_acacia> : [
 		[<minecraft:log2>.giveBack(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
 	],

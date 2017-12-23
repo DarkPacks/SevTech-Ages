@@ -29,16 +29,17 @@ mods.betterwithmods.Mill.add(<minecraft:coal:1> * 9, null, [<charcoalblock:charc
 mods.betterwithmods.Mill.add(<minecraft:coal> * 9, null, [<minecraft:coal_block>]);
 
 mods.betterwithmods.Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cobblestone>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 1, null, [<minecraft:dye:1>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 1, null, [<minecraft:dye:15>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 1, null, [<minecraft:dye:2>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<actuallyadditions:item_misc:17>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<minecraft:dye>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 1, null, [<minecraft:dye:3>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 1, null, [<minecraft:dye:4>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 1, null, [<rustic:wildberries>]);
 
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<actuallyadditions:block_black_lotus>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:item_misc:17>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
+
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
 
 mods.betterwithmods.Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
 

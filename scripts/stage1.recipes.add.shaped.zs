@@ -233,9 +233,11 @@ var shapedRecipes = {
         [[metals.tin.rod, metals.tin.rod, null], [null, metals.tin.rod, metals.tin.rod], [metals.tin.rod, metals.tin.rod, null]]
     ],
 	<betterwithmods:rope> : [
-		[[<betterwithmods:material:3>, <betterwithmods:material:3>],
-		[<betterwithmods:material:3>, <betterwithmods:material:3>],
-		[<betterwithmods:material:3>, <betterwithmods:material:3>]]
+		[
+			[<betterwithmods:material:3>, <betterwithmods:material:3>],
+			[<betterwithmods:material:3>, <betterwithmods:material:3>],
+			[<betterwithmods:material:3>, <betterwithmods:material:3>]
+		]
 	],
 	<betterwithmods:saw> : [
 		[[null, <primal_tech:flint_edged_disc>, null], [metals.copper.gear, <betterwithmods:material:9>, metals.copper.gear], [plank, metals.bronze.gear, plank]]

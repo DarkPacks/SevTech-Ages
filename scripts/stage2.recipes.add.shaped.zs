@@ -80,6 +80,12 @@ var shapedRecipes = {
 	<minecraft:bed> : [
 		[[<minecraft:wool:0>, <minecraft:wool:0>, <minecraft:wool:0>], [plank, plank, plank]]
 	],
+	<minecraft:light_weighted_pressure_plate> : [
+		[[metals.gold.plate, metals.gold.plate]]
+	],
+	<minecraft:heavy_weighted_pressure_plate> : [
+		[[metals.iron.plate, metals.iron.plate]]
+	],
 	<minecraft:bookshelf> : [
 		[[plank, plank, plank], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [plank, plank, plank]]
 	],

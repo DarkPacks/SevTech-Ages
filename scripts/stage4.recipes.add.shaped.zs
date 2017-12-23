@@ -188,7 +188,21 @@ var shapedRecipes = {
 			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate]
 		]
 	],
-
+	<modularrouters:upgrade:4> * 8: [
+		[
+			[null, null, null],
+			[metals.redstoneAlloy.plate, <minecraft:clock>, metals.redstoneAlloy.plate],
+			[metals.redstoneAlloy.plate, <modularrouters:blank_upgrade>, metals.redstoneAlloy.plate]
+		]
+	],
+	<modularrouters:upgrade:5> * 8: [
+		[
+			[null, null, null],
+			[null, <minecraft:bucket>, null],
+			[<ore:blockGlass>, <modularrouters:blank_upgrade>, <ore:blockGlass>]
+		]
+	],
+	
 	//Storage Network
 	<storagenetwork:master>: [
 		[
@@ -257,7 +271,299 @@ var shapedRecipes = {
 			[null, <storagenetwork:kabel>, null],
 			[null, <minecraft:comparator>, null]
 		]
+	],
+
+	<minecraft:ender_chest> : [
+		[
+			[<minecraft:obsidian>, <minecraft:ender_eye>, <minecraft:obsidian>],
+			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
+			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
+		]
+	],
+
+	//Cooking For Blockheads
+	<cookingforblockheads:recipe_book:2> : [
+		[
+			[null, metals.platinum.plate, null],
+			[<ore:workbench>, <cookingforblockheads:recipe_book:1>, <ore:workbench>],
+			[null, metals.platinum.plate, null]
+		]
+	],
+	<cookingforblockheads:oven> : [
+		[
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]
+		]
+	],
+	<cookingforblockheads:sink> : [
+		[
+			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
+			[<minecraft:hardened_clay>, <minecraft:water_bucket>, <minecraft:hardened_clay>],
+			[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]
+		]
+	],
+	<cookingforblockheads:tool_rack> : [
+		[
+			[null, null, null],
+			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
+			[metals.aluminum.rod, null, metals.aluminum.rod]
+		]
+	],
+	<cookingforblockheads:toaster> : [
+		[
+			[null, null, <minecraft:stone_button>],
+			[metals.aluminum.plate, <minecraft:iron_trapdoor>, metals.aluminum.plate],
+			[metals.aluminum.plate, <minecraft:lava_bucket>, metals.aluminum.plate]
+		]
+	],
+
+	//Pneumaticraft
+	<pneumaticcraft:programming_puzzle:1> * 8 : [
+		[
+			[<pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:1>],
+			[<pneumaticcraft:plastic:1>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:1>],
+			[<pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:1>, <pneumaticcraft:plastic:1>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:2> * 8 : [
+		[
+			[<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>],
+			[<pneumaticcraft:plastic:2>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:2>],
+			[<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:3> * 8 : [
+		[
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>],
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:3>],
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:4> * 8 : [
+		[
+			[<pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:4>],
+			[<pneumaticcraft:plastic:4>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:4>],
+			[<pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:4>, <pneumaticcraft:plastic:4>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:5> * 8 : [
+		[
+			[<pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:5>],
+			[<pneumaticcraft:plastic:5>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:5>],
+			[<pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:5>, <pneumaticcraft:plastic:5>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:6> * 8 : [
+		[
+			[<pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:6>],
+			[<pneumaticcraft:plastic:6>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:6>],
+			[<pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:6>, <pneumaticcraft:plastic:6>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:8> * 8 : [
+		[
+			[<pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:8>],
+			[<pneumaticcraft:plastic:8>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:8>],
+			[<pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:8>, <pneumaticcraft:plastic:8>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:9> * 8 : [
+		[
+			[<pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:9>],
+			[<pneumaticcraft:plastic:9>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:9>],
+			[<pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:9>, <pneumaticcraft:plastic:9>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:10> * 8 : [
+		[
+			[<pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:10>],
+			[<pneumaticcraft:plastic:10>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:10>],
+			[<pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:10>, <pneumaticcraft:plastic:10>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:11> * 8 : [
+		[
+			[<pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:11>],
+			[<pneumaticcraft:plastic:11>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:11>],
+			[<pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:11>, <pneumaticcraft:plastic:11>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:12> * 8 : [
+		[
+			[<pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:12>],
+			[<pneumaticcraft:plastic:12>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:12>],
+			[<pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:12>, <pneumaticcraft:plastic:12>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:14> * 8 : [
+		[
+			[<pneumaticcraft:plastic:14>, <pneumaticcraft:plastic:14>, <pneumaticcraft:plastic:14>],
+			[<pneumaticcraft:plastic:14>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:14>],
+			[<pneumaticcraft:plastic:14>, <pneumaticcraft:plastic:14>, <pneumaticcraft:plastic:14>]
+		]
+	],
+	<pneumaticcraft:programming_puzzle:15> * 8 : [
+		[
+			[<pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>],
+			[<pneumaticcraft:plastic:15>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:15>],
+			[<pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>]
+		]
+	],
+
+	//Inductive Logistics
+	<indlog:inv_connector> : [
+		[
+			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>],
+			[metals.aluminum.plate, <minecraft:ender_eye>, metals.aluminum.plate],
+			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>]
+		]
+	],
+	<indlog:buffer:1> : [
+		[
+			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>],
+			[<minecraft:iron_bars>, <minecraft:chest>, <minecraft:iron_bars>],
+			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>]
+		]
+	],
+	<indlog:buffer:5> : [
+		[
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+			[metals.iron.gear, <indlog:buffer:1>, metals.iron.gear],
+			[metals.iron.plate, metals.iron.gear, metals.iron.plate]
+		]
+	],
+	<indlog:buffer:9> : [
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.gear, <indlog:buffer:5>, metals.gold.gear],
+			[metals.gold.plate, metals.gold.gear, metals.gold.plate]
+		]
+	],
+	<indlog:buffer:13> : [
+	  	[
+	  		[<minecraft:ender_eye>, metals.platinum.gear, <minecraft:ender_eye>],
+	  		[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
+	  		[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
+	  	]
+	],	
+	<indlog:fluid_pipe> * 8: [
+		[
+			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>]
+		]
+	],
+	<indlog:fluid_pipe:1> * 4 : [
+		[
+			[null, <indlog:fluid_pipe>, null],
+			[<indlog:fluid_pipe>, <minecraft:piston>, <indlog:fluid_pipe>],
+			[null, <indlog:fluid_pipe>, null]
+		]
+	],
+	<indlog:fluid_pipe:2> * 4 : [
+		[
+			[null, <indlog:fluid_pipe:1>, null],
+			[<indlog:fluid_pipe:1>, <thebetweenlands:octine_ingot>, <indlog:fluid_pipe:1>],
+			[null, <indlog:fluid_pipe:1>, null]
+		]
+	],
+	<indlog:item_pipe> * 8: [
+		[
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>],
+			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>]
+		]
+	],
+	<indlog:item_pipe:1> * 4: [
+		[
+			[null, <indlog:item_pipe>, null],
+			[<indlog:item_pipe>, <pneumaticcraft:plastic:2>, <indlog:item_pipe>],
+			[null, <indlog:item_pipe>, null]
+		]
+	],
+	<indlog:item_pipe:2> * 4: [
+		[
+			[null, <indlog:item_pipe:1>, null],
+			[<indlog:item_pipe:1>, <pneumaticcraft:plastic:1>, <indlog:item_pipe:1>],
+			[null, <indlog:item_pipe:1>, null]
+		]
+	],
+	<indlog:warp_pipe> * 12: [
+		[
+			[<indlog:fluid_pipe>, <indlog:fluid_pipe>, <indlog:fluid_pipe>],
+			[<minecraft:ender_eye>, <quark:biotite_block>, <minecraft:ender_eye>],
+			[<indlog:item_pipe>, <indlog:item_pipe>, <indlog:item_pipe>]
+		]
+	],
+	<indlog:tank>: [
+		[
+			[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+			[<ore:paneGlass>, <mob_grinding_utils:tank>, <ore:paneGlass>],
+			[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+		]
+	],
+	<indlog:tank:1>: [
+		[
+			[null, <ore:blockGlass>, null],
+			[<ore:blockGlass>, metals.iron.plate, <ore:blockGlass>],
+			[null, <ore:blockGlass>, null]
+		],
+		[
+			[<indlog:tank>, <indlog:tank>, <indlog:tank>],
+			[<indlog:tank>, null, <indlog:tank>],
+			[<indlog:tank>, <indlog:tank>, <indlog:tank>]
+		]
+	],
+	<indlog:tank:2>: [
+		[
+			[<indlog:tank:1>, <indlog:tank:1>, <indlog:tank:1>],
+			[<indlog:tank:1>, null, <indlog:tank:1>],
+			[<indlog:tank:1>, <indlog:tank:1>, <indlog:tank:1>]
+		]
+	],
+	<indlog:tank:3>: [
+		[
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, <indlog:tank:2>, metals.gold.plate],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		],
+		[
+			[<indlog:tank:2>, <indlog:tank:2>, <indlog:tank:2>],
+			[<indlog:tank:2>, null, <indlog:tank:2>],
+			[<indlog:tank:2>, <indlog:tank:2>, <indlog:tank:2>]
+		]
+	],
+	<indlog:tank:4>: [
+		[
+			[null, <quark:biotite_block>, null],
+			[<minecraft:purpur_block>, <indlog:tank:3>, <minecraft:purpur_block>],
+			[null, <quark:biotite_block>, null]
+		]
+	],
+	<indlog:tank:5>: [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[metals.platinum.plate, <indlog:tank:4>, metals.platinum.plate],
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate]
+		]
+	],
+	<indlog:tank:6>: [
+		[
+			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>],
+			[<minecraft:nether_star>, <indlog:tank:5>, <minecraft:nether_star>],
+			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>]
+		]
+	],
+	<indlog:tank:7>: [
+		[
+			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>],
+			[<indlog:tank:6>, null, <indlog:tank:6>],
+			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>]
+		]
 	]
+
+
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

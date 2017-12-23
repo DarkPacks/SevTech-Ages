@@ -735,6 +735,7 @@ var stage4Items = [
 	<stevescarts:modulecomponents:58>,
 	<stevescarts:upgrade:19>,
 
+
 	//End
 	<betterwithmods:material:39>,
 	<minecraft:chorus_flower>,
@@ -810,6 +811,7 @@ var stage4Items = [
 	<chisel:purpur1:*>,
 	<chisel:purpur2:*>,
 	<chisel:purpur:*>
+
 ] as IItemStack[];
 
 for item in stage4Items {

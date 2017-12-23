@@ -99,7 +99,10 @@ var removeAndHideItems = [
 
 	//Buildcraft
 	<buildcraftcore:spring:1>,
-	<buildcraftcore:spring>
+	<buildcraftcore:spring>,
+
+	//Cooking for Blockheads
+	<cookingforblockheads:milk_jar>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

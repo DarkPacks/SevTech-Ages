@@ -85,9 +85,7 @@ var itemsForStage = [
 	<abyssalcraft:cstonepplate>,
 	<abyssalcraft:dltpplate>,
 	<abyssalcraft:dspplate>,
-	<minecraft:heavy_weighted_pressure_plate>,
 	<minecraft:lever>,
-	<minecraft:light_weighted_pressure_plate>,
 	<minecraft:stone_pressure_plate>,
 	<minecraft:wooden_pressure_plate>,
 

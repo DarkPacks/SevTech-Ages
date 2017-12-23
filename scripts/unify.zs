@@ -20,12 +20,12 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			}
 
 			if (loadedMods.contains("appliedenergistics2")) {
-				mods.appliedenergistics2.Grinder.removeRecipe(metalItem);
+				mods.appliedenergistics2.Grinder.removeRecipe(item);
 			}
 
 			if (loadedMods.contains("astralsorcery")) {
 				//TODO: Change to removeRecipe once fixed in AS
-				mods.astralsorcery.Grindstone.removeReipce(metalItem);
+				mods.astralsorcery.Grindstone.removeReipce(item);
 			}
 
 			if (hasLiquid) {

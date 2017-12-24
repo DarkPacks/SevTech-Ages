@@ -63,7 +63,7 @@ var shapelessRecipes = {
 
 	//Astral Sorcery Start
 	<betterwithaddons:japanmat:8> : [
-		[<primal_tech:fluid_bladder>, <betterwithaddons:japanmat:36>]
+		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>] 
 	]
 } as IIngredient[][][IItemStack];
 

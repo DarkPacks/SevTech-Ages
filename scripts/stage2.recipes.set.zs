@@ -295,12 +295,7 @@ var itemsForStage = [
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
-	<ironbackpacks:upgrade>,
 
 	//Dark Utils
 	<darkutils:charm_null>,
@@ -411,7 +406,15 @@ var itemsForStage = [
 	<embers:wall_ashen_stone>,
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
-	<embers:wrapped_sealed_planks>
+	<embers:wrapped_sealed_planks>,
+
+	//Cultivated Tech
+	<cultivatedtech:blockfireplace>,
+	<cultivatedtech:blockbarrel>,
+	<cultivatedtech:blockhemp>,
+	<cultivatedtech:itembrick>,
+	<cultivatedtech:blocksprinkler1>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

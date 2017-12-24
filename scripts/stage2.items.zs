@@ -744,12 +744,13 @@ var stage2Items = [
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
-	<ironbackpacks:upgrade>
+
+	//Cultivated Tech
+	<cultivatedtech:blockfireplace>,
+	<cultivatedtech:blockbarrel>,
+	<cultivatedtech:blockhemp>,
+	<cultivatedtech:itembrick>,
+	<cultivatedtech:blocksprinkler1>
 ] as IItemStack[];
 
 for item in stage2Items {

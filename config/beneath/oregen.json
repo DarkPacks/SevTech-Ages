@@ -1,15 +1,5 @@
 [
   {
-    "ore": "mundaneredstone:redstone_ore",
-    "oremeta": 0,
-    "source": "minecraft:stone",
-    "srcmeta": 0,
-    "veins": 6,
-    "size": 12,
-    "miny": 10,
-    "maxy": 246
-  },
-  {
     "ore": "contenttweaker:sub_block_holder_0",
     "oremeta": 0,
     "source": "minecraft:stone",

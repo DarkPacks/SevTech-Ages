@@ -46,3 +46,4 @@ Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);
 
 //Crusher
 mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
+mods.immersiveengineering.Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 250);

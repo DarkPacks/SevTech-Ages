@@ -594,7 +594,13 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_void_fluid>,
 	<buildcrafttransport:pipe_sandstone_item>,
 	<buildcrafttransport:pipe_sandstone_fluid>,
-	<buildcrafttransport:waterproof>
+	<buildcrafttransport:waterproof>,
+
+	//Cultivated Tech
+	<cultivatedtech:blocksoil>,
+	<cultivatedtech:blockindustrialdirt>,
+	<cultivatedtech:blocksprinkler2>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

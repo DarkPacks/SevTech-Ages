@@ -41,7 +41,6 @@ var itemsForStage = [
 	<extendedcrafting:table_elite>,
 	<extendedcrafting:table_ultimate>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
 	<jaff:diamond_fishing_rod>,
 	<minecraft:diamond_boots>,
 	<minecraft:diamond_chestplate>,

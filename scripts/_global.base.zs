@@ -42,5 +42,5 @@ global stone as IItemStack = <minecraft:stone>;
 global str as IItemStack = <minecraft:string>;
 global wool as IOreDictEntry = <ore:wool>;
 global plastic as IItemStack = <industrialforegoing:plastic>;
-global gold as IItemStack = <minecraft:gold_ingot>;
-global iron as IItemStack = <minecraft:iron_ingot>;
+
+

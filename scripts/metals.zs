@@ -293,7 +293,7 @@ for metalName, metal in metals {
 	var hasLiquid = metalItems[metalName].liquid as bool;
 
 	//Stage liquid containers
-	if (hasLiquid) {
+	if (metalStages[metalName] != "" & hasLiquid) {
 		var liquidContainers = [
 			<ceramics:clay_bucket>,
 			<forge:bucketfilled>,

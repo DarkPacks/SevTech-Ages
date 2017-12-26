@@ -218,9 +218,9 @@ recipes.addShaped(<roots:wood_shears>, [[null, plank, null], [plank, null, plank
 recipes.addShapeless(<roots:book_base>, [<primal:plant_cloth>, str, <ore:barkBirch>]);
 recipes.addShaped(<roots:bonfire>, [[null, stick, null], [stick, <ore:barkWood>, stick], [cobblestone, cobblestone, cobblestone]]);
 recipes.addShaped(<roots:thatch>, [[<roots:straw>, <roots:straw>], [<roots:straw>, <roots:straw>]]);
-recipes.addShaped(<roots:iron_knife>, [[null, iron], [stick, null]]);
+recipes.addShaped(<roots:iron_knife>, [[null, metals.iron.ingot], [stick, null]]);
 recipes.addShaped(<roots:diamond_knife>, [[null, diamond], [stick, null]]);
-recipes.addShaped(<roots:gold_knife>, [[null, gold], [stick, null]]);
+recipes.addShaped(<roots:gold_knife>, [[null, metals.gold.ingot], [stick, null]]);
 
 //recipes.addShaped(<simplyjuices:itemtooljuicer>, [[null, <roots:pestle>], [null, stone]]);
 

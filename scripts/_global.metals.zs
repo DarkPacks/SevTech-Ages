@@ -80,10 +80,10 @@ global metals as IOreDictEntry[string][string] = {
 		rod: <ore:rodCobalt>
 	},
 	compressedIron: {
-		block: <ore:blockIronCompressed>,
+		block: <ore:blockCompressedIron>,
 		dust: null,
 		gear: <ore:gearCompressedIron>,
-		ingot: <ore:ingotIronCompressed>,
+		ingot: <ore:ingotCompressedIron>,
 		nugget: null,
 		plate: <ore:plateCompressedIron>,
 		rod: <ore:rodCompressedIron>

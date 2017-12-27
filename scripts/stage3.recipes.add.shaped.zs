@@ -47,9 +47,6 @@ var shapedRecipes = {
 	<immersiveengineering:tool:1> : [
 		[[<ore:stickTreatedWood>, <tconstruct:knife_blade>.withTag({Material: "iron"})], [null, <ore:stickTreatedWood>]]
 	],
-	<immersiveengineering:tool>.withTag({multiblockInterdiction: ["IE:Assembler"]}) : [
-		[[null, metals.iron.ingot, str], [null, stick, metals.iron.ingot], [stick, null, null]]
-	],
 
 	<immersiveengineering:metal_device0:5> : [
 		[

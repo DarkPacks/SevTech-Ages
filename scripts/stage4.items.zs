@@ -20,9 +20,6 @@ for id in modIDs {
 }
 
 var stage4Items = [
-	//Unified items
-	<ore:gearGold>.firstItem,
-
 	<prospectors:prospector_high>,
 
 	<minecraft:ender_chest>,

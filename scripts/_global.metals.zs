@@ -1,5 +1,5 @@
 //Make this script top execution priority
-#priority 998
+#priority 850
 
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -80,10 +80,10 @@ global metals as IOreDictEntry[string][string] = {
 		rod: <ore:rodCobalt>
 	},
 	compressedIron: {
-		block: <ore:blockIronCompressed>,
+		block: <ore:blockCompressedIron>,
 		dust: null,
 		gear: <ore:gearCompressedIron>,
-		ingot: <ore:ingotIronCompressed>,
+		ingot: <ore:ingotCompressedIron>,
 		nugget: null,
 		plate: <ore:plateCompressedIron>,
 		rod: <ore:rodCompressedIron>
@@ -133,6 +133,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateElectrum>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <ore:blockEnhancedGalgadorian>,
+		dust: null,
+		gear: <ore:gearEnhancedGalgadorian>,
+		ingot: <ore:ingotEnhancedGalgadorian>,
+		nugget: null,
+		plate: <ore:plateEnhancedGalgadorian>,
+		rod: <ore:rodEnhancedGalgadorian>
+	},
 	ethaxium: {
 		block: <ore:blockEthaxium>,
 		dust: null,
@@ -151,6 +160,15 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: null,
 		plate: <ore:plateFiery>,
 		rod: <ore:rodFiery>
+	},
+	galgadorian: {
+		block: <ore:blockGalgadorian>,
+		dust: null,
+		gear: <ore:gearGalgadorian>,
+		ingot: <ore:ingotGalgadorian>,
+		nugget: null,
+		plate: <ore:plateGalgadorian>,
+		rod: <ore:rodGalgadorian>
 	},
 	gold: {
 		block: <ore:blockGold>,
@@ -259,6 +277,15 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: <ore:nuggetLiquifiedCoralium>,
 		plate: null,
 		rod: null
+	},
+	reinforcedMetal: {
+		block: <ore:blockReinforcedMetal>,
+		dust: null,
+		gear: <ore:gearReinforcedMetal>,
+		ingot: <ore:ingotReinforcedMetal>,
+		nugget: null,
+		plate: <ore:plateReinforcedMetal>,
+		rod: <ore:rodReinforcedMetal>
 	},
 	silver: {
 		block: <ore:blockSilver>,

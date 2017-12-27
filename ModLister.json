@@ -146,10 +146,10 @@
   {
     "n": "B.A.S.E",
     "v": "3.5.0",
-    "f": "base-1.12.2-3.5.0-SNAPSHOT.101.jar",
+    "f": "base-1.12.2-3.5.0.jar",
     "a": "SkySom, Lanse505, Jared, EwyBoy",
     "u": "http://minecraft.curseforge.com/projects/b-a-s-e",
-    "m": "078368cc674f785fa04bcaa5b4076a5b"
+    "m": "7c77db6e7bb8b6d228da99337df0931e"
   },
   {
     "n": "Baubles",
@@ -441,11 +441,11 @@
   },
   {
     "n": "ContentTweaker",
-    "v": "1.12.2-4.3.0-Snapshot.61",
-    "f": "ContentTweaker-1.12.2-4.3.0-Snapshot.61.jar",
+    "v": "1.12.2-4.3.0",
+    "f": "ContentTweaker-1.12.2-4.3.0.jar",
     "a": "SkySom",
     "u": "teamacronymcoders.com",
-    "m": "cf5352d3bdbbad0e5af7fea8e7be5f6d"
+    "m": "8dd924c461c9a27e8a70381425b55d10"
   },
   {
     "n": "Controlling",
@@ -1126,6 +1126,14 @@
     "a": "svennieke, Mrbysco",
     "u": "",
     "m": "2cb105d7d843cd9671d7c1ccb6e10b9f"
+  },
+  {
+    "n": "Multiblockstages",
+    "v": "1.0-SNAPSHOT",
+    "f": "multiblockstages-1.0.1.jar",
+    "a": "SkySom",
+    "u": "",
+    "m": "3463925004b4f680ff81e1e898affef2"
   },
   {
     "n": "Mystical Agradditions",

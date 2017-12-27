@@ -1,3 +1,4 @@
+import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
 
 //Blast Furnace
@@ -41,9 +42,22 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remo
 	Crusher
 	IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
 */
-//Ground Resin from bark
-Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000);
+Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
+Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
+Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 250);
 
-//Crusher
-mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
-mods.immersiveengineering.Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 250);
+/*
+	Arc Furnace
+*/
+//Add Steve's carts recipes
+//Lump of Galgador
+ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.block.firstItem, slag, 200, 512,
+	[<minecraft:glowstone_dust> * 3, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
+);
+//Stabilized Metal
+ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulecomponents:20>, slag, 200, 512,
+	[metals.iron.ingot.firstItem * 5, <stevescarts:modulecomponents:19> * 3]
+);
+
+//Dawnstone
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.firstItem, slag, 400, 512, [metals.gold.ingot.firstItem]);

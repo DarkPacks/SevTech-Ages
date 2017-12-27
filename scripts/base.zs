@@ -1,4 +1,4 @@
-#priority 1000
+#priority 1150
 #loader contenttweaker
 
 import mods.contenttweaker.MaterialSystem;
@@ -10,17 +10,18 @@ var metal_list = [
 	MaterialSystem.getMaterialBuilder().setName("Copper").setColor(15766817).build(),
 	MaterialSystem.getMaterialBuilder().setName("Lead").setColor(5658219).build(),
 	MaterialSystem.getMaterialBuilder().setName("Silver").setColor(15592941).build(),
-	MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build()
+	MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build(),
+	MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build()
 ] as Material[];
 var part_names = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-
-///////////////////////////
-// Material registration
-///////////////////////////
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
 }
+
+/*
+	Misc Part Registration
+*/
 
 //Aquamarine Ore
 var aquamarine = MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build();
@@ -85,6 +86,9 @@ var fluidPropeneData = propene.registerPart("molten").getData();
 fluidPropeneData.addDataValue("density", "4000");
 fluidPropeneData.addDataValue("viscosity", "3000");
 
+/*
+	Materials to add with default molten values
+*/
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
 var redParts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
@@ -115,13 +119,24 @@ var modularium = MaterialSystem.getMaterialBuilder().setName("Modularium").setCo
 var modulariumParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
 modularium.registerParts(modulariumParts);
 
-//Compressed Iron
-var compressedIron = MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build();
-var compressedIronParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-compressedIron.registerParts(compressedIronParts);
+//Galgadorian
+var galgadorian = MaterialSystem.getMaterialBuilder().setName("Galgadorian").setColor(11625595).build();
+var galgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+galgadorian.registerParts(galgadorianParts);
 
-//Fluids
-var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium] as Material[];
+//Enhanced Galgadorian
+var enhancedGalgadorian = MaterialSystem.getMaterialBuilder().setName("Enhanced Galgadorian").setColor(9850751).build();
+var enhancedGalgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+enhancedGalgadorian.registerParts(enhancedGalgadorianParts);
+
+//Reinforced Metal
+var reinforcedMetal = MaterialSystem.getMaterialBuilder().setName("Reinforced Metal").setColor(7643841).build();
+var reinforcedMetalParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+reinforcedMetal.registerParts(reinforcedMetalParts);
+
+//--------------------------
+//Apply Molten to Materials
+var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium, galgadorian, enhancedGalgadorian, reinforcedMetal] as Material[];
 for i, fluid in fluidMaterials {
    var fluidMaterialsData = fluid.registerPart("molten").getData();
    fluidMaterialsData.addDataValue("density", "4000");
@@ -136,7 +151,8 @@ for i, fluid in fluidMaterials {
 var gearMaterialList = [
 	MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
 	MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16776971).build(),
-	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build()
+	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
+	MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build()
 ] as Material[];
 
 for material in gearMaterialList {

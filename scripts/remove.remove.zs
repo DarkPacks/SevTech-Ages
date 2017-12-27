@@ -6,7 +6,6 @@ var removeItems = [
 	<carryon:tile_item>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
-	<immersiveengineering:tool>,
 	<minecraft:bed:*>,
 	<minecraft:book>,
 	<minecraft:bucket>,

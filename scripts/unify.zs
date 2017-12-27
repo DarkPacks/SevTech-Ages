@@ -1,4 +1,4 @@
-#priority 100
+#priority 950
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
@@ -14,12 +14,24 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			furnace.remove(item);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
+				mods.immersiveengineering.Crusher.removeRecipe(item);
 				mods.immersiveengineering.MetalPress.removeRecipe(item);
+			}
+
+			if (loadedMods.contains("appliedenergistics2")) {
+				mods.appliedenergistics2.Grinder.removeRecipe(item);
+			}
+
+			if (loadedMods.contains("astralsorcery")) {
+				//TODO: Change to removeRecipe once fixed in AS
+				mods.astralsorcery.Grindstone.removeReipce(item);
 			}
 
 			if (hasLiquid) {
 				if (loadedMods.contains("embers")) {
 					mods.embers.Stamper.remove(item);
+					mods.embers.Melter.remove(item);
 				}
 
 				if (loadedMods.contains("tconstruct")) {

@@ -1,4 +1,4 @@
-#priority 900
+#priority 1050
 
 /*
 	Fix Advanced Rocketry

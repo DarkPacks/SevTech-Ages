@@ -1,4 +1,5 @@
 #priority 100
+import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -17,8 +18,10 @@ var metalStages = {
 	dawnstone: "two",
 	dreadium: "",
 	electrum: "",
+	enhancedGalgadorian: "three",
 	ethaxium: "",
 	fiery: "two",
+	galgadorian: "three",
 	gold: "two",
 	invar: "three",
 	iron: "two",
@@ -31,8 +34,9 @@ var metalStages = {
 	platinum: "three",
 	redstoneAlloy: "three",
 	refinedCoralium: "",
+	reinforcedMetal: "three",
 	silver: "three",
-	steel: "",
+	steel: "three",
 	steeleaf: "two",
 	tin: "one",
 	uranium: ""
@@ -74,6 +78,13 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		recipes.remove(preferredMetalItem);
 		furnace.remove(preferredMetalItem);
 
+		if (hasLiquid) {
+			if (loadedMods.contains("embers")) {
+				//Remove melter recipes completely
+				mods.embers.Melter.remove(metalLiquid);
+			}
+		}
+
 		/*
 			Stage Metal Item
 		*/
@@ -100,7 +111,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			if (hasLiquid) {
 				var fluidAmount as int = 0;
 
-				if (metalType == "ingot" | metalType == "plate" | metalType == "dust") {
+				if (metalType == "ingot" | metalType == "plate") {
 					fluidAmount = 144;
 				} else if (metalType == "rod") {
 					fluidAmount = 72;
@@ -173,6 +184,38 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 					immersivePressInputCount //Input Count
 				);
 			}
+
+			//Dust can only be used in arc furnace
+			if (metalType == "dust") {
+				if (loadedMods.contains("appliedenergistics2")) {
+					mods.appliedenergistics2.Grinder.removeRecipe(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("astralsorcery")) {
+					//TODO: Change to removeRecipe once fixed in AS
+					mods.astralsorcery.Grindstone.removeReipce(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("immersiveengineering")) {
+					mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
+					mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
+				}
+
+				if (loadedMods.contains("tconstruct") & hasLiquid) {
+					mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+				}
+
+				var defaultArcEnergyPerTick as int = 512;
+				var defaultArcTickTime as int = 100;
+				var arcGivesSlag as bool = false;
+				mods.immersiveengineering.ArcFurnace.addRecipe(
+					metalItems[metalName].ingot.items[0],
+					preferredMetalItem,
+					arcGivesSlag ? <ore:itemSlag>.firstItem : null,
+					defaultArcTickTime,
+					defaultArcEnergyPerTick
+				);
+			}
 		}
 
 		//Primal Tech
@@ -207,6 +250,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			mods.jei.JEI.removeAndHide(metalItem);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.ArcFurnace.removeRecipe(metalItem);
+				mods.immersiveengineering.Crusher.removeRecipe(metalItem);
 				mods.immersiveengineering.MetalPress.removeRecipe(metalItem);
 			}
 
@@ -214,9 +259,19 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				furnace.remove(metalItem);
 			}
 
+			if (loadedMods.contains("appliedenergistics2")) {
+				mods.appliedenergistics2.Grinder.removeRecipe(metalItem);
+			}
+
+			if (loadedMods.contains("astralsorcery")) {
+				//TODO: Change to removeRecipe once fixed in AS
+				mods.astralsorcery.Grindstone.removeReipce(metalItem);
+			}
+
 			if (hasLiquid) {
 				if (loadedMods.contains("embers")) {
 					mods.embers.Stamper.remove(metalItem);
+					mods.embers.Melter.remove(metalLiquid);
 				}
 
 				if (loadedMods.contains("tconstruct")) {
@@ -236,6 +291,37 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 for metalName, metal in metals {
 	var hasLiquid = metalItems[metalName].liquid as bool;
+
+	//Stage liquid containers
+	if (metalStages[metalName] != "" & hasLiquid) {
+		var liquidContainers = [
+			<ceramics:clay_bucket>,
+			<forge:bucketfilled>,
+			<thebetweenlands:syrmorite_bucket_filled>,
+			<thebetweenlands:weedwood_bucket_filled>
+		] as IItemStack[];
+		var metalLiquid as ILiquidStack = metalItems[metalName].liquid.liquids[0];
+		var liquidName = metalLiquid.name;
+
+		for liquidContainer in liquidContainers {
+			var data as IData = null;
+			if (liquidContainer.matches(<ceramics:clay_bucket>)) {
+				data = {
+					fluids: {
+						FluidName: metalLiquid.name,
+						Amount: 1000
+					}
+				};
+			} else {
+				data = {
+					FluidName: metalLiquid.name,
+					Amount: 1000
+				};
+			}
+
+			mods.ItemStages.addItemStage(metalStages[metalName], liquidContainer.withTag(data));
+		}
+	}
 
 	//Remove block recipes
 	if (metal.block as bool) {

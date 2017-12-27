@@ -1,5 +1,5 @@
 //Make this script top execution priority
-#priority 998
+#priority 850
 
 import crafttweaker.item.IIngredient;
 
@@ -147,6 +147,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:37>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <stevescarts:blockmetalstorage:2>,
+		dust: null,
+		gear: <materialpart:enhanced_galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:49>,
+		liquid: <liquid:enhanced_galgadorian>,
+		nugget: null,
+		plate: <materialpart:enhanced_galgadorian:plate>,
+		rod: <materialpart:enhanced_galgadorian:rod>
+	},
 	ethaxium: {
 		block: <abyssalcraft:ingotblock:3>,
 		dust: null,
@@ -166,6 +176,16 @@ global metalItems as IIngredient[string][string] = {
 		nugget: null,
 		plate: <materialpart:fiery:plate>,
 		rod: <materialpart:fiery:rod>
+	},
+	galgadorian: {
+		block: <stevescarts:blockmetalstorage:1>,
+		dust: null,
+		gear: <materialpart:galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:47>,
+		liquid: <liquid:galgadorian>,
+		nugget: null,
+		plate: <materialpart:galgadorian:plate>,
+		rod: <materialpart:galgadorian:rod>
 	},
 	gold: {
 		block: <minecraft:gold_block>,
@@ -287,6 +307,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	reinforcedMetal: {
+		block: <stevescarts:blockmetalstorage>,
+		dust: null,
+		gear: <materialpart:reinforced_metal:gear>,
+		ingot: <stevescarts:modulecomponents:22>,
+		liquid: <liquid:reinforced_metal>,
+		nugget: null,
+		plate: <materialpart:reinforced_metal:plate>,
+		rod: <materialpart:reinforced_metal:rod>
+	},
 	silver: {
 		block: <immersiveengineering:storage:3>,
 		dust: <immersiveengineering:metal:12>,
@@ -300,7 +330,7 @@ global metalItems as IIngredient[string][string] = {
 	steel: {
 		block: <immersiveengineering:storage:8>,
 		dust: <immersiveengineering:metal:17>,
-		gear: null,
+		gear: <materialpart:steel:gear>,
 		ingot: <immersiveengineering:metal:8>,
 		liquid: <liquid:steel>,
 		nugget: <immersiveengineering:metal:28>,

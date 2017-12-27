@@ -98,6 +98,7 @@ var removeItems = [
 	<stevescarts:modulecomponents:61>,
 	<stevescarts:modulecomponents:33>,
 	<stevescarts:modulecomponents:60>,
+	<stevescarts:modulecomponents:46>,
 	<stevescarts:blockliquidmanager>,
 	<stevescarts:cartmodule:9>,
 	<stevescarts:cartmodule:43>,

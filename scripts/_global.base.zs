@@ -1,5 +1,5 @@
 //Make this script top execution priority
-#priority 999
+#priority 851
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;

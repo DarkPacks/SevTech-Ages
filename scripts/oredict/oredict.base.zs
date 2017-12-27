@@ -1,4 +1,4 @@
-#priority 900
+#priority 1050
 
 import crafttweaker.item.IItemStack;
 

@@ -474,26 +474,26 @@
   {
     "n": "CraftTweaker JEI Support",
     "v": "2.0.0",
-    "f": "CraftTweaker2-1.12-4.0.10.303.jar",
+    "f": "CraftTweaker2-1.12-4.0.12.jar",
     "a": "",
     "u": "",
-    "m": "04b17d723d21dcb24dfeb51e92e631c5"
+    "m": "24742c30ad58defdbeade0c0b23cd974"
   },
   {
     "n": "CraftTweaker2",
-    "v": "4.0.10",
-    "f": "CraftTweaker2-1.12-4.0.10.303.jar",
+    "v": "4.0.12",
+    "f": "CraftTweaker2-1.12-4.0.12.jar",
     "a": "StanHebben, Jaredlll08",
     "u": "http://minetweaker3.powerofbytes.com",
-    "m": "04b17d723d21dcb24dfeb51e92e631c5"
+    "m": "24742c30ad58defdbeade0c0b23cd974"
   },
   {
     "n": "CT-GUI",
     "v": "1.0.0",
-    "f": "CraftTweaker2-1.12-4.0.10.303.jar",
+    "f": "CraftTweaker2-1.12-4.0.12.jar",
     "a": "",
     "u": "",
-    "m": "04b17d723d21dcb24dfeb51e92e631c5"
+    "m": "24742c30ad58defdbeade0c0b23cd974"
   },
   {
     "n": "CTM",
@@ -1120,20 +1120,20 @@
     "m": "4e05e50e9e43f3d673f8c5037c8537d6"
   },
   {
-    "n": "Mundane Redstone",
-    "v": "1.1.3",
-    "f": "MundaneRedstone-1.1.3.jar",
-    "a": "svennieke, Mrbysco",
-    "u": "",
-    "m": "2cb105d7d843cd9671d7c1ccb6e10b9f"
-  },
-  {
     "n": "Multiblockstages",
     "v": "1.0-SNAPSHOT",
     "f": "multiblockstages-1.0.1.jar",
     "a": "SkySom",
     "u": "",
     "m": "3463925004b4f680ff81e1e898affef2"
+  },
+  {
+    "n": "Mundane Redstone",
+    "v": "1.1.3",
+    "f": "MundaneRedstone-1.1.3.jar",
+    "a": "svennieke, Mrbysco",
+    "u": "",
+    "m": "2cb105d7d843cd9671d7c1ccb6e10b9f"
   },
   {
     "n": "Mystical Agradditions",

@@ -51,7 +51,6 @@ var materialsForStage = {
 		"dreadium",
 		"electrum",
 		"iron",
-		"knightslime",
 		"prismarine",
 		"refined_coralium",
 		"silver",
@@ -68,7 +67,8 @@ var materialsForStage = {
 		"obsidian",
 		"paper",
 		"steel",
-		"treatedwood"
+		"treatedwood",
+		"pigiron"
 	],
 
 	STAGES.four : [
@@ -77,7 +77,7 @@ var materialsForStage = {
 		"integrationforegoing.pink_slime",
 		"integrationforegoing.plastic",
 		"manyullyn",
-		"pigiron"
+		"knightslime"
 	],
 
 	STAGES.five : [

@@ -64,3 +64,15 @@
 <geolosys:ore:9>.addTooltip(format.red("Zinc Ore"));
 <geolosys:ore:10>.addTooltip(format.red("Uranium Ore"));
 <geolosys:ore_vanilla:5>.addTooltip(format.red("Diamond Ore"));
+
+//Someone had to do it! xD
+<chisel:antiblock:15>.addTooltip(format.gold("Craftable"));
+<chisel:brownstone>.addTooltip(format.gold("Craftable"));
+<chisel:factory>.addTooltip(format.gold("Craftable"));
+<chisel:futura>.addTooltip(format.gold("Craftable"));
+<chisel:laboratory>.addTooltip(format.gold("Craftable"));
+<chisel:lavastone>.addTooltip(format.gold("Craftable"));
+<chisel:temple>.addTooltip(format.gold("Craftable"));
+<chisel:tyrian>.addTooltip(format.gold("Craftable"));
+<chisel:voidstone>.addTooltip(format.gold("Craftable"));
+<chisel:waterstone>.addTooltip(format.gold("Craftable"));

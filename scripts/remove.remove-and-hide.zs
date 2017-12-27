@@ -2,6 +2,13 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems = [
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
+	<ironbackpacks:upgrade>,
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
@@ -83,6 +90,9 @@ var removeAndHideItems = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<stevescarts:modulecomponents:9>,
+	<cultivatedtech:blockecoflamer1>,
+	<cultivatedtech:blockecoflamer2>,
+	<cultivatedtech:blockecoflamer3>,
 
 	//Nuggets
 	<betterwithmods:material:46>,

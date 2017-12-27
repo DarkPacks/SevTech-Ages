@@ -54,7 +54,7 @@ var shapelessRecipes = {
 	<indlog:buffer:13> * 2 : [	
 	    [
 			<indlog:buffer:14>
-		]
+	    ]
 	],
 	<indlog:buffer:12> * 2 : [	
 	    [

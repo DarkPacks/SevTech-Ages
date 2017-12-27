@@ -810,7 +810,11 @@ var stage4Items = [
 	<chisel:endstone:*>,
 	<chisel:purpur1:*>,
 	<chisel:purpur2:*>,
-	<chisel:purpur:*>
+	<chisel:purpur:*>,
+
+	//Cultivated Tech
+	<cultivatedtech:blocksprinkler3>,
+	<cultivatedtech:blockswapper>
 
 ] as IItemStack[];
 

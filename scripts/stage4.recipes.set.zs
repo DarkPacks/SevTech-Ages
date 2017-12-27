@@ -485,7 +485,12 @@ var itemsForStage = [
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,
 	<stevescarts:cartmodule:56>,
-	<stevescarts:modulecomponents:44>
+	<stevescarts:modulecomponents:44>,
+
+	//Cultivated Tech
+	<cultivatedtech:blocksprinkler3>,
+	<cultivatedtech:blockswapper>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

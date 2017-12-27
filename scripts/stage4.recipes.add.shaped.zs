@@ -410,6 +410,13 @@ var shapedRecipes = {
 			[<pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>]
 		]
 	],
+	<pneumaticcraft:pcb_blueprint> : [
+		[
+			[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>],
+			[<immersiveengineering:material:27>, <buildcraftbuilders:snapshot:2>, <immersiveengineering:material:27>],
+			[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>]
+		]
+	],
 
 	//Inductive Logistics
 	<indlog:inv_connector> : [
@@ -561,8 +568,14 @@ var shapedRecipes = {
 			[<indlog:tank:6>, null, <indlog:tank:6>],
 			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>]
 		]
+	],
+	<indlog:remote_inv>: [
+		[
+			[<indlog:item_pipe:2>, <indlog:warp_pipe>, <indlog:item_pipe:1>],
+			[<indlog:item_pipe:2>, <minecraft:ender_chest>, <indlog:item_pipe:1>],
+			[<immersiveengineering:material:4>, <indlog:tank:6>, <immersiveengineering:material:4>]
+		]
 	]
-
 
 } as IIngredient[][][][IItemStack];
 

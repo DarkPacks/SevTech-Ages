@@ -264,7 +264,6 @@ var stage5Items = [
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:material:128>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
 	<ironchest:iron_chest:2>,
 	<jaff:diamond_fishing_rod>,
 	<minecraft:diamond_horse_armor>,

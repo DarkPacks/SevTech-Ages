@@ -8,28 +8,28 @@
 */
 
 //Copper
-metals.copper.block.add(<embers:block_copper>);
-metals.copper.ingot.add(<embers:ingot_copper>);
-metals.copper.nugget.add(<embers:nugget_copper>);
-metals.copper.plate.add(<embers:plate_copper>);
+<ore:blockCopper>.add(<embers:block_copper>);
+<ore:ingotCopper>.add(<embers:ingot_copper>);
+<ore:nuggetCopper>.add(<embers:nugget_copper>);
+<ore:plateCopper>.add(<embers:plate_copper>);
 
 //Lead
-metals.lead.block.add(<embers:block_lead>);
-metals.lead.ingot.add(<embers:ingot_lead>);
-metals.lead.nugget.add(<embers:nugget_lead>);
-metals.lead.plate.add(<embers:plate_lead>);
+<ore:blockLead>.add(<embers:block_lead>);
+<ore:ingotLead>.add(<embers:ingot_lead>);
+<ore:nuggetLead>.add(<embers:nugget_lead>);
+<ore:plateLead>.add(<embers:plate_lead>);
 
 //Silver
-metals.silver.block.add(<embers:block_silver>);
-metals.silver.ingot.add(<embers:ingot_silver>);
-metals.silver.nugget.add(<embers:nugget_silver>);
-metals.silver.plate.add(<embers:plate_silver>);
+<ore:blockSilver>.add(<embers:block_silver>);
+<ore:ingotSilver>.add(<embers:ingot_silver>);
+<ore:nuggetSilver>.add(<embers:nugget_silver>);
+<ore:plateSilver>.add(<embers:plate_silver>);
 
 //Dawnstone
-metals.dawnstone.block.add(<embers:block_dawnstone>);
-metals.dawnstone.ingot.add(<embers:ingot_dawnstone>);
-metals.dawnstone.nugget.add(<embers:nugget_dawnstone>);
-metals.dawnstone.plate.add(<embers:plate_dawnstone>);
+<ore:blockDawnstone>.add(<embers:block_dawnstone>);
+<ore:ingotDawnstone>.add(<embers:ingot_dawnstone>);
+<ore:nuggetDawnstone>.add(<embers:nugget_dawnstone>);
+<ore:plateDawnstone>.add(<embers:plate_dawnstone>);
 
 //Mithril
 <ore:blockMithril>.add(<embers:block_mithril>);
@@ -38,28 +38,28 @@ metals.dawnstone.plate.add(<embers:plate_dawnstone>);
 <ore:plateMithril>.add(<embers:plate_mithril>);
 
 //Aluminum
-metals.aluminum.block.add(<embers:block_aluminum>);
-metals.aluminum.ingot.add(<embers:ingot_aluminum>);
-metals.aluminum.nugget.add(<embers:nugget_aluminum>);
-metals.aluminum.plate.add(<embers:plate_aluminum>);
+<ore:blockAluminum>.add(<embers:block_aluminum>);
+<ore:ingotAluminum>.add(<embers:ingot_aluminum>);
+<ore:nuggetAluminum>.add(<embers:nugget_aluminum>);
+<ore:plateAluminum>.add(<embers:plate_aluminum>);
 
 //Bronze
-metals.bronze.block.add(<embers:block_bronze>);
-metals.bronze.ingot.add(<embers:ingot_bronze>);
-metals.bronze.nugget.add(<embers:nugget_bronze>);
-metals.bronze.plate.add(<embers:plate_bronze>);
+<ore:blockBronze>.add(<embers:block_bronze>);
+<ore:ingotBronze>.add(<embers:ingot_bronze>);
+<ore:nuggetBronze>.add(<embers:nugget_bronze>);
+<ore:plateBronze>.add(<embers:plate_bronze>);
 
 //Nickel
-metals.nickel.block.add(<embers:block_nickel>);
-metals.nickel.ingot.add(<embers:ingot_nickel>);
-metals.nickel.nugget.add(<embers:nugget_nickel>);
-metals.nickel.plate.add(<embers:plate_nickel>);
+<ore:blockNickel>.add(<embers:block_nickel>);
+<ore:ingotNickel>.add(<embers:ingot_nickel>);
+<ore:nuggetNickel>.add(<embers:nugget_nickel>);
+<ore:plateNickel>.add(<embers:plate_nickel>);
 
 //Tin
-metals.tin.block.add(<embers:block_tin>);
-metals.tin.ingot.add(<embers:ingot_tin>);
-metals.tin.nugget.add(<embers:nugget_tin>);
-metals.tin.plate.add(<embers:plate_tin>);
+<ore:blockTin>.add(<embers:block_tin>);
+<ore:ingotTin>.add(<embers:ingot_tin>);
+<ore:nuggetTin>.add(<embers:nugget_tin>);
+<ore:plateTin>.add(<embers:plate_tin>);
 
 //Ore
 <ore:oreNickel>.add(<embers:ore_nickel>);
@@ -67,6 +67,6 @@ metals.tin.plate.add(<embers:plate_tin>);
 <ore:oreTin>.add(<embers:ore_tin>);
 
 //Other
-metals.gold.plate.add(<embers:plate_gold>);
-metals.iron.plate.add(<embers:plate_iron>);
-metals.iron.nugget.add(<embers:nugget_iron>);
+<ore:plateGold>.add(<embers:plate_gold>);
+<ore:plateIron>.add(<embers:plate_iron>);
+<ore:nuggetIron>.add(<embers:nugget_iron>);

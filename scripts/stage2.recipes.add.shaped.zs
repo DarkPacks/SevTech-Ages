@@ -26,6 +26,10 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes = {
+	<minecraft:arrow> * 4: [
+		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
+		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
+	],
 	<betterbuilderswands:wandiron> : [
 		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],

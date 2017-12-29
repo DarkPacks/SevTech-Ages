@@ -40,6 +40,14 @@ var shapedRecipes = {
 		]
 	],
 
+	<immersiveengineering:metal_device0:5> : [
+		[
+			[plastic, <immersiveengineering:material:9>, plastic],
+			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
+			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
+		]
+	],
+
 	<pneumaticcraft:flux_compressor> : [
 		[
 			[<minecraft:redstone>, metals.compressedIron.gear, <pneumaticcraft:printed_circuit_board>],

@@ -87,7 +87,8 @@ var removeItems = [
 	<indlog:item_pipe:2>,
 	<indlog:item_pipe:1>,
 	<indlog:item_pipe>,
-	<indlog:remote_inv>
+	<indlog:remote_inv>,
+	<immersiveengineering:metal_device0:5>
 
 ] as IItemStack[];
 

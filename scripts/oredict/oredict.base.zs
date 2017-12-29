@@ -174,3 +174,16 @@ for seed in seeds {
 
 //Add to oredict so it can be removed
 <ore:gearCompressedIron>.add(<pneumaticcraft:compressed_iron_gear>);
+
+//Adding these to the list because THEY ARE COOKED MEAT AND WERE NOT ADDED >:O
+<ore:listAllmeatcooked>.add(<betterwithmods:cooked_bat_wing>);
+<ore:listAllmeatcooked>.add(<betterwithmods:cooked_wolf_chop>);
+<ore:listAllmeatcooked>.add(<animalium:rat_meat_cooked>);
+<ore:listAllmeatcooked>.add(<animalium:bear_meat_cooked>);
+<ore:listAllmeatcooked>.add(<twilightforest:cooked_meef>);
+<ore:listAllmeatcooked>.add(<twilightforest:cooked_venison>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:snail_flesh_cooked>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:frog_legs_cooked>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:angler_meat_cooked>);
+<ore:listAllmeatcooked>.add(<nex:food_meat_ghast_cooked>);
+<ore:listAllmeatcooked>.add(<natura:edibles:1>);

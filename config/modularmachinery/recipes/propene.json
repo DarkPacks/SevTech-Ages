@@ -1,7 +1,7 @@
 {
   "machine": "propene",
   "registryName": "propene",
-  "recipeTime": 20,
+  "recipeTime": 200,
   "requirements": [
     {
       "type": "energy",
@@ -12,20 +12,20 @@
       "type": "fluid",
       "io-type": "output",
       "fluid": "propene",
-      "amount": 250
+      "amount": 1500
     },
     {
       "type": "fluid",
       "io-type": "input",
       "fluid": "naphtha",
-      "amount": 250,
+      "amount": 1000,
       "chance": 1.0
     },
     {
       "type": "fluid",
       "io-type": "input",
       "fluid": "steam",
-      "amount": 250,
+      "amount": 1000,
       "chance": 1.0
     }
   ]

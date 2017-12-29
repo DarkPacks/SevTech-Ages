@@ -61,8 +61,6 @@ var stage3Items = [
 	<minecraft:ender_chest>,
 	<prospectors:prospector_med>,
 	<minecraft:flint_and_steel>,
-	<bonsaitrees:bonsaipot>,
-	<bonsaitrees:bonsaipot:1>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 	<natura:netherrack_furnace>,
 	<nex:slab_vanilla_double>,
@@ -610,7 +608,6 @@ var stage3Items = [
 	<immersiveengineering:metal_device0:1>,
 	<immersiveengineering:metal_device0:2>,
 	<immersiveengineering:metal_device0:4>,
-	<immersiveengineering:metal_device0:5>,
 	<immersiveengineering:metal_device0:6>,
 	<immersiveengineering:metal_device0>,
 	<immersiveengineering:metal_device1:10>,
@@ -804,6 +801,7 @@ var stage3Items = [
 	<modularmachinery:blockinputbus:1>,
 	<modularmachinery:blockfluidinputhatch>,
 	<modularmachinery:blockenergyinputhatch>,
+	<modularmachinery:blockfluidoutputhatch>,
 
 	//Buildcraft
 	<buildcrafttransport:pipe_stone_item>,
@@ -834,7 +832,9 @@ var stage3Items = [
 	//Cultivated Tech
 	<cultivatedtech:blocksoil>,
 	<cultivatedtech:blockindustrialdirt>,
-	<cultivatedtech:blocksprinkler2>
+	<cultivatedtech:blocksprinkler2>,
+
+	<industrialforegoing:plastic>
 
 ] as IItemStack[];
 

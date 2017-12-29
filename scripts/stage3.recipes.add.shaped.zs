@@ -48,14 +48,6 @@ var shapedRecipes = {
 		[[<ore:stickTreatedWood>, <tconstruct:knife_blade>.withTag({Material: "iron"})], [null, <ore:stickTreatedWood>]]
 	],
 
-	<immersiveengineering:metal_device0:5> : [
-		[
-			[plastic, <immersiveengineering:material:9>, plastic],
-			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
-			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
-		]
-	],
-
 	<betterwithmods:rope>*3 : [
 		[
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
@@ -538,14 +530,6 @@ var shapedRecipes = {
 			[<immersiveengineering:material:27>, <stevescarts:cartmodule:91>, <immersiveengineering:material:27>]
 		]
 	],
-	<stevescarts:modulecomponents:46> * 2 : [
-		[
-			[<minecraft:glowstone_dust>, metals.platinum.block, <minecraft:glowstone_dust>],
-			[<stevescarts:modulecomponents:45>, <minecraft:glowstone_dust>, <stevescarts:modulecomponents:45>],
-			[<stevescarts:modulecomponents:21>, <stevescarts:modulecomponents:45>, <stevescarts:modulecomponents:21>]
-		]
-	],
-
 	<stevescarts:cartmodule:19> : [
 		[
 			[null, <minecraft:compass>, null],
@@ -730,9 +714,9 @@ var shapedRecipes = {
 	//Modular Machinery
 	<modularmachinery:blockcontroller> : [
 		[
-			[metals.modularium.plate, <immersiveengineering:drillhead>, metals.modularium.plate],
-			[metals.redstoneAlloy.gear, <modularmachinery:blockcasing>, <immersiveengineering:drillhead>],
-			[metals.modularium.plate, <immersiveengineering:drillhead>, metals.modularium.plate]
+			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate],
+			[metals.redstoneAlloy.gear, <modularmachinery:blockcasing>, metals.redstoneAlloy.gear],
+			[metals.modularium.plate, <immersiveengineering:material:27>, metals.modularium.plate]
 		]
 	],
 	<modularmachinery:blockcasing>*2 : [
@@ -1038,6 +1022,20 @@ var shapedRecipes = {
 			[<minecraft:glass>, <minecraft:sticky_piston>, <minecraft:glass>],
 			[metals.redstoneAlloy.gear, <immersiveengineering:material:27>, metals.redstoneAlloy.gear],
 			[<immersiveengineering:treated_wood>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:treated_wood>]
+		]
+	],
+	<buildcrafttransport:pipe_void_item> * 8 : [
+		[
+			[null, null, null],
+			[<ore:dyeBlack>, <ore:blockGlass>, <minecraft:redstone>],
+			[null, null, null]
+		]
+	],
+	<buildcrafttransport:pipe_void_item> * 1 : [
+		[
+			[null, null, null],
+			[null, <buildcrafttransport:pipe_void_fluid>, null],
+			[null, null, null]
 		]
 	],
 

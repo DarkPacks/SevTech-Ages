@@ -28,8 +28,6 @@ var itemsForStage = [
 	<minecraft:trapped_chest>,
 	<minecraft:beacon>,
 	<primal:opal_hoe>,
-	<bonsaitrees:bonsaipot>,
-	<bonsaitrees:bonsaipot:1>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 
 	//Immersive Engineering
@@ -599,7 +597,10 @@ var itemsForStage = [
 	//Cultivated Tech
 	<cultivatedtech:blocksoil>,
 	<cultivatedtech:blockindustrialdirt>,
-	<cultivatedtech:blocksprinkler2>
+	<cultivatedtech:blocksprinkler2>,
+
+	//Modular Machinery
+	<modularmachinery:blockfluidoutputhatch>
 
 ] as IItemStack[];
 

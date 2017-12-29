@@ -26,7 +26,6 @@ var itemsForStage = [
 	<cyclicmagic:stone_minecart>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
-	<minecraft:arrow>,
 	<minecraft:banner:*>,
 	<minecraft:bookshelf>,
 	<minecraft:bow>,

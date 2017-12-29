@@ -141,4 +141,7 @@ mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron
 mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
 mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
 
-
+//Steves Carts
+mods.tconstruct.Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);
+mods.tconstruct.Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
+mods.tconstruct.Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);

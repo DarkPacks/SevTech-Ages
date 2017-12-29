@@ -9,3 +9,5 @@ setRequiresParent(true)
 
 criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
 criteria.setEntityType("totemic:baykok")
+
+setRewardItem("natura:materials", 5, 1)

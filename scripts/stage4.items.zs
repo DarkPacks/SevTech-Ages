@@ -24,6 +24,13 @@ var stage4Items = [
 
 	<minecraft:ender_chest>,
 
+	//Immersive Engineering
+	<immersiveengineering:metal_device0:5>,
+
+	//Bonsai Trees
+	<bonsaitrees:bonsaipot>,
+	<bonsaitrees:bonsaipot:1>,
+
 	//Industrial Foregoing
 	<forge:bucketfilled>.withTag({FluidName: "biofuel", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "essence", Amount: 1000}),
@@ -74,7 +81,6 @@ var stage4Items = [
 	<industrialforegoing:oredictionary_converter>,
 	<industrialforegoing:petrified_fuel_generator>,
 	<industrialforegoing:pink_slime>,
-	<industrialforegoing:plastic>,
 	<industrialforegoing:potion_enervator>,
 	<industrialforegoing:protein_generator>,
 	<industrialforegoing:protein_reactor>,
@@ -403,7 +409,6 @@ var stage4Items = [
 	<modularmachinery:blockenergyoutputhatch:5>,
 	<modularmachinery:blockenergyoutputhatch:6>,
 	<modularmachinery:blockenergyoutputhatch:7>,
-	<modularmachinery:blockfluidoutputhatch>,
 
 	//Applied Energistics
 	<appliedenergistics2:energy_acceptor>,

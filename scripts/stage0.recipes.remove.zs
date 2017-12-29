@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 var removeItems = [
+	<minecraft:arrow>,
 	<abyssalcraft:dltslab1>,
 	<actuallyadditions:block_compost>,
 	<betterwithaddons:bolt:1>,

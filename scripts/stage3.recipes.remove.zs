@@ -94,6 +94,7 @@ var removeItems = [
 	<stevescarts:modulecomponents:15>,
 	<stevescarts:cartmodule:22>,
 	<stevescarts:upgrade:16>,
+	<stevescarts:modulecomponents:21>,
 	<stevescarts:modulecomponents:34>,
 	<stevescarts:modulecomponents:61>,
 	<stevescarts:modulecomponents:33>,
@@ -157,6 +158,7 @@ var removeItems = [
 	<vc:modules/item_module_type:15>,
 	<vc:modules/item_module_type:12>,
 	<buildcraftcore:engine>,
+	<buildcrafttransport:pipe_void_item>,
 	<cyclicmagic:placer_block>,
 	<minecraft:jukebox>
 

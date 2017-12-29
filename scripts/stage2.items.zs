@@ -19,7 +19,6 @@ var stage2Items = [
 	<minecraft:acacia_boat>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
-	<minecraft:arrow>,
 	<minecraft:banner:*>,
 	<minecraft:bed:*>,
 	<minecraft:birch_boat>,

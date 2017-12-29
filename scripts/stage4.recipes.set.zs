@@ -29,6 +29,10 @@ var itemsForStage = [
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
 
+	//Bonsai
+	<bonsaitrees:bonsaipot>,
+	<bonsaitrees:bonsaipot:1>,
+
 	//Actually Additions
 	<actuallyadditions:battery_bauble>,
 	<actuallyadditions:battery_double_bauble>,
@@ -249,7 +253,6 @@ var itemsForStage = [
 	<modularmachinery:blockenergyoutputhatch:5>,
 	<modularmachinery:blockenergyoutputhatch:6>,
 	<modularmachinery:blockenergyoutputhatch:7>,
-	<modularmachinery:blockfluidoutputhatch>,
 
 	//Applied Energistics
 	<appliedenergistics2:energy_acceptor>,

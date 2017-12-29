@@ -16,9 +16,14 @@ var hardnessItems = {
 	<geolosys:ore_vanilla:2> : 3.5,
 	<geolosys:ore_vanilla:3> : 3.5,
 	<geolosys:ore_vanilla:4> : 5,
-	<geolosys:ore_vanilla:5> : 7
+	<geolosys:ore_vanilla:5> : 7,
+	<uppers:upper> : 3,
+	<primal_tech:leaf_bed:*> : 0.2
 } as float[IItemStack];
 
 for item in hardnessItems {
 	item.hardness = hardnessItems[item];
 }
+
+
+

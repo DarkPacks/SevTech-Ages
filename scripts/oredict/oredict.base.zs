@@ -2,6 +2,17 @@
 
 import crafttweaker.item.IItemStack;
 
+function addShear(shear as IItemStack, isUnique as bool) {
+	<ore:shears>.add(shear);
+	<ore:toolShears>.add(shear);
+
+	if (isUnique) {
+		<ore:toolUniqueShears>.add(shear);
+	} else {
+		<ore:toolBasicShears>.add(shear);
+	}
+}
+
 var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
 //IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
 var seeds = [
@@ -41,6 +52,34 @@ var seeds = [
 
 for seed in seeds {
 	seedOreDict.add(seed);
+}
+
+var shearTypesAndItems as IItemStack[][string] = {
+	"basic": [
+		<ceramics:clay_shears:*>,
+		<cyclicmagic:ender_wool:*>,
+		<minecraft:shears:*>,
+		<mysticalagriculture:inferium_shears:*>,
+		<mysticalagriculture:intermedium_shears:*>,
+		<mysticalagriculture:prudentium_shears:*>,
+		<mysticalagriculture:superium_shears:*>,
+		<primal:flint_shears:*>,
+		<primal:quartz_shears:*>,
+		<primal_tech:bone_shears:*>,
+		<roots:wood_shears:*>,
+		<thebetweenlands:syrmorite_shears:*>
+	],
+
+	"unique": [
+		<mysticalagriculture:supremium_shears:*>
+	]
+};
+
+for shearType, shears in shearTypesAndItems {
+	for shear in shears {
+		var isUnique = shearType == "unique";
+		addShear(shear, isUnique);
+	}
 }
 
 <ore:rock>.add(<immcraft:rock>);
@@ -147,14 +186,6 @@ for seed in seeds {
 <ore:barkWood>.add(<roots:bark_acacia>);
 
 <ore:plankWood>.add(<primal:planks:0>);
-
-<ore:shears>.add(<minecraft:shears>);
-<ore:shears>.add(<cyclicmagic:ender_wool>);
-<ore:shears>.add(<primal:flint_shears>);
-<ore:shears>.add(<primal:quartz_shears>);
-//<ore:shears>.add(<xreliquary:shears_of_winter>);
-<ore:shears>.add(<roots:wood_shears>);
-<ore:shears>.add(<primal_tech:bone_shears>);
 
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);

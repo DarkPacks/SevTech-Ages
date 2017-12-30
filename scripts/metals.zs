@@ -185,6 +185,11 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				);
 			}
 
+			//Add ingot -> dust in crusher
+			if (metalType == "dust") {
+				mods.immersiveengineering.Crusher.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], 256);
+			}
+
 			//Dust can only be used in arc furnace
 			if (metalType == "dust") {
 				if (loadedMods.contains("appliedenergistics2")) {

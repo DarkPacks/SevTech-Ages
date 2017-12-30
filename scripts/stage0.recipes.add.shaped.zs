@@ -29,6 +29,9 @@ var shapedRecipes = {
 	<abyssalcraft:dltslab1> * 3 : [
 		[[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]
 	],
+	<primal:slab_yew> * 3 : [
+		[[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>]]
+	],
 	<actuallyadditions:block_compost> : [
 		[
 			[<betterwithmods:wicker>, null, <betterwithmods:wicker>],

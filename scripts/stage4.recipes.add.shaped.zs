@@ -26,6 +26,13 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes = {
+	<buildcraftcore:engine> : [
+		[
+			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+			[<ore:blockGlass>, metals.steel.gear, <ore:blockGlass>],
+			[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>]
+		]
+	],
 	<betterbuilderswands:wanddiamond> : [
 		[[null, null, <minecraft:diamond>], [null, log, null], [log, null, null]]
 	],
@@ -582,6 +589,92 @@ var shapedRecipes = {
 			[<indlog:item_pipe:2>, <indlog:warp_pipe>, <indlog:item_pipe:1>],
 			[<indlog:item_pipe:2>, <minecraft:ender_chest>, <indlog:item_pipe:1>],
 			[<immersiveengineering:material:4>, <indlog:tank:6>, <immersiveengineering:material:4>]
+		]
+	],
+
+	//Industrial Foregoing
+	<industrialforegoing:petrified_fuel_generator>: [
+		[
+			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>],
+			[metals.gold.gear, <teslacorelib:machine_case>, metals.gold.gear],
+			[<industrialforegoing:plastic>, <natura:netherrack_furnace>, <industrialforegoing:plastic>]
+		]
+	],
+	<industrialforegoing:enchantment_refiner>: [
+		[
+			[<industrialforegoing:plastic>, <minecraft:ender_pearl>, <industrialforegoing:plastic>],
+			[<minecraft:book>, <teslacorelib:machine_case>, <minecraft:enchanted_book>],
+			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>]
+		]
+	],
+	<industrialforegoing:enchantment_extractor>: [
+		[
+			[<industrialforegoing:plastic>, <minecraft:nether_brick>, <industrialforegoing:plastic>],
+			[<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>],
+			[metals.enhancedGalgadorian.ingot, metals.gold.gear, metals.enhancedGalgadorian.ingot]
+		]
+	],
+	<industrialforegoing:animal_independence_selector>: [
+		[
+			[<industrialforegoing:plastic>, metals.reinforcedMetal.ingot, <industrialforegoing:plastic>],
+			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case>, metals.reinforcedMetal.ingot],
+			[<ore:dyePurple>, metals.gold.gear, <ore:dyePurple>]
+		]
+	],
+	<industrialforegoing:mob_duplicator>: [
+		[
+			[<industrialforegoing:plastic>, <minecraft:nether_wart>, <industrialforegoing:plastic>],
+			[<minecraft:magma_cream>, <teslacorelib:machine_case>, <minecraft:magma_cream>],
+			[metals.reinforcedMetal.ingot, <minecraft:redstone>, metals.reinforcedMetal.ingot]
+		]
+	],
+	<industrialforegoing:enchantment_invoker>: [
+		[
+			[<industrialforegoing:plastic>, <minecraft:book>, <industrialforegoing:plastic>],
+			[metals.enhancedGalgadorian.ingot, <teslacorelib:machine_case>, metals.enhancedGalgadorian.ingot],
+			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+		]
+	],
+	<industrialforegoing:villager_trade_exchanger>: [
+		[
+			[<industrialforegoing:plastic>, metals.gold.plate, <industrialforegoing:plastic>],
+			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case>, metals.reinforcedMetal.ingot],
+			[<industrialforegoing:plastic>, metals.gold.gear, <industrialforegoing:plastic>]
+		]
+	],
+	<industrialforegoing:energy_field_provider>: [
+		[
+			[metals.gold.plate, <industrialforegoing:energy_field_addon>, metals.gold.plate],
+			[metals.gold.plate, <teslacorelib:machine_case>, metals.gold.plate],
+			[<minecraft:repeater>, metals.enhancedGalgadorian.gear, <minecraft:repeater>]
+		]
+	],
+	<industrialforegoing:black_hole_controller>: [
+		[
+			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.block, <industrialforegoing:plastic>],
+			[<minecraft:ender_eye>, <minecraft:ender_chest>, <minecraft:ender_eye>],
+			[<industrialforegoing:plastic>, <teslacorelib:machine_case>, <industrialforegoing:plastic>]
+		]
+	],
+	<industrialforegoing:range_addon:9>: [
+		[
+			[metals.platinum.plate, <industrialforegoing:plastic>, metals.platinum.plate],
+			[metals.platinum.plate, <ore:paneGlass>, metals.platinum.plate],
+			[metals.platinum.plate, <industrialforegoing:plastic>, metals.platinum.plate]
+		]
+	],
+	<industrialforegoing:range_addon:10>: [
+	  	[
+	  		[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>],
+	  		[<minecraft:prismarine_shard>, <ore:paneGlass>, <minecraft:prismarine_shard>],
+	  		[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>]
+	  	]
+	],	
+	<industrialforegoing:range_addon:11>: [
+		[
+			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot],
+			[metals.enhancedGalgadorian.ingot, <ore:paneGlass>, metals.enhancedGalgadorian.ingot],
+			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot]
 		]
 	]
 

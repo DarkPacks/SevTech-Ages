@@ -88,7 +88,19 @@ var removeItems = [
 	<indlog:item_pipe:1>,
 	<indlog:item_pipe>,
 	<indlog:remote_inv>,
-	<immersiveengineering:metal_device0:5>
+	<immersiveengineering:metal_device0:5>,
+	<industrialforegoing:petrified_fuel_generator>,
+	<industrialforegoing:enchantment_refiner>,
+	<industrialforegoing:enchantment_extractor>,
+	<industrialforegoing:animal_independence_selector>,
+	<industrialforegoing:mob_duplicator>,
+	<industrialforegoing:enchantment_invoker>,
+	<industrialforegoing:villager_trade_exchanger>,
+	<industrialforegoing:energy_field_provider>,
+	<industrialforegoing:black_hole_controller>,
+	<industrialforegoing:range_addon:9>,
+	<industrialforegoing:range_addon:10>,
+	<industrialforegoing:range_addon:11>
 
 ] as IItemStack[];
 

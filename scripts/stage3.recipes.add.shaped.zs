@@ -35,7 +35,13 @@ var shapedRecipes = {
 	<prospectors:prospector_med> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:dye:4>, <minecraft:redstone>], [<minecraft:dye:4>, null, null]]
 	],
-
+	<oeintegration:excavatemodifier> : [
+		[
+			[<thebetweenlands:octine_ingot>, metals.modularium.plate, <thebetweenlands:items_misc:11>],
+			[metals.steel.plate, <twilightforest:maze_stone:*>, metals.steel.plate],
+			[<astralsorcery:itemrockcrystalsimple>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple>]
+		]
+	],
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[

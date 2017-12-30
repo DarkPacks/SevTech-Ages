@@ -160,7 +160,8 @@ var removeItems = [
 	<buildcraftcore:engine>,
 	<buildcrafttransport:pipe_void_item>,
 	<cyclicmagic:placer_block>,
-	<minecraft:jukebox>
+	<minecraft:jukebox>,
+	<oeintegration:excavatemodifier>
 
 ] as IItemStack[];
 

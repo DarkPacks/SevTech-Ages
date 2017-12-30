@@ -82,8 +82,8 @@ mods.TinkerStages.addMaterialStage(STAGES.four, "cobalt");
 mods.TinkerStages.addMaterialStage(STAGES.four, "ardite");
 mods.TinkerStages.addMaterialStage(STAGES.four, "manyullyn");
 
-
 //Prevents the modifier from being applied.
+mods.TinkerStages.addModifierStage(STAGES.three, "oreexcavate");
 mods.TinkerStages.addModifierStage(STAGES.three, "luck");
 mods.TinkerStages.addModifierStage(STAGES.three, "haste");
 mods.TinkerStages.addModifierStage(STAGES.three, "mending_moss");

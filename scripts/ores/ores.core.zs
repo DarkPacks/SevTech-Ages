@@ -28,15 +28,15 @@ mods.immersiveengineering.Excavator.removeMineral("Magnetite");
 mods.immersiveengineering.Excavator.removeMineral("Nickel");
 mods.immersiveengineering.Excavator.removeMineral("Platinum");
 mods.immersiveengineering.Excavator.removeMineral("Pyrite");
-mods.immersiveengineering.Excavator.removeMineral("Quarzite");
+mods.immersiveengineering.Excavator.removeMineral("Quartzite");
 mods.immersiveengineering.Excavator.removeMineral("Silver");
 mods.immersiveengineering.Excavator.removeMineral("Uranium");
 
 //Add Ores
-//Quarzite
-mods.immersiveengineering.Excavator.addMineral("Quarzite", 30, 15, [], [], [-1], true);
-var quarzite = mods.immersiveengineering.Excavator.getMineral("Quarzite");
-quarzite.addOre("oreQuartzBlack", 0.50);
+//Quartzite
+mods.immersiveengineering.Excavator.addMineral("Quartzite", 30, 15, [], [], [-1], true);
+var quartzite = mods.immersiveengineering.Excavator.getMineral("Quartzite");
+quartzite.addOre("oreQuartzBlack", 0.50);
 
 //Autunite
 mods.immersiveengineering.Excavator.addMineral("Autunite", 30, 15, [], [], [-1], true);

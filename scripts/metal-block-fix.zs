@@ -28,7 +28,6 @@ var oreDictChiselPairs = {
 
 //<chiselBlock> : count
 //count = how many blocks there are
-//use string instead of int as a workaround (ct bug?)
 var oreDictChiselPairCounts = {
 	<chisel:blockaluminum> : 7,
 	<chisel:blockbronze> : 7,

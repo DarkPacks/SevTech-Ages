@@ -11,6 +11,7 @@ var itemsForStage = [
 	<minecraft:item_frame>,
 	<minecraft:sign>,
 	<tconstruct:stone_ladder>,
+	<minecraft:cake>,
 
 	//Brick
 	<betterwithaddons:bricks_stained:*>,
@@ -134,7 +135,6 @@ var itemsForStage = [
 	<abyssalcraft:dhoe>,
 	<cyclicmagic:sandstone_hoe>,
 	<minecraft:stone_hoe>,
-	<minecraft:wooden_hoe>,
 	<primal:flint_hoe>,
 
 	//Rustic

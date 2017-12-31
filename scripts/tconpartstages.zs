@@ -27,7 +27,9 @@ var parts = [
 	<tconstruct:tool_rod>,
 	<tconstruct:tough_binding>,
 	<tconstruct:tough_tool_rod>,
-	<tconstruct:wide_guard>
+	<tconstruct:wide_guard>,
+	<tconstruct:kama>,
+	<tcomplement:chisel>
 ] as IItemStack[];
 
 //Make sure each stage has a matching stage in the stages array!
@@ -49,7 +51,6 @@ var materialsForStage = {
 		"dreadium",
 		"electrum",
 		"iron",
-		"knightslime",
 		"prismarine",
 		"refined_coralium",
 		"silver",
@@ -66,7 +67,8 @@ var materialsForStage = {
 		"obsidian",
 		"paper",
 		"steel",
-		"treatedwood"
+		"treatedwood",
+		"pigiron"
 	],
 
 	STAGES.four : [
@@ -75,7 +77,7 @@ var materialsForStage = {
 		"integrationforegoing.pink_slime",
 		"integrationforegoing.plastic",
 		"manyullyn",
-		"pigiron"
+		"knightslime"
 	],
 
 	STAGES.five : [

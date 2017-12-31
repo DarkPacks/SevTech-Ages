@@ -22,21 +22,21 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 var shapelessRecipes = {
 	//Vanilla
 	<minecraft:torch> * 4 : [
-		[<immersiveengineering:material:6>, cordage, stick]	
+		[<immersiveengineering:material:6>, <betterwithmods:rope>, stick]
 	],
 
 	//Immersive Engineering
 	<immersiveengineering:material:20> : [
-		[<immersiveengineering:tool:1>, <immersiveengineering:metal:30>]
+		[<immersiveengineering:tool:1>, metals.copper.plate]
 	],
 	<immersiveengineering:material:21> : [
-		[<immersiveengineering:tool:1>, <immersiveengineering:metal:37>]
+		[<immersiveengineering:tool:1>, metals.electrum.plate]
 	],
 	<immersiveengineering:material:22> : [
-		[<immersiveengineering:tool:1>, <immersiveengineering:metal:31>]
+		[<immersiveengineering:tool:1>, metals.aluminum.plate]
 	],
 	<immersiveengineering:material:23> : [
-		[<immersiveengineering:tool:1>, <immersiveengineering:metal:38>]
+		[<immersiveengineering:tool:1>, metals.steel.plate]
 	],
 
 	//Nether new Recipes
@@ -46,10 +46,10 @@ var shapelessRecipes = {
 
 	//Extended Crafting
 	<extendedcrafting:material:14> : [
-		[<immersiveengineering:material:1>, <immersiveengineering:material:1>, <extendedcrafting:material:2>, <extendedcrafting:material:7>]
+		[metals.iron.rod, metals.iron.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
 	<extendedcrafting:material:15> : [
-		[<primal:golden_stick>, <primal:golden_stick>, <extendedcrafting:material:2>, <extendedcrafting:material:7>]
+		[metals.gold.rod, metals.gold.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
 	<extendedcrafting:material:7>*2 : [
 		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]

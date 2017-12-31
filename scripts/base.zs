@@ -1,48 +1,27 @@
-#priority 1000
+#priority 1150
 #loader contenttweaker
-//////////
-// Calls
-//////////
+
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 
-//////////////
-// Variables
-//////////////
 var metal_list = [
 	MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build(),
 	MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(18347).build(),
 	MaterialSystem.getMaterialBuilder().setName("Copper").setColor(15766817).build(),
 	MaterialSystem.getMaterialBuilder().setName("Lead").setColor(5658219).build(),
 	MaterialSystem.getMaterialBuilder().setName("Silver").setColor(15592941).build(),
-	MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build()
+	MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build(),
+	MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build()
 ] as Material[];
 var part_names = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-//var ore_types = ["ore", "poor_ore", "dense_ore"] as string[];
-
-///////////////////////////
-// Material registration
-///////////////////////////
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
-
-//    var ores = metal.registerParts(ore_types);
-//    for i, ore in ores {
-//        var oreData = ore.getData();
-//        oreData.addDataValue("variants", "minecraft:stone,minecraft:end_stone,minecraft:netherrack");
-//        oreData.addDataValue("hardness", "3,3,3");
-//        oreData.addDataValue("resistance", "15,15,15");
-//        oreData.addDataValue("harvestTool", "pickaxe,pickaxe,pickaxe");
-//        oreData.addDataValue("harvestLevel", "1,1,1");
-//    }
-//
-//   var blockData = metal.registerPart("block").getData();
-//   blockData.addDataValue("hardness", "5");
-//   blockData.addDataValue("resistance", "30");
-//   blockData.addDataValue("harvestTool", "pickaxe");
-//   blockData.addDataValue("harvestLevel", "1");
 }
+
+/*
+	Misc Part Registration
+*/
 
 //Aquamarine Ore
 var aquamarine = MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build();
@@ -73,6 +52,14 @@ fluidRedstoneData.addDataValue("viscosity", "3000");
 fluidRedstoneData.addDataValue("temperature", "1000");
 fluidRedstoneData.addDataValue("vaporize", "false");
 
+//Liquid Glowstone
+var glowstone = MaterialSystem.getMaterialBuilder().setName("Glowstone").setColor(16708616).build();
+var fluidGlowstoneData = glowstone.registerPart("molten").getData();
+fluidGlowstoneData.addDataValue("density", "8000");
+fluidGlowstoneData.addDataValue("viscosity", "3000");
+fluidGlowstoneData.addDataValue("temperature", "1000");
+fluidGlowstoneData.addDataValue("vaporize", "false");
+
 //Liquid Ostonium
 var ostonium = MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build();
 var fluidOstoniumData = ostonium.registerPart("molten").getData();
@@ -99,10 +86,13 @@ var fluidPropeneData = propene.registerPart("molten").getData();
 fluidPropeneData.addDataValue("density", "4000");
 fluidPropeneData.addDataValue("viscosity", "3000");
 
+/*
+	Materials to add with default molten values
+*/
 //Redstone Alloy
 var redalloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build();
-var redparts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
-redalloy.registerParts(redparts);
+var redParts = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"] as string[];
+redalloy.registerParts(redParts);
 
 //Platinum
 var platinum = MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(15066338).build();
@@ -111,13 +101,13 @@ platinum.registerParts(platParts);
 
 //Steeleaf
 var steeleaf = MaterialSystem.getMaterialBuilder().setName("Steeleaf").setColor(4283598394).build();
-var steelparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-steeleaf.registerParts(steelparts);
+var steelParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+steeleaf.registerParts(steelParts);
 
 //Fiery
 var fiery = MaterialSystem.getMaterialBuilder().setName("Fiery").setColor(2891807).setHasEffect(true).build();
-var fieryparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-fiery.registerParts(fieryparts);
+var fieryParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+fiery.registerParts(fieryParts);
 
 //Invar
 var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9872012).build();
@@ -126,11 +116,27 @@ invar.registerParts(invarParts);
 
 //Modularium
 var modularium = MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(16730368).build();
-var modulariumparts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
-modularium.registerParts(modulariumparts);
+var modulariumParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+modularium.registerParts(modulariumParts);
 
-//Fluids
-var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium] as Material[];
+//Galgadorian
+var galgadorian = MaterialSystem.getMaterialBuilder().setName("Galgadorian").setColor(11625595).build();
+var galgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+galgadorian.registerParts(galgadorianParts);
+
+//Enhanced Galgadorian
+var enhancedGalgadorian = MaterialSystem.getMaterialBuilder().setName("Enhanced Galgadorian").setColor(9850751).build();
+var enhancedGalgadorianParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+enhancedGalgadorian.registerParts(enhancedGalgadorianParts);
+
+//Reinforced Metal
+var reinforcedMetal = MaterialSystem.getMaterialBuilder().setName("Reinforced Metal").setColor(7643841).build();
+var reinforcedMetalParts = ["gear", "plate", "beam", "bolt", "rod"] as string[];
+reinforcedMetal.registerParts(reinforcedMetalParts);
+
+//--------------------------
+//Apply Molten to Materials
+var fluidMaterials = [steeleaf, fiery, platinum, redalloy, invar, modularium, galgadorian, enhancedGalgadorian, reinforcedMetal] as Material[];
 for i, fluid in fluidMaterials {
    var fluidMaterialsData = fluid.registerPart("molten").getData();
    fluidMaterialsData.addDataValue("density", "4000");
@@ -139,12 +145,16 @@ for i, fluid in fluidMaterials {
    fluidMaterialsData.addDataValue("vaporize", "false");
 }
 
-
 /*
-import mods.contenttweaker.VanillaFactory;
-import mods.contenttweaker.Item;
-
-var pulp = VanillaFactory.createItem("pulp");
-zsItem.maxStackSize = 64;
-zsItem.register();
+	Custom gears to keep the same look
 */
+var gearMaterialList = [
+	MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
+	MaterialSystem.getMaterialBuilder().setName("Gold").setColor(16776971).build(),
+	MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
+	MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build()
+] as Material[];
+
+for material in gearMaterialList {
+    material.registerPart("gear");
+}

@@ -1,0 +1,215 @@
+{
+  "registryname": "mixer_mk2",
+  "localizedname": "Mixer Mk2",
+  "color": "5A5050",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "betterwithmods:cooking_pot@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockfluidinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "pneumaticcraft:compressed_iron_block@0"
+      ]
+    }
+  ]
+}

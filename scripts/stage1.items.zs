@@ -28,8 +28,10 @@ var stage1Items = [
 	<minecraft:stone_button>,
 	<minecraft:wooden_button>,
 	<prospectors:prospector_lowest>,
+	<minecraft:ladder>,
 	<rustic:book>,
 	<teslacorelib:gear_stone>,
+	<minecraft:cake>,
 
 	//Ore
 	<abyssalcraft:abycopore>,
@@ -37,9 +39,6 @@ var stage1Items = [
 	<actuallyadditions:block_misc:3>,
 	<immersiveengineering:ore>,
 	<minecraft:coal_ore>,
-
-	//Plate
-	<immersiveengineering:metal:30>,
 
 	//Bricks
 	<betterwithaddons:bricks_stained:*>,
@@ -358,13 +357,7 @@ var stage1Items = [
 	<rustic:crushing_tub>,
 	<rustic:diorite_pillar>,
 	<rustic:evaporating_basin>,
-	<rustic:fence_gate_ironwood>,
-	<rustic:fence_gate_olive>,
-	<rustic:fence_ironwood>,
-	<rustic:fence_olive>,
 	<rustic:granite_pillar>,
-	<rustic:ironwood_door>,
-	<rustic:olive_door>,
 	<rustic:rope>,
 	<rustic:slate_pillar>,
 	<rustic:stairs_ironwood>,
@@ -526,13 +519,10 @@ var stage1Items = [
 	<embers:axe_copper>,
 	<embers:axe_tin>,
 	<embers:blend_caminite>,
-	<embers:block_bronze>,
 	<embers:block_caminite_brick>,
 	<embers:block_caminite_brick_slab>,
 	<embers:block_caminite_brick_slab_double>,
-	<embers:block_copper>,
 	<embers:block_lantern>,
-	<embers:block_tin>,
 	<embers:brick_caminite>,
 	<embers:copper_cell>,
 	<embers:crystal_ember>,
@@ -546,21 +536,15 @@ var stage1Items = [
 	<embers:hoe_bronze>,
 	<embers:hoe_copper>,
 	<embers:hoe_tin>,
-	<embers:ingot_bronze>,
-	<embers:ingot_tin>,
 	<embers:mech_accessor>,
 	<embers:mech_core>,
 	<embers:mixer>,
-	<embers:nugget_bronze>,
-	<embers:nugget_tin>,
 	<embers:ore_tin>,
 	<embers:pickaxe_bronze>,
 	<embers:pickaxe_copper>,
 	<embers:pickaxe_tin>,
-	<embers:plate_bronze>,
 	<embers:plate_caminite>,
 	<embers:plate_caminite_raw>,
-	<embers:plate_tin>,
 	<embers:shard_ember>,
 	<embers:shovel_bronze>,
 	<embers:shovel_copper>,
@@ -659,7 +643,6 @@ var stage1Items = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
-
 
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,

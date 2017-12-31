@@ -1,26 +1,17 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
-
 addCriteria("location", "minecraft:location")
 
-//Set icon item
 setIcon("primal_tech:stone_club")
 
-//Set title String
-setTitle("§l§bStage 0")
+setTitle("Â§lÂ§bStage 0")
 
-//Set description String
 setDescription("")
 
-//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/blocks/cobblestone.png")
 
-//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved. 
 setShowToast(false)
 
-//Set the advancement to not send a chat message when it is achieved.
 setAnnounceToChat(false)
 
-//Adds a lot of criteria triggers, so this gets triggered quickly and the page is actually unlocked.
 addCriteria("breakBlock", "triumph:player_break_block")
 addCriteria("enterDimension", "minecraft:changed_dimension")
 addCriteria("inventoryChange", "minecraft:inventory_changed")
@@ -29,5 +20,6 @@ addCriteria("killEntity", "minecraft:player_killed_entity")
 addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
-//Sets the requirements to be any. This means that if ANY of the criteria triggers is acquired, the advancement is acquired.
 setRequirements("any")
+
+setRewardFunction("triumph:stage0trigger")

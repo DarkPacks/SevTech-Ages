@@ -68,14 +68,14 @@ var shieldMetals = [
 	"iron",
 	"gold",
 	"obsidian",
-	"lead"
-	//"invar"
+	"lead",
+	"invar"
 ] as string[];
 
 for shieldMetal in shieldMetals {
-	var shield as IItemStack[] = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$");
+	var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$")[0];
 	var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
-	mods.tconstruct.Casting.addTableRecipe(shield[0], <spartanshields:shield_basic_wood>, liquid, 576, true);
+	mods.tconstruct.Casting.addTableRecipe(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);
 }
 
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);
@@ -111,14 +111,19 @@ mods.tconstruct.Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
 mods.tconstruct.Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <geolosys:cluster:8>);
 
 //Liquid Glowstone
-mods.tconstruct.Melting.addRecipe(<liquid:ftglowstone> * 100, <minecraft:glowstone_dust>);
+mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
+mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 400, <minecraft:glowstone>);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glowstone>, 400);
 
 //Liquid Redstone
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
 mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
+mods.tconstruct.Casting.addTableRecipe(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900);
 
 //Redstone Alloy Creation
-mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:ftglowstone>* 100, metalItems.constantan.liquid.liquids[0] * 144]);
+mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Redstone Alloy Rod
 mods.tconstruct.Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
@@ -128,3 +133,15 @@ mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //
 
 //Modularium
 mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);
+
+//Iron Chests
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
+mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
+
+//Steves Carts
+mods.tconstruct.Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);
+mods.tconstruct.Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
+mods.tconstruct.Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);

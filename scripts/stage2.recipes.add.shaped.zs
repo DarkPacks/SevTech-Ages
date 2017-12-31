@@ -3,17 +3,6 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.two;
 
-//Entire Mods into Stage two
-var modIDs = [
-	"farmingforblockheads",
-	"uppers"
-] as string[];
-for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
-}
-
 /*
 <item> : [
 	[RECIPE1],
@@ -37,6 +26,10 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes = {
+	<minecraft:arrow> * 4: [
+		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
+		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
+	],
 	<betterbuilderswands:wandiron> : [
 		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],
@@ -91,6 +84,12 @@ var shapedRecipes = {
 	<minecraft:bed> : [
 		[[<minecraft:wool:0>, <minecraft:wool:0>, <minecraft:wool:0>], [plank, plank, plank]]
 	],
+	<minecraft:light_weighted_pressure_plate> : [
+		[[metals.gold.plate, metals.gold.plate]]
+	],
+	<minecraft:heavy_weighted_pressure_plate> : [
+		[[metals.iron.plate, metals.iron.plate]]
+	],
 	<minecraft:bookshelf> : [
 		[[plank, plank, plank], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [plank, plank, plank]]
 	],
@@ -131,9 +130,23 @@ var shapedRecipes = {
 	],
 	<minecraft:hopper> : [
 		[
-			[metals.iron.plate, <minecraft:chest>,metals.iron.plate],
-			[metals.iron.plate, metals.bronze.gear,metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
 			[null, metals.iron.plate, null]
+		]
+	],
+	<uppers:upper> : [
+		[
+			[null, metals.iron.plate, null],
+			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate]
+		]
+	],
+	<minecraft:iron_bars>*16 : [
+		[
+			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
+			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
+			[null, null, null]
 		]
 	],
 	<minecraft:iron_axe> : [
@@ -171,8 +184,13 @@ var shapedRecipes = {
 	<minecraft:iron_sword> : [
 		[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, stick, null]]
 	],
+	<minecraft:name_tag> : [
+		[[null, null, <minecraft:string>],
+		[null, <minecraft:paper>, null],
+		[null, <ore:dyeBlack>, null]]
+	],
 	<minecraft:piston> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
+		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
 	],
 	<minecraft:wool:10> : [
 		[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
@@ -324,9 +342,9 @@ var shapedRecipes = {
 	],
 	<ironchest:copper_silver_chest_upgrade> : [
 		[
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
-			[metals.steel.plate, metals.copper.plate, metals.steel.plate],
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
+			[metals.silver.plate, metals.copper.plate, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
 	],
 	<ironchest:iron_chest:1> : [
@@ -338,9 +356,9 @@ var shapedRecipes = {
 	],
 	<ironchest:iron_chest:4> : [
 		[
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate],
-			[metals.steel.plate, <minecraft:chest>, metals.steel.plate],
-			[metals.steel.plate, metals.steel.plate, metals.steel.plate]
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
+			[metals.silver.plate, <minecraft:chest>, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
 	],
 	<ironchest:iron_chest> : [
@@ -360,7 +378,7 @@ var shapedRecipes = {
 	<ironchest:silver_gold_chest_upgrade> : [
 		[
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, metals.steel.plate, metals.gold.plate],
+			[metals.gold.plate, metals.silver.plate, metals.gold.plate],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],
@@ -392,7 +410,13 @@ var shapedRecipes = {
 			[<ore:stoneMarble>, null, null]
 		]
 	],
-
+	<astralsorcery:itemjournal> : [
+		[
+			[null, <astralsorcery:itemcraftingcomponent:5>, null],
+			[<astralsorcery:itemcraftingcomponent>, <minecraft:book>, <astralsorcery:itemcraftingcomponent>],
+			[null, <astralsorcery:itemcraftingcomponent>, null]
+		]
+	],
 	//Weirding Gadget
 	<weirdinggadget:weirding_gadget> : [
 		[
@@ -459,7 +483,11 @@ var shapedRecipes = {
 
 	//Stage 2 Easier Gearbox and Axle
 	<betterwithmods:wooden_axle> : [
-		[[null, <minecraft:stick>, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <minecraft:stick>, null]]
+		[
+			[null, <ore:mouldingWood>, null],
+			[null, <betterwithmods:rope>, null],
+			[null, <ore:mouldingWood>, null]
+		]
 	],
 	<betterwithmods:wooden_gearbox> : [
 		[

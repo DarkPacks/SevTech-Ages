@@ -1,6 +1,6 @@
 {
   "registryname": "propene",
-  "localizedname": "Propene",
+  "localizedname": "Chemical Mixer",
   "color": "4c4c4c",
   "parts": [
     {
@@ -32,7 +32,7 @@
       "y": 0,
       "z": 1,
       "elements": [
-        "modularmachinery:blockfluidinputhatch@0"
+        "modularmachinery:blockfluidinputhatch"
       ]
     },
     {
@@ -40,7 +40,7 @@
       "y": 0,
       "z": 0,
       "elements": [
-        "modularmachinery:blockfluidinputhatch@0"
+        "modularmachinery:blockfluidinputhatch"
       ]
     },
     {
@@ -112,7 +112,7 @@
       "y": 0,
       "z": 1,
       "elements": [
-        "modularmachinery:blockfluidoutputhatch@0"
+        "modularmachinery:blockfluidoutputhatch"
       ]
     },
     {
@@ -120,7 +120,7 @@
       "y": -1,
       "z": 2,
       "elements": [
-        "modularmachinery:blockenergyinputhatch@1"
+        "modularmachinery:blockenergyinputhatch"
       ]
     },
     {

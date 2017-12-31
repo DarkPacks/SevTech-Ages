@@ -27,23 +27,29 @@ var shapelessRecipes = {
 		[<minecraft:book>, <minecraft:dye>, <minecraft:feather>]
 	],
 	<primal:plant_fiber_pulp> * 3 : [
-		[<betterwithmods:material:22>, <betterwithmods:material:12>, <minecraft:water_bucket>]
-	],
-	<primal:plant_fiber_pulp> * 3 : [
+		[<betterwithmods:material:22>, <betterwithmods:material:12>, <minecraft:water_bucket>],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
 	<tconstruct:clear_glass> : [
 		[<minecraft:glass>]
 	],
 
-//Now you can make fleece in stage 2
+	//Now you can make fleece in stage 2
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
 	],
 
-//Twilight Forest
+	//Twilight Forest
 	<twilightforest:magic_map_focus> : [
 		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]
+	],
+
+	//Upper to hopper and reversed
+	<uppers:upper> : [
+		[<minecraft:hopper>]
+	],
+	<minecraft:hopper> : [
+		[<uppers:upper>]
 	]
 } as IIngredient[][][IItemStack];
 

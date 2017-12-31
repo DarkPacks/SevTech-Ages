@@ -209,7 +209,15 @@ var replacementItemsForStage = {
 		[<nuclearphysics:uranium_ore>],
 
 		[<tconstruct:ore:0>, <minecraft:netherrack>],
-		[<tconstruct:ore:1>, <minecraft:netherrack>]
+		[<tconstruct:ore:1>, <minecraft:netherrack>],
+
+		//Quartz
+		[<geolosys:ore_vanilla:4>],
+		[<geolosys:ore_sample_vanilla:4>, <immcraft:rock>],
+
+		//Certus Quartz
+		[<appliedenergistics2:quartz_ore>],
+		[<appliedenergistics2:charged_quartz_ore>]
 	],
 
 	STAGES.five : [
@@ -218,22 +226,17 @@ var replacementItemsForStage = {
 		[<geolosys:ore_vanilla:5>],
 		[<geolosys:ore_sample_vanilla:5>, <immcraft:rock>],
 
-		//Quartz
-		[<geolosys:ore_vanilla:4>],
-		[<geolosys:ore_sample_vanilla:4>, <immcraft:rock>],
-
 		//Emerald
 		[<minecraft:emerald_ore>],
 
 		//Uranium
 		[<immersiveengineering:ore:5>],
 		[<geolosys:ore:9>],
-		[<geolosys:ore_sample:9>, <immcraft:rock>],
+		[<geolosys:ore_sample:9>, <immcraft:rock>]
 
-		//Certus Quartz
-		[<appliedenergistics2:quartz_ore>],
-		[<appliedenergistics2:charged_quartz_ore>]
-	]
+  		//Soulstone
+		//[<mysticalagriculture:soulstone>, <minecraft:netherrack>]
+  	]
 } as IItemStack[][][string];
 
 for stage, itemReplacementPairs in replacementItemsForStage {

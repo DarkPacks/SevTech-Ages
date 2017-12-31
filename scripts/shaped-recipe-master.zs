@@ -181,6 +181,8 @@ recipes.addShaped(<progressiontweaks:stone_hammer>, [[cordage, <ore:rock>], [sti
 recipes.addShaped(<progressiontweaks:tomahawk>, [[cordage, <primal:flint_knapp>], [<primal:flint_point>, stick]]);
 recipes.remove(<primal:thatching_wet>);
 recipes.addShaped(<primal:thatching_wet> * 4, [[<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>], [<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>]]);
+recipes.addShaped(<primal:thatch_wet>, [[<primal:thatching_wet>, <primal:thatching_wet>], [<primal:thatching_wet>, <primal:thatching_wet>]]);
+recipes.addShaped(<primal:thatch>, [[<primal:thatching_dry>, <primal:thatching_dry>]]);
 
 //recipes.remove(<impstorage:controller>);
 //recipes.addShaped(<impstorage:controller>, [[plank, <immcraft:cupboard>, plank], [<immcraft:cupboard>, <immcraft:chest>, <immcraft:cupboard>], [plank, plank, plank]]);
@@ -216,9 +218,9 @@ recipes.addShaped(<roots:wood_shears>, [[null, plank, null], [plank, null, plank
 recipes.addShapeless(<roots:book_base>, [<primal:plant_cloth>, str, <ore:barkBirch>]);
 recipes.addShaped(<roots:bonfire>, [[null, stick, null], [stick, <ore:barkWood>, stick], [cobblestone, cobblestone, cobblestone]]);
 recipes.addShaped(<roots:thatch>, [[<roots:straw>, <roots:straw>], [<roots:straw>, <roots:straw>]]);
-recipes.addShaped(<roots:iron_knife>, [[null, iron], [stick, null]]);
+recipes.addShaped(<roots:iron_knife>, [[null, metals.iron.ingot], [stick, null]]);
 recipes.addShaped(<roots:diamond_knife>, [[null, diamond], [stick, null]]);
-recipes.addShaped(<roots:gold_knife>, [[null, gold], [stick, null]]);
+recipes.addShaped(<roots:gold_knife>, [[null, metals.gold.ingot], [stick, null]]);
 
 //recipes.addShaped(<simplyjuices:itemtooljuicer>, [[null, <roots:pestle>], [null, stone]]);
 

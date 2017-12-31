@@ -1,5 +1,5 @@
 //Make this script top execution priority
-#priority 998
+#priority 850
 
 import crafttweaker.item.IIngredient;
 
@@ -57,6 +57,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	blackIron: {
+		block: <extendedcrafting:storage>,
+		dust: null,
+		gear: null,
+		ingot: <extendedcrafting:material>,
+		liquid: null,
+		nugget: null,
+		plate: <extendedcrafting:material:2>,
+		rod: <extendedcrafting:material:3>
+	},
 	bronze: {
 		block: <embers:block_bronze>,
 		dust: null,
@@ -76,6 +86,16 @@ global metalItems as IIngredient[string][string] = {
 		nugget: <tconstruct:nuggets>,
 		plate: <materialpart:cobalt:plate>,
 		rod: <materialpart:cobalt:rod>
+	},
+	compressedIron: {
+		block: <pneumaticcraft:compressed_iron_block>,
+		dust: null,
+		gear: <materialpart:compressed_iron:gear>,
+		ingot: <pneumaticcraft:ingot_iron_compressed>,
+		liquid: null,
+		nugget: null,
+		plate: <materialpart:compressed_iron:plate>,
+		rod: <materialpart:compressed_iron:rod>
 	},
 	constantan: {
 		block: <immersiveengineering:storage:6>,
@@ -127,6 +147,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:37>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <stevescarts:blockmetalstorage:2>,
+		dust: null,
+		gear: <materialpart:enhanced_galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:49>,
+		liquid: <liquid:enhanced_galgadorian>,
+		nugget: null,
+		plate: <materialpart:enhanced_galgadorian:plate>,
+		rod: <materialpart:enhanced_galgadorian:rod>
+	},
 	ethaxium: {
 		block: <abyssalcraft:ingotblock:3>,
 		dust: null,
@@ -147,20 +177,40 @@ global metalItems as IIngredient[string][string] = {
 		plate: <materialpart:fiery:plate>,
 		rod: <materialpart:fiery:rod>
 	},
+	galgadorian: {
+		block: <stevescarts:blockmetalstorage:1>,
+		dust: null,
+		gear: <materialpart:galgadorian:gear>,
+		ingot: <stevescarts:modulecomponents:47>,
+		liquid: <liquid:galgadorian>,
+		nugget: null,
+		plate: <materialpart:galgadorian:plate>,
+		rod: <materialpart:galgadorian:rod>
+	},
 	gold: {
 		block: <minecraft:gold_block>,
 		dust: <immersiveengineering:metal:19>,
-		gear: null,
+		gear: <materialpart:gold:gear>,
 		ingot: <minecraft:gold_ingot>,
 		liquid: <liquid:gold>,
 		nugget: <minecraft:gold_nugget>,
 		plate: <immersiveengineering:metal:40>,
 		rod: <primal:golden_stick>
 	},
+	invar: {
+		block: <materialpart:invar:block>,
+		dust: null,
+		gear: <materialpart:invar:gear>,
+		ingot: <materialpart:invar:ingot>,
+		liquid: <liquid:invar>,
+		nugget: null,
+		plate: <materialpart:invar:plate>,
+		rod: <materialpart:invar:rod>,
+	},
 	iron: {
 		block: <minecraft:iron_block>,
 		dust: <immersiveengineering:metal:18>,
-		gear: null,
+		gear: <materialpart:iron:gear>,
 		ingot: <minecraft:iron_ingot>,
 		liquid: <liquid:iron>,
 		nugget: <minecraft:iron_nugget>,
@@ -257,6 +307,16 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	reinforcedMetal: {
+		block: <stevescarts:blockmetalstorage>,
+		dust: null,
+		gear: <materialpart:reinforced_metal:gear>,
+		ingot: <stevescarts:modulecomponents:22>,
+		liquid: <liquid:reinforced_metal>,
+		nugget: null,
+		plate: <materialpart:reinforced_metal:plate>,
+		rod: <materialpart:reinforced_metal:rod>
+	},
 	silver: {
 		block: <immersiveengineering:storage:3>,
 		dust: <immersiveengineering:metal:12>,
@@ -270,7 +330,7 @@ global metalItems as IIngredient[string][string] = {
 	steel: {
 		block: <immersiveengineering:storage:8>,
 		dust: <immersiveengineering:metal:17>,
-		gear: null,
+		gear: <materialpart:steel:gear>,
 		ingot: <immersiveengineering:metal:8>,
 		liquid: <liquid:steel>,
 		nugget: <immersiveengineering:metal:28>,

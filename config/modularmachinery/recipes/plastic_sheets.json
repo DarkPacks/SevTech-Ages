@@ -1,7 +1,7 @@
 {
   "machine": "hardener",
   "registryName": "plasticsheets",
-  "recipeTime": 100,
+  "recipeTime": 200,
   "requirements": [
     {
       "type": "energy",
@@ -18,7 +18,7 @@
       "type": "fluid",
       "io-type": "input",
       "fluid": "plastic",
-      "amount": 250,
+      "amount": 1000,
       "chance": 1.0
     }
   ]

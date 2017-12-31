@@ -29,23 +29,27 @@ mods.betterwithmods.Mill.add(<minecraft:coal:1> * 9, null, [<charcoalblock:charc
 mods.betterwithmods.Mill.add(<minecraft:coal> * 9, null, [<minecraft:coal_block>]);
 
 mods.betterwithmods.Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cobblestone>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 1, null, [<minecraft:dye:1>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 1, null, [<minecraft:dye:15>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 1, null, [<minecraft:dye:15>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 1, null, [<minecraft:dye:2>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<actuallyadditions:item_misc:17>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<minecraft:dye>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 1, null, [<minecraft:dye:3>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 1, null, [<minecraft:dye:4>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 1, null, [<rustic:wildberries>]);
 
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 1, null, [<actuallyadditions:block_black_lotus>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:item_misc:17>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
+
+mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
 
 mods.betterwithmods.Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
 
 mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
 
 mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
+
+for bark in <ore:barkWood>.items {
+	mods.betterwithmods.Mill.add(<primal:tannin_ground> * 2, null, [bark]);
+}
 
 /*
 mods.betterwithaddons.SoakingBox.add(IItemStack output, IItemStack input);
@@ -171,6 +175,38 @@ var sawRecipes = {
 		<totemic:cedar_plank> * 6,
 		<betterwithmods:material:22> * 2
 	],
+	<primal:logs_stripped> : [
+		<minecraft:planks> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:1> : [
+		<minecraft:planks:1> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:2> : [
+		<minecraft:planks:2> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:3> : [
+		<minecraft:planks:3> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:4> : [
+		<minecraft:planks:4> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:5> : [
+		<minecraft:planks:5> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:6> : [
+		<primal:planks> * 6,
+		<betterwithmods:material:22> * 2
+	],
+	<primal:logs_stripped:7> : [
+		<primal:planks:1> * 6,
+		<betterwithmods:material:22> * 2
+	],
 	<traverse:fir_log> : [
 		<traverse:fir_log> * 6,
 		<betterwithmods:bark:5>,
@@ -185,3 +221,7 @@ for item in sawRemovals {
 for input in sawRecipes {
 	mods.betterwithmods.Saw.add(sawRecipes[input], input);
 }
+
+
+
+

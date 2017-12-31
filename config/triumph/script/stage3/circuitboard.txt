@@ -1,0 +1,11 @@
+setIcon("immersiveengineering:material", 27)
+
+setTitle("I'm Board")
+
+setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+
+setParent("triumph:stage3/vacuumtube")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:material", 27)

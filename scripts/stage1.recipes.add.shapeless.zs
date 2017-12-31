@@ -23,6 +23,9 @@ var shapelessRecipes = {
 	<minecraft:torch> * 2 : [
 		[<minecraft:coal:*>, cordage, stick]
 	],
+	<minecraft:torch> * 2 : [
+		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
+	],
 	<primal:bark_acacia> : [
 		[<minecraft:log2>.giveBack(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
 	],
@@ -60,7 +63,7 @@ var shapelessRecipes = {
 
 	//Astral Sorcery Start
 	<betterwithaddons:japanmat:8> : [
-		[<primal_tech:fluid_bladder>, <betterwithaddons:japanmat:36>]
+		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>] 
 	]
 } as IIngredient[][][IItemStack];
 

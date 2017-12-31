@@ -1,5 +1,5 @@
 //Make this script top execution priority
-#priority 998
+#priority 850
 
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -32,7 +32,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotAluminum>,
 		nugget: <ore:nuggetAluminum>,
 		plate: <ore:plateAluminum>,
-		rod: <ore:stickAluminum>
+		rod: <ore:rodAluminum>
 	},
 	aluminumBrass: {
 		block: <ore:blockAlubrass>,
@@ -52,6 +52,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: null,
 		rod: null
 	},
+	blackIron: {
+		block: <ore:blockBlackIron>,
+		dust: null,
+		gear: null,
+		ingot: <ore:ingotBlackIron>,
+		nugget: <ore:nuggetBlackIron>,
+		plate: <ore:plateBlackIron>,
+		rod: <ore:rodBlackIron>
+	},
 	bronze: {
 		block: <ore:blockBronze>,
 		dust: <ore:dustBronze>,
@@ -69,6 +78,15 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: <ore:nuggetCobalt>,
 		plate: <ore:plateCobalt>,
 		rod: <ore:rodCobalt>
+	},
+	compressedIron: {
+		block: <ore:blockCompressedIron>,
+		dust: null,
+		gear: <ore:gearCompressedIron>,
+		ingot: <ore:ingotCompressedIron>,
+		nugget: null,
+		plate: <ore:plateCompressedIron>,
+		rod: <ore:rodCompressedIron>
 	},
 	constantan: {
 		block: <ore:blockConstantan>,
@@ -115,6 +133,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateElectrum>,
 		rod: null
 	},
+	enhancedGalgadorian: {
+		block: <ore:blockEnhancedGalgadorian>,
+		dust: null,
+		gear: <ore:gearEnhancedGalgadorian>,
+		ingot: <ore:ingotEnhancedGalgadorian>,
+		nugget: null,
+		plate: <ore:plateEnhancedGalgadorian>,
+		rod: <ore:rodEnhancedGalgadorian>
+	},
 	ethaxium: {
 		block: <ore:blockEthaxium>,
 		dust: null,
@@ -134,6 +161,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateFiery>,
 		rod: <ore:rodFiery>
 	},
+	galgadorian: {
+		block: <ore:blockGalgadorian>,
+		dust: null,
+		gear: <ore:gearGalgadorian>,
+		ingot: <ore:ingotGalgadorian>,
+		nugget: null,
+		plate: <ore:plateGalgadorian>,
+		rod: <ore:rodGalgadorian>
+	},
 	gold: {
 		block: <ore:blockGold>,
 		dust: <ore:dustGold>,
@@ -143,6 +179,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateGold>,
 		rod: <ore:rodGold>
 	},
+	invar: {
+		block: <ore:blockInvar>,
+		dust: <ore:dustInvar>,
+		gear: <ore:gearInvar>,
+		ingot: <ore:ingotInvar>,
+		nugget: <ore:nuggetInvar>,
+		plate: <ore:plateInvar>,
+		rod: <ore:rodInvar>
+	},
 	iron: {
 		block: <ore:blockIron>,
 		dust: <ore:dustIron>,
@@ -150,7 +195,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotIron>,
 		nugget: <ore:nuggetIron>,
 		plate: <ore:plateIron>,
-		rod: <ore:stickIron>
+		rod: <ore:rodIron>
 	},
 	knightslime: {
 		block: <ore:blockKnightslime>,
@@ -233,6 +278,15 @@ global metals as IOreDictEntry[string][string] = {
 		plate: null,
 		rod: null
 	},
+	reinforcedMetal: {
+		block: <ore:blockReinforcedMetal>,
+		dust: null,
+		gear: <ore:gearReinforcedMetal>,
+		ingot: <ore:ingotReinforcedMetal>,
+		nugget: null,
+		plate: <ore:plateReinforcedMetal>,
+		rod: <ore:rodReinforcedMetal>
+	},
 	silver: {
 		block: <ore:blockSilver>,
 		dust: <ore:dustSilver>,
@@ -249,7 +303,7 @@ global metals as IOreDictEntry[string][string] = {
 		ingot: <ore:ingotSteel>,
 		nugget: <ore:nuggetSteel>,
 		plate: <ore:plateSteel>,
-		rod: <ore:stickSteel>
+		rod: <ore:rodSteel>
 	},
 	steeleaf: {
 		block: <ore:blockSteeleaf>,

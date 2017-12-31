@@ -1,6 +1,17 @@
-#priority 900
+#priority 1050
 
 import crafttweaker.item.IItemStack;
+
+function addShear(shear as IItemStack, isUnique as bool) {
+	<ore:shears>.add(shear);
+	<ore:toolShears>.add(shear);
+
+	if (isUnique) {
+		<ore:toolUniqueShears>.add(shear);
+	} else {
+		<ore:toolBasicShears>.add(shear);
+	}
+}
 
 var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
 //IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
@@ -41,6 +52,34 @@ var seeds = [
 
 for seed in seeds {
 	seedOreDict.add(seed);
+}
+
+var shearTypesAndItems as IItemStack[][string] = {
+	"basic": [
+		<ceramics:clay_shears:*>,
+		<cyclicmagic:ender_wool:*>,
+		<minecraft:shears:*>,
+		<mysticalagriculture:inferium_shears:*>,
+		<mysticalagriculture:intermedium_shears:*>,
+		<mysticalagriculture:prudentium_shears:*>,
+		<mysticalagriculture:superium_shears:*>,
+		<primal:flint_shears:*>,
+		<primal:quartz_shears:*>,
+		<primal_tech:bone_shears:*>,
+		<roots:wood_shears:*>,
+		<thebetweenlands:syrmorite_shears:*>
+	],
+
+	"unique": [
+		<mysticalagriculture:supremium_shears:*>
+	]
+};
+
+for shearType, shears in shearTypesAndItems {
+	for shear in shears {
+		var isUnique = shearType == "unique";
+		addShear(shear, isUnique);
+	}
 }
 
 <ore:rock>.add(<immcraft:rock>);
@@ -106,9 +145,6 @@ for seed in seeds {
 
 <ore:plateZinc>.remove(<primal:zinc_plate>);
 
-<ore:ingotInvar>.remove(<factorytech:ingot:3>);
-
-<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
 <ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
@@ -149,27 +185,11 @@ for seed in seeds {
 <ore:barkWood>.add(<roots:bark_dark_oak>);
 <ore:barkWood>.add(<roots:bark_acacia>);
 
-<ore:plankWood>.add(<primal:planks:6>);
-
-<ore:shears>.add(<minecraft:shears>);
-<ore:shears>.add(<cyclicmagic:ender_wool>);
-<ore:shears>.add(<primal:flint_shears>);
-<ore:shears>.add(<primal:quartz_shears>);
-//<ore:shears>.add(<xreliquary:shears_of_winter>);
-<ore:shears>.add(<roots:wood_shears>);
-<ore:shears>.add(<primal_tech:bone_shears>);
-
-//Unregister Extra items
-<ore:gearWood>.remove(<appliedenergistics2:material:40>);
+<ore:plankWood>.add(<primal:planks:0>);
 
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
-
-<ore:gearWood>.remove(<teslacorelib:gear_wood>);
-
-<ore:oreNickel>.remove(<factorytech:ore:1>);
-<ore:oreCopper>.remove(<factorytech:ore>);
 
 //Temp Fix
 <ore:logWood>.add(<minecraft:log:1>);
@@ -178,3 +198,23 @@ for seed in seeds {
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 
 <ore:dustWood>.add(<betterwithmods:material:22>);
+
+//AE Wrenches
+<ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench>);
+<ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench>);
+
+//Add to oredict so it can be removed
+<ore:gearCompressedIron>.add(<pneumaticcraft:compressed_iron_gear>);
+
+//Adding these to the list because THEY ARE COOKED MEAT AND WERE NOT ADDED >:O
+<ore:listAllmeatcooked>.add(<betterwithmods:cooked_bat_wing>);
+<ore:listAllmeatcooked>.add(<betterwithmods:cooked_wolf_chop>);
+<ore:listAllmeatcooked>.add(<animalium:rat_meat_cooked>);
+<ore:listAllmeatcooked>.add(<animalium:bear_meat_cooked>);
+<ore:listAllmeatcooked>.add(<twilightforest:cooked_meef>);
+<ore:listAllmeatcooked>.add(<twilightforest:cooked_venison>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:snail_flesh_cooked>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:frog_legs_cooked>);
+<ore:listAllmeatcooked>.add(<thebetweenlands:angler_meat_cooked>);
+<ore:listAllmeatcooked>.add(<nex:food_meat_ghast_cooked>);
+<ore:listAllmeatcooked>.add(<natura:edibles:1>);

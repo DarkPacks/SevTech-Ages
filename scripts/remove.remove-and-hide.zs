@@ -2,6 +2,13 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems = [
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
+	<ironbackpacks:upgrade>,
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
@@ -15,11 +22,15 @@ var removeAndHideItems = [
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
 	<betterwithmods:stump:*>,
-	<buildcraftcore:gear_stone>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
 	<immcraft:furnace>,
+	<minecraft:wooden_sword>,
+	<minecraft:wooden_shovel>,
+	<minecraft:wooden_pickaxe>,
+	<minecraft:wooden_axe>,
+	<minecraft:wooden_hoe>,
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,
 	<natura:amaranth_trap_door>,
@@ -75,16 +86,33 @@ var removeAndHideItems = [
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
 	<storagedrawers:basicdrawers:*>,
-	<teslacorelib:gear_iron>,
 	<totemic:medicine_bag>,
-  	<modularmachinery:blockinputbus:0>,
+	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
+	<stevescarts:modulecomponents:9>,
+	<cultivatedtech:blockecoflamer1>,
+	<cultivatedtech:blockecoflamer2>,
+	<cultivatedtech:blockecoflamer3>,
 
 	//Nuggets
 	<betterwithmods:material:46>,
-	<extendedcrafting:material:1>,
 	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>  //Soulium Nugget
+	<mysticalagriculture:crafting:45>,  //Soulium Nugget
+
+	<appliedenergistics2:material:21>, //Inscriber Name Press
+	<appliedenergistics2:vibration_chamber>,
+	<appliedenergistics2:material:45>, //Skystone Dust
+
+	//Pneumaticraft
+	<pneumaticcraft:refinery>,
+	<pneumaticcraft:thermopneumatic_processing_plant>,
+
+	//Buildcraft
+	<buildcraftcore:spring:1>,
+	<buildcraftcore:spring>,
+
+	//Cooking for Blockheads
+	<cookingforblockheads:milk_jar>
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

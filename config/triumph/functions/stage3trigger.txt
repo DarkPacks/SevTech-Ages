@@ -1,3 +1,5 @@
+gamestage remove @p two_mob
+gamestage add @p three_mob
 gamestage add @p three
 summon minecraft:fireworks_rocket ~ ~ ~
 say You are Now In Stage 3

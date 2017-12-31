@@ -8,6 +8,4 @@ setParent("triumph:stage3/workbench")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setBlock("immersiveengineering:material", 26)
-
-setRequirements("any")
+criteria.setItem("immersiveengineering:material", 26)

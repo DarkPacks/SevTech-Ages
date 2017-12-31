@@ -1,8 +1,6 @@
 import crafttweaker.item.IItemStack;
 
 var outputToRemove = [
-	<abyssalcraft:copperingot>,
-	<abyssalcraft:tiningot>,
 	<actuallyadditions:item_food:15>,
 	<actuallyadditions:item_misc:5>,
 
@@ -10,25 +8,17 @@ var outputToRemove = [
 	<ceramics:clay_barrel:1>,
 	<ceramics:clay_barrel>,
 	<ceramics:clay_bucket>,
-	<embers:ingot_tin>,
+
 	<embers:plate_caminite>,
-	<immersiveengineering:metal>,
 	<improvedbackpacks:tanned_leather>,//TODO: Needed here as well? JEI Removed and Hidden
 	<minecraft:bread>,
 	<minecraft:brick>,
-
-	//Charcoal Revamp
-	<minecraft:coal:1>,
-
-	//Glass Revamp
-	<minecraft:glass>,
-	<minecraft:gold_ingot>,
-	<minecraft:gold_nugget>,
-	<minecraft:iron_ingot>,
-	<minecraft:iron_nugget>,
+	<minecraft:coal:1>, //Charcoal Revamp
+	<minecraft:glass>, //Glass Revamp
 	<minecraft:leather>,
 	<minecraft:netherbrick>,
-	<primal:carbonate_stone>
+	<primal:carbonate_stone>,
+	<industrialforegoing:plastic>
 ] as IItemStack[];
 
 for item in outputToRemove {

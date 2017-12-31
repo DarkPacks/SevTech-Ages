@@ -3,25 +3,6 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.five;
 
-//Entire Mods into Stage five
-var modIDs = [
-	"appliedenergistics2",
-	"compactmachines3",
-	"enderutilities",
-	"environmentaltech",
-	"mysticalagradditions",
-	"mysticalagriculture",
-	"quantumstorage",
-	"refinedstorage",
-	"refinedstorageaddons",
-	"scannable"
-] as string[];
-for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
-}
-
 /*
 <item> : [
 	[RECIPE1],
@@ -58,6 +39,22 @@ var shapedRecipes = {
 	],
 	<spartanshields:shield_riot_rftools> : [
 		[[null, <actuallyadditions:item_battery_quadruple>, null], [<tconstruct:materials:14>, <spartanshields:shield_basic_copper>, <tconstruct:materials:14>], [null, <rftools:shield_block3>, null]]
+	],
+
+	//Storage Drawers
+	<storagedrawers:upgrade_storage:3> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[<minecraft:diamond>, <storagedrawers:upgrade_template>, <minecraft:diamond>],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
+	],
+	<storagedrawers:upgrade_storage:4> : [
+		[
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+			[<minecraft:emerald>, <storagedrawers:upgrade_template>, <minecraft:emerald>],
+			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+		]
 	]
 } as IIngredient[][][][IItemStack];
 
@@ -97,6 +94,3 @@ mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_ender>);
 
 //NEEDS RECIPES
 mods.recipestages.Recipes.setRecipeStage("five", <extendedcrafting:material:128>);
-
-//<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}})
-//<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}})

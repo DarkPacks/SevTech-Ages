@@ -2,6 +2,19 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.two;
 
+//Entire Mods into Stage two
+var modIDs = [
+	"farmingforblockheads",
+	"uppers",
+	"thebetweenlands"
+] as string[];
+
+for id in modIDs {
+    for item in loadedMods[id].items {
+        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+    }
+}
+
 var itemsForStage = [
 	<abyssalcraft:ahoe>,
 	<abyssalcraft:corhoe>,
@@ -13,7 +26,6 @@ var itemsForStage = [
 	<cyclicmagic:stone_minecart>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
-	<minecraft:arrow>,
 	<minecraft:banner:*>,
 	<minecraft:bookshelf>,
 	<minecraft:bow>,
@@ -46,6 +58,15 @@ var itemsForStage = [
 	<minecraft:writable_book>,
 	<minecraft:painting>,
 	<quark:glass_item_frame>,
+	<minecraft:carrot_on_a_stick>,
+	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
+	<bibliocraft:recipebook>,
+	<jaff:iron_fishing_rod>,
+	<jaff:wooden_fishing_rod>,
+	<jaff:iron_hook>,
+	<jaff:tank>,
+	<betterwithaddons:bundle:1>,
+	<betterwithmods:material:43>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -63,9 +84,7 @@ var itemsForStage = [
 	<abyssalcraft:cstonepplate>,
 	<abyssalcraft:dltpplate>,
 	<abyssalcraft:dspplate>,
-	<minecraft:heavy_weighted_pressure_plate>,
 	<minecraft:lever>,
-	<minecraft:light_weighted_pressure_plate>,
 	<minecraft:stone_pressure_plate>,
 	<minecraft:wooden_pressure_plate>,
 
@@ -105,7 +124,6 @@ var itemsForStage = [
 	<twilightforest:ironwood_chestplate>,
 	<twilightforest:ironwood_helmet>,
 	<twilightforest:ironwood_hoe>,
-	<twilightforest:ironwood_hoe>,
 	<twilightforest:ironwood_ingot>,
 	<twilightforest:ironwood_leggings>,
 	<twilightforest:ironwood_pickaxe>,
@@ -132,7 +150,6 @@ var itemsForStage = [
 	<twilightforest:steeleaf_boots>,
 	<twilightforest:steeleaf_chestplate>,
 	<twilightforest:steeleaf_helmet>,
-	<twilightforest:steeleaf_hoe>,
 	<twilightforest:steeleaf_hoe>,
 	<twilightforest:steeleaf_ingot>,
 	<twilightforest:steeleaf_leggings>,
@@ -217,8 +234,6 @@ var itemsForStage = [
 	<storagedrawers:trim:5>,
 	<storagedrawers:trim>,
 	<storagedrawers:upgrade_conversion>,
-	<storagedrawers:upgrade_conversion>,
-	<storagedrawers:upgrade_one_stack>,
 	<storagedrawers:upgrade_one_stack>,
 	<storagedrawers:upgrade_redstone:1>,
 	<storagedrawers:upgrade_redstone:2>,
@@ -226,7 +241,6 @@ var itemsForStage = [
 	<storagedrawers:upgrade_status:1>,
 	<storagedrawers:upgrade_status>,
 	<storagedrawers:upgrade_storage:1>,
-	<storagedrawers:upgrade_storage:2>,
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
 
@@ -276,15 +290,11 @@ var itemsForStage = [
 	<tconstruct:seared_tank:2>,
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
+	<tconstruct:slimesling>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>,
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
 
 	//Dark Utils
 	<darkutils:charm_null>,
@@ -355,7 +365,6 @@ var itemsForStage = [
 	<embers:grandhammer>,
 	<embers:hoe_aluminum>,
 	<embers:hoe_dawnstone>,
-	<embers:hoe_dawnstone>,
 	<embers:hoe_lead>,
 	<embers:hoe_nickel>,
 	<embers:hoe_silver>,
@@ -396,7 +405,15 @@ var itemsForStage = [
 	<embers:wall_ashen_stone>,
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
-	<embers:wrapped_sealed_planks>
+	<embers:wrapped_sealed_planks>,
+
+	//Cultivated Tech
+	<cultivatedtech:blockfireplace>,
+	<cultivatedtech:blockbarrel>,
+	<cultivatedtech:blockhemp>,
+	<cultivatedtech:itembrick>,
+	<cultivatedtech:blocksprinkler1>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

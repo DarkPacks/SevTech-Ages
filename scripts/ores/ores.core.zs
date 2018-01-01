@@ -38,6 +38,11 @@ mods.immersiveengineering.Excavator.addMineral("Quartzite", 30, 15, [], [], [-1]
 var quartzite = mods.immersiveengineering.Excavator.getMineral("Quartzite");
 quartzite.addOre("oreQuartzBlack", 0.50);
 
+//Autunite
+mods.immersiveengineering.Excavator.addMineral("Autunite", 30, 15, [], [], [-1], true);
+var autunite = mods.immersiveengineering.Excavator.getMineral("Autunite");
+autunite.addOre("oreGeolosysAutunite", 0.50);
+
 //Azurite
 mods.immersiveengineering.Excavator.addMineral("Azurite", 30, 15, [], [], [-1], true);
 var azurite = mods.immersiveengineering.Excavator.getMineral("Azurite");
@@ -97,11 +102,6 @@ malachite.addOre("oreGeolosysMalachite", 0.50);
 mods.immersiveengineering.Excavator.addMineral("Platinum", 30, 15, [], [], [-1], true);
 var platinum = mods.immersiveengineering.Excavator.getMineral("Platinum");
 platinum.addOre("oreGeolosysPlatinum", 0.50);
-
-//Sphalerite
-mods.immersiveengineering.Excavator.addMineral("Sphalerite", 30, 15, [], [], [-1], true);
-var sphalerite = mods.immersiveengineering.Excavator.getMineral("Sphalerite");
-sphalerite.addOre("oreGeolosysSphalerite", 0.50);
 
 //Teallite
 mods.immersiveengineering.Excavator.addMineral("Teallite", 30, 15, [], [], [-1], true);

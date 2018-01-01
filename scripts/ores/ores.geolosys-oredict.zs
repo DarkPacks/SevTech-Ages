@@ -1,3 +1,5 @@
+#priority 1050
+
 <ore:oreGeolosysAutunite>.add(<geolosys:ore:9>);
 <ore:oreGeolosysAzurite>.add(<geolosys:ore:3>);
 <ore:oreGeolosysBauxite>.add(<geolosys:ore:7>);

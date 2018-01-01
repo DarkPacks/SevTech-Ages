@@ -38,11 +38,6 @@ mods.immersiveengineering.Excavator.addMineral("Quartzite", 30, 15, [], [], [-1]
 var quartzite = mods.immersiveengineering.Excavator.getMineral("Quartzite");
 quartzite.addOre("oreQuartzBlack", 0.50);
 
-//Autunite
-mods.immersiveengineering.Excavator.addMineral("Autunite", 30, 15, [], [], [-1], true);
-var autunite = mods.immersiveengineering.Excavator.getMineral("Autunite");
-autunite.addOre("oreGeolosysAutunite", 0.50);
-
 //Azurite
 mods.immersiveengineering.Excavator.addMineral("Azurite", 30, 15, [], [], [-1], true);
 var azurite = mods.immersiveengineering.Excavator.getMineral("Azurite");

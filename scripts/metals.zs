@@ -192,18 +192,8 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 			//Dust can only be used in arc furnace
 			if (metalType == "dust") {
-				if (loadedMods.contains("appliedenergistics2")) {
-					mods.appliedenergistics2.Grinder.removeRecipe(preferredMetalItem);
-				}
-
-				if (loadedMods.contains("astralsorcery")) {
-					//TODO: Change to removeRecipe once fixed in AS
-					mods.astralsorcery.Grindstone.removeReipce(preferredMetalItem);
-				}
-
 				if (loadedMods.contains("immersiveengineering")) {
 					mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
-					mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
 				}
 
 				if (loadedMods.contains("tconstruct") & hasLiquid) {

@@ -98,6 +98,11 @@ mods.immersiveengineering.Excavator.addMineral("Platinum", 30, 15, [], [], [-1],
 var platinum = mods.immersiveengineering.Excavator.getMineral("Platinum");
 platinum.addOre("oreGeolosysPlatinum", 0.50);
 
+//Sphalerite
+mods.immersiveengineering.Excavator.addMineral("Sphalerite", 30, 15, [], [], [-1], true);
+var sphalerite = mods.immersiveengineering.Excavator.getMineral("Sphalerite");
+sphalerite.addOre("oreGeolosysSphalerite", 0.50);
+
 //Teallite
 mods.immersiveengineering.Excavator.addMineral("Teallite", 30, 15, [], [], [-1], true);
 var teallite = mods.immersiveengineering.Excavator.getMineral("Teallite");

@@ -159,7 +159,6 @@ var replacementItemsForStage = {
 		[<minecraft:glowstone>],
 		[<minecraft:quartz_ore>, <minecraft:netherrack>],
 		[<abyssalcraft:abyore>],
-		[<minecraft:magma>, <rustic:slate>],
 
 		//Platinum
 		[<geolosys:ore:8>],

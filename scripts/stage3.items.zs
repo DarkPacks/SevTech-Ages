@@ -767,6 +767,11 @@ var stage3Items = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_missile>,
 
+	//Tinkers'
+	<tconstruct:metal:6>,
+	<tconstruct:materials:16>,
+	<tconstruct:materials:15>,
+
 	//Top Hat
 	<fat_cat:top_hat>,
 

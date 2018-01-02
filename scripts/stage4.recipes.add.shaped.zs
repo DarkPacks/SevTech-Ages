@@ -432,6 +432,21 @@ var shapedRecipes = {
 			[<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>]
 		]
 	],
+	<pneumaticcraft:pressure_chamber_wall> * 8 : [
+		[
+			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>],
+			[<pneumaticcraft:ingot_iron_compressed>, null, <pneumaticcraft:ingot_iron_compressed>],
+			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
+		]
+	],
+
+	<pneumaticcraft:pressure_chamber_glass> * 8 : [
+		[
+			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>],
+			[<pneumaticcraft:ingot_iron_compressed>, <ore:blockGlass>, <pneumaticcraft:ingot_iron_compressed>],
+			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
+		]
+	],
 
 	//Inductive Logistics
 	<indlog:inv_connector> : [

@@ -59,7 +59,8 @@ var removeItems = [
 	<tconstruct:tinker_tank_controller>,
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
-	<weirdinggadget:weirding_gadget>
+	<weirdinggadget:weirding_gadget>,
+	<tconstruct:materials:16>
 ] as IItemStack[];
 
 for item in removeItems {

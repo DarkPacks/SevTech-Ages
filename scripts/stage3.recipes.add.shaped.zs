@@ -208,7 +208,23 @@ var shapedRecipes = {
 			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
 		]
 	],
-
+	 <tconstruct:materials:16> : [
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		],
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		],
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:green_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		]
+	],
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
 		[

@@ -28,8 +28,14 @@ var parts = [
 	<tconstruct:tough_binding>,
 	<tconstruct:tough_tool_rod>,
 	<tconstruct:wide_guard>,
-	<tconstruct:kama>,
-	<tcomplement:chisel>
+	<tconstruct:kama_head>,
+	<tcomplement:chisel_head>,
+	<yoyos:yoyo_body>,
+	<yoyos:yoyo_cord>,
+	<yoyos:yoyo_axle>,
+	<tconstruct:fletching>,
+	<tconstruct:arrow_shaft>,
+	<tconstruct:bow_string>
 ] as IItemStack[];
 
 //Make sure each stage has a matching stage in the stages array!

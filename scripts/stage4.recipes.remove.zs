@@ -100,7 +100,9 @@ var removeItems = [
 	<industrialforegoing:black_hole_controller>,
 	<industrialforegoing:range_addon:9>,
 	<industrialforegoing:range_addon:10>,
-	<industrialforegoing:range_addon:11>
+	<industrialforegoing:range_addon:11>,
+	<pneumaticcraft:pressure_chamber_glass>,
+	<pneumaticcraft:pressure_chamber_wall>
 
 ] as IItemStack[];
 

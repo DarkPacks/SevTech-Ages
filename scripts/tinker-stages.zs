@@ -16,8 +16,6 @@ mods.TinkerStages.addGeneralModifierStage(STAGES.three);
 
 
 //SPECIFIC RESTRICTIONS
-//Prevents crafting pickaxes unless the stage is unlocked.
-mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:chisel");
 mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:kama");
 mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:pickaxe");
 mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:shovel");
@@ -40,6 +38,9 @@ mods.TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:frypan");
 mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:cleaver");
 mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:longbow");
 mods.TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:shuriken");
+
+mods.TinkerStages.addToolTypeStage(STAGES.three, "yoyos:yoyo");
+mods.TinkerStages.addToolTypeStage(STAGES.three, "tcomplement:chisel");
 
 //Prevents the material from being used.
 mods.TinkerStages.addMaterialStage(STAGES.one, "bone");

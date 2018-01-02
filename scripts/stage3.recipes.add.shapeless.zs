@@ -39,6 +39,11 @@ var shapelessRecipes = {
 		[<immersiveengineering:tool:1>, metals.steel.plate]
 	],
 
+	//Tinkers' Construct
+	<tconstruct:materials:16> * 9 : [
+		[<tconstruct:metal:6>]
+	],
+
 	//Nether new Recipes
 	<primal:nether_cordage> : [
 		[<primal:nether_fiber>, <primal:nether_fiber>, <primal:nether_fiber>]

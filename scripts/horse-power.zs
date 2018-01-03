@@ -141,7 +141,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 	<natura:overworld_planks:8> * 4 : [
 		<natura:redwood_logs:1>
 	],
-	<natura:overworld_planks> * 4, : [
+	<natura:overworld_planks> * 4 : [
 		<natura:overworld_logs>
 	],
 	<primal:planks:0> * 4 : [

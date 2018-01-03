@@ -112,6 +112,7 @@ var removeAndHideItems = [
 	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:cow_jar>
 
+	<actuallyadditions:item_misc:4>,
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

@@ -4,7 +4,7 @@ setTitle("Upgrade Your Prospects")
 
 setDescription("Craft Tough Dowsing Rod to help locate a larger variety of ores")
 
-setParent("triumph:stage2/root")
+setParent("triumph:stage2/glass")
 setRequiresParent(true)
 
 criteria = addCriteria("crafted", "triumph:player_crafted_item")

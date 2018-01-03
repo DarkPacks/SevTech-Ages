@@ -90,9 +90,6 @@ var removeAndHideItems = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<stevescarts:modulecomponents:9>,
-	<cultivatedtech:blockecoflamer1>,
-	<cultivatedtech:blockecoflamer2>,
-	<cultivatedtech:blockecoflamer3>,
 
 	//Nuggets
 	<betterwithmods:material:46>,
@@ -112,7 +109,9 @@ var removeAndHideItems = [
 	<buildcraftcore:spring>,
 
 	//Cooking for Blockheads
-	<cookingforblockheads:milk_jar>
+	<cookingforblockheads:milk_jar>,
+	<cookingforblockheads:cow_jar>
+
 
 	//<actuallyadditions:block_miner>,
 	//<adchimneys:bedrock>,

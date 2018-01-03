@@ -8,4 +8,3 @@ vanilla.seeds.removeSeed(<minecraft:melon_seeds>);
 vanilla.seeds.removeSeed(<minecraft:beetroot_seeds>);
 vanilla.seeds.removeSeed(<minecraft:stick>);
 vanilla.seeds.removeSeed(<betterwithmods:hemp>);
-vanilla.seeds.removeSeed(<cultivatedtech:itemseedhemp>);

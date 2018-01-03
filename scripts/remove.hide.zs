@@ -217,9 +217,6 @@ var hideItems = [
 	<buildcraftcore:volume_box>,
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
-	<cultivatedtech:blockindustrialsoil1>,
-	<cultivatedtech:blockindustrialsoil2>,
-	<cultivatedtech:blockindustrialsoil3>
 
 ] as IItemStack[];
 

@@ -834,11 +834,6 @@ var stage3Items = [
 	<buildcrafttransport:waterproof>,
 	<ironchest:iron_chest:6>,
 
-	//Cultivated Tech
-	<cultivatedtech:blocksoil>,
-	<cultivatedtech:blockindustrialdirt>,
-	<cultivatedtech:blocksprinkler2>,
-
 	<industrialforegoing:plastic>
 
 ] as IItemStack[];

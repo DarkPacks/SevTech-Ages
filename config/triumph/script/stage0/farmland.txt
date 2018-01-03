@@ -2,7 +2,7 @@ setIcon("minecraft:farmland")
 
 setTitle("Teach A Man To Farm")
 
-setDescription("Learn the basics of farming from a smart villager")
+setDescription("Learn the basics of farming from a Farmer Villager trade")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)

@@ -1,0 +1,13 @@
+setIcon("cookingforblockheads:recipe_book", 1)
+
+setTitle("Modern Style Kitchen")
+
+setDescription("Cooking Food in a furnace is a bit cumbersome, install a new kitchen into your base. Start off with the Cooking for Blockheads I book")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:recipe_book", 1)
+
+setRewardExperience(8)

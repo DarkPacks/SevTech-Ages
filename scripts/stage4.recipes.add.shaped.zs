@@ -39,6 +39,30 @@ var shapedRecipes = {
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]
 	],
+
+	//Extended Crafting
+	<extendedcrafting:table_elite> : [
+		[
+			[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>],
+			[metals.manyullyn.block, <extendedcrafting:table_advanced>, metals.manyullyn.block],
+			[<extendedcrafting:material:16>, <quark:biotite>, <extendedcrafting:material:16>]
+		]
+	],
+	<extendedcrafting:material:16> : [
+		[
+			[<extendedcrafting:material:2>, <extendedcrafting:material:7>, null],
+			[metals.manyullyn.ingot, metals.manyullyn.ingot, null],
+			[null, null, null]
+		]
+	],
+	<extendedcrafting:material:10> : [
+		[
+			[null, <extendedcrafting:material:16>, null],
+			[<extendedcrafting:material:16>, <extendedcrafting:material>, <extendedcrafting:material:16>],
+			[null, <extendedcrafting:material:16>, null]
+		]
+	],
+
 	<minecraft:ender_chest> : [
 		[
 			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],

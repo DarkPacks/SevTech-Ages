@@ -1,0 +1,13 @@
+setIcon("minecraft:wool")
+
+setTitle("Wooly Blankets")
+
+setDescription("You've discovered that combining String and Fleece produces a very useful resource, wool!")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:wool")
+
+setRewardExperience(8)

@@ -2,7 +2,7 @@ setIcon("tconstruct:ore", 1)
 
 setTitle("Ardite Ore")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Locate and mine Ardite Ore in the Nether using a Cobalt Level pickaxe")
 
 setParent("triumph:stage4/prospector4")
 setRequiresParent(true)

@@ -61,7 +61,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<primal:logs_stripped:3>
 	],
 	<minecraft:planks:4> * 4 : [
-		<minecraft:log2:0>,
+		<minecraft:log2>,
 		<primal:logs_stripped:4>
 	],
 	<minecraft:planks:5> * 4 : [
@@ -69,7 +69,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<primal:logs_stripped:5>
 	],
 	<minecraft:planks> * 4 : [
-		<minecraft:log:0>,
+		<minecraft:log>,
 		<primal:logs_stripped>,
 		<twilightforest:twilight_log>
 	],
@@ -78,12 +78,12 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<abyssalcraft:dreadplanks>,
 		<betterwithaddons:planks_mulberry>,
 		<betterwithaddons:planks_sakura>,
-		<minecraft:planks:0>,
 		<minecraft:planks:1>,
 		<minecraft:planks:2>,
 		<minecraft:planks:3>,
 		<minecraft:planks:4>,
 		<minecraft:planks:5>,
+		<minecraft:planks>,
 		<natura:nether_planks:1>,
 		<natura:nether_planks:2>,
 		<natura:nether_planks:3>,
@@ -96,9 +96,9 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<natura:overworld_planks:7>,
 		<natura:overworld_planks:8>,
 		<natura:overworld_planks>,
-		<primal:planks:0>,
 		<primal:planks:1>,
 		<primal:planks:3>,
+		<primal:planks>,
 		<totemic:cedar_plank>,
 		<traverse:fir_planks>
 	],
@@ -144,7 +144,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 	<natura:overworld_planks> * 4 : [
 		<natura:overworld_logs>
 	],
-	<primal:planks:0> * 4 : [
+	<primal:planks> * 4 : [
 		<primal:logs>,
 		<primal:logs_stripped:6>
 	],
@@ -283,7 +283,7 @@ addGrindstoneRecipe(<minecraft:dye:13>, <minecraft:red_flower:2>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:14>, <minecraft:red_flower:5>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 24, false);
 addGrindstoneRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 24, false);
-addGrindstoneRecipe(<minecraft:sand:0> * 2, <minecraft:sandstone:0>, 12, false);
+addGrindstoneRecipe(<minecraft:sand> * 2, <minecraft:sandstone>, 12, false);
 addGrindstoneRecipe(<minecraft:sugar> * 1, <minecraft:reeds>, 12, false);
 addGrindstoneRecipe(<natura:materials:1>, <natura:materials>, 12, false);
 addGrindstoneRecipe(<pickletweaks:coal_piece:1> * 8, <minecraft:coal:1>, 16, false);

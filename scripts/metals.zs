@@ -78,13 +78,6 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 		recipes.remove(preferredMetalItem);
 		furnace.remove(preferredMetalItem);
 
-		if (hasLiquid) {
-			if (loadedMods.contains("embers")) {
-				//Remove melter recipes completely
-				mods.embers.Melter.remove(metalLiquid);
-			}
-		}
-
 		/*
 			Stage Metal Item
 		*/
@@ -266,7 +259,6 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 			if (hasLiquid) {
 				if (loadedMods.contains("embers")) {
 					mods.embers.Stamper.remove(metalItem);
-					mods.embers.Melter.remove(metalLiquid);
 				}
 
 				if (loadedMods.contains("tconstruct")) {

@@ -25,6 +25,7 @@ var removeAndHideItems = [
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
+	<embers:block_furnace>,
 	<immcraft:furnace>,
 	<minecraft:wooden_sword>,
 	<minecraft:wooden_shovel>,

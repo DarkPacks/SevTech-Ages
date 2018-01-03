@@ -59,7 +59,6 @@ var hideItems = [
 	<cyclicmagic:storage_bag>,
 	<cyclicmagic:uncrafting_block>,
 	<darkutils:sneaky_bedrock>,
-	<embers:block_furnace>,
 	<embers:ore_aluminum>,
 	<embers:ore_copper>,
 	<embers:ore_lead>,

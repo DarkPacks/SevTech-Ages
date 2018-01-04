@@ -2,7 +2,7 @@ function createRecipeName(machineName as string, recipeName as string) as string
 	return machineName + "_" + recipeName;
 }
 
-var machineName = "hardener";
+var machineName = "plastic_molder";
 
 mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "plastic_sheets"), machineName, 200)
 	.addEnergyPerTickInput(10)

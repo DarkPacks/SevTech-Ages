@@ -1,6 +1,6 @@
 {
-  "registryname": "propene",
-  "localizedname": "Chemical Mixer",
+  "registryname": "plastic_molder",
+  "localizedname": "Plastic Molder",
   "color": "4c4c4c",
   "parts": [
     {
@@ -12,22 +12,6 @@
       ]
     },
     {
-      "x": 1,
-      "y": 1,
-      "z": 0,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": 2,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
       "x": -1,
       "y": 0,
       "z": 1,
@@ -40,22 +24,6 @@
       "y": 0,
       "z": 0,
       "elements": [
-        "modularmachinery:blockfluidinputhatch"
-      ]
-    },
-    {
-      "x": 1,
-      "y": 1,
-      "z": 1,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": 0,
-      "y": 1,
-      "z": 2,
-      "elements": [
         "modularmachinery:blockcasing@0"
       ]
     },
@@ -77,16 +45,8 @@
     },
     {
       "x": 0,
-      "y": -1,
+      "y": 0,
       "z": 1,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": 1,
-      "y": 1,
-      "z": 2,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]
@@ -112,7 +72,15 @@
       "y": 0,
       "z": 1,
       "elements": [
-        "modularmachinery:blockfluidoutputhatch"
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
       ]
     },
     {
@@ -165,32 +133,8 @@
     },
     {
       "x": -1,
-      "y": 1,
-      "z": 0,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": -1,
       "y": -1,
       "z": 0,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": 0,
-      "y": 1,
-      "z": 0,
-      "elements": [
-        "modularmachinery:blockcasing@0"
-      ]
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": 1,
       "elements": [
         "modularmachinery:blockcasing@0"
       ]

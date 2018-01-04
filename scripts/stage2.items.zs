@@ -630,6 +630,10 @@ var stage2Items = [
 	<tconstruct:tooltables:2>,
 	<tconstruct:tooltables:4>,
 	<tconstruct:slimesling>,
+	<tconstruct:soil:1>,
+	<tconstruct:materials:9>,
+
+
 
 	//Dark Utils
 	<darkutils:charm_null>,

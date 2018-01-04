@@ -43,6 +43,10 @@ var shapelessRecipes = {
 	<twilightforest:magic_map_focus> : [
 		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]
 	],
+	//Re-add recipe for fiery since removed in metals script
+	metals.fiery.ingot.firstItem : [
+		[<ore:bottleFiery>, metals.iron.ingot]
+	],
 
 	//Upper to hopper and reversed
 	<uppers:upper> : [

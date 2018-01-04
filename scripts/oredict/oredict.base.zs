@@ -218,3 +218,7 @@ for shearType, shears in shearTypesAndItems {
 <ore:listAllmeatcooked>.add(<thebetweenlands:angler_meat_cooked>);
 <ore:listAllmeatcooked>.add(<nex:food_meat_ghast_cooked>);
 <ore:listAllmeatcooked>.add(<natura:edibles:1>);
+
+//Fiery bottles
+<ore:bottleFiery>.add(<twilightforest:fiery_blood>);
+<ore:bottleFiery>.add(<twilightforest:fiery_tears>);

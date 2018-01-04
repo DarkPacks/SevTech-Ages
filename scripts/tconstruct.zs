@@ -34,7 +34,8 @@ var castCreationRecipes = [
 	[<tcomplement:cast>, <ceramics:clay_bucket_block>],
 	[<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>], //Gem cast with Astral Sorcery Aquamarine
 	//Gear Cast Allows Stone now. You're welcome. -________________- Oh, it's also made from stone so all the people don't get upset with me and call me names or tell me I don't know rocket surgery.
-	[<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>]
+	[<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>],
+	[<tconstruct:cast_custom:1>, <materialpart:stone:nugget>]
 ] as IItemStack[][];
 
 var castLiquids = [

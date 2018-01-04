@@ -77,7 +77,8 @@ for output, inputs in defaultKilnCookTimeRecipes {
 */
 var stoneAnvilPair = [
 	[<embers:plate_caminite>, <embers:brick_caminite>],
-	[<minecraft:flint> * 4, <primal_tech:flint_block>]
+	[<minecraft:flint> * 4, <primal_tech:flint_block>],
+	[<materialpart:stone:nugget>, <minecraft:stone>]
 ] as IItemStack[][];
 
 for pair in stoneAnvilPair {

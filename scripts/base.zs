@@ -22,6 +22,9 @@ for i, metal in metal_list {
 /*
 	Misc Part Registration
 */
+//Stone Nugget
+var stone = MaterialSystem.getMaterialBuilder().setName("Stone").setColor(11117475).build();
+stone.registerPart("nugget");
 
 //Aquamarine Ore
 var aquamarine = MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build();

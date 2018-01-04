@@ -15,7 +15,6 @@ var hideItems = [
 	<actuallyadditions:iron_paxel>,
 	<actuallyadditions:item_dust:1>,
 	<actuallyadditions:item_jam:*>, //No
-	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_water_bowl>,
 	<actuallyadditions:stone_paxel>,
 	<actuallyadditions:wooden_paxel>,

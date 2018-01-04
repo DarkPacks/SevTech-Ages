@@ -1,19 +1,13 @@
-//Set icon item
 setIcon("beneath:teleporterbeneath")
 
-//Set title String
 setTitle("The Beneath")
 
-//Set description String
 setDescription("Enter the Beneath Dimension")
 
-//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 setParent("triumph:stage1/statue")
 setRequiresParent(true)
 
-//Adds criteria named "entered_nether" with the trigger type "minecraft:changed_dimension". This function returns the criteria as an object
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 
-//Sets the required destination dimension type for the criteria. Overworld is "overworld", Nether is "the_nether", End is "the_end".
 criteria.setDimensionDestination("The Beneath")
 setRewardExperience(4)

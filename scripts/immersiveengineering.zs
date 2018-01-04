@@ -61,3 +61,9 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulec
 
 //Dawnstone
 ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.firstItem, slag, 400, 512, [metals.gold.ingot.firstItem]);
+
+//Mixer
+//mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);

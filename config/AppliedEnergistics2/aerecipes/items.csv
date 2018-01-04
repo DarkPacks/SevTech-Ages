@@ -3610,38 +3610,38 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Body Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Body Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Axle Pattern
+tconstruct:pattern:0, Scythe Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
 tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Cord Pattern
-tconstruct:pattern:0, Axle Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -4973,70 +4973,70 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Body Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Body Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Axle Cast
+tconstruct:cast:0, Scythe Head Cast
 tconstruct:cast:0, Sword Blade Cast
 tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Cord Cast
-tconstruct:cast:0, Axle Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Tough Binding Cast
 tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Chisel Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Body Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Body Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Axle Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Cord Clay Cast
-tconstruct:clay_cast:0, Axle Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
 tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -5442,7 +5442,7 @@ natura:materials:1, Barley Flour
 natura:materials:2, Wheat Flour
 natura:materials:3, Cotton
 natura:materials:4, Sulfur
-natura:materials:5, Ghostwood Fletching
+natura:materials:5, Baykok's Rib
 natura:materials:6, Imp Leather
 natura:materials:7, Flamestring
 natura:materials:8, Blue Dye
@@ -9051,9 +9051,9 @@ appliedenergistics2:facade:0, Cable Facade - Block of Carminite
 appliedenergistics2:facade:0, Cable Facade - Spiral Stone Bricks [WIP]
 appliedenergistics2:facade:0, Cable Facade - Flint Block
 appliedenergistics2:facade:0, Cable Facade - Low Grade Charcoal
-appliedenergistics2:facade:0, Cable Facade - Charcoal Block
 appliedenergistics2:facade:0, Cable Facade - Blank Teleporter
 appliedenergistics2:facade:0, Cable Facade - Machine Frame
+appliedenergistics2:facade:0, Cable Facade - Charcoal Block
 appliedenergistics2:facade:0, Cable Facade - Darkstone Cobblestone
 appliedenergistics2:facade:0, Cable Facade - §9Abyssal Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Dreadstone Cobblestone
@@ -9196,6 +9196,10 @@ appliedenergistics2:facade:0, Cable Facade - Sooty Marble Arch
 appliedenergistics2:facade:0, Cable Facade - Chiseled Sooty Marble
 appliedenergistics2:facade:0, Cable Facade - Engraved Sooty Marble
 appliedenergistics2:facade:0, Cable Facade - Runed Sooty Marble
+appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Biotite
+appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
 appliedenergistics2:facade:0, Cable Facade - Terracotta Shingles
 appliedenergistics2:facade:0, Cable Facade - White Terracotta Shingles
@@ -9211,10 +9215,6 @@ appliedenergistics2:facade:0, Cable Facade - Magma Bricks
 appliedenergistics2:facade:0, Cable Facade - Vertical Oak Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Duskbound Block
 appliedenergistics2:facade:0, Cable Facade - Duskbound Lantern
-appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Biotite
-appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
 appliedenergistics2:facade:0, Cable Facade - tile.decorated.destroy.name
 appliedenergistics2:facade:0, Cable Facade - Blueprint (Decoration)
 appliedenergistics2:facade:0, Cable Facade - Template (Decoration)
@@ -9647,8 +9647,10 @@ appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
 astikoor:cargocart, Cart
-astikoor:plowcart, Plow
 astikoor:wheel, Wheel
+astikoor:plowcart, Plow
+autoverse:configurator, Block Placer Property Configurator
+autoverse:wand, Wand of the Lazy Sequencer
 autoverse:barrel:0, Barrel
 autoverse:barrel:1, Pulsed Barrel
 autoverse:breaker:0, Block Breaker
@@ -9687,8 +9689,6 @@ autoverse:splitter:1, Redstone Controllable Splitter
 autoverse:splitter:2, Sequence Length Splitter
 autoverse:trash:0, Trash Bin
 autoverse:trash:1, Trash Buffer
-autoverse:configurator, Block Placer Property Configurator
-autoverse:wand, Wand of the Lazy Sequencer
 betterwithaddons:banner_detector:0, Banner Detector
 betterwithaddons:world_scale:0, World Scale
 betterwithaddons:world_scale_ore:0, World Scale Ore
@@ -11266,13 +11266,13 @@ modularrouters:augment:4, Redstone Augment
 modularrouters:augment:5, Regulator Augment
 modularrouters:augment:6, Stack Augment
 modularrouters:augment:7, XP Vacuum Augment
+horsepower:flour, Flour
+horsepower:dough, Dough
 horsepower:hand_grindstone, Grindstone
 horsepower:grindstone, Horse Grindstone
 horsepower:chopping_block, Chopping Block
 horsepower:chopper, Horse Chopping Block
 horsepower:press, Horse Press
-horsepower:flour, Flour
-horsepower:dough, Dough
 huntingdim:frame, Hunting Dimension Frame
 huntingdim:portal, Hunting Dimension Portal
 huntingdim:biome_changer:0, Creeping Moss
@@ -11823,11 +11823,11 @@ nex:armor_helmet_hide_salamander, Salamander Hide Helmet
 nex:armor_chestplate_hide_salamander, Salamander Hide Chestplate
 nex:armor_leggings_hide_salamander, Salamander Hide Leggings
 nex:armor_boots_hide_salamander, Salamander Hide Boots
-nuclearphysics:tritium, Tritium
-nuclearphysics:deuterium, Deuterium
-nuclearphysics:uranium_hexafluoride, Uranium Hexafluoride
-nuclearphysics:plasma, Plasma
 nuclearphysics:toxic_waste, Toxic Waste
+nuclearphysics:tritium, Tritium
+nuclearphysics:plasma, Plasma
+nuclearphysics:uranium_hexafluoride, Uranium Hexafluoride
+nuclearphysics:deuterium, Deuterium
 nuclearphysics:control_rod, Control Rod
 nuclearphysics:electric_turbine, Electric Turbine
 nuclearphysics:electromagnet:0, Electromagnet
@@ -12015,6 +12015,10 @@ pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
 pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
 pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
 pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
 pneumaticcraft:pressure_gauge, Pressure Gauge
@@ -12141,10 +12145,6 @@ pneumaticcraft:kerosene_lamp, Kerosene Lamp
 pneumaticcraft:sentry_turret, Sentry Turret
 pneumaticcraft:flux_compressor, Flux Compressor
 pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:safety_tube_module, Safety Tube Module
 pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
 pneumaticcraft:flow_detector_module, Flow Detector Tube Module
@@ -12191,6 +12191,417 @@ traverse:blue_rock_cobblestone_slab:0, Crag Rock Cobblestone Slab
 traverse:blue_rock_cobblestone_wall, Crag Rock Cobblestone Wall
 traverse:dead_grass, Dead Grass
 traverse:cold_grass, Cold Grass
+primal:golden_stick, Golden Rod
+primal:dirt_stick, Dirt Stick
+primal:cauldron_ladle_ironwood, Ironwood Cauldron Ladle
+primal:cauldron_ladle_corypha, Corypha Cauldron Ladle
+primal:cauldron_ladle_lacquer, Lacquer Cauldron Ladle
+primal:muck, Muck
+primal:muck_molten, Molten Muck
+primal:rock_stone, Rock
+primal:rock_andesite, Andesite Rock
+primal:rock_diorite, Diorite Rock
+primal:rock_granite, Granite Rock
+primal:rock_netherrack, Netherrack Rock
+primal:rock_vitrified, Vitrified Rock
+primal:arrow_quartz, Quartz Arrow
+primal:arrow_ironwood, Ironwood Arrow
+primal:arrow_torch_wood, Wooden Torch Arrow
+primal:arrow_torch_nether, Netherrack Torch Arrow
+primal:arrow_torch_redstone, Redstone Torch Arrow
+primal:arrow_water, Water Arrow
+primal:arrow_paraffin, Paraffin Arrow
+primal:bottle_paraffin, Bottle of Paraffin
+primal:fishing_rod_corypha, Corphyry Fishing Rod
+primal:animal_fur, item.animal_fur.name
+primal:pelt_animal, Animal Pelt
+primal:pelt_animal_large, Large Animal Pelt
+primal:pelt_bear_black, Black Bear Pelt
+primal:pelt_bear_brown, Brown Bear Pelt
+primal:pelt_bear_polar, Polar Bear Pelt
+primal:pelt_cow, Cow Pelt
+primal:pelt_dog, White Wolf Pelt
+primal:pelt_pig, Pig Pelt
+primal:pelt_shark, Shark Skin
+primal:pelt_gator, Gator Skin
+primal:pelt_mooshroom, Mooshroon Pelt
+primal:pelt_sheep, Sheep Pelt
+primal:pelt_ovis, Ovis Atre Pelt
+primal:pelt_horse, Horse Pelt
+primal:pelt_donkey, Donkey Pelt
+primal:pelt_mule, Mule Pelt
+primal:pelt_llama, Llama Pelt
+primal:hide_dried, Dried Hide
+primal:hide_raw, Raw Hide
+primal:hide_salted, Salted Hide
+primal:hide_spoiled, Spoiled Hide
+primal:hide_tanned, Wet Tanned Hide
+primal:pigman_hide_dried, Dried Pigman Hide
+primal:pigman_hide_raw, Raw Pigman Hide
+primal:pigman_hide_salted, Salted Pigman Hide
+primal:pigman_hide_spoiled, Spoiled Pigman Hide
+primal:pigman_hide_tanned, Tanned Pigman Hide
+primal:pigman_leather, Pigman Leather
+primal:mortar, Mortar
+primal:leather_strip, Leather Strip
+primal:leather_cordage, Leather Cordage
+primal:leather_boiled, Boiled Leather
+primal:silk_cordage, Silk Cordage
+primal:silk_cordage_coiled, Coil of Silk Cordage
+primal:wood_pin, Wood Pin
+primal:ironwood_stick, Ironwood Stick
+primal:bark_oak, Oak Bark
+primal:bark_spruce, Spruce Bark
+primal:bark_birch, Birch Bark
+primal:bark_jungle, Jungle Bark
+primal:bark_acacia, Acacia Bark
+primal:bark_bigoak, Dark Oak Bark
+primal:bark_ironwood, Ironwood Bark
+primal:bark_yew, Yew Bark
+primal:bark_corypha, Corphyry Plate
+primal:barrel_trap, Barrel Trap Charge
+primal:barrel_oak_lid, Oak Barrel Lid
+primal:barrel_spruce_lid, Spruce Barrel Lid
+primal:barrel_birch_lid, Birch Barrel Lid
+primal:barrel_jungle_lid, Jungle Barrel Lid
+primal:barrel_acacia_lid, Acacia Barrel Lid
+primal:barrel_dark_oak_lid, Dark Oak Barrel Lid
+primal:barrel_ironwood_lid, Ironwood Barrel Lid
+primal:barrel_yew_lid, Yew Barrel Lid
+primal:barrel_corypha_lid, Corphyry Barrel Lid
+primal:barrel_lacquer_lid, Lacquer Barrel Lid
+primal:logs_split_oak, Split Oak Log
+primal:logs_split_spruce, Split Spruce Log
+primal:logs_split_birch, Split Birch Log
+primal:logs_split_jungle, Split Jungle Log
+primal:logs_split_acacia, Split Acacia Log
+primal:logs_split_bigoak, Split Dark Oak Log
+primal:logs_split_ironwood, Split Ironwood Log
+primal:logs_split_yew, Split Yew Log
+primal:logs_split_corypha, Split Corphyry Segment
+primal:lacquer_stick, Lacquer Stick
+primal:boat_corypha, Corphyry Boat
+primal:shark_fin, Shark Fin
+primal:shark_tooth, Shark Tooth
+primal:urushi_ground, Ground Urushi
+primal:tannin_ground, Ground Resin
+primal:chunk_netherrack, Chunk of Netherrack
+primal:chunk_soulsand, Chunk of Soulsand
+primal:bone_knapp, Flaked Bone
+primal:bone_point, Flaked Bone Point
+primal:flint_knapp, Flaked Flint
+primal:flint_point, Flaked Flint Point
+primal:quartz_knapp, Flaked Quartz
+primal:quartz_point, Flaked Quartz Point
+primal:obsidian_shard, Obsidian Shard
+primal:obsidian_knapp, Flaked Obsidian
+primal:obsidian_point, Flaked Obsidian Point
+primal:obsidian_lens, Obsidian Lens
+primal:opal, Blood Opal
+primal:opal_knapp, Flaked Blood Opal
+primal:opal_point, Flaked Blood Opal Point
+primal:diamond_knapp, Flaked Diamond
+primal:diamond_point, Flaked Diamond Point
+primal:emerald_knapp, Flaked Emerald
+primal:emerald_point, Flaked Emerald Point
+primal:iron_strand, Iron Strand
+primal:iron_pin, Iron Pin
+primal:iron_ring, Iron Ring
+primal:iron_mesh, Iron Mesh
+primal:iron_plate, Iron Plate
+primal:gold_plate, Gold Plate
+primal:pigiron_plate, Pig Iron Plate
+primal:lead_plate, Lead Plate
+primal:silver_plate, Silver Plate
+primal:zinc_plate, Zinc Plate
+primal:tin_plate, Tin Plate
+primal:copper_plate, Copper Plate
+primal:copper_strand, Copper Strand
+primal:brass_plate, Brass Plate
+primal:bronze_plate, Bronze Plate
+primal:wootz_plate, Wootz Plate
+primal:vanadium_plate, Vanadium Plate
+primal:steel_plate, Steel Plate
+primal:tamahagane_plate, Tamahagane Plate
+primal:carbon_plate, Carbon Plate
+primal:obsidian_plate, Obsidian Plate
+primal:nether_fiber, Cineris Fiber
+primal:nether_fiber_pulp, Cineris Fiber Pulp
+primal:nether_cordage, Cineris Twine
+primal:nether_cloth, Cineris Cloth
+primal:nether_papyrus, Cineris Papyrus
+primal:nether_tinder, Cineris Tinder Bundle
+primal:corypha_stick, Corphyry Stick
+primal:corypha_pin, Corphyry Pin
+primal:wolf_head_item, Wolf Head
+primal:pelt_wolf, Wolf Pelt
+primal:ash_wolf, Wolf Ash
+primal:bear_fat, Bear Fat
+primal:lard, Lard
+primal:suet, Suet
+primal:salo, Salo
+primal:chum, Chum
+primal:rot, Rot
+primal:fish_cod_rotten, Rotten Cod
+primal:fish_salmon_rotten, Rotten Salmon
+primal:fish_clown_rotten, Rotten Clownfish
+primal:fish_puffer_rotten, Rotten Pufferfish
+primal:fish_cod_dried, Dried Cod
+primal:fish_salmon_dried, Dried Salmon
+primal:fish_clown_dried, Dried Clownfish
+primal:fish_puffer_dried, Dried Pufferfish
+primal:fish_cod_salted, Salted Cod
+primal:fish_salmon_salted, Salted Salmon
+primal:fish_clown_salted, Salted Clownfish
+primal:fish_puffer_salted, Salted Pufferfish
+primal:fish_cod_cured, Cured Cod
+primal:fish_salmon_cured, Cured Salmon
+primal:fish_clown_cured, Cured Clownfish
+primal:fish_puffer_cured, Cured Pufferfish
+primal:fish_lava_worm_raw, Raw Lava Worm
+primal:fish_lava_worm_rotten, Rotten Lava Worm
+primal:fish_lava_worm_salted, Salted Lava Worm
+primal:fish_lava_worm_dried, Dried Lava Worm
+primal:fish_lava_worm_cured, Cured Lava Worm
+primal:fish_lava_crawdad_raw, Raw Magma Crawdad
+primal:fish_lava_crawdad_rotten, Rotten Magma Crawdad
+primal:fish_lava_crawdad_salted, Salted Magma Crawdad
+primal:fish_lava_crawdad_dried, Dried Magma Crawdad
+primal:fish_lava_crawdad_cured, Cured Magma Crawdad
+primal:shark_meat_raw, Raw Shark Meat
+primal:gator_meat_raw, Gator Meat Raw
+primal:horse_meat_raw, Raw Horse Meat
+primal:wolf_meat_raw, Raw Wolf Meat
+primal:ovis_meat_raw, Raw Atre Mutton
+primal:pigman_meat_raw, Raw Pigman Meat
+primal:bear_meat_raw, Raw Bear Meat
+primal:llama_meat_raw, Raw Llama Meat
+primal:bat_meat_raw, Raw Bat Meat
+primal:shark_meat_rotten, Rotten Shark Meat
+primal:gator_meat_rotten, Gator Meat Rotten
+primal:horse_meat_rotten, Rotten Horse Meat
+primal:wolf_meat_rotten, Rotten Wolf Meat
+primal:ovis_meat_rotten, Rotten Atre Mutton
+primal:pigman_meat_rotten, Rotten Pigman Meat
+primal:bear_meat_rotten, Rotten Bear Meat
+primal:llama_meat_rotten, Rotten Llama Meat
+primal:bat_meat_rotten, Rotten Bat Meat
+primal:shark_meat_salted, Saled Shark Meat
+primal:gator_meat_salted, Gator Meat Salted
+primal:pigman_meat_salted, Salted Pigman Meat
+primal:bear_meat_salted, Salted Bear Meat
+primal:llama_meat_salted, Salted Llama Meat
+primal:shark_meat_dried, Dried Shark Meat
+primal:horse_meat_dried, Dried Horse Meat
+primal:wolf_meat_dried, Dried Wolf Meat
+primal:ovis_meat_dried, Dried Atre Mutton
+primal:pigman_meat_dried, Dried Pigman Meat
+primal:bear_meat_dried, Dried Bear Meat
+primal:bat_meat_dried, Dried Bat Meat
+primal:shark_meat_cured, Cured Shark Meat
+primal:gator_meat_cured, Gator Meat Cured
+primal:pigman_meat_cured, Cured Pigman Meat
+primal:llama_meat_charqui, Charqui
+primal:horse_meat_cooked, Cooked Horse Meat
+primal:wolf_meat_cooked, Cooked Wolf Meat
+primal:ovis_meat_cooked, Cooked Atre Mutton
+primal:shark_meat_cooked, Cooked Shark Meat
+primal:gator_meat_cooked, Gator Meat Cooked
+primal:pigman_meat_cooked, Cooked Pigman Meat
+primal:bear_meat_cooked, Cooked Bear Meat
+primal:llama_meat_cooked, Cooked Llama Meat
+primal:bat_meat_cooked, Cooked Bat Meat
+primal:cheese_white, Cow Cheese
+primal:cheese_red, Ovis Atre Cheese
+primal:corn_cob, Corn Cob
+primal:corn_cob_cooked, Cooked Corn Cob
+primal:corn_bread, Corn Bread
+primal:corn_ground, Ground Corn
+primal:wheat_ground, Ground Wheat
+primal:daucus_murn_root, Daucus Murn Root
+primal:daucus_murn_root_cooked, Cooked Daucus Murn Root
+primal:valus_melon, Valus Melon
+primal:valus_bread, Valus Bread
+primal:pumpkin_piece, Pumpkin Piece
+primal:mushroom_cooked, Cooked Mushroom
+primal:nether_wart_cooked, Cooked Nether Wart
+primal:sinuous_resin, Sinuous Resin
+primal:potato_rotten, Molding Potato
+primal:salt_dust_netjry, Netjry Salt
+primal:salt_dust_rock, Halite Rock Salt
+primal:salt_dust_fire, Fire Salt
+primal:salt_dust_void, Void Salt
+primal:tannin_bottle, Bottle of Tannin
+primal:urushi_bottle, Bottle of Urushi
+primal:ovis_milk_bottle, Bottle of Ovis Atre Milk
+primal:corn_seeds, Corn Seeds
+primal:rush_seeds, Rush Seeds
+primal:dry_grass_root, Uprooted Sesleria Furvum
+primal:dry_grass_seed, Sesleria Furvum Seed
+primal:nether_root, Uprooted Equisetum Cineris
+primal:nether_seed, Equisetum Cineris Spore
+primal:searing_ember, Searing Ember
+primal:daucus_murn_seeds, Daucus Murn Seeds
+primal:valus_seed, Valus Seed
+primal:corypha_seed, Corphyry Larva
+primal:void_grass_root, Uprooted Equisetum Inanis
+primal:void_seed, Equisetum Inanis Spore
+primal:sinuous_spores, Sinuous Spore
+primal:devils_tongue_tendril, Devils' Tongue Tendril
+primal:aconite_root, Aconite Root
+primal:tall_grass_seeds, Tall Grass Seeds
+primal:plant_fiber, Plant Fiber
+primal:plant_fiber_pulp, Pulp
+primal:plant_cordage, Plant Twine
+primal:plant_cloth, Plant Cloth
+primal:plant_tinder, Tinder Bundle
+primal:plant_papyrus, Plant Papyrus
+primal:daucus_murn_fronds, Daucus Murn Fronds
+primal:daucus_murn_fronds_withered, Withered Daucus Murn Fronds
+primal:valus_fiber, Valus Fiber
+primal:valus_sepals, item.valus_sepals.name
+primal:valus_stalk_fresh, Fresh Valus Stalk
+primal:valus_stalk_withered, Withered Valus Stalk
+primal:void_fiber, Inanis Fiber
+primal:void_cordage, Inanis Cordage
+primal:sinuous_fiber, Sinuous Fiber
+primal:sinuous_cordage, Sinuous Cordage
+primal:rush_stems, Rush Stems
+primal:rush_tips, Rush Tips
+primal:rush_tips_bloom, Blooming Rush Tips
+primal:thatching_wet, Fresh Thatching
+primal:thatching_dry, Dry Thatching
+primal:thatching_nether, Cineris Thatching
+primal:corn_stalk_wet, Fresh Corn Stalk
+primal:corn_stalk_dry, Dry Corn Stalk
+primal:aconite_sprig, Aconite Sprig
+primal:aconite_petal, Aconite Petals
+primal:devils_tongue_sepals, Devils' Tongue Sepals
+primal:bitumin_clump, Bituminous Clump
+primal:cauldron_slag, Cauldron Slag
+primal:earthwax_clump, Earthwax Clump
+primal:netherwax_clump, Calcified Paraffin Clump
+primal:mud_clump, Mud Clump
+primal:charcoal_fair, Fair Grade Charcoal
+primal:charcoal_good, Good Grade Charcoal
+primal:charcoal_high, High Grade Charcoal
+primal:charcoal_pure, Pure Carbon
+primal:cinisclay_clump, Cinis Clay Clump
+primal:ciniscotta_brick, Ciniscotta Brick
+primal:terraclay_clump, Terra Clay Clump
+primal:terracotta_brick, Terracotta Brick
+primal:adobebrick_mix, Adobe Brick Mix
+primal:adobebrick_dry, Dry Adobe Brick
+primal:adobebrick_wet, Wet Adobe Brick
+primal:carbonate_slack, Limestone Slack
+primal:ferro_slack, Ferrous Lime Slack
+primal:gold_dust, Gold Dust
+primal:iron_dust, Iron Dust
+primal:brass_dust, Brass Dust
+primal:brass_ingot, Brass Ingot
+primal:brass_nugget, Brass Nugget
+primal:bronze_dust, Bronze Dust
+primal:bronze_ingot, Bronze Ingot
+primal:bronze_nugget, Bronze Nugget
+primal:copper_dust, Copper Dust
+primal:copper_ingot, Copper Ingot
+primal:copper_nugget, Copper Nugget
+primal:lead_dust, Lead Dust
+primal:lead_ingot, Lead Ingot
+primal:lead_nugget, Lead Nugget
+primal:pigiron_dust, Pig Iron Dust
+primal:pigiron_ingot, Pig Iron Ingot
+primal:pigiron_nugget, Pig Iron Nugget
+primal:silver_dust, Silver Dust
+primal:silver_ingot, Silver Ingot
+primal:silver_nugget, Silver Nugget
+primal:tin_dust, Tin Dust
+primal:tin_ingot, Tin Ingot
+primal:tin_nugget, Tin Nugget
+primal:vanadium_dust, Vanadium Dust
+primal:vanadium_ingot, Vanadium Ingot
+primal:vanadium_nugget, Vanadium Nugget
+primal:wootz_dust, Wootz Steel Dust
+primal:wootz_ingot, Wootz Steel Ingot
+primal:wootz_nugget, Wootz Steel Nugget
+primal:zinc_dust, Zinc Dust
+primal:zinc_ingot, Zinc Ingot
+primal:zinc_nugget, Zinc Nugget
+primal:steel_ingot, Steel Ingot
+primal:tamahagane_ingot, Tamahagane Ingot
+primal:sharp_bone, Sharp Bone
+primal:flint_pickaxe, Flint Pickaxe
+primal:flint_shovel, Flint Shovel
+primal:flint_hoe, Flint Hoe
+primal:quartz_pickaxe, Quartz Pickaxe
+primal:quartz_shovel, Quartz Shovel
+primal:quartz_hoe, Quartz Hoe
+primal:diamond_pickaxe, Diamond Pickaxe
+primal:diamond_shovel, Diamond Shovel
+primal:diamond_hoe, Diamond Hoe
+primal:emerald_pickaxe, Emerald Pickaxe
+primal:emerald_shovel, Emerald Shovel
+primal:emerald_hoe, Emerald Hoe
+primal:opal_pickaxe, Opal Pickaxe
+primal:opal_shovel, Opal Shovel
+primal:opal_hoe, Opal Hoe
+primal:obsidian_pickaxe, Obsidian Pickaxe
+primal:obsidian_shovel, Obsidian Shovel
+primal:obsidian_hoe, Obsidian Hoe
+primal:ironwood_bow, Ironwood Bow
+primal:corypha_bow, Corphyry Bow
+primal:flint_hatchet, Flint Hatchet
+primal:quartz_hatchet, Quartz Hatchet
+primal:obsidian_hatchet, Obsidian Hatchet
+primal:opal_hatchet, Opal Hatchet
+primal:emerald_hatchet, Emerald Hatchet
+primal:diamond_hatchet, Diamond Hatchet
+primal:flint_axe, Flint Axe
+primal:quartz_axe, Quartz Axe
+primal:obsidian_axe, Obsidian Axe
+primal:opal_axe, Opal Axe
+primal:emerald_axe, Emerald Axe
+primal:diamond_axe, Diamond Axe
+primal:flint_shears, Flint Shears
+primal:quartz_shears, Quartz Shears
+primal:flint_workblade, Flint Work Blade
+primal:quartz_workblade, Quartz Work Blade
+primal:iron_workblade, Iron Work Blade
+primal:emerald_workblade, Emerald Work Blade
+primal:diamond_workblade, Diamond Work Blade
+primal:opal_workblade, Blood Opal Work Blade
+primal:obsidian_workblade, Obsidian Work Blade
+primal:stone_gallagher, Stone Gallagher
+primal:nether_gallagher, Nether Stone Gallagher
+primal:quartz_gallagher, Quartz Gallagher
+primal:iron_gallagher, Iron Gallagher
+primal:flint_saw, Flint Hand Saw
+primal:iron_saw, Iron Hand Saw
+primal:quartz_saw, Quartz Hand Saw
+primal:copper_saw, Copper Hand Saw
+primal:diamond_saw, Diamond Hand Saw
+primal:emerald_saw, Emerald Hand Saw
+primal:quartz_clippers, Quartz Clippers
+primal:iron_clippers, Iron Clippers
+primal:armor_obsidian_goggles, Obsidian Goggles
+primal:armor_obsidian_head, Obsidian Helm
+primal:armor_obsidian_body, Obsidian Chest
+primal:armor_obsidian_legs, Obsidian Leggings
+primal:armor_obsidian_feet, Obsidian Boots
+primal:armor_wolf_head, Wolf Hood
+primal:armor_wolf_body, Wolf Chest
+primal:armor_wolf_legs, Wolf Leggings
+primal:armor_wolf_feet, Wolf Boots
+primal:armor_ovis_head, Ovis Head
+primal:armor_ovis_body, Ovis Chest
+primal:armor_ovis_legs, Ovis Leggings
+primal:armor_ovis_feet, Ovis Boots
+primal:stone_basin, Stone Basin
+primal:fire_bow, Fire Bow
+primal:searing_sprig, Searing Lace Sprig
+primal:cauldron_lid, Iron Cauldron Lid
+primal:torch_wood_lit, Lit Torch
+primal:torch_nether_lit, Lit Netherrack Torch
 primal:firepit, Fire Pit
 primal:brickform, Brick Form
 primal:hibachi, Mud Brick Hibachi
@@ -12663,417 +13074,6 @@ primal:drain_scoria, Scoria Drain
 primal:drain_nether_earth, Nether Earth Drain
 primal:drain_mud, Dried Mud Drain
 primal:drain_schist_green, Green Schist Drain
-primal:golden_stick, Golden Rod
-primal:dirt_stick, Dirt Stick
-primal:cauldron_ladle_ironwood, Ironwood Cauldron Ladle
-primal:cauldron_ladle_corypha, Corypha Cauldron Ladle
-primal:cauldron_ladle_lacquer, Lacquer Cauldron Ladle
-primal:muck, Muck
-primal:muck_molten, Molten Muck
-primal:rock_stone, Rock
-primal:rock_andesite, Andesite Rock
-primal:rock_diorite, Diorite Rock
-primal:rock_granite, Granite Rock
-primal:rock_netherrack, Netherrack Rock
-primal:rock_vitrified, Vitrified Rock
-primal:arrow_quartz, Quartz Arrow
-primal:arrow_ironwood, Ironwood Arrow
-primal:arrow_torch_wood, Wooden Torch Arrow
-primal:arrow_torch_nether, Netherrack Torch Arrow
-primal:arrow_torch_redstone, Redstone Torch Arrow
-primal:arrow_water, Water Arrow
-primal:arrow_paraffin, Paraffin Arrow
-primal:bottle_paraffin, Bottle of Paraffin
-primal:fishing_rod_corypha, Corphyry Fishing Rod
-primal:animal_fur, item.animal_fur.name
-primal:pelt_animal, Animal Pelt
-primal:pelt_animal_large, Large Animal Pelt
-primal:pelt_bear_black, Black Bear Pelt
-primal:pelt_bear_brown, Brown Bear Pelt
-primal:pelt_bear_polar, Polar Bear Pelt
-primal:pelt_cow, Cow Pelt
-primal:pelt_dog, White Wolf Pelt
-primal:pelt_pig, Pig Pelt
-primal:pelt_shark, Shark Skin
-primal:pelt_gator, Gator Skin
-primal:pelt_mooshroom, Mooshroon Pelt
-primal:pelt_sheep, Sheep Pelt
-primal:pelt_ovis, Ovis Atre Pelt
-primal:pelt_horse, Horse Pelt
-primal:pelt_donkey, Donkey Pelt
-primal:pelt_mule, Mule Pelt
-primal:pelt_llama, Llama Pelt
-primal:hide_dried, Dried Hide
-primal:hide_raw, Raw Hide
-primal:hide_salted, Salted Hide
-primal:hide_spoiled, Spoiled Hide
-primal:hide_tanned, Wet Tanned Hide
-primal:pigman_hide_dried, Dried Pigman Hide
-primal:pigman_hide_raw, Raw Pigman Hide
-primal:pigman_hide_salted, Salted Pigman Hide
-primal:pigman_hide_spoiled, Spoiled Pigman Hide
-primal:pigman_hide_tanned, Tanned Pigman Hide
-primal:pigman_leather, Pigman Leather
-primal:mortar, Mortar
-primal:leather_strip, Leather Strip
-primal:leather_cordage, Leather Cordage
-primal:leather_boiled, Boiled Leather
-primal:silk_cordage, Silk Cordage
-primal:silk_cordage_coiled, Coil of Silk Cordage
-primal:wood_pin, Wood Pin
-primal:ironwood_stick, Ironwood Stick
-primal:bark_oak, Oak Bark
-primal:bark_spruce, Spruce Bark
-primal:bark_birch, Birch Bark
-primal:bark_jungle, Jungle Bark
-primal:bark_acacia, Acacia Bark
-primal:bark_bigoak, Dark Oak Bark
-primal:bark_ironwood, Ironwood Bark
-primal:bark_yew, Yew Bark
-primal:bark_corypha, Corphyry Plate
-primal:barrel_trap, Barrel Trap Charge
-primal:barrel_oak_lid, Oak Barrel Lid
-primal:barrel_spruce_lid, Spruce Barrel Lid
-primal:barrel_birch_lid, Birch Barrel Lid
-primal:barrel_jungle_lid, Jungle Barrel Lid
-primal:barrel_acacia_lid, Acacia Barrel Lid
-primal:barrel_dark_oak_lid, Dark Oak Barrel Lid
-primal:barrel_ironwood_lid, Ironwood Barrel Lid
-primal:barrel_yew_lid, Yew Barrel Lid
-primal:barrel_corypha_lid, Corphyry Barrel Lid
-primal:barrel_lacquer_lid, Lacquer Barrel Lid
-primal:logs_split_oak, Split Oak Log
-primal:logs_split_spruce, Split Spruce Log
-primal:logs_split_birch, Split Birch Log
-primal:logs_split_jungle, Split Jungle Log
-primal:logs_split_acacia, Split Acacia Log
-primal:logs_split_bigoak, Split Dark Oak Log
-primal:logs_split_ironwood, Split Ironwood Log
-primal:logs_split_yew, Split Yew Log
-primal:logs_split_corypha, Split Corphyry Segment
-primal:lacquer_stick, Lacquer Stick
-primal:boat_corypha, Corphyry Boat
-primal:shark_fin, Shark Fin
-primal:shark_tooth, Shark Tooth
-primal:urushi_ground, Ground Urushi
-primal:tannin_ground, Ground Resin
-primal:chunk_netherrack, Chunk of Netherrack
-primal:chunk_soulsand, Chunk of Soulsand
-primal:bone_knapp, Flaked Bone
-primal:bone_point, Flaked Bone Point
-primal:flint_knapp, Flaked Flint
-primal:flint_point, Flaked Flint Point
-primal:quartz_knapp, Flaked Quartz
-primal:quartz_point, Flaked Quartz Point
-primal:obsidian_shard, Obsidian Shard
-primal:obsidian_knapp, Flaked Obsidian
-primal:obsidian_point, Flaked Obsidian Point
-primal:obsidian_lens, Obsidian Lens
-primal:opal, Blood Opal
-primal:opal_knapp, Flaked Blood Opal
-primal:opal_point, Flaked Blood Opal Point
-primal:diamond_knapp, Flaked Diamond
-primal:diamond_point, Flaked Diamond Point
-primal:emerald_knapp, Flaked Emerald
-primal:emerald_point, Flaked Emerald Point
-primal:iron_strand, Iron Strand
-primal:iron_pin, Iron Pin
-primal:iron_ring, Iron Ring
-primal:iron_mesh, Iron Mesh
-primal:iron_plate, Iron Plate
-primal:gold_plate, Gold Plate
-primal:pigiron_plate, Pig Iron Plate
-primal:lead_plate, Lead Plate
-primal:silver_plate, Silver Plate
-primal:zinc_plate, Zinc Plate
-primal:tin_plate, Tin Plate
-primal:copper_plate, Copper Plate
-primal:copper_strand, Copper Strand
-primal:brass_plate, Brass Plate
-primal:bronze_plate, Bronze Plate
-primal:wootz_plate, Wootz Plate
-primal:vanadium_plate, Vanadium Plate
-primal:steel_plate, Steel Plate
-primal:tamahagane_plate, Tamahagane Plate
-primal:carbon_plate, Carbon Plate
-primal:obsidian_plate, Obsidian Plate
-primal:nether_fiber, Cineris Fiber
-primal:nether_fiber_pulp, Cineris Fiber Pulp
-primal:nether_cordage, Cineris Twine
-primal:nether_cloth, Cineris Cloth
-primal:nether_papyrus, Cineris Papyrus
-primal:nether_tinder, Cineris Tinder Bundle
-primal:corypha_stick, Corphyry Stick
-primal:corypha_pin, Corphyry Pin
-primal:wolf_head_item, Wolf Head
-primal:pelt_wolf, Wolf Pelt
-primal:ash_wolf, Wolf Ash
-primal:bear_fat, Bear Fat
-primal:lard, Lard
-primal:suet, Suet
-primal:salo, Salo
-primal:chum, Chum
-primal:rot, Rot
-primal:fish_cod_rotten, Rotten Cod
-primal:fish_salmon_rotten, Rotten Salmon
-primal:fish_clown_rotten, Rotten Clownfish
-primal:fish_puffer_rotten, Rotten Pufferfish
-primal:fish_cod_dried, Dried Cod
-primal:fish_salmon_dried, Dried Salmon
-primal:fish_clown_dried, Dried Clownfish
-primal:fish_puffer_dried, Dried Pufferfish
-primal:fish_cod_salted, Salted Cod
-primal:fish_salmon_salted, Salted Salmon
-primal:fish_clown_salted, Salted Clownfish
-primal:fish_puffer_salted, Salted Pufferfish
-primal:fish_cod_cured, Cured Cod
-primal:fish_salmon_cured, Cured Salmon
-primal:fish_clown_cured, Cured Clownfish
-primal:fish_puffer_cured, Cured Pufferfish
-primal:fish_lava_worm_raw, Raw Lava Worm
-primal:fish_lava_worm_rotten, Rotten Lava Worm
-primal:fish_lava_worm_salted, Salted Lava Worm
-primal:fish_lava_worm_dried, Dried Lava Worm
-primal:fish_lava_worm_cured, Cured Lava Worm
-primal:fish_lava_crawdad_raw, Raw Magma Crawdad
-primal:fish_lava_crawdad_rotten, Rotten Magma Crawdad
-primal:fish_lava_crawdad_salted, Salted Magma Crawdad
-primal:fish_lava_crawdad_dried, Dried Magma Crawdad
-primal:fish_lava_crawdad_cured, Cured Magma Crawdad
-primal:shark_meat_raw, Raw Shark Meat
-primal:gator_meat_raw, Gator Meat Raw
-primal:horse_meat_raw, Raw Horse Meat
-primal:wolf_meat_raw, Raw Wolf Meat
-primal:ovis_meat_raw, Raw Atre Mutton
-primal:pigman_meat_raw, Raw Pigman Meat
-primal:bear_meat_raw, Raw Bear Meat
-primal:llama_meat_raw, Raw Llama Meat
-primal:bat_meat_raw, Raw Bat Meat
-primal:shark_meat_rotten, Rotten Shark Meat
-primal:gator_meat_rotten, Gator Meat Rotten
-primal:horse_meat_rotten, Rotten Horse Meat
-primal:wolf_meat_rotten, Rotten Wolf Meat
-primal:ovis_meat_rotten, Rotten Atre Mutton
-primal:pigman_meat_rotten, Rotten Pigman Meat
-primal:bear_meat_rotten, Rotten Bear Meat
-primal:llama_meat_rotten, Rotten Llama Meat
-primal:bat_meat_rotten, Rotten Bat Meat
-primal:shark_meat_salted, Saled Shark Meat
-primal:gator_meat_salted, Gator Meat Salted
-primal:pigman_meat_salted, Salted Pigman Meat
-primal:bear_meat_salted, Salted Bear Meat
-primal:llama_meat_salted, Salted Llama Meat
-primal:shark_meat_dried, Dried Shark Meat
-primal:horse_meat_dried, Dried Horse Meat
-primal:wolf_meat_dried, Dried Wolf Meat
-primal:ovis_meat_dried, Dried Atre Mutton
-primal:pigman_meat_dried, Dried Pigman Meat
-primal:bear_meat_dried, Dried Bear Meat
-primal:bat_meat_dried, Dried Bat Meat
-primal:shark_meat_cured, Cured Shark Meat
-primal:gator_meat_cured, Gator Meat Cured
-primal:pigman_meat_cured, Cured Pigman Meat
-primal:llama_meat_charqui, Charqui
-primal:horse_meat_cooked, Cooked Horse Meat
-primal:wolf_meat_cooked, Cooked Wolf Meat
-primal:ovis_meat_cooked, Cooked Atre Mutton
-primal:shark_meat_cooked, Cooked Shark Meat
-primal:gator_meat_cooked, Gator Meat Cooked
-primal:pigman_meat_cooked, Cooked Pigman Meat
-primal:bear_meat_cooked, Cooked Bear Meat
-primal:llama_meat_cooked, Cooked Llama Meat
-primal:bat_meat_cooked, Cooked Bat Meat
-primal:cheese_white, Cow Cheese
-primal:cheese_red, Ovis Atre Cheese
-primal:corn_cob, Corn Cob
-primal:corn_cob_cooked, Cooked Corn Cob
-primal:corn_bread, Corn Bread
-primal:corn_ground, Ground Corn
-primal:wheat_ground, Ground Wheat
-primal:daucus_murn_root, Daucus Murn Root
-primal:daucus_murn_root_cooked, Cooked Daucus Murn Root
-primal:valus_melon, Valus Melon
-primal:valus_bread, Valus Bread
-primal:pumpkin_piece, Pumpkin Piece
-primal:mushroom_cooked, Cooked Mushroom
-primal:nether_wart_cooked, Cooked Nether Wart
-primal:sinuous_resin, Sinuous Resin
-primal:potato_rotten, Molding Potato
-primal:salt_dust_netjry, Netjry Salt
-primal:salt_dust_rock, Halite Rock Salt
-primal:salt_dust_fire, Fire Salt
-primal:salt_dust_void, Void Salt
-primal:tannin_bottle, Bottle of Tannin
-primal:urushi_bottle, Bottle of Urushi
-primal:ovis_milk_bottle, Bottle of Ovis Atre Milk
-primal:corn_seeds, Corn Seeds
-primal:rush_seeds, Rush Seeds
-primal:dry_grass_root, Uprooted Sesleria Furvum
-primal:dry_grass_seed, Sesleria Furvum Seed
-primal:nether_root, Uprooted Equisetum Cineris
-primal:nether_seed, Equisetum Cineris Spore
-primal:searing_ember, Searing Ember
-primal:daucus_murn_seeds, Daucus Murn Seeds
-primal:valus_seed, Valus Seed
-primal:corypha_seed, Corphyry Larva
-primal:void_grass_root, Uprooted Equisetum Inanis
-primal:void_seed, Equisetum Inanis Spore
-primal:sinuous_spores, Sinuous Spore
-primal:devils_tongue_tendril, Devils' Tongue Tendril
-primal:aconite_root, Aconite Root
-primal:tall_grass_seeds, Tall Grass Seeds
-primal:plant_fiber, Plant Fiber
-primal:plant_fiber_pulp, Pulp
-primal:plant_cordage, Plant Twine
-primal:plant_cloth, Plant Cloth
-primal:plant_tinder, Tinder Bundle
-primal:plant_papyrus, Plant Papyrus
-primal:daucus_murn_fronds, Daucus Murn Fronds
-primal:daucus_murn_fronds_withered, Withered Daucus Murn Fronds
-primal:valus_fiber, Valus Fiber
-primal:valus_sepals, item.valus_sepals.name
-primal:valus_stalk_fresh, Fresh Valus Stalk
-primal:valus_stalk_withered, Withered Valus Stalk
-primal:void_fiber, Inanis Fiber
-primal:void_cordage, Inanis Cordage
-primal:sinuous_fiber, Sinuous Fiber
-primal:sinuous_cordage, Sinuous Cordage
-primal:rush_stems, Rush Stems
-primal:rush_tips, Rush Tips
-primal:rush_tips_bloom, Blooming Rush Tips
-primal:thatching_wet, Fresh Thatching
-primal:thatching_dry, Dry Thatching
-primal:thatching_nether, Cineris Thatching
-primal:corn_stalk_wet, Fresh Corn Stalk
-primal:corn_stalk_dry, Dry Corn Stalk
-primal:aconite_sprig, Aconite Sprig
-primal:aconite_petal, Aconite Petals
-primal:devils_tongue_sepals, Devils' Tongue Sepals
-primal:bitumin_clump, Bituminous Clump
-primal:cauldron_slag, Cauldron Slag
-primal:earthwax_clump, Earthwax Clump
-primal:netherwax_clump, Calcified Paraffin Clump
-primal:mud_clump, Mud Clump
-primal:charcoal_fair, Fair Grade Charcoal
-primal:charcoal_good, Good Grade Charcoal
-primal:charcoal_high, High Grade Charcoal
-primal:charcoal_pure, Pure Carbon
-primal:cinisclay_clump, Cinis Clay Clump
-primal:ciniscotta_brick, Ciniscotta Brick
-primal:terraclay_clump, Terra Clay Clump
-primal:terracotta_brick, Terracotta Brick
-primal:adobebrick_mix, Adobe Brick Mix
-primal:adobebrick_dry, Dry Adobe Brick
-primal:adobebrick_wet, Wet Adobe Brick
-primal:carbonate_slack, Limestone Slack
-primal:ferro_slack, Ferrous Lime Slack
-primal:gold_dust, Gold Dust
-primal:iron_dust, Iron Dust
-primal:brass_dust, Brass Dust
-primal:brass_ingot, Brass Ingot
-primal:brass_nugget, Brass Nugget
-primal:bronze_dust, Bronze Dust
-primal:bronze_ingot, Bronze Ingot
-primal:bronze_nugget, Bronze Nugget
-primal:copper_dust, Copper Dust
-primal:copper_ingot, Copper Ingot
-primal:copper_nugget, Copper Nugget
-primal:lead_dust, Lead Dust
-primal:lead_ingot, Lead Ingot
-primal:lead_nugget, Lead Nugget
-primal:pigiron_dust, Pig Iron Dust
-primal:pigiron_ingot, Pig Iron Ingot
-primal:pigiron_nugget, Pig Iron Nugget
-primal:silver_dust, Silver Dust
-primal:silver_ingot, Silver Ingot
-primal:silver_nugget, Silver Nugget
-primal:tin_dust, Tin Dust
-primal:tin_ingot, Tin Ingot
-primal:tin_nugget, Tin Nugget
-primal:vanadium_dust, Vanadium Dust
-primal:vanadium_ingot, Vanadium Ingot
-primal:vanadium_nugget, Vanadium Nugget
-primal:wootz_dust, Wootz Steel Dust
-primal:wootz_ingot, Wootz Steel Ingot
-primal:wootz_nugget, Wootz Steel Nugget
-primal:zinc_dust, Zinc Dust
-primal:zinc_ingot, Zinc Ingot
-primal:zinc_nugget, Zinc Nugget
-primal:steel_ingot, Steel Ingot
-primal:tamahagane_ingot, Tamahagane Ingot
-primal:sharp_bone, Sharp Bone
-primal:flint_pickaxe, Flint Pickaxe
-primal:flint_shovel, Flint Shovel
-primal:flint_hoe, Flint Hoe
-primal:quartz_pickaxe, Quartz Pickaxe
-primal:quartz_shovel, Quartz Shovel
-primal:quartz_hoe, Quartz Hoe
-primal:diamond_pickaxe, Diamond Pickaxe
-primal:diamond_shovel, Diamond Shovel
-primal:diamond_hoe, Diamond Hoe
-primal:emerald_pickaxe, Emerald Pickaxe
-primal:emerald_shovel, Emerald Shovel
-primal:emerald_hoe, Emerald Hoe
-primal:opal_pickaxe, Opal Pickaxe
-primal:opal_shovel, Opal Shovel
-primal:opal_hoe, Opal Hoe
-primal:obsidian_pickaxe, Obsidian Pickaxe
-primal:obsidian_shovel, Obsidian Shovel
-primal:obsidian_hoe, Obsidian Hoe
-primal:ironwood_bow, Ironwood Bow
-primal:corypha_bow, Corphyry Bow
-primal:flint_hatchet, Flint Hatchet
-primal:quartz_hatchet, Quartz Hatchet
-primal:obsidian_hatchet, Obsidian Hatchet
-primal:opal_hatchet, Opal Hatchet
-primal:emerald_hatchet, Emerald Hatchet
-primal:diamond_hatchet, Diamond Hatchet
-primal:flint_axe, Flint Axe
-primal:quartz_axe, Quartz Axe
-primal:obsidian_axe, Obsidian Axe
-primal:opal_axe, Opal Axe
-primal:emerald_axe, Emerald Axe
-primal:diamond_axe, Diamond Axe
-primal:flint_shears, Flint Shears
-primal:quartz_shears, Quartz Shears
-primal:flint_workblade, Flint Work Blade
-primal:quartz_workblade, Quartz Work Blade
-primal:iron_workblade, Iron Work Blade
-primal:emerald_workblade, Emerald Work Blade
-primal:diamond_workblade, Diamond Work Blade
-primal:opal_workblade, Blood Opal Work Blade
-primal:obsidian_workblade, Obsidian Work Blade
-primal:stone_gallagher, Stone Gallagher
-primal:nether_gallagher, Nether Stone Gallagher
-primal:quartz_gallagher, Quartz Gallagher
-primal:iron_gallagher, Iron Gallagher
-primal:flint_saw, Flint Hand Saw
-primal:iron_saw, Iron Hand Saw
-primal:quartz_saw, Quartz Hand Saw
-primal:copper_saw, Copper Hand Saw
-primal:diamond_saw, Diamond Hand Saw
-primal:emerald_saw, Emerald Hand Saw
-primal:quartz_clippers, Quartz Clippers
-primal:iron_clippers, Iron Clippers
-primal:armor_obsidian_goggles, Obsidian Goggles
-primal:armor_obsidian_head, Obsidian Helm
-primal:armor_obsidian_body, Obsidian Chest
-primal:armor_obsidian_legs, Obsidian Leggings
-primal:armor_obsidian_feet, Obsidian Boots
-primal:armor_wolf_head, Wolf Hood
-primal:armor_wolf_body, Wolf Chest
-primal:armor_wolf_legs, Wolf Leggings
-primal:armor_wolf_feet, Wolf Boots
-primal:armor_ovis_head, Ovis Head
-primal:armor_ovis_body, Ovis Chest
-primal:armor_ovis_legs, Ovis Leggings
-primal:armor_ovis_feet, Ovis Boots
-primal:stone_basin, Stone Basin
-primal:fire_bow, Fire Bow
-primal:searing_sprig, Searing Lace Sprig
-primal:cauldron_lid, Iron Cauldron Lid
-primal:torch_wood_lit, Lit Torch
-primal:torch_nether_lit, Lit Netherrack Torch
 quantumstorage:crate, Crate
 quantumstorage:upgrade:0, Render Upgrade
 quantumstorage:upgrade:1, Void Upgrade
@@ -13507,6 +13507,7 @@ twilightforest:block_storage:3, Block of Arctic Fur
 twilightforest:block_storage:4, Block of Carminite
 twilightforest:spiral_bricks, Spiral Stone Bricks [WIP]
 uppers:upper, Upper
+vc:airship_workbench, Airship Workbench
 vc:guidebook_main, The 'Vies' Craft, vol.1
 vc:item_dismounter_normal, Dismounter
 vc:item_dismounter_player, Dismounter (Player)
@@ -13603,23 +13604,8 @@ vc:achievements/achievement_airship:5, Icon - airborn
 vc:achievements/achievement_airship:6, Icon - water
 vc:achievements/achievement_airship:7, Icon - lava
 vc:achievements/achievement_airship_portal, item.vc:achievements/achievement_airship_portal.name
-vc:airship_workbench, Airship Workbench
 weirdinggadget:weirding_gadget, Weirding Gadget
 yoyos:cord, Cord
-primal_tech:flint_block, Flint Block
-primal_tech:charcoal_block, Low Grade Charcoal
-primal_tech:clay_kiln, Clay Kiln
-primal_tech:stick_bundle, Stick Bundle
-primal_tech:fibre_torch, Un-Lit Fibre Torch
-primal_tech:wooden_hopper, Wopper Mk2 :P
-primal_tech:charcoal_hopper, Flame Grilled Wopper
-primal_tech:fibre_torch_lit, Lit Fibre Torch
-primal_tech:work_stump, Work Stump
-primal_tech:stone_grill, Stone Grill
-primal_tech:work_stump_upgraded, Work Stump Mk2
-primal_tech:water_saw, Water Powered Saw
-primal_tech:stone_anvil, Stone Anvil
-primal_tech:wooden_basin, Wooden Basin
 primal_tech:fire_sticks, Whittled Fire Sticks
 primal_tech:bone_pickaxe, Bone Pickaxe
 primal_tech:bone_axe, Bone Axe
@@ -13638,12 +13624,25 @@ primal_tech:bone_sword, Bone Sword
 primal_tech:bone_knife, Bone Knife
 primal_tech:stone_mallet, Stone Mallet
 primal_tech:leaf_bed, Bed of Straw and Leaves
+primal_tech:flint_block, Flint Block
+primal_tech:charcoal_block, Low Grade Charcoal
+primal_tech:clay_kiln, Clay Kiln
+primal_tech:stick_bundle, Stick Bundle
+primal_tech:fibre_torch, Un-Lit Fibre Torch
+primal_tech:wooden_hopper, Wopper Mk2 :P
+primal_tech:charcoal_hopper, Flame Grilled Wopper
+primal_tech:fibre_torch_lit, Lit Fibre Torch
+primal_tech:work_stump, Work Stump
+primal_tech:stone_grill, Stone Grill
+primal_tech:work_stump_upgraded, Work Stump Mk2
+primal_tech:water_saw, Water Powered Saw
+primal_tech:stone_anvil, Stone Anvil
+primal_tech:wooden_basin, Wooden Basin
 teslacorelib:gear_diamond, Diamond Gear
 teslacorelib:gear_gold, Gold Gear
 teslacorelib:gear_iron, Iron Gear
 teslacorelib:gear_stone, Stone Gear
 teslacorelib:gear_wood, Wood Gear
-charcoalblock:charcoal_block,  Charcoal Block
 progressiontweaks:lime, Lime
 progressiontweaks:spear, Spear
 progressiontweaks:broken_spear_tip, Broken Spear (Tip)
@@ -13656,6 +13655,7 @@ progressiontweaks:fire_pit_unlit, Fire Pit
 progressiontweaks:blank_teleporter, Blank Teleporter
 progressiontweaks:machine_frame, Machine Frame
 progressiontweaks:nanomachine_frame, Nano-Machine Frame
+charcoalblock:charcoal_block,  Charcoal Block
 abyssalcraft:stone:0, Darkstone
 abyssalcraft:stone:1, §9Abyssal Stone
 abyssalcraft:stone:2, Dreadstone
@@ -14875,6 +14875,53 @@ astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
+quark:glowstone_dust_block, tile.glowstone_dust_block.name
+quark:gunpowder_block, tile.gunpowder_block.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:black_ash, tile.black_ash.name
+quark:soul_powder, item.soul_powder.name
+quark:glowcelium, tile.glowcelium.name
+quark:glowshroom, tile.glowshroom.name
+quark:soul_bead, item.soul_bead.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, Block of Biotite
+quark:biotite_block:1, Chiseled Biotite Block
+quark:biotite_block:2, Pillar Biotite Block
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, Biotite Slab
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:smoker, tile.smoker.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, Paper Wall
+quark:iron_ladder, tile.iron_ladder.name
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:polished_stone, tile.polished_stone.name
 quark:stone_wall, tile.stone_wall.name
 quark:stone_granite_wall, tile.stone_granite_wall.name
@@ -14999,27 +15046,7 @@ quark:duskbound_lantern, tile.duskbound_lantern.name
 quark:duskbound_block_stairs, tile.duskbound_block_stairs.name
 quark:duskbound_block_slab:0, Duskbound Slab
 quark:duskbound_block_wall, tile.duskbound_block_wall.name
-quark:glowcelium, tile.glowcelium.name
-quark:glowshroom, tile.glowshroom.name
-quark:soul_bead, item.soul_bead.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, Block of Biotite
-quark:biotite_block:1, Chiseled Biotite Block
-quark:biotite_block:2, Pillar Biotite Block
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, Biotite Slab
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:smoker, tile.smoker.name
 quark:witch_hat, item.witch_hat.name
-quark:glowstone_dust_block, tile.glowstone_dust_block.name
-quark:gunpowder_block, tile.gunpowder_block.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:black_ash, tile.black_ash.name
-quark:soul_powder, item.soul_powder.name
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -15037,33 +15064,6 @@ quark:glass_shards:13, Brown Glass Shard
 quark:glass_shards:14, Green Glass Shard
 quark:glass_shards:15, Red Glass Shard
 quark:glass_shards:16, Black Glass Shard
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, Paper Wall
-quark:iron_ladder, tile.iron_ladder.name
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:glass_item_frame, item.glass_item_frame.name
 quark:ender_watcher, tile.ender_watcher.name
 quark:iron_rod, tile.iron_rod.name
 quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
@@ -18368,9 +18368,9 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Arctic Fur
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Carminite
 chiselsandbits:block_bit:0, Chiseled Bit - Flint Block
 chiselsandbits:block_bit:0, Chiseled Bit - Low Grade Charcoal Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Charcoal Block
 chiselsandbits:block_bit:0, Chiseled Bit - Blank Teleporter
 chiselsandbits:block_bit:0, Chiseled Bit - Machine Frame
+chiselsandbits:block_bit:0, Chiseled Bit - Charcoal Block
 chiselsandbits:block_bit:0, Chiseled Bit - Darkstone Cobblestone
 chiselsandbits:block_bit:0, Chiseled Bit - §9Abyssal Cobblestone
 chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Cobblestone
@@ -18500,6 +18500,11 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sooty Marble Arch
 chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sooty Marble
 chiselsandbits:block_bit:0, Chiseled Bit - Engraved Sooty Marble
 chiselsandbits:block_bit:0, Chiseled Bit - Runed Sooty Marble
+chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Stone
 chiselsandbits:block_bit:0, Chiseled Bit - Terracotta Shingles
 chiselsandbits:block_bit:0, Chiseled Bit - White Terracotta Shingles
@@ -18540,11 +18545,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Vertical Acacia Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Vertical Dark Oak Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Duskbound Block
 chiselsandbits:block_bit:0, Chiseled Bit - Duskbound Lantern
-chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - tile.decorated.destroy.name
 chiselsandbits:block_bit:0, Chiseled Bit - Blueprint (Decoration)
 chiselsandbits:block_bit:0, Chiseled Bit - Template (Decoration)
@@ -21325,14 +21325,14 @@ yoyos:yoyo_cord:0, Slimevine Cord
 yoyos:yoyo_cord:0, Vines Cord
 yoyos:yoyo, Yoyo
 yoyos:book, Yoyos and You
-primal:brine_netjry, tile.fluid.brine_netjry.name
-primal:paraffin, Paraffin
-primal:ovis_atre_milk, Ovis Atre Milk
-primal:tannin, Tannin
-primal:magma, Basaltic Magma
-primal:waste, Waste Water
 primal:smoke, Smoke
-primal:urushi, Urushi
+primal:magma, Basaltic Magma
 primal:bitumen, Bitumen
+primal:ovis_atre_milk, Ovis Atre Milk
+primal:paraffin, Paraffin
+primal:urushi, Urushi
+primal:tannin, Tannin
+primal:brine_netjry, tile.fluid.brine_netjry.name
+primal:waste, Waste Water
 guideapi:modularrouters-guidebook, item.guideapi.book.modularrouters.guidebook.name
 guideapi:cyclicmagic-guide, item.guideapi.book.cyclicmagic.guide.name

@@ -1,0 +1,13 @@
+setIcon("immersiveengineering:metal_device1", 7)
+
+setTitle("A Small Sample")
+
+setDescription("Use the Core Sample Drill to locate both Ore Veins and Liquid under the surface per chunk. Don't forget it requires power and you can place the Samples on the ground by Shift-Clicking")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal_device1", 7)
+
+setRewardExperience(8)

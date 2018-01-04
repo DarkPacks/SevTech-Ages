@@ -8,7 +8,6 @@ setParent("triumph:stage1/turntable")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("ceramics:clay_bucket")
 
 setRewardExperience(4)

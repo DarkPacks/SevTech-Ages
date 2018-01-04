@@ -511,6 +511,11 @@ var stage1Items = [
 	<tconstruct:slime_boots:3>,
 	<tconstruct:slime_boots:4>,
 	<tconstruct:slime_boots>,
+	<tconstruct:slime_congealed:3>,
+	<tconstruct:slime:3>,
+	<tconstruct:edible:3>,
+	<tconstruct:edible:33>,
+	<tconstruct:slime_channel:3>,
 
 	//Embers
 	<embers:archaic_circuit>,

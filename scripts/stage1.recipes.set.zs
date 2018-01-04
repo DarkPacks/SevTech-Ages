@@ -61,6 +61,11 @@ var itemsForStage = [
 	<traverse:red_rock_bricks_slab>,
 	<traverse:red_rock_bricks_stairs>,
 
+	//Tinkers'
+	<tconstruct:slime_congealed:3>,
+	<tconstruct:slime:3>,
+	<tconstruct:edible:3>,
+
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,
 	<abyssalcraft:abyfence>,
@@ -246,10 +251,7 @@ var itemsForStage = [
 
 	//Tinkers'
 	<tconstruct:faucet>,
-	<tconstruct:slime_boots:1>,
-	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:3>,
-	<tconstruct:slime_boots:4>,
 	<tconstruct:slime_boots>,
 	<tconstruct:tooltables:1>,
 	<tconstruct:tooltables:2>,

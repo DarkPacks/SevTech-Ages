@@ -53,9 +53,7 @@ mods.TinkerStages.addMaterialStage(STAGES.one, "cactus");
 mods.TinkerStages.addMaterialStage(STAGES.two, "copper");
 mods.TinkerStages.addMaterialStage(STAGES.two, "bronze");
 
-mods.TinkerStages.addMaterialStage(STAGES.two, "knightslime");
 mods.TinkerStages.addMaterialStage(STAGES.two, "slime");
-mods.TinkerStages.addMaterialStage(STAGES.two, "blueslime");
 mods.TinkerStages.addMaterialStage(STAGES.two, "prismarine");
 mods.TinkerStages.addMaterialStage(STAGES.two, "sponge");
 mods.TinkerStages.addMaterialStage(STAGES.two, "electrum");
@@ -65,20 +63,22 @@ mods.TinkerStages.addMaterialStage(STAGES.two, "refined_coralium");
 mods.TinkerStages.addMaterialStage(STAGES.two, "dreadium");
 mods.TinkerStages.addMaterialStage(STAGES.two, "silver");
 mods.TinkerStages.addMaterialStage(STAGES.two, "iron");
+mods.TinkerStages.addMaterialStage(STAGES.four, "pigiron");
 
 //Three
+mods.TinkerStages.addMaterialStage(STAGES.two, "knightslime");
+mods.TinkerStages.addMaterialStage(STAGES.two, "blueslime");
+mods.TinkerStages.addMaterialStage(STAGES.three, "magmaslime");
 mods.TinkerStages.addMaterialStage(STAGES.three, "paper");
 mods.TinkerStages.addMaterialStage(STAGES.three, "lead");
 mods.TinkerStages.addMaterialStage(STAGES.three, "firewood");
-mods.TinkerStages.addMaterialStage(STAGES.three, "magmaslime");
 mods.TinkerStages.addMaterialStage(STAGES.three, "netherrack");
-mods.TinkerStages.addMaterialStage(STAGES.three, "endstone");
 mods.TinkerStages.addMaterialStage(STAGES.three, "steel");
 mods.TinkerStages.addMaterialStage(STAGES.three, "treatedwood");
 mods.TinkerStages.addMaterialStage(STAGES.three, "obsidian");
 
 //Four
-mods.TinkerStages.addMaterialStage(STAGES.four, "pigiron");
+mods.TinkerStages.addMaterialStage(STAGES.three, "endstone");
 mods.TinkerStages.addMaterialStage(STAGES.four, "cobalt");
 mods.TinkerStages.addMaterialStage(STAGES.four, "ardite");
 mods.TinkerStages.addMaterialStage(STAGES.four, "manyullyn");

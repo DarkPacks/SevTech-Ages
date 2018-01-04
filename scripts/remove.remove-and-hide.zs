@@ -110,44 +110,10 @@ var removeAndHideItems = [
 
 	//Cooking for Blockheads
 	<cookingforblockheads:milk_jar>,
-	<cookingforblockheads:cow_jar>
+	<cookingforblockheads:cow_jar>,
 
-	<actuallyadditions:item_misc:4>,
+	<actuallyadditions:item_misc:4>
 
-	//<actuallyadditions:block_miner>,
-	//<adchimneys:bedrock>,
-	//<hardcorequesting:hqm_invalid_item>,
-	//<immcraft:bundle>,
-	//<immcraft:in_world_placer>,
-	//<immcraft:in_world_vertical_placer>,
-	//<minecraft:barrier>,
-	//<minecraft:bedrock>,
-	//<minecraft:chain_command_block>,
-	//<minecraft:command_block>,
-	//<minecraft:command_block_minecart>,
-	//<minecraft:end_portal_frame>,
-	//<minecraft:ender_chest>,
-	//<minecraft:repeating_command_block>,
-	//<minecraft:structure_block>,
-	//<minecraft:structure_void>,
-	//<omlib:debug_tool>,
-	//<primal:drying_rack_acacia>,
-	//<primal:drying_rack_bigoak>,
-	//<primal:drying_rack_birch>,
-	//<primal:drying_rack_corypha>,
-	//<primal:drying_rack_ironwood>,
-	//<primal:drying_rack_jungle>,
-	//<primal:drying_rack_lacquer>,
-	//<primal:drying_rack_oak>,
-	//<primal:drying_rack_spruce>,
-	//<primal:worktable_acacia_slab>,
-	//<primal:worktable_bigoak_slab>,
-	//<primal:worktable_birch_slab>,
-	//<primal:worktable_ironwood_slab>,
-	//<primal:worktable_jungle_slab>,
-	//<primal:worktable_lacquer_slab>,
-	//<primal:worktable_oak_slab>,
-	//<primal:worktable_spruce_slab>,
 ] as IItemStack[];
 
 for item in removeAndHideItems {

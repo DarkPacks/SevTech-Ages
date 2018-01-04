@@ -225,6 +225,15 @@ var shapedRecipes = {
 			[null, <tconstruct:materials:15>, null]
 		]
 	],
+
+	<tconstruct:edible:4> * 4 : [
+		[
+			[null, <minecraft:magma_cream>, null],
+			[<minecraft:magma_cream>, <minecraft:lava_bucket>, <minecraft:magma_cream>],
+			[null, <minecraft:magma_cream>, null]
+		]
+	],
+	
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
 		[

@@ -97,9 +97,6 @@ var shapedRecipes = {
 	<minecraft:stone_slab:4> * 3 : [
 		[[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
 	],
-	<minecraft:stone_slab:5> * 3 : [
-		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
-	],
 	<minecraft:stone_slab:7> * 3 : [
 		[[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]
 	],

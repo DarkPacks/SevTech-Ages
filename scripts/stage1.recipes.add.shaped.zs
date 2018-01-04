@@ -113,9 +113,6 @@ var shapedRecipes = {
 	<betterwithaddons:aqueduct:9> * 3 : [
 		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]]
 	],
-	<betterwithaddons:aqueduct> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]
-	],
 	<betterwithmods:axle_generator:1> : [
 		[
 			[<betterwithmods:material:10>, <betterwithmods:material:10>, <betterwithmods:material:10>],

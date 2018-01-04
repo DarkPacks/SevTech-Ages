@@ -58,6 +58,7 @@ var stage2Items = [
 	<minecraft:spruce_boat>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_pressure_plate>,
+	<minecraft:stone_slab:5>,
 	<minecraft:tripwire_hook>,
 	<minecraft:water_bucket>,
 	<minecraft:wooden_pressure_plate>,

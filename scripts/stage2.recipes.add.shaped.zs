@@ -192,6 +192,9 @@ var shapedRecipes = {
 	<minecraft:piston> : [
 		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
 	],
+	<minecraft:stone_slab:5> * 3 : [
+		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
+	],
 	<minecraft:wool:10> : [
 		[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
 	],
@@ -279,6 +282,9 @@ var shapedRecipes = {
 			[<betterwithmods:wicker>, <betterwithmods:wooden_gearbox>, <minecraft:lever>],
 			[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>]
 		]
+	],
+	<betterwithaddons:aqueduct> * 3 : [
+		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]
 	],
 
 	//Smiley Cloud is craftable. You're welcome.

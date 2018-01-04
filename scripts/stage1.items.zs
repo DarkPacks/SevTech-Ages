@@ -45,8 +45,6 @@ var stage1Items = [
 	<betterwithaddons:material:*>,
 	<minecraft:brick_block>,
 	<minecraft:stone_slab:4>,
-	<minecraft:stone_slab:5>,
-	<minecraft:stonebrick:*>,
 	<quark:polished_netherrack:1>,
 	<quark:polished_netherrack_bricks_slab>,
 	<quark:polished_netherrack_bricks_stairs>,

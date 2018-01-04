@@ -49,6 +49,7 @@ var removeItems = [
 	<minecraft:paper>,
 	<minecraft:piston>,
 	<minecraft:spruce_boat>,
+	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
 	<pickletweaks:watering_can>,
 	<prospectors:prospector_low>,

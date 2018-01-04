@@ -53,6 +53,9 @@ var shapedRecipes = {
 	<minecraft:ladder> : [
 		[[stick, null, stick], [stick, stick, stick], [stick, null, stick]]
 	],
+	<minecraft:cake> : [
+		[[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
+	],
 	<primal_tech:leaf_bed> : [
 		[[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]
 	],

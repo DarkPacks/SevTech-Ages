@@ -61,6 +61,11 @@ var itemsForStage = [
 	<traverse:red_rock_bricks_slab>,
 	<traverse:red_rock_bricks_stairs>,
 
+	//Tinkers'
+	<tconstruct:slime_congealed:3>,
+	<tconstruct:slime:3>,
+	<tconstruct:edible:3>,
+
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,
 	<abyssalcraft:abyfence>,
@@ -117,9 +122,10 @@ var itemsForStage = [
 	<natura:tiger_fence_gate>,
 	<natura:willow_fence>,
 	<natura:willow_fence_gate>,
-	<primal:fence_corypha>,
-	<primal:fence_ironwood>,
-	<primal:fence_lacquer>,
+	<primal:fence>,
+	<primal:fence:1>,
+	<primal:fence:2>,
+	<primal:fence:3>,
 	<quark:nether_brick_fence_gate>,
 	<rustic:fence_gate_ironwood>,
 	<rustic:fence_gate_olive>,
@@ -245,10 +251,7 @@ var itemsForStage = [
 
 	//Tinkers'
 	<tconstruct:faucet>,
-	<tconstruct:slime_boots:1>,
-	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:3>,
-	<tconstruct:slime_boots:4>,
 	<tconstruct:slime_boots>,
 	<tconstruct:tooltables:1>,
 	<tconstruct:tooltables:2>,

@@ -52,8 +52,8 @@ var itemsForStage = [
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
 	<minecraft:sticky_piston>,
-	<minecraft:stonebrick:1>,
 	<minecraft:stonebrick>,
+	<minecraft:stonebrick:1>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
 	<minecraft:painting>,
@@ -405,14 +405,7 @@ var itemsForStage = [
 	<embers:wall_ashen_stone>,
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
-	<embers:wrapped_sealed_planks>,
-
-	//Cultivated Tech
-	<cultivatedtech:blockfireplace>,
-	<cultivatedtech:blockbarrel>,
-	<cultivatedtech:blockhemp>,
-	<cultivatedtech:itembrick>,
-	<cultivatedtech:blocksprinkler1>
+	<embers:wrapped_sealed_planks>
 
 ] as IItemStack[];
 

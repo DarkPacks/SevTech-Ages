@@ -76,3 +76,5 @@
 <chisel:tyrian>.addTooltip(format.gold("Craftable"));
 <chisel:voidstone>.addTooltip(format.gold("Craftable"));
 <chisel:waterstone>.addTooltip(format.gold("Craftable"));
+
+<natura:materials:5>.addTooltip(format.red("Use to craft arrows"));

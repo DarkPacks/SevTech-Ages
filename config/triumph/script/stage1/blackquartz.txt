@@ -1,17 +1,16 @@
 setIcon("actuallyadditions:item_misc", 5)
 
-//Set title String
 setTitle("Par for the Quartz")
 
-//Set description String
 setDescription("Travel to the bottom of the Beneath dimension to find Black Quartz")
 
 setParent("triumph:stage1/beneath")
 setRequiresParent(true)
 
 criteria = addCriteria("brokeLog", "triumph:player_break_block")
-
-
 criteria.setBlock("actuallyadditions:block_misc", 3)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("actuallyadditions:item_misc", 5)
 
 setRewardExperience(4)

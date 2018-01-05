@@ -1,0 +1,11 @@
+setIcon("forge:bucketfilled", 0, {FluidName:"naphtha",Amount:1000})
+
+setTitle("Distillation")
+
+setDescription("Now that you have extracted Crude Oil, build an Immersive Petroleum Distillation Tower to process Naphtha and Diesel and grab a bucket of each")
+
+setParent("triumph:stage3/crudeoil")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("forge:bucketfilled", 0, {FluidName:"naphtha",Amount:1000})

@@ -767,6 +767,31 @@ var stage3Items = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_missile>,
 
+	//Tinkers'
+	<tconstruct:metal:6>,
+	<tconstruct:materials:16>,
+	<tconstruct:materials:15>,
+	<tconstruct:edible:2>,
+	<tconstruct:slime_congealed:2>,
+	<tconstruct:edible:4>,
+	<tconstruct:soil:5>,
+	<tconstruct:slime_congealed:4>,
+	<tconstruct:edible:1>,
+	<tconstruct:soil:2>,
+	<tconstruct:slime_congealed:1>,
+	<tconstruct:materials:10>,
+	<tconstruct:materials:11>,
+	<tconstruct:slime_channel:1>,
+	<tconstruct:slime_channel:2>,
+	<tconstruct:slime_channel:4>,
+	<tconstruct:edible:31>,
+	<tconstruct:edible:32>,
+	<tconstruct:edible:34>,
+	<tconstruct:slime_boots:2>,
+	<tconstruct:slime_boots:4>,
+	<tconstruct:slime_boots:1>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
+
 	//Top Hat
 	<fat_cat:top_hat>,
 
@@ -828,11 +853,6 @@ var stage3Items = [
 	<buildcrafttransport:pipe_sandstone_fluid>,
 	<buildcrafttransport:waterproof>,
 	<ironchest:iron_chest:6>,
-
-	//Cultivated Tech
-	<cultivatedtech:blocksoil>,
-	<cultivatedtech:blockindustrialdirt>,
-	<cultivatedtech:blocksprinkler2>,
 
 	<industrialforegoing:plastic>
 

@@ -15,7 +15,6 @@ var hideItems = [
 	<actuallyadditions:iron_paxel>,
 	<actuallyadditions:item_dust:1>,
 	<actuallyadditions:item_jam:*>, //No
-	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_water_bowl>,
 	<actuallyadditions:stone_paxel>,
 	<actuallyadditions:wooden_paxel>,
@@ -157,10 +156,8 @@ var hideItems = [
 	<primal:silk_cordage>,
 	<primal:silk_cordage_coiled>,
 	<primal:silver_dust>,
-	<primal:slab_carbonate_flag>,
 	<primal:stairs_carbonate_flag>,
 	<primal:tamahagane_ingot>,
-	<primal:thin_slab_carbonate_flag>,
 	<primal:torch_nether_lit>,
 	<primal:torch_wood>,
 	<primal:torch_wood_lit>,
@@ -218,9 +215,6 @@ var hideItems = [
 	<buildcraftcore:volume_box>,
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
-	<cultivatedtech:blockindustrialsoil1>,
-	<cultivatedtech:blockindustrialsoil2>,
-	<cultivatedtech:blockindustrialsoil3>
 
 ] as IItemStack[];
 

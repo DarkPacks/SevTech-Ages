@@ -1,0 +1,110 @@
+{
+  "coalSize": 64,
+  "coalChance": 8,
+  "coalDimBlacklist": [
+    -1,
+    1
+  ],
+  "cinnabarSize": 56,
+  "cinnabarChance": 3,
+  "cinnabarDimBlacklist": [
+    -1,
+    1
+  ],
+  "goldSize": 40,
+  "goldChance": 3,
+  "goldDimBlacklist": [
+    -1,
+    1
+  ],
+  "lapisSize": 32,
+  "lapisChance": 4,
+  "lapisDimBlacklist": [
+    -1,
+    1
+  ],
+  "quartzSize": 40,
+  "quartzChance": 6,
+  "quartzDimBlacklist": [
+    -1,
+    1
+  ],
+  "kimberliteSize": 20,
+  "kimberliteChance": 4,
+  "kimberliteDimBlacklist": [
+    -1,
+    1
+  ],
+  "berylSize": 16,
+  "berylChance": 3,
+  "berylDimBlacklist": [
+    -1,
+    1
+  ],
+  "hematiteSize": 24,
+  "hematiteChance": 7,
+  "hematiteDimBlacklist": [
+    -1,
+    1
+  ],
+  "limoniteSize": 80,
+  "limoniteChance": 6,
+  "limoniteDimBlacklist": [
+    -1,
+    1
+  ],
+  "malachiteSize": 24,
+  "malachiteChance": 4,
+  "malachiteDimBlacklist": [
+    -1,
+    1
+  ],
+  "azuriteSize": 80,
+  "azuriteChance": 7,
+  "azuriteDimBlacklist": [
+    -1,
+    1
+  ],
+  "cassiteriteSize": 24,
+  "cassiteriteChance": 3,
+  "cassiteriteDimBlacklist": [
+    -1,
+    1
+  ],
+  "tealliteSize": 80,
+  "tealliteChance": 7,
+  "tealliteDimBlacklist": [
+    -1,
+    1
+  ],
+  "galenaSize": 72,
+  "galenaChance": 9,
+  "galentaDimBlacklist": [
+    -1,
+    1
+  ],
+  "bauxiteSize": 64,
+  "bauxiteChance": 8,
+  "bauxiteDimBlacklist": [
+    -1,
+    1
+  ],
+  "platinumSize": 32,
+  "platinumChance": 4,
+  "platinumDimBlacklist": [
+    -1,
+    1
+  ],
+  "autuniteSize": 24,
+  "autuniteChance": 5,
+  "autuniteDimBlacklist": [
+    -1,
+    1
+  ],
+  "sphaleriteSize": 24,
+  "sphaleriteChance": 7,
+  "sphaleriteDimBlacklist": [
+    -1,
+    1
+  ]
+}

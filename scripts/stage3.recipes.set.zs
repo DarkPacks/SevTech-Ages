@@ -229,6 +229,9 @@ var itemsForStage = [
 	<immersiveengineering:wooden_device1>,
 	<immersivetech:connectors>,
 
+	//Super Sound Muffler
+	<supersoundmuffler:sound_muffler>,
+
 	//Tinkers'
 	<tcomplement:porcelain_tank>,
 	<tconstruct:seared_tank>,
@@ -594,13 +597,21 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_sandstone_fluid>,
 	<buildcrafttransport:waterproof>,
 
-	//Cultivated Tech
-	<cultivatedtech:blocksoil>,
-	<cultivatedtech:blockindustrialdirt>,
-	<cultivatedtech:blocksprinkler2>,
-
 	//Modular Machinery
-	<modularmachinery:blockfluidoutputhatch>
+	<modularmachinery:blockfluidoutputhatch>,
+
+	<tconstruct:slime_congealed:2>,
+	<tconstruct:slime_congealed:4>,
+	<tconstruct:slime_congealed:1>,
+	<tconstruct:edible:1>,
+	<tconstruct:edible:2>,
+	<tconstruct:edible:4>,
+	<tconstruct:soil:2>,
+	<tconstruct:soil:5>,
+	<tconstruct:slime_boots:1>,
+	<tconstruct:slime_boots:2>,
+	<tconstruct:slime_boots:4>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}})
 
 ] as IItemStack[];
 

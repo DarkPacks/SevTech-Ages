@@ -9,5 +9,5 @@ var dusts as IItemStack[] = [
 ];
 
 for dust in dusts {
-	Crusher.removeRecipe(dust);
+	mods.immersiveengineering.Crusher.removeRecipe(dust);
 }

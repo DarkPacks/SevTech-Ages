@@ -1,1 +1,4 @@
 gamestage add @p zero_mob
+gamestage add @p zero
+summon minecraft:fireworks_rocket ~ ~ ~
+say You are Now In Stage 0

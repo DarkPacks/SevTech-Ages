@@ -6,7 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 global STAGES as string[string] = {
 	tutorial : "tutorial",
-	zero: : "zero",
+	zero : "zero",
 	zeroMob : "zero_mob",
 	one : "one",
 	oneMob : "one_mob",

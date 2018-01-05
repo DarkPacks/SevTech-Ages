@@ -40,11 +40,12 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remo
 
 /*
 	Crusher
-	IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
+	IItemStack output, IIngredient input, int totalEnergy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
 */
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
-Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
-Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 250);
+Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 3000);
+Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 3000);
+Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 3000);
 
 /*
 	Arc Furnace

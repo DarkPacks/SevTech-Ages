@@ -180,6 +180,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 			//Add ingot -> dust in crusher
 			if (metalType == "dust") {
+				mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
 				mods.immersiveengineering.Crusher.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], 256);
 			}
 

@@ -22,4 +22,4 @@ addCriteria("location", "minecraft:location")
 
 setRequirements("any")
 
-setRewardFunction("triumph:stage0trigger")
+setRewardFunction("triumph:stageTutorial-trigger")

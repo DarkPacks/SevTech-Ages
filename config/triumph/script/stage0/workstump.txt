@@ -11,3 +11,4 @@ criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("primal_tech:work_stump")
 
 setRewardItem("primal_tech:rock", 0, 1)
+setRewardFunction("triumph:stage0trigger")

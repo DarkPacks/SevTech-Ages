@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-//recipes.addShapeless(, []);
+var STAGE = STAGES.zero;
 
 /*
 <item> : [
@@ -446,7 +446,7 @@ var shapedRecipes = {
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
-		recipes.addShaped(item, recipe);
+		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
 

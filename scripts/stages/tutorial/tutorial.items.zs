@@ -1,3 +1,5 @@
+#priority -1
+
 import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.tutorial;

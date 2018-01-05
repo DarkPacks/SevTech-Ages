@@ -33,9 +33,6 @@ var shapedRecipes = {
 			[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>]
 		]
 	],
-	<betterbuilderswands:wanddiamond> : [
-		[[null, null, <minecraft:diamond>], [null, log, null], [log, null, null]]
-	],
 	<prospectors:prospector_high> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:redstone>], [<minecraft:blaze_rod>, null, null]]
 	],

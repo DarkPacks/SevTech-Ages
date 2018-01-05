@@ -633,8 +633,6 @@ var stage2Items = [
 	<tconstruct:soil:1>,
 	<tconstruct:materials:9>,
 
-
-
 	//Dark Utils
 	<darkutils:charm_null>,
 	<darkutils:charm_portal>,

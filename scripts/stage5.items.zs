@@ -249,7 +249,6 @@ var stage5Items = [
 	<storagedrawers:upgrade_storage:4>,
 
 	//Diamond Stuff
-	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,
 	<betterwithaddons:diamond_kukri>,
 	<betterwithaddons:diamond_machete>,

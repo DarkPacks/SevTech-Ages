@@ -68,6 +68,7 @@ var stage3Items = [
 	<nex:slab_brick_nether_double:2>,
 	<nex:slab_brick_nether_double:1>,
 	<nex:slab_brick_nether_double>,
+	<betterbuilderswands:wanddiamond>,
 
 	//Ore
 	<immersiveengineering:ore:1>,

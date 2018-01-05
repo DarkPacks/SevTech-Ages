@@ -144,7 +144,10 @@ mods.tconstruct.Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[
 mods.tconstruct.Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
 mods.tconstruct.Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);
 
-//Fixes so all glass is same melting temp. I'm doing this against my better judgement because I don't want to hear players complaining about how it's impossible to make glass in stage 2 even though it's 100% possible already. 
+/*
+	Fixes so all glass is same melting temp.
+	I'm doing this against my better judgement because I don't want to hear players complaining about how it's impossible to make glass in stage 2 even though it's 100% possible already.
+*/
 mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>, 493);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:red_sand_pile>, 493);
@@ -154,37 +157,13 @@ mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand>, 493);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand:1>, 493);
 
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:glass>);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:7>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:8>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:13>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:12>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:5>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:9>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:15>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:10>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:4>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:2>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:11>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:3>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:14>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:1>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:stained_glass:6>, 493);
+
+for i in 0 to 16 {
+	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass>.definition.makeStack(i), 493);
+}
 
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:glass_pane>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:3>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:11>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:1>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:5>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:9>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:13>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:10>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:4>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:6>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:8>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:14>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:15>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:7>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:2>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane:12>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>, 493);
+
+for i in 0 to 16 {
+	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>.definition.makeStack(i), 493);
+}

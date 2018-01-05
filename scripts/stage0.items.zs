@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.zero;
 
+/*
 var stageZeroItems = [
 
 ] as IItemStack[];
@@ -9,3 +10,4 @@ var stageZeroItems = [
 for item in itemsToStage {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+*/

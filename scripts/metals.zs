@@ -116,8 +116,10 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 					fluidAmount = 16;
 				}
 
-				mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
-				mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
+				if (fluidAmount != 0) {
+					mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+					mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
+				}
 
 				//Casting
 				if (metalType == "block") {

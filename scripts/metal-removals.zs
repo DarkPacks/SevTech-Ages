@@ -8,6 +8,17 @@ var dusts as IItemStack[] = [
 	<primal:brass_dust>
 ];
 
+var ingots as IItemStack[] = [
+	<primal:zinc_ingot>,
+	<primal:wootz_ingot>,
+	<primal:vanadium_ingot>,
+	<primal:brass_ingot>
+];
+
 for dust in dusts {
 	mods.immersiveengineering.Crusher.removeRecipe(dust);
+}
+
+for ingot in ingots {
+	mods.immersiveengineering.ArcFurnace.removeRecipe(ingot);
 }

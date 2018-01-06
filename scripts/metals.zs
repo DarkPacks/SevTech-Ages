@@ -184,12 +184,14 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				mods.immersiveengineering.Crusher.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], 256);
 			}
 
+			//Remove ingot recipes, mainly for preventing ore doubling recipes
+			//Re-create alloy recipes etc elsewhere
+			if (metalType == "ingot") {
+				mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
+			}
+
 			//Dust can only be used in arc furnace
 			if (metalType == "dust") {
-				if (loadedMods.contains("immersiveengineering")) {
-					mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
-				}
-
 				if (loadedMods.contains("tconstruct") & hasLiquid) {
 					mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
 				}

@@ -34,11 +34,6 @@ var shapelessRecipes = {
 		[<minecraft:glass>]
 	],
 
-	//Now you can make fleece in stage 2
-	<betterwithaddons:wool> : [
-		[str, str, str, str]
-	],
-
 	//Twilight Forest
 	<twilightforest:magic_map_focus> : [
 		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]

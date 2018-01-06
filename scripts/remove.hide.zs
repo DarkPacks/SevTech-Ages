@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var hideItems = [
+	<minecraft:monster_egg:1>,
 	<abyssalcraft:abyssalniteu>,
 	<abyssalcraft:cobbleu>,
 	<abyssalcraft:coraliumu>,
@@ -18,6 +19,14 @@ var hideItems = [
 	<actuallyadditions:item_water_bowl>,
 	<actuallyadditions:stone_paxel>,
 	<actuallyadditions:wooden_paxel>,
+	<actuallyadditions:item_solidified_experience>,
+	<actuallyadditions:item_hairy_ball>,
+	<immcraft:sticks>,
+	<jaff:fish_bones>,
+	<baubles:ring>,
+	<betterwithmods:cobblestone>,
+	<betterwithmods:cobblestone:1>,
+	<betterwithmods:cobblestone:2>,
 	<betterwithaddons:boots_samurai>,
 	<betterwithaddons:chest_samurai>,
 	<betterwithaddons:decomat:3>,
@@ -57,6 +66,18 @@ var hideItems = [
 	<cyclicmagic:sack_ender>,
 	<cyclicmagic:storage_bag>,
 	<cyclicmagic:uncrafting_block>,
+	<tconstruct:slime_grass_tall>,
+	<tconstruct:slime_grass_tall:4>,
+	<tconstruct:slime_grass_tall:8>,
+	<tconstruct:slime_grass_tall:1>,
+	<tconstruct:slime_grass_tall:5>,
+	<tconstruct:slime_grass_tall:9>,
+	<tconstruct:slime_vine_blue_end>,
+	<tconstruct:slime_vine_blue_mid>,
+	<tconstruct:slime_vine_blue>,
+	<tconstruct:slime_vine_purple_end>,
+	<tconstruct:slime_vine_purple_mid>,
+	<tconstruct:slime_vine_purple>,
 	<darkutils:sneaky_bedrock>,
 	<embers:ore_aluminum>,
 	<embers:ore_copper>,
@@ -116,7 +137,13 @@ var hideItems = [
 	<natura:sticks:8>, //Natura Sticks Gone
 	<natura:sticks:9>, //Natura Sticks Gone
 	<natura:sticks>, //Natura Sticks Gone
+	<natura:seed_bags>,
+	<natura:seed_bags:1>,
+	<natura:seed_bags:2>,
+	<natura:seed_bags:3>,
+	<natura:bonemeal_bag>,
 	<pickletweaks:mesh>,
+	<primal:torch_nether>,
 	<primal:arrow_torch_wood>,
 	<primal:bear_meat_rotten>,
 	<primal:carbonate_slack>, //Duplicate
@@ -171,6 +198,23 @@ var hideItems = [
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
 	<primal_tech:plant_fibres>,
+	<primal:logs_split_oak>,
+	<primal:logs_split_spruce>,
+	<primal:logs_split_birch>,
+	<primal:logs_split_jungle>,
+	<primal:logs_split_acacia>,
+	<primal:logs_split_bigoak>,
+	<primal:logs_split_ironwood>,
+	<primal:logs_split_yew>,
+	<primal:logs_split_corypha>,
+	<primal:iron_strand>,
+	<primal:iron_pin>,
+	<primal:iron_ring>,
+	<primal:iron_mesh>,
+	<primal:armor_obsidian_head>,
+	<primal:armor_obsidian_body>,
+	<primal:armor_obsidian_legs>,
+	<primal:armor_obsidian_feet>,
 	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_gold>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_iron>, //Quantum Storage Metal Chests
@@ -215,6 +259,21 @@ var hideItems = [
 	<buildcraftcore:volume_box>,
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
+
+	<soot:mug>,
+	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wort", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "boiling_potato_juice", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wormwood", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "boiling_beetroot_soup", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "ale", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "vodka", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "inner_fire", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "umber_ale", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "absinthe", Amount: 250}}),
+	<soot:mug>.withTag({Fluid: {FluidName: "methanol", Amount: 250}}),
+
+	<ferdinandsflowers:item_test>
+
 
 ] as IItemStack[];
 

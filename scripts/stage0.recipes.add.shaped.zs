@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-//recipes.addShapeless(, []);
+var STAGE = STAGES.zero;
 
 /*
 <item> : [
@@ -96,9 +96,6 @@ var shapedRecipes = {
 	],
 	<minecraft:stone_slab:4> * 3 : [
 		[[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
-	],
-	<minecraft:stone_slab:5> * 3 : [
-		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
 	],
 	<minecraft:stone_slab:7> * 3 : [
 		[[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]
@@ -446,7 +443,7 @@ var shapedRecipes = {
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
-		recipes.addShaped(item, recipe);
+		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
 

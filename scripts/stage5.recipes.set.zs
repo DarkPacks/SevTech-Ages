@@ -563,7 +563,31 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_diamond_item>,
 	<buildcrafttransport:pipe_diamond_wood_fluid>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
-	<buildcrafttransport:pipe_emzuli_item>
+	<buildcrafttransport:pipe_emzuli_item>,
+
+	//Xnet
+	<xnet:xnet_manual>,
+	<xnet:connector_upgrade>,
+	<xnet:facade>,
+	<xnet:redstone_proxy>,
+	<xnet:redstone_proxy_upd>,
+	<xnet:netcable>,
+	<xnet:netcable:1>,
+	<xnet:netcable:2>,
+	<xnet:netcable:3>,
+	<xnet:netcable:4>,
+	<xnet:connector>,
+	<xnet:connector:1>,
+	<xnet:connector:2>,
+	<xnet:connector:3>,
+	<xnet:connector:4>,
+	<xnet:advanced_connector>,
+	<xnet:advanced_connector:1>,
+	<xnet:advanced_connector:2>,
+	<xnet:advanced_connector:3>,
+	<xnet:controller>,
+	<xnet:router>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

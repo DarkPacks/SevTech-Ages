@@ -42,6 +42,16 @@ var shapedRecipes = {
 			[<astralsorcery:itemrockcrystalsimple>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple>]
 		]
 	],
+
+	//Diamond Wand converted to Platinum
+	<betterbuilderswands:wanddiamond> : [
+		[
+			[null, null, metals.platinum.plate],
+			[null, log, null],
+			[log, null, null]
+		]
+	],
+
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[

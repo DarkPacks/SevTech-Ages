@@ -16,7 +16,6 @@ var removeItems = [
 	<minecraft:stone_slab:1>,
 	<minecraft:stone_slab:3>,
 	<minecraft:stone_slab:4>,
-	<minecraft:stone_slab:5>,
 	<minecraft:stone_slab:7>,
 	<minecraft:stone_slab>,
 	<minecraft:wooden_slab:1>,

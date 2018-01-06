@@ -94,8 +94,6 @@ mods.tconstruct.Casting.addTableRecipe(metals.steeleaf.rod.firstItem, <tconstruc
 mods.tconstruct.Casting.addTableRecipe(metals.fiery.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
 
 //Melting
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <quark:glass_shards>);
 mods.tconstruct.Melting.addRecipe(<liquid:ender_pearl> * 250, <appliedenergistics2:material:46>);
 
 //New seared stone mechanic
@@ -146,3 +144,27 @@ mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron
 mods.tconstruct.Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);
 mods.tconstruct.Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
 mods.tconstruct.Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);
+
+/*
+	Fixes so all glass is same melting temp.
+	I'm doing this against my better judgement because I don't want to hear players complaining about how it's impossible to make glass in stage 2 even though it's 100% possible already.
+*/
+mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>, 493);
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:red_sand_pile>, 493);
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <quark:glass_shards>);
+
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand>, 493);
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand:1>, 493);
+
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:glass>);
+
+for i in 0 to 16 {
+	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass>.definition.makeStack(i), 493);
+}
+
+mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:glass_pane>, 493);
+
+for i in 0 to 16 {
+	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>.definition.makeStack(i), 493);
+}

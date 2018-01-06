@@ -28,6 +28,7 @@ var itemsForStage = [
 	<minecraft:armor_stand>,
 	<minecraft:banner:*>,
 	<minecraft:bookshelf>,
+	<minecraft:map>,
 	<minecraft:bow>,
 	<minecraft:carpet:*>,
 	<minecraft:cauldron>,
@@ -52,8 +53,7 @@ var itemsForStage = [
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
 	<minecraft:sticky_piston>,
-	<minecraft:stonebrick>,
-	<minecraft:stonebrick:1>,
+	<minecraft:stonebrick:*>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
 	<minecraft:painting>,
@@ -65,8 +65,29 @@ var itemsForStage = [
 	<jaff:wooden_fishing_rod>,
 	<jaff:iron_hook>,
 	<jaff:tank>,
+
+	//Better With Mods
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<betterwithmods:composite_bow>,
+	<betterwithmods:broadhead_arrow>,
+	<betterwithaddons:iron_masonpick>,
+	<betterwithaddons:iron_carpentersaw>,
+	<betterwithaddons:iron_kukri>,
+	<betterwithaddons:iron_machete>,
+	<betterwithaddons:iron_matchpick>,
+	<betterwithaddons:iron_spade>,
+	<betterwithaddons:gold_spade>,
+	<betterwithaddons:gold_matchpick>,
+	<betterwithaddons:gold_machete>,
+	<betterwithaddons:gold_kukri>,
+	<betterwithaddons:gold_carpentersaw>,
+	<betterwithaddons:gold_masonpick>,
+	<betterwithmods:dynamite>,
+	<betterwithaddons:paper_wall>,
+	<betterwithaddons:crate:12>,
+	<betterwithaddons:bolt:2>,
+	<betterwithaddons:tweakmat:1>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -243,6 +264,9 @@ var itemsForStage = [
 	<storagedrawers:upgrade_storage:1>,
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
+	
+	//Extended Crafting
+	<extendedcrafting:handheld_table>,
 
 	//Rustic
 	<rustic:apiary>,

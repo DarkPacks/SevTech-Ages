@@ -82,107 +82,6 @@ var shapedRecipes = {
 		[[null, metals.copper.plate, null], [metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate], [null, metals.copper.plate, null]]
 	],
 
-	//Slabs
-	<abyssalcraft:dltslab1> * 6 : [
-		[[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]
-	],
-	<minecraft:stone_slab2> * 6 : [
-		[[<minecraft:red_sandstone>, <minecraft:red_sandstone>, <minecraft:red_sandstone>]]
-	],
-	<minecraft:stone_slab:1> * 6 : [
-		[[<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>]]
-	],
-	<minecraft:stone_slab:3> * 6 : [
-		[[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]
-	],
-	<minecraft:stone_slab:4> * 6 : [
-		[[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
-	],
-	<minecraft:stone_slab:5> * 6 : [
-		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
-	],
-	<minecraft:stone_slab:7> * 6 : [
-		[[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]
-	],
-	<minecraft:stone_slab> * 6 : [
-		[[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]
-	],
-	<minecraft:wooden_slab:1> * 6 : [
-		[[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]
-	],
-	<minecraft:wooden_slab:2> * 6 : [
-		[[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]
-	],
-	<minecraft:wooden_slab:3> * 6 : [
-		[[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]
-	],
-	<minecraft:wooden_slab:4> * 6 : [
-		[[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
-	],
-	<minecraft:wooden_slab:5> * 6 : [
-		[[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
-	],
-	<minecraft:wooden_slab> * 6 : [
-		[[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]
-	],
-	<natura:nether_slab:1> * 6 : [
-		[[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]]
-	],
-	<natura:nether_slab:2> * 6 : [
-		[[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>]]
-	],
-	<natura:nether_slab:3> * 6 : [
-		[[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]]
-	],
-	<natura:nether_slab> * 6 : [
-		[[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]]
-	],
-	<natura:overworld_slab2:1> * 6 : [
-		[[<natura:overworld_planks:6>, <natura:overworld_planks:6>, <natura:overworld_planks:6>]]
-	],
-	<natura:overworld_slab2:2> * 6 : [
-		[[<natura:overworld_planks:7>, <natura:overworld_planks:7>, <natura:overworld_planks:7>]]
-	],
-	<natura:overworld_slab2:3> * 6 : [
-		[[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>]]
-	],
-	<natura:overworld_slab2> * 6 : [
-		[[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]]
-	],
-	<natura:overworld_slab:1> * 6 : [
-		[[<natura:overworld_planks:1>, <natura:overworld_planks:1>, <natura:overworld_planks:1>]]
-	],
-	<natura:overworld_slab:2> * 6 : [
-		[[<natura:overworld_planks:2>, <natura:overworld_planks:2>, <natura:overworld_planks:2>]]
-	],
-	<natura:overworld_slab:3> * 6 : [
-		[[<natura:overworld_planks:3>, <natura:overworld_planks:3>, <natura:overworld_planks:3>]]
-	],
-	<natura:overworld_slab:4> * 6 : [
-		[[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>]]
-	],
-	<natura:overworld_slab> * 6 : [
-		[[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]]
-	],
-	<primal:slab_ironwood> * 6 : [
-		[[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]]
-	],
-	<rustic:ironwood_slab_item> * 6 : [
-		[[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]]
-	],
-	<rustic:olive_slab_item> * 6 : [
-		[[<rustic:planks>, <rustic:planks>, <rustic:planks>]]
-	],
-	<tconstruct:firewood_slab:1> * 6 : [
-		[[<tconstruct:firewood:1>, <tconstruct:firewood:1>, <tconstruct:firewood:1>]]
-	],
-	<tconstruct:firewood_slab> * 6 : [
-		[[<tconstruct:firewood>, <tconstruct:firewood>, <tconstruct:firewood>]]
-	],
-	<traverse:fir_slab> * 6 : [
-		[[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]
-	],
-
 	//Better With Mods
 	<betterwithaddons:aqueduct:10> * 3 : [
 		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]]
@@ -213,9 +112,6 @@ var shapedRecipes = {
 	],
 	<betterwithaddons:aqueduct:9> * 3 : [
 		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]]
-	],
-	<betterwithaddons:aqueduct> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]]
 	],
 	<betterwithmods:axle_generator:1> : [
 		[
@@ -603,7 +499,17 @@ var shapedRecipes = {
 			[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>],
 			[plank, <betterwithmods:material:3>, plank]
 		]
+	],
+
+	//Simply Tea
+	<simplytea:teabag> : [
+		[
+			[null, <betterwithmods:material:3>, str],
+			[<ore:clothPlant>, <ore:clothPlant>, null],
+			[<ore:clothPlant>, <ore:clothPlant>, null]
+		]
 	]
+
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

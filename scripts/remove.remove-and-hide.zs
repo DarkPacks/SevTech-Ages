@@ -22,6 +22,7 @@ var removeAndHideItems = [
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
 	<betterwithmods:stump:*>,
+	<immcraft:bookstand>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,

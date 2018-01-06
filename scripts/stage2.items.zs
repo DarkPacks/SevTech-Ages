@@ -58,6 +58,7 @@ var stage2Items = [
 	<minecraft:spruce_boat>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_pressure_plate>,
+	<minecraft:stone_slab:5>,
 	<minecraft:tripwire_hook>,
 	<minecraft:water_bucket>,
 	<minecraft:wooden_pressure_plate>,
@@ -67,6 +68,8 @@ var stage2Items = [
 	<minecraft:painting>,
 	<prospectors:prospector_low>,
 	<minecraft:paper>,
+	<minecraft:map>,
+	<minecraft:filled_map>,
 	<primal:plant_fiber_pulp>,
 	<minecraft:shears>,
 	<minecraft:ender_pearl>,
@@ -159,10 +162,46 @@ var stage2Items = [
 	<nex:tool_sword_bone>,
 	<roots:gold_knife>,
 
+	//Stairs
+	<natura:colored_grass_stairs_topiary>,
+	<natura:colored_grass_stairs_bluegrass>,
+	<natura:colored_grass_stairs_autumnal>,
+	<natura:overworld_stairs_maple>,
+	<natura:overworld_stairs_silverbell>,
+	<natura:overworld_stairs_amaranth>,
+	<natura:overworld_stairs_tiger>,
+	<natura:overworld_stairs_willow>,
+	<natura:overworld_stairs_eucalyptus>,
+	<natura:overworld_stairs_hopseed>,
+	<natura:overworld_stairs_sakura>,
+	<natura:overworld_stairs_redwood>,
+
+	//Primal
+	<primal:ladder_block_stonebrick_cracked>,
+	<primal:ladder_block_stonebrick_mossy>,
+	<primal:ladder_block_stonebrick>,
+
+	//Extended Crafting
+	<extendedcrafting:handheld_table>,
+
+
 	//Better With Mods
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:ender_spectacles>,
 	<betterwithmods:metal_chime:*>,
+	<betterwithaddons:redstone_emitter>,
+	<betterwithmods:composite_bow>,
+	<betterwithaddons:iron_masonpick>,
+	<betterwithaddons:iron_carpentersaw>,
+	<betterwithaddons:iron_kukri>,
+	<betterwithaddons:iron_machete>,
+	<betterwithaddons:iron_matchpick>,
+	<betterwithaddons:iron_spade>,
+	<betterwithmods:dynamite>,
+	<betterwithaddons:paper_wall>,
+	<betterwithaddons:crate:12>,
+	<betterwithaddons:bolt:2>,
+	<betterwithaddons:aqueduct>,
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -482,6 +521,8 @@ var stage2Items = [
 	<astralsorcery:itemwand:0>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 
+
+
 	//Embers Stage 2
 	<embers:adhesive>,
 	<embers:alchemic_waste>,
@@ -580,6 +621,7 @@ var stage2Items = [
 	//Actually Additions
 	<actuallyadditions:block_smiley_cloud>,
 	<actuallyadditions:iron_paxel>,
+	<actuallyadditions:item_dust:4>,
 
 	//Content Tweaker
 	<forge:bucketfilled>.withTag({FluidName: "ender_pearl", Amount: 1000}),
@@ -633,8 +675,10 @@ var stage2Items = [
 	<tconstruct:slimesling>,
 	<tconstruct:soil:1>,
 	<tconstruct:materials:9>,
-
-
+	<tconstruct:materials:18>,
+	<tconstruct:seared_tank>,
+	<tcomplement:materials>,
+	<tcomplement:cast>,
 
 	//Dark Utils
 	<darkutils:charm_null>,
@@ -745,10 +789,54 @@ var stage2Items = [
 	<spartanshields:shield_basic_iron>,
 	<spartanshields:shield_basic_gold>,
 
+	//Iron Chests
+	<ironchest:iron_chest>,
+	<ironchest:iron_chest:1>,
+	<ironchest:iron_chest:4>,
+	<ironchest:wood_iron_chest_upgrade>,
+	<ironchest:iron_gold_chest_upgrade>,
+	<ironchest:copper_silver_chest_upgrade>,
+	<ironchest:silver_gold_chest_upgrade>,
+	<ironchest:copper_iron_chest_upgrade>,
+
+
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}})
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
+
+	//Info Accesories
+	<infoaccessories:info_accessory>,
+	<infoaccessories:info_accessory:1>,
+	<infoaccessories:info_accessory:2>,
+	<infoaccessories:info_accessory:3>,
+	<infoaccessories:info_accessory:4>,
+	<infoaccessories:info_accessory:5>,
+	<infoaccessories:info_accessory:6>,
+	<infoaccessories:info_accessory:7>,
+	<infoaccessories:info_accessory:8>,
+	<infoaccessories:info_accessory:9>,
+
+	//Natura
+	<natura:overworld_bookshelves>,
+	<natura:overworld_bookshelves:1>,
+	<natura:overworld_bookshelves:2>,
+	<natura:overworld_bookshelves:3>,
+	<natura:overworld_bookshelves:4>,
+	<natura:overworld_bookshelves:5>,
+	<natura:overworld_bookshelves:6>,
+	<natura:overworld_bookshelves:7>,
+	<natura:overworld_bookshelves:8>,
+	<natura:nether_bookshelves>,
+	<natura:nether_bookshelves:1>,
+	<natura:nether_bookshelves:2>,
+	<natura:nether_bookshelves:3>,
+	<betterwithaddons:decomat>,
+	<betterwithaddons:decomat:1>,
+	<betterwithaddons:decomat:2>,
+	<betterwithaddons:tweakmat:1>
+
+
 
 ] as IItemStack[];
 

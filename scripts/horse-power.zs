@@ -29,95 +29,180 @@ function addPressRecipe(output as IItemStack, input as IIngredient) {
 	Chopping Block
 	mods.horsepower.ChoppingBlock.add(<input>, <output>, <time>, <manual>);
 */
-//Manual
-addChoppingBlockRecipe(<minecraft:planks:0> * 4, <minecraft:log:0>, 4, true);
-addChoppingBlockRecipe(<minecraft:planks:1> * 4, <minecraft:log:1>, 4, true);
-addChoppingBlockRecipe(<minecraft:planks:2> * 4, <minecraft:log:2>, 4, true);
-addChoppingBlockRecipe(<minecraft:planks:3> * 4, <minecraft:log:3>, 4, true);
-addChoppingBlockRecipe(<minecraft:planks:4> * 4, <minecraft:log2:0>, 4, true);
-addChoppingBlockRecipe(<minecraft:planks:5> * 4, <minecraft:log2:1>, 4, true);
+//"Standardized" Recipes for manual and automatic. 4 for manual, 2 automatic
+//If not desired, do recipe manually
+var choppingRecipeItems as IItemStack[][IItemStack]= {
+	<abyssalcraft:dltplank> * 4 : [
+		<abyssalcraft:dltlog>
+	],
+	<abyssalcraft:dreadplanks> * 4 : [
+		<abyssalcraft:dreadlog>
+	],
+	<betterwithaddons:planks_mulberry> * 4 : [
+		<betterwithaddons:log_mulberry>
+	],
+	<betterwithaddons:planks_sakura> * 4 : [
+		<betterwithaddons:log_sakura>
+	],
+	<minecraft:planks:1> * 4 : [
+		<minecraft:log:1>,
+		<primal:logs_stripped:1>,
+		<twilightforest:twilight_log:1>,
+		<twilightforest:twilight_log:3>
+	],
+	<minecraft:planks:2> * 4 : [
+		<minecraft:log:2>,
+		<primal:logs_stripped:2>,
+		<twilightforest:twilight_log:2>
+	],
+	<minecraft:planks:3> * 4 : [
+		<betterwithmods:blood_log>,
+		<minecraft:log:3>,
+		<primal:logs_stripped:3>
+	],
+	<minecraft:planks:4> * 4 : [
+		<minecraft:log2>,
+		<primal:logs_stripped:4>
+	],
+	<minecraft:planks:5> * 4 : [
+		<minecraft:log2:1>,
+		<primal:logs_stripped:5>
+	],
+	<minecraft:planks> * 4 : [
+		<minecraft:log>,
+		<primal:logs_stripped>,
+		<twilightforest:twilight_log>
+	],
+	<minecraft:stick> * 4 : [
+		<abyssalcraft:dltplank>,
+		<abyssalcraft:dreadplanks>,
+		<betterwithaddons:planks_mulberry>,
+		<betterwithaddons:planks_sakura>,
+		<minecraft:planks:1>,
+		<minecraft:planks:2>,
+		<minecraft:planks:3>,
+		<minecraft:planks:4>,
+		<minecraft:planks:5>,
+		<minecraft:planks>,
+		<natura:nether_planks:1>,
+		<natura:nether_planks:2>,
+		<natura:nether_planks:3>,
+		<natura:nether_planks>,
+		<natura:overworld_planks:1>,
+		<natura:overworld_planks:3>,
+		<natura:overworld_planks:4>,
+		<natura:overworld_planks:5>,
+		<natura:overworld_planks:6>,
+		<natura:overworld_planks:7>,
+		<natura:overworld_planks:8>,
+		<natura:overworld_planks>,
+		<primal:planks:1>,
+		<primal:planks:3>,
+		<primal:planks>,
+		<totemic:cedar_plank>,
+		<traverse:fir_planks>
+	],
+	<natura:nether_planks:1> * 4 : [
+		<natura:nether_logs2:15>
+	],
+	<natura:nether_planks:1> * 4 : [
+		<natura:nether_logs2>
+	],
+	<natura:nether_planks:2> * 4 : [
+		<natura:nether_logs:1>
+	],
+	<natura:nether_planks:3> * 4 : [
+		<natura:nether_logs:2>
+	],
+	<natura:nether_planks> * 4 : [
+		<natura:nether_logs>
+	],
+	<natura:overworld_planks:1> * 4 : [
+		<natura:overworld_logs:1>
+	],
+	<natura:overworld_planks:2> * 4 : [
+		<natura:overworld_logs:2>
+	],
+	<natura:overworld_planks:3> * 4 : [
+		<natura:overworld_logs:3>
+	],
+	<natura:overworld_planks:4> * 4 : [
+		<natura:overworld_logs2>
+	],
+	<natura:overworld_planks:5> * 4 : [
+		<natura:overworld_logs2:1>
+	],
+	<natura:overworld_planks:6> * 4 : [
+		<natura:overworld_logs2:2>
+	],
+	<natura:overworld_planks:7> * 4 : [
+		<natura:overworld_logs2:3>
+	],
+	<natura:overworld_planks:8> * 4 : [
+		<natura:redwood_logs:1>
+	],
+	<natura:overworld_planks> * 4 : [
+		<natura:overworld_logs>
+	],
+	<primal:planks> * 4 : [
+		<primal:logs>,
+		<primal:logs_stripped:6>
+	],
+	<primal:planks:1> * 4 : [
+		<primal:logs:1>,
+		<primal:logs_stripped:7>
+	],
+	<primal:thin_slab_acacia> * 2 : [
+		<minecraft:wooden_slab:4>
+	],
+	<primal:thin_slab_bigoak> * 2 : [
+		<minecraft:wooden_slab:5>
+	],
+	<primal:thin_slab_birch> * 2 : [
+		<minecraft:wooden_slab:2>
+	],
+	<primal:thin_slab_corypha> * 2 : [
+		<primal:slab_corypha>
+	],
+	<primal:thin_slab_ironwood> * 2 : [
+		<rustic:ironwood_slab_item>
+	],
+	<primal:thin_slab_jungle> * 2 : [
+		<minecraft:wooden_slab:3>
+	],
+	<primal:thin_slab_lacquer> * 2 : [
+		<primal:slab_lacquer>
+	],
+	<primal:thin_slab_oak> * 2 : [
+		<minecraft:wooden_slab>
+	],
+	<primal:thin_slab_spruce> * 2 : [
+		<minecraft:wooden_slab:1>
+	],
+	<rustic:planks:1> * 4 : [
+		<rustic:log:1>
+	],
+	<rustic:planks> * 4 : [
+		<rustic:log>
+	],
+	<totemic:cedar_plank> * 4 : [
+		<totemic:cedar_log>
+	],
+	<totemic:cedar_plank> * 4 : [
+		<totemic:stripped_cedar_log>
+	],
+	<traverse:fir_planks> * 4 : [
+		<traverse:fir_log>
+	]
+};
 
-//Both
-addChoppingBlockRecipe(<abyssalcraft:dltplank> * 4, <abyssalcraft:dltlog>, 1, false);
-addChoppingBlockRecipe(<abyssalcraft:dreadplanks> * 4, <abyssalcraft:dreadlog>, 1, false);
-addChoppingBlockRecipe(<betterwithaddons:planks_mulberry> * 4, <betterwithaddons:log_mulberry>, 1, false);
-addChoppingBlockRecipe(<betterwithaddons:planks_sakura> * 4, <betterwithaddons:log_sakura>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:0> * 4, <minecraft:log:0>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:1> * 4, <minecraft:log:1>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:1> * 4, <primal:logs_stripped:1>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:1> * 4, <twilightforest:twilight_log:1>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:1> * 4, <twilightforest:twilight_log:3>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:2> * 4, <minecraft:log:2>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:2> * 4, <primal:logs_stripped:2>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:2> * 4, <twilightforest:twilight_log:2>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:3> * 4, <betterwithmods:blood_log>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:3> * 4, <minecraft:log:3>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:3> * 4, <primal:logs_stripped:3>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:4> * 4, <minecraft:log2:0>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:4> * 4, <primal:logs_stripped:4>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:5> * 4, <minecraft:log2:1>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks:5> * 4, <primal:logs_stripped:5>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks> * 4, <primal:logs_stripped>, 1, false);
-addChoppingBlockRecipe(<minecraft:planks> * 4, <twilightforest:twilight_log>, 1, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <abyssalcraft:dltplank>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <abyssalcraft:dreadplanks>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <betterwithaddons:planks_mulberry>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <betterwithaddons:planks_sakura>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:0>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:1>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:2>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:3>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:4>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <minecraft:planks:5>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:nether_planks:1>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:nether_planks:2>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:nether_planks:3>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:nether_planks>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:1>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:3>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:4>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:5>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:6>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:7>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks:8>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <natura:overworld_planks>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <primal:planks:0>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <primal:planks:1>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <primal:planks:3>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <totemic:cedar_plank>, 4, false);
-addChoppingBlockRecipe(<minecraft:stick> * 4, <traverse:fir_planks>, 4, false);
-addChoppingBlockRecipe(<natura:nether_planks:1> * 4, <natura:nether_logs2:15>, 1, false);
-addChoppingBlockRecipe(<natura:nether_planks:1> * 4, <natura:nether_logs2>, 1, false);
-addChoppingBlockRecipe(<natura:nether_planks:2> * 4, <natura:nether_logs:1>, 1, false);
-addChoppingBlockRecipe(<natura:nether_planks:3> * 4, <natura:nether_logs:2>, 1, false);
-addChoppingBlockRecipe(<natura:nether_planks> * 4, <natura:nether_logs>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:1> * 4, <natura:overworld_logs:1>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:2> * 4, <natura:overworld_logs:2>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:3> * 4, <natura:overworld_logs:3>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:4> * 4, <natura:overworld_logs2>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:5> * 4, <natura:overworld_logs2:1>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:6> * 4, <natura:overworld_logs2:2>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:7> * 4, <natura:overworld_logs2:3>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks:8> * 4, <natura:redwood_logs:1>, 1, false);
-addChoppingBlockRecipe(<natura:overworld_planks> * 4, <natura:overworld_logs>, 1, false);
-addChoppingBlockRecipe(<primal:planks:0> * 4, <primal:logs>, 1, false);
-addChoppingBlockRecipe(<primal:planks:0> * 4, <primal:logs_stripped:6>, 1, false);
-addChoppingBlockRecipe(<primal:planks:1> * 4, <primal:logs:1>, 1, false);
-addChoppingBlockRecipe(<primal:planks:1> * 4, <primal:logs_stripped:7>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_acacia> * 2, <minecraft:wooden_slab:4>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_bigoak> * 2, <minecraft:wooden_slab:5>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_birch> * 2, <minecraft:wooden_slab:2>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_corypha> * 2, <primal:slab_corypha>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_ironwood> * 2, <rustic:ironwood_slab_item>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_jungle> * 2, <minecraft:wooden_slab:3>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_lacquer> * 2, <primal:slab_lacquer>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_oak> * 2, <minecraft:wooden_slab>, 1, false);
-addChoppingBlockRecipe(<primal:thin_slab_spruce> * 2, <minecraft:wooden_slab:1>, 1, false);
-addChoppingBlockRecipe(<rustic:planks:1> * 4, <rustic:log:1>, 1, false);
-addChoppingBlockRecipe(<rustic:planks> * 4, <rustic:log>, 1, false);
-addChoppingBlockRecipe(<totemic:cedar_plank> * 4, <totemic:cedar_log>, 1, false);
-addChoppingBlockRecipe(<totemic:cedar_plank> * 4, <totemic:stripped_cedar_log>, 1, false);
-addChoppingBlockRecipe(<traverse:fir_planks> * 4, <traverse:fir_log>, 4, false);
+for output, inputs in choppingRecipeItems {
+	for input in inputs {
+		//Add recipe for manual and automatic with different times for each. Makes it consistent for all
+		addChoppingBlockRecipe(output, input, 4, true);
+		addChoppingBlockRecipe(output, input, 2, false);
+	}
+}
 
 /*
 	Grindstone
@@ -198,7 +283,7 @@ addGrindstoneRecipe(<minecraft:dye:13>, <minecraft:red_flower:2>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:14>, <minecraft:red_flower:5>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 24, false);
 addGrindstoneRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 24, false);
-addGrindstoneRecipe(<minecraft:sand:0> * 2, <minecraft:sandstone:0>, 12, false);
+addGrindstoneRecipe(<minecraft:sand> * 2, <minecraft:sandstone>, 12, false);
 addGrindstoneRecipe(<minecraft:sugar> * 1, <minecraft:reeds>, 12, false);
 addGrindstoneRecipe(<natura:materials:1>, <natura:materials>, 12, false);
 addGrindstoneRecipe(<pickletweaks:coal_piece:1> * 8, <minecraft:coal:1>, 16, false);

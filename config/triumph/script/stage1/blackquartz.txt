@@ -7,9 +7,6 @@ setDescription("Travel to the bottom of the Beneath dimension to find Black Quar
 setParent("triumph:stage1/beneath")
 setRequiresParent(true)
 
-criteria = addCriteria("brokeLog", "triumph:player_break_block")
-criteria.setBlock("actuallyadditions:block_misc", 3)
-
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("actuallyadditions:item_misc", 5)
 

@@ -12,6 +12,11 @@ var itemsForStage = [
 	<minecraft:sign>,
 	<tconstruct:stone_ladder>,
 	<minecraft:cake>,
+	<minecraft:lit_pumpkin>,
+	<minecraft:tnt>,
+
+	//Hunting Dimension
+	<huntingdim:biome_changer:*>,
 
 	//Brick
 	<betterwithaddons:bricks_stained:*>,
@@ -59,10 +64,17 @@ var itemsForStage = [
 	<traverse:red_rock_bricks_slab>,
 	<traverse:red_rock_bricks_stairs>,
 
+	//Abyssalcraft
+	<abyssalcraft:crate>,
+
+	//Primal Tech
+	<primal_tech:stone_anvil>,
+
 	//Tinkers'
 	<tconstruct:slime_congealed:3>,
 	<tconstruct:slime:3>,
 	<tconstruct:edible:3>,
+	<tconstruct:channel>,
 
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,
@@ -134,6 +146,12 @@ var itemsForStage = [
 	<traverse:fir_door>,
 	<traverse:fir_fence>,
 	<traverse:fir_fence_gate>,
+	<tallgates:tall_gate>,
+	<tallgates:tall_gate:1>,
+	<tallgates:tall_gate:2>,
+	<tallgates:tall_gate:3>,
+	<tallgates:tall_gate:4>,
+	<tallgates:tall_gate:5>,
 
 	//Hoes
 	<abyssalcraft:dhoe>,
@@ -225,8 +243,31 @@ var itemsForStage = [
 	<quark:stone_stairs>,
 	<rustic:stairs_ironwood>,
 	<rustic:stairs_olive>,
+	<traverse:blue_rock_cobblestone_stairs>,
+	<traverse:red_rock_cobblestone_stairs>,
+	<traverse:fir_stairs>,
+	<tconstruct:dried_clay_stairs>,
+
+	//Immersive Engineering
+	<immersiveengineering:storage_slab:5>,
 
 	//Better With Mods
+	<betterwithmods:candle>,
+	<betterwithmods:candle:1>,
+	<betterwithmods:candle:2>,
+	<betterwithmods:candle:3>,
+	<betterwithmods:candle:4>,
+	<betterwithmods:candle:5>,
+	<betterwithmods:candle:6>,
+	<betterwithmods:candle:7>,
+	<betterwithmods:candle:8>,
+	<betterwithmods:candle:9>,
+	<betterwithmods:candle:10>,
+	<betterwithmods:candle:11>,
+	<betterwithmods:candle:12>,
+	<betterwithmods:candle:13>,
+	<betterwithmods:candle:14>,
+	<betterwithmods:candle:15>,	
 	<betterwithaddons:bag:*>,
 	<betterwithaddons:chute>,
 	<betterwithaddons:crate:*>,
@@ -246,6 +287,31 @@ var itemsForStage = [
 	<betterwithmods:screw_pump>,
 	<betterwithmods:slats:*>,
 	<betterwithmods:vase:*>,
+	<betterwithaddons:crate:10>,
+	<betterwithaddons:crate:7>,
+	<betterwithaddons:crate>,
+	<betterwithaddons:crate:9>,
+	<betterwithaddons:crate:6>,
+	<betterwithaddons:crate:3>,
+	<betterwithaddons:crate:5>,
+	<betterwithaddons:crate:1>,
+	<betterwithaddons:crate:2>,
+	<betterwithaddons:crate:8>,
+	<betterwithaddons:crate:11>,
+	<betterwithaddons:crate:4>,
+	<betterwithaddons:bag:9>,
+	<betterwithaddons:bag:1>,
+	<betterwithaddons:bag:2>,
+	<betterwithaddons:bag>,
+	<betterwithaddons:bag:8>,
+	<betterwithaddons:bag:5>,
+	<betterwithaddons:bag:10>,
+	<betterwithaddons:bag:4>,
+	<betterwithaddons:bag:3>,
+	<betterwithaddons:bag:13>,
+	<betterwithaddons:bolt>,
+	<betterwithaddons:bolt:1>,
+	<betterwithaddons:bolt:6>,
 
 	//Tinkers'
 	<tconstruct:faucet>,
@@ -381,7 +447,17 @@ var itemsForStage = [
 	<embers:stamp_bar_raw>,
 	<embers:stamp_flat_raw>,
 	<embers:stamp_plate_raw>,
-	<embers:stone_edge>
+	<embers:stone_edge>,
+
+	//Simply Tea
+	<simplytea:teabag_green>,
+	<simplytea:teabag_black>,
+	<simplytea:cup>,
+	<simplytea:cup_tea_black>,
+	<simplytea:cup_tea_green>,
+	<simplytea:teapot>,
+	<simplytea:teapot:1>
+
 ] as IItemStack[];
 
 for item in itemsForStage {

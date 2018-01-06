@@ -37,6 +37,11 @@ var shapelessRecipes = {
 	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
+	],
+
+		//Now you can make fleece in stage 0
+	<betterwithaddons:wool> : [
+		[str, str, str, str]
 	]
 } as IIngredient[][][IItemStack];
 

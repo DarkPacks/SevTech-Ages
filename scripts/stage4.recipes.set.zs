@@ -28,12 +28,17 @@ for id in modIDs {
 var itemsForStage = [
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
+	<cyclicmagic:item_pipe>,
+	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:fan>,
 
 	//Bonsai
 	<bonsaitrees:bonsaipot>,
 	<bonsaitrees:bonsaipot:1>,
 
 	//Actually Additions
+	<actuallyadditions:item_laser_wrench>,
+	<actuallyadditions:item_misc:6>,
 	<actuallyadditions:battery_bauble>,
 	<actuallyadditions:battery_double_bauble>,
 	<actuallyadditions:battery_quadruple_bauble>,
@@ -109,6 +114,22 @@ var itemsForStage = [
 	<actuallyadditions:magnet_ring_bauble>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
 
+	//Immersive Engineering
+	<immersiveengineering:storage_slab:5>,
+
+	//Dark Utils
+	<darkutils:trap_tile>,
+	<darkutils:trap_tile:1>,
+	<darkutils:trap_tile:2>,
+	<darkutils:trap_tile:4>,
+	<darkutils:trap_tile:6>,
+	<darkutils:trap_tile:7>,
+	<darkutils:sneaky_button>,
+	<darkutils:monolith>,
+	<darkutils:monolith:1>,
+	<darkutils:ender_pearl_hopper>,
+	<darkutils:anti_slime>,
+
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,
 	<mob_grinding_utils:absorption_upgrade>,
@@ -131,6 +152,15 @@ var itemsForStage = [
 	<mob_grinding_utils:wither_muffler>,
 	<mob_grinding_utils:xp_tap>,
 
+	//Extended Crafting
+	<extendedcrafting:interface>,
+	<extendedcrafting:table_elite>,
+
+	//Quark
+	<quark:rain_detector>,
+	<quark:ender_watcher>,
+	<quark:iron_rod>,
+	
 	//Industrial Foregoing
 	<industrialforegoing:adult_filter>,
 	<industrialforegoing:animal_byproduct_recolector>,
@@ -199,6 +229,16 @@ var itemsForStage = [
 	<industrialforegoing:water_condensator>,
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
+
+	//Cyclic
+	<cyclicmagic:block_library>,
+	<cyclicmagic:block_library_ctrl>,
+
+	//Tinkers
+	<tcomplement:manyullyn_helmet>,
+	<tcomplement:manyullyn_chestplate>,
+	<tcomplement:manyullyn_leggings>,
+	<tcomplement:manyullyn_boots>,
 
 	//Tesla
 	<teslacorelib:base_addon>,

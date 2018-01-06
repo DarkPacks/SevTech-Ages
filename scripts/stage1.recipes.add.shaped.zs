@@ -499,7 +499,17 @@ var shapedRecipes = {
 			[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>],
 			[plank, <betterwithmods:material:3>, plank]
 		]
+	],
+
+	//Simply Tea
+	<simplytea:teabag> : [
+		[
+			[null, <betterwithmods:material:3>, str],
+			[<ore:clothPlant>, <ore:clothPlant>, null],
+			[<ore:clothPlant>, <ore:clothPlant>, null]
+		]
 	]
+
 } as IIngredient[][][][IItemStack];
 
 for item, recipesForItem in shapedRecipes {

@@ -199,7 +199,7 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 				var arcGivesSlag as bool = false;
 				mods.immersiveengineering.ArcFurnace.addRecipe(
 					metalItems[metalName].ingot.items[0],
-					preferredMetalItem,
+					metal[metalType],
 					arcGivesSlag ? <ore:itemSlag>.firstItem : null,
 					defaultArcTickTime,
 					defaultArcEnergyPerTick

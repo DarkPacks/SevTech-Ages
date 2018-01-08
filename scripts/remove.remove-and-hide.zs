@@ -15,6 +15,7 @@ var removeAndHideItems = [
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
+	<betterwithmods:stump_remover>,
 	<betterwithmods:material:31>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,
@@ -91,7 +92,9 @@ var removeAndHideItems = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<stevescarts:modulecomponents:9>,
-
+	<embers:plate_caminite_raw>,
+	<pickletweaks:grass_fiber>,
+	
 	//Nuggets
 	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,

@@ -160,6 +160,9 @@ var itemsForStage = [
 	<quark:rain_detector>,
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
+	<quark:purpur_block_wall>,
+	<quark:duskbound_block_stairs>,
+	<quark:biotite_stairs>,
 	
 	//Industrial Foregoing
 	<industrialforegoing:adult_filter>,
@@ -239,6 +242,10 @@ var itemsForStage = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_leggings>,
 	<tcomplement:manyullyn_boots>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
+
 
 	//Tesla
 	<teslacorelib:base_addon>,

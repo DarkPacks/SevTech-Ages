@@ -2,7 +2,7 @@ setIcon("minecraft:glass")
 
 setTitle("Glass Blowing")
 
-setDescription("Create glass by first melting a Pile of Sand in the melter")
+setDescription("Create glass by first melting Sand in the melter")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

@@ -17,7 +17,8 @@ global STAGES as string[string] = {
 	four : "four",
 	fourMob : "four_mob",
 	five : "five",
-	fiveMob : "five_mob"
+	fiveMob : "five_mob",
+	creative : "creative"
 };
 
 global defaultArmorDropChance as double = 0.15;

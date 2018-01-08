@@ -252,6 +252,24 @@ var itemsForStage = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
+	//Steve's Factory Manager
+	<stevesfactorymanager:blockmachinemanagername>,
+	<stevesfactorymanager:blockcablename>,
+	<stevesfactorymanager:blockcablerelayname>,
+	<stevesfactorymanager:blockcablerelayname:8>,
+	<stevesfactorymanager:blockcableoutputname>,
+	<stevesfactorymanager:blockcableinputname>,
+	<stevesfactorymanager:blockcableintakename>,
+	<stevesfactorymanager:blockcableintakename:8>,
+	<stevesfactorymanager:blockcablebudname>,
+	<stevesfactorymanager:blockcableclustername>,
+	<stevesfactorymanager:blockcableclustername:8>,
+	<stevesfactorymanager:blockcablecamouflagename>,
+	<stevesfactorymanager:blockcablecamouflagename:1>,
+	<stevesfactorymanager:blockcablecamouflagename:2>,
+	<stevesfactorymanager:blockcablesignname>,
+	<stevesfactorymanager:memorydisk>,
+
 	//Diamond Stuff
 	<minecraft:diamond_horse_armor>,
 
@@ -1102,7 +1120,6 @@ var recipesForStage = [
 	"mysticalagriculture:stone_3",
 	"mysticalagriculture:stone_seeds",
 	"mysticalagriculture:stonebrick",
-	"mysticalagriculture:stonebrick_1",
 	"mysticalagriculture:stonebrick_2",
 	"mysticalagriculture:superium_apple",
 	"mysticalagriculture:superium_arrow",

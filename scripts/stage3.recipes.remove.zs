@@ -164,7 +164,10 @@ var removeItems = [
 	<oeintegration:excavatemodifier>,
 	<tconstruct:edible:4>,
 	<tconstruct:edible:2>,
-	<tconstruct:edible:1>
+	<tconstruct:edible:1>,
+	<actuallyadditions:item_food:14>,
+	<actuallyadditions:item_food:12>,
+	<actuallyadditions:item_food:8>
 
 ] as IItemStack[];
 

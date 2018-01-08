@@ -76,6 +76,17 @@ var stage3Items = [
 	<immersiveengineering:ore:2>,
 	<immersiveengineering:ore:3>,
 	<immersiveengineering:ore:4>,
+	<mundaneredstone:redstone_ore>,
+
+	//Repair Kits
+	<pickletweaks:repair_kit:19>,
+	<pickletweaks:repair_kit:18>,
+	<pickletweaks:repair_kit:12>,
+	<pickletweaks:repair_kit:16>,
+	<pickletweaks:repair_kit:22>,
+	<pickletweaks:repair_kit:23>,
+	<pickletweaks:repair_kit:20>,
+
 
 	//Natura
 	<natura:nether_logs>,
@@ -228,10 +239,58 @@ var stage3Items = [
 	<quark:polished_netherrack>,
 	<quark:smoker>,
 
+	<betterwithmods:companion_cube>,
+	<betterwithmods:block_dispenser>,
+	<betterwithmods:buddy_block>,
+	<betterwithmods:light>,
+	<betterwithmods:mining_charge>,
+	<betterwithmods:cooking_pot:2>,
+	<betterwithmods:aesthetic:10>,
+	<betterwithmods:material:20>,
+	<betterwithaddons:block_matcher>,
+	<betterwithmods:material:23>,
+	<betterwithmods:material:50>,
+
+	<betterwithaddons:cherrybox>,
+	<betterwithaddons:japanmat:6>,
+	<betterwithmods:material:38>,
+	<betterwithaddons:japanmat:7>,
+	<betterwithaddons:slat>,
+	<betterwithmods:lens>,
+	<betterwithmods:stake>,
+	<natura:clouds:1>,
+	<natura:clouds:2>,
+	<natura:clouds:3>,
+
+
+
+	<tconstruct:firewood_stairs>,
+	<tconstruct:lavawood_stairs>,
+	<quark:magma_bricks_stairs>,
+	<primal:stairs_corypha>,
+
+
 	//Primal
 	<primal:ladder_block_netherstone>,
 	<primal:ladder_block_netherbrick>,
 	<primal:ladder_block_netherrack>,
+	<primal:dry_grass>,
+	<primal:void_grass>,
+	<primal:cineris_grass>,
+	<primal:cineris_bloom>,
+	<primal:shelf_half:9>,
+	<primal:ash_bin:9>,
+	<primal:planks:3>,
+	<primal:sapling:2>,
+	<primal:corypha_stalk>,
+	<primal:corypha_stalk:1>,
+	<primal:slab_corypha>,
+	<primal:thin_slab_corypha>,
+	<primal:grate_corypha>,
+	<primal:fishing_rod_corypha>,
+	<primal:bark_corypha>,
+	<primal:boat_corypha>,
+
 
 
 	//Chisel
@@ -612,9 +671,45 @@ var stage3Items = [
 	<betterwithmods:bat_wing>,
 	<betterwithmods:cooked_bat_wing>,
 	<betterwithmods:aesthetic:3>,
-
+	<betterwithmods:single_machine:2>,
+	<betterwithmods:bellows:1>,
+	<betterwithaddons:banner_detector>,
+	<betterwithaddons:pavement>,
 	<primal:tamahagane_plate>,
 	<primal:metalblock:3>,
+	<betterwithaddons:tanto>,
+	<betterwithaddons:wakizashi>,
+	<betterwithaddons:katana>,
+	<betterwithaddons:shinai>,
+	<betterwithaddons:japanmat:16>,
+	<betterwithaddons:japanmat:17>,
+	<betterwithaddons:japanmat:18>,
+	<betterwithaddons:japanmat:19>,
+	<betterwithaddons:japanmat:20>,
+	<betterwithaddons:japanmat:15>,
+	<betterwithaddons:ya>,
+	<betterwithaddons:yumi>,
+	<betterwithaddons:bundle:2>,
+	<betterwithaddons:soulsand_pile>,
+	<betterwithaddons:crop_rice>,
+	<betterwithmods:material:27>,
+
+	//Geolosys
+	<geolosys:ore:6>,
+	<geolosys:ore:7>,
+	<geolosys:ore:8>,
+	<geolosys:ore_vanilla:1>,
+	<geolosys:ore_sample:6>,
+	<geolosys:ore_sample:7>,
+	<geolosys:ore_sample:8>,
+	<geolosys:ore_sample_vanilla:1>,
+	<geolosys:cluster:4>,
+	<geolosys:cluster:5>,
+	<geolosys:cluster:8>,
+	<geolosys:ore:1>,
+	<geolosys:ore_sample:1>,
+
+
 
 
 	//Extended Crafting
@@ -1103,10 +1198,9 @@ var stage3Items = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 4 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 6 as short}}),
-
-
-
-
+	<tconstruct:slime:1>,
+	<tconstruct:slime:2>,
+	<tconstruct:slime:4>,
 
 
 	<tconstruct:throwball>,

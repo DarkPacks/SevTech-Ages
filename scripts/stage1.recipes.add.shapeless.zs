@@ -21,9 +21,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapelessRecipes = {
 	<minecraft:torch> * 2 : [
-		[<minecraft:coal:*>, cordage, stick]
-	],
-	<minecraft:torch> * 2 : [
+		[<minecraft:coal:*>, cordage, stick],
 		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
 	],
 	<primal:bark_acacia> : [

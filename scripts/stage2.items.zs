@@ -93,12 +93,41 @@ var stage2Items = [
 	<quark:arrow_explosive>,
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<minecraft:fireworks>,
+
+	//YoYo
+	<yoyos:book>,
+
+	//Repair Kits
+	<pickletweaks:repair_kit:2>,
+	<pickletweaks:repair_kit:3>,
+	<pickletweaks:repair_kit:17>,
+	<pickletweaks:repair_kit:21>,
+
+	//Geolosys
+	<geolosys:ore>,
+	<geolosys:ore_vanilla:2>,
+	<geolosys:ore_vanilla:3>,
+	<geolosys:ore_sample>,
+	<geolosys:ore_sample_vanilla:2>,
+	<geolosys:ore_sample_vanilla:3>,
+	<geolosys:cluster>,
+	<geolosys:cluster:1>,
+
+	<weirdinggadget:weirding_gadget>,
+
+	//Pickle Tweaks
+	<pickletweaks:watering_can>,
 
 	//Ore
 	<abyssalcraft:abygolore>,
 	<abyssalcraft:abyiroore>,
 	<abyssalcraft:abynitore>,
 	<minecraft:gold_ore>,
+
+	//Super Sound Muffler
+	<supersoundmuffler:sound_muffler>,
+	<supersoundmuffler:sound_muffler_bauble>,
 
 	//Glass
 	<minecraft:glass>,
@@ -160,6 +189,12 @@ var stage2Items = [
 	<nex:tool_shovel_bone>,
 	<nex:tool_sword_bone>,
 	<roots:gold_knife>,
+	<betterwithmods:raw_pastry>,
+	<betterwithmods:raw_pastry:1>,
+	<betterwithmods:raw_pastry:2>,
+	<betterwithmods:raw_pastry:4>,
+	<betterwithmods:material:40>,
+
 
 	//Stairs
 	<natura:colored_grass_stairs_topiary>,
@@ -179,6 +214,21 @@ var stage2Items = [
 	<primal:ladder_block_stonebrick_cracked>,
 	<primal:ladder_block_stonebrick_mossy>,
 	<primal:ladder_block_stonebrick>,
+	<primal:common_stone:7>,
+	<primal:sarsen_stone:7>,
+	<primal:blue_stone:7>,
+	<primal:ortho_stone:7>,
+	<primal:schist_green_stone:7>,
+	<primal:schist_blue_stone:7>,
+	<primal:scoria_stone:7>,
+	<primal:purpurite_stone:7>,
+	<primal:ferro_stone:7>,
+	<primal:carbonate_stone:7>,
+	<primal:ciniscotta_block:7>,
+	<primal:desiccated_stone:7>,
+	<primal:soul_stone:7>,
+	<primal:night_stone:7>,
+
 
 	//Extended Crafting
 	<extendedcrafting:handheld_table>,
@@ -201,6 +251,24 @@ var stage2Items = [
 	<betterwithaddons:crate:12>,
 	<betterwithaddons:bolt:2>,
 	<betterwithaddons:aqueduct>,
+	<betterwithmods:unfired_pottery:4>,
+	<betterwithmods:planter>,
+	<betterwithmods:planter:8>,
+	<betterwithmods:planter:7>,
+	<betterwithmods:planter:6>,
+	<betterwithmods:planter:5>,
+	<betterwithmods:planter:4>,
+	<betterwithmods:planter:3>,
+	<betterwithmods:planter:2>,
+	<betterwithmods:planter:1>,
+	<betterwithaddons:unbaked>,
+	<betterwithaddons:unbaked:1>,
+	<betterwithaddons:unbaked:2>,
+	<betterwithaddons:unbaked:3>,
+	<betterwithaddons:greatbow>,
+	<betterwithmods:apple_pie>,
+	<betterwithaddons:lattice>,
+
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -632,6 +700,8 @@ var stage2Items = [
 	<materialpart:steeleaf:bolt>,
 
 	//Tinkers' Construct
+	<tconstruct:tooltables>,
+	<tconstruct:book>,
 	<tcomplement:porcelain_casting>,
 	<tcomplement:porcelain_tank:1>,
 	<tcomplement:porcelain_tank:2>,
@@ -678,6 +748,10 @@ var stage2Items = [
 	<tconstruct:seared_tank>,
 	<tcomplement:materials>,
 	<tcomplement:cast>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
+
+
 
 	//Dark Utils
 	<darkutils:charm_null>,

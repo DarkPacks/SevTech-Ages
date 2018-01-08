@@ -225,11 +225,15 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 		//PneumaticCraft
 		if (loadedMods.contains("pneumaticcraft")) {
-			var defaultChamberPressure as double = 2.0;
-			if (metalType == "nugget") {
-				mods.pneumaticcraft.pressurechamber.addRecipe([preferredMetalItem * 9], defaultChamberPressure, [metalItems[metalName].ingot.items[0]]);
-			} else if (metalType == "block") {
-				mods.pneumaticcraft.pressurechamber.addRecipe([metalItems[metalName].ingot.items[0] * 9], defaultChamberPressure, [preferredMetalItem]);
+			//Add compression recipes for nugget -> ingot -> block
+			//Dont do iron because it causes conflicts
+			if (metalName != "iron") {
+				var defaultChamberPressure as double = 2.0;
+				if (metalType == "nugget") {
+					mods.pneumaticcraft.pressurechamber.addRecipe([preferredMetalItem * 9], defaultChamberPressure, [metalItems[metalName].ingot.items[0]]);
+				} else if (metalType == "block") {
+					mods.pneumaticcraft.pressurechamber.addRecipe([metalItems[metalName].ingot.items[0] * 9], defaultChamberPressure, [preferredMetalItem]);
+				}
 			}
 		}
 	}

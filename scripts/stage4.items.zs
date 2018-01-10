@@ -124,6 +124,9 @@ var stage4Items = [
 	<darkutils:ender_pearl_hopper>,
 	<darkutils:anti_slime>,
 
+	//Pickle Tweaks
+	<pickletweaks:magnet>,
+	<pickletweaks:nightvision_goggles>,
 
 	//Extended Crafting
 	<extendedcrafting:material:16>,
@@ -135,6 +138,11 @@ var stage4Items = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_leggings>,
 	<tcomplement:manyullyn_boots>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:ore:1>,
+	<tconstruct:ore>,
 
 
 	//Primal Core
@@ -853,6 +861,19 @@ var stage4Items = [
 	<primal:wall:12>,
 	<cyclicmagic:block_library>,
 	<cyclicmagic:block_library_ctrl>,
+
+	<primal:purpurite_stone>,
+	<primal:purpurite_stone:1>,
+	<primal:purpurite_stone:2>,
+	<primal:purpurite_stone:3>,
+	<primal:purpurite_stone:4>,
+	<primal:purpurite_stone:5>,
+	<primal:purpurite_stone:6>,
+	<primal:purpurite_stone:7>,
+	<quark:purpur_block_wall>,
+	<primal:wall:7>,
+	<quark:duskbound_block_stairs>,
+	<quark:biotite_stairs>,
 
 
 

@@ -190,7 +190,7 @@ var shapedRecipes = {
 		[null, <ore:dyeBlack>, null]]
 	],
 	<minecraft:piston> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
+		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone]]
 	],
 	<minecraft:stone_slab:5> * 3 : [
 		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]

@@ -88,6 +88,25 @@ var itemsForStage = [
 	<betterwithaddons:crate:12>,
 	<betterwithaddons:bolt:2>,
 	<betterwithaddons:tweakmat:1>,
+	<betterwithmods:aesthetic:8>,
+	<betterwithaddons:unbaked>,
+	<betterwithaddons:unbaked:1>,
+	<betterwithaddons:unbaked:2>,
+	<betterwithaddons:unbaked:3>,
+	<betterwithmods:raw_pastry>,
+	<betterwithmods:raw_pastry:1>,
+	<betterwithmods:raw_pastry:2>,
+	<betterwithmods:raw_pastry:4>,
+	<betterwithmods:material:40>,
+	<betterwithmods:apple_pie>,
+	<betterwithaddons:lattice>,
+
+	//Super Sound Muffler
+	<supersoundmuffler:sound_muffler>,
+	<supersoundmuffler:sound_muffler_bauble>,
+
+	//Yoyo
+	<yoyos:book>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -315,6 +334,9 @@ var itemsForStage = [
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
 	<tconstruct:slimesling>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
+
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),

@@ -227,6 +227,7 @@ var replacementItemsForStage = {
 
 		//Emerald
 		[<minecraft:emerald_ore>],
+		[<geolosys:ore_vanilla:6>],
 
 		//Uranium
 		[<immersiveengineering:ore:5>],

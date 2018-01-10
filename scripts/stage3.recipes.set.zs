@@ -232,9 +232,6 @@ var itemsForStage = [
 	<immersiveengineering:metal_ladder>,
 	<immersiveengineering:metal_ladder:2>,
 	
-	//Super Sound Muffler
-	<supersoundmuffler:sound_muffler>,
-
 	//Tinkers'
 	<tcomplement:porcelain_tank>,
 	<tconstruct:seared_tank>,
@@ -286,7 +283,9 @@ var itemsForStage = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 4 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 6 as short}}),
-
+	<tconstruct:slime:1>,
+	<tconstruct:slime:2>,
+	<tconstruct:slime:4>,
 
 	//Rails
 	<betterwithmods:booster>,
@@ -347,7 +346,17 @@ var itemsForStage = [
 	<betterwithmods:material:16>,
 	<betterwithmods:material:17>,
 	<betterwithmods:aesthetic:3>,
-
+	<betterwithmods:single_machine:2>,
+	<betterwithmods:bellows:1>,
+	<betterwithaddons:banner_detector>,
+	<betterwithaddons:japanmat:15>,
+	<betterwithaddons:japanmat:16>,
+	<betterwithaddons:japanmat:17>,
+	<betterwithaddons:japanmat:18>,
+	<betterwithaddons:japanmat:19>,
+	<betterwithaddons:worldshard>,
+	<betterwithaddons:bundle:2>,
+	<betterwithaddons:soulsand_pile>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
@@ -388,6 +397,20 @@ var itemsForStage = [
 	<minecraft:quartz_block>,
 	<minecraft:quartz_block:1>,
 	<minecraft:quartz_block:2>,
+	<tconstruct:firewood_stairs>,
+	<tconstruct:lavawood_stairs>,
+	<quark:magma_bricks_stairs>,
+	<betterwithmods:light>,
+	<betterwithmods:mining_charge>,
+	<betterwithmods:aesthetic:10>,
+	<betterwithaddons:block_matcher>,
+	<betterwithmods:material:50>,
+	<betterwithaddons:slat>,
+	<betterwithmods:lens>,
+	<betterwithmods:stake>,
+
+
+
 
 	//Storage Drawers
 	<storagedrawers:keybutton:1>,
@@ -516,9 +539,7 @@ var itemsForStage = [
 	<actuallyadditions:item_chest_obsidian>,
 	<actuallyadditions:item_food:10>,
 	<actuallyadditions:item_food:11>,
-	<actuallyadditions:item_food:12>,
 	<actuallyadditions:item_food:13>,
-	<actuallyadditions:item_food:14>,
 	<actuallyadditions:item_food:15>,
 	<actuallyadditions:item_food:18>,
 	<actuallyadditions:item_food:19>,
@@ -530,7 +551,6 @@ var itemsForStage = [
 	<actuallyadditions:item_food:5>,
 	<actuallyadditions:item_food:6>,
 	<actuallyadditions:item_food:7>,
-	<actuallyadditions:item_food:8>,
 	<actuallyadditions:item_food:9>,
 	<actuallyadditions:item_food>,
 	<actuallyadditions:item_helm_obsidian>,

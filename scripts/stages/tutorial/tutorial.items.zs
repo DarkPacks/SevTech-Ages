@@ -111,7 +111,10 @@ var stageTutorialItems as IItemStack[] = [
 	<rustic:log:1>,
 	<rustic:log>,
 	<betterwithmods:cooked_mystery_meat>,
-	<betterwithmods:mystery_meat>
+	<betterwithmods:mystery_meat>,
+	<tombmanygraves:grave_block>,
+	<tombmanygraves:death_list>
+
 
 
 

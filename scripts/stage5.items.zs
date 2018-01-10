@@ -246,6 +246,31 @@ var stage5Items = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
+	//Steve's Factory Manager
+	<stevesfactorymanager:blockmachinemanagername>,
+	<stevesfactorymanager:blockcablename>,
+	<stevesfactorymanager:blockcablerelayname>,
+	<stevesfactorymanager:blockcablerelayname:8>,
+	<stevesfactorymanager:blockcableoutputname>,
+	<stevesfactorymanager:blockcableinputname>,
+	<stevesfactorymanager:blockcableintakename>,
+	<stevesfactorymanager:blockcableintakename:8>,
+	<stevesfactorymanager:blockcablebudname>,
+	<stevesfactorymanager:blockcableclustername>,
+	<stevesfactorymanager:blockcableclustername:8>,
+	<stevesfactorymanager:blockcablecamouflagename>,
+	<stevesfactorymanager:blockcablecamouflagename:1>,
+	<stevesfactorymanager:blockcablecamouflagename:2>,
+	<stevesfactorymanager:blockcablesignname>,
+	<stevesfactorymanager:memorydisk>,
+
+	//Iron Chests
+	<ironchest:gold_diamond_chest_upgrade>,
+	<ironchest:diamond_crystal_chest_upgrade>,
+	<ironchest:diamond_obsidian_chest_upgrade>,
+	<ironchest:iron_chest:5>,
+
+
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,

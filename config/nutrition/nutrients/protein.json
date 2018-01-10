@@ -434,7 +434,8 @@
       "twilightforest:hydra_chop",
       "twilightforest:meef_stroganoff",
       "twilightforest:raw_meef",
-      "twilightforest:raw_venison"
+      "twilightforest:raw_venison",
+      "actuallyadditions:item_food:14"
     ]
   }
 }

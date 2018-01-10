@@ -251,6 +251,9 @@ var itemsForStage = [
 	//Immersive Engineering
 	<immersiveengineering:storage_slab:5>,
 
+
+
+
 	//Better With Mods
 	<betterwithmods:candle>,
 	<betterwithmods:candle:1>,
@@ -280,7 +283,6 @@ var itemsForStage = [
 	<betterwithmods:axle_generator:2>,
 	<betterwithmods:axle_generator>,
 	<betterwithmods:bamboo_chime:*>,
-	<betterwithmods:cooking_pot>,
 	<betterwithmods:grate:*>,
 	<betterwithmods:material:11>,
 	<betterwithmods:platform>,
@@ -312,6 +314,17 @@ var itemsForStage = [
 	<betterwithaddons:bolt>,
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:6>,
+	<betterwithmods:single_machine:1>,
+	<betterwithmods:anchor>,
+	<betterwithmods:hemp>,
+	<betterwithmods:aesthetic:4>,
+	<betterwithmods:aesthetic:5>,
+	<betterwithmods:aesthetic:9>,
+	<betterwithmods:material:41>,
+	<betterwithaddons:japanmat:10>,
+	<betterwithmods:material:22>,
+	<betterwithmods:material:21>,
+
 
 	//Tinkers'
 	<tconstruct:faucet>,
@@ -443,7 +456,6 @@ var itemsForStage = [
 	<quark:sturdy_stone>,
 
 	//Embers
-	<embers:plate_caminite_raw>,
 	<embers:stamp_bar_raw>,
 	<embers:stamp_flat_raw>,
 	<embers:stamp_plate_raw>,

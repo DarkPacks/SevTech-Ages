@@ -1,0 +1,20 @@
+{
+  "jetpack_type": {
+    "name": "emerald",
+    "tier": 5,
+    "color": 4322180,
+    "armor_points": 4,
+    "crafting_material": "ore:gemEmerald"
+  },
+  "jetpack_info": {
+    "capacity": 48000000,
+    "usage": 880,
+    "speed_vertical": 1.03,
+    "accel_vertical": 0.17,
+    "speed_sideways": 0.21,
+    "speed_hover_descend": 0.45,
+    "speed_hover": 0.0,
+    "sprint_speed_multi": 2.0,
+    "sprint_fuel_multi": 4.0
+  }
+}

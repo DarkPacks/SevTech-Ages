@@ -1,109 +1,119 @@
 {
   "coalSize": 64,
-  "coalChance": 8,
+  "coalChance": 9,
   "coalDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
-  "cinnabarSize": 56,
-  "cinnabarChance": 3,
+  "cinnabarSize": 64,
+  "cinnabarChance": 6,
   "cinnabarDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "goldSize": 40,
-  "goldChance": 3,
+  "goldChance": 6,
   "goldDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "lapisSize": 32,
-  "lapisChance": 4,
+  "lapisChance": 5,
   "lapisDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "quartzSize": 40,
-  "quartzChance": 6,
+  "quartzChance": 7,
   "quartzDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "kimberliteSize": 20,
-  "kimberliteChance": 4,
+  "kimberliteChance": 5,
   "kimberliteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "berylSize": 16,
-  "berylChance": 3,
+  "berylChance": 5,
   "berylDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
-  "hematiteSize": 24,
-  "hematiteChance": 7,
+  "hematiteSize": 96,
+  "hematiteChance": 5,
   "hematiteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "limoniteSize": 80,
-  "limoniteChance": 6,
+  "limoniteChance": 7,
   "limoniteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
-  "malachiteSize": 24,
-  "malachiteChance": 4,
+  "malachiteSize": 96,
+  "malachiteChance": 6,
   "malachiteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "azuriteSize": 80,
-  "azuriteChance": 7,
+  "azuriteChance": 10,
   "azuriteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
-  "cassiteriteSize": 24,
-  "cassiteriteChance": 3,
+  "cassiteriteSize": 96,
+  "cassiteriteChance": 6,
   "cassiteriteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "tealliteSize": 80,
-  "tealliteChance": 7,
+  "tealliteChance": 8,
   "tealliteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "galenaSize": 72,
-  "galenaChance": 9,
+  "galenaChance": 11,
   "galentaDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "bauxiteSize": 64,
-  "bauxiteChance": 8,
+  "bauxiteChance": 10,
   "bauxiteDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "platinumSize": 32,
-  "platinumChance": 4,
+  "platinumChance": 5,
   "platinumDimBlacklist": [
     -1,
-    1
+    1,
+    20
   ],
   "autuniteSize": 24,
   "autuniteChance": 5,
   "autuniteDimBlacklist": [
-    -1,
-    1
-  ],
-  "sphaleriteSize": 24,
-  "sphaleriteChance": 7,
-  "sphaleriteDimBlacklist": [
     -1,
     1
   ]

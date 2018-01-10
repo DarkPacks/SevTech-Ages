@@ -45,6 +45,19 @@ var stage1Items = [
 	<immersiveengineering:ore>,
 	<minecraft:coal_ore>,
 
+	<pickletweaks:coal_piece>,
+	<pickletweaks:coal_piece:1>,
+
+	//Repair Kits
+	<pickletweaks:repair_kit>,
+	<pickletweaks:repair_kit:1>,
+	<pickletweaks:repair_kit:5>,
+	<pickletweaks:repair_kit:13>,
+	<pickletweaks:repair_kit:14>,
+	<pickletweaks:repair_kit:15>,
+
+
+
 	//Bricks
 	<betterwithaddons:bricks_stained:*>,
 	<betterwithaddons:material:*>,
@@ -219,6 +232,7 @@ var stage1Items = [
 	<tallgates:tall_gate:3>,
 	<tallgates:tall_gate:4>,
 	<tallgates:tall_gate:5>,
+	<natura:overworld_doors>,
 
 	//Tools
 	<abyssalcraft:dhoe>,
@@ -588,7 +602,6 @@ var stage1Items = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "embers:block_bronze", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "embers:block_tin", Count: 1 as byte, Damage: 0 as short}}),
 
-
 	//Embers
 	<embers:archaic_circuit>,
 	<embers:archaic_edge>,
@@ -622,7 +635,6 @@ var stage1Items = [
 	<embers:pickaxe_copper>,
 	<embers:pickaxe_tin>,
 	<embers:plate_caminite>,
-	<embers:plate_caminite_raw>,
 	<embers:shard_ember>,
 	<embers:shovel_bronze>,
 	<embers:shovel_copper>,
@@ -836,6 +848,88 @@ var stage1Items = [
 	<betterwithaddons:brick_stained:14>,
 	<betterwithaddons:brick_stained:15>,
 	<betterwithaddons:brick_stained>,
+	<betterwithmods:single_machine:1>,
+	<betterwithmods:anchor>,
+	<betterwithmods:wooden_broken_gearbox>,
+	<betterwithmods:unfired_pottery>,
+	<betterwithmods:unfired_pottery:1>,
+	<betterwithmods:unfired_pottery:3>,
+	<betterwithmods:hemp>,
+	<betterwithmods:aesthetic>,
+	<betterwithmods:aesthetic:1>,
+	<betterwithmods:aesthetic:4>,
+	<betterwithmods:aesthetic:5>,
+	<betterwithmods:aesthetic:9>,
+	<betterwithmods:material:41>,
+	<betterwithmods:wicker>,
+	<betterwithmods:bellows>,
+	<betterwithaddons:adobe>,
+	<betterwithaddons:adobe:1>,
+	<betterwithaddons:adobe:3>,
+	<betterwithaddons:adobe:4>,
+	<betterwithaddons:adobe:5>,
+	<betterwithaddons:adobe:6>,
+	<betterwithaddons:adobe:7>,
+	<betterwithaddons:adobe:8>,
+	<betterwithaddons:adobe:9>,
+	<betterwithaddons:adobe:10>,
+	<betterwithaddons:adobe:11>,
+	<betterwithaddons:adobe:12>,
+	<betterwithaddons:adobe:13>,
+	<betterwithaddons:adobe:14>,
+	<betterwithaddons:adobe:15>,
+	<betterwithaddons:japanmat:9>,
+	<betterwithaddons:japanmat:8>,
+	<betterwithaddons:japanmat:10>,
+	<betterwithaddons:japanmat:11>,
+	<betterwithaddons:food_beetroot_cooked>,
+	<betterwithaddons:food_carrot_cooked>,
+	<betterwithaddons:food_potato_cooked>,
+	<betterwithaddons:food_egg_cooked>,
+	<betterwithaddons:food_meatballs>,
+	<betterwithmods:kibble>,
+	<betterwithmods:chocolate>,
+	<betterwithmods:chicken_soup>,
+	<betterwithmods:donut>,
+	<betterwithmods:material:12>,
+	<betterwithmods:blood_sapling>,
+	<betterwithmods:blood_log>,
+	<betterwithmods:blood_leaves>,
+	<betterwithmods:material:28>,
+	<betterwithmods:material:22>,
+	<betterwithaddons:thorn_rose>,
+	<betterwithmods:hearty_stew>,
+	<betterwithmods:chowder>,
+	<betterwithmods:material:21>,
+	<betterwithmods:material:19>,
+	<betterwithmods:material:13>,
+
+	//Natura
+	<natura:colored_grass_slab:2>,
+	<natura:colored_grass_slab:1>,
+	<natura:colored_grass_slab>,
+	<natura:colored_grass:2>,
+	<natura:colored_grass:1>,
+	<natura:colored_grass>,
+
+
+
+	//Geolosys
+	<geolosys:field_manual>,
+	<geolosys:ore:2>,
+	<geolosys:ore:3>,
+	<geolosys:ore:4>,
+	<geolosys:ore:5>,
+	<geolosys:ore_vanilla>,
+	<geolosys:ore_sample:2>,
+	<geolosys:ore_sample:3>,
+	<geolosys:ore_sample:4>,
+	<geolosys:ore_sample:5>,
+	<geolosys:ore_sample_vanilla>,
+	<geolosys:cluster:2>,
+	<geolosys:cluster:3>,
+
+
 
 
 	//Primal Tech
@@ -900,7 +994,9 @@ var stage1Items = [
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,
 	<spartanshields:shield_basic_copper>,
-	<spartanshields:shield_basic_tin>
+	<spartanshields:shield_basic_tin>,
+
+	<primal_tech:stone_anvil>
 ] as IItemStack[];
 
 for item in stage1Items {

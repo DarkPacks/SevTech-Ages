@@ -28,6 +28,7 @@ var itemsForStage = [
 	<minecraft:armor_stand>,
 	<minecraft:banner:*>,
 	<minecraft:bookshelf>,
+	<minecraft:map>,
 	<minecraft:bow>,
 	<minecraft:carpet:*>,
 	<minecraft:cauldron>,
@@ -52,8 +53,7 @@ var itemsForStage = [
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
 	<minecraft:sticky_piston>,
-	<minecraft:stonebrick:1>,
-	<minecraft:stonebrick>,
+	<minecraft:stonebrick:*>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
 	<minecraft:painting>,
@@ -65,8 +65,48 @@ var itemsForStage = [
 	<jaff:wooden_fishing_rod>,
 	<jaff:iron_hook>,
 	<jaff:tank>,
+
+	//Better With Mods
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<betterwithmods:composite_bow>,
+	<betterwithmods:broadhead_arrow>,
+	<betterwithaddons:iron_masonpick>,
+	<betterwithaddons:iron_carpentersaw>,
+	<betterwithaddons:iron_kukri>,
+	<betterwithaddons:iron_machete>,
+	<betterwithaddons:iron_matchpick>,
+	<betterwithaddons:iron_spade>,
+	<betterwithaddons:gold_spade>,
+	<betterwithaddons:gold_matchpick>,
+	<betterwithaddons:gold_machete>,
+	<betterwithaddons:gold_kukri>,
+	<betterwithaddons:gold_carpentersaw>,
+	<betterwithaddons:gold_masonpick>,
+	<betterwithmods:dynamite>,
+	<betterwithaddons:paper_wall>,
+	<betterwithaddons:crate:12>,
+	<betterwithaddons:bolt:2>,
+	<betterwithaddons:tweakmat:1>,
+	<betterwithmods:aesthetic:8>,
+	<betterwithaddons:unbaked>,
+	<betterwithaddons:unbaked:1>,
+	<betterwithaddons:unbaked:2>,
+	<betterwithaddons:unbaked:3>,
+	<betterwithmods:raw_pastry>,
+	<betterwithmods:raw_pastry:1>,
+	<betterwithmods:raw_pastry:2>,
+	<betterwithmods:raw_pastry:4>,
+	<betterwithmods:material:40>,
+	<betterwithmods:apple_pie>,
+	<betterwithaddons:lattice>,
+
+	//Super Sound Muffler
+	<supersoundmuffler:sound_muffler>,
+	<supersoundmuffler:sound_muffler_bauble>,
+
+	//Yoyo
+	<yoyos:book>,
 
 	//Chisel
 	<chisel:waterstone1:1>,
@@ -243,6 +283,9 @@ var itemsForStage = [
 	<storagedrawers:upgrade_storage:1>,
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
+	
+	//Extended Crafting
+	<extendedcrafting:handheld_table>,
 
 	//Rustic
 	<rustic:apiary>,
@@ -291,6 +334,9 @@ var itemsForStage = [
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
 	<tconstruct:slimesling>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
+
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
@@ -405,14 +451,7 @@ var itemsForStage = [
 	<embers:wall_ashen_stone>,
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
-	<embers:wrapped_sealed_planks>,
-
-	//Cultivated Tech
-	<cultivatedtech:blockfireplace>,
-	<cultivatedtech:blockbarrel>,
-	<cultivatedtech:blockhemp>,
-	<cultivatedtech:itembrick>,
-	<cultivatedtech:blocksprinkler1>
+	<embers:wrapped_sealed_planks>
 
 ] as IItemStack[];
 

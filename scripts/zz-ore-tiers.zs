@@ -159,7 +159,6 @@ var replacementItemsForStage = {
 		[<minecraft:glowstone>],
 		[<minecraft:quartz_ore>, <minecraft:netherrack>],
 		[<abyssalcraft:abyore>],
-		[<minecraft:magma>, <rustic:slate>],
 
 		//Platinum
 		[<geolosys:ore:8>],
@@ -228,6 +227,7 @@ var replacementItemsForStage = {
 
 		//Emerald
 		[<minecraft:emerald_ore>],
+		[<geolosys:ore_vanilla:6>],
 
 		//Uranium
 		[<immersiveengineering:ore:5>],

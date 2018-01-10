@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+var STAGE = STAGES.zero;
+
 /*
 <item> : [
 	[RECIPE1],
@@ -35,11 +37,16 @@ var shapelessRecipes = {
 	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
+	],
+
+		//Now you can make fleece in stage 0
+	<betterwithaddons:wool> : [
+		[str, str, str, str]
 	]
 } as IIngredient[][][IItemStack];
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {
-		recipes.addShapeless(item, recipe);
+		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }

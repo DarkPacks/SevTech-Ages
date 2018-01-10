@@ -66,6 +66,7 @@
 <geolosys:ore:10>.addTooltip(format.red("Zinc Ore"));
 <geolosys:ore_vanilla:1>.addTooltip(format.red("Redstone Ore"));
 <geolosys:ore_vanilla:5>.addTooltip(format.red("Diamond Ore"));
+<geolosys:ore_vanilla:6>.addTooltip(format.red("Emerald Ore"));
 
 //Someone had to do it! xD
 <chisel:antiblock:15>.addTooltip(format.gold("Craftable"));
@@ -78,3 +79,11 @@
 <chisel:tyrian>.addTooltip(format.gold("Craftable"));
 <chisel:voidstone>.addTooltip(format.gold("Craftable"));
 <chisel:waterstone>.addTooltip(format.gold("Craftable"));
+
+<natura:materials:5>.addTooltip(format.red("Use to craft arrows"));
+
+<primal_tech:fibre_torch>.addTooltip(format.red("Right Click on fire source"));
+<primal_tech:fibre_torch>.addTooltip(format.red("or lit torch to light"));
+
+<primal_tech:rock>.addTooltip(format.red("Used with the Work Stump"));
+<primal_tech:rock>.addTooltip(format.red("Left Click on Table to craft recipe"));

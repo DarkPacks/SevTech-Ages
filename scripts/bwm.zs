@@ -80,6 +80,9 @@ mods.betterwithmods.Cauldron.remove(<rustic:tallow>);
 //Stoked Cauldron
 mods.betterwithmods.StokedCauldron.remove(<betterwithmods:material:12>);
 
+//I'm pretty sure this doesn't actually work but I'm leaving it here for now
+mods.betterwithmods.StokedCauldron.remove(<minecraft:glass>);
+
 //Saw
 //mods.betterwithmods.Saw.add(IItemStack[] output, IItemStack input);
 //mods.betterwithmods.Saw.add([<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,], <minecraft:fence>);

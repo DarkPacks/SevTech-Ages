@@ -2,7 +2,7 @@ setIcon("tcomplement:porcelain_tank")
 
 setTitle("Smelter Tank")
 
-setDescription("Solid fuels only get you so far. Iron requires lava to melt down and so you will need a tank to hold this lava")
+setDescription("Solid fuels only get you so far. Craft and place a Porcelain or Seared Tank beneath your melter to melt Iron and other materials needing higher temperatures. Note, you'll need to let the current fuel source run out or break/replace the melter to see the new temperature.")
 
 setParent("triumph:stage2/iron")
 setRequiresParent(true)

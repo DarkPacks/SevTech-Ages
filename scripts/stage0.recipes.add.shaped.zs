@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-//recipes.addShapeless(, []);
+var STAGE = STAGES.zero;
 
 /*
 <item> : [
@@ -96,9 +96,6 @@ var shapedRecipes = {
 	],
 	<minecraft:stone_slab:4> * 3 : [
 		[[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
-	],
-	<minecraft:stone_slab:5> * 3 : [
-		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
 	],
 	<minecraft:stone_slab:7> * 3 : [
 		[[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]
@@ -319,6 +316,77 @@ var shapedRecipes = {
 		]
 	],
 
+	<primal:barrel_oak_lid> : [
+		[
+			[null, <ore:slabOak>, null],
+			[<ore:slabOak>, null, <ore:slabOak>],
+			[null, <ore:slabOak>, null]
+		]
+	],
+	<primal:barrel_spruce_lid> : [
+		[
+			[null, <ore:slabSpruce>, null],
+			[<ore:slabSpruce>, null, <ore:slabSpruce>],
+			[null, <ore:slabSpruce>, null]
+		]
+	],
+	<primal:barrel_birch_lid> : [
+		[
+			[null, <ore:slabBirch>, null],
+			[<ore:slabBirch>, null, <ore:slabBirch>],
+			[null, <ore:slabBirch>, null]
+		]
+	],
+	<primal:barrel_jungle_lid> : [
+		[
+			[null, <ore:slabJungle>, null],
+			[<ore:slabJungle>, null, <ore:slabJungle>],
+			[null, <ore:slabJungle>, null]
+		]
+	],
+	<primal:barrel_acacia_lid> : [
+		[
+			[null, <ore:slabAcacia>, null],
+			[<ore:slabAcacia>, null, <ore:slabAcacia>],
+			[null, <ore:slabAcacia>, null]
+		]
+	],
+	<primal:barrel_dark_oak_lid> : [
+		[
+			[null, <ore:slabDarkOak>, null],
+			[<ore:slabDarkOak>, null, <ore:slabDarkOak>],
+			[null, <ore:slabDarkOak>, null]
+		]
+	],
+	<primal:barrel_ironwood_lid> : [
+		[
+			[null, <primal:slab_ironwood>, null],
+			[<primal:slab_ironwood>, null, <primal:slab_ironwood>],
+			[null, <primal:slab_ironwood>, null]
+		]
+	],
+	<primal:barrel_yew_lid> : [
+		[
+			[null, <primal:slab_yew>, null],
+			[<primal:slab_yew>, null, <primal:slab_yew>],
+			[null, <primal:slab_yew>, null]
+		]
+	],
+	<primal:barrel_corypha_lid> : [
+		[
+			[null, <primal:slab_corypha>, null],
+			[<primal:slab_corypha>, null, <primal:slab_corypha>],
+			[null, <primal:slab_corypha>, null]
+		]
+	],
+	<primal:barrel_lacquer_lid> : [
+		[
+			[null, <primal:slab_lacquer>, null],
+			[<primal:slab_lacquer>, null, <primal:slab_lacquer>],
+			[null, <primal:slab_lacquer>, null]
+		]
+	],
+
 	<roots:firestarter> : [
 		[[<minecraft:coal:1>, null], [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>]]
 	],
@@ -375,7 +443,7 @@ var shapedRecipes = {
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
-		recipes.addShaped(item, recipe);
+		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
 

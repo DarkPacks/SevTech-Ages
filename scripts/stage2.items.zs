@@ -58,6 +58,7 @@ var stage2Items = [
 	<minecraft:spruce_boat>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_pressure_plate>,
+	<minecraft:stone_slab:5>,
 	<minecraft:tripwire_hook>,
 	<minecraft:water_bucket>,
 	<minecraft:wooden_pressure_plate>,
@@ -67,6 +68,8 @@ var stage2Items = [
 	<minecraft:painting>,
 	<prospectors:prospector_low>,
 	<minecraft:paper>,
+	<minecraft:map>,
+	<minecraft:filled_map>,
 	<primal:plant_fiber_pulp>,
 	<minecraft:shears>,
 	<minecraft:ender_pearl>,
@@ -90,12 +93,41 @@ var stage2Items = [
 	<quark:arrow_explosive>,
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<minecraft:fireworks>,
+
+	//YoYo
+	<yoyos:book>,
+
+	//Repair Kits
+	<pickletweaks:repair_kit:2>,
+	<pickletweaks:repair_kit:3>,
+	<pickletweaks:repair_kit:17>,
+	<pickletweaks:repair_kit:21>,
+
+	//Geolosys
+	<geolosys:ore>,
+	<geolosys:ore_vanilla:2>,
+	<geolosys:ore_vanilla:3>,
+	<geolosys:ore_sample>,
+	<geolosys:ore_sample_vanilla:2>,
+	<geolosys:ore_sample_vanilla:3>,
+	<geolosys:cluster>,
+	<geolosys:cluster:1>,
+
+	<weirdinggadget:weirding_gadget>,
+
+	//Pickle Tweaks
+	<pickletweaks:watering_can>,
 
 	//Ore
 	<abyssalcraft:abygolore>,
 	<abyssalcraft:abyiroore>,
 	<abyssalcraft:abynitore>,
 	<minecraft:gold_ore>,
+
+	//Super Sound Muffler
+	<supersoundmuffler:sound_muffler>,
+	<supersoundmuffler:sound_muffler_bauble>,
 
 	//Glass
 	<minecraft:glass>,
@@ -157,11 +189,86 @@ var stage2Items = [
 	<nex:tool_shovel_bone>,
 	<nex:tool_sword_bone>,
 	<roots:gold_knife>,
+	<betterwithmods:raw_pastry>,
+	<betterwithmods:raw_pastry:1>,
+	<betterwithmods:raw_pastry:2>,
+	<betterwithmods:raw_pastry:4>,
+	<betterwithmods:material:40>,
+
+
+	//Stairs
+	<natura:colored_grass_stairs_topiary>,
+	<natura:colored_grass_stairs_bluegrass>,
+	<natura:colored_grass_stairs_autumnal>,
+	<natura:overworld_stairs_maple>,
+	<natura:overworld_stairs_silverbell>,
+	<natura:overworld_stairs_amaranth>,
+	<natura:overworld_stairs_tiger>,
+	<natura:overworld_stairs_willow>,
+	<natura:overworld_stairs_eucalyptus>,
+	<natura:overworld_stairs_hopseed>,
+	<natura:overworld_stairs_sakura>,
+	<natura:overworld_stairs_redwood>,
+
+	//Primal
+	<primal:ladder_block_stonebrick_cracked>,
+	<primal:ladder_block_stonebrick_mossy>,
+	<primal:ladder_block_stonebrick>,
+	<primal:common_stone:7>,
+	<primal:sarsen_stone:7>,
+	<primal:blue_stone:7>,
+	<primal:ortho_stone:7>,
+	<primal:schist_green_stone:7>,
+	<primal:schist_blue_stone:7>,
+	<primal:scoria_stone:7>,
+	<primal:purpurite_stone:7>,
+	<primal:ferro_stone:7>,
+	<primal:carbonate_stone:7>,
+	<primal:ciniscotta_block:7>,
+	<primal:desiccated_stone:7>,
+	<primal:soul_stone:7>,
+	<primal:night_stone:7>,
+
+
+	//Extended Crafting
+	<extendedcrafting:handheld_table>,
+
 
 	//Better With Mods
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:ender_spectacles>,
 	<betterwithmods:metal_chime:*>,
+	<betterwithaddons:redstone_emitter>,
+	<betterwithmods:composite_bow>,
+	<betterwithaddons:iron_masonpick>,
+	<betterwithaddons:iron_carpentersaw>,
+	<betterwithaddons:iron_kukri>,
+	<betterwithaddons:iron_machete>,
+	<betterwithaddons:iron_matchpick>,
+	<betterwithaddons:iron_spade>,
+	<betterwithmods:dynamite>,
+	<betterwithaddons:paper_wall>,
+	<betterwithaddons:crate:12>,
+	<betterwithaddons:bolt:2>,
+	<betterwithaddons:aqueduct>,
+	<betterwithmods:unfired_pottery:4>,
+	<betterwithmods:planter>,
+	<betterwithmods:planter:8>,
+	<betterwithmods:planter:7>,
+	<betterwithmods:planter:6>,
+	<betterwithmods:planter:5>,
+	<betterwithmods:planter:4>,
+	<betterwithmods:planter:3>,
+	<betterwithmods:planter:2>,
+	<betterwithmods:planter:1>,
+	<betterwithaddons:unbaked>,
+	<betterwithaddons:unbaked:1>,
+	<betterwithaddons:unbaked:2>,
+	<betterwithaddons:unbaked:3>,
+	<betterwithaddons:greatbow>,
+	<betterwithmods:apple_pie>,
+	<betterwithaddons:lattice>,
+
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -481,6 +588,8 @@ var stage2Items = [
 	<astralsorcery:itemwand:0>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 
+
+
 	//Embers Stage 2
 	<embers:adhesive>,
 	<embers:alchemic_waste>,
@@ -579,6 +688,7 @@ var stage2Items = [
 	//Actually Additions
 	<actuallyadditions:block_smiley_cloud>,
 	<actuallyadditions:iron_paxel>,
+	<actuallyadditions:item_dust:4>,
 
 	//Content Tweaker
 	<forge:bucketfilled>.withTag({FluidName: "ender_pearl", Amount: 1000}),
@@ -590,6 +700,8 @@ var stage2Items = [
 	<materialpart:steeleaf:bolt>,
 
 	//Tinkers' Construct
+	<tconstruct:tooltables>,
+	<tconstruct:book>,
 	<tcomplement:porcelain_casting>,
 	<tcomplement:porcelain_tank:1>,
 	<tcomplement:porcelain_tank:2>,
@@ -630,6 +742,16 @@ var stage2Items = [
 	<tconstruct:tooltables:2>,
 	<tconstruct:tooltables:4>,
 	<tconstruct:slimesling>,
+	<tconstruct:soil:1>,
+	<tconstruct:materials:9>,
+	<tconstruct:materials:18>,
+	<tconstruct:seared_tank>,
+	<tcomplement:materials>,
+	<tcomplement:cast>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
+
+
 
 	//Dark Utils
 	<darkutils:charm_null>,
@@ -740,16 +862,55 @@ var stage2Items = [
 	<spartanshields:shield_basic_iron>,
 	<spartanshields:shield_basic_gold>,
 
+	//Iron Chests
+	<ironchest:iron_chest>,
+	<ironchest:iron_chest:1>,
+	<ironchest:iron_chest:4>,
+	<ironchest:wood_iron_chest_upgrade>,
+	<ironchest:iron_gold_chest_upgrade>,
+	<ironchest:copper_silver_chest_upgrade>,
+	<ironchest:silver_gold_chest_upgrade>,
+	<ironchest:copper_iron_chest_upgrade>,
+
+
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
 
-	//Cultivated Tech
-	<cultivatedtech:blockfireplace>,
-	<cultivatedtech:blockbarrel>,
-	<cultivatedtech:blockhemp>,
-	<cultivatedtech:itembrick>,
-	<cultivatedtech:blocksprinkler1>
+	//Info Accesories
+	<infoaccessories:info_accessory>,
+	<infoaccessories:info_accessory:1>,
+	<infoaccessories:info_accessory:2>,
+	<infoaccessories:info_accessory:3>,
+	<infoaccessories:info_accessory:4>,
+	<infoaccessories:info_accessory:5>,
+	<infoaccessories:info_accessory:6>,
+	<infoaccessories:info_accessory:7>,
+	<infoaccessories:info_accessory:8>,
+	<infoaccessories:info_accessory:9>,
+
+	//Natura
+	<natura:overworld_bookshelves>,
+	<natura:overworld_bookshelves:1>,
+	<natura:overworld_bookshelves:2>,
+	<natura:overworld_bookshelves:3>,
+	<natura:overworld_bookshelves:4>,
+	<natura:overworld_bookshelves:5>,
+	<natura:overworld_bookshelves:6>,
+	<natura:overworld_bookshelves:7>,
+	<natura:overworld_bookshelves:8>,
+	<natura:nether_bookshelves>,
+	<natura:nether_bookshelves:1>,
+	<natura:nether_bookshelves:2>,
+	<natura:nether_bookshelves:3>,
+	<betterwithaddons:decomat>,
+	<betterwithaddons:decomat:1>,
+	<betterwithaddons:decomat:2>,
+	<betterwithaddons:tweakmat:1>
+
+
+
 ] as IItemStack[];
 
 for item in stage2Items {

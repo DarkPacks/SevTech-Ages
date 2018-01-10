@@ -2,7 +2,7 @@ addCriteria("location", "minecraft:location")
 
 setIcon("primal_tech:stone_club")
 
-setTitle("§l§bStage 0")
+setTitle("Stage 0")
 
 setDescription("")
 
@@ -22,4 +22,4 @@ addCriteria("location", "minecraft:location")
 
 setRequirements("any")
 
-setRewardFunction("triumph:stage0trigger")
+setRewardFunction("triumph:stageTutorial-trigger")

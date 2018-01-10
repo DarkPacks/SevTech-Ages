@@ -23,9 +23,11 @@ var stage4Items = [
 	<prospectors:prospector_high>,
 
 	<minecraft:ender_chest>,
+	<minecraft:totem_of_undying>,
 
 	//Immersive Engineering
 	<immersiveengineering:metal_device0:5>,
+	<immersiveengineering:storage_slab:5>,
 
 	//Bonsai Trees
 	<bonsaitrees:bonsaipot>,
@@ -106,6 +108,79 @@ var stage4Items = [
 	<industrialforegoing:water_condensator>,
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
+	<industrialforegoing:fluid_pump>,
+	<industrialforegoing:fluid_crafter>,
+
+	//Dark Utils
+	<darkutils:trap_tile>,
+	<darkutils:trap_tile:1>,
+	<darkutils:trap_tile:2>,
+	<darkutils:trap_tile:4>,
+	<darkutils:trap_tile:6>,
+	<darkutils:trap_tile:7>,
+	<darkutils:sneaky_button>,
+	<darkutils:monolith>,
+	<darkutils:monolith:1>,
+	<darkutils:ender_pearl_hopper>,
+	<darkutils:anti_slime>,
+
+	//Pickle Tweaks
+	<pickletweaks:magnet>,
+	<pickletweaks:nightvision_goggles>,
+
+	//Extended Crafting
+	<extendedcrafting:material:16>,
+	<extendedcrafting:table_elite>,
+	<extendedcrafting:material:10>,
+
+	//Tinkers
+	<tcomplement:manyullyn_helmet>,
+	<tcomplement:manyullyn_chestplate>,
+	<tcomplement:manyullyn_leggings>,
+	<tcomplement:manyullyn_boots>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:ore:1>,
+	<tconstruct:ore>,
+
+
+	//Primal Core
+	<primal:ladder_block_endbrick>,
+	<primal:ladder_block_endstone>,
+
+
+	//Inductive Logistics
+	<indlog:tank:1>,
+	<indlog:tank:2>,
+	<indlog:tank:3>,
+	<indlog:tank:4>,
+	<indlog:tank:5>,
+	<indlog:tank:6>,
+	<indlog:tank:7>,
+	<indlog:tank:8>,
+	<indlog:tank:9>,
+	<indlog:tank:10>,
+	<indlog:tank:11>,
+	<indlog:tank:12>,
+	<indlog:tank:13>,
+	<indlog:tank:14>,
+	<indlog:tank:15>,
+	<indlog:buffer:1>,
+	<indlog:buffer:2>,
+	<indlog:buffer:3>,
+	<indlog:buffer:4>,
+	<indlog:buffer:5>,
+	<indlog:buffer:6>,
+	<indlog:buffer:7>,
+	<indlog:buffer:8>,
+	<indlog:buffer:9>,
+	<indlog:buffer:10>,
+	<indlog:buffer:11>,
+	<indlog:buffer:12>,
+	<indlog:buffer:13>,
+	<indlog:buffer:14>,
+	<indlog:buffer:15>,
 
 	//Ore
 	<immersiveengineering:ore:5>,
@@ -120,6 +195,8 @@ var stage4Items = [
 	<teslacorelib:wrench>,
 
 	//Actually Additions
+	<actuallyadditions:item_laser_wrench>,
+	<actuallyadditions:item_misc:6>,
 	<actuallyadditions:battery_bauble>,
 	<actuallyadditions:battery_double_bauble>,
 	<actuallyadditions:battery_quadruple_bauble>,
@@ -347,6 +424,11 @@ var stage4Items = [
 	<mob_grinding_utils:wither_muffler>,
 	<mob_grinding_utils:xp_tap>,
 
+	//Quark
+	<quark:rain_detector>,
+	<quark:ender_watcher>,
+	<quark:iron_rod>,
+
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_shears>,
@@ -358,6 +440,9 @@ var stage4Items = [
 	<cyclicmagic:exp_pylon>,
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
+	<cyclicmagic:item_pipe>,
+	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:fan>,
 
 	//Embers
 	<embers:item_pipe>,
@@ -765,6 +850,33 @@ var stage4Items = [
 	<quark:end_bricks_stairs>,
 	<quark:end_bricks_wall>,
 
+	<primal:eroded_end_stone>,
+	<primal:eroded_end_stone:1>,
+	<primal:eroded_end_stone:2>,
+	<primal:eroded_end_stone:3>,
+	<primal:eroded_end_stone:4>,
+	<primal:eroded_end_stone:5>,
+	<primal:eroded_end_stone:6>,
+	<primal:eroded_end_stone:7>,
+	<primal:wall:12>,
+	<cyclicmagic:block_library>,
+	<cyclicmagic:block_library_ctrl>,
+
+	<primal:purpurite_stone>,
+	<primal:purpurite_stone:1>,
+	<primal:purpurite_stone:2>,
+	<primal:purpurite_stone:3>,
+	<primal:purpurite_stone:4>,
+	<primal:purpurite_stone:5>,
+	<primal:purpurite_stone:6>,
+	<primal:purpurite_stone:7>,
+	<quark:purpur_block_wall>,
+	<primal:wall:7>,
+	<quark:duskbound_block_stairs>,
+	<quark:biotite_stairs>,
+
+
+
 	//Shulker Boxes
 	<ironchest:copper_iron_shulker_upgrade>,
 	<ironchest:copper_silver_shulker_upgrade>,
@@ -815,11 +927,7 @@ var stage4Items = [
 	<chisel:endstone:*>,
 	<chisel:purpur1:*>,
 	<chisel:purpur2:*>,
-	<chisel:purpur:*>,
-
-	//Cultivated Tech
-	<cultivatedtech:blocksprinkler3>,
-	<cultivatedtech:blockswapper>
+	<chisel:purpur:*>
 
 ] as IItemStack[];
 

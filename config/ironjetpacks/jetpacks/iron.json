@@ -1,0 +1,20 @@
+{
+  "jetpack_type": {
+    "name": "iron",
+    "tier": 2,
+    "color": 12698049,
+    "armor_points": 3,
+    "crafting_material": "ore:ingotIron"
+  },
+  "jetpack_info": {
+    "capacity": 800000,
+    "usage": 120,
+    "speed_vertical": 0.41,
+    "accel_vertical": 0.12,
+    "speed_sideways": 0.14,
+    "speed_hover_descend": 0.27,
+    "speed_hover": 0.075,
+    "sprint_speed_multi": 1.1,
+    "sprint_fuel_multi": 2.3
+  }
+}

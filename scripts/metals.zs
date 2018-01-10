@@ -5,21 +5,21 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 var metalStages = {
-	abyssalnite: "",
-	aluminum: "",
-	aluminumBrass: "",
-	ardite: "",
+	abyssalnite: "two",
+	aluminum: "three",
+	aluminumBrass: "three",
+	ardite: "four",
 	blackIron: "three",
 	bronze: "one",
 	cobalt: "three",
 	compressedIron: "four",
-	constantan: "",
+	constantan: "three",
 	copper: "one",
 	dawnstone: "two",
-	dreadium: "",
-	electrum: "",
+	dreadium: "two",
+	electrum: "two",
 	enhancedGalgadorian: "three",
-	ethaxium: "",
+	ethaxium: "two",
 	fiery: "two",
 	galgadorian: "three",
 	gold: "two",
@@ -27,19 +27,19 @@ var metalStages = {
 	iron: "two",
 	knightslime: "four",
 	lead: "three",
-	manyullyn: "",
+	manyullyn: "four",
 	modularium: "three",
-	nickel: "",
+	nickel: "three",
 	pigiron: "three",
 	platinum: "three",
 	redstoneAlloy: "three",
-	refinedCoralium: "",
+	refinedCoralium: "one",
 	reinforcedMetal: "three",
 	silver: "three",
 	steel: "three",
 	steeleaf: "two",
 	tin: "one",
-	uranium: ""
+	uranium: "four"
 } as string[string];
 
 function isItemToKeep(item as IItemStack) as bool {

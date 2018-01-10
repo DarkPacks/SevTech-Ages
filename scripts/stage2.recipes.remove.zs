@@ -49,6 +49,7 @@ var removeItems = [
 	<minecraft:paper>,
 	<minecraft:piston>,
 	<minecraft:spruce_boat>,
+	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
 	<pickletweaks:watering_can>,
 	<prospectors:prospector_low>,
@@ -59,7 +60,8 @@ var removeItems = [
 	<tconstruct:tinker_tank_controller>,
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
-	<weirdinggadget:weirding_gadget>
+	<weirdinggadget:weirding_gadget>,
+	<tconstruct:materials:16>
 ] as IItemStack[];
 
 for item in removeItems {

@@ -123,6 +123,15 @@
     "random": 0.50
   },
   {
+    "mob": "emberroot:enderminy",
+    "remove": "minecraft:ender_eye"
+  },
+  {
+    "mob": "emberroot:enderminy",
+    "item": "appliedenergistics2:material@46",
+    "random": 0.65
+  },
+  {
     "mob": "totemic:buffalo",
     "item": "totemic:buffalo_items@1",
     "random": 0.5

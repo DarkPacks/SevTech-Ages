@@ -13,7 +13,11 @@ var renameArray = {
 
 	<primal:plant_fiber_pulp> : "Pulp",
 
-	<primal:golden_stick> : "Golden Rod"
+	<primal:golden_stick> : "Golden Rod",
+
+	<natura:materials:5> : "Baykok's Rib",
+
+	<betterbuilderswands:wanddiamond> : "Platinum Wand"
 } as string[IItemStack];
 
 for item in renameArray {

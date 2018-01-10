@@ -38,7 +38,6 @@ var itemsForStage = [
 	<chiselsandbits:chisel_diamond>,
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
-	<extendedcrafting:table_elite>,
 	<extendedcrafting:table_ultimate>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
 	<jaff:diamond_fishing_rod>,
@@ -253,6 +252,24 @@ var itemsForStage = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
+	//Steve's Factory Manager
+	<stevesfactorymanager:blockmachinemanagername>,
+	<stevesfactorymanager:blockcablename>,
+	<stevesfactorymanager:blockcablerelayname>,
+	<stevesfactorymanager:blockcablerelayname:8>,
+	<stevesfactorymanager:blockcableoutputname>,
+	<stevesfactorymanager:blockcableinputname>,
+	<stevesfactorymanager:blockcableintakename>,
+	<stevesfactorymanager:blockcableintakename:8>,
+	<stevesfactorymanager:blockcablebudname>,
+	<stevesfactorymanager:blockcableclustername>,
+	<stevesfactorymanager:blockcableclustername:8>,
+	<stevesfactorymanager:blockcablecamouflagename>,
+	<stevesfactorymanager:blockcablecamouflagename:1>,
+	<stevesfactorymanager:blockcablecamouflagename:2>,
+	<stevesfactorymanager:blockcablesignname>,
+	<stevesfactorymanager:memorydisk>,
+
 	//Diamond Stuff
 	<minecraft:diamond_horse_armor>,
 
@@ -270,7 +287,6 @@ var itemsForStage = [
 	<extendedcrafting:material:12>,
 	<extendedcrafting:material:13>,
 	<extendedcrafting:material:140>,
-	<extendedcrafting:material:16>,
 	<extendedcrafting:material:17>,
 	<extendedcrafting:material:18>,
 	<extendedcrafting:material:19>,
@@ -565,7 +581,31 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_diamond_item>,
 	<buildcrafttransport:pipe_diamond_wood_fluid>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
-	<buildcrafttransport:pipe_emzuli_item>
+	<buildcrafttransport:pipe_emzuli_item>,
+
+	//Xnet
+	<xnet:xnet_manual>,
+	<xnet:connector_upgrade>,
+	<xnet:facade>,
+	<xnet:redstone_proxy>,
+	<xnet:redstone_proxy_upd>,
+	<xnet:netcable>,
+	<xnet:netcable:1>,
+	<xnet:netcable:2>,
+	<xnet:netcable:3>,
+	<xnet:netcable:4>,
+	<xnet:connector>,
+	<xnet:connector:1>,
+	<xnet:connector:2>,
+	<xnet:connector:3>,
+	<xnet:connector:4>,
+	<xnet:advanced_connector>,
+	<xnet:advanced_connector:1>,
+	<xnet:advanced_connector:2>,
+	<xnet:advanced_connector:3>,
+	<xnet:controller>,
+	<xnet:router>
+
 ] as IItemStack[];
 
 for item in itemsForStage {
@@ -1080,7 +1120,6 @@ var recipesForStage = [
 	"mysticalagriculture:stone_3",
 	"mysticalagriculture:stone_seeds",
 	"mysticalagriculture:stonebrick",
-	"mysticalagriculture:stonebrick_1",
 	"mysticalagriculture:stonebrick_2",
 	"mysticalagriculture:superium_apple",
 	"mysticalagriculture:superium_arrow",

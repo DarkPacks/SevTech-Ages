@@ -50,7 +50,6 @@ var stage5Items = [
 
 	//Emerald
 	<actuallyadditions:item_dust:3>,
-	<advancedrocketry:crystal:2>,
 	<extendedcrafting:material:129>,
 	<extendedcrafting:trimmed:3>,
 	<pickletweaks:emerald_apple>,
@@ -65,6 +64,9 @@ var stage5Items = [
 	<primal:emerald_workblade>,
 
 	//Actually Additions
+	<actuallyadditions:block_inputter_advanced>,
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:item_wings_of_the_bats>,
 	<actuallyadditions:block_atomic_reconstructor>,
 	<actuallyadditions:block_breaker>,
 	<actuallyadditions:block_colored_lamp:*>,
@@ -244,12 +246,36 @@ var stage5Items = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
+	//Steve's Factory Manager
+	<stevesfactorymanager:blockmachinemanagername>,
+	<stevesfactorymanager:blockcablename>,
+	<stevesfactorymanager:blockcablerelayname>,
+	<stevesfactorymanager:blockcablerelayname:8>,
+	<stevesfactorymanager:blockcableoutputname>,
+	<stevesfactorymanager:blockcableinputname>,
+	<stevesfactorymanager:blockcableintakename>,
+	<stevesfactorymanager:blockcableintakename:8>,
+	<stevesfactorymanager:blockcablebudname>,
+	<stevesfactorymanager:blockcableclustername>,
+	<stevesfactorymanager:blockcableclustername:8>,
+	<stevesfactorymanager:blockcablecamouflagename>,
+	<stevesfactorymanager:blockcablecamouflagename:1>,
+	<stevesfactorymanager:blockcablecamouflagename:2>,
+	<stevesfactorymanager:blockcablesignname>,
+	<stevesfactorymanager:memorydisk>,
+
+	//Iron Chests
+	<ironchest:gold_diamond_chest_upgrade>,
+	<ironchest:diamond_crystal_chest_upgrade>,
+	<ironchest:diamond_obsidian_chest_upgrade>,
+	<ironchest:iron_chest:5>,
+
+
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,
 
 	//Diamond Stuff
-	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,
 	<betterwithaddons:diamond_kukri>,
 	<betterwithaddons:diamond_machete>,
@@ -691,8 +717,13 @@ var stage5Items = [
 	<extendedcrafting:singularity_ultimate>,
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
-	<extendedcrafting:table_elite>,
 	<extendedcrafting:table_ultimate>,
+	<extendedcrafting:storage:4>,
+	<extendedcrafting:trimmed:5>,
+	<extendedcrafting:trimmed:4>,
+	<extendedcrafting:trimmed:2>,
+	<extendedcrafting:crafting_core>,
+
 
 	//Spartan Shields
 	<spartanshields:shield_riot_rftools>,
@@ -704,7 +735,30 @@ var stage5Items = [
 	<buildcrafttransport:pipe_emzuli_item>,
 	<buildcrafttransport:pipe_daizuli_item>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
-	<buildcrafttransport:pipe_diamond_item>
+	<buildcrafttransport:pipe_diamond_item>,
+	
+	//Xnet
+	<xnet:xnet_manual>,
+	<xnet:connector_upgrade>,
+	<xnet:facade>,
+	<xnet:redstone_proxy>,
+	<xnet:redstone_proxy_upd>,
+	<xnet:netcable>,
+	<xnet:netcable:1>,
+	<xnet:netcable:2>,
+	<xnet:netcable:3>,
+	<xnet:netcable:4>,
+	<xnet:connector>,
+	<xnet:connector:1>,
+	<xnet:connector:2>,
+	<xnet:connector:3>,
+	<xnet:connector:4>,
+	<xnet:advanced_connector>.withTag({display: {LocName: "tile.xnet.advanced_connector_blue.name"}}),
+	<xnet:advanced_connector:1>.withTag({display: {LocName: "tile.xnet.advanced_connector_red.name"}}),
+	<xnet:advanced_connector:2>.withTag({display: {LocName: "tile.xnet.advanced_connector_yellow.name"}}),
+	<xnet:advanced_connector:3>.withTag({display: {LocName: "tile.xnet.advanced_connector_green.name"}}),
+	<xnet:controller>,
+	<xnet:router>	
 ] as IItemStack[];
 
 for item in stage5Items {

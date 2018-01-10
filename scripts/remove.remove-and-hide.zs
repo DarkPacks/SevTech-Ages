@@ -15,6 +15,7 @@ var removeAndHideItems = [
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
+	<betterwithmods:stump_remover>,
 	<betterwithmods:material:31>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,
@@ -22,6 +23,7 @@ var removeAndHideItems = [
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
 	<betterwithmods:stump:*>,
+	<immcraft:bookstand>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
@@ -90,10 +92,9 @@ var removeAndHideItems = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<stevescarts:modulecomponents:9>,
-	<cultivatedtech:blockecoflamer1>,
-	<cultivatedtech:blockecoflamer2>,
-	<cultivatedtech:blockecoflamer3>,
-
+	<embers:plate_caminite_raw>,
+	<pickletweaks:grass_fiber>,
+	
 	//Nuggets
 	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,
@@ -112,42 +113,11 @@ var removeAndHideItems = [
 	<buildcraftcore:spring>,
 
 	//Cooking for Blockheads
-	<cookingforblockheads:milk_jar>
+	<cookingforblockheads:milk_jar>,
+	<cookingforblockheads:cow_jar>,
 
-	//<actuallyadditions:block_miner>,
-	//<adchimneys:bedrock>,
-	//<hardcorequesting:hqm_invalid_item>,
-	//<immcraft:bundle>,
-	//<immcraft:in_world_placer>,
-	//<immcraft:in_world_vertical_placer>,
-	//<minecraft:barrier>,
-	//<minecraft:bedrock>,
-	//<minecraft:chain_command_block>,
-	//<minecraft:command_block>,
-	//<minecraft:command_block_minecart>,
-	//<minecraft:end_portal_frame>,
-	//<minecraft:ender_chest>,
-	//<minecraft:repeating_command_block>,
-	//<minecraft:structure_block>,
-	//<minecraft:structure_void>,
-	//<omlib:debug_tool>,
-	//<primal:drying_rack_acacia>,
-	//<primal:drying_rack_bigoak>,
-	//<primal:drying_rack_birch>,
-	//<primal:drying_rack_corypha>,
-	//<primal:drying_rack_ironwood>,
-	//<primal:drying_rack_jungle>,
-	//<primal:drying_rack_lacquer>,
-	//<primal:drying_rack_oak>,
-	//<primal:drying_rack_spruce>,
-	//<primal:worktable_acacia_slab>,
-	//<primal:worktable_bigoak_slab>,
-	//<primal:worktable_birch_slab>,
-	//<primal:worktable_ironwood_slab>,
-	//<primal:worktable_jungle_slab>,
-	//<primal:worktable_lacquer_slab>,
-	//<primal:worktable_oak_slab>,
-	//<primal:worktable_spruce_slab>,
+	<actuallyadditions:item_misc:4>
+
 ] as IItemStack[];
 
 for item in removeAndHideItems {

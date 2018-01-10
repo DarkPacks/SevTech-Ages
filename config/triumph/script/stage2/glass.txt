@@ -1,0 +1,13 @@
+setIcon("minecraft:glass")
+
+setTitle("Glass Blowing")
+
+setDescription("Create glass by first melting Sand in the melter")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:glass")
+
+setRewardExperience(8)

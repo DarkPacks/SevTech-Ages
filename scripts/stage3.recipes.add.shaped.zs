@@ -42,6 +42,16 @@ var shapedRecipes = {
 			[<astralsorcery:itemrockcrystalsimple>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple>]
 		]
 	],
+
+	//Diamond Wand converted to Platinum
+	<betterbuilderswands:wanddiamond> : [
+		[
+			[null, null, metals.platinum.plate],
+			[null, log, null],
+			[log, null, null]
+		]
+	],
+
 	//Immersive Engineering
 	<immersiveengineering:metal_decoration0:3> : [
 		[
@@ -61,7 +71,13 @@ var shapedRecipes = {
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>]
 		]
 	],
-
+<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}) : [
+		[
+			[null, <immersiveengineering:material:18>, null],
+			[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+		]
+	],
 	//Embers Stage 3
 	<embers:axe_aluminum> : [
 		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
@@ -179,6 +195,25 @@ var shapedRecipes = {
 		]
 	],
 
+	//Actually Additions
+	//This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made) I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry
+	<actuallyadditions:item_food:14> : [
+		[[<actuallyadditions:item_food>, <betterwithaddons:food_meatballs>, <actuallyadditions:item_food>],
+		[<actuallyadditions:item_food:20>, <rustic:tomato>, <rustic:chili_pepper>],
+		[<horsepower:dough>, <horsepower:dough>, <horsepower:dough>]]
+	],
+	//Ant Anne's Best Chocolate cookies!
+	<actuallyadditions:item_food:12> * 3 : [
+		[[null, <minecraft:dye:3>, null],
+		[null, <horsepower:dough>, null]]
+	],
+	//I didn't have red ants to put on top since the item has little red dots on.
+	<actuallyadditions:item_food:8> : [
+		[[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],
+		[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
+		[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]]
+	],
+
 	//Natura
 	<natura:netherrack_furnace> : [
 		[[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
@@ -208,7 +243,32 @@ var shapedRecipes = {
 			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
 		]
 	],
+	 <tconstruct:materials:16> : [
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		],
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		],
+		[
+			[null, <tconstruct:materials:15>, null],
+			[<tconstruct:materials:15>, <thebetweenlands:green_middle_gem>, <tconstruct:materials:15>],
+			[null, <tconstruct:materials:15>, null]
+		]
+	],
 
+	<tconstruct:edible:4> * 4 : [
+		[
+			[null, <minecraft:magma_cream>, null],
+			[<minecraft:magma_cream>, <minecraft:lava_bucket>, <minecraft:magma_cream>],
+			[null, <minecraft:magma_cream>, null]
+		]
+	],
+	
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
 		[

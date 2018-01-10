@@ -40,11 +40,12 @@ mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remo
 
 /*
 	Crusher
-	IItemStack output, IIngredient input, int energy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
+	IItemStack output, IIngredient input, int totalEnergy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
 */
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
-Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 250);
-Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 250);
+Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 3000);
+Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 3000);
+Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 3000);
 
 /*
 	Arc Furnace
@@ -61,3 +62,9 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulec
 
 //Dawnstone
 ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.firstItem, slag, 400, 512, [metals.gold.ingot.firstItem]);
+
+//Mixer
+//mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
+
+mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);

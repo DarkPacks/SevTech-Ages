@@ -130,7 +130,6 @@ var stage3Items = [
 	<minecraft:brewing_stand>,
 	<minecraft:ender_eye>,
 	<minecraft:fire_charge>,
-	<minecraft:ghast_tear>,
 	<minecraft:magma>,
 	<minecraft:magma_cream>,
 	<minecraft:nether_brick>,

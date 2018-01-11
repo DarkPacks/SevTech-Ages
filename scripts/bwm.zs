@@ -214,6 +214,15 @@ var sawRecipes = {
 		<traverse:fir_log> * 6,
 		<betterwithmods:bark:5>,
 		<betterwithmods:material:22> * 2
+	],
+	<abyssalcraft:dltlog> : [
+		<abyssalcraft:dltplank> * 6,
+		<betterwithmods:material:22> * 2
+	],
+
+	<abyssalcraft:dreadlog> : [
+		<abyssalcraft:dreadplanks> * 6,
+		<betterwithmods:material:22> * 2
 	]
 } as IItemStack[][IItemStack];
 

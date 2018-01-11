@@ -444,11 +444,9 @@ var itemsForStage = [
 	<pneumaticcraft:advanced_liquid_compressor>,
 	<pneumaticcraft:advanced_pcb>,
 	<pneumaticcraft:aerial_interface>,
-	<pneumaticcraft:air_canister:*>,
 	<pneumaticcraft:air_cannon>,
 	<pneumaticcraft:air_compressor>,
 	<pneumaticcraft:air_grate_module>,
-	<pneumaticcraft:amadron_tablet:*>,
 	<pneumaticcraft:assembly_controller>,
 	<pneumaticcraft:assembly_drill>,
 	<pneumaticcraft:assembly_io_unit>,
@@ -531,6 +529,8 @@ var itemsForStage = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
+	<pneumaticcraft:amadron_tablet>,
+	<pneumaticcraft:air_canister>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

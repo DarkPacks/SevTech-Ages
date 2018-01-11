@@ -254,7 +254,7 @@ var shapedRecipes = {
 	],
 	<storagenetwork:request>: [
 		[
-			[metals.compressedIron.plate, <integrateddynamics:part_display_panel_item>, metals.compressedIron.plate],
+			[metals.compressedIron.plate, <minecraft:glass_pane>, metals.compressedIron.plate],
 			[<storagenetwork:kabel>, <immersiveengineering:metal_decoration0:5>, <storagenetwork:kabel>],
 			[metals.compressedIron.plate, <storagedrawers:controller>, metals.compressedIron.plate]
 		]

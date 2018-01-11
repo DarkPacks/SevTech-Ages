@@ -194,10 +194,6 @@ function handleMetalItem(metalName as string, metal as IOreDictEntry[string], me
 
 			//Dust can only be used in arc furnace
 			if (metalType == "dust") {
-				if (loadedMods.contains("tconstruct") & hasLiquid) {
-					mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
-				}
-
 				var defaultArcEnergyPerTick as int = 512;
 				var defaultArcTickTime as int = 100;
 				var arcGivesSlag as bool = false;

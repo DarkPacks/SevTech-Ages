@@ -189,7 +189,6 @@ var stageZeroItems = [
 	<actuallyadditions:item_misc:9>,
 	<actuallyadditions:item_misc:12>,
 	<actuallyadditions:item_misc:13>,
-	<actuallyadditions:item_misc:17>,
 	<actuallyadditions:item_misc:20>,
 	<actuallyadditions:item_misc:21>,
 	<actuallyadditions:item_misc:22>,

@@ -12,6 +12,7 @@ var removeAndHideItems = [
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
+	<actuallyadditions:item_misc:17>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
@@ -95,7 +96,7 @@ var removeAndHideItems = [
 	<stevescarts:modulecomponents:9>,
 	<embers:plate_caminite_raw>,
 	<pickletweaks:grass_fiber>,
-	
+
 	//Nuggets
 	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,

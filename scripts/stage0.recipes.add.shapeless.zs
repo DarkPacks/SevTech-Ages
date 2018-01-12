@@ -30,7 +30,7 @@ var shapelessRecipes = {
 		[<minecraft:dirt>, <minecraft:dye:15>]
 	],
 	<minecraft:gunpowder> : [
-		[<roots:fairy_dust>, <actuallyadditions:item_misc:17>, <minecraft:dye:15>]
+		[<roots:fairy_dust>, <ore:dyeBlack>, <minecraft:dye:15>]
 	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_shaft>, <minecraft:stick>]

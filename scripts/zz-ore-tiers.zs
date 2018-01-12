@@ -235,7 +235,7 @@ var replacementItemsForStage = {
 		[<geolosys:ore_sample:9>, <immcraft:rock>],
 
 		//Dimensional Shard Ore
-		[<rftools:dimensional_shard_ore>]
+		[<rftools:dimensional_shard_ore:*>]
 
   		//Soulstone
 		//[<mysticalagriculture:soulstone>, <minecraft:netherrack>]

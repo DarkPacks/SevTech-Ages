@@ -78,8 +78,8 @@ mods.betterwithmods.Cauldron.remove(<betterwithmods:material:6>);
 mods.betterwithmods.Cauldron.remove(<rustic:tallow>);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
-mods.betterwithmods.Cauldron.remove(<betterwithmods:laxative>);
-mods.betterwithmods.Cauldron.add(<betterwithmods:laxative>, null, [<betterwithmods:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
+mods.betterwithmods.Cauldron.remove(<betterwithaddons:laxative>);
+mods.betterwithmods.Cauldron.add(<betterwithaddons:laxative>, null, [<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
 
 //Stoked Cauldron
 mods.betterwithmods.StokedCauldron.remove(<betterwithmods:material:12>);

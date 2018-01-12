@@ -61,8 +61,10 @@
 <geolosys:ore:5>.addTooltip(format.red("Tin Ore"));
 <geolosys:ore:6>.addTooltip(format.red("Silver and Lead Ore"));
 <geolosys:ore:7>.addTooltip(format.red("Aluminum Ore"));
-<geolosys:ore:9>.addTooltip(format.red("Zinc Ore"));
-<geolosys:ore:10>.addTooltip(format.red("Uranium Ore"));
+<geolosys:ore:8>.addTooltip(format.red("Platinum and Osmium Ore"));
+<geolosys:ore:9>.addTooltip(format.red("Uranium Ore"));
+<geolosys:ore:10>.addTooltip(format.red("Zinc Ore"));
+<geolosys:ore_vanilla:1>.addTooltip(format.red("Redstone Ore"));
 <geolosys:ore_vanilla:5>.addTooltip(format.red("Diamond Ore"));
 <geolosys:ore_vanilla:6>.addTooltip(format.red("Emerald Ore"));
 

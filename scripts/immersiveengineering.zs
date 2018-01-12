@@ -57,6 +57,11 @@ Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
 
 
 
+Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
+
+
+
+
 /*
 	Arc Furnace
 */
@@ -78,3 +83,5 @@ ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.f
 
 mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
+
+

@@ -454,7 +454,6 @@ var itemsForStage = [
 	<pneumaticcraft:assembly_platform>,
 	<pneumaticcraft:assembly_program:2>,
 	<pneumaticcraft:block_tracker_upgrade>,
-	<pneumaticcraft:camo_applicator:*>,
 	<pneumaticcraft:cannon_barrel>,
 	<pneumaticcraft:charging_module>,
 	<pneumaticcraft:charging_station>,
@@ -483,9 +482,7 @@ var itemsForStage = [
 	<pneumaticcraft:logistic_frame_passive_provider>,
 	<pneumaticcraft:logistic_frame_requester>,
 	<pneumaticcraft:logistic_frame_storage>,
-	<pneumaticcraft:logistics_configurator:*>,
 	<pneumaticcraft:logistics_module>,
-	<pneumaticcraft:manometer:*>,
 	<pneumaticcraft:minigun>,
 	<pneumaticcraft:network_component:1>,
 	<pneumaticcraft:network_component:2>,
@@ -500,7 +497,6 @@ var itemsForStage = [
 	<pneumaticcraft:pneumatic_door_base>,
 	<pneumaticcraft:pneumatic_dynamo>,
 	<pneumaticcraft:pneumatic_helmet>,
-	<pneumaticcraft:pneumatic_wrench:*>,
 	<pneumaticcraft:pressure_chamber_glass>,
 	<pneumaticcraft:pressure_chamber_interface>,
 	<pneumaticcraft:pressure_chamber_valve>,
@@ -527,10 +523,18 @@ var itemsForStage = [
 	<pneumaticcraft:uv_light_box>,
 	<pneumaticcraft:vacuum_pump>,
 	<pneumaticcraft:volume_upgrade>,
-	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
-	<pneumaticcraft:amadron_tablet>,
-	<pneumaticcraft:air_canister>,
+
+	<pneumaticcraft:manometer:30000>,
+	<pneumaticcraft:amadron_tablet:30000>,
+	<pneumaticcraft:air_canister:30000>,
+	<pneumaticcraft:pneumatic_wrench:30000>,
+	<pneumaticcraft:camo_applicator:30000>,
+	<pneumaticcraft:vortex_cannon:30000>,
+	<pneumaticcraft:logistics_configurator:30000>,
+
+
+
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

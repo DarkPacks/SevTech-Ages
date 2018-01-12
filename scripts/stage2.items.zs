@@ -77,6 +77,7 @@ var stage2Items = [
 	<minecraft:bow>,
 	<minecraft:fishing_rod>,
 	<minecraft:carrot_on_a_stick>,
+	<minecraft:ghast_tear>,
 	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
 	<bibliocraft:recipebook>,
 	<jaff:iron_fishing_rod>,

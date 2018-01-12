@@ -254,7 +254,7 @@ var shapedRecipes = {
 	],
 	<storagenetwork:request>: [
 		[
-			[metals.compressedIron.plate, <integrateddynamics:part_display_panel_item>, metals.compressedIron.plate],
+			[metals.compressedIron.plate, <minecraft:glass_pane>, metals.compressedIron.plate],
 			[<storagenetwork:kabel>, <immersiveengineering:metal_decoration0:5>, <storagenetwork:kabel>],
 			[metals.compressedIron.plate, <storagedrawers:controller>, metals.compressedIron.plate]
 		]
@@ -460,7 +460,6 @@ var shapedRecipes = {
 			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
 		]
 	],
-
 	<pneumaticcraft:pressure_chamber_glass> * 8 : [
 		[
 			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>],
@@ -468,6 +467,20 @@ var shapedRecipes = {
 			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]
 		]
 	],
+
+//<pneumaticcraft:amadron_tablet:30000>
+
+
+	<pneumaticcraft:gps_tool:0> : [
+		[
+			[null, <minecraft:redstone_torch>, null],
+			[<pneumaticcraft:plastic:1>, <ore:paneGlass>, <pneumaticcraft:plastic:1>],
+			[<pneumaticcraft:plastic:1>, metals.platinum.plate, <pneumaticcraft:plastic:1>]
+		]
+	],
+
+
+
 
 	//Inductive Logistics
 	<indlog:inv_connector> : [

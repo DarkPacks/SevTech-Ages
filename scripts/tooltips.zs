@@ -85,3 +85,5 @@
 
 <primal_tech:rock>.addTooltip(format.red("Used with the Work Stump"));
 <primal_tech:rock>.addTooltip(format.red("Left Click on Table to craft recipe"));
+
+<tconstruct:sharpening_kit>.addTooltip(format.red("Only used to repair tools"));

@@ -47,6 +47,16 @@ Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 
 Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 3000);
 Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 3000);
 
+Crusher.removeRecipe(<actuallyadditions:item_dust:4>);
+Crusher.addRecipe(<pickletweaks:dye_powder:11> * 2, <minecraft:dye:4>, 3000);
+
+Crusher.addRecipe(<pickletweaks:dye_powder:14> * 2, <minecraft:dye:1>, 3000);
+Crusher.addRecipe(<pickletweaks:dye_powder:14> * 1, <rustic:wildberries>, 3000);
+
+Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
+
+Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
+
 /*
 	Arc Furnace
 */

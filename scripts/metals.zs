@@ -257,19 +257,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	} else if (metalPartName == "block") {
 		mods.primaltech.StoneAnvil.addRecipe(metalItems[metalName].ingot.items[0] * 9, preferredMetalItem);
 	}
-
-	//==============================
-	//PneumaticCraft
-	//Add compression recipes for nugget -> ingot -> block
-	//Dont do iron because it causes conflicts
-	if (metalName != "iron") {
-		var defaultChamberPressure as double = 2.0;
-		if (metalPartName == "nugget") {
-			mods.pneumaticcraft.pressurechamber.addRecipe([preferredMetalItem * 9], defaultChamberPressure, [metalItems[metalName].ingot.items[0]]);
-		} else if (metalPartName == "block") {
-			mods.pneumaticcraft.pressurechamber.addRecipe([metalItems[metalName].ingot.items[0] * 9], defaultChamberPressure, [preferredMetalItem]);
-		}
-	}
 }
 
 for metalName, metal in metals {

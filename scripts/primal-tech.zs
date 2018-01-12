@@ -47,17 +47,6 @@ var defaultKilnCookTimeRecipes = {
 	<primal:thatch>: [
 		<primal:thatch_wet>
 	],
-	<primal_tech:charcoal_block>: [
-		<minecraft:log2:1>,
-		<minecraft:log2>,
-		<minecraft:log:1>,
-		<minecraft:log:2>,
-		<minecraft:log:3>,
-		<minecraft:log>,
-		<natura:overworld_logs2:1>,
-		<natura:overworld_logs2:3>,
-		<rustic:log>
-	],
 	<primal_tech:flint_block>: [
 		<minecraft:gravel>
 	],
@@ -70,6 +59,11 @@ for output, inputs in defaultKilnCookTimeRecipes {
 	for input in inputs {
 		mods.primaltech.ClayKiln.addRecipe(output, input, defaultKilnCookTime);
 	}
+}
+
+//Add all logs to kiln to make low grade charcoal
+for log in <ore:logWood>.items {
+	mods.primaltech.ClayKiln.addRecipe(<primal_tech:charcoal_block>, log, defaultKilnCookTime);
 }
 
 /*

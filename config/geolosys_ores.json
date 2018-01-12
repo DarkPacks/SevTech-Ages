@@ -48,42 +48,42 @@
     1,
     20
   ],
-  "hematiteSize": 96,
+  "hematiteSize": 72,
   "hematiteChance": 5,
   "hematiteDimBlacklist": [
     -1,
     1,
     20
   ],
-  "limoniteSize": 80,
+  "limoniteSize": 72,
   "limoniteChance": 7,
   "limoniteDimBlacklist": [
     -1,
     1,
     20
   ],
-  "malachiteSize": 96,
+  "malachiteSize": 72,
   "malachiteChance": 6,
   "malachiteDimBlacklist": [
     -1,
     1,
     20
   ],
-  "azuriteSize": 80,
+  "azuriteSize": 72,
   "azuriteChance": 10,
   "azuriteDimBlacklist": [
     -1,
     1,
     20
   ],
-  "cassiteriteSize": 96,
+  "cassiteriteSize": 72,
   "cassiteriteChance": 6,
   "cassiteriteDimBlacklist": [
     -1,
     1,
     20
   ],
-  "tealliteSize": 80,
+  "tealliteSize": 72,
   "tealliteChance": 8,
   "tealliteDimBlacklist": [
     -1,

@@ -73,7 +73,7 @@ mods.extendedcrafting.TableCrafting.addShaped(
 	<teslacorelib:machine_case>,
 	[
 		[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate],
-		[plastic, metals.reinforcedMetal.ingot, <pneumaticcraft:printed_circuit_board>, metals.reinforcedMetal.ingot, plastic],
+		[plastic, <stevescarts:modulecomponents:21>, <pneumaticcraft:printed_circuit_board>, <stevescarts:modulecomponents:21>, plastic],
 		[metals.compressedIron.plate, <appliedenergistics2:material>, <extendedcrafting:frame>, <appliedenergistics2:material>, metals.compressedIron.plate],
 		[plastic, metals.cobalt.plate, <appliedenergistics2:material>, metals.cobalt.plate, plastic],
 		[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate]

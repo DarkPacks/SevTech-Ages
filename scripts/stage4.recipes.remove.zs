@@ -17,6 +17,8 @@ var removeItems = [
 	<pneumaticcraft:programming_puzzle:12>,
 	<pneumaticcraft:programming_puzzle:14>,
 	<pneumaticcraft:programming_puzzle:15>,
+	<pneumaticcraft:gps_tool:0>,
+	<pneumaticcraft:gps_tool:30000>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
 	<pneumaticcraft:printed_circuit_board>,

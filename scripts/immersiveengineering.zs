@@ -47,6 +47,16 @@ Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 
 Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 3000);
 Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 3000);
 
+Crusher.removeRecipe(<actuallyadditions:item_dust:4>);
+Crusher.addRecipe(<pickletweaks:dye_powder:11> * 2, <minecraft:dye:4>, 3000);
+
+Crusher.addRecipe(<pickletweaks:dye_powder:14> * 2, <minecraft:dye:1>, 3000);
+Crusher.addRecipe(<pickletweaks:dye_powder:14> * 1, <rustic:wildberries>, 3000);
+
+Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
+
+Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
+
 /*
 	Arc Furnace
 */
@@ -61,10 +71,48 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulec
 );
 
 //Dawnstone
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot.firstItem, slag, 400, 512, [metals.gold.ingot.firstItem]);
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.gold.dust]);
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.dust, slag, 100, 512, [metals.gold.dust]);
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.copper.dust]);
+ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.copper.dust]);
 
-//Mixer
-//mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
+/*
+	Add recipes for alloying that is removed by metals script
+	Also adding slag as an output to them all
+*/
+//Steel
+ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.ingot, slag, 400, 512, [<ore:dustCoke>]);
+ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.dust, slag, 400, 512, [<ore:dustCoke>]);
 
-mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> *500, <liquid:slime> *500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
+//Constantan
+ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.nickel.dust]);
+ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.copper.dust, slag, 100, 512, [metals.nickel.dust]);
+ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.nickel.ingot, slag, 100, 512, [metals.copper.dust]);
+ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.nickel.dust, slag, 100, 512, [metals.copper.dust]);
+
+//Electrum
+ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.silver.dust]);
+ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.silver.dust]);
+ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.silver.ingot, slag, 100, 512, [metals.gold.dust]);
+ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.silver.dust, slag, 100, 512, [metals.gold.dust]);
+
+//Invar
+ArcFurnace.addRecipe(metals.invar.ingot.firstItem * 3, metals.nickel.ingot, slag, 100, 512, [metals.iron.dust * 2]);
+ArcFurnace.addRecipe(metals.invar.ingot.firstItem * 3, metals.nickel.dust, slag, 100, 512, [metals.iron.dust * 2]);
+
+/* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them
+//Aluminum Brass
+ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.ingot, slag, 100, 512, [metals.aluminum.dust * 3]);
+ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.dust, slag, 100, 512, [metals.aluminum.dust * 3]);
+
+//Manyullyn
+ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.cobalt.ingot, slag, 300, 512, [metals.ardite.ingot]);
+ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag, 300, 512, [metals.cobalt.ingot]);
+*/
+
+/*
+	Mixer
+	mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
+*/
+mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);

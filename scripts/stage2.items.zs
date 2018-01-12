@@ -77,6 +77,7 @@ var stage2Items = [
 	<minecraft:bow>,
 	<minecraft:fishing_rod>,
 	<minecraft:carrot_on_a_stick>,
+	<minecraft:ghast_tear>,
 	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
 	<bibliocraft:recipebook>,
 	<jaff:iron_fishing_rod>,
@@ -93,6 +94,7 @@ var stage2Items = [
 	<quark:arrow_explosive>,
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<materialpart:stone:nugget>,
 	<minecraft:fireworks>,
 
 	//YoYo

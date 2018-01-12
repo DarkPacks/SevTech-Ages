@@ -94,6 +94,7 @@ var stage2Items = [
 	<quark:arrow_explosive>,
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
+	<materialpart:stone:nugget>,
 	<minecraft:fireworks>,
 
 	//YoYo

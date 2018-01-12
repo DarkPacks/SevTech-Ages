@@ -155,7 +155,6 @@ var hideItems = [
 	<tconstruct:slime_vine_purple>,
 	<darkutils:sneaky_bedrock>,
 	<betterwithmods:fertilizer>,
-	<embers:block_furnace>,
 	<embers:ore_aluminum>,
 	<embers:ore_copper>,
 	<embers:ore_lead>,

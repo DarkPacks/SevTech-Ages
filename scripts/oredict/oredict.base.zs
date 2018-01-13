@@ -156,13 +156,19 @@ for shearType, shears in shearTypesAndItems {
 //Flowers and Lapis no longer are just dye!
 <ore:dye>.remove(<minecraft:dye:*>);
 
+<ore:dyeBlack>.remove(<actuallyadditions:item_misc:17>);
 <ore:dyeBlack>.remove(<minecraft:dye>);
-<ore:dyeRed>.remove(<minecraft:dye:1>);
-<ore:dyeGreen>.remove(<minecraft:dye:2>);
-<ore:dyeBrown>.remove(<minecraft:dye:3>);
+<ore:dyeBlack>.remove(<nex:item_dust_wither>);
+<ore:dyeBlack>.remove(<primal:netherwax_clump>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
-<ore:dyeYellow>.remove(<minecraft:dye:11>);
+<ore:dyeBrown>.remove(<minecraft:dye:3>);
+<ore:dyeBrown>.remove(<primal:earthwax_clump>);
+<ore:dyeGreen>.remove(<minecraft:dye:2>);
+<ore:dyePurple>.remove(<primal:sinuous_resin>);
+<ore:dyeRed>.remove(<minecraft:dye:1>);
+<ore:dyeRed>.remove(<rustic:wildberries>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
+<ore:dyeYellow>.remove(<minecraft:dye:11>);
 
 //<ore:dyeOrange>.remove(<coralreef:coral>);
 //<ore:dyeMagenta>.remove(<coralreef:coral:1>);

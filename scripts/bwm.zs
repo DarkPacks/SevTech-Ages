@@ -33,7 +33,6 @@ mods.betterwithmods.Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cob
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:item_misc:17>]);
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
 mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);

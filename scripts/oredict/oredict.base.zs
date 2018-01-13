@@ -197,9 +197,6 @@ for shearType, shears in shearTypesAndItems {
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);
 <ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
 
-//Temp Fix
-<ore:logWood>.add(<minecraft:log:1>);
-
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 

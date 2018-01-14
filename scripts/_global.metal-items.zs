@@ -267,6 +267,15 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:34>,
 		rod: null
 	},
+	osmium: {
+		block: <mekanism:basicblock>,
+		dust: <mekanism:dust:2>,
+		gear: null,
+		ingot: <mekanism:ingot:1>,
+		nugget: <mekanism:nugget:1>,
+		plate: null,
+		rod: null
+	},
 	pigiron: {
 		block: <tconstruct:metal:4>,
 		dust: null,

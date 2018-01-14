@@ -30,6 +30,7 @@ var metalStages = {
 	manyullyn: "four",
 	modularium: "three",
 	nickel: "three",
+	osmium: "four",
 	pigiron: "three",
 	platinum: "three",
 	redstoneAlloy: "three",

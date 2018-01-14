@@ -145,43 +145,43 @@
   },
   {
     "n": "BC Builders",
-    "v": "7.99.13",
-    "f": "buildcraft-builders-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-builders-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "a924642eb8d77c0922e7417d0047978a"
+    "m": "af04c0ba70c808bd889eb37e77b17d39"
   },
   {
     "n": "BC Factory",
-    "v": "7.99.13",
-    "f": "buildcraft-factory-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-factory-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "4f6b72f10a055183955ec9e9519f1245"
+    "m": "18269fa49c9ca1ce384e1b4ff2008f50"
   },
   {
     "n": "BC Robotics",
-    "v": "7.99.13",
-    "f": "buildcraft-robotics-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-robotics-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "67c9713436f01aba1183382e36661d62"
+    "m": "d20413db5bedc0e0fbebd5b2ccf4dcf8"
   },
   {
     "n": "BC Silicon",
-    "v": "7.99.13",
-    "f": "buildcraft-silicon-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-silicon-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "e906904daa6a1e0cd007d43cb1cdf919"
+    "m": "cc77151b0d530c571eaac711b632b5f1"
   },
   {
     "n": "BC Transport",
-    "v": "7.99.13",
-    "f": "buildcraft-transport-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-transport-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "a0616573888b0818ce342e2e25104016"
+    "m": "8415413a527594d1a773e75a4e082e31"
   },
   {
     "n": "Better Advancements",
@@ -265,27 +265,27 @@
   },
   {
     "n": "Bookshelf",
-    "v": "2.3.518",
-    "f": "Bookshelf-1.12.2-2.3.518.jar",
+    "v": "2.3.519",
+    "f": "Bookshelf-1.12.2-2.3.519.jar",
     "a": "darkhax, lclc98",
     "u": "http://minecraft.curseforge.com/projects/bookshelf",
-    "m": "246827a6f1fa05f94011e7a8353fc0ab"
+    "m": "466eba75212afa9dc58a8b4f2825f582"
   },
   {
     "n": "BuildCraft",
-    "v": "7.99.13",
-    "f": "buildcraft-core-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-core-7.99.14.jar",
     "a": "SpaceToad, BuildCraft Team",
     "u": "http://www.mod-buildcraft.com/",
-    "m": "a3d94c93bf4f5fee1702edadaaf0f83b"
+    "m": "26cc9da73c85977f0136a83ca146ea26"
   },
   {
     "n": "BuildCraft Lib",
-    "v": "7.99.13",
-    "f": "buildcraft-core-7.99.13.jar",
+    "v": "7.99.14",
+    "f": "buildcraft-core-7.99.14.jar",
     "a": "",
     "u": "",
-    "m": "a3d94c93bf4f5fee1702edadaaf0f83b"
+    "m": "26cc9da73c85977f0136a83ca146ea26"
   },
   {
     "n": "Caliper",
@@ -608,6 +608,14 @@
     "m": "8bce1744519f66f3de8b734cac9b487b"
   },
   {
+    "n": "Extra Planets",
+    "v": "1.12.2-0.1.1",
+    "f": "ExtraPlanets-1.12.2-0.1.1.jar",
+    "a": "",
+    "u": "https://minecraft.curseforge.com/projects/extraplanets",
+    "m": "9f9ad52f475c21aec14836e9c25861a4"
+  },
+  {
     "n": "Fancy Block Particles",
     "v": "2.3.5",
     "f": "FancyBlockParticles-1.12.x-2.3.5.jar",
@@ -625,11 +633,11 @@
   },
   {
     "n": "Farseek",
-    "v": "2.2.2",
-    "f": "Farseek-1.12-2.2.2.jar",
+    "v": "2.2.3",
+    "f": "Farseek-1.12-2.2.3.jar",
     "a": "delvr",
     "u": "https://minecraft.curseforge.com/projects/farseek",
-    "m": "65545ac70830383ed1e4dfff19e14ce1"
+    "m": "603743c3aa0ebcde414ad8979d0a2775"
   },
   {
     "n": "fat_cat",
@@ -672,12 +680,28 @@
     "m": ""
   },
   {
+    "n": "Galacticraft Core",
+    "v": "4.0.1.120",
+    "f": "GalacticraftCore-1.12.2-4.0.1.0-Commit-c3e9e9e.jar",
+    "a": "micdoodle8, radfast, EzerArch, fishtaco, SpaceViking, SteveKunG",
+    "u": "https://micdoodle8.com/",
+    "m": "1e7fe18b12af0b8f4fc0cc1f245eb540"
+  },
+  {
+    "n": "Galacticraft Planets",
+    "v": "4.0.1.120",
+    "f": "Galacticraft-Planets-1.12.2-4.0.1.0-Commit-c3e9e9e.jar",
+    "a": "micdoodle8, radfast, EzerArch, fishtaco, SpaceViking, SteveKunG",
+    "u": "https://micdoodle8.com/",
+    "m": "a70d5a4412e6191f47641e46085bf6d9"
+  },
+  {
     "n": "Game Stages",
-    "v": "1.0.72",
-    "f": "GameStages-1.12.2-1.0.72.jar",
+    "v": "1.0.75",
+    "f": "GameStages-1.12.2-1.0.75.jar",
     "a": "Darkhax",
     "u": "https://minecraft.curseforge.com/projects/game-stages",
-    "m": "0263fb6b9d09bdab081c1d9faa717230"
+    "m": "b5daa2e0c356497223db365b99a6eac8"
   },
   {
     "n": "Geolosys",
@@ -721,11 +745,11 @@
   },
   {
     "n": "Hunting Dimension",
-    "v": "1.0.7",
-    "f": "HuntingDimension-1.12.2-1.0.7.jar",
+    "v": "1.0.10",
+    "f": "HuntingDimension-1.12.2-1.0.10.jar",
     "a": "Darkhax",
     "u": "http://www.darkhax.net",
-    "m": "cf2e0f1fa5a115424fcc9c355bf4b267"
+    "m": "3b065216849d23171435792188ec1172"
   },
   {
     "n": "Immersive Craft",
@@ -865,11 +889,11 @@
   },
   {
     "n": "Item Stages",
-    "v": "1.0.16",
-    "f": "ItemStages-1.12.2-1.0.16.jar",
+    "v": "1.0.18",
+    "f": "ItemStages-1.12.2-1.0.18.jar",
     "a": "Darkhax",
     "u": "https://minecraft.curseforge.com/projects/item-stages",
-    "m": "2b408873ebe7f227569e6e593da38a0a"
+    "m": "48a0d040c9d7172629add64f401e1b19"
   },
   {
     "n": "IvToolkit",
@@ -960,12 +984,28 @@
     "m": "d194c9461c96e4e4c330931247a7a0dd"
   },
   {
+    "n": "Mekanism",
+    "v": "1.12.2-9.4.3.330",
+    "f": "Mekanism-1.12.2-9.4.3.330.jar",
+    "a": "",
+    "u": "",
+    "m": "e2608c622fddf3560b6fadb8164736d7"
+  },
+  {
     "n": "Mercurius",
     "v": "1.0.6",
     "f": "Mercurius-1.12.2.jar",
     "a": "TamasHenning, LexManos",
     "u": "http://files.minecraftforge.net/",
     "m": "3d2ff1b3a4dabad1476cec8ede64a33e"
+  },
+  {
+    "n": "Micdoodle8 Core",
+    "v": "",
+    "f": "minecraft.jar",
+    "a": "micdoodle8, radfast",
+    "u": "http://www.micdoodle8.com/",
+    "m": ""
   },
   {
     "n": "Minecraft",
@@ -990,6 +1030,14 @@
     "a": "LexManos, cpw, fry",
     "u": "http://minecraftforge.net",
     "m": ""
+  },
+  {
+    "n": "MJRLegendsLib",
+    "v": "1.12.2-1.0.2",
+    "f": "MJRLegendsLib-1.12.2-1.0.2.jar",
+    "a": "",
+    "u": "",
+    "m": "df9ed0b3044df56a51b2ab2a9e64d61b"
   },
   {
     "n": "Mo\u0027 Bends",
@@ -1057,11 +1105,11 @@
   },
   {
     "n": "Modular Routers",
-    "v": "1.12.2-3.1.0",
-    "f": "modular-routers-1.12.2-3.1.0.jar",
+    "v": "1.12.2-3.1.1",
+    "f": "modular-routers-1.12.2-3.1.1.jar",
     "a": "desht",
     "u": "https://minecraft.curseforge.com/projects/modular-routers",
-    "m": "87619e3b8843ec8e95885830938afb44"
+    "m": "ba017cdc24926cad8cf855201be44687"
   },
   {
     "n": "Mouse Tweaks",
@@ -1121,11 +1169,11 @@
   },
   {
     "n": "Natura",
-    "v": "1.12.2-4.3.2.39",
-    "f": "natura-1.12.2-4.3.2.39.jar",
+    "v": "1.12.2-4.3.2.42",
+    "f": "natura-1.12.2-4.3.2.42.jar",
     "a": "mDiyo, Slime Knights",
     "u": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294968-natura",
-    "m": "81c0580a7605d5c7900429133a4fa8a5"
+    "m": "0f8c9cf9490e80295556741e857c35ec"
   },
   {
     "n": "Neat",
@@ -1305,11 +1353,11 @@
   },
   {
     "n": "Quark",
-    "v": "r1.4-120",
-    "f": "Quark-r1.4-120.jar",
+    "v": "r1.4-121",
+    "f": "Quark-r1.4-121.jar",
     "a": "Vazkii, wiiv",
     "u": "http://www.vazkii.us",
-    "m": "3afe462957839b505d5af5aeb6690f9f"
+    "m": "112907e84c9c2361d3258fae1582ee97"
   },
   {
     "n": "Quick Leaf Decay",
@@ -1441,11 +1489,11 @@
   },
   {
     "n": "Rustic",
-    "v": "0.4.5",
-    "f": "rustic-0.4.5.jar",
+    "v": "0.4.7",
+    "f": "rustic-0.4.7.jar",
     "a": "the-realest-stu",
     "u": "https://github.com/the-realest-stu/Rustic",
-    "m": "be1347491b7de2021103144428673641"
+    "m": "8df685f04613df48329543c05b7d3700"
   },
   {
     "n": "Scannable",
@@ -1522,10 +1570,10 @@
   {
     "n": "Steve\u0027s Carts 2",
     "v": "${version}",
-    "f": "StevesCarts-1.12.2-2.4.13.69.jar",
+    "f": "StevesCarts-1.12.2-2.4.15.76.jar",
     "a": "Vswe",
     "u": "",
-    "m": "23a65d11e2261fe3e16f62f286012d2f"
+    "m": "ab366f1263861102f7ba6838008bbdf7"
   },
   {
     "n": "Steve\u0027s Factory Manager",
@@ -1545,11 +1593,11 @@
   },
   {
     "n": "Streams",
-    "v": "0.4.1",
-    "f": "Streams-1.12-0.4.1.jar",
+    "v": "0.4.2",
+    "f": "Streams-1.12-0.4.2.jar",
     "a": "delvr",
     "u": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2346379-streams-real-flowing-rivers",
-    "m": "09d5e46183fe12fa7275fe31ad95f949"
+    "m": "4ea45a82718d0449eb851f9a6a29a492"
   },
   {
     "n": "Stuff A Sock In It",

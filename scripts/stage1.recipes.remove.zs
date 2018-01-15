@@ -95,7 +95,8 @@ var removeItems = [
 	<tconstruct:pattern>,
 
 	//BWM changes
-	<betterwithmods:bellows>
+	<betterwithmods:bellows>,
+	<betterwithaddons:spindle>
 ] as IItemStack[];
 
 for item in removeItems {

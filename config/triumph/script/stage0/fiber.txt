@@ -1,6 +1,6 @@
 setIcon("primal:plant_fiber")
 
-setTitle("Fiberous Diet")
+setTitle("Fibrous Diet")
 
 setDescription("To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine")
 

@@ -277,7 +277,6 @@ var itemsForStage = [
 	<betterwithaddons:inverted_gearbox>,
 	<betterwithaddons:loom>,
 	<betterwithaddons:scaffold>,
-	<betterwithaddons:spindle>,
 	<betterwithaddons:weight_stone>,
 	<betterwithaddons:weight_wood>,
 	<betterwithmods:axle_generator:2>,

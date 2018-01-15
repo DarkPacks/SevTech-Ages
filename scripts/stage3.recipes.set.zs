@@ -232,6 +232,25 @@ var itemsForStage = [
 	<immersiveengineering:metal_ladder>,
 	<immersiveengineering:metal_ladder:2>,
 	
+	//Mekanism
+	<mekanism:balloon>,
+	<mekanism:balloon:1>,
+	<mekanism:balloon:2>,
+	<mekanism:balloon:3>,
+	<mekanism:balloon:4>,
+	<mekanism:balloon:5>,
+	<mekanism:balloon:6>,
+	<mekanism:balloon:7>,
+	<mekanism:balloon:8>,
+	<mekanism:balloon:9>,
+	<mekanism:balloon:10>,
+	<mekanism:balloon:11>,
+	<mekanism:balloon:12>,
+	<mekanism:balloon:13>,
+	<mekanism:balloon:14>,
+	<mekanism:balloon:15>,
+
+	
 	//Tinkers'
 	<tcomplement:porcelain_tank>,
 	<tconstruct:seared_tank>,

@@ -10,6 +10,7 @@ var modIDs = [
 	"mysticalagradditions",
 	"mysticalagriculture",
 	"quantumstorage",
+	"extraplanets",
 	"scannable"
 ] as string[];
 
@@ -604,7 +605,15 @@ var itemsForStage = [
 	<xnet:advanced_connector:2>,
 	<xnet:advanced_connector:3>,
 	<xnet:controller>,
-	<xnet:router>
+	<xnet:router>,
+
+	//Galacticraft / Extra Planets
+	<extraplanets:advanced_launch_pad>,
+	<extraplanets:advanced_launch_pad:1>,
+	<extraplanets:advanced_launch_pad:2>,
+	<extraplanets:advanced_launch_pad:3>
+
+
 
 ] as IItemStack[];
 

@@ -533,13 +533,54 @@ var itemsForStage = [
 	<pneumaticcraft:vortex_cannon:30000>,
 	<pneumaticcraft:logistics_configurator:30000>,
 
-
-
-
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,
 	<stevescarts:cartmodule:56>,
-	<stevescarts:modulecomponents:44>
+	<stevescarts:modulecomponents:44>,
+
+	//Galacticraft
+	<galacticraftcore:oxygen_compressor>,
+	<galacticraftcore:collector>,
+	<galacticraftcore:rocket_workbench>,
+	<galacticraftcore:fuel_loader>,
+	<galacticraftcore:machine:12>,
+	<galacticraftcore:fuel_canister_partial:1>,
+	<galacticraftcore:air_lock_frame:1>,
+	<galacticraftcore:air_lock_frame>,
+	<galacticraftcore:glowstone_torch>,
+	<galacticraftcore:basic_block_core:4>,
+	<galacticraftcore:machine>,
+	<galacticraftcore:engine>,
+	<galacticraftcore:rocket_fins>,
+	<galacticraftcore:nose_cone>,
+	<galacticraftcore:space_glass_clear>,
+	<galacticraftcore:space_glass_clear:1>,
+	<galacticraftcore:air_vent>,
+	<galacticraftcore:landing_pad>,
+	<galacticraftcore:parachute>,
+	<galacticraftcore:parachute:1>,
+	<galacticraftcore:parachute:2>,
+	<galacticraftcore:parachute:3>,
+	<galacticraftcore:parachute:4>,
+	<galacticraftcore:parachute:5>,
+	<galacticraftcore:parachute:6>,
+	<galacticraftcore:parachute:7>,
+	<galacticraftcore:parachute:8>,
+	<galacticraftcore:parachute:9>,
+	<galacticraftcore:parachute:10>,
+	<galacticraftcore:parachute:11>,
+	<galacticraftcore:parachute:12>,
+	<galacticraftcore:parachute:13>,
+	<galacticraftcore:parachute:14>,
+	<galacticraftcore:parachute:15>,
+	<galacticraftcore:oxygen_tank_light_full>,
+	<galacticraftcore:oxygen_concentrator>,
+	<galacticraftcore:flag>,
+	<galacticraftcore:steel_pole>,
+	<galacticraftcore:canvas>,
+	<galacticraftcore:standard_wrench>
+
+
 
 ] as IItemStack[];
 

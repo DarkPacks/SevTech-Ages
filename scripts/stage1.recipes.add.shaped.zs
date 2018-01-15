@@ -154,6 +154,13 @@ var shapedRecipes = {
 			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]
 		]
 	],
+	<betterwithaddons:spindle> : [
+		[
+			[<minecraft:stick>],
+			[<minecraft:stick>],
+			[<minecraft:stick>]
+		]
+	],
 
 	//Embers recipes fixed for Stage1
 	<embers:archaic_circuit> : [

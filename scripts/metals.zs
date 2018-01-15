@@ -43,6 +43,14 @@ var metalStages = {
 	uranium: "four"
 } as string[string];
 
+//Value doesnt really matter here - but just put it to true
+var partsToSkip as boolean[string] = {
+	"clump": true,
+	"crystal": true,
+	"dirtyDust": true,
+	"shard": true
+};
+
 function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
 
@@ -295,7 +303,7 @@ for metalName, metal in metals {
 	}
 
 	for partName, part in metal {
-		if (part as bool) {
+		if (part as bool & !(partsToSkip in partName)) {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
 			unify(part, preferredMetalItem, metalLiquid);

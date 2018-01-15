@@ -109,13 +109,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	copper: {
 		block: <immersiveengineering:storage>,
+		clump: <mekanism:clump:3>,
+		crystal: <mekanism:crystal:3>,
+		dirtyDust: <mekanism:dirtydust:3>,
 		dust: <immersiveengineering:metal:9>,
 		gear: <materialpart:copper:gear>,
 		ingot: <immersiveengineering:metal>,
 		liquid: <liquid:copper>,
 		nugget: null,
 		plate: <immersiveengineering:metal:30>,
-		rod: <materialpart:copper:rod>
+		rod: <materialpart:copper:rod>,
+		shard: <mekanism:shard:3>
 	},
 	dawnstone: {
 		block: <embers:block_dawnstone>,
@@ -189,13 +193,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	gold: {
 		block: <minecraft:gold_block>,
+		clump: <mekanism:clump:1>,
+		crystal: <mekanism:crystal:1>,
+		dirtyDust: <mekanism:dirtydust:1>,
 		dust: <immersiveengineering:metal:19>,
 		gear: <materialpart:gold:gear>,
 		ingot: <minecraft:gold_ingot>,
 		liquid: <liquid:gold>,
 		nugget: <minecraft:gold_nugget>,
 		plate: <immersiveengineering:metal:40>,
-		rod: <primal:golden_stick>
+		rod: <primal:golden_stick>,
+		shard: <mekanism:shard:1>
 	},
 	invar: {
 		block: <materialpart:invar:block>,
@@ -209,13 +217,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	iron: {
 		block: <minecraft:iron_block>,
+		clump: <mekanism:clump>,
+		crystal: <mekanism:crystal>,
+		dirtyDust: <mekanism:dirtydust>,
 		dust: <immersiveengineering:metal:18>,
 		gear: <materialpart:iron:gear>,
 		ingot: <minecraft:iron_ingot>,
 		liquid: <liquid:iron>,
 		nugget: <minecraft:iron_nugget>,
 		plate: <immersiveengineering:metal:39>,
-		rod: <immersiveengineering:material:1>
+		rod: <immersiveengineering:material:1>,
+		shard: <mekanism:shard>
 	},
 	knightslime: {
 		block: <tconstruct:metal:3>,
@@ -229,13 +241,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	lead: {
 		block: <immersiveengineering:storage:2>,
+		clump: <mekanism:clump:6>,
+		crystal: <mekanism:crystal:6>,
+		dirtyDust: <mekanism:dirtydust:6>,
 		dust: <immersiveengineering:metal:11>,
 		gear: <materialpart:lead:gear>,
 		ingot: <immersiveengineering:metal:2>,
 		liquid: <liquid:lead>,
 		nugget: <immersiveengineering:metal:22>,
 		plate: <immersiveengineering:metal:32>,
-		rod: <materialpart:lead:rod>
+		rod: <materialpart:lead:rod>,
+		shard: <mekanism:shard:6>
 	},
 	manyullyn: {
 		block: <tconstruct:metal:2>,
@@ -269,12 +285,16 @@ global metalItems as IIngredient[string][string] = {
 	},
 	osmium: {
 		block: <mekanism:basicblock>,
+		clump: <mekanism:clump:2>,
+		crystal: <mekanism:crystal:2>,
+		dirtyDust: <mekanism:dirtydust:2>,
 		dust: <mekanism:dust:2>,
 		gear: null,
 		ingot: <mekanism:ingot:1>,
 		nugget: <mekanism:nugget:1>,
 		plate: null,
-		rod: null
+		rod: null,
+		shard: <mekanism:shard:2>
 	},
 	pigiron: {
 		block: <tconstruct:metal:4>,
@@ -328,13 +348,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	silver: {
 		block: <immersiveengineering:storage:3>,
+		clump: <mekanism:clump:5>,
+		crystal: <mekanism:crystal:5>,
+		dirtyDust: <mekanism:dirtydust:5>,
 		dust: <immersiveengineering:metal:12>,
 		gear: <materialpart:silver:gear>,
 		ingot: <immersiveengineering:metal:3>,
 		liquid: <liquid:silver>,
 		nugget: <immersiveengineering:metal:23>,
 		plate: <immersiveengineering:metal:33>,
-		rod: <materialpart:silver:rod>
+		rod: <materialpart:silver:rod>,
+		shard: <mekanism:shard:5>
 	},
 	steel: {
 		block: <immersiveengineering:storage:8>,
@@ -358,13 +382,17 @@ global metalItems as IIngredient[string][string] = {
 	},
 	tin: {
 		block: <embers:block_tin>,
+		clump: <mekanism:clump:4>,
+		crystal: <mekanism:crystal:4>,
+		dirtyDust: <mekanism:dirtydust:4>,
 		dust: null,
 		gear: <materialpart:tin:gear>,
 		ingot: <embers:ingot_tin>,
 		liquid: <liquid:tin>,
 		nugget: <embers:nugget_tin>,
 		plate: <materialpart:tin:plate>,
-		rod: <materialpart:tin:rod>
+		rod: <materialpart:tin:rod>,
+		shard: <mekanism:shard:4>
 	},
 	uranium: {
 		block: <immersiveengineering:storage:5>,

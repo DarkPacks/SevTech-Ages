@@ -44,7 +44,7 @@ var metalStages = {
 } as string[string];
 
 //Value doesnt really matter here - but just put it to true
-var partsToSkip as boolean[string] = {
+var partsToSkip as bool[string] = {
 	"clump": true,
 	"crystal": true,
 	"dirtyDust": true,
@@ -309,7 +309,7 @@ for metalName, metal in metals {
 			unify(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
-				var metalStage = metalStages in metalName ? metalStages[metalName] : "";
+				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
 				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
 			}

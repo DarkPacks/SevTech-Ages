@@ -309,7 +309,9 @@ for metalName, metal in metals {
 			unify(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
-				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStages[metalName]);
+				var metalStage = metalStages in metalName ? metalStages[metalName] : "";
+
+				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
 			}
 		}
 	}

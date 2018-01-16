@@ -4,117 +4,135 @@
   "coalDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "cinnabarSize": 64,
   "cinnabarChance": 6,
   "cinnabarDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "goldSize": 40,
   "goldChance": 6,
   "goldDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "lapisSize": 32,
   "lapisChance": 5,
   "lapisDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "quartzSize": 40,
   "quartzChance": 7,
   "quartzDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "kimberliteSize": 20,
   "kimberliteChance": 5,
   "kimberliteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "berylSize": 16,
   "berylChance": 5,
   "berylDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "hematiteSize": 72,
   "hematiteChance": 5,
   "hematiteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "limoniteSize": 72,
   "limoniteChance": 7,
   "limoniteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "malachiteSize": 72,
   "malachiteChance": 6,
   "malachiteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "azuriteSize": 72,
   "azuriteChance": 10,
   "azuriteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "cassiteriteSize": 72,
   "cassiteriteChance": 6,
   "cassiteriteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "tealliteSize": 72,
   "tealliteChance": 8,
   "tealliteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "galenaSize": 72,
   "galenaChance": 11,
   "galentaDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "bauxiteSize": 64,
   "bauxiteChance": 10,
   "bauxiteDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "platinumSize": 32,
   "platinumChance": 5,
   "platinumDimBlacklist": [
     -1,
     1,
-    20
+    20,
+    28885
   ],
   "autuniteSize": 24,
   "autuniteChance": 5,
   "autuniteDimBlacklist": [
     -1,
-    1
+    1,
+    20,
+    28885
   ]
 }

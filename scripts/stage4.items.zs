@@ -6,7 +6,6 @@ var modIDs = [
 	"cookingforblockheads",
 	"elevatorid",
 	"modularrouters",
-	"nuclearphysics",
 	"quantumstorage",
 	"storagenetwork",
 	"indlog",

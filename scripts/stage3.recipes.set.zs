@@ -5,8 +5,7 @@ var STAGE = STAGES.three;
 //Entire Mods into Stage three
 var modIDs = [
 	"immersivepetroleum",
-	"immersiverailroading",
-	"openglider",
+	"openglider"
 ] as string[];
 
 for id in modIDs {

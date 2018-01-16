@@ -9,7 +9,6 @@ var modIDs = [
 	"elevatorid",
 	"environmentaltech",
 	"modularrouters",
-	"nuclearphysics",
 	"quantumstorage",
 	"refinedstorage",
 	"rftools",

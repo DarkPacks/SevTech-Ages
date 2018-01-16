@@ -13,7 +13,6 @@ var STAGE = STAGES.three;
 var modIDs = [
 	"immersivepetroleum",
 	"immersivetech",
-	"immersiverailroading",
 	"nex",
 	"openglider",
 	"vc"
@@ -1103,38 +1102,7 @@ var stage3Items = [
 	<immersiveengineering:metal_ladder:2>,
 	<immersiveengineering:material:19>,
 	<immersiveengineering:coresample>,
-
-	//Immersive Railroading
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/a1_peppercorn.json", display: {Name: "§rA1 Peppercorn"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/big_boy.json", display: {Name: "§rBig Boy (4000 class)"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/gp-7.json", display: {Name: "§rGP-7"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/ge_b40_8.json", display: {Name: "§rGE B40-8"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/k4_pacific.json", display: {Name: "§rK4 Pacific"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/e6_atlantic.json", display: {Name: "§rE6 Atlantic"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/a5_switcher.json", display: {Name: "§rA5 Switcher"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/alco_rs1.json", display: {Name: "§rALCO RS-1"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/firefly.json", display: {Name: "§rFirefly"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/locomotives/cooke_mogul.json", display: {Name: "§rDSP&P Mogul"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/a1_peppercorn_tender.json", display: {Name: "§rA1 Peppercorn Tender"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/k4_tender.json", display: {Name: "§rK4 Pacific Tender"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/big_boy_tender.json", display: {Name: "§rBig Boy (4000 class) Tender"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/e6_tender.json", display: {Name: "§rE6 Atlantic Tender"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tender/a5_tender.json", display: {Name: "§rA5 Slope Tender"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/boxcar_us.json", display: {Name: "§rBox Car"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/flatcar_us.json", display: {Name: "§rFlat Car"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/boxcar_x26.json", display: {Name: "§rBox Car X26"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/70t_hopper_slsf.json", display: {Name: "§r70T Hopper SLSF"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/attx_flatcar_1.json", display: {Name: "§rATTX Flatcar 1"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/prr_flatcar_1.json", display: {Name: "§rPRR Flatcar 1"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/n5c_cabin_car.json", display: {Name: "§rN5c Caboose"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/ttx_huskykline_1.json", display: {Name: "§rTTX HuskyKline 1"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/freight/usra_hopper_55t.json", display: {Name: "§rUSRA Hopper 55T"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tank/tank_us.json", display: {Name: "§rTank US"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tank/tank_us2.json", display: {Name: "§rTank US 2"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/tank/kamx_t.json", display: {Name: "§rKamx T"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/passenger/br_coach_mk1.json", display: {Name: "§rBR Coach MK1"}}),
-	<immersiverailroading:item_rolling_stock>.withTag({defID: "rolling_stock/passenger/p70coach1.json", display: {Name: "§rPRR P70 Coach 1"}}),
-	
+		
 	//Mekanism
 	<mekanism:balloon>,
 	<mekanism:balloon:1>,

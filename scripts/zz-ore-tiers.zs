@@ -204,8 +204,6 @@ var replacementItemsForStage = {
 	],
 
 	STAGES.four : [
-		//Nuclear Physics
-		[<nuclearphysics:uranium_ore>],
 
 		[<tconstruct:ore:0>, <minecraft:netherrack>],
 		[<tconstruct:ore:1>, <minecraft:netherrack>],

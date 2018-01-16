@@ -99,12 +99,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	copper: {
 		block: <ore:blockCopper>,
+		clump: <ore:clumpCopper>,
+		crystal: <ore:crystalCopper>,
+		dirtyDust: <ore:dustDirtyCopper>,
 		dust: <ore:dustCopper>,
 		gear: <ore:gearCopper>,
 		ingot: <ore:ingotCopper>,
 		nugget: <ore:nuggetCopper>,
 		plate: <ore:plateCopper>,
-		rod: <ore:rodCopper>
+		rod: <ore:rodCopper>,
+		shard: <ore:shardCopper>
 	},
 	dawnstone: {
 		block: <ore:blockDawnstone>,
@@ -172,12 +176,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	gold: {
 		block: <ore:blockGold>,
+		clump: <ore:clumpGold>,
+		crystal: <ore:crystalGold>,
+		dirtyDust: <ore:dustDirtyGold>,
 		dust: <ore:dustGold>,
 		gear: <ore:gearGold>,
 		ingot: <ore:ingotGold>,
 		nugget: <ore:nuggetGold>,
 		plate: <ore:plateGold>,
-		rod: <ore:rodGold>
+		rod: <ore:rodGold>,
+		shard: <ore:shardGold>
 	},
 	invar: {
 		block: <ore:blockInvar>,
@@ -190,12 +198,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	iron: {
 		block: <ore:blockIron>,
+		clump: <ore:clumpIron>,
+		crystal: <ore:crystalIron>,
+		dirtyDust: <ore:dustDirtyIron>,
 		dust: <ore:dustIron>,
 		gear: <ore:gearIron>,
 		ingot: <ore:ingotIron>,
 		nugget: <ore:nuggetIron>,
 		plate: <ore:plateIron>,
-		rod: <ore:rodIron>
+		rod: <ore:rodIron>,
+		shard: <ore:shardIron>
 	},
 	knightslime: {
 		block: <ore:blockKnightslime>,
@@ -208,12 +220,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	lead: {
 		block: <ore:blockLead>,
+		clump: <ore:clumpLead>,
+		crystal: <ore:crystalLead>,
+		dirtyDust: <ore:dustDirtyLead>,
 		dust: <ore:dustLead>,
 		gear: <ore:gearLead>,
 		ingot: <ore:ingotLead>,
 		nugget: <ore:nuggetLead>,
 		plate: <ore:plateLead>,
-		rod: <ore:rodLead>
+		rod: <ore:rodLead>,
+		shard: <ore:shardLead>
 	},
 	manyullyn: {
 		block: <ore:blockManyullyn>,
@@ -241,6 +257,19 @@ global metals as IOreDictEntry[string][string] = {
 		nugget: <ore:nuggetNickel>,
 		plate: <ore:plateNickel>,
 		rod: null
+	},
+	osmium: {
+		block: <ore:blockOsmium>,
+		clump: <ore:clumpOsmium>,
+		crystal: <ore:crystalOsmium>,
+		dirtyDust: <ore:dustDirtyOsmium>,
+		dust: <ore:dustOsmium>,
+		gear: null,
+		ingot: <ore:ingotOsmium>,
+		nugget: <ore:nuggetOsmium>,
+		plate: null,
+		rod: null,
+		shard: <ore:shardOsmium>
 	},
 	pigiron: {
 		block: <ore:blockPigiron>,
@@ -289,12 +318,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	silver: {
 		block: <ore:blockSilver>,
+		clump: <ore:clumpSilver>,
+		crystal: <ore:crystalSilver>,
+		dirtyDust: <ore:dustDirtySilver>,
 		dust: <ore:dustSilver>,
 		gear: <ore:gearSilver>,
 		ingot: <ore:ingotSilver>,
 		nugget: <ore:nuggetSilver>,
 		plate: <ore:plateSilver>,
-		rod: <ore:rodSilver>
+		rod: <ore:rodSilver>,
+		shard: <ore:shardSilver>
 	},
 	steel: {
 		block: <ore:blockSteel>,
@@ -316,12 +349,16 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	tin: {
 		block: <ore:blockTin>,
+		clump: <ore:clumpTin>,
+		crystal: <ore:crystalTin>,
+		dirtyDust: <ore:dustDirtyTin>,
 		dust: <ore:dustTin>,
 		gear: <ore:gearTin>,
 		ingot: <ore:ingotTin>,
 		nugget: <ore:nuggetTin>,
 		plate: <ore:plateTin>,
-		rod: <ore:rodTin>
+		rod: <ore:rodTin>,
+		shard: <ore:shardTin>
 	},
 	uranium: {
 		block: <ore:blockUranium>,

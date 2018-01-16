@@ -30,6 +30,7 @@ var metalStages = {
 	manyullyn: "four",
 	modularium: "three",
 	nickel: "three",
+	osmium: "four",
 	pigiron: "three",
 	platinum: "three",
 	redstoneAlloy: "three",
@@ -41,6 +42,14 @@ var metalStages = {
 	tin: "one",
 	uranium: "four"
 } as string[string];
+
+//Value doesnt really matter here - but just put it to true
+var partsToSkip as bool[string] = {
+	"clump": true,
+	"crystal": true,
+	"dirtyDust": true,
+	"shard": true
+};
 
 function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
@@ -294,13 +303,15 @@ for metalName, metal in metals {
 	}
 
 	for partName, part in metal {
-		if (part as bool) {
+		if (part as bool & !(partsToSkip in partName)) {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
 			unify(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
-				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStages[metalName]);
+				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
+
+				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
 			}
 		}
 	}

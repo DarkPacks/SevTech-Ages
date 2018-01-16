@@ -584,6 +584,11 @@ var itemsForStage = [
 	<buildcrafttransport:pipe_diamond_wood_item>,
 	<buildcrafttransport:pipe_emzuli_item>,
 
+	//Industrial Foregoing
+	<industrialforegoing:black_hole_controller>,
+	<industrialforegoing:black_hole_tank>,
+	<industrialforegoing:black_hole_unit>,
+
 	//Xnet
 	<xnet:xnet_manual>,
 	<xnet:connector_upgrade>,

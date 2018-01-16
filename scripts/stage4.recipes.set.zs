@@ -9,7 +9,6 @@ var modIDs = [
 	"elevatorid",
 	"environmentaltech",
 	"modularrouters",
-	"quantumstorage",
 	"refinedstorage",
 	"rftools",
 	"rftoolscontrol",
@@ -162,7 +161,7 @@ var itemsForStage = [
 	<quark:purpur_block_wall>,
 	<quark:duskbound_block_stairs>,
 	<quark:biotite_stairs>,
-	
+
 	//Industrial Foregoing
 	<industrialforegoing:adult_filter>,
 	<industrialforegoing:animal_byproduct_recolector>,
@@ -172,9 +171,6 @@ var itemsForStage = [
 	<industrialforegoing:animal_stock_increaser>,
 	<industrialforegoing:biofuel_generator>,
 	<industrialforegoing:bioreactor>,
-	<industrialforegoing:black_hole_controller>,
-	<industrialforegoing:black_hole_tank>,
-	<industrialforegoing:black_hole_unit>,
 	<industrialforegoing:block_destroyer>,
 	<industrialforegoing:block_placer>,
 	<industrialforegoing:book_manual>,

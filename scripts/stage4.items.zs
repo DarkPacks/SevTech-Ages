@@ -6,7 +6,6 @@ var modIDs = [
 	"cookingforblockheads",
 	"elevatorid",
 	"modularrouters",
-	"quantumstorage",
 	"storagenetwork",
 	"indlog",
 	"integrateddynamics"
@@ -49,9 +48,6 @@ var stage4Items = [
 	<industrialforegoing:animal_stock_increaser>,
 	<industrialforegoing:biofuel_generator>,
 	<industrialforegoing:bioreactor>,
-	<industrialforegoing:black_hole_controller>,
-	<industrialforegoing:black_hole_tank>,
-	<industrialforegoing:black_hole_unit>,
 	<industrialforegoing:block_destroyer>,
 	<industrialforegoing:block_placer>,
 	<industrialforegoing:book_manual>,

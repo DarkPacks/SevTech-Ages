@@ -271,7 +271,6 @@ var stage5Items = [
 	<ironchest:diamond_obsidian_chest_upgrade>,
 	<ironchest:iron_chest:5>,
 
-
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,
@@ -725,7 +724,6 @@ var stage5Items = [
 	<extendedcrafting:trimmed:2>,
 	<extendedcrafting:crafting_core>,
 
-
 	//Spartan Shields
 	<spartanshields:shield_riot_rftools>,
 	<spartanshields:shield_basic_diamond>,
@@ -737,7 +735,7 @@ var stage5Items = [
 	<buildcrafttransport:pipe_daizuli_item>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
 	<buildcrafttransport:pipe_diamond_item>,
-	
+
 	//Xnet
 	<xnet:xnet_manual>,
 	<xnet:connector_upgrade>,
@@ -760,6 +758,11 @@ var stage5Items = [
 	<xnet:advanced_connector:3>.withTag({display: {LocName: "tile.xnet.advanced_connector_green.name"}}),
 	<xnet:controller>,
 	<xnet:router>,
+
+	//Industrial Foregoing
+	<industrialforegoing:black_hole_controller>,
+	<industrialforegoing:black_hole_tank>,
+	<industrialforegoing:black_hole_unit>,
 
 	//Galacticraft
 	<galacticraftcore:magnetic_table>,
@@ -792,7 +795,6 @@ var stage5Items = [
 	<galacticraftcore:battery>,
 	<galacticraftcore:refinery>,
 	<galacticraftcore:basic_block_core:3>,
-
 	<galacticraftcore:steel_pickaxe>,
 	<galacticraftcore:meteoric_iron_raw>,
 	<galacticraftcore:panel_lighting>,
@@ -829,9 +831,6 @@ var stage5Items = [
 	<galacticraftcore:enclosed:14>,
 	<galacticraftcore:enclosed:15>,
 	<galacticraftcore:enclosed:1>,
-
-
-
 
 	//Extra Planets
 	<extraplanets:mercury>,
@@ -1090,11 +1089,7 @@ var stage5Items = [
 	<extraplanets:fossil>,
 	<extraplanets:advanced_launch_pad_full>,
 	<extraplanets:white_sugar_cane>,
-<extraplanets:basic_decontamination_unit_fake_block>
-
-
-
-	
+	<extraplanets:basic_decontamination_unit_fake_block>
 ] as IItemStack[];
 
 for item in stage5Items {

@@ -1094,4 +1094,5 @@ for item in stage5Items {
 }
 
 //Leave this to allow Dragon Scales to be used in Stage 4
+mods.ItemStages.removeItemStage(<mysticalagradditions:stuff:3>);
 mods.ItemStages.addItemStage("four", <mysticalagradditions:stuff:3>);

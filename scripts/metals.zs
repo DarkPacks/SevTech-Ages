@@ -109,6 +109,21 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 	}
 }
 
+//Add item to oreDict if it does not exist already
+function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
+	if (!(itemOreDict in item)) {
+		itemOreDict.add(item);
+	}
+}
+
+//Stage Item
+function stageItem(stage as string, item as IItemStack) {
+	if (stage != "") {
+		mods.ItemStages.addItemStage(stage, item);
+		//mods.recipestages.Recipes.setRecipeStage(stage, item);
+	}
+}
+
 //Returns item if it exists for that metal, or null
 function getPreferredMetalItem(metalName as string, metalPartName as string) as IItemStack {
 	return metalItems[metalName][metalPartName] as bool ? metalItems[metalName][metalPartName].items[0] : null;
@@ -122,24 +137,11 @@ function getMetalLiquid(metalName as string) as ILiquidStack {
 function handlePreferredMetalItem(metalName as string, metalPartName as string, metal as IOreDictEntry[string], preferredMetalItem as IItemStack, metalLiquid as ILiquidStack, doFurnace as bool, metalStage as string) {
 	var hasLiquid = metalLiquid as bool;
 
-	//Add preferredMetalItem to oreDict if it does not exist already
-	if (!(metal[metalPartName] in preferredMetalItem)) {
-		metal[metalPartName].add(preferredMetalItem);
-	}
-
 	/*
 		Remove Metal Recipes
 	*/
 	recipes.remove(preferredMetalItem);
 	furnace.remove(preferredMetalItem);
-
-	/*
-		Stage Metal Item
-	*/
-	if (metalStage != "") {
-		mods.ItemStages.addItemStage(metalStage, preferredMetalItem);
-		//mods.recipestages.Recipes.setRecipeStage(metalStage, preferredMetalItem);
-	}
 
 	/*
 		Add Metal Recipes
@@ -303,7 +305,7 @@ for metalName, metal in metals {
 	}
 
 	for partName, part in metal {
-		if (part as bool & !(partsToSkip in partName)) {
+		if (part as bool) {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
 			unify(part, preferredMetalItem, metalLiquid);
@@ -311,7 +313,13 @@ for metalName, metal in metals {
 			if (preferredMetalItem as bool) {
 				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
-				handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
+				ensureOreDict(metal[partName], preferredMetalItem);
+
+				stageItem(metalStage, preferredMetalItem);
+
+				if (!(partsToSkip in partName)) {
+					handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
+				}
 			}
 		}
 	}

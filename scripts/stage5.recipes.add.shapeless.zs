@@ -21,9 +21,9 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 
 /*UNCOMMENT WHEN NEEDED
-var shapelessRecipes = {
+var shapelessRecipes as IIngredient[][][IItemStack] = {
 
-} as IIngredient[][][IItemStack];
+};
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {

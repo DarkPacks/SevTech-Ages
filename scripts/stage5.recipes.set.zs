@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.five;
 
 //Entire Mods into Stage five
-var modIDs = [
+var modIDs as string[] = [
 	"compactmachines3",
 	"enderutilities",
 	"environmentaltech",
@@ -12,7 +12,7 @@ var modIDs = [
 	"quantumstorage",
 	"extraplanets",
 	"scannable"
-] as string[];
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -20,7 +20,7 @@ for id in modIDs {
     }
 }
 
-var itemsForStage = [
+var itemsForStage as IItemStack[] = [
 	//Unified items
 	<ore:gearDiamond>.firstItem,
 
@@ -46,7 +46,6 @@ var itemsForStage = [
 	<minecraft:diamond_chestplate>,
 	<minecraft:diamond_helmet>,
 	<minecraft:diamond_leggings>,
-	<mysticalagradditions:tinkering_table>,
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<primal:diamond_axe>,
@@ -677,19 +676,14 @@ var itemsForStage = [
 	<galacticraftcore:enclosed:14>,
 	<galacticraftcore:enclosed:15>,
 	<galacticraftcore:enclosed:1>
-
-
-
-
-
-] as IItemStack[];
+];
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);
 }
 
 //Set stage by recipe name
-var recipesForStage = [
+var recipesForStage as string[] = [
 	//Mystical Agriculture
 	"mysticalagriculture:aluminum_brass_seeds",
 	"mysticalagriculture:aluminum_seeds",
@@ -1258,7 +1252,7 @@ var recipesForStage = [
 	"mysticalagradditions:insanium_ingot_block_from",
 	"mysticalagradditions:nether_star_shards",
 	"mysticalagradditions:wither_skeleton_skull_souls"
-] as string[];
+];
 
 for recipeName in recipesForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);

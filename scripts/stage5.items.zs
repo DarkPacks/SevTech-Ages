@@ -2,9 +2,7 @@ import crafttweaker.item.IItemStack;
 
 var STAGE = STAGES.five;
 
-//mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
-
-var modIDs = [
+var modIDs as string[] = [
 	"compactmachines3",
 	"enderutilities",
 	"environmentaltech",
@@ -16,7 +14,7 @@ var modIDs = [
 	"scannable",
 	"extraplanets",
 	"overloaded"
-] as string[];
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -24,7 +22,7 @@ for id in modIDs {
     }
 }
 
-var stage5Items = [
+var stage5Items as IItemStack[] = [
 	//Unified items
 	<ore:gearDiamond>.firstItem,
 
@@ -304,7 +302,6 @@ var stage5Items = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
-	<quantumstorage:chest_diamond>,
 	<roots:diamond_hammer>,
 	<roots:diamond_knife>,
 
@@ -1090,7 +1087,7 @@ var stage5Items = [
 	<extraplanets:advanced_launch_pad_full>,
 	<extraplanets:white_sugar_cane>,
 	<extraplanets:basic_decontamination_unit_fake_block>
-] as IItemStack[];
+];
 
 for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);

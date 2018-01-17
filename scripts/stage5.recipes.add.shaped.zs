@@ -25,7 +25,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterbuilderswands:wandunbreakable> : [
 		[[null, null, <minecraft:nether_star>], [null, log, null], [log, null, null]]
 	],
@@ -56,7 +56,7 @@ var shapedRecipes = {
 			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
 		]
 	]
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {

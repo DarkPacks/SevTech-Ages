@@ -1,10 +1,10 @@
 #priority -1
 
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.tutorial;
 
-var stageTutorialItems as IItemStack[] = [
+var stageTutorialItems as IIngredient[] = [
 	<antiqueatlas:empty_antique_atlas>,
 	<horsepower:chopping_block>,
 	<immcraft:chest>,
@@ -114,11 +114,6 @@ var stageTutorialItems as IItemStack[] = [
 	<betterwithmods:mystery_meat>,
 	<tombmanygraves:grave_block>,
 	<tombmanygraves:death_list>
-
-
-
-
-
 ];
 
 for item in stageTutorialItems {

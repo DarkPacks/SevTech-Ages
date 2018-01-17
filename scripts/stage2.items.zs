@@ -1,20 +1,21 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.two;
 
-var modIDs = [
-	"twilightforest",
-	"uppers",
+var modIDs as string[] = [
 	"farmingforblockheads",
-	"thebetweenlands"
-] as string[];
+	"thebetweenlands",
+	"twilightforest",
+	"uppers"
+];
+
 for id in modIDs {
     for item in loadedMods[id].items {
         mods.ItemStages.addItemStage(STAGE, item);
     }
 }
 
-var stage2Items = [
+var stage2Items as IIngredient[] = [
 	<appliedenergistics2:material:46>, //Ender dust
 	<minecraft:acacia_boat>,
 	<minecraft:anvil>,
@@ -910,10 +911,7 @@ var stage2Items = [
 	<betterwithaddons:decomat:1>,
 	<betterwithaddons:decomat:2>,
 	<betterwithaddons:tweakmat:1>
-
-
-
-] as IItemStack[];
+];
 
 for item in stage2Items {
 	mods.ItemStages.addItemStage(STAGE, item);

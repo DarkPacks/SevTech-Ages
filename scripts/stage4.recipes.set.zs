@@ -1,21 +1,21 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.four;
 
 //Entire Mods into Stage four
-var modIDs = [
+var modIDs as string[] = [
 	"car",
 	"cookingforblockheads",
 	"elevatorid",
 	"environmentaltech",
+	"indlog",
+	"integrateddynamics",
 	"modularrouters",
 	"refinedstorage",
 	"rftools",
 	"rftoolscontrol",
-	"storagenetwork",
-	"indlog",
-	"integrateddynamics"
-] as string[];
+	"storagenetwork"
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -23,7 +23,7 @@ for id in modIDs {
     }
 }
 
-var itemsForStage = [
+var itemsForStage as IIngredient[] = [
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
 	<cyclicmagic:item_pipe>,
@@ -574,10 +574,7 @@ var itemsForStage = [
 	<galacticraftcore:steel_pole>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:standard_wrench>
-
-
-
-] as IItemStack[];
+];
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);

@@ -1,12 +1,12 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.three;
 
 //Entire Mods into Stage three
-var modIDs = [
+var modIDs as string[] = [
 	"immersivepetroleum",
 	"openglider"
-] as string[];
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -14,7 +14,7 @@ for id in modIDs {
     }
 }
 
-var itemsForStage = [
+var itemsForStage as IIngredient[] = [
 	<minecraft:brewing_stand>,
 	<minecraft:dispenser>,
 	<minecraft:enchanting_table>,
@@ -230,7 +230,7 @@ var itemsForStage = [
 	<immersiveengineering:metal_ladder:1>,
 	<immersiveengineering:metal_ladder>,
 	<immersiveengineering:metal_ladder:2>,
-	
+
 	//Mekanism
 	<mekanism:balloon>,
 	<mekanism:balloon:1>,
@@ -249,7 +249,7 @@ var itemsForStage = [
 	<mekanism:balloon:14>,
 	<mekanism:balloon:15>,
 
-	
+
 	//Tinkers'
 	<tcomplement:porcelain_tank>,
 	<tconstruct:seared_tank>,
@@ -749,8 +749,7 @@ var itemsForStage = [
 	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:4>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}})
-
-] as IItemStack[];
+];
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);

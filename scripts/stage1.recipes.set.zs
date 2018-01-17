@@ -1,8 +1,8 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.one;
 
-var itemsForStage = [
+var itemsForStage as IIngredient[] = [
 	<minecraft:chest>,
 	<minecraft:concrete:*>,
 	<minecraft:concrete_powder:*>,
@@ -270,7 +270,7 @@ var itemsForStage = [
 	<betterwithmods:candle:12>,
 	<betterwithmods:candle:13>,
 	<betterwithmods:candle:14>,
-	<betterwithmods:candle:15>,	
+	<betterwithmods:candle:15>,
 	<betterwithaddons:bag:*>,
 	<betterwithaddons:chute>,
 	<betterwithaddons:crate:*>,
@@ -468,8 +468,7 @@ var itemsForStage = [
 	<simplytea:cup_tea_green>,
 	<simplytea:teapot>,
 	<simplytea:teapot:1>
-
-] as IItemStack[];
+];
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);

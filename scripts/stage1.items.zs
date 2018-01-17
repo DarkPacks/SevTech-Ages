@@ -1,12 +1,11 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.one;
 
-//mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
-
 /*
-var modIDs = [
-] as string[];
+var modIDs as string[] = [
+];
+
 for id in modIDs {
     for item in loadedMods[id].items {
         mods.ItemStages.addItemStage(STAGE, item);
@@ -14,7 +13,7 @@ for id in modIDs {
 }
 */
 
-var stage1Items = [
+var stage1Items as IIngredient[] = [
 	<minecraft:coal_block>,
 	<minecraft:item_frame>,
 	<minecraft:tnt>,
@@ -997,7 +996,7 @@ var stage1Items = [
 	<spartanshields:shield_basic_tin>,
 
 	<primal_tech:stone_anvil>
-] as IItemStack[];
+];
 
 for item in stage1Items {
 	mods.ItemStages.addItemStage(STAGE, item);

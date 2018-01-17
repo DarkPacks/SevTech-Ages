@@ -1,9 +1,9 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.zero;
 
 /*
-var itemsForStage as IItemStack[] = [
+var itemsForStage as IIngredient[] = [
 
 ];
 

@@ -1,4 +1,4 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.five;
 
@@ -7,10 +7,10 @@ var modIDs as string[] = [
 	"compactmachines3",
 	"enderutilities",
 	"environmentaltech",
+	"extraplanets",
 	"mysticalagradditions",
 	"mysticalagriculture",
 	"quantumstorage",
-	"extraplanets",
 	"scannable"
 ];
 
@@ -20,9 +20,9 @@ for id in modIDs {
     }
 }
 
-var itemsForStage as IItemStack[] = [
+var itemsForStage as IIngredient[] = [
 	//Unified items
-	<ore:gearDiamond>.firstItem,
+	<ore:gearDiamond>,
 
 	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,

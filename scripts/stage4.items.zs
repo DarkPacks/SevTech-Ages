@@ -1,15 +1,15 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.four;
 
-var modIDs = [
+var modIDs as string[] = [
 	"cookingforblockheads",
 	"elevatorid",
-	"modularrouters",
-	"storagenetwork",
 	"indlog",
-	"integrateddynamics"
-] as string[];
+	"integrateddynamics",
+	"modularrouters",
+	"storagenetwork"
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -17,7 +17,7 @@ for id in modIDs {
     }
 }
 
-var stage4Items = [
+var stage4Items as IIngredient[] = [
 	<prospectors:prospector_high>,
 
 	<minecraft:ender_chest>,
@@ -977,9 +977,7 @@ var stage4Items = [
 	<galacticraftcore:steel_pole>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:standard_wrench>
-
-
-] as IItemStack[];
+];
 
 for item in stage4Items {
 	mods.ItemStages.addItemStage(STAGE, item);

@@ -1,11 +1,11 @@
 #priority -1
 
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.tutorial;
 
 /*
-var itemsForStage as IItemStack[] = [
+var itemsForStage as IIngredient[] = [
 
 ];
 

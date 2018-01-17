@@ -1,25 +1,18 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.zero;
 
+var modIDs as string[] = [
+	"ferdinandsflowers"
+];
 
-var modIDs = [
-"ferdinandsflowers"
-] as string[];
 for id in modIDs {
     for item in loadedMods[id].items {
         mods.ItemStages.addItemStage(STAGE, item);
     }
 }
 
-
-
-
-
-
-
-var stageZeroItems = [
-
+var stageZeroItems as IIngredient[] = [
 	<betterwithmods:material>,
 	<betterwithmods:single_machine>,
 	<betterwithmods:rope>,
@@ -881,14 +874,7 @@ var stageZeroItems = [
 	<natura:materials:1>,
 	<natura:materials>,
 	<natura:clouds>
-
-
-
-
-
-
-
-] as IItemStack[];
+];
 
 for item in stageZeroItems {
 	mods.ItemStages.addItemStage(STAGE, item);

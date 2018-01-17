@@ -1,22 +1,14 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.three;
 
-////
-//
-//Stage 3 Item Hiding
-//
-////
-
-//mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
-
-var modIDs = [
+var modIDs as string[] = [
 	"immersivepetroleum",
 	"immersivetech",
 	"nex",
 	"openglider",
 	"vc"
-] as string[];
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -24,7 +16,7 @@ for id in modIDs {
     }
 }
 
-var stage3Items = [
+var stage3Items as IIngredient[] = [
 	<minecraft:obsidian>,
 	<minecraft:chest_minecart>,
 	<minecraft:dispenser>,
@@ -1102,7 +1094,7 @@ var stage3Items = [
 	<immersiveengineering:metal_ladder:2>,
 	<immersiveengineering:material:19>,
 	<immersiveengineering:coresample>,
-		
+
 	//Mekanism
 	<mekanism:balloon>,
 	<mekanism:balloon:1>,
@@ -1310,8 +1302,7 @@ var stage3Items = [
 	<ironchest:iron_chest:6>,
 
 	<industrialforegoing:plastic>
-
-] as IItemStack[];
+];
 
 for item in stage3Items {
 	mods.ItemStages.addItemStage(STAGE, item);

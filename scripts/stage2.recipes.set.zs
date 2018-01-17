@@ -1,13 +1,13 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.two;
 
 //Entire Mods into Stage two
-var modIDs = [
+var modIDs as string[] = [
 	"farmingforblockheads",
-	"uppers",
-	"thebetweenlands"
-] as string[];
+	"thebetweenlands",
+	"uppers"
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -15,7 +15,7 @@ for id in modIDs {
     }
 }
 
-var itemsForStage = [
+var itemsForStage as IIngredient[] = [
 	<abyssalcraft:ahoe>,
 	<abyssalcraft:corhoe>,
 	<abyssalcraft:dreadiumhoe>,
@@ -283,7 +283,7 @@ var itemsForStage = [
 	<storagedrawers:upgrade_storage:1>,
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
-	
+
 	//Extended Crafting
 	<extendedcrafting:handheld_table>,
 
@@ -452,8 +452,7 @@ var itemsForStage = [
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
 	<embers:wrapped_sealed_planks>
-
-] as IItemStack[];
+];
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);

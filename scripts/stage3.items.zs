@@ -1274,6 +1274,8 @@ var stage3Items as IIngredient[] = [
 	<modularmachinery:blockfluidinputhatch>,
 	<modularmachinery:blockenergyinputhatch>,
 	<modularmachinery:blockfluidoutputhatch>,
+	<modularmachinery:blockcasing:5>,
+	<modularmachinery:blockcasing:3>,
 
 	//Buildcraft
 	<buildcrafttransport:pipe_stone_item>,

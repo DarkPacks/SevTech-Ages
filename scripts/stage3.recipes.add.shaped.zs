@@ -827,6 +827,27 @@ var shapedRecipes = {
 			[metals.modularium.plate, <immersiveengineering:wirecoil>, metals.modularium.plate]
 		]
 	],
+	<modularmachinery:blockcasing:3> * 1 : [
+		[
+			[null, metals.copper.gear, null],
+			[metals.copper.gear, <modularmachinery:blockcasing>, metals.copper.gear],
+			[null, metals.copper.gear, null]
+		]
+	],
+	<modularmachinery:blockcasing:3> * 4 : [
+		[
+			[null, metals.steel.gear, null],
+			[metals.steel.gear, <modularmachinery:blockcasing>, metals.steel.gear],
+			[null, metals.steel.gear, null]
+		]
+	],
+	<modularmachinery:blockcasing:5> * 2 : [
+		[
+			[null, <immersiveengineering:material:27>, null],
+			[<immersiveengineering:wirecoil:5>, <modularmachinery:blockcasing>, <immersiveengineering:wirecoil:5>],
+			[null, <immersiveengineering:wirecoil:5>, null]
+		]
+	],
 
 	//Viescraft
 	<vc:upgrades/upgrade_airship_core:1> : [

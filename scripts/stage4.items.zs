@@ -447,9 +447,7 @@ var stage4Items as IIngredient[] = [
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
-	<modularmachinery:blockcasing:3>,
 	<modularmachinery:blockcasing:4>,
-	<modularmachinery:blockcasing:5>,
 	<modularmachinery:blockinputbus:2>,
 	<modularmachinery:blockinputbus:3>,
 	<modularmachinery:blockinputbus:4>,

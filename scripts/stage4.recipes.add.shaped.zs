@@ -468,9 +468,6 @@ var shapedRecipes = {
 		]
 	],
 
-//<pneumaticcraft:amadron_tablet:30000>
-
-
 	<pneumaticcraft:gps_tool:0> : [
 		[
 			[null, <minecraft:redstone_torch>, null],
@@ -479,8 +476,14 @@ var shapedRecipes = {
 		]
 	],
 
-
-
+	//Modular Machinery
+	<modularmachinery:blockcasing:3> * 8 : [
+	  	[
+	  		[null, metals.cobalt.gear, null],
+	  		[metals.cobalt.gear, <modularmachinery:blockcasing>, metals.cobalt.gear],
+	  		[null, metals.cobalt.gear, null]
+	  	]
+	],	
 
 	//Inductive Logistics
 	<indlog:inv_connector> : [

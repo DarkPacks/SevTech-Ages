@@ -204,7 +204,6 @@ var replacementItemsForStage = {
 	],
 
 	STAGES.four : [
-
 		[<tconstruct:ore:0>, <minecraft:netherrack>],
 		[<tconstruct:ore:1>, <minecraft:netherrack>],
 
@@ -214,7 +213,10 @@ var replacementItemsForStage = {
 
 		//Certus Quartz
 		[<appliedenergistics2:quartz_ore>],
-		[<appliedenergistics2:charged_quartz_ore>]
+		[<appliedenergistics2:charged_quartz_ore>],
+
+		//Osmium
+		[<mekanism:oreblock>]
 	],
 
 	STAGES.five : [
@@ -226,6 +228,7 @@ var replacementItemsForStage = {
 		//Emerald
 		[<minecraft:emerald_ore>],
 		[<geolosys:ore_vanilla:6>],
+		[<geolosys:ore_sample_vanilla:6>, <immcraft:rock>],
 
 		//Uranium
 		[<immersiveengineering:ore:5>],

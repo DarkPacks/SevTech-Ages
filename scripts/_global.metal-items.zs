@@ -385,7 +385,7 @@ global metalItems as IIngredient[string][string] = {
 		clump: <mekanism:clump:4>,
 		crystal: <mekanism:crystal:4>,
 		dirtyDust: <mekanism:dirtydust:4>,
-		dust: null,
+		dust: <mekanism:dust:4>,
 		gear: <materialpart:tin:gear>,
 		ingot: <embers:ingot_tin>,
 		liquid: <liquid:tin>,

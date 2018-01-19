@@ -41,7 +41,7 @@ var shapelessRecipes = {
 			<indlog:buffer:13>, <indlog:buffer:13>
 		]
 	],
-	<indlog:buffer:14> * 2 : [	
+	<indlog:buffer:14> * 2 : [
 	    [
 			<indlog:buffer:15>
 		]
@@ -51,12 +51,12 @@ var shapelessRecipes = {
 			<indlog:buffer:12>, <indlog:buffer:12>
 		]
 	],
-	<indlog:buffer:13> * 2 : [	
+	<indlog:buffer:13> * 2 : [
 	    [
 			<indlog:buffer:14>
 	    ]
 	],
-	<indlog:buffer:12> * 2 : [	
+	<indlog:buffer:12> * 2 : [
 	    [
 			<indlog:buffer:13>
 		]
@@ -71,7 +71,7 @@ var shapelessRecipes = {
 			<indlog:buffer:9>, <indlog:buffer:9>
 		]
 	],
-	<indlog:buffer:10> * 2 : [	
+	<indlog:buffer:10> * 2 : [
 	    [
 			<indlog:buffer:11>
 		]
@@ -81,12 +81,12 @@ var shapelessRecipes = {
 			<indlog:buffer:8>, <indlog:buffer:8>
 		]
 	],
-	<indlog:buffer:9> * 2 : [	
+	<indlog:buffer:9> * 2 : [
 	    [
 			<indlog:buffer:10>
 		]
 	],
-	<indlog:buffer:8> * 2 : [	
+	<indlog:buffer:8> * 2 : [
 	    [
 			<indlog:buffer:9>
 		]
@@ -101,7 +101,7 @@ var shapelessRecipes = {
 			<indlog:buffer:5>, <indlog:buffer:5>
 		]
 	],
-	<indlog:buffer:6> * 2 : [	
+	<indlog:buffer:6> * 2 : [
 	    [
 			<indlog:buffer:7>
 		]
@@ -111,12 +111,12 @@ var shapelessRecipes = {
 			<indlog:buffer:4>, <indlog:buffer:4>
 		]
 	],
-	<indlog:buffer:5> * 2 : [	
+	<indlog:buffer:5> * 2 : [
 	    [
 			<indlog:buffer:6>
 		]
 	],
-	<indlog:buffer:4> * 2 : [	
+	<indlog:buffer:4> * 2 : [
 	    [
 			<indlog:buffer:5>
 		]
@@ -132,7 +132,7 @@ var shapelessRecipes = {
 			<indlog:buffer:1>, <indlog:buffer:1>
 		]
 	],
-	<indlog:buffer:2> * 2 : [	
+	<indlog:buffer:2> * 2 : [
 	    [
 			<indlog:buffer:3>
 
@@ -144,16 +144,23 @@ var shapelessRecipes = {
 
 		]
 	],
-	<indlog:buffer:1> * 2 : [	
+	<indlog:buffer:1> * 2 : [
 	    [
 			<indlog:buffer:2>
 
 		]
 	],
-	<indlog:buffer> * 2 : [	
+	<indlog:buffer> * 2 : [
 	    [
 			<indlog:buffer:1>
 
+		]
+	],
+
+	//Mob Grinding Utils
+	<mob_grinding_utils:tank> : [
+		[
+			<mob_grinding_utils:tank>
 		]
 	]
 

@@ -103,9 +103,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<traverse:fir_planks>
 	],
 	<natura:nether_planks:1> * 4 : [
-		<natura:nether_logs2:15>
-	],
-	<natura:nether_planks:1> * 4 : [
+		<natura:nether_logs2:15>,
 		<natura:nether_logs2>
 	],
 	<natura:nether_planks:2> * 4 : [
@@ -186,9 +184,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<rustic:log>
 	],
 	<totemic:cedar_plank> * 4 : [
-		<totemic:cedar_log>
-	],
-	<totemic:cedar_plank> * 4 : [
+		<totemic:cedar_log>,
 		<totemic:stripped_cedar_log>
 	],
 	<traverse:fir_planks> * 4 : [

@@ -18,7 +18,12 @@ var creativeItems = [
 <storagedrawers:upgrade_creative>,
 <storagedrawers:upgrade_creative:1>,
 <tconstruct:materials:50>,
-<totemic:ceremony_cheat>
+<totemic:ceremony_cheat>,
+<enderutilities:endercapacitor:3>,
+<enderutilities:enderpart:81>,
+<enderutilities:enderpart:30>
+
+
 
 ] as IItemStack[];
 

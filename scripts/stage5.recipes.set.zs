@@ -5,7 +5,6 @@ var STAGE = STAGES.five;
 //Entire Mods into Stage five
 var modIDs as string[] = [
 	"compactmachines3",
-	"enderutilities",
 	"environmentaltech",
 	"extraplanets",
 	"mysticalagradditions",

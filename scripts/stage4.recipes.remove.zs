@@ -107,7 +107,18 @@ var removeItems = [
 	<pneumaticcraft:pressure_chamber_wall>,
 	<extendedcrafting:table_elite>,
 	<extendedcrafting:material:16>,
-	<extendedcrafting:material:10>
+	<extendedcrafting:material:10>,
+
+	//Ender Utilities
+	<enderutilities:enderpart>,
+	<enderutilities:enderpart:1>,
+	<enderutilities:enderpart:2>,
+	<enderutilities:enderpart:20>,
+	<enderutilities:enderpart:12>,
+	<enderutilities:enderpart:11>,
+	<enderutilities:endercapacitor:1>,
+	<enderutilities:endercapacitor:2>
+
 
 ] as IItemStack[];
 

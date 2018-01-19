@@ -728,7 +728,38 @@ var shapedRecipes = {
 			[metals.enhancedGalgadorian.ingot, <ore:paneGlass>, metals.enhancedGalgadorian.ingot],
 			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot]
 		]
+	],
+
+	//Ender Utilities
+	<enderutilities:enderpart:12>: [
+		[
+			[<ore:obsidian>, <enderutilities:enderpart:2>, <ore:obsidian>],
+			[<enderutilities:enderpart:2>, metals.enhancedGalgadorian.ingot, <enderutilities:enderpart:2>],
+			[<ore:obsidian>, <enderutilities:enderpart:2>, <ore:obsidian>]
+		]
+	],
+	<enderutilities:enderpart:11>: [
+		[
+			[<ore:obsidian>, <enderutilities:enderpart:1>, <ore:obsidian>],
+			[<enderutilities:enderpart:1>, metals.reinforcedMetal.ingot, <enderutilities:enderpart:1>],
+			[<ore:obsidian>, <enderutilities:enderpart:1>, <ore:obsidian>]
+		]
+	],
+	<enderutilities:endercapacitor:1>: [
+		[
+			[null, <minecraft:ender_pearl>, null],
+			[<enderutilities:enderpart:1>, metals.reinforcedMetal.ingot, <enderutilities:enderpart:1>],
+			[<ore:obsidian>, <enderutilities:enderpart:1>, <ore:obsidian>]
+		]
+	],
+	<enderutilities:endercapacitor:2>: [
+		[
+			[<ore:obsidian>, <minecraft:ender_pearl>, <ore:obsidian>],
+			[<enderutilities:enderpart:2>, metals.enhancedGalgadorian.ingot, <enderutilities:enderpart:2>],
+			[<ore:obsidian>, <enderutilities:enderpart:2>, <ore:obsidian>]
+		]
 	]
+
 
 } as IIngredient[][][][IItemStack];
 

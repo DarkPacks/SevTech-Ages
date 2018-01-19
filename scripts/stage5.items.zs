@@ -4,7 +4,6 @@ var STAGE = STAGES.five;
 
 var modIDs as string[] = [
 	"compactmachines3",
-	"enderutilities",
 	"environmentaltech",
 	"extraplanets",
 	"mysticalagradditions",

@@ -31,7 +31,7 @@ function addPressRecipe(output as IItemStack, input as IIngredient) {
 */
 //"Standardized" Recipes for manual and automatic. 4 for manual, 2 automatic
 //If not desired, do recipe manually
-var choppingRecipeItems as IItemStack[][IItemStack]= {
+var choppingRecipeItems as IIngredient[][IItemStack]= {
 	<abyssalcraft:dltplank> * 4 : [
 		<abyssalcraft:dltlog>
 	],
@@ -74,33 +74,7 @@ var choppingRecipeItems as IItemStack[][IItemStack]= {
 		<twilightforest:twilight_log>
 	],
 	<minecraft:stick> * 4 : [
-		<abyssalcraft:dltplank>,
-		<abyssalcraft:dreadplanks>,
-		<betterwithaddons:planks_mulberry>,
-		<betterwithaddons:planks_sakura>,
-		<minecraft:planks:1>,
-		<minecraft:planks:2>,
-		<minecraft:planks:3>,
-		<minecraft:planks:4>,
-		<minecraft:planks:5>,
-		<minecraft:planks>,
-		<natura:nether_planks:1>,
-		<natura:nether_planks:2>,
-		<natura:nether_planks:3>,
-		<natura:nether_planks>,
-		<natura:overworld_planks:1>,
-		<natura:overworld_planks:3>,
-		<natura:overworld_planks:4>,
-		<natura:overworld_planks:5>,
-		<natura:overworld_planks:6>,
-		<natura:overworld_planks:7>,
-		<natura:overworld_planks:8>,
-		<natura:overworld_planks>,
-		<primal:planks:1>,
-		<primal:planks:3>,
-		<primal:planks>,
-		<totemic:cedar_plank>,
-		<traverse:fir_planks>
+		<ore:plankWood>
 	],
 	<natura:nether_planks:1> * 4 : [
 		<natura:nether_logs2:15>,

@@ -27,7 +27,7 @@ LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);
 /*
 	Assemby
 */
-// Presses available in stage 4
-Assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>);
-Assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>);
-Assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>);
+//Presses available in stage 4
+Assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>); //Inscriber Logic Press
+Assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>); //Insciber Silicon Press
+Assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>); //Inscriber Engineering Press

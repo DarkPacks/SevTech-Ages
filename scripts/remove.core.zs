@@ -11,8 +11,7 @@
 //Hide and Remove Items/Recipes
 var modIDs = [
 	"autoverse",
-	"rebornstorage",
-	"refinedrelocation"
+	"rebornstorage"
 ] as string[];
 
 for id in modIDs {

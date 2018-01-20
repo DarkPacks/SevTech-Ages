@@ -22,3 +22,10 @@ LiquidFuel.removeAllFuels();
 LiquidFuel.addFuel(<liquid:gasoline>, 1500 * 1000);
 LiquidFuel.addFuel(<liquid:kerosene>, 1100 * 1000);
 LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);
+
+
+
+// Presses available in stage 4
+mods.pneumaticcraft.assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>);
+mods.pneumaticcraft.assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>);

@@ -758,7 +758,96 @@ var shapedRecipes = {
 			[<enderutilities:enderpart:2>, metals.enhancedGalgadorian.ingot, <enderutilities:enderpart:2>],
 			[<ore:obsidian>, <enderutilities:enderpart:2>, <ore:obsidian>]
 		]
+	],
+
+	//Applied Energistics 2
+	<appliedenergistics2:part:180>: [
+		[
+			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass>],
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
+			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass>]
+		]
+	],
+	<appliedenergistics2:part:380>: [
+		[
+			[<appliedenergistics2:part:180>, <appliedenergistics2:material:43>],
+			[<appliedenergistics2:material:44>, <appliedenergistics2:material:22>]
+		]
+	],
+	<appliedenergistics2:part:360>: [
+		[
+			[<appliedenergistics2:part:380>],
+			[<extendedcrafting:table_advanced>],
+			[<appliedenergistics2:material:24>]
+		]
+	],
+	<appliedenergistics2:interface>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>],
+			[<appliedenergistics2:material:43>, <appliedenergistics2:material:22>, <appliedenergistics2:material:44>],
+			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+
+	//Refined Storage
+	<refinedstorage:grid:1>: [
+		[
+			[<refinedstorage:grid>],
+			[<extendedcrafting:table_advanced>],
+			[<appliedenergistics2:material:24>]
+		]
+	],
+	<refinedstorage:grid>: [
+		[
+			[<extendedcrafting:material:7>, <appliedenergistics2:material:43>, <appliedenergistics2:quartz_glass>],
+			[<appliedenergistics2:material:22>, <refinedstorage:machine_casing>, <appliedenergistics2:quartz_glass>],
+			[<extendedcrafting:material:7>, <appliedenergistics2:material:44>, <appliedenergistics2:quartz_glass>]
+		]
+	],
+	<refinedstorage:controller>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <darkutils:shulker_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<ore:itemSilicon>, <refinedstorage:machine_casing>, <ore:itemSilicon>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:itemSilicon>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:external_storage>: [
+		[
+			[<appliedenergistics2:material:43>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:44>],
+			[<ore:chest>, <refinedstorage:cable>, <ore:chest>],
+			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:22>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:cable> * 12: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],
+			[<ore:chest>, <minecraft:redstone>, <ore:chest>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:importer>: [
+		[
+			[<refinedstorage:cable>, <appliedenergistics2:material:44>],
+			[<appliedenergistics2:material:22>]
+		]
+	],
+	<refinedstorage:exporter>: [
+		[
+			[<refinedstorage:cable>, <appliedenergistics2:material:43>],
+			[<appliedenergistics2:material:22>]
+		]
+	],
+	<refinedstorage:interface>: [
+		[
+			[<refinedstorage:exporter>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:importer>],
+			[<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>],
+			[<appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>]
+		]
 	]
+
+
+
+
 
 
 } as IIngredient[][][][IItemStack];

@@ -96,8 +96,6 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:block_firework_box>,
 	<actuallyadditions:block_fluid_collector>,
 	<actuallyadditions:block_fluid_placer>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_item_repairer>,
 	<actuallyadditions:block_item_viewer>,
 	<actuallyadditions:block_lamp_powerer>,
@@ -464,9 +462,6 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:material:10>,
 	<appliedenergistics2:material:11>,
 	<appliedenergistics2:material:12>,
-	<appliedenergistics2:material:14>,
-	<appliedenergistics2:material:17>,
-	<appliedenergistics2:material:24>,
 	<appliedenergistics2:material:25>,
 	<appliedenergistics2:material:26>,
 	<appliedenergistics2:material:27>,
@@ -488,6 +483,9 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:material:48>,
 	<appliedenergistics2:material:52>,
 	<appliedenergistics2:material:53>,
+	<appliedenergistics2:material:16>,
+	<appliedenergistics2:material:23>,
+	<appliedenergistics2:material:13>,
 	<appliedenergistics2:matter_cannon>,
 	<appliedenergistics2:memory_card>,
 	<appliedenergistics2:molecular_assembler>,
@@ -527,8 +525,6 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:part:160>,
 	<appliedenergistics2:part:180>,
 	<appliedenergistics2:part:200>,
-	<appliedenergistics2:part:240>,
-	<appliedenergistics2:part:260>,
 	<appliedenergistics2:part:280>,
 	<appliedenergistics2:part:300>,
 	<appliedenergistics2:part:301>,
@@ -613,6 +609,8 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:part:514>,
 	<appliedenergistics2:part:515>,
 	<appliedenergistics2:part:516>,
+	<appliedenergistics2:security_station>,
+
 
 	//Refined Storage
 	<refinedstorage:constructor>,
@@ -693,6 +691,8 @@ var stage5Items as IIngredient[] = [
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid:1>,
 	<refinedstorageaddons:wireless_crafting_grid>,
+	<refinedstorage:security_manager>,
+
 
 	//Environmental Tech
 	<environmentaltech:aethium:*>,
@@ -1096,6 +1096,8 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:white_sugar_cane>,
 	<extraplanets:basic_decontamination_unit_fake_block>
 ];
+
+
 
 for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);

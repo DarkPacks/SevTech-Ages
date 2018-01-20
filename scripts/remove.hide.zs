@@ -376,7 +376,17 @@ var hideItems = [
 	<soot:mug>.withTag({Fluid: {FluidName: "absinthe", Amount: 250}}),
 	<soot:mug>.withTag({Fluid: {FluidName: "methanol", Amount: 250}}),
 
-	<ferdinandsflowers:item_test>
+	<ferdinandsflowers:item_test>,
+
+	//RAGE AGAINST THE MACHINE! #NotMyMinecraft
+	<refinedstorage:processor:6>,
+	<refinedstorage:processor:5>,
+	<refinedstorage:processor:4>,
+	<refinedstorage:processor:3>,
+	<refinedstorage:processor:2>,
+	<refinedstorage:processor:1>,
+	<refinedstorage:processor>
+
 
 
 ] as IItemStack[];

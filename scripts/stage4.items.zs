@@ -495,12 +495,9 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:material:2>,
 	<appliedenergistics2:material:7>,
 	<appliedenergistics2:material:8>,
-	<appliedenergistics2:material:13>,
 	<appliedenergistics2:material:15>,
-	<appliedenergistics2:material:16>,
 	<appliedenergistics2:material:18>,
 	<appliedenergistics2:material:22>,
-	<appliedenergistics2:material:23>,
 	<appliedenergistics2:material>,
 	<appliedenergistics2:part:1>,
 	<appliedenergistics2:part:2>,
@@ -526,7 +523,6 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:part:380>,
 	<appliedenergistics2:part>,
 	<appliedenergistics2:quartz_glass>,
-	<appliedenergistics2:security_station>,
 	<appliedenergistics2:nether_quartz_sword>,
 	<appliedenergistics2:nether_quartz_axe>,
 	<appliedenergistics2:certus_quartz_axe>,
@@ -564,26 +560,23 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:material:1>,
 	<appliedenergistics2:material:43>,
 	<appliedenergistics2:material:44>,
+	<appliedenergistics2:material:14>,
+	<appliedenergistics2:material:17>,
+	<appliedenergistics2:material:24>,
+	<appliedenergistics2:part:240>,
+	<appliedenergistics2:part:260>,
 
 	//Refined Storage
 	<refinedstorage:cable>,
 	<refinedstorage:controller>,
-	<refinedstorage:core:1>,
-	<refinedstorage:core>,
 	<refinedstorage:external_storage>,
 	<refinedstorage:grid:1>,
 	<refinedstorage:grid>,
 	<refinedstorage:machine_casing>,
 	<refinedstorage:network_card>,
-	<refinedstorage:processor:1>,
-	<refinedstorage:processor:3>,
-	<refinedstorage:processor:4>,
-	<refinedstorage:processor>,
 	<refinedstorage:quartz_enriched_iron>,
 	<refinedstorage:quartz_enriched_iron_block>,
 	<refinedstorage:security_card>,
-	<refinedstorage:security_manager>,
-	<refinedstorage:solderer>,
 
 	//Buildcraft
 	<buildcraftbuilders:architect>,
@@ -1073,8 +1066,6 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:2>,
 	<enderutilities:syringe:3>,
 	<enderutilities:void_pickaxe>
-
-
 
 
 

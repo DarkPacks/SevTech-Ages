@@ -405,10 +405,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:part:80>,
 	<appliedenergistics2:part:100>,
 	<appliedenergistics2:part:160>,
-	<appliedenergistics2:part:180>,
 	<appliedenergistics2:part:200>,
-	<appliedenergistics2:part:240>,
-	<appliedenergistics2:part:260>,
 	<appliedenergistics2:part:280>,
 	<appliedenergistics2:part:300>,
 	<appliedenergistics2:part:301>,
@@ -493,6 +490,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:part:514>,
 	<appliedenergistics2:part:515>,
 	<appliedenergistics2:part:516>,
+	<appliedenergistics2:security_station>,
 
 	//Refined Storage
 	<refinedstorage:constructor>,
@@ -503,7 +501,6 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorage:detector>,
 	<refinedstorage:disk_drive>,
 	<refinedstorage:disk_manipulator>,
-	<refinedstorage:exporter>,
 	<refinedstorage:filter>,
 	<refinedstorage:fluid_interface>,
 	<refinedstorage:fluid_storage:1>,
@@ -522,8 +519,6 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorage:fluid_storage_part>,
 	<refinedstorage:grid:2>,
 	<refinedstorage:grid:3>,
-	<refinedstorage:importer>,
-	<refinedstorage:interface>,
 	<refinedstorage:network_receiver>,
 	<refinedstorage:network_transmitter>,
 	<refinedstorage:pattern>,
@@ -573,6 +568,7 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid:1>,
 	<refinedstorageaddons:wireless_crafting_grid>,
+	<refinedstorage:security_manager>,
 
 	//Buildcraft
 	<buildcrafttransport:pipe_daizuli_item>,

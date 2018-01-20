@@ -117,7 +117,24 @@ var removeItems = [
 	<enderutilities:enderpart:12>,
 	<enderutilities:enderpart:11>,
 	<enderutilities:endercapacitor:1>,
-	<enderutilities:endercapacitor:2>
+	<enderutilities:endercapacitor:2>,
+
+	//Applied Energistics
+	<appliedenergistics2:part:180>,
+	<appliedenergistics2:part:380>,
+	<appliedenergistics2:part:360>,
+	<appliedenergistics2:interface>,
+
+	//Refined Storage
+	<refinedstorage:grid:1>,
+	<refinedstorage:grid>,
+	<refinedstorage:controller>,
+	<refinedstorage:external_storage>,
+	<refinedstorage:cable>,
+	<refinedstorage:importer>,
+	<refinedstorage:exporter>,
+	<refinedstorage:interface>,
+	<refinedstorage:quartz_enriched_iron>
 
 
 ] as IItemStack[];

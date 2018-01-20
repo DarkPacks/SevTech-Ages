@@ -118,7 +118,13 @@ var removeAndHideItems = [
 	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:cow_jar>,
 
-	<actuallyadditions:item_misc:4>
+	<actuallyadditions:item_misc:4>,
+
+	//The beginning of bringing down the Minecraft community as we know it by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM
+	<refinedstorage:core>,
+	<refinedstorage:solderer>,
+	<refinedstorage:core:1>
+
 
 ] as IItemStack[];
 

@@ -106,6 +106,10 @@ ArcFurnace.addRecipe(<enderutilities:enderpart:1> * 4, <minecraft:ender_eye>, sl
 ArcFurnace.addRecipe(<enderutilities:enderpart:2> * 2, <minecraft:ender_eye>, slag, 100, 512, [<minecraft:purpur_block> * 4, <minecraft:end_rod> * 2, <minecraft:shulker_shell>]);
 ArcFurnace.addRecipe(<enderutilities:enderpart:20> * 4, <minecraft:ender_pearl>, slag, 100, 512, [<minecraft:end_rod> * 4]);
 
+//Refined Energistics 2.3333333 <- YA! YOU LIKE THAT
+ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material>]);
+
+
 
 
 /* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them

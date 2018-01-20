@@ -25,7 +25,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:arrow> * 4: [
 		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
 		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
@@ -536,82 +536,10 @@ var shapedRecipes = {
 	<embers:sword_dawnstone> : [
 		[[null, metals.dawnstone.plate, null], [null, metals.dawnstone.plate, null], [null, stick, null]]
 	]
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-
-//TODO
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:cauldron>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:milk_bucket>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:lava_bucket>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:water_bucket>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:name_tag>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:tripwire_hook>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:lapis_block>);
-mods.recipestages.Recipes.setRecipeStage("three", <minecraft:dye:4>);
-
-////
-//
-// TO DO
-//
-////
-
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:block_fragile_weak>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_lightning>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:water_freezer>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:apple_lapis>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:spikes_iron>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:horse_upgrade_variant>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_spawn_inspect>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:block_fragile>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_torch_launcher>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:mattock>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_rotate>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_trade>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:block_soundproofing>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:block_fragile_auto>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:food_step>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_spelunker>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:charm_water>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:charm_speed>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:charm_antidote>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:block_fishing>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:tool_harvest_crops>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_dungeon>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_dungeon>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_dungeon>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_dungeon>);
-mods.recipestages.Recipes.setRecipeStage("two", <cyclicmagic:ender_dungeon>);
-
-//Recipes needed for this stage - Create later
-mods.recipestages.Recipes.setRecipeStage("two", <minecraft:spectral_arrow>);
-mods.recipestages.Recipes.setRecipeStage("two", <minecraft:tipped_arrow:*>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithmods:broadhead_arrow>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithaddons:material>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithaddons:greatarrow>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithaddons:bundle:*>);
-mods.recipestages.Recipes.setRecipeStage("two", <enderutilities:enderarrow>);
-mods.recipestages.Recipes.setRecipeStage("two", <primal:arrow_quartz>);
-mods.recipestages.Recipes.setRecipeStage("two", <primal:arrow_torch_nether>);
-mods.recipestages.Recipes.setRecipeStage("two", <primal:arrow_torch_redstone>);
-mods.recipestages.Recipes.setRecipeStage("two", <quark:arrow_ender>);
-mods.recipestages.Recipes.setRecipeStage("two", <quark:arrow_explosive>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithmods:material:43>);
-mods.recipestages.Recipes.setRecipeStage("two", <primal:ironwood_bow>);
-mods.recipestages.Recipes.setRecipeStage("two", <primal:corypha_bow>);
-mods.recipestages.Recipes.setRecipeStage("two", <abyssalcraft:corbow>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithmods:composite_bow>);
-mods.recipestages.Recipes.setRecipeStage("two", <betterwithaddons:greatbow>);
-mods.recipestages.Recipes.setRecipeStage("two", <enderutilities:enderbow>);
-mods.recipestages.Recipes.setRecipeStage("two", <totemic:baykok_bow>);
-mods.recipestages.Recipes.setRecipeStage("two", <natura:materials:5>);
-
-//Steve's Carts Engine for End of Stage 2
-recipes.remove(<stevescarts:cartmodule>);
-//Recipe now exists in Astral Sorcery
-//mods.recipestages.Recipes.addShaped("two", <stevescarts:cartmodule>, [[metals.fiery.gear, <minecraft:sticky_piston>, metals.fiery.gear], [<minecraft:ghast_tear>, <twilightforest:tower_device:12>, <minecraft:ghast_tear>], [metals.steeleaf.rod, <minecraft:sticky_piston>, metals.steeleaf.rod]]);

@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var removeItems = [
+var removeItems as IItemStack[] = [
 	<actuallyadditions:block_smiley_cloud>,
 	<appliedenergistics2:crank>,
 	<appliedenergistics2:grindstone>,
@@ -61,8 +61,9 @@ var removeItems = [
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
 	<weirdinggadget:weirding_gadget>,
-	<tconstruct:materials:16>
-] as IItemStack[];
+	<tconstruct:materials:16>,
+	<stevescarts:cartmodule>
+];
 
 for item in removeItems {
 	recipes.remove(item);

@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 
 //mods.OreTiers.blacklist(<minecraft:stone>);
 
-var replacementItemsForStage = {
+var replacementItemsForStage as IItemStack[][][string] = {
 	STAGES.one : [
 		//Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks>],
@@ -243,7 +243,7 @@ var replacementItemsForStage = {
   		//Soulstone
 		//[<mysticalagriculture:soulstone>, <minecraft:netherrack>]
   	]
-} as IItemStack[][][string];
+};
 
 for stage, itemReplacementPairs in replacementItemsForStage {
 	for itemReplacementPair in itemReplacementPairs {
@@ -257,13 +257,8 @@ for stage, itemReplacementPairs in replacementItemsForStage {
 	}
 }
 
-//Nether
-//mods.OreTiers.addReplacementById(String stage, String whatToReplace, String whatToReplaceWith);
+//Nether Wart
 mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:0", "minecraft:beetroots:0");
 mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:1", "minecraft:beetroots:1");
 mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:2", "minecraft:beetroots:2");
 mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:3", "minecraft:beetroots:3");
-
-//TODO: Can these be removed?
-//mods.OreTiers.addReplacement("three", <minecraft:dispenser>);
-//mods.OreTiers.addReplacementById("three", <minecraft:brewing_stand>);

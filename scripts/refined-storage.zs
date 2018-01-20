@@ -1,7 +1,19 @@
-/*
 import crafttweaker.item.IItemStack;
 import mods.refinedstorage.Solderer;
-*/
+
+var rs as IItemStack[string][string] = {
+	printed: {
+		advanced: <refinedstorage:processor:2>,
+		basic: <refinedstorage:processor>,
+		improved: <refinedstorage:processor:1>,
+		silicon: <refinedstorage:processor:6>
+	},
+	processor: {
+		advanced: <refinedstorage:processor:5>,
+		basic: <refinedstorage:processor:3>,
+		improved: <refinedstorage:processor:4>,
+	}
+};
 
 /*
 	Solderer
@@ -9,25 +21,38 @@ import mods.refinedstorage.Solderer;
 	mods.refinedstorage.Solderer.addRecipe(IItemStack output, int time, IItemStack[3] rows);
 	mods.refinedstorage.Solderer.removeRecipe(IItemStack output);
 */
+//Remove all in map
+for partName, part in rs {
+	for materialName, material in part {
+		Solderer.removeRecipe(material);
+	}
+}
 
-/*
-//Remove Silicon
-Solderer.removeRecipe(<refinedstorage:processor:6>);
+//All solderer recipe's outputs
+var soldererRecipeOutputs as IItemStack[] = [
+	<refinedstorage:fluid_interface>,
+	<refinedstorage:fluid_storage:1>,
+	<refinedstorage:fluid_storage:2>,
+	<refinedstorage:fluid_storage:3>,
+	<refinedstorage:fluid_storage>,
+	<refinedstorage:grid:1>,
+	<refinedstorage:grid:2>,
+	<refinedstorage:grid:3>,
+	<refinedstorage:interface>,
+	<refinedstorage:storage:1>,
+	<refinedstorage:storage:2>,
+	<refinedstorage:storage:3>,
+	<refinedstorage:storage>,
+	<refinedstorage:upgrade:1>,
+	<refinedstorage:upgrade:2>,
+	<refinedstorage:upgrade:3>,
+	<refinedstorage:upgrade:5>,
+	<refinedstorage:upgrade:6>,
+	<refinedstorage:upgrade:7>,
+	<refinedstorage:upgrade:8>,
+	<refinedstorage:upgrade:9>
+];
 
-var printedBasic as IItemStack = <refinedstorage:processor>;
-var printedImproved as IItemStack = <refinedstorage:processor:1>;
-var printedAdvanced as IItemStack = <refinedstorage:processor:2>;
-
-var processorBasic as IItemStack = <refinedstorage:processor:3>;
-var processorImproved as IItemStack = <refinedstorage:processor:4>;
-var processorAdvanced as IItemStack = <refinedstorage:processor:5>;
-
-Solderer.removeRecipe(processorBasic);
-Solderer.addRecipe(processorBasic, 10, [printedBasic, <minecraft:redstone>, <ore:waferSilicon>.firstItem]);
-
-Solderer.removeRecipe(processorImproved);
-Solderer.addRecipe(processorImproved, 10, [printedImproved, <minecraft:redstone>, <ore:waferSilicon>.firstItem]);
-
-Solderer.removeRecipe(processorAdvanced);
-Solderer.addRecipe(processorAdvanced, 10, [printedAdvanced, <minecraft:redstone>, <ore:waferSilicon>.firstItem]);
-*/
+for output in soldererRecipeOutputs {
+	Solderer.removeRecipe(output);
+}

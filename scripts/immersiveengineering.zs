@@ -1,45 +1,41 @@
+import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
-
-//Blast Furnace
-//Smelting
-//OutputStack, InputStack, Time in Ticks, SlagOutput
-//mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:material:12>, <ImmersiveEngineering:material:11>, 4800, <ImmersiveEngineering:material:13>);
-//OutputStack
-//mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
-//Fuel
-//InputStack, Time in Ticks
-//mods.immersiveengineering.BlastFurnace.addFuel(<ImmersiveEngineering:metal:17>, 1200);
-//InputStack
-//mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:material:6>);
-
-//Black Iron Creation
-mods.immersiveengineering.AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
-
-//Invar must be in Arc Furnace
-mods.immersiveengineering.AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);
+import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Mixer;
+import mods.immersiveengineering.Squeezer;
 
 /*
-//Metal Press
-//OutputStack, InputStack, MoldStack, Energy, SizeValue
-mods.immersiveengineering.MetalPress.addRecipe(<minecraft:stone_slab> * 2, <minecraft:stone>, <ImmersiveEngineering:mold>, 500, 50);
-//OutputStack
-mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:30>);
-//MoldStack
-mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:2>);
+	Alloy Smelter
 */
+//Black Iron Creation
+AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
 
-mods.immersiveengineering.MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
+//Invar must be in Arc Furnace
+AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);
 
-mods.immersiveengineering.MetalPress.addRecipe(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1);
+/*
+	Metal Press
+
+	//OutputStack, InputStack, MoldStack, Energy, SizeValue
+	mods.immersiveengineering.MetalPress.addRecipe(<minecraft:stone_slab> * 2, <minecraft:stone>, <ImmersiveEngineering:mold>, 500, 50);
+	//OutputStack
+	mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:30>);
+	//MoldStack
+	mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:2>);
+*/
+MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
+
+MetalPress.addRecipe(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1);
 
 /*
 	Squeezer
 */
-mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
+Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
 
 /*
 	Crusher
+
 	IItemStack output, IIngredient input, int totalEnergy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
 */
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
@@ -60,6 +56,7 @@ Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 /*
 	Arc Furnace
 */
+//==============================================================
 //Add Steve's carts recipes
 //Lump of Galgador
 ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.block.firstItem, slag, 200, 512,
@@ -76,10 +73,10 @@ ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.dust, s
 ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.copper.dust]);
 ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.copper.dust]);
 
-/*
-	Add recipes for alloying that is removed by metals script
-	Also adding slag as an output to them all
-*/
+//==============================================================
+//Add recipes for alloying that is removed by metals script
+//Also adding slag as an output to them all
+
 //Steel
 ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.ingot, slag, 400, 512, [<ore:dustCoke>]);
 ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.dust, slag, 400, 512, [<ore:dustCoke>]);
@@ -109,9 +106,6 @@ ArcFurnace.addRecipe(<enderutilities:enderpart:20> * 4, <minecraft:ender_pearl>,
 //Refined Energistics 2.3333333 <- YA! YOU LIKE THAT
 ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material>]);
 
-
-
-
 /* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them
 //Aluminum Brass
 ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.ingot, slag, 100, 512, [metals.aluminum.dust * 3]);
@@ -124,7 +118,8 @@ ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag
 
 /*
 	Mixer
+
 	mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
 */
-mods.immersiveengineering.Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
+Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
+Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);

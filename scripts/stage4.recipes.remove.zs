@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var removeItems = [
+var removeItems as IItemStack[] = [
 	<betterbuilderswands:wanddiamond>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:pneumatic_dynamo>,
@@ -135,9 +135,7 @@ var removeItems = [
 	<refinedstorage:exporter>,
 	<refinedstorage:interface>,
 	<refinedstorage:quartz_enriched_iron>
-
-
-] as IItemStack[];
+];
 
 for item in removeItems {
 	recipes.remove(item);

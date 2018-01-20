@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
-var hideItems = [
+var hideItems as IItemStack[] = [
 	<minecraft:monster_egg:1>,
 	<abyssalcraft:abyssalniteu>,
 	<abyssalcraft:cobbleu>,
@@ -379,17 +379,14 @@ var hideItems = [
 	<ferdinandsflowers:item_test>,
 
 	//RAGE AGAINST THE MACHINE! #NotMyMinecraft
-	<refinedstorage:processor:6>,
-	<refinedstorage:processor:5>,
-	<refinedstorage:processor:4>,
-	<refinedstorage:processor:3>,
-	<refinedstorage:processor:2>,
 	<refinedstorage:processor:1>,
+	<refinedstorage:processor:2>,
+	<refinedstorage:processor:3>,
+	<refinedstorage:processor:4>,
+	<refinedstorage:processor:5>,
+	<refinedstorage:processor:6>,
 	<refinedstorage:processor>
-
-
-
-] as IItemStack[];
+];
 
 for item in hideItems {
 	mods.jei.JEI.hide(item);

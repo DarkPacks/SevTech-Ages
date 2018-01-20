@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
-var removeAndHideItems = [
+var removeAndHideItems as IItemStack[] = [
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
@@ -120,13 +120,12 @@ var removeAndHideItems = [
 
 	<actuallyadditions:item_misc:4>,
 
-	//The beginning of bringing down the Minecraft community as we know it by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM
+	//The beginning of bringing down the Minecraft community as we know it
+	//by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM
+	<refinedstorage:core:1>,
 	<refinedstorage:core>,
-	<refinedstorage:solderer>,
-	<refinedstorage:core:1>
-
-
-] as IItemStack[];
+	<refinedstorage:solderer>
+];
 
 for item in removeAndHideItems {
 	mods.jei.JEI.removeAndHide(item);

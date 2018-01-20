@@ -1066,12 +1066,6 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:2>,
 	<enderutilities:syringe:3>,
 	<enderutilities:void_pickaxe>
-
-
-
-
-
-
 ];
 
 for item in stage4Items {

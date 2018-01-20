@@ -25,7 +25,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<buildcraftcore:engine> : [
 		[
 			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
@@ -238,7 +238,7 @@ var shapedRecipes = {
 			[<ore:blockGlass>, <modularrouters:blank_upgrade>, <ore:blockGlass>]
 		]
 	],
-	
+
 	//Storage Network
 	<storagenetwork:master>: [
 		[
@@ -483,7 +483,7 @@ var shapedRecipes = {
 	  		[metals.cobalt.gear, <modularmachinery:blockcasing>, metals.cobalt.gear],
 	  		[null, metals.cobalt.gear, null]
 	  	]
-	],	
+	],
 
 	//Inductive Logistics
 	<indlog:inv_connector> : [
@@ -520,7 +520,7 @@ var shapedRecipes = {
 	  		[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
 	  		[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
 	  	]
-	],	
+	],
 	<indlog:fluid_pipe> * 8: [
 		[
 			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
@@ -721,7 +721,7 @@ var shapedRecipes = {
 	  		[<minecraft:prismarine_shard>, <ore:paneGlass>, <minecraft:prismarine_shard>],
 	  		[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>]
 	  	]
-	],	
+	],
 	<industrialforegoing:range_addon:11>: [
 		[
 			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot],
@@ -844,13 +844,7 @@ var shapedRecipes = {
 			[<appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>]
 		]
 	]
-
-
-
-
-
-
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
@@ -880,12 +874,3 @@ mods.recipestages.Recipes.setRecipeStage("four", <embers:pipe>);
 mods.recipestages.Recipes.setRecipeStage("four", <embers:pump>);
 mods.recipestages.Recipes.setRecipeStage("four", <embers:item_pump>);
 mods.recipestages.Recipes.setRecipeStage("four", <embers:item_pipe>);
-
-
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantum_tank>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantum_barrel>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:crater>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantum_storage_unit>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:quantumcrafter>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:trashcan>);
-//mods.recipestages.Recipes.setRecipeStage("four", <quantumstorage:trashcanfluid>);

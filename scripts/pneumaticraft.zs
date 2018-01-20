@@ -1,4 +1,5 @@
 import mods.pneumaticcraft.thermopneumaticprocessingplant as ThermopneumaticProcessingPlant;
+import mods.pneumaticcraft.assembly as Assembly;
 import mods.pneumaticcraft.refinery as Refinery;
 import mods.pneumaticcraft.liquidfuel as LiquidFuel;
 
@@ -23,9 +24,10 @@ LiquidFuel.addFuel(<liquid:gasoline>, 1500 * 1000);
 LiquidFuel.addFuel(<liquid:kerosene>, 1100 * 1000);
 LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);
 
-
-
+/*
+	Assemby
+*/
 // Presses available in stage 4
-mods.pneumaticcraft.assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>);
-mods.pneumaticcraft.assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>);
-mods.pneumaticcraft.assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>);
+Assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>);
+Assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>);
+Assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>);

@@ -611,7 +611,6 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:part:516>,
 	<appliedenergistics2:security_station>,
 
-
 	//Refined Storage
 	<refinedstorage:constructor>,
 	<refinedstorage:controller:1>,
@@ -692,7 +691,6 @@ var stage5Items as IIngredient[] = [
 	<refinedstorageaddons:wireless_crafting_grid:1>,
 	<refinedstorageaddons:wireless_crafting_grid>,
 	<refinedstorage:security_manager>,
-
 
 	//Environmental Tech
 	<environmentaltech:aethium:*>,
@@ -1096,8 +1094,6 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:white_sugar_cane>,
 	<extraplanets:basic_decontamination_unit_fake_block>
 ];
-
-
 
 for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);

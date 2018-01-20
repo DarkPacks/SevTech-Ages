@@ -851,26 +851,3 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-
-////
-//
-// TO DO
-//
-////
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:block_shears>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:exp_pylon>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:block_user>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:tool_mount_inverse>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:block_disenchanter>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:charm_void>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:block_vacuum>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:ender_pearl_reuse>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:ender_pearl_mounted>);
-mods.recipestages.Recipes.setRecipeStage("four", <cyclicmagic:plate_vector>);
-
-//Embers
-mods.recipestages.Recipes.setRecipeStage("four", <embers:pipe>);
-mods.recipestages.Recipes.setRecipeStage("four", <embers:pump>);
-mods.recipestages.Recipes.setRecipeStage("four", <embers:item_pump>);
-mods.recipestages.Recipes.setRecipeStage("four", <embers:item_pipe>);

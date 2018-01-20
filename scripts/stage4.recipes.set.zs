@@ -24,11 +24,11 @@ for id in modIDs {
 }
 
 var itemsForStage as IIngredient[] = [
-	<cyclicmagic:password_block>,
-	<cyclicmagic:password_remote>,
-	<cyclicmagic:item_pipe>,
-	<cyclicmagic:fluid_pipe>,
-	<cyclicmagic:fan>,
+	//Embers
+	<embers:item_pipe>,
+	<embers:item_pump>,
+	<embers:pipe>,
+	<embers:pump>,
 
 	//Bonsai
 	<bonsaitrees:bonsaipot>,
@@ -229,8 +229,23 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:wither_builder>,
 
 	//Cyclic
+	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_library>,
 	<cyclicmagic:block_library_ctrl>,
+	<cyclicmagic:block_shears>,
+	<cyclicmagic:block_user>,
+	<cyclicmagic:block_vacuum>,
+	<cyclicmagic:charm_void>,
+	<cyclicmagic:ender_pearl_mounted>,
+	<cyclicmagic:ender_pearl_reuse>,
+	<cyclicmagic:exp_pylon>,
+	<cyclicmagic:fan>,
+	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:item_pipe>,
+	<cyclicmagic:password_block>,
+	<cyclicmagic:password_remote>,
+	<cyclicmagic:plate_vector>,
+	<cyclicmagic:tool_mount_inverse>,
 
 	//Tinkers
 	<tcomplement:manyullyn_helmet>,
@@ -240,7 +255,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
-
 
 	//Tesla
 	<teslacorelib:base_addon>,

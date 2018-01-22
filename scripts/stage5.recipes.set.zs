@@ -7,6 +7,8 @@ var modIDs as string[] = [
 	"compactmachines3",
 	"environmentaltech",
 	"extraplanets",
+	"ironjetpacks",
+	"mekanism",
 	"mysticalagradditions",
 	"mysticalagriculture",
 	"quantumstorage",
@@ -54,7 +56,6 @@ var itemsForStage as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
-	<primal:obsidian_hoe>,
 	<roots:diamond_hammer>,
 	<roots:diamond_knife>,
 

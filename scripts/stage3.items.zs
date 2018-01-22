@@ -6,7 +6,6 @@ var modIDs as string[] = [
 	"immersivepetroleum",
 	"immersivetech",
 	"nex",
-	"openglider",
 	"vc"
 ];
 
@@ -279,6 +278,10 @@ var stage3Items as IIngredient[] = [
 	<primal:fishing_rod_corypha>,
 	<primal:bark_corypha>,
 	<primal:boat_corypha>,
+	<primal:fish_lava_crawdad_raw>,
+	<primal:fish_lava_worm_raw>,
+	<primal:fish_lava_worm_dried>,
+	<primal:fish_lava_crawdad_dried>,
 
 
 
@@ -1249,6 +1252,28 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:crystalshard:*>,
 	<abyssalcraft:transmutationgem>,
 	<abyssalcraft:transmutator>,
+	<abyssalcraft:charm:2>,
+	<abyssalcraft:charm:3>,
+	<abyssalcraft:cthulhucharm:2>,
+	<abyssalcraft:cthulhucharm:3>,
+	<abyssalcraft:hasturcharm:2>,
+	<abyssalcraft:hasturcharm:3>,
+	<abyssalcraft:jzaharcharm:2>,
+	<abyssalcraft:jzaharcharm:3>,
+	<abyssalcraft:azathothcharm:2>,
+	<abyssalcraft:azathothcharm:3>,
+	<abyssalcraft:nyarlathotepcharm:2>,
+	<abyssalcraft:nyarlathotepcharm:3>,
+	<abyssalcraft:yogsothothcharm:2>,
+	<abyssalcraft:yogsothothcharm:3>,
+	<abyssalcraft:shubniggurathcharm:2>,
+	<abyssalcraft:shubniggurathcharm:3>,
+
+
+
+
+
+
 
 	//Compressed
 	<overloaded:compressed_netherrack:*>,
@@ -1302,7 +1327,15 @@ var stage3Items as IIngredient[] = [
 	<buildcrafttransport:waterproof>,
 	<ironchest:iron_chest:6>,
 
-	<industrialforegoing:plastic>
+	<industrialforegoing:plastic>,
+	
+	//Wither Skeleton Tweaks
+	<witherskelefix:blade>,
+	<witherskelefix:blade2>,
+	<witherskelefix:fragment>
+
+
+
 ];
 
 for item in stage3Items {

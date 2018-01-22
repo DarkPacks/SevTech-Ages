@@ -530,6 +530,10 @@ var stage2Items as IIngredient[] = [
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 62 as short}]}),
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 70 as short}]}),
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 71 as short}]}),
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 14 as short}]}),
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 14 as short}]}),
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 14 as short}]}),
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 14 as short}]}),
 
 	//Astral Sorcery Stage 2
 	<astralsorcery:blockaltar:*>,
@@ -590,8 +594,44 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemwand:*>,
 	<astralsorcery:itemwand:0>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
+	<astralsorcery:itemwand>,
 
 
+	//Abyssalcraft
+	<abyssalcraft:sulfur>,
+	<abyssalcraft:methane>,
+	<abyssalcraft:oblivionshard>,
+	<abyssalcraft:solidlava>,
+	<abyssalcraft:materializer>,
+	<abyssalcraft:odb>,
+	<abyssalcraft:oc>,
+	<abyssalcraft:charm:1>,
+	<abyssalcraft:cthulhucharm>,
+	<abyssalcraft:cthulhucharm:1>,
+	<abyssalcraft:hasturcharm>,
+	<abyssalcraft:hasturcharm:1>,
+	<abyssalcraft:jzaharcharm>,
+	<abyssalcraft:jzaharcharm:1>,
+	<abyssalcraft:azathothcharm>,
+	<abyssalcraft:azathothcharm:1>,
+	<abyssalcraft:nyarlathotepcharm>,
+	<abyssalcraft:nyarlathotepcharm:1>,
+	<abyssalcraft:yogsothothcharm>,
+	<abyssalcraft:yogsothothcharm:1>,
+	<abyssalcraft:shubniggurathcharm>,
+	<abyssalcraft:shubniggurathcharm:1>,
+	<abyssalcraft:hasturcoin>,
+	<abyssalcraft:azathothcoin>,
+	<abyssalcraft:nyarlathotepcoin>,
+	<abyssalcraft:yogsothothcoin>,
+	<abyssalcraft:shubniggurathcoin>,
+	<abyssalcraft:engraving_hastur>,
+	<abyssalcraft:engraving_azathoth>,
+	<abyssalcraft:engraving_nyarlathotep>,
+	<abyssalcraft:engraving_yogsothoth>,
+	<abyssalcraft:engraving_shubniggurath>,
+	<abyssalcraft:interdimensionalcage>,
+	<abyssalcraft:engraver>,
 
 	//Embers Stage 2
 	<embers:adhesive>,
@@ -687,6 +727,12 @@ var stage2Items as IIngredient[] = [
 	<embers:wall_ashen_tile>,
 	<embers:wildfire_core>,
 	<embers:wrapped_sealed_planks>,
+
+	//Chisel & Bits
+	<chiselsandbits:chisel_iron>,
+	<chiselsandbits:tape_measure>,
+	<chisel:offsettool>,
+
 
 	//Actually Additions
 	<actuallyadditions:block_smiley_cloud>,

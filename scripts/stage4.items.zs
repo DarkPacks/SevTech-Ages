@@ -105,6 +105,7 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:wither_builder>,
 	<industrialforegoing:fluid_pump>,
 	<industrialforegoing:fluid_crafter>,
+	<industrialforegoing:plant_interactor>,
 
 	//Dark Utils
 	<darkutils:trap_tile>,
@@ -127,6 +128,7 @@ var stage4Items as IIngredient[] = [
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
 	<extendedcrafting:material:10>,
+	<extendedcrafting:interface>,
 
 	//Tinkers
 	<tcomplement:manyullyn_helmet>,
@@ -802,6 +804,10 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:programming_puzzle:14>,
 	<pneumaticcraft:programming_puzzle:15>,
 	<pneumaticcraft:advanced_pressure_tube>,
+	<pneumaticcraft:spawner_agitator>,
+	<pneumaticcraft:crop_support>,
+	<pneumaticcraft:aphorism_tile>,
+	<pneumaticcraft:transfer_gadget>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

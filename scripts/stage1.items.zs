@@ -57,6 +57,7 @@ var stage1Items as IIngredient[] = [
 
 
 
+
 	//Bricks
 	<betterwithaddons:bricks_stained:*>,
 	<betterwithaddons:material:*>,
@@ -233,6 +234,14 @@ var stage1Items as IIngredient[] = [
 	<tallgates:tall_gate:5>,
 	<natura:overworld_doors>,
 
+	//Quark
+	<quark:spruce_trapdoor>,
+	<quark:birch_trapdoor>,
+	<quark:jungle_trapdoor>,
+	<quark:acacia_trapdoor>,
+	<quark:dark_oak_trapdoor>,
+
+
 	//Tools
 	<abyssalcraft:dhoe>,
 	<cyclicmagic:sandstone_hoe>,
@@ -248,6 +257,19 @@ var stage1Items as IIngredient[] = [
 	//Iron Chests
 	<ironchest:wood_copper_chest_upgrade>,
 	<ironchest:iron_chest:3>,
+
+	//Chisel & Bits
+	<chiselsandbits:chisel_stone>,
+	<chiselsandbits:bit_bag>,
+	<chiselsandbits:wrench_wood>,
+	<chiselsandbits:bittank>,
+	<chiselsandbits:negativeprint>,
+	<chiselsandbits:mirrorprint>,
+	<chiselsandbits:positiveprint>,
+	<chiselsandbits:chisel_iron>,
+	<chisel:offsettool>,
+	<chiselsandbits:tape_measure>,
+
 
 	//Chisel
 	<chisel:andesite1:*>,
@@ -456,6 +478,7 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:decorativestatue:5>,
 	<abyssalcraft:decorativestatue:6>,
 	<abyssalcraft:crate>,
+	<abyssalcraft:charm>,
 
 	//Actually Additions
 	<actuallyadditions:item_dust:6>,
@@ -671,6 +694,24 @@ var stage1Items as IIngredient[] = [
 	<primal:storage_crate:7>,
 	<primal:storage_crate:8>,
 	<primal:storage_crate:9>,
+	<primal:grate_acacia>,
+	<primal:grate_bigoak>,
+	<primal:grate_birch>,
+	<primal:grate_jungle>,
+	<primal:grate_oak>,
+	<primal:grate_spruce>,
+	<primal:grate_thatch>,
+	<primal:grate_ironwood>,
+	<primal:grate_lacquer>,
+	<primal:drain_carbonate_flag>,
+	<primal:drain_ferro_flag>,
+	<primal:drain_thatch>,
+	<primal:drain_stonebrick>,
+	<primal:drain_scoria>,
+	<primal:drain_mud>,
+	<primal:drain_schist_green>,
+
+
 
 	//Content Tweaker
 	<materialpart:aquamarine:ore_minecraft_stone>,

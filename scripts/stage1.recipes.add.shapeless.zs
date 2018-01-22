@@ -41,7 +41,20 @@ var shapelessRecipes = {
 	//Astral Sorcery Start
 	<betterwithaddons:japanmat:8> : [
 		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>] 
+	],
+
+	//Chisel & Bits
+	<chiselsandbits:negativeprint> : [
+		[<chiselsandbits:negativeprint>] 
+	],
+	<chiselsandbits:mirrorprint> : [
+		[<chiselsandbits:mirrorprint>] 
+	],
+	<chiselsandbits:positiveprint> : [
+		[<chiselsandbits:positiveprint>] 
 	]
+
+
 } as IIngredient[][][IItemStack];
 
 for item, recipesForItem in shapelessRecipes {

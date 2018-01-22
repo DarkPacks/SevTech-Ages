@@ -695,6 +695,8 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:cooked_egg>,
 	<betterwithmods:material:4>,
 
+	<progressiontweaks:broken_spear_tip>,
+	<progressiontweaks:broken_spear_shaft>,
 
 	//Ember Root Zoo
 	<emberroot:owl_egg>,
@@ -729,14 +731,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:fish_salmon_dried>,
 	<primal:fish_clown_dried>,
 	<primal:fish_puffer_dried>,
-	<primal:fish_cod_salted>,
-	<primal:fish_salmon_salted>,
-	<primal:fish_clown_salted>,
-	<primal:fish_puffer_salted>,
-	<primal:fish_cod_cured>,
-	<primal:fish_salmon_cured>,
-	<primal:fish_clown_cured>,
-	<primal:fish_puffer_cured>,
 	<primal:shark_meat_raw>,
 	<primal:gator_meat_raw>,
 	<primal:horse_meat_raw>,
@@ -745,17 +739,11 @@ var stageZeroItems as IIngredient[] = [
 	<primal:llama_meat_raw>,
 	<primal:bat_meat_raw>,
 	<primal:bat_meat_rotten>,
-	<primal:shark_meat_salted>,
-	<primal:gator_meat_salted>,
-	<primal:bear_meat_salted>,
-	<primal:llama_meat_salted>,
 	<primal:shark_meat_dried>,
 	<primal:horse_meat_dried>,
 	<primal:wolf_meat_dried>,
 	<primal:bear_meat_dried>,
 	<primal:bat_meat_dried>,
-	<primal:shark_meat_cured>,
-	<primal:gator_meat_cured>,
 	<primal:horse_meat_cooked>,
 	<primal:wolf_meat_cooked>,
 	<primal:shark_meat_cooked>,
@@ -789,6 +777,27 @@ var stageZeroItems as IIngredient[] = [
 	<primal:mud_dried:7>,
 	<primal:mud_wet>,
 	<primal:slab_mud>,
+	<primal:wall>,
+	<primal:wall:1>,
+	<primal:wall:2>,
+	<primal:wall:3>,
+	<primal:wall:4>,
+	<primal:wall:5>,
+	<primal:wall:6>,
+	<primal:wall:8>,
+	<primal:wall:9>,
+	<primal:wall:10>,
+	<primal:wall:13>,
+	<primal:wall:14>,
+	<primal:thin_slab_acacia>,
+	<primal:thin_slab_bigoak>,
+	<primal:thin_slab_birch>,
+	<primal:thin_slab_oak>,
+	<primal:thin_slab_jungle>,
+	<primal:thin_slab_spruce>,
+	<primal:thin_slab_ironwood>,
+	<primal:thin_slab_lacquer>,
+	<primal:thin_slab_yew>,
 
 
 
@@ -873,7 +882,23 @@ var stageZeroItems as IIngredient[] = [
 	<natura:materials:3>,
 	<natura:materials:1>,
 	<natura:materials>,
-	<natura:clouds>
+	<natura:clouds>,
+
+	<primal_tech:charcoal_hopper>,
+	<wopper:wopper>,
+	<primal_tech:wooden_hopper>,
+	<abyssalcraft:shadowfragment>,
+	<abyssalcraft:shadowshard>,
+	<abyssalcraft:shadowgem>,
+	<abyssalcraft:tieredenergypedestal>,
+	<abyssalcraft:tieredenergycollector>,
+	<abyssalcraft:ritualpedestal>,
+	<abyssalcraft:ritualaltar:6>,
+	<abyssalcraft:ritualaltar>,
+	<abyssalcraft:tieredenergycontainer>
+
+
+
 ];
 
 for item in stageZeroItems {

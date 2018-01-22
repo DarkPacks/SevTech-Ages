@@ -66,6 +66,12 @@ var itemsForStage as IIngredient[] = [
 	<jaff:iron_hook>,
 	<jaff:tank>,
 
+	//AbyssalCraft
+	<abyssalcraft:oblivionshard>,
+	<abyssalcraft:materializer>,
+	<abyssalcraft:odb>,
+	<abyssalcraft:engraver>,
+
 	//Better With Mods
 	<betterwithaddons:bundle:1>,
 	<betterwithmods:material:43>,
@@ -107,6 +113,11 @@ var itemsForStage as IIngredient[] = [
 
 	//Yoyo
 	<yoyos:book>,
+
+	//Chisel & Bits
+	<chiselsandbits:chisel_iron>,
+	<chiselsandbits:tape_measure>,
+	<chisel:offsettool>,
 
 	//Chisel
 	<chisel:waterstone1:1>,

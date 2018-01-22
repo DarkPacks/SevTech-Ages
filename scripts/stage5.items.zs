@@ -6,8 +6,10 @@ var modIDs as string[] = [
 	"compactmachines3",
 	"environmentaltech",
 	"extraplanets",
+	"ironjetpacks",
 	"mysticalagradditions",
 	"mysticalagriculture",
+	"mekanism",
 	"overloaded",
 	"quantumstorage",
 	"rftools",
@@ -60,6 +62,8 @@ var stage5Items as IIngredient[] = [
 	<primal:emerald_saw>,
 	<primal:emerald_shovel>,
 	<primal:emerald_workblade>,
+
+	<betterbuilderswands:wandunbreakable>,
 
 	//Actually Additions
 	<actuallyadditions:block_inputter_advanced>,

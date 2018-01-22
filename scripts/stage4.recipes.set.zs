@@ -227,6 +227,7 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:water_condensator>,
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
+	<industrialforegoing:plant_interactor>,
 
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
@@ -517,7 +518,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:vacuum_pump>,
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_tube>,
-
+	<pneumaticcraft:aphorism_tile>,
 	<pneumaticcraft:manometer:30000>,
 	<pneumaticcraft:amadron_tablet:30000>,
 	<pneumaticcraft:air_canister:30000>,
@@ -525,6 +526,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:camo_applicator:30000>,
 	<pneumaticcraft:vortex_cannon:30000>,
 	<pneumaticcraft:logistics_configurator:30000>,
+	<pneumaticcraft:transfer_gadget>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

@@ -310,6 +310,14 @@ var shapedRecipes = {
 			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]
 		]
 	],
+	<abyssalcraft:charm> : [
+		[
+			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>],
+			[<ore:dyeYellow>, metals.bronze.ingot, <ore:dyeYellow>],
+			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]
+		]
+	],
+
 
 	//Beneath Porter Recipe
 	<progressiontweaks:blank_teleporter> : [
@@ -461,6 +469,40 @@ var shapedRecipes = {
 			[null, <astralsorcery:itemcraftingcomponent>, null]
 		]
 	],
+
+	<chiselsandbits:bit_bag> : [
+		[
+			[<betterwithaddons:wool:*>, <betterwithaddons:wool:*>, <betterwithaddons:wool:*>],
+			[<betterwithaddons:wool:*>, <minecraft:stone_button>, <betterwithaddons:wool:*>],
+			[<betterwithaddons:wool:*>, <betterwithaddons:wool:*>, <betterwithaddons:wool:*>]
+		]
+	],
+	<chiselsandbits:bittank> : [
+		[
+			[stick, null, stick],
+			[null, null, null],
+			[stick, null, stick]
+		]
+	],
+	<chiselsandbits:negativeprint> : [
+		[
+			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeRed>],
+			[<primal:plant_cloth>, null]
+		]
+	],
+	<chiselsandbits:mirrorprint> : [
+		[
+			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeGreen>],
+			[<primal:plant_cloth>, null]
+		]
+	],
+	<chiselsandbits:positiveprint> : [
+		[
+			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeBlue>],
+			[<primal:plant_cloth>, null]
+		]
+	],
+
 
 	//Upgraded Recipes from previous stages
 	/*

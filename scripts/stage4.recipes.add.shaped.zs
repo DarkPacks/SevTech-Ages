@@ -475,14 +475,22 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<pneumaticcraft:plastic:1>, metals.platinum.plate, <pneumaticcraft:plastic:1>]
 		]
 	],
+	<pneumaticcraft:crop_support> * 2: [
+		[
+			[metals.compressedIron.rod, null, metals.compressedIron.rod],
+			[metals.compressedIron.rod, null, metals.compressedIron.rod],
+			[metals.compressedIron.rod, null, metals.compressedIron.rod]
+		]
+	],
+
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:3> * 8 : [
-	  	[
-	  		[null, metals.cobalt.gear, null],
-	  		[metals.cobalt.gear, <modularmachinery:blockcasing>, metals.cobalt.gear],
-	  		[null, metals.cobalt.gear, null]
-	  	]
+		[
+			[null, metals.cobalt.gear, null],
+			[metals.cobalt.gear, <modularmachinery:blockcasing>, metals.cobalt.gear],
+			[null, metals.cobalt.gear, null]
+		]
 	],
 
 	//Inductive Logistics

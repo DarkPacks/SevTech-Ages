@@ -64,6 +64,13 @@ var itemsForStage as IIngredient[] = [
 	<traverse:red_rock_bricks_slab>,
 	<traverse:red_rock_bricks_stairs>,
 
+	//Quark
+	<quark:spruce_trapdoor>,
+	<quark:birch_trapdoor>,
+	<quark:jungle_trapdoor>,
+	<quark:acacia_trapdoor>,
+	<quark:dark_oak_trapdoor>,
+
 	//Abyssalcraft
 	<abyssalcraft:crate>,
 
@@ -95,7 +102,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:dark_oak_door>,
 	<minecraft:dark_oak_fence>,
 	<minecraft:dark_oak_fence_gate>,
-	<minecraft:fence>,
+	<minecraft:fence> * 3,
 	<minecraft:fence_gate>,
 	<minecraft:jungle_door>,
 	<minecraft:jungle_fence>,

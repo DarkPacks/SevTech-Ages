@@ -4,8 +4,7 @@ var STAGE = STAGES.three;
 
 //Entire Mods into Stage three
 var modIDs as string[] = [
-	"immersivepetroleum",
-	"openglider"
+	"immersivepetroleum"
 ];
 
 for id in modIDs {
@@ -748,7 +747,12 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:slime_boots:1>,
 	<tconstruct:slime_boots:2>,
 	<tconstruct:slime_boots:4>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}})
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
+
+	//Wither Skeleton Tweaks
+	<witherskelefix:blade>,
+	<witherskelefix:blade2>,
+	<witherskelefix:fragment>
 ];
 
 for item in itemsForStage {

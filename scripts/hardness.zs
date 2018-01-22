@@ -23,12 +23,10 @@ var hardnessItems = {
 	<minecraft:netherrack> : 2,
 	<minecraft:nether_brick> : 2,
 	<minecraft:nether_brick_stairs> : 2,
-    <minecraft:quartz_ore:0> : 2,
-    <primal:scoria_stone:0> : 2,
-    <mysticalagriculture:soulstone:0> : 2,
-    <primal:earthwax_block:0> : 2
-
-
+	<minecraft:quartz_ore:0> : 2,
+	<primal:scoria_stone:0> : 2,
+	<mysticalagriculture:soulstone:0> : 2,
+	<primal:earthwax_block:0> : 2
 } as float[IItemStack];
 
 for item in hardnessItems {

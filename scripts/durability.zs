@@ -102,8 +102,6 @@ var durabilityArray = {
 	<tcomplement:manyullyn_leggings> : 1275,
 	<tcomplement:manyullyn_boots> : 750,
 
-
-
 	//Better Builder Wands
 	<betterbuilderswands:wandstone> : 650,
 	<betterbuilderswands:wandiron> : 1000,
@@ -114,8 +112,7 @@ var durabilityArray = {
 	<chisel:chisel_diamond> : 6500,
 	<chisel:chisel_hitech> : 12500,
 
-	<pickletweaks:grass_mesh> : 64,
-
+	<pickletweaks:grass_mesh> : 64
 } as int[IItemStack];
 
 for item in durabilityArray {

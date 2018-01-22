@@ -24,27 +24,6 @@ var shapelessRecipes = {
 		[<minecraft:coal:*>, cordage, stick],
 		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
 	],
-	<primal:bark_acacia> : [
-		[<minecraft:log2>.giveBack(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_bigoak> : [
-		[<minecraft:log2:1>.giveBack(<primal:logs_stripped:5>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_birch> : [
-		[<minecraft:log:2>.giveBack(<primal:logs_stripped:2>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_jungle> : [
-		[<minecraft:log:3>.giveBack(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_oak> : [
-		[<minecraft:log>.giveBack(<primal:logs_stripped>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_spruce> : [
-		[<minecraft:log:1>.giveBack(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_yew> : [
-		[<primal:logs:1>.giveBack(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
-	],
 	<tconstruct:stone_torch> * 2 : [
 		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
 	],

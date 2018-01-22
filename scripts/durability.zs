@@ -67,10 +67,10 @@ var durabilityArray = {
 	<minecraft:iron_hoe> : 450,
 
 	//Iron Armor
-	<minecraft:iron_helmet> : 250,
+	<minecraft:iron_helmet> : 275,
 	<minecraft:iron_chestplate> : 450,
 	<minecraft:iron_leggings> : 425,
-	<minecraft:iron_boots> : 275,
+	<minecraft:iron_boots> : 250,
 
 	<actuallyadditions:item_helm_quartz> : 115,
 	<actuallyadditions:item_chest_quartz> : 165,
@@ -96,6 +96,13 @@ var durabilityArray = {
 
 	<primal_tech:bone_shears> : 170,
 	<primal:iron_workblade> : 650,
+
+	<tcomplement:manyullyn_helmet> : 825,
+	<tcomplement:manyullyn_chestplate> : 1350,
+	<tcomplement:manyullyn_leggings> : 1275,
+	<tcomplement:manyullyn_boots> : 750,
+
+
 
 	//Better Builder Wands
 	<betterbuilderswands:wandstone> : 650,

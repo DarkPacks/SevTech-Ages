@@ -1,12 +1,12 @@
 {
   "jetpack_type": {
-    "name": "iron",
+    "name": "bronze",
     "disable": false,
     "tier": 2,
-    "color": 12698049,
+    "color": 15507007,
     "armor_points": 3,
     "enchantability": 9,
-    "crafting_material": "ore:ingotIron",
+    "crafting_material": "ore:ingotBronze",
     "force_recipes": false
   },
   "jetpack_info": {

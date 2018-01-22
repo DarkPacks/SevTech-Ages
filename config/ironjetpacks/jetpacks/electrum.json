@@ -1,0 +1,23 @@
+{
+  "jetpack_type": {
+    "name": "electrum",
+    "disable": false,
+    "tier": 3,
+    "color": 10981685,
+    "armor_points": 2,
+    "enchantability": 18,
+    "crafting_material": "ore:ingotElectrum",
+    "force_recipes": false
+  },
+  "jetpack_info": {
+    "capacity": 10000000,
+    "usage": 310,
+    "speed_vertical": 0.79,
+    "accel_vertical": 0.14,
+    "speed_sideways": 0.17,
+    "speed_hover_descend": 0.37,
+    "speed_hover": 0.03,
+    "sprint_speed_multi": 1.6,
+    "sprint_fuel_multi": 3.5
+  }
+}

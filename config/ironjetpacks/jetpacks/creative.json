@@ -1,10 +1,13 @@
 {
   "jetpack_type": {
     "name": "creative",
+    "disable": false,
     "tier": -1,
     "color": 13572841,
     "armor_points": 8,
+    "enchantability": 0,
     "crafting_material": "null",
+    "force_recipes": false,
     "creative": true
   },
   "jetpack_info": {

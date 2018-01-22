@@ -1,10 +1,13 @@
 {
   "jetpack_type": {
     "name": "wood",
+    "disable": false,
     "tier": 0,
     "color": 7033119,
     "armor_points": 1,
-    "crafting_material": "ore:plankWood"
+    "enchantability": 15,
+    "crafting_material": "ore:plankWood",
+    "force_recipes": false
   },
   "jetpack_info": {
     "capacity": 20000,

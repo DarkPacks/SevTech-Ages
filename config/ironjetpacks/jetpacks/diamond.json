@@ -1,10 +1,13 @@
 {
   "jetpack_type": {
     "name": "diamond",
+    "disable": false,
     "tier": 4,
     "color": 4910545,
     "armor_points": 4,
-    "crafting_material": "ore:gemDiamond"
+    "enchantability": 10,
+    "crafting_material": "ore:gemDiamond",
+    "force_recipes": false
   },
   "jetpack_info": {
     "capacity": 30000000,

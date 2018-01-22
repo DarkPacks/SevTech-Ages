@@ -1,10 +1,13 @@
 {
   "jetpack_type": {
     "name": "stone",
+    "disable": false,
     "tier": 1,
     "color": 8355711,
     "armor_points": 2,
-    "crafting_material": "minecraft:stone:0"
+    "enchantability": 12,
+    "crafting_material": "minecraft:stone:0",
+    "force_recipes": false
   },
   "jetpack_info": {
     "capacity": 100000,

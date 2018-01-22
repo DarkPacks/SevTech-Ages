@@ -195,7 +195,6 @@ var stage3Items as IIngredient[] = [
 	<primal:slab_netherrack>,
 	<primal:slab_netherstone>,
 	<primal:slab_netherearth>,
-	<primal:thin_slab_netherstone>,
 	<primal:drain_netherstone>,
 	<primal:drain_nether_earth>,
 	<primal:arrow_torch_nether>,

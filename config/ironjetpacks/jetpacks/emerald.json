@@ -1,10 +1,13 @@
 {
   "jetpack_type": {
     "name": "emerald",
+    "disable": false,
     "tier": 5,
     "color": 4322180,
     "armor_points": 4,
-    "crafting_material": "ore:gemEmerald"
+    "enchantability": 15,
+    "crafting_material": "ore:gemEmerald",
+    "force_recipes": false
   },
   "jetpack_info": {
     "capacity": 48000000,

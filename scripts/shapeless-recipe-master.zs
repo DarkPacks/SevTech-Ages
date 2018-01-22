@@ -9,7 +9,6 @@ recipes.addShapeless(<primal:leather_strip> * 9, [leather, <ore:toolWorkBlade>])
 recipes.addShapeless(<primal:plant_cloth>, [cordage, cordage, cordage, cordage, cordage, cordage, cordage, cordage, cordage]);
 
 //Fleece to String
-recipes.addShapeless(<minecraft:string>, [<betterwithaddons:wool:*>, <ore:toolBasicShears>.transformDamage()]);
-recipes.addShapeless(<minecraft:string>, [<betterwithaddons:wool:*>, <ore:toolUniqueShears>.giveBack()]);
-
-recipes.addShapeless(<minecraft:string>, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolBasicShears>.transformDamage()]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolUniqueShears>.giveBack()]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);

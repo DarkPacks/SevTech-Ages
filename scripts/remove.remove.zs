@@ -3,7 +3,6 @@ import crafttweaker.item.IItemStack;
 //Must be item not oreDict
 var removeItems = [
 	<betterwithmods:aesthetic:8>,
-	<carryon:tile_item>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
 	<minecraft:bed:*>,

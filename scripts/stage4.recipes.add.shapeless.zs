@@ -13,15 +13,13 @@ var STAGE = STAGES.four;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
-	[<actuallyadditions:item_coffee_seed>, <minecraft:paper>],
-	[<actuallyadditions:item_coffee_beans>]
+	[<testmod:test_item>, <minecraft:paper>],
+	[<testmod:test_item>]
 ]
 */
-
-
-var shapelessRecipes = {
+var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<pneumaticcraft:printed_circuit_board> : [
 		[
 			<pneumaticcraft:unassembled_pcb>, <pneumaticcraft:transistor>, <pneumaticcraft:transistor>,
@@ -163,8 +161,7 @@ var shapelessRecipes = {
 			<mob_grinding_utils:tank>
 		]
 	]
-
-} as IIngredient[][][IItemStack];
+};
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {

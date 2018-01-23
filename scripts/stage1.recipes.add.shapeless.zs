@@ -13,17 +13,18 @@ var STAGE = STAGES.one;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
-	[<actuallyadditions:item_coffee_seed>, <minecraft:paper>],
-	[<actuallyadditions:item_coffee_beans>]
+	[<testmod:test_item>, <minecraft:paper>],
+	[<testmod:test_item>]
 ]
 */
-var shapelessRecipes = {
+var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:torch> * 2 : [
 		[<minecraft:coal:*>, cordage, stick],
 		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
 	],
+
 	<tconstruct:stone_torch> * 2 : [
 		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
 	],
@@ -40,28 +41,23 @@ var shapelessRecipes = {
 
 	//Astral Sorcery Start
 	<betterwithaddons:japanmat:8> : [
-		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>] 
+		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>]
 	],
 
 	//Chisel & Bits
 	<chiselsandbits:negativeprint> : [
-		[<chiselsandbits:negativeprint>] 
+		[<chiselsandbits:negativeprint>]
 	],
 	<chiselsandbits:mirrorprint> : [
-		[<chiselsandbits:mirrorprint>] 
+		[<chiselsandbits:mirrorprint>]
 	],
 	<chiselsandbits:positiveprint> : [
-		[<chiselsandbits:positiveprint>] 
+		[<chiselsandbits:positiveprint>]
 	]
-
-
-} as IIngredient[][][IItemStack];
+};
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-
-//Pickle Tweaks Mesh
-recipes.addShapeless(<minecraft:flint>, [<pickletweaks:reinforced_mesh:*>, <betterwithmods:gravel_pile>]);

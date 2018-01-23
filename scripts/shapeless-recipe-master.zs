@@ -7,6 +7,9 @@ recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:to
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolUniqueShears>.giveBack()]);
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);
 
+//Pickle Tweaks Mesh
+recipes.addShapeless(<minecraft:flint>, [<pickletweaks:reinforced_mesh:*>, <betterwithmods:gravel_pile>]);
+
 //==================================
 //Primal Core
 recipes.addShapeless(<primal:leather_strip> * 9, [leather, <ore:toolWorkBlade>]);

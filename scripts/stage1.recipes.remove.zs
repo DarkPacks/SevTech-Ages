@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var removeItems = [
+var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandstone>,
 	<bibliocraft:plumbline>,
 	<cyclicmagic:ender_torch>,
@@ -13,12 +13,9 @@ var removeItems = [
 	<progressiontweaks:blank_teleporter>, //Beneath Porter Recipe
 	<progressiontweaks:unfired_clay_bowl>,
 	<prospectors:prospector_lowest>, //Prospector
-	<tconstruct:stone_stick>,
-	<tconstruct:stone_torch>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:0>,
-	<betterwithaddons:aqueduct:10>,
 	<betterwithaddons:aqueduct:1>,
 	<betterwithaddons:aqueduct:2>,
 	<betterwithaddons:aqueduct:3>,
@@ -28,6 +25,7 @@ var removeItems = [
 	<betterwithaddons:aqueduct:7>,
 	<betterwithaddons:aqueduct:8>,
 	<betterwithaddons:aqueduct:9>,
+	<betterwithaddons:aqueduct:10>,
 	<betterwithmods:axle_generator:1>,
 	<betterwithmods:cooking_pot:1>,
 	<betterwithmods:material:10>,
@@ -93,11 +91,13 @@ var removeItems = [
 	<tcomplement:porcelain_melter:8>,
 	<tcomplement:porcelain_melter>,
 	<tconstruct:pattern>,
+	<tconstruct:stone_stick>,
+	<tconstruct:stone_torch>,
 
 	//BWM changes
 	<betterwithmods:bellows>,
 	<betterwithaddons:spindle>
-] as IItemStack[];
+];
 
 for item in removeItems {
 	recipes.remove(item);

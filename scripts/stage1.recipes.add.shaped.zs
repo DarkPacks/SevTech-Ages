@@ -3,8 +3,6 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.one;
 
-//mods.recipestages.Recipes.addShaped("one", <>, [[, , ], [, , ], [, , ]]);
-
 /*
 <item> : [
 	[RECIPE1],
@@ -15,19 +13,19 @@ var STAGE = STAGES.one;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
 	[
 		//IF LONG
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
-		[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+		[<testmod:test_item1>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item2>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item3>, <testmod:test_item>, <testmod:test_item>]
 	],
 	//IF SHORT
-	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+	[[<testmod:test_item>, <testmod:test_item>, null], [<testmod:test_item>, <testmod:test_item>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterbuilderswands:wandstone> : [
 		[[null, null, <ore:stone>], [null, log, null], [log, null, null]]
 	],
@@ -503,9 +501,8 @@ var shapedRecipes = {
 		]
 	],
 
-
 	//Upgraded Recipes from previous stages
-	/*
+	/* TODO: Can this be deleted?
 	<primal:hide_salted> : [
 		[
 			[<primal:hide_raw>, <ore:foodSalt>, <primal:hide_raw>],
@@ -562,7 +559,7 @@ var shapedRecipes = {
 		]
 	]
 
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
@@ -571,4 +568,4 @@ for item, recipesForItem in shapedRecipes {
 }
 
 //Tinkers'
-mods.recipestages.Recipes.addShapedMirrored("one", <tconstruct:pattern> * 4, [[<ore:barkWood>, <ore:sidingWood>], [<ore:sidingWood>, <ore:barkWood>]]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <tconstruct:pattern> * 4, [[<ore:barkWood>, <ore:sidingWood>], [<ore:sidingWood>, <ore:barkWood>]]);

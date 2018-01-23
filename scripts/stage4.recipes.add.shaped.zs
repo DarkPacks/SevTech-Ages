@@ -848,6 +848,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>],
 			[<appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>]
 		]
+	],
+
+	//Use Liquid hopper instead of normal hopper
+	<mob_grinding_utils:tank_sink>: [
+		[null, <minecraft:iron_bars>, null],
+		[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
+		[null, <mob_grinding_utils:tank>, null]
 	]
 };
 

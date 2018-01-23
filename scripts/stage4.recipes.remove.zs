@@ -5,6 +5,7 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:clock>,
 	<immersiveengineering:metal_device0:5>,
 	<minecraft:ender_chest>,
+	<mob_grinding_utils:tank_sink>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
 

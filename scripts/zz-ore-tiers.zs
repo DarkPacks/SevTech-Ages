@@ -217,7 +217,7 @@ var replacementItemsForStage as IItemStack[][][string] = {
 
 		//Osmium
 		[<mekanism:oreblock>],
-		[<contenttweaker:osmium_ore_minecraft_stone>]
+		[<contenttweaker:sub_block_holder_0:4>]
 	],
 
 	STAGES.five : [

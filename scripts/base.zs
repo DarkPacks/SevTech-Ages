@@ -2,8 +2,9 @@
 #loader contenttweaker
 
 import mods.contenttweaker.Color;
-import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
+import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.MaterialSystem;
 
 var materials as Material[string] = {
 	"aquamarine": MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build(),
@@ -39,6 +40,24 @@ var materials as Material[string] = {
 };
 
 /*
+	Functions
+*/
+function addDefaultMoltenData(moltenData as MaterialPartData) {
+	moltenData.addDataValue("density", "4000");
+	moltenData.addDataValue("viscosity", "3000");
+	moltenData.addDataValue("temperature", "550");
+	moltenData.addDataValue("vaporize", "false");
+}
+
+function addDefaultOreData(oreData as MaterialPartData) {
+	oreData.addDataValue("variants", "minecraft:stone");
+	oreData.addDataValue("hardness", "5");
+	oreData.addDataValue("resistance", "15");
+	oreData.addDataValue("harvestTool", "pickaxe");
+	oreData.addDataValue("harvestLevel", "2");
+}
+
+/*
 	Misc Part Registration
 */
 //Stone Nugget
@@ -46,19 +65,18 @@ materials.stone.registerPart("nugget");
 
 //Aquamarine Ore
 var oreAquamarineData = materials.aquamarine.registerPart("ore").getData();
-oreAquamarineData.addDataValue("variants", "minecraft:stone");
-oreAquamarineData.addDataValue("hardness", "5");
-oreAquamarineData.addDataValue("resistance", "15");
-oreAquamarineData.addDataValue("harvestTool", "pickaxe");
-oreAquamarineData.addDataValue("harvestLevel", "2");
+addDefaultOreData(oreAquamarineData);
 oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
+
+//Osmium Ore
+//Use this over Mekanism's so we can give it the default behavior of Geolosys
+var oreOsmiumData = materials.osmium.registerPart("ore").getData();
+addDefaultOreData(oreOsmiumData);
+oreOsmiumData.addDataValue("drops", "geolosys:cluster:12");
 
 //Liquid Ender Pearl
 var fluidEnderData = materials.ender.registerPart("molten").getData();
-fluidEnderData.addDataValue("density", "4000");
-fluidEnderData.addDataValue("viscosity", "3000");
-fluidEnderData.addDataValue("temperature", "550");
-fluidEnderData.addDataValue("vaporize", "false");
+addDefaultMoltenData(fluidEnderData);
 
 //Liquid Redstone
 var fluidRedstoneData = materials.redstone.registerPart("molten").getData();
@@ -76,10 +94,7 @@ fluidGlowstoneData.addDataValue("vaporize", "false");
 
 //Liquid Ostonium
 var fluidOstoniumData = materials.ostonium.registerPart("molten").getData();
-fluidOstoniumData.addDataValue("density", "4000");
-fluidOstoniumData.addDataValue("viscosity", "3000");
-fluidOstoniumData.addDataValue("temperature", "550");
-fluidOstoniumData.addDataValue("vaporize", "false");
+addDefaultMoltenData(fluidOstoniumData);
 
 //Naphtha
 var fluidNaphthaData = materials.naphtha.registerPart("molten").getData();
@@ -138,7 +153,7 @@ var defaultPartNames as string[] = [
 ];
 
 for i, metal in materailsForDefaultParts {
-    metal.registerParts(defaultPartNames);
+	metal.registerParts(defaultPartNames);
 }
 
 //==================================
@@ -157,11 +172,8 @@ var fluidMaterials as Material[] = [
 ];
 
 for i, fluid in fluidMaterials {
-   var fluidMaterialsData = fluid.registerPart("molten").getData();
-   fluidMaterialsData.addDataValue("density", "4000");
-   fluidMaterialsData.addDataValue("viscosity", "3000");
-   fluidMaterialsData.addDataValue("temperature", "550");
-   fluidMaterialsData.addDataValue("vaporize", "false");
+	var fluidMaterialsData = fluid.registerPart("molten").getData();
+	addDefaultMoltenData(fluidMaterialsData);
 }
 
 //==================================
@@ -174,5 +186,5 @@ var gearMaterialList as Material[] = [
 ];
 
 for material in gearMaterialList {
-    material.registerPart("gear");
+	material.registerPart("gear");
 }

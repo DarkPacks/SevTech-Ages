@@ -216,7 +216,8 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<appliedenergistics2:charged_quartz_ore>],
 
 		//Osmium
-		[<mekanism:oreblock>]
+		[<mekanism:oreblock>],
+		[<contenttweaker:osmium_ore_minecraft_stone>]
 	],
 
 	STAGES.five : [

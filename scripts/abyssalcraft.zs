@@ -20,7 +20,7 @@ InfusionRitual.addRitual("ascraftingtable", 0, 0, 1000, false, <astralsorcery:bl
 	<ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>
 ], false, []);
 game.setLocalization("ac.ritual.ascraftingtable", "Luminous Crafting Table Creation");
-game.setLocalization("ac.ritual.ascraftingtable.desc", "This ritual can only be performed in Stage 2");
+game.setLocalization("ac.ritual.ascraftingtable.desc", "This ritual can only be performed in Stage 1");
 
 //Astral Sorcery Constellation Paper
 InfusionRitual.addRitual("constellationpaper", 0, 0, 500, false, <astralsorcery:itemconstellationpaper>, <astralsorcery:itemcraftingcomponent:5>, [

@@ -97,6 +97,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:material:43>,
 	<materialpart:stone:nugget>,
 	<minecraft:fireworks>,
+	<pneumaticcraft:liquid_hopper>,
 
 	//YoYo
 	<yoyos:book>,

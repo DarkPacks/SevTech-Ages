@@ -65,6 +65,7 @@ var itemsForStage as IIngredient[] = [
 	<jaff:wooden_fishing_rod>,
 	<jaff:iron_hook>,
 	<jaff:tank>,
+	<pneumaticcraft:liquid_hopper>,
 
 	//AbyssalCraft
 	<abyssalcraft:oblivionshard>,

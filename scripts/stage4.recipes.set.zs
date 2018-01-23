@@ -469,7 +469,6 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:item_life_upgrade>,
 	<pneumaticcraft:kerosene_lamp>,
 	<pneumaticcraft:liquid_compressor>,
-	<pneumaticcraft:liquid_hopper>,
 	<pneumaticcraft:logistic_drone>,
 	<pneumaticcraft:logistic_frame_active_provider>,
 	<pneumaticcraft:logistic_frame_default_storage>,

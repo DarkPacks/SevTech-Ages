@@ -26,84 +26,112 @@ TinkerStages.addGeneralModifierStage(STAGES.three);
 //==================================
 //Tool Type Stage
 //Prevents a specific tool type from being crafted at the tool station.
+var toolTypeStages as string[][string] = {
+	STAGES.two : [
+		"tconstruct:arrow",
+		"tconstruct:battlesign",
+		"tconstruct:bolt",
+		"tconstruct:broadsword",
+		"tconstruct:crossbow",
+		"tconstruct:excavator",
+		"tconstruct:frypan",
+		"tconstruct:hammer",
+		"tconstruct:hatchet",
+		"tconstruct:kama",
+		"tconstruct:longsword",
+		"tconstruct:lumberaxe",
+		"tconstruct:mattock",
+		"tconstruct:pickaxe",
+		"tconstruct:rapier",
+		"tconstruct:scythe",
+		"tconstruct:shortbow",
+		"tconstruct:shovel"
+	],
 
-//Two
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:arrow");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:battlesign");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:bolt");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:broadsword");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:crossbow");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:excavator");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:frypan");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:hammer");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:hatchet");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:kama");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:longsword");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:lumberaxe");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:mattock");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:pickaxe");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:rapier");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:scythe");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:shortbow");
-TinkerStages.addToolTypeStage(STAGES.two, "tconstruct:shovel");
+	STAGES.three : [
+		"tcomplement:chisel",
+		"tconstruct:cleaver",
+		"tconstruct:longbow",
+		"tconstruct:shuriken",
+		"yoyos:yoyo"
+	]
+};
 
-//Three
-TinkerStages.addToolTypeStage(STAGES.three, "tcomplement:chisel");
-TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:cleaver");
-TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:longbow");
-TinkerStages.addToolTypeStage(STAGES.three, "tconstruct:shuriken");
-TinkerStages.addToolTypeStage(STAGES.three, "yoyos:yoyo");
+for stage, toolTypes in toolTypeStages {
+	for toolType in toolTypes {
+		TinkerStages.addToolTypeStage(stage, toolType);
+	}
+}
 
 //==================================
 //Material Stage
 //Prevents the material from being used.
+var materialStages as string[][string] = {
+	STAGES.one : [
+		"bone",
+		"cactus",
+		"flint",
+		"stone",
+		"wood"
+	],
 
-//One
-TinkerStages.addMaterialStage(STAGES.one, "bone");
-TinkerStages.addMaterialStage(STAGES.one, "cactus");
-TinkerStages.addMaterialStage(STAGES.one, "flint");
-TinkerStages.addMaterialStage(STAGES.one, "stone");
-TinkerStages.addMaterialStage(STAGES.one, "wood");
+	STAGES.two : [
+		"abyssalnite",
+		"blueslime",
+		"bronze",
+		"constantan",
+		"copper",
+		"dreadium",
+		"electrum",
+		"iron",
+		"knightslime",
+		"prismarine",
+		"refined_coralium",
+		"silver",
+		"slime",
+		"sponge"
+	],
 
-//Two
-TinkerStages.addMaterialStage(STAGES.four, "pigiron");
-TinkerStages.addMaterialStage(STAGES.two, "abyssalnite");
-TinkerStages.addMaterialStage(STAGES.two, "bronze");
-TinkerStages.addMaterialStage(STAGES.two, "constantan");
-TinkerStages.addMaterialStage(STAGES.two, "copper");
-TinkerStages.addMaterialStage(STAGES.two, "dreadium");
-TinkerStages.addMaterialStage(STAGES.two, "electrum");
-TinkerStages.addMaterialStage(STAGES.two, "iron");
-TinkerStages.addMaterialStage(STAGES.two, "prismarine");
-TinkerStages.addMaterialStage(STAGES.two, "refined_coralium");
-TinkerStages.addMaterialStage(STAGES.two, "silver");
-TinkerStages.addMaterialStage(STAGES.two, "slime");
-TinkerStages.addMaterialStage(STAGES.two, "sponge");
+	STAGES.three : [
+		"endstone",
+		"firewood",
+		"lead",
+		"magmaslime",
+		"netherrack",
+		"obsidian",
+		"paper",
+		"steel",
+		"treatedwood"
+	],
 
-//Three
-TinkerStages.addMaterialStage(STAGES.three, "firewood");
-TinkerStages.addMaterialStage(STAGES.three, "lead");
-TinkerStages.addMaterialStage(STAGES.three, "magmaslime");
-TinkerStages.addMaterialStage(STAGES.three, "netherrack");
-TinkerStages.addMaterialStage(STAGES.three, "obsidian");
-TinkerStages.addMaterialStage(STAGES.three, "paper");
-TinkerStages.addMaterialStage(STAGES.three, "steel");
-TinkerStages.addMaterialStage(STAGES.three, "treatedwood");
-TinkerStages.addMaterialStage(STAGES.two, "blueslime");
-TinkerStages.addMaterialStage(STAGES.two, "knightslime");
+	STAGES.four : [
+		"ardite",
+		"cobalt",
+		"manyullyn",
+		"pigiron"
+	]
+};
 
-//Four
-TinkerStages.addMaterialStage(STAGES.four, "ardite");
-TinkerStages.addMaterialStage(STAGES.four, "cobalt");
-TinkerStages.addMaterialStage(STAGES.four, "manyullyn");
-TinkerStages.addMaterialStage(STAGES.three, "endstone");
+for stage, materials in materialStages {
+	for material in materials {
+		TinkerStages.addToolTypeStage(stage, material);
+	}
+}
 
 //==================================
 //Modifier Stage
 //Prevents the modifier from being applied.
+var modifierStages as string[][string] = {
+	STAGES.three : [
+		"haste",
+		"luck",
+		"mending_moss",
+		"oreexcavate"
+	]
+};
 
-//Three
-TinkerStages.addModifierStage(STAGES.three, "haste");
-TinkerStages.addModifierStage(STAGES.three, "luck");
-TinkerStages.addModifierStage(STAGES.three, "mending_moss");
-TinkerStages.addModifierStage(STAGES.three, "oreexcavate");
+for stage, modifiers in modifierStages {
+	for modifier in modifiers {
+		TinkerStages.addToolTypeStage(stage, modifier);
+	}
+}

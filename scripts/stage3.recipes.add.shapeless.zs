@@ -13,13 +13,13 @@ var STAGE = STAGES.three;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
-	[<actuallyadditions:item_coffee_seed>, <minecraft:paper>],
-	[<actuallyadditions:item_coffee_beans>]
+	[<testmod:test_item>, <minecraft:paper>],
+	[<testmod:test_item>]
 ]
 */
-var shapelessRecipes = {
+var shapelessRecipes as IIngredient[][][IItemStack] = {
 	//Vanilla
 	<minecraft:torch> * 4 : [
 		[<immersiveengineering:material:6>, <betterwithmods:rope>, stick]
@@ -68,7 +68,7 @@ var shapelessRecipes = {
 	<extendedcrafting:material:7>*2 : [
 		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]
 	]
-} as IIngredient[][][IItemStack];
+};
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {

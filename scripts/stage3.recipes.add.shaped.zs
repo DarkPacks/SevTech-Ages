@@ -13,19 +13,19 @@ var STAGE = STAGES.three;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
 	[
 		//IF LONG
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
-		[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+		[<testmod:test_item1>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item2>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item3>, <testmod:test_item>, <testmod:test_item>]
 	],
 	//IF SHORT
-	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+	[[<testmod:test_item>, <testmod:test_item>, null], [<testmod:test_item>, <testmod:test_item>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:enchanting_table> : [
 		[[<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>], [<minecraft:obsidian>, <ore:book>, <minecraft:obsidian>], [<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>]]
 	],
@@ -71,13 +71,14 @@ var shapedRecipes = {
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>]
 		]
 	],
-<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}) : [
+	<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}) : [
 		[
 			[null, <immersiveengineering:material:18>, null],
 			[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
 			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 		]
 	],
+
 	//Embers Stage 3
 	<embers:axe_aluminum> : [
 		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
@@ -196,7 +197,9 @@ var shapedRecipes = {
 	],
 
 	//Actually Additions
-	//This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made) I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry
+	//This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made)
+	//I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me
+	//and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry
 	<actuallyadditions:item_food:14> : [
 		[[<actuallyadditions:item_food>, <betterwithaddons:food_meatballs>, <actuallyadditions:item_food>],
 		[<actuallyadditions:item_food:20>, <rustic:tomato>, <rustic:chili_pepper>],
@@ -268,7 +271,7 @@ var shapedRecipes = {
 			[null, <minecraft:magma_cream>, null]
 		]
 	],
-	
+
 	//Steve's Carts
 	<stevescarts:blockcartassembler> : [
 		[
@@ -1148,59 +1151,10 @@ var shapedRecipes = {
 			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate]
 		]
 	]
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-
-////
-//
-// TO DO
-//
-////
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:tool_auto_torch>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:wand_missile>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:fire_killer>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:purple_boots>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:charm_wing>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:gold_furnace_minecart>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:turret_minecart>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:password_block>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:plate_push_fast>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:ender_blaze>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:chest_sack_empty>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:entity_detector>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:tool_swap>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:charm_fire>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:gold_minecart>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:stone_minecart>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:plate_push>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:magnet_anti_block>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:ender_water>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:chest_sack>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:carbon_paper>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:purple_chestplate>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:purple_helmet>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:sprinkler>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:block_hydrator>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:dropper_minecart>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:horse_upgrade_speed>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:plate_push_slowest>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:ender_snow>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:evoker_fang>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:tool_push>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:fire_dark>);
-mods.recipestages.Recipes.setRecipeStage("three", <cyclicmagic:horse_upgrade_jump>);
-
-//AbyssalCraft
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystal:*>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalshard:*>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalcluster:*>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalcluster2:*>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:crystalfragment:*>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:transmutator>);
-mods.recipestages.Recipes.setRecipeStage("three", <abyssalcraft:transmutationgem>);

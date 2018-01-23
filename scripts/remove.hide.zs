@@ -13,6 +13,7 @@ var hideItems as IItemStack[] = [
 	<abyssalcraft:ironu>,
 	<abyssalcraft:friedegg>,
 	<abyssalcraft:dirtyplate>,
+	<abyssalcraft:cloth>,
 	<pneumaticcraft:manometer:0>,
 	<pneumaticcraft:amadron_tablet:0>,
 	<pneumaticcraft:air_canister:0>,
@@ -96,6 +97,12 @@ var hideItems as IItemStack[] = [
 	<primal:charcoal_pure>,
 	<primal:hibachi>,
 	<primal:brickform>,
+	<primal:armor_obsidian_goggles>,
+	<primal:copper_strand>,
+	<primal:wootz_plate>,
+	<primal:vanadium_plate>,
+	<primal:carbon_plate>,
+	<primal:obsidian_plate>,
 
 
 

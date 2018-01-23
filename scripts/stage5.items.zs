@@ -48,6 +48,9 @@ var stage5Items as IIngredient[] = [
 	<minecraft:diamond_ore>,
 	<minecraft:emerald_ore>,
 
+	//Ranged Pump
+	<rangedpumps:pump>,
+
 	//Emerald
 	<actuallyadditions:item_dust:3>,
 	<extendedcrafting:material:129>,

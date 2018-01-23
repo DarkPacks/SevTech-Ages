@@ -3256,38 +3256,38 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Body Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Axle Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Bowlimb Pattern
 tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Axle Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:pattern:0, Cord Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
 tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
 tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Body Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -4620,70 +4620,70 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Body Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Chisel Head Cast
 tconstruct:cast:0, Axle Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast:0, Cord Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Sword Blade Cast
 tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Pickaxe Head Cast
 tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Body Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Body Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
 tconstruct:clay_cast:0, Axle Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:clay_cast:0, Cord Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
 tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Body Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -5770,6 +5770,7 @@ natura:nether_workbenches:0, Ghostwood Workbench
 natura:nether_workbenches:1, Bloodwood Workbench
 natura:nether_workbenches:2, Darkwood Workbench
 natura:nether_workbenches:3, Fusewood Workbench
+betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:rustic_compat_siding:0, Olive Wood Siding
 betterwithmods:rustic_compat_siding:1, Ironwood Siding
 betterwithmods:rustic_compat_siding:2, Slate Siding
@@ -5779,7 +5780,6 @@ betterwithmods:rustic_compat_moulding:2, Slate Moulding
 betterwithmods:rustic_compat_corner:0, Olive Wood Corner
 betterwithmods:rustic_compat_corner:1, Ironwood Corner
 betterwithmods:rustic_compat_corner:2, Slate Corner
-betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:anchor, Anchor
 betterwithmods:rope, Hemp Rope
 betterwithmods:single_machine:0, Mill Stone
@@ -9455,9 +9455,9 @@ appliedenergistics2:facade:0, Cable Facade - Block of Carminite
 appliedenergistics2:facade:0, Cable Facade - Spiral Stone Bricks [WIP]
 appliedenergistics2:facade:0, Cable Facade - Flint Block
 appliedenergistics2:facade:0, Cable Facade - Low Grade Charcoal
-appliedenergistics2:facade:0, Cable Facade - Charcoal Block
 appliedenergistics2:facade:0, Cable Facade - Blank Teleporter
 appliedenergistics2:facade:0, Cable Facade - Machine Frame
+appliedenergistics2:facade:0, Cable Facade - Charcoal Block
 appliedenergistics2:facade:0, Cable Facade - Darkstone Cobblestone
 appliedenergistics2:facade:0, Cable Facade - §9Abyssal Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Dreadstone Cobblestone
@@ -10050,8 +10050,10 @@ appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
 astikoor:wheel, Wheel
-astikoor:cargocart, Cart
 astikoor:plowcart, Plow
+astikoor:cargocart, Cart
+autoverse:configurator, Block Placer Property Configurator
+autoverse:wand, Wand of the Lazy Sequencer
 autoverse:barrel:0, Barrel
 autoverse:barrel:1, Pulsed Barrel
 autoverse:breaker:0, Block Breaker
@@ -10090,8 +10092,6 @@ autoverse:splitter:1, Redstone Controllable Splitter
 autoverse:splitter:2, Sequence Length Splitter
 autoverse:trash:0, Trash Bin
 autoverse:trash:1, Trash Buffer
-autoverse:configurator, Block Placer Property Configurator
-autoverse:wand, Wand of the Lazy Sequencer
 betterwithaddons:banner_detector:0, Banner Detector
 betterwithaddons:world_scale:0, World Scale
 betterwithaddons:world_scale_ore:0, World Scale Ore
@@ -12833,13 +12833,13 @@ farmingforblockheads:fertilizer:0, Red Fertilizer
 farmingforblockheads:fertilizer:1, Green Fertilizer
 farmingforblockheads:fertilizer:2, Yellow Fertilizer
 fat_cat:top_hat, Top Hat
+horsepower:flour, Flour
+horsepower:dough, Dough
 horsepower:hand_grindstone, Grindstone
 horsepower:grindstone, Horse Grindstone
 horsepower:chopping_block, Chopping Block
 horsepower:chopper, Horse Chopping Block
 horsepower:press, Horse Press
-horsepower:flour, Flour
-horsepower:dough, Dough
 huntingdim:frame, Hunting Dimension Frame
 huntingdim:portal, Hunting Dimension Portal
 huntingdim:biome_changer:0, Creeping Moss
@@ -13323,6 +13323,16 @@ ironjetpacks:steel_jetpack, Jetpack
 ironjetpacks:diamond_jetpack, Jetpack
 ironjetpacks:platinum_jetpack, Jetpack
 ironjetpacks:emerald_jetpack, Jetpack
+mob_grinding_utils:spikes, Iron Spikes
+mob_grinding_utils:fan, Mob Fan
+mob_grinding_utils:absorption_hopper, Absorption Hopper
+mob_grinding_utils:tank, Singularity Tank
+mob_grinding_utils:tank_sink, XP Drain Singularity Tank
+mob_grinding_utils:xp_tap, XP Tap
+mob_grinding_utils:wither_muffler, Wither Boss Death Muffler
+mob_grinding_utils:dragon_muffler, Ender Dragon Death Muffler
+mob_grinding_utils:saw, Mob Masher
+mob_grinding_utils:dark_oak_stone, Dark Oak Stone
 mob_grinding_utils:fan_upgrade:0, Mob Fan Upgrade
 mob_grinding_utils:fan_upgrade:1, Mob Fan Upgrade
 mob_grinding_utils:fan_upgrade:2, Mob Fan Upgrade
@@ -13336,16 +13346,6 @@ mob_grinding_utils:saw_upgrade:3, Mob Masher Upgrade
 mob_grinding_utils:saw_upgrade:4, Mob Masher Upgrade
 mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
 mob_grinding_utils:null_sword, Imaginary Not Here Sword
-mob_grinding_utils:spikes, Iron Spikes
-mob_grinding_utils:fan, Mob Fan
-mob_grinding_utils:absorption_hopper, Absorption Hopper
-mob_grinding_utils:tank, Singularity Tank
-mob_grinding_utils:tank_sink, XP Drain Singularity Tank
-mob_grinding_utils:xp_tap, XP Tap
-mob_grinding_utils:wither_muffler, Wither Boss Death Muffler
-mob_grinding_utils:dragon_muffler, Ender Dragon Death Muffler
-mob_grinding_utils:saw, Mob Masher
-mob_grinding_utils:dark_oak_stone, Dark Oak Stone
 modularrouters:item_router, Item Router
 modularrouters:template_frame, Template Frame
 modularrouters:blank_module, Blank Module
@@ -13389,39 +13389,6 @@ modularrouters:augment:4, Redstone Augment
 modularrouters:augment:5, Regulator Augment
 modularrouters:augment:6, Stack Augment
 modularrouters:augment:7, XP Vacuum Augment
-nex:item_brick_nether:0, Fiery Nether Brick
-nex:item_brick_nether:1, Icy Nether Brick
-nex:item_brick_nether:2, Lively Nether Brick
-nex:item_brick_nether:3, Gloomy Nether Brick
-nex:item_bone_wither, Wither Bone
-nex:item_dust_wither, Wither Dust
-nex:item_hide_salamander:0, Orange Salamander Hide
-nex:item_hide_salamander:1, Black Salamander Hide
-nex:item_crystal_amethyst, Nether Amethyst Crystal
-nex:item_crystal_rime, Nether Rime Crystal
-nex:item_crystal_rime_steel, Rime and Steel
-nex:item_spore, Spore
-nex:item_fang_spider_bone, Frost Fang
-nex:item_tear_ghast_queen, Ghast Queen Tears
-nex:item_boat_obsidian, Obsidian Boat
-nex:food_meat_ghast_raw, Raw Ghast Meat
-nex:food_meat_ghast_cooked, Cooked Ghast Meat
-nex:food_congealed_magma_cream, Congealed Magma Cream
-nex:food_mushroom_enoki, Enoki Mushroom
-nex:tool_sword_bone, Golden Bone Sword
-nex:tool_pickaxe_bone, Golden Bone Pickaxe
-nex:tool_shovel_bone, Golden Bone Shovel
-nex:tool_axe_bone, Golden Bone Axe
-nex:tool_hoe_bone, Golden Bone Hoe
-nex:tool_hammer_bone, Golden Bone Hammer
-nex:armor_helmet_bone, Bone Helmet
-nex:armor_chestplate_bone, Bone Chestplate
-nex:armor_leggings_bone, Bone Leggings
-nex:armor_boots_bone, Bone Boots
-nex:armor_helmet_hide_salamander, Salamander Hide Helmet
-nex:armor_chestplate_hide_salamander, Salamander Hide Chestplate
-nex:armor_leggings_hide_salamander, Salamander Hide Leggings
-nex:armor_boots_hide_salamander, Salamander Hide Boots
 nex:block_basalt:0, Basalt
 nex:block_basalt:1, Smooth Basalt
 nex:block_basalt:2, Basalt Bricks
@@ -13525,6 +13492,39 @@ nex:fence_gate_brick_nether_fiery, Fiery Nether Brick Fence Gate
 nex:fence_gate_brick_nether_icy, Icy Nether Brick Fence Gate
 nex:fence_gate_brick_nether_lively, Lively Nether Brick Fence Gate
 nex:fence_gate_brick_nether_gloomy, Gloomy Nether Brick Fence Gate
+nex:item_brick_nether:0, Fiery Nether Brick
+nex:item_brick_nether:1, Icy Nether Brick
+nex:item_brick_nether:2, Lively Nether Brick
+nex:item_brick_nether:3, Gloomy Nether Brick
+nex:item_bone_wither, Wither Bone
+nex:item_dust_wither, Wither Dust
+nex:item_hide_salamander:0, Orange Salamander Hide
+nex:item_hide_salamander:1, Black Salamander Hide
+nex:item_crystal_amethyst, Nether Amethyst Crystal
+nex:item_crystal_rime, Nether Rime Crystal
+nex:item_crystal_rime_steel, Rime and Steel
+nex:item_spore, Spore
+nex:item_fang_spider_bone, Frost Fang
+nex:item_tear_ghast_queen, Ghast Queen Tears
+nex:item_boat_obsidian, Obsidian Boat
+nex:food_meat_ghast_raw, Raw Ghast Meat
+nex:food_meat_ghast_cooked, Cooked Ghast Meat
+nex:food_congealed_magma_cream, Congealed Magma Cream
+nex:food_mushroom_enoki, Enoki Mushroom
+nex:tool_sword_bone, Golden Bone Sword
+nex:tool_pickaxe_bone, Golden Bone Pickaxe
+nex:tool_shovel_bone, Golden Bone Shovel
+nex:tool_axe_bone, Golden Bone Axe
+nex:tool_hoe_bone, Golden Bone Hoe
+nex:tool_hammer_bone, Golden Bone Hammer
+nex:armor_helmet_bone, Bone Helmet
+nex:armor_chestplate_bone, Bone Chestplate
+nex:armor_leggings_bone, Bone Leggings
+nex:armor_boots_bone, Bone Boots
+nex:armor_helmet_hide_salamander, Salamander Hide Helmet
+nex:armor_chestplate_hide_salamander, Salamander Hide Chestplate
+nex:armor_leggings_hide_salamander, Salamander Hide Leggings
+nex:armor_boots_hide_salamander, Salamander Hide Boots
 oeintegration:excavatemodifier, Excavate Modifier
 overloaded:creative_generator, Creative Generator
 overloaded:infinite_barrel, Infinity Barrel
@@ -13663,6 +13663,22 @@ overloaded:compressed_gravel:12, 13x Compressed Air
 overloaded:compressed_gravel:13, 14x Compressed Air
 overloaded:compressed_gravel:14, 15x Compressed Air
 overloaded:compressed_gravel:15, 16x Compressed Air
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
 pneumaticcraft:pressure_gauge, Pressure Gauge
@@ -13790,25 +13806,9 @@ pneumaticcraft:kerosene_lamp, Kerosene Lamp
 pneumaticcraft:sentry_turret, Sentry Turret
 pneumaticcraft:flux_compressor, Flux Compressor
 pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
-pneumaticcraft:fluid.lpg, LPG
 pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:fluid.lpg, LPG
 traverse:red_autumnal_leaves, Red Autumnal Leaves
 traverse:red_autumnal_sapling, Red Autumnal Sapling
 traverse:brown_autumnal_leaves, Brown Autumnal Leaves
@@ -15467,7 +15467,6 @@ teslacorelib:gear_gold, Gold Gear
 teslacorelib:gear_iron, Iron Gear
 teslacorelib:gear_stone, Stone Gear
 teslacorelib:gear_wood, Wood Gear
-charcoalblock:charcoal_block,  Charcoal Block
 progressiontweaks:lime, Lime
 progressiontweaks:spear, Spear
 progressiontweaks:broken_spear_tip, Broken Spear (Tip)
@@ -15480,6 +15479,7 @@ progressiontweaks:fire_pit_unlit, Fire Pit
 progressiontweaks:blank_teleporter, Blank Teleporter
 progressiontweaks:machine_frame, Machine Frame
 progressiontweaks:nanomachine_frame, Nano-Machine Frame
+charcoalblock:charcoal_block,  Charcoal Block
 abyssalcraft:stone:0, Darkstone
 abyssalcraft:stone:1, §9Abyssal Stone
 abyssalcraft:stone:2, Dreadstone
@@ -16699,6 +16699,35 @@ astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
+quark:glowstone_dust_block, tile.glowstone_dust_block.name
+quark:gunpowder_block, tile.gunpowder_block.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:black_ash, tile.black_ash.name
+quark:soul_powder, item.soul_powder.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
 quark:glowcelium, tile.glowcelium.name
 quark:glowshroom, tile.glowshroom.name
 quark:soul_bead, item.soul_bead.name
@@ -16711,11 +16740,6 @@ quark:biotite_slab:0, Biotite Slab
 quark:biotite_stairs, tile.biotite_stairs.name
 quark:biotite_wall, tile.biotite_wall.name
 quark:smoker, tile.smoker.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:witch_hat, item.witch_hat.name
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -16743,31 +16767,6 @@ quark:tallow, item.tallow.name
 quark:blaze_lantern, tile.blaze_lantern.name
 quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
 quark:glass_item_frame, item.glass_item_frame.name
-quark:glowstone_dust_block, tile.glowstone_dust_block.name
-quark:gunpowder_block, tile.gunpowder_block.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:black_ash, tile.black_ash.name
-quark:soul_powder, item.soul_powder.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
 quark:polished_stone, tile.polished_stone.name
 quark:stone_wall, tile.stone_wall.name
 quark:stone_granite_wall, tile.stone_granite_wall.name
@@ -16886,6 +16885,7 @@ quark:duskbound_lantern, tile.duskbound_lantern.name
 quark:duskbound_block_stairs, tile.duskbound_block_stairs.name
 quark:duskbound_block_slab:0, Duskbound Slab
 quark:duskbound_block_wall, tile.duskbound_block_wall.name
+quark:witch_hat, item.witch_hat.name
 base:wrench, item.base.wrench.name
 betterbuilderswands:wandstone, Stone Wand
 betterbuilderswands:wandiron, Iron Wand
@@ -20558,9 +20558,9 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Arctic Fur
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Carminite
 chiselsandbits:block_bit:0, Chiseled Bit - Flint Block
 chiselsandbits:block_bit:0, Chiseled Bit - Low Grade Charcoal Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Charcoal Block
 chiselsandbits:block_bit:0, Chiseled Bit - Blank Teleporter
 chiselsandbits:block_bit:0, Chiseled Bit - Machine Frame
+chiselsandbits:block_bit:0, Chiseled Bit - Charcoal Block
 chiselsandbits:block_bit:0, Chiseled Bit - Darkstone Cobblestone
 chiselsandbits:block_bit:0, Chiseled Bit - §9Abyssal Cobblestone
 chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Cobblestone
@@ -23548,13 +23548,13 @@ yoyos:yoyo_cord:0, Slimevine Cord
 yoyos:yoyo_cord:0, Vines Cord
 yoyos:yoyo, Yoyo
 yoyos:book, Yoyos and You
-primal:bitumen, Bitumen
-primal:tannin, Tannin
-primal:bitumen_boiling, Boiling Bitumen
 primal:brine_netjry, Brine
-primal:paraffin, Paraffin
-primal:urushi, Urushi
 primal:smoke, Smoke
+primal:tannin, Tannin
+primal:urushi, Urushi
+primal:paraffin, Paraffin
 primal:waste, Waste Water
-primal:magma, Basaltic Magma
 primal:ovis_atre_milk, Ovis Atre Milk
+primal:magma, Basaltic Magma
+primal:bitumen, Bitumen
+primal:bitumen_boiling, Boiling Bitumen

@@ -197,7 +197,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:raw_pastry:2>,
 	<betterwithmods:raw_pastry:4>,
 	<betterwithmods:material:40>,
-
+	<betterwithmods:aesthetic:8>,
 
 	//Stairs
 	<natura:colored_grass_stairs_topiary>,
@@ -595,7 +595,6 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemwand:0>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 	<astralsorcery:itemwand>,
-
 
 	//Abyssalcraft
 	<abyssalcraft:sulfur>,

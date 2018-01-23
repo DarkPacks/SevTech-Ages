@@ -270,6 +270,9 @@ var itemsForStage as IIngredient[] = [
 	<stevesfactorymanager:blockcablesignname>,
 	<stevesfactorymanager:memorydisk>,
 
+	//Ranged Pump
+	<rangedpumps:pump>,
+
 	//Diamond Stuff
 	<minecraft:diamond_horse_armor>,
 

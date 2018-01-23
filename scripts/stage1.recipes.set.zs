@@ -102,7 +102,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:dark_oak_door>,
 	<minecraft:dark_oak_fence>,
 	<minecraft:dark_oak_fence_gate>,
-	<minecraft:fence> * 3,
+	<minecraft:fence>,
 	<minecraft:fence_gate>,
 	<minecraft:jungle_door>,
 	<minecraft:jungle_fence>,

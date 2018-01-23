@@ -282,8 +282,12 @@ var stage3Items as IIngredient[] = [
 	<primal:fish_lava_worm_raw>,
 	<primal:fish_lava_worm_dried>,
 	<primal:fish_lava_crawdad_dried>,
-
-
+	<primal:searing_ember>,
+	<primal:devils_tongue_tendril>,
+	<primal:devils_tongue_sepals>,
+	<primal:searing_sprig>,
+	<primal:ignis_fatuus>,
+	<primal:devils_tongue>,
 
 	//Chisel
 	<chisel:blockaluminum:*>,

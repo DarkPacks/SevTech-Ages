@@ -1,33 +1,43 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-//Dynamic Chopping Blocks
-mods.horsepower.Recipes.addShapeless(log, <horsepower:chopping_block>, [log]);
-mods.horsepower.Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead>, <ore:stickWood>, <minecraft:lead>], [plank, <minecraft:flint>, plank], [plank, <horsepower:chopping_block>, plank]]);
+import mods.horsepower.ChoppingBlock;
+import mods.horsepower.Grindstone;
+import mods.horsepower.Press;
+import mods.horsepower.Recipes;
+
+/*
+	Dynamic Chopping Block Recipes
+
+	https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
+*/
+Recipes.addShapeless(log, <horsepower:chopping_block>, [log]);
+Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead>, <ore:stickWood>, <minecraft:lead>], [plank, <minecraft:flint>, plank], [plank, <horsepower:chopping_block>, plank]]);
 
 /*
 	Fix "Machine" Recipe add functions
 	Output, then input PLEASE!
 */
 function addChoppingBlockRecipe(output as IItemStack, input as IIngredient, time as int, manual as bool) {
-	mods.horsepower.ChoppingBlock.add(input, output, time, manual);
+	ChoppingBlock.add(input, output, time, manual);
 }
 
 function addGrindstoneRecipe(output as IItemStack, input as IIngredient, time as int, hand as bool) {
-	mods.horsepower.Grindstone.add(input, output, time, hand);
+	Grindstone.add(input, output, time, hand);
 }
 
 function addGrindstoneRecipeWithSecondary(output as IItemStack, input as IIngredient, time as int, hand as bool, secondaryOutput as IItemStack, secondaryChance as int) {
-	mods.horsepower.Grindstone.add(input, output, time, hand, secondaryOutput, secondaryChance);
+	Grindstone.add(input, output, time, hand, secondaryOutput, secondaryChance);
 }
 
 function addPressRecipe(output as IItemStack, input as IIngredient) {
-	mods.horsepower.Press.add(input, output);
+	Press.add(input, output);
 }
 
 /*
 	Chopping Block
-	mods.horsepower.ChoppingBlock.add(<input>, <output>, <time>, <manual>);
+
+	https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 */
 //"Standardized" Recipes for manual and automatic. 4 for manual, 2 automatic
 //If not desired, do recipe manually
@@ -176,6 +186,8 @@ for output, inputs in choppingRecipeItems {
 
 /*
 	Grindstone
+
+	https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 */
 addGrindstoneRecipe(<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard>, 16, false);
 addGrindstoneRecipe(<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>, 24, false);
@@ -307,9 +319,11 @@ addGrindstoneRecipeWithSecondary(<minecraft:dye:15>, <primal_tech:bone_shard>, 1
 
 /*
 	Press
+
+	https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 */
 //IItemStack output: IIngredient input
-var pressPairs = {
+var pressPairs as IIngredient[IItemStack] = {
 	<abyssalcraft:shadowgem>: <abyssalcraft:shadowshard> * 9,
 	<abyssalcraft:shadowshard>: <abyssalcraft:shadowfragment> * 9,
 	<betterwithaddons:japanmat:11>: <betterwithaddons:japanmat:10>,
@@ -320,7 +334,7 @@ var pressPairs = {
 	<minecraft:coal>: <pickletweaks:coal_piece> * 8,
 	<minecraft:coal_block>: <minecraft:coal> * 9,
 	<minecraft:dirt>: <minecraft:wheat_seeds> * 12
-} as IIngredient[IItemStack];
+};
 
 for output, input in pressPairs {
 	addPressRecipe(output, input);

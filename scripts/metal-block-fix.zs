@@ -1,11 +1,12 @@
-//Stop Chisel Blocks from becoming the
-//chosen block for mods when processing
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+/*
+	Stop Chisel Blocks from becoming the
+	chosen block for mods when processing
+*/
 //<chiselBlock> : <oreDict>
-var oreDictChiselPairs = {
+var oreDictChiselPairs as IOreDictEntry[IItemStack] = {
 	<chisel:blockaluminum> : <ore:blockAluminum>,
 	<chisel:blockbronze> : <ore:blockBronze>,
 	<chisel:blockcobalt> : <ore:blockCobalt>,
@@ -24,11 +25,11 @@ var oreDictChiselPairs = {
 	<chisel:blocksilver> : <ore:blockSilver>,
 	<chisel:blocksteel> : <ore:blockSteel>,
 	<chisel:blocktin> : <ore:blockTin>
-} as IOreDictEntry[IItemStack];
+};
 
 //<chiselBlock> : count
 //count = how many blocks there are
-var oreDictChiselPairCounts = {
+var oreDictChiselPairCounts as int[IItemStack] = {
 	<chisel:blockaluminum> : 7,
 	<chisel:blockbronze> : 7,
 	<chisel:blockcobalt> : 7,
@@ -47,7 +48,7 @@ var oreDictChiselPairCounts = {
 	<chisel:blocksilver> : 7,
 	<chisel:blocksteel> : 7,
 	<chisel:blocktin> : 7
-} as int[IItemStack];
+};
 
 for chiselBlock, oreDict in oreDictChiselPairs {
 	//use chiselBlock to reference the count in the map

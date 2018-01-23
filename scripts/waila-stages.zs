@@ -1,8 +1,17 @@
-mods.WailaStages.addWailaStage(STAGES.one);
+import mods.WailaStages;
 
-mods.WailaStages.addRequirement(STAGES.two, "Currently");
-mods.WailaStages.addRequirement(STAGES.two, "Harvest");
-mods.WailaStages.addRequirement(STAGES.two, "Harvestable");
-mods.WailaStages.addRequirement(STAGES.two, "Effective");
-mods.WailaStages.addRequirement(STAGES.two, "Progression");
-mods.WailaStages.addRequirement(STAGES.two, "Progress");
+/*
+	Waila Stages
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/GameStages/WailaStages/WailaStages/
+*/
+//One
+WailaStages.addWailaStage(STAGES.one);
+
+//Two
+WailaStages.addRequirement(STAGES.two, "Currently");
+WailaStages.addRequirement(STAGES.two, "Effective");
+WailaStages.addRequirement(STAGES.two, "Harvest");
+WailaStages.addRequirement(STAGES.two, "Harvestable");
+WailaStages.addRequirement(STAGES.two, "Progress");
+WailaStages.addRequirement(STAGES.two, "Progression");

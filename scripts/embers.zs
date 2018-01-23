@@ -1,29 +1,38 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+
 import mods.embers.DawnstoneAnvil;
 import mods.embers.Melter;
 
-//mods.embers.DawnstoneAnvil.add([<minecraft:potato>*2],<minecraft:carrot>,<minecraft:carrot>);
-//mods.embers.DawnstoneAnvil.add([output1,output2,...],inputBottom,inputTop);
+/*
+	Dawnstone Anvil
 
-//copper
+	https://github.com/DaedalusGame/Soot/wiki/CraftTweaker-Support#dawnstone-anvil
+*/
+//Copper
 DawnstoneAnvil.add([metals.copper.plate.firstItem * 2], metals.copper.ingot, metals.copper.ingot);
 DawnstoneAnvil.add([metals.copper.plate.firstItem], metals.copper.ingot, null);
+
 //Platinum
 DawnstoneAnvil.add([metals.platinum.plate.firstItem * 2], metals.platinum.ingot, metals.platinum.ingot);
 DawnstoneAnvil.add([metals.platinum.plate.firstItem], metals.platinum.ingot, null);
+
 //Bronze
 DawnstoneAnvil.add([metals.bronze.plate.firstItem * 2], metals.bronze.ingot, metals.bronze.ingot);
 DawnstoneAnvil.add([metals.bronze.plate.firstItem], metals.bronze.ingot, null);
+
 //Iron
 DawnstoneAnvil.add([metals.iron.plate.firstItem * 2], metals.iron.ingot, metals.iron.ingot);
 DawnstoneAnvil.add([metals.iron.plate.firstItem], metals.iron.ingot, null);
+
 //Redstone Alloy
 DawnstoneAnvil.add([metals.redstoneAlloy.plate.firstItem * 2], metals.redstoneAlloy.ingot, metals.redstoneAlloy.ingot);
 DawnstoneAnvil.add([metals.redstoneAlloy.plate.firstItem], metals.redstoneAlloy.ingot, null);
 
 /*
 	Melter
+
+	https://github.com/DaedalusGame/Soot/wiki/CraftTweaker-Support#melter
 
 	Wipe out Embers Melter
 	Melter is removed - remove all recipes

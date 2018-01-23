@@ -1,18 +1,8 @@
-//recipes.removeAll();
-
-////////
-//////
-////
-// These arrays work because of the Amazing IcedReaper!! Thank you for your help!
-////
-//////
-////////
-
-//Hide and Remove Items/Recipes
-var modIDs = [
+////Remove and Hide Recipes
+var modIDs as string[] = [
 	"autoverse",
 	"rebornstorage"
-] as string[];
+];
 
 for id in modIDs {
     for item in loadedMods[id].items {
@@ -21,7 +11,7 @@ for id in modIDs {
 }
 
 //Remove Recipes Only
-var modIDs2 = [
+var modIDs2 as string[] = [
 	"antiqueatlas",
 	"astikoor",
 	"dungpipe",
@@ -37,7 +27,7 @@ var modIDs2 = [
 	"totemic",
 	"prospectors",
 	"wopper"
-] as string[];
+];
 
 for id in modIDs2 {
     for item in loadedMods[id].items {

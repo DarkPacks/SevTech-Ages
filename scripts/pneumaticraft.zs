@@ -1,7 +1,7 @@
-import mods.pneumaticcraft.thermopneumaticprocessingplant as ThermopneumaticProcessingPlant;
 import mods.pneumaticcraft.assembly as Assembly;
-import mods.pneumaticcraft.refinery as Refinery;
 import mods.pneumaticcraft.liquidfuel as LiquidFuel;
+import mods.pneumaticcraft.refinery as Refinery;
+import mods.pneumaticcraft.thermopneumaticprocessingplant as ThermopneumaticProcessingPlant;
 
 ThermopneumaticProcessingPlant.removeAllRecipes();
 
@@ -10,8 +10,7 @@ Refinery.removeAllRecipes();
 /*
 	Fuels
 
-	mods.pneumaticcraft.liquidfuel.addFuel(ILiquidStack fuelLiquid, double mLPerBucket);
-	mods.pneumaticcraft.liquidfuel.removeFuel(ILiquidstack fuelLiquid);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/LiquidFuels/
 
 	Defaults:
 	LPG - 1800
@@ -26,6 +25,8 @@ LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);
 
 /*
 	Assemby
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Assembly/
 */
 //Presses available in stage 4
 Assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>); //Inscriber Logic Press

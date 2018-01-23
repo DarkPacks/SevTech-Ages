@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-//Must be item not oreDict
-var removeItems = [
+var removeItems as IItemStack[] = [
 	<betterwithmods:aesthetic:8>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
@@ -21,9 +20,7 @@ var removeItems = [
 	<roots:spellcraft_book>,
 	<rustic:fertile_soil>,
 	<tconstruct:soil>
-
-	//<minecraft:bookshelf>,
-] as IItemStack[];
+];
 
 for item in removeItems {
 	recipes.remove(item);

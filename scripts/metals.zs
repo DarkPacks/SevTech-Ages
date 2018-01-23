@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-var metalStages = {
+var metalStages as string[string] = {
 	abyssalnite: "two",
 	aluminum: "three",
 	aluminumBrass: "three",
@@ -41,7 +41,7 @@ var metalStages = {
 	steeleaf: "two",
 	tin: "one",
 	uranium: "four"
-} as string[string];
+};
 
 //Value doesnt really matter here - but just put it to true
 var partsToSkip as bool[string] = {
@@ -54,8 +54,8 @@ var partsToSkip as bool[string] = {
 function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
 
-	var modsToKeep = [
-	] as string[];
+	var modsToKeep as string[] = [
+	];
 
 	var itemOwner as string = item.definition.owner;
 	for modName in modsToKeep {
@@ -277,12 +277,12 @@ for metalName, metal in metals {
 
 	//Stage liquid containers
 	if (metalStages[metalName] != "" & hasLiquid) {
-		var liquidContainers = [
+		var liquidContainers as IItemStack[] = [
 			<ceramics:clay_bucket>,
 			<forge:bucketfilled>,
 			<thebetweenlands:syrmorite_bucket_filled>,
 			<thebetweenlands:weedwood_bucket_filled>
-		] as IItemStack[];
+		];
 
 		for liquidContainer in liquidContainers {
 			var data as IData = null;

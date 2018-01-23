@@ -1,19 +1,24 @@
 //Thank you to Dawenzel for putting this script together!
 import crafttweaker.item.IItemStack;
 
-var parts = [
+var parts as IItemStack[] = [
+	<tcomplement:chisel_head>,
 	<tconstruct:arrow_head>,
+	<tconstruct:arrow_shaft>,
 	<tconstruct:arrow_shaft>,
 	<tconstruct:axe_head>,
 	<tconstruct:binding>,
 	<tconstruct:bow_limb>,
 	<tconstruct:bow_string>,
+	<tconstruct:bow_string>,
 	<tconstruct:broad_axe_head>,
 	<tconstruct:cross_guard>,
 	<tconstruct:excavator_head>,
 	<tconstruct:fletching>,
+	<tconstruct:fletching>,
 	<tconstruct:hammer_head>,
 	<tconstruct:hand_guard>,
+	<tconstruct:kama_head>,
 	<tconstruct:knife_blade>,
 	<tconstruct:large_plate>,
 	<tconstruct:large_sword_blade>,
@@ -28,18 +33,13 @@ var parts = [
 	<tconstruct:tough_binding>,
 	<tconstruct:tough_tool_rod>,
 	<tconstruct:wide_guard>,
-	<tconstruct:kama_head>,
-	<tcomplement:chisel_head>,
-	<yoyos:yoyo_body>,
-	<yoyos:yoyo_cord>,
 	<yoyos:yoyo_axle>,
-	<tconstruct:fletching>,
-	<tconstruct:arrow_shaft>,
-	<tconstruct:bow_string>
-] as IItemStack[];
+	<yoyos:yoyo_body>,
+	<yoyos:yoyo_cord>
+];
 
 //Make sure each stage has a matching stage in the stages array!
-var materialsForStage = {
+var materialsForStage as string[][string] = {
 	STAGES.one : [
 		"bone",
 		"cactus",
@@ -96,7 +96,7 @@ var materialsForStage = {
 		"ma.superium",
 		"ma.supremium"
 	]
-} as string[][string];
+};
 
 for part in parts {
 	for stage, materials in materialsForStage {

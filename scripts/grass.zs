@@ -1,10 +1,17 @@
-//vanilla.seeds.removeSeed(<Natura:barley.seed:*>);
+/*
+	Seeds
 
+	http://crafttweaker.readthedocs.io/en/latest/#Vanilla/Recipes/Seeds/#seeds
+*/
+var seedsToRemove as IItemStack[] = [
+	<betterwithmods:hemp>,
+	<minecraft:beetroot_seeds>,
+	<minecraft:melon_seeds>,
+	<minecraft:pumpkin_seeds>,
+	<minecraft:stick>,
+	<minecraft:wheat_seeds>
+];
 
-
-vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
-vanilla.seeds.removeSeed(<minecraft:pumpkin_seeds>);
-vanilla.seeds.removeSeed(<minecraft:melon_seeds>);
-vanilla.seeds.removeSeed(<minecraft:beetroot_seeds>);
-vanilla.seeds.removeSeed(<minecraft:stick>);
-vanilla.seeds.removeSeed(<betterwithmods:hemp>);
+for seed in seedsToRemove {
+	vanilla.seeds.removeSeed(seed);
+}

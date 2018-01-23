@@ -1,39 +1,15 @@
 import crafttweaker.item.IItemStack;
 
+import mods.extendedcrafting.TableCrafting;
+
 /*
-// Extended Crafting CraftTweaker syntax
-// Combination crafting
-// rfPerTick is pretty much used to say how many ticks it should take to craft (rfCost/rfPerTick), might make it optional and add a configurable default for C O N V E N I E N C E
-// inputStack is the item you put on the Crafting Core
-// pedestalStack is one of the items you place on a pedestal to be combined with the input; you can have up to 48 of these, not sure why anyone would want that (and you probably wouldnt be able to see the ingredients in jei)
-mods.extendedcrafting.CombinationCrafting.addRecipe(<outputStack>, rfCost, rfPerTick, <inputStack>, [<pedestalStack>, <pedestalStack>]);
+	Table Crafting
 
-// Table Crafting
-// Shapeless - this is the same for all of them, with the size of the input deciding which table it's for, max is 81 stacks
-// I most likely will make it so you can optionally set a recipe to a specific tier
-mods.extendedcrafting.TableCrafting.addShapeless(<outputStack>, [<inputStack>, <inputStack>]);
-
-// Shaped - same syntax for all of them, also note that the recipes will work in all the tables with enough slots
-// Probably gonna add the ability to set a tier for these as well
-mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>], [<>, <>, <>, <>, <>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<>, [[<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>], [<>, <>, <>, <>, <>, <>, <>, <>, <>]]);
-
-// Compression crafting
-// inputStack is the stack that gets consumed, inputCount is how much of that stack is required to make the thing
-// catalystStack is the recipe identifier item, does not get consumed (might make it possible to be though)
-// rfCost is how much RF is needed to convert the input into the output once the correct inputCount is met
-// Currently the compressor runs at 500rf a tick and I need to make it changeable on a per recipe basis still
-mods.extendedcrafting.CompressionCrafting.addRecipe(<outputStack>, <inputStack>, inputCount, <catalystStack>, rfCost);
+	https://github.com/BlakeBr0/ExtendedCrafting/wiki/Table-Crafting
 */
-
-recipes.remove(<vc:airship_ignition>);
-recipes.remove(<vc:airship_engine>);
-recipes.remove(<vc:airship_balloon>);
-
 //Viescraft Airship Ignition
-mods.extendedcrafting.TableCrafting.addShaped(
+recipes.remove(<vc:airship_ignition>);
+TableCrafting.addShaped(
 	<vc:airship_ignition>,
 	[
 		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod>, metals.iron.plate, metals.iron.plate],
@@ -45,7 +21,8 @@ mods.extendedcrafting.TableCrafting.addShaped(
 );
 
 //Viescraft Ship Engine
-mods.extendedcrafting.TableCrafting.addShaped(
+recipes.remove(<vc:airship_engine>);
+TableCrafting.addShaped(
 	<vc:airship_engine>,
 	[
 		[metals.steel.plate, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>, metals.steel.plate],
@@ -57,7 +34,8 @@ mods.extendedcrafting.TableCrafting.addShaped(
 );
 
 //Viescraft Ship Balloon
-mods.extendedcrafting.TableCrafting.addShaped(
+recipes.remove(<vc:airship_balloon>);
+TableCrafting.addShaped(
 	<vc:airship_balloon>,
 	[
 		[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>],
@@ -69,7 +47,7 @@ mods.extendedcrafting.TableCrafting.addShaped(
 );
 
 //Stage 4 Machine Frame
-mods.extendedcrafting.TableCrafting.addShaped(
+TableCrafting.addShaped(
 	<teslacorelib:machine_case>,
 	[
 		[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate],
@@ -80,20 +58,12 @@ mods.extendedcrafting.TableCrafting.addShaped(
 	]
 );
 
-//
-//
-//Compression
-//
-//
+/*
+	Compression Crafting
 
-// Compression crafting
-// inputStack is the stack that gets consumed, inputCount is how much of that stack is required to make the thing
-// catalystStack is the recipe identifier item, does not get consumed (might make it possible to be though)
-// rfCost is how much RF is needed to convert the input into the output once the correct inputCount is met
-// Currently the compressor runs at 500rf a tick and I need to make it changeable on a per recipe basis still
-//mods.extendedcrafting.CompressionCrafting.addRecipe(<outputStack>, <inputStack>, inputCount, <catalystStack>, rfCost);
-
-// [<firstOutput>, <firstInput>]
+	https://github.com/BlakeBr0/ExtendedCrafting/wiki/Compression-Crafting
+*/
+//[<firstOutput>, <firstInput>]
 var compressionCraftingPairs = [
 	[<overloaded:compressed_cobblestone>, <minecraft:cobblestone>],
 	[<overloaded:compressed_obsidian>, <minecraft:obsidian>],

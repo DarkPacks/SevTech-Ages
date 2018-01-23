@@ -2,45 +2,63 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
-	<ironbackpacks:upgrade>,
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
-	<abyssalcraft:eggp>,
-	<abyssalcraft:ironp>,
-	<abyssalcraft:chickenp>,
-	<abyssalcraft:porkp>,
 	<abyssalcraft:beefp>,
+	<abyssalcraft:chickenp>,
+	<abyssalcraft:eggp>,
 	<abyssalcraft:fishp>,
+	<abyssalcraft:ironp>,
+	<abyssalcraft:porkp>,
 	<actuallyadditions:block_misc:5>,
+	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
 	<actuallyadditions:item_misc:17>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
-	<betterwithmods:stump_remover>,
-	<betterwithmods:material:31>,
-	<betterwithmods:material:32>,
-	<betterwithmods:material:33>,
 	<betterwithmods:material:6>,
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
+	<betterwithmods:material:31>,
+	<betterwithmods:material:32>,
+	<betterwithmods:material:33>,
 	<betterwithmods:stump:*>,
-	<immcraft:bookstand>,
+	<betterwithmods:stump_remover>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
 	<embers:block_furnace>,
+	<embers:plate_caminite_raw>,
+	<immcraft:bookstand>,
 	<immcraft:furnace>,
-	<minecraft:wooden_sword>,
-	<minecraft:wooden_shovel>,
-	<minecraft:wooden_pickaxe>,
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
+	<ironbackpacks:upgrade>,
 	<minecraft:wooden_axe>,
 	<minecraft:wooden_hoe>,
+	<minecraft:wooden_pickaxe>,
+	<minecraft:wooden_shovel>,
+	<minecraft:wooden_sword>,
+	<modularmachinery:blockinputbus:0>,
+	<modularmachinery:blockoutputbus:0>,
+	<pickletweaks:grass_fiber>,
+	<quark:obsidian_pressure_plate>,
+	<rustic:fertile_soil>,
+	<stevescarts:modulecomponents:9>,
+	<storagedrawers:basicdrawers:*>,
+	<totemic:medicine_bag>,
+
+	//Nuggets
+	//TODO: Unify/handle these with a better removal
+	<betterwithmods:material:46>,
+	<mysticalagradditions:insanium:3>,
+	<mysticalagriculture:crafting:45>,  //Soulium Nugget
+
+	//Natura
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,
 	<natura:amaranth_trap_door>,
@@ -93,24 +111,6 @@ var removeAndHideItems as IItemStack[] = [
 	<natura:willow_button>,
 	<natura:willow_pressure_plate>,
 	<natura:willow_trap_door>,
-	<quark:obsidian_pressure_plate>,
-	<rustic:fertile_soil>,
-	<storagedrawers:basicdrawers:*>,
-	<totemic:medicine_bag>,
-	<modularmachinery:blockinputbus:0>,
-	<modularmachinery:blockoutputbus:0>,
-	<stevescarts:modulecomponents:9>,
-	<embers:plate_caminite_raw>,
-	<pickletweaks:grass_fiber>,
-
-	//Nuggets
-	<betterwithmods:material:46>,
-	<mysticalagradditions:insanium:3>,
-	<mysticalagriculture:crafting:45>,  //Soulium Nugget
-
-	<appliedenergistics2:material:21>, //Inscriber Name Press
-	<appliedenergistics2:vibration_chamber>,
-	<appliedenergistics2:material:45>, //Skystone Dust
 
 	//Pneumaticraft
 	<pneumaticcraft:refinery>,
@@ -121,10 +121,13 @@ var removeAndHideItems as IItemStack[] = [
 	<buildcraftcore:spring>,
 
 	//Cooking for Blockheads
-	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:cow_jar>,
+	<cookingforblockheads:milk_jar>,
 
-	<actuallyadditions:item_misc:4>,
+	//Applied Energistics
+	<appliedenergistics2:material:21>, //Inscriber Name Press
+	<appliedenergistics2:material:45>, //Skystone Dust
+	<appliedenergistics2:vibration_chamber>,
 
 	//The beginning of bringing down the Minecraft community as we know it
 	//by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM

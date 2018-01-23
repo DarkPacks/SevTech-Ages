@@ -2,18 +2,18 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-/*
-	mods.primaltech.StoneAnvil.addRecipe(Itemstack output, IIngredient input);
-	mods.primaltech.ClayKiln.addRecipe(IItemStack output, IIngredient input, int cooktime);
-	mods.primaltech.WaterSaw.addRecipe(IItemStack output, IIngredient input, int chopTime);
-	mods.primaltech.WoodenBasin.addRecipe(IItemStack output, ILiquidStack inputFluid, IIngredient[] ingredients);
-*/
+import mods.primaltech.ClayKiln;
+import mods.primaltech.StoneAnvil;
+import mods.primaltech.WaterSaw;
+import mods.primaltech.WoodenBasin;
 
 /*
 	Clay Kiln
+
+	mods.primaltech.ClayKiln.addRecipe(IItemStack output, IIngredient input, int cooktime);
 */
 var defaultKilnCookTime as int = 200;
-var defaultKilnCookTimeRecipes = {
+var defaultKilnCookTimeRecipes as IItemStack[][IItemStack] = {
 	<betterwithmods:cooking_pot:1>: [
 		<progressiontweaks:unfired_clay_bowl>
 	],
@@ -53,56 +53,61 @@ var defaultKilnCookTimeRecipes = {
 	<tconstruct:materials>: [
 		<tconstruct:soil>
 	]
-} as IItemStack[][IItemStack];
+};
 
 for output, inputs in defaultKilnCookTimeRecipes {
 	for input in inputs {
-		mods.primaltech.ClayKiln.addRecipe(output, input, defaultKilnCookTime);
+		ClayKiln.addRecipe(output, input, defaultKilnCookTime);
 	}
 }
 
 //Add all logs to kiln to make low grade charcoal
 for log in <ore:logWood>.items {
-	mods.primaltech.ClayKiln.addRecipe(<primal_tech:charcoal_block>, log, defaultKilnCookTime);
+	ClayKiln.addRecipe(<primal_tech:charcoal_block>, log, defaultKilnCookTime);
 }
 
 /*
 	Stone Anvil
+
+	mods.primaltech.StoneAnvil.addRecipe(Itemstack output, IIngredient input);
 */
-var stoneAnvilPair = [
+//[output, input]
+var stoneAnvilPair as IItemStack[][] = [
 	[<embers:plate_caminite>, <embers:brick_caminite>],
 	[<minecraft:flint> * 4, <primal_tech:flint_block>],
 	[<materialpart:stone:nugget>, stone]
-] as IItemStack[][];
+];
 
 for pair in stoneAnvilPair {
-	mods.primaltech.StoneAnvil.addRecipe(pair[0], pair[1]);
+	StoneAnvil.addRecipe(pair[0], pair[1]);
 }
 
 /*
 	Water Powered Saw
+
+	mods.primaltech.WaterSaw.addRecipe(IItemStack output, IIngredient input, int chopTime);
 */
 var defaultWaterSawChopTime as int = 80;
-var defaultWaterSawChopTimeRecipes = [
+var defaultWaterSawChopTimeRecipes as IItemStack[][] = [
 	[<minecraft:planks> * 4, <minecraft:log>],
 	[<minecraft:planks:1> * 4, <minecraft:log:1>],
 	[<minecraft:planks:2> * 4, <minecraft:log:2>],
 	[<minecraft:planks:3> * 4, <minecraft:log:3>],
 	[<minecraft:planks:4> * 4, <minecraft:log2>],
 	[<minecraft:planks:5> * 4, <minecraft:log2:1>]
-] as IItemStack[][];
+];
 
 for pair in defaultWaterSawChopTimeRecipes {
-	mods.primaltech.WaterSaw.addRecipe(pair[0], pair[1], defaultWaterSawChopTime);
+	WaterSaw.addRecipe(pair[0], pair[1], defaultWaterSawChopTime);
 }
 
 /*
 	Wooden Basin
-	# output, input syntax is: modName:itemName,metaData,outputAmount#fluidName#modName:itemName,metaData (up to 4 input Items seperated with commas
-*/
 
+	mods.primaltech.WoodenBasin.addRecipe(IItemStack output, ILiquidStack inputFluid, IIngredient[] ingredients);
+*/
 var defaultWoodenBasinFluid as ILiquidStack = <liquid:water>;
-var defaultWoodenBasinRecipes = {
+var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 	<actuallyadditions:item_misc:9> * 3: [
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>],
@@ -175,10 +180,10 @@ var defaultWoodenBasinRecipes = {
 		[<betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:12>, <betterwithmods:material:22>],
 		[<betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:12>]
 	]
-} as IIngredient[][][IItemStack];
+};
 
 for output, inputs in defaultWoodenBasinRecipes {
 	for inputIngredients in inputs {
-		mods.primaltech.WoodenBasin.addRecipe(output, defaultWoodenBasinFluid, inputIngredients);
+		WoodenBasin.addRecipe(output, defaultWoodenBasinFluid, inputIngredients);
 	}
 }

@@ -1,46 +1,26 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-/*
-mods.tconstruct.Casting.addTableRecipe(output>, input, fluid, time);
-mods.tconstruct.Casting.addBasinRecipe(output, input, fluid, time);
-mods.tconstruct.Casting.addTableRecipe(output>, input, fluid, time, consumeCast);
-mods.tconstruct.Casting.addBasinRecipe(output, input, fluid, time, consumeCast);
-
-mods.tconstruct.Casting.removeTableRecipe(output);
-mods.tconstruct.Casting.removeBasinRecipe(output);
-
-
-mods.tconstruct.Casting.addTableRecipe(<minecraft:diamond>, <minecraft:dirt>, <liquid:cryotheum>, 50);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:grass>, <minecraft:glass>, <liquid:obsidian>, 50);
-mods.tconstruct.Casting.addTableRecipe(<minecraft:diamond>, <minecraft:gold_nugget>, <liquid:cryotheum>, 50, true);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:grass>, <minecraft:gold_nugget>, <liquid:obsidian>, 50, true);
-
-mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_nugget>);
-mods.tconstruct.Casting.removeBasinRecipe(<minecraft:iron_block>);
-*/
+import mods.tconstruct.Alloy;
+import mods.tconstruct.Casting;
+import mods.tconstruct.Melting;
 
 /*
-mods.tconstruct.Melting.addRecipe(<liquid:cryotheum>, <minecraft:glass>);
-mods.tconstruct.Melting.removeRecipe(<liquid:obsidian>);
-
-mods.tconstruct.Melting.addRecipe(output, input);
-mods.tconstruct.Melting.removeRecipe(output);
+	Cast Creation
 */
-
-//[<cast>, <consumedItem>]
-var castCreationRecipes = [
+//[IItemStack cast, IItemStack consumedItem]
+var castCreationRecipes as IItemStack[][] = [
 	[<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>], //Gem cast with Astral Sorcery Aquamarine
 	//Gear Cast Allows Stone now. You're welcome. -________________- Oh, it's also made from stone so all the people don't get upset with me and call me names or tell me I don't know rocket surgery.
 	[<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>],
 	[<tconstruct:cast_custom:1>, <materialpart:stone:nugget>]
-] as IItemStack[][];
+];
 
-var castLiquids = [
+var castLiquids as ILiquidStack[] = [
 	metalItems.gold.liquid.liquids[0],
 	<liquid:brass>,
 	metalItems.aluminumBrass.liquid.liquids[0]
-] as ILiquidStack[];
+];
 
 for castCreationRecipe in castCreationRecipes {
 	for castLiquid in castLiquids {
@@ -49,13 +29,16 @@ for castCreationRecipe in castCreationRecipes {
 			liquidAmount = 288;
 		}
 
-		mods.tconstruct.Casting.addTableRecipe(castCreationRecipe[0], castCreationRecipe[1], castLiquid, liquidAmount, true);
+		Casting.addTableRecipe(castCreationRecipe[0], castCreationRecipe[1], castLiquid, liquidAmount, true);
 	}
 }
 
-//Spartan Shields
-//As long as the metal is in the metals global stuff, this will work without any modifications
-var shieldMetals = [
+/*
+	Spartan Shields
+
+	As long as the metal is in the metals global stuff, this will work without any modifications
+*/
+var shieldMetals as string[] = [
 	"bronze",
 	"steel",
 	"copper",
@@ -69,100 +52,120 @@ var shieldMetals = [
 	"obsidian",
 	"lead",
 	"invar"
-] as string[];
+];
 
 for shieldMetal in shieldMetals {
 	var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$")[0];
 	var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
-	mods.tconstruct.Casting.addTableRecipe(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);
+
+	Casting.addTableRecipe(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);
 }
 
-mods.tconstruct.Casting.removeTableRecipe(<minecraft:glass_pane>);
-mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_pane>, null, <liquid:glass>, 500);
+/*
+	Casting
 
-mods.tconstruct.Casting.removeBasinRecipe(<tconstruct:clear_glass>);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/TConstruct/Casting/
+*/
+Casting.removeTableRecipe(<minecraft:glass_pane>);
+Casting.addTableRecipe(<minecraft:glass_pane>, null, <liquid:glass>, 500);
 
-//Casting
-mods.tconstruct.Casting.addTableRecipe(<minecraft:ender_pearl>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:ender_pearl>, 250, false);
-mods.tconstruct.Casting.addBasinRecipe(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>, 2250);
+Casting.removeBasinRecipe(<tconstruct:clear_glass>);
+Casting.addBasinRecipe(<minecraft:glass>, null, <liquid:glass>, 1000);
 
-mods.tconstruct.Casting.addTableRecipe(metals.steeleaf.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
+Casting.addTableRecipe(<minecraft:ender_pearl>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:ender_pearl>, 250, false);
+Casting.addBasinRecipe(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>, 2250);
 
-mods.tconstruct.Casting.addTableRecipe(metals.fiery.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
+Casting.addTableRecipe(metals.steeleaf.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
 
-//Melting
-mods.tconstruct.Melting.addRecipe(<liquid:ender_pearl> * 250, <appliedenergistics2:material:46>);
-
-//New seared stone mechanic
-mods.tconstruct.Melting.removeRecipe(<liquid:stone>);
-
-mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <tconstruct:soil:0>);
-mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <tconstruct:materials>);
-mods.tconstruct.Melting.addRecipe(<liquid:stone> * 288, <tconstruct:seared:*>);
-
-//Remove Constantan Alloying
-mods.tconstruct.Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
-
-//Platinum Ore
-mods.tconstruct.Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <geolosys:cluster:8>);
-
-//Liquid Glowstone
-mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
-mods.tconstruct.Melting.addRecipe(<liquid:glowstone> * 400, <minecraft:glowstone>);
-mods.tconstruct.Casting.addTableRecipe(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glowstone>, 400);
-
-//Liquid Redstone
-mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
-mods.tconstruct.Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
-mods.tconstruct.Casting.addTableRecipe(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900);
-
-//Redstone Alloy Creation
-mods.tconstruct.Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);
+Casting.addTableRecipe(metals.fiery.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
 
 //Redstone Alloy Rod
-mods.tconstruct.Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
+//TODO: Is this being handled by metals?
+Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
 
 //Nugget Removal
-mods.tconstruct.Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //Soulium Nugget
-
-//Modularium
-mods.tconstruct.Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);
+Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //Soulium Nugget
 
 //Iron Chests
-mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0] * 1152, 300, true);
-mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0] * 1152, 300, true);
-mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0] * 1152, 300, true);
-mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
-mods.tconstruct.Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0] * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0] * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0] * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
 
-//Steves Carts
-mods.tconstruct.Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);
-mods.tconstruct.Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
-mods.tconstruct.Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);
+/*
+	Melting
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/TConstruct/Melting/
+*/
+Melting.addRecipe(<liquid:ender_pearl> * 250, <appliedenergistics2:material:46>);
+
+//Platinum Ore
+//TODO: Loop over oredict instead (and ensure ore is unified)
+Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <geolosys:cluster:8>);
+
+//New seared stone mechanic
+Melting.removeRecipe(<liquid:stone>);
+Melting.addRecipe(<liquid:stone> * 72, <tconstruct:soil:0>);
+Melting.addRecipe(<liquid:stone> * 72, <tconstruct:materials>);
+Melting.addRecipe(<liquid:stone> * 288, <tconstruct:seared:*>);
+
+//Steves Carts' Metals
+Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);
+Melting.addRecipe(metalItems.galgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:46>);
+Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescarts:modulecomponents:21>);
 
 /*
 	Fixes so all glass is same melting temp.
 	I'm doing this against my better judgement because I don't want to hear players complaining about how it's impossible to make glass in stage 2 even though it's 100% possible already.
 */
-mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:red_sand_pile>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 250, <quark:glass_shards>);
+Melting.removeRecipe(<liquid:glass>);
+Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>, 493);
+Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:red_sand_pile>, 493);
+Melting.addRecipe(<liquid:glass> * 250, <quark:glass_shards>);
 
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand>, 493);
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand:1>, 493);
+Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand>, 493);
+Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand:1>, 493);
 
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000, <minecraft:glass>);
+Melting.addRecipe(<liquid:glass> * 1000, <minecraft:glass>);
 
+//TODO: Loop over oredict instead?
 for i in 0 to 16 {
-	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass>.definition.makeStack(i), 493);
+	Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass>.definition.makeStack(i), 493);
 }
 
-mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:glass_pane>, 493);
+Melting.addRecipe(<liquid:glass> * 375, <minecraft:glass_pane>, 493);
 
+//TODO: Loop over oredict instead?
 for i in 0 to 16 {
-	mods.tconstruct.Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>.definition.makeStack(i), 493);
+	Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>.definition.makeStack(i), 493);
 }
+
+/*
+	Alloying
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/TConstruct/Alloying/
+*/
+//Remove Constantan Alloying
+Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
+
+//Redstone Alloy Creation
+Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);
+
+//Modularium
+Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);
+
+/*
+	Combined stuff
+*/
+//Liquid Glowstone
+Melting.addRecipe(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
+Melting.addRecipe(<liquid:glowstone> * 400, <minecraft:glowstone>);
+Casting.addTableRecipe(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
+Casting.addBasinRecipe(<minecraft:glowstone>, null, <liquid:glowstone>, 400);
+
+//Liquid Redstone
+Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
+Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
+Casting.addTableRecipe(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
+Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900);

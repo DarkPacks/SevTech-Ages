@@ -239,9 +239,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<rftools:dimensional_shard_ore>, <minecraft:magma>],
 		[<rftools:dimensional_shard_ore:1>, <minecraft:glowstone>],
 		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone>]
-
-  		//Soulstone
-		//[<mysticalagriculture:soulstone>, <minecraft:netherrack>]
   	]
 };
 

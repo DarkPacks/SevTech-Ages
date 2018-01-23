@@ -1,12 +1,12 @@
 import crafttweaker.item.IItemStack;
 
-var metelItemsToRemove = [
+var metelItemsToRemove as IItemStack[] = [
 	//Brass
 	<primal:brass_dust>,
 	<primal:brass_plate>,
 	<primal:brass_nugget>,
 	<primal:brass_ingot>,
-] as IItemStack[];
+];
 
 for metalItem in metelItemsToRemove {
 	mods.jei.JEI.removeAndHide(metalItem);
@@ -16,13 +16,13 @@ for metalItem in metelItemsToRemove {
 	}
 }
 
-var metalItemsPending = [
+var metalItemsPending as IItemStack[] = [
 	//Mithril
 	<embers:ingot_mithril>,
 	<embers:nugget_mithril>,
 	<embers:plate_mithril>,
 	<embers:block_mithril>,
-] as IItemStack[];
+];
 
 for metalItem in metalItemsPending {
 	recipes.remove(metalItem);

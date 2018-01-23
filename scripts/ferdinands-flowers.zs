@@ -5,7 +5,6 @@ import crafttweaker.item.IItemStack;
 
 	Thanks to Neosghost for pairing everything up!
 */
-
 var flowersForDye as IItemStack[][IItemStack] = {
 	<pickletweaks:dye_powder> : [
 		<ferdinandsflowers:block_cff_desert:11>,

@@ -1,94 +1,118 @@
 import crafttweaker.item.IItemStack;
 
-//@param input (Block) - May not be null. @param output (Block) - Can be null. @param extra_materials (ItemStack[]) - Optional.
+import mods.betterwithaddons.Condensed;
+import mods.betterwithaddons.SoakingBox;
+import mods.betterwithaddons.Spindle;
+import mods.betterwithmods.Cauldron;
+import mods.betterwithmods.Mill;
+import mods.betterwithmods.StokedCauldron;
+import mods.betterwithmods.Turntable;
 
-mods.betterwithmods.Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
-mods.betterwithmods.Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
+/*
+	Turntable
 
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Turntable/
+*/
+Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
+Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
+
+/*
+	Mill
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Mill/
+*/
 //Rice Flour
-mods.betterwithmods.Mill.add(<betterwithaddons:japanmat:4>, null, [<actuallyadditions:item_food:16>]);
-mods.betterwithmods.Mill.add(<ceramics:unfired_clay:4>, null, [<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>]);
+Mill.add(<betterwithaddons:japanmat:4>, null, [<actuallyadditions:item_food:16>]);
 
-mods.betterwithmods.Mill.add(<tconstruct:soil> * 2, null, [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>]);
-
+Mill.add(<ceramics:unfired_clay:4>, null, [<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>]);
+Mill.add(<tconstruct:soil> * 2, null, [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>]);
 
 //THERE CAN BE ONLY 1 FLOUR!
-mods.betterwithmods.Mill.remove(<betterwithmods:raw_pastry:3>);
+Mill.remove(<betterwithmods:raw_pastry:3>);
 
-mods.betterwithmods.Mill.add(<horsepower:flour>, null, [<minecraft:wheat>]);
-mods.betterwithmods.Mill.add(<horsepower:flour>, null, [<natura:materials>]);
+Mill.add(<horsepower:flour>, null, [<minecraft:wheat>]);
+Mill.add(<horsepower:flour>, null, [<natura:materials>]);
 
-mods.betterwithmods.Mill.add(<embers:archaic_brick> * 4, null, [<embers:archaic_bricks>]);
-mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:7>, null, [<actuallyadditions:block_misc:3>]);
-mods.betterwithmods.Mill.add(<embers:shard_ember> * 9, null, [<embers:crystal_ember>]);
-mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>]);
+Mill.add(<embers:archaic_brick> * 4, null, [<embers:archaic_bricks>]);
+Mill.add(<actuallyadditions:item_dust:7>, null, [<actuallyadditions:block_misc:3>]);
+Mill.add(<embers:shard_ember> * 9, null, [<embers:crystal_ember>]);
+Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>]);
 
-mods.betterwithmods.Mill.add(<minecraft:flint> * 2, null, [<primal_tech:flint_block>]);
+Mill.add(<minecraft:flint> * 2, null, [<primal_tech:flint_block>]);
 
-mods.betterwithmods.Mill.add(<minecraft:coal:1> * 9, null, [<charcoalblock:charcoal_block>]);
-mods.betterwithmods.Mill.add(<minecraft:coal> * 9, null, [<minecraft:coal_block>]);
+Mill.add(<minecraft:coal:1> * 9, null, [<charcoalblock:charcoal_block>]);
+Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
+Mill.add(<minecraft:coal> * 9, null, [<minecraft:coal_block>]);
 
-mods.betterwithmods.Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cobblestone>]);
+Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cobblestone>]);
 
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
+Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
+Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
+Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
+Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
+Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
+Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
+Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
+Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
 
-mods.betterwithmods.Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
+Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
 
-mods.betterwithmods.Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
-
-mods.betterwithmods.Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
-
-mods.betterwithmods.Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
+Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
 
 for bark in <ore:barkWood>.items {
-	mods.betterwithmods.Mill.add(<primal:tannin_ground> * 2, null, [bark]);
+	Mill.add(<primal:tannin_ground> * 2, null, [bark]);
 }
 
 /*
-mods.betterwithaddons.SoakingBox.add(IItemStack output, IItemStack input);
-mods.betterwithaddons.SoakingBox.remove(IItemStack input);
+	Soaking Box
+
+	https://github.com/DaedalusGame/BetterWithAddons/wiki/CraftTweaker-Support#soaking-unit
 */
+SoakingBox.remove(<betterwithaddons:log_mulberry>);
+SoakingBox.remove(<betterwithaddons:japanmat:36>);
 
-mods.betterwithaddons.SoakingBox.remove(<betterwithaddons:log_mulberry>);
-mods.betterwithaddons.SoakingBox.remove(<betterwithaddons:japanmat:36>);
+/*
+	Spindle
+*/
+Spindle.add([<primal:leather_cordage>], <primal:leather_strip> * 4, false);
 
-//Spindle
-//mods.betterwithaddons.Spindle.add([<output1>,<output2>,...],<input>,popoff)
-
-mods.betterwithaddons.Spindle.add([<primal:leather_cordage>],<primal:leather_strip> * 4, false);
-
+/*
+	Condensed
+*/
 //Using Spindle Drops Spindle when crafted
-mods.betterwithaddons.Condensed.setContainer(<betterwithaddons:bolt>,<betterwithaddons:spindle>);
+Condensed.setContainer(<betterwithaddons:bolt>, <betterwithaddons:spindle>);
 
-//Cauldron
-//mods.betterwithmods.Cauldron.add(output, secondary_output, input[])
-mods.betterwithmods.Cauldron.add(<betterwithmods:material:12>, null, [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
-mods.betterwithmods.Cauldron.add(<betterwithmods:material:12>, null, [<ore:pelt>]);
-mods.betterwithmods.Cauldron.add(<betterwithmods:material:12> * 2, null, [<ore:peltLarge>]);
-mods.betterwithmods.Cauldron.add(<betterwithmods:material:12>, null, [<animalium:wild_dog_pelt>]);
-mods.betterwithmods.Cauldron.remove(<betterwithmods:material:6>);
+/*
+	Cauldron
 
-mods.betterwithmods.Cauldron.remove(<rustic:tallow>);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Cauldron/
+*/
+Cauldron.add(<betterwithmods:material:12>, null, [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
+Cauldron.add(<betterwithmods:material:12>, null, [<ore:pelt>]);
+Cauldron.add(<betterwithmods:material:12> * 2, null, [<ore:peltLarge>]);
+Cauldron.add(<betterwithmods:material:12>, null, [<animalium:wild_dog_pelt>]);
+Cauldron.remove(<betterwithmods:material:6>);
+Cauldron.remove(<rustic:tallow>);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
-mods.betterwithmods.Cauldron.remove(<betterwithaddons:laxative>);
-mods.betterwithmods.Cauldron.add(<betterwithaddons:laxative>, null, [<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
+Cauldron.remove(<betterwithaddons:laxative>);
+Cauldron.add(<betterwithaddons:laxative>, null, [<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
 
-//Stoked Cauldron
-mods.betterwithmods.StokedCauldron.remove(<betterwithmods:material:12>);
+/*
+	Stoked Cauldron
 
-//I'm pretty sure this doesn't actually work but I'm leaving it here for now
-mods.betterwithmods.StokedCauldron.remove(<minecraft:glass>);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/StokedCauldron/
+*/
+StokedCauldron.remove(<betterwithmods:material:12>);
 
-//Saw
-//mods.betterwithmods.Saw.add(IItemStack[] output, IItemStack input);
-//mods.betterwithmods.Saw.add([<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,<minecraft:stick>,], <minecraft:fence>);
+//TODO: I'm pretty sure this doesn't actually work but I'm leaving it here for now
+StokedCauldron.remove(<minecraft:glass>);
+
+/*
+	Saw
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
+*/
 var sawRemovals = [
 	//Sawing Corners only give 1 gear instead of 2
 	<betterwithmods:rustic_compat_corner>,
@@ -236,7 +260,3 @@ for item in sawRemovals {
 for input in sawRecipes {
 	mods.betterwithmods.Saw.add(sawRecipes[input], input);
 }
-
-
-
-

@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var hardnessItems = {
+var hardnessItems as float[IItemStack] = {
 	<geolosys:ore> : 6,
 	<geolosys:ore:1> : 6,
 	<geolosys:ore:2> : 4,
@@ -27,11 +27,8 @@ var hardnessItems = {
 	<primal:scoria_stone:0> : 2,
 	<mysticalagriculture:soulstone:0> : 2,
 	<primal:earthwax_block:0> : 2
-} as float[IItemStack];
+};
 
 for item in hardnessItems {
 	item.hardness = hardnessItems[item];
 }
-
-
-

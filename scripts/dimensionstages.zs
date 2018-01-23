@@ -19,7 +19,7 @@ mods.DimensionStages.addDimensionStage(STAGES.four, 1);
 //AE2 Spatial Storage
 mods.DimensionStages.addDimensionStage(STAGES.five, 2);
 
-//abyssalcraft
+//Abyssalcraft
 mods.DimensionStages.addDimensionStage(STAGES.one, 50);
 mods.DimensionStages.addDimensionStage(STAGES.one, 51);
 mods.DimensionStages.addDimensionStage(STAGES.one, 52);

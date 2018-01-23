@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 
 //<minecraft:chest>.displayName = "Storage Box";
 
-var renameArray = {
+var renameArray as string[IItemStack] = {
 	<primal:hide_tanned> : "Wet Tanned Hide",
 
 	<betterwithaddons:japanmat:4> : "Rice Flour",
@@ -18,7 +18,7 @@ var renameArray = {
 	<natura:materials:5> : "Baykok's Rib",
 
 	<betterbuilderswands:wanddiamond> : "Platinum Wand"
-} as string[IItemStack];
+};
 
 for item in renameArray {
 	item.displayName = renameArray[item];

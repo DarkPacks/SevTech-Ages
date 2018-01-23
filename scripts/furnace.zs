@@ -1,25 +1,22 @@
 import crafttweaker.item.IItemStack;
 
 var outputToRemove as IItemStack[] = [
+	<abyssalcraft:friedegg>,
 	<actuallyadditions:item_food:15>,
 	<actuallyadditions:item_misc:5>,
-
-	//Ceramics
 	<ceramics:clay_barrel:1>,
 	<ceramics:clay_barrel>,
 	<ceramics:clay_bucket>,
-
 	<embers:plate_caminite>,
 	<improvedbackpacks:tanned_leather>,
+	<industrialforegoing:plastic>,
 	<minecraft:bread>,
 	<minecraft:brick>,
 	<minecraft:coal:1>, //Charcoal Revamp
 	<minecraft:glass>, //Glass Revamp
 	<minecraft:leather>,
 	<minecraft:netherbrick>,
-	<primal:carbonate_stone>,
-	<industrialforegoing:plastic>,
-	<abyssalcraft:friedegg>
+	<primal:carbonate_stone>
 ];
 
 for item in outputToRemove {

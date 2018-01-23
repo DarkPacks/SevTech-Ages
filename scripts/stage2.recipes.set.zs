@@ -16,21 +16,44 @@ for id in modIDs {
 }
 
 var itemsForStage as IIngredient[] = [
-	<abyssalcraft:ahoe>,
-	<abyssalcraft:corhoe>,
-	<abyssalcraft:dreadiumhoe>,
-	<abyssalcraft:ethaxiumhoe>,
 	<betterwithmods:metal_chime:*>,
-	<chisel:chisel_iron>,
+	<bibliocraft:recipebook>,
+	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
 	<cyclicmagic:gold_minecart>,
 	<cyclicmagic:stone_minecart>,
+	<extendedcrafting:handheld_table>,
+	<pneumaticcraft:liquid_hopper>,
+	<quark:glass_item_frame>,
+	<yoyos:book>,
+
+	/*
+		Items by "type"
+	*/
+	//Redstone
+	<abyssalcraft:abypplate>,
+	<abyssalcraft:cstonepplate>,
+	<abyssalcraft:dltpplate>,
+	<abyssalcraft:dspplate>,
+	<minecraft:lever>,
+	<minecraft:stone_pressure_plate>,
+	<minecraft:wooden_pressure_plate>,
+
+	//TComplement Melter Changes for Stage 2 / Twilight Access
+	<tcomplement:materials>,
+	<tconstruct:toolforge>,
+	<tconstruct:tooltables>,
+
+	/*
+		Items by mod
+	*/
+	//Minecraft
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
 	<minecraft:banner:*>,
 	<minecraft:bookshelf>,
-	<minecraft:map>,
 	<minecraft:bow>,
 	<minecraft:carpet:*>,
+	<minecraft:carrot_on_a_stick>,
 	<minecraft:cauldron>,
 	<minecraft:chainmail_boots>,
 	<minecraft:chainmail_chestplate>,
@@ -47,7 +70,9 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:iron_bars>,
 	<minecraft:iron_door>,
 	<minecraft:iron_trapdoor>,
+	<minecraft:map>,
 	<minecraft:minecart>,
+	<minecraft:painting>,
 	<minecraft:redstone>,
 	<minecraft:redstone_block>,
 	<minecraft:shears>,
@@ -56,89 +81,70 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:stonebrick:*>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
-	<minecraft:painting>,
-	<quark:glass_item_frame>,
-	<minecraft:carrot_on_a_stick>,
-	<bibliocraft:slottedbook>.withTag({authorName: "by Sir Hidington"}),
-	<bibliocraft:recipebook>,
-	<jaff:iron_fishing_rod>,
-	<jaff:wooden_fishing_rod>,
-	<jaff:iron_hook>,
-	<jaff:tank>,
-	<pneumaticcraft:liquid_hopper>,
 
 	//AbyssalCraft
-	<abyssalcraft:oblivionshard>,
-	<abyssalcraft:materializer>,
-	<abyssalcraft:odb>,
+	<abyssalcraft:ahoe>,
+	<abyssalcraft:corhoe>,
+	<abyssalcraft:dreadiumhoe>,
 	<abyssalcraft:engraver>,
+	<abyssalcraft:ethaxiumhoe>,
+	<abyssalcraft:materializer>,
+	<abyssalcraft:oblivionshard>,
+	<abyssalcraft:odb>,
 
 	//Better With Mods
+	<betterwithaddons:bolt:2>,
 	<betterwithaddons:bundle:1>,
-	<betterwithmods:material:43>,
-	<betterwithmods:composite_bow>,
-	<betterwithmods:broadhead_arrow>,
-	<betterwithaddons:iron_masonpick>,
+	<betterwithaddons:crate:12>,
+	<betterwithaddons:gold_carpentersaw>,
+	<betterwithaddons:gold_kukri>,
+	<betterwithaddons:gold_machete>,
+	<betterwithaddons:gold_masonpick>,
+	<betterwithaddons:gold_matchpick>,
+	<betterwithaddons:gold_spade>,
 	<betterwithaddons:iron_carpentersaw>,
 	<betterwithaddons:iron_kukri>,
 	<betterwithaddons:iron_machete>,
+	<betterwithaddons:iron_masonpick>,
 	<betterwithaddons:iron_matchpick>,
 	<betterwithaddons:iron_spade>,
-	<betterwithaddons:gold_spade>,
-	<betterwithaddons:gold_matchpick>,
-	<betterwithaddons:gold_machete>,
-	<betterwithaddons:gold_kukri>,
-	<betterwithaddons:gold_carpentersaw>,
-	<betterwithaddons:gold_masonpick>,
-	<betterwithmods:dynamite>,
+	<betterwithaddons:lattice>,
 	<betterwithaddons:paper_wall>,
-	<betterwithaddons:crate:12>,
-	<betterwithaddons:bolt:2>,
 	<betterwithaddons:tweakmat:1>,
-	<betterwithmods:aesthetic:8>,
-	<betterwithaddons:unbaked>,
 	<betterwithaddons:unbaked:1>,
 	<betterwithaddons:unbaked:2>,
 	<betterwithaddons:unbaked:3>,
-	<betterwithmods:raw_pastry>,
+	<betterwithaddons:unbaked>,
+	<betterwithmods:aesthetic:8>,
+	<betterwithmods:apple_pie>,
+	<betterwithmods:broadhead_arrow>,
+	<betterwithmods:composite_bow>,
+	<betterwithmods:dynamite>,
+	<betterwithmods:material:40>,
+	<betterwithmods:material:43>,
 	<betterwithmods:raw_pastry:1>,
 	<betterwithmods:raw_pastry:2>,
 	<betterwithmods:raw_pastry:4>,
-	<betterwithmods:material:40>,
-	<betterwithmods:apple_pie>,
-	<betterwithaddons:lattice>,
+	<betterwithmods:raw_pastry>,
 
 	//Super Sound Muffler
 	<supersoundmuffler:sound_muffler>,
 	<supersoundmuffler:sound_muffler_bauble>,
 
-	//Yoyo
-	<yoyos:book>,
-
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
 	<chiselsandbits:tape_measure>,
-	<chisel:offsettool>,
 
 	//Chisel
+	<chisel:chisel_iron>,
+	<chisel:offsettool>,
 	<chisel:waterstone1:1>,
 
-	//TComplement Melter Changes for Stage 2 / Twilight Access
-	<tcomplement:materials>,
-	<tconstruct:toolforge>,
-	<tconstruct:tooltables>,
-
-	<tcomplement:porcelain_tank:1>,
-	<tcomplement:porcelain_tank:2>,
-
-	//redstone
-	<abyssalcraft:abypplate>,
-	<abyssalcraft:cstonepplate>,
-	<abyssalcraft:dltpplate>,
-	<abyssalcraft:dspplate>,
-	<minecraft:lever>,
-	<minecraft:stone_pressure_plate>,
-	<minecraft:wooden_pressure_plate>,
+	//Jaff
+	<jaff:iron_fishing_rod>,
+	<jaff:iron_hook>,
+	<jaff:tank>,
+	<jaff:wooden_fishing_rod>,
 
 	//Twilight Forest
 	<twilightforest:arctic_boots>,
@@ -208,9 +214,9 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:steeleaf_pickaxe>,
 	<twilightforest:steeleaf_shovel>,
 	<twilightforest:steeleaf_sword>,
-	<twilightforest:tower_device:12>,
 	<twilightforest:tower_device:2>,
 	<twilightforest:tower_device:6>,
+	<twilightforest:tower_device:12>,
 	<twilightforest:tower_device>,
 	<twilightforest:twilight_scepter>,
 	<twilightforest:uncrafting_table>,
@@ -296,9 +302,6 @@ var itemsForStage as IIngredient[] = [
 	<storagedrawers:upgrade_template>,
 	<storagedrawers:upgrade_void>,
 
-	//Extended Crafting
-	<extendedcrafting:handheld_table>,
-
 	//Rustic
 	<rustic:apiary>,
 	<rustic:beehive>,
@@ -325,6 +328,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Tinkers'
 	<tcomplement:porcelain_casting>,
+	<tcomplement:porcelain_tank:1>,
+	<tcomplement:porcelain_tank:2>,
 	<tconstruct:casting>,
 	<tconstruct:clear_stained_glass:*>,
 	<tconstruct:piggybackpack>,
@@ -343,12 +348,11 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:seared_stairs_tile>,
 	<tconstruct:seared_tank:1>,
 	<tconstruct:seared_tank:2>,
+	<tconstruct:slimesling>,
 	<tconstruct:smeltery_io>,
 	<tconstruct:stone_torch>,
-	<tconstruct:slimesling>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
-
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
@@ -470,4 +474,4 @@ for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);
 }
 
-mods.recipestages.Recipes.setRecipeStage("two", "fishing_rod");
+mods.recipestages.Recipes.setRecipeStage(STAGE, "fishing_rod");

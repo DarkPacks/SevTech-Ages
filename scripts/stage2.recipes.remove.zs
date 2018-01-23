@@ -8,16 +8,17 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandiron>,
 	<betterwithaddons:redstone_emitter>,
 	<betterwithmods:aesthetic:12>,
-	<embers:axe_dawnstone>,
-	<embers:cinder_plinth>,
-	<embers:hoe_dawnstone>,
-	<embers:pickaxe_dawnstone>,
-	<embers:shovel_dawnstone>,
-	<embers:sword_dawnstone>,
-	<infoaccessories:info_accessory:2>,
-	<infoaccessories:info_accessory:6>,
-	<infoaccessories:info_accessory>,
 	<ironbackpacks:backpack>,
+	<pickletweaks:watering_can>,
+	<prospectors:prospector_low>,
+	<stevescarts:cartmodule>,
+	<storagedrawers:upgrade_storage>,
+	<storagedrawers:upgrade_template>,
+	<twilightforest:magic_map_focus>,
+	<uppers:upper>,
+	<weirdinggadget:weirding_gadget>,
+
+	//Minecraft
 	<minecraft:acacia_boat>,
 	<minecraft:bed:*>,
 	<minecraft:birch_boat>,
@@ -51,18 +52,25 @@ var removeItems as IItemStack[] = [
 	<minecraft:spruce_boat>,
 	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
-	<pickletweaks:watering_can>,
-	<prospectors:prospector_low>,
-	<storagedrawers:upgrade_storage>,
-	<storagedrawers:upgrade_template>,
+
+	//Embers
+	<embers:axe_dawnstone>,
+	<embers:cinder_plinth>,
+	<embers:hoe_dawnstone>,
+	<embers:pickaxe_dawnstone>,
+	<embers:shovel_dawnstone>,
+	<embers:sword_dawnstone>,
+
+	//Tinkers
+	<tconstruct:materials:16>,
 	<tconstruct:seared_furnace_controller>,
 	<tconstruct:smeltery_controller>,
 	<tconstruct:tinker_tank_controller>,
-	<twilightforest:magic_map_focus>,
-	<uppers:upper>,
-	<weirdinggadget:weirding_gadget>,
-	<tconstruct:materials:16>,
-	<stevescarts:cartmodule>
+
+	//Info Accessories
+	<infoaccessories:info_accessory:2>,
+	<infoaccessories:info_accessory:6>,
+	<infoaccessories:info_accessory>
 ];
 
 for item in removeItems {

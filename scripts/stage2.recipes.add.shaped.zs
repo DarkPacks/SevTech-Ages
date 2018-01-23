@@ -13,16 +13,16 @@ var STAGE = STAGES.two;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
 	[
 		//IF LONG
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
-		[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+		[<testmod:test_item1>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item2>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item3>, <testmod:test_item>, <testmod:test_item>]
 	],
 	//IF SHORT
-	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+	[[<testmod:test_item>, <testmod:test_item>, null], [<testmod:test_item>, <testmod:test_item>, null]]
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {

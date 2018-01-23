@@ -852,9 +852,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Use Liquid hopper instead of normal hopper
 	<mob_grinding_utils:tank_sink>: [
-		[null, <minecraft:iron_bars>, null],
-		[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
-		[null, <mob_grinding_utils:tank>, null]
+		[
+			[null, <minecraft:iron_bars>, null],
+			[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
+			[null, <mob_grinding_utils:tank>, null]
+		]
 	]
 };
 

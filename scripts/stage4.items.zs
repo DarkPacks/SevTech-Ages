@@ -18,6 +18,7 @@ for id in modIDs {
 }
 
 var stage4Items as IIngredient[] = [
+	<contenttweaker:sub_block_holder_0:4>,
 	<prospectors:prospector_high>,
 
 	<minecraft:ender_chest>,
@@ -974,6 +975,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:steel_pole>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:standard_wrench>,
+	<galacticraftcore:basic_block_core:8>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

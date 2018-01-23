@@ -18,7 +18,8 @@ var outputToRemove as IItemStack[] = [
 	<minecraft:leather>,
 	<minecraft:netherbrick>,
 	<primal:carbonate_stone>,
-	<industrialforegoing:plastic>
+	<industrialforegoing:plastic>,
+	<abyssalcraft:friedegg>
 ];
 
 for item in outputToRemove {
@@ -31,8 +32,7 @@ var recipesToAdd as IItemStack[][] = [
 	[<primal:shark_meat_cooked>, <primal:shark_meat_raw>],
 	[<progressiontweaks:flat_bread>, <horsepower:flour>],
 	[<quark:glass_shards>, <betterwithmods:red_sand_pile>],
-	[<quark:glass_shards>, <betterwithmods:sand_pile>],
-	[<abyssalcraft:friedegg>, <minecraft:egg>]
+	[<quark:glass_shards>, <betterwithmods:sand_pile>]
 ];
 
 for items in recipesToAdd {

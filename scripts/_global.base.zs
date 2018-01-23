@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 global STAGES as string[string] = {
+	//Core Stages
 	tutorial : "tutorial",
 	zero : "zero",
 	zeroMob : "zero_mob",
@@ -18,7 +19,10 @@ global STAGES as string[string] = {
 	fourMob : "four_mob",
 	five : "five",
 	fiveMob : "five_mob",
-	creative : "creative"
+	creative : "creative",
+
+	//Unique Stages
+	baykok : "baykok"
 };
 
 global defaultArmorDropChance as double = 0.15;

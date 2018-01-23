@@ -227,3 +227,8 @@ for shearType, shears in shearTypesAndItems {
 //Fiery bottles
 <ore:bottleFiery>.add(<twilightforest:fiery_blood>);
 <ore:bottleFiery>.add(<twilightforest:fiery_tears>);
+
+//Natura oredicts glass wrong
+<ore:glass>.remove(<natura:nether_glass>);
+<ore:glass>.remove(<natura:nether_glass:1>);
+<ore:glassBlock>.add(<natura:nether_glass:*>);

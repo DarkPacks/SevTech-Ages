@@ -25,3 +25,12 @@ var removeItems as IItemStack[] = [
 for item in removeItems {
 	recipes.remove(item);
 }
+
+var removeRecipes as string[] = [
+	"natura:common/glass_bottle",
+	"rustic:bottle_emptying"
+];
+
+for recipeRegex in removeRecipes {
+	recipes.removeByRegex(recipeRegex);
+}

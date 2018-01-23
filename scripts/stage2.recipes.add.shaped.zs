@@ -30,6 +30,10 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
 		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
 	],
+	<minecraft:glass_bottle> * 3: [
+		[<ore:blockGlass>, null, <ore:blockGlass>],
+		[null, <ore:blockGlass>, null]
+	],
 	<betterbuilderswands:wandiron> : [
 		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],

@@ -22,9 +22,10 @@ for id in modIDs {
 }
 
 var itemsForStage as IIngredient[] = [
-	//Unified items
+	//Oredict
 	<ore:gearDiamond>,
 
+	//Misc
 	<betterbuilderswands:wanddiamond>,
 	<betterwithaddons:diamond_carpentersaw>,
 	<betterwithaddons:diamond_kukri>,
@@ -49,16 +50,13 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:diamond_leggings>,
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
-	<primal:diamond_axe>,
-	<primal:diamond_hatchet>,
-	<primal:diamond_hoe>,
-	<primal:diamond_pickaxe>,
-	<primal:diamond_saw>,
-	<primal:diamond_shovel>,
-	<primal:diamond_workblade>,
+	<rangedpumps:pump>,
 	<roots:diamond_hammer>,
 	<roots:diamond_knife>,
 
+	/*
+		Items by "type"
+	*/
 	//Emerald
 	<extendedcrafting:material:129>,
 	<extendedcrafting:trimmed:3>,
@@ -73,6 +71,43 @@ var itemsForStage as IIngredient[] = [
 	<primal:emerald_shovel>,
 	<primal:emerald_workblade>,
 
+	//Diamond Stuff
+	<minecraft:diamond_horse_armor>,
+
+	//Shulker
+	<minecraft:purple_shulker_box>,
+
+	//End
+	<minecraft:chorus_flower>,
+	<minecraft:chorus_fruit>,
+	<minecraft:chorus_fruit_popped>,
+	<minecraft:chorus_plant>,
+	<minecraft:dragon_breath>,
+	<minecraft:dragon_egg>,
+	<minecraft:elytra>,
+	<minecraft:end_bricks>,
+	<minecraft:end_crystal>,
+	<minecraft:end_rod>,
+	<minecraft:end_stone>,
+	<minecraft:purpur_block>,
+	<minecraft:purpur_pillar>,
+	<minecraft:purpur_slab>,
+	<quark:end_bricks_slab>,
+	<quark:end_bricks_stairs>,
+	<quark:end_bricks_wall>,
+
+	/*
+		Items by mod
+	*/
+	//Primal Core
+	<primal:diamond_axe>,
+	<primal:diamond_hatchet>,
+	<primal:diamond_hoe>,
+	<primal:diamond_pickaxe>,
+	<primal:diamond_saw>,
+	<primal:diamond_shovel>,
+	<primal:diamond_workblade>,
+
 	//Iron Chest
 	<ironchest:diamond_crystal_chest_upgrade>,
 	<ironchest:gold_diamond_chest_upgrade>,
@@ -82,8 +117,8 @@ var itemsForStage as IIngredient[] = [
 	//Actually Additions
 	<actuallyadditions:block_atomic_reconstructor>,
 	<actuallyadditions:block_breaker>,
-	<actuallyadditions:block_colored_lamp:*>,
 	<actuallyadditions:block_colored_lamp:2>,
+	<actuallyadditions:block_colored_lamp:*>,
 	<actuallyadditions:block_crystal:1>,
 	<actuallyadditions:block_crystal:2>,
 	<actuallyadditions:block_crystal:3>,
@@ -253,43 +288,33 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_water_removal_ring>,
 
 	//Steve's Factory Manager
-	<stevesfactorymanager:blockmachinemanagername>,
-	<stevesfactorymanager:blockcablename>,
-	<stevesfactorymanager:blockcablerelayname>,
-	<stevesfactorymanager:blockcablerelayname:8>,
-	<stevesfactorymanager:blockcableoutputname>,
-	<stevesfactorymanager:blockcableinputname>,
-	<stevesfactorymanager:blockcableintakename>,
-	<stevesfactorymanager:blockcableintakename:8>,
 	<stevesfactorymanager:blockcablebudname>,
-	<stevesfactorymanager:blockcableclustername>,
-	<stevesfactorymanager:blockcableclustername:8>,
-	<stevesfactorymanager:blockcablecamouflagename>,
 	<stevesfactorymanager:blockcablecamouflagename:1>,
 	<stevesfactorymanager:blockcablecamouflagename:2>,
+	<stevesfactorymanager:blockcablecamouflagename>,
+	<stevesfactorymanager:blockcableclustername:8>,
+	<stevesfactorymanager:blockcableclustername>,
+	<stevesfactorymanager:blockcableinputname>,
+	<stevesfactorymanager:blockcableintakename:8>,
+	<stevesfactorymanager:blockcableintakename>,
+	<stevesfactorymanager:blockcablename>,
+	<stevesfactorymanager:blockcableoutputname>,
+	<stevesfactorymanager:blockcablerelayname:8>,
+	<stevesfactorymanager:blockcablerelayname>,
 	<stevesfactorymanager:blockcablesignname>,
+	<stevesfactorymanager:blockmachinemanagername>,
 	<stevesfactorymanager:memorydisk>,
-
-	//Ranged Pump
-	<rangedpumps:pump>,
-
-	//Diamond Stuff
-	<minecraft:diamond_horse_armor>,
 
 	//Ender Storage
 	<enderstorage:ender_pouch>,
 	<enderstorage:ender_storage:1>,
 	<enderstorage:ender_storage>,
 
-	//Shulker
-	<minecraft:purple_shulker_box>,
-
 	//Extended Crafting
 	<extendedcrafting:compressor>,
 	<extendedcrafting:material:11>,
 	<extendedcrafting:material:12>,
 	<extendedcrafting:material:13>,
-	<extendedcrafting:material:140>,
 	<extendedcrafting:material:17>,
 	<extendedcrafting:material:18>,
 	<extendedcrafting:material:19>,
@@ -297,27 +322,9 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:material:25>,
 	<extendedcrafting:material:32>,
 	<extendedcrafting:material:33>,
+	<extendedcrafting:material:140>,
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
-
-	//End
-	<minecraft:chorus_flower>,
-	<minecraft:chorus_fruit>,
-	<minecraft:chorus_fruit_popped>,
-	<minecraft:chorus_plant>,
-	<minecraft:dragon_breath>,
-	<minecraft:dragon_egg>,
-	<minecraft:elytra>,
-	<minecraft:end_bricks>,
-	<minecraft:end_crystal>,
-	<minecraft:end_rod>,
-	<minecraft:end_stone>,
-	<minecraft:purpur_block>,
-	<minecraft:purpur_pillar>,
-	<minecraft:purpur_slab>,
-	<quark:end_bricks_slab>,
-	<quark:end_bricks_stairs>,
-	<quark:end_bricks_wall>,
 
 	//Applied Energistics
 	<appliedenergistics2:cell_workbench>,
@@ -380,6 +387,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:quantum_link>,
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
+	<appliedenergistics2:security_station>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -405,6 +413,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:view_cell>,
 	<appliedenergistics2:wireless_access_point>,
 	<appliedenergistics2:wireless_terminal>,
+
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
 	<appliedenergistics2:part:100>,
@@ -425,6 +434,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:part:467>,
 	<appliedenergistics2:part:469>,
 	<appliedenergistics2:part:480>,
+
 	//Cables
 	<appliedenergistics2:part:20>,
 	<appliedenergistics2:part:21>,
@@ -494,7 +504,6 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:part:514>,
 	<appliedenergistics2:part:515>,
 	<appliedenergistics2:part:516>,
-	<appliedenergistics2:security_station>,
 
 	//Refined Storage
 	<refinedstorage:constructor>,
@@ -530,6 +539,7 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorage:portable_grid>,
 	<refinedstorage:reader>,
 	<refinedstorage:relay>,
+	<refinedstorage:security_manager>,
 	<refinedstorage:storage:1>,
 	<refinedstorage:storage:2>,
 	<refinedstorage:storage:3>,
@@ -572,7 +582,6 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid:1>,
 	<refinedstorageaddons:wireless_crafting_grid>,
-	<refinedstorage:security_manager>,
 
 	//Buildcraft
 	<buildcrafttransport:pipe_daizuli_item>,
@@ -588,82 +597,32 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:black_hole_unit>,
 
 	//Xnet
-	<xnet:xnet_manual>,
-	<xnet:connector_upgrade>,
-	<xnet:facade>,
-	<xnet:redstone_proxy>,
-	<xnet:redstone_proxy_upd>,
-	<xnet:netcable>,
-	<xnet:netcable:1>,
-	<xnet:netcable:2>,
-	<xnet:netcable:3>,
-	<xnet:netcable:4>,
-	<xnet:connector>,
+	<xnet:advanced_connector:1>,
+	<xnet:advanced_connector:2>,
+	<xnet:advanced_connector:3>,
+	<xnet:advanced_connector>,
 	<xnet:connector:1>,
 	<xnet:connector:2>,
 	<xnet:connector:3>,
 	<xnet:connector:4>,
-	<xnet:advanced_connector>,
-	<xnet:advanced_connector:1>,
-	<xnet:advanced_connector:2>,
-	<xnet:advanced_connector:3>,
+	<xnet:connector>,
+	<xnet:connector_upgrade>,
 	<xnet:controller>,
+	<xnet:facade>,
+	<xnet:netcable:1>,
+	<xnet:netcable:2>,
+	<xnet:netcable:3>,
+	<xnet:netcable:4>,
+	<xnet:netcable>,
+	<xnet:redstone_proxy>,
+	<xnet:redstone_proxy_upd>,
 	<xnet:router>,
+	<xnet:xnet_manual>,
 
-	//Galacticraft / Extra Planets
-	<extraplanets:advanced_launch_pad>,
-	<extraplanets:advanced_launch_pad:1>,
-	<extraplanets:advanced_launch_pad:2>,
-	<extraplanets:advanced_launch_pad:3>,
-	<galacticraftcore:magnetic_table>,
-	<galacticraftcore:cheese>,
-	<galacticraftcore:steel_chestplate>,
-	<galacticraftcore:meteor_chunk>,
-	<galacticraftcore:sensor_glasses>,
-	<galacticraftcore:oxygen_compressor:4>,
-	<galacticraftcore:cargo>,
-	<galacticraftcore:cargo:4>,
-	<galacticraftcore:buggymat>,
-	<galacticraftcore:buggymat:1>,
-	<galacticraftcore:buggymat:2>,
-	<galacticraftcore:steel_sword>,
-	<galacticraftcore:telemetry>,
-	<galacticraftcore:machine3>,
-	<galacticraftcore:machine2:8>,
-	<galacticraftcore:machine2>,
-	<galacticraftcore:machine2:4>,
-	<galacticraftcore:machine2:12>,
-	<galacticraftcore:oxygen_tank_med_full>,
-	<galacticraftcore:oxygen_tank_med_full:1800>,
-	<galacticraftcore:arclamp>,
+	//Galacticraft
 	<galacticraftcore:air_fan>,
-	<galacticraftcore:solar>,
-	<galacticraftcore:solar:4>,
-	<galacticraftcore:battery:100>,
-	<galacticraftcore:battery>,
-	<galacticraftcore:refinery>,
+	<galacticraftcore:arclamp>,
 	<galacticraftcore:basic_block_core:3>,
-	<galacticraftcore:steel_pickaxe>,
-	<galacticraftcore:panel_lighting>,
-	<galacticraftcore:panel_lighting:1>,
-	<galacticraftcore:panel_lighting:2>,
-	<galacticraftcore:panel_lighting:3>,
-	<galacticraftcore:panel_lighting:4>,
-	<galacticraftcore:tin_stairs_2>,
-	<galacticraftcore:tin_stairs_1>,
-	<galacticraftcore:slab_gc_half>,
-	<galacticraftcore:slab_gc_half:1>,
-	<galacticraftcore:slab_gc_half:2>,
-	<galacticraftcore:slab_gc_half:3>,
-	<galacticraftcore:slab_gc_half:4>,
-	<galacticraftcore:slab_gc_half:5>,
-	<galacticraftcore:distributor>,
-	<galacticraftcore:sensor_lens>,
-	<galacticraftcore:concealed_redstone>,
-	<galacticraftcore:steel_helmet>,
-	<galacticraftcore:spin_thruster>,
-	<galacticraftcore:steel_leggings>,
-	<galacticraftcore:basic_item>,
 	<galacticraftcore:basic_item:1>,
 	<galacticraftcore:basic_item:15>,
 	<galacticraftcore:basic_item:16>,
@@ -671,10 +630,62 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:basic_item:18>,
 	<galacticraftcore:basic_item:19>,
 	<galacticraftcore:basic_item:20>,
-	<galacticraftcore:steel_axe>,
+	<galacticraftcore:basic_item>,
+	<galacticraftcore:battery:100>,
+	<galacticraftcore:battery>,
+	<galacticraftcore:buggymat:1>,
+	<galacticraftcore:buggymat:2>,
+	<galacticraftcore:buggymat>,
+	<galacticraftcore:cargo:4>,
+	<galacticraftcore:cargo>,
+	<galacticraftcore:cheese>,
+	<galacticraftcore:concealed_redstone>,
+	<galacticraftcore:distributor>,
+	<galacticraftcore:enclosed:1>,
 	<galacticraftcore:enclosed:14>,
 	<galacticraftcore:enclosed:15>,
-	<galacticraftcore:enclosed:1>
+	<galacticraftcore:machine2:4>,
+	<galacticraftcore:machine2:8>,
+	<galacticraftcore:machine2:12>,
+	<galacticraftcore:machine2>,
+	<galacticraftcore:machine3>,
+	<galacticraftcore:magnetic_table>,
+	<galacticraftcore:meteor_chunk>,
+	<galacticraftcore:oxygen_compressor:4>,
+	<galacticraftcore:oxygen_tank_med_full:1800>,
+	<galacticraftcore:oxygen_tank_med_full>,
+	<galacticraftcore:panel_lighting:1>,
+	<galacticraftcore:panel_lighting:2>,
+	<galacticraftcore:panel_lighting:3>,
+	<galacticraftcore:panel_lighting:4>,
+	<galacticraftcore:panel_lighting>,
+	<galacticraftcore:refinery>,
+	<galacticraftcore:sensor_glasses>,
+	<galacticraftcore:sensor_lens>,
+	<galacticraftcore:slab_gc_half:1>,
+	<galacticraftcore:slab_gc_half:2>,
+	<galacticraftcore:slab_gc_half:3>,
+	<galacticraftcore:slab_gc_half:4>,
+	<galacticraftcore:slab_gc_half:5>,
+	<galacticraftcore:slab_gc_half>,
+	<galacticraftcore:solar:4>,
+	<galacticraftcore:solar>,
+	<galacticraftcore:spin_thruster>,
+	<galacticraftcore:steel_axe>,
+	<galacticraftcore:steel_chestplate>,
+	<galacticraftcore:steel_helmet>,
+	<galacticraftcore:steel_leggings>,
+	<galacticraftcore:steel_pickaxe>,
+	<galacticraftcore:steel_sword>,
+	<galacticraftcore:telemetry>,
+	<galacticraftcore:tin_stairs_1>,
+	<galacticraftcore:tin_stairs_2>,
+
+	//Extra Planets
+	<extraplanets:advanced_launch_pad:1>,
+	<extraplanets:advanced_launch_pad:2>,
+	<extraplanets:advanced_launch_pad:3>,
+	<extraplanets:advanced_launch_pad>
 ];
 
 for item in itemsForStage {

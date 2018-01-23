@@ -13,19 +13,19 @@ var STAGE = STAGES.zero;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
 	[
 		//IF LONG
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
-		[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
-		[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+		[<testmod:test_item1>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item2>, <testmod:test_item>, <testmod:test_item>],
+		[<testmod:test_item3>, <testmod:test_item>, <testmod:test_item>]
 	],
 	//IF SHORT
-	[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+	[[<testmod:test_item>, <testmod:test_item>, null], [<testmod:test_item>, <testmod:test_item>, null]]
 ]
 */
-var shapedRecipes = {
+var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<abyssalcraft:dltslab1> * 3 : [
 		[[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]
 	],
@@ -439,30 +439,10 @@ var shapedRecipes = {
 	<traverse:fir_slab> * 3 : [
 		[[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]
 	]
-} as IIngredient[][][][IItemStack];
+};
 
 for item, recipesForItem in shapedRecipes {
 	for recipe in recipesForItem {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-//Actually Additions
-/*
-actuallyadditions:item_misc:12
-actuallyadditions:item_misc:9
-actuallyadditions:item_food:17
-actuallyadditions:block_compost
-actuallyadditions:item_misc:1
-actuallyadditions:item_fertilizer
-actuallyadditions:item_coffee_seed
-actuallyadditions:item_flax_seed
-actuallyadditions:item_canola_seed
-actuallyadditions:item_rice_seed
-actuallyadditions:item_coffee_beans
-actuallyadditions:item_misc:21
-actuallyadditions:item_misc:22
-actuallyadditions:item_misc:20
-actuallyadditions:item_misc:17
-actuallyadditions:item_misc:13
-*/

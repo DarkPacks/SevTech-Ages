@@ -13,13 +13,13 @@ var STAGE = STAGES.zero;
 
 Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
 
-<betterwithaddons:bolt:1> : [
+<testmod:test_item> : [
 	//You can do one recipe or as many recipes as you want
-	[<actuallyadditions:item_coffee_seed>, <minecraft:paper>],
-	[<actuallyadditions:item_coffee_beans>]
+	[<testmod:test_item>, <minecraft:paper>],
+	[<testmod:test_item>]
 ]
 */
-var shapelessRecipes = {
+var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<actuallyadditions:item_booklet> : [
 		[<actuallyadditions:item_coffee_seed>, <minecraft:paper>]
 	],
@@ -33,9 +33,7 @@ var shapelessRecipes = {
 		[<roots:fairy_dust>, <ore:dyeBlack>, <minecraft:dye:15>]
 	],
 	<progressiontweaks:spear> : [
-		[<progressiontweaks:broken_spear_shaft>, <minecraft:stick>]
-	],
-	<progressiontweaks:spear> : [
+		[<progressiontweaks:broken_spear_shaft>, <minecraft:stick>],
 		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
 	],
 	<primal:bark_acacia> : [
@@ -59,11 +57,11 @@ var shapelessRecipes = {
 	<primal:bark_yew> : [
 		[<primal:logs:1>.giveBack(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
 	],
-		//Now you can make fleece in stage 0
+	//Now you can make fleece in stage 0
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
 	]
-} as IIngredient[][][IItemStack];
+};
 
 for item, recipesForItem in shapelessRecipes {
 	for recipe in recipesForItem {

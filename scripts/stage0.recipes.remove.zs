@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-var removeItems = [
+var removeItems as IItemStack[] = [
 	<minecraft:arrow>,
 	<abyssalcraft:dltslab1>,
 	<actuallyadditions:block_compost>,
@@ -48,7 +48,7 @@ var removeItems = [
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:firewood_slab>,
 	<traverse:fir_slab>
-] as IItemStack[];
+];
 
 for item in removeItems {
 	recipes.remove(item);

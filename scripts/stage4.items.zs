@@ -18,7 +18,7 @@ for id in modIDs {
 }
 
 var stage4Items as IIngredient[] = [
-	<contenttweaker:sub_block_holder_0:4>,
+	<materialpart:osmium:ore_minecraft_stone>,
 	<prospectors:prospector_high>,
 
 	<minecraft:ender_chest>,

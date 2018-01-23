@@ -217,7 +217,7 @@ var replacementItemsForStage as IItemStack[][][string] = {
 
 		//Osmium
 		[<mekanism:oreblock>],
-		[<contenttweaker:sub_block_holder_0:4>],
+		[<materialpart:osmium:ore_minecraft_stone>],
 
 		//Silicon
 		[<galacticraftcore:basic_block_core:8>]

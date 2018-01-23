@@ -2,7 +2,7 @@
   "jetpack_type": {
     "name": "electrum",
     "disable": false,
-    "tier": 3,
+    "tier": 0,
     "color": 10981685,
     "armor_points": 2,
     "enchantability": 18,

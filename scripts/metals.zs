@@ -172,7 +172,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			fluidAmount = 16;
 		}
 
-		mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+		mods.tconstruct.Melting.removeRecipe(metalLiquid * 1, preferredMetalItem);
 		if (fluidAmount != 0) {
 			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
 		}

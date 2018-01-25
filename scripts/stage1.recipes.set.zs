@@ -448,22 +448,8 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_pickaxe_quartz>,
 	<actuallyadditions:item_shovel_quartz>,
 	<actuallyadditions:item_sword_quartz>,
-	<actuallyadditions:quartz_paxel>,
-
-	//Embers
-	<embers:stamp_bar_raw>,
-	<embers:stamp_flat_raw>,
-	<embers:stamp_plate_raw>,
-	<embers:stone_edge>,
-
-	//Simply Tea
-	<simplytea:cup>,
-	<simplytea:cup_tea_black>,
-	<simplytea:cup_tea_green>,
-	<simplytea:teabag_black>,
-	<simplytea:teabag_green>,
-	<simplytea:teapot:1>,
-	<simplytea:teapot>
+	<actuallyadditions:quartz_paxel>
+	
 ];
 
 for item in itemsForStage {

@@ -26,12 +26,6 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<immersiveengineering:storage_slab:5>,
 
-	//Embers
-	<embers:item_pipe>,
-	<embers:item_pump>,
-	<embers:pipe>,
-	<embers:pump>,
-
 	//Bonsai
 	<bonsaitrees:bonsaipot:1>,
 	<bonsaitrees:bonsaipot>,

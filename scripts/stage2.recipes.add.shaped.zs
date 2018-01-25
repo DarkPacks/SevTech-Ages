@@ -518,27 +518,8 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [
 		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
-	],
-
-	//Embers Stage 2
-	<embers:axe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [metals.dawnstone.plate, stick, null], [null, stick, null]]
-	],
-	<embers:cinder_plinth> : [
-		[[null, metals.iron.plate, null], [metals.iron.plate, <minecraft:furnace>, metals.iron.plate], [metals.iron.plate, <embers:block_caminite_brick>, metals.iron.plate]]
-	],
-	<embers:hoe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, metals.dawnstone.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_dawnstone> : [
-		[[null, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:sword_dawnstone> : [
-		[[null, metals.dawnstone.plate, null], [null, metals.dawnstone.plate, null], [null, stick, null]]
 	]
+	
 };
 
 for item, recipesForItem in shapedRecipes {

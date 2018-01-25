@@ -84,8 +84,6 @@ var stage5Items as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
-	<roots:diamond_hammer>,
-	<roots:diamond_knife>,
 
 	/*
 		Items by mod

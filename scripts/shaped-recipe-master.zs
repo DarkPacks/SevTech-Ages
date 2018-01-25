@@ -186,42 +186,6 @@ recipes.addShaped(<progressiontweaks:tomahawk>, [[cordage, <primal:flint_knapp>]
 recipes.addShaped(<progressiontweaks:fire_pit_unlit>, [[null, stick, null], [stick, cordage, stick], [<ore:rock>, <ore:rock>, <ore:rock>]]);
 
 ////==================================
-//Roots
-recipes.addShaped(<roots:bonfire>, [[null, stick, null], [stick, <ore:barkWood>, stick], [cobblestone, cobblestone, cobblestone]]);
-recipes.addShaped(<roots:wood_shears>, [[null, plank, null], [plank, null, plank ], [stick, plank, null]]);
-
-recipes.remove(<roots:diamond_knife>);
-recipes.addShaped(<roots:diamond_knife>, [[null, diamond], [stick, null]]);
-
-recipes.remove(<roots:gold_knife>);
-recipes.addShaped(<roots:gold_knife>, [[null, metals.gold.ingot], [stick, null]]);
-
-recipes.remove(<roots:iron_knife>);
-recipes.addShaped(<roots:iron_knife>, [[null, metals.iron.ingot], [stick, null]]);
-
-recipes.remove(<roots:pestle>);
-recipes.addShaped(<roots:pestle>, [[null, <immcraft:rock>], [stick, null]]);
-
-recipes.remove(<roots:pouch>);
-recipes.addShaped(<roots:pouch>, [[str, null, str], [<betterwithaddons:wool>, <pickletweaks:dye_powder:*>, <betterwithaddons:wool>], [null, <betterwithaddons:wool>, null]]);
-
-recipes.remove(<roots:stone_knife>);
-recipes.addShaped(<roots:stone_knife>, [[null, <ore:cobblestone>], [stick, null]]);
-
-recipes.remove(<roots:thatch>);
-recipes.addShaped(<roots:thatch>, [[<roots:straw>, <roots:straw>], [<roots:straw>, <roots:straw>]]);
-
-recipes.remove(<roots:wood_knife>);
-recipes.addShaped(<roots:wood_knife>, [[null, plank], [stick, null]]);
-
-recipes.remove(<roots:book_base>);
-recipes.addShapeless(<roots:book_base>, [<primal:plant_cloth>, str, <ore:barkBirch>]);
-
-//Runestone is more harder 'n stuff
-recipes.remove(<roots:chiseled_runestone>);
-recipes.addShapeless(<roots:chiseled_runestone>, [<primal:flint_point>, <roots:runestone>]);
-
-////==================================
 //Totemic
 recipes.addShaped(<totemic:drum>, [[plank, leather, plank], [plank, null, plank], [plank, null, plank]]);
 recipes.addShaped(<totemic:flute>, [[null, <minecraft:tallgrass:*>, <minecraft:reeds>], [null, <minecraft:reeds>, null], [<minecraft:reeds>, null, null]]);

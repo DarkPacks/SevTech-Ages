@@ -27,8 +27,6 @@ var removeAndHideItems as IItemStack[] = [
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:tool_prospector>,
 	<cyclicmagic:tool_randomize>,
-	<embers:block_furnace>,
-	<embers:plate_caminite_raw>,
 	<immcraft:bookstand>,
 	<immcraft:furnace>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),

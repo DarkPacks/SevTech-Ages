@@ -194,7 +194,6 @@ addGrindstoneRecipe(<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard
 addGrindstoneRecipe(<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>, 24, false);
 addGrindstoneRecipe(<actuallyadditions:item_dust:7>, <actuallyadditions:block_misc:3>, 16, false);
 addGrindstoneRecipe(<betterwithaddons:japanmat:4>, <actuallyadditions:item_food:16>, 16, false);
-addGrindstoneRecipe(<embers:shard_ember> * 9, <embers:crystal_ember>, 24, false);
 addGrindstoneRecipe(<horsepower:flour>, <minecraft:wheat>, 16, false);
 addGrindstoneRecipe(<minecraft:clay_ball> * 4, <minecraft:clay>, 12, false);
 addGrindstoneRecipe(<minecraft:coal:1> * 4, <primal_tech:charcoal_block>, 24, false);
@@ -254,7 +253,6 @@ var pressPairs as IIngredient[IItemStack] = {
 	<abyssalcraft:shadowshard>: <abyssalcraft:shadowfragment> * 9,
 	<betterwithaddons:japanmat:11>: <betterwithaddons:japanmat:10>,
 	<charcoalblock:charcoal_block>: <minecraft:coal:1> * 9,
-	<embers:crystal_ember>: <embers:shard_ember> * 9,
 	<minecraft:clay>: <minecraft:clay_ball> * 4,
 	<minecraft:coal:1>: <pickletweaks:coal_piece:1> * 8,
 	<minecraft:coal>: <pickletweaks:coal_piece> * 8,

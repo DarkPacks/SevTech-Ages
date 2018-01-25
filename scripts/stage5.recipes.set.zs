@@ -51,8 +51,6 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
-	<roots:diamond_hammer>,
-	<roots:diamond_knife>,
 
 	/*
 		Items by "type"

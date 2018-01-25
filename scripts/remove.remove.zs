@@ -16,8 +16,6 @@ var removeItems as IItemStack[] = [
 	<minecraft:leather>,
 	<minecraft:stick>,
 	<minecraft:water_bucket>,
-	<roots:herblore_book>,
-	<roots:spellcraft_book>,
 	<rustic:fertile_soil>,
 	<tconstruct:soil>
 ];

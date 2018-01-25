@@ -53,14 +53,6 @@ var removeItems as IItemStack[] = [
 	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
 
-	//Embers
-	<embers:axe_dawnstone>,
-	<embers:cinder_plinth>,
-	<embers:hoe_dawnstone>,
-	<embers:pickaxe_dawnstone>,
-	<embers:shovel_dawnstone>,
-	<embers:sword_dawnstone>,
-
 	//Tinkers
 	<tconstruct:materials:16>,
 	<tconstruct:seared_furnace_controller>,

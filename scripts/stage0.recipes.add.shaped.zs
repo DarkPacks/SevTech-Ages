@@ -387,9 +387,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	<roots:firestarter> : [
-		[[<minecraft:coal:1>, null], [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>]]
-	],
 	<rustic:ironwood_slab_item> * 3 : [
 		[[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]]
 	],

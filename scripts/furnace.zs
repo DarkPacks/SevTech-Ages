@@ -7,7 +7,6 @@ var outputToRemove as IItemStack[] = [
 	<ceramics:clay_barrel:1>,
 	<ceramics:clay_barrel>,
 	<ceramics:clay_bucket>,
-	<embers:plate_caminite>,
 	<improvedbackpacks:tanned_leather>,
 	<industrialforegoing:plastic>,
 	<minecraft:bread>,

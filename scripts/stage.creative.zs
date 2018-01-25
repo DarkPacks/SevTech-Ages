@@ -5,7 +5,6 @@ var STAGE = STAGES.creative;
 var creativeItems as IItemStack[] = [
 	<betterwithmods:creative_generator>,
 	<buildcraftcore:engine:3>,
-	<embers:creative_ember_source>,
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,
 	<enderutilities:enderpart:81>,

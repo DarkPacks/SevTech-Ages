@@ -45,9 +45,7 @@ var seeds = [
 	<primal:searing_ember>,
 	<primal:sinuous_spores>,
 	<primal:valus_seed>,
-	<primal:void_seed>,
-	<roots:aubergine_seeds>,
-	<roots:moontinged_seed>
+	<primal:void_seed>
 ] as IItemStack[];
 
 for seed in seeds {
@@ -66,7 +64,6 @@ var shearTypesAndItems as IItemStack[][string] = {
 		<primal:flint_shears:*>,
 		<primal:quartz_shears:*>,
 		<primal_tech:bone_shears:*>,
-		<roots:wood_shears:*>,
 		<thebetweenlands:syrmorite_shears:*>
 	],
 
@@ -178,19 +175,6 @@ for shearType, shears in shearTypesAndItems {
 //<ore:dyeGray>.remove(<coralreef:coral:5>);
 
 //I HAVE BARK! YOU HAS BARK! LETS OREDICTIONARY OUR BARK
-<ore:barkOak>.add(<roots:bark_oak>);
-<ore:barkSpruce>.add(<roots:bark_spruce>);
-<ore:barkBirch>.add(<roots:bark_birch>);
-<ore:barkJungle>.add(<roots:bark_jungle>);
-<ore:barkDarkOak>.add(<roots:bark_dark_oak>);
-<ore:barkAcacia>.add(<roots:bark_acacia>);
-<ore:barkWood>.add(<roots:bark_oak>);
-<ore:barkWood>.add(<roots:bark_spruce>);
-<ore:barkWood>.add(<roots:bark_birch>);
-<ore:barkWood>.add(<roots:bark_jungle>);
-<ore:barkWood>.add(<roots:bark_dark_oak>);
-<ore:barkWood>.add(<roots:bark_acacia>);
-
 <ore:plankWood>.add(<primal:planks:0>);
 
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);

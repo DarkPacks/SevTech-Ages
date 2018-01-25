@@ -60,7 +60,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<geolosys:ore_sample:3>, <immcraft:rock>],
 
 		//Tin
-		[<embers:ore_tin>],
 		[<geolosys:ore:4>],
 		[<geolosys:ore:5>],
 		[<geolosys:ore_sample:4>, <immcraft:rock>],

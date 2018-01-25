@@ -415,12 +415,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
 
-	//Embers Stage 3
-	<embers:bin>,
-	<embers:heat_coil>,
-	<embers:item_dropper>,
-	<embers:large_tank>,
-
 	//Better With Mods
 	<betterwithaddons:ancestry_infuser>,
 	<betterwithaddons:bag:6>,

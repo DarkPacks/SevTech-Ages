@@ -857,7 +857,31 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
 			[null, <mob_grinding_utils:tank>, null]
 		]
+	],
+
+	//DRILL CORE THING!
+	<actuallyadditions:item_misc:16>: [
+		[
+			[null, <immersiveengineering:material:20>, <immersiveengineering:drillhead>],
+			[<immersiveengineering:material:20>, <immersiveengineering:metal_device0>, <immersiveengineering:material:20>],
+			[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:material:20>, null]
+		]
+	],
+	<actuallyadditions:item_drill:3>: [
+		[
+			[null, <immersiveengineering:metal_decoration1:5>, <actuallyadditions:item_misc:16>],
+			[<stevescarts:modulecomponents:12>, <pneumaticcraft:plastic:14>, <immersiveengineering:metal_decoration1:5>],
+			[<stevescarts:modulecomponents:12>, <stevescarts:modulecomponents:12>, null]
+		]
+	],
+	<pneumaticcraft:assembly_drill>: [
+		[
+			[<actuallyadditions:item_misc:16>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
+			[null, null, <pneumaticcraft:pneumatic_cylinder>],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

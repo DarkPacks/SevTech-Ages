@@ -626,6 +626,15 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:part:515>,
 	<appliedenergistics2:part:516>,
 
+	//Geolosys
+	<geolosys:ore_sample_vanilla:6>,
+	<geolosys:ore_vanilla:6>,
+	<geolosys:ore_sample_vanilla:5>,
+	<geolosys:ore_vanilla:5>,
+	<geolosys:ore:9>,
+	<geolosys:ore_sample:9>,
+	<geolosys:cluster:9>,
+
 	//Refined Storage
 	<refinedstorage:constructor>,
 	<refinedstorage:controller:1>,

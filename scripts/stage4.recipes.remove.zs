@@ -17,6 +17,9 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_oil_generator>,
+	<actuallyadditions:item_misc:16>,
+	<actuallyadditions:item_drill:*>,
+	<pneumaticcraft:assembly_drill>,
 
 	//Cooking for Blockheads
 	<cookingforblockheads:oven>,

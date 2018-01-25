@@ -88,6 +88,10 @@ var hideItems as IItemStack[] = [
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<geolosys:ore:10>,
+	<geolosys:ore_sample:10>,
+	<geolosys:cluster:10>,
+	<geolosys:cluster:11>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

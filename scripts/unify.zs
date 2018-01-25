@@ -29,11 +29,6 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			}
 
 			if (hasLiquid) {
-				if (loadedMods.contains("embers")) {
-					mods.embers.Stamper.remove(item);
-					mods.embers.Melter.remove(item);
-				}
-
 				if (loadedMods.contains("tconstruct")) {
 					mods.tconstruct.Casting.removeBasinRecipe(item);
 					mods.tconstruct.Casting.removeTableRecipe(item);

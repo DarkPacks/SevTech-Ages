@@ -33,9 +33,7 @@ Mill.remove(<betterwithmods:raw_pastry:3>);
 Mill.add(<horsepower:flour>, null, [<minecraft:wheat>]);
 Mill.add(<horsepower:flour>, null, [<natura:materials>]);
 
-Mill.add(<embers:archaic_brick> * 4, null, [<embers:archaic_bricks>]);
 Mill.add(<actuallyadditions:item_dust:7>, null, [<actuallyadditions:block_misc:3>]);
-Mill.add(<embers:shard_ember> * 9, null, [<embers:crystal_ember>]);
 Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>]);
 
 Mill.add(<minecraft:flint> * 2, null, [<primal_tech:flint_block>]);

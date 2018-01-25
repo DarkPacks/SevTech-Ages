@@ -538,12 +538,6 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
 
-	//Embers
-	<embers:item_pipe>,
-	<embers:item_pump>,
-	<embers:pipe>,
-	<embers:pump>,
-
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
 	<modularmachinery:blockcasing:4>,

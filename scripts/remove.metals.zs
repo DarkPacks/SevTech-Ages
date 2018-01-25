@@ -16,14 +16,11 @@ for metalItem in metelItemsToRemove {
 	}
 }
 
+/*
 var metalItemsPending as IItemStack[] = [
-	//Mithril
-	<embers:ingot_mithril>,
-	<embers:nugget_mithril>,
-	<embers:plate_mithril>,
-	<embers:block_mithril>,
 ];
 
 for metalItem in metalItemsPending {
 	recipes.remove(metalItem);
 }
+*/

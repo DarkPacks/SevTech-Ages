@@ -697,6 +697,8 @@ var stage3Items as IIngredient[] = [
 	//Geolosys
 	<geolosys:cluster:4>,
 	<geolosys:cluster:5>,
+	<geolosys:cluster:6>,
+	<geolosys:cluster:7>,
 	<geolosys:cluster:8>,
 	<geolosys:ore:1>,
 	<geolosys:ore:6>,
@@ -708,8 +710,6 @@ var stage3Items as IIngredient[] = [
 	<geolosys:ore_sample:8>,
 	<geolosys:ore_sample_vanilla:1>,
 	<geolosys:ore_vanilla:1>,
-	<geolosys:cluster:6>,
-	<geolosys:cluster:7>,
 
 	//Extended Crafting
 	<extendedcrafting:frame>,

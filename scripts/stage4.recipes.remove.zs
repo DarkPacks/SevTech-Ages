@@ -17,9 +17,8 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_oil_generator>,
-	<actuallyadditions:item_misc:16>,
 	<actuallyadditions:item_drill:*>,
-	<pneumaticcraft:assembly_drill>,
+	<actuallyadditions:item_misc:16>,
 
 	//Cooking for Blockheads
 	<cookingforblockheads:oven>,
@@ -103,6 +102,7 @@ var removeItems as IItemStack[] = [
 	<modularrouters:upgrade:5>,
 
 	//PneumaticCraft
+	<pneumaticcraft:assembly_drill>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:gps_tool:0>,
 	<pneumaticcraft:gps_tool:30000>,

@@ -31,6 +31,10 @@ var hideItems as IItemStack[] = [
 	<embers:ore_silver>,
 	<extendedcrafting:crafting_table>,
 	<ferdinandsflowers:item_test>,
+	<geolosys:cluster:10>,
+	<geolosys:cluster:11>,
+	<geolosys:ore:10>,
+	<geolosys:ore_sample:10>,
 	<immcraft:dummybook>,
 	<immcraft:in_world_placer>,
 	<immcraft:in_world_vertical_placer>,
@@ -88,10 +92,6 @@ var hideItems as IItemStack[] = [
 	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<geolosys:ore:10>,
-	<geolosys:ore_sample:10>,
-	<geolosys:cluster:10>,
-	<geolosys:cluster:11>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

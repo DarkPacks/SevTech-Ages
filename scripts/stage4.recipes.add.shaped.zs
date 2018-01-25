@@ -881,7 +881,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

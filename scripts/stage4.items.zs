@@ -922,8 +922,8 @@ var stage4Items as IIngredient[] = [
 	<chisel:purpur:*>,
 
 	//Geolosys
-	<geolosys:ore_vanilla:4>,
 	<geolosys:ore_sample_vanilla:4>,
+	<geolosys:ore_vanilla:4>,
 
 	//Galacticraft
 	<extraplanets:tier11_items:6>,
@@ -1077,9 +1077,6 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:3>,
 	<enderutilities:syringe>,
 	<enderutilities:void_pickaxe>
-
-
-
 ];
 
 for item in stage4Items {

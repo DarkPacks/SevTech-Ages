@@ -78,8 +78,12 @@
 <ore:ingotRefinedGlowstone>.add(<mekanism:ingot:3>);
 <ore:nuggetRefinedGlowstone>.add(<mekanism:nugget:3>);
 
-//Misc
+//Bronze
 <ore:blockBronze>.add(<mekanism:basicblock:1>);
+<ore:ingotBronze>.add(<mekanism:ingot:2>);
+<ore:nuggetBronze>.add(<mekanism:nugget:2>);
+
+//Misc
 <ore:blockCharcoal>.add(<mekanism:basicblock:3>);
 <ore:blockSalt>.add(<mekanism:saltblock>);
 <ore:blockSteel>.add(<mekanism:basicblock:5>);
@@ -90,9 +94,7 @@
 <ore:dustSteel>.add(<mekanism:otherdust:1>);
 <ore:dustSulfur>.add(<mekanism:otherdust:3>);
 <ore:dustWood>.add(<mekanism:sawdust>);
-<ore:ingotBronze>.add(<mekanism:ingot:2>);
 <ore:ingotSteel>.add(<mekanism:ingot:4>);
 <ore:itemSalt>.add(<mekanism:salt>);
-<ore:nuggetBronze>.add(<mekanism:nugget:2>);
 <ore:nuggetSteel>.add(<mekanism:nugget:4>);
 <ore:pulpWood>.add(<mekanism:sawdust>);

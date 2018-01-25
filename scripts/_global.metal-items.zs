@@ -68,12 +68,12 @@ global metalItems as IIngredient[string][string] = {
 		rod: <extendedcrafting:material:3>
 	},
 	bronze: {
-		block: <embers:block_bronze>,
+		block: <mekanism:basicblock:1>,
 		dust: null,
 		gear: <materialpart:bronze:gear>,
-		ingot: <embers:ingot_bronze>,
+		ingot: <mekanism:ingot:2>,
 		liquid: <liquid:bronze>,
-		nugget: <embers:nugget_bronze>,
+		nugget: null,
 		plate: <materialpart:bronze:plate>,
 		rod: <materialpart:bronze:rod>
 	},
@@ -371,15 +371,15 @@ global metalItems as IIngredient[string][string] = {
 		rod: <materialpart:steeleaf:rod>
 	},
 	tin: {
-		block: <embers:block_tin>,
+		block: <mekanism:basicblock:13>,
 		clump: <mekanism:clump:4>,
 		crystal: <mekanism:crystal:4>,
 		dirtyDust: <mekanism:dirtydust:4>,
 		dust: <mekanism:dust:4>,
 		gear: <materialpart:tin:gear>,
-		ingot: <embers:ingot_tin>,
+		ingot: <mekanism:ingot:6>,
 		liquid: <liquid:tin>,
-		nugget: <embers:nugget_tin>,
+		nugget: null,
 		plate: <materialpart:tin:plate>,
 		rod: <materialpart:tin:rod>,
 		shard: <mekanism:shard:4>

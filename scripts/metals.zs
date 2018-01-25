@@ -91,11 +91,6 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			}
 
 			if (hasLiquid) {
-				if (loadedMods.contains("embers")) {
-					mods.embers.Stamper.remove(item);
-					mods.embers.Melter.remove(item);
-				}
-
 				if (loadedMods.contains("tconstruct")) {
 					mods.tconstruct.Casting.removeBasinRecipe(item);
 					mods.tconstruct.Casting.removeTableRecipe(item);
@@ -146,15 +141,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	/*
 		Add Metal Recipes
 	*/
-	//==============================
-	//Embers
-	if ((metalPartName == "ingot" | metalPartName == "plate") & hasLiquid) {
-		mods.embers.Stamper.remove(preferredMetalItem);
-
-		var stamp as IItemStack = metalPartName == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
-		mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
-	}
-
 	//==============================
 	//Tinker's Construct
 	if (hasLiquid) {

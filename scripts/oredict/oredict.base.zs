@@ -79,6 +79,38 @@ for shearType, shears in shearTypesAndItems {
 	}
 }
 
+var coloredPlastics as IItemStack[string] = {
+	black: <pneumaticcraft:plastic>,
+	red: <pneumaticcraft:plastic:1>,
+	green: <pneumaticcraft:plastic:2>,
+	brown: <pneumaticcraft:plastic:3>,
+	blue: <pneumaticcraft:plastic:4>,
+	purple: <pneumaticcraft:plastic:5>,
+	cryan: <pneumaticcraft:plastic:6>,
+	lightGray: <pneumaticcraft:plastic:7>,
+	gray: <pneumaticcraft:plastic:8>,
+	pink: <pneumaticcraft:plastic:9>,
+	lime: <pneumaticcraft:plastic:10>,
+	yellow: <pneumaticcraft:plastic:11>,
+	lightBlue: <pneumaticcraft:plastic:12>,
+	magenta: <pneumaticcraft:plastic:13>,
+	orange: <pneumaticcraft:plastic:14>,
+	white: <pneumaticcraft:plastic:15>
+};
+
+for color, plastic in coloredPlastics {
+	oreDict.get("plastic" + color).remove(plastic);
+
+	<ore:plasticColored>.add(plastic);
+	oreDict.get("plasticColored" + color).add(plastic);
+}
+
+//Actually Additions Drills
+for i in 0 to 16 {
+	var drill = <actuallyadditions:item_drill>.definition.makeStack(i);
+	<ore:toolDrill>.add(drill);
+}
+
 <ore:rock>.add(<immcraft:rock>);
 
 <ore:cordageGeneral>.add(<primal_tech:twine>);

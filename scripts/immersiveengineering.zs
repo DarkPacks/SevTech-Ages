@@ -67,12 +67,6 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulec
 	[metals.iron.ingot.firstItem * 5, <stevescarts:modulecomponents:19> * 3]
 );
 
-//Dawnstone
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.gold.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.dust, slag, 100, 512, [metals.gold.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.copper.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.copper.dust]);
-
 //==============================================================
 //Add recipes for alloying that is removed by metals script
 //Also adding slag as an output to them all

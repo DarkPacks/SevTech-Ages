@@ -121,16 +121,6 @@ global metalItems as IIngredient[string][string] = {
 		rod: <materialpart:copper:rod>,
 		shard: <mekanism:shard:3>
 	},
-	dawnstone: {
-		block: <embers:block_dawnstone>,
-		dust: null,
-		gear: null,
-		ingot: <embers:ingot_dawnstone>,
-		liquid: <liquid:dawnstone>,
-		nugget: <embers:nugget_dawnstone>,
-		plate: <embers:plate_dawnstone>,
-		rod: null
-	},
 	dreadium: {
 		block: <abyssalcraft:ingotblock:2>,
 		dust: <acintegration:dust:2>,

@@ -153,7 +153,7 @@ Alloy.removeRecipe(metalItems.constantan.liquid.liquids[0]);
 Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redstone> * 100, <liquid:glowstone> * 100, metalItems.constantan.liquid.liquids[0] * 144]);
 
 //Modularium
-Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.dawnstone.liquid.liquids[0] * 144]);
+Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.aluminum.liquid.liquids[0] * 144]);
 
 /*
 	Combined stuff

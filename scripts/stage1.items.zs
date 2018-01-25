@@ -948,17 +948,6 @@ var stage1Items as IIngredient[] = [
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
 
-	//Simply Tea
-	<simplytea:cup>,
-	<simplytea:cup_tea_black>,
-	<simplytea:cup_tea_green>,
-	<simplytea:hot_teapot:4>,
-	<simplytea:teabag>,
-	<simplytea:teabag_black>,
-	<simplytea:teabag_green>,
-	<simplytea:teapot:1>,
-	<simplytea:teapot>,
-
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,
 	<spartanshields:shield_basic_copper>,

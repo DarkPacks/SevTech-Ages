@@ -211,19 +211,6 @@ var hideItems as IItemStack[] = [
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
 
-	//Soot
-	<soot:mug>,
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wort", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_potato_juice", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wormwood", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_beetroot_soup", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "ale", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "vodka", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "inner_fire", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "umber_ale", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "absinthe", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "methanol", Amount: 250}}),
-
 	//Primal
 	<primal:adobebrick_dry>,
 	<primal:adobebrick_mix>,

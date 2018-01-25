@@ -87,6 +87,7 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_chest_to_crate_upgrade>,
 	<actuallyadditions:item_coffee>,
 	<actuallyadditions:item_crate_keeper>,
+	<actuallyadditions:item_drill:*>,
 	<actuallyadditions:item_drill_upgrade_block_placing>,
 	<actuallyadditions:item_drill_upgrade_five_by_five>,
 	<actuallyadditions:item_drill_upgrade_fortune>,

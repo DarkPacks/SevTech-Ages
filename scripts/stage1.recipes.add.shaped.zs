@@ -164,7 +164,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<abyssalcraft:necronomicon> : [
 		[
 			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>],
-			[<abyssalcraft:corflesh>, <roots:book_base>, <abyssalcraft:corflesh>],
+			[<abyssalcraft:corflesh>, <primal:plant_cloth>, <abyssalcraft:corflesh>],
 			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]
 		]
 	],
@@ -180,9 +180,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Beneath Porter Recipe
 	<progressiontweaks:blank_teleporter> : [
 		[
-			[<embers:archaic_edge>, <abyssalcraft:cpearl>, <embers:archaic_edge>],
+			[null, <abyssalcraft:cpearl>, null],
 			[metals.copper.block, metals.bronze.block, metals.tin.block],
-			[<minecraft:coal_block>, <roots:aubergine_item>, <minecraft:coal_block>]
+			[<minecraft:coal_block>, null, <minecraft:coal_block>]
 		]
 	],
 
@@ -305,9 +305,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Hammer
-	<embers:tinker_hammer> : [
-		[[stone, null, null], [null, stick, null], [null, null, stick]]
-	],
 	<primal_tech:stone_mallet> : [
 		[[stone, null], [stick, null]]
 	],
@@ -323,7 +320,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<astralsorcery:itemjournal> : [
 		[
 			[null, <astralsorcery:itemcraftingcomponent:5>, null],
-			[<astralsorcery:itemcraftingcomponent>, <roots:book_base>, <astralsorcery:itemcraftingcomponent>],
+			[<astralsorcery:itemcraftingcomponent>, <primal:plant_cloth>, <astralsorcery:itemcraftingcomponent>],
 			[null, <astralsorcery:itemcraftingcomponent>, null]
 		]
 	],
@@ -379,7 +376,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	*/
 	<primal_tech:charcoal_hopper> : [
-		[[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null], [null, <embers:ancient_motive_core>, null], [null, <primal_tech:wooden_hopper>, null]]
+		[[null, null, null], 
+		[null, <tconstruct:firewood>, null], 
+		[null, <primal_tech:wooden_hopper>, null]]
 	],
 
 	//BWM changes

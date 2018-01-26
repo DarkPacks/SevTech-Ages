@@ -203,6 +203,16 @@ var stageZeroItems as IIngredient[] = [
 	<minecraft:wooden_slab>,
 	<minecraft:yellow_glazed_terracotta>,
 
+	//Water strainers
+	<waterstrainer:strainer_base>,
+	<waterstrainer:strainer_survivalist>,
+	<waterstrainer:strainer_survivalist_dense>,
+	<waterstrainer:net>,
+	<waterstrainer:net:1>,
+	<waterstrainer:strainer_fisherman>,
+	<waterstrainer:worm>,
+	<waterstrainer:garden_trowel>,
+
 	//Actually Additions
 	<actuallyadditions:block_black_lotus>,
 	<actuallyadditions:block_compost>,

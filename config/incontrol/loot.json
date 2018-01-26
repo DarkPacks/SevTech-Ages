@@ -12,10 +12,6 @@
     "remove": "minecraft:iron_ingot"
   },
   {
-    "mob": "roots:deer",
-    "remove": "minecraft:leather"
-  },
-  {
     "mob": "Zombie",
     "remove": "minecraft:leather_helmet"
   },
@@ -107,11 +103,6 @@
     "mob": "Witch",
     "item": "quark:witch_hat",
     "random": 0.5
-  },
-  {
-    "mob": "roots:deer",
-    "item": "primal:pelt_animal",
-    "random": 0.25
   },
   {
     "mob": "Enderman",

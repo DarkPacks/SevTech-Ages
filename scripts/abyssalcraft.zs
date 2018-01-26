@@ -7,8 +7,8 @@ import mods.abyssalcraft.RitualStages;
 	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#infusion-rituals-are-added-this-way
 */
 InfusionRitual.addRitual("beneathritual", 0, 0, 1000, false, <beneath:teleporterbeneath>, <progressiontweaks:blank_teleporter>, [
-	<embers:block_lantern>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>,
-	<betterwithmods:material:18>, <abyssalcraft:stone:7>, <roots:fairy_dust>,
+	<minecraft:sea_lantern>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>,
+	<betterwithmods:material:18>, <abyssalcraft:stone:7>, <minecraft:gunpowder>,
 	<abyssalcraft:stone:7>, <minecraft:dark_oak_fence_gate>
 ], false, []);
 game.setLocalization("ac.ritual.beneathritual", "Beneath Portal Creation Ritual");

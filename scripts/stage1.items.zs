@@ -613,8 +613,6 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:slime_boots>,
 	<tconstruct:slime_channel:3>,
 	<tconstruct:slime_congealed:3>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "embers:block_bronze", Count: 1 as byte, Damage: 0 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "embers:block_tin", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
 
 	//Primal Core

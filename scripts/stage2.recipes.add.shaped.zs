@@ -269,7 +269,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Hopper Update Recipes in Stage 2
 	<primal_tech:charcoal_hopper> : [
-		[[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null], [null, <embers:ancient_motive_core>, null], [null, <minecraft:hopper>, null]]
+		[[null, null, null], [null, <tconstruct:firewood>, null], [null, <minecraft:hopper>, null]]
 	],
 
 	//Better With Mods
@@ -460,24 +460,25 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<tconstruct:seared_furnace_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
 		]
 	],
 	<tconstruct:smeltery_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
 		]
 	],
 	<tconstruct:tinker_tank_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:green_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
 		]
 	],
+
 
 	//Recipes to allow lift in Stage2
 	<betterwithmods:anchor> : [

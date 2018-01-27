@@ -102,9 +102,9 @@ recipes.remove(<primal_tech:rock>);
 recipes.addShapeless(<primal_tech:rock>, [<immcraft:rock>]);
 
 recipes.addShaped(<primal_tech:charcoal_hopper>, [
-	[<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <abyssalcraft:shadowgem>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})],
-	[<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <embers:ancient_motive_core>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})],
-	[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null]
+	[<totemic:cedar_plank>, <abyssalcraft:shadowgem>, <totemic:cedar_plank>],
+	[<betterwithmods:material:37>, <primal:shark_tooth>, <betterwithmods:material:37>],
+	[null, <primal_tech:wooden_hopper>, null]
 ]);
 
 //==================================
@@ -153,7 +153,6 @@ recipes.addShapeless(<primal:hide_raw> * 3, [<ore:toolWorkBlade>, <primal:pelt_s
 //==================================
 //Cyclic
 recipes.remove(<cyclicmagic:sleeping_mat>);
-recipes.addShaped(<cyclicmagic:sleeping_mat>, [[leather, leather, leather], [<roots:straw>, <roots:straw>, <roots:straw>]]);
 recipes.addShaped(<cyclicmagic:sleeping_mat>, [[leather, leather, leather], [<primal:thin_slab_thatch>, <primal:thin_slab_thatch>, <primal:thin_slab_thatch>]]);
 
 ////==================================
@@ -198,7 +197,7 @@ recipes.addShaped(<totemic:totem_whittling_knife>, [[null, <primal:flint_knapp>]
 recipes.addShaped(<totemic:totemic_staff>, [[null, <minecraft:red_flower>, <minecraft:double_plant>], [null, stick, <minecraft:yellow_flower>], [stick, null, null]]);
 recipes.addShaped(<totemic:wind_chime>, [[stick, stick, stick], [str, <minecraft:flint>, str], [<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>]]);
 
-recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <roots:book_base>]);
+recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <primal:plant_cloth>]);
 
 
 

@@ -5,10 +5,6 @@
     "result": "deny"
   },
   {
-    "mob": "embers:ancient_golem",
-    "result": "deny"
-  },
-  {
     "mob": "trumpetskeleton:trumpet_skeleton",
     "dimension": 1,
     "result": "deny"

@@ -9,7 +9,7 @@ import mods.immersiveengineering.Squeezer;
 	Alloy Smelter
 */
 //Black Iron Creation
-AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
+AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <actuallyadditions:item_dust:7>, metals.iron.ingot, 600);
 
 //Invar must be in Arc Furnace
 AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);

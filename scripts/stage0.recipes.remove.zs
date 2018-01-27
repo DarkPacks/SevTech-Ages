@@ -46,7 +46,10 @@ var removeItems as IItemStack[] = [
 	<tcomplement:porcelain_melter>,
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:firewood_slab>,
-	<traverse:fir_slab>
+	<traverse:fir_slab>,
+	<waterstrainer:garden_trowel>,
+	<waterstrainer:strainer_base>
+
 ];
 
 for item in removeItems {

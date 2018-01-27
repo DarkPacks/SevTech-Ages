@@ -12,4 +12,3 @@ Drying.removeRecipe(<minecraft:leather>);
 //Drying rack temp recipes
 Drying.addRecipe(<minecraft:leather>, <primal:hide_tanned>, 3600);
 Drying.addRecipe(<primal:hide_dried>, <primal:hide_salted>, 3600);
-Drying.addRecipe(<roots:straw>, <minecraft:tallgrass:1>, 3600);

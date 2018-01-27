@@ -26,7 +26,7 @@ Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 200, 1600, [
 //Attunement
 Altar.addAttunmentAltarRecipe(<astralsorcery:itemusabledust> * 8, 80, 600, [
 	<betterwithmods:sand_pile>, <astralsorcery:itemcraftingcomponent>, <betterwithmods:sand_pile>,
-	null, <roots:fairy_dust>, null,
+	null, <minecraft:gunpowder>, null,
 	<betterwithmods:sand_pile>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}).giveBack(<minecraft:bucket>), <betterwithmods:sand_pile>,
 	<quark:glass_shards>, <quark:glass_shards>, <quark:glass_shards>, <quark:glass_shards>
 ]);
@@ -38,13 +38,13 @@ Altar.addAttunmentAltarRecipe(<astralsorcery:blockcustomore:1> * 1, 1400, 600, [
 	<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>
 ]);
 
-//Modifies the Altar recipe to use TF and Embers items
+//Modifies the Altar recipe to use TF items
 Altar.removeAltarRecipe(<astralsorcery:blockaltar:2>, 1);
 Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 1250, 600, [
 	<astralsorcery:blockworldilluminator>, <twilightforest:firefly_jar>, <astralsorcery:blockworldilluminator>,
 	<twilightforest:maze_stone:3>, <ore:asCrystal>, <twilightforest:maze_stone:3>,
 	<twilightforest:maze_stone:6>, <twilightforest:ironwood_ingot>, <twilightforest:maze_stone:6>,
-	<embers:aspectus_dawnstone>, <embers:aspectus_dawnstone>, <twilightforest:maze_stone:2>, <twilightforest:maze_stone:2>
+	<twilightforest:liveroot>, <twilightforest:liveroot>, <twilightforest:maze_stone:2>, <twilightforest:maze_stone:2>
 ]);
 
 //=======================================

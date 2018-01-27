@@ -512,7 +512,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<stevescarts:upgrade:1> : [
 		[
 			[metals.platinum.gear, <minecraft:glowstone>, metals.platinum.gear],
-			[<minecraft:glowstone>, <embers:block_dawnstone>, <minecraft:glowstone>],
+			[<minecraft:glowstone>, metals.bronze.block, <minecraft:glowstone>],
 			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
 		]
 	],

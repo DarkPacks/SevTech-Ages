@@ -47,3 +47,4 @@ unify(<ore:gearStone>, <teslacorelib:gear_stone>, null);
 unify(<ore:gearDiamond>, <materialpart:diamond:gear>, null);
 unify(<ore:foodFlour>, <horsepower:flour>, null);
 unify(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null);
+unify(<ore:stickWood>, <minecraft:stick>, null);

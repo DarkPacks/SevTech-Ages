@@ -139,20 +139,20 @@ for i in 0 to 16 {
 <ore:logWood>.add(<traverse:fir_log:1>);
 <ore:logWood>.add(<traverse:fir_log:2>);
 
-//No need for all these extra sticks
-<ore:stickWood>.remove(<natura:sticks:0>);
-<ore:stickWood>.remove(<natura:sticks:1>);
-<ore:stickWood>.remove(<natura:sticks:2>);
-<ore:stickWood>.remove(<natura:sticks:3>);
-<ore:stickWood>.remove(<natura:sticks:4>);
-<ore:stickWood>.remove(<natura:sticks:5>);
-<ore:stickWood>.remove(<natura:sticks:6>);
-<ore:stickWood>.remove(<natura:sticks:7>);
-<ore:stickWood>.remove(<natura:sticks:8>);
-<ore:stickWood>.remove(<natura:sticks:9>);
-<ore:stickWood>.remove(<natura:sticks:10>);
-<ore:stickWood>.remove(<natura:sticks:11>);
-<ore:stickWood>.remove(<natura:sticks:12>);
+//Add sticks to oredict so we can unify
+<ore:stickWood>.add(<natura:sticks:0>);
+<ore:stickWood>.add(<natura:sticks:1>);
+<ore:stickWood>.add(<natura:sticks:2>);
+<ore:stickWood>.add(<natura:sticks:3>);
+<ore:stickWood>.add(<natura:sticks:4>);
+<ore:stickWood>.add(<natura:sticks:5>);
+<ore:stickWood>.add(<natura:sticks:6>);
+<ore:stickWood>.add(<natura:sticks:7>);
+<ore:stickWood>.add(<natura:sticks:8>);
+<ore:stickWood>.add(<natura:sticks:9>);
+<ore:stickWood>.add(<natura:sticks:10>);
+<ore:stickWood>.add(<natura:sticks:11>);
+<ore:stickWood>.add(<natura:sticks:12>);
 
 <ore:table>.add(<bibliocraft:table>);
 <ore:table>.add(<bibliocraft:table:1>);

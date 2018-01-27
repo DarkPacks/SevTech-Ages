@@ -187,19 +187,6 @@ var hideItems as IItemStack[] = [
 	<natura:soups:7>,
 	<natura:soups:8>,
 	<natura:soups>,
-	<natura:sticks:1>, //Natura Sticks Gone
-	<natura:sticks:2>, //Natura Sticks Gone
-	<natura:sticks:3>, //Natura Sticks Gone
-	<natura:sticks:4>, //Natura Sticks Gone
-	<natura:sticks:5>, //Natura Sticks Gone
-	<natura:sticks:6>, //Natura Sticks Gone
-	<natura:sticks:7>, //Natura Sticks Gone
-	<natura:sticks:8>, //Natura Sticks Gone
-	<natura:sticks:9>, //Natura Sticks Gone
-	<natura:sticks:10>, //Natura Sticks Gone
-	<natura:sticks:11>, //Natura Sticks Gone
-	<natura:sticks:12>, //Natura Sticks Gone
-	<natura:sticks>, //Natura Sticks Gone
 
 	//Buildcraft
 	<buildcraftbuilders:filler_planner>,

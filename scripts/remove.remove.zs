@@ -14,7 +14,6 @@ var removeItems as IItemStack[] = [
 	<minecraft:glass>,
 	<minecraft:glass_pane>,
 	<minecraft:leather>,
-	<minecraft:stick>,
 	<minecraft:water_bucket>,
 	<rustic:fertile_soil>,
 	<tconstruct:soil>

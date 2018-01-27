@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 
+//TODO: Really need to do this properly.. probably just use unify script with null as the preferred on oredict
+
 //Remove dusts
 var dusts as IItemStack[] = [
 	<primal:zinc_dust>,
@@ -20,5 +22,6 @@ for dust in dusts {
 }
 
 for ingot in ingots {
+	mods.immersiveengineering.AlloySmelter.removeRecipe(ingot);
 	mods.immersiveengineering.ArcFurnace.removeRecipe(ingot);
 }

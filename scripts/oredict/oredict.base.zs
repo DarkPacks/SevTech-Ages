@@ -199,13 +199,6 @@ for i in 0 to 16 {
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 <ore:dyeYellow>.remove(<minecraft:dye:11>);
 
-//<ore:dyeOrange>.remove(<coralreef:coral>);
-//<ore:dyeMagenta>.remove(<coralreef:coral:1>);
-//<ore:dyePink>.remove(<coralreef:coral:2>);
-//<ore:dyeCyan>.remove(<coralreef:coral:3>);
-//<ore:dyeGreen>.remove(<coralreef:coral:4>);
-//<ore:dyeGray>.remove(<coralreef:coral:5>);
-
 //I HAVE BARK! YOU HAS BARK! LETS OREDICTIONARY OUR BARK
 <ore:plankWood>.add(<primal:planks:0>);
 

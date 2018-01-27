@@ -83,7 +83,7 @@ var choppingRecipeItems as IIngredient[][IItemStack]= {
 		<primal:logs_stripped>,
 		<twilightforest:twilight_log>
 	],
-	<minecraft:stick> * 4 : [
+	stick * 4 : [
 		<ore:plankWood>
 	],
 	<natura:nether_planks:1> * 4 : [

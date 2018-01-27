@@ -64,7 +64,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<betterwithaddons:spindle> : [
-		[[<minecraft:stick>], [<minecraft:stick>], [<minecraft:stick>]]
+		[[stick], [stick], [stick]]
 	],
 	<betterwithmods:material> : [
 		[

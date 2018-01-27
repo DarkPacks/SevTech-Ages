@@ -143,7 +143,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>], [stone, metals.copper.gear, stone], [stone, <betterwithmods:wooden_axle>, stone]]
 	],
 	<betterwithmods:wooden_axle> : [
-		[[null, <minecraft:stick>, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <minecraft:stick>, null]]
+		[[null, stick, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, stick, null]]
 	],
 	<betterwithmods:wooden_gearbox> : [
 		[
@@ -154,9 +154,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:spindle> : [
 		[
-			[<minecraft:stick>],
-			[<minecraft:stick>],
-			[<minecraft:stick>]
+			[stick],
+			[stick],
+			[stick]
 		]
 	],
 

@@ -14,6 +14,13 @@ AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <actuallyadditions:item
 //Invar must be in Arc Furnace
 AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);
 
+//Add bronze recipe
+AlloySmelter.removeRecipe(metals.bronze.ingot.firstItem);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, metals.tin.ingot, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, metals.tin.dust, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.ingot, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.dust, 600);
+
 /*
 	Metal Press
 

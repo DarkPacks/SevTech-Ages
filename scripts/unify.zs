@@ -14,6 +14,7 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			furnace.remove(item);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.AlloySmelter.removeRecipe(item);
 				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
 				mods.immersiveengineering.Crusher.removeRecipe(item);
 				mods.immersiveengineering.MetalPress.removeRecipe(item);

@@ -1,5 +1,4 @@
-//Make this script top execution priority
-#priority 850
+#priority 750
 
 import crafttweaker.item.IIngredient;
 

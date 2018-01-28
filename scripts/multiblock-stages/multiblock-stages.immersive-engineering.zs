@@ -1,8 +1,11 @@
 import mods.multiblockstages.IEMultiBlockStages;
 
 var multiblockMachinesForStages = {
+	STAGES.one : [
+		"IE:AlloySmelter"
+	],
+
 	STAGES.three : [
-		"IE:AlloySmelter",
 		"IE:ArcFurnace",
 		"IE:AutoWorkbench",
 		"IE:BlastFurnace",

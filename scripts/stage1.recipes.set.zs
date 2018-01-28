@@ -4,6 +4,7 @@ var STAGE = STAGES.one;
 
 var itemsForStage as IIngredient[] = [
 	<huntingdim:biome_changer:*>,
+	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:storage_slab:5>,
 	<primal_tech:stone_anvil>,
 	<tconstruct:stone_ladder>,
@@ -449,7 +450,6 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_shovel_quartz>,
 	<actuallyadditions:item_sword_quartz>,
 	<actuallyadditions:quartz_paxel>
-	
 ];
 
 for item in itemsForStage {

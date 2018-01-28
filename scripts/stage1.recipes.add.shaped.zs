@@ -376,8 +376,8 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	*/
 	<primal_tech:charcoal_hopper> : [
-		[[null, null, null], 
-		[null, <tconstruct:firewood>, null], 
+		[[null, null, null],
+		[null, <tconstruct:firewood>, null],
 		[null, <primal_tech:wooden_hopper>, null]]
 	],
 
@@ -406,6 +406,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[plank, <betterwithmods:material:3>, plank],
 			[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>],
 			[plank, <betterwithmods:material:3>, plank]
+		]
+	],
+
+	//Immersive Engineering Engineer's Hammer
+	<immersiveengineering:tool> : [
+		[
+			[null, metals.copper.ingot, str],
+			[null, stick, metals.copper.ingot],
+			[stick, null, null]
 		]
 	]
 };

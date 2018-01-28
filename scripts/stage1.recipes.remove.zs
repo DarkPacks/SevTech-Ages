@@ -6,6 +6,7 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:ender_torch>,
 	<dungpipe:dung_pipe>,
 	<dungpipe:sewer_pipe>,
+	<immersiveengineering:tool>,
 	<minecraft:crafting_table>,
 	<minecraft:ladder>,
 	<minecraft:torch>,

@@ -13,8 +13,9 @@ function addShear(shear as IItemStack, isUnique as bool) {
 	}
 }
 
-//===============================================================
-//Seeds
+/*
+	Seeds
+*/
 //IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
 var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
 var seeds = [
@@ -54,8 +55,9 @@ for seed in seeds {
 	seedOreDict.add(seed);
 }
 
-//===============================================================
-//Shears
+/*
+	Shears
+*/
 var shearTypesAndItems as IItemStack[][string] = {
 	"basic": [
 		<ceramics:clay_shears:*>,
@@ -83,8 +85,9 @@ for shearType, shears in shearTypesAndItems {
 	}
 }
 
-//===============================================================
-//Plastics
+/*
+	Plastics
+*/
 var coloredPlastics as IItemStack[string] = {
 	black: <pneumaticcraft:plastic>,
 	red: <pneumaticcraft:plastic:1>,
@@ -111,15 +114,17 @@ for color, plastic in coloredPlastics {
 	oreDict.get("plasticColored" + color).add(plastic);
 }
 
-//===============================================================
-//Actually Additions Drills
+/*
+	Actually Additions Drills
+*/
 for i in 0 to 16 {
 	var drill = <actuallyadditions:item_drill>.definition.makeStack(i);
 	<ore:toolDrill>.add(drill);
 }
 
-//===============================================================
-//Logs
+/*
+	Wood Logs
+*/
 //<ore:logWood>.add(<abyssalcraft:dltlog:12>); //TODO: Is this needed?
 
 //Remove wildcard
@@ -195,8 +200,27 @@ for i in 0 to 16 {
 <ore:logWood>.add(<thebetweenlands:log_weedwood>);
 <ore:logWood>.add(<totemic:stripped_cedar_log>);
 
-//===============================================================
-//Misc
+/*
+	Wood Planks
+*/
+//Add these to ensure theyre in oredict at CrT time
+<ore:plankWood>.add(<betterwithaddons:planks_mulberry>);
+<ore:plankWood>.add(<betterwithaddons:planks_sakura>);
+<ore:plankWood>.add(<totemic:cedar_plank>);
+<ore:plankWood>.add(<traverse:fir_planks>);
+
+//Remove from oredict
+<ore:plankWood>.add(<primal:planks:1>);
+
+//Add to oredict
+<ore:plankWood>.add(<extraplanets:kepler22b_planks:*>);
+<ore:plankWood>.add(<primal:planks:*>);
+<ore:plankWood>.add(<thebetweenlands:rubber_tree_planks>);
+<ore:plankWood>.add(<thebetweenlands:weedwood_planks>);
+
+/*
+	Misc
+*/
 <ore:rock>.add(<immcraft:rock>);
 
 <ore:cordageGeneral>.add(<primal_tech:twine>);
@@ -277,9 +301,6 @@ for i in 0 to 16 {
 <ore:dyeRed>.remove(<rustic:wildberries>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 <ore:dyeYellow>.remove(<minecraft:dye:11>);
-
-//I HAVE BARK! YOU HAS BARK! LETS OREDICTIONARY OUR BARK
-<ore:plankWood>.add(<primal:planks:0>);
 
 <ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);

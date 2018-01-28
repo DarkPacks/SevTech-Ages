@@ -16,6 +16,7 @@ for id in modIDs {
 var stage1Items as IIngredient[] = [
 	<charcoalblock:charcoal_block>,
 	<immersiveengineering:stone_decoration:10>,
+	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab>,
 	<immersiveengineering:tool>,
 	<pickletweaks:coal_piece:1>,

@@ -276,7 +276,6 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:stone_decoration_slab:5>,
 	<immersiveengineering:stone_decoration_slab:6>,
 	<immersiveengineering:stone_decoration_slab:7>,
-	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:stone_decoration_slab>,
 	<immersiveengineering:stone_decoration_stairs_concrete>,
 	<immersiveengineering:stone_decoration_stairs_concrete_leaded>,

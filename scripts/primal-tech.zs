@@ -86,19 +86,15 @@ for pair in stoneAnvilPair {
 
 	mods.primaltech.WaterSaw.addRecipe(IItemStack output, IIngredient input, int chopTime);
 */
+/*
 var defaultWaterSawChopTime as int = 80;
 var defaultWaterSawChopTimeRecipes as IItemStack[][] = [
-	[<minecraft:planks> * 4, <minecraft:log>],
-	[<minecraft:planks:1> * 4, <minecraft:log:1>],
-	[<minecraft:planks:2> * 4, <minecraft:log:2>],
-	[<minecraft:planks:3> * 4, <minecraft:log:3>],
-	[<minecraft:planks:4> * 4, <minecraft:log2>],
-	[<minecraft:planks:5> * 4, <minecraft:log2:1>]
 ];
 
 for pair in defaultWaterSawChopTimeRecipes {
 	WaterSaw.addRecipe(pair[0], pair[1], defaultWaterSawChopTime);
 }
+*/
 
 /*
 	Wooden Basin

@@ -32,7 +32,7 @@ gold.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots>, 1, 
 	Add Entities
 */
 //Add groups to this array
-var armorGroups as ArmorEntity[] = [ironSword, goldSword, iron, gold] as ArmorGroup[];
+var armorGroups as ArmorGroup[] = [ironSword, goldSword, iron, gold];
 
 for armorGroup in armorGroups {
 	for mob in armorableMobEntities {

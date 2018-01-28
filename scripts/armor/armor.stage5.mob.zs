@@ -19,14 +19,14 @@ diamond.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:diamond_boots>,
 	Add Entities
 */
 //Add groups to this array
-var armorGroups = [diamondSword, diamond] as ArmorGroup[];
+var armorGroups as ArmorGroup[] = [diamondSword, diamond];
 
-var mobEntities = [
+var mobEntities as ArmorEntity[] = [
 	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
-] as ArmorEntity[];
+];
 
 for armorGroup in armorGroups {
 	for mob in mobEntities {

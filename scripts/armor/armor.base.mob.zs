@@ -6,13 +6,13 @@ import mods.armoreablemobs.ArmorGroup;
 /*
 	Clear mobs
 */
-var mobEntitiesToClear = [
+var mobEntitiesToClear as ArmorEntity[] = [
 	ArmorHandler.createArmorEntity("minecraft:husk"),
 	ArmorHandler.createArmorEntity("minecraft:skeleton"),
 	ArmorHandler.createArmorEntity("minecraft:zombie"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
-] as ArmorEntity[];
+];
 
 var blankGroup = ArmorHandler.createArmorGroup("Blank", 1.0);
 blankGroup.addArmor(ArmorHandler.createArmorSlot("head", null, 1, 0));

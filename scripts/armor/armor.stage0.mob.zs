@@ -25,14 +25,14 @@ wolf.addArmor(ArmorHandler.createArmorSlot("feet", <primal:armor_wolf_feet>, 1, 
 	Add Entities
 */
 //Add groups to this array
-var armorGroups = [sharpBone, leather, wolf] as ArmorGroup[];
+var armorGroups as ArmorGroup[] = [sharpBone, leather, wolf];
 
-var mobEntities = [
+var mobEntities as ArmorEntity[] = [
 	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
 	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
-] as ArmorEntity[];
+];
 
 for armorGroup in armorGroups {
 	for mob in mobEntities {

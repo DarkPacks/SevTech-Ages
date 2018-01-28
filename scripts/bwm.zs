@@ -111,7 +111,7 @@ StokedCauldron.remove(<minecraft:glass>);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
 */
-var sawRemovals = [
+var sawRemovals as IItemStack[] = [
 	//Sawing Corners only give 1 gear instead of 2
 	<betterwithmods:rustic_compat_corner>,
 	<betterwithmods:rustic_compat_corner:1>,
@@ -127,10 +127,10 @@ var sawRemovals = [
 	<betterwithmods:wooden_gearbox>,
 	<betterwithmods:single_machine:2>,
 	<betterwithmods:single_machine:1>
-] as IItemStack[];
+];
 
 // Input : [Outputs]
-var sawRecipes = {
+var sawRecipes as IItemStack[][IItemStack] = {
 	<minecraft:leaves> : [stick * 2],
 	<minecraft:leaves:1> : [stick * 2],
 	<minecraft:leaves:2> : [stick * 2],
@@ -249,7 +249,7 @@ var sawRecipes = {
 		<abyssalcraft:dreadplanks> * 6,
 		<betterwithmods:material:22> * 2
 	]
-} as IItemStack[][IItemStack];
+};
 
 for item in sawRemovals {
 	mods.betterwithmods.Saw.remove(item);

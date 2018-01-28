@@ -13,8 +13,10 @@ function addShear(shear as IItemStack, isUnique as bool) {
 	}
 }
 
-var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
+//===============================================================
+//Seeds
 //IF YOU MAKE A SEED ADD IT TO THE ALLSEEDS LIST! >:()
+var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
 var seeds = [
 	<actuallyadditions:item_canola_seed>,
 	<actuallyadditions:item_coffee_seed>,
@@ -52,6 +54,8 @@ for seed in seeds {
 	seedOreDict.add(seed);
 }
 
+//===============================================================
+//Shears
 var shearTypesAndItems as IItemStack[][string] = {
 	"basic": [
 		<ceramics:clay_shears:*>,
@@ -79,6 +83,8 @@ for shearType, shears in shearTypesAndItems {
 	}
 }
 
+//===============================================================
+//Plastics
 var coloredPlastics as IItemStack[string] = {
 	black: <pneumaticcraft:plastic>,
 	red: <pneumaticcraft:plastic:1>,
@@ -105,12 +111,92 @@ for color, plastic in coloredPlastics {
 	oreDict.get("plasticColored" + color).add(plastic);
 }
 
+//===============================================================
 //Actually Additions Drills
 for i in 0 to 16 {
 	var drill = <actuallyadditions:item_drill>.definition.makeStack(i);
 	<ore:toolDrill>.add(drill);
 }
 
+//===============================================================
+//Logs
+//<ore:logWood>.add(<abyssalcraft:dltlog:12>); //TODO: Is this needed?
+
+//Remove wildcard
+<ore:logWood>.remove(<minecraft:log2:*>);
+<ore:logWood>.remove(<minecraft:log:*>);
+<ore:logWood>.remove(<natura:nether_logs2:*>);
+<ore:logWood>.remove(<natura:nether_logs:*>);
+<ore:logWood>.remove(<natura:overworld_logs2:*>);
+<ore:logWood>.remove(<natura:overworld_logs:*>);
+<ore:logWood>.remove(<natura:redwood_logs:*>);
+<ore:logWood>.remove(<twilightforest:magic_log:*>);
+<ore:logWood>.remove(<twilightforest:twilight_log:*>);
+
+//Add subblocks of wildcarded ones
+<ore:logWood>.add(<minecraft:log2:1>);
+<ore:logWood>.add(<minecraft:log2>);
+<ore:logWood>.add(<minecraft:log:1>);
+<ore:logWood>.add(<minecraft:log:2>);
+<ore:logWood>.add(<minecraft:log:3>);
+<ore:logWood>.add(<minecraft:log>);
+<ore:logWood>.add(<natura:nether_logs2:15>);
+<ore:logWood>.add(<natura:nether_logs2>);
+<ore:logWood>.add(<natura:nether_logs:1>);
+<ore:logWood>.add(<natura:nether_logs:2>);
+<ore:logWood>.add(<natura:nether_logs>);
+<ore:logWood>.add(<natura:overworld_logs2:1>);
+<ore:logWood>.add(<natura:overworld_logs2:2>);
+<ore:logWood>.add(<natura:overworld_logs2:3>);
+<ore:logWood>.add(<natura:overworld_logs2>);
+<ore:logWood>.add(<natura:overworld_logs:1>);
+<ore:logWood>.add(<natura:overworld_logs:2>);
+<ore:logWood>.add(<natura:overworld_logs:3>);
+<ore:logWood>.add(<natura:overworld_logs>);
+<ore:logWood>.add(<natura:redwood_logs:1>);
+<ore:logWood>.add(<natura:redwood_logs:2>);
+<ore:logWood>.add(<natura:redwood_logs>);
+<ore:logWood>.add(<twilightforest:magic_log:1>);
+<ore:logWood>.add(<twilightforest:magic_log:2>);
+<ore:logWood>.add(<twilightforest:magic_log:3>);
+<ore:logWood>.add(<twilightforest:magic_log>);
+<ore:logWood>.add(<twilightforest:twilight_log:1>);
+<ore:logWood>.add(<twilightforest:twilight_log:2>);
+<ore:logWood>.add(<twilightforest:twilight_log:3>);
+<ore:logWood>.add(<twilightforest:twilight_log>);
+
+//Add these to ensure theyre in oredict at CrT time
+<ore:logWood>.add(<betterwithaddons:log_mulberry>);
+<ore:logWood>.add(<betterwithaddons:log_sakura>);
+<ore:logWood>.add(<betterwithmods:blood_log>);
+<ore:logWood>.add(<totemic:cedar_log>);
+<ore:logWood>.add(<traverse:fir_log>);
+
+//Add to oredict
+<ore:logWood>.add(<betterwithaddons:log_luretree>);
+<ore:logWood>.add(<betterwithaddons:log_luretree_face>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs2:1>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs2>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs:1>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs:2>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs:3>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs>);
+<ore:logWood>.add(<primal:logs>);
+<ore:logWood>.add(<primal:logs_stripped:1>);
+<ore:logWood>.add(<primal:logs_stripped:2>);
+<ore:logWood>.add(<primal:logs_stripped:3>);
+<ore:logWood>.add(<primal:logs_stripped:4>);
+<ore:logWood>.add(<primal:logs_stripped:5>);
+<ore:logWood>.add(<primal:logs_stripped:6>);
+<ore:logWood>.add(<primal:logs_stripped:7>);
+<ore:logWood>.add(<primal:logs_stripped>);
+<ore:logWood>.add(<thebetweenlands:log_rubber>);
+<ore:logWood>.add(<thebetweenlands:log_sap>);
+<ore:logWood>.add(<thebetweenlands:log_weedwood>);
+<ore:logWood>.add(<totemic:stripped_cedar_log>);
+
+//===============================================================
+//Misc
 <ore:rock>.add(<immcraft:rock>);
 
 <ore:cordageGeneral>.add(<primal_tech:twine>);
@@ -131,13 +217,6 @@ for i in 0 to 16 {
 <ore:dung>.remove(<betterwithmods:material:5>);
 
 <ore:cordageGeneral>.remove(<primal:silk_cordage>);
-
-<ore:logWood>.add(<abyssalcraft:dltlog:12>);
-<ore:logWood>.add(<minecraft:log:1>); //Temp Fix
-<ore:logWood>.add(<totemic:stripped_cedar_log>);
-<ore:logWood>.add(<traverse:fir_log>);
-<ore:logWood>.add(<traverse:fir_log:1>);
-<ore:logWood>.add(<traverse:fir_log:2>);
 
 //Add sticks to oredict so we can unify
 <ore:stickWood>.add(<natura:sticks:0>);

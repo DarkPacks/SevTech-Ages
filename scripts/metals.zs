@@ -65,45 +65,6 @@ function isItemToKeep(item as IItemStack) as bool {
 	return false;
 }
 
-function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
-	var hasLiquid = liquid as bool;
-
-	for item in oreDictEntry.items {
-		if (!item.matches(preferredItem)) {
-			mods.jei.JEI.removeAndHide(item);
-
-			furnace.remove(item);
-
-			if (loadedMods.contains("immersiveengineering")) {
-				mods.immersiveengineering.AlloySmelter.removeRecipe(item);
-				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
-				mods.immersiveengineering.Crusher.removeRecipe(item);
-				mods.immersiveengineering.MetalPress.removeRecipe(item);
-			}
-
-			if (loadedMods.contains("appliedenergistics2")) {
-				mods.appliedenergistics2.Grinder.removeRecipe(item);
-			}
-
-			if (loadedMods.contains("astralsorcery")) {
-				//TODO: Change to removeRecipe once fixed in AS
-				mods.astralsorcery.Grindstone.removeReipce(item);
-			}
-
-			if (hasLiquid) {
-				if (loadedMods.contains("tconstruct")) {
-					mods.tconstruct.Casting.removeBasinRecipe(item);
-					mods.tconstruct.Casting.removeTableRecipe(item);
-					mods.tconstruct.Melting.removeRecipe(liquid, item);
-				}
-			}
-
-			//Remove from Ore Dict
-			oreDictEntry.remove(item);
-		}
-	}
-}
-
 //Add item to oreDict if it does not exist already
 function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
 	if (!(itemOreDict in item)) {
@@ -326,7 +287,7 @@ for metalName, metal in metals {
 		if (part as bool) {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
-			unify(part, preferredMetalItem, metalLiquid);
+			scripts.unify.unify(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
 				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";

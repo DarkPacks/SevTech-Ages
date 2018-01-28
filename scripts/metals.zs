@@ -217,7 +217,39 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			immersivePressEnergy, //Energy
 			immersivePressInputCount //Input Count
 		);
+
+		//Plates can do the same as ingots
+		if (metalPartName != "plate" & metalItems[metalName].plate as bool) {
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * immersivePressOutputCount, //Output
+				metalItems[metalName].plate.items[0], //Input
+				immersivePressMold, //Mold
+				immersivePressEnergy, //Energy
+				immersivePressInputCount //Input Count
+			);
+		}
 	}
+
+	//Plates should also be used in place of ingots for wire
+	if (metalName == "copper" | metalName == "electrum" | metalName == "aluminum" | metalName == "steel") {
+		if (metalPartName == "plate") {
+			var wires as IItemStack[string] = {
+				aluminum: <immersiveengineering:material:22>,
+				copper: <immersiveengineering:material:20>,
+				electrum: <immersiveengineering:material:21>,
+				steel: <immersiveengineering:material:23>
+			};
+
+			mods.immersiveengineering.MetalPress.addRecipe(
+				wires[metalName] * 2, //Output
+				preferredMetalItem, //Input
+				<immersiveengineering:mold:4>, //Mold
+				immersivePressEnergy, //Energy
+				1 //Input Count
+			);
+		}
+	}
+
 
 	//Add ingot -> dust in crusher
 	if (metalPartName == "dust") {

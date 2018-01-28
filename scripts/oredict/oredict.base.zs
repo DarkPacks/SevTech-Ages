@@ -67,14 +67,17 @@ var shearTypesAndItems as IItemStack[][string] = {
 		<mysticalagriculture:intermedium_shears:*>,
 		<mysticalagriculture:prudentium_shears:*>,
 		<mysticalagriculture:superium_shears:*>,
-		<primal:flint_shears:*>,
-		<primal:quartz_shears:*>,
 		<primal_tech:bone_shears:*>,
 		<thebetweenlands:syrmorite_shears:*>
 	],
 
-	"unique": [
+	"indestructible": [
 		<mysticalagriculture:supremium_shears:*>
+	],
+
+	"unique": [
+		<primal:flint_shears:*>,
+		<primal:quartz_shears:*>
 	]
 };
 

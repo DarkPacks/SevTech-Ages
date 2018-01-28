@@ -3,6 +3,15 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
+static defaultArmorDropChance as double = 0.15;
+
+static armorableMobEntities as ArmorEntity[] = [
+	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
+];
+
 /*
 	Clear mobs
 */

@@ -24,8 +24,6 @@ global STAGES as string[string] = {
 	baykok : "baykok"
 };
 
-global defaultArmorDropChance as double = 0.15;
-
 global bone as IItemStack = <minecraft:bone>;
 global cane as IItemStack = <minecraft:reeds>;
 global charcoal as IItemStack = <minecraft:coal:1>;

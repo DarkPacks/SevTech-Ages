@@ -3,6 +3,9 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
+import scripts.armor._base.defaultArmorDropChance;
+import scripts.armor._base.armorableMobEntities;
+
 var STAGE = STAGES.oneMob;
 
 var stoneSword = ArmorHandler.createArmorGroup("Stone Sword", 0.4);
@@ -27,15 +30,8 @@ wolf.addArmor(ArmorHandler.createArmorSlot("feet", <primal:armor_wolf_feet>, 1, 
 //Add groups to this array
 var armorGroups as ArmorGroup[] = [stoneSword, leather, wolf];
 
-var mobEntities as ArmorEntity[] = [
-	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
-];
-
 for armorGroup in armorGroups {
-	for mob in mobEntities {
+	for mob in armorableMobEntities {
 		armorGroup.addEntity(mob);
 	}
 	//Set game stage

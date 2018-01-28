@@ -3,6 +3,9 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
+import scripts.armor._base.defaultArmorDropChance;
+import scripts.armor._base.armorableMobEntities;
+
 var STAGE = STAGES.fourMob;
 
 var ironSword = ArmorHandler.createArmorGroup("Iron Sword", 0.5);
@@ -31,15 +34,8 @@ gold.addArmor(ArmorHandler.createArmorSlot("feet", <minecraft:golden_boots>, 1, 
 //Add groups to this array
 var armorGroups as ArmorEntity[] = [ironSword, goldSword, iron, gold] as ArmorGroup[];
 
-var mobEntities as ArmorEntity[] = [
-	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
-];
-
 for armorGroup in armorGroups {
-	for mob in mobEntities {
+	for mob in armorableMobEntities {
 		armorGroup.addEntity(mob);
 	}
 	//Set game stage

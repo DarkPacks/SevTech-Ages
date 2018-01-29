@@ -44,6 +44,7 @@ var removeAndHideItems as IItemStack[] = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<pickletweaks:grass_fiber>,
+	<primal:soul_stone>,
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
 	<stevescarts:modulecomponents:9>,

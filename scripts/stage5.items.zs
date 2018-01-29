@@ -1121,6 +1121,31 @@ for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
 
+//TODO: Handle better
 //Leave this to allow Dragon Scales to be used in Stage 4
 mods.ItemStages.removeItemStage(<mysticalagradditions:stuff:3>);
-mods.ItemStages.addItemStage("four", <mysticalagradditions:stuff:3>);
+mods.ItemStages.addItemStage(STAGES.four, <mysticalagradditions:stuff:3>);
+
+//TODO: Handle better
+//Set soulstone to stage 3
+var soulstoneItems as IIngredient[] = [
+	<mysticalagriculture:cobbled_soulstone_slab>,
+	<mysticalagriculture:cobbled_soulstone_stairs>,
+	<mysticalagriculture:cobbled_soulstone_wall>,
+	<mysticalagriculture:soulstone:1>,
+	<mysticalagriculture:soulstone:2>,
+	<mysticalagriculture:soulstone:3>,
+	<mysticalagriculture:soulstone:4>,
+	<mysticalagriculture:soulstone:5>,
+	<mysticalagriculture:soulstone:6>,
+	<mysticalagriculture:soulstone>,
+	<mysticalagriculture:soulstone_brick_slab>,
+	<mysticalagriculture:soulstone_brick_stairs>,
+	<mysticalagriculture:soulstone_brick_wall>,
+	<mysticalagriculture:soulstone_slab>
+];
+
+for item in soulstoneItems {
+	mods.ItemStages.removeItemStage(item);
+	mods.ItemStages.addItemStage(STAGES.three, item);
+}

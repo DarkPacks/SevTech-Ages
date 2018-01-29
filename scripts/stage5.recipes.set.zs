@@ -757,9 +757,6 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:clay_ball",
 	"mysticalagriculture:coal_seeds",
 	"mysticalagriculture:cobalt_seeds",
-	"mysticalagriculture:cobbled_soulstone_slab",
-	"mysticalagriculture:cobbled_soulstone_stairs",
-	"mysticalagriculture:cobbled_soulstone_wall",
 	"mysticalagriculture:cobblestone",
 	"mysticalagriculture:constantan_seeds",
 	"mysticalagriculture:copper_seeds",
@@ -1178,15 +1175,6 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:soul_glass_pane",
 	"mysticalagriculture:soul_sand",
 	"mysticalagriculture:soulium_dagger",
-	"mysticalagriculture:soulstone",
-	"mysticalagriculture:soulstone_1",
-	"mysticalagriculture:soulstone_2",
-	"mysticalagriculture:soulstone_3",
-	"mysticalagriculture:soulstone_4",
-	"mysticalagriculture:soulstone_brick_slab",
-	"mysticalagriculture:soulstone_brick_stairs",
-	"mysticalagriculture:soulstone_brick_wall",
-	"mysticalagriculture:soulstone_slab",
 	"mysticalagriculture:spider_eye",
 	"mysticalagriculture:spider_seeds",
 	"mysticalagriculture:starmetal_seeds",
@@ -1264,4 +1252,25 @@ var recipesForStage as string[] = [
 
 for recipeName in recipesForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
+}
+
+//TODO: Handle better
+//Set soulstone recipes to stage 3
+var soulstoneRecipes as string[] = [
+	"mysticalagriculture:cobbled_soulstone_slab",
+	"mysticalagriculture:cobbled_soulstone_stairs",
+	"mysticalagriculture:cobbled_soulstone_wall",
+	"mysticalagriculture:soulstone",
+	"mysticalagriculture:soulstone_1",
+	"mysticalagriculture:soulstone_2",
+	"mysticalagriculture:soulstone_3",
+	"mysticalagriculture:soulstone_4",
+	"mysticalagriculture:soulstone_brick_slab",
+	"mysticalagriculture:soulstone_brick_stairs",
+	"mysticalagriculture:soulstone_brick_wall",
+	"mysticalagriculture:soulstone_slab"
+];
+
+for recipeName in soulstoneRecipes {
+	mods.recipestages.Recipes.setRecipeStage(STAGES.three, recipeName);
 }

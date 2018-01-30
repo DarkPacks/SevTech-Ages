@@ -682,6 +682,7 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:materials:9>,
 	<tconstruct:materials:18>,
 	<tconstruct:pattern:*>,
+	<tconstruct:piggybackpack>,
 	<tconstruct:seared_furnace_controller>,
 	<tconstruct:seared_glass>,
 	<tconstruct:seared_stairs_brick>,

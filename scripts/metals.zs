@@ -230,6 +230,58 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		}
 	}
 
+	//Use packing & unpacking molds for nugget -> ingot -> block (and reverse)
+	if (metalPartName == "ingot") {
+		var packingMold as IItemStack = <immersiveengineering:mold:6>;
+		var unpackingMold as IItemStack = <immersiveengineering:mold:7>;
+		var packingInputCount as int = 9;
+		var packingOutputCount as int = 1;
+		var unpackingInputCount as int = 1;
+		var unpackingOutputCount as int = 9;
+
+		//Nugget
+		if (metalItems[metalName].nugget as bool) {
+			//Packing
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * packingOutputCount, //Output
+				metalItems[metalName].nugget.items[0], //Input
+				packingMold, //Mold
+				immersivePressEnergy, //Energy
+				packingInputCount //Input Count
+			);
+
+			//Unpacking
+			mods.immersiveengineering.MetalPress.addRecipe(
+				metalItems[metalName].nugget.items[0] * unpackingOutputCount, //Output
+				preferredMetalItem, //Input
+				unpackingMold, //Mold
+				immersivePressEnergy, //Energy
+				unpackingInputCount //Input Count
+			);
+		}
+
+		//Block
+		if (metalItems[metalName].block as bool) {
+			//Packing
+			mods.immersiveengineering.MetalPress.addRecipe(
+				metalItems[metalName].block.items[0] * packingOutputCount, //Output
+				preferredMetalItem, //Input
+				packingMold, //Mold
+				immersivePressEnergy, //Energy
+				packingInputCount //Input Count
+			);
+
+			//Unpacking
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * unpackingOutputCount, //Output
+				metalItems[metalName].block.items[0], //Input
+				unpackingMold, //Mold
+				immersivePressEnergy, //Energy
+				unpackingInputCount //Input Count
+			);
+		}
+	}
+
 	//Plates should also be used in place of ingots for wire
 	if (metalName == "copper" | metalName == "electrum" | metalName == "aluminum" | metalName == "steel") {
 		if (metalPartName == "plate") {

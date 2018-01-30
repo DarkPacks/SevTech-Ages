@@ -24,6 +24,7 @@ var stage2Items as IIngredient[] = [
 	<prospectors:prospector_low>,
 	<quark:arrow_ender>,
 	<quark:arrow_explosive>,
+	<quark:stonebrick_wall>,
 	<stevescarts:cartmodule>, //Steves Carts Stage 3 Trigger Item
 	<weirdinggadget:weirding_gadget>,
 	<yoyos:book>,
@@ -314,8 +315,10 @@ var stage2Items as IIngredient[] = [
 	<minecraft:spectral_arrow>,
 	<minecraft:spruce_boat>,
 	<minecraft:sticky_piston>,
+	<minecraft:stone_brick_stairs>,
 	<minecraft:stone_pressure_plate>,
 	<minecraft:stone_slab:5>,
+	<minecraft:stonebrick:*>,
 	<minecraft:tripwire_hook>,
 	<minecraft:water_bucket>,
 	<minecraft:wooden_pressure_plate>,
@@ -408,6 +411,9 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:planter:7>,
 	<betterwithmods:planter:8>,
 	<betterwithmods:planter>,
+	<betterwithmods:stone_corner:1>,
+	<betterwithmods:stone_moulding:1>,
+	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
 
 	//Storage Drawers
@@ -533,6 +539,9 @@ var stage2Items as IIngredient[] = [
 	<chisel:lavastone2:*>,
 	<chisel:lavastone:*>,
 	<chisel:offsettool>,
+	<chisel:stonebrick1:*>,
+	<chisel:stonebrick2:*>,
+	<chisel:stonebrick:*>,
 	<chisel:waterstone1:*>,
 	<chisel:waterstone2:*>,
 	<chisel:waterstone:*>,

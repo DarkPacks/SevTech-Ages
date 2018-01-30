@@ -1186,6 +1186,7 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:stone_3",
 	"mysticalagriculture:stone_seeds",
 	"mysticalagriculture:stonebrick",
+	"mysticalagriculture:stonebrick_1",
 	"mysticalagriculture:stonebrick_2",
 	"mysticalagriculture:superium_apple",
 	"mysticalagriculture:superium_arrow",

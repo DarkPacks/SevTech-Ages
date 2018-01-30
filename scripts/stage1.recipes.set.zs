@@ -150,7 +150,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:red_sandstone_stairs>,
 	<minecraft:sandstone_stairs>,
 	<minecraft:spruce_stairs>,
-	<minecraft:stone_brick_stairs>,
 	<minecraft:stone_stairs>,
 	<quark:hardened_clay_tiles_stairs>,
 	<quark:prismarine_bricks_stairs>,

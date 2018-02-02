@@ -1,4 +1,4 @@
-mods.recipestages.Recipes.setContainerStage("primal_tech.inventory.ContainerWorkStump", ["tutorial", "zero", "baykok"]);
+mods.recipestages.Recipes.setContainerStage("primal_tech.inventory.ContainerWorkStump", [STAGES.tutorial, STAGES.zero, STAGES.baykok]);
 
 //AE Crafting Terminal
 mods.recipestages.Recipes.setContainerStage("appeng.container.implementations.ContainerCraftingTerm", [

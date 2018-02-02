@@ -64,6 +64,8 @@ Crusher.addRecipe(<betterwithmods:material:15>, <minecraft:netherrack>, 3000); /
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 3000); //Fluix dust can be made in crusher
 
+Crusher.addRecipe(metals.tin.dust.firstItem * 2, <ore:oreTin>, 3000); //Tin ore to dust
+
 /*
 	Arc Furnace
 */

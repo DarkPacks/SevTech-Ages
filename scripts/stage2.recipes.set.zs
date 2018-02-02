@@ -24,6 +24,7 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:handheld_table>,
 	<pneumaticcraft:liquid_hopper>,
 	<quark:glass_item_frame>,
+	<quark:stonebrick_wall>,
 	<yoyos:book>,
 
 	/*
@@ -40,8 +41,6 @@ var itemsForStage as IIngredient[] = [
 
 	//TComplement Melter Changes for Stage 2 / Twilight Access
 	<tcomplement:materials>,
-	<tconstruct:toolforge>,
-	<tconstruct:tooltables>,
 
 	/*
 		Items by mod
@@ -78,7 +77,9 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
 	<minecraft:sticky_piston>,
-	<minecraft:stonebrick:*>,
+	<minecraft:stone_brick_stairs>,
+	<minecraft:stonebrick:1>,
+	<minecraft:stonebrick>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
 
@@ -126,6 +127,9 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:raw_pastry:2>,
 	<betterwithmods:raw_pastry:4>,
 	<betterwithmods:raw_pastry>,
+	<betterwithmods:stone_corner:1>,
+	<betterwithmods:stone_moulding:1>,
+	<betterwithmods:stone_siding:1>,
 
 	//Super Sound Muffler
 	<supersoundmuffler:sound_muffler>,
@@ -204,6 +208,7 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:naga_chestplate>,
 	<twilightforest:naga_leggings>,
 	<twilightforest:ore_map_empty>,
+	<twilightforest:spiral_bricks>,
 	<twilightforest:steeleaf_axe>,
 	<twilightforest:steeleaf_boots>,
 	<twilightforest:steeleaf_chestplate>,

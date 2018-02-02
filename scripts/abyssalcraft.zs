@@ -1,5 +1,6 @@
 import mods.abyssalcraft.InfusionRitual;
 import mods.abyssalcraft.RitualStages;
+import mods.abyssalcraft.Rituals;
 
 /*
 	Infusion Ritual
@@ -32,9 +33,35 @@ game.setLocalization("ac.ritual.constellationpaper", "Constellation Paper");
 game.setLocalization("ac.ritual.constellationpaper.desc", "This ritual can only be performed in Stage 2");
 
 /*
+	Ritual Modifications
+
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#ritual-functionality-can-be-expanded-to-additional-dimensions-this-way
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#dimension-names-are-mapped-to-the-necronomicon-this-way
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#ritual-properties-can-be-modified-this-way
+*/
+//=============================================================
+//Altering Existing Recipes to Stage earlier
+//Transmutation Gem
+Rituals.modifyRitualOfferings("transmutationGem", [
+	<minecraft:ender_pearl>, <astralsorcery:itemcraftingcomponent>, <twilightforest:transformation_powder>,
+	<astralsorcery:itemcraftingcomponent>, <minecraft:ender_pearl>, <astralsorcery:itemcraftingcomponent>,
+	<twilightforest:transformation_powder>, <astralsorcery:itemcraftingcomponent>
+]);
+
+//Oblivion Catalyst
+Rituals.modifyRitualSacrifice("oblivionCatalyst", <minecraft:ender_pearl>);
+Rituals.modifyRitualOfferings("oblivionCatalyst", [
+	<abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>, <abyssalcraft:oblivionshard>,
+	<minecraft:prismarine_shard>, <abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>,
+	<abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>
+]);
+
+/*
 	Ritual Staging
 
 	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#ritual-stages-are-added-this-way-1112
 */
 RitualStages.addRitualStage(STAGES.one, "ascraftingtable");
 RitualStages.addRitualStage(STAGES.two, "constellationpaper");
+RitualStages.addRitualStage(STAGES.two, "transmutationGem");
+RitualStages.addRitualStage(STAGES.two, "oblivionCatalyst");

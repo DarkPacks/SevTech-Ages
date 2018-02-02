@@ -70,6 +70,7 @@ var itemsForStage as IIngredient[] = [
 	<primal:emerald_workblade>,
 
 	//Diamond Stuff
+	<cyclicmagic:block_anvil>,
 	<minecraft:diamond_horse_armor>,
 
 	//Shulker
@@ -386,6 +387,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
 	<appliedenergistics2:security_station>,
+	<appliedenergistics2:sky_compass>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -683,7 +685,12 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:advanced_launch_pad:1>,
 	<extraplanets:advanced_launch_pad:2>,
 	<extraplanets:advanced_launch_pad:3>,
-	<extraplanets:advanced_launch_pad>
+	<extraplanets:advanced_launch_pad>,
+
+	//Translocators
+	<translocator:diamondnugget>,
+	<translocator:translocator_part:1>,
+	<translocator:translocator_part>
 ];
 
 for item in itemsForStage {
@@ -757,9 +764,6 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:clay_ball",
 	"mysticalagriculture:coal_seeds",
 	"mysticalagriculture:cobalt_seeds",
-	"mysticalagriculture:cobbled_soulstone_slab",
-	"mysticalagriculture:cobbled_soulstone_stairs",
-	"mysticalagriculture:cobbled_soulstone_wall",
 	"mysticalagriculture:cobblestone",
 	"mysticalagriculture:constantan_seeds",
 	"mysticalagriculture:copper_seeds",
@@ -1178,15 +1182,6 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:soul_glass_pane",
 	"mysticalagriculture:soul_sand",
 	"mysticalagriculture:soulium_dagger",
-	"mysticalagriculture:soulstone",
-	"mysticalagriculture:soulstone_1",
-	"mysticalagriculture:soulstone_2",
-	"mysticalagriculture:soulstone_3",
-	"mysticalagriculture:soulstone_4",
-	"mysticalagriculture:soulstone_brick_slab",
-	"mysticalagriculture:soulstone_brick_stairs",
-	"mysticalagriculture:soulstone_brick_wall",
-	"mysticalagriculture:soulstone_slab",
 	"mysticalagriculture:spider_eye",
 	"mysticalagriculture:spider_seeds",
 	"mysticalagriculture:starmetal_seeds",
@@ -1198,6 +1193,7 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:stone_3",
 	"mysticalagriculture:stone_seeds",
 	"mysticalagriculture:stonebrick",
+	"mysticalagriculture:stonebrick_1",
 	"mysticalagriculture:stonebrick_2",
 	"mysticalagriculture:superium_apple",
 	"mysticalagriculture:superium_arrow",
@@ -1264,4 +1260,25 @@ var recipesForStage as string[] = [
 
 for recipeName in recipesForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
+}
+
+//TODO: Handle better
+//Set soulstone recipes to stage 3
+var soulstoneRecipes as string[] = [
+	"mysticalagriculture:cobbled_soulstone_slab",
+	"mysticalagriculture:cobbled_soulstone_stairs",
+	"mysticalagriculture:cobbled_soulstone_wall",
+	"mysticalagriculture:soulstone",
+	"mysticalagriculture:soulstone_1",
+	"mysticalagriculture:soulstone_2",
+	"mysticalagriculture:soulstone_3",
+	"mysticalagriculture:soulstone_4",
+	"mysticalagriculture:soulstone_brick_slab",
+	"mysticalagriculture:soulstone_brick_stairs",
+	"mysticalagriculture:soulstone_brick_wall",
+	"mysticalagriculture:soulstone_slab"
+];
+
+for recipeName in soulstoneRecipes {
+	mods.recipestages.Recipes.setRecipeStage(STAGES.three, recipeName);
 }

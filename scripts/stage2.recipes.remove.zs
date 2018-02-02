@@ -55,6 +55,7 @@ var removeItems as IItemStack[] = [
 
 	//Tinkers
 	<tconstruct:materials:16>,
+	<tconstruct:piggybackpack>,
 	<tconstruct:seared_furnace_controller>,
 	<tconstruct:smeltery_controller>,
 	<tconstruct:tinker_tank_controller>,
@@ -62,7 +63,10 @@ var removeItems as IItemStack[] = [
 	//Info Accessories
 	<infoaccessories:info_accessory:2>,
 	<infoaccessories:info_accessory:6>,
-	<infoaccessories:info_accessory>
+	<infoaccessories:info_accessory>,
+
+	//Abyssalcraft
+	<abyssalcraft:gatewaykey>
 ];
 
 for item in removeItems {

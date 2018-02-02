@@ -237,15 +237,20 @@ var stage4Items as IIngredient[] = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_leggings>,
+	<tconstruct:edible>,
 	<tconstruct:ore:1>,
 	<tconstruct:ore>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}),
 
 	//Primal Core
 	<primal:ladder_block_endbrick>,
 	<primal:ladder_block_endstone>,
+	<primal:void_cordage>,
+	<primal:void_fiber>,
+	<primal:void_seed>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,
@@ -609,6 +614,8 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:material:15>,
 	<appliedenergistics2:material:17>,
 	<appliedenergistics2:material:18>,
+	<appliedenergistics2:material:19>,
+	<appliedenergistics2:material:20>,
 	<appliedenergistics2:material:22>,
 	<appliedenergistics2:material:24>,
 	<appliedenergistics2:material:43>,

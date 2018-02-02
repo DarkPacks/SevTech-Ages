@@ -58,15 +58,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:quartz_block:2>,
 	<tconstruct:firewood_stairs>,
 	<tconstruct:lavawood_stairs>,
-	<quark:magma_bricks_stairs>,
-	<betterwithmods:light>,
-	<betterwithmods:mining_charge>,
-	<betterwithmods:aesthetic:10>,
-	<betterwithaddons:block_matcher>,
-	<betterwithmods:material:50>,
-	<betterwithaddons:slat>,
-	<betterwithmods:lens>,
-	<betterwithmods:stake>,
 
 	/*
 		Items by mod
@@ -432,6 +423,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:bag:15>,
 	<betterwithaddons:bag:16>,
 	<betterwithaddons:banner_detector>,
+	<betterwithaddons:block_matcher>,
 	<betterwithaddons:bundle:2>,
 	<betterwithaddons:chandelier>,
 	<betterwithaddons:ecksie_sapling:1>,
@@ -451,19 +443,26 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:japanmat:22>,
 	<betterwithaddons:japanmat:24>,
 	<betterwithaddons:japanmat:25>,
+	<betterwithaddons:slat>,
 	<betterwithaddons:soulsand_pile>,
 	<betterwithaddons:worldshard>,
 	<betterwithaddons:wrought_bars>,
 	<betterwithmods:aesthetic:3>,
+	<betterwithmods:aesthetic:10>,
 	<betterwithmods:bellows:1>,
 	<betterwithmods:hibachi>,
 	<betterwithmods:infernal_enchanter>,
+	<betterwithmods:lens>,
+	<betterwithmods:light>,
 	<betterwithmods:material:14>,
 	<betterwithmods:material:16>,
 	<betterwithmods:material:17>,
 	<betterwithmods:material:42>,
 	<betterwithmods:material:47>,
+	<betterwithmods:material:50>,
+	<betterwithmods:mining_charge>,
 	<betterwithmods:single_machine:2>,
+	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
 
@@ -795,7 +794,15 @@ var itemsForStage as IIngredient[] = [
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,
 	<witherskelefix:blade>,
-	<witherskelefix:fragment>
+	<witherskelefix:fragment>,
+
+	//Quark
+	<quark:blaze_lantern>,
+	<quark:magma_bricks_stairs>,
+
+	//YoYo
+	//TODO: Why isnt this handled by tcon part staging
+	<yoyos:cord>
 ];
 
 for item in itemsForStage {

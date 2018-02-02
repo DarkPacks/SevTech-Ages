@@ -457,6 +457,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Tinkers'
+	<tconstruct:piggybackpack> : [
+		[
+			[null, stick, null],
+			[leather, null, leather],
+			[null, stick, null]
+		]
+	],
 	<tconstruct:seared_furnace_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
@@ -519,8 +526,16 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [
 		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
+	],
+
+	//Abyssalcraft
+	<abyssalcraft:gatewaykey> : [
+		[
+			[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>],
+			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
+			[<thebetweenlands:items_misc:14>, null, null]
+		]
 	]
-	
 };
 
 for item, recipesForItem in shapedRecipes {

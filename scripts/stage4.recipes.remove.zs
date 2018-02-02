@@ -156,7 +156,10 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:grid>,
 	<refinedstorage:importer>,
 	<refinedstorage:interface>,
-	<refinedstorage:quartz_enriched_iron>
+	<refinedstorage:quartz_enriched_iron>,
+
+	//Galacticraft
+	<galacticraftcore:machine:12>
 ];
 
 for item in removeItems {

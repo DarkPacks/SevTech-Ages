@@ -53,15 +53,28 @@ var materialsForStage as string[][string] = {
 		"copper",
 		"dreadium",
 		"electrum",
+		"feather",
+		"hemp",
+		"ice",
 		"iron",
+		"leaf",
 		"prismarine",
+		"reed",
 		"refined_coralium",
 		"silver",
 		"slime",
-		"sponge"
+		"slimeleaf_blue",
+		"slimeleaf_orange",
+		"slimeleaf_purple",
+		"slimevine_blue",
+		"slimevine_purple",
+		"sponge",
+		"string",
+		"vine"
 	],
 
 	STAGES.three : [
+		"blaze",
 		"endstone",
 		"firewood",
 		"lead",
@@ -69,18 +82,19 @@ var materialsForStage as string[][string] = {
 		"netherrack",
 		"obsidian",
 		"paper",
+		"pigiron",
 		"steel",
-		"treatedwood",
-		"pigiron"
+		"treatedwood"
 	],
 
 	STAGES.four : [
 		"ardite",
 		"cobalt",
+		"endrod",
 		"integrationforegoing.pink_slime",
 		"integrationforegoing.plastic",
-		"manyullyn",
-		"knightslime"
+		"knightslime",
+		"manyullyn"
 	],
 
 	STAGES.five : [

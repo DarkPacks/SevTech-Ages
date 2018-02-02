@@ -880,6 +880,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, null, <pneumaticcraft:pneumatic_cylinder>],
 			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
 		]
+	],
+
+	//Galacticraft
+	<galacticraftcore:machine:12>: [
+		[
+			[metals.aluminum.plate, <minecraft:piston>, metals.aluminum.plate],
+			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, <betterwithmods:steel_anvil>, metals.aluminum.plate]
+		]
 	]
 };
 

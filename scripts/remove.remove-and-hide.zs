@@ -29,6 +29,7 @@ var removeAndHideItems as IItemStack[] = [
 	<cyclicmagic:tool_randomize>,
 	<immcraft:bookstand>,
 	<immcraft:furnace>,
+	<cyclicmagic:charm_air>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
@@ -50,6 +51,13 @@ var removeAndHideItems as IItemStack[] = [
 	<stevescarts:modulecomponents:9>,
 	<storagedrawers:basicdrawers:*>,
 	<totemic:medicine_bag>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
+	<advancedmortars:mortar:2>,
+	<advancedmortars:mortar:3>,
+	<immcraft:chisel>,
+	<immcraft:saw>,
+	<immcraft:manual>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

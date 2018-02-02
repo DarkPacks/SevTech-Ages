@@ -38,3 +38,19 @@ game.setLocalization("ac.ritual.constellationpaper.desc", "This ritual can only 
 */
 RitualStages.addRitualStage(STAGES.one, "ascraftingtable");
 RitualStages.addRitualStage(STAGES.two, "constellationpaper");
+RitualStages.addRitualStage(STAGES.two, "transmutationGem");
+RitualStages.addRitualStage(STAGES.two, "oblivionCatalyst");
+
+//Altering Existing Recipes to Stage earlier
+//Transmutation Gem
+mods.abyssalcraft.Rituals.modifyRitualOfferings("transmutationGem", 
+[<minecraft:ender_pearl>, <astralsorcery:itemcraftingcomponent>, <twilightforest:transformation_powder>, 
+<astralsorcery:itemcraftingcomponent>, <minecraft:ender_pearl>, <astralsorcery:itemcraftingcomponent>,
+<twilightforest:transformation_powder>, <astralsorcery:itemcraftingcomponent>]);
+
+//Oblivion Catalyst
+mods.abyssalcraft.Rituals.modifyRitualSacrifice("oblivionCatalyst", <minecraft:ender_pearl>);
+mods.abyssalcraft.Rituals.modifyRitualOfferings("oblivionCatalyst", 
+[<abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>, <abyssalcraft:oblivionshard>, 
+<minecraft:prismarine_shard>, <abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>,
+<abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>]);

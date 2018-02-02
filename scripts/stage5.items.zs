@@ -84,6 +84,7 @@ var stage5Items as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
+	<cyclicmagic:block_anvil>,
 
 	/*
 		Items by mod
@@ -531,13 +532,11 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:view_cell>,
 	<appliedenergistics2:wireless_access_point>,
 	<appliedenergistics2:wireless_terminal>,
+	<appliedenergistics2:sky_compass>,
 
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
 	<appliedenergistics2:part:100>,
-	<appliedenergistics2:part:160>,
-	<appliedenergistics2:part:180>,
-	<appliedenergistics2:part:200>,
 	<appliedenergistics2:part:280>,
 	<appliedenergistics2:part:300>,
 	<appliedenergistics2:part:301>,
@@ -1114,7 +1113,13 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:uranus:8>,
 	<extraplanets:uranus>,
 	<extraplanets:uranus_spawner>,
-	<extraplanets:white_sugar_cane>
+	<extraplanets:white_sugar_cane>,
+
+	//Translocators
+	<translocator:translocator_part>,
+	<translocator:translocator_part:1>,
+	<translocator:diamondnugget>
+
 ];
 
 for item in stage5Items {

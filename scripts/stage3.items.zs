@@ -160,6 +160,35 @@ var stage3Items as IIngredient[] = [
 	<primal:thatching_nether>,
 	<primal:valus_seed>,
 	<primal:wall:11>,
+	<primal:soul_stone:5>,
+	<primal:soul_stone:6>,
+	<primal:scoria_stone>,
+	<primal:scoria_stone:1>,
+	<primal:scoria_stone:2>,
+	<primal:scoria_stone:3>,
+	<primal:scoria_stone:4>,
+	<primal:scoria_stone:6>,
+	<primal:scoria_stone:5>,
+	<primal:armor_ovis_feet>,
+	<primal:armor_ovis_legs>,
+	<primal:armor_ovis_body>,
+	<primal:armor_ovis_head>,
+	<primal:sinuous_spores>,
+	<primal:valus_stalk_fresh>,
+	<primal:valus_sepals>,
+	<primal:muck_molten>,
+	<primal:aconite_root>,
+	<primal:ovis_meat_cooked>,
+	<primal:pigman_meat_cooked>,
+	<primal:void_grass_root>,
+	<primal:salt_dust_fire>,
+	<primal:soul_stone:1>,
+	<primal:soul_stone:2>,
+	<primal:soul_stone:3>,
+	<primal:soul_stone:4>,
+
+
+	//Quark
 	<quark:charred_nether_brick_slab>,
 	<quark:charred_nether_brick_stairs>,
 	<quark:charred_nether_bricks>,
@@ -167,6 +196,7 @@ var stage3Items as IIngredient[] = [
 	<quark:red_nether_brick_slab>,
 	<quark:red_nether_brick_stairs>,
 	<quark:smoker>,
+	<quark:blaze_lantern>,
 
 	//Redstone
 	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone", Amount: 1000}}),
@@ -268,6 +298,9 @@ var stage3Items as IIngredient[] = [
 	<natura:nether_tainted_soil:2>,
 	<natura:nether_tainted_soil>,
 	<natura:nether_thorn_vines>,
+	<natura:materials:7>,
+	<natura:edibles>,
+	<natura:edibles:1>,
 
 	//Primal
 	<primal:ash_bin:9>,
@@ -301,6 +334,13 @@ var stage3Items as IIngredient[] = [
 	<primal:tamahagane_plate>,
 	<primal:thin_slab_corypha>,
 	<primal:void_grass>,
+	<primal:desiccated_stone>,
+	<primal:desiccated_stone:1>,
+	<primal:desiccated_stone:2>,
+	<primal:desiccated_stone:3>,
+	<primal:desiccated_stone:4>,
+	<primal:desiccated_stone:5>,
+	<primal:desiccated_stone:6>,
 
 	//Chisel
 	<chisel:blockaluminum:*>,
@@ -1209,6 +1249,8 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
+	<tconstruct:firewood:1>,
+	<tconstruct:firewood_slab:1>,
 
 	//AbyssalCraft
 	<abyssalcraft:azathothcharm:2>,
@@ -1230,7 +1272,6 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:nyarlathotepcharm:3>,
 	<abyssalcraft:shubniggurathcharm:2>,
 	<abyssalcraft:shubniggurathcharm:3>,
-	<abyssalcraft:transmutationgem>,
 	<abyssalcraft:transmutator>,
 	<abyssalcraft:yogsothothcharm:2>,
 	<abyssalcraft:yogsothothcharm:3>,
@@ -1289,7 +1330,37 @@ var stage3Items as IIngredient[] = [
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,
 	<witherskelefix:blade>,
-	<witherskelefix:fragment>
+	<witherskelefix:fragment>,
+
+	//Yoyo
+	<yoyos:cord>,
+
+	<tconstruct:slime_sapling>,
+
+	<primal:shelf_half:9>,
+	<primal:ash_bin:9>,
+	<primal:ore_salt:1>,
+	<primal:soulglass>,
+	<primal:sinuous_weed>,
+	<primal:valus_omniferum>,
+	<primal:daucus_murn>,
+	<primal:old_mans_beard>,
+	<primal:ferro_slack>,
+	<primal:valus_stalk_withered>,
+	<primal:sinuous_resin>,
+	<primal:cheese_red>,
+	<primal:pigman_meat_dried>,
+	<primal:ovis_meat_dried>,
+	<primal:pigman_meat_raw>,
+	<primal:ovis_meat_raw>,
+	<primal:chunk_soulsand>,
+	<primal:obsidian_shard>,
+	<primal:obsidian_knapp>,
+	<primal:obsidian_point>,
+	<primal:obsidian_lens>,
+	<primal:mushroom_cooked>,
+	<primal:void_seed>
+	
 ];
 
 for item in stage3Items {

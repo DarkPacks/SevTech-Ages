@@ -3,7 +3,8 @@ import mods.appliedenergistics2.Inscriber;
 
 var ae as IItemStack[string][string] = {
 	press: {
-		silicon: <appliedenergistics2:material:19>
+		silicon: <appliedenergistics2:material:19>,
+		engineering: <appliedenergistics2:material:14>
 	},
 	printed: {
 		calculation: <appliedenergistics2:material:16>,
@@ -71,3 +72,5 @@ Inscriber.addRecipe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade>, false,
 		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}), <minecraft:redstone>);
 Inscriber.addRecipe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade>, false,
 		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:redstone>);
+
+Inscriber.addRecipe(<appliedenergistics2:material:17>, <galacticraftcore:heavy_plating>, true, ae.press.engineering);

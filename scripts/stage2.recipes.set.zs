@@ -41,8 +41,6 @@ var itemsForStage as IIngredient[] = [
 
 	//TComplement Melter Changes for Stage 2 / Twilight Access
 	<tcomplement:materials>,
-	<tconstruct:toolforge>,
-	<tconstruct:tooltables>,
 
 	/*
 		Items by mod
@@ -231,6 +229,7 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:yeti_helmet>,
 	<twilightforest:yeti_leggings>,
 	<twilightforest:zombie_scepter>,
+	<twilightforest:spiral_bricks>,
 
 	//Bibliocraft
 	<bibliocraft:armorstand:1>,

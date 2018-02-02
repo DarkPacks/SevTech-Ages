@@ -242,10 +242,15 @@ var stage4Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:edible>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}),
 
 	//Primal Core
 	<primal:ladder_block_endbrick>,
 	<primal:ladder_block_endstone>,
+	<primal:void_fiber>,
+	<primal:void_cordage>,
+	<primal:void_seed>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,
@@ -658,6 +663,8 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:quartz_slab>,
 	<appliedenergistics2:quartz_stairs>,
 	<appliedenergistics2:quartz_vibrant_glass>,
+	<appliedenergistics2:material:19>,
+	<appliedenergistics2:material:20>,
 
 	//Refined Storage
 	<refinedstorage:cable>,

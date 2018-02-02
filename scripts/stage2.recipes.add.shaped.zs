@@ -526,7 +526,24 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [
 		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
+	],
+
+
+	//Abyssalcraft
+	<abyssalcraft:gatewaykey> : [
+		[[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>], 
+		[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>], 
+		[<thebetweenlands:items_misc:14>, null, null]]
 	]
+
+
+
+
+
+
+
+
+
 
 };
 

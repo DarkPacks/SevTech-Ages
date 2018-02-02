@@ -38,6 +38,9 @@ var stage2Items as IIngredient[] = [
 	<pickletweaks:repair_kit:17>,
 	<pickletweaks:repair_kit:21>,
 
+	//Twilight Forest
+	<twilightforest:spiral_bricks>,
+
 	//Ore
 	<abyssalcraft:abygolore>,
 	<abyssalcraft:abyiroore>,
@@ -52,6 +55,10 @@ var stage2Items as IIngredient[] = [
 	<minecraft:stained_glass_pane:*>,
 	<quark:glass_item_frame>,
 	<quark:glass_shards:*>,
+
+	//Applied Energistics
+	<appliedenergistics2:grindstone>,
+	<appliedenergistics2:crank>,
 
 	//Iron Stuff
 	<betterbuilderswands:wandiron>,
@@ -325,6 +332,8 @@ var stage2Items as IIngredient[] = [
 	<minecraft:wool:*>,
 	<minecraft:writable_book>,
 	<minecraft:written_book>,
+
+	<appliedenergistics2:material:46>,
 
 	//Geolosys
 	<geolosys:cluster:1>,
@@ -601,8 +610,11 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemtunedcelestialcrystal:*>,
 	<astralsorcery:itemtunedrockcrystal:*>,
 	<astralsorcery:itemusabledust:*>,
-	<astralsorcery:itemwand:0>,
-	<astralsorcery:itemwand:*>,
+	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.discidia"}}),
+	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}}),
+	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.evorsio"}}),
+	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.aevitas"}}),
+	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.armara"}}),
 	<astralsorcery:itemwand>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 
@@ -641,6 +653,19 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:1>,
 	<abyssalcraft:yogsothothcharm>,
 	<abyssalcraft:yogsothothcoin>,
+	<abyssalcraft:transmutationgem>,
+	<abyssalcraft:abybrick>,
+	<abyssalcraft:stone:4>,
+	<abyssalcraft:cobblestone:4>,
+	<abyssalcraft:abyfence>,
+	<abyssalcraft:luminousthistle>,
+	<abyssalcraft:stone:1>,
+	<abyssalcraft:abyssalsand>,
+	<abyssalcraft:fusedabyssalsand>,
+	<abyssalcraft:wastelandsthorn>,
+	<abyssalcraft:oblivionshard>,
+	<abyssalcraft:oc>,
+	<abyssalcraft:gatewaykey>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
@@ -712,6 +737,22 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:tooltables:2>,
 	<tconstruct:tooltables:4>,
 	<tconstruct:tooltables>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 3 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 7 as short}}),
+	<tconstruct:seared:5>,
+	<tconstruct:seared:6>,
+	<tconstruct:seared:7>,
+	<tconstruct:seared:8>,
+	<tconstruct:seared:9>,
+	<tconstruct:seared:10>,
+	<tconstruct:seared:11>,
+	<tconstruct:seared_slab:5>,
+	<tconstruct:seared_slab:6>,
+	<tconstruct:seared_slab:7>,
+	<tconstruct:seared_slab2>,
+	<tconstruct:seared_slab2:1>,
+	<tconstruct:seared_slab2:2>,
+	<tconstruct:seared_slab2:3>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

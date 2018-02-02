@@ -58,7 +58,19 @@ var materialsForStage as string[][string] = {
 		"refined_coralium",
 		"silver",
 		"slime",
-		"sponge"
+		"sponge",
+		"reed",
+		"ice",
+		"feather",
+		"slimeleaf_blue",
+		"slimeleaf_orange",
+		"slimeleaf_purple",
+		"leaf",
+		"string",
+		"slimevine_blue",
+		"slimevine_purple",
+		"vine",
+		"hemp"
 	],
 
 	STAGES.three : [
@@ -71,7 +83,8 @@ var materialsForStage as string[][string] = {
 		"paper",
 		"steel",
 		"treatedwood",
-		"pigiron"
+		"pigiron",
+		"blaze"
 	],
 
 	STAGES.four : [
@@ -80,7 +93,8 @@ var materialsForStage as string[][string] = {
 		"integrationforegoing.pink_slime",
 		"integrationforegoing.plastic",
 		"manyullyn",
-		"knightslime"
+		"knightslime",
+		"endrod"
 	],
 
 	STAGES.five : [

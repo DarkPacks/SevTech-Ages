@@ -20,7 +20,17 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative:1>,
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
-	<totemic:ceremony_cheat>
+	<totemic:ceremony_cheat>,
+	<galacticraftcore:concealed_detector>,
+	<galacticraftcore:rocket_t1:4>,
+	<galacticraftcore:infinite_oxygen>,
+	<galacticraftcore:infinite_battery>,
+	<galacticraftcore:dungeonfinder>,
+	<galacticraftplanets:rocket_t2:4>,
+	<galacticraftplanets:rocket_t2:14>,
+	<galacticraftplanets:rocket_t3:4>,
+	<waterstrainer:super_worm>
+
 ];
 
 for item in creativeItems {

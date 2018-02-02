@@ -51,6 +51,7 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
+	<cyclicmagic:block_anvil>,
 
 	/*
 		Items by "type"
@@ -411,6 +412,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:view_cell>,
 	<appliedenergistics2:wireless_access_point>,
 	<appliedenergistics2:wireless_terminal>,
+	<appliedenergistics2:sky_compass>,
 
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
@@ -683,7 +685,13 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:advanced_launch_pad:1>,
 	<extraplanets:advanced_launch_pad:2>,
 	<extraplanets:advanced_launch_pad:3>,
-	<extraplanets:advanced_launch_pad>
+	<extraplanets:advanced_launch_pad>,
+
+	//Translocators
+	<translocator:translocator_part>,
+	<translocator:translocator_part:1>,
+	<translocator:diamondnugget>
+
 ];
 
 for item in itemsForStage {

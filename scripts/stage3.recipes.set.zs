@@ -58,7 +58,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:quartz_block:2>,
 	<tconstruct:firewood_stairs>,
 	<tconstruct:lavawood_stairs>,
-	<quark:magma_bricks_stairs>,
+
 	<betterwithmods:light>,
 	<betterwithmods:mining_charge>,
 	<betterwithmods:aesthetic:10>,
@@ -67,6 +67,10 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:slat>,
 	<betterwithmods:lens>,
 	<betterwithmods:stake>,
+
+	//Quark
+	<quark:blaze_lantern>,
+	<quark:magma_bricks_stairs>,
 
 	/*
 		Items by mod
@@ -795,7 +799,10 @@ var itemsForStage as IIngredient[] = [
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,
 	<witherskelefix:blade>,
-	<witherskelefix:fragment>
+	<witherskelefix:fragment>,
+
+	//YoYo
+	<yoyos:cord>	
 ];
 
 for item in itemsForStage {

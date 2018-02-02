@@ -1,8 +1,6 @@
 /*
 	Colored Drill Recipes
 */
-
-/*
 recipes.addShapeless(
 	"colored_drill",
 	<actuallyadditions:item_drill:*>,
@@ -13,5 +11,3 @@ recipes.addShapeless(
 	},
 	null
 );
-
-*/

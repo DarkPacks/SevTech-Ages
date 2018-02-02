@@ -62,6 +62,8 @@ Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 
 Crusher.addRecipe(<betterwithmods:material:15>, <minecraft:netherrack>, 3000); //Ground netherrack
 
+Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 3000); //Fluix dust can be made in crusher
+
 /*
 	Arc Furnace
 */

@@ -160,7 +160,6 @@ var removeItems as IItemStack[] = [
 
 	//Galacticraft
 	<galacticraftcore:machine:12>
-
 ];
 
 for item in removeItems {

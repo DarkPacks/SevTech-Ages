@@ -890,11 +890,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, <betterwithmods:steel_anvil>, metals.aluminum.plate]
 		]
 	]
-
-
-
-
-
 };
 
 for item, recipesForItem in shapedRecipes {

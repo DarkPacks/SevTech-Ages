@@ -66,6 +66,7 @@ var stage5Items as IIngredient[] = [
 	<betterwithmods:material:46>,
 	<chiselsandbits:bitsaw_diamond>,
 	<chiselsandbits:chisel_diamond>,
+	<cyclicmagic:block_anvil>,
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:material:128>,
@@ -84,7 +85,6 @@ var stage5Items as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
-	<cyclicmagic:block_anvil>,
 
 	/*
 		Items by mod
@@ -507,6 +507,7 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
 	<appliedenergistics2:security_station>,
+	<appliedenergistics2:sky_compass>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -532,7 +533,6 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:view_cell>,
 	<appliedenergistics2:wireless_access_point>,
 	<appliedenergistics2:wireless_terminal>,
-	<appliedenergistics2:sky_compass>,
 
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
@@ -1116,10 +1116,9 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:white_sugar_cane>,
 
 	//Translocators
-	<translocator:translocator_part>,
+	<translocator:diamondnugget>,
 	<translocator:translocator_part:1>,
-	<translocator:diamondnugget>
-
+	<translocator:translocator_part>
 ];
 
 for item in stage5Items {

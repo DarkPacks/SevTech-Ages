@@ -208,6 +208,7 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:naga_chestplate>,
 	<twilightforest:naga_leggings>,
 	<twilightforest:ore_map_empty>,
+	<twilightforest:spiral_bricks>,
 	<twilightforest:steeleaf_axe>,
 	<twilightforest:steeleaf_boots>,
 	<twilightforest:steeleaf_chestplate>,
@@ -229,7 +230,6 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:yeti_helmet>,
 	<twilightforest:yeti_leggings>,
 	<twilightforest:zombie_scepter>,
-	<twilightforest:spiral_bricks>,
 
 	//Bibliocraft
 	<bibliocraft:armorstand:1>,

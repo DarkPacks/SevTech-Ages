@@ -528,23 +528,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
 	],
 
-
 	//Abyssalcraft
 	<abyssalcraft:gatewaykey> : [
-		[[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>], 
-		[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>], 
-		[<thebetweenlands:items_misc:14>, null, null]]
+		[
+			[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>],
+			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
+			[<thebetweenlands:items_misc:14>, null, null]
+		]
 	]
-
-
-
-
-
-
-
-
-
-
 };
 
 for item, recipesForItem in shapedRecipes {

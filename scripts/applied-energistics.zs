@@ -3,8 +3,8 @@ import mods.appliedenergistics2.Inscriber;
 
 var ae as IItemStack[string][string] = {
 	press: {
-		silicon: <appliedenergistics2:material:19>,
-		engineering: <appliedenergistics2:material:14>
+		engineering: <appliedenergistics2:material:14>,
+		silicon: <appliedenergistics2:material:19>
 	},
 	printed: {
 		calculation: <appliedenergistics2:material:16>,
@@ -43,6 +43,9 @@ var rs as IItemStack[string][string] = {
 Inscriber.removeRecipe(ae.printed.silicon);
 Inscriber.addRecipe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);
 
+//Use GC heavy plating for printed engineering
+Inscriber.addRecipe(ae.printed.engineering, <galacticraftcore:heavy_plating>, true, ae.press.engineering);
+
 //==============================================
 //Refined Storage re-creation
 Inscriber.addRecipe(<refinedstorage:fluid_interface>, <refinedstorage:interface>, false, <minecraft:bucket>, <minecraft:redstone>);
@@ -72,5 +75,3 @@ Inscriber.addRecipe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade>, false,
 		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}), <minecraft:redstone>);
 Inscriber.addRecipe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade>, false,
 		<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:redstone>);
-
-Inscriber.addRecipe(<appliedenergistics2:material:17>, <galacticraftcore:heavy_plating>, true, ae.press.engineering);

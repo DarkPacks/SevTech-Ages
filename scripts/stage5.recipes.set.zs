@@ -51,7 +51,6 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
-	<cyclicmagic:block_anvil>,
 
 	/*
 		Items by "type"
@@ -71,6 +70,7 @@ var itemsForStage as IIngredient[] = [
 	<primal:emerald_workblade>,
 
 	//Diamond Stuff
+	<cyclicmagic:block_anvil>,
 	<minecraft:diamond_horse_armor>,
 
 	//Shulker
@@ -387,6 +387,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
 	<appliedenergistics2:security_station>,
+	<appliedenergistics2:sky_compass>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -412,7 +413,6 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:view_cell>,
 	<appliedenergistics2:wireless_access_point>,
 	<appliedenergistics2:wireless_terminal>,
-	<appliedenergistics2:sky_compass>,
 
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
@@ -688,10 +688,9 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:advanced_launch_pad>,
 
 	//Translocators
-	<translocator:translocator_part>,
+	<translocator:diamondnugget>,
 	<translocator:translocator_part:1>,
-	<translocator:diamondnugget>
-
+	<translocator:translocator_part>
 ];
 
 for item in itemsForStage {

@@ -44,6 +44,7 @@ Inscriber.removeRecipe(ae.printed.silicon);
 Inscriber.addRecipe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);
 
 //Use GC heavy plating for printed engineering
+Inscriber.removeRecipe(ae.printed.engineering);
 Inscriber.addRecipe(ae.printed.engineering, <galacticraftcore:heavy_plating>, true, ae.press.engineering);
 
 //==============================================

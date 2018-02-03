@@ -1,3 +1,5 @@
+#priority -1
+
 /*
 	Stage from killing Baykok
 */

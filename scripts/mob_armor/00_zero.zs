@@ -1,3 +1,5 @@
+#priority -1
+
 import mods.armoreablemobs.ArmorHandler;
 import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;

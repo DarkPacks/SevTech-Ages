@@ -32,6 +32,7 @@ var materials as Material[string] = {
 	"redstone": MaterialSystem.getMaterialBuilder().setName("Redstone").setColor(9895936).build(),
 	"redstoneAlloy": MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(15157577).build(),
 	"reinforcedMetal": MaterialSystem.getMaterialBuilder().setName("Reinforced Metal").setColor(7643841).build(),
+	"silicon": MaterialSystem.getMaterialBuilder().setName("Silicon").setColor(Color.fromHex("141414")).build(),
 	"silver": MaterialSystem.getMaterialBuilder().setName("Silver").setColor(15592941).build(),
 	"steel": MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build(),
 	"steeleaf": MaterialSystem.getMaterialBuilder().setName("Steeleaf").setColor(4283598394).build(),
@@ -187,4 +188,15 @@ var gearMaterialList as Material[] = [
 
 for material in gearMaterialList {
 	material.registerPart("gear");
+}
+
+//==================================
+//Ore Samples
+var oreSampleMaterials as Material[] = [
+	materials.osmium,
+	materials.silicon
+];
+
+for material in oreSampleMaterials {
+	material.registerPart("ore_sample");
 }

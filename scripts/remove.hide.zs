@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var hideItems as IItemStack[] = [
+	<base:wrench>,
 	<baubles:ring>,
 	<cd4017be_lib:m>,
 	<chisel:ironpane:1>,
@@ -25,12 +26,12 @@ var hideItems as IItemStack[] = [
 	<cyclicmagic:storage_bag>,
 	<cyclicmagic:uncrafting_block>,
 	<darkutils:sneaky_bedrock>,
-	<embers:ore_aluminum>,
-	<embers:ore_copper>,
-	<embers:ore_lead>,
-	<embers:ore_silver>,
 	<extendedcrafting:crafting_table>,
 	<ferdinandsflowers:item_test>,
+	<geolosys:cluster:10>,
+	<geolosys:cluster:11>,
+	<geolosys:ore:10>,
+	<geolosys:ore_sample:10>,
 	<immcraft:dummybook>,
 	<immcraft:in_world_placer>,
 	<immcraft:in_world_vertical_placer>,
@@ -74,18 +75,6 @@ var hideItems as IItemStack[] = [
 	<rftools:notick_invisible_shield_block>,
 	<rftools:notick_solid_shield_block>,
 	<rftools:solid_shield_block>,
-	<roots:aubergine>,
-	<roots:diamond_hammer>,
-	<roots:gold_hammer>,
-	<roots:iron_hammer>,
-	<roots:moonglow>,
-	<roots:pereskia>,
-	<roots:spirit_herb>,
-	<roots:stone_hammer>,
-	<roots:structure_marker>,
-	<roots:terra_moss>,
-	<roots:wildroot>,
-	<roots:wood_hammer>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
 
@@ -199,19 +188,6 @@ var hideItems as IItemStack[] = [
 	<natura:soups:7>,
 	<natura:soups:8>,
 	<natura:soups>,
-	<natura:sticks:1>, //Natura Sticks Gone
-	<natura:sticks:2>, //Natura Sticks Gone
-	<natura:sticks:3>, //Natura Sticks Gone
-	<natura:sticks:4>, //Natura Sticks Gone
-	<natura:sticks:5>, //Natura Sticks Gone
-	<natura:sticks:6>, //Natura Sticks Gone
-	<natura:sticks:7>, //Natura Sticks Gone
-	<natura:sticks:8>, //Natura Sticks Gone
-	<natura:sticks:9>, //Natura Sticks Gone
-	<natura:sticks:10>, //Natura Sticks Gone
-	<natura:sticks:11>, //Natura Sticks Gone
-	<natura:sticks:12>, //Natura Sticks Gone
-	<natura:sticks>, //Natura Sticks Gone
 
 	//Buildcraft
 	<buildcraftbuilders:filler_planner>,
@@ -222,19 +198,6 @@ var hideItems as IItemStack[] = [
 	<buildcraftcore:volume_box>,
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
-
-	//Soot
-	<soot:mug>,
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wort", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_potato_juice", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_wormwood", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "boiling_beetroot_soup", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "ale", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "vodka", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "inner_fire", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "umber_ale", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "absinthe", Amount: 250}}),
-	<soot:mug>.withTag({Fluid: {FluidName: "methanol", Amount: 250}}),
 
 	//Primal
 	<primal:adobebrick_dry>,
@@ -268,6 +231,11 @@ var hideItems as IItemStack[] = [
 	<primal:charcoal_good>,
 	<primal:charcoal_high>,
 	<primal:charcoal_pure>,
+	<primal:charcoal_stack:1>,
+	<primal:charcoal_stack:2>,
+	<primal:charcoal_stack:3>,
+	<primal:charcoal_stack:4>,
+	<primal:charcoal_stack>,
 	<primal:cinisclay_block>,
 	<primal:cinisclay_clump>,
 	<primal:ciniscotta_block:1>,
@@ -280,6 +248,7 @@ var hideItems as IItemStack[] = [
 	<primal:ciniscotta_brick>,
 	<primal:copper_strand>,
 	<primal:corypha_bow>,
+	<primal:dirt_stick>,
 	<primal:drying_rack:*>,
 	<primal:fire_bow>,
 	<primal:firepit>,
@@ -304,6 +273,7 @@ var hideItems as IItemStack[] = [
 	<primal:gator_meat_cured>,
 	<primal:gator_meat_rotten>,
 	<primal:gator_meat_salted>,
+	<primal:grated_gravel>,
 	<primal:hardened_stone:1>,
 	<primal:hardened_stone:2>,
 	<primal:hardened_stone:3>,
@@ -323,13 +293,17 @@ var hideItems as IItemStack[] = [
 	<primal:hibachi>,
 	<primal:hide_spoiled>,
 	<primal:horse_meat_rotten>,
+	<primal:iron_clippers>,
+	<primal:iron_gallagher>,
 	<primal:iron_mesh>,
 	<primal:iron_pin>,
 	<primal:iron_ring>,
 	<primal:iron_strand>,
 	<primal:ironwood_bow>,
+	<primal:ironwood_stick>,
 	<primal:jackolantern>,
 	<primal:kiln_adobe>,
+	<primal:lacquer_stick>,
 	<primal:ladder_acacia>,
 	<primal:ladder_bigoak>,
 	<primal:ladder_birch>,
@@ -364,6 +338,8 @@ var hideItems as IItemStack[] = [
 	<primal:logs_stacked:6>,
 	<primal:logs_stacked:7>,
 	<primal:logs_stacked>,
+	<primal:metalblock:8>,
+	<primal:metalblock:12>,
 	<primal:obsidian_axe>,
 	<primal:obsidian_hatchet>,
 	<primal:obsidian_hoe>,
@@ -411,6 +387,7 @@ var hideItems as IItemStack[] = [
 	<primal:silver_dust>,
 	<primal:smoke>,
 	<primal:stairs_carbonate_flag>,
+	<primal:stone_gallagher>,
 	<primal:tall_grass_seeds>,
 	<primal:tamahagane_ingot>,
 	<primal:torch_nether>,
@@ -422,14 +399,20 @@ var hideItems as IItemStack[] = [
 	<primal:vanadium_nugget>,
 	<primal:vanadium_plate>,
 	<primal:wolf_meat_rotten>,
+	<primal:wood_pin>,
 	<primal:wootz_dust>,
 	<primal:wootz_ingot>,
 	<primal:wootz_nugget>,
 	<primal:wootz_plate>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
+	<primal:zinc_dust>,
+	<primal:zinc_ingot>,
+	<primal:zinc_nugget>,
+	<primal:zinc_plate>,
 
 	//Tinkers
+	<tconstruct:moms_spaghetti>,
 	<tconstruct:slime_grass_tall:1>,
 	<tconstruct:slime_grass_tall:4>,
 	<tconstruct:slime_grass_tall:5>,
@@ -442,6 +425,7 @@ var hideItems as IItemStack[] = [
 	<tconstruct:slime_vine_purple>,
 	<tconstruct:slime_vine_purple_end>,
 	<tconstruct:slime_vine_purple_mid>,
+	<tconstruct:spaghetti>,
 	<tconstruct:throwball:1>,
 
 	//Hide In-progress AE Crystal seeds

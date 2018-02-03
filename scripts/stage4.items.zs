@@ -237,15 +237,20 @@ var stage4Items as IIngredient[] = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_leggings>,
+	<tconstruct:edible>,
 	<tconstruct:ore:1>,
 	<tconstruct:ore>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}),
 
 	//Primal Core
 	<primal:ladder_block_endbrick>,
 	<primal:ladder_block_endstone>,
+	<primal:void_cordage>,
+	<primal:void_fiber>,
+	<primal:void_seed>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,
@@ -538,12 +543,6 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
 
-	//Embers
-	<embers:item_pipe>,
-	<embers:item_pump>,
-	<embers:pipe>,
-	<embers:pump>,
-
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
 	<modularmachinery:blockcasing:4>,
@@ -615,6 +614,8 @@ var stage4Items as IIngredient[] = [
 	<appliedenergistics2:material:15>,
 	<appliedenergistics2:material:17>,
 	<appliedenergistics2:material:18>,
+	<appliedenergistics2:material:19>,
+	<appliedenergistics2:material:20>,
 	<appliedenergistics2:material:22>,
 	<appliedenergistics2:material:24>,
 	<appliedenergistics2:material:43>,
@@ -920,6 +921,10 @@ var stage4Items as IIngredient[] = [
 	<chisel:purpur1:*>,
 	<chisel:purpur2:*>,
 	<chisel:purpur:*>,
+
+	//Geolosys
+	<geolosys:ore_sample_vanilla:4>,
+	<geolosys:ore_vanilla:4>,
 
 	//Galacticraft
 	<extraplanets:tier11_items:6>,

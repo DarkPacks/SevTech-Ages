@@ -30,10 +30,10 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:dirt>, <minecraft:dye:15>]
 	],
 	<minecraft:gunpowder> : [
-		[<roots:fairy_dust>, <ore:dyeBlack>, <minecraft:dye:15>]
+		[<betterwithmods:material:37>, <ore:dyeBlack>, <ore:foodSalt>]
 	],
 	<progressiontweaks:spear> : [
-		[<progressiontweaks:broken_spear_shaft>, <minecraft:stick>],
+		[<progressiontweaks:broken_spear_shaft>, stick],
 		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
 	],
 	<primal:bark_acacia> : [

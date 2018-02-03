@@ -1,5 +1,4 @@
-//Make this script top execution priority
-#priority 850
+#priority 750
 
 import crafttweaker.item.IIngredient;
 
@@ -68,12 +67,12 @@ global metalItems as IIngredient[string][string] = {
 		rod: <extendedcrafting:material:3>
 	},
 	bronze: {
-		block: <embers:block_bronze>,
+		block: <mekanism:basicblock:1>,
 		dust: null,
 		gear: <materialpart:bronze:gear>,
-		ingot: <embers:ingot_bronze>,
+		ingot: <mekanism:ingot:2>,
 		liquid: <liquid:bronze>,
-		nugget: <embers:nugget_bronze>,
+		nugget: null,
 		plate: <materialpart:bronze:plate>,
 		rod: <materialpart:bronze:rod>
 	},
@@ -120,16 +119,6 @@ global metalItems as IIngredient[string][string] = {
 		plate: <immersiveengineering:metal:30>,
 		rod: <materialpart:copper:rod>,
 		shard: <mekanism:shard:3>
-	},
-	dawnstone: {
-		block: <embers:block_dawnstone>,
-		dust: null,
-		gear: null,
-		ingot: <embers:ingot_dawnstone>,
-		liquid: <liquid:dawnstone>,
-		nugget: <embers:nugget_dawnstone>,
-		plate: <embers:plate_dawnstone>,
-		rod: null
 	},
 	dreadium: {
 		block: <abyssalcraft:ingotblock:2>,
@@ -381,15 +370,15 @@ global metalItems as IIngredient[string][string] = {
 		rod: <materialpart:steeleaf:rod>
 	},
 	tin: {
-		block: <embers:block_tin>,
+		block: <mekanism:basicblock:13>,
 		clump: <mekanism:clump:4>,
 		crystal: <mekanism:crystal:4>,
 		dirtyDust: <mekanism:dirtydust:4>,
 		dust: <mekanism:dust:4>,
 		gear: <materialpart:tin:gear>,
-		ingot: <embers:ingot_tin>,
+		ingot: <mekanism:ingot:6>,
 		liquid: <liquid:tin>,
-		nugget: <embers:nugget_tin>,
+		nugget: null,
 		plate: <materialpart:tin:plate>,
 		rod: <materialpart:tin:rod>,
 		shard: <mekanism:shard:4>

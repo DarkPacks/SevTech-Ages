@@ -9,10 +9,17 @@ import mods.immersiveengineering.Squeezer;
 	Alloy Smelter
 */
 //Black Iron Creation
-AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <embers:dust_ash>, metals.iron.ingot, 600);
+AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <actuallyadditions:item_dust:7>, metals.iron.ingot, 600);
 
 //Invar must be in Arc Furnace
 AlloySmelter.removeRecipe(metals.invar.ingot.firstItem);
+
+//Add bronze recipe
+AlloySmelter.removeRecipe(metals.bronze.ingot.firstItem);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, metals.tin.ingot, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, metals.tin.dust, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.ingot, 600);
+AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.dust, 600);
 
 /*
 	Metal Press
@@ -53,6 +60,12 @@ Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
 
 Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 
+Crusher.addRecipe(<betterwithmods:material:15>, <minecraft:netherrack>, 3000); //Ground netherrack
+
+Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 3000); //Fluix dust can be made in crusher
+
+Crusher.addRecipe(metals.tin.dust.firstItem * 2, <ore:oreTin>, 3000); //Tin ore to dust
+
 /*
 	Arc Furnace
 */
@@ -66,12 +79,6 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:46> * 2, metals.platinum.bloc
 ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulecomponents:20>, slag, 200, 512,
 	[metals.iron.ingot.firstItem * 5, <stevescarts:modulecomponents:19> * 3]
 );
-
-//Dawnstone
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.gold.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.copper.dust, slag, 100, 512, [metals.gold.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.copper.dust]);
-ArcFurnace.addRecipe(metals.dawnstone.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.copper.dust]);
 
 //==============================================================
 //Add recipes for alloying that is removed by metals script

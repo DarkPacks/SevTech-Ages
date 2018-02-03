@@ -5,6 +5,7 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:clock>,
 	<immersiveengineering:metal_device0:5>,
 	<minecraft:ender_chest>,
+	<mob_grinding_utils:tank_sink>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
 
@@ -16,6 +17,8 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_oil_generator>,
+	<actuallyadditions:item_drill:*>,
+	<actuallyadditions:item_misc:16>,
 
 	//Cooking for Blockheads
 	<cookingforblockheads:oven>,
@@ -99,6 +102,7 @@ var removeItems as IItemStack[] = [
 	<modularrouters:upgrade:5>,
 
 	//PneumaticCraft
+	<pneumaticcraft:assembly_drill>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:gps_tool:0>,
 	<pneumaticcraft:gps_tool:30000>,
@@ -152,7 +156,10 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:grid>,
 	<refinedstorage:importer>,
 	<refinedstorage:interface>,
-	<refinedstorage:quartz_enriched_iron>
+	<refinedstorage:quartz_enriched_iron>,
+
+	//Galacticraft
+	<galacticraftcore:machine:12>
 ];
 
 for item in removeItems {

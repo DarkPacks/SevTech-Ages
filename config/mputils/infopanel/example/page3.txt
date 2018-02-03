@@ -1,0 +1,3 @@
+Look page 3!
+You can use Minecrafts §9Color §2Codes §6to§r §nmake your InfoPanels look Good.
+Setting the 'mustRead' in your json file will force the player to read the infopanel for at least 20 secs. Unless its was opened from a book... This will change to forcing player to read something new only once. At the moment it is what it is. 

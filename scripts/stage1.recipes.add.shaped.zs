@@ -143,7 +143,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>], [stone, metals.copper.gear, stone], [stone, <betterwithmods:wooden_axle>, stone]]
 	],
 	<betterwithmods:wooden_axle> : [
-		[[null, <minecraft:stick>, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <minecraft:stick>, null]]
+		[[null, stick, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, stick, null]]
 	],
 	<betterwithmods:wooden_gearbox> : [
 		[
@@ -154,149 +154,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:spindle> : [
 		[
-			[<minecraft:stick>],
-			[<minecraft:stick>],
-			[<minecraft:stick>]
-		]
-	],
-
-	//Embers recipes fixed for Stage1
-	<embers:archaic_circuit> : [
-		[
-			[<embers:plate_caminite>, <embers:archaic_brick>, <embers:plate_caminite>],
-			[<embers:archaic_brick>, <embers:ancient_motive_core>, <embers:archaic_brick>],
-			[<embers:plate_caminite>, <embers:archaic_brick>, <embers:plate_caminite>]
-		]
-	],
-	<embers:archaic_edge> : [
-		[
-			[<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>],
-			[<embers:archaic_brick>, <embers:crystal_ember>, <embers:archaic_brick>],
-			[<embers:archaic_brick>, <embers:archaic_brick>, <embers:archaic_brick>]
-		]
-	],
-	<embers:archaic_light> : [
-		[[null, <embers:archaic_brick>, null], [<embers:archaic_brick>, <embers:crystal_ember>, <embers:archaic_brick>], [null, <embers:archaic_brick>, null]]
-	],
-	<embers:axe_bronze> : [
-		[[metals.bronze.plate, metals.bronze.plate, null], [metals.bronze.plate, stick, null], [null, stick, null]]
-	],
-	<embers:axe_copper> : [
-		[[metals.copper.plate, metals.copper.plate, null], [metals.copper.plate, stick, null], [null, stick, null]]
-	],
-	<embers:axe_tin> : [
-		[[metals.tin.plate, metals.tin.plate, null], [metals.tin.plate, stick, null], [null, stick, null]]
-	],
-	<embers:block_caminite_brick> : [
-		[[<embers:brick_caminite>, <embers:brick_caminite>], [<embers:brick_caminite>, <embers:brick_caminite>]]
-	],
-	<embers:block_caminite_brick_slab> * 6 : [
-		[[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]]
-	],
-	<embers:block_lantern> : [
-		[[null, metals.copper.plate, null], [null, <embers:crystal_ember>, null], [null, metals.copper.plate, null]]
-	],
-	<embers:codex> : [
-		[[null, <embers:archaic_brick>, null], [<embers:archaic_brick>, <embers:ancient_motive_core>, <embers:archaic_brick>], [null, <embers:archaic_brick>, null]]
-	],
-	<embers:copper_cell> : [
-		[
-			[<embers:stairs_caminite_brick>, <embers:plate_caminite>, <embers:stairs_caminite_brick>],
-			[<embers:plate_caminite>, metals.copper.block, <embers:plate_caminite>],
-			[<embers:stairs_caminite_brick>, <embers:plate_caminite>, <embers:stairs_caminite_brick>]
-		]
-	],
-	<embers:ember_activator> : [
-		[[null, null, null], [metals.tin.plate, metals.tin.plate, metals.tin.plate], [<embers:plate_caminite>, <minecraft:furnace>, <embers:plate_caminite>]]
-	],
-	<embers:ember_bore> : [
-		[
-			[<embers:stairs_caminite_brick>, metals.copper.plate, <embers:stairs_caminite_brick>],
-			[<embers:stairs_caminite_brick>, <embers:mech_core>, <embers:stairs_caminite_brick>],
-			[metals.tin.plate, metals.tin.plate, metals.tin.plate]
-		]
-	],
-	<embers:ember_detector> : [
-		[[null, metals.tin.plate, null], [metals.copper.plate, <primal:flint_point>, metals.copper.plate], [null, metals.tin.plate, null]]
-	],
-	<embers:ember_emitter> : [
-		[[null, metals.copper.rod, null], [<embers:plate_caminite>, metals.copper.rod, <embers:plate_caminite>], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
-	],
-	<embers:ember_gauge> : [
-		[[null, metals.copper.plate, null], [metals.copper.plate, metals.copper.rod, metals.copper.plate], [null, metals.tin.ingot, null]]
-	],
-	<embers:ember_receiver> : [
-		[[null, null, null], [<embers:plate_caminite>, null, <embers:plate_caminite>], [metals.copper.plate, <embers:plate_caminite>, metals.copper.plate]]
-	],
-	<embers:fluid_gauge> : [
-		[[null, metals.tin.plate, null], [metals.tin.plate, metals.copper.red, metals.tin.plate], [null, metals.tin.ingot, null]]
-	],
-	<embers:hoe_bronze> : [
-		[[metals.bronze.plate, metals.bronze.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_copper> : [
-		[[metals.copper.plate, metals.copper.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_tin> : [
-		[[metals.tin.plate, metals.tin.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:mech_accessor> : [
-		[[null, null, null], [<embers:stairs_caminite_brick>, <embers:plate_caminite>, metals.tin.plate], [null, null, null]]
-	],
-	<embers:mech_core> : [
-		[[metals.tin.plate, metals.copper.plate, metals.tin.plate], [metals.copper.plate, <embers:archaic_circuit>, metals.copper.plate], [metals.tin.plate, metals.copper.plate, metals.tin.plate]]
-	],
-	<embers:mixer> : [
-		[[metals.tin.plate, null, metals.tin.plate], [metals.tin.plate, <embers:mech_core>, metals.tin.plate], [<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>]]
-	],
-	<embers:pickaxe_bronze> : [
-		[[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_copper> : [
-		[[metals.copper.plate, metals.copper.plate, metals.copper.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_tin> : [
-		[[metals.tin.plate, metals.tin.plate, metals.tin.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_bronze> : [
-		[[null, metals.bronze.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_copper> : [
-		[[null, metals.copper.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_tin> : [
-		[[null, metals.tin.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:stairs_caminite_brick> * 6 : [
-		[
-			[<embers:block_caminite_brick>, null, null],
-			[<embers:block_caminite_brick>, <embers:block_caminite_brick>, null],
-			[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
-		]
-	],
-	<embers:stamper> : [
-		[
-			[<embers:plate_caminite>, <embers:plate_caminite>, <embers:plate_caminite>],
-			[<embers:plate_caminite>, metals.bronze.block, <embers:plate_caminite>],
-			[<embers:plate_caminite>, null, <embers:plate_caminite>]
-		]
-	],
-	<embers:stamper_base> : [
-		[[<embers:plate_caminite>, <ceramics:clay_barrel:1>, <embers:plate_caminite>], [<embers:block_caminite_brick>, <ceramics:clay_barrel>, <embers:block_caminite_brick>]]
-	],
-	<embers:sword_bronze> : [
-		[[null, metals.bronze.plate, null], [null, metals.bronze.plate, null], [null, stick, null]]
-	],
-	<embers:sword_copper> : [
-		[[null, metals.copper.plate, null], [null, metals.copper.plate, null], [null, stick, null]]
-	],
-	<embers:sword_tin> : [
-		[[null, metals.tin.plate, null], [null, metals.tin.plate, null], [null, stick, null]]
-	],
-	<embers:wall_caminite_brick> * 6 : [
-		[
-			[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>],
-			[<embers:block_caminite_brick>, <embers:block_caminite_brick>, <embers:block_caminite_brick>]
+			[stick],
+			[stick],
+			[stick]
 		]
 	],
 
@@ -304,7 +164,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<abyssalcraft:necronomicon> : [
 		[
 			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>],
-			[<abyssalcraft:corflesh>, <roots:book_base>, <abyssalcraft:corflesh>],
+			[<abyssalcraft:corflesh>, <primal:plant_cloth>, <abyssalcraft:corflesh>],
 			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]
 		]
 	],
@@ -320,9 +180,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Beneath Porter Recipe
 	<progressiontweaks:blank_teleporter> : [
 		[
-			[<embers:archaic_edge>, <abyssalcraft:cpearl>, <embers:archaic_edge>],
+			[null, <abyssalcraft:cpearl>, null],
 			[metals.copper.block, metals.bronze.block, metals.tin.block],
-			[<minecraft:coal_block>, <roots:aubergine_item>, <minecraft:coal_block>]
+			[<minecraft:coal_block>, null, <minecraft:coal_block>]
 		]
 	],
 
@@ -445,9 +305,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Hammer
-	<embers:tinker_hammer> : [
-		[[stone, null, null], [null, stick, null], [null, null, stick]]
-	],
 	<primal_tech:stone_mallet> : [
 		[[stone, null], [stick, null]]
 	],
@@ -463,7 +320,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<astralsorcery:itemjournal> : [
 		[
 			[null, <astralsorcery:itemcraftingcomponent:5>, null],
-			[<astralsorcery:itemcraftingcomponent>, <roots:book_base>, <astralsorcery:itemcraftingcomponent>],
+			[<astralsorcery:itemcraftingcomponent>, <primal:plant_cloth>, <astralsorcery:itemcraftingcomponent>],
 			[null, <astralsorcery:itemcraftingcomponent>, null]
 		]
 	],
@@ -519,7 +376,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	*/
 	<primal_tech:charcoal_hopper> : [
-		[[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null], [null, <embers:ancient_motive_core>, null], [null, <primal_tech:wooden_hopper>, null]]
+		[[null, null, null],
+		[null, <tconstruct:firewood>, null],
+		[null, <primal_tech:wooden_hopper>, null]]
 	],
 
 	//BWM changes
@@ -550,15 +409,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Simply Tea
-	<simplytea:teabag> : [
+	//Immersive Engineering Engineer's Hammer
+	<immersiveengineering:tool> : [
 		[
-			[null, <betterwithmods:material:3>, str],
-			[<ore:clothPlant>, <ore:clothPlant>, null],
-			[<ore:clothPlant>, <ore:clothPlant>, null]
+			[null, metals.copper.ingot, str],
+			[null, stick, metals.copper.ingot],
+			[stick, null, null]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

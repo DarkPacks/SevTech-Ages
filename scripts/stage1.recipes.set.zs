@@ -4,6 +4,8 @@ var STAGE = STAGES.one;
 
 var itemsForStage as IIngredient[] = [
 	<huntingdim:biome_changer:*>,
+	<immersiveengineering:stone_decoration:10>,
+	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab:5>,
 	<primal_tech:stone_anvil>,
 	<tconstruct:stone_ladder>,
@@ -148,7 +150,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:red_sandstone_stairs>,
 	<minecraft:sandstone_stairs>,
 	<minecraft:spruce_stairs>,
-	<minecraft:stone_brick_stairs>,
 	<minecraft:stone_stairs>,
 	<quark:hardened_clay_tiles_stairs>,
 	<quark:prismarine_bricks_stairs>,
@@ -448,22 +449,7 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_pickaxe_quartz>,
 	<actuallyadditions:item_shovel_quartz>,
 	<actuallyadditions:item_sword_quartz>,
-	<actuallyadditions:quartz_paxel>,
-
-	//Embers
-	<embers:stamp_bar_raw>,
-	<embers:stamp_flat_raw>,
-	<embers:stamp_plate_raw>,
-	<embers:stone_edge>,
-
-	//Simply Tea
-	<simplytea:cup>,
-	<simplytea:cup_tea_black>,
-	<simplytea:cup_tea_green>,
-	<simplytea:teabag_black>,
-	<simplytea:teabag_green>,
-	<simplytea:teapot:1>,
-	<simplytea:teapot>
+	<actuallyadditions:quartz_paxel>
 ];
 
 for item in itemsForStage {

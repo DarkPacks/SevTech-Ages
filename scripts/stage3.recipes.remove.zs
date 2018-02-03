@@ -19,28 +19,6 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:item_food:12>,
 	<actuallyadditions:item_food:14>,
 
-	//Embers
-	<embers:axe_aluminum>,
-	<embers:axe_lead>,
-	<embers:axe_nickel>,
-	<embers:axe_silver>,
-	<embers:hoe_aluminum>,
-	<embers:hoe_lead>,
-	<embers:hoe_nickel>,
-	<embers:hoe_silver>,
-	<embers:pickaxe_aluminum>,
-	<embers:pickaxe_lead>,
-	<embers:pickaxe_nickel>,
-	<embers:pickaxe_silver>,
-	<embers:shovel_aluminum>,
-	<embers:shovel_lead>,
-	<embers:shovel_nickel>,
-	<embers:shovel_silver>,
-	<embers:sword_aluminum>,
-	<embers:sword_lead>,
-	<embers:sword_nickel>,
-	<embers:sword_silver>,
-
 	//Extended Crafting
 	<extendedcrafting:material:7>,
 	<extendedcrafting:material:14>,

@@ -2,7 +2,7 @@
   "jetpack_type": {
     "name": "emerald",
     "disable": false,
-    "tier": 5,
+    "tier": 2,
     "color": 4322180,
     "armor_points": 4,
     "enchantability": 15,
@@ -10,7 +10,7 @@
     "force_recipes": false
   },
   "jetpack_info": {
-    "capacity": 48000000,
+    "capacity": 100000000,
     "usage": 880,
     "speed_vertical": 1.03,
     "accel_vertical": 0.17,

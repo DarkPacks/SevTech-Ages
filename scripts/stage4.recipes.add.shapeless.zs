@@ -160,6 +160,11 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[
 			<mob_grinding_utils:tank>
 		]
+	],
+	<mob_grinding_utils:tank_sink> : [
+		[
+			<mob_grinding_utils:tank_sink>
+		]
 	]
 };
 
@@ -168,4 +173,3 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-

@@ -12,10 +12,6 @@
     "remove": "minecraft:iron_ingot"
   },
   {
-    "mob": "roots:deer",
-    "remove": "minecraft:leather"
-  },
-  {
     "mob": "Zombie",
     "remove": "minecraft:leather_helmet"
   },
@@ -107,11 +103,6 @@
     "mob": "Witch",
     "item": "quark:witch_hat",
     "random": 0.5
-  },
-  {
-    "mob": "roots:deer",
-    "item": "primal:pelt_animal",
-    "random": 0.25
   },
   {
     "mob": "Enderman",
@@ -348,26 +339,6 @@
     "remove": "minecraft:spider_eye"
   },
   {
-    "mob": "emberroot:rainbow_golem",
-    "item": "embers:archaic_brick",
-    "random": 1.0
-  },
-  {
-    "mob": "emberroot:rainbow_golem",
-    "item": "embers:archaic_brick",
-    "random": 0.50
-  },
-  {
-    "mob": "emberroot:rainbow_golem",
-    "item": "embers:archaic_brick",
-    "random": 0.25
-  },
-  {
-    "mob": "emberroot:rainbow_golem",
-    "item": "embers:ancient_motive_core",
-    "random": 1.0
-  },
-  {
     "mob": "emberroot:witherwitch",
     "remove": "minecraft:glass_bottle"
   },
@@ -432,5 +403,16 @@
   {
     "mob": "nex:monster_spinout",
     "remove": "minecraft:quartz"
+  },
+
+  {
+    "mob": "twilightforest:skeleton_druid",
+    "item": "twilightforest:transformation_powder",
+    "random": 0.25
+  },
+  {
+    "mob": "twilightforest:bighorn_sheep",
+    "item": "twilightforest:transformation_powder",
+    "random": 0.05
   }
 ]

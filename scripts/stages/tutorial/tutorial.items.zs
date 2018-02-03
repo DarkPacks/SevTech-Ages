@@ -33,7 +33,7 @@ var stageTutorialItems as IIngredient[] = [
 	<minecraft:planks>,
 	<minecraft:porkchop>,
 	<minecraft:potato>,
-	<minecraft:stick>,
+	stick,
 	<minecraft:stone>,
 	<minecraft:wheat>,
 	<pickletweaks:grass_mesh>,

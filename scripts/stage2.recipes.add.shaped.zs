@@ -30,6 +30,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
 		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
 	],
+	<minecraft:glass_bottle> * 3: [
+		[[<ore:blockGlass>, null, <ore:blockGlass>], [null, <ore:blockGlass>, null]]
+	],
 	<betterbuilderswands:wandiron> : [
 		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],
@@ -266,7 +269,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Hopper Update Recipes in Stage 2
 	<primal_tech:charcoal_hopper> : [
-		[[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null], [null, <embers:ancient_motive_core>, null], [null, <minecraft:hopper>, null]]
+		[[null, null, null], [null, <tconstruct:firewood>, null], [null, <minecraft:hopper>, null]]
 	],
 
 	//Better With Mods
@@ -454,27 +457,35 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Tinkers'
+	<tconstruct:piggybackpack> : [
+		[
+			[null, stick, null],
+			[leather, null, leather],
+			[null, stick, null]
+		]
+	],
 	<tconstruct:seared_furnace_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
 		]
 	],
 	<tconstruct:smeltery_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
 		]
 	],
 	<tconstruct:tinker_tank_controller> : [
 		[
 			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <embers:ember_cluster>, <tconstruct:materials>],
+			[<tconstruct:materials>, <thebetweenlands:green_middle_gem>, <tconstruct:materials>],
 			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
 		]
 	],
+
 
 	//Recipes to allow lift in Stage2
 	<betterwithmods:anchor> : [
@@ -517,24 +528,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
 	],
 
-	//Embers Stage 2
-	<embers:axe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [metals.dawnstone.plate, stick, null], [null, stick, null]]
-	],
-	<embers:cinder_plinth> : [
-		[[null, metals.iron.plate, null], [metals.iron.plate, <minecraft:furnace>, metals.iron.plate], [metals.iron.plate, <embers:block_caminite_brick>, metals.iron.plate]]
-	],
-	<embers:hoe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_dawnstone> : [
-		[[metals.dawnstone.plate, metals.dawnstone.plate, metals.dawnstone.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_dawnstone> : [
-		[[null, metals.dawnstone.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:sword_dawnstone> : [
-		[[null, metals.dawnstone.plate, null], [null, metals.dawnstone.plate, null], [null, stick, null]]
+	//Abyssalcraft
+	<abyssalcraft:gatewaykey> : [
+		[
+			[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>],
+			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
+			[<thebetweenlands:items_misc:14>, null, null]
+		]
 	]
 };
 

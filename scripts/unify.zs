@@ -14,6 +14,7 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			furnace.remove(item);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.AlloySmelter.removeRecipe(item);
 				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
 				mods.immersiveengineering.Crusher.removeRecipe(item);
 				mods.immersiveengineering.MetalPress.removeRecipe(item);
@@ -29,11 +30,6 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			}
 
 			if (hasLiquid) {
-				if (loadedMods.contains("embers")) {
-					mods.embers.Stamper.remove(item);
-					mods.embers.Melter.remove(item);
-				}
-
 				if (loadedMods.contains("tconstruct")) {
 					mods.tconstruct.Casting.removeBasinRecipe(item);
 					mods.tconstruct.Casting.removeTableRecipe(item);
@@ -52,3 +48,4 @@ unify(<ore:gearStone>, <teslacorelib:gear_stone>, null);
 unify(<ore:gearDiamond>, <materialpart:diamond:gear>, null);
 unify(<ore:foodFlour>, <horsepower:flour>, null);
 unify(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null);
+unify(<ore:stickWood>, <minecraft:stick>, null);

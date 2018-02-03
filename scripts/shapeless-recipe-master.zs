@@ -4,7 +4,8 @@ recipes.remove(<minecraft:clay>);
 
 //Fleece to String
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolBasicShears>.transformDamage()]);
-recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolUniqueShears>.giveBack()]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolIndestructible>.giveBack()]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolUniqueShears>]);
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);
 
 //Pickle Tweaks Mesh

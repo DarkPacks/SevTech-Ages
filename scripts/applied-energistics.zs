@@ -3,6 +3,7 @@ import mods.appliedenergistics2.Inscriber;
 
 var ae as IItemStack[string][string] = {
 	press: {
+		engineering: <appliedenergistics2:material:14>,
 		silicon: <appliedenergistics2:material:19>
 	},
 	printed: {
@@ -41,6 +42,9 @@ var rs as IItemStack[string][string] = {
 //Re-create silicon recipe
 Inscriber.removeRecipe(ae.printed.silicon);
 Inscriber.addRecipe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);
+
+//Use GC heavy plating as alternative recipe for printed engineering
+Inscriber.addRecipe(ae.printed.engineering, <galacticraftcore:heavy_plating>, true, ae.press.engineering);
 
 //==============================================
 //Refined Storage re-creation

@@ -79,68 +79,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Embers Stage 3
-	<embers:axe_aluminum> : [
-		[[metals.aluminum.plate, metals.aluminum.plate, null], [metals.aluminum.plate, stick, null], [null, stick, null]]
-	],
-	<embers:axe_lead> : [
-		[[metals.lead.plate, metals.lead.plate, null], [metals.lead.plate, stick, null], [null, stick, null]]
-	],
-	<embers:axe_nickel> : [
-		[[metals.nickel.plate, metals.nickel.plate, null], [metals.nickel.plate, stick, null], [null, stick, null]]
-	],
-	<embers:axe_silver> : [
-		[[metals.silver.plate, metals.silver.plate, null], [metals.silver.plate, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_aluminum> : [
-		[[metals.aluminum.plate, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_lead> : [
-		[[metals.lead.plate, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_nickel> : [
-		[[metals.nickel.plate, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:hoe_silver> : [
-		[[metals.silver.plate, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_aluminum> : [
-		[[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_lead> : [
-		[[metals.lead.plate, metals.lead.plate, metals.lead.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_nickel> : [
-		[[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:pickaxe_silver> : [
-		[[metals.silver.plate, metals.silver.plate, metals.silver.plate], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_aluminum> : [
-		[[null, metals.aluminum.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_lead> : [
-		[[null, metals.lead.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_nickel> : [
-		[[null, metals.nickel.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:shovel_silver> : [
-		[[null, metals.silver.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<embers:sword_aluminum> : [
-		[[null, metals.aluminum.plate, null], [null, metals.aluminum.plate, null], [null, stick, null]]
-	],
-	<embers:sword_lead> : [
-		[[null, metals.lead.plate, null], [null, metals.lead.plate, null], [null, stick, null]]
-	],
-	<embers:sword_nickel> : [
-		[[null, metals.nickel.plate, null], [null, metals.nickel.plate, null], [null, stick, null]]
-	],
-	<embers:sword_silver> : [
-		[[null, metals.silver.plate, null], [null, metals.silver.plate, null], [null, stick, null]]
-	],
-
 	//Rails
 	<minecraft:activator_rail> * 2 : [
 		[
@@ -574,7 +512,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<stevescarts:upgrade:1> : [
 		[
 			[metals.platinum.gear, <minecraft:glowstone>, metals.platinum.gear],
-			[<minecraft:glowstone>, <embers:block_dawnstone>, <minecraft:glowstone>],
+			[<minecraft:glowstone>, metals.bronze.block, <minecraft:glowstone>],
 			[metals.platinum.gear, <stevescarts:upgrade>, metals.platinum.gear]
 		]
 	],

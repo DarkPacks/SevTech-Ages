@@ -15,7 +15,6 @@ var metalStages as string[string] = {
 	compressedIron: "four",
 	constantan: "three",
 	copper: "one",
-	dawnstone: "two",
 	dreadium: "two",
 	electrum: "two",
 	enhancedGalgadorian: "three",
@@ -76,6 +75,7 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			furnace.remove(item);
 
 			if (loadedMods.contains("immersiveengineering")) {
+				mods.immersiveengineering.AlloySmelter.removeRecipe(item);
 				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
 				mods.immersiveengineering.Crusher.removeRecipe(item);
 				mods.immersiveengineering.MetalPress.removeRecipe(item);
@@ -91,11 +91,6 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 			}
 
 			if (hasLiquid) {
-				if (loadedMods.contains("embers")) {
-					mods.embers.Stamper.remove(item);
-					mods.embers.Melter.remove(item);
-				}
-
 				if (loadedMods.contains("tconstruct")) {
 					mods.tconstruct.Casting.removeBasinRecipe(item);
 					mods.tconstruct.Casting.removeTableRecipe(item);
@@ -147,15 +142,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		Add Metal Recipes
 	*/
 	//==============================
-	//Embers
-	if ((metalPartName == "ingot" | metalPartName == "plate") & hasLiquid) {
-		mods.embers.Stamper.remove(preferredMetalItem);
-
-		var stamp as IItemStack = metalPartName == "ingot" ? <embers:stamp_bar> : <embers:stamp_plate>;
-		mods.embers.Stamper.add(preferredMetalItem, metalLiquid * 144, stamp);
-	}
-
-	//==============================
 	//Tinker's Construct
 	if (hasLiquid) {
 		var fluidAmount as int = 0;
@@ -172,7 +158,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			fluidAmount = 16;
 		}
 
-		mods.tconstruct.Melting.removeRecipe(metalLiquid, preferredMetalItem);
+		mods.tconstruct.Melting.removeRecipe(metalLiquid * 1, preferredMetalItem);
 		if (fluidAmount != 0) {
 			mods.tconstruct.Melting.addRecipe(metalLiquid * fluidAmount, preferredMetalItem);
 		}
@@ -231,7 +217,91 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			immersivePressEnergy, //Energy
 			immersivePressInputCount //Input Count
 		);
+
+		//Plates can do the same as ingots
+		if (metalPartName != "plate" & metalItems[metalName].plate as bool) {
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * immersivePressOutputCount, //Output
+				metalItems[metalName].plate.items[0], //Input
+				immersivePressMold, //Mold
+				immersivePressEnergy, //Energy
+				immersivePressInputCount //Input Count
+			);
+		}
 	}
+
+	//Use packing & unpacking molds for nugget -> ingot -> block (and reverse)
+	if (metalPartName == "ingot") {
+		var packingMold as IItemStack = <immersiveengineering:mold:6>;
+		var unpackingMold as IItemStack = <immersiveengineering:mold:7>;
+		var packingInputCount as int = 9;
+		var packingOutputCount as int = 1;
+		var unpackingInputCount as int = 1;
+		var unpackingOutputCount as int = 9;
+
+		//Nugget
+		if (metalItems[metalName].nugget as bool) {
+			//Packing
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * packingOutputCount, //Output
+				metalItems[metalName].nugget.items[0], //Input
+				packingMold, //Mold
+				immersivePressEnergy, //Energy
+				packingInputCount //Input Count
+			);
+
+			//Unpacking
+			mods.immersiveengineering.MetalPress.addRecipe(
+				metalItems[metalName].nugget.items[0] * unpackingOutputCount, //Output
+				preferredMetalItem, //Input
+				unpackingMold, //Mold
+				immersivePressEnergy, //Energy
+				unpackingInputCount //Input Count
+			);
+		}
+
+		//Block
+		if (metalItems[metalName].block as bool) {
+			//Packing
+			mods.immersiveengineering.MetalPress.addRecipe(
+				metalItems[metalName].block.items[0] * packingOutputCount, //Output
+				preferredMetalItem, //Input
+				packingMold, //Mold
+				immersivePressEnergy, //Energy
+				packingInputCount //Input Count
+			);
+
+			//Unpacking
+			mods.immersiveengineering.MetalPress.addRecipe(
+				preferredMetalItem * unpackingOutputCount, //Output
+				metalItems[metalName].block.items[0], //Input
+				unpackingMold, //Mold
+				immersivePressEnergy, //Energy
+				unpackingInputCount //Input Count
+			);
+		}
+	}
+
+	//Plates should also be used in place of ingots for wire
+	if (metalName == "copper" | metalName == "electrum" | metalName == "aluminum" | metalName == "steel") {
+		if (metalPartName == "plate") {
+			var wires as IItemStack[string] = {
+				aluminum: <immersiveengineering:material:22>,
+				copper: <immersiveengineering:material:20>,
+				electrum: <immersiveengineering:material:21>,
+				steel: <immersiveengineering:material:23>
+			};
+
+			mods.immersiveengineering.MetalPress.addRecipe(
+				wires[metalName] * 2, //Output
+				preferredMetalItem, //Input
+				<immersiveengineering:mold:4>, //Mold
+				immersivePressEnergy, //Energy
+				1 //Input Count
+			);
+		}
+	}
+
 
 	//Add ingot -> dust in crusher
 	if (metalPartName == "dust") {

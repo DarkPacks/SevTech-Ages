@@ -102,9 +102,9 @@ recipes.remove(<primal_tech:rock>);
 recipes.addShapeless(<primal_tech:rock>, [<immcraft:rock>]);
 
 recipes.addShaped(<primal_tech:charcoal_hopper>, [
-	[<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <abyssalcraft:shadowgem>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})],
-	[<roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), <embers:ancient_motive_core>, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"})],
-	[null, <roots:petal_dust>.withTag({spell: "spell_orange_tulip"}), null]
+	[<totemic:cedar_plank>, <abyssalcraft:shadowgem>, <totemic:cedar_plank>],
+	[<betterwithmods:material:37>, <primal:shark_tooth>, <betterwithmods:material:37>],
+	[null, <primal_tech:wooden_hopper>, null]
 ]);
 
 //==================================
@@ -153,7 +153,6 @@ recipes.addShapeless(<primal:hide_raw> * 3, [<ore:toolWorkBlade>, <primal:pelt_s
 //==================================
 //Cyclic
 recipes.remove(<cyclicmagic:sleeping_mat>);
-recipes.addShaped(<cyclicmagic:sleeping_mat>, [[leather, leather, leather], [<roots:straw>, <roots:straw>, <roots:straw>]]);
 recipes.addShaped(<cyclicmagic:sleeping_mat>, [[leather, leather, leather], [<primal:thin_slab_thatch>, <primal:thin_slab_thatch>, <primal:thin_slab_thatch>]]);
 
 ////==================================
@@ -186,42 +185,6 @@ recipes.addShaped(<progressiontweaks:tomahawk>, [[cordage, <primal:flint_knapp>]
 recipes.addShaped(<progressiontweaks:fire_pit_unlit>, [[null, stick, null], [stick, cordage, stick], [<ore:rock>, <ore:rock>, <ore:rock>]]);
 
 ////==================================
-//Roots
-recipes.addShaped(<roots:bonfire>, [[null, stick, null], [stick, <ore:barkWood>, stick], [cobblestone, cobblestone, cobblestone]]);
-recipes.addShaped(<roots:wood_shears>, [[null, plank, null], [plank, null, plank ], [stick, plank, null]]);
-
-recipes.remove(<roots:diamond_knife>);
-recipes.addShaped(<roots:diamond_knife>, [[null, diamond], [stick, null]]);
-
-recipes.remove(<roots:gold_knife>);
-recipes.addShaped(<roots:gold_knife>, [[null, metals.gold.ingot], [stick, null]]);
-
-recipes.remove(<roots:iron_knife>);
-recipes.addShaped(<roots:iron_knife>, [[null, metals.iron.ingot], [stick, null]]);
-
-recipes.remove(<roots:pestle>);
-recipes.addShaped(<roots:pestle>, [[null, <immcraft:rock>], [stick, null]]);
-
-recipes.remove(<roots:pouch>);
-recipes.addShaped(<roots:pouch>, [[str, null, str], [<betterwithaddons:wool>, <pickletweaks:dye_powder:*>, <betterwithaddons:wool>], [null, <betterwithaddons:wool>, null]]);
-
-recipes.remove(<roots:stone_knife>);
-recipes.addShaped(<roots:stone_knife>, [[null, <ore:cobblestone>], [stick, null]]);
-
-recipes.remove(<roots:thatch>);
-recipes.addShaped(<roots:thatch>, [[<roots:straw>, <roots:straw>], [<roots:straw>, <roots:straw>]]);
-
-recipes.remove(<roots:wood_knife>);
-recipes.addShaped(<roots:wood_knife>, [[null, plank], [stick, null]]);
-
-recipes.remove(<roots:book_base>);
-recipes.addShapeless(<roots:book_base>, [<primal:plant_cloth>, str, <ore:barkBirch>]);
-
-//Runestone is more harder 'n stuff
-recipes.remove(<roots:chiseled_runestone>);
-recipes.addShapeless(<roots:chiseled_runestone>, [<primal:flint_point>, <roots:runestone>]);
-
-////==================================
 //Totemic
 recipes.addShaped(<totemic:drum>, [[plank, leather, plank], [plank, null, plank], [plank, null, plank]]);
 recipes.addShaped(<totemic:flute>, [[null, <minecraft:tallgrass:*>, <minecraft:reeds>], [null, <minecraft:reeds>, null], [<minecraft:reeds>, null, null]]);
@@ -234,7 +197,7 @@ recipes.addShaped(<totemic:totem_whittling_knife>, [[null, <primal:flint_knapp>]
 recipes.addShaped(<totemic:totemic_staff>, [[null, <minecraft:red_flower>, <minecraft:double_plant>], [null, stick, <minecraft:yellow_flower>], [stick, null, null]]);
 recipes.addShaped(<totemic:wind_chime>, [[stick, stick, stick], [str, <minecraft:flint>, str], [<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>]]);
 
-recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <roots:book_base>]);
+recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <primal:plant_cloth>]);
 
 
 
@@ -322,7 +285,3 @@ recipes.addShaped(<actuallyadditions:item_misc:12>, [
 recipes.addShaped(<astikoor:cargocart>, [[plank, null, plank], [<primalchests:primal_chest_advanced>, plank, <primalchests:primal_chest_advanced>], [<astikoor:wheel>, <ore:slabWood>, <astikoor:wheel>]]);
 recipes.addShaped(<astikoor:wheel>, [[stick, stick, stick], [stick, plank, stick], [stick, stick, stick]]);
 recipes.addShaped(<astikoor:plowcart>, [[null, null, null], [stick, stick, stick], [<astikoor:wheel>, <astikoor:wheel>, <minecraft:stone>]]);
-
-//Teacup uses porcelain
-recipes.remove(<simplytea:cup>);
-recipes.addShaped(<simplytea:cup>, [[<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>], [null, <ceramics:unfired_clay:5>, null]]);

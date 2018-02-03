@@ -83,18 +83,6 @@
           "id": "minecraft:leather_boots",
           "Count": 1
         }
-      },
-      {
-        "action": "add",
-        "CareerLevel": 1,
-        "buy": {
-          "id": "tconstruct:cast",
-          "Count": 1
-        },
-        "sell": {
-          "id": "tconstruct:slime_sapling",
-          "Count": 1
-        }
       }
     ]
   }

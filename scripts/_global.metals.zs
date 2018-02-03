@@ -1,5 +1,4 @@
-//Make this script top execution priority
-#priority 850
+#priority 750
 
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -109,15 +108,6 @@ global metals as IOreDictEntry[string][string] = {
 		plate: <ore:plateCopper>,
 		rod: <ore:rodCopper>,
 		shard: <ore:shardCopper>
-	},
-	dawnstone: {
-		block: <ore:blockDawnstone>,
-		dust: null,
-		gear: null,
-		ingot: <ore:ingotDawnstone>,
-		nugget: <ore:nuggetDawnstone>,
-		plate: <ore:plateDawnstone>,
-		rod: null
 	},
 	dreadium: {
 		block: <ore:blockDreadium>,

@@ -49,8 +49,6 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
-	<roots:diamond_hammer>,
-	<roots:diamond_knife>,
 
 	/*
 		Items by "type"
@@ -70,6 +68,7 @@ var itemsForStage as IIngredient[] = [
 	<primal:emerald_workblade>,
 
 	//Diamond Stuff
+	<cyclicmagic:block_anvil>,
 	<minecraft:diamond_horse_armor>,
 
 	//Shulker
@@ -386,6 +385,7 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
 	<appliedenergistics2:security_station>,
+	<appliedenergistics2:sky_compass>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -683,7 +683,12 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:advanced_launch_pad:1>,
 	<extraplanets:advanced_launch_pad:2>,
 	<extraplanets:advanced_launch_pad:3>,
-	<extraplanets:advanced_launch_pad>
+	<extraplanets:advanced_launch_pad>,
+
+	//Translocators
+	<translocator:diamondnugget>,
+	<translocator:translocator_part:1>,
+	<translocator:translocator_part>
 ];
 
 for item in itemsForStage {
@@ -701,4 +706,25 @@ var recipesForStage as string[] = [
 
 for recipeRegex in recipesForStage {
 	mods.recipestages.Recipes.setRecipeStageByRegex(STAGE, recipeRegex);
+}
+
+//TODO: Handle better
+//Set soulstone recipes to stage 3
+var soulstoneRecipes as string[] = [
+	"mysticalagriculture:cobbled_soulstone_slab",
+	"mysticalagriculture:cobbled_soulstone_stairs",
+	"mysticalagriculture:cobbled_soulstone_wall",
+	"mysticalagriculture:soulstone",
+	"mysticalagriculture:soulstone_1",
+	"mysticalagriculture:soulstone_2",
+	"mysticalagriculture:soulstone_3",
+	"mysticalagriculture:soulstone_4",
+	"mysticalagriculture:soulstone_brick_slab",
+	"mysticalagriculture:soulstone_brick_stairs",
+	"mysticalagriculture:soulstone_brick_wall",
+	"mysticalagriculture:soulstone_slab"
+];
+
+for recipeName in soulstoneRecipes {
+	mods.recipestages.Recipes.setRecipeStage(STAGES.three, recipeName);
 }

@@ -1,0 +1,13 @@
+When Creating your first infopanel goto your §e'configs/mputils/infopanel'§r
+Create a folder with anyname you want. What ever you name your folder wont matter, its just for you. Now since your folder is created.
+You will create your controller json file.Your controller json file can be called anything you want.
+Make sure your json has a unique name as it is how you will reference it in-game.
+
+Inside the controller json you can link all your text files. You can have 1 page ,or a lot of pages.
+
+Just add all your text files into this folder. You are not limited to just 1 controller json in each folder. 
+
+Check the configs for this example to get an idea how to set your new info panels up.
+
+
+						     §cPlease keep all names lowercase!§r

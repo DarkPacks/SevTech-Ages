@@ -5,10 +5,17 @@ var STAGE = STAGES.creative;
 var creativeItems as IItemStack[] = [
 	<betterwithmods:creative_generator>,
 	<buildcraftcore:engine:3>,
-	<embers:creative_ember_source>,
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,
 	<enderutilities:enderpart:81>,
+	<galacticraftcore:concealed_detector>,
+	<galacticraftcore:dungeonfinder>,
+	<galacticraftcore:infinite_battery>,
+	<galacticraftcore:infinite_oxygen>,
+	<galacticraftcore:rocket_t1:4>,
+	<galacticraftplanets:rocket_t2:4>,
+	<galacticraftplanets:rocket_t2:14>,
+	<galacticraftplanets:rocket_t3:4>,
 	<immersiveengineering:metal_device0:3>,
 	<ironjetpacks:creative_capacitor>,
 	<ironjetpacks:creative_cell>,
@@ -21,7 +28,8 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative:1>,
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
-	<totemic:ceremony_cheat>
+	<totemic:ceremony_cheat>,
+	<waterstrainer:super_worm>
 ];
 
 for item in creativeItems {

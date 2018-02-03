@@ -46,18 +46,20 @@ var durabilityArray = {
 	<minecraft:golden_boots> : 95,
 
 	//Tin
-	<embers:pickaxe_tin> : 240,
-	<embers:axe_tin> : 240,
-	<embers:shovel_tin> : 240,
-	<embers:sword_tin> : 240,
-	<embers:hoe_tin> : 240,
+	//Now for any mod that can provide these tools. GOD DAMNIT
+	//pickaxe_tin> : 240,
+	//axe_tin> : 240,
+	//shovel_tin> : 240,
+	//sword_tin> : 240,
+	//hoe_tin> : 240,
 
 	//Copper Tools
-	<embers:pickaxe_copper> : 340,
-	<embers:axe_copper> : 340,
-	<embers:shovel_copper> : 340,
-	<embers:hoe_copper> : 340,
-	<embers:sword_copper> : 340,
+	//Same as tin. If we can get a mod that adds these tools use the values for them.
+	//pickaxe_copper> : 340,
+	//axe_copper> : 340,
+	//shovel_copper> : 340,
+	//hoe_copper> : 340,
+	//sword_copper> : 340,
 
 	//Iron Tools
 	<minecraft:iron_shovel> : 450,

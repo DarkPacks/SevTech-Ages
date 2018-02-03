@@ -38,7 +38,6 @@ var removeItems as IItemStack[] = [
 	<natura:overworld_slab:4>,
 	<natura:overworld_slab>,
 	<primal:slab_ironwood>,
-	<roots:firestarter>,
 	<rustic:ironwood_slab_item>,
 	<rustic:olive_slab_item>,
 	<tcomplement:melter:8>,
@@ -47,7 +46,10 @@ var removeItems as IItemStack[] = [
 	<tcomplement:porcelain_melter>,
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:firewood_slab>,
-	<traverse:fir_slab>
+	<traverse:fir_slab>,
+	<waterstrainer:garden_trowel>,
+	<waterstrainer:strainer_base>
+
 ];
 
 for item in removeItems {

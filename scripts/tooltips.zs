@@ -70,19 +70,17 @@
 
 <primal_tech:clay_kiln>.addTooltip(format.red("Needs heat source below"));
 
-<embers:pump>.addTooltip(format.red("Requires redstone signal to operate"));
-<embers:item_pump>.addTooltip(format.red("Requires redstone signal to operate"));
-<embers:ember_emitter>.addTooltip(format.red("Requires redstone signal to operate"));
-
 <dungpipe:sewer_pipe>.addTooltip(format.red("Pipes items through a solid block"));
 
 <ceramics:clay_bucket>.addTooltip(format.red("Will literally melt away after transporting HOT liquid"));
 
-<embers:tinker_hammer>.addTooltip(format.red("Use to connect Embers blocks"));
-<embers:tinker_hammer>.addTooltip(format.red("Reciever first Emitter Second"));
-<embers:tinker_hammer>.addTooltip(format.red("Shift-click on reciever and right-click on emitter"));
-
-<embers:codex>.addTooltip(format.yellow("Informational Book"));
+//I'm going to put this "deleted" tooltip right in the middle of this file. I'm currently
+//in the middle of removing Embers and Roots because the dev had a tantrum on reddit
+//because people like Thaumcraft. Literally, that's what it was about.
+//So, thanks for being a drama queen and making all of us pack devs have to change
+//hours of work because you feel like thaumcraft invalidates your magic mod work.
+//You just invalidated over 2,000 projects on curse. But, it's totally cool since
+//you get what you wanted and all the attention you think you deserver. Bye felecia!
 
 <progressiontweaks:spear>.addTooltip(format.red("Hold Mouse Button To Charge"));
 <progressiontweaks:spear>.addTooltip(format.red("Release to throw"));

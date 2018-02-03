@@ -26,12 +26,6 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<immersiveengineering:storage_slab:5>,
 
-	//Embers
-	<embers:item_pipe>,
-	<embers:item_pump>,
-	<embers:pipe>,
-	<embers:pump>,
-
 	//Bonsai
 	<bonsaitrees:bonsaipot:1>,
 	<bonsaitrees:bonsaipot>,
@@ -106,7 +100,6 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_misc:7>,
 	<actuallyadditions:item_misc:8>,
 	<actuallyadditions:item_misc:14>,
-	<actuallyadditions:item_misc:16>,
 	<actuallyadditions:item_potion_ring:*>,
 	<actuallyadditions:item_resonant_rice>,
 	<actuallyadditions:item_small_to_medium_crate_upgrade>,
@@ -444,7 +437,6 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:amadron_tablet:30000>,
 	<pneumaticcraft:aphorism_tile>,
 	<pneumaticcraft:assembly_controller>,
-	<pneumaticcraft:assembly_drill>,
 	<pneumaticcraft:assembly_io_unit>,
 	<pneumaticcraft:assembly_laser>,
 	<pneumaticcraft:assembly_platform>,

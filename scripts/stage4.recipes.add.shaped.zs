@@ -848,6 +848,47 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron>, null, <refinedstorage:quartz_enriched_iron>],
 			[<appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>]
 		]
+	],
+
+	//Use Liquid hopper instead of normal hopper
+	<mob_grinding_utils:tank_sink>: [
+		[
+			[null, <minecraft:iron_bars>, null],
+			[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
+			[null, <mob_grinding_utils:tank>, null]
+		]
+	],
+
+	//DRILL CORE THING!
+	<actuallyadditions:item_misc:16>: [
+		[
+			[null, <immersiveengineering:material:20>, <immersiveengineering:drillhead>],
+			[<immersiveengineering:material:20>, <immersiveengineering:metal_device0>, <immersiveengineering:material:20>],
+			[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:material:20>, null]
+		]
+	],
+	<actuallyadditions:item_drill:3>: [
+		[
+			[null, <immersiveengineering:metal_decoration1:5>, <actuallyadditions:item_misc:16>],
+			[<stevescarts:modulecomponents:12>, <pneumaticcraft:plastic:14>, <immersiveengineering:metal_decoration1:5>],
+			[<stevescarts:modulecomponents:12>, <stevescarts:modulecomponents:12>, null]
+		]
+	],
+	<pneumaticcraft:assembly_drill>: [
+		[
+			[<actuallyadditions:item_misc:16>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
+			[null, null, <pneumaticcraft:pneumatic_cylinder>],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
+		]
+	],
+
+	//Galacticraft
+	<galacticraftcore:machine:12>: [
+		[
+			[metals.aluminum.plate, <minecraft:piston>, metals.aluminum.plate],
+			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, <betterwithmods:steel_anvil>, metals.aluminum.plate]
+		]
 	]
 };
 

@@ -14,14 +14,20 @@ var removeItems as IItemStack[] = [
 	<minecraft:glass>,
 	<minecraft:glass_pane>,
 	<minecraft:leather>,
-	<minecraft:stick>,
 	<minecraft:water_bucket>,
-	<roots:herblore_book>,
-	<roots:spellcraft_book>,
 	<rustic:fertile_soil>,
 	<tconstruct:soil>
 ];
 
 for item in removeItems {
 	recipes.remove(item);
+}
+
+var removeRecipes as string[] = [
+	"natura:common/glass_bottle",
+	"rustic:bottle_emptying"
+];
+
+for recipeRegex in removeRecipes {
+	recipes.removeByRegex(recipeRegex);
 }

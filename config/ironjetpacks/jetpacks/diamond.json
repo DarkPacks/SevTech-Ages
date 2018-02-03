@@ -2,7 +2,7 @@
   "jetpack_type": {
     "name": "diamond",
     "disable": false,
-    "tier": 4,
+    "tier": 1,
     "color": 4910545,
     "armor_points": 4,
     "enchantability": 10,

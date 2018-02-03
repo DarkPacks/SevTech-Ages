@@ -29,11 +29,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
 	],
 
-	//Embers recipes fixed for Stage1
-	<embers:blend_caminite> : [
-		[<minecraft:sand>, <minecraft:clay_ball>, <primal:mud_clump>]
-	],
-
 	//Abyssalcraft for Stage1
 	<abyssalcraft:corflesh> : [
 		[<abyssalcraft:corbone>.giveBack(<minecraft:bone>), <ore:toolWorkBlade>]

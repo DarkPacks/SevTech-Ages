@@ -22,56 +22,6 @@
   },
   {
     "initialBlock": {
-      "blockName": "roots:terra_moss",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "roots:terra_moss",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
-      "blockName": "roots:pereskia",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "roots:pereskia",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
-      "blockName": "roots:moonglow",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "roots:moonglow",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
-      "blockName": "roots:aubergine",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "roots:aubergine",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
-      "blockName": "roots:wildroot",
-      "meta": 7
-    },
-    "finalBlock": {
-      "blockName": "roots:wildroot",
-      "meta": 0
-    }
-  },
-  {
-    "initialBlock": {
       "blockName": "betterwithaddons:crop_rice",
       "meta": 7
     },

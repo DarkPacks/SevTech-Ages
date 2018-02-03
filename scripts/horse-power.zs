@@ -41,98 +41,9 @@ function addPressRecipe(output as IItemStack, input as IIngredient) {
 */
 //"Standardized" Recipes for manual and automatic. 4 for manual, 2 automatic
 //If not desired, do recipe manually
-var choppingRecipeItems as IIngredient[][IItemStack]= {
-	<abyssalcraft:dltplank> * 4 : [
-		<abyssalcraft:dltlog>
-	],
-	<abyssalcraft:dreadplanks> * 4 : [
-		<abyssalcraft:dreadlog>
-	],
-	<betterwithaddons:planks_mulberry> * 4 : [
-		<betterwithaddons:log_mulberry>
-	],
-	<betterwithaddons:planks_sakura> * 4 : [
-		<betterwithaddons:log_sakura>
-	],
-	<minecraft:planks:1> * 4 : [
-		<minecraft:log:1>,
-		<primal:logs_stripped:1>,
-		<twilightforest:twilight_log:1>,
-		<twilightforest:twilight_log:3>
-	],
-	<minecraft:planks:2> * 4 : [
-		<minecraft:log:2>,
-		<primal:logs_stripped:2>,
-		<twilightforest:twilight_log:2>
-	],
-	<minecraft:planks:3> * 4 : [
-		<betterwithmods:blood_log>,
-		<minecraft:log:3>,
-		<primal:logs_stripped:3>
-	],
-	<minecraft:planks:4> * 4 : [
-		<minecraft:log2>,
-		<primal:logs_stripped:4>
-	],
-	<minecraft:planks:5> * 4 : [
-		<minecraft:log2:1>,
-		<primal:logs_stripped:5>
-	],
-	<minecraft:planks> * 4 : [
-		<minecraft:log>,
-		<primal:logs_stripped>,
-		<twilightforest:twilight_log>
-	],
-	<minecraft:stick> * 4 : [
+var choppingRecipeItems as IIngredient[][IItemStack] = {
+	stick * 4 : [
 		<ore:plankWood>
-	],
-	<natura:nether_planks:1> * 4 : [
-		<natura:nether_logs2:15>,
-		<natura:nether_logs2>
-	],
-	<natura:nether_planks:2> * 4 : [
-		<natura:nether_logs:1>
-	],
-	<natura:nether_planks:3> * 4 : [
-		<natura:nether_logs:2>
-	],
-	<natura:nether_planks> * 4 : [
-		<natura:nether_logs>
-	],
-	<natura:overworld_planks:1> * 4 : [
-		<natura:overworld_logs:1>
-	],
-	<natura:overworld_planks:2> * 4 : [
-		<natura:overworld_logs:2>
-	],
-	<natura:overworld_planks:3> * 4 : [
-		<natura:overworld_logs:3>
-	],
-	<natura:overworld_planks:4> * 4 : [
-		<natura:overworld_logs2>
-	],
-	<natura:overworld_planks:5> * 4 : [
-		<natura:overworld_logs2:1>
-	],
-	<natura:overworld_planks:6> * 4 : [
-		<natura:overworld_logs2:2>
-	],
-	<natura:overworld_planks:7> * 4 : [
-		<natura:overworld_logs2:3>
-	],
-	<natura:overworld_planks:8> * 4 : [
-		<natura:redwood_logs:1>
-	],
-	<natura:overworld_planks> * 4 : [
-		<natura:overworld_logs>
-	],
-	<primal:planks> * 4 : [
-		<primal:logs>,
-		<primal:logs_stripped:6>
-	],
-	<primal:planks:1> * 4 : [
-		<primal:logs:1>,
-		<primal:logs_stripped:7>
 	],
 	<primal:thin_slab_acacia> * 2 : [
 		<minecraft:wooden_slab:4>
@@ -160,19 +71,6 @@ var choppingRecipeItems as IIngredient[][IItemStack]= {
 	],
 	<primal:thin_slab_spruce> * 2 : [
 		<minecraft:wooden_slab:1>
-	],
-	<rustic:planks:1> * 4 : [
-		<rustic:log:1>
-	],
-	<rustic:planks> * 4 : [
-		<rustic:log>
-	],
-	<totemic:cedar_plank> * 4 : [
-		<totemic:cedar_log>,
-		<totemic:stripped_cedar_log>
-	],
-	<traverse:fir_planks> * 4 : [
-		<traverse:fir_log>
 	]
 };
 
@@ -194,7 +92,6 @@ addGrindstoneRecipe(<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard
 addGrindstoneRecipe(<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>, 24, false);
 addGrindstoneRecipe(<actuallyadditions:item_dust:7>, <actuallyadditions:block_misc:3>, 16, false);
 addGrindstoneRecipe(<betterwithaddons:japanmat:4>, <actuallyadditions:item_food:16>, 16, false);
-addGrindstoneRecipe(<embers:shard_ember> * 9, <embers:crystal_ember>, 24, false);
 addGrindstoneRecipe(<horsepower:flour>, <minecraft:wheat>, 16, false);
 addGrindstoneRecipe(<minecraft:clay_ball> * 4, <minecraft:clay>, 12, false);
 addGrindstoneRecipe(<minecraft:coal:1> * 4, <primal_tech:charcoal_block>, 24, false);
@@ -254,7 +151,6 @@ var pressPairs as IIngredient[IItemStack] = {
 	<abyssalcraft:shadowshard>: <abyssalcraft:shadowfragment> * 9,
 	<betterwithaddons:japanmat:11>: <betterwithaddons:japanmat:10>,
 	<charcoalblock:charcoal_block>: <minecraft:coal:1> * 9,
-	<embers:crystal_ember>: <embers:shard_ember> * 9,
 	<minecraft:clay>: <minecraft:clay_ball> * 4,
 	<minecraft:coal:1>: <pickletweaks:coal_piece:1> * 8,
 	<minecraft:coal>: <pickletweaks:coal_piece> * 8,

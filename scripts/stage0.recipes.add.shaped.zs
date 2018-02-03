@@ -64,7 +64,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<betterwithaddons:spindle> : [
-		[[<minecraft:stick>], [<minecraft:stick>], [<minecraft:stick>]]
+		[[stick], [stick], [stick]]
 	],
 	<betterwithmods:material> : [
 		[
@@ -387,9 +387,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	<roots:firestarter> : [
-		[[<minecraft:coal:1>, null], [<primal_tech:fire_sticks>, <primal_tech:fire_sticks>]]
-	],
 	<rustic:ironwood_slab_item> * 3 : [
 		[[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]]
 	],
@@ -413,7 +410,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<tconstruct:seared:3>, <primal_tech:charcoal_hopper>, <tconstruct:seared:3>],
 			[<tconstruct:seared:3>, <primal_tech:stone_grill>, <tconstruct:seared:3>],
-			[<tconstruct:seared:3>, <roots:chiseled_runestone>, <tconstruct:seared:3>]
+			[<tconstruct:seared:3>, <primalchests:primal_chest_advanced>, <tconstruct:seared:3>]
 		]
 	],
 	<tcomplement:porcelain_melter:8> : [
@@ -427,7 +424,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ceramics:unfired_clay:5>, <primal_tech:charcoal_hopper>, <ceramics:unfired_clay:5>],
 			[<ceramics:unfired_clay:5>, <primal_tech:stone_grill>, <ceramics:unfired_clay:5>],
-			[<ceramics:unfired_clay:5>, <roots:chiseled_runestone>, <ceramics:unfired_clay:5>]
+			[<ceramics:unfired_clay:5>, <primalchests:primal_chest_advanced>, <ceramics:unfired_clay:5>]
 		]
 	],
 	<tconstruct:firewood_slab:1> * 3 : [
@@ -438,7 +435,24 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<traverse:fir_slab> * 3 : [
 		[[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]]
+	],
+
+	//Water Strainer
+	<waterstrainer:strainer_base> : [
+		[
+			[stick, null, stick],
+			[plank, <primal_tech:wooden_hopper>, plank],
+			[plank, <immcraft:chest>, plank]
+		]
+	],
+	<waterstrainer:garden_trowel> : [
+		[
+			[null, null, <minecraft:dirt>],
+			[null, <minecraft:flint>, null],
+			[stick, null, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -1,5 +1,4 @@
-//Make this script top execution priority
-#priority 851
+#priority 751
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -44,7 +43,7 @@ global plastic as IItemStack = <industrialforegoing:plastic>;
 global redstone as IItemStack = <minecraft:redstone>;
 global shears as IOreDictEntry = <ore:shears>;
 global slag as IItemStack = <ore:itemSlag>.firstItem;
-global stick as IItemStack = <minecraft:stick>;
+global stick as IItemStack = <ore:stickWood>.firstItem;
 global stone as IItemStack = <minecraft:stone>;
 global str as IItemStack = <minecraft:string>;
 global wool as IOreDictEntry = <ore:wool>;

@@ -66,6 +66,7 @@ var stage5Items as IIngredient[] = [
 	<betterwithmods:material:46>,
 	<chiselsandbits:bitsaw_diamond>,
 	<chiselsandbits:chisel_diamond>,
+	<cyclicmagic:block_anvil>,
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:material:128>,
@@ -84,8 +85,6 @@ var stage5Items as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
-	<roots:diamond_hammer>,
-	<roots:diamond_knife>,
 
 	/*
 		Items by mod
@@ -508,6 +507,7 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:quantum_ring>,
 	<appliedenergistics2:quartz_growth_accelerator>,
 	<appliedenergistics2:security_station>,
+	<appliedenergistics2:sky_compass>,
 	<appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_brick>,
 	<appliedenergistics2:sky_stone_brick_slab>,
@@ -537,9 +537,6 @@ var stage5Items as IIngredient[] = [
 	//Cable "accessories"/panels etc
 	<appliedenergistics2:part:80>,
 	<appliedenergistics2:part:100>,
-	<appliedenergistics2:part:160>,
-	<appliedenergistics2:part:180>,
-	<appliedenergistics2:part:200>,
 	<appliedenergistics2:part:280>,
 	<appliedenergistics2:part:300>,
 	<appliedenergistics2:part:301>,
@@ -625,6 +622,15 @@ var stage5Items as IIngredient[] = [
 	<appliedenergistics2:part:514>,
 	<appliedenergistics2:part:515>,
 	<appliedenergistics2:part:516>,
+
+	//Geolosys
+	<geolosys:cluster:9>,
+	<geolosys:ore:9>,
+	<geolosys:ore_sample:9>,
+	<geolosys:ore_sample_vanilla:5>,
+	<geolosys:ore_sample_vanilla:6>,
+	<geolosys:ore_vanilla:5>,
+	<geolosys:ore_vanilla:6>,
 
 	//Refined Storage
 	<refinedstorage:constructor>,
@@ -1107,13 +1113,43 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:uranus:8>,
 	<extraplanets:uranus>,
 	<extraplanets:uranus_spawner>,
-	<extraplanets:white_sugar_cane>
+	<extraplanets:white_sugar_cane>,
+
+	//Translocators
+	<translocator:diamondnugget>,
+	<translocator:translocator_part:1>,
+	<translocator:translocator_part>
 ];
 
 for item in stage5Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
 
+//TODO: Handle better
 //Leave this to allow Dragon Scales to be used in Stage 4
 mods.ItemStages.removeItemStage(<mysticalagradditions:stuff:3>);
-mods.ItemStages.addItemStage("four", <mysticalagradditions:stuff:3>);
+mods.ItemStages.addItemStage(STAGES.four, <mysticalagradditions:stuff:3>);
+
+//TODO: Handle better
+//Set soulstone to stage 3
+var soulstoneItems as IIngredient[] = [
+	<mysticalagriculture:cobbled_soulstone_slab>,
+	<mysticalagriculture:cobbled_soulstone_stairs>,
+	<mysticalagriculture:cobbled_soulstone_wall>,
+	<mysticalagriculture:soulstone:1>,
+	<mysticalagriculture:soulstone:2>,
+	<mysticalagriculture:soulstone:3>,
+	<mysticalagriculture:soulstone:4>,
+	<mysticalagriculture:soulstone:5>,
+	<mysticalagriculture:soulstone:6>,
+	<mysticalagriculture:soulstone>,
+	<mysticalagriculture:soulstone_brick_slab>,
+	<mysticalagriculture:soulstone_brick_stairs>,
+	<mysticalagriculture:soulstone_brick_wall>,
+	<mysticalagriculture:soulstone_slab>
+];
+
+for item in soulstoneItems {
+	mods.ItemStages.removeItemStage(item);
+	mods.ItemStages.addItemStage(STAGES.three, item);
+}

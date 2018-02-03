@@ -3,8 +3,8 @@ import mods.armoreablemobs.ArmorEntity;
 import mods.armoreablemobs.ArmorSlot;
 import mods.armoreablemobs.ArmorGroup;
 
-import scripts.armor._base.defaultArmorDropChance;
-import scripts.armor._base.armorableMobEntities;
+import scripts.mob_armor._base.defaultArmorDropChance;
+import scripts.mob_armor._base.armorableMobEntities;
 
 var STAGE = STAGES.fourMob;
 

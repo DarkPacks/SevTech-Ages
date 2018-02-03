@@ -358,7 +358,7 @@ var stage3Items as IIngredient[] = [
 	<primal:valus_omniferum>,
 	<primal:valus_stalk_withered>,
 	<primal:void_grass>,
-	<primal:void_seed>
+	<primal:void_seed>,
 
 	//Chisel
 	<chisel:blockaluminum:*>,

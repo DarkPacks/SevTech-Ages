@@ -111,6 +111,8 @@
     "compressed_iron_plate": 81,
     "enhanced_galgadorian_gear": 94,
     "cobalt_plate": 21,
-    "redstone_alloy_plate": 55
+    "redstone_alloy_plate": 55,
+    "silicon_ore_sample": 112,
+    "osmium_ore_sample": 113
   }
 }

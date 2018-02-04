@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
+function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
 	var hasLiquid = liquid as bool;
 
 	for item in oreDictEntry.items {
@@ -43,9 +43,9 @@ function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liqui
 	}
 }
 
-unify(<ore:gearWood>, <betterwithmods:material>, null);
-unify(<ore:gearStone>, <teslacorelib:gear_stone>, null);
-unify(<ore:gearDiamond>, <materialpart:diamond:gear>, null);
-unify(<ore:foodFlour>, <horsepower:flour>, null);
-unify(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null);
-unify(<ore:stickWood>, <minecraft:stick>, null);
+unifyWithPreferredItem(<ore:gearWood>, <betterwithmods:material>, null);
+unifyWithPreferredItem(<ore:gearStone>, <teslacorelib:gear_stone>, null);
+unifyWithPreferredItem(<ore:gearDiamond>, <materialpart:diamond:gear>, null);
+unifyWithPreferredItem(<ore:foodFlour>, <horsepower:flour>, null);
+unifyWithPreferredItem(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null);
+unifyWithPreferredItem(<ore:stickWood>, <minecraft:stick>, null);

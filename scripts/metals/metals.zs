@@ -339,7 +339,7 @@ for metalName, metal in metals {
 		if (part as bool) {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
-			scripts.unify.unify(part, preferredMetalItem, metalLiquid);
+			scripts.unify.unifyWithPreferredItem(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
 				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";

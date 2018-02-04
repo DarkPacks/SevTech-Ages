@@ -4,6 +4,14 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+//In order of priority
+static defaultPreferredMods as string[] = [
+	"minecraft",
+	"contenttweaker",
+	"immersiveengineering",
+	"mekanism"
+];
+
 function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
 	var hasLiquid = liquid as bool;
 
@@ -41,6 +49,37 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 			oreDictEntry.remove(item);
 		}
 	}
+}
+
+function unifyWithPreferredMods(oreDictEntry as IOreDictEntry, preferredModsParam as string[], liquid as ILiquidStack) {
+	//Set to defaultPreferredMods if the param preferredModsParam is null
+	var preferredMods as string[] = isNull(preferredModsParam) ?
+		scripts.unify.defaultPreferredMods : preferredModsParam;
+
+	var preferredItem as IItemStack = null;
+
+	/*
+		Figure out which item is preferred
+
+		The array should be in order of priority, so if its found, return immediately
+		as this will be the most preferred option
+	*/
+	for modName in preferredMods {
+		for item in oreDictEntry.items {
+			if (item.definition.owner == modName) {
+				preferredItem = item;
+				return;
+			}
+		}
+	}
+
+	//If there is still no item found, take the first availble
+	if (!(preferredItem as bool)) {
+		preferredItem = oreDictEntry.firstItem;
+	}
+
+	//Call unifyWithPreferred
+	scripts.unify.unifyWithPreferredItem(oreDictEntry, preferredItem, liquid);
 }
 
 unifyWithPreferredItem(<ore:gearWood>, <betterwithmods:material>, null);

@@ -52,27 +52,29 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 	}
 }
 
+/*
+	Figure out which item is preferred
+
+	The array should be in order of priority, so if its found, return immediately
+	as this will be the most preferred option
+*/
+function getPreferredItem(oreDictEntry as IOreDictEntry, preferredMods as string[]) as IItemStack {
+	for modName in preferredMods {
+		for item in oreDictEntry.items {
+			if (item.definition.owner == modName) {
+				return item;
+			}
+		}
+	}
+	return null;
+}
+
 function unifyWithPreferredMods(oreDictEntry as IOreDictEntry, preferredModsParam as string[], liquid as ILiquidStack) {
 	//Set to defaultPreferredMods if the param preferredModsParam is null
 	var preferredMods as string[] = isNull(preferredModsParam) ?
 		scripts.unify.base.defaultPreferredMods : preferredModsParam;
 
-	var preferredItem as IItemStack = null;
-
-	/*
-		Figure out which item is preferred
-
-		The array should be in order of priority, so if its found, return immediately
-		as this will be the most preferred option
-	*/
-	for modName in preferredMods {
-		for item in oreDictEntry.items {
-			if (item.definition.owner == modName) {
-				preferredItem = item;
-				return;
-			}
-		}
-	}
+	var preferredItem as IItemStack = scripts.unify.base.getPreferredItem(oreDictEntry, preferredMods);
 
 	//If there is still no item found, take the first availble
 	if (!(preferredItem as bool)) {

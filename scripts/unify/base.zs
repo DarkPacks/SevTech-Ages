@@ -91,3 +91,4 @@ unifyWithPreferredItem(<ore:gearDiamond>, <materialpart:diamond:gear>, null);
 unifyWithPreferredItem(<ore:foodFlour>, <horsepower:flour>, null);
 unifyWithPreferredItem(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null);
 unifyWithPreferredItem(<ore:stickWood>, <minecraft:stick>, null);
+unifyWithPreferredItem(<ore:dustCoal>, <betterwithmods:material:18>, null);

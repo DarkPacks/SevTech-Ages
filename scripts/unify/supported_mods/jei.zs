@@ -9,7 +9,7 @@ function removeFromAll(item as IItemStack, liquid as ILiquidStack) {
 	var hasLiquid = liquid as bool;
 
 	if (!hasItem) {
-		return;
+		return null;
 	}
 
 	mods.jei.JEI.removeAndHide(item);

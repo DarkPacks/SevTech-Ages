@@ -17,32 +17,33 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 
 	for item in oreDictEntry.items {
 		if (!item.matches(preferredItem)) {
-			mods.jei.JEI.removeAndHide(item);
+			if (!loadedMods.contains("jei")) {
+				recipes.remove(item);
+			}
 
 			furnace.remove(item);
 
-			if (loadedMods.contains("immersiveengineering")) {
-				mods.immersiveengineering.AlloySmelter.removeRecipe(item);
-				mods.immersiveengineering.ArcFurnace.removeRecipe(item);
-				mods.immersiveengineering.Crusher.removeRecipe(item);
-				mods.immersiveengineering.MetalPress.removeRecipe(item);
-			}
-
+			/*
+				Check supported mods and call script if loaded
+			*/
 			if (loadedMods.contains("appliedenergistics2")) {
-				mods.appliedenergistics2.Grinder.removeRecipe(item);
+				scripts.unify.supported_mods.appliedenergistics2.removeFromAll(item, liquid);
 			}
 
 			if (loadedMods.contains("astralsorcery")) {
-				//TODO: Change to removeRecipe once fixed in AS
-				mods.astralsorcery.Grindstone.removeReipce(item);
+				scripts.unify.supported_mods.astralsorcery.removeFromAll(item, liquid);
 			}
 
-			if (hasLiquid) {
-				if (loadedMods.contains("tconstruct")) {
-					mods.tconstruct.Casting.removeBasinRecipe(item);
-					mods.tconstruct.Casting.removeTableRecipe(item);
-					mods.tconstruct.Melting.removeRecipe(liquid, item);
-				}
+			if (loadedMods.contains("immersiveengineering")) {
+				scripts.unify.supported_mods.immersiveengineering.removeFromAll(item, liquid);
+			}
+
+			if (loadedMods.contains("jei")) {
+				scripts.unify.supported_mods.jei.removeFromAll(item, liquid);
+			}
+
+			if (loadedMods.contains("tconstruct")) {
+				scripts.unify.supported_mods.tconstruct.removeFromAll(item, liquid);
 			}
 
 			//Remove from Ore Dict
@@ -54,7 +55,7 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 function unifyWithPreferredMods(oreDictEntry as IOreDictEntry, preferredModsParam as string[], liquid as ILiquidStack) {
 	//Set to defaultPreferredMods if the param preferredModsParam is null
 	var preferredMods as string[] = isNull(preferredModsParam) ?
-		scripts.unify.defaultPreferredMods : preferredModsParam;
+		scripts.unify.base.defaultPreferredMods : preferredModsParam;
 
 	var preferredItem as IItemStack = null;
 
@@ -79,7 +80,7 @@ function unifyWithPreferredMods(oreDictEntry as IOreDictEntry, preferredModsPara
 	}
 
 	//Call unifyWithPreferred
-	scripts.unify.unifyWithPreferredItem(oreDictEntry, preferredItem, liquid);
+	scripts.unify.base.unifyWithPreferredItem(oreDictEntry, preferredItem, liquid);
 }
 
 unifyWithPreferredItem(<ore:gearWood>, <betterwithmods:material>, null);

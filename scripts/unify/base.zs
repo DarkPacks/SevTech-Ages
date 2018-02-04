@@ -50,6 +50,8 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 			oreDictEntry.remove(item);
 		}
 	}
+
+	scripts.utils.ensureOreDict(oreDictEntry, preferredItem);
 }
 
 /*

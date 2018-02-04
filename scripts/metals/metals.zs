@@ -65,13 +65,6 @@ function isItemToKeep(item as IItemStack) as bool {
 	return false;
 }
 
-//Add item to oreDict if it does not exist already
-function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
-	if (!(itemOreDict in item)) {
-		itemOreDict.add(item);
-	}
-}
-
 //Stage Item
 function stageItem(stage as string, item as IItemStack) {
 	if (stage != "") {
@@ -343,8 +336,6 @@ for metalName, metal in metals {
 
 			if (preferredMetalItem as bool) {
 				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
-
-				ensureOreDict(metal[partName], preferredMetalItem);
 
 				stageItem(metalStage, preferredMetalItem);
 

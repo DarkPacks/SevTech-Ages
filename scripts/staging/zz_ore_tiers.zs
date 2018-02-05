@@ -217,9 +217,12 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		//Osmium
 		[<mekanism:oreblock>],
 		[<materialpart:osmium:ore_minecraft_stone>],
+		[<materialpart:osmium:ore_sample>, <immcraft:rock>],
 
 		//Silicon
-		[<galacticraftcore:basic_block_core:8>]
+		[<galacticraftcore:basic_block_core:8>],
+		[<materialpart:silicon:ore_minecraft_stone>],
+		[<materialpart:silicon:ore_sample>, <immcraft:rock>]
 	],
 
 	STAGES.five : [

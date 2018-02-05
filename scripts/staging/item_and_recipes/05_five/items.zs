@@ -11,7 +11,6 @@ var modIDs as string[] = [
 	"ironjetpacks",
 	"mysticalagradditions",
 	"mysticalagriculture",
-	"mekanism",
 	"overloaded",
 	"quantumstorage",
 	"rftools",

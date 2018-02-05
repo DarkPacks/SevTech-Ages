@@ -1079,7 +1079,27 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:2>,
 	<enderutilities:syringe:3>,
 	<enderutilities:syringe>,
-	<enderutilities:void_pickaxe>
+	<enderutilities:void_pickaxe>,
+
+	//Mekanism
+	<mekanism:machineblock2:4>,
+	<mekanism:machineblock2>,
+	<mekanism:mufflingupgrade>,
+	<mekanism:configurator>,
+	<mekanism:machineblock:8>,
+	<mekanism:enrichedalloy>,
+	<mekanism:controlcircuit>,
+	<mekanism:energytablet>,
+	<mekanism:electrolyticcore>,
+	<mekanism:machineblock2:11>,
+	<mekanism:ingot:1>,
+	<mekanism:dust:2>,
+	<mekanism:transmitter:2>,
+	<mekanism:transmitter:1>,
+	<mekanism:gastank:*>,
+	<contenttweaker:sub_block_holder_0:6>,
+	<contenttweaker:sub_block_holder_0:5>
+
 ];
 
 for item in stage4Items {

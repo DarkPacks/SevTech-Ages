@@ -221,7 +221,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 
 		//Silicon
 		[<galacticraftcore:basic_block_core:8>],
-		[<materialpart:silicon:ore_minecraft_stone>],
 		[<materialpart:silicon:ore_sample>, <immcraft:rock>]
 	],
 

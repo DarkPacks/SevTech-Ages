@@ -43,6 +43,8 @@ var removeItems as IItemStack[] = [
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
+	<extendedcrafting:ender_alternator>,
+	<extendedcrafting:ender_crafter>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,
@@ -161,7 +163,9 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:quartz_enriched_iron>,
 
 	//Galacticraft
-	<galacticraftcore:machine:12>
+	<galacticraftcore:machine:12>,
+	<galacticraftcore:rocket_workbench>,
+	<galacticraftcore:fuel_loader>
 ];
 
 for item in removeItems {

@@ -132,3 +132,10 @@ ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag
 */
 Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
 Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
+
+
+//Example
+//mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy);
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel>, <liquid:liquidoxygen>, <liquid:kerosene>, 2048);
+

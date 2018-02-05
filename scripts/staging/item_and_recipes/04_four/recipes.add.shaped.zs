@@ -62,6 +62,23 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+
+	<extendedcrafting:ender_crafter>: [
+		[
+			[<enderutilities:enderpart:1>, <enderutilities:enderpart:1>, <enderutilities:enderpart:1>],
+			[<enderutilities:enderpart>, <astralsorcery:blockaltar>, <enderutilities:enderpart>],
+			[<enderutilities:enderpart>, <enderutilities:enderpart>, <enderutilities:enderpart>]
+		]
+	],
+	<extendedcrafting:ender_alternator>: [
+		[
+			[null, <minecraft:ender_eye>, null],
+			[null, <enderutilities:enderpart>, null],
+			[<enderutilities:enderpart>, <enderutilities:enderpart>, <enderutilities:enderpart>]
+		]
+	],
+
+
 	<minecraft:ender_chest> : [
 		[
 			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],
@@ -891,7 +908,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
 			[metals.aluminum.plate, <betterwithmods:steel_anvil>, metals.aluminum.plate]
 		]
+	],
+	<galacticraftcore:fuel_loader>: [
+		[
+			[<galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:6>],
+			[<appliedenergistics2:material:22>, <galacticraftcore:canister>, <appliedenergistics2:material:24>],
+			[<galacticraftcore:basic_item:7>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:7>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

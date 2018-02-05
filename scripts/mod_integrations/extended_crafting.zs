@@ -58,6 +58,29 @@ TableCrafting.addShaped(
 	]
 );
 
+//NASA Workbench 
+mods.extendedcrafting.EnderCrafting.addShaped(<galacticraftcore:rocket_workbench>,
+	[
+		[<galacticraftcore:basic_item:9>, <pneumaticcraft:assembly_io_unit>, <galacticraftcore:basic_item:9>],
+		[<appliedenergistics2:material:22>, <extendedcrafting:table_basic>, <appliedenergistics2:material:24>],
+		[<galacticraftcore:basic_item:9>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:9>]
+	]
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 	Compression Crafting
 

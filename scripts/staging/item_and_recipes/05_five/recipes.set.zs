@@ -10,7 +10,6 @@ var modIDs as string[] = [
 	"environmentaltech",
 	"extraplanets",
 	"ironjetpacks",
-	"mekanism",
 	"quantumstorage",
 	"scannable"
 ];

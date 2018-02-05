@@ -42,13 +42,12 @@ var metalStages as string[string] = {
 	uranium: "four"
 };
 
-//Value doesnt really matter here - but just put it to true
-var partsToSkip as bool[string] = {
-	"clump": true,
-	"crystal": true,
-	"dirtyDust": true,
-	"shard": true
-};
+var partsToSkip as string[] = [
+	"clump",
+	"crystal",
+	"dirtyDust",
+	"shard"
+];
 
 function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
@@ -339,7 +338,7 @@ for metalName, metal in metals {
 
 				stageItem(metalStage, preferredMetalItem);
 
-				if (!(partsToSkip in partName)) {
+				if (!(partsToSkip has partName)) {
 					handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
 				}
 			}

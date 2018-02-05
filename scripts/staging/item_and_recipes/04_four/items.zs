@@ -982,6 +982,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:space_glass_clear>,
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
+	<materialpart:silicon:ore_sample>,
 
 	//Ender Utilities
 	<enderutilities:asu>,
@@ -1082,24 +1083,23 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:void_pickaxe>,
 
 	//Mekanism
-	<mekanism:machineblock2:4>,
-	<mekanism:machineblock2>,
-	<mekanism:mufflingupgrade>,
+	<materialpart:osmium:ore_minecraft_stone>,
+	<materialpart:osmium:ore_sample>,
 	<mekanism:configurator>,
-	<mekanism:machineblock:8>,
-	<mekanism:enrichedalloy>,
 	<mekanism:controlcircuit>,
-	<mekanism:energytablet>,
-	<mekanism:electrolyticcore>,
-	<mekanism:machineblock2:11>,
-	<mekanism:ingot:1>,
 	<mekanism:dust:2>,
-	<mekanism:transmitter:2>,
-	<mekanism:transmitter:1>,
+	<mekanism:electrolyticcore>,
+	<mekanism:energytablet>,
+	<mekanism:enrichedalloy>,
 	<mekanism:gastank:*>,
-	<contenttweaker:sub_block_holder_0:6>,
-	<contenttweaker:sub_block_holder_0:5>
-
+	<mekanism:ingot:1>,
+	<mekanism:machineblock2:4>,
+	<mekanism:machineblock2:11>,
+	<mekanism:machineblock2>,
+	<mekanism:machineblock:8>,
+	<mekanism:mufflingupgrade>,
+	<mekanism:transmitter:1>,
+	<mekanism:transmitter:2>
 ];
 
 for item in stage4Items {

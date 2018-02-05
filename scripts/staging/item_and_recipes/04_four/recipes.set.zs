@@ -657,18 +657,17 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:void_pickaxe>,
 
 	//Mekanism
-	<mekanism:transmitter:2>,
-	<mekanism:transmitter:1>,
-	<mekanism:machineblock2:11>,
-	<mekanism:mufflingupgrade>,
-	<mekanism:machineblock2>,
-	<mekanism:gastank>,
 	<mekanism:configurator>,
-	<mekanism:machineblock:8>,
+	<mekanism:electrolyticcore>,
 	<mekanism:energytablet>,
+	<mekanism:gastank>,
 	<mekanism:machineblock2:4>,
-	<mekanism:electrolyticcore>
-
+	<mekanism:machineblock2:11>,
+	<mekanism:machineblock2>,
+	<mekanism:machineblock:8>,
+	<mekanism:mufflingupgrade>,
+	<mekanism:transmitter:1>,
+	<mekanism:transmitter:2>
 ];
 
 for item in itemsForStage {

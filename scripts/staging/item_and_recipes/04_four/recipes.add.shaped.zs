@@ -61,8 +61,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <extendedcrafting:material:16>, null]
 		]
 	],
-
-
 	<extendedcrafting:ender_crafter>: [
 		[
 			[<enderutilities:enderpart:1>, <enderutilities:enderpart:1>, <enderutilities:enderpart:1>],
@@ -77,7 +75,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<enderutilities:enderpart>, <enderutilities:enderpart>, <enderutilities:enderpart>]
 		]
 	],
-
 
 	<minecraft:ender_chest> : [
 		[
@@ -916,7 +913,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftcore:basic_item:7>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:7>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -95,3 +95,4 @@ unifyWithPreferredItem(<ore:itemSilicon>, <galacticraftcore:basic_item:2>, null)
 unifyWithPreferredItem(<ore:stickWood>, <minecraft:stick>, null);
 unifyWithPreferredItem(<ore:dustCoal>, <betterwithmods:material:18>, null);
 unifyWithPreferredItem(<ore:dustWood>, <betterwithmods:material:22>, null);
+unifyWithPreferredItem(<ore:pulpWood>, <betterwithmods:material:22>, null);

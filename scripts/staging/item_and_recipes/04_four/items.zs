@@ -1094,12 +1094,21 @@ var stage4Items as IIngredient[] = [
 	<mekanism:gastank:*>,
 	<mekanism:ingot:1>,
 	<mekanism:machineblock2:4>,
+	<mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}),
+	<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}),
+	<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}}),
 	<mekanism:machineblock2:11>,
 	<mekanism:machineblock2>,
 	<mekanism:machineblock:8>,
 	<mekanism:mufflingupgrade>,
+	<mekanism:transmitter:1>.withTag({tier: 1}),
+	<mekanism:transmitter:1>.withTag({tier: 2}),
+	<mekanism:transmitter:1>.withTag({tier: 3}),
 	<mekanism:transmitter:1>,
-	<mekanism:transmitter:2>
+	<mekanism:transmitter:2>,
+	<mekanism:transmitter:2>.withTag({tier: 1}),
+	<mekanism:transmitter:2>.withTag({tier: 2}),
+	<mekanism:transmitter:2>.withTag({tier: 3})
 ];
 
 for item in stage4Items {

@@ -344,3 +344,6 @@ for i in 0 to 16 {
 <ore:glass>.remove(<natura:nether_glass>);
 <ore:glass>.remove(<natura:nether_glass:1>);
 <ore:glassBlock>.add(<natura:nether_glass:*>);
+
+//Add pulpWood to sawdust
+<ore:pulpWood>.add(<betterwithmods:material:22>);

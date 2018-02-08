@@ -111,6 +111,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:gold_ore>],
 		[<geolosys:ore_vanilla:2>],
 		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock>],
+		[<minecraft:gold_block>],
 
 		//Astral Sorcery
 		[<astralsorcery:blockcustomsandore>, <minecraft:sand>],

@@ -1,8 +1,12 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-//mods.OreTiers.blacklist(<minecraft:stone>);
+/*
+	Ore Tiers
 
-var replacementItemsForStage as IItemStack[][][string] = {
+	https://github.com/Darkhax-Minecraft/Ore-Stages/blob/master/src/main/java/net/darkhax/orestages/compat/crt/OreTiersCrT.java
+*/
+var replacementItemsForStage as IIngredient[][][string] = {
 	STAGES.one : [
 		//Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks>],
@@ -254,7 +258,7 @@ for stage, itemReplacementPairs in replacementItemsForStage {
 		if (length == 1) {
 			mods.OreTiers.addReplacement(stage, itemReplacementPair[0]);
 		} else if (length == 2) {
-			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1]);
+			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
 		}
 	}
 }

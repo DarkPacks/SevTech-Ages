@@ -17,3 +17,7 @@
 <ore:oreGeolosysQuartz>.add(<geolosys:ore_vanilla:4>);
 <ore:oreGeolosysSphalerite>.add(<geolosys:ore:10>);
 <ore:oreGeolosysTeallite>.add(<geolosys:ore:5>);
+<ore:oreGeolosysOsmium>.add(<materialpart:osmium:ore_minecraft_stone>);
+
+//Remove ore oredict on geolosys-styled CoT ores
+<ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);

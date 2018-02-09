@@ -6,7 +6,7 @@ setTitle("Stage 1")
 
 setDescription("Welcome to the next stage!")
 
-setBackground("embers:textures/blocks/ore_tin_vanilla.png")
+setBackground("mekanism:textures/blocks/tinore.png")
 
 setShowToast(false)
 

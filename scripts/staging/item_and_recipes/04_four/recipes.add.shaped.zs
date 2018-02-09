@@ -912,7 +912,58 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<appliedenergistics2:material:22>, <galacticraftcore:canister>, <appliedenergistics2:material:24>],
 			[<galacticraftcore:basic_item:7>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:7>]
 		]
+	],
+
+	//Car
+	<car:sign_post>: [
+		[
+			[null, metals.iron.rod, null],
+			[null, metals.iron.rod, null]
+		]
+	],
+	<car:screw_driver>: [
+		[
+			[null, metals.iron.rod, null],
+			[null, metals.iron.rod, null],
+			[null, metals.iron.ingot, null]
+		]
+	],
+	<car:hammer>: [
+		[
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
+			[null, metals.iron.rod, null],
+			[null, metals.iron.rod, null]
+		]
+	],
+	<car:sign> * 3: [
+		[
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
+			[null, metals.iron.rod, null]
+		]
+	],
+	<car:engine_piston>: [
+		[
+			[null, null, metals.iron.ingot],
+			[null, metals.iron.rod, null],
+			[metals.iron.rod, null, null]
+		]
+	],
+	<car:wrench>: [
+		[
+			[null, metals.iron.ingot, null],
+			[null, metals.iron.rod, metals.iron.ingot],
+			[metals.iron.rod, null, null]
+		]
+	],
+	<car:axle>: [
+		[
+			[null, null, null],
+			[<car:wheel>, metals.iron.rod, <car:wheel>],
+			[null, null, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

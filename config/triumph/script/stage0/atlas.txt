@@ -4,7 +4,7 @@ setTitle("§1Lost but Now Found")
 
 setDescription("Trade for a map from a Cartographer Villager")
 
-setParent("triumph:stage0/birchbarktome")
+setParent("triumph:stage0/workblade")
 setRequiresParent(true)
 
 

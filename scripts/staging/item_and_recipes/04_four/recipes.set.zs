@@ -541,7 +541,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:nose_cone>,
 	<galacticraftcore:oxygen_compressor>,
 	<galacticraftcore:oxygen_concentrator>,
-	<galacticraftcore:oxygen_tank_light_full>,
 	<galacticraftcore:parachute:1>,
 	<galacticraftcore:parachute:2>,
 	<galacticraftcore:parachute:3>,
@@ -564,6 +563,10 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:space_glass_clear>,
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
+	<galacticraftcore:oxygen_gear>,
+	<galacticraftcore:oxygen_mask>,
+	<galacticraftcore:oxygen_tank_light_full>,
+	<galacticraftcore:canister>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

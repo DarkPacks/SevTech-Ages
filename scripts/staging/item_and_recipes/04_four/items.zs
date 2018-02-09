@@ -983,6 +983,9 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
+	<galacticraftcore:oxygen_gear>,
+	<galacticraftcore:oxygen_mask>,
+	<galacticraftcore:canister>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

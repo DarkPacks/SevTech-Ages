@@ -1,13 +1,9 @@
-//Set icon item
-setIcon("embers:ingot_tin")
+setIcon("mekanism:ingot", 6)
 
-//Set title String
 setTitle("Error 404: Heart Not Found")
 
-//Set description String
 setDescription("Find a surface sample and dig for tin! Located Y8 to 68 and called Cassiterite or Teallite")
 
-//Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 setParent("triumph:stage1/plumbline")
 setRequiresParent(true)
 

@@ -1,4 +1,4 @@
-setIcon("embers:ingot_copper")
+setIcon("immersiveengineering:metal")
 
 setTitle("Get To The Copper")
 

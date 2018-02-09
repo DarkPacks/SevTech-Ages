@@ -1,14 +1,16 @@
-setIcon("actuallyadditions:block_atomic_reconstructor")
+setIcon("galacticraftcore:rocket_t1")
 
-setTitle("Atomic Reconstruction")
+setTitle("To the Moon!")
 
 setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
 
 setParent("triumph:stage4/root")
 setRequiresParent(true)
 
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("actuallyadditions:block_atomic_reconstructor")
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+
+criteria.setDimensionDestination("Moon")
 
 setRewardExperience(16)
 setRewardFunction("triumph:stage5trigger") 

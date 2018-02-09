@@ -368,7 +368,6 @@ var hideItems as IItemStack[] = [
 	<primal:rock_granite>,
 	<primal:rock_netherrack>,
 	<primal:rock_stone>,
-	<primal:rock_vitrified>,
 	<primal:shark_meat_cured>,
 	<primal:shark_meat_rotten>,
 	<primal:shark_meat_salted>,

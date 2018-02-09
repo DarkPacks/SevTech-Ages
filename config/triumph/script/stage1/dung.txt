@@ -5,7 +5,7 @@ setTitle("Pipe Me Up Inside")
 setDescription("Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block")
 
 //Set the parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-setParent("triumph:stage1/core")
+setParent("triumph:stage1/claybarrel")
 setRequiresParent(true)
 
 criteria = addCriteria("placedDirt", "minecraft:placed_block")

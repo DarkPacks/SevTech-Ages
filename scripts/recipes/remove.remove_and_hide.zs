@@ -140,7 +140,12 @@ var removeAndHideItems as IItemStack[] = [
 	//by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM
 	<refinedstorage:core:1>,
 	<refinedstorage:core>,
-	<refinedstorage:solderer>
+	<refinedstorage:solderer>,
+
+	<galacticraftcore:refinery>,
+	<extraplanets:ultimate_refinery>,
+	<extraplanets:advanced_refinery>
+
 ];
 
 for item in removeAndHideItems {

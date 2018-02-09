@@ -11,6 +11,8 @@ var modIDs as string[] = [
 	"extraplanets",
 	"ironjetpacks",
 	"quantumstorage",
+	"rftools",
+	"rftoolscontrol",
 	"scannable"
 ];
 

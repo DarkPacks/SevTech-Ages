@@ -14,8 +14,6 @@ var modIDs as string[] = [
 	"integrateddynamics",
 	"modularrouters",
 	"refinedstorage",
-	"rftools",
-	"rftoolscontrol",
 	"storagenetwork"
 ];
 

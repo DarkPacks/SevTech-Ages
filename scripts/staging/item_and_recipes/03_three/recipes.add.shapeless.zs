@@ -41,6 +41,17 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<immersiveengineering:tool:1>, metals.steel.plate]
 	],
 
+	//Reset IE Capacitor settings
+	<immersiveengineering:metal_device0:0>: [
+		[<immersiveengineering:metal_device0:0>]
+	],
+	<immersiveengineering:metal_device0:1>: [
+		[<immersiveengineering:metal_device0:1>]
+	],
+	<immersiveengineering:metal_device0:2>: [
+		[<immersiveengineering:metal_device0:2>]
+	],
+
 	//Tinkers' Construct
 	<tconstruct:materials:16> * 9 : [
 		[<tconstruct:metal:6>]

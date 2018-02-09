@@ -142,10 +142,10 @@ var removeAndHideItems as IItemStack[] = [
 	<refinedstorage:core>,
 	<refinedstorage:solderer>,
 
-	<galacticraftcore:refinery>,
+	//Remove Galacticraft refineries
+	<extraplanets:advanced_refinery>,
 	<extraplanets:ultimate_refinery>,
-	<extraplanets:advanced_refinery>
-
+	<galacticraftcore:refinery>
 ];
 
 for item in removeAndHideItems {

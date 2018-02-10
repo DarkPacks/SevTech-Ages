@@ -1,6 +1,4 @@
-function createRecipeName(machineName as string, recipeName as string) as string {
-	return machineName + "_" + recipeName;
-}
+import scripts.mod_integrations.modular_machinery.base.createRecipeName;
 
 var machineName = "industrial_mill";
 

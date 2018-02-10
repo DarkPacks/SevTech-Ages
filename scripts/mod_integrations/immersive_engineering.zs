@@ -143,4 +143,4 @@ Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks
 
 	mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy);
 */
-Refinery.addRecipe(<liquid:fuel>, <liquid:liquidoxygen>, <liquid:kerosene>, 2048);
+Refinery.addRecipe(<liquid:fuel> * 100, <liquid:liquidoxygen> * 250, <liquid:kerosene> * 100, 2048);

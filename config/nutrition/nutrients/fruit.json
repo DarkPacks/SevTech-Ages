@@ -287,7 +287,9 @@
       "thebetweenlands:middle_fruit_jello",
       "thebetweenlands:sludge_jello",
       "thebetweenlands:sap_jello",
-      "thebetweenlands:forbidden_fig"
+      "thebetweenlands:forbidden_fig",
+      "galacticraftcore:basic_item:15",
+      "galacticraftcore:basic_item:17"
     ]
   }
 }

@@ -335,7 +335,9 @@
       "thebetweenlands:marshmallow_pink",
       "thebetweenlands:nettle_soup",
       "thebetweenlands:weeping_blue_petal",
-      "actuallyadditions:item_food:14"
+      "actuallyadditions:item_food:14",
+      "galacticraftcore:basic_item:16",
+      "galacticraftcore:basic_item:18"
     ]
   }
 }

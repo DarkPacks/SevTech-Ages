@@ -1,0 +1,43 @@
+{
+  "name": "compactmachines3:machineframe",
+  "target-item": "teslacorelib:machine_case",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "catalyst": "galacticraftcore:basic_item",
+  "catalyst-meta": 14,
+
+  "input-types": {
+	"f" : { "id": "extendedcrafting:frame"},
+	"p" : { 
+		"id": "mekanism:plasticblock",
+      "meta": 7
+	},
+	"q" : { "id": "appliedenergistics2:quartz_glass"},
+	"r" : { 
+		"id": "immersiveengineering:metal_decoration0",
+      "meta": 3
+		}
+	},
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["p","p","p"],
+      ["p","r","p"],
+      ["p","p","p"]
+    ],
+    [
+      ["p","q","p"],
+      ["q","f","q"],
+      ["p","q","p"]
+    ],
+    [
+      ["p","p","p"],
+      ["p","p","p"],
+      ["p","p","p"]
+    ]
+  ]
+}

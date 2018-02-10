@@ -71,6 +71,8 @@ Crusher.addRecipe(metals.osmium.dust.firstItem * 2, <ore:oreOsmium>, 3000); //Os
 
 Crusher.addRecipe(<ore:dustCoal>.firstItem, <ore:coal>, 3000); //Coal to coal dust
 
+Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>, 3000); //Certus Quartz to Certus Dust
+
 /*
 	Arc Furnace
 */

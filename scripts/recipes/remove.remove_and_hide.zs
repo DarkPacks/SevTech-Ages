@@ -131,6 +131,14 @@ var removeAndHideItems as IItemStack[] = [
 	<cookingforblockheads:cow_jar>,
 	<cookingforblockheads:milk_jar>,
 
+	//Simply Arrows
+	<simplyarrows:arrow_cake>,
+	<simplyarrows:arrow_flame>,
+	<simplyarrows:arrow_iron>,
+	<simplyarrows:arrow_love>,
+	<simplyarrows:arrow_tnt>,
+	<simplyarrows:arrow_torch>,
+
 	//Applied Energistics
 	<appliedenergistics2:material:21>, //Inscriber Name Press
 	<appliedenergistics2:material:45>, //Skystone Dust

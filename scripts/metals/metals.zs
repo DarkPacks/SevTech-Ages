@@ -304,8 +304,8 @@ for metalName, metal in metals {
 		var liquidContainers as IItemStack[] = [
 			<ceramics:clay_bucket>,
 			<forge:bucketfilled>,
-			<thebetweenlands:syrmorite_bucket_filled>,
-			<thebetweenlands:weedwood_bucket_filled>
+			<thebetweenlands:bl_bucket:1>,
+			<thebetweenlands:bl_bucket>
 		];
 
 		for liquidContainer in liquidContainers {
@@ -313,6 +313,13 @@ for metalName, metal in metals {
 			if (liquidContainer.matches(<ceramics:clay_bucket>)) {
 				data = {
 					fluids: {
+						FluidName: metalLiquid.name,
+						Amount: 1000
+					}
+				};
+			} else if (liquidContainer.matches(<thebetweenlands:bl_bucket:1>) | liquidContainer.matches(<thebetweenlands:bl_bucket>)) {
+				data = {
+					Fluid: {
 						FluidName: metalLiquid.name,
 						Amount: 1000
 					}

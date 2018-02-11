@@ -34,6 +34,7 @@ static materials as Material[string] = {
 	"reinforcedMetal": MaterialSystem.getMaterialBuilder().setName("Reinforced Metal").setColor(7643841).build(),
 	"silicon": MaterialSystem.getMaterialBuilder().setName("Silicon").setColor(Color.fromHex("141414")).build(),
 	"silver": MaterialSystem.getMaterialBuilder().setName("Silver").setColor(15592941).build(),
+	"spacePlatinum": MaterialSystem.getMaterialBuilder().setName("Space Platinum").setColor(Color.fromHex("6e757b")).build(),
 	"steel": MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build(),
 	"steeleaf": MaterialSystem.getMaterialBuilder().setName("Steeleaf").setColor(4283598394).build(),
 	"stone": MaterialSystem.getMaterialBuilder().setName("Stone").setColor(11117475).build(),

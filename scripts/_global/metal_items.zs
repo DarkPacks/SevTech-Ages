@@ -351,7 +351,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	spacePlatinum: {
 		block: <extraplanets:kepler22b:14>,
-		dust: null,
+		dust: <materialpart:space_platinum:dust>,
 		gear: null,
 		ingot: <extraplanets:tier11_items:5>,
 		liquid: null,

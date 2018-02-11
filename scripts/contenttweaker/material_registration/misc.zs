@@ -73,3 +73,6 @@ materials.platinum.registerParts(platinumParts);
 //Invar
 var invarParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"];
 materials.invar.registerParts(invarParts);
+
+//Space Platinum
+materials.spacePlatinum.registerPart("dust");

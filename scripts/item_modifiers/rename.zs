@@ -17,7 +17,12 @@ var renameArray as string[IItemStack] = {
 
 	<natura:materials:5> : "Baykok's Rib",
 
-	<betterbuilderswands:wanddiamond> : "Platinum Wand"
+	<betterbuilderswands:wanddiamond> : "Platinum Wand",
+
+	//Space Platinum
+	<extraplanets:kepler22b:14> : "Block of Space Platinum",
+	<extraplanets:tier11_items:5> : "§9Space Platinum Ingot",
+	<extraplanets:tier11_items:6> : "§9Compressed Space Platinum"
 };
 
 for item in renameArray {

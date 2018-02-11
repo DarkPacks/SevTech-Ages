@@ -319,6 +319,15 @@ global metals as IOreDictEntry[string][string] = {
 		rod: <ore:rodSilver>,
 		shard: <ore:shardSilver>
 	},
+	spacePlatinum: {
+		block: <ore:blockSpacePlatinum>,
+		dust: null,
+		gear: null,
+		ingot: <ore:ingotSpacePlatinum>,
+		nugget: null,
+		plate: null,
+		rod: null
+	},
 	steel: {
 		block: <ore:blockSteel>,
 		dust: <ore:dustSteel>,

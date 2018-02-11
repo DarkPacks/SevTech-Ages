@@ -36,6 +36,7 @@ var metalStages as string[string] = {
 	refinedCoralium: "one",
 	reinforcedMetal: "three",
 	silver: "three",
+	spacePlatinum: "five",
 	steel: "three",
 	steeleaf: "two",
 	tin: "one",
@@ -298,9 +299,10 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 for metalName, metal in metals {
 	var metalLiquid = getMetalLiquid(metalName);
 	var hasLiquid = metalLiquid as bool;
+	var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
 	//Stage liquid containers
-	if (metalStages[metalName] != "" & hasLiquid) {
+	if (metalStage != "" & hasLiquid) {
 		var liquidContainers as IItemStack[] = [
 			<ceramics:clay_bucket>,
 			<forge:bucketfilled>,
@@ -331,7 +333,7 @@ for metalName, metal in metals {
 				};
 			}
 
-			mods.ItemStages.addItemStage(metalStages[metalName], liquidContainer.withTag(data));
+			mods.ItemStages.addItemStage(metalStage, liquidContainer.withTag(data));
 		}
 	}
 
@@ -342,8 +344,6 @@ for metalName, metal in metals {
 			scripts.unify.base.unifyWithPreferredItem(part, preferredMetalItem, metalLiquid);
 
 			if (preferredMetalItem as bool) {
-				var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
-
 				stageItem(metalStage, preferredMetalItem);
 
 				if (!(partsToSkip in partName)) {

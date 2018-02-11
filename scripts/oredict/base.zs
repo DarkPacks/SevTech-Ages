@@ -344,3 +344,11 @@ for i in 0 to 16 {
 <ore:glass>.remove(<natura:nether_glass>);
 <ore:glass>.remove(<natura:nether_glass:1>);
 <ore:glassBlock>.add(<natura:nether_glass:*>);
+
+//Space Platinum
+<ore:blockPlatinum>.remove(<extraplanets:kepler22b:14>);
+<ore:blockSpacePlatinum>.add(<extraplanets:kepler22b:14>);
+<ore:ingotPlatinum>.remove(<extraplanets:tier11_items:5>);
+<ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
+<ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
+<ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);

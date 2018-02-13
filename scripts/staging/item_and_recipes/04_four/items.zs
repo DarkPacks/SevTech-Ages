@@ -297,7 +297,6 @@ var stage4Items as IIngredient[] = [
 	<teslacorelib:wrench>,
 
 	//Actually Additions
-	<actuallyadditions:block_breaker>,
 	<actuallyadditions:battery_bauble>,
 	<actuallyadditions:battery_double_bauble>,
 	<actuallyadditions:battery_quadruple_bauble>,
@@ -305,6 +304,7 @@ var stage4Items as IIngredient[] = [
 	<actuallyadditions:battery_triple_bauble>,
 	<actuallyadditions:block_battery_box>,
 	<actuallyadditions:block_bio_reactor>,
+	<actuallyadditions:block_breaker>,
 	<actuallyadditions:block_canola_press>,
 	<actuallyadditions:block_chiseled_quartz_slab>,
 	<actuallyadditions:block_chiseled_quartz_stair>,
@@ -324,6 +324,8 @@ var stage4Items as IIngredient[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_heat_collector>,
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_item_viewer_hopping>,
 	<actuallyadditions:block_misc:4>,
 	<actuallyadditions:block_misc:6>,
@@ -372,8 +374,6 @@ var stage4Items as IIngredient[] = [
 	<actuallyadditions:item_small_to_medium_crate_upgrade>,
 	<actuallyadditions:item_void_bag>,
 	<actuallyadditions:magnet_ring_bauble>,
-	<actuallyadditions:block_inputter_advanced>,
-	<actuallyadditions:block_inputter>,
 
 	//Car Mod
 	<car:arrow>,

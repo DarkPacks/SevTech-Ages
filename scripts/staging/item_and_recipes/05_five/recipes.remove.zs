@@ -11,9 +11,9 @@ var removeItems as IItemStack[] = [
 	<storagedrawers:upgrade_storage:4>,
 
 	//Iron Jetpacks
-	<ironjetpacks:electrum_capacitor>,
+	<ironjetpacks:advanced_coil>,
 	<ironjetpacks:basic_coil>,
-	<ironjetpacks:advanced_coil>
+	<ironjetpacks:electrum_capacitor>
 ];
 
 for item in removeItems {

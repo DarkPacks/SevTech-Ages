@@ -107,9 +107,6 @@ var stage5Items as IIngredient[] = [
 	<minecraft:nether_star>,
 
 	//Actually Additions
-	<actuallyadditions:magnet_ring_bauble>,
-	<actuallyadditions:potion_ring_advanced_bauble:*>,
-	<actuallyadditions:item_potion_ring:*>,
 	<actuallyadditions:block_atomic_reconstructor>,
 	<actuallyadditions:block_colored_lamp:1>,
 	<actuallyadditions:block_colored_lamp:*>,
@@ -267,6 +264,7 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:item_pickaxe_crystal_white>,
 	<actuallyadditions:item_pickaxe_emerald>,
 	<actuallyadditions:item_player_probe>,
+	<actuallyadditions:item_potion_ring:*>,
 	<actuallyadditions:item_potion_ring_advanced:*>,
 	<actuallyadditions:item_shovel_crystal_black>,
 	<actuallyadditions:item_shovel_crystal_blue>,
@@ -287,6 +285,8 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 	<actuallyadditions:item_wings_of_the_bats>,
+	<actuallyadditions:magnet_ring_bauble>,
+	<actuallyadditions:potion_ring_advanced_bauble:*>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
 
 	//Steve's Factory Manager

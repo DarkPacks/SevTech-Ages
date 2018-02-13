@@ -35,7 +35,6 @@ var parts as IItemStack[] = [
 	<yoyos:yoyo_cord>
 ];
 
-//Make sure each stage has a matching stage in the stages array!
 var materialsForStage as string[][string] = {
 	STAGES.one : [
 		"bone",
@@ -54,9 +53,11 @@ var materialsForStage as string[][string] = {
 		"dreadium",
 		"electrum",
 		"feather",
+		"fierymetal",
 		"hemp",
 		"ice",
 		"iron",
+		"knightmetal",
 		"leaf",
 		"prismarine",
 		"reed",
@@ -70,9 +71,7 @@ var materialsForStage as string[][string] = {
 		"slimevine_purple",
 		"sponge",
 		"string",
-		"vine",
-		"fierymetal",
-		"knightmetal"
+		"vine"
 	],
 
 	STAGES.three : [

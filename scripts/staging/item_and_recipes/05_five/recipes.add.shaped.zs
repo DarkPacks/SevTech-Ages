@@ -69,9 +69,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<ironjetpacks:basic_coil>: [
 		[
-			[null, <immersiveengineering:wirecoil:1>, metals.redstonAlly.rod],
-			[<immersiveengineering:wirecoil:5>, metals.redstonAlly.rod, <immersiveengineering:wirecoil:5>],
-			[metals.redstonAlly.rod, <immersiveengineering:wirecoil:1>, null]
+			[null, <immersiveengineering:wirecoil:1>, metals.redstoneAlloy.rod],
+			[<immersiveengineering:wirecoil:5>, metals.redstoneAlloy.rod, <immersiveengineering:wirecoil:5>],
+			[metals.redstoneAlloy.rod, <immersiveengineering:wirecoil:1>, null]
 		]
 	],
 	<ironjetpacks:advanced_coil>: [
@@ -81,7 +81,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.galgadorian.rod, <immersiveengineering:wirecoil:4>, null]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -141,7 +141,7 @@ static materialsForStage as string[][string] = {
 	]
 };
 
-for stage, materials in materialStages {
+for stage, materials in materialsForStage {
 	for material in materials {
 		TinkerStages.addToolTypeStage(stage, material);
 	}

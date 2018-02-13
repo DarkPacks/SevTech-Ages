@@ -70,7 +70,9 @@ var materialsForStage as string[][string] = {
 		"slimevine_purple",
 		"sponge",
 		"string",
-		"vine"
+		"vine",
+		"fierymetal",
+		"knightmetal"
 	],
 
 	STAGES.three : [

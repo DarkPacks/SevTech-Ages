@@ -1,0 +1,13 @@
+setIcon("galacticraftcore:rocket_workbench")
+
+setTitle("Space Program Foundation")
+
+setDescription("Craft a NASA Workbench to begin your journey to the Moon")
+
+setParent("triumph:stage4/endercrafter")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:rocket_workbench")
+
+setRequirements("any")

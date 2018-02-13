@@ -1,0 +1,13 @@
+setIcon("pneumaticcraft:creative_compressor")
+
+setTitle("Creative Air Compressor")
+
+setDescription("Craft the Creative Air Compressor from Pneumaticraft")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:creative_compressor")
+
+setRequirements("any")

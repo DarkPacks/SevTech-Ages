@@ -1,0 +1,13 @@
+setIcon("mekanism:energycube")
+
+setTitle("Creative Energy Cube")
+
+setDescription("Craft the Creative Energy Cube from Mekanism")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mekanism:energycube")
+
+setRequirements("any")

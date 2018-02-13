@@ -903,7 +903,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[metals.aluminum.plate, <minecraft:piston>, metals.aluminum.plate],
 			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
-			[metals.aluminum.plate, <betterwithmods:steel_anvil>, metals.aluminum.plate]
+			[<enderutilities:enderpart:2>, <betterwithmods:steel_anvil>, <enderutilities:enderpart:2>]
 		]
 	],
 	<galacticraftcore:fuel_loader>: [
@@ -962,7 +962,238 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<car:wheel>, metals.iron.rod, <car:wheel>],
 			[null, null, null]
 		]
+	],
+	<actuallyadditions:item_misc:7>: [
+		[
+			[null, <immersiveengineering:wirecoil:5>, <actuallyadditions:item_misc:5>],
+			[<immersiveengineering:wirecoil:5>, metals.iron.rod, <immersiveengineering:wirecoil:5>],
+			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:5>, null]
+		]
+	],
+	<actuallyadditions:item_misc:8>: [
+		[
+			[null, <immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:5>],
+			[<immersiveengineering:wirecoil:1>, metals.compressedIron.rod, <immersiveengineering:wirecoil:1>],
+			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:1>, null]
+		]
+	],
+	<actuallyadditions:item_battery>: [
+		[
+			[null, <immersiveengineering:wirecoil:5>, null],
+			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
+			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_battery_double>: [
+		[
+			[null, <actuallyadditions:item_battery>, null],
+			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
+			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_battery_triple>: [
+		[
+			[null, <actuallyadditions:item_battery_double>, null],
+			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
+			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
+		]
+	],
+	<actuallyadditions:item_battery_quadruple>: [
+		[
+			[null, <actuallyadditions:item_battery_triple>, null],
+			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
+			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
+		]
+	],
+	<actuallyadditions:item_battery_quintuple>: [
+		[
+			[null, <actuallyadditions:item_battery_quadruple>, null],
+			[metals.silver.plate, <actuallyadditions:item_misc:8>, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
+		]
+	],
+	<actuallyadditions:block_misc:9>: [
+		[
+			[metals.iron.plate, stick, metals.iron.plate],
+			[stick, <actuallyadditions:item_misc:5>, stick],
+			[metals.iron.plate, stick, metals.iron.plate]
+		]
+	],
+	<actuallyadditions:block_bio_reactor>: [
+		[
+			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate],
+			[metals.modularium.plate, <ore:treeSapling>, metals.modularium.plate],
+			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate]
+		]
+	],
+	<actuallyadditions:block_canola_press>: [
+		[
+			[cobblestone, metals.iron.plate, cobblestone],
+			[cobblestone, <actuallyadditions:item_misc:13>, cobblestone],
+			[cobblestone, <actuallyadditions:item_misc:8>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_fermenting_barrel>: [
+		[
+			[log, metals.iron.plate, log],
+			[log, <actuallyadditions:item_misc:13>, log],
+			[log, <actuallyadditions:block_misc:4>, log]
+		]
+	],
+	<actuallyadditions:block_misc:8>: [
+		[
+			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>],
+			[metals.modularium.plate, <actuallyadditions:block_misc:2>, metals.modularium.plate],
+			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>]
+		]
+	],
+	<actuallyadditions:block_giant_chest_medium>: [
+		[
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[metals.nickel.plate, null, metals.nickel.plate],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>]
+		]
+	],
+	<actuallyadditions:block_giant_chest_large>: [
+		[
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[metals.modularium.plate, null, metals.modularium.plate],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest_medium>, <ore:plankTreatedWood>]
+		]
+	],
+	<actuallyadditions:block_inputter>: [
+		[
+			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+			[<pneumaticcraft:omnidirectional_hopper>, null, <pneumaticcraft:omnidirectional_hopper>],
+			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]
+		]
+	],
+	<actuallyadditions:block_inputter_advanced>: [
+		[
+			[<actuallyadditions:block_inputter>, <actuallyadditions:item_misc:8>],
+			[<actuallyadditions:item_misc:5>, metals.redstoneAlloy.plate]
+		]
+	],
+	<actuallyadditions:block_breaker>: [
+		[
+			[cobblestone, cobblestone, cobblestone],
+			[cobblestone, <actuallyadditions:item_misc:7>, <immersiveengineering:drillhead:1>],
+			[cobblestone, cobblestone, cobblestone]
+		]
+	],
+	<actuallyadditions:block_directional_breaker>: [
+		[
+			[null, null, null],
+			[<actuallyadditions:block_breaker>, <actuallyadditions:block_breaker>, <actuallyadditions:block_breaker>],
+			[null, <stevescarts:cartmodule:42>, null]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_speed>: [
+		[
+			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate],
+			[<minecraft:sugar>, metals.redstoneAlloy.plate, <minecraft:sugar>],
+			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_speed_ii>: [
+		[
+			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate],
+			[<minecraft:sugar>, <minecraft:cake>, <minecraft:sugar>],
+			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_speed_iii>: [
+		[
+			[metals.modularium.plate, <minecraft:sugar>, metals.modularium.plate],
+			[<minecraft:sugar>, <stevescarts:modulecomponents:21>, <minecraft:sugar>],
+			[metals.modularium.plate, <minecraft:sugar>, metals.modularium.plate]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_silk_touch>: [
+		[
+			[<tconstruct:materials:16>, metals.platinum.plate, <tconstruct:materials:16>],
+			[metals.platinum.plate, <actuallyadditions:item_misc:8>, metals.platinum.plate],
+			[<tconstruct:materials:16>, metals.platinum.plate, <tconstruct:materials:16>]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_fortune>: [
+		[
+			[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>],
+			[<minecraft:redstone>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone>],
+			[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_fortune_ii>: [
+		[
+			[<minecraft:glowstone>, metals.redstoneAlloy.plate, <minecraft:glowstone>],
+			[metals.redstoneAlloy.plate, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), metals.redstoneAlloy.plate],
+			[<minecraft:glowstone>, metals.redstoneAlloy.plate, <minecraft:glowstone>]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_three_by_three>: [
+		[
+			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate],
+			[metals.nickel.plate, <actuallyadditions:item_misc:7>, metals.nickel.plate],
+			[metals.platinum.plate, <tconstruct:materials:13>, metals.platinum.plate]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_five_by_five>: [
+		[
+			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate],
+			[<tconstruct:materials:13>, <actuallyadditions:item_misc:8>, <tconstruct:materials:13>],
+			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate]
+		]
+	],
+	<actuallyadditions:item_drill_upgrade_block_placing>: [
+		[
+			[cobblestone, <minecraft:paper>, cobblestone],
+			[metals.nickel.plate, <actuallyadditions:item_misc:7>, metals.nickel.plate],
+			[cobblestone, <minecraft:paper>, cobblestone]
+		]
+	],
+	<actuallyadditions:item_laser_wrench>: [
+		[
+			[<actuallyadditions:item_misc:8>, null, null],
+			[null, metals.nickel.rod, null],
+			[null, null, metals.nickel.rod]
+		]
+	],
+	<actuallyadditions:block_furnace_solar>: [
+		[
+			[<galacticraftcore:basic_item:12>, <actuallyadditions:block_misc:9>, <galacticraftcore:basic_item:12>],
+			[<actuallyadditions:item_misc:8>, <minecraft:glowstone_dust>, <actuallyadditions:item_misc:8>],
+			[<galacticraftcore:basic_item:12>, <minecraft:iron_bars>, <galacticraftcore:basic_item:12>]
+		]
+	],
+	<actuallyadditions:block_greenhouse_glass> * 2: [
+		[
+			[<appliedenergistics2:quartz_vibrant_glass>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass>],
+			[<ore:treeSapling>, <minecraft:lapis_block>, <ore:treeSapling>],
+			[<appliedenergistics2:quartz_vibrant_glass>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass>]
+		]
+	],
+	<actuallyadditions:block_coffee_machine>: [
+		[
+			[null, <actuallyadditions:item_misc:13>, null],
+			[null, <actuallyadditions:block_misc:9>, null],
+			[<actuallyadditions:item_misc:7>, metals.nickel.plate, <actuallyadditions:item_misc:7>]
+		]
+	],
+	<actuallyadditions:block_fishing_net>: [
+		[
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<minecraft:string>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61 as short}]}), <minecraft:string>],
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+		]
+	],
+	<actuallyadditions:block_heat_collector>: [
+		[
+			[<minecraft:iron_bars>, <minecraft:repeater>, <minecraft:iron_bars>],
+			[<actuallyadditions:item_misc:8>, metals.nickel.plate, <actuallyadditions:item_misc:8>],
+			[<minecraft:iron_bars>, <actuallyadditions:block_misc:9>, <minecraft:iron_bars>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

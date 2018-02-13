@@ -227,6 +227,7 @@ var stage4Items as IIngredient[] = [
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
 	<pickletweaks:nightvision_goggles>,
+	<pickletweaks:nightvision_goggles_c>,
 
 	//Extended Crafting
 	<extendedcrafting:interface>,
@@ -296,6 +297,7 @@ var stage4Items as IIngredient[] = [
 	<teslacorelib:wrench>,
 
 	//Actually Additions
+	<actuallyadditions:block_breaker>,
 	<actuallyadditions:battery_bauble>,
 	<actuallyadditions:battery_double_bauble>,
 	<actuallyadditions:battery_quadruple_bauble>,
@@ -366,12 +368,12 @@ var stage4Items as IIngredient[] = [
 	<actuallyadditions:item_misc:8>,
 	<actuallyadditions:item_misc:14>,
 	<actuallyadditions:item_misc:16>,
-	<actuallyadditions:item_potion_ring:*>,
 	<actuallyadditions:item_resonant_rice>,
 	<actuallyadditions:item_small_to_medium_crate_upgrade>,
 	<actuallyadditions:item_void_bag>,
 	<actuallyadditions:magnet_ring_bauble>,
-	<actuallyadditions:potion_ring_advanced_bauble:*>,
+	<actuallyadditions:block_inputter_advanced>,
+	<actuallyadditions:block_inputter>,
 
 	//Car Mod
 	<car:arrow>,

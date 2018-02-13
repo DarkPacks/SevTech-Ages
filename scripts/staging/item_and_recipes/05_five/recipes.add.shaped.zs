@@ -57,7 +57,31 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:emerald>, <storagedrawers:upgrade_template>, <minecraft:emerald>],
 			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
 		]
+	],
+
+	//Iron Jetpacks
+	<ironjetpacks:electrum_capacitor>: [
+		[
+			[<galacticraftcore:basic_item:9>, <ironjetpacks:electrum_cell>, <galacticraftcore:basic_item:9>],
+			[metals.electrum.plate, <ironjetpacks:electrum_cell>, metals.electrum.plate],
+			[<mekanism:compressedobsidian>, metals.compressedIron.gear, <mekanism:compressedobsidian>]
+		]
+	],
+	<ironjetpacks:basic_coil>: [
+		[
+			[null, <immersiveengineering:wirecoil:1>, metals.redstonAlly.rod],
+			[<immersiveengineering:wirecoil:5>, metals.redstonAlly.rod, <immersiveengineering:wirecoil:5>],
+			[metals.redstonAlly.rod, <immersiveengineering:wirecoil:1>, null]
+		]
+	],
+	<ironjetpacks:advanced_coil>: [
+		[
+			[null, <immersiveengineering:wirecoil:4>, metals.galgadorian.rod],
+			[<immersiveengineering:wirecoil:5>, metals.galgadorian.rod, <immersiveengineering:wirecoil:5>],
+			[metals.galgadorian.rod, <immersiveengineering:wirecoil:4>, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

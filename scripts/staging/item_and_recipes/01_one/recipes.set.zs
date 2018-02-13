@@ -435,7 +435,6 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:slime_dyed:*>,
 
 	//Actually Additions
-	<actuallyadditions:block_fishing_net>,
 	<actuallyadditions:block_misc:1>,
 	<actuallyadditions:block_misc:2>,
 	<actuallyadditions:block_misc>,

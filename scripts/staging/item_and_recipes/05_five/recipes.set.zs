@@ -115,8 +115,8 @@ var itemsForStage as IIngredient[] = [
 	<ironchest:iron_chest:5>,
 
 	//Actually Additions
+	<actuallyadditions:item_potion_ring:*>,
 	<actuallyadditions:block_atomic_reconstructor>,
-	<actuallyadditions:block_breaker>,
 	<actuallyadditions:block_colored_lamp:2>,
 	<actuallyadditions:block_colored_lamp:*>,
 	<actuallyadditions:block_crystal:1>,
@@ -139,8 +139,6 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:block_firework_box>,
 	<actuallyadditions:block_fluid_collector>,
 	<actuallyadditions:block_fluid_placer>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_item_repairer>,
 	<actuallyadditions:block_item_viewer>,
 	<actuallyadditions:block_lamp_powerer>,

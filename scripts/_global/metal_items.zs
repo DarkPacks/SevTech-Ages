@@ -402,5 +402,15 @@ global metalItems as IIngredient[string][string] = {
 		nugget: null,
 		plate: <immersiveengineering:metal:35>,
 		rod: null
+	},
+	zinc: {
+		block: <extraplanets:neptune:7>,
+		dust: null,
+		gear: null,
+		ingot: <extraplanets:tier8_items:5>,
+		liquid: <liquid:zinc>,
+		nugget: null,
+		plate: null,
+		rod: null
 	}
 };

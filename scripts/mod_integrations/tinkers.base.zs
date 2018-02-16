@@ -93,6 +93,11 @@ Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metal
 Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
 Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
 
+//Slime Ball Casting
+Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime> * 160, 40, false);
+Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime> * 160, 40, false);
+Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime> * 160, 40, false);
+
 /*
 	Melting
 

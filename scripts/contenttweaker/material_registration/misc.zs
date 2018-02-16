@@ -25,6 +25,12 @@ var oreOsmiumData = materials.osmium.registerPart("ore").getData();
 addDefaultOreData(oreOsmiumData);
 oreOsmiumData.addDataValue("drops", "geolosys:cluster:12");
 
+//Mars Gold Ore
+var oreGoldData = materials.gold.registerPart("ore").getData();
+addDefaultOreData(oreGoldData);
+oreGoldData.addDataValue("variants", "galacticraftplanets:bottom");
+oreGoldData.addDataValue("drops", "geolosys:cluster:1");
+
 //Liquid Ender Pearl
 var fluidEnderData = materials.ender.registerPart("molten").getData();
 addDefaultMoltenData(fluidEnderData);

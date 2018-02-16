@@ -267,18 +267,7 @@ for i in 0 to 16 {
 <ore:table>.add(<bibliocraft:table:4>);
 <ore:table>.add(<bibliocraft:table:5>);
 
-<ore:dustVanadium>.remove(<primal:vanadium_dust>);
-<ore:ingotVanadium>.remove(<primal:vanadium_ingot>);
-<ore:nuggetVanadium>.remove(<primal:vanadium_nugget>);
-<ore:dustWootz>.remove(<primal:wootz_dust>);
-<ore:ingotWootz>.remove(<primal:wootz_ingot>);
-<ore:nuggetWootz>.remove(<primal:wootz_nugget>);
-<ore:dustZinc>.remove(<primal:zinc_dust>);
-<ore:ingotZinc>.remove(<primal:zinc_ingot>);
-<ore:nuggetZinc>.remove(<primal:zinc_nugget>);
 <ore:ingotTamahagane>.remove(<primal:tamahagane_ingot>);
-
-<ore:plateZinc>.remove(<primal:zinc_plate>);
 
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);

@@ -210,6 +210,10 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:water_condensator>,
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
+	<industrialforegoing:itemstack_transfer_addon_pull>,
+	<industrialforegoing:itemstack_transfer_addon_push>,
+	<industrialforegoing:fluid_transfer_addon_pull>,
+	<industrialforegoing:fluid_transfer_addon_push>,
 
 	//Dark Utils
 	<darkutils:anti_slime>,
@@ -223,6 +227,11 @@ var stage4Items as IIngredient[] = [
 	<darkutils:trap_tile:6>,
 	<darkutils:trap_tile:7>,
 	<darkutils:trap_tile>,
+	<darkutils:shulker_pearl>,
+	<darkutils:pearl_block>,
+	<darkutils:pearl_block:1>,
+	<darkutils:pearl_block:2>,
+	<darkutils:pearl_block:3>,
 
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
@@ -234,6 +243,17 @@ var stage4Items as IIngredient[] = [
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
+	<extendedcrafting:ender_alternator>,
+	<extendedcrafting:ender_crafter>,
+	<extendedcrafting:material:36>,
+	<extendedcrafting:material:37>,
+	<extendedcrafting:material:40>,
+	<extendedcrafting:material:41>,
+	<extendedcrafting:material:48>,
+	<extendedcrafting:material:49>,
+	<extendedcrafting:storage:5>,
+	<extendedcrafting:storage:6>,
+	<extendedcrafting:storage:7>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,
@@ -527,6 +547,9 @@ var stage4Items as IIngredient[] = [
 	<mob_grinding_utils:wither_muffler>,
 	<mob_grinding_utils:xp_tap>,
 
+	//Better With Mods
+	<betterwithmods:material:25>,
+
 	//Quark
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
@@ -546,6 +569,18 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:item_pipe>,
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
+	<cyclicmagic:energy_pump>,
+	<cyclicmagic:fluid_pump>,
+	<cyclicmagic:item_pump>,
+	<cyclicmagic:energy_pipe>,
+	<cyclicmagic:bundled_pipe>,
+	<cyclicmagic:block_screen>,
+	<cyclicmagic:item_pipe_sort>,
+	<cyclicmagic:plate_push_slow>,
+	<cyclicmagic:magnet_block>,
+	<cyclicmagic:wireless_transmitter>,
+	<cyclicmagic:wireless_receiver>,
+	<cyclicmagic:glowing_helmet>,
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
@@ -1086,6 +1121,7 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:3>,
 	<enderutilities:syringe>,
 	<enderutilities:void_pickaxe>,
+	<enderutilities:enderpart:73>,
 
 	//Mekanism
 	<materialpart:osmium:ore_minecraft_stone>,
@@ -1113,7 +1149,12 @@ var stage4Items as IIngredient[] = [
 	<mekanism:transmitter:2>,
 	<mekanism:transmitter:2>.withTag({tier: 1}),
 	<mekanism:transmitter:2>.withTag({tier: 2}),
-	<mekanism:transmitter:2>.withTag({tier: 3})
+	<mekanism:transmitter:2>.withTag({tier: 3}),
+
+	//Chargers
+	<chargers:charger>,
+	<chargers:charger:1>
+
 ];
 
 for item in stage4Items {

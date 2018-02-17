@@ -113,7 +113,10 @@ var stageTutorialItems as IIngredient[] = [
 	<betterwithmods:cooked_mystery_meat>,
 	<betterwithmods:mystery_meat>,
 	<tombmanygraves:grave_block>,
-	<tombmanygraves:death_list>
+	<tombmanygraves:death_list>,
+	<primal:bone_knapp>,
+	<primal:bone_point>
+
 ];
 
 for item in stageTutorialItems {

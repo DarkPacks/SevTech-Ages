@@ -21,7 +21,7 @@ mods.DimensionStages.addDimensionStage(STAGES.five, 2);
 
 //Abyssalcraft
 mods.DimensionStages.addDimensionStage(STAGES.one, 50);
-mods.DimensionStages.addDimensionStage(STAGES.one, 51);
+mods.DimensionStages.addDimensionStage(STAGES.two, 51);
 mods.DimensionStages.addDimensionStage(STAGES.one, 52);
 mods.DimensionStages.addDimensionStage(STAGES.one, 53);
 

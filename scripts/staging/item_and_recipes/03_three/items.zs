@@ -36,6 +36,11 @@ var stage3Items as IIngredient[] = [
 	<immersiveengineering:ore:4>,
 	<mundaneredstone:redstone_ore>,
 
+	//Quark
+	<quark:glowshroom>,
+	<quark:black_ash>,
+	<quark:soul_powder>,
+
 	//Repair Kits
 	<pickletweaks:repair_kit:12>,
 	<pickletweaks:repair_kit:16>,
@@ -753,6 +758,13 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
+	<betterwithaddons:netted_screen>,
+	<betterwithaddons:iron_sand>,
+	<betterwithaddons:japanmat:12>,
+	<betterwithaddons:japanmat:13>,
+	<betterwithaddons:japanmat:14>,
+	<betterwithaddons:wrought_lamp>,
+	<betterwithmods:material:34>,
 
 	//Geolosys
 	<geolosys:cluster:4>,

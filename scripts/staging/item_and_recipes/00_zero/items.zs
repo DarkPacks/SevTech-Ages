@@ -48,6 +48,10 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 
+	//Mortars 
+	<advancedmortars:mortar>,
+	<advancedmortars:mortar:1>,
+
 	//Minecraft
 	<minecraft:beetroot_seeds>,
 	<minecraft:beetroot_soup>,
@@ -548,15 +552,14 @@ var stageZeroItems as IIngredient[] = [
 	<primal:armor_wolf_feet>,
 	<primal:armor_wolf_head>,
 	<primal:armor_wolf_legs>,
-	<primal:ash_bin:1>,
-	<primal:ash_bin:2>,
-	<primal:ash_bin:3>,
-	<primal:ash_bin:4>,
-	<primal:ash_bin:5>,
-	<primal:ash_bin:6>,
-	<primal:ash_bin:7>,
-	<primal:ash_bin:8>,
-	<primal:ash_bin>,
+	<primal:ash_bin>.withTag({type: "oak"}),
+	<primal:ash_bin:1>.withTag({type: "spruce"}),
+	<primal:ash_bin:2>.withTag({type: "birch"}),
+	<primal:ash_bin:3>.withTag({type: "jungle"}),
+	<primal:ash_bin:4>.withTag({type: "acacia"}),
+	<primal:ash_bin:5>.withTag({type: "dark_oak"}),
+	<primal:ash_bin:6>.withTag({type: "ironwood"}),
+	<primal:ash_bin:7>.withTag({type: "yew"}),
 	<primal:ash_common>,
 	<primal:ash_ironwood>,
 	<primal:ash_wolf>,
@@ -835,6 +838,22 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_cooked>,
 	<primal:wolf_meat_dried>,
 	<primal:wolf_meat_raw>,
+	<primal:shelf_half>,
+	<primal:shelf_half:1>,
+	<primal:shelf_half:2>,
+	<primal:shelf_half:3>,
+	<primal:shelf_half:4>,
+	<primal:shelf_half:5>,
+	<primal:shelf_half:6>,
+	<primal:shelf_half:7>,
+	<primal:slab_ironwood>,
+	<primal:slab_lacquer>,
+	<primal:slab_yew>,
+	<primal:bear_fat>,
+	<primal:lard>,
+	<primal:suet>,
+	<primal:salo>,
+	<primal:chum>,
 
 	//Quark
 	<quark:midori_block_stairs>,
@@ -950,7 +969,8 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>
+	<betterwithmods:wolf_chop>,
+	<betterwithmods:material:26>
 ];
 
 for item in stageZeroItems {

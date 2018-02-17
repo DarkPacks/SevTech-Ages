@@ -445,6 +445,10 @@ var stage5Items as IIngredient[] = [
 	<cyclicmagic:tool_warp_home>,
 	<cyclicmagic:tool_warp_spawn>,
 	<cyclicmagic:water_spreader>,
+	<cyclicmagic:harvester_block>,
+	<cyclicmagic:block_forester>,
+	<cyclicmagic:auto_crafter>,
+	<cyclicmagic:block_enchanter>,
 
 	//Applied Energistics
 	<appliedenergistics2:cell_workbench>,
@@ -786,6 +790,10 @@ var stage5Items as IIngredient[] = [
 	<xnet:router>,
 	<xnet:xnet_manual>,
 
+	//Water Strainer
+	<waterstrainer:strainer_survivalist_reinforced>,
+	<waterstrainer:strainer_survivalist_dense_reinforced>,
+
 	//Industrial Foregoing
 	<industrialforegoing:black_hole_controller>,
 	<industrialforegoing:black_hole_tank>,
@@ -1066,6 +1074,7 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:walkway>,
 	<galacticraftplanets:web_torch:1>,
 	<galacticraftplanets:web_torch>,
+	<galacticraftcore:platform>,
 
 	//Extra Planets
 	<extraplanets:advanced_launch_pad:1>,
@@ -1329,6 +1338,12 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:uranus>,
 	<extraplanets:uranus_spawner>,
 	<extraplanets:white_sugar_cane>,
+	<extraplanets:mercury_battery>,
+	<extraplanets:nickel_battery>,
+	<extraplanets:zinc_battery>,
+	<extraplanets:advanced_battery>,
+	<extraplanets:ultimate_battery>,
+	<extraplanets:massive_battery>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,
@@ -1512,7 +1527,12 @@ var stage5Items as IIngredient[] = [
 	//Translocators
 	<translocator:diamondnugget>,
 	<translocator:translocator_part:1>,
-	<translocator:translocator_part>
+	<translocator:translocator_part>,
+
+	//Chargers
+	<chargers:charger:2>,
+	<chargers:wireless_charger>
+
 ];
 
 for item in stage5Items {

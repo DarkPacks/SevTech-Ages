@@ -27,3 +27,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "gr
 	.addItemOutput(<betterwithmods:material:15>)
 	.addItemInput(<minecraft:netherrack>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "white_dye_powder"), machineName, 128)
+	.addEnergyPerTickInput(4)
+	.addItemOutput(<pickletweaks:dye_powder>)
+	.addItemInput(<minecraft:dye:15>)
+	.build();

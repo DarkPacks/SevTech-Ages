@@ -237,6 +237,22 @@ var itemsForStage as IIngredient[] = [
 
 	//Abyssalcraft
 	<abyssalcraft:crate>,
+	<abyssalcraft:corpick>,
+	<abyssalcraft:coraxe>,
+	<abyssalcraft:corshovel>,
+	<abyssalcraft:corsword>,
+	<abyssalcraft:corhoe>,
+	<abyssalcraft:corhelmet>,
+	<abyssalcraft:corplate>,
+	<abyssalcraft:corlegs>,
+	<abyssalcraft:corboots>,
+	<abyssalcraft:corhelmetp>,
+	<abyssalcraft:corplatep>,
+	<abyssalcraft:corlegsp>,
+	<abyssalcraft:corbootsp>,
+	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:necronomicon_cor>,
+	<abyssalcraft:skin>,
 
 	//Tinkers'
 	<tconstruct:channel>,

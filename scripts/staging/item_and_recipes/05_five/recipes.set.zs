@@ -40,8 +40,6 @@ var itemsForStage as IIngredient[] = [
 	<chisel:chisel_hitech>,
 	<chiselsandbits:bitsaw_diamond>,
 	<chiselsandbits:chisel_diamond>,
-	<cyclicmagic:horse_upgrade_health>,
-	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:table_ultimate>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
 	<jaff:diamond_fishing_rod>,
@@ -52,6 +50,12 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
+
+	//Cyclic
+	<cyclicmagic:auto_crafter>,
+	<cyclicmagic:horse_upgrade_health>,
+	<cyclicmagic:spikes_diamond>,
+	<cyclicmagic:block_enchanter>,
 
 	/*
 		Items by "type"
@@ -618,6 +622,10 @@ var itemsForStage as IIngredient[] = [
 	<xnet:router>,
 	<xnet:xnet_manual>,
 
+	//Water Strainer
+	<waterstrainer:strainer_survivalist_reinforced>,
+	<waterstrainer:strainer_survivalist_dense_reinforced>,
+
 	//Galacticraft
 	<galacticraftcore:air_fan>,
 	<galacticraftcore:aluminum_wire:1>,
@@ -789,6 +797,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
+	<galacticraftcore:platform>,
 
 	//Extra Planets
 	<extraplanets:advanced_launch_pad:1>,
@@ -799,6 +808,12 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:advanced_oxygen_compressor>,
 	<extraplanets:ultimate_oxygen_compressor:4>,
 	<extraplanets:ultimate_oxygen_compressor>,
+	<extraplanets:mercury_battery>,
+	<extraplanets:nickel_battery>,
+	<extraplanets:zinc_battery>,
+	<extraplanets:advanced_battery>,
+	<extraplanets:ultimate_battery>,
+	<extraplanets:massive_battery>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,
@@ -965,7 +980,11 @@ var itemsForStage as IIngredient[] = [
 	//Translocators
 	<translocator:diamondnugget>,
 	<translocator:translocator_part:1>,
-	<translocator:translocator_part>
+	<translocator:translocator_part>,
+
+	//Chargers
+	<chargers:charger:2>,
+	<chargers:wireless_charger>
 ];
 
 for item in itemsForStage {

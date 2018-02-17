@@ -467,6 +467,10 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
+	<betterwithaddons:wrought_lamp>,
+	<betterwithaddons:japanmat:13>,
+	<betterwithaddons:japanmat:14>,
+	<betterwithmods:material:34>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
@@ -801,6 +805,7 @@ var itemsForStage as IIngredient[] = [
 	//Quark
 	<quark:blaze_lantern>,
 	<quark:magma_bricks_stairs>,
+	<quark:soul_powder>,
 
 	//YoYo
 	//TODO: Why isnt this handled by tcon part staging

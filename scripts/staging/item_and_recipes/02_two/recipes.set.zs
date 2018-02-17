@@ -94,6 +94,44 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:materializer>,
 	<abyssalcraft:oblivionshard>,
 	<abyssalcraft:odb>,
+	<abyssalcraft:dreadbrick>,
+	<abyssalcraft:dreadbrick:1>,
+	<abyssalcraft:dreadstonecobblestonewall>,
+	<abyssalcraft:dreadiumhelmet>,
+	<abyssalcraft:dreadiumplate>,
+	<abyssalcraft:dreadiumlegs>,
+	<abyssalcraft:dreadiumboots>,
+	<abyssalcraft:crystallizer>,
+	<abyssalcraft:dreadstonecobblestonestairs>,
+	<abyssalcraft:dreadstonecobblestoneslab1>,
+	<abyssalcraft:dreadbrickstairs>,
+	<abyssalcraft:dreadbrickslab1>,
+	<abyssalcraft:dreadiumpickaxe>,
+	<abyssalcraft:dreadiumaxe>,
+	<abyssalcraft:dreadiumshovel>,
+	<abyssalcraft:dreadiumsword>,
+	<abyssalcraft:dreadcloth>,
+	<abyssalcraft:dreadplate>,
+	<abyssalcraft:dreadblade>,
+	<abyssalcraft:dreadhilt>,
+	<abyssalcraft:dreadkatana>,
+	<abyssalcraft:dreadiumsamuraihelmet>,
+	<abyssalcraft:dreadiumsamuraiplate>,
+	<abyssalcraft:dreadiumsamurailegs>,
+	<abyssalcraft:dreadiumsamuraiboots>,
+	<abyssalcraft:dreadbrickslab2>,
+	<abyssalcraft:skin:1>,
+	<abyssalcraft:drainstaff>,
+	<abyssalcraft:ethaxiumaxe>,
+	<abyssalcraft:ethaxiumshovel>,
+	<abyssalcraft:ethaxiumsword>,
+	<abyssalcraft:ethaxiumhoe>,
+	<abyssalcraft:ethaxiumhelmet>,
+	<abyssalcraft:ethaxiumplate>,
+	<abyssalcraft:ethaxiumlegs>,
+	<abyssalcraft:ethaxiumboots>,
+	<abyssalcraft:ethaxiumpickaxe>,
+	<abyssalcraft:corbow>,
 
 	//Better With Mods
 	<betterwithaddons:bolt:2>,
@@ -133,6 +171,11 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 
+	//Water Strainer
+	<waterstrainer:strainer_survivalist_solid>,
+	<waterstrainer:strainer_survivalist_dense_solid>,
+	<waterstrainer:efficiency_meter>,
+
 	//Super Sound Muffler
 	<supersoundmuffler:sound_muffler>,
 	<supersoundmuffler:sound_muffler_bauble>,
@@ -145,6 +188,9 @@ var itemsForStage as IIngredient[] = [
 	<chisel:chisel_iron>,
 	<chisel:offsettool>,
 	<chisel:waterstone1:1>,
+
+	//Cyclic
+	<cyclicmagic:glove_climb>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,

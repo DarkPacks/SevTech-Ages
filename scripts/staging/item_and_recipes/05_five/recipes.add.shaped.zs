@@ -80,7 +80,23 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:wirecoil:5>, metals.galgadorian.rod, <immersiveengineering:wirecoil:5>],
 			[metals.galgadorian.rod, <immersiveengineering:wirecoil:4>, null]
 		]
+	],
+
+	<cyclicmagic:harvester_block>: [
+		[
+			[<minecraft:emerald>, <mekanism:compressedobsidian>, <minecraft:emerald>],
+			[metals.compressedIron.plate, <minecraft:diamond>, metals.compressedIron.plate],
+			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+		]
+	],
+	<cyclicmagic:block_forester>: [
+		[
+			[<mekanism:compressedobsidian>, <minecraft:daylight_detector>, <mekanism:compressedobsidian>],
+			[metals.compressedIron.plate, <cyclicmagic:placer_block>, metals.compressedIron.plate],
+			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

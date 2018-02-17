@@ -1192,6 +1192,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, null, null]
 		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

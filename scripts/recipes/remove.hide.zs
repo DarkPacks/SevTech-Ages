@@ -397,6 +397,16 @@ var hideItems as IItemStack[] = [
 	<primal:wood_pin>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
+	<primal:shelf_half>.withTag({type: "oak"}),
+	<primal:shelf_half:1>.withTag({type: "spruce"}),
+	<primal:shelf_half:2>.withTag({type: "birch"}),
+	<primal:shelf_half:3>.withTag({type: "jungle"}),
+	<primal:shelf_half:4>.withTag({type: "acacia"}),
+	<primal:shelf_half:5>.withTag({type: "dark_oak"}),
+	<primal:shelf_half:6>.withTag({type: "ironwood"}),
+	<primal:shelf_half:7>.withTag({type: "yew"}),
+	<primal:shelf_half:8>.withTag({type: "lacquer"}),
+	<primal:shelf_half:9>.withTag({type: "corypha"}),
 
 	//Tinkers
 	<tconstruct:moms_spaghetti>,

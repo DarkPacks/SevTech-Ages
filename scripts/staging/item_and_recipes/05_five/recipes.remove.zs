@@ -16,9 +16,8 @@ var removeItems as IItemStack[] = [
 	<ironjetpacks:electrum_capacitor>,
 
 	//Cyclic
-	<cyclicmagic:harvester_block>,
-	<cyclicmagic:block_forester>
-
+	<cyclicmagic:block_forester>,
+	<cyclicmagic:harvester_block>
 ];
 
 for item in removeItems {

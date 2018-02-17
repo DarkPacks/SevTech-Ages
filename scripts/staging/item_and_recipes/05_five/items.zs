@@ -425,13 +425,17 @@ var stage5Items as IIngredient[] = [
 
 	//Cyclic
 	<cyclicmagic:apple_emerald>,
+	<cyclicmagic:auto_crafter>,
 	<cyclicmagic:beacon_potion>,
+	<cyclicmagic:block_enchanter>,
+	<cyclicmagic:block_forester>,
 	<cyclicmagic:book_ender>,
 	<cyclicmagic:builder_pattern>,
 	<cyclicmagic:charm_boat>,
 	<cyclicmagic:crafting_food>,
 	<cyclicmagic:ender_wool>,
 	<cyclicmagic:glowing_chorus>,
+	<cyclicmagic:harvester_block>,
 	<cyclicmagic:heart_food>,
 	<cyclicmagic:horse_upgrade_type>,
 	<cyclicmagic:inventory_food>,
@@ -445,10 +449,6 @@ var stage5Items as IIngredient[] = [
 	<cyclicmagic:tool_warp_home>,
 	<cyclicmagic:tool_warp_spawn>,
 	<cyclicmagic:water_spreader>,
-	<cyclicmagic:harvester_block>,
-	<cyclicmagic:block_forester>,
-	<cyclicmagic:auto_crafter>,
-	<cyclicmagic:block_enchanter>,
 
 	//Applied Energistics
 	<appliedenergistics2:cell_workbench>,
@@ -791,8 +791,8 @@ var stage5Items as IIngredient[] = [
 	<xnet:xnet_manual>,
 
 	//Water Strainer
-	<waterstrainer:strainer_survivalist_reinforced>,
 	<waterstrainer:strainer_survivalist_dense_reinforced>,
+	<waterstrainer:strainer_survivalist_reinforced>,
 
 	//Industrial Foregoing
 	<industrialforegoing:black_hole_controller>,
@@ -898,6 +898,7 @@ var stage5Items as IIngredient[] = [
 	<galacticraftcore:panel_lighting:4>,
 	<galacticraftcore:panel_lighting>,
 	<galacticraftcore:parachest>,
+	<galacticraftcore:platform>,
 	<galacticraftcore:prelaunch_checklist>,
 	<galacticraftcore:schematic:1>,
 	<galacticraftcore:schematic>,
@@ -1074,9 +1075,9 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:walkway>,
 	<galacticraftplanets:web_torch:1>,
 	<galacticraftplanets:web_torch>,
-	<galacticraftcore:platform>,
 
 	//Extra Planets
+	<extraplanets:advanced_battery>,
 	<extraplanets:advanced_launch_pad:1>,
 	<extraplanets:advanced_launch_pad:2>,
 	<extraplanets:advanced_launch_pad:3>,
@@ -1235,6 +1236,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:kepler22b_planks:4>,
 	<extraplanets:kepler22b_planks:5>,
 	<extraplanets:kepler22b_planks>,
+	<extraplanets:massive_battery>,
 	<extraplanets:mercury:1>,
 	<extraplanets:mercury:2>,
 	<extraplanets:mercury:3>,
@@ -1247,6 +1249,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:mercury:10>,
 	<extraplanets:mercury:11>,
 	<extraplanets:mercury>,
+	<extraplanets:mercury_battery>,
 	<extraplanets:mercury_spawner>,
 	<extraplanets:neptune:1>,
 	<extraplanets:neptune:2>,
@@ -1261,6 +1264,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:neptune:11>,
 	<extraplanets:neptune>,
 	<extraplanets:neptune_spawner>,
+	<extraplanets:nickel_battery>,
 	<extraplanets:oberon:1>,
 	<extraplanets:oberon:2>,
 	<extraplanets:oberon:3>,
@@ -1325,6 +1329,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:triton:4>,
 	<extraplanets:triton:5>,
 	<extraplanets:triton>,
+	<extraplanets:ultimate_battery>,
 	<extraplanets:ultimate_oxygen_compressor:4>,
 	<extraplanets:ultimate_oxygen_compressor>,
 	<extraplanets:uranus:1>,
@@ -1338,12 +1343,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:uranus>,
 	<extraplanets:uranus_spawner>,
 	<extraplanets:white_sugar_cane>,
-	<extraplanets:mercury_battery>,
-	<extraplanets:nickel_battery>,
 	<extraplanets:zinc_battery>,
-	<extraplanets:advanced_battery>,
-	<extraplanets:ultimate_battery>,
-	<extraplanets:massive_battery>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,
@@ -1532,7 +1532,6 @@ var stage5Items as IIngredient[] = [
 	//Chargers
 	<chargers:charger:2>,
 	<chargers:wireless_charger>
-
 ];
 
 for item in stage5Items {

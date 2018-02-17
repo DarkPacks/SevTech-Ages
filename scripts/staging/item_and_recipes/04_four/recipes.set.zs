@@ -82,6 +82,11 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:ender_pearl_hopper>,
 	<darkutils:monolith:1>,
 	<darkutils:monolith>,
+	<darkutils:pearl_block:1>,
+	<darkutils:pearl_block:2>,
+	<darkutils:pearl_block:3>,
+	<darkutils:pearl_block>,
+	<darkutils:shulker_pearl>,
 	<darkutils:sneaky_button>,
 	<darkutils:trap_tile:1>,
 	<darkutils:trap_tile:2>,
@@ -89,11 +94,6 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:trap_tile:6>,
 	<darkutils:trap_tile:7>,
 	<darkutils:trap_tile>,
-	<darkutils:pearl_block>,
-	<darkutils:pearl_block:1>,
-	<darkutils:pearl_block:2>,
-	<darkutils:pearl_block:3>,
-	<darkutils:shulker_pearl>,
 
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,
@@ -119,7 +119,6 @@ var itemsForStage as IIngredient[] = [
 
 	//Extended Crafting
 	<extendedcrafting:interface>,
-	<extendedcrafting:table_elite>,
 	<extendedcrafting:material:36>,
 	<extendedcrafting:material:37>,
 	<extendedcrafting:material:40>,
@@ -129,7 +128,7 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:storage:5>,
 	<extendedcrafting:storage:6>,
 	<extendedcrafting:storage:7>,
-
+	<extendedcrafting:table_elite>,
 
 	//Quark
 	<quark:biotite_stairs>,
@@ -168,8 +167,12 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:energy_field_addon>,
 	<industrialforegoing:energy_field_provider>,
 	<industrialforegoing:fertilizer>,
+	<industrialforegoing:fluid_transfer_addon_pull>,
+	<industrialforegoing:fluid_transfer_addon_push>,
 	<industrialforegoing:hydrator>,
 	<industrialforegoing:item_splitter>,
+	<industrialforegoing:itemstack_transfer_addon_pull>,
+	<industrialforegoing:itemstack_transfer_addon_push>,
 	<industrialforegoing:lava_fabricator>,
 	<industrialforegoing:leaf_shearing>,
 	<industrialforegoing:material_stonework_factory>,
@@ -210,41 +213,37 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:water_condensator>,
 	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
-	<industrialforegoing:itemstack_transfer_addon_pull>,
-	<industrialforegoing:itemstack_transfer_addon_push>,
-	<industrialforegoing:fluid_transfer_addon_pull>,
-	<industrialforegoing:fluid_transfer_addon_push>,
 
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_library>,
 	<cyclicmagic:block_library_ctrl>,
+	<cyclicmagic:block_screen>,
 	<cyclicmagic:block_shears>,
 	<cyclicmagic:block_user>,
 	<cyclicmagic:block_vacuum>,
+	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
+	<cyclicmagic:energy_pipe>,
+	<cyclicmagic:energy_pump>,
 	<cyclicmagic:exp_pylon>,
 	<cyclicmagic:fan>,
 	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:fluid_pump>,
+	<cyclicmagic:glowing_helmet>,
 	<cyclicmagic:item_pipe>,
+	<cyclicmagic:item_pipe_sort>,
+	<cyclicmagic:item_pump>,
+	<cyclicmagic:magnet_block>,
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
+	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
-	<cyclicmagic:energy_pump>,
-	<cyclicmagic:fluid_pump>,
-	<cyclicmagic:item_pump>,
-	<cyclicmagic:energy_pipe>,
-	<cyclicmagic:bundled_pipe>,
-	<cyclicmagic:block_screen>,
-	<cyclicmagic:item_pipe_sort>,
-	<cyclicmagic:plate_push_slow>,
-	<cyclicmagic:magnet_block>,
-	<cyclicmagic:wireless_transmitter>,
 	<cyclicmagic:wireless_receiver>,
-	<cyclicmagic:glowing_helmet>,
+	<cyclicmagic:wireless_transmitter>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,
@@ -605,6 +604,7 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:enderpart:70>,
 	<enderutilities:enderpart:71>,
 	<enderutilities:enderpart:72>,
+	<enderutilities:enderpart:73>,
 	<enderutilities:enderpart:80>,
 	<enderutilities:enderpearlreusable:1>,
 	<enderutilities:enderpearlreusable>,
@@ -662,7 +662,6 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:syringe:3>,
 	<enderutilities:syringe>,
 	<enderutilities:void_pickaxe>,
-	<enderutilities:enderpart:73>,
 
 	//Mekanism
 	<mekanism:configurator>,
@@ -678,9 +677,8 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:transmitter:2>,
 
 	//Chargers
-	<chargers:charger>,
-	<chargers:charger:1>
-
+	<chargers:charger:1>,
+	<chargers:charger>
 ];
 
 for item in itemsForStage {

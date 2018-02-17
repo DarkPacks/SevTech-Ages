@@ -51,12 +51,6 @@ var itemsForStage as IIngredient[] = [
 	<pickletweaks:repair_kit:4>,
 	<rangedpumps:pump>,
 
-	//Cyclic
-	<cyclicmagic:auto_crafter>,
-	<cyclicmagic:horse_upgrade_health>,
-	<cyclicmagic:spikes_diamond>,
-	<cyclicmagic:block_enchanter>,
-
 	/*
 		Items by "type"
 	*/
@@ -111,6 +105,12 @@ var itemsForStage as IIngredient[] = [
 	<primal:diamond_saw>,
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
+
+	//Cyclic
+	<cyclicmagic:auto_crafter>,
+	<cyclicmagic:block_enchanter>,
+	<cyclicmagic:horse_upgrade_health>,
+	<cyclicmagic:spikes_diamond>,
 
 	//Iron Chest
 	<ironchest:diamond_crystal_chest_upgrade>,
@@ -623,8 +623,8 @@ var itemsForStage as IIngredient[] = [
 	<xnet:xnet_manual>,
 
 	//Water Strainer
-	<waterstrainer:strainer_survivalist_reinforced>,
 	<waterstrainer:strainer_survivalist_dense_reinforced>,
+	<waterstrainer:strainer_survivalist_reinforced>,
 
 	//Galacticraft
 	<galacticraftcore:air_fan>,
@@ -697,6 +697,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:panel_lighting:3>,
 	<galacticraftcore:panel_lighting:4>,
 	<galacticraftcore:panel_lighting>,
+	<galacticraftcore:platform>,
 	<galacticraftcore:prelaunch_checklist>,
 	<galacticraftcore:sealer>,
 	<galacticraftcore:sensor_glasses>,
@@ -797,23 +798,22 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
-	<galacticraftcore:platform>,
 
 	//Extra Planets
+	<extraplanets:advanced_battery>,
 	<extraplanets:advanced_launch_pad:1>,
 	<extraplanets:advanced_launch_pad:2>,
 	<extraplanets:advanced_launch_pad:3>,
 	<extraplanets:advanced_launch_pad>,
 	<extraplanets:advanced_oxygen_compressor:4>,
 	<extraplanets:advanced_oxygen_compressor>,
-	<extraplanets:ultimate_oxygen_compressor:4>,
-	<extraplanets:ultimate_oxygen_compressor>,
+	<extraplanets:massive_battery>,
 	<extraplanets:mercury_battery>,
 	<extraplanets:nickel_battery>,
-	<extraplanets:zinc_battery>,
-	<extraplanets:advanced_battery>,
 	<extraplanets:ultimate_battery>,
-	<extraplanets:massive_battery>,
+	<extraplanets:ultimate_oxygen_compressor:4>,
+	<extraplanets:ultimate_oxygen_compressor>,
+	<extraplanets:zinc_battery>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,

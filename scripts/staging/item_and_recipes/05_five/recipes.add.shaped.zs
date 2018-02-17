@@ -82,6 +82,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+	//Cyclic
 	<cyclicmagic:harvester_block>: [
 		[
 			[<minecraft:emerald>, <mekanism:compressedobsidian>, <minecraft:emerald>],
@@ -96,7 +97,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

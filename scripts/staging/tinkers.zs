@@ -123,8 +123,6 @@ static materialsForStage as string[][string] = {
 		"ardite",
 		"cobalt",
 		"endrod",
-		"integrationforegoing.pink_slime",
-		"integrationforegoing.plastic",
 		"knightslime",
 		"manyullyn"
 	],

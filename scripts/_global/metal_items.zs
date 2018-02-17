@@ -297,7 +297,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	platinum: {
 		block: <materialpart:platinum:block>,
-		dust: null,
+		dust: <materialpart:platinum:dust>,
 		gear: <materialpart:platinum:gear>,
 		ingot: <materialpart:platinum:ingot>,
 		liquid: <liquid:platinum>,

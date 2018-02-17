@@ -73,7 +73,16 @@ var redstoneAlloyParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "i
 materials.redstoneAlloy.registerParts(redstoneAlloyParts);
 
 //Platinum
-var platinumParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"];
+var platinumParts as string[] = [
+	"beam",
+	"block",
+	"bolt",
+	"dust",
+	"gear",
+	"ingot",
+	"plate",
+	"rod"
+];
 materials.platinum.registerParts(platinumParts);
 
 //Invar

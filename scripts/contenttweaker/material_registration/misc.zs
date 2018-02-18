@@ -25,11 +25,29 @@ var oreOsmiumData = materials.osmium.registerPart("ore").getData();
 addDefaultOreData(oreOsmiumData);
 oreOsmiumData.addDataValue("drops", "geolosys:cluster:12");
 
+//Moon Iron Ore
+var oreIronData = materials.iron.registerPart("ore").getData();
+addDefaultOreData(oreIronData);
+oreIronData.addDataValue("variants", "galacticraftcore:bottom");
+oreIronData.addDataValue("drops", "geolosys:cluster");
+
 //Mars Gold Ore
 var oreGoldData = materials.gold.registerPart("ore").getData();
 addDefaultOreData(oreGoldData);
 oreGoldData.addDataValue("variants", "galacticraftplanets:bottom");
 oreGoldData.addDataValue("drops", "geolosys:cluster:1");
+
+//Kelper 22b Inferium Ore
+var oreInferiumData = materials.inferium.registerPart("ore").getData();
+addDefaultOreData(oreInferiumData);
+oreInferiumData.addDataValue("variants", "extraplanets:kepler22b_stone");
+oreInferiumData.addDataValue("drops", "mysticalagriculture:crafting");
+
+//Kelper 22b Prosperity Ore
+var oreProsperityData = materials.prosperity.registerPart("ore").getData();
+addDefaultOreData(oreProsperityData);
+oreProsperityData.addDataValue("variants", "extraplanets:kepler22b_stone");
+oreProsperityData.addDataValue("drops", "mysticalagriculture:crafting:5");
 
 //Liquid Ender Pearl
 var fluidEnderData = materials.ender.registerPart("molten").getData();

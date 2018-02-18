@@ -1192,7 +1192,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, null, null]
 		]
 	],
-	
+
 	//Buildcraft Quarry
 	<buildcraftbuilders:quarry>: [
 		[
@@ -1201,7 +1201,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.gear, <modularmachinery:blockcontroller>, metals.iron.gear]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -10,6 +10,7 @@
 <ore:oreGeolosysGold>.add(<geolosys:ore_vanilla:2>);
 <ore:oreGeolosysGold>.add(<materialpart:gold:ore_galacticraftplanets_bottom>);
 <ore:oreGeolosysHematite>.add(<geolosys:ore>);
+<ore:oreGeolosysHematite>.add(<materialpart:iron:ore_galacticraftcore_bottom>);
 <ore:oreGeolosysKimberlite>.add(<geolosys:ore_vanilla:5>);
 <ore:oreGeolosysLapis>.add(<geolosys:ore_vanilla:3>);
 <ore:oreGeolosysLimonite>.add(<geolosys:ore:1>);
@@ -22,4 +23,5 @@
 
 //Remove ore oredict on geolosys-styled CoT ores
 <ore:oreGold>.remove(<materialpart:gold:ore_galacticraftplanets_bottom>);
+<ore:oreIron>.remove(<materialpart:iron:ore_galacticraftcore_bottom>);
 <ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);

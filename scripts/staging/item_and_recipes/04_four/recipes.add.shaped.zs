@@ -1191,7 +1191,17 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<car:wheel>, metals.iron.rod, <car:wheel>],
 			[null, null, null]
 		]
+	],
+	
+	//Buildcraft Quarry
+	<buildcraftbuilders:quarry>: [
+		[
+			[metals.platinum.gear, <stevescarts:cartmodule:9>, metals.platinum.gear],
+			[metals.gold.gear, <teslacorelib:machine_case>, metals.gold.gear],
+			[metals.iron.gear, <modularmachinery:blockcontroller>, metals.iron.gear]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

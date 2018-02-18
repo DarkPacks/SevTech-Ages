@@ -1,5 +1,3 @@
-<ironjetpacks:electrum_jetpack>
-
 setIcon("ironjetpacks:electrum_jetpack")
 
 setTitle("Electrum Jetpack")

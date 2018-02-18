@@ -1,4 +1,4 @@
-setIcon("immersiveengineering:metal", 8)
+setIcon("immersiveengineering:stone_device", 1)
 
 setTitle("Steel Ingot")
 

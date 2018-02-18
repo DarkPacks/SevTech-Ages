@@ -25,6 +25,30 @@ var oreOsmiumData = materials.osmium.registerPart("ore").getData();
 addDefaultOreData(oreOsmiumData);
 oreOsmiumData.addDataValue("drops", "geolosys:cluster:12");
 
+//Moon Iron Ore
+var oreIronData = materials.iron.registerPart("ore").getData();
+addDefaultOreData(oreIronData);
+oreIronData.addDataValue("variants", "galacticraftcore:bottom");
+oreIronData.addDataValue("drops", "geolosys:cluster");
+
+//Mars Gold Ore
+var oreGoldData = materials.gold.registerPart("ore").getData();
+addDefaultOreData(oreGoldData);
+oreGoldData.addDataValue("variants", "galacticraftplanets:bottom");
+oreGoldData.addDataValue("drops", "geolosys:cluster:1");
+
+//Kelper 22b Inferium Ore
+var oreInferiumData = materials.inferium.registerPart("ore").getData();
+addDefaultOreData(oreInferiumData);
+oreInferiumData.addDataValue("variants", "extraplanets:kepler22b_stone");
+oreInferiumData.addDataValue("drops", "mysticalagriculture:crafting");
+
+//Kelper 22b Prosperity Ore
+var oreProsperityData = materials.prosperity.registerPart("ore").getData();
+addDefaultOreData(oreProsperityData);
+oreProsperityData.addDataValue("variants", "extraplanets:kepler22b_stone");
+oreProsperityData.addDataValue("drops", "mysticalagriculture:crafting:5");
+
 //Liquid Ender Pearl
 var fluidEnderData = materials.ender.registerPart("molten").getData();
 addDefaultMoltenData(fluidEnderData);
@@ -63,13 +87,41 @@ fluidPropeneData.addDataValue("density", "4000");
 fluidPropeneData.addDataValue("viscosity", "3000");
 
 //Redstone Alloy
-var redstoneAlloyParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"];
+var redstoneAlloyParts as string[] = [
+	"beam",
+	"block",
+	"bolt",
+	"gear",
+	"ingot",
+	"plate",
+	"rod"
+];
 materials.redstoneAlloy.registerParts(redstoneAlloyParts);
 
 //Platinum
-var platinumParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"];
+var platinumParts as string[] = [
+	"beam",
+	"block",
+	"bolt",
+	"dust",
+	"gear",
+	"ingot",
+	"plate",
+	"rod"
+];
 materials.platinum.registerParts(platinumParts);
 
 //Invar
-var invarParts as string[] = ["gear", "plate", "beam", "bolt", "rod", "ingot", "block"];
+var invarParts as string[] = [
+	"beam",
+	"block",
+	"bolt",
+	"gear",
+	"ingot",
+	"plate",
+	"rod"
+];
 materials.invar.registerParts(invarParts);
+
+//Space Platinum
+materials.spacePlatinum.registerPart("dust");

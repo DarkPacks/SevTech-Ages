@@ -1,27 +1,23 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
-//TODO: Really need to do this properly.. probably just use unify script with null as the preferred on oredict
+import scripts.utils.capitalize;
 
-//Remove dusts
-var dusts as IItemStack[] = [
-	<primal:zinc_dust>,
-	<primal:wootz_dust>,
-	<primal:vanadium_dust>,
-	<primal:brass_dust>
+var partsToRemove as string[] = [
+	"block",
+	"dust",
+	"ingot",
+	"nugget",
+	"plate"
 ];
 
-var ingots as IItemStack[] = [
-	<primal:zinc_ingot>,
-	<primal:wootz_ingot>,
-	<primal:vanadium_ingot>,
-	<primal:brass_ingot>
-];
+var metalsToRemove as ILiquidStack[string] = {
+	brass: <liquid:brass>,
+	vanadium: null,
+	wootz: null
+};
 
-for dust in dusts {
-	mods.immersiveengineering.Crusher.removeRecipe(dust);
-}
-
-for ingot in ingots {
-	mods.immersiveengineering.AlloySmelter.removeRecipe(ingot);
-	mods.immersiveengineering.ArcFurnace.removeRecipe(ingot);
+for metalName, metalLiquid in metalsToRemove {
+	for partName in partsToRemove {
+		scripts.unify.base.unifyWithPreferredItem(oreDict.get(partName ~ capitalize(metalName)), null, metalLiquid);
+	}
 }

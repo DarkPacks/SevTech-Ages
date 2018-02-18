@@ -10,5 +10,4 @@ setRequiresParent(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("tconstruct:ore", 1)
 
-
 setRequirements("any")

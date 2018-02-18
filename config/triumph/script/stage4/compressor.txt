@@ -1,0 +1,14 @@
+setIcon("galacticraftcore:machine", 12)
+
+setTitle("Advanced Ender Alloy")
+
+setDescription("Craft the Compressor Machine from Galacticraft to create Compressed Plates")
+
+setParent("triumph:stage4/enderalloy3")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:machine", 12)
+
+
+setRequirements("any")

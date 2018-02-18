@@ -1,4 +1,4 @@
-setIcon("immersiveengineering:material", 6)
+setIcon("immersiveengineering:stone_device")
 
 setTitle("Creosote")
 

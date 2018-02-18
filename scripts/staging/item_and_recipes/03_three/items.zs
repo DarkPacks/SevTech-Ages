@@ -259,6 +259,11 @@ var stage3Items as IIngredient[] = [
 	<minecraft:tnt_minecart>,
 	<minecraft:trapped_chest>,
 
+	//Quark
+	<quark:black_ash>,
+	<quark:glowshroom>,
+	<quark:soul_powder>,
+
 	//Natura
 	<natura:clouds:1>,
 	<natura:clouds:2>,
@@ -613,8 +618,12 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:ecksie_sapling:7>,
 	<betterwithaddons:ecksie_sapling:8>,
 	<betterwithaddons:ecksie_sapling>,
+	<betterwithaddons:iron_sand>,
 	<betterwithaddons:japanmat:6>,
 	<betterwithaddons:japanmat:7>,
+	<betterwithaddons:japanmat:12>,
+	<betterwithaddons:japanmat:13>,
+	<betterwithaddons:japanmat:14>,
 	<betterwithaddons:japanmat:15>,
 	<betterwithaddons:japanmat:16>,
 	<betterwithaddons:japanmat:17>,
@@ -627,6 +636,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:japanmat:25>,
 	<betterwithaddons:katana>,
 	<betterwithaddons:kera>,
+	<betterwithaddons:netted_screen>,
 	<betterwithaddons:pavement>,
 	<betterwithaddons:shinai>,
 	<betterwithaddons:slat>,
@@ -641,6 +651,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:tatara>,
 	<betterwithaddons:wakizashi>,
 	<betterwithaddons:wrought_bars>,
+	<betterwithaddons:wrought_lamp>,
 	<betterwithaddons:ya>,
 	<betterwithaddons:yumi>,
 	<betterwithmods:aesthetic:3>,
@@ -720,6 +731,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:material:20>,
 	<betterwithmods:material:23>,
 	<betterwithmods:material:27>,
+	<betterwithmods:material:34>,
 	<betterwithmods:material:38>,
 	<betterwithmods:material:42>,
 	<betterwithmods:material:47>,

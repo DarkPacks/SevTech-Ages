@@ -35,82 +35,8 @@ var parts as IItemStack[] = [
 	<yoyos:yoyo_cord>
 ];
 
-//Make sure each stage has a matching stage in the stages array!
-var materialsForStage as string[][string] = {
-	STAGES.one : [
-		"bone",
-		"cactus",
-		"flint",
-		"stone",
-		"wood"
-	],
-
-	STAGES.two : [
-		"abyssalnite",
-		"blueslime",
-		"bronze",
-		"constantan",
-		"copper",
-		"dreadium",
-		"electrum",
-		"feather",
-		"hemp",
-		"ice",
-		"iron",
-		"leaf",
-		"prismarine",
-		"reed",
-		"refined_coralium",
-		"silver",
-		"slime",
-		"slimeleaf_blue",
-		"slimeleaf_orange",
-		"slimeleaf_purple",
-		"slimevine_blue",
-		"slimevine_purple",
-		"sponge",
-		"string",
-		"vine"
-	],
-
-	STAGES.three : [
-		"blaze",
-		"endstone",
-		"firewood",
-		"lead",
-		"magmaslime",
-		"netherrack",
-		"obsidian",
-		"paper",
-		"pigiron",
-		"steel",
-		"treatedwood"
-	],
-
-	STAGES.four : [
-		"ardite",
-		"cobalt",
-		"endrod",
-		"integrationforegoing.pink_slime",
-		"integrationforegoing.plastic",
-		"knightslime",
-		"manyullyn"
-	],
-
-	STAGES.five : [
-		"ma.base_essence",
-		"ma.inferium",
-		"ma.intermedium",
-		"ma.prosperity",
-		"ma.prudentium",
-		"ma.soulium",
-		"ma.superium",
-		"ma.supremium"
-	]
-};
-
 for part in parts {
-	for stage, materials in materialsForStage {
+	for stage, materials in scripts.staging.tinkers.materialsForStage {
 		for material in materials {
 			mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
 		}

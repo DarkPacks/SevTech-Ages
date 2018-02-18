@@ -297,7 +297,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	platinum: {
 		block: <materialpart:platinum:block>,
-		dust: null,
+		dust: <materialpart:platinum:dust>,
 		gear: <materialpart:platinum:gear>,
 		ingot: <materialpart:platinum:ingot>,
 		liquid: <liquid:platinum>,
@@ -349,6 +349,16 @@ global metalItems as IIngredient[string][string] = {
 		rod: <materialpart:silver:rod>,
 		shard: <mekanism:shard:5>
 	},
+	spacePlatinum: {
+		block: <extraplanets:kepler22b:14>,
+		dust: <materialpart:space_platinum:dust>,
+		gear: null,
+		ingot: <extraplanets:tier11_items:5>,
+		liquid: null,
+		nugget: null,
+		plate: null,
+		rod: null
+	},
 	steel: {
 		block: <immersiveengineering:storage:8>,
 		dust: <immersiveengineering:metal:17>,
@@ -391,6 +401,16 @@ global metalItems as IIngredient[string][string] = {
 		liquid: <liquid:uranium>,
 		nugget: null,
 		plate: <immersiveengineering:metal:35>,
+		rod: null
+	},
+	zinc: {
+		block: <extraplanets:neptune:7>,
+		dust: null,
+		gear: null,
+		ingot: <extraplanets:tier8_items:5>,
+		liquid: <liquid:zinc>,
+		nugget: null,
+		plate: null,
 		rod: null
 	}
 };

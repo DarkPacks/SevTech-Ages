@@ -1,0 +1,13 @@
+setIcon("ironjetpacks:emerald_jetpack")
+
+setTitle("Emerald Jetpack")
+
+setDescription("Craft the Emerald Jetpack")
+
+setParent("triumph:stage5/diamondjetpack")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ironjetpacks:emerald_jetpack")
+
+setRequirements("any")

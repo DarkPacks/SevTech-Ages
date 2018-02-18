@@ -1,8 +1,12 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
-//mods.OreTiers.blacklist(<minecraft:stone>);
+/*
+	Ore Tiers
 
-var replacementItemsForStage as IItemStack[][][string] = {
+	https://github.com/Darkhax-Minecraft/Ore-Stages/blob/master/src/main/java/net/darkhax/orestages/compat/crt/OreTiersCrT.java
+*/
+var replacementItemsForStage as IIngredient[][][string] = {
 	STAGES.one : [
 		//Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks>],
@@ -25,7 +29,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<minecraft:dark_oak_stairs:*>, <minecraft:planks:5>],
 		[<minecraft:acacia_stairs:*>, <minecraft:planks:4>],
 		[<minecraft:sandstone_stairs:*>, <minecraft:sandstone:2>],
-		[<minecraft:ladder:*>, <minecraft:planks>],
 
 		[<minecraft:wool>, <minecraft:planks>],
 		[<minecraft:wool:1>, <minecraft:planks>],
@@ -68,13 +71,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		//Black Quarts
 		[<actuallyadditions:block_misc:3>],
 
-		//Torches
-		[<minecraft:torch>, <primal_tech:fibre_torch>],
-		[<minecraft:torch:1>, <primal_tech:fibre_torch:1>],
-		[<minecraft:torch:2>, <primal_tech:fibre_torch:2>],
-		[<minecraft:torch:3>, <primal_tech:fibre_torch:3>],
-		[<minecraft:torch:4>, <primal_tech:fibre_torch:4>],
-
 		//Aquamarine ContentTweaker
 		[<materialpart:aquamarine:ore_minecraft_stone>]
 	],
@@ -107,6 +103,7 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<minecraft:gold_ore>],
 		[<geolosys:ore_vanilla:2>],
 		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock>],
+		[<minecraft:gold_block>],
 
 		//Astral Sorcery
 		[<astralsorcery:blockcustomsandore>, <minecraft:sand>],
@@ -131,9 +128,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 		[<chisel:obsidian:12>, <chisel:basalt:13>],
 		[<chisel:obsidian:13>, <chisel:basalt:14>],
 		[<chisel:obsidian:14>, <chisel:basalt:15>],
-
-		//Worldgen Items
-		[<minecraft:rail:*>, <immcraft:rock>],
 
 		//Silver + Lead
 		[<geolosys:ore:6>],
@@ -221,7 +215,6 @@ var replacementItemsForStage as IItemStack[][][string] = {
 
 		//Silicon
 		[<galacticraftcore:basic_block_core:8>],
-		[<materialpart:silicon:ore_minecraft_stone>],
 		[<materialpart:silicon:ore_sample>, <immcraft:rock>]
 	],
 
@@ -255,7 +248,37 @@ for stage, itemReplacementPairs in replacementItemsForStage {
 		if (length == 1) {
 			mods.OreTiers.addReplacement(stage, itemReplacementPair[0]);
 		} else if (length == 2) {
-			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1]);
+			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
+		}
+	}
+}
+
+var nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
+	STAGES.one : [
+		[<minecraft:ladder:*>, <minecraft:planks>],
+
+		//Torches
+		[<minecraft:torch>, <primal_tech:fibre_torch>],
+		[<minecraft:torch:1>, <primal_tech:fibre_torch:1>],
+		[<minecraft:torch:2>, <primal_tech:fibre_torch:2>],
+		[<minecraft:torch:3>, <primal_tech:fibre_torch:3>],
+		[<minecraft:torch:4>, <primal_tech:fibre_torch:4>]
+	],
+
+	STAGES.three : [
+		//Worldgen Items
+		[<minecraft:rail:*>, <immcraft:rock>]
+	]
+};
+
+for stage, itemReplacementPairs in nonDefaultReplacementItemsForStage {
+	for itemReplacementPair in itemReplacementPairs {
+		var length = itemReplacementPair.length;
+
+		if (length == 1) {
+			mods.OreTiers.addNonDefaultingReplacement(stage, itemReplacementPair[0]);
+		} else if (length == 2) {
+			mods.OreTiers.addNonDefaultingReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
 		}
 	}
 }

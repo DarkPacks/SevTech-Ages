@@ -66,7 +66,7 @@ for stage, toolTypes in toolTypeStages {
 //==================================
 //Material Stage
 //Prevents the material from being used.
-var materialStages as string[][string] = {
+static materialsForStage as string[][string] = {
 	STAGES.one : [
 		"bone",
 		"cactus",
@@ -83,16 +83,30 @@ var materialStages as string[][string] = {
 		"copper",
 		"dreadium",
 		"electrum",
+		"feather",
+		"fierymetal",
+		"hemp",
+		"ice",
 		"iron",
-		"knightslime",
+		"knightmetal",
+		"leaf",
 		"prismarine",
+		"reed",
 		"refined_coralium",
 		"silver",
 		"slime",
-		"sponge"
+		"slimeleaf_blue",
+		"slimeleaf_orange",
+		"slimeleaf_purple",
+		"slimevine_blue",
+		"slimevine_purple",
+		"sponge",
+		"string",
+		"vine"
 	],
 
 	STAGES.three : [
+		"blaze",
 		"endstone",
 		"firewood",
 		"lead",
@@ -100,6 +114,7 @@ var materialStages as string[][string] = {
 		"netherrack",
 		"obsidian",
 		"paper",
+		"pigiron",
 		"steel",
 		"treatedwood"
 	],
@@ -107,12 +122,24 @@ var materialStages as string[][string] = {
 	STAGES.four : [
 		"ardite",
 		"cobalt",
-		"manyullyn",
-		"pigiron"
+		"endrod",
+		"knightslime",
+		"manyullyn"
+	],
+
+	STAGES.five : [
+		"ma.base_essence",
+		"ma.inferium",
+		"ma.intermedium",
+		"ma.prosperity",
+		"ma.prudentium",
+		"ma.soulium",
+		"ma.superium",
+		"ma.supremium"
 	]
 };
 
-for stage, materials in materialStages {
+for stage, materials in materialsForStage {
 	for material in materials {
 		TinkerStages.addToolTypeStage(stage, material);
 	}

@@ -28,7 +28,8 @@ var recipesToAdd as IItemStack[][] = [
 	[<primal:shark_meat_cooked>, <primal:shark_meat_raw>],
 	[<progressiontweaks:flat_bread>, <horsepower:flour>],
 	[<quark:glass_shards>, <betterwithmods:red_sand_pile>],
-	[<quark:glass_shards>, <betterwithmods:sand_pile>]
+	[<quark:glass_shards>, <betterwithmods:sand_pile>],
+	[<ore:ingotSpacePlatinum>.firstItem, <ore:oreSpacePlatinum>.firstItem]
 ];
 
 for items in recipesToAdd {

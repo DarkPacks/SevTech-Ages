@@ -8,7 +8,16 @@ var removeItems as IItemStack[] = [
 
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
-	<storagedrawers:upgrade_storage:4>
+	<storagedrawers:upgrade_storage:4>,
+
+	//Iron Jetpacks
+	<ironjetpacks:advanced_coil>,
+	<ironjetpacks:basic_coil>,
+	<ironjetpacks:electrum_capacitor>,
+
+	//Cyclic
+	<cyclicmagic:block_forester>,
+	<cyclicmagic:harvester_block>
 ];
 
 for item in removeItems {

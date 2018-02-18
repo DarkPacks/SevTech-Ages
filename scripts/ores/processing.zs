@@ -41,5 +41,6 @@ Crusher.addRecipe(geolosysChunks.iron * 1, <ore:oreGeolosysHematite>, defaultCru
 Crusher.addRecipe(<minecraft:lapis_ore> * 1, <ore:oreGeolosysLapis>, defaultCrushingEnergy);
 Crusher.addRecipe(geolosysChunks.iron * 1, <ore:oreGeolosysLimonite>, defaultCrushingEnergy, geolosysChunks.nickel, 0.50);
 Crusher.addRecipe(geolosysChunks.copper * 1, <ore:oreGeolosysMalachite>, defaultCrushingEnergy);
-Crusher.addRecipe(geolosysChunks.platinum * 1, <ore:oreGeolosysPlatinum>, defaultCrushingEnergy, geolosysChunks.osmium, 0.50);
+Crusher.addRecipe(geolosysChunks.platinum * 1, <ore:oreGeolosysPlatinum>, defaultCrushingEnergy);
 Crusher.addRecipe(geolosysChunks.tin * 1, <ore:oreGeolosysTeallite>, defaultCrushingEnergy);
+Crusher.addRecipe(geolosysChunks.osmium * 1, <ore:oreGeolosysOsmium>, defaultCrushingEnergy);

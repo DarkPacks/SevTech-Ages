@@ -1,0 +1,13 @@
+setIcon("pneumaticcraft:plastic_mixer")
+
+setTitle("Plastic Mixer")
+
+setDescription("Craft a Plastic Mixer to create colored Plastic Sheets")
+
+setParent("triumph:stage4/compressediron")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:plastic_mixer")
+
+setRequirements("any")

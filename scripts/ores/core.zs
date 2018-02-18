@@ -114,6 +114,11 @@ mods.immersiveengineering.Excavator.addMineral("Platinum", 30, 15, [], [], [-1],
 var platinum = mods.immersiveengineering.Excavator.getMineral("Platinum");
 platinum.addOre("oreGeolosysPlatinum", 0.50);
 
+//Osmium
+mods.immersiveengineering.Excavator.addMineral("Osmium", 30, 15, [], [], [-1], true);
+var osmium = mods.immersiveengineering.Excavator.getMineral("Osmium");
+osmium.addOre("oreGeolosysOsmium", 0.50);
+
 //Teallite
 mods.immersiveengineering.Excavator.addMineral("Teallite", 30, 15, [], [], [-1], true);
 var teallite = mods.immersiveengineering.Excavator.getMineral("Teallite");

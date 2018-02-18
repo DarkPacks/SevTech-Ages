@@ -1,0 +1,18 @@
+setIcon("chisel:iron", 12)
+
+setTitle("To the Moon!")
+
+setDescription("Launch a Rocket and land on the Moon")
+
+setParent("triumph:stage4/t1rocket")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("Moon")
+
+setRewardExperience(16)
+setRewardFunction("triumph:stage5trigger")
+
+setRewardExperience(25)

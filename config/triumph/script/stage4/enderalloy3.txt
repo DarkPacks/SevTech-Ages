@@ -1,0 +1,14 @@
+setIcon("enderutilities:enderpart", 2)
+
+setTitle("Advanced Ender Alloy")
+
+setDescription("Locate Purpur, End Rods, and a Shulker Shell to create Advanced Ender Alloy")
+
+setParent("triumph:stage4/theend")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("enderutilities:enderpart", 2)
+
+
+setRequirements("any")

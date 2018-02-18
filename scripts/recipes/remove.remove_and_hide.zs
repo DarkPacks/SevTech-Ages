@@ -131,6 +131,14 @@ var removeAndHideItems as IItemStack[] = [
 	<cookingforblockheads:cow_jar>,
 	<cookingforblockheads:milk_jar>,
 
+	//Simply Arrows
+	<simplyarrows:arrow_cake>,
+	<simplyarrows:arrow_flame>,
+	<simplyarrows:arrow_iron>,
+	<simplyarrows:arrow_love>,
+	<simplyarrows:arrow_tnt>,
+	<simplyarrows:arrow_torch>,
+
 	//Applied Energistics
 	<appliedenergistics2:material:21>, //Inscriber Name Press
 	<appliedenergistics2:material:45>, //Skystone Dust
@@ -140,7 +148,12 @@ var removeAndHideItems as IItemStack[] = [
 	//by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM
 	<refinedstorage:core:1>,
 	<refinedstorage:core>,
-	<refinedstorage:solderer>
+	<refinedstorage:solderer>,
+
+	//Remove Galacticraft refineries
+	<extraplanets:advanced_refinery>,
+	<extraplanets:ultimate_refinery>,
+	<galacticraftcore:refinery>
 ];
 
 for item in removeAndHideItems {

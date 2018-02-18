@@ -12,14 +12,46 @@ var removeItems as IItemStack[] = [
 	<teslacorelib:machine_case>,
 
 	//Actually Additions
+	<actuallyadditions:block_bio_reactor>,
+	<actuallyadditions:block_breaker>,
+	<actuallyadditions:block_canola_press>,
 	<actuallyadditions:block_coal_generator>,
+	<actuallyadditions:block_coffee_machine>,
+	<actuallyadditions:block_directional_breaker>,
 	<actuallyadditions:block_farmer>,
 	<actuallyadditions:block_feeder>,
+	<actuallyadditions:block_fermenting_barrel>,
 	<actuallyadditions:block_furnace_double>,
+	<actuallyadditions:block_furnace_solar>,
+	<actuallyadditions:block_giant_chest_large>,
+	<actuallyadditions:block_giant_chest_medium>,
+	<actuallyadditions:block_greenhouse_glass>,
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
+	<actuallyadditions:block_heat_collector>,
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
+	<actuallyadditions:block_misc:8>,
+	<actuallyadditions:block_misc:9>,
 	<actuallyadditions:block_oil_generator>,
+	<actuallyadditions:item_battery>,
+	<actuallyadditions:item_battery_double>,
+	<actuallyadditions:item_battery_quadruple>,
+	<actuallyadditions:item_battery_quintuple>,
+	<actuallyadditions:item_battery_triple>,
 	<actuallyadditions:item_drill:*>,
+	<actuallyadditions:item_drill_upgrade_block_placing>,
+	<actuallyadditions:item_drill_upgrade_five_by_five>,
+	<actuallyadditions:item_drill_upgrade_fortune>,
+	<actuallyadditions:item_drill_upgrade_fortune_ii>,
+	<actuallyadditions:item_drill_upgrade_silk_touch>,
+	<actuallyadditions:item_drill_upgrade_speed>,
+	<actuallyadditions:item_drill_upgrade_speed_ii>,
+	<actuallyadditions:item_drill_upgrade_speed_iii>,
+	<actuallyadditions:item_drill_upgrade_three_by_three>,
+	<actuallyadditions:item_laser_wrench>,
+	<actuallyadditions:item_misc:7>,
+	<actuallyadditions:item_misc:8>,
 	<actuallyadditions:item_misc:16>,
 
 	//Cooking for Blockheads
@@ -40,6 +72,8 @@ var removeItems as IItemStack[] = [
 	<enderutilities:enderpart>,
 
 	//Extended Crafting
+	<extendedcrafting:ender_alternator>,
+	<extendedcrafting:ender_crafter>,
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
@@ -161,7 +195,9 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:quartz_enriched_iron>,
 
 	//Galacticraft
-	<galacticraftcore:machine:12>
+	<galacticraftcore:fuel_loader>,
+	<galacticraftcore:machine:12>,
+	<galacticraftcore:rocket_workbench>
 ];
 
 for item in removeItems {

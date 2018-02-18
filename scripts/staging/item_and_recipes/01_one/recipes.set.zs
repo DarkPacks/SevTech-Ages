@@ -236,7 +236,23 @@ var itemsForStage as IIngredient[] = [
 	<quark:sturdy_stone>,
 
 	//Abyssalcraft
+	<abyssalcraft:coraxe>,
+	<abyssalcraft:corboots>,
+	<abyssalcraft:corbootsp>,
+	<abyssalcraft:corhelmet>,
+	<abyssalcraft:corhelmetp>,
+	<abyssalcraft:corhoe>,
+	<abyssalcraft:corlegs>,
+	<abyssalcraft:corlegsp>,
+	<abyssalcraft:corpick>,
+	<abyssalcraft:corplate>,
+	<abyssalcraft:corplatep>,
+	<abyssalcraft:corshovel>,
+	<abyssalcraft:corsword>,
 	<abyssalcraft:crate>,
+	<abyssalcraft:necronomicon_cor>,
+	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:skin>,
 
 	//Tinkers'
 	<tconstruct:channel>,
@@ -435,7 +451,6 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:slime_dyed:*>,
 
 	//Actually Additions
-	<actuallyadditions:block_fishing_net>,
 	<actuallyadditions:block_misc:1>,
 	<actuallyadditions:block_misc:2>,
 	<actuallyadditions:block_misc>,

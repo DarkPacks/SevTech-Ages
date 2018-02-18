@@ -267,18 +267,7 @@ for i in 0 to 16 {
 <ore:table>.add(<bibliocraft:table:4>);
 <ore:table>.add(<bibliocraft:table:5>);
 
-<ore:dustVanadium>.remove(<primal:vanadium_dust>);
-<ore:ingotVanadium>.remove(<primal:vanadium_ingot>);
-<ore:nuggetVanadium>.remove(<primal:vanadium_nugget>);
-<ore:dustWootz>.remove(<primal:wootz_dust>);
-<ore:ingotWootz>.remove(<primal:wootz_ingot>);
-<ore:nuggetWootz>.remove(<primal:wootz_nugget>);
-<ore:dustZinc>.remove(<primal:zinc_dust>);
-<ore:ingotZinc>.remove(<primal:zinc_ingot>);
-<ore:nuggetZinc>.remove(<primal:zinc_nugget>);
 <ore:ingotTamahagane>.remove(<primal:tamahagane_ingot>);
-
-<ore:plateZinc>.remove(<primal:zinc_plate>);
 
 <ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
@@ -344,3 +333,11 @@ for i in 0 to 16 {
 <ore:glass>.remove(<natura:nether_glass>);
 <ore:glass>.remove(<natura:nether_glass:1>);
 <ore:glassBlock>.add(<natura:nether_glass:*>);
+
+//Space Platinum
+<ore:blockPlatinum>.remove(<extraplanets:kepler22b:14>);
+<ore:blockSpacePlatinum>.add(<extraplanets:kepler22b:14>);
+<ore:ingotPlatinum>.remove(<extraplanets:tier11_items:5>);
+<ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
+<ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
+<ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);

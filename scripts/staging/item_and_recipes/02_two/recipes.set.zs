@@ -87,13 +87,51 @@ var itemsForStage as IIngredient[] = [
 
 	//AbyssalCraft
 	<abyssalcraft:ahoe>,
+	<abyssalcraft:corbow>,
 	<abyssalcraft:corhoe>,
+	<abyssalcraft:crystallizer>,
+	<abyssalcraft:drainstaff>,
+	<abyssalcraft:dreadblade>,
+	<abyssalcraft:dreadbrick:1>,
+	<abyssalcraft:dreadbrick>,
+	<abyssalcraft:dreadbrickslab1>,
+	<abyssalcraft:dreadbrickslab2>,
+	<abyssalcraft:dreadbrickstairs>,
+	<abyssalcraft:dreadcloth>,
+	<abyssalcraft:dreadhilt>,
+	<abyssalcraft:dreadiumaxe>,
+	<abyssalcraft:dreadiumboots>,
+	<abyssalcraft:dreadiumhelmet>,
 	<abyssalcraft:dreadiumhoe>,
+	<abyssalcraft:dreadiumlegs>,
+	<abyssalcraft:dreadiumpickaxe>,
+	<abyssalcraft:dreadiumplate>,
+	<abyssalcraft:dreadiumsamuraiboots>,
+	<abyssalcraft:dreadiumsamuraihelmet>,
+	<abyssalcraft:dreadiumsamurailegs>,
+	<abyssalcraft:dreadiumsamuraiplate>,
+	<abyssalcraft:dreadiumshovel>,
+	<abyssalcraft:dreadiumsword>,
+	<abyssalcraft:dreadkatana>,
+	<abyssalcraft:dreadplate>,
+	<abyssalcraft:dreadstonecobblestoneslab1>,
+	<abyssalcraft:dreadstonecobblestonestairs>,
+	<abyssalcraft:dreadstonecobblestonewall>,
 	<abyssalcraft:engraver>,
+	<abyssalcraft:ethaxiumaxe>,
+	<abyssalcraft:ethaxiumboots>,
+	<abyssalcraft:ethaxiumhelmet>,
 	<abyssalcraft:ethaxiumhoe>,
+	<abyssalcraft:ethaxiumhoe>,
+	<abyssalcraft:ethaxiumlegs>,
+	<abyssalcraft:ethaxiumpickaxe>,
+	<abyssalcraft:ethaxiumplate>,
+	<abyssalcraft:ethaxiumshovel>,
+	<abyssalcraft:ethaxiumsword>,
 	<abyssalcraft:materializer>,
 	<abyssalcraft:oblivionshard>,
 	<abyssalcraft:odb>,
+	<abyssalcraft:skin:1>,
 
 	//Better With Mods
 	<betterwithaddons:bolt:2>,
@@ -133,6 +171,11 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 
+	//Water Strainer
+	<waterstrainer:efficiency_meter>,
+	<waterstrainer:strainer_survivalist_dense_solid>,
+	<waterstrainer:strainer_survivalist_solid>,
+
 	//Super Sound Muffler
 	<supersoundmuffler:sound_muffler>,
 	<supersoundmuffler:sound_muffler_bauble>,
@@ -145,6 +188,9 @@ var itemsForStage as IIngredient[] = [
 	<chisel:chisel_iron>,
 	<chisel:offsettool>,
 	<chisel:waterstone1:1>,
+
+	//Cyclic
+	<cyclicmagic:glove_climb>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,

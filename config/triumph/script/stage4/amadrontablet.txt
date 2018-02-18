@@ -1,0 +1,13 @@
+setIcon("pneumaticcraft:amadron_tablet")
+
+setTitle("Amadron Delivery")
+
+setDescription("Fill the Amadron Tablet with air pressure and use it to order items. Make sure to set the pickup and dropoff locations by using Shift Right-Click")
+
+setParent("triumph:stage4/plasticmixer")
+setRequiresParent(true)
+
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:amadron_tablet")
+
+setRequirements("any")

@@ -424,7 +424,6 @@
       "thebetweenlands:kraken_tentacle",
       "thebetweenlands:mince_pie",
       "thebetweenlands:silt_crab_claw",
-      "thebetweenlands:silt_crab_claw",
       "thebetweenlands:snail_flesh_cooked",
       "thebetweenlands:snail_flesh_raw",
       "thebetweenlands:yellow_dotted_fungus",
@@ -435,7 +434,16 @@
       "twilightforest:meef_stroganoff",
       "twilightforest:raw_meef",
       "twilightforest:raw_venison",
-      "actuallyadditions:item_food:14"
+      "actuallyadditions:item_food:14",
+      "extraplanets:canned_food",
+      "extraplanets:canned_food:1",
+      "extraplanets:canned_food:2",
+      "extraplanets:canned_food:3",
+      "extraplanets:canned_food:4",
+      "actuallyadditions:item_food",
+      "galacticraftcore:cheese_curd",
+      "primal:cheese_white",
+      "primal:cheese_red"
     ]
   }
 }

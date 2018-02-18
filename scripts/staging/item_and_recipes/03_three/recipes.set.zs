@@ -437,6 +437,8 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:ecksie_sapling:7>,
 	<betterwithaddons:ecksie_sapling:8>,
 	<betterwithaddons:ecksie_sapling>,
+	<betterwithaddons:japanmat:13>,
+	<betterwithaddons:japanmat:14>,
 	<betterwithaddons:japanmat:15>,
 	<betterwithaddons:japanmat:16>,
 	<betterwithaddons:japanmat:17>,
@@ -449,6 +451,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:soulsand_pile>,
 	<betterwithaddons:worldshard>,
 	<betterwithaddons:wrought_bars>,
+	<betterwithaddons:wrought_lamp>,
 	<betterwithmods:aesthetic:3>,
 	<betterwithmods:aesthetic:10>,
 	<betterwithmods:bellows:1>,
@@ -459,6 +462,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:material:14>,
 	<betterwithmods:material:16>,
 	<betterwithmods:material:17>,
+	<betterwithmods:material:34>,
 	<betterwithmods:material:42>,
 	<betterwithmods:material:47>,
 	<betterwithmods:material:50>,
@@ -801,6 +805,7 @@ var itemsForStage as IIngredient[] = [
 	//Quark
 	<quark:blaze_lantern>,
 	<quark:magma_bricks_stairs>,
+	<quark:soul_powder>,
 
 	//YoYo
 	//TODO: Why isnt this handled by tcon part staging

@@ -4,11 +4,10 @@ setTitle("Machine Casing")
 
 setDescription("Advanced Machines need more complex casing")
 
-setParent("triumph:stage4/extendedcraftingelite")
+setParent("triumph:stage4/printedcircuitboard")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("teslacorelib:machine_case")
-
 
 setRequirements("any")

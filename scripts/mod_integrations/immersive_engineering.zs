@@ -3,6 +3,7 @@ import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
+import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Squeezer;
 
 /*
@@ -57,6 +58,7 @@ Crusher.addRecipe(<pickletweaks:dye_powder:14> * 2, <minecraft:dye:1>, 3000);
 Crusher.addRecipe(<pickletweaks:dye_powder:14> * 1, <rustic:wildberries>, 3000);
 
 Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
+Crusher.addRecipe(<pickletweaks:dye_powder> * 2, <minecraft:dye:15>, 3000);
 
 Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 
@@ -66,7 +68,15 @@ Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:materia
 
 Crusher.addRecipe(metals.tin.dust.firstItem * 2, <ore:oreTin>, 3000); //Tin ore to dust
 
+Crusher.addRecipe(metals.osmium.dust.firstItem * 2, <ore:oreOsmium>, 3000); //Osmium ore to dust
+
+Crusher.addRecipe(metals.spacePlatinum.dust.firstItem * 2, <ore:oreSpacePlatinum>, 3000); //Osmium ore to dust
+
 Crusher.addRecipe(<ore:dustCoal>.firstItem, <ore:coal>, 3000); //Coal to coal dust
+
+Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>, 3000); //Certus Quartz to Certus Dust
+
+Crusher.addRecipe(<ore:dustObsidian>.firstItem, <ore:obsidian>, 3000); //Obsidian to dust
 
 /*
 	Arc Furnace
@@ -132,3 +142,10 @@ ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag
 */
 Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
 Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
+
+/*
+	Refinery
+
+	mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy);
+*/
+Refinery.addRecipe(<liquid:fuel> * 100, <liquid:liquidoxygen> * 250, <liquid:kerosene> * 100, 2048);

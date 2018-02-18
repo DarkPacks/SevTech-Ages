@@ -1,5 +1,7 @@
 import crafttweaker.item.IItemStack;
 
+import mods.extendedcrafting.CompressionCrafting;
+import mods.extendedcrafting.EnderCrafting;
 import mods.extendedcrafting.TableCrafting;
 
 /*
@@ -9,8 +11,7 @@ import mods.extendedcrafting.TableCrafting;
 */
 //Viescraft Airship Ignition
 recipes.remove(<vc:airship_ignition>);
-TableCrafting.addShaped(
-	<vc:airship_ignition>,
+TableCrafting.addShaped(<vc:airship_ignition>,
 	[
 		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod>, metals.iron.plate, metals.iron.plate],
 		[metals.iron.plate, <minecraft:quartz>, metals.platinum.gear, <minecraft:quartz>, metals.iron.plate],
@@ -22,8 +23,7 @@ TableCrafting.addShaped(
 
 //Viescraft Ship Engine
 recipes.remove(<vc:airship_engine>);
-TableCrafting.addShaped(
-	<vc:airship_engine>,
+TableCrafting.addShaped(<vc:airship_engine>,
 	[
 		[metals.steel.plate, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>, metals.steel.plate],
 		[metals.iron.plate, metals.fiery.rod, metals.fiery.rod, metals.fiery.rod, metals.iron.plate],
@@ -35,8 +35,7 @@ TableCrafting.addShaped(
 
 //Viescraft Ship Balloon
 recipes.remove(<vc:airship_balloon>);
-TableCrafting.addShaped(
-	<vc:airship_balloon>,
+TableCrafting.addShaped(<vc:airship_balloon>,
 	[
 		[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>],
 		[<minecraft:string>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string>],
@@ -47,14 +46,27 @@ TableCrafting.addShaped(
 );
 
 //Stage 4 Machine Frame
-TableCrafting.addShaped(
-	<teslacorelib:machine_case>,
+TableCrafting.addShaped(<teslacorelib:machine_case>,
 	[
 		[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate],
 		[plastic, <stevescarts:modulecomponents:21>, <pneumaticcraft:printed_circuit_board>, <stevescarts:modulecomponents:21>, plastic],
 		[metals.compressedIron.plate, <appliedenergistics2:material>, <extendedcrafting:frame>, <appliedenergistics2:material>, metals.compressedIron.plate],
 		[plastic, metals.cobalt.plate, <appliedenergistics2:material>, metals.cobalt.plate, plastic],
 		[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate]
+	]
+);
+
+/*
+	Ender Crafting
+
+	https://github.com/BlakeBr0/ExtendedCrafting/wiki/Ender-Crafting
+*/
+//NASA Workbench
+EnderCrafting.addShaped(<galacticraftcore:rocket_workbench>,
+	[
+		[<galacticraftcore:basic_item:9>, <pneumaticcraft:assembly_io_unit>, <galacticraftcore:basic_item:9>],
+		[<appliedenergistics2:material:22>, <extendedcrafting:table_basic>, <appliedenergistics2:material:24>],
+		[<galacticraftcore:basic_item:9>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:9>]
 	]
 );
 
@@ -129,7 +141,7 @@ for pair in compressionCraftingPairs {
 		var catalyst = <extendedcrafting:material>.definition.makeStack(catalystMeta);
 
 		//Add compression crafting recipe to compress
-		mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);
+		CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);
 
 		//Add standard crafting recipe to decompress
 		recipes.addShapeless(input * 9, [output]);

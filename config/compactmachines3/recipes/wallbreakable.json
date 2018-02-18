@@ -1,0 +1,26 @@
+{
+	"name": "compactmachines3:wallbreakable",
+	"target-block": "compactmachines3:wallbreakable",
+	"target-count": 16,
+	"input-types": {
+		"bi": {
+			"id": "extendedcrafting:storage"
+		},
+		"r": {
+			"id": "minecraft:redstone_wire"
+		}
+	},
+	"symmetrical": true,
+	"shape": [
+		[
+			[
+				"r"
+			]
+		],
+		[
+			[
+				"bi"
+			]
+		]
+	]
+}

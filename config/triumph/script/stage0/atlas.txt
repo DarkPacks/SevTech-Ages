@@ -1,12 +1,11 @@
 setIcon("antiqueatlas:empty_antique_atlas")
 
-setTitle("Â§1Lost but Now Found")
+setTitle("§1§lLost but Now Found")
 
 setDescription("Trade for a map from a Cartographer Villager")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)
-
 
 criteria = addCriteria("book1", "minecraft:inventory_changed")
 criteria.setItem("antiqueatlas:empty_antique_atlas", 0)

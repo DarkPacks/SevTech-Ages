@@ -1,6 +1,6 @@
 setIcon("abyssalcraft:shadowgem")
 
-setTitle("Â§5Dark Gems")
+setTitle("§5§lDark Gems")
 
 setDescription("Acquire a Shadow Gem from Shadow Creatures residing in the darklands")
 

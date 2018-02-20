@@ -2,7 +2,7 @@ setIcon("minecraft:flint")
 
 setTitle("Flint Sharpening")
 
-setDescription("Hit flint against a hard rock to create flaked flint")
+setDescription("Left-click Flint against a hard rock to create Flaked Flint")
 
 setParent("triumph:stage0/mesh")
 setRequiresParent(true)

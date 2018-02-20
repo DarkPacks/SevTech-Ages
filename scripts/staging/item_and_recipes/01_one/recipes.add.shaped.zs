@@ -182,9 +182,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Beneath Porter Recipe
 	<progressiontweaks:blank_teleporter> : [
 		[
-			[null, <abyssalcraft:cpearl>, null],
+			[<ore:dyeBlack>, <abyssalcraft:cpearl>, <ore:dyeBlack>],
 			[metals.copper.block, metals.bronze.block, metals.tin.block],
-			[<minecraft:coal_block>, null, <minecraft:coal_block>]
+			[<minecraft:coal_block>, <abyssalcraft:charm>, <minecraft:coal_block>]
 		]
 	],
 

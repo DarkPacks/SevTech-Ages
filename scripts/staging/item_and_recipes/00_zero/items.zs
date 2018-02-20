@@ -250,7 +250,6 @@ var stageZeroItems as IIngredient[] = [
 
 	//Horsepower
 	<horsepower:chopper:*>,
-	<horsepower:chopping_block:*>,
 	<horsepower:dough>,
 	<horsepower:flour>,
 	<horsepower:grindstone>,

@@ -1,8 +1,8 @@
 #priority 2000
 
-import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.IItemTransformerNew;
 
-static shearsTransformFunction as IItemTransformer = function(item, player) {
+static shearsTransformFunction as IItemTransformerNew = function(item, player) {
 	if (item.hasContainerItem) {
 		return item.containerItem;
 	}

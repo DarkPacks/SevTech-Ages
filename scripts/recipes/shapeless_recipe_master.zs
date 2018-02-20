@@ -3,7 +3,7 @@
 recipes.remove(<minecraft:clay>);
 
 //Fleece to String
-recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolShears>.transform(scripts.transformers.shearsTransformFunction)]);
+recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolShears>.transformNew(scripts.transformers.shearsTransformFunction)]);
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);
 
 //Pickle Tweaks Mesh

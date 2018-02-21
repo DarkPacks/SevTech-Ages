@@ -6,11 +6,12 @@ var STAGE = STAGES.tutorial;
 
 var stageTutorialItems as IIngredient[] = [
 	stick,
-	<horsepower:chopping_block:*>,
+
 	<antiqueatlas:empty_antique_atlas>,
 	<betterwithmods:cooked_mystery_meat>,
 	<betterwithmods:mystery_meat>,
 	<cyclicmagic:sleeping_mat>,
+	<horsepower:chopping_block:*>,
 	<horsepower:chopping_block>,
 	<immcraft:chest>,
 	<immcraft:rock>,

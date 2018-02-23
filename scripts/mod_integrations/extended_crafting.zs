@@ -69,7 +69,6 @@ TableCrafting.addShaped(<actuallyadditions:block_atomic_reconstructor>,
 	]
 );
 
-
 /*
 	Ender Crafting
 

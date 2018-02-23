@@ -83,9 +83,9 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:crystalcluster:*>,
 	<abyssalcraft:crystalfragment:*>,
 	<abyssalcraft:crystalshard:*>,
+	<abyssalcraft:dsglow>,
 	<abyssalcraft:transmutationgem>,
 	<abyssalcraft:transmutator>,
-	<abyssalcraft:dsglow>,
 
 	//Cyclic Magic
 	<cyclicmagic:block_hydrator>,
@@ -116,12 +116,12 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:purple_helmet>,
 	<cyclicmagic:stone_minecart>,
 	<cyclicmagic:tool_auto_torch>,
+	<cyclicmagic:tool_launcher>,
 	<cyclicmagic:tool_push>,
 	<cyclicmagic:tool_swap>,
 	<cyclicmagic:turret_minecart>,
-	<cyclicmagic:wand_missile>,
-	<cyclicmagic:tool_launcher>,
 	<cyclicmagic:wand_hypno>,
+	<cyclicmagic:wand_missile>,
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,
@@ -806,15 +806,15 @@ var itemsForStage as IIngredient[] = [
 
 	//Quark
 	<quark:blaze_lantern>,
-	<quark:magma_bricks_stairs>,
-	<quark:soul_powder>,
 	<quark:magma_bricks>,
 	<quark:magma_bricks_slab>,
-	<quark:soul_sandstone>,
+	<quark:magma_bricks_stairs>,
+	<quark:quartz_wall>,
+	<quark:soul_powder>,
 	<quark:soul_sandstone:1>,
 	<quark:soul_sandstone:2>,
+	<quark:soul_sandstone>,
 	<quark:soul_sandstone_slab>,
-	<quark:quartz_wall>,
 
 	//YoYo
 	//TODO: Why isnt this handled by tcon part staging

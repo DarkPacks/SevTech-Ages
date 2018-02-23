@@ -478,6 +478,10 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:decorativestatue:5>,
 	<abyssalcraft:decorativestatue:6>,
 	<abyssalcraft:decorativestatue>,
+	<abyssalcraft:depthsboots>,
+	<abyssalcraft:depthshelmet>,
+	<abyssalcraft:depthslegs>,
+	<abyssalcraft:depthsplate>,
 	<abyssalcraft:dltbutton>,
 	<abyssalcraft:dsbutton>,
 	<abyssalcraft:essence>,
@@ -498,10 +502,6 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredenergypedestal:1>,
 	<abyssalcraft:tieredenergyrelay:1>,
 	<abyssalcraft:tieredsacrificialaltar:1>,
-	<abyssalcraft:depthshelmet>,
-	<abyssalcraft:depthsplate>,
-	<abyssalcraft:depthslegs>,
-	<abyssalcraft:depthsboots>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -762,11 +762,13 @@ var stage1Items as IIngredient[] = [
 	<betterwithaddons:crate:11>,
 	<betterwithaddons:crate:*>,
 	<betterwithaddons:crate>,
+	<betterwithaddons:elytra_magma>,
 	<betterwithaddons:food_beetroot_cooked>,
 	<betterwithaddons:food_carrot_cooked>,
 	<betterwithaddons:food_egg_cooked>,
 	<betterwithaddons:food_meatballs>,
 	<betterwithaddons:food_potato_cooked>,
+	<betterwithaddons:fusuma>,
 	<betterwithaddons:inverted_gearbox>,
 	<betterwithaddons:japanmat:8>,
 	<betterwithaddons:japanmat:9>,
@@ -780,6 +782,7 @@ var stage1Items as IIngredient[] = [
 	<betterwithaddons:loom>,
 	<betterwithaddons:sapling_luretree>,
 	<betterwithaddons:scaffold>,
+	<betterwithaddons:shoji>,
 	<betterwithaddons:spindle>,
 	<betterwithaddons:thorn_rose>,
 	<betterwithaddons:weight_stone>,
@@ -905,9 +908,6 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
-	<betterwithaddons:shoji>,
-	<betterwithaddons:fusuma>,
-	<betterwithaddons:elytra_magma>,
 
 	//Natura
 	<natura:colored_grass:1>,
@@ -941,6 +941,7 @@ var stage1Items as IIngredient[] = [
 	<dungpipe:sewer_pipe>,
 
 	//Cyclic
+	<cyclicmagic:apple>,
 	<cyclicmagic:plate_launch_large>,
 	<cyclicmagic:plate_launch_small>,
 	<cyclicmagic:sandstone_axe>,
@@ -948,7 +949,6 @@ var stage1Items as IIngredient[] = [
 	<cyclicmagic:sandstone_spade>,
 	<cyclicmagic:tool_harvest_leaves>,
 	<cyclicmagic:tool_harvest_weeds>,
-	<cyclicmagic:apple>,
 
 	//Compressed
 	<overloaded:compressed_cobblestone:*>,
@@ -965,6 +965,10 @@ var stage1Items as IIngredient[] = [
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,
 	<quark:jungle_trapdoor>,
+	<quark:midori_block>,
+	<quark:midori_block_slab>,
+	<quark:midori_block_wall>,
+	<quark:midori_pillar>,
 	<quark:polished_stone>,
 	<quark:sandy_bricks>,
 	<quark:spruce_trapdoor>,
@@ -986,10 +990,6 @@ var stage1Items as IIngredient[] = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
-	<quark:midori_block>,
-	<quark:midori_pillar>,
-	<quark:midori_block_slab>,
-	<quark:midori_block_wall>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,

@@ -1078,7 +1078,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Cyclic	
+	//Cyclic
 	<cyclicmagic:placer_block> : [
 		[
 			[stone, <minecraft:dispenser>, stone],
@@ -1100,7 +1100,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

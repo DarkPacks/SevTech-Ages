@@ -22,6 +22,12 @@ AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 
 AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.ingot, 600);
 AlloySmelter.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.dust * 3, metals.tin.dust, 600);
 
+//Invar
+AlloySmelter.addRecipe(metals.invar.ingot.firstItem * 3, metals.iron.ingot * 2, metals.nickel.ingot, 600);
+AlloySmelter.addRecipe(metals.invar.ingot.firstItem * 3, metals.iron.ingot * 2, metals.nickel.dust, 600);
+AlloySmelter.addRecipe(metals.invar.ingot.firstItem * 3, metals.iron.dust * 2, metals.nickel.ingot, 600);
+AlloySmelter.addRecipe(metals.invar.ingot.firstItem * 3, metals.iron.dust * 2, metals.nickel.dust, 600);
+
 /*
 	Metal Press
 

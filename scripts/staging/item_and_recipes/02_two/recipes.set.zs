@@ -122,7 +122,6 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:ethaxiumboots>,
 	<abyssalcraft:ethaxiumhelmet>,
 	<abyssalcraft:ethaxiumhoe>,
-	<abyssalcraft:ethaxiumhoe>,
 	<abyssalcraft:ethaxiumlegs>,
 	<abyssalcraft:ethaxiumpickaxe>,
 	<abyssalcraft:ethaxiumplate>,
@@ -132,6 +131,27 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:oblivionshard>,
 	<abyssalcraft:odb>,
 	<abyssalcraft:skin:1>,
+	<abyssalcraft:apick>,
+	<abyssalcraft:aaxe>,
+	<abyssalcraft:ashovel>,
+	<abyssalcraft:asword>,
+	<abyssalcraft:ahelmet>,
+	<abyssalcraft:aplate>,
+	<abyssalcraft:alegs>,
+	<abyssalcraft:aboots>,
+	<abyssalcraft:necronomicon_dre>,
+	<abyssalcraft:crystalbag_large>,
+	<abyssalcraft:cstonebrick>,
+	<abyssalcraft:cstonebrick:1>,
+	<abyssalcraft:cstonebrickslab1>,
+	<abyssalcraft:cstonebrickstairs>,
+	<abyssalcraft:necronomicon_omt>,
+	<abyssalcraft:skin:2>,
+	<abyssalcraft:abyssalnomicon>,
+	<abyssalcraft:abybrick:1>,
+	<abyssalcraft:abyslab1>,
+	<abyssalcraft:abystairs>,
+	<abyssalcraft:powerstonetracker>,
 
 	//Better With Mods
 	<betterwithaddons:bolt:2>,
@@ -191,6 +211,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Cyclic
 	<cyclicmagic:glove_climb>,
+	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:trash>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,
@@ -422,7 +444,11 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:sneaky_obsidian>,
 	<darkutils:sneaky_plate>,
 	<darkutils:sneaky_torch>,
-	<darkutils:trap_move>
+	<darkutils:trap_move>,
+
+	//Quark
+	<quark:brick_wall>,
+	<quark:paper_wall>
 
 ];
 

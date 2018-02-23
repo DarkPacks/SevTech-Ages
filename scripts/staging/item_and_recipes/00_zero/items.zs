@@ -47,6 +47,27 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycollector>,
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
+	<abyssalcraft:dpick>,
+	<abyssalcraft:daxe>,
+	<abyssalcraft:dshovel>,
+	<abyssalcraft:dsword>,
+	<abyssalcraft:cobblestone>,
+	<abyssalcraft:darkstone_brick>,
+	<abyssalcraft:darkstone_brick:1>,
+	<abyssalcraft:darkstone_brick:2>,
+	<abyssalcraft:darkbrickslab1>,
+	<abyssalcraft:darkcobbleslab1>,
+	<abyssalcraft:dbstairs>,
+	<abyssalcraft:dcstairs>,
+	<abyssalcraft:dscwall>,
+	<abyssalcraft:darkstoneslab1>,
+	<abyssalcraft:darkbrickslab2>,
+	<abyssalcraft:darkcobbleslab2>,
+	<abyssalcraft:darkstoneslab2>,
+	<abyssalcraft:dghead>,
+	<abyssalcraft:phead>,
+	<abyssalcraft:whead>,
+	<abyssalcraft:ohead>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,
@@ -969,7 +990,13 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>
+	<betterwithmods:wolf_chop>,
+	<minecraft:monster_egg>,
+	<quark:prismarine_dark_slab>,
+	<betterwithmods:aesthetic:6>,
+	<betterwithmods:aesthetic:7>,
+	<betterwithmods:material:37>
+
 ];
 
 for item in stageZeroItems {

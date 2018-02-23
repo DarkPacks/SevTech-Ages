@@ -431,6 +431,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
+	<betterwithaddons:pcb_block>,
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -747,6 +748,47 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:1>,
 	<abyssalcraft:yogsothothcharm>,
 	<abyssalcraft:yogsothothcoin>,
+	<abyssalcraft:apick>,
+	<abyssalcraft:aaxe>,
+	<abyssalcraft:ashovel>,
+	<abyssalcraft:asword>,
+	<abyssalcraft:ahoe>,
+	<abyssalcraft:ahelmet>,
+	<abyssalcraft:aplate>,
+	<abyssalcraft:alegs>,
+	<abyssalcraft:aboots>,
+	<abyssalcraft:dhelmet>,
+	<abyssalcraft:dplate>,
+	<abyssalcraft:dlegs>,
+	<abyssalcraft:dboots>,
+	<abyssalcraft:gatewaykeyjzh>,
+	<abyssalcraft:necronomicon_dre>,
+	<abyssalcraft:crystalbag_large>,
+	<abyssalcraft:cstonebrick>,
+	<abyssalcraft:cstonebrick:1>,
+	<abyssalcraft:cstonebrick:2>,
+	<abyssalcraft:cstonebrickslab1>,
+	<abyssalcraft:cstonebrickstairs>,
+	<abyssalcraft:necronomicon_omt>,
+	<abyssalcraft:stone:6>,
+	<abyssalcraft:tieredenergypedestal:3>,
+	<abyssalcraft:tieredsacrificialaltar:3>,
+	<abyssalcraft:tieredenergycollector:3>,
+	<abyssalcraft:tieredenergyrelay:3>,
+	<abyssalcraft:tieredenergycontainer:3>,
+	<abyssalcraft:omotholflesh>,
+	<abyssalcraft:shoggothflesh:3>,
+	<abyssalcraft:essence:2>,
+	<abyssalcraft:skin:2>,
+	<abyssalcraft:omotholportal>,
+	<abyssalcraft:abyssalnomicon>,
+	<abyssalcraft:abybrick:1>,
+	<abyssalcraft:abybrick:2>,
+	<abyssalcraft:abyslab1>,
+	<abyssalcraft:abystairs>,
+	<abyssalcraft:abypplate>,
+	<abyssalcraft:cobblestone:1>,
+	<abyssalcraft:powerstonetracker>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
@@ -945,6 +987,8 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:tool_torch_launcher>,
 	<cyclicmagic:tool_trade>,
 	<cyclicmagic:water_freezer>,
+	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:trash>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_gold>,
@@ -990,7 +1034,11 @@ var stage2Items as IIngredient[] = [
 	<natura:overworld_bookshelves:6>,
 	<natura:overworld_bookshelves:7>,
 	<natura:overworld_bookshelves:8>,
-	<natura:overworld_bookshelves>
+	<natura:overworld_bookshelves>,
+
+	//Quark
+	<quark:brick_wall>,
+	<quark:paper_wall>
 ];
 
 for item in stage2Items {

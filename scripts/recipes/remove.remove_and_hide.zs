@@ -58,6 +58,16 @@ var removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
+	<pickletweaks:reinforced_mesh>,
+	<microblockcbe:saw_stone>,
+	<microblockcbe:saw_iron>,
+	<microblockcbe:saw_diamond>,
+	<microblockcbe:stone_rod>,
+	<primal:satetsu>,
+	<primal:satetsu:1>,
+	<primal:satetsu:2>,
+	<primal:satetsu:3>,
+	<primal:satetsu:4>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal
@@ -126,6 +136,7 @@ var removeAndHideItems as IItemStack[] = [
 	//Buildcraft
 	<buildcraftcore:spring:1>,
 	<buildcraftcore:spring>,
+	<buildcraftfactory:distiller>,
 
 	//Cooking for Blockheads
 	<cookingforblockheads:cow_jar>,

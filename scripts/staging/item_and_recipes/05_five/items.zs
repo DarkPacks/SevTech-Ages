@@ -449,6 +449,9 @@ var stage5Items as IIngredient[] = [
 	<cyclicmagic:tool_warp_home>,
 	<cyclicmagic:tool_warp_spawn>,
 	<cyclicmagic:water_spreader>,
+	<cyclicmagic:purple_leggings>,
+	<cyclicmagic:cyclic_wand_build>,
+	<cyclicmagic:soulstone>,
 
 	//Applied Energistics
 	<appliedenergistics2:cell_workbench>,
@@ -766,6 +769,15 @@ var stage5Items as IIngredient[] = [
 	<buildcrafttransport:pipe_diamond_wood_fluid>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
 	<buildcrafttransport:pipe_emzuli_item>,
+	<buildcraftsilicon:laser>,
+	<buildcraftsilicon:assembly_table>,
+	<buildcraftsilicon:advanced_crafting_table>,
+	<buildcraftsilicon:integration_table>,
+	<buildcraftsilicon:redstone_chipset>,
+	<buildcraftsilicon:redstone_chipset:1>,
+	<buildcraftsilicon:redstone_chipset:2>,
+	<buildcraftsilicon:redstone_chipset:3>,
+	<buildcraftsilicon:redstone_chipset:4>,
 
 	//Xnet
 	<xnet:advanced_connector:1>.withTag({display: {LocName: "tile.xnet.advanced_connector_red.name"}}),

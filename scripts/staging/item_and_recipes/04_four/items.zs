@@ -554,6 +554,10 @@ var stage4Items as IIngredient[] = [
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
 	<quark:rain_detector>,
+	<quark:duskbound_block>,
+	<quark:duskbound_lantern>,
+	<quark:duskbound_block_slab>,
+	<quark:duskbound_block_wall>,
 
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
@@ -581,6 +585,8 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
+	<cyclicmagic:ender_eye_orb>,
+	<cyclicmagic:corrupted_chorus>,
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
@@ -762,15 +768,6 @@ var stage4Items as IIngredient[] = [
 	<buildcraftfactory:pump>,
 	<buildcraftfactory:water_gel_spawn>,
 	<buildcraftrobotics:zone_planner>,
-	<buildcraftsilicon:advanced_crafting_table>,
-	<buildcraftsilicon:assembly_table>,
-	<buildcraftsilicon:integration_table>,
-	<buildcraftsilicon:laser>,
-	<buildcraftsilicon:redstone_chipset:1>,
-	<buildcraftsilicon:redstone_chipset:2>,
-	<buildcraftsilicon:redstone_chipset:3>,
-	<buildcraftsilicon:redstone_chipset:4>,
-	<buildcraftsilicon:redstone_chipset>,
 	<buildcrafttransport:filtered_buffer>,
 	<buildcrafttransport:pipe_cobble_power>,
 	<buildcrafttransport:pipe_gold_fluid>,
@@ -804,6 +801,7 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:wire:14>,
 	<buildcrafttransport:wire:15>,
 	<buildcrafttransport:wire>,
+	<buildcrafttransport:plug_power_adaptor>,
 
 	//Pneumatic Craft
 	<materialpart:compressed_iron:beam>,

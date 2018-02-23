@@ -440,7 +440,10 @@ var hideItems as IItemStack[] = [
 	<refinedstorage:processor:4>,
 	<refinedstorage:processor:5>,
 	<refinedstorage:processor:6>,
-	<refinedstorage:processor>
+	<refinedstorage:processor>,
+	<natura:overworld_seed_bags>,
+	<natura:overworld_seed_bags:1>
+
 ];
 
 for item in hideItems {

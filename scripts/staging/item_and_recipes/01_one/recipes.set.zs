@@ -205,6 +205,9 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:sign>,
 	<minecraft:tnt>,
 
+	//Cyclic
+	<cyclicmagic:apple>,
+
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
@@ -234,6 +237,10 @@ var itemsForStage as IIngredient[] = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
+	<quark:midori_block>,
+	<quark:midori_pillar>,
+	<quark:midori_block_slab>,
+	<quark:midori_block_wall>,
 
 	//Abyssalcraft
 	<abyssalcraft:coraxe>,
@@ -434,6 +441,9 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:single_machine:1>,
 	<betterwithmods:slats:*>,
 	<betterwithmods:vase:*>,
+	<betterwithaddons:shoji>,
+	<betterwithaddons:fusuma>,
+	<betterwithaddons:elytra_magma>,
 
 	//Bibliocraft
 	<bibliocraft:shelf:1>,

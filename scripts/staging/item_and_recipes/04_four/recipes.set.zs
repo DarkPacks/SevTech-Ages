@@ -137,6 +137,10 @@ var itemsForStage as IIngredient[] = [
 	<quark:iron_rod>,
 	<quark:purpur_block_wall>,
 	<quark:rain_detector>,
+	<quark:duskbound_block>,
+	<quark:duskbound_lantern>,
+	<quark:duskbound_block_slab>,
+	<quark:duskbound_block_wall>,
 
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
@@ -244,6 +248,8 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
+	<cyclicmagic:ender_eye_orb>,
+	<cyclicmagic:corrupted_chorus>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,
@@ -408,10 +414,6 @@ var itemsForStage as IIngredient[] = [
 	<buildcraftfactory:mining_well>,
 	<buildcraftfactory:pump>,
 	<buildcraftrobotics:zone_planner>,
-	<buildcraftsilicon:advanced_crafting_table>,
-	<buildcraftsilicon:assembly_table>,
-	<buildcraftsilicon:integration_table>,
-	<buildcraftsilicon:laser>,
 	<buildcraftsilicon:redstone_chipset:1>,
 	<buildcraftsilicon:redstone_chipset:2>,
 	<buildcraftsilicon:redstone_chipset:3>,
@@ -429,6 +431,7 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_stone_power>,
 	<buildcrafttransport:pipe_wood_power>,
 	<buildcrafttransport:plug_gate:*>,
+	<buildcrafttransport:plug_power_adaptor>,
 
 	//Pneumatic Craft
 	<pneumaticcraft:advanced_air_compressor>,

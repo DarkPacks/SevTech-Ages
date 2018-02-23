@@ -111,6 +111,9 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_enchanter>,
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
+	<cyclicmagic:purple_leggings>,
+	<cyclicmagic:cyclic_wand_build>,
+	<cyclicmagic:soulstone>,
 
 	//Iron Chest
 	<ironchest:diamond_crystal_chest_upgrade>,
@@ -593,6 +596,10 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_diamond_wood_fluid>,
 	<buildcrafttransport:pipe_diamond_wood_item>,
 	<buildcrafttransport:pipe_emzuli_item>,
+	<buildcraftsilicon:laser>,
+	<buildcraftsilicon:assembly_table>,
+	<buildcraftsilicon:advanced_crafting_table>,
+	<buildcraftsilicon:integration_table>,
 
 	//Industrial Foregoing
 	<industrialforegoing:black_hole_controller>,

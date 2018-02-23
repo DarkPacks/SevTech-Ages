@@ -263,6 +263,13 @@ var stage3Items as IIngredient[] = [
 	<quark:black_ash>,
 	<quark:glowshroom>,
 	<quark:soul_powder>,
+	<quark:magma_bricks>,
+	<quark:magma_bricks_slab>,
+	<quark:soul_sandstone>,
+	<quark:soul_sandstone:1>,
+	<quark:soul_sandstone:2>,
+	<quark:soul_sandstone_slab>,
+	<quark:quartz_wall>,
 
 	//Natura
 	<natura:clouds:1>,
@@ -305,6 +312,10 @@ var stage3Items as IIngredient[] = [
 	<natura:nether_tainted_soil:2>,
 	<natura:nether_tainted_soil>,
 	<natura:nether_thorn_vines>,
+	<natura:edibles:6>,
+	<natura:edibles:7>,
+	<natura:edibles:8>,
+	<natura:edibles:9>,
 
 	//Primal
 	<primal:ash_bin:9>,
@@ -765,6 +776,13 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
+	<betterwithaddons:japanmat:23>,
+	<betterwithaddons:japanmat:26>,
+	<betterwithaddons:japanmat:27>,
+	<betterwithaddons:japanmat:28>,
+	<betterwithaddons:japanmat:29>,
+	<betterwithaddons:japanmat:30>,
+	<betterwithaddons:bamboo>,
 
 	//Geolosys
 	<geolosys:cluster:4>,
@@ -1195,6 +1213,8 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:tool_swap>,
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:tool_launcher>,
+	<cyclicmagic:wand_hypno>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,
@@ -1308,6 +1328,7 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:transmutator>,
 	<abyssalcraft:yogsothothcharm:2>,
 	<abyssalcraft:yogsothothcharm:3>,
+	<abyssalcraft:dsglow>,
 
 	//Compressed
 	<overloaded:compressed_netherrack:*>,

@@ -10,6 +10,7 @@ var removeItems as IItemStack[] = [
 	<mob_grinding_utils:tank_sink>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
+	<cyclicmagic:sprinkler>,
 
 	//Actually Additions
 	<actuallyadditions:block_bio_reactor>,
@@ -77,6 +78,9 @@ var removeItems as IItemStack[] = [
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
+
+	//Buildcraft
+	<buildcraftbuilders:quarry>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,

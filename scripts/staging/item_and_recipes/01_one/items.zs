@@ -498,6 +498,10 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredenergypedestal:1>,
 	<abyssalcraft:tieredenergyrelay:1>,
 	<abyssalcraft:tieredsacrificialaltar:1>,
+	<abyssalcraft:depthshelmet>,
+	<abyssalcraft:depthsplate>,
+	<abyssalcraft:depthslegs>,
+	<abyssalcraft:depthsboots>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -901,6 +905,9 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
+	<betterwithaddons:shoji>,
+	<betterwithaddons:fusuma>,
+	<betterwithaddons:elytra_magma>,
 
 	//Natura
 	<natura:colored_grass:1>,
@@ -941,6 +948,7 @@ var stage1Items as IIngredient[] = [
 	<cyclicmagic:sandstone_spade>,
 	<cyclicmagic:tool_harvest_leaves>,
 	<cyclicmagic:tool_harvest_weeds>,
+	<cyclicmagic:apple>,
 
 	//Compressed
 	<overloaded:compressed_cobblestone:*>,
@@ -978,6 +986,10 @@ var stage1Items as IIngredient[] = [
 	<quark:stained_clay_tiles_white_slab>,
 	<quark:stained_clay_tiles_yellow_slab>,
 	<quark:sturdy_stone>,
+	<quark:midori_block>,
+	<quark:midori_pillar>,
+	<quark:midori_block_slab>,
+	<quark:midori_block_wall>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,

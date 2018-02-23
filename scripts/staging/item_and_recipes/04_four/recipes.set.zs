@@ -132,15 +132,15 @@ var itemsForStage as IIngredient[] = [
 
 	//Quark
 	<quark:biotite_stairs>,
+	<quark:duskbound_block>,
+	<quark:duskbound_block_slab>,
 	<quark:duskbound_block_stairs>,
+	<quark:duskbound_block_wall>,
+	<quark:duskbound_lantern>,
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
 	<quark:purpur_block_wall>,
 	<quark:rain_detector>,
-	<quark:duskbound_block>,
-	<quark:duskbound_lantern>,
-	<quark:duskbound_block_slab>,
-	<quark:duskbound_block_wall>,
 
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
@@ -228,6 +228,8 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
+	<cyclicmagic:corrupted_chorus>,
+	<cyclicmagic:ender_eye_orb>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
 	<cyclicmagic:energy_pipe>,
@@ -248,8 +250,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
-	<cyclicmagic:ender_eye_orb>,
-	<cyclicmagic:corrupted_chorus>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,

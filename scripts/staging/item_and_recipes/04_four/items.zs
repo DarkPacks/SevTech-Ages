@@ -551,13 +551,13 @@ var stage4Items as IIngredient[] = [
 	<betterwithmods:material:25>,
 
 	//Quark
+	<quark:duskbound_block>,
+	<quark:duskbound_block_slab>,
+	<quark:duskbound_block_wall>,
+	<quark:duskbound_lantern>,
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
 	<quark:rain_detector>,
-	<quark:duskbound_block>,
-	<quark:duskbound_lantern>,
-	<quark:duskbound_block_slab>,
-	<quark:duskbound_block_wall>,
 
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
@@ -567,6 +567,8 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
+	<cyclicmagic:corrupted_chorus>,
+	<cyclicmagic:ender_eye_orb>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
 	<cyclicmagic:energy_pipe>,
@@ -585,8 +587,6 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
-	<cyclicmagic:ender_eye_orb>,
-	<cyclicmagic:corrupted_chorus>,
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
@@ -784,6 +784,7 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:plug_gate:*>,
 	<buildcrafttransport:plug_lens:*>,
 	<buildcrafttransport:plug_light_sensor>,
+	<buildcrafttransport:plug_power_adaptor>,
 	<buildcrafttransport:plug_pulsar>,
 	<buildcrafttransport:wire:1>,
 	<buildcrafttransport:wire:2>,
@@ -801,7 +802,6 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:wire:14>,
 	<buildcrafttransport:wire:15>,
 	<buildcrafttransport:wire>,
-	<buildcrafttransport:plug_power_adaptor>,
 
 	//Pneumatic Craft
 	<materialpart:compressed_iron:beam>,

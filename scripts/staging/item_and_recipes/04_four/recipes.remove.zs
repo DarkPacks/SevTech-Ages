@@ -5,12 +5,12 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<betterbuilderswands:wanddiamond>,
 	<cyclicmagic:clock>,
+	<cyclicmagic:sprinkler>,
 	<immersiveengineering:metal_device0:5>,
 	<minecraft:ender_chest>,
 	<mob_grinding_utils:tank_sink>,
 	<prospectors:prospector_high>,
 	<teslacorelib:machine_case>,
-	<cyclicmagic:sprinkler>,
 
 	//Actually Additions
 	<actuallyadditions:block_bio_reactor>,

@@ -20,10 +20,45 @@
 			]
 		},
 		{
-			"id": "stage_1",
+			"id": "stage_one",
 			"lines": [
 				"§c§nWelcome to",
 				"§eStage 1"
+			]
+		},
+		{
+			"id": "stage_two",
+			"lines": [
+				"§c§nWelcome to",
+				"§eStage 2"
+			]
+		},
+		{
+			"id": "stage_three",
+			"lines": [
+				"§c§nWelcome to",
+				"§eStage 3"
+			]
+		},
+		{
+			"id": "stage_four",
+			"lines": [
+				"§c§nWelcome to",
+				"§eStage 4"
+			]
+		},
+		{
+			"id": "stage_five",
+			"lines": [
+				"§c§nWelcome to",
+				"§eStage 5"
+			]
+		},
+		{
+			"id": "stage_creative",
+			"lines": [
+				"§c§nWelcome to the",
+				"§eCreative Stage"
 			]
 		}
 	]

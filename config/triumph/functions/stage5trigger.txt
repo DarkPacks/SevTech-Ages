@@ -2,4 +2,5 @@ gamestage remove @p four_mob
 gamestage add @p five_mob
 gamestage add @p five
 summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p stage_five
 say You are Now In Stage 5

@@ -2,4 +2,5 @@ gamestage remove @p zero_mob
 gamestage add @p one_mob
 gamestage add @p one
 summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p stage_one
 say You are Now In Stage 1

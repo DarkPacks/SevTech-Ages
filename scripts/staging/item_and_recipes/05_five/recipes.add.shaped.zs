@@ -145,7 +145,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

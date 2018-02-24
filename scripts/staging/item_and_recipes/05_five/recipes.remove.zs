@@ -22,8 +22,18 @@ var removeItems as IItemStack[] = [
 	//Actually Additions
 	<actuallyadditions:block_atomic_reconstructor>,
 
+	//Mekanism
+	<mekanism:basicblock:7>,
+
 	//RFTools
-	<rftools:machine_frame>
+	<rftools:machine_frame>,
+	<rftools:machine_frame>,
+	<rftools:matter_receiver>,
+	<rftools:matter_transmitter>,
+
+	//Xnet
+	<xnet:controller>,
+	<xnet:router>
 ];
 
 for item in removeItems {

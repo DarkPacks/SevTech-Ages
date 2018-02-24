@@ -20,7 +20,10 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:harvester_block>,
 
 	//Actually Additions
-	<actuallyadditions:block_atomic_reconstructor>
+	<actuallyadditions:block_atomic_reconstructor>,
+
+	//RFTools
+	<rftools:machine_frame>
 ];
 
 for item in removeItems {

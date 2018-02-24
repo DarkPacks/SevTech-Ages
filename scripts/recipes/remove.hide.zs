@@ -77,6 +77,7 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<actuallyadditions:item_color_lens>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

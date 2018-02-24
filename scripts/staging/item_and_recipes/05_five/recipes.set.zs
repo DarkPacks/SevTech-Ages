@@ -200,7 +200,6 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_chest_crystal_red>,
 	<actuallyadditions:item_chest_crystal_white>,
 	<actuallyadditions:item_chest_emerald>,
-	<actuallyadditions:item_color_lens>,
 	<actuallyadditions:item_crystal:1>,
 	<actuallyadditions:item_crystal:2>,
 	<actuallyadditions:item_crystal:3>,
@@ -617,7 +616,6 @@ var itemsForStage as IIngredient[] = [
 	<xnet:connector:4>,
 	<xnet:connector>,
 	<xnet:connector_upgrade>,
-	<xnet:controller>,
 	<xnet:facade>,
 	<xnet:netcable:1>,
 	<xnet:netcable:2>,
@@ -626,7 +624,6 @@ var itemsForStage as IIngredient[] = [
 	<xnet:netcable>,
 	<xnet:redstone_proxy>,
 	<xnet:redstone_proxy_upd>,
-	<xnet:router>,
 	<xnet:xnet_manual>,
 
 	//Water Strainer
@@ -850,7 +847,6 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:basicblock:6>.withTag({tier: 1, mekData: {}}),
 	<mekanism:basicblock:6>.withTag({tier: 2, mekData: {}}),
 	<mekanism:basicblock:6>.withTag({tier: 3, mekData: {}}),
-	<mekanism:basicblock:7>,
 	<mekanism:basicblock:8>,
 	<mekanism:basicblock:9>,
 	<mekanism:basicblock:10>,

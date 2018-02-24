@@ -33,6 +33,8 @@ for item in ballOfFurRemovalItems {
 AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:emerald_grit>, 500000);
 AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:candy_blocks:1>, 500000);
 
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens>);
+
 /*
 	Empowerer
 

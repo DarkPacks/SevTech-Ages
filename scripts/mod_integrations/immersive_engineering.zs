@@ -66,6 +66,8 @@ Crusher.addRecipe(<pickletweaks:dye_powder:14> * 1, <rustic:wildberries>, 3000);
 Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
 Crusher.addRecipe(<pickletweaks:dye_powder> * 2, <minecraft:dye:15>, 3000);
 
+Crusher.addRecipe(<minecraft:dye> * 2, <actuallyadditions:block_black_lotus>, 3000);
+
 Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 
 Crusher.addRecipe(<betterwithmods:material:15>, <minecraft:netherrack>, 3000); //Ground netherrack

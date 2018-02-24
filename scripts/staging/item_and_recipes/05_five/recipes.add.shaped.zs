@@ -96,7 +96,56 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.compressedIron.plate, <cyclicmagic:placer_block>, metals.compressedIron.plate],
 			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
 		]
+	],
+
+	//Xnet
+	<xnet:controller>: [
+		[
+			[metals.nickel.plate, <mekanism:transmitter>, metals.nickel.plate],
+			[metals.redstoneAlloy.plate, <teslacorelib:machine_case>, metals.redstoneAlloy.plate],
+			[metals.nickel.plate, <galacticraftplanets:item_basic_mars:5>, metals.nickel.plate]
+		]
+	],
+	<xnet:router>: [
+		[
+			[metals.aluminum.plate, <xnet:netcable>, metals.aluminum.plate],
+			[<xnet:netcable>, <rftools:machine_frame>, <xnet:netcable>],
+			[metals.aluminum.plate, <xnet:netcable>, metals.aluminum.plate]
+		]
+	],
+
+	//Rftools
+	<rftools:matter_transmitter>: [
+		[
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore>, <galacticraftplanets:item_basic_mars:5>],
+			[<galacticraftcore:cheese_curd>, <rftools:machine_frame>, <galacticraftcore:cheese_curd>],
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate]
+		]
+	],
+	<rftools:matter_receiver>: [
+		[
+			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
+			[<galacticraftcore:cheese_curd>, <rftools:machine_frame>, <galacticraftcore:cheese_curd>],
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore>, <galacticraftplanets:item_basic_mars:5>]
+		]
+	],
+	<rftools:machine_frame>: [
+		[
+			[metals.invar.rod, <pneumaticcraft:plastic:8>, metals.invar.rod],
+			[<pneumaticcraft:plastic:8>, null, <pneumaticcraft:plastic:8>],
+			[metals.invar.rod, <pneumaticcraft:plastic:8>, metals.invar.rod]
+		]
+	],
+
+	//Mekanism
+	<mekanism:basicblock:7> * 4: [
+		[
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:ingot>, <galacticraftplanets:item_basic_mars:5>],
+			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
+			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

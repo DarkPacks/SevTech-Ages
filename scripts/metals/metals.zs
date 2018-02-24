@@ -1,4 +1,5 @@
 #priority 100
+
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
@@ -302,37 +303,9 @@ for metalName, metal in metals {
 
 	//Stage liquid containers
 	if (metalStage != "" & hasLiquid) {
-		var liquidContainers as IItemStack[] = [
-			<ceramics:clay_bucket>,
-			<forge:bucketfilled>,
-			<thebetweenlands:bl_bucket:1>,
-			<thebetweenlands:bl_bucket>
-		];
-
-		for liquidContainer in liquidContainers {
-			var data as IData = null;
-			if (liquidContainer.matches(<ceramics:clay_bucket>)) {
-				data = {
-					fluids: {
-						FluidName: metalLiquid.name,
-						Amount: 1000
-					}
-				};
-			} else if (liquidContainer.matches(<thebetweenlands:bl_bucket:1>) | liquidContainer.matches(<thebetweenlands:bl_bucket>)) {
-				data = {
-					Fluid: {
-						FluidName: metalLiquid.name,
-						Amount: 1000
-					}
-				};
-			} else {
-				data = {
-					FluidName: metalLiquid.name,
-					Amount: 1000
-				};
-			}
-
-			mods.ItemStages.addItemStage(metalStage, liquidContainer.withTag(data));
+		for bucket in buckets {
+			var filledBucket as IItemStack = scripts.utils.formatBucket(bucket, metalLiquid.name);
+			mods.ItemStages.addItemStage(metalStage, filledBucket);
 		}
 	}
 

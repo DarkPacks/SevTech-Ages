@@ -45,3 +45,11 @@ global stick as IItemStack = <ore:stickWood>.firstItem;
 global stone as IItemStack = <minecraft:stone>;
 global str as IItemStack = <minecraft:string>;
 global wool as IOreDictEntry = <ore:wool>;
+
+//The filled bucket "main" item
+global buckets as IItemStack[] = [
+	<ceramics:clay_bucket>,
+	<forge:bucketfilled>,
+	<thebetweenlands:bl_bucket:1>,
+	<thebetweenlands:bl_bucket>
+];

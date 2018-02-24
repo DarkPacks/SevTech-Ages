@@ -218,8 +218,6 @@ for i in 0 to 16 {
 <ore:torch>.add(<primal_tech:fibre_torch>);
 <ore:torch>.add(<primal_tech:fibre_torch_lit>);
 
-<ore:dyeBrown>.remove(<betterwithmods:material:5>);
-
 <ore:dung>.remove(<betterwithmods:material:5>);
 
 <ore:cordageGeneral>.remove(<primal:silk_cordage>);
@@ -262,11 +260,23 @@ for i in 0 to 16 {
 <ore:dyeBlack>.remove(<actuallyadditions:item_misc:17>);
 <ore:dyeBlack>.remove(<minecraft:dye>);
 <ore:dyeBlack>.remove(<nex:item_dust_wither>);
+<ore:dyeBlack>.remove(<nex:item_dust_wither>);
 <ore:dyeBlack>.remove(<primal:netherwax_clump>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
+<ore:dyeBrown>.remove(<betterwithmods:material:5>);
+<ore:dyeBrown>.remove(<industrialforegoing:fertilizer>);
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
 <ore:dyeBrown>.remove(<primal:earthwax_clump>);
+<ore:dyeCyan>.remove(<minecraft:dye:6>);
+<ore:dyeGray>.remove(<minecraft:dye:8>);
 <ore:dyeGreen>.remove(<minecraft:dye:2>);
+<ore:dyeLightBlue>.remove(<minecraft:dye:12>);
+<ore:dyeLightGray>.remove(<minecraft:dye:7>);
+<ore:dyeLime>.remove(<minecraft:dye:10>);
+<ore:dyeMagenta>.remove(<minecraft:dye:13>);
+<ore:dyeOrange>.remove(<minecraft:dye:14>);
+<ore:dyePink>.remove(<minecraft:dye:9>);
+<ore:dyePurple>.remove(<minecraft:dye:5>);
 <ore:dyePurple>.remove(<primal:sinuous_resin>);
 <ore:dyeRed>.remove(<minecraft:dye:1>);
 <ore:dyeRed>.remove(<rustic:wildberries>);

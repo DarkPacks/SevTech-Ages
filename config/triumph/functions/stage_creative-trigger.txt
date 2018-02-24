@@ -1,0 +1,6 @@
+gamestage remove @p five_mob
+gamestage add @p creative_mob
+gamestage add @p creative
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p stage_creative
+say You are Now In The Creative Stage

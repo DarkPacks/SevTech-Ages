@@ -11,6 +11,7 @@ var stageTutorialItems as IIngredient[] = [
 	<betterwithmods:cooked_mystery_meat>,
 	<betterwithmods:mystery_meat>,
 	<cyclicmagic:sleeping_mat>,
+	<horsepower:chopping_block:*>,
 	<horsepower:chopping_block>,
 	<immcraft:chest>,
 	<immcraft:rock>,

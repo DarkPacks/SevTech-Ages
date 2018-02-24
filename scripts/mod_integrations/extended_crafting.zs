@@ -56,6 +56,19 @@ TableCrafting.addShaped(<teslacorelib:machine_case>,
 	]
 );
 
+//Atomic Reconstructor
+TableCrafting.addShaped(<actuallyadditions:block_atomic_reconstructor>,
+	[
+		[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
+		[metals.compressedIron.plate, <quark:biotite>, <minecraft:obsidian>, <appliedenergistics2:material:18>, <minecraft:obsidian>, <quark:biotite>, metals.compressedIron.plate],
+		[metals.compressedIron.plate, <minecraft:dye:4>, metals.redstoneAlloy.plate, <galacticraftplanets:item_basic_mars:5>, metals.redstoneAlloy.plate, <minecraft:ice>, metals.compressedIron.plate],
+		[<actuallyadditions:item_battery_triple>, <minecraft:lapis_block>, <appliedenergistics2:material:16>, <teslacorelib:machine_case>, <appliedenergistics2:material:1>, <buildcraftsilicon:laser>, <minecraft:emerald>],
+		[metals.compressedIron.plate, <minecraft:dye:4>, metals.redstoneAlloy.plate, <galacticraftplanets:item_basic_mars:5>, metals.redstoneAlloy.plate, <minecraft:ice>, metals.compressedIron.plate],
+		[metals.compressedIron.plate, <quark:biotite>, <minecraft:obsidian>, <appliedenergistics2:material:17>, <minecraft:obsidian>, <quark:biotite>, metals.compressedIron.plate],
+		[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
+	]
+);
+
 /*
 	Ender Crafting
 

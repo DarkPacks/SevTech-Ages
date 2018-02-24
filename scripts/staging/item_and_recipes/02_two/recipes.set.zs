@@ -25,8 +25,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:stone_minecart>,
 	<extendedcrafting:handheld_table>,
 	<pneumaticcraft:liquid_hopper>,
-	<quark:glass_item_frame>,
-	<quark:stonebrick_wall>,
 	<yoyos:book>,
 
 	/*
@@ -86,10 +84,27 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:writable_book>,
 
 	//AbyssalCraft
+	<abyssalcraft:aaxe>,
+	<abyssalcraft:aboots>,
+	<abyssalcraft:abybrick:1>,
+	<abyssalcraft:abyslab1>,
+	<abyssalcraft:abyssalnomicon>,
+	<abyssalcraft:abystairs>,
+	<abyssalcraft:ahelmet>,
 	<abyssalcraft:ahoe>,
+	<abyssalcraft:alegs>,
+	<abyssalcraft:apick>,
+	<abyssalcraft:aplate>,
+	<abyssalcraft:ashovel>,
+	<abyssalcraft:asword>,
 	<abyssalcraft:corbow>,
 	<abyssalcraft:corhoe>,
+	<abyssalcraft:crystalbag_large>,
 	<abyssalcraft:crystallizer>,
+	<abyssalcraft:cstonebrick:1>,
+	<abyssalcraft:cstonebrick>,
+	<abyssalcraft:cstonebrickslab1>,
+	<abyssalcraft:cstonebrickstairs>,
 	<abyssalcraft:drainstaff>,
 	<abyssalcraft:dreadblade>,
 	<abyssalcraft:dreadbrick:1>,
@@ -122,16 +137,19 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:ethaxiumboots>,
 	<abyssalcraft:ethaxiumhelmet>,
 	<abyssalcraft:ethaxiumhoe>,
-	<abyssalcraft:ethaxiumhoe>,
 	<abyssalcraft:ethaxiumlegs>,
 	<abyssalcraft:ethaxiumpickaxe>,
 	<abyssalcraft:ethaxiumplate>,
 	<abyssalcraft:ethaxiumshovel>,
 	<abyssalcraft:ethaxiumsword>,
 	<abyssalcraft:materializer>,
+	<abyssalcraft:necronomicon_dre>,
+	<abyssalcraft:necronomicon_omt>,
 	<abyssalcraft:oblivionshard>,
 	<abyssalcraft:odb>,
+	<abyssalcraft:powerstonetracker>,
 	<abyssalcraft:skin:1>,
+	<abyssalcraft:skin:2>,
 
 	//Better With Mods
 	<betterwithaddons:bolt:2>,
@@ -191,6 +209,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Cyclic
 	<cyclicmagic:glove_climb>,
+	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:trash>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,
@@ -422,7 +442,13 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:sneaky_obsidian>,
 	<darkutils:sneaky_plate>,
 	<darkutils:sneaky_torch>,
-	<darkutils:trap_move>
+	<darkutils:trap_move>,
+
+	//Quark
+	<quark:brick_wall>,
+	<quark:glass_item_frame>,
+	<quark:paper_wall>,
+	<quark:stonebrick_wall>
 
 ];
 

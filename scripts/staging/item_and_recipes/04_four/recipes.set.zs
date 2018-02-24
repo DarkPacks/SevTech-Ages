@@ -132,7 +132,11 @@ var itemsForStage as IIngredient[] = [
 
 	//Quark
 	<quark:biotite_stairs>,
+	<quark:duskbound_block>,
+	<quark:duskbound_block_slab>,
 	<quark:duskbound_block_stairs>,
+	<quark:duskbound_block_wall>,
+	<quark:duskbound_lantern>,
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
 	<quark:purpur_block_wall>,
@@ -224,6 +228,8 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
+	<cyclicmagic:corrupted_chorus>,
+	<cyclicmagic:ender_eye_orb>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
 	<cyclicmagic:energy_pipe>,
@@ -408,10 +414,6 @@ var itemsForStage as IIngredient[] = [
 	<buildcraftfactory:mining_well>,
 	<buildcraftfactory:pump>,
 	<buildcraftrobotics:zone_planner>,
-	<buildcraftsilicon:advanced_crafting_table>,
-	<buildcraftsilicon:assembly_table>,
-	<buildcraftsilicon:integration_table>,
-	<buildcraftsilicon:laser>,
 	<buildcraftsilicon:redstone_chipset:1>,
 	<buildcraftsilicon:redstone_chipset:2>,
 	<buildcraftsilicon:redstone_chipset:3>,
@@ -429,6 +431,7 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_stone_power>,
 	<buildcrafttransport:pipe_wood_power>,
 	<buildcrafttransport:plug_gate:*>,
+	<buildcrafttransport:plug_power_adaptor>,
 
 	//Pneumatic Craft
 	<pneumaticcraft:advanced_air_compressor>,

@@ -1,6 +1,6 @@
 {
-  "loadOnLogin": true,
-  "mustRead": true,
+  "loadOnLogin": false,
+  "mustRead": false,
   "pages": [
     {
       "title": "Getting Started",

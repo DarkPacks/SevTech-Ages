@@ -42,6 +42,10 @@ var removeAndHideItems as IItemStack[] = [
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
 	<ironbackpacks:upgrade>,
+	<microblockcbe:saw_diamond>,
+	<microblockcbe:saw_iron>,
+	<microblockcbe:saw_stone>,
+	<microblockcbe:stone_rod>,
 	<minecraft:wooden_axe>,
 	<minecraft:wooden_hoe>,
 	<minecraft:wooden_pickaxe>,
@@ -50,6 +54,12 @@ var removeAndHideItems as IItemStack[] = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<pickletweaks:grass_fiber>,
+	<pickletweaks:reinforced_mesh>,
+	<primal:satetsu:1>,
+	<primal:satetsu:2>,
+	<primal:satetsu:3>,
+	<primal:satetsu:4>,
+	<primal:satetsu>,
 	<primal:soul_stone>,
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
@@ -126,6 +136,7 @@ var removeAndHideItems as IItemStack[] = [
 	//Buildcraft
 	<buildcraftcore:spring:1>,
 	<buildcraftcore:spring>,
+	<buildcraftfactory:distiller>,
 
 	//Cooking for Blockheads
 	<cookingforblockheads:cow_jar>,

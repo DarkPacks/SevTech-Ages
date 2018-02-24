@@ -30,9 +30,8 @@ for item in ballOfFurRemovalItems {
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/ActuallyAdditions/AtomicReconstructor/
 */
-//TODO: The mod SHOULD be updating to allow a higher energy requirement for the reconstructor. This value needs to be increased to 500k at that time
-AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:emerald_grit>, 250000);
-AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:candy_blocks:1>, 250000);
+AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:emerald_grit>, 500000);
+AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:candy_blocks:1>, 500000);
 
 /*
 	Empowerer

@@ -1,0 +1,16 @@
+{
+  "buildcraftlib:base": {
+    "debugging_is_enabled": {
+      "boolean": false
+    },
+    "debugging_is_shown": {
+      "boolean": false
+    },
+    "ledger.help.is_open": {
+      "boolean": true
+    },
+    "ledger.owner.is_open": {
+      "boolean": false
+    }
+  }
+}

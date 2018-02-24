@@ -162,6 +162,8 @@ var hideItems as IItemStack[] = [
 	<natura:overworld_berrybush_blueberry>,
 	<natura:overworld_berrybush_maloberry>,
 	<natura:overworld_berrybush_raspberry>,
+	<natura:overworld_seed_bags:1>,
+	<natura:overworld_seed_bags>,
 	<natura:overworld_workbenches:1>,
 	<natura:overworld_workbenches:2>,
 	<natura:overworld_workbenches:3>,

@@ -205,6 +205,9 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:sign>,
 	<minecraft:tnt>,
 
+	//Cyclic
+	<cyclicmagic:apple>,
+
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
@@ -213,6 +216,10 @@ var itemsForStage as IIngredient[] = [
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,
 	<quark:jungle_trapdoor>,
+	<quark:midori_block>,
+	<quark:midori_block_slab>,
+	<quark:midori_block_wall>,
+	<quark:midori_pillar>,
 	<quark:polished_stone>,
 	<quark:sandy_bricks>,
 	<quark:spruce_trapdoor>,
@@ -394,10 +401,13 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:crate:11>,
 	<betterwithaddons:crate:*>,
 	<betterwithaddons:crate>,
+	<betterwithaddons:elytra_magma>,
+	<betterwithaddons:fusuma>,
 	<betterwithaddons:inverted_gearbox>,
 	<betterwithaddons:japanmat:10>,
 	<betterwithaddons:loom>,
 	<betterwithaddons:scaffold>,
+	<betterwithaddons:shoji>,
 	<betterwithaddons:weight_stone>,
 	<betterwithaddons:weight_wood>,
 	<betterwithmods:aesthetic:4>,

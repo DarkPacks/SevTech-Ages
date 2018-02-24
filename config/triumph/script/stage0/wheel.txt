@@ -1,8 +1,8 @@
 setIcon("astikoor:wheel")
 
-setTitle("§5§l§nThe Wheels on the Bus")
+setTitle("§5§lThe Wheels on the Bus")
 
-setDescription("You have invented... The Wheel!")
+setDescription("Craft the wheel from Astikoor")
 
 setParent("triumph:stage0/saddle")
 setRequiresParent(true)

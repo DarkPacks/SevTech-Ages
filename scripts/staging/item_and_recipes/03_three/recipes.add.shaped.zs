@@ -1077,6 +1077,8 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
 		]
 	],
+
+	//Cyclic
 	<cyclicmagic:placer_block> : [
 		[
 			[stone, <minecraft:dispenser>, stone],
@@ -1089,6 +1091,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate],
 			[metals.redstoneAlloy.plate, <minecraft:quartz_block>, metals.redstoneAlloy.plate],
 			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate]
+		]
+	],
+	<cyclicmagic:sprinkler> : [
+		[
+			[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"}), <darkutils:grate>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})],
+			[metals.aluminum.plate, <immersiveengineering:metal_device1:6>,metals.aluminum.plate],
+			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
 		]
 	]
 };

@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<betterbuilderswands:wanddiamond>,
 	<cyclicmagic:clock>,
+	<cyclicmagic:sprinkler>,
 	<immersiveengineering:metal_device0:5>,
 	<minecraft:ender_chest>,
 	<mob_grinding_utils:tank_sink>,
@@ -77,6 +78,9 @@ var removeItems as IItemStack[] = [
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:table_elite>,
+
+	//Buildcraft
+	<buildcraftbuilders:quarry>,
 
 	//Inductive Logistics
 	<indlog:buffer:1>,

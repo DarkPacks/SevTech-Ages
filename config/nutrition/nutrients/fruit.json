@@ -289,7 +289,11 @@
       "thebetweenlands:sap_jello",
       "thebetweenlands:forbidden_fig",
       "galacticraftcore:basic_item:15",
-      "galacticraftcore:basic_item:17"
+      "galacticraftcore:basic_item:17",
+      "natura:edibles:6",
+      "natura:edibles:7",
+      "natura:edibles:8",
+      "natura:edibles:9"
     ]
   }
 }

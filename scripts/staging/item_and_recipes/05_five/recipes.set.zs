@@ -109,7 +109,10 @@ var itemsForStage as IIngredient[] = [
 	//Cyclic
 	<cyclicmagic:auto_crafter>,
 	<cyclicmagic:block_enchanter>,
+	<cyclicmagic:cyclic_wand_build>,
 	<cyclicmagic:horse_upgrade_health>,
+	<cyclicmagic:purple_leggings>,
+	<cyclicmagic:soulstone>,
 	<cyclicmagic:spikes_diamond>,
 
 	//Iron Chest
@@ -587,6 +590,10 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorageaddons:wireless_crafting_grid>,
 
 	//Buildcraft
+	<buildcraftsilicon:advanced_crafting_table>,
+	<buildcraftsilicon:assembly_table>,
+	<buildcraftsilicon:integration_table>,
+	<buildcraftsilicon:laser>,
 	<buildcrafttransport:pipe_daizuli_item>,
 	<buildcrafttransport:pipe_diamond_fluid>,
 	<buildcrafttransport:pipe_diamond_item>,

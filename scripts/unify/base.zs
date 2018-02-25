@@ -96,3 +96,5 @@ unifyWithPreferredItem(<ore:stickWood>, <minecraft:stick>, null);
 unifyWithPreferredItem(<ore:dustCoal>, <betterwithmods:material:18>, null);
 unifyWithPreferredItem(<ore:dustWood>, <betterwithmods:material:22>, null);
 unifyWithPreferredItem(<ore:pulpWood>, <betterwithmods:material:22>, null);
+unifyWithPreferredItem(<ore:dustDiamond>, <mekanism:otherdust>, null);
+unifyWithPreferredItem(<ore:dustEmerald>, null, null);

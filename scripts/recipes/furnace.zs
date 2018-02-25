@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
-var outputToRemove as IItemStack[] = [
+var outputToRemove as IIngredient[] = [
 	<abyssalcraft:friedegg>,
 	<actuallyadditions:item_food:15>,
 	<actuallyadditions:item_misc:5>,
@@ -22,16 +23,18 @@ for item in outputToRemove {
 	furnace.remove(item);
 }
 
-var recipesToAdd as IItemStack[][] = [
-	[<actuallyadditions:item_misc:5> ,<actuallyadditions:item_dust:7>],
-	[<minecraft:bread>, <horsepower:dough>],
-	[<primal:shark_meat_cooked>, <primal:shark_meat_raw>],
-	[<progressiontweaks:flat_bread>, <horsepower:flour>],
-	[<quark:glass_shards>, <betterwithmods:red_sand_pile>],
-	[<quark:glass_shards>, <betterwithmods:sand_pile>],
-	[<ore:ingotSpacePlatinum>.firstItem, <ore:oreSpacePlatinum>.firstItem]
+var recipesToAdd as IIngredient[][IItemStack] = [
+	<actuallyadditions:item_misc:5>: [<actuallyadditions:item_dust:7>],
+	<minecraft:bread>: [<horsepower:dough>],
+	<primal:shark_meat_cooked>: [<primal:shark_meat_raw>],
+	<progressiontweaks:flat_bread>: [<horsepower:flour>],
+	<quark:glass_shards>: [<betterwithmods:red_sand_pile>],
+	<quark:glass_shards>: [<betterwithmods:sand_pile>],
+	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>]
 ];
 
-for items in recipesToAdd {
-	furnace.addRecipe(items[0], items[1]);
+for output, inputs in recipesToAdd {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

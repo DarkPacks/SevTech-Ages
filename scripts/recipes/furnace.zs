@@ -25,7 +25,7 @@ for item in outputToRemove {
 	furnace.remove(item);
 }
 
-var recipesToAdd as IIngredient[][IItemStack] = [
+var recipesToAdd as IIngredient[][IItemStack] = {
 	<actuallyadditions:item_misc:5>: [<actuallyadditions:item_dust:7>],
 	<minecraft:bread>: [<horsepower:dough>],
 	<primal:shark_meat_cooked>: [<primal:shark_meat_raw>],
@@ -33,7 +33,7 @@ var recipesToAdd as IIngredient[][IItemStack] = [
 	<quark:glass_shards>: [<betterwithmods:red_sand_pile>],
 	<quark:glass_shards>: [<betterwithmods:sand_pile>],
 	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>]
-];
+};
 
 for output, inputs in recipesToAdd {
 	for input in inputs {

@@ -16,6 +16,8 @@ var outputToRemove as IIngredient[] = [
 	<minecraft:glass>, //Glass Revamp
 	<minecraft:leather>,
 	<minecraft:netherbrick>,
+	<minecraft:diamond>,
+	<minecraft:emerald>,
 	<primal:carbonate_stone>
 ];
 

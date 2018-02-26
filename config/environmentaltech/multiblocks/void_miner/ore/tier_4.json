@@ -40,7 +40,7 @@
       "target": "white",
       "weight": 48,
       "count": 1,
-      "id": "OD:oreIron"
+      "id": "geolosys:cluster"
     },
     {
       "target": "white",
@@ -64,7 +64,7 @@
       "target": "yellow",
       "weight": 19,
       "count": 1,
-      "id": "OD:oreGold"
+      "id": "geolosys:cluster:1"
     },
     {
       "target": "cyan",

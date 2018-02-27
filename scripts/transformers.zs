@@ -2,7 +2,7 @@
 
 import crafttweaker.item.IItemTransformerNew;
 
-static shearsTransformFunction as IItemTransformerNew = function(item, player) {
+static shearsTransformFunction as IItemTransformerNew = function(item) {
 	if (item.hasContainerItem) {
 		return item.containerItem;
 	}

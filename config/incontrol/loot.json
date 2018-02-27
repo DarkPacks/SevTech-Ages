@@ -352,6 +352,14 @@
     "random": 0.5
   },
   {
+    "mob": "Bat",
+    "remove": "actuallyadditions:item_misc@15"
+  },
+  {
+    "mob": "WitherSkeleton",
+    "remove": "quark:black_ash"
+  },
+  {
     "mob": "Zombie",
     "item": "minecraft:bone",
     "random": 0.40
@@ -404,7 +412,6 @@
     "mob": "nex:monster_spinout",
     "remove": "minecraft:quartz"
   },
-
   {
     "mob": "twilightforest:skeleton_druid",
     "item": "twilightforest:transformation_powder",

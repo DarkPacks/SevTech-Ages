@@ -151,7 +151,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:block_furnace_double> : [
 		[
 			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
-			[<actuallyadditions:block_coal_generator>, <teslacorelib:machine_case>, <actuallyadditions:block_coal_generator>],
+			[<tconstruct:seared_furnace_controller>, <actuallyadditions:block_coal_generator>, <tconstruct:seared_furnace_controller>],
 			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
 		]
 	],

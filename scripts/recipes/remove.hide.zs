@@ -78,6 +78,7 @@ var hideItems as IItemStack[] = [
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
 	<actuallyadditions:item_color_lens>,
+	<actuallyadditions:item_misc:15>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

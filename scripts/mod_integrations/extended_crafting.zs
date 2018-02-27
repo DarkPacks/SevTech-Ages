@@ -69,6 +69,64 @@ TableCrafting.addShaped(<actuallyadditions:block_atomic_reconstructor>,
 	]
 );
 
+//==================================
+//Creative Items
+TableCrafting.addShaped(<tconstruct:materials:50>,
+	[
+		[<ore:slimecrystal>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:slimecrystal>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:slimecrystal>],
+		[<ore:cast>, <ore:slimecrystal>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:59>, <mob_grinding_utils:saw_upgrade:1>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:59>, <ore:slimecrystal>, <ore:cast>],
+		[<ore:cast>, <tconstruct:fancy_frame:4>, <extendedcrafting:singularity:3>, <ore:boneWithered>, <mob_grinding_utils:saw_upgrade:5>, <ore:boneWithered>, <extendedcrafting:singularity:2>, <tconstruct:fancy_frame:4>, <ore:cast>],
+		[<ore:cast>, <abyssalcraft:oblivionshard>, <tconstruct:materials:19>, <tconstruct:materials:16>, <ore:compressedDesh>, <tconstruct:materials:16>, <tconstruct:materials:19>, <abyssalcraft:oblivionshard>, <ore:cast>],
+		[<ore:slimecrystal>, <mob_grinding_utils:saw_upgrade:1>, <mob_grinding_utils:saw_upgrade:5>, <ore:compressedDesh>, <trumpetskeleton:trumpet>, <ore:compressedDesh>, <mob_grinding_utils:saw_upgrade:5>, <mob_grinding_utils:saw_upgrade:1>, <ore:slimecrystal>],
+		[<ore:cast>, <abyssalcraft:oblivionshard>, <tconstruct:materials:19>, <tconstruct:materials:16>, <ore:compressedDesh>, <tconstruct:materials:16>, <tconstruct:materials:19>, <abyssalcraft:oblivionshard>, <ore:cast>],
+		[<ore:cast>, <tconstruct:fancy_frame:4>, <extendedcrafting:singularity>, <ore:boneWithered>, <mob_grinding_utils:saw_upgrade:5>, <ore:boneWithered>, <extendedcrafting:singularity:4>, <tconstruct:fancy_frame:4>, <ore:cast>],
+		[<ore:cast>, <ore:slimecrystal>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:59>, <mob_grinding_utils:saw_upgrade:1>, <stevescarts:modulecomponents:59>, <stevescarts:modulecomponents:59>, <ore:slimecrystal>, <ore:cast>],
+		[<ore:slimecrystal>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:slimecrystal>, <ore:cast>, <ore:cast>, <ore:cast>, <ore:slimecrystal>]
+	]
+);
+
+TableCrafting.addShaped(<ironjetpacks:creative_jetpack>,
+	[
+		[<thebetweenlands:items_misc:3>, <thebetweenlands:items_misc:3>, <thebetweenlands:items_misc:3>, <minecraft:skull:5>, <mekanism:armoredjetpack>, <minecraft:skull:5>, <thebetweenlands:items_misc:3>, <thebetweenlands:items_misc:3>, <thebetweenlands:items_misc:3>],
+		[<thebetweenlands:chiromaw_wing>, <thebetweenlands:chiromaw_wing>, <thebetweenlands:chiromaw_wing>, <extraplanets:wafer:1>, <extendedcrafting:singularity:34>, <extraplanets:wafer:1>, <thebetweenlands:chiromaw_wing>, <thebetweenlands:chiromaw_wing>, <thebetweenlands:chiromaw_wing>],
+		[null, <minecraft:elytra>, <mysticalagriculture:supremium_chestplate>, <extraplanets:wafer:1>, <extendedcrafting:singularity:24>, <extraplanets:wafer:1>, <mysticalagriculture:supremium_chestplate>, <minecraft:elytra>, null],
+		[null, <ore:jetpackTier2>, <mysticalagriculture:supremium_chestplate>, <extraplanets:wafer:1>, <extendedcrafting:singularity:18>, <extraplanets:wafer:1>, <mysticalagriculture:supremium_chestplate>, <ore:jetpackTier2>, null],
+		[<ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship_v1>, null, <ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>],
+		[<ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship_v2>, null, <ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell>, <ore:ingotAstralStarmetal>],
+		[<actuallyadditions:item_leaf_blower_advanced>, <ironjetpacks:creative_cell>, <actuallyadditions:item_leaf_blower_advanced>, null, <vc:airships/item_airship_v3>, null, <actuallyadditions:item_leaf_blower_advanced>, <ironjetpacks:creative_cell>, <actuallyadditions:item_leaf_blower_advanced>],
+		[<actuallyadditions:item_leaf_blower_advanced>, <ironjetpacks:creative_cell>, <actuallyadditions:item_leaf_blower_advanced>, null, <vc:airships/item_airship_v4>, null, <actuallyadditions:item_leaf_blower_advanced>, <ironjetpacks:creative_cell>, <actuallyadditions:item_leaf_blower_advanced>],
+		[null, <ironjetpacks:creative_thruster>, null, null, null, null, null, <ironjetpacks:creative_thruster>, null]
+	]
+);
+
+TableCrafting.addShaped(<ironjetpacks:creative_thruster>,
+	[
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:emerald_capacitor>, <ironjetpacks:creative_cell>, <ironjetpacks:emerald_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:emerald_capacitor>, <ironjetpacks:creative_cell>, <ironjetpacks:emerald_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:electrum_capacitor>, <ironjetpacks:emerald_cell>, <ironjetpacks:electrum_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:diamond_capacitor>, <ironjetpacks:diamond_cell>, <ironjetpacks:diamond_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:diamond_capacitor>, <ironjetpacks:diamond_cell>, <ironjetpacks:diamond_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:diamond_capacitor>, <ironjetpacks:emerald_cell>, <ironjetpacks:diamond_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:electrum_capacitor>, <ironjetpacks:creative_cell>, <ironjetpacks:electrum_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, null, <mekanism:transmitter:1>, <ironjetpacks:emerald_capacitor>, <ironjetpacks:creative_cell>, <ironjetpacks:emerald_capacitor>, <mekanism:transmitter:1>, null, null],
+		[null, <pneumaticcraft:vortex_tube>, <extraplanets:tier8_items>, <pneumaticcraft:vortex_tube>, null, <pneumaticcraft:vortex_tube>, <extraplanets:tier8_items>, <pneumaticcraft:vortex_tube>, null]
+	]
+);
+
+TableCrafting.addShaped(<ironjetpacks:creative_cell>,
+	[
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null],
+		[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null]
+	]
+);
+
 /*
 	Ender Crafting
 
@@ -124,7 +182,7 @@ for pair in compressionCraftingPairs {
 	var isNetherrack = pair[1].matches(<minecraft:netherrack>);
 
 	//Loop i = 0 through 15 (doesnt do 16)
-    for i in 0 to 16 {
+	for i in 0 to 16 {
 		var output = pair[0].definition.makeStack(i);
 		var input = pair[1];
 

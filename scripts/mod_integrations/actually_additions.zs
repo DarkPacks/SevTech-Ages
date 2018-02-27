@@ -30,8 +30,9 @@ for item in ballOfFurRemovalItems {
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/ActuallyAdditions/AtomicReconstructor/
 */
-AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:emerald_grit>, 500000);
-AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:candy_blocks:1>, 500000);
+AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:saturn:12>, 500000);
+
+AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens>);
 
 /*
 	Empowerer
@@ -39,6 +40,6 @@ AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:cand
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/ActuallyAdditions/Empowerer/
 */
 Empowerer.addRecipe(<mysticalagriculture:crafting:5> * 4, <minecraft:prismarine_shard>,
-	<stevescarts:modulecomponents:45>, <extraplanets:jupiter:4>, <mysticalagriculture:crafting>, <extraplanets:diamond_grit>,
+	<stevescarts:modulecomponents:45>, <extraplanets:jupiter:4>, <mysticalagriculture:crafting>, <extraplanets:neptune:6>,
 	5000, 200,  [0.698, 0.870, 0.960]
 );

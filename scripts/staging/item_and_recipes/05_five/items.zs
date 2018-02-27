@@ -193,7 +193,6 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:item_chest_crystal_red>,
 	<actuallyadditions:item_chest_crystal_white>,
 	<actuallyadditions:item_chest_emerald>,
-	<actuallyadditions:item_color_lens>,
 	<actuallyadditions:item_crystal:1>,
 	<actuallyadditions:item_crystal:2>,
 	<actuallyadditions:item_crystal:3>,

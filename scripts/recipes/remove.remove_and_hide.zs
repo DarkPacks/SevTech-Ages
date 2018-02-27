@@ -13,6 +13,7 @@ var removeAndHideItems as IItemStack[] = [
 	<actuallyadditions:item_misc:10>,
 	<actuallyadditions:item_misc:11>,
 	<actuallyadditions:item_misc:17>,
+	<actuallyadditions:item_wings_of_the_bats>,
 	<advancedmortars:mortar:2>,
 	<advancedmortars:mortar:3>,
 	<betterwithaddons:bolt:3>,

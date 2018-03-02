@@ -42,6 +42,10 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 				scripts.unify.supported_mods.jei.removeFromAll(item, liquid);
 			}
 
+			if (loadedMods.contains("mekanism")) {
+				scripts.unify.supported_mods.mekanism.removeFromAll(item, liquid);
+			}
+
 			if (loadedMods.contains("tconstruct")) {
 				scripts.unify.supported_mods.tconstruct.removeFromAll(item, liquid);
 			}

@@ -90,7 +90,6 @@ Crusher.addRecipe(<ore:dustObsidian>.firstItem, <ore:obsidian>, 3000); //Obsidia
 
 Crusher.addRecipe(<horsepower:flour>, <minecraft:wheat>, 3000); //Wheat to Flour
 
-
 /*
 	Arc Furnace
 */

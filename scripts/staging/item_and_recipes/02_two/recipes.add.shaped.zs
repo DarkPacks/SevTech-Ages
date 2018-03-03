@@ -547,7 +547,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

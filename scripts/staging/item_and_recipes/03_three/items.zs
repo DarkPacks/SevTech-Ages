@@ -23,6 +23,10 @@ var stage3Items as IIngredient[] = [
 	<fat_cat:top_hat>,
 	<industrialforegoing:plastic>,
 	<ironchest:iron_chest:6>,
+	<nex:slab_basalt_double:1>,
+	<nex:slab_basalt_double:2>,
+	<nex:slab_basalt_double:3>,
+	<nex:slab_basalt_double>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,
 
@@ -95,10 +99,6 @@ var stage3Items as IIngredient[] = [
 	<nex:slab_brick_nether_double:3>,
 	<nex:slab_brick_nether_double>,
 	<nex:slab_vanilla_double>,
-	<nex:slab_basalt_double>,
-	<nex:slab_basalt_double:1>,
-	<nex:slab_basalt_double:2>,
-	<nex:slab_basalt_double:3>,
 	<primal:aconite_root>,
 	<primal:armor_ovis_body>,
 	<primal:armor_ovis_feet>,
@@ -383,6 +383,7 @@ var stage3Items as IIngredient[] = [
 	<primal:void_seed>,
 
 	//Chisel
+	<chisel:auto_chisel>,
 	<chisel:blockaluminum:*>,
 	<chisel:blockcobalt:*>,
 	<chisel:blockelectrum:*>,
@@ -412,7 +413,6 @@ var stage3Items as IIngredient[] = [
 	<chisel:tyrian:*>,
 	<chisel:voidstone:*>,
 	<chisel:voidstonerunic:*>,
-	<chisel:auto_chisel>,
 
 	//Steves Carts
 	<stevescarts:blockactivator>,

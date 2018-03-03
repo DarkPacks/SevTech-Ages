@@ -6,6 +6,7 @@ var STAGE = STAGES.creative;
 
 var creativeItems as IItemStack[] = [
 	<betterwithmods:creative_generator>,
+	<bloodmagic:altar_maker>,
 	<buildcraftcore:engine:3>,
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,
@@ -35,8 +36,7 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
 	<totemic:ceremony_cheat>,
-	<waterstrainer:super_worm>,
-	<bloodmagic:altar_maker>
+	<waterstrainer:super_worm>
 ];
 
 for item in creativeItems {

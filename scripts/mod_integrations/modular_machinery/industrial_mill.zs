@@ -38,4 +38,4 @@ mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "fl
 	.addEnergyPerTickInput(4)
 	.addItemOutput(<horsepower:flour>)
 	.addItemInput(<minecraft:wheat>)
-	.build();	
+	.build();

@@ -63,12 +63,11 @@ var removeItems as IItemStack[] = [
 
 	//Blood Magic
 	<bloodmagic:altar>,
-	<bloodmagic:sacrificial_dagger>,
-	<bloodmagic:soul_snare>,
-	<bloodmagic:soul_forge>,
 	<bloodmagic:blood_rune:3>,
-	<bloodmagic:blood_rune:4>
-
+	<bloodmagic:blood_rune:4>,
+	<bloodmagic:sacrificial_dagger>,
+	<bloodmagic:soul_forge>,
+	<bloodmagic:soul_snare>
 ];
 
 for item in removeItems {

@@ -818,7 +818,10 @@ var itemsForStage as IIngredient[] = [
 
 	//YoYo
 	//TODO: Why isnt this handled by tcon part staging
-	<yoyos:cord>
+	<yoyos:cord>,
+
+	//Chisel
+	<chisel:auto_chisel>
 ];
 
 for item in itemsForStage {

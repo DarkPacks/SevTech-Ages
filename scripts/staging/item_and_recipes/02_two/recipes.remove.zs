@@ -68,7 +68,10 @@ var removeItems as IItemStack[] = [
 	<infoaccessories:info_accessory>,
 
 	//Abyssalcraft
-	<abyssalcraft:gatewaykey>
+	<abyssalcraft:gatewaykey>,
+
+	//Blood Magic
+	<bloodmagic:lava_crystal>
 ];
 
 for item in removeItems {

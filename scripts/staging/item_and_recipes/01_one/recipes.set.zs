@@ -211,7 +211,6 @@ var itemsForStage as IIngredient[] = [
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
-	<quark:candle:*>,
 	<quark:dark_oak_trapdoor>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,

@@ -28,6 +28,11 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {
+	//Better Builder's Wand
+	<betterbuilderswands:wandunbreakable> : [
+		[[null, null, <minecraft:nether_star>], [null, log, null], [log, null, null]]
+	],
+	
 	<buildcraftcore:engine> : [
 		[
 			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],

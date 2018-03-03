@@ -960,7 +960,6 @@ var stage1Items as IIngredient[] = [
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
-	<quark:candle:*>,
 	<quark:dark_oak_trapdoor>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,
@@ -994,7 +993,10 @@ var stage1Items as IIngredient[] = [
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,
 	<spartanshields:shield_basic_copper>,
-	<spartanshields:shield_basic_tin>
+	<spartanshields:shield_basic_tin>,
+
+	//Water Strainer
+	<waterstrainer:bait_pot>
 ];
 
 for item in stage1Items {

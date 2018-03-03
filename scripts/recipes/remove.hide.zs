@@ -77,6 +77,8 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<actuallyadditions:item_color_lens>,
+	<actuallyadditions:item_misc:15>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -95,11 +97,9 @@ var hideItems as IItemStack[] = [
 	<actuallyadditions:block_treasure_chest>,
 	<actuallyadditions:gold_paxel>,
 	<actuallyadditions:iron_paxel>,
-	<actuallyadditions:item_color_lens>,
 	<actuallyadditions:item_dust:1>,
 	<actuallyadditions:item_hairy_ball>,
 	<actuallyadditions:item_jam:*>, //No
-	<actuallyadditions:item_misc:15>,
 	<actuallyadditions:item_solidified_experience>,
 	<actuallyadditions:item_water_bowl>,
 	<actuallyadditions:stone_paxel>,

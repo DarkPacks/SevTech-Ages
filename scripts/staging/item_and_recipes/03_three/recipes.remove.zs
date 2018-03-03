@@ -109,6 +109,8 @@ var removeItems as IItemStack[] = [
 	<stevescarts:modulecomponents:65>,
 	<stevescarts:modulecomponents:83>,
 	<stevescarts:upgrade:1>,
+	<stevescarts:upgrade:4>,
+	<stevescarts:upgrade:5>,
 	<stevescarts:upgrade:6>,
 	<stevescarts:upgrade:7>,
 	<stevescarts:upgrade:9>,

@@ -162,7 +162,6 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:crop_recolector>,
 	<industrialforegoing:crop_sower>,
 	<industrialforegoing:dryrubber>,
-	//<industrialforegoing:dye_mixer>,
 	<industrialforegoing:enchantment_aplicator>,
 	<industrialforegoing:enchantment_extractor>,
 	<industrialforegoing:enchantment_invoker>,

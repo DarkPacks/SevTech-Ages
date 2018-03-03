@@ -42,6 +42,8 @@ MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersive
 
 MetalPress.addRecipe(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1);
 
+MetalPress.addRecipe(<pickletweaks:ppm4:2> * 4, <galacticraftcore:item_basic_moon>, <immersiveengineering:mold:4>, 500, 1);
+
 /*
 	Squeezer
 */
@@ -85,6 +87,9 @@ Crusher.addRecipe(<ore:dustCoal>.firstItem, <ore:coal>, 3000); //Coal to coal du
 Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>, 3000); //Certus Quartz to Certus Dust
 
 Crusher.addRecipe(<ore:dustObsidian>.firstItem, <ore:obsidian>, 3000); //Obsidian to dust
+
+Crusher.addRecipe(<horsepower:flour>, <minecraft:wheat>, 3000); //Wheat to Flour
+
 
 /*
 	Arc Furnace

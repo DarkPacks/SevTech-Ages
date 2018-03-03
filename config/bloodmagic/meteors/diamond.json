@@ -1,0 +1,43 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "minecraft",
+      "path": "diamond_block"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreIron"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreGold"
+    },
+    {
+      "weight": 10,
+      "oreName": "oreLapis"
+    },
+    {
+      "weight": 250,
+      "oreName": "oreDiamond"
+    },
+    {
+      "weight": 180,
+      "oreName": "oreEmerald"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreRedstone"
+    },
+    {
+      "weight": 400,
+      "oreName": "oreDiamond"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 3,
+  "maxWeight": 1040,
+  "version": 3
+}

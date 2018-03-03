@@ -131,6 +131,9 @@ var stage4Items as IIngredient[] = [
 	<immersiveengineering:metal_device0:5>,
 	<immersiveengineering:storage_slab:5>,
 
+	//Better Builder's Wand
+	<betterbuilderswands:wandunbreakable>,
+
 	//Bonsai Trees
 	<bonsaitrees:bonsaipot:1>,
 	<bonsaitrees:bonsaipot>,
@@ -159,6 +162,7 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:crop_recolector>,
 	<industrialforegoing:crop_sower>,
 	<industrialforegoing:dryrubber>,
+	//<industrialforegoing:dye_mixer>,
 	<industrialforegoing:enchantment_aplicator>,
 	<industrialforegoing:enchantment_extractor>,
 	<industrialforegoing:enchantment_invoker>,

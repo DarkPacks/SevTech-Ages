@@ -537,7 +537,17 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
 			[<thebetweenlands:items_misc:14>, null, null]
 		]
+	],
+
+	//Blood Magic
+	<bloodmagic:lava_crystal> : [
+		[
+			[<ore:blockGlass>, <minecraft:lava_bucket>, <ore:blockGlass>],
+			[<minecraft:lava_bucket>, <bloodmagic:blood_orb:*>, <minecraft:lava_bucket>],
+			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

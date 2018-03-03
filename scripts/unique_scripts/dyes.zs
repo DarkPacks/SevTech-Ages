@@ -1,3 +1,4 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 /*
@@ -34,6 +35,100 @@ recipes.remove(<minecraft:dye:13>);
 recipes.remove(<minecraft:dye:14>);
 recipes.remove(<minecraft:dye:15>);
 recipes.remove(<minecraft:dye>);
+
+//Use desired dye for mystical agriculture dye essence crafting
+var dyeShapedRecipes as IIngredient[][][][IItemStack] = {
+	<ore:dyeBlack>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+			[null, null, null],
+			[null, null, null]
+		]
+	],
+	<ore:dyeRed>.firstItem: [
+		[
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+			[null, null, null]
+		]
+	],
+	<ore:dyePurple>.firstItem: [
+		[
+			[null, null, null],
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeCyan>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, null],
+			[<mysticalagriculture:dye_essence>, null, null],
+			[<mysticalagriculture:dye_essence>, null, null]
+		]
+	],
+	<ore:dyeLightGray>.firstItem: [
+		[
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, <mysticalagriculture:dye_essence>, null]
+		]
+	],
+	<ore:dyeGray>.firstItem: [
+		[
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyePink>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeLime>.firstItem: [
+		[
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, null]
+		]
+	],
+	<ore:dyeYellow>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, null, null]
+		]
+	],
+	<ore:dyeLightBlue>.firstItem: [
+		[
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, null, null]
+		]
+	],
+	<ore:dyeMagenta>.firstItem: [
+		[
+			[null, null, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeOrange>.firstItem: [
+		[
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null]
+		]
+	]
+};
+
+for dye, recipesForDye in dyeShapedRecipes {
+	for recipe in recipesForDye {
+		recipes.addShaped(dye, recipe);
+	}
+}
 
 //[output, input]
 var crushingPairs as IItemStack[][] = [

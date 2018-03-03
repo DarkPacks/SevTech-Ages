@@ -76,7 +76,10 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<betterwithmods:wicker> : [
-		[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+		[
+			[<minecraft:reeds>, <minecraft:reeds>],
+			[<minecraft:reeds>, <minecraft:reeds>]
+		]
 	],
 	<cyclicmagic:block_fragile> : [
 		[[stick, null, stick], [null, stick, null], [stick, null, stick]]

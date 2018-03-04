@@ -88,9 +88,7 @@ fluidPropeneData.addDataValue("viscosity", "3000");
 
 //Redstone Alloy
 var redstoneAlloyParts as string[] = [
-	"beam",
 	"block",
-	"bolt",
 	"gear",
 	"ingot",
 	"plate",
@@ -100,9 +98,7 @@ materials.redstoneAlloy.registerParts(redstoneAlloyParts);
 
 //Platinum
 var platinumParts as string[] = [
-	"beam",
 	"block",
-	"bolt",
 	"dust",
 	"gear",
 	"ingot",
@@ -113,9 +109,7 @@ materials.platinum.registerParts(platinumParts);
 
 //Invar
 var invarParts as string[] = [
-	"beam",
 	"block",
-	"bolt",
 	"gear",
 	"ingot",
 	"plate",

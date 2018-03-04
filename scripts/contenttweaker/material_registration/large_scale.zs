@@ -30,8 +30,6 @@ var materailsForDefaultParts as Material[] = [
 ];
 
 var defaultPartNames as string[] = [
-	"beam",
-	"bolt",
 	"gear",
 	"plate",
 	"rod"

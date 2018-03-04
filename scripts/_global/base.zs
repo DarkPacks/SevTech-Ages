@@ -21,7 +21,10 @@ global STAGES as string[string] = {
 	creative : "creative",
 
 	//Unique Stages
-	baykok : "baykok"
+	baykok : "baykok",
+
+	//Unique stage intended to disable a tool
+	disabled : "disabled"
 };
 
 global bone as IItemStack = <minecraft:bone>;

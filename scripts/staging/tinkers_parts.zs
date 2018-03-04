@@ -35,8 +35,16 @@ var parts as IItemStack[] = [
 	<yoyos:yoyo_cord>
 ];
 
+var disabledParts as IItemStack[] = [
+	<tconstruct:kama_head>
+];
+
 for part in parts {
 	for stage, materials in scripts.staging.tinkers.materialsForStage {
+		if (disabledParts has part) {
+			stage = STAGES.disabled;
+		}
+
 		for material in materials {
 			mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
 		}

@@ -2,9 +2,9 @@
 
 setIcon("industrialforegoing:plastic")
 
-setTitle("Stage 4")
+setTitle("Age 4")
 
-setDescription("Welcome to the next stage!")
+setDescription("Welcome to the next age!")
 
 setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
 

@@ -2,9 +2,9 @@
 
 setIcon("progressiontweaks:stone_hammer")
 
-setTitle("Stage 1")
+setTitle("Age 1")
 
-setDescription("Welcome to the next stage!")
+setDescription("Welcome to the next age!")
 
 setBackground("mekanism:textures/blocks/tinore.png")
 

@@ -2,9 +2,9 @@
 
 setIcon("astralsorcery:itemcraftingcomponent", 4)
 
-setTitle("Stage 2")
+setTitle("Age 2")
 
-setDescription("Welcome to the next stage!")
+setDescription("Welcome to the next age!")
 
 setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
 

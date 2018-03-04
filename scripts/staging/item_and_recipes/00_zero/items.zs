@@ -296,6 +296,9 @@ var stageZeroItems as IIngredient[] = [
 	<improvedbackpacks:backpack>.withTag({Color: 14}),
 	<improvedbackpacks:backpack>.withTag({Color: 15}),
 	<improvedbackpacks:backpack>,
+	<improvedbackpacks:blank_upgrade>,
+	<improvedbackpacks:upgrade:1>,
+	<improvedbackpacks:upgrade>,
 
 	//Jarm
 	<jarm:acacia_raft>,

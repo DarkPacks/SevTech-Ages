@@ -22,6 +22,8 @@ var stage2Items as IIngredient[] = [
 	<appliedenergistics2:grindstone>,
 	<appliedenergistics2:material:46>, //Ender dust
 	<extendedcrafting:handheld_table>,
+	<improvedbackpacks:upgrade:2>,
+	<improvedbackpacks:upgrade:3>,
 	<materialpart:stone:nugget>,
 	<pickletweaks:watering_can>,
 	<pneumaticcraft:liquid_hopper>,

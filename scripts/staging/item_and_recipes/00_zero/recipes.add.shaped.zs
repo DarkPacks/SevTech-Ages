@@ -456,8 +456,30 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:flint>, null],
 			[stick, null, null]
 		]
-	]
+	],
 
+	//Improved Backpacks
+	<improvedbackpacks:blank_upgrade> : [
+		[
+			[null, leather, null],
+			[stick, plank, stick],
+			[null, leather, null]
+		]
+	],
+	<improvedbackpacks:upgrade> : [
+		[
+			[null, leather, null],
+			[log, <improvedbackpacks:blank_upgrade>, log],
+			[null, log, null]
+		]
+	],
+	<improvedbackpacks:upgrade:1> : [
+		[
+			[null, leather, null],
+			[<minecraft:stone>, <improvedbackpacks:upgrade>, <minecraft:stone>],
+			[null, <minecraft:stone>, null]
+		]
+	]
 };
 
 for item, recipesForItem in shapedRecipes {

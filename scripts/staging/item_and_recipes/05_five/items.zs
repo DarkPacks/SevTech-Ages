@@ -29,6 +29,7 @@ var stage5Items as IIngredient[] = [
 	<ore:gearDiamond>,
 
 	//Misc
+	<improvedbackpacks:upgrade:4>,
 	<prospectors:prospector_best>,
 	<rangedpumps:pump>,
 

@@ -537,6 +537,38 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
 			[<thebetweenlands:items_misc:14>, null, null]
 		]
+	],
+
+	//Improved Backpacks
+	<improvedbackpacks:upgrade:2> : [
+		[
+			[null, leather, null],
+			[metals.iron.ingot, <improvedbackpacks:upgrade:1>, metals.iron.ingot],
+			[null, metals.iron.ingot, null]
+		]
+	],
+	<improvedbackpacks:upgrade:3> : [
+		[
+			[null, leather, null],
+			[metals.gold.ingot, <improvedbackpacks:upgrade:2>, metals.gold.ingot],
+			[null, metals.gold.ingot, null]
+		]
+	],
+
+	//Blood Magic
+	<bloodmagic:lava_crystal> : [
+		[
+			[<ore:blockGlass>, <minecraft:lava_bucket>, <ore:blockGlass>],
+			[<minecraft:lava_bucket>, <bloodmagic:blood_orb:*>, <minecraft:lava_bucket>],
+			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
+		]
+	],
+	<bloodmagic:experience_tome> : [
+		[
+			[str, <ore:blockLapis>, str],
+			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>],
+			[metals.gold.ingot, <bloodmagic:blood_orb:*>, metals.gold.ingot]
+		]
 	]
 };
 

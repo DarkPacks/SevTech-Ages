@@ -6,6 +6,7 @@ var STAGE = STAGES.one;
 
 var itemsForStage as IIngredient[] = [
 	<huntingdim:biome_changer:*>,
+	<huntingdim:frame>,
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab:5>,
@@ -211,7 +212,6 @@ var itemsForStage as IIngredient[] = [
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
-	<quark:candle:*>,
 	<quark:dark_oak_trapdoor>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,
@@ -405,6 +405,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:fusuma>,
 	<betterwithaddons:inverted_gearbox>,
 	<betterwithaddons:japanmat:10>,
+	<betterwithaddons:laxative>,
 	<betterwithaddons:loom>,
 	<betterwithaddons:scaffold>,
 	<betterwithaddons:shoji>,
@@ -476,7 +477,12 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_pickaxe_quartz>,
 	<actuallyadditions:item_shovel_quartz>,
 	<actuallyadditions:item_sword_quartz>,
-	<actuallyadditions:quartz_paxel>
+	<actuallyadditions:quartz_paxel>,
+
+	//Blood Magic
+	<bloodmagic:incense_altar>,
+	<bloodmagic:path:1>,
+	<bloodmagic:path>
 ];
 
 for item in itemsForStage {

@@ -2,9 +2,9 @@
 
 setIcon("rustic:iron_lantern")
 
-setTitle("Stage 3")
+setTitle("Age 3")
 
-setDescription("Welcome to the next stage!")
+setDescription("Welcome to the next age!")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 

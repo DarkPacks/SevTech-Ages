@@ -345,6 +345,76 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <stevescarts:modulecomponents:59>, null]
 		]
 	],
+	<stevescarts:upgrade:4> : [
+		[
+			[
+				null,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+				null
+			],
+			[null, <minecraft:redstone>, null],
+			[metals.iron.ingot, <stevescarts:modulecomponents:59>, metals.iron.ingot]
+		],
+		[
+			[
+				null,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]}),
+				null
+			],
+			[metals.iron.ingot, <stevescarts:modulecomponents:9>, metals.iron.ingot],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:59>, metals.reinforcedMetal.ingot]
+		],
+		[
+			[
+				<minecraft:redstone>,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]}),
+				<minecraft:redstone>
+			],
+			[metals.iron.ingot, <stevescarts:modulecomponents:16>, metals.iron.ingot],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:59>, metals.reinforcedMetal.ingot]
+		],
+		[
+			[
+				<minecraft:redstone>,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]}),
+				<minecraft:redstone>
+			],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:59>, metals.reinforcedMetal.ingot]
+		],
+		[
+			[
+				<stevescarts:modulecomponents:9>,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]}),
+				<stevescarts:modulecomponents:9>
+			],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
+			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:59>, metals.reinforcedMetal.ingot]
+		]
+	],
+	<stevescarts:upgrade:5> : [
+		[
+			[
+				metals.galgadorian.ingot,
+				<minecraft:enchanted_book>
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+				metals.galgadorian.ingot
+			],
+			[metals.galgadorian.ingot, <stevescarts:modulecomponents:16>, metals.galgadorian.ingot],
+			[metals.galgadorian.ingot, <stevescarts:upgrade:4>, metals.galgadorian.ingot]
+		]
+	],
 	<stevescarts:blockdetector:1> : [
 		[
 			[cobblestone, <minecraft:stone_pressure_plate>, cobblestone],

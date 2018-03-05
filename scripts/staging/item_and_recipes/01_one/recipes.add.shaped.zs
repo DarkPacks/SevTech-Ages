@@ -418,6 +418,58 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, stick, metals.copper.ingot],
 			[stick, null, null]
 		]
+	],
+
+	//Water Strainer
+	<waterstrainer:bait_pot> : [
+		[
+			[null, <waterstrainer:net>, null],
+			[null, <minecraft:flower_pot>, null]
+		]
+	],
+
+	//Blood Magic
+	<bloodmagic:altar> : [
+	  	[
+	  		[stone, null, stone],
+	  		[stone, <minecraft:furnace>, stone],
+	  		[metals.bronze.ingot, <bloodmagic:monster_soul>, metals.bronze.ingot]
+	  	]
+	],
+	<bloodmagic:sacrificial_dagger> : [
+	  	[
+	  		[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+	  		[null, metals.bronze.ingot, <ore:blockGlass>],
+	  		[metals.bronze.ingot, null, <ore:blockGlass>]
+	  	]
+	],
+	<bloodmagic:soul_snare> * 4: [
+	  	[
+	  		[str, metals.tin.ingot, str],
+	  		[metals.tin.ingot, <betterwithaddons:tweakmat>, metals.tin.ingot],
+	  		[str, metals.tin.ingot, str]
+	  	]
+	],
+	<bloodmagic:soul_forge> : [
+	  	[
+	  		[metals.tin.ingot, null, metals.tin.ingot],
+	  		[stone, metals.bronze.ingot, stone],
+	  		[stone, metals.copper.block, stone]
+	  	]
+	],
+	<bloodmagic:blood_rune:3> : [
+	  	[
+	  		[stone, <bloodmagic:slate:1>, stone],
+	  		[metals.bronze.ingot, <bloodmagic:blood_rune>, metals.bronze.ingot],
+	  		[stone, <bloodmagic:blood_orb:*>, stone]
+	  	]
+	],
+	<bloodmagic:blood_rune:4> : [
+		[
+			[stone, <bloodmagic:slate:1>, stone],
+			[<ore:dyeYellow>, <bloodmagic:blood_rune>, <ore:dyeYellow>],
+			[stone, <bloodmagic:blood_orb:*>, stone]
+		]
 	]
 };
 

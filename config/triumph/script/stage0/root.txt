@@ -2,9 +2,9 @@ addCriteria("location", "minecraft:location")
 
 setIcon("primal_tech:stone_club")
 
-setTitle("Stage 0")
+setTitle("Age 0")
 
-setDescription("")
+setDescription("Welcome to the first age!")
 
 setBackground("minecraft:textures/blocks/cobblestone.png")
 

@@ -29,7 +29,7 @@ var stage5Items as IIngredient[] = [
 	<ore:gearDiamond>,
 
 	//Misc
-	<betterbuilderswands:wandunbreakable>,
+	<improvedbackpacks:upgrade:4>,
 	<prospectors:prospector_best>,
 	<rangedpumps:pump>,
 
@@ -104,7 +104,6 @@ var stage5Items as IIngredient[] = [
 	<minecraft:diamond_sword>,
 	<minecraft:emerald>,
 	<minecraft:emerald_block>,
-	<minecraft:nether_star>,
 
 	//Actually Additions
 	<actuallyadditions:block_atomic_reconstructor>,
@@ -778,6 +777,13 @@ var stage5Items as IIngredient[] = [
 	<buildcrafttransport:pipe_diamond_wood_item>,
 	<buildcrafttransport:pipe_emzuli_item>,
 
+	//Better With Mods/Addons
+	<betterwithaddons:world_scale>,
+	<betterwithaddons:world_scale_active>,
+	<betterwithaddons:world_scale_ore:1>,
+	<betterwithaddons:world_scale_ore>,
+	<betterwithaddons:worldshard>,
+
 	//Xnet
 	<xnet:advanced_connector:1>.withTag({display: {LocName: "tile.xnet.advanced_connector_red.name"}}),
 	<xnet:advanced_connector:2>.withTag({display: {LocName: "tile.xnet.advanced_connector_yellow.name"}}),
@@ -861,6 +867,7 @@ var stage5Items as IIngredient[] = [
 	<galacticraftcore:concealed_repeater>,
 	<galacticraftcore:dishbase>,
 	<galacticraftcore:distributor>,
+	<galacticraftcore:emergency_kit>,
 	<galacticraftcore:enclosed:1>,
 	<galacticraftcore:enclosed:7>,
 	<galacticraftcore:enclosed:8>,

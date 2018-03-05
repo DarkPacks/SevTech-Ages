@@ -76,7 +76,10 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<betterwithmods:wicker> : [
-		[[<minecraft:reeds>, <minecraft:reeds>, null], [<minecraft:reeds>, <minecraft:reeds>, null]]
+		[
+			[<minecraft:reeds>, <minecraft:reeds>],
+			[<minecraft:reeds>, <minecraft:reeds>]
+		]
 	],
 	<cyclicmagic:block_fragile> : [
 		[[stick, null, stick], [null, stick, null], [stick, null, stick]]
@@ -165,6 +168,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<natura:overworld_slab> * 3 : [
 		[[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]]
 	],
+	<traverse:blue_rock_cobblestone_slab> * 3 : [
+		[[<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>]]
+	],
+
+	<traverse:blue_rock_slab> * 3 : [
+	  	[[<traverse:blue_rock>, <traverse:blue_rock>, <traverse:blue_rock>]]
+	],	
 	<primal:armor_wolf_body> : [
 		[
 			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],
@@ -453,8 +463,30 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:flint>, null],
 			[stick, null, null]
 		]
-	]
+	],
 
+	//Improved Backpacks
+	<improvedbackpacks:blank_upgrade> : [
+		[
+			[null, leather, null],
+			[stick, plank, stick],
+			[null, leather, null]
+		]
+	],
+	<improvedbackpacks:upgrade> : [
+		[
+			[null, leather, null],
+			[log, <improvedbackpacks:blank_upgrade>, log],
+			[null, log, null]
+		]
+	],
+	<improvedbackpacks:upgrade:1> : [
+		[
+			[null, leather, null],
+			[<minecraft:stone>, <improvedbackpacks:upgrade>, <minecraft:stone>],
+			[null, <minecraft:stone>, null]
+		]
+	]
 };
 
 for item, recipesForItem in shapedRecipes {

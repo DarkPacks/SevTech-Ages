@@ -62,6 +62,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	//Now you can make fleece in stage 0
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
+	],
+	<betterwithmods:manual> : [
+		[<primal:plant_cloth>, <betterwithmods:material>]
 	]
 };
 

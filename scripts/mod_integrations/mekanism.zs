@@ -10,3 +10,5 @@ Infuser.addRecipe("OBSIDIAN", 20, <galacticraftcore:cheese_curd>, <appliedenergi
 
 //Correct steel dust
 Infuser.addRecipe("CARBON", 10, <mekanism:enrichediron>, metals.steel.dust.firstItem);
+
+Infuser.addRecipe("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest:2>);

@@ -106,6 +106,10 @@ var itemsForStage as IIngredient[] = [
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
 
+	//Better With Mods / Addons
+	<betterwithaddons:world_scale_active>,
+	<betterwithaddons:world_scale_ore:1>,
+
 	//Cyclic
 	<cyclicmagic:auto_crafter>,
 	<cyclicmagic:block_enchanter>,
@@ -663,6 +667,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:concealed_repeater>,
 	<galacticraftcore:dishbase>,
 	<galacticraftcore:distributor>,
+	<galacticraftcore:emergency_kit>,
 	<galacticraftcore:enclosed:1>,
 	<galacticraftcore:enclosed:7>,
 	<galacticraftcore:enclosed:8>,

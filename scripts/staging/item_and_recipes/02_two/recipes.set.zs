@@ -76,6 +76,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:redstone_block>,
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
+	<minecraft:spectral_arrow>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_brick_stairs>,
 	<minecraft:stonebrick:1>,
@@ -152,6 +153,7 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:skin:2>,
 
 	//Better With Mods
+	<betterwithaddons:artifact_frame>,
 	<betterwithaddons:bolt:2>,
 	<betterwithaddons:bundle:1>,
 	<betterwithaddons:crate:12>,
@@ -174,11 +176,14 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:unbaked:2>,
 	<betterwithaddons:unbaked:3>,
 	<betterwithaddons:unbaked>,
+	<betterwithaddons:whitebrick:1>,
+	<betterwithaddons:whitebrick>,
 	<betterwithmods:aesthetic:8>,
 	<betterwithmods:apple_pie>,
 	<betterwithmods:broadhead_arrow>,
 	<betterwithmods:composite_bow>,
 	<betterwithmods:dynamite>,
+	<betterwithmods:material:36>,
 	<betterwithmods:material:40>,
 	<betterwithmods:material:43>,
 	<betterwithmods:raw_pastry:1>,
@@ -210,6 +215,7 @@ var itemsForStage as IIngredient[] = [
 	//Cyclic
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:tool_mount>,
 	<cyclicmagic:trash>,
 
 	//Jaff
@@ -445,11 +451,20 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:trap_move>,
 
 	//Quark
+	<quark:arrow_explosive>,
 	<quark:brick_wall>,
 	<quark:glass_item_frame>,
 	<quark:paper_wall>,
-	<quark:stonebrick_wall>
+	<quark:stonebrick_wall>,
 
+	//Blood Magic
+	<bloodmagic:blood_rune:5>,
+	<bloodmagic:blood_rune:6>,
+	<bloodmagic:pack_self_sacrifice>,
+	<bloodmagic:path:2>,
+	<bloodmagic:path:3>,
+	<bloodmagic:path:4>,
+	<bloodmagic:path:5>
 ];
 
 for item in itemsForStage {

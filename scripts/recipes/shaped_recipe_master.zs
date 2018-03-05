@@ -39,7 +39,10 @@ recipes.remove(<minecraft:brick_block>);
 recipes.addShaped(<minecraft:brick_block>, [[<minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>]]);
 
 recipes.remove(<minecraft:saddle>);
-recipes.addShaped(<minecraft:saddle>, [[leather, leather, leather], [<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>], [null, null, null]]);
+recipes.addShaped(<minecraft:saddle>, [
+	[leather, leather, leather],
+	[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
+]);
 
 //Leather armor
 recipes.remove(<minecraft:leather_helmet>);

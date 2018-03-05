@@ -33,3 +33,9 @@ mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "wh
 	.addItemOutput(<pickletweaks:dye_powder>)
 	.addItemInput(<minecraft:dye:15>)
 	.build();
+
+mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineName, "flour"), machineName, 128)
+	.addEnergyPerTickInput(4)
+	.addItemOutput(<horsepower:flour>)
+	.addItemInput(<minecraft:wheat>)
+	.build();

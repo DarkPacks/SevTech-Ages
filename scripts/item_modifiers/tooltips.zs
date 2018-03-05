@@ -6,19 +6,19 @@
 //==================================
 //Prospecting Rods
 <prospectors:prospector_lowest:*>.addTooltip(format.yellow("This tool may only be used"));
-<prospectors:prospector_lowest:*>.addTooltip(format.yellow("for ore in Stage 1 and below"));
+<prospectors:prospector_lowest:*>.addTooltip(format.yellow("for ore in Age 1 and below"));
 
 <prospectors:prospector_low:*>.addTooltip(format.yellow("This tool may only be used"));
-<prospectors:prospector_low:*>.addTooltip(format.yellow("for ore in Stage 2 and below"));
+<prospectors:prospector_low:*>.addTooltip(format.yellow("for ore in Age 2 and below"));
 
 <prospectors:prospector_med:*>.addTooltip(format.yellow("This tool may only be used"));
-<prospectors:prospector_med:*>.addTooltip(format.yellow("for Stage 3 and below ore"));
+<prospectors:prospector_med:*>.addTooltip(format.yellow("for Age 3 and below ore"));
 
 <prospectors:prospector_high:*>.addTooltip(format.yellow("This tool may only be used"));
-<prospectors:prospector_high:*>.addTooltip(format.yellow("for ore in Stage 4 and below"));
+<prospectors:prospector_high:*>.addTooltip(format.yellow("for ore in Age 4 and below"));
 
 <prospectors:prospector_best:*>.addTooltip(format.yellow("This tool may only be used"));
-<prospectors:prospector_best:*>.addTooltip(format.yellow("for ore in Stage 5 and below"));
+<prospectors:prospector_best:*>.addTooltip(format.yellow("for ore in Age 5 and below"));
 
 //==================================
 //Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things

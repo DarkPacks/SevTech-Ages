@@ -56,7 +56,18 @@ var removeItems as IItemStack[] = [
 
 	//BWM changes
 	<betterwithmods:bellows>,
-	<betterwithaddons:spindle>
+	<betterwithaddons:spindle>,
+
+	//Water Strain
+	<waterstrainer:bait_pot>,
+
+	//Blood Magic
+	<bloodmagic:altar>,
+	<bloodmagic:blood_rune:3>,
+	<bloodmagic:blood_rune:4>,
+	<bloodmagic:sacrificial_dagger>,
+	<bloodmagic:soul_forge>,
+	<bloodmagic:soul_snare>
 ];
 
 for item in removeItems {

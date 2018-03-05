@@ -28,11 +28,17 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {
-	<betterbuilderswands:wandunbreakable> : [
-		[[null, null, <minecraft:nether_star>], [null, log, null], [log, null, null]]
-	],
 	<prospectors:prospector_best> : [
 		[[null, <minecraft:diamond>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:diamond>], [<minecraft:blaze_rod>, null, null]]
+	],
+
+	//Improved Backpacks
+	<improvedbackpacks:upgrade:4> : [
+		[
+			[null, leather, null],
+			[<minecraft:diamond>, <improvedbackpacks:upgrade:3>, <minecraft:diamond>],
+			[null, <minecraft:diamond>, null]
+		]
 	],
 
 	//Spartan Shields
@@ -144,6 +150,39 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
 			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
 		]
+	],
+
+	//Iron Chest
+	<ironchest:iron_chest:2>: [
+		[
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, <minecraft:chest>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
+		]
+	],
+	<ironchest:iron_chest:5>: [
+		[
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+			[<mekanism:compresseddiamond>, <ironchest:iron_chest:1>, <mekanism:compresseddiamond>],
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
+		]
+	],
+
+	//Overloaded
+	<overloaded:infinite_water_source>: [
+		[
+			[<actuallyadditions:block_crystal_empowered:1>, <bloodmagic:sigil_water>, <actuallyadditions:block_crystal_empowered:1>],
+			[<mekanism:machineblock:12>, <mysticalagriculture:crafting:48>, <mekanism:machineblock:12>],
+			[<actuallyadditions:block_crystal_empowered:1>, <immersiveengineering:metal_device0:5>, <actuallyadditions:block_crystal_empowered:1>]
+		]
+	],
+
+	//Mystical Agriculture
+	<twilightforest:steeleaf_ingot>: [
+		//Re-add steeleaf ingot recipe
+		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>],
+		[<mysticalagriculture:steeleaf_essence>, null, <mysticalagriculture:steeleaf_essence>],
+		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>]
 	]
 };
 

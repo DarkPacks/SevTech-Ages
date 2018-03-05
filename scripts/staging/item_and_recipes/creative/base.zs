@@ -6,6 +6,9 @@ var STAGE = STAGES.creative;
 
 var creativeItems as IItemStack[] = [
 	<betterwithmods:creative_generator>,
+	<bloodmagic:activation_crystal:2>,
+	<bloodmagic:altar_maker>,
+	<bloodmagic:sacrificial_dagger:1>,
 	<buildcraftcore:engine:3>,
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,

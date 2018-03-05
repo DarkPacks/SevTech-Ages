@@ -22,6 +22,8 @@ var stage2Items as IIngredient[] = [
 	<appliedenergistics2:grindstone>,
 	<appliedenergistics2:material:46>, //Ender dust
 	<extendedcrafting:handheld_table>,
+	<improvedbackpacks:upgrade:2>,
+	<improvedbackpacks:upgrade:3>,
 	<materialpart:stone:nugget>,
 	<pickletweaks:watering_can>,
 	<pneumaticcraft:liquid_hopper>,
@@ -271,6 +273,7 @@ var stage2Items as IIngredient[] = [
 	<minecraft:acacia_boat>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
+	<minecraft:arrow>,
 	<minecraft:banner:*>,
 	<minecraft:bed:*>,
 	<minecraft:birch_boat>,
@@ -363,6 +366,7 @@ var stage2Items as IIngredient[] = [
 	<primal:common_stone:7>,
 	<primal:desiccated_stone:7>,
 	<primal:ferro_stone:7>,
+	<primal:iron_workblade>,
 	<primal:ladder_block_stonebrick>,
 	<primal:ladder_block_stonebrick_cracked>,
 	<primal:ladder_block_stonebrick_mossy>,
@@ -385,6 +389,7 @@ var stage2Items as IIngredient[] = [
 
 	//Better With Mods
 	<betterwithaddons:aqueduct>,
+	<betterwithaddons:artifact_frame>,
 	<betterwithaddons:bolt:2>,
 	<betterwithaddons:bundle:1>,
 	<betterwithaddons:crate:12>,
@@ -408,12 +413,14 @@ var stage2Items as IIngredient[] = [
 	<betterwithaddons:unbaked:2>,
 	<betterwithaddons:unbaked:3>,
 	<betterwithaddons:unbaked>,
+	<betterwithaddons:whitebrick:*>,
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:apple_pie>,
 	<betterwithmods:broadhead_arrow>,
 	<betterwithmods:composite_bow>,
 	<betterwithmods:dynamite>,
 	<betterwithmods:ender_spectacles>,
+	<betterwithmods:material:36>,
 	<betterwithmods:material:43>,
 	<betterwithmods:metal_chime:*>,
 	<betterwithmods:planter:1>,
@@ -979,6 +986,7 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:plate_launch_med>,
 	<cyclicmagic:spikes_iron>,
 	<cyclicmagic:tool_harvest_crops>,
+	<cyclicmagic:tool_mount>,
 	<cyclicmagic:tool_rotate>,
 	<cyclicmagic:tool_spawn_inspect>,
 	<cyclicmagic:tool_spelunker>,
@@ -1034,11 +1042,40 @@ var stage2Items as IIngredient[] = [
 	<natura:overworld_bookshelves>,
 
 	//Quark
-	<quark:arrow_ender>,
 	<quark:arrow_explosive>,
 	<quark:brick_wall>,
 	<quark:paper_wall>,
-	<quark:stonebrick_wall>
+	<quark:stonebrick_wall>,
+
+	//Blood Magic
+	<bloodmagic:activation_crystal>,
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}),
+	<bloodmagic:blood_rune:5>,
+	<bloodmagic:blood_rune:6>,
+	<bloodmagic:component:3>,
+	<bloodmagic:component:4>,
+	<bloodmagic:component:12>,
+	<bloodmagic:component:13>,
+	<bloodmagic:component>,
+	<bloodmagic:experience_tome>,
+	<bloodmagic:inscription_tool:1>,
+	<bloodmagic:lava_crystal>,
+	<bloodmagic:pack_sacrifice>,
+	<bloodmagic:pack_self_sacrifice>,
+	<bloodmagic:path:2>,
+	<bloodmagic:path:3>,
+	<bloodmagic:path:4>,
+	<bloodmagic:path:5>,
+	<bloodmagic:sentient_axe>,
+	<bloodmagic:sentient_pickaxe>,
+	<bloodmagic:sentient_shovel>,
+	<bloodmagic:sentient_sword>,
+	<bloodmagic:sigil_fast_miner>,
+	<bloodmagic:sigil_haste>,
+	<bloodmagic:sigil_magnetism>,
+	<bloodmagic:sigil_void>,
+	<bloodmagic:sigil_water>,
+	<bloodmagic:slate:2>
 ];
 
 for item in stage2Items {

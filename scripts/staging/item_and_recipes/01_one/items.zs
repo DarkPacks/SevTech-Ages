@@ -776,6 +776,7 @@ var stage1Items as IIngredient[] = [
 	<betterwithaddons:japanmat:11>,
 	<betterwithaddons:japanmat:35>,
 	<betterwithaddons:japanmat:36>,
+	<betterwithaddons:laxative>,
 	<betterwithaddons:leaves_luretree>,
 	<betterwithaddons:log_luretree>,
 	<betterwithaddons:log_luretree_face>,
@@ -791,6 +792,7 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:aesthetic:4>,
 	<betterwithmods:aesthetic:5>,
 	<betterwithmods:aesthetic:9>,
+	<betterwithmods:aesthetic:11>,
 	<betterwithmods:aesthetic>,
 	<betterwithmods:anchor>,
 	<betterwithmods:axle_generator:1>,
@@ -960,7 +962,6 @@ var stage1Items as IIngredient[] = [
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,
-	<quark:candle:*>,
 	<quark:dark_oak_trapdoor>,
 	<quark:hardened_clay_tiles>,
 	<quark:hardened_clay_tiles_slab>,
@@ -994,7 +995,41 @@ var stage1Items as IIngredient[] = [
 	//Spartan Shields
 	<spartanshields:shield_basic_bronze>,
 	<spartanshields:shield_basic_copper>,
-	<spartanshields:shield_basic_tin>
+	<spartanshields:shield_basic_tin>,
+
+	//Water Strainer
+	<waterstrainer:bait_pot>,
+
+	//Blood Magic
+	<bloodmagic:altar>,
+	<bloodmagic:arcane_ashes>,
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),
+	<bloodmagic:blood_rune:3>,
+	<bloodmagic:blood_rune:4>,
+	<bloodmagic:component:5>,
+	<bloodmagic:component:11>,
+	<bloodmagic:component:27>,
+	<bloodmagic:component:31>,
+	<bloodmagic:component:32>,
+	<bloodmagic:incense_altar>,
+	<bloodmagic:inscription_tool:5>,
+	<bloodmagic:monster_soul>,
+	<bloodmagic:path:1>,
+	<bloodmagic:path>,
+	<bloodmagic:sacrificial_dagger>,
+	<bloodmagic:sanguine_book>,
+	<bloodmagic:sigil_blood_light>,
+	<bloodmagic:sigil_bounce>,
+	<bloodmagic:sigil_divination>,
+	<bloodmagic:sigil_frost>,
+	<bloodmagic:sigil_green_grove>,
+	<bloodmagic:sigil_holding>,
+	<bloodmagic:slate:1>,
+	<bloodmagic:slate>,
+	<bloodmagic:soul_forge>,
+	<bloodmagic:soul_gem>,
+	<bloodmagic:soul_snare>
 ];
 
 for item in stage1Items {

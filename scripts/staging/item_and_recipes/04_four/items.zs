@@ -77,31 +77,6 @@ var stage4Items as IIngredient[] = [
 	<quark:purpur_block_wall>,
 
 	//Shulker Boxes
-	<ironchest:copper_iron_shulker_upgrade>,
-	<ironchest:copper_silver_shulker_upgrade>,
-	<ironchest:diamond_crystal_shulker_upgrade>,
-	<ironchest:diamond_obsidian_shulker_upgrade>,
-	<ironchest:gold_diamond_shulker_upgrade>,
-	<ironchest:iron_gold_shulker_upgrade>,
-	<ironchest:iron_shulker_box_black:*>,
-	<ironchest:iron_shulker_box_blue:*>,
-	<ironchest:iron_shulker_box_brown:*>,
-	<ironchest:iron_shulker_box_cyan:*>,
-	<ironchest:iron_shulker_box_gray:*>,
-	<ironchest:iron_shulker_box_green:*>,
-	<ironchest:iron_shulker_box_light_blue:*>,
-	<ironchest:iron_shulker_box_lime:*>,
-	<ironchest:iron_shulker_box_magenta:*>,
-	<ironchest:iron_shulker_box_orange:*>,
-	<ironchest:iron_shulker_box_pink:*>,
-	<ironchest:iron_shulker_box_purple:*>,
-	<ironchest:iron_shulker_box_red:*>,
-	<ironchest:iron_shulker_box_silver:*>,
-	<ironchest:iron_shulker_box_white:*>,
-	<ironchest:iron_shulker_box_yellow:*>,
-	<ironchest:silver_gold_shulker_upgrade>,
-	<ironchest:vanilla_copper_shulker_upgrade>,
-	<ironchest:vanilla_iron_shulker_upgrade>,
 	<minecraft:black_shulker_box:*>,
 	<minecraft:blue_shulker_box:*>,
 	<minecraft:brown_shulker_box:*>,
@@ -130,6 +105,9 @@ var stage4Items as IIngredient[] = [
 	//Immersive Engineering
 	<immersiveengineering:metal_device0:5>,
 	<immersiveengineering:storage_slab:5>,
+
+	//Better Builder's Wand
+	<betterbuilderswands:wandunbreakable>,
 
 	//Bonsai Trees
 	<bonsaitrees:bonsaipot:1>,
@@ -441,6 +419,7 @@ var stage4Items as IIngredient[] = [
 	<car:arrow_zebras_yellow>,
 	<car:axle>,
 	<car:backmix_reactor>,
+	<car:battery>,
 	<car:blastfurnace>,
 	<car:cable>,
 	<car:cable_insulator>,
@@ -500,6 +479,7 @@ var stage4Items as IIngredient[] = [
 	<car:line_side_middle_yellow>,
 	<car:line_side_start>,
 	<car:line_side_start_yellow>,
+	<car:number_plate>,
 	<car:oilmill>,
 	<car:painter>,
 	<car:painter_yellow>,
@@ -550,6 +530,12 @@ var stage4Items as IIngredient[] = [
 	<betterwithmods:material:25>,
 
 	//Quark
+	<quark:arrow_ender>,
+	<quark:biotite_block:1>,
+	<quark:biotite_block:2>,
+	<quark:biotite_block>,
+	<quark:biotite_slab>,
+	<quark:biotite_wall>,
 	<quark:duskbound_block>,
 	<quark:duskbound_block_slab>,
 	<quark:duskbound_block_wall>,
@@ -562,11 +548,13 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_screen>,
 	<cyclicmagic:block_shears>,
+	<cyclicmagic:block_storeempty>,
 	<cyclicmagic:block_user>,
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
 	<cyclicmagic:corrupted_chorus>,
+	<cyclicmagic:dropper_exact>,
 	<cyclicmagic:ender_eye_orb>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
@@ -575,6 +563,7 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:exp_pylon>,
 	<cyclicmagic:fan>,
 	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:fluid_placer>,
 	<cyclicmagic:fluid_pump>,
 	<cyclicmagic:glowing_helmet>,
 	<cyclicmagic:item_pipe>,
@@ -845,6 +834,7 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:flow_detector_module>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:gas_lift>,
+	<pneumaticcraft:gps_area_tool>,
 	<pneumaticcraft:gps_tool>,
 	<pneumaticcraft:gun_ammo>,
 	<pneumaticcraft:heat_frame>,
@@ -1150,7 +1140,11 @@ var stage4Items as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:1>,
-	<chargers:charger>
+	<chargers:charger>,
+
+	//Blood Magic
+	<bloodmagic:component:2>,
+	<bloodmagic:sigil_air>
 ];
 
 for item in stage4Items {

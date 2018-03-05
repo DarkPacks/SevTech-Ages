@@ -75,6 +75,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:observer>,
 	<minecraft:skull:1>,
 	<minecraft:soul_sand>,
+	<minecraft:tipped_arrow:*>,
 	<minecraft:trapped_chest>,
 
 	//AbyssalCraft

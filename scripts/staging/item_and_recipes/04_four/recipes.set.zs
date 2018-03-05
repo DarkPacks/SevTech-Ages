@@ -131,6 +131,7 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:table_elite>,
 
 	//Quark
+	<quark:arrow_ender>,
 	<quark:biotite_stairs>,
 	<quark:duskbound_block>,
 	<quark:duskbound_block_slab>,

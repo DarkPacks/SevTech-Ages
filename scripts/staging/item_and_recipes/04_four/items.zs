@@ -553,6 +553,7 @@ var stage4Items as IIngredient[] = [
 	<betterwithmods:material:25>,
 
 	//Quark
+	<quark:arrow_ender>,
 	<quark:duskbound_block>,
 	<quark:duskbound_block_slab>,
 	<quark:duskbound_block_wall>,

@@ -70,7 +70,6 @@ var hideItems as IItemStack[] = [
 	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_gold>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_iron>, //Quantum Storage Metal Chests
-	<quark:arrow_torch>,
 	<rftools:invisible_shield_block>,
 	<rftools:notick_invisible_shield_block>,
 	<rftools:notick_solid_shield_block>,

@@ -6,6 +6,7 @@ var STAGE = STAGES.one;
 
 var itemsForStage as IIngredient[] = [
 	<huntingdim:biome_changer:*>,
+	<huntingdim:frame>,
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab:5>,

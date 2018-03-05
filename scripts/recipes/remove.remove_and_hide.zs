@@ -62,6 +62,7 @@ var removeAndHideItems as IItemStack[] = [
 	<primal:satetsu:4>,
 	<primal:satetsu>,
 	<primal:soul_stone>,
+	<quark:arrow_torch>,
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
 	<stevescarts:modulecomponents:9>,

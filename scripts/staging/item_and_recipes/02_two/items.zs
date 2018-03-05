@@ -273,6 +273,7 @@ var stage2Items as IIngredient[] = [
 	<minecraft:acacia_boat>,
 	<minecraft:anvil>,
 	<minecraft:armor_stand>,
+	<minecraft:arrow>,
 	<minecraft:banner:*>,
 	<minecraft:bed:*>,
 	<minecraft:birch_boat>,
@@ -1036,7 +1037,6 @@ var stage2Items as IIngredient[] = [
 	<natura:overworld_bookshelves>,
 
 	//Quark
-	<quark:arrow_ender>,
 	<quark:arrow_explosive>,
 	<quark:brick_wall>,
 	<quark:paper_wall>,

@@ -76,6 +76,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:redstone_block>,
 	<minecraft:shears>,
 	<minecraft:speckled_melon>,
+	<minecraft:spectral_arrow>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_brick_stairs>,
 	<minecraft:stonebrick:1>,
@@ -445,6 +446,7 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:trap_move>,
 
 	//Quark
+	<quark:arrow_explosive>,
 	<quark:brick_wall>,
 	<quark:glass_item_frame>,
 	<quark:paper_wall>,

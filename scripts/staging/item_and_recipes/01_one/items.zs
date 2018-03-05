@@ -502,6 +502,20 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredenergypedestal:1>,
 	<abyssalcraft:tieredenergyrelay:1>,
 	<abyssalcraft:tieredsacrificialaltar:1>,
+	<abyssalcraft:energypedestal>,
+	<abyssalcraft:monolithpillar>,
+	<abyssalcraft:sacrificialaltar>,
+	<abyssalcraft:tieredsacrificialaltar>,
+	<abyssalcraft:scroll>,
+	<abyssalcraft:scroll:1>,
+	<abyssalcraft:scroll:2>,
+	<abyssalcraft:scroll:3>,
+	<abyssalcraft:unique_scroll>,
+	<abyssalcraft:unique_scroll:1>,
+	<abyssalcraft:abyportal>,
+	<abyssalcraft:abyslab2>,
+	<abyssalcraft:platec>,
+	<abyssalcraft:tieredenergyrelay>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -653,6 +667,7 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:tooltables:*>,
+	<tconstruct:slime_dirt>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,
@@ -910,6 +925,8 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
+	<betterwithaddons:box>,
+	<betterwithaddons:adobe:2>,
 
 	//Natura
 	<natura:colored_grass:1>,
@@ -1029,7 +1046,13 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:slate>,
 	<bloodmagic:soul_forge>,
 	<bloodmagic:soul_gem>,
-	<bloodmagic:soul_snare>
+	<bloodmagic:soul_snare>,
+	<bloodmagic:blood_rune>,
+	<bloodmagic:blood_rune:1>,
+	<bloodmagic:dagger_of_sacrifice>,
+	<bloodmagic:soul_gem:1>,
+	<bloodmagic:blood_rune:2>
+
 ];
 
 for item in stage1Items {

@@ -1010,6 +1010,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
+	<galacticraftcore:bucket_fuel>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

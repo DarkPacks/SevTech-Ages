@@ -88,6 +88,8 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:dsglow>,
 	<abyssalcraft:transmutationgem>,
 	<abyssalcraft:transmutator>,
+	<abyssalcraft:densecarboncluster>,
+	<abyssalcraft:carboncluster>,
 
 	//Cyclic Magic
 	<cyclicmagic:beacon_redstone>,
@@ -849,7 +851,24 @@ var itemsForStage as IIngredient[] = [
 	<bloodmagic:item_demon_crystal:*>,
 	<bloodmagic:path:6>,
 	<bloodmagic:path:7>,
-	<bloodmagic:teleposer>
+	<bloodmagic:teleposer>,
+	<bloodmagic:ritual_stone>,
+	<bloodmagic:ritual_controller:2>,
+	<bloodmagic:ritual_controller:1>,
+	<bloodmagic:ritual_controller>,
+	<bloodmagic:mimic:3>,
+	<bloodmagic:mimic:2>,
+	<bloodmagic:mimic:1>,
+	<bloodmagic:mimic>,
+	<bloodmagic:base_fluid_filter>,
+	<bloodmagic:base_item_filter:3>,
+	<bloodmagic:base_item_filter:2>,
+	<bloodmagic:base_item_filter:1>,
+	<bloodmagic:base_item_filter>,
+	<bloodmagic:decorative_brick>,
+	<bloodmagic:blood_rune:10>,
+	<bloodmagic:ritual_reader>
+
 ];
 
 for item in itemsForStage {

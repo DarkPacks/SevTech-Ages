@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
+	<abyssalcraft:mre>,
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
 	<abyssalcraft:eggp>,

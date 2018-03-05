@@ -46,14 +46,9 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:129>,
 	<extendedcrafting:trimmed:3>,
 	<pickletweaks:emerald_apple>,
-	<primal:emerald_axe>,
-	<primal:emerald_hatchet>,
-	<primal:emerald_hoe>,
 	<primal:emerald_knapp>,
-	<primal:emerald_pickaxe>,
 	<primal:emerald_point>,
 	<primal:emerald_saw>,
-	<primal:emerald_shovel>,
 	<primal:emerald_workblade>,
 
 	//Diamond Stuff
@@ -77,14 +72,9 @@ var stage5Items as IIngredient[] = [
 	<minecraft:diamond_horse_armor>,
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
-	<primal:diamond_axe>,
-	<primal:diamond_hatchet>,
-	<primal:diamond_hoe>,
 	<primal:diamond_knapp>,
-	<primal:diamond_pickaxe>,
 	<primal:diamond_point>,
 	<primal:diamond_saw>,
-	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
 
 	/*
@@ -755,6 +745,8 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:trimmed:2>,
 	<extendedcrafting:trimmed:4>,
 	<extendedcrafting:trimmed:5>,
+	<extendedcrafting:singularity_custom:1>,
+	<extendedcrafting:singularity_custom:2>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_diamond>,
@@ -1093,6 +1085,8 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:walkway>,
 	<galacticraftplanets:web_torch:1>,
 	<galacticraftplanets:web_torch>,
+	<galacticraftplanets:bucket_sludge>,
+	<galacticraftplanets:bucket_sulphuric_acid>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,
@@ -1362,6 +1356,8 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:uranus_spawner>,
 	<extraplanets:white_sugar_cane>,
 	<extraplanets:zinc_battery>,
+	<extraplanets:callisto:6>,
+	<extraplanets:callisto:7>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,

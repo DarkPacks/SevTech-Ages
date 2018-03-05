@@ -68,6 +68,23 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 	<abyssalcraft:whead>,
+	<abyssalcraft:shoggothblock>,
+	<abyssalcraft:shoggothbiomass>,
+	<abyssalcraft:dltslab2>,
+	<abyssalcraft:dltplank>,
+	<abyssalcraft:dltstairs>,
+	<abyssalcraft:dltslab1>,
+	<abyssalcraft:dltsapling>,
+	<abyssalcraft:dltlog>,
+	<abyssalcraft:dltleaves>,
+	<abyssalcraft:stone:7>,
+	<abyssalcraft:antispidereye>,
+	<abyssalcraft:antibone>,
+	<abyssalcraft:antiflesh>,
+	<abyssalcraft:antipork>,
+	<abyssalcraft:antichicken>,
+	<abyssalcraft:antibeef>,
+	<abyssalcraft:shoggothflesh>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,
@@ -520,6 +537,7 @@ var stageZeroItems as IIngredient[] = [
 	<natura:redwood_logs:2>,
 	<natura:redwood_logs>,
 	<natura:redwood_sapling>,
+	<natura:saguaro_fruit_item>,
 
 	//Rustic
 	<rustic:aloe_vera>,
@@ -883,6 +901,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_cooked>,
 	<primal:wolf_meat_dried>,
 	<primal:wolf_meat_raw>,
+	<primal:tannin_ground>,
 
 	//Quark
 	<quark:midori_block_stairs>,
@@ -1008,7 +1027,10 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>
+	<betterwithmods:wolf_chop>,
+
+	//Mekanism
+	<mekanism:salt>
 ];
 
 for item in stageZeroItems {

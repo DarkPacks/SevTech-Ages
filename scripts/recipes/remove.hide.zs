@@ -2,6 +2,36 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var hideItems as IItemStack[] = [
+	//NEEDS TO BE ADDED BACK WHEN IRON BACKPACKS ADDS UPGRADES BACK
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:everlasting"}),
+
+	//Hidden for later
+	<progressiontweaks:machine_frame>,
+	<progressiontweaks:nanomachine_frame>,
+
+	<primal:tannin_bottle>,
+	<primal:urushi_bottle>,
+	<primal:ovis_milk_bottle>,
+	<primal:plant_tinder>,
+	<primal:iron_saw>,
+	<primal:copper_saw>,
+	<primal:rot>,
+	<primal:valus_melon>,
+	<primal:valus_bread>,
+	<pickletweaks:ppm4:1>,
+	<natura:edibles:10>,
+	<natura:soups:9>,
+	<primal:diamond_axe>,
+	<primal:diamond_hatchet>,
+	<primal:diamond_hoe>,
+	<primal:diamond_pickaxe>,
+	<primal:diamond_shovel>,
+	<primal:emerald_axe>,
+	<primal:emerald_hatchet>,
+	<primal:emerald_hoe>,
+	<primal:emerald_pickaxe>,
+	<primal:emerald_shovel>,
+	<primal:stone_basin>,
 	<base:wrench>,
 	<baubles:ring>,
 	<bloodmagic:component:14>,

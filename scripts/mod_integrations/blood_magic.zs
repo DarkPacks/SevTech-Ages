@@ -44,6 +44,9 @@ BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <
 BloodAltar.removeRecipe(<bloodmagic:sanguine_book>);
 BloodAltar.addRecipe(<bloodmagic:sanguine_book>, <primal:plant_cloth>, 0, 1000,20,0);
 
+BloodAltar.removeRecipe(<bloodmagic:dagger_of_sacrifice>);
+BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <actuallyadditions:item_sword_quartz>, 0, 3000,5,5);
+
 /*
 	Tartaric Forge / Hellfire Forge
 
@@ -103,4 +106,40 @@ TartaricForge.addRecipe(
 	<bloodmagic:demon_crystallizer>,
 	[<bloodmagic:soul_forge>, <ore:stone>, metals.manyullyn.ingot.firstItem, <ore:blockGlass>],
 	500, 100
+);
+
+
+TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:diamond>, <minecraft:redstone_block>, <minecraft:lapis_block>]);
+TartaricForge.addRecipe(
+	<bloodmagic:soul_gem:1>,
+	[<bloodmagic:soul_gem>, <abyssalcraft:shadowshard>, metals.bronze.firstItem, <minecraft:fermented_spider_eye>],
+	60, 20
+);
+
+TartaricForge.removeRecipe([<bloodmagic:soul_gem:1>, <minecraft:diamond>, <minecraft:gold_block>, <bloodmagic:slate:2>]);
+TartaricForge.addRecipe(
+	<bloodmagic:soul_gem:2>,
+	[<bloodmagic:soul_gem:1>, <abyssalcraft:shadowgem>, metals.gold.block.firstItem, <bloodmagic:slate:2>],
+	240, 50
+);
+
+TartaricForge.removeRecipe([<minecraft:stick>, <bloodmagic:slate:1>, <minecraft:dye:4>, <minecraft:dye:4>]);
+TartaricForge.addRecipe(
+	<bloodmagic:node_router>,
+	[<ore:stick>, <bloodmagic:slate:1>, <minecraft:dye:4>, <minecraft:blaze_rod>],
+	400, 5
+);
+
+TartaricForge.removeRecipe([<minecraft:cauldron>, <minecraft:stone>, <minecraft:dye:4>, <minecraft:diamond>]);
+TartaricForge.addRecipe(
+	<bloodmagic:demon_crucible>,
+	[<minecraft:cauldron>, <ore:stone>, <minecraft:dye:4>, metals.platinum.ingot.firstItem],
+	400, 5
+);
+
+TartaricForge.removeRecipe([<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, null]);
+TartaricForge.addRecipe(
+	<bloodmagic:component:10>,
+	[<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, metals.silver.ingot.firstItem],
+	400, 10
 );

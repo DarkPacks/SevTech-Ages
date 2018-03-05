@@ -38,7 +38,11 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
 	<totemic:ceremony_cheat>,
-	<waterstrainer:super_worm>
+	<waterstrainer:super_worm>,
+	<extendedcrafting:recipe_maker>.withTag({Shapeless: 0 as byte}),
+	<extendedcrafting:recipe_maker>.withTag({Shapeless: 1 as byte})
+
+
 ];
 
 for item in creativeItems {

@@ -260,6 +260,10 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:necronomicon_cor>,
 	<abyssalcraft:rendingpedestal>,
 	<abyssalcraft:skin>,
+	<abyssalcraft:energypedestal>,
+	<abyssalcraft:monolithpillar>,
+	<abyssalcraft:sacrificialaltar>,
+	<abyssalcraft:platec>,
 
 	//Tinkers'
 	<tconstruct:channel>,
@@ -482,7 +486,10 @@ var itemsForStage as IIngredient[] = [
 	//Blood Magic
 	<bloodmagic:incense_altar>,
 	<bloodmagic:path:1>,
-	<bloodmagic:path>
+	<bloodmagic:path>,
+	<bloodmagic:blood_rune>,
+	<bloodmagic:blood_rune:1>
+
 ];
 
 for item in itemsForStage {

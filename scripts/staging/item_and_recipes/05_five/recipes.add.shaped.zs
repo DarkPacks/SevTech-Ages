@@ -175,8 +175,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:machineblock:12>, <mysticalagriculture:crafting:48>, <mekanism:machineblock:12>],
 			[<actuallyadditions:block_crystal_empowered:1>, <immersiveengineering:metal_device0:5>, <actuallyadditions:block_crystal_empowered:1>]
 		]
-	]
+	],
 
+	//Mystical Agriculture
+	<twilightforest:steeleaf_ingot>: [
+		//Re-add steeleaf ingot recipe
+		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>],
+		[<mysticalagriculture:steeleaf_essence>, null, <mysticalagriculture:steeleaf_essence>],
+		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>]
+	]
 };
 
 for item, recipesForItem in shapedRecipes {

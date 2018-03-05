@@ -667,6 +667,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:concealed_repeater>,
 	<galacticraftcore:dishbase>,
 	<galacticraftcore:distributor>,
+	<galacticraftcore:emergency_kit>,
 	<galacticraftcore:enclosed:1>,
 	<galacticraftcore:enclosed:7>,
 	<galacticraftcore:enclosed:8>,
@@ -806,7 +807,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
-	<galacticraftcore:emergency_kit>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

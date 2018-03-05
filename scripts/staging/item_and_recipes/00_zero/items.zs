@@ -390,6 +390,9 @@ var stageZeroItems as IIngredient[] = [
 	//Traverse
 	<traverse:blue_rock>,
 	<traverse:blue_rock_cobblestone>,
+	<traverse:blue_rock_cobblestone_slab>,
+	<traverse:blue_rock_cobblestone_wall>,
+	<traverse:blue_rock_slab>,
 	<traverse:brown_autumnal_leaves>,
 	<traverse:brown_autumnal_sapling>,
 	<traverse:cold_grass>,
@@ -406,13 +409,10 @@ var stageZeroItems as IIngredient[] = [
 	<traverse:red_rock>,
 	<traverse:red_rock_cobblestone>,
 	<traverse:red_rock_cobblestone_slab>,
+	<traverse:red_rock_cobblestone_wall>,
 	<traverse:red_rock_slab>,
 	<traverse:yellow_autumnal_leaves>,
 	<traverse:yellow_autumnal_sapling>,
-	<traverse:red_rock_cobblestone_wall>,
-	<traverse:blue_rock_cobblestone_wall>,
-	<traverse:blue_rock_slab>,
-	<traverse:blue_rock_cobblestone_slab>,
 
 	//Animalium
 	<animalium:bear_claw>,
@@ -740,6 +740,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal:night_stone:5>,
 	<primal:night_stone:6>,
 	<primal:night_stone>,
+	<primal:ore_salt>,
 	<primal:ortho_stone:1>,
 	<primal:ortho_stone:2>,
 	<primal:ortho_stone:3>,
@@ -941,8 +942,10 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithaddons:log_sakura>,
 	<betterwithaddons:planks_mulberry>,
 	<betterwithaddons:planks_sakura>,
+	<betterwithaddons:salt>,
 	<betterwithaddons:sapling_mulberry>,
 	<betterwithaddons:sapling_sakura>,
+	<betterwithaddons:tatami>,
 	<betterwithaddons:tweakmat>,
 	<betterwithaddons:wood_lamp>,
 	<betterwithaddons:wool:1>,
@@ -979,6 +982,7 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:gravel_pile>,
 	<betterwithmods:ham_and_eggs>,
 	<betterwithmods:hand_crank>,
+	<betterwithmods:manual>,
 	<betterwithmods:material:2>,
 	<betterwithmods:material:3>,
 	<betterwithmods:material:4>,
@@ -989,6 +993,7 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:material:44>,
 	<betterwithmods:material:52>,
 	<betterwithmods:material:53>,
+	<betterwithmods:material:54>,
 	<betterwithmods:material>,
 	<betterwithmods:pork_dinner>,
 	<betterwithmods:raw_egg>,
@@ -1003,16 +1008,7 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>,
-
-	<betterwithaddons:salt>,
-	<betterwithaddons:tatami>,
-	<betterwithmods:manual>,
-	<primal:ore_salt>,
-	<betterwithmods:material:54>
-
-
-
+	<betterwithmods:wolf_chop>
 ];
 
 for item in stageZeroItems {

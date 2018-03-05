@@ -405,6 +405,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:fusuma>,
 	<betterwithaddons:inverted_gearbox>,
 	<betterwithaddons:japanmat:10>,
+	<betterwithaddons:laxative>,
 	<betterwithaddons:loom>,
 	<betterwithaddons:scaffold>,
 	<betterwithaddons:shoji>,
@@ -444,7 +445,6 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:single_machine:1>,
 	<betterwithmods:slats:*>,
 	<betterwithmods:vase:*>,
-	<betterwithaddons:laxative>,
 
 	//Bibliocraft
 	<bibliocraft:shelf:1>,
@@ -481,9 +481,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Blood Magic
 	<bloodmagic:incense_altar>,
-	<bloodmagic:path>,
-	<bloodmagic:path:1>
-
+	<bloodmagic:path:1>,
+	<bloodmagic:path>
 ];
 
 for item in itemsForStage {

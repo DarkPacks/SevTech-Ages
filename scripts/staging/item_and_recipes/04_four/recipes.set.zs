@@ -132,7 +132,12 @@ var itemsForStage as IIngredient[] = [
 
 	//Quark
 	<quark:arrow_ender>,
+	<quark:biotite_block:1>,
+	<quark:biotite_block:2>,
+	<quark:biotite_block>,
+	<quark:biotite_slab>,
 	<quark:biotite_stairs>,
+	<quark:biotite_wall>,
 	<quark:duskbound_block>,
 	<quark:duskbound_block_slab>,
 	<quark:duskbound_block_stairs>,
@@ -142,11 +147,6 @@ var itemsForStage as IIngredient[] = [
 	<quark:iron_rod>,
 	<quark:purpur_block_wall>,
 	<quark:rain_detector>,
-	<quark:biotite_block>,
-	<quark:biotite_block:1>,
-	<quark:biotite_block:2>,
-	<quark:biotite_slab>,
-	<quark:biotite_wall>,
 
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
@@ -229,11 +229,13 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_library_ctrl>,
 	<cyclicmagic:block_screen>,
 	<cyclicmagic:block_shears>,
+	<cyclicmagic:block_storeempty>,
 	<cyclicmagic:block_user>,
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
 	<cyclicmagic:charm_void>,
 	<cyclicmagic:corrupted_chorus>,
+	<cyclicmagic:dropper_exact>,
 	<cyclicmagic:ender_eye_orb>,
 	<cyclicmagic:ender_pearl_mounted>,
 	<cyclicmagic:ender_pearl_reuse>,
@@ -242,6 +244,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:exp_pylon>,
 	<cyclicmagic:fan>,
 	<cyclicmagic:fluid_pipe>,
+	<cyclicmagic:fluid_placer>,
 	<cyclicmagic:fluid_pump>,
 	<cyclicmagic:glowing_helmet>,
 	<cyclicmagic:item_pipe>,
@@ -255,9 +258,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
-	<cyclicmagic:block_storeempty>,
-	<cyclicmagic:fluid_placer>,
-	<cyclicmagic:dropper_exact>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,
@@ -473,6 +473,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:flow_detector_module>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:gas_lift>,
+	<pneumaticcraft:gps_area_tool>,
 	<pneumaticcraft:gps_tool>,
 	<pneumaticcraft:gun_ammo>,
 	<pneumaticcraft:heat_frame>,
@@ -533,7 +534,6 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:30000>,
 	<pneumaticcraft:vortex_tube>,
-	<pneumaticcraft:gps_area_tool>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

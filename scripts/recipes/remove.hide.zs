@@ -4,6 +4,8 @@ import crafttweaker.item.IItemStack;
 var hideItems as IItemStack[] = [
 	<base:wrench>,
 	<baubles:ring>,
+	<bloodmagic:component:14>,
+	<bloodmagic:sigil_compression>,
 	<cd4017be_lib:m>,
 	<chisel:ironpane:1>,
 	<chisel:ironpane:2>,
@@ -76,8 +78,6 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<bloodmagic:component:14>,
-	<bloodmagic:sigil_compression>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -447,36 +447,35 @@ var hideItems as IItemStack[] = [
 	<refinedstorage:processor:6>,
 	<refinedstorage:processor>,
 
-	//Iron Chest Shulker Box Removal 
-	<ironchest:iron_gold_shulker_upgrade>,
-	<ironchest:gold_diamond_shulker_upgrade>,
-	<ironchest:copper_silver_shulker_upgrade>,
-	<ironchest:silver_gold_shulker_upgrade>,
+	//Iron Chest Shulker Box Removal
 	<ironchest:copper_iron_shulker_upgrade>,
+	<ironchest:copper_silver_shulker_upgrade>,
 	<ironchest:diamond_crystal_shulker_upgrade>,
-	<ironchest:vanilla_iron_shulker_upgrade>,
-	<ironchest:vanilla_copper_shulker_upgrade>,
 	<ironchest:diamond_obsidian_shulker_upgrade>,
-	<ironchest:iron_shulker_box_white:*>,
-	<ironchest:iron_shulker_box_orange:*>,
-	<ironchest:iron_shulker_box_magenta:*>,
-	<ironchest:iron_shulker_box_light_blue:*>,
-	<ironchest:iron_shulker_box_yellow:*>,
-	<ironchest:iron_shulker_box_lime:*>,
-	<ironchest:iron_shulker_box_pink:*>,
-	<ironchest:iron_shulker_box_gray:*>,
-	<ironchest:iron_shulker_box_silver:*>,
-	<ironchest:iron_shulker_box_cyan:*>,
-	<ironchest:iron_shulker_box_purple:*>,
+	<ironchest:gold_diamond_shulker_upgrade>,
+	<ironchest:iron_gold_shulker_upgrade>,
+	<ironchest:iron_shulker_box_black:*>,
 	<ironchest:iron_shulker_box_blue:*>,
 	<ironchest:iron_shulker_box_brown:*>,
+	<ironchest:iron_shulker_box_cyan:*>,
+	<ironchest:iron_shulker_box_gray:*>,
 	<ironchest:iron_shulker_box_green:*>,
+	<ironchest:iron_shulker_box_light_blue:*>,
+	<ironchest:iron_shulker_box_lime:*>,
+	<ironchest:iron_shulker_box_magenta:*>,
+	<ironchest:iron_shulker_box_orange:*>,
+	<ironchest:iron_shulker_box_pink:*>,
+	<ironchest:iron_shulker_box_purple:*>,
 	<ironchest:iron_shulker_box_red:*>,
-	<ironchest:iron_shulker_box_black:*>,
+	<ironchest:iron_shulker_box_silver:*>,
+	<ironchest:iron_shulker_box_white:*>,
+	<ironchest:iron_shulker_box_yellow:*>,
+	<ironchest:silver_gold_shulker_upgrade>,
+	<ironchest:vanilla_copper_shulker_upgrade>,
+	<ironchest:vanilla_iron_shulker_upgrade>,
 
 	//Pickle Tweaks
 	<pickletweaks:ppm4>
-
 ];
 
 for item in hideItems {

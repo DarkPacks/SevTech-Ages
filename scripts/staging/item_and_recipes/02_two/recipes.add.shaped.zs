@@ -565,8 +565,8 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<bloodmagic:experience_tome> : [
 		[
-			[<ore:string>, <ore:blockLapis>, <ore:string>], 
-			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>], 
+			[str, <ore:blockLapis>, str],
+			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>],
 			[metals.gold.ingot, <bloodmagic:blood_orb:*>, metals.gold.ingot]
 		]
 	]

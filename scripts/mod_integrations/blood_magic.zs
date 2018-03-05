@@ -23,11 +23,6 @@ AlchemyArray.addRecipe(<bloodmagic:bound_axe>, <bloodmagic:component:8>, <minecr
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_shovel>);
 AlchemyArray.addRecipe(<bloodmagic:bound_shovel>, <bloodmagic:component:8>, <minecraft:golden_shovel>);
 
-
-
-
-
-
 /*
 	Alchemy Table
 
@@ -88,7 +83,6 @@ TartaricForge.addRecipe(
 	[metals.iron.block.firstItem, metals.platinum.ingot.firstItem, <bloodmagic:slate:2>, null],
 	400, 200
 );
-
 
 TartaricForge.removeRecipe([<minecraft:diamond_chestplate>, <bloodmagic:soul_gem:1>, <minecraft:iron_block>, <minecraft:obsidian>]);
 TartaricForge.addRecipe(

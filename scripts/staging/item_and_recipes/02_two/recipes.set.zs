@@ -153,6 +153,7 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:skin:2>,
 
 	//Better With Mods
+	<betterwithaddons:artifact_frame>,
 	<betterwithaddons:bolt:2>,
 	<betterwithaddons:bundle:1>,
 	<betterwithaddons:crate:12>,
@@ -175,11 +176,14 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:unbaked:2>,
 	<betterwithaddons:unbaked:3>,
 	<betterwithaddons:unbaked>,
+	<betterwithaddons:whitebrick:1>,
+	<betterwithaddons:whitebrick>,
 	<betterwithmods:aesthetic:8>,
 	<betterwithmods:apple_pie>,
 	<betterwithmods:broadhead_arrow>,
 	<betterwithmods:composite_bow>,
 	<betterwithmods:dynamite>,
+	<betterwithmods:material:36>,
 	<betterwithmods:material:40>,
 	<betterwithmods:material:43>,
 	<betterwithmods:raw_pastry:1>,
@@ -189,10 +193,6 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stone_corner:1>,
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
-	<betterwithaddons:whitebrick:1>,
-	<betterwithaddons:whitebrick>,
-	<betterwithmods:material:36>,
-	<betterwithaddons:artifact_frame>,
 
 	//Water Strainer
 	<waterstrainer:efficiency_meter>,
@@ -215,8 +215,8 @@ var itemsForStage as IIngredient[] = [
 	//Cyclic
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:plate_launch_med>,
-	<cyclicmagic:trash>,
 	<cyclicmagic:tool_mount>,
+	<cyclicmagic:trash>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,
@@ -458,14 +458,13 @@ var itemsForStage as IIngredient[] = [
 	<quark:stonebrick_wall>,
 
 	//Blood Magic
-	<bloodmagic:pack_self_sacrifice>,
 	<bloodmagic:blood_rune:5>,
 	<bloodmagic:blood_rune:6>,
+	<bloodmagic:pack_self_sacrifice>,
 	<bloodmagic:path:2>,
-	<bloodmagic:path:5>,
+	<bloodmagic:path:3>,
 	<bloodmagic:path:4>,
-	<bloodmagic:path:3>
-
+	<bloodmagic:path:5>
 ];
 
 for item in itemsForStage {

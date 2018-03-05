@@ -18,6 +18,7 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<minecraft:grass>, //Ore Excavation
 	<modularmachinery:blockfluidoutputhatch>,
+	<primal:ash_bin:9>.withTag({type: "corypha"}),
 	<primal:opal_hoe>,
 
 	/*
@@ -89,6 +90,7 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:transmutator>,
 
 	//Cyclic Magic
+	<cyclicmagic:beacon_redstone>,
 	<cyclicmagic:block_hydrator>,
 	<cyclicmagic:carbon_paper>,
 	<cyclicmagic:charm_fire>,
@@ -123,7 +125,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
-	<cyclicmagic:beacon_redstone>,
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,
@@ -317,6 +318,8 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:wirecoil:3>,
 	<immersiveengineering:wirecoil:4>,
 	<immersiveengineering:wirecoil:5>,
+	<immersiveengineering:wirecoil:6>,
+	<immersiveengineering:wirecoil:7>,
 	<immersiveengineering:wirecoil>,
 	<immersiveengineering:wooden_decoration:1>,
 	<immersiveengineering:wooden_decoration>,
@@ -333,8 +336,6 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:wooden_device1:4>,
 	<immersiveengineering:wooden_device1>,
 	<immersivetech:connectors>,
-	<immersiveengineering:wirecoil:6>,
-	<immersiveengineering:wirecoil:7>,
 
 	//Mekanism
 	<mekanism:balloon:1>,
@@ -453,6 +454,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:japanmat:22>,
 	<betterwithaddons:japanmat:24>,
 	<betterwithaddons:japanmat:25>,
+	<betterwithaddons:legendarium>,
 	<betterwithaddons:slat>,
 	<betterwithaddons:soulsand_pile>,
 	<betterwithaddons:worldshard>,
@@ -477,7 +479,6 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
-	<betterwithaddons:legendarium>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
@@ -828,32 +829,27 @@ var itemsForStage as IIngredient[] = [
 	//Chisel
 	<chisel:auto_chisel>,
 
-	//Primal
-	<primal:ash_bin:9>.withTag({type: "corypha"}),
-
 	//Blood Magic
-	<bloodmagic:path:6>,
-	<bloodmagic:path:7>,
 	<bloodmagic:alchemy_table>,
-	<bloodmagic:decorative_brick:1>,
 	<bloodmagic:blood_rune:7>,
-	<bloodmagic:teleposer>,
-	<bloodmagic:item_demon_crystal:*>,
-	<bloodmagic:demon_pillar_1:*>,
-	<bloodmagic:demon_light:*>,
-	<bloodmagic:demon_wall_1:*>,
-	<bloodmagic:demon_stairs_1:*>,
+	<bloodmagic:decorative_brick:1>,
 	<bloodmagic:demon_brick_1:*>,
 	<bloodmagic:demon_brick_2:*>,
 	<bloodmagic:demon_extras:*>,
+	<bloodmagic:demon_light:*>,
+	<bloodmagic:demon_pillar_1:*>,
+	<bloodmagic:demon_pillar_2:*>,
+	<bloodmagic:demon_pillar_cap_1:*>,
 	<bloodmagic:demon_pillar_cap_2:*>,
 	<bloodmagic:demon_pillar_cap_3:*>,
+	<bloodmagic:demon_stairs_1:*>,
 	<bloodmagic:demon_stairs_2:*>,
 	<bloodmagic:demon_stairs_3:*>,
-	<bloodmagic:demon_pillar_2:*>,
-	<bloodmagic:demon_pillar_cap_1:*>
-
-
+	<bloodmagic:demon_wall_1:*>,
+	<bloodmagic:item_demon_crystal:*>,
+	<bloodmagic:path:6>,
+	<bloodmagic:path:7>,
+	<bloodmagic:teleposer>
 ];
 
 for item in itemsForStage {

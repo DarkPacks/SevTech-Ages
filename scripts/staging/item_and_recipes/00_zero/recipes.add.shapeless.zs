@@ -63,11 +63,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
 	],
-
 	<betterwithmods:manual> : [
 		[<primal:plant_cloth>, <betterwithmods:material>]
 	]
-
 };
 
 for item, recipesForItem in shapelessRecipes {

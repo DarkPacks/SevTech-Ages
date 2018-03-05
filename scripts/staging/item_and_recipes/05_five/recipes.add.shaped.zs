@@ -180,9 +180,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Mystical Agriculture
 	<twilightforest:steeleaf_ingot>: [
 		//Re-add steeleaf ingot recipe
-		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>],
-		[<mysticalagriculture:steeleaf_essence>, null, <mysticalagriculture:steeleaf_essence>],
-		[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>]
+		[
+			[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>],
+			[<mysticalagriculture:steeleaf_essence>, null, <mysticalagriculture:steeleaf_essence>],
+			[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>]
+		]
 	]
 };
 

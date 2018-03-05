@@ -443,6 +443,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:single_machine:1>,
 	<betterwithmods:slats:*>,
 	<betterwithmods:vase:*>,
+	<betterwithaddons:laxative>,
 
 	//Bibliocraft
 	<bibliocraft:shelf:1>,
@@ -475,7 +476,13 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_pickaxe_quartz>,
 	<actuallyadditions:item_shovel_quartz>,
 	<actuallyadditions:item_sword_quartz>,
-	<actuallyadditions:quartz_paxel>
+	<actuallyadditions:quartz_paxel>,
+
+	//Blood Magic
+	<bloodmagic:incense_altar>,
+	<bloodmagic:path>,
+	<bloodmagic:path:1>
+
 ];
 
 for item in itemsForStage {

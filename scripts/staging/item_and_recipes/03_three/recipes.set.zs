@@ -122,6 +122,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:beacon_redstone>,
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,
@@ -331,6 +332,8 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:wooden_device1:4>,
 	<immersiveengineering:wooden_device1>,
 	<immersivetech:connectors>,
+	<immersiveengineering:wirecoil:6>,
+	<immersiveengineering:wirecoil:7>,
 
 	//Mekanism
 	<mekanism:balloon:1>,
@@ -473,6 +476,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
+	<betterwithaddons:legendarium>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,
@@ -821,7 +825,34 @@ var itemsForStage as IIngredient[] = [
 	<yoyos:cord>,
 
 	//Chisel
-	<chisel:auto_chisel>
+	<chisel:auto_chisel>,
+
+	//Primal
+	<primal:ash_bin:9>.withTag({type: "corypha"}),
+
+	//Blood Magic
+	<bloodmagic:path:6>,
+	<bloodmagic:path:7>,
+	<bloodmagic:alchemy_table>,
+	<bloodmagic:decorative_brick:1>,
+	<bloodmagic:blood_rune:7>,
+	<bloodmagic:teleposer>,
+	<bloodmagic:item_demon_crystal:*>,
+	<bloodmagic:demon_pillar_1:*>,
+	<bloodmagic:demon_light:*>,
+	<bloodmagic:demon_wall_1:*>,
+	<bloodmagic:demon_stairs_1:*>,
+	<bloodmagic:demon_brick_1:*>,
+	<bloodmagic:demon_brick_2:*>,
+	<bloodmagic:demon_extras:*>,
+	<bloodmagic:demon_pillar_cap_2:*>,
+	<bloodmagic:demon_pillar_cap_3:*>,
+	<bloodmagic:demon_stairs_2:*>,
+	<bloodmagic:demon_stairs_3:*>,
+	<bloodmagic:demon_pillar_2:*>,
+	<bloodmagic:demon_pillar_cap_1:*>
+
+
 ];
 
 for item in itemsForStage {

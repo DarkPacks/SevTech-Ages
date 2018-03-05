@@ -77,31 +77,6 @@ var stage4Items as IIngredient[] = [
 	<quark:purpur_block_wall>,
 
 	//Shulker Boxes
-	<ironchest:copper_iron_shulker_upgrade>,
-	<ironchest:copper_silver_shulker_upgrade>,
-	<ironchest:diamond_crystal_shulker_upgrade>,
-	<ironchest:diamond_obsidian_shulker_upgrade>,
-	<ironchest:gold_diamond_shulker_upgrade>,
-	<ironchest:iron_gold_shulker_upgrade>,
-	<ironchest:iron_shulker_box_black:*>,
-	<ironchest:iron_shulker_box_blue:*>,
-	<ironchest:iron_shulker_box_brown:*>,
-	<ironchest:iron_shulker_box_cyan:*>,
-	<ironchest:iron_shulker_box_gray:*>,
-	<ironchest:iron_shulker_box_green:*>,
-	<ironchest:iron_shulker_box_light_blue:*>,
-	<ironchest:iron_shulker_box_lime:*>,
-	<ironchest:iron_shulker_box_magenta:*>,
-	<ironchest:iron_shulker_box_orange:*>,
-	<ironchest:iron_shulker_box_pink:*>,
-	<ironchest:iron_shulker_box_purple:*>,
-	<ironchest:iron_shulker_box_red:*>,
-	<ironchest:iron_shulker_box_silver:*>,
-	<ironchest:iron_shulker_box_white:*>,
-	<ironchest:iron_shulker_box_yellow:*>,
-	<ironchest:silver_gold_shulker_upgrade>,
-	<ironchest:vanilla_copper_shulker_upgrade>,
-	<ironchest:vanilla_iron_shulker_upgrade>,
 	<minecraft:black_shulker_box:*>,
 	<minecraft:blue_shulker_box:*>,
 	<minecraft:brown_shulker_box:*>,
@@ -526,6 +501,8 @@ var stage4Items as IIngredient[] = [
 	<forge:bucketfilled>.withTag({FluidName: "canola_oil", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "glycerin", Amount: 1000}),
 	<forge:bucketfilled>.withTag({FluidName: "methanol", Amount: 1000}),
+	<car:battery>,
+	<car:number_plate>,
 
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,
@@ -560,6 +537,11 @@ var stage4Items as IIngredient[] = [
 	<quark:ender_watcher>,
 	<quark:iron_rod>,
 	<quark:rain_detector>,
+	<quark:biotite_block>,
+	<quark:biotite_block:1>,
+	<quark:biotite_block:2>,
+	<quark:biotite_slab>,
+	<quark:biotite_wall>,
 
 	//Cyclic
 	<cyclicmagic:block_disenchanter>,
@@ -589,6 +571,9 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
+	<cyclicmagic:block_storeempty>,
+	<cyclicmagic:fluid_placer>,
+	<cyclicmagic:dropper_exact>,
 
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
@@ -944,6 +929,7 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
+	<pneumaticcraft:gps_area_tool>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,
@@ -1153,7 +1139,12 @@ var stage4Items as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:1>,
-	<chargers:charger>
+	<chargers:charger>,
+
+	//Blood Magic
+	<bloodmagic:component:2>,
+	<bloodmagic:sigil_air>
+
 ];
 
 for item in stage4Items {

@@ -908,6 +908,8 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
+	<betterwithaddons:laxative>,
+	<betterwithmods:aesthetic:11>,
 
 	//Natura
 	<natura:colored_grass:1>,
@@ -996,7 +998,39 @@ var stage1Items as IIngredient[] = [
 	<spartanshields:shield_basic_tin>,
 
 	//Water Strainer
-	<waterstrainer:bait_pot>
+	<waterstrainer:bait_pot>,
+
+	//Blood Magic
+	<bloodmagic:sacrificial_dagger>,
+	<bloodmagic:soul_forge>,
+	<bloodmagic:blood_rune:3>,
+	<bloodmagic:blood_rune:4>,
+	<bloodmagic:soul_snare>,
+	<bloodmagic:incense_altar>,
+	<bloodmagic:path>,
+	<bloodmagic:path:1>,
+	<bloodmagic:sanguine_book>,
+	<bloodmagic:component:32>,
+	<bloodmagic:component:11>,
+	<bloodmagic:component:31>,
+	<bloodmagic:component:5>,
+	<bloodmagic:slate>,
+	<bloodmagic:sigil_divination>,
+	<bloodmagic:sigil_green_grove>,
+	<bloodmagic:sigil_bounce>,
+	<bloodmagic:sigil_blood_light>,
+	<bloodmagic:sigil_frost>,
+	<bloodmagic:arcane_ashes>,
+	<bloodmagic:altar>,
+	<bloodmagic:component:27>,
+	<bloodmagic:sigil_holding>,
+	<bloodmagic:slate:1>,
+	<bloodmagic:monster_soul>,
+	<bloodmagic:soul_gem>,
+	<bloodmagic:inscription_tool:5>,
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"})
+
 ];
 
 for item in stage1Items {

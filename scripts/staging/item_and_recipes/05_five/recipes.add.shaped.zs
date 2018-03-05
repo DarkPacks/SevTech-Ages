@@ -141,7 +141,33 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
 			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
 		]
+	],
+
+	//Iron Chest
+	<ironchest:iron_chest:2>: [
+		[
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, <minecraft:chest>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
+		]
+	],
+	<ironchest:iron_chest:5>: [
+		[
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+			[<mekanism:compresseddiamond>, <ironchest:iron_chest:1>, <mekanism:compresseddiamond>],
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
+		]
+	],
+
+	//Overloaded
+	<overloaded:infinite_water_source>: [
+		[
+			[<actuallyadditions:block_crystal_empowered:1>, <bloodmagic:sigil_water>, <actuallyadditions:block_crystal_empowered:1>],
+			[<mekanism:machineblock:12>, <mysticalagriculture:crafting:48>, <mekanism:machineblock:12>],
+			[<actuallyadditions:block_crystal_empowered:1>, <immersiveengineering:metal_device0:5>, <actuallyadditions:block_crystal_empowered:1>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -375,6 +375,7 @@ var stage2Items as IIngredient[] = [
 	<primal:schist_green_stone:7>,
 	<primal:scoria_stone:7>,
 	<primal:soul_stone:7>,
+	<primal:iron_workblade>,
 
 	//Betweenlands
 	<thebetweenlands:aspectrus_fruit>,
@@ -429,6 +430,9 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
+	<betterwithaddons:whitebrick:*>,
+	<betterwithmods:material:36>,
+	<betterwithaddons:artifact_frame>,
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -986,6 +990,7 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:tool_trade>,
 	<cyclicmagic:trash>,
 	<cyclicmagic:water_freezer>,
+	<cyclicmagic:tool_mount>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_gold>,
@@ -1038,7 +1043,38 @@ var stage2Items as IIngredient[] = [
 	<quark:arrow_explosive>,
 	<quark:brick_wall>,
 	<quark:paper_wall>,
-	<quark:stonebrick_wall>
+	<quark:stonebrick_wall>,
+
+	//Blood Magic
+	<bloodmagic:sigil_magnetism>,
+	<bloodmagic:sigil_fast_miner>,
+	<bloodmagic:sigil_water>,
+	<bloodmagic:sigil_haste>,
+	<bloodmagic:component:4>,
+	<bloodmagic:component:12>,
+	<bloodmagic:component:3>,
+	<bloodmagic:component>,
+	<bloodmagic:component:13>,
+	<bloodmagic:sentient_shovel>,
+	<bloodmagic:sentient_pickaxe>,
+	<bloodmagic:sentient_sword>,
+	<bloodmagic:sentient_axe>,
+	<bloodmagic:lava_crystal>,
+	<bloodmagic:sigil_void>,
+	<bloodmagic:pack_self_sacrifice>,
+	<bloodmagic:blood_rune:5>,
+	<bloodmagic:blood_rune:6>,
+	<bloodmagic:path:2>,
+	<bloodmagic:path:5>,
+	<bloodmagic:path:4>,
+	<bloodmagic:path:3>,
+	<bloodmagic:slate:2>,
+	<bloodmagic:pack_sacrifice>,
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}),
+	<bloodmagic:inscription_tool:1>,
+	<bloodmagic:activation_crystal>,
+	<bloodmagic:experience_tome>
+
 ];
 
 for item in stage2Items {

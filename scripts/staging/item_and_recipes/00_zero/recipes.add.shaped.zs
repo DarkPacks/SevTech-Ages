@@ -168,6 +168,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<natura:overworld_slab> * 3 : [
 		[[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]]
 	],
+	<traverse:blue_rock_cobblestone_slab> * 3 : [
+		[[<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>]]
+	],
+
+	<traverse:blue_rock_slab> * 3 : [
+	  	[[<traverse:blue_rock>, <traverse:blue_rock>, <traverse:blue_rock>]]
+	],	
 	<primal:armor_wolf_body> : [
 		[
 			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],

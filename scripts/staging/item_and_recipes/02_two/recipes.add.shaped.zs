@@ -546,6 +546,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:lava_bucket>, <bloodmagic:blood_orb:*>, <minecraft:lava_bucket>],
 			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
 		]
+	],
+	<bloodmagic:experience_tome> : [
+		[
+			[<ore:string>, <ore:blockLapis>, <ore:string>], 
+			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>], 
+			[metals.gold.ingot, <bloodmagic:blood_orb:*>, metals.gold.ingot]
+		]
 	]
 };
 

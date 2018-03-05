@@ -70,6 +70,7 @@ var removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
+	<quantumstorage:upgrade:3>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

@@ -127,6 +127,24 @@ TableCrafting.addShaped(<ironjetpacks:creative_cell>,
 	]
 );
 
+TableCrafting.addShaped(<mekanism:machineblock2:11>,
+	[
+		[<industrialforegoing:black_hole_tank>, <bloodmagic:blood_rune:7>, <mekanism:basicblock:11>, <ore:ingotInsanium>, <extendedcrafting:singularity_custom:1>, <ore:ingotInsanium>, <mekanism:basicblock:11>, <bloodmagic:blood_rune:7>, <industrialforegoing:black_hole_tank>], 
+		[<integrateddynamics:part_fluid_reader_item>, <minecraft:sponge>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <mob_grinding_utils:tank>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <minecraft:sponge>, <integrateddynamics:part_fluid_reader_item>], 
+		[<ore:ingotEnhancedGalgadorian>, <abyssalcraft:solidlava>, <mysticalagriculture:crafting:48>, <refinedstorage:fluid_storage_disk:3>, <mekanism:machineblock2:11>, <refinedstorage:fluid_storage_disk:3>, <mysticalagriculture:crafting:48>, <abyssalcraft:solidlava>, <ore:ingotEnhancedGalgadorian>], 
+		[<ore:ingotInsanium>, <enderutilities:enderbucket>, <overloaded:infinite_water_source>, <mob_grinding_utils:tank_sink>, <bloodmagic:blood_tank:15>, <mob_grinding_utils:tank_sink>, <overloaded:infinite_water_source>, <enderutilities:enderbucket>, <ore:ingotInsanium>], 
+		[<extendedcrafting:singularity_custom:1>, <mob_grinding_utils:tank>, <mekanism:machineblock2:11>, <bloodmagic:blood_tank:15>, <extendedcrafting:singularity_custom:2>, <bloodmagic:blood_tank:15>, <mekanism:machineblock2:11>, <mob_grinding_utils:tank>, <extendedcrafting:singularity_custom:1>], 
+		[<ore:ingotInsanium>, <enderutilities:enderbucket>, <overloaded:infinite_water_source>, <mob_grinding_utils:tank_sink>, <bloodmagic:blood_tank:15>, <mob_grinding_utils:tank_sink>, <overloaded:infinite_water_source>, <enderutilities:enderbucket>, <ore:ingotInsanium>], 
+		[<ore:ingotEnhancedGalgadorian>, <abyssalcraft:solidlava>, <mysticalagriculture:crafting:48>, <refinedstorage:fluid_storage_disk:3>, <mekanism:machineblock2:11>, <refinedstorage:fluid_storage_disk:3>, <mysticalagriculture:crafting:48>, <abyssalcraft:solidlava>, <ore:ingotEnhancedGalgadorian>], 
+		[<integrateddynamics:part_fluid_reader_item>, <minecraft:sponge>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <mob_grinding_utils:tank>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <minecraft:sponge>, <integrateddynamics:part_fluid_reader_item>], 
+		[<industrialforegoing:black_hole_tank>, <bloodmagic:blood_rune:7>, <mekanism:basicblock:11>, <ore:ingotInsanium>, <extendedcrafting:singularity_custom:1>, <ore:ingotInsanium>, <mekanism:basicblock:11>, <bloodmagic:blood_rune:7>, <industrialforegoing:black_hole_tank>]
+	]
+);
+
+mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:32>, 
+[<ore:ingotIron>, <ore:ingotGold>, <ore:ingotAstralStarmetal>, <ore:ingotSoulforgedSteel>, <ore:listAllExplosives>, <ore:ingotPlatinum>, <ore:ingotRedstoneAlloy>, <ore:ingotInvar>, <ore:ingotBlackIron>, <ore:ingotHOPGraphite>, <ore:ingotCopper>, <ore:ingotAluminum>, <ore:ingotLead>, <ore:ingotSilver>, <ore:ingotNickel>, <ore:ingotConstantan>, <ore:ingotElectrum>, <ore:ingotSteel>, <ore:ingotRefinedObsidian>, <ore:ingotOsmium>, <ore:ingotBronze>, <ore:ingotRefinedGlowstone>, <ore:ingotTin>, <ore:ingotModularium>, <ore:ingotInsanium>, <ore:ingotBaseEssence>, <ore:ingotInferium>, <ore:ingotPrudentium>, <ore:ingotIntermedium>, <ore:ingotSuperium>, <ore:ingotSupremium>, <ore:ingotSoulium>, <ore:ingotSyrmorite>, <ore:ingotOctine>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotReinforcedMetal>, <ore:ingotEnhancedGalgadorian>, <ore:ingotGalgadorian>, <ore:ingotSteeleaf>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <enderutilities:enderpart>, <enderutilities:enderpart:1>, <enderutilities:enderpart:2>]
+);
+
 /*
 	Ender Crafting
 

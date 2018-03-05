@@ -71,7 +71,8 @@ var removeItems as IItemStack[] = [
 	<abyssalcraft:gatewaykey>,
 
 	//Blood Magic
-	<bloodmagic:lava_crystal>
+	<bloodmagic:lava_crystal>,
+	<bloodmagic:experience_tome>
 ];
 
 for item in removeItems {

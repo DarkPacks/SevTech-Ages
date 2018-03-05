@@ -409,6 +409,10 @@ var stageZeroItems as IIngredient[] = [
 	<traverse:red_rock_slab>,
 	<traverse:yellow_autumnal_leaves>,
 	<traverse:yellow_autumnal_sapling>,
+	<traverse:red_rock_cobblestone_wall>,
+	<traverse:blue_rock_cobblestone_wall>,
+	<traverse:blue_rock_slab>,
+	<traverse:blue_rock_cobblestone_slab>,
 
 	//Animalium
 	<animalium:bear_claw>,
@@ -893,6 +897,7 @@ var stageZeroItems as IIngredient[] = [
 	<quark:stone_granite_slab>,
 	<quark:stone_granite_wall>,
 	<quark:stone_wall>,
+	<quark:witch_hat>,
 
 	//Better With mods
 	<betterwithaddons:bag:17>,
@@ -998,7 +1003,16 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>
+	<betterwithmods:wolf_chop>,
+
+	<betterwithaddons:salt>,
+	<betterwithaddons:tatami>,
+	<betterwithmods:manual>,
+	<primal:ore_salt>,
+	<betterwithmods:material:54>
+
+
+
 ];
 
 for item in stageZeroItems {

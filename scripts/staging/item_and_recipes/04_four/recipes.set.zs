@@ -142,6 +142,11 @@ var itemsForStage as IIngredient[] = [
 	<quark:iron_rod>,
 	<quark:purpur_block_wall>,
 	<quark:rain_detector>,
+	<quark:biotite_block>,
+	<quark:biotite_block:1>,
+	<quark:biotite_block:2>,
+	<quark:biotite_slab>,
+	<quark:biotite_wall>,
 
 	//Pickle Tweaks
 	<pickletweaks:magnet>,
@@ -250,6 +255,9 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,
 	<cyclicmagic:wireless_transmitter>,
+	<cyclicmagic:block_storeempty>,
+	<cyclicmagic:fluid_placer>,
+	<cyclicmagic:dropper_exact>,
 
 	//Tinkers
 	<tcomplement:manyullyn_boots>,
@@ -525,6 +533,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:30000>,
 	<pneumaticcraft:vortex_tube>,
+	<pneumaticcraft:gps_area_tool>,
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

@@ -36,7 +36,10 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
 	<totemic:ceremony_cheat>,
-	<waterstrainer:super_worm>
+	<waterstrainer:super_worm>,
+	<bloodmagic:sacrificial_dagger:1>,
+	<bloodmagic:activation_crystal:2>
+
 ];
 
 for item in creativeItems {

@@ -189,6 +189,10 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stone_corner:1>,
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
+	<betterwithaddons:whitebrick:1>,
+	<betterwithaddons:whitebrick>,
+	<betterwithmods:material:36>,
+	<betterwithaddons:artifact_frame>,
 
 	//Water Strainer
 	<waterstrainer:efficiency_meter>,
@@ -212,6 +216,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:plate_launch_med>,
 	<cyclicmagic:trash>,
+	<cyclicmagic:tool_mount>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,
@@ -450,7 +455,16 @@ var itemsForStage as IIngredient[] = [
 	<quark:brick_wall>,
 	<quark:glass_item_frame>,
 	<quark:paper_wall>,
-	<quark:stonebrick_wall>
+	<quark:stonebrick_wall>,
+
+	//Blood Magic
+	<bloodmagic:pack_self_sacrifice>,
+	<bloodmagic:blood_rune:5>,
+	<bloodmagic:blood_rune:6>,
+	<bloodmagic:path:2>,
+	<bloodmagic:path:5>,
+	<bloodmagic:path:4>,
+	<bloodmagic:path:3>
 
 ];
 

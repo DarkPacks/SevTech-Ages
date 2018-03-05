@@ -106,6 +106,10 @@ var itemsForStage as IIngredient[] = [
 	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
 
+	//Better With Mods / Addons
+	<betterwithaddons:world_scale_active>,
+	<betterwithaddons:world_scale_ore:1>,
+
 	//Cyclic
 	<cyclicmagic:auto_crafter>,
 	<cyclicmagic:block_enchanter>,
@@ -802,6 +806,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
+	<galacticraftcore:emergency_kit>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

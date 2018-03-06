@@ -1169,7 +1169,24 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, <immersiveengineering:metal_device1:6>,metals.aluminum.plate],
 			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
 		]
+	],
+
+	//Blood Magic
+	<bloodmagic:ritual_diviner> : [
+		[	
+		 	[metals.platinum.ingot, <bloodmagic:inscription_tool:2>, metals.platinum.ingot], 
+		 	[<bloodmagic:inscription_tool:4>, <ore:stickTreatedWood>, <bloodmagic:inscription_tool:3>], 
+		 	[metals.platinum.ingot, <bloodmagic:inscription_tool:1>, metals.platinum.ingot]
+		]
+	],
+	<bloodmagic:ritual_diviner:1>.withTag({}) : [
+		[	
+		 	[null, <bloodmagic:slate:3>, null], 
+		 	[<bloodmagic:inscription_tool:5>, <bloodmagic:ritual_diviner>, <bloodmagic:inscription_tool:5>], 
+		 	[null, <bloodmagic:slate:3>, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

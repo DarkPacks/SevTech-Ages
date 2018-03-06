@@ -389,6 +389,8 @@ var stage2Items as IIngredient[] = [
 	<thebetweenlands:golden_club_stalk>,
 	<thebetweenlands:marsh_marigold_stalk>,
 	<thebetweenlands:present>,
+	<thebetweenlands:bl_bucket_infusion>,
+	<thebetweenlands:syrmorite_bucket_solid_rubber>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct>,
@@ -856,6 +858,9 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:shoggothflesh:1>,
 	<abyssalcraft:shoggothflesh:4>,
 	<abyssalcraft:odbcore>,
+	<abyssalcraft:stone:5>,
+	<abyssalcraft:gatekeeperessence>,
+	<abyssalcraft:dreadportal>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
@@ -1151,3 +1156,14 @@ var stage2Items as IIngredient[] = [
 for item in stage2Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+
+mods.ItemStages.stageLiquid("two", <liquid:astralsorcery.liquidstarlight>);
+mods.ItemStages.stageLiquid("two", <liquid:blood>);
+mods.ItemStages.stageLiquid("two", <liquid:iron>);
+mods.ItemStages.stageLiquid("two", <liquid:gold>);
+mods.ItemStages.stageLiquid("two", <liquid:electrum>);
+mods.ItemStages.stageLiquid("two", <liquid:steeleaf>);
+mods.ItemStages.stageLiquid("two", <liquid:ender_pearl>);
+mods.ItemStages.stageLiquid("two", <liquid:fiery>);
+mods.ItemStages.stageLiquid("two", <liquid:glass>);

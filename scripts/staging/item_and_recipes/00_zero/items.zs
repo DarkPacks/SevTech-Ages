@@ -85,6 +85,14 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:antichicken>,
 	<abyssalcraft:antibeef>,
 	<abyssalcraft:shoggothflesh>,
+	<abyssalcraft:anticorbone>,
+	<abyssalcraft:anticorflesh>,
+	<abyssalcraft:stonetablet>,
+	<abyssalcraft:stonetablet>.withTag({ItemInventory: [], PotEnergy: 0.0 as float}),
+	<abyssalcraft:stonetablet>.withTag({Cursed: 1 as byte}),
+	<abyssalcraft:energycollector>,
+	<abyssalcraft:energyrelay>,
+	<abyssalcraft:energycontainer>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,
@@ -1030,9 +1038,35 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:wolf_chop>,
 
 	//Mekanism
-	<mekanism:salt>
+	<mekanism:salt>,
+
+	//Liquids
+	<primal:tannin>,
+	<primal:urushi>,
+	<primal:brine_netjry>,
+	<primal:waste>,
+	<primal:bitumen>,
+	<primal:bitumen_boiling>,
+	<primal:paraffin>,
+	<primal:magma_basaltic>,
+	<primal:ovis_atre_milk>,
+	<rustic:olive_oil>,
+	<rustic:ironberry_juice>,
+	<rustic:wildberry_juice>,
+	<rustic:grape_juice>,
+	<rustic:apple_juice>,
+	<rustic:ale_wort>,
+	<rustic:honey>,
+	<thebetweenlands:swamp_water>,
+	<thebetweenlands:stagnant_water>,
+	<thebetweenlands:tar>,
+	<thebetweenlands:rubber>
+
+
+
 ];
 
 for item in stageZeroItems {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+

@@ -294,6 +294,7 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_sword_emerald>,
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
+	<actuallyadditions:block_fishing_net>,
 
 	//Steve's Factory Manager
 	<stevesfactorymanager:blockcablebudname>,

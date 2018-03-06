@@ -1241,6 +1241,10 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:xpjuice>,
+	<cyclicmagic:milk>,
+	<cyclicmagic:poison>,
+	<car:glycerin>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,
@@ -1383,7 +1387,7 @@ var stage3Items as IIngredient[] = [
 	<modularmachinery:blockfluidoutputhatch>,
 	<modularmachinery:blockinputbus:1>,
 	<modularmachinery:blockoutputbus:1>,
-	<modularmachinery:itemblueprint:*>,
+	//<item:modularmachine:itemblueprint>,
 
 	//Buildcraft
 	<buildcraftcore:engine>,
@@ -1621,10 +1625,64 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:decorative_brick:2>,
 	<bloodmagic:decorative_brick:3>,
 	<bloodmagic:blood_rune:10>,
-	<bloodmagic:ritual_reader>
+	<bloodmagic:ritual_reader>,
+	<bloodmagic:ritual_diviner>,
+	<bloodmagic:ritual_diviner:1>,
+	<bloodmagic:ritual_diviner:2>,
+
+	<immersiveengineering:fluidcreosote>,
+	<immersiveengineering:fluidplantoil>,
+	<immersiveengineering:fluidethanol>,
+	<immersiveengineering:fluidbiodiesel>,
+	<immersiveengineering:fluidconcrete>
+
 
 ];
 
 for item in stage3Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+
+mods.ItemStages.stageLiquid("three", <liquid:canolaoil>);
+
+
+
+mods.ItemStages.stageLiquid("three", <liquid:platinum>);
+mods.ItemStages.stageLiquid("three", <liquid:redstone_alloy>);
+mods.ItemStages.stageLiquid("three", <liquid:reinforced_metal>);
+mods.ItemStages.stageLiquid("three", <liquid:redstone>);
+mods.ItemStages.stageLiquid("three", <liquid:glowstone>);
+mods.ItemStages.stageLiquid("three", <liquid:naphtha>);
+mods.ItemStages.stageLiquid("three", <liquid:plastic>);
+mods.ItemStages.stageLiquid("three", <liquid:propene>);
+mods.ItemStages.stageLiquid("three", <liquid:galgadorian>);
+mods.ItemStages.stageLiquid("three", <liquid:steel>);
+mods.ItemStages.stageLiquid("three", <liquid:silver>);
+mods.ItemStages.stageLiquid("three", <liquid:obsidian>);
+mods.ItemStages.stageLiquid("three", <liquid:enhanced_galgadorian>);
+mods.ItemStages.stageLiquid("three", <liquid:invar>);
+mods.ItemStages.stageLiquid("three", <liquid:pigiron>);
+mods.ItemStages.stageLiquid("three", <liquid:lead>);
+mods.ItemStages.stageLiquid("three", <liquid:nickel>);
+mods.ItemStages.stageLiquid("three", <liquid:aluminum>);
+mods.ItemStages.stageLiquid("three", <liquid:modularium>);
+
+
+mods.ItemStages.stageLiquid("three", <liquid:creosote>);
+mods.ItemStages.stageLiquid("three", <liquid:plantoil>);
+mods.ItemStages.stageLiquid("three", <liquid:ethanol>);
+mods.ItemStages.stageLiquid("three", <liquid:biodiesel>);
+mods.ItemStages.stageLiquid("three", <liquid:concrete>);
+mods.ItemStages.stageLiquid("three", <liquid:diesel>);
+mods.ItemStages.stageLiquid("three", <liquid:lubricant>);
+mods.ItemStages.stageLiquid("three", <liquid:gasoline>);
+mods.ItemStages.stageLiquid("three", <liquid:napalm>);
+
+mods.ItemStages.stageLiquid("three", <liquid:knightslime>);
+mods.ItemStages.stageLiquid("three", <liquid:purpleslime>);
+mods.ItemStages.stageLiquid("three", <liquid:alubrass>);
+mods.ItemStages.stageLiquid("three", <liquid:blueslime>);
+
+mods.ItemStages.stageLiquid("three", <liquid:dist_water>);
+mods.ItemStages.stageLiquid("three", <liquid:slime>);

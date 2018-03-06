@@ -9,6 +9,8 @@ var hideItems as IItemStack[] = [
 	<progressiontweaks:machine_frame>,
 	<progressiontweaks:nanomachine_frame>,
 
+	<extraplanets:block_multi>,
+
 	<primal:tannin_bottle>,
 	<primal:urushi_bottle>,
 	<primal:ovis_milk_bottle>,
@@ -505,7 +507,13 @@ var hideItems as IItemStack[] = [
 	<ironchest:vanilla_iron_shulker_upgrade>,
 
 	//Pickle Tweaks
-	<pickletweaks:ppm4>
+	<pickletweaks:ppm4>,
+
+	<primal:slab_glass>,
+	<primal:slab_soulglass>,
+	<primal:thin_slab_glass>,
+	<primal:thin_slab_soulglass>
+
 ];
 
 for item in hideItems {

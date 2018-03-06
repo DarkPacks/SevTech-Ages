@@ -1145,9 +1145,34 @@ var stage4Items as IIngredient[] = [
 
 	//Blood Magic
 	<bloodmagic:component:2>,
-	<bloodmagic:sigil_air>
+	<bloodmagic:sigil_air>,
+
+	<galacticraftcore:fuel>,
+	<car:canola_oil>,
+	<car:bio_diesel>,
+	<car:methanol>,
+	<car:canola_methanol_mix>,
+	<car:glycerin>
+
+
 ];
 
 for item in stage4Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+mods.ItemStages.stageLiquid("four", <liquid:fuel>);
+mods.ItemStages.stageLiquid("four", <liquid:kerosene>);
+mods.ItemStages.stageLiquid("four", <liquid:etchacid>);
+mods.ItemStages.stageLiquid("four", <liquid:lpg>);
+mods.ItemStages.stageLiquid("four", <liquid:cobalt>);
+mods.ItemStages.stageLiquid("four", <liquid:ardite>);
+mods.ItemStages.stageLiquid("four", <liquid:manyullyn>);
+mods.ItemStages.stageLiquid("four", <liquid:essence>);
+mods.ItemStages.stageLiquid("four", <liquid:meat>);
+mods.ItemStages.stageLiquid("four", <liquid:latex>);
+mods.ItemStages.stageLiquid("four", <liquid:sewage>);
+mods.ItemStages.stageLiquid("four", <liquid:sludge>);
+mods.ItemStages.stageLiquid("four", <liquid:biofuel>);
+mods.ItemStages.stageLiquid("four", <liquid:if.pink_slime>);
+mods.ItemStages.stageLiquid("four", <liquid:if.protein>);

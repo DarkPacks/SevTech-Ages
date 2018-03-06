@@ -1051,10 +1051,37 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:blood_rune:1>,
 	<bloodmagic:dagger_of_sacrifice>,
 	<bloodmagic:soul_gem:1>,
-	<bloodmagic:blood_rune:2>
+	<bloodmagic:blood_rune:2>,
+
+
+	<acintegration:moltenabyssalnite>,
+	<acintegration:moltencoralium>,
+	<acintegration:moltendreadium>,
+	<abyssalcraft:antiwater>,
+	<abyssalcraft:cwater>
+
 
 ];
 
 for item in stage1Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+
+mods.ItemStages.stageLiquid("zero", <liquid:water>);
+mods.ItemStages.stageLiquid("zero", <liquid:lava>);
+mods.ItemStages.stageLiquid("one", <liquid:clay>);
+mods.ItemStages.stageLiquid("one", <liquid:copper>);
+mods.ItemStages.stageLiquid("one", <liquid:tin>);
+mods.ItemStages.stageLiquid("one", <liquid:bronze>);
+mods.ItemStages.stageLiquid("one", <liquid:dirt>);
+mods.ItemStages.stageLiquid("one", <liquid:lifeessence>);
+mods.ItemStages.stageLiquid("one", <liquid:stone>);
+
+
+mods.ItemStages.stageLiquid("one", <liquid:ale>);
+mods.ItemStages.stageLiquid("one", <liquid:cider>);
+mods.ItemStages.stageLiquid("one", <liquid:ironwine>);
+mods.ItemStages.stageLiquid("one", <liquid:mead>);
+mods.ItemStages.stageLiquid("one", <liquid:wildberrywine>);
+mods.ItemStages.stageLiquid("one", <liquid:wine>);

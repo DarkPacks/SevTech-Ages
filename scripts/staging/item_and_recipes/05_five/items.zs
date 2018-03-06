@@ -126,7 +126,6 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:block_firework_box>,
 	<actuallyadditions:block_fluid_collector>,
 	<actuallyadditions:block_fluid_placer>,
-	<actuallyadditions:block_inputter>,
 	<actuallyadditions:block_item_repairer>,
 	<actuallyadditions:block_item_viewer>,
 	<actuallyadditions:block_lamp_powerer>,
@@ -275,7 +274,7 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:item_wings_of_the_bats>,
 	<actuallyadditions:magnet_ring_bauble>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
-	<actuallyadditions:potion_ring_advanced_bauble:*>,
+	<actuallyadditions:block_fishing_net>,
 
 	//Steve's Factory Manager
 	<stevesfactorymanager:blockcablebudname>,
@@ -1545,7 +1544,12 @@ var stage5Items as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:2>,
-	<chargers:wireless_charger>
+	<chargers:wireless_charger>,
+
+	<actuallyadditions:block_canola_oil>,
+	<actuallyadditions:block_refined_canola_oil>,
+	<actuallyadditions:block_crystal_oil>,
+	<actuallyadditions:block_empowered_oil>
 ];
 
 for item in stage5Items {
@@ -1574,9 +1578,93 @@ var soulstoneItems as IIngredient[] = [
 	<mysticalagriculture:soulstone_brick_stairs>,
 	<mysticalagriculture:soulstone_brick_wall>,
 	<mysticalagriculture:soulstone_slab>
+
+
 ];
 
 for item in soulstoneItems {
 	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage(STAGES.three, item);
 }
+
+
+mods.ItemStages.stageLiquid("five", <liquid:osmium>);
+
+mods.ItemStages.stageLiquid("five", <liquid:argon>);
+
+
+mods.ItemStages.stageLiquid("five", <liquid:carbondioxide>);
+mods.ItemStages.stageLiquid("five", <liquid:helium>);
+mods.ItemStages.stageLiquid("five", <liquid:hydrogen>);
+mods.ItemStages.stageLiquid("five", <liquid:methane>);
+mods.ItemStages.stageLiquid("five", <liquid:nitrogen>);
+mods.ItemStages.stageLiquid("five", <liquid:oxygen>);
+mods.ItemStages.stageLiquid("five", <liquid:brine>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidlithium>);
+mods.ItemStages.stageLiquid("five", <liquid:heavywater>);
+mods.ItemStages.stageLiquid("five", <liquid:steam>);
+
+mods.ItemStages.stageLiquid("five", <liquid:soulium>);
+mods.ItemStages.stageLiquid("five", <liquid:base_essence>);
+mods.ItemStages.stageLiquid("five", <liquid:inferium>);
+mods.ItemStages.stageLiquid("five", <liquid:prudentium>);
+mods.ItemStages.stageLiquid("five", <liquid:intermedium>);
+mods.ItemStages.stageLiquid("five", <liquid:superium>);
+mods.ItemStages.stageLiquid("five", <liquid:supremium>);
+
+mods.ItemStages.stageLiquid("five", <liquid:liquidchlorine>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidoxygen>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidhydrogen>);
+
+
+//These don't do anything
+//mods.ItemStages.stageLiquid("five", <liquid:refinedcanolaoil>);
+//mods.ItemStages.stageLiquid("five", <liquid:crystaloil>);
+//mods.ItemStages.stageLiquid("five", <liquid:empoweredoil>);
+
+
+mods.ItemStages.stageLiquid("five", <liquid:emerald>);
+mods.ItemStages.stageLiquid("five", <liquid:pure_matter>);
+
+
+mods.ItemStages.stageLiquid("five", <liquid:liquidargon>);
+mods.ItemStages.stageLiquid("five", <liquid:liquiddeuterium>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidethene>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidfusionfuel>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidhydrogenchloride>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidmethane>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidnitrogen>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidsodium>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidsulfurdioxide>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidsulfurtrioxide>);
+mods.ItemStages.stageLiquid("five", <liquid:liquidtritium>);
+
+/*
+           `.:+osyo++:.     `.:++oo+:`            
+        `:shhyssssssssyo/:+syyysssssyhs:`         
+      `/yyo-+ssssyyyyssoshdsssssssss+:+yy-        
+     .sysssoshhhhyyyyhhhhsyhosyyyyyyysyssy+`      
+    -yysssyhyssssssssssssydmdhyyysyyyyyhhhdh:`    
+   :yys+sssssssssyyysssoooosyyyssyyyyyyssssyhy/`  
+ `odys+-yssssyyyo:.`         `:hs:..``     `.-oy/ 
++yhhss.-yssyy/.`       `+hd+`  -o        -yds- .s/
+ysyyssossshds/.        :mhMd-  :o        hdmm+  /y
+ossssssssssssyhho-.`    `:-.`-/ds-...````.:/--:oh:
+.sssssssssssssyhhhhysooooosyhhhdyyhhyyyyyyyyyyhh: 
+osssssssssssssssssyyyyyyysyddyssssssssssssssys:`  
+ssssssssssssssssssssssyhhhyssssssyhhhhhhhyhh-     
+sssssssssssssssssssssyyssssssssssssshysssssyy:    
+sssssssssssssssssssssssssssssssssssssssssssssy:   
+sssssssssssssyyyyyyyssssssssssssssssssssssssoyh-  
+ssssssssssydhyyyyyyyhhhhhhhyyyyssssssssyhhddhhd+` 
+ssssssssshdsssyyyhhyyyyyssyyyyhhhhhhhhyhysssyhs-  
+sssssssyssdhyhhyhyyyyyssyyyyyyyyyyyyyyyyyyyyho`   
+sssssssshhysssssssyyyyhhhhhhhhyyhhyyyyyyyyys+.    
+ssssssssssyysssssssssssssssssssssssssshhs:`       
+ddhdhhyyssssssssssssssssssssssssssyys+-           
+hddhhhhhhhhhhhhyyyyyhhyyyyyssyhdms-`              
+hhhhhhhhddddhhhdhhhhhhyhhhdddddhhdy/`             
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdy-   
+
+
+*/

@@ -301,8 +301,10 @@ for metalName, metal in metals {
 	var hasLiquid = metalLiquid as bool;
 	var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
-	//Stage liquid containers
+	//Stage liquids
 	if (metalStage != "" & hasLiquid) {
+		mods.ItemStages.stageLiquid(metalStage, metalLiquid);
+
 		for bucket in buckets {
 			var filledBucket as IItemStack = scripts.utils.formatBucket(bucket, metalLiquid.name);
 			mods.ItemStages.addItemStage(metalStage, filledBucket);

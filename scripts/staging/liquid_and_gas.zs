@@ -28,10 +28,7 @@ var liquidItemsForStage as IItemStack[][string] = {
 
 	STAGES.one : [
 		<abyssalcraft:antiwater>,
-		<abyssalcraft:cwater>,
-		<acintegration:moltenabyssalnite>,
-		<acintegration:moltencoralium>,
-		<acintegration:moltendreadium>
+		<abyssalcraft:cwater>
 	],
 
 	STAGES.three : [
@@ -78,16 +75,13 @@ var liquidsForStage as ILiquidStack[][string] = {
 
 	STAGES.one : [
 		<liquid:ale>,
-		<liquid:bronze>,
 		<liquid:cider>,
 		<liquid:clay>,
-		<liquid:copper>,
 		<liquid:dirt>,
 		<liquid:ironwine>,
 		<liquid:lifeessence>,
 		<liquid:mead>,
 		<liquid:stone>,
-		<liquid:tin>,
 		<liquid:wildberrywine>,
 		<liquid:wine>
 	],
@@ -95,18 +89,11 @@ var liquidsForStage as ILiquidStack[][string] = {
 	STAGES.two : [
 		<liquid:astralsorcery.liquidstarlight>,
 		<liquid:blood>,
-		<liquid:electrum>,
 		<liquid:ender_pearl>,
-		<liquid:fiery>,
-		<liquid:glass>,
-		<liquid:gold>,
-		<liquid:iron>,
-		<liquid:steeleaf>
+		<liquid:glass>
 	],
 
 	STAGES.three : [
-		<liquid:alubrass>,
-		<liquid:aluminum>,
 		<liquid:biodiesel>,
 		<liquid:blueslime>,
 		<liquid:canolaoil>,
@@ -114,38 +101,23 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:creosote>,
 		<liquid:diesel>,
 		<liquid:dist_water>,
-		<liquid:enhanced_galgadorian>,
 		<liquid:ethanol>,
-		<liquid:galgadorian>,
 		<liquid:gasoline>,
 		<liquid:glowstone>,
-		<liquid:invar>,
-		<liquid:knightslime>,
-		<liquid:lead>,
 		<liquid:lubricant>,
-		<liquid:modularium>,
 		<liquid:napalm>,
 		<liquid:naphtha>,
-		<liquid:nickel>,
 		<liquid:obsidian>,
-		<liquid:pigiron>,
 		<liquid:plantoil>,
 		<liquid:plastic>,
-		<liquid:platinum>,
 		<liquid:propene>,
 		<liquid:purpleslime>,
 		<liquid:redstone>,
-		<liquid:redstone_alloy>,
-		<liquid:reinforced_metal>,
-		<liquid:silver>,
-		<liquid:slime>,
-		<liquid:steel>
+		<liquid:slime>
 	],
 
 	STAGES.four : [
-		<liquid:ardite>,
 		<liquid:biofuel>,
-		<liquid:cobalt>,
 		<liquid:essence>,
 		<liquid:etchacid>,
 		<liquid:fuel>,
@@ -154,7 +126,6 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:kerosene>,
 		<liquid:latex>,
 		<liquid:lpg>,
-		<liquid:manyullyn>,
 		<liquid:meat>,
 		<liquid:sewage>,
 		<liquid:sludge>

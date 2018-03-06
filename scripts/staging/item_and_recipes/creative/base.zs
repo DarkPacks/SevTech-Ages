@@ -13,6 +13,8 @@ var creativeItems as IItemStack[] = [
 	<enderutilities:endercapacitor:3>,
 	<enderutilities:enderpart:30>,
 	<enderutilities:enderpart:81>,
+	<extendedcrafting:recipe_maker>.withTag({Shapeless: 0 as byte}),
+	<extendedcrafting:recipe_maker>.withTag({Shapeless: 1 as byte}),
 	<galacticraftcore:concealed_detector>,
 	<galacticraftcore:dungeonfinder>,
 	<galacticraftcore:infinite_battery>,
@@ -38,11 +40,7 @@ var creativeItems as IItemStack[] = [
 	<storagedrawers:upgrade_creative>,
 	<tconstruct:materials:50>,
 	<totemic:ceremony_cheat>,
-	<waterstrainer:super_worm>,
-	<extendedcrafting:recipe_maker>.withTag({Shapeless: 0 as byte}),
-	<extendedcrafting:recipe_maker>.withTag({Shapeless: 1 as byte})
-
-
+	<waterstrainer:super_worm>
 ];
 
 for item in creativeItems {

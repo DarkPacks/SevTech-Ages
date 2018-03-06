@@ -12,15 +12,16 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stage3Items as IIngredient[] = [
 	<betterbuilderswands:wanddiamond>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 	<fat_cat:top_hat>,
+	<immersivetech:connectors>,
 	<industrialforegoing:plastic>,
 	<ironchest:iron_chest:6>,
 	<nex:slab_basalt_double:1>,
@@ -267,6 +268,7 @@ var stage3Items as IIngredient[] = [
 
 	//Quark
 	<quark:black_ash>,
+	<quark:glowcelium>,
 	<quark:glowshroom>,
 	<quark:magma_bricks>,
 	<quark:magma_bricks_slab>,
@@ -277,7 +279,6 @@ var stage3Items as IIngredient[] = [
 	<quark:soul_sandstone:2>,
 	<quark:soul_sandstone>,
 	<quark:soul_sandstone_slab>,
-	<quark:glowcelium>,
 
 	//Natura
 	<natura:clouds:1>,
@@ -645,6 +646,8 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:ecksie_sapling:7>,
 	<betterwithaddons:ecksie_sapling:8>,
 	<betterwithaddons:ecksie_sapling>,
+	<betterwithaddons:greatarrow_destruction>,
+	<betterwithaddons:greatarrow_lightning>,
 	<betterwithaddons:iron_sand>,
 	<betterwithaddons:japanmat:6>,
 	<betterwithaddons:japanmat:7>,
@@ -800,8 +803,6 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
-	<betterwithaddons:greatarrow_lightning>,
-	<betterwithaddons:greatarrow_destruction>,
 
 	//Geolosys
 	<geolosys:cluster:4>,
@@ -1015,6 +1016,8 @@ var stage3Items as IIngredient[] = [
 	<immersiveengineering:material:21>,
 	<immersiveengineering:material:22>,
 	<immersiveengineering:material:23>,
+	<immersiveengineering:material:24>,
+	<immersiveengineering:material:25>,
 	<immersiveengineering:material:26>,
 	<immersiveengineering:material:27>,
 	<immersiveengineering:material>,
@@ -1182,9 +1185,6 @@ var stage3Items as IIngredient[] = [
 	<immersiveengineering:wooden_device1:3>,
 	<immersiveengineering:wooden_device1:4>,
 	<immersiveengineering:wooden_device1>,
-	<immersivetech:connectors>,
-	<immersiveengineering:material:24>,
-	<immersiveengineering:material:25>,
 
 	//Mekanism
 	<mekanism:balloon:1>,
@@ -1241,10 +1241,6 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
-	<cyclicmagic:xpjuice>,
-	<cyclicmagic:milk>,
-	<cyclicmagic:poison>,
-	<car:glycerin>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,
@@ -1338,6 +1334,7 @@ var stage3Items as IIngredient[] = [
 	//AbyssalCraft
 	<abyssalcraft:azathothcharm:2>,
 	<abyssalcraft:azathothcharm:3>,
+	<abyssalcraft:carboncluster>,
 	<abyssalcraft:charm:2>,
 	<abyssalcraft:charm:3>,
 	<abyssalcraft:crystal:*>,
@@ -1347,6 +1344,7 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:crystalshard:*>,
 	<abyssalcraft:cthulhucharm:2>,
 	<abyssalcraft:cthulhucharm:3>,
+	<abyssalcraft:densecarboncluster>,
 	<abyssalcraft:dsglow>,
 	<abyssalcraft:hasturcharm:2>,
 	<abyssalcraft:hasturcharm:3>,
@@ -1359,8 +1357,6 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:transmutator>,
 	<abyssalcraft:yogsothothcharm:2>,
 	<abyssalcraft:yogsothothcharm:3>,
-	<abyssalcraft:densecarboncluster>,
-	<abyssalcraft:carboncluster>,
 
 	//Compressed
 	<overloaded:compressed_netherrack:*>,
@@ -1387,7 +1383,6 @@ var stage3Items as IIngredient[] = [
 	<modularmachinery:blockfluidoutputhatch>,
 	<modularmachinery:blockinputbus:1>,
 	<modularmachinery:blockoutputbus:1>,
-	//<item:modularmachine:itemblueprint>,
 
 	//Buildcraft
 	<buildcraftcore:engine>,
@@ -1426,10 +1421,17 @@ var stage3Items as IIngredient[] = [
 	//Blood Magic
 	<bloodmagic:activation_crystal:1>,
 	<bloodmagic:alchemy_table>,
+	<bloodmagic:base_fluid_filter>,
+	<bloodmagic:base_item_filter:1>,
+	<bloodmagic:base_item_filter:2>,
+	<bloodmagic:base_item_filter:3>,
+	<bloodmagic:base_item_filter>,
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}),
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}),
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}),
 	<bloodmagic:blood_rune:7>,
+	<bloodmagic:blood_rune:10>,
+	<bloodmagic:blood_shard:1>,
 	<bloodmagic:blood_shard>,
 	<bloodmagic:blood_tank:*>,
 	<bloodmagic:bound_axe>,
@@ -1441,14 +1443,28 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:component:7>,
 	<bloodmagic:component:8>,
 	<bloodmagic:component:9>,
+	<bloodmagic:component:10>,
 	<bloodmagic:component:15>,
 	<bloodmagic:component:16>,
 	<bloodmagic:component:17>,
 	<bloodmagic:component:18>,
+	<bloodmagic:component:22>,
+	<bloodmagic:component:23>,
+	<bloodmagic:component:24>,
+	<bloodmagic:component:25>,
+	<bloodmagic:component:26>,
+	<bloodmagic:component:28>,
+	<bloodmagic:component:29>,
 	<bloodmagic:component:30>,
+	<bloodmagic:cutting_fluid:1>,
+	<bloodmagic:cutting_fluid>,
 	<bloodmagic:decorative_brick:1>,
+	<bloodmagic:decorative_brick:2>,
+	<bloodmagic:decorative_brick:3>,
+	<bloodmagic:decorative_brick>,
 	<bloodmagic:demon_brick_1:*>,
 	<bloodmagic:demon_brick_2:*>,
+	<bloodmagic:demon_crucible>,
 	<bloodmagic:demon_crystallizer>,
 	<bloodmagic:demon_extras:*>,
 	<bloodmagic:demon_light:*>,
@@ -1475,13 +1491,35 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:living_armour_helmet>,
 	<bloodmagic:living_armour_leggings>,
 	<bloodmagic:master_routing_node>,
+	<bloodmagic:mimic:1>,
+	<bloodmagic:mimic:2>,
+	<bloodmagic:mimic:3>,
+	<bloodmagic:mimic:4>,
+	<bloodmagic:mimic>,
 	<bloodmagic:monster_soul:1>,
 	<bloodmagic:monster_soul:2>,
 	<bloodmagic:monster_soul:3>,
 	<bloodmagic:monster_soul:4>,
+	<bloodmagic:node_router>,
 	<bloodmagic:output_routing_node>,
 	<bloodmagic:path:6>,
 	<bloodmagic:path:7>,
+	<bloodmagic:points_upgrade>,
+	<bloodmagic:potion_flask>,
+	<bloodmagic:ritual_controller:1>,
+	<bloodmagic:ritual_controller:2>,
+	<bloodmagic:ritual_controller>,
+	<bloodmagic:ritual_diviner:1>,
+	<bloodmagic:ritual_diviner:2>,
+	<bloodmagic:ritual_diviner>,
+	<bloodmagic:ritual_reader>,
+	<bloodmagic:ritual_stone:1>,
+	<bloodmagic:ritual_stone:2>,
+	<bloodmagic:ritual_stone:3>,
+	<bloodmagic:ritual_stone:4>,
+	<bloodmagic:ritual_stone:5>,
+	<bloodmagic:ritual_stone:6>,
+	<bloodmagic:ritual_stone>,
 	<bloodmagic:sentient_armour_boots>,
 	<bloodmagic:sentient_armour_chest>,
 	<bloodmagic:sentient_armour_gem>,
@@ -1498,6 +1536,24 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:sigil_transposition>,
 	<bloodmagic:slate:3>,
 	<bloodmagic:slate:4>,
+	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "corrosive"}),
+	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "destructive"}),
+	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "steadfast"}),
+	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "vengeful"}),
+	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "corrosive"}),
+	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "destructive"}),
+	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "steadfast"}),
+	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "vengeful"}),
+	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "corrosive"}),
+	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "destructive"}),
+	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "steadfast"}),
+	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "vengeful"}),
+	<bloodmagic:soul_gem:3>,
+	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "corrosive"}),
+	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "destructive"}),
+	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "steadfast"}),
+	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "vengeful"}),
+	<bloodmagic:soul_gem:4>,
 	<bloodmagic:teleposer>,
 	<bloodmagic:teleposition_focus:1>,
 	<bloodmagic:teleposition_focus:2>,
@@ -1567,122 +1623,9 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.sprintAttack"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stepAssist"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"}),
-	<bloodmagic:upgrade_trainer>,
-	<bloodmagic:ritual_stone:5>,
-	<bloodmagic:ritual_stone:4>,
-	<bloodmagic:ritual_stone:3>,
-	<bloodmagic:ritual_stone:2>,
-	<bloodmagic:ritual_stone:1>,
-	<bloodmagic:ritual_stone>,
-	<bloodmagic:ritual_controller:2>,
-	<bloodmagic:ritual_controller:1>,
-	<bloodmagic:ritual_controller>,
-	<bloodmagic:mimic:4>,
-	<bloodmagic:mimic:3>,
-	<bloodmagic:mimic:2>,
-	<bloodmagic:mimic:1>,
-	<bloodmagic:mimic>,
-	<bloodmagic:ritual_stone:6>,
-	<bloodmagic:base_fluid_filter>,
-	<bloodmagic:base_item_filter:3>,
-	<bloodmagic:base_item_filter:2>,
-	<bloodmagic:base_item_filter:1>,
-	<bloodmagic:base_item_filter>,
-	<bloodmagic:decorative_brick>,
-	<bloodmagic:soul_gem:3>,
-	<bloodmagic:soul_gem:4>,
-	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "destructive"}),
-	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "vengeful"}),
-	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "vengeful"}),
-	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "corrosive"}),
-	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "corrosive"}),
-	<bloodmagic:soul_gem:4>.withTag({souls: 16384.0, demonWillType: "steadfast"}),
-	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "steadfast"}),
-	<bloodmagic:soul_gem:3>.withTag({souls: 4096.0, demonWillType: "destructive"}),
-	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "corrosive"}),
-	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "corrosive"}),
-	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "destructive"}),
-	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "destructive"}),
-	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "vengeful"}),
-	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "vengeful"}),
-	<bloodmagic:soul_gem:1>.withTag({souls: 256.0, demonWillType: "steadfast"}),
-	<bloodmagic:soul_gem:2>.withTag({souls: 1024.0, demonWillType: "steadfast"}),
-	<bloodmagic:node_router>,
-	<bloodmagic:demon_crucible>,
-	<bloodmagic:component:10>,
-	<bloodmagic:blood_shard:1>,
-	<bloodmagic:component:22>,
-	<bloodmagic:component:23>,
-	<bloodmagic:component:24>,
-	<bloodmagic:component:25>,
-	<bloodmagic:component:26>,
-	<bloodmagic:component:28>,
-	<bloodmagic:component:29>,
-	<bloodmagic:cutting_fluid>,
-	<bloodmagic:cutting_fluid:1>,
-	<bloodmagic:points_upgrade>,
-	<bloodmagic:potion_flask>,
-	<bloodmagic:decorative_brick:2>,
-	<bloodmagic:decorative_brick:3>,
-	<bloodmagic:blood_rune:10>,
-	<bloodmagic:ritual_reader>,
-	<bloodmagic:ritual_diviner>,
-	<bloodmagic:ritual_diviner:1>,
-	<bloodmagic:ritual_diviner:2>,
-
-	<immersiveengineering:fluidcreosote>,
-	<immersiveengineering:fluidplantoil>,
-	<immersiveengineering:fluidethanol>,
-	<immersiveengineering:fluidbiodiesel>,
-	<immersiveengineering:fluidconcrete>
-
-
+	<bloodmagic:upgrade_trainer>
 ];
 
 for item in stage3Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
-
-
-mods.ItemStages.stageLiquid("three", <liquid:canolaoil>);
-
-
-
-mods.ItemStages.stageLiquid("three", <liquid:platinum>);
-mods.ItemStages.stageLiquid("three", <liquid:redstone_alloy>);
-mods.ItemStages.stageLiquid("three", <liquid:reinforced_metal>);
-mods.ItemStages.stageLiquid("three", <liquid:redstone>);
-mods.ItemStages.stageLiquid("three", <liquid:glowstone>);
-mods.ItemStages.stageLiquid("three", <liquid:naphtha>);
-mods.ItemStages.stageLiquid("three", <liquid:plastic>);
-mods.ItemStages.stageLiquid("three", <liquid:propene>);
-mods.ItemStages.stageLiquid("three", <liquid:galgadorian>);
-mods.ItemStages.stageLiquid("three", <liquid:steel>);
-mods.ItemStages.stageLiquid("three", <liquid:silver>);
-mods.ItemStages.stageLiquid("three", <liquid:obsidian>);
-mods.ItemStages.stageLiquid("three", <liquid:enhanced_galgadorian>);
-mods.ItemStages.stageLiquid("three", <liquid:invar>);
-mods.ItemStages.stageLiquid("three", <liquid:pigiron>);
-mods.ItemStages.stageLiquid("three", <liquid:lead>);
-mods.ItemStages.stageLiquid("three", <liquid:nickel>);
-mods.ItemStages.stageLiquid("three", <liquid:aluminum>);
-mods.ItemStages.stageLiquid("three", <liquid:modularium>);
-
-
-mods.ItemStages.stageLiquid("three", <liquid:creosote>);
-mods.ItemStages.stageLiquid("three", <liquid:plantoil>);
-mods.ItemStages.stageLiquid("three", <liquid:ethanol>);
-mods.ItemStages.stageLiquid("three", <liquid:biodiesel>);
-mods.ItemStages.stageLiquid("three", <liquid:concrete>);
-mods.ItemStages.stageLiquid("three", <liquid:diesel>);
-mods.ItemStages.stageLiquid("three", <liquid:lubricant>);
-mods.ItemStages.stageLiquid("three", <liquid:gasoline>);
-mods.ItemStages.stageLiquid("three", <liquid:napalm>);
-
-mods.ItemStages.stageLiquid("three", <liquid:knightslime>);
-mods.ItemStages.stageLiquid("three", <liquid:purpleslime>);
-mods.ItemStages.stageLiquid("three", <liquid:alubrass>);
-mods.ItemStages.stageLiquid("three", <liquid:blueslime>);
-
-mods.ItemStages.stageLiquid("three", <liquid:dist_water>);
-mods.ItemStages.stageLiquid("three", <liquid:slime>);

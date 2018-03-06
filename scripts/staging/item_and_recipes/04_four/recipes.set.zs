@@ -18,9 +18,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+	}
 }
 
 var itemsForStage as IIngredient[] = [

@@ -10,9 +10,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+	}
 }
 
 var itemsForStage as IIngredient[] = [
@@ -80,16 +80,16 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:trapped_chest>,
 
 	//AbyssalCraft
+	<abyssalcraft:carboncluster>,
 	<abyssalcraft:crystal:*>,
 	<abyssalcraft:crystalcluster2:*>,
 	<abyssalcraft:crystalcluster:*>,
 	<abyssalcraft:crystalfragment:*>,
 	<abyssalcraft:crystalshard:*>,
+	<abyssalcraft:densecarboncluster>,
 	<abyssalcraft:dsglow>,
 	<abyssalcraft:transmutationgem>,
 	<abyssalcraft:transmutator>,
-	<abyssalcraft:densecarboncluster>,
-	<abyssalcraft:carboncluster>,
 
 	//Cyclic Magic
 	<cyclicmagic:beacon_redstone>,
@@ -833,8 +833,15 @@ var itemsForStage as IIngredient[] = [
 
 	//Blood Magic
 	<bloodmagic:alchemy_table>,
+	<bloodmagic:base_fluid_filter>,
+	<bloodmagic:base_item_filter:1>,
+	<bloodmagic:base_item_filter:2>,
+	<bloodmagic:base_item_filter:3>,
+	<bloodmagic:base_item_filter>,
 	<bloodmagic:blood_rune:7>,
+	<bloodmagic:blood_rune:10>,
 	<bloodmagic:decorative_brick:1>,
+	<bloodmagic:decorative_brick>,
 	<bloodmagic:demon_brick_1:*>,
 	<bloodmagic:demon_brick_2:*>,
 	<bloodmagic:demon_extras:*>,
@@ -849,26 +856,18 @@ var itemsForStage as IIngredient[] = [
 	<bloodmagic:demon_stairs_3:*>,
 	<bloodmagic:demon_wall_1:*>,
 	<bloodmagic:item_demon_crystal:*>,
+	<bloodmagic:mimic:1>,
+	<bloodmagic:mimic:2>,
+	<bloodmagic:mimic:3>,
+	<bloodmagic:mimic>,
 	<bloodmagic:path:6>,
 	<bloodmagic:path:7>,
-	<bloodmagic:teleposer>,
-	<bloodmagic:ritual_stone>,
-	<bloodmagic:ritual_controller:2>,
 	<bloodmagic:ritual_controller:1>,
+	<bloodmagic:ritual_controller:2>,
 	<bloodmagic:ritual_controller>,
-	<bloodmagic:mimic:3>,
-	<bloodmagic:mimic:2>,
-	<bloodmagic:mimic:1>,
-	<bloodmagic:mimic>,
-	<bloodmagic:base_fluid_filter>,
-	<bloodmagic:base_item_filter:3>,
-	<bloodmagic:base_item_filter:2>,
-	<bloodmagic:base_item_filter:1>,
-	<bloodmagic:base_item_filter>,
-	<bloodmagic:decorative_brick>,
-	<bloodmagic:blood_rune:10>,
-	<bloodmagic:ritual_reader>
-
+	<bloodmagic:ritual_reader>,
+	<bloodmagic:ritual_stone>,
+	<bloodmagic:teleposer>
 ];
 
 for item in itemsForStage {

@@ -36,16 +36,16 @@ AlchemyArray.addRecipe(<bloodmagic:bound_shovel>, <bloodmagic:component:8>, <min
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/BloodAltar/
 */
 BloodAltar.removeRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}));
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <abyssalcraft:cpearl>, 1, 5000,5,5);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <abyssalcraft:cpearl>, 1, 5000, 5, 5);
 
 BloodAltar.removeRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}));
-BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <tconstruct:edible:3>, 0, 2000,2,1);
+BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <tconstruct:edible:3>, 0, 2000, 2, 1);
 
 BloodAltar.removeRecipe(<bloodmagic:sanguine_book>);
-BloodAltar.addRecipe(<bloodmagic:sanguine_book>, <primal:plant_cloth>, 0, 1000,20,0);
+BloodAltar.addRecipe(<bloodmagic:sanguine_book>, <primal:plant_cloth>, 0, 1000, 20, 0);
 
 BloodAltar.removeRecipe(<bloodmagic:dagger_of_sacrifice>);
-BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <actuallyadditions:item_sword_quartz>, 0, 3000,5,5);
+BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <actuallyadditions:item_sword_quartz>, 0, 3000, 5, 5);
 
 /*
 	Tartaric Forge / Hellfire Forge
@@ -107,7 +107,6 @@ TartaricForge.addRecipe(
 	[<bloodmagic:soul_forge>, <ore:stone>, metals.manyullyn.ingot.firstItem, <ore:blockGlass>],
 	500, 100
 );
-
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:diamond>, <minecraft:redstone_block>, <minecraft:lapis_block>]);
 TartaricForge.addRecipe(

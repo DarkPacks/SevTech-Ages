@@ -1,4 +1,5 @@
 #priority 100
+
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;

@@ -10,6 +10,9 @@ var stageTutorialItems as IIngredient[] = [
 	<antiqueatlas:empty_antique_atlas>,
 	<betterwithmods:cooked_mystery_meat>,
 	<betterwithmods:mystery_meat>,
+	<chisel:basalt2:7>,
+	<chisel:limestone2:7>,
+	<chisel:marble2:7>,
 	<cyclicmagic:sleeping_mat>,
 	<horsepower:chopping_block:*>,
 	<horsepower:chopping_block>,
@@ -116,11 +119,7 @@ var stageTutorialItems as IIngredient[] = [
 	<rustic:wildberries>,
 	<rustic:wildberry_bush>,
 	<tombmanygraves:death_list>,
-	<tombmanygraves:grave_block>,
-	<chisel:basalt2:7>,
-	<chisel:limestone2:7>,
-	<chisel:marble2:7>
-
+	<tombmanygraves:grave_block>
 ];
 
 for item in stageTutorialItems {

@@ -1,5 +1,33 @@
 #priority 2000
 
+/*
+           `.:+osyo++:.     `.:++oo+:`
+        `:shhyssssssssyo/:+syyysssssyhs:`
+      `/yyo-+ssssyyyyssoshdsssssssss+:+yy-
+     .sysssoshhhhyyyyhhhhsyhosyyyyyyysyssy+`
+    -yysssyhyssssssssssssydmdhyyysyyyyyhhhdh:`
+   :yys+sssssssssyyysssoooosyyyssyyyyyyssssyhy/`
+ `odys+-yssssyyyo:.`         `:hs:..``     `.-oy/
++yhhss.-yssyy/.`       `+hd+`  -o        -yds- .s/
+ysyyssossshds/.        :mhMd-  :o        hdmm+  /y
+ossssssssssssyhho-.`    `:-.`-/ds-...````.:/--:oh:
+.sssssssssssssyhhhhysooooosyhhhdyyhhyyyyyyyyyyhh:
+osssssssssssssssssyyyyyyysyddyssssssssssssssys:`
+ssssssssssssssssssssssyhhhyssssssyhhhhhhhyhh-
+sssssssssssssssssssssyyssssssssssssshysssssyy:
+sssssssssssssssssssssssssssssssssssssssssssssy:
+sssssssssssssyyyyyyyssssssssssssssssssssssssoyh-
+ssssssssssydhyyyyyyyhhhhhhhyyyyssssssssyhhddhhd+`
+ssssssssshdsssyyyhhyyyyyssyyyyhhhhhhhhyhysssyhs-
+sssssssyssdhyhhyhyyyyyssyyyyyyyyyyyyyyyyyyyyho`
+sssssssshhysssssssyyyyhhhhhhhhyyhhyyyyyyyyys+.
+ssssssssssyysssssssssssssssssssssssssshhs:`
+ddhdhhyyssssssssssssssssssssssssssyys+-
+hddhhhhhhhhhhhhyyyyyhhyyyyyssyhdms-`
+hhhhhhhhddddhhhdhhhhhhyhhhdddddhhdy/`
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdy-
+*/
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 

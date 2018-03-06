@@ -9,12 +9,14 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stageZeroItems as IIngredient[] = [
+	<ore:foodSalt>,
+
 	<antiqueatlas:antique_atlas>,
 	<astikoor:cargocart>,
 	<astikoor:plowcart>,
@@ -38,6 +40,14 @@ var stageZeroItems as IIngredient[] = [
 	<wopper:wopper>,
 
 	//AbyssalCraft
+	<abyssalcraft:antibeef>,
+	<abyssalcraft:antibone>,
+	<abyssalcraft:antichicken>,
+	<abyssalcraft:anticorbone>,
+	<abyssalcraft:anticorflesh>,
+	<abyssalcraft:antiflesh>,
+	<abyssalcraft:antipork>,
+	<abyssalcraft:antispidereye>,
 	<abyssalcraft:cobblestone>,
 	<abyssalcraft:darkbrickslab1>,
 	<abyssalcraft:darkbrickslab2>,
@@ -52,10 +62,20 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:dbstairs>,
 	<abyssalcraft:dcstairs>,
 	<abyssalcraft:dghead>,
+	<abyssalcraft:dltleaves>,
+	<abyssalcraft:dltlog>,
+	<abyssalcraft:dltplank>,
+	<abyssalcraft:dltsapling>,
+	<abyssalcraft:dltslab1>,
+	<abyssalcraft:dltslab2>,
+	<abyssalcraft:dltstairs>,
 	<abyssalcraft:dpick>,
 	<abyssalcraft:dscwall>,
 	<abyssalcraft:dshovel>,
 	<abyssalcraft:dsword>,
+	<abyssalcraft:energycollector>,
+	<abyssalcraft:energycontainer>,
+	<abyssalcraft:energyrelay>,
 	<abyssalcraft:ohead>,
 	<abyssalcraft:phead>,
 	<abyssalcraft:ritualaltar:6>,
@@ -64,35 +84,17 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,
 	<abyssalcraft:shadowshard>,
+	<abyssalcraft:shoggothbiomass>,
+	<abyssalcraft:shoggothblock>,
+	<abyssalcraft:shoggothflesh>,
+	<abyssalcraft:stone:7>,
+	<abyssalcraft:stonetablet>.withTag({Cursed: 1 as byte}),
+	<abyssalcraft:stonetablet>.withTag({ItemInventory: [], PotEnergy: 0.0 as float}),
+	<abyssalcraft:stonetablet>,
 	<abyssalcraft:tieredenergycollector>,
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 	<abyssalcraft:whead>,
-	<abyssalcraft:shoggothblock>,
-	<abyssalcraft:shoggothbiomass>,
-	<abyssalcraft:dltslab2>,
-	<abyssalcraft:dltplank>,
-	<abyssalcraft:dltstairs>,
-	<abyssalcraft:dltslab1>,
-	<abyssalcraft:dltsapling>,
-	<abyssalcraft:dltlog>,
-	<abyssalcraft:dltleaves>,
-	<abyssalcraft:stone:7>,
-	<abyssalcraft:antispidereye>,
-	<abyssalcraft:antibone>,
-	<abyssalcraft:antiflesh>,
-	<abyssalcraft:antipork>,
-	<abyssalcraft:antichicken>,
-	<abyssalcraft:antibeef>,
-	<abyssalcraft:shoggothflesh>,
-	<abyssalcraft:anticorbone>,
-	<abyssalcraft:anticorflesh>,
-	<abyssalcraft:stonetablet>,
-	<abyssalcraft:stonetablet>.withTag({ItemInventory: [], PotEnergy: 0.0 as float}),
-	<abyssalcraft:stonetablet>.withTag({Cursed: 1 as byte}),
-	<abyssalcraft:energycollector>,
-	<abyssalcraft:energyrelay>,
-	<abyssalcraft:energycontainer>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,
@@ -867,6 +869,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal:strangle_weed>,
 	<primal:suet>,
 	<primal:tall_grass_growing>,
+	<primal:tannin_ground>,
 	<primal:terraclay_block>,
 	<primal:terraclay_clump>,
 	<primal:terracotta_block:1>,
@@ -909,7 +912,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_cooked>,
 	<primal:wolf_meat_dried>,
 	<primal:wolf_meat_raw>,
-	<primal:tannin_ground>,
 
 	//Quark
 	<quark:midori_block_stairs>,
@@ -1035,35 +1037,7 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>,
-
-	//Mekanism
-	<mekanism:salt>,
-
-	//Liquids
-	<primal:tannin>,
-	<primal:urushi>,
-	<primal:brine_netjry>,
-	<primal:waste>,
-	<primal:bitumen>,
-	<primal:bitumen_boiling>,
-	<primal:paraffin>,
-	<primal:magma_basaltic>,
-	<primal:ovis_atre_milk>,
-	<rustic:olive_oil>,
-	<rustic:ironberry_juice>,
-	<rustic:wildberry_juice>,
-	<rustic:grape_juice>,
-	<rustic:apple_juice>,
-	<rustic:ale_wort>,
-	<rustic:honey>,
-	<thebetweenlands:swamp_water>,
-	<thebetweenlands:stagnant_water>,
-	<thebetweenlands:tar>,
-	<thebetweenlands:rubber>
-
-
-
+	<betterwithmods:wolf_chop>
 ];
 
 for item in stageZeroItems {

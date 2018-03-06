@@ -14,9 +14,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stage4Items as IIngredient[] = [
@@ -965,6 +965,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:basic_item:9>,
 	<galacticraftcore:basic_item:10>,
 	<galacticraftcore:basic_item:11>,
+	<galacticraftcore:bucket_fuel>,
 	<galacticraftcore:canister>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:collector>,
@@ -1010,7 +1011,6 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
-	<galacticraftcore:bucket_fuel>,
 
 	//Ender Utilities
 	<enderutilities:asu>,
@@ -1145,34 +1145,9 @@ var stage4Items as IIngredient[] = [
 
 	//Blood Magic
 	<bloodmagic:component:2>,
-	<bloodmagic:sigil_air>,
-
-	<galacticraftcore:fuel>,
-	<car:canola_oil>,
-	<car:bio_diesel>,
-	<car:methanol>,
-	<car:canola_methanol_mix>,
-	<car:glycerin>
-
-
+	<bloodmagic:sigil_air>
 ];
 
 for item in stage4Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
-
-mods.ItemStages.stageLiquid("four", <liquid:fuel>);
-mods.ItemStages.stageLiquid("four", <liquid:kerosene>);
-mods.ItemStages.stageLiquid("four", <liquid:etchacid>);
-mods.ItemStages.stageLiquid("four", <liquid:lpg>);
-mods.ItemStages.stageLiquid("four", <liquid:cobalt>);
-mods.ItemStages.stageLiquid("four", <liquid:ardite>);
-mods.ItemStages.stageLiquid("four", <liquid:manyullyn>);
-mods.ItemStages.stageLiquid("four", <liquid:essence>);
-mods.ItemStages.stageLiquid("four", <liquid:meat>);
-mods.ItemStages.stageLiquid("four", <liquid:latex>);
-mods.ItemStages.stageLiquid("four", <liquid:sewage>);
-mods.ItemStages.stageLiquid("four", <liquid:sludge>);
-mods.ItemStages.stageLiquid("four", <liquid:biofuel>);
-mods.ItemStages.stageLiquid("four", <liquid:if.pink_slime>);
-mods.ItemStages.stageLiquid("four", <liquid:if.protein>);

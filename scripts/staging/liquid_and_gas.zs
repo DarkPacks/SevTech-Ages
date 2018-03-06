@@ -1,0 +1,211 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+//Liquid "Items"
+var liquidItemsForStage as IItemStack[][string] = {
+	STAGES.zero : [
+		<primal:bitumen>,
+		<primal:bitumen_boiling>,
+		<primal:brine_netjry>,
+		<primal:magma_basaltic>,
+		<primal:ovis_atre_milk>,
+		<primal:paraffin>,
+		<primal:tannin>,
+		<primal:urushi>,
+		<primal:waste>,
+		<rustic:ale_wort>,
+		<rustic:apple_juice>,
+		<rustic:grape_juice>,
+		<rustic:honey>,
+		<rustic:ironberry_juice>,
+		<rustic:olive_oil>,
+		<rustic:wildberry_juice>,
+		<thebetweenlands:rubber>,
+		<thebetweenlands:stagnant_water>,
+		<thebetweenlands:swamp_water>,
+		<thebetweenlands:tar>
+	],
+
+	STAGES.one : [
+		<abyssalcraft:antiwater>,
+		<abyssalcraft:cwater>,
+		<acintegration:moltenabyssalnite>,
+		<acintegration:moltencoralium>,
+		<acintegration:moltendreadium>
+	],
+
+	STAGES.three : [
+		<car:glycerin>,
+		<cyclicmagic:milk>,
+		<cyclicmagic:poison>,
+		<cyclicmagic:xpjuice>,
+		<immersiveengineering:fluidbiodiesel>,
+		<immersiveengineering:fluidconcrete>,
+		<immersiveengineering:fluidcreosote>,
+		<immersiveengineering:fluidethanol>,
+		<immersiveengineering:fluidplantoil>
+	],
+
+	STAGES.four : [
+		<car:bio_diesel>,
+		<car:canola_methanol_mix>,
+		<car:canola_oil>,
+		<car:glycerin>,
+		<car:methanol>,
+		<galacticraftcore:fuel>
+	],
+
+	STAGES.five : [
+		<actuallyadditions:block_canola_oil>,
+		<actuallyadditions:block_crystal_oil>,
+		<actuallyadditions:block_empowered_oil>,
+		<actuallyadditions:block_refined_canola_oil>
+	]
+};
+
+for stage, liquidItems in liquidItemsForStage {
+	for liquidItem in liquidItems {
+		mods.ItemStages.addItemStage(stage, liquidItem);
+	}
+}
+
+//Liquids
+var liquidsForStage as ILiquidStack[][string] = {
+	STAGES.zero : [
+		<liquid:lava>,
+		<liquid:water>
+	],
+
+	STAGES.one : [
+		<liquid:ale>,
+		<liquid:bronze>,
+		<liquid:cider>,
+		<liquid:clay>,
+		<liquid:copper>,
+		<liquid:dirt>,
+		<liquid:ironwine>,
+		<liquid:lifeessence>,
+		<liquid:mead>,
+		<liquid:stone>,
+		<liquid:tin>,
+		<liquid:wildberrywine>,
+		<liquid:wine>
+	],
+
+	STAGES.two : [
+		<liquid:astralsorcery.liquidstarlight>,
+		<liquid:blood>,
+		<liquid:electrum>,
+		<liquid:ender_pearl>,
+		<liquid:fiery>,
+		<liquid:glass>,
+		<liquid:gold>,
+		<liquid:iron>,
+		<liquid:steeleaf>
+	],
+
+	STAGES.three : [
+		<liquid:alubrass>,
+		<liquid:aluminum>,
+		<liquid:biodiesel>,
+		<liquid:blueslime>,
+		<liquid:canolaoil>,
+		<liquid:concrete>,
+		<liquid:creosote>,
+		<liquid:diesel>,
+		<liquid:dist_water>,
+		<liquid:enhanced_galgadorian>,
+		<liquid:ethanol>,
+		<liquid:galgadorian>,
+		<liquid:gasoline>,
+		<liquid:glowstone>,
+		<liquid:invar>,
+		<liquid:knightslime>,
+		<liquid:lead>,
+		<liquid:lubricant>,
+		<liquid:modularium>,
+		<liquid:napalm>,
+		<liquid:naphtha>,
+		<liquid:nickel>,
+		<liquid:obsidian>,
+		<liquid:pigiron>,
+		<liquid:plantoil>,
+		<liquid:plastic>,
+		<liquid:platinum>,
+		<liquid:propene>,
+		<liquid:purpleslime>,
+		<liquid:redstone>,
+		<liquid:redstone_alloy>,
+		<liquid:reinforced_metal>,
+		<liquid:silver>,
+		<liquid:slime>,
+		<liquid:steel>
+	],
+
+	STAGES.four : [
+		<liquid:ardite>,
+		<liquid:biofuel>,
+		<liquid:cobalt>,
+		<liquid:essence>,
+		<liquid:etchacid>,
+		<liquid:fuel>,
+		<liquid:if.pink_slime>,
+		<liquid:if.protein>,
+		<liquid:kerosene>,
+		<liquid:latex>,
+		<liquid:lpg>,
+		<liquid:manyullyn>,
+		<liquid:meat>,
+		<liquid:sewage>,
+		<liquid:sludge>
+	],
+
+	STAGES.five : [
+		<liquid:argon>,
+		<liquid:base_essence>,
+		<liquid:brine>,
+		<liquid:carbondioxide>,
+		<liquid:emerald>,
+		<liquid:heavywater>,
+		<liquid:helium>,
+		<liquid:hydrogen>,
+		<liquid:inferium>,
+		<liquid:intermedium>,
+		<liquid:liquidargon>,
+		<liquid:liquidchlorine>,
+		<liquid:liquiddeuterium>,
+		<liquid:liquidethene>,
+		<liquid:liquidfusionfuel>,
+		<liquid:liquidhydrogen>,
+		<liquid:liquidhydrogenchloride>,
+		<liquid:liquidlithium>,
+		<liquid:liquidmethane>,
+		<liquid:liquidnitrogen>,
+		<liquid:liquidoxygen>,
+		<liquid:liquidsodium>,
+		<liquid:liquidsulfurdioxide>,
+		<liquid:liquidsulfurtrioxide>,
+		<liquid:liquidtritium>,
+		<liquid:methane>,
+		<liquid:nitrogen>,
+		<liquid:osmium>,
+		<liquid:oxygen>,
+		<liquid:prudentium>,
+		<liquid:pure_matter>,
+		<liquid:soulium>,
+		<liquid:steam>,
+		<liquid:superium>,
+		<liquid:supremium>
+	]
+};
+
+for stage, liquidStacks in liquidItemsForStage {
+	for liquidStack in liquidStacks {
+		mods.ItemStages.stageLiquid(stage, liquidStack);
+	}
+}
+
+//TODO: These don't do anything
+//mods.ItemStages.stageLiquid("five", <liquid:refinedcanolaoil>);
+//mods.ItemStages.stageLiquid("five", <liquid:crystaloil>);
+//mods.ItemStages.stageLiquid("five", <liquid:empoweredoil>);

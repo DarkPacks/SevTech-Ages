@@ -440,6 +440,8 @@ var stage1Items as IIngredient[] = [
 
 	//Abyssalcraft
 	<abyssalcraft:abybutton>,
+	<abyssalcraft:abyportal>,
+	<abyssalcraft:abyslab2>,
 	<abyssalcraft:cchunk>,
 	<abyssalcraft:ccluster2>,
 	<abyssalcraft:ccluster3>,
@@ -484,10 +486,18 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:depthsplate>,
 	<abyssalcraft:dltbutton>,
 	<abyssalcraft:dsbutton>,
+	<abyssalcraft:energypedestal>,
 	<abyssalcraft:essence>,
+	<abyssalcraft:monolithpillar>,
 	<abyssalcraft:necronomicon>,
 	<abyssalcraft:necronomicon_cor>,
+	<abyssalcraft:platec>,
 	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:sacrificialaltar>,
+	<abyssalcraft:scroll:1>,
+	<abyssalcraft:scroll:2>,
+	<abyssalcraft:scroll:3>,
+	<abyssalcraft:scroll>,
 	<abyssalcraft:skin>,
 	<abyssalcraft:statue:1>,
 	<abyssalcraft:statue:2>,
@@ -501,21 +511,11 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer:1>,
 	<abyssalcraft:tieredenergypedestal:1>,
 	<abyssalcraft:tieredenergyrelay:1>,
-	<abyssalcraft:tieredsacrificialaltar:1>,
-	<abyssalcraft:energypedestal>,
-	<abyssalcraft:monolithpillar>,
-	<abyssalcraft:sacrificialaltar>,
-	<abyssalcraft:tieredsacrificialaltar>,
-	<abyssalcraft:scroll>,
-	<abyssalcraft:scroll:1>,
-	<abyssalcraft:scroll:2>,
-	<abyssalcraft:scroll:3>,
-	<abyssalcraft:unique_scroll>,
-	<abyssalcraft:unique_scroll:1>,
-	<abyssalcraft:abyportal>,
-	<abyssalcraft:abyslab2>,
-	<abyssalcraft:platec>,
 	<abyssalcraft:tieredenergyrelay>,
+	<abyssalcraft:tieredsacrificialaltar:1>,
+	<abyssalcraft:tieredsacrificialaltar>,
+	<abyssalcraft:unique_scroll:1>,
+	<abyssalcraft:unique_scroll>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -663,11 +663,11 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:slime_boots>,
 	<tconstruct:slime_channel:3>,
 	<tconstruct:slime_congealed:3>,
+	<tconstruct:slime_dirt>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:tooltables:*>,
-	<tconstruct:slime_dirt>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,
@@ -708,6 +708,7 @@ var stage1Items as IIngredient[] = [
 
 	//Better With Mods
 	<betterwithaddons:adobe:1>,
+	<betterwithaddons:adobe:2>,
 	<betterwithaddons:adobe:3>,
 	<betterwithaddons:adobe:4>,
 	<betterwithaddons:adobe:5>,
@@ -747,6 +748,7 @@ var stage1Items as IIngredient[] = [
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:6>,
 	<betterwithaddons:bolt>,
+	<betterwithaddons:box>,
 	<betterwithaddons:brick_stained:1>,
 	<betterwithaddons:brick_stained:2>,
 	<betterwithaddons:brick_stained:3>,
@@ -925,8 +927,6 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
-	<betterwithaddons:box>,
-	<betterwithaddons:adobe:2>,
 
 	//Natura
 	<natura:colored_grass:1>,
@@ -1022,13 +1022,17 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:arcane_ashes>,
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),
+	<bloodmagic:blood_rune:1>,
+	<bloodmagic:blood_rune:2>,
 	<bloodmagic:blood_rune:3>,
 	<bloodmagic:blood_rune:4>,
+	<bloodmagic:blood_rune>,
 	<bloodmagic:component:5>,
 	<bloodmagic:component:11>,
 	<bloodmagic:component:27>,
 	<bloodmagic:component:31>,
 	<bloodmagic:component:32>,
+	<bloodmagic:dagger_of_sacrifice>,
 	<bloodmagic:incense_altar>,
 	<bloodmagic:inscription_tool:5>,
 	<bloodmagic:monster_soul>,
@@ -1045,43 +1049,11 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:slate:1>,
 	<bloodmagic:slate>,
 	<bloodmagic:soul_forge>,
-	<bloodmagic:soul_gem>,
-	<bloodmagic:soul_snare>,
-	<bloodmagic:blood_rune>,
-	<bloodmagic:blood_rune:1>,
-	<bloodmagic:dagger_of_sacrifice>,
 	<bloodmagic:soul_gem:1>,
-	<bloodmagic:blood_rune:2>,
-
-
-	<acintegration:moltenabyssalnite>,
-	<acintegration:moltencoralium>,
-	<acintegration:moltendreadium>,
-	<abyssalcraft:antiwater>,
-	<abyssalcraft:cwater>
-
-
+	<bloodmagic:soul_gem>,
+	<bloodmagic:soul_snare>
 ];
 
 for item in stage1Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
-
-
-mods.ItemStages.stageLiquid("zero", <liquid:water>);
-mods.ItemStages.stageLiquid("zero", <liquid:lava>);
-mods.ItemStages.stageLiquid("one", <liquid:clay>);
-mods.ItemStages.stageLiquid("one", <liquid:copper>);
-mods.ItemStages.stageLiquid("one", <liquid:tin>);
-mods.ItemStages.stageLiquid("one", <liquid:bronze>);
-mods.ItemStages.stageLiquid("one", <liquid:dirt>);
-mods.ItemStages.stageLiquid("one", <liquid:lifeessence>);
-mods.ItemStages.stageLiquid("one", <liquid:stone>);
-
-
-mods.ItemStages.stageLiquid("one", <liquid:ale>);
-mods.ItemStages.stageLiquid("one", <liquid:cider>);
-mods.ItemStages.stageLiquid("one", <liquid:ironwine>);
-mods.ItemStages.stageLiquid("one", <liquid:mead>);
-mods.ItemStages.stageLiquid("one", <liquid:wildberrywine>);
-mods.ItemStages.stageLiquid("one", <liquid:wine>);

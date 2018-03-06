@@ -172,9 +172,8 @@ var removeItems as IItemStack[] = [
 	<vc:upgrades/upgrade_airship_frame:5>,
 
 	//Blood Magic
-	<bloodmagic:ritual_diviner>,
-	<bloodmagic:ritual_diviner:1>
-
+	<bloodmagic:ritual_diviner:1>,
+	<bloodmagic:ritual_diviner>
 ];
 
 for item in removeItems {

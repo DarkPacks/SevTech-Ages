@@ -257,13 +257,13 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:corshovel>,
 	<abyssalcraft:corsword>,
 	<abyssalcraft:crate>,
-	<abyssalcraft:necronomicon_cor>,
-	<abyssalcraft:rendingpedestal>,
-	<abyssalcraft:skin>,
 	<abyssalcraft:energypedestal>,
 	<abyssalcraft:monolithpillar>,
-	<abyssalcraft:sacrificialaltar>,
+	<abyssalcraft:necronomicon_cor>,
 	<abyssalcraft:platec>,
+	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:sacrificialaltar>,
+	<abyssalcraft:skin>,
 
 	//Tinkers'
 	<tconstruct:channel>,
@@ -484,12 +484,11 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:quartz_paxel>,
 
 	//Blood Magic
+	<bloodmagic:blood_rune:1>,
+	<bloodmagic:blood_rune>,
 	<bloodmagic:incense_altar>,
 	<bloodmagic:path:1>,
-	<bloodmagic:path>,
-	<bloodmagic:blood_rune>,
-	<bloodmagic:blood_rune:1>
-
+	<bloodmagic:path>
 ];
 
 for item in itemsForStage {

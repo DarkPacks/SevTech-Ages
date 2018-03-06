@@ -2,12 +2,12 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
-	<abyssalcraft:mre>,
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
 	<abyssalcraft:eggp>,
 	<abyssalcraft:fishp>,
 	<abyssalcraft:ironp>,
+	<abyssalcraft:mre>,
 	<abyssalcraft:porkp>,
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:4>,
@@ -37,13 +37,14 @@ var removeAndHideItems as IItemStack[] = [
 	<immcraft:furnace>,
 	<immcraft:manual>,
 	<immcraft:saw>,
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}),
-	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}),
-	<ironbackpacks:upgrade>,
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:everlasting"}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>, //TODO: Add back when IronBackpacks adds upgrade functionality
 	<microblockcbe:saw_diamond>,
 	<microblockcbe:saw_iron>,
 	<microblockcbe:saw_stone>,

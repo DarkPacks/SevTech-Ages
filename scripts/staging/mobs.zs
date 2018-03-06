@@ -1,10 +1,10 @@
 import mods.MobStages;
+
 /*
 	Mob Stages
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/GameStages/MobStages/MobStages/#global-options
 */
-
 var mobsForStages as string[][string] = {
 	//Stage one
 	STAGES.one : [

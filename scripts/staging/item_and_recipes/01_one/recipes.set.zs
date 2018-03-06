@@ -257,8 +257,12 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:corshovel>,
 	<abyssalcraft:corsword>,
 	<abyssalcraft:crate>,
+	<abyssalcraft:energypedestal>,
+	<abyssalcraft:monolithpillar>,
 	<abyssalcraft:necronomicon_cor>,
+	<abyssalcraft:platec>,
 	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:sacrificialaltar>,
 	<abyssalcraft:skin>,
 
 	//Tinkers'
@@ -480,6 +484,8 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:quartz_paxel>,
 
 	//Blood Magic
+	<bloodmagic:blood_rune:1>,
+	<bloodmagic:blood_rune>,
 	<bloodmagic:incense_altar>,
 	<bloodmagic:path:1>,
 	<bloodmagic:path>

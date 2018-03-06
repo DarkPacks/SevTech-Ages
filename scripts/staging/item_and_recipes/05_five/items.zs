@@ -19,9 +19,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stage5Items as IIngredient[] = [
@@ -46,14 +46,9 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:129>,
 	<extendedcrafting:trimmed:3>,
 	<pickletweaks:emerald_apple>,
-	<primal:emerald_axe>,
-	<primal:emerald_hatchet>,
-	<primal:emerald_hoe>,
 	<primal:emerald_knapp>,
-	<primal:emerald_pickaxe>,
 	<primal:emerald_point>,
 	<primal:emerald_saw>,
-	<primal:emerald_shovel>,
 	<primal:emerald_workblade>,
 
 	//Diamond Stuff
@@ -77,14 +72,9 @@ var stage5Items as IIngredient[] = [
 	<minecraft:diamond_horse_armor>,
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,
-	<primal:diamond_axe>,
-	<primal:diamond_hatchet>,
-	<primal:diamond_hoe>,
 	<primal:diamond_knapp>,
-	<primal:diamond_pickaxe>,
 	<primal:diamond_point>,
 	<primal:diamond_saw>,
-	<primal:diamond_shovel>,
 	<primal:diamond_workblade>,
 
 	/*
@@ -134,9 +124,9 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:block_energizer>,
 	<actuallyadditions:block_enervator>,
 	<actuallyadditions:block_firework_box>,
+	<actuallyadditions:block_fishing_net>,
 	<actuallyadditions:block_fluid_collector>,
 	<actuallyadditions:block_fluid_placer>,
-	<actuallyadditions:block_inputter>,
 	<actuallyadditions:block_item_repairer>,
 	<actuallyadditions:block_item_viewer>,
 	<actuallyadditions:block_lamp_powerer>,
@@ -284,7 +274,6 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:item_water_removal_ring>,
 	<actuallyadditions:item_wings_of_the_bats>,
 	<actuallyadditions:magnet_ring_bauble>,
-	<actuallyadditions:potion_ring_advanced_bauble:*>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
 
 	//Steve's Factory Manager
@@ -747,6 +736,8 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:33>,
 	<extendedcrafting:material:140>,
 	<extendedcrafting:singularity:*>,
+	<extendedcrafting:singularity_custom:1>,
+	<extendedcrafting:singularity_custom:2>,
 	<extendedcrafting:singularity_ultimate>,
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
@@ -974,6 +965,8 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:basic_item_venus>,
 	<galacticraftplanets:beam_receiver>,
 	<galacticraftplanets:beam_reflector>,
+	<galacticraftplanets:bucket_sludge>,
+	<galacticraftplanets:bucket_sulphuric_acid>,
 	<galacticraftplanets:canister_partial_ln2:1>,
 	<galacticraftplanets:canister_partial_lox:1>,
 	<galacticraftplanets:carbon_fragments>,
@@ -1117,6 +1110,8 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:callisto:3>,
 	<extraplanets:callisto:4>,
 	<extraplanets:callisto:5>,
+	<extraplanets:callisto:6>,
+	<extraplanets:callisto:7>,
 	<extraplanets:callisto>,
 	<extraplanets:candy_blocks:1>,
 	<extraplanets:candy_blocks:2>,

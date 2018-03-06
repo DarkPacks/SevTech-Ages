@@ -67,10 +67,6 @@ fluidGlowstoneData.addDataValue("viscosity", "3000");
 fluidGlowstoneData.addDataValue("temperature", "1000");
 fluidGlowstoneData.addDataValue("vaporize", "false");
 
-//Liquid Ostonium
-var fluidOstoniumData = materials.ostonium.registerPart("molten").getData();
-addDefaultMoltenData(fluidOstoniumData);
-
 //Naphtha
 var fluidNaphthaData = materials.naphtha.registerPart("molten").getData();
 fluidNaphthaData.addDataValue("density", "4000");

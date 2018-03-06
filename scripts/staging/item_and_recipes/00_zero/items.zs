@@ -9,12 +9,14 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stageZeroItems as IIngredient[] = [
+	<ore:foodSalt>,
+
 	<antiqueatlas:antique_atlas>,
 	<astikoor:cargocart>,
 	<astikoor:plowcart>,
@@ -38,6 +40,14 @@ var stageZeroItems as IIngredient[] = [
 	<wopper:wopper>,
 
 	//AbyssalCraft
+	<abyssalcraft:antibeef>,
+	<abyssalcraft:antibone>,
+	<abyssalcraft:antichicken>,
+	<abyssalcraft:anticorbone>,
+	<abyssalcraft:anticorflesh>,
+	<abyssalcraft:antiflesh>,
+	<abyssalcraft:antipork>,
+	<abyssalcraft:antispidereye>,
 	<abyssalcraft:cobblestone>,
 	<abyssalcraft:darkbrickslab1>,
 	<abyssalcraft:darkbrickslab2>,
@@ -52,10 +62,20 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:dbstairs>,
 	<abyssalcraft:dcstairs>,
 	<abyssalcraft:dghead>,
+	<abyssalcraft:dltleaves>,
+	<abyssalcraft:dltlog>,
+	<abyssalcraft:dltplank>,
+	<abyssalcraft:dltsapling>,
+	<abyssalcraft:dltslab1>,
+	<abyssalcraft:dltslab2>,
+	<abyssalcraft:dltstairs>,
 	<abyssalcraft:dpick>,
 	<abyssalcraft:dscwall>,
 	<abyssalcraft:dshovel>,
 	<abyssalcraft:dsword>,
+	<abyssalcraft:energycollector>,
+	<abyssalcraft:energycontainer>,
+	<abyssalcraft:energyrelay>,
 	<abyssalcraft:ohead>,
 	<abyssalcraft:phead>,
 	<abyssalcraft:ritualaltar:6>,
@@ -64,6 +84,13 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,
 	<abyssalcraft:shadowshard>,
+	<abyssalcraft:shoggothbiomass>,
+	<abyssalcraft:shoggothblock>,
+	<abyssalcraft:shoggothflesh>,
+	<abyssalcraft:stone:7>,
+	<abyssalcraft:stonetablet>.withTag({Cursed: 1 as byte}),
+	<abyssalcraft:stonetablet>.withTag({ItemInventory: [], PotEnergy: 0.0 as float}),
+	<abyssalcraft:stonetablet>,
 	<abyssalcraft:tieredenergycollector>,
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
@@ -520,6 +547,7 @@ var stageZeroItems as IIngredient[] = [
 	<natura:redwood_logs:2>,
 	<natura:redwood_logs>,
 	<natura:redwood_sapling>,
+	<natura:saguaro_fruit_item>,
 
 	//Rustic
 	<rustic:aloe_vera>,
@@ -841,6 +869,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal:strangle_weed>,
 	<primal:suet>,
 	<primal:tall_grass_growing>,
+	<primal:tannin_ground>,
 	<primal:terraclay_block>,
 	<primal:terraclay_clump>,
 	<primal:terracotta_block:1>,
@@ -1014,3 +1043,4 @@ var stageZeroItems as IIngredient[] = [
 for item in stageZeroItems {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+

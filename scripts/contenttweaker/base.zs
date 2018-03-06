@@ -26,7 +26,6 @@ static materials as Material[string] = {
 	"modularium": MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(16730368).build(),
 	"naphtha": MaterialSystem.getMaterialBuilder().setName("Naphtha").setColor(10703708).build(),
 	"osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("aabbd2")).build(),
-	"ostonium": MaterialSystem.getMaterialBuilder().setName("Ostonium").setColor(9410979).build(),
 	"plastic": MaterialSystem.getMaterialBuilder().setName("Plastic").setColor(16777215).build(),
 	"platinum": MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(15066338).build(),
 	"propene": MaterialSystem.getMaterialBuilder().setName("Propene").setColor(8026746).build(),

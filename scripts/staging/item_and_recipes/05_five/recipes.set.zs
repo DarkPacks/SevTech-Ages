@@ -17,9 +17,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+	}
 }
 
 var itemsForStage as IIngredient[] = [
@@ -147,6 +147,7 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:block_energizer>,
 	<actuallyadditions:block_enervator>,
 	<actuallyadditions:block_firework_box>,
+	<actuallyadditions:block_fishing_net>,
 	<actuallyadditions:block_fluid_collector>,
 	<actuallyadditions:block_fluid_placer>,
 	<actuallyadditions:block_item_repairer>,

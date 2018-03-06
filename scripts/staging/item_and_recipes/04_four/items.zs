@@ -14,9 +14,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.ItemStages.addItemStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.ItemStages.addItemStage(STAGE, item);
+	}
 }
 
 var stage4Items as IIngredient[] = [
@@ -965,6 +965,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:basic_item:9>,
 	<galacticraftcore:basic_item:10>,
 	<galacticraftcore:basic_item:11>,
+	<galacticraftcore:bucket_fuel>,
 	<galacticraftcore:canister>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:collector>,

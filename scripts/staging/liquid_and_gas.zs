@@ -173,6 +173,9 @@ var liquidsForStage as ILiquidStack[][string] = {
 for stage, liquidStacks in liquidItemsForStage {
 	for liquidStack in liquidStacks {
 		mods.ItemStages.stageLiquid(stage, liquidStack);
+
+		//Stage buckets
+		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredient(liquidStack));
 	}
 }
 

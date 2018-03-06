@@ -2,17 +2,6 @@
 
 import crafttweaker.item.IItemStack;
 
-function addShear(shear as IItemStack, isUnique as bool) {
-	<ore:shears>.add(shear);
-	<ore:toolShears>.add(shear);
-
-	if (isUnique) {
-		<ore:toolUniqueShears>.add(shear);
-	} else {
-		<ore:toolBasicShears>.add(shear);
-	}
-}
-
 /*
 	Seeds
 */
@@ -58,34 +47,24 @@ for seed in seeds {
 /*
 	Shears
 */
-var shearTypesAndItems as IItemStack[][string] = {
-	"basic": [
-		<ceramics:clay_shears:*>,
-		<cyclicmagic:ender_wool:*>,
-		<minecraft:shears:*>,
-		<mysticalagriculture:inferium_shears:*>,
-		<mysticalagriculture:intermedium_shears:*>,
-		<mysticalagriculture:prudentium_shears:*>,
-		<mysticalagriculture:superium_shears:*>,
-		<primal_tech:bone_shears:*>,
-		<thebetweenlands:syrmorite_shears:*>
-	],
+var shears as IItemStack[] = [
+	<ceramics:clay_shears:*>,
+	<cyclicmagic:ender_wool:*>,
+	<minecraft:shears:*>,
+	<mysticalagriculture:inferium_shears:*>,
+	<mysticalagriculture:intermedium_shears:*>,
+	<mysticalagriculture:prudentium_shears:*>,
+	<mysticalagriculture:superium_shears:*>,
+	<mysticalagriculture:supremium_shears:*>,
+	<primal:flint_shears:*>,
+	<primal:quartz_shears:*>,
+	<primal_tech:bone_shears:*>,
+	<thebetweenlands:syrmorite_shears:*>
+];
 
-	"indestructible": [
-		<mysticalagriculture:supremium_shears:*>
-	],
-
-	"unique": [
-		<primal:flint_shears:*>,
-		<primal:quartz_shears:*>
-	]
-};
-
-for shearType, shears in shearTypesAndItems {
-	for shear in shears {
-		var isUnique = shearType == "unique";
-		addShear(shear, isUnique);
-	}
+for shear in shears {
+	<ore:shears>.add(shear);
+	<ore:toolShears>.add(shear);
 }
 
 /*

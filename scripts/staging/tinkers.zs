@@ -37,7 +37,6 @@ var toolTypeStages as string[][string] = {
 		"tconstruct:frypan",
 		"tconstruct:hammer",
 		"tconstruct:hatchet",
-		"tconstruct:kama",
 		"tconstruct:longsword",
 		"tconstruct:lumberaxe",
 		"tconstruct:mattock",
@@ -54,6 +53,11 @@ var toolTypeStages as string[][string] = {
 		"tconstruct:longbow",
 		"tconstruct:shuriken",
 		"yoyos:yoyo"
+	],
+
+	//Unique stage intended to disable a tool
+	STAGES.disabled : [
+		"tconstruct:kama"
 	]
 };
 

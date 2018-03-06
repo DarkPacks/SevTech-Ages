@@ -44,13 +44,12 @@ var metalStages as string[string] = {
 	uranium: "four"
 };
 
-//Value doesnt really matter here - but just put it to true
-var partsToSkip as bool[string] = {
-	"clump": true,
-	"crystal": true,
-	"dirtyDust": true,
-	"shard": true
-};
+var partsToSkip as string[] = [
+	"clump",
+	"crystal",
+	"dirtyDust",
+	"shard"
+];
 
 function isItemToKeep(item as IItemStack) as bool {
 	return false; //Comment this out if there are mods we want kept
@@ -302,40 +301,11 @@ for metalName, metal in metals {
 	var hasLiquid = metalLiquid as bool;
 	var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
-	//Stage liquid containers
+	//Stage liquids
 	if (metalStage != "" & hasLiquid) {
-		var liquidContainers as IItemStack[] = [
-			<ceramics:clay_bucket>,
-			<forge:bucketfilled>,
-			<thebetweenlands:bl_bucket:1>,
-			<thebetweenlands:bl_bucket>
-		];
+		mods.ItemStages.stageLiquid(metalStage, metalLiquid);
 
-		for liquidContainer in liquidContainers {
-			var data as IData = null;
-			if (liquidContainer.matches(<ceramics:clay_bucket>)) {
-				data = {
-					fluids: {
-						FluidName: metalLiquid.name,
-						Amount: 1000
-					}
-				};
-			} else if (liquidContainer.matches(<thebetweenlands:bl_bucket:1>) | liquidContainer.matches(<thebetweenlands:bl_bucket>)) {
-				data = {
-					Fluid: {
-						FluidName: metalLiquid.name,
-						Amount: 1000
-					}
-				};
-			} else {
-				data = {
-					FluidName: metalLiquid.name,
-					Amount: 1000
-				};
-			}
-
-			mods.ItemStages.addItemStage(metalStage, liquidContainer.withTag(data));
-		}
+		mods.ItemStages.addItemStage(metalStage, scripts.crafting_utils.getBucketIngredient(metalLiquid));
 	}
 
 	for partName, part in metal {
@@ -347,7 +317,7 @@ for metalName, metal in metals {
 			if (preferredMetalItem as bool) {
 				stageItem(metalStage, preferredMetalItem);
 
-				if (!(partsToSkip in partName)) {
+				if (!(partsToSkip has partName)) {
 					handlePreferredMetalItem(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage);
 				}
 			}

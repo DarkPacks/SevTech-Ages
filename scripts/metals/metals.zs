@@ -305,10 +305,7 @@ for metalName, metal in metals {
 	if (metalStage != "" & hasLiquid) {
 		mods.ItemStages.stageLiquid(metalStage, metalLiquid);
 
-		for bucket in buckets {
-			var filledBucket as IItemStack = scripts.utils.formatBucket(bucket, metalLiquid.name);
-			mods.ItemStages.addItemStage(metalStage, filledBucket);
-		}
+		mods.ItemStages.addItemStage(metalStage, scripts.crafting_utils.getBucketIngredient(metalLiquid));
 	}
 
 	for partName, part in metal {

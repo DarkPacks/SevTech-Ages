@@ -32,7 +32,8 @@ var recipesToAdd as IIngredient[][IItemStack] = {
 	<progressiontweaks:flat_bread>: [<horsepower:flour>],
 	<quark:glass_shards>: [<betterwithmods:red_sand_pile>],
 	<quark:glass_shards>: [<betterwithmods:sand_pile>],
-	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>]
+	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>],
+	metals.titanium.ingot.firstItem: [<ore:oreIlmenite>, <ore:shardTitanium>]
 };
 
 for output, inputs in recipesToAdd {

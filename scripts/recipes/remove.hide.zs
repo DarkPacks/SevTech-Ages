@@ -2,16 +2,16 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var hideItems as IItemStack[] = [
-
-	//These keep showing back up
-
-
 	//Hidden for later
 	<extraplanets:block_multi>,
 	<progressiontweaks:machine_frame>,
 	<progressiontweaks:nanomachine_frame>,
+
+	//TODO
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
+	<natura:materials:4> //Sulfur
+
 	<base:wrench>,
 	<baubles:ring>,
 	<bloodmagic:component:14>,
@@ -89,31 +89,6 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<primal:ash_bin:8>.withTag({type: "lacquer"}),
-	<primal:ash_bin:9>.withTag({type: "corypha"}),
-	<primal:wall:15>,
-	<primal:adobebrick>,
-	<primal:planks:2>,
-	<primal:metalblock:5>,
-	<primal:ovis_wool>,
-	<primal:ironglass>,
-	<primal:earthwax_block>,
-	<primal:ore_bog_iron>,
-	<primal:ore_bog_iron:1>,
-	<primal:ore_bog_iron:2>,
-	<primal:ore_magnetite>,
-	<primal:stairs_ferro_flag>,
-	<primal:stairs_lacquer>,
-	<primal:bottle_paraffin>,
-	<primal:mortar>,
-	<primal:barrel_trap>,
-	<primal:urushi_ground>,
-	<primal:diamond_plate>,
-	<primal:obsidian_workblade>,
-	<primal:pitfall>,
-	<primal:bitumin_clump>,
-	<primal:bog_iron>,
-	<primal:magnetite>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -243,6 +218,7 @@ var hideItems as IItemStack[] = [
 	<buildcraftlib:guide_note>,
 
 	//Primal
+	<primal:adobebrick>,
 	<primal:adobebrick_dry>,
 	<primal:adobebrick_mix>,
 	<primal:adobebrick_wet>,
@@ -256,8 +232,14 @@ var hideItems as IItemStack[] = [
 	<primal:arrow_torch_redstone>,
 	<primal:arrow_torch_wood>,
 	<primal:arrow_water>,
+	<primal:ash_bin:8>.withTag({type: "lacquer"}),
+	<primal:ash_bin:9>.withTag({type: "corypha"}),
+	<primal:barrel_trap>,
 	<primal:bear_meat_rotten>,
 	<primal:bear_meat_salted>,
+	<primal:bitumin_clump>,
+	<primal:bog_iron>,
+	<primal:bottle_paraffin>,
 	<primal:brickform>,
 	<primal:carbon_plate>,
 	<primal:carbonate_slack>, //Duplicate
@@ -296,9 +278,11 @@ var hideItems as IItemStack[] = [
 	<primal:diamond_hatchet>,
 	<primal:diamond_hoe>,
 	<primal:diamond_pickaxe>,
+	<primal:diamond_plate>,
 	<primal:diamond_shovel>,
 	<primal:dirt_stick>,
 	<primal:drying_rack:*>,
+	<primal:earthwax_block>,
 	<primal:emerald_axe>,
 	<primal:emerald_hatchet>,
 	<primal:emerald_hoe>,
@@ -354,6 +338,7 @@ var hideItems as IItemStack[] = [
 	<primal:iron_ring>,
 	<primal:iron_saw>,
 	<primal:iron_strand>,
+	<primal:ironglass>,
 	<primal:ironwood_bow>,
 	<primal:ironwood_stick>,
 	<primal:jackolantern>,
@@ -393,14 +378,18 @@ var hideItems as IItemStack[] = [
 	<primal:logs_stacked:6>,
 	<primal:logs_stacked:7>,
 	<primal:logs_stacked>,
+	<primal:magnetite>,
+	<primal:metalblock:5>,
 	<primal:metalblock:8>,
 	<primal:metalblock:12>,
+	<primal:mortar>,
 	<primal:obsidian_axe>,
 	<primal:obsidian_hatchet>,
 	<primal:obsidian_hoe>,
 	<primal:obsidian_pickaxe>,
 	<primal:obsidian_plate>,
 	<primal:obsidian_shovel>,
+	<primal:obsidian_workblade>,
 	<primal:opal>,
 	<primal:opal_axe>,
 	<primal:opal_hatchet>,
@@ -410,12 +399,19 @@ var hideItems as IItemStack[] = [
 	<primal:opal_point>,
 	<primal:opal_shovel>,
 	<primal:opal_workblade>,
+	<primal:ore_bog_iron:1>,
+	<primal:ore_bog_iron:2>,
+	<primal:ore_bog_iron>,
 	<primal:ore_iron>,
+	<primal:ore_magnetite>,
 	<primal:ovis_meat_rotten>,
 	<primal:ovis_milk_bottle>,
+	<primal:ovis_wool>,
 	<primal:pigman_meat_cured>,
 	<primal:pigman_meat_rotten>,
 	<primal:pigman_meat_salted>,
+	<primal:pitfall>,
+	<primal:planks:2>,
 	<primal:plant_tinder>,
 	<primal:pressure_block>,
 	<primal:pressure_plate:1>,
@@ -456,6 +452,8 @@ var hideItems as IItemStack[] = [
 	<primal:slab_soulglass>,
 	<primal:smoke>,
 	<primal:stairs_carbonate_flag>,
+	<primal:stairs_ferro_flag>,
+	<primal:stairs_lacquer>,
 	<primal:stone_basin>,
 	<primal:stone_gallagher>,
 	<primal:tall_grass_seeds>,
@@ -468,8 +466,10 @@ var hideItems as IItemStack[] = [
 	<primal:torch_wood>,
 	<primal:torch_wood_lit>,
 	<primal:urushi_bottle>,
+	<primal:urushi_ground>,
 	<primal:valus_bread>,
 	<primal:valus_melon>,
+	<primal:wall:15>,
 	<primal:wolf_meat_rotten>,
 	<primal:wood_pin>,
 	<primal:worktable_shelf:*>,
@@ -537,10 +537,7 @@ var hideItems as IItemStack[] = [
 	<ironchest:vanilla_iron_shulker_upgrade>,
 
 	//Pickle Tweaks
-	<pickletweaks:ppm4>,
-
-	//Sulfur
-	<natura:materials:4>
+	<pickletweaks:ppm4>
 ];
 
 for item in hideItems {

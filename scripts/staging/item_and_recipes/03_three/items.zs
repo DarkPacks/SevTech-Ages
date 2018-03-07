@@ -113,6 +113,7 @@ var stage3Items as IIngredient[] = [
 	<primal:corypha_pin>,
 	<primal:corypha_seed>,
 	<primal:corypha_stick>,
+	<primal:daucus_murn_fronds_withered>,
 	<primal:daucus_murn_seeds>,
 	<primal:drain_nether_earth>,
 	<primal:drain_netherstone>,
@@ -190,6 +191,7 @@ var stage3Items as IIngredient[] = [
 	<primal:stairs_nether_path>,
 	<primal:stairs_netherrack>,
 	<primal:thatching_nether>,
+	<primal:valus_fiber>,
 	<primal:valus_seed>,
 	<primal:valus_sepals>,
 	<primal:valus_stalk_fresh>,
@@ -203,8 +205,6 @@ var stage3Items as IIngredient[] = [
 	<quark:red_nether_brick_slab>,
 	<quark:red_nether_brick_stairs>,
 	<quark:smoker>,
-	<primal:daucus_murn_fronds_withered>,
-	<primal:valus_fiber>,
 
 	//Redstone
 	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone", Amount: 1000}}),
@@ -231,8 +231,7 @@ var stage3Items as IIngredient[] = [
 	/*
 		Items by mod
 	*/
-
-	//Test
+	//Modular Machinery Blueprints
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chemical_mixer"}),
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_loom"}),
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:volcanic_crystalizer"}),
@@ -247,8 +246,6 @@ var stage3Items as IIngredient[] = [
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:liquid_processor"}),
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk2"}),
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk3"}),
-
-
 
 	//Minecraft
 	<minecraft:beacon>,
@@ -1646,11 +1643,10 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"}),
 	<bloodmagic:upgrade_trainer>,
 
-	//FirstNecron remove when able
+	//TODO
 	<contenttweaker:material_part:117>,
 	<mekanism:oreblock>,
 	<geolosys:cluster:12>
-
 ];
 
 for item in stage3Items {

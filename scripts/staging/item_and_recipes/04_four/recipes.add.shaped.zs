@@ -32,7 +32,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterbuilderswands:wandunbreakable> : [
 		[[null, null, <minecraft:nether_star>], [null, log, null], [log, null, null]]
 	],
-	
+
 	<buildcraftcore:engine> : [
 		[
 			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
@@ -117,168 +117,168 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-  	//Actually Additions
-  	<actuallyadditions:block_coal_generator> : [
-  		[
-  			[cobblestone, <stevescarts:cartmodule>, cobblestone],
-  			[cobblestone, <teslacorelib:machine_case>, cobblestone],
-  			[cobblestone, <stevescarts:cartmodule>, cobblestone]
-  		]
-  	],
-  	<actuallyadditions:block_oil_generator> : [
-  		[
-  			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone],
-  			[cobblestone, <teslacorelib:machine_case>, cobblestone],
-  			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone]
-  		]
-  	],
-  	<actuallyadditions:block_feeder> : [
-  		[
-  			[metals.compressedIron.plate, <darkutils:grate>, metals.compressedIron.plate],
-  			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case>, <immersiveengineering:metal_decoration0:1>],
-  			[metals.compressedIron.ingot, metals.compressedIron.plate, metals.compressedIron.ingot]
-  		]
-  	],
-  	<actuallyadditions:block_grinder> : [
-  		[
-  			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate],
-  			[<minecraft:piston>, <teslacorelib:machine_case>, <minecraft:piston>],
-  			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate]
-  		]
-  	],
-  	<actuallyadditions:block_grinder_double> : [
-  		[
-  			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
-  			[<actuallyadditions:block_grinder>, <teslacorelib:machine_case>, <actuallyadditions:block_grinder>],
-  			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
-  		]
-  	],
-  	<actuallyadditions:block_furnace_double> : [
-  		[
-  			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
-  			[<tconstruct:seared_furnace_controller>, <actuallyadditions:block_coal_generator>, <tconstruct:seared_furnace_controller>],
-  			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
-  		]
-  	],
-  	<actuallyadditions:block_farmer> : [
-  		[
-  			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot],
-  			[metals.compressedIron.gear, <teslacorelib:machine_case>, metals.compressedIron.gear],
-  			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot]
-  		]
-  	],
-  	<actuallyadditions:item_misc:7>: [
-  		[
-  			[null, <immersiveengineering:wirecoil:5>, <actuallyadditions:item_misc:5>],
-  			[<immersiveengineering:wirecoil:5>, metals.iron.rod, <immersiveengineering:wirecoil:5>],
-  			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:5>, null]
-  		]
-  	],
-  	<actuallyadditions:item_misc:8>: [
-  		[
-  			[null, <immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:5>],
-  			[<immersiveengineering:wirecoil:1>, metals.compressedIron.rod, <immersiveengineering:wirecoil:1>],
-  			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:1>, null]
-  		]
-  	],
-  	<actuallyadditions:item_battery>: [
-  		[
-  			[null, <immersiveengineering:wirecoil:5>, null],
-  			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
-  			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
-  		]
-  	],
-  	<actuallyadditions:item_battery_double>: [
-  		[
-  			[null, <actuallyadditions:item_battery>, null],
-  			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
-  			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
-  		]
-  	],
-  	<actuallyadditions:item_battery_triple>: [
-  		[
-  			[null, <actuallyadditions:item_battery_double>, null],
-  			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
-  			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
-  		]
-  	],
-  	<actuallyadditions:item_battery_quadruple>: [
-  		[
-  			[null, <actuallyadditions:item_battery_triple>, null],
-  			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
-  			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
-  		]
-  	],
-  	<actuallyadditions:item_battery_quintuple>: [
-  		[
-  			[null, <actuallyadditions:item_battery_quadruple>, null],
-  			[metals.silver.plate, <actuallyadditions:item_misc:8>, metals.silver.plate],
-  			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
-  		]
-  	],
-  	<actuallyadditions:block_misc:9>: [
-  		[
-  			[metals.iron.plate, stick, metals.iron.plate],
-  			[stick, <actuallyadditions:item_misc:5>, stick],
-  			[metals.iron.plate, stick, metals.iron.plate]
-  		]
-  	],
-  	<actuallyadditions:block_bio_reactor>: [
-  		[
-  			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate],
-  			[metals.modularium.plate, <ore:treeSapling>, metals.modularium.plate],
-  			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate]
-  		]
-  	],
-  	<actuallyadditions:block_canola_press>: [
-  		[
-  			[cobblestone, metals.iron.plate, cobblestone],
-  			[cobblestone, <actuallyadditions:item_misc:13>, cobblestone],
-  			[cobblestone, <actuallyadditions:item_misc:8>, cobblestone]
-  		]
-  	],
-  	<actuallyadditions:block_fermenting_barrel>: [
-  		[
-  			[log, metals.iron.plate, log],
-  			[log, <actuallyadditions:item_misc:13>, log],
-  			[log, <actuallyadditions:block_misc:4>, log]
-  		]
-  	],
-  	<actuallyadditions:block_misc:8>: [
-  		[
-  			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>],
-  			[metals.modularium.plate, <actuallyadditions:block_misc:2>, metals.modularium.plate],
-  			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>]
-  		]
-  	],
-  	<actuallyadditions:block_giant_chest_medium>: [
-  		[
-  			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
-  			[metals.nickel.plate, null, metals.nickel.plate],
-  			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>]
-  		]
-  	],
-  	<actuallyadditions:block_giant_chest_large>: [
-  		[
-  			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
-  			[metals.modularium.plate, null, metals.modularium.plate],
-  			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest_medium>, <ore:plankTreatedWood>]
-  		]
-  	],
-/*	
-  	<actuallyadditions:block_inputter>: [
-  		[
-  			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
-  			[<pneumaticcraft:omnidirectional_hopper>, null, <pneumaticcraft:omnidirectional_hopper>],
-  			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]
-  		]
-  	],
-  	<actuallyadditions:block_inputter_advanced>: [
-  		[
-  			[<actuallyadditions:block_inputter>, <actuallyadditions:item_misc:8>],
-  			[<actuallyadditions:item_misc:5>, metals.redstoneAlloy.plate]
-  		]
-  	],
+	//Actually Additions
+	<actuallyadditions:block_coal_generator> : [
+		[
+			[cobblestone, <stevescarts:cartmodule>, cobblestone],
+			[cobblestone, <teslacorelib:machine_case>, cobblestone],
+			[cobblestone, <stevescarts:cartmodule>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_oil_generator> : [
+		[
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone],
+			[cobblestone, <teslacorelib:machine_case>, cobblestone],
+			[cobblestone, <actuallyadditions:block_canola_press>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_feeder> : [
+		[
+			[metals.compressedIron.plate, <darkutils:grate>, metals.compressedIron.plate],
+			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case>, <immersiveengineering:metal_decoration0:1>],
+			[metals.compressedIron.ingot, metals.compressedIron.plate, metals.compressedIron.ingot]
+		]
+	],
+	<actuallyadditions:block_grinder> : [
+		[
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate],
+			[<minecraft:piston>, <teslacorelib:machine_case>, <minecraft:piston>],
+			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate]
+		]
+	],
+	<actuallyadditions:block_grinder_double> : [
+		[
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
+			[<actuallyadditions:block_grinder>, <teslacorelib:machine_case>, <actuallyadditions:block_grinder>],
+			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
+		]
+	],
+	<actuallyadditions:block_furnace_double> : [
+		[
+			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
+			[<tconstruct:seared_furnace_controller>, <actuallyadditions:block_coal_generator>, <tconstruct:seared_furnace_controller>],
+			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
+		]
+	],
+	<actuallyadditions:block_farmer> : [
+		[
+			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot],
+			[metals.compressedIron.gear, <teslacorelib:machine_case>, metals.compressedIron.gear],
+			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot]
+		]
+	],
+	<actuallyadditions:item_misc:7>: [
+		[
+			[null, <immersiveengineering:wirecoil:5>, <actuallyadditions:item_misc:5>],
+			[<immersiveengineering:wirecoil:5>, metals.iron.rod, <immersiveengineering:wirecoil:5>],
+			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:5>, null]
+		]
+	],
+	<actuallyadditions:item_misc:8>: [
+		[
+			[null, <immersiveengineering:wirecoil:1>, <actuallyadditions:item_misc:5>],
+			[<immersiveengineering:wirecoil:1>, metals.compressedIron.rod, <immersiveengineering:wirecoil:1>],
+			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:1>, null]
+		]
+	],
+	<actuallyadditions:item_battery>: [
+		[
+			[null, <immersiveengineering:wirecoil:5>, null],
+			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
+			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_battery_double>: [
+		[
+			[null, <actuallyadditions:item_battery>, null],
+			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
+			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
+		]
+	],
+	<actuallyadditions:item_battery_triple>: [
+		[
+			[null, <actuallyadditions:item_battery_double>, null],
+			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
+			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
+		]
+	],
+	<actuallyadditions:item_battery_quadruple>: [
+		[
+			[null, <actuallyadditions:item_battery_triple>, null],
+			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
+			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
+		]
+	],
+	<actuallyadditions:item_battery_quintuple>: [
+		[
+			[null, <actuallyadditions:item_battery_quadruple>, null],
+			[metals.silver.plate, <actuallyadditions:item_misc:8>, metals.silver.plate],
+			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
+		]
+	],
+	<actuallyadditions:block_misc:9>: [
+		[
+			[metals.iron.plate, stick, metals.iron.plate],
+			[stick, <actuallyadditions:item_misc:5>, stick],
+			[metals.iron.plate, stick, metals.iron.plate]
+		]
+	],
+	<actuallyadditions:block_bio_reactor>: [
+		[
+			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate],
+			[metals.modularium.plate, <ore:treeSapling>, metals.modularium.plate],
+			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate]
+		]
+	],
+	<actuallyadditions:block_canola_press>: [
+		[
+			[cobblestone, metals.iron.plate, cobblestone],
+			[cobblestone, <actuallyadditions:item_misc:13>, cobblestone],
+			[cobblestone, <actuallyadditions:item_misc:8>, cobblestone]
+		]
+	],
+	<actuallyadditions:block_fermenting_barrel>: [
+		[
+			[log, metals.iron.plate, log],
+			[log, <actuallyadditions:item_misc:13>, log],
+			[log, <actuallyadditions:block_misc:4>, log]
+		]
+	],
+	<actuallyadditions:block_misc:8>: [
+		[
+			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>],
+			[metals.modularium.plate, <actuallyadditions:block_misc:2>, metals.modularium.plate],
+			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>]
+		]
+	],
+	<actuallyadditions:block_giant_chest_medium>: [
+		[
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[metals.nickel.plate, null, metals.nickel.plate],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>]
+		]
+	],
+	<actuallyadditions:block_giant_chest_large>: [
+		[
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[metals.modularium.plate, null, metals.modularium.plate],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest_medium>, <ore:plankTreatedWood>]
+		]
+	],
+/*
+	<actuallyadditions:block_inputter>: [
+		[
+			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+			[<pneumaticcraft:omnidirectional_hopper>, null, <pneumaticcraft:omnidirectional_hopper>],
+			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]
+		]
+	],
+	<actuallyadditions:block_inputter_advanced>: [
+		[
+			[<actuallyadditions:block_inputter>, <actuallyadditions:item_misc:8>],
+			[<actuallyadditions:item_misc:5>, metals.redstoneAlloy.plate]
+		]
+	],
 */
 	<actuallyadditions:block_breaker>: [
 		[
@@ -772,11 +772,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<indlog:buffer:13> : [
-	  	[
-	  		[<minecraft:ender_eye>, metals.platinum.gear, <minecraft:ender_eye>],
-	  		[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
-	  		[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
-	  	]
+		[
+			[<minecraft:ender_eye>, metals.platinum.gear, <minecraft:ender_eye>],
+			[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
+			[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
+		]
 	],
 	<indlog:fluid_pipe> * 8: [
 		[
@@ -973,11 +973,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<industrialforegoing:range_addon:10>: [
-	  	[
-	  		[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>],
-	  		[<minecraft:prismarine_shard>, <ore:paneGlass>, <minecraft:prismarine_shard>],
-	  		[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>]
-	  	]
+		[
+			[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>],
+			[<minecraft:prismarine_shard>, <ore:paneGlass>, <minecraft:prismarine_shard>],
+			[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>]
+		]
 	],
 	<industrialforegoing:range_addon:11>: [
 		[

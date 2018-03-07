@@ -440,6 +440,7 @@ var stage1Items as IIngredient[] = [
 
 	//Abyssalcraft
 	<abyssalcraft:abybutton>,
+	<abyssalcraft:abyore>,
 	<abyssalcraft:abyportal>,
 	<abyssalcraft:abyslab2>,
 	<abyssalcraft:cchunk>,
@@ -453,6 +454,7 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:ccluster9>,
 	<abyssalcraft:charm>,
 	<abyssalcraft:coralium>,
+	<abyssalcraft:coraliumcobblestoneslab2>,
 	<abyssalcraft:coraliumore>,
 	<abyssalcraft:coraliumstone>,
 	<abyssalcraft:coraxe>,
@@ -491,8 +493,16 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:monolithpillar>,
 	<abyssalcraft:necronomicon>,
 	<abyssalcraft:necronomicon_cor>,
+	<abyssalcraft:nitre>,
+	<abyssalcraft:nitreore>,
 	<abyssalcraft:platec>,
 	<abyssalcraft:rendingpedestal>,
+	<abyssalcraft:ritualaltar:1>,
+	<abyssalcraft:ritualaltar:2>,
+	<abyssalcraft:ritualaltar:3>,
+	<abyssalcraft:ritualpedestal:1>,
+	<abyssalcraft:ritualpedestal:2>,
+	<abyssalcraft:ritualpedestal:3>,
 	<abyssalcraft:sacrificialaltar>,
 	<abyssalcraft:scroll:1>,
 	<abyssalcraft:scroll:2>,
@@ -516,19 +526,9 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredsacrificialaltar>,
 	<abyssalcraft:unique_scroll:1>,
 	<abyssalcraft:unique_scroll>,
-	<abyssalcraft:abyore>,
-	<abyssalcraft:nitreore>,
-	<abyssalcraft:nitre>,
-	<abyssalcraft:coraliumcobblestoneslab2>,
 	<acintegration:moltenabyssalnite>,
 	<acintegration:moltencoralium>,
 	<acintegration:moltendreadium>,
-	<abyssalcraft:ritualpedestal:1>,
-	<abyssalcraft:ritualpedestal:2>,
-	<abyssalcraft:ritualpedestal:3>,
-	<abyssalcraft:ritualaltar:1>,
-	<abyssalcraft:ritualaltar:2>,
-	<abyssalcraft:ritualaltar:3>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -973,7 +973,6 @@ var stage1Items as IIngredient[] = [
 	<dungpipe:sewer_pipe>,
 
 	//Cyclic
-	<guideapi:cyclicmagic-guide>,
 	<cyclicmagic:apple>,
 	<cyclicmagic:plate_launch_large>,
 	<cyclicmagic:plate_launch_small>,
@@ -982,6 +981,7 @@ var stage1Items as IIngredient[] = [
 	<cyclicmagic:sandstone_spade>,
 	<cyclicmagic:tool_harvest_leaves>,
 	<cyclicmagic:tool_harvest_weeds>,
+	<guideapi:cyclicmagic-guide>,
 
 	//Compressed
 	<overloaded:compressed_cobblestone:*>,
@@ -1032,7 +1032,6 @@ var stage1Items as IIngredient[] = [
 	<waterstrainer:bait_pot>,
 
 	//Blood Magic
-	<guideapi:bloodmagic-guide>,
 	<bloodmagic:altar>,
 	<bloodmagic:arcane_ashes>,
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),
@@ -1067,6 +1066,7 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:soul_gem:1>,
 	<bloodmagic:soul_gem>,
 	<bloodmagic:soul_snare>,
+	<guideapi:bloodmagic-guide>,
 
 	<mekanism:otherdust:3>
 ];

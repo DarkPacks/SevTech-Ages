@@ -40,14 +40,15 @@ var disabledParts as IItemStack[] = [
 ];
 
 for part in parts {
-    for stage, materials in scripts.staging.tinkers.materialsForStage {
-        var newStage = stage;
-        if (disabledParts has part) {
-            newStage = STAGES.disabled;
-        }
+	for stage, materials in scripts.staging.tinkers.materialsForStage {
+		var newStage = stage;
 
-        for material in materials {
-            mods.ItemStages.addItemStage(newStage, part.withTag({Material: material}));
-        }
-    }
+		if (disabledParts has part) {
+			newStage = STAGES.disabled;
+		}
+
+		for material in materials {
+			mods.ItemStages.addItemStage(newStage, part.withTag({Material: material}));
+		}
+	}
 }

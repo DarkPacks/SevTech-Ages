@@ -187,7 +187,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-
 	//Iron Chests
 	<ironchest:diamond_obsidian_chest_upgrade>: [
 		[
@@ -210,7 +209,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

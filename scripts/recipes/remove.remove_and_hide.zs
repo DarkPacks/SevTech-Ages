@@ -2,9 +2,6 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
-	<mekanism:basicblock:3>,
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
 	<abyssalcraft:eggp>,
@@ -12,6 +9,8 @@ var removeAndHideItems as IItemStack[] = [
 	<abyssalcraft:ironp>,
 	<abyssalcraft:mre>,
 	<abyssalcraft:porkp>,
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_misc:10>,
@@ -48,6 +47,7 @@ var removeAndHideItems as IItemStack[] = [
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>, //TODO: Add back when IronBackpacks adds upgrade functionality
+	<mekanism:basicblock:3>,
 	<microblockcbe:saw_diamond>,
 	<microblockcbe:saw_iron>,
 	<microblockcbe:saw_stone>,

@@ -27,6 +27,13 @@ for id in modIDs {
 var stage5Items as IIngredient[] = [
 	//Oredict
 	<ore:gearDiamond>,
+	<ore:dustDiamond>,
+
+	//ContentTweaker
+	<materialpart:gold:ore_galacticraftplanets_bottom>,
+	<materialpart:inferium:ore_extraplanets_kepler22b_stone>,
+	<materialpart:iron:ore_galacticraftcore_bottom>,
+	<materialpart:prosperity:ore_extraplanets_kepler22b_stone>,
 
 	//Misc
 	<improvedbackpacks:upgrade:4>,
@@ -1547,12 +1554,7 @@ var stage5Items as IIngredient[] = [
 	<chargers:wireless_charger>,
 
 	//TODO
-	<contenttweaker:sub_block_holder_0:7>,
-	<contenttweaker:sub_block_holder_0:8>,
-	<contenttweaker:sub_block_holder_0:9>,
-	<contenttweaker:sub_block_holder_0:10>,
-	<galacticraftplanets:item_basic_asteroids:9>,
-	<mekanism:otherdust>
+	<galacticraftplanets:item_basic_asteroids:9>
 ];
 
 for item in stage5Items {

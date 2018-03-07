@@ -1035,7 +1035,6 @@ var stage3Items as IIngredient[] = [
 	<immersiveengineering:material:22>,
 	<immersiveengineering:material:23>,
 	<immersiveengineering:material:24>,
-	<immersiveengineering:material:25>,
 	<immersiveengineering:material:26>,
 	<immersiveengineering:material:27>,
 	<immersiveengineering:material>,
@@ -1641,12 +1640,7 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.sprintAttack"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stepAssist"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"}),
-	<bloodmagic:upgrade_trainer>,
-
-	//TODO
-	<contenttweaker:material_part:117>,
-	<mekanism:oreblock>,
-	<geolosys:cluster:12>
+	<bloodmagic:upgrade_trainer>
 ];
 
 for item in stage3Items {

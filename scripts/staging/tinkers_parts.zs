@@ -52,3 +52,5 @@ for part in parts {
 		}
 	}
 }
+
+mods.ItemStages.addItemStage(STAGES.two, <tconstruct:arrow_shaft>.withTag({Material: "nagascale"}));

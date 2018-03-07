@@ -16,6 +16,9 @@ for id in modIDs {
 */
 
 var stage1Items as IIngredient[] = [
+	//Oredict
+	<ore:dustSulfur>,
+
 	<charcoalblock:charcoal_block>,
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab:10>,
@@ -1066,9 +1069,7 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:soul_gem:1>,
 	<bloodmagic:soul_gem>,
 	<bloodmagic:soul_snare>,
-	<guideapi:bloodmagic-guide>,
-
-	<mekanism:otherdust:3>
+	<guideapi:bloodmagic-guide>
 ];
 
 for item in stage1Items {

@@ -1162,10 +1162,7 @@ var stage2Items as IIngredient[] = [
 	<bloodmagic:sigil_water>,
 	<bloodmagic:sigil_whirlwind>,
 	<bloodmagic:slate:2>,
-	<bloodmagic:soul_gem:2>,
-
-	//FirstNecron fix later
-	<tconstruct:arrow_shaft>.withTag({Material: "nagascale"})
+	<bloodmagic:soul_gem:2>
 ];
 
 for item in stage2Items {

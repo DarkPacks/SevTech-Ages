@@ -20,6 +20,9 @@ for id in modIDs {
 }
 
 var stage4Items as IIngredient[] = [
+	//Oredict
+	<ore:oreOsmium>,
+
 	<prospectors:prospector_high>,
 
 	/*

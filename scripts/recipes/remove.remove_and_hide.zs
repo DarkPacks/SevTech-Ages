@@ -47,7 +47,6 @@ var removeAndHideItems as IItemStack[] = [
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>, //TODO: Add back when IronBackpacks adds upgrade functionality
-	<mekanism:basicblock:3>,
 	<microblockcbe:saw_diamond>,
 	<microblockcbe:saw_iron>,
 	<microblockcbe:saw_stone>,

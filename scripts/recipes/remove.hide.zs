@@ -7,10 +7,9 @@ var hideItems as IItemStack[] = [
 	<progressiontweaks:machine_frame>,
 	<progressiontweaks:nanomachine_frame>,
 
-	//TODO
+	//TODO: Remove from all and hide (kinda like unify, but without looping over oredict)
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
-	<natura:materials:4> //Sulfur
 
 	<base:wrench>,
 	<baubles:ring>,

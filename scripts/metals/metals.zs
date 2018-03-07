@@ -41,6 +41,7 @@ var metalStages as string[string] = {
 	steel: "three",
 	steeleaf: "two",
 	tin: "one",
+	titanium: "five",
 	uranium: "four"
 };
 

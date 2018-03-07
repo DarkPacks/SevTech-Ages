@@ -393,6 +393,16 @@ global metalItems as IIngredient[string][string] = {
 		rod: <materialpart:tin:rod>,
 		shard: <mekanism:shard:4>
 	},
+	titanium: {
+		block: <galacticraftplanets:asteroids_block:7>,
+		dust: null,
+		gear: null,
+		ingot: <galacticraftplanets:item_basic_asteroids>,
+		liquid: null,
+		nugget: null,
+		plate: null,
+		rod: null
+	},
 	uranium: {
 		block: <immersiveengineering:storage:5>,
 		dust: <immersiveengineering:metal:14>,

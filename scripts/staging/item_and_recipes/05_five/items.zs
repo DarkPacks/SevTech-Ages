@@ -1551,10 +1551,7 @@ var stage5Items as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:2>,
-	<chargers:wireless_charger>,
-
-	//TODO
-	<galacticraftplanets:item_basic_asteroids:9>
+	<chargers:wireless_charger>
 ];
 
 for item in stage5Items {

@@ -87,17 +87,17 @@ Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.wit
 Casting.removeTableRecipe(<mysticalagriculture:crafting:45>); //Soulium Nugget
 
 //Iron Chests
-Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0] * 1152, 300, true);
-Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0] * 1152, 300, true);
-Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0] * 1152, 300, true);
-Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0] * 1152, 300, true);
-Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian> * 1152, 300, true);
-Casting.addBasinRecipe(<ironchest:iron_chest:5>, <ironchest:iron_chest:1>, <liquid:astralsorcery.liquidstarlight> * 1152, 300, true);
+Casting.addBasinRecipe(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0], 1152, true, 300);
+Casting.addBasinRecipe(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0], 1152, true, 300);
+Casting.addBasinRecipe(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0], 1152, true, 300);
+Casting.addBasinRecipe(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0], 1152, true, 300);
+Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liquid:obsidian>, 1152, true, 300);
+Casting.addBasinRecipe(<ironchest:iron_chest:5>, <ironchest:iron_chest:1>, <liquid:astralsorcery.liquidstarlight>, 1152, true, 300);
 
 //Slime Ball Casting
-Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime> * 160, 40, false);
-Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime> * 160, 40, false);
-Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime> * 160, 40, false);
+Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime>, 160, false, 40);
+Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime>, 160, false, 40);
+Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime>, 160, false, 40);
 
 /*
 	Melting

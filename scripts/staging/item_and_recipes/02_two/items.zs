@@ -572,7 +572,9 @@ var stage2Items as IIngredient[] = [
 	<chisel:waterstone:*>,
 
 	//Astral Sorcery Stage 2
-	<astralsorcery:blockaltar:*>,
+	<astralsorcery:blockaltar:1>,
+	<astralsorcery:blockaltar:2>,
+	<astralsorcery:blockaltar:3>,
 	<astralsorcery:blockattunementaltar>,
 	<astralsorcery:blockattunementrelay>,
 	<astralsorcery:blockblackmarble:*>,
@@ -633,6 +635,7 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}}),
 	<astralsorcery:itemwand>,
 	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
+	<astralsorcery:itemwand>.withTag({astralsorcery: {}}),
 
 	//Abyssalcraft
 	<abyssalcraft:aaxe>,
@@ -861,6 +864,16 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:1>,
 	<abyssalcraft:yogsothothcharm>,
 	<abyssalcraft:yogsothothcoin>,
+	<abyssalcraft:abyssalcobblestoneslab2>,
+	<abyssalcraft:abycorore>,
+	<abyssalcraft:abypcorore>,
+	<abyssalcraft:abylcorore>,
+	<abyssalcraft:eoa>,
+	<abyssalcraft:eldritchscale>,
+	<abyssalcraft:cstonebrickslab2>,
+	<abyssalcraft:lifecrystal>,
+	<abyssalcraft:ritualpedestal:5>,
+	<abyssalcraft:ritualaltar:5>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
@@ -1149,7 +1162,10 @@ var stage2Items as IIngredient[] = [
 	<bloodmagic:sigil_water>,
 	<bloodmagic:sigil_whirlwind>,
 	<bloodmagic:slate:2>,
-	<bloodmagic:soul_gem:2>
+	<bloodmagic:soul_gem:2>,
+
+	//FirstNecron fix later
+	<tconstruct:arrow_shaft>.withTag({Material: "nagascale"})
 ];
 
 for item in stage2Items {

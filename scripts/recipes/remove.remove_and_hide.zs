@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
+	<mekanism:basicblock:3>,
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
 	<abyssalcraft:eggp>,

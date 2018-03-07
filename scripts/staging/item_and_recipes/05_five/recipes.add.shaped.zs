@@ -185,7 +185,32 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mysticalagriculture:steeleaf_essence>, null, <mysticalagriculture:steeleaf_essence>],
 			[<mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>, <mysticalagriculture:steeleaf_essence>]
 		]
+	],
+
+
+	//Iron Chests
+	<ironchest:diamond_obsidian_chest_upgrade>: [
+		[
+			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>],
+			[<mekanism:compressedobsidian>, <mekanism:compresseddiamond>, <mekanism:compressedobsidian>],
+			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+		]
+	],
+	<ironchest:diamond_crystal_chest_upgrade>: [
+		[
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
+		]
+	],
+	<ironchest:gold_diamond_chest_upgrade>: [
+		[
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, metals.gold.plate, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

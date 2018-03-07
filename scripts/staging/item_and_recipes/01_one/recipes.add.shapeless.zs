@@ -50,6 +50,12 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<chiselsandbits:positiveprint> : [
 		[<chiselsandbits:positiveprint>]
+	],
+	<guideapi:bloodmagic-guide> : [
+		[<primal:plant_cloth>, <ore:feather>]
+	],
+	<guideapi:cyclicmagic-guide> : [
+		[<primal:plant_cloth>, <cyclicmagic:apple>]
 	]
 };
 

@@ -33,7 +33,13 @@ var removeItems as IItemStack[] = [
 
 	//Xnet
 	<xnet:controller>,
-	<xnet:router>
+	<xnet:router>,
+
+	//Iron Chests
+	<ironchest:diamond_obsidian_chest_upgrade>,
+	<ironchest:diamond_crystal_chest_upgrade>,
+	<ironchest:gold_diamond_chest_upgrade>
+
 ];
 
 for item in removeItems {

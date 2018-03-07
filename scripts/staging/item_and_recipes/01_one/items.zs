@@ -516,6 +516,19 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:tieredsacrificialaltar>,
 	<abyssalcraft:unique_scroll:1>,
 	<abyssalcraft:unique_scroll>,
+	<abyssalcraft:abyore>,
+	<abyssalcraft:nitreore>,
+	<abyssalcraft:nitre>,
+	<abyssalcraft:coraliumcobblestoneslab2>,
+	<acintegration:moltenabyssalnite>,
+	<acintegration:moltencoralium>,
+	<acintegration:moltendreadium>,
+	<abyssalcraft:ritualpedestal:1>,
+	<abyssalcraft:ritualpedestal:2>,
+	<abyssalcraft:ritualpedestal:3>,
+	<abyssalcraft:ritualaltar:1>,
+	<abyssalcraft:ritualaltar:2>,
+	<abyssalcraft:ritualaltar:3>,
 
 	//Actually Additions
 	<actuallyadditions:block_misc:1>,
@@ -960,6 +973,7 @@ var stage1Items as IIngredient[] = [
 	<dungpipe:sewer_pipe>,
 
 	//Cyclic
+	<guideapi:cyclicmagic-guide>,
 	<cyclicmagic:apple>,
 	<cyclicmagic:plate_launch_large>,
 	<cyclicmagic:plate_launch_small>,
@@ -1018,6 +1032,7 @@ var stage1Items as IIngredient[] = [
 	<waterstrainer:bait_pot>,
 
 	//Blood Magic
+	<guideapi:bloodmagic-guide>,
 	<bloodmagic:altar>,
 	<bloodmagic:arcane_ashes>,
 	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),
@@ -1051,7 +1066,9 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:soul_forge>,
 	<bloodmagic:soul_gem:1>,
 	<bloodmagic:soul_gem>,
-	<bloodmagic:soul_snare>
+	<bloodmagic:soul_snare>,
+
+	<mekanism:otherdust:3>
 ];
 
 for item in stage1Items {

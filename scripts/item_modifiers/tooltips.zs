@@ -101,14 +101,6 @@
 
 <ceramics:clay_bucket>.addTooltip(format.red("Will literally melt away after transporting HOT liquid"));
 
-//I'm going to put this "deleted" tooltip right in the middle of this file. I'm currently
-//in the middle of removing Embers and Roots because the dev had a tantrum on reddit
-//because people like Thaumcraft. Literally, that's what it was about.
-//So, thanks for being a drama queen and making all of us pack devs have to change
-//hours of work because you feel like thaumcraft invalidates your magic mod work.
-//You just invalidated over 2,000 projects on curse. But, it's totally cool since
-//you get what you wanted and all the attention you think you deserver. Bye felecia!
-
 <progressiontweaks:spear>.addTooltip(format.red("Hold Mouse Button To Charge"));
 <progressiontweaks:spear>.addTooltip(format.red("Release to throw"));
 
@@ -121,3 +113,5 @@
 <primal_tech:rock>.addTooltip(format.red("Left Click on Table to craft recipe"));
 
 <tconstruct:sharpening_kit>.addTooltip(format.red("Only used to repair tools"));
+
+<betterwithaddons:japanmat:36>.addTooltip(format.red("Mulberry Trees rarely spawn in most biomes"));

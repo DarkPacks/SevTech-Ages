@@ -2,7 +2,7 @@ setIcon("contenttweaker:sub_block_holder_0")
 
 setTitle("The Search for Aquamarine")
 
-setDescription("Travel to the beneath and search the upper caves for Aquamarine gems")
+setDescription("Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore")
 
 setParent("triumph:stage1/beneath")
 setRequiresParent(true)

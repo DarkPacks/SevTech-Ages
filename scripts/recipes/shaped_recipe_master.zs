@@ -247,7 +247,7 @@ recipes.addShapeless(<minecraft:flint> * 9, [<betterwithmods:aesthetic:5>]);
 recipes.addShapeless(<minecraft:flint>, [<pickletweaks:grass_mesh:*>, <minecraft:gravel>]);
 
 recipes.remove(<pickletweaks:grass_mesh>);
-recipes.addShapedMirrored(<pickletweaks:grass_mesh>, [[stick, cordage], [cordage, stick]]);
+recipes.addShapedMirrored(<pickletweaks:grass_mesh>, [[<minecraft:stick>, <primal:plant_cordage>], [<primal:plant_cordage>, <minecraft:stick>]]);
 
 //String Recipes
 recipes.remove(str);

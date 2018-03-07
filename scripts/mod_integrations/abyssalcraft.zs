@@ -8,7 +8,7 @@ import mods.abyssalcraft.Rituals;
 	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#infusion-rituals-are-added-this-way
 */
 InfusionRitual.addRitual("beneathritual", 0, 0, 1000, false, <beneath:teleporterbeneath>, <progressiontweaks:blank_teleporter>, [
-	<minecraft:sea_lantern>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>,
+	<bloodmagic:monster_soul>, <abyssalcraft:stone:7>, <abyssalcraft:stone:7>,
 	<betterwithmods:material:18>, <abyssalcraft:stone:7>, <minecraft:gunpowder>,
 	<abyssalcraft:stone:7>, <minecraft:dark_oak_fence_gate>
 ], false, []);
@@ -16,8 +16,8 @@ game.setLocalization("ac.ritual.beneathritual", "Beneath Portal Creation Ritual"
 
 //Astral Sorcery Table 1
 InfusionRitual.addRitual("ascraftingtable", 0, 0, 1000, false, <astralsorcery:blockaltar>, <minecraft:crafting_table>, [
-	<ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>,
-	<astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>,
+	<bloodmagic:slate:1>, <astralsorcery:itemcraftingcomponent>, <ore:stoneMarble>,
+	<astralsorcery:itemcraftingcomponent>, <bloodmagic:slate:1>, <astralsorcery:itemcraftingcomponent>,
 	<ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>
 ], false, []);
 game.setLocalization("ac.ritual.ascraftingtable", "Luminous Crafting Table Creation");

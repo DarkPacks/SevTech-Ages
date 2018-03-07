@@ -277,6 +277,9 @@ var itemsForStage as IIngredient[] = [
 	<teslacorelib:speed_tier2>,
 	<teslacorelib:wrench>,
 
+	//Modular Routers
+	<guideapi:modularrouters-guidebook>,
+
 	//Modular Machinery
 	<modularmachinery:blockcasing:2>,
 	<modularmachinery:blockcasing:3>,

@@ -184,7 +184,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:dyeBlack>, <abyssalcraft:cpearl>, <ore:dyeBlack>],
 			[metals.copper.block, metals.bronze.block, metals.tin.block],
-			[<minecraft:coal_block>, <abyssalcraft:charm>, <minecraft:coal_block>]
+			[<minecraft:coal_block>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <minecraft:coal_block>]
 		]
 	],
 

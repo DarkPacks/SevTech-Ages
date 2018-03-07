@@ -30,8 +30,6 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_heat_collector>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_misc:8>,
 	<actuallyadditions:block_misc:9>,
 	<actuallyadditions:block_oil_generator>,

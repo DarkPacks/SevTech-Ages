@@ -102,6 +102,9 @@ var stage4Items as IIngredient[] = [
 	<minecraft:ender_chest>,
 	<minecraft:totem_of_undying>,
 
+	//Modular Routers
+	<guideapi:modularrouters-guidebook>,
+
 	//Immersive Engineering
 	<immersiveengineering:metal_device0:5>,
 	<immersiveengineering:storage_slab:5>,
@@ -321,8 +324,6 @@ var stage4Items as IIngredient[] = [
 	<actuallyadditions:block_grinder>,
 	<actuallyadditions:block_grinder_double>,
 	<actuallyadditions:block_heat_collector>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_item_viewer_hopping>,
 	<actuallyadditions:block_misc:4>,
 	<actuallyadditions:block_misc:6>,
@@ -1011,6 +1012,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
+	<galacticraftcore:bucket_oil>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

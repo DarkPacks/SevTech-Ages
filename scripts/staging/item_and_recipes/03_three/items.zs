@@ -203,6 +203,8 @@ var stage3Items as IIngredient[] = [
 	<quark:red_nether_brick_slab>,
 	<quark:red_nether_brick_stairs>,
 	<quark:smoker>,
+	<primal:daucus_murn_fronds_withered>,
+	<primal:valus_fiber>,
 
 	//Redstone
 	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone", Amount: 1000}}),
@@ -229,6 +231,25 @@ var stage3Items as IIngredient[] = [
 	/*
 		Items by mod
 	*/
+
+	//Test
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chemical_mixer"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_loom"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:volcanic_crystalizer"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ethylitic_enricher"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:transformer"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit_mk3"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plastic_molder"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_mill"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit_mk2"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:liquid_processor"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk2"}),
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk3"}),
+
+
+
 	//Minecraft
 	<minecraft:beacon>,
 	<minecraft:chest_minecart>,
@@ -1623,7 +1644,13 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.sprintAttack"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stepAssist"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"}),
-	<bloodmagic:upgrade_trainer>
+	<bloodmagic:upgrade_trainer>,
+
+	//FirstNecron remove when able
+	<contenttweaker:material_part:117>,
+	<mekanism:oreblock>,
+	<geolosys:cluster:12>
+
 ];
 
 for item in stage3Items {

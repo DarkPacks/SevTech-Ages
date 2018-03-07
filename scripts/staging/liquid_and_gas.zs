@@ -47,7 +47,6 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<car:bio_diesel>,
 		<car:canola_methanol_mix>,
 		<car:canola_oil>,
-		<car:glycerin>,
 		<car:methanol>,
 		<galacticraftcore:fuel>
 	],
@@ -170,13 +169,13 @@ var liquidsForStage as ILiquidStack[][string] = {
 	]
 };
 
-for stage, liquidStacks in liquidItemsForStage {
-	for liquidStack in liquidStacks {
-		mods.ItemStages.stageLiquid(stage, liquidStack);
+for stage, liquidStacks in liquidsForStage {
+    for liquidStack in liquidStacks {
+        mods.ItemStages.stageLiquid(stage, liquidStack);
 
-		//Stage buckets
-		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredient(liquidStack));
-	}
+        //Stage buckets
+        mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredient(liquidStack));
+    }
 }
 
 //TODO: These don't do anything

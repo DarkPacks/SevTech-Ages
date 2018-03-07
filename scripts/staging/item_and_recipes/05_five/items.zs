@@ -1544,7 +1544,16 @@ var stage5Items as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:2>,
-	<chargers:wireless_charger>
+	<chargers:wireless_charger>,
+
+	//Temp Ores FirstNecron switch out when you can
+	<contenttweaker:sub_block_holder_0:7>,
+	<contenttweaker:sub_block_holder_0:8>,
+	<contenttweaker:sub_block_holder_0:9>,
+	<contenttweaker:sub_block_holder_0:10>,
+	<galacticraftplanets:item_basic_asteroids:9>,
+	<mekanism:otherdust>
+
 ];
 
 for item in stage5Items {

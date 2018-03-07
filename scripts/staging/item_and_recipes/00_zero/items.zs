@@ -912,6 +912,16 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_cooked>,
 	<primal:wolf_meat_dried>,
 	<primal:wolf_meat_raw>,
+	<primal:earthwax_clump>,
+	<primal:llama_meat_charqui>,
+	<primal:cheese_white>,
+	<primal:daucus_murn_root>,
+	<primal:daucus_murn_root_cooked>,
+	<primal:wax_residue>,
+	<primal:aconite_petal>,
+	<primal:aconite_sprig>,
+	<primal:ore_salt:2>,
+	<primal:salt_netjry_block>,
 
 	//Quark
 	<quark:midori_block_stairs>,
@@ -1037,7 +1047,9 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
-	<betterwithmods:wolf_chop>
+	<betterwithmods:wolf_chop>,
+
+	<mekanism:salt>
 ];
 
 for item in stageZeroItems {

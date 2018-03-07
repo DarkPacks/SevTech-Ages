@@ -330,3 +330,8 @@ for i in 0 to 16 {
 <ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
 <ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
 <ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);
+
+//FirstNecron fix when you can
+<ore:blockCharcoal>.remove(<mekanism:basicblock:3>);
+<ore:dustSulfur>.remove(<natura:materials:4>);
+<ore:dustSulphur>.remove(<natura:materials:4>);

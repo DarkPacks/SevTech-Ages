@@ -2,11 +2,16 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var hideItems as IItemStack[] = [
+
+	//These keep showing back up
+
+
 	//Hidden for later
 	<extraplanets:block_multi>,
 	<progressiontweaks:machine_frame>,
 	<progressiontweaks:nanomachine_frame>,
-
+	<mekanism:oreblock:1>,
+	<mekanism:oreblock:2>,
 	<base:wrench>,
 	<baubles:ring>,
 	<bloodmagic:component:14>,
@@ -84,6 +89,31 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<primal:ash_bin:8>.withTag({type: "lacquer"}),
+	<primal:ash_bin:9>.withTag({type: "corypha"}),
+	<primal:wall:15>,
+	<primal:adobebrick>,
+	<primal:planks:2>,
+	<primal:metalblock:5>,
+	<primal:ovis_wool>,
+	<primal:ironglass>,
+	<primal:earthwax_block>,
+	<primal:ore_bog_iron>,
+	<primal:ore_bog_iron:1>,
+	<primal:ore_bog_iron:2>,
+	<primal:ore_magnetite>,
+	<primal:stairs_ferro_flag>,
+	<primal:stairs_lacquer>,
+	<primal:bottle_paraffin>,
+	<primal:mortar>,
+	<primal:barrel_trap>,
+	<primal:urushi_ground>,
+	<primal:diamond_plate>,
+	<primal:obsidian_workblade>,
+	<primal:pitfall>,
+	<primal:bitumin_clump>,
+	<primal:bog_iron>,
+	<primal:magnetite>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -507,7 +537,10 @@ var hideItems as IItemStack[] = [
 	<ironchest:vanilla_iron_shulker_upgrade>,
 
 	//Pickle Tweaks
-	<pickletweaks:ppm4>
+	<pickletweaks:ppm4>,
+
+	//Sulfur
+	<natura:materials:4>
 ];
 
 for item in hideItems {

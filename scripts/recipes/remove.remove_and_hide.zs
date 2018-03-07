@@ -2,6 +2,10 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 var removeAndHideItems as IItemStack[] = [
+	//TODO: Are these intended to be removed, or just because they wouldnt stage?
+	<actuallyadditions:block_inputter>,
+	<actuallyadditions:block_inputter_advanced>,
+
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
 	<abyssalcraft:eggp>,
@@ -9,8 +13,6 @@ var removeAndHideItems as IItemStack[] = [
 	<abyssalcraft:ironp>,
 	<abyssalcraft:mre>,
 	<abyssalcraft:porkp>,
-	<actuallyadditions:block_inputter>,
-	<actuallyadditions:block_inputter_advanced>,
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_misc:10>,

@@ -2,7 +2,7 @@ setIcon("primal:salt_dust_netjry")
 
 setTitle("reSalt of Your Labors")
 
-setDescription("Salt Flats exist in Deserts. Find one and become a salt farmer")
+setDescription("Find Salt in Dry Biomes or Riverbeds")
 
 setParent("triumph:stage0/grill")
 setRequiresParent(true)
@@ -11,11 +11,13 @@ criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
 
 criteria1.setItem("primal:salt_dust_void")
 criteria2.setItem("primal:salt_dust_fire")
 criteria3.setItem("primal:salt_dust_netjry")
 criteria4.setItem("primal:salt_dust_rock")
+criteria4.setItem("mekanism:salt")
 
 setRequirements("any")
 setRewardExperience(4)

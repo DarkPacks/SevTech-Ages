@@ -916,7 +916,6 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:clay_cast:*>,
 	<tconstruct:clear_glass:*>,
 	<tconstruct:clear_stained_glass:*>,
-	<tconstruct:fancy_frame:*>,
 	<tconstruct:materials:9>,
 	<tconstruct:materials:18>,
 	<tconstruct:pattern:*>,
@@ -966,6 +965,9 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:tooltables:2>,
 	<tconstruct:tooltables:4>,
 	<tconstruct:tooltables>,
+	<tconstruct:fancy_frame:6>,
+	<tconstruct:fancy_frame>,
+	<tconstruct:fancy_frame:5>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

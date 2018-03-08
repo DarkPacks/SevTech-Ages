@@ -2,7 +2,7 @@ setIcon("immersiveengineering:conveyor")
 
 setTitle("Conveyor Belt")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Immersive Engineering Conveyor Belts are great for item transport!")
 
 setParent("triumph:stage3/workbench")
 setRequiresParent(true)

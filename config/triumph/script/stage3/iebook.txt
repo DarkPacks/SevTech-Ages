@@ -2,7 +2,7 @@ setIcon("immersiveengineering:tool", 3)
 
 setTitle("Engineer Manual")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Immersive Engineering Manual is good. use it")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

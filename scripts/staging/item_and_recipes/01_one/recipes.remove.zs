@@ -70,7 +70,10 @@ var removeItems as IItemStack[] = [
 	<bloodmagic:soul_snare>,
 
 	<guideapi:bloodmagic-guide>,
-	<guideapi:cyclicmagic-guide>
+	<guideapi:cyclicmagic-guide>,
+
+	//Chisel & Bits
+	<chiselsandbits:bittank>
 ];
 
 for item in removeItems {

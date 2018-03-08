@@ -1347,6 +1347,7 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
+	<tconstruct:fancy_frame:1>,
 
 	//AbyssalCraft
 	<abyssalcraft:azathothcharm:2>,
@@ -1422,9 +1423,10 @@ var stage3Items as IIngredient[] = [
 	<buildcrafttransport:pipe_void_fluid>,
 	<buildcrafttransport:pipe_void_item>,
 	<buildcrafttransport:pipe_wood_fluid>,
-	<buildcrafttransport:pipe_wood_item>,
+	<buildcrafttransport:pipe_wood_item:*>,
 	<buildcrafttransport:plug_blocker>,
 	<buildcrafttransport:waterproof>,
+	<buildcrafttransport:pipe_stripes_item>,
 
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,

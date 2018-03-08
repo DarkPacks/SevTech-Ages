@@ -2,7 +2,7 @@ setIcon("stevescarts:modulecomponents", 49)
 
 setTitle("Galgadorian Metal")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Collect an Advanced Galgadorian Ingot to further upgrade your infrastructure")
 
 setParent("triumph:stage3/standardhull")
 setRequiresParent(true)

@@ -13,6 +13,7 @@ var removeAndHideItems as IItemStack[] = [
 	<abyssalcraft:ironp>,
 	<abyssalcraft:mre>,
 	<abyssalcraft:porkp>,
+	<abyssalcraft:cobbleu>,
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:item_misc:4>,
 	<actuallyadditions:item_misc:10>,

@@ -18,3 +18,6 @@ recipes.addShapeless(<primal:plant_cloth>, [cordage, cordage, cordage, cordage, 
 //==================================
 //Primal Tech
 recipes.addShapeless(<primal_tech:fire_sticks>, [stick, stick]);
+
+recipes.addShapeless(<primal:bark_oak>, [<minecraft:log>.transformReplace(<primal:logs_stripped>), <primal:flint_workblade>]);
+recipes.addShapeless(<primal:bark_oak>, [<minecraft:log>.transformReplace(<primal:logs_stripped>), <minecraft:stick>]);

@@ -29,7 +29,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<actuallyadditions:item_coffee_beans>]
 	],
 	<minecraft:farmland> : [
-		[<minecraft:dirt>, <minecraft:dye:15>]
+		[<minecraft:dirt>, <minecraft:dye:15>, <minecraft:dirt>]
 	],
 	<minecraft:gunpowder> : [
 		[<betterwithmods:material:37>, <ore:dyeBlack>, <ore:foodSalt>]
@@ -50,12 +50,30 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<primal:bark_jungle> : [
 		[<minecraft:log:3>.giveBack(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
 	],
+
+/*
+
 	<primal:bark_oak> : [
-		[<minecraft:log>.giveBack(<primal:logs_stripped>), <ore:toolWorkBlade>]
+		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <primal:flint_workblade>]
 	],
+
+	<primal:bark_oak> * 2: [
+		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <minecraft:stick>]
+	],
+*/
+
+
 	<primal:bark_spruce> : [
-		[<minecraft:log:1>.giveBack(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
+		[<minecraft:log:1>.transformReplace(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
 	],
+
+	<primal:bark_spruce> * 2 : [
+		[<minecraft:log:1>.transformReplace(<primal:logs_stripped:1>), <ore:workbladefix>]
+	],
+
+
+
+
 	<primal:bark_yew> : [
 		[<primal:logs:1>.giveBack(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
 	],
@@ -64,7 +82,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[str, str, str, str]
 	],
 	<betterwithmods:manual> : [
-		[<primal:plant_cloth>, <betterwithmods:material>]
+		[<primal:plant_cloth>, <betterwithmods:material>, <minecraft:stick>]
 	]
 };
 
@@ -73,3 +91,5 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
+
+

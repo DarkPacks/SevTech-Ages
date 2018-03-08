@@ -430,39 +430,39 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Blood Magic
 	<bloodmagic:altar> : [
-	  	[
-	  		[stone, null, stone],
-	  		[stone, <minecraft:furnace>, stone],
-	  		[metals.bronze.ingot, <bloodmagic:monster_soul>, metals.bronze.ingot]
-	  	]
+		[
+			[stone, null, stone],
+			[stone, <minecraft:furnace>, stone],
+			[metals.bronze.ingot, <bloodmagic:monster_soul>, metals.bronze.ingot]
+		]
 	],
 	<bloodmagic:sacrificial_dagger> : [
-	  	[
-	  		[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-	  		[null, metals.bronze.ingot, <ore:blockGlass>],
-	  		[metals.bronze.ingot, null, <ore:blockGlass>]
-	  	]
+		[
+			[null, null, <primal:sharp_bone>],
+			[null, metals.bronze.ingot, null],
+			[metals.bronze.ingot, null, null]
+		]
 	],
 	<bloodmagic:soul_snare> * 4: [
-	  	[
-	  		[str, metals.tin.ingot, str],
-	  		[metals.tin.ingot, <betterwithaddons:tweakmat>, metals.tin.ingot],
-	  		[str, metals.tin.ingot, str]
-	  	]
+		[
+			[str, metals.tin.ingot, str],
+			[metals.tin.ingot, <betterwithaddons:tweakmat>, metals.tin.ingot],
+			[str, metals.tin.ingot, str]
+		]
 	],
 	<bloodmagic:soul_forge> : [
-	  	[
-	  		[metals.tin.ingot, null, metals.tin.ingot],
-	  		[stone, metals.bronze.ingot, stone],
-	  		[stone, metals.copper.block, stone]
-	  	]
+		[
+			[metals.tin.ingot, null, metals.tin.ingot],
+			[stone, metals.bronze.ingot, stone],
+			[stone, metals.copper.block, stone]
+		]
 	],
 	<bloodmagic:blood_rune:3> : [
-	  	[
-	  		[stone, <bloodmagic:slate:1>, stone],
-	  		[metals.bronze.ingot, <bloodmagic:blood_rune>, metals.bronze.ingot],
-	  		[stone, <bloodmagic:blood_orb:*>, stone]
-	  	]
+		[
+			[stone, <bloodmagic:slate:1>, stone],
+			[metals.bronze.ingot, <bloodmagic:blood_rune>, metals.bronze.ingot],
+			[stone, <bloodmagic:blood_orb:*>, stone]
+		]
 	],
 	<bloodmagic:blood_rune:4> : [
 		[

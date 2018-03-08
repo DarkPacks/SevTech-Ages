@@ -83,6 +83,10 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:stonebrick>,
 	<minecraft:tnt_minecart>,
 	<minecraft:writable_book>,
+	<minecraft:stained_glass:*>,
+	<minecraft:stained_glass_pane:*>,
+	<minecraft:tripwire_hook>,
+	<minecraft:shield>,
 
 	//AbyssalCraft
 	<abyssalcraft:aaxe>,
@@ -465,6 +469,9 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:stone_torch>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:fancy_frame:6>,
+	<tconstruct:fancy_frame>,
+	<tconstruct:fancy_frame:5>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),

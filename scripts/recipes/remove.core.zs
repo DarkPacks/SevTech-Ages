@@ -1,7 +1,5 @@
 ////Remove and Hide Recipes
 var modIDs as string[] = [
-	"autoverse",
-	"rebornstorage"
 ];
 
 for id in modIDs {

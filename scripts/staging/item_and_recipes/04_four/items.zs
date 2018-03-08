@@ -250,6 +250,9 @@ var stage4Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}}),
+	<tconstruct:fancy_frame:2>,
+	<tconstruct:fancy_frame:3>,
+	<tconstruct:fancy_frame:4>,
 
 	//Primal Core
 	<primal:ladder_block_endbrick>,

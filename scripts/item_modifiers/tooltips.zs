@@ -115,3 +115,8 @@
 <tconstruct:sharpening_kit>.addTooltip(format.red("Only used to repair tools"));
 
 <betterwithaddons:japanmat:36>.addTooltip(format.red("Mulberry Trees rarely spawn in most biomes"));
+
+<primal_tech:work_stump>.addTooltip(format.red("Needs a Crafting Rock"));
+<primal_tech:work_stump>.addTooltip(format.red("to craft recipes"));
+<primal_tech:work_stump_upgraded>.addTooltip(format.red("Needs a Crafting Rock"));
+<primal_tech:work_stump_upgraded>.addTooltip(format.red("to craft recipes"));

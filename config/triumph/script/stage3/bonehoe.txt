@@ -2,7 +2,7 @@ setIcon("nex:tool_hoe_bone")
 
 setTitle("Storage Upgrade")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Use the Bone Hoe to till dirt and also for Tilled Soul Sand")
 
 setParent("triumph:stage3/netherwart")
 setRequiresParent(true)

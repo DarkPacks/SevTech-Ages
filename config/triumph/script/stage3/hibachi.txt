@@ -2,7 +2,7 @@ setIcon("betterwithmods:hibachi")
 
 setTitle("Hibachi")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Better With Mods Hibachi will allow you to have a Stoked Fire below your Cauldron and Crucible")
 
 setParent("triumph:stage3/filteredhopper")
 setRequiresParent(true)

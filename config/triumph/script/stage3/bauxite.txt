@@ -2,7 +2,7 @@ setIcon("immersiveengineering:metal", 1)
 
 setTitle("Bauxite Ore")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Find a surface sample and dig for Bauxite! Located Y45 to 70")
 
 setParent("triumph:stage3/oreexcavation")
 setRequiresParent(true)

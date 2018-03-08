@@ -2,7 +2,7 @@ setIcon("immersiveengineering:material", 27)
 
 setTitle("I'm Board")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Use the Engineer's Workbench to craft a Circuit Board")
 
 setParent("triumph:stage3/vacuumtube")
 setRequiresParent(true)

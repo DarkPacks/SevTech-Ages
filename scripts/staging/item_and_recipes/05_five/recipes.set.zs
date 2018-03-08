@@ -602,7 +602,7 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_diamond_fluid>,
 	<buildcrafttransport:pipe_diamond_item>,
 	<buildcrafttransport:pipe_diamond_wood_fluid>,
-	<buildcrafttransport:pipe_diamond_wood_item>,
+	<buildcrafttransport:pipe_diamond_wood_item:*>,
 	<buildcrafttransport:pipe_emzuli_item>,
 
 	//Industrial Foregoing
@@ -993,7 +993,29 @@ var itemsForStage as IIngredient[] = [
 
 	//Chargers
 	<chargers:charger:2>,
-	<chargers:wireless_charger>
+	<chargers:wireless_charger>,
+
+	//Reborn Storage
+	<rebornstorage:storagecell>,
+	<rebornstorage:storagecell:1>,
+	<rebornstorage:storagecell:2>,
+	<rebornstorage:storagecell:3>,
+	<rebornstorage:storagecellfluid>,
+	<rebornstorage:storagecellfluid:1>,
+	<rebornstorage:storagecellfluid:2>,
+	<rebornstorage:storagecellfluid:3>,
+	<rebornstorage:storagepart>,
+	<rebornstorage:storagepart:1>,
+	<rebornstorage:storagepart:2>,
+	<rebornstorage:storagepart:3>,
+	<rebornstorage:storagepart:4>,
+	<rebornstorage:storagepart:5>,
+	<rebornstorage:storagepart:6>,
+	<rebornstorage:storagepart:7>,
+	<rebornstorage:multicrafter>,
+	<rebornstorage:multicrafter:1>,
+	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter:2>
 ];
 
 for item in itemsForStage {

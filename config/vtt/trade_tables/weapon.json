@@ -89,12 +89,12 @@
           "Count": {
             "min": 1,
             "max": 2
-          },
-          "Damage": 1
+          }
         },
         "sell": {
-          "id": "pickletweaks:repair_kit:1",
-          "Count": 1
+          "id": "pickletweaks:repair_kit",
+          "Count": 1,
+          "Damage": 1
         }
       }
     ]

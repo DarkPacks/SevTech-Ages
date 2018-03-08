@@ -2,7 +2,7 @@ setIcon("minecraft:blaze_rod", 0)
 
 setTitle("Blaze Rod")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Travel to the Nether, collect Blaze Powder, and use the Metal Press to convert them into Blaze Rods")
 
 setParent("triumph:stage3/nether")
 setRequiresParent(true)

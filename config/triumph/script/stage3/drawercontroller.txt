@@ -2,7 +2,7 @@ setIcon("storagedrawers:controller")
 
 setTitle("Storage Drawer Controller")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Storage Drawer Controller allows you to turn your drawers into a network")
 
 setParent("triumph:stage3/workbench")
 setRequiresParent(true)

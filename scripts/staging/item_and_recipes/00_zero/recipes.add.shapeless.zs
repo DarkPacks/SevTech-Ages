@@ -38,6 +38,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<progressiontweaks:broken_spear_shaft>, stick],
 		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
 	],
+
 	<primal:bark_acacia> : [
 		[<minecraft:log2>.transformReplace(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
 	],
@@ -51,15 +52,15 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:log:3>.transformReplace(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
 	],
 	<primal:bark_oak> : [
-		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <primal:flint_workblade>]
+		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <ore:toolWorkBlade>]
 	],
-
 	<primal:bark_spruce> : [
 		[<minecraft:log:1>.transformReplace(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
 	],
 	<primal:bark_yew> : [
 		[<primal:logs:1>.transformReplace(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
 	],
+
 	//Now you can make fleece in stage 0
 	<betterwithaddons:wool> : [
 		[str, str, str, str]
@@ -74,5 +75,3 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-
-

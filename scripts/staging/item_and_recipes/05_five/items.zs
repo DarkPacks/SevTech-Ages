@@ -1093,6 +1093,8 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:walkway>,
 	<galacticraftplanets:web_torch:1>,
 	<galacticraftplanets:web_torch>,
+	<galacticraftcore:emergency_box>,
+	<galacticraftcore:emergency_box:1>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

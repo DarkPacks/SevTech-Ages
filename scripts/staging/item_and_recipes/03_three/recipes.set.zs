@@ -18,7 +18,7 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<minecraft:grass>, //Ore Excavation
 	<modularmachinery:blockfluidoutputhatch>,
-	<primal:ash_bin:9>.withTag({type: "corypha"}),
+	<primal:dust_bin:9>.withTag({type: "corypha"}),
 	<primal:opal_hoe>,
 
 	/*

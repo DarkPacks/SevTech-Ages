@@ -71,6 +71,9 @@ var choppingRecipeItems as IIngredient[][IItemStack] = {
 	],
 	<primal:thin_slab_spruce> * 2 : [
 		<minecraft:wooden_slab:1>
+	],
+	<primal:thin_slab_thatch> * 2 : [
+		<primal:thatch>
 	]
 };
 
@@ -100,17 +103,17 @@ addGrindstoneRecipe(<minecraft:coal> * 9, <minecraft:coal_block>, 24, false);
 addGrindstoneRecipe(<minecraft:dye:1>, <minecraft:double_plant:4>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:1>, <minecraft:red_flower:4>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:1>, <minecraft:red_flower>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:7>, <minecraft:red_flower:3>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:7>, <minecraft:red_flower:6>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:7>, <minecraft:red_flower:8>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:9>, <minecraft:double_plant:5>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:9>, <minecraft:red_flower:7>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:8>, <minecraft:red_flower:3>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:8>, <minecraft:red_flower:6>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:8>, <minecraft:red_flower:8>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:6>, <minecraft:double_plant:5>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:6>, <minecraft:red_flower:7>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:11>, <minecraft:double_plant>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:11>, <minecraft:yellow_flower>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:12>, <minecraft:red_flower:1>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:13>, <minecraft:double_plant:1>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:13>, <minecraft:red_flower:2>, 12, false);
-addGrindstoneRecipe(<minecraft:dye:14>, <minecraft:red_flower:5>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:3>, <minecraft:red_flower:1>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:2>, <minecraft:double_plant:1>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:2>, <minecraft:red_flower:2>, 12, false);
+addGrindstoneRecipe(<pickletweaks:dye_powder:1>, <minecraft:red_flower:5>, 12, false);
 addGrindstoneRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 24, false);
 addGrindstoneRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 24, false);
 addGrindstoneRecipe(<minecraft:sand> * 2, <minecraft:sandstone>, 12, false);

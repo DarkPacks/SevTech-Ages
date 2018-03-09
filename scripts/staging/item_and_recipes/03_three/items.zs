@@ -345,9 +345,7 @@ var stage3Items as IIngredient[] = [
 	<natura:nether_thorn_vines>,
 
 	//Primal
-	<primal:ash_bin:9>,
-	<primal:ash_bin:9>,
-	<primal:bark_corypha>,
+	<primal:dust_bin:9>.withTag({type: "corypha"}),	<primal:bark_corypha>,
 	<primal:boat_corypha>,
 	<primal:cheese_red>,
 	<primal:chunk_soulsand>,

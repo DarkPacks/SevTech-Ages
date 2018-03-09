@@ -19,7 +19,6 @@ var stage1Items as IIngredient[] = [
 	//Oredict
 	<ore:dustSulfur>,
 
-	<charcoalblock:charcoal_block>,
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab>,
@@ -108,7 +107,6 @@ var stage1Items as IIngredient[] = [
 	<minecraft:sandstone_stairs>,
 	<minecraft:spruce_stairs>,
 	<minecraft:stone_stairs>,
-	<primal:stairs_dirt>,
 	<primal:stairs_ironwood>,
 	<primal:stairs_mud>,
 	<primal:stairs_path>,
@@ -139,6 +137,10 @@ var stage1Items as IIngredient[] = [
 	<traverse:blue_rock_cobblestone_stairs>,
 	<traverse:fir_stairs>,
 	<traverse:red_rock_cobblestone_stairs>,
+	<abyssalcraft:dbstairs>,
+	<abyssalcraft:dcstairs>,
+	<abyssalcraft:dltstairs>,
+	<quark:midori_block_stairs>,
 
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,
@@ -838,8 +840,6 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:bark:4>,
 	<betterwithmods:bark:5>,
 	<betterwithmods:bark:6>,
-	<betterwithmods:bark:7>,
-	<betterwithmods:bark:8>,
 	<betterwithmods:bark>,
 	<betterwithmods:bellows>,
 	<betterwithmods:blood_leaves>,
@@ -882,15 +882,6 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:material:28>,
 	<betterwithmods:material:41>,
 	<betterwithmods:platform>,
-	<betterwithmods:rustic_compat_corner:1>,
-	<betterwithmods:rustic_compat_corner:2>,
-	<betterwithmods:rustic_compat_corner>,
-	<betterwithmods:rustic_compat_moulding:1>,
-	<betterwithmods:rustic_compat_moulding:2>,
-	<betterwithmods:rustic_compat_moulding>,
-	<betterwithmods:rustic_compat_siding:1>,
-	<betterwithmods:rustic_compat_siding:2>,
-	<betterwithmods:rustic_compat_siding>,
 	<betterwithmods:saw>,
 	<betterwithmods:screw_pump>,
 	<betterwithmods:single_machine:1>,
@@ -970,6 +961,7 @@ var stage1Items as IIngredient[] = [
 	//Primal Tech
 	<primal_tech:stone_mallet>,
 	<primal_tech:stone_anvil>,
+	<primal_tech:leaf_bed>,
 
 	//Dung Pipes
 	<dungpipe:dung_pipe>,

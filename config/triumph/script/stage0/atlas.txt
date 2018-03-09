@@ -8,6 +8,6 @@ setParent("triumph:stage0/workblade")
 setRequiresParent(true)
 
 criteria = addCriteria("book1", "minecraft:inventory_changed")
-criteria.setItem("antiqueatlas:empty_antique_atlas", 0)
+criteria.setItem("antiqueatlas:empty_antique_atlas")
 
 setRewardExperience(4)

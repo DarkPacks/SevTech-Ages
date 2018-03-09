@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "texture": "minecraft:blocks/gravel",
+            "ore": "base:blocks/ore_sample",
+            "particle": "minecraft:blocks/gravel"
+        },
+        "model": "base:ore_sample",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

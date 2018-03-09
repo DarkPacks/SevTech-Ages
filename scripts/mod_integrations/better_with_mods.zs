@@ -57,6 +57,9 @@ Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraf
 
 Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
 
+Mill.add(<primal:bone_knapp>, null, [<primal:sharp_bone>]);
+
+
 for bark in <ore:barkWood>.items {
 	Mill.add(<primal:tannin_ground> * 2, null, [bark]);
 }
@@ -113,8 +116,6 @@ StokedCauldron.remove(<minecraft:glass>);
 */
 var sawRemovals as IItemStack[] = [
 	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:rustic_compat_corner>,
-	<betterwithmods:rustic_compat_corner:1>,
 	<betterwithmods:wood_corner>,
 	<betterwithmods:wood_corner:1>,
 	<betterwithmods:wood_corner:2>,
@@ -165,8 +166,6 @@ var sawRecipes as IItemStack[][IItemStack] = {
 	<traverse:fir_leaves> : [stick * 2],
 
 	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:rustic_compat_corner> : [<betterwithmods:material>],
-	<betterwithmods:rustic_compat_corner:1> : [<betterwithmods:material>],
 	<betterwithmods:wood_corner> : [<betterwithmods:material>],
 	<betterwithmods:wood_corner:1> : [<betterwithmods:material>],
 	<betterwithmods:wood_corner:2> : [<betterwithmods:material>],

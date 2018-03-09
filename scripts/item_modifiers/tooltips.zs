@@ -120,3 +120,5 @@
 <primal_tech:work_stump>.addTooltip(format.red("to craft recipes"));
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("Needs a Crafting Rock"));
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("to craft recipes"));
+
+<primal:flint_hatchet>.addTooltip(format.yellow("Can not be repaired"));

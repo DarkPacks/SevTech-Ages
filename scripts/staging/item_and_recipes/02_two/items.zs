@@ -440,6 +440,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
+	<betterwithmods:bucket>,
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,

@@ -38,6 +38,7 @@ var stageZeroItems as IIngredient[] = [
 	<spartanshields:shield_basic_wood>,
 	<trumpetskeleton:trumpet>,
 	<wopper:wopper>,
+	<charcoalblock:charcoal_block>,
 
 	//AbyssalCraft
 	<abyssalcraft:antibeef>,
@@ -59,8 +60,6 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:darkstoneslab1>,
 	<abyssalcraft:darkstoneslab2>,
 	<abyssalcraft:daxe>,
-	<abyssalcraft:dbstairs>,
-	<abyssalcraft:dcstairs>,
 	<abyssalcraft:dghead>,
 	<abyssalcraft:dltleaves>,
 	<abyssalcraft:dltlog>,
@@ -68,7 +67,6 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:dltsapling>,
 	<abyssalcraft:dltslab1>,
 	<abyssalcraft:dltslab2>,
-	<abyssalcraft:dltstairs>,
 	<abyssalcraft:dpick>,
 	<abyssalcraft:dscwall>,
 	<abyssalcraft:dshovel>,
@@ -465,7 +463,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal_tech:flint_block>,
 	<primal_tech:flint_edged_disc>,
 	<primal_tech:fluid_bladder>,
-	<primal_tech:leaf_bed>,
 	<primal_tech:stick_bundle>,
 	<primal_tech:stone_grill>,
 	<primal_tech:twine>,
@@ -473,6 +470,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal_tech:wooden_basin>,
 	<primal_tech:wooden_hopper>,
 	<primal_tech:work_stump_upgraded>,
+	<primal:stairs_dirt>,
 
 	//Pickeltweaks
 	<pickletweaks:dye_powder:1>,
@@ -610,14 +608,14 @@ var stageZeroItems as IIngredient[] = [
 	<primal:armor_wolf_feet>,
 	<primal:armor_wolf_head>,
 	<primal:armor_wolf_legs>,
-	<primal:ash_bin:1>.withTag({type: "spruce"}),
-	<primal:ash_bin:2>.withTag({type: "birch"}),
-	<primal:ash_bin:3>.withTag({type: "jungle"}),
-	<primal:ash_bin:4>.withTag({type: "acacia"}),
-	<primal:ash_bin:5>.withTag({type: "dark_oak"}),
-	<primal:ash_bin:6>.withTag({type: "ironwood"}),
-	<primal:ash_bin:7>.withTag({type: "yew"}),
-	<primal:ash_bin>.withTag({type: "oak"}),
+	<primal:dust_bin:1>.withTag({type: "spruce"}),
+	<primal:dust_bin:2>.withTag({type: "birch"}),
+	<primal:dust_bin:3>.withTag({type: "jungle"}),
+	<primal:dust_bin:4>.withTag({type: "acacia"}),
+	<primal:dust_bin:5>.withTag({type: "dark_oak"}),
+	<primal:dust_bin:6>.withTag({type: "ironwood"}),
+	<primal:dust_bin:7>.withTag({type: "yew"}),
+	<primal:dust_bin>.withTag({type: "oak"}),
 	<primal:ash_common>,
 	<primal:ash_ironwood>,
 	<primal:ash_wolf>,
@@ -924,7 +922,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_raw>,
 
 	//Quark
-	<quark:midori_block_stairs>,
 	<quark:prismarine_bricks_slab>,
 	<quark:prismarine_dark_slab>,
 	<quark:prismarine_rough_wall>,
@@ -1048,6 +1045,11 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
 	<betterwithmods:wolf_chop>,
+	<betterwithmods:leather_tanned_boots>,
+	<betterwithmods:leather_tanned_chest>,
+	<betterwithmods:leather_tanned_helmet>,
+	<betterwithmods:leather_tanned_pants>,
+	<betterwithmods:shaft>,
 
 	<mekanism:salt>
 ];

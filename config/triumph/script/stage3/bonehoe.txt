@@ -8,7 +8,6 @@ setParent("triumph:stage3/netherwart")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("nex:tool_hoe_bone")
 
 setRewardExperience(8)

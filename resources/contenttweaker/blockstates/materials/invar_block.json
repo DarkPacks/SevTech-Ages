@@ -2,7 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "base:blocks/block"
+      "texture": "base:blocks/block",
+      "particle": "base:blocks/block"
     },
     "model": "base:storage",
     "uvlock": true,

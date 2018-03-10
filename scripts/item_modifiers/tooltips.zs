@@ -110,7 +110,7 @@
 <primal_tech:fibre_torch>.addTooltip(format.red("or lit torch to light"));
 
 <primal_tech:rock>.addTooltip(format.red("Used with the Work Stump"));
-<primal_tech:rock>.addTooltip(format.red("Left Click on Table to craft recipe"));
+<primal_tech:rock>.addTooltip(format.red("Right Click on Table to craft recipe"));
 
 <tconstruct:sharpening_kit>.addTooltip(format.red("Only used to repair tools"));
 

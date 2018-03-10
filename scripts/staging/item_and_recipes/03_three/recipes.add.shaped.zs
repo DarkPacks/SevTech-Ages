@@ -873,28 +873,28 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<vc:upgrades/upgrade_airship_core:2> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:1>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_core:3> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:2>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:2>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_core:4> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:3>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:3>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_core:5> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:4>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_core:4>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
@@ -908,28 +908,28 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<vc:upgrades/upgrade_airship_frame:2> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:1>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:1>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_frame:3> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:2>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:2>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_frame:4> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:3>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:3>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_frame:5> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:4>.giveBack(), <vc:upgrades/upgrade_airship_core>],
+			[<vc:upgrades/upgrade_airship_core>, <vc:upgrades/upgrade_airship_frame:4>.reuse(), <vc:upgrades/upgrade_airship_core>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_core>, <vc:item_logic_chip>]
 		]
 	],
@@ -943,28 +943,28 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<vc:upgrades/upgrade_airship_engine:2> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:1>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:1>.reuse(), <vc:upgrades/upgrade_airship_engine>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_engine:3> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:2>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:2>.reuse(), <vc:upgrades/upgrade_airship_engine>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_engine:4> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:3>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:3>.reuse(), <vc:upgrades/upgrade_airship_engine>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_engine:5> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:4>.giveBack(), <vc:upgrades/upgrade_airship_engine>],
+			[<vc:upgrades/upgrade_airship_engine>, <vc:upgrades/upgrade_airship_engine:4>.reuse(), <vc:upgrades/upgrade_airship_engine>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_engine>, <vc:item_logic_chip>]
 		]
 	],
@@ -978,28 +978,28 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<vc:upgrades/upgrade_airship_balloon:2> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:1>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:1>.reuse(), <vc:upgrades/upgrade_airship_balloon>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_balloon:3> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:2>.reuse(), <vc:upgrades/upgrade_airship_balloon>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_balloon:4> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:3>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:3>.reuse(), <vc:upgrades/upgrade_airship_balloon>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 		]
 	],
 	<vc:upgrades/upgrade_airship_balloon:5> : [
 		[
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>],
-			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:4>.giveBack(), <vc:upgrades/upgrade_airship_balloon>],
+			[<vc:upgrades/upgrade_airship_balloon>, <vc:upgrades/upgrade_airship_balloon:4>.reuse(), <vc:upgrades/upgrade_airship_balloon>],
 			[<vc:item_logic_chip>, <vc:upgrades/upgrade_airship_balloon>, <vc:item_logic_chip>]
 		]
 	],

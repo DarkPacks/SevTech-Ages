@@ -136,7 +136,7 @@ recipes.addShaped(<primal:flint_saw>, [[cordage, null, null], [<primal:flint_kna
 recipes.addShaped(<primal:flint_pickaxe>, [[null, <primal:flint_knapp>, cordage], [null, stick, <primal:flint_knapp>], [stick, null, null]]);
 
 //Mud Clump
-recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <ore:bottleWater>.giveBack(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <minecraft:water_bucket>]);
 recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 
@@ -229,10 +229,10 @@ recipes.remove(<betterwithmods:material:9>);
 recipes.addShaped(<betterwithmods:material:9>, [[null, <ore:cordageLeather>, null], [<ore:cordageLeather>, <ore:slimeball>, <ore:cordageLeather>], [null, <ore:cordageLeather>, null]]);
 
 recipes.remove(<minecraft:bread>);
-recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.giveBack(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <minecraft:water_bucket>]);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
-recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.giveBack(<minecraft:glass_bottle>)]);
+recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <minecraft:water_bucket>]);
 recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 

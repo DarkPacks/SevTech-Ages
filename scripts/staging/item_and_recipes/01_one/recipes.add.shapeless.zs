@@ -33,7 +33,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	//Abyssalcraft for Stage1
 	<abyssalcraft:corflesh> : [
-		[<abyssalcraft:corbone>.giveBack(<minecraft:bone>), <ore:toolWorkBlade>]
+		[<abyssalcraft:corbone>.transformReplace(<minecraft:bone>), <ore:toolWorkBlade>]
 	],
 
 	//Astral Sorcery Start

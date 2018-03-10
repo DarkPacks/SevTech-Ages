@@ -58,7 +58,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<primal:plant_cloth>, <cyclicmagic:apple>]
 	],
 	<tconstruct:book> : [
-		[<primal:plant_cloth>, <pickletweaks:dye_powder:12>]
+		[<primal:plant_cloth>, <ore:dyeBrown>]
 	]
 };
 

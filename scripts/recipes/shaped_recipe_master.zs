@@ -26,7 +26,6 @@ recipes.remove(<actuallyadditions:item_misc:9>);
 //==================================
 //Vanilla
 recipes.addShaped(<minecraft:furnace>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<minecraft:chest>, [[plank, plank, plank], [plank, null, plank], [plank, plank, plank]]);
 recipes.addShaped(<minecraft:cobblestone_wall> * 6, [[cobblestone, cobblestone, cobblestone], [cobblestone, cobblestone, cobblestone]]);
 recipes.addShaped(<minecraft:wooden_button>, [[plank]]);
 recipes.addShaped(<minecraft:stone_button>, [[stone]]);
@@ -42,6 +41,15 @@ recipes.remove(<minecraft:saddle>);
 recipes.addShaped(<minecraft:saddle>, [
 	[leather, leather, leather],
 	[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
+]);
+
+//Chest
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest>, [[plank, plank, plank], [plank, null, plank], [plank, plank, plank]]);
+recipes.addShaped(<minecraft:chest>, [
+	[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>],
+	[<ore:sidingWood>, null, <ore:sidingWood>],
+	[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>]
 ]);
 
 //Leather armor

@@ -85,6 +85,20 @@ var removeAndHideItems as IItemStack[] = [
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>,  //Soulium Nugget
 
+	//Actually Additions
+	<actuallyadditions:block_treasure_chest>,
+	<actuallyadditions:gold_paxel>,
+	<actuallyadditions:iron_paxel>,
+	<actuallyadditions:item_color_lens>,
+	<actuallyadditions:item_dust:1>,
+	<actuallyadditions:item_hairy_ball>,
+	<actuallyadditions:item_jam:*>, //No
+	<actuallyadditions:item_misc:15>,
+	<actuallyadditions:item_solidified_experience>,
+	<actuallyadditions:item_water_bowl>,
+	<actuallyadditions:stone_paxel>,
+	<actuallyadditions:wooden_paxel>,
+
 	//Natura
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,

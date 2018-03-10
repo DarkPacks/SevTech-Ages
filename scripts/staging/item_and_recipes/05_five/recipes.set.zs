@@ -958,7 +958,6 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:roadplasticblock:*>,
 	<mekanism:robit>.withTag({mekData: {energyStored: 100000.0}}),
 	<mekanism:robit>.withTag({mekData: {}}),
-	<mekanism:saltblock>,
 	<mekanism:scubatank>.withTag({mekData: {stored: {amount: 24000, gasName: "oxygen"}}}),
 	<mekanism:scubatank>.withTag({mekData: {}}),
 	<mekanism:seismicreader>.withTag({mekData: {energyStored: 12000.0}}),

@@ -17,6 +17,7 @@ for id in modIDs {
 var stageZeroItems as IIngredient[] = [
 	<ore:blockCharcoal>,
 	<ore:foodSalt>,
+	<ore:blockSalt>,
 
 	<antiqueatlas:antique_atlas>,
 	<astikoor:cargocart>,

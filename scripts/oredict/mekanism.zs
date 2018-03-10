@@ -94,6 +94,8 @@
 <ore:dustSteel>.add(<mekanism:otherdust:1>);
 <ore:dustSulfur>.add(<mekanism:otherdust:3>);
 <ore:dustWood>.add(<mekanism:sawdust>);
+<ore:foodSalt>.add(<mekanism:salt>);
+<ore:foodSalt>.add(<mekanism:saltblock>);
 <ore:ingotSteel>.add(<mekanism:ingot:4>);
 <ore:itemSalt>.add(<mekanism:salt>);
 <ore:nuggetSteel>.add(<mekanism:nugget:4>);

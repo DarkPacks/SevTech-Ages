@@ -421,6 +421,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:apple_pie>,
 	<betterwithmods:broadhead_arrow>,
+	<betterwithmods:bucket>,
 	<betterwithmods:composite_bow>,
 	<betterwithmods:dynamite>,
 	<betterwithmods:ender_spectacles>,
@@ -440,7 +441,6 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
-	<betterwithmods:bucket>,
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,
@@ -916,6 +916,9 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:clay_cast:*>,
 	<tconstruct:clear_glass:*>,
 	<tconstruct:clear_stained_glass:*>,
+	<tconstruct:fancy_frame:5>,
+	<tconstruct:fancy_frame:6>,
+	<tconstruct:fancy_frame>,
 	<tconstruct:materials:9>,
 	<tconstruct:materials:18>,
 	<tconstruct:pattern:*>,
@@ -965,9 +968,6 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:tooltables:2>,
 	<tconstruct:tooltables:4>,
 	<tconstruct:tooltables>,
-	<tconstruct:fancy_frame:6>,
-	<tconstruct:fancy_frame>,
-	<tconstruct:fancy_frame:5>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

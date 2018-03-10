@@ -94,6 +94,9 @@ var stage1Items as IIngredient[] = [
 	<traverse:red_rock_bricks_stairs>,
 
 	//Stairs
+	<abyssalcraft:dbstairs>,
+	<abyssalcraft:dcstairs>,
+	<abyssalcraft:dltstairs>,
 	<minecraft:acacia_stairs>,
 	<minecraft:birch_stairs>,
 	<minecraft:brick_stairs>,
@@ -111,6 +114,7 @@ var stage1Items as IIngredient[] = [
 	<primal:stairs_mud>,
 	<primal:stairs_path>,
 	<quark:hardened_clay_tiles_stairs>,
+	<quark:midori_block_stairs>,
 	<quark:prismarine_bricks_stairs>,
 	<quark:prismarine_dark_stairs>,
 	<quark:stained_clay_tiles_black_stairs>,
@@ -137,10 +141,6 @@ var stage1Items as IIngredient[] = [
 	<traverse:blue_rock_cobblestone_stairs>,
 	<traverse:fir_stairs>,
 	<traverse:red_rock_cobblestone_stairs>,
-	<abyssalcraft:dbstairs>,
-	<abyssalcraft:dcstairs>,
-	<abyssalcraft:dltstairs>,
-	<quark:midori_block_stairs>,
 
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,
@@ -659,6 +659,7 @@ var stage1Items as IIngredient[] = [
 
 	//Tinkers'
 	<tcomplement:porcelain_casting:1>,
+	<tconstruct:book>,
 	<tconstruct:channel>,
 	<tconstruct:edible:3>,
 	<tconstruct:edible:33>,
@@ -686,7 +687,6 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:tooltables:*>,
-	<tconstruct:book>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,
@@ -960,9 +960,9 @@ var stage1Items as IIngredient[] = [
 	<geolosys:ore_vanilla>,
 
 	//Primal Tech
-	<primal_tech:stone_mallet>,
-	<primal_tech:stone_anvil>,
 	<primal_tech:leaf_bed>,
+	<primal_tech:stone_anvil>,
+	<primal_tech:stone_mallet>,
 
 	//Dung Pipes
 	<dungpipe:dung_pipe>,

@@ -376,6 +376,7 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:edible:1>,
 	<tconstruct:edible:2>,
 	<tconstruct:edible:4>,
+	<tconstruct:fancy_frame:1>,
 	<tconstruct:materials:12>,
 	<tconstruct:materials:13>,
 	<tconstruct:materials:14>,
@@ -423,7 +424,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
-	<tconstruct:fancy_frame:1>,
 
 	//Better With Mods
 	<betterwithaddons:ancestry_infuser>,
@@ -800,14 +800,14 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_sandstone_item>,
 	<buildcrafttransport:pipe_stone_fluid>,
 	<buildcrafttransport:pipe_stone_item>,
+	<buildcrafttransport:pipe_stripes_item>,
 	<buildcrafttransport:pipe_structure>,
 	<buildcrafttransport:pipe_void_fluid>,
 	<buildcrafttransport:pipe_void_item>,
 	<buildcrafttransport:pipe_wood_fluid>,
+	<buildcrafttransport:pipe_wood_item:*>,
 	<buildcrafttransport:plug_blocker>,
 	<buildcrafttransport:waterproof>,
-	<buildcrafttransport:pipe_wood_item:*>,
-	<buildcrafttransport:pipe_stripes_item>,
 
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,

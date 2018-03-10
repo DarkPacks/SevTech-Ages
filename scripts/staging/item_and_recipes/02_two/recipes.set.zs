@@ -12,9 +12,9 @@ var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.recipestages.Recipes.setRecipeStage(STAGE, item);
-    }
+	for item in loadedMods[id].items {
+		mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+	}
 }
 
 var itemsForStage as IIngredient[] = [
@@ -75,18 +75,18 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:redstone>,
 	<minecraft:redstone_block>,
 	<minecraft:shears>,
+	<minecraft:shield>,
 	<minecraft:speckled_melon>,
 	<minecraft:spectral_arrow>,
+	<minecraft:stained_glass:*>,
+	<minecraft:stained_glass_pane:*>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_brick_stairs>,
 	<minecraft:stonebrick:1>,
 	<minecraft:stonebrick>,
 	<minecraft:tnt_minecart>,
-	<minecraft:writable_book>,
-	<minecraft:stained_glass:*>,
-	<minecraft:stained_glass_pane:*>,
 	<minecraft:tripwire_hook>,
-	<minecraft:shield>,
+	<minecraft:writable_book>,
 
 	//AbyssalCraft
 	<abyssalcraft:aaxe>,
@@ -448,6 +448,9 @@ var itemsForStage as IIngredient[] = [
 	<tcomplement:porcelain_tank:2>,
 	<tconstruct:casting>,
 	<tconstruct:clear_stained_glass:*>,
+	<tconstruct:fancy_frame:5>,
+	<tconstruct:fancy_frame:6>,
+	<tconstruct:fancy_frame>,
 	<tconstruct:piggybackpack>,
 	<tconstruct:seared_glass>,
 	<tconstruct:seared_stairs_brick>,
@@ -469,9 +472,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:stone_torch>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
-	<tconstruct:fancy_frame:6>,
-	<tconstruct:fancy_frame>,
-	<tconstruct:fancy_frame:5>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),

@@ -345,7 +345,6 @@ var stage3Items as IIngredient[] = [
 	<natura:nether_thorn_vines>,
 
 	//Primal
-	<primal:dust_bin:9>.withTag({type: "corypha"}),	<primal:bark_corypha>,
 	<primal:boat_corypha>,
 	<primal:cheese_red>,
 	<primal:chunk_soulsand>,
@@ -365,6 +364,7 @@ var stage3Items as IIngredient[] = [
 	<primal:devils_tongue_sepals>,
 	<primal:devils_tongue_tendril>,
 	<primal:dry_grass>,
+	<primal:dust_bin:9>.withTag({type: "corypha"}),	<primal:bark_corypha>,
 	<primal:ferro_slack>,
 	<primal:fish_lava_crawdad_dried>,
 	<primal:fish_lava_crawdad_raw>,
@@ -1287,6 +1287,7 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:edible:31>,
 	<tconstruct:edible:32>,
 	<tconstruct:edible:34>,
+	<tconstruct:fancy_frame:1>,
 	<tconstruct:firewood:1>,
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:materials:10>,
@@ -1345,7 +1346,6 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
-	<tconstruct:fancy_frame:1>,
 
 	//AbyssalCraft
 	<abyssalcraft:azathothcharm:2>,
@@ -1417,6 +1417,7 @@ var stage3Items as IIngredient[] = [
 	<buildcrafttransport:pipe_sandstone_item>,
 	<buildcrafttransport:pipe_stone_fluid>,
 	<buildcrafttransport:pipe_stone_item>,
+	<buildcrafttransport:pipe_stripes_item>,
 	<buildcrafttransport:pipe_structure>,
 	<buildcrafttransport:pipe_void_fluid>,
 	<buildcrafttransport:pipe_void_item>,
@@ -1424,7 +1425,6 @@ var stage3Items as IIngredient[] = [
 	<buildcrafttransport:pipe_wood_item:*>,
 	<buildcrafttransport:plug_blocker>,
 	<buildcrafttransport:waterproof>,
-	<buildcrafttransport:pipe_stripes_item>,
 
 	//Wither Skeleton Tweaks
 	<witherskelefix:blade2>,

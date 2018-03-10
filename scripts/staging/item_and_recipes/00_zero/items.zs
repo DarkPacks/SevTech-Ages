@@ -15,6 +15,7 @@ for id in modIDs {
 }
 
 var stageZeroItems as IIngredient[] = [
+	<ore:blockCharcoal>,
 	<ore:foodSalt>,
 
 	<antiqueatlas:antique_atlas>,
@@ -38,7 +39,6 @@ var stageZeroItems as IIngredient[] = [
 	<spartanshields:shield_basic_wood>,
 	<trumpetskeleton:trumpet>,
 	<wopper:wopper>,
-	<charcoalblock:charcoal_block>,
 
 	//AbyssalCraft
 	<abyssalcraft:antibeef>,
@@ -470,7 +470,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal_tech:wooden_basin>,
 	<primal_tech:wooden_hopper>,
 	<primal_tech:work_stump_upgraded>,
-	<primal:stairs_dirt>,
 
 	//Pickeltweaks
 	<pickletweaks:dye_powder:1>,
@@ -608,14 +607,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:armor_wolf_feet>,
 	<primal:armor_wolf_head>,
 	<primal:armor_wolf_legs>,
-	<primal:dust_bin:1>.withTag({type: "spruce"}),
-	<primal:dust_bin:2>.withTag({type: "birch"}),
-	<primal:dust_bin:3>.withTag({type: "jungle"}),
-	<primal:dust_bin:4>.withTag({type: "acacia"}),
-	<primal:dust_bin:5>.withTag({type: "dark_oak"}),
-	<primal:dust_bin:6>.withTag({type: "ironwood"}),
-	<primal:dust_bin:7>.withTag({type: "yew"}),
-	<primal:dust_bin>.withTag({type: "oak"}),
 	<primal:ash_common>,
 	<primal:ash_ironwood>,
 	<primal:ash_wolf>,
@@ -690,6 +681,14 @@ var stageZeroItems as IIngredient[] = [
 	<primal:daucus_murn_fronds>,
 	<primal:daucus_murn_root>,
 	<primal:daucus_murn_root_cooked>,
+	<primal:dust_bin:1>.withTag({type: "spruce"}),
+	<primal:dust_bin:2>.withTag({type: "birch"}),
+	<primal:dust_bin:3>.withTag({type: "jungle"}),
+	<primal:dust_bin:4>.withTag({type: "acacia"}),
+	<primal:dust_bin:5>.withTag({type: "dark_oak"}),
+	<primal:dust_bin:6>.withTag({type: "ironwood"}),
+	<primal:dust_bin:7>.withTag({type: "yew"}),
+	<primal:dust_bin>.withTag({type: "oak"}),
 	<primal:earthwax_clump>,
 	<primal:ferro_stone:1>,
 	<primal:ferro_stone:2>,
@@ -873,6 +872,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal:slat_oak>,
 	<primal:slat_spruce>,
 	<primal:slat_yew>,
+	<primal:stairs_dirt>,
 	<primal:strangle_weed>,
 	<primal:suet>,
 	<primal:tall_grass_growing>,
@@ -1018,6 +1018,10 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:gravel_pile>,
 	<betterwithmods:ham_and_eggs>,
 	<betterwithmods:hand_crank>,
+	<betterwithmods:leather_tanned_boots>,
+	<betterwithmods:leather_tanned_chest>,
+	<betterwithmods:leather_tanned_helmet>,
+	<betterwithmods:leather_tanned_pants>,
 	<betterwithmods:manual>,
 	<betterwithmods:material:2>,
 	<betterwithmods:material:3>,
@@ -1040,16 +1044,12 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:red_sand_pile>,
 	<betterwithmods:rope>,
 	<betterwithmods:sand_pile>,
+	<betterwithmods:shaft>,
 	<betterwithmods:single_machine>,
 	<betterwithmods:stake>,
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
 	<betterwithmods:wolf_chop>,
-	<betterwithmods:leather_tanned_boots>,
-	<betterwithmods:leather_tanned_chest>,
-	<betterwithmods:leather_tanned_helmet>,
-	<betterwithmods:leather_tanned_pants>,
-	<betterwithmods:shaft>,
 
 	<mekanism:salt>
 ];

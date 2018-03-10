@@ -1,11 +1,11 @@
-////Remove and Hide Recipes
+//Remove and Hide Recipes
 var modIDs as string[] = [
 ];
 
 for id in modIDs {
-    for item in loadedMods[id].items {
-        mods.jei.JEI.removeAndHide(item);
-    }
+	for item in loadedMods[id].items {
+		mods.jei.JEI.removeAndHide(item);
+	}
 }
 
 //Remove Recipes Only
@@ -28,9 +28,9 @@ var modIDs2 as string[] = [
 ];
 
 for id in modIDs2 {
-    for item in loadedMods[id].items {
-        recipes.remove(item);
-    }
+	for item in loadedMods[id].items {
+		recipes.remove(item);
+	}
 }
 
 recipes.remove(plank);

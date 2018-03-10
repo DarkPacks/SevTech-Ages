@@ -50,10 +50,10 @@ var removeItems as IItemStack[] = [
 	<tcomplement:melter>,
 	<tcomplement:porcelain_melter:8>,
 	<tcomplement:porcelain_melter>,
+	<tconstruct:book>,
 	<tconstruct:pattern>,
 	<tconstruct:stone_stick>,
 	<tconstruct:stone_torch>,
-	<tconstruct:book>,
 
 	//BWM changes
 	<betterwithmods:bellows>,

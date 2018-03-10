@@ -996,15 +996,18 @@ var itemsForStage as IIngredient[] = [
 	<chargers:wireless_charger>,
 
 	//Reborn Storage
-	<rebornstorage:storagecell>,
+	<rebornstorage:multicrafter:1>,
+	<rebornstorage:multicrafter:2>,
+	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter>,
 	<rebornstorage:storagecell:1>,
 	<rebornstorage:storagecell:2>,
 	<rebornstorage:storagecell:3>,
-	<rebornstorage:storagecellfluid>,
+	<rebornstorage:storagecell>,
 	<rebornstorage:storagecellfluid:1>,
 	<rebornstorage:storagecellfluid:2>,
 	<rebornstorage:storagecellfluid:3>,
-	<rebornstorage:storagepart>,
+	<rebornstorage:storagecellfluid>,
 	<rebornstorage:storagepart:1>,
 	<rebornstorage:storagepart:2>,
 	<rebornstorage:storagepart:3>,
@@ -1012,10 +1015,7 @@ var itemsForStage as IIngredient[] = [
 	<rebornstorage:storagepart:5>,
 	<rebornstorage:storagepart:6>,
 	<rebornstorage:storagepart:7>,
-	<rebornstorage:multicrafter>,
-	<rebornstorage:multicrafter:1>,
-	<rebornstorage:multicrafter:3>,
-	<rebornstorage:multicrafter:2>
+	<rebornstorage:storagepart>
 ];
 
 for item in itemsForStage {

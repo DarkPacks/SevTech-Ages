@@ -264,12 +264,12 @@ var itemsForStage as IIngredient[] = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_leggings>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 	<tconstruct:fancy_frame:2>,
 	<tconstruct:fancy_frame:3>,
 	<tconstruct:fancy_frame:4>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 
 	//Tesla
 	<teslacorelib:base_addon>,
@@ -699,9 +699,8 @@ var itemsForStage as IIngredient[] = [
 	<chargers:charger>,
 
 	//Car Mod
-	<car:car_body_part_wood>,
-	<car:car_body_part_wood:5>
-
+	<car:car_body_part_wood:5>,
+	<car:car_body_part_wood>
 ];
 
 for item in itemsForStage {

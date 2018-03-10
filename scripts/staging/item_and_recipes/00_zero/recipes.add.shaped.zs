@@ -81,6 +81,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:reeds>, <minecraft:reeds>]
 		]
 	],
+	<betterwithmods:shaft> : [
+		[
+			[stick, <primal:plant_cordage>],
+			[stick, <primal:plant_cordage>],
+			[stick, <primal:plant_cordage>]
+		]
+	],
+
 	<cyclicmagic:block_fragile> : [
 		[[stick, null, stick], [null, stick, null], [stick, null, stick]]
 	],
@@ -174,7 +182,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	<traverse:blue_rock_slab> * 3 : [
 	  	[[<traverse:blue_rock>, <traverse:blue_rock>, <traverse:blue_rock>]]
-	],	
+	],
 	<primal:armor_wolf_body> : [
 		[
 			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],
@@ -486,15 +494,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone>, <improvedbackpacks:upgrade>, <minecraft:stone>],
 			[null, <minecraft:stone>, null]
 		]
-	],
-	<betterwithmods:shaft> : [
-		[
-			[stick, <primal:plant_cordage>],
-			[stick, <primal:plant_cordage>],
-			[stick, <primal:plant_cordage>]
-		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

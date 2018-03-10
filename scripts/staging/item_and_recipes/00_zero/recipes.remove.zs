@@ -3,7 +3,6 @@
 import crafttweaker.item.IItemStack;
 
 var removeItems as IItemStack[] = [
-	<minecraft:arrow>,
 	<abyssalcraft:dltslab1>,
 	<actuallyadditions:block_compost>,
 	<betterwithaddons:bolt:1>,
@@ -11,7 +10,9 @@ var removeItems as IItemStack[] = [
 	<betterwithaddons:bolt:6>,
 	<betterwithaddons:spindle>,
 	<betterwithmods:material>,
+	<betterwithmods:shaft>,
 	<betterwithmods:wicker>,
+	<minecraft:arrow>,
 	<minecraft:farmland>,
 	<minecraft:gunpowder>,
 	<minecraft:stone_slab2>,
@@ -50,9 +51,7 @@ var removeItems as IItemStack[] = [
 	<tconstruct:firewood_slab>,
 	<traverse:fir_slab>,
 	<waterstrainer:garden_trowel>,
-	<waterstrainer:strainer_base>,
-	<betterwithmods:shaft>
-
+	<waterstrainer:strainer_base>
 ];
 
 for item in removeItems {

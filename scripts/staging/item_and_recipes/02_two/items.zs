@@ -906,7 +906,6 @@ var stage2Items as IIngredient[] = [
 	<tcomplement:porcelain_tank:1>,
 	<tcomplement:porcelain_tank:2>,
 	<tcomplement:porcelain_tank>,
-	<tconstruct:book>,
 	<tconstruct:cast:*>,
 	<tconstruct:cast_custom:1>,
 	<tconstruct:cast_custom:2>,

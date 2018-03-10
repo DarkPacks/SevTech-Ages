@@ -8,4 +8,4 @@ setParent("triumph:stage1/plumbline")
 setRequiresParent(true)
 
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("minecraft:coal")
+criteria.setItem("minecraft:coal", 0)

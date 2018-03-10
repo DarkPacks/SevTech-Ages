@@ -56,6 +56,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<guideapi:cyclicmagic-guide> : [
 		[<primal:plant_cloth>, <cyclicmagic:apple>]
+	],
+	<tconstruct:book> : [
+		[<primal:plant_cloth>, <pickletweaks:dye_powder:12>]
 	]
 };
 

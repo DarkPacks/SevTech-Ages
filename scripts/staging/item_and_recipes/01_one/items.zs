@@ -686,6 +686,7 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:tooltables:*>,
+	<tconstruct:book>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,

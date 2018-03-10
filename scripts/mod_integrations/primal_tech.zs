@@ -52,6 +52,9 @@ var defaultKilnCookTimeRecipes as IItemStack[][IItemStack] = {
 	],
 	<tconstruct:materials>: [
 		<tconstruct:soil>
+	],
+	<ceramics:unfired_clay:5>: [
+		<ceramics:unfired_clay:4>
 	]
 };
 
@@ -108,18 +111,22 @@ var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void>],
+		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void>, <betterwithaddons:japanmat:4>],
+		[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <primal:salt_dust_fire>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <primal:salt_dust_rock>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<betterwithaddons:japanmat:4>, <primal:salt_dust_void>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+		[<betterwithaddons:japanmat:4>, <mekanism:salt>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<primal:salt_dust_fire>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
 		[<primal:salt_dust_rock>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-		[<primal:salt_dust_void>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>]
+		[<primal:salt_dust_void>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+		[<mekanism:salt>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>]
 	],
 	<betterwithaddons:japanmat:8> * 4: [
 		[<betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>]
@@ -129,36 +136,44 @@ var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_netjry>],
 		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_rock>],
 		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_void>],
+		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <mekanism:salt>],
 		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_fire>, <horsepower:flour>],
 		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_netjry>, <horsepower:flour>],
 		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_rock>, <horsepower:flour>],
 		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_void>, <horsepower:flour>],
+		[<horsepower:flour>, <horsepower:flour>, <mekanism:salt>, <horsepower:flour>],
 		[<horsepower:flour>, <primal:salt_dust_fire>, <horsepower:flour>, <horsepower:flour>],
 		[<horsepower:flour>, <primal:salt_dust_netjry>, <horsepower:flour>, <horsepower:flour>],
 		[<horsepower:flour>, <primal:salt_dust_rock>, <horsepower:flour>, <horsepower:flour>],
 		[<horsepower:flour>, <primal:salt_dust_void>, <horsepower:flour>, <horsepower:flour>],
+		[<horsepower:flour>, <mekanism:salt>, <horsepower:flour>, <horsepower:flour>],
 		[<primal:salt_dust_fire>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
 		[<primal:salt_dust_netjry>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
 		[<primal:salt_dust_rock>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
-		[<primal:salt_dust_void>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>]
+		[<primal:salt_dust_void>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
+		[<mekanism:salt>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>]
 	],
 	<primal:hide_salted> * 3: [
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_fire>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_netjry>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_rock>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_void>],
+		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <mekanism:salt>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_fire>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_netjry>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_rock>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_void>, <primal:hide_raw>],
+		[<primal:hide_raw>, <primal:hide_raw>, <mekanism:salt>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:salt_dust_fire>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:salt_dust_netjry>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:salt_dust_rock>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:hide_raw>, <primal:salt_dust_void>, <primal:hide_raw>, <primal:hide_raw>],
+		[<primal:hide_raw>, <mekanism:salt>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:salt_dust_fire>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:salt_dust_netjry>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
 		[<primal:salt_dust_rock>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
-		[<primal:salt_dust_void>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>]
+		[<primal:salt_dust_void>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
+		[<mekanism:salt>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>]
 	],
 	<primal:hide_tanned> * 3: [
 		[<primal:hide_dried>, <primal:hide_dried>, <primal:hide_dried>, <primal:tannin_ground>],

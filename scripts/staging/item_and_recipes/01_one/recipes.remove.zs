@@ -53,6 +53,7 @@ var removeItems as IItemStack[] = [
 	<tconstruct:pattern>,
 	<tconstruct:stone_stick>,
 	<tconstruct:stone_torch>,
+	<tconstruct:book>,
 
 	//BWM changes
 	<betterwithmods:bellows>,

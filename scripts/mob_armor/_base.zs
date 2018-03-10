@@ -16,6 +16,8 @@ static armorableMobEntities as ArmorEntity[] = [
 	Clear mobs
 */
 var mobEntitiesToClear as ArmorEntity[] = [
+	ArmorHandler.createArmorEntity("abyssalcraft:depthsghoul"),
+	ArmorHandler.createArmorEntity("mekanism:babyskeleton"),
 	ArmorHandler.createArmorEntity("minecraft:husk"),
 	ArmorHandler.createArmorEntity("minecraft:skeleton"),
 	ArmorHandler.createArmorEntity("minecraft:zombie"),

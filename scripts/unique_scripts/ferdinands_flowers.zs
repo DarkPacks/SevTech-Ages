@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack;
 */
 var flowersForDye as IItemStack[][IItemStack] = {
 	//White
-	<pickletweaks:dye_powder> : [
+	<ore:dyeWhite>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:11>,
 		<ferdinandsflowers:block_cff_doublesb:1>,
 		<ferdinandsflowers:block_cff_doublesb>,
@@ -18,7 +18,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Orange
-	<pickletweaks:dye_powder:1> : [
+	<ore:dyeOrange>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:5>,
 		<ferdinandsflowers:block_cff_desert:12>,
 		<ferdinandsflowers:block_cff_doublesc:1>,
@@ -36,7 +36,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Magenta
-	<pickletweaks:dye_powder:2> : [
+	<ore:dyeMagenta>.firstItem : [
 		<ferdinandsflowers:block_cff_flowers:8>,
 		<ferdinandsflowers:block_cff_flowers>,
 		<ferdinandsflowers:block_cff_flowersc:10>,
@@ -45,7 +45,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Light Blue
-	<pickletweaks:dye_powder:3> : [
+	<ore:dyeLightBlue>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:8>,
 		<ferdinandsflowers:block_cff_doublesc:5>,
 		<ferdinandsflowers:block_cff_flowers:15>,
@@ -54,7 +54,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Yellow
-	<pickletweaks:dye_powder:4> : [
+	<ore:dyeYellow>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:3>,
 		<ferdinandsflowers:block_cff_desert:4>,
 		<ferdinandsflowers:block_cff_flowers:11>,
@@ -68,12 +68,12 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Lime
-	<pickletweaks:dye_powder:5> : [
+	<ore:dyeLime>.firstItem : [
 		<ferdinandsflowers:block_cff_flowersd:7>
 	],
 
 	//Pink
-	<pickletweaks:dye_powder:6> : [
+	<ore:dyePink>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:7>,
 		<ferdinandsflowers:block_cff_doubles>,
 		<ferdinandsflowers:block_cff_doublesb:2>,
@@ -93,14 +93,14 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	//Gray
 
 	//Light Gray
-	<pickletweaks:dye_powder:8> : [
+	<ore:dyeLightGray>.firstItem : [
 		<ferdinandsflowers:block_cff_doublesd:4>
 	],
 
 	//Cyan
 
 	//Purple
-	<pickletweaks:dye_powder:10> : [
+	<ore:dyePurple>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:6>,
 		<ferdinandsflowers:block_cff_desert:9>,
 		<ferdinandsflowers:block_cff_desert:13>,
@@ -123,7 +123,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Blue
-	<pickletweaks:dye_powder:11> : [
+	<ore:dyeBlue>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:10>,
 		<ferdinandsflowers:block_cff_doublesd:3>,
 		<ferdinandsflowers:block_cff_flowers:4>,
@@ -133,13 +133,13 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Brown
-	<pickletweaks:dye_powder:12> : [
+	<ore:dyeBrown>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:2>,
 		<ferdinandsflowers:block_cff_doubles:3>
 	],
 
 	//Green
-	<pickletweaks:dye_powder:13> : [
+	<ore:dyeGreen>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:14>,
 		<ferdinandsflowers:block_cff_desert>,
 		<ferdinandsflowers:block_cff_doublesc:4>,
@@ -152,7 +152,7 @@ var flowersForDye as IItemStack[][IItemStack] = {
 	],
 
 	//Red
-	<pickletweaks:dye_powder:14> : [
+	<ore:dyeRed>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:1>,
 		<ferdinandsflowers:block_cff_doubles:4>,
 		<ferdinandsflowers:block_cff_doublesb:5>,

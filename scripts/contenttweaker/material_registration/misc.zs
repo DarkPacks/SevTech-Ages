@@ -18,6 +18,7 @@ materials.stone.registerPart("nugget");
 var oreAquamarineData = materials.aquamarine.registerPart("ore").getData();
 addDefaultOreData(oreAquamarineData);
 oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
+oreAquamarineData.addDataValue("harvestLevel", "1");
 
 //Osmium Ore
 //Use this over Mekanism's so we can give it the default behavior of Geolosys

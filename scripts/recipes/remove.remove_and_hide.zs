@@ -65,6 +65,7 @@ var removeAndHideItems as IItemStack[] = [
 	<modularmachinery:blockoutputbus:0>,
 	<pickletweaks:grass_fiber>,
 	<pickletweaks:reinforced_mesh>,
+	<primal:ironglass>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,
 	<primal:satetsu:3>,

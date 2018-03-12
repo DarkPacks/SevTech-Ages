@@ -86,3 +86,30 @@ function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack 
 function formatBucketIngredient(bucket as IItemStack, liquidName as string) as IIngredient {
 	return formatBucket(bucket, liquidName) as IIngredient;
 }
+
+//Compares two stages and returns whichever is "higher"
+function getHighestStage(firstStage as string, secondStage as string) as string {
+	//Stages, "higher" is first
+	var stagesTierArray as string[] = [
+		STAGES.disabled,
+		STAGES.creative,
+		STAGES.five,
+		STAGES.four,
+		STAGES.three,
+		STAGES.two,
+		STAGES.one,
+		STAGES.zero,
+		STAGES.tutorial
+	];
+
+	for i, stage in stagesTierArray {
+		if (firstStage == stage) {
+			return firstStage;
+		}
+		if (secondStage == stage) {
+			return secondStage;
+		}
+	}
+
+	return firstStage;
+}

@@ -72,14 +72,14 @@ for stage, toolTypes in toolTypeStages {
 //Prevents the material from being used.
 static materialsForStage as string[][string] = {
 	STAGES.one : [
-	],
-
-	STAGES.two : [
 		"bone",
 		"cactus",
 		"flint",
 		"stone",
-		"wood",
+		"wood"
+	],
+
+	STAGES.two : [
 		"abyssalnite",
 		"blueslime",
 		"bronze",

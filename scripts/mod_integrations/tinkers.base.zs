@@ -128,26 +128,11 @@ Melting.addRecipe(metalItems.reinforcedMetal.liquid.liquids[0] * 144, <stevescar
 	I'm doing this against my better judgement because I don't want to hear players complaining about how it's impossible to make glass in stage 2 even though it's 100% possible already.
 */
 Melting.removeRecipe(<liquid:glass>);
-Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:sand_pile>, 493);
-Melting.addRecipe(<liquid:glass> * 250, <betterwithmods:red_sand_pile>, 493);
-Melting.addRecipe(<liquid:glass> * 250, <quark:glass_shards>);
-
-Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand>, 493);
-Melting.addRecipe(<liquid:glass> * 1000, <minecraft:sand:1>, 493);
-
-Melting.addRecipe(<liquid:glass> * 1000, <minecraft:glass>);
-
-//TODO: Loop over oredict instead?
-for i in 0 to 16 {
-	Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass>.definition.makeStack(i), 493);
-}
-
-Melting.addRecipe(<liquid:glass> * 375, <minecraft:glass_pane>, 493);
-
-//TODO: Loop over oredict instead?
-for i in 0 to 16 {
-	Melting.addRecipe(<liquid:glass> * 375, <minecraft:stained_glass_pane>.definition.makeStack(i), 493);
-}
+Melting.addRecipe(<liquid:glass> * 250, <ore:pileSand>, 493);
+Melting.addRecipe(<liquid:glass> * 250, <ore:shardGlass>, 493);
+Melting.addRecipe(<liquid:glass> * 375, <ore:paneGlass>, 493);
+Melting.addRecipe(<liquid:glass> * 1000, <ore:blockGlass>, 493);
+Melting.addRecipe(<liquid:glass> * 1000, <ore:sand>, 493);
 
 /*
 	Alloying

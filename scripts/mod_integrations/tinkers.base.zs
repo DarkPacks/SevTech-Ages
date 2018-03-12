@@ -55,7 +55,7 @@ var shieldMetals as string[] = [
 ];
 
 for shieldMetal in shieldMetals {
-	var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^.*spartanshields:shield_basic_" + shieldMetal + ".*$")[0];
+	var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^spartanshields:shield_basic_" + shieldMetal + ":0$")[0];
 	var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
 
 	Casting.addTableRecipe(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);

@@ -11,4 +11,3 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("betterwithmods:material", 0)
 
 setRewardExperience(4)
-

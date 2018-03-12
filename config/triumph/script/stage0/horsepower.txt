@@ -10,7 +10,4 @@ setRequiresParent(true)
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 
 criteria.setItem("horsepower:grindstone")
-
 setRewardExperience(4)
-
-//By not setting anything about requirements here, all criteria are automatically required

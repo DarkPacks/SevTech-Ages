@@ -2,7 +2,7 @@ setIcon("minecraft:wool")
 
 setTitle("Wooly Blankets")
 
-setDescription("You've discovered that combining String and Fleece produces a very useful resource, wool!")
+setDescription("Craft some wool from Fleece and Wicker")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

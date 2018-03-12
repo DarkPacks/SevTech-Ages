@@ -463,10 +463,8 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:coraliumore>,
 	<abyssalcraft:coraliumstone>,
 	<abyssalcraft:coraxe>,
-	<abyssalcraft:corbone>,
 	<abyssalcraft:corboots>,
 	<abyssalcraft:corbootsp>,
-	<abyssalcraft:corflesh>,
 	<abyssalcraft:corhelmet>,
 	<abyssalcraft:corhelmetp>,
 	<abyssalcraft:corhoe>,
@@ -683,10 +681,7 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:slime_channel:3>,
 	<tconstruct:slime_congealed:3>,
 	<tconstruct:slime_dirt>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
-	<tconstruct:tooltables:*>,
+	<tconstruct:tooltables>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,

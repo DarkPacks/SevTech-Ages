@@ -94,6 +94,8 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 	<abyssalcraft:whead>,
+	<abyssalcraft:corflesh>,
+	<abyssalcraft:corbone>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,

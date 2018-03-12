@@ -99,6 +99,8 @@ Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime>, 160, f
 Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime>, 160, false, 40);
 Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime>, 160, false, 40);
 
+Casting.addBasinRecipe(<tconstruct:slime_congealed:3>, null, <liquid:blood>, 640, false, 60);
+
 /*
 	Melting
 

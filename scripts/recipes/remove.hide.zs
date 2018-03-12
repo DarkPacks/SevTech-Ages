@@ -88,6 +88,8 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<car:canola_seeds>,
+	<car:canola>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

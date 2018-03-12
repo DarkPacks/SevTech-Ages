@@ -51,6 +51,8 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:antipork>,
 	<abyssalcraft:antispidereye>,
 	<abyssalcraft:cobblestone>,
+	<abyssalcraft:corbone>,
+	<abyssalcraft:corflesh>,
 	<abyssalcraft:darkbrickslab1>,
 	<abyssalcraft:darkbrickslab2>,
 	<abyssalcraft:darkcobbleslab1>,
@@ -94,8 +96,6 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 	<abyssalcraft:whead>,
-	<abyssalcraft:corflesh>,
-	<abyssalcraft:corbone>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,

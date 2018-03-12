@@ -33,6 +33,8 @@ var removeAndHideItems as IItemStack[] = [
 	<betterwithmods:material:33>,
 	<betterwithmods:stump:*>,
 	<betterwithmods:stump_remover>,
+	<car:canola>,
+	<car:canola_seeds>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:charm_air>,
 	<cyclicmagic:tool_prospector>,

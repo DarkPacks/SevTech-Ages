@@ -1,8 +1,6 @@
-addCriteria("location", "minecraft:location")
+setTitle("Age 0")
 
 setIcon("primal_tech:stone_club")
-
-setTitle("Age 0")
 
 setDescription("Welcome to the first age!")
 
@@ -12,14 +10,16 @@ setShowToast(false)
 
 setAnnounceToChat(false)
 
+setRequirements("any")
+
+//Criteria
 addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("craftItem", "triumph:player_crafted_item")
 addCriteria("enterDimension", "minecraft:changed_dimension")
 addCriteria("inventoryChange", "minecraft:inventory_changed")
-addCriteria("craftItem", "triumph:player_crafted_item")
 addCriteria("killEntity", "minecraft:player_killed_entity")
 addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
-setRequirements("any")
-
+//Rewards
 setRewardFunction("triumph:stageTutorial-trigger")

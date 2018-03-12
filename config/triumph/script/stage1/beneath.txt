@@ -1,13 +1,15 @@
-setIcon("beneath:teleporterbeneath")
-
 setTitle("The Beneath")
+
+setIcon("beneath:teleporterbeneath")
 
 setDescription("Enter the Beneath Dimension")
 
 setParent("triumph:stage1/statue")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-
 criteria.setDimensionDestination("The Beneath")
+
+//Rewards
 setRewardExperience(4)

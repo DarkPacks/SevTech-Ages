@@ -1,16 +1,15 @@
-setIcon("minecraft:chest")
-
 setTitle("I Need to Get This Off My Chest")
+
+setIcon("minecraft:chest")
 
 setDescription("Upgrade your chest")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
-
 criteria.setItem("minecraft:chest")
 
+//Rewards
 setRewardItem("minecraft:chest", 0, 1)
-
-//By not setting anything about requirements here, all criteria are automatically required

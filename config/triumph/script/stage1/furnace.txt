@@ -1,13 +1,15 @@
-setIcon("minecraft:furnace")
-
 setTitle("It's Getting Hot in Here")
+
+setIcon("minecraft:furnace")
 
 setDescription("Light up your life with a new furnace")
 
 setParent("triumph:stage1/crafting")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("minecraft:furnace")
 
+//Rewards
 setRewardExperience(4)

@@ -1,14 +1,13 @@
-setIcon("minecraft:farmland")
-
 setTitle("Teach A Man To Farm")
+
+setIcon("minecraft:farmland")
 
 setDescription("Learn the basics of farming from a Farmer Villager trade")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("traded", "minecraft:villager_trade")
-
 criteria.setEntityType("minecraft:villager")
-
 criteria.setItem("minecraft:farmland")

@@ -1,13 +1,15 @@
-setIcon("horsepower:chopper")
-
 setTitle("Chop! Chop! Chop!")
+
+setIcon("horsepower:chopper")
 
 setDescription("No more chopping wood by hand!")
 
 setParent("triumph:stage0/horsepower")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("horsepower:chopper")
 
+//Rewards
 setRewardExperience(4)

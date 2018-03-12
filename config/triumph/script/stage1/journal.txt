@@ -1,13 +1,15 @@
-setIcon("astralsorcery:itemjournal")
-
 setTitle("This Is Going in My Diary")
+
+setIcon("astralsorcery:itemjournal")
 
 setDescription("Access the knowledge of the stars by crafting the Astral Sorcery Journal")
 
 setParent("triumph:stage1/parchment")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:itemjournal")
 
+//Rewards
 setRewardExperience(8)

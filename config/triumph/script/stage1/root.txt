@@ -1,8 +1,6 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+setTitle("Age 1")
 
 setIcon("progressiontweaks:stone_hammer")
-
-setTitle("Age 1")
 
 setDescription("Welcome to the next age!")
 
@@ -14,6 +12,3 @@ setAnnounceToChat(false)
 
 criteria = addCriteria("completedStage0", "triumph:completed_advancement")
 criteria.setString("triumph:stage0/melter")
-
-
-

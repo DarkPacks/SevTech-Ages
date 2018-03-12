@@ -1,13 +1,15 @@
-setIcon("wopper:wopper")
-
 setTitle("Have It Your Way")
+
+setIcon("wopper:wopper")
 
 setDescription("Craft a Wooden Hopper to route your items automatically")
 
 setParent("triumph:stage0/firstchest")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("wopper:wopper", 0)
 
+//Rewards
 setRewardExperience(7)

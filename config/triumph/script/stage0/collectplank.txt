@@ -1,11 +1,12 @@
-setIcon("horsepower:chopping_block")
-
 setTitle("On the Chopping Block")
+
+setIcon("horsepower:chopping_block")
 
 setDescription("Use a log to craft a Chopping Block. Place a Log or Plank on the chopping block and use an Axe to cut it into Planks or Sticks")
 
 setParent("triumph:stage0/firstbreak")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("horsepower:chopping_block")

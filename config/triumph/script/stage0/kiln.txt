@@ -1,13 +1,15 @@
-setIcon("primal_tech:clay_kiln")
-
 setTitle("Cook It Up")
+
+setIcon("primal_tech:clay_kiln")
 
 setDescription("Use Clay Balls and a Cobblestone Slab to craft a Kiln")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("primal_tech:clay_kiln")
 
+//Rewards
 setRewardExperience(4)

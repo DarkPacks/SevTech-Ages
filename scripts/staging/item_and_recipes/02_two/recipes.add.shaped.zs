@@ -296,7 +296,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:block_smiley_cloud> : [
 		[
 			[null, <minecraft:wool:*>, null],
-			[<minecraft:wool:*>, <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}), <minecraft:wool:*>],
+			[<minecraft:wool:*>, scripts.crafting_utils.getBucketIngredientFromName("xpjuice"), <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
 	],
@@ -405,12 +405,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<astralsorcery:itemskyresonator> : [
 		[
 			[null, <astralsorcery:itemcraftingcomponent>, null],
-			[<ore:stoneMarble>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "astralsorcery.liquidstarlight", Amount: 1000}}), <ore:stoneMarble>],
-			[null, metals.bronze.rod, null]
-		],
-		[
-			[null, <astralsorcery:itemcraftingcomponent>, null],
-			[<ore:stoneMarble>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <ore:stoneMarble>],
+			[<ore:stoneMarble>, scripts.crafting_utils.getBucketIngredient(<liquid:astralsorcery.liquidstarlight>), <ore:stoneMarble>],
 			[null, metals.bronze.rod, null]
 		]
 	],
@@ -557,8 +552,8 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Blood Magic
 	<bloodmagic:lava_crystal> : [
 		[
-			[<ore:blockGlass>, <minecraft:lava_bucket>, <ore:blockGlass>],
-			[<minecraft:lava_bucket>, <bloodmagic:blood_orb:*>, <minecraft:lava_bucket>],
+			[<ore:blockGlass>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <ore:blockGlass>],
+			[scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <bloodmagic:blood_orb:*>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>)],
 			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
 		]
 	],

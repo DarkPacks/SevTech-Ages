@@ -137,7 +137,7 @@ recipes.addShaped(<primal:flint_pickaxe>, [[null, <primal:flint_knapp>, cordage]
 
 //Mud Clump
 recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
-recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <minecraft:water_bucket>]);
+recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)]);
 recipes.addShapeless(<primal:mud_clump>, [<minecraft:dirt>, <minecraft:dirt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 
 //Thatching
@@ -230,10 +230,10 @@ recipes.addShaped(<betterwithmods:material:9>, [[null, <ore:cordageLeather>, nul
 
 recipes.remove(<minecraft:bread>);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
-recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <minecraft:water_bucket>]);
+recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)]);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
-recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <minecraft:water_bucket>]);
+recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)]);
 recipes.addShapeless(<actuallyadditions:item_misc:9>, [<betterwithaddons:japanmat:4>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 
 //Wooden Hoppers
@@ -288,7 +288,7 @@ recipes.addShaped(<actuallyadditions:item_misc:12>, [
 ]);
 recipes.addShaped(<actuallyadditions:item_misc:12>, [
 	[null, <actuallyadditions:item_misc:9>, null],
-	[<actuallyadditions:item_misc:9>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>],
+	[<actuallyadditions:item_misc:9>, scripts.crafting_utils.getBucketIngredient(<liquid:water>), <actuallyadditions:item_misc:9>],
 	[null, <actuallyadditions:item_misc:9>, null]
 ]);
 

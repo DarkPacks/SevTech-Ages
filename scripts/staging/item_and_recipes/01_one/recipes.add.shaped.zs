@@ -54,7 +54,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[stick, null, stick], [stick, stick, stick], [stick, null, stick]]
 	],
 	<minecraft:cake> : [
-		[[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
+		[[scripts.crafting_utils.getBucketIngredient(<liquid:milk>), scripts.crafting_utils.getBucketIngredient(<liquid:milk>), scripts.crafting_utils.getBucketIngredient(<liquid:milk>)], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
 	],
 	<primal_tech:leaf_bed> : [
 		[[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]
@@ -343,19 +343,19 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<chiselsandbits:negativeprint> : [
 		[
-			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeRed>],
+			[scripts.crafting_utils.getBucketIngredient(<liquid:water>), <ore:dyeRed>],
 			[<primal:plant_cloth>, null]
 		]
 	],
 	<chiselsandbits:mirrorprint> : [
 		[
-			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeGreen>],
+			[scripts.crafting_utils.getBucketIngredient(<liquid:water>), <ore:dyeGreen>],
 			[<primal:plant_cloth>, null]
 		]
 	],
 	<chiselsandbits:positiveprint> : [
 		[
-			[<ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <ore:dyeBlue>],
+			[scripts.crafting_utils.getBucketIngredient(<liquid:water>), <ore:dyeBlue>],
 			[<primal:plant_cloth>, null]
 		]
 	],

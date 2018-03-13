@@ -152,9 +152,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	//I didn't have red ants to put on top since the item has little red dots on.
 	<actuallyadditions:item_food:8> : [
-		[[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],
-		[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
-		[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]]
+		[
+			[
+				scripts.crafting_utils.getBucketIngredient(<liquid:milk>),
+				scripts.crafting_utils.getBucketIngredient(<liquid:milk>),
+				scripts.crafting_utils.getBucketIngredient(<liquid:milk>)
+			],
+			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
+			[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]
+		]
 	],
 
 	//Natura
@@ -207,7 +213,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<tconstruct:edible:4> * 4 : [
 		[
 			[null, <minecraft:magma_cream>, null],
-			[<minecraft:magma_cream>, <minecraft:lava_bucket>, <minecraft:magma_cream>],
+			[<minecraft:magma_cream>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream>],
 			[null, <minecraft:magma_cream>, null]
 		]
 	],

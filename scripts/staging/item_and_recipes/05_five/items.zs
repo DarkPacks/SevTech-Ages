@@ -366,7 +366,7 @@ var stage5Items as IIngredient[] = [
 	<mysticalagriculture:limestone_crop>,
 	<mysticalagriculture:manyullyn_crop>,
 	<mysticalagriculture:marble_crop>,
-	<mysticalagriculture:menril_crop>
+	<mysticalagriculture:menril_crop>,
 	<mysticalagriculture:meteoric_iron_crop>,
 	<mysticalagriculture:nature_crop>,
 	<mysticalagriculture:nether_crop>,

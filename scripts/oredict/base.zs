@@ -332,5 +332,5 @@ for i in 0 to 16 {
 <ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);
 
 //Sulfur
-<ore:sulphur>.remove(<natura:materials:4>);
-<ore:sulfur>.add(<natura:materials:4>);
+<ore:dustSulphur>.remove(<natura:materials:4>);
+<ore:dustSulfur>.add(<natura:materials:4>);

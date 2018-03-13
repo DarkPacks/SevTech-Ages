@@ -80,6 +80,16 @@ function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack 
 		}
 	}
 
+	//Cyclic unique buckets
+	if (liquidName == "milk") {
+		if (bucket.definition.owner == "ceramics") {
+			return <ceramics:clay_bucket:1>;
+		} else if (bucket.definition.owner == "thebetweenlands") {
+			//No support for betweenlands bucket
+			return null;
+		}
+	}
+
 	return bucket.withTag(data);
 }
 

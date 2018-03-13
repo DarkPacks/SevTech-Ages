@@ -7,10 +7,13 @@ function getBucketIngredientFromName(liquidName as string) as IIngredient {
 	var bucketsIngredient as IIngredient = null;
 
 	for bucket in buckets {
-		if (isNull(bucketsIngredient)) {
-			bucketsIngredient = scripts.utils.formatBucketIngredient(bucket, liquidName);
-		} else {
-			bucketsIngredient |= scripts.utils.formatBucketIngredient(bucket, liquidName);
+		var bucketIngredient = scripts.utils.formatBucketIngredient(bucket, liquidName);
+		if (isNull(bucketIngredient)) {
+			if (isNull(bucketsIngredient)) {
+				bucketsIngredient = bucketIngredient;
+			} else {
+				bucketsIngredient |= bucketIngredient;
+			}
 		}
 	}
 

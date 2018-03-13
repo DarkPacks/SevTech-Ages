@@ -934,12 +934,6 @@ var stage2Items as IIngredient[] = [
 	<actuallyadditions:iron_paxel>,
 	<actuallyadditions:item_dust:4>,
 
-	//Content Tweaker
-	<materialpart:fiery:beam>,
-	<materialpart:fiery:bolt>,
-	<materialpart:steeleaf:beam>,
-	<materialpart:steeleaf:bolt>,
-
 	//Water Strainer
 	<waterstrainer:efficiency_meter>,
 	<waterstrainer:strainer_survivalist_dense_solid>,

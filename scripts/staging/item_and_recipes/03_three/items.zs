@@ -858,22 +858,6 @@ var stage3Items as IIngredient[] = [
 	<actuallyadditions:item_sword_obsidian>,
 	<actuallyadditions:obsidian_paxel>,
 
-	//Content Tweaker
-	<materialpart:cobalt:beam>,
-	<materialpart:cobalt:bolt>,
-	<materialpart:invar:beam>,
-	<materialpart:invar:bolt>,
-	<materialpart:lead:beam>,
-	<materialpart:lead:bolt>,
-	<materialpart:modularium:beam>,
-	<materialpart:modularium:bolt>,
-	<materialpart:platinum:beam>,
-	<materialpart:platinum:bolt>,
-	<materialpart:redstone_alloy:beam>,
-	<materialpart:redstone_alloy:bolt>,
-	<materialpart:silver:beam>,
-	<materialpart:silver:bolt>,
-
 	//Dark Utils
 	<darkutils:charm_agression>,
 	<darkutils:charm_null>,

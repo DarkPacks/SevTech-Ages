@@ -712,12 +712,6 @@ var stage1Items as IIngredient[] = [
 
 	//Content Tweaker
 	<materialpart:aquamarine:ore_minecraft_stone>,
-	<materialpart:bronze:beam>,
-	<materialpart:bronze:bolt>,
-	<materialpart:copper:beam>,
-	<materialpart:copper:bolt>,
-	<materialpart:tin:beam>,
-	<materialpart:tin:bolt>,
 
 	//Better With Mods
 	<betterwithaddons:adobe:1>,

@@ -786,8 +786,6 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:wire>,
 
 	//Pneumatic Craft
-	<materialpart:compressed_iron:beam>,
-	<materialpart:compressed_iron:bolt>,
 	<pneumaticcraft:advanced_air_compressor>,
 	<pneumaticcraft:advanced_liquid_compressor>,
 	<pneumaticcraft:advanced_pcb>,

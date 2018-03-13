@@ -81,6 +81,21 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+		<immersiveengineering:stone_decoration:1> * 3 : [
+		[
+			[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>],
+			[<minecraft:brick>, <minecraft:blaze_powder>, <minecraft:brick>],
+			[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>]
+		]
+	],
+	<immersiveengineering:stone_decoration:1> : [
+		[
+			[null, <immersiveengineering:stone_decoration_slab:1>, null],
+			[null, <immersiveengineering:stone_decoration_slab:1>, null],
+			[null, null, null]
+		]
+	],
+
 	//Rails
 	<minecraft:activator_rail> * 2 : [
 		[

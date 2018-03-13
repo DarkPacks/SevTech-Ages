@@ -2,7 +2,7 @@ setIcon("prospectors:prospector_med")
 
 setTitle("Ore Prospector")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft an Ore Prospector to locate ores in Age 3")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

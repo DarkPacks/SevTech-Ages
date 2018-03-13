@@ -494,6 +494,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stone>, <improvedbackpacks:upgrade>, <minecraft:stone>],
 			[null, <minecraft:stone>, null]
 		]
+	],
+	
+	//Totemic
+	<totemic:eagle_bone_whistle> : [
+		[
+			[null, <totemic:eagle_drops>],
+			[<totemic:eagle_drops:1>, null]
+		]
 	]
 };
 

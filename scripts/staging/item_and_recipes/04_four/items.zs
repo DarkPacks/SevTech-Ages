@@ -120,6 +120,14 @@ var stage4Items as IIngredient[] = [
 	<bonsaitrees:bonsaipot>,
 
 	//Industrial Foregoing
+	<forge:bucketfilled>.withTag({FluidName: "biofuel", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "essence", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "if.pink_slime", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "if.protein", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "latex", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "meat", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "sludge", Amount: 1000}),
 	<industrialforegoing:adult_filter>,
 	<industrialforegoing:animal_byproduct_recolector>,
 	<industrialforegoing:animal_growth_increaser>,
@@ -497,6 +505,11 @@ var stage4Items as IIngredient[] = [
 	<car:wheel>,
 	<car:windshield>,
 	<car:wrench>,
+	<forge:bucketfilled>.withTag({FluidName: "bio_diesel", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "canola_methanol_mix", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "canola_oil", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "glycerin", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "methanol", Amount: 1000}),
 
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,

@@ -2,7 +2,7 @@ setIcon("stevescarts:blockcartassembler")
 
 setTitle("Steve's Carts")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Cart Assembler will allow you to build a modular cart")
 
 setParent("triumph:stage3/root")
 setRequiresParent(true)

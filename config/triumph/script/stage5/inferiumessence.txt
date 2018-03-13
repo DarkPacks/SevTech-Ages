@@ -2,7 +2,7 @@ setIcon("mysticalagriculture:crafting")
 
 setTitle("Inferium Essence")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Inferium Essence is an important item to begin Mystical Agriculture. Create it using items from a number of location")
 
 setParent("triumph:stage5/saturn")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setIcon("immersiveengineering:tool")
 
 setTitle("Engineer's Hammer")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft an Engineer's Hammer for creating multiblock machines and rotating blocks")
 
 setParent("triumph:stage3/iebook")
 setRequiresParent(true)

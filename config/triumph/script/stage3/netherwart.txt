@@ -2,7 +2,7 @@ setIcon("minecraft:nether_wart")
 
 setTitle("Nether Wart")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Find and collect Nether Wart. It's most commonly found in Nether Fortresses")
 
 setParent("triumph:stage3/netherexbiome")
 setRequiresParent(true)

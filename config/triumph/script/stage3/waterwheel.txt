@@ -2,7 +2,7 @@ setIcon("immersiveengineering:wooden_device1")
 
 setTitle("Water Wheel")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("A Waterwheel connected to a Kinetic Dynamo will provide power when spun by flowing water")
 
 setParent("triumph:stage3/creosote")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setIcon("immersiveengineering:material", 26)
 
 setTitle("Vacuum Tube")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft a Vacuum Tube in the Engineer's Workbench")
 
 setParent("triumph:stage3/workbench")
 setRequiresParent(true)

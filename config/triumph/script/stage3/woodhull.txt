@@ -2,7 +2,7 @@ setIcon("stevescarts:cartmodule", 37)
 
 setTitle("Steve's Carts Wooden Hull")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft a Wood Hull to make a very basic Steve's Cart")
 
 setParent("triumph:stage3/stevescartsassembler")
 setRequiresParent(true)

@@ -2,7 +2,7 @@ setIcon("immersiveengineering:stone_device", 1)
 
 setTitle("Steel Ingot")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Blast Oven will allow you to create Steel from Coal Coke and Iron Ingots")
 
 setParent("triumph:stage3/creosote")
 setRequiresParent(true)

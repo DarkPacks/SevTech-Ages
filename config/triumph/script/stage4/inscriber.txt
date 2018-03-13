@@ -2,7 +2,7 @@ setIcon("appliedenergistics2:inscriber")
 
 setTitle("Inscribing")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft and connect the Inscriber to begin creating processors and other machines")
 
 setParent("triumph:stage4/certusquartz")
 setRequiresParent(true)

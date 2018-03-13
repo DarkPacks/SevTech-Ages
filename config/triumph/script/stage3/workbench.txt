@@ -2,7 +2,7 @@ setIcon("immersiveengineering:wooden_device0", 2)
 
 setTitle("Engineer's Workbench")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Craft an Engineer's Workbench to craft items from Blueprints")
 
 setParent("triumph:stage3/iebook")
 setRequiresParent(true)

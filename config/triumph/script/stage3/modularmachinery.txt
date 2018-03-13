@@ -2,7 +2,7 @@ setIcon("modularmachinery:blockcontroller")
 
 setTitle("Modularity")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Modular Machinery Controller is the main block needed in every M.M. Machine")
 
 setParent("triumph:stage3/circuitboard")
 setRequiresParent(true)

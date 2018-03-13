@@ -74,7 +74,9 @@ var removeItems as IItemStack[] = [
 	<guideapi:cyclicmagic-guide>,
 
 	//Chisel & Bits
-	<chiselsandbits:bittank>
+	<chiselsandbits:bittank>,
+
+	<huntingdim:frame>
 ];
 
 for item in removeItems {

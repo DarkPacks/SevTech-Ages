@@ -2,7 +2,7 @@ setIcon("stevescarts:cartmodule", 38)
 
 setTitle("Steve's Carts Standard Hull")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("The Standard Hull from Steve's Carts will allow you to craft basic carts")
 
 setParent("triumph:stage3/woodhull")
 setRequiresParent(true)

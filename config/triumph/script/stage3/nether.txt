@@ -2,7 +2,7 @@ setIcon("minecraft:netherrack")
 
 setTitle("Enter the Nether")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Travel to the Nether. Portals exist in hot biomes such as Deserts and Savannahs")
 
 setParent("triumph:stage3/root")
 

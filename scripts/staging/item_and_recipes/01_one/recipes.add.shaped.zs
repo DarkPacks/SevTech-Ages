@@ -470,6 +470,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:dyeYellow>, <bloodmagic:blood_rune>, <ore:dyeYellow>],
 			[stone, <bloodmagic:blood_orb:*>, stone]
 		]
+	],
+
+	<huntingdim:frame> * 4 : [
+		[
+			[log, log, log],
+			[log, <minecraft:stone_sword>, log],
+			[log, log, log]
+		]
 	]
 };
 

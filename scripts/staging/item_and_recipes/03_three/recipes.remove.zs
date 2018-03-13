@@ -8,6 +8,7 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:placer_block>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,
+	<immersiveengineering:stone_decoration:1>,
 
 	//Minecraft
 	<minecraft:activator_rail>,
@@ -58,7 +59,6 @@ var removeItems as IItemStack[] = [
 	<stevescarts:cartmodule:12>,
 	<stevescarts:cartmodule:14>,
 	<stevescarts:cartmodule:15>,
-	<stevescarts:cartmodule:15>,
 	<stevescarts:cartmodule:18>,
 	<stevescarts:cartmodule:19>,
 	<stevescarts:cartmodule:22>,
@@ -86,7 +86,6 @@ var removeItems as IItemStack[] = [
 	<stevescarts:cartmodule:101>,
 	<stevescarts:modulecomponents:10>,
 	<stevescarts:modulecomponents:11>,
-	<stevescarts:modulecomponents:15>,
 	<stevescarts:modulecomponents:15>,
 	<stevescarts:modulecomponents:16>,
 	<stevescarts:modulecomponents:17>,

@@ -207,6 +207,8 @@ var stage3Items as IIngredient[] = [
 	<quark:smoker>,
 
 	//Redstone
+	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone", Amount: 1000}}),
+	<ceramics:clay_bucket>.withTag({fluids: {FluidName: "redstone_alloy", Amount: 1000}}),
 	<cyclicmagic:builder_block>,
 	<cyclicmagic:clock>,
 	<cyclicmagic:placer_block>,
@@ -859,6 +861,9 @@ var stage3Items as IIngredient[] = [
 	<actuallyadditions:obsidian_paxel>,
 
 	//Content Tweaker
+	<forge:bucketfilled>.withTag({FluidName: "platinum", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000}),
+	<forge:bucketfilled>.withTag({FluidName: "redstone_alloy", Amount: 1000}),
 	<materialpart:cobalt:beam>,
 	<materialpart:cobalt:bolt>,
 	<materialpart:invar:beam>,

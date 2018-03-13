@@ -8,6 +8,7 @@ function getBucketIngredientFromName(liquidName as string) as IIngredient {
 
 	for bucket in buckets {
 		var bucketIngredient as IIngredient = scripts.utils.formatBucketIngredient(bucket, liquidName);
+
 		if (!isNull(bucketIngredient)) {
 			if (isNull(bucketsIngredient)) {
 				bucketsIngredient = bucketIngredient;

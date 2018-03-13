@@ -986,9 +986,9 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:walkietalkie>.withTag({mekData: {channel: 1}}),
 
 	//Translocators
-	<translocator:diamondnugget>,
-	<translocator:translocator_part:1>,
-	<translocator:translocator_part>,
+	<translocators:diamond_nugget>,
+	<translocators:translocator_part:1>,
+	<translocators:translocator_part>,
 
 	//Chargers
 	<chargers:charger:2>,

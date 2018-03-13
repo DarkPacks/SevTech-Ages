@@ -1020,9 +1020,6 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
-	<tconstruct:tooltables:1>,
-	<tconstruct:tooltables:2>,
-	<tconstruct:tooltables:4>,
 
 	//Dark Utils
 	<darkutils:charm_null>,

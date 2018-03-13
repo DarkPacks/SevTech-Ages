@@ -487,11 +487,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
 		]
 	],
-	//Since tinker's part builder somehow lost its recipe?? And thus, "deal with it" (youre only getting the oak table)
-	<tconstruct:tooltables:2> : [
-		[<tconstruct:pattern>],
-		[log]
-	],
 
 	//Recipes to allow lift in Stage2
 	<betterwithmods:anchor> : [

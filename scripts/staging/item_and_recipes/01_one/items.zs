@@ -681,7 +681,6 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:slime_channel:3>,
 	<tconstruct:slime_congealed:3>,
 	<tconstruct:slime_dirt>,
-	<tconstruct:tooltables>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,

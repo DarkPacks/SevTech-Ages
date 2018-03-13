@@ -273,11 +273,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:slime_boots:3>,
 	<tconstruct:slime_boots>,
 	<tconstruct:slime_congealed:3>,
-	<tconstruct:tooltables:1>,
-	<tconstruct:tooltables:2>,
-	<tconstruct:tooltables:3>,
-	<tconstruct:tooltables:4>,
-	<tconstruct:tooltables:5>,
 
 	//Rustic
 	<rustic:andesite_pillar>,

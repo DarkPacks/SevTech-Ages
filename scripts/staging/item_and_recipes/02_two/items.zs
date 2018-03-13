@@ -307,11 +307,9 @@ var stage2Items as IIngredient[] = [
 	<minecraft:knowledge_book>,
 	<minecraft:lapis_block>,
 	<minecraft:lapis_ore>,
-	<minecraft:lava_bucket>,
 	<minecraft:lever>,
 	<minecraft:light_weighted_pressure_plate>,
 	<minecraft:map>,
-	<minecraft:milk_bucket>,
 	<minecraft:name_tag>,
 	<minecraft:painting>,
 	<minecraft:paper>,
@@ -329,7 +327,6 @@ var stage2Items as IIngredient[] = [
 	<minecraft:stone_slab:5>,
 	<minecraft:stonebrick:*>,
 	<minecraft:tripwire_hook>,
-	<minecraft:water_bucket>,
 	<minecraft:wooden_pressure_plate>,
 	<minecraft:wool:*>,
 	<minecraft:writable_book>,
@@ -689,7 +686,6 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}}),
 	<astralsorcery:itemwand>.withTag({astralsorcery: {}}),
 	<astralsorcery:itemwand>,
-	<forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),
 
 	//Abyssalcraft
 	<abyssalcraft:aaxe>,
@@ -939,9 +935,6 @@ var stage2Items as IIngredient[] = [
 	<actuallyadditions:item_dust:4>,
 
 	//Content Tweaker
-	<forge:bucketfilled>.withTag({FluidName: "ender_pearl", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "fiery", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "steeleaf", Amount: 1000}),
 	<materialpart:fiery:beam>,
 	<materialpart:fiery:bolt>,
 	<materialpart:steeleaf:beam>,

@@ -317,13 +317,6 @@ var stage5Items as IIngredient[] = [
 	<enderstorage:ender_storage>,
 
 	//Mystical Aggriculture/Aggggggraditions
-	<forge:bucketfilled>.withTag({FluidName: "base_essence", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "inferium", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "intermedium", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "prudentium", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "soulium", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "superium", Amount: 1000}),
-	<forge:bucketfilled>.withTag({FluidName: "supremium", Amount: 1000}),
 	<mysticalagradditions:dragon_egg_crop>,
 	<mysticalagradditions:nether_star_crop>,
 	<mysticalagradditions:nether_star_essence>,

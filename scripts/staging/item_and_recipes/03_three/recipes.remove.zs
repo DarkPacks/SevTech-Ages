@@ -8,7 +8,6 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:placer_block>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,
-	<immersiveengineering:stone_decoration:1>,
 
 	//Minecraft
 	<minecraft:activator_rail>,
@@ -33,6 +32,7 @@ var removeItems as IItemStack[] = [
 	<immersiveengineering:material:22>,
 	<immersiveengineering:material:23>,
 	<immersiveengineering:metal_decoration0:3>,
+	<immersiveengineering:stone_decoration:1>,
 	<immersiveengineering:tool:1>,
 
 	//Modular Machinery

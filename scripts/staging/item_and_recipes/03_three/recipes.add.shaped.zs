@@ -80,8 +80,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 		]
 	],
-
-		<immersiveengineering:stone_decoration:1> * 3 : [
+	<immersiveengineering:stone_decoration:1> * 3 : [
 		[
 			[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>],
 			[<minecraft:brick>, <minecraft:blaze_powder>, <minecraft:brick>],

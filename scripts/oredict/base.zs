@@ -330,3 +330,7 @@ for i in 0 to 16 {
 <ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
 <ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
 <ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);
+
+//Sulfur
+<ore:sulphur>.remove(<natura:materials:4>);
+<ore:sulfur>.add(<natura:materials:4>);

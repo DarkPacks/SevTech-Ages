@@ -24,6 +24,7 @@ for item in removeItems {
 }
 
 var removeRecipes as string[] = [
+	"betterwithmods:decompress/melon_decompress",
 	"natura:common/glass_bottle",
 	"rustic:bottle_emptying"
 ];

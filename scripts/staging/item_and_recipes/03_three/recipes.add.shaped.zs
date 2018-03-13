@@ -154,9 +154,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:item_food:8> : [
 		[
 			[
-				scripts.crafting_utils.getBucketIngredient(<liquid:milk>),
-				scripts.crafting_utils.getBucketIngredient(<liquid:milk>),
-				scripts.crafting_utils.getBucketIngredient(<liquid:milk>)
+				scripts.crafting_utils.getBucketIngredientFromName("milk"),
+				scripts.crafting_utils.getBucketIngredientFromName("milk"),
+				scripts.crafting_utils.getBucketIngredientFromName("milk")
 			],
 			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
 			[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]

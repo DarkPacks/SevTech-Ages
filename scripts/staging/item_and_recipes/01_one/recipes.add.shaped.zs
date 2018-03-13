@@ -54,7 +54,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[stick, null, stick], [stick, stick, stick], [stick, null, stick]]
 	],
 	<minecraft:cake> : [
-		[[scripts.crafting_utils.getBucketIngredient(<liquid:milk>), scripts.crafting_utils.getBucketIngredient(<liquid:milk>), scripts.crafting_utils.getBucketIngredient(<liquid:milk>)], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
+		[[scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk")], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
 	],
 	<primal_tech:leaf_bed> : [
 		[[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]

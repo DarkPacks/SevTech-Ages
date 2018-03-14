@@ -1,14 +1,12 @@
-setIcon("tconstruct:ore", 0)
-
 setTitle("Cobalt")
+
+setIcon("tconstruct:ore", 0)
 
 setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
 
 setParent("triumph:stage4/ardite")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("tconstruct:ore", 0)
-
-
-setRequirements("any")

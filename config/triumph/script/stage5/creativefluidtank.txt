@@ -1,13 +1,12 @@
-setIcon("mekanism:machineblock2", 11)
-
 setTitle("Creative Fluid Tank")
+
+setIcon("mekanism:machineblock2", 11)
 
 setDescription("Craft the Creative Fluid Tank from Mekanism")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("mekanism:machineblock2", 11)
-
-setRequirements("any")

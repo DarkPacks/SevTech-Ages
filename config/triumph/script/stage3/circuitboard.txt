@@ -1,11 +1,12 @@
-setIcon("immersiveengineering:material", 27)
-
 setTitle("I'm Board")
+
+setIcon("immersiveengineering:material", 27)
 
 setDescription("Use the Engineer's Workbench to craft a Circuit Board")
 
 setParent("triumph:stage3/vacuumtube")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("immersiveengineering:material", 27)

@@ -7,9 +7,11 @@ setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafti
 setParent("triumph:stage4/enderalloy2")
 setRequiresParent(true)
 
-criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
-criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
-criteria1.setItem("extendedcrafting:ender_crafter")
-criteria2.setItem("extendedcrafting:ender_alternator")
-
 setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extendedcrafting:ender_crafter")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extendedcrafting:ender_alternator")

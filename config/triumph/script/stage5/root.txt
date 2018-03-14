@@ -1,8 +1,6 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+setTitle("Age 5")
 
 setIcon("industrialforegoing:laser_lens", 14)
-
-setTitle("Age 5")
 
 setDescription("Welcome to the next age!")
 
@@ -12,8 +10,6 @@ setShowToast(false)
 
 setAnnounceToChat(true)
 
+//Criteria
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
 criteria.setString("triumph:stage4/atomicreconstructor")
-
-
-

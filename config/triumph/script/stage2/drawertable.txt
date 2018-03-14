@@ -1,13 +1,15 @@
-setIcon("storagedrawers:framingtable")
-
 setTitle("A Place for My Things")
+
+setIcon("storagedrawers:framingtable")
 
 setDescription("Use the Framing Table to build a custom Storage Drawer")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("storagedrawers:framingtable")
 
+//Rewards
 setRewardExperience(8)

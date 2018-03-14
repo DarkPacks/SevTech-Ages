@@ -1,11 +1,12 @@
-setIcon("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})
-
 setTitle("Locate and mine coal")
+
+setIcon("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})
 
 setDescription("Use the Core Sample Drill to locate oil. Setup an Immersive Petroleum Pumpjack to extract it and grab a bucket of it")
 
 setParent("triumph:stage3/sampledrill")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.addItem("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})

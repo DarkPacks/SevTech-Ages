@@ -1,6 +1,6 @@
-setIcon("industrialforegoing:plastic")
-
 setTitle("Plasticity")
+
+setIcon("industrialforegoing:plastic")
 
 setDescription("The Plastic Molder from Modular Machinery will convert Liquid Plastic into Plastic Sheets useable for a number of new recipes")
 
@@ -9,8 +9,10 @@ setRequiresParent(true)
 
 setFrameType("challenge")
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("industrialforegoing:plastic")
 
+//Rewards
 setRewardExperience(16)
-setRewardFunction("triumph:stage4trigger") 
+setRewardFunction("triumph:stage4trigger")

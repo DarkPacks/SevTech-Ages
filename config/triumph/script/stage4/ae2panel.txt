@@ -1,14 +1,12 @@
-setIcon("appliedenergistics2:part", 380)
-
 setTitle("Applied Energistics")
+
+setIcon("appliedenergistics2:part", 380)
 
 setDescription("Choose your path to Applied Energistics, Refined Storage, or both!")
 
 setParent("triumph:stage4/inscriber")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("appliedenergistics2:part", 380)
-
-
-setRequirements("any")

@@ -1,14 +1,15 @@
-setIcon("minecraft:piston")
-
 setTitle("Push It Real Good")
+
+setIcon("minecraft:piston")
 
 setDescription("Need to push items around?! Find a Piston in the Ur-Ghast Tower located in the Twilight Forest or locate the resources from The Betweenlands Dimension")
 
 setParent("triumph:stage2/twilight")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("minecraft:piston")
 
+//Rewards
 setRewardExperience(8)

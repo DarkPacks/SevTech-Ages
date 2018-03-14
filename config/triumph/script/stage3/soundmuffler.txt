@@ -1,13 +1,15 @@
-setIcon("supersoundmuffler:sound_muffler")
-
 setTitle("Sound Muffler")
+
+setIcon("supersoundmuffler:sound_muffler")
 
 setDescription("Loud noises driving you crazy? Place down a Super Sound Muffler")
 
 setParent("triumph:stage3/redstone")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("supersoundmuffler:sound_muffler")
 
+//Rewards
 setRewardExperience(8)

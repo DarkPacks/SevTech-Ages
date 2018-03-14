@@ -178,6 +178,18 @@ for stage, liquidStacks in liquidsForStage {
 	}
 }
 
+var liquidsNamesForBucketStaging as string[][string] = {
+	STAGES.three : [
+		"milk"
+	]
+};
+
+for stage, liquidNames in liquidsNamesForBucketStaging {
+	for liquidName in liquidNames {
+		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredientFromName(liquidName));
+	}
+}
+
 //TODO: These don't do anything
 //mods.ItemStages.stageLiquid("five", <liquid:refinedcanolaoil>);
 //mods.ItemStages.stageLiquid("five", <liquid:crystaloil>);

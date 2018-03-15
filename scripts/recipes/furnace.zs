@@ -19,6 +19,7 @@ var outputToRemove as IIngredient[] = [
 	<minecraft:diamond>,
 	<minecraft:emerald>,
 	<primal:carbonate_stone>,
+	<primal:diamond_plate>,
 	<primal:ironglass>
 ];
 

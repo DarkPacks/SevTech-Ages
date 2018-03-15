@@ -97,9 +97,10 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 	<rustic:planks>: [
 		<rustic:log>
 	],
-	<thebetweenlands:weedwood>: [
+	<thebetweenlands:weedwood_planks>: [
 		<thebetweenlands:log_weedwood:12>,
-		<thebetweenlands:log_weedwood>
+		<thebetweenlands:log_weedwood>,
+		<thebetweenlands:weedwood>
 	],
 	<totemic:cedar_plank>: [
 		<totemic:cedar_log>,

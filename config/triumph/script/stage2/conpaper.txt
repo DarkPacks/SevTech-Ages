@@ -1,14 +1,15 @@
-setIcon("astralsorcery:itemconstellationpaper")
-
 setTitle("Filling in the Gaps")
+
+setIcon("astralsorcery:itemconstellationpaper")
 
 setDescription("Acquire Constellation Paper to fill the information in your Astral Sorcery Journal. Right-click while holding the Astral Sorcery Journal to store your Constellation Papers to save space")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-
 criteria.setItem("astralsorcery:itemconstellationpaper")
 
+//Rewards
 setRewardExperience(8)

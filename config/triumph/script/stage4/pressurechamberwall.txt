@@ -1,13 +1,12 @@
-setIcon("pneumaticcraft:pressure_chamber_wall")
-
 setTitle("Pressure Chamber")
+
+setIcon("pneumaticcraft:pressure_chamber_wall")
 
 setDescription("Craft Pressue Chamber Walls to build a Pneumaticraft Pressure Chamber")
 
 setParent("triumph:stage4/compressediron")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("pneumaticcraft:pressure_chamber_wall")
-
-setRequirements("any")

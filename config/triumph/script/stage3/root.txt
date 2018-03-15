@@ -1,8 +1,6 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+setTitle("Age 3")
 
 setIcon("rustic:iron_lantern")
-
-setTitle("Age 3")
 
 setDescription("Welcome to the next age!")
 
@@ -12,8 +10,6 @@ setShowToast(false)
 
 setAnnounceToChat(true)
 
+//Criteria
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
 criteria.setString("triumph:stage2/stevescarts")
-
-
-

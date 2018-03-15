@@ -7,7 +7,6 @@ setDescription("Fill the Amadron Tablet with air pressure and use it to order it
 setParent("triumph:stage4/plasticmixer")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("pneumaticcraft:amadron_tablet")
-
-setRequirements("any")

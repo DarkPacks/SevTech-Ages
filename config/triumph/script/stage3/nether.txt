@@ -1,10 +1,11 @@
-setIcon("minecraft:netherrack")
-
 setTitle("Enter the Nether")
+
+setIcon("minecraft:netherrack")
 
 setDescription("Travel to the Nether. Portals exist in hot biomes such as Deserts and Savannahs")
 
 setParent("triumph:stage3/root")
 
+//Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("the_nether")

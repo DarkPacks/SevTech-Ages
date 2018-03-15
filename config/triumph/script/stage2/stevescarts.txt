@@ -1,17 +1,18 @@
-setIcon("stevescarts:cartmodule", 0)
-
 setTitle("Train-ing with Coal")
+
+setIcon("stevescarts:cartmodule", 0)
 
 setDescription("You have discovered the power of combustion! Craft a Coal Engine ")
 
 setParent("triumph:stage2/piston")
 setRequiresParent(true)
 
-//Sets the frame type
 setFrameType("challenge")
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("stevescarts:cartmodule", 0)
 
+//Rewards
 setRewardExperience(8)
-setRewardFunction("triumph:stage3trigger") 
+setRewardFunction("triumph:stage3trigger")

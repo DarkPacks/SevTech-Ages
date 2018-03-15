@@ -1,19 +1,20 @@
-setIcon("minecraft:redstone")
-
 setTitle("Redstone Ore")
+
+setIcon("minecraft:redstone")
 
 setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
 
 setParent("triumph:stage3/oreexcavation")
 setRequiresParent(true)
 
-criteria = addCriteria("brokeLog", "triumph:player_break_block")
-criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
-criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
-criteria.setBlock("minecraft:redstone_ore", 0)
-criteria1.setBlock("mundaneredstone:redstone_ore", 0)
-criteria2.setBlock("geolosys:ore_vanilla", 1)
-
 setRequirements("any")
 
+//Criteria
+criteria0 = addCriteria("brokeLog0", "triumph:player_break_block")
+criteria0.setBlock("minecraft:redstone_ore", 0)
 
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("mundaneredstone:redstone_ore", 0)
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("geolosys:ore_vanilla", 1)

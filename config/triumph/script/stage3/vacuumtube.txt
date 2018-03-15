@@ -1,11 +1,12 @@
-setIcon("immersiveengineering:material", 26)
-
 setTitle("Vacuum Tube")
+
+setIcon("immersiveengineering:material", 26)
 
 setDescription("Craft a Vacuum Tube in the Engineer's Workbench")
 
 setParent("triumph:stage3/workbench")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("immersiveengineering:material", 26)

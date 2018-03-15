@@ -1,11 +1,12 @@
-setIcon("tconstruct:edible", 1)
-
 setTitle("The Neptunians")
+
+setIcon("tconstruct:edible", 1)
 
 setDescription("Launch a Rocket to Neptune")
 
 setParent("triumph:stage5/saturn")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("Neptune")

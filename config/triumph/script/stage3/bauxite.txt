@@ -1,11 +1,12 @@
-setIcon("immersiveengineering:metal", 1)
-
 setTitle("Bauxite Ore")
+
+setIcon("immersiveengineering:metal", 1)
 
 setDescription("Find a surface sample and dig for Bauxite! Located Y45 to 70")
 
 setParent("triumph:stage3/oreexcavation")
 setRequiresParent(true)
 
+//Criteria
 criteria = addCriteria("brokeLog", "triumph:player_break_block")
 criteria.setBlock("geolosys:ore", 7)

@@ -1,8 +1,6 @@
-//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+setTitle("Age 2")
 
 setIcon("astralsorcery:itemcraftingcomponent", 4)
-
-setTitle("Age 2")
 
 setDescription("Welcome to the next age!")
 
@@ -12,5 +10,6 @@ setShowToast(false)
 
 setAnnounceToChat(false)
 
+//Criteria
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
 criteria.setString("triumph:stage1/astable")

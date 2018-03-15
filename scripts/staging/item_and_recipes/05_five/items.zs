@@ -283,24 +283,6 @@ var stage5Items as IIngredient[] = [
 	<actuallyadditions:magnet_ring_bauble>,
 	<actuallyadditions:potion_ring_advanced_bauble:*>,
 
-	//Steve's Factory Manager
-	<stevesfactorymanager:blockcablebudname>,
-	<stevesfactorymanager:blockcablecamouflagename:1>,
-	<stevesfactorymanager:blockcablecamouflagename:2>,
-	<stevesfactorymanager:blockcablecamouflagename>,
-	<stevesfactorymanager:blockcableclustername:8>,
-	<stevesfactorymanager:blockcableclustername>,
-	<stevesfactorymanager:blockcableinputname>,
-	<stevesfactorymanager:blockcableintakename:8>,
-	<stevesfactorymanager:blockcableintakename>,
-	<stevesfactorymanager:blockcablename>,
-	<stevesfactorymanager:blockcableoutputname>,
-	<stevesfactorymanager:blockcablerelayname:8>,
-	<stevesfactorymanager:blockcablerelayname>,
-	<stevesfactorymanager:blockcablesignname>,
-	<stevesfactorymanager:blockmachinemanagername>,
-	<stevesfactorymanager:memorydisk>,
-
 	//Iron Chests
 	<ironchest:diamond_crystal_chest_upgrade>,
 	<ironchest:diamond_obsidian_chest_upgrade>,

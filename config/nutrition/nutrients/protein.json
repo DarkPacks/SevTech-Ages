@@ -438,7 +438,13 @@
       "actuallyadditions:item_food",
       "galacticraftcore:cheese_curd",
       "primal:cheese_white",
-      "primal:cheese_red"
+      "primal:cheese_red",
+      "actuallyadditions:item_food:11",
+      "actuallyadditions:item_food:13",
+      "actuallyadditions:item_food:20",
+      "tconstruct:edible",
+      "actuallyadditions:item_food:3",
+      "nex:food_meat_ghast_raw"
     ]
   }
 }

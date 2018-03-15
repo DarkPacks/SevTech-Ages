@@ -296,24 +296,6 @@ var itemsForStage as IIngredient[] = [
 	<actuallyadditions:item_tele_staff>,
 	<actuallyadditions:item_water_removal_ring>,
 
-	//Steve's Factory Manager
-	<stevesfactorymanager:blockcablebudname>,
-	<stevesfactorymanager:blockcablecamouflagename:1>,
-	<stevesfactorymanager:blockcablecamouflagename:2>,
-	<stevesfactorymanager:blockcablecamouflagename>,
-	<stevesfactorymanager:blockcableclustername:8>,
-	<stevesfactorymanager:blockcableclustername>,
-	<stevesfactorymanager:blockcableinputname>,
-	<stevesfactorymanager:blockcableintakename:8>,
-	<stevesfactorymanager:blockcableintakename>,
-	<stevesfactorymanager:blockcablename>,
-	<stevesfactorymanager:blockcableoutputname>,
-	<stevesfactorymanager:blockcablerelayname:8>,
-	<stevesfactorymanager:blockcablerelayname>,
-	<stevesfactorymanager:blockcablesignname>,
-	<stevesfactorymanager:blockmachinemanagername>,
-	<stevesfactorymanager:memorydisk>,
-
 	//Ender Storage
 	<enderstorage:ender_pouch>,
 	<enderstorage:ender_storage:1>,

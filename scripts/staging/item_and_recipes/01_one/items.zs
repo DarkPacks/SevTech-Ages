@@ -264,6 +264,7 @@ var stage1Items as IIngredient[] = [
 	//Iron Chests
 	<ironchest:iron_chest:3>,
 	<ironchest:wood_copper_chest_upgrade>,
+	<ironchest:iron_chest:7>,
 
 	//Chisel & Bits
 	<chiselsandbits:bit_bag>,

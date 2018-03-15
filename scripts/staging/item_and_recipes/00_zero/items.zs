@@ -30,7 +30,6 @@ var stageZeroItems as IIngredient[] = [
 	<immcraft:shelf>,
 	<immersiveengineering:material:4>,
 	<immersiveengineering:seed>,
-	<ironchest:iron_chest:7>,
 	<primalchests:primal_chest>,
 	<primalchests:primal_chest_advanced>,
 	<progressiontweaks:broken_spear_shaft>,

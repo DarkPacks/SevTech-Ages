@@ -274,6 +274,9 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:slime_boots>,
 	<tconstruct:slime_congealed:3>,
 
+	//Iron Chest
+	<ironchest:iron_chest:7>,
+
 	//Rustic
 	<rustic:andesite_pillar>,
 	<rustic:barrel>,

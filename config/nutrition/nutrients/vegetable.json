@@ -335,7 +335,27 @@
       "thebetweenlands:marshmallow_pink",
       "thebetweenlands:nettle_soup",
       "thebetweenlands:weeping_blue_petal",
-      "actuallyadditions:item_food:14"
+      "actuallyadditions:item_food:14",
+      "primal:daucus_murn_root_cooked",
+      "actuallyadditions:item_food:1",
+      "actuallyadditions:item_food:2",
+      "actuallyadditions:item_food:3",
+      "nex:food_mushroom_enoki",
+      "primal:aconite_root",
+      "primal:corn_cob",
+      "primal:corn_cob_cooked",
+      "primal:aconite_petal",
+      "primal:aconite_sprig",
+      "primal:void_grass_root",
+      "primal:corypha_seed",
+      "primal:valus_seed",
+      "primal:daucus_murn_seeds",
+      "primal:nether_seed",
+      "primal:nether_root",
+      "primal:dry_grass_seed",
+      "primal:dry_grass_root",
+      "primal:mushroom_cooked",
+      "primal:pumpkin_piece"
     ]
   }
 }

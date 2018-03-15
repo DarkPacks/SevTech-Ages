@@ -122,3 +122,13 @@
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("to craft recipes"));
 
 <primal:flint_hatchet>.addTooltip(format.yellow("Can not be repaired"));
+
+<teslacorelib:energy_tier1>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
+<teslacorelib:energy_tier2>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
+<teslacorelib:speed_tier1>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
+<teslacorelib:speed_tier2>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
+
+<astikoor:plowcart>.addTooltip(format.yellow("Use the Astikoor Action"));
+<astikoor:plowcart>.addTooltip(format.yellow("Key to attach to Horses"));
+<astikoor:cargocart>.addTooltip(format.yellow("Use the Astikoor Action"));
+<astikoor:cargocart>.addTooltip(format.yellow("Key to attach to Horses"));

@@ -179,6 +179,7 @@ for i in 0 to 16 {
 <ore:logWood>.add(<primal:logs_stripped>);
 <ore:logWood>.add(<thebetweenlands:log_rubber>);
 <ore:logWood>.add(<thebetweenlands:log_sap>);
+<ore:logWood>.add(<thebetweenlands:log_weedwood:12>);
 <ore:logWood>.add(<thebetweenlands:log_weedwood>);
 <ore:logWood>.add(<totemic:stripped_cedar_log>);
 

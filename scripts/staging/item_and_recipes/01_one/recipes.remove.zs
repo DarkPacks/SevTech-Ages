@@ -13,10 +13,10 @@ var removeItems as IItemStack[] = [
 	<minecraft:ladder>,
 	<minecraft:torch>,
 	<primal_tech:leaf_bed>,
+	<primal_tech:stone_anvil>,
 	<progressiontweaks:blank_teleporter>, //Beneath Porter Recipe
 	<progressiontweaks:unfired_clay_bowl>,
 	<prospectors:prospector_lowest>, //Prospector
-	<primal_tech:stone_anvil>,
 
 	//Better With Mods
 	<betterwithaddons:aqueduct:0>,

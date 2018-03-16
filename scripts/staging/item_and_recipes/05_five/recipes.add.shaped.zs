@@ -350,8 +350,93 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<extraplanets:gravity_controller>, <extraplanets:tier4_space_suit_boots>, <extraplanets:gravity_controller>],
 			[null, <extraplanets:gravity_controller>, null]
 		]
-	]
+	],
 
+	//Mystical Agriculture Dye Essence Recipes
+	<ore:dyeBlack>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+			[null, null, null],
+			[null, null, null]
+		]
+	],
+	<ore:dyeRed>.firstItem: [
+		[
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+			[null, null, null]
+		]
+	],
+	<ore:dyePurple>.firstItem: [
+		[
+			[null, null, null],
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeCyan>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, null],
+			[<mysticalagriculture:dye_essence>, null, null],
+			[<mysticalagriculture:dye_essence>, null, null]
+		]
+	],
+	<ore:dyeLightGray>.firstItem: [
+		[
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, <mysticalagriculture:dye_essence>, null]
+		]
+	],
+	<ore:dyeGray>.firstItem: [
+		[
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyePink>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeLime>.firstItem: [
+		[
+			[null, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, null]
+		]
+	],
+	<ore:dyeYellow>.firstItem: [
+		[
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[null, null, null]
+		]
+	],
+	<ore:dyeLightBlue>.firstItem: [
+		[
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, null, null]
+		]
+	],
+	<ore:dyeMagenta>.firstItem: [
+		[
+			[null, null, null],
+			[null, <mysticalagriculture:dye_essence>, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>]
+		]
+	],
+	<ore:dyeOrange>.firstItem: [
+		[
+			[null, null, null],
+			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+			[null, <mysticalagriculture:dye_essence>, null]
+		]
+	]
 };
 
 for item, recipesForItem in shapedRecipes {

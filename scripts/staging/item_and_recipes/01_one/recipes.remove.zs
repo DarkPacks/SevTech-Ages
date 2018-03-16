@@ -40,11 +40,11 @@ var removeItems as IItemStack[] = [
 	<betterwithmods:wooden_gearbox>,
 
 	//Abyssalcraft for Stage1
+	<abyssalcraft:charm>,
 	<abyssalcraft:necronomicon>,
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,
 	<abyssalcraft:shadowshard>,
-	<abyssalcraft:charm>,
 
 	//Tinkers'
 	<tcomplement:melter:8>,

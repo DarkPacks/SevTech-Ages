@@ -51,6 +51,10 @@ var hideItems as IItemStack[] = [
 	<immcraft:workbench_sec>,
 	<improvedbackpacks:bound_leather>,
 	<improvedbackpacks:tanned_leather>,
+	<infoaccessories:info_accessory:3>,
+	<infoaccessories:info_accessory:7>,
+	<infoaccessories:info_accessory:8>,
+	<infoaccessories:info_accessory:9>,
 	<jaff:fish_bones>,
 	<minecraft:barrier>,
 	<minecraft:bedrock>,
@@ -88,10 +92,6 @@ var hideItems as IItemStack[] = [
 	<rftools:solid_shield_block>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<infoaccessories:info_accessory:3>,
-	<infoaccessories:info_accessory:7>,
-	<infoaccessories:info_accessory:8>,
-	<infoaccessories:info_accessory:9>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

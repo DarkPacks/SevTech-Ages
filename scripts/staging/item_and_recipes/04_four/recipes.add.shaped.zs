@@ -1215,7 +1215,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

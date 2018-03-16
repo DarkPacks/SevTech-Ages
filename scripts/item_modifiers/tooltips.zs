@@ -139,5 +139,4 @@
 <primal:emerald_workblade>.addTooltip(format.red("Can not be repaired"));
 <primal:diamond_workblade>.addTooltip(format.red("Can not be repaired"));
 
-
 <waterstrainer:garden_trowel>.addTooltip(format.red("Repaired with Flint"));

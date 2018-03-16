@@ -64,10 +64,10 @@ var removeItems as IItemStack[] = [
 
 	//Info Accessories
 	<infoaccessories:info_accessory:2>,
-	<infoaccessories:info_accessory:6>,
-	<infoaccessories:info_accessory>,
 	<infoaccessories:info_accessory:4>,
 	<infoaccessories:info_accessory:5>,
+	<infoaccessories:info_accessory:6>,
+	<infoaccessories:info_accessory>,
 
 	//Abyssalcraft
 	<abyssalcraft:gatewaykey>,

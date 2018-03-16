@@ -133,22 +133,6 @@ for dye, recipesForDye in dyeShapedRecipes {
 	}
 }
 
-//[output, input]
-var crushingPairs as IItemStack[][] = [
-	[<pickletweaks:dye_powder:4>, <minecraft:dye:11>],
-	[<pickletweaks:dye_powder:15>, <minecraft:dye>],
-	[<pickletweaks:dye_powder:15>, <nex:item_dust_wither>]
-];
-
-for pair in crushingPairs {
-	var dye as IItemStack = pair[0];
-	var item as IItemStack = pair[1];
-
-	mods.betterwithmods.Mill.add(dye * 2, null, [item]);
-	mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
-	mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
-}
-
 /*
 	Add crushing recipes for dyes
 
@@ -213,7 +197,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersb:12>,
 		<ferdinandsflowers:block_cff_flowersb:13>,
 		<ferdinandsflowers:block_cff_flowersc:7>,
-		<ferdinandsflowers:block_cff_flowersd:5>
+		<ferdinandsflowers:block_cff_flowersd:5>,
+		<minecraft:dye:11>
 	],
 
 	//Lime
@@ -310,6 +295,12 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:8>,
 		<ferdinandsflowers:block_cff_flowersc:13>,
 		<ferdinandsflowers:block_cff_flowersd:2>
+	],
+
+	<ore:dyeBlack>.firstItem : [
+		<actuallyadditions:block_black_lotus>,
+		<minecraft:dye>,
+		<nex:item_dust_wither>
 	]
 };
 

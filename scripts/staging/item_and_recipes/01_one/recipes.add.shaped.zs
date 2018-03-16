@@ -486,7 +486,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, stone, null],
 			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 		]
-<<<<<<< HEAD
 	],
 
 	//Abyssalcraft Statues
@@ -581,10 +580,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
 		]
 	]
-
-=======
-	]
->>>>>>> master
 };
 
 for item, recipesForItem in shapedRecipes {

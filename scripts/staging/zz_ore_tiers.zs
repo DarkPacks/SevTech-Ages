@@ -248,9 +248,9 @@ for stage, itemReplacementPairs in replacementItemsForStage {
 		var length = itemReplacementPair.length;
 
 		if (length == 1) {
-			mods.OreTiers.addReplacement(stage, itemReplacementPair[0]);
+			mods.orestages.OreStages.addReplacement(stage, itemReplacementPair[0]);
 		} else if (length == 2) {
-			mods.OreTiers.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
+			mods.orestages.OreStages.addReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
 		}
 	}
 }
@@ -278,15 +278,15 @@ for stage, itemReplacementPairs in nonDefaultReplacementItemsForStage {
 		var length = itemReplacementPair.length;
 
 		if (length == 1) {
-			mods.OreTiers.addNonDefaultingReplacement(stage, itemReplacementPair[0]);
+			mods.orestages.OreStages.addNonDefaultingReplacement(stage, itemReplacementPair[0]);
 		} else if (length == 2) {
-			mods.OreTiers.addNonDefaultingReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
+			mods.orestages.OreStages.addNonDefaultingReplacement(stage, itemReplacementPair[0], itemReplacementPair[1].items[0]);
 		}
 	}
 }
 
 //Nether Wart
-mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:0", "minecraft:beetroots:0");
-mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:1", "minecraft:beetroots:1");
-mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:2", "minecraft:beetroots:2");
-mods.OreTiers.addReplacementById("three", "minecraft:nether_wart:3", "minecraft:beetroots:3");
+mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:0", "minecraft:beetroots:0");
+mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:1", "minecraft:beetroots:1");
+mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:2", "minecraft:beetroots:2");
+mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:3", "minecraft:beetroots:3");

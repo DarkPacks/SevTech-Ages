@@ -316,7 +316,7 @@ var stage2Items as IIngredient[] = [
 	<minecraft:piston>,
 	<minecraft:redstone>,
 	<minecraft:redstone_block>,
-	<minecraft:redstone_ore>
+	<minecraft:redstone_ore>,
 	<minecraft:shears>,
 	<minecraft:shield>,
 	<minecraft:speckled_melon>,

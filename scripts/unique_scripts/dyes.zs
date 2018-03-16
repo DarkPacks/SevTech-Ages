@@ -313,9 +313,6 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	]
 };
 
-var IE_CRUSHER_ENERGY as int = 3200;
-var HP_GRINDSTONE_TIME as int = 12;
-
 for dye, items in dyeCrushingRecipes {
 	for item in items {
 		mods.betterwithmods.Mill.add(dye * 2, null, [item]);

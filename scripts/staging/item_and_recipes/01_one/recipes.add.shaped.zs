@@ -480,15 +480,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	<primal_tech:stone_anvil> : [ 
+	<primal_tech:stone_anvil> : [
 		[
-			[stone, stone, stone], 
-			[null, stone, null], 
+			[stone, stone, stone],
+			[null, stone, null],
 			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 		]
 	]
-
-
 };
 
 for item, recipesForItem in shapedRecipes {

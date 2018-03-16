@@ -208,7 +208,150 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mekanism:compresseddiamond>, metals.gold.plate, <mekanism:compresseddiamond>],
 			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
 		]
+	],
+
+	//extra planets
+	<extraplanets:tier1_space_suit_helmet>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier1_space_suit_chest>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier1_space_suit_legings>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_legings>, <extraplanets:tier1_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier1_space_suit_boots>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier1_space_suit_gravity_boots>: [
+		[
+			[null, <extraplanets:gravity_controller>, null],
+			[<extraplanets:gravity_controller>, <extraplanets:tier1_space_suit_boots>, <extraplanets:gravity_controller>],
+			[null, <extraplanets:gravity_controller>, null]
+		]
+	],
+	<extraplanets:tier2_space_suit_helmet>: [
+		[
+			[null, <extraplanets:tier2_armor_layer>, null],
+			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_helmet>, <extraplanets:tier2_pressure_layer>],
+			[null, <extraplanets:tier2_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier2_space_suit_chest>: [
+		[
+			[null, <extraplanets:tier2_armor_layer>, null],
+			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_chest>, <extraplanets:tier2_pressure_layer>],
+			[null, <extraplanets:tier2_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier2_space_suit_legings>: [
+		[
+			[null, <extraplanets:tier2_armor_layer>, null],
+			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_legings>, <extraplanets:tier2_pressure_layer>],
+			[null, <extraplanets:tier2_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier2_space_suit_boots>: [
+		[
+			[null, <extraplanets:tier2_armor_layer>, null],
+			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_boots>, <extraplanets:tier2_pressure_layer>],
+			[null, <extraplanets:tier2_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier2_space_suit_gravity_boots>: [
+		[
+			[null, <extraplanets:gravity_controller>, null],
+			[<extraplanets:gravity_controller>, <extraplanets:tier2_space_suit_boots>, <extraplanets:gravity_controller>],
+			[null, <extraplanets:gravity_controller>, null]
+		]
+	],
+	<extraplanets:tier3_space_suit_helmet>: [
+		[
+			[null, <extraplanets:tier3_armor_layer>, null],
+			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_helmet>, <extraplanets:tier3_pressure_layer>],
+			[null, <extraplanets:tier3_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier3_space_suit_chest>: [
+		[
+			[null, <extraplanets:tier3_armor_layer>, null],
+			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_chest>, <extraplanets:tier3_pressure_layer>],
+			[null, <extraplanets:tier3_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier3_space_suit_legings>: [
+		[
+			[null, <extraplanets:tier3_armor_layer>, null],
+			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_legings>, <extraplanets:tier3_pressure_layer>],
+			[null, <extraplanets:tier3_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier3_space_suit_boots>: [
+		[
+			[null, <extraplanets:tier3_armor_layer>, null],
+			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_boots>, <extraplanets:tier3_pressure_layer>],
+			[null, <extraplanets:tier3_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier3_space_suit_gravity_boots>: [
+		[
+			[null, <extraplanets:gravity_controller>, null],
+			[<extraplanets:gravity_controller>, <extraplanets:tier3_space_suit_boots>, <extraplanets:gravity_controller>],
+			[null, <extraplanets:gravity_controller>, null]
+		]
+	],
+	<extraplanets:tier4_space_suit_helmet>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_helmet>, <extraplanets:tier4_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier4_space_suit_chest>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_chest>, <extraplanets:tier4_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier4_space_suit_legings>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_legings>, <extraplanets:tier4_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier4_space_suit_boots>: [
+		[
+			[null, <extraplanets:tier1_armor_layer>, null],
+			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_boots>, <extraplanets:tier4_pressure_layer>],
+			[null, <extraplanets:tier1_armor_layer>, null]
+		]
+	],
+	<extraplanets:tier4_space_suit_gravity_boots>: [
+		[
+			[null, <extraplanets:gravity_controller>, null],
+			[<extraplanets:gravity_controller>, <extraplanets:tier4_space_suit_boots>, <extraplanets:gravity_controller>],
+			[null, <extraplanets:gravity_controller>, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

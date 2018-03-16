@@ -486,8 +486,100 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, stone, null], 
 			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 		]
-	]
+	],
 
+	//Abyssalcraft Statues
+	<abyssalcraft:decorativestatue> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:9>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:1> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:4>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:2> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:7>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:3> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:10>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:4> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:11>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:5> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:1>, null]
+		]
+	],
+	<abyssalcraft:decorativestatue:6> : [ 
+		[
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball>], 
+			[<pickletweaks:dye_powder:15>, null]
+		]
+	],
+	<abyssalcraft:statue> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:1> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:1>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:2> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:2>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:3> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:3>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:4> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:4>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:5> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:5>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+	<abyssalcraft:statue:6> : [ 
+		[
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:6>, <abyssalcraft:shoggothflesh>], 
+			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	]
 
 };
 

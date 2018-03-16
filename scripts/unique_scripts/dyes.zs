@@ -126,7 +126,7 @@ var dyeShapedRecipes as IIngredient[][][][IItemStack] = {
 
 for dye, recipesForDye in dyeShapedRecipes {
 	for recipe in recipesForDye {
-		recipes.addShaped(dye, recipe);
+		recipes.addShaped("dye_essence_" ~ dye.name.toLowerCase(), dye, recipe);
 	}
 }
 

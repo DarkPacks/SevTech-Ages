@@ -1009,7 +1009,10 @@ var recipesForStage as string[] = [
 	"mysticalagriculture:.*",
 
 	//Mystical Agradditions
-	"mysticalagradditions:.*"
+	"mysticalagradditions:.*",
+
+	//Crafttweaker recipes
+	"crafttweaker:dye_essence_item.pt.dye_powder.*"
 ];
 
 for recipeRegex in recipesForStage {

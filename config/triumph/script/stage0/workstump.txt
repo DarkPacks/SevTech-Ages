@@ -7,6 +7,8 @@ setDescription("No crafting tables! Use a Work Stump instead. To craft the items
 setParent("triumph:stage0/collectplank")
 setRequiresParent(true)
 
+setFrameType("challenge")
+
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("primal_tech:work_stump")

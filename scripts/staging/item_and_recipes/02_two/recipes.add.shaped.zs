@@ -444,8 +444,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<infoaccessories:info_accessory> : [
-		[[null, <abyssalcraft:dsbutton>, null], [<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>], [null, metals.tin.gear, null]]
+		[[null, <abyssalcraft:dsbutton>, null], 
+		[<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>], 
+		[null, metals.tin.gear, null]]
 	],
+	<infoaccessories:info_accessory:4> : [
+		[[null, <minecraft:slime_ball>, null], 
+		[<minecraft:slime_ball>, <minecraft:compass>, <minecraft:slime_ball>], 
+		[null, <minecraft:slime_ball>, null]]
+	],
+	<infoaccessories:info_accessory:5> : [
+	  	[[null, <minecraft:paper>, null], 
+	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>], 
+	  	[null, <minecraft:paper>, null]]
+	],	
 	<minecraft:clock> : [
 		[[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>], [metals.gold.plate, <minecraft:dye:4>, metals.gold.plate], [<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]]
 	],

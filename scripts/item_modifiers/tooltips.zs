@@ -132,3 +132,12 @@
 <astikoor:plowcart>.addTooltip(format.yellow("Key to attach to Horses"));
 <astikoor:cargocart>.addTooltip(format.yellow("Use the Astikoor Action"));
 <astikoor:cargocart>.addTooltip(format.yellow("Key to attach to Horses"));
+
+<primal:flint_workblade>.addTooltip(format.red("Can not be repaired"));
+<primal:quartz_workblade>.addTooltip(format.red("Can not be repaired"));
+<primal:iron_workblade>.addTooltip(format.red("Can not be repaired"));
+<primal:emerald_workblade>.addTooltip(format.red("Can not be repaired"));
+<primal:diamond_workblade>.addTooltip(format.red("Can not be repaired"));
+
+
+<waterstrainer:garden_trowel>.addTooltip(format.red("Repaired with Flint"));

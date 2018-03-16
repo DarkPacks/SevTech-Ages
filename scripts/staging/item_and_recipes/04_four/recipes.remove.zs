@@ -199,7 +199,9 @@ var removeItems as IItemStack[] = [
 	//Galacticraft
 	<galacticraftcore:fuel_loader>,
 	<galacticraftcore:machine:12>,
-	<galacticraftcore:rocket_workbench>
+	<galacticraftcore:rocket_workbench>,
+
+	<cookingforblockheads:kitchen_floor>
 ];
 
 for item in removeItems {

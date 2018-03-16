@@ -1139,13 +1139,9 @@ var stage2Items as IIngredient[] = [
 	//Info Accesories
 	<infoaccessories:info_accessory:1>,
 	<infoaccessories:info_accessory:2>,
-	<infoaccessories:info_accessory:3>,
 	<infoaccessories:info_accessory:4>,
 	<infoaccessories:info_accessory:5>,
 	<infoaccessories:info_accessory:6>,
-	<infoaccessories:info_accessory:7>,
-	<infoaccessories:info_accessory:8>,
-	<infoaccessories:info_accessory:9>,
 	<infoaccessories:info_accessory>,
 
 	//Natura

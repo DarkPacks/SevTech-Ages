@@ -1,6 +1,6 @@
 setTitle("Conveyor Belt")
 
-setIcon("immersiveengineering:conveyor")
+setIcon("immersiveengineering:conveyor", 0, {conveyorType: "immersiveengineering:uncontrolled"})
 
 setDescription("Immersive Engineering Conveyor Belts are great for item transport!")
 

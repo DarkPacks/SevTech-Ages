@@ -2,7 +2,7 @@ setTitle("Manyullyn")
 
 setIcon("tconstruct:metal", 2)
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Combine Ardite and Cobalt in a Smeltery to create Manyullyn")
 
 setParent("triumph:stage4/cobalt")
 setRequiresParent(true)

@@ -1,8 +1,8 @@
-setTitle("Redstone Ore")
+setTitle("Cinnabar Ore")
 
 setIcon("minecraft:redstone")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Find a surface sample and dig for Redstone or Cinnabar! Located Y4 to 24")
 
 setParent("triumph:stage3/oreexcavation")
 setRequiresParent(true)

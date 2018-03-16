@@ -153,7 +153,6 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:connector:12>,
 	<immersiveengineering:connector:13>,
 	<immersiveengineering:connector>,
-	<immersiveengineering:conveyor>,
 	<immersiveengineering:drill>,
 	<immersiveengineering:drillhead:1>,
 	<immersiveengineering:drillhead>,
@@ -338,6 +337,11 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:wooden_device1:4>,
 	<immersiveengineering:wooden_device1>,
 	<immersivetech:connectors>,
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
 
 	//Mekanism
 	<mekanism:balloon:1>,

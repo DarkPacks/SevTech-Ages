@@ -958,7 +958,6 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:basic_item:10>,
 	<galacticraftcore:basic_item:11>,
 	<galacticraftcore:bucket_fuel>,
-	<galacticraftcore:bucket_oil>,
 	<galacticraftcore:canister>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:collector>,

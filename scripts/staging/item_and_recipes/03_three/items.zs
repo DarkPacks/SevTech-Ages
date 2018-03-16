@@ -926,7 +926,6 @@ var stage3Items as IIngredient[] = [
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
-	<immersiveengineering:conveyor>,
 	<immersiveengineering:coresample>,
 	<immersiveengineering:drill>,
 	<immersiveengineering:drillhead:1>,

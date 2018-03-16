@@ -1207,7 +1207,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.gold.gear, <teslacorelib:machine_case>, metals.gold.gear],
 			[metals.iron.gear, <modularmachinery:blockcontroller>, metals.iron.gear]
 		]
+	],
+
+	<cookingforblockheads:kitchen_floor> * 12: [
+		[
+			[<minecraft:quartz_block>, <actuallyadditions:block_misc:2>],
+			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

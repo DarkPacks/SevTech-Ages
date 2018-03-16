@@ -44,6 +44,7 @@ var removeItems as IItemStack[] = [
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,
 	<abyssalcraft:shadowshard>,
+	<abyssalcraft:charm>,
 
 	//Tinkers'
 	<tcomplement:melter:8>,

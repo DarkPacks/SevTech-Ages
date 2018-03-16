@@ -2,7 +2,7 @@ setTitle("Potash")
 
 setIcon("betterwithmods:material", 21)
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Use Logs, Planks, or Sawdust in a Stoked Cauldron to create Potash")
 
 setParent("triumph:stage3/bellows")
 setRequiresParent(true)

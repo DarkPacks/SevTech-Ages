@@ -2,7 +2,7 @@ setTitle("Nether Brick")
 
 setIcon("minecraft:netherbrick")
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Place Nether Sludge in a Better With Mods Kiln to cook it into Nether Bricks. Consult the Book of Single on how to assemble the Kiln")
 
 setParent("triumph:stage3/potash")
 setRequiresParent(true)

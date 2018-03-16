@@ -2,7 +2,7 @@ setTitle("Silver and Lead Ore")
 
 setIcon("immersiveengineering:metal", 2)
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Find a surface sample and dig for Galena! Located Y16 to 50")
 
 setParent("triumph:stage3/oreexcavation")
 setRequiresParent(true)

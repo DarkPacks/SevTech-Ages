@@ -44,6 +44,13 @@ MetalPress.addRecipe(metals.compressedIron.ingot.firstItem * 4, metals.iron.bloc
 
 MetalPress.addRecipe(<pickletweaks:ppm4:2> * 4, <galacticraftcore:item_basic_moon>, <immersiveengineering:mold:4>, 500, 1);
 
+//Coal and Charcoal Blocks / Pieces
+MetalPress.addRecipe(<minecraft:coal_block> * 1, <minecraft:coal>, <immersiveengineering:mold:6>, 500, 9);
+MetalPress.addRecipe(<charcoalblock:charcoal_block> * 1, <minecraft:coal:1>, <immersiveengineering:mold:6>, 500, 9);
+
+MetalPress.addRecipe(<minecraft:coal> * 9, <minecraft:coal_block>, <immersiveengineering:mold:7>, 500, 1);
+MetalPress.addRecipe(<minecraft:coal:1> * 9, <charcoalblock:charcoal_block>, <immersiveengineering:mold:7>, 500, 1);
+
 /*
 	Squeezer
 */

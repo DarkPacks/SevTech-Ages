@@ -2,7 +2,7 @@ setTitle("Silicon Ore")
 
 setIcon("galacticraftcore:basic_item", 2)
 
-setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua")
+setDescription("Find a surface sample and dig for Silicon! Located Y24 to 48")
 
 setParent("triumph:stage4/prospector4")
 setRequiresParent(true)

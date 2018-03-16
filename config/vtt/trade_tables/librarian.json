@@ -5,6 +5,28 @@
     "Recipes": [
       {
         "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:feather",
+          "Count": {
+            "min": 4,
+            "max": 8
+          }
+        },
+        "buyB": {
+          "id": "minecraft:dye",
+          "Count": {
+            "min": 8,
+            "max": 12
+          }
+        },
+        "sell": {
+          "id": "antiqueatlas:empty_antique_atlas",
+          "Count": 1
+        }
       }
     ]
   }

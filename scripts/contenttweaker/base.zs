@@ -12,6 +12,7 @@ static materials as Material[string] = {
 	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(18347).build(),
 	"compressedIron": MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build(),
 	"copper": MaterialSystem.getMaterialBuilder().setName("Copper").setColor(15766817).build(),
+	"coralium": MaterialSystem.getMaterialBuilder().setName("Coralium").setColor(Color.fromHex("358b95")).build(),
 	"diamond": MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(9237730).build(),
 	"ender": MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(2869678).build(),
 	"enhancedGalgadorian": MaterialSystem.getMaterialBuilder().setName("Enhanced Galgadorian").setColor(9850751).build(),

@@ -478,7 +478,17 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[log, <minecraft:stone_sword>, log],
 			[log, log, log]
 		]
+	],
+
+	<primal_tech:stone_anvil> : [ 
+		[
+			[stone, stone, stone], 
+			[null, stone, null], 
+			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
+		]
 	]
+
+
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -10,7 +10,6 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:stone_decoration:10>,
 	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab:5>,
-	<primal_tech:stone_anvil>,
 	<tconstruct:stone_ladder>,
 	<teslacorelib:gear_stone>,
 
@@ -198,7 +197,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:chest>,
 	<minecraft:concrete:*>,
 	<minecraft:concrete_powder:*>,
-	<minecraft:crafting_table>,
 	<minecraft:flower_pot>,
 	<minecraft:furnace>,
 	<minecraft:item_frame>,

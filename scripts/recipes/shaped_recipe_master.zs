@@ -43,15 +43,6 @@ recipes.addShaped(<minecraft:saddle>, [
 	[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
 ]);
 
-//Chest
-recipes.remove(<minecraft:chest>);
-recipes.addShaped(<minecraft:chest>, [[plank, plank, plank], [plank, null, plank], [plank, plank, plank]]);
-recipes.addShaped(<minecraft:chest>, [
-	[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>],
-	[<ore:sidingWood>, null, <ore:sidingWood>],
-	[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>]
-]);
-
 //Leather armor
 recipes.remove(<minecraft:leather_helmet>);
 recipes.addShaped(<minecraft:leather_helmet>, [[leather, leather, leather], [leather, null, leather]]);
@@ -105,9 +96,6 @@ recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, n
 recipes.addShaped(<primal_tech:work_stump>, [[<horsepower:chopping_block>], [log]]);
 
 recipes.addShaped(<primal_tech:bone_shears>, [[<minecraft:bone>, null], [cordage, <minecraft:bone>]]);
-
-recipes.remove(<primal_tech:stone_anvil>);
-recipes.addShaped(<primal_tech:stone_anvil>, [[stone, stone, stone], [null, stone, null], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
 recipes.remove(<primal_tech:rock>);
 recipes.addShapeless(<primal_tech:rock>, [<immcraft:rock>]);

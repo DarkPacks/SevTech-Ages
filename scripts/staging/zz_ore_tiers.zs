@@ -105,6 +105,9 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock>],
 		[<minecraft:gold_block>],
 
+		//Redstone
+		[<minecraft:redstone_ore>],
+
 		//Astral Sorcery
 		[<astralsorcery:blockcustomsandore>, <minecraft:sand>],
 		[<astralsorcery:blockcustomore>],
@@ -158,7 +161,6 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:ore_sample:8>, <immcraft:rock>],
 
 		//Redstone
-		[<minecraft:redstone_ore>],
 		[<mundaneredstone:redstone_ore>],
 		[<geolosys:ore_vanilla:1>],
 		[<geolosys:ore_sample_vanilla:1>, <immcraft:rock>],

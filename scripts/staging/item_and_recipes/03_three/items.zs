@@ -214,7 +214,6 @@ var stage3Items as IIngredient[] = [
 	<minecraft:comparator>,
 	<minecraft:daylight_detector>,
 	<minecraft:redstone_lamp>,
-	<minecraft:redstone_ore>,
 	<minecraft:redstone_torch>,
 	<minecraft:repeater>,
 

@@ -335,3 +335,8 @@ for i in 0 to 16 {
 //Sulfur
 <ore:dustSulphur>.remove(<natura:materials:4>);
 <ore:dustSulfur>.add(<natura:materials:4>);
+
+//Processors
+<ore:processorCalculation>.add(<appliedenergistics2:material:23>);
+<ore:processorEngineering>.add(<appliedenergistics2:material:24>);
+<ore:processorLogic>.add(<appliedenergistics2:material:22>);

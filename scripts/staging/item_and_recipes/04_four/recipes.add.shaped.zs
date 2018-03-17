@@ -1101,6 +1101,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>]
 		]
 	],
+	<refinedstorage:network_card>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:paper>, <ore:processorEngineering>, <minecraft:paper>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:security_card>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:network_card>, <ore:processorEngineering>, <refinedstorage:network_card>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
 
 	//Use Liquid hopper instead of normal hopper
 	<mob_grinding_utils:tank_sink>: [

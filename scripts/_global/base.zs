@@ -32,3 +32,9 @@ global buckets as IItemStack[] = [
 	<thebetweenlands:bl_bucket:1>,
 	<thebetweenlands:bl_bucket>
 ];
+
+//AE Cores
+global aeCores as IItemStack[string] = {
+	annihilation: <appliedenergistics2:material:44>,
+	formation: <appliedenergistics2:material:43>
+};

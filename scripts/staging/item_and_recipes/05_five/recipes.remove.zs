@@ -38,7 +38,36 @@ var removeItems as IItemStack[] = [
 	//Iron Chests
 	<ironchest:diamond_crystal_chest_upgrade>,
 	<ironchest:diamond_obsidian_chest_upgrade>,
-	<ironchest:gold_diamond_chest_upgrade>
+	<ironchest:gold_diamond_chest_upgrade>,
+
+	//Refined Storage
+	<refinedstorage:constructor>,
+	<refinedstorage:crafter>,
+	<refinedstorage:crafting_monitor>,
+	<refinedstorage:destructor>,
+	<refinedstorage:detector>,
+	<refinedstorage:disk_drive>,
+	<refinedstorage:disk_manipulator>,
+	<refinedstorage:fluid_storage_part:1>,
+	<refinedstorage:fluid_storage_part:2>,
+	<refinedstorage:fluid_storage_part:3>,
+	<refinedstorage:network_receiver>,
+	<refinedstorage:network_transmitter>,
+	<refinedstorage:reader>,
+	<refinedstorage:storage_monitor>,
+	<refinedstorage:storage_part:1>,
+	<refinedstorage:storage_part:2>,
+	<refinedstorage:storage_part:3>,
+	<refinedstorage:upgrade>,
+	<refinedstorage:wireless_crafting_monitor>,
+	<refinedstorage:wireless_fluid_grid>,
+	<refinedstorage:wireless_grid>,
+	<refinedstorage:wireless_transmitter>,
+	<refinedstorage:wrench>,
+	<refinedstorage:writer>,
+	<refinedstorageaddons:network_bag>,
+	<refinedstorageaddons:network_picker>,
+	<refinedstorageaddons:wireless_crafting_grid>
 ];
 
 for item in removeItems {

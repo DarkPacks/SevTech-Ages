@@ -194,7 +194,9 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:grid>,
 	<refinedstorage:importer>,
 	<refinedstorage:interface>,
+	<refinedstorage:network_card>,
 	<refinedstorage:quartz_enriched_iron>,
+	<refinedstorage:security_card>,
 
 	//Galacticraft
 	<galacticraftcore:fuel_loader>,

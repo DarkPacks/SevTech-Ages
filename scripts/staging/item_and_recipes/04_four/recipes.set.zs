@@ -404,10 +404,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Refined Storage
 	<refinedstorage:machine_casing>,
-	<refinedstorage:network_card>,
 	<refinedstorage:quartz_enriched_iron>,
 	<refinedstorage:quartz_enriched_iron_block>,
-	<refinedstorage:security_card>,
 
 	//Buildcraft
 	<buildcraftbuilders:architect>,

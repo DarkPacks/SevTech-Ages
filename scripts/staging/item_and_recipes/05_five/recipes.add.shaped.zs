@@ -436,6 +436,197 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
 			[null, <mysticalagriculture:dye_essence>, null]
 		]
+	],
+
+	//Refined Storage
+	<refinedstorage:crafting_monitor>: [
+		[
+			[<ore:processorLogic>, <refinedstorage:pattern>, <ore:blockGlass>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <ore:blockGlass>],
+			[<ore:processorLogic>, <refinedstorage:pattern>, <ore:blockGlass>]
+		]
+	],
+	<refinedstorage:storage_monitor>: [
+		[
+			[<ore:processorCalculation>, aeCores.formation, <ore:blockGlass>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <ore:blockGlass>],
+			[<ore:processorCalculation>, aeCores.annihilation, <ore:blockGlass>]
+		]
+	],
+	<refinedstorage:crafter>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, aeCores.formation, <refinedstorage:quartz_enriched_iron>],
+			[<ore:processorEngineering>, <refinedstorage:machine_casing>, <ore:processorEngineering>],
+			[<refinedstorage:quartz_enriched_iron>, aeCores.annihilation, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:disk_drive>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <ore:chest>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:constructor>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, aeCores.formation, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:redstone>, <refinedstorage:cable>, <minecraft:redstone>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:destructor>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, aeCores.annihilation, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:redstone>, <refinedstorage:cable>, <minecraft:redstone>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:reader>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, aeCores.annihilation, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:redstone>, <refinedstorage:cable>, <minecraft:redstone>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:writer>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, aeCores.formation, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:redstone>, <refinedstorage:cable>, <minecraft:redstone>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:detector>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:comparator>, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:redstone>, <refinedstorage:machine_casing>, <minecraft:redstone>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:wireless_transmitter>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:network_transmitter>: [
+		[
+			[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>],
+			[aeCores.formation, <refinedstorage:machine_casing>, aeCores.annihilation],
+			[<ore:processorEngineering>, <ore:processorEngineering>, <ore:processorEngineering>]
+		]
+	],
+	<refinedstorage:network_receiver>: [
+		[
+			[<ore:processorEngineering>, <ore:processorEngineering>, <ore:processorEngineering>],
+			[aeCores.formation, <refinedstorage:machine_casing>, aeCores.annihilation],
+			[<minecraft:ender_pearl>, <minecraft:ender_pearl>, <minecraft:ender_pearl>]
+		]
+	],
+	<refinedstorage:disk_manipulator>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_housing>, <refinedstorage:quartz_enriched_iron>],
+			[aeCores.formation, <refinedstorage:machine_casing>, aeCores.annihilation],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_housing>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:storage_part:3>: [
+		[
+			[<ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>],
+			[<refinedstorage:storage_part:2>, <minecraft:redstone>, <refinedstorage:storage_part:2>],
+			[<ore:processorEngineering>, <refinedstorage:storage_part:2>, <ore:processorEngineering>]
+		]
+	],
+	<refinedstorage:storage_part:1>: [
+		[
+			[<ore:processorCalculation>, <refinedstorage:quartz_enriched_iron>, <ore:processorCalculation>],
+			[<refinedstorage:storage_part>, <minecraft:redstone>, <refinedstorage:storage_part>],
+			[<ore:processorCalculation>, <refinedstorage:storage_part>, <ore:processorCalculation>]
+		]
+	],
+	<refinedstorage:storage_part:2>: [
+		[
+			[<ore:processorLogic>, <refinedstorage:quartz_enriched_iron>, <ore:processorLogic>],
+			[<refinedstorage:storage_part:1>, <minecraft:redstone>, <refinedstorage:storage_part:1>],
+			[<ore:processorLogic>, <refinedstorage:storage_part:1>, <ore:processorLogic>]
+		]
+	],
+	<refinedstorage:fluid_storage_part:1>: [
+		[
+			[<ore:processorCalculation>, <refinedstorage:quartz_enriched_iron>, <ore:processorCalculation>],
+			[<refinedstorage:fluid_storage_part>, <minecraft:bucket>, <refinedstorage:fluid_storage_part>],
+			[<ore:processorCalculation>, <refinedstorage:fluid_storage_part>, <ore:processorCalculation>]
+		]
+	],
+	<refinedstorage:fluid_storage_part:3>: [
+		[
+			[<ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>],
+			[<refinedstorage:fluid_storage_part:2>, <minecraft:bucket>, <refinedstorage:fluid_storage_part:2>],
+			[<ore:processorEngineering>, <refinedstorage:fluid_storage_part:2>, <ore:processorEngineering>]
+		]
+	],
+	<refinedstorage:fluid_storage_part:2>: [
+		[
+			[<ore:processorLogic>, <refinedstorage:quartz_enriched_iron>, <ore:processorLogic>],
+			[<refinedstorage:fluid_storage_part:1>, <minecraft:bucket>, <refinedstorage:fluid_storage_part:1>],
+			[<ore:processorLogic>, <refinedstorage:fluid_storage_part:1>, <ore:processorLogic>]
+		]
+	],
+	<refinedstorage:wireless_grid>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:wireless_fluid_grid>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid:3>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:wireless_crafting_monitor>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:crafting_monitor>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:upgrade>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <ore:blockGlass>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:blockGlass>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorage:wrench>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorCalculation>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],
+			[null, <refinedstorage:quartz_enriched_iron>, null]
+		]
+	],
+	<refinedstorageaddons:wireless_crafting_grid>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid:1>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorageaddons:network_picker>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, aeCores.formation, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<refinedstorageaddons:network_bag>: [
+		[
+			[<minecraft:chest>, <minecraft:ender_pearl>, <minecraft:chest>],
+			[<refinedstorage:quartz_enriched_iron>, aeCores.annihilation, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+		]
 	]
 };
 

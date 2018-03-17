@@ -4,11 +4,15 @@ root = true
 [*]
 indent_style = tab
 end_of_line = lf
-charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[/config/**]
+# Some need special encoding for coloring
+[!config/**]
+charset = utf-8
+
+# Since EOL causes changes every time the mod re-runs over it
+[config/**]
 end_of_line = none
 
 [*.md]

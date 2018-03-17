@@ -1,3 +1,0 @@
-gamestage add @p sidequest
-summon minecraft:fireworks_rocket ~ ~ ~
-say SIDE QUEST

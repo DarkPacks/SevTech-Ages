@@ -12,4 +12,5 @@ criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
 criteria.setEntityType("totemic:baykok")
 
 //Rewards
+setRewardFunction("triumph:baykok_trigger")
 setRewardItem("natura:materials", 5, 1)

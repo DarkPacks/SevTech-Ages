@@ -587,6 +587,3 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-//Tinkers'
-mods.recipestages.Recipes.addShapedMirrored(STAGE, <tconstruct:pattern> * 4, [[<ore:barkWood>, <ore:sidingWood>], [<ore:sidingWood>, <ore:barkWood>]]);

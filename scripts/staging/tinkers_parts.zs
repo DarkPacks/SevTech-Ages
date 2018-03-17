@@ -46,6 +46,12 @@ var partsStages as IItemStack[][string] = {
 
 for partStage, parts in partsStages {
 	for part in parts {
+		//Stage pattern/cast
+		mods.ItemStages.addItemStage(partStage, <tconstruct:pattern>.withTag({PartType: part.definition.id}));
+		mods.ItemStages.addItemStage(partStage, <tconstruct:cast>.withTag({PartType: part.definition.id}));
+		mods.ItemStages.addItemStage(partStage, <tconstruct:clay_cast>.withTag({PartType: part.definition.id}));
+
+		//Stage part materials
 		for materialStage, materials in scripts.staging.tinkers.materialsForStage {
 			var stage = scripts.utils.getHighestStage(partStage, materialStage);
 

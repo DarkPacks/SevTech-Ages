@@ -57,6 +57,7 @@ var removeItems as IItemStack[] = [
 
 	//Tinkers
 	<tconstruct:materials:16>,
+	<tconstruct:pattern>,
 	<tconstruct:piggybackpack>,
 	<tconstruct:seared_furnace_controller>,
 	<tconstruct:smeltery_controller>,

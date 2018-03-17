@@ -444,20 +444,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<infoaccessories:info_accessory> : [
-		[[null, <abyssalcraft:dsbutton>, null], 
-		[<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>], 
+		[[null, <abyssalcraft:dsbutton>, null],
+		[<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>],
 		[null, metals.tin.gear, null]]
 	],
 	<infoaccessories:info_accessory:4> : [
-		[[null, <minecraft:slime_ball>, null], 
-		[<minecraft:slime_ball>, <minecraft:compass>, <minecraft:slime_ball>], 
+		[[null, <minecraft:slime_ball>, null],
+		[<minecraft:slime_ball>, <minecraft:compass>, <minecraft:slime_ball>],
 		[null, <minecraft:slime_ball>, null]]
 	],
 	<infoaccessories:info_accessory:5> : [
-	  	[[null, <minecraft:paper>, null], 
-	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>], 
+	  	[[null, <minecraft:paper>, null],
+	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>],
 	  	[null, <minecraft:paper>, null]]
-	],	
+	],
 	<minecraft:clock> : [
 		[[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>], [metals.gold.plate, <minecraft:dye:4>, metals.gold.plate], [<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]]
 	],
@@ -583,3 +583,9 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
+
+//Tinkers'
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <tconstruct:pattern> * 4, [
+	[<ore:barkWood>, <ore:sidingWood>],
+	[<ore:sidingWood>, <ore:barkWood>]
+]);

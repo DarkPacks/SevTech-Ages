@@ -53,7 +53,6 @@ var removeItems as IItemStack[] = [
 	<tcomplement:porcelain_melter:8>,
 	<tcomplement:porcelain_melter>,
 	<tconstruct:book>,
-	<tconstruct:pattern>,
 	<tconstruct:stone_stick>,
 	<tconstruct:stone_torch>,
 

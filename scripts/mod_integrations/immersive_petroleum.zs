@@ -29,9 +29,9 @@ Distillation.addRecipe(
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Petroleum/CraftTweaker_Support/Reservoir/
 */
-//Reservoir.registerReservoir("aquifer", <liquid:water>, 5000000, 10000000, 6, 30); //TODO: Should be whitelisted to only overworld, then remove from config
-//Reservoir.registerReservoir("oil", <liquid:oil>, 2500000, 15000000, 6, 40); //TODO: Should blacklist end, then remove from config
-//Reservoir.registerReservoir("lava", <liquid:lava>, 250000, 1000000, 0, 30); //TODO: Should blacklist end, then remove from config
+Reservoir.registerReservoir("aquifer", <liquid:water>, 5000000, 10000000, 6, 30, [], [0], [], []);
+Reservoir.registerReservoir("oil", <liquid:oil>, 2500000, 15000000, 6, 40, [1], [], [], []);
+Reservoir.registerReservoir("lava", <liquid:lava>, 250000, 1000000, 0, 30, [1], [], [], []);
 
 /*
 	Fuel Registration

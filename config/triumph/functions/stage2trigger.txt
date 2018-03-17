@@ -4,4 +4,3 @@ gamestage add @p two
 summon minecraft:fireworks_rocket ~ ~ ~
 astralsorcery research @p BASIC_CRAFT
 mpa notify @p stage_two
-say You are Now In Stage 2

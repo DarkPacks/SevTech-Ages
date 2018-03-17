@@ -15,4 +15,4 @@ criteria.setItem("astralsorcery:blockaltar")
 
 //Rewards
 setRewardExperience(8)
-setRewardFunction("triumph:stage2trigger")
+setRewardFunction("triumph:stage-2_trigger")

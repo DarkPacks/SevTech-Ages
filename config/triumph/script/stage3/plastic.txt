@@ -15,4 +15,4 @@ criteria.setItem("industrialforegoing:plastic")
 
 //Rewards
 setRewardExperience(16)
-setRewardFunction("triumph:stage4trigger")
+setRewardFunction("triumph:stage-4_trigger")

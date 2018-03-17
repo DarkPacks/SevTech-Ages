@@ -20,5 +20,5 @@ criteria2.setItem("tcomplement:melter", 0)
 
 //Rewards
 setRewardExperience(4)
-setRewardFunction("triumph:stage1trigger")
+setRewardFunction("triumph:stage-1_trigger")
 setRewardItem("tconstruct:book", 0, 1)

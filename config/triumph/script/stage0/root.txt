@@ -22,4 +22,4 @@ addCriteria("killedByEntity", "minecraft:entity_killed_player")
 addCriteria("location", "minecraft:location")
 
 //Rewards
-setRewardFunction("triumph:stageTutorial-trigger")
+setRewardFunction("triumph:stage-tutorial_trigger")

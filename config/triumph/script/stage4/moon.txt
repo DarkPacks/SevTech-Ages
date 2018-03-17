@@ -15,4 +15,4 @@ criteria.setDimensionDestination("Moon")
 
 //Rewards
 setRewardExperience(25)
-setRewardFunction("triumph:stage5trigger")
+setRewardFunction("triumph:stage-5_trigger")

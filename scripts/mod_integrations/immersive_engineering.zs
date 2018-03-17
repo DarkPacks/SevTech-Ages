@@ -8,6 +8,8 @@ import mods.immersiveengineering.Squeezer;
 
 /*
 	Alloy Smelter
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Alloy_Smelter/
 */
 //Black Iron Creation
 AlloySmelter.addRecipe(metals.blackIron.ingot.firstItem, <actuallyadditions:item_dust:7>, metals.iron.ingot, 600);
@@ -31,12 +33,7 @@ AlloySmelter.addRecipe(metals.invar.ingot.firstItem * 3, metals.iron.dust * 2, m
 /*
 	Metal Press
 
-	//OutputStack, InputStack, MoldStack, Energy, SizeValue
-	mods.immersiveengineering.MetalPress.addRecipe(<minecraft:stone_slab> * 2, <minecraft:stone>, <ImmersiveEngineering:mold>, 500, 50);
-	//OutputStack
-	mods.immersiveengineering.MetalPress.removeRecipe(<ImmersiveEngineering:metal:30>);
-	//MoldStack
-	mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:2>);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Metal_Press/
 */
 MetalPress.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 500, 4);
 
@@ -53,13 +50,15 @@ MetalPress.addRecipe(<minecraft:coal:1> * 9, <charcoalblock:charcoal_block>, <im
 
 /*
 	Squeezer
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Squeezer/
 */
 Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
 
 /*
 	Crusher
 
-	IItemStack output, IIngredient input, int totalEnergy, @Optional IItemStack secondaryOutput, @Optional double secondaryChance
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Crusher/
 */
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
 Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 3000);
@@ -101,6 +100,8 @@ Crusher.addRecipe(<primal:bone_knapp>, <primal:sharp_bone>, 3000); //Sharp Bone 
 
 /*
 	Arc Furnace
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Arc_Furnace/
 */
 //==============================================================
 //Add Steve's carts recipes
@@ -159,7 +160,7 @@ ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag
 /*
 	Mixer
 
-	mods.immersiveengineering.Mixer.addRecipe(ILiquidStack output, ILiquidStack fluidInput, IIngredient[] itemInputs, int energy);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Mixer/
 */
 Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
 Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst>], 50);
@@ -167,6 +168,6 @@ Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks
 /*
 	Refinery
 
-	mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy);
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Refinery/
 */
 Refinery.addRecipe(<liquid:fuel> * 100, <liquid:liquidoxygen> * 250, <liquid:kerosene> * 100, 2048);

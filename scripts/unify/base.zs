@@ -25,6 +25,8 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 
 			/*
 				Check supported mods and call script if loaded
+
+				TODO: Currently if a mod is not loaded, the script wont be loaded, so this script will error. See if theres a way around that.
 			*/
 			if (loadedMods.contains("appliedenergistics2")) {
 				scripts.unify.supported_mods.appliedenergistics2.removeFromAll(item, liquid);

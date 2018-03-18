@@ -17,6 +17,11 @@ var metalsToRemove as ILiquidStack[string] = {
 };
 
 for metalName, metalLiquid in metalsToRemove {
+	//Hide liquid
+	if (metalLiquid as bool) {
+		mods.jei.JEI.hide(metalLiquid);
+	}
+
 	for partName in partsToRemove {
 		scripts.unify.base.unifyWithPreferredItem(oreDict.get(partName ~ capitalize(metalName)), null, metalLiquid);
 	}

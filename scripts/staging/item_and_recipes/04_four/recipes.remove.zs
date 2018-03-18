@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 
 var removeItems as IItemStack[] = [
 	<betterbuilderswands:wanddiamond>,
+	<cookingforblockheads:kitchen_floor>,
 	<cyclicmagic:clock>,
 	<cyclicmagic:sprinkler>,
 	<immersiveengineering:metal_device0:5>,
@@ -203,19 +204,16 @@ var removeItems as IItemStack[] = [
 	<galacticraftcore:machine:12>,
 	<galacticraftcore:rocket_workbench>,
 
-	<cookingforblockheads:kitchen_floor>,
-
-	<extraplanets:tier1_space_suit_helmet>,
-	<extraplanets:tier1_space_suit_chest>,
-	<extraplanets:tier1_space_suit_legings>,
-	<extraplanets:tier1_space_suit_boots>,
 	<extraplanets:tier1_pressure_layer>,
 	<extraplanets:tier1_radiation_layer>,
-	<extraplanets:tier1_un_prepared_space_suit_helmet>,
+	<extraplanets:tier1_space_suit_boots>,
+	<extraplanets:tier1_space_suit_chest>,
+	<extraplanets:tier1_space_suit_helmet>,
+	<extraplanets:tier1_space_suit_legings>,
+	<extraplanets:tier1_un_prepared_space_suit_boots>,
 	<extraplanets:tier1_un_prepared_space_suit_chest>,
-	<extraplanets:tier1_un_prepared_space_suit_legings>,
-	<extraplanets:tier1_un_prepared_space_suit_boots>
-	
+	<extraplanets:tier1_un_prepared_space_suit_helmet>,
+	<extraplanets:tier1_un_prepared_space_suit_legings>
 ];
 
 for item in removeItems {

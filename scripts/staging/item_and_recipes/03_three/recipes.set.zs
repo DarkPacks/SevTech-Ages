@@ -621,6 +621,7 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:material:3>,
 	<darkutils:material>,
 	<darkutils:timer>,
+	<darkutils:trap_anchor>,
 	<darkutils:trap_move_fast>,
 	<darkutils:trap_move_hyper>,
 	<darkutils:trap_tile:3>,
@@ -632,7 +633,6 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:wither_block:4>,
 	<darkutils:wither_block:5>,
 	<darkutils:wither_block>,
-	<darkutils:trap_anchor>,
 
 	//Actually Additions
 	<actuallyadditions:item_axe_obsidian>,

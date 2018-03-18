@@ -210,7 +210,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//extra planets
+	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>: [
 		[
 			[null, <extraplanets:gravity_controller>, null],

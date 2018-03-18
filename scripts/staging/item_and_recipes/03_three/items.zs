@@ -872,6 +872,7 @@ var stage3Items as IIngredient[] = [
 	<darkutils:material:3>,
 	<darkutils:material>,
 	<darkutils:timer>,
+	<darkutils:trap_anchor>,
 	<darkutils:trap_move_fast>,
 	<darkutils:trap_move_hyper>,
 	<darkutils:trap_tile:3>,
@@ -883,7 +884,6 @@ var stage3Items as IIngredient[] = [
 	<darkutils:wither_block:4>,
 	<darkutils:wither_block:5>,
 	<darkutils:wither_block>,
-	<darkutils:trap_anchor>,
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,

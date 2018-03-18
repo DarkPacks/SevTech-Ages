@@ -1299,7 +1299,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

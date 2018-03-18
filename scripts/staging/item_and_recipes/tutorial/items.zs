@@ -14,6 +14,7 @@ var stageTutorialItems as IIngredient[] = [
 	<chisel:limestone2:7>,
 	<chisel:marble2:7>,
 	<cyclicmagic:sleeping_mat>,
+	<death_compass:death_compass>,
 	<horsepower:chopping_block:*>,
 	<horsepower:chopping_block>,
 	<immcraft:chest>,
@@ -119,8 +120,7 @@ var stageTutorialItems as IIngredient[] = [
 	<rustic:wildberries>,
 	<rustic:wildberry_bush>,
 	<tombmanygraves:death_list>,
-	<tombmanygraves:grave_block>,
-	<death_compass:death_compass>
+	<tombmanygraves:grave_block>
 ];
 
 for item in stageTutorialItems {

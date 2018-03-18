@@ -71,21 +71,21 @@ var removeItems as IItemStack[] = [
 
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>,
-	<extraplanets:tier2_space_suit_helmet>,
-	<extraplanets:tier2_space_suit_chest>,
-	<extraplanets:tier2_space_suit_legings>,
 	<extraplanets:tier2_space_suit_boots>,
+	<extraplanets:tier2_space_suit_chest>,
 	<extraplanets:tier2_space_suit_gravity_boots>,
-	<extraplanets:tier3_space_suit_helmet>,
-	<extraplanets:tier3_space_suit_chest>,
-	<extraplanets:tier3_space_suit_legings>,
+	<extraplanets:tier2_space_suit_helmet>,
+	<extraplanets:tier2_space_suit_legings>,
 	<extraplanets:tier3_space_suit_boots>,
+	<extraplanets:tier3_space_suit_chest>,
 	<extraplanets:tier3_space_suit_gravity_boots>,
-	<extraplanets:tier4_space_suit_helmet>,
-	<extraplanets:tier4_space_suit_chest>,
-	<extraplanets:tier4_space_suit_legings>,
+	<extraplanets:tier3_space_suit_helmet>,
+	<extraplanets:tier3_space_suit_legings>,
 	<extraplanets:tier4_space_suit_boots>,
-	<extraplanets:tier4_space_suit_gravity_boots>
+	<extraplanets:tier4_space_suit_chest>,
+	<extraplanets:tier4_space_suit_gravity_boots>,
+	<extraplanets:tier4_space_suit_helmet>,
+	<extraplanets:tier4_space_suit_legings>
 ];
 
 for item in removeItems {

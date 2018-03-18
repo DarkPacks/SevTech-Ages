@@ -945,7 +945,6 @@ var stage4Items as IIngredient[] = [
 	<geolosys:ore_vanilla:4>,
 
 	//Galacticraft
-	<extraplanets:tier11_items:6>,
 	<galacticraftcore:air_lock_frame:1>,
 	<galacticraftcore:air_lock_frame>,
 	<galacticraftcore:air_vent>,
@@ -1005,17 +1004,18 @@ var stage4Items as IIngredient[] = [
 	<materialpart:silicon:ore_sample>,
 
 	//Extra Planets
-	<extraplanets:tier1_space_suit_helmet>,
-	<extraplanets:tier1_space_suit_chest>,
-	<extraplanets:tier1_space_suit_legings>,
-	<extraplanets:tier1_space_suit_boots>,
-	<extraplanets:tier1_un_prepared_space_suit_helmet>,
-	<extraplanets:tier1_un_prepared_space_suit_chest>,
-	<extraplanets:tier1_un_prepared_space_suit_legings>,
-	<extraplanets:tier1_un_prepared_space_suit_boots>,
+	<extraplanets:tier1_armor_layer>,
 	<extraplanets:tier1_pressure_layer>,
 	<extraplanets:tier1_radiation_layer>,
-	<extraplanets:tier1_armor_layer>,
+	<extraplanets:tier1_space_suit_boots>,
+	<extraplanets:tier1_space_suit_chest>,
+	<extraplanets:tier1_space_suit_helmet>,
+	<extraplanets:tier1_space_suit_legings>,
+	<extraplanets:tier1_un_prepared_space_suit_boots>,
+	<extraplanets:tier1_un_prepared_space_suit_chest>,
+	<extraplanets:tier1_un_prepared_space_suit_helmet>,
+	<extraplanets:tier1_un_prepared_space_suit_legings>,
+	<extraplanets:tier11_items:6>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

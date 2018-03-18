@@ -584,7 +584,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:wool:*>, null]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

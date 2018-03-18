@@ -9,8 +9,9 @@ setRequiresParent(true)
 
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria1 = addCriteria("crafted1", "triumph:player_crafted_item")
 criteria.setItem("ceramics:channel")
+
+criteria1 = addCriteria("crafted1", "triumph:player_crafted_item")
 criteria1.setItem("tconstruct:channel")
 
 //Rewards

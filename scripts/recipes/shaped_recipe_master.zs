@@ -92,7 +92,11 @@ recipes.addShaped(<primal_tech:fluid_bladder>, [[null, null, null], [<ore:dyeBro
 
 recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <minecraft:log2:1>, null]]);
 recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <natura:overworld_logs2:1>, null]]);
-recipes.addShaped(<primal_tech:work_stump_upgraded>, [[null, <immcraft:shelf>, null], [<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>], [null, <natura:overworld_logs2:3>, null]]);
+recipes.addShaped(<primal_tech:work_stump_upgraded>, [
+	[null, <immcraft:shelf>, null],
+	[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
+	[null, <natura:overworld_logs2:3> | <betterwithaddons:log_sakura>, null]
+]);
 recipes.addShaped(<primal_tech:work_stump>, [[<horsepower:chopping_block>], [log]]);
 
 recipes.addShaped(<primal_tech:bone_shears>, [[<minecraft:bone>, null], [cordage, <minecraft:bone>]]);

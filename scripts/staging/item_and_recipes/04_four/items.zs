@@ -1004,6 +1004,19 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
 
+	//Extra Planets
+	<extraplanets:tier1_space_suit_helmet>,
+	<extraplanets:tier1_space_suit_chest>,
+	<extraplanets:tier1_space_suit_legings>,
+	<extraplanets:tier1_space_suit_boots>,
+	<extraplanets:tier1_un_prepared_space_suit_helmet>,
+	<extraplanets:tier1_un_prepared_space_suit_chest>,
+	<extraplanets:tier1_un_prepared_space_suit_legings>,
+	<extraplanets:tier1_un_prepared_space_suit_boots>,
+	<extraplanets:tier1_pressure_layer>,
+	<extraplanets:tier1_radiation_layer>,
+	<extraplanets:tier1_armor_layer>,
+
 	//Ender Utilities
 	<enderutilities:asu>,
 	<enderutilities:barrel>,

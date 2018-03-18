@@ -75,7 +75,9 @@ var removeItems as IItemStack[] = [
 
 	//Blood Magic
 	<bloodmagic:experience_tome>,
-	<bloodmagic:lava_crystal>
+	<bloodmagic:lava_crystal>,
+
+	<supersoundmuffler:sound_muffler>
 ];
 
 for item in removeItems {

@@ -67,7 +67,25 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:writer>,
 	<refinedstorageaddons:network_bag>,
 	<refinedstorageaddons:network_picker>,
-	<refinedstorageaddons:wireless_crafting_grid>
+	<refinedstorageaddons:wireless_crafting_grid>,
+
+	//Extra Planets
+	<extraplanets:tier1_space_suit_gravity_boots>,
+	<extraplanets:tier2_space_suit_helmet>,
+	<extraplanets:tier2_space_suit_chest>,
+	<extraplanets:tier2_space_suit_legings>,
+	<extraplanets:tier2_space_suit_boots>,
+	<extraplanets:tier2_space_suit_gravity_boots>,
+	<extraplanets:tier3_space_suit_helmet>,
+	<extraplanets:tier3_space_suit_chest>,
+	<extraplanets:tier3_space_suit_legings>,
+	<extraplanets:tier3_space_suit_boots>,
+	<extraplanets:tier3_space_suit_gravity_boots>,
+	<extraplanets:tier4_space_suit_helmet>,
+	<extraplanets:tier4_space_suit_chest>,
+	<extraplanets:tier4_space_suit_legings>,
+	<extraplanets:tier4_space_suit_boots>,
+	<extraplanets:tier4_space_suit_gravity_boots>
 ];
 
 for item in removeItems {

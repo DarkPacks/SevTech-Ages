@@ -1,4 +1,4 @@
-setTitle("Â§5Â§lThe Wheels on the Bus")
+setTitle("§5§lThe Wheels on the Bus")
 
 setIcon("astikoor:wheel")
 

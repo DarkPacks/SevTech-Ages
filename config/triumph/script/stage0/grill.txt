@@ -1,4 +1,4 @@
-setTitle("Â§4Â§lHot Grill!")
+setTitle("§4§lHot Grill!")
 
 setIcon("primal_tech:stone_grill")
 

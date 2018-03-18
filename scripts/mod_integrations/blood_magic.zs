@@ -23,6 +23,13 @@ AlchemyArray.addRecipe(<bloodmagic:bound_axe>, <bloodmagic:component:8>, <minecr
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_shovel>);
 AlchemyArray.addRecipe(<bloodmagic:bound_shovel>, <bloodmagic:component:8>, <minecraft:golden_shovel>);
 
+
+AlchemyArray.removeRecipe(<bloodmagic:component:11>, <bloodmagic:slate:1>);
+AlchemyArray.addRecipe(<bloodmagic:sigil_blood_light>, <bloodmagic:component:11>, <bloodmagic:slate:1>);
+
+AlchemyArray.removeRecipe(<bloodmagic:component:27>, <bloodmagic:slate:1>);
+AlchemyArray.addRecipe(<bloodmagic:sigil_holding>, <bloodmagic:component:27>, <bloodmagic:slate:1>);
+
 /*
 	Alchemy Table
 
@@ -141,4 +148,11 @@ TartaricForge.addRecipe(
 	<bloodmagic:component:10>,
 	[<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, metals.silver.ingot.firstItem],
 	400, 10
+);
+
+TartaricForge.removeRecipe([<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:glass>, <minecraft:dye:4>]);
+TartaricForge.addRecipe(
+	<bloodmagic:soul_gem>,
+	[<betterwithaddons:tweakmat>, metals.bronze.ingot.firstItem, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment>],
+	1, 1
 );

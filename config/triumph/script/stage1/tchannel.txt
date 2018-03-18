@@ -7,6 +7,8 @@ setDescription("A Channel is a great way to transport liquids from tanks and oth
 setParent("triumph:stage1/root")
 setRequiresParent(true)
 
+setRequirements("any")
+
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("ceramics:channel")

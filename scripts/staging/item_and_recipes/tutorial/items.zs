@@ -119,7 +119,8 @@ var stageTutorialItems as IIngredient[] = [
 	<rustic:wildberries>,
 	<rustic:wildberry_bush>,
 	<tombmanygraves:death_list>,
-	<tombmanygraves:grave_block>
+	<tombmanygraves:grave_block>,
+	<death_compass:death_compass>
 ];
 
 for item in stageTutorialItems {

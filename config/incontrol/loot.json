@@ -352,6 +352,104 @@
     "random": 0.5
   },
   {
+    "mob": "totemic:baykok",
+    "remove": "minecraft:skull@1"
+  },
+  {
+    "mob": "totemic:baykok",
+    "remove": "minecraft:arrow"
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.5
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.75
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.75
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.75
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.75
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.5
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.4
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_bone",
+    "random": 0.25
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_flint",
+    "random": 1.0
+  },
+  {
+    "mob": "totemic:baykok",
+    "item": "simplyarrows:arrow_flint",
+    "random": 1.0
+  },
+  {
     "mob": "Bat",
     "remove": "actuallyadditions:item_misc@15"
   },

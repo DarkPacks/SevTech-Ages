@@ -38,7 +38,25 @@ var removeItems as IItemStack[] = [
 	//Iron Chests
 	<ironchest:diamond_crystal_chest_upgrade>,
 	<ironchest:diamond_obsidian_chest_upgrade>,
-	<ironchest:gold_diamond_chest_upgrade>
+	<ironchest:gold_diamond_chest_upgrade>,
+
+	//Extra Planets
+	<extraplanets:tier1_space_suit_gravity_boots>,
+	<extraplanets:tier2_space_suit_helmet>,
+	<extraplanets:tier2_space_suit_chest>,
+	<extraplanets:tier2_space_suit_legings>,
+	<extraplanets:tier2_space_suit_boots>,
+	<extraplanets:tier2_space_suit_gravity_boots>,
+	<extraplanets:tier3_space_suit_helmet>,
+	<extraplanets:tier3_space_suit_chest>,
+	<extraplanets:tier3_space_suit_legings>,
+	<extraplanets:tier3_space_suit_boots>,
+	<extraplanets:tier3_space_suit_gravity_boots>,
+	<extraplanets:tier4_space_suit_helmet>,
+	<extraplanets:tier4_space_suit_chest>,
+	<extraplanets:tier4_space_suit_legings>,
+	<extraplanets:tier4_space_suit_boots>,
+	<extraplanets:tier4_space_suit_gravity_boots>
 ];
 
 for item in removeItems {

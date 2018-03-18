@@ -237,7 +237,6 @@ var itemsForStage as IIngredient[] = [
 	<waterstrainer:strainer_survivalist_solid>,
 
 	//Super Sound Muffler
-	<supersoundmuffler:sound_muffler>,
 	<supersoundmuffler:sound_muffler_bauble>,
 
 	//Chisel & Bits

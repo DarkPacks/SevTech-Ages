@@ -575,7 +575,16 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>],
 			[metals.gold.ingot, <bloodmagic:blood_orb:*>, metals.gold.ingot]
 		]
+	],
+
+	<supersoundmuffler:sound_muffler> : [
+		[
+			[null, <minecraft:wool:*>, null],
+			[<minecraft:wool:*>, <thebetweenlands:weedwood_jukebox>, <minecraft:wool:*>],
+			[null, <minecraft:wool:*>, null]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

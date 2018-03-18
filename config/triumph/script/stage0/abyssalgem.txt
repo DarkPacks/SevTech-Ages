@@ -1,4 +1,4 @@
-setTitle("Â§5Â§lDark Gems")
+setTitle("§5§lDark Gems")
 
 setIcon("abyssalcraft:shadowgem")
 

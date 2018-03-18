@@ -201,7 +201,19 @@ var removeItems as IItemStack[] = [
 	<galacticraftcore:machine:12>,
 	<galacticraftcore:rocket_workbench>,
 
-	<cookingforblockheads:kitchen_floor>
+	<cookingforblockheads:kitchen_floor>,
+
+	<extraplanets:tier1_space_suit_helmet>,
+	<extraplanets:tier1_space_suit_chest>,
+	<extraplanets:tier1_space_suit_legings>,
+	<extraplanets:tier1_space_suit_boots>,
+	<extraplanets:tier1_pressure_layer>,
+	<extraplanets:tier1_radiation_layer>,
+	<extraplanets:tier1_un_prepared_space_suit_helmet>,
+	<extraplanets:tier1_un_prepared_space_suit_chest>,
+	<extraplanets:tier1_un_prepared_space_suit_legings>,
+	<extraplanets:tier1_un_prepared_space_suit_boots>
+	
 ];
 
 for item in removeItems {

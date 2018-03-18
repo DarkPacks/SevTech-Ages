@@ -632,6 +632,7 @@ var itemsForStage as IIngredient[] = [
 	<darkutils:wither_block:4>,
 	<darkutils:wither_block:5>,
 	<darkutils:wither_block>,
+	<darkutils:trap_anchor>,
 
 	//Actually Additions
 	<actuallyadditions:item_axe_obsidian>,

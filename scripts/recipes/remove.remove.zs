@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 var removeItems as IItemStack[] = [
+	<appliedenergistics2:quartz_glass>,
 	<betterwithmods:aesthetic:8>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,

@@ -103,6 +103,11 @@ Crusher.addRecipe(<primal:bone_knapp>, <primal:sharp_bone>, 3000); //Sharp Bone 
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Arc_Furnace/
 */
+//Quartz Glass
+ArcFurnace.addRecipe(<appliedenergistics2:quartz_glass> * 4, <ore:glassBlock> * 4, null, 200, 512,
+	[<ore:dustQuartz> * 5]
+);
+
 //==============================================================
 //Add Steve's carts recipes
 //Lump of Galgador

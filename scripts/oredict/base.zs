@@ -340,3 +340,6 @@ for i in 0 to 16 {
 <ore:processorCalculation>.add(<appliedenergistics2:material:23>);
 <ore:processorEngineering>.add(<appliedenergistics2:material:24>);
 <ore:processorLogic>.add(<appliedenergistics2:material:22>);
+
+//Quartz Dust
+<ore:dustQuartz>.add(<appliedenergistics2:material:2>); //Certus Quartz

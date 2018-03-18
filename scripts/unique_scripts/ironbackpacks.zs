@@ -1,7 +1,25 @@
 import crafttweaker.data.IData;
+import crafttweaker.recipes.IRecipeFunction;
 
 var blankBackpackUpgrade = <ironbackpacks:upgrade>;
 var chest = <minecraft:chest>;
+
+var backpackRecipeFunction as IRecipeFunction = function(out, ins, cInfo) {
+	var currentTag = ins.bag.tag;
+
+	var packInfoData as IData = {
+		spec: out.tag.packInfo.spec,
+		type: out.tag.packInfo.type
+	};
+
+	var mergeData as IData = {
+		packInfo: currentTag.packInfo.update(packInfoData)
+	};
+
+	var newTag = currentTag.update(mergeData);
+
+	return out.withTag(newTag);
+};
 
 /*
 	Iron Backpacks
@@ -21,17 +39,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "UPGRADE",
-				type: "ironbackpacks:iron"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null
@@ -52,17 +60,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "STORAGE",
-				type: "ironbackpacks:iron"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null
@@ -86,17 +84,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "UPGRADE",
-				type: "ironbackpacks:gold"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null
@@ -117,17 +105,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "STORAGE",
-				type: "ironbackpacks:gold"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null
@@ -151,17 +129,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "UPGRADE",
-				type: "ironbackpacks:diamond"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null
@@ -182,17 +150,7 @@ recipes.addShaped(
 	],
 
 	//Recipe Function
-	function(out, ins, cInfo) {
-		var currentTag = ins.bag.tag;
-		var mergeData = {
-			packInfo: {
-				spec: "STORAGE",
-				type: "ironbackpacks:diamond"
-			}
-		} as IData;
-		var newTag = currentTag.update(mergeData);
-		return out.withTag(newTag);
-	},
+	backpackRecipeFunction,
 
 	//recipeAction (null)
 	null

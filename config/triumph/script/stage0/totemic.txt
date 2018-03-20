@@ -2,7 +2,7 @@ setTitle("Shake, Rattle, and Roll")
 
 setIcon("totemic:drum")
 
-setDescription("Craft the instruments needed create a magical ceremony")
+setDescription("Craft the Rattle, Flute, and Drum needed for Totemic Ceremonies")
 
 setParent("triumph:stage0/leather")
 setRequiresParent(true)

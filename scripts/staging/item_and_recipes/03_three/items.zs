@@ -251,7 +251,6 @@ var stage3Items as IIngredient[] = [
 	<minecraft:dropper>,
 	<minecraft:enchanting_table>,
 	<minecraft:ender_chest>,
-	<minecraft:flint_and_steel>,
 	<minecraft:furnace_minecart>,
 	<minecraft:glowstone>,
 	<minecraft:glowstone_dust>,

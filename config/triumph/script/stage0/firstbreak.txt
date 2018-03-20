@@ -7,6 +7,8 @@ setDescription("Punching trees hurts and you won't get wood from using your hand
 setParent("triumph:stage0/firsttool")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 setRequirements("any")
 
 //Criteria

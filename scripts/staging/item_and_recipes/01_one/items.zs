@@ -411,6 +411,15 @@ var stage1Items as IIngredient[] = [
 	<chisel:temple:*>,
 	<chisel:templemossy:*>,
 
+	//Ferdinand's Flowers
+	<ferdinandsflowers:block_stone_light>,
+	<ferdinandsflowers:block_cobble_light>,
+	<ferdinandsflowers:block_dirt_light>,
+	<ferdinandsflowers:block_log_light>,
+	<ferdinandsflowers:block_plank_light>,
+	<ferdinandsflowers:block_sand_light>,
+	<ferdinandsflowers:block_gravel_light>,
+
 	//Rustic
 	<rustic:andesite_pillar>,
 	<rustic:barrel>,
@@ -715,6 +724,7 @@ var stage1Items as IIngredient[] = [
 	<materialpart:aquamarine:ore_minecraft_stone>,
 
 	//Better With Mods
+	<betterwithmods:rope>,
 	<betterwithaddons:adobe:1>,
 	<betterwithaddons:adobe:2>,
 	<betterwithaddons:adobe:3>,
@@ -987,7 +997,6 @@ var stage1Items as IIngredient[] = [
 	<quark:midori_block_wall>,
 	<quark:midori_pillar>,
 	<quark:polished_stone>,
-	<quark:sandy_bricks>,
 	<quark:spruce_trapdoor>,
 	<quark:stained_clay_tiles:*>,
 	<quark:stained_clay_tiles_black_slab>,

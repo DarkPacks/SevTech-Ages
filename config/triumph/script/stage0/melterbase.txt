@@ -7,6 +7,8 @@ setDescription("You don't have liquid fuel so try solid ones! Craft a Heater to 
 setParent("triumph:stage0/flamehopper")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 setRequirements("any")
 
 //Criteria

@@ -9,7 +9,7 @@ setRequiresParent(true)
 
 setRequirements("any")
 
-setFrameType("challenge")
+setFrameType("Challenge")
 
 //Criteria
 criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")

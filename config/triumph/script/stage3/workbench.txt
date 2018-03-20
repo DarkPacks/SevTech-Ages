@@ -7,6 +7,8 @@ setDescription("Craft an Engineer's Workbench to craft items from Blueprints")
 setParent("triumph:stage3/iebook")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("immersiveengineering:wooden_device0", 2)

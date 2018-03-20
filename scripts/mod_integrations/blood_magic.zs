@@ -70,7 +70,7 @@ TartaricForge.removeRecipe([<minecraft:glowstone>, <minecraft:torch>, <minecraft
 TartaricForge.addRecipe(
 	<bloodmagic:component:11>,
 	[<betterwithmods:candle:*>, <minecraft:torch>, <betterwithaddons:tweakmat>, <betterwithaddons:tweakmat>],
-	300, 10
+	200, 10
 );
 
 TartaricForge.removeRecipe([<minecraft:ice>, <minecraft:snowball>, <minecraft:snowball>, <minecraft:redstone>]);

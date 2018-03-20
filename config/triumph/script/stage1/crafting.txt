@@ -7,6 +7,8 @@ setDescription("Craft a regular table")
 setParent("triumph:stage1/root")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("minecraft:crafting_table")

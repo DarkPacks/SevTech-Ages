@@ -278,6 +278,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterwithmods:aesthetic:12> : [
 		[[<betterwithmods:wicker>, <betterwithmods:wicker>], [<betterwithmods:wicker>, <betterwithmods:wicker>]]
 	],
+	<betterwithmods:material:36> : [
+		[[null, <ore:cordageLeather>, null], [null, <ore:slimeball>, null], [null, <ore:mouldingWood>, null]]
+	],
 	<betterwithmods:ender_spectacles> : [
 		[[null, null, null], [<betterwithmods:material:40>, <ore:cordageLeather>, <betterwithmods:material:40>], [null, null, null]]
 	],
@@ -583,7 +586,122 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:wool:*>, <thebetweenlands:weedwood_jukebox>, <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
+	],
+
+	//Ferdinand's Flowers
+	<ferdinandsflowers:block_dye_glass> * 8: [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:14>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:1> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:1>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:2> * 7 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:1>, <minecraft:glass>],
+			[<minecraft:glass>, <pickletweaks:dye_powder:4>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:3> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:4>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:4> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:5>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:5> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:13>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:6> * 7 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:11>, <minecraft:glass>],
+			[<minecraft:glass>, <pickletweaks:dye_powder:13>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:7> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:9>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:8> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:3>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:9> * 7 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:11>, <minecraft:glass>],
+			[<minecraft:glass>, <pickletweaks:dye_powder:3>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:10> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:11>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:11> * 7 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:11>, <minecraft:glass>],
+			[<minecraft:glass>, <pickletweaks:dye_powder:10>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:12> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:10>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:13> * 7 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:8>, <minecraft:glass>],
+			[<minecraft:glass>, <pickletweaks:dye_powder:10>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:14> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:2>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
+	],
+	<ferdinandsflowers:block_dye_glass:15> * 8 : [
+		[
+			[<minecraft:glass>, <pickletweaks:dye_powder:6>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

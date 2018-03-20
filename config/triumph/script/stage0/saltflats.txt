@@ -23,7 +23,7 @@ criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("primal:salt_dust_rock")
 
 criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
-criteria4.setItem("mekanism:salt")
+criteria5.setItem("mekanism:salt")
 
 //Rewards
 setRewardExperience(4)

@@ -19,6 +19,7 @@ var removeItems as IItemStack[] = [
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
 	<weirdinggadget:weirding_gadget>,
+	<betterwithmods:material:36>,
 
 	//Minecraft
 	<minecraft:acacia_boat>,
@@ -77,7 +78,10 @@ var removeItems as IItemStack[] = [
 	<bloodmagic:experience_tome>,
 	<bloodmagic:lava_crystal>,
 
-	<supersoundmuffler:sound_muffler>
+	<supersoundmuffler:sound_muffler>,
+
+	<ferdinandsflowers:block_dye_glass:*>
+
 ];
 
 for item in removeItems {

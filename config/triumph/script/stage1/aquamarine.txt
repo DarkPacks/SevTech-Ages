@@ -7,6 +7,8 @@ setDescription("Travel to the Beneath Dimension and search the top of the caves 
 setParent("triumph:stage1/beneath")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("brokeLog", "triumph:player_break_block")
 criteria.setBlock("contenttweaker:sub_block_holder_0")

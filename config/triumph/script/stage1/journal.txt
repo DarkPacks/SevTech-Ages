@@ -7,6 +7,8 @@ setDescription("Access the knowledge of the stars by crafting the Astral Sorcery
 setParent("triumph:stage1/parchment")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:itemjournal")

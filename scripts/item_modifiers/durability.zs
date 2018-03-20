@@ -104,6 +104,42 @@ var durabilityArray = {
 	<tcomplement:manyullyn_leggings> : 1275,
 	<tcomplement:manyullyn_boots> : 750,
 
+	<minecraft:diamond_helmet> : 1000,
+	<minecraft:diamond_chestplate> : 1500,
+	<minecraft:diamond_leggings> : 1450,
+	<minecraft:diamond_boots> : 950,
+
+	//Actually Additions
+	<actuallyadditions:item_helm_crystal_red> : 396,
+	<actuallyadditions:item_chest_crystal_red> : 576,
+	<actuallyadditions:item_pants_crystal_red> : 540,
+	<actuallyadditions:item_boots_crystal_red> : 468,
+
+	<actuallyadditions:item_helm_crystal_blue> : 396,
+	<actuallyadditions:item_chest_crystal_blue> : 576,
+	<actuallyadditions:item_pants_crystal_blue> : 540,
+	<actuallyadditions:item_boots_crystal_blue> : 468,
+
+	<actuallyadditions:item_helm_crystal_light_blue> : 770,
+	<actuallyadditions:item_chest_crystal_light_blue> : 1120,
+	<actuallyadditions:item_pants_crystal_light_blue> : 1050,
+	<actuallyadditions:item_boots_crystal_light_blue> : 910,
+
+	<actuallyadditions:item_helm_crystal_black> : 264,
+	<actuallyadditions:item_chest_crystal_black> : 384,
+	<actuallyadditions:item_pants_crystal_black> : 360,
+	<actuallyadditions:item_boots_crystal_black> : 312,
+
+	<actuallyadditions:item_helm_crystal_green> : 1320,
+	<actuallyadditions:item_chest_crystal_green> : 1920,
+	<actuallyadditions:item_pants_crystal_green> : 1800,
+	<actuallyadditions:item_boots_crystal_green> : 1560,
+
+	<actuallyadditions:item_helm_crystal_white> : 396,
+	<actuallyadditions:item_chest_crystal_white> : 576,
+	<actuallyadditions:item_pants_crystal_white> : 540,
+	<actuallyadditions:item_boots_crystal_white> : 468,
+
 	//Better Builder Wands
 	<betterbuilderswands:wandstone> : 650,
 	<betterbuilderswands:wandiron> : 1000,

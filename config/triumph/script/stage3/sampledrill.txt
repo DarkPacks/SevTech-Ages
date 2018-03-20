@@ -7,6 +7,8 @@ setDescription("Use the Core Sample Drill to locate both Ore Veins and Liquid un
 setParent("triumph:stage3/circuitboard")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("immersiveengineering:metal_device1", 7)

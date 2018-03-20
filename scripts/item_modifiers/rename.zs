@@ -22,7 +22,10 @@ var renameArray as string[IItemStack] = {
 	//Space Platinum
 	<extraplanets:kepler22b:14> : "Block of Space Platinum",
 	<extraplanets:tier11_items:5> : "§9Space Platinum Ingot",
-	<extraplanets:tier11_items:6> : "§9Compressed Space Platinum"
+	<extraplanets:tier11_items:6> : "§9Compressed Space Platinum",
+
+	//Chisel & Bits
+	<chiselsandbits:chisel_iron> : "Bit Chisel"
 };
 
 for item in renameArray {

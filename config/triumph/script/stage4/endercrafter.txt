@@ -7,6 +7,8 @@ setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafti
 setParent("triumph:stage4/enderalloy2")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 setRequirements("any")
 
 //Criteria

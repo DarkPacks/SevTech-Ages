@@ -81,6 +81,15 @@ var removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
+	<ferdinandsflowers:block_dye_brick:*>,
+	<ferdinandsflowers:block_dye_brickb:*>,
+	<ferdinandsflowers:block_dye_brick_half:*>,
+	<ferdinandsflowers:block_dye_brick_halfc:*>,
+	<ferdinandsflowers:block_dye_brick_halfb:*>,
+	<ferdinandsflowers:block_dye_brick_halfd:*>,
+	<ferdinandsflowers:flower_dye:*>,
+	<ferdinandsflowers:flower_dyeb:*>,
+	<tconstruct:throwball:1>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

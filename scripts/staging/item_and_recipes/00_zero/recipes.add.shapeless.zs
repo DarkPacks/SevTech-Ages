@@ -36,7 +36,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_shaft>, stick],
-		[<progressiontweaks:broken_spear_tip>, <minecraft:flint>]
+		[<progressiontweaks:broken_spear_tip>, <primal:flint_knapp>]
 	],
 
 	<primal:bark_acacia> : [

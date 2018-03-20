@@ -4,7 +4,7 @@ setIcon("contenttweaker:material_part", 37)
 
 setDescription("Find a surface sample and dig for Platinum! Located Y3 to 25")
 
-setParent("triumph:stage3/oreexcavation")
+setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)
 
 //Criteria

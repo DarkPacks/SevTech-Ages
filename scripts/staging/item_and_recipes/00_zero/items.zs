@@ -5,7 +5,6 @@ import crafttweaker.item.IIngredient;
 var STAGE = STAGES.zero;
 
 var modIDs as string[] = [
-	"ferdinandsflowers"
 ];
 
 for id in modIDs {
@@ -95,6 +94,19 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:tieredenergycontainer>,
 	<abyssalcraft:tieredenergypedestal>,
 	<abyssalcraft:whead>,
+
+	//Ferdinand's Flowers
+	<ferdinandsflowers:block_cff_flowers:*>,
+	<ferdinandsflowers:block_cff_flowersb:*>,
+	<ferdinandsflowers:block_cff_flowersc:*>,
+	<ferdinandsflowers:block_cff_flowersd:*>,
+	<ferdinandsflowers:block_cff_doubles:*>,
+	<ferdinandsflowers:block_cff_doublesc:*>,
+	<ferdinandsflowers:block_cff_desert:*>,
+	<ferdinandsflowers:block_cff_ouch:*>,
+	<ferdinandsflowers:block_cff_doublesd:*>,
+	<ferdinandsflowers:block_cff_doublesb:*>,
+	<ferdinandsflowers:block_cff_dark:*>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,
@@ -561,7 +573,6 @@ var stageZeroItems as IIngredient[] = [
 	<rustic:cohosh>,
 	<rustic:core_root>,
 	<rustic:deathstalk_mushroom>,
-	<rustic:dust_tiny_iron>,
 	<rustic:ginseng>,
 	<rustic:grape_stem>,
 	<rustic:grapes>,
@@ -597,7 +608,6 @@ var stageZeroItems as IIngredient[] = [
 	<rustic:tallow>,
 	<rustic:tomato>,
 	<rustic:tomato_seeds>,
-	<rustic:wildberries>,
 	<rustic:wind_thistle>,
 
 	//Primal Core
@@ -1044,7 +1054,6 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:raw_pastry:3>,
 	<betterwithmods:raw_scrambled_egg>,
 	<betterwithmods:red_sand_pile>,
-	<betterwithmods:rope>,
 	<betterwithmods:sand_pile>,
 	<betterwithmods:shaft>,
 	<betterwithmods:single_machine>,

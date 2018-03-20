@@ -7,6 +7,8 @@ setDescription("Put some wood together to make a chest for your things")
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 setRequirements("any")
 
 //Criteria

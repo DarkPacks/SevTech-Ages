@@ -2,7 +2,7 @@ setTitle("Spooky Boss Battle")
 
 setIcon("totemic:baykok_bow")
 
-setDescription("Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow")
+setDescription("Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow and unlock ranged combat early")
 
 setParent("triumph:stage0/buffalo")
 setRequiresParent(true)

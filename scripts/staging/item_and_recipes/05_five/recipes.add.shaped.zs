@@ -599,7 +599,36 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron>, aeCores.annihilation, <refinedstorage:quartz_enriched_iron>],
 			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
 		]
+	],
+
+	//Diamond Armor
+	<minecraft:diamond_helmet>: [
+		[
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+			[<minecraft:diamond>, null, <minecraft:diamond>]
+		]
+	],
+	<minecraft:diamond_chestplate>: [
+		[
+			[<minecraft:diamond>, null, <minecraft:diamond>],
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+		]
+	],
+	<minecraft:diamond_leggings>: [
+		[
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+			[<minecraft:diamond>, null, <minecraft:diamond>],
+			[<minecraft:diamond>, null, <minecraft:diamond>]
+		]
+	],
+	<minecraft:diamond_boots>: [
+		[
+			[<minecraft:diamond>, null, <minecraft:diamond>],
+			[<minecraft:diamond>, null, <minecraft:diamond>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

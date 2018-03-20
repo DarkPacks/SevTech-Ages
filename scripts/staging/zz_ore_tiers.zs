@@ -260,11 +260,12 @@ var nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:ladder:*>, <minecraft:planks>],
 
 		//Torches
-		[<minecraft:torch>, <primal_tech:fibre_torch>],
-		[<minecraft:torch:1>, <primal_tech:fibre_torch:1>],
-		[<minecraft:torch:2>, <primal_tech:fibre_torch:2>],
-		[<minecraft:torch:3>, <primal_tech:fibre_torch:3>],
-		[<minecraft:torch:4>, <primal_tech:fibre_torch:4>]
+		[<minecraft:torch:0>, <primal_tech:fibre_torch_lit:0>],
+		[<minecraft:torch:1>, <primal_tech:fibre_torch_lit:1>],
+		[<minecraft:torch:2>, <primal_tech:fibre_torch_lit:2>],
+		[<minecraft:torch:3>, <primal_tech:fibre_torch_lit:3>],
+		[<minecraft:torch:4>, <primal_tech:fibre_torch_lit:4>],
+		[<minecraft:torch:5>, <primal_tech:fibre_torch_lit:5>]	
 	],
 
 	STAGES.three : [

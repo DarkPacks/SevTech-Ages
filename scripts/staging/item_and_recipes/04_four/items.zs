@@ -1150,7 +1150,9 @@ var stage4Items as IIngredient[] = [
 
 	//Blood Magic
 	<bloodmagic:component:2>,
-	<bloodmagic:sigil_air>
+	<bloodmagic:sigil_air>,
+
+	<poweradapters:mj>
 ];
 
 for item in stage4Items {

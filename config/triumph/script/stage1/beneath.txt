@@ -7,6 +7,8 @@ setDescription("Enter the Beneath Dimension")
 setParent("triumph:stage1/statue")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("The Beneath")

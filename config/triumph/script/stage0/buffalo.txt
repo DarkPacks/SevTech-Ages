@@ -2,7 +2,7 @@ setTitle("Ancient Animals")
 
 setIcon("totemic:buffalo_items")
 
-setDescription("Buffalo provide valuable resources to hunters")
+setDescription("Buffalo provide valuable resources to hunters. Collect their Hide and Teeth")
 
 setParent("triumph:stage0/totemic")
 setRequiresParent(true)

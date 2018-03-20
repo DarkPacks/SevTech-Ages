@@ -7,6 +7,8 @@ setDescription("Use a log to craft a Chopping Block. Place a Log or Plank on the
 setParent("triumph:stage0/firstbreak")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 criteria.setItem("horsepower:chopping_block")

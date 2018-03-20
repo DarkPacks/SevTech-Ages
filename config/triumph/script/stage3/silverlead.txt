@@ -4,7 +4,7 @@ setIcon("immersiveengineering:metal", 2)
 
 setDescription("Find a surface sample and dig for Galena! Located Y16 to 50")
 
-setParent("triumph:stage3/oreexcavation")
+setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)
 
 setRequirements("any")

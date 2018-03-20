@@ -7,6 +7,8 @@ setDescription("Find a surface sample and dig for copper! Located Y12 to 45 and 
 setParent("triumph:stage1/plumbline")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 setRequirements("any")
 
 //Criteria

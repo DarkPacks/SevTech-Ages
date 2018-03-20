@@ -76,7 +76,8 @@ var removeItems as IItemStack[] = [
 
 	//Chisel & Bits
 	<chiselsandbits:bittank>,
-
+	<chiselsandbits:chisel_iron>,
+	
 	<huntingdim:frame>
 ];
 

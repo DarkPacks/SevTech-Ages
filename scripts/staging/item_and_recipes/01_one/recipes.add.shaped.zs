@@ -390,9 +390,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterwithmods:breeding_harness> : [
 		[[<ore:cordageLeather>, leather, <ore:cordageLeather>], [leather, leather, leather], [<ore:cordageLeather>, leather, <ore:cordageLeather>]]
 	],
-	<betterwithmods:material:36> : [
-		[[null, <ore:cordageLeather>, null], [null, <ore:slimeball>, null], [null, <ore:mouldingWood>, null]]
-	],
 	<betterwithmods:material> : [
 		[[stick, plank, stick], [plank, <betterwithmods:material:12>, plank], [stick, plank, stick]]
 	],
@@ -578,6 +575,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
 			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:6>, <abyssalcraft:shoggothflesh>],
 			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+		]
+	],
+
+	//Chisel and Bits
+	<chiselsandbits:chisel_iron> : [
+		[
+			[null, null, null],
+			[stick, metals.tin.ingot, null],
+			[null, null, null]
 		]
 	]
 };

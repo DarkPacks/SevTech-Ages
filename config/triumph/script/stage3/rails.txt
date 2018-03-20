@@ -1,6 +1,6 @@
 setTitle("Railways")
 
-setIcon("minecraft:cobblestone")
+setIcon("minecraft:rail")
 
 setDescription("Craft and use Rails to travel long distances quickly")
 

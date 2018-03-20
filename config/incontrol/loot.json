@@ -114,6 +114,10 @@
     "random": 0.50
   },
   {
+    "mob": "primal:shark_hammerhead",
+    "remove": "primal:shark_fin"
+  },
+  {
     "mob": "emberroot:enderminy",
     "remove": "minecraft:ender_eye"
   },

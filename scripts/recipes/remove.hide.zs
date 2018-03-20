@@ -470,7 +470,7 @@ var hideItems as IItemStack[] = [
 	<tconstruct:slime_vine_purple_end>,
 	<tconstruct:slime_vine_purple_mid>,
 	<tconstruct:spaghetti>,
-	<tconstruct:throwball:1>,
+	<rustic:dust_tiny_iron>,
 
 	//Hide In-progress AE Crystal seeds
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),

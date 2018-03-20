@@ -1298,7 +1298,17 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>],
 			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
+	],
+
+	//Power Adapters
+	<poweradapters:mj> : [
+		[
+			[<pneumaticcraft:ingot_iron_compressed>, <buildcrafttransport:pipe_gold_power>, <pneumaticcraft:ingot_iron_compressed>],
+			[<immersiveengineering:connector:4>, <immersiveengineering:metal_device1:2>, <immersiveengineering:connector:4>],
+			[<pneumaticcraft:ingot_iron_compressed> , <buildcrafttransport:pipe_gold_power>, <pneumaticcraft:ingot_iron_compressed>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

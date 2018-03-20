@@ -7,6 +7,8 @@ setDescription("Is your current Wooden Hopper not cutting it? Craft a Wopper Mk2
 setParent("triumph:stage0/woodhopper1")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("primal_tech:wooden_hopper")

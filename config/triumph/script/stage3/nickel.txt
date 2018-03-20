@@ -4,7 +4,7 @@ setIcon("immersiveengineering:metal", 4)
 
 setDescription("Find a surface sample and dig for Limonite! Located Y6 to 32")
 
-setParent("triumph:stage3/oreexcavation")
+setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)
 
 //Criteria

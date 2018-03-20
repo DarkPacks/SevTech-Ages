@@ -7,6 +7,8 @@ setDescription("Begin keeping records of your knowledge on Parchment. It require
 setParent("triumph:stage1/aquamarine")
 setRequiresParent(true)
 
+setFrameType("Goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:itemcraftingcomponent", 5)

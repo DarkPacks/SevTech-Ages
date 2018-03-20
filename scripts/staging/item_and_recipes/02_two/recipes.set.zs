@@ -190,10 +190,10 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:skin:2>,
 
 	//Ferdinand's Flowers
+	<ferdinandsflowers:block_birthday>,
+	<ferdinandsflowers:block_dye_glass:*>,
 	<ferdinandsflowers:block_metal_light>,
 	<ferdinandsflowers:block_stonebrick_light>,
-	<ferdinandsflowers:block_dye_glass:*>,
-	<ferdinandsflowers:block_birthday>,
 
 	//Better With Mods
 	<betterwithaddons:artifact_frame>,

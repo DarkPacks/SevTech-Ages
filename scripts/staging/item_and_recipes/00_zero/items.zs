@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 
 var STAGE = STAGES.zero;
 
+/*
 var modIDs as string[] = [
 ];
 
@@ -12,6 +13,7 @@ for id in modIDs {
 		mods.ItemStages.addItemStage(STAGE, item);
 	}
 }
+*/
 
 var stageZeroItems as IIngredient[] = [
 	<ore:blockCharcoal>,
@@ -96,17 +98,17 @@ var stageZeroItems as IIngredient[] = [
 	<abyssalcraft:whead>,
 
 	//Ferdinand's Flowers
+	<ferdinandsflowers:block_cff_dark:*>,
+	<ferdinandsflowers:block_cff_desert:*>,
+	<ferdinandsflowers:block_cff_doubles:*>,
+	<ferdinandsflowers:block_cff_doublesb:*>,
+	<ferdinandsflowers:block_cff_doublesc:*>,
+	<ferdinandsflowers:block_cff_doublesd:*>,
 	<ferdinandsflowers:block_cff_flowers:*>,
 	<ferdinandsflowers:block_cff_flowersb:*>,
 	<ferdinandsflowers:block_cff_flowersc:*>,
 	<ferdinandsflowers:block_cff_flowersd:*>,
-	<ferdinandsflowers:block_cff_doubles:*>,
-	<ferdinandsflowers:block_cff_doublesc:*>,
-	<ferdinandsflowers:block_cff_desert:*>,
 	<ferdinandsflowers:block_cff_ouch:*>,
-	<ferdinandsflowers:block_cff_doublesd:*>,
-	<ferdinandsflowers:block_cff_doublesb:*>,
-	<ferdinandsflowers:block_cff_dark:*>,
 
 	//Mortars
 	<advancedmortars:mortar:1>,

@@ -10,16 +10,18 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandiron>,
 	<betterwithaddons:redstone_emitter>,
 	<betterwithmods:aesthetic:12>,
+	<betterwithmods:material:36>,
+	<ferdinandsflowers:block_dye_glass:*>,
 	<ironbackpacks:backpack>,
 	<pickletweaks:watering_can>,
 	<prospectors:prospector_low>,
 	<stevescarts:cartmodule>,
 	<storagedrawers:upgrade_storage>,
 	<storagedrawers:upgrade_template>,
+	<supersoundmuffler:sound_muffler>,
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
 	<weirdinggadget:weirding_gadget>,
-	<betterwithmods:material:36>,
 
 	//Minecraft
 	<minecraft:acacia_boat>,
@@ -76,12 +78,7 @@ var removeItems as IItemStack[] = [
 
 	//Blood Magic
 	<bloodmagic:experience_tome>,
-	<bloodmagic:lava_crystal>,
-
-	<supersoundmuffler:sound_muffler>,
-
-	<ferdinandsflowers:block_dye_glass:*>
-
+	<bloodmagic:lava_crystal>
 ];
 
 for item in removeItems {

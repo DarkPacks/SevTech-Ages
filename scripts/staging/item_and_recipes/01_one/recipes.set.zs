@@ -208,13 +208,13 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:apple>,
 
 	//Ferdinand's Flowers
-	<ferdinandsflowers:block_stone_light>,
 	<ferdinandsflowers:block_cobble_light>,
 	<ferdinandsflowers:block_dirt_light>,
+	<ferdinandsflowers:block_gravel_light>,
 	<ferdinandsflowers:block_log_light>,
 	<ferdinandsflowers:block_plank_light>,
 	<ferdinandsflowers:block_sand_light>,
-	<ferdinandsflowers:block_gravel_light>,
+	<ferdinandsflowers:block_stone_light>,
 
 	//Quark
 	<quark:acacia_trapdoor>,

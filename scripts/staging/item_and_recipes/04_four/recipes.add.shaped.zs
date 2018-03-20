@@ -1308,7 +1308,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<pneumaticcraft:ingot_iron_compressed> , <buildcrafttransport:pipe_gold_power>, <pneumaticcraft:ingot_iron_compressed>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

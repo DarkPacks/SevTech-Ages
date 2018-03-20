@@ -240,7 +240,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<rftools:dimensional_shard_ore>, <minecraft:magma>],
 		[<rftools:dimensional_shard_ore:1>, <minecraft:glowstone>],
 		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone>]
-  	]
+	]
 };
 
 for stage, itemReplacementPairs in replacementItemsForStage {
@@ -265,7 +265,7 @@ var nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:torch:2>, <primal_tech:fibre_torch_lit:2>],
 		[<minecraft:torch:3>, <primal_tech:fibre_torch_lit:3>],
 		[<minecraft:torch:4>, <primal_tech:fibre_torch_lit:4>],
-		[<minecraft:torch:5>, <primal_tech:fibre_torch_lit:5>]	
+		[<minecraft:torch:5>, <primal_tech:fibre_torch_lit:5>]
 	],
 
 	STAGES.three : [

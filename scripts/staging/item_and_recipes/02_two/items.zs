@@ -59,6 +59,7 @@ var stage2Items as IIngredient[] = [
 
 	//Iron Stuff
 	<betterbuilderswands:wandiron>,
+	<minecraft:flint_and_steel>,
 	<minecraft:iron_axe>,
 	<minecraft:iron_bars>,
 	<minecraft:iron_boots>,
@@ -73,7 +74,6 @@ var stage2Items as IIngredient[] = [
 	<minecraft:iron_sword>,
 	<minecraft:iron_trapdoor>,
 	<quark:iron_ladder>,
-	<minecraft:flint_and_steel>,
 
 	//Gold Stuff
 	<betterwithaddons:gold_carpentersaw>,
@@ -335,10 +335,10 @@ var stage2Items as IIngredient[] = [
 	<minecraft:written_book>,
 
 	//Ferdinand's Flowers
+	<ferdinandsflowers:block_birthday>,
+	<ferdinandsflowers:block_dye_glass:*>,
 	<ferdinandsflowers:block_metal_light>,
 	<ferdinandsflowers:block_stonebrick_light>,
-	<ferdinandsflowers:block_dye_glass:*>,
-	<ferdinandsflowers:block_birthday>,
 
 	//Geolosys
 	<geolosys:cluster:1>,

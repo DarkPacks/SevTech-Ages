@@ -628,7 +628,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:diamond>, null, <minecraft:diamond>]
 		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

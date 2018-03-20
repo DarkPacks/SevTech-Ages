@@ -10,7 +10,7 @@ var metalStages as string[string] = {
 	aluminum: "three",
 	aluminumBrass: "three",
 	ardite: "four",
-	blackIron: "three",
+	blackIron: "two",
 	bronze: "one",
 	cobalt: "three",
 	compressedIron: "four",

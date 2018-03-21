@@ -169,7 +169,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [
-		[[<minecraft:leather>, <primal:plant_cloth>, null], [<minecraft:leather>, <primal:plant_cloth>, null], [<minecraft:leather>, <primal:plant_cloth>, null]]
+		[
+			[<minecraft:leather>, <primal:plant_cloth>, null],
+			[<minecraft:leather>, <primal:plant_cloth>, null],
+			[<minecraft:leather>, <primal:plant_cloth>, null]
+		]
 	],
 
 	//Abyssalcraft for Stage1

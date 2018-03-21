@@ -39,15 +39,12 @@ TableCrafting.addShaped(<vc:airship_balloon>, [
 	[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>]
 ]);
 
-//advanced mapping stage unlock recipe
-
+//Advanced mapping stage unlock recipe
 TableCrafting.addShaped(<natura:redwood_button>, [
-	[<twilightforest:magic_map_focus>, <thebetweenlands:ring_of_flight>, <twilightforest:alpha_fur>], 
-	[<twilightforest:magic_map_empty>, <twilightforest:maze_map_focus>, <minecraft:map>], 
+	[<twilightforest:magic_map_focus>, <thebetweenlands:ring_of_flight>, <twilightforest:alpha_fur>],
+	[<twilightforest:magic_map_empty>, <twilightforest:maze_map_focus>, <minecraft:map>],
 	[<twilightforest:charm_of_keeping_3>, <twilightforest:castle_brick:3>, <twilightforest:charm_of_keeping_3>]
 ]);
-
-
 
 //Stage 4 Machine Frame
 TableCrafting.addShaped(<teslacorelib:machine_case>, [

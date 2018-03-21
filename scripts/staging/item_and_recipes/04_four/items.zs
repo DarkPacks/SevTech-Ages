@@ -5,13 +5,13 @@ import crafttweaker.item.IIngredient;
 var STAGE = STAGES.four;
 
 var modIDs as string[] = [
-	"simplegenerators",
 	"advgenerators",
 	"cookingforblockheads",
 	"elevatorid",
 	"indlog",
 	"integrateddynamics",
 	"modularrouters",
+	"simplegenerators",
 	"storagenetwork"
 ];
 

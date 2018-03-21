@@ -534,11 +534,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Antique Atlas
-	<antiqueatlas:empty_antique_atlas> : [
-		[[<minecraft:leather>, <minecraft:paper>, null], [<minecraft:leather>, <minecraft:map>, null], [<minecraft:leather>, <minecraft:paper>, null]]
-	],
-
 	//Abyssalcraft
 	<abyssalcraft:gatewaykey> : [
 		[
@@ -700,7 +695,26 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
 			[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]
 		]
+	],
+
+	//Extended Crafting
+	<extendedcrafting:table_basic>: [
+		[
+			[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
+			[<minecraft:crafting_table>, metals.iron.block, <minecraft:crafting_table>],
+			[<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
+		]
+	],
+	<extendedcrafting:material:14> : [
+		[
+			[metals.iron.rod, metals.iron.rod],
+			[<extendedcrafting:material:2>, <astralsorcery:itemcraftingcomponent:2>]
+		]
 	]
+
+
+
+
 };
 
 for item, recipesForItem in shapedRecipes {

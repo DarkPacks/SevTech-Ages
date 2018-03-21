@@ -16,3 +16,4 @@ criteria.setItem("industrialforegoing:plastic")
 //Rewards
 setRewardExperience(16)
 setRewardFunction("triumph:stage-4_trigger")
+setRewardFunction("triumph:advanced_mapping")

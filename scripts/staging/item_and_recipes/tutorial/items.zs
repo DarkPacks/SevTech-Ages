@@ -117,7 +117,6 @@ var stageTutorialItems as IIngredient[] = [
 	<rustic:sapling>,
 	<rustic:sapling_apple>,
 	<rustic:slate>,
-	<rustic:wildberries>
 	<rustic:wildberries>,
 	<rustic:wildberry_bush>,
 	<tombmanygraves:death_list>,

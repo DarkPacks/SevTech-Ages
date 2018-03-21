@@ -6,6 +6,8 @@ var STAGE = STAGES.four;
 
 //Entire Mods into Stage four
 var modIDs as string[] = [
+	"simplegenerators",
+	"advgenerators",
 	"car",
 	"cookingforblockheads",
 	"elevatorid",
@@ -424,13 +426,7 @@ var itemsForStage as IIngredient[] = [
 	<buildcraftfactory:gel>,
 	<buildcraftfactory:heat_exchange>,
 	<buildcraftfactory:mining_well>,
-	<buildcraftfactory:pump>,
 	<buildcraftrobotics:zone_planner>,
-	<buildcraftsilicon:redstone_chipset:1>,
-	<buildcraftsilicon:redstone_chipset:2>,
-	<buildcraftsilicon:redstone_chipset:3>,
-	<buildcraftsilicon:redstone_chipset:4>,
-	<buildcraftsilicon:redstone_chipset>,
 	<buildcrafttransport:filtered_buffer>,
 	<buildcrafttransport:pipe_cobble_power>,
 	<buildcrafttransport:pipe_gold_fluid>,

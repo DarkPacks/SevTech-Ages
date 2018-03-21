@@ -8,5 +8,5 @@ setParent("triumph:stage3/nether")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("brokeLog", "triumph:player_break_block")
-criteria.setBlock("nex:item_crystal_amethyst")
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("nex:item_crystal_amethyst", 0)

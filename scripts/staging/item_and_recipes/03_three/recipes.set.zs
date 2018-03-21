@@ -529,14 +529,11 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:lamp:1>,
 	<extendedcrafting:lamp>,
 	<extendedcrafting:material:7>,
-	<extendedcrafting:material:8>,
 	<extendedcrafting:material:9>,
-	<extendedcrafting:material:14>,
 	<extendedcrafting:material:15>,
 	<extendedcrafting:pedestal>,
 	<extendedcrafting:storage:1>,
 	<extendedcrafting:table_advanced>,
-	<extendedcrafting:table_basic>,
 	<extendedcrafting:trimmed:1>,
 	<extendedcrafting:trimmed>,
 
@@ -837,6 +834,7 @@ var itemsForStage as IIngredient[] = [
 
 	//Chisel
 	<chisel:auto_chisel>,
+	<chisel:futura:*>,
 
 	//Blood Magic
 	<bloodmagic:alchemy_table>,

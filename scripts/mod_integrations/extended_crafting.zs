@@ -39,6 +39,16 @@ TableCrafting.addShaped(<vc:airship_balloon>, [
 	[<betterwithmods:rope>, <minecraft:string>, <betterwithmods:material:4>, <minecraft:string>, <betterwithmods:rope>]
 ]);
 
+//advanced mapping stage unlock recipe
+
+TableCrafting.addShaped(<natura:redwood_button>, [
+	[<twilightforest:magic_map_focus>, <thebetweenlands:ring_of_flight>, <twilightforest:alpha_fur>], 
+	[<twilightforest:magic_map_empty>, <twilightforest:maze_map_focus>, <minecraft:map>], 
+	[<twilightforest:charm_of_keeping_3>, <twilightforest:castle_brick:3>, <twilightforest:charm_of_keeping_3>]
+]);
+
+
+
 //Stage 4 Machine Frame
 TableCrafting.addShaped(<teslacorelib:machine_case>, [
 	[metals.compressedIron.plate, plastic, plastic, plastic, metals.compressedIron.plate],
@@ -53,7 +63,7 @@ TableCrafting.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
 	[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
 	[metals.compressedIron.plate, <quark:biotite>, <minecraft:obsidian>, <appliedenergistics2:material:18>, <minecraft:obsidian>, <quark:biotite>, metals.compressedIron.plate],
 	[metals.compressedIron.plate, <minecraft:dye:4>, metals.redstoneAlloy.plate, <galacticraftplanets:item_basic_mars:5>, metals.redstoneAlloy.plate, <minecraft:ice>, metals.compressedIron.plate],
-	[<actuallyadditions:item_battery_triple>, <minecraft:lapis_block>, <appliedenergistics2:material:16>, <teslacorelib:machine_case>, <appliedenergistics2:material:1>, <buildcraftsilicon:laser>, <minecraft:emerald>],
+	[<actuallyadditions:item_battery_triple>, <minecraft:lapis_block>, <appliedenergistics2:material:16>, <teslacorelib:machine_case>, <appliedenergistics2:material:1>, <environmentaltech:laser_core>, <minecraft:emerald>],
 	[metals.compressedIron.plate, <minecraft:dye:4>, metals.redstoneAlloy.plate, <galacticraftplanets:item_basic_mars:5>, metals.redstoneAlloy.plate, <minecraft:ice>, metals.compressedIron.plate],
 	[metals.compressedIron.plate, <quark:biotite>, <minecraft:obsidian>, <appliedenergistics2:material:17>, <minecraft:obsidian>, <quark:biotite>, metals.compressedIron.plate],
 	[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
@@ -156,12 +166,7 @@ EnderCrafting.addShaped(<galacticraftcore:rocket_workbench>, [
 //[<firstOutput>, <firstInput>]
 var compressionCraftingPairs = [
 	[<overloaded:compressed_cobblestone>, <minecraft:cobblestone>],
-	[<overloaded:compressed_obsidian>, <minecraft:obsidian>],
-	[<overloaded:compressed_dirt>, <minecraft:dirt>],
-	[<overloaded:compressed_gravel>, <minecraft:gravel>],
-	[<overloaded:compressed_stone>, <minecraft:stone>],
-	[<overloaded:compressed_sand>, <minecraft:sand>],
-	[<overloaded:compressed_netherrack>, <minecraft:netherrack>]
+	[<overloaded:compressed_obsidian>, <minecraft:obsidian>]
 ] as IItemStack[][];
 
 var rfRates = [

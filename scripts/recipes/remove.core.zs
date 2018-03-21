@@ -39,15 +39,7 @@ recipes.remove(<ore:stickWood>);
 //Compressed
 recipes.removeShapeless(<minecraft:cobblestone>, [<overloaded:compressed_cobblestone>]);
 recipes.removeShapeless(<minecraft:obsidian>, [<overloaded:compressed_obsidian>]);
-recipes.removeShapeless(<minecraft:dirt>, [<overloaded:compressed_dirt>]);
-recipes.removeShapeless(<minecraft:gravel>, [<overloaded:compressed_gravel>]);
-recipes.removeShapeless(<minecraft:stone>, [<overloaded:compressed_stone>]);
-recipes.removeShapeless(<minecraft:sand>, [<overloaded:compressed_sand>]);
-recipes.removeShapeless(<minecraft:netherrack>, [<overloaded:compressed_netherrack>]);
 recipes.remove(<overloaded:compressed_cobblestone:*>);
-recipes.remove(<overloaded:compressed_sand:*>);
-recipes.remove(<overloaded:compressed_dirt:*>);
-recipes.remove(<overloaded:compressed_gravel:*>);
 
 //Industrial Foregoing TBD
 mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:*>);

@@ -549,10 +549,6 @@ var itemsForStage as IIngredient[] = [
 	<refinedstorageaddons:wireless_crafting_grid:1>,
 
 	//Buildcraft
-	<buildcraftsilicon:advanced_crafting_table>,
-	<buildcraftsilicon:assembly_table>,
-	<buildcraftsilicon:integration_table>,
-	<buildcraftsilicon:laser>,
 	<buildcrafttransport:pipe_daizuli_item>,
 	<buildcrafttransport:pipe_diamond_fluid>,
 	<buildcrafttransport:pipe_diamond_item>,

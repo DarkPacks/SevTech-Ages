@@ -1,5 +1,7 @@
-Welcome to SevTech!
+§9Welcome to SevTech!
 
-Open the Advancements to find out how to progress.
+§4Open the Advancements to find out how to progress.
 
-WAILA and a Map are not available from the beginning. You must unlock them.
+§6WAILA and a Map are not available from the beginning. You must unlock them.
+
+§9For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.

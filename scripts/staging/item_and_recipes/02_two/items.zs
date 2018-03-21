@@ -267,6 +267,9 @@ var stage2Items as IIngredient[] = [
 	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]}),
 	<minecraft:enchanted_book>,
 
+	//Advanced Mapping Unlock Item
+	<natura:redwood_button>,
+
 	/*
 		Items by mod
 	*/
@@ -333,6 +336,11 @@ var stage2Items as IIngredient[] = [
 	<minecraft:wool:*>,
 	<minecraft:writable_book>,
 	<minecraft:written_book>,
+
+	//Extended Crafting
+	<extendedcrafting:material:8>,
+	<extendedcrafting:material:14>,
+	<extendedcrafting:table_basic>,
 
 	//Ferdinand's Flowers
 	<ferdinandsflowers:block_birthday>,

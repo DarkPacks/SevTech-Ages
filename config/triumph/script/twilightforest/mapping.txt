@@ -1,0 +1,12 @@
+setTitle("Advanced Mapping")
+
+setIcon("minecraft:stick")
+
+setDescription("Choose your path to Applied Energistics, Refined Storage, or both!")
+
+setParent("twilightforest/progress_troll")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:stick")

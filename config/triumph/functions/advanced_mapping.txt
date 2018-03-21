@@ -1,0 +1,2 @@
+gamestage add @p mapping
+say You have learned Advanced Mapping

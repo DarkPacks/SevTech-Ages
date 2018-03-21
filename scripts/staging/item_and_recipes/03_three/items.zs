@@ -785,14 +785,11 @@ var stage3Items as IIngredient[] = [
 	<extendedcrafting:lamp:1>,
 	<extendedcrafting:lamp>,
 	<extendedcrafting:material:7>,
-	<extendedcrafting:material:8>,
 	<extendedcrafting:material:9>,
-	<extendedcrafting:material:14>,
 	<extendedcrafting:material:15>,
 	<extendedcrafting:pedestal>,
 	<extendedcrafting:storage:1>,
 	<extendedcrafting:table_advanced>,
-	<extendedcrafting:table_basic>,
 	<extendedcrafting:trimmed:1>,
 	<extendedcrafting:trimmed>,
 
@@ -1297,10 +1294,6 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:transmutator>,
 	<abyssalcraft:yogsothothcharm:2>,
 	<abyssalcraft:yogsothothcharm:3>,
-
-	//Compressed
-	<overloaded:compressed_netherrack:*>,
-	<overloaded:compressed_obsidian:*>,
 
 	//Spartan Shields
 	<spartanshields:shield_basic_electrum>,

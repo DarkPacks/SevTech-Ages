@@ -140,3 +140,10 @@
 <primal:diamond_workblade>.addTooltip(format.red("Can not be repaired"));
 
 <waterstrainer:garden_trowel>.addTooltip(format.red("Repaired with Flint"));
+
+<betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Right click with two"));
+<betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Wooden Gears in hand to Repair"));
+<betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Or craft back into a repaired block"));
+
+<natura:redwood_button>.addTooltip(format.red("Crafting this item will"));
+<natura:redwood_button>.addTooltip(format.red("unlock Advanced Mapping"));

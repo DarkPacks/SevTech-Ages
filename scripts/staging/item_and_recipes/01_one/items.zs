@@ -978,13 +978,6 @@ var stage1Items as IIngredient[] = [
 	<cyclicmagic:tool_harvest_weeds>,
 	<guideapi:cyclicmagic-guide>,
 
-	//Compressed
-	<overloaded:compressed_cobblestone:*>,
-	<overloaded:compressed_dirt:*>,
-	<overloaded:compressed_gravel:*>,
-	<overloaded:compressed_sand:*>,
-	<overloaded:compressed_stone:*>,
-
 	//Quark
 	<quark:acacia_trapdoor>,
 	<quark:birch_trapdoor>,

@@ -152,6 +152,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>],
 			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
 			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]
+		],
+		[
+			[null, <betterwithmods:material>, null],
+			[null, <betterwithmods:wooden_broken_gearbox>, null],
+			[null, <betterwithmods:material>, null]
 		]
 	],
 	<betterwithaddons:spindle> : [
@@ -160,6 +165,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[stick],
 			[stick]
 		]
+	],
+
+	//Antique Atlas
+	<antiqueatlas:empty_antique_atlas> : [
+		[[<minecraft:leather>, <primal:plant_cloth>, null], [<minecraft:leather>, <primal:plant_cloth>, null], [<minecraft:leather>, <primal:plant_cloth>, null]]
 	],
 
 	//Abyssalcraft for Stage1

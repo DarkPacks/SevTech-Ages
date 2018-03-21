@@ -654,7 +654,6 @@ mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_warp_home>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:inventory_food>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:heart_food>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:apple_emerald>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:glowing_chorus>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:builder_pattern>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:charm_boat>);
 mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_warp_spawn>);

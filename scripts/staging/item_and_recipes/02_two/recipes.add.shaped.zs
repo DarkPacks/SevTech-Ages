@@ -711,10 +711,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<extendedcrafting:material:2>, <astralsorcery:itemcraftingcomponent:2>]
 		]
 	]
-
-
-
-
 };
 
 for item, recipesForItem in shapedRecipes {

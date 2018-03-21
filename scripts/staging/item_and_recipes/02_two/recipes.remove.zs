@@ -80,8 +80,9 @@ var removeItems as IItemStack[] = [
 	<bloodmagic:experience_tome>,
 	<bloodmagic:lava_crystal>,
 
-	<extendedcrafting:table_basic>,
-	<extendedcrafting:material:14>
+	//Extended Crafting
+	<extendedcrafting:material:14>,
+	<extendedcrafting:table_basic>
 ];
 
 for item in removeItems {

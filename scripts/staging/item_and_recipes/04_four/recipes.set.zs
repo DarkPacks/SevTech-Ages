@@ -6,7 +6,6 @@ var STAGE = STAGES.four;
 
 //Entire Mods into Stage four
 var modIDs as string[] = [
-	"simplegenerators",
 	"advgenerators",
 	"car",
 	"cookingforblockheads",
@@ -16,6 +15,7 @@ var modIDs as string[] = [
 	"integrateddynamics",
 	"modularrouters",
 	"refinedstorage",
+	"simplegenerators",
 	"storagenetwork"
 ];
 

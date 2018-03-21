@@ -1062,13 +1062,6 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:web_torch>,
 
 	//Extra Planets
-	<extraplanets:zinc_battery>,
-	<extraplanets:mercury_gravel>,
-	<extraplanets:kepler22b_flowers:1>,
-	<extraplanets:kepler22b_flowers:2>,
-	<extraplanets:kepler22b_flowers:3>,
-	<extraplanets:kepler22b_flowers:4>,
-	<extraplanets:kepler22b_flowers:5>,
 	<extraplanets:advanced_battery>,
 	<extraplanets:advanced_fuel_loader>,
 	<extraplanets:advanced_launch_pad:1>,
@@ -1333,6 +1326,11 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:kepler22b:14>,
 	<extraplanets:kepler22b>,
 	<extraplanets:kepler22b_blue_grass>,
+	<extraplanets:kepler22b_flowers:1>,
+	<extraplanets:kepler22b_flowers:2>,
+	<extraplanets:kepler22b_flowers:3>,
+	<extraplanets:kepler22b_flowers:4>,
+	<extraplanets:kepler22b_flowers:5>,
 	<extraplanets:kepler22b_flowers>,
 	<extraplanets:kepler22b_grass>,
 	<extraplanets:kepler22b_infected_grass>,
@@ -1372,6 +1370,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:mercury:11>,
 	<extraplanets:mercury>,
 	<extraplanets:mercury_battery>,
+	<extraplanets:mercury_gravel>,
 	<extraplanets:mercury_spawner>,
 	<extraplanets:mercury_stairs_stone>,
 	<extraplanets:mercury_stairs_stone_bricks>,
@@ -1768,6 +1767,7 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:yellow_diamond_pickaxe>,
 	<extraplanets:yellow_diamond_shovel>,
 	<extraplanets:yellow_diamond_sword>,
+	<extraplanets:zinc_battery>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,
@@ -1978,10 +1978,9 @@ var stage5Items as IIngredient[] = [
 	<rebornstorage:storagepart:7>,
 	<rebornstorage:storagepart>,
 
-	//Overloaded 
+	//Overloaded
 	<overloaded:compressed_cobblestone:*>,
 	<overloaded:compressed_obsidian:*>
-
 ];
 
 for item in stage5Items {

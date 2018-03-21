@@ -65,9 +65,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
 		]
 	],
-	<betterwithaddons:spindle> : [
-		[[stick], [stick], [stick]]
-	],
 	<betterwithmods:material> : [
 		[
 			[<totemic:buffalo_items:1>, <totemic:cedar_plank>, <totemic:buffalo_items:1>],
@@ -495,7 +492,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:stone>, null]
 		]
 	],
-	
+
 	//Totemic
 	<totemic:eagle_bone_whistle> : [
 		[

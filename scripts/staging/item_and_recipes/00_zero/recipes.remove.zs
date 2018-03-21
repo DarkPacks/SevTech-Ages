@@ -8,7 +8,6 @@ var removeItems as IItemStack[] = [
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:6>,
-	<betterwithaddons:spindle>,
 	<betterwithmods:material>,
 	<betterwithmods:shaft>,
 	<betterwithmods:wicker>,

@@ -10,8 +10,6 @@ var modIDs as string[] = [
 	"ironjetpacks",
 	"mysticalagradditions",
 	"mysticalagriculture",
-	"overloaded",
-	"quantumstorage",
 	"rftools",
 	"rftoolscontrol",
 	"scannable"
@@ -1075,7 +1073,6 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:apple_diamond:1>,
 	<extraplanets:apple_diamond>,
 	<extraplanets:apple_iron:1>,
-	<extraplanets:apple_iron>,
 	<extraplanets:ash_rock>,
 	<extraplanets:basic_chemical_injector>,
 	<extraplanets:basic_crystallizer>,
@@ -1980,7 +1977,38 @@ var stage5Items as IIngredient[] = [
 
 	//Overloaded
 	<overloaded:compressed_cobblestone:*>,
-	<overloaded:compressed_obsidian:*>
+	<overloaded:compressed_obsidian:*>,
+	<overloaded:creative_generator>,
+	<overloaded:infinite_barrel>,
+	<overloaded:infinite_tank>,
+	<overloaded:infinite_capacitor>,
+	<overloaded:hyper_item_receiver>,
+	<overloaded:hyper_item_sender>,
+	<overloaded:hyper_fluid_receiver>,
+	<overloaded:hyper_fluid_sender>,
+	<overloaded:hyper_energy_receiver>,
+	<overloaded:hyper_energy_sender>,
+	<overloaded:infinite_water_source>,
+	<overloaded:energy_extractor>,
+	<overloaded:player_interface>,
+	<overloaded:item_interface>,
+	<overloaded:linking_card>,
+	<overloaded:multi_tool>,
+
+	//Quantum Storage
+	<quantumstorage:quantum_tank>,
+	<quantumstorage:quantum_barrel>,
+	<quantumstorage:crater>,
+	<quantumstorage:quantum_storage_unit>,
+	<quantumstorage:quantumcrafter>,
+	<quantumstorage:trashcan>,
+	<quantumstorage:trashcanfluid>,
+	<quantumstorage:quantumstoragedisk>,
+	<quantumstorage:quantumstoragediskfluid>,
+	<quantumstorage:crate>,
+	<quantumstorage:upgrade>,
+	<quantumstorage:upgrade:1>
+
 ];
 
 for item in stage5Items {

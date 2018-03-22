@@ -6,7 +6,6 @@ var STAGE = STAGES.four;
 
 var modIDs as string[] = [
 	"advgenerators",
-	"cookingforblockheads",
 	"elevatorid",
 	"indlog",
 	"integrateddynamics",
@@ -499,6 +498,21 @@ var stage4Items as IIngredient[] = [
 	<car:wheel>,
 	<car:windshield>,
 	<car:wrench>,
+
+	//Cooking for Blockheads
+	<cookingforblockheads:cooking_table>,
+	<cookingforblockheads:oven>,
+	<cookingforblockheads:fridge>,
+	<cookingforblockheads:sink>,
+	<cookingforblockheads:tool_rack>,
+	<cookingforblockheads:toaster>,
+	<cookingforblockheads:spice_rack>,
+	<cookingforblockheads:counter>,
+	<cookingforblockheads:corner>,
+	<cookingforblockheads:kitchen_floor>,
+	<cookingforblockheads:recipe_book>,
+	<cookingforblockheads:recipe_book:1>,
+	<cookingforblockheads:recipe_book:2>,
 
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,

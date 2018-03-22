@@ -15,8 +15,6 @@ var renameArray as string[IItemStack] = {
 
 	<primal:golden_stick> : "Golden Rod",
 
-	<natura:materials:5> : "Baykok's Rib",
-
 	<betterbuilderswands:wanddiamond> : "Platinum Wand",
 
 	//Space Platinum
@@ -25,7 +23,11 @@ var renameArray as string[IItemStack] = {
 	<extraplanets:tier11_items:6> : "§9Compressed Space Platinum",
 
 	//Chisel & Bits
-	<chiselsandbits:chisel_iron> : "Bit Chisel"
+	<chiselsandbits:chisel_iron> : "Bit Chisel",
+
+	<extraplanets:apple_iron> : "JourneyMap Token"
+
+
 };
 
 for item in renameArray {

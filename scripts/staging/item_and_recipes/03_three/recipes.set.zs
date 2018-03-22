@@ -77,6 +77,7 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:skull:1>,
 	<minecraft:soul_sand>,
 	<minecraft:tipped_arrow:*>,
+	<minecraft:spectral_arrow>,
 	<minecraft:trapped_chest>,
 
 	//AbyssalCraft
@@ -386,7 +387,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:materials:14>,
 	<tconstruct:seared:1>,
 	<tconstruct:seared:2>,
-	<tconstruct:seared:3>,
 	<tconstruct:seared:4>,
 	<tconstruct:seared:5>,
 	<tconstruct:seared:6>,
@@ -396,18 +396,7 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:seared:10>,
 	<tconstruct:seared:11>,
 	<tconstruct:seared>,
-	<tconstruct:seared_slab2:1>,
-	<tconstruct:seared_slab2:2>,
-	<tconstruct:seared_slab2:3>,
-	<tconstruct:seared_slab2>,
-	<tconstruct:seared_slab:1>,
-	<tconstruct:seared_slab:2>,
-	<tconstruct:seared_slab:3>,
-	<tconstruct:seared_slab:4>,
-	<tconstruct:seared_slab:5>,
-	<tconstruct:seared_slab:6>,
-	<tconstruct:seared_slab:7>,
-	<tconstruct:seared_slab>,
+
 	<tconstruct:seared_tank>,
 	<tconstruct:slime:1>,
 	<tconstruct:slime:2>,
@@ -486,6 +475,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
+	<betterwithmods:raw_scrambled_egg>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,

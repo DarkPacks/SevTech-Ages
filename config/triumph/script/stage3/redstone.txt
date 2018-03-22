@@ -10,11 +10,5 @@ setRequiresParent(true)
 setRequirements("any")
 
 //Criteria
-criteria0 = addCriteria("brokeLog0", "triumph:player_break_block")
-criteria0.setBlock("minecraft:redstone_ore", 0)
-
-criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
-criteria1.setBlock("mundaneredstone:redstone_ore", 0)
-
-criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
-criteria2.setBlock("geolosys:ore_vanilla", 1)
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:redstone")

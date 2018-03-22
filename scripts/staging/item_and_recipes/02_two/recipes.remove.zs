@@ -82,9 +82,20 @@ var removeItems as IItemStack[] = [
 
 	//Extended Crafting
 	<extendedcrafting:material:14>,
-	<extendedcrafting:table_basic>
+	<extendedcrafting:table_basic>,
+
+	//Extra Planets
+	<extraplanets:apple_iron>
 ];
 
 for item in removeItems {
 	recipes.remove(item);
 }
+
+//Remove only shapeless bibliocraft color recipes
+recipes.removeShapeless(<bibliocraft:lanterngold:*>);
+recipes.removeShapeless(<bibliocraft:lanterniron:*>);
+recipes.removeShapeless(<bibliocraft:lampgold:*>);
+recipes.removeShapeless(<bibliocraft:lampiron:*>);
+recipes.removeShapeless(<bibliocraft:typewriter:*>);
+recipes.removeShapeless(<bibliocraft:swordpedestal:*>);

@@ -27,6 +27,7 @@ var hideItems as IItemStack[] = [
 	<chisel:ironpane:9>,
 	<chisel:ironpane:10>,
 	<chisel:ironpane>,
+	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:cow_jar>,
 	<cyclicmagic:block_miner>,
 	<cyclicmagic:block_miner_smart>,

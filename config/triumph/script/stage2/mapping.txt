@@ -1,0 +1,14 @@
+setTitle("Advanced Mapping")
+
+setIcon("minecraft:filled_map")
+
+setDescription("Upgrade your current map to something much more advanced by eating an Iron Apple")
+
+setParent("triumph:stage2/extendedcraftingbasic")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem("extraplanets:apple_iron", 0)
+
+setRewardFunction("triumph:advanced_mapping")

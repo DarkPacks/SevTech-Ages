@@ -161,9 +161,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:spindle> : [
 		[
-			[stick],
-			[stick],
-			[stick]
+			[null, stick, null],
+			[null, stick, null],
+			[null, stick, null]
 		]
 	],
 

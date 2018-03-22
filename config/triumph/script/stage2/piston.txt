@@ -7,6 +7,8 @@ setDescription("Need to push items around?! Find a Piston in the Ur-Ghast Tower 
 setParent("triumph:stage2/twilight")
 setRequiresParent(true)
 
+setFrameType("goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("minecraft:piston")

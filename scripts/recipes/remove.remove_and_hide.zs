@@ -91,6 +91,21 @@ var removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
+	<cyclicmagic:mattock>,
+	<quantumstorage:quantum_battery>,
+	<overloaded:energy_core>,
+	<overloaded:fluid_core>,
+	<overloaded:item_core>,
+	<overloaded:nether_star_block>,
+	<overloaded:multi_helmet>,
+	<overloaded:multi_chestplate>,
+	<overloaded:multi_leggings>,
+	<overloaded:multi_boots>,
+	<overloaded:ray_gun>,
+	<quantumstorage:upgrade:1>,
+	<quantumstorage:upgrade:2>,
+	<quantumstorage:upgrade>,
+	<quantumstorage:quantum_barrel>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

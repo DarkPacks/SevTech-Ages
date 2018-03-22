@@ -277,6 +277,7 @@ var stage3Items as IIngredient[] = [
 	<minecraft:soul_sand>,
 	<minecraft:splash_potion:*>,
 	<minecraft:tipped_arrow:*>,
+	<minecraft:spectral_arrow>,
 	<minecraft:tnt_minecart>,
 	<minecraft:trapped_chest>,
 
@@ -762,6 +763,8 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
+	<betterwithmods:cooked_scrambled_egg>,
+	<betterwithmods:raw_scrambled_egg>,
 
 	//Geolosys
 	<geolosys:cluster:4>,

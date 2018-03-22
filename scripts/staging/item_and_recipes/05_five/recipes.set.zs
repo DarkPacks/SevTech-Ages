@@ -1008,3 +1008,6 @@ var soulstoneRecipes as string[] = [
 for recipeName in soulstoneRecipes {
 	mods.recipestages.Recipes.setRecipeStage(STAGES.three, recipeName);
 }
+
+
+mods.recipestages.Recipes.setRecipeStage("five", "galacticraftcore:slime_ball");

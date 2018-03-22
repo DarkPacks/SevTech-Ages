@@ -7,6 +7,8 @@ setDescription("Acquire Constellation Paper to fill the information in your Astr
 setParent("triumph:stage2/root")
 setRequiresParent(true)
 
+setFrameType("goal")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:itemconstellationpaper")

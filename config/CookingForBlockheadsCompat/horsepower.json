@@ -1,0 +1,15 @@
+{
+  "modid": "horsepower",
+  "foods": {
+    "INGREDIENTS": [
+      "flour",
+      "dough"
+    ]
+  },
+  "oven_fuel": [
+    {
+      "item": "hand_grindstone",
+      "value": 100
+    }
+  ]
+}

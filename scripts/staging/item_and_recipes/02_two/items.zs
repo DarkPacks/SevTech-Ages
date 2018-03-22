@@ -324,7 +324,6 @@ var stage2Items as IIngredient[] = [
 	<minecraft:shears>,
 	<minecraft:shield>,
 	<minecraft:speckled_melon>,
-	<minecraft:spectral_arrow>,
 	<minecraft:spruce_boat>,
 	<minecraft:sticky_piston>,
 	<minecraft:stone_brick_stairs>,
@@ -336,6 +335,9 @@ var stage2Items as IIngredient[] = [
 	<minecraft:wool:*>,
 	<minecraft:writable_book>,
 	<minecraft:written_book>,
+
+	//Extra Planets
+	<extraplanets:apple_iron>,
 
 	//Extended Crafting
 	<extendedcrafting:material:8>,
@@ -1013,6 +1015,11 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:seared_tank:1>,
 	<tconstruct:seared_tank:2>,
 	<tconstruct:seared_tank>,
+	<tconstruct:seared_slab:1>,
+	<tconstruct:seared_slab:2>,
+	<tconstruct:seared_slab:3>,
+	<tconstruct:seared_slab:4>,
+	<tconstruct:seared_slab>,
 	<tconstruct:slimesling>,
 	<tconstruct:smeltery_controller>,
 	<tconstruct:smeltery_io>,
@@ -1123,7 +1130,6 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:food_step>,
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:horse_upgrade_variant>,
-	<cyclicmagic:mattock>,
 	<cyclicmagic:plate_launch_med>,
 	<cyclicmagic:spikes_iron>,
 	<cyclicmagic:tool_harvest_crops>,

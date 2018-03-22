@@ -40,10 +40,10 @@ TableCrafting.addShaped(<vc:airship_balloon>, [
 ]);
 
 //Advanced mapping stage unlock recipe
-TableCrafting.addShaped(<natura:redwood_button>, [
+TableCrafting.addShaped(<extraplanets:apple_iron>, [
 	[<twilightforest:magic_map_focus>, <thebetweenlands:ring_of_flight>, <twilightforest:alpha_fur>],
 	[<twilightforest:magic_map_empty>, <twilightforest:maze_map_focus>, <minecraft:map>],
-	[<twilightforest:charm_of_keeping_3>, <twilightforest:castle_brick:3>, <twilightforest:charm_of_keeping_3>]
+	[<twilightforest:charm_of_keeping_3>, <twilightforest:lamp_of_cinders>, <twilightforest:charm_of_keeping_3>]
 ]);
 
 //Stage 4 Machine Frame
@@ -116,7 +116,7 @@ TableCrafting.addShaped(<ironjetpacks:creative_cell>, [
 	[null, <appliedenergistics2:energy_cell>, <rftools:powercell_advanced>, <immersiveengineering:metal_device0:2>, <mekanism:energycube>, <immersiveengineering:metal_device0:2>, <rftools:powercell_advanced>, <appliedenergistics2:energy_cell>, null]
 ]);
 
-TableCrafting.addShaped(<mekanism:machineblock2:11>, [
+TableCrafting.addShaped(<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}), [
 	[<industrialforegoing:black_hole_tank>, <bloodmagic:blood_rune:7>, <mekanism:basicblock:11>, <ore:ingotInsanium>, <extendedcrafting:singularity_custom:1>, <ore:ingotInsanium>, <mekanism:basicblock:11>, <bloodmagic:blood_rune:7>, <industrialforegoing:black_hole_tank>],
 	[<integrateddynamics:part_fluid_reader_item>, <minecraft:sponge>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <mob_grinding_utils:tank>, <extendedcrafting:material:13>, <extendedcrafting:material:13>, <minecraft:sponge>, <integrateddynamics:part_fluid_reader_item>],
 	[<ore:ingotEnhancedGalgadorian>, <abyssalcraft:solidlava>, <mysticalagriculture:crafting:48>, <refinedstorage:fluid_storage_disk:3>, <mekanism:machineblock2:11>, <refinedstorage:fluid_storage_disk:3>, <mysticalagriculture:crafting:48>, <abyssalcraft:solidlava>, <ore:ingotEnhancedGalgadorian>],
@@ -142,6 +142,19 @@ mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:3
 	<ore:ingotSteeleaf>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <enderutilities:enderpart>,
 	<enderutilities:enderpart:1>, <enderutilities:enderpart:2>
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}), [
+	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>], 
+	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>], 
+	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>], 
+	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>], 
+	[<overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>, <mekanism:energycube>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <mekanism:energycube>, <overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>], 
+	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>], 
+	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>], 
+	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>], 
+	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>]
+]);
+
 
 /*
 	Ender Crafting

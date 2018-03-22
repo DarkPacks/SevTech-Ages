@@ -104,8 +104,6 @@
 <progressiontweaks:spear>.addTooltip(format.red("Hold Mouse Button To Charge"));
 <progressiontweaks:spear>.addTooltip(format.red("Release to throw"));
 
-<natura:materials:5>.addTooltip(format.red("Use to craft arrows"));
-
 <primal_tech:fibre_torch>.addTooltip(format.red("Right Click on fire source"));
 <primal_tech:fibre_torch>.addTooltip(format.red("or lit torch to light"));
 
@@ -145,5 +143,9 @@
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Wooden Gears in hand to Repair"));
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Or craft back into a repaired block"));
 
-<natura:redwood_button>.addTooltip(format.red("Crafting this item will"));
-<natura:redwood_button>.addTooltip(format.red("unlock Advanced Mapping"));
+<extraplanets:apple_iron>.addTooltip(format.red("Crafting this item will"));
+<extraplanets:apple_iron>.addTooltip(format.red("unlock Advanced Mapping"));
+
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in "));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("Shrines, Cragrock Towers"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("and the Wight Fortress"));

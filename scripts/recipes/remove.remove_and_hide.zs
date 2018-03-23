@@ -106,6 +106,8 @@ var removeAndHideItems as IItemStack[] = [
 	<quantumstorage:upgrade:2>,
 	<quantumstorage:upgrade>,
 	<quantumstorage:quantum_barrel>,
+	<stevescarts:cartmodule:87>,
+	<stevescarts:cartmodule:92>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

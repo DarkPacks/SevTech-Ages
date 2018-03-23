@@ -573,20 +573,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <immersiveengineering:material:27>, null]
 		]
 	],
-	<stevescarts:cartmodule:87> : [
-		[
-			[null, <immersiveengineering:material:27>, null],
-			[null, <extendedcrafting:table_basic>, null],
-			[null, null, null]
-		]
-	],
-	<stevescarts:cartmodule:92> : [
-		[
-			[null, <minecraft:cake>, null],
-			[null, <stevescarts:modulecomponents:16>, null],
-			[<immersiveengineering:material:27>, <stevescarts:cartmodule:87>, <immersiveengineering:material:27>]
-		]
-	],
 	<stevescarts:cartmodule:23> : [
 		[
 			[null, metals.lead.plate, null],

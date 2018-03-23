@@ -57,6 +57,8 @@ var removeItems as IItemStack[] = [
 	<minecraft:spruce_boat>,
 	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
+	<minecraft:light_weighted_pressure_plate>,
+	<minecraft:heavy_weighted_pressure_plate>,
 
 	//Tinkers
 	<tconstruct:materials:16>,

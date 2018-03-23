@@ -8,8 +8,8 @@ setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("brokeLog", "triumph:player_break_block")
-criteria.setBlock("geolosys:ore", 8)
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("geolosys:cluster", 8)
 
 //Rewards
 setRequirements("any")

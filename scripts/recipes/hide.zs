@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
-var hideItems as IItemStack[] = [
+static hideItems as IItemStack[] = [
 	//Hidden for later
 	<extraplanets:block_multi>,
 	<progressiontweaks:machine_frame>,

@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
-var removeAndHideItems as IItemStack[] = [
+static removeAndHideItems as IItemStack[] = [
 	//TODO: Are these intended to be removed, or just because they wouldnt stage?
 	<actuallyadditions:block_inputter>,
 	<actuallyadditions:block_inputter_advanced>,

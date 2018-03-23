@@ -45,6 +45,11 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:repeater>,
 
 	//Nether
+	<betterwithaddons:congealed:5>,
+	<minecraft:magma_cream>,
+	<minecraft:quartz_block:1>,
+	<minecraft:quartz_block:2>,
+	<minecraft:quartz_block>,
 	<primal:arrow_quartz>,
 	<primal:quartz_axe>,
 	<primal:quartz_clippers>,
@@ -56,9 +61,6 @@ var itemsForStage as IIngredient[] = [
 	<primal:quartz_shears>,
 	<primal:quartz_shovel>,
 	<primal:quartz_workblade>,
-	<minecraft:quartz_block>,
-	<minecraft:quartz_block:1>,
-	<minecraft:quartz_block:2>,
 	<tconstruct:firewood_stairs>,
 	<tconstruct:lavawood_stairs>,
 
@@ -866,4 +868,13 @@ var itemsForStage as IIngredient[] = [
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+}
+
+//Set stage by recipe name
+var recipesForStage as string[] = [
+	"immersivetech:materials/slime_ball"
+];
+
+for recipeName in recipesForStage {
+	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
 }

@@ -515,6 +515,15 @@ for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);
 }
 
+//Set stage by recipe name
+var recipesForStage as string[] = [
+	"betterwithaddons:uncompress_slime"
+];
+
+for recipeName in recipesForStage {
+	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
+}
+
 /////
 //
 //Off and still need recipes for this stage

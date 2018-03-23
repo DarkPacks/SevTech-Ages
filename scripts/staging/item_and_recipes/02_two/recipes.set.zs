@@ -485,6 +485,7 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:seared_tank:2>,
 	<tconstruct:slimesling>,
 	<tconstruct:smeltery_io>,
+	<tconstruct:soil:1>,
 	<tconstruct:stone_torch>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),

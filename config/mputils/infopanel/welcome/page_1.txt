@@ -4,4 +4,7 @@
 
 §6WAILA and a Map are not available from the beginning. You must unlock them.
 
+§9Be aware, if you change a resource pack while the pack is running you will need to fully restart the game due to an issue with items not hiding correctly and recipes not showing. Sorry for the inconvenience!
+
+
 §9For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.

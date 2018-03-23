@@ -9,7 +9,7 @@ setRequiresParent(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
+criteria.addItem("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
 
 //Rewards
 setRewardExperience(30)

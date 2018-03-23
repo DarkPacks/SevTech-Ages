@@ -33,15 +33,15 @@ Altar.addAttunmentAltarRecipe(<astralsorcery:blockcustomore:1> * 1, 1400, 600, [
 	<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>
 ]);
 
-//TODO: FINISH RECIPE! It's meant to fix issue #754 and switch out the diamonds in the conversion wand recipe to Aquamarine
-/*
-Altar.addAttunmentAltarRecipe(<astralsorcery:blockcustomore:1> * 1, 1400, 600, [
-	<astralsorcery:itemusabledust>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemusabledust>,
-	<minecraft:stone>, <geolosys:cluster:0>, <minecraft:stone>,
-	<astralsorcery:itemusabledust>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemusabledust>,
-	<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>
+//Conversion Wand
+Altar.removeAltarRecipe(<astralsorcery:itemexchangewand>, 0);
+Altar.addAttunmentAltarRecipe(<astralsorcery:itemexchangewand> * 1, 600, 180, [
+	null, <astralsorcery:itemcraftingcomponent:2>, <thebetweenlands:crimson_middle_gem>,
+	<thebetweenlands:crimson_middle_gem>, <astralsorcery:blockmarble:6>, null,
+	<astralsorcery:blockmarble:6>, null, null,
+	<astralsorcery:blockmarble:6>, null, null, null
 ]);
-*/
+
 
 //Modifies the Altar recipe to use TF items
 Altar.removeAltarRecipe(<astralsorcery:blockaltar:2>, 1);

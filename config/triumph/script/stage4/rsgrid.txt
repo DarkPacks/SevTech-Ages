@@ -2,7 +2,7 @@ setTitle("Refined Storage")
 
 setIcon("refinedstorage:grid")
 
-setDescription("Choose your path to Applied Energistics, Refined Storage, or both!")
+setDescription("Craft a Refined Storage Grid and choose your path to Applied Energistics, Refined Storage, or both!")
 
 setParent("triumph:stage4/inscriber")
 setRequiresParent(true)

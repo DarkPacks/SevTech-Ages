@@ -4,7 +4,7 @@ setTitle("Get To The Copper")
 
 setDescription("Find a surface sample and dig for copper! Located Y12 to 45 and named Malachite or Azurite")
 
-setParent("triumph:stage1/plumbline")
+setParent("triumph:stage1/prospector")
 setRequiresParent(true)
 
 setFrameType("Goal")

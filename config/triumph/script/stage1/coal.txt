@@ -2,9 +2,9 @@ setTitle("Locate and mine coal")
 
 setIcon("minecraft:coal")
 
-setDescription("Find a surface sample and dig for coal! Located Y48 to 70")
+setDescription("Find a surface sample and dig for coal! It's Located between Y48 to 70")
 
-setParent("triumph:stage1/plumbline")
+setParent("triumph:stage1/prospector")
 setRequiresParent(true)
 
 //Criteria

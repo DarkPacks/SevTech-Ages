@@ -2,7 +2,7 @@ setTitle("Applied Energistics")
 
 setIcon("appliedenergistics2:part", 380)
 
-setDescription("Choose your path to Applied Energistics, Refined Storage, or both!")
+setDescription("Craft an ME Terminal and choose your path to Applied Energistics, Refined Storage, or both!")
 
 setParent("triumph:stage4/inscriber")
 setRequiresParent(true)

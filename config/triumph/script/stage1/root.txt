@@ -1,8 +1,8 @@
-setTitle("Age 1")
+setTitle("Welcome to Age 1")
 
 setIcon("progressiontweaks:stone_hammer")
 
-setDescription("Welcome to the next age!")
+setDescription("Welcome to the next age! Blocks previously hidden will now become visible, such as ore samples and others")
 
 setBackground("mekanism:textures/blocks/tinore.png")
 

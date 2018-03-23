@@ -54,6 +54,8 @@ BloodAltar.addRecipe(<bloodmagic:sanguine_book>, <primal:plant_cloth>, 0, 1000, 
 BloodAltar.removeRecipe(<bloodmagic:dagger_of_sacrifice>);
 BloodAltar.addRecipe(<bloodmagic:dagger_of_sacrifice>, <actuallyadditions:item_sword_quartz>, 0, 3000, 5, 5);
 
+BloodAltar.addRecipe(<cyclicmagic:food_step>, <minecraft:apple>, 0, 1500, 5, 5);
+
 /*
 	Tartaric Forge / Hellfire Forge
 

@@ -78,7 +78,8 @@ var removeItems as IItemStack[] = [
 	<chiselsandbits:bittank>,
 	<chiselsandbits:chisel_iron>,
 	
-	<huntingdim:frame>
+	<huntingdim:frame>,
+	<cyclicmagic:food_step>
 ];
 
 for item in removeItems {

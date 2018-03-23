@@ -4,10 +4,8 @@ setIcon("bibliocraft:plumbline")
 
 setDescription("Use the Plumb Line to discover your Y level")
 
-setParent("triumph:stage1/prospector")
+setParent("triumph:stage1/crafting")
 setRequiresParent(true)
-
-setFrameType("Goal")
 
 //Criteria
 criteria = addCriteria("crafted", "triumph:player_crafted_item")

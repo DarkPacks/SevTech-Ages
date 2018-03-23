@@ -1,0 +1,15 @@
+setTitle("Wireless Chargin")
+
+setIcon("chargers:wireless_charger", 0)
+
+setDescription("The Wireless Charger is a convenient machine to have in your base for anything you want charged easily")
+
+setParent("triumph:stage5/charger3")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("chargers:wireless_charger", 0)
+
+//Rewards
+setRewardExperience(15)

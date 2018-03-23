@@ -1,0 +1,15 @@
+setTitle("Charge it Up")
+
+setIcon("chargers:charger", 2)
+
+setDescription("The Charger Tier III allows you to charge up items much quicker than previous tiers")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("chargers:charger", 2)
+
+//Rewards
+setRewardExperience(15)

@@ -1127,7 +1127,6 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:charm_water>,
 	<cyclicmagic:ender_dungeon>,
 	<cyclicmagic:ender_lightning>,
-	<cyclicmagic:food_step>,
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:horse_upgrade_variant>,
 	<cyclicmagic:plate_launch_med>,

@@ -1,0 +1,15 @@
+setTitle("Scannable")
+
+setIcon("scannable:scanner", 0)
+
+setDescription("Once powered, the Scanner will allow you to locate blocks around you. Install modules and insert them into the GUI by shift-clicking to open. Hold the use button to initiate a scan")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("scannable:scanner", 0)
+
+//Rewards
+setRewardExperience(15)

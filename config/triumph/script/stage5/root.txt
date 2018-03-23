@@ -1,6 +1,6 @@
 setTitle("Age 5")
 
-setIcon("industrialforegoing:laser_lens", 14)
+setIcon("chisel:futura", 2)
 
 setDescription("Welcome to the next age!")
 

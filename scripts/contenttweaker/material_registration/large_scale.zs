@@ -87,6 +87,6 @@ var oreSampleDrops as string[Material] = {
 };
 
 for material in oreSampleMaterials {
-	var sampleData as MaterialPartData = material.registerPart("ore_sample").getData;
+	var sampleData as MaterialPartData = material.registerPart("ore_sample").getData();
 	sampleData.addDataValue("drops", oreSampleDrops[material]);
 }

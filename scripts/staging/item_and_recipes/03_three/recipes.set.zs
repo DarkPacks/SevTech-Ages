@@ -76,8 +76,8 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:observer>,
 	<minecraft:skull:1>,
 	<minecraft:soul_sand>,
-	<minecraft:tipped_arrow:*>,
 	<minecraft:spectral_arrow>,
+	<minecraft:tipped_arrow:*>,
 	<minecraft:trapped_chest>,
 
 	//AbyssalCraft
@@ -396,7 +396,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:seared:10>,
 	<tconstruct:seared:11>,
 	<tconstruct:seared>,
-
 	<tconstruct:seared_tank>,
 	<tconstruct:slime:1>,
 	<tconstruct:slime:2>,
@@ -471,11 +470,11 @@ var itemsForStage as IIngredient[] = [
 	<betterwithmods:material:47>,
 	<betterwithmods:material:50>,
 	<betterwithmods:mining_charge>,
+	<betterwithmods:raw_scrambled_egg>,
 	<betterwithmods:single_machine:2>,
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
 	<betterwithmods:steel_gearbox>,
-	<betterwithmods:raw_scrambled_egg>,
 
 	//Bibliocraft
 	<bibliocraft:atlasplate>,

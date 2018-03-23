@@ -12,8 +12,6 @@ Drying.addRecipe(<primal:fish_salmon_dried>, <minecraft:fish:1>, 1600);
 Drying.addRecipe(<primal:shark_meat_dried>, <primal:shark_meat_raw>, 1600);
 
 Drying.removeRecipe(<minecraft:leather>);
-//Drying rack temp recipes
 Drying.addRecipe(<minecraft:leather>, <primal:hide_tanned>, 2400);
+
 Drying.addRecipe(<primal:hide_dried>, <primal:hide_salted>, 2400);
-
-

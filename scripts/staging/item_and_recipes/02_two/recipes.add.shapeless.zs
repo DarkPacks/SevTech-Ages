@@ -53,8 +53,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<uppers:upper>]
 	],
 
-	//I guess I'll be the one who makes sure Bibliocraft uses oredict
-
+	/*
+		I guess I'll be the one who makes sure Bibliocraft uses oredict
+	*/
 	//Lantern Gold
 	<bibliocraft:lanterngold:0> : [
 		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder>]
@@ -354,7 +355,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<bibliocraft:swordpedestal:15> : [
 		[<bibliocraft:swordpedestal:*>, <pickletweaks:dye_powder:12>]
 	]
-
 };
 
 for item, recipesForItem in shapelessRecipes {

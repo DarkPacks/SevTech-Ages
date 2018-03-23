@@ -501,18 +501,18 @@ var stage4Items as IIngredient[] = [
 
 	//Cooking for Blockheads
 	<cookingforblockheads:cooking_table>,
-	<cookingforblockheads:oven>,
-	<cookingforblockheads:fridge>,
-	<cookingforblockheads:sink>,
-	<cookingforblockheads:tool_rack>,
-	<cookingforblockheads:toaster>,
-	<cookingforblockheads:spice_rack>,
-	<cookingforblockheads:counter>,
 	<cookingforblockheads:corner>,
+	<cookingforblockheads:counter>,
+	<cookingforblockheads:fridge>,
 	<cookingforblockheads:kitchen_floor>,
-	<cookingforblockheads:recipe_book>,
+	<cookingforblockheads:oven>,
 	<cookingforblockheads:recipe_book:1>,
 	<cookingforblockheads:recipe_book:2>,
+	<cookingforblockheads:recipe_book>,
+	<cookingforblockheads:sink>,
+	<cookingforblockheads:spice_rack>,
+	<cookingforblockheads:toaster>,
+	<cookingforblockheads:tool_rack>,
 
 	//Mob Grinding Utils
 	<mob_grinding_utils:absorption_hopper>,

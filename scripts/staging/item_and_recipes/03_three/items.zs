@@ -275,9 +275,9 @@ var stage3Items as IIngredient[] = [
 	<minecraft:record_ward>,
 	<minecraft:skull:1>,
 	<minecraft:soul_sand>,
+	<minecraft:spectral_arrow>,
 	<minecraft:splash_potion:*>,
 	<minecraft:tipped_arrow:*>,
-	<minecraft:spectral_arrow>,
 	<minecraft:tnt_minecart>,
 	<minecraft:trapped_chest>,
 
@@ -711,6 +711,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:candle_holder>,
 	<betterwithmods:companion_cube>,
 	<betterwithmods:cooked_bat_wing>,
+	<betterwithmods:cooked_scrambled_egg>,
 	<betterwithmods:cooking_pot:2>,
 	<betterwithmods:detector>,
 	<betterwithmods:hibachi>,
@@ -736,6 +737,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:material:50>,
 	<betterwithmods:material:51>,
 	<betterwithmods:mining_charge>,
+	<betterwithmods:raw_scrambled_egg>,
 	<betterwithmods:single_machine:2>,
 	<betterwithmods:stake>,
 	<betterwithmods:steel_anvil>,
@@ -761,8 +763,6 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
-	<betterwithmods:cooked_scrambled_egg>,
-	<betterwithmods:raw_scrambled_egg>,
 
 	//Geolosys
 	<geolosys:cluster:4>,

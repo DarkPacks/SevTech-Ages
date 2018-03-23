@@ -40,6 +40,7 @@ var removeItems as IItemStack[] = [
 	<minecraft:golden_pickaxe>,
 	<minecraft:golden_shovel>,
 	<minecraft:golden_sword>,
+	<minecraft:heavy_weighted_pressure_plate>,
 	<minecraft:hopper>,
 	<minecraft:iron_axe>,
 	<minecraft:iron_bars>,
@@ -52,13 +53,12 @@ var removeItems as IItemStack[] = [
 	<minecraft:iron_shovel>,
 	<minecraft:iron_sword>,
 	<minecraft:jungle_boat>,
+	<minecraft:light_weighted_pressure_plate>,
 	<minecraft:paper>,
 	<minecraft:piston>,
 	<minecraft:spruce_boat>,
 	<minecraft:stone_slab:5>,
 	<minecraft:wool:*>,
-	<minecraft:light_weighted_pressure_plate>,
-	<minecraft:heavy_weighted_pressure_plate>,
 
 	//Tinkers
 	<tconstruct:materials:16>,

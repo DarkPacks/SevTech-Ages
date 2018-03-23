@@ -974,6 +974,15 @@ for item in itemsForStage {
 
 //Set stage by recipe name
 var recipesForStage as string[] = [
+	"galacticraftcore:slime_ball"
+];
+
+for recipeName in recipesForStage {
+	mods.recipestages.Recipes.setRecipeStage(STAGE, recipeName);
+}
+
+//Set stage by recipe regex
+var recipesRegexForStage as string[] = [
 	//Mystical Agriculture
 	"mysticalagriculture:.*",
 
@@ -984,7 +993,7 @@ var recipesForStage as string[] = [
 	"crafttweaker:dye_essence_item.pt.dye_powder.*"
 ];
 
-for recipeRegex in recipesForStage {
+for recipeRegex in recipesRegexForStage {
 	mods.recipestages.Recipes.setRecipeStageByRegex(STAGE, recipeRegex);
 }
 
@@ -1008,6 +1017,3 @@ var soulstoneRecipes as string[] = [
 for recipeName in soulstoneRecipes {
 	mods.recipestages.Recipes.setRecipeStage(STAGES.three, recipeName);
 }
-
-
-mods.recipestages.Recipes.setRecipeStage("five", "galacticraftcore:slime_ball");

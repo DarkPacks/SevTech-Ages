@@ -26,8 +26,6 @@ var renameArray as string[IItemStack] = {
 	<chiselsandbits:chisel_iron> : "Bit Chisel",
 
 	<extraplanets:apple_iron> : "JourneyMap Token"
-
-
 };
 
 for item in renameArray {

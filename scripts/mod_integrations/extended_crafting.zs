@@ -144,17 +144,16 @@ mods.extendedcrafting.TableCrafting.addShapeless(0, <extendedcrafting:material:3
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}), [
-	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>], 
-	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>], 
-	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>], 
-	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>], 
-	[<overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>, <mekanism:energycube>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <mekanism:energycube>, <overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>], 
-	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>], 
-	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>], 
-	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>], 
+	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>],
+	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>],
+	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>],
+	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>],
+	[<overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>, <mekanism:energycube>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <extendedcrafting:singularity:3>, <mekanism:energycube>, <overloaded:hyper_energy_receiver>, <overloaded:hyper_energy_receiver>],
+	[<actuallyadditions:block_laser_relay_extreme>, <mysticalagriculture:ultimate_furnace>, <mekanism:basicblock2:3>, <ore:circuitUltimate>, <extendedcrafting:singularity:3>, <ore:circuitUltimate>, <mekanism:basicblock2:3>, <mysticalagriculture:ultimate_furnace>, <actuallyadditions:block_laser_relay_extreme>],
+	[<ore:itemCompressedObsidian>, <ore:paperclip>, <integrateddynamics:energy_battery>, <environmentaltech:solar_cont_6>, <mekanism:energycube>, <environmentaltech:solar_cont_6>, <integrateddynamics:energy_battery>, <ore:paperclip>, <ore:itemCompressedObsidian>],
+	[<ore:itemCompressedObsidian>, <rftools:powercell_advanced>, <ore:paperclip>, <ore:paperclip>, <overloaded:hyper_energy_sender>, <ore:paperclip>, <ore:paperclip>, <rftools:powercell_advanced>, <ore:itemCompressedObsidian>],
 	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>]
 ]);
-
 
 /*
 	Ender Crafting

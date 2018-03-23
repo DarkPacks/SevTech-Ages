@@ -19,3 +19,6 @@ criteria3.setItem("extraplanets:tier1_space_suit_legings")
 
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("extraplanets:tier1_space_suit_boots")
+
+//Rewards
+setRewardExperience(12)

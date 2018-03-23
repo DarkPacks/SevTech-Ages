@@ -16,3 +16,6 @@ criteria2.setItem("appliedenergistics2:material", 15)
 
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
 criteria3.setItem("appliedenergistics2:material", 19)
+
+//Rewards
+setRewardExperience(12)

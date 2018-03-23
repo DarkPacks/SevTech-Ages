@@ -104,4 +104,4 @@ criteria30 = addCriteria("hasRock30", "minecraft:inventory_changed")
 criteria30.setItem("twilightforest:steeleaf_hoe", 0)
 
 //Rewards
-setRewardExperience(8)
+setRewardExperience(4)

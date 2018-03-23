@@ -14,4 +14,4 @@ criteria = addCriteria("brokeLog", "triumph:player_break_block")
 criteria.setBlock("contenttweaker:sub_block_holder_0")
 
 //Rewards
-setRewardExperience(8)
+setRewardExperience(4)

@@ -2,7 +2,7 @@ setTitle("Ancient Animals")
 
 setIcon("totemic:buffalo_items")
 
-setDescription("Buffalo provide valuable resources to hunters. Collect their Hide and Teeth")
+setDescription("Buffalo provide valuable resources to hunters. Use a Totemic Ceremony to spawn them. Collect their Hide and Teeth. Consult the Totempedia for more information")
 
 setParent("triumph:stage0/totemic")
 setRequiresParent(true)

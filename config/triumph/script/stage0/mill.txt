@@ -2,7 +2,7 @@ setTitle("Quit Millin' Around")
 
 setIcon("betterwithmods:single_machine")
 
-setDescription("It's Mill-er time")
+setDescription("It's Mill-er time. Craft the Millstone from Better With Mods")
 
 setParent("triumph:stage0/gear")
 setRequiresParent(true)

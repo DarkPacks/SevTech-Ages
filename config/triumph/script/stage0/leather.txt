@@ -2,7 +2,7 @@ setTitle("Leather, Rinse, Repeat")
 
 setIcon("minecraft:leather")
 
-setDescription("Gonna Tan Your Hide")
+setDescription("Acquire Leather!")
 
 setParent("triumph:stage0/fluidbladder")
 setRequiresParent(true)

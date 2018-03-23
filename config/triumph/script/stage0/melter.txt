@@ -2,7 +2,7 @@ setTitle("Let's Get Down and Melty")
 
 setIcon("tcomplement:porcelain_melter")
 
-setDescription("Craft a Melter to begin smelting down ores")
+setDescription("Craft a Melter to begin smelting down ores. It will need the matching heater below to work properly")
 
 setParent("triumph:stage0/melterbase")
 setRequiresParent(true)

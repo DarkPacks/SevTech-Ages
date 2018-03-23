@@ -1,4 +1,5 @@
-mods.recipestages.Recipes.setPrintContainers(true);
+//Enable when you need container name
+//mods.recipestages.Recipes.setPrintContainers(true);
 
 
 //Ideally theres a way to just get all the values from the STAGES map

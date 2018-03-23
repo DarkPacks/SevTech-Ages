@@ -12,4 +12,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("primal_tech:leaf_bed")
 
 //Rewards
-setRewardExperience(7)
+setRewardExperience(4)

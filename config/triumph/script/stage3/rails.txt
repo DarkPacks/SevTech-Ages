@@ -7,6 +7,8 @@ setDescription("Craft and use Rails to travel long distances quickly")
 setParent("triumph:stage3/root")
 setRequiresParent(true)
 
+setRequirements("any")
+
 //Criteria
 criteria0 = addCriteria("hasRock0", "minecraft:inventory_changed")
 criteria0.setItem("minecraft:rail")
@@ -30,4 +32,4 @@ criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
 criteria6.setItem("tconstruct:wood_rail")
 
 //Rewards
-setRewardExperience(12)
+setRewardExperience(8)

@@ -2,7 +2,7 @@ setTitle("Rocket Ship")
 
 setIcon("galacticraftcore:rocket_t1")
 
-setDescription("Build a Tier 1 Rocket")
+setDescription("Build a Tier 1 Galacticraft Rocket")
 
 setParent("triumph:stage4/nasaworkbench")
 setRequiresParent(true)
@@ -23,3 +23,6 @@ criteria3.setItem("galacticraftcore:rocket_t1", 2)
 
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("galacticraftcore:rocket_t1", 3)
+
+//Rewards
+setRewardExperience(12)

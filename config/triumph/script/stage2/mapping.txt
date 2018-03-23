@@ -11,4 +11,7 @@ setRequiresParent(true)
 criteria = addCriteria("consumed", "minecraft:consume_item")
 criteria.setItem("extraplanets:apple_iron", 0)
 
+//Rewards
 setRewardFunction("triumph:advanced_mapping")
+setRewardFunction("triumph:prestige_add_100")
+setRewardExperience(8)

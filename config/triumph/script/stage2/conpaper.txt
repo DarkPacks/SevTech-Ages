@@ -2,7 +2,7 @@ setTitle("Filling in the Gaps")
 
 setIcon("astralsorcery:itemconstellationpaper")
 
-setDescription("Acquire Constellation Paper to fill the information in your Astral Sorcery Journal. Right-click while holding the Astral Sorcery Journal to store your Constellation Papers to save space")
+setDescription("Acquire Constellation Paper to fill the information in your Astral Sorcery Journal. Right-click while holding the Astral Sorcery Journal to store your Constellation Paper to save space")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

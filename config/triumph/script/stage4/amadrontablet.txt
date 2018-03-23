@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("pneumaticcraft:amadron_tablet")
+
+//Rewards
+setRewardExperience(12)

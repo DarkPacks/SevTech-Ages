@@ -12,4 +12,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("primalchests:primal_chest")
 
 //Rewards
-setRewardExperience(8)
+setRewardExperience(4)

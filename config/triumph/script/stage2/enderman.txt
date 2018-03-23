@@ -22,3 +22,6 @@ criteria4.setEntityType("enderutilities:endermanfighter")
 
 criteria5 = addCriteria("killed_spider5", "minecraft:player_killed_entity")
 criteria5.setEntityType("galacticraftcore:evolved_enderman")
+
+//Rewards
+setRewardExperience(8)

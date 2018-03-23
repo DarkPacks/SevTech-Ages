@@ -10,3 +10,7 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
 criteria.setEntityType("totemic:baykok")
+
+//Rewards
+setRewardExperience(16)
+setRewardFunction("triumph:prestige_add_100")

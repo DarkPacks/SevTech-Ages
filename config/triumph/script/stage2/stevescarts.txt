@@ -2,7 +2,7 @@ setTitle("Train-ing with Coal")
 
 setIcon("stevescarts:cartmodule", 0)
 
-setDescription("You have discovered the power of combustion! Craft a Coal Engine ")
+setDescription("You have discovered the power of combustion! Craft a Coal Engine")
 
 setParent("triumph:stage2/piston")
 setRequiresParent(true)

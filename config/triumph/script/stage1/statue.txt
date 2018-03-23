@@ -34,4 +34,4 @@ criteria7 = addCriteria("hasRock7", "minecraft:inventory_changed")
 criteria7.setItem("abyssalcraft:statue", 6)
 
 //Rewards
-setRewardExperience(10)
+setRewardExperience(4)

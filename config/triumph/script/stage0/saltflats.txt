@@ -2,7 +2,7 @@ setTitle("reSalt of Your Labors")
 
 setIcon("primal:salt_dust_netjry")
 
-setDescription("Find Salt in Dry Biomes or Riverbeds")
+setDescription("Find Salt in Dry Biomes or Riverbeds. You'll need it for food and curing hide")
 
 setParent("triumph:stage0/grill")
 setRequiresParent(true)

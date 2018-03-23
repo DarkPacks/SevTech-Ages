@@ -2,7 +2,7 @@ setTitle("§1§lLost but Now Found")
 
 setIcon("antiqueatlas:empty_antique_atlas")
 
-setDescription("Trade for a map from a Cartographer Villager")
+setDescription("Trade for an Antique Atlas map from a Cartographer or Librarian Villager")
 
 setParent("triumph:stage0/workblade")
 setRequiresParent(true)

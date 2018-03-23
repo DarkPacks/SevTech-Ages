@@ -2,7 +2,7 @@ setTitle("A Place for My Things")
 
 setIcon("storagedrawers:framingtable")
 
-setDescription("Use the Framing Table to build a custom Storage Drawer")
+setDescription("Use the Framing Table to build a custom Storage Drawers")
 
 setParent("triumph:stage2/root")
 setRequiresParent(true)

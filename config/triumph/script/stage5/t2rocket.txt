@@ -2,7 +2,7 @@ setTitle("Bigger, Better, Faster")
 
 setIcon("galacticraftplanets:rocket_t2")
 
-setDescription("Build a Tier 2 Rocket")
+setDescription("Build a Tier 2 Rocket to further your exploration range")
 
 setParent("triumph:stage5/root")
 setRequiresParent(true)
@@ -22,3 +22,5 @@ criteria3.setItem("galacticraftplanets:rocket_t2", 2)
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("galacticraftplanets:rocket_t2", 3)
 
+//Rewards
+setRewardExperience(15)

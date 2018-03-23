@@ -14,4 +14,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:blockaltar", 1)
 
 //Rewards
-setRewardExperience(10)
+setRewardExperience(8)

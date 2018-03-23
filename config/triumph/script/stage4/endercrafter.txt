@@ -17,3 +17,6 @@ criteria1.setItem("extendedcrafting:ender_crafter")
 
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria2.setItem("extendedcrafting:ender_alternator")
+
+//Rewards
+setRewardExperience(12)

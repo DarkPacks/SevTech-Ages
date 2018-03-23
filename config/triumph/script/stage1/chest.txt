@@ -13,3 +13,4 @@ criteria.setItem("minecraft:chest")
 
 //Rewards
 setRewardItem("minecraft:chest", 0, 1)
+setRewardExperience(4)

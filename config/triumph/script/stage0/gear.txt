@@ -2,7 +2,7 @@ setTitle("Geared Up For Ratios")
 
 setIcon("betterwithmods:material")
 
-setDescription("Use your knowledge of wheels to make a gear!")
+setDescription("Use your knowledge of the wheel to make a gear!")
 
 setParent("triumph:stage0/wheel")
 setRequiresParent(true)

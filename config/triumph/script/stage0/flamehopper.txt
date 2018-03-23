@@ -2,7 +2,7 @@ setTitle("Flame Grilled Goodness")
 
 setIcon("primal_tech:charcoal_hopper")
 
-setDescription("A hopper that moves items and keeps things toasty!")
+setDescription("A hopper that moves items and keeps blocks above it hot")
 
 setParent("triumph:stage0/woodhopper2")
 setRequiresParent(true)

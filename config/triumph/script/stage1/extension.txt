@@ -12,4 +12,4 @@ criteria = addCriteria("placedDirt", "minecraft:placed_block")
 criteria.setBlock("ceramics:clay_barrel", 1)
 
 //Rewards
-setRewardExperience(6)
+setRewardExperience(4)

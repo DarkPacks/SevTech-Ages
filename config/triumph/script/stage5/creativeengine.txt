@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("stevescarts:cartmodule", 61)
+
+//Rewards
+setRewardExperience(30)

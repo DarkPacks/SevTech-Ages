@@ -2,7 +2,7 @@ setTitle("Pressing Your Luck")
 
 setIcon("horsepower:press")
 
-setDescription("Press charcoal into a larger block")
+setDescription("Press charcoal into a larger block using the Horse Power Press")
 
 setParent("triumph:stage0/horsechopper")
 setRequiresParent(true)

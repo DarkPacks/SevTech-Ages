@@ -2,7 +2,7 @@ setTitle("Enter the Darklands")
 
 setIcon("abyssalcraft:necronomicon")
 
-setDescription("Find and enter a dark biome")
+setDescription("Find and enter a Abyssalcraft dark biome")
 
 setParent("triumph:stage0/workstump")
 setRequiresParent(true)
@@ -27,3 +27,6 @@ criteria5.setBiome("abyssalcraft:darklands_mountains")
 
 criteria6 = addCriteria("entered_forest6", "minecraft:location")
 criteria6.setBiome("abyssalcraft:coralium_infested_swamp")
+
+//Rewards
+setRewardExperience(4)

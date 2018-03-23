@@ -2,7 +2,7 @@ setTitle("Ace of Melter Base")
 
 setIcon("tcomplement:porcelain_melter", 8)
 
-setDescription("You don't have liquid fuel so try solid ones! Craft a Heater to get started")
+setDescription("You don't have liquid fuel so try solid ones! Craft a Heater to get started. Note, you'll need to match the Melter and Heater types for them to work together. Porcelain will not match the seared version")
 
 setParent("triumph:stage0/flamehopper")
 setRequiresParent(true)

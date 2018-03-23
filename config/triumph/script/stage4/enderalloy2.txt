@@ -12,3 +12,6 @@ setFrameType("Goal")
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("enderutilities:enderpart", 1)
+
+//Rewards
+setRewardExperience(12)

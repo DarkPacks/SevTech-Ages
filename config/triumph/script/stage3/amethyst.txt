@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
 criteria2.setItem("nex:item_crystal_amethyst", 0)
+
+//Rewards
+setRewardExperience(8)

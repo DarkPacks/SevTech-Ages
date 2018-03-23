@@ -14,4 +14,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astralsorcery:itemcraftingcomponent", 5)
 
 //Rewards
-setRewardExperience(8)
+setRewardExperience(4)

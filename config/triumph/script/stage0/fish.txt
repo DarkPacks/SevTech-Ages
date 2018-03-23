@@ -2,7 +2,7 @@ setTitle("Spear Fishing")
 
 setIcon("minecraft:fish")
 
-setDescription("Use your spear to fish for a tasty meal!")
+setDescription("Use your spear or other tools to fish for a tasty meal!")
 
 setParent("triumph:stage0/spear")
 setRequiresParent(true)
@@ -21,3 +21,6 @@ criteria3.setEntityType("jaff:pufferfish")
 
 criteria4 = addCriteria("killed_fish4", "minecraft:player_killed_entity")
 criteria4.setEntityType("jaff:salmon")
+
+//Rewards
+setRewardExperience(4)

@@ -2,7 +2,7 @@ setTitle("Get Lost, Oh Wait...")
 
 setIcon("minecraft:compass")
 
-setDescription("A Compass will help you determine your X and Z coordinates, use F3 to display the text")
+setDescription("A Compass will help you determine your X and Z coordinates")
 
 setParent("triumph:stage2/controller")
 setRequiresParent(true)

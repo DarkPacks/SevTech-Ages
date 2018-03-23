@@ -10,6 +10,19 @@
         "action": "add",
         "CareerLevel": 1,
         "buy": {
+          "id": "minecraft:dye",
+          "Count": 8,
+          "Damage": 15
+        },
+        "sell": {
+          "id": "minecraft:farmland",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
           "id": "ferdinandsflowers:block_cff_flowers",
           "Count": {
             "min": 1,
@@ -64,19 +77,6 @@
             "max": 3
           },
           "Damage": 5
-        }
-      },
-      {
-        "action": "add",
-        "CareerLevel": 1,
-        "buy": {
-          "id": "minecraft:dye",
-          "Count": 8,
-          "Damage": 15
-        },
-        "sell": {
-          "id": "minecraft:farmland",
-          "Count": 1
         }
       },
       {

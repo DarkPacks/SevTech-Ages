@@ -41,4 +41,4 @@ criteria10 = addCriteria("hasRock10", "minecraft:inventory_changed")
 criteria10.setItem("primal:barrel", 9)
 
 //Rewards
-setRewardExperience(8)
+setRewardExperience(4)

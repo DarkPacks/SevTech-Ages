@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("pneumaticcraft:assembly_program", 1)
+
+//Rewards
+setRewardExperience(12)

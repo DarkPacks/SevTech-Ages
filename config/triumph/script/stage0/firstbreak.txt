@@ -128,3 +128,6 @@ criteria39.setBlock("twilightforest:twilight_log", 2)
 
 criteria40 = addCriteria("brokeLog40", "triumph:player_break_block")
 criteria40.setBlock("twilightforest:twilight_log", 3)
+
+//Rewards
+setRewardExperience(4)

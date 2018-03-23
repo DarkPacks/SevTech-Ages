@@ -12,3 +12,6 @@ setRequirements("any")
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("mysticalagriculture:crafting")
+
+//Rewards
+setRewardExperience(15)

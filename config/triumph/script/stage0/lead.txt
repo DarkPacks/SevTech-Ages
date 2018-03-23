@@ -2,7 +2,7 @@ setTitle("You'll Make a Great Lead-er")
 
 setIcon("minecraft:lead")
 
-setDescription("Acquire delicious lead")
+setDescription("Acquire a lead to herd animals")
 
 setParent("triumph:stage0/leather")
 setRequiresParent(true)

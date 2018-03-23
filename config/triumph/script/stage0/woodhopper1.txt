@@ -14,4 +14,4 @@ criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("wopper:wopper", 0)
 
 //Rewards
-setRewardExperience(7)
+setRewardExperience(4)

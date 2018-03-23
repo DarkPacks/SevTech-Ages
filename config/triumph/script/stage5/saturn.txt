@@ -2,7 +2,7 @@ setTitle("The Rings of Saturn")
 
 setIcon("actuallyadditions:item_misc", 6)
 
-setDescription("Launch a Rocket to Saturn")
+setDescription("Launch a Rocket to Saturn... and land on it... yes")
 
 setParent("triumph:stage5/mars")
 setRequiresParent(true)
@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
 criteria.setDimensionDestination("Saturn")
+
+//Rewards
+setRewardExperience(15)

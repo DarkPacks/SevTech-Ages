@@ -80,6 +80,13 @@ var oreSampleMaterials as Material[] = [
 	materials.silicon
 ];
 
+var oreSampleDrops as string[Material] = {
+	materials.coralium: "abyssalcraft:coralium",
+	materials.osmium: "geolosys:cluster:12",
+	materials.silicon: "galacticraftcore:basic_item:2"
+};
+
 for material in oreSampleMaterials {
-	material.registerPart("ore_sample");
+	var sampleData as MaterialPartData = material.registerPart("ore_sample").getData;
+	sampleData.addDataValue("drops", oreSampleDrops[material]);
 }

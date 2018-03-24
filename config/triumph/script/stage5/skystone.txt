@@ -1,0 +1,15 @@
+setTitle("Sky Stone")
+
+setIcon("appliedenergistics2:smooth_sky_stone_block", 0)
+
+setDescription("Moon Cheese can be further refined into Sky Stone using the Metallurgic Infuser from Mekanism")
+
+setParent("triumph:stage5/cheese")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("appliedenergistics2:smooth_sky_stone_block", 0)
+
+//Rewards
+setRewardExperience(15)

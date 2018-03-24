@@ -498,7 +498,6 @@ var itemsForStage as IIngredient[] = [
 	<appliedenergistics2:part:516>,
 
 	//Refined Storage
-	<refinedstorage:controller:1>,
 	<refinedstorage:filter>,
 	<refinedstorage:fluid_interface>,
 	<refinedstorage:fluid_storage:1>,

@@ -4,7 +4,7 @@ setIcon("tconstruct:materials", 50)
 
 setDescription("Craft the Creative Modifier from Tinker's Construct")
 
-setParent("triumph:stage5/ultimatecraftingtable")
+setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)
 
 //Criteria

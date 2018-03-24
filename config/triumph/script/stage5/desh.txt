@@ -1,0 +1,15 @@
+setTitle("Locating Desh Ore")
+
+setIcon("galacticraftplanets:mars", 2)
+
+setDescription("Locate and mine Desh ore on the planet Mars")
+
+setParent("triumph:stage5/mars")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftplanets:mars", 2)
+
+//Rewards
+setRewardExperience(15)

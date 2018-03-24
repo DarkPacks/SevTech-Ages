@@ -4,7 +4,7 @@ setIcon("mekanism:machineblock2", 11)
 
 setDescription("Craft the Creative Fluid Tank from Mekanism")
 
-setParent("triumph:stage5/ultimatecraftingtable")
+setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)
 
 //Criteria

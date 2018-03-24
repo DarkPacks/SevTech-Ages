@@ -1,0 +1,28 @@
+setTitle("Roving Around")
+
+setIcon("extraplanets:mars_rover")
+
+setDescription("Traveling around Mars can be a bit slow, craft and use the Mars Rover! Find the NASA Workbench Schemetic as possible loot in dungeons")
+
+setParent("triumph:stage5/t2rocket")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extraplanets:mars_rover", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extraplanets:mars_rover", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("extraplanets:mars_rover", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("extraplanets:mars_rover", 3)
+
+//Rewards
+setRewardExperience(15)
+
+

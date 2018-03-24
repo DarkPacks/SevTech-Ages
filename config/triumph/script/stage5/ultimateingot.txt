@@ -1,0 +1,16 @@
+setTitle("Ultimate Ingot!")
+
+setIcon("extendedcrafting:material", 32)
+
+setDescription("Crafting a number of ingots together in an Extended Crafting table will give you the Ultimate Ingot!")
+
+setParent("triumph:stage5/ultimatecraftingtable")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:material", 32)
+
+//Rewards
+setRewardExperience(15)
+setRewardFunction("triumph:stage-creative_trigger")

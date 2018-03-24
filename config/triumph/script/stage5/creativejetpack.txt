@@ -4,7 +4,7 @@ setIcon("ironjetpacks:creative_jetpack")
 
 setDescription("Craft the Creative Jetpack")
 
-setParent("triumph:stage5/ultimatecraftingtable")
+setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)
 
 //Criteria

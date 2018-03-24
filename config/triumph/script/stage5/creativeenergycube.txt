@@ -4,7 +4,7 @@ setIcon("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348
 
 setDescription("Craft the Creative Energy Cube from Mekanism")
 
-setParent("triumph:stage5/ultimatecraftingtable")
+setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)
 
 //Criteria

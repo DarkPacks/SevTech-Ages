@@ -7,6 +7,7 @@ import mods.armoreablemobs.ArmorGroup;
 
 import scripts.mob_armor._base.defaultArmorDropChance;
 import scripts.mob_armor._base.armorableMobEntities;
+import scripts.mob_armor._base.mobEntities;
 
 var STAGE = STAGES.threeMob;
 
@@ -43,3 +44,11 @@ for armorGroup in armorGroups {
 	//Set game stage
 	armorGroup.addGameStage(STAGE);
 }
+
+/*
+	Bow
+*/
+var bow = ArmorHandler.createArmorGroup("Bow", 1);
+bow.addArmor(ArmorHandler.createArmorSlot("mainhand", <minecraft:bow>, 1, defaultArmorDropChance));
+bow.addGameStage(STAGE);
+bow.addEntity(mobEntities["minecraft:skeleton"]);

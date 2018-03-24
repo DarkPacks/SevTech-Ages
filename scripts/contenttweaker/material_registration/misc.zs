@@ -116,3 +116,15 @@ materials.invar.registerParts(invarParts);
 
 //Space Platinum
 materials.spacePlatinum.registerPart("dust");
+
+//Copper Armor
+var copperArmor = materials.copper.registerPart("armor").getData();
+copperArmor.addDataValue("durability", "375");
+copperArmor.addDataValue("reduction", "1,4,3,1");
+copperArmor.addDataValue("toughness", "0");
+
+//Bronze Armor
+var bronzeArmor = materials.bronze.registerPart("armor").getData();
+bronzeArmor.addDataValue("durability", "450");
+bronzeArmor.addDataValue("reduction", "2,5,4,2");
+bronzeArmor.addDataValue("toughness", "0");

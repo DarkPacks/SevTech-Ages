@@ -61,6 +61,18 @@ var durabilityArray = {
 	//hoe_copper> : 340,
 	//sword_copper> : 340,
 
+	//Copper Armor
+	<contenttweaker:copper_head> : 200,
+	<contenttweaker:copper_chest> : 375,
+	<contenttweaker:copper_legs> : 350,
+	<contenttweaker:copper_feet> : 175,
+
+	//Bronze Armor
+	<contenttweaker:bronze_head> : 275,
+	<contenttweaker:bronze_chest> : 450,
+	<contenttweaker:bronze_legs> : 425,
+	<contenttweaker:bronze_feet> : 250,
+
 	//Iron Tools
 	<minecraft:iron_shovel> : 450,
 	<minecraft:iron_pickaxe> : 450,

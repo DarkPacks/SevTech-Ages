@@ -599,6 +599,60 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[stick, metals.tin.ingot, null],
 			[null, null, null]
 		]
+	],
+
+	//ContentTweaker
+	<contenttweaker:bronze_chest> : [
+		[
+			[metals.bronze.plate, null, metals.bronze.plate],
+			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
+			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate]
+		]
+	],
+	<contenttweaker:bronze_feet> : [
+		[
+			[metals.bronze.plate, null, metals.bronze.plate],
+			[metals.bronze.plate, null, metals.bronze.plate]
+		]
+	],
+	<contenttweaker:bronze_head> : [
+		[
+			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
+			[metals.bronze.plate, null, metals.bronze.plate]
+		]
+	],
+	<contenttweaker:bronze_legs> : [
+		[
+			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
+			[metals.bronze.plate, null, metals.bronze.plate],
+			[metals.bronze.plate, null, metals.bronze.plate]
+		]
+	],
+	<contenttweaker:copper_chest> : [
+		[
+			[metals.copper.plate, null, metals.copper.plate],
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate]
+		]
+	],
+	<contenttweaker:copper_feet> : [
+		[
+			[metals.copper.plate, null, metals.copper.plate],
+			[metals.copper.plate, null, metals.copper.plate]
+		]
+	],
+	<contenttweaker:copper_head> : [
+		[
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[metals.copper.plate, null, metals.copper.plate]
+		]
+	],
+	<contenttweaker:copper_legs> : [
+		[
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[metals.copper.plate, null, metals.copper.plate],
+			[metals.copper.plate, null, metals.copper.plate]
+		]
 	]
 };
 

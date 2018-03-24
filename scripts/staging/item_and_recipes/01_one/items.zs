@@ -723,6 +723,14 @@ var stage1Items as IIngredient[] = [
 	<primal:storage_crate>,
 
 	//Content Tweaker
+	<contenttweaker:bronze_chest>,
+	<contenttweaker:bronze_feet>,
+	<contenttweaker:bronze_head>,
+	<contenttweaker:bronze_legs>,
+	<contenttweaker:copper_chest>,
+	<contenttweaker:copper_feet>,
+	<contenttweaker:copper_head>,
+	<contenttweaker:copper_legs>,
 	<materialpart:aquamarine:ore_minecraft_stone>,
 
 	//Better With Mods

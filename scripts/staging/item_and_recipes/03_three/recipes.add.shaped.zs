@@ -66,7 +66,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<ore:stickTreatedWood>, <tconstruct:knife_blade>.withTag({Material: "iron"})], [null, <ore:stickTreatedWood>]]
 	],
 
-	<betterwithmods:rope>*3 : [
+	<betterwithmods:rope> : [
 		[
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],

@@ -5,24 +5,34 @@ import mods.armoreablemobs.ArmorGroup;
 
 static defaultArmorDropChance as double = 0.15;
 
+static mobEntities as ArmorEntity[string] = {
+	"abyssalcraft:depthsghoul": ArmorHandler.createArmorEntity("abyssalcraft:depthsghoul"),
+	"mekanism:babyskeleton": ArmorHandler.createArmorEntity("mekanism:babyskeleton"),
+	"minecraft:husk": ArmorHandler.createArmorEntity("minecraft:husk"),
+	"minecraft:skeleton": ArmorHandler.createArmorEntity("minecraft:skeleton"),
+	"minecraft:zombie": ArmorHandler.createArmorEntity("minecraft:zombie"),
+	"minecraft:zombie_pigman": ArmorHandler.createArmorEntity("minecraft:zombie_pigman"),
+	"minecraft:zombie_villager": ArmorHandler.createArmorEntity("minecraft:zombie_villager")
+};
+
 static armorableMobEntities as ArmorEntity[] = [
-	ArmorHandler.createArmorEntity("minecraft:husk").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_pigman").withNBTCheck("IsBaby", 0, "TAG_MISSING"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
+	mobEntities["minecraft:husk"].withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	mobEntities["minecraft:zombie"].withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	mobEntities["minecraft:zombie_pigman"].withNBTCheck("IsBaby", 0, "TAG_MISSING"),
+	mobEntities["minecraft:zombie_villager"]
 ];
 
 /*
 	Clear mobs
 */
 var mobEntitiesToClear as ArmorEntity[] = [
-	ArmorHandler.createArmorEntity("abyssalcraft:depthsghoul"),
-	ArmorHandler.createArmorEntity("mekanism:babyskeleton"),
-	ArmorHandler.createArmorEntity("minecraft:husk"),
-	ArmorHandler.createArmorEntity("minecraft:skeleton"),
-	ArmorHandler.createArmorEntity("minecraft:zombie"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_pigman"),
-	ArmorHandler.createArmorEntity("minecraft:zombie_villager")
+	mobEntities["abyssalcraft:depthsghoul"],
+	mobEntities["mekanism:babyskeleton"],
+	mobEntities["minecraft:husk"],
+	mobEntities["minecraft:skeleton"],
+	mobEntities["minecraft:zombie"],
+	mobEntities["minecraft:zombie_pigman"],
+	mobEntities["minecraft:zombie_villager"]
 ];
 
 var blankGroup = ArmorHandler.createArmorGroup("Blank", 1.0);

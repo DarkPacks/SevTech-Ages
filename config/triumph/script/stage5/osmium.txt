@@ -4,7 +4,7 @@ setIcon("geolosys:cluster", 12)
 
 setDescription("Find a surface sample and dig for Osmium! The ore is located between Y2 to 10")
 
-setParent("triumph:stage4/prospector4")
+setParent("triumph:stage5/prospectorstage5")
 setRequiresParent(true)
 
 //Criteria

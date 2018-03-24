@@ -1,150 +1,160 @@
---------------------------------------------------------------------------------------------------------------------------
+Open the Advancements Window to find out how to progress (Default key "L")
 
-§l§nAlpha 10
-* §3Fixed the Wooden Basin recipes
+WAILA and a Map are not available from the beginning of the modpack, they need to be unlocked. There are many blocks that are hidden until unlocked through progression!
+
+**Be aware, if you change a resource pack while the pack is running you will need to fully restart the game due to an issue with items not hiding correctly and recipes not showing. Sorry for the inconvenience!**
+
+For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.
+
+
+
+---------------------------------------------------------------------
+
+Alpha 10
+* Fixed the Wooden Basin recipes
 * Altered the consumption chance of liquid starlight for the Stardust recipe
-* §3Disabled Buildcraft world generation
+* Disabled Buildcraft world generation
 * Fully converted skillable skills to advancements
-* §3Added "Wooden Barrel" and "Market" advancements
+* Added "Wooden Barrel" and "Market" advancements
 * Removed Wooden Tools
-* §3Added recipe for Primal Barrel
+* Added recipe for Primal Barrel
 * Added a "nicer" recipe for BWM rope as you progress
-* §3Modified BWM Wooden Axle Recipe
+* Modified BWM Wooden Axle Recipe
 * Adjusted recipe for I.E. Pump
-* §3Added "nicer" recipe for Tcon smeltery parts as you progress
+* Added "nicer" recipe for Tcon smeltery parts as you progress
 * Added Viescraft Core, Frame, Engine, and Balloon recipes
-* §3Adjusted 4x Minecraft torch recipe
+* Adjusted 4x Minecraft torch recipe
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 9
-* §3Turned the Better With Mods hunger mechanic off. Sorry for calling everyone fat and obese FeelsBadMan
+Alpha 9
+* Turned the Better With Mods hunger mechanic off. Sorry for calling everyone fat and obese FeelsBadMan
 * Added marble, limestone, and slate to stage 0 so you can now interact with them. I swear it actually works this time
-* §3Turned village generation down slightly
+* Turned village generation down slightly
 * Turned trumpet skeletons off in the Twilight, they were a bit too frequent
-* §3Allowed the use of Industrial Hemp earlier and added a recipe for BWM Hemp Rope in stage 1 that gives 3x
+* Allowed the use of Industrial Hemp earlier and added a recipe for BWM Hemp Rope in stage 1 that gives 3x
 * Cleaned up / deleted old config files
-* §3Netherrack was added to the compression list
+* Netherrack was added to the compression list
 * Totempedia is now a shapeless recipe and edited others to be craftable in 2x2 grids
-* §3Fixed a number of Advancements not giving rewards
+* Fixed a number of Advancements not giving rewards
 * A number of Scripts have been cleaned up
-* §3Removed the Garden Stuff mod
+* Removed the Garden Stuff mod
 * Added Buildcraft for testing purposes
-* §3Staged the PlayerSkins mod and configured
+* Staged the PlayerSkins mod and configured
 * Storage Drawer upgrades can now be crafted
-* §3Removed the Skillable Roadwalk upgrade
+* Removed the Skillable Roadwalk upgrade
 * Doubled the amount of Luminessence recieved from recipe
-* §3Increased the amount of rails per crafting operation
+* Increased the amount of rails per crafting operation
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 8
-* §3This update will most likely break your current world due to passing the block limit
+Alpha 8
+* This update will most likely break your current world due to passing the block limit
 * Removed Viescraft tweaker as it's no longer needed
-* §3Added Mystical Agriculture and Agggggggggraditions and turned off all essence drops
+* Added Mystical Agriculture and Agggggggggraditions and turned off all essence drops
 * Hid Redstone blocks and disabled redstone to be used during stage 2
-* §3Removed Glowstone, redstone, and redstone blocks from loot tables
+* Removed Glowstone, redstone, and redstone blocks from loot tables
 * Added the Fat Cat Industrialist to the Stage 3 mob spawn table and gave him some pretty cool loot
-* §3Removed a number of decorative blocks from Chisel and Quark to lower total block number
+* Removed a number of decorative blocks from Chisel and Quark to lower total block number
 * Added Advanced Rocketry and began configuring for the pack
-* §3Added recipes for Viescraft using the Extended Crafting tables
+* Added recipes for Viescraft using the Extended Crafting tables
 * Removed the Trash Slot mod
-* §3Staged Actually Additions and removed items from the Ball of Fur drop table
+* Staged Actually Additions and removed items from the Ball of Fur drop table
 * Thanks to Dawenzel, all the Tcon parts have been staged and will show in JEI when you unlock them
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 7
-* §3Added a Stage 1 recipe to Ember Dials
+Alpha 7
+* Added a Stage 1 recipe to Ember Dials
 * Charcoal and Coal blocks can now be ground down into pieces of charcoal and coal
-* §3Reworked the torch recipes a bit
+* Reworked the torch recipes a bit
 * Adjusted the flint crafting recipes
-* §3Tinker Tool Leveling now has a higher XP requirement
+* Tinker Tool Leveling now has a higher XP requirement
 * Slats have recipes now
-* §3Staged carpet recipes
+* Staged carpet recipes
 * Changed Teacups to use porcelain
-* §3Updated the meshes and recipes
+* Updated the meshes and recipes
 * Fixed the Better With Mods removal scripts not working
-* §3Dung Pipe advancement now allows either item to be placed and not both
+* Dung Pipe advancement now allows either item to be placed and not both
 * Removed the skillable requirements for seeds
-* §3Added a number of new advancements including the beginnings of stage 3
+* Added a number of new advancements including the beginnings of stage 3
 * Reduced the amount of Charcoal acquired from Low Grade Charcoal
-* §3Sleeping Mat has functionality to change whether it will set your spawn or not, check the tooltip for info
+* Sleeping Mat has functionality to change whether it will set your spawn or not, check the tooltip for info
 * Constantan can not be alloyed in a smeltery any longer, it requires using Immersive Engineering methods
-* §3Reduced Direwolf damage yet again!
+* Reduced Direwolf damage yet again!
 * Cleaned up the Recurrent Complex structures, hopefully they should be spawning in the correct biomes or dimensions
-* §3Turned down the spawning of Cobalt and Ardite ore in the Nether
+* Turned down the spawning of Cobalt and Ardite ore in the Nether
 * Removed the extra Uranium Ore Clusters so there should NOT be anymore "glowing" blocks on the surface
-* §3Added Iron Backpacks and put it in stage 2
+* Added Iron Backpacks and put it in stage 2
 * Added a fleece recipe in stage 1
-* §3Lowered the amount of sugar cane needed for a wicker panel to 4 instead of 9
+* Lowered the amount of sugar cane needed for a wicker panel to 4 instead of 9
 * Increased the droprate of Ender Pearl dust to 50% instead of 25%
-* §3Disabled the mining upgrade functionality of the Tinkers' sharpening kits since these basically allow you to circumnavigate progression
+* Disabled the mining upgrade functionality of the Tinkers' sharpening kits since these basically allow you to circumnavigate progression
 * Removed the Embers Melter due to it not able to be tweaked
-* §3Fixed string recipes using fleece and shears
+* Fixed string recipes using fleece and shears
 * Removed the glowstone drops from Spritelings
-* §3Initial cleanup of Bedrock Ores
+* Initial cleanup of Bedrock Ores
 * Added an advancement page for Stage 4 and 5 along with root and entry advancements
-* §3Recipes should now be hidden when in the incorrect stage along with certain items
+* Recipes should now be hidden when in the incorrect stage along with certain items
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 6
-* §3Fixed the hand grindstone to be craftable/usable at the correct time
+Alpha 6
+* Fixed the hand grindstone to be craftable/usable at the correct time
 * All golems should now trigger the golem advancement
-* §3Added a water requirement to the crafting recipe for pulp
+* Added a water requirement to the crafting recipe for pulp
 * Added a parent requirement to many advancements
-* §3Fixed the wrong block assigned to complete the pedestal advancement
+* Fixed the wrong block assigned to complete the pedestal advancement
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 5
-* §3Updated the modpack to Minecraft version 1.12.2
+Alpha 5
+* Updated the modpack to Minecraft version 1.12.2
 * Fixed the Wooden Basin Mulberry Pulp recipe, it was backwards
-* §3Removed Stellar Sky and Stellar API mods for the time being in an attempt for better overall pack performance
+* Removed Stellar Sky and Stellar API mods for the time being in an attempt for better overall pack performance
 * Added Unidict to unify Ingots, plates, etc.
-* §3Added back Embers recipes
+* Added back Embers recipes
 * Disabled Actually Additions Crystal Spawning
 * Added the Astral Sorcery Ores to the Tier 2 Prospector
 
---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
-§l§nAlpha 4
-* §3Changed the total amount of materials for Tool grid repair to 3 instead of 4
+Alpha 4
+* Changed the total amount of materials for Tool grid repair to 3 instead of 4
 * Cleaned up a number of unnecessary config files
-* §3Added a new gif for the loading screen
+* Added a new gif for the loading screen
 * Disabled Better With Mods Pollution and Weather Control in the config
-* §3The Bronze Block can now be hammered into Ingots on the Stone Anvil
+* The Bronze Block can now be hammered into Ingots on the Stone Anvil
 * Disabled Quark's multi-textured animals
-* §3Fixed a number of items to use Advancements instead of XP levels to use/place
+* Fixed a number of items to use Advancements instead of XP levels to use/place
 * Completed the Iron Chest recipes up to stage 2
-* §3Added a number of new advancements
+* Added a number of new advancements
 * Switched Nuclear Physics to large ore veins using Geolosys
-* §3Increased the durability of Better Builder's Wands and Chisel items
+* Increased the durability of Better Builder's Wands and Chisel items
 * Assigned a number of items to their correct Game Stages
-* §3Edited values of the Immersive Engineering config to disallow oregen in dimension 0(on top of the ores individually disabled) and disabled the I.E. village house(also previously disabled via another method)
+* Edited values of the Immersive Engineering config to disallow oregen in dimension 0(on top of the ores individually disabled) and disabled the I.E. village house(also previously disabled via another method)
 * Removed the Crossroads mod
-* §3Switched Aqua Munda to use 'vanilla' style farmland to avoid crops popping off blocks. This will remove all existing tilled farmland created by players in the world
+* Switched Aqua Munda to use 'vanilla' style farmland to avoid crops popping off blocks. This will remove all existing tilled farmland created by players in the world
 * Added the Nuclear Phyics oregen to the OreTiers hiding file
-* §3Added the Stage 3 trigger into Advancements
+* Added the Stage 3 trigger into Advancements
 * Altered some of the backgrounds for Advancement Stages
-* §3Added parts for Steeleaf and Fiery Ingots from the Twilight Forest to be used in advanced recipes
+* Added parts for Steeleaf and Fiery Ingots from the Twilight Forest to be used in advanced recipes
 * Removed a number of items from the Twilight Forest Loot tables
-* §3Removed Bedrock ores from the Carry On mod
+* Removed Bedrock ores from the Carry On mod
 * Primal Tech added a Wooden Basin allowing more efficient methods of creating dough, leather, etc. has JEI support
-* §3Debarked Birch logs can now be chopped up
+* Debarked Birch logs can now be chopped up
 * Added a new Roots structure to worldgen
-* §3Lowered the limit for how many Amphibians, peacocks, ferrets, and hamster type mobs can spawn in the world from Animania
+* Lowered the limit for how many Amphibians, peacocks, ferrets, and hamster type mobs can spawn in the world from Animania
 * Slightly lowered the spawn frequency for Fish
-* §3Lowered the max Y limit Magma monsters can spawn to 50
+* Lowered the max Y limit Magma monsters can spawn to 50
 * Lowered the total amount of Horses and Golems allowed in the world
-* §3Changed the world to generate in a logical 'heat map', cold biomes are far north or south, and warmer biomes are between
+* Changed the world to generate in a logical 'heat map', cold biomes are far north or south, and warmer biomes are between
 * Staged a number of mods in the pack in terms of recipes
-* §3Added text to a variety of advancements to help the player to complete them easier
+* Added text to a variety of advancements to help the player to complete them easier
 * Added a side quest advancement to defeat the Boss "baykok" from Totemic and unlock arrows sooner
-* §3Added the Weirding Gadget mod to allow chunkloading in stage 2
+* Added the Weirding Gadget mod to allow chunkloading in stage 2
 * Added the Caravans mod back into the pack with a small amount of trades available
-* §3Removed the chest inventory search bar
+* Removed the chest inventory search bar
 * Added the correct Fir Log slab recipe
-* §3Converted a number of recipes to be Shaped Mirrored
+* Converted a number of recipes to be Shaped Mirrored
 * Fixed Barley Flour cooking the incorrect item on a firepit (now makes flatbread)

@@ -18,8 +18,11 @@ mods.recipestages.Recipes.setPackageStage("com.raoulvdberge.refinedstorage", all
 //RFtools Crafters
 mods.recipestages.Recipes.setPackageStage("mcjty.rftools.blocks.crafter", allStages);
 
-//Steve's Carts Crafters
-mods.recipestages.Recipes.setPackageStage("vswe", [STAGES.tutorial, STAGES.zero, STAGES.baykok, STAGES.one, STAGES.two, STAGES.three]);
-
 //Inductive Logistics Automatic Crafters
 mods.recipestages.Recipes.setPackageStage("cd4017be.lib.Gui", [STAGES.tutorial, STAGES.baykok, STAGES.zero, STAGES.one, STAGES.two, STAGES.three, STAGES.four]);
+
+//Auto Workbench Buildcraft
+mods.recipestages.Recipes.setPackageStage("buildcraft.lib.tile.craft.WorkbenchCrafting", [STAGES.tutorial, STAGES.baykok, STAGES.zero, STAGES.one, STAGES.two, STAGES.three, STAGES.four]);
+
+//Cyclic Auto Crafter
+mods.recipestages.Recipes.setPackageStage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", allStages);

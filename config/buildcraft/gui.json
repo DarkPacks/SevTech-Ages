@@ -7,7 +7,7 @@
       "boolean": false
     },
     "ledger.help.is_open": {
-      "boolean": true
+      "boolean": false
     },
     "ledger.owner.is_open": {
       "boolean": false

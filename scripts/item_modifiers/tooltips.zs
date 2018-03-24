@@ -149,3 +149,14 @@
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in "));
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("Shrines, Cragrock Towers"));
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("and the Wight Fortress"));
+
+<indlog:auto_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));
+<indlog:portable_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));
+
+<buildcraftfactory:autoworkbench_item>.addTooltip(format.red("Only able to craft Age 4 items and below"));
+
+<rftools:crafter1>.addTooltip(format.red("Able to craft Age 5 items and below"));
+<rftools:crafter2>.addTooltip(format.red("Able to craft Age 5 items and below"));
+<rftools:crafter3>.addTooltip(format.red("Able to craft Age 5 items and below"));
+
+<cyclicmagic:auto_crafter>.addTooltip(format.red("Able to craft Age 5 items and below"));

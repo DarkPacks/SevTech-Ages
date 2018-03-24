@@ -75,7 +75,6 @@ for material in gearMaterialList {
 //==================================
 //Ore Samples
 var oreSampleMaterials as Material[] = [
-	materials.coralium,
 	materials.osmium,
 	materials.silicon
 ];

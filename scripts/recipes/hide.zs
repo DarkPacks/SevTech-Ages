@@ -389,6 +389,7 @@ static hideItems as IItemStack[] = [
 	<primal:ore_bog_iron>,
 	<primal:ore_iron>,
 	<primal:ore_magnetite>,
+	<primal:ore_salt:2>,
 	<primal:ovis_meat_rotten>,
 	<primal:ovis_milk_bottle>,
 	<primal:ovis_wool>,

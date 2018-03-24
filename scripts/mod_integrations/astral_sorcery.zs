@@ -34,12 +34,12 @@ Altar.addAttunmentAltarRecipe(<astralsorcery:blockcustomore:1> * 1, 1400, 600, [
 ]);
 
 //Conversion Wand
-Altar.removeAltarRecipe(<astralsorcery:itemexchangewand>, 0);
+Altar.removeAltarRecipe(<astralsorcery:itemexchangewand>, 1);
 Altar.addAttunmentAltarRecipe(<astralsorcery:itemexchangewand> * 1, 600, 180, [
 	null, <astralsorcery:itemcraftingcomponent:2>, <thebetweenlands:crimson_middle_gem>,
 	<thebetweenlands:crimson_middle_gem>, <astralsorcery:blockmarble:6>, null,
 	<astralsorcery:blockmarble:6>, null, null,
-	<astralsorcery:blockmarble:6>, null, null, null
+	null, null, <astralsorcery:blockmarble:6>, null
 ]);
 
 

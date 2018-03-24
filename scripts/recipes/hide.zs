@@ -94,6 +94,7 @@ static hideItems as IItemStack[] = [
 	<rustic:dust_tiny_iron>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<sev_tweaks_npc:golden_ladder_of_ascension>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -395,8 +396,6 @@ static hideItems as IItemStack[] = [
 	<primal:pitfall>,
 	<primal:planks:2>,
 	<primal:plant_tinder>,
-	<primal:pressure_plate:1>,
-	<primal:pressure_plate>,
 	<primal:rock_andesite>,
 	<primal:rock_diorite>,
 	<primal:rock_granite>,
@@ -456,6 +455,9 @@ static hideItems as IItemStack[] = [
 	<primal:wood_pin>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
+	<primal:door_yew>,
+	<primal:gate_corypha>,
+	<primal:drain_ciniscotta>,
 
 	//Tinkers
 	<tconstruct:moms_spaghetti>,

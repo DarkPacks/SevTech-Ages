@@ -523,7 +523,10 @@ var itemsForStage as IIngredient[] = [
 	<bloodmagic:path:2>,
 	<bloodmagic:path:3>,
 	<bloodmagic:path:4>,
-	<bloodmagic:path:5>
+	<bloodmagic:path:5>,
+
+	//Galacticraft
+	<galacticraftcore:food:6>
 ];
 
 for item in itemsForStage {

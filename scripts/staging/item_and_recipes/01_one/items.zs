@@ -1053,7 +1053,9 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:soul_gem:1>,
 	<bloodmagic:soul_gem>,
 	<bloodmagic:soul_snare>,
-	<guideapi:bloodmagic-guide>
+	<guideapi:bloodmagic-guide>,
+
+	<cyclicmagic:food_step>
 ];
 
 for item in stage1Items {

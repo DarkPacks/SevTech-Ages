@@ -717,6 +717,7 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:singularity:*>,
 	<extendedcrafting:singularity_custom:1>,
 	<extendedcrafting:singularity_custom:2>,
+	<extendedcrafting:singularity_custom:3>,
 	<extendedcrafting:singularity_ultimate>,
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
@@ -1058,6 +1059,14 @@ var stage5Items as IIngredient[] = [
 	<galacticraftplanets:walkway>,
 	<galacticraftplanets:web_torch:1>,
 	<galacticraftplanets:web_torch>,
+	<galacticraftcore:food>,
+	<galacticraftcore:food:1>,
+	<galacticraftcore:food:2>,
+	<galacticraftcore:food:3>,
+	<galacticraftcore:food:5>,
+	<galacticraftcore:food:8>,
+	<galacticraftcore:food:4>,
+	<galacticraftcore:food:9>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

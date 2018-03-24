@@ -155,6 +155,21 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:energycube>.withTag({
 	[<appliedenergistics2:dense_energy_cell>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <overloaded:hyper_energy_sender>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <ore:itemCompressedObsidian>, <appliedenergistics2:dense_energy_cell>]
 ]);
 
+//Pneumaticraft Creative Compressor
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <pneumaticcraft:creative_compressor>, [
+	[<ore:compressedTitanium>, <ore:compressedMeteoricIron>, <ore:compressedDesh>, <ore:compressedDesh>, <overloaded:compressed_obsidian:3>, <ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:compressedTitanium>], 
+	[<ore:compressedMeteoricIron>, <ore:itemCompressedObsidian>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:4>, <pneumaticcraft:liquid_compressor>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:4>, <ore:itemCompressedObsidian>, <ore:compressedMeteoricIron>], 
+	[<ore:compressedDesh>, <actuallyadditions:item_crystal_empowered:2>, <ore:itemCompressedDiamond>, <pneumaticcraft:flux_compressor>, <mekanism:machineblock:7>, <pneumaticcraft:flux_compressor>, <ore:itemCompressedDiamond>, <actuallyadditions:item_crystal_empowered:2>, <ore:compressedDesh>], 
+	[<pneumaticcraft:pressure_chamber_valve>, <actuallyadditions:item_crystal_empowered:2>, <pneumaticcraft:advanced_liquid_compressor>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:3>, <extendedcrafting:compressor>, <pneumaticcraft:advanced_liquid_compressor>, <actuallyadditions:item_crystal_empowered:2>, <pneumaticcraft:pressure_chamber_valve>], 
+	[<overloaded:compressed_obsidian:3>, <pneumaticcraft:liquid_compressor>, <mekanism:machineblock:7>, <extendedcrafting:singularity_custom:3>, <overloaded:compressed_cobblestone:7>, <extendedcrafting:singularity_custom:3>, <mekanism:machineblock:7>, <pneumaticcraft:liquid_compressor>, <overloaded:compressed_obsidian:3>], 
+	[<pneumaticcraft:pressure_chamber_valve>, <actuallyadditions:item_crystal_empowered:2>, <pneumaticcraft:advanced_liquid_compressor>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:3>, <extendedcrafting:compressor>, <pneumaticcraft:advanced_liquid_compressor>, <actuallyadditions:item_crystal_empowered:2>, <pneumaticcraft:pressure_chamber_valve>], 
+	[<ore:compressedDesh>, <actuallyadditions:item_crystal_empowered:2>, <ore:itemCompressedDiamond>, <pneumaticcraft:flux_compressor>, <mekanism:machineblock:7>, <pneumaticcraft:flux_compressor>, <ore:itemCompressedDiamond>, <actuallyadditions:item_crystal_empowered:2>, <ore:compressedDesh>], 
+	[<ore:compressedMeteoricIron>, <ore:itemCompressedObsidian>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:4>, <pneumaticcraft:liquid_compressor>, <actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal_empowered:4>, <ore:itemCompressedObsidian>, <ore:compressedMeteoricIron>], 
+	[<ore:compressedTitanium>, <ore:compressedMeteoricIron>, <ore:compressedDesh>, <ore:compressedDesh>, <overloaded:compressed_obsidian:3>, <ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:compressedTitanium>]
+]);
+
+
 /*
 	Ender Crafting
 

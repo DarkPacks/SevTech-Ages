@@ -1223,7 +1223,12 @@ var stage2Items as IIngredient[] = [
 	<bloodmagic:sigil_water>,
 	<bloodmagic:sigil_whirlwind>,
 	<bloodmagic:slate:2>,
-	<bloodmagic:soul_gem:2>
+	<bloodmagic:soul_gem:2>,
+
+	//Galacticraft
+	<galacticraftcore:food:6>,
+	<galacticraftcore:food:7>
+
 ];
 
 for item in stage2Items {

@@ -53,7 +53,6 @@ for partStage, parts in partsStages {
 
 		//Stage part materials
 		for subItem in part.definition.subItems {
-			print(subItem.displayName);
 			if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 				var subItemMaterial as string = subItem.tag.Material.asString();
 				var materialStage as string = scripts.staging.tinkers.getMaterialStage(subItemMaterial);

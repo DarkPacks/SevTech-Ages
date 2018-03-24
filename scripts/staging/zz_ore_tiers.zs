@@ -210,11 +210,6 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<appliedenergistics2:quartz_ore>],
 		[<appliedenergistics2:charged_quartz_ore>],
 
-		//Osmium
-		[<mekanism:oreblock>],
-		[<materialpart:osmium:ore_minecraft_stone>],
-		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock>],
-
 		//Silicon
 		[<galacticraftcore:basic_block_core:8>],
 		[<contenttweaker:sub_block_holder_0:5>, <immcraft:rock>]
@@ -239,7 +234,12 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		//Dimensional Shard Ore
 		[<rftools:dimensional_shard_ore>, <minecraft:magma>],
 		[<rftools:dimensional_shard_ore:1>, <minecraft:glowstone>],
-		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone>]
+		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone>],
+
+		//Osmium
+		[<mekanism:oreblock>],
+		[<materialpart:osmium:ore_minecraft_stone>],
+		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock>]
 	]
 };
 

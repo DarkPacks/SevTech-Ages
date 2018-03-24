@@ -21,9 +21,6 @@ for id in modIDs {
 }
 
 var stage4Items as IIngredient[] = [
-	//Oredict
-	<ore:oreOsmium>,
-
 	<prospectors:prospector_high>,
 
 	/*
@@ -33,7 +30,6 @@ var stage4Items as IIngredient[] = [
 	<immersiveengineering:ore:5>,
 	<materialpart:osmium:ore_minecraft_stone>,
 	<contenttweaker:sub_block_holder_0:5>, //Silicon Ore Sample
-	<contenttweaker:sub_block_holder_0:6>, //Osmium Ore Sample
 
 	//End
 	<betterwithmods:material:39>,
@@ -1098,34 +1094,6 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:syringe:3>,
 	<enderutilities:syringe>,
 	<enderutilities:void_pickaxe>,
-
-	//Mekanism
-	<materialpart:osmium:ore_minecraft_stone>,
-	<materialpart:osmium:ore_sample>,
-	<mekanism:configurator>,
-	<mekanism:controlcircuit>,
-	<mekanism:dust:2>,
-	<mekanism:electrolyticcore>,
-	<mekanism:energytablet>,
-	<mekanism:enrichedalloy>,
-	<mekanism:gastank:*>,
-	<mekanism:ingot:1>,
-	<mekanism:machineblock2:4>,
-	<mekanism:machineblock2:11>.withTag({tier: 1, mekData: {}}),
-	<mekanism:machineblock2:11>.withTag({tier: 2, mekData: {}}),
-	<mekanism:machineblock2:11>.withTag({tier: 3, mekData: {}}),
-	<mekanism:machineblock2:11>,
-	<mekanism:machineblock2>,
-	<mekanism:machineblock:8>,
-	<mekanism:mufflingupgrade>,
-	<mekanism:transmitter:1>.withTag({tier: 1}),
-	<mekanism:transmitter:1>.withTag({tier: 2}),
-	<mekanism:transmitter:1>.withTag({tier: 3}),
-	<mekanism:transmitter:1>,
-	<mekanism:transmitter:2>.withTag({tier: 1}),
-	<mekanism:transmitter:2>.withTag({tier: 2}),
-	<mekanism:transmitter:2>.withTag({tier: 3}),
-	<mekanism:transmitter:2>,
 
 	//Chargers
 	<chargers:charger:1>,

@@ -675,19 +675,6 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:syringe>,
 	<enderutilities:void_pickaxe>,
 
-	//Mekanism
-	<mekanism:configurator>,
-	<mekanism:electrolyticcore>,
-	<mekanism:energytablet>,
-	<mekanism:gastank>,
-	<mekanism:machineblock2:4>,
-	<mekanism:machineblock2:11>,
-	<mekanism:machineblock2>,
-	<mekanism:machineblock:8>,
-	<mekanism:mufflingupgrade>,
-	<mekanism:transmitter:1>,
-	<mekanism:transmitter:2>,
-
 	//Chargers
 	<chargers:charger:1>,
 	<chargers:charger>,

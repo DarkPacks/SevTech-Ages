@@ -27,7 +27,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:paper>, <minecraft:wheat>]
 	],
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit_mk2"}) : [
-		[<minecraft:paper>, , <minecraft:paper>, <minecraft:paper>, <minecraft:leather>]
+		[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:leather>]
 	],
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer"}) : [
 		[<minecraft:paper>, <minecraft:bucket>]

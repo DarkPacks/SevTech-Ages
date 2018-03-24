@@ -60,21 +60,11 @@ Squeezer.removeItemRecipe(<minecraft:leather>); //Remove Rotten Flesh -> Leather
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Crusher/
 */
+Crusher.removeRecipe(<actuallyadditions:item_dust:4>);
+
 Crusher.addRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 3000); //Ground Resin from bark
 Crusher.addRecipe(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 3000);
-Crusher.addRecipe(<pickletweaks:dye_powder:13> * 2, <minecraft:dye:2>, 3000);
 Crusher.addRecipe(<minecraft:dye:15> * 9, <minecraft:bone_block>, 3000);
-
-Crusher.removeRecipe(<actuallyadditions:item_dust:4>);
-Crusher.addRecipe(<pickletweaks:dye_powder:11> * 2, <minecraft:dye:4>, 3000);
-
-Crusher.addRecipe(<pickletweaks:dye_powder:14> * 2, <minecraft:dye:1>, 3000);
-Crusher.addRecipe(<pickletweaks:dye_powder:14> * 1, <rustic:wildberries>, 3000);
-
-Crusher.addRecipe(<minecraft:dye:1> * 4, <minecraft:red_flower>, 3000);
-Crusher.addRecipe(<pickletweaks:dye_powder> * 2, <minecraft:dye:15>, 3000);
-
-Crusher.addRecipe(<minecraft:dye> * 2, <actuallyadditions:block_black_lotus>, 3000);
 
 Crusher.addRecipe(<minecraft:sugar> * 2, <minecraft:reeds>, 3000);
 
@@ -97,6 +87,10 @@ Crusher.addRecipe(<ore:dustObsidian>.firstItem, <ore:obsidian>, 3000); //Obsidia
 Crusher.addRecipe(<horsepower:flour>, <minecraft:wheat>, 3000); //Wheat to Flour
 
 Crusher.addRecipe(<primal:bone_knapp>, <primal:sharp_bone>, 3000); //Sharp Bone to Bone Knapp
+
+//Lapis
+Crusher.removeRecipesForInput(<minecraft:wool:11>);
+Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:11>, 3000, <ore:gemLapis>.firstItem, 0.05);
 
 /*
 	Arc Furnace

@@ -53,7 +53,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowers:13>,
 		<ferdinandsflowers:block_cff_flowersb:8>,
 		<ferdinandsflowers:block_cff_flowersd:6>,
-		<ferdinandsflowers:block_cff_flowersd:8>
+		<ferdinandsflowers:block_cff_flowersd:8>,
+		<minecraft:dye:15>
 	],
 
 	//Orange
@@ -169,7 +170,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowers:4>,
 		<ferdinandsflowers:block_cff_flowersb:7>,
 		<ferdinandsflowers:block_cff_flowersc:5>,
-		<ferdinandsflowers:block_cff_flowersc:6>
+		<ferdinandsflowers:block_cff_flowersc:6>,
+		<minecraft:dye:4>
 	],
 
 	//Brown
@@ -188,7 +190,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:2>,
 		<ferdinandsflowers:block_cff_ouch:1>,
 		<ferdinandsflowers:block_cff_ouch:2>,
-		<ferdinandsflowers:block_cff_ouch>
+		<ferdinandsflowers:block_cff_ouch>,
+		<minecraft:dye:2>
 	],
 
 	//Red
@@ -200,7 +203,10 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersb:5>,
 		<ferdinandsflowers:block_cff_flowersc:8>,
 		<ferdinandsflowers:block_cff_flowersc:13>,
-		<ferdinandsflowers:block_cff_flowersd:2>
+		<ferdinandsflowers:block_cff_flowersd:2>,
+		<minecraft:dye:1>,
+		<minecraft:red_flower>,
+		<rustic:wildberries>
 	],
 
 	<ore:dyeBlack>.firstItem : [
@@ -215,5 +221,17 @@ for dye, items in dyeCrushingRecipes {
 		mods.betterwithmods.Mill.add(dye * 2, null, [item]);
 		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
 		mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
+	}
+}
+
+//Some temporary measures for converting "just in case"
+for i in 0 to 16 {
+	//Dont do lapis
+	if (i != 4) {
+		var dye as IItemStack = <minecraft:dye>.definition.makeStack(i);
+		var pickleDye as IItemStack = <pickletweaks:dye_powder>.definition.makeStack(15 - i);
+
+		recipes.addShapeless(dye, [pickleDye]);
+		recipes.addShapeless(pickleDye, [dye]);
 	}
 }

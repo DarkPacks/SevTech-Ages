@@ -21,6 +21,7 @@ var stage3Items as IIngredient[] = [
 	<betterbuilderswands:wanddiamond>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 	<fat_cat:top_hat>,
+	<galacticraftcore:bucket_oil>,
 	<immersivetech:connectors>,
 	<industrialforegoing:plastic>,
 	<ironchest:iron_chest:6>,

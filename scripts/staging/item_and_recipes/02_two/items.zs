@@ -504,6 +504,7 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:planter:6>,
 	<betterwithmods:planter:7>,
 	<betterwithmods:planter:8>,
+	<betterwithmods:planter:9>,
 	<betterwithmods:planter>,
 	<betterwithmods:stone_corner:1>,
 	<betterwithmods:stone_moulding:1>,

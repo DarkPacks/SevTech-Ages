@@ -81,7 +81,6 @@ var oreSampleMaterials as Material[] = [
 ];
 
 var oreSampleDrops as string[Material] = {
-	materials.coralium: "abyssalcraft:coralium",
 	materials.osmium: "geolosys:cluster:12",
 	materials.silicon: "galacticraftcore:basic_item:2"
 };

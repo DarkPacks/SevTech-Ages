@@ -40,7 +40,9 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<immersiveengineering:fluidconcrete>,
 		<immersiveengineering:fluidcreosote>,
 		<immersiveengineering:fluidethanol>,
-		<immersiveengineering:fluidplantoil>
+		<immersiveengineering:fluidplantoil>,
+		<galacticraftcore:crude_oil_still>,
+		<pneumaticcraft:fluid.kerosene>,
 	],
 
 	STAGES.four : [
@@ -48,7 +50,9 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<car:canola_methanol_mix>,
 		<car:canola_oil>,
 		<car:methanol>,
-		<galacticraftcore:fuel>
+		<galacticraftcore:fuel>,
+		<pneumaticcraft:fluid.etchacid>,
+		<pneumaticcraft:fluid.lpg>
 	],
 
 	STAGES.five : [
@@ -103,6 +107,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:ethanol>,
 		<liquid:gasoline>,
 		<liquid:glowstone>,
+		<liquid:kerosene>,
 		<liquid:lubricant>,
 		<liquid:napalm>,
 		<liquid:naphtha>,
@@ -122,7 +127,6 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:fuel>,
 		<liquid:if.pink_slime>,
 		<liquid:if.protein>,
-		<liquid:kerosene>,
 		<liquid:latex>,
 		<liquid:lpg>,
 		<liquid:meat>,
@@ -189,8 +193,3 @@ for stage, liquidNames in liquidsNamesForBucketStaging {
 		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredientFromName(liquidName));
 	}
 }
-
-//TODO: These don't do anything
-//mods.ItemStages.stageLiquid("five", <liquid:refinedcanolaoil>);
-//mods.ItemStages.stageLiquid("five", <liquid:crystaloil>);
-//mods.ItemStages.stageLiquid("five", <liquid:empoweredoil>);

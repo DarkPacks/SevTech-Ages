@@ -22,6 +22,7 @@ static removeAndHideItems as IItemStack[] = [
 	<actuallyadditions:item_wings_of_the_bats>,
 	<advancedmortars:mortar:2>,
 	<advancedmortars:mortar:3>,
+	<astikoor:chariot>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,

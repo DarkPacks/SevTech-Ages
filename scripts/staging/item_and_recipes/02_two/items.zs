@@ -942,6 +942,8 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:1>,
 	<abyssalcraft:yogsothothcharm>,
 	<abyssalcraft:yogsothothcoin>,
+	<abyssalcraft:antidote>,
+	<abyssalcraft:antidote:1>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,

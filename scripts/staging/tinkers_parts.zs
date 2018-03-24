@@ -52,11 +52,14 @@ for partStage, parts in partsStages {
 		mods.ItemStages.addItemStage(partStage, <tconstruct:clay_cast>.withTag({PartType: part.definition.id}));
 
 		//Stage part materials
-		for materialStage, materials in scripts.staging.tinkers.materialsForStage {
-			var stage = scripts.utils.getHighestStage(partStage, materialStage);
+		for subItem in part.definition.subItems {
+			print(subItem.displayName);
+			if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
+				var subItemMaterial as string = subItem.tag.Material.asString();
+				var materialStage as string = scripts.staging.tinkers.getMaterialStage(subItemMaterial);
+				var stage = scripts.utils.getHighestStage(partStage, materialStage);
 
-			for material in materials {
-				mods.ItemStages.addItemStage(stage, part.withTag({Material: material}));
+				mods.ItemStages.addItemStage(stage, subItem);
 			}
 		}
 	}

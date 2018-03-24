@@ -94,6 +94,7 @@ static materialsForStage as string[][string] = {
 		"iron",
 		"knightmetal",
 		"leaf",
+		"nagascale",
 		"prismarine",
 		"reed",
 		"refined_coralium",
@@ -164,5 +165,15 @@ var modifierStages as string[][string] = {
 for stage, modifiers in modifierStages {
 	for modifier in modifiers {
 		TinkerStages.addToolTypeStage(stage, modifier);
+	}
+}
+
+//==================================
+//Functions
+function getMaterialStage(inMaterial as string) as string {
+	for materialStage, materials in scripts.staging.tinkers.materialsForStage {
+		if (materials has inMaterial.toLowerCase()) {
+			return materialStage;
+		}
 	}
 }

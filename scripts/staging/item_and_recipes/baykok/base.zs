@@ -1,4 +1,4 @@
-#priority -1
+#priority -3
 
 /*
 	Stage from killing Baykok

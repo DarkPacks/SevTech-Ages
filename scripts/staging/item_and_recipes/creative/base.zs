@@ -1,4 +1,4 @@
-#priority -1
+#priority -3
 
 import crafttweaker.item.IItemStack;
 
@@ -14,7 +14,6 @@ var creativeItems as IItemStack[] = [
 ];
 
 for item in creativeItems {
-	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage(STAGE, item);
 }
 
@@ -87,6 +86,5 @@ var creativeUnusedItems as IItemStack[] = [
 ];
 
 for item in creativeUnusedItems {
-	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage("creative_unused", item);
 }

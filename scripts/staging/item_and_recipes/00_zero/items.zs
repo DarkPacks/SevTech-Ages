@@ -786,7 +786,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:night_stone:5>,
 	<primal:night_stone:6>,
 	<primal:night_stone>,
-	<primal:ore_salt:2>,
 	<primal:ore_salt>,
 	<primal:ortho_stone:1>,
 	<primal:ortho_stone:2>,

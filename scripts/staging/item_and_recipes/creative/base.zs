@@ -5,6 +5,19 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.creative;
 
 var creativeItems as IItemStack[] = [
+	<ironjetpacks:creative_cell>,
+	<ironjetpacks:creative_jetpack>,
+	<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
+	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}),
+	<pneumaticcraft:creative_compressor>,
+	<tconstruct:materials:50>
+];
+
+for item in creativeItems {
+	mods.ItemStages.addItemStage(STAGE, item);
+}
+
+var creativeUnusedItems as IItemStack[] = [
 	<betterwithmods:creative_generator>,
 	<bloodmagic:activation_crystal:2>,
 	<bloodmagic:altar_maker>,
@@ -25,24 +38,18 @@ var creativeItems as IItemStack[] = [
 	<galacticraftplanets:rocket_t3:4>,
 	<immersiveengineering:metal_device0:3>,
 	<ironjetpacks:creative_capacitor>,
-	<ironjetpacks:creative_cell>,
-	<ironjetpacks:creative_jetpack>,
 	<ironjetpacks:creative_thruster>,
 	<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}),
-	<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
 	<mekanism:energycube>.withTag({tier: 4, mekData: {}}),
-	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}),
 	<modularmachinery:itemconstructtool>,
-	<pneumaticcraft:creative_compressor>,
 	<stevescarts:cartmodule:96>,
 	<stevescarts:cartmodule:97>,
 	<storagedrawers:upgrade_creative:1>,
 	<storagedrawers:upgrade_creative>,
-	<tconstruct:materials:50>,
 	<totemic:ceremony_cheat>,
 	<waterstrainer:super_worm>
 ];
 
-for item in creativeItems {
-	mods.ItemStages.addItemStage(STAGE, item);
+for item in creativeUnusedItems {
+	mods.ItemStages.addItemStage("creative_unused", item);
 }

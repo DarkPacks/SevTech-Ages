@@ -9,6 +9,7 @@ config/cd4017be/inductiveLogistics.rcp
 config/cd4017be/compiled.dat
 config/jei/worldSettings.cfg
 config/splash.properties
+config/worldutils/*
 
 #IDE
 .idea/

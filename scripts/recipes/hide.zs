@@ -95,6 +95,7 @@ static hideItems as IItemStack[] = [
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
 	<sev_tweaks_npc:golden_ladder_of_ascension>,
+	<astralsorcery:itemchargedcrystalpickaxe>, // <-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

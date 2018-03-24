@@ -77,4 +77,7 @@ LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Infusion/
 */
+
+StarlightInfusion.removeInfusion(<astralsorcery:itemchargedcrystalpickaxe>);
+
 StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 0.25, 300);

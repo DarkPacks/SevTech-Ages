@@ -1,0 +1,24 @@
+setTitle("Sharpest Dressed Man")
+
+setIcon("extraplanets:tier4_space_suit_helmet")
+
+setDescription("Craft the full Tier 4 Space Suit to protect you from higher levels of pressure and radiation when going to farther planets")
+
+setParent("triumph:stage5/saturn")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extraplanets:tier4_space_suit_helmet")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extraplanets:tier4_space_suit_chest")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("extraplanets:tier4_space_suit_legings")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("extraplanets:tier4_space_suit_boots")
+
+//Rewards
+setRewardExperience(12)

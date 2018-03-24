@@ -710,6 +710,232 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.rod, metals.iron.rod],
 			[<extendedcrafting:material:2>, <astralsorcery:itemcraftingcomponent:2>]
 		]
+	],
+
+	//Natura
+	<natura:overworld_bookshelves> : [
+		[
+			[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]
+		]
+	],
+	<natura:overworld_bookshelves:1> : [
+		[
+			[<natura:overworld_planks:1>, <natura:overworld_planks:1>, <natura:overworld_planks:1>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:1>, <natura:overworld_planks:1>, <natura:overworld_planks:1>]
+		]
+	],
+	<natura:overworld_bookshelves:2> : [
+		[
+			[<natura:overworld_planks:2>, <natura:overworld_planks:2>, <natura:overworld_planks:2>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:2>, <natura:overworld_planks:2>, <natura:overworld_planks:2>]
+		]
+	],
+	<natura:overworld_bookshelves:3> : [
+		[
+			[<natura:overworld_planks:3>, <natura:overworld_planks:3>, <natura:overworld_planks:3>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:3>, <natura:overworld_planks:3>, <natura:overworld_planks:3>]
+		]
+	],
+	<natura:overworld_bookshelves:4> : [
+		[
+			[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>]
+		]
+	],
+	<natura:overworld_bookshelves:5> : [
+		[
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
+		]
+	],
+	<natura:overworld_bookshelves:6> : [
+		[
+			[<natura:overworld_planks:6>, <natura:overworld_planks:6>, <natura:overworld_planks:6>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:6>, <natura:overworld_planks:6>, <natura:overworld_planks:6>]
+		]
+	],
+	<natura:overworld_bookshelves:7> : [
+		[
+			[<natura:overworld_planks:7>, <natura:overworld_planks:7>, <natura:overworld_planks:7>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:7>, <natura:overworld_planks:7>, <natura:overworld_planks:7>]
+		]
+	],
+	<natura:overworld_bookshelves:8> : [
+		[
+			[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>]
+		]
+	],
+	<natura:maple_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks>, stick],
+			[stick, <natura:overworld_planks>, stick]
+		]
+	],
+	<natura:silverbell_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:1>, stick],
+			[stick, <natura:overworld_planks:1>, stick]
+		]
+	],
+	<natura:amaranth_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:2>, stick],
+			[stick, <natura:overworld_planks:2>, stick]
+		]
+	],
+	<natura:tiger_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:3>, stick],
+			[stick, <natura:overworld_planks:3>, stick]
+		]
+	],
+	<natura:willow_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:4>, stick],
+			[stick, <natura:overworld_planks:4>, stick]
+		]
+	],
+	<natura:eucalyptus_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:5>, stick],
+			[stick, <natura:overworld_planks:5>, stick]
+		]
+	],
+	<natura:hopseed_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:6>, stick],
+			[stick, <natura:overworld_planks:6>, stick]
+		]
+	],
+	<natura:sakura_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:7>, stick],
+			[stick, <natura:overworld_planks:7>, stick]
+		]
+	],
+	<natura:redwood_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:overworld_planks:8>, stick],
+			[stick, <natura:overworld_planks:8>, stick]
+		]
+	],
+	<natura:maple_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks>, stick, <natura:overworld_planks>],
+			[<natura:overworld_planks>, stick, <natura:overworld_planks>]
+		]
+	],
+	<natura:silverbell_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:1>, stick, <natura:overworld_planks:1>],
+			[<natura:overworld_planks:1>, stick, <natura:overworld_planks:1>]
+		]
+	],
+	<natura:amaranth_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:2>, stick, <natura:overworld_planks:2>],
+			[<natura:overworld_planks:2>, stick, <natura:overworld_planks:2>]
+		]
+	],
+	<natura:tiger_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:3>, stick, <natura:overworld_planks:3>],
+			[<natura:overworld_planks:3>, stick, <natura:overworld_planks:3>]
+		]
+	],
+	<natura:willow_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:4>, stick, <natura:overworld_planks:4>],
+			[<natura:overworld_planks:4>, stick, <natura:overworld_planks:4>]
+		]
+	],
+	<natura:eucalyptus_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:5>, stick, <natura:overworld_planks:5>],
+			[<natura:overworld_planks:5>, stick, <natura:overworld_planks:5>]
+		]
+	],
+	<natura:hopseed_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:6>, stick, <natura:overworld_planks:6>],
+			[<natura:overworld_planks:6>, stick, <natura:overworld_planks:6>]
+		]
+	],
+	<natura:sakura_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:7>, stick, <natura:overworld_planks:7>],
+			[<natura:overworld_planks:7>, stick, <natura:overworld_planks:7>]
+		]
+	],
+	<natura:redwood_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:overworld_planks:8>, stick, <natura:overworld_planks:8>],
+			[<natura:overworld_planks:8>, stick, <natura:overworld_planks:8>]
+		]
+	],
+	<natura:overworld_doors> * 3 : [
+		[
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>],
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>],
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>]
+		]
+	],
+	<natura:overworld_doors:1> * 3 : [
+		[
+			[<natura:overworld_planks:6>, <natura:overworld_planks:6>],
+			[<natura:overworld_planks:6>, <natura:overworld_planks:6>],
+			[<natura:overworld_planks:6>, <natura:overworld_planks:6>]
+		]
+	],
+	<natura:overworld_doors:2> * 3 : [
+		[
+			[<natura:overworld_planks:7>, <natura:overworld_planks:7>],
+			[<natura:overworld_planks:7>, <natura:overworld_planks:7>],
+			[<natura:overworld_planks:7>, <natura:overworld_planks:7>]
+		]
+	],
+	<natura:overworld_doors:3> * 3 : [
+		[
+			[<natura:overworld_planks:8>, <natura:overworld_planks:8>],
+			[<natura:overworld_planks:8>, <natura:overworld_planks:8>],
+			[<natura:overworld_planks:8>, <natura:overworld_planks:8>]
+		]
+	],
+	<natura:overworld_doors:4> * 3 : [
+		[
+			[<natura:redwood_logs>, <natura:redwood_logs>],
+			[<natura:redwood_logs>, <natura:redwood_logs>],
+			[<natura:redwood_logs>, <natura:redwood_logs>]
+		]
 	]
 };
 
@@ -723,4 +949,50 @@ for item, recipesForItem in shapedRecipes {
 mods.recipestages.Recipes.addShapedMirrored(STAGE, <tconstruct:pattern> * 4, [
 	[<ore:barkWood>, <ore:sidingWood>],
 	[<ore:sidingWood>, <ore:barkWood>]
+]);
+
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_maple> * 4, [
+	[null, null, <natura:overworld_planks>],
+	[null, <natura:overworld_planks>, <natura:overworld_planks>],
+	[<natura:overworld_planks>, <natura:overworld_planks>, <natura:overworld_planks>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_silverbell> * 4, [
+	[null, null, <natura:overworld_planks:1>],
+	[null, <natura:overworld_planks:1>, <natura:overworld_planks:1>],
+	[<natura:overworld_planks:1>, <natura:overworld_planks:1>, <natura:overworld_planks:1>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_amaranth> * 4, [
+	[null, null, <natura:overworld_planks:2>],
+	[null, <natura:overworld_planks:2>, <natura:overworld_planks:2>],
+	[<natura:overworld_planks:2>, <natura:overworld_planks:2>, <natura:overworld_planks:2>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_tiger> * 4, [
+	[null, null, <natura:overworld_planks:3>],
+	[null, <natura:overworld_planks:3>, <natura:overworld_planks:3>],
+	[<natura:overworld_planks:3>, <natura:overworld_planks:3>, <natura:overworld_planks:3>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_willow> * 4, [
+	[null, null, <natura:overworld_planks:4>],
+	[null, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
+	[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_eucalyptus> * 4, [
+	[null, null, <natura:overworld_planks:5>],
+	[null, <natura:overworld_planks:5>, <natura:overworld_planks:5>],
+	[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_hopseed> * 4, [
+	[null, null, <natura:overworld_planks:6>],
+	[null, <natura:overworld_planks:6>, <natura:overworld_planks:6>],
+	[<natura:overworld_planks:6>, <natura:overworld_planks:6>, <natura:overworld_planks:6>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_sakura> * 4, [
+	[null, null, <natura:overworld_planks:7>],
+	[null, <natura:overworld_planks:7>, <natura:overworld_planks:7>],
+	[<natura:overworld_planks:7>, <natura:overworld_planks:7>, <natura:overworld_planks:7>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_redwood> * 4, [
+	[null, null, <natura:overworld_planks:8>],
+	[null, <natura:overworld_planks:8>, <natura:overworld_planks:8>],
+	[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>]
 ]);

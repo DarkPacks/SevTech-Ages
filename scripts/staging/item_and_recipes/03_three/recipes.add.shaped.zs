@@ -179,9 +179,109 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Natura
 	<natura:netherrack_furnace> : [
-		[[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
-		[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>],
-		[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]]
+		[
+			[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
+			[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>],
+			[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]
+		]
+	],
+	<natura:nether_bookshelves> : [
+		[
+			[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]
+		]
+	],
+	<natura:nether_bookshelves:1> : [
+		[
+			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
+		]
+	],
+	<natura:nether_bookshelves:2> : [
+		[
+			[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>]
+		]
+	],
+	<natura:nether_bookshelves:3> : [
+		[
+			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>],
+			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
+		]
+	],
+	<natura:ghostwood_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:nether_planks>, stick],
+			[stick, <natura:nether_planks>, stick]
+		]
+	],
+	<natura:bloodwood_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:nether_planks:1>, stick],
+			[stick, <natura:nether_planks:1>, stick]
+		]
+	],
+	<natura:darkwood_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:nether_planks:2>, stick],
+			[stick, <natura:nether_planks:2>, stick]
+		]
+	],
+	<natura:fusewood_fence_gate> : [
+		[
+			[null, null, null],
+			[stick, <natura:nether_planks:3>, stick],
+			[stick, <natura:nether_planks:3>, stick]
+		]
+	],
+	<natura:ghostwood_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:nether_planks>, stick, <natura:nether_planks>],
+			[<natura:nether_planks>, stick, <natura:nether_planks>]
+		]
+	],
+	<natura:bloodwood_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:nether_planks:1>, stick, <natura:nether_planks:1>],
+			[<natura:nether_planks:1>, stick, <natura:nether_planks:1>]
+		]
+	],
+	<natura:darkwood_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:nether_planks:2>, stick, <natura:nether_planks:2>],
+			[<natura:nether_planks:2>, stick, <natura:nether_planks:2>]
+		]
+	],
+	<natura:fusewood_fence> * 3 : [
+		[
+			[null, null, null],
+			[<natura:nether_planks:3>, stick, <natura:nether_planks:3>],
+			[<natura:nether_planks:3>, stick, <natura:nether_planks:3>]
+		]
+	],
+	<natura:nether_doors> * 3 : [
+		[
+			[<natura:nether_planks>, <natura:nether_planks>],
+			[<natura:nether_planks>, <natura:nether_planks>],
+			[<natura:nether_planks>, <natura:nether_planks>]
+		]
+	],
+	<natura:nether_doors:1> * 3 : [
+		[
+			[<natura:nether_planks:1>, <natura:nether_planks:1>],
+			[<natura:nether_planks:1>, <natura:nether_planks:1>],
+			[<natura:nether_planks:1>, <natura:nether_planks:1>]
+		]
 	],
 
 	//Tinkers' Construct
@@ -1208,3 +1308,24 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
+
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_ghostwood> * 4, [
+	[null, null, <natura:nether_planks>],
+	[null, <natura:nether_planks>, <natura:nether_planks>],
+	[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_bloodwood> * 4, [
+	[null, null, <natura:nether_planks:1>],
+	[null, <natura:nether_planks:1>, <natura:nether_planks:1>],
+	[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_darkwood> * 4, [
+	[null, null, <natura:nether_planks:2>],
+	[null, <natura:nether_planks:2>, <natura:nether_planks:2>],
+	[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>]
+]);
+mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_fusewood> * 4, [
+	[null, null, <natura:nether_planks:3>],
+	[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
+	[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
+]);

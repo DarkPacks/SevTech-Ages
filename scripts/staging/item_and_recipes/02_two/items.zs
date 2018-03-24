@@ -1169,10 +1169,6 @@ var stage2Items as IIngredient[] = [
 	<infoaccessories:info_accessory>,
 
 	//Natura
-	<natura:nether_bookshelves:1>,
-	<natura:nether_bookshelves:2>,
-	<natura:nether_bookshelves:3>,
-	<natura:nether_bookshelves>,
 	<natura:overworld_bookshelves:1>,
 	<natura:overworld_bookshelves:2>,
 	<natura:overworld_bookshelves:3>,

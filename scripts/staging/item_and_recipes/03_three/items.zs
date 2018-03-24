@@ -306,6 +306,7 @@ var stage3Items as IIngredient[] = [
 	<natura:edibles:9>,
 	<natura:edibles>,
 	<natura:materials:7>,
+	<natura:nether_bookshelves:*>,
 	<natura:nether_glass:1>,
 	<natura:nether_glass>,
 	<natura:nether_heat_sand>,

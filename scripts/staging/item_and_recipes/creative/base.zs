@@ -14,11 +14,15 @@ var creativeItems as IItemStack[] = [
 ];
 
 for item in creativeItems {
+	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage(STAGE, item);
 }
 
 var creativeUnusedItems as IItemStack[] = [
+	<appliedenergistics2:creative_energy_cell>,
+	<appliedenergistics2:creative_storage_cell>.withTag({}),
 	<betterwithmods:creative_generator>,
+	<bibliocraft:bookcasecreative:*>,
 	<bloodmagic:activation_crystal:2>,
 	<bloodmagic:altar_maker>,
 	<bloodmagic:sacrificial_dagger:1>,
@@ -41,15 +45,36 @@ var creativeUnusedItems as IItemStack[] = [
 	<ironjetpacks:creative_thruster>,
 	<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}),
 	<mekanism:energycube>.withTag({tier: 4, mekData: {}}),
+	<mekanism:machineblock2:11>,
 	<modularmachinery:itemconstructtool>,
+	<refinedstorage:fluid_storage:4>,
+	<refinedstorage:fluid_storage_disk:4>,
+	<refinedstorage:portable_grid:1>,
+	<refinedstorage:storage:4>,
+	<refinedstorage:storage_disk:4>,
+	<refinedstorage:wireless_crafting_monitor:1>,
+	<refinedstorage:wireless_fluid_grid:1>,
+	<refinedstorage:wireless_grid:1>,
+	<refinedstorageaddons:network_bag:1>,
+	<refinedstorageaddons:network_picker:1>,
+	<refinedstorageaddons:wireless_crafting_grid:1>,
+	<rftools:creative_screen>,
+	<rftools:powercell_creative>,
+	<stevescarts:cartmodule:61>,
+	<stevescarts:cartmodule:72>,
+	<stevescarts:cartmodule:76>,
 	<stevescarts:cartmodule:96>,
 	<stevescarts:cartmodule:97>,
+	<stevescarts:upgrade:14>,
 	<storagedrawers:upgrade_creative:1>,
 	<storagedrawers:upgrade_creative>,
 	<totemic:ceremony_cheat>,
+	<vc:airships/item_creative_airship_v1>,
+	<vc:modules/item_module_creative>,
 	<waterstrainer:super_worm>
 ];
 
 for item in creativeUnusedItems {
+	mods.ItemStages.removeItemStage(item);
 	mods.ItemStages.addItemStage("creative_unused", item);
 }

@@ -32,7 +32,7 @@ recipes.addShaped(<minecraft:stone_button>, [[stone]]);
 recipes.addShaped(<minecraft:web>, [[stick, str, stick], [str, str, str], [stick, str, stick]]);
 
 recipes.remove(<minecraft:lead>);
-recipes.addShaped(<minecraft:lead>, [[str, null, null], [null, <ore:cordageLeather>, null], [null, null, str]]);
+recipes.addShapedMirrored(<minecraft:lead>, [[str, null, null], [null, <ore:cordageLeather>, null], [null, null, str]]);
 
 recipes.remove(<minecraft:brick_block>);
 recipes.addShaped(<minecraft:brick_block>, [[<minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>]]);

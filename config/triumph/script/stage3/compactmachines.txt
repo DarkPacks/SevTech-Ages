@@ -1,0 +1,15 @@
+setTitle("Project Miniaturization")
+
+setIcon("compactmachines3:fieldprojector", 0)
+
+setDescription("Want to create your own pocket dimensions and another machine case recipe? Craft the Miniaturization Field Projectors and place them in the world to begin")
+
+setParent("triumph:stage5/diamond")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("compactmachines3:fieldprojector", 0)
+
+//Rewards
+setRewardExperience(15)

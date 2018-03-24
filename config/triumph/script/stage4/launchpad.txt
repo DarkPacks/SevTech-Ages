@@ -1,0 +1,15 @@
+setTitle("Thrusters Are Go")
+
+setIcon("galacticraftcore:landing_pad", 0)
+
+setDescription("To take off, you'll need to place 9 Landing Pads in a 3x3 and then place your rocket on the center pad")
+
+setParent("triumph:stage4/nasaworkbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:landing_pad", 0)
+
+//Rewards
+setRewardExperience(12)

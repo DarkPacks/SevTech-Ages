@@ -213,11 +213,11 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		//Osmium
 		[<mekanism:oreblock>],
 		[<materialpart:osmium:ore_minecraft_stone>],
-		[<materialpart:osmium:ore_sample>, <immcraft:rock>],
+		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock>],
 
 		//Silicon
 		[<galacticraftcore:basic_block_core:8>],
-		[<materialpart:silicon:ore_sample>, <immcraft:rock>]
+		[<contenttweaker:sub_block_holder_0:5>, <immcraft:rock>]
 	],
 
 	STAGES.five : [

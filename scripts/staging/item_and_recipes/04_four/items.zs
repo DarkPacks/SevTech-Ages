@@ -32,6 +32,8 @@ var stage4Items as IIngredient[] = [
 	//Ore
 	<immersiveengineering:ore:5>,
 	<materialpart:osmium:ore_minecraft_stone>,
+	<contenttweaker:sub_block_holder_0:5>, //Silicon Ore Sample
+	<contenttweaker:sub_block_holder_0:6>, //Osmium Ore Sample
 
 	//End
 	<betterwithmods:material:39>,

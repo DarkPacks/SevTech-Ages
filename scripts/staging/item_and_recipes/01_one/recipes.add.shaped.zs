@@ -503,43 +503,43 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<abyssalcraft:decorativestatue> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:9>, null]
+			[<ore:dyeCyan>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:1> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:4>, null]
+			[<ore:dyeYellow>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:2> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:7>, null]
+			[<ore:dyeGray>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:3> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:10>, null]
+			[<ore:dyePurple>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:4> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:11>, null]
+			[<ore:dyeBlue>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:5> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:1>, null]
+			[<ore:dyeOrange>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:6> : [
 		[
 			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<pickletweaks:dye_powder:15>, null]
+			[<ore:dyeBlack>, null]
 		]
 	],
 	<abyssalcraft:statue> : [

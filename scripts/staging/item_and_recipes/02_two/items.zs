@@ -741,6 +741,8 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:ahelmet>,
 	<abyssalcraft:ahoe>,
 	<abyssalcraft:alegs>,
+	<abyssalcraft:antidote:1>,
+	<abyssalcraft:antidote>,
 	<abyssalcraft:apick>,
 	<abyssalcraft:aplate>,
 	<abyssalcraft:ashovel>,
@@ -943,8 +945,6 @@ var stage2Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:1>,
 	<abyssalcraft:yogsothothcharm>,
 	<abyssalcraft:yogsothothcoin>,
-	<abyssalcraft:antidote>,
-	<abyssalcraft:antidote:1>,
 
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron>,
@@ -1227,7 +1227,6 @@ var stage2Items as IIngredient[] = [
 	//Galacticraft
 	<galacticraftcore:food:6>,
 	<galacticraftcore:food:7>
-
 ];
 
 for item in stage2Items {

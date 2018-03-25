@@ -6,8 +6,10 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandstone>,
 	<bibliocraft:plumbline>,
 	<cyclicmagic:ender_torch>,
+	<cyclicmagic:food_step>,
 	<dungpipe:dung_pipe>,
 	<dungpipe:sewer_pipe>,
+	<huntingdim:frame>,
 	<immersiveengineering:tool>,
 	<minecraft:crafting_table>,
 	<minecraft:ladder>,
@@ -78,15 +80,13 @@ var removeItems as IItemStack[] = [
 	<bloodmagic:soul_forge>,
 	<bloodmagic:soul_snare>,
 
+	//GuideAPI
 	<guideapi:bloodmagic-guide>,
 	<guideapi:cyclicmagic-guide>,
 
 	//Chisel & Bits
 	<chiselsandbits:bittank>,
-	<chiselsandbits:chisel_iron>,
-	
-	<huntingdim:frame>,
-	<cyclicmagic:food_step>
+	<chiselsandbits:chisel_iron>
 ];
 
 for item in removeItems {

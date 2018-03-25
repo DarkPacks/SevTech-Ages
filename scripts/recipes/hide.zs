@@ -73,6 +73,7 @@ static hideItems as IItemStack[] = [
 	<mob_grinding_utils:gm_chicken_feed>,
 	<mob_grinding_utils:mob_swab>,
 	<mob_grinding_utils:null_sword>,
+	<overloaded:creative_generator>,
 	<pickletweaks:mesh>,
 	<pickletweaks:ppm4:1>,
 	<pneumaticcraft:air_canister:0>,
@@ -92,11 +93,9 @@ static hideItems as IItemStack[] = [
 	<rftools:notick_solid_shield_block>,
 	<rftools:solid_shield_block>,
 	<rustic:dust_tiny_iron>,
+	<sev_tweaks_npc:golden_ladder_of_ascension>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<sev_tweaks_npc:golden_ladder_of_ascension>,
-	<astralsorcery:itemchargedcrystalpickaxe>, // <-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
-	<overloaded:creative_generator>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -261,6 +260,8 @@ static hideItems as IItemStack[] = [
 	<primal:dirt_stick>,
 	<primal:door_corypha>,
 	<primal:door_ironwood>,
+	<primal:door_yew>,
+	<primal:drain_ciniscotta>,
 	<primal:drying_rack:*>,
 	<primal:dust_bin:8>.withTag({type: "lacquer"}),
 	<primal:dust_bin:9>.withTag({type: "corypha"}),
@@ -291,6 +292,7 @@ static hideItems as IItemStack[] = [
 	<primal:fish_salmon_cured>,
 	<primal:fish_salmon_rotten>,
 	<primal:fish_salmon_salted>,
+	<primal:gate_corypha>,
 	<primal:gator_meat_cured>,
 	<primal:gator_meat_rotten>,
 	<primal:gator_meat_salted>,
@@ -458,9 +460,6 @@ static hideItems as IItemStack[] = [
 	<primal:wood_pin>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
-	<primal:door_yew>,
-	<primal:gate_corypha>,
-	<primal:drain_ciniscotta>,
 
 	//Tinkers
 	<tconstruct:moms_spaghetti>,

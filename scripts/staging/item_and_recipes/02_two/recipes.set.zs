@@ -107,6 +107,8 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:ahelmet>,
 	<abyssalcraft:ahoe>,
 	<abyssalcraft:alegs>,
+	<abyssalcraft:antidote:1>,
+	<abyssalcraft:antidote>,
 	<abyssalcraft:apick>,
 	<abyssalcraft:aplate>,
 	<abyssalcraft:ashovel>,
@@ -187,8 +189,6 @@ var itemsForStage as IIngredient[] = [
 	<abyssalcraft:powerstonetracker>,
 	<abyssalcraft:skin:1>,
 	<abyssalcraft:skin:2>,
-	<abyssalcraft:antidote>,
-	<abyssalcraft:antidote:1>,
 
 	//Ferdinand's Flowers
 	<ferdinandsflowers:block_birthday>,

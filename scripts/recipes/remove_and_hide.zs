@@ -22,7 +22,9 @@ static removeAndHideItems as IItemStack[] = [
 	<actuallyadditions:item_wings_of_the_bats>,
 	<advancedmortars:mortar:2>,
 	<advancedmortars:mortar:3>,
+	<astikoor:carriage>,
 	<astikoor:chariot>,
+	<astralsorcery:itemchargedcrystalpickaxe>, //<-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
@@ -109,7 +111,6 @@ static removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
-	<astikoor:carriage>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

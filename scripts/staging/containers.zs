@@ -1,6 +1,8 @@
-//Enable when you need container name
-//mods.recipestages.Recipes.setPrintContainers(true);
+/*
+	Container Staging
 
+	To get the containers, enable setPrintContainers in scripts/env.dev.zs
+*/
 
 //Ideally theres a way to just get all the values from the STAGES map
 //But for now at least... add manually

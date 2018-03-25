@@ -42,7 +42,6 @@ Altar.addAttunmentAltarRecipe(<astralsorcery:itemexchangewand> * 1, 600, 180, [
 	null, null, <astralsorcery:blockmarble:6>, null
 ]);
 
-
 //Modifies the Altar recipe to use TF items
 Altar.removeAltarRecipe(<astralsorcery:blockaltar:2>, 1);
 Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 1250, 600, [
@@ -77,7 +76,6 @@ LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Infusion/
 */
-
 StarlightInfusion.removeInfusion(<astralsorcery:itemchargedcrystalpickaxe>);
 
 StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 0.25, 300);

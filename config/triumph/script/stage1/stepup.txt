@@ -8,7 +8,7 @@ setParent("triumph:stage1/bloodaltar")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("cyclicmagic:food_step")
 
 //Rewards

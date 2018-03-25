@@ -119,7 +119,7 @@
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("Needs a Crafting Rock"));
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("to craft recipes"));
 
-<primal:flint_hatchet>.addTooltip(format.yellow("Can not be repaired"));
+<primal:flint_hatchet:*>.addTooltip(format.yellow("Can not be repaired"));
 
 <teslacorelib:energy_tier1>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
 <teslacorelib:energy_tier2>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
@@ -131,11 +131,11 @@
 <astikoor:cargocart>.addTooltip(format.yellow("Use the Astikoor Action"));
 <astikoor:cargocart>.addTooltip(format.yellow("Key to attach to Horses"));
 
-<primal:flint_workblade>.addTooltip(format.red("Can not be repaired"));
-<primal:quartz_workblade>.addTooltip(format.red("Can not be repaired"));
-<primal:iron_workblade>.addTooltip(format.red("Can not be repaired"));
-<primal:emerald_workblade>.addTooltip(format.red("Can not be repaired"));
-<primal:diamond_workblade>.addTooltip(format.red("Can not be repaired"));
+<primal:flint_workblade:*>.addTooltip(format.red("Can not be repaired"));
+<primal:quartz_workblade:*>.addTooltip(format.red("Can not be repaired"));
+<primal:iron_workblade:*>.addTooltip(format.red("Can not be repaired"));
+<primal:emerald_workblade:*>.addTooltip(format.red("Can not be repaired"));
+<primal:diamond_workblade:*>.addTooltip(format.red("Can not be repaired"));
 
 <waterstrainer:garden_trowel>.addTooltip(format.red("Repaired with Flint"));
 

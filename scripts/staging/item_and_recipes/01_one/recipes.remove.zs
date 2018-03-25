@@ -42,6 +42,13 @@ var removeItems as IItemStack[] = [
 
 	//Abyssalcraft for Stage1
 	<abyssalcraft:charm>,
+	<abyssalcraft:decorativestatue:1>,
+	<abyssalcraft:decorativestatue:2>,
+	<abyssalcraft:decorativestatue:3>,
+	<abyssalcraft:decorativestatue:4>,
+	<abyssalcraft:decorativestatue:5>,
+	<abyssalcraft:decorativestatue:6>,
+	<abyssalcraft:decorativestatue>,
 	<abyssalcraft:necronomicon>,
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,

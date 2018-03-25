@@ -240,6 +240,14 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<mekanism:oreblock>],
 		[<materialpart:osmium:ore_minecraft_stone>],
 		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock>]
+	],
+
+	//Just to hide any in generation etc going forward, disable these
+	//Generally used for when it generated in worlds due to a bug etc
+	STAGES.disabled : [
+		[<geolosys:cluster:10>],
+		[<geolosys:ore:10>],
+		[<geolosys:ore_sample:10>, <immcraft:rock>]
 	]
 };
 

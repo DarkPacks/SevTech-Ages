@@ -763,7 +763,7 @@
   "autuniteMinY": 8,
   "autuniteMaxY": 33,
   "sphaleriteSize": 24,
-  "sphaleriteChance": 5,
+  "sphaleriteChance": 0,
   "sphaleriteDimBlacklist": [
     -1,
     1

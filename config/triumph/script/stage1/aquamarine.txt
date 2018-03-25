@@ -1,6 +1,6 @@
 setTitle("The Search for Aquamarine")
 
-setIcon("contenttweaker:sub_block_holder_0")
+setIcon("contenttweaker:sub_block_holder_0", 0)
 
 setDescription("Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore")
 
@@ -10,8 +10,8 @@ setRequiresParent(true)
 setFrameType("Goal")
 
 //Criteria
-criteria = addCriteria("brokeLog", "triumph:player_break_block")
-criteria.setBlock("contenttweaker:sub_block_holder_0")
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent")
 
 //Rewards
 setRewardExperience(4)

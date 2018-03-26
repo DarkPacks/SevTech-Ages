@@ -10,7 +10,7 @@ setRequiresParent(true)
 setFrameType("challenge")
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
 criteria.setItem("primal_tech:work_stump")
 
 //Rewards

@@ -8,9 +8,5 @@ setParent("triumph:stage1/crafting")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("minecraft:chest")
-
-//Rewards
-setRewardItem("minecraft:chest", 0, 1)
-setRewardExperience(4)
+criteria = addCriteria("brokeLog", "minecraft:inventory_changed")
+criteria.setItem("minecraft:chest", 0)

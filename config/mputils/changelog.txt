@@ -6,7 +6,11 @@ WAILA and a Map are not available from the beginning of the modpack, they need t
 
 For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.
 
+---------------------------------------------------------------------
 
+3.0.2
+* Changed the Aquamarine Advancement to trigger on Aquamarine Pickup rather than the ore block break
+* Changed the Vanilla Chest Advancement to Pickup instead of a Crafting Trigger
 
 ---------------------------------------------------------------------
 

@@ -11,6 +11,11 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 3.0.2
 * Changed the Aquamarine Advancement to trigger on Aquamarine Pickup rather than the ore block break
 * Changed the Vanilla Chest Advancement to Pickup instead of a Crafting Trigger
+* Disable F3 Spawn Chunk information
+* Fix "I Don't Want it Anymore!" advancement
+* Fix "Not repairable" tooltip from disappearing once the item is damaged
+* Removed default recipes for Abyssalcraft statues
+* Disable Sphalerite (Geolosys Zinc) ore from spawning
 
 ---------------------------------------------------------------------
 

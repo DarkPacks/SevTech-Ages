@@ -9,6 +9,10 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 ---------------------------------------------------------------------
 
 3.0.2
+Additions:
+* Added default options
+
+Bug Fixes:
 * Changed the Aquamarine Advancement to trigger on Aquamarine Pickup rather than the ore block break
 * Changed the Vanilla Chest Advancement to Pickup instead of a Crafting Trigger
 * Disable F3 Spawn Chunk information
@@ -16,6 +20,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 * Fix "Not repairable" tooltip from disappearing once the item is damaged
 * Removed default recipes for Abyssalcraft statues
 * Disable Sphalerite (Geolosys Zinc) ore from spawning
+* Fixed Baykok advancement - Players that have it already will need to run `/gamestage add PlayerName baykok`.
 
 ---------------------------------------------------------------------
 

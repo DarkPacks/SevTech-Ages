@@ -1,4 +1,9 @@
 ## Instruction on how to do issues like your boy darkosto
+
+### Before anything else, use the *search* feature!
+ * Maybe someone already reported the issue you're experiencing?
+ * Maybe you can find the answer to your question by looking at older or closed issues?
+ * Have a go at it and see!
  
  ### Issue / bug
  - Explain the issue / bug as understandably as possible.

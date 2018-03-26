@@ -10,3 +10,6 @@ setRequiresParent(true)
 //Criteria
 criteria = addCriteria("brokeLog", "minecraft:inventory_changed")
 criteria.setItem("minecraft:chest", 0)
+
+//Rewards
+setRewardExperience(4)

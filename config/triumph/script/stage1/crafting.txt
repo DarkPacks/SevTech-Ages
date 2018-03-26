@@ -10,8 +10,8 @@ setRequiresParent(true)
 setFrameType("Goal")
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("minecraft:crafting_table")
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("minecraft:crafting_table", 0)
 
 //Rewards
 setRewardExperience(4)

@@ -8,8 +8,8 @@ setParent("triumph:stage2/enderman")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("weirdinggadget:weirding_gadget")
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("weirdinggadget:weirding_gadget", 0)
 
 //Rewards
 setRewardExperience(8)

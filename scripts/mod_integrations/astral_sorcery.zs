@@ -28,7 +28,7 @@ Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 200, 1600, [
 Altar.addAttunmentAltarRecipe(<astralsorcery:itemusabledust> * 8, 80, 600, [
 	<betterwithmods:sand_pile>, <astralsorcery:itemcraftingcomponent>, <betterwithmods:sand_pile>,
 	null, <minecraft:gunpowder>, null,
-	<betterwithmods:sand_pile>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}).transformReplace(<minecraft:bucket>), <betterwithmods:sand_pile>,
+	<betterwithmods:sand_pile>, null, <betterwithmods:sand_pile>,
 	<quark:glass_shards>, <quark:glass_shards>, <quark:glass_shards>, <quark:glass_shards>
 ]);
 

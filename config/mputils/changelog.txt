@@ -6,6 +6,36 @@ WAILA and a Map are not available from the beginning of the modpack, they need t
 
 For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.
 
+---------------------------------------------------------------------
+
+3.0.2
+
+Content will be included in future updates: More Advancements, Fully implemented Pristige System, etc. The first few updates are specifically focused on bug fixes and major issues that halt game play. Thanks for all the reports so far and thanks for helping to make SevTech awesome!
+
+Additions:
+* Added default options
+
+Bug Fixes:
+* Changed the Aquamarine, Vanilla Chest, Necronomicon, Prospector, Furnace, Weirding Gadget, Crafting Table, Chopping Block, Channels, Stone Anvil, and Plumbline Advancement to trigger on Pickup rather than the ore block break or needing to craft the item
+* The Apple advancement should now trigger when you have the item in your inventory
+* Disable F3 Spawn Chunk information
+* Fix "I Don't Want it Anymore!" advancement
+* Fix "Not repairable" tooltip from disappearing once the item is damaged
+* Removed default recipes for Abyssalcraft statues
+* Disable Sphalerite (Geolosys Zinc) ore from spawning
+* Fixed Baykok advancement - Players that have it already will need to run `/gamestage add PlayerName baykok`
+* Updated Better Advancements (This stops the background from going dark when mousing over an advancement)
+* Smooth Font has updated to reduce its RAM usage, however it is currently in alpha. Once it's labeled released and stable it will be included in the pack
+* Updated OreStages to allow placing on "hidden" blocks again
+* Updated Power adapters to fix a crash when certain power types were missing
+* Coal has been moved back up to minimum Y48. Note, all existing generation can still potentially be as low as Y8. New generation will be correct
+* Moved the Iron Chisel back to stage two from one
+* Animals will no longer flee when placing or breaking a block. They will, however, flee when you kill another animal near them
+* Updated Triumph to allow for multiple functions to be run on an advancement (fixing some advancements not triggering stages or rewards)
+* Removed Signs from Carry-on due to issues with broken textures and resetting NBT data
+* Added a few more pieces of information in tooltips or advancements to help out stuck players
+* Update Together Forever which should fix its issues in LAN environments
+
 
 
 ---------------------------------------------------------------------

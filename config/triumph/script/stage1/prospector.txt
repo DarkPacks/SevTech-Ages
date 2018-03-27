@@ -10,8 +10,8 @@ setRequiresParent(true)
 setFrameType("Goal")
 
 //Criteria
-criteria = addCriteria("crafted", "triumph:player_crafted_item")
-criteria.setItem("prospectors:prospector_lowest")
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_lowest", 0)
 
 //Rewards
 setRewardExperience(4)

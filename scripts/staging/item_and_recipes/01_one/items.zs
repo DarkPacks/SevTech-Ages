@@ -305,7 +305,6 @@ var stage1Items as IIngredient[] = [
 	<chisel:bricks2:*>,
 	<chisel:bricks:*>,
 	<chisel:brownstone:*>,
-	<chisel:chisel_iron>,
 	<chisel:cobblestone1:*>,
 	<chisel:cobblestone2:*>,
 	<chisel:cobblestone:*>,

@@ -160,3 +160,17 @@
 <rftools:crafter3>.addTooltip(format.red("Able to craft Age 5 items and below"));
 
 <cyclicmagic:auto_crafter>.addTooltip(format.red("Able to craft Age 5 items and below"));
+
+<betterwithmods:hand_crank>.addTooltip(format.red("Needed to power early machines"));
+<betterwithmods:hand_crank>.addTooltip(format.red("like the Mill Stone"));
+
+<prospectors:prospector_lowest>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_lowest>.addTooltip(format.red("in a 32 block straight line"));
+
+<abyssalcraft:statue>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:1>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:2>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:3>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:4>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:5>.addTooltip(format.red("Requires open sky above to function"));
+<abyssalcraft:statue:6>.addTooltip(format.red("Requires open sky above to function"));

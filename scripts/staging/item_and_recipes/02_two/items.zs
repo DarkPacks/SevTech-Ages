@@ -585,6 +585,7 @@ var stage2Items as IIngredient[] = [
 	<bibliocraft:table:*>,
 
 	//Chisel
+	<chisel:chisel_iron>,
 	<chisel:antiblock:*>,
 	<chisel:blockgold:*>,
 	<chisel:blockiron:*>,

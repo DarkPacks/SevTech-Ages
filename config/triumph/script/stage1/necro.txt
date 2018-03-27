@@ -10,7 +10,7 @@ setRequiresParent(true)
 setFrameType("Goal")
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
 criteria.setItem("abyssalcraft:necronomicon")
 
 //Rewards

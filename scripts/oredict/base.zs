@@ -255,12 +255,15 @@ for i in 0 to 16 {
 <ore:knightTorch>.add(<minecraft:torch>);
 <ore:knightTorch>.add(<tconstruct:stone_torch>);
 
+//Add to then be removed
+<ore:dyeBrown>.add(<betterwithmods:material:5>);
+<ore:dyeBlack>.add(<nex:item_dust_wither>);
+
 //Flowers and Lapis no longer are just dye!
 <ore:dye>.remove(<minecraft:dye:*>);
 
 <ore:dyeBlack>.remove(<actuallyadditions:item_misc:17>);
 <ore:dyeBlack>.remove(<minecraft:dye>);
-<ore:dyeBlack>.remove(<nex:item_dust_wither>);
 <ore:dyeBlack>.remove(<nex:item_dust_wither>);
 <ore:dyeBlack>.remove(<primal:netherwax_clump>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);

@@ -1,8 +1,30 @@
+#priority 1
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 var IE_CRUSHER_ENERGY as int = 3200;
 var HP_GRINDSTONE_TIME as int = 12;
+
+static minecraftDyeIDTable as string[int] = {
+	0: "black",
+	1: "red",
+	2: "green",
+	3: "brown",
+	4: "blue",
+	5: "purple",
+	6: "cyan",
+	7: "lightGray",
+	8: "gray",
+	9: "pink",
+	10: "lime",
+	11: "yellow",
+	12: "lightBlue",
+	13: "magenta",
+	14: "orange",
+	15: "white"
+};
 
 /*
 	Dye Unification
@@ -225,14 +247,109 @@ for dye, items in dyeCrushingRecipes {
 	}
 }
 
-//Some temporary measures for converting "just in case"
-for i in 0 to 16 {
-	//Dont do lapis
-	if (i != 4) {
-		var dye as IItemStack = <minecraft:dye>.definition.makeStack(i);
-		var pickleDye as IItemStack = <pickletweaks:dye_powder>.definition.makeStack(15 - i);
+/*
+	Misc
+*/
+recipes.removeByRegex("darkutils:dyed_slime_block_.*");
+function oredictSlimeBlockRecipes(i as int) {
+	var slimeBlock as IItemStack = <darkutils:slime_dyed>.definition.makeStack(i);
+	var dye as IItemStack = <minecraft:dye>.definition.makeStack(15 - i);
+	var dyeOredict as IOreDictEntry = oreDict.get("dye" ~
+		scripts.utils.capitalize(scripts.unique_scripts.dyes.minecraftDyeIDTable[15 - i]));
 
-		recipes.addShapeless(dye, [pickleDye]);
-		recipes.addShapeless(pickleDye, [dye]);
-	}
+	recipes.addShaped(slimeBlock, [
+		[<ore:blockSlime>, <ore:blockSlime>, <ore:blockSlime>],
+		[<ore:blockSlime>, dyeOredict, <ore:blockSlime>],
+		[<ore:blockSlime>, <ore:blockSlime>, <ore:blockSlime>]
+	]);
 }
+
+function oredictParachuteRecipes(i as int) {
+	var parachuteDyeIDTable as string[int] = {
+		0: "white",
+		1: "black",
+		2: "lightBlue",
+		3: "lime",
+		4: "brown",
+		5: "blue",
+		6: "gray",
+		7: "green",
+		8: "lightGray",
+		9: "magenta",
+		10: "orange",
+		11: "pink",
+		12: "purple",
+		13: "red",
+		14: "cyan",
+		15: "yellow"
+	};
+
+	var parachute as IItemStack = <galacticraftcore:parachute>.definition.makeStack(i);
+
+	if (i == 0) {
+		recipes.removeByRecipeName("galacticraftcore:parachute_" ~ i ~ "_alt");
+	} else {
+		recipes.removeByRecipeName("galacticraftcore:parachute_" ~ i);
+	}
+
+	recipes.addShapeless(parachute, [
+		<galacticraftcore:parachute:*>,
+		oreDict.get("dye" ~ scripts.utils.capitalize(parachuteDyeIDTable[i]))
+	]);
+}
+
+for i in 0 to 16 {
+	oredictSlimeBlockRecipes(i);
+	oredictParachuteRecipes(i);
+}
+
+recipes.remove(<buildcraftcore:list>);
+recipes.addShaped(<buildcraftcore:list>, [
+	[<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>],
+	[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+]);
+
+recipes.remove(<bibliocraft:stockroomcatalog>);
+recipes.addShaped(<bibliocraft:stockroomcatalog>, [
+	[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:writable_book>, <minecraft:paper>],
+	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+]);
+
+recipes.remove(<bibliocraft:biblioglasses:1>);
+recipes.addShaped(<bibliocraft:biblioglasses:1>, [
+	[<bibliocraft:biblioglasses>, <ore:dyeGray>]
+]);
+
+recipes.remove(<buildcraftcore:marker_volume>);
+recipes.addShaped(<buildcraftcore:marker_volume>, [
+	[<ore:dyeBlue>],
+	[<minecraft:redstone_torch>]
+]);
+
+recipes.remove(<buildcraftcore:marker_path>);
+recipes.addShaped(<buildcraftcore:marker_path>, [
+	[<ore:dyeGreen>],
+	[<minecraft:redstone_torch>]
+]);
+
+recipes.remove(<chisel:temple>);
+recipes.addShaped(<chisel:temple>, [
+	[stone, stone, stone],
+	[stone, <ore:dyeCyan>, stone],
+	[stone, stone, stone]
+]);
+
+recipes.remove(<mysticalagriculture:crafting:7>);
+recipes.addShaped(<mysticalagriculture:crafting:7>, [
+	[<ore:dyeBlack>, <ore:dyeOrange>],
+	[<ore:dyeCyan>, <ore:dyeMagenta>]
+]);
+
+recipes.remove(<bibliocraft:tape>);
+recipes.addShaped(<bibliocraft:tape>, [
+	[str, str, str],
+	[str, <ore:dyeYellow>, str],
+	[str, str, str]
+]);

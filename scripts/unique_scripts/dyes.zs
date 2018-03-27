@@ -177,7 +177,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	//Brown
 	<ore:dyeBrown>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:2>,
-		<ferdinandsflowers:block_cff_doubles:3>
+		<ferdinandsflowers:block_cff_doubles:3>,
+		<betterwithmods:material:44>
 	],
 
 	//Green

@@ -32,6 +32,14 @@ InfusionRitual.addRitual("constellationpaper", 0, 0, 500, false, <astralsorcery:
 game.setLocalization("ac.ritual.constellationpaper", "Constellation Paper");
 game.setLocalization("ac.ritual.constellationpaper.desc", "This ritual can only be performed in Age 2");
 
+
+//Summon parrots because I can't stand this fucking god damn RNG in this fucking game
+mods.abyssalcraft.SummonRitual.addRitual("parrots", 0, -1, 100, false, "minecraft:parrot", [<minecraft:feather>, <minecraft:wheat_seeds>, <minecraft:feather>, <minecraft:egg>, <minecraft:feather>, <minecraft:wheat_seeds>, <minecraft:feather>, <minecraft:egg>]);
+
+
+game.setLocalization("ac.ritual.parrots", "Parrot Summoning Ritual");
+game.setLocalization("ac.ritual.parrots.desc", "This ritual allows you to summon a Parrot without searching for a jungle");
+
 /*
 	Ritual Modifications
 

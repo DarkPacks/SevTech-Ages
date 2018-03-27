@@ -7,6 +7,8 @@ setDescription("Endermen have begun spawning in the world, slay them to obtain t
 setParent("triumph:stage2/conpaper")
 setRequiresParent(true)
 
+setRequirements("any")
+
 //Criteria
 criteria1 = addCriteria("killed_spider1", "minecraft:player_killed_entity")
 criteria1.setEntityType("minecraft:enderman")

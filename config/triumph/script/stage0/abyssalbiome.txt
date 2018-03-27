@@ -25,8 +25,5 @@ criteria4.setBiome("abyssalcraft:darklands_hills")
 criteria5 = addCriteria("entered_forest5", "minecraft:location")
 criteria5.setBiome("abyssalcraft:darklands_mountains")
 
-criteria6 = addCriteria("entered_forest6", "minecraft:location")
-criteria6.setBiome("abyssalcraft:coralium_infested_swamp")
-
 //Rewards
 setRewardExperience(4)

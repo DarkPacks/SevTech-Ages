@@ -8,6 +8,26 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.3
+
+Bug Fixes:
+* The Enderman advancement should now only trigger after killing 1 type of endermen, not 6
+* The Darklands advancement no longer triggers on a coralium swamp biome since this biome does not generate the intended mobs and blocks the player needs to find
+
+Enhancements:
+* The following animals have been added to work with Horse Power (I can't guarantee they are diligent workers): Pig, Cow, Llama, Wolf
+* Added a ritual in stage 1 to summon parrots using Abyssalcraft
+* Added some more parrot spawns to Swamps and Savannahs
+* Added a secondary trigger to possibly unlock the Baykok stage instead of killing the mob yourself. Picking up his bow will enable the advancement
+
+Mod Updates
+* Updated Better With Mods to restore the ability to make Unfired Porcelain in the millstone again (1.12-2.0.31)
+* Updated Together Forever to fix a server sync issue (1.12.2-1.0.6-12)
+* Updated Item Stages to fix a server side crash (1.12.2-1.0.33)
+* Updated Better Advancements to stop the screen from fading when your cursor is on an advancement (1.12.2-0.0.06.22)
+
+---------------------------------------------------------------------
+
 3.0.2
 
 Bug Fixes:
@@ -30,7 +50,7 @@ Bug Fixes:
 * Astral Sorcery Illumination Powder and Starlight Crafting Altar recipes should now work correctly
 * Added a dye crushing recipe for Cocoa powder
 
-Mod Updates
+Mod Updates:
 * Updated HWYLA to fix the incorrect block being reported in the tooltip (1.8.25-B40_1.12)
 * Updated Smooth Font. The mod has decreased its RAM usage (1.12.2-1.13)
 * Updated OreStages to allow placing on "hidden" blocks again (1.12.2-1.0.25)
@@ -46,7 +66,7 @@ Mod Updates
 * Updated Toast Control to latest version (1.12.2-1.4.1)
 * Updated Foamfix to latest version (0.9.5-1.12.2)
 
-Upcoming
+Upcoming:
 * The Better Advancements update to stop the background from going dark when mousing over an advancement had to be put on hold because of a server crash. Hopefully, it will be ready for the 3.0.3 update
 * Content will be included in future updates: More Advancements, Fully implemented Prestige System, etc. The first few updates are specifically focused on bug fixes and major issues that halt game play. Thanks for all the reports so far and thanks for helping to make SevTech awesome!
 

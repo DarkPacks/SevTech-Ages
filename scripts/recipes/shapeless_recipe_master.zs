@@ -17,4 +17,15 @@ recipes.addShapeless(<primal:plant_cloth>, [cordage, cordage, cordage, cordage, 
 
 //==================================
 //Primal Tech
-recipes.addShapeless(<primal_tech:fire_sticks>, [stick, stick]);
+recipes.addShapeless(
+	"primal_tech_fire_sticks",
+	<primal_tech:fire_sticks>,
+	[stick, stick],
+	function(out, ins, cInfo) {
+		return out.withTag({
+			"rubbingCount": 0,
+			"animate": false
+		});
+	},
+	null
+);

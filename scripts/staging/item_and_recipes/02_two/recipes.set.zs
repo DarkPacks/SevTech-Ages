@@ -260,6 +260,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:plate_launch_med>,
 	<cyclicmagic:tool_mount>,
 	<cyclicmagic:trash>,
+	<cyclicmagic:apple_lapis>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,

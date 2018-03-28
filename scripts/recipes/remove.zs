@@ -1,5 +1,4 @@
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 
 var removeItems as IItemStack[] = [
 	<appliedenergistics2:quartz_glass>,

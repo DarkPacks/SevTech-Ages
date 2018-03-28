@@ -199,63 +199,63 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<primal:slab_ironwood> * 3 : [
 		[[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]]
 	],
-	<primal:slat_acacia> : [
+	<primal:slat_acacia> * 3 : [
 		[
 			[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
 			[stick, stick, stick],
 			[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]
 		]
 	],
-	<primal:slat_bigoak> : [
+	<primal:slat_bigoak> * 3 : [
 		[
 			[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
 			[stick, stick, stick],
 			[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]
 		]
 	],
-	<primal:slat_birch> : [
+	<primal:slat_birch> * 3 : [
 		[
 			[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
 			[stick, stick, stick],
 			[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]
 		]
 	],
-	<primal:slat_corypha> : [
+	<primal:slat_corypha> * 3 : [
 		[
 			[<primal:slab_corypha>, <primal:slab_corypha>, <primal:slab_corypha>],
 			[stick, stick, stick],
 			[<primal:slab_corypha>, <primal:slab_corypha>, <primal:slab_corypha>]
 		]
 	],
-	<primal:slat_ironwood> : [
+	<primal:slat_ironwood> * 3 : [
 		[
 			[<primal:slab_ironwood>, <primal:slab_ironwood>, <primal:slab_ironwood>],
 			[stick, stick, stick],
 			[<primal:slab_ironwood>, <primal:slab_ironwood>, <primal:slab_ironwood>]
 		]
 	],
-	<primal:slat_jungle> : [
+	<primal:slat_jungle> * 3 : [
 		[
 			[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
 			[stick, stick, stick],
 			[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]
 		]
 	],
-	<primal:slat_lacquer> : [
+	<primal:slat_lacquer> * 3 : [
 		[
 			[<primal:slab_lacquer>, <primal:slab_lacquer>, <primal:slab_lacquer>],
 			[stick, stick, stick],
 			[<primal:slab_lacquer>, <primal:slab_lacquer>, <primal:slab_lacquer>]
 		]
 	],
-	<primal:slat_oak> : [
+	<primal:slat_oak> * 3 : [
 		[
 			[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
 			[stick, stick, stick],
 			[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]
 		]
 	],
-	<primal:slat_spruce> : [
+	<primal:slat_spruce> * 3 : [
 		[
 			[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
 			[stick, stick, stick],
@@ -498,6 +498,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[null, <totemic:eagle_drops>],
 			[<totemic:eagle_drops:1>, null]
+		]
+	],
+
+	//Animalium
+	<animalium:dog_boots>: [
+		[
+			[<betterwithaddons:bundle>, <animalium:wild_dog_pelt>, <betterwithaddons:bundle>],
+			[<animalium:wild_dog_pelt>, <minecraft:leather_boots>, <animalium:wild_dog_pelt>],
+			[<ore:slimeball>, <animalium:wild_dog_pelt>, <ore:slimeball>]
 		]
 	]
 };

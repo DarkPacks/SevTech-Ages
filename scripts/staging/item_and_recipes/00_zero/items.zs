@@ -192,7 +192,6 @@ var stageZeroItems as IIngredient[] = [
 	<minecraft:prismarine>,
 	<minecraft:prismarine_crystals>,
 	<minecraft:prismarine_shard>,
-	<minecraft:pumpkin_pie>,
 	<minecraft:pumpkin_seeds>,
 	<minecraft:purple_glazed_terracotta>,
 	<minecraft:rabbit_foot>,

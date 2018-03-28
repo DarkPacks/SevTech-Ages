@@ -227,7 +227,10 @@ static removeAndHideItems as IItemStack[] = [
 	//Remove Galacticraft refineries
 	<extraplanets:advanced_refinery>,
 	<extraplanets:ultimate_refinery>,
-	<galacticraftcore:refinery>
+	<galacticraftcore:refinery>,
+
+	//Tomb Many Graves
+	<tombmanygraves:death_list>
 ];
 
 for item in removeAndHideItems {

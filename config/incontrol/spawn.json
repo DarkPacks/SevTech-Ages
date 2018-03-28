@@ -5,6 +5,12 @@
 		"result": "deny"
 	},
 	{
+		"mob": "Parrot",
+		"mincount": "15,Parrot",
+		"result": "deny"
+	},
+
+	{
 		"mob": "trumpetskeleton:trumpet_skeleton",
 		"dimension": 1,
 		"result": "deny"

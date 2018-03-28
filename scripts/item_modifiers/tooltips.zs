@@ -174,3 +174,4 @@
 <abyssalcraft:statue:4>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:5>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:6>.addTooltip(format.red("Requires open sky above to function"));
+<tombmanygraves:grave_block>.addTooltip(format.red("Please refer to the death compass to find your tomb"));

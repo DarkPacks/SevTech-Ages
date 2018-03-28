@@ -67,6 +67,14 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<betterwithmods:manual> : [
 		[<primal:plant_cloth>, <betterwithmods:material>]
+	],
+
+	//Coal/Charcoal Piece Fix
+	<pickletweaks:coal_piece> * 8: [
+		[<minecraft:coal>]
+	],
+	<pickletweaks:coal_piece:1> * 8: [
+		[<minecraft:coal:1>]
 	]
 };
 

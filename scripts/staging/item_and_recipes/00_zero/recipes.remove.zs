@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<abyssalcraft:dltslab1>,
 	<actuallyadditions:block_compost>,
+	<animalium:dog_boots>,
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:6>,

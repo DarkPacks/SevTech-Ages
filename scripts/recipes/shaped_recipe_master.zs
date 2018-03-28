@@ -158,6 +158,12 @@ recipes.addShapeless(<primal:hide_raw> * 3, [<ore:toolWorkBlade>, <primal:pelt_s
 recipes.remove(<cyclicmagic:sleeping_mat>);
 recipes.addShaped(<cyclicmagic:sleeping_mat>, [[leather, leather, leather], [<primal:thin_slab_thatch>, <primal:thin_slab_thatch>, <primal:thin_slab_thatch>]]);
 
+//==================================
+//Galacticraft
+recipes.remove(<galacticraftplanets:carbon_fragments>);
+recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 16, [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]);
+recipes.addShapeless(<galacticraftplanets:carbon_fragments> * 32, [<minecraft:coal>, <minecraft:coal>, <minecraft:coal>, <minecraft:coal>]);
+
 ////==================================
 //Immersive Craft
 //Fixes Immersive Craft not using OreDict for Wood and adds recipes

@@ -1,0 +1,21 @@
+setTitle("Give it Some Gas")
+
+setIcon("forge:bucketfilled", 0, {FluidName: "gasoline", Amount: 1000})
+
+setDescription("Further processing Diesel in a Distillation Tower will create Kerosene, Gasoline, and Lubricant. You'll need 1 bucket of each to complete the advancement. These liquids will provide sources of fuel, speed up certain machines, or allow further processing")
+
+setParent("triumph:stage3/naphtha")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"gasoline",Amount:1000})
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.addItem("forge:bucketfilled", 0, {FluidName:"kerosene",Amount:1000})
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.addItem("forge:bucketfilled", 0, {FluidName:"lubricant",Amount:1000})
+
+//Rewards
+setRewardExperience(8)

@@ -342,7 +342,6 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:tower_device:12>,
 	<twilightforest:tower_device>,
 	<twilightforest:twilight_scepter>,
-	<twilightforest:uncrafting_table>,
 	<twilightforest:yeti_boots>,
 	<twilightforest:yeti_chestplate>,
 	<twilightforest:yeti_helmet>,

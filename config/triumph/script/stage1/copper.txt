@@ -11,6 +11,11 @@ setFrameType("Goal")
 
 setRequirements("any")
 
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
 //Criteria
 criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
 criteria1.setBlock("geolosys:ore", 2)

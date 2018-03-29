@@ -9,6 +9,11 @@ setRequiresParent(true)
 
 setFrameType("Goal")
 
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
 //Criteria
 criteria = addCriteria("crafted", "minecraft:inventory_changed")
 criteria.setItem("minecraft:crafting_table", 0)

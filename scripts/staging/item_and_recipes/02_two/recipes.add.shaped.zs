@@ -936,6 +936,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:redwood_logs>, <natura:redwood_logs>],
 			[<natura:redwood_logs>, <natura:redwood_logs>]
 		]
+	],
+	<twilightforest:uncrafting_table> : [
+		[
+			[<minecraft:nether_brick>, <tconstruct:tooltables>,<minecraft:nether_brick>],
+			[<tconstruct:tooltables>, <twilightforest:maze_map_focus>, <tconstruct:tooltables>],
+			[<minecraft:nether_brick>, <tconstruct:tooltables>,<minecraft:nether_brick>]
+		]
 	]
 };
 

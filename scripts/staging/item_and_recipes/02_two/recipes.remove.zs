@@ -87,7 +87,10 @@ var removeItems as IItemStack[] = [
 	<extendedcrafting:table_basic>,
 
 	//Extra Planets
-	<extraplanets:apple_iron>
+	<extraplanets:apple_iron>,
+
+	//Twilight Forest
+	<twilightforest:uncrafting_table>
 ];
 
 for item in removeItems {

@@ -7,11 +7,6 @@ setDescription("Evolve your paper production technique by making Minecraft Paper
 setParent("triumph:stage2/root")
 setRequiresParent(true)
 
-setUncompletedIconColor(1)
-setCompletedIconColor(101)
-setUncompletedTitleColor(1001)
-setCompletedTitleColor(10001)
-
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("minecraft:paper")

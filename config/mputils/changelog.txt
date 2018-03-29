@@ -8,6 +8,36 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.4
+
+Bug Fixes:
+* Removed the Craft Studio API mod as it's no longer needed
+* Parrots have now been given a cap since they spawn a little too much in some worlds after I increased their spawn in 3.0.3
+* Altered the Vanilla Book recipe so it can actually be made and not conflict with another recipe
+* Changed the recipe for Dog Pelt Boots to be craftable in stage zero
+* Tweaked the recipe for the Uncrafting Table to fix a potential progression exploit
+* Staged the recipes for Buildcraft Pipes
+* Moved the Hunting Dimension back to stage 1. Now the recipe should match the time a player can go
+* Disabled, again, Magnetite ore spawning. It should not have been available
+* Added Aquamarine to the Weak Dowsing Rod in stage one
+
+Enhancement: 
+* Added Bear Claw drops to all types of bears
+* Tweaked Shadow Creature drops just a bit so you will always get at least 1 drop 
+* Colored the main quest lines to help players find the quest to unlock new stages
+* Added a side quest to alert players on how to get Kerosene, Lubricant, and Gasoline
+* Ore Samples now spawn underwater
+
+
+Mod Updates:
+* Triumph advancement tabs are now in order and not just randomly thrown about! Also, previous uncompleted advancements due pack updates or changes should now be auto-completed on world join or able to be completed again. Not everything could be covered on auto-complete sorry for the inconvenience ()
+* Better with Mods
+* Better with Addons
+* Geolosys updated to significantly improve their generation so it does not get overwritten by another block or feature and remove the ore. Also, more stone has been properly added to the config to allow veins to spawn in other types of stones ()
+*
+
+---------------------------------------------------------------------
+
 3.0.3
 
 Bug Fixes:
@@ -20,11 +50,13 @@ Enhancements:
 * Added some more parrot spawns to Swamps and Savannahs
 * Added a secondary trigger to possibly unlock the Baykok stage instead of killing the mob yourself. Picking up his bow will enable the advancement
 
-Mod Updates
+Mod Updates:
 * Updated Better With Mods to restore the ability to make Unfired Porcelain in the millstone again (1.12-2.0.31)
 * Updated Together Forever to fix a server sync issue (1.12.2-1.0.6-12)
 * Updated Item Stages to fix a server side crash (1.12.2-1.0.33)
 * Updated Better Advancements to stop the screen from fading when your cursor is on an advancement (1.12.2-0.0.06.22)
+
+
 
 ---------------------------------------------------------------------
 

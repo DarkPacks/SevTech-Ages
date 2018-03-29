@@ -26,4 +26,4 @@ mods.DimensionStages.addDimensionStage(STAGES.one, 53);
 mods.DimensionStages.addDimensionStage(STAGES.two, 51);
 
 //Hunting Dimension
-mods.DimensionStages.addDimensionStage(STAGES.two, 28885);
+mods.DimensionStages.addDimensionStage(STAGES.one, 28885);

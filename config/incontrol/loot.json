@@ -520,8 +520,68 @@
     "random": 0.25
   },
   {
+    "mob": "minecraft:polar_bear",
+    "item": "animalium:bear_claw",
+    "random": 1.0
+  },
+  {
+    "mob": "minecraft:polar_bear",
+    "item": "animalium:bear_claw",
+    "random": 0.35
+  },
+  {
+    "mob": "primal:bear_brown",
+    "item": "animalium:bear_claw",
+    "random": 1.0
+  },
+  {
+    "mob": "primal:bear_brown",
+    "item": "animalium:bear_claw",
+    "random": 0.35
+  },
+  {
+    "mob": "primal:bear_black",
+    "item": "animalium:bear_claw",
+    "random": 1.0
+  },
+  {
+    "mob": "primal:bear_black",
+    "item": "animalium:bear_claw",
+    "random": 0.35
+  },
+  {
     "mob": "twilightforest:bighorn_sheep",
     "item": "twilightforest:transformation_powder",
     "random": 0.05
+  },
+  {
+    "mob": "abyssalcraft:shadowcreature",
+    "item": "abyssalcraft:shadowfragment",
+    "random": 1.0
+  },
+  {
+    "mob": "abyssalcraft:shadowcreature",
+    "item": "abyssalcraft:shadowgem",
+    "random": 0.02
+  },
+  {
+    "mob": "abyssalcraft:shadowmonster",
+    "item": "abyssalcraft:shadowshard",
+    "random": 1.0
+  },
+  {
+    "mob": "abyssalcraft:shadowmonster",
+    "item": "abyssalcraft:shadowgem",
+    "random": 0.05
+  },
+  {
+    "mob": "abyssalcraft:shadowbeast",
+    "item": "abyssalcraft:shadowgem",
+    "random": 1.0
+  },
+  {
+    "mob": "abyssalcraft:shadowbeast",
+    "item": "abyssalcraft:shadowgem",
+    "random": 1.0
   }
 ]

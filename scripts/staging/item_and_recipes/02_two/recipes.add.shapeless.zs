@@ -23,7 +23,7 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:book> : [
-		[<minecraft:paper>, leather, <minecraft:paper>, <minecraft:paper>]
+		[<minecraft:paper>, leather, <minecraft:paper>, <betterwithmods:material:12>]
 	],
 	<minecraft:writable_book> : [
 		[<minecraft:book>, <minecraft:dye>, <minecraft:feather>]

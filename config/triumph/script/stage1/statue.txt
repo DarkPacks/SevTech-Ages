@@ -11,6 +11,11 @@ setFrameType("Goal")
 
 setRequirements("any")
 
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
 //Criteria
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
 criteria1.setItem("abyssalcraft:statue", 0)

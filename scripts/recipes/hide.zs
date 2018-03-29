@@ -96,6 +96,8 @@ static hideItems as IItemStack[] = [
 	<sev_tweaks_npc:golden_ladder_of_ascension>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<primal:ore_magnetite:1>,
+	<primal:ore_magnetite:2>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

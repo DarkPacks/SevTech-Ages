@@ -247,7 +247,8 @@ var replacementItemsForStage as IIngredient[][][string] = {
 	STAGES.disabled : [
 		[<geolosys:cluster:10>],
 		[<geolosys:ore:10>],
-		[<geolosys:ore_sample:10>, <immcraft:rock>]
+		[<geolosys:ore_sample:10>, <immcraft:rock>],
+		[<primal:ore_magnetite:*>]
 	]
 };
 

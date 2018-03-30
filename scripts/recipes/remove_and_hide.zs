@@ -88,6 +88,7 @@ static removeAndHideItems as IItemStack[] = [
 	<pickletweaks:grass_fiber>,
 	<pickletweaks:reinforced_mesh>,
 	<primal:ironglass>,
+	<primal:ore_magnetite:*>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,
 	<primal:satetsu:3>,

@@ -11,7 +11,8 @@ var STAGE = STAGES.disabled;
 var disabledItems as IItemStack[] = [
 	<geolosys:cluster:10>,
 	<geolosys:ore:10>,
-	<geolosys:ore_sample:10>
+	<geolosys:ore_sample:10>,
+	<primal:ore_magnetite:*>
 ];
 
 for item in disabledItems {

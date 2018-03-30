@@ -117,7 +117,8 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:propene>,
 		<liquid:purpleslime>,
 		<liquid:redstone>,
-		<liquid:slime>
+		<liquid:slime>,
+		<liquid:steam>
 	],
 
 	STAGES.four : [
@@ -167,7 +168,6 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:prudentium>,
 		<liquid:pure_matter>,
 		<liquid:soulium>,
-		<liquid:steam>,
 		<liquid:superium>,
 		<liquid:supremium>
 	]

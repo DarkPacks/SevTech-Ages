@@ -120,7 +120,7 @@ TartaricForge.addRecipe(
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:diamond>, <minecraft:redstone_block>, <minecraft:lapis_block>]);
 TartaricForge.addRecipe(
 	<bloodmagic:soul_gem:1>,
-	[<bloodmagic:soul_gem>, <abyssalcraft:shadowshard>, metals.bronze.firstItem, <minecraft:fermented_spider_eye>],
+	[<bloodmagic:soul_gem>, <abyssalcraft:shadowshard>, metals.bronze.ingot.firstItem, <minecraft:fermented_spider_eye>],
 	60, 20
 );
 

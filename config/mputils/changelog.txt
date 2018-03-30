@@ -20,10 +20,11 @@ Bug Fixes:
 * Moved the Hunting Dimension back to stage 1. Now the recipe should match the time a player can go
 * Disabled, again, Magnetite ore spawning. It should not have been available
 * Added Aquamarine to the Weak Dowsing Rod in stage one
+* Fix Lesser Tartaric Gem recipe (#1128)
 
-Enhancement: 
+Enhancement:
 * Added Bear Claw drops to all types of bears
-* Tweaked Shadow Creature drops just a bit so you will always get at least 1 drop 
+* Tweaked Shadow Creature drops just a bit so you will always get at least 1 drop
 * Colored the main quest lines to help players find the quest to unlock new stages
 * Added a side quest to alert players on how to get Kerosene, Lubricant, and Gasoline
 * Ore Samples now spawn underwater

@@ -7,13 +7,16 @@ recipes.removeByRecipeName("quark:elytra_dying");
 recipes.addShapeless(
 	"colored_elytra",
 	<minecraft:elytra>.withTag({}),
-	[<minecraft:elytra>.marked("elytra"), <ore:dye>.marked("dye")],
+	[<minecraft:elytra:*>.marked("elytra"), <ore:dye>.marked("dye")],
 	function(out, ins, cInfo) {
 		//Get dye color
 		var color as string = scripts.unique_scripts.colored_elytra.getDyeColor(ins.dye);
 		var colorID as int = scripts.unique_scripts.colored_elytra.getElytraDyeIDFromColor(color);
 
-		return out.withTag({"quark:elytraDye": colorID});
+		var currentTag = ins.elytra.tag;
+		var newTag = currentTag.update({"quark:elytraDye": colorID});
+
+		return ins.elytra.withTag(newTag);
 	},
 	null
 );

@@ -21,6 +21,7 @@ Bug Fixes:
 * Disabled, again, Magnetite ore spawning. It should not have been available
 * Added Aquamarine to the Weak Dowsing Rod in stage one
 * Fix Lesser Tartaric Gem recipe (#1128)
+* Use dye oredict for Elytra dying recipe
 
 Enhancement:
 * Added Bear Claw drops to all types of bears

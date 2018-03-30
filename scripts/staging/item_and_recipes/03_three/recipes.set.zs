@@ -778,7 +778,6 @@ var itemsForStage as IIngredient[] = [
 	<stevescarts:upgrade>,
 
 	//Buildcraft
-	<buildcrafttransport:pipe_iron_item:*>,
 	<buildcraftcore:wrench>,
 	<buildcraftfactory:tank>,
 	<buildcraftlib:guide>,
@@ -787,6 +786,7 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_cobble_fluid:*>,
 	<buildcrafttransport:pipe_cobble_item:*>,
 	<buildcrafttransport:pipe_iron_fluid:*>,
+	<buildcrafttransport:pipe_iron_item:*>,
 	<buildcrafttransport:pipe_quartz_fluid:*>,
 	<buildcrafttransport:pipe_quartz_item:*>,
 	<buildcrafttransport:pipe_sandstone_fluid:*>,

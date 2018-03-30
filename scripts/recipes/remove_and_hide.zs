@@ -88,7 +88,6 @@ static removeAndHideItems as IItemStack[] = [
 	<pickletweaks:grass_fiber>,
 	<pickletweaks:reinforced_mesh>,
 	<primal:ironglass>,
-	<primal:ore_magnetite:*>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,
 	<primal:satetsu:3>,
@@ -112,6 +111,8 @@ static removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
+	<primal:worktable_shelf:*>,
+	<primal:worktable_slab:*>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

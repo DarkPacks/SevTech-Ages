@@ -28,6 +28,15 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
+	<betterwithaddons:ink_and_quill>,
+	<betterwithaddons:log_termite>,
+	<betterwithaddons:rail_rusted>,
+	<betterwithaddons:writing_table:1>,
+	<betterwithaddons:writing_table:2>,
+	<betterwithaddons:writing_table:3>,
+	<betterwithaddons:writing_table:4>,
+	<betterwithaddons:writing_table:5>,
+	<betterwithaddons:writing_table>,
 	<betterwithmods:material:6>,
 	<betterwithmods:material:7>,
 	<betterwithmods:material:8>,
@@ -36,6 +45,12 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithmods:material:33>,
 	<betterwithmods:stump:*>,
 	<betterwithmods:stump_remover>,
+	<betterwithmods:wood_table:1>,
+	<betterwithmods:wood_table:2>,
+	<betterwithmods:wood_table:3>,
+	<betterwithmods:wood_table:4>,
+	<betterwithmods:wood_table:5>,
+	<betterwithmods:wood_table>,
 	<car:canola>,
 	<car:canola_seeds>,
 	<cyclicmagic:block_workbench>,
@@ -60,11 +75,11 @@ static removeAndHideItems as IItemStack[] = [
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
+	<ironbackpacks:upgrade>, //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:damage_bar"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:everlasting"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:extra_upgrade"}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:upgrade>.withTag({upgrade: "ironbackpacks:lock"}), //TODO: Add back when IronBackpacks adds upgrade functionality
-	<ironbackpacks:upgrade>, //TODO: Add back when IronBackpacks adds upgrade functionality
 	<microblockcbe:saw_diamond>,
 	<microblockcbe:saw_iron>,
 	<microblockcbe:saw_stone>,
@@ -87,6 +102,10 @@ static removeAndHideItems as IItemStack[] = [
 	<overloaded:ray_gun>,
 	<pickletweaks:grass_fiber>,
 	<pickletweaks:reinforced_mesh>,
+	<primal:boat_ironwood>,
+	<primal:boat_lacquer>,
+	<primal:boat_yew>,
+	<primal:gate_ironwood>,
 	<primal:ironglass>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,
@@ -94,6 +113,8 @@ static removeAndHideItems as IItemStack[] = [
 	<primal:satetsu:4>,
 	<primal:satetsu>,
 	<primal:soul_stone>,
+	<primal:worktable_shelf:*>,
+	<primal:worktable_slab:*>,
 	<quantumstorage:quantum_barrel>,
 	<quantumstorage:quantum_battery>,
 	<quantumstorage:upgrade:1>,
@@ -111,27 +132,6 @@ static removeAndHideItems as IItemStack[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<totemic:medicine_bag>,
-	<primal:worktable_shelf:*>,
-	<primal:worktable_slab:*>,
-	<betterwithmods:wood_table:1>,
-	<betterwithmods:wood_table:2>,
-	<betterwithmods:wood_table:3>,
-	<betterwithmods:wood_table:4>,
-	<betterwithmods:wood_table:5>,
-	<betterwithmods:wood_table>,
-	<betterwithaddons:writing_table>,
-	<betterwithaddons:writing_table:1>,
-	<betterwithaddons:writing_table:2>,
-	<betterwithaddons:writing_table:3>,
-	<betterwithaddons:writing_table:4>,
-	<betterwithaddons:writing_table:5>,
-	<betterwithaddons:log_termite>,
-	<betterwithaddons:rail_rusted>,
-	<betterwithaddons:ink_and_quill>,
-	<primal:gate_ironwood>,
-	<primal:boat_ironwood>,
-	<primal:boat_yew>,
-	<primal:boat_lacquer>,
 
 	//Nuggets
 	//TODO: Unify/handle these with a better removal

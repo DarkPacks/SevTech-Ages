@@ -116,9 +116,12 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:plastic>,
 		<liquid:propene>,
 		<liquid:purpleslime>,
-		<liquid:redstone>,
-		<liquid:slime>
-	],
+
+  //FIRST NECRON
+  //FIX THIS ONE TOO
+  		<liquid:redstone>
+//		<liquid:slime>
+  	],
 
 	STAGES.four : [
 		<liquid:biofuel>,

@@ -141,12 +141,6 @@ static hideItems as IItemStack[] = [
 	<betterwithmods:fertilizer>,
 	<betterwithmods:material:5>,
 	<betterwithmods:material:30>,
-	<betterwithmods:wood_table:1>,
-	<betterwithmods:wood_table:2>,
-	<betterwithmods:wood_table:3>,
-	<betterwithmods:wood_table:4>,
-	<betterwithmods:wood_table:5>,
-	<betterwithmods:wood_table>,
 
 	//Natura
 	<natura:bonemeal_bag>,

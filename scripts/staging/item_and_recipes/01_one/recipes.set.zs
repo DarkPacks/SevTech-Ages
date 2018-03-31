@@ -193,7 +193,6 @@ var itemsForStage as IIngredient[] = [
 		Items by mod
 	*/
 	//Minecraft
-	<minecraft:cake>,
 	<minecraft:chest>,
 	<minecraft:concrete:*>,
 	<minecraft:concrete_powder:*>,

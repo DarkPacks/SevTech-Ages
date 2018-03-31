@@ -87,7 +87,6 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:raw_pastry:1>,
 	<betterwithmods:raw_pastry:2>,
 	<betterwithmods:raw_pastry:4>,
-	<betterwithmods:raw_pastry>,
 	<ceramics:clay_hard:3>,
 	<ceramics:clay_slab:3>,
 	<ceramics:clay_wall:4>,
@@ -346,7 +345,6 @@ var stage2Items as IIngredient[] = [
 	<extendedcrafting:table_basic>,
 
 	//Ferdinand's Flowers
-	<ferdinandsflowers:block_birthday>,
 	<ferdinandsflowers:block_dye_glass:*>,
 	<ferdinandsflowers:block_metal_light>,
 	<ferdinandsflowers:block_stonebrick_light>,

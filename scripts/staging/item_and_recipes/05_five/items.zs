@@ -851,7 +851,6 @@ var stage5Items as IIngredient[] = [
 	<galacticraftcore:food:2>,
 	<galacticraftcore:food:3>,
 	<galacticraftcore:food:4>,
-	<galacticraftcore:food:5>,
 	<galacticraftcore:food:8>,
 	<galacticraftcore:food:9>,
 	<galacticraftcore:food>,

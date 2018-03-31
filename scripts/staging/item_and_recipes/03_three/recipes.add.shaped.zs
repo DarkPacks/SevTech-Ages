@@ -34,6 +34,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:piston> : [
 		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
 	],
+	<minecraft:cake> : [
+		[[scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk")], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
+	],
 	<prospectors:prospector_med> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:dye:4>, <minecraft:redstone>], [<minecraft:dye:4>, null, null]]
 	],

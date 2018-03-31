@@ -21,7 +21,9 @@ var stage3Items as IIngredient[] = [
 	<betterbuilderswands:wanddiamond>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 	<fat_cat:top_hat>,
+	<ferdinandsflowers:block_birthday>,
 	<galacticraftcore:bucket_oil>,
+	<galacticraftcore:food:5>,
 	<immersivetech:connectors>,
 	<industrialforegoing:plastic>,
 	<ironchest:iron_chest:6>,
@@ -231,6 +233,7 @@ var stage3Items as IIngredient[] = [
 	*/
 	//Minecraft
 	<minecraft:beacon>,
+	<minecraft:cake>,
 	<minecraft:chest_minecart>,
 	<minecraft:dispenser>,
 	<minecraft:dropper>,
@@ -721,6 +724,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:material:50>,
 	<betterwithmods:material:51>,
 	<betterwithmods:mining_charge>,
+	<betterwithmods:raw_pastry>,
 	<betterwithmods:raw_scrambled_egg>,
 	<betterwithmods:single_machine:2>,
 	<betterwithmods:stake>,

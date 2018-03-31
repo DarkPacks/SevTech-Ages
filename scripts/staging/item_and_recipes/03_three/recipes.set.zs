@@ -16,6 +16,8 @@ for id in modIDs {
 }
 
 var itemsForStage as IIngredient[] = [
+	<ferdinandsflowers:block_birthday>,
+	<galacticraftcore:food:5>,
 	<minecraft:grass>, //Ore Excavation
 	<modularmachinery:blockfluidoutputhatch>,
 	<primal:dust_bin:9>.withTag({type: "corypha"}),
@@ -420,6 +422,7 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
 
 	//Better With Mods
+	<betterwithmods:raw_pastry>,
 	<betterwithaddons:ancestry_infuser>,
 	<betterwithaddons:bag:6>,
 	<betterwithaddons:bag:7>,

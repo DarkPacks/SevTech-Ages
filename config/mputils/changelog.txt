@@ -22,6 +22,8 @@ Bug Fixes:
 * Added Aquamarine to the Weak Dowsing Rod in stage one
 * Fix Lesser Tartaric Gem recipe (#1128)
 * Use dye oredict for Elytra dying recipe
+* Moved steam to stage 3 (#796)
+* Re-added a bunch of missing Mystical Agriculture metal essence recipes (#565)
 
 Enhancement:
 * Added Bear Claw drops to all types of bears

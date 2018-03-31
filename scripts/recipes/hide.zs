@@ -96,6 +96,8 @@ static hideItems as IItemStack[] = [
 	<sev_tweaks_npc:golden_ladder_of_ascension>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
+	<primal:ore_magnetite:1>,
+	<primal:ore_magnetite:2>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,
@@ -139,12 +141,6 @@ static hideItems as IItemStack[] = [
 	<betterwithmods:fertilizer>,
 	<betterwithmods:material:5>,
 	<betterwithmods:material:30>,
-	<betterwithmods:wood_table:1>,
-	<betterwithmods:wood_table:2>,
-	<betterwithmods:wood_table:3>,
-	<betterwithmods:wood_table:4>,
-	<betterwithmods:wood_table:5>,
-	<betterwithmods:wood_table>,
 
 	//Natura
 	<natura:bonemeal_bag>,
@@ -390,6 +386,7 @@ static hideItems as IItemStack[] = [
 	<primal:ore_bog_iron:2>,
 	<primal:ore_bog_iron>,
 	<primal:ore_iron>,
+	<primal:ore_magnetite>,
 	<primal:ore_salt:2>,
 	<primal:ovis_meat_rotten>,
 	<primal:ovis_milk_bottle>,
@@ -457,8 +454,6 @@ static hideItems as IItemStack[] = [
 	<primal:wall:15>,
 	<primal:wolf_meat_rotten>,
 	<primal:wood_pin>,
-	<primal:worktable_shelf:*>,
-	<primal:worktable_slab:*>,
 
 	//Tinkers
 	<tconstruct:moms_spaghetti>,

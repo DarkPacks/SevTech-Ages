@@ -32,7 +32,8 @@ Enhancement:
 * Colored the main quest lines to help players find the quest to unlock new stages
 * Added a side quest to alert players on how to get Kerosene, Lubricant, and Gasoline
 * Ore Samples now spawn underwater
-
+* Prospectors now scan in a 48 block line instead of 32
+* The Betweenlands will no longer spawn common ores, making rare ores more abundant. Note, all ores still spawn in the Overworld and Twilight Forest.
 
 Mod Updates:
 * Triumph advancement tabs are now in order and not just randomly thrown about! Also, previous uncompleted advancements due pack updates or changes should now be auto-completed on world join or able to be completed again. Not everything could be covered on auto-complete sorry for the inconvenience ()

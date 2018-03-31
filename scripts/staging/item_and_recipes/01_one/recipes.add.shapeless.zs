@@ -59,7 +59,12 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<tconstruct:book> : [
 		[<primal:plant_cloth>, <ore:dyeBrown>]
-	]
+	],
+
+	<geolosys:field_manual> : [
+		[<minecraft:stone_pickaxe>, <primal:plant_cloth>]
+	],
+
 };
 
 for item, recipesForItem in shapelessRecipes {

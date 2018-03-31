@@ -25,6 +25,9 @@ Bug Fixes:
 * Moved steam to stage 3 (#796)
 * Re-added a bunch of missing Mystical Agriculture metal essence recipes (#565)
 * Adjust recipes that use milk to stage 3 (#1088)
+* Fixed Quartz Glass requiring Natura Glass only, now asks for any blockGlass (#1184)
+* Added Blue Dye to all the Modular Machinery Blueprint recipes to eliminate recipe conflicts (#1156)
+* Field Manual is now craftable in stage one (#1140)
 
 Enhancement:
 * Added Bear Claw drops to all types of bears
@@ -36,11 +39,18 @@ Enhancement:
 * The Betweenlands will no longer spawn common ores, making rare ores more abundant. Note, all ores still spawn in the Overworld and Twilight Forest.
 
 Mod Updates:
-* Triumph advancement tabs are now in order and not just randomly thrown about! Also, previous uncompleted advancements due pack updates or changes should now be auto-completed on world join or able to be completed again. Not everything could be covered on auto-complete sorry for the inconvenience ()
-* Better with Mods
-* Better with Addons
-* Geolosys updated to significantly improve their generation so it does not get overwritten by another block or feature and remove the ore. Also, more stone has been properly added to the config to allow veins to spawn in other types of stones ()
-*
+* Triumph advancement tabs are now in order and not just randomly thrown about! Also, previous uncompleted advancements due pack updates or changes should now be auto-completed on world join or able to be completed again. Not everything could be covered on auto-complete sorry for the inconvenience (1.12.2-1.10.1)
+* Better with Mods (1.12.-2.0.32)
+* Better with Addons (0.3.4)
+* Geolosys updated to significantly improve their generation so it does not get overwritten by another block or feature and remove the ore. Also, more stone has been properly added to the config to allow veins to spawn in other types of stones (1.12.2-1.8.10b)
+* PrimalTech (0.3.1)
+* Mob Grinding Utils (0.3.5)
+* PrimalCore fixed a localization issue and a few small tweaks (1.12.2-0.6.44)
+* ImmersiveTech fixed GUI's not working. The mod also removed Liquid Green Slime but we have replaced it with a custom liquid. You will be asked to confirm the missing item when loading your world. You can confirm and play as normal (1.12-1.3.7)
+* Better Advancements fixed a uncommon rendering crash (1.12.2-0.0.6.24)
+* EmberRootZoo (1.12-1.3.7)
+* FastWorkbench (1.12.2-1.3.1)
+* SmoothFont (1.12.2-1.13.1)
 
 ---------------------------------------------------------------------
 

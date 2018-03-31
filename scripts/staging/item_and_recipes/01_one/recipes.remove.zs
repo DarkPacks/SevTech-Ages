@@ -86,7 +86,9 @@ var removeItems as IItemStack[] = [
 
 	//Chisel & Bits
 	<chiselsandbits:bittank>,
-	<chiselsandbits:chisel_iron>
+	<chiselsandbits:chisel_iron>,
+
+	<geolosys:field_manual>
 ];
 
 for item in removeItems {

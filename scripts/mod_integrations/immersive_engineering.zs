@@ -98,7 +98,7 @@ Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:11>, 3000, <ore:gemLap
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Arc_Furnace/
 */
 //Quartz Glass
-ArcFurnace.addRecipe(<appliedenergistics2:quartz_glass> * 4, <ore:glassBlock> * 4, null, 200, 512,
+ArcFurnace.addRecipe(<appliedenergistics2:quartz_glass> * 4, <ore:blockGlass> * 4, null, 200, 512,
 	[<ore:dustQuartz> * 5]
 );
 

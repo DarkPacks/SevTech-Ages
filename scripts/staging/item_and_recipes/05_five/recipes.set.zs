@@ -610,7 +610,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:buggymat:2>,
 	<galacticraftcore:buggymat>,
 	<galacticraftcore:canister:1>,
-	<galacticraftcore:canister>,
 	<galacticraftcore:cargo:4>,
 	<galacticraftcore:cargo>,
 	<galacticraftcore:cheese>,

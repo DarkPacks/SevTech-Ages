@@ -1,10 +1,10 @@
-## Instruction on how to do issues like your boy darkosto
+<!-- Instructions on how to do issues like your boy darkosto -->
 
-### Before anything else, use the *search* feature!
- * Maybe someone already reported the issue you're experiencing?
- * Maybe you can find the answer to your question by looking at older or closed issues?
- * Have a go at it and see!
- * Please search on the [issue track](../) before creating one.
+<!-- Before anything else, use the *search* feature! -->
+<!-- * Maybe someone already reported the issue you're experiencing? -->
+<!-- * Maybe you can find the answer to your question by looking at older or closed issues? -->
+<!-- * Have a go at it and see! -->
+<!-- * Please search on the [issue track](../) before creating one. -->
  
 ## Issue / Bug
 <!--- If you're describing a bug, tell us what should happen -->

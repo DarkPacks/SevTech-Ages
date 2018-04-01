@@ -8,6 +8,15 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.3
+
+Bug Fixes:
+* Move Galacticraft's Tin Canister recipe to age 4 (#1201)
+* Remove 4x rice slimeball recipes (#1241)
+* Re-add Liquid Slime recipe (#1212)
+
+---------------------------------------------------------------------
+
 3.0.4
 
 Bug Fixes:

@@ -279,6 +279,7 @@ recipes.addShaped(<tcomplement:porcelain_casting:1>, [
 ]);
 
 //Fluid Bladder to Rice Slimeball
+recipes.remove(<actuallyadditions:item_misc:12>);
 recipes.addShaped(<actuallyadditions:item_misc:12>, [
 	[null, <actuallyadditions:item_misc:9>, null],
 	[<actuallyadditions:item_misc:9>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>],

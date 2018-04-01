@@ -22,6 +22,7 @@ function unifyWithPreferredItem(oreDictEntry as IOreDictEntry, preferredItem as 
 			}
 
 			furnace.remove(item);
+			furnace.setFuel(item, 0); //Setting the burnTime to 0 will stop the input from being a fuel item
 
 			/*
 				Check supported mods and call script if loaded

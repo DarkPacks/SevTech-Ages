@@ -20,7 +20,6 @@ var stageZeroItems as IIngredient[] = [
 	<ore:foodSalt>,
 	<ore:blockSalt>,
 
-	<antiqueatlas:antique_atlas>,
 	<astikoor:cargocart>,
 	<astikoor:plowcart>,
 	<astikoor:wheel>,

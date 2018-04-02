@@ -103,6 +103,7 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowers>,
 		<ferdinandsflowers:block_cff_flowersc:10>,
 		<ferdinandsflowers:block_cff_flowersc:11>,
+		<ferdinandsflowers:block_cff_flowersd:15>,
 		<ferdinandsflowers:block_cff_flowersd>
 	],
 
@@ -112,7 +113,9 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_doublesc:5>,
 		<ferdinandsflowers:block_cff_flowers:15>,
 		<ferdinandsflowers:block_cff_flowersc:14>,
-		<ferdinandsflowers:block_cff_flowersc:15>
+		<ferdinandsflowers:block_cff_flowersc:15>,
+		<ferdinandsflowers:block_cff_flowersd:11>,
+		<ferdinandsflowers:block_cff_flowersd:12>
 	],
 
 	//Yellow
@@ -161,6 +164,9 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	],
 
 	//Cyan
+	<ore:dyeCyan>.firstItem : [
+		<ferdinandsflowers:block_cff_flowersd:10>
+	],
 
 	//Purple
 	<ore:dyePurple>.firstItem : [
@@ -193,6 +199,8 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersb:7>,
 		<ferdinandsflowers:block_cff_flowersc:5>,
 		<ferdinandsflowers:block_cff_flowersc:6>,
+		<ferdinandsflowers:block_cff_flowersd:13>,
+		<ferdinandsflowers:block_cff_flowersd:14>,
 		<minecraft:dye:4>
 	],
 

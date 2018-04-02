@@ -586,7 +586,6 @@ var itemsForStage as IIngredient[] = [
 	<waterstrainer:strainer_survivalist_reinforced>,
 
 	//Galacticraft
-	<galacticraftcore:air_fan>,
 	<galacticraftcore:aluminum_wire:1>,
 	<galacticraftcore:aluminum_wire:2>,
 	<galacticraftcore:aluminum_wire:3>,
@@ -625,7 +624,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:enclosed:14>,
 	<galacticraftcore:enclosed:15>,
 	<galacticraftcore:engine:1>,
-	<galacticraftcore:fluid_pipe>,
 	<galacticraftcore:fluid_tank>,
 	<galacticraftcore:food:1>,
 	<galacticraftcore:food:2>,

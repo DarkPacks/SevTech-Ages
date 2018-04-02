@@ -780,7 +780,6 @@ var stage5Items as IIngredient[] = [
 	<industrialforegoing:black_hole_unit>,
 
 	//Galacticraft
-	<galacticraftcore:air_fan>,
 	<galacticraftcore:aluminum_wire:1>,
 	<galacticraftcore:aluminum_wire:2>,
 	<galacticraftcore:aluminum_wire:3>,
@@ -843,7 +842,6 @@ var stage5Items as IIngredient[] = [
 	<galacticraftcore:enclosed:15>,
 	<galacticraftcore:engine:1>,
 	<galacticraftcore:fallen_meteor>,
-	<galacticraftcore:fluid_pipe>,
 	<galacticraftcore:fluid_tank>,
 	<galacticraftcore:food:1>,
 	<galacticraftcore:food:2>,

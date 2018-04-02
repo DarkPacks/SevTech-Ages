@@ -171,3 +171,4 @@ Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Refinery/
 */
 Refinery.addRecipe(<liquid:fuel> * 100, <liquid:liquidoxygen> * 250, <liquid:kerosene> * 100, 2048);
+Refinery.addRecipe(<liquid:fuel> * 100, <liquid:oxygen> * 250, <liquid:kerosene> * 100, 2048);

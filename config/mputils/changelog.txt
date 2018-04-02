@@ -14,12 +14,27 @@ Bug Fixes:
 * Move Galacticraft's Tin Canister recipe to age 4 (#1201)
 * Remove 4x rice slimeball recipes (#1241)
 * Re-add Liquid Slime recipe (#1212)
+* Altered the Y level advancement description for Hematite ore (#1206)
+* Removed erroring items in the Tumbleweed drop list (#946)
+* Fixed the incorrect beach entry and added a few new biomes to the infinite water list (#1204)
+* Removed the Bauxite Entry from the Tough Dowsing Rod list (#1124)
+* Added the remaining flowers from Ferdinand's Flowers to the crusher lists to make dye (#1110)
+* Added back the Cyclic Block Placer since it was accidently hidden from JEI (#1129)
+* Due to recipe and staging issues, Rocket Fuel was unable to be created. The Oxygen Collector recipe is now correct and the oxygen can be mixed with Kerosene in the Immersive Engineering Refinery to fuel Rockets
+* Fixed an incorrect prospector tooltip to say 48 block range instead of 32
+* Properly moved Silicon back to stage 4, should be available to use now (#1008)
 * Moved wooden basin's item stage from 0 to 1 to align with the recipe. (#866)
 * Removed pigman hide (#794)
-* Add missing flower -> dye recipes (#1110)
 * Removed reference to Osmium in Platinum Ore tooltip
-* Move silicon to stage 4 (#1008)
 * Fix stage 5 root advancement not triggering (#1199)
+
+Enhancements:
+* Added the ability for llamas to pull Astikoor Carts (#1242)
+* Added some text to the Aqueduct advancement letting players know completion is on placement and not crafting
+* Increased the max height of Black Quartz in the Beneath from 20 to 100
+
+Mod Updates:
+* Cyclic updated and fixed some broken blocks in the Nether and the End causing crashes ()
 
 ---------------------------------------------------------------------
 

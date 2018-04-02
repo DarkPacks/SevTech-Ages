@@ -587,6 +587,8 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:space_glass_clear>,
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
+	<galacticraftcore:fluid_pipe>,
+	<galacticraftcore:basic_item:2>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

@@ -981,6 +981,9 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
 	<materialpart:silicon:ore_sample>,
+	<galacticraftcore:fluid_pipe>,
+	<galacticraftcore:air_fan>,
+	<galacticraftcore:basic_item:2>,
 
 	//Extra Planets
 	<extraplanets:tier1_armor_layer>,

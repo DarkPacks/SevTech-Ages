@@ -17,7 +17,7 @@
     "veins": 20,
     "size": 6,
     "miny": 2,
-    "maxy": 20
+    "maxy": 100
   },
   {
     "ore": "minecraft:monster_egg",

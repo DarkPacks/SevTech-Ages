@@ -212,7 +212,6 @@ var stage3Items as IIngredient[] = [
 	//Redstone
 	<cyclicmagic:builder_block>,
 	<cyclicmagic:clock>,
-	<cyclicmagic:placer_block>,
 	<minecraft:activator_rail>,
 	<minecraft:comparator>,
 	<minecraft:daylight_detector>,
@@ -1166,6 +1165,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:placer_block>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,

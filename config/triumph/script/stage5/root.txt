@@ -12,4 +12,4 @@ setAnnounceToChat(true)
 
 //Criteria
 criteria = addCriteria("completedStage1", "triumph:completed_advancement")
-criteria.setString("triumph:stage4/atomicreconstructor")
+criteria.setString("triumph:stage4/moon")

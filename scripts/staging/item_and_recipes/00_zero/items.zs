@@ -481,7 +481,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal_tech:stone_grill>,
 	<primal_tech:twine>,
 	<primal_tech:water_saw>,
-	<primal_tech:wooden_basin>,
 	<primal_tech:wooden_hopper>,
 	<primal_tech:work_stump_upgraded>,
 

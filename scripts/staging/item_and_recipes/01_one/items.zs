@@ -970,6 +970,7 @@ var stage1Items as IIngredient[] = [
 	<primal_tech:leaf_bed>,
 	<primal_tech:stone_anvil>,
 	<primal_tech:stone_mallet>,
+	<primal_tech:wooden_basin>,
 
 	//Dung Pipes
 	<dungpipe:dung_pipe>,

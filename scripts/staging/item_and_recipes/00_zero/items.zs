@@ -812,7 +812,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:pelt_wolf>,
 	<primal:pigman_hide_dried>,
 	<primal:pigman_hide_raw>,
-	<primal:pigman_hide_salted>,
 	<primal:pigman_hide_spoiled>,
 	<primal:pigman_hide_tanned>,
 	<primal:pigman_leather>,

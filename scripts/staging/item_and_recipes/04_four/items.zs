@@ -29,7 +29,12 @@ var stage4Items as IIngredient[] = [
 	//Ore
 	<immersiveengineering:ore:5>,
 	<materialpart:osmium:ore_minecraft_stone>,
-	<contenttweaker:sub_block_holder_0:5>, //Silicon Ore Sample
+
+	//Silicon
+	<galacticraftcore:basic_block_core:8>,
+	<ore:blockSilicon>,
+	<ore:itemSilicon>,
+	<ore:oreSampleSilicon>,
 
 	//End
 	<betterwithmods:material:39>,
@@ -928,7 +933,6 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:air_lock_frame>,
 	<galacticraftcore:air_vent>,
 	<galacticraftcore:basic_block_core:4>,
-	<galacticraftcore:basic_block_core:8>,
 	<galacticraftcore:basic_item:6>,
 	<galacticraftcore:basic_item:7>,
 	<galacticraftcore:basic_item:8>,

@@ -26,6 +26,9 @@ for id in modIDs {
 }
 
 var itemsForStage as IIngredient[] = [
+	<ore:blockSilicon>,
+	<ore:itemSilicon>,
+
 	<immersiveengineering:storage_slab:5>,
 
 	//Bonsai

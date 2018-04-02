@@ -138,14 +138,6 @@ addGrindstoneRecipe(<primal:salt_dust_rock>, <minecraft:sand>, 24, false);
 addGrindstoneRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 16, false);
 addGrindstoneRecipe(<tconstruct:stone_stick>, <minecraft:cobblestone>, 32, false);
 
-//New Grindstone Recipes to fix remaining flowers not covered
-addGrindstoneRecipe(<pickletweaks:dye_powder:9> * 2, <ferdinandsflowers:block_cff_flowersd:10>, 12, false);
-addGrindstoneRecipe(<pickletweaks:dye_powder:3> * 2, <ferdinandsflowers:block_cff_flowersd:11>, 12, false);
-addGrindstoneRecipe(<pickletweaks:dye_powder:3> * 2, <ferdinandsflowers:block_cff_flowersd:12>, 12, false);
-addGrindstoneRecipe(<pickletweaks:dye_powder:3> * 2, <ferdinandsflowers:block_cff_flowersd:13>, 12, false);
-addGrindstoneRecipe(<pickletweaks:dye_powder:11> * 2, <ferdinandsflowers:block_cff_flowersd:14>, 12, false);
-addGrindstoneRecipe(<pickletweaks:dye_powder:2> * 2, <ferdinandsflowers:block_cff_flowersd:15>, 12, false);
-
 //Recipes with Secondary Outputs
 addGrindstoneRecipeWithSecondary(<minecraft:dye:15>, <primal:bone_knapp>, 16, false, <minecraft:dye:15>, 20);
 addGrindstoneRecipeWithSecondary(<minecraft:dye:15>, <primal:bone_point>, 16, false, <minecraft:dye:15>, 20);

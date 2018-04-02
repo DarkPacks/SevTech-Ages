@@ -52,12 +52,6 @@ Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
 Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
 Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
 Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
-Mill.add(<pickletweaks:dye_powder:9> * 2, null, [<ferdinandsflowers:block_cff_flowersd:10>]);
-Mill.add(<pickletweaks:dye_powder:3> * 2, null, [<ferdinandsflowers:block_cff_flowersd:11>]);
-Mill.add(<pickletweaks:dye_powder:3> * 2, null, [<ferdinandsflowers:block_cff_flowersd:12>]);
-Mill.add(<pickletweaks:dye_powder:3> * 2, null, [<ferdinandsflowers:block_cff_flowersd:13>]);
-Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<ferdinandsflowers:block_cff_flowersd:14>]);
-Mill.add(<pickletweaks:dye_powder:2> * 2, null, [<ferdinandsflowers:block_cff_flowersd:15>]);
 
 Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
 

@@ -22,7 +22,6 @@ var hardnessItems as float[IItemStack] = {
 	<minecraft:stone_slab:6> : 2,
 	<minecraft:netherrack> : 2,
 	<minecraft:nether_brick> : 2,
-	<minecraft:nether_brick_stairs> : 2,
 	<minecraft:quartz_ore:0> : 2,
 	<primal:scoria_stone:0> : 2,
 	<mysticalagriculture:soulstone:0> : 2,

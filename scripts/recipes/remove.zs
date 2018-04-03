@@ -4,6 +4,7 @@ var removeItems as IItemStack[] = [
 	<appliedenergistics2:quartz_glass>,
 	<appliedenergistics2:material:40>,
 	<betterwithmods:aesthetic:8>,
+	<betterwithaddons:decomat:3>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
 	<minecraft:bed:*>,

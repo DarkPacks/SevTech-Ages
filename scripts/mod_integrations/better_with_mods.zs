@@ -6,6 +6,7 @@ import mods.betterwithaddons.Spindle;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Mill;
 import mods.betterwithmods.StokedCauldron;
+import mods.betterwithmods.StokedCrucible;
 import mods.betterwithmods.Turntable;
 
 /*
@@ -97,6 +98,13 @@ Cauldron.remove(<rustic:tallow>);
 //Remake laxative recipe using foodFlour instead of BWM flour only
 Cauldron.remove(<betterwithaddons:laxative>);
 Cauldron.add(<betterwithaddons:laxative>, null, [<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
+
+/*
+	Stoked Crucible
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/StokedCrucible/
+*/
+StokedCrucible.remove(<betterwithaddons:decomat:3>);
 
 /*
 	Stoked Cauldron

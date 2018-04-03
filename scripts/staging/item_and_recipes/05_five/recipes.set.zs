@@ -811,6 +811,7 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:basicblock:11>,
 	<mekanism:basicblock:14>,
 	<mekanism:basicblock:15>,
+	<mekanism:cardboardbox>,
 	<mekanism:cardboardbox>.withTag({mekData: {}}),
 	<mekanism:configurationcard>.withTag({mekData: {}}),
 	<mekanism:configurator>,

@@ -27,6 +27,8 @@ Bug Fixes:
 * Removed pigman hide (#794)
 * Removed reference to Osmium in Platinum Ore tooltip
 * Fix stage 5 root advancement not triggering (#1199)
+* Fixed Nether Brick Stairs being unbreakable when using Tinkers Pickaxe or Hammer if in a certain orientation (#1331)
+* Fixed Mystical Agriculture Soulstone being unbreakbale when using Tinkers Pickaxe or Hammer (#1363) 
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)

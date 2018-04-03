@@ -131,28 +131,6 @@ var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 	<betterwithaddons:japanmat:8> * 4: [
 		[<betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>]
 	],
-	<horsepower:dough> * 3: [
-		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_fire>],
-		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_netjry>],
-		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_rock>],
-		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <primal:salt_dust_void>],
-		[<horsepower:flour>, <horsepower:flour>, <horsepower:flour>, <mekanism:salt>],
-		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_fire>, <horsepower:flour>],
-		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_netjry>, <horsepower:flour>],
-		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_rock>, <horsepower:flour>],
-		[<horsepower:flour>, <horsepower:flour>, <primal:salt_dust_void>, <horsepower:flour>],
-		[<horsepower:flour>, <horsepower:flour>, <mekanism:salt>, <horsepower:flour>],
-		[<horsepower:flour>, <primal:salt_dust_fire>, <horsepower:flour>, <horsepower:flour>],
-		[<horsepower:flour>, <primal:salt_dust_netjry>, <horsepower:flour>, <horsepower:flour>],
-		[<horsepower:flour>, <primal:salt_dust_rock>, <horsepower:flour>, <horsepower:flour>],
-		[<horsepower:flour>, <primal:salt_dust_void>, <horsepower:flour>, <horsepower:flour>],
-		[<horsepower:flour>, <mekanism:salt>, <horsepower:flour>, <horsepower:flour>],
-		[<primal:salt_dust_fire>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
-		[<primal:salt_dust_netjry>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
-		[<primal:salt_dust_rock>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
-		[<primal:salt_dust_void>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>],
-		[<mekanism:salt>, <horsepower:flour>, <horsepower:flour>, <horsepower:flour>]
-	],
 	<primal:hide_salted> * 3: [
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_fire>],
 		[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_netjry>],
@@ -191,6 +169,22 @@ var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 		[<betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:12>]
 	]
 };
+
+/*
+	Flour -> Dough Recipes
+*/
+var doughRecipes = [] as IIngredient[][];
+var oreSalt = <ore:foodSalt>;
+var oreFlour = <ore:foodFlour>;
+for flour in oreFlour.items {
+	for salt in oreSalt.items {
+		doughRecipes += [flour, flour, flour, salt] as IIngredient[];
+		doughRecipes += [flour, flour, salt, flour] as IIngredient[];
+		doughRecipes += [flour, salt, flour, flour] as IIngredient[];
+		doughRecipes += [salt, flour, flour, flour] as IIngredient[];
+	}
+}
+defaultWoodenBasinRecipes[<horsepower:dough> * 3] += doughRecipes;
 
 for output, inputs in defaultWoodenBasinRecipes {
 	for inputIngredients in inputs {

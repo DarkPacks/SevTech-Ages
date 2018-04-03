@@ -859,7 +859,6 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:pneumatic_door_base>,
 	<pneumaticcraft:pneumatic_dynamo>,
 	<pneumaticcraft:pneumatic_helmet>,
-	<pneumaticcraft:pneumatic_wrench:*>,
 	<pneumaticcraft:pressure_chamber_glass>,
 	<pneumaticcraft:pressure_chamber_interface>,
 	<pneumaticcraft:pressure_chamber_valve>,
@@ -907,6 +906,8 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
+	<pneumaticcraft:pneumatic_wrench>,
+	
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

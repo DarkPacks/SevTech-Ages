@@ -32,9 +32,13 @@ Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
 * Added some text to the Aqueduct advancement letting players know completion is on placement and not crafting
 * Increased the max height of Black Quartz in the Beneath from 20 to 100
+* Added an Advancement for Power Adapters to alert players (1332)
 
 Mod Updates:
 * Cyclic updated and fixed some broken blocks in the Nether and the End causing crashes ()
+* Geolosys quartz ()
+* Horse Power ()
+* Abyssalcraft ()
 
 ---------------------------------------------------------------------
 

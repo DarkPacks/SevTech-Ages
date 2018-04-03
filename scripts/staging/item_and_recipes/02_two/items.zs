@@ -1120,7 +1120,6 @@ var stage2Items as IIngredient[] = [
 
 	//Cyclic
 	<cyclicmagic:apple_lapis>,
-	<cyclicmagic:block_fishing>,
 	<cyclicmagic:block_fragile>,
 	<cyclicmagic:block_fragile_auto>,
 	<cyclicmagic:block_fragile_weak>,

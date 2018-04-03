@@ -1,4 +1,4 @@
-setTitle("Storage Upgrade")
+setTitle("Nether Tools")
 
 setIcon("nex:tool_hoe_bone")
 

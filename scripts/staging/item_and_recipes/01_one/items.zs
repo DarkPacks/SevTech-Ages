@@ -275,7 +275,6 @@ var stage1Items as IIngredient[] = [
 	<chiselsandbits:mirrorprint>,
 	<chiselsandbits:negativeprint>,
 	<chiselsandbits:positiveprint>,
-	<chiselsandbits:tape_measure>,
 	<chiselsandbits:wrench_wood>,
 
 	//Chisel

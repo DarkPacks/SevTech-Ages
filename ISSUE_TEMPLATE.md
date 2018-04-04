@@ -36,5 +36,6 @@
 * Modpack Version:
 * Java Version:
 * Launcher Used:
+* Server/LAN/Single Player:
 * Resourcepack Enabled?:
 * Optifine Installed?:

@@ -28,7 +28,7 @@ Bug Fixes:
 * Removed reference to Osmium in Platinum Ore tooltip
 * Fix stage 5 root advancement not triggering (#1199)
 * Fixed Nether Brick Stairs being unbreakable when using Tinkers Pickaxe or Hammer if in a certain orientation (#1331)
-* Fixed Mystical Agriculture Soulstone being unbreakbale when using Tinkers Pickaxe or Hammer (#1363) 
+* Fixed Mystical Agriculture Soulstone being unbreakbale when using Tinkers Pickaxe or Hammer (#1363)
 * The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
 
 Enhancements:
@@ -57,8 +57,10 @@ Mod Updates:
 * OreStages ()
 * Bookshelf ()
 * Gamestages ()
-*
-*
+* The Betweenlands ()
+* Hunting Dimension ()
+* Galacticraft ()
+* ExtraPlanets ()
 
 ---------------------------------------------------------------------
 

@@ -906,8 +906,8 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
-	<pneumaticcraft:pneumatic_wrench>,
-	
+	<pneumaticcraft:pneumatic_wrench:0>,
+	<pneumaticcraft:pneumatic_wrench:30000>,	
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,

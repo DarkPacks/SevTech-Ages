@@ -75,13 +75,6 @@ static hideItems as IItemStack[] = [
 	<overloaded:creative_generator>,
 	<pickletweaks:mesh>,
 	<pickletweaks:ppm4:1>,
-	<pneumaticcraft:air_canister:0>,
-	<pneumaticcraft:amadron_tablet:0>,
-	<pneumaticcraft:camo_applicator:0>,
-	<pneumaticcraft:logistics_configurator:0>,
-	<pneumaticcraft:manometer:0>,
-	<pneumaticcraft:pneumatic_wrench:0>,
-	<pneumaticcraft:vortex_cannon:0>,
 	<primal_tech:plant_fibres>,
 	<progressiontweaks:lime>,
 	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests

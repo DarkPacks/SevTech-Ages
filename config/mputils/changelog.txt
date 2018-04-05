@@ -29,18 +29,36 @@ Bug Fixes:
 * Fix stage 5 root advancement not triggering (#1199)
 * Fixed Nether Brick Stairs being unbreakable when using Tinkers Pickaxe or Hammer if in a certain orientation (#1331)
 * Fixed Mystical Agriculture Soulstone being unbreakbale when using Tinkers Pickaxe or Hammer (#1363) 
+* The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
 * Added some text to the Aqueduct advancement letting players know completion is on placement and not crafting
 * Increased the max height of Black Quartz in the Beneath from 20 to 100
-* Added an Advancement for Power Adapters to alert players (1332)
+* Added an Advancement for Power Adapters to alert players (#1332)
+* Added some tooltips to the Totemic Red Cedar items/blocks to help players understand where to acquire them
+* Removed the limitation of only being able to move mob spawners at stage four
+* Because of whining, squids
+* Increased the minimum number of Fiery Blood dropped from a Hydra to 16 (#1275)
+* Lowered the mining level of the Astral Sorcery Tables so players do not accidently break them when trying to complete advancements
+* Slightly increased the spawn rates of the Shoggoth Lairs
+* Fixed a number of advancements with broken entries
+* Allowed Betweenlands Sulfur torches right-click functionality with a pickaxe in main hand (#1437)
+* Added Betweenlands Rotten Food to drop from most Betweenlands mobs so players can complete the rotten food advancement (#1359)
 
 Mod Updates:
 * Cyclic updated and fixed some broken blocks in the Nether and the End causing crashes ()
 * Geolosys quartz ()
 * Horse Power ()
 * Abyssalcraft ()
+* ArmoreableMobs ()
+* Totemic ()
+* Rustic ()
+* OreStages ()
+* Bookshelf ()
+* Gamestages ()
+*
+*
 
 ---------------------------------------------------------------------
 

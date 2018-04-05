@@ -760,6 +760,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
+	<galacticraftcore:grating>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

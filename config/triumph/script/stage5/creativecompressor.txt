@@ -4,7 +4,7 @@ setIcon("pneumaticcraft:creative_compressor")
 
 setDescription("Craft the Creative Air Compressor from Pneumaticraft")
 
-setParent("triumph:stage4/ultimateingot")
+setParent("triumph:stage5/ultimateingot")
 setRequiresParent(true)
 
 //Criteria

@@ -2,7 +2,7 @@ setTitle("Aqueducts")
 
 setIcon("betterwithaddons:aqueduct", 6)
 
-setDescription("Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape (This advancement requires that you place the block to complete)")
+setDescription("Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape. Note, This advancement requires that you place the block to complete")
 
 setParent("triumph:stage1/root")
 setRequiresParent(true)

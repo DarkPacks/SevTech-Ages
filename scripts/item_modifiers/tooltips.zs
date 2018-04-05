@@ -136,6 +136,7 @@
 <primal:iron_workblade:*>.addTooltip(format.red("Can not be repaired"));
 <primal:emerald_workblade:*>.addTooltip(format.red("Can not be repaired"));
 <primal:diamond_workblade:*>.addTooltip(format.red("Can not be repaired"));
+<primal:flint_axe:*>.addTooltip(format.red("Can not be repaired"));
 
 <waterstrainer:garden_trowel>.addTooltip(format.red("Repaired with Flint"));
 
@@ -175,3 +176,14 @@
 <abyssalcraft:statue:5>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:6>.addTooltip(format.red("Requires open sky above to function"));
 <tombmanygraves:grave_block>.addTooltip(format.red("Please refer to the death compass to find your tomb"));
+
+<totemic:cedar_log>.addTooltip(format.red("Not found in the world"));
+<totemic:cedar_log>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+<totemic:stripped_cedar_log>.addTooltip(format.red("Not found in the world"));
+<totemic:stripped_cedar_log>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+<totemic:cedar_plank>.addTooltip(format.red("Not found in the world"));
+<totemic:cedar_plank>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+<totemic:cedar_sapling>.addTooltip(format.red("Not found in the world"));
+<totemic:cedar_sapling>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+<totemic:cedar_leaves>.addTooltip(format.red("Not found in the world"));
+<totemic:cedar_leaves>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));

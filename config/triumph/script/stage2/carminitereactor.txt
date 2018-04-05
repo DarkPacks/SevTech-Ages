@@ -1,0 +1,15 @@
+setTitle("Reactor Idle")
+
+setIcon("twilightforest:tower_device", 12)
+
+setDescription("You are going to need a Carminite Reactor to create your first engine. Locate the Reactor either by searching the Ur-Ghast Tower in the Twilight Forest or by crafting using resource found in the Twilight")
+
+setParent("triumph:stage2/twilight")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("twilightforest:tower_device", 12)
+
+//Rewards
+setRewardExperience(8)

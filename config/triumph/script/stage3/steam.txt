@@ -2,7 +2,7 @@ setTitle("Hot and Steamy")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "steam", Amount: 1000})
 
-setDescription("Using the Immersive Tech Boiler or Solar Tower, produce a bucket of Steam")
+setDescription("Using the Immersive Tech Boiler or Solar Tower, produce and grab a bucket of Steam to complete the advancement")
 
 setParent("triumph:stage3/naphtha")
 setRequiresParent(true)

@@ -10,11 +10,11 @@ setRequiresParent(true)
 setRequirements("any")
 
 //Criteria
-criteria = addCriteria("crafted", "minecraft:inventory_changed")
-criteria.setItem("ceramics:channel")
+criteria1 = addCriteria("crafted1", "minecraft:inventory_changed")
+criteria1.setItem("ceramics:channel")
 
-criteria = addCriteria("crafted", "minecraft:inventory_changed")
-criteria.setItem("tconstruct:channel")
+criteria2 = addCriteria("crafted2", "minecraft:inventory_changed")
+criteria2.setItem("tconstruct:channel")
 
 //Rewards
 setRewardExperience(4)

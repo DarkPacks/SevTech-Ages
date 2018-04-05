@@ -580,8 +580,118 @@
     "random": 1.0
   },
   {
-    "mob": "abyssalcraft:shadowbeast",
-    "item": "abyssalcraft:shadowgem",
+    "mob": "twilightforest:hydra",
+    "item": [
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood",
+      "twilightforest:fiery_blood"
+    ],
     "random": 1.0
+  },
+  {
+    "mob": "thebetweenlands:mire_snail",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:lurker",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:gecko",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:toad",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:blind_cave_fish",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:chiromaw",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:frog",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:gas_cloud",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:silt_crab",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:pyrad",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:peat_mummy",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:smoll_sludge",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:angler",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:swamp_hag",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:sludge",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:wight",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:sporeling",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:leech",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:dragonfly",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:blood_snail",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
   }
 ]

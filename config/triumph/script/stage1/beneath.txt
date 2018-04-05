@@ -2,7 +2,7 @@ setTitle("The Beneath")
 
 setIcon("beneath:teleporterbeneath")
 
-setDescription("Use an Abyssalcraft Ritual to create the Beneath teleporter. Remeber to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension")
+setDescription("Use an Abyssalcraft Ritual to create the Beneath teleporter. Remember to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension")
 
 setParent("triumph:stage1/statue")
 setRequiresParent(true)

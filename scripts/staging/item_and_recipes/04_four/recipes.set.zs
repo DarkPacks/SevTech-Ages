@@ -548,11 +548,13 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:air_lock_frame>,
 	<galacticraftcore:air_vent>,
 	<galacticraftcore:basic_block_core:4>,
+	<galacticraftcore:basic_item:2>,
 	<galacticraftcore:canister>,
 	<galacticraftcore:canvas>,
 	<galacticraftcore:collector>,
 	<galacticraftcore:engine>,
 	<galacticraftcore:flag>,
+	<galacticraftcore:fluid_pipe>,
 	<galacticraftcore:fuel_canister_partial:1>,
 	<galacticraftcore:fuel_loader>,
 	<galacticraftcore:glowstone_torch>,
@@ -587,8 +589,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:space_glass_clear>,
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
-	<galacticraftcore:fluid_pipe>,
-	<galacticraftcore:basic_item:2>,
 
 	//Ender Utilities
 	<enderutilities:asu>,

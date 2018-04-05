@@ -39,6 +39,7 @@ static hideItems as IItemStack[] = [
 	<darkutils:sneaky_bedrock>,
 	<extendedcrafting:crafting_table>,
 	<ferdinandsflowers:item_test>,
+	<galacticraftcore:bucket_fuel>,
 	<geolosys:cluster:10>,
 	<geolosys:cluster:11>,
 	<geolosys:ore:10>,
@@ -75,6 +76,8 @@ static hideItems as IItemStack[] = [
 	<overloaded:creative_generator>,
 	<pickletweaks:mesh>,
 	<pickletweaks:ppm4:1>,
+	<primal:ore_magnetite:1>,
+	<primal:ore_magnetite:2>,
 	<primal_tech:plant_fibres>,
 	<progressiontweaks:lime>,
 	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests
@@ -88,9 +91,6 @@ static hideItems as IItemStack[] = [
 	<sev_tweaks_npc:golden_ladder_of_ascension>,
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
-	<primal:ore_magnetite:1>,
-	<primal:ore_magnetite:2>,
-	<galacticraftcore:bucket_fuel>,
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

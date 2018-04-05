@@ -632,6 +632,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:food:8>,
 	<galacticraftcore:food:9>,
 	<galacticraftcore:food>,
+	<galacticraftcore:grating>,
 	<galacticraftcore:item_basic_moon>,
 	<galacticraftcore:landing_pad:1>,
 	<galacticraftcore:machine2:4>,
@@ -760,7 +761,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftplanets:walkway:1>,
 	<galacticraftplanets:walkway:2>,
 	<galacticraftplanets:walkway>,
-	<galacticraftcore:grating>,
 
 	//Extra Planets
 	<extraplanets:advanced_battery>,

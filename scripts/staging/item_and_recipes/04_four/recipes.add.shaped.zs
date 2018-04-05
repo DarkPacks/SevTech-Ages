@@ -1170,6 +1170,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftcore:basic_item:9>, null, <galacticraftcore:basic_item:9>]
 		]
 	],
+
 	//Car
 	<car:sign_post>: [
 		[

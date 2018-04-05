@@ -1150,6 +1150,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:horse_upgrade_speed>,
 	<cyclicmagic:magnet_anti_block>,
 	<cyclicmagic:password_block>,
+	<cyclicmagic:placer_block>,
 	<cyclicmagic:plate_push>,
 	<cyclicmagic:plate_push_fast>,
 	<cyclicmagic:plate_push_slowest>,
@@ -1165,7 +1166,6 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
-	<cyclicmagic:placer_block>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,

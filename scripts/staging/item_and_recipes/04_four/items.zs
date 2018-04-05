@@ -859,6 +859,7 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:pneumatic_door_base>,
 	<pneumaticcraft:pneumatic_dynamo>,
 	<pneumaticcraft:pneumatic_helmet>,
+	<pneumaticcraft:pneumatic_wrench:*>,
 	<pneumaticcraft:pressure_chamber_glass>,
 	<pneumaticcraft:pressure_chamber_interface>,
 	<pneumaticcraft:pressure_chamber_valve>,
@@ -906,8 +907,6 @@ var stage4Items as IIngredient[] = [
 	<pneumaticcraft:volume_upgrade>,
 	<pneumaticcraft:vortex_cannon:*>,
 	<pneumaticcraft:vortex_tube>,
-	<pneumaticcraft:pneumatic_wrench:0>,
-	<pneumaticcraft:pneumatic_wrench:30000>,	
 
 	//Steve's Carts
 	<stevescarts:cartmodule:1>,
@@ -930,10 +929,12 @@ var stage4Items as IIngredient[] = [
 	<geolosys:ore_vanilla:4>,
 
 	//Galacticraft
+	<galacticraftcore:air_fan>,
 	<galacticraftcore:air_lock_frame:1>,
 	<galacticraftcore:air_lock_frame>,
 	<galacticraftcore:air_vent>,
 	<galacticraftcore:basic_block_core:4>,
+	<galacticraftcore:basic_item:2>,
 	<galacticraftcore:basic_item:6>,
 	<galacticraftcore:basic_item:7>,
 	<galacticraftcore:basic_item:8>,
@@ -946,6 +947,7 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:collector>,
 	<galacticraftcore:engine>,
 	<galacticraftcore:flag>,
+	<galacticraftcore:fluid_pipe>,
 	<galacticraftcore:fuel_canister_partial:1>,
 	<galacticraftcore:fuel_loader>,
 	<galacticraftcore:glowstone_torch>,
@@ -985,10 +987,6 @@ var stage4Items as IIngredient[] = [
 	<galacticraftcore:space_glass_clear>,
 	<galacticraftcore:standard_wrench>,
 	<galacticraftcore:steel_pole>,
-	<materialpart:silicon:ore_sample>,
-	<galacticraftcore:fluid_pipe>,
-	<galacticraftcore:air_fan>,
-	<galacticraftcore:basic_item:2>,
 
 	//Extra Planets
 	<extraplanets:tier1_armor_layer>,

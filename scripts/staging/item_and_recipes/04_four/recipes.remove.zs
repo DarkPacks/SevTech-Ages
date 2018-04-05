@@ -200,10 +200,10 @@ var removeItems as IItemStack[] = [
 	<refinedstorage:security_card>,
 
 	//Galacticraft
+	<galacticraftcore:air_fan>,
 	<galacticraftcore:fuel_loader>,
 	<galacticraftcore:machine:12>,
 	<galacticraftcore:rocket_workbench>,
-	<galacticraftcore:air_fan>,
 
 	<extraplanets:tier1_pressure_layer>,
 	<extraplanets:tier1_radiation_layer>,

@@ -5,6 +5,11 @@
 		"result": "deny"
 	},
 	{
+		"mob": "Squid",
+		"mincount": "30,Squid",
+		"result": "deny"
+	},
+	{
 		"mob": "Parrot",
 		"mincount": "15,Parrot",
 		"result": "deny"

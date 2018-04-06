@@ -31,7 +31,7 @@ Bug Fixes:
 * Fixed Mystical Agriculture Soulstone being unbreakable when using Tinkers Pickaxe or Hammer (#1363)
 * The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
 * Fixed a number of advancements with broken entries
-* Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed ()
+* Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed (#1063)
 * Removed Villager melting in the Tinkers' Smeltery
 * Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
 * Added Translocators to the Carry-on blacklist (#1489)
@@ -107,7 +107,7 @@ Bug Fixes:
 * Parrots have now been given a cap since they spawn a little too much in some worlds after I increased their spawn in 3.0.3
 * Altered the Vanilla Book recipe so it can actually be made and not conflict with another recipe
 * Changed the recipe for Dog Pelt Boots to be craftable in stage zero
-* Tweaked the recipe for the Uncrafting Table to fix a potential progression exploit
+* Tweaked the recipe for the Uncrafting Table to fix a potential progression exploit (#1063)
 * Staged the recipes for Buildcraft Pipes
 * Moved the Hunting Dimension back to stage 1. Now the recipe should match the time a player can go
 * Disabled, again, Magnetite ore spawning. It should not have been available

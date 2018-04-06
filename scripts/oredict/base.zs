@@ -346,3 +346,6 @@ for i in 0 to 16 {
 
 //Quartz Dust
 <ore:dustQuartz>.add(<appliedenergistics2:material:2>); //Certus Quartz
+
+//Natura Dye
+<ore:dyeBlue>.add(<natura:materials:8>);

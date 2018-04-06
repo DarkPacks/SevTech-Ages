@@ -249,7 +249,7 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 
 for dye, items in dyeCrushingRecipes {
 	for item in items {
-		mods.betterwithmods.Mill.add(dye * 2, null, [item]);
+		mods.betterwithmods.Mill.addRecipe([item], [dye * 2]);
 		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
 		mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
 	}

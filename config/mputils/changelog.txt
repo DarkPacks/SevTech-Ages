@@ -36,7 +36,6 @@ Bug Fixes:
 * Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
 * Added Translocators to the Carry-on blacklist (#1489)
 
-
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
 * Added some text to the Aqueduct advancement letting players know completion is on placement and not crafting
@@ -60,21 +59,35 @@ Enhancements:
 * Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit
 
 Mod Updates:
-* Cyclic updated and fixed some broken blocks in the Nether and the End causing crashes ()
-* Geolosys quartz ()
+* Cyclic ()
+    * Fixed some broken blocks in the Nether and the End causing crashes (#1158, #1209)
+* Geolosys ()
+    * Assorted Quartz ore now gives all the quartz items again (#1278)
 * Horse Power ()
+    * Fixed crash when things happen to overlap machines (#1105)
 * Abyssalcraft ()
 * ArmoreableMobs ()
+    * Jockey mobs are now "caught" by the mod so we can control their weapons/armor (#1087)
 * Totemic ()
 * Rustic ()
 * OreStages ()
 * Bookshelf ()
 * Gamestages ()
 * The Betweenlands ()
+    * Fixed Tar Minion portal dupe (#1237)
+    * No more death loops! Players will respawn at the last portal if no spawn point is set (#1146)
+    * Fixed dimwitted advancement not triggering for all torches (#1098)
+    * Fixed empty buckets having a burn time (#1191)
+    * Mortar GUI is now right-click and grinding is left-click (#1198)
+    * Fixed effects stripping Nutrition's gold hearts (#1096)
+    * Added config to fix Life Crystal ore being invisible with Optifine (Set fullbright blocks to false in config) (#1335)
+    * Fixed ring EXP dupe (#1380)
 * Hunting Dimension ()
+    * Fixed players sometimes spawning in the ground instead of the portal (#1287)
 * Galacticraft ()
 * ExtraPlanets ()
-* PrimalTech updated to fix losing logs when doing multiple debarking recipes with a workblade ()
+* PrimalTech ()
+    * Fix losing logs when doing multiple debarking recipes with a workblade
 
 ---------------------------------------------------------------------
 

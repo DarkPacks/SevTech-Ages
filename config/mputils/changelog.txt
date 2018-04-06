@@ -66,21 +66,25 @@ Enhancements:
 * Add grinding recipes for shark tooth -> bone meal (#1414)
 
 Mod Updates:
-* Cyclic ()
+* Cyclic (1.12.2-1.14.7)
     * Fixed some broken blocks in the Nether and the End causing crashes (#1158, #1209)
-* Geolosys ()
+* Geolosys (1.12.2-1.8.10c)
     * Assorted Quartz ore now gives all the quartz items again (#1278)
-* Horse Power ()
+* Horse Power (1.12.2-2.1.62)
     * Fixed crash when things happen to overlap machines (#1105)
-* Abyssalcraft ()
-* ArmoreableMobs ()
+* Abyssalcraft (1.12.2-1.9.46)
+* ArmoreableMobs (1.12-1.1.6-4)
     * Jockey mobs are now "caught" by the mod so we can control their weapons/armor (#1087)
-* Totemic ()
-* Rustic ()
-* OreStages ()
-* Bookshelf ()
-* Gamestages ()
-* The Betweenlands ()
+* Totemic (1.12.2-0.10.3)
+    * Clarified a number of entries in the Totempedia
+    * Fixed ghost blocks when the Tipi is blown up
+* Rustic (1.0.3)
+    * Fixed rendering crashes with blocks that hold fluids when the fluid doesn't have a sprite
+    * Axes are now effective on crop sticks
+* OreStages (1.12.2-1.0.26)
+* Bookshelf (1.12.2-2.3.539)
+* Gamestages (1.12.2-1.0.85)
+* The Betweenlands (3.3.6)
     * Fixed Tar Minion portal dupe (#1237)
     * No more death loops! Players will respawn at the last portal if no spawn point is set (#1146)
     * Fixed dimwitted advancement not triggering for all torches (#1098)
@@ -89,14 +93,37 @@ Mod Updates:
     * Fixed effects stripping Nutrition's gold hearts (#1096)
     * Added config to fix Life Crystal ore being invisible with Optifine (Set fullbright blocks to false in config) (#1335)
     * Fixed ring EXP dupe (#1380)
-* Hunting Dimension ()
+* Hunting Dimension (1.12.2-1.0.20)
     * Fixed players sometimes spawning in the ground instead of the portal (#1287)
-* Galacticraft ()
-* ExtraPlanets ()
-* PrimalTech ()
+* Galacticraft-Planets (1.12.2-4.0.1.170)
+* Galacticraft-Core (1.12.2-4.0.1.170)
+* MicDoodleCore (1.12.2-4.0.1.170)
+* ExtraPlanets (1.12.2-0.3.2)
+* PrimalTech (0.3.2)
     * Fix losing logs when doing multiple debarking recipes with a workblade
 * Farseek (2.2.5)
     * Fix ClassCastException crash (#1377)
+* Quark (r1.4-123)
+    * Fixes a number of issues and crashes
+* AutoRegLib (1.3-16)
+* Better Advancements (1.12.2-0.0.6.25)
+    * Correct location for tabs
+* The Beneath (1.12.2-1.4.1)
+    * Teleporting to/from the Beneath should longer get you stuck in walls
+    * You can no longer teleport to the Beneath while riding something
+* Foamfix (0.9.6-1.12.2)
+    * Improves compat with 3d-in-gui item models
+* ModTweaker (4.0.10)
+    * Updated BWM support
+* Overloaded (1.12.2-0.0.47)
+    * Code refactor
+    * Asset updates
+* Together Forever (1.12.2-1.0.7-13)
+    * Added a safe check in case the overworld is not loaded
+* Triumph (1.12-1.10.2)
+    * Fix advancement display data not properly syncing to clients on servers
+* PrimalCore (1.12.2-0.6.45)
+    * Properly stop teleporting from Ineris plants in the End dimension
 
 ---------------------------------------------------------------------
 

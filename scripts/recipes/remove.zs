@@ -31,6 +31,8 @@ var removeRecipes as string[] = [
 	"extraplanets:chest",
 	"extraplanets:chest_alt.*",
 	"natura:common/glass_bottle",
+	"pneumaticcraft:color_drone",
+	"pneumaticcraft:logistic_to_drone",
 	"rustic:bottle_emptying"
 ];
 

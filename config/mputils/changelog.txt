@@ -12,7 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 * There is a known bug with being kicked back to the title or server screen after loading into your first world and sometimes after gaining/losing advancements/stages. We are looking into it. You should be able to join the world back with no issues after this happens.
 
-* Dimensional Control has updated and added a new default worldgen. Among removing a few extra biomes and moving some biomes to their proper temperature zone, oceans have been further reduced. YOU DO NOT need to start a new world. Existing worlds will keep their generation type and only new worlds will inherit the new changes. This is not really a bug fix or critical change. It is mostly an enhancement meaning you can start a new world if you want. 
+* Dimensional Control has updated and added a new default worldgen. Among removing a few extra biomes and moving some biomes to their proper temperature zone, oceans have been further reduced. YOU DO NOT need to start a new world. Existing worlds will keep their generation type and only new worlds will inherit the new changes. This is not really a bug fix or critical change. It is mostly an enhancement meaning you can start a new world if you want.
 
 Bug Fixes:
 * Move Galacticraft's Tin Canister recipe to age 4 (#1201)
@@ -44,14 +44,13 @@ Bug Fixes:
 * Fixed Bark from BWM not being usable in the Mill Stone (#1449)
 * Fixed recipe issue in regards to staging for the Mechanical Squeezer (#1453)
 * Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed (#1063)
-* Removed Villager melting in the Tinkers' Smeltery
+* Remove Villagers melting into Emerald in Tinker's smeltery
 * Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
 * Added Translocators to the Carry-on blacklist (#1489)
 * Removed Natura blue dye from the dye oredict
 * Remove broken recipes for Pneumaticcraft drone (#1457)
 * Remove infinite Blaze Powder/Rod recipe from Integrated Dynamics Mechanical Squeezer (#1300)
 * Fix Mekanism Enrichment chamber recipes for dirty dust giving the wrong dust (#1427)
-* Remove Villagers melting into Emerald in Tinker's smeltery
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
@@ -79,7 +78,7 @@ Enhancements:
 * Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:
-* Dimensional Control ()
+* Dimensional Control (2.10.0)
     * Update to allow changes listed above
 * BnBGamingCore (1.12-0.7.1)
 * Cyclic (1.12.2-1.14.7)

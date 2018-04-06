@@ -253,7 +253,10 @@ static removeAndHideItems as IItemStack[] = [
 	<galacticraftcore:refinery>,
 
 	//Tomb Many Graves
-	<tombmanygraves:death_list>
+	<tombmanygraves:death_list>,
+
+	//Twilight Forest
+	<twilightforest:ore_map_empty>
 ];
 
 for item in removeAndHideItems {

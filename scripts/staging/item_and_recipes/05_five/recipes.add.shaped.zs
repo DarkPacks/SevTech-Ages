@@ -711,7 +711,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<betterwithmods:buddy_block>, <mysticalagriculture:supremium_pickaxe>, <actuallyadditions:block_placer>]
 		]
 	],
-
 	<overloaded:player_interface>: [
 		[
 			[null, <appliedenergistics2:interface>, null],
@@ -724,6 +723,36 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <appliedenergistics2:interface>, null],
 			[null, <actuallyadditions:block_item_viewer>, null],
 			[null, <refinedstorage:interface>, null]
+		]
+	],
+
+	//Reborn Storage
+	<rebornstorage:multicrafter>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, metals.gold.ingot, <refinedstorage:quartz_enriched_iron>],
+			[metals.gold.ingot, <appliedenergistics2:material:22>, metals.gold.ingot],
+			[<refinedstorage:quartz_enriched_iron>, metals.gold.ingot, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<rebornstorage:multicrafter:1>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:iron_bars>, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:iron_bars>, <appliedenergistics2:material:22>, <minecraft:iron_bars>],
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:iron_bars>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<rebornstorage:multicrafter:2>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:quartz>, <refinedstorage:quartz_enriched_iron>],
+			[<minecraft:glowstone_dust>, <appliedenergistics2:material:22>, <minecraft:glowstone_dust>],
+			[<refinedstorage:quartz_enriched_iron>, <minecraft:quartz>, <refinedstorage:quartz_enriched_iron>]
+		]
+	],
+	<rebornstorage:multicrafter:3>: [
+		[
+			[<refinedstorage:quartz_enriched_iron>, <tconstruct:tooltables>, <refinedstorage:quartz_enriched_iron>],
+			[<appliedenergistics2:material:24>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_part>, <refinedstorage:quartz_enriched_iron>]
 		]
 	]
 };

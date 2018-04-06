@@ -33,6 +33,14 @@ Bug Fixes:
 * Fixed Mystical Agriculture Soulstone being unbreakable when using Tinkers Pickaxe or Hammer (#1363)
 * The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
 * Fixed a number of advancements with broken entries
+* Fixed Wolf Chop not being able to be cooked in the Fire Pit (#1262)
+* Fixed Clear Glass recipe conflict with Glass Chunks (#1310)
+* Fixed Mekanism Cardboard box staging issue (#1330)
+* Fixed barley flour not being able to create dough (#1216)
+* Fixed RebornStorage Invalid Recipes (#1401)
+* Fixed Elite Crafting Table staging issue (#1461)
+* Fixed Bark from BWM not being usable in the Mill Stone (#1449)
+* Fixed recipe issue in regards to staging for the Mechanical Squeezer (#1453)
 * Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed (#1063)
 * Removed Villager melting in the Tinkers' Smeltery
 * Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
@@ -56,16 +64,17 @@ Enhancements:
 * Slightly increased the spawn rates of the Shoggoth Lairs
 * Allowed Betweenlands Sulfur torches right-click functionality with a pickaxe in main hand (#1437)
 * Added Betweenlands Rotten Food to drop from most Betweenlands mobs so players can complete the rotten food advancement (#1359)
+* Added Stage 1 crafting for the strainer to use a chest as well as a Immersive Craft Chest (#)
 * Disabled Primal Core plants in the End teleporting players
 * Shoggoths will now always drop at least 3 Shoggoth Flesh when killed
 * Added a new method of collecting Shoggoth Flesh from villager trades in case Shoggoth's stop spawning due to finite spawning
 * Slightly increased village spawn rates
-* Regenerated the Smooth Font config, you may need to redo your personal settings if you made any changes
-* Moved the Farming for Blockheads Market to stage one
 * Added a Shoggoth Flesh trade to the Farming for Blockheads Market
+* Moved the Farming for Blockheads Market to stage one
+* Regenerated the Smooth Font config, you may need to redo your personal settings if you made any changes
 * Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit (#1451)
-* Add detection range tooltip to all prospectors and fix the range stated (#1494)
 * Add grinding recipes for shark tooth -> bone meal (#1414)
+* Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:
 * Cyclic (1.12.2-1.14.7)

@@ -71,6 +71,12 @@ var removeItems as IItemStack[] = [
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid>,
 
+	//Reborn Storage
+	<rebornstorage:multicrafter>,
+	<rebornstorage:multicrafter:1>,
+	<rebornstorage:multicrafter:2>,
+	<rebornstorage:multicrafter:3>,
+
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>,
 	<extraplanets:tier2_space_suit_boots>,

@@ -1314,6 +1314,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:connector:4>, <immersiveengineering:metal_device1:2>, <immersiveengineering:connector:4>],
 			[<pneumaticcraft:ingot_iron_compressed> , <buildcrafttransport:pipe_gold_power>, <pneumaticcraft:ingot_iron_compressed>]
 		]
+	],
+
+	//Integrated Dynamics
+	<integrateddynamics:mechanical_squeezer>: [
+		[
+			[null, <appliedenergistics2:nether_quartz_pickaxe>, null],
+			[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>],
+			[null, <minecraft:obsidian>, null]
+		]
 	]
 };
 

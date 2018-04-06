@@ -435,6 +435,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:flower_pot>, null]
 		]
 	],
+	<waterstrainer:strainer_base>: [
+		[
+			[<minecraft:stick>, null, <minecraft:stick>],
+			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>]
+		]
+	],
 
 	//Blood Magic
 	<bloodmagic:altar> : [

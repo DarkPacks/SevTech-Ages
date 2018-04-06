@@ -322,7 +322,6 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:moonworm_queen>,
 	<twilightforest:naga_chestplate>,
 	<twilightforest:naga_leggings>,
-	<twilightforest:ore_map_empty>,
 	<twilightforest:spiral_bricks>,
 	<twilightforest:steeleaf_axe>,
 	<twilightforest:steeleaf_boots>,

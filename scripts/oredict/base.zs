@@ -202,6 +202,11 @@ for i in 0 to 16 {
 <ore:plankWood>.add(<thebetweenlands:weedwood_planks>);
 
 /*
+	Bark Wood
+*/
+<ore:barkWood>.add(<betterwithmods:bark:*>);
+
+/*
 	Misc
 */
 <ore:rock>.add(<immcraft:rock>);
@@ -213,6 +218,14 @@ for i in 0 to 16 {
 //There shall be one and only one FLOUR!
 <ore:foodFlour>.remove(<betterwithmods:raw_pastry:3>);
 <ore:foodFlour>.add(<horsepower:flour>);
+
+//Add the salts so our recipe loops work correctly on load.
+<ore:foodSalt>.add(<primal:salt_dust_netjry>);
+<ore:foodSalt>.add(<primal:salt_dust_rock>);
+<ore:foodSalt>.add(<primal:salt_dust_fire>);
+<ore:foodSalt>.add(<primal:salt_dust_void>);
+<ore:foodSalt>.add(<mekanism:salt>);
+<ore:foodSalt>.add(<immersivetech:material>);
 
 <ore:thatchingMaterialBasic>.add(<primal:rush_stems>);
 

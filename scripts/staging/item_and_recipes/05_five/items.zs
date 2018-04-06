@@ -706,7 +706,6 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:11>,
 	<extendedcrafting:material:12>,
 	<extendedcrafting:material:13>,
-	<extendedcrafting:material:16>,
 	<extendedcrafting:material:17>,
 	<extendedcrafting:material:18>,
 	<extendedcrafting:material:19>,

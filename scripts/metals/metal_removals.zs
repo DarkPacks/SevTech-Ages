@@ -12,6 +12,7 @@ var partsToRemove as string[] = [
 
 var metalsToRemove as ILiquidStack[string] = {
 	brass: <liquid:brass>,
+	pigIron: null,
 	vanadium: null,
 	wootz: null
 };

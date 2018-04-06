@@ -651,10 +651,11 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.copper.plate, null, metals.copper.plate]
 		]
 	],
+
 	//Farming for Blockheads
 	<farmingforblockheads:market> : [
 		[
-			[<ore:plankWood>, <pickletweaks:dye_powder:14>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:dyeRed>, <ore:plankWood>],
 			[<ore:logWood>, null, <ore:logWood>],
 			[<ore:logWood>, <ore:logWood>, <ore:logWood>]
 		]

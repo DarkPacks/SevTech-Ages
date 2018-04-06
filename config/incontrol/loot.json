@@ -555,6 +555,15 @@
     "random": 0.05
   },
   {
+    "mob": "abyssalcraft:lessershoggoth",
+    "item": [
+      "abyssalcraft:shoggothflesh",
+      "abyssalcraft:shoggothflesh",
+      "abyssalcraft:shoggothflesh"
+    ],
+    "random": 1.0
+  },
+  {
     "mob": "abyssalcraft:shadowcreature",
     "item": "abyssalcraft:shadowfragment",
     "random": 1.0

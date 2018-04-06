@@ -28,9 +28,14 @@ Bug Fixes:
 * Removed reference to Osmium in Platinum Ore tooltip
 * Fix stage 5 root advancement not triggering (#1199)
 * Fixed Nether Brick Stairs being unbreakable when using Tinkers Pickaxe or Hammer if in a certain orientation (#1331)
-* Fixed Mystical Agriculture Soulstone being unbreakbale when using Tinkers Pickaxe or Hammer (#1363)
+* Fixed Mystical Agriculture Soulstone being unbreakable when using Tinkers Pickaxe or Hammer (#1363)
 * The PrimalCore Flint Axe has a tooltip to alert players that it cannot be repaired (#807)
 * Fixed a number of advancements with broken entries
+* Made a mistake and used the incorrect brick on the Uncrafting Table. The recipe should now be fixed ()
+* Removed Villager melting in the Tinkers' Smeltery
+* Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
+* Added Translocators to the Carry-on blacklist (#1489)
+
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
@@ -41,10 +46,18 @@ Enhancements:
 * Removed the limitation of only being able to move mob spawners at stage four
 * Because of whining, squids
 * Increased the minimum number of Fiery Blood dropped from a Hydra to 16 (#1275)
-* Lowered the mining level of the Astral Sorcery Tables so players do not accidently break them when trying to complete advancements
+* Lowered the mining level of the Astral Sorcery Tables so players do not accidentally break them when trying to complete advancements
 * Slightly increased the spawn rates of the Shoggoth Lairs
 * Allowed Betweenlands Sulfur torches right-click functionality with a pickaxe in main hand (#1437)
 * Added Betweenlands Rotten Food to drop from most Betweenlands mobs so players can complete the rotten food advancement (#1359)
+* Removed the Primal Core plants from the End because they still teleport players even when disabled in the config
+* Shoggoths will now always drop at least 3 Shoggoth Flesh when killed
+* Added a new method of collecting Shoggoth Flesh from villager trades in case Shoggoth's stop spawning due to finite spawning
+* Slightly increased village spawn rates
+* Regenerated the Smooth Font config, you may need to redo your personal settings if you made any changes
+* Moved the Farming for Blockheads Market to stage one
+* Added a Shoggoth Flesh trade to the Farming for Blockheads Market
+* Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit
 
 Mod Updates:
 * Cyclic updated and fixed some broken blocks in the Nether and the End causing crashes ()
@@ -61,6 +74,7 @@ Mod Updates:
 * Hunting Dimension ()
 * Galacticraft ()
 * ExtraPlanets ()
+* PrimalTech updated to fix losing logs when doing multiple debarking recipes with a workblade ()
 
 ---------------------------------------------------------------------
 

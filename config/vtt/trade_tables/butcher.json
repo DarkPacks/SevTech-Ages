@@ -10,6 +10,22 @@
         "action": "add",
         "CareerLevel": 1,
         "buy": {
+          "id": "abyssalcraft:stone",
+          "Count": {
+            "min": 16,
+            "max": 24
+          },
+          "Damage": 7
+        },
+        "sell": {
+          "id": "abyssalcraft:shoggothflesh",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
           "id": "minecraft:bone",
           "Count": {
             "min": 1,
@@ -86,10 +102,12 @@
         "CareerLevel": 1,
         "buy": {
           "id": "minecraft:dye",
-          "Count": {"min": 1, "max":3},
+          "Count": {
+            "min": 1,
+            "max": 3
+          },
           "Damage": 3
         },
-
         "sell": {
           "id": "animalium:rat_meat",
           "Count": 1

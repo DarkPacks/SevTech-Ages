@@ -5,7 +5,6 @@ import crafttweaker.item.IIngredient;
 var STAGE = STAGES.two;
 
 var modIDs as string[] = [
-	"farmingforblockheads",
 	"thebetweenlands",
 	"twilightforest",
 	"uppers"
@@ -1225,7 +1224,15 @@ var stage2Items as IIngredient[] = [
 
 	//Galacticraft
 	<galacticraftcore:food:6>,
-	<galacticraftcore:food:7>
+	<galacticraftcore:food:7>,
+
+	//Farming for Blockheads
+	<farmingforblockheads:chicken_nest>,
+	<farmingforblockheads:feeding_trough>,
+	<farmingforblockheads:fertilizer>,
+	<farmingforblockheads:fertilizer:1>,
+	<farmingforblockheads:fertilizer:2>
+
 ];
 
 for item in stage2Items {

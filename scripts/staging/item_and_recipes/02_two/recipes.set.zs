@@ -6,7 +6,6 @@ var STAGE = STAGES.two;
 
 //Entire Mods into Stage two
 var modIDs as string[] = [
-	"farmingforblockheads",
 	"thebetweenlands",
 	"uppers"
 ];
@@ -526,7 +525,15 @@ var itemsForStage as IIngredient[] = [
 	<bloodmagic:path:5>,
 
 	//Galacticraft
-	<galacticraftcore:food:6>
+	<galacticraftcore:food:6>,
+
+	//Farming for Blockheads
+	<farmingforblockheads:chicken_nest>,
+	<farmingforblockheads:feeding_trough>,
+	<farmingforblockheads:fertilizer>,
+	<farmingforblockheads:fertilizer:1>,
+	<farmingforblockheads:fertilizer:2>
+
 ];
 
 for item in itemsForStage {

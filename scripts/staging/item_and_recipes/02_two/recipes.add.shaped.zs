@@ -939,9 +939,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<twilightforest:uncrafting_table> : [
 		[
-			[<minecraft:nether_brick>, <tconstruct:tooltables>,<minecraft:nether_brick>],
-			[<tconstruct:tooltables>, <twilightforest:maze_map_focus>, <tconstruct:tooltables>],
-			[<minecraft:nether_brick>, <tconstruct:tooltables>,<minecraft:nether_brick>]
+			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables>,<immersiveengineering:stone_decoration:1>],
+			[<immersiveengineering:stone_decoration:1>, <twilightforest:maze_map_focus>, <immersiveengineering:stone_decoration:1>],
+			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables>,<immersiveengineering:stone_decoration:1>]
 		]
 	]
 };

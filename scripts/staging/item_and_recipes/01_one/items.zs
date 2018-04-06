@@ -1063,7 +1063,10 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:soul_snare>,
 	<guideapi:bloodmagic-guide>,
 
-	<cyclicmagic:food_step>
+	<cyclicmagic:food_step>,
+
+	//Farming for Blockheads
+	<farmingforblockheads:market>
 ];
 
 for item in stage1Items {

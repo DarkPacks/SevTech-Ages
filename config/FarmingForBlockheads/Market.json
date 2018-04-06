@@ -20,6 +20,7 @@
   ],
   "custom entries": {
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
-    "immersiveengineering:seed": "2*minecraft:gold_ingot"
+    "immersiveengineering:seed": "2*minecraft:gold_ingot",
+    "abyssalcraft:shoggothflesh": "24*abyssalcraft:stone:7"
   }
 }

@@ -58,7 +58,7 @@ Enhancements:
 * Regenerated the Smooth Font config, you may need to redo your personal settings if you made any changes
 * Moved the Farming for Blockheads Market to stage one
 * Added a Shoggoth Flesh trade to the Farming for Blockheads Market
-* Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit
+* Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit (#1451)
 * Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:

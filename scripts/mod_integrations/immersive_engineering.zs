@@ -88,6 +88,8 @@ Crusher.addRecipe(<horsepower:flour>, <minecraft:wheat>, 3000); //Wheat to Flour
 
 Crusher.addRecipe(<primal:bone_knapp>, <primal:sharp_bone>, 3000); //Sharp Bone to Bone Knapp
 
+Crusher.addRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 3000); //Sharp Bone to Bone Knapp
+
 //Lapis
 Crusher.removeRecipesForInput(<minecraft:wool:11>);
 Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:11>, 3000, <ore:gemLapis>.firstItem, 0.05);

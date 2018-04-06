@@ -60,6 +60,8 @@ Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
 
 Mill.add(<primal:bone_knapp>, null, [<primal:sharp_bone>]);
 
+Mill.add(<minecraft:dye:15> * 2, null, [<primal:shark_tooth>]);
+
 for bark in <ore:barkWood>.items {
 	Mill.add(<primal:tannin_ground> * 2, null, [bark]);
 }

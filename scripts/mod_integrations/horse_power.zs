@@ -137,6 +137,7 @@ addGrindstoneRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 2
 addGrindstoneRecipe(<primal:salt_dust_rock>, <minecraft:sand>, 24, false);
 addGrindstoneRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 16, false);
 addGrindstoneRecipe(<tconstruct:stone_stick>, <minecraft:cobblestone>, 32, false);
+addGrindstoneRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 32, false);
 
 //Recipes with Secondary Outputs
 addGrindstoneRecipeWithSecondary(<minecraft:dye:15>, <primal:bone_knapp>, 16, false, <minecraft:dye:15>, 20);

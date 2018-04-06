@@ -195,3 +195,6 @@ var prospectingRodRange as int = 48;
 <totemic:cedar_sapling>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
 <totemic:cedar_leaves>.addTooltip(format.red("Not found in the world"));
 <totemic:cedar_leaves>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+
+// Death Releated
+<death_compass:death_compass>.addTooltip(format.red("Sneak on your grave to retrieve your items"));

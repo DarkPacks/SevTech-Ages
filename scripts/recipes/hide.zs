@@ -92,9 +92,9 @@ static hideItems as IItemStack[] = [
 	<stevescarts:cartmodule:102>,
 	<stevescarts:modularcart>,
 	<betterwithaddons:poisoned_ya>,
-	<primal:hibachi>,
-	<primal:hibachi:1>,
-	<primal:hibachi:2>,
+	<primal:hibachi>.withTag({type: "mud"}),
+	<primal:hibachi:1>.withTag({type: "terra"}),
+	<primal:hibachi:2>.withTag({type: "cinis"}),
 
 	//Abyssalcraft
 	<abyssalcraft:abyssalniteu>,

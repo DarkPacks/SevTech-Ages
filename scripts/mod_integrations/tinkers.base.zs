@@ -134,6 +134,9 @@ Melting.addRecipe(<liquid:glass> * 375, <ore:paneGlass>, 493);
 Melting.addRecipe(<liquid:glass> * 1000, <ore:blockGlass>, 493);
 Melting.addRecipe(<liquid:glass> * 1000, <ore:sand>, 493);
 
+//Remove Entity Melting
+Melting.removeEntityMelting(<entity:minecraft:villager>);
+
 /*
 	Alloying
 
@@ -162,7 +165,3 @@ Melting.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>);
 Melting.addRecipe(<liquid:redstone> * 900, <minecraft:redstone_block>);
 Casting.addTableRecipe(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
 Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900);
-
-//Remove Entity Melting
-mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager>);
-mods.tconstruct.Melting.removeEntityMelting(<farmingforblockheads:merchant>);

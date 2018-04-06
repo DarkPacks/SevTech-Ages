@@ -102,7 +102,7 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	if (metalPartName == "dirtyDust") {
 		mods.mekanism.enrichment.removeRecipe(preferredMetalItem);
 		if (metalItems[metalName].dust as bool) {
-			mods.mekanism.enrichment.addRecipe(preferredMetalItem, metalItems[metalName].dust);
+			mods.mekanism.enrichment.addRecipe(preferredMetalItem, metalItems[metalName].dust.items[0]);
 		}
 	}
 

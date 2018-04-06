@@ -35,6 +35,8 @@ Bug Fixes:
 * Removed Villager melting in the Tinkers' Smeltery
 * Disabled the exploit of using the Farming for Blockheads Merchant as a way to collect Life Essence in Blood Magic
 * Added Translocators to the Carry-on blacklist (#1489)
+* Removed Natura blue dye from the dye oredict
+* Remove broken recipes for Pneumaticcraft drone (#1457)
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)
@@ -57,6 +59,7 @@ Enhancements:
 * Moved the Farming for Blockheads Market to stage one
 * Added a Shoggoth Flesh trade to the Farming for Blockheads Market
 * Disabled Cyclic Inventory Shift Keybindings to both help players with a sticky key issue and to stop an exploit
+* Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:
 * Cyclic ()

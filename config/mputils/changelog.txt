@@ -88,6 +88,8 @@ Mod Updates:
 * ExtraPlanets ()
 * PrimalTech ()
     * Fix losing logs when doing multiple debarking recipes with a workblade
+* Farseek (2.2.5)
+    * Fix ClassCastException crash (#1377)
 
 ---------------------------------------------------------------------
 

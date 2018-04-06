@@ -48,7 +48,6 @@ var metalStages as string[string] = {
 var partsToSkip as string[] = [
 	"clump",
 	"crystal",
-	"dirtyDust",
 	"shard"
 ];
 
@@ -97,6 +96,16 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 	/*
 		Add Metal Recipes
 	*/
+	//==============================
+	//Mekanism
+	//Special Parts
+	if (metalPartName == "dirtyDust") {
+		mods.mekanism.enrichment.removeRecipe(preferredMetalItem);
+		if (metalItems[metalName].dust as bool) {
+			mods.mekanism.enrichment.addRecipe(preferredMetalItem, metalItems[metalName].dust);
+		}
+	}
+
 	//==============================
 	//Tinker's Construct
 	if (hasLiquid) {

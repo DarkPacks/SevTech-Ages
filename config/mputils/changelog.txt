@@ -38,6 +38,7 @@ Bug Fixes:
 * Removed Natura blue dye from the dye oredict
 * Remove broken recipes for Pneumaticcraft drone (#1457)
 * Remove infinite Blaze Powder/Rod recipe from Integrated Dynamics Mechanical Squeezer (#1300)
+* Fix Mekanism Enrichment chamber recipes for dirty dust giving the wrong dust (#1427)
 
 Enhancements:
 * Added the ability for llamas to pull Astikoor Carts (#1242)

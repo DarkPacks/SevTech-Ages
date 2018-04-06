@@ -78,6 +78,7 @@ Enhancements:
 * Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:
+* Forge (14.23.2.2654)
 * Dimensional Control (2.10.0)
     * Update to allow changes listed above
 * BnBGamingCore (1.12-0.7.1)

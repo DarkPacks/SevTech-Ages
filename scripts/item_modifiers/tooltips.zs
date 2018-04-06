@@ -5,20 +5,31 @@
 */
 //==================================
 //Prospecting Rods
+var prospectingRodRange as int = 48;
 <prospectors:prospector_lowest:*>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_lowest:*>.addTooltip(format.yellow("for ore in Age 1 and below"));
+<prospectors:prospector_lowest:*>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_lowest:*>.addTooltip(format.red("in a " ~ prospectingRodRange ~ " block straight line"));
 
 <prospectors:prospector_low:*>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_low:*>.addTooltip(format.yellow("for ore in Age 2 and below"));
+<prospectors:prospector_low:*>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_low:*>.addTooltip(format.red("in a " ~ prospectingRodRange ~ " block straight line"));
 
 <prospectors:prospector_med:*>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_med:*>.addTooltip(format.yellow("for Age 3 and below ore"));
+<prospectors:prospector_med:*>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_med:*>.addTooltip(format.red("in a " ~ prospectingRodRange ~ " block straight line"));
 
 <prospectors:prospector_high:*>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_high:*>.addTooltip(format.yellow("for ore in Age 4 and below"));
+<prospectors:prospector_high:*>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_high:*>.addTooltip(format.red("in a " ~ prospectingRodRange ~ " block straight line"));
 
 <prospectors:prospector_best:*>.addTooltip(format.yellow("This tool may only be used"));
 <prospectors:prospector_best:*>.addTooltip(format.yellow("for ore in Age 5 and below"));
+<prospectors:prospector_best:*>.addTooltip(format.red("Will detect unlocked Ores"));
+<prospectors:prospector_best:*>.addTooltip(format.red("in a " ~ prospectingRodRange ~ " block straight line"));
 
 //==================================
 //Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things
@@ -164,9 +175,6 @@
 
 <betterwithmods:hand_crank>.addTooltip(format.red("Needed to power early machines"));
 <betterwithmods:hand_crank>.addTooltip(format.red("like the Mill Stone"));
-
-<prospectors:prospector_lowest>.addTooltip(format.red("Will detect unlocked Ores"));
-<prospectors:prospector_lowest>.addTooltip(format.red("in a 32 block straight line"));
 
 <abyssalcraft:statue>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:1>.addTooltip(format.red("Requires open sky above to function"));

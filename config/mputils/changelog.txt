@@ -12,6 +12,8 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 * There is a known bug with being kicked back to the title or server screen after loading into your first world and sometimes after gaining/losing advancements/stages. We are looking into it. You should be able to join the world back with no issues after this happens.
 
+* Dimensional Control has updated and added a new default worldgen. Among removing a few extra biomes and moving some biomes to their proper temperature zone, oceans have been further reduced. YOU DO NOT need to start a new world. Existing worlds will keep their generation type and only new worlds will inherit the new changes. This is not really a bug fix or critical change. It is mostly an enhancement meaning you can start a new world if you want. 
+
 Bug Fixes:
 * Move Galacticraft's Tin Canister recipe to age 4 (#1201)
 * Remove 4x rice slimeball recipes (#1241)
@@ -77,6 +79,9 @@ Enhancements:
 * Add detection range tooltip to all prospectors and fix the range stated (#1494)
 
 Mod Updates:
+* Dimensional Control ()
+    * Update to allow changes listed above
+* BnBGamingCore (1.12-0.7.1)
 * Cyclic (1.12.2-1.14.7)
     * Fixed some broken blocks in the Nether and the End causing crashes (#1158, #1209)
 * Geolosys (1.12.2-1.8.10c)
@@ -131,7 +136,7 @@ Mod Updates:
     * Asset updates
 * Together Forever (1.12.2-1.0.7-13)
     * Added a safe check in case the overworld is not loaded
-* Triumph (1.12-1.10.2)
+* Triumph (1.12-1.10.3)
     * Fix advancement display data not properly syncing to clients on servers
 * PrimalCore (1.12.2-0.6.45)
     * Properly stop teleporting from Ineris plants in the End dimension

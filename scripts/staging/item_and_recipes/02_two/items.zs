@@ -1229,10 +1229,9 @@ var stage2Items as IIngredient[] = [
 	//Farming for Blockheads
 	<farmingforblockheads:chicken_nest>,
 	<farmingforblockheads:feeding_trough>,
-	<farmingforblockheads:fertilizer>,
 	<farmingforblockheads:fertilizer:1>,
-	<farmingforblockheads:fertilizer:2>
-
+	<farmingforblockheads:fertilizer:2>,
+	<farmingforblockheads:fertilizer>
 ];
 
 for item in stage2Items {

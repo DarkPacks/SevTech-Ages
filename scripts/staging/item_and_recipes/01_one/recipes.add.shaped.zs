@@ -651,6 +651,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.copper.plate, null, metals.copper.plate]
 		]
 	],
+
 	//Farming for Blockheads
 	<farmingforblockheads:market> : [
 		[

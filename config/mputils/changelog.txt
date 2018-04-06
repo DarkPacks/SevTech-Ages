@@ -54,7 +54,7 @@ Enhancements:
 * Slightly increased the spawn rates of the Shoggoth Lairs
 * Allowed Betweenlands Sulfur torches right-click functionality with a pickaxe in main hand (#1437)
 * Added Betweenlands Rotten Food to drop from most Betweenlands mobs so players can complete the rotten food advancement (#1359)
-* Removed the Primal Core plants from the End because they still teleport players even when disabled in the config
+* Disabled Primal Core plants in the End teleporting players
 * Shoggoths will now always drop at least 3 Shoggoth Flesh when killed
 * Added a new method of collecting Shoggoth Flesh from villager trades in case Shoggoth's stop spawning due to finite spawning
 * Slightly increased village spawn rates

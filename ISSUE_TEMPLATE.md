@@ -13,7 +13,7 @@
 ## Issue / Bug
 <!--- If you're describing a bug, describe the current behavior -->
 <!--- If you're suggesting a change/improvement, tell us how it should work -->
-<!--- If possible add error/crash log to [Pastebin](https://pastebin.com/) and link it here (if you dislike pastebin any other similar site is fine too) -->
+<!--- MAKE SURE TO ADD LOGS! -->
 <!--- If possible add a video/gif of the issue/bug (makes it easier for darkosto to understand you) -->
 
 ## Expected Behavior
@@ -33,6 +33,14 @@
 ## Context
 <!--- How has this issue affected you? What are you trying to accomplish? -->
 <!--- Providing context helps us come up with a solution that is most useful in the real world -->
+
+## Logs
+<!-- If your reporting a crash/bug. You NEED to provide logs otherwise your issue will be closed and ignored. -->
+<!-- Twitch logs can be found in the installation directory for the Twitch App. Or click the ... button on SevTech and hit
+"Open Folder" then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitHub as we don't want to download
+your logs. ATLauncher is a similar process. -->
+* Client/Server Log:
+* Crash Log:
 
 ## Client Information
 <!--- Include as many relevant details about the environment you experienced the bug in -->

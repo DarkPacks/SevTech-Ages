@@ -17,6 +17,8 @@ import mods.betterwithmods.Turntable;
 Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
 Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
 
+Turntable.remove(<betterwithmods:unfired_pottery:2>);
+
 /*
 	Mill
 

@@ -32,9 +32,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
-	<tconstruct:clear_glass> : [
-		[<minecraft:glass>]
-	],
 
 	//Twilight Forest
 	<twilightforest:magic_map_focus> : [

@@ -14,10 +14,12 @@ import mods.betterwithmods.Turntable;
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Turntable/
 */
+//Remove BWM broken recipe and re-add it
+Turntable.remove(<betterwithmods:unfired_pottery:2>);
+Turntable.add(<betterwithmods:unfired_pottery:2>, <betterwithmods:unfired_pottery:4>, []);
+
 Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
 Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
-
-Turntable.remove(<betterwithmods:unfired_pottery:2>);
 
 /*
 	Mill

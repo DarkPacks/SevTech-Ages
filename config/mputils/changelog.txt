@@ -160,8 +160,6 @@ Mod Updates:
     * You can no longer teleport to the Beneath while riding something
 * Foamfix (0.9.6-1.12.2)
     * Improves compat with 3d-in-gui item models
-* ModTweaker (4.0.10)
-    * Updated BWM support
 * Overloaded (1.12.2-0.0.47)
     * Code refactor
     * Asset updates

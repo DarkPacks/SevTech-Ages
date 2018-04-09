@@ -367,3 +367,4 @@ for i in 0 to 16 {
 
 //Natura Dye
 <ore:dyeBlue>.add(<natura:materials:8>);
+<ore:dyeBlue>.remove(<natura:materials:8>);

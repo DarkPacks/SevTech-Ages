@@ -207,6 +207,11 @@ for i in 0 to 16 {
 <ore:barkWood>.add(<betterwithmods:bark:*>);
 
 /*
+	Slab Wood
+*/
+<ore:slabWood>.add(<abyssalcraft:dltslab1>);
+
+/*
 	Misc
 */
 <ore:rock>.add(<immcraft:rock>);

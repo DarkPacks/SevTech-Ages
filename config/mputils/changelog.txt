@@ -8,6 +8,21 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.7
+
+Bug Fixes:
+* Added DarkLands wood slab to the ore dictionary (#1627)
+* Fixed Arrow heads/bows being staged incorrectly (#964)
+* Fixed Shields being uncraftable in the Smeltry due to incorect staging (#944)
+* Removed the Primal Dust bin (#841)
+* Fixed incorect recipes for Reborn Storage Storage Parts (#1635)
+
+Enhancements:
+
+Mod Updates:
+
+---------------------------------------------------------------------
+
 3.0.6
 
 Bug Fixes:

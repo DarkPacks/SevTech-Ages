@@ -396,6 +396,7 @@ var stageZeroItems as IIngredient[] = [
 
 	//Tinkers Construct
 	<tconstruct:casting:1>,
+	<tconstruct:casting>,
 	<tconstruct:dried_clay>,
 	<tconstruct:dried_clay_slab>,
 	<tconstruct:edible:10>,
@@ -692,14 +693,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:daucus_murn_fronds>,
 	<primal:daucus_murn_root>,
 	<primal:daucus_murn_root_cooked>,
-	<primal:dust_bin:1>.withTag({type: "spruce"}),
-	<primal:dust_bin:2>.withTag({type: "birch"}),
-	<primal:dust_bin:3>.withTag({type: "jungle"}),
-	<primal:dust_bin:4>.withTag({type: "acacia"}),
-	<primal:dust_bin:5>.withTag({type: "dark_oak"}),
-	<primal:dust_bin:6>.withTag({type: "ironwood"}),
-	<primal:dust_bin:7>.withTag({type: "yew"}),
-	<primal:dust_bin>.withTag({type: "oak"}),
 	<primal:earthwax_clump>,
 	<primal:ferro_stone:1>,
 	<primal:ferro_stone:2>,

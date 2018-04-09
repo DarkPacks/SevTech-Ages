@@ -76,6 +76,14 @@ var removeItems as IItemStack[] = [
 	<rebornstorage:multicrafter:2>,
 	<rebornstorage:multicrafter:3>,
 	<rebornstorage:multicrafter>,
+	<rebornstorage:storagepart:1>,
+	<rebornstorage:storagepart:2>,
+	<rebornstorage:storagepart:3>,
+	<rebornstorage:storagepart:4>,
+	<rebornstorage:storagepart:5>,
+	<rebornstorage:storagepart:6>,
+	<rebornstorage:storagepart:7>,
+	<rebornstorage:storagepart>,
 
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>,

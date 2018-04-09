@@ -754,6 +754,62 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<appliedenergistics2:material:24>, <appliedenergistics2:material:22>, <appliedenergistics2:material:24>],
 			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:storage_part>, <refinedstorage:quartz_enriched_iron>]
 		]
+	],
+	<rebornstorage:storagepart>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<refinedstorage:storage_part:3>, <minecraft:redstone>, <refinedstorage:storage_part:3>],
+			[<appliedenergistics2:material:24>, <refinedstorage:storage_part:3>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:1>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart>, <minecraft:redstone>, <rebornstorage:storagepart>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:2>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart:1>, <minecraft:redstone>, <rebornstorage:storagepart:1>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:1>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:3>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart:2>, <minecraft:redstone>, <rebornstorage:storagepart:2>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:2>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:4>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<refinedstorage:fluid_storage_part:3>, <minecraft:bucket>, <refinedstorage:fluid_storage_part:3>],
+			[<appliedenergistics2:material:24>, <refinedstorage:fluid_storage_part:3>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:5>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart:4>, <minecraft:bucket>, <rebornstorage:storagepart:4>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:4>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:6>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart:5>, <minecraft:bucket>, <rebornstorage:storagepart:5>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:5>, <appliedenergistics2:material:24>]
+		]
+	],
+	<rebornstorage:storagepart:7>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:24>],
+			[<rebornstorage:storagepart:6>, <minecraft:bucket>, <rebornstorage:storagepart:6>],
+			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:6>, <appliedenergistics2:material:24>]
+		]
 	]
 };
 

@@ -14,5 +14,3 @@ CrushingTub.removeRecipe(<liquid:ironberryjuice>, <rustic:ironberries>);
 
 	https://github.com/the-realest-stu/Rustic/wiki/CraftTweaker-Support#evaporating-basin-recipes
 */
-//Tiny Iron Pile
-EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron>);

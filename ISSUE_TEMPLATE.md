@@ -47,6 +47,8 @@ your logs. ATLauncher is a similar process. -->
 * Modpack Version:
 * Java Version:
 * Launcher Used:
+<!-- Please tell us how much memory you have allocated to the game. For Twitch/ATLauncher look in the settings -->
+* Memory Allocated:
 <!--- If your using a server please fill the additional information below -->
 * Server/LAN/Single Player:
 * Resourcepack Enabled?:

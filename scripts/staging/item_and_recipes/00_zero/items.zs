@@ -128,7 +128,6 @@ var stageZeroItems as IIngredient[] = [
 	<minecraft:coal>,
 	<minecraft:cobblestone_wall:1>,
 	<minecraft:cobblestone_wall>,
-	<minecraft:cookie>,
 	<minecraft:cyan_glazed_terracotta>,
 	<minecraft:deadbush>,
 	<minecraft:double_plant:1>,

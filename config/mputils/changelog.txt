@@ -16,6 +16,8 @@ Bug Fixes:
 * Fixed Shields being uncraftable in the Smeltry due to incorect staging (#944)
 * Removed the Primal Dust bin (#841)
 * Fixed incorect recipes for Reborn Storage Storage Parts (#1635)
+* Fixed Minecraft Cookie being incorrectly staged.
+* Fixed Abyssalcraft Wasteland ores not being staged/masked correctly (#1625)
 
 Enhancements:
 

@@ -292,6 +292,7 @@ var stage2Items as IIngredient[] = [
 	<minecraft:chainmail_helmet>,
 	<minecraft:chainmail_leggings>,
 	<minecraft:clock>,
+	<minecraft:cookie>,
 	<minecraft:compass>,
 	<minecraft:dark_oak_boat>,
 	<minecraft:dye:4>,

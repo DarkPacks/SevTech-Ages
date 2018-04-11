@@ -759,7 +759,6 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:pipe_lapis_item:*>,
 	<buildcrafttransport:pipe_obsidian_item:*>,
 	<buildcrafttransport:pipe_quartz_power:*>,
-	<buildcrafttransport:pipe_sandstone_item:*>,
 	<buildcrafttransport:pipe_sandstone_power:*>,
 	<buildcrafttransport:pipe_stone_power:*>,
 	<buildcrafttransport:pipe_stripes_item:*>,

@@ -23,9 +23,18 @@ Bug Fixes:
 Enhancements:
 
 Mod Updates:
-* Better With Addons ()
-    * Waiting for CF upload but we need this update!
 
+NOTE FOR DARK: BWA has new stuff so it needs checking out! (Also remove me on release darkoLUL)
+
+* Better With Addons (0.37)
+    * Fixes another stray CME from hardcore packing. It just keeps happening.
+* Blood Magic (2.2.8-91)
+    * Fixed a client side null-pointer exception with the Blood Lamp
+        * It's a bright idea to fix this as soon as I can.
+    * Fixed a server crash when handling dye recipes
+    * Fixed a crash when trying to use unbound toggle-able sigils in the Sigil of Holding
+* Immersive Tech ()
+    * Waiting for CF upload but we need this update!
 ---------------------------------------------------------------------
 
 3.0.6

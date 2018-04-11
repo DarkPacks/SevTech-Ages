@@ -18,10 +18,13 @@ Bug Fixes:
 * Fixed incorect recipes for Reborn Storage Storage Parts (#1635)
 * Fixed Minecraft Cookie being incorrectly staged.
 * Fixed Abyssalcraft Wasteland ores not being staged/masked correctly (#1625)
+* Fixed Diamond Tools staging for recipe showing (#902)
 
 Enhancements:
 
 Mod Updates:
+* Better With Addons ()
+    * Waiting for CF upload but we need this update!
 
 ---------------------------------------------------------------------
 

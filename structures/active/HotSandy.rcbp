@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "biomes": "$DRY"
+    },
+    {
+      "biomes": "$HOT"
+    },
+    {
+      "biomes": "$SANDY"
+    },
+    {
+      "biomes": "$MESA"
+    }
+  ],
+  "metadata": {
+    "title": "HotandSandy",
+    "description": [
+      "Hot Sandy like a Desert"
+    ]
+  }
+}

@@ -20,6 +20,7 @@ Bug Fixes:
 * Fixed Abyssalcraft Wasteland ores not being staged/masked correctly (#1625)
 * Fixed Diamond Tools staging for recipe showing (#902)
 * Fixed Skeletons being immune to Cacti and Punji Stick damage (1419)
+* Add missing Molten Invar alloying recipe (#1789)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

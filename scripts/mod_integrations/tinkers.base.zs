@@ -151,6 +151,9 @@ Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redst
 //Modularium
 Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.aluminum.liquid.liquids[0] * 144]);
 
+//Invar
+Alloy.addRecipe(metalItems.invar.liquid.liquids[0] * 3, [metalItems.iron.liquid.liquids[0] * 2, metalItems.nickel.liquid.liquids[0] * 1]);
+
 /*
 	Combined stuff
 */

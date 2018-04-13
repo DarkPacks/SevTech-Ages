@@ -158,9 +158,12 @@ var prospectingRodRange as int = 48;
 <extraplanets:apple_iron>.addTooltip(format.red("Crafting this item will"));
 <extraplanets:apple_iron>.addTooltip(format.red("unlock Advanced Mapping"));
 
-<thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in "));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in"));
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("Shrines, Cragrock Towers"));
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("and the Wight Fortress"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("or looted from bosses"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("and a rare drop chance"));
+<thebetweenlands:ring_of_flight>.addTooltip(format.red("from certain Betweenlands enemies"));
 
 <indlog:auto_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));
 <indlog:portable_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));

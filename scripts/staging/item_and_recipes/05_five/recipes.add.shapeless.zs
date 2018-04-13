@@ -22,8 +22,16 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 
-/*UNCOMMENT WHEN NEEDED
+//UNCOMMENT WHEN NEEDED
 var shapelessRecipes as IIngredient[][][IItemStack] = {
+
+	//Clear creative mek tank
+	//FirstNecron or Artdude plz fix
+	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}): [
+	    [
+			<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}})
+		]
+	]
 
 };
 
@@ -32,4 +40,3 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-*/

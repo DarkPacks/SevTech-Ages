@@ -158,3 +158,9 @@ TartaricForge.addRecipe(
 	[<betterwithaddons:tweakmat>, metals.bronze.ingot.firstItem, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment>],
 	1, 1
 );
+
+TartaricForge.addRecipe(
+	<astralsorcery:itemcraftingcomponent:2>,
+	[<extendedcrafting:material>, <astralsorcery:itemrockcrystalsimple>, <appliedenergistics2:material:46>, <minecraft:dye:4>],
+	100, 20
+);

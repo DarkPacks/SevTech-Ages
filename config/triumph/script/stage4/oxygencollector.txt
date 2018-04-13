@@ -1,0 +1,15 @@
+setTitle("Oxygen is Included")
+
+setIcon("galacticraftcore:collector")
+
+setDescription("To create Galacticraft Fuel, you will need to combine Kerosene and Oxygen in an Immersive Engineering Refinery. Oxygen can initially be collected by the Oxygen Collector")
+
+setParent("triumph:stage4/compressor")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:collector")
+
+//Rewards
+setRewardExperience(8)

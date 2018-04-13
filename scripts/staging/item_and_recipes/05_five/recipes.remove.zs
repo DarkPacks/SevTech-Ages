@@ -29,6 +29,7 @@ var removeItems as IItemStack[] = [
 	<rftools:machine_frame>,
 	<rftools:matter_receiver>,
 	<rftools:matter_transmitter>,
+	<rftools:machine_base>,
 
 	//Mystical Agriculture
 	<mysticalagriculture:ultimate_furnace>,

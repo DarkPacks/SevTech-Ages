@@ -143,6 +143,12 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+	<rftools:machine_base>: [
+		[
+			[<pneumaticcraft:plastic:8>, metals.invar.plate, <pneumaticcraft:plastic:8>]
+		]
+	],
+
 	//Mekanism
 	<mekanism:basicblock:7> * 4: [
 		[

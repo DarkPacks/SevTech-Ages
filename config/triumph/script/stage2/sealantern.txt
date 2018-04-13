@@ -1,0 +1,15 @@
+setTitle("Under Da Sea Lantern")
+
+setIcon("minecraft:sea_lantern", 0)
+
+setDescription("The Tier 3 Blood Magic Altar caps can be made from Sea Lanterns or Glowstone. Locate Prismarine from an Ocean Monument or as a drop from the Dark Forest Maze in the Twilight Forest")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("minecraft:sea_lantern", 0)
+
+//Rewards
+setRewardExperience(8)

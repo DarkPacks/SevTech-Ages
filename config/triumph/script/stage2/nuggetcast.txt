@@ -1,0 +1,15 @@
+setTitle("Casting a Nugget")
+
+setIcon("tconstruct:cast_custom", 1)
+
+setDescription("To obtain a Nugget Cast you will need to create a Stone Nugget with a block of Stone on the Stone Anvil")
+
+setParent("triumph:stage2/gold")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:cast_custom", 1)
+
+//Rewards
+setRewardExperience(8)

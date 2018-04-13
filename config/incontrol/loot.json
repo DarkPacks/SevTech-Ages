@@ -898,5 +898,29 @@
     "item": "thebetweenlands:ring_of_flight",
     "random": 0.03,
     "itemcount": "0/0/1"
+  },
+  {
+    "mob": "twilightforest:kobold",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:goblin_knight_lower",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:slime_beetle",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:helmet_crab",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
   }
 ]

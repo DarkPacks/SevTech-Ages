@@ -173,7 +173,9 @@ var removeItems as IItemStack[] = [
 
 	//Blood Magic
 	<bloodmagic:ritual_diviner:1>,
-	<bloodmagic:ritual_diviner>
+	<bloodmagic:ritual_diviner>,
+
+	<betterwithmods:material:8>
 ];
 
 for item in removeItems {

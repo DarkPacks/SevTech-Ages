@@ -791,6 +791,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:urn:8>,
 	<betterwithmods:urn:9>,
 	<betterwithmods:urn>,
+	<betterwithmods:material:8>,
 
 	//Geolosys
 	<geolosys:cluster:4>,

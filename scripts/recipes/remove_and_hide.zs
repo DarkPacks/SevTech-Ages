@@ -42,7 +42,6 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:writing_table>,
 	<betterwithmods:material:6>,
 	<betterwithmods:material:7>,
-	<betterwithmods:material:8>,
 	<betterwithmods:material:31>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,

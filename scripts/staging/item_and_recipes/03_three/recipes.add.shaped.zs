@@ -1303,6 +1303,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:wool:*>, <minecraft:noteblock>, <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
+	],
+
+	//Leather Strap Fix
+	<betterwithmods:material:8>  : [
+		[
+			[null, null, <primal:leather_strip>],
+			[null, <primal:leather_strip>, null],
+			[<primal:leather_strip>, null, null]
+		]
 	]
 };
 

@@ -1,4 +1,4 @@
-setTitle("Advanced Ender Alloy")
+setTitle("Under Pressure")
 
 setIcon("galacticraftcore:machine", 12)
 

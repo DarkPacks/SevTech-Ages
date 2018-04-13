@@ -13,13 +13,20 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Bug Fixes:
 * Added DarkLands wood slab to the ore dictionary (#1627)
 * Fixed Arrow heads/bows being staged incorrectly (#964)
-* Fixed Shields being uncraftable in the Smeltry due to incorect staging (#944)
+* Fixed Shields being uncraftable in the Smeltery due to incorrect staging (#944)
 * Removed the Primal Dust bin (#841)
-* Fixed incorect recipes for Reborn Storage Storage Parts (#1635)
+* Fixed incorrect recipes for Reborn Storage Storage Parts (#1635)
 * Fixed Minecraft Cookie being incorrectly staged.
 * Fixed Abyssalcraft Wasteland ores not being staged/masked correctly (#1625)
 * Fixed Diamond Tools staging for recipe showing (#902)
-* Fixed Skeletons being immune to Cacti and Punji Stick damage (1419)
+* Fixed Skeletons being immune to Cacti and Punji Stick damage (#1419)
+* Fixed the Saturn and Neptune advancements not triggering when entering the dimension (#1599)
+* Fixed the Creative Tank Advancement triggering incorrectly (#1743)
+* Better With Mods Leather Straps now have a recipe (#1736)
+* Fixed incorrect advancement name for Compressor in stage 4
+
+
+
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -29,6 +36,17 @@ Enhancements:
 * Lowered the creative tank recipe Blood Tank requirement to level 10 instead of 16
 * Added a stage 2 recipe to create Astral Sorcery Stardust using Blood Magic
 * Removed the Industrial Foregoing Fisher machine since it was not usable due to the fishing table being cleared (#1761)
+* Added an Advancement to alert players on how to create a Nugget Cast
+* Altered the recipe for the RFTools Machine Base for consistency
+* The Market recipe was changed yet again
+* Added an advancement for creating and using End Crystals in stage 4
+* Added prismarine drops to mobs primarily located in the Dark Forest Maze (the one with the Knight Phantoms)
+* Added an Advancement to alert players that Sea Lanterns can be used as Blood Magic Tier 3 Altar Caps
+* Added an Advancement for the Galacticraft Oxygen Collector Fuel method
+* Created a Steve's Carts Singularity
+
+
+
 
 Mod Updates:
 
@@ -67,6 +85,10 @@ NOTE FOR DARK: BWA has new stuff so it needs checking out! (Also remove me on re
 * Extended Crafting
 * Hunting Dimension
 * Triumph
+* Modular Routers
+* AbyssalCraft
+* Totemic
+* Cyclic
 
 
 

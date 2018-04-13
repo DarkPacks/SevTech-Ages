@@ -35,7 +35,7 @@ Enhancements:
 * Added the Ring of Ascent to 100% chance drop from Betweenlands Bosses and a small chance to drop from Pyrads, Peat Mummies, Wights, Gas Clouds, & Tar Beasts
 * Lowered the creative tank recipe Blood Tank requirement to level 10 instead of 16
 * Added a stage 2 recipe to create Astral Sorcery Stardust using Blood Magic
-* Removed the Industrial Foregoing Fisher machine since it was not usable due to the fishing table being cleared (#1761)
+* Removed the Industrial Foregoing Fisher machine since it was not usable due to the fishing table being cleared (#1760)
 * Added an Advancement to alert players on how to create a Nugget Cast
 * Altered the recipe for the RFTools Machine Base for consistency
 * The Market recipe was changed yet again

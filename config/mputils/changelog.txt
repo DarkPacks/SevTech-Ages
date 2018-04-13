@@ -271,6 +271,7 @@ Bug Fixes:
 * Fixed Quartz Glass requiring Natura Glass only, now asks for any blockGlass (#1184)
 * Added Blue Dye to all the Modular Machinery Blueprint recipes to eliminate recipe conflicts (#1156)
 * Field Manual is now craftable in stage one (#1140)
+* Add missing Molten Invar alloying recipe (#1789)
 
 Enhancement:
 * Added Bear Claw drops to all types of bears

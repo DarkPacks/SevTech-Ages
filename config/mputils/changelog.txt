@@ -24,6 +24,7 @@ Bug Fixes:
 * Fixed the Creative Tank Advancement triggering incorrectly (#1743)
 * Better With Mods Leather Straps now have a recipe (#1736)
 * Fixed incorrect advancement name for Compressor in stage 4
+* Disable Quark's hotbar swap feature to prevent carry-on bugs (#1623)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

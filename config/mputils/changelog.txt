@@ -42,6 +42,7 @@ Enhancements:
 * Added an Advancement for the Galacticraft Oxygen Collector Fuel method
 * Created a Steve's Carts Singularity
 * Added a recipe to the Creative Tank to clear the liquid out of it
+* Re-added the transmutation recipe for Starmetal Ore (#1792)
 
 Mod Updates:
 

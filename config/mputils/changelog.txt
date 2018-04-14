@@ -25,9 +25,6 @@ Bug Fixes:
 * Better With Mods Leather Straps now have a recipe (#1736)
 * Fixed incorrect advancement name for Compressor in stage 4
 
-
-
-
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
 * Increased the drop chance of bones for most passive and hostile animal mobs
@@ -44,9 +41,7 @@ Enhancements:
 * Added an Advancement to alert players that Sea Lanterns can be used as Blood Magic Tier 3 Altar Caps
 * Added an Advancement for the Galacticraft Oxygen Collector Fuel method
 * Created a Steve's Carts Singularity
-
-
-
+* Added a recipe to the Creative Tank to clear the liquid out of it
 
 Mod Updates:
 

@@ -182,6 +182,12 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:skull:1>, <mysticalagradditions:storage>, <minecraft:skull:1>]
 		]
 	],
+	<mysticalagriculture:supremium_boots>: [
+		[
+			[<mysticalagriculture:crafting:37>, <environmentaltech:modifier_creative_flight>, <mysticalagriculture:gear:9>],
+			[<mysticalagriculture:crafting:37>, null, <mysticalagriculture:crafting:37>]
+		]
+	],
 
 	//Iron Chests
 	<ironchest:diamond_obsidian_chest_upgrade>: [
@@ -817,6 +823,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:6>, <appliedenergistics2:material:24>]
 		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -33,6 +33,7 @@ var removeItems as IItemStack[] = [
 
 	//Mystical Agriculture
 	<mysticalagriculture:ultimate_furnace>,
+	<mysticalagriculture:supremium_boots>,
 
 	//Xnet
 	<xnet:controller>,
@@ -102,7 +103,10 @@ var removeItems as IItemStack[] = [
 	<extraplanets:tier4_space_suit_chest>,
 	<extraplanets:tier4_space_suit_gravity_boots>,
 	<extraplanets:tier4_space_suit_helmet>,
-	<extraplanets:tier4_space_suit_legings>
+	<extraplanets:tier4_space_suit_legings>,
+
+	//Environmental
+	<environmentaltech:modifier_creative_flight>
 ];
 
 for item in removeItems {

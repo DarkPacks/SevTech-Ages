@@ -265,7 +265,6 @@ for i in 0 to 16 {
 
 <ore:ingotTamahagane>.remove(<primal:tamahagane_ingot>);
 
-<ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
 <ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
 
@@ -368,3 +367,6 @@ for i in 0 to 16 {
 //Natura Dye
 <ore:dyeBlue>.add(<natura:materials:8>);
 <ore:dyeBlue>.remove(<natura:materials:8>);
+
+//Add BWM Diamond Nugget to be removed in unification
+<ore:nuggetDiamond>.add(<betterwithmods:material:46>);

@@ -140,8 +140,6 @@ static removeAndHideItems as IItemStack[] = [
 	<totemic:medicine_bag>,
 
 	//Nuggets
-	//TODO: Unify/handle these with a better removal
-	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>,  //Soulium Nugget
 

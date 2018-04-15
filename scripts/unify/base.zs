@@ -107,3 +107,4 @@ unifyWithPreferredItem(<ore:dustDiamond>, <mekanism:otherdust>, null);
 unifyWithPreferredItem(<ore:dustEmerald>, null, null);
 unifyWithPreferredItem(<ore:dustSulfur>, <immersiveengineering:material:25>, null);
 unifyWithPreferredItem(<ore:blockCharcoal>, <charcoalblock:charcoal_block>, null);
+unifyWithPreferredItem(<ore:nuggetDiamond>, <extendedcrafting:material:128>, null);

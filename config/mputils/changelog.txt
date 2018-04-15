@@ -51,6 +51,7 @@ Enhancements:
 * Added crusher recipes for Salt block to dusts (#1717)
 * Added clay block creation to the press (#1734)
 * Added Chisel support for some of the Betweenland stones (#1686)
+* Add Totempedia to Bibliocraft bookshelf (#1840)
 
 Mod Updates:
 

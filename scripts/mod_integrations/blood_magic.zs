@@ -85,25 +85,25 @@ TartaricForge.addRecipe(
 TartaricForge.removeRecipe([<bloodmagic:teleposer>, <minecraft:diamond>, <minecraft:ender_pearl>, <minecraft:obsidian>]);
 TartaricForge.addRecipe(
 	<bloodmagic:component:18>,
-	[<bloodmagic:teleposer>, metals.platinum.ingot.firstItem, <minecraft:ender_pearl>, <minecraft:obsidian>],
+	[<bloodmagic:teleposer>, metals.platinum.ingot, <minecraft:ender_pearl>, <minecraft:obsidian>],
 	1500, 200
 );
 
-TartaricForge.removeRecipe([<minecraft:iron_block>, <minecraft:diamond>, <bloodmagic:slate:2>, null]);
+TartaricForge.removeRecipe([<minecraft:iron_block>, <minecraft:diamond>, <bloodmagic:slate:2>]);
 TartaricForge.addRecipe(
 	<bloodmagic:master_routing_node>,
-	[metals.iron.block.firstItem, metals.platinum.ingot.firstItem, <bloodmagic:slate:2>, null],
+	[metals.iron.block, metals.platinum.ingot, <bloodmagic:slate:2>],
 	400, 200
 );
 
 TartaricForge.removeRecipe([<minecraft:diamond_chestplate>, <bloodmagic:soul_gem:1>, <minecraft:iron_block>, <minecraft:obsidian>]);
 TartaricForge.addRecipe(
 	<bloodmagic:sentient_armour_gem>,
-	[<minecraft:golden_chestplate>, <bloodmagic:soul_gem:1>, metals.iron.block.firstItem, <minecraft:obsidian>],
+	[<minecraft:golden_chestplate>, <bloodmagic:soul_gem:1>, metals.iron.block, <minecraft:obsidian>],
 	240, 150
 );
 
-TartaricForge.removeRecipe([<minecraft:ghast_tear>, <minecraft:feather>, <minecraft:feather>, null]);
+TartaricForge.removeRecipe([<minecraft:ghast_tear>, <minecraft:feather>, <minecraft:feather>]);
 TartaricForge.addRecipe(
 	<bloodmagic:component:2>,
 	[<minecraft:ghast_tear>, <twilightforest:raven_feather>, <twilightforest:raven_feather>, <minecraft:elytra>],
@@ -113,49 +113,49 @@ TartaricForge.addRecipe(
 TartaricForge.removeRecipe([<bloodmagic:soul_forge>, <minecraft:stone>, <minecraft:dye:14>, <minecraft:glass>]);
 TartaricForge.addRecipe(
 	<bloodmagic:demon_crystallizer>,
-	[<bloodmagic:soul_forge>, <ore:stone>, metals.manyullyn.ingot.firstItem, <ore:blockGlass>],
+	[<bloodmagic:soul_forge>, <ore:stone>, metals.manyullyn.ingot, <ore:blockGlass>],
 	500, 100
 );
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <minecraft:diamond>, <minecraft:redstone_block>, <minecraft:lapis_block>]);
 TartaricForge.addRecipe(
 	<bloodmagic:soul_gem:1>,
-	[<bloodmagic:soul_gem>, <abyssalcraft:shadowshard>, metals.bronze.ingot.firstItem, <minecraft:fermented_spider_eye>],
+	[<bloodmagic:soul_gem>, <abyssalcraft:shadowshard>, metals.bronze.ingot, <minecraft:fermented_spider_eye>],
 	60, 20
 );
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem:1>, <minecraft:diamond>, <minecraft:gold_block>, <bloodmagic:slate:2>]);
 TartaricForge.addRecipe(
 	<bloodmagic:soul_gem:2>,
-	[<bloodmagic:soul_gem:1>, <abyssalcraft:shadowgem>, metals.gold.block.firstItem, <bloodmagic:slate:2>],
+	[<bloodmagic:soul_gem:1>, <abyssalcraft:shadowgem>, metals.gold.block, <bloodmagic:slate:2>],
 	240, 50
 );
 
 TartaricForge.removeRecipe([<minecraft:stick>, <bloodmagic:slate:1>, <minecraft:dye:4>, <minecraft:dye:4>]);
 TartaricForge.addRecipe(
 	<bloodmagic:node_router>,
-	[<ore:stick>, <bloodmagic:slate:1>, <minecraft:dye:4>, <minecraft:blaze_rod>],
+	[stick, <bloodmagic:slate:1>, <minecraft:dye:4>, <minecraft:blaze_rod>],
 	400, 5
 );
 
 TartaricForge.removeRecipe([<minecraft:cauldron>, <minecraft:stone>, <minecraft:dye:4>, <minecraft:diamond>]);
 TartaricForge.addRecipe(
 	<bloodmagic:demon_crucible>,
-	[<minecraft:cauldron>, <ore:stone>, <minecraft:dye:4>, metals.platinum.ingot.firstItem],
+	[<minecraft:cauldron>, <ore:stone>, <minecraft:dye:4>, metals.platinum.ingot],
 	400, 5
 );
 
-TartaricForge.removeRecipe([<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, null]);
+TartaricForge.removeRecipe([<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>]);
 TartaricForge.addRecipe(
 	<bloodmagic:component:10>,
-	[<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, metals.silver.ingot.firstItem],
+	[<minecraft:glass>, <bloodmagic:slate>, <minecraft:dye:4>, metals.silver.ingot],
 	400, 10
 );
 
 TartaricForge.removeRecipe([<minecraft:redstone>, <minecraft:gold_ingot>, <minecraft:glass>, <minecraft:dye:4>]);
 TartaricForge.addRecipe(
 	<bloodmagic:soul_gem>,
-	[<betterwithaddons:tweakmat>, metals.bronze.ingot.firstItem, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment>],
+	[<betterwithaddons:tweakmat>, metals.bronze.ingot, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment>],
 	1, 1
 );
 

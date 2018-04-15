@@ -29,9 +29,9 @@ Mill.addRecipe([<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>], [
 Mill.addRecipe([<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>], [<tconstruct:soil> * 2]);
 
 //THERE CAN BE ONLY 1 FLOUR!
-//TODO: Mill.remove(<betterwithmods:raw_pastry:3>);
-//TODO: Mill.addRecipe([<minecraft:wheat>], [<horsepower:flour>]);
-//TODO: Mill.addRecipe([<natura:materials>], [<horsepower:flour>]);
+Mill.remove([<betterwithmods:raw_pastry:3>]);
+Mill.addRecipe([<minecraft:wheat>], [<horsepower:flour>]);
+Mill.addRecipe([<natura:materials>], [<horsepower:flour>]);
 
 Mill.addRecipe([<actuallyadditions:block_misc:3>], [<actuallyadditions:item_dust:7>]);
 Mill.addRecipe([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent> * 1]);
@@ -94,12 +94,14 @@ Condensed.setContainer(<betterwithaddons:bolt>, <betterwithaddons:spindle>);
 */
 //==============================
 //Remove
-//TODO: Cauldron.remove(<betterwithmods:material:12>);
-//TODO: Cauldron.remove(<betterwithmods:material:6>);
-//TODO: Cauldron.remove(<rustic:tallow>);
+//Removing by output also requires the ammount of the output item that is given
+Cauldron.remove([<betterwithmods:material:12>]);
+Cauldron.remove([<betterwithmods:material:12>*2]);
+Cauldron.remove([<betterwithmods:material:12>*3]);
+Cauldron.remove([<betterwithmods:material:12>*4]);
+Cauldron.remove([<betterwithmods:material:6>]);
 
-//TODO: I'm pretty sure this doesn't actually work but I'm leaving it here for now
-//TODO: Cauldron.remove(<minecraft:glass>);
+Cauldron.remove([<rustic:tallow>]);
 
 //==============================
 //Unstoked
@@ -109,7 +111,8 @@ Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
-//TODO: Cauldron.remove(<betterwithaddons:laxative>);
+
+Cauldron.remove([<betterwithaddons:laxative>*2]);
 Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>], [<betterwithaddons:laxative>]);
 
 //==============================
@@ -120,13 +123,19 @@ Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Crucible/
 */
-//TODO: Crucible.remove(<betterwithaddons:decomat:3>);
+Crucible.remove([<betterwithaddons:decomat:3>]);
+Crucible.remove([<betterwithaddons:decomat:3>*2]);
+Crucible.remove([<minecraft:glass>]);
 
 /*
 	Saw
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
 */
+
+//Removing by output sems to not be working with Saw
+//TODO: mods.betterwithmods.Saw.remove([<betterwithmods:material>*2]);
+
 var sawRemovals as IItemStack[] = [
 	//Sawing Corners only give 1 gear instead of 2
 	<betterwithmods:wood_corner>,
@@ -141,6 +150,7 @@ var sawRemovals as IItemStack[] = [
 	<betterwithmods:wooden_gearbox>,
 	<betterwithmods:single_machine:2>,
 	<betterwithmods:single_machine:1>
+
 ];
 
 // Input : [Outputs]

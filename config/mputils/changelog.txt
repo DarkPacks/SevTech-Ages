@@ -28,6 +28,7 @@ Bug Fixes:
 * Removed the Astral Sorcery marble slap recipe/block from JEI until it's completed in the mod itself (#1608)
 * Fixed broken compressed steel recipe for the Compressor (#1687)
 * Fixed Tartaric Forge recipes (#1341)
+* Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

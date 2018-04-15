@@ -24,6 +24,7 @@ static removeAndHideItems as IItemStack[] = [
 	<advancedmortars:mortar:3>,
 	<astikoor:carriage>,
 	<astikoor:chariot>,
+	<astralsorcery:blockmarbleslab>, // This is not a finshed Block; advised to not use it till completed.
 	<astralsorcery:itemchargedcrystalpickaxe>, //<-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,

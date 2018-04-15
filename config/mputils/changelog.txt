@@ -25,6 +25,8 @@ Bug Fixes:
 * Better With Mods Leather Straps now have a recipe (#1736)
 * Fixed incorrect advancement name for Compressor in stage 4
 * Disable Quark's hotbar swap feature to prevent carry-on bugs (#1623)
+* Removed the Astral Sorcery marble slap recipe/block from JEI until it's completed in the mod itself (#1608)
+* Fixed broken compressed steel recipe for the Compressor (#1687)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -44,6 +46,9 @@ Enhancements:
 * Created a Steve's Carts Singularity
 * Added a recipe to the Creative Tank to clear the liquid out of it
 * Re-added the transmutation recipe for Starmetal Ore (#1792)
+* Added crusher recipes for Salt block to dusts (#1717)
+* Added clay block creation to the press (#1734)
+* Added Chisel support for some of the Betweenland stones (#1686)
 
 Mod Updates:
 

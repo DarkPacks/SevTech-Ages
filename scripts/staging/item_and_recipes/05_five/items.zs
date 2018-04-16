@@ -65,7 +65,6 @@ var stage5Items as IIngredient[] = [
 	<betterwithaddons:diamond_matchpick>,
 	<betterwithaddons:diamond_spade>,
 	<betterwithmods:material:45>,
-	<betterwithmods:material:46>,
 	<chiselsandbits:bitsaw_diamond>,
 	<chiselsandbits:chisel_diamond>,
 	<cyclicmagic:block_anvil>,
@@ -706,7 +705,6 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:11>,
 	<extendedcrafting:material:12>,
 	<extendedcrafting:material:13>,
-	<extendedcrafting:material:16>,
 	<extendedcrafting:material:17>,
 	<extendedcrafting:material:18>,
 	<extendedcrafting:material:19>,
@@ -1969,7 +1967,6 @@ var stage5Items as IIngredient[] = [
 	<mekanism:walkietalkie>.withTag({mekData: {channel: 1}}),
 
 	//Translocators
-	<translocators:diamond_nugget>,
 	<translocators:translocator_part:1>,
 	<translocators:translocator_part>,
 

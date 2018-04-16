@@ -71,13 +71,6 @@ Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>, 3000, 900, [
 ]);
 
 /*
-	Starlight Transmutation
-
-	http://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Transmutation/
-*/
-LightTransmutation.removeTransmutation(<astralsorcery:blockcustomore:1>, false);
-
-/*
 	Starlight Infusion
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Infusion/

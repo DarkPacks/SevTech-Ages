@@ -48,6 +48,8 @@ MetalPress.addRecipe(<charcoalblock:charcoal_block> * 1, <minecraft:coal:1>, <im
 MetalPress.addRecipe(<minecraft:coal> * 9, <minecraft:coal_block>, <immersiveengineering:mold:7>, 500, 1);
 MetalPress.addRecipe(<minecraft:coal:1> * 9, <charcoalblock:charcoal_block>, <immersiveengineering:mold:7>, 500, 1);
 
+MetalPress.addRecipe(<minecraft:clay> * 1, <minecraft:clay_ball>, <immersiveengineering:mold:5>, 500, 4);
+
 /*
 	Squeezer
 
@@ -89,6 +91,10 @@ Crusher.addRecipe(<horsepower:flour>, <minecraft:wheat>, 3000); //Wheat to Flour
 Crusher.addRecipe(<primal:bone_knapp>, <primal:sharp_bone>, 3000); //Sharp Bone to Bone Knapp
 
 Crusher.addRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 3000); //Sharp Bone to Bone Knapp
+
+Crusher.addRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 3000); // Netjry Salt to Netjry Salt
+Crusher.addRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 3000); // Halite Salt Ore to Halite Rock Salt
+Crusher.addRecipe(<primal:salt_dust_rock:1> * 4, <primal:salt_dust_fire>, 3000); // Fire Salt Ore to Fire Rock Salt
 
 //Lapis
 Crusher.removeRecipesForInput(<minecraft:wool:11>);

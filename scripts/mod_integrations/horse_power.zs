@@ -159,7 +159,8 @@ var pressPairs as IIngredient[IItemStack] = {
 	<minecraft:coal:1>: <pickletweaks:coal_piece:1> * 8,
 	<minecraft:coal>: <pickletweaks:coal_piece> * 8,
 	<minecraft:coal_block>: <minecraft:coal> * 9,
-	<minecraft:dirt>: <minecraft:wheat_seeds> * 12
+	<minecraft:dirt>: <minecraft:wheat_seeds> * 12,
+	<minecraft:prismarine_crystals>: <minecraft:prismarine_shard> * 4
 };
 
 for output, input in pressPairs {

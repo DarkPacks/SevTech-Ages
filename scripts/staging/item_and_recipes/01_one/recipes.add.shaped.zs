@@ -435,6 +435,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:flower_pot>, null]
 		]
 	],
+	<waterstrainer:strainer_base>: [
+		[
+			[<minecraft:stick>, null, <minecraft:stick>],
+			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>]
+		]
+	],
 
 	//Blood Magic
 	<bloodmagic:altar> : [
@@ -655,7 +662,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Farming for Blockheads
 	<farmingforblockheads:market> : [
 		[
-			[<ore:plankWood>, <ore:dyeRed>, <ore:plankWood>],
+			[<ore:plankWood>, <totemic:flute:1>, <ore:plankWood>],
 			[<ore:logWood>, null, <ore:logWood>],
 			[<ore:logWood>, <ore:logWood>, <ore:logWood>]
 		]

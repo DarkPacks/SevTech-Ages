@@ -22,9 +22,13 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 
-/*UNCOMMENT WHEN NEEDED
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-
+	//Clear Mekanism creative tank
+	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}): [
+	    [
+			<mekanism:machineblock2:11>.withTag({tier: 4})
+		]
+	]
 };
 
 for item, recipesForItem in shapelessRecipes {
@@ -32,4 +36,3 @@ for item, recipesForItem in shapelessRecipes {
 		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
 	}
 }
-*/

@@ -12,7 +12,8 @@ var disabledItems as IItemStack[] = [
 	<geolosys:cluster:10>,
 	<geolosys:ore:10>,
 	<geolosys:ore_sample:10>,
-	<primal:ore_magnetite:*>
+	<primal:ore_magnetite:*>,
+	<twilightforest:ore_map_empty>
 ];
 
 for item in disabledItems {

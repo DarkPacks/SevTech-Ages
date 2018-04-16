@@ -48,7 +48,6 @@ var stage1Items as IIngredient[] = [
 
 	//Bricks
 	<betterwithaddons:bricks_stained:*>,
-	<betterwithaddons:material:*>,
 	<minecraft:brick_block>,
 	<minecraft:stone_slab:4>,
 	<quark:polished_netherrack:1>,
@@ -822,6 +821,10 @@ var stage1Items as IIngredient[] = [
 	<betterwithaddons:log_luretree>,
 	<betterwithaddons:log_luretree_face>,
 	<betterwithaddons:loom>,
+	<betterwithaddons:material:1>,
+	<betterwithaddons:material:2>,
+	<betterwithaddons:material:3>,
+	<betterwithaddons:material:5>,
 	<betterwithaddons:sapling_luretree>,
 	<betterwithaddons:scaffold>,
 	<betterwithaddons:shoji>,

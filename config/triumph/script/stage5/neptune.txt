@@ -9,7 +9,7 @@ setRequiresParent(true)
 
 //Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-criteria.setDimensionDestination("Neptune")
+criteria.setDimensionDestination("neptune")
 
 //Rewards
 setRewardExperience(15)

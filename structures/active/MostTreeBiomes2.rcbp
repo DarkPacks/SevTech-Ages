@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "biomes": "$BIRCH_TREES"
+    },
+    {
+      "biomes": "$CONIFEROUS"
+    },
+    {
+      "biomes": "$FOREST"
+    },
+    {
+      "biomes": "$HILLS"
+    },
+    {
+      "biomes": "$ROOFED_TREES"
+    },
+    {
+      "biomes": "$SUPER_BIRCH_TREES"
+    },
+    {
+      "biomes": "$THEMED_TREES"
+    }
+  ],
+  "metadata": {
+    "title": "MostTreeBiomes2",
+    "description": [
+      "Mostly Tree Biomes minus snow and jungle NOW WITH WORKING FUNCTIONALITY!"
+    ]
+  }
+}

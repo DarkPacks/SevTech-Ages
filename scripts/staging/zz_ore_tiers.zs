@@ -54,6 +54,12 @@ var replacementItemsForStage as IIngredient[][][string] = {
 
 		//Abyssalcraft
 		[<abyssalcraft:coraliumore>],
+		[<abyssalcraft:abypcorore>, <abyssalcraft:stone:1>],
+		[<abyssalcraft:abylcorore>, <abyssalcraft:stone:1>],
+
+		//Nitre
+		[<abyssalcraft:nitreore>],
+		[<abyssalcraft:abynitore>, <abyssalcraft:stone:1>],
 
 		//Copper
 		[<immersiveengineering:ore>],
@@ -61,12 +67,14 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:ore_sample:2>, <immcraft:rock>],
 		[<geolosys:ore:3>],
 		[<geolosys:ore_sample:3>, <immcraft:rock>],
+		[<abyssalcraft:abycopore>, <abyssalcraft:stone:1>],
 
 		//Tin
 		[<geolosys:ore:4>],
 		[<geolosys:ore:5>],
 		[<geolosys:ore_sample:4>, <immcraft:rock>],
 		[<geolosys:ore_sample:5>, <immcraft:rock>],
+		[<abyssalcraft:abytinore>, <abyssalcraft:stone:1>],
 
 		//Black Quarts
 		[<actuallyadditions:block_misc:3>],
@@ -77,9 +85,6 @@ var replacementItemsForStage as IIngredient[][][string] = {
 
 	STAGES.two : [
 		[<minecraft:iron_bars:*>],
-
-		//Nitre
-		[<abyssalcraft:nitreore>],
 
 		[<minecraft:stonebrick:0>, <minecraft:cobblestone>],
 		[<minecraft:stonebrick:1>, <minecraft:cobblestone>],
@@ -92,6 +97,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:iron_ore>],
 		[<geolosys:ore:0>],
 		[<geolosys:ore_sample:0>, <immcraft:rock>],
+		[<abyssalcraft:abyiroore>, <abyssalcraft:stone:1>],
 
 		//Lapis
 		[<minecraft:lapis_ore>],
@@ -104,6 +110,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:ore_vanilla:2>],
 		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock>],
 		[<minecraft:gold_block>],
+		[<abyssalcraft:abygolore>, <abyssalcraft:stone:1>],
 
 		//Redstone
 		[<minecraft:redstone_ore>],
@@ -220,6 +227,7 @@ var replacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:diamond_ore>],
 		[<geolosys:ore_vanilla:5>],
 		[<geolosys:ore_sample_vanilla:5>, <immcraft:rock>],
+		[<abyssalcraft:abydiaore>, <abyssalcraft:stone:1>],
 
 		//Emerald
 		[<minecraft:emerald_ore>],

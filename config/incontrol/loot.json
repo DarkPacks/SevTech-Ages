@@ -111,7 +111,7 @@
   {
     "mob": "Enderman",
     "item": "appliedenergistics2:material@46",
-    "random": 0.50
+    "itemcount": "0-1/0-2/1-3"
   },
   {
     "mob": "primal:shark_hammerhead",
@@ -124,7 +124,8 @@
   {
     "mob": "emberroot:enderminy",
     "item": "appliedenergistics2:material@46",
-    "random": 0.65
+    "random": 1.15,
+    "itemcount": "0-1/0-2/1-3"
   },
   {
     "mob": "totemic:buffalo",
@@ -498,7 +499,7 @@
   {
     "mob": "Blaze",
     "item": "minecraft:blaze_powder",
-    "random": 0.5
+    "itemcount": "0-1/0-2/1-3"
   },
   {
     "mob": "nex:monster_spinout",
@@ -702,5 +703,224 @@
     "mob": "thebetweenlands:blood_snail",
     "item": "thebetweenlands:rotten_food",
     "random": 0.35
+  },
+  {
+    "mob": "thebetweenlands:leech",
+    "item": "thebetweenlands:rotten_food",
+    "random": 0.35
+  },
+  {
+    "mob": "Cow",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "Sheep",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "Chicken",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "Pig",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "Horse",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "Llama",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "polar_bear",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "primal:bear_brown",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "primal:bear_black",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "animalium:bear",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "animalium:rat",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "twilightforest:hostile_wolf",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "twilightforest:mist_wolf",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "twilightforest:winter_wolf",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "emberroot:dire_wolf",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "emberroot:timberwolf",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "primal:canis_campestris",
+    "item": "minecraft:bone",
+    "random": 0.25
+  },
+  {
+    "mob": "thebetweenlands:wight",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.01,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "thebetweenlands:wight",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.02,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "thebetweenlands:wight",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.03,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "thebetweenlands:peat_mummy",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.03,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "thebetweenlands:peat_mummy",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.05,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "thebetweenlands:peat_mummy",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.07,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "thebetweenlands:dreadful_mummy",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 1.0
+  },
+  {
+    "mob": "thebetweenlands:fortress_boss",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 1.0
+  },
+  {
+    "mob": "thebetweenlands:gas_cloud",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.03,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "thebetweenlands:gas_cloud",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.05,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "thebetweenlands:gas_cloud",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.07,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "thebetweenlands:tar_beast",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.01,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "thebetweenlands:tar_beast",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.02,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "thebetweenlands:tar_beast",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.03,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "thebetweenlands:pyrad",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.01,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "thebetweenlands:pyrad",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.02,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "thebetweenlands:pyrad",
+    "item": "thebetweenlands:ring_of_flight",
+    "random": 0.03,
+    "itemcount": "0/0/1"
+  },
+  {
+    "mob": "twilightforest:kobold",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:goblin_knight_lower",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:slime_beetle",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
+  },
+  {
+    "mob": "twilightforest:helmet_crab",
+    "item": "minecraft:prismarine_shard",
+    "random": 0.20,
+    "itemcount": "0-1/0-2/1-3"
   }
 ]

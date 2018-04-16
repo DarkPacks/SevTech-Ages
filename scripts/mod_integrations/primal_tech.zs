@@ -170,13 +170,20 @@ var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 	]
 };
 
-/*
-	Flour -> Dough Recipes
-*/
+// Custom / Additional Flour which needs processing but we do not want to effect the ore dictionary.
+var flourItems = [
+	<natura:materials:1>
+] as IIngredient[];
+
+// Fill the flour items from the ore dictionary.
+for flour in <ore:foodFlour>.items {
+     flourItems += flour;
+}
+
 var doughRecipes = [] as IIngredient[][];
 var oreSalt = <ore:foodSalt>;
-var oreFlour = <ore:foodFlour>;
-for flour in oreFlour.items {
+
+for flour in flourItems {
 	for salt in oreSalt.items {
 		doughRecipes += [flour, flour, flour, salt] as IIngredient[];
 		doughRecipes += [flour, flour, salt, flour] as IIngredient[];
@@ -184,7 +191,8 @@ for flour in oreFlour.items {
 		doughRecipes += [salt, flour, flour, flour] as IIngredient[];
 	}
 }
-defaultWoodenBasinRecipes[<horsepower:dough> * 3] += doughRecipes;
+
+defaultWoodenBasinRecipes[<horsepower:dough> * 3] = doughRecipes;
 
 for output, inputs in defaultWoodenBasinRecipes {
 	for inputIngredients in inputs {

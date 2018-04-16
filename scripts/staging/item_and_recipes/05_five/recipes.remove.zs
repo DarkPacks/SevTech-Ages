@@ -29,9 +29,11 @@ var removeItems as IItemStack[] = [
 	<rftools:machine_frame>,
 	<rftools:matter_receiver>,
 	<rftools:matter_transmitter>,
+	<rftools:machine_base>,
 
 	//Mystical Agriculture
 	<mysticalagriculture:ultimate_furnace>,
+	<mysticalagriculture:supremium_boots>,
 
 	//Xnet
 	<xnet:controller>,
@@ -71,6 +73,20 @@ var removeItems as IItemStack[] = [
 	<refinedstorageaddons:network_picker>,
 	<refinedstorageaddons:wireless_crafting_grid>,
 
+	//Reborn Storage
+	<rebornstorage:multicrafter:1>,
+	<rebornstorage:multicrafter:2>,
+	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter>,
+	<rebornstorage:storagepart:1>,
+	<rebornstorage:storagepart:2>,
+	<rebornstorage:storagepart:3>,
+	<rebornstorage:storagepart:4>,
+	<rebornstorage:storagepart:5>,
+	<rebornstorage:storagepart:6>,
+	<rebornstorage:storagepart:7>,
+	<rebornstorage:storagepart>,
+
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>,
 	<extraplanets:tier2_space_suit_boots>,
@@ -87,7 +103,10 @@ var removeItems as IItemStack[] = [
 	<extraplanets:tier4_space_suit_chest>,
 	<extraplanets:tier4_space_suit_gravity_boots>,
 	<extraplanets:tier4_space_suit_helmet>,
-	<extraplanets:tier4_space_suit_legings>
+	<extraplanets:tier4_space_suit_legings>,
+
+	//Environmental
+	<environmentaltech:modifier_creative_flight>
 ];
 
 for item in removeItems {

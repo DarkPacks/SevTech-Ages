@@ -9,7 +9,7 @@ setRequiresParent(true)
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("mekanism:machineblock2", 11)
+criteria.addItem("mekanism:machineblock2", 11, {tier: 4, mekData: {}})
 
 //Rewards
 setRewardExperience(30)

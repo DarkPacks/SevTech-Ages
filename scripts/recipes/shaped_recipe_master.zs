@@ -198,7 +198,7 @@ recipes.addShaped(<progressiontweaks:fire_pit_unlit>, [[null, stick, null], [sti
 recipes.addShaped(<totemic:drum>, [[plank, leather, plank], [plank, null, plank], [plank, null, plank]]);
 recipes.addShaped(<totemic:flute>, [[null, <minecraft:tallgrass:*>, <minecraft:reeds>], [null, <minecraft:reeds>, null], [<minecraft:reeds>, null, null]]);
 recipes.addShaped(<totemic:jingle_dress>, [[str, str, str], [<totemic:sub_items:1>, <totemic:sub_items:1>, <totemic:sub_items:1>]]);
-recipes.addShaped(<totemic:rattle>, [[stick, null], [null, <totemic:sub_items:1>]]);
+recipes.addShaped(<totemic:rattle>, [[null, <totemic:sub_items:1>], [stick, null]]);
 recipes.addShaped(<totemic:sub_items:1>, [[bone, cane, bone], [cane, bone, cane], [null, null, null]]);
 recipes.addShaped(<totemic:tipi>, [[stick, leather, stick], [leather, stick, leather], [leather, stick, leather]]);
 recipes.addShaped(<totemic:totem_torch>, [[null, <primal_tech:fibre_torch_lit>, null], [null, stick, null], [null, stick, null]]);

@@ -24,6 +24,7 @@ static removeAndHideItems as IItemStack[] = [
 	<advancedmortars:mortar:3>,
 	<astikoor:carriage>,
 	<astikoor:chariot>,
+	<astralsorcery:blockmarbleslab>, // This is not a finshed Block; advised to not use it till completed.
 	<astralsorcery:itemchargedcrystalpickaxe>, //<-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:4>,
@@ -31,6 +32,9 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:ink_and_quill>,
 	<betterwithaddons:log_termite>,
 	<betterwithaddons:rail_rusted>,
+	<betterwithaddons:material:4>,
+	<betterwithaddons:material:5>,
+	<betterwithaddons:material:6>,
 	<betterwithaddons:writing_table:1>,
 	<betterwithaddons:writing_table:2>,
 	<betterwithaddons:writing_table:3>,
@@ -39,7 +43,6 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:writing_table>,
 	<betterwithmods:material:6>,
 	<betterwithmods:material:7>,
-	<betterwithmods:material:8>,
 	<betterwithmods:material:31>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,
@@ -105,6 +108,7 @@ static removeAndHideItems as IItemStack[] = [
 	<primal:boat_ironwood>,
 	<primal:boat_lacquer>,
 	<primal:boat_yew>,
+	<primal:dust_bin:*>,
 	<primal:gate_ironwood>,
 	<primal:ironglass>,
 	<primal:pigman_hide_salted>,
@@ -135,8 +139,6 @@ static removeAndHideItems as IItemStack[] = [
 	<totemic:medicine_bag>,
 
 	//Nuggets
-	//TODO: Unify/handle these with a better removal
-	<betterwithmods:material:46>,
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>,  //Soulium Nugget
 
@@ -252,7 +254,10 @@ static removeAndHideItems as IItemStack[] = [
 	<galacticraftcore:refinery>,
 
 	//Tomb Many Graves
-	<tombmanygraves:death_list>
+	<tombmanygraves:death_list>,
+
+	//Twilight Forest
+	<twilightforest:ore_map_empty>
 ];
 
 for item in removeAndHideItems {

@@ -11,8 +11,7 @@ var multiblockMachinesForStages = {
 		"modularmachinery:industrial_mill",
 		"modularmachinery:liquid_processor",
 		"modularmachinery:mixer",
-		"modularmachinery:plastic_molder",
-		"modularmachinery:transformer"
+		"modularmachinery:plastic_molder"
 	],
 
 	STAGES.four : [

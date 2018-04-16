@@ -134,8 +134,11 @@ Melting.addRecipe(<liquid:glass> * 375, <ore:paneGlass>, 493);
 Melting.addRecipe(<liquid:glass> * 1000, <ore:blockGlass>, 493);
 Melting.addRecipe(<liquid:glass> * 1000, <ore:sand>, 493);
 
-//Remove Entity Melting
-Melting.removeEntityMelting(<entity:minecraft:villager>);
+//Remove Villager from giving emeralds or blood
+Melting.removeEntityMelting(<entity:minecraft:villager>, <liquid:water> * 0); //Setting to 0 gives nothing when the entity is "melted"
+
+//Stops an exploit by removing the merchants melting.
+Melting.addEntityMelting(<entity:farmingforblockheads:merchant>, <liquid:water> * 0); //Setting to 0 gives nothing when the entity is "melted"
 
 /*
 	Alloying
@@ -150,6 +153,9 @@ Alloy.addRecipe(metalItems.redstoneAlloy.liquid.liquids[0] * 288, [<liquid:redst
 
 //Modularium
 Alloy.addRecipe(metalItems.modularium.liquid.liquids[0] * 288, [<liquid:redstone> * 100, metalItems.iron.liquid.liquids[0] * 144, metalItems.aluminum.liquid.liquids[0] * 144]);
+
+//Invar
+Alloy.addRecipe(metalItems.invar.liquid.liquids[0] * 3, [metalItems.iron.liquid.liquids[0] * 2, metalItems.nickel.liquid.liquids[0] * 1]);
 
 /*
 	Combined stuff

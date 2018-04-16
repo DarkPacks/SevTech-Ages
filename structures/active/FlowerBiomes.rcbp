@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "biomes": "$PLAINS"
+    },
+    {
+      "biomes": "$FOREST"
+    },
+    {
+      "biomes": "$MOUNTAIN"
+    },
+    {
+      "biomes": "$HILLS"
+    },
+    {
+      "biomes": "$SWAMP"
+    },
+    {
+      "biomes": "$SAVANNA"
+    },
+    {
+      "biomes": "$JUNGLE"
+    }
+  ],
+  "metadata": {
+    "title": "Flower Biomes",
+    "description": [
+      "Flower Structure Locations"
+    ]
+  }
+}

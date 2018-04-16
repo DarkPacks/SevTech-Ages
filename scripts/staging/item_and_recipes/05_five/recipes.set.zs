@@ -35,7 +35,6 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:diamond_matchpick>,
 	<betterwithaddons:diamond_spade>,
 	<betterwithmods:material:45>,
-	<betterwithmods:material:46>,
 	<chisel:chisel_diamond>,
 	<chisel:chisel_hitech>,
 	<chiselsandbits:bitsaw_diamond>,
@@ -43,6 +42,11 @@ var itemsForStage as IIngredient[] = [
 	<extendedcrafting:table_ultimate>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
 	<jaff:diamond_fishing_rod>,
+	<minecraft:diamond_sword>,
+	<minecraft:diamond_shovel>,
+	<minecraft:diamond_hoe>,
+	<minecraft:diamond_pickaxe>,
+	<minecraft:diamond_axe>,
 	<minecraft:diamond_boots>,
 	<minecraft:diamond_chestplate>,
 	<minecraft:diamond_helmet>,
@@ -951,7 +955,6 @@ var itemsForStage as IIngredient[] = [
 	<mekanism:walkietalkie>.withTag({mekData: {channel: 1}}),
 
 	//Translocators
-	<translocators:diamond_nugget>,
 	<translocators:translocator_part:1>,
 	<translocators:translocator_part>,
 

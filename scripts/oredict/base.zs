@@ -202,6 +202,16 @@ for i in 0 to 16 {
 <ore:plankWood>.add(<thebetweenlands:weedwood_planks>);
 
 /*
+	Bark Wood
+*/
+<ore:barkWood>.add(<betterwithmods:bark:*>);
+
+/*
+	Slab Wood
+*/
+<ore:slabWood>.add(<abyssalcraft:dltslab1>);
+
+/*
 	Misc
 */
 <ore:rock>.add(<immcraft:rock>);
@@ -213,6 +223,14 @@ for i in 0 to 16 {
 //There shall be one and only one FLOUR!
 <ore:foodFlour>.remove(<betterwithmods:raw_pastry:3>);
 <ore:foodFlour>.add(<horsepower:flour>);
+
+//Add the salts so our recipe loops work correctly on load.
+<ore:foodSalt>.add(<primal:salt_dust_netjry>);
+<ore:foodSalt>.add(<primal:salt_dust_rock>);
+<ore:foodSalt>.add(<primal:salt_dust_fire>);
+<ore:foodSalt>.add(<primal:salt_dust_void>);
+<ore:foodSalt>.add(<mekanism:salt>);
+<ore:foodSalt>.add(<immersivetech:material>);
 
 <ore:thatchingMaterialBasic>.add(<primal:rush_stems>);
 
@@ -247,7 +265,6 @@ for i in 0 to 16 {
 
 <ore:ingotTamahagane>.remove(<primal:tamahagane_ingot>);
 
-<ore:nuggetDiamond>.remove(<betterwithmods:material:46>);
 <ore:nuggetSoulium>.remove(<mysticalagriculture:crafting:45>);
 <ore:nuggetInsanium>.remove(<mysticalagradditions:insanium:3>);
 
@@ -349,3 +366,7 @@ for i in 0 to 16 {
 
 //Natura Dye
 <ore:dyeBlue>.add(<natura:materials:8>);
+<ore:dyeBlue>.remove(<natura:materials:8>);
+
+//Add BWM Diamond Nugget to be removed in unification
+<ore:nuggetDiamond>.add(<betterwithmods:material:46>);

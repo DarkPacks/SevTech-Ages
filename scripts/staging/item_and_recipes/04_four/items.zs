@@ -191,7 +191,6 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:tinydryrubber>,
 	<industrialforegoing:villager_trade_exchanger>,
 	<industrialforegoing:water_condensator>,
-	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
 	//Dark Utils
@@ -759,7 +758,6 @@ var stage4Items as IIngredient[] = [
 	<buildcrafttransport:pipe_lapis_item:*>,
 	<buildcrafttransport:pipe_obsidian_item:*>,
 	<buildcrafttransport:pipe_quartz_power:*>,
-	<buildcrafttransport:pipe_sandstone_item:*>,
 	<buildcrafttransport:pipe_sandstone_power:*>,
 	<buildcrafttransport:pipe_stone_power:*>,
 	<buildcrafttransport:pipe_stripes_item:*>,

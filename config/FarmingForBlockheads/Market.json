@@ -22,5 +22,12 @@
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
     "immersiveengineering:seed": "2*minecraft:gold_ingot",
     "abyssalcraft:shoggothflesh": "24*abyssalcraft:stone:7"
+  },
+  "defaults amount": {
+    "Vanilla Seeds": 1,
+    "Natura Saplings": 1,
+    "Vanilla Saplings": 1,
+    "Bonemeal": 1,
+    "Animal Eggs": 1
   }
 }

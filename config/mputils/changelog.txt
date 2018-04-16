@@ -29,6 +29,7 @@ Bug Fixes:
 * Fixed broken compressed steel recipe for the Compressor (#1687)
 * Fixed Tartaric Forge recipes (#1341)
 * Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824, #1804)
+* Remove melting for Merchant to prevent infinite blood exploit (#1487)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

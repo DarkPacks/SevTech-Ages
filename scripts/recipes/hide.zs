@@ -135,6 +135,18 @@ static hideItems as IItemStack[] = [
 	<betterwithmods:fertilizer>,
 	<betterwithmods:material:5>,
 	<betterwithmods:material:30>,
+	<betterwithmods:siding_clay>.withTag({texture: {Name: "minecraft:clay"}}),
+	<betterwithmods:siding_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
+	<betterwithmods:siding_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:siding_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:moulding_clay>.withTag({texture: {Name: "minecraft:clay"}}),
+	<betterwithmods:moulding_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
+	<betterwithmods:moulding_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:moulding_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:corner_clay>.withTag({texture: {Name: "minecraft:clay"}}),
+	<betterwithmods:corner_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
+	<betterwithmods:corner_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:corner_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
 
 	//Natura
 	<natura:bonemeal_bag>,

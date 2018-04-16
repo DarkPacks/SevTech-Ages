@@ -505,6 +505,18 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {variant: "stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "mossy_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {variant: "mossy_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "mossy_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "cracked_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {variant: "cracked_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "cracked_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "chiseled_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {variant: "chiseled_stonebrick"}, Name: "minecraft:stonebrick"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "chiseled_stonebrick"}, Name: "minecraft:stonebrick"}}),
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,

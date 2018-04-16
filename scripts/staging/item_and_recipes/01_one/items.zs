@@ -2,7 +2,18 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.betterwithmods.MiniBlocks;
+
 var STAGE = STAGES.one;
+
+//Variables for Better with Mods miniBlock siding
+//var sidingAcacia as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
+var sidingHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:blockStainedHardenedClay>);
+var mouldingHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:blockStainedHardenedClay>);
+var cornerHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:blockStainedHardenedClay>);
+var sidingSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:sandstone>);
+var mouldingSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
+var cornerSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
 /*
 var modIDs as string[] = [
@@ -944,6 +955,27 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
+	sidingWood,
+	mouldingWood,
+	cornerWood,
+	sidingHardenedclay,
+	mouldingHardenedclay,
+	cornerHardenedclay,
+	sidingSandstone,
+	mouldingSandstone,
+	cornerSandstone,
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Name: "minecraft:brick_block"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Name: "minecraft:brick_block"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Name: "minecraft:brick_block"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Name: "minecraft:hardened_clay"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Name: "minecraft:hardened_clay"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Name: "minecraft:hardened_clay"}}),
+	<betterwithmods:siding_rock>.withTag({texture: {Properties: {blocktype: "whitestone"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:moulding_rock>.withTag({texture: {Properties: {blocktype: "whitestone"}, Name: "betterwithmods:aesthetic"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Properties: {blocktype: "whitestone"}, Name: "betterwithmods:aesthetic"}}),
 
 	//Natura
 	<natura:colored_grass:1>,

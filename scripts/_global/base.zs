@@ -42,8 +42,7 @@ global aeCores as IItemStack[string] = {
 	formation: <appliedenergistics2:material:43>
 };
 
-//Testing Better with Mods Siding, Moulding, and Corners
+//Adding globals to be used in place of oredict entries for Better with Mods Siding, Moulding, and Corners
 global sidingWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
 global mouldingWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 global cornerWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:plankWood>);
-//TODO: Add custom oreDict and IIngredient global variables for the 6 Vanilla Plank types

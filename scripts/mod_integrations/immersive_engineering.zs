@@ -109,6 +109,8 @@ Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:11>, 3000, <ore:gemLap
 ArcFurnace.addRecipe(<appliedenergistics2:quartz_glass> * 4, <ore:blockGlass> * 4, null, 200, 512,
 	[<ore:dustQuartz> * 5]
 );
+//Vanilla Glass
+ArcFurnace.addRecipe(<minecraft:glass>, <minecraft:sand>, null, 150, 256);
 
 //==============================================================
 //Add Steve's carts recipes

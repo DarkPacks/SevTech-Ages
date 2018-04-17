@@ -30,6 +30,7 @@ Bug Fixes:
 * Fixed Tartaric Forge recipes (#1341)
 * Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824, #1804)
 * Remove melting for Merchant to prevent infinite blood exploit; also gave villagers the same treatment (#1487)
+* Fixed some logs missing plank conversions (#1861)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -56,6 +57,8 @@ Enhancements:
 * Created a Modular Machine for Paperclips
 * Added a new recipe for the Creative Flight Modifier
 * Tweaked the Supremium Armor Boot recipe
+* Added glue recipe for Buffalo hide to the Cauldron (#1851)
+* Added glass recipe to the ArcFurnace (#1858)
 
 Mod Updates:
 

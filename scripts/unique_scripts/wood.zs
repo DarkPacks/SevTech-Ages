@@ -108,6 +108,16 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 	],
 	<traverse:fir_planks>: [
 		<traverse:fir_log>
+	],
+	<thebetweenlands:rubber_tree_planks>: [
+		<thebetweenlands:log_rubber>
+	],
+	<thebetweenlands:giant_root_planks>: [
+		<thebetweenlands:giant_root>
+	],
+	<integrateddynamics:menril_planks>: [
+		<integrateddynamics:menril_log>,
+		<integrateddynamics:menril_log_filled>
 	]
 };
 

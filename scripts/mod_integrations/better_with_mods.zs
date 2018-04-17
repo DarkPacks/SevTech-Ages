@@ -98,6 +98,7 @@ Cauldron.add(<betterwithmods:material:12>, null, [<minecraft:rotten_flesh>, <min
 Cauldron.add(<betterwithmods:material:12>, null, [<ore:pelt>]);
 Cauldron.add(<betterwithmods:material:12> * 2, null, [<ore:peltLarge>]);
 Cauldron.add(<betterwithmods:material:12>, null, [<animalium:wild_dog_pelt>]);
+Cauldron.add(<betterwithmods:material:12>, null, [<totemic:buffalo_items>]);
 Cauldron.remove(<betterwithmods:material:6>);
 Cauldron.remove(<rustic:tallow>);
 

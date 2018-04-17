@@ -122,6 +122,7 @@ var itemsForStage as IIngredient[] = [
 	<primal:fence:2>,
 	<primal:fence:3>,
 	<primal:fence>,
+	<primal:gate_yew>,
 	<quark:nether_brick_fence_gate>,
 	<rustic:fence_gate_ironwood>,
 	<rustic:fence_gate_olive>,

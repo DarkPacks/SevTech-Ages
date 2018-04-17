@@ -135,7 +135,7 @@ Melting.addRecipe(<liquid:glass> * 1000, <ore:blockGlass>, 493);
 Melting.addRecipe(<liquid:glass> * 1000, <ore:sand>, 493);
 
 //Remove Villager from giving emeralds or blood
-Melting.removeEntityMelting(<entity:minecraft:villager>, <liquid:water> * 0); //Setting to 0 gives nothing when the entity is "melted"
+Melting.removeEntityMelting(<entity:minecraft:villager>); //Setting to 0 gives nothing when the entity is "melted"
 
 //Stops an exploit by removing the merchants melting.
 Melting.addEntityMelting(<entity:farmingforblockheads:merchant>, <liquid:water> * 0); //Setting to 0 gives nothing when the entity is "melted"

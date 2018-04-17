@@ -369,6 +369,7 @@ var stageZeroItems as IIngredient[] = [
 	<totemic:flute:1>,
 	<totemic:flute>,
 	<totemic:jingle_dress>,
+	<totemic:nether_pipe>,
 	<totemic:rattle>,
 	<totemic:stripped_cedar_log>,
 	<totemic:sub_items:1>,
@@ -921,6 +922,10 @@ var stageZeroItems as IIngredient[] = [
 	<primal:wolf_meat_cooked>,
 	<primal:wolf_meat_dried>,
 	<primal:wolf_meat_raw>,
+	<primal:yew_aril_seedless>,
+	<primal:yew_aril>,
+	<primal:yew_seed>,
+	<primal:yew_stick>,
 
 	//Quark
 	<quark:prismarine_bricks_slab>,

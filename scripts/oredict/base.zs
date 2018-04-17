@@ -255,6 +255,7 @@ for i in 0 to 16 {
 <ore:stickWood>.add(<natura:sticks:10>);
 <ore:stickWood>.add(<natura:sticks:11>);
 <ore:stickWood>.add(<natura:sticks:12>);
+<ore:stickWood>.add(<primal:yew_stick>);
 
 <ore:table>.add(<bibliocraft:table>);
 <ore:table>.add(<bibliocraft:table:1>);

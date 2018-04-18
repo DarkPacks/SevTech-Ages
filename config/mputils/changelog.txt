@@ -61,13 +61,13 @@ Enhancements:
 * Added glass recipe to the ArcFurnace (#1858)
 
 Mod Updates:
-* Forge: TBC.
+* Forge: 14.23.3.2669
 
 * AbyssalCraft (1.9.4.7)
     * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262
 * Better With Addons (0.37)
     * Fixes another stray CME from hardcore packing. It just keeps happening.
-* Better With Mods (2.1.7)
+* Better With Mods (2.1.8)
     * Fixes NPE when Kiln has invalid heat source
     * Fixes NPE when mods add null oredict names
     * Fixes crash when placing a waterwheel in forge fluids (Oops)
@@ -120,6 +120,9 @@ Mod Updates:
     * Fixed setting spawn or sound chance to 0 causing a crash.
 * ImmersiveTech (1.3.7-SevTech-Ages)
     * Fixed Boiler crash
+* Improved Backpacks (1.2.0.0)
+    * Fixed backpacks does not have tooltips
+    * Fixed Stack Overflow Crash
 * InControl (3.8.0)
 * Industrial Foregoing (1.8.9-138)
     * Fixed Server Side Crash with the Mob Crusher
@@ -138,6 +141,12 @@ Mod Updates:
 * Modular Machinery (1.9.1)
      * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
 * Modular Routers (3.1.3)
+* Mystical Agradditions (1.2.8)
+    * Added a JEI description for Dragon Scales
+    * Fixed the Insanium Ingot harder recipe using the wrong essence
+* Mystical Agriculture (1.6.9)
+    * Fixed Superium armor not having step assist (and Prudentium armor having it instead)
+    * Fixed Prudentium armor's model being messed up
 * Ore Excavation (1.4.118)
     * Fixed shears not working under particular settings
     * Fixed ghost blocks showing up after some excavations

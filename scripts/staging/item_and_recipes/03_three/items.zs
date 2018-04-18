@@ -1328,6 +1328,7 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:3>,
 
 	//Spartan Shields
+	<spartanshields:shield_basic_constantan>,
 	<spartanshields:shield_basic_electrum>,
 	<spartanshields:shield_basic_invar>,
 	<spartanshields:shield_basic_lead>,

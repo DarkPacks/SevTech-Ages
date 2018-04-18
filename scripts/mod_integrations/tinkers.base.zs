@@ -40,6 +40,7 @@ for castCreationRecipe in castCreationRecipes {
 */
 var shieldMetals as string[] = [
 	"bronze",
+	"constantan",
 	"steel",
 	"copper",
 	"tin",

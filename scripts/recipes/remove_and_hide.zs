@@ -46,7 +46,6 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithmods:material:31>,
 	<betterwithmods:material:32>,
 	<betterwithmods:material:33>,
-	<betterwithmods:stump:*>,
 	<betterwithmods:stump_remover>,
 	<betterwithmods:wood_table:1>,
 	<betterwithmods:wood_table:2>,

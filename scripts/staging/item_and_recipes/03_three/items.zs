@@ -794,7 +794,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithmods:material:8>,
 	<betterwithmods:siding_rock>.withTag({texture: {Name: "minecraft:obsidian"}}),
 	<betterwithmods:moulding_rock>.withTag({texture: {Name: "minecraft:obsidian"}}),
-	<betterwithmods:siding_rock>.withTag({texture: {Name: "minecraft:obsidian"}}),
+	<betterwithmods:corner_rock>.withTag({texture: {Name: "minecraft:obsidian"}}),
 	<betterwithmods:siding_rock>.withTag({texture: {Name: "minecraft:nether_brick"}}),
 	<betterwithmods:moulding_rock>.withTag({texture: {Name: "minecraft:nether_brick"}}),
 	<betterwithmods:corner_rock>.withTag({texture: {Name: "minecraft:nether_brick"}}),

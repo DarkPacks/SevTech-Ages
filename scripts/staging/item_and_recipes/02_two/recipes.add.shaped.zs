@@ -9,12 +9,12 @@ import mods.betterwithmods.MiniBlocks;
 var STAGE = STAGES.two;
 
 //Variables for Better with Mods miniBlock siding
-var sidingAcacia as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
-var sidingBirch as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:2>);
-var sidingDarkoak as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:5>);
-var sidingJungle as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:3>);
-var sidingOak as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks>);
-var sidingSpruce as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:1>);
+var sidingAcacia as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
+var sidingBirch as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:2>);
+var sidingDarkoak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:5>);
+var sidingJungle as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:3>);
+var sidingOak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks>);
+var sidingSpruce as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:1>);
 
 /*
 <item> : [

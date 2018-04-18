@@ -8,12 +8,12 @@ var STAGE = STAGES.one;
 
 //Variables for Better with Mods miniBlock siding
 //var sidingAcacia as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
-var sidingHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:blockStainedHardenedClay>);
-var mouldingHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:blockStainedHardenedClay>);
-var cornerHardenedclay as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:blockStainedHardenedClay>);
-var sidingSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:sandstone>);
-var mouldingSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
-var cornerSandstone as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
+var sidingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:blockStainedHardenedClay>);
+var mouldingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:blockStainedHardenedClay>);
+var cornerHardenedclay as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:blockStainedHardenedClay>);
+var sidingSandstone as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:sandstone>);
+var mouldingSandstone as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
+var cornerSandstone as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
 /*
 var modIDs as string[] = [

@@ -100,9 +100,9 @@ Condensed.setContainer(<betterwithaddons:bolt>, <betterwithaddons:spindle>);
 //Remove
 //Removing by output also requires the ammount of the output item that is given
 Cauldron.remove([<betterwithmods:material:12>]);
-Cauldron.remove([<betterwithmods:material:12>*2]);
-Cauldron.remove([<betterwithmods:material:12>*3]);
-Cauldron.remove([<betterwithmods:material:12>*4]);
+Cauldron.remove([<betterwithmods:material:12> * 2]);
+Cauldron.remove([<betterwithmods:material:12> * 3]);
+Cauldron.remove([<betterwithmods:material:12> * 4]);
 Cauldron.remove([<betterwithmods:material:6>]);
 
 Cauldron.remove([<rustic:tallow>]);
@@ -116,7 +116,7 @@ Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
 
-Cauldron.remove([<betterwithaddons:laxative>*2]);
+//Cauldron.remove([<betterwithaddons:laxative>*2]);
 Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>], [<betterwithaddons:laxative>]);
 
 //==============================
@@ -128,7 +128,7 @@ Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Crucible/
 */
 Crucible.remove([<betterwithaddons:decomat:3>]);
-Crucible.remove([<betterwithaddons:decomat:3>*2]);
+Crucible.remove([<betterwithaddons:decomat:3> * 2]);
 Crucible.remove([<minecraft:glass>]);
 
 /*
@@ -137,24 +137,16 @@ Crucible.remove([<minecraft:glass>]);
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
 */
 
-//Removing by output sems to not be working with Saw
-//TODO: mods.betterwithmods.Saw.remove([<betterwithmods:material>*2]);
+//I can't get these to work in the array below
+Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material>, <minecraft:iron_ingot> * 2]);
+Saw.remove([<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2]);
+Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>]);
+Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>]);
+Saw.remove([<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>]);
 
 var sawRemovals as IItemStack[] = [
 	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:wood_corner>,
-	<betterwithmods:wood_corner:1>,
-	<betterwithmods:wood_corner:2>,
-	<betterwithmods:wood_corner:3>,
-	<betterwithmods:wood_corner:4>,
-	<betterwithmods:wood_corner:5>,
-
-	<betterwithmods:saw>,
-	<betterwithmods:bellows>,
-	<betterwithmods:wooden_gearbox>,
-	<betterwithmods:single_machine:2>,
-	<betterwithmods:single_machine:1>
-
+	<betterwithmods:material> * 2,
 ];
 
 // Input : [Outputs]
@@ -191,20 +183,15 @@ var sawRecipes as IItemStack[][IItemStack] = {
 	<twilightforest:magic_leaves> : [stick * 2],
 	<totemic:cedar_leaves> : [stick * 2],
 	<traverse:fir_leaves> : [stick * 2],
-
-	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:wood_corner> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:1> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:2> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:3> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:4> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:5> : [<betterwithmods:material>]
 };
 
 for item in sawRemovals {
-	//TODO: Saw.remove(item);
+	Saw.remove([item]);
 }
 
 for input in sawRecipes {
 	Saw.add(input, sawRecipes[input]);
 }
+
+//The var sawRecipes just sees cornerWood as a string... maybe because it's an IIngredient?
+Saw.add(cornerWood, [<betterwithmods:material>]);

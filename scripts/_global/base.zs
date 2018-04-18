@@ -43,6 +43,6 @@ global aeCores as IItemStack[string] = {
 };
 
 //Adding globals to be used in place of oredict entries for Better with Mods Siding, Moulding, and Corners
-global sidingWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
-global mouldingWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-global cornerWood as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("corner", <ore:plankWood>);
+global sidingWood as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
+global mouldingWood as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+global cornerWood as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:plankWood>);

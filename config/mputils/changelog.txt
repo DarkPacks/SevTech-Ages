@@ -88,11 +88,12 @@ Mod Updates:
     * Minor tweaks and fixes.
 * Cucumber (1.1.0)
     * Add guide book system POGGERS
-* Cyclic (1.14.8)
+* Cyclic (1.14.9)
     * Sleeping mat now correctly dismounts for you if you try to sleep on the saddle.
     * Emerald Carrot retextured and renamed as Infected Carrot - new recipe, same effect.
     * Fixed a small glitch where Auto Crafter fuel slot would not consuming items when fuel is at zero.
     * Added a small optimization to network traffic on player join (Thanks to darkh4x).
+    * Fixed a dupe bug with certain items that have durability.
 * Default Options (9.2.7)
     * Fixed crash on keys with colons in their names
 * EnderUtils (0.7.8)
@@ -137,8 +138,12 @@ Mod Updates:
 * Modular Machinery (1.9.1)
      * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
 * Modular Routers (3.1.3)
+* Ore Excavation (1.4.118)
+    * Fixed shears not working under particular settings
+    * Fixed ghost blocks showing up after some excavations
 * PickleTweaks (2.0.14)
     * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
+* Placebo (1.3.3)
 * Playerskin (1.0.5)
     * Fixed issue with blank loot table spamming servers
 * Power Adapters (1.0.8)
@@ -152,7 +157,7 @@ Mod Updates:
 * RebornCore (3.7.5.259)
 * Smooth Font (1.14.3)
     * Added clientSideOnly propert
-* Spartan Shields (1.3a)
+* Spartan Shields (1.4.1)
     * Minor tweaks and recipe fixes.
 * Tinkers Complement (0.2.3b)
     * Fix crash from melter without a heating source
@@ -166,7 +171,7 @@ Mod Updates:
     * New Desert Shrubland biome
     * Fences and fence gates now have ore dict names
     * Chickens now spawn in Crag Cliffs instead of pigs
-* Triumph
+* Triumph (1.11.1)
 * Trumpet Skeleton (1.0.2.1)
     * Fixed issue causing crash on dedicated server.
     * Added parrot imitation sounds for Trumpet Skeletons.

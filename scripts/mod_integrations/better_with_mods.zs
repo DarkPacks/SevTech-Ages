@@ -115,8 +115,7 @@ Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
-
-//Cauldron.remove([<betterwithaddons:laxative>*2]);
+//Cauldron.remove([<betterwithaddons:laxative> * 2]);
 Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>], [<betterwithaddons:laxative>]);
 
 //==============================

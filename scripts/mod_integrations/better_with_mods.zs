@@ -45,16 +45,6 @@ Mill.addRecipe([<minecraft:coal_block>], [<minecraft:coal> * 9]);
 
 Mill.addRecipe([<minecraft:cobblestone>], [<tconstruct:stone_stick> * 1]);
 
-//TODO: Move to dyes unique script
-Mill.addRecipe([<minecraft:dye:1>], [<pickletweaks:dye_powder:14> * 2]);
-Mill.addRecipe([<minecraft:dye:15>], [<pickletweaks:dye_powder> * 2]);
-Mill.addRecipe([<minecraft:dye:2>], [<pickletweaks:dye_powder:13> * 2]);
-Mill.addRecipe([<minecraft:dye>], [<pickletweaks:dye_powder:15> * 2]);
-Mill.addRecipe([<minecraft:dye:3>], [<pickletweaks:dye_powder:12> * 2]);
-Mill.addRecipe([<minecraft:dye:4>], [<pickletweaks:dye_powder:11> * 2]);
-Mill.addRecipe([<rustic:wildberries>], [<pickletweaks:dye_powder:14> * 2]);
-Mill.addRecipe([<actuallyadditions:block_black_lotus>], [<pickletweaks:dye_powder:15> * 2]);
-
 Mill.addRecipe([<astralsorcery:itemcraftingcomponent:1>], [<astralsorcery:itemcraftingcomponent:2>]);
 
 Mill.addRecipe([<minecraft:quartz>], [<actuallyadditions:item_dust:5>]);

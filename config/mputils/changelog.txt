@@ -108,6 +108,10 @@ Mod Updates:
     * Fixed the arrow in the Quantum Compressor GUI not rendering properly for recipes with large power requirements
     * Fixed the Quantum Compressor ejecting ItemStacks with larger than max stack sizes
     * Fixed the Quantum Compressor overwriting NBT tags
+* ExtraPlanets (0.3.3)
+    * Fixed a few Server/Client packet handling issues
+    * Fixed player spawning in liquid when re-spawning after death
+    * Fixed NullPointerException
 * Farming for Blockheads (3.1.12)
     * Change the feeding trough range to five blocks
     * Fix the feeding trough prioritizing certain animals over others, it should be more natural now

@@ -1,3 +1,4 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.betterwithaddons.Condensed;
@@ -135,21 +136,19 @@ Crucible.remove([<minecraft:glass>]);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
 */
-
-//I can't get these to work in the array below
-Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material>, <minecraft:iron_ingot> * 2]);
-Saw.remove([<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2]);
-Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>]);
-Saw.remove([<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>]);
-Saw.remove([<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>]);
-
-var sawRemovals as IItemStack[] = [
+var sawRemovals as IItemStack[][] = [
 	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:material> * 2,
+	[<betterwithmods:material> * 2],
+
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material>, <minecraft:iron_ingot> * 2],
+	[<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2],
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>],
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>],
+	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>]
 ];
 
 // Input : [Outputs]
-var sawRecipes as IItemStack[][IItemStack] = {
+var sawRecipes as IItemStack[][IIngredient] = {
 	<minecraft:leaves> : [stick * 2],
 	<minecraft:leaves:1> : [stick * 2],
 	<minecraft:leaves:2> : [stick * 2],
@@ -181,16 +180,16 @@ var sawRecipes as IItemStack[][IItemStack] = {
 	<twilightforest:twilight_leaves:3> : [stick * 2],
 	<twilightforest:magic_leaves> : [stick * 2],
 	<totemic:cedar_leaves> : [stick * 2],
-	<traverse:fir_leaves> : [stick * 2],
+	<traverse:fir_leaves> : [stick * 2]
 };
 
-for item in sawRemovals {
-	Saw.remove([item]);
+//Add variable inputs into saw recipes map
+sawRecipes[cornerWood] = [<betterwithmods:material>];
+
+for outputs in sawRemovals {
+	Saw.remove(outputs);
 }
 
 for input in sawRecipes {
 	Saw.add(input, sawRecipes[input]);
 }
-
-//The var sawRecipes just sees cornerWood as a string... maybe because it's an IIngredient?
-Saw.add(cornerWood, [<betterwithmods:material>]);

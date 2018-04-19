@@ -226,7 +226,6 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:tinydryrubber>,
 	<industrialforegoing:villager_trade_exchanger>,
 	<industrialforegoing:water_condensator>,
-	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
 	//Cyclic

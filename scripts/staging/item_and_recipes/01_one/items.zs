@@ -215,6 +215,7 @@ var stage1Items as IIngredient[] = [
 	<primal:fence:2>,
 	<primal:fence:3>,
 	<primal:fence>,
+	<primal:gate_yew>,
 	<quark:nether_brick_fence_gate>,
 	<rustic:fence_gate_ironwood>,
 	<rustic:fence_gate_olive>,
@@ -467,6 +468,7 @@ var stage1Items as IIngredient[] = [
 	<abyssalcraft:abyore>,
 	<abyssalcraft:abyportal>,
 	<abyssalcraft:abyslab2>,
+	<abyssalcraft:calcifiedstone>,
 	<abyssalcraft:cchunk>,
 	<abyssalcraft:ccluster2>,
 	<abyssalcraft:ccluster3>,
@@ -700,6 +702,18 @@ var stage1Items as IIngredient[] = [
 	<tconstruct:slime_channel:3>,
 	<tconstruct:slime_congealed:3>,
 	<tconstruct:slime_dirt>,
+
+	//PickleTweaks
+	<pickletweaks:bronze_axe>,
+	<pickletweaks:bronze_hoe>,
+	<pickletweaks:bronze_pickaxe>,
+	<pickletweaks:bronze_shovel>,
+	<pickletweaks:bronze_sword>,
+	<pickletweaks:copper_axe>,
+	<pickletweaks:copper_hoe>,
+	<pickletweaks:copper_pickaxe>,
+	<pickletweaks:copper_shovel>,
+	<pickletweaks:copper_sword>,
 
 	//Primal Core
 	<primal:drain_carbonate_flag>,

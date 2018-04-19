@@ -75,6 +75,7 @@ static removeAndHideItems as IItemStack[] = [
 	<immcraft:furnace>,
 	<immcraft:manual>,
 	<immcraft:saw>,
+	<improvedbackpacks:ender_backpack>, // We have the ender pouch and this has no def recipe, darkoLUL
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}), //TODO: Add back when IronBackpacks adds upgrade functionality

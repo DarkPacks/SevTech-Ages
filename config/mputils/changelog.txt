@@ -30,6 +30,7 @@ Bug Fixes:
 * Fixed Tartaric Forge recipes (#1341)
 * Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824, #1804)
 * Remove melting for Merchant to prevent infinite blood exploit; also gave villagers the same treatment (#1487)
+* Fixed some logs missing plank conversions (#1861)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -56,52 +57,140 @@ Enhancements:
 * Created a Modular Machine for Paperclips
 * Added a new recipe for the Creative Flight Modifier
 * Tweaked the Supremium Armor Boot recipe
+* Added glue recipe for Buffalo hide to the Cauldron (#1851)
+* Added glass recipe to the ArcFurnace (#1858)
 
 Mod Updates:
+* Forge: 14.23.3.2669
 
-NOTE FOR DARK: BWA has new stuff so it needs checking out! (Also remove me on release darkoLUL)
-
+* AbyssalCraft (1.9.4.7)
+    * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262
 * Better With Addons (0.37)
     * Fixes another stray CME from hardcore packing. It just keeps happening.
+* Better With Mods (2.1.8)
+    * Fixes NPE when Kiln has invalid heat source
+    * Fixes NPE when mods add null oredict names
+    * Fixes crash when placing a waterwheel in forge fluids (Oops)
+* Betweenlands (3.3.7)
+    * Workaround for Intel graphics driver crash
+    * Fixed some block models causing crash when non-forge lighting pipeline is used
+    * Fixed double tall underwater plant stalks not breaking when flower is broken
+    * Fixed Mortars not saving their rotation
+    * Fixed changing translation causing crash when opening Herblore book
 * Blood Magic (2.2.8-91)
     * Fixed a client side null-pointer exception with the Blood Lamp
         * It's a bright idea to fix this as soon as I can.
     * Fixed a server crash when handling dye recipes
     * Fixed a crash when trying to use unbound toggle-able sigils in the Sigil of Holding
-* Immersive Tech ()
-    * Waiting for CF upload but we need this update!
-
-* Betweenlands ()
-* Bookshelf
-* Caliper
-* Default Options
-* Farming for Blockheads
-* Foamfix
-* InControl
-* Just a Raft
-* Smooth Font
-* Mantle (1.12-1.3.2.24)
-* Industrial Foregoing
-* Modular Machinery
-* Playerskin
-* Power Adapters
-* Prestige
-* PrimalCore
-* Quantum Storage
-* RebornCore
-* ImmersiveTech
-* Cucumber
-* Extended Crafting
-* Hunting Dimension
-* Triumph
-* Modular Routers
-* AbyssalCraft
-* Totemic
-* Cyclic
-
-
-
-
+* Bookshelf (2.3.543)
+* Caliper (1.1.35)
+* Ceramics (1.3.4)
+    * Minor tweaks and fixes.
+* Cucumber (1.1.0)
+    * Add guide book system POGGERS
+* Cyclic (1.14.9)
+    * Sleeping mat now correctly dismounts for you if you try to sleep on the saddle.
+    * Emerald Carrot retextured and renamed as Infected Carrot - new recipe, same effect.
+    * Fixed a small glitch where Auto Crafter fuel slot would not consuming items when fuel is at zero.
+    * Added a small optimization to network traffic on player join (Thanks to darkh4x).
+    * Fixed a dupe bug with certain items that have durability.
+* Default Options (9.2.7)
+    * Fixed crash on keys with colons in their names
+* EnderUtils (0.7.8)
+    * Add a Pet Contract item, which allows changing the ownership of tameable mobs
+    * Add camouflage ability to the Barrel
+    * Add Portal type Link Crystals, allowing Portals to be "paired"
+    * Fix/improve some Drawbridge retraction/extension logic issues (which blocks get taken/placed in which situations)
+    * Fix camouflage model overlays on items (elevators)
+    * Fix some items always eating the keybinds even when they don't have any
+    * Update some registrations to new Forge events (now requires Forge 2571+)
+* Extended Crafting (1.3.1)
+    * Fixed the arrow in the Quantum Compressor GUI not rendering properly for recipes with large power requirements
+    * Fixed the Quantum Compressor ejecting ItemStacks with larger than max stack sizes
+    * Fixed the Quantum Compressor overwriting NBT tags
+* ExtraPlanets (0.3.3)
+    * Fixed a few Server/Client packet handling issues
+    * Fixed player spawning in liquid when re-spawning after death
+    * Fixed NullPointerException
+* Farming for Blockheads (3.1.12)
+    * Change the feeding trough range to five blocks
+    * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
+    * Fix merchant falling sound not playing for other players in multiplayer
+* Foamfix (0.9.7)
+    * Fix invalid Forge dependency
+    * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
+* Hunting Dimension (1.0.24)
+    * Added a cache system for frame variants. Also removed non full blocks from the candidate list.
+    * Fixed setting spawn or sound chance to 0 causing a crash.
+* ImmersiveTech (1.3.7-SevTech-Ages)
+    * Fixed Boiler crash
+* Improved Backpacks (1.2.0.0)
+    * Fixed backpacks does not have tooltips
+    * Fixed Stack Overflow Crash
+* InControl (3.8.0)
+* Industrial Foregoing (1.8.9-138)
+    * Fixed Server Side Crash with the Mob Crusher
+    * Fixed Fluid Dictionary Converted working when no fluid was selected
+* Integrated Dynamics (0.11.10)
+    * Fix Refined Storage autocrafting writer aspects not working
+    * Fix Mechanical Squeezer crafttweaker crash
+    * Fix networks with no active elements not being properly reloaded
+    * Fix formatting typo in value types book section
+* Just a Raft (1.1.2)
+    * Should fix a really rare crash where it gets an integer where it should get a float.
+* Mantle (1.3.2.24)
+    * Fix Heart rendering with >120 hearts. It'll loop correctly now. However if you actually had more than 120 hearts, you should take a break and reconsider your life choices.
+    * Fix book crashing when trying to render a missing item (at least in some instances)
+    * Make getSubBlocks also available serverside (pre 1.12 leftover)
+* Modular Machinery (1.9.1)
+     * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
+* Modular Routers (3.1.3)
+* Mystical Agradditions (1.2.8)
+    * Added a JEI description for Dragon Scales
+    * Fixed the Insanium Ingot harder recipe using the wrong essence
+* Mystical Agriculture (1.6.9)
+    * Fixed Superium armor not having step assist (and Prudentium armor having it instead)
+    * Fixed Prudentium armor's model being messed up
+* Ore Excavation (1.4.118)
+    * Fixed shears not working under particular settings
+    * Fixed ghost blocks showing up after some excavations
+* PickleTweaks (2.0.14)
+    * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
+* Placebo (1.3.3)
+* Playerskin (1.0.5)
+    * Fixed issue with blank loot table spamming servers
+* Power Adapters (1.0.8)
+    * Fixed power input and output being wrong
+* Prestige (1.0.15)
+* PrimalCore (0.6.46)
+    * Charcoal Stacks now have a slight variation in the output grade
+    * Fixes for various plants and certain primal blocks not getting along during WorldGen
+* Quantum Storage (4.4.11)
+    * Fixed z-fighting on new crate model.
+* RebornCore (3.7.5.259)
+* Smooth Font (1.14.3)
+    * Added clientSideOnly propert
+* Spartan Shields (1.4.1)
+    * Minor tweaks and recipe fixes.
+* Tinkers Complement (0.2.3b)
+    * Fix crash from melter without a heating source
+    * If the melter previously held solid fuel, that is now cleaned upon switching to liquid fuel
+    * Tweaked manyullyn armor to be more tough and provide less defense
+    * Fix missing repair material for manyullyn armor
+    * Fix temperature in the melter GUI not matching JEI
+* Totemic (0.11.0) @DARKOSTO! NEEDS TESTING AS STUFF CHANGED!
+* Traverse (1.4.1-49)
+    * Fixed a crash issue
+    * New Desert Shrubland biome
+    * Fences and fence gates now have ore dict names
+    * Chickens now spawn in Crag Cliffs instead of pigs
+* Triumph (1.11.1)
+* Trumpet Skeleton (1.0.2.1)
+    * Fixed issue causing crash on dedicated server.
+    * Added parrot imitation sounds for Trumpet Skeletons.
+* Tumbleweeds (0.4.5)
+    * Mod items now work in configuration
+    * Tumbleweeds now always travel north-west
 
 ---------------------------------------------------------------------
 

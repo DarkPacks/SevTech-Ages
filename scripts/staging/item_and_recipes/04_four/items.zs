@@ -148,6 +148,7 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:fertilizer>,
 	<industrialforegoing:fluid_crafter>,
 	<industrialforegoing:fluid_pump>,
+	<industrialforegoing:fluiddictionary_converter>,
 	<industrialforegoing:fluid_transfer_addon_pull>,
 	<industrialforegoing:fluid_transfer_addon_push>,
 	<industrialforegoing:hydrator>,
@@ -191,6 +192,7 @@ var stage4Items as IIngredient[] = [
 	<industrialforegoing:tinydryrubber>,
 	<industrialforegoing:villager_trade_exchanger>,
 	<industrialforegoing:water_condensator>,
+	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
 	//Dark Utils
@@ -234,6 +236,10 @@ var stage4Items as IIngredient[] = [
 	<extendedcrafting:table_elite>,
 
 	//Tinkers
+	<tcomplement:knightslime_boots>,
+	<tcomplement:knightslime_chestplate>,
+	<tcomplement:knightslime_helmet>,
+	<tcomplement:knightslime_leggings>,
 	<tcomplement:manyullyn_boots>,
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
@@ -1064,6 +1070,7 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:inserter:1>,
 	<enderutilities:inserter>,
 	<enderutilities:inventoryswapper>,
+	<enderutilities:linkcrystal:2>,
 	<enderutilities:linkcrystal:1>,
 	<enderutilities:linkcrystal>,
 	<enderutilities:livingmanipulator>,
@@ -1077,6 +1084,7 @@ var stage4Items as IIngredient[] = [
 	<enderutilities:msu:1>,
 	<enderutilities:msu>,
 	<enderutilities:nullifier>,
+	<enderutilities:pet_contract>,
 	<enderutilities:phasing:1>,
 	<enderutilities:phasing>,
 	<enderutilities:pickupmanager>,

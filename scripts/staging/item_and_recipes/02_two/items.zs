@@ -340,6 +340,7 @@ var stage2Items as IIngredient[] = [
 	<extraplanets:apple_iron>,
 
 	//Extended Crafting
+	<extendedcrafting:guide>,
 	<extendedcrafting:material:8>,
 	<extendedcrafting:material:14>,
 	<extendedcrafting:table_basic>,
@@ -393,6 +394,7 @@ var stage2Items as IIngredient[] = [
 	<primal:schist_green_stone:7>,
 	<primal:scoria_stone:7>,
 	<primal:soul_stone:7>,
+	<primal:yew_bow>,
 
 	//Betweenlands
 	<thebetweenlands:aspectrus_fruit>,

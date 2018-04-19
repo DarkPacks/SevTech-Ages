@@ -101,6 +101,7 @@ Cauldron.addUnstoked([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minec
 Cauldron.addUnstoked([<ore:pelt>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
+Cauldron.addUnstoked([<totemic:buffalo_items>], [<betterwithmods:material:12> * 2]);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
 //Cauldron.remove([<betterwithaddons:laxative> * 2]);

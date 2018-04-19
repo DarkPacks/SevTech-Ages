@@ -31,8 +31,6 @@ static hideIngredients as IIngredient[] = [
 	<cookingforblockheads:milk_jar>,
 	<cyclicmagic:block_miner>,
 	<cyclicmagic:block_miner_smart>,
-	<cyclicmagic:builder_block>,
-	<cyclicmagic:crafting_food>,
 	<cyclicmagic:sack_ender>,
 	<cyclicmagic:storage_bag>,
 	<cyclicmagic:uncrafting_block>,

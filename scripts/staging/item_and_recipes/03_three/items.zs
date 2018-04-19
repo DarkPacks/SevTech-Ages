@@ -1194,6 +1194,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:ender_water>,
 	<cyclicmagic:entity_detector>,
 	<cyclicmagic:evoker_fang>,
+	<cyclicmagic:fire_dark_anim>,
 	<cyclicmagic:fire_dark>,
 	<cyclicmagic:fire_killer>,
 	<cyclicmagic:gold_furnace_minecart>,
@@ -1337,6 +1338,7 @@ var stage3Items as IIngredient[] = [
 	<abyssalcraft:yogsothothcharm:3>,
 
 	//Spartan Shields
+	<spartanshields:shield_basic_constantan>,
 	<spartanshields:shield_basic_electrum>,
 	<spartanshields:shield_basic_invar>,
 	<spartanshields:shield_basic_lead>,
@@ -1440,6 +1442,7 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:demon_brick_1:*>,
 	<bloodmagic:demon_brick_2:*>,
 	<bloodmagic:demon_crucible>,
+	<bloodmagic:demon_crystal:*>,
 	<bloodmagic:demon_crystallizer>,
 	<bloodmagic:demon_extras:*>,
 	<bloodmagic:demon_light:*>,
@@ -1448,6 +1451,7 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:demon_pillar_cap_1:*>,
 	<bloodmagic:demon_pillar_cap_2:*>,
 	<bloodmagic:demon_pillar_cap_3:*>,
+	<bloodmagic:demon_pylon>,
 	<bloodmagic:demon_stairs_1:*>,
 	<bloodmagic:demon_stairs_2:*>,
 	<bloodmagic:demon_stairs_3:*>,

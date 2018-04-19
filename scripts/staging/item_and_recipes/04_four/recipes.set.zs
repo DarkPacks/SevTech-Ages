@@ -181,6 +181,7 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:energy_field_addon>,
 	<industrialforegoing:energy_field_provider>,
 	<industrialforegoing:fertilizer>,
+	<industrialforegoing:fluiddictionary_converter>,
 	<industrialforegoing:fluid_transfer_addon_pull>,
 	<industrialforegoing:fluid_transfer_addon_push>,
 	<industrialforegoing:hydrator>,
@@ -225,6 +226,7 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:tinydryrubber>,
 	<industrialforegoing:villager_trade_exchanger>,
 	<industrialforegoing:water_condensator>,
+	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
 	//Cyclic
@@ -644,6 +646,7 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:inserter:1>,
 	<enderutilities:inserter>,
 	<enderutilities:inventoryswapper>,
+	<enderutilities:linkcrystal:2>,
 	<enderutilities:linkcrystal:1>,
 	<enderutilities:linkcrystal>,
 	<enderutilities:livingmanipulator>,
@@ -657,6 +660,7 @@ var itemsForStage as IIngredient[] = [
 	<enderutilities:msu:1>,
 	<enderutilities:msu>,
 	<enderutilities:nullifier>,
+	<enderutilities:pet_contract>,
 	<enderutilities:phasing:1>,
 	<enderutilities:phasing>,
 	<enderutilities:pickupmanager>,

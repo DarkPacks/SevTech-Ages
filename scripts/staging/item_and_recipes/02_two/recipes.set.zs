@@ -528,7 +528,10 @@ var itemsForStage as IIngredient[] = [
 	<farmingforblockheads:feeding_trough>,
 	<farmingforblockheads:fertilizer:1>,
 	<farmingforblockheads:fertilizer:2>,
-	<farmingforblockheads:fertilizer>
+	<farmingforblockheads:fertilizer>,
+
+	// Primal
+	<primal:yew_bow>
 ];
 
 for item in itemsForStage {

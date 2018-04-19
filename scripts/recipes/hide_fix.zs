@@ -6,7 +6,7 @@
 	Staged items will be "un hidden" when the item's set stage is obtained by the player.
 	Removing the stages stops this behavior.
 */
-for item in scripts.recipes.hide.hideItems {
+for item in scripts.recipes.hide.hideIngredients {
 	mods.ItemStages.removeItemStage(item);
 }
 

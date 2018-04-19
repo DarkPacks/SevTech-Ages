@@ -7,6 +7,7 @@ import mods.betterwithaddons.Spindle;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Crucible;
 import mods.betterwithmods.Mill;
+import mods.betterwithmods.MiniBlocks;
 import mods.betterwithmods.Saw;
 import mods.betterwithmods.Turntable;
 
@@ -178,4 +179,30 @@ for outputs in sawRemovals {
 
 for input in sawRecipes {
 	Saw.add(input, sawRecipes[input]);
+}
+
+/*
+	Utils
+*/
+function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
+	var allMiniBlocks as IIngredient = null;
+	var miniBlockTypes as string[] = [
+		"corner",
+		"moulding",
+		"siding"
+	];
+
+	for miniBlockType in miniBlockTypes {
+		var miniBlock as IIngredient = MiniBlocks.getMiniBlock(miniBlockType, item);
+
+		if (!isNull(miniBlock)) {
+			if (isNull(allMiniBlocks)) {
+				allMiniBlocks = miniBlock;
+			} else {
+				allMiniBlocks |= miniBlock;
+			}
+		}
+	}
+
+	return allMiniBlocks;
 }

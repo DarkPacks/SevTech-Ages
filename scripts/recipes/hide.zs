@@ -1,7 +1,7 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 //Must be item not oreDict
-static hideItems as IItemStack[] = [
+static hideIngredients as IIngredient[] = [
 	//Hidden for later
 	<extraplanets:block_multi>,
 	<progressiontweaks:machine_frame>,
@@ -135,18 +135,10 @@ static hideItems as IItemStack[] = [
 	<betterwithmods:fertilizer>,
 	<betterwithmods:material:5>,
 	<betterwithmods:material:30>,
-	<betterwithmods:siding_clay>.withTag({texture: {Name: "minecraft:clay"}}),
-	<betterwithmods:siding_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
-	<betterwithmods:siding_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
-	<betterwithmods:siding_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
-	<betterwithmods:moulding_clay>.withTag({texture: {Name: "minecraft:clay"}}),
-	<betterwithmods:moulding_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
-	<betterwithmods:moulding_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
-	<betterwithmods:moulding_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
-	<betterwithmods:corner_clay>.withTag({texture: {Name: "minecraft:clay"}}),
-	<betterwithmods:corner_clay>.withTag({texture: {Name: "betterwithmods:nether_clay"}}),
-	<betterwithmods:corner_ground>.withTag({texture: {Properties: {blocktype: "soap"}, Name: "betterwithmods:aesthetic"}}),
-	<betterwithmods:corner_ground>.withTag({texture: {Properties: {blocktype: "dung"}, Name: "betterwithmods:aesthetic"}}),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:10>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:11>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:nether_clay>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:clay>),
 
 	//Natura
 	<natura:bonemeal_bag>,
@@ -528,6 +520,8 @@ static hideItems as IItemStack[] = [
 	<pickletweaks:ppm4>
 ];
 
-for item in hideItems {
-	mods.jei.JEI.hide(item);
+for ingredient in hideIngredients {
+	for item in ingredient.items {
+		mods.jei.JEI.hide(item);
+	}
 }

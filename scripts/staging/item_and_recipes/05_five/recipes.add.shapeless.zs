@@ -28,14 +28,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	    [
 			<mekanism:machineblock2:11>.withTag({tier: 4})
 		]
-	],
-
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:paperclip_factory"}): [
-	    [
-			<minecraft:paper>, <pickletweaks:ppm4:2>
-		]
-	],
-
+	]
 };
 
 for item, recipesForItem in shapelessRecipes {

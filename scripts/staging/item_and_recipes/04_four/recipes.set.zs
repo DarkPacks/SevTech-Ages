@@ -109,7 +109,6 @@ var itemsForStage as IIngredient[] = [
 	<mob_grinding_utils:fan_upgrade:1>,
 	<mob_grinding_utils:fan_upgrade:2>,
 	<mob_grinding_utils:fan_upgrade>,
-	<mob_grinding_utils:saw>,
 	<mob_grinding_utils:saw_upgrade:1>,
 	<mob_grinding_utils:saw_upgrade:2>,
 	<mob_grinding_utils:saw_upgrade:3>,
@@ -226,7 +225,6 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:tinydryrubber>,
 	<industrialforegoing:villager_trade_exchanger>,
 	<industrialforegoing:water_condensator>,
-	<industrialforegoing:water_resources_collector>,
 	<industrialforegoing:wither_builder>,
 
 	//Cyclic

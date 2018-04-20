@@ -1,4 +1,13 @@
 {
-  "itemBlacklist": [],
+  "itemBlacklist": [
+    {
+      "item": "improvedbackpacks:backpack",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:purple_shulker_box",
+      "meta": 0
+    }
+  ],
   "nbtBlacklist": []
 }

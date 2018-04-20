@@ -13,6 +13,7 @@ var modIDs as string[] = [
 	"rftools",
 	"rftoolscontrol",
 	"scannable"
+
 ];
 
 for id in modIDs {

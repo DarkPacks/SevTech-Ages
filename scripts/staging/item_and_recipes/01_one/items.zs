@@ -930,7 +930,6 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:unfired_pottery:3>,
 	<betterwithmods:unfired_pottery>,
 	<betterwithmods:vase:*>,
-	<betterwithmods:wicker>,
 	<betterwithmods:wood_bench:1>,
 	<betterwithmods:wood_bench:2>,
 	<betterwithmods:wood_bench:3>,

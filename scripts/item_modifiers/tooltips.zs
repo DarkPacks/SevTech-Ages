@@ -130,7 +130,7 @@ var prospectingRodRange as int = 48;
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("Needs a Crafting Rock"));
 <primal_tech:work_stump_upgraded>.addTooltip(format.red("to craft recipes"));
 
-<primal:flint_hatchet:*>.addTooltip(format.yellow("Can not be repaired"));
+<primal:flint_hatchet:*>.addTooltip(format.red("Can not be repaired"));
 
 <teslacorelib:energy_tier1>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));
 <teslacorelib:energy_tier2>.addTooltip(format.yellow("Upgrade for Industrial Foregoing Machines"));

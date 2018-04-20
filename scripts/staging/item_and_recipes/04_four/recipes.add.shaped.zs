@@ -1316,14 +1316,23 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Integrated Dynamics
 	<integrateddynamics:mechanical_squeezer>: [
 		[
 			[null, <appliedenergistics2:nether_quartz_pickaxe>, null],
 			[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>],
 			[null, <minecraft:obsidian>, null]
 		]
+	],
+
+	//Mob Grinding Utils
+	<mob_grinding_utils:saw>: [
+		[
+			[<minecraft:iron_sword>, <appliedenergistics2:material>, <minecraft:iron_sword>],
+			[<mob_grinding_utils:spikes>, <minecraft:redstone_block>, <mob_grinding_utils:spikes>],
+			[<appliedenergistics2:material>, metals.iron.block, <appliedenergistics2:material>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

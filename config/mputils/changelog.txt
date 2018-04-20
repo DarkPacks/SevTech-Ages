@@ -25,12 +25,16 @@ Bug Fixes:
 * Better With Mods Leather Straps now have a recipe (#1736)
 * Fixed incorrect advancement name for Compressor in stage 4
 * Disable Quark's hotbar swap feature to prevent carry-on bugs (#1623)
-* Removed the Astral Sorcery marble slap recipe/block from JEI until it's completed in the mod itself (#1608)
+* Removed the Astral Sorcery marble slab recipe/block from JEI until it's completed in the mod itself (#1608)
 * Fixed broken compressed steel recipe for the Compressor (#1687)
 * Fixed Tartaric Forge recipes (#1341)
 * Added more tiles to Carry On blacklisting (#1590, #1610, #1630, #1770, #1824, #1804)
 * Remove melting for Merchant to prevent infinite blood exploit; also gave villagers the same treatment (#1487)
 * Fixed some logs missing plank conversions (#1861)
+* Removed Diamond creation from the Pneumaticraft Pressure Chamber (not supposed to be available in this manner)
+* Fixed the Mob Grinding Utils Saw to not require a diamond
+* Fixed the Wicker in the Compost recipe to not require stage one
+* Removed Carry-on allowing the pickup of Improved Backpacks
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -59,6 +63,11 @@ Enhancements:
 * Tweaked the Supremium Armor Boot recipe
 * Added glue recipe for Buffalo hide to the Cauldron (#1851)
 * Added glass recipe to the ArcFurnace (#1858)
+* Added all Geolosys ore to the Scannable Config in the proper category (rare & common)
+* Increased range of Rock Crystal vein spawning to y18 from y11
+* Removed the Scannable Structure Card. It was not picking up any structures and is a useless item
+* Added Improved Backpacks and Shulker Boxes to the Iron Backpacks Blacklist so you cannot nest backpacks
+
 
 Mod Updates:
 * Forge: 14.23.3.2669
@@ -124,9 +133,19 @@ Mod Updates:
     * Fixed setting spawn or sound chance to 0 causing a crash.
 * ImmersiveTech (1.3.7-SevTech-Ages)
     * Fixed Boiler crash
-* Improved Backpacks (1.2.0.0)
+
+
+* Improved Backpacks (1.2.0.1)
     * Fixed backpacks does not have tooltips
     * Fixed Stack Overflow Crash
+
+    * ADD REMAINING FIXES FROM CHANGELOG
+
+
+
+
+
+
 * InControl (3.8.0)
 * Industrial Foregoing (1.8.9-138)
     * Fixed Server Side Crash with the Mob Crusher
@@ -178,7 +197,7 @@ Mod Updates:
     * Tweaked manyullyn armor to be more tough and provide less defense
     * Fix missing repair material for manyullyn armor
     * Fix temperature in the melter GUI not matching JEI
-* Totemic (0.11.0) @DARKOSTO! NEEDS TESTING AS STUFF CHANGED!
+* Totemic (0.11.0)
 * Traverse (1.4.1-49)
     * Fixed a crash issue
     * New Desert Shrubland biome

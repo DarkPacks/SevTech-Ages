@@ -1053,6 +1053,7 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:tasty_sandwich>,
 	<betterwithmods:vine_trap>,
 	<betterwithmods:wolf_chop>,
+	<betterwithmods:wicker>,
 
 	<mekanism:salt>
 ];

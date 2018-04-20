@@ -73,7 +73,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:beacon>,
 	<minecraft:brewing_stand>,
 	<minecraft:dispenser>,
-	<minecraft:enchanting_table>,
 	<minecraft:glowstone>,
 	<minecraft:glowstone_dust>,
 	<minecraft:noteblock>,

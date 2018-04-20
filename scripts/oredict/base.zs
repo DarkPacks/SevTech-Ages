@@ -371,3 +371,7 @@ for i in 0 to 16 {
 
 //Add BWM Diamond Nugget to be removed in unification
 <ore:nuggetDiamond>.add(<betterwithmods:material:46>);
+
+//Add OreDict to Geolosys Beryl and Rock Crystal to allow input in Scannable Config
+<ore:oreGeolosysBeryl>.add(<geolosys:ore_vanilla:6>);
+<ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);

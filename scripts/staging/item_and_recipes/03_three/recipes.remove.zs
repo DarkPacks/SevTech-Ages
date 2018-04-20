@@ -16,6 +16,7 @@ var removeItems as IItemStack[] = [
 	<minecraft:golden_rail>,
 	<minecraft:jukebox>,
 	<minecraft:rail>,
+	<minecraft:enchanting_table>,
 
 	//Actually Additions
 	<actuallyadditions:item_food:8>,

@@ -214,7 +214,9 @@ var removeItems as IItemStack[] = [
 	<extraplanets:tier1_un_prepared_space_suit_boots>,
 	<extraplanets:tier1_un_prepared_space_suit_chest>,
 	<extraplanets:tier1_un_prepared_space_suit_helmet>,
-	<extraplanets:tier1_un_prepared_space_suit_legings>
+	<extraplanets:tier1_un_prepared_space_suit_legings>,
+
+	<mob_grinding_utils:saw>
 ];
 
 for item in removeItems {

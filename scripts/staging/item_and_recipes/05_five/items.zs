@@ -2068,10 +2068,7 @@ var soulstoneItems as IIngredient[] = [
 	<mysticalagriculture:soulstone_brick_slab>,
 	<mysticalagriculture:soulstone_brick_stairs>,
 	<mysticalagriculture:soulstone_brick_wall>,
-	<mysticalagriculture:soulstone_slab>,
-
-	//Modular Machinery
-	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:paperclip_factory"})
+	<mysticalagriculture:soulstone_slab>
 ];
 
 for item in soulstoneItems {

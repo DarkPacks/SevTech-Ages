@@ -507,6 +507,10 @@ var stage2Items as IIngredient[] = [
 	<betterwithmods:stone_moulding:1>,
 	<betterwithmods:stone_siding:1>,
 	<betterwithmods:unfired_pottery:4>,
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:1>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:2>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:3>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick>),
 
 	//Storage Drawers
 	<storagedrawers:customdrawers:1>,

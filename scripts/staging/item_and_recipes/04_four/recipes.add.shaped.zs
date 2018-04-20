@@ -752,9 +752,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<indlog:buffer:1> : [
 		[
-			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>],
+			[sidingWood, <minecraft:iron_bars>, sidingWood],
 			[<minecraft:iron_bars>, <minecraft:chest>, <minecraft:iron_bars>],
-			[<ore:sidingWood>, <minecraft:iron_bars>, <ore:sidingWood>]
+			[sidingWood, <minecraft:iron_bars>, sidingWood]
 		]
 	],
 	<indlog:buffer:5> : [

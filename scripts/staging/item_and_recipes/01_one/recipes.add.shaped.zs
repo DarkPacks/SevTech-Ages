@@ -139,7 +139,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[null, <primal_tech:flint_edged_disc>, null], [metals.copper.gear, <betterwithmods:material:9>, metals.copper.gear], [plank, metals.bronze.gear, plank]]
 	],
 	<betterwithmods:single_machine:3> : [
-		[[<betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>, <betterwithmods:wood_siding:*>], [stone, metals.copper.gear, stone], [stone, <betterwithmods:wooden_axle>, stone]]
+		[[sidingWood, sidingWood, sidingWood], [stone, metals.copper.gear, stone], [stone, <betterwithmods:wooden_axle>, stone]]
 	],
 	<betterwithmods:wooden_axle> : [
 		[[null, stick, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, stick, null]]
@@ -396,7 +396,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//BWM changes
 	<betterwithmods:bellows> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>], [<ore:hideBelt>, <ore:gearWood>, <ore:hideBelt>]]
+		[[sidingWood, sidingWood, sidingWood], [<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>], [<ore:hideBelt>, <ore:gearWood>, <ore:hideBelt>]]
 	],
 	<betterwithmods:breeding_harness> : [
 		[[<ore:cordageLeather>, leather, <ore:cordageLeather>], [leather, leather, leather], [<ore:cordageLeather>, leather, <ore:cordageLeather>]]

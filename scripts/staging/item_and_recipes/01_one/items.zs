@@ -2,7 +2,18 @@
 
 import crafttweaker.item.IIngredient;
 
+import mods.betterwithmods.MiniBlocks;
+
 var STAGE = STAGES.one;
+
+//Variables for Better with Mods miniBlock siding
+//var sidingAcacia as IIngredient = mods.betterwithmods.MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
+var sidingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:blockStainedHardenedClay>);
+var mouldingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:blockStainedHardenedClay>);
+var cornerHardenedclay as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:blockStainedHardenedClay>);
+var sidingSandstone as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:sandstone>);
+var mouldingSandstone as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
+var cornerSandstone as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
 /*
 var modIDs as string[] = [
@@ -957,6 +968,19 @@ var stage1Items as IIngredient[] = [
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_broken_gearbox>,
 	<betterwithmods:wooden_gearbox>,
+	cornerHardenedclay,
+	cornerSandstone,
+	cornerWood,
+	mouldingHardenedclay,
+	mouldingSandstone,
+	mouldingWood,
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:6>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:brick_block>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:hardened_clay>),
+	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stone>),
+	sidingHardenedclay,
+	sidingSandstone,
+	sidingWood,
 
 	//Natura
 	<natura:colored_grass:1>,

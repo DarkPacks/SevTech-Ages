@@ -1,12 +1,14 @@
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.betterwithaddons.Condensed;
 import mods.betterwithaddons.SoakingBox;
 import mods.betterwithaddons.Spindle;
 import mods.betterwithmods.Cauldron;
+import mods.betterwithmods.Crucible;
 import mods.betterwithmods.Mill;
-import mods.betterwithmods.StokedCauldron;
-import mods.betterwithmods.StokedCrucible;
+import mods.betterwithmods.MiniBlocks;
+import mods.betterwithmods.Saw;
 import mods.betterwithmods.Turntable;
 
 /*
@@ -14,10 +16,6 @@ import mods.betterwithmods.Turntable;
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Turntable/
 */
-//Remove BWM broken recipe and re-add it
-Turntable.remove(<betterwithmods:unfired_pottery:2>);
-Turntable.add(<betterwithmods:unfired_pottery:2>, <betterwithmods:unfired_pottery:4>, []);
-
 Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
 Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
 
@@ -27,47 +25,37 @@ Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Mill/
 */
 //Rice Flour
-Mill.add(<betterwithaddons:japanmat:4>, null, [<actuallyadditions:item_food:16>]);
+Mill.addRecipe([<actuallyadditions:item_food:16>], [<betterwithaddons:japanmat:4>]);
 
-Mill.add(<ceramics:unfired_clay:4>, null, [<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>]);
-Mill.add(<tconstruct:soil> * 2, null, [<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>]);
+Mill.addRecipe([<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>], [<ceramics:unfired_clay:4>]);
+Mill.addRecipe([<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>], [<tconstruct:soil> * 2]);
 
 //THERE CAN BE ONLY 1 FLOUR!
-Mill.remove(<betterwithmods:raw_pastry:3>);
+Mill.remove([<betterwithmods:raw_pastry:3>]);
+Mill.addRecipe([<minecraft:wheat>], [<horsepower:flour>]);
+Mill.addRecipe([<natura:materials>], [<horsepower:flour>]);
 
-Mill.add(<horsepower:flour>, null, [<minecraft:wheat>]);
-Mill.add(<horsepower:flour>, null, [<natura:materials>]);
+Mill.addRecipe([<actuallyadditions:block_misc:3>], [<actuallyadditions:item_dust:7>]);
+Mill.addRecipe([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent> * 1]);
 
-Mill.add(<actuallyadditions:item_dust:7>, null, [<actuallyadditions:block_misc:3>]);
-Mill.add(<astralsorcery:itemcraftingcomponent> * 1, null, [<materialpart:aquamarine:ore_minecraft_stone>]);
+Mill.addRecipe([<primal_tech:flint_block>], [<minecraft:flint> * 2]);
 
-Mill.add(<minecraft:flint> * 2, null, [<primal_tech:flint_block>]);
+Mill.addRecipe([<charcoalblock:charcoal_block>], [<minecraft:coal:1> * 9]);
+Mill.addRecipe([<primal_tech:charcoal_block>], [<minecraft:coal:1> * 4]);
+Mill.addRecipe([<minecraft:coal_block>], [<minecraft:coal> * 9]);
 
-Mill.add(<minecraft:coal:1> * 9, null, [<charcoalblock:charcoal_block>]);
-Mill.add(<minecraft:coal:1> * 4, null, [<primal_tech:charcoal_block>]);
-Mill.add(<minecraft:coal> * 9, null, [<minecraft:coal_block>]);
+Mill.addRecipe([<minecraft:cobblestone>], [<tconstruct:stone_stick> * 1]);
 
-Mill.add(<tconstruct:stone_stick> * 1, null, [<minecraft:cobblestone>]);
+Mill.addRecipe([<astralsorcery:itemcraftingcomponent:1>], [<astralsorcery:itemcraftingcomponent:2>]);
 
-Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<minecraft:dye:1>]);
-Mill.add(<pickletweaks:dye_powder> * 2, null, [<minecraft:dye:15>]);
-Mill.add(<pickletweaks:dye_powder:13> * 2, null, [<minecraft:dye:2>]);
-Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<minecraft:dye>]);
-Mill.add(<pickletweaks:dye_powder:12> * 2, null, [<minecraft:dye:3>]);
-Mill.add(<pickletweaks:dye_powder:11> * 2, null, [<minecraft:dye:4>]);
-Mill.add(<pickletweaks:dye_powder:14> * 2, null, [<rustic:wildberries>]);
-Mill.add(<pickletweaks:dye_powder:15> * 2, null, [<actuallyadditions:block_black_lotus>]);
+Mill.addRecipe([<minecraft:quartz>], [<actuallyadditions:item_dust:5>]);
 
-Mill.add(<astralsorcery:itemcraftingcomponent:2>, null, [<astralsorcery:itemcraftingcomponent:1>]);
+Mill.addRecipe([<primal:sharp_bone>], [<primal:bone_knapp>]);
 
-Mill.add(<actuallyadditions:item_dust:5>, null, [<minecraft:quartz>]);
-
-Mill.add(<primal:bone_knapp>, null, [<primal:sharp_bone>]);
-
-Mill.add(<minecraft:dye:15> * 2, null, [<primal:shark_tooth>]);
+Mill.addRecipe([<primal:shark_tooth>], [<minecraft:dye:15> * 2]);
 
 for bark in <ore:barkWood>.items {
-	Mill.add(<primal:tannin_ground> * 2, null, [bark]);
+	Mill.addRecipe([bark], [<primal:tannin_ground> * 2]);
 }
 
 /*
@@ -80,6 +68,8 @@ SoakingBox.remove(<betterwithaddons:japanmat:36>);
 
 /*
 	Spindle
+
+	https://github.com/DaedalusGame/BetterWithAddons/wiki/CraftTweaker-Support#spindle
 */
 Spindle.add([<primal:leather_cordage>], <primal:leather_strip> * 4, false);
 
@@ -94,58 +84,59 @@ Condensed.setContainer(<betterwithaddons:bolt>, <betterwithaddons:spindle>);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Cauldron/
 */
-Cauldron.add(<betterwithmods:material:12>, null, [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
-Cauldron.add(<betterwithmods:material:12>, null, [<ore:pelt>]);
-Cauldron.add(<betterwithmods:material:12> * 2, null, [<ore:peltLarge>]);
-Cauldron.add(<betterwithmods:material:12>, null, [<animalium:wild_dog_pelt>]);
-Cauldron.add(<betterwithmods:material:12> * 2, null, [<totemic:buffalo_items>]);
-Cauldron.remove(<betterwithmods:material:6>);
-Cauldron.remove(<rustic:tallow>);
+//==============================
+//Remove
+//Removing by output also requires the ammount of the output item that is given
+Cauldron.remove([<betterwithmods:material:12>]);
+Cauldron.remove([<betterwithmods:material:12> * 2]);
+Cauldron.remove([<betterwithmods:material:12> * 3]);
+Cauldron.remove([<betterwithmods:material:12> * 4]);
+Cauldron.remove([<betterwithmods:material:6>]);
+
+Cauldron.remove([<rustic:tallow>]);
+
+//==============================
+//Unstoked
+Cauldron.addUnstoked([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<betterwithmods:material:12>]);
+Cauldron.addUnstoked([<ore:pelt>], [<betterwithmods:material:12>]);
+Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
+Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
+Cauldron.addUnstoked([<totemic:buffalo_items>], [<betterwithmods:material:12> * 2]);
 
 //Remake laxative recipe using foodFlour instead of BWM flour only
-Cauldron.remove(<betterwithaddons:laxative>);
-Cauldron.add(<betterwithaddons:laxative>, null, [<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>]);
+//Cauldron.remove([<betterwithaddons:laxative> * 2]);
+Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>], [<betterwithaddons:laxative>]);
+
+//==============================
+//Stoked
 
 /*
-	Stoked Crucible
+	Crucible
 
-	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/StokedCrucible/
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Crucible/
 */
-StokedCrucible.remove(<betterwithaddons:decomat:3>);
-
-/*
-	Stoked Cauldron
-
-	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/StokedCauldron/
-*/
-StokedCauldron.remove(<betterwithmods:material:12>);
-
-//TODO: I'm pretty sure this doesn't actually work but I'm leaving it here for now
-StokedCauldron.remove(<minecraft:glass>);
+Crucible.remove([<betterwithaddons:decomat:3>]);
+Crucible.remove([<betterwithaddons:decomat:3> * 2]);
+Crucible.remove([<minecraft:glass>]);
 
 /*
 	Saw
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Saw/
 */
-var sawRemovals as IItemStack[] = [
+var sawRemovals as IItemStack[][] = [
 	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:wood_corner>,
-	<betterwithmods:wood_corner:1>,
-	<betterwithmods:wood_corner:2>,
-	<betterwithmods:wood_corner:3>,
-	<betterwithmods:wood_corner:4>,
-	<betterwithmods:wood_corner:5>,
+	[<betterwithmods:material> * 2],
 
-	<betterwithmods:saw>,
-	<betterwithmods:bellows>,
-	<betterwithmods:wooden_gearbox>,
-	<betterwithmods:single_machine:2>,
-	<betterwithmods:single_machine:1>
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material>, <minecraft:iron_ingot> * 2],
+	[<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2],
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>],
+	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>],
+	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>]
 ];
 
 // Input : [Outputs]
-var sawRecipes as IItemStack[][IItemStack] = {
+var sawRecipes as IItemStack[][IIngredient] = {
 	<minecraft:leaves> : [stick * 2],
 	<minecraft:leaves:1> : [stick * 2],
 	<minecraft:leaves:2> : [stick * 2],
@@ -177,21 +168,42 @@ var sawRecipes as IItemStack[][IItemStack] = {
 	<twilightforest:twilight_leaves:3> : [stick * 2],
 	<twilightforest:magic_leaves> : [stick * 2],
 	<totemic:cedar_leaves> : [stick * 2],
-	<traverse:fir_leaves> : [stick * 2],
-
-	//Sawing Corners only give 1 gear instead of 2
-	<betterwithmods:wood_corner> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:1> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:2> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:3> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:4> : [<betterwithmods:material>],
-	<betterwithmods:wood_corner:5> : [<betterwithmods:material>]
+	<traverse:fir_leaves> : [stick * 2]
 };
 
-for item in sawRemovals {
-	mods.betterwithmods.Saw.remove(item);
+//Add variable inputs into saw recipes map
+sawRecipes[cornerWood] = [<betterwithmods:material>];
+
+for outputs in sawRemovals {
+	Saw.remove(outputs);
 }
 
 for input in sawRecipes {
-	mods.betterwithmods.Saw.add(sawRecipes[input], input);
+	Saw.add(input, sawRecipes[input]);
+}
+
+/*
+	Utils
+*/
+function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
+	var allMiniBlocks as IIngredient = null;
+	var miniBlockTypes as string[] = [
+		"corner",
+		"moulding",
+		"siding"
+	];
+
+	for miniBlockType in miniBlockTypes {
+		var miniBlock as IIngredient = MiniBlocks.getMiniBlock(miniBlockType, item);
+
+		if (!isNull(miniBlock)) {
+			if (isNull(allMiniBlocks)) {
+				allMiniBlocks = miniBlock;
+			} else {
+				allMiniBlocks |= miniBlock;
+			}
+		}
+	}
+
+	return allMiniBlocks;
 }

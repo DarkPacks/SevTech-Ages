@@ -206,9 +206,10 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 
 	//Brown
 	<ore:dyeBrown>.firstItem : [
+		<betterwithmods:material:44>,
 		<ferdinandsflowers:block_cff_desert:2>,
 		<ferdinandsflowers:block_cff_doubles:3>,
-		<betterwithmods:material:44>
+		<minecraft:dye:3>
 	],
 
 	//Green
@@ -249,7 +250,7 @@ var dyeCrushingRecipes as IItemStack[][IItemStack] = {
 
 for dye, items in dyeCrushingRecipes {
 	for item in items {
-		mods.betterwithmods.Mill.add(dye * 2, null, [item]);
+		mods.betterwithmods.Mill.addRecipe([item], [dye * 2]);
 		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
 		mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
 	}

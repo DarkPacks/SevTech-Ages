@@ -3,7 +3,18 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.betterwithmods.MiniBlocks;
+
+
 var STAGE = STAGES.two;
+
+//Variables for Better with Mods miniBlock siding
+var sidingAcacia as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:4>);
+var sidingBirch as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:2>);
+var sidingDarkoak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:5>);
+var sidingJungle as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:3>);
+var sidingOak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks>);
+var sidingSpruce as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:1>);
 
 /*
 <item> : [
@@ -195,7 +206,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[null, <ore:dyeBlack>, null]]
 	],
 	<minecraft:piston> : [
-		[[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone]]
+		[[sidingWood, sidingWood, sidingWood], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone]]
 	],
 	<minecraft:stone_slab:5> * 3 : [
 		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
@@ -279,16 +290,16 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<betterwithmods:wicker>, <betterwithmods:wicker>], [<betterwithmods:wicker>, <betterwithmods:wicker>]]
 	],
 	<betterwithmods:material:36> : [
-		[[null, <ore:cordageLeather>, null], [null, <ore:slimeball>, null], [null, <ore:mouldingWood>, null]]
+		[[null, <ore:cordageLeather>, null], [null, <ore:slimeball>, null], [null, mouldingWood, null]]
 	],
 	<betterwithmods:ender_spectacles> : [
 		[[null, null, null], [<betterwithmods:material:40>, <ore:cordageLeather>, <betterwithmods:material:40>], [null, null, null]]
 	],
 	<betterwithaddons:redstone_emitter> : [
 		[
-			[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>],
+			[sidingWood, sidingWood, sidingWood],
 			[<betterwithmods:wicker>, <betterwithmods:wooden_gearbox>, <minecraft:lever>],
-			[<ore:sidingWood>, <ore:sidingWood>, <ore:sidingWood>]
+			[sidingWood, sidingWood, sidingWood]
 		]
 	],
 	<betterwithaddons:aqueduct> * 3 : [
@@ -306,22 +317,22 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 
 	//Boats in Stage2
 	<minecraft:acacia_boat> : [
-		[[<betterwithmods:wood_siding:4>, null, <betterwithmods:wood_siding:4>], [<betterwithmods:wood_siding:4>, <betterwithmods:wood_siding:4>, <betterwithmods:wood_siding:4>]]
+		[[sidingAcacia, null, sidingAcacia], [sidingAcacia, sidingAcacia, sidingAcacia]]
 	],
 	<minecraft:birch_boat> : [
-		[[<betterwithmods:wood_siding:2>, null, <betterwithmods:wood_siding:2>], [<betterwithmods:wood_siding:2>, <betterwithmods:wood_siding:2>, <betterwithmods:wood_siding:2>]]
+		[[sidingBirch, null, sidingBirch], [sidingBirch, sidingBirch, sidingBirch]]
 	],
 	<minecraft:boat> : [
-		[[<betterwithmods:wood_siding>, null, <betterwithmods:wood_siding>], [<betterwithmods:wood_siding>, <betterwithmods:wood_siding>, <betterwithmods:wood_siding>]]
+		[[sidingOak, null, sidingOak], [sidingOak, sidingOak, sidingOak]]
 	],
 	<minecraft:dark_oak_boat> : [
-		[[<betterwithmods:wood_siding:5>, null, <betterwithmods:wood_siding:5>], [<betterwithmods:wood_siding:5>, <betterwithmods:wood_siding:5>, <betterwithmods:wood_siding:5>]]
+		[[sidingDarkoak, null, sidingDarkoak], [sidingDarkoak, sidingDarkoak, sidingDarkoak]]
 	],
 	<minecraft:jungle_boat> : [
-		[[<betterwithmods:wood_siding:3>, null, <betterwithmods:wood_siding:3>], [<betterwithmods:wood_siding:3>, <betterwithmods:wood_siding:3>, <betterwithmods:wood_siding:3>]]
+		[[sidingJungle, null, sidingJungle], [sidingJungle, sidingJungle, sidingJungle]]
 	],
 	<minecraft:spruce_boat> : [
-		[[<betterwithmods:wood_siding:1>, null, <betterwithmods:wood_siding:1>], [<betterwithmods:wood_siding:1>, <betterwithmods:wood_siding:1>, <betterwithmods:wood_siding:1>]]
+		[[sidingSpruce, null, sidingSpruce], [sidingSpruce, sidingSpruce, sidingSpruce]]
 	],
 
 	//Applied Energistics
@@ -512,16 +523,16 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Stage 2 Easier Gearbox and Axle
 	<betterwithmods:wooden_axle> : [
 		[
-			[null, <ore:mouldingWood>, null],
+			[null, mouldingWood, null],
 			[null, <betterwithmods:rope>, null],
-			[null, <ore:mouldingWood>, null]
+			[null, mouldingWood, null]
 		]
 	],
 	<betterwithmods:wooden_gearbox> : [
 		[
-			[<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>],
+			[mouldingWood, <betterwithmods:material>, mouldingWood],
 			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
-			[<ore:mouldingWood>, <betterwithmods:material>, <ore:mouldingWood>]
+			[mouldingWood, <betterwithmods:material>, mouldingWood]
 		]
 	],
 
@@ -954,8 +965,8 @@ for item, recipesForItem in shapedRecipes {
 
 //Tinkers'
 mods.recipestages.Recipes.addShapedMirrored(STAGE, <tconstruct:pattern> * 4, [
-	[<ore:barkWood>, <ore:sidingWood>],
-	[<ore:sidingWood>, <ore:barkWood>]
+	[<ore:barkWood>, sidingWood],
+	[sidingWood, <ore:barkWood>]
 ]);
 
 mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:overworld_stairs_maple> * 4, [

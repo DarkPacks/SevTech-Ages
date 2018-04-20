@@ -1061,4 +1061,3 @@ var stageZeroItems as IIngredient[] = [
 for item in stageZeroItems {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
-

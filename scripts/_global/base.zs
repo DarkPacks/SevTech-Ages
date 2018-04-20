@@ -2,6 +2,9 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
+
+import mods.betterwithmods.MiniBlocks;
 
 global bone as IItemStack = <minecraft:bone>;
 global cane as IItemStack = <minecraft:reeds>;
@@ -38,3 +41,8 @@ global aeCores as IItemStack[string] = {
 	annihilation: <appliedenergistics2:material:44>,
 	formation: <appliedenergistics2:material:43>
 };
+
+//Adding globals to be used in place of oredict entries for Better with Mods Siding, Moulding, and Corners
+global sidingWood as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
+global mouldingWood as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
+global cornerWood as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:plankWood>);

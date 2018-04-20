@@ -129,7 +129,7 @@ for plank, logs in plankLogPairs {
 		mods.horsepower.ChoppingBlock.add(log, plank * 4, 2, false);
 
 		//Better With Mods
-		mods.betterwithmods.Saw.add([plank * 6, <ore:dustWood>.firstItem * 2], log);
+		mods.betterwithmods.Saw.add(log, [plank * 6, <ore:dustWood>.firstItem * 2]);
 
 		//Primal Tech
 		mods.primaltech.WaterSaw.addRecipe(plank, log, 80);

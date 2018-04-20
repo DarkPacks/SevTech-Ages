@@ -180,7 +180,7 @@ Mod Updates:
     * Fixed z-fighting on new crate model.
 * RebornCore (3.7.5.259)
 * Smooth Font (1.14.3)
-    * Added clientSideOnly propert
+    * Added clientSideOnly property
 * Spartan Shields (1.4.1)
     * Minor tweaks and recipe fixes.
 * Tinkers Complement (0.2.3b)

@@ -2,7 +2,7 @@ setTitle("Certus Quartz")
 
 setIcon("appliedenergistics2:material")
 
-setDescription("Find a surface sample and dig for Assorted Quartz! Located Y6 to 29")
+setDescription("Find a surface sample and dig for Assorted Quartz! Located Y6 to 40")
 
 setParent("triumph:stage4/prospector4")
 setRequiresParent(true)

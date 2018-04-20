@@ -2,7 +2,7 @@ setIcon("immersiveengineering:metal")
 
 setTitle("Get To The Copper")
 
-setDescription("Find a surface sample and dig for copper! Located Y12 to 45 and named Malachite or Azurite. Note, surface samples will unhide in already explored areas")
+setDescription("Find a surface sample and dig for copper! Located Y12 to 52 and named Malachite or Azurite. Note, surface samples will unhide in already explored areas")
 
 setParent("triumph:stage1/prospector")
 setRequiresParent(true)

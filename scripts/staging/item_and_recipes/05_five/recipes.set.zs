@@ -782,6 +782,10 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:ultimate_oxygen_compressor:4>,
 	<extraplanets:ultimate_oxygen_compressor>,
 	<extraplanets:zinc_battery>,
+	<extraplanets:tier1_space_suit_jetpack_chest>,
+	<extraplanets:tier2_space_suit_jetpack_chest>,
+	<extraplanets:tier3_space_suit_jetpack_chest>,
+	<extraplanets:tier4_space_suit_jetpack_chest>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,

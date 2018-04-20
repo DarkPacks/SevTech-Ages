@@ -2,7 +2,7 @@ setTitle("Diamonds!")
 
 setIcon("minecraft:diamond", 0)
 
-setDescription("Locate Kimberlite Samples on the surface to find Diamonds. The ore is located between Y2 - 15")
+setDescription("Locate Kimberlite Samples on the surface to find Diamonds. The ore is located between Y2 - 20")
 
 setParent("triumph:stage5/prospectorstage5")
 setRequiresParent(true)

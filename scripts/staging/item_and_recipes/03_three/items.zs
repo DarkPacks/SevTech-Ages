@@ -1602,7 +1602,8 @@ var stage3Items as IIngredient[] = [
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.sprintAttack"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stepAssist"}),
 	<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"}),
-	<bloodmagic:upgrade_trainer>
+	<bloodmagic:upgrade_trainer>,
+	<bloodmagic:alchemic_vial>
 ];
 
 for item in stage3Items {

@@ -719,6 +719,11 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:singularity_custom:2>,
 	<extendedcrafting:singularity_custom:3>,
 	<extendedcrafting:singularity_ultimate>,
+	<extendedcrafting:singularity_custom:4>,
+	<extendedcrafting:singularity_custom:5>,
+	<extendedcrafting:singularity_custom:6>,
+	<extendedcrafting:singularity_custom:7>,
+	<extendedcrafting:singularity_custom:8>,
 	<extendedcrafting:storage:2>,
 	<extendedcrafting:storage:3>,
 	<extendedcrafting:storage:4>,
@@ -1762,6 +1767,13 @@ var stage5Items as IIngredient[] = [
 	<extraplanets:yellow_diamond_shovel>,
 	<extraplanets:yellow_diamond_sword>,
 	<extraplanets:zinc_battery>,
+	<extraplanets:tier1_space_suit_jetpack_chest>,
+	<extraplanets:tier2_space_suit_jetpack_chest>,
+	<extraplanets:tier3_space_suit_jetpack_chest>,
+	<extraplanets:tier4_space_suit_jetpack_chest>,
+	<extraplanets:module_items>,
+	<extraplanets:module_items:2>,
+	<extraplanets:module_items:1>,
 
 	//Mekanism
 	<materialpart:osmium:ore_minecraft_stone>,
@@ -2056,7 +2068,10 @@ var soulstoneItems as IIngredient[] = [
 	<mysticalagriculture:soulstone_brick_slab>,
 	<mysticalagriculture:soulstone_brick_stairs>,
 	<mysticalagriculture:soulstone_brick_wall>,
-	<mysticalagriculture:soulstone_slab>
+	<mysticalagriculture:soulstone_slab>,
+
+	//Modular Machinery
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:paperclip_factory"})
 ];
 
 for item in soulstoneItems {

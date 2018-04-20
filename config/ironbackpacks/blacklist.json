@@ -7,6 +7,66 @@
     {
       "item": "minecraft:purple_shulker_box",
       "meta": 0
+    },
+    {
+      "item": "minecraft:white_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:orange_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:magenta_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:yellow_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:lime_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:pink_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:gray_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:silver_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:cyan_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:blue_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:brown_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:green_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:black_shulker_box",
+      "meta": 0
+    },
+    {
+      "item": "minecraft:red_shulker_box",
+      "meta": 0
     }
   ],
   "nbtBlacklist": []

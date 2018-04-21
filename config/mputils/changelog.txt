@@ -45,6 +45,7 @@ Bug Fixes:
 * Fixed Crystallized Obsidian armour being staged incorrectly (#1477)
 * Fixed recipe for Fire Charm due to staging (#1807)
 * Fixed missed recipes for CarMod (#1852)
+* Fixed "Broken" tooltip from displaying on the Bound Blade
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

@@ -36,6 +36,7 @@ Bug Fixes:
 * Fixed the Mob Grinding Utils Saw to not require a diamond
 * Fixed the Wicker in the Compost recipe to not require stage one
 * Removed Carry-on allowing the pickup of Improved Backpacks
+* Disabled MouseTweaks WheelTweak config...again.
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

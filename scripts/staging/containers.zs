@@ -3,9 +3,6 @@
 
 	To get the containers, enable setPrintContainers in scripts/env.dev.zs
 */
-
-//Ideally theres a way to just get all the values from the STAGES map
-//But for now at least... add manually
 var allStages as string[] = STAGES.valueSet;
 
 //Primal Tech work stump

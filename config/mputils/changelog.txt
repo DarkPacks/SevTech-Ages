@@ -68,6 +68,7 @@ Enhancements:
 * Removed the Scannable Structure Card. It was not picking up any structures and is a useless item
 * Added Improved Backpacks and Shulker Boxes to the Iron Backpacks Blacklist so you cannot nest backpacks
 * Increased the Y level range for the following Geolosys Veins: Coal, Rock Crystal,  Gold, Lapis, Quartz, Kimberlite, Limonite, Malachite
+* Add Environmental Tech JEI Descriptions and tooltips to Lightning Rod and Nanobot structures (#1592)
 
 Mod Updates:
 * Forge: 14.23.3.2669

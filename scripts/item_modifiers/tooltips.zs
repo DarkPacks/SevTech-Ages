@@ -63,24 +63,41 @@ var prospectingRodRange as int = 48;
 
 //==================================
 //Environmental Tech Structures
+<environmentaltech:lightning_cont_1>.addTooltip(format.aqua("Structure Size: 3x7x3"));
+<environmentaltech:lightning_cont_2>.addTooltip(format.aqua("Structure Size: 3x9x3"));
+<environmentaltech:lightning_cont_3>.addTooltip(format.aqua("Structure Size: 3x11x3"));
+<environmentaltech:lightning_cont_4>.addTooltip(format.aqua("Structure Size: 3x13x3"));
+<environmentaltech:lightning_cont_5>.addTooltip(format.aqua("Structure Size: 3x18x3"));
+<environmentaltech:lightning_cont_6>.addTooltip(format.aqua("Structure Size: 3x23x3"));
+
+<environmentaltech:nano_cont_personal_1>.addTooltip(format.aqua("Structure Size: 5x3x5"));
+<environmentaltech:nano_cont_personal_2>.addTooltip(format.aqua("Structure Size: 7x4x7"));
+<environmentaltech:nano_cont_personal_3>.addTooltip(format.aqua("Structure Size: 9x5x9"));
+<environmentaltech:nano_cont_personal_4>.addTooltip(format.aqua("Structure Size: 11x6x11"));
+<environmentaltech:nano_cont_personal_5>.addTooltip(format.aqua("Structure Size: 13x7x13"));
+<environmentaltech:nano_cont_personal_6>.addTooltip(format.aqua("Structure Size: 15x8x15"));
+
 <environmentaltech:solar_cont_1>.addTooltip(format.aqua("Structure Size: 5x2x5"));
 <environmentaltech:solar_cont_2>.addTooltip(format.aqua("Structure Size: 7x2x7"));
 <environmentaltech:solar_cont_3>.addTooltip(format.aqua("Structure Size: 9x2x9"));
 <environmentaltech:solar_cont_4>.addTooltip(format.aqua("Structure Size: 11x2x11"));
 <environmentaltech:solar_cont_5>.addTooltip(format.aqua("Structure Size: 13x2x13"));
 <environmentaltech:solar_cont_6>.addTooltip(format.aqua("Structure Size: 15x2x15"));
+
 <environmentaltech:void_botanic_miner_cont_1>.addTooltip(format.aqua("Structure Size: 7x4x7"));
 <environmentaltech:void_botanic_miner_cont_2>.addTooltip(format.aqua("Structure Size: 7x5x7"));
 <environmentaltech:void_botanic_miner_cont_3>.addTooltip(format.aqua("Structure Size: 11x6x11"));
 <environmentaltech:void_botanic_miner_cont_4>.addTooltip(format.aqua("Structure Size: 11x7x11"));
 <environmentaltech:void_botanic_miner_cont_5>.addTooltip(format.aqua("Structure Size: 11x8x11"));
 <environmentaltech:void_botanic_miner_cont_6>.addTooltip(format.aqua("Structure Size: 13x8x13"));
+
 <environmentaltech:void_ore_miner_cont_1>.addTooltip(format.aqua("Structure Size: 7x4x7"));
 <environmentaltech:void_ore_miner_cont_2>.addTooltip(format.aqua("Structure Size: 7x5x7"));
 <environmentaltech:void_ore_miner_cont_3>.addTooltip(format.aqua("Structure Size: 11x6x11"));
 <environmentaltech:void_ore_miner_cont_4>.addTooltip(format.aqua("Structure Size: 11x7x11"));
 <environmentaltech:void_ore_miner_cont_5>.addTooltip(format.aqua("Structure Size: 11x8x11"));
 <environmentaltech:void_ore_miner_cont_6>.addTooltip(format.aqua("Structure Size: 13x8x13"));
+
 <environmentaltech:void_res_miner_cont_1>.addTooltip(format.aqua("Structure Size: 7x4x7"));
 <environmentaltech:void_res_miner_cont_2>.addTooltip(format.aqua("Structure Size: 7x5x7"));
 <environmentaltech:void_res_miner_cont_3>.addTooltip(format.aqua("Structure Size: 11x6x11"));

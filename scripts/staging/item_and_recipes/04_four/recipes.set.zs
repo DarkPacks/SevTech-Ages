@@ -440,8 +440,10 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:pipe_sandstone_power:*>,
 	<buildcrafttransport:pipe_stone_power:*>,
 	<buildcrafttransport:pipe_wood_power:*>,
-	<buildcrafttransport:plug_gate:*>,
 	<buildcrafttransport:plug_power_adaptor>,
+	<buildcraftsilicon:plug_gate:*>,
+	<buildcraftsilicon:plug_light_sensor>,
+	<buildcraftsilicon:plug_pulsar>,
 
 	//Pneumatic Craft
 	<pneumaticcraft:advanced_air_compressor>,
@@ -478,6 +480,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:gps_area_tool>,
 	<pneumaticcraft:gps_tool>,
 	<pneumaticcraft:gun_ammo>,
+	<pneumaticcraft:harvesting_drone>,
 	<pneumaticcraft:heat_frame>,
 	<pneumaticcraft:heat_sink>,
 	<pneumaticcraft:item_life_upgrade>,
@@ -491,6 +494,7 @@ var itemsForStage as IIngredient[] = [
 	<pneumaticcraft:logistic_frame_storage>,
 	<pneumaticcraft:logistics_configurator:30000>,
 	<pneumaticcraft:logistics_module>,
+	<pneumaticcraft:magnet_upgrade>,
 	<pneumaticcraft:manometer:30000>,
 	<pneumaticcraft:minigun>,
 	<pneumaticcraft:network_component:1>,

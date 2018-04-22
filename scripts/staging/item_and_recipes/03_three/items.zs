@@ -1605,3 +1605,9 @@ var stage3Items as IIngredient[] = [
 for item in stage3Items {
 	mods.ItemStages.addItemStage(STAGE, item);
 }
+
+//Move ghast meat to stage 2
+mods.ItemStages.removeItemStage(<nex:food_meat_ghast_cooked>);
+mods.ItemStages.addItemStage(STAGES.two, <nex:food_meat_ghast_cooked>);
+mods.ItemStages.removeItemStage(<nex:food_meat_ghast_raw>);
+mods.ItemStages.addItemStage(STAGES.two, <nex:food_meat_ghast_raw>);

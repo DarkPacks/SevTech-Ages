@@ -269,9 +269,8 @@ recipes.addShaped(<betterwithaddons:loom>, [[plank, plank, plank], [plank, <bett
 
 //Useless seeds can now be used!
 recipes.addShaped(<actuallyadditions:item_misc:1>, [
-	[null, null, null],
-	[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>],
-	[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>]
+	[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>],
+	[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>]
 ]);
 
 //Tinkers Compliment Recipes

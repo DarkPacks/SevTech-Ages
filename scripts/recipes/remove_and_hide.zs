@@ -32,6 +32,7 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:ink_and_quill>,
 	<betterwithaddons:log_termite>,
 	<betterwithaddons:rail_rusted>,
+	<betterwithaddons:tatami_full>,
 	<betterwithaddons:material:4>,
 	<betterwithaddons:material:5>,
 	<betterwithaddons:material:6>,

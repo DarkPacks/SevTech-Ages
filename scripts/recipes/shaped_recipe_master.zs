@@ -31,6 +31,10 @@ recipes.addShaped(<minecraft:wooden_button>, [[plank]]);
 recipes.addShaped(<minecraft:stone_button>, [[stone]]);
 recipes.addShaped(<minecraft:web>, [[stick, str, stick], [str, str, str], [stick, str, stick]]);
 
+// Force the map recipe using a compass.
+recipes.remove(<minecraft:map>);
+recipes.addShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <ore:paper>], [<ore:paper>, <minecraft:compass>, <ore:paper>], [<ore:paper>, <ore:paper>, <ore:paper>]]);
+
 recipes.remove(<minecraft:lead>);
 recipes.addShapedMirrored(<minecraft:lead>, [[str, null, null], [null, <ore:cordageLeather>, null], [null, null, str]]);
 

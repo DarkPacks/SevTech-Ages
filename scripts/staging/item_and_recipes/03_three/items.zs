@@ -725,6 +725,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:wrought_lamp>,
 	<betterwithaddons:ya>,
 	<betterwithaddons:yumi>,
+	<betterwithaddons:zen_soulsand>,
 	<betterwithmods:aesthetic:3>,
 	<betterwithmods:aesthetic:10>,
 	<betterwithmods:bat_wing>,

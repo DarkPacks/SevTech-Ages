@@ -14,7 +14,6 @@ var stageTutorialItems as IIngredient[] = [
 	<betterwithaddons:zen_ironsand>,
 	<betterwithaddons:zen_redsand>,
 	<betterwithaddons:zen_sand>,
-	<betterwithaddons:zen_soulsand>,
 	<chisel:basalt2:7>,
 	<chisel:limestone2:7>,
 	<chisel:marble2:7>,

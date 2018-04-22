@@ -1,0 +1,68 @@
+These are the functions which can be called on a DamageData object.
+
+
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
+
+setBlocked:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage was blocked.
+
+setTakenMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max damage taken.
+
+setTakenMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max damage taken.
+
+setTakenMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min damage taken.
+
+setDealtMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max damage dealt.
+
+setDealtMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max damage dealt.
+
+setDealtMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min damage dealt.
+
+getDamageSourceData:
+    Notes:
+        Returns the DamageSourceData object so functions can be called on it.
+

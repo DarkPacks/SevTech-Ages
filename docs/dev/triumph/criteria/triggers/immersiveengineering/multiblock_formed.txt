@@ -1,0 +1,50 @@
+These are the functions which can be called on a immersiveengineering:multiblock_formed 
+criteria trigger. This criteria is triggered by a player forming an Immersive Engineering 
+multiblock.
+
+
+
+setMultiblock:
+    Arguments:
+        String
+    Usage:
+        multiblock id
+    Notes:
+        Sets the id for the multiblock this trigger will be triggerd by the formation of.
+
+getHammerData:
+    Notes:
+        Returns the ItemData object for the hammer so functions can be called on it.
+
+setHammerOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the hammer ore dictionary for the trigger.
+
+setHammer:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the required hammer. This counts for any meta.
+
+setHammer:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the required hammer with the provided meta.
+
+setHammer:
+    Arguments:
+        String, Integer, String
+    Usage:
+        item name, meta, nbt
+    Notes:
+        Sets the required hammer with the provided item name, meta and nbt.
+

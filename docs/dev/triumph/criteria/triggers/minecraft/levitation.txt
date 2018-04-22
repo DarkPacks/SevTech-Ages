@@ -1,0 +1,32 @@
+These are the functions which can be called on a minecraft:levitation criteria trigger.
+
+
+
+setDurationMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min duration.
+
+setDurationMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max duration.
+
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+setDurationMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max duration.
+

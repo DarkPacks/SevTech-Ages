@@ -1,0 +1,68 @@
+These are the functions which can be called on a DamageSourceData object.
+
+
+
+isProjectile:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source is a projectile.
+
+isExplosion:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source is an explosion.
+
+isFire:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source is fire.
+
+isMagic:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source is magic.
+
+getSourceData:
+    Notes:
+        Returns the EntityData object for the source entity (This would be for the player/skeleton/etc.) so functions can be called on it.
+
+bypassesArmor:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses armor.
+
+bypassesMagic:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses magic.
+
+getImmediateSourceData:
+    Notes:
+        Returns the EntityData object for the immediate source entity (This would be for things like projectiles.) so functions can be called on it.
+
+bypassesInvulnerability:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the damage source bypasses invulerability.
+

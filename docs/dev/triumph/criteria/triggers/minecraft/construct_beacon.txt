@@ -1,0 +1,29 @@
+These are the functions which can be called on a minecraft:construct_beacon criteria 
+trigger.
+
+
+
+setLevelsMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max levels for the beacon.
+
+setLevelsMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max levels for the beacon.
+
+setLevelsMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min levels for the beacon.
+

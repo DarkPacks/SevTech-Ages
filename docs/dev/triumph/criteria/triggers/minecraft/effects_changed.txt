@@ -1,0 +1,13 @@
+These are the functions which can be called on a minecraft:effects_changed criteria 
+trigger.
+
+
+
+addEffect:
+    Arguments:
+        String
+    Usage:
+        potion type
+    Notes:
+        Adds a PotionEffectData for the provided potion type and returns it so functions can be called on it.
+

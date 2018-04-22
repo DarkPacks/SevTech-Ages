@@ -1,0 +1,45 @@
+These are the functions which can be called on a minecraft:villager_trade criteria 
+trigger.
+
+
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
+
+getItemData:
+    Notes:
+        Returns the ItemData object for the item that must be traded for from the villager so functions can be called on it.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the item that must be traded for from the villager with any meta.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the item that must be traded for from the villager with the provided meta.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the trigger.
+
+setEntityType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the entity type.
+

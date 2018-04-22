@@ -1,0 +1,13 @@
+These are the functions which can be called on a triumph:completed_advancement criteria 
+trigger.
+
+
+
+setAdvancement:
+    Arguments:
+        String
+    Usage:
+        advancement path
+    Notes:
+        Sets the required advancement.
+

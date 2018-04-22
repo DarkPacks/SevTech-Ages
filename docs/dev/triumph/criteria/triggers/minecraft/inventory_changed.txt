@@ -1,0 +1,113 @@
+These are the functions which can be called on a minecraft:inventory_changed criteria 
+trigger.
+
+
+
+addItem:
+    Arguments:
+        String, Integer, String
+    Usage:
+        item name, meta, nbt
+    Notes:
+        Adds an ItemData with the provided item name, meta and nbt and returns it so functions can be called on it.
+
+addItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Adds an ItemData with the provided item name and meta and returns it so functions can be called on it.
+
+addItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Adds an ItemData with the provided item name and no meta (this counts for all meta) and returns it so functions can be called on it.
+
+addItem:
+    Notes:
+        Adds an empty ItemData object to the criteria triggers list and returns it so functions can be called on it.
+
+addOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Adds an ItemData with the provided ore dict and returns it so functions can be called on it.
+
+setOccupiedMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min value for occupied inventory slots.
+
+setFullMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max values for full inventory slots.
+
+setFullMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max value for full inventory slots.
+
+setOccupiedMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max value for occupied inventory slots.
+
+setEmptyMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max values for empty inventory slots.
+
+setFullMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min value for full inventory slots.
+
+setEmptyMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min value for empty inventory slots.
+
+setEmptyMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max value for empty inventory slots.
+
+setOccupiedMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max values for occupied inventory slots.
+

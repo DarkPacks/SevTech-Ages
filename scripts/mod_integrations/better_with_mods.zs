@@ -27,13 +27,13 @@ Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []
 //Rice Flour
 Mill.addRecipe([<actuallyadditions:item_food:16>], [<betterwithaddons:japanmat:4>]);
 
-Mill.addRecipe([<minecraft:dye:15>, <minecraft:clay_ball>, <minecraft:flint>], [<ceramics:unfired_clay:4>]);
+Mill.addRecipe([<minecraft:flint>, <minecraft:clay_ball>, <minecraft:dye:15>], [<ceramics:unfired_clay:4>]);
 Mill.addRecipe([<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>], [<tconstruct:soil> * 2]);
 
 //THERE CAN BE ONLY 1 FLOUR!
 Mill.remove([<betterwithmods:raw_pastry:3>]);
 Mill.addRecipe([<minecraft:wheat>], [<horsepower:flour>]);
-Mill.addRecipe([<natura:materials>], [<horsepower:flour>]);
+Mill.addRecipe([<natura:materials>], [<natura:materials:1>]);
 
 Mill.addRecipe([<actuallyadditions:block_misc:3>], [<actuallyadditions:item_dust:7>]);
 Mill.addRecipe([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent> * 1]);

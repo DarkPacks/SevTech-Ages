@@ -6,6 +6,7 @@ var removeItems as IItemStack[] = [
 	<buildcraftcore:engine>,
 	<buildcrafttransport:pipe_void_item>,
 	<cyclicmagic:placer_block>,
+	<cyclicmagic:charm_fire>,
 	<minecraft:cake>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,

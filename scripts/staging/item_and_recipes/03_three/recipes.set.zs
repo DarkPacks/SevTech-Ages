@@ -99,7 +99,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:beacon_redstone>,
 	<cyclicmagic:block_hydrator>,
 	<cyclicmagic:carbon_paper>,
-	<cyclicmagic:charm_fire>,
 	<cyclicmagic:charm_wing>,
 	<cyclicmagic:chest_sack>,
 	<cyclicmagic:chest_sack_empty>,

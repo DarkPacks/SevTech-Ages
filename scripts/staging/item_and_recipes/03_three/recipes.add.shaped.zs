@@ -1279,6 +1279,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
 		]
 	],
+	<cyclicmagic:charm_fire>: [
+		[
+			[<minecraft:nether_wart>, null, <minecraft:blaze_rod>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+		]
+	],
 
 	//Blood Magic
 	<bloodmagic:ritual_diviner> : [

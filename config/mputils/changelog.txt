@@ -43,6 +43,8 @@ Bug Fixes:
 * Fixed dupe recipes for the Map (#1798)
 * Fixed Quantum Storage Create being hidden in JEI (#1967)
 * Fixed Crystallized Obsidian armour being staged incorrectly (#1477)
+* Fixed recipe for Fire Charm due to staging (#1807)
+* Fixed missed recipes for CarMod (#1852)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -78,6 +80,8 @@ Enhancements:
 * Add Environmental Tech JEI Descriptions and tooltips to Lightning Rod and Nanobot structures (#1592)
 * Added recipe for Porcelain to the Industrial Mill (#2002)
 * Allow Fiery Tears in Lava Crystal recipe (#1975)
+* Fix the immersive engineering windmill advancement typo (#1845)
+* Enabled rustic clay walls and staged in (#1822)
 
 Mod Updates:
 * Forge: 14.23.3.2669
@@ -192,7 +196,7 @@ Mod Updates:
 * Power Adapters (1.0.8)
     * Fixed power input and output being wrong
 * Prestige (1.0.15)
-* PrimalCore (0.6.46)
+* PrimalCore (0.6.47)
     * Charcoal Stacks now have a slight variation in the output grade
     * Fixes for various plants and certain primal blocks not getting along during WorldGen
 * Quantum Storage (4.4.11)

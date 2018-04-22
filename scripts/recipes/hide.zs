@@ -138,6 +138,9 @@ static hideIngredients as IIngredient[] = [
 	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:nether_clay>),
 	scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:clay>),
 
+	//Car Mod
+	<car:iron_stick>,
+
 	//Natura
 	<natura:bonemeal_bag>,
 	<natura:edibles:2>,

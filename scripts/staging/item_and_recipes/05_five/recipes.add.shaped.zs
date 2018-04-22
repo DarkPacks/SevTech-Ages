@@ -822,6 +822,24 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<rebornstorage:storagepart:6>, <minecraft:bucket>, <rebornstorage:storagepart:6>],
 			[<appliedenergistics2:material:24>, <rebornstorage:storagepart:6>, <appliedenergistics2:material:24>]
 		]
+	],
+
+	//Quantum Storage
+	<quantumstorage:quantum_storage_unit>: [
+		[
+			[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],
+			[metals.iron.ingot, <ironchest:iron_chest:2>, metals.iron.ingot],
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
+		]
+	],
+
+	// Extra Planets
+	<extraplanets:basic_chemical_injector>: [
+		[
+			[metals.uranium.ingot, metals.uranium.ingot, metals.uranium.ingot],
+			[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
+			[metals.uranium.ingot, metals.uranium.ingot, metals.uranium.ingot]
+		]
 	]
 
 };

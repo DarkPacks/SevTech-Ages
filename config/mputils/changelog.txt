@@ -47,6 +47,7 @@ Bug Fixes:
 * Fixed missed recipes for CarMod (#1852)
 * Fixed "Broken" tooltip from displaying on the Bound Blade
 * Moved raw and cooked ghast meat to age 2 from 3 (#1793)
+* Removed default recipe left in for Mechanical Squeezer (#1795)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

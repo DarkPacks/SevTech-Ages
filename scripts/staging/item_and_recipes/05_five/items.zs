@@ -615,6 +615,7 @@ var stage5Items as IIngredient[] = [
 
 	//Refined Storage
 	<refinedstorage:constructor>,
+	<refinedstorage:crafter_manager>,
 	<refinedstorage:crafter>,
 	<refinedstorage:crafting_monitor>,
 	<refinedstorage:destructor>,

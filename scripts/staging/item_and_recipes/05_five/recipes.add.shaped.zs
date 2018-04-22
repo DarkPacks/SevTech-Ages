@@ -427,6 +427,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:processorCalculation>, aeCores.annihilation, <ore:blockGlass>]
 		]
 	],
+	<refinedstorage:crafter_manager>: [
+		[
+			[<appliedenergistics2:material:24>, <refinedstorage:crafter>, <ore:blockGlass>],
+			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <ore:blockGlass>],
+			[<appliedenergistics2:material:24>, <refinedstorage:crafter>, <ore:blockGlass>]
+		]
+	],
 	<refinedstorage:crafter>: [
 		[
 			[<refinedstorage:quartz_enriched_iron>, aeCores.formation, <refinedstorage:quartz_enriched_iron>],

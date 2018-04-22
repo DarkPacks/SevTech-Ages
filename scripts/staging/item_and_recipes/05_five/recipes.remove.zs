@@ -46,6 +46,7 @@ var removeItems as IItemStack[] = [
 
 	//Refined Storage
 	<refinedstorage:constructor>,
+	<refinedstorage:crafter_manager>,
 	<refinedstorage:crafter>,
 	<refinedstorage:crafting_monitor>,
 	<refinedstorage:destructor>,

@@ -456,7 +456,6 @@ var stage4Items as IIngredient[] = [
 	<car:fuelstation>,
 	<car:generator>,
 	<car:hammer>,
-	<car:iron_stick>,
 	<car:key>,
 	<car:line_corner>,
 	<car:line_corner_yellow>,

@@ -210,6 +210,7 @@ for i in 0 to 16 {
 	Slab Wood
 */
 <ore:slabWood>.add(<abyssalcraft:dltslab1>);
+<ore:slabWood>.add(<primal:slab_yew>);
 
 /*
 	Misc

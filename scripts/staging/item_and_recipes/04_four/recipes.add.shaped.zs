@@ -1220,6 +1220,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, null, null]
 		]
 	],
+	<car:battery>: [
+		[
+			[metals.iron.rod, null, metals.iron.rod],
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
+		]
+	],
+	<car:number_plate>: [
+		[
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
+			[metals.iron.ingot, metals.iron.rod, metals.iron.ingot],
+			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
+		]
+	],
 
 	//Buildcraft Quarry
 	<buildcraftbuilders:quarry>: [

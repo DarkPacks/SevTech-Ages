@@ -575,7 +575,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:blockGlass>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <ore:blockGlass>],
 			[scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <bloodmagic:blood_orb:*>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>)],
-			[<tconstruct:firewood>, <twilightforest:fiery_blood>, <tconstruct:firewood>]
+			[<tconstruct:firewood>, <ore:bottleFiery>, <tconstruct:firewood>]
 		]
 	],
 	<bloodmagic:experience_tome> : [

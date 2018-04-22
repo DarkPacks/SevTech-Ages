@@ -112,7 +112,6 @@ var stage3Items as IIngredient[] = [
 	<primal:armor_ovis_legs>,
 	<primal:arrow_quartz>,
 	<primal:arrow_torch_nether>,
-	<primal:chunk_netherrack>,
 	<primal:corypha_pin>,
 	<primal:corypha_seed>,
 	<primal:corypha_stick>,
@@ -332,7 +331,6 @@ var stage3Items as IIngredient[] = [
 	//Primal
 	<primal:boat_corypha>,
 	<primal:cheese_red>,
-	<primal:chunk_soulsand>,
 	<primal:cineris_bloom>,
 	<primal:cineris_grass>,
 	<primal:corypha_stalk:1>,

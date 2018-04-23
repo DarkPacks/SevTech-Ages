@@ -53,6 +53,7 @@ Bug Fixes:
 * Disabled Liquid Coralium Transmutation to prevent massive lag (#1915)
 * Disabled Buildcraft fluid shards to prevent a dupe (#1602)
 * Fixed recipe for Filtered Buffer (#2014)
+* Fixed missing processing recipe for Ilmenite ore in the crusher (#1411)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

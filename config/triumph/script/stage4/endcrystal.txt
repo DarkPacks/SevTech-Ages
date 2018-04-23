@@ -8,8 +8,8 @@ setParent("triumph:stage4/solidendereye")
 setRequiresParent(true)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("minecraft:end_crystal", 0, 4)
+criteria = addCriteria("hasRock", "minecraft:summoned_entity")
+criteria.setEntityType("minecraft:ender_dragon")
 
 //Rewards
 setRewardExperience(12)

@@ -49,6 +49,7 @@ Bug Fixes:
 * Moved raw and cooked ghast meat to age 2 from 3 (#1793)
 * Removed default recipe left in for Mechanical Squeezer (#1795)
 * Fix Bio-Mash not being able to be crafted in player inventory and in any 2x2 area of grid (#2019)
+* Fix End Crystal advancement
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

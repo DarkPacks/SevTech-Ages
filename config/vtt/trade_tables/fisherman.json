@@ -21,19 +21,6 @@
           "id": "abyssalcraft:shoggothflesh",
           "Count": 1
         }
-      },
-      {
-        "action": "add",
-        "CareerLevel": 1,
-        "buy": {
-          "id": "minecraft:cooked_fish",
-          "Count": 10,
-          "Damage": 1
-        },
-        "sell": {
-          "id": "cyclicmagic:block_fishing",
-          "Count": 1
-        }
       }
     ]
   }

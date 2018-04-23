@@ -118,6 +118,24 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 	<integrateddynamics:menril_planks>: [
 		<integrateddynamics:menril_log>,
 		<integrateddynamics:menril_log_filled>
+	],
+	<extraplanets:kepler22b_planks>: [
+		<extraplanets:kepler22b_maple_logs>
+	],
+	<extraplanets:kepler22b_planks:1>: [
+		<extraplanets:kepler22b_maple_logs:1>
+	],
+	<extraplanets:kepler22b_planks:2>: [
+		<extraplanets:kepler22b_maple_logs:2>
+	],
+	<extraplanets:kepler22b_planks:3>: [
+		<extraplanets:kepler22b_maple_logs:3>
+	],
+	<extraplanets:kepler22b_planks:4>: [
+		<extraplanets:kepler22b_maple_logs2>
+	],
+	<extraplanets:kepler22b_planks:5>: [
+		<extraplanets:kepler22b_maple_logs2:1>
 	]
 };
 

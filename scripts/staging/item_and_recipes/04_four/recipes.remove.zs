@@ -228,7 +228,10 @@ var removeItems as IItemStack[] = [
 	<car:wrench>,
 	<car:axle>,
 	<car:battery>,
-	<car:number_plate>
+	<car:number_plate>,
+
+	//BuildCraft
+	<buildcrafttransport:filtered_buffer>
 ];
 
 for item in removeItems {

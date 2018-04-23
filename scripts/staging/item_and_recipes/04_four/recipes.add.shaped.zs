@@ -1345,8 +1345,16 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mob_grinding_utils:spikes>, <minecraft:redstone_block>, <mob_grinding_utils:spikes>],
 			[<appliedenergistics2:material>, metals.iron.block, <appliedenergistics2:material>]
 		]
-	]
+	],
 
+	//BuildCraft
+	<buildcrafttransport:filtered_buffer>: [
+		[
+			[<ore:plankWood>, <buildcrafttransport:pipe_stripes_item>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]
+		]
+	]
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -133,5 +133,13 @@ for plank, logs in plankLogPairs {
 
 		//Primal Tech
 		mods.primaltech.WaterSaw.addRecipe(plank, log, 80);
+
+		//Mekanism
+		mods.mekanism.sawmill.removeRecipe(log); //TODO: Try just removing the oredict
+
+		//For any recipes that need logs as an IItemStack
+		for logItem in log.items {
+			mods.mekanism.sawmill.addRecipe(logItem, plank * 6, <ore:dustWood>.firstItem * 2);
+		}
 	}
 }

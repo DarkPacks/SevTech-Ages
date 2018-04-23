@@ -147,6 +147,7 @@ Mod Updates:
 * Compact Machines (2.0.8-b200)
     * Fix NPE when tunnels are being checked on the client side
     * Only consume one catalyst item instead of the whole stack
+* CraftTweaker (4.1.7)
 * Cucumber (1.1.0)
     * Add guide book system POGGERS
 * Cyclic (1.14.9)
@@ -191,7 +192,7 @@ Mod Updates:
     * Backpacks are now equipable in the chest slot or as a bauble
     * When worn on chest backpacks can be opened with a keybind
     * Optimized updating backpack tile entities on clients
-* Industrial Foregoing (1.8.10-142)
+* Industrial Foregoing (1.8.10-143)
     * Added support for the Adult Filter in the Mob Slaughter Factory
     * Added Right Click Harvestability to cocoa beans as no other mod adds it so the Plant Interactor can harvest them.
     * Animal rancher will stop shearing animals if the inventory is full

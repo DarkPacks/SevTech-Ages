@@ -51,6 +51,7 @@ Bug Fixes:
 * Fix Bio-Mash not being able to be crafted in player inventory and in any 2x2 area of grid (#2019)
 * Fix End Crystal advancement
 * Disabled Liquid Coralium Transmutation to prevent massive lag (#1915)
+* Disabled Buildcraft fluid shards to prevent a dupe (#1602)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

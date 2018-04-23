@@ -1,6 +1,11 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+import mods.betterwithmods.Saw;
+import mods.horsepower.ChoppingBlock;
+import mods.mekanism.sawmill;
+import mods.primaltech.WaterSaw;
+
 var plankLogPairs as IIngredient[][IItemStack]  = {
 	<abyssalcraft:dltplank>: [
 		<abyssalcraft:dltlog>
@@ -15,14 +20,19 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 		<betterwithaddons:log_sakura>
 	],
 	<minecraft:planks:1>: [
+		<thebetweenlands:log_sap>,
 		<minecraft:log:1>,
 		<primal:logs_stripped:1>,
+		<twilightforest:magic_log>,
 		<twilightforest:twilight_log:1>,
 		<twilightforest:twilight_log:3>
 	],
 	<minecraft:planks:2>: [
+		<betterwithaddons:log_luretree_face>,
+		<betterwithaddons:log_luretree>,
 		<minecraft:log:2>,
 		<primal:logs_stripped:2>,
+		<twilightforest:magic_log:2>,
 		<twilightforest:twilight_log:2>
 	],
 	<minecraft:planks:3>: [
@@ -36,7 +46,8 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 	],
 	<minecraft:planks:5>: [
 		<minecraft:log2:1>,
-		<primal:logs_stripped:5>
+		<primal:logs_stripped:5>,
+		<twilightforest:magic_log:3>
 	],
 	<minecraft:planks>: [
 		<minecraft:log>,
@@ -143,21 +154,37 @@ for plank, logs in plankLogPairs {
 	for log in logs {
 		//Horsepower
 		//Add recipe for manual and automatic with different times for each. Makes it consistent for all
-		mods.horsepower.ChoppingBlock.add(log, plank * 4, 4, true);
-		mods.horsepower.ChoppingBlock.add(log, plank * 4, 2, false);
+		ChoppingBlock.add(log, plank * 4, 4, true);
+		ChoppingBlock.add(log, plank * 4, 2, false);
 
 		//Better With Mods
-		mods.betterwithmods.Saw.add(log, [plank * 6, <ore:dustWood>.firstItem * 2]);
+		Saw.add(log, [plank * 6, <ore:dustWood>.firstItem * 2]);
 
 		//Primal Tech
-		mods.primaltech.WaterSaw.addRecipe(plank, log, 80);
+		WaterSaw.addRecipe(plank, log, 80);
 
 		//Mekanism
-		mods.mekanism.sawmill.removeRecipe(log); //TODO: Try just removing the oredict
+		sawmill.removeRecipe(log); //TODO: Try just removing the oredict
 
 		//For any recipes that need logs as an IItemStack
 		for logItem in log.items {
-			mods.mekanism.sawmill.addRecipe(logItem, plank * 6, <ore:dustWood>.firstItem * 2);
+			sawmill.addRecipe(logItem, plank * 6, <ore:dustWood>.firstItem * 2);
 		}
 	}
+}
+
+/*
+	This array listing should only contain logs which don't have planks from the mod or don't make sense to convert to Vanilla Planks.
+
+	This will then remove the log from processig recipes (in higher tech) to not turn out as chopping blocks.
+*/
+var logsToRemove as IItemStack[] = [
+	<natura:redwood_logs:2>,
+	<natura:redwood_logs>,
+	<thebetweenlands:log_nibbletwig>,
+	<twilightforest:magic_log:1>
+];
+
+for log in logsToRemove {
+	sawmill.removeRecipe(log);
 }

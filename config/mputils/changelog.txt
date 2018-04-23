@@ -91,6 +91,7 @@ Enhancements:
 * Fix the immersive engineering windmill advancement typo (#1845)
 * Enabled rustic clay walls and staged in (#1822)
 * Added recipe to convert Raw PigMan hide to salted hide (#1787)
+* Added tooltip to the Quarry/Miner about usage in Space (#1452)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

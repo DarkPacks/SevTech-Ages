@@ -99,6 +99,7 @@ Cauldron.remove([<rustic:tallow>]);
 //Unstoked
 Cauldron.addUnstoked([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<ore:pelt>], [<betterwithmods:material:12>]);
+Cauldron.addUnstoked([<primal:pigman_hide_raw>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<totemic:buffalo_items>], [<betterwithmods:material:12> * 2]);

@@ -143,6 +143,7 @@ recipes.addShaped(<primal:thatch_wet>, [[<primal:thatching_wet>, <primal:thatchi
 recipes.addShaped(<primal:thatch>, [[<primal:thatching_dry>, <primal:thatching_dry>]]);
 
 //Leather Processing
+recipes.addShapeless(<primal:hide_salted>, [<primal:pigman_hide_raw>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 recipes.addShapeless(<primal:hide_salted>, [<primal:hide_raw>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 recipes.addShapeless(<primal:hide_tanned>, [<primal:hide_dried>, <primal:tannin_ground>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
 

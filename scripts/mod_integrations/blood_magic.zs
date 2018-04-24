@@ -61,7 +61,7 @@ BloodAltar.addRecipe(<cyclicmagic:food_step>, <minecraft:apple>, 0, 1500, 5, 5);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/TartaricForge/
 */
-TartaricForge.removeRecipe([<minecraft:redstone>, <minecraft:gunpowder>, <pickletweaks:dye_powder>, <minecraft:coal:1>]);
+TartaricForge.removeRecipe([<minecraft:redstone>, <pickletweaks:dye_powder>, <minecraft:gunpowder>, <minecraft:coal:*>]);
 TartaricForge.addRecipe(
 	<bloodmagic:arcane_ashes>,
 	[<betterwithaddons:tweakmat>, <minecraft:gunpowder>, <pickletweaks:dye_powder>, <minecraft:coal:1>],

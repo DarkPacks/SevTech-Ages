@@ -512,13 +512,10 @@ var itemsForStage as IIngredient[] = [
 	//Blood Magic
 	<bloodmagic:blood_rune:5>,
 	<bloodmagic:blood_rune:6>,
-	<bloodmagic:blood_rune:8>,
 	<bloodmagic:blood_rune:9>,
 	<bloodmagic:pack_self_sacrifice>,
 	<bloodmagic:path:2>,
 	<bloodmagic:path:3>,
-	<bloodmagic:path:4>,
-	<bloodmagic:path:5>,
 
 	//Galacticraft
 	<galacticraftcore:food:6>,

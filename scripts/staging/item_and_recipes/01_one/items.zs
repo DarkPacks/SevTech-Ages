@@ -1086,7 +1086,6 @@ var stage1Items as IIngredient[] = [
 	<bloodmagic:component:32>,
 	<bloodmagic:dagger_of_sacrifice>,
 	<bloodmagic:incense_altar>,
-	<bloodmagic:inscription_tool:5>,
 	<bloodmagic:monster_soul>,
 	<bloodmagic:path:1>,
 	<bloodmagic:path>,

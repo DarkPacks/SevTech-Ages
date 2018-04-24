@@ -13,6 +13,7 @@ static hideIngredients as IIngredient[] = [
 
 	<base:wrench>,
 	<baubles:ring>,
+	<bloodmagic:blood_rune:2>, // TODO: Remove this one the mod its self adds functionality to the block / adds a recipe.
 	<bloodmagic:component:14>,
 	<bloodmagic:sigil_compression>,
 	<cd4017be_lib:m>,

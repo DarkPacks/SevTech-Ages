@@ -17,7 +17,7 @@ var metalStages as string[string] = {
 	constantan: "three",
 	copper: "one",
 	dreadium: "two",
-	electrum: "two",
+	electrum: "three",
 	enhancedGalgadorian: "three",
 	ethaxium: "two",
 	fiery: "two",

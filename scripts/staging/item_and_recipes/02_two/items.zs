@@ -39,7 +39,6 @@ var stage2Items as IIngredient[] = [
 	<pickletweaks:repair_kit:2>,
 	<pickletweaks:repair_kit:3>,
 	<pickletweaks:repair_kit:17>,
-	<pickletweaks:repair_kit:21>,
 
 	//Ore
 	<abyssalcraft:abygolore>,
@@ -1032,7 +1031,6 @@ var stage2Items as IIngredient[] = [
 	<tconstruct:tinker_tank_controller>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 3 as short}}),
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),

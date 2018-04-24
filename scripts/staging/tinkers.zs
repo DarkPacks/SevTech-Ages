@@ -83,10 +83,8 @@ static materialsForStage as string[][string] = {
 		"abyssalnite",
 		"blueslime",
 		"bronze",
-		"constantan",
 		"copper",
 		"dreadium",
-		"electrum",
 		"feather",
 		"fierymetal",
 		"hemp",
@@ -112,6 +110,8 @@ static materialsForStage as string[][string] = {
 
 	STAGES.three : [
 		"blaze",
+		"constantan",
+		"electrum",
 		"endstone",
 		"firewood",
 		"lead",

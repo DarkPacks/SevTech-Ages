@@ -51,6 +51,7 @@ var stage3Items as IIngredient[] = [
 	<pickletweaks:repair_kit:18>,
 	<pickletweaks:repair_kit:19>,
 	<pickletweaks:repair_kit:20>,
+	<pickletweaks:repair_kit:21>,
 	<pickletweaks:repair_kit:22>,
 	<pickletweaks:repair_kit:23>,
 
@@ -1302,6 +1303,7 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 2 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 4 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 6 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),

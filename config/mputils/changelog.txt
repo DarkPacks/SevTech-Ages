@@ -148,7 +148,7 @@ Mod Updates:
 * Compact Machines (2.0.8-b200)
     * Fix NPE when tunnels are being checked on the client side
     * Only consume one catalyst item instead of the whole stack
-* CraftTweaker (4.1.7)
+* CraftTweaker (4.1.8)
 * Cucumber (1.1.0)
     * Add guide book system POGGERS
 * Cyclic (1.14.9)
@@ -179,12 +179,14 @@ Mod Updates:
     * Change the feeding trough range to five blocks
     * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
     * Fix merchant falling sound not playing for other players in multiplayer
-* Foamfix (0.9.7)
+* Foamfix (0.9.8)
     * Fix invalid Forge dependency
     * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
 * Hunting Dimension (1.0.24)
     * Added a cache system for frame variants. Also removed non full blocks from the candidate list.
     * Fixed setting spawn or sound chance to 0 causing a crash.
+* Immersive Engineering (0.12-81)
+    * See: https://minecraft.curseforge.com/projects/immersive-engineering/files/2554650
 * ImmersiveTech (1.3.7-SevTech-Ages)
     * Fixed Boiler crash
 * Improved Backpacks (1.2.0.2)

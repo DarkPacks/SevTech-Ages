@@ -225,3 +225,6 @@ var prospectingRodRange as int = 48;
 // Space!
 <mekanism:machineblock:4>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however."));
 <buildcraftbuilders:quarry>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however."));
+
+// Creeping Moss
+<huntingdim:biome_changer>.addTooltip(format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be."));

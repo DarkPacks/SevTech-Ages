@@ -486,6 +486,7 @@ var stageZeroItems as IIngredient[] = [
 	<primal_tech:work_stump_upgraded>,
 
 	//Pickeltweaks
+	<pickletweaks:coal_piece:1>,
 	<pickletweaks:dye_powder:1>,
 	<pickletweaks:dye_powder:2>,
 	<pickletweaks:dye_powder:3>,

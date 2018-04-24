@@ -34,7 +34,6 @@ var stage1Items as IIngredient[] = [
 	<immersiveengineering:stone_decoration_slab:10>,
 	<immersiveengineering:storage_slab>,
 	<immersiveengineering:tool>,
-	<pickletweaks:coal_piece:1>,
 	<pickletweaks:coal_piece>,
 	<prospectors:prospector_lowest>,
 	<teslacorelib:gear_stone>,

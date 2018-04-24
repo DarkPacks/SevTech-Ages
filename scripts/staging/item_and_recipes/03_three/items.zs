@@ -195,6 +195,7 @@ var stage3Items as IIngredient[] = [
 	<primal:stairs_netherrack>,
 	<primal:thatching_nether>,
 	<primal:valus_fiber>,
+	<primal:valus_melon>, // As generation is turned on already we should let people eat the melon. But the bread recipe has been removed.
 	<primal:valus_seed>,
 	<primal:valus_sepals>,
 	<primal:valus_stalk_fresh>,

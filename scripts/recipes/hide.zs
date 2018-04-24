@@ -438,7 +438,6 @@ static hideIngredients as IIngredient[] = [
 	<primal:urushi_bottle>,
 	<primal:urushi_ground>,
 	<primal:valus_bread>,
-	<primal:valus_melon>,
 	<primal:wall:15>,
 	<primal:wolf_meat_rotten>,
 	<primal:wood_pin>,

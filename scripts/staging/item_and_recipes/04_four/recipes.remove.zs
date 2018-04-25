@@ -56,6 +56,7 @@ var removeItems as IItemStack[] = [
 	<actuallyadditions:item_misc:16>,
 
 	//Cooking for Blockheads
+	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:oven>,
 	<cookingforblockheads:recipe_book:2>,
 	<cookingforblockheads:sink>,

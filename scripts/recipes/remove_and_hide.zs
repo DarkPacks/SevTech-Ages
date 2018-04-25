@@ -103,6 +103,7 @@ static removeAndHideItems as IItemStack[] = [
 	<overloaded:ray_gun>,
 	<pickletweaks:grass_fiber>,
 	<pickletweaks:reinforced_mesh>,
+	<primal:ash_wolf>,
 	<primal:boat_ironwood>,
 	<primal:boat_lacquer>,
 	<primal:boat_yew>,
@@ -226,7 +227,6 @@ static removeAndHideItems as IItemStack[] = [
 
 	//Cooking for Blockheads
 	<cookingforblockheads:cow_jar>,
-	<cookingforblockheads:milk_jar>,
 
 	//Simply Arrows
 	<simplyarrows:arrow_cake>,

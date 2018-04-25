@@ -511,6 +511,7 @@ var stage4Items as IIngredient[] = [
 	<cookingforblockheads:counter>,
 	<cookingforblockheads:fridge>,
 	<cookingforblockheads:kitchen_floor>,
+	<cookingforblockheads:milk_jar>,
 	<cookingforblockheads:oven>,
 	<cookingforblockheads:recipe_book:1>,
 	<cookingforblockheads:recipe_book:2>,

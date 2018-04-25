@@ -603,6 +603,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.aluminum.plate, scripts.crafting_utils.getBucketIngredient(<liquid:lava>), metals.aluminum.plate]
 		]
 	],
+	<cookingforblockheads:milk_jar>: [
+		[
+			[null, <ore:plankWood>, null],
+			[<ore:blockGlass>, <buildcraftfactory:tank>, <ore:blockGlass>],
+			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
+		]
+	],
 
 	//Pneumaticraft
 	<pneumaticcraft:programming_puzzle:1> * 8 : [

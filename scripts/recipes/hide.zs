@@ -29,7 +29,6 @@ static hideIngredients as IIngredient[] = [
 	<chisel:ironpane:10>,
 	<chisel:ironpane>,
 	<cookingforblockheads:cow_jar>,
-	<cookingforblockheads:milk_jar>,
 	<cyclicmagic:block_miner>,
 	<cyclicmagic:block_miner_smart>,
 	<cyclicmagic:sack_ender>,

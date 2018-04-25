@@ -622,7 +622,6 @@ var stageZeroItems as IIngredient[] = [
 	<primal:armor_wolf_legs>,
 	<primal:ash_common>,
 	<primal:ash_ironwood>,
-	<primal:ash_wolf>,
 	<primal:ash_yew>,
 	<primal:bark_acacia>,
 	<primal:bark_bigoak>,

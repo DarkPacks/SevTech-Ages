@@ -59,6 +59,7 @@ Bug Fixes:
 * Fixed staging on various Blood Magic items (#1238)
 * Fixed staging on Charcoal piece (#1248)
 * Fixed old recipe not being removed for Arcane Ashes (#1779)
+* Fixed incorrect staging for Electrum/Constantan (#1517)
 * Remove slimeball dupe (##2040)
 
 Enhancements:
@@ -99,6 +100,14 @@ Enhancements:
 * Enabled rustic clay walls and staged in (#1822)
 * Added recipe to convert Raw PigMan hide to salted hide (#1787)
 * Added tooltip to the Quarry/Miner about usage in Space (#1452)
+* Added Valus Melon to staging (#1349)
+* Added more books to the ImmCraft Bookshelf (#1368)
+* Added tooltip to the Creeping Moss on how to use it (#1968)
+* Disabled Black Quartz from BWM (#1937)
+* Added Betweenlands Infuser & Mortar to CarryOn blacklist (#1935)
+* Diabled the BWM Manual being given by the mod via the config (#1724)
+* Removed the Wolf Ash from JEI as we don't have a use for it.
+* Added usage for the Wold Head (#851)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -184,7 +193,7 @@ Mod Updates:
     * Change the feeding trough range to five blocks
     * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
     * Fix merchant falling sound not playing for other players in multiplayer
-* Foamfix (0.9.8)
+* Foamfix (0.9.9)
     * Fix invalid Forge dependency
     * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
 * Hunting Dimension (1.0.24)
@@ -224,6 +233,7 @@ Mod Updates:
     * Fix Heart rendering with >120 hearts. It'll loop correctly now. However if you actually had more than 120 hearts, you should take a break and reconsider your life choices.
     * Fix book crashing when trying to render a missing item (at least in some instances)
     * Make getSubBlocks also available serverside (pre 1.12 leftover)
+* Mekanism (9.4.4.337)
 * Mob Grinding Utils (0.3.6)
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.

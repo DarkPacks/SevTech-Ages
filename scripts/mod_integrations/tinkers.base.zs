@@ -96,9 +96,9 @@ Casting.addBasinRecipe(<ironchest:iron_chest:6>, <ironchest:iron_chest:7>, <liqu
 Casting.addBasinRecipe(<ironchest:iron_chest:5>, <ironchest:iron_chest:1>, <liquid:astralsorcery.liquidstarlight>, 1152, true, 300);
 
 //Slime Ball Casting
-Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime>, 160, false, 40);
-Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime>, 160, false, 40);
-Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime>, 160, false, 40);
+Casting.addTableRecipe(<tconstruct:edible:2>, null, <liquid:purpleslime>, 250, false, 40);
+Casting.addTableRecipe(<tconstruct:edible:1>, null, <liquid:blueslime>, 250, false, 40);
+Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime>, 250, false, 40);
 
 Casting.addBasinRecipe(<tconstruct:slime_congealed:3>, null, <liquid:blood>, 640, false, 60);
 

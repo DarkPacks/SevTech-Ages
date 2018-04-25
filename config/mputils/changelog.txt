@@ -59,6 +59,7 @@ Bug Fixes:
 * Fixed staging on various Blood Magic items (#1238)
 * Fixed staging on Charcoal piece (#1248)
 * Fixed old recipe not being removed for Arcane Ashes (#1779)
+* Remove slimeball dupe (##2040)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

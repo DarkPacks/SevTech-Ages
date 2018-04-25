@@ -20,6 +20,12 @@
     },
     {
       "target": "black",
+      "weight": 2,
+      "count": 1,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+      "target": "black",
       "weight": 64,
       "count": 1,
       "id": "OD:oreCoal"

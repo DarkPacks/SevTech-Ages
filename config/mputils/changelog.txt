@@ -112,11 +112,13 @@ Enhancements:
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
     * Needed for the .16 update to BuildCraft to keep the plugs/facades.
+* ReAuth (3.5.2)
+    * Fixes the Problem of having to restart your Client when your Session is invalid
 * Just Enough Petroleum (0.1)
     * Adds JEI support for Immersive Petroleum
 
 Mod Updates:
-* Forge: 14.23.3.2669
+* Forge: 14.23.3.2673
 
 * AbyssalCraft (1.9.4.8)
     * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262

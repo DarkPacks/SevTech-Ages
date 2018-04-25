@@ -60,7 +60,7 @@ Bug Fixes:
 * Fixed staging on Charcoal piece (#1248)
 * Fixed old recipe not being removed for Arcane Ashes (#1779)
 * Fixed incorrect staging for Electrum/Constantan (#1517)
-* Remove slimeball dupe (##2040)
+* Remove slimeball dupe (#2040)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

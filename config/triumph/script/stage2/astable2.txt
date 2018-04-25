@@ -15,8 +15,8 @@ setUncompletedTitleColor(8947848)
 setCompletedTitleColor(6570404)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("astralsorcery:blockaltar", 1)
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock("astralsorcery:blockaltar", 1)
 
 //Rewards
 setRewardExperience(8)

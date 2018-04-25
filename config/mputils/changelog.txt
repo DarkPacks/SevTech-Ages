@@ -61,6 +61,7 @@ Bug Fixes:
 * Fixed old recipe not being removed for Arcane Ashes (#1779)
 * Fixed incorrect staging for Electrum/Constantan (#1517)
 * Remove slimeball dupe (#2040)
+* Fixed Lonsdaleite Cystal being missing in the Environmental Tech config (#1708)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -107,11 +108,15 @@ Enhancements:
 * Added Betweenlands Infuser & Mortar to CarryOn blacklist (#1935)
 * Diabled the BWM Manual being given by the mod via the config (#1724)
 * Removed the Wolf Ash from JEI as we don't have a use for it.
-* Added usage for the Wold Head (#851)
+* Added usage for the Wolf Head (#851)
+* Changeds Starlight Advancement to use right click on the upgraded table (#978)
+* Added tooltips to the GC rocket schematics to help users on what planet to find them (#2052)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
     * Needed for the .16 update to BuildCraft to keep the plugs/facades.
+* FindMe (1.0.1-5)
+    * FindMe allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press "Y".
 * ReAuth (3.5.2)
     * Fixes the Problem of having to restart your Client when your Session is invalid
 * Just Enough Petroleum (0.1)
@@ -127,6 +132,8 @@ Mod Updates:
     * Worm should no longer attempt to post a UseHoeEvent on farmland.
     * Only items with FE capability can be placed in the energizer.
     * Oil generator outputs now properly scale with configured values.
+* Astral Sorcery (1.8.8)
+    * Tonnes of fixes!
 * Better With Addons (0.39hotfix2)
     * Fixes another stray CME from hardcore packing. It just keeps happening.
     * Fixes two crashes with getBlockFaceShape. Oops.
@@ -149,6 +156,7 @@ Mod Updates:
     * Fixed a crash when trying to use unbound toggle-able sigils in the Sigil of Holding
     * Fixed Turret Array crash on servers.
     * Fixed the Blood Altar so it can actually fill Blood Orbs (derp).
+* BNBGamingLib (2.11.1)
 * Bonsai Trees (1.0.4-b71)
     * Breaking a bonsai pot with an axe is now faster
     * Fix crashes/issues caused by always returning a capability even when it shouldnt.
@@ -178,6 +186,7 @@ Mod Updates:
     * Added a Time and date stamp to the compass so people know which is which when
 * Default Options (9.2.7)
     * Fixed crash on keys with colons in their names
+* Dimensional Control (2.10.2)
 * EnderUtils (0.7.8)
     * Add a Pet Contract item, which allows changing the ownership of tameable mobs
     * Add camouflage ability to the Barrel
@@ -306,7 +315,7 @@ Mod Updates:
     * New Arid Highland biome - hilly desert with acacia trees and a bit of grass (TEMP: Biomes.DESERT)
     * New Thicket biome - dense forest with a coarse dirt and grass floor (TEMP: 0.8F Extends Biome)
     * New Rocky Plains biome - a less flat plains with patches of rock and greener grass (Idea suggested by MechWarrior) (TEMP: 0.9F Extends Normal Plains)
-* Triumph (1.11.1)
+* Triumph (1.12.0)
 * Trumpet Skeleton (1.0.2.1)
     * Fixed issue causing crash on dedicated server.
     * Added parrot imitation sounds for Trumpet Skeletons.

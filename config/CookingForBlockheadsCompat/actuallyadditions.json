@@ -1,0 +1,28 @@
+{
+    "modid": "actuallyadditions",
+    "foods": {
+        "INGREDIENTS": [
+            "food_meatballs",
+            "item_food",
+            {
+                "item": "item_food",
+                "data": 8
+            },
+            {
+                "item": "item_food",
+                "data": 12
+            },
+            {
+                "item": "item_food",
+                "data": 14
+            },
+            {
+                "item": "item_food",
+                "data": 20
+            }
+        ]
+    },
+    "oven_recipes": {
+        "item_food:14": "cooked_omelet"
+    }
+}

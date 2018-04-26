@@ -1,0 +1,27 @@
+{
+    "modid": "betterwithaddons",
+    "foods": {
+        "INGREDIENTS": [
+            "food_ground_meat",
+            "unbaked",
+            {
+                "item": "unbaked",
+                "data": 1
+            },
+            {
+                "item": "unbaked",
+                "data": 2
+            },
+            {
+                "item": "unbaked",
+                "data": 3
+            }
+        ]
+    },
+    "oven_recipes": {
+        "unbaked": "food_pie_melon",
+        "unbaked:1": "food_pie_meat",
+        "unbaked:2": "food_pie_mushroom",
+        "unbaked:3": "food_pie_amanita"
+    }
+}

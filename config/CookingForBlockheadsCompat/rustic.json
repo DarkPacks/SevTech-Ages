@@ -1,0 +1,9 @@
+{
+    "modid": "rustic",
+    "foods": {
+        "INGREDIENTS": [
+            "chili_pepper",
+            "tomato"
+        ]
+    }
+}

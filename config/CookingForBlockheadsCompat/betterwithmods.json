@@ -1,0 +1,15 @@
+{
+    "modid": "betterwithmods",
+    "foods": {
+        "INGREDIENTS": [
+            "betterwithmods:raw_pastry",
+            {
+                "item": "raw_pastry",
+                "data": 1
+            }
+        ]
+    },
+    "oven_recipes": {
+        "raw_omelet": "cooked_omelet"
+    }
+}

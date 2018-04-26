@@ -24,8 +24,14 @@ Kiln.remove([<betterwithmods:raw_pastry:3>]);
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Turntable/
 */
-Turntable.add(<ceramics:clay_barrel_unfired>, <ceramics:clay_barrel_unfired:1>, []);
-Turntable.add(<ceramics:clay_barrel_unfired:1>, <ceramics:clay_bucket_block>, []);
+Turntable.builder()
+	.buildRecipe(<ceramics:clay_barrel_unfired>, [])
+	.setProductState(<ceramics:clay_barrel_unfired:1>)
+	.build();
+Turntable.builder()
+	.buildRecipe(<ceramics:clay_barrel_unfired:1>, [])
+	.setProductState(<ceramics:clay_bucket_block>)
+	.build();
 
 /*
 	Mill

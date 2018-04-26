@@ -50,7 +50,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:crafting_table> : [
 		[[plank, plank], [plank, plank]]
 	],
-	<minecraft:ladder> : [
+	<minecraft:ladder> * 3: [
 		[[stick, null, stick], [stick, stick, stick], [stick, null, stick]]
 	],
 	<primal_tech:leaf_bed> : [

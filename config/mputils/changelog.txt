@@ -62,6 +62,7 @@ Bug Fixes:
 * Fixed incorrect staging for Electrum/Constantan (#1517)
 * Remove slimeball dupe (#2040)
 * Fixed Lonsdaleite Cystal being missing in the Environmental Tech config (#1708)
+* The Ladder recipe now gives 3 instead of 1
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

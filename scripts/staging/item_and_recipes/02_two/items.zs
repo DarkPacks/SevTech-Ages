@@ -1208,7 +1208,6 @@ var stage2Items as IIngredient[] = [
 	<bloodmagic:sentient_bow>,
 	<bloodmagic:sentient_pickaxe>,
 	<bloodmagic:sentient_shovel>,
-	<bloodmagic:sentient_sword>,
 	<bloodmagic:sigil_fast_miner>,
 	<bloodmagic:sigil_magnetism>,
 	<bloodmagic:sigil_void>,

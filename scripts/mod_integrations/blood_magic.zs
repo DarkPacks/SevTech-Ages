@@ -164,3 +164,9 @@ TartaricForge.addRecipe(
 	[<extendedcrafting:material>, <astralsorcery:itemrockcrystalsimple>, <appliedenergistics2:material:46>, <minecraft:dye:4>],
 	100, 20
 );
+
+TartaricForge.addRecipe(
+	<bloodmagic:sentient_sword>,
+	[<bloodmagic:soul_gem>, <actuallyadditions:item_sword_quartz>],
+	0, 0
+);

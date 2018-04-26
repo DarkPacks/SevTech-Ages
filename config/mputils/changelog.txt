@@ -112,6 +112,7 @@ Enhancements:
 * Changeds Starlight Advancement to use right click on the upgraded table (#978)
 * Added tooltips to the GC rocket schematics to help users on what planet to find them (#2052)
 * Added more foods to Cooking For Blockheads (#2051)
+* Moved the Blood Magic Sentient sword to Stage One and gave it a new recipe
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

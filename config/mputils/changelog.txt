@@ -111,6 +111,7 @@ Enhancements:
 * Added usage for the Wolf Head (#851)
 * Changeds Starlight Advancement to use right click on the upgraded table (#978)
 * Added tooltips to the GC rocket schematics to help users on what planet to find them (#2052)
+* Added more foods to Cooking For Blockheads (#2051)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -143,12 +144,14 @@ Mod Updates:
     * Fixes NPE when mods add null oredict names
     * Fixes crash when placing a waterwheel in forge fluids (Oops)
     * Internal Changes for CT integration
-* Betweenlands (3.3.7)
+* Betweenlands (3.3.8)
     * Workaround for Intel graphics driver crash
     * Fixed some block models causing crash when non-forge lighting pipeline is used
     * Fixed double tall underwater plant stalks not breaking when flower is broken
     * Fixed Mortars not saving their rotation
     * Fixed changing translation causing crash when opening Herblore book
+    * Fixed Valonite Shield causing crash when charging into each other
+    * Fixed world locations sometimes not syncing properly when teleporting
 * Blood Magic (2.2.10-93)
     * Fixed a client side null-pointer exception with the Blood Lamp
         * It's a bright idea to fix this as soon as I can.
@@ -247,7 +250,7 @@ Mod Updates:
     * Fix Heart rendering with >120 hearts. It'll loop correctly now. However if you actually had more than 120 hearts, you should take a break and reconsider your life choices.
     * Fix book crashing when trying to render a missing item (at least in some instances)
     * Make getSubBlocks also available serverside (pre 1.12 leftover)
-* Mekanism (9.4.4.339)
+* Mekanism (9.4.5.340)
 * Mob Grinding Utils (0.3.6)
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.
@@ -307,7 +310,7 @@ Mod Updates:
     * Fix temperature in the melter GUI not matching JEI
 * Toast Control (1.5.0)
 * Totemic (0.11.0)
-* Traverse (1.5.0-50)
+* Traverse (1.5.1-52)
     * Fixed a crash issue
     * New Desert Shrubland biome
     * Fences and fence gates now have ore dict names

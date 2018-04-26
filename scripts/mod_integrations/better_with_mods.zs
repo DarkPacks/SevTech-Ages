@@ -6,10 +6,18 @@ import mods.betterwithaddons.SoakingBox;
 import mods.betterwithaddons.Spindle;
 import mods.betterwithmods.Cauldron;
 import mods.betterwithmods.Crucible;
+import mods.betterwithmods.Kiln;
 import mods.betterwithmods.Mill;
 import mods.betterwithmods.MiniBlocks;
 import mods.betterwithmods.Saw;
 import mods.betterwithmods.Turntable;
+
+/*
+	Kiln
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Kiln/
+*/
+Kiln.remove([<betterwithmods:raw_pastry:3>]);
 
 /*
 	Turntable

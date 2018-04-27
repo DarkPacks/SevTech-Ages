@@ -15,7 +15,7 @@ setUncompletedTitleColor(8947848)
 setCompletedTitleColor(6570404)
 
 //Criteria
-criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria = addCriteria("hasRock", "triumph:right_click_block")
 criteria.setBlock("astralsorcery:blockaltar", 1)
 
 //Rewards

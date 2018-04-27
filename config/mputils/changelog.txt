@@ -154,13 +154,15 @@ Mod Updates:
     * Fixed changing translation causing crash when opening Herblore book
     * Fixed Valonite Shield causing crash when charging into each other
     * Fixed world locations sometimes not syncing properly when teleporting
-* Blood Magic (2.2.10-93)
+* Blood Magic (2.2.10-96)
     * Fixed a client side null-pointer exception with the Blood Lamp
         * It's a bright idea to fix this as soon as I can.
     * Fixed a server crash when handling dye recipes
     * Fixed a crash when trying to use unbound toggle-able sigils in the Sigil of Holding
     * Fixed Turret Array crash on servers.
     * Fixed the Blood Altar so it can actually fill Blood Orbs (derp).
+    * Fixed the Alchemy Array from voiding items when broken when it shouldn't have.
+    * Fixed Blood Tank NBT transfer between item/tile form.
 * BNBGamingLib (2.11.1)
 * Bonsai Trees (1.0.4-b71)
     * Breaking a bonsai pot with an axe is now faster
@@ -256,6 +258,7 @@ Mod Updates:
 * Mob Grinding Utils (0.3.6)
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.
+* Mod Tweaker (4.0.10)
 * Modular Machinery (1.9.1)
      * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
 * Modular Routers (3.1.3)
@@ -287,9 +290,11 @@ Mod Updates:
 * PrimalCore (0.6.47)
     * Charcoal Stacks now have a slight variation in the output grade
     * Fixes for various plants and certain primal blocks not getting along during WorldGen
-* Quantum Storage (4.4.12)
+* Quantum Storage (4.5.0)
     * Fixed z-fighting on new crate model.
     * Added new models for the Crafting machine and Crating machine.
+    * Added Quantum Bag (Works like EE2 Alchemical Bags)
+    * Fixed some partials not working after model change.
 * RebornCore (3.8.0.264)
 * Reborn Storage (3.0.6.43)
     *  Added support for crafter manager
@@ -331,6 +336,7 @@ Mod Updates:
     * Rewrote registry system
     * Added config option for what biomes penguins can spawn in, based on BiomeDictionary types
     * Fixed penguins returning null in getLootTable, which broke compatibility with loot table mods
+* Water Control Extreme (1.0.2)
 
 ---------------------------------------------------------------------
 

@@ -41,7 +41,7 @@ Turntable.builder()
 //Rice Flour
 Mill.addRecipe([<actuallyadditions:item_food:16>], [<betterwithaddons:japanmat:4>]);
 
-Mill.addRecipe([<minecraft:flint>, <minecraft:clay_ball>, <minecraft:dye:15>], [<ceramics:unfired_clay:4>]);
+Mill.addRecipe([<minecraft:flint>, <minecraft:clay_ball>, <pickletweaks:dye_powder>], [<ceramics:unfired_clay:4>]);
 Mill.addRecipe([<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>], [<tconstruct:soil> * 2]);
 
 //THERE CAN BE ONLY 1 FLOUR!

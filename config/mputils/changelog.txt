@@ -140,10 +140,15 @@ Mod Updates:
     * Oil generator outputs now properly scale with configured values.
 * Astral Sorcery (1.8.8)
     * Tonnes of fixes!
-* Better With Addons (0.39hotfix2)
+* Better With Addons (0.40hotfix)
     * Fixes another stray CME from hardcore packing. It just keeps happening.
     * Fixes two crashes with getBlockFaceShape. Oops.
     * Fixes Aqueduct Water acting like a fluid tank and adds a config option to preserve that behavior
+    * Fixes Mooshrooms fissioning into two cows and 10 mushrooms.
+    * Fixes Saplings not breaking instantly because they were trying very hard to be leaves instead probably
+    * Fixes Greatarrows crash when impacting Biomes o Plenty soil (for how much shit i gave them about the farming crash i make a lot of the same mistakes)
+    * Fixes Paper Lantern recipe missing entirely
+    * Fixes cullfaces on recessed Tatami Mats aka they'll look better when combined with other slat block
 * Better With Mods (2.1.12)
     * Fixes NPE when Kiln has invalid heat source
     * Fixes NPE when mods add null oredict names

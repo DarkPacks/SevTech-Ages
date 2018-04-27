@@ -2035,6 +2035,7 @@ var stage5Items as IIngredient[] = [
 	//Quantum Storage
 	<quantumstorage:crate>,
 	<quantumstorage:crater>,
+	<quantumstorage:quantum_bag:*>,
 	<quantumstorage:quantum_barrel>,
 	<quantumstorage:quantum_storage_unit>,
 	<quantumstorage:quantum_tank>,

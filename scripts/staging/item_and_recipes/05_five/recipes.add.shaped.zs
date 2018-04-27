@@ -832,6 +832,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Quantum Storage
+	<quantumstorage:quantum_bag>: [
+		[
+			[<ore:wool>, <betterwithmods:rope>, <ore:wool>],
+			[<ore:wool>, <ironchest:iron_chest:2>, <ore:wool>],
+			[<ore:wool>, <ore:wool>, <ore:wool>]
+		]
+	],
 	<quantumstorage:quantum_storage_unit>: [
 		[
 			[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],

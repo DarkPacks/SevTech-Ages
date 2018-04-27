@@ -213,6 +213,13 @@ recipes.addShaped(<totemic:wind_chime>, [[stick, stick, stick], [str, <minecraft
 
 recipes.addShapeless(<totemic:totempedia>, [<ore:treeSapling>, <primal:plant_cloth>]);
 
+// We have to remove this one manually cos it uses ForgeOreShapless Children for the dye recipes.
+recipes.removeShaped(<quantumstorage:quantum_bag>, [
+	[<ore:wool>, <minecraft:string>, <ore:wool>],
+	[<ore:wool>, <quantumstorage:chest_diamond>, <ore:wool>],
+	[<ore:wool>, <ore:wool>, <ore:wool>]
+]);
+
 
 
 

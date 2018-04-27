@@ -17,7 +17,7 @@ import mods.betterwithmods.Turntable;
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BetterWithMods/Kiln/
 */
-Kiln.remove([<betterwithmods:raw_pastry:3>]);
+Kiln.remove([<minecraft:bread>]);
 
 /*
 	Turntable

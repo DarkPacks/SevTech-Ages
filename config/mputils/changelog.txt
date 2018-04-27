@@ -41,7 +41,7 @@ Bug Fixes:
 * Inconsistent behaviour with barley (#1966)
 * Fixed being unable to craft Drying Rack with Yew slabs (#1944)
 * Fixed dupe recipes for the Map (#1798)
-* Fixed Quantum Storage Create being hidden in JEI (#1967)
+* Fixed Quantum Storage Crate being hidden in JEI (#1967)
 * Fixed Crystallized Obsidian armour being staged incorrectly (#1477)
 * Fixed recipe for Fire Charm due to staging (#1807)
 * Fixed missed recipes for CarMod (#1852)

@@ -264,9 +264,9 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal:barrel> : [
 		[
-			[<minecraft:planks>, null, <minecraft:planks>],
-			[<minecraft:planks>, null, <minecraft:planks>],
-			[<minecraft:planks>, <minecraft:wooden_slab>, <minecraft:planks>]
+			[<ore:barrelPlank>, null, <ore:barrelPlank>],
+			[<ore:barrelPlank>, null, <ore:barrelPlank>],
+			[<ore:barrelPlank>, <ore:barrelSlab>, <ore:barrelPlank>]
 		]
 	],
 	<primal:barrel:1> : [

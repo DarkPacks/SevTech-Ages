@@ -115,6 +115,7 @@ Enhancements:
 * Added more foods to Cooking For Blockheads (#2051)
 * Moved the Blood Magic Sentient sword to Stage One and gave it a new recipe
 * Added support for any bucket type in Astral Sorcery recipes (#1809)
+* Any unsupported plank type for barrels will now make an Oak Barrel (#2085)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

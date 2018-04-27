@@ -25,7 +25,7 @@ var removeFromWoodDict as IItemStack[] = [
 	<primal:planks>
 ];
 
-for plankName in removeFromDict {
+for plankName in removeFromWoodDict {
 	oreBarrelPlank.remove(plankName);
 }
 

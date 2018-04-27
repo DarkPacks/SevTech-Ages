@@ -13,13 +13,7 @@ Altar.removeAltarRecipe(<astralsorcery:blockaltar:1>, 0);
 
 Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 200, 1600, [
 	<astralsorcery:blockmarble:2>, <ore:asCrystal>, <astralsorcery:blockmarble:2>,
-	<astralsorcery:blockmarble:4>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "astralsorcery.liquidstarlight", Amount: 1000}}), <astralsorcery:blockmarble:4>,
-	<astralsorcery:blockmarble:2>, null, <astralsorcery:blockmarble:2>
-]);
-
-Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 200, 1600, [
-	<astralsorcery:blockmarble:2>, <ore:asCrystal>, <astralsorcery:blockmarble:2>,
-	<astralsorcery:blockmarble:4>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <astralsorcery:blockmarble:4>,
+	<astralsorcery:blockmarble:4>, scripts.crafting_utils.getBucketIngredient(<liquid:astralsorcery.liquidstarlight>), <astralsorcery:blockmarble:4>,
 	<astralsorcery:blockmarble:2>, null, <astralsorcery:blockmarble:2>
 ]);
 

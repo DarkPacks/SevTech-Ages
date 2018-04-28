@@ -118,6 +118,7 @@ Enhancements:
 * Moved the Blood Magic Sentient sword to Stage One and gave it a new recipe
 * Added support for any bucket type in Astral Sorcery recipes (#1809)
 * Any unsupported plank type for barrels will now make an Oak Barrel (#2085)
+* Disabled the Cyclic Shear block to force the path in the pack. (#2106)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -130,7 +131,7 @@ Mods Added:
     * Adds JEI support for Immersive Petroleum
 
 Mod Updates:
-* Forge: 14.23.3.2673
+* Forge: 14.23.3.2675
 
 * AbyssalCraft (1.9.4.8)
     * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262

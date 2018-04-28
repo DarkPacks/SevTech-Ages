@@ -11,8 +11,6 @@ static hideIngredients as IIngredient[] = [
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
 
-	<astralsorcery:blockportalnode>, // This is a portal node registered as a block hidden from JEI as its not really a thing people need to see.
-
 	<base:wrench>,
 	<baubles:ring>,
 	<bloodmagic:blood_rune:2>, // TODO: Remove this one the mod its self adds functionality to the block / adds a recipe.

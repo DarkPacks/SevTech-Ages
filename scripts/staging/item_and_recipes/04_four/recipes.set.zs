@@ -232,7 +232,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_library>,
 	<cyclicmagic:block_library_ctrl>,
 	<cyclicmagic:block_screen>,
-	<cyclicmagic:block_shears>,
 	<cyclicmagic:block_storeempty>,
 	<cyclicmagic:block_user>,
 	<cyclicmagic:block_vacuum>,

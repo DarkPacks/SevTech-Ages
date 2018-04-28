@@ -1,4 +1,5 @@
 import scripts.mod_integrations.modular_machinery.base.createRecipeName;
+import mods.modularmachinery.RecipeBuilder;
 
 function squareNum(number as int, timesToSquare as int) as int {
 	var returnNumber = number;
@@ -26,7 +27,7 @@ for i in 0 to machineCount {
 
 	var defaultTimeScaler = (i + 1) > 2 ? squareNum(2, i - 1) : i + 1;
 
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "dough"), machineNameComplete, 300 / defaultTimeScaler)
+	RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "dough"), machineNameComplete, 300 / defaultTimeScaler)
 		.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
 		.addItemOutput(<ore:foodDough>, 4)
 		.addItemInput(<ore:foodSalt>)
@@ -35,7 +36,7 @@ for i in 0 to machineCount {
 		.build();
 
 	//TODO: This in json was 600, 150, 75 recipe time. Should this be standardized or made exactly like the json?
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "hide_salted"), machineNameComplete, 300 / defaultTimeScaler)
+	RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "hide_salted"), machineNameComplete, 300 / defaultTimeScaler)
 		.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
 		.addItemOutput(<ore:hideSalted>, 4)
 		.addItemInput(<ore:foodSalt>)
@@ -43,7 +44,7 @@ for i in 0 to machineCount {
 		.addFluidInput(<liquid:water> * 250)
 		.build();
 
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "hide_tanned"), machineNameComplete, 300 / defaultTimeScaler)
+	RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "hide_tanned"), machineNameComplete, 300 / defaultTimeScaler)
 		.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
 		.addItemOutput(<ore:hideTanned>, 4)
 		.addItemInput(<ore:dustTannin>)
@@ -51,7 +52,7 @@ for i in 0 to machineCount {
 		.addFluidInput(<liquid:water> * 250)
 		.build();
 
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "paper_pulp"), machineNameComplete, 300 / defaultTimeScaler)
+	RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "paper_pulp"), machineNameComplete, 300 / defaultTimeScaler)
 		.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
 		.addItemOutput(<primal:plant_fiber_pulp> * 4)
 		.addItemInput(<ore:glue>)

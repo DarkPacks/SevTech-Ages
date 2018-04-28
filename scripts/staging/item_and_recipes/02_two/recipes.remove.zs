@@ -69,6 +69,7 @@ var removeItems as IItemStack[] = [
 	<tconstruct:tinker_tank_controller>,
 
 	//Info Accessories
+	<infoaccessories:info_accessory:1>,
 	<infoaccessories:info_accessory:2>,
 	<infoaccessories:info_accessory:4>,
 	<infoaccessories:info_accessory:5>,

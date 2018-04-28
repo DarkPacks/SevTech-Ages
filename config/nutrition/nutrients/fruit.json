@@ -44,7 +44,25 @@
 			"thebetweenlands:middle_fruit_jello",
 			"thebetweenlands:mince_pie",
 			"thebetweenlands:sap_jello",
-			"thebetweenlands:sludge_jello"
+			"thebetweenlands:sludge_jello",
+            "betterwithaddons:laxative",
+            "extraplanets:apple_diamond",
+            "extraplanets:apple_iron",
+            "galacticraftcore:food",
+            "galacticraftcore:food:2",
+            "integrateddynamics:menril_berries",
+            "mysticalagriculture:inferium_apple",
+            "mysticalagriculture:intermedium_apple",
+            "mysticalagriculture:prudentium_apple",
+            "mysticalagriculture:superium_apple",
+            "mysticalagriculture:supremium_apple",
+            "natura:saguaro_fruit_item",
+            "pickletweaks:diamond_apple",
+            "pickletweaks:emerald_apple",
+            "primal:valus_melon",
+            "primal:yew_aril",
+            "primal:yew_aril_seedless",
+            "thebetweenlands:christmas_pudding"
 		]
 	}
 }

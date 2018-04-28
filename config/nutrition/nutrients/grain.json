@@ -59,7 +59,13 @@
 			"thebetweenlands:jam_donut",
 			"thebetweenlands:reed_donut",
 			"twilightforest:maze_wafer",
-			"twilightforest:meef_stroganoff"
+			"twilightforest:meef_stroganoff",
+            "actuallyadditions:item_canola_seed",
+            "actuallyadditions:item_coffee",
+            "ferdinandsflowers:block_birthday",
+            "galacticraftcore:food:5",
+            "galacticraftcore:food:8",
+            "thebetweenlands:christmas_pudding"
 		]
 	}
 }

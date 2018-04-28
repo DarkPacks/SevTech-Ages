@@ -95,7 +95,13 @@
 			"thebetweenlands:marshmallow",
 			"thebetweenlands:marshmallow_pink",
 			"thebetweenlands:nettle_soup",
-			"thebetweenlands:weeping_blue_petal"
+			"thebetweenlands:weeping_blue_petal",
+            "galacticraftcore:food:1",
+            "galacticraftcore:food:3",
+            "primal:corn_ground",
+            "primal:corn_seeds",
+            "primal:potato_boiled",
+            "thebetweenlands:weeping_blue_petal_salad"
 		]
 	}
 }

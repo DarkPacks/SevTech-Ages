@@ -64,6 +64,7 @@ Bug Fixes:
 * Fixed Lonsdaleite Cystal being missing in the Environmental Tech config (#1708)
 * The Ladder recipe now gives 3 instead of 1
 * Switched the Unfired Porcelain millstone recipe to require white dye instead of bonemeal to stop a conflicting recipe interfering with progression
+* Added recipe for sextant (#1995)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

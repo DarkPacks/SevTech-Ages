@@ -447,6 +447,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//InfoItems
+	<infoaccessories:info_accessory:1>: [
+		[
+			[null, null, null],
+			[null, metals.gold.ingot, <astralsorcery:itemcraftingcomponent:3>],
+			[metals.gold.ingot, <astralsorcery:itemcraftingcomponent:2>, metals.gold.ingot]
+		]
+	],
 	<infoaccessories:info_accessory:2> : [
 		[[null, <twilightforest:ironwood_ingot>, null], [<twilightforest:ironwood_ingot>, <minecraft:compass>, <twilightforest:ironwood_ingot>], [null, metals.tin.gear, null]]
 	],

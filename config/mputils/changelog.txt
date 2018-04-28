@@ -141,7 +141,7 @@ Mod Updates:
     * Worm should no longer attempt to post a UseHoeEvent on farmland.
     * Only items with FE capability can be placed in the energizer.
     * Oil generator outputs now properly scale with configured values.
-* Astral Sorcery (1.8.8)
+* Astral Sorcery (1.8.9)
     * Tonnes of fixes!
 * Better With Addons (0.40hotfix)
     * Fixes another stray CME from hardcore packing. It just keeps happening.

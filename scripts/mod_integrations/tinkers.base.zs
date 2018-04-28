@@ -102,6 +102,8 @@ Casting.addTableRecipe(<minecraft:slime_ball>, null, <liquid:slime>, 250, false,
 
 Casting.addBasinRecipe(<tconstruct:slime_congealed:3>, null, <liquid:blood>, 640, false, 60);
 
+Casting.removeBasinRecipe(<tconstruct:seared_furnace_controller>);
+
 /*
 	Melting
 

@@ -163,6 +163,14 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, stick, null]
 		]
 	],
+	//Fix Cut Leather (Tanned) being used but removed
+	<minecraft:item_frame> : [
+		[
+			[mouldingWood, mouldingWood, mouldingWood],
+			[mouldingWood, <ore:hideTanned>, mouldingWood],
+			[mouldingWood, mouldingWood, mouldingWood]
+		]
+	],
 
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [

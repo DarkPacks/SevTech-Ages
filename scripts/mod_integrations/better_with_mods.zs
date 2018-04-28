@@ -72,6 +72,9 @@ for bark in <ore:barkWood>.items {
 	Mill.addRecipe([bark], [<primal:tannin_ground> * 2]);
 }
 
+//Remove Cut Leather
+Mill.remove([<betterwithmods:material:33>]);
+
 /*
 	Soaking Box
 
@@ -108,6 +111,9 @@ Cauldron.remove([<betterwithmods:material:12> * 4]);
 Cauldron.remove([<betterwithmods:material:6>]);
 
 Cauldron.remove([<rustic:tallow>]);
+
+//Remove Cut Leather (Tanned) from Cauldron and oredict
+Cauldron.remove([<betterwithmods:material:32> * 2]);
 
 //==============================
 //Unstoked

@@ -376,3 +376,7 @@ for i in 0 to 16 {
 //Add OreDict to Geolosys Beryl and Rock Crystal to allow input in Scannable Config
 <ore:oreGeolosysBeryl>.add(<geolosys:ore_vanilla:6>);
 <ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);
+
+//Remove Cut Leather oredict
+<ore:leather>.remove(<betterwithmods:material:31>);
+<ore:hideTanned>.remove(<betterwithmods:material:32>);

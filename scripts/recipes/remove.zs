@@ -29,6 +29,7 @@ for item in removeItems {
 }
 
 var removeRecipes as string[] = [
+	"betterwithmods:higheff/item_frame",
 	"betterwithmods:decompress/melon_decompress",
 	"extraplanets:chest",
 	"extraplanets:chest_alt.*",

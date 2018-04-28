@@ -66,7 +66,7 @@ recipes.remove(<minecraft:dye>);
 
 	Thanks to Neosghost for pairing ferdinands flowers!
 */
-var dyeCrushingRecipes as IItemStack[][IItemStack] = {
+static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	//White
 	<ore:dyeWhite>.firstItem : [
 		<ferdinandsflowers:block_cff_desert:11>,

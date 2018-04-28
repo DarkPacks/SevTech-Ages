@@ -69,6 +69,7 @@ var stage5Items as IIngredient[] = [
 	<chiselsandbits:bitsaw_diamond>,
 	<chiselsandbits:chisel_diamond>,
 	<cyclicmagic:block_anvil>,
+	<cyclicmagic:charm_speed>,
 	<cyclicmagic:horse_upgrade_health>,
 	<cyclicmagic:spikes_diamond>,
 	<extendedcrafting:material:128>,

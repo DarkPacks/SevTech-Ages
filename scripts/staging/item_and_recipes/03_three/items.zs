@@ -211,8 +211,10 @@ var stage3Items as IIngredient[] = [
 	<quark:smoker>,
 
 	//Redstone
+	<cyclicmagic:charm_antidote>,
 	<cyclicmagic:builder_block>,
 	<cyclicmagic:clock>,
+	<cyclicmagic:charm_water>,
 	<minecraft:activator_rail>,
 	<minecraft:comparator>,
 	<minecraft:daylight_detector>,

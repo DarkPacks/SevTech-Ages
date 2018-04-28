@@ -1286,6 +1286,34 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
 		]
 	],
+	<cyclicmagic:charm_wing>: [
+		[
+			[<minecraft:nether_wart>, null, <minecraft:rabbit_foot>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+		]
+	],
+	<cyclicmagic:tool_auto_torch>: [
+		[
+			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>],
+			[null, <stevescarts:cartmodule:44>, null],
+			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>]
+		]
+	],
+	<cyclicmagic:charm_antidote>: [
+		[
+			[<minecraft:nether_wart>, null, <minecraft:fermented_spider_eye>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+		]
+	],
+	<cyclicmagic:charm_water>: [
+		[
+			[<minecraft:nether_wart>, null, <minecraft:fish:1>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+		]
+	],
 
 	//Blood Magic
 	<bloodmagic:ritual_diviner> : [

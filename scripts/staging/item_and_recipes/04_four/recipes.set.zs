@@ -236,7 +236,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:block_user>,
 	<cyclicmagic:block_vacuum>,
 	<cyclicmagic:bundled_pipe>,
-	<cyclicmagic:charm_void>,
 	<cyclicmagic:corrupted_chorus>,
 	<cyclicmagic:dropper_exact>,
 	<cyclicmagic:ender_eye_orb>,

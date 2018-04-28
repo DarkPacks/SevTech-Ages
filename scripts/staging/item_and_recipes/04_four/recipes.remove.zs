@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<betterbuilderswands:wanddiamond>,
 	<cookingforblockheads:kitchen_floor>,
+	<cyclicmagic:charm_void>,
 	<cyclicmagic:clock>,
 	<cyclicmagic:sprinkler>,
 	<immersiveengineering:metal_device0:5>,

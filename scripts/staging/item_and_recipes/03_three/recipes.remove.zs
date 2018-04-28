@@ -5,8 +5,12 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<buildcraftcore:engine>,
 	<buildcrafttransport:pipe_void_item>,
-	<cyclicmagic:placer_block>,
+	<cyclicmagic:charm_antidote>,
 	<cyclicmagic:charm_fire>,
+	<cyclicmagic:charm_water>,
+	<cyclicmagic:charm_wing>,
+	<cyclicmagic:placer_block>,
+	<cyclicmagic:tool_auto_torch>,
 	<minecraft:cake>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,

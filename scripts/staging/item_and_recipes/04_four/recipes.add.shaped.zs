@@ -1361,6 +1361,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
 			[<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]
 		]
+	],
+
+	//Cyclic Magic
+	<cyclicmagic:charm_void>: [
+		[
+			[<minecraft:nether_wart>, null, <minecraft:ender_eye>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+		]
 	]
 };
 

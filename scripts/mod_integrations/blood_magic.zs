@@ -35,6 +35,7 @@ AlchemyArray.addRecipe(<bloodmagic:sigil_holding>, <bloodmagic:component:27>, <b
 
 	http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/AlchemyTable/
 */
+AlchemyTable.removeRecipe([<minecraft:wheat>, <minecraft:sugar>]);
 
 
 /*

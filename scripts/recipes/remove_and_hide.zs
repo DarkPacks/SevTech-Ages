@@ -258,7 +258,10 @@ static removeAndHideItems as IItemStack[] = [
 	<tombmanygraves:death_list>,
 
 	//Twilight Forest
-	<twilightforest:ore_map_empty>
+	<twilightforest:ore_map_empty>,
+
+	// Biblio Craft
+	<bibliocraft:printingpress> // This can be re-shown once the mod is updated/fixed.
 ];
 
 for item in removeAndHideItems {

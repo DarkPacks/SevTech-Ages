@@ -66,6 +66,8 @@ Bug Fixes:
 * Switched the Unfired Porcelain millstone recipe to require white dye instead of bonemeal to stop a conflicting recipe interfering with progression
 * Added recipe for sextant (#1995)
 * Fixed staging issue with some light Oxygen Tanks (#2098)
+* Fixed recipes and staging issues with Cyclic baubles (#1994)
+* Removed casting recipe for Furnace Controller as it breaks progression
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -186,6 +188,7 @@ Mod Updates:
 * BuildCraft: Robotics (7.99.16)
 * BuildCraft: Transport (7.99.16)
 * Caliper (1.1.35)
+* CD4017BE Library (6.2.3)
 * Ceramics (1.3.4)
     * Minor tweaks and fixes.
 * Code Chicken Lib (3.1.7.340)
@@ -222,6 +225,7 @@ Mod Updates:
     * Fixed a few Server/Client packet handling issues
     * Fixed player spawning in liquid when re-spawning after death
     * Fixed NullPointerException
+* Fancy Block Particles (2.4.0)
 * Farming for Blockheads (3.1.12)
     * Change the feeding trough range to five blocks
     * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
@@ -256,6 +260,9 @@ Mod Updates:
     * Fix Mechanical Squeezer crafttweaker crash
     * Fix networks with no active elements not being properly reloaded
     * Fix formatting typo in value types book section
+* Iron Backpacks (3.0.7-10)
+* Iron Jetpacks (1.0.4)
+    * Fixed an issue with HUD rendering
 * Just a Raft (1.1.2)
     * Should fix a really rare crash where it gets an integer where it should get a float.
 * Just Enough Items (4.9.1-172)
@@ -271,9 +278,9 @@ Mod Updates:
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.
 * Mod Tweaker (4.0.10)
-* Modular Machinery (1.9.1)
+* Modular Machinery (1.9.2)
      * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
-* Modular Routers (3.1.3)
+* Modular Routers (3.1.4)
 * Mystical Agradditions (1.2.8)
     * Added a JEI description for Dragon Scales
     * Fixed the Insanium Ingot harder recipe using the wrong essence
@@ -286,7 +293,7 @@ Mod Updates:
 * Ore Excavation (1.4.118)
     * Fixed shears not working under particular settings
     * Fixed ghost blocks showing up after some excavations
-* PickleTweaks (2.0.15)
+* PickleTweaks (2.0.16)
     * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
     * Make only layer 0 of the repair kit texture get colored
     * Fixed repair kit texture being flat
@@ -334,7 +341,7 @@ Mod Updates:
     * Totem Poles can now face in any direction
     * Totem Torch can no longer be placed in midair, and can be washed away by liquids
     * Fixed weird behavior when trying to place blocks on top of Totem Torch
-* Traverse (1.5.1-52)
+* Traverse (1.5.1-54)
     * Fixed a crash issue
     * New Desert Shrubland biome
     * Fences and fence gates now have ore dict names

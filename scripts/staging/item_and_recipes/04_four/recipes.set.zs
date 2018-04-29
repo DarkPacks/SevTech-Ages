@@ -568,6 +568,7 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:oxygen_gear>,
 	<galacticraftcore:oxygen_mask>,
 	<galacticraftcore:oxygen_tank_light_full>,
+	<galacticraftcore:oxygen_tank_light_full:900>,
 	<galacticraftcore:parachute:1>,
 	<galacticraftcore:parachute:2>,
 	<galacticraftcore:parachute:3>,
@@ -694,4 +695,15 @@ var itemsForStage as IIngredient[] = [
 
 for item in itemsForStage {
 	mods.recipestages.Recipes.setRecipeStage(STAGE, item);
+}
+
+//Set stage by recipe regex
+var recipesRegexForStage as string[] = [
+
+	//Extra Planets
+	"extraplanets:oxygen_tank_light.*",
+];
+
+for recipeRegex in recipesRegexForStage {
+	mods.recipestages.Recipes.setRecipeStageByRegex(STAGE, recipeRegex);
 }

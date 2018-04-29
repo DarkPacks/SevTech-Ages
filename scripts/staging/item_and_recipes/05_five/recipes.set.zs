@@ -8,7 +8,6 @@ var STAGE = STAGES.five;
 var modIDs as string[] = [
 	"compactmachines3",
 	"environmentaltech",
-	"extraplanets",
 	"ironjetpacks",
 	"quantumstorage",
 	"rftools",
@@ -790,6 +789,18 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:tier2_space_suit_jetpack_chest>,
 	<extraplanets:tier3_space_suit_jetpack_chest>,
 	<extraplanets:tier4_space_suit_jetpack_chest>,
+	<extraplanets:nuclear_bomb>,
+	<extraplanets:fire_bomb>,
+	<extraplanets:orange_sandstone>,
+	<extraplanets:red_sandstone>,
+	<extraplanets:dense_ice>,
+	<extraplanets:ingot_mercury>,
+	<extraplanets:apple_diamond>,
+	<extraplanets:apple_diamond:1>,
+	<extraplanets:apple_iron:1>,
+	<extraplanets:anti_radiation>,
+	<extraplanets:cloth>,
+	<extraplanets:gravity_controller>,
 
 	//Mekanism
 	<mekanism:anchorupgrade>,
@@ -1016,7 +1027,43 @@ var recipesRegexForStage as string[] = [
 	"mysticalagradditions:.*",
 
 	//Crafttweaker recipes
-	"crafttweaker:dye_essence_item.pt.dye_powder.*"
+	"crafttweaker:dye_essence_item.pt.dye_powder.*",
+
+	//Extra Planets
+	"extraplanets:advanced.*",
+	"extraplanets:basic.*",
+	"extraplanets:blue.*",
+	"extraplanets:candy_blocks.*",
+	"extraplanets:ceres.*",
+	"extraplanets:decorative_blocks.*",
+	"extraplanets:electric.*",
+	"extraplanets:eris.*",
+	"extraplanets:green.*",
+	"extraplanets:jupiter.*",
+	"extraplanets:kepler22b.*",
+	"extraplanets:massive.*",
+	"extraplanets:mercury.*",
+	"extraplanets:module.*",
+	"extraplanets:neptune.*",
+	"extraplanets:nickel.*",
+	"extraplanets:nose.*",
+	"extraplanets:oxygen_tank_extremely.*",
+	"extraplanets:oxygen_tank_heavy.*",
+	"extraplanets:oxygen_tank_med.*",
+	"extraplanets:oxygen_tank_very.*",
+	"extraplanets:pluto.*",
+	"extraplanets:purple.*",
+	"extraplanets:red.*",
+	"extraplanets:saturn.*",
+	"extraplanets:solar.*",
+	"extraplanets:tier.*",
+	"extraplanets:thermal.*",
+	"extraplanets:tools.*",
+	"extraplanets:ultimate.*",
+	"extraplanets:uranus.*",
+	"extraplanets:vehicle.*",
+	"extraplanets:yellow.*",
+	"extraplanets:zink.*"
 ];
 
 for recipeRegex in recipesRegexForStage {

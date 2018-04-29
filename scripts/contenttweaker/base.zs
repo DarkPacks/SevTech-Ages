@@ -40,6 +40,7 @@ static materials as Material[string] = {
 	"steel": MaterialSystem.getMaterialBuilder().setName("Steel").setColor(4408907).build(),
 	"steeleaf": MaterialSystem.getMaterialBuilder().setName("Steeleaf").setColor(4283598394).build(),
 	"stone": MaterialSystem.getMaterialBuilder().setName("Stone").setColor(11117475).build(),
+	"titanium": MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("1c232e")).build(),
 	"tin": MaterialSystem.getMaterialBuilder().setName("Tin").setColor(10275286).build()
 };
 

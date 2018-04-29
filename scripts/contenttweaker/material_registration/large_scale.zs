@@ -88,3 +88,13 @@ for material in oreSampleMaterials {
 	var sampleData as MaterialPartData = material.registerPart("ore_sample").getData();
 	sampleData.addDataValue("drops", oreSampleDrops[material]);
 }
+
+//==================================
+//Clusters
+var clusters as Material[] = [
+	materials.titanium
+];
+
+for material in clusters {
+	material.registerPart("cluster");
+}

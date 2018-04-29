@@ -69,6 +69,7 @@ Bug Fixes:
 * Fixed recipes and staging issues with Cyclic baubles (#1994)
 * Removed casting recipe for Furnace Controller as it breaks progression
 * Fixed titanium shards dropping on GC ores which had no use (#1455)
+* Remove & hide and printing press until the mod is updated/fixed (#1429)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -124,6 +125,11 @@ Enhancements:
 * Any unsupported plank type for barrels will now make an Oak Barrel (#2085)
 * Disabled the Cyclic Shear block to force the path in the pack. (#2106)
 * Added more food items to Nutrition (#2017)
+* Changed durability on the Dog Boots
+* Fixed staging on Iron Matchpick (#1503)
+* Removed recipe for Reinforced Mesh (#1415)
+* Added Black Iron recipe to the Arc Furnace (#1416)
+* Added more seeds to be pressed into dirt
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -304,8 +310,9 @@ Mod Updates:
 * PneumaticCraft: Repressurized (0.6.3-181)
     * Fix: Server crash when Spawner Agitators are used in conjunction with the Despawning Spawners mod.
     * Fix: Omnidirectional Hoppers now respect the sidedness of the block they pull from
-* Power Adapters (1.0.8)
+* Power Adapters (1.0.9)
     * Fixed power input and output being wrong
+    * Fixed block accepting power even if it's full
 * Prestige (1.0.15)
 * PrimalCore (0.6.47)
     * Charcoal Stacks now have a slight variation in the output grade

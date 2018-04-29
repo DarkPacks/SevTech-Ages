@@ -39,11 +39,28 @@ function addPressRecipe(output as IItemStack, input as IIngredient) {
 
 	https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 */
+
+// This as a meh way to handle this. But if we remove the planks from the dict people will moan about is not working in recipes
+// so this is a way to get around that and to solve the end goal of getting the right sticks from the plank.
+var plankWoodCopy = <ore:plankWoodCopy>; // Create an oreDict to hold our plank clone.
+plankWoodCopy.addAll(<ore:plankWood>); // Clone the main oreDict.
+// Array containing all the betweenland planks we want to remove from the main cloned one.
+var betweenlandPlanks as IItemStack[] = [
+	<thebetweenlands:weedwood_planks>
+];
+// Remove the planks in the array from the cloned oreDict.
+for plank in betweenlandPlanks {
+	plankWoodCopy.remove(plank);
+}
+
 //"Standardized" Recipes for manual and automatic. 4 for manual, 2 automatic
 //If not desired, do recipe manually
 var choppingRecipeItems as IIngredient[][IItemStack] = {
 	stick * 4 : [
-		<ore:plankWood>
+		<ore:plankWoodCopy>
+	],
+	<thebetweenlands:items_misc:20> * 4: [
+		<thebetweenlands:weedwood_planks>
 	],
 	<primal:thin_slab_acacia> * 2 : [
 		<minecraft:wooden_slab:4>

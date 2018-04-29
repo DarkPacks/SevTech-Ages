@@ -223,7 +223,6 @@ var prospectingRodRange as int = 48;
 <death_compass:death_compass>.addTooltip(format.red("Sneak on your grave to retrieve your items"));
 
 // Space!
-<mekanism:machineblock:4>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however."));
 <buildcraftbuilders:quarry>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however."));
 
 // Creeping Moss

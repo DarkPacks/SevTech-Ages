@@ -418,15 +418,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[log, stick, log], [log, log, log], [stick, null, stick]]
 	],
 
-	//Pickle Tweaks Mesh
-	<pickletweaks:reinforced_mesh> : [
-		[
-			[plank, <betterwithmods:material:3>, plank],
-			[<betterwithmods:material:3>, <betterwithmods:material:3>, <betterwithmods:material:3>],
-			[plank, <betterwithmods:material:3>, plank]
-		]
-	],
-
 	//Immersive Engineering Engineer's Hammer
 	<immersiveengineering:tool> : [
 		[

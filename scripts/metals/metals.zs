@@ -281,8 +281,9 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		mods.immersiveengineering.ArcFurnace.removeRecipe(preferredMetalItem);
 	}
 
-	//Dust can only be used in arc furnace
+	//Dust can only be smelted in later ages
 	if (metalPartName == "dust") {
+		//Arc Furnace
 		var defaultArcEnergyPerTick as int = 512;
 		var defaultArcTickTime as int = 100;
 		var arcGivesSlag as bool = false;
@@ -293,6 +294,9 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 			defaultArcTickTime,
 			defaultArcEnergyPerTick
 		);
+
+		//Mekanism
+		mods.mekanism.smelter.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0]);
 	}
 
 	//==============================

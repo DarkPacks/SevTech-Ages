@@ -1878,7 +1878,6 @@ var stage5Items as IIngredient[] = [
 	<mekanism:machineblock:1>,
 	<mekanism:machineblock:2>,
 	<mekanism:machineblock:3>,
-	<mekanism:machineblock:4>,
 	<mekanism:machineblock:5>.withTag({recipeType: 0}),
 	<mekanism:machineblock:5>.withTag({recipeType: 1}),
 	<mekanism:machineblock:5>.withTag({recipeType: 2}),

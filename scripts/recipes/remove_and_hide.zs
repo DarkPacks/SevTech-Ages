@@ -261,7 +261,10 @@ static removeAndHideItems as IItemStack[] = [
 	<twilightforest:ore_map_empty>,
 
 	// Biblio Craft
-	<bibliocraft:printingpress> // This can be re-shown once the mod is updated/fixed.
+	<bibliocraft:printingpress>, // This can be re-shown once the mod is updated/fixed.
+
+	// Mekanism
+	<mekanism:machineblock:4> // Bye bye miner!
 ];
 
 for item in removeAndHideItems {

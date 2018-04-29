@@ -398,7 +398,7 @@ global metalItems as IIngredient[string][string] = {
 		dust: <galacticraftplanets:item_basic_asteroids:9>,
 		gear: null,
 		ingot: <galacticraftplanets:item_basic_asteroids>,
-		liquid: null,
+		liquid: <liquid:titanium>,
 		nugget: null,
 		plate: null,
 		rod: null

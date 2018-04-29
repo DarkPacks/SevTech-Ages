@@ -54,6 +54,13 @@ oreProsperityData.addDataValue("drops", "mysticalagriculture:crafting:5");
 var fluidEnderData = materials.ender.registerPart("molten").getData();
 addDefaultMoltenData(fluidEnderData);
 
+//Liquid Titanium
+var fluidTitaniumData = materials.titanium.registerPart("molten").getData();
+fluidTitaniumData.addDataValue("density", "8000");
+fluidTitaniumData.addDataValue("viscosity", "3000");
+fluidTitaniumData.addDataValue("temperature", "1000");
+fluidTitaniumData.addDataValue("vaporize", "false");
+
 //Liquid Redstone
 var fluidRedstoneData = materials.redstone.registerPart("molten").getData();
 fluidRedstoneData.addDataValue("density", "8000");

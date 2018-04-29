@@ -30,6 +30,7 @@ var stage5Items as IIngredient[] = [
 
 	//ContentTweaker
 	<contenttweaker:sub_block_holder_0:6>, //Osmium Ore Sample
+	<contenttweaker:material_part:126>, // Titanium Cluster
 	<materialpart:gold:ore_galacticraftplanets_bottom>,
 	<materialpart:inferium:ore_extraplanets_kepler22b_stone>,
 	<materialpart:iron:ore_galacticraftcore_bottom>,

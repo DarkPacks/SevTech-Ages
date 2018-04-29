@@ -162,7 +162,10 @@ var durabilityArray = {
 	<chisel:chisel_diamond> : 6500,
 	<chisel:chisel_hitech> : 12500,
 
-	<pickletweaks:grass_mesh> : 64
+	<pickletweaks:grass_mesh> : 64,
+
+	// Dog Boots
+	<animalium:dog_boots>: 260
 } as int[IItemStack];
 
 for item in durabilityArray {

@@ -154,6 +154,9 @@ ArcFurnace.addRecipe(<enderutilities:enderpart:1> * 4, <minecraft:ender_eye>, sl
 ArcFurnace.addRecipe(<enderutilities:enderpart:2> * 2, <minecraft:ender_eye>, slag, 100, 512, [<minecraft:purpur_block> * 4, <minecraft:end_rod> * 2, <minecraft:shulker_shell>]);
 ArcFurnace.addRecipe(<enderutilities:enderpart:20> * 4, <minecraft:ender_pearl>, slag, 100, 512, [<minecraft:end_rod> * 4]);
 
+// Black Iron
+ArcFurnace.addRecipe(<extendedcrafting:material>, metals.iron.ingot, slag, 100, 512, [<actuallyadditions:item_dust:7>]);
+
 //Refined Energistics 2.3333333 <- YA! YOU LIKE THAT
 ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material>]);
 

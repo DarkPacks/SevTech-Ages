@@ -68,6 +68,7 @@ Bug Fixes:
 * Fixed staging issue with some light Oxygen Tanks (#2098)
 * Fixed recipes and staging issues with Cyclic baubles (#1994)
 * Removed casting recipe for Furnace Controller as it breaks progression
+* Fixed titanium shards dropping on GC ores which had no use (#1455)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

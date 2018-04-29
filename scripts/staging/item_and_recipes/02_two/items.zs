@@ -417,7 +417,6 @@ var stage2Items as IIngredient[] = [
 	<betterwithaddons:iron_kukri>,
 	<betterwithaddons:iron_machete>,
 	<betterwithaddons:iron_masonpick>,
-	<betterwithaddons:iron_matchpick>,
 	<betterwithaddons:iron_spade>,
 	<betterwithaddons:lattice>,
 	<betterwithaddons:monument>,

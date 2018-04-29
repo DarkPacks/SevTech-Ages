@@ -653,6 +653,7 @@ var stage3Items as IIngredient[] = [
 	<betterwithaddons:greatarrow_lightning>,
 	<betterwithaddons:greatbow>,
 	<betterwithaddons:helmet_paper>,
+	<betterwithaddons:iron_matchpick>,
 	<betterwithaddons:iron_sand>,
 	<betterwithaddons:japanmat:6>,
 	<betterwithaddons:japanmat:7>,

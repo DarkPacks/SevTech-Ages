@@ -438,6 +438,7 @@ var itemsForStage as IIngredient[] = [
 	<betterwithaddons:ecksie_sapling:7>,
 	<betterwithaddons:ecksie_sapling:8>,
 	<betterwithaddons:ecksie_sapling>,
+	<betterwithaddons:iron_matchpick>,
 	<betterwithaddons:japanmat:13>,
 	<betterwithaddons:japanmat:14>,
 	<betterwithaddons:japanmat:15>,

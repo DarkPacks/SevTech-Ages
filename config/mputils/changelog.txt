@@ -130,6 +130,7 @@ Enhancements:
 * Removed recipe for Reinforced Mesh (#1415)
 * Added Black Iron recipe to the Arc Furnace (#1416)
 * Added more seeds to be pressed into dirt
+* Disabled the Extra Planets Radiation Mechanic
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

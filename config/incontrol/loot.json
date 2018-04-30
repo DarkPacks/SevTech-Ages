@@ -172,6 +172,11 @@
     "random": 0.5
   },
   {
+    "mob": "playerskins:playermob",
+    "item": "death_compass:death_compass",
+    "random": 0.2
+  },
+  {
     "mob": "minecraft:zombie_villager",
     "remove": "minecraft:iron_ingot"
   },

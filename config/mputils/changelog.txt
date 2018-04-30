@@ -131,6 +131,7 @@ Enhancements:
 * Added Black Iron recipe to the Arc Furnace (#1416)
 * Added more seeds to be pressed into dirt
 * Disabled the Extra Planets Radiation Mechanic
+* Added Death Compass drops to Player Skinned mobs
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

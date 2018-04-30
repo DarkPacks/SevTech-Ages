@@ -845,15 +845,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.ingot, <ironchest:iron_chest:2>, metals.iron.ingot],
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
 		]
-	],
-
-	// Extra Planets
-	<extraplanets:basic_chemical_injector>: [
-		[
-			[metals.uranium.ingot, metals.uranium.ingot, metals.uranium.ingot],
-			[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>],
-			[metals.uranium.ingot, metals.uranium.ingot, metals.uranium.ingot]
-		]
 	]
 
 };

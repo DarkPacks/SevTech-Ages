@@ -798,7 +798,6 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:apple_diamond>,
 	<extraplanets:apple_diamond:1>,
 	<extraplanets:apple_iron:1>,
-	<extraplanets:anti_radiation>,
 	<extraplanets:cloth>,
 	<extraplanets:gravity_controller>,
 

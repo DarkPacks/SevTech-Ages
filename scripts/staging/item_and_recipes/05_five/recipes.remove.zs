@@ -92,7 +92,6 @@ var removeItems as IItemStack[] = [
 	<quantumstorage:quantum_storage_unit>,
 
 	//Extra Planets
-	<extraplanets:basic_chemical_injector>,
 	<extraplanets:tier1_space_suit_gravity_boots>,
 	<extraplanets:tier2_space_suit_boots>,
 	<extraplanets:tier2_space_suit_chest>,

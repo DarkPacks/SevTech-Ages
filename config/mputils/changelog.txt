@@ -155,6 +155,7 @@ Mod Updates:
     * Oil generator outputs now properly scale with configured values.
 * Astral Sorcery (1.8.9)
     * Tonnes of fixes!
+* Better Advancements (0.0.6.28)
 * Better With Addons (0.40hotfix)
     * Fixes another stray CME from hardcore packing. It just keeps happening.
     * Fixes two crashes with getBlockFaceShape. Oops.
@@ -239,6 +240,8 @@ Mod Updates:
     * Change the feeding trough range to five blocks
     * Fix the feeding trough prioritizing certain animals over others, it should be more natural now
     * Fix merchant falling sound not playing for other players in multiplayer
+* Ferdinand's Flowers (1.10.1b)
+    * Hopefully fixed a naming issue- found & fixed 2 mistakes (Issue #2)
 * Foamfix (0.9.9)
     * Fix invalid Forge dependency
     * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
@@ -351,6 +354,9 @@ Mod Updates:
     * Totem Poles can now face in any direction
     * Totem Torch can no longer be placed in midair, and can be washed away by liquids
     * Fixed weird behavior when trying to place blocks on top of Totem Torch
+* Tomb Many Graves 2 (4.0.3)
+    * Should fix all issues with users getting the grave as a block (the block item no longer exists).
+    * Death item lists should now automatically enter the players' inventories upon respawning after death
 * Traverse (1.5.1-54)
     * Fixed a crash issue
     * New Desert Shrubland biome

@@ -380,3 +380,6 @@ for i in 0 to 16 {
 //Remove Cut Leather oredict
 <ore:leather>.remove(<betterwithmods:material:31>);
 <ore:hideTanned>.remove(<betterwithmods:material:32>);
+
+//Certus Quartz Charged (This is for IE Excavator support)
+<ore:crystalCertusQuartzCharged>.add(<appliedenergistics2:material:1>);

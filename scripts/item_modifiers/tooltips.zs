@@ -203,7 +203,6 @@ var prospectingRodRange as int = 48;
 <abyssalcraft:statue:4>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:5>.addTooltip(format.red("Requires open sky above to function"));
 <abyssalcraft:statue:6>.addTooltip(format.red("Requires open sky above to function"));
-<tombmanygraves:grave_block>.addTooltip(format.red("Please refer to the death compass to find your tomb"));
 
 <totemic:cedar_log>.addTooltip(format.red("Not found in the world"));
 <totemic:cedar_log>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));

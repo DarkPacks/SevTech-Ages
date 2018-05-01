@@ -70,6 +70,7 @@ Bug Fixes:
 * Removed casting recipe for Furnace Controller as it breaks progression
 * Fixed titanium shards dropping on GC ores which had no use (#1455)
 * Remove & hide and printing press until the mod is updated/fixed (#1429)
+* Fixed Immersive Engineering Excavator not harvisting ores as expected (#2008)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

@@ -424,13 +424,13 @@ var stage1Items as IIngredient[] = [
 	<chisel:templemossy:*>,
 
 	//Ferdinand's Flowers
-	<ferdinandsflowers:block_cobble_light>,
-	<ferdinandsflowers:block_dirt_light>,
+	<ferdinandsflowers:block_cobble_light:*>,
+	<ferdinandsflowers:block_dirt_light:*>,
 	<ferdinandsflowers:block_gravel_light>,
-	<ferdinandsflowers:block_log_light>,
-	<ferdinandsflowers:block_plank_light>,
+	<ferdinandsflowers:block_log_light:*>,
+	<ferdinandsflowers:block_plank_light:*>,
 	<ferdinandsflowers:block_sand_light>,
-	<ferdinandsflowers:block_stone_light>,
+	<ferdinandsflowers:block_stone_light:*>,
 
 	//Rustic
 	<rustic:andesite_pillar>,

@@ -191,8 +191,8 @@ var itemsForStage as IIngredient[] = [
 
 	//Ferdinand's Flowers
 	<ferdinandsflowers:block_dye_glass:*>,
-	<ferdinandsflowers:block_metal_light>,
-	<ferdinandsflowers:block_stonebrick_light>,
+	<ferdinandsflowers:block_metal_light:*>,
+	<ferdinandsflowers:block_stonebrick_light:*>,
 
 	//Better With Mods
 	<betterwithaddons:artifact_frame>,

@@ -23,7 +23,6 @@ var stageZeroItems as IIngredient[] = [
 	<astikoor:cargocart>,
 	<astikoor:plowcart>,
 	<astikoor:wheel>,
-	<betterbuilderswands:wandstone>,
 	<emberroot:owl_egg>,
 	<immcraft:bookshelf>,
 	<immcraft:cupboard>,

@@ -24,7 +24,8 @@ var multiblockMachinesForStages = {
 
 	STAGES.five : [
 		"modularmachinery:ethylitic_enricher",
-		"modularmachinery:paperclip_factory"
+		"modularmachinery:paperclip_factory",
+		"modularmachinery:orematic5000"
 	]
 } as string[][string];
 

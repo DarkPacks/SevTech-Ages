@@ -4,7 +4,7 @@ setIcon("abyssalcraft:necronomicon")
 
 setDescription("Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South")
 
-setParent("triumph:stage0/workstump")
+setParent("triumph:stage0/naturescompass")
 setRequiresParent(true)
 
 setRequirements("any")

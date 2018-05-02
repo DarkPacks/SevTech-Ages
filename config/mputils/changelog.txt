@@ -71,6 +71,7 @@ Bug Fixes:
 * Fixed titanium shards dropping on GC ores which had no use (#1455)
 * Remove & hide and printing press until the mod is updated/fixed (#1429)
 * Fixed Immersive Engineering Excavator not harvisting ores as expected (#2008)
+* Moved the incorrectly item staged Stone Builder's Wand to stage 1 where it belongs
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -133,7 +134,6 @@ Enhancements:
 * Added more seeds to be pressed into dirt
 * Disabled the Extra Planets Radiation Mechanic
 * Added Death Compass drops to Player Skinned mobs
-* Added the Nature's Compass mod to help players better locate certain Biomes
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -146,6 +146,10 @@ Mods Added:
     * Fixes the Problem of having to restart your Client when your Session is invalid
 * Just Enough Petroleum (0.1)
     * Adds JEI support for Immersive Petroleum
+* Bedrock B Gone
+    * Flattens Bedrock in the Overworld, Nether, Twilight Forest, Hunting, and Beneath dimensions
+* Nature's Compass
+    * Added the Nature's Compass mod to help players better locate certain Biomes
 
 Mod Updates:
 * Forge: 14.23.3.2675

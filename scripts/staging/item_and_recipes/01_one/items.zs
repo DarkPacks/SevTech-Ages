@@ -1108,7 +1108,9 @@ var stage1Items as IIngredient[] = [
 	<cyclicmagic:food_step>,
 
 	//Farming for Blockheads
-	<farmingforblockheads:market>
+	<farmingforblockheads:market>,
+
+	<betterbuilderswands:wandstone>
 ];
 
 for item in stage1Items {

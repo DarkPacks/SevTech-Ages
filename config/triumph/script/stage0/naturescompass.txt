@@ -1,0 +1,15 @@
+setTitle("Dude Where's My Biome?")
+
+setIcon("naturescompass:naturescompass")
+
+setDescription("You'll need to seek out Darkland Biomes to continue your journey. Use the Nature's Compass to locate the nearest biome")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("naturescompass:naturescompass")
+
+//Rewards
+setRewardExperience(4)

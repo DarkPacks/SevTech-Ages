@@ -690,7 +690,9 @@ var itemsForStage as IIngredient[] = [
 
 	//Car Mod
 	<car:car_body_part_wood:5>,
-	<car:car_body_part_wood>
+	<car:car_body_part_wood>,
+
+	<minecraft:end_crystal>
 ];
 
 for item in itemsForStage {

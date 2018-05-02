@@ -88,7 +88,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:dragon_egg>,
 	<minecraft:elytra>,
 	<minecraft:end_bricks>,
-	<minecraft:end_crystal>,
 	<minecraft:end_rod>,
 	<minecraft:end_stone>,
 	<minecraft:purpur_block>,

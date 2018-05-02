@@ -429,7 +429,7 @@ var stage1Items as IIngredient[] = [
 	<ferdinandsflowers:block_gravel_light>,
 	<ferdinandsflowers:block_log_light:*>,
 	<ferdinandsflowers:block_plank_light:*>,
-	<ferdinandsflowers:block_sand_light>,
+	<ferdinandsflowers:block_sand_light:*>,
 	<ferdinandsflowers:block_stone_light:*>,
 
 	//Rustic

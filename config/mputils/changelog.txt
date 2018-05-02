@@ -133,6 +133,7 @@ Enhancements:
 * Added more seeds to be pressed into dirt
 * Disabled the Extra Planets Radiation Mechanic
 * Added Death Compass drops to Player Skinned mobs
+* Added the Nature's Compass mod to help players better locate certain Biomes
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

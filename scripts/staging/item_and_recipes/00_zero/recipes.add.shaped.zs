@@ -508,7 +508,17 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<animalium:wild_dog_pelt>, <minecraft:leather_boots>, <animalium:wild_dog_pelt>],
 			[<ore:slimeball>, <animalium:wild_dog_pelt>, <ore:slimeball>]
 		]
+	],
+
+	//Nature's Compass
+	<naturescompass:naturescompass>: [
+		[
+			[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],
+			[<ore:logWood>, <primal:bone_knapp>, <ore:logWood>],
+			[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

@@ -1055,7 +1055,10 @@ var stageZeroItems as IIngredient[] = [
 	<betterwithmods:wolf_chop>,
 	<betterwithmods:wicker>,
 
-	<mekanism:salt>
+	<mekanism:salt>,
+
+	//Nature's Compass
+	<naturescompass:naturescompass>
 ];
 
 for item in stageZeroItems {

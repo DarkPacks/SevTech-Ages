@@ -52,7 +52,10 @@ var removeItems as IItemStack[] = [
 	<tconstruct:firewood_slab>,
 	<traverse:fir_slab>,
 	<waterstrainer:garden_trowel>,
-	<waterstrainer:strainer_base>
+	<waterstrainer:strainer_base>,
+
+	//Nature's Compass
+	<naturescompass:naturescompass>
 ];
 
 for item in removeItems {

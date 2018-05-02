@@ -139,6 +139,8 @@ Mods Added:
     * Needed for the .16 update to BuildCraft to keep the plugs/facades.
 * FindMe (1.0.1-5)
     * FindMe allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press "Y".
+* MystAgrad Cloche Compat (1.2)
+    * Add support for Tier 6 seeds in the Cloche.
 * ReAuth (3.5.2)
     * Fixes the Problem of having to restart your Client when your Session is invalid
 * Just Enough Petroleum (0.1)

@@ -147,7 +147,7 @@ Mods Added:
 * Just Enough Petroleum (0.1)
     * Adds JEI support for Immersive Petroleum
 * Bedrock B Gone
-    * Flattens Bedrock in the Overworld, Nether, Twilight Forest, Hunting, and Beneath dimensions
+    * Flattens Bedrock in the Overworld, Nether, Twilight Forest, and Hunting dimensions
 * Nature's Compass
     * Added the Nature's Compass mod to help players better locate certain Biomes
 

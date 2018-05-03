@@ -130,19 +130,14 @@ ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.ingot, slag, 400,
 
 //Constantan
 ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.nickel.dust]);
-ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.copper.dust, slag, 100, 512, [metals.nickel.dust]);
 ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.nickel.ingot, slag, 100, 512, [metals.copper.dust]);
-ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.nickel.dust, slag, 100, 512, [metals.copper.dust]);
 
 //Electrum
 ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.gold.ingot, slag, 100, 512, [metals.silver.dust]);
-ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.gold.dust, slag, 100, 512, [metals.silver.dust]);
 ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.silver.ingot, slag, 100, 512, [metals.gold.dust]);
-ArcFurnace.addRecipe(metals.electrum.ingot.firstItem * 2, metals.silver.dust, slag, 100, 512, [metals.gold.dust]);
 
 //Invar
 ArcFurnace.addRecipe(metals.invar.ingot.firstItem * 3, metals.nickel.ingot, slag, 100, 512, [metals.iron.dust * 2]);
-ArcFurnace.addRecipe(metals.invar.ingot.firstItem * 3, metals.nickel.dust, slag, 100, 512, [metals.iron.dust * 2]);
 
 //Ender Utilities
 ArcFurnace.addRecipe(<enderutilities:enderpart> * 4, <minecraft:ender_pearl>, slag, 100, 512, [<quark:biotite> * 8]);
@@ -162,7 +157,6 @@ ArcFurnace.addRecipe(metals.bronze.ingot.firstItem * 3, metals.copper.ingot * 3,
 /* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 //Aluminum Brass
 ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.ingot, slag, 100, 512, [metals.aluminum.dust * 3]);
-ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.dust, slag, 100, 512, [metals.aluminum.dust * 3]);
 
 //Manyullyn
 ArcFurnace.addRecipe(metals.manyullyn.ingot.firstItem, metals.cobalt.ingot, slag, 300, 512, [metals.ardite.ingot]);

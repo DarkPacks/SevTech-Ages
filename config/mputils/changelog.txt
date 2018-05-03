@@ -78,6 +78,7 @@ Bug Fixes:
 * Blacklist Compact Machines from Carry-On (#2193)
 * Add flower crushing recipes to Mekanism crusher (#1665)
 * Add Bronze Ingot alloying to Arc Furnace (#1665)
+* Removed conflicting Arc Furnace recipes (Any that used a metal dust as a primary item)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

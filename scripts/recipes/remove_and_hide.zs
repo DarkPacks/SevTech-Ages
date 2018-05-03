@@ -2,12 +2,21 @@ import crafttweaker.item.IItemStack;
 
 //Must be item not oreDict
 static removeAndHideItems as IItemStack[] = [
+	<abyssalcraft:abyssalniteu>,
 	<abyssalcraft:beefp>,
 	<abyssalcraft:chickenp>,
+	<abyssalcraft:cloth>,
 	<abyssalcraft:cobbleu>,
+	<abyssalcraft:cobbleu>,
+	<abyssalcraft:coraliumu>,
+	<abyssalcraft:diamondu>,
+	<abyssalcraft:dreadiumu>,
 	<abyssalcraft:eggp>,
+	<abyssalcraft:ethaxiumu>,
 	<abyssalcraft:fishp>,
+	<abyssalcraft:goldu>,
 	<abyssalcraft:ironp>,
+	<abyssalcraft:ironu>,
 	<abyssalcraft:mre>,
 	<abyssalcraft:porkp>,
 	<actuallyadditions:block_misc:5>,
@@ -27,12 +36,16 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithaddons:bolt:4>,
 	<betterwithaddons:bolt:5>,
 	<betterwithaddons:ink_and_quill>,
+	<betterwithaddons:japanmat:31>,
+	<betterwithaddons:japanmat:32>,
+	<betterwithaddons:japanmat:33>,
+	<betterwithaddons:japanmat:34>,
 	<betterwithaddons:log_termite>,
-	<betterwithaddons:rail_rusted>,
-	<betterwithaddons:tatami_full>,
 	<betterwithaddons:material:4>,
 	<betterwithaddons:material:5>,
 	<betterwithaddons:material:6>,
+	<betterwithaddons:rail_rusted>,
+	<betterwithaddons:tatami_full>,
 	<betterwithaddons:writing_table:1>,
 	<betterwithaddons:writing_table:2>,
 	<betterwithaddons:writing_table:3>,
@@ -52,45 +65,28 @@ static removeAndHideItems as IItemStack[] = [
 	<betterwithmods:wood_table:4>,
 	<betterwithmods:wood_table:5>,
 	<betterwithmods:wood_table>,
-	<car:canola>,
+	<bloodmagic:component:14>,
+	<bloodmagic:sigil_compression>,
 	<car:canola_seeds>,
+	<car:canola>,
 	<cyclicmagic:block_fishing>,
+	<cyclicmagic:block_miner_smart>,
+	<cyclicmagic:block_miner>,
 	<cyclicmagic:block_workbench>,
 	<cyclicmagic:charm_air>,
 	<cyclicmagic:glowing_chorus>,
 	<cyclicmagic:mattock>,
-	<cyclicmagic:tool_prospector>,
-	<cyclicmagic:block_miner>,
-	<cyclicmagic:block_miner_smart>,
 	<cyclicmagic:sack_ender>,
 	<cyclicmagic:storage_bag>,
+	<cyclicmagic:tool_prospector>,
+	<cyclicmagic:tool_randomize>,
 	<cyclicmagic:uncrafting_block>,
 	<darkutils:sneaky_bedrock>,
-	<mob_grinding_utils:mob_swab>,
-	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests
-	<quantumstorage:chest_gold>, //Quantum Storage Metal Chests
-	<quantumstorage:chest_iron>, //Quantum Storage Metal Chests
-	<abyssalcraft:abyssalniteu>,
-	<abyssalcraft:cobbleu>,
-	<abyssalcraft:coraliumu>,
-	<abyssalcraft:diamondu>,
-	<abyssalcraft:dreadiumu>,
-	<abyssalcraft:ethaxiumu>,
-	<abyssalcraft:goldu>,
-	<abyssalcraft:ironu>,
-	<abyssalcraft:cloth>,
-	<betterwithaddons:japanmat:31>,
-	<betterwithaddons:japanmat:32>,
-	<betterwithaddons:japanmat:33>,
-	<betterwithaddons:japanmat:34>,
-	<bloodmagic:component:14>,
-	<bloodmagic:sigil_compression>,
-	<cyclicmagic:tool_randomize>,
-	<ferdinandsflowers:block_dye_brick:*>,
 	<ferdinandsflowers:block_dye_brick_half:*>,
 	<ferdinandsflowers:block_dye_brick_halfb:*>,
 	<ferdinandsflowers:block_dye_brick_halfc:*>,
 	<ferdinandsflowers:block_dye_brick_halfd:*>,
+	<ferdinandsflowers:block_dye_brick:*>,
 	<ferdinandsflowers:block_dye_brickb:*>,
 	<ferdinandsflowers:flower_dye:*>,
 	<ferdinandsflowers:flower_dyeb:*>,
@@ -117,6 +113,7 @@ static removeAndHideItems as IItemStack[] = [
 	<minecraft:wooden_pickaxe>,
 	<minecraft:wooden_shovel>,
 	<minecraft:wooden_sword>,
+	<mob_grinding_utils:mob_swab>,
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>,
 	<overloaded:energy_core>,
@@ -146,6 +143,9 @@ static removeAndHideItems as IItemStack[] = [
 	<primal:soul_stone>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
+	<quantumstorage:chest_diamond>, //Quantum Storage Metal Chests
+	<quantumstorage:chest_gold>, //Quantum Storage Metal Chests
+	<quantumstorage:chest_iron>, //Quantum Storage Metal Chests
 	<quantumstorage:quantum_barrel>,
 	<quantumstorage:quantum_battery>,
 	<quantumstorage:upgrade:1>,
@@ -155,6 +155,7 @@ static removeAndHideItems as IItemStack[] = [
 	<quark:arrow_torch>,
 	<quark:obsidian_pressure_plate>,
 	<rustic:fertile_soil>,
+	<scannable:module_structure>,
 	<stevescarts:cartmodule:87>,
 	<stevescarts:cartmodule:92>,
 	<stevescarts:modulecomponents:9>,
@@ -162,7 +163,6 @@ static removeAndHideItems as IItemStack[] = [
 	<tconstruct:throwball:1>,
 	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<totemic:medicine_bag>,
-	<scannable:module_structure>,
 
 	//Nuggets
 	<mysticalagradditions:insanium:3>,
@@ -285,11 +285,11 @@ static removeAndHideItems as IItemStack[] = [
 	//Twilight Forest
 	<twilightforest:ore_map_empty>,
 
-	// Biblio Craft
-	<bibliocraft:printingpress>, // This can be re-shown once the mod is updated/fixed.
+	//Biblio Craft
+	<bibliocraft:printingpress>, //This can be re-shown once the mod is updated/fixed.
 
-	// Mekanism
-	<mekanism:machineblock:4> // Bye bye miner!
+	//Mekanism
+	<mekanism:machineblock:4> //Bye bye miner!
 ];
 
 for item in removeAndHideItems {

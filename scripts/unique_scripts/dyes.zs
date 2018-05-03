@@ -4,6 +4,11 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.immersiveengineering.Crusher as IECrusher;
+import mods.betterwithmods.Mill;
+import mods.actuallyadditions.Crusher as AACrusher;
+import mods.horsepower.Grindstone;
+
 var IE_CRUSHER_ENERGY as int = 3200;
 var HP_GRINDSTONE_TIME as int = 12;
 
@@ -258,22 +263,22 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 };
 
 //Remove wool -> minecraft dye and string. Re-create in dye loop
-mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
+IECrusher.removeRecipe(<minecraft:string>);
 
 for dye, items in dyeCrushingRecipes {
 	//Re-create wool -> string/dye recipe
 	if (dye.metadata == 0) {
 		//White wool doesn't output dye
-		mods.immersiveengineering.Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata));
+		IECrusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata));
 	} else {
-		mods.immersiveengineering.Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata), IE_CRUSHER_ENERGY, dye, 0.05);
+		IECrusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata), IE_CRUSHER_ENERGY, dye, 0.05);
 	}
 
 	for item in items {
-		mods.actuallyadditions.Crusher.addRecipe(dye * 2, item);
-		mods.betterwithmods.Mill.addRecipe([item], [dye * 2]);
-		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
-		mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
+		AACrusher.addRecipe(dye * 2, item);
+		Mill.addRecipe([item], [dye * 2]);
+		IECrusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
+		Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
 	}
 }
 

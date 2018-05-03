@@ -46,6 +46,10 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:orematic5000"}) : [
 		[<minecraft:paper>, <geolosys:cluster:8>, <geolosys:cluster:12>]
+	],
+
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hydraulic_press"}) : [
+		[<minecraft:paper>, <galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:7>]
 	]
 };
 

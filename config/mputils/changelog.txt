@@ -141,6 +141,7 @@ Enhancements:
 * Added Death Compass drops to Player Skinned mobs
 * Add flower crushing recipes to Mekanism crusher (#1665)
 * Add Bronze Ingot alloying to Arc Furnace (#1665)
+* Added a Modular Machine to allow faster Compressed and Heavy Duty Plate Creation for stage 5
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

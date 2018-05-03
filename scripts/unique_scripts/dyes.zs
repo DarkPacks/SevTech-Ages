@@ -8,6 +8,7 @@ import mods.immersiveengineering.Crusher as IECrusher;
 import mods.betterwithmods.Mill;
 import mods.actuallyadditions.Crusher as AACrusher;
 import mods.horsepower.Grindstone;
+import mods.mekanism.crusher as MekanismCrusher;
 
 var IE_CRUSHER_ENERGY as int = 3200;
 var HP_GRINDSTONE_TIME as int = 12;
@@ -279,6 +280,7 @@ for dye, items in dyeCrushingRecipes {
 		Mill.addRecipe([item], [dye * 2]);
 		IECrusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
 		Grindstone.add(item, dye, HP_GRINDSTONE_TIME);
+		MekanismCrusher.addRecipe(item, dye * 2);
 	}
 }
 

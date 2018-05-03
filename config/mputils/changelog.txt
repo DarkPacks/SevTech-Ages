@@ -76,6 +76,7 @@ Bug Fixes:
 * Removed useless ironpane group from chisel
 * Removed some recipes of items that dont exist
 * Blacklist Compact Machines from Carry-On (#2193)
+* Add flower crushing recipes to Mekanism crusher (#1665)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

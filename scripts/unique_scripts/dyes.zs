@@ -45,21 +45,30 @@ recipes.addShapeless(<pickletweaks:dye_powder:12> * 2, [<pickletweaks:dye_powder
 recipes.addShapeless(<pickletweaks:dye_powder:12> * 3, [<pickletweaks:dye_powder:15>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:4>]);
 
 //Remove all dye recipes
-recipes.remove(<minecraft:dye:1>);
-recipes.remove(<minecraft:dye:2>);
-recipes.remove(<minecraft:dye:3>);
-recipes.remove(<minecraft:dye:5>);
-recipes.remove(<minecraft:dye:6>);
-recipes.remove(<minecraft:dye:7>);
-recipes.remove(<minecraft:dye:8>);
-recipes.remove(<minecraft:dye:9>);
-recipes.remove(<minecraft:dye:10>);
-recipes.remove(<minecraft:dye:11>);
-recipes.remove(<minecraft:dye:12>);
-recipes.remove(<minecraft:dye:13>);
-recipes.remove(<minecraft:dye:14>);
-recipes.remove(<minecraft:dye:15>);
-recipes.remove(<minecraft:dye>);
+var minecraftDyes as IItemStack[] = [
+	<minecraft:dye:1>,
+	<minecraft:dye:2>,
+	<minecraft:dye:3>,
+	<minecraft:dye:5>,
+	<minecraft:dye:6>,
+	<minecraft:dye:7>,
+	<minecraft:dye:8>,
+	<minecraft:dye:9>,
+	<minecraft:dye:10>,
+	<minecraft:dye:11>,
+	<minecraft:dye:12>,
+	<minecraft:dye:13>,
+	<minecraft:dye:14>,
+	<minecraft:dye:15>,
+	<minecraft:dye>
+];
+
+for minecraftDye in minecraftDyes {
+	recipes.remove(minecraftDye);
+
+	//Remove AA Crusher recipes
+	mods.actuallyadditions.Crusher.removeRecipe(minecraftDye);
+}
 
 /*
 	Add crushing recipes for dyes
@@ -261,6 +270,7 @@ for dye, items in dyeCrushingRecipes {
 	}
 
 	for item in items {
+		mods.actuallyadditions.Crusher.addRecipe(dye * 2, item);
 		mods.betterwithmods.Mill.addRecipe([item], [dye * 2]);
 		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);
 		mods.horsepower.Grindstone.add(item, dye, HP_GRINDSTONE_TIME);

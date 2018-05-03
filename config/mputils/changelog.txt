@@ -331,7 +331,7 @@ Mod Updates:
     * Fix: Omnidirectional Hoppers now respect the sidedness of the block they pull from
 * Power Adapters (1.0.9)
     * Fixed power input and output being wrong
-    * Fixed block accepting power even if it's full
+    * Fixed block accepting power even if it's full (#1745)
 * Prestige (1.0.15)
 * PrimalCore (0.6.47)
     * Charcoal Stacks now have a slight variation in the output grade

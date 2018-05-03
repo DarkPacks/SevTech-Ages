@@ -168,6 +168,9 @@ Mod Updates:
     * Worm should no longer attempt to post a UseHoeEvent on farmland.
     * Only items with FE capability can be placed in the energizer.
     * Oil generator outputs now properly scale with configured values.
+* Animalium (0.3.7)
+    * Increased Bear Claw Paxel's mining speed on blocks that harvest slower to make it faster than punching them.
+    * Removed Flying Cake Monster spawning on Darkosto's Birthday due to it constantly spawning.
 * Astral Sorcery (1.8.9)
     * Tonnes of fixes!
 * AutoRegLib (1.3-17)
@@ -329,14 +332,16 @@ Mod Updates:
 * Placebo (1.3.3)
 * Playerskin (1.0.5)
     * Fixed issue with blank loot table spamming servers
-* PneumaticCraft: Repressurized (0.6.3-181)
+* PneumaticCraft: Repressurized (0.6.3-186)
     * Fix: Server crash when Spawner Agitators are used in conjunction with the Despawning Spawners mod.
     * Fix: Omnidirectional Hoppers now respect the sidedness of the block they pull from
+    * Plastic Mixer JEI page now uses Ore Dictionary to show the dyes instead of hard-coded vanilla dye items.
+    * Fix: client crash when looking at RFTools Powercells with the Pneumatic Helmet Block Upgrade Tracker active.
 * Power Adapters (1.0.9)
     * Fixed power input and output being wrong
     * Fixed block accepting power even if it's full (#1745)
 * Prestige (1.0.15)
-* PrimalCore (0.6.47)
+* PrimalCore (0.6.49)
     * Charcoal Stacks now have a slight variation in the output grade
     * Fixes for various plants and certain primal blocks not getting along during WorldGen
 * Quantum Storage (4.5.0)

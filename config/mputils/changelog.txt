@@ -73,6 +73,7 @@ Bug Fixes:
 * Fixed Immersive Engineering Excavator not harvisting ores as expected (#2008)
 * Moved the incorrectly item staged Stone Builder's Wand to stage 1 where it belongs
 * IE Crusher gives proper dye from wool -> string recipes & AA Crusher gives proper dye from flower -> dye recipes (#593)
+* Removed useless ironpane group from chisel
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

@@ -58,3 +58,9 @@ Carving.addVariation("limestone", <thebetweenlands:limestone_bricks>);
 Carving.addVariation("limestone", <thebetweenlands:limestone_tiles>);
 Carving.addVariation("limestone", <thebetweenlands:polished_limestone>);
 Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone>);
+
+/*
+	Remove Iron Pane group
+	All items are WIP and thus hidden in JEI by us
+*/
+Carving.removeGroup("ironpane");

@@ -222,7 +222,7 @@ Mod Updates:
 * Ceramics (1.3.4)
     * Minor tweaks and fixes.
 * Code Chicken Lib (3.1.7.340)
-* Compact Machines (2.0.8-b200)
+* Compact Machines (3.0.9-b204)
     * Fix NPE when tunnels are being checked on the client side
     * Only consume one catalyst item instead of the whole stack
 * CraftTweaker (4.1.8)
@@ -365,6 +365,8 @@ Mod Updates:
 * Spartan Shields (1.4.1)
     * Minor tweaks and recipe fixes.
 * Tesla Core Lib (1.0.14.10)
+* Tinkers Construct (2.10.0.71)
+    * Note: This is an Alpha build but contains an possible fix for OreExc.
 * Tinkers Complement (0.2.3b)
     * Fix crash from melter without a heating source
     * If the melter previously held solid fuel, that is now cleaned upon switching to liquid fuel

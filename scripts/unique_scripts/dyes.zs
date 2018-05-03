@@ -270,7 +270,7 @@ for dye, items in dyeCrushingRecipes {
 	//Re-create wool -> string/dye recipe
 	if (dye.metadata == 0) {
 		//White wool doesn't output dye
-		IECrusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata));
+		IECrusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata), IE_CRUSHER_ENERGY);
 	} else {
 		IECrusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata), IE_CRUSHER_ENERGY, dye, 0.05);
 	}

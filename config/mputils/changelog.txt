@@ -72,6 +72,7 @@ Bug Fixes:
 * Remove & hide and printing press until the mod is updated/fixed (#1429)
 * Fixed Immersive Engineering Excavator not harvisting ores as expected (#2008)
 * Moved the incorrectly item staged Stone Builder's Wand to stage 1 where it belongs
+* IE Crusher gives proper dye from wool -> string recipe (#593)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

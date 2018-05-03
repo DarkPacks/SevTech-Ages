@@ -98,10 +98,6 @@ Crusher.addRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 300
 Crusher.addRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 3000); // Halite Salt Ore to Halite Rock Salt
 Crusher.addRecipe(<primal:salt_dust_rock:1> * 4, <primal:salt_dust_fire>, 3000); // Fire Salt Ore to Fire Rock Salt
 
-//Lapis
-Crusher.removeRecipesForInput(<minecraft:wool:11>);
-Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:11>, 3000, <ore:gemLapis>.firstItem, 0.05);
-
 /*
 	Arc Furnace
 

@@ -248,7 +248,18 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	]
 };
 
+//Remove wool -> minecraft dye and string. Re-create in dye loop
+mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
+
 for dye, items in dyeCrushingRecipes {
+	//Re-create wool -> string/dye recipe
+	if (dye.metadata == 0) {
+		//White wool doesn't output dye
+		mods.immersiveengineering.Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata));
+	} else {
+		mods.immersiveengineering.Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool>.definition.makeStack(dye.metadata), IE_CRUSHER_ENERGY, dye, 0.05);
+	}
+
 	for item in items {
 		mods.betterwithmods.Mill.addRecipe([item], [dye * 2]);
 		mods.immersiveengineering.Crusher.addRecipe(dye * 2, item, IE_CRUSHER_ENERGY);

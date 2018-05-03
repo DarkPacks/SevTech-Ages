@@ -74,6 +74,7 @@ Bug Fixes:
 * Moved the incorrectly item staged Stone Builder's Wand to stage 1 where it belongs
 * IE Crusher gives proper dye from wool -> string recipes & AA Crusher gives proper dye from flower -> dye recipes (#593)
 * Removed useless ironpane group from chisel
+* Removed some recipes of items that dont exist
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

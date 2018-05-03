@@ -76,8 +76,6 @@ Bug Fixes:
 * Removed useless ironpane group from chisel
 * Removed some recipes of items that dont exist
 * Blacklist Compact Machines from Carry-On (#2193)
-* Add flower crushing recipes to Mekanism crusher (#1665)
-* Add Bronze Ingot alloying to Arc Furnace (#1665)
 * Removed conflicting Arc Furnace recipes (Any that used a metal dust as a primary item)
 
 Enhancements:
@@ -141,6 +139,8 @@ Enhancements:
 * Added more seeds to be pressed into dirt
 * Disabled the Extra Planets Radiation Mechanic
 * Added Death Compass drops to Player Skinned mobs
+* Add flower crushing recipes to Mekanism crusher (#1665)
+* Add Bronze Ingot alloying to Arc Furnace (#1665)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

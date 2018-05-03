@@ -75,6 +75,7 @@ Bug Fixes:
 * IE Crusher gives proper dye from wool -> string recipes & AA Crusher gives proper dye from flower -> dye recipes (#593)
 * Removed useless ironpane group from chisel
 * Removed some recipes of items that dont exist
+* Blacklist Compact Machines from Carry-On (#2193)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

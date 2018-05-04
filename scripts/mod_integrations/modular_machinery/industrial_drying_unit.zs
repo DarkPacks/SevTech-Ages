@@ -1,14 +1,5 @@
 import scripts.mod_integrations.modular_machinery.base.createRecipeName;
-
-function squareNum(number as int, timesToSquare as int) as int {
-	var returnNumber = number;
-
-	for i in 0 to timesToSquare {
-		returnNumber = returnNumber * 2;
-	}
-
-	return returnNumber;
-}
+import scripts.utils.squareNum;
 
 var machineName = "industrial_drying_unit";
 

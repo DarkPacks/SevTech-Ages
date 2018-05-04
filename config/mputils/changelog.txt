@@ -224,7 +224,7 @@ Mod Updates:
 * Ceramics (1.3.4)
     * Minor tweaks and fixes.
 * Code Chicken Lib (3.1.7.340)
-* Compact Machines (3.0.9-b204)
+* Compact Machines (3.0.10-b206)
     * Fix NPE when tunnels are being checked on the client side
     * Only consume one catalyst item instead of the whole stack
 * CraftTweaker (4.1.8)
@@ -344,7 +344,7 @@ Mod Updates:
     * Fixed power input and output being wrong
     * Fixed block accepting power even if it's full (#1745)
 * Prestige (1.0.15)
-* PrimalCore (0.6.49)
+* PrimalCore (0.6.50)
     * Charcoal Stacks now have a slight variation in the output grade
     * Fixes for various plants and certain primal blocks not getting along during WorldGen
 * Quantum Storage (4.5.0)

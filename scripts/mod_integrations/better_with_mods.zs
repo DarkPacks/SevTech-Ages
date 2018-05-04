@@ -140,6 +140,7 @@ Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <
 Crucible.remove([<betterwithaddons:decomat:3>]);
 Crucible.remove([<betterwithaddons:decomat:3> * 2]);
 Crucible.remove([<minecraft:glass>]);
+Crucible.remove([<minecraft:iron_ingot> * 3]);
 
 /*
 	Saw

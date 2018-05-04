@@ -77,6 +77,8 @@ Bug Fixes:
 * Removed some recipes of items that dont exist
 * Blacklist Compact Machines from Carry-On (#2193)
 * Removed conflicting Arc Furnace recipes (Any that used a metal dust as a primary item)
+* Fixed issue with mining Redstone ore with Silktouch not giving the correct ore block (#1875)
+* Fixed Iron duplication exploit involving Iron Bars in the Stoked Crucible (#2187)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

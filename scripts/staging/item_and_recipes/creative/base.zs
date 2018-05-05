@@ -5,7 +5,6 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.creative;
 
 var creativeItems as IItemStack[] = [
-	<ironjetpacks:creative_capacitor>,
 	<ironjetpacks:creative_cell>,
 	<ironjetpacks:creative_jetpack>,
 	<ironjetpacks:creative_thruster>,
@@ -50,6 +49,7 @@ var creativeUnusedItems as IItemStack[] = [
 	<galacticraftplanets:rocket_t2:14>,
 	<galacticraftplanets:rocket_t3:4>,
 	<immersiveengineering:metal_device0:3>,
+	<ironjetpacks:creative_capacitor>,
 	<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}),
 	<mekanism:energycube>.withTag({tier: 4, mekData: {}}),
 	<mekanism:machineblock2:11>,

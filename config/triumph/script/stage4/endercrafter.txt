@@ -9,8 +9,6 @@ setRequiresParent(true)
 
 setFrameType("Goal")
 
-setRequirements("any")
-
 setUncompletedIconColor(8947848)
 setCompletedIconColor(6570404)
 setUncompletedTitleColor(8947848)

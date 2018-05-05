@@ -1,8 +1,8 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 //<minecraft:chest>.displayName = "Storage Box";
 
-var renameArray as string[IItemStack] = {
+var renameArray as string[IIngredient] = {
 	<primal:hide_tanned> : "Wet Tanned Hide",
 
 	<betterwithaddons:japanmat:4> : "Rice Flour",

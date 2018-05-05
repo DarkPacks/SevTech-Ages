@@ -103,6 +103,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:chest_sack_empty>,
 	<cyclicmagic:dropper_minecart>,
 	<cyclicmagic:ender_blaze>,
+	<cyclicmagic:ender_lightning>,
 	<cyclicmagic:ender_snow>,
 	<cyclicmagic:ender_water>,
 	<cyclicmagic:entity_detector>,

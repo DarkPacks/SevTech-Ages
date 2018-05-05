@@ -8,12 +8,10 @@ var STAGE = STAGES.five;
 var modIDs as string[] = [
 	"compactmachines3",
 	"environmentaltech",
-	"ironjetpacks",
 	"quantumstorage",
 	"rftools",
 	"rftoolscontrol",
 	"scannable"
-
 ];
 
 for id in modIDs {
@@ -999,7 +997,24 @@ var itemsForStage as IIngredient[] = [
 	<rebornstorage:storagepart:5>,
 	<rebornstorage:storagepart:6>,
 	<rebornstorage:storagepart:7>,
-	<rebornstorage:storagepart>
+	<rebornstorage:storagepart>,
+
+	//Iron Jetpacks
+	<ironjetpacks:advanced_coil>,
+	<ironjetpacks:basic_coil>,
+	<ironjetpacks:diamond_capacitor>,
+	<ironjetpacks:diamond_cell>,
+	<ironjetpacks:diamond_jetpack>,
+	<ironjetpacks:diamond_thruster>,
+	<ironjetpacks:electrum_capacitor>,
+	<ironjetpacks:electrum_cell>,
+	<ironjetpacks:electrum_jetpack>,
+	<ironjetpacks:electrum_thruster>,
+	<ironjetpacks:emerald_capacitor>,
+	<ironjetpacks:emerald_cell>,
+	<ironjetpacks:emerald_jetpack>,
+	<ironjetpacks:emerald_thruster>,
+	<ironjetpacks:strap>
 ];
 
 for item in itemsForStage {

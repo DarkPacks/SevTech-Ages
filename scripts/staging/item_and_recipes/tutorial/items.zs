@@ -20,7 +20,6 @@ var stageTutorialItems as IIngredient[] = [
 	<cyclicmagic:sleeping_mat>,
 	<death_compass:death_compass>,
 	<horsepower:chopping_block:*>,
-	<horsepower:chopping_block>,
 	<immcraft:chest>,
 	<immcraft:rock>,
 	<minecraft:apple>,

@@ -1,15 +1,7 @@
-import scripts.mod_integrations.modular_machinery.base.createRecipeName;
 import mods.modularmachinery.RecipeBuilder;
 
-function squareNum(number as int, timesToSquare as int) as int {
-	var returnNumber = number;
-
-	for i in 0 to timesToSquare {
-		returnNumber = returnNumber * 2;
-	}
-
-	return returnNumber;
-}
+import scripts.mod_integrations.modular_machinery.base.createRecipeName;
+import scripts.utils.squareNum;
 
 var machineName = "mixer";
 

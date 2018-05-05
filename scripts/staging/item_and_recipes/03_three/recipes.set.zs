@@ -126,6 +126,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:ender_dungeon>,
 
 	//Immersive Engineering
 	<immersiveengineering:aluminum_scaffolding_stairs0>,

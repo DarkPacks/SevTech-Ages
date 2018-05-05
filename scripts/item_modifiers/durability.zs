@@ -165,7 +165,10 @@ var durabilityArray = {
 	<pickletweaks:grass_mesh> : 64,
 
 	// Dog Boots
-	<animalium:dog_boots>: 260
+	<animalium:dog_boots>: 260,
+
+	<cyclicmagic:ender_dungeon>: 1250
+
 } as int[IItemStack];
 
 for item in durabilityArray {

@@ -79,6 +79,7 @@ Bug Fixes:
 * Removed conflicting Arc Furnace recipes (Any that used a metal dust as a primary item)
 * Fixed issue with mining Redstone ore with Silktouch not giving the correct ore block (#1875)
 * Fixed Iron duplication exploit involving Iron Bars in the Stoked Crucible (#2187)
+* Moved the Cyclic Dungeon Finder item to stage 3 and staged its recipe properly
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -144,6 +145,7 @@ Enhancements:
 * Add flower crushing recipes to Mekanism crusher (#1665)
 * Add Bronze Ingot alloying to Arc Furnace (#1665)
 * Added a Modular Machine to allow faster Compressed and Heavy Duty Plate Creation for stage 5
+* Added an Advancement to alert players of the Spawner Seeker and its helpfulness when locating Galacticraft Dungeons
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -400,6 +402,8 @@ Mod Updates:
 * Tumbleweeds (0.4.5)
     * Mod items now work in configuration
     * Tumbleweeds now always travel north-west
+* Uppers (0.0.6)
+    * Fixed redstone deleting contents on occasions
 * Waddles (0.6.0)
     * Rewrote registry system
     * Added config option for what biomes penguins can spawn in, based on BiomeDictionary types

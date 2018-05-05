@@ -1220,6 +1220,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:turret_minecart>,
 	<cyclicmagic:wand_hypno>,
 	<cyclicmagic:wand_missile>,
+	<cyclicmagic:ender_dungeon>,
 
 	//Tinkers'
 	<tconstruct:brownstone:1>,

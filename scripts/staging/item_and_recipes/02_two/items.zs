@@ -1122,7 +1122,6 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:block_fragile_auto>,
 	<cyclicmagic:block_fragile_weak>,
 	<cyclicmagic:block_soundproofing>,
-	<cyclicmagic:ender_dungeon>,
 	<cyclicmagic:ender_lightning>,
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:horse_upgrade_variant>,

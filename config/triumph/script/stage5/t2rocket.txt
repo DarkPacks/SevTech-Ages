@@ -4,7 +4,7 @@ setIcon("galacticraftplanets:rocket_t2")
 
 setDescription("Build a Tier 2 Rocket to further your exploration range")
 
-setParent("triumph:stage5/root")
+setParent("triumph:stage5/spawnerseeker")
 setRequiresParent(true)
 
 setRequirements("any")

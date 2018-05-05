@@ -1,0 +1,15 @@
+setTitle("You're a Harry, Wizard")
+
+setIcon("cyclicmagic:ender_dungeon", 0)
+
+setDescription("Finding Dungeons to acquire blueprints can be tough. Craft a Spawner Seeker wand to locate any spawner within a 128 block range")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:ender_dungeon", 0)
+
+//Rewards
+setRewardExperience(15)

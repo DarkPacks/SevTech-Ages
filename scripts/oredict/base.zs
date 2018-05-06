@@ -383,3 +383,13 @@ for i in 0 to 16 {
 
 //Certus Quartz Charged (This is for IE Excavator support)
 <ore:crystalCertusQuartzCharged>.add(<appliedenergistics2:material:1>);
+
+//The Betweenlands
+<ore:stoneLimestone>.add(<thebetweenlands:limestone>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_chiseled>);
+<ore:stoneLimestone>.add(<thebetweenlands:cracked_limestone_bricks>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_bricks>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_tiles>);
+<ore:stoneLimestone>.add(<thebetweenlands:mossy_limestone_bricks>);
+<ore:stoneLimestonePolished>.add(<thebetweenlands:polished_limestone>);
+<ore:stoneLimestonePolished>.add(<thebetweenlands:weak_polished_limestone>);

@@ -86,6 +86,7 @@ Bug Fixes:
 * Fix "Ender Alloy" advancement triggered on wrong ender alloy (#2240)
 * Fixed Astral Sorcery Aevitas attunement converting stone into ores that should not be accessible. (#1240)
 * Fixed an incorrect tooltip on the Inductive Logistics autocrafters to say stage 4 instead of 3
+* Fixed the Cyclic Slow Slime Conveyor being staged incorrectly
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

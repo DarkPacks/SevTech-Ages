@@ -372,7 +372,7 @@ Mod Updates:
     * Added new models for the Crafting machine and Crating machine.
     * Added Quantum Bag (Works like EE2 Alchemical Bags)
     * Fixed some partials not working after model change.
-* RebornCore (3.8.0.264)
+* RebornCore (3.8.1.271)
 * Reborn Storage (3.0.6.43)
     *  Added support for crafter manager
 * Refined Storage (1.5.33)

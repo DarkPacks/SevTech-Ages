@@ -149,6 +149,7 @@ Enhancements:
 * Added a Modular Machine to allow faster Compressed and Heavy Duty Plate Creation for stage 5
 * Added an Advancement to alert players of the Spawner Seeker and its helpfulness when locating Galacticraft Dungeons
 * Set Quark deposit to chest default behavior to stack with existing instead of dumping your entire inventory (#2231)
+* Added The Betweenlands limestone to oreDict (#2196)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

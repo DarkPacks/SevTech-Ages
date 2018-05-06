@@ -1210,6 +1210,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:placer_block>,
 	<cyclicmagic:plate_push>,
 	<cyclicmagic:plate_push_fast>,
+	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_push_slowest>,
 	<cyclicmagic:sprinkler>,
 	<cyclicmagic:stone_minecart>,

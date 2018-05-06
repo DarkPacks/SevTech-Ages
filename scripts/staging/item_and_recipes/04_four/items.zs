@@ -586,7 +586,6 @@ var stage4Items as IIngredient[] = [
 	<cyclicmagic:item_pipe_sort>,
 	<cyclicmagic:item_pump>,
 	<cyclicmagic:magnet_block>,
-	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,

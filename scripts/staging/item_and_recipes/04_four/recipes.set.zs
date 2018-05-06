@@ -255,7 +255,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:magnet_block>,
 	<cyclicmagic:password_block>,
 	<cyclicmagic:password_remote>,
-	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_vector>,
 	<cyclicmagic:tool_mount_inverse>,
 	<cyclicmagic:wireless_receiver>,

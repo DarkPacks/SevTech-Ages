@@ -119,6 +119,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:password_block>,
 	<cyclicmagic:plate_push>,
 	<cyclicmagic:plate_push_fast>,
+	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_push_slowest>,
 	<cyclicmagic:stone_minecart>,
 	<cyclicmagic:tool_launcher>,

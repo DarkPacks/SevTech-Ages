@@ -347,7 +347,7 @@ Mod Updates:
     * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
     * Make only layer 0 of the repair kit texture get colored
     * Fixed repair kit texture being flat
-* Placebo (1.3.3)
+* Placebo (1.3.4)
 * Playerskin (1.0.5)
     * Fixed issue with blank loot table spamming servers
 * PneumaticCraft: Repressurized (0.6.3-186)

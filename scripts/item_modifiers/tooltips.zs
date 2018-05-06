@@ -182,8 +182,8 @@ var prospectingRodRange as int = 48;
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("and a rare drop chance"));
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("from certain Betweenlands enemies"));
 
-<indlog:auto_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));
-<indlog:portable_craft>.addTooltip(format.red("Only able to craft Age 3 items and below"));
+<indlog:auto_craft>.addTooltip(format.red("Only able to craft Age 4 items and below"));
+<indlog:portable_craft>.addTooltip(format.red("Only able to craft Age 4 items and below"));
 
 <buildcraftfactory:autoworkbench_item>.addTooltip(format.red("Only able to craft Age 4 items and below"));
 

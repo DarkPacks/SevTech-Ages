@@ -155,7 +155,6 @@ var stage3Items as IIngredient[] = [
 	<primal:nether_tinder>,
 	<primal:nether_vine>,
 	<primal:nether_wart_cooked>,
-	<primal:netherwax_clump>,
 	<primal:ovis_meat_cooked>,
 	<primal:pigman_meat_cooked>,
 	<primal:quartz_axe>,

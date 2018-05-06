@@ -284,7 +284,6 @@ for i in 0 to 16 {
 <ore:dyeBlack>.remove(<actuallyadditions:item_misc:17>);
 <ore:dyeBlack>.remove(<minecraft:dye>);
 <ore:dyeBlack>.remove(<nex:item_dust_wither>);
-<ore:dyeBlack>.remove(<primal:netherwax_clump>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
 <ore:dyeBrown>.remove(<betterwithmods:material:5>);
 <ore:dyeBrown>.remove(<industrialforegoing:fertilizer>);

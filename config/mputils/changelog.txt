@@ -82,6 +82,7 @@ Bug Fixes:
 * Moved the Cyclic Dungeon Finder item to stage 3 and staged its recipe properly
 * Fixed Creative Jetpack Thruster being incorrectly staged (#2227)
 * Fixed Ender Crafter advancemnt triggering without both items being crafted. (#2209)
+* Fixed Autunite not being detected by the Ultimate Prospector (#1895)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

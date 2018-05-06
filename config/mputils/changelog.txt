@@ -84,6 +84,7 @@ Bug Fixes:
 * Fixed Ender Crafter advancemnt triggering without both items being crafted. (#2209)
 * Fixed Autunite not being detected by the Ultimate Prospector (#1895)
 * Fix "Ender Alloy" advancement triggered on wrong ender alloy (#2240)
+* Fixed Astral Sorcery Aevitas attunement converting stone into ores that should not be accessible. (#1240)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

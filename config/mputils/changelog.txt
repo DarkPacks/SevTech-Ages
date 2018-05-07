@@ -290,7 +290,7 @@ Mod Updates:
 * Hunting Dimension (1.0.24)
     * Added a cache system for frame variants. Also removed non full blocks from the candidate list.
     * Fixed setting spawn or sound chance to 0 causing a crash.
-* Immersive Engineering (0.12-81)
+* Immersive Engineering (0.12-82)
     * See: https://minecraft.curseforge.com/projects/immersive-engineering/files/2554650
 * ImmersiveTech (1.3.8)
     * Fixed Boiler crash

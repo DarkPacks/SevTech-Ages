@@ -287,6 +287,19 @@ for dye, items in dyeCrushingRecipes {
 /*
 	Misc
 */
+// Re-create Minecraft Wool Dying Recipes
+for dye, items in dyeCrushingRecipes {
+	var dyeOredict as IOreDictEntry = oreDict.get("dye" ~
+		scripts.utils.capitalize(scripts.unique_scripts.dyes.minecraftDyeIDTable[15 - dye.metadata]));
+
+	recipes.addShaped(<minecraft:wool>.definition.makeStack(dye.metadata), [
+		[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+		[<ore:blockWool>, dyeOredict, <ore:blockWool>],
+		[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]
+	]);
+}
+
+// Dyed Slime Blocks
 recipes.removeByRegex("darkutils:dyed_slime_block_.*");
 function oredictSlimeBlockRecipes(i as int) {
 	var slimeBlock as IItemStack = <darkutils:slime_dyed>.definition.makeStack(i);

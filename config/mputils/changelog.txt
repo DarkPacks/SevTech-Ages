@@ -158,6 +158,7 @@ Enhancements:
 * Set Quark deposit to chest default behavior to stack with existing instead of dumping your entire inventory (#2231)
 * Added The Betweenlands limestone to oreDict (#2196)
 * Adjusted the Astral Sorcery Aevitas attunement hunger and saturation per tick
+* Re-add Minecraft wool dying recipes
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

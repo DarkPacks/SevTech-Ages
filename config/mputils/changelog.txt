@@ -87,6 +87,8 @@ Bug Fixes:
 * Fixed Astral Sorcery Aevitas attunement converting stone into ores that should not be accessible. (#1240)
 * Fixed an incorrect tooltip on the Inductive Logistics autocrafters to say stage 4 instead of 3
 * Fixed the Cyclic Slow Slime Conveyor being staged incorrectly
+* Removed dying wool in the Crucibal to correct a duplication bug
+* Removed Elytra recipe from the Abyssal Craft Materializer since it was craftable in stage 4
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

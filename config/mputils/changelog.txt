@@ -89,6 +89,7 @@ Bug Fixes:
 * Fixed the Cyclic Slow Slime Conveyor being staged incorrectly
 * Removed dying wool in the Crucibal to correct a duplication bug
 * Removed Elytra recipe from the Abyssal Craft Materializer since it was craftable in stage 3
+* Added Mekanism cables and pipes to the carry-on blacklist to prevent potential crash
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

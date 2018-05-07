@@ -1,4 +1,5 @@
 import mods.abyssalcraft.InfusionRitual;
+import mods.abyssalcraft.Materializer;
 import mods.abyssalcraft.RitualStages;
 import mods.abyssalcraft.Rituals;
 
@@ -73,3 +74,10 @@ RitualStages.addRitualStage(STAGES.one, "ascraftingtable");
 RitualStages.addRitualStage(STAGES.two, "constellationpaper");
 RitualStages.addRitualStage(STAGES.two, "transmutationGem");
 RitualStages.addRitualStage(STAGES.two, "oblivionCatalyst");
+
+/*
+	Materializer
+
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#materializer-recipes-are-added-this-way
+*/
+mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:elytra>.withTag({}));

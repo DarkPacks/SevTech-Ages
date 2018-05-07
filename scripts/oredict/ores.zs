@@ -1,8 +1,12 @@
 #priority 1050
 
+/*
+	Geolosys Ores
+*/
 <ore:oreGeolosysAutunite>.add(<geolosys:ore:9>);
 <ore:oreGeolosysAzurite>.add(<geolosys:ore:3>);
 <ore:oreGeolosysBauxite>.add(<geolosys:ore:7>);
+<ore:oreGeolosysBeryl>.add(<geolosys:ore_vanilla:6>);
 <ore:oreGeolosysCassiterite>.add(<geolosys:ore:4>);
 <ore:oreGeolosysCinnabar>.add(<geolosys:ore_vanilla:1>);
 <ore:oreGeolosysCoal>.add(<geolosys:ore_vanilla>);
@@ -21,7 +25,28 @@
 <ore:oreGeolosysSphalerite>.add(<geolosys:ore:10>);
 <ore:oreGeolosysTeallite>.add(<geolosys:ore:5>);
 
-//Remove ore oredict on geolosys-styled CoT ores
+// Remove ore oredict on geolosys-styled CoT ores.
 <ore:oreGold>.remove(<materialpart:gold:ore_galacticraftplanets_bottom>);
 <ore:oreIron>.remove(<materialpart:iron:ore_galacticraftcore_bottom>);
 <ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);
+
+/*
+	Oredicts for Scannable
+*/
+<ore:oreMeteoricIron>.add(<galacticraftcore:basic_block_core:12>);
+<ore:oreMeteoricIron>.add(<galacticraftcore:fallen_meteor>);
+<ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);
+
+// Add oredict to GC Ores missing them
+<ore:oreAluminum>.add(<galacticraftcore:basic_block_core:7>);
+<ore:oreAluminum>.add(<galacticraftplanets:asteroids_block:3>);
+<ore:oreAluminum>.add(<galacticraftplanets:venus:6>);
+<ore:oreCopper>.add(<galacticraftplanets:mars>);
+<ore:oreCopper>.add(<galacticraftplanets:venus:7>);
+<ore:oreIron>.add(<galacticraftplanets:mars:3>);
+<ore:oreLead>.add(<galacticraftplanets:venus:8>);
+<ore:oreTin>.add(<galacticraftplanets:mars:1>);
+<ore:oreTin>.add(<galacticraftplanets:venus:11>);
+
+// Add this oredict to differentiate between the two ores
+<ore:oreBasicCertusQuartz>.add(<appliedenergistics2:quartz_ore>);

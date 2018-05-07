@@ -415,7 +415,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	zinc: {
 		block: <extraplanets:neptune:7>,
-		dust: null,
+		dust: <primal:zinc_dust>,
 		gear: null,
 		ingot: <extraplanets:tier8_items:5>,
 		liquid: <liquid:zinc>,

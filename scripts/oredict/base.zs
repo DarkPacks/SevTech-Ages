@@ -334,8 +334,6 @@ for i in 0 to 16 {
 <ore:listAllmeatcooked>.add(<nex:food_meat_ghast_cooked>);
 <ore:listAllmeatcooked>.add(<natura:edibles:1>);
 
-<ore:oreBasicCertusQuartz>.add(<appliedenergistics2:quartz_ore>); //Add this oredict to differentiate between the two ores
-
 //Fiery bottles
 <ore:bottleFiery>.add(<twilightforest:fiery_blood>);
 <ore:bottleFiery>.add(<twilightforest:fiery_tears>);
@@ -371,10 +369,6 @@ for i in 0 to 16 {
 
 //Add BWM Diamond Nugget to be removed in unification
 <ore:nuggetDiamond>.add(<betterwithmods:material:46>);
-
-//Add OreDict to Geolosys Beryl and Rock Crystal to allow input in Scannable Config
-<ore:oreGeolosysBeryl>.add(<geolosys:ore_vanilla:6>);
-<ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);
 
 //Remove Cut Leather oredict
 <ore:leather>.remove(<betterwithmods:material:31>);

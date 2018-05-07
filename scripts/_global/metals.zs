@@ -30,6 +30,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotAluminum>,
 		nugget: <ore:nuggetAluminum>,
+		ore: <ore:oreAluminum>,
 		plate: <ore:plateAluminum>,
 		rod: <ore:rodAluminum>
 	},
@@ -44,10 +45,11 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	ardite: {
 		block: <ore:blockArdite>,
-		dust: null,
+		dust: null, // TODO: Cobalt needs a dust for better processing.
 		gear: null,
 		ingot: <ore:ingotArdite>,
 		nugget: <ore:nuggetArdite>,
+		ore: <ore:oreArdite>,
 		plate: null,
 		rod: null
 	},
@@ -71,10 +73,11 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	cobalt: {
 		block: <ore:blockCobalt>,
-		dust: null,
+		dust: null, // TODO: Cobalt needs a dust for better processing.
 		gear: <ore:gearCobalt>,
 		ingot: <ore:ingotCobalt>,
 		nugget: <ore:nuggetCobalt>,
+		ore: <ore:oreCobalt>,
 		plate: <ore:plateCobalt>,
 		rod: <ore:rodCobalt>
 	},
@@ -105,6 +108,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearCopper>,
 		ingot: <ore:ingotCopper>,
 		nugget: <ore:nuggetCopper>,
+		ore: <ore:oreCopper>,
 		plate: <ore:plateCopper>,
 		rod: <ore:rodCopper>,
 		shard: <ore:shardCopper>
@@ -173,6 +177,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearGold>,
 		ingot: <ore:ingotGold>,
 		nugget: <ore:nuggetGold>,
+		ore: <ore:oreGold>,
 		plate: <ore:plateGold>,
 		rod: <ore:rodGold>,
 		shard: <ore:shardGold>
@@ -195,6 +200,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearIron>,
 		ingot: <ore:ingotIron>,
 		nugget: <ore:nuggetIron>,
+		ore: <ore:oreIron>,
 		plate: <ore:plateIron>,
 		rod: <ore:rodIron>,
 		shard: <ore:shardIron>
@@ -217,6 +223,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearLead>,
 		ingot: <ore:ingotLead>,
 		nugget: <ore:nuggetLead>,
+		ore: <ore:oreLead>,
 		plate: <ore:plateLead>,
 		rod: <ore:rodLead>,
 		shard: <ore:shardLead>
@@ -245,6 +252,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotNickel>,
 		nugget: <ore:nuggetNickel>,
+		ore: <ore:oreNickel>,
 		plate: <ore:plateNickel>,
 		rod: null
 	},
@@ -257,6 +265,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotOsmium>,
 		nugget: <ore:nuggetOsmium>,
+		ore: <ore:oreOsmium>,
 		plate: null,
 		rod: null,
 		shard: <ore:shardOsmium>
@@ -276,6 +285,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearPlatinum>,
 		ingot: <ore:ingotPlatinum>,
 		nugget: null,
+		ore: <ore:orePlatium>,
 		plate: <ore:platePlatinum>,
 		rod: <ore:rodPlatinum>
 	},
@@ -315,6 +325,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearSilver>,
 		ingot: <ore:ingotSilver>,
 		nugget: <ore:nuggetSilver>,
+		ore: <ore:oreSilver>,
 		plate: <ore:plateSilver>,
 		rod: <ore:rodSilver>,
 		shard: <ore:shardSilver>
@@ -355,6 +366,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearTin>,
 		ingot: <ore:ingotTin>,
 		nugget: <ore:nuggetTin>,
+		ore: <ore:oreTin>,
 		plate: <ore:plateTin>,
 		rod: <ore:rodTin>,
 		shard: <ore:shardTin>
@@ -365,6 +377,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotTitanium>,
 		nugget: null,
+		ore: <ore:oreIlmenite>,
 		plate: null,
 		rod: null
 	},
@@ -374,6 +387,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotUranium>,
 		nugget: <ore:nuggetUranium>,
+		ore: <ore:oreUranium>,
 		plate: <ore:plateUranium>,
 		rod: null
 	},
@@ -383,6 +397,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: null,
 		ingot: <ore:ingotZinc>,
 		nugget: <ore:nuggetZinc>,
+		ore: <ore:oreZinc>,
 		plate: <ore:plateZinc>,
 		rod: null
 	}

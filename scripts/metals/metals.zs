@@ -323,7 +323,7 @@ for metalName, metal in metals {
 	}
 
 	for partName, part in metal {
-		if (part as bool) {
+		if (part as bool & partName != "ore") {
 			var preferredMetalItem = getPreferredMetalItem(metalName, partName);
 
 			scripts.unify.base.unifyWithPreferredItem(part, preferredMetalItem, metalLiquid);

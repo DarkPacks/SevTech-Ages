@@ -289,14 +289,17 @@ for dye, items in dyeCrushingRecipes {
 */
 // Re-create Minecraft Wool Dying Recipes
 for dye, items in dyeCrushingRecipes {
+	var dyeName as string = scripts.unique_scripts.dyes.minecraftDyeIDTable[15 - dye.metadata];
 	var dyeOredict as IOreDictEntry = oreDict.get("dye" ~
-		scripts.utils.capitalize(scripts.unique_scripts.dyes.minecraftDyeIDTable[15 - dye.metadata]));
+		scripts.utils.capitalize(dyeName));
 
-	recipes.addShaped(<minecraft:wool>.definition.makeStack(dye.metadata), [
-		[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
-		[<ore:blockWool>, dyeOredict, <ore:blockWool>],
-		[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]
-	]);
+	recipes.addShaped("dye_wool_" ~ dyeName,
+		<minecraft:wool>.definition.makeStack(dye.metadata), [
+			[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+			[<ore:blockWool>, dyeOredict, <ore:blockWool>],
+			[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]
+		]
+	);
 }
 
 // Dyed Slime Blocks

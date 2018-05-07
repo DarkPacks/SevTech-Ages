@@ -535,3 +535,4 @@ for item in itemsForStage {
 }
 
 mods.recipestages.Recipes.setRecipeStage(STAGE, "fishing_rod");
+mods.recipestages.Recipes.setRecipeStageByRegex(STAGE, "crafttweaker:dye_wool_.*");

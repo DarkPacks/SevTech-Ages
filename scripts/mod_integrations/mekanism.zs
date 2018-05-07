@@ -12,3 +12,6 @@ Infuser.addRecipe("OBSIDIAN", 20, <galacticraftcore:cheese_curd>, <appliedenergi
 Infuser.addRecipe("CARBON", 10, <mekanism:enrichediron>, metals.steel.dust.firstItem);
 
 Infuser.addRecipe("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest:2>);
+
+// Add a recipe to make Sulfer using the Chemical Injection. TODO: Use the resources global once completed.
+mekanism.addChemicalInjection(<minecraft:gunpowder>, <gas:hydrogenChloride>, <ore:dustSulfur>.firstItem);

@@ -2,6 +2,7 @@ import mods.abyssalcraft.InfusionRitual;
 import mods.abyssalcraft.Materializer;
 import mods.abyssalcraft.RitualStages;
 import mods.abyssalcraft.Rituals;
+import mods.abyssalcraft.Transmutator;
 
 /*
 	Infusion Ritual
@@ -64,6 +65,13 @@ Rituals.modifyRitualOfferings("oblivionCatalyst", [
 	<minecraft:prismarine_shard>, <abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>,
 	<abyssalcraft:oblivionshard>, <minecraft:prismarine_shard>
 ]);
+
+/*
+	Transmutator Recipes
+
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#transmutator-recipes-are-added-this-way
+*/
+Transmutator.removeTransmutation(<abyssalcraft:crystalshard>); // Iron
 
 /*
 	Ritual Staging

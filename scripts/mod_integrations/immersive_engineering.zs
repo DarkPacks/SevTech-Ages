@@ -74,12 +74,6 @@ Crusher.addRecipe(<betterwithmods:material:15>, <minecraft:netherrack>, 3000); /
 
 Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 3000); //Fluix dust can be made in crusher
 
-Crusher.addRecipe(metals.tin.dust.firstItem * 2, <ore:oreTin>, 3000); //Tin ore to dust
-
-Crusher.addRecipe(metals.osmium.dust.firstItem * 2, <ore:oreOsmium>, 3000); //Osmium ore to dust
-
-Crusher.addRecipe(metals.titanium.dust.firstItem * 2, <ore:oreIlmenite>, 3000); //Ilmenite ore to dust
-
 Crusher.addRecipe(metals.spacePlatinum.dust.firstItem * 2, <ore:oreSpacePlatinum>, 3000); //Osmium ore to dust
 
 Crusher.addRecipe(<ore:dustCoal>.firstItem, <ore:coal>, 3000); //Coal to coal dust

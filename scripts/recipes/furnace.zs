@@ -22,7 +22,29 @@ var outputToRemove as IIngredient[] = [
 	<primal:diamond_plate>,
 	<primal:pelt_wolf>,
 	<primal:ironglass>,
-	<primal:valus_bread>
+	<primal:valus_bread>,
+
+	// Extraplanets Ores
+	<extraplanets:ingot_mercury>,
+	<extraplanets:tier10_items:5>,
+	<extraplanets:tier11_items:1>,
+	<extraplanets:tier11_items:1>,
+	<extraplanets:tier11_items:2>,
+	<extraplanets:tier11_items:3>,
+	<extraplanets:tier11_items:4>,
+	<extraplanets:tier11_items:5>,
+	<extraplanets:tier11_items>,
+	<extraplanets:tier4_items:5>,
+	<extraplanets:tier5_items:5>,
+	<extraplanets:tier5_items:8>,
+	<extraplanets:tier6_items:5>,
+	<extraplanets:tier7_items:5>,
+	<extraplanets:tier7_items:7>,
+	<extraplanets:tier8_items:6>,
+	<extraplanets:tier9_items:5>,
+	<galacticraftcore:basic_item:3>,
+	<galacticraftcore:basic_item:5>,
+	<galacticraftplanets:basic_item_venus:1>
 ];
 
 for item in outputToRemove {
@@ -45,3 +67,8 @@ for output, inputs in recipesToAdd {
 		furnace.addRecipe(output, input);
 	}
 }
+
+// Remove furnace recipes by input and output.
+furnace.remove(<minecraft:coal_block>, <extraplanets:kepler22b:5>);
+furnace.remove(<minecraft:quartz>, <galacticraftplanets:venus:9>);
+furnace.remove(<extraplanets:tier11_items:5>, <extraplanets:kepler22b:13>);

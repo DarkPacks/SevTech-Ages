@@ -168,6 +168,7 @@ Enhancements:
       you'd normally needed. Also you grain the secondary outputs for valid ores. So your getting more Dollars per Bill! All the recipes are
       listed in JEI. Note however due to how the JEI is built for Modular Machinery the UI is not scaling correctly this may be solved in a
       later update but we'll post on the Wiki the power usage/conversions for the machines to give more details.
+* Added Twilight Forest to the Betweenlands Portal whitelist (#2205)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)

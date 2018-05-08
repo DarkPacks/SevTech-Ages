@@ -214,7 +214,7 @@ Mod Updates:
     * Fixes Greatarrows crash when impacting Biomes o Plenty soil (for how much shit i gave them about the farming crash i make a lot of the same mistakes)
     * Fixes Paper Lantern recipe missing entirely
     * Fixes cullfaces on recessed Tatami Mats aka they'll look better when combined with other slat block
-* Better With Mods (2.1.14)
+* Better With Mods (2.1.15)
     * Fixes NPE when Kiln has invalid heat source
     * Fixes NPE when mods add null oredict names
     * Fixes crash when placing a waterwheel in forge fluids (Oops)
@@ -350,8 +350,9 @@ Mod Updates:
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.
 * Mod Tweaker (4.0.10)
-* Modular Machinery (1.9.3)
+* Modular Machinery (1.9.4)
      * Fixed problematic handling regarding I/O of fluids and energy leading to problematic interactions when I/O conditions were not fulfilled
+     * Fixed Mekanism Gas integration not properly handling input/output checks
 * Modular Routers (3.1.4)
 * Mystical Agradditions (1.2.8)
     * Added a JEI description for Dragon Scales
@@ -366,7 +367,7 @@ Mod Updates:
     * Fixed shears not working under particular settings
     * Fixed ghost blocks showing up after some excavations
 * OreExcavation Integration (2.3.3)
-* Overloaded (0.0.50.1)
+* Overloaded (0.0.51)
 * PickleTweaks (2.0.16)
     * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
     * Make only layer 0 of the repair kit texture get colored

@@ -90,6 +90,7 @@ Bug Fixes:
 * Removed dying wool in the Crucibal to correct a duplication bug
 * Removed Elytra recipe from the Abyssal Craft Materializer since it was craftable in stage 3
 * Added Mekanism cables and pipes to the carry-on blacklist to prevent potential crash
+* Modified Containment Chalice recipe and pushed it back to age 3 (#2256)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

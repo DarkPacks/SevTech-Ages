@@ -653,7 +653,6 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:blockcelestialcollectorcrystal:*>,
 	<astralsorcery:blockcelestialcrystals:*>,
 	<astralsorcery:blockcelestialgateway>,
-	<astralsorcery:blockchalice>,
 	<astralsorcery:blockcollectorcrystal:*>,
 	<astralsorcery:blockcustomflower>,
 	<astralsorcery:blockcustomore:*>,

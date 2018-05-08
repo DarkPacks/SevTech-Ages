@@ -64,6 +64,34 @@ Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>, 3000, 900, [
 	<minecraft:sticky_piston>, <minecraft:sticky_piston>
 ]);
 
+//=======================================
+// Trait
+Altar.removeAltarRecipe(<astralsorcery:blockchalice>, 3);
+Altar.addTraitAltarRecipe(<astralsorcery:blockchalice>, 5500, 700, [
+	// 0-2
+	null, null, null,
+	// 3-5
+	null, null, null,
+	// 6-8
+	null, <astralsorcery:itemcraftingcomponent:1>, null,
+	// 9-12
+	null, null, null, null,
+	// 13-14
+	metals.platinum.ingot, metals.platinum.ingot,
+	// 15-18
+	null, null, null, null,
+	// 19-20
+	metals.platinum.ingot, metals.platinum.ingot,
+	// 21-22
+	<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:4>,
+	// 23-24
+	<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:blockblackmarble>,
+	// Outer Items, indices 25+
+	<astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>,
+	<astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>,
+	<astralsorcery:itemcraftingcomponent>
+]);
+
 /*
 	Starlight Infusion
 

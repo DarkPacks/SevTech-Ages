@@ -18,6 +18,7 @@ for id in modIDs {
 }
 
 var stage3Items as IIngredient[] = [
+	<astralsorcery:blockchalice>,
 	<betterbuilderswands:wanddiamond>,
 	<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 	<fat_cat:top_hat>,

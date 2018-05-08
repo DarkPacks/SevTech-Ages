@@ -1,12 +1,13 @@
 #priority 800
 
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import mod.mekanism.gas.IGasStack;
 
-import mods.mekanism.enrichment;
-import mods.mekanism.chemical.injection;
+import mods.mekanism.chemical.injection as Injection;
+import mods.mekanism.combiner as Combiner;
+import mods.mekanism.enrichment as Enrichment;
 
 zenClass Mekanism {
 	zenConstructor() {
@@ -16,23 +17,40 @@ zenClass Mekanism {
 		Remove a Enrichment Chamber Recipe
 	*/
 	function removeEnrichment(input as IIngredient) {
-		enrichment.removeRecipe(input);
+		Enrichment.removeRecipe(input);
 	}
 	function removeEnrichment(input as IIngredient, output as IIngredient) {
-		enrichment.removeRecipe(input, output);
+		Enrichment.removeRecipe(input, output);
 	}
 
 	/*
 		Add a Enrichment Chamber Recipe
 	*/
 	function addEnrichment(input as IItemStack, output as IItemStack) {
-		enrichment.addRecipe(input, output);
+		Enrichment.addRecipe(input, output);
 	}
 
 	/*
 		Add a Chemical Injection Chamber Recipe
 	*/
-	function addChemicalInjection(input as IItemStack, inputGas as IGasStack, output as IItemStack) {
-		injection.addRecipe(input, inputGas, output);
+	function addChemicalInjection(input as IItemStack, gasInput as IGasStack, output as IItemStack) {
+		Injection.addRecipe(input, gasInput, output);
+	}
+
+	/*
+		Add a Combiner Recipe
+	*/
+	function addCombiner(input as IItemStack, extraInput as IItemStack, output as IItemStack) {
+		Combiner.addRecipe(input, extraInput, output);
+	}
+
+	/*
+		Remove a Combiner Recipe
+	*/
+	function removeCombiner(output as IIngredient) {
+		Combiner.removeRecipe(output);
+	}
+	function removeCombiner(output as IIngredient, input as IIngredient) {
+		Combiner.removeRecipe(output, input);
 	}
 }

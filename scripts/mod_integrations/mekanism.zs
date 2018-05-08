@@ -17,6 +17,24 @@ Infuser.addRecipe("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest
 mekanism.addChemicalInjection(<minecraft:gunpowder>, <gas:hydrogenChloride>, <ore:dustSulfur>.firstItem);
 
 /*
+	Combiner Recipes
+*/
+
+// Generic Removals
+mekanism.removeCombiner(<geolosys:cluster:2>);
+mekanism.removeCombiner(<geolosys:cluster:3>);
+mekanism.removeCombiner(<geolosys:cluster:4>);
+mekanism.removeCombiner(<geolosys:cluster:5>);
+mekanism.removeCombiner(<geolosys:cluster:6>);
+mekanism.removeCombiner(<geolosys:cluster:7>);
+mekanism.removeCombiner(<geolosys:cluster:8>);
+mekanism.removeCombiner(<geolosys:cluster:9>);
+mekanism.removeCombiner(<geolosys:cluster:12>);
+mekanism.removeCombiner(<minecraft:iron_ore>);
+mekanism.removeCombiner(<minecraft:gold_ore>);
+mekanism.removeCombiner(<minecraft:coal_ore>);
+
+/*
 	Enrichment Recipes
 */
 

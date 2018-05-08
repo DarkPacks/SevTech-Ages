@@ -34,5 +34,8 @@ Assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>
 Assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>); //Inscriber Engineering Press
 Assembly.addDrillRecipe(<galacticraftcore:basic_block_moon:14>, <appliedenergistics2:material:13>); //Inscriber Calculation Press
 
+// Remove Rose Red recipe
+Assembly.removeDrillRecipe(<minecraft:dye:1>);
+
 //Removing coal to diamond in pressure chamber
 mods.pneumaticcraft.pressurechamber.removeRecipe([<minecraft:diamond>]);

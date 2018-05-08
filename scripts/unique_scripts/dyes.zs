@@ -279,6 +279,7 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 IECrusher.removeRecipe(<minecraft:string>);
 
 // Remove dye crushing recipes
+Mill.remove([<minecraft:dye:1>]);
 Mill.remove([<minecraft:dye:7>]);
 Mill.remove([<minecraft:dye:9>]);
 Mill.remove([<minecraft:dye:11>]);

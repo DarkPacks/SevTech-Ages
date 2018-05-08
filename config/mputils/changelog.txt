@@ -160,6 +160,13 @@ Enhancements:
 * Added The Betweenlands limestone to oreDict (#2196)
 * Adjusted the Astral Sorcery Aevitas attunement hunger and saturation per tick
 * Re-add Minecraft wool dying recipes
+* Ore Changes:
+    * Ore processing has been changed in this version. Many processing recipes have been removed in favour for other mods and/or had values
+      tweaked. Processing is now performed on a Tier system starting with basic machines to top tier machines. With this update we have a new
+      Modular Machine which enables easier Ore processing this is based on the Mekanism spec but does not require all the normal machines as
+      you'd normally needed. Also you grain the secondary outputs for valid ores. So your getting more Dollars per Bill! All the recipes are
+      listed in JEI. Note however due to how the JEI is built for Modular Machinery the UI is not scaling correctly this may be solved in a
+      later update but we'll post on the Wiki the power usage/conversions for the machines to give more details.
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -178,7 +185,7 @@ Mods Added:
     * Added the Nature's Compass mod to help players better locate certain Biomes
 
 Mod Updates:
-* Forge: 14.23.3.2675
+* Forge: 14.23.3.2678
 
 * AbyssalCraft (1.9.4.9)
     * Many Changes See: https://minecraft.curseforge.com/projects/abyssalcraft/files/2551262
@@ -205,7 +212,7 @@ Mod Updates:
     * Fixes Greatarrows crash when impacting Biomes o Plenty soil (for how much shit i gave them about the farming crash i make a lot of the same mistakes)
     * Fixes Paper Lantern recipe missing entirely
     * Fixes cullfaces on recessed Tatami Mats aka they'll look better when combined with other slat block
-* Better With Mods (2.1.12)
+* Better With Mods (2.1.14)
     * Fixes NPE when Kiln has invalid heat source
     * Fixes NPE when mods add null oredict names
     * Fixes crash when placing a waterwheel in forge fluids (Oops)
@@ -287,6 +294,8 @@ Mod Updates:
 * Foamfix (0.9.9.1)
     * Fix invalid Forge dependency
     * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
+* Galacticraft Core (4.0.1.176)
+* Galacticraft Planets (4.0.1.176)
 * Hunting Dimension (1.0.24)
     * Added a cache system for frame variants. Also removed non full blocks from the candidate list.
     * Fixed setting spawn or sound chance to 0 causing a crash.
@@ -334,6 +343,7 @@ Mod Updates:
 * Mekanism (9.4.10.345)
     * Make Universal cables ForgeEnergy a bit more cross mod friendly
     * add factories to jei catalysts if enabled
+* Micdoodle Core (4.0.1.176)
 * Mob Grinding Utils (0.3.6)
     * Complete re-code of the mod registries - under the hood changes that needed doing.
     * Removed old legacy code and classes and rejigged a few bits.
@@ -354,6 +364,7 @@ Mod Updates:
     * Fixed shears not working under particular settings
     * Fixed ghost blocks showing up after some excavations
 * OreExcavation Integration (2.3.3)
+* Overloaded (0.0.50.1)
 * PickleTweaks (2.0.16)
     * Fixed some tooltips having the wrong colored text with the latest Cucumber Library
     * Make only layer 0 of the repair kit texture get colored
@@ -370,7 +381,7 @@ Mod Updates:
     * Fixed power input and output being wrong
     * Fixed block accepting power even if it's full (#1745)
 * Prestige (1.0.15)
-* PrimalCore (0.6.51)
+* PrimalCore (0.6.53)
     * Charcoal Stacks now have a slight variation in the output grade
     * Fixes for various plants and certain primal blocks not getting along during WorldGen
 * Quantum Storage (4.5.0)
@@ -387,6 +398,8 @@ Mod Updates:
     * Increased Grid performance
 * Refined Storage Addons (0.3)
     * Fixed stack-crafting in the Wireless Crafting Grid (crafting table) causing lag on a dedicated server
+* Rustic (1.0.4)
+    * Fixed a crash from drinking wine or wildberry wine of low quality
 * Smooth Font (1.15)
     * Added clientSideOnly property
     * Fixed the issue that a blank page texture is not loaded correctly.

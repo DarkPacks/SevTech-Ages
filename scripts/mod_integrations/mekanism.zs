@@ -15,3 +15,11 @@ Infuser.addRecipe("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest
 
 // Add a recipe to make Sulfer using the Chemical Injection. TODO: Use the resources global once completed.
 mekanism.addChemicalInjection(<minecraft:gunpowder>, <gas:hydrogenChloride>, <ore:dustSulfur>.firstItem);
+
+/*
+	Enrichment Recipes
+*/
+
+// Obsidian Fix
+mekanism.removeEnrichment(<minecraft:obsidian>);
+mekanism.addEnrichment(<minecraft:obsidian>, <ore:dustObsidian>.firstItem * 4);

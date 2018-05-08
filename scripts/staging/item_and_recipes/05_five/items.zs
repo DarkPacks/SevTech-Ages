@@ -2032,7 +2032,10 @@ var stage5Items as IIngredient[] = [
 	<ironjetpacks:emerald_cell>,
 	<ironjetpacks:emerald_jetpack>,
 	<ironjetpacks:emerald_thruster>,
-	<ironjetpacks:strap>
+	<ironjetpacks:strap>,
+
+	// Astral Sorcery
+	<astralsorcery:itemexchangewand>
 ];
 
 for item in stage5Items {

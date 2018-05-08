@@ -684,7 +684,6 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemcrystalpickaxe>,
 	<astralsorcery:itemcrystalshovel>,
 	<astralsorcery:itemcrystalsword>,
-	<astralsorcery:itemexchangewand>,
 	<astralsorcery:itemgrapplewand>,
 	<astralsorcery:itemhandtelescope>,
 	<astralsorcery:itemilluminationwand>,

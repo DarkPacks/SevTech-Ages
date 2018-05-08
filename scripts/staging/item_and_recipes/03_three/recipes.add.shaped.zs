@@ -1347,7 +1347,26 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <primal:leather_strip>, null],
 			[<primal:leather_strip>, null, null]
 		]
+	],
+
+	//Light Blue Industrial Foregoing Conveyor
+	<industrialforegoing:conveyor:3> : [
+		[
+			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>],
+			[<industrialforegoing:conveyor:*>, <ore:dyeLightBlue>, <industrialforegoing:conveyor:*>],
+			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>]
+		]
+	],
+
+	//Light Grey Industrial Foregoing Conveyor
+	<industrialforegoing:conveyor:8> : [
+		[
+			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>],
+			[<industrialforegoing:conveyor:*>, <ore:dyeLightGray>, <industrialforegoing:conveyor:*>],
+			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>]
+		]
 	]
+
 };
 
 for item, recipesForItem in shapedRecipes {

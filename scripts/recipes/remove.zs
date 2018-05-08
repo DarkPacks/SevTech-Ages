@@ -7,6 +7,8 @@ var removeItems as IItemStack[] = [
 	<betterwithmods:aesthetic:8>,
 	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
+	<industrialforegoing:conveyor:3>,
+	<industrialforegoing:conveyor:8>,
 	<minecraft:bed:*>,
 	<minecraft:book>,
 	<minecraft:bucket>,

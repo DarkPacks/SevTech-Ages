@@ -18,6 +18,7 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<ferdinandsflowers:block_birthday>,
 	<galacticraftcore:food:5>,
+	<industrialforegoing:conveyor:*>,
 	<minecraft:grass>, //Ore Excavation
 	<modularmachinery:blockfluidoutputhatch>,
 	<primal:dust_bin:9>.withTag({type: "corypha"}),
@@ -155,9 +156,11 @@ var itemsForStage as IIngredient[] = [
 	<immersiveengineering:connector:12>,
 	<immersiveengineering:connector:13>,
 	<immersiveengineering:connector>,
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
+	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
 	<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
 	<immersiveengineering:drill>,

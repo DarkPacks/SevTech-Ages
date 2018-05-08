@@ -11,6 +11,10 @@ static hideIngredients as IIngredient[] = [
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
 
+	//TODO These need recipes before unhiding and staging
+	<overloaded:railgun>,
+	<overloaded:settings_editor>,
+
 	<base:wrench>,
 	<baubles:ring>,
 	<bloodmagic:blood_rune:2>, // TODO: Remove this one the mod its self adds functionality to the block / adds a recipe.

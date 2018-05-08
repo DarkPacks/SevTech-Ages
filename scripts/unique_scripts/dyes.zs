@@ -119,7 +119,9 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:10>,
 		<ferdinandsflowers:block_cff_flowersc:11>,
 		<ferdinandsflowers:block_cff_flowersd:15>,
-		<ferdinandsflowers:block_cff_flowersd>
+		<ferdinandsflowers:block_cff_flowersd>,
+		<minecraft:double_plant:1>,
+		<minecraft:red_flower:2>
 	],
 
 	//Light Blue
@@ -130,7 +132,8 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:14>,
 		<ferdinandsflowers:block_cff_flowersc:15>,
 		<ferdinandsflowers:block_cff_flowersd:11>,
-		<ferdinandsflowers:block_cff_flowersd:12>
+		<ferdinandsflowers:block_cff_flowersd:12>,
+		<minecraft:red_flower:1>
 	],
 
 	//Yellow
@@ -145,7 +148,9 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersb:13>,
 		<ferdinandsflowers:block_cff_flowersc:7>,
 		<ferdinandsflowers:block_cff_flowersd:5>,
-		<minecraft:dye:11>
+		<minecraft:double_plant>,
+		<minecraft:dye:11>,
+		<minecraft:yellow_flower>
 	],
 
 	//Lime
@@ -168,14 +173,19 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:9>,
 		<ferdinandsflowers:block_cff_flowersc:12>,
 		<ferdinandsflowers:block_cff_flowersc>,
-		<ferdinandsflowers:block_cff_flowersd:3>
+		<ferdinandsflowers:block_cff_flowersd:3>,
+		<minecraft:double_plant:5>,
+		<minecraft:red_flower:7>
 	],
 
 	//Gray
 
 	//Light Gray
 	<ore:dyeLightGray>.firstItem : [
-		<ferdinandsflowers:block_cff_doublesd:4>
+		<ferdinandsflowers:block_cff_doublesd:4>,
+		<minecraft:red_flower:3>,
+		<minecraft:red_flower:6>,
+		<minecraft:red_flower:8>
 	],
 
 	//Cyan
@@ -251,7 +261,9 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersc:8>,
 		<ferdinandsflowers:block_cff_flowersc:13>,
 		<ferdinandsflowers:block_cff_flowersd:2>,
+		<minecraft:double_plant:4>,
 		<minecraft:dye:1>,
+		<minecraft:red_flower:4>,
 		<minecraft:red_flower>,
 		<rustic:wildberries>
 	],
@@ -265,6 +277,13 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 
 //Remove wool -> minecraft dye and string. Re-create in dye loop
 IECrusher.removeRecipe(<minecraft:string>);
+
+// Remove dye crushing recipes
+Mill.remove([<minecraft:dye:7>]);
+Mill.remove([<minecraft:dye:9>]);
+Mill.remove([<minecraft:dye:11>]);
+Mill.remove([<minecraft:dye:12>]);
+Mill.remove([<minecraft:dye:13>]);
 
 for dye, items in dyeCrushingRecipes {
 	//Re-create wool -> string/dye recipe

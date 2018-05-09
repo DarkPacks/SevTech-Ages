@@ -44,7 +44,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<thebetweenlands:octine_ingot>, metals.modularium.plate, <thebetweenlands:items_misc:11>],
 			[metals.steel.plate, <twilightforest:maze_stone:*>, metals.steel.plate],
-			[<astralsorcery:itemrockcrystalsimple>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple>]
+			[<ore:asCrystal>, metals.platinum.plate, <ore:asCrystal>]
 		]
 	],
 

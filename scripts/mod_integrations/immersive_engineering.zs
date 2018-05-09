@@ -89,6 +89,7 @@ Crusher.addRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 3000); //Sharp B
 Crusher.addRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 3000); // Netjry Salt to Netjry Salt
 Crusher.addRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 3000); // Halite Salt Ore to Halite Rock Salt
 Crusher.addRecipe(<primal:salt_dust_rock:1> * 4, <primal:salt_dust_fire>, 3000); // Fire Salt Ore to Fire Rock Salt
+Crusher.addRecipe(<betterwithmods:material:37>, <minecraft:coal:1>); // Charcoal to Dust
 
 /*
 	Arc Furnace

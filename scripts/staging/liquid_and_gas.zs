@@ -78,6 +78,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 
 	STAGES.one : [
 		<liquid:ale>,
+		<liquid:blood>,
 		<liquid:cider>,
 		<liquid:clay>,
 		<liquid:dirt>,
@@ -91,7 +92,6 @@ var liquidsForStage as ILiquidStack[][string] = {
 
 	STAGES.two : [
 		<liquid:astralsorcery.liquidstarlight>,
-		<liquid:blood>,
 		<liquid:ender_pearl>,
 		<liquid:glass>,
 		<liquid:rubber>,

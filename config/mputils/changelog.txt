@@ -95,6 +95,7 @@ Bug Fixes:
 * Fix blood being staged wrong (#1168)
 * Allow the Wild Dog to be spawnable in the RFTools Spawner (#2150)
 * Remove Leather recipes from the Drying Basin (#2107)
+* Disable AE2 Formation Plane Entity spawning until a fix is made in regards to spawning
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension

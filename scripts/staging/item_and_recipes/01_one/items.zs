@@ -1110,7 +1110,10 @@ var stage1Items as IIngredient[] = [
 	//Farming for Blockheads
 	<farmingforblockheads:market>,
 
-	<betterbuilderswands:wandstone>
+	<betterbuilderswands:wandstone>,
+
+	// Chisel
+	<chisel:chisel_iron>
 ];
 
 for item in stage1Items {

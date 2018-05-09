@@ -245,7 +245,6 @@ var itemsForStage as IIngredient[] = [
 	<chiselsandbits:tape_measure>,
 
 	//Chisel
-	<chisel:chisel_iron>,
 	<chisel:offsettool>,
 	<chisel:waterstone1:1>,
 

@@ -511,7 +511,10 @@ var itemsForStage as IIngredient[] = [
 	<bloodmagic:blood_rune>,
 	<bloodmagic:incense_altar>,
 	<bloodmagic:path:1>,
-	<bloodmagic:path>
+	<bloodmagic:path>,
+
+	// Chisel
+	<chisel:chisel_iron>
 ];
 
 for item in itemsForStage {

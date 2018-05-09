@@ -91,6 +91,10 @@ Bug Fixes:
 * Removed Elytra recipe from the Abyssal Craft Materializer since it was craftable in stage 3
 * Added Mekanism cables and pipes to the carry-on blacklist to prevent potential crash
 * Modified Containment Chalice recipe and pushed it back to age 3 (#2256)
+* Re-Staged and changed the recipe for the AS Exchange Wand (#1005)
+* Fix blood being staged wrong (#1168)
+* Allow the Wild Dog to be spawnable in the RFTools Spawner (#2150)
+* Remove Leather recipes from the Drying Basin (#2107)
 
 Enhancements:
 * Doubled the chances of vanilla style dungeons to spawn in the Beneath Dimension
@@ -169,6 +173,7 @@ Enhancements:
       listed in JEI. Note however due to how the JEI is built for Modular Machinery the UI is not scaling correctly this may be solved in a
       later update but we'll post on the Wiki the power usage/conversions for the machines to give more details.
 * Added Twilight Forest to the Betweenlands Portal whitelist (#2205)
+* Re-Stage the chisel to better suit the villager trade and enables players to start being creative eariler (#2258)
 
 Mods Added:
 * BuildCraft: Silicon (7.99.16)
@@ -278,6 +283,7 @@ Mod Updates:
     * Fix camouflage model overlays on items (elevators)
     * Fix some items always eating the keybinds even when they don't have any
     * Update some registrations to new Forge events (now requires Forge 2571+)
+* Environmental Tech (2.0.9c)
 * Extended Crafting (1.3.1)
     * Fixed the arrow in the Quantum Compressor GUI not rendering properly for recipes with large power requirements
     * Fixed the Quantum Compressor ejecting ItemStacks with larger than max stack sizes
@@ -392,6 +398,7 @@ Mod Updates:
     * Added new models for the Crafting machine and Crating machine.
     * Added Quantum Bag (Works like EE2 Alchemical Bags)
     * Fixed some partials not working after model change.
+* Realistic Item Drops (1.2.12)
 * RebornCore (3.8.1.271)
 * Reborn Storage (3.0.6.43)
     *  Added support for crafter manager

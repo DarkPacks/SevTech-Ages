@@ -1,5 +1,6 @@
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.ArcFurnace;
+import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Mixer;
@@ -172,3 +173,10 @@ Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks
 */
 Refinery.addRecipe(<liquid:fuel> * 100, <liquid:liquidoxygen> * 250, <liquid:kerosene> * 100, 2048);
 Refinery.addRecipe(<liquid:fuel> * 100, <liquid:oxygen> * 250, <liquid:kerosene> * 100, 2048);
+
+/*
+	Bottling Machine
+
+	http://crafttweaker.readthedocs.io/en/latest/#Mods/Immersive_Engineering/CraftTweaker_Support/Bottling_Machine/
+*/
+BottlingMachine.addRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:glass_bottle>, <liquid:water> * 1000);

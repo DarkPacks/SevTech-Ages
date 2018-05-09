@@ -303,6 +303,8 @@ Mod Updates:
 * Foamfix (0.9.9.1)
     * Fix invalid Forge dependency
     * #137] Fix 3D item models not rendering correctly (for example Silent's Gems shields)
+* Forge MultiPart CBE (2.4.1.57)
+    * Fix world being null on part load
 * Galacticraft Core (4.0.1.176)
 * Galacticraft Planets (4.0.1.176)
 * Hunting Dimension (1.0.24)

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">evilcraft</condition>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="1000">evilcraftblood</fluid>
+		</input>
+		<output>
+			<item>evilcraft:hardened_blood</item>
+		</output>
+		<properties>
+			<duration>40</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<item type="oredict">treeSapling</item>
+		</input>
+		<output>
+			<item>minecraft:deadbush</item>
+		</output>
+		<properties>
+			<duration>15</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<item>minecraft:clay</item>
+		</input>
+		<output>
+			<item>minecraft:hardened_clay</item>
+		</output>
+		<properties>
+			<duration>40</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="100">water</fluid>
+			<item>minecraft:dirt</item>
+		</input>
+		<output>
+			<item meta="1">minecraft:dirt</item>
+		</output>
+		<properties>
+			<duration>10</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">Mine_factory_reloaded</condition>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="100">mushroomsoup</fluid>
+			<item>minecraft:dirt</item>
+		</input>
+		<output>
+			<item meta="2">minecraft:dirt</item>
+		</output>
+		<properties>
+			<duration>20</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="250">water</fluid>
+			<item meta="*">minecraft:stained_hardened_clay</item>
+		</input>
+		<output>
+			<item>minecraft:hardened_clay</item>
+		</output>
+		<properties>
+			<duration>10</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="mod">evilcraft</condition>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="10">evilcraftblood</fluid>
+			<item>minecraft:sand</item>
+		</input>
+		<output>
+			<item meta="1">minecraft:sand</item>
+		</output>
+		<properties>
+			<duration>4</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<item meta="1">minecraft:sponge</item>
+		</input>
+		<output>
+			<item>minecraft:sponge</item>
+		</output>
+		<properties>
+			<duration>20</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<item>minecraft:magma</item>
+		</input>
+		<output>
+			<item>minecraft:netherrack</item>
+		</output>
+		<properties>
+			<duration>10</duration>
+		</properties>
+	</recipe>
+
+	<recipe type="integrateddynamics:mechanical_dryingbasin">
+		<tag>convenience</tag>
+		<condition type="config">mechanical_drying_basin</condition>
+		<input>
+			<fluid amount="1000">lava</fluid>
+		</input>
+		<output>
+			<item>minecraft:magma</item>
+		</output>
+		<properties>
+			<duration>100</duration>
+		</properties>
+	</recipe>
+
+</recipes>

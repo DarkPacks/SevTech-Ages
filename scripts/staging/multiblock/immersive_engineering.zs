@@ -13,6 +13,7 @@ var multiblockMachinesForStages = {
 		"IE:BottlingMachine",
 		"IE:BucketWheel",
 		"IE:CokeOven",
+		"IT:CokeOvenAdvanced",
 		"IE:Crusher",
 		"IE:DieselGenerator",
 		"IE:Excavator",

@@ -983,6 +983,9 @@ var stage1Items as IIngredient[] = [
 	sidingHardenedclay,
 	sidingSandstone,
 	sidingWood,
+	<betterwithaddons:zen_sand>,
+	<betterwithaddons:zen_redsand>,
+	<betterwithaddons:zen_ironsand>,
 
 	//Natura
 	<natura:colored_grass:1>,

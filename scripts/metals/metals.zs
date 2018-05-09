@@ -316,6 +316,11 @@ for metalName, metal in metals {
 	var hasLiquid = metalLiquid as bool;
 	var metalStage = (metalStages in metalName) ? metalStages[metalName] : "";
 
+	// Warn if the metal has no stage
+	if (metalStage == "") {
+		logger.logWarning("[Metals] No stage found for " ~ metalName);
+	}
+
 	//Stage liquids
 	if (metalStage != "" & hasLiquid) {
 		mods.ItemStages.stageLiquid(metalStage, metalLiquid);

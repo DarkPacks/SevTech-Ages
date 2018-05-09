@@ -42,7 +42,8 @@ var metalStages as string[string] = {
 	steeleaf: "two",
 	tin: "one",
 	titanium: "five",
-	uranium: "four"
+	uranium: "four",
+	zinc: "five"
 };
 
 var partsToSkip as string[] = [

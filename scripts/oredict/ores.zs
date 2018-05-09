@@ -30,6 +30,9 @@
 <ore:oreIron>.remove(<materialpart:iron:ore_galacticraftcore_bottom>);
 <ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);
 
+// Remove Geolosys Zinc ore from oredict
+<ore:oreZinc>.remove(<geolosys:cluster:10>);
+
 /*
 	Oredicts for Scannable
 */

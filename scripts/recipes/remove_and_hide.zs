@@ -146,6 +146,7 @@ static removeAndHideItems as IItemStack[] = [
 	<primal:dust_bin:*>,
 	<primal:gate_ironwood>,
 	<primal:ironglass>,
+	<primal:magnetite_dust>,
 	<primal:pigman_hide_salted>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,

@@ -12,3 +12,6 @@ for i in 0 to 16 {
 		oreDictEntry.remove(artificialDye);
 	}
 }
+
+// This item does everything apparently..
+<ore:dyeBlack>.remove(<primal:sinuous_resin>);

@@ -8,7 +8,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
-3.0.7
+3.0.8
 
 Bug Fixes:
 
@@ -16,6 +16,7 @@ Bug Fixes:
 * Fix wool dying recipe giving 1x output instead of 8x - No, we are not jerks (#2307)
 * Adjusted tooltip of Journeymap Token to clarify it needds to be eaten not just obtained (#2291)
 * Fix Ore Excavation modifier recipe not working (#2314)
+* Fixed some buckets being shown/hidden incorrectly
 
 ---------------------------------------------------------------------
 

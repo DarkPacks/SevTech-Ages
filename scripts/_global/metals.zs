@@ -285,7 +285,7 @@ global metals as IOreDictEntry[string][string] = {
 		gear: <ore:gearPlatinum>,
 		ingot: <ore:ingotPlatinum>,
 		nugget: null,
-		ore: <ore:orePlatium>,
+		ore: <ore:orePlatinum>,
 		plate: <ore:platePlatinum>,
 		rod: <ore:rodPlatinum>
 	},

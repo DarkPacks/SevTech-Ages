@@ -40,11 +40,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<prospectors:prospector_med> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:dye:4>, <minecraft:redstone>], [<minecraft:dye:4>, null, null]]
 	],
+
+	//Ore Excavator Modifer Item
 	<oeintegration:excavatemodifier> * 25: [
 		[
 			[<thebetweenlands:octine_ingot>, metals.modularium.plate, <thebetweenlands:items_misc:11>],
 			[metals.steel.plate, <twilightforest:maze_stone:*>, metals.steel.plate],
-			[<ore:asCrystal>, metals.platinum.plate, <ore:asCrystal>]
+			[<astralsorcery:itemrockcrystalsimple:*>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple:*>]
 		]
 	],
 

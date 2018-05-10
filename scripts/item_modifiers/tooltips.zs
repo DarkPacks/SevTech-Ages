@@ -172,7 +172,7 @@ var prospectingRodRange as int = 48;
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Wooden Gears in hand to Repair"));
 <betterwithmods:wooden_broken_gearbox>.addTooltip(format.red("Or craft back into a repaired block"));
 
-<extraplanets:apple_iron>.addTooltip(format.red("Crafting this item will"));
+<extraplanets:apple_iron>.addTooltip(format.red("Eating this item will"));
 <extraplanets:apple_iron>.addTooltip(format.red("unlock Advanced Mapping"));
 
 <thebetweenlands:ring_of_flight>.addTooltip(format.red("Can be found as Loot from chests in"));

@@ -314,7 +314,7 @@ for dye, items in dyeCrushingRecipes {
 		scripts.utils.capitalize(dyeName));
 
 	recipes.addShaped("dye_wool_" ~ dyeName,
-		<minecraft:wool>.definition.makeStack(dye.metadata), [
+		<minecraft:wool>.definition.makeStack(dye.metadata) * 8, [
 			[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
 			[<ore:blockWool>, dyeOredict, <ore:blockWool>],
 			[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]

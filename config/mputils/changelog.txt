@@ -21,6 +21,7 @@ Bug Fixes:
 * Add a few more entries to book array (#2363)
 * Twilight Forst Castle Doors now drop the right item
 * Re-remove tiny iron dust recipe (#2298)
+* Move Garden Scythe into proper age 3 to match items used in recipe
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

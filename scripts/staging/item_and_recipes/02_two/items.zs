@@ -1123,7 +1123,6 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:horse_upgrade_variant>,
 	<cyclicmagic:plate_launch_med>,
 	<cyclicmagic:spikes_iron>,
-	<cyclicmagic:tool_harvest_crops>,
 	<cyclicmagic:tool_mount>,
 	<cyclicmagic:tool_rotate>,
 	<cyclicmagic:tool_spawn_inspect>,

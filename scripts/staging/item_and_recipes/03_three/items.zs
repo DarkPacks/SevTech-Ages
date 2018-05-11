@@ -1216,6 +1216,7 @@ var stage3Items as IIngredient[] = [
 	<cyclicmagic:sprinkler>,
 	<cyclicmagic:stone_minecart>,
 	<cyclicmagic:tool_auto_torch>,
+	<cyclicmagic:tool_harvest_crops>,
 	<cyclicmagic:tool_launcher>,
 	<cyclicmagic:tool_push>,
 	<cyclicmagic:tool_swap>,

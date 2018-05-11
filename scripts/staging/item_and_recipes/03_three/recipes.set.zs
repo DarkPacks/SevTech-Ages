@@ -123,6 +123,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:plate_push_slow>,
 	<cyclicmagic:plate_push_slowest>,
 	<cyclicmagic:stone_minecart>,
+	<cyclicmagic:tool_harvest_crops>,
 	<cyclicmagic:tool_launcher>,
 	<cyclicmagic:tool_push>,
 	<cyclicmagic:tool_swap>,

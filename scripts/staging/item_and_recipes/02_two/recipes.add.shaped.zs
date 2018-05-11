@@ -961,6 +961,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:stone_decoration:1>, <twilightforest:maze_map_focus>, <immersiveengineering:stone_decoration:1>],
 			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables>,<immersiveengineering:stone_decoration:1>]
 		]
+	],
+	<twilightforest:fiery_pickaxe> : [
+		[
+			[metals.fiery.ingot, metals.fiery.ingot, metals.fiery.ingot],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	]
+	<twilightforest:fiery_sword> : [
+		[
+			[null, metals.fiery.ingot, null],
+			[null, metals.fiery.ingot, null],
+			[null, <minecraft:stick>, null]
+		]
 	]
 };
 

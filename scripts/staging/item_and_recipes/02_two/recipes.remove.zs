@@ -91,6 +91,8 @@ var removeItems as IItemStack[] = [
 	<extraplanets:apple_iron>,
 
 	//Twilight Forest
+	<twilightforest:fiery_pickaxe>,
+	<twilightforest:fiery_sword>,
 	<twilightforest:uncrafting_table>
 ];
 

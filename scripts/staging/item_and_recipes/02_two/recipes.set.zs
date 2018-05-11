@@ -285,8 +285,6 @@ var itemsForStage as IIngredient[] = [
 	<twilightforest:fiery_helmet>,
 	<twilightforest:fiery_ingot>,
 	<twilightforest:fiery_leggings>,
-	<twilightforest:fiery_pickaxe>,
-	<twilightforest:fiery_sword>,
 	<twilightforest:fire_jet:1>,
 	<twilightforest:fire_jet:6>,
 	<twilightforest:firefly_jar>,

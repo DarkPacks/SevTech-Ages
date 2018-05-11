@@ -15,5 +15,17 @@ static blockHarvestDrops as IItemStack[][string] = {
     "galacticraftplanets:asteroids_block:4": [
         <geolosys:cluster>,
         <contenttweaker:material_part:126>
-    ]
+    ],
+	"twilightforest:castle_door:0": [
+		<twilightforest:castle_door:0>
+	],
+	"twilightforest:castle_door:1": [
+		<twilightforest:castle_door:1>
+	],
+	"twilightforest:castle_door:2": [
+		<twilightforest:castle_door:2>
+	],
+	"twilightforest:castle_door:3": [
+		<twilightforest:castle_door:3>
+	]
 };

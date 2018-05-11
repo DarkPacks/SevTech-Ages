@@ -11,7 +11,6 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 3.0.8
 
 Bug Fixes:
-
 * Fix platinum crushing / etc recipes (#2315)
 * Fix wool dying recipe giving 1x output instead of 8x - No, we are not jerks (#2307)
 * Adjusted tooltip of Journeymap Token to clarify it needds to be eaten not just obtained (#2291)
@@ -20,6 +19,7 @@ Bug Fixes:
 * Blacklist aspectrus crop from carryon (#2341)
 * Adjust fiery sword and pickaxe recipes to be craftable in age 2 (#2288)
 * Add a few more entries to book array (#2363)
+* Twilight Forst Castle Doors now drop the right item
 
 ---------------------------------------------------------------------
 

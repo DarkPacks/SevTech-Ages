@@ -21,6 +21,9 @@ Bug Fixes:
 * Add a few more entries to book array (#2363)
 * Twilight Forst Castle Doors now drop the right item
 
+Enhancements:
+* Add dying recipes for the Twilight Forest Castle Doors
+
 ---------------------------------------------------------------------
 
 3.0.7

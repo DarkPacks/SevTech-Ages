@@ -41,6 +41,19 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	metals.fiery.ingot.firstItem : [
 		[<ore:bottleFiery>, metals.iron.ingot]
 	],
+	// Dye recipes for castle doors
+	<twilightforest:castle_door>: [
+		[<twilightforest:castle_door:*>, <ore:dyeYellow>]
+	],
+	<twilightforest:castle_door:1>: [
+		[<twilightforest:castle_door:*>, <ore:dyePurple>]
+	],
+	<twilightforest:castle_door:2>: [
+		[<twilightforest:castle_door:*>, <ore:dyePink>]
+	],
+	<twilightforest:castle_door:3>: [
+		[<twilightforest:castle_door:*>, <ore:dyeLightBlue>]
+	],
 
 	//Upper to hopper and reversed
 	<uppers:upper> : [

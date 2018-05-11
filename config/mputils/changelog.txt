@@ -19,6 +19,7 @@ Bug Fixes:
 * Fixed some buckets being shown/hidden incorrectly
 * Blacklist aspectrus crop from carryon (#2341)
 * Adjust fiery sword and pickaxe recipes to be craftable in age 2 (#2288)
+* Add a few more entries to book array (#2363)
 
 ---------------------------------------------------------------------
 

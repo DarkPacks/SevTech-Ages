@@ -35,6 +35,7 @@ addEssenceRecipe(<mysticalagriculture:lead_essence>, metals.lead.ingot.firstItem
 addEssenceRecipe(<mysticalagriculture:manyullyn_essence>, metals.manyullyn.ingot.firstItem * 2);
 addEssenceRecipe(<mysticalagriculture:nickel_essence>, metals.nickel.ingot.firstItem * 4);
 addEssenceRecipe(<mysticalagriculture:osmium_essence>, metals.osmium.ingot.firstItem * 4);
+addEssenceRecipe(<mysticalagriculture:platinum_essence>, metals.platinum.ingot.firstItem * 2);
 addEssenceRecipe(<mysticalagriculture:quartz_enriched_iron_essence>, <refinedstorage:quartz_enriched_iron> * 8);
 addEssenceRecipe(<mysticalagriculture:silver_essence>, metals.silver.ingot.firstItem * 4);
 addEssenceRecipe(<mysticalagriculture:steel_essence>, metals.steel.ingot.firstItem * 3);

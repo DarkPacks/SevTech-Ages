@@ -23,6 +23,7 @@ Bug Fixes:
 * Re-remove tiny iron dust recipe (#2298)
 * Move Garden Scythe into proper age 3 to match items used in recipe
 * Add back Ironberry Juice recipe (#2298)
+* Add missing platinum magical crop (#2350)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

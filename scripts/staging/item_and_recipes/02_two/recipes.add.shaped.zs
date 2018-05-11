@@ -968,7 +968,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:stick>, null],
 			[null, <minecraft:stick>, null]
 		]
-	]
+	],
 	<twilightforest:fiery_sword> : [
 		[
 			[null, metals.fiery.ingot, null],

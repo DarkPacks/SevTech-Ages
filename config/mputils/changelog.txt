@@ -17,6 +17,7 @@ Bug Fixes:
 * Adjusted tooltip of Journeymap Token to clarify it needds to be eaten not just obtained (#2291)
 * Fix Ore Excavation modifier recipe not working (#2314)
 * Fixed some buckets being shown/hidden incorrectly
+* Blacklist aspectrus crop from carryon (#2341)
 
 ---------------------------------------------------------------------
 

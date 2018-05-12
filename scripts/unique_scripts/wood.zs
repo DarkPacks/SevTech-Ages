@@ -157,9 +157,6 @@ for plank, logs in plankLogPairs {
 		ChoppingBlock.add(log, plank * 4, 4, true);
 		ChoppingBlock.add(log, plank * 4, 2, false);
 
-		//Better With Mods
-		Saw.add(log, [plank * 6, <ore:dustWood>.firstItem * 2]);
-
 		//Primal Tech
 		WaterSaw.addRecipe(plank, log, 80);
 
@@ -168,6 +165,13 @@ for plank, logs in plankLogPairs {
 
 		//For any recipes that need logs as an IItemStack
 		for logItem in log.items {
+			//Better With Mods
+			Saw.builder()
+				.buildRecipe(log, [plank * 6, <ore:dustWood>.firstItem * 2])
+				.setInputBlockDrop(logItem as IItemStack)
+				.build();
+
+			//Mekanism
 			sawmill.addRecipe(logItem, plank * 6, <ore:dustWood>.firstItem * 2);
 		}
 	}

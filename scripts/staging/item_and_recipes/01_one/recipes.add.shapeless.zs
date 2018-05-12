@@ -65,6 +65,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:stone_pickaxe>, <primal:plant_cloth>]
 	],
 
+	<betterwithmods:rope> * 9: [
+		[<betterwithmods:aesthetic:4>]
+	]
 };
 
 for item, recipesForItem in shapelessRecipes {

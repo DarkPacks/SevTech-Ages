@@ -25,6 +25,7 @@ Bug Fixes:
 * Add back Ironberry Juice recipe (#2298)
 * Add missing platinum magical crop (#2350)
 * Add missing Rope Block decompression recipe (#2379)
+* Fixed dupe cocoa bean recipe (#2386)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

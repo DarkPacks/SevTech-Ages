@@ -397,6 +397,7 @@ var stage5Items as IIngredient[] = [
 	<cyclicmagic:apple_emerald>,
 	<cyclicmagic:auto_crafter>,
 	<cyclicmagic:beacon_potion>,
+	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_enchanter>,
 	<cyclicmagic:block_forester>,
 	<cyclicmagic:book_ender>,

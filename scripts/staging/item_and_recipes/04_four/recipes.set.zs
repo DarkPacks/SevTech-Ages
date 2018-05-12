@@ -228,7 +228,6 @@ var itemsForStage as IIngredient[] = [
 	<industrialforegoing:wither_builder>,
 
 	//Cyclic
-	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_library>,
 	<cyclicmagic:block_library_ctrl>,
 	<cyclicmagic:block_screen>,

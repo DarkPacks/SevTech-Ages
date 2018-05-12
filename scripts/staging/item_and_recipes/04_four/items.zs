@@ -562,7 +562,6 @@ var stage4Items as IIngredient[] = [
 	<quark:rain_detector>,
 
 	//Cyclic
-	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_screen>,
 	<cyclicmagic:block_storeempty>,
 	<cyclicmagic:block_user>,

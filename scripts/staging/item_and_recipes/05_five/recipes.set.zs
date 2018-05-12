@@ -113,6 +113,7 @@ var itemsForStage as IIngredient[] = [
 
 	//Cyclic
 	<cyclicmagic:auto_crafter>,
+	<cyclicmagic:block_disenchanter>,
 	<cyclicmagic:block_enchanter>,
 	<cyclicmagic:charm_speed>,
 	<cyclicmagic:cyclic_wand_build>,

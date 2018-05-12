@@ -26,6 +26,7 @@ Bug Fixes:
 * Add missing platinum magical crop (#2350)
 * Add missing Rope Block decompression recipe (#2379)
 * Fixed dupe cocoa bean recipe (#2386)
+* Fixed staging on the Unchant Pylon (#2380)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

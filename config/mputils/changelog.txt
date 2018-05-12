@@ -30,6 +30,7 @@ Bug Fixes:
 * Fix many logs not working with BWM Sawmill (#2369)
 * Add missing recipes for Diamond and Emerald Workblades (#2260)
 * Re-add ingot -> dust crushing recipes (#2353)
+* Fixed Mantle of Stars Aevitas not giving any hunger/saturation (#2371)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

@@ -302,7 +302,10 @@ static removeAndHideItems as IItemStack[] = [
 	<bibliocraft:printingpress>, //This can be re-shown once the mod is updated/fixed.
 
 	//Mekanism
-	<mekanism:machineblock:4> //Bye bye miner!
+	<mekanism:machineblock:4>, //Bye bye miner!
+
+	// New Book Don't Use! (Yet)
+	<valkyrielib:guide>
 ];
 
 for item in removeAndHideItems {

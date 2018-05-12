@@ -55,6 +55,7 @@ Mod Updates:
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
 * Just Enough Items (4.9.1.179)
+* ModTweaker (4.0.12)
 * PrimalCore (0.6.54)
 * PneumaticCraft: Repressurized (0.6.5-189)
     * Fix: crash when crafting Speed Upgrades in some situations.

@@ -41,6 +41,7 @@ Mod Updates:
 * BuildCraft: Robotics (7.99.17)
 * BuildCraft: Silicon (7.99.17)
 * BuildCraft: Transport (7.99.17)
+* Cyclic (1.15.0)
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.

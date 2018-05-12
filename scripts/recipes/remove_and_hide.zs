@@ -148,6 +148,7 @@ static removeAndHideItems as IItemStack[] = [
 	<primal:ironglass>,
 	<primal:magnetite_dust>,
 	<primal:pigman_hide_salted>,
+	<primal:quartz_workblade>,
 	<primal:satetsu:1>,
 	<primal:satetsu:2>,
 	<primal:satetsu:3>,

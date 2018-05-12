@@ -63,7 +63,6 @@ var itemsForStage as IIngredient[] = [
 	<primal:quartz_saw>,
 	<primal:quartz_shears>,
 	<primal:quartz_shovel>,
-	<primal:quartz_workblade>,
 	<tconstruct:firewood_stairs>,
 	<tconstruct:lavawood_stairs>,
 

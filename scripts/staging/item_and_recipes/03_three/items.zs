@@ -170,7 +170,6 @@ var stage3Items as IIngredient[] = [
 	<primal:quartz_saw>,
 	<primal:quartz_shears>,
 	<primal:quartz_shovel>,
-	<primal:quartz_workblade>,
 	<primal:salt_dust_fire>,
 	<primal:scoria_stone:1>,
 	<primal:scoria_stone:2>,

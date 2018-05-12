@@ -7,6 +7,7 @@ import mod.mekanism.gas.IGasStack;
 
 import mods.mekanism.chemical.injection as Injection;
 import mods.mekanism.combiner as Combiner;
+import mods.mekanism.crusher as Crusher;
 import mods.mekanism.enrichment as Enrichment;
 
 zenClass Mekanism {
@@ -52,5 +53,22 @@ zenClass Mekanism {
 	}
 	function removeCombiner(output as IIngredient, input as IIngredient) {
 		Combiner.removeRecipe(output, input);
+	}
+
+	/*
+		Add a Crusher Recipe
+	*/
+	function addCrusher(input as IItemStack, output as IItemStack) {
+		Crusher.addRecipe(input, output);
+	}
+
+	/*
+		Remove a Crusher Recipe
+	*/
+	function removeCrusher(output as IIngredient) {
+		Crusher.removeRecipe(output);
+	}
+	function removeCrusher(output as IIngredient, input as IIngredient) {
+		Crusher.removeRecipe(output, input);
 	}
 }

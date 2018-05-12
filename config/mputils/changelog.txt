@@ -29,6 +29,7 @@ Bug Fixes:
 * Fixed staging on the Unchant Pylon (#2380)
 * Fix many logs not working with BWM Sawmill (#2369)
 * Add missing recipes for Diamond and Emerald Workblades (#2260)
+* Re-add ingot -> dust crushing recipes (#2353)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

@@ -268,14 +268,6 @@ function handlePreferredMetalItem(metalName as string, metalPartName as string, 
 		}
 	}
 
-
-	//Add ingot -> dust in crusher
-	if (metalPartName == "dust") {
-		//TODO: Temp fix to re-add ore crushing recipes. Fix up to only remove (or add, whichever) recipes that would prevent duplicate ingot -> dust
-		//mods.immersiveengineering.Crusher.removeRecipe(preferredMetalItem);
-		mods.immersiveengineering.Crusher.addRecipe(preferredMetalItem, metalItems[metalName].ingot.items[0], 256);
-	}
-
 	//Remove ingot recipes, mainly for preventing ore doubling recipes
 	//Re-create alloy recipes etc elsewhere
 	if (metalPartName == "ingot") {

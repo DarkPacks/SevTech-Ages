@@ -28,6 +28,7 @@ Bug Fixes:
 * Fixed dupe cocoa bean recipe (#2386)
 * Fixed staging on the Unchant Pylon (#2380)
 * Fix many logs not working with BWM Sawmill (#2369)
+* Add missing recipes for Diamond and Emerald Workblades (#2260)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

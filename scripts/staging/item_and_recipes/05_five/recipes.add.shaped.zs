@@ -32,6 +32,22 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[null, <minecraft:diamond>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:diamond>], [<minecraft:blaze_rod>, null, null]]
 	],
 
+	// Primal Core
+	<primal:diamond_workblade>: [
+		[
+			[<minecraft:diamond>, <minecraft:stick>, <minecraft:diamond>],
+			[<minecraft:diamond>, <minecraft:stick>, <minecraft:diamond>],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<primal:emerald_workblade>: [
+		[
+			[<minecraft:emerald>, <minecraft:stick>, <minecraft:emerald>],
+			[<minecraft:emerald>, <minecraft:stick>, <minecraft:emerald>],
+			[null, <minecraft:stick>, null]
+		]
+	],
+
 	//Improved Backpacks
 	<improvedbackpacks:upgrade:4> : [
 		[

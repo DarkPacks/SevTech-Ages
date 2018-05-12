@@ -29,6 +29,7 @@ Bug Fixes:
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors
+* Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we dont't want to waste.
 
 Mod Updates:
 * Actually Additions (r135)
@@ -51,11 +52,14 @@ Mod Updates:
     * ADDED: Ore-swapping: replaces other mod ores with Geolosys ones after they've generated (like for Twilight Forest).
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
+* Just Enough Items (4.9.1.179)
 * PrimalCore (0.6.54)
 * PneumaticCraft: Repressurized (0.6.5-189)
     * Fix: crash when crafting Speed Upgrades in some situations.
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
 * ReAuth (3.6.0)
+* Simple Generators (2.0.10a)
+* Toast Control (1.6.0)
 * ValkyrieLib (2.0.10b)
 
 ---------------------------------------------------------------------

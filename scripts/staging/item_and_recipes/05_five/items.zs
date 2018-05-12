@@ -356,6 +356,7 @@ var stage5Items as IIngredient[] = [
 	<mysticalagriculture:obsidian_crop>,
 	<mysticalagriculture:osmium_crop>,
 	<mysticalagriculture:pig_crop>,
+	<mysticalagriculture:platinum_crop>,
 	<mysticalagriculture:quartz_enriched_iron_crop>,
 	<mysticalagriculture:rabbit_crop>,
 	<mysticalagriculture:redstone_crop>,

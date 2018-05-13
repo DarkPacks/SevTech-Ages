@@ -31,6 +31,7 @@ Bug Fixes:
 * Add missing recipes for Diamond and Emerald Workblades (#2260)
 * Re-add ingot -> dust crushing recipes (#2353)
 * Fixed Mantle of Stars Aevitas not giving any hunger/saturation (#2371)
+* Fixed Bone dupe when repairing sharp bone in crafting grid (#2358)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

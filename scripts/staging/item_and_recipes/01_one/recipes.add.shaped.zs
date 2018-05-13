@@ -598,9 +598,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	//Chisel and Bits
 	<chiselsandbits:chisel_iron> : [
 		[
-			[null, null, null],
-			[stick, metals.tin.ingot, null],
-			[null, null, null]
+			[metals.tin.ingot, stick],
 		]
 	],
 

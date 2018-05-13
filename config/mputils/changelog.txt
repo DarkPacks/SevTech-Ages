@@ -36,6 +36,7 @@ Bug Fixes:
 * Fixed dupe bug by Blacklisted Immersive Engineering blocks from the Cyclic Sack of Holding (#2410)
 * Fix Arc Furnace bronze alloying giving incorrect output amount (#2334)
 * Mining Ilmenite with tilk touch will now give the block
+* Fix Chisels and Bits chisel recipe to work in 2x2 grid
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

@@ -1,0 +1,15 @@
+config/AppliedEnergistics2/Facades.cfg
+config/AppliedEnergistics2/aerecipes/*
+config/AppliedEnergistics2/recipes/*
+config/InvTweaks.cfg
+config/Mercurius.cfg
+config/MouseTweaks.cfg
+config/buildcraft/detailed.properties
+config/cd4017be/inductiveLogistics.rcp
+config/cd4017be/compiled.dat
+config/jei/worldSettings.cfg
+config/splash.properties
+config/worldutils/*
+
+#IDE
+.idea/

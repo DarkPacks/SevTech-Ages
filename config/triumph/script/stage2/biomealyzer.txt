@@ -1,0 +1,15 @@
+setTitle("What's My Biome?")
+
+setIcon("infoaccessories:info_accessory", 6)
+
+setDescription("Use a Biomealyzer to learn the name of the biome you're currently in")
+
+setParent("triumph:stage2/compass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 6)
+
+//Rewards
+setRewardExperience(8)

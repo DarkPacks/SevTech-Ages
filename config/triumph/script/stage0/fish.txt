@@ -1,0 +1,26 @@
+setTitle("Spear Fishing")
+
+setIcon("minecraft:fish")
+
+setDescription("Use your spear or other tools to fish for a tasty meal!")
+
+setParent("triumph:stage0/spear")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("killed_fish", "minecraft:player_killed_entity")
+criteria1.setEntityType("jaff:clownfish")
+
+criteria2 = addCriteria("killed_fish2", "minecraft:player_killed_entity")
+criteria2.setEntityType("jaff:cod")
+
+criteria3 = addCriteria("killed_fish3", "minecraft:player_killed_entity")
+criteria3.setEntityType("jaff:pufferfish")
+
+criteria4 = addCriteria("killed_fish4", "minecraft:player_killed_entity")
+criteria4.setEntityType("jaff:salmon")
+
+//Rewards
+setRewardExperience(4)

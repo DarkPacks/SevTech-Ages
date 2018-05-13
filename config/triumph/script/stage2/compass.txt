@@ -1,0 +1,15 @@
+setTitle("Get Lost, Oh Wait...")
+
+setIcon("minecraft:compass")
+
+setDescription("A Compass will help you determine your X and Z coordinates")
+
+setParent("triumph:stage2/controller")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:compass")
+
+//Rewards
+setRewardExperience(8)

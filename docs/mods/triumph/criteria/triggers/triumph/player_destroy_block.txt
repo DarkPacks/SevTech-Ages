@@ -1,0 +1,81 @@
+These are the functions which can be called on a triumph:player_harvest_block criteria 
+trigger. This criteria is triggered by a player destroying a block.
+
+
+
+getBlock:
+    Notes:
+        Returns the BlockData object so functions can be called on it.
+
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the required block with the provided meta.
+
+setBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the required block. This counts for any meta.
+
+getItemData:
+    Notes:
+        Returns the ItemData object so functions can be called on it.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the required item with the provided meta.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the required item. This counts for any meta.
+
+setBlockOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the trigger.
+
+setItemOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the item ore dictionary for the trigger.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+

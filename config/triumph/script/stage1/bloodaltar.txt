@@ -1,0 +1,16 @@
+setTitle("Altered State")
+
+setIcon("bloodmagic:altar")
+
+setDescription("Capture Demonic Will to build a Blood Altar")
+
+setParent("triumph:stage1/alloykiln")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("bloodmagic:altar")
+
+//Rewards
+setRewardExperience(8)
+setRewardItem("guideapi:bloodmagic-guide", 0, 1)

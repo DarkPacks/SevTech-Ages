@@ -1,0 +1,27 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "fisherman",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "abyssalcraft:stone",
+          "Count": {
+            "min": 16,
+            "max": 24
+          },
+          "Damage": 7
+        },
+        "sell": {
+          "id": "abyssalcraft:shoggothflesh",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

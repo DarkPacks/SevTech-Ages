@@ -1,0 +1,15 @@
+setTitle("Blaze Rod")
+
+setIcon("minecraft:blaze_rod", 0)
+
+setDescription("Travel to the Nether, collect Blaze Powder, and use the Metal Press to convert them into Blaze Rods")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:blaze_rod", 0)
+
+//Rewards
+setRewardExperience(8)

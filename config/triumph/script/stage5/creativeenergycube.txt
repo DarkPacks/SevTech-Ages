@@ -1,0 +1,16 @@
+setTitle("Creative Energy Cube")
+
+setIcon("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
+
+setDescription("Craft the Creative Energy Cube from Mekanism")
+
+setParent("triumph:stage5/ultimateingot")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")

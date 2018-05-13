@@ -1,0 +1,15 @@
+setTitle("Don't Underestimate My Power")
+
+setIcon("poweradapters:mj")
+
+setDescription("When you're unable to transfer energy between different mods, the Power Adapter block can help convert")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("poweradapters:mj")
+
+//Rewards
+setRewardExperience(8)

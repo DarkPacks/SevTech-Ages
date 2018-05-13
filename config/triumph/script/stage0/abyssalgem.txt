@@ -1,0 +1,15 @@
+setTitle("§5§lDark Gems")
+
+setIcon("abyssalcraft:shadowgem")
+
+setDescription("Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems")
+
+setParent("triumph:stage0/abyssalbiome")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("abyssalcraft:shadowgem", 0)
+
+//Rewards
+setRewardExperience(4)

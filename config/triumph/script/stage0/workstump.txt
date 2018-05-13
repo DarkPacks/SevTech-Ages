@@ -1,0 +1,24 @@
+setTitle("I'm Stumped!")
+
+setIcon("primal_tech:work_stump")
+
+setDescription("No crafting tables yet! Use a Work Stump instead. To craft the items, place them on the table in the correct pattern and use a Crafting Rock to right-click the recipe into existence. When you're finished place the rock in its home at the front of the table")
+
+setParent("triumph:stage0/collectplank")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:work_stump")
+
+//Rewards
+setRewardFunction("triumph:stage-0_trigger")
+setRewardItem("primal_tech:rock", 0, 1)
+setRewardExperience(4)

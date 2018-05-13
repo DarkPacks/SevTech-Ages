@@ -1,0 +1,25 @@
+setIcon("extendedcrafting:ender_crafter")
+
+setTitle("Ender Crafter")
+
+setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafting")
+
+setParent("triumph:stage4/enderalloy2")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extendedcrafting:ender_crafter")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extendedcrafting:ender_alternator")
+
+//Rewards
+setRewardExperience(12)

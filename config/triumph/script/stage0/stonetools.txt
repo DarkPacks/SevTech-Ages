@@ -1,0 +1,15 @@
+setTitle("Stone Age!")
+
+setIcon("minecraft:stone_pickaxe")
+
+setDescription("Craft a Stone Pickaxe to upgrade your aresenal")
+
+setParent("triumph:stage0/upgrade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:stone_pickaxe")
+
+//Rewards
+setRewardExperience(4)

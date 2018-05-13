@@ -1,0 +1,65 @@
+{
+	"onScreenNotifications": [
+		{
+			"id": "darkosto",
+			"soundlocation": "minecraft:entity.player.levelup",
+			"lines": [
+				"§9§nHappy Birthday!!!",
+				"§2Happy BirthDay to you!",
+				"§2Happy BirthDay to you!",
+				"§5Happy BirthDay Darkosto!",
+				"§2Happy BirthDay to you!"
+			]
+		},
+		{
+			"id": "example",
+			"soundlocation": "minecraft:entity.creeper.primed",
+			"lines": [
+				"§c§nBoom!!!",
+				"§eDid I scare you?"
+			]
+		},
+		{
+			"id": "stage_one",
+			"lines": [
+				"§c§nWelcome to",
+				"§eAge 1"
+			]
+		},
+		{
+			"id": "stage_two",
+			"lines": [
+				"§c§nWelcome to",
+				"§eAge 2"
+			]
+		},
+		{
+			"id": "stage_three",
+			"lines": [
+				"§c§nWelcome to",
+				"§eAge 3"
+			]
+		},
+		{
+			"id": "stage_four",
+			"lines": [
+				"§c§nWelcome to",
+				"§eAge 4"
+			]
+		},
+		{
+			"id": "stage_five",
+			"lines": [
+				"§c§nWelcome to",
+				"§eAge 5"
+			]
+		},
+		{
+			"id": "stage_creative",
+			"lines": [
+				"§c§nWelcome to the",
+				"§eCreative Age"
+			]
+		}
+	]
+}

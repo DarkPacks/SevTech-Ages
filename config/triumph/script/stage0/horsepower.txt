@@ -1,0 +1,15 @@
+setTitle("Horse Power!")
+
+setIcon("horsepower:grindstone")
+
+setDescription("Craft a Horse Power Grindstone and attach a horse using a lead to automate item grinding. Among Horses you can use  Parrots, Buffalo, Pigs, Cows, Llamas, and Wolves to work")
+
+setParent("triumph:stage0/lead")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("horsepower:grindstone")
+
+//Rewards
+setRewardExperience(4)

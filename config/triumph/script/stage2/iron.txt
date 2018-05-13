@@ -1,0 +1,15 @@
+setTitle("Iron Sights")
+
+setIcon("minecraft:iron_ingot")
+
+setDescription("Find a Hematite surface sample and dig for iron! The ore is located between Y32 - Y60")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore", 0)
+
+//Rewards
+setRewardExperience(8)

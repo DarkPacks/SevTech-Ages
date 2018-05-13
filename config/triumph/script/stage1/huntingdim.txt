@@ -1,0 +1,15 @@
+setTitle("Hunt or be Hunted")
+
+setIcon("huntingdim:frame", 0)
+
+setDescription("If you need to find hostile mobs, use the Hunting Dimension. Craft the portal frame just like you would the Nether Portal, light it using a Vanilla Sword and sneak in the portal to enter")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("huntingdim:frame", 0)
+
+//Rewards
+setRewardExperience(4)

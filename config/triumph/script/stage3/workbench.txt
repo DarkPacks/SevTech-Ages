@@ -1,0 +1,22 @@
+setTitle("Engineer's Workbench")
+
+setIcon("immersiveengineering:wooden_device0", 2)
+
+setDescription("Craft an Engineer's Workbench to craft items from Blueprints")
+
+setParent("triumph:stage3/iebook")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device0", 2)
+
+//Rewards
+setRewardExperience(8)

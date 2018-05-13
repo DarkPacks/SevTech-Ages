@@ -1,0 +1,15 @@
+setTitle("Wooly Blankets")
+
+setIcon("minecraft:wool")
+
+setDescription("Craft some wool from Fleece and Wicker")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:wool")
+
+//Rewards
+setRewardExperience(8)

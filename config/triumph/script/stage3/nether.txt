@@ -1,0 +1,14 @@
+setTitle("Enter the Nether")
+
+setIcon("minecraft:netherrack")
+
+setDescription("Travel to the Nether. Pre-built Portals exist in hot biomes such as Deserts and Savannahs. Remember, the world is setup in a logical heat map. If you need to find a hot biome you can travel North or South until you reach that climate")
+
+setParent("triumph:stage3/root")
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")
+
+//Rewards
+setRewardExperience(8)

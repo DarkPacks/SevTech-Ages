@@ -1,0 +1,15 @@
+setTitle("Steel Ingot")
+
+setIcon("immersiveengineering:stone_device", 1)
+
+setDescription("The Blast Oven will allow you to create Steel from Coal Coke and Iron Ingots")
+
+setParent("triumph:stage3/creosote")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:metal", 8)
+
+//Rewards
+setRewardExperience(8)

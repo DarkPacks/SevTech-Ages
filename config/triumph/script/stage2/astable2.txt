@@ -1,0 +1,22 @@
+setTitle("Starlight Upgrade")
+
+setIcon("astralsorcery:blockaltar", 1)
+
+setDescription("Upgrade the Luminous table the next tier. Aside from the table, you'll need to construct a structure to begin the crafting process. Consult the Astral Sorcery Journal's Exploration section")
+
+setParent("triumph:stage2/lightwell")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "triumph:right_click_block")
+criteria.setBlock("astralsorcery:blockaltar", 1)
+
+//Rewards
+setRewardExperience(8)

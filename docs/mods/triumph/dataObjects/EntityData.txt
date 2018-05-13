@@ -1,0 +1,44 @@
+These are the functions which can be called on an EntityData object.
+
+
+
+setType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the entity type.
+
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+
+setDimensionType:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+

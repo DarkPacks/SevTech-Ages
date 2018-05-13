@@ -1,0 +1,15 @@
+setTitle("Ore Excavation")
+
+setIcon("oeintegration:excavatemodifier")
+
+setDescription("Use the Ore Excavation Modifier item to add an Excavation ability to a Tinkers' Tool. You can also add an Excavation Enchantment to non-Tinkers' tools using the Enchantment Table")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("oeintegration:excavatemodifier")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,21 @@
+setTitle("Enter the End")
+
+setIcon("minecraft:end_portal_frame")
+
+setDescription("Locate a Stronghold and enter the End Dimension")
+
+setParent("triumph:stage4/root")
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")
+
+//Rewards
+setRewardExperience(12)

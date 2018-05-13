@@ -1,0 +1,15 @@
+														Welcome to SevTech!
+
+Open the Advancements Window to find out how to progress (Default key "L")
+
+
+WAILA and a Map are not available from the beginning of the modpack, they need to be unlocked. There are many blocks that are hidden until unlocked through progression!
+
+
+**Be aware, if you change a resource pack while the pack is running you will need to fully restart the game due to an issue with items not hiding correctly and recipes not showing. Sorry for the inconvenience!**
+
+
+For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tf" using in-game chat.
+
+
+This information and changelogs can be accessed again by pausing the game and opening the "What's New" icon on the right side of the screen.

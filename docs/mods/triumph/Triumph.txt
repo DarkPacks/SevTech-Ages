@@ -1,0 +1,59 @@
+This file is for basic mod options. If Triumph.txt does not exist, default configs 
+and documentation will be printed.
+
+
+
+printDefaultConfigs:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether Triumph should print default config files. This will replace files. Always backup first!
+
+removeAdvancements:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set advancements that should be removed. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be kept.
+
+removeModAdvancements:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether Triumph should remove mod advancements.
+
+keepAdvancements:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set advancements that should be kept. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be removed.
+
+forceReloadFunctions:
+    Arguments:
+        boolean
+    Notes:
+        No longer does anything. Simply here to avoid script errors. Will be removed fully in a future update.
+
+removeVanillaAdvancements:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether Triumph should remove vanilla advancements.
+
+printDocumentation:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Used to set whether Triumph should print config documentation.
+

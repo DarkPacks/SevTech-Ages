@@ -1,0 +1,15 @@
+setTitle("Osmium Ore")
+
+setIcon("geolosys:cluster", 12)
+
+setDescription("Find a surface sample and dig for Osmium! The ore is located between Y2 to 10")
+
+setParent("triumph:stage5/prospectorstage5")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("geolosys:cluster", 12)
+
+//Rewards
+setRewardExperience(12)

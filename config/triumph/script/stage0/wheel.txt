@@ -1,0 +1,15 @@
+setTitle("§5§lThe Wheels on the Bus")
+
+setIcon("astikoor:wheel")
+
+setDescription("Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts")
+
+setParent("triumph:stage0/saddle")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astikoor:wheel", 0)
+
+//Rewards
+setRewardExperience(4)

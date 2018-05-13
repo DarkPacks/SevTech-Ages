@@ -1,0 +1,15 @@
+setTitle("Programming the Assembly")
+
+setIcon("pneumaticcraft:assembly_program", 1)
+
+setDescription("Order an Assembly Program: Laser from your Amadron Tablet")
+
+setParent("triumph:stage4/amadrontablet")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:assembly_program", 1)
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,15 @@
+setTitle("Reincarnation")
+
+setIcon("minecraft:end_crystal", 0)
+
+setDescription("If you want to respawn the Ender Dragon, craft 4 End Crystals and place them on the exit portal in the end. Each Crystal needs to be placed on the center of three bedrock blocks")
+
+setParent("triumph:stage4/solidendereye")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:summoned_entity")
+criteria.setEntityType("minecraft:ender_dragon")
+
+//Rewards
+setRewardExperience(12)

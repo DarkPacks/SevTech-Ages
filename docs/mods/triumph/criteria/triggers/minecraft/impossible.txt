@@ -1,0 +1,5 @@
+These are the functions which can be called on a minecraft:impossible trigger. Hint: 
+It's none, because it's impossible.
+
+
+

@@ -1,0 +1,36 @@
+{
+  "Profession": "vtt:brewer",
+  "Career": "brewer",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "buy": {
+          "id": "minecraft:mushroom_stew",
+          "Count": {
+            "min": 4,
+            "max": 8
+          }
+        },
+        "sell": {
+          "id": "primal_tech:fluid_bladder",
+          "Count": 1
+        },
+        "CareerLevel": 1
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+

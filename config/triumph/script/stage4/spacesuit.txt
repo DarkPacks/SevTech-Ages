@@ -1,0 +1,24 @@
+setTitle("Sharp Dressed Man")
+
+setIcon("extraplanets:tier1_space_suit_helmet")
+
+setDescription("Craft the full Tier 1 Space Suit to protect you from pressure and radiation when going to the moon")
+
+setParent("triumph:stage4/nasaworkbench")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("extraplanets:tier1_space_suit_helmet")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("extraplanets:tier1_space_suit_chest")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("extraplanets:tier1_space_suit_legings")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("extraplanets:tier1_space_suit_boots")
+
+//Rewards
+setRewardExperience(12)

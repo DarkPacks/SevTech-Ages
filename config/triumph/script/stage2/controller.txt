@@ -1,0 +1,15 @@
+setTitle("Controlling")
+
+setIcon("tconstruct:smeltery_controller")
+
+setDescription("If flint or bone tools aren't cutting it any longer, you'll need a Smeltery. After you place all your smeltery blocks place a Smeltery Controller to complete the structure and the advancement")
+
+setParent("triumph:stage2/betweenlands")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria.setBlock("tconstruct:smeltery_controller")
+
+//Rewards
+setRewardExperience(8)

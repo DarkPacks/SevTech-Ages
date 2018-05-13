@@ -1,0 +1,32 @@
+These are the functions which can be called on a minecraft:used_totem criteria trigger.
+
+
+
+getItemData:
+    Notes:
+        Returns the ItemData object so functions can be called on it.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the required item with the provided meta.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the required item. This counts for any meta.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the trigger.
+

@@ -1,0 +1,44 @@
+setTitle("Barrel of Vadis")
+
+setIcon("primal:barrel")
+
+setDescription("Craft a Primal Core Wooden Barrel to hold liquids")
+
+setParent("triumph:stage0/fluidbladder")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("primal:barrel", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("primal:barrel", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("primal:barrel", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("primal:barrel", 3)
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("primal:barrel", 4)
+
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6.setItem("primal:barrel", 5)
+
+criteria7 = addCriteria("hasRock7", "minecraft:inventory_changed")
+criteria7.setItem("primal:barrel", 6)
+
+criteria8 = addCriteria("hasRock8", "minecraft:inventory_changed")
+criteria8.setItem("primal:barrel", 7)
+
+criteria9 = addCriteria("hasRock9", "minecraft:inventory_changed")
+criteria9.setItem("primal:barrel", 8)
+
+criteria10 = addCriteria("hasRock10", "minecraft:inventory_changed")
+criteria10.setItem("primal:barrel", 9)
+
+//Rewards
+setRewardExperience(4)

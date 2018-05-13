@@ -1,0 +1,20 @@
+setTitle("Error 404: Heart Not Found")
+
+setIcon("mekanism:ingot", 6)
+
+setDescription("Find a surface sample and dig for tin! Located Y8 to 68 and called Cassiterite or Teallite. Note, surface samples will unhide in already explored areas")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("geolosys:ore", 4)
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("geolosys:ore", 5)
+
+//Rewards
+setRewardExperience(4)

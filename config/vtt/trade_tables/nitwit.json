@@ -1,0 +1,11 @@
+{
+  "Profession": "minecraft:nitwit",
+  "Career": "nitwit",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      }
+    ]
+  }
+}

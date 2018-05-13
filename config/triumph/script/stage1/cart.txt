@@ -1,0 +1,15 @@
+setTitle("Love and Carriage")
+
+setIcon("astikoor:cargocart")
+
+setDescription("Tired of carrying your stuff around in your pockets? Craft a Cart and attach it to a horse to help carry your things. Shift-click the cart to open its inventory!")
+
+setParent("triumph:stage0/wheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astikoor:cargocart")
+
+//Rewards
+setRewardExperience(4)

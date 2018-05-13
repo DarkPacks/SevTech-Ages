@@ -1,0 +1,21 @@
+These are the functions which can be called on a minecraft:changed_dimension criteria 
+trigger.
+
+
+
+setDimensionOrigin:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the origin dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+setDimensionDestination:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the destination dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+

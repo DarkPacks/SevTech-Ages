@@ -1,0 +1,17 @@
+setTitle("Advanced Mapping")
+
+setIcon("minecraft:filled_map")
+
+setDescription("Upgrade your current map to something much more advanced by eating an Iron Apple. Note, this is an early unlock and does not have to be completed. The reward can be granted in a later stage")
+
+setParent("triumph:stage2/extendedcraftingbasic")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem("extraplanets:apple_iron", 0)
+
+//Rewards
+setRewardFunction("triumph:advanced_mapping")
+setRewardFunction("triumph:prestige_add_100")
+setRewardExperience(8)

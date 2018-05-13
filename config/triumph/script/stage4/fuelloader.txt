@@ -1,0 +1,15 @@
+setTitle("Fill Her Up")
+
+setIcon("galacticraftcore:fuel_loader", 0)
+
+setDescription("The Fuel Loader will be needed to fuel a Rocket before Take off")
+
+setParent("triumph:stage4/compressor")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:fuel_loader", 0)
+
+//Rewards
+setRewardExperience(12)

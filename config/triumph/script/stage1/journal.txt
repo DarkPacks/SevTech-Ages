@@ -1,0 +1,22 @@
+setTitle("This Is Going in My Diary")
+
+setIcon("astralsorcery:itemjournal")
+
+setDescription("Access the knowledge of the stars by crafting the Astral Sorcery Journal. Note, the Astral Sorcery Shrines do not exist in the world. Recipes have been altered to account for this")
+
+setParent("triumph:stage1/parchment")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemjournal")
+
+//Rewards
+setRewardExperience(4)

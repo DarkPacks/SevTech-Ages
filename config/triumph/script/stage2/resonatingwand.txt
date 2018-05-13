@@ -1,0 +1,15 @@
+setTitle("Resonation")
+
+setIcon("astralsorcery:itemwand")
+
+setDescription("You'll need a Resonating Wand from Astral Sorcery to continue your journey")
+
+setParent("triumph:stage2/enderman")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemwand")
+
+//Rewards
+setRewardExperience(8)

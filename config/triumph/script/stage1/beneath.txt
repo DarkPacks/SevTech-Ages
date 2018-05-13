@@ -1,0 +1,22 @@
+setTitle("The Beneath")
+
+setIcon("beneath:teleporterbeneath")
+
+setDescription("Use an Abyssalcraft Ritual to create the Beneath teleporter. Remember to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension")
+
+setParent("triumph:stage1/statue")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("The Beneath")
+
+//Rewards
+setRewardExperience(4)

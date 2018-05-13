@@ -1,0 +1,16 @@
+setTitle("Ultimate Crafting Table")
+
+setIcon("extendedcrafting:table_ultimate", 0)
+
+setDescription("Craft and use the Ultimate Crafting Table for powerful creative style items")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:table_ultimate", 0)
+
+//Rewards
+setRewardExperience(15)
+setRewardFunction("triumph:stage-creative_trigger")

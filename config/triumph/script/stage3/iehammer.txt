@@ -1,0 +1,15 @@
+setTitle("Engineer's Hammer")
+
+setIcon("immersiveengineering:tool")
+
+setDescription("Craft an Engineer's Hammer for creating multiblock machines and rotating blocks")
+
+setParent("triumph:stage3/iebook")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:tool", 0)
+
+//Rewards
+setRewardExperience(8)

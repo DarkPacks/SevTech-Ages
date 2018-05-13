@@ -1,0 +1,15 @@
+setTitle("Applied Energistics")
+
+setIcon("appliedenergistics2:part", 380)
+
+setDescription("Craft an ME Terminal and choose your path to Applied Energistics, Refined Storage, or both!")
+
+setParent("triumph:stage4/inscriber")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("appliedenergistics2:part", 380)
+
+//Rewards
+setRewardExperience(12)

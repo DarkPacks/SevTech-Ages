@@ -1,0 +1,15 @@
+setTitle("Ore Prospector Tier 4")
+
+setIcon("prospectors:prospector_high")
+
+setDescription("Craft the Advanced Prospector to locate Age 4 ores")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_high")
+
+//Rewards
+setRewardExperience(12)

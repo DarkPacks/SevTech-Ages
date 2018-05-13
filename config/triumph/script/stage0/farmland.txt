@@ -1,0 +1,16 @@
+setTitle("Teach A Man To Farm")
+
+setIcon("minecraft:farmland")
+
+setDescription("Learn the basics of farming from a Farmer Villager trade by trading for Farmland. Farmland cannot be tilled by a hoe in age zero, you will need to craft and place it near water")
+
+setParent("triumph:stage0/workblade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("traded", "minecraft:villager_trade")
+criteria.setEntityType("minecraft:villager")
+criteria.setItem("minecraft:farmland")
+
+//Rewards
+setRewardExperience(4)

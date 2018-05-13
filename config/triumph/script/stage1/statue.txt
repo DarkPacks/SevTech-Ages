@@ -1,0 +1,42 @@
+setTitle("Abyssal Trophy Case")
+
+setIcon("abyssalcraft:statue", 4)
+
+setDescription("To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the §4Necronomicon §7for more information")
+
+setParent("triumph:stage1/necro")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("abyssalcraft:statue", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("abyssalcraft:statue", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("abyssalcraft:statue", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("abyssalcraft:statue", 3)
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("abyssalcraft:statue", 4)
+
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6.setItem("abyssalcraft:statue", 5)
+
+criteria7 = addCriteria("hasRock7", "minecraft:inventory_changed")
+criteria7.setItem("abyssalcraft:statue", 6)
+
+//Rewards
+setRewardExperience(4)

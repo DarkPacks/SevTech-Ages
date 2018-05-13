@@ -1,0 +1,15 @@
+setTitle("Gold Standard")
+
+setIcon("minecraft:gold_ingot")
+
+setDescription("Find a Gold surface sample and dig for Gold! The ore is located between Y8 - Y40")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore_vanilla", 2)
+
+//Rewards
+setRewardExperience(8)

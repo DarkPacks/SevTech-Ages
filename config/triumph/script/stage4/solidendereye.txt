@@ -1,0 +1,15 @@
+setTitle("Reusable Eye")
+
+setIcon("cyclicmagic:ender_eye_orb")
+
+setDescription("Craft and  use the Solid Ender Eye to locate the End easily")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:ender_eye_orb")
+
+//Rewards
+setRewardExperience(12)

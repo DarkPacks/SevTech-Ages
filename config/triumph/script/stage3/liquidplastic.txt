@@ -1,0 +1,22 @@
+setTitle("The Invention of Plastic")
+
+setIcon("forge:bucketfilled", 0, {FluidName: "plastic", Amount: 1000})
+
+setDescription("Using the Modular Machinery liquid Processor, convert Propene into Liquid Plastic")
+
+setParent("triumph:stage3/propene")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("forge:bucketfilled", 0, {FluidName: "plastic", Amount: 1000})
+
+//Rewards
+setRewardExperience(8)

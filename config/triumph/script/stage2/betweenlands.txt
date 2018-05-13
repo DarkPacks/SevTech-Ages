@@ -1,0 +1,14 @@
+setTitle("The Betweenlands")
+
+setIcon("thebetweenlands:swamp_talisman")
+
+setDescription("Locate a Druid Circle in Swamp Biome, kill the druids, and use their talisman pieces to create the Swamp Talisman. Click the Talisman on a placed Sapling to create the large portal to the Betweenlands")
+
+setParent("triumph:stage2/root")
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("betweenlands")
+
+//Rewards
+setRewardExperience(8)

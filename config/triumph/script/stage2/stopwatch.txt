@@ -1,0 +1,15 @@
+setTitle("Speedrunner")
+
+setIcon("infoaccessories:info_accessory")
+
+setDescription("The Stopwatch will display information on the player's motion")
+
+setParent("triumph:stage2/compass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 0)
+
+//Rewards
+setRewardExperience(8)

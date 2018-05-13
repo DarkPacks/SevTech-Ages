@@ -1,0 +1,22 @@
+setTitle("Push It Real Good")
+
+setIcon("minecraft:piston")
+
+setDescription("Need to push items around?! Find a Piston in the Ur-Ghast Tower located in the Twilight Forest or locate the resources to craft it")
+
+setParent("triumph:stage2/twilight")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:piston")
+
+//Rewards
+setRewardExperience(8)

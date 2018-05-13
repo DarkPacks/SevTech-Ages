@@ -1,0 +1,15 @@
+setTitle("Plumbing the Depths")
+
+setIcon("bibliocraft:plumbline")
+
+setDescription("Use the Plumb Line to discover your Y level")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("bibliocraft:plumbline", 0)
+
+//Rewards
+setRewardExperience(4)

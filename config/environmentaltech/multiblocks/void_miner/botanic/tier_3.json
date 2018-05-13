@@ -1,0 +1,229 @@
+{
+  "outputs": [
+    {
+      "target": "log",
+      "weight": 32,
+      "id": "OD_PREFIX:logWood"
+    },
+    {
+      "target": "sapling",
+      "weight": 4,
+      "id": "OD_PREFIX:treeSapling"
+    },
+    {
+      "target": "leaves",
+      "weight": 64,
+      "id": "OD_PREFIX:treeLeaves"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:yellow_flower:0"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:0"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:1"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:2"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:3"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:4"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:5"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:6"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:7"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:red_flower:8"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:double_plant:0"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:double_plant:1"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:double_plant:4"
+    },
+    {
+      "target": "flowers",
+      "weight": 8,
+      "id": "minecraft:double_plant:5"
+    },
+    {
+      "target": "food",
+      "weight": 6,
+      "id": "minecraft:carrot:0"
+    },
+    {
+      "target": "food",
+      "weight": 6,
+      "id": "minecraft:potato:0"
+    },
+    {
+      "target": "food",
+      "weight": 2,
+      "id": "minecraft:poisonous_potato:0"
+    },
+    {
+      "target": "food",
+      "weight": 6,
+      "id": "minecraft:beetroot:0"
+    },
+    {
+      "target": "food",
+      "weight": 3,
+      "id": "minecraft:pumpkin:0"
+    },
+    {
+      "target": "food",
+      "weight": 1,
+      "id": "minecraft:lit_pumpkin:0"
+    },
+    {
+      "target": "food",
+      "weight": 2,
+      "id": "minecraft:melon_block:0"
+    },
+    {
+      "target": "food",
+      "weight": 4,
+      "id": "minecraft:melon:0"
+    },
+    {
+      "target": "food",
+      "weight": 3,
+      "id": "minecraft:chorus_fruit:0"
+    },
+    {
+      "target": "food",
+      "weight": 6,
+      "id": "minecraft:apple:0"
+    },
+    {
+      "target": "food",
+      "weight": 7,
+      "id": "minecraft:wheat:0"
+    },
+    {
+      "target": "food",
+      "weight": 6,
+      "id": "minecraft:reeds:0"
+    },
+    {
+      "target": "seed",
+      "weight": 4,
+      "id": "minecraft:red_mushroom:0"
+    },
+    {
+      "target": "seed",
+      "weight": 4,
+      "id": "minecraft:brown_mushroom:0"
+    },
+    {
+      "target": "plant",
+      "weight": 1,
+      "id": "minecraft:chorus_flower:0"
+    },
+    {
+      "target": "plant",
+      "weight": 3,
+      "id": "minecraft:wheat_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 2,
+      "id": "minecraft:pumpkin_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 3,
+      "id": "minecraft:melon_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 6,
+      "id": "minecraft:cactus:0"
+    },
+    {
+      "target": "plant",
+      "weight": 3,
+      "id": "minecraft:beetroot_seeds:0"
+    },
+    {
+      "target": "plant",
+      "weight": 3,
+      "id": "minecraft:nether_wart:0"
+    },
+    {
+      "target": "green",
+      "weight": 3,
+      "id": "minecraft:tallgrass:1"
+    },
+    {
+      "target": "green",
+      "weight": 3,
+      "id": "minecraft:tallgrass:2"
+    },
+    {
+      "target": "brown",
+      "weight": 3,
+      "id": "minecraft:deadbush:0"
+    },
+    {
+      "target": "green",
+      "weight": 3,
+      "id": "minecraft:vine:0"
+    },
+    {
+      "target": "green",
+      "weight": 3,
+      "id": "minecraft:waterlily:0"
+    },
+    {
+      "target": "green",
+      "weight": 8,
+      "id": "minecraft:double_plant:2"
+    },
+    {
+      "target": "green",
+      "weight": 8,
+      "id": "minecraft:double_plant:3"
+    }
+  ]
+}

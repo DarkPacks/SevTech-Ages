@@ -1,0 +1,22 @@
+setTitle("All Mixed Up")
+
+setIcon("immersiveengineering:stone_device", 7)
+
+setDescription("Build the Alloy Kiln from Immersive Engineering to create bronze. You'll need 8 Kiln bricks in a 2x2x2 and Right-Click with the Engineer's Hammer to create the structure")
+
+setParent("triumph:stage1/copper")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:stone_decoration", 10)
+
+//Rewards
+setRewardExperience(4)

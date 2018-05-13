@@ -1,0 +1,215 @@
+{
+  "registryname": "mixer_mk3",
+  "localizedname": "Mixer Mk3",
+  "color": "916FB3",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "betterwithmods:cooking_pot@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockfluidinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+setTitle("Under Pressure")
+
+setIcon("galacticraftcore:machine", 12)
+
+setDescription("Craft the Compressor Machine from Galacticraft to create Compressed Plates")
+
+setParent("triumph:stage4/enderalloy3")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:machine", 12)
+
+//Rewards
+setRewardExperience(12)

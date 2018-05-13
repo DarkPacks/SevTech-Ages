@@ -1,0 +1,15 @@
+setTitle("Creosote")
+
+setIcon("immersiveengineering:stone_device")
+
+setDescription("Use the Coke Oven to produce both Creosote liquid and Coal Coke")
+
+setParent("triumph:stage3/iehammer")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:material", 6)
+
+//Rewards
+setRewardExperience(8)

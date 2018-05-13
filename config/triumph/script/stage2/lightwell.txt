@@ -1,0 +1,22 @@
+setTitle("Liquify")
+
+setIcon("astralsorcery:blockwell")
+
+setDescription("The Lightwell from Astral Sorcery will allow certain items to be liquefied into Liquid Starlight")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+setFrameType("goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:blockwell")
+
+//Rewards
+setRewardExperience(8)

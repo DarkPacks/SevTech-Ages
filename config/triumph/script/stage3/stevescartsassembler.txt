@@ -1,0 +1,15 @@
+setTitle("Steve's Carts")
+
+setIcon("stevescarts:blockcartassembler")
+
+setDescription("The Cart Assembler will allow you to build a modular cart. Remember, you can craft upgrades and attach them via Shift-Clicking to the outside of the Assembler to speed up production time or use other features")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:blockcartassembler")
+
+//Rewards
+setRewardExperience(8)

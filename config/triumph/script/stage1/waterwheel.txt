@@ -1,0 +1,15 @@
+setTitle("Water We Doing")
+
+setIcon("betterwithmods:axle_generator", 1)
+
+setDescription("Getting started in Mechanical Power will require a source such as the Better With Mods Waterwheel")
+
+setParent("triumph:stage1/axle")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:axle_generator", 1)
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,14 @@
+setTitle("Welcome to Age 1")
+
+setIcon("progressiontweaks:stone_hammer")
+
+setDescription("Welcome to the next age! Blocks previously hidden will now become visible, such as ore samples and others")
+
+setBackground("mekanism:textures/blocks/tinore.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("completedStage0", "triumph:completed_advancement")
+criteria.setString("triumph:stage0/melter")

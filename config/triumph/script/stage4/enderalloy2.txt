@@ -1,0 +1,22 @@
+setTitle("Enhanced Ender Alloy")
+
+setIcon("enderutilities:enderpart", 1)
+
+setDescription("Locate Chorus in the End and use the Fruit to create Enhanced Ender Alloy")
+
+setParent("triumph:stage4/theend")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("enderutilities:enderpart", 1)
+
+//Rewards
+setRewardExperience(12)

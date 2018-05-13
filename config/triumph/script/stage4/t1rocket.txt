@@ -1,0 +1,33 @@
+setTitle("Rocket Ship")
+
+setIcon("galacticraftcore:rocket_t1")
+
+setDescription("Build a Tier 1 Galacticraft Rocket")
+
+setParent("triumph:stage4/nasaworkbench")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("galacticraftcore:rocket_t1")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("galacticraftcore:rocket_t1", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("galacticraftcore:rocket_t1", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("galacticraftcore:rocket_t1", 3)
+
+//Rewards
+setRewardExperience(12)

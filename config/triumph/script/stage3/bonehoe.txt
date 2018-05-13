@@ -1,0 +1,15 @@
+setTitle("Nether Tools")
+
+setIcon("nex:tool_hoe_bone")
+
+setDescription("Use the Bone Hoe to till dirt and also for Tilled Soul Sand")
+
+setParent("triumph:stage3/netherwart")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("nex:tool_hoe_bone")
+
+//Rewards
+setRewardExperience(8)

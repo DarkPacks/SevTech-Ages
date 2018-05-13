@@ -1,0 +1,15 @@
+setTitle("Age 2")
+
+setIcon("astralsorcery:itemcraftingcomponent", 4)
+
+setDescription("Welcome to the next age!")
+
+setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage1/astable")

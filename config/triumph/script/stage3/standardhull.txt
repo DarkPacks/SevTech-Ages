@@ -1,0 +1,15 @@
+setTitle("Steve's Carts Standard Hull")
+
+setIcon("stevescarts:cartmodule", 38)
+
+setDescription("The Standard Hull from Steve's Carts will allow you to craft better carts")
+
+setParent("triumph:stage3/woodhull")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 38)
+
+//Rewards
+setRewardExperience(8)

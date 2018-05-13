@@ -1,0 +1,16 @@
+setTitle("Creative Fluid Tank")
+
+setIcon("mekanism:machineblock2", 11)
+
+setDescription("Craft the Creative Fluid Tank from Mekanism")
+
+setParent("triumph:stage5/ultimateingot")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("mekanism:machineblock2", 11, {tier: 4, mekData: {}})
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")

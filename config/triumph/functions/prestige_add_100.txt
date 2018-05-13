@@ -1,0 +1,1 @@
+prestige add @p 100

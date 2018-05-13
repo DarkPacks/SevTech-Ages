@@ -1,0 +1,16 @@
+setTitle("Anvil Lavigne")
+
+setIcon("primal_tech:stone_anvil")
+
+setDescription("Need plates? Smash some ingots with a mallet on the Stone Anvil")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:stone_anvil")
+
+//Rewards
+setRewardItem("primal_tech:stone_mallet", 0, 1)
+setRewardExperience(4)

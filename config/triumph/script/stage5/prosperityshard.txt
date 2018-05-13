@@ -1,0 +1,15 @@
+setTitle("Prosperity Shard")
+
+setIcon("mysticalagriculture:crafting", 5)
+
+setDescription("Prosperity Shards are needed to progress further into Mystical Agriculture. Use the Empowerer to create it")
+
+setParent("triumph:stage5/inferiumessence")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mysticalagriculture:crafting", 5)
+
+//Rewards
+setRewardExperience(15)

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "data": {
+    "endIsland": "END_ISLAND",
+    "endIslandPlants": "END_ISLAND_PLANTS",
+    "endVoid": "END_VOID",
+    "lava": "LAVA",
+    "lavaShore": "LAVA_SHORE",
+    "netherBridge": "NETHER_BRIDGE",
+    "netherBridgeEndX": "NETHER_BRIDGE_END_X",
+    "netherBridgeEndZ": "NETHER_BRIDGE_END_Z",
+    "netherBridgeGate": "NETHER_BRIDGE_GATE",
+    "netherBridgeX": "NETHER_BRIDGE_X",
+    "netherBridgeZ": "NETHER_BRIDGE_Z",
+    "netherFortStairs": "NETHER_FORT_STAIRS",
+    "netherHall": "NETHER_HALL",
+    "netherThrone": "NETHER_THRONE",
+    "netherTower": "NETHER_TOWER",
+    "netherWall": "NETHER_WALL",
+    "npcVillageButchersShop": "BUTCHERS_SHOP",
+    "npcVillageChurch": "CHURCH",
+    "npcVillageFarmlandLarge": "FARMLAND_LARGE",
+    "npcVillageFarmlandSmall": "FARMLAND_SMALL",
+    "npcVillageHut": "HUT",
+    "npcVillageLHouse": "L-HOUSE",
+    "npcVillageLibrary": "LIBRARY",
+    "npcVillageSmallHouse": "HOUSE_SMALL",
+    "npcVillageSmithy": "SMITHY",
+    "npcVillageTorch": "VILLAGE_TORCH",
+    "npcVillageWell": "WELL"
+  }
+}

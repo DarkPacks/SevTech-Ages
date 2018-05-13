@@ -1,0 +1,69 @@
+The main purpose of this file is to register new dimensions and set script configs 
+for them. It is also where WorldInfo scripts and BiomePrinters are set.
+
+
+
+setPortal:
+    Arguments:
+        byte, int, int, String
+    Usage:
+        portal ID, first dimension ID, second dimension ID, block ID
+    Notes:
+        Sets the portal of the provided id to be made of the provided block and travel between the two provided dimensions. Portal ID can be set to anything between -128 and 127
+
+addBiomePrinter:
+    Arguments:
+        int, int, int, int, int, int
+    Usage:
+        dimension ID, height, width, spacing, startX, startZ
+    Notes:
+        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother.
+
+addBiomePrinter:
+    Arguments:
+        int, int, int, int, int, int, boolean
+    Usage:
+        dimension ID, height, width, spacing, startX, startZ, overwrite
+    Notes:
+        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother if overwrite is set to true.
+
+setPortalIgniter:
+    Arguments:
+        String
+    Usage:
+        item ID
+    Notes:
+        Sets the portal igniter. This is the item that will be used to ignite any custom portals.
+
+addDimension:
+    Arguments:
+        int
+    Usage:
+        dimension ID
+    Notes:
+        Used to add a dimension with this id using the default overworld WorldProvider.
+
+setScriptForDimension:
+    Arguments:
+        int, String
+    Usage:
+        dimension ID, script name
+    Notes:
+        Sets the dimension script for the provided dimensionID. The script will be searched for in config/dimensionalcontrol/dimensions/.
+
+setGlobalWorldInfo:
+    Arguments:
+        String
+    Usage:
+        script name
+    Notes:
+        Sets the script to be used for global world info options.
+
+setWorldInfoForDimension:
+    Arguments:
+        String, int
+    Usage:
+        script name, dimension ID
+    Notes:
+        Sets the script to be used for the provided dimensions world info options.
+

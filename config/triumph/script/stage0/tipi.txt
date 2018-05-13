@@ -1,0 +1,15 @@
+setTitle("Out of the Weather")
+
+setIcon("totemic:tipi")
+
+setDescription("Need a place to sleep at home? Craft a Tipi!")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("totemic:tipi", 0)
+
+//Rewards
+setRewardExperience(4)

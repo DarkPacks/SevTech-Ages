@@ -1,0 +1,124 @@
+These are the functions which can be called on a DistanceData object.
+
+
+
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max distances on the X axis.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the Y axis.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max distances on the Z axis.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the Z axis.
+
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the X axis.
+
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the X axis.
+
+setYMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the Y axis.
+
+setYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max distances on the Y axis.
+
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the Z axis.
+
+setHorizontalMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the horizontal axis.
+
+setAbsoluteMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance for all directions combined.
+
+setAbsoluteMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance for all directions combined.
+
+setHorizontalMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the horizontal axis.
+
+setHorizontalMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max distances on the horizontal axis.
+
+setAbsoluteMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max distances for all directions combined.
+

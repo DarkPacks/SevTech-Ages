@@ -1,0 +1,22 @@
+setTitle("Shake, Rattle, and Roll")
+
+setIcon("totemic:drum")
+
+setDescription("Craft the Rattle, Flute, and Drum needed for Totemic Ceremonies. This advancement will give you a Totempedia. Consult the book for how to perform Totemic Ceremonies and other information")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("totemic:rattle")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("totemic:flute")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("totemic:drum")
+
+//Rewards
+setRewardItem("totemic:totempedia", 0, 1)
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("Star Power")
+
+setIcon("astralsorcery:itemcraftingcomponent", 2)
+
+setDescription("Stardust can be found when breaking Rock Crystal Samples, don't forget to mark your map because the samples will also indicate a vein of Rock Crystal Ore beneath! Once your Astral Sorcery infrastructure is complete you can begin making them")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemcraftingcomponent", 2)
+
+//Rewards
+setRewardExperience(8)

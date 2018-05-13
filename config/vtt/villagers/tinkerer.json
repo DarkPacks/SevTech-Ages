@@ -1,0 +1,10 @@
+{
+  "profession": {
+    "name": "vtt:tinkerer",
+    "texture": "vtt:textures/entity/villager/tinkerer.png",
+    "zombieTexture": "vtt:textures/entity/zombie_villager/zombie_tinkerer.png"
+  },
+  "careers": [
+    "tinkerer"
+  ]
+}

@@ -1,0 +1,15 @@
+setTitle("Par for the Quartz")
+
+setIcon("actuallyadditions:item_misc", 5)
+
+setDescription("Travel to the bottom of the Beneath dimension to find Black Quartz")
+
+setParent("triumph:stage1/beneath")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("actuallyadditions:item_misc", 5)
+
+//Rewards
+setRewardExperience(4)

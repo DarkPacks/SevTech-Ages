@@ -1,0 +1,15 @@
+setTitle("Silicon Ore")
+
+setIcon("galacticraftcore:basic_item", 2)
+
+setDescription("Find a surface sample and dig for Silicon! The ore is located between Y24 to 48")
+
+setParent("triumph:stage4/prospector4")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("galacticraftcore:basic_item", 2)
+
+//Rewards
+setRewardExperience(12)

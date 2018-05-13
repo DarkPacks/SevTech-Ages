@@ -1,0 +1,15 @@
+setTitle("Manyullyn")
+
+setIcon("tconstruct:metal", 2)
+
+setDescription("Combine Ardite and Cobalt in a Smeltery to create Manyullyn")
+
+setParent("triumph:stage4/cobalt")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:metal", 2)
+
+//Rewards
+setRewardExperience(12)

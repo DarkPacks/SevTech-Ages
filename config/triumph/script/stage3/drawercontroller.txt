@@ -1,0 +1,15 @@
+setTitle("Storage Drawer Controller")
+
+setIcon("storagedrawers:controller")
+
+setDescription("The Storage Drawer Controller allows you to turn your drawers into a network")
+
+setParent("triumph:stage3/workbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:controller")
+
+//Rewards
+setRewardExperience(8)

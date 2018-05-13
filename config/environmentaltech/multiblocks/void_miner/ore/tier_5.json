@@ -1,0 +1,238 @@
+{
+  "outputs": [
+    {
+      "target": "crystal",
+      "weight": 12,
+      "count": 1,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 10,
+      "count": 1,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 8,
+      "count": 1,
+      "id": "environmentaltech:kyronite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 6,
+      "count": 1,
+      "id": "environmentaltech:pladium_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 4,
+      "count": 1,
+      "id": "environmentaltech:ionite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 2,
+      "count": 1,
+      "id": "environmentaltech:aethium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 5,
+      "count": 1,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 64,
+      "count": 1,
+      "id": "OD:oreCoal"
+    },
+    {
+      "target": "white",
+      "weight": 48,
+      "count": 1,
+      "id": "geolosys:cluster"
+    },
+    {
+      "target": "white",
+      "weight": 32,
+      "count": 1,
+      "id": "OD:oreQuartz"
+    },
+    {
+      "target": "red",
+      "weight": 32,
+      "count": 1,
+      "id": "OD:oreRedstone"
+    },
+    {
+      "target": "blue",
+      "weight": 20,
+      "count": 1,
+      "id": "OD:oreLapis"
+    },
+    {
+      "target": "yellow",
+      "weight": 19,
+      "count": 1,
+      "id": "geolosys:cluster:1"
+    },
+    {
+      "target": "cyan",
+      "weight": 13,
+      "count": 1,
+      "id": "OD:oreDiamond"
+    },
+    {
+      "target": "lime",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreEmerald"
+    },
+    {
+      "target": "yellow",
+      "weight": 12,
+      "count": 1,
+      "id": "OD:glowstone"
+    },
+    {
+      "target": "orange",
+      "weight": 36,
+      "count": 1,
+      "id": "OD:oreCopper"
+    },
+    {
+      "target": "gray",
+      "weight": 36,
+      "count": 1,
+      "id": "OD:oreTin"
+    },
+    {
+      "target": "silver",
+      "weight": 22,
+      "count": 1,
+      "id": "OD:oreSilver"
+    },
+    {
+      "target": "purple",
+      "weight": 30,
+      "count": 1,
+      "id": "OD:oreLead"
+    },
+    {
+      "target": "white",
+      "weight": 26,
+      "count": 1,
+      "id": "OD:oreAluminum"
+    },
+    {
+      "target": "green",
+      "weight": 9,
+      "count": 1,
+      "id": "OD:oreUranium"
+    },
+    {
+      "target": "yellow",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreYellorite"
+    },
+    {
+      "target": "light_blue",
+      "weight": 12,
+      "count": 1,
+      "id": "OD:oreCertusQuartz"
+    },
+    {
+      "target": "brown",
+      "weight": 12,
+      "count": 1,
+      "id": "OD:oreCinnabar"
+    },
+    {
+      "target": "orange",
+      "weight": 12,
+      "count": 1,
+      "id": "OD:oreAmber"
+    },
+    {
+      "target": "gray",
+      "weight": 13,
+      "count": 1,
+      "id": "OD:oreNickel"
+    },
+    {
+      "target": "light_blue",
+      "weight": 9,
+      "count": 1,
+      "id": "OD:orePlatinum"
+    },
+    {
+      "target": "yellow",
+      "weight": 14,
+      "count": 1,
+      "id": "OD:oreSulfur"
+    },
+    {
+      "target": "white",
+      "weight": 14,
+      "count": 1,
+      "id": "OD:oreNiter"
+    },
+    {
+      "target": "red",
+      "weight": 7,
+      "count": 1,
+      "id": "OD:oreFirestone"
+    },
+    {
+      "target": "blue",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreCobalt"
+    },
+    {
+      "target": "orange",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreArdite"
+    },
+    {
+      "target": "black",
+      "weight": 12,
+      "count": 1,
+      "id": "OD:oreGraphite"
+    },
+    {
+      "target": "black",
+      "weight": 18,
+      "count": 1,
+      "id": "OD:oreQuartzBlack"
+    },
+    {
+      "target": "brown",
+      "weight": 9,
+      "count": 1,
+      "id": "OD:oreResonating"
+    },
+    {
+      "target": "silver",
+      "weight": 16,
+      "count": 1,
+      "id": "OD:oreOsmium"
+    },
+    {
+      "target": "white",
+      "weight": 7,
+      "count": 1,
+      "id": "OD:oreSalt"
+    },
+    {
+      "target": "white",
+      "weight": 8,
+      "count": 1,
+      "id": "rftools:dimensional_shard_ore"
+    }
+  ]
+}

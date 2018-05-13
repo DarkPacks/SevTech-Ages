@@ -1,0 +1,17 @@
+setTitle("Platinum Ore")
+
+setIcon("contenttweaker:material_part", 37)
+
+setDescription("Find a surface sample and dig for Platinum! The ore is located from Y3 to 25")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("geolosys:cluster", 8)
+
+//Rewards
+setRewardExperience(8)

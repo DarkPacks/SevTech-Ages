@@ -1,0 +1,15 @@
+setTitle("Bed Boys, Bed Boys")
+
+setIcon("cyclicmagic:sleeping_mat")
+
+setDescription("The Sleeping Mat will allow you to sleep on the go! Make sure to set the correct mode for whether or not you'd like to set your spawn while sleeping")
+
+setParent("triumph:stage0/leather")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:sleeping_mat")
+
+//Rewards
+setRewardExperience(4)

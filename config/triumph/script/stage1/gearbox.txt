@@ -1,0 +1,15 @@
+setTitle("Grinding Your Gears")
+
+setIcon("betterwithmods:wooden_gearbox")
+
+setDescription("The Gearbox allows you to extend the reach of your Mechanical Power, Shift+Right Click a side to move the input/outputs. A powered Axle must go into the side with a cross on it")
+
+setParent("triumph:stage1/waterwheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:wooden_gearbox")
+
+//Rewards
+setRewardExperience(4)

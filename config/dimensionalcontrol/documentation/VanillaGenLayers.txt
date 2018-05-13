@@ -1,0 +1,216 @@
+
+
+GenLayerIsland:
+    This is the base layer used by vanilla for the Overworld chain. It pseudo-randomly places ocean and plains on an approximately 9-1 ratio.
+    
+    Constructor:
+        Arguments:
+            long
+        Argument Usage:
+            layer base seed
+
+
+
+GenLayerFuzzyZoom:
+    Zooms the parent layer, effectively increasing its size. This version is more random than GenLayerZoom
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerAddIsland:
+    Pseudo-randomly adds islands. Can be made up of any biome ids already in the chain.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerZoom:
+    Zooms the parent layer, effectively increasing its size.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerRemoveTooMuchOcean:
+    Removes "excess" ocean biomes. If a biome position is ocean and all 4 biomes around it are ocean, the biome is changed to plains.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerAddSnow:
+    Part of the vanilla heat map generation. Responsible for adding cold/icy heat levels. Pseudo-randomly replaces biome ids other than 0 with id 4, 3 or 1.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerEdge:
+    Part of the vanilla heat map generation. Depending on which mode it's constructed with, does different things. Overall the point is making sure there are no heat ids surrounded by 
+    unacceptable heat ids. Such as hot being surrounded by icy.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer, GenLayerEdgeMode
+        Argument Usage:
+            layer base seed, parent layer, edge mode
+        Notes:
+            Mode options are automatically added as local variables under the names Edge_Mode_Cool_Warm, Edge_Mode_Heat_Ice and Edge_Mode_Special.
+
+
+
+GenLayerAddMushroomIsland:
+    Pseudo-randomly adds mushroom islands. If an ocean biome is surrounded by ocean, there is a 1/100 chance for it to be changed to a mushroom island.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerDeepOcean:
+    Adds deep ocean biomes. If an ocean biome is surrounded by ocean, it is changed to deep ocean.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerRiverInit:
+    Generates pseudo-random gibberish to be used for placing rivers and hills. No gibberish is generated for oceans.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerBiome:
+    Replaces the heat map from the parent layer with a pseudo-random weighted biome map.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer, WorldType, String
+        Argument Usage:
+            layer base seed, parent layer, world type object, generator string
+        Notes:
+            The WorldType object is automatically added as a local variable named worldType. The generator String is automatically added as a local variable named generatorString.
+
+
+
+GenLayerBiomeEdge:
+    Attempts to place acceptable biomes between unacceptable biomes. For instance, if desert and ice plains are touching, an extreme hills with trees is placed.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerHills:
+    Uses the initialization layer to pseudo-randomly place hill biomes and other biome mutations.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer, GenLayer
+        Argument Usage:
+            layer base seed, biome parent layer, hill/river initialization parent layer
+        Notes:
+            The first layer is the normal biome map, and the second is the hill/river initialization layer.
+
+
+
+GenLayerRiver:
+    Uses the initialization layer to create a river map.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, river initialization parent layer
+
+
+
+GenLayerSmooth:
+    Attempts to "smooth" things. I won't pretend to understand well enough to explain better.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerRareBiome:
+    Pseudo-randomly replaces plains biomes with mutated_plains biomes. Otherwise known as a sunflower plains. 1/57 chance.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerShore:
+    Adds shore biomes between ocean and land biomes.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+
+
+
+GenLayerRiverMix:
+    Combines the biome map and river map, adding river biomes depending on what biome it is.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer, GenLayer
+        Argument Usage:
+            layer base seed, biome map parent layer, river map parent layer
+
+
+
+GenLayerVoronoiZoom:
+    Zooms the parent layer, effectively increasing its size. This version creates the most extreme changes of all the zoom layers.
+    
+    Constructor:
+        Arguments:
+            long, GenLayer
+        Argument Usage:
+            layer base seed, parent layer
+

@@ -1,0 +1,15 @@
+setTitle("Rock, Paper, Crystals")
+
+setIcon("astralsorcery:itemrockcrystalsimple", 0)
+
+setDescription("Rock Crystals are important for Astral Sorcery progression, locate a Rock Crystal Sample on the surface and dig down to find the vein below Y10")
+
+setParent("triumph:stage2/starpowder")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemrockcrystalsimple", 0)
+
+//Rewards
+setRewardExperience(8)

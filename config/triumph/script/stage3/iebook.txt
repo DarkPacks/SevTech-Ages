@@ -1,0 +1,22 @@
+setTitle("Engineer Manual")
+
+setIcon("immersiveengineering:tool", 3)
+
+setDescription("The Immersive Engineering Manual is good. use it")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:tool", 3)
+
+//Rewards
+setRewardExperience(8)

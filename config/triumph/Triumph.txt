@@ -1,0 +1,7 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+forceReloadFunctions(true)
+keepAdvancements(["twilightforest", "thebetweenlands"])
+removeAdvancements([""])

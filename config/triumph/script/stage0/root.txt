@@ -1,0 +1,25 @@
+setTitle("SevTech: Ages Tutorial")
+
+setIcon("primal_tech:stone_club")
+
+setDescription("Welcome to SevTech: Ages! To complete the tutorial complete the advancement to craft a Work Stump to move into Age Zero")
+
+setBackground("minecraft:textures/blocks/cobblestone.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("enterDimension", "minecraft:changed_dimension")
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("killEntity", "minecraft:player_killed_entity")
+addCriteria("killedByEntity", "minecraft:entity_killed_player")
+addCriteria("location", "minecraft:location")
+
+//Rewards
+setRewardFunction("triumph:stage-tutorial_trigger")

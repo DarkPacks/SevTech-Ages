@@ -1,0 +1,15 @@
+setTitle("Emerald Dream")
+
+setIcon("minecraft:emerald", 0)
+
+setDescription("Locate Beryl Samples on the surface to find Emerald. The ore is located between Y4 - 32")
+
+setParent("triumph:stage5/prospectorstage5")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:emerald", 0)
+
+//Rewards
+setRewardExperience(15)

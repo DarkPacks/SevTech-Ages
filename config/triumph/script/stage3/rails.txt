@@ -1,0 +1,35 @@
+setTitle("Railways")
+
+setIcon("minecraft:rail")
+
+setDescription("Craft and use Rails to travel long distances quickly")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria0 = addCriteria("hasRock0", "minecraft:inventory_changed")
+criteria0.setItem("minecraft:rail")
+
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("minecraft:golden_rail")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("betterwithmods:booster")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("minecraft:detector_rail")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("minecraft:activator_rail")
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("tconstruct:wood_rail_trapdoor")
+
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6.setItem("tconstruct:wood_rail")
+
+//Rewards
+setRewardExperience(8)

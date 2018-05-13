@@ -1,0 +1,20 @@
+setTitle("Smelter Tank")
+
+setIcon("tcomplement:porcelain_tank")
+
+setDescription("Solid fuels only get you so far. Craft and place a Porcelain or Seared Tank beneath your melter to melt Iron and other materials needing higher temperatures. Note, you'll need to let the current fuel source run out or break/replace the melter to see the new temperature")
+
+setParent("triumph:stage2/iron")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_tank")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tconstruct:seared_tank")
+
+//Rewards
+setRewardExperience(8)

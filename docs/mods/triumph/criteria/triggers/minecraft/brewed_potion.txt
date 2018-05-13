@@ -1,0 +1,13 @@
+These are the functions which can be called on a minecraft:brewed_potion criteria 
+trigger.
+
+
+
+setPotionType:
+    Arguments:
+        String
+    Usage:
+        potion type
+    Notes:
+        Sets the potion type.
+

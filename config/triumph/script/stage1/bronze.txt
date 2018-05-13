@@ -1,0 +1,22 @@
+setTitle("Brains Over Bronze")
+
+setIcon("mekanism:ingot", 2)
+
+setDescription("Use the Alloy Kiln to produce Bronze Ingots")
+
+setParent("triumph:stage1/alloykiln")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mekanism:ingot", 2)
+
+//Rewards
+setRewardExperience(4)

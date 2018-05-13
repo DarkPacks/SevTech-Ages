@@ -1,0 +1,26 @@
+setTitle("Ace of Melter Base")
+
+setIcon("tcomplement:porcelain_melter", 8)
+
+setDescription("You don't have liquid fuel so try solid ones! Craft a Heater to get started. Note, you'll need to match the Melter and Heater types for them to work together. Porcelain will not match the seared version")
+
+setParent("triumph:stage0/flamehopper")
+setRequiresParent(true)
+
+setFrameType("Goal")
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_melter", 8)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tcomplement:melter", 8)
+
+//Rewards
+setRewardExperience(4)

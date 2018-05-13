@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "base:items/cluster",
+        "layer1": "base:items/cluster_overlay"
+    }
+}

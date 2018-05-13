@@ -1,0 +1,15 @@
+setTitle("Ultimate Prospector")
+
+setIcon("prospectors:prospector_best", 0)
+
+setDescription("Craft the Ultimate Prospector to search for all ore in the ground")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_best", 0)
+
+//Rewards
+setRewardExperience(15)

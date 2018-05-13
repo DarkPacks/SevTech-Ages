@@ -1,0 +1,15 @@
+setTitle("Emerald Jetpack")
+
+setIcon("ironjetpacks:emerald_jetpack")
+
+setDescription("Craft the Emerald Jetpack")
+
+setParent("triumph:stage5/diamondjetpack")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ironjetpacks:emerald_jetpack")
+
+//Rewards
+setRewardExperience(15)

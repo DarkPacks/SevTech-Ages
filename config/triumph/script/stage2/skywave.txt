@@ -1,0 +1,15 @@
+setTitle("Starlight Geolocation")
+
+setIcon("astralsorcery:itemskyresonator")
+
+setDescription("The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be completed. Craft and use the Fosic Resonator to locate an area in the world that is rich in starlight to craft with. You'll have a difficult time finding it during the daytime. It's best to wait until night")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemskyresonator")
+
+//Rewards
+setRewardExperience(8)

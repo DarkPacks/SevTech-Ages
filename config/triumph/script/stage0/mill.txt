@@ -1,0 +1,16 @@
+setTitle("Quit Millin' Around")
+
+setIcon("betterwithmods:single_machine")
+
+setDescription("It's Mill-er time. Craft the Millstone from Better With Mods")
+
+setParent("triumph:stage0/gear")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine")
+
+//Rewards
+setRewardExperience(4)
+setRewardItem("betterwithmods:manual", 0, 1)

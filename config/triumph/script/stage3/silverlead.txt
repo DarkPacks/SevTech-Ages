@@ -1,0 +1,19 @@
+setTitle("Galena Ore")
+
+setIcon("immersiveengineering:metal", 2)
+
+setDescription("Find a surface sample and dig for Galena which will give both Silver and Lead! The ore is located from Y16 to 50")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("geolosys:cluster", 4)
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("geolosys:cluster", 5)
+
+//Rewards
+setRewardExperience(8)

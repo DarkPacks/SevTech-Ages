@@ -1,0 +1,15 @@
+setTitle("The Nether Has Frozen Over")
+
+setIcon("nex:block_ice_frostburn")
+
+setDescription("Locate and enter the Arctic Abyss Biome")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_forest", "minecraft:location")
+criteria.setBiome("nex:arctic_abyss")
+
+//Rewards
+setRewardExperience(8)

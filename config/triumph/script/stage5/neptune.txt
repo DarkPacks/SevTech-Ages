@@ -1,0 +1,15 @@
+setTitle("The Neptunians")
+
+setIcon("tconstruct:edible", 1)
+
+setDescription("Launch a Rocket and land on Neptune. Collect Neptune Surface Rocks to complete the advancement")
+
+setParent("triumph:stage5/saturn")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:inventory_changed")
+criteria.setItem("extraplanets:neptune", 0)
+
+//Rewards
+setRewardExperience(15)

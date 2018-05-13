@@ -1,0 +1,15 @@
+setTitle("Galgadorian Metal")
+
+setIcon("stevescarts:modulecomponents", 49)
+
+setDescription("Collect an Enhanced Galgadorian Ingot to further upgrade your infrastructure")
+
+setParent("triumph:stage3/standardhull")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:modulecomponents", 49)
+
+//Rewards
+setRewardExperience(8)

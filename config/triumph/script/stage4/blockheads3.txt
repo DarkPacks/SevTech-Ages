@@ -1,0 +1,15 @@
+setTitle("Full Kitchen")
+
+setIcon("cookingforblockheads:cooking_table")
+
+setDescription("Cooking for Blockheads appliance blocks all act as a multiblock when placed next to each other. Craft and place the Cooking Table to get started. Then you can place the Oven, Fridge, Sink, and other items to gain more functionality")
+
+setParent("triumph:stage4/blockheads2")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:cooking_table")
+
+//Rewards
+setRewardExperience(12)

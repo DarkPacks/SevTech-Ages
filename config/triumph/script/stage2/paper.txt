@@ -1,0 +1,15 @@
+setTitle("Papers Please")
+
+setIcon("minecraft:paper")
+
+setDescription("Evolve your paper production technique by making Minecraft Paper")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:paper")
+
+//Rewards
+setRewardExperience(8)

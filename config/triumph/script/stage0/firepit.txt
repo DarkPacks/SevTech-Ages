@@ -1,0 +1,15 @@
+setTitle("Fire!")
+
+setIcon("progressiontweaks:fire_pit_unlit")
+
+setDescription("Use some rocks, twine, and sticks to make a fire pit. Use typical fuel items to light it and insert items to be cooked")
+
+setParent("triumph:stage0/fire")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("progressiontweaks:fire_pit_unlit")
+
+//Rewards
+setRewardExperience(4)

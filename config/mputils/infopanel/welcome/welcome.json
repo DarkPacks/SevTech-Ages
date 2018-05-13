@@ -1,0 +1,10 @@
+{
+  "loadOnLogin": true,
+  "mustRead": false,
+  "pages": [
+    {
+      "title": "Getting Started",
+      "file": "page_1"
+    }
+  ]
+}

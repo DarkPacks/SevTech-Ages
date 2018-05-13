@@ -1,0 +1,15 @@
+setTitle("Inscribing")
+
+setIcon("appliedenergistics2:inscriber")
+
+setDescription("Craft and connect the Inscriber to begin creating processors and other machines")
+
+setParent("triumph:stage4/certusquartz")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("appliedenergistics2:inscriber")
+
+//Rewards
+setRewardExperience(12)

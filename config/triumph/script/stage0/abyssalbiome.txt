@@ -1,0 +1,29 @@
+setTitle("Enter the Darklands")
+
+setIcon("abyssalcraft:necronomicon")
+
+setDescription("Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South")
+
+setParent("triumph:stage0/naturescompass")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("entered_forest", "minecraft:location")
+criteria1.setBiome("abyssalcraft:darklands")
+
+criteria2 = addCriteria("entered_forest2", "minecraft:location")
+criteria2.setBiome("abyssalcraft:darklands_forest")
+
+criteria3 = addCriteria("entered_forest3", "minecraft:location")
+criteria3.setBiome("abyssalcraft:darklands_plains")
+
+criteria4 = addCriteria("entered_forest4", "minecraft:location")
+criteria4.setBiome("abyssalcraft:darklands_hills")
+
+criteria5 = addCriteria("entered_forest5", "minecraft:location")
+criteria5.setBiome("abyssalcraft:darklands_mountains")
+
+//Rewards
+setRewardExperience(4)

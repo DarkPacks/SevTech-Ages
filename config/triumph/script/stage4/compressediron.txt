@@ -1,0 +1,15 @@
+setTitle("Pneumatic Iron Ingot")
+
+setIcon("pneumaticcraft:ingot_iron_compressed")
+
+setDescription("Create a Compressed Iron Ingot")
+
+setParent("triumph:stage4/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:ingot_iron_compressed")
+
+//Rewards
+setRewardExperience(12)

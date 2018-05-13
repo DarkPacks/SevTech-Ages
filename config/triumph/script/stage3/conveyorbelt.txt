@@ -1,0 +1,15 @@
+setTitle("Conveyor Belt")
+
+setIcon("immersiveengineering:conveyor", 0, {conveyorType: "immersiveengineering:uncontrolled"})
+
+setDescription("Immersive Engineering Conveyor Belts are great for item transport!")
+
+setParent("triumph:stage3/workbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:conveyor", 0, {conveyorType: "immersiveengineering:conveyor"})
+
+//Rewards
+setRewardExperience(8)

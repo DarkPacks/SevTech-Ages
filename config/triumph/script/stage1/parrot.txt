@@ -1,0 +1,15 @@
+setTitle("I Can't Find a Jungle?!")
+
+setIcon("minecraft:feather")
+
+setDescription("Consult the Necromicon Normal Rituals section to discover how to summon a Parrot and tame it using seeds to complete the Advancement. Or just go find a Jungle")
+
+setParent("triumph:stage1/statue")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("tamed_horse", "minecraft:tame_animal")
+criteria.setEntityType("minecraft:parrot")
+
+//Rewards
+setRewardExperience(8)

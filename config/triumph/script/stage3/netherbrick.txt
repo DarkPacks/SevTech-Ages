@@ -1,0 +1,15 @@
+setTitle("Nether Brick")
+
+setIcon("minecraft:netherbrick")
+
+setDescription("Place Nether Sludge in a Better With Mods Kiln to cook it into Nether Bricks. Consult the Book of Single on how to assemble the Kiln")
+
+setParent("triumph:stage3/potash")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:netherbrick")
+
+//Rewards
+setRewardExperience(8)

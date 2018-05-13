@@ -1,0 +1,102 @@
+{
+  "Profession": "minecraft:smith",
+  "Career": "weapon",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:rotten_flesh",
+          "Count": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        "sell": {
+          "id": "minecraft:wooden_sword",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:spider_eye",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:stone_sword",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:bone",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:wooden_axe",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:gunpowder",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:stone_axe",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:shark_tooth",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "pickletweaks:repair_kit",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "animalium:bear_claw",
+          "Count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        "sell": {
+          "id": "pickletweaks:repair_kit",
+          "Count": 1,
+          "Damage": 1
+        }
+      }
+    ]
+  }
+}

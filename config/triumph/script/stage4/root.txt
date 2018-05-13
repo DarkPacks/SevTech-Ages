@@ -1,0 +1,15 @@
+setTitle("Age 4")
+
+setIcon("industrialforegoing:plastic")
+
+setDescription("Welcome to the next age!")
+
+setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage3/plastic")

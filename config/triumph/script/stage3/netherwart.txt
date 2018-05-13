@@ -1,0 +1,15 @@
+setTitle("Nether Wart")
+
+setIcon("minecraft:nether_wart", 0)
+
+setDescription("Find and collect Nether Wart. It's most commonly found in Nether Fortresses")
+
+setParent("triumph:stage3/netherexbiome")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:nether_wart", 0)
+
+//Rewards
+setRewardExperience(8)

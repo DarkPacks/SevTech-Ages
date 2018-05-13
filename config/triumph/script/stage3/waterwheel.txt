@@ -1,0 +1,15 @@
+setTitle("Water Wheel")
+
+setIcon("immersiveengineering:wooden_device1")
+
+setDescription("A Waterwheel connected to a Kinetic Dynamo will provide power when spun by flowing water")
+
+setParent("triumph:stage3/creosote")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device1", 0)
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,22 @@
+setTitle("Spooky Boss Battle")
+
+setIcon("totemic:baykok_bow")
+
+setDescription("Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow and unlock ranged combat early")
+
+setParent("triumph:stage0/buffalo")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("totemic:baykok")
+
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("totemic:baykok_bow")
+
+//Rewards
+setRewardExperience(16)
+setRewardFunction("triumph:prestige_add_100")
+setRewardFunction("triumph:baykok_trigger")

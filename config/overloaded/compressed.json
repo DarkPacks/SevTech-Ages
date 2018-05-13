@@ -1,0 +1,20 @@
+[
+  {
+    "baseRegistryName": "minecraft:cobblestone",
+    "compressedPathRegistryName": "compressed_cobblestone",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/cobblestone.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  },
+  {
+    "baseRegistryName": "minecraft:obsidian",
+    "compressedPathRegistryName": "compressed_obsidian",
+    "meta": 0,
+    "texturePath": "minecraft:textures/blocks/obsidian.png",
+    "depth": 16,
+    "hardnessMultiplier": 9.0,
+    "recipeEnabled": true
+  }
+]

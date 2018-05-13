@@ -1,0 +1,15 @@
+setTitle("Cook It Up")
+
+setIcon("primal_tech:clay_kiln")
+
+setDescription("Use Clay Balls and a Cobblestone Slab to craft a Kiln. Once placed, you'll need to fire the kiln using a heat source below. Once it's fired it can cook items")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:clay_kiln")
+
+//Rewards
+setRewardExperience(4)

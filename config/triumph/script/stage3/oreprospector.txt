@@ -1,0 +1,15 @@
+setTitle("Ore Prospector")
+
+setIcon("prospectors:prospector_med")
+
+setDescription("Craft an Ore Prospector to locate ore in Age 3")
+
+setParent("triumph:stage3/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_med")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,49 @@
+These are the functions which can be called on a minecraft:nether_travel criteria 
+trigger.
+
+
+
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+setEnteredBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the entered location. Can be an int or String.
+
+setExitedFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id for the exited location. Used for things like structures.
+
+getExitedData:
+    Notes:
+        Returns the LocationData object for the exited location so functions can be called on it.
+
+getEnteredData:
+    Notes:
+        Returns the LocationData object for the entered location so functions can be called on it.
+
+setExitedBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id for the exited location. Can be an int or String.
+
+setEnteredFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id for the entered location. Used for things like structures.
+

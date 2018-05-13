@@ -1,0 +1,15 @@
+setTitle("Don't Saddle For Anything Less")
+
+setIcon("minecraft:saddle")
+
+setDescription("Gotta Go Fast! Use a Saddle to travel around much faster")
+
+setParent("triumph:stage0/lead")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:saddle")
+
+//Rewards
+setRewardExperience(4)

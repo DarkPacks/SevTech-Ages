@@ -1,0 +1,16 @@
+setTitle("Creative Modifier")
+
+setIcon("tconstruct:materials", 50)
+
+setDescription("Craft the Creative Modifier from Tinker's Construct")
+
+setParent("triumph:stage5/ultimateingot")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:materials", 50)
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")

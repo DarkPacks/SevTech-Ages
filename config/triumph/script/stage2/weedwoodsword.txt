@@ -1,0 +1,15 @@
+setTitle("The Betweenlands")
+
+setIcon("thebetweenlands:weedwood_sword")
+
+setDescription("Tools brought into the Betweenlands from other dimensions will not be effective. You'll need to craft new tools and weapons to progress. Note, This advancement specifically requires you to craft a Weedwood Sword to complete")
+
+setParent("triumph:stage2/betweenlands")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("thebetweenlands:weedwood_sword")
+
+//Rewards
+setRewardExperience(8)
+setRewardItem("thebetweenlands:rotten_food", 0, 16)

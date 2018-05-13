@@ -1,0 +1,26 @@
+setTitle("Prospecting")
+
+setIcon("prospectors:prospector_lowest")
+
+setDescription("Craft a Weak Dowsing Rod to help you locate ore")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_lowest", 0)
+
+//Rewards
+setRewardExperience(4)
+setRewardItem("geolosys:field_manual", 0, 1)
+
+//Rewards
+setRewardExperience(4)

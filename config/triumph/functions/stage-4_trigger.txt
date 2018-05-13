@@ -1,0 +1,7 @@
+gamestage remove @p three_mob
+gamestage add @p four_mob
+gamestage add @p four
+summon minecraft:fireworks_rocket ~ ~ ~
+mpa notify @p stage_four
+
+give Sevadus sev_tweaks_npc:golden_ladder_of_ascension

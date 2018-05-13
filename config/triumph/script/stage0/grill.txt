@@ -1,0 +1,15 @@
+setTitle("§4§lHot Grill!")
+
+setIcon("primal_tech:stone_grill")
+
+setDescription("Upgrade your firepit with something a bit more grate. The grill needs a heatsource below it such as a fire to properly cook")
+
+setParent("triumph:stage0/firepit")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:stone_grill")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,9 @@
+{
+  "modid": "horsepower",
+  "foods": {
+    "INGREDIENTS": [
+      "dough",
+      "flour"
+    ]
+  }
+}

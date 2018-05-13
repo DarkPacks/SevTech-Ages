@@ -1,0 +1,15 @@
+setTitle("Pressing Your Luck")
+
+setIcon("horsepower:press")
+
+setDescription("Press charcoal into a larger block using the Horse Power Press")
+
+setParent("triumph:stage0/horsechopper")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("charcoalblock:charcoal_block")
+
+//Rewards
+setRewardExperience(4)

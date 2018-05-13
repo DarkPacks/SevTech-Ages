@@ -1,0 +1,16 @@
+The role of a BlockReplacement is to handle all instances where you need to replace 
+one block with another. For instance, it can be used to raise or lower the water 
+height, replace oceans with lava, replace leaves with diamond blocks, etc. The key 
+is using the correct GenerationPoint, so that the replacement is done at the right 
+time during generation.
+
+
+
+addGenerationPoint:
+    Arguments:
+        String
+    Usage:
+        Generation_Point_ID
+    Notes:
+        Adds a generation point for this block replacement to be run at. Options in order of first to last occurance in generation are: "BIOME_BLOCK_REPLACEMENT", "POPULATE_CHUNK_PRE", "DECORATE_CHUNK_PRE", "DECORATE_CHUNK_POST", "POPULATE_CHUNK_POST", "WORLD_GENERATOR_FIRST", "WORLD_GENERATOR_LAST"
+

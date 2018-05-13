@@ -1,0 +1,15 @@
+setTitle("Nether Amethyst Ore")
+
+setIcon("nex:item_crystal_amethyst")
+
+setDescription("A rare gem found in the Nether. Can be located using the Age 3 and above Prospectors")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("nex:item_crystal_amethyst", 0)
+
+//Rewards
+setRewardExperience(8)

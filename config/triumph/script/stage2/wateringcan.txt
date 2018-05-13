@@ -1,0 +1,15 @@
+setTitle("Fast Farm")
+
+setIcon("pickletweaks:watering_can")
+
+setDescription("If you're tired of waiting for crops to grow craft a Watering Can")
+
+setParent("triumph:stage2/smeltertank")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pickletweaks:watering_can")
+
+//Rewards
+setRewardExperience(8)

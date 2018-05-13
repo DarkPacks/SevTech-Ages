@@ -1,0 +1,15 @@
+setTitle("The Rings of Saturn")
+
+setIcon("actuallyadditions:item_misc", 6)
+
+setDescription("Launch a Rocket to Saturn... and land on it... yes. Collect Saturn Surface Rocks to complete the advancement")
+
+setParent("triumph:stage5/mars")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_nether", "minecraft:inventory_changed")
+criteria.setItem("extraplanets:saturn", 0)
+
+//Rewards
+setRewardExperience(15)

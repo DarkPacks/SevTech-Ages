@@ -1,0 +1,15 @@
+setTitle("Flint Sharpening")
+
+setIcon("minecraft:flint")
+
+setDescription("Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point")
+
+setParent("triumph:stage0/mesh")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:flint_knapp")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "data": {
+    "TEST": [
+      "antiqueatlas:textures/gui/tiles/test.png",
+      "antiqueatlas:textures/gui/tiles/test.png"
+    ]
+  }
+}

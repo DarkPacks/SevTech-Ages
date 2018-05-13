@@ -1,0 +1,15 @@
+setTitle("Locate and mine coal")
+
+setIcon("minecraft:coal")
+
+setDescription("Find a surface sample and dig for coal! It's Located between Y28 to 70")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:coal", 0)
+
+//Rewards
+setRewardExperience(4)

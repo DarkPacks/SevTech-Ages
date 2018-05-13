@@ -1,0 +1,15 @@
+setTitle("Fibrous Diet")
+
+setIcon("primal:plant_fiber")
+
+setDescription("To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine. Sticks can be found on the floor or by trimming some leaves.")
+
+setParent("triumph:stage0/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:plant_fiber")
+
+//Rewards
+setRewardExperience(4)

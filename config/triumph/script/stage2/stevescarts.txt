@@ -1,0 +1,23 @@
+setTitle("Train-ing with Coal")
+
+setIcon("stevescarts:cartmodule", 0)
+
+setDescription("You have discovered the power of combustion! Craft a Coal Engine")
+
+setParent("triumph:stage2/piston")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 0)
+
+//Rewards
+setRewardExperience(8)
+setRewardFunction("triumph:stage-3_trigger")

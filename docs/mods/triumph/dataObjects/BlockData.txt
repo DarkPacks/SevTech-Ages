@@ -1,0 +1,28 @@
+These are the functions which can be called on a BlockData object.
+
+
+
+setBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the required block. This counts for any meta.
+
+setBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the required block with the provided meta.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary.
+

@@ -1,0 +1,15 @@
+setTitle("Bauxite Ore")
+
+setIcon("immersiveengineering:metal", 1)
+
+setDescription("Find a surface sample and dig for Bauxite! The ore is Located from Y45 to 70")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("geolosys:cluster", 6)
+
+//Rewards
+setRewardExperience(8)

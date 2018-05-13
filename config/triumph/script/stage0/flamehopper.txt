@@ -1,0 +1,22 @@
+setTitle("Flame Grilled Goodness")
+
+setIcon("primal_tech:charcoal_hopper")
+
+setDescription("A hopper that moves items and keeps blocks above it hot")
+
+setParent("triumph:stage0/woodhopper2")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:charcoal_hopper")
+
+//Rewards
+setRewardExperience(4)

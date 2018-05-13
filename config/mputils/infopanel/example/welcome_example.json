@@ -1,0 +1,18 @@
+{
+  "loadOnLogin": false,
+  "mustRead": false,
+  "pages": [
+    {
+      "title": "Getting Started",
+      "file": "page1"
+    },
+    {
+      "title": "Extra Pages",
+      "file": "page2"
+    },
+    {
+      "title": "Welcome Page 3",
+      "file": "page3"
+    }
+  ]
+}

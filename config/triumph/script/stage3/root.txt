@@ -1,0 +1,15 @@
+setTitle("Age 3")
+
+setIcon("rustic:iron_lantern")
+
+setDescription("Welcome to the next age!")
+
+setBackground("minecraft:textures/blocks/soul_sand.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage2/stevescarts")

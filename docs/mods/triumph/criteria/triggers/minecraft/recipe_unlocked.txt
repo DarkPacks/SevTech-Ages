@@ -1,0 +1,12 @@
+These are the functions which can be called on a minecraft:recipe_unlocked trigger.
+
+
+
+setRecipe:
+    Arguments:
+        String
+    Usage:
+        recipe name
+    Notes:
+        Sets the required recipe. You should be able to get the recipe name from NEI or JEI.
+

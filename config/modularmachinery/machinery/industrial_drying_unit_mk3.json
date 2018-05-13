@@ -1,0 +1,207 @@
+{
+  "registryname": "industrial_drying_unit_mk3",
+  "localizedname": "Industrial Drying Unit Mk3",
+  "color": "916FB3",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "chisel:technical@14"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@1"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "tconstruct:metal@2"
+      ]
+    }
+  ]
+}

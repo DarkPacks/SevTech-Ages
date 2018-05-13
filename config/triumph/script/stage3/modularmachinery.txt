@@ -1,0 +1,15 @@
+setTitle("Modularity")
+
+setIcon("modularmachinery:blockcontroller")
+
+setDescription("The Modular Machinery Controller is the main block needed in every M.M. Machine. Check the Blueprint recipes for how to build each structure")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("modularmachinery:blockcontroller")
+
+//Rewards
+setRewardExperience(8)

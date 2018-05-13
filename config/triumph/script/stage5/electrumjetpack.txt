@@ -1,0 +1,15 @@
+setTitle("Electrum Jetpack")
+
+setIcon("ironjetpacks:electrum_jetpack")
+
+setDescription("Craft the Electrum Jetpack")
+
+setParent("triumph:stage5/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ironjetpacks:electrum_jetpack")
+
+//Rewards
+setRewardExperience(15)

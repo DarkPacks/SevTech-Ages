@@ -1,0 +1,76 @@
+{
+  "crops": [
+ {
+    "initialBlock": {
+      "blockName": "minecraft:wheat",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "minecraft:wheat",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "natura:cotton_crop",
+      "meta": 4
+    },
+    "finalBlock": {
+      "blockName": "natura:cotton_crop",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "betterwithaddons:crop_rice",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "betterwithaddons:crop_rice",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:carrots",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "minecraft:carrots",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:potatoes",
+      "meta": 7
+    },
+    "finalBlock": {
+      "blockName": "minecraft:potatoes",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:beetroots",
+      "meta": 3
+    },
+    "finalBlock": {
+      "blockName": "minecraft:beetroots",
+      "meta": 0
+    }
+  },
+  {
+    "initialBlock": {
+      "blockName": "minecraft:nether_wart",
+      "meta": 3
+    },
+    "finalBlock": {
+      "blockName": "minecraft:nether_wart",
+      "meta": 0
+    }
+
+    }
+  ],
+  "exhaustionPerHarvest": 0.005
+}

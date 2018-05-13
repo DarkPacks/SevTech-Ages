@@ -1,0 +1,17 @@
+setTitle("Roses are Red, Lapis is Blue")
+
+setIcon("minecraft:dye", 4)
+
+setDescription("Find a surface sample and dig for Lapis! The ore is located between Y10 - Y38")
+
+setParent("triumph:stage2/dowsingrod")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("brokeLog", "triumph:player_break_block")
+criteria.setBlock("geolosys:ore_vanilla", 3)
+
+//Rewards
+setRewardExperience(8)

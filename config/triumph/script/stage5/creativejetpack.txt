@@ -1,0 +1,16 @@
+setTitle("Creative Jetpack")
+
+setIcon("ironjetpacks:creative_jetpack")
+
+setDescription("Craft the Creative Jetpack")
+
+setParent("triumph:stage5/ultimateingot")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ironjetpacks:creative_jetpack")
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")

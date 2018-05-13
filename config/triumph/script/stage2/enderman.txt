@@ -1,0 +1,29 @@
+setTitle("Defeat the Endermenace!")
+
+setIcon("appliedenergistics2:material", 46)
+
+setDescription("Endermen have begun spawning in the world, slay them to obtain their Ender Dust")
+
+setParent("triumph:stage2/conpaper")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("killed_spider1", "minecraft:player_killed_entity")
+criteria1.setEntityType("minecraft:enderman")
+
+criteria2 = addCriteria("killed_spider2", "minecraft:player_killed_entity")
+criteria2.setEntityType("minecraft:endermite")
+
+criteria3 = addCriteria("killed_spider3", "minecraft:player_killed_entity")
+criteria3.setEntityType("emberroot:enderminy")
+
+criteria4 = addCriteria("killed_spider4", "minecraft:player_killed_entity")
+criteria4.setEntityType("enderutilities:endermanfighter")
+
+criteria5 = addCriteria("killed_spider5", "minecraft:player_killed_entity")
+criteria5.setEntityType("galacticraftcore:evolved_enderman")
+
+//Rewards
+setRewardExperience(8)

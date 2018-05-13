@@ -1,0 +1,15 @@
+setTitle("Moving on Up!")
+
+setIcon("cookingforblockheads:recipe_book", 2)
+
+setDescription("Use the Cooking for Blockheads Book II to craft available recipes from your inventory or as a crafting material for appliances")
+
+setParent("triumph:stage4/blockheads1")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cookingforblockheads:recipe_book", 2)
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,24 @@
+setTitle("Plasticity")
+
+setIcon("industrialforegoing:plastic")
+
+setDescription("The Plastic Molder from Modular Machinery will convert Liquid Plastic into Plastic Sheets useable for a number of new recipes")
+
+setParent("triumph:stage3/liquidplastic")
+setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("industrialforegoing:plastic")
+
+//Rewards
+setRewardExperience(16)
+setRewardFunction("triumph:stage-4_trigger")
+setRewardFunction("triumph:advanced_mapping")

@@ -1,0 +1,28 @@
+setTitle("Let's Get Down and Melty")
+
+setIcon("tcomplement:porcelain_melter")
+
+setDescription("Craft a Melter to begin smelting down ores. It will need the matching heater below to work properly")
+
+setParent("triumph:stage0/melterbase")
+setRequiresParent(true)
+
+setRequirements("any")
+setFrameType("Challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("tcomplement:porcelain_melter", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("tcomplement:melter", 0)
+
+//Rewards
+setRewardExperience(4)
+setRewardFunction("triumph:stage-1_trigger")
+setRewardItem("tconstruct:book", 0, 1)

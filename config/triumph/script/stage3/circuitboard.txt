@@ -1,0 +1,22 @@
+setTitle("I'm Board")
+
+setIcon("immersiveengineering:material", 27)
+
+setDescription("Use the Engineer's Workbench to craft a Circuit Board")
+
+setParent("triumph:stage3/vacuumtube")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:material", 27)
+
+//Rewards
+setRewardExperience(8)

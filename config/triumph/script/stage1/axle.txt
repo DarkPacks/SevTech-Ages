@@ -1,0 +1,15 @@
+setTitle("Axle F")
+
+setIcon("betterwithmods:wooden_axle")
+
+setDescription("Mechanical Power needs to be routed using an Axle. You can connect them directly to Waterwheels and Wind Mills or Gearboxes. You can have no more than 3 Axles between each Gearbox or Source")
+
+setParent("triumph:stage1/blackquartz")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:wooden_axle")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,17 @@
+setTitle("Inferium Essence")
+
+setIcon("mysticalagriculture:crafting")
+
+setDescription("Inferium Essence is an important item to begin Mystical Agriculture. Create it using items from a number of location")
+
+setParent("triumph:stage5/saturn")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("mysticalagriculture:crafting")
+
+//Rewards
+setRewardExperience(15)

@@ -1,0 +1,15 @@
+setTitle("Free Range Hawks")
+
+setIcon("progressiontweaks:tomahawk")
+
+setDescription("Craft a Tomahawk to use a ranged weapon. Note, the recipe needs 1 Flaked Flint Point")
+
+setParent("triumph:stage0/weaponize")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("progressiontweaks:tomahawk")
+
+//Rewards
+setRewardExperience(4)

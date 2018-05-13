@@ -1,0 +1,21 @@
+# editorconfig.org
+root = true
+
+[*]
+indent_style = tab
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Some need special encoding for coloring
+[!config/**]
+charset = utf-8
+
+# Since final_newline causes changes every time the mod re-runs over it
+[config/**]
+indent_style = space
+indent_size = 4
+insert_final_newline = false
+
+[*.md]
+trim_trailing_whitespace = false

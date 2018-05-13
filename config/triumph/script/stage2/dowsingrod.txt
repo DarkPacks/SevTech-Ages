@@ -1,0 +1,15 @@
+setTitle("Upgrade Your Prospects")
+
+setIcon("prospectors:prospector_low")
+
+setDescription("Craft Tough Dowsing Rod to help locate a larger variety of ores. You can use it to find ore within 48 blocks of where you click")
+
+setParent("triumph:stage2/glass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("prospectors:prospector_low")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("Into The Depths")
+
+setIcon("infoaccessories:info_accessory", 2)
+
+setDescription("Craft a Depth Meter to better monitor your Y level")
+
+setParent("triumph:stage2/compass")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("infoaccessories:info_accessory", 2)
+
+//Rewards
+setRewardExperience(8)

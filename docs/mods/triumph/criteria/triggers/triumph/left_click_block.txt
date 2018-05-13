@@ -1,0 +1,161 @@
+These are the functions which can be called on a triumph:left_click_block criteria 
+trigger. This criteria is triggered by a player left clicking a block.
+
+
+
+getBlock:
+    Notes:
+        Returns the BlockData object so functions can be called on it.
+
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the required block. This counts for any meta.
+
+setBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the required block with the provided meta.
+
+getItemData:
+    Notes:
+        Returns the ItemData object so functions can be called on it.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setItem:
+    Arguments:
+        String
+    Usage:
+        item name
+    Notes:
+        Sets the required item. This counts for any meta.
+
+setItem:
+    Arguments:
+        String, Integer, String
+    Usage:
+        item name, meta, nbt
+    Notes:
+        Sets the required item with the provided item name, meta and nbt.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the required item with the provided meta.
+
+setBlockOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the trigger.
+
+setItemOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the item ore dictionary for the trigger.
+
+setHitZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate for the interaction location on the block.
+
+setHitZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate for the interaction location on the block.
+
+setHitXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates for the interaction location on the block.
+
+setHitYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate for the interaction location on the block.
+
+setHitXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate for the interaction location on the block.
+
+setHitXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max X coordinate for the interaction location on the block.
+
+setHitYMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Y coordinate for the interaction location on the block.
+
+setHitZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates for the interaction location on the block.
+
+setHitYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Y coordinates for the interaction location on the block.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+

@@ -1,0 +1,22 @@
+setTitle("On the Chopping Block")
+
+setIcon("horsepower:chopping_block")
+
+setDescription("Use a log to craft a Chopping Block. Place a Log or Plank on the chopping block and use an Axe to cut it into Planks or Sticks")
+
+setParent("triumph:stage0/firstbreak")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("horsepower:chopping_block")
+
+//Rewards
+setRewardExperience(4)

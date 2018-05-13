@@ -1,0 +1,15 @@
+setTitle("Cobalt")
+
+setIcon("tconstruct:ore", 0)
+
+setDescription("Locate and mine Cobalt, found throughout the Nether")
+
+setParent("triumph:stage4/ardite")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:ore", 0)
+
+//Rewards
+setRewardExperience(12)

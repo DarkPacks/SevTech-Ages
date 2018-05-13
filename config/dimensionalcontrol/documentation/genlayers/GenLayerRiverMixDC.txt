@@ -1,0 +1,21 @@
+A configurable version of the vanilla GenLayerRiverMix. Uses a biome map and a river 
+map layer to set configurable river biomes for biomes.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer, GenLayer
+    Argument Usage:
+        base layer seed, biome map parent layer, river map layer
+    Notes:
+        Constructs the layer, setting the base layer seed and parent layers.
+
+setRiverBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        biome ID, river biome ID
+    Notes:
+        Sets the river biome for the provided biomeID.
+

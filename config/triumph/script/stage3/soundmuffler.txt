@@ -1,0 +1,15 @@
+setTitle("Sound Muffler")
+
+setIcon("supersoundmuffler:sound_muffler")
+
+setDescription("Loud noises driving you crazy? Place down a Super Sound Muffler and configure it to mute the sounds you don't want to hear any more")
+
+setParent("triumph:stage3/redstone")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("supersoundmuffler:sound_muffler")
+
+//Rewards
+setRewardExperience(8)

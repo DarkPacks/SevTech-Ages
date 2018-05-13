@@ -1,0 +1,15 @@
+setTitle("Printed Circuit Board")
+
+setIcon("pneumaticcraft:printed_circuit_board")
+
+setDescription("Using your Pneumaticraft setup, create a Printed Circuit Board")
+
+setParent("triumph:stage4/compressediron")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:printed_circuit_board")
+
+//Rewards
+setRewardExperience(12)

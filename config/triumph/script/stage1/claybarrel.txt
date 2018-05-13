@@ -1,0 +1,15 @@
+setTitle("Bottom of the Barrel")
+
+setIcon("ceramics:clay_barrel")
+
+setDescription("Clay barrels can hold fluids, such as water or liquid metals")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ceramics:clay_barrel", 0)
+
+//Rewards
+setRewardExperience(4)

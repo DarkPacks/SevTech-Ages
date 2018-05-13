@@ -1,0 +1,16 @@
+setTitle("Creative Air Compressor")
+
+setIcon("pneumaticcraft:creative_compressor")
+
+setDescription("Craft the Creative Air Compressor from Pneumaticraft")
+
+setParent("triumph:stage5/ultimateingot")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("pneumaticcraft:creative_compressor")
+
+//Rewards
+setRewardExperience(30)
+setRewardFunction("triumph:prestige_add_200")

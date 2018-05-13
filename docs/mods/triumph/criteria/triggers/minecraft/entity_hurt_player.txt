@@ -1,0 +1,8 @@
+These are the functions which can be called on a minecraft:entity_hurt_player trigger.
+
+
+
+getDamageData:
+    Notes:
+        Returns the DamageData object so functions can be called on it.
+

@@ -1,0 +1,81 @@
+{
+  "Profession": "minecraft:smith",
+  "Career": "tool",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:bolt",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "primal:quartz_workblade",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:shark_tooth",
+          "Count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        "sell": {
+          "id": "chisel:chisel_iron",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "abyssalcraft:coralium",
+          "Count": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        "sell": {
+          "id": "chisel:chisel_iron",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "mekanism:ingot",
+          "Count": {
+            "min": 1,
+            "max": 3
+          },
+          "Damage": 6
+        },
+        "sell": {
+          "id": "chisel:chisel_iron",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    ]
+  }
+}

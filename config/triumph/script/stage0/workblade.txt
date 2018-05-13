@@ -1,0 +1,15 @@
+setTitle("Working for the Weekend")
+
+setIcon("primal:flint_workblade")
+
+setDescription("If you want to work, you'll need a work blade. Among many other uses, you may use it to break leaves and rushes quickly")
+
+setParent("triumph:stage0/upgrade")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:flint_workblade")
+
+//Rewards
+setRewardExperience(4)

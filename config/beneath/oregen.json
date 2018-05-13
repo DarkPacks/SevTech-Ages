@@ -1,0 +1,32 @@
+[
+  {
+    "ore": "contenttweaker:sub_block_holder_0",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 12,
+    "miny": 150,
+    "maxy": 246
+  },
+  {
+    "ore": "actuallyadditions:block_misc",
+    "oremeta": 3,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 6,
+    "miny": 2,
+    "maxy": 100
+  },
+  {
+    "ore": "minecraft:monster_egg",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 24,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  }
+]

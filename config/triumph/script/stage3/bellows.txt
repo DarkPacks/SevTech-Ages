@@ -1,0 +1,15 @@
+setTitle("Bellows")
+
+setIcon("betterwithmods:bellows")
+
+setDescription("Craft and mechanically power the Bellows to Stoke your Better With Mods Hibachi Fire")
+
+setParent("triumph:stage3/hibachi")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:bellows")
+
+//Rewards
+setRewardExperience(8)

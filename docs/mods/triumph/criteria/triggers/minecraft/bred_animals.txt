@@ -1,0 +1,41 @@
+These are the functions which can be called on a minecraft:bred_animals criteria 
+trigger.
+
+
+
+getChildData:
+    Notes:
+        Returns the EntityData object for the child so functions can be called on it.
+
+setPartnerType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the partner entity type.
+
+setChildType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the child entity type.
+
+getParentData:
+    Notes:
+        Returns the EntityData object for the parent so functions can be called on it.
+
+getPartnerData:
+    Notes:
+        Returns the EntityData object for the partner so functions can be called on it.
+
+setParentType:
+    Arguments:
+        String
+    Usage:
+        entity type
+    Notes:
+        Sets the parent entity type.
+

@@ -1,0 +1,15 @@
+setTitle("Elite Crafting Table")
+
+setIcon("extendedcrafting:table_elite")
+
+setDescription("Some recipes need more space. Craft an Elite Crafting Table to begin")
+
+setParent("triumph:stage4/manyullyn")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:table_elite")
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,15 @@
+A layer used to combine two parent layers using a whitelist. If the biome from the 
+first parent is in the whitelist, it's used, otherwise the biome from the second 
+parent is used. This is useful for doing things like combining a heat map and a terrain 
+map.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer, GenLayer, Non_Null_Biome_ID_Array
+    Argument Usage:
+        base layer seed, first parent layer, second parent layer, whitelist
+    Notes:
+        Constructs the layer with its seed, parent layers and whitelist.
+

@@ -1,0 +1,26 @@
+setTitle("Bigger, Better, Faster")
+
+setIcon("galacticraftplanets:rocket_t2")
+
+setDescription("Build a Tier 2 Rocket to further your exploration range")
+
+setParent("triumph:stage5/spawnerseeker")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("galacticraftplanets:rocket_t2")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("galacticraftplanets:rocket_t2", 1)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("galacticraftplanets:rocket_t2", 2)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("galacticraftplanets:rocket_t2", 3)
+
+//Rewards
+setRewardExperience(15)

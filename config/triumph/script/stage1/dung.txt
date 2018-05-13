@@ -1,0 +1,20 @@
+setTitle("Pipe Me Up Inside")
+
+setIcon("dungpipe:dung_pipe")
+
+setDescription("Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block")
+
+setParent("triumph:stage1/claybarrel")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("placedDirt1", "minecraft:placed_block")
+criteria1.setBlock("dungpipe:dung_pipe")
+
+criteria2 = addCriteria("placedDirt2", "minecraft:placed_block")
+criteria2.setBlock("dungpipe:sewer_pipe")
+
+//Rewards
+setRewardExperience(4)

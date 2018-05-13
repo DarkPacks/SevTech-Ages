@@ -1,0 +1,163 @@
+{
+  "Profession": "minecraft:butcher",
+  "Career": "butcher",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "abyssalcraft:stone",
+          "Count": {
+            "min": 16,
+            "max": 24
+          },
+          "Damage": 7
+        },
+        "sell": {
+          "id": "abyssalcraft:shoggothflesh",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:bone",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:porkchop",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:carrot",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:beef",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:red_mushroom",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:rabbit",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:reeds",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:mutton",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:apple",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:chicken",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:dye",
+          "Count": {
+            "min": 1,
+            "max": 3
+          },
+          "Damage": 3
+        },
+        "sell": {
+          "id": "animalium:rat_meat",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:egg",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "totemic:buffalo_meat",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:salt_dust_netjry",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "animalium:bear_meat",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:fish",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "primal:shark_meat_raw",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

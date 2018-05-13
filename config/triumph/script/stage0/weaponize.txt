@@ -1,0 +1,15 @@
+setTitle("It's Business Time")
+
+setIcon("primal:sharp_bone")
+
+setDescription("Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone")
+
+setParent("triumph:stage0/firsttool")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:sharp_bone")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,33 @@
+setTitle("A Place to Put My Stuff")
+
+setIcon("immcraft:chest")
+
+setDescription("Craft some wood together to make a chest for your things")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("immcraft:chest")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("immcraft:cupboard")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("immcraft:shelf")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("immcraft:bookshelf")
+
+//Rewards
+setRewardExperience(4)

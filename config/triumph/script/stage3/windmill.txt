@@ -1,0 +1,15 @@
+setTitle("Windmill!")
+
+setIcon("immersiveengineering:wooden_device1", 1)
+
+setDescription("Craft and connect a Windmill to a Kinetic Dynamo to provide power from wind")
+
+setParent("triumph:stage3/creosote")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device1", 1)
+
+//Rewards
+setRewardExperience(8)

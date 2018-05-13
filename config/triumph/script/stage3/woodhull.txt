@@ -1,0 +1,15 @@
+setTitle("Steve's Carts Wooden Hull")
+
+setIcon("stevescarts:cartmodule", 37)
+
+setDescription("Craft a Wood Hull to make a very basic Steve's Cart")
+
+setParent("triumph:stage3/stevescartsassembler")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("stevescarts:cartmodule", 37)
+
+//Rewards
+setRewardExperience(8)

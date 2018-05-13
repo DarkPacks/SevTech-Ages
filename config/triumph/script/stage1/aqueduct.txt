@@ -1,0 +1,47 @@
+setTitle("Aqueducts")
+
+setIcon("betterwithaddons:aqueduct", 6)
+
+setDescription("Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape. Note, This advancement requires that you place the block to complete")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria0 = addCriteria("placedDirt0", "minecraft:placed_block")
+criteria0.setBlock("betterwithaddons:aqueduct")
+
+criteria1 = addCriteria("placedDirt1", "minecraft:placed_block")
+criteria1.setBlock("betterwithaddons:aqueduct", 1)
+
+criteria2 = addCriteria("placedDirt2", "minecraft:placed_block")
+criteria2.setBlock("betterwithaddons:aqueduct", 2)
+
+criteria3 = addCriteria("placedDirt3", "minecraft:placed_block")
+criteria3.setBlock("betterwithaddons:aqueduct", 3)
+
+criteria4 = addCriteria("placedDirt4", "minecraft:placed_block")
+criteria4.setBlock("betterwithaddons:aqueduct", 4)
+
+criteria5 = addCriteria("placedDirt5", "minecraft:placed_block")
+criteria5.setBlock("betterwithaddons:aqueduct", 5)
+
+criteria6 = addCriteria("placedDirt6", "minecraft:placed_block")
+criteria6.setBlock("betterwithaddons:aqueduct", 6)
+
+criteria7 = addCriteria("placedDirt7", "minecraft:placed_block")
+criteria7.setBlock("betterwithaddons:aqueduct", 7)
+
+criteria8 = addCriteria("placedDirt8", "minecraft:placed_block")
+criteria8.setBlock("betterwithaddons:aqueduct", 8)
+
+criteria9 = addCriteria("placedDirt9", "minecraft:placed_block")
+criteria9.setBlock("betterwithaddons:aqueduct", 9)
+
+criteria10 = addCriteria("placedDirt10", "minecraft:placed_block")
+criteria10.setBlock("betterwithaddons:aqueduct", 10)
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,107 @@
+setTitle("Can We Hoe It?!")
+
+setIcon("minecraft:stone_hoe")
+
+setDescription("Craft a Hoe to begin farming more efficiently")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria0 = addCriteria("hasRock0", "minecraft:inventory_changed")
+criteria0.setItem("minecraft:stone_hoe", 0)
+
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("minecraft:wooden_hoe", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("minecraft:iron_hoe", 0)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("minecraft:diamond_hoe", 0)
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("minecraft:golden_hoe", 0)
+
+criteria5 = addCriteria("hasRock5", "minecraft:inventory_changed")
+criteria5.setItem("abyssalcraft:dhoe", 0)
+
+criteria6 = addCriteria("hasRock6", "minecraft:inventory_changed")
+criteria6.setItem("abyssalcraft:ahoe", 0)
+
+criteria7 = addCriteria("hasRock7", "minecraft:inventory_changed")
+criteria7.setItem("abyssalcraft:corhoe", 0)
+
+criteria8 = addCriteria("hasRock8", "minecraft:inventory_changed")
+criteria8.setItem("abyssalcraft:dreadiumhoe", 0)
+
+criteria9 = addCriteria("hasRock9", "minecraft:inventory_changed")
+criteria9.setItem("abyssalcraft:ethaxiumhoe", 0)
+
+criteria10 = addCriteria("hasRock10", "minecraft:inventory_changed")
+criteria10.setItem("actuallyadditions:item_hoe_emerald", 0)
+
+criteria11 = addCriteria("hasRock11", "minecraft:inventory_changed")
+criteria11.setItem("actuallyadditions:item_hoe_obsidian", 0)
+
+criteria12 = addCriteria("hasRock12", "minecraft:inventory_changed")
+criteria12.setItem("actuallyadditions:item_hoe_quartz", 0)
+
+criteria13 = addCriteria("hasRock13", "minecraft:inventory_changed")
+criteria13.setItem("actuallyadditions:item_hoe_crystal_red", 0)
+
+criteria14 = addCriteria("hasRock14", "minecraft:inventory_changed")
+criteria14.setItem("actuallyadditions:item_hoe_crystal_blue", 0)
+
+criteria15 = addCriteria("hasRock15", "minecraft:inventory_changed")
+criteria15.setItem("actuallyadditions:item_hoe_crystal_light_blue", 0)
+
+criteria16 = addCriteria("hasRock16", "minecraft:inventory_changed")
+criteria16.setItem("actuallyadditions:item_hoe_crystal_black", 0)
+
+criteria17 = addCriteria("hasRock17", "minecraft:inventory_changed")
+criteria17.setItem("actuallyadditions:item_hoe_crystal_green", 0)
+
+criteria18 = addCriteria("hasRock18", "minecraft:inventory_changed")
+criteria18.setItem("actuallyadditions:item_hoe_crystal_white", 0)
+
+criteria19 = addCriteria("hasRock19", "minecraft:inventory_changed")
+criteria19.setItem("appliedenergistics2:certus_quartz_hoe", 0)
+
+criteria20 = addCriteria("hasRock20", "minecraft:inventory_changed")
+criteria20.setItem("appliedenergistics2:nether_quartz_hoe", 0)
+
+criteria21 = addCriteria("hasRock21", "minecraft:inventory_changed")
+criteria21.setItem("betterwithmods:steel_hoe", 0)
+
+criteria22 = addCriteria("hasRock22", "minecraft:inventory_changed")
+criteria22.setItem("cyclicmagic:sandstone_hoe", 0)
+
+criteria23 = addCriteria("hasRock23", "minecraft:inventory_changed")
+criteria23.setItem("primal:flint_hoe", 0)
+
+criteria24 = addCriteria("hasRock24", "minecraft:inventory_changed")
+criteria24.setItem("primal:quartz_hoe", 0)
+
+criteria25 = addCriteria("hasRock25", "minecraft:inventory_changed")
+criteria25.setItem("primal:diamond_hoe", 0)
+
+criteria26 = addCriteria("hasRock26", "minecraft:inventory_changed")
+criteria26.setItem("primal:emerald_hoe", 0)
+
+criteria27 = addCriteria("hasRock27", "minecraft:inventory_changed")
+criteria27.setItem("primal:opal_hoe", 0)
+
+criteria28 = addCriteria("hasRock28", "minecraft:inventory_changed")
+criteria28.setItem("primal:obsidian_hoe", 0)
+
+criteria29 = addCriteria("hasRock29", "minecraft:inventory_changed")
+criteria29.setItem("twilightforest:ironwood_hoe", 0)
+
+criteria30 = addCriteria("hasRock30", "minecraft:inventory_changed")
+criteria30.setItem("twilightforest:steeleaf_hoe", 0)
+
+//Rewards
+setRewardExperience(4)

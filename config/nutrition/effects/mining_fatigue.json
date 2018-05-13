@@ -1,0 +1,9 @@
+{
+	"name": "mining_fatigue",
+	"potion": "minecraft:mining_fatigue",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 15,
+	"detect": "average",
+	"enabled": true
+}

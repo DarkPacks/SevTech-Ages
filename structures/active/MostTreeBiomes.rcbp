@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "biomes": "$BIRCH_TREES\u0026$CONIFEROUS\u0026$FOREST\u0026$HILLS\u0026$ROOFED_TREES\u0026$SUPER_BIRCH_TREES\u0026$THEMED_TREES"
+    }
+  ],
+  "metadata": {
+    "title": "MostTreeBiomes",
+    "description": [
+      "Mostly Tree Biomes minus snow and jungle"
+    ]
+  }
+}

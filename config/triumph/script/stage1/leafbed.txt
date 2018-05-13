@@ -1,0 +1,15 @@
+setTitle("Crunchy Pillows")
+
+setIcon("primal_tech:leaf_bed")
+
+setDescription("Is your current sleeping situation not good enough? Throw some leaves on top of hay to make a Leaf Bed!")
+
+setParent("triumph:stage1/crafting")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal_tech:leaf_bed")
+
+//Rewards
+setRewardExperience(4)

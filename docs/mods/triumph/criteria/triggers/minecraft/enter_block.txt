@@ -1,0 +1,32 @@
+These are the functions which can be called on a minecraft:enter_block criteria trigger.
+
+
+
+getBlock:
+    Notes:
+        Returns the BlockData object so functions can be called on it.
+
+setBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the required block with the provided meta.
+
+setBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Notes:
+        Sets the required block. This counts for any meta.
+
+setOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the trigger.
+

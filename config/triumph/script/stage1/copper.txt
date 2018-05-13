@@ -1,0 +1,27 @@
+setIcon("immersiveengineering:metal")
+
+setTitle("Get To The Copper")
+
+setDescription("Find a surface sample and dig for copper! Located Y12 to 52 and named Malachite or Azurite. Note, surface samples will unhide in already explored areas")
+
+setParent("triumph:stage1/prospector")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("geolosys:ore", 2)
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("geolosys:ore", 3)
+
+//Rewards
+setRewardExperience(4)

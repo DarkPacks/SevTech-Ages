@@ -1,0 +1,15 @@
+setTitle("Tool Station")
+
+setIcon("tconstruct:tooltables", 3)
+
+setDescription("To build your new tools, you'll need a Tool Station")
+
+setParent("triumph:stage2/tcontable2")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:tooltables", 3)
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("A Place for My Things")
+
+setIcon("storagedrawers:framingtable")
+
+setDescription("Use the Framing Table to build a custom Storage Drawers using Framed Drawers and blocks you want as decoration")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:framingtable")
+
+//Rewards
+setRewardExperience(8)

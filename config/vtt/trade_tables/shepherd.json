@@ -1,0 +1,68 @@
+{
+  "Profession": "minecraft:farmer",
+  "Career": "shepherd",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:wool",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:string",
+          "Count": {
+            "min": 5,
+            "max": 9
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:bolt",
+          "Count": 2,
+          "Damage": 1
+        },
+        "sell": {
+          "id": "primal:quartz_workblade",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:bolt",
+          "Count": 1,
+          "Damage": 6
+        },
+        "sell": {
+          "id": "minecraft:lead",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "betterwithaddons:bolt",
+          "Count": 1,
+          "Damage": 3
+        },
+        "sell": {
+          "id": "minecraft:shears",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

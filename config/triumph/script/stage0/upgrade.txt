@@ -1,0 +1,15 @@
+setTitle("Upgrade!")
+
+setIcon("primal:flint_pickaxe")
+
+setDescription("Upgrade to a Flint Pickaxe!")
+
+setParent("triumph:stage0/firsttool")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("primal:flint_pickaxe")
+
+//Rewards
+setRewardExperience(4)

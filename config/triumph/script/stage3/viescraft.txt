@@ -1,0 +1,26 @@
+setIcon("vc:airship_ignition")
+
+setTitle("Flight!")
+
+setDescription("Using all the Engine items, craft a V1 Viescraft Airship. Open the GUI to see what you can upgrade and to customize the look of your ship")
+
+setParent("triumph:stage3/extendedcrafting1")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("vc:airships/item_airship_v1")
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("vc:airships/item_airship_v2")
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("vc:airships/item_airship_v3")
+
+criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
+criteria4.setItem("vc:airships/item_airship_v4")
+
+//Rewards
+setRewardExperience(8)

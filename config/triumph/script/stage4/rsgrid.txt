@@ -1,0 +1,15 @@
+setTitle("Refined Storage")
+
+setIcon("refinedstorage:grid")
+
+setDescription("Craft a Refined Storage Grid and choose your path to Applied Energistics, Refined Storage, or both!")
+
+setParent("triumph:stage4/inscriber")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("refinedstorage:grid")
+
+//Rewards
+setRewardExperience(12)

@@ -1,0 +1,21 @@
+setTitle("Hold the Presses")
+
+setIcon("appliedenergistics2:material", 14)
+
+setDescription("Locate the materials needed to create the Engineering, Logic, and Silicon Presses to allow for Applied Energistics and Refined Storage networks")
+
+setParent("triumph:stage4/theend")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("appliedenergistics2:material", 14)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("appliedenergistics2:material", 15)
+
+criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
+criteria3.setItem("appliedenergistics2:material", 19)
+
+//Rewards
+setRewardExperience(12)

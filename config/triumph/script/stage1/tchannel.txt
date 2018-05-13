@@ -1,0 +1,20 @@
+setTitle("Follow My Channel Plz")
+
+setIcon("ceramics:channel")
+
+setDescription("A Channel is a great way to transport liquids from tanks and other sources. When placing down the Channel, follow the arrow on top and Right Click to change directions/disconnect/etc. Pour liquids onto the channel using a normal or porcelain Faucet")
+
+setParent("triumph:stage1/root")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("crafted1", "minecraft:inventory_changed")
+criteria1.setItem("ceramics:channel")
+
+criteria2 = addCriteria("crafted2", "minecraft:inventory_changed")
+criteria2.setItem("tconstruct:channel")
+
+//Rewards
+setRewardExperience(4)

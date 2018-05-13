@@ -1,0 +1,15 @@
+setTitle("I Don't Want it Anymore!")
+
+setIcon("cyclicmagic:food_step")
+
+setDescription("Now that you are traveling less, you can use the Blood Altar to create an Apple of Lofty Stature which will remove your step-up abilities.")
+
+setParent("triumph:stage1/bloodaltar")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("cyclicmagic:food_step")
+
+//Rewards
+setRewardExperience(1)

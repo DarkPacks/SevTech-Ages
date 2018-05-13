@@ -1,0 +1,66 @@
+This extends BlockReplacement. Therefore, any scripting methods in BlockReplacement 
+can be used for block replacements of this type. This is a basic block replacement 
+with a min and max height setting.
+
+
+
+setReplacement:
+    Arguments:
+        String, int
+    Usage:
+        block ID, meta
+    Notes:
+        Sets the block replacement and meta.
+
+setReplacement:
+    Arguments:
+        String
+    Usage:
+        block ID
+    Notes:
+        Sets the block replacement with a meta of 0.
+
+setMaxHeight:
+    Arguments:
+        int
+    Usage:
+        height
+    Default Values:
+        256
+    Notes:
+        Sets the max height for this block replacement.
+
+setMinHeight:
+    Arguments:
+        int
+    Usage:
+        height
+    Default Values:
+        0
+    Notes:
+        Sets the min height for this block replacement.
+
+setBlockToReplace:
+    Arguments:
+        String
+    Usage:
+        block ID
+    Notes:
+        Sets the block to be replaced with a meta of 0.
+
+setBlockToReplace:
+    Arguments:
+        String, int
+    Usage:
+        block ID, meta
+    Notes:
+        Sets the block and meta to be replaced.
+
+addGenerationPoint:
+    Arguments:
+        String
+    Usage:
+        Generation_Point_ID
+    Notes:
+        Adds a generation point for this block replacement to be run at. Options in order of first to last occurance in generation are: "BIOME_BLOCK_REPLACEMENT", "POPULATE_CHUNK_PRE", "DECORATE_CHUNK_PRE", "DECORATE_CHUNK_POST", "POPULATE_CHUNK_POST", "WORLD_GENERATOR_FIRST", "WORLD_GENERATOR_LAST"
+

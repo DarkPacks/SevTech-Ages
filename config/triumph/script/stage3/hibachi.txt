@@ -1,0 +1,15 @@
+setTitle("Hibachi")
+
+setIcon("betterwithmods:hibachi")
+
+setDescription("The Better With Mods Hibachi will allow you to have a Stoked Fire below your Cauldron and Crucible")
+
+setParent("triumph:stage3/filteredhopper")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:hibachi")
+
+//Rewards
+setRewardExperience(8)

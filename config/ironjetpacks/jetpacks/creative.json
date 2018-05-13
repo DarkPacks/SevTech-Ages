@@ -1,0 +1,24 @@
+{
+  "jetpack_type": {
+    "name": "creative",
+    "disable": false,
+    "tier": -1,
+    "color": 13572841,
+    "armor_points": 8,
+    "enchantability": 0,
+    "crafting_material": "null",
+    "force_recipes": false,
+    "creative": true
+  },
+  "jetpack_info": {
+    "capacity": 0,
+    "usage": 0,
+    "speed_vertical": 1.03,
+    "accel_vertical": 0.17,
+    "speed_sideways": 0.21,
+    "speed_hover_descend": 0.45,
+    "speed_hover": 0.0,
+    "sprint_speed_multi": 2.0,
+    "sprint_fuel_multi": 0.0
+  }
+}

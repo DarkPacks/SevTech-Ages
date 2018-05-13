@@ -1,0 +1,15 @@
+setTitle("Pedestalling for Time")
+
+setIcon("abyssalcraft:energypedestal")
+
+setDescription("To charge your Necronomicon you can either stand in range of Statues holding the book, or craft a Pedestal to place the book on. Make sure the statues are 3 blocks from the Pedestal and at the same height")
+
+setParent("triumph:stage1/statue")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("abyssalcraft:energypedestal")
+
+//Rewards
+setRewardExperience(4)

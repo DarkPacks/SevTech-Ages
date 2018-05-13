@@ -1,0 +1,89 @@
+{
+  "Profession": "minecraft:smith",
+  "Career": "armor",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "clear"
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "totemic:buffalo_items",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "primal:leather_cordage",
+          "Count": {
+            "min": 5,
+            "max": 11
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:pelt_sheep",
+          "Count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather_helmet",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:pelt_wolf",
+          "Count": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather_chestplate",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "primal:pelt_animal",
+          "Count": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather_leggings",
+          "Count": 1
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buy": {
+          "id": "minecraft:rabbit_hide",
+          "Count": {
+            "min": 2,
+            "max": 4
+          }
+        },
+        "sell": {
+          "id": "minecraft:leather_boots",
+          "Count": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+setTitle("Filtered Hopper")
+
+setIcon("betterwithmods:single_machine", 2)
+
+setDescription("Use the Filtered Hopper to collect Hellfire Dust and fill Soul Urns")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:single_machine", 2)
+
+//Rewards
+setRewardExperience(8)

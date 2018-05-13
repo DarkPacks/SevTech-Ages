@@ -1,0 +1,61 @@
+[
+  {
+    "dimension": 0,
+    "block": [
+      "minecraft:grass",
+      "minecraft:sand",
+      "minecraft:sand@1"
+    ],
+    "biome": [
+      "Desert",
+      "Savanna",
+      "Forest",
+      "Beach",
+      "Red Desert"
+    ],
+    "mobs": [
+      {
+        "mob": "Horse",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": [
+      "minecraft:water"
+    ],
+    "mobs": [
+      {
+        "mob": "Squid",
+        "weight": 1,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": [
+      "minecraft:grass",
+      "minecraft:sand",
+      "minecraft:sand@1"
+    ],
+    "biome": [
+      "Jungle",
+      "Swamp",
+      "Savanna",
+      "abyssalcraft:coralium_infested_swamp"
+    ],
+    "mobs": [
+      {
+        "mob": "Parrot",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

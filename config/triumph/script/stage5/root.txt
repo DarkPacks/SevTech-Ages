@@ -1,0 +1,15 @@
+setTitle("Age 5")
+
+setIcon("chisel:futura", 2)
+
+setDescription("Welcome to the next age!")
+
+setBackground("chisel:textures/blocks/tyrian/diagonal.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+//Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage4/moon")

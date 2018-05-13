@@ -1,0 +1,15 @@
+setTitle("Tinkerer")
+
+setIcon("tconstruct:tooltables", 0)
+
+setDescription("Time to ditch your old Crafting Table and upgrade to a Crafting Station, it will let you keep your items in the grid and attach to nearby inventories")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("tconstruct:tooltables", 0)
+
+//Rewards
+setRewardExperience(8)

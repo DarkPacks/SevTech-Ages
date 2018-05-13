@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "__comment": "You can disable defaults by setting these to false. Do *NOT* try to add additional entries here. You can add additional entries in the custom section.",
+    "Vanilla Seeds": true,
+    "Natura Saplings": true,
+    "Vanilla Saplings": true,
+    "Bonemeal": true,
+    "Animal Eggs": false
+  },
+  "defaults payment": {
+    "__comment": "You can define custom payment items for the default entries here.",
+    "Vanilla Seeds": "1*minecraft:gold_ingot:0",
+    "Natura Saplings": "1*minecraft:gold_ingot:0",
+    "Vanilla Saplings": "1*minecraft:gold_ingot:0",
+    "Bonemeal": "1*minecraft:gold_ingot:0",
+    "Animal Eggs": "1*minecraft:gold_ingot:0"
+  },
+  "defaults blacklist": [
+    "examplemod:example_item"
+  ],
+  "custom entries": {
+    "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
+    "immersiveengineering:seed": "2*minecraft:gold_ingot",
+    "abyssalcraft:shoggothflesh": "24*abyssalcraft:stone:7"
+  },
+  "defaults amount": {
+    "Vanilla Seeds": 1,
+    "Natura Saplings": 1,
+    "Vanilla Saplings": 1,
+    "Bonemeal": 1,
+    "Animal Eggs": 1
+  }
+}

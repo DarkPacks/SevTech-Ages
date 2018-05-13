@@ -1,0 +1,15 @@
+setTitle("Grind It")
+
+setIcon("horsepower:hand_grindstone")
+
+setDescription("The Hand Grindstone isn't quick by any means, but it will let you grind stuff up easily")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("horsepower:hand_grindstone")
+
+//Rewards
+setRewardExperience(4)

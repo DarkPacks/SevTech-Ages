@@ -1,0 +1,17 @@
+setTitle("Limonite Ore")
+
+setIcon("immersiveengineering:metal", 4)
+
+setDescription("Find a surface sample and dig for Limonite! The ore is located from Y6 to 32")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("geolosys:cluster", 7)
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("geolosys:cluster", 0)
+
+//Rewards
+setRewardExperience(8)

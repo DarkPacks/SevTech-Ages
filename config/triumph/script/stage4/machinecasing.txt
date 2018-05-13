@@ -1,0 +1,15 @@
+setTitle("Machine Casing")
+
+setIcon("teslacorelib:machine_case")
+
+setDescription("Advanced Machines need more complex casing")
+
+setParent("triumph:stage4/printedcircuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("teslacorelib:machine_case")
+
+//Rewards
+setRewardExperience(12)

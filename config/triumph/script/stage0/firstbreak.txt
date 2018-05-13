@@ -1,0 +1,138 @@
+setTitle("Caveman Hate Tree!")
+
+setIcon("minecraft:log")
+
+setDescription("Punching trees hurts and you won't get wood from using your hands! Use the appropriate tool")
+
+setParent("triumph:stage0/firsttool")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("brokeLog1", "triumph:player_break_block")
+criteria1.setBlock("minecraft:log")
+
+criteria2 = addCriteria("brokeLog2", "triumph:player_break_block")
+criteria2.setBlock("minecraft:log2")
+
+criteria3 = addCriteria("brokeLog3", "triumph:player_break_block")
+criteria3.setBlock("abyssalcraft:dltlog")
+
+criteria4 = addCriteria("brokeLog4", "triumph:player_break_block")
+criteria4.setBlock("abyssalcraft:dreadlog")
+
+criteria5 = addCriteria("brokeLog5", "triumph:player_break_block")
+criteria5.setBlock("betterwithaddons:log_mulberry")
+
+criteria6 = addCriteria("brokeLog6", "triumph:player_break_block")
+criteria6.setBlock("betterwithaddons:log_sakura")
+
+criteria7 = addCriteria("brokeLog7", "triumph:player_break_block")
+criteria7.setBlock("betterwithmods:blood_log")
+
+criteria8 = addCriteria("brokeLog8", "triumph:player_break_block")
+criteria8.setBlock("natura:nether_logs")
+
+criteria9 = addCriteria("brokeLog9", "triumph:player_break_block")
+criteria9.setBlock("natura:nether_logs2")
+
+criteria10 = addCriteria("brokeLog10", "triumph:player_break_block")
+criteria10.setBlock("natura:nether_logs2", 15)
+
+criteria11 = addCriteria("brokeLog11", "triumph:player_break_block")
+criteria11.setBlock("natura:nether_logs", 1)
+
+criteria12 = addCriteria("brokeLog12", "triumph:player_break_block")
+criteria12.setBlock("natura:nether_logs", 2)
+
+criteria13 = addCriteria("brokeLog13", "triumph:player_break_block")
+criteria13.setBlock("natura:overworld_logs")
+
+criteria14 = addCriteria("brokeLog14", "triumph:player_break_block")
+criteria14.setBlock("natura:overworld_logs2")
+
+criteria15 = addCriteria("brokeLog15", "triumph:player_break_block")
+criteria15.setBlock("natura:overworld_logs2", 1)
+
+criteria16 = addCriteria("brokeLog16", "triumph:player_break_block")
+criteria16.setBlock("natura:overworld_logs2", 2)
+
+criteria17 = addCriteria("brokeLog17", "triumph:player_break_block")
+criteria17.setBlock("natura:overworld_logs2", 3)
+
+criteria18 = addCriteria("brokeLog18", "triumph:player_break_block")
+criteria18.setBlock("natura:overworld_logs", 1)
+
+criteria19 = addCriteria("brokeLog19", "triumph:player_break_block")
+criteria19.setBlock("natura:overworld_logs", 2)
+
+criteria20 = addCriteria("brokeLog20", "triumph:player_break_block")
+criteria20.setBlock("natura:overworld_logs", 3)
+
+criteria21 = addCriteria("brokeLog21", "triumph:player_break_block")
+criteria21.setBlock("natura:redwood_logs", 1)
+
+criteria22 = addCriteria("brokeLog22", "triumph:player_break_block")
+criteria22.setBlock("primal:logs")
+
+criteria23 = addCriteria("brokeLog23", "triumph:player_break_block")
+criteria23.setBlock("primal:logs", 1)
+
+criteria25 = addCriteria("brokeLog25", "triumph:player_break_block")
+criteria25.setBlock("primal:logs_stripped")
+
+criteria26 = addCriteria("brokeLog26", "triumph:player_break_block")
+criteria26.setBlock("primal:logs_stripped", 1)
+
+criteria27 = addCriteria("brokeLog27", "triumph:player_break_block")
+criteria27.setBlock("primal:logs_stripped", 2)
+
+criteria28 = addCriteria("brokeLog28", "triumph:player_break_block")
+criteria28.setBlock("primal:logs_stripped", 3)
+
+criteria29 = addCriteria("brokeLog29", "triumph:player_break_block")
+criteria29.setBlock("primal:logs_stripped", 4)
+
+criteria30 = addCriteria("brokeLog30", "triumph:player_break_block")
+criteria30.setBlock("primal:logs_stripped", 5)
+
+criteria31 = addCriteria("brokeLog31", "triumph:player_break_block")
+criteria31.setBlock("primal:logs_stripped", 6)
+
+criteria32 = addCriteria("brokeLog32", "triumph:player_break_block")
+criteria32.setBlock("primal:logs_stripped", 7)
+
+criteria33 = addCriteria("brokeLog33", "triumph:player_break_block")
+criteria33.setBlock("rustic:log")
+
+criteria34 = addCriteria("brokeLog34", "triumph:player_break_block")
+criteria34.setBlock("rustic:log", 1)
+
+criteria35 = addCriteria("brokeLog35", "triumph:player_break_block")
+criteria35.setBlock("totemic:stripped_cedar_log")
+
+criteria36 = addCriteria("brokeLog36", "triumph:player_break_block")
+criteria36.setBlock("traverse:fir_log")
+
+criteria37 = addCriteria("brokeLog37", "triumph:player_break_block")
+criteria37.setBlock("twilightforest:twilight_log")
+
+criteria38 = addCriteria("brokeLog38", "triumph:player_break_block")
+criteria38.setBlock("twilightforest:twilight_log", 1)
+
+criteria39 = addCriteria("brokeLog39", "triumph:player_break_block")
+criteria39.setBlock("twilightforest:twilight_log", 2)
+
+criteria40 = addCriteria("brokeLog40", "triumph:player_break_block")
+criteria40.setBlock("twilightforest:twilight_log", 3)
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,15 @@
+setTitle("Extended Crafting: Gold")
+
+setIcon("extendedcrafting:table_advanced")
+
+setDescription("Craft the Advanced Crafting Table from Extended Crafting for more complex recipes")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("extendedcrafting:table_advanced")
+
+//Rewards
+setRewardExperience(8)

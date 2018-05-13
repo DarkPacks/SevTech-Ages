@@ -1,0 +1,15 @@
+setTitle("Extensions")
+
+setIcon("ceramics:clay_barrel", 1)
+
+setDescription("Craft a Barrel Extension and place it on top of a Barrel to increase the amount of liquid it can hold")
+
+setParent("triumph:stage1/claybarrel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("placedDirt", "minecraft:placed_block")
+criteria.setBlock("ceramics:clay_barrel", 1)
+
+//Rewards
+setRewardExperience(4)

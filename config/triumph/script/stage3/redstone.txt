@@ -1,0 +1,17 @@
+setTitle("Cinnabar Ore")
+
+setIcon("minecraft:redstone")
+
+setDescription("Find a surface sample and dig for Redstone or Cinnabar! The ore is located from Y4 to 24")
+
+setParent("triumph:stage3/oreprospector")
+setRequiresParent(true)
+
+setRequirements("any")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:redstone")
+
+//Rewards
+setRewardExperience(8)

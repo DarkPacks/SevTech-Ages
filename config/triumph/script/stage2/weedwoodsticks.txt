@@ -1,0 +1,14 @@
+setTitle("Weedwood")
+
+setIcon("thebetweenlands:weedwood_bush")
+
+setDescription("Weedwood sticks are found by breaking Weedwood Bushes. Commonly found around the Betweenlands. Note, they are not available by chopping wood")
+
+setParent("triumph:stage2/betweenlands")
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("thebetweenlands:items_misc", 20)
+
+//Rewards
+setRewardExperience(8)

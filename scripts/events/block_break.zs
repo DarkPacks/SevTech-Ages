@@ -21,6 +21,11 @@ events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
 		blockId += ":" ~ event.block.meta;
 	}
 
+	// Skip overrides if the block is silk touched
+	if (event.silkTouch) {
+		return;
+	}
+
     var hasOverride = !isNull(blockHarvestDrops[blockId]);
     if (hasOverride) {
         for i, block in blockHarvestDrops[blockId] {

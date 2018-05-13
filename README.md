@@ -1,23 +1,15 @@
-# SevTechAgesConfigs
+# SevTech-Ages
 
-#### See [here](https://github.com/Darkosto/SevTech-Ages/issues) for public issues.
+## Info
+This modpack was made by [Darkosto](https://www.twitch.tv/darkosto) for [Sevadus](https://www.twitch.tv/sevadus) on twitch.  
 
+Things to keep in mind:
 
-## Development
-We use an editorconfig file to standardize formatting.
-You can find the extension for sublime [here](https://github.com/sindresorhus/editorconfig-sublime). Many editors have support by default or have extensions for it.
+1. If you find any bugs, make sure to report them!!!!
+2. Access to some mods has been intentionally removed.  Everything is progression based.
+3. Look at the advancements, the pack uses them for questing. 
 
-### Priority List
-| Priority Range | Use               |
-| -------------- | ----------------- |
-| 1100 - 1199    | ContentTweaker    |
-| 1000 - 1099    | OreDict           |
-| 900 - 999      | Unify             |
-| 800 - 899      | Post-Unify Oredict|
-| 700 - 799      | Globals           |
-
-## Deployment
-### Scripts
-1. Remove `scripts/env.dev.zs`
-2. Select all scripts inside the scripts folder and zip them. Name it `scripts.zip`.
-4. Delete all script files and folders except the zip. (This should result in one file `scripts/scripts.zip`)
+## Downloads
+Released files: 
+- [Curse/Twitch](https://minecraft.curseforge.com/projects/sevtech-ages)
+- [ATLauncher](https://www.atlauncher.com/pack/SevTechAges)

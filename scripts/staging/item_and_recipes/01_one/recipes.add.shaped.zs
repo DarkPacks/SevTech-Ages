@@ -658,6 +658,44 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+	//Pickeltweaks
+	<pickletweaks:bronze_sword> : [
+		[
+			[null, metals.copper.plate, null],
+			[null, metals.copper.plate, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:bronze_pickaxe> : [
+		[
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:bronze_shovel> : [
+		[
+			[null, metals.copper.plate, null],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:bronze_axe> : [
+		[
+			[metals.copper.plate, metals.copper.plate, null],
+			[metals.copper.plate, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:bronze_hoe> : [
+		[
+			[metals.copper.plate, metals.copper.plate, null],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+
+
 	//Farming for Blockheads
 	<farmingforblockheads:market> : [
 		[

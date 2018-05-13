@@ -38,6 +38,7 @@ Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors
 * Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we dont't want to waste
 * Adjusted Aevitas attunement perk and Mineralis ritual to only spawn geolosys ores
+* Added recipes for the Bronze tools added by PickelTweaks
 
 Mod Updates:
 * Actually Additions (r135)

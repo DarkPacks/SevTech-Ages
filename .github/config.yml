@@ -1,0 +1,5 @@
+# https://probot.github.io/apps/helpr/
+helpr:
+  opened: "Status: PR Available"
+  merged: "Status: PR Merged"
+  rejected: "Status: PR Rejected"

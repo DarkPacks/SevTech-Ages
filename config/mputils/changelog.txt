@@ -34,6 +34,7 @@ Bug Fixes:
 * Fixed Bone dupe when repairing sharp bone in crafting grid (#2358)
 * Turned off Better with Mods handling of default Mossy Cobble and Mossy Stone Brick recipes (#2393)
 * Fixed dupe bug by Blacklisted Immersive Engineering blocks from the Cyclic Sack of Holding (#2410)
+* Fix Arc Furnace bronze alloying giving incorrect output amount (#2334)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

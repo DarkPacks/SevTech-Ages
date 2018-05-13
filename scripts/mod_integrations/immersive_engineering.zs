@@ -146,7 +146,7 @@ ArcFurnace.addRecipe(<extendedcrafting:material>, metals.iron.ingot, slag, 100, 
 ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material>]);
 
 //Bronze Alloying
-ArcFurnace.addRecipe(metals.bronze.ingot.firstItem * 3, metals.copper.ingot * 3, slag, 100, 512, [metals.tin.dust]);
+ArcFurnace.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, slag, 100, 512, [metals.tin.dust]);
 
 /* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 //Aluminum Brass

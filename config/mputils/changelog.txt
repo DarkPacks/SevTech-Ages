@@ -32,6 +32,7 @@ Bug Fixes:
 * Re-add ingot -> dust crushing recipes (#2353)
 * Fixed Mantle of Stars Aevitas not giving any hunger/saturation (#2371)
 * Fixed Bone dupe when repairing sharp bone in crafting grid (#2358)
+* Turned off Better with Mods handling of default Mossy Cobble and Mossy Stone Brick recipes (#2393)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

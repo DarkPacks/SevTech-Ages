@@ -3,6 +3,10 @@
     {
       "item": "improvedbackpacks:backpack",
       "meta": 0
+		},
+		{
+      "item": "ironbackpacks:backpack",
+      "meta": 0
     },
     {
       "item": "minecraft:purple_shulker_box",

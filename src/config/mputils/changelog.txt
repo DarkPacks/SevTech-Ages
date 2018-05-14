@@ -58,8 +58,9 @@ Mod Updates:
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.
-* Extended Crafting (1.3.2)
+* Extended Crafting (1.3.4)
     * Fixed combination crafting ignoring NBT
+	* Fixed some shaped table recipes showing incorrectly in JEI
 * Fast Workbench (1.3.2)
 * Forge MultiPart CBE (2.4.2.58)
 * Geolosys (1.9.1)
@@ -74,7 +75,10 @@ Mod Updates:
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
 * ReAuth (3.6.0)
 * Simple Generators (2.0.10a)
+* Tinkers Construct (2.10.0.79)
 * Toast Control (1.6.0)
+* Twilight Forest (3.7.424)
+	* See: https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393
 * ValkyrieLib (2.0.10b)
 
 ---------------------------------------------------------------------

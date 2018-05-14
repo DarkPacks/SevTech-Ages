@@ -11,14 +11,12 @@ import scripts.mod_integrations.modular_machinery.base.createRecipeName;
 
 /*
     OreMatic Class to intergrate with the custom machine even easier!
-
-    TODO: Values need to be worked out for the gases/fluids.
-    TOOD: Add Lube/Gasoline handling. (I.E. Logic for it)
 */
 zenClass OreMatic {
     val machine_name as string = "orematic5000";
     val energyScalingMultiplier as int[] = [4, 5, 10];
-    val default_ticktime as int = 250;
+    val default_priority as int[] = [125, 250, 500];
+    val default_ticktime as int = 125;
     val default_type as string = "";
 
     zenConstructor() {
@@ -30,14 +28,14 @@ zenClass OreMatic {
         This is essentially Tier 1 that then can be built on top of as deemed necessary
     */
     function formBaseRecipe(tier as int, tickTime as int, oreInput as IOreDictEntry, dustOutput as IItemStack, secondaryOuput as IOreDictEntry, secondaryChance as float) as RecipePrimer {
-        return formBaseRecipe(tier, tickTime, oreInput, dustOutput, default_type, secondaryOuput, secondaryChance);
+        return formBaseRecipe(tier, tickTime, oreInput, dustOutput, default_type, secondaryOuput, secondaryChance, 0);
     }
-    function formBaseRecipe(tier as int, tickTime as int, oreInput as IOreDictEntry, dustOutput as IItemStack, type as string, secondaryOuput as IOreDictEntry, secondaryChance as float) as RecipePrimer {
+    function formBaseRecipe(tier as int, tickTime as int, oreInput as IOreDictEntry, dustOutput as IItemStack, type as string, secondaryOuput as IOreDictEntry, secondaryChance as float, priority as int) as RecipePrimer {
         var machine_slug = tier > 1 ? machine_name ~ "_mk" ~ tier : machine_name;
 
         var builder = RecipeBuilder.newBuilder(
             createRecipeName(machine_name ~ "_mk" ~ tier, oreInput.name ~ "_processing" ~ type),
-            machine_slug, tickTime
+            machine_slug, tickTime, priority
         )
             .addEnergyPerTickInput(60 * energyScalingMultiplier[tier - 1])
             .addItemInput(oreInput)
@@ -45,8 +43,9 @@ zenClass OreMatic {
             .addGasInput("oxygen", 150)
             .addItemOutput(dustOutput * (3 + tier - 1));
 
-        if (!isNull(secondaryOuput)) {
+        if (!isNull(secondaryOuput) & tier > 2) {
             builder
+                .addItemOutput(secondaryOuput)
                 .addItemOutput(secondaryOuput)
                 .setChance(secondaryChance);
         }
@@ -61,19 +60,21 @@ zenClass OreMatic {
         secondary outputs.
     */
     function formBaseRecipe(tier as int, oreInput as IOreDictEntry, dustOutput as IItemStack, secondaryOuput as IOreDictEntry) as RecipePrimer[] {
+        var allowGasoline = tier > 2;
+
         return [
             // 0 - Basic
             formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, secondaryOuput, 0.5f),
             // 1 - lube
-            formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_lubricant", secondaryOuput, 0.5f)
+            formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_lubricant", secondaryOuput, 0.5f, 125)
                 .addFluidInput(<liquid:lubricant> * 50),
             // 2 - gasoline
-            formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, "_gasoline", secondaryOuput, 0.75f)
-                .addFluidInput(<liquid:gasoline> * 150),
+            allowGasoline ? formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, "_gasoline", secondaryOuput, 0.75f, 250)
+                .addFluidInput(<liquid:gasoline> * 150) : null,
             // 3 - lube and gasoline
-            formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_gasoline_lubricant", secondaryOuput, 0.75f)
+            allowGasoline ? formBaseRecipe(tier, 0.7 * default_ticktime, oreInput, dustOutput, "_gasoline_lubricant", secondaryOuput, 0.75f)
                 .addFluidInput(<liquid:gasoline> * 150)
-                .addFluidInput(<liquid:lubricant> * 50)
+                .addFluidInput(<liquid:lubricant> * 50): null
         ] as RecipePrimer[];
     }
 
@@ -83,7 +84,9 @@ zenClass OreMatic {
     function addTier1(oreInput as IOreDictEntry, dustOutput as IItemStack, secondaryOuput as IOreDictEntry) {
         var baseRecipes = formBaseRecipe(1, oreInput, dustOutput, secondaryOuput);
         for baseRecipe in baseRecipes {
-            baseRecipe.build();
+            if (!isNull(baseRecipe)) {
+                baseRecipe.build();
+            }
         }
     }
 
@@ -93,9 +96,11 @@ zenClass OreMatic {
     function addTier2(oreInput as IOreDictEntry, dustOutput as IItemStack, secondaryOuput as IOreDictEntry) {
         var baseRecipes = formBaseRecipe(2, oreInput, dustOutput, secondaryOuput);
         for baseRecipe in baseRecipes {
-            baseRecipe
-                .addGasInput("hydrogenChloride", 200)
-                .build();
+            if (!isNull(baseRecipe)) {
+                baseRecipe
+                    .addGasInput("hydrogenChloride", 200)
+                    .build();
+            }
         }
     }
 

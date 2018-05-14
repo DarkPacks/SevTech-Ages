@@ -9,14 +9,19 @@ setRequiresParent(true)
 
 setFrameType("Goal")
 
+setRequirements("any")
+
 setUncompletedIconColor(8947848)
 setCompletedIconColor(6570404)
 setUncompletedTitleColor(8947848)
 setCompletedTitleColor(6570404)
 
 //Criteria
-criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("astralsorcery:itemcraftingcomponent", 5)
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("astralsorcery:itemcraftingcomponent", 5)
+
+criteria2 = addCriteria("hasCraftedRock", "triumph:player_crafted_item")
+criteria2.setItem("astralsorcery:itemcraftingcomponent", 5)
 
 //Rewards
 setRewardExperience(4)

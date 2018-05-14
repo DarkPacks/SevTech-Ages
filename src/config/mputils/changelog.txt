@@ -38,6 +38,7 @@ Bug Fixes:
 * Mining Ilmenite with tilk touch will now give the block
 * Fix Chisels and Bits chisel recipe to work in 2x2 grid
 * Removed ability to put ironbackpacks inside of ironbackpacks (#2402)
+* Fixed Parchemtn advancement not triggering in some situations (#2416)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

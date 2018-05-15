@@ -72,6 +72,7 @@ Rituals.modifyRitualOfferings("oblivionCatalyst", [
 	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#transmutator-recipes-are-added-this-way
 */
 Transmutator.removeTransmutation(<abyssalcraft:crystalshard>); // Iron
+Transmutator.removeTransmutation(<minecraft:netherbrick>); // Nether Brick
 
 /*
 	Ritual Staging

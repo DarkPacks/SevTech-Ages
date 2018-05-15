@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 var STAGE = STAGES.disabled;
 
 var disabledItems as IItemStack[] = [
+	<cyclicmagic:uncrafting_block>,
 	<geolosys:cluster:10>,
 	<geolosys:ore:10>,
 	<geolosys:ore_sample:10>,

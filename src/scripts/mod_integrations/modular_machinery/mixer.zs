@@ -51,4 +51,12 @@ for i in 0 to machineCount {
 		.addItemInput(<ore:dustWood>, 4)
 		.addFluidInput(<liquid:water> * 250)
 		.build();
+
+	RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "rice_dough"), machineNameComplete, 300 / defaultTimeScaler)
+		.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
+		.addItemOutput(<actuallyadditions:item_misc:9> * 4)
+		.addItemInput(<ore:foodSalt>)
+		.addItemInput(<betterwithaddons:japanmat:4> * 4)
+		.addFluidInput(<liquid:water> * 250)
+		.build();
 }

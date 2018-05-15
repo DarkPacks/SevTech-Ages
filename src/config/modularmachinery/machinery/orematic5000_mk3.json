@@ -691,7 +691,7 @@
           "y":1,
           "z":2,
           "elements":[
-             "abyssalcraft:crystallizer@4"
+             "abyssalcraft:crystallizer"
           ]
        },
        {
@@ -723,7 +723,7 @@
           "y":1,
           "z":2,
           "elements":[
-             "abyssalcraft:materializer@4"
+             "abyssalcraft:materializer"
           ]
        },
        {
@@ -787,7 +787,7 @@
           "y":2,
           "z":2,
           "elements":[
-             "mysticalagriculture:ultimate_furnace@3"
+             "mysticalagriculture:ultimate_furnace"
           ]
        },
        {

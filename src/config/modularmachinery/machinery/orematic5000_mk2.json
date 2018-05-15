@@ -248,7 +248,7 @@
           "y":1,
           "z":2,
           "elements":[
-             "abyssalcraft:materializer@5"
+             "abyssalcraft:materializer"
           ]
        },
        {
@@ -312,7 +312,7 @@
           "y":1,
           "z":2,
           "elements":[
-             "abyssalcraft:crystallizer@4"
+             "abyssalcraft:crystallizer"
           ]
        },
        {

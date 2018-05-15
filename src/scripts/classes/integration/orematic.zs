@@ -66,13 +66,13 @@ zenClass OreMatic {
             // 0 - Basic
             formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, secondaryOuput, 0.5f),
             // 1 - lube
-            formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_lubricant", secondaryOuput, 0.5f, 125)
+            formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_lubricant", secondaryOuput, 0.5f, -125)
                 .addFluidInput(<liquid:lubricant> * 50),
             // 2 - gasoline
-            allowGasoline ? formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, "_gasoline", secondaryOuput, 0.75f, 250)
+            allowGasoline ? formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, "_gasoline", secondaryOuput, 0.75f, -250)
                 .addFluidInput(<liquid:gasoline> * 150) : null,
             // 3 - lube and gasoline
-            allowGasoline ? formBaseRecipe(tier, 0.7 * default_ticktime, oreInput, dustOutput, "_gasoline_lubricant", secondaryOuput, 0.75f)
+            allowGasoline ? formBaseRecipe(tier, 0.7 * default_ticktime, oreInput, dustOutput, "_gasoline_lubricant", secondaryOuput, 0.75f, -500)
                 .addFluidInput(<liquid:gasoline> * 150)
                 .addFluidInput(<liquid:lubricant> * 50): null
         ] as RecipePrimer[];

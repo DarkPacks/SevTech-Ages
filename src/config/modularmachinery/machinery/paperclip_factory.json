@@ -335,7 +335,7 @@
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -344,7 +344,7 @@
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -353,7 +353,7 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -362,7 +362,7 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]
@@ -371,7 +371,7 @@
             "x": 2,
             "y": 0,
             "z": 1,
-            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"facing":"2","conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
+            "nbt": {"conveyorBeltSubtypeNBT":{"dyeColour":"-1","direction":"0"},"conveyorBeltSubtype":"immersiveengineering:conveyor","id":"immersiveengineering:conveyorbelt"},
             "elements": [
                 "immersiveengineering:conveyor@0"
             ]

@@ -40,6 +40,7 @@ Bug Fixes:
 * Removed ability to put ironbackpacks inside of ironbackpacks (#2402)
 * Fixed Parchemtn advancement not triggering in some situations (#2416)
 * Disabled the Uncrafter for good (#2436)
+* Fixed Paperclip Factory not forming when conveyors wern't facing/moving items north (#2404)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

@@ -109,7 +109,8 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 		<ferdinandsflowers:block_cff_flowersb:4>,
 		<ferdinandsflowers:block_cff_flowersb:9>,
 		<ferdinandsflowers:block_cff_flowersc:1>,
-		<ferdinandsflowers:block_cff_flowersd:4>
+		<ferdinandsflowers:block_cff_flowersd:4>,
+		<minecraft:red_flower:5>
 	],
 
 	//Magenta

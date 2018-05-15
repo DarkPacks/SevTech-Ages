@@ -51,6 +51,15 @@ MetalPress.addRecipe(<minecraft:coal:1> * 9, <charcoalblock:charcoal_block>, <im
 
 MetalPress.addRecipe(<minecraft:clay> * 1, <minecraft:clay_ball>, <immersiveengineering:mold:5>, 500, 4);
 
+// Shadowfragment -> Shadowshard
+MetalPress.addRecipe(<abyssalcraft:shadowshard> * 1, <abyssalcraft:shadowfragment>, <immersiveengineering:mold:6>, 500, 9);
+// Shadowshard -> Shadowgem
+MetalPress.addRecipe(<abyssalcraft:shadowgem> * 1, <abyssalcraft:shadowshard>, <immersiveengineering:mold:6>, 500, 9);
+// Shadowshard -> Shadowfragment
+MetalPress.addRecipe(<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard>, <immersiveengineering:mold:7>, 500, 1);
+// Shadowgem -> Shadowshard
+MetalPress.addRecipe(<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>, <immersiveengineering:mold:7>, 500, 1);
+
 /*
 	Squeezer
 

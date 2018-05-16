@@ -10,15 +10,15 @@ for partName, part in metals.fiery {
     if (!isNull(preferredMetalItem)) {
         var fluidAmount as int = 0;
 
-		if (metalPartName == "ingot" | metalPartName == "plate") {
+		if (partName == "ingot" | partName == "plate") {
 			fluidAmount = 144;
-		} else if (metalPartName == "rod") {
+		} else if (partName == "rod") {
 			fluidAmount = 72;
-		} else if (metalPartName == "block") {
+		} else if (partName == "block") {
 			fluidAmount = 1296;
-		} else if (metalPartName == "gear") {
+		} else if (partName == "gear") {
 			fluidAmount = 576;
-		} else if (metalPartName == "nugget") {
+		} else if (partName == "nugget") {
 			fluidAmount = 16;
 		}
 

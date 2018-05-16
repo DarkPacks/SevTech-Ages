@@ -53,15 +53,28 @@ Enhancements:
 
 Mod Updates:
 * Actually Additions (r135)
+* B.A.S.E (3.7.2)
+    * Fixes crash when invalid items are fed
+* Bedrock B Gone (5.0-b8)
+    * Fixed Better Bedrock's Itemblock not registering correctly
 * Better With Mods (2.1.16)
     * Fix server crash with HCFurnace tooltips.
+* BnBGamingCore (0.8.0)
+    * Added Module for next Triumph update
+* BNBGamingLib (11.2)
+    * Script parser now properly reads hexadecimal values
 * BuildCraft: Builders (7.99.17)
 * BuildCraft: Core (7.99.17)
 * BuildCraft: Factory (7.99.17)
 * BuildCraft: Robotics (7.99.17)
 * BuildCraft: Silicon (7.99.17)
 * BuildCraft: Transport (7.99.17)
-* Cyclic (1.15.0)
+* Carry On (1.9)
+    * Fixed a common issue where some blocks could not get picked up
+* Client Tweaks (3.1.8)
+    * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
+* Cyclic (1.15.2)
+* Dark Utilities (1.8.209)
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.
@@ -74,8 +87,13 @@ Mod Updates:
     * ADDED: Ore-swapping: replaces other mod ores with Geolosys ones after they've generated (like for Twilight Forest).
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
-* Just Enough Items (4.9.1.179)
+* Just Enough Items (4.9.1.187)
+* KleeSlabs (5.4.10)
 * ModTweaker (4.0.12)
+* Mystical Agriculture (1.6.10)
+    * Added PneumaticCraft crops: Compressed Iron
+* Overloaded (0.0.52)
+    * Multi-Tool now gives better error message when unable to break / place
 * PrimalCore (0.6.54)
 * PneumaticCraft: Repressurized (0.6.6-192)
     * Fix: crash when crafting Speed Upgrades in some situations.
@@ -85,6 +103,8 @@ Mod Updates:
 * Simple Generators (2.0.10a)
 * Tinkers Construct (2.10.0.79)
 * Toast Control (1.6.0)
+* Triumph (1.13.0)
+    * Added support for new Better Advancements options
 * Twilight Forest (3.7.424)
     * See: https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393
 * ValkyrieLib (2.0.10b)

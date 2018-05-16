@@ -115,8 +115,14 @@ Cauldron.remove([<rustic:tallow>]);
 //Remove Cut Leather (Tanned) from Cauldron and oredict
 Cauldron.remove([<betterwithmods:material:32> * 2]);
 
+//Remove Pot As recipes because a single recipe with all wooden items is confusing
+Cauldron.remove([<betterwithmods:material:21>]);
+Cauldron.remove([<betterwithmods:material:21> * 2]);
+
 //==============================
 //Unstoked
+//Cauldron.addUnstoked(IIngredient[] inputs, IItemStack[] outputs);
+//==============================
 Cauldron.addUnstoked([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<ore:pelt>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<primal:pigman_hide_raw>], [<betterwithmods:material:12> * 2]);
@@ -131,6 +137,12 @@ Cauldron.addUnstoked([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <
 
 //==============================
 //Stoked
+//Cauldron.addStoked(IIngredient[] inputs, IItemStack[] outputs);
+//==============================
+Cauldron.addStoked([<ore:logWood>], [<betterwithmods:material:21> * 2]);
+Cauldron.addStoked([<ore:plankWood> * 4], [<betterwithmods:material:21>]);
+Cauldron.addStoked([<ore:dustWood> * 16], [<betterwithmods:material:21>]);
+
 
 /*
 	Crucible

@@ -50,6 +50,7 @@ Enhancements:
 * Adjusted Aevitas attunement perk and Mineralis ritual to only spawn geolosys ores
 * Added recipes for the Bronze tools added by PickelTweaks
 * Added recipe for rice dough to the Mixer modular machine (#2447)
+* Updated Better with Mods potash recipes so they are more clear
 
 Mod Updates:
 * Actually Additions (r135)

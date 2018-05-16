@@ -41,6 +41,7 @@ var removeItems as IItemStack[] = [
 	<natura:overworld_slab:3>,
 	<natura:overworld_slab:4>,
 	<natura:overworld_slab>,
+	<mekanism:saltblock>,
 	<primal:slab_ironwood>,
 	<rustic:ironwood_slab_item>,
 	<rustic:olive_slab_item>,

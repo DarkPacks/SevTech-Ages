@@ -150,11 +150,17 @@ addGrindstoneRecipe(<ore:dyeBlack>.firstItem * 2, <actuallyadditions:block_black
 addGrindstoneRecipe(<ore:dyeBlack>.firstItem * 2, <minecraft:dye>, 12, false);
 addGrindstoneRecipe(<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>, 12, false);
 addGrindstoneRecipe(<primal:bone_knapp> * 2, <minecraft:bone>, 16, false);
-addGrindstoneRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 24, false);
 addGrindstoneRecipe(<primal:salt_dust_rock>, <minecraft:sand>, 24, false);
 addGrindstoneRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 16, false);
 addGrindstoneRecipe(<tconstruct:stone_stick>, <minecraft:cobblestone>, 32, false);
 addGrindstoneRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 32, false);
+addGrindstoneRecipe(<ore:dustSalt>.firstItem * 4, <mekanism:saltblock>, 24, false);
+
+// Salt Grinding
+addGrindstoneRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 24, false);
+addGrindstoneRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 24, false);
+addGrindstoneRecipe(<primal:salt_dust_fire> * 4, <primal:ore_salt:1>, 24, false);
+addGrindstoneRecipe(<mekanism:salt> * 4, <mekanism:saltblock>, 24, false);
 
 //Recipes with Secondary Outputs
 addGrindstoneRecipeWithSecondary(<minecraft:dye:15>, <primal:bone_knapp>, 16, false, <minecraft:dye:15>, 20);
@@ -188,3 +194,9 @@ for seed in seedOreDict.items {
 for output, input in pressPairs {
 	addPressRecipe(output, input);
 }
+
+// Salt Pressing
+addPressRecipe(<primal:salt_netjry_block>, <primal:salt_dust_netjry> * 4);
+addPressRecipe(<primal:ore_salt>, <primal:salt_dust_rock> * 4);
+addPressRecipe(<primal:ore_salt:1>, <primal:salt_dust_fire> * 4);
+addPressRecipe(<mekanism:saltblock>, <mekanism:salt> * 4);

@@ -59,6 +59,11 @@ MetalPress.addRecipe(<abyssalcraft:shadowgem> * 1, <abyssalcraft:shadowshard>, <
 MetalPress.addRecipe(<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard>, <immersiveengineering:mold:7>, 500, 1);
 // Shadowgem -> Shadowshard
 MetalPress.addRecipe(<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>, <immersiveengineering:mold:7>, 500, 1);
+// Salt Dust -> Salt Block
+MetalPress.addRecipe(<primal:salt_netjry_block> * 1, <primal:salt_dust_netjry>, <immersiveengineering:mold:5>, 500, 4);
+MetalPress.addRecipe(<primal:ore_salt:1> * 1, <primal:salt_dust_fire>, <immersiveengineering:mold:5>, 500, 4);
+MetalPress.addRecipe(<primal:ore_salt> * 1, <primal:salt_dust_rock>, <immersiveengineering:mold:5>, 500, 4);
+MetalPress.addRecipe(<mekanism:saltblock> * 1, <mekanism:salt>, <immersiveengineering:mold:5>, 500, 4);
 
 /*
 	Squeezer
@@ -98,8 +103,9 @@ Crusher.addRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 3000); //Sharp B
 
 Crusher.addRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 3000); // Netjry Salt to Netjry Salt
 Crusher.addRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 3000); // Halite Salt Ore to Halite Rock Salt
-Crusher.addRecipe(<primal:salt_dust_rock:1> * 4, <primal:salt_dust_fire>, 3000); // Fire Salt Ore to Fire Rock Salt
+Crusher.addRecipe(<primal:salt_dust_fire> * 4, <primal:ore_salt:1>, 3000); // Fire Salt Ore to Fire Rock Salt
 Crusher.addRecipe(<betterwithmods:material:37>, <minecraft:coal:1>, 3000); // Charcoal to Dust
+Crusher.addRecipe(<ore:dustSalt>.firstItem * 4, <mekanism:saltblock>, 3000); // Salt Block -> Dust
 
 /*
 	Arc Furnace

@@ -154,7 +154,6 @@ addGrindstoneRecipe(<primal:salt_dust_rock>, <minecraft:sand>, 24, false);
 addGrindstoneRecipe(<primal:tannin_ground> * 2, <ore:barkWood>, 16, false);
 addGrindstoneRecipe(<tconstruct:stone_stick>, <minecraft:cobblestone>, 32, false);
 addGrindstoneRecipe(<minecraft:dye:15> * 2, <primal:shark_tooth>, 32, false);
-addGrindstoneRecipe(<ore:dustSalt>.firstItem * 4, <mekanism:saltblock>, 24, false);
 
 // Salt Grinding
 addGrindstoneRecipe(<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>, 24, false);

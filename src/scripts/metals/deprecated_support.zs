@@ -1,4 +1,5 @@
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemStack;
 
 import mods.tconstruct.Casting;
 
@@ -42,7 +43,7 @@ for partName, part in metals.fiery {
                 tinkersCast = <tconstruct:cast_custom:1>;
             }
 
-            if (tinkersCast as bool) {
+            if (!isNull(tinkersCast)) {
                 Casting.removeTableRecipe(preferredMetalItem);
                 Casting.addTableRecipe(preferredMetalItem, tinkersCast, oldLiquid, fluidAmount, consumeCast);
             }

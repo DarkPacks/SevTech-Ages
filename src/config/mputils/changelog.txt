@@ -101,6 +101,7 @@ Mod Updates:
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
     * Fix: crash when right-clicking some PneumaticCraft blocks with other mods' wrenches
 * ReAuth (3.6.0)
+* RebornCore (3.8.2.277)
 * Simple Generators (2.0.10a)
 * Tinkers Construct (2.10.0.79)
 * Toast Control (1.6.0)

@@ -165,7 +165,7 @@ global metalItems as IIngredient[string][string] = {
 		dust: null,
 		gear: <materialpart:fiery:gear>,
 		ingot: <twilightforest:fiery_ingot>,
-		liquid: <liquid:fiery>,
+		liquid: <liquid:fierymetal>,
 		nugget: null,
 		plate: <materialpart:fiery:plate>,
 		rod: <materialpart:fiery:rod>

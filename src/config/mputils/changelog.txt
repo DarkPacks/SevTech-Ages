@@ -42,6 +42,7 @@ Bug Fixes:
 * Disabled the Uncrafter for good (#2436)
 * Fixed Paperclip Factory not forming when conveyors wern't facing/moving items north (#2404)
 * Fixed Orematic Mk2 and Mk3 requiring some blocks being placed in a specific orientation
+* Fixed more dupe bugs caused by Cyclic Uncrafting Grinder and Syclic Sack of Holding
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

@@ -78,8 +78,6 @@ Casting.addBasinRecipe(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>,
 
 Casting.addTableRecipe(metals.steeleaf.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
 
-Casting.addTableRecipe(metals.fiery.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.fiery.liquid.liquids[0], 144, false);
-
 //Redstone Alloy Rod
 //TODO: Is this being handled by metals?
 Casting.addTableRecipe(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);

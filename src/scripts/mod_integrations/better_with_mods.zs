@@ -197,9 +197,9 @@ var miscSawRecipes as IIngredient[][IItemStack[]]  = {
 		<totemic:cedar_leaves>,
 		<traverse:fir_leaves>
 		],
-    [<betterwithmods:material>]: [
-        MiniBlocks.getMiniBlock("corner", <ore:plankWood>)
-    ],
+	[<betterwithmods:material>]: [
+		MiniBlocks.getMiniBlock("corner", <ore:plankWood>)
+	],
 	[<minecraft:melon> * 9]: [
 		<minecraft:melon_block>
 	]

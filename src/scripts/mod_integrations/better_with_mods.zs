@@ -167,54 +167,53 @@ var sawRemovals as IItemStack[][] = [
 	[<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2],
 	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>],
 	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>],
-	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>]
+	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>],
+	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond>]
 ];
-
-// Input : [Outputs]
-var sawRecipes as IItemStack[][IIngredient] = {
-	<minecraft:leaves> : [stick * 2],
-	<minecraft:leaves:1> : [stick * 2],
-	<minecraft:leaves:2> : [stick * 2],
-	<minecraft:leaves:3> : [stick * 2],
-	<minecraft:leaves2> : [stick * 2],
-	<minecraft:leaves2:1> : [stick * 2],
-	<abyssalcraft:dltleaves> : [stick * 2],
-	<abyssalcraft:dreadleaves> : [stick * 2],
-	<betterwithmods:blood_leaves> : [stick * 2],
-	<natura:overworld_leaves> : [stick * 2],
-	<natura:overworld_leaves:1> : [stick * 2],
-	<natura:overworld_leaves:2> : [stick * 2],
-	<natura:overworld_leaves2> : [stick * 2],
-	<natura:overworld_leaves:3> : [stick * 2],
-	<natura:overworld_leaves2:1> : [stick * 2],
-	<natura:overworld_leaves2:2> : [stick * 2],
-	<natura:overworld_leaves2:3> : [stick * 2],
-	<natura:redwood_leaves> : [stick * 2],
-	<natura:nether_leaves> : [stick * 2],
-	<natura:nether_leaves:1> : [stick * 2],
-	<natura:nether_leaves:2> : [stick * 2],
-	<natura:nether_leaves2> : [stick * 2],
-	<natura:nether_leaves2:1> : [stick * 2],
-	<natura:nether_leaves2:2> : [stick * 2],
-	<rustic:leaves_apple> : [stick * 2],
-	<twilightforest:twilight_leaves> : [stick * 2],
-	<twilightforest:twilight_leaves:1> : [stick * 2],
-	<twilightforest:twilight_leaves:2> : [stick * 2],
-	<twilightforest:twilight_leaves:3> : [stick * 2],
-	<twilightforest:magic_leaves> : [stick * 2],
-	<totemic:cedar_leaves> : [stick * 2],
-	<traverse:fir_leaves> : [stick * 2]
-};
-
-//Add variable inputs into saw recipes map
-sawRecipes[cornerWood] = [<betterwithmods:material>];
 
 for outputs in sawRemovals {
 	Saw.remove(outputs);
 }
 
-for input in sawRecipes {
-	Saw.add(input, sawRecipes[input]);
+// [Outputs] : [Inputs]
+var miscSawRecipes as IIngredient[][IItemStack[]]  = {
+	[<minecraft:stick> * 2]: [
+		<minecraft:leaves:*>,
+		<minecraft:leaves2:*>,
+		<abyssalcraft:dltleaves>,
+		<abyssalcraft:dreadleaves>,
+		<betterwithmods:blood_leaves>,
+		<betterwithaddons:leaves_luretree>,
+		<betterwithaddons:leaves_mulberry>,
+		<betterwithaddons:leaves_sakura>,
+		<natura:overworld_leaves:*>,
+		<natura:overworld_leaves2:*>,
+		<natura:redwood_leaves>,
+		<natura:nether_leaves:*>,
+		<natura:nether_leaves2:*>,
+		<rustic:leaves_apple>,
+		<twilightforest:twilight_leaves:*>,
+		<twilightforest:magic_leaves>,
+		<totemic:cedar_leaves>,
+		<traverse:fir_leaves>
+		],
+    [<betterwithmods:material>]: [
+        MiniBlocks.getMiniBlock("corner", <ore:plankWood>)
+    ],
+	[<minecraft:melon> * 9]: [
+		<minecraft:melon_block>
+	]
+};
+
+for sawOutputs, sawInputs in miscSawRecipes {
+	for sawInput in sawInputs {
+		for sawInputItem in sawInput.items {
+			Saw.builder()
+				.buildRecipe(sawInput, sawOutputs)
+				.setInputBlockDrop(sawInputItem as IItemStack)
+				.build();
+		}
+	}
 }
 
 /*

@@ -1,33 +1,82 @@
 {
-  "Profession": "minecraft:librarian",
-  "Career": "cartographer",
-  "Offers": {
-    "Recipes": [
-      {
-        "action": "clear"
-      },
-      {
-        "action": "add",
-        "CareerLevel": 1,
-        "buy": {
-          "id": "minecraft:feather",
-          "Count": {
-            "min": 4,
-            "max": 8
-          }
-        },
-        "buyB": {
-          "id": "minecraft:dye",
-          "Count": {
-            "min": 8,
-            "max": 12
-          }
-        },
-        "sell": {
-          "id": "antiqueatlas:empty_antique_atlas",
-          "Count": 1
-        }
-      }
-    ]
-  }
+    "Profession":"minecraft:librarian",
+    "Career":"cartographer",
+    "Offers":{
+        "Recipes":[
+            {
+                "action":"clear",
+                "CareerLevel":1
+            },
+            {
+                "action":"clear",
+                "CareerLevel":2
+            },
+            {
+                "action":"clear",
+                "CareerLevel":3
+            },
+            {
+                "action":"add",
+                "CareerLevel":1,
+                "buy":{
+                    "id":"minecraft:feather",
+                    "Count":{
+                        "min":4,
+                        "max":8
+                    }
+                },
+                "buyB":{
+                    "id":"minecraft:dye",
+                    "Count":{
+                        "min":8,
+                        "max":12
+                    }
+                },
+                "sell":{
+                    "id":"antiqueatlas:empty_antique_atlas",
+                    "Count":1
+                }
+            },
+            {
+                "action":"add",
+                "CareerLevel":2,
+                "buy":{
+                    "id":"betterwithmods:material",
+                    "Damage":3,
+                    "Count":{
+                        "min":4,
+                        "max":8
+                    }
+                },
+                "sell":{
+                    "id":"betterwithmods:manual",
+                    "Count":1
+                }
+            },
+            {
+                "action":"add",
+                "CareerLevel":3,
+                "buy":{
+                    "id":"geolosys:cluster",
+                    "Damage":2,
+                    "Count":{
+                        "min":1,
+                        "max":2
+                    }
+                },
+                "buyB":{
+                    "id":"geolosys:cluster",
+                    "Damage":3,
+                    "Count":{
+                        "min":1,
+                        "max":2
+                    }
+                },
+                "sell":{
+                    "id":"geolosys:field_manual",
+                    "Count":1
+                }
+            }
+        ]
+    }
 }

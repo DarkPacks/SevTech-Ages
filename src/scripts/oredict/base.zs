@@ -404,3 +404,9 @@ for i in 0 to 16 {
 <ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_green:*>);
 <ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_lime:*>);
 <ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_black:*>);
+
+// Cobblestone Slab
+<ore:slabCobblestone>.add(<minecraft:stone_slab:3>);
+<ore:slabCobblestone>.add(<abyssalcraft:darkcobbleslab1>);
+<ore:slabCobblestone>.add(<traverse:red_rock_cobblestone_slab>);
+<ore:slabCobblestone>.add(<traverse:blue_rock_cobblestone_slab>);

@@ -81,7 +81,7 @@ recipes.addShaped(<horsepower:grindstone>, [[<minecraft:lead>, stick, <minecraft
 
 //==================================
 //Primal Tech
-recipes.addShaped(<primal_tech:clay_kiln>, [[clayball, clayball, clayball], [clayball, null, clayball], [clayball, <minecraft:stone_slab:3>, clayball]]);
+recipes.addShaped(<primal_tech:clay_kiln>, [[clayball, clayball, clayball], [clayball, null, clayball], [clayball, <ore:slabCobblestone>, clayball]]);
 recipes.addShaped(<primal_tech:wood_club>, [[null, log], [stick, null]]);
 recipes.addShaped(<primal_tech:bone_club>, [[null, <minecraft:bone_block>], [stick, null]]);
 recipes.addShaped(<primal_tech:stone_club>, [[null, stone], [stick, null]]);

@@ -228,6 +228,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
+	// GalactiCraft
+	<galacticraftcore:machine2:8>: [
+		[
+			[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>],
+			[<ore:tankOxygenHeavy>, <ore:tankOxygenHeavy>, <ore:tankOxygenHeavy>],
+			[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]
+		]
+	],
+
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>: [
 		[

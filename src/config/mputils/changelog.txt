@@ -53,6 +53,7 @@ Enhancements:
 * Added recipes for the Bronze tools added by PickelTweaks
 * Added recipe for rice dough to the Mixer modular machine (#2447)
 * Updated Better with Mods potash recipes so they are more clear
+* Allow any Heavy Oxygen Tank to be used in the Oxygen Storage Module recipe (#2479)
 
 Mod Updates:
 * Actually Additions (r135)

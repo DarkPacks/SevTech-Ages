@@ -91,6 +91,9 @@ var removeItems as IItemStack[] = [
 	//Quantum Storage
 	<quantumstorage:quantum_storage_unit>,
 
+	// GalactiCraft
+	<galacticraftcore:machine2:8>,
+
 	//Extra Planets
 	<extraplanets:tier1_space_suit_gravity_boots>,
 	<extraplanets:tier2_space_suit_boots>,

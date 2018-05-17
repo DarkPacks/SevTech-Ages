@@ -642,7 +642,6 @@ var itemsForStage as IIngredient[] = [
 	<galacticraftcore:item_basic_moon>,
 	<galacticraftcore:landing_pad:1>,
 	<galacticraftcore:machine2:4>,
-	<galacticraftcore:machine2:8>,
 	<galacticraftcore:machine2:12>,
 	<galacticraftcore:machine2>,
 	<galacticraftcore:machine3>,

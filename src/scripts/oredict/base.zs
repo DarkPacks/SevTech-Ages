@@ -386,3 +386,21 @@ for i in 0 to 16 {
 <ore:stoneLimestone>.add(<thebetweenlands:mossy_limestone_bricks>);
 <ore:stoneLimestonePolished>.add(<thebetweenlands:polished_limestone>);
 <ore:stoneLimestonePolished>.add(<thebetweenlands:weak_polished_limestone>);
+
+// Heavy Oxygen Tanks
+<ore:tankOxygenHeavy>.add(<galacticraftcore:oxygen_tank_heavy_full:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_white:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_orange:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_magenta:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_light_blue:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_yellow:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_pink:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_gray:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_light_gray:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_cyan:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_purple:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_blue:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_brown:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_green:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_lime:*>);
+<ore:tankOxygenHeavy>.add(<extraplanets:oxygen_tank_heavy_full_black:*>);

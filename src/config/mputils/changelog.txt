@@ -44,6 +44,7 @@ Bug Fixes:
 * Fixed Orematic Mk2 and Mk3 requiring some blocks being placed in a specific orientation
 * Fixed more dupe bugs caused by Cyclic Uncrafting Grinder and Cyclic Sack of Holding
 * Fixed Better with Mods Saw no longer working on leaves and melons (#2428 and #2483)
+* Fixed Explorer Map now showing for the Cartographer (#2480)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

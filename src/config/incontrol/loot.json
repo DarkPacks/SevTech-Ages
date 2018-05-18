@@ -770,6 +770,11 @@
     "random": 0.25
   },
   {
+    "mob": "animalium:wild_dog",
+    "item": "animalium:wild_dog_pelt",
+    "random": 0.5
+  },
+  {
     "mob": "animalium:rat",
     "item": "minecraft:bone",
     "random": 0.25

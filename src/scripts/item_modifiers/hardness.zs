@@ -30,7 +30,8 @@ var hardnessItems as float[IItemStack] = {
 	<nex:block_netherrack:3> : 2,
 	<nex:block_netherrack:2> : 2,
 	<nex:block_netherrack:0> : 2,
-	<nex:block_basalt:0> : 2
+	<nex:block_basalt:0> : 2,
+	<poweradapters:mj> : 2
 };
 
 for item in hardnessItems {

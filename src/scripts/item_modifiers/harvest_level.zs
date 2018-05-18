@@ -5,7 +5,8 @@ import crafttweaker.item.IItemStack;
 var pickaxeLevelPairs as IItemStack[][int] = {
 	1: [
 		<abyssalcraft:coraliumore>,
-		<bloodmagic:blood_rune>
+		<bloodmagic:blood_rune>,
+		<poweradapters:mj>
 	]
 };
 

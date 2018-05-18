@@ -50,6 +50,7 @@ Bug Fixes:
 * Fixed Explorer Map now showing for the Cartographer (#2480)
 * Moved Galacticraft Battery and Energy Storage Module to stage 4 to allow for the Tier 1 Space Suit to be charged (#2503)
 * Move sign recipe to age 0 (#2507)
+* Fix Power adapter breaking instantly with no drop (#2478)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

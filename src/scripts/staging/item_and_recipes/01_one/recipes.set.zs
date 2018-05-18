@@ -204,7 +204,6 @@ var itemsForStage as IIngredient[] = [
 	<minecraft:furnace>,
 	<minecraft:item_frame>,
 	<minecraft:lit_pumpkin>,
-	<minecraft:sign>,
 	<minecraft:tnt>,
 
 	//Cyclic

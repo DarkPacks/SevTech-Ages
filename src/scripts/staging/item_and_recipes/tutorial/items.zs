@@ -110,7 +110,6 @@ var stageTutorialItems as IIngredient[] = [
 	<primal_tech:wood_club>,
 	<primal_tech:work_stump>,
 	<progressiontweaks:fire_pit_unlit>,
-	<progressiontweaks:flat_bread>,
 	<progressiontweaks:spear>,
 	<progressiontweaks:stone_hammer>,
 	<progressiontweaks:tomahawk>,

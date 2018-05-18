@@ -33,6 +33,7 @@ var stageZeroItems as IIngredient[] = [
 	<primalchests:primal_chest_advanced>,
 	<progressiontweaks:broken_spear_shaft>,
 	<progressiontweaks:broken_spear_tip>,
+	<progressiontweaks:flat_bread>,
 	<progressiontweaks:unfired_clay_bowl>,
 	<spartanshields:shield_basic_stone>,
 	<spartanshields:shield_basic_wood>,

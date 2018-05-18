@@ -16,13 +16,13 @@ Important Notes:
 Bug Fixes:
 * Fix platinum crushing / etc recipes (#2315)
 * Fix wool dying recipe giving 1x output instead of 8x - No, we are not jerks (#2307)
-* Adjusted tooltip of Journeymap Token to clarify it needds to be eaten not just obtained (#2291)
+* Adjusted tooltip of Journeymap Token to clarify it needs to be eaten not just obtained (#2291)
 * Fix Ore Excavation modifier recipe not working (#2314)
 * Fixed some buckets being shown/hidden incorrectly
 * Blacklist aspectrus crop from carryon (#2341)
 * Adjust fiery sword and pickaxe recipes to be craftable in age 2 (#2288)
 * Add a few more entries to book array (#2363)
-* Twilight Forst Castle Doors now drop the right item
+* Twilight Forest Castle Doors now drop the right item
 * Re-remove tiny iron dust recipe (#2298)
 * Move Garden Scythe into proper age 3 to match items used in recipe
 * Add back Ironberry Juice recipe (#2298)
@@ -38,12 +38,12 @@ Bug Fixes:
 * Turned off Better with Mods handling of default Mossy Cobble and Mossy Stone Brick recipes (#2393)
 * Fixed dupe bug by Blacklisted Immersive Engineering blocks from the Cyclic Sack of Holding (#2410)
 * Fix Arc Furnace bronze alloying giving incorrect output amount (#2334)
-* Mining Ilmenite with tilk touch will now give the block
+* Mining Ilmenite with silk touch will now give the block
 * Fix Chisels and Bits chisel recipe to work in 2x2 grid
 * Removed ability to put ironbackpacks inside of ironbackpacks (#2402)
-* Fixed Parchemtn advancement not triggering in some situations (#2416)
+* Fixed Parchment advancement not triggering in some situations (#2416)
 * Disabled the Uncrafter for good (#2436)
-* Fixed Paperclip Factory not forming when conveyors wern't facing/moving items north (#2404)
+* Fixed Paperclip Factory not forming when conveyors weren't facing/moving items north (#2404)
 * Fixed Orematic Mk2 and Mk3 requiring some blocks being placed in a specific orientation
 * Fixed more dupe bugs caused by Cyclic Uncrafting Grinder and Cyclic Sack of Holding
 * Fixed Better with Mods Saw no longer working on leaves and melons (#2428 and #2483)
@@ -52,13 +52,13 @@ Bug Fixes:
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors
-* Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we dont't want to waste
-* Adjusted Aevitas attunement perk and Mineralis ritual to only spawn geolosys ores
-* Added recipes for the Bronze tools added by PickelTweaks
+* Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we don't want to waste
+* Adjusted Aevitas attunement perk and Mineralis ritual to only spawn Geolosys ores
+* Added recipes for the Bronze tools added by Pickle Tweaks
 * Added recipe for rice dough to the Mixer modular machine (#2447)
 * Updated Better with Mods potash recipes so they are more clear
 * Allow any Heavy Oxygen Tank to be used in the Oxygen Storage Module recipe (#2479)
-* Allow a larger selection of cobbleslab for the Kiln recipe (#2482)
+* Allow a larger selection of cobblestone slabs for the Kiln recipe (#2482)
 
 Mod Updates:
 * Actually Additions (r135)

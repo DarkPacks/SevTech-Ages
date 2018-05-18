@@ -10,6 +10,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.0.8
 
+Important Notes:
+* Molten Fiery liquid has changed. The old liquid is now deprecated and a new one will take over provided by Twilight Forest
+
 Bug Fixes:
 * Fix platinum crushing / etc recipes (#2315)
 * Fix wool dying recipe giving 1x output instead of 8x - No, we are not jerks (#2307)

@@ -52,6 +52,7 @@ Bug Fixes:
 * Move sign recipe to age 0 (#2507)
 * Fix Power adapter breaking instantly with no drop (#2478)
 * Move Flat Bread to age 0 to match Flour (#2508)
+* Fix Mekanism Tank clearing recipe giving creative tank in return (#2513)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

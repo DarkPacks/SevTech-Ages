@@ -26,7 +26,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	//Clear Mekanism creative tank
 	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}): [
 	    [
-			<mekanism:machineblock2:11>.withTag({tier: 4})
+			<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}, false).onlyWithTag({tier: 4})
 		]
 	]
 };

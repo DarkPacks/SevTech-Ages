@@ -80,8 +80,9 @@ Mod Updates:
     * Fixed Better Bedrock's Itemblock not registering correctly
 * Better With Addons (0.41)
     * Fixes a crash where BWA has been using a deprecated slipperiness method for months.
-* Better With Mods (2.1.18)
+* Better With Mods (2.1.20)
     * Fix server crash with HCFurnace tooltips.
+    * Greatly optimize the kiln, saw and turntable recipe handlers.
 * BnBGamingCore (0.8.0)
     * Added Module for next Triumph update
 * BNBGamingLib (11.2)
@@ -94,6 +95,9 @@ Mod Updates:
 * BuildCraft: Transport (7.99.17)
 * Carry On (1.9)
     * Fixed a common issue where some blocks could not get picked up
+* CD4017BE Library (6.2.4)
+    * Added opaqueness feature to block covers
+    * Added improved FakePlayer implementation
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
 * Cyclic (1.15.3)

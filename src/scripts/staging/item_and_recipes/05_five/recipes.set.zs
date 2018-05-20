@@ -783,8 +783,6 @@ var itemsForStage as IIngredient[] = [
 	<extraplanets:tier2_space_suit_jetpack_chest>,
 	<extraplanets:tier3_space_suit_jetpack_chest>,
 	<extraplanets:tier4_space_suit_jetpack_chest>,
-	<extraplanets:nuclear_bomb>,
-	<extraplanets:fire_bomb>,
 	<extraplanets:orange_sandstone>,
 	<extraplanets:red_sandstone>,
 	<extraplanets:dense_ice>,

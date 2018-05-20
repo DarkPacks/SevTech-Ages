@@ -95,6 +95,8 @@ var removeItems as IItemStack[] = [
 	<galacticraftcore:machine2:8>,
 
 	//Extra Planets
+	<extraplanets:fire_bomb>,
+	<extraplanets:nuclear_bomb>,
 	<extraplanets:tier1_space_suit_gravity_boots>,
 	<extraplanets:tier2_space_suit_boots>,
 	<extraplanets:tier2_space_suit_chest>,

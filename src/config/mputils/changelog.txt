@@ -54,6 +54,7 @@ Bug Fixes:
 * Move Flat Bread to age 0 to match Flour (#2508)
 * Fix Mekanism Tank clearing recipe giving creative tank in return (#2513)
 * Fix Astral Sorcery Rock Crystal Sample not showing in JEI (#1271)
+* Fixed missed recipes in ExPlant with it's uranium (#2539)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

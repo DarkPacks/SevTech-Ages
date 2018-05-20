@@ -238,6 +238,20 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Extra Planets
+	<extraplanets:fire_bomb>: [
+		[
+			[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot],
+			[<ore:sand>, <extraplanets:tier5_items:11>, <ore:sand>],
+			[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot]
+		]
+	],
+	<extraplanets:nuclear_bomb>: [
+		[
+			[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>],
+			[<ore:sand>, metals.uranium.ingot, <ore:sand>],
+			[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>]
+		]
+	],
 	<extraplanets:tier1_space_suit_gravity_boots>: [
 		[
 			[null, <extraplanets:gravity_controller>, null],

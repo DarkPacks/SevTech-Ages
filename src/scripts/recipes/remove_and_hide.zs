@@ -306,7 +306,10 @@ static removeAndHideItems as IItemStack[] = [
 	<mekanism:machineblock:4>, //Bye bye miner!
 
 	// New Book Don't Use! (Yet)
-	<valkyrielib:guide>
+	<valkyrielib:guide>,
+
+	// Still in DEV! Won't enable till it's finished.
+	<cyclicmagic:robot_spawner>
 ];
 
 for item in removeAndHideItems {

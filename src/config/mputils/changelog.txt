@@ -65,13 +65,21 @@ Enhancements:
 * Allow a larger selection of cobblestone slabs for the Kiln recipe (#2482)
 * Add a additional 50% drop chance for Wild Dog Pelts from Wild Dogs
 
+Mods Added:
+* SevTweaks (0.1.0)
+    * Custom mod to allow more integration with mods in the pack.
+
 Mod Updates:
 * Actually Additions (r135)
+* Antique Atlas (4.4.9)
+    * The Biome id fix from 4.4.8 wasn't actually merged. This was fixed.
 * B.A.S.E (3.7.2)
     * Fixes crash when invalid items are fed
 * Bedrock B Gone (5.0-b8)
     * Fixed Better Bedrock's Itemblock not registering correctly
-* Better With Mods (2.1.16)
+* Better With Addons (0.41)
+    * Fixes a crash where BWA has been using a deprecated slipperiness method for months.
+* Better With Mods (2.1.18)
     * Fix server crash with HCFurnace tooltips.
 * BnBGamingCore (0.8.0)
     * Added Module for next Triumph update
@@ -87,7 +95,11 @@ Mod Updates:
     * Fixed a common issue where some blocks could not get picked up
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
-* Cyclic (1.15.2)
+* Cyclic (1.15.3)
+    * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
+    * Upgraded cable models.
+    * Export cables now connect and pump out on all sides.
+    * Exchange Scepters updated to be compatible with GameStages, and working in off-hand.
 * Dark Utilities (1.8.209)
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
@@ -97,10 +109,15 @@ Mod Updates:
     * Fixed some shaped table recipes showing incorrectly in JEI
 * Fast Workbench (1.3.2)
 * Forge MultiPart CBE (2.4.2.58)
-* Geolosys (1.9.1)
+* Geolosys (1.9.2)
     * ADDED: Ore-swapping: replaces other mod ores with Geolosys ones after they've generated (like for Twilight Forest).
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
+    * FIXED: Dimension Blacklisting issues with custom entries
+* Industrial Foregoing (1.9.1-166)
+    * Black Hole Tank Block now changes color depending of the fluid it contains
+    * Black hole unit extract button now respects stack sizes
+    * Mob Crusher and Mob Slaughter Factory do same amount of damage
 * Just Enough Items (4.9.1.187)
 * KleeSlabs (5.4.10)
 * ModTweaker (4.0.12)
@@ -108,15 +125,22 @@ Mod Updates:
     * Added PneumaticCraft crops: Compressed Iron
 * Overloaded (0.0.52)
     * Multi-Tool now gives better error message when unable to break / place
-* PrimalCore (0.6.54)
+* PrimalCore (0.6.55)
+    * Fix Barrel Crash with FBP
+    * Fix Side sensitive Capabilities for Cauldron and Fish Traps
 * PneumaticCraft: Repressurized (0.6.6-192)
     * Fix: crash when crafting Speed Upgrades in some situations.
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
     * Fix: crash when right-clicking some PneumaticCraft blocks with other mods' wrenches
 * ReAuth (3.6.0)
+* Rustic (1.0.5)
+    * Possibly fixed some bugs
 * RebornCore (3.8.2.277)
 * Simple Generators (2.0.10a)
-* Tinkers Construct (2.10.0.79)
+* Tinkers Construct (2.10.0.81)
+    * Implement a FastWorkbench approach in the Crafting Station. This should help with big modpacks with lots of recipes
+    * Fix faucets trying to drain from the wrong side
+    * Several smaller fixes/changes that got lost in translation
 * Toast Control (1.6.0)
 * Triumph (1.13.0)
     * Added support for new Better Advancements options

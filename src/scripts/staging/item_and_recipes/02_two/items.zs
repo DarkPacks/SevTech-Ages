@@ -702,6 +702,7 @@ var stage2Items as IIngredient[] = [
 	<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}}),
 	<astralsorcery:itemwand>.withTag({astralsorcery: {}}),
 	<astralsorcery:itemwand>,
+	<astralsorcery:blockgeolosyssamplecluster>,
 
 	//Abyssalcraft
 	<abyssalcraft:aaxe>,

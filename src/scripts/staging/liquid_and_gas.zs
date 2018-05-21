@@ -93,6 +93,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 	STAGES.two : [
 		<liquid:astralsorcery.liquidstarlight>,
 		<liquid:ender_pearl>,
+		<liquid:fiery>,  //Depricated will be removed in 3.1.0
 		<liquid:fiery_essence>,
 		<liquid:fierymetal>,
 		<liquid:glass>,

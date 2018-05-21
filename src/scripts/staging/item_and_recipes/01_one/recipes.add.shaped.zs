@@ -324,6 +324,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
 		]
 	],
+	<minecraft:chest> : [
+		[
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[null, <primalchests:primal_chest_advanced>, null],
+			[<ore:plankWood>, null, <ore:plankWood>]
+		]
+	],
 
 	//Hammer
 	<primal_tech:stone_mallet> : [

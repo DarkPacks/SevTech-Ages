@@ -67,6 +67,7 @@ Enhancements:
 * Allow any Heavy Oxygen Tank to be used in the Oxygen Storage Module recipe (#2479)
 * Allow a larger selection of cobblestone slabs for the Kiln recipe (#2482)
 * Add a additional 50% drop chance for Wild Dog Pelts from Wild Dogs
+* Added upgrade recipe for the Primal Chest Advanced to a Minecraft Chest
 
 Mods Added:
 * SevTweaks (0.1.0)

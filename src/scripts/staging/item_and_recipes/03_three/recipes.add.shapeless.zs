@@ -80,6 +80,20 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<extendedcrafting:material:7>*2 : [
 		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]
+	],
+
+	//Breakable Bound Tool to Unbreakable Bound Tool conversions
+	<bloodmagic:bound_sword>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_sword>]
+	],
+	<bloodmagic:bound_pickaxe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_pickaxe>]
+	],
+	<bloodmagic:bound_axe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_axe>]
+	],
+	<bloodmagic:bound_shovel>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_shovel>]
 	]
 };
 

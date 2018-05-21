@@ -12,16 +12,16 @@ AlchemyArray.removeRecipe(<minecraft:redstone>, <bloodmagic:slate:3>);
 AlchemyArray.addRecipe(<bloodmagic:sigil_divination>, <betterwithaddons:tweakmat>, <bloodmagic:slate>);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_sword>);
-AlchemyArray.addRecipe(<bloodmagic:bound_sword>, <bloodmagic:component:8>, <minecraft:golden_sword>);
+AlchemyArray.addRecipe(<bloodmagic:bound_sword>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}), <bloodmagic:component:8>, <minecraft:golden_sword>);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_pickaxe>);
-AlchemyArray.addRecipe(<bloodmagic:bound_pickaxe>, <bloodmagic:component:8>, <minecraft:golden_pickaxe>);
+AlchemyArray.addRecipe(<bloodmagic:bound_pickaxe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}), <bloodmagic:component:8>, <minecraft:golden_pickaxe>);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_axe>);
-AlchemyArray.addRecipe(<bloodmagic:bound_axe>, <bloodmagic:component:8>, <minecraft:golden_axe>);
+AlchemyArray.addRecipe(<bloodmagic:bound_axe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}), <bloodmagic:component:8>, <minecraft:golden_axe>);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_shovel>);
-AlchemyArray.addRecipe(<bloodmagic:bound_shovel>, <bloodmagic:component:8>, <minecraft:golden_shovel>);
+AlchemyArray.addRecipe(<bloodmagic:bound_shovel>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}), <bloodmagic:component:8>, <minecraft:golden_shovel>);
 
 
 AlchemyArray.removeRecipe(<bloodmagic:component:11>, <bloodmagic:slate:1>);

@@ -100,3 +100,12 @@ Altar.addTraitAltarRecipe(<astralsorcery:blockchalice>, 5500, 700, [
 StarlightInfusion.removeInfusion(<astralsorcery:itemchargedcrystalpickaxe>);
 
 StarlightInfusion.addInfusion(<actuallyadditions:item_dust:5>, <astralsorcery:itemcraftingcomponent:2>, false, 0.25, 300);
+
+/*
+	Starlight Transmutation
+
+	https://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Transmutation/
+*/
+
+LightTransmutation.addTransmutation(<extraplanets:kepler22b:2>, <mysticalagriculture:inferium_ore>, 1000);
+LightTransmutation.addTransmutation(<extraplanets:kepler22b:4>, <mysticalagriculture:prosperity_ore>, 1000);

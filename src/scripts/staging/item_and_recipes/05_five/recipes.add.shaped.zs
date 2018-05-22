@@ -238,6 +238,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Extra Planets
+	<extraplanets:advanced_fuel_loader>: [
+		[
+			[metals.nickel.ingot, metals.nickel.ingot, metals.nickel.ingot],
+			[metals.nickel.ingot, <galacticraftcore:fuel_loader>, metals.nickel.ingot],
+			[<extraplanets:tier5_items:5>, <extraplanets:tier5_items:8>, <extraplanets:tier5_items:5>]
+		]
+	],
 	<extraplanets:fire_bomb>: [
 		[
 			[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot],

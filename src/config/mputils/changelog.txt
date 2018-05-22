@@ -58,6 +58,7 @@ Bug Fixes:
 * Fixed Blood Magic bound tools being able to break in some situations
 * Hopefully fix the spawn rate for Imps (#1910)
 * Fixed Wither Skulls not craftable with withering souls (#2564)
+* Fixed invalid recipe for a few Extra Planet things (#2575)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

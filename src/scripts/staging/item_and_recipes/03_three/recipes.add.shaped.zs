@@ -1367,6 +1367,15 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<industrialforegoing:conveyor:*>, <ore:dyeLightGray>, <industrialforegoing:conveyor:*>],
 			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>]
 		]
+	],
+
+	//Withering Souls to Skulls fix
+	<minecraft:skull:1> * 3 : [
+		[
+			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null],
+			[<mysticalagradditions:stuff:1>, null, null],
+			[null, null, null]
+		]
 	]
 
 };

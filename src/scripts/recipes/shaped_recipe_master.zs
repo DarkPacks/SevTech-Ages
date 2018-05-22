@@ -220,7 +220,7 @@ recipes.removeShaped(<quantumstorage:quantum_bag>, [
 	[<ore:wool>, <ore:wool>, <ore:wool>]
 ]);
 
-
+recipes.removeShaped(<minecraft:skull:1> * 3);
 
 
 

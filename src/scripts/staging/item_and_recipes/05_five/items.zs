@@ -1964,6 +1964,7 @@ var stage5Items as IIngredient[] = [
 	<rebornstorage:multicrafter:1>,
 	<rebornstorage:multicrafter:2>,
 	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter:4>,
 	<rebornstorage:multicrafter>,
 	<rebornstorage:storagecell:1>,
 	<rebornstorage:storagecell:2>,

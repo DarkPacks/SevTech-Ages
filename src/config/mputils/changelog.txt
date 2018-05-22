@@ -102,20 +102,27 @@ Mod Updates:
 * CD4017BE Library (6.2.4)
     * Added opaqueness feature to block covers
     * Added improved FakePlayer implementation
+* Chisels & Bits (14.17)
+    * Special case air when determining colors, to prevent crashing when another mod registers their color handler for air.
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
+* Cyclops Core (0.11.6)
 * Cyclic (1.15.3)
     * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
     * Upgraded cable models.
     * Export cables now connect and pump out on all sides.
     * Exchange Scepters updated to be compatible with GameStages, and working in off-hand.
-* Dark Utilities (1.8.209)
+* Dark Utilities (1.8.210)
+    * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.
 * Extended Crafting (1.3.4)
     * Fixed combination crafting ignoring NBT
     * Fixed some shaped table recipes showing incorrectly in JEI
+* Extra Planets (0.3.7)
+    * See: https://minecraft.curseforge.com/projects/extraplanets/files/2564038
+* Farming for Blockheads (3.1.17)
 * Fast Workbench (1.3.2)
 * Forge MultiPart CBE (2.4.2.58)
 * Geolosys (1.9.2)
@@ -127,11 +134,19 @@ Mod Updates:
     * Black Hole Tank Block now changes color depending of the fluid it contains
     * Black hole unit extract button now respects stack sizes
     * Mob Crusher and Mob Slaughter Factory do same amount of damage
+* Inductive Logistics (1.2.2)
+    * Pipe model parts and contents hidden under opaque covers is no longer rendered (the server won't even send update packets for them) for performance improvement.
+    * Item Placer crash with vanilla blocks that have GUIs.
+    * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
+* Integrated Dynamics (0.11.12)
+    * Fix incorrect regex_groups operators output type.
 * Just Enough Items (4.9.1.187)
 * KleeSlabs (5.4.10)
+* MJRLegends Lib (1.1.4)
 * ModTweaker (4.0.12)
 * Mystical Agriculture (1.6.10)
     * Added PneumaticCraft crops: Compressed Iron
+* No Recipe Book (1.2.0)
 * Overloaded (0.0.52)
     * Multi-Tool now gives better error message when unable to break / place
 * PrimalCore (0.6.55)
@@ -144,8 +159,11 @@ Mod Updates:
 * ReAuth (3.6.0)
 * Rustic (1.0.5)
     * Possibly fixed some bugs
-* RebornCore (3.8.2.277)
+* RebornCore (3.8.3.279)
 * Simple Generators (2.0.10a)
+* Steve's Carts Reborn (2.4.19.95)
+    * Fixed fluid manager not moving on when constantly using up the carts tanks.
+    * Rail remover fix for activator block.
 * Tinkers Construct (2.10.0.81)
     * Implement a FastWorkbench approach in the Crafting Station. This should help with big modpacks with lots of recipes
     * Fix faucets trying to drain from the wrong side

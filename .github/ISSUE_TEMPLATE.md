@@ -58,7 +58,7 @@ your logs. ATLauncher is a similar process. -->
 ## Server Information
 * Java Version:
 * Operating System:
-* Hoster/Hosting Soultion:
+* Hoster/Hosting Solution:
 * Sponge (Non-Vanilla Forge) Server?:
 <!--- If YES please list the installed content (Mods/Plugins) -->
 * Additional Content Installed?:

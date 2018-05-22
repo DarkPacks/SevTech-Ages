@@ -95,5 +95,10 @@
 		],
 		"dimension": 7,
 		"result": "deny"
+	},
+	{
+		"mob": "natura:imp",
+		"mincount": "15,natura:imp",
+		"result": "deny"
 	}
 ]

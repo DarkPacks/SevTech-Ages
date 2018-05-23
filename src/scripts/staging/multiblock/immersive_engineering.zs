@@ -10,7 +10,6 @@ var multiblockMachinesForStages = {
 		"IE:AutoWorkbench",
 		"IE:BlastFurnace",
 		"IE:BlastFurnaceAdvanced",
-		"IE:BottlingMachine",
 		"IE:BucketWheel",
 		"IE:CokeOven",
 		"IT:CokeOvenAdvanced",
@@ -36,7 +35,8 @@ var multiblockMachinesForStages = {
 	],
 
 	STAGES.four : [
-		"IE:Assembler"
+		"IE:Assembler",
+		"IE:BottlingMachine"
 	]
 } as string[][string];
 

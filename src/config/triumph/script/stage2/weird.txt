@@ -2,7 +2,7 @@ setTitle("Top 10 Weirdest Gadgets")
 
 setIcon("weirdinggadget:weirding_gadget")
 
-setDescription("If you would like a chunk loader, craft a Weirding Gadget and place it down to load a 3x3 area")
+setDescription("If you would like a chunk loader, craft a Weirding Gadget and place it down to load a 3x3 area of chunks")
 
 setParent("triumph:stage2/enderman")
 setRequiresParent(true)

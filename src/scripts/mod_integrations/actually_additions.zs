@@ -43,3 +43,11 @@ Empowerer.addRecipe(<mysticalagriculture:crafting:5> * 4, <minecraft:prismarine_
 	<stevescarts:modulecomponents:45>, <extraplanets:jupiter:4>, <mysticalagriculture:crafting>, <extraplanets:neptune:6>,
 	5000, 200,  [0.698, 0.870, 0.960]
 );
+
+/*
+	Crusher
+*/
+actuallyAdditions.addCrusher(<minecraft:diamond> * 9 , <minecraft:diamond_block>); // Diamond Block -> Diamonds
+actuallyAdditions.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block>); // Lapis Block -> Lapis
+actuallyAdditions.addCrusher(<minecraft:redstone> * 9, <minecraft:redstone_block>); // Redstone Block -> Redstone
+actuallyAdditions.addCrusher(<minecraft:emerald> * 9, <minecraft:emerald_block>); // Emerald Block -> Emerald

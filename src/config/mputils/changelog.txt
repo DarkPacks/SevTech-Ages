@@ -60,6 +60,7 @@ Bug Fixes:
 * Fixed Wither Skulls not craftable with withering souls (#2564)
 * Fixed invalid recipe for a few Extra Planet things (#2575)
 * Fix Car Mod Yellow Painter using the wrong dye (#2594)
+* Fix Diamond Block not having an uncraft recipe back to Diamonds (#2599)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

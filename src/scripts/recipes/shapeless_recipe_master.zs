@@ -2,6 +2,13 @@
 //Vanilla
 recipes.remove(<minecraft:clay>);
 
+// Storage Blocks
+recipes.removeByRecipeName("minecraft:emerald");
+recipes.removeByRecipeName("chisel:emerald");
+recipes.removeByRecipeName("minecraft:lapis_lazuli");
+recipes.removeByRecipeName("minecraft:redstone");
+recipes.removeByRecipeName("chisel:redstone");
+
 //Fleece to String
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolShears>.transformNew(scripts.transformers.shearsTransformFunction)]);
 recipes.addShapeless(<minecraft:string> * 4, [<betterwithaddons:wool:*>, <ore:toolWorkBlade>]);

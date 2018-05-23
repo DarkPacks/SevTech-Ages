@@ -77,7 +77,9 @@ for log in <ore:logWood>.items {
 //[output, input]
 var stoneAnvilPair as IItemStack[][] = [
 	[<minecraft:flint> * 4, <primal_tech:flint_block>],
-	[<materialpart:stone:nugget>, stone]
+	[<materialpart:stone:nugget>, stone],
+	[<minecraft:dye:4> * 9, <minecraft:lapis_block>],
+	[<minecraft:redstone> * 9, <minecraft:redstone_block>]
 ];
 
 for pair in stoneAnvilPair {

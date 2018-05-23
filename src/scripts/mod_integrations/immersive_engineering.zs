@@ -64,6 +64,14 @@ MetalPress.addRecipe(<primal:salt_netjry_block> * 1, <primal:salt_dust_netjry>, 
 MetalPress.addRecipe(<primal:ore_salt:1> * 1, <primal:salt_dust_fire>, <immersiveengineering:mold:5>, 500, 4);
 MetalPress.addRecipe(<primal:ore_salt> * 1, <primal:salt_dust_rock>, <immersiveengineering:mold:5>, 500, 4);
 MetalPress.addRecipe(<mekanism:saltblock> * 1, <mekanism:salt>, <immersiveengineering:mold:5>, 500, 4);
+// Diamond Block
+MetalPress.addRecipe(<minecraft:diamond_block> * 1, <minecraft:diamond>, <immersiveengineering:mold:6>, 500, 9);
+// Lapis Block
+MetalPress.addRecipe(<minecraft:lapis_block> * 1, <minecraft:dye:4>, <immersiveengineering:mold:6>, 500, 9);
+// Redstone Block
+MetalPress.addRecipe(<minecraft:redstone_block> * 1, <minecraft:redstone>, <immersiveengineering:mold:6>, 500, 9);
+// Emerald Block
+MetalPress.addRecipe(<minecraft:emerald_block> * 1, <minecraft:emerald>, <immersiveengineering:mold:6>, 500, 9);
 
 /*
 	Squeezer
@@ -106,6 +114,10 @@ Crusher.addRecipe(<primal:salt_dust_rock> * 4, <primal:ore_salt>, 3000); // Hali
 Crusher.addRecipe(<primal:salt_dust_fire> * 4, <primal:ore_salt:1>, 3000); // Fire Salt Ore to Fire Rock Salt
 Crusher.addRecipe(<betterwithmods:material:37>, <minecraft:coal:1>, 3000); // Charcoal to Dust
 Crusher.addRecipe(<ore:dustSalt>.firstItem * 4, <mekanism:saltblock>, 3000); // Salt Block -> Dust
+Crusher.addRecipe(<minecraft:diamond> * 9, <minecraft:diamond_block>, 3000); // Diamond Block -> Diamonds
+Crusher.addRecipe(<minecraft:dye:4> * 9, <minecraft:lapis_block>, 3000); // Lapis Block -> Lapis
+Crusher.addRecipe(<minecraft:redstone> * 9, <minecraft:redstone_block>, 3000); // Redstone Block -> Redstone
+Crusher.addRecipe(<minecraft:emerald> * 9, <minecraft:emerald_block>, 3000); // Emerald Block -> Emerald
 
 /*
 	Arc Furnace

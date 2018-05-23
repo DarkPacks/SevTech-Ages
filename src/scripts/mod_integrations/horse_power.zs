@@ -199,3 +199,7 @@ addPressRecipe(<primal:salt_netjry_block>, <primal:salt_dust_netjry> * 4);
 addPressRecipe(<primal:ore_salt>, <primal:salt_dust_rock> * 4);
 addPressRecipe(<primal:ore_salt:1>, <primal:salt_dust_fire> * 4);
 addPressRecipe(<mekanism:saltblock>, <mekanism:salt> * 4);
+addPressRecipe(<minecraft:diamond_block>, <minecraft:diamond> * 9);
+addPressRecipe(<minecraft:lapis_block>, <minecraft:dye:4> * 9);
+addPressRecipe(<minecraft:redstone_block>, <minecraft:redstone> * 9);
+addPressRecipe(<minecraft:emerald_block>, <minecraft:emerald> * 9);

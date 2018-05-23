@@ -6,6 +6,10 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandunbreakable>,
 	<prospectors:prospector_low>,
 
+	// Minecraft
+	<minecraft:diamond_block>,
+	<minecraft:emerald_block>,
+
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,

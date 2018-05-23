@@ -222,15 +222,16 @@ var removeItems as IItemStack[] = [
 	<mob_grinding_utils:saw>,
 
 	//Car Mod
-	<car:sign_post>,
-	<car:screw_driver>,
-	<car:hammer>,
-	<car:sign>,
-	<car:engine_piston>,
-	<car:wrench>,
 	<car:axle>,
 	<car:battery>,
+	<car:engine_piston>,
+	<car:hammer>,
 	<car:number_plate>,
+	<car:painter_yellow>,
+	<car:screw_driver>,
+	<car:sign>,
+	<car:sign_post>,
+	<car:wrench>,
 
 	//BuildCraft
 	<buildcrafttransport:filtered_buffer>

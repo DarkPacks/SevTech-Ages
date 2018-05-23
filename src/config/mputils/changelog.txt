@@ -59,6 +59,7 @@ Bug Fixes:
 * Hopefully fix the spawn rate for Imps (#1910)
 * Fixed Wither Skulls not craftable with withering souls (#2564)
 * Fixed invalid recipe for a few Extra Planet things (#2575)
+* Fix Car Mod Yellow Painter using the wrong dye (#2594)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

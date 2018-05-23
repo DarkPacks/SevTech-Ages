@@ -1241,6 +1241,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
 		]
 	],
+	<car:painter_yellow>: [
+		[
+			[null, <ore:dyeYellow>, null],
+			[null, <ore:stickWood>, <ore:dyeYellow>],
+			[<ore:stickWood>, null, null]
+		]
+	],
 
 	//Buildcraft Quarry
 	<buildcraftbuilders:quarry>: [

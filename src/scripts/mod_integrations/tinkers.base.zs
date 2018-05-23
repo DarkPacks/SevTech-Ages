@@ -1,3 +1,4 @@
+import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
@@ -117,7 +118,14 @@ Melting.addRecipe(metalItems.platinum.liquid.liquids[0] * 144, <geolosys:cluster
 Melting.removeRecipe(<liquid:stone>);
 Melting.addRecipe(<liquid:stone> * 72, <tconstruct:soil:0>);
 Melting.addRecipe(<liquid:stone> * 72, <tconstruct:materials>);
-Melting.addRecipe(<liquid:stone> * 288, <tconstruct:seared:*>);
+
+val searedBlock = <tconstruct:seared>.definition;
+for i in 0 .. 10{
+    if(i != 1){
+    Melting.addRecipe(<liquid:stone> * 288, searedBlock.makeStack(i));
+    }
+}
+Melting.addRecipe(<liquid:stone> * 216, <tconstruct:seared:1>);
 
 //Steves Carts' Metals
 Melting.addRecipe(metalItems.enhancedGalgadorian.liquid.liquids[0] * 144, <stevescarts:modulecomponents:48>);

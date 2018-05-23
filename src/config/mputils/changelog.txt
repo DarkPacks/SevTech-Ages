@@ -62,6 +62,7 @@ Bug Fixes:
 * Fix Car Mod Yellow Painter using the wrong dye (#2594)
 * Fix Diamond Block not having an uncraft recipe back to Diamonds (#2599)
 * Fix IE Bottling Machine being staged wrong (#2607)
+* Fix Molten Stone exploit with melting Seared Cobblestone (#1673)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

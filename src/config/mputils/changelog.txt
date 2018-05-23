@@ -112,11 +112,15 @@ Mod Updates:
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
 * Cyclops Core (0.11.6)
-* Cyclic (1.15.3)
+* Cyclic (1.15.5)
     * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
     * Upgraded cable models.
     * Export cables now connect and pump out on all sides.
     * Exchange Scepters updated to be compatible with GameStages, and working in off-hand.
+    * Storage Sack will now auto-close if it leaves your hand for any reason.
+    * Storage Sack can no longer be opened in the off-hand.
+    * Fix compatibility with Block Placer and Better With Mods mini-blocks.
+    * Fixed Wireless Receiver not dropping as a block when it gets mined.
 * Dark Utilities (1.8.210)
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Environmental Tech (2.0.10a)
@@ -135,17 +139,19 @@ Mod Updates:
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
     * FIXED: Dimension Blacklisting issues with custom entries
-* Industrial Foregoing (1.9.1-166)
+* Industrial Foregoing (1.9.2-170)
     * Black Hole Tank Block now changes color depending of the fluid it contains
     * Black hole unit extract button now respects stack sizes
     * Mob Crusher and Mob Slaughter Factory do same amount of damage
+    * Improved fluid handling
+    * Improved tank color handling
 * Inductive Logistics (1.2.2)
     * Pipe model parts and contents hidden under opaque covers is no longer rendered (the server won't even send update packets for them) for performance improvement.
     * Item Placer crash with vanilla blocks that have GUIs.
     * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
 * Integrated Dynamics (0.11.12)
     * Fix incorrect regex_groups operators output type.
-* Just Enough Items (4.9.1.189)
+* Just Enough Items (4.9.1.190)
 * KleeSlabs (5.4.10)
 * MJRLegends Lib (1.1.4)
 * ModTweaker (4.0.12)

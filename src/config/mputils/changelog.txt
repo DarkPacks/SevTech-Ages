@@ -100,6 +100,7 @@ Mod Updates:
 * Better With Mods (2.1.20)
     * Fix server crash with HCFurnace tooltips.
     * Greatly optimize the kiln, saw and turntable recipe handlers.
+* BiblioCraft (2.4.4)
 * BnBGamingCore (0.8.0)
     * Added Module for next Triumph update
 * BNBGamingLib (11.2)
@@ -159,7 +160,7 @@ Mod Updates:
     * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
 * Integrated Dynamics (0.11.12)
     * Fix incorrect regex_groups operators output type.
-* Just Enough Items (4.9.1.190)
+* Just Enough Items (4.9.1.191)
 * KleeSlabs (5.4.10)
 * MJRLegends Lib (1.1.4)
 * ModTweaker (4.0.12)
@@ -168,7 +169,7 @@ Mod Updates:
 * No Recipe Book (1.2.0)
 * Overloaded (0.0.52)
     * Multi-Tool now gives better error message when unable to break / place
-* PrimalCore (0.6.55)
+* PrimalCore (0.6.56)
     * Fix Barrel Crash with FBP
     * Fix Side sensitive Capabilities for Cauldron and Fish Traps
 * PneumaticCraft: Repressurized (0.6.6-192)

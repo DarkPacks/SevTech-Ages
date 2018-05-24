@@ -1250,6 +1250,7 @@ var stage3Items as IIngredient[] = [
 	<tconstruct:edible:31>,
 	<tconstruct:edible:32>,
 	<tconstruct:edible:34>,
+	<tconstruct:edible>,
 	<tconstruct:fancy_frame:1>,
 	<tconstruct:firewood:1>,
 	<tconstruct:firewood_slab:1>,

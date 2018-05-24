@@ -243,7 +243,6 @@ var stage4Items as IIngredient[] = [
 	<tcomplement:manyullyn_chestplate>,
 	<tcomplement:manyullyn_helmet>,
 	<tcomplement:manyullyn_leggings>,
-	<tconstruct:edible>,
 	<tconstruct:fancy_frame:2>,
 	<tconstruct:fancy_frame:3>,
 	<tconstruct:fancy_frame:4>,

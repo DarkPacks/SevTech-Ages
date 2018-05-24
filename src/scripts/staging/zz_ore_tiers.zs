@@ -158,7 +158,6 @@ var replacementItemsForStage as IIngredient[][][string] = {
 
 		//Nether
 		[<minecraft:soul_sand>, <minecraft:dirt>],
-		[<minecraft:netherrack>, <primal_tech:charcoal_block>],
 		[<minecraft:glowstone>],
 		[<minecraft:quartz_ore>, <minecraft:netherrack>],
 		[<abyssalcraft:abyore>],
@@ -288,7 +287,10 @@ var nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 
 	STAGES.three : [
 		//Worldgen Items
-		[<minecraft:rail:*>, <immcraft:rock>]
+		[<minecraft:rail:*>, <immcraft:rock>],
+
+		// Nether
+		[<minecraft:netherrack>, <primal_tech:charcoal_block>]
 	]
 };
 
@@ -305,7 +307,7 @@ for stage, itemReplacementPairs in nonDefaultReplacementItemsForStage {
 }
 
 //Nether Wart
-mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:0", "minecraft:beetroots:0");
-mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:1", "minecraft:beetroots:1");
-mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:2", "minecraft:beetroots:2");
-mods.orestages.OreStages.addReplacementById("three", "minecraft:nether_wart:3", "minecraft:beetroots:3");
+mods.orestages.OreStages.addNonDefaultingReplacementById(STAGES.three, "minecraft:nether_wart:0", "minecraft:beetroots:0");
+mods.orestages.OreStages.addNonDefaultingReplacementById(STAGES.three, "minecraft:nether_wart:1", "minecraft:beetroots:1");
+mods.orestages.OreStages.addNonDefaultingReplacementById(STAGES.three, "minecraft:nether_wart:2", "minecraft:beetroots:2");
+mods.orestages.OreStages.addNonDefaultingReplacementById(STAGES.three, "minecraft:nether_wart:3", "minecraft:beetroots:3");

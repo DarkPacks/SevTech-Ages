@@ -63,6 +63,8 @@ Bug Fixes:
 * Fix Diamond Block not having an uncraft recipe back to Diamonds (#2599)
 * Fix IE Bottling Machine being staged wrong (#2607)
 * Fix Molten Stone exploit with melting Seared Cobblestone (#1673)
+* Fix Nether Wart turning into beetroot when breaking the block below it (#1274)
+* Fix Netherrack breaking into Low Grade Charcoal from explosions etc (#1941)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

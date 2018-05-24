@@ -14,7 +14,7 @@ import crafttweaker.item.IItemStack;
 static blockHarvestDrops as IItemStack[][string] = {
     "galacticraftplanets:asteroids_block:4": [
         <geolosys:cluster>,
-        <contenttweaker:material_part:126>
+        <materialpart:titanium:cluster>
     ],
 	"twilightforest:castle_door:0": [
 		<twilightforest:castle_door:0>

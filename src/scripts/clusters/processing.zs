@@ -5,7 +5,7 @@ import mods.tconstruct.Melting;
 var defaultCrushingEnergy as int = 6000;
 
 var clusters as IItemStack[string] = {
-	titanium: <contenttweaker:material_part:126>
+	titanium: <materialpart:titanium:cluster>
 };
 
 for metal, cluster in clusters {

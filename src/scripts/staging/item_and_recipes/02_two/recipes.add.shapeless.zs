@@ -28,6 +28,11 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<minecraft:writable_book> : [
 		[<minecraft:book>, <minecraft:dye>, <minecraft:feather>]
 	],
+	// Arrow bundle -> arrows
+	<minecraft:arrow> * 8 : [
+		[<betterwithaddons:bundle:1>]
+	],
+
 	<primal:plant_fiber_pulp> * 3 : [
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]

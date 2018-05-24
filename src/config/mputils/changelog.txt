@@ -77,6 +77,7 @@ Enhancements:
 * Added upgrade recipe for the Primal Chest Advanced to a Minecraft Chest
 * Added Startlight Transmutation for Kepler Iron and Copper to Inferium and Prosperity Ores (#2514)
 * Updated Desh Ore advancement to trigger on Unrefined Desh as well as Desh Ore for those that don't use silk touch (#1516)
+* Add recipe to decompress arrow bundle (#1391)
 
 Mods Added:
 * SevTweaks (0.1.0)

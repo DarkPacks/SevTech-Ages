@@ -564,7 +564,6 @@ var stage1Items as IIngredient[] = [
 	<actuallyadditions:item_axe_quartz>,
 	<actuallyadditions:item_boots_quartz>,
 	<actuallyadditions:item_chest_quartz>,
-	<actuallyadditions:item_crafter_on_a_stick>,
 	<actuallyadditions:item_dust:6>,
 	<actuallyadditions:item_dust:7>,
 	<actuallyadditions:item_helm_quartz>,

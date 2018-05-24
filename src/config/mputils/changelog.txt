@@ -66,6 +66,7 @@ Bug Fixes:
 * Fix Nether Wart turning into beetroot when breaking the block below it (#1274)
 * Fix Netherrack breaking into Low Grade Charcoal from explosions etc (#1941)
 * Move the Tinkers Bacon back a stage to allow usage when you have Pig Iron Tools (#2614)
+* Remove the Actually Additions Crafting stick in favour for the Extended Crafting version (#2198)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

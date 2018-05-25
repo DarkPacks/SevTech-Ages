@@ -188,6 +188,8 @@ Mod Updates:
 * Rustic (1.0.5)
     * Possibly fixed some bugs
 * RebornCore (3.8.3.279)
+* SevTweaksNPC (0.0.4)
+    * ( ͡~ ͜ʖ ͡°)
 * Simple Generators (2.0.10a)
 * Steve's Carts Reborn (2.4.19.95)
     * Fixed fluid manager not moving on when constantly using up the carts tanks.

@@ -119,7 +119,10 @@ recipes.addShaped(<primal_tech:charcoal_hopper>, [
 recipes.addShapeless(<primal:plant_cordage>, [<primal:plant_fiber>, <primal:plant_fiber>, <primal:plant_fiber>]);
 
 recipes.remove(<primal:leather_cordage>);
-recipes.addShaped(<primal:leather_cordage>, [[null, <primal:leather_strip>, null], [<primal:leather_strip>, str, <primal:leather_strip>], [null, null, null]]);
+recipes.addShaped(<primal:leather_cordage>, [
+	[null, <primal:leather_strip>, null],
+	[<primal:leather_strip>, str, <primal:leather_strip>]
+]);
 
 recipes.addShaped(<primal:mud_wet>, [
 	[<primal:mud_clump>, <primal:mud_clump>],

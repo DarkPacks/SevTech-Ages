@@ -67,6 +67,7 @@ Bug Fixes:
 * Fix Netherrack breaking into Low Grade Charcoal from explosions etc (#1941)
 * Move the Tinkers Bacon back a stage to allow usage when you have Pig Iron Tools (#2614)
 * Remove the Actually Additions Crafting stick in favour for the Extended Crafting version (#2198)
+* Allow Leather Cordage to be made in top or bottom slots
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

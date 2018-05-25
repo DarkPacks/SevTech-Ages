@@ -101,7 +101,7 @@ Mod Updates:
     * Fixed Better Bedrock's Itemblock not registering correctly
 * Better With Addons (0.41)
     * Fixes a crash where BWA has been using a deprecated slipperiness method for months.
-* Better With Mods (2.1.20)
+* Better With Mods (2.1.21)
     * Fix server crash with HCFurnace tooltips.
     * Greatly optimize the kiln, saw and turntable recipe handlers.
 * BiblioCraft (2.4.4)
@@ -136,6 +136,7 @@ Mod Updates:
     * Fixed Wireless Receiver not dropping as a block when it gets mined.
 * Dark Utilities (1.8.210)
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
+* Dung Pipe (1.2)
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.

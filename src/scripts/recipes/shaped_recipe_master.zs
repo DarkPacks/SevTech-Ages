@@ -121,6 +121,11 @@ recipes.addShapeless(<primal:plant_cordage>, [<primal:plant_fiber>, <primal:plan
 recipes.remove(<primal:leather_cordage>);
 recipes.addShaped(<primal:leather_cordage>, [[null, <primal:leather_strip>, null], [<primal:leather_strip>, str, <primal:leather_strip>], [null, null, null]]);
 
+recipes.addShaped(<primal:mud_wet>, [
+	[<primal:mud_clump>, <primal:mud_clump>],
+	[<primal:mud_clump>, <primal:mud_clump>]
+]);
+
 //Flint tools
 recipes.addShaped(<primal:flint_hatchet>, [[cordage, <primal:flint_knapp>], [stick, null]]);
 recipes.addShaped(<primal:flint_shovel>, [[null, cordage, <primal:flint_knapp>], [null, stick, cordage], [stick, null, null]]);

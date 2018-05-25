@@ -410,3 +410,6 @@ for i in 0 to 16 {
 <ore:slabCobblestone>.add(<abyssalcraft:darkcobbleslab1>);
 <ore:slabCobblestone>.add(<traverse:red_rock_cobblestone_slab>);
 <ore:slabCobblestone>.add(<traverse:blue_rock_cobblestone_slab>);
+
+// String
+<ore:string>.add(<natura:materials:7>);

@@ -85,6 +85,7 @@ Enhancements:
 * Updated Desh Ore advancement to trigger on Unrefined Desh as well as Desh Ore for those that don't use silk touch (#1516)
 * Add recipe to decompress arrow bundle (#1391)
 * Added a recipe to turn Mud Clumps into Wet Mud blocks (#1551)
+* Added Flame String to the String Ore Dictionary (#2628)
 
 Mods Added:
 * SevTweaks (0.1.0)

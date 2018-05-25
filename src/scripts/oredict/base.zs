@@ -221,6 +221,9 @@ for i in 0 to 16 {
 
 <ore:plantfiber>.add(<primal:plant_fiber>);
 
+//Add flamestring to string oredict
+<ore:string>.add(<natura:materials:7>);
+
 //There shall be one and only one FLOUR!
 <ore:foodFlour>.remove(<betterwithmods:raw_pastry:3>);
 <ore:foodFlour>.add(<horsepower:flour>);

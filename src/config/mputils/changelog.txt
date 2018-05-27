@@ -159,6 +159,9 @@ Mod Updates:
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
     * FIXED: Dimension Blacklisting issues with custom entries
+* Horse Power (2.6.1.64)
+    * Added needed area visualisation when placing HP blocks
+    * Fixed not using correct item for jei catalysts, issue with itemstages
 * Industrial Foregoing (1.9.2-170)
     * Black Hole Tank Block now changes color depending of the fluid it contains
     * Black hole unit extract button now respects stack sizes

@@ -69,6 +69,7 @@ Bug Fixes:
 * Remove the Actually Additions Crafting stick in favour for the Extended Crafting version (#2198)
 * Allow Leather Cordage to be made in top or bottom slots
 * Blacklist Buggy Fueling pad from carry-on
+* Blacklist all of PneumaticCraft from Carry-On to prevent crashes (#2651)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

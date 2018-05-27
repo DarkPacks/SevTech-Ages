@@ -142,6 +142,7 @@ Mod Updates:
 * Dark Utilities (1.8.210)
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Dung Pipe (1.2)
+* Ender Storage (2.4.3.130)
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.

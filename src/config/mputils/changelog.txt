@@ -126,7 +126,7 @@ Mod Updates:
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
 * Cyclops Core (0.11.6)
-* Cyclic (1.15.5)
+* Cyclic (1.15.6)
     * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
     * Upgraded cable models.
     * Export cables now connect and pump out on all sides.
@@ -135,6 +135,10 @@ Mod Updates:
     * Storage Sack can no longer be opened in the off-hand.
     * Fix compatibility with Block Placer and Better With Mods mini-blocks.
     * Fixed Wireless Receiver not dropping as a block when it gets mined.
+    * Fixed a dupe exploit related to Player Interface from AA.
+    * Brush Scythe now more compatible with special block drops (such as causing plant fibers from Primal Core now drop from grass with scythe).
+    * Fixed hydrator mismatching some ore dict entries (such as Biomass recipe not working).
+    * Fixed block transparency bug with Moon Phase Sensor.
 * Dark Utilities (1.8.210)
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Dung Pipe (1.2)

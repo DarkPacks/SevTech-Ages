@@ -241,6 +241,7 @@ var stage1Items as IIngredient[] = [
 	<minecraft:stone_hoe>,
 	<minecraft:wooden_hoe>,
 	<primal:flint_hoe>,
+	<quark:trowel>,
 
 	//Torches
 	<cyclicmagic:ender_torch>,

@@ -33,6 +33,9 @@ mekanism.removeCombiner(<geolosys:cluster:12>);
 mekanism.removeCombiner(<minecraft:iron_ore>);
 mekanism.removeCombiner(<minecraft:gold_ore>);
 mekanism.removeCombiner(<minecraft:coal_ore>);
+mekanism.removeCombiner(<minecraft:diamond_ore>);
+mekanism.removeCombiner(<minecraft:redstone_ore>);
+mekanism.removeCombiner(<minecraft:emerald_ore>);
 
 /*
 	Enrichment Recipes

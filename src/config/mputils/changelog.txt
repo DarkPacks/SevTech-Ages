@@ -70,6 +70,7 @@ Bug Fixes:
 * Allow Leather Cordage to be made in top or bottom slots
 * Blacklist Buggy Fueling pad from carry-on
 * Blacklist all of PneumaticCraft from Carry-On to prevent crashes (#2651)
+* Add missing Gray Wool dying recipe (#2653)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

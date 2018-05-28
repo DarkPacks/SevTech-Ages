@@ -180,6 +180,8 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	],
 
 	//Gray
+	<ore:dyeGray>.firstItem : [
+	],
 
 	//Light Gray
 	<ore:dyeLightGray>.firstItem : [

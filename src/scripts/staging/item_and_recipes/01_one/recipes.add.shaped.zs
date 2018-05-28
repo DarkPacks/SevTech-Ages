@@ -699,13 +699,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:stick>, null]
 		]
 	],
-	<quark:trowel> : [
-		[
-			[null, null, null],
-			[<ore:stickWood>, null, null],
-			[null, metals.copper.ingot, metals.copper.ingot]
-		]
-	],
 
 	//Farming for Blockheads
 	<farmingforblockheads:market> : [

@@ -89,7 +89,6 @@ var removeItems as IItemStack[] = [
 	<chiselsandbits:chisel_iron>,
 
 	<geolosys:field_manual>,
-	<quark:trowel>,
 	<farmingforblockheads:market>
 ];
 

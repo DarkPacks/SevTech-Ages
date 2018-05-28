@@ -156,6 +156,7 @@ Mod Updates:
 * Farming for Blockheads (3.1.17)
 * Fast Workbench (1.3.2)
 * Forge MultiPart CBE (2.4.2.58)
+* GameStages (1.0.86)
 * Geolosys (1.9.2)
     * ADDED: Ore-swapping: replaces other mod ores with Geolosys ones after they've generated (like for Twilight Forest).
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
@@ -176,7 +177,7 @@ Mod Updates:
     * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
 * Integrated Dynamics (0.11.12)
     * Fix incorrect regex_groups operators output type.
-* Just Enough Items (4.9.1.191)
+* Just Enough Items (4.9.1.196)
 * KleeSlabs (5.4.10)
 * MJRLegends Lib (1.1.4)
 * ModTweaker (4.0.12)
@@ -193,6 +194,7 @@ Mod Updates:
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
     * Fix: crash when right-clicking some PneumaticCraft blocks with other mods' wrenches
 * ReAuth (3.6.0)
+* Reborn Core (3.5.8.290)
 * Reborn Storage (3.1.0.50)
     * Fix IO port lag
     * Add IO Port

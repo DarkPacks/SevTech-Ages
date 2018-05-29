@@ -89,6 +89,7 @@ Enhancements:
 * Added a recipe to turn Mud Clumps into Wet Mud blocks (#1551)
 * Added Flame String to the String Ore Dictionary (#2628)
 * Added recipe for the Quark Trowel in stage one
+* Added recipe for the Blood Magic Crystal Cluster (#2112)
 
 Mods Added:
 * SevTweaks (0.1.0)

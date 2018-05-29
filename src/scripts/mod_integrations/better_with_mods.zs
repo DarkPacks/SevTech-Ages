@@ -124,9 +124,40 @@ Cauldron.remove([<betterwithmods:material:21> * 2]);
 //Cauldron.addUnstoked(IIngredient[] inputs, IItemStack[] outputs);
 //==============================
 Cauldron.addUnstoked([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<betterwithmods:material:12>]);
-Cauldron.addUnstoked([<ore:pelt>], [<betterwithmods:material:12>]);
+
+var pelts as IIngredient[] = [
+	<minecraft:rabbit_hide>,
+	<primal:pelt_animal>,
+	<primal:pelt_dog>,
+	<primal:pelt_gator>,
+	<primal:pelt_ovis>,
+	<primal:pelt_pig>,
+	<primal:pelt_shark>,
+	<primal:pelt_sheep>,
+	<primal:pelt_wolf>
+];
+
+var largePelts as IIngredient[] = [
+	<primal:pelt_animal_large>,
+	<primal:pelt_bear_black>,
+	<primal:pelt_bear_brown>,
+	<primal:pelt_bear_polar>,
+	<primal:pelt_cow>,
+	<primal:pelt_donkey>,
+	<primal:pelt_horse>,
+	<primal:pelt_llama>,
+	<primal:pelt_mooshroom>,
+	<primal:pelt_mule>
+];
+
+for pelt in pelts {
+	Cauldron.addUnstoked([pelt], [<betterwithmods:material:12>]);
+}
+for largePelt in largePelts {
+	Cauldron.addUnstoked([largePelt], [<betterwithmods:material:12> * 2]);
+}
+
 Cauldron.addUnstoked([<primal:pigman_hide_raw>], [<betterwithmods:material:12> * 2]);
-Cauldron.addUnstoked([<ore:peltLarge>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
 Cauldron.addUnstoked([<totemic:buffalo_items>], [<betterwithmods:material:12> * 2]);
 Cauldron.addUnstoked([<primal:wolf_head_item>], [<betterwithmods:material:12>, <primal:bone_knapp>]);

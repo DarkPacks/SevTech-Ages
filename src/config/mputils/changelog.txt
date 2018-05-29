@@ -71,6 +71,7 @@ Bug Fixes:
 * Blacklist Buggy Fueling pad from carry-on
 * Blacklist all of PneumaticCraft from Carry-On to prevent crashes (#2651)
 * Add missing Gray Wool dying recipe (#2653)
+* Fix glue cauldron recipes for pelts being derpy (#2680)
 
 Enhancements:
 * Add dying recipes for the Twilight Forest Castle Doors

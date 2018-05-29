@@ -51,3 +51,4 @@ actuallyAdditions.addCrusher(<minecraft:diamond> * 9 , <minecraft:diamond_block>
 actuallyAdditions.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block>); // Lapis Block -> Lapis
 actuallyAdditions.addCrusher(<minecraft:redstone> * 9, <minecraft:redstone_block>); // Redstone Block -> Redstone
 actuallyAdditions.addCrusher(<minecraft:emerald> * 9, <minecraft:emerald_block>); // Emerald Block -> Emerald
+actuallyAdditions.addCrusher(<minecraft:prismarine_shard> * 4, <minecraft:prismarine>); // Prismarine -> Prismarine Shard

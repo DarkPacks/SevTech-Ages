@@ -215,6 +215,8 @@ var prospectingRodRange as int = 48;
 <totemic:cedar_sapling>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
 <totemic:cedar_leaves>.addTooltip(format.red("Not found in the world"));
 <totemic:cedar_leaves>.addTooltip(format.red("Red Cedar is acquired via a Totemic Ceremony"));
+
+// Add tooltips to explain how to find eagles / obtain the eagle drops
 <totemic:eagle_drops:0>.addTooltip(format.red("Not found in the world"));
 <totemic:eagle_drops:0>.addTooltip(format.red("Eagles are spawned via a Totemic Ceremony"));
 <totemic:eagle_drops:1>.addTooltip(format.red("Not found in the world"));

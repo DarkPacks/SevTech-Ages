@@ -775,6 +775,24 @@
     "random": 0.5
   },
   {
+    "mob": "animalium:wild_dog",
+    "item": "animalium:wild_dog_pelt",
+    "random": 0.5,
+    "itemcount": "1/0/0"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "item": "animalium:wild_dog_pelt",
+    "random": 0.6,
+    "itemcount": "0/1/0"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "item": "animalium:wild_dog_pelt",
+    "random": 0.65,
+    "itemcount": "0/0/2"
+  },
+  {
     "mob": "animalium:rat",
     "item": "minecraft:bone",
     "random": 0.25

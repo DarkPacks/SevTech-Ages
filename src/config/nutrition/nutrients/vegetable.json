@@ -101,7 +101,9 @@
             "primal:corn_ground",
             "primal:corn_seeds",
             "primal:potato_boiled",
-            "thebetweenlands:weeping_blue_petal_salad"
+            "thebetweenlands:weeping_blue_petal_salad",
+            "twilightforest:experiment_115"
+
         ]
     }
 }

@@ -74,6 +74,8 @@ Bug Fixes:
 * Fix glue cauldron recipes for pelts being derpy (#2680)
 
 Enhancements:
+* Updated Privacy Policy
+* Experiment 115 now grants all nutrition groups instead of only protein
 * Add dying recipes for the Twilight Forest Castle Doors
 * Removed the Cyclic conveyors as they are not needed and the new ones claims more Ids which we don't want to waste
 * Adjusted Aevitas attunement perk and Mineralis ritual to only spawn Geolosys ores
@@ -82,7 +84,7 @@ Enhancements:
 * Updated Better with Mods potash recipes so they are more clear
 * Allow any Heavy Oxygen Tank to be used in the Oxygen Storage Module recipe (#2479)
 * Allow a larger selection of cobblestone slabs for the Kiln recipe (#2482)
-* Add a additional 50% drop chance for Wild Dog Pelts from Wild Dogs
+* Add a additional 50% drop chance for Wild Dog Pelts from Wild Dogs and also added a higher drop rate with Looting
 * Added upgrade recipe for the Primal Chest Advanced to a Minecraft Chest
 * Added Startlight Transmutation for Kepler Iron and Copper to Inferium and Prosperity Ores (#2514)
 * Updated Desh Ore advancement to trigger on Unrefined Desh as well as Desh Ore for those that don't use silk touch (#1516)

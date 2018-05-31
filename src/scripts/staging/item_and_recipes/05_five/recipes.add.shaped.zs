@@ -338,30 +338,30 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<extraplanets:tier4_space_suit_helmet>: [
 		[
-			[null, <extraplanets:tier1_armor_layer>, null],
+			[null, <extraplanets:tier4_armor_layer>, null],
 			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_helmet>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer>, null]
 		]
 	],
 	<extraplanets:tier4_space_suit_chest>: [
 		[
-			[null, <extraplanets:tier1_armor_layer>, null],
+			[null, <extraplanets:tier4_armor_layer>, null],
 			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_chest>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer>, null]
 		]
 	],
 	<extraplanets:tier4_space_suit_legings>: [
 		[
-			[null, <extraplanets:tier1_armor_layer>, null],
+			[null, <extraplanets:tier4_armor_layer>, null],
 			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_legings>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer>, null]
 		]
 	],
 	<extraplanets:tier4_space_suit_boots>: [
 		[
-			[null, <extraplanets:tier1_armor_layer>, null],
+			[null, <extraplanets:tier4_armor_layer>, null],
 			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_boots>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer>, null]
 		]
 	],
 	<extraplanets:tier4_space_suit_gravity_boots>: [

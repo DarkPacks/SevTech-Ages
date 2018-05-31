@@ -72,6 +72,7 @@ Bug Fixes:
 * Blacklist all of PneumaticCraft from Carry-On to prevent crashes (#2651)
 * Add missing Gray Wool dying recipe (#2653)
 * Fix glue cauldron recipes for pelts being derpy (#2680)
+* Fix Tier 4 space suit using Tier 1 armor layer (#2695)
 
 Enhancements:
 * Updated Privacy Policy

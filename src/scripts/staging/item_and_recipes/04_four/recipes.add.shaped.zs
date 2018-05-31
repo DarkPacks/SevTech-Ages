@@ -900,6 +900,55 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<indlog:tank:6>, <indlog:tank:6>, <indlog:tank:6>]
 		]
 	],
+	<indlog:tank:8>: [
+		[
+			[<indlog:tank:7>, <indlog:tank:7>, <indlog:tank:7>],
+			[<indlog:tank:7>, null, <indlog:tank:7>],
+			[<indlog:tank:7>, <indlog:tank:7>, <indlog:tank:7>]
+		]
+	],
+	<indlog:tank:9>: [
+		[
+			[<indlog:tank:8>, <indlog:tank:8>, <indlog:tank:8>],
+			[<indlog:tank:8>, null, <indlog:tank:8>],
+			[<indlog:tank:8>, <indlog:tank:8>, <indlog:tank:8>]
+		]
+	],
+	<indlog:tank:10>: [
+		[
+			[<indlog:tank:9>, <indlog:tank:9>, <indlog:tank:9>],
+			[<indlog:tank:9>, null, <indlog:tank:9>],
+			[<indlog:tank:9>, <indlog:tank:9>, <indlog:tank:9>]
+		]
+	],
+	<indlog:tank:11>: [
+		[
+			[<indlog:tank:10>, <indlog:tank:10>, <indlog:tank:10>],
+			[<indlog:tank:10>, null, <indlog:tank:10>],
+			[<indlog:tank:10>, <indlog:tank:10>, <indlog:tank:10>]
+		]
+	],
+	<indlog:tank:12>: [
+		[
+			[<indlog:tank:11>, <indlog:tank:11>, <indlog:tank:11>],
+			[<indlog:tank:11>, null, <indlog:tank:11>],
+			[<indlog:tank:11>, <indlog:tank:11>, <indlog:tank:11>]
+		]
+	],
+	<indlog:tank:13>: [
+		[
+			[<indlog:tank:12>, <indlog:tank:12>, <indlog:tank:12>],
+			[<indlog:tank:12>, null, <indlog:tank:12>],
+			[<indlog:tank:12>, <indlog:tank:12>, <indlog:tank:12>]
+		]
+	],
+	<indlog:tank:14>: [
+		[
+			[<indlog:tank:13>, <indlog:tank:13>, <indlog:tank:13>],
+			[<indlog:tank:13>, null, <indlog:tank:13>],
+			[<indlog:tank:13>, <indlog:tank:13>, <indlog:tank:13>]
+		]
+	],
 	<indlog:remote_inv>: [
 		[
 			[<indlog:item_pipe:2>, <indlog:warp_pipe>, <indlog:item_pipe:1>],

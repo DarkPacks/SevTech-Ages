@@ -311,7 +311,17 @@ static removeAndHideItems as IItemStack[] = [
 	<valkyrielib:guide>,
 
 	// Still in DEV! Won't enable till it's finished.
-	<cyclicmagic:robot_spawner>
+	<cyclicmagic:robot_spawner>,
+
+	// Industrial Logistics
+	<indlog:tank:8>,
+	<indlog:tank:9>,
+	<indlog:tank:10>,
+	<indlog:tank:11>,
+	<indlog:tank:12>,
+	<indlog:tank:13>,
+	<indlog:tank:14>,
+	<indlog:tank:15>
 ];
 
 for item in removeAndHideItems {

@@ -2035,7 +2035,10 @@ var stage5Items as IIngredient[] = [
 	<ironjetpacks:strap>,
 
 	// Astral Sorcery
-	<astralsorcery:itemexchangewand>
+	<astralsorcery:itemexchangewand>,
+
+	//Construct's Armory
+	<conarm:armorforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}})
 ];
 
 for item in stage5Items {

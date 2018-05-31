@@ -3,6 +3,13 @@ import crafttweaker.item.IItemStack;
 
 var partsStages as IItemStack[][string] = {
 	STAGES.two : [
+		<conarm:armor_plate>,
+		<conarm:armor_trim>,
+		<conarm:boots_core>,
+		<conarm:chest_core>,
+		<conarm:helmet_core>,
+		<conarm:leggings_core>,
+		<conarm:polishing_kit>,
 		<tconstruct:arrow_head>,
 		<tconstruct:arrow_shaft>,
 		<tconstruct:axe_head>,

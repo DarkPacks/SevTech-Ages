@@ -1009,7 +1009,10 @@ var itemsForStage as IIngredient[] = [
 	<ironjetpacks:emerald_cell>,
 	<ironjetpacks:emerald_jetpack>,
 	<ironjetpacks:emerald_thruster>,
-	<ironjetpacks:strap>
+	<ironjetpacks:strap>,
+
+	//Construct's Armory
+	<conarm:armorforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}})
 ];
 
 for item in itemsForStage {

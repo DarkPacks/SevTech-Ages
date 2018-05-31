@@ -198,6 +198,10 @@ static removeAndHideItems as IItemStack[] = [
 	<actuallyadditions:stone_paxel>,
 	<actuallyadditions:wooden_paxel>,
 
+	//Construct's Armory
+	<conarm:travel_belt>,
+	<conarm:travel_sack>,
+
 	//Natura
 	<natura:amaranth_button>,
 	<natura:amaranth_pressure_plate>,

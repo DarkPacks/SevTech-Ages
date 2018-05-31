@@ -97,6 +97,9 @@ Enhancements:
 * Added grinding/crushing recipe for the Prismarine Block (#2657)
 
 Mods Added:
+* Aroma Backup (2.1.1.3)
+* Aroma Core (1.3.0.2)
+    * Needed for Aroma Backpack
 * SevTweaks (0.1.0)
     * Custom mod to allow more integration with mods in the pack.
 

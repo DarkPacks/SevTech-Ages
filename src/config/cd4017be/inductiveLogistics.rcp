@@ -1,0 +1,101 @@
+VERSION = 36;
+
+!internal capacity of fluid pipes
+fluid_pipe_cap = 1000;
+!pipe transfer interval in ticks (higher value = slower speed & possibly better performance)
+fluid_pipe_tick = 4;
+item_pipe_tick = 4;
+fluid_warp_tick = 4;
+item_warp_tick = 4;
+portable_craft_tick = 20;
+remote_inv_tick = 20;
+remote_max_slots = 96; !maximum amount of slots to draw in Portable Inventory Remote Access GUI before using scrollbar (server side setting)
+auto_craft_tick = 10;
+!whether pipe contents should be visible while moving from pipe to pipe (may reduce server network performance),
+!otherwise they are only visible when there is a backlock.
+pipe_fancy_content = true;
+
+!Fluid Intake & Outlet settings
+fluid_io_cap = 8000; !internal tank capacity
+fluid_io_range = 127; !maximum range (can't be set > 127 due to technical limitations)
+fluid_io_path = 3; !length multiplier for fluid path finding (3 is enough to reach all blocks in a cubic area without obstacles) higher values can handle fractured terrain better but may slightly decrease performance.
+fluid_io_speed = 1; !operations performed by fluid intake/outlet per tick. (significant TPS drops start at around 1000 op/t)
+
+!Dropped Item Interface settings
+drop_interface_tick = 50; !amount of ticks to wait before rescanning the area for new items
+drop_interface_range = 15; !maximum range of the area
+drop_interface_slots = 5; !maximum amount of empty "on-demand" slots (allows inserting multiple stacks within one scan interval)
+
+!Entity Interface settings
+entity_interface_tick = 10; !amount of ticks to wait before rescanning entities
+
+block_placer_range=15; !maximum distance the Item Placer can interact with (Note: there are mods like "Automated Redstone" that can provide redstone signals > 15)
+
+{
+	!capacity of all the fluid tanks (only tanks with capacity > 0 will be listed in creative tab)
+	!theoretically up to 16 tanks can be defined here but tanks 8-15 will be missing translation and models unless you make a resource pack.
+	tank_caps = [1000, 8000, 64000, 512000, 4096000, 32768000, 262144000, 2097152000]#;
+	!slot count and stacksize limit of all the item buffers
+	buffer_slots = [12, 24, 48, 96,  12,  24,  48,  96,   12,   24,   48,   96,   12,   24,   48,   96]#;
+	buffer_stack = [64, 64, 64, 64, 512, 512, 512, 512, 4096, 4096, 4096, 4096, 32768, 32768, 32768, 32768]#;
+}
+
+
+INIT() {
+	add("shaped", it("fluidPipeT", 8), "000/1 1/000", "blockGlass", it("minecraft:iron_bars"));
+	add("shaped", it("fluidPipeI", 4), " 0 /010/ 0 ", it("fluidPipeT"), it("minecraft:piston"));
+	add("shaped", it("fluidPipeE", 4), " 0 /010/ 0 ", it("fluidPipeT"), it("minecraft:sticky_piston"));
+	add("shaped", it("fluidPipeD", 4), " 0 /010/ 0 ", it("fluidPipeT"), "dyeGreen");
+	add("shaped", it("fluidPipeS", 4), " 0 /010/ 0 ", it("fluidPipeT"), "dyeRed");
+	add("shapeless", it("fluidPipeT", 1), it("fluidPipeD"));
+	add("shapeless", it("fluidPipeT", 1), it("fluidPipeS"));
+	add("shaped", it("itemPipeT", 8), "000/1 1/000", "slabWood", it("minecraft:iron_bars"));
+	add("shaped", it("itemPipeI", 4), " 0 /010/ 0 ", it("itemPipeT"), it("minecraft:piston"));
+	add("shaped", it("itemPipeE", 4), " 0 /010/ 0 ", it("itemPipeT"), it("minecraft:sticky_piston"));
+	add("shaped", it("itemPipeD", 4), " 0 /010/ 0 ", it("itemPipeT"), "dyeGreen");
+	add("shaped", it("itemPipeS", 4), " 0 /010/ 0 ", it("itemPipeT"), "dyeRed");
+	add("shapeless", it("itemPipeT", 1), it("itemPipeD"));
+	add("shapeless", it("itemPipeT", 1), it("itemPipeS"));
+	add("shaped", it("tile.warp_pipe", 16), "000/232/111", it("fluidPipeT"), it("itemPipeT"), "enderpearl", "gemDiamond");
+	add("shaped", it("tile.auto_craft", 1), "010/131/020", "ingotIron", "dustRedstone", it("minecraft:piston"), it("minecraft:crafting_table"));
+	add("shaped", it("tile.inv_connector", 12), "000/121/000", "gemQuartz", "blockGlass", it("minecraft:ender_eye"));
+	add("shaped", it("tile.trash", 1), "000/132/000", "cobblestone", it("itemPipeT"), it("fluidPipeT"), it("minecraft:lava_bucket"));
+	Loc mat = "ingotCopper"; if (#ores(mat) < 1) {mat = "ingotIron";}
+	add("shaped", it("tile.fluid_intake", 1), "010/020/ 3 ", mat, it("minecraft:iron_bars"), it("minecraft:sticky_piston"), it("tile.tank", 1, 1));
+	mat = "ingotTin"; if (#ores(mat) < 1) {mat = "ingotIron";}
+	add("shaped", it("tile.fluid_outlet", 1), " 3 /020/010", mat, it("minecraft:iron_bars"), it("minecraft:piston"), it("tile.tank", 1, 1));
+	add("shaped", it("tile.drop_interface", 1), "000/123/000", "plankWood", it("minecraft:hopper"), it("minecraft:ender_eye"), it("minecraft:dropper"));
+	add("shaped", it("tile.entity_interface", 1), "010/020", "ingotIron", it("minecraft:lead"), it("tile.inv_connector"));
+	add("shaped", it("tile.block_placer", 1), "010/232/010", "ingotIron", it("minecraft:ender_eye"), it("minecraft:piston"), it("minecraft:dispenser"));
+	add("shaped", it("item.portable_craft", 1), "021/343", it("itemPipeE"), it("itemPipeI"), it("tile.auto_craft"), "string", "slabWood");
+	add("shaped", it("item.remote_inv", 1), "021/343", it("itemPipeE"), it("itemPipeI"), it("minecraft:ender_chest"), "string", "gemDiamond");
+	add("shaped", it("item.fluid_filter"), "012", it("fluidPipeT"), it("minecraft:comparator"), it("minecraft:paper"));
+	add("shaped", it("item.item_filter"), "012", it("itemPipeT"), it("minecraft:comparator"), it("minecraft:paper"));
+	add("shapedNBT", "#mode,#maxAm,#prior,#Fluids", it("item.fluid_filter", 2), "0/0", it("item.fluid_filter"));
+	add("shapedNBT", "#mode,#ore,#prior,#Items", it("item.item_filter", 2), "0/0", it("item.item_filter"));
+	add("shapeless", it("item.fluid_filter"), it("item.fluid_filter"));
+	add("shapeless", it("item.item_filter"), it("item.item_filter"));
+	Loc nbt = "#FluidName,#Tag,#Amount";
+	add("shaped", it("tile.tank"), "000/0 0/000", "paneGlass");
+	add("shapedNBT", nbt, it("tile.tank", 1, 1), " 0 /010/ 0 ", "blockGlass", "ingotIron");
+	add("shapedNBT", nbt, it("tile.tank", 1, 3), "000/010/000", "ingotGold", it("tile.tank", 1, 2));
+	add("shapedNBT", nbt, it("tile.tank", 1, 4), " 0 /212/ 0 ", "blockQuartz", it("tile.tank", 1, 3), "gemEmerald", "glowstone");
+	add("shapedNBT", nbt, it("tile.tank", 1, 5), "000/010/000", "gemDiamond", it("tile.tank", 1, 4));
+	add("shapedNBT", nbt, it("tile.tank", 1, 6), "323/010/323", "netherStar", it("tile.tank", 1, 5), "blockLapis", "enderpearl");
+	for (i:7) {
+		Loc pre = it("tile.tank", 1, i), next = it("tile.tank", 1, i + 1);
+		add("shapedNBT", "=FluidName,=Tag,+Amount", next, "000/0 0/000", pre);
+		add("shapedNBT", "#FluidName,#Tag,+Amount", it(pre, 8), "0", next);
+	}
+	add("shaped", it("tile.buffer", 1, 1), "010/121/010", "stickWood", it("minecraft:iron_bars"), it("minecraft:chest"));
+	add("shaped", it("tile.buffer", 1, 5), "000/010/000", "ingotIron", it("tile.buffer", 1, 1));
+	add("shaped", it("tile.buffer", 1, 9), "000/010/000", "ingotGold", it("tile.buffer", 1, 5));
+	add("shaped", it("tile.buffer", 1, 13), "202/010/202", "gemDiamond", it("tile.buffer", 1, 9), "enderpearl");
+	for (i:4) {
+		for (j:3) {
+			Loc pre = it("tile.buffer", 1, i*4 + j), next = it("tile.buffer", 1, i*4 + j + 1);
+			add("shaped", next, "00", pre);
+			add("shaped", it(pre, 2), "0", next);
+		}
+	}
+}

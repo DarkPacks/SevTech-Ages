@@ -123,6 +123,7 @@ var removeItems as IItemStack[] = [
 	<indlog:tank:12>,
 	<indlog:tank:13>,
 	<indlog:tank:14>,
+	<indlog:tank:15>,
 	<indlog:tank>,
 	<indlog:warp_pipe>,
 

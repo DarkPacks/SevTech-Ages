@@ -949,6 +949,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<indlog:tank:13>, <indlog:tank:13>, <indlog:tank:13>]
 		]
 	],
+	<indlog:tank:15>: [
+		[
+			[<indlog:tank:14>, <indlog:tank:14>, <indlog:tank:14>],
+			[<indlog:tank:14>, null, <indlog:tank:14>],
+			[<indlog:tank:14>, <indlog:tank:14>, <indlog:tank:14>]
+		]
+	],
 	<indlog:remote_inv>: [
 		[
 			[<indlog:item_pipe:2>, <indlog:warp_pipe>, <indlog:item_pipe:1>],

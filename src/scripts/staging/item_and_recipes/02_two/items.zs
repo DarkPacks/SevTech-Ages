@@ -1125,6 +1125,7 @@ var stage2Items as IIngredient[] = [
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:horse_upgrade_variant>,
 	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:sign_editor>,
 	<cyclicmagic:spikes_iron>,
 	<cyclicmagic:tool_mount>,
 	<cyclicmagic:tool_rotate>,

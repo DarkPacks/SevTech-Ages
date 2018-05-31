@@ -249,11 +249,12 @@ var itemsForStage as IIngredient[] = [
 	<chisel:waterstone1:1>,
 
 	//Cyclic
+	<cyclicmagic:apple_lapis>,
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:plate_launch_med>,
+	<cyclicmagic:sign_editor>,
 	<cyclicmagic:tool_mount>,
 	<cyclicmagic:trash>,
-	<cyclicmagic:apple_lapis>,
 
 	//Jaff
 	<jaff:iron_fishing_rod>,

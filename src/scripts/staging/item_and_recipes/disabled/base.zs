@@ -22,7 +22,8 @@ var disabledItems as IItemStack[] = [
 	<indlog:tank:12>,
 	<indlog:tank:13>,
 	<indlog:tank:14>,
-	<indlog:tank:15>
+	<indlog:tank:15>,
+	<contenttweaker:creeper_tear> //TODO make texture and find use once SevTweaks is updated to make sad creeper item shedding possible
 ];
 
 for item in disabledItems {

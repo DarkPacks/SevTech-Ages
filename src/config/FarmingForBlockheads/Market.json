@@ -5,7 +5,12 @@
     "Natura Saplings": true,
     "Vanilla Saplings": true,
     "Bonemeal": true,
-    "Animal Eggs": false
+    "Animal Eggs": false,
+    "Natura Seeds": true,
+    "Vanilla Flowers": false,
+    "Natura Bushes": false,
+    "Vanilla Mushrooms": false,
+    "Natura Nether Bushes": false
   },
   "defaults payment": {
     "__comment": "You can define custom payment items for the default entries here.",
@@ -13,7 +18,12 @@
     "Natura Saplings": "1*minecraft:gold_ingot:0",
     "Vanilla Saplings": "1*minecraft:gold_ingot:0",
     "Bonemeal": "1*minecraft:gold_ingot:0",
-    "Animal Eggs": "1*minecraft:gold_ingot:0"
+    "Animal Eggs": "1*minecraft:gold_ingot:0",
+    "Natura Seeds": "1*minecraft:emerald:0",
+    "Vanilla Flowers": "1*minecraft:emerald:0",
+    "Natura Bushes": "2*minecraft:emerald:0",
+    "Vanilla Mushrooms": "1*minecraft:emerald:0",
+    "Natura Nether Bushes": "3*minecraft:emerald:0"
   },
   "defaults blacklist": [
     "examplemod:example_item"
@@ -28,6 +38,11 @@
     "Natura Saplings": 1,
     "Vanilla Saplings": 1,
     "Bonemeal": 1,
-    "Animal Eggs": 1
+    "Animal Eggs": 1,
+    "Natura Seeds": 1,
+    "Vanilla Flowers": 1,
+    "Natura Bushes": 1,
+    "Vanilla Mushrooms": 1,
+    "Natura Nether Bushes": 1
   }
 }

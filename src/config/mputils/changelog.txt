@@ -100,6 +100,8 @@ Mods Added:
 * Aroma Backup (2.1.1.3)
 * Aroma Core (1.3.0.2)
     * Needed for Aroma Backpack
+* Construct's Armory (0.0.19-b)
+    * Armor add-on mod for Tinkers' Construct
 * SevTweaks (0.1.0)
     * Custom mod to allow more integration with mods in the pack.
 
@@ -231,10 +233,11 @@ Mod Updates:
 * Steve's Carts Reborn (2.4.19.95)
     * Fixed fluid manager not moving on when constantly using up the carts tanks.
     * Rail remover fix for activator block.
-* Tinkers Construct (2.10.0.81)
+* Tinkers Construct (2.10.0.84)
     * Implement a FastWorkbench approach in the Crafting Station. This should help with big modpacks with lots of recipes
     * Fix faucets trying to drain from the wrong side
     * Several smaller fixes/changes that got lost in translation
+    * Try to impliment FastWorkbench
 * Toast Control (1.6.0)
 * Triumph (1.13.0)
     * Added support for new Better Advancements options

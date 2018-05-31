@@ -252,7 +252,6 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:apple_lapis>,
 	<cyclicmagic:glove_climb>,
 	<cyclicmagic:plate_launch_med>,
-	<cyclicmagic:sign_editor>,
 	<cyclicmagic:tool_mount>,
 	<cyclicmagic:trash>,
 

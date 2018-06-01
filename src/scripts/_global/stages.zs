@@ -22,6 +22,7 @@ global STAGES as string[string] = {
 	//Unique Stages
 	baykok : "baykok",
 	mapping : "mapping",
+	projecte : "projecte",
 
 	//Unique stage intended to disable a tool
 	disabled : "disabled"

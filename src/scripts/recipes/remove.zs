@@ -37,9 +37,11 @@ var removeRecipes as string[] = [
 	"extraplanets:chest",
 	"extraplanets:chest_alt.*",
 	"natura:common/glass_bottle",
+	"nex:red_nether_brick_0_alt",
 	"pneumaticcraft:color_drone",
 	"pneumaticcraft:logistic_to_drone",
-	"rustic:bottle_emptying"
+	"rustic:bottle_emptying",
+	"minecraft:andesite"
 ];
 
 for recipeRegex in removeRecipes {

@@ -7,6 +7,12 @@ var pickaxeLevelPairs as IItemStack[][int] = {
 		<abyssalcraft:coraliumore>,
 		<bloodmagic:blood_rune>,
 		<poweradapters:mj>
+	],
+	3: [
+		<nex:ore_quartz:3>,
+		<nex:ore_quartz:2>,
+		<nex:ore_quartz:1>,
+		<nex:ore_quartz>
 	]
 };
 

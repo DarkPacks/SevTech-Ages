@@ -73,6 +73,7 @@ Bug Fixes:
 * Add missing Gray Wool dying recipe (#2653)
 * Fix glue cauldron recipes for pelts being derpy (#2680)
 * Fix Tier 4 space suit using Tier 1 armor layer (#2695)
+* Fix inconsistency with the Mining Level on Nether Quartz Ores (#1782)
 
 Enhancements:
 * Updated Privacy Policy

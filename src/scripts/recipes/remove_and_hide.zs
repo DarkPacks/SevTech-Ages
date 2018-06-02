@@ -325,7 +325,13 @@ static removeAndHideItems as IItemStack[] = [
 	<indlog:tank:12>,
 	<indlog:tank:13>,
 	<indlog:tank:14>,
-	<indlog:tank:15>
+	<indlog:tank:15>,
+
+	// Ceramics
+	<ceramics:clay_boots_raw>,
+	<ceramics:clay_chestplate_raw>,
+	<ceramics:clay_helmet_raw>,
+	<ceramics:clay_leggings_raw>
 ];
 
 for item in removeAndHideItems {

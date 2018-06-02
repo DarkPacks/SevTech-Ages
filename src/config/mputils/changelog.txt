@@ -75,6 +75,7 @@ Bug Fixes:
 * Fix Tier 4 space suit using Tier 1 armor layer (#2695)
 * Fix inconsistency with the Mining Level on Nether Quartz Ores (#1782)
 * Fix remove Prismarine variants from the Chisel to force the crafting recipe also fixes dupe issue (#2450)
+* Remove recipe for the clay armour as we force another recipe (#1674)
 
 Enhancements:
 * Updated Privacy Policy

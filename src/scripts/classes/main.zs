@@ -17,3 +17,4 @@ global mekanism as scripts.classes.mods.mekanism.Mekanism = scripts.classes.mods
 
 // Integration
 global orematic as scripts.classes.integration.orematic.OreMatic =  scripts.classes.integration.orematic.OreMatic();
+global dryingUnit as scripts.classes.integration.drying_unit.DryingUnit =  scripts.classes.integration.drying_unit.DryingUnit();

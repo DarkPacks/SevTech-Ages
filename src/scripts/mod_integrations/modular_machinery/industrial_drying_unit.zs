@@ -1,37 +1,29 @@
-import scripts.mod_integrations.modular_machinery.base.createRecipeName;
-import scripts.utils.squareNum;
+/*
+	Recipes
+*/
+dryingUnit.addAllTiers(<ore:hideSalted>, 4, <ore:hideDry>, 4);
+dryingUnit.addAllTiers(<ore:hideTanned>, 4, leather * 4);
+dryingUnit.addAllTiers(<primal:plant_fiber_pulp> * 4, <minecraft:paper> * 4);
 
-var machineName = "industrial_drying_unit";
-
-var machineCount = 3; //How many in total (base and upgraded versions)
-
-//How much to multiply the base energyPerTick to get mk2 and up
-var energyScalingMultiplier as int[] = [
-	1, //Mk1 (default)
-	4,
-	8
-];
-
-for i in 0 to machineCount {
-	var machineNameComplete as string = i > 0 ? machineName + "_mk" + (i + 1) : machineName;
-
-	var defaultTimeScaler = (i + 1) > 2 ? squareNum(2, i - 1) : i + 1;
-
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "leather_drying"), machineNameComplete, 600 / defaultTimeScaler)
-		.addEnergyPerTickInput(5 * energyScalingMultiplier[i])
-		.addItemOutput(leather * 4)
-		.addItemInput(<ore:hideTanned>, 4)
-		.build();
-
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "paper_drying"), machineNameComplete, 600 / defaultTimeScaler)
-		.addEnergyPerTickInput(5 * energyScalingMultiplier[i])
-		.addItemOutput(<minecraft:paper> * 4)
-		.addItemInput(<primal:plant_fiber_pulp> * 4)
-		.build();
-
-	mods.modularmachinery.RecipeBuilder.newBuilder(createRecipeName(machineNameComplete, "salted_hide_drying"), machineNameComplete, 600 / defaultTimeScaler)
-		.addEnergyPerTickInput(5 * energyScalingMultiplier[i])
-		.addItemOutput(<ore:hideDry>, 4)
-		.addItemInput(<ore:hideSalted>, 4)
-		.build();
-}
+// Taken from the TiC Drying Rack.
+dryingUnit.addAllTiers(<betterwithaddons:japanmat:8>, <betterwithaddons:japanmat:9>);
+dryingUnit.addAllTiers(<minecraft:beef>, <tconstruct:edible:11>);
+dryingUnit.addAllTiers(<minecraft:chicken>, <tconstruct:edible:12>);
+dryingUnit.addAllTiers(<minecraft:clay>, <tconstruct:dried_clay>);
+dryingUnit.addAllTiers(<minecraft:clay_ball>, <tconstruct:materials:2>);
+dryingUnit.addAllTiers(<minecraft:fish:1>, <tconstruct:edible:21>);
+dryingUnit.addAllTiers(<minecraft:fish:2>, <tconstruct:edible:22>);
+dryingUnit.addAllTiers(<minecraft:fish:3>, <tconstruct:edible:23>);
+dryingUnit.addAllTiers(<minecraft:fish>, <tconstruct:edible:20>);
+dryingUnit.addAllTiers(<minecraft:mutton>, <tconstruct:edible:14>);
+dryingUnit.addAllTiers(<minecraft:porkchop>, <tconstruct:edible:13>);
+dryingUnit.addAllTiers(<minecraft:rabbit>, <tconstruct:edible:15>);
+dryingUnit.addAllTiers(<minecraft:rotten_flesh>, <tconstruct:edible:10>);
+dryingUnit.addAllTiers(<minecraft:slime_ball>, <tconstruct:edible:30>);
+dryingUnit.addAllTiers(<minecraft:sponge:1>, <minecraft:sponge>);
+dryingUnit.addAllTiers(<ore:treeSapling>, 1, <minecraft:deadbush>);
+dryingUnit.addAllTiers(<primal:shark_meat_raw>, <primal:shark_meat_dried>);
+dryingUnit.addAllTiers(<tconstruct:edible:1>, <tconstruct:edible:31>);
+dryingUnit.addAllTiers(<tconstruct:edible:2>, <tconstruct:edible:32>);
+dryingUnit.addAllTiers(<tconstruct:edible:3>, <tconstruct:edible:33>);
+dryingUnit.addAllTiers(<tconstruct:edible:4>, <tconstruct:edible:34>);

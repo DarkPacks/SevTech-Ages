@@ -73,6 +73,10 @@ Bug Fixes:
 * Add missing Gray Wool dying recipe (#2653)
 * Fix glue cauldron recipes for pelts being derpy (#2680)
 * Fix Tier 4 space suit using Tier 1 armor layer (#2695)
+* Fix inconsistency with the Mining Level on Nether Quartz Ores (#1782)
+* Fix remove Prismarine variants from the Chisel to force the crafting recipe also fixes dupe issue (#2450)
+* Remove recipe for the clay armour as we force another recipe (#1674)
+* Fix recipe conflict with cocoa beans turning into dye powder instead of cocoa powder (#2386)
 
 Enhancements:
 * Updated Privacy Policy
@@ -95,6 +99,7 @@ Enhancements:
 * Added recipe for the Quark Trowel in stage one
 * Added recipe for the Blood Magic Crystal Cluster (#2112)
 * Added grinding/crushing recipe for the Prismarine Block (#2657)
+* Added recipes from the TiC drying rack to the Industrial Drying Unit (#2721)
 
 Mods Added:
 * Aroma Backup (2.1.1.3)
@@ -143,7 +148,7 @@ Mod Updates:
 * Compact Machines (3.0.12-b215)
     * Try to avoid crashing when rendering TE in machine view. This fixes e.g. crashes with PneumaticCraft and other mods.
 * Cyclops Core (0.11.6)
-* Cyclic (1.15.6)
+* Cyclic (1.15.8)
     * Tweaked item models for Torch Launcher, Randomizer, and Auto Torch.
     * Upgraded cable models.
     * Export cables now connect and pump out on all sides.
@@ -156,6 +161,7 @@ Mod Updates:
     * Brush Scythe now more compatible with special block drops (such as causing plant fibers from Primal Core now drop from grass with scythe).
     * Fixed hydrator mismatching some ore dict entries (such as Biomass recipe not working).
     * Fixed block transparency bug with Moon Phase Sensor.
+    * Greatly reduced tick lag from cables when they are empty.
 * Dark Utilities (1.8.210)
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Dung Pipe (1.2)
@@ -163,7 +169,7 @@ Mod Updates:
 * Environmental Tech (2.0.10a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.
-* Extended Crafting (1.3.5)
+* Extended Crafting (1.3.6)
     * Fixed combination crafting ignoring NBT
     * Fixed some shaped table recipes showing incorrectly in JEI
     * Added an indicator to JEI categories for table recipes with required tiers
@@ -171,6 +177,7 @@ Mod Updates:
     * Fixed the progress arrow in the Ender Crafter gui being incorrectly located
     * Fixed combination crafting not accepting items with NBT tags when no tags are set for an input item
     * Fixed lighting issues with some blocks
+    * Fixed items with NBT not working in combination crafting recipes that don't require it
 * Extra Planets (0.3.8)
     * See: https://minecraft.curseforge.com/projects/extraplanets/files/2564038
 * Farming for Blockheads (3.1.17)

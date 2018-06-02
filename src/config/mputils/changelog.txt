@@ -99,6 +99,7 @@ Enhancements:
 * Added recipe for the Quark Trowel in stage one
 * Added recipe for the Blood Magic Crystal Cluster (#2112)
 * Added grinding/crushing recipe for the Prismarine Block (#2657)
+* Added recipes from the TiC drying rack to the Industrial Drying Unit (#2721)
 
 Mods Added:
 * Aroma Backup (2.1.1.3)

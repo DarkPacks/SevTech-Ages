@@ -64,3 +64,10 @@ Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone>);
 	All items are WIP and thus hidden in JEI by us
 */
 Carving.removeGroup("ironpane");
+
+/*
+	Removals
+*/
+Carving.removeVariation("prismarine", <minecraft:prismarine:2>);
+Carving.removeVariation("prismarine", <minecraft:prismarine:1>);
+

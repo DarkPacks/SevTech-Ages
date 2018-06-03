@@ -242,7 +242,7 @@ var prospectingRodRange as int = 48;
 <galacticraftplanets:schematic:1>.addTooltip(format.gray("The schematic can be found in Tier 2 treasure chests, found after completing tier 2 dungeons."));
 <galacticraftplanets:schematic:2>.addTooltip(format.gray("Treasure item in a Tier 2 Treasure Chest after defeating the Creeper Boss."));
 
-<extraplanets:schematic_tier4>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Venus."));
+<extraplanets:schematic_tier4>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Mercury."));
 <extraplanets:schematic_tier5>.addTooltip(format.gray("The schematic can be found in a Tier 5 Treasure Chest on Jupiter"));
 <extraplanets:schematic_tier6>.addTooltip(format.gray("The schematic can be found in a Tier 6 Treasure Chest on Saturn"));
 <extraplanets:schematic_tier7>.addTooltip(format.gray("The schematic can be found in a Tier 7 Treasure Chest on Uranus."));

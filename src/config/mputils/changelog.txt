@@ -244,6 +244,9 @@ Mod Updates:
 * Rustic (1.0.5)
     * Possibly fixed some bugs
 * RebornCore (3.8.3.279)
+* Scannable (1.6.3.19)
+    * Fixes potential crashes/issues due to some mods still using null instead of ItemStack.EMPTY.
+    * Disable debug logging of failed item lookups by default, add config to allow enabling it. Fixes potential timeout when first
 * SevTweaksNPC (0.0.4)
     * ( ͡~ ͜ʖ ͡°)
 * Simple Generators (2.0.10a)

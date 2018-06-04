@@ -223,33 +223,43 @@ var prospectingRodRange as int = 48;
 <totemic:eagle_drops:1>.addTooltip(format.red("Eagles are spawned via a Totemic Ceremony"));
 
 // Make sure people know about the recipe needs to match the one in JEI to actually work.
-<ceramics:unfired_clay:4>.addTooltip(format.red("For the MillStone recipe to work you need to match the slots to the one shown on JEI. Otherwise it will not work correctly."));
+<ceramics:unfired_clay:4>.addTooltip(format.red("For the MillStone recipe to work you need to match the slots to the one shown on JEI. Otherwise it will not work correctly"));
 
 // Death Releated
 <death_compass:death_compass>.addTooltip(format.red("Sneak on your grave to retrieve your items"));
 
 // Space!
-<buildcraftbuilders:quarry>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however."));
+<buildcraftbuilders:quarry>.addTooltip(format.red("This machine will only work in space! But watch out for a flying car however"));
 
 // Creeping Moss
-<huntingdim:biome_changer>.addTooltip(format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be."));
+<huntingdim:biome_changer>.addTooltip(format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be"));
 
 // Galacticraft Helpful Hints
-<galacticraftcore:schematic>.addTooltip(format.gray("Tier 1 treasure chests, found after completing tier 1 dungeons on the moon."));
-<galacticraftcore:schematic:1>.addTooltip(format.gray("The Tier 2 Rocket Schematic can be found in Tier 1 treasure chests, found after completing the Moon Dungeon."));
+<galacticraftcore:schematic>.addTooltip(format.gray("Tier 1 treasure chests, found after completing tier 1 dungeons on the moon"));
+<galacticraftcore:schematic:1>.addTooltip(format.gray("The Tier 2 Rocket Schematic can be found in Tier 1 treasure chests, found after completing the Moon Dungeon"));
 
-<galacticraftplanets:schematic>.addTooltip(format.gray("The Tier 3 Rocket Schematic can be found in Tier 2 Treasure Chests which can sometimes be found after completing Mars Dungeons."));
-<galacticraftplanets:schematic:1>.addTooltip(format.gray("The schematic can be found in Tier 2 treasure chests, found after completing tier 2 dungeons."));
-<galacticraftplanets:schematic:2>.addTooltip(format.gray("Treasure item in a Tier 2 Treasure Chest after defeating the Creeper Boss."));
+<galacticraftplanets:schematic>.addTooltip(format.gray("The Tier 3 Rocket Schematic can be found in Tier 2 Treasure Chests which can sometimes be found after completing Mars Dungeons"));
+<galacticraftplanets:schematic:1>.addTooltip(format.gray("The schematic can be found in Tier 2 treasure chests, found after completing tier 2 dungeons"));
+<galacticraftplanets:schematic:2>.addTooltip(format.gray("Treasure item in a Tier 2 Treasure Chest after defeating the Creeper Boss"));
 
-<extraplanets:schematic_tier4>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Mercury."));
+<extraplanets:schematic_tier4>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Mercury"));
 <extraplanets:schematic_tier5>.addTooltip(format.gray("The schematic can be found in a Tier 5 Treasure Chest on Jupiter"));
 <extraplanets:schematic_tier6>.addTooltip(format.gray("The schematic can be found in a Tier 6 Treasure Chest on Saturn"));
-<extraplanets:schematic_tier7>.addTooltip(format.gray("The schematic can be found in a Tier 7 Treasure Chest on Uranus."));
-<extraplanets:schematic_tier8>.addTooltip(format.gray("The schematic can be found in a Tier 8 Treasure Chest on Neptune. "));
-<extraplanets:schematic_tier9>.addTooltip(format.gray("The schematic can be found in a Tier 9 Treasure Chest on Pluto."));
-<extraplanets:schematic_tier10>.addTooltip(format.gray("The schematic can be found in a Tier 10 Treasure Chest on Eris."));
+<extraplanets:schematic_tier7>.addTooltip(format.gray("The schematic can be found in a Tier 7 Treasure Chest on Uranus"));
+<extraplanets:schematic_tier8>.addTooltip(format.gray("The schematic can be found in a Tier 8 Treasure Chest on Neptune"));
+<extraplanets:schematic_tier9>.addTooltip(format.gray("The schematic can be found in a Tier 9 Treasure Chest on Pluto"));
+<extraplanets:schematic_tier10>.addTooltip(format.gray("The schematic can be found in a Tier 10 Treasure Chest on Eris"));
 
-<extraplanets:schematic_mars_rover>.addTooltip(format.gray("The schematic can be found in a Treasure Chest."));
-<extraplanets:schematic_venus_rover>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Venus."));
+<extraplanets:schematic_mars_rover>.addTooltip(format.gray("The schematic can be found in a Treasure Chest"));
+<extraplanets:schematic_venus_rover>.addTooltip(format.gray("The schematic can be found in a Tier 4 Treasure Chest on Venus"));
 
+<betterwithmods:hibachi>.addTooltip(format.red("Needs a Redstone signal to light"));
+
+<extraplanets:tier1_space_suit_helmet:*>.addTooltip(format.red("Only requires power when modules are installed"));
+<extraplanets:tier1_space_suit_helmet:*>.addTooltip(format.red("can only be charged with an Energy Storage Module"));
+<extraplanets:tier1_space_suit_chest:*>.addTooltip(format.red("Only requires power when modules are installed"));
+<extraplanets:tier1_space_suit_chest:*>.addTooltip(format.red("can only be charged with an Energy Storage Module"));
+<extraplanets:tier1_space_suit_legings:*>.addTooltip(format.red("Only requires power when modules are installed"));
+<extraplanets:tier1_space_suit_legings:*>.addTooltip(format.red("can only be charged with an Energy Storage Module"));
+<extraplanets:tier1_space_suit_boots:*>.addTooltip(format.red("Only requires power when modules are installed"));
+<extraplanets:tier1_space_suit_boots:*>.addTooltip(format.red("can only be charged with an Energy Storage Module"));

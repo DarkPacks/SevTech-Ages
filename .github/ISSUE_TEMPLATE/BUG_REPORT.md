@@ -44,10 +44,15 @@ about: If you get a crash from the game, or something is not working 100% from a
 * Optifine Installed:
 * Shaders Enabled:
 
+## World Information
+<!-- Please provide the version of the modpack that the world was created in if known. Rough estimates are OK -->
+* Modpack Version world created in:
+<!-- If there are any additional mods, please state them below -->
+* Additional Content Installed:
+
 <!--- Additional Information if you are using a server setup (DELETE THIS SECTION IF YOUR ISSUE IS CLIENT ONLY) -->
 ## Server Information
 * Java Version:
 * Operating System:
 * Hoster/Hosting Solution:
 * Sponge (Non-Vanilla Forge) Server:
-* Additional Content Installed:

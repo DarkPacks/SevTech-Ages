@@ -26,6 +26,7 @@ var stage3Items as IIngredient[] = [
 	<galacticraftcore:bucket_oil>,
 	<galacticraftcore:food:5>,
 	<immersivetech:connectors>,
+	<industrialforegoing:conveyor_upgrade:*>,
 	<industrialforegoing:conveyor:*>,
 	<industrialforegoing:plastic>,
 	<ironchest:iron_chest:6>,

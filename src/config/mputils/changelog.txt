@@ -121,9 +121,11 @@ Mod Updates:
     * Fixed Better Bedrock's Itemblock not registering correctly
 * Better With Addons (0.41)
     * Fixes a crash where BWA has been using a deprecated slipperiness method for months.
-* Better With Mods (2.1.22)
+* Better With Mods (2.1.24)
     * Fix server crash with HCFurnace tooltips.
     * Greatly optimize the kiln, saw and turntable recipe handlers.
+    * Improve syncing of progress bars in UIs.
+    * Fix dupe with Filtered Hoppers.
 * BiblioCraft (2.4.4)
 * BnBGamingCore (0.8.0)
     * Added Module for next Triumph update
@@ -146,6 +148,7 @@ Mod Updates:
     * Special case air when determining colors, to prevent crashing when another mod registers their color handler for air.
 * Client Tweaks (3.1.8)
     * Torches will only be placed via right-click now if the offhand slot is either empty or also a torch tool
+* Connected Textures Mod (0.3.0.15)
 * Compact Machines (3.0.12-b215)
     * Try to avoid crashing when rendering TE in machine view. This fixes e.g. crashes with PneumaticCraft and other mods.
 * Cyclops Core (0.11.6)
@@ -191,19 +194,28 @@ Mod Updates:
     * ADDED: Compatibility for Astral Sorcery's Infused Crystal Pickaxe.
     * FIXED: Various crashes with field manual.
     * FIXED: Dimension Blacklisting issues with custom entries
+* Hwyla (1.8.26-B41)
+    * Don't attempt to render the overlay if the tooltip is somehow null.
+    * Add a config to render current state values in the tooltip.
+    * Reduced network usage by the villager handler.
 * Horse Power (2.6.1.64)
     * Added needed area visualisation when placing HP blocks
     * Fixed not using correct item for jei catalysts, issue with itemstages
+* Immersive Tech (1.3.10)
+    * Fixed BlockITMultiblock.getPickBlock() null pointer issue
 * Improved Backpacks (1.2.0.3)
     * Fixed duplication glitch
     * Open backpack hotkey now works for Baubles slot
     * Backpack in Baubles slot now shows on you (you definitely should check out chestplate backpack combined with baubles backpack)
-* Industrial Foregoing (1.9.2-170)
+* Industrial Foregoing (1.9.2-173)
     * Black Hole Tank Block now changes color depending of the fluid it contains
     * Black hole unit extract button now respects stack sizes
     * Mob Crusher and Mob Slaughter Factory do same amount of damage
     * Improved fluid handling
     * Improved tank color handling
+    * Mob duplicator and Animal Sewer shouldnt waste power anymore
+    * Fixed Enchantment Extractor not splitting enchanted books
+    * Tree fluid extractor no longer resets progress when the wood is broken
 * Inductive Logistics (1.2.2)
     * Pipe model parts and contents hidden under opaque covers is no longer rendered (the server won't even send update packets for them) for performance improvement.
     * Item Placer crash with vanilla blocks that have GUIs.
@@ -218,7 +230,7 @@ Mod Updates:
 * ModTweaker (4.0.12)
 * Mystical Agriculture (1.6.10)
     * Added PneumaticCraft crops: Compressed Iron
-* No Recipe Book (1.2.0)
+* No Recipe Book (1.2.1)
 * Overloaded (0.0.52)
     * Multi-Tool now gives better error message when unable to break / place
 * PrimalCore (0.6.56)
@@ -231,7 +243,7 @@ Mod Updates:
     * Fix: Gas Lift now works with infinite fluid blocks such as Better With Addons Aqueducts.
     * Fix: crash when right-clicking some PneumaticCraft blocks with other mods' wrenches
 * ReAuth (3.6.0)
-* Reborn Core (3.5.8.290)
+* Reborn Core (3.5.8.293)
 * Reborn Storage (3.1.0.50)
     * Fix IO port lag
     * Add IO Port
@@ -250,9 +262,10 @@ Mod Updates:
 * SevTweaksNPC (0.0.4)
     * ( ͡~ ͜ʖ ͡°)
 * Simple Generators (2.0.10a)
-* Steve's Carts Reborn (2.4.19.95)
+* Steve's Carts Reborn (2.4.19.99)
     * Fixed fluid manager not moving on when constantly using up the carts tanks.
     * Rail remover fix for activator block.
+    * Fixed usage of wrong resize method for aabb, fixed recipe for cart assembler.
 * Tinkers Construct (2.10.0.84)
     * Implement a FastWorkbench approach in the Crafting Station. This should help with big modpacks with lots of recipes
     * Fix faucets trying to drain from the wrong side

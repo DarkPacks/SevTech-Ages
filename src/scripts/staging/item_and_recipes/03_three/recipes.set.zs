@@ -18,6 +18,7 @@ for id in modIDs {
 var itemsForStage as IIngredient[] = [
 	<ferdinandsflowers:block_birthday>,
 	<galacticraftcore:food:5>,
+	<industrialforegoing:conveyor_upgrade:*>,
 	<industrialforegoing:conveyor:*>,
 	<minecraft:grass>, //Ore Excavation
 	<modularmachinery:blockfluidoutputhatch>,

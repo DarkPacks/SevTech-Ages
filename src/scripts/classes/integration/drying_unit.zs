@@ -22,24 +22,24 @@ zenClass DryingUnit {
 	}
 
 	/*
-        Forms the basic recipe.
-    */
+		Forms the basic recipe.
+	*/
 	function formBaseRecipe(tier as int, name as string) as RecipePrimer {
 		var machineSlug = tier > 1 ? machineName ~ "_mk" ~ tier : machineName;
 		var timeScaler = (tier + 1) > 2 ? squareNum(2, tier - 1) : tier + 1;
 
 		var builder = RecipeBuilder.newBuilder(
-            createRecipeName(machineName ~ "_mk" ~ tier, name),
-            machineSlug, tickTimeValue / timeScaler
-        )
+			createRecipeName(machineName ~ "_mk" ~ tier, name),
+			machineSlug, tickTimeValue / timeScaler
+		)
 			.addEnergyPerTickInput(5 * energyScalingMultiplier[tier - 1]);
 
 		return builder;
 	}
 
 	/*
-        Forms the basic via the arguments given the function.
-    */
+		Forms the basic via the arguments given the function.
+	*/
 	function formBaseRecipe(tier as int, input as IOreDictEntry, inAmount as int, output as IOreDictEntry, outAmount as int) {
 		var builder = formBaseRecipe(tier, input.name);
 		builder
@@ -63,8 +63,8 @@ zenClass DryingUnit {
 	}
 
 	/*
-        Create the builder/recipes based on the arguments given to the function.
-    */
+		Create the builder/recipes based on the arguments given to the function.
+	*/
 	function addAllTiers(input as IOreDictEntry, inAmount as int, output as IOreDictEntry, outAmount as int) {
 		formBaseRecipe(1, input, inAmount, output, outAmount);
 		formBaseRecipe(2, input, inAmount, output, outAmount);

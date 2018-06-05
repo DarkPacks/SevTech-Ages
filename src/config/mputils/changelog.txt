@@ -103,6 +103,7 @@ Enhancements:
 * Added recipes from the TiC drying rack to the Industrial Drying Unit (#2721)
 * Added tooltips to Space Suit so players are aware of how to charge them
 * Added tooltip to BWM Hibachi telling players to use a redstone signal to light
+* Crafting the Tier 1 Space suit now yields a fully charged version
 
 Mods Added:
 * Aroma Backup (2.1.1.3)

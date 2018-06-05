@@ -1273,28 +1273,28 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Extra Planet Tier 1 Space Suits
-	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0 as float}): [
+	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}): [
 		[
 			[null, <extraplanets:tier1_armor_layer>, null],
 			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
 			[null, <extraplanets:tier1_armor_layer>, null]
 		]
 	],
-	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0 as float}): [
+	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): [
 		[
 			[null, <extraplanets:tier1_armor_layer>, null],
 			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
 			[null, <extraplanets:tier1_armor_layer>, null]
 		]
 	],
-	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0 as float}): [
+	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0f}): [
 		[
 			[null, <extraplanets:tier1_armor_layer>, null],
 			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_legings>, <extraplanets:tier1_pressure_layer>],
 			[null, <extraplanets:tier1_armor_layer>, null]
 		]
 	],
-	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0 as float}): [
+	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0f}): [
 		[
 			[null, <extraplanets:tier1_armor_layer>, null],
 			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],

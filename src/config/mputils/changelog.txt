@@ -280,6 +280,8 @@ Mod Updates:
 * Twilight Forest (3.7.424)
     * See: https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393
 * ValkyrieLib (2.0.10b)
+* Wawla - What Are We Looking At (2.5.257)
+    * Fixed horse speed and jump strength not showing. #93
 
 ---------------------------------------------------------------------
 

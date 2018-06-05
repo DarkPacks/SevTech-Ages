@@ -445,7 +445,6 @@ var itemsForStage as IIngredient[] = [
 	<buildcrafttransport:plug_power_adaptor>,
 	<buildcraftsilicon:plug_gate:*>,
 	<buildcraftsilicon:plug_light_sensor>,
-	<buildcraftsilicon:plug_pulsar>,
 
 	//Pneumatic Craft
 	<pneumaticcraft:advanced_air_compressor>,

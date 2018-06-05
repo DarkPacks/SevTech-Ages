@@ -167,6 +167,13 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[
 			<mob_grinding_utils:tank_sink>
 		]
+	],
+
+	// BuildCraft
+	<buildcraftsilicon:plug_pulsar> : [
+		[
+			<buildcraftcore:engine>, metals.iron.ingot.firstItem
+		]
 	]
 };
 

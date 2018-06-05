@@ -30,11 +30,11 @@ function removeRecipes(metalType as IOreDictEntry[string]) {
 	mekanism.removeEnrichment(metalType.ore);
 	// Remove Starlight Ingot Conversion.
 	astralSorcery.removeStarlight(metalType.ingot.firstItem);
+	// Remove the Ingot -> Dust recipe from Applied Energistics.
+	appliedEnergistics.removeGrindstone(metalType.ingot.firstItem);
 
 	// Remove all Dust recipes.
 	for dust in metalType.dust.items {
-		// Remove the dust from Applied Energistics.
-		appliedEnergistics.removeGrindstone(dust);
 		// Remove the dust from Actually Additions.
 		actuallyAdditions.removeCrusher(dust);
 		// Remove the dust from Astral Sorcery.
@@ -42,6 +42,8 @@ function removeRecipes(metalType as IOreDictEntry[string]) {
 		astralSorcery.removeStarlight(dust);
 		// Remove the dust from IE Crusher.
 		immersiveEngineering.removeCrusher(dust);
+		// Remove the dust from Mekanism.
+		mekanism.removeCrusher(dust);
 	}
 	// Remove all Ore recipes.
 	for ore in metalType.ore.items {
@@ -60,7 +62,7 @@ function removeRecipes(metalType as IOreDictEntry[string]) {
 	These are added using our tier system, along with tweaks to how progression works each tier
 	is noted below and self explained with the method calling to the mods.
 */
-function createRecipes(metalName as string, metalType as IOreDictEntry[string], oreSecondOutput as IOreDictEntry) {
+function createRecipes(metalType as IOreDictEntry[string], oreSecondOutput as IOreDictEntry) {
 	// Add recipes for mods which support input by IIngredient.
 	if (!isNull(oreSecondOutput)) {
 		// Tier 2 Recipes
@@ -74,6 +76,9 @@ function createRecipes(metalName as string, metalType as IOreDictEntry[string], 
 		// Tier 1 Recipes
 		appliedEnergistics.addGrindstone(metalType.dust.firstItem, ore);
 		astralSorcery.addGrindstone(ore, metalType.dust.firstItem);
+
+		// Tier 3 Recipes
+		mekanism.addCrusher(ore, metalType.dust.firstItem);
 
 		if (!isNull(oreSecondOutput)) {
 			// Tier 3 Recipes
@@ -100,6 +105,23 @@ function createTier4Recipes(metalType as IOreDictEntry[string], oreSecondOutput 
 }
 
 /*
+	Add the conversion recipes for the ore sub items.
+
+	This adds the processing such as Ingot -> Dust or other conversions needed for the Ore outputs which are removed
+	in process with cleaning up via the `removeRecipes` Function.
+*/
+function createConversionRecipes(metalName as string, metalType as IOreDictEntry[string]) {
+	// Handle the Ingot -> Dust conversion.
+	if (metalType has "dust" & !isNull(metalItems[metalName].dust)) {
+		immersiveEngineering.addCrusher(metalType.dust.firstItem, metalItems[metalName].ingot.items[0], 256);
+		appliedEnergistics.addGrindstone(metalType.dust.firstItem, metalItems[metalName].ingot.items[0]);
+		astralSorcery.addGrindstone(metalItems[metalName].ingot.items[0], metalType.dust.firstItem);
+		actuallyAdditions.addCrusher(metalType.dust.firstItem, metalItems[metalName].ingot.items[0]);
+		mekanism.addCrusher(metalItems[metalName].ingot.items[0], metalType.dust.firstItem);
+	}
+}
+
+/*
 	Hardcoded recipe removals from processing. For the ones not handling correctly in the Ore Dict.
 */
 appliedEnergistics.removeGrindstone(<galacticraftplanets:asteroids_block:4>);
@@ -117,13 +139,12 @@ immersiveEngineering.addCrusher(<galacticraftcore:basic_item:2> * 5, <galacticra
 for metalName, metalType in metals {
 	for partName, part in metalType {
 		if (part as bool & partName == "ore" & !isNull(metalType.dust)) {
-			// Check to find out if the ore has a secondary output.
-			var oreSecondOutput = secondaryOutputs[metalName];
 			// Remove all the old recipes for the ore conversion.
 			removeRecipes(metalType);
-			createRecipes(metalName, metalType, oreSecondOutput);
+			// Add back the recipes needed for the Tier'd Ore Processing.
+			createRecipes(metalType, secondaryOutputs[metalName]);
+			// Add back the conversion recipes which are removed by the script (Due to how the removals work).
+			createConversionRecipes(metalName, metalType);
 		}
 	}
 }
-
-

@@ -142,7 +142,7 @@ addGrindstoneRecipe(<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>, 12, false
 addGrindstoneRecipe(<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowers:4>, 12, false);
 addGrindstoneRecipe(<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowersc:6>, 12, false);
 addGrindstoneRecipe(<ore:dyeBlue>.firstItem * 2, <minecraft:dye:4>, 12, false);
-addGrindstoneRecipe(<ore:dyeBrown>.firstItem * 2, <minecraft:dye:3>, 12, false);
+addGrindstoneRecipe(<betterwithmods:material:44>, <minecraft:dye:3>, 12, false);
 addGrindstoneRecipe(<ore:dyeGreen>.firstItem * 2, <minecraft:dye:2>, 12, false);
 addGrindstoneRecipe(<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>, 12, false);
 addGrindstoneRecipe(<ore:dyeRed>.firstItem, <rustic:wildberries>, 16, false);

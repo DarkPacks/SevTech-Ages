@@ -31,7 +31,7 @@ var hydraulicRecipes as IItemStack[][IItemStack] = {
 	<galacticraftcore:heavy_plating> * 2: [	<galacticraftcore:basic_item:8> * 2, <galacticraftcore:basic_item:9> * 2, <galacticraftcore:basic_item:10> * 2 ], // Heavy Duty Plate Tier 1
 	<galacticraftplanets:item_basic_mars:3>: [ <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1> ], // Heavy Duty Plate Tier 2
 	<galacticraftplanets:item_basic_asteroids:5>: [	<galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5> ], // Heavy Duty Plate Tier 3
-	<extraplanets:tier4_items:3>: [	<galacticraftplanets:item_basic_asteroids:5>, <extraplanets:tier4_items:4>, <extraplanets:compressed_mercury> * 3 ], // Heavy Duty Plate Tier 4
+	<extraplanets:tier4_items:3>: [	<galacticraftplanets:item_basic_asteroids:5>, <extraplanets:tier4_items:4>, <extraplanets:compressed_mercury> * 4 ], // Heavy Duty Plate Tier 4
 	<extraplanets:tier5_items:3>: [	<extraplanets:tier4_items:3>, <extraplanets:tier5_items:4> * 5 ], // Heavy Duty Plate Tier 5
 	<extraplanets:tier6_items:3>: [ <extraplanets:tier5_items:3>, <extraplanets:tier6_items:4> * 5 ], // Heavy Duty Plate Tier 6
 	<extraplanets:tier7_items:3>: [ <extraplanets:tier6_items:3>, <extraplanets:tier7_items:6> * 5], // Heavy Duty Plate Tier 7

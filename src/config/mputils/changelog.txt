@@ -104,6 +104,7 @@ Enhancements:
 * Added tooltips to Space Suit so players are aware of how to charge them
 * Added tooltip to BWM Hibachi telling players to use a redstone signal to light
 * Crafting the Tier 1 Space suit now yields a fully charged version
+* Added a recipe to the ArcFurnace for Glass Panes using Pile of Sand
 
 Forge: 14.23.4.2707
 

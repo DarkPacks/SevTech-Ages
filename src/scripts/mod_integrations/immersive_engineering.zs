@@ -131,6 +131,9 @@ ArcFurnace.addRecipe(<appliedenergistics2:quartz_glass> * 4, <ore:blockGlass> * 
 //Vanilla Glass
 ArcFurnace.addRecipe(<minecraft:glass>, <minecraft:sand>, null, 150, 256);
 
+//Vanilla Glass Panes
+ArcFurnace.addRecipe(<minecraft:glass_pane>, <betterwithmods:sand_pile> * 2, null, 100, 150);
+
 //==============================================================
 //Add Steve's carts recipes
 //Lump of Galgador

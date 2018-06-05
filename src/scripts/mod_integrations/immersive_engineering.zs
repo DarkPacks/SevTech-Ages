@@ -150,7 +150,7 @@ ArcFurnace.addRecipe(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulec
 //Also adding slag as an output to them all
 
 //Steel
-ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.ingot, slag, 400, 512, [<ore:dustCoke>]);
+ArcFurnace.addRecipe(metals.steel.ingot.firstItem, metals.iron.ingot, slag, 300, 448, [<ore:dustCoke>]);
 
 //Constantan
 ArcFurnace.addRecipe(metals.constantan.ingot.firstItem * 2, metals.copper.ingot, slag, 100, 512, [metals.nickel.dust]);

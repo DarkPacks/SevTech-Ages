@@ -179,7 +179,7 @@ Mod Updates:
     * Fixed some blocks allowing torches to be placed on them when it shouldn't.
 * Dung Pipe (1.2)
 * Ender Storage (2.4.3.130)
-* Environmental Tech (2.0.10a)
+* Environmental Tech (2.0.11a)
     * Fixed Lightning rod spamming console with energy gen values.
     * Fixed Lenses not working properly.
 * Extended Crafting (1.3.7)
@@ -267,13 +267,13 @@ Mod Updates:
     * Added OR search operator to the Grid with "|".
 * Rustic (1.0.5)
     * Possibly fixed some bugs
-* RebornCore (3.8.3.279)
+* RebornCore (3.8.7.295)
 * Scannable (1.6.3.19)
     * Fixes potential crashes/issues due to some mods still using null instead of ItemStack.EMPTY.
     * Disable debug logging of failed item lookups by default, add config to allow enabling it. Fixes potential timeout when first
 * SevTweaksNPC (0.0.4)
     * ( ͡~ ͜ʖ ͡°)
-* Simple Generators (2.0.10a)
+* Simple Generators (2.0.11a)
 * Steve's Carts Reborn (2.4.19.99)
     * Fixed fluid manager not moving on when constantly using up the carts tanks.
     * Rail remover fix for activator block.
@@ -289,7 +289,7 @@ Mod Updates:
     * Added support for new Better Advancements options
 * Twilight Forest (3.7.424)
     * See: https://minecraft.curseforge.com/projects/the-twilight-forest/files/2561393
-* ValkyrieLib (2.0.10b)
+* ValkyrieLib (2.0.11a)
 * Wawla - What Are We Looking At (2.5.257)
     * Fixed horse speed and jump strength not showing. #93
 

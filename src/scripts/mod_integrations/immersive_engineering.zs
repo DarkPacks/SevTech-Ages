@@ -178,6 +178,13 @@ ArcFurnace.addRecipe(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingo
 //Bronze Alloying
 ArcFurnace.addRecipe(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, slag, 100, 512, [metals.tin.dust]);
 
+//Redstone Alloy
+ArcFurnace.addRecipe(metals.redstoneAlloy.ingot.firstItem * 2, metals.constantan.ingot, slag, 100, 512, [<minecraft:glowstone_dust>, <minecraft:redstone>]);
+
+//Modularium
+ArcFurnace.addRecipe(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone>]);
+ArcFurnace.addRecipe(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone>]);
+
 /* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 //Aluminum Brass
 ArcFurnace.addRecipe(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.ingot, slag, 100, 512, [metals.aluminum.dust * 3]);

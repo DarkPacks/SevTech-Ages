@@ -107,6 +107,7 @@ Enhancements:
 * Crafting the Tier 1 Space suit now yields a fully charged version
 * Added a recipe to the ArcFurnace for Glass Panes using Pile of Sand
 * Adjusted the cost for making Steel in the ArcFurnace (#1796)
+* Added recipes to the ArcFurnace for Redstone Alloy and Modularium (#2437)
 
 Forge: 14.23.4.2707
 

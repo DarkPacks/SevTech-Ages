@@ -706,6 +706,9 @@ var stage5Items as IIngredient[] = [
 	<environmentaltech:lonsdaleite:*>,
 	<environmentaltech:pladium:*>,
 
+	// Valkyrie Lib
+	<valkyrielib:guide>,
+
 	//Extended Crafting
 	<extendedcrafting:compressor>,
 	<extendedcrafting:crafting_core>,

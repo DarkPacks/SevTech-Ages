@@ -28,6 +28,11 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	    [
 			<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}, false).onlyWithTag({tier: 4})
 		]
+	],
+	<valkyrielib:guide>: [
+		[
+			<minecraft:book>, <environmentaltech:litherite_crystal>
+		]
 	]
 };
 

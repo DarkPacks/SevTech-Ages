@@ -120,7 +120,10 @@ var removeItems as IItemStack[] = [
 	<extraplanets:tier4_space_suit_legings>,
 
 	//Environmental
-	<environmentaltech:modifier_creative_flight>
+	<environmentaltech:modifier_creative_flight>,
+
+	// Valkyrie Lib
+	<valkyrielib:guide>
 ];
 
 for item in removeItems {

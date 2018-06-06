@@ -79,6 +79,7 @@ Bug Fixes:
 * Fix recipe conflict with cocoa beans turning into dye powder instead of cocoa powder (#2386)
 * Fix incorrect tooltip on Tier 4 Rocket Schematic (#1908)
 * Fix missing recipe for the pipe pulsar due to the pack not having the assembler table (#2762)
+* Staged Skeleton Trap Horses in Age 1 (#1611)
 
 Enhancements:
 * Updated Privacy Policy

@@ -10,7 +10,8 @@ var mobsForStages as string[][string] = {
 	STAGES.one : [
 		"emberroot:rainbowslime",
 		"emberroot:slime",
-		"minecraft:skeleton"
+		"minecraft:skeleton",
+		"minecraft:skeleton_horse"
 	],
 
 	//Stage two

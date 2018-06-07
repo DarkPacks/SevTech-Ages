@@ -229,10 +229,12 @@ Mod Updates:
     * Mob duplicator and Animal Sewer shouldnt waste power anymore
     * Fixed Enchantment Extractor not splitting enchanted books
     * Tree fluid extractor no longer resets progress when the wood is broken
-* Inductive Logistics (1.2.2)
+* Inductive Logistics (1.2.3)
     * Pipe model parts and contents hidden under opaque covers is no longer rendered (the server won't even send update packets for them) for performance improvement.
     * Item Placer crash with vanilla blocks that have GUIs.
     * Pipe connection issues with immersive multiblocks and potential other TileEntities that take time to initialize after load.
+    * Fixed div / 0 crash when Portable Autocrafter tries recipes with empty stacks as result
+    * Fixed server & client thread race condition on 'RECURSION' flag in Overflow Trash
 * Integrated Dynamics (0.11.12)
     * Fix incorrect regex_groups operators output type.
 * Just Enough Items (4.9.1.196)

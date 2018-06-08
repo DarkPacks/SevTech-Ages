@@ -17,6 +17,7 @@ var hardnessItems as float[IItemStack] = {
 	<geolosys:ore_vanilla:3> : 3.5,
 	<geolosys:ore_vanilla:4> : 5,
 	<geolosys:ore_vanilla:5> : 7,
+	<immersivetech:stone_decoration>: 2,
 	<uppers:upper> : 3,
 	<primal_tech:leaf_bed:*> : 0.2,
 	<minecraft:stone_slab:6> : 2,

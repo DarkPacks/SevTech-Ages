@@ -9,9 +9,9 @@ var pickaxeLevelPairs as IItemStack[][int] = {
 		<poweradapters:mj>
 	],
 	3: [
-		<nex:ore_quartz:3>,
-		<nex:ore_quartz:2>,
 		<nex:ore_quartz:1>,
+		<nex:ore_quartz:2>,
+		<nex:ore_quartz:3>,
 		<nex:ore_quartz>
 	]
 };

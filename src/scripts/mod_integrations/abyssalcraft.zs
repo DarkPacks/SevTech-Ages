@@ -1,3 +1,4 @@
+import mods.abyssalcraft.Crystallizer;
 import mods.abyssalcraft.InfusionRitual;
 import mods.abyssalcraft.Materializer;
 import mods.abyssalcraft.RitualStages;
@@ -89,4 +90,11 @@ RitualStages.addRitualStage(STAGES.two, "oblivionCatalyst");
 
 	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#materializer-recipes-are-added-this-way
 */
-mods.abyssalcraft.Materializer.removeMaterialization(<minecraft:elytra>.withTag({}));
+Materializer.removeMaterialization(<minecraft:elytra>.withTag({}));
+
+/*
+	Crystallizer
+
+	https://github.com/Shinoow/AbyssalCraft-Integration/wiki/MineTweaker-methods#crystallizer-recipes-are-added-in-two-ways-to-separate-dual-output-recipes-with-single-output-recipes
+*/
+Crystallizer.addSingleCrystallization(<charcoalblock:charcoal_block>, <abyssalcraft:crystal:3> * 2, 0.1);

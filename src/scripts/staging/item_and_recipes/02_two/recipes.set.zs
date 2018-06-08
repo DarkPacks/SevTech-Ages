@@ -488,11 +488,17 @@ var itemsForStage as IIngredient[] = [
 	<conarm:armorforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 13 as short}}),
 	<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 	<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
-	<conarm:armorforge>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}}),
 	<conarm:armorforge>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 1 as short}}),
+	<conarm:armorforge>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}}),
 	<conarm:armorstation>,
 	<conarm:book>,
+	<conarm:gauntlet_mat>,
+	<conarm:gauntlet_mat_speed>,
+	<conarm:travel_belt_base>,
+	<conarm:travel_cloak>,
 	<conarm:travel_goggles>,
+	<conarm:travel_goggles_base>,
+	<conarm:travel_slowfall>,
 
 	//Iron Backpacks
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),

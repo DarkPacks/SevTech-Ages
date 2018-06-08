@@ -117,7 +117,7 @@ Mods Added:
 * Aroma Backup (2.1.1.3)
 * Aroma Core (1.3.0.2)
     * Needed for Aroma Backpack
-* Construct's Armory (0.0.19-b)
+* Construct's Armory (0.0.21-rc1)
     * Armor add-on mod for Tinkers' Construct
 * SevTweaks (0.1.0)
     * Custom mod to allow more integration with mods in the pack.
@@ -240,6 +240,7 @@ Mod Updates:
     * Fix incorrect regex_groups operators output type.
 * Just Enough Items (4.9.1.196)
 * KleeSlabs (5.4.10)
+* Mekanism (9.4.11.346)
 * MJRLegends Lib (1.1.4)
 * Modular Routers (3.1.5)
     * Fix item dupe with Dropper/Flinger in some circumstances.
@@ -288,6 +289,8 @@ Mod Updates:
     * Fix faucets trying to drain from the wrong side
     * Several smaller fixes/changes that got lost in translation
     * Try to impliment FastWorkbench
+* Tinkers' Tool Leveling (1.0.5)
+    * Fix a rare crash when having a level up at the same time as dropping your weapon.
 * Toast Control (1.6.0)
 * Triumph (1.13.0)
     * Added support for new Better Advancements options

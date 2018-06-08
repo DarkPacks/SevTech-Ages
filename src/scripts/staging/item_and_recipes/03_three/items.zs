@@ -1322,11 +1322,15 @@ var stage3Items as IIngredient[] = [
 	<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 8 as short}}),
 	<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 3 as short}}),
 	<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}}),
+	<conarm:gauntlet_mat_attack>,
+	<conarm:gauntlet_mat_reach>,
+	<conarm:resist_mat>,
 	<conarm:resist_mat_blast>,
 	<conarm:resist_mat_fire>,
 	<conarm:resist_mat_proj>,
-	<conarm:resist_mat>,
 	<conarm:travel_night>,
+	<conarm:travel_sneak>,
+	<conarm:travel_soul>,
 
 	//AbyssalCraft
 	<abyssalcraft:azathothcharm:2>,

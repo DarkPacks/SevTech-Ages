@@ -200,6 +200,8 @@ static removeAndHideItems as IItemStack[] = [
 
 	//Construct's Armory
 	<conarm:travel_belt>,
+	<conarm:travel_belt_base>,
+	<conarm:travel_potion>,
 	<conarm:travel_sack>,
 
 	//Natura
@@ -310,9 +312,6 @@ static removeAndHideItems as IItemStack[] = [
 
 	//Mekanism
 	<mekanism:machineblock:4>, //Bye bye miner!
-
-	// New Book Don't Use! (Yet)
-	<valkyrielib:guide>,
 
 	// Still in DEV! Won't enable till it's finished.
 	<cyclicmagic:robot_spawner>,

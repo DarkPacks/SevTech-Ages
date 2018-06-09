@@ -2,13 +2,14 @@
 
 import crafttweaker.item.IItemStack;
 
+import mods.sevtweaks.stager.Stage;
+
 /*
 	Just to hide anything that may have been obtained going forward that is now removed, disable these
 */
+var stageDisabled as Stage = STAGES.disabled;
 
-var STAGE = STAGES.disabled;
-
-var disabledItems as IItemStack[] = [
+var stageDisabledItems as IItemStack[] = [
 	<cyclicmagic:uncrafting_block>,
 	<geolosys:cluster:10>,
 	<geolosys:ore:10>,
@@ -26,6 +27,4 @@ var disabledItems as IItemStack[] = [
 	<contenttweaker:creeper_tear> //TODO make texture and find use once SevTweaks is updated to make sad creeper item shedding possible
 ];
 
-for item in disabledItems {
-	mods.ItemStages.addItemStage(STAGE, item);
-}
+stageDisabled.addIngredients(stageDisabledItems);

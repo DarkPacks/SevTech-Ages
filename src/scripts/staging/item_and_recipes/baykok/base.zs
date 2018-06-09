@@ -1,11 +1,19 @@
 #priority -3
 
+import crafttweaker.item.IIngredient;
+
+import mods.sevtweaks.stager.Stage;
+
 /*
 	Stage from killing Baykok
 */
-var STAGE = STAGES.baykok;
+var stageBaykok as Stage = STAGES.baykok;
 
-mods.ItemStages.addItemStage(STAGE, <natura:materials:5>);
-mods.ItemStages.addItemStage(STAGE, <simplyarrows:arrow_bone>);
-mods.ItemStages.addItemStage(STAGE, <simplyarrows:arrow_flint>);
-mods.ItemStages.addItemStage(STAGE, <totemic:baykok_bow>);
+var stageBaykokItems as IIngredient[] = [
+	<natura:materials:5>,
+	<simplyarrows:arrow_bone>,
+	<simplyarrows:arrow_flint>,
+	<totemic:baykok_bow>
+];
+
+stageBaykok.addIngredients(stageBaykokItems); // TODO: Should recipes be staged as well? They were not before

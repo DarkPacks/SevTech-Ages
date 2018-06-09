@@ -26,5 +26,8 @@ global STAGES as Stage[string] = {
 	mapping : Stager.initStage("mapping"),
 
 	// Unique stage intended to disable existing items/etc
-	disabled : Stager.initStage("disabled")
+	disabled : Stager.initStage("disabled"),
+
+	// Stage for unused creative items
+	creativeUnused : Stager.initStage("creative_unused")
 };

@@ -2,9 +2,11 @@
 
 import crafttweaker.item.IItemStack;
 
-var STAGE = STAGES.creative;
+import mods.sevtweaks.stager.Stage;
 
-var creativeItems as IItemStack[] = [
+var stageCreative as Stage = STAGES.creative;
+
+var stageCreativeItems as IItemStack[] = [
 	<ironjetpacks:creative_cell>,
 	<ironjetpacks:creative_jetpack>,
 	<ironjetpacks:creative_thruster>,
@@ -14,11 +16,14 @@ var creativeItems as IItemStack[] = [
 	<tconstruct:materials:50>
 ];
 
-for item in creativeItems {
-	mods.ItemStages.addItemStage(STAGE, item);
-}
+stageCreative.addIngredients(stageCreativeItems, false);
 
-var creativeUnusedItems as IItemStack[] = [
+/*
+	Unused Creative Items
+*/
+var stageCreativeUnused as Stage = STAGES.creativeUnused;
+
+var stageCreativeUnusedItems as IItemStack[] = [
 	<appliedenergistics2:creative_energy_cell>,
 	<appliedenergistics2:creative_storage_cell>.withTag({}),
 	<betterwithmods:creative_generator>,
@@ -85,6 +90,4 @@ var creativeUnusedItems as IItemStack[] = [
 	<waterstrainer:super_worm>
 ];
 
-for item in creativeUnusedItems {
-	mods.ItemStages.addItemStage("creative_unused", item);
-}
+stageCreativeUnused.addIngredients(stageCreativeUnusedItems, false);

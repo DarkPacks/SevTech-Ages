@@ -2,7 +2,9 @@
 
 import crafttweaker.item.IIngredient;
 
-var STAGE = STAGES.tutorial;
+import mods.sevtweaks.stager.Stage;
+
+var stageTutorial as Stage = STAGES.tutorial;
 
 var stageTutorialItems as IIngredient[] = [
 	stick,
@@ -124,6 +126,4 @@ var stageTutorialItems as IIngredient[] = [
 	<tombmanygraves:death_list>
 ];
 
-for item in stageTutorialItems {
-	mods.ItemStages.addItemStage(STAGE, item);
-}
+stageTutorial.addIngredients(stageTutorialItems, false);

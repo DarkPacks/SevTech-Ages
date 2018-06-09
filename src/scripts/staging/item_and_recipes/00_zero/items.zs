@@ -2,7 +2,9 @@
 
 import crafttweaker.item.IIngredient;
 
-var STAGE = STAGES.zero;
+import import mods.sevtweaks.stager.Stage;
+
+var stageZero as Stage = STAGES.zero;
 
 /*
 var modIDs as string[] = [
@@ -1053,6 +1055,4 @@ var stageZeroItems as IIngredient[] = [
 	<naturescompass:naturescompass>
 ];
 
-for item in stageZeroItems {
-	mods.ItemStages.addItemStage(STAGE, item);
-}
+stageZero.addIngredients(stageZeroItems, false);

@@ -12,6 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
+* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)

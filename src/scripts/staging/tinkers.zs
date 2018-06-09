@@ -154,24 +154,6 @@ for stage, materials in materialsForStage {
 }
 
 //==================================
-//Modifier Stage
-//Prevents the modifier from being applied.
-var modifierStages as string[][string] = {
-	STAGES.three : [
-		"haste",
-		"luck",
-		"mending_moss",
-		"oreexcavate"
-	]
-};
-
-for stage, modifiers in modifierStages {
-	for modifier in modifiers {
-		TinkerStages.addToolTypeStage(stage, modifier);
-	}
-}
-
-//==================================
 //Functions
 function getMaterialStage(inMaterial as string) as string {
 	for materialStage, materials in scripts.staging.tinkers.materialsForStage {

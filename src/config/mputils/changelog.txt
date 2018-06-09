@@ -8,6 +8,13 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.9
+
+Bug Fixes:
+Fixed "Broken" tooltip from displaying on the Cyclic swords
+
+---------------------------------------------------------------------
+
 3.0.8
 
 Important Notes:

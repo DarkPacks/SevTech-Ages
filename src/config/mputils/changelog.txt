@@ -8,6 +8,13 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.0.9
+
+Enhancements:
+* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+
+---------------------------------------------------------------------
+
 3.0.8
 
 Important Notes:

@@ -10,6 +10,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.0.9
 
+Bug Fixes:
+* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
+
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 

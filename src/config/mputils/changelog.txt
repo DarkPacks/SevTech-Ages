@@ -15,6 +15,7 @@ Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
 * Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
 * Fixed "Broken" tooltip from displaying on the Cyclic swords
+* Fixed Cyclic player launcher recipe
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)

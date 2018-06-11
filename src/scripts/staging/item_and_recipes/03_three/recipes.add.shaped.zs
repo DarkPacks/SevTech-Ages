@@ -1316,6 +1316,13 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
 		]
 	],
+	<cyclicmagic:tool_launcher> : [
+		[
+			[<minecraft:glowstone_dust>, <ore:slimeball>, <minecraft:quartz>],
+			[null, <minecraft:glowstone_dust>, <ore:slimeball>],
+			[<ore:string>, null, <minecraft:glowstone_dust>]
+		]
+	],
 
 	//Blood Magic
 	<bloodmagic:ritual_diviner> : [

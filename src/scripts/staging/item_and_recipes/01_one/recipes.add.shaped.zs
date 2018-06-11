@@ -664,35 +664,73 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 
 	//Pickeltweaks
+
+	// Bronze Tools
 	<pickletweaks:bronze_sword> : [
 		[
-			[null, metals.copper.plate, null],
-			[null, metals.copper.plate, null],
+			[null, metals.bronze.plate, null],
+			[null, metals.bronze.plate, null],
 			[null, <minecraft:stick>, null]
 		]
 	],
 	<pickletweaks:bronze_pickaxe> : [
 		[
-			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
 			[null, <minecraft:stick>, null],
 			[null, <minecraft:stick>, null]
 		]
 	],
 	<pickletweaks:bronze_shovel> : [
 		[
-			[null, metals.copper.plate, null],
+			[null, metals.bronze.plate, null],
 			[null, <minecraft:stick>, null],
 			[null, <minecraft:stick>, null]
 		]
 	],
 	<pickletweaks:bronze_axe> : [
 		[
+			[metals.bronze.plate, metals.bronze.plate, null],
+			[metals.bronze.plate, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:bronze_hoe> : [
+		[
+			[metals.bronze.plate, metals.bronze.plate, null],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	// Copper Tools
+	<pickletweaks:copper_sword> : [
+		[
+			[null, metals.copper.plate, null],
+			[null, metals.copper.plate, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:copper_pickaxe> : [
+		[
+			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:copper_shovel> : [
+		[
+			[null, metals.copper.plate, null],
+			[null, <minecraft:stick>, null],
+			[null, <minecraft:stick>, null]
+		]
+	],
+	<pickletweaks:copper_axe> : [
+		[
 			[metals.copper.plate, metals.copper.plate, null],
 			[metals.copper.plate, <minecraft:stick>, null],
 			[null, <minecraft:stick>, null]
 		]
 	],
-	<pickletweaks:bronze_hoe> : [
+	<pickletweaks:copper_hoe> : [
 		[
 			[metals.copper.plate, metals.copper.plate, null],
 			[null, <minecraft:stick>, null],

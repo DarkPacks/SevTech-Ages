@@ -256,10 +256,7 @@ var itemsForStage as IIngredient[] = [
 	<cyclicmagic:trash>,
 
 	//Jaff
-	<jaff:iron_fishing_rod>,
-	<jaff:iron_hook>,
 	<jaff:tank>,
-	<jaff:wooden_fishing_rod>,
 
 	//Twilight Forest
 	<twilightforest:arctic_boots>,

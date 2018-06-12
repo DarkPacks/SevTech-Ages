@@ -90,7 +90,6 @@ var stage2Items as IIngredient[] = [
 	<ceramics:clay_wall:4>,
 	<ceramics:golden_bricks_stairs>,
 	<chiselsandbits:chisel_gold>,
-	<jaff:golden_fishing_rod>,
 	<minecraft:golden_apple:1>,
 	<minecraft:golden_apple>,
 	<minecraft:golden_axe>,
@@ -368,10 +367,7 @@ var stage2Items as IIngredient[] = [
 	<jaff:fish_bucket_cod>,
 	<jaff:fish_bucket_pufferfish>,
 	<jaff:fish_bucket_salmon>,
-	<jaff:iron_fishing_rod>,
-	<jaff:iron_hook>,
 	<jaff:tank>,
-	<jaff:wooden_fishing_rod>,
 
 	//Primal
 	<primal:blue_stone:7>,

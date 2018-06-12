@@ -330,7 +330,14 @@ static removeAndHideItems as IItemStack[] = [
 	<ceramics:clay_boots_raw>,
 	<ceramics:clay_chestplate_raw>,
 	<ceramics:clay_helmet_raw>,
-	<ceramics:clay_leggings_raw>
+	<ceramics:clay_leggings_raw>,
+
+	// Just A Few Fish
+	<jaff:diamond_fishing_rod>,
+	<jaff:golden_fishing_rod>,
+	<jaff:iron_fishing_rod>,
+	<jaff:iron_hook>,
+	<jaff:wooden_fishing_rod>
 ];
 
 for item in removeAndHideItems {

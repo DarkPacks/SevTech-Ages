@@ -11,6 +11,7 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:charm_wing>,
 	<cyclicmagic:placer_block>,
 	<cyclicmagic:tool_auto_torch>,
+	<cyclicmagic:tool_launcher>,
 	<minecraft:cake>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,

@@ -74,7 +74,6 @@ var stage5Items as IIngredient[] = [
 	<extendedcrafting:material:128>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
 	<ironchest:iron_chest:2>,
-	<jaff:diamond_fishing_rod>,
 	<minecraft:diamond_horse_armor>,
 	<pickletweaks:diamond_apple>,
 	<pickletweaks:repair_kit:4>,

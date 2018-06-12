@@ -39,7 +39,6 @@ var itemsForStage as IIngredient[] = [
 	<chiselsandbits:chisel_diamond>,
 	<extendedcrafting:table_ultimate>,
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
-	<jaff:diamond_fishing_rod>,
 	<minecraft:diamond_sword>,
 	<minecraft:diamond_shovel>,
 	<minecraft:diamond_hoe>,

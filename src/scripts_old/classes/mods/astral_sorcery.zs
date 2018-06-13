@@ -1,14 +1,5 @@
-#priority 2400
+#priority 800
 
-/*
-	SevTech: Ages Astral Sorcery Script
-
-	This script is a zenClass for creation for interation with Astral Sorcery.
-
-	Note: These scripts are created and for the usage in SevTech: Ages and other
-	modpacks curated by DarkPacks. You can use these scripts for reference and for
-	learning but not for copying and pasting and claiming as your own.
-*/
 import crafttweaker.item.IItemStack;
 
 import mods.astralsorcery.Grindstone;
@@ -33,14 +24,14 @@ zenClass AstralSorcery {
 	}
 
 	/*
-		Remove a Starlight Infusion Recipe
+		Remove a StarlightInfusion Recipe
 	*/
 	function removeStarlight(output as IItemStack) {
 		StarlightInfusion.removeInfusion(output);
 	}
 
 	/*
-		Add a Starlight Infusion Recipe
+		Add a StarlightInfusion Recipe
 	*/
 	function addStarlight(input as IItemStack, output as IItemStack, consumeMultiple as boolean, consumptionChance as float, tickTime as int) {
 		StarlightInfusion.addInfusion(input, output, consumeMultiple, consumptionChance, tickTime);

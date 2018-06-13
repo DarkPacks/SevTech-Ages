@@ -1,14 +1,5 @@
-#priority 2400
+#priority 800
 
-/*
-	SevTech: Ages AbyssalCraft Script
-
-	This script is a zenClass for creation for interation with AbyssalCraft.
-
-	Note: These scripts are created and for the usage in SevTech: Ages and other
-	modpacks curated by DarkPacks. You can use these scripts for reference and for
-	learning but not for copying and pasting and claiming as your own.
-*/
 import crafttweaker.item.IItemStack;
 
 import mods.abyssalcraft.Crystallizer;

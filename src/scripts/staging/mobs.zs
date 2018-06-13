@@ -1,44 +1,41 @@
-import mods.MobStages;
-
 /*
-	Mob Stages
+	SevTech: Ages Mobs Script
 
-	http://crafttweaker.readthedocs.io/en/latest/#Mods/GameStages/MobStages/MobStages/#global-options
+	This script handles the staging of mobs to set stages for them to appear.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
-var mobsForStages as string[][string] = {
-	//Stage one
-	STAGES.one : [
-		"emberroot:rainbowslime",
-		"emberroot:slime",
-		"minecraft:skeleton",
-		"minecraft:skeleton_horse"
-	],
+import import mods.sevtweaks.stager.Stage;
 
-	//Stage two
-	STAGES.two : [
-		"emberroot:enderminy",
-		"emberroot:fallenmount",
-		"emberroot:hero",
-		"emberroot:knight_fallen",
-		"emberroot:skeleton_frozen",
-		"emberroot:withercat",
-		"emberroot:witherwitch",
-		"minecraft:enderman"
-	],
+var stageOne as Stage = STAGES.one;
+var stageTwo as Stage = STAGES.two;
+var stageThree as Stage = STAGES.three;
+var stageFour as Stage = STAGES.four;
 
-	//Stage three
-	STAGES.three : [
-		"fat_cat:fat_cat"
-	],
+stageOne.addMob([
+	"emberroot:rainbowslime",
+	"emberroot:slime",
+	"minecraft:skeleton",
+	"minecraft:skeleton_horse"
+]);
 
-	//Stage four
-	STAGES.four : [
-		"playerskins:playermob"
-	]
-};
+stageTwo.addMob([
+	"emberroot:enderminy",
+	"emberroot:fallenmount",
+	"emberroot:hero",
+	"emberroot:knight_fallen",
+	"emberroot:skeleton_frozen",
+	"emberroot:withercat",
+	"emberroot:witherwitch",
+	"minecraft:enderman"
+]);
 
-for stage, mobs in mobsForStages {
-	for mob in mobs {
-		MobStages.addStage(stage, mob);
-	}
-}
+stageThree.addMob([
+	"fat_cat:fat_cat"
+]);
+
+stageFour.addMob([
+	"playerskins:playermob"
+]);

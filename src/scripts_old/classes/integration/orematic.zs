@@ -1,14 +1,5 @@
-#priority 2400
+#priority 800
 
-/*
-	SevTech: Ages OreMatic Script
-
-	This script is a zenClass for creation for interation with the MM OreMatic Machine.
-
-	Note: These scripts are created and for the usage in SevTech: Ages and other
-	modpacks curated by DarkPacks. You can use these scripts for reference and for
-	learning but not for copying and pasting and claiming as your own.
-*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.liquid.ILiquidStack;
@@ -74,13 +65,13 @@ zenClass OreMatic {
         return [
             // 0 - Basic
             formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, secondaryOuput, 0.5f),
-            // 1 - Lube
+            // 1 - lube
             formBaseRecipe(tier, 0.8 * default_ticktime, oreInput, dustOutput, "_lubricant", secondaryOuput, 0.5f, -125)
                 .addFluidInput(<liquid:lubricant> * 50),
-            // 2 - Gasoline
+            // 2 - gasoline
             allowGasoline ? formBaseRecipe(tier, default_ticktime, oreInput, dustOutput, "_gasoline", secondaryOuput, 0.75f, -250)
                 .addFluidInput(<liquid:gasoline> * 150) : null,
-            // 3 - Lube & Gasoline
+            // 3 - lube and gasoline
             allowGasoline ? formBaseRecipe(tier, 0.7 * default_ticktime, oreInput, dustOutput, "_gasoline_lubricant", secondaryOuput, 0.75f, -500)
                 .addFluidInput(<liquid:gasoline> * 150)
                 .addFluidInput(<liquid:lubricant> * 50): null

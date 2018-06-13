@@ -1,14 +1,9 @@
-#priority 2399
+#priority 700
 
 /*
-	SevTech: Ages Class Creation Script.
+	Class Creation
 
-	This script creates and sets the globals for the class we use to interact with mods
-	and/or MM machines.
-
-	Note: These scripts are created and for the usage in SevTech: Ages and other
-	modpacks curated by DarkPacks. You can use these scripts for reference and for
-	learning but not for copying and pasting and claiming as your own.
+	All the classes we use for mods and later on staging should be created here for usage in other scripts.classes.mods..
 */
 
 // Mods
@@ -17,10 +12,8 @@ global actuallyAdditions as scripts.classes.mods.actually_additions.ActuallyAddi
 global appliedEnergistics as scripts.classes.mods.applied_energistics.AppliedEnergistics = scripts.classes.mods.applied_energistics.AppliedEnergistics(8);
 global astralSorcery as scripts.classes.mods.astral_sorcery.AstralSorcery = scripts.classes.mods.astral_sorcery.AstralSorcery();
 global bloodMagic as scripts.classes.mods.blood_magic.BloodMagic = scripts.classes.mods.blood_magic.BloodMagic();
-global horsePower as scripts.classes.mods.horse_power.HorsePower = scripts.classes.mods.horse_power.HorsePower(4, 16);
 global immersiveEngineering as scripts.classes.mods.immersive_engineering.ImmersiveEngineering = scripts.classes.mods.immersive_engineering.ImmersiveEngineering(6000);
 global mekanism as scripts.classes.mods.mekanism.Mekanism = scripts.classes.mods.mekanism.Mekanism();
-global tinkers as scripts.classes.mods.tinkers.Tinkers = scripts.classes.mods.tinkers.Tinkers();
 
 // Integration
 global orematic as scripts.classes.integration.orematic.OreMatic =  scripts.classes.integration.orematic.OreMatic();

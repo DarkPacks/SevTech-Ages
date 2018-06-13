@@ -3,7 +3,7 @@
 /*
 	SevTech: Ages Astral Sorcery Script
 
-	This script is a zenClass for creation for interation with Astral Sorcery.
+	This script is a zenClass to allow easy interation with Astral Sorcery.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for

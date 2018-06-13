@@ -3,7 +3,7 @@
 /*
 	SevTech: Ages Actually Additions Script
 
-	This script is a zenClass for creation for interation with Actually Additions.
+	This script is a zenClass to allow easy interation with Actually Additions.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for

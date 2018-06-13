@@ -3,7 +3,7 @@
 /*
 	SevTech: Ages Applied Energistics Script
 
-	This script is a zenClass for creation for interation with Applied Energistics.
+	This script is a zenClass to allow easy interation with Applied Energistics.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for

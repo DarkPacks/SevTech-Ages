@@ -7,6 +7,9 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.item.IItemStack;
+
+import mods.ItemStages;
 import mods.sevtweaks.stager.Stage;
 import mods.sevtweaks.stager.Stager;
 import mods.TinkerStages;
@@ -99,7 +102,6 @@ static materialsForStage as string[][string] = {
 		"knightmetal",
 		"leaf",
 		"nagascale",
-		"nagascale",
 		"prismarine",
 		"raven_feather",
 		"reed",
@@ -154,6 +156,58 @@ static materialsForStage as string[][string] = {
 };
 
 /*
+	Part Item Staging
+*/
+static partsStages as IItemStack[][string] = {
+	stageTwo.stage: [
+		<conarm:armor_plate>,
+		<conarm:armor_trim>,
+		<conarm:boots_core>,
+		<conarm:chest_core>,
+		<conarm:helmet_core>,
+		<conarm:leggings_core>,
+		<conarm:polishing_kit>,
+		<tconstruct:arrow_head>,
+		<tconstruct:arrow_shaft>,
+		<tconstruct:axe_head>,
+		<tconstruct:binding>,
+		<tconstruct:bow_limb>,
+		<tconstruct:bow_string>,
+		<tconstruct:broad_axe_head>,
+		<tconstruct:cross_guard>,
+		<tconstruct:excavator_head>,
+		<tconstruct:fletching>,
+		<tconstruct:hammer_head>,
+		<tconstruct:hand_guard>,
+		<tconstruct:large_plate>,
+		<tconstruct:pan_head>,
+		<tconstruct:pick_head>,
+		<tconstruct:scythe_head>,
+		<tconstruct:sharpening_kit>,
+		<tconstruct:shovel_head>,
+		<tconstruct:sign_head>,
+		<tconstruct:sword_blade>,
+		<tconstruct:tool_rod>,
+		<tconstruct:tough_binding>,
+		<tconstruct:tough_tool_rod>,
+		<tconstruct:wide_guard>
+	],
+
+	stageThree.stage: [
+		<tcomplement:chisel_head>,
+		<tconstruct:knife_blade>,
+		<tconstruct:large_sword_blade>,
+		<yoyos:yoyo_axle>,
+		<yoyos:yoyo_body>,
+		<yoyos:yoyo_cord>
+	],
+
+	stageDisabled.stage: [
+		<tconstruct:kama_head>
+	]
+};
+
+/*
 	Init method to perform the logic for the script.
 */
 function init() {
@@ -168,6 +222,29 @@ function init() {
 	for _stage, materials in scripts.staging.tinkers.materialsForStage {
 		for material in materials {
 			Stager.getStage(_stage).addTiCMaterial(material);
+		}
+	}
+
+	// Add the part items to be staged.
+	for partStageName, parts in scripts.staging.tinkers.partsStages {
+		var partStage as Stage = Stager.getStage(partStageName);
+
+		for part in parts {
+			// Stage pattern/cast
+			partStage.addIngredient(<tconstruct:pattern>.withTag({PartType: part.definition.id}));
+			partStage.addIngredient(<tconstruct:cast>.withTag({PartType: part.definition.id}));
+			partStage.addIngredient(<tconstruct:clay_cast>.withTag({PartType: part.definition.id}));
+
+			// Stage part materials
+			for subItem in part.definition.subItems {
+				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
+					var subItemMaterial as string = subItem.tag.Material.asString();
+					var materialStage as string = Stager.getTiCMaterialStage(subItemMaterial);
+					var stage = scripts.utils.getHighestStage(partStageName, materialStage);
+
+					partStage.addIngredient(subItem);
+				}
+			}
 		}
 	}
 }

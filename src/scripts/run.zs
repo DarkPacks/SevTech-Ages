@@ -11,3 +11,12 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+
+// ==================================
+// Staging Specific Scripts
+scripts.staging.mobs.init();
+scripts.staging.tinkers.init();
+
+// ==================================
+// Build the Stages
+// TODO: Write code!

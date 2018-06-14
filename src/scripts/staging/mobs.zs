@@ -14,28 +14,38 @@ var stageTwo as Stage = STAGES.two;
 var stageThree as Stage = STAGES.three;
 var stageFour as Stage = STAGES.four;
 
-stageOne.addMob([
-	"emberroot:rainbowslime",
-	"emberroot:slime",
-	"minecraft:skeleton",
-	"minecraft:skeleton_horse"
-]);
+// ==================================
+// Mobs Staging
+var mobsMap as string[][Stage] = {
+	stageOne: [
+		"emberroot:rainbowslime",
+		"emberroot:slime",
+		"minecraft:skeleton",
+		"minecraft:skeleton_horse"
+	],
+	stageTwo: [
+		"emberroot:enderminy",
+		"emberroot:fallenmount",
+		"emberroot:hero",
+		"emberroot:knight_fallen",
+		"emberroot:skeleton_frozen",
+		"emberroot:withercat",
+		"emberroot:witherwitch",
+		"minecraft:enderman"
+	],
+	stageThree: [
+		"fat_cat:fat_cat"
+	],
+	stageFour: [
+		"playerskins:playermob"
+	]
+};
 
-stageTwo.addMob([
-	"emberroot:enderminy",
-	"emberroot:fallenmount",
-	"emberroot:hero",
-	"emberroot:knight_fallen",
-	"emberroot:skeleton_frozen",
-	"emberroot:withercat",
-	"emberroot:witherwitch",
-	"minecraft:enderman"
-]);
-
-stageThree.addMob([
-	"fat_cat:fat_cat"
-]);
-
-stageFour.addMob([
-	"playerskins:playermob"
-]);
+/*
+	Init method to perform the logic for the script.
+*/
+function init() {
+	for _stage, mobs in mobsMap {
+		_stage.addMob(mobs);
+	}
+}

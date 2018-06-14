@@ -72,12 +72,6 @@ var toolTypeStages as string[][Stage] = {
 	]
 };
 
-for stage, toolTypes in toolTypeStages {
-	for toolType in toolTypes {
-		stage.addTiCToolType(toolType);
-	}
-}
-
 // ==================================
 // Material Stage
 // Prevents the material from being used.
@@ -158,9 +152,22 @@ static materialsForStage as string[][Stage] = {
 	]
 };
 
-for stage, materials in materialsForStage {
-	for material in materials {
-		stage.addTiCMaterial(material);
+/*
+	Init method to perform the logic for the script.
+*/
+function init() {
+	// Add the tool types to be staged.
+	for stage, toolTypes in toolTypeStages {
+		for toolType in toolTypes {
+			stage.addTiCToolType(toolType);
+		}
+	}
+
+	// Add the materials to be staged.
+	for stage, materials in materialsForStage {
+		for material in materials {
+			stage.addTiCMaterial(material);
+		}
 	}
 }
 

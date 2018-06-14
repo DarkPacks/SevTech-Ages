@@ -2,7 +2,7 @@
 
 import crafttweaker.item.IIngredient;
 
-import import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stage;
 
 var stageZero as Stage = STAGES.zero;
 

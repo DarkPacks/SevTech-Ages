@@ -7,7 +7,7 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stage;
 
 var stageOne as Stage = STAGES.one;
 var stageTwo as Stage = STAGES.two;

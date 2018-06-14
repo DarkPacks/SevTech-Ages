@@ -2,7 +2,7 @@ setTitle("Cinnabar Ore")
 
 setIcon("minecraft:redstone")
 
-setDescription("Find a surface sample and dig for Redstone or Cinnabar! The ore is located from Y4 to 24")
+setDescription("Find a Cinnabar surface sample and dig for Redstone! The ore is located between Y5 and Y12")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)

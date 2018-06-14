@@ -2,7 +2,7 @@ setTitle("Limonite Ore")
 
 setIcon("immersiveengineering:metal", 4)
 
-setDescription("Find a surface sample and dig for Limonite! The ore is located from Y6 to 32")
+setDescription("Find a Limonite surface sample and dig for Nickel! The ore is located between Y6 and Y40")
 
 setParent("triumph:stage3/oreprospector")
 setRequiresParent(true)

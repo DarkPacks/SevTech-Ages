@@ -2,7 +2,7 @@ setTitle("Emerald Dream")
 
 setIcon("minecraft:emerald", 0)
 
-setDescription("Locate Beryl Samples on the surface to find Emerald. The ore is located between Y4 - 32")
+setDescription("Find a Beryl surface sample and dig for Emeralds! The ore is located between Y4 and Y32")
 
 setParent("triumph:stage5/prospectorstage5")
 setRequiresParent(true)

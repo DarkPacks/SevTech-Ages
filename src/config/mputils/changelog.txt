@@ -19,6 +19,7 @@ Bug Fixes:
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+* Made ore advancement descriptions uniform and corrected Y values.
 
 ---------------------------------------------------------------------
 

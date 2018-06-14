@@ -8,6 +8,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stager;
 import mods.TinkerStages;
 
 var stageOne as Stage = STAGES.one;
@@ -21,16 +22,16 @@ var stageDisabled as Stage = STAGES.disabled;
 	GENERAL RESTRICTIONS
 */
 // Prevents all tools unless the stage is unlocked.
-TinkerStages.addGeneralCraftingStage(stageTwo.getStage());
+TinkerStages.addGeneralCraftingStage(stageTwo.stage);
 
 // Prevents all tool swapping unless the stage is unlocked.
-TinkerStages.addGeneralPartReplacingStage(stageTwo.getStage());
+TinkerStages.addGeneralPartReplacingStage(stageTwo.stage);
 
 // Prvents all part building unless the stage is unlocked.
-TinkerStages.addGeneralPartBuildingStage(stageTwo.getStage());
+TinkerStages.addGeneralPartBuildingStage(stageTwo.stage);
 
 // Prevents applying any tool modifiers unless the stage is unlocked.
-TinkerStages.addGeneralModifierStage(stageThree.getStage());
+TinkerStages.addGeneralModifierStage(stageThree.stage);
 
 /*
 	SPECIFIC RESTRICTIONS
@@ -38,8 +39,8 @@ TinkerStages.addGeneralModifierStage(stageThree.getStage());
 // ==================================
 // Tool Type Stage
 // Prevents a specific tool type from being crafted at the tool station.
-var toolTypeStages as string[][Stage] = {
-	stageTwo: [
+static toolTypeStages as string[][string] = {
+	stageTwo.stage: [
 		"tconstruct:arrow",
 		"tconstruct:battlesign",
 		"tconstruct:bolt",
@@ -59,7 +60,7 @@ var toolTypeStages as string[][Stage] = {
 		"tconstruct:shovel"
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		"tcomplement:chisel",
 		"tconstruct:cleaver",
 		"tconstruct:longbow",
@@ -67,7 +68,7 @@ var toolTypeStages as string[][Stage] = {
 		"yoyos:yoyo"
 	],
 
-	stageDisabled: [
+	stageDisabled.stage: [
 		"tconstruct:kama"
 	]
 };
@@ -75,8 +76,8 @@ var toolTypeStages as string[][Stage] = {
 // ==================================
 // Material Stage
 // Prevents the material from being used.
-static materialsForStage as string[][Stage] = {
-	stageOne: [
+static materialsForStage as string[][string] = {
+	stageOne.stage: [
 		"bone",
 		"cactus",
 		"flint",
@@ -84,7 +85,7 @@ static materialsForStage as string[][Stage] = {
 		"wood"
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		"abyssalnite",
 		"blueslime",
 		"bronze",
@@ -116,7 +117,7 @@ static materialsForStage as string[][Stage] = {
 		"vine"
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		"blaze",
 		"constantan",
 		"electrum",
@@ -132,7 +133,7 @@ static materialsForStage as string[][Stage] = {
 		"treatedwood"
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		"ardite",
 		"cobalt",
 		"endrod",
@@ -140,7 +141,7 @@ static materialsForStage as string[][Stage] = {
 		"manyullyn"
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		"ma.base_essence",
 		"ma.inferium",
 		"ma.intermedium",
@@ -157,26 +158,16 @@ static materialsForStage as string[][Stage] = {
 */
 function init() {
 	// Add the tool types to be staged.
-	for stage, toolTypes in toolTypeStages {
+	for _stage, toolTypes in scripts.staging.tinkers.toolTypeStages {
 		for toolType in toolTypes {
-			stage.addTiCToolType(toolType);
+			Stager.getStage(_stage).addTiCToolType(toolType);
 		}
 	}
 
 	// Add the materials to be staged.
-	for stage, materials in materialsForStage {
+	for _stage, materials in scripts.staging.tinkers.materialsForStage {
 		for material in materials {
-			stage.addTiCMaterial(material);
-		}
-	}
-}
-
-// ==================================
-// Functions
-function getMaterialStage(inMaterial as string) as string {
-	for materialStage, materials in scripts.staging.tinkers.materialsForStage {
-		if (materials has inMaterial.toLowerCase()) {
-			return materialStage;
+			Stager.getStage(_stage).addTiCMaterial(material);
 		}
 	}
 }

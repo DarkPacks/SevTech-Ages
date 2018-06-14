@@ -8,6 +8,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stager;
 
 var stageOne as Stage = STAGES.one;
 var stageTwo as Stage = STAGES.two;
@@ -16,14 +17,15 @@ var stageFour as Stage = STAGES.four;
 
 // ==================================
 // Mobs Staging
-var mobsMap as string[][Stage] = {
-	stageOne: [
+static mobsMap as string[][string] = {
+	stageOne.stage: [
 		"emberroot:rainbowslime",
 		"emberroot:slime",
 		"minecraft:skeleton",
 		"minecraft:skeleton_horse"
 	],
-	stageTwo: [
+
+	stageTwo.stage: [
 		"emberroot:enderminy",
 		"emberroot:fallenmount",
 		"emberroot:hero",
@@ -33,10 +35,12 @@ var mobsMap as string[][Stage] = {
 		"emberroot:witherwitch",
 		"minecraft:enderman"
 	],
-	stageThree: [
+
+	stageThree.stage: [
 		"fat_cat:fat_cat"
 	],
-	stageFour: [
+
+	stageFour.stage: [
 		"playerskins:playermob"
 	]
 };
@@ -45,7 +49,7 @@ var mobsMap as string[][Stage] = {
 	Init method to perform the logic for the script.
 */
 function init() {
-	for _stage, mobs in mobsMap {
-		_stage.addMob(mobs);
+	for _stage, mobs in scripts.staging.mobs.mobsMap {
+		Stager.getStage(_stage).addMob(mobs);
 	}
 }

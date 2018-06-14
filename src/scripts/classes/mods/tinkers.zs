@@ -26,65 +26,65 @@ zenClass Tinkers {
 	/*
 		Add an Alloying recipe.
 	*/
-	function addAlloying(inputs as ILiquidStack[], ouput as ILiquidStack) {
-		Alloy.addRecipe(ouput, inputs);
+	function addAlloying(inputs as ILiquidStack[], output as ILiquidStack) {
+		Alloy.addRecipe(output, inputs);
 	}
 
 	/*
 		Remove an Alloying recipe.
 	*/
-	function removeAlloying(ouput as ILiquidStack) {
-		Alloy.removeRecipe(ouput);
+	function removeAlloying(output as ILiquidStack) {
+		Alloy.removeRecipe(output);
 	}
-	function removeAlloying(ouput as ILiquidStack, inputs as ILiquidStack[]) {
-		Alloy.removeRecipe(ouput, inputs);
+	function removeAlloying(output as ILiquidStack, inputs as ILiquidStack[]) {
+		Alloy.removeRecipe(output, inputs);
 	}
 
 	/*
 		Add an Casting Table recipe.
 	*/
 	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
-		Casting.addTableRecipe(ouput, cast, fluid, amount);
+		Casting.addTableRecipe(output, cast, fluid, amount);
 	}
 	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean) {
-		Casting.addTableRecipe(ouput, cast, fluid, amount, consumeCast);
+		Casting.addTableRecipe(output, cast, fluid, amount, consumeCast);
 	}
 	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean, time as int) {
-		Casting.addTableRecipe(ouput, cast, fluid, amount, consumeCast, time);
+		Casting.addTableRecipe(output, cast, fluid, amount, consumeCast, time);
 	}
 
 	/*
 		Remove an Casting Table recipe.
 	*/
-	function removeCastingTable(ouput as IItemStack) {
-		Casting.removeTableRecipe(ouput);
+	function removeCastingTable(output as IItemStack) {
+		Casting.removeTableRecipe(output);
 	}
 
 	/*
 		Add an Casting Basin recipe.
 	*/
-	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
-		Casting.addBasinRecipe(ouput, cast, fluid, amount);
+	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
+		Casting.addBasinRecipe(output, cast, fluid, amount);
 	}
-	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean) {
-		Casting.addBasinRecipe(ouput, cast, fluid, amount, consumeCast);
+	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean) {
+		Casting.addBasinRecipe(output, cast, fluid, amount, consumeCast);
 	}
-	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean, time as int) {
-		Casting.addBasinRecipe(ouput, cast, fluid, amount, consumeCast, time);
+	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean, time as int) {
+		Casting.addBasinRecipe(output, cast, fluid, amount, consumeCast, time);
 	}
 
 	/*
 		Remove an Casting Basin recipe.
 	*/
-	function removeCastingTable(ouput as IItemStack) {
-		Casting.removeBasinRecipe(ouput);
+	function removeCastingBasin(output as IItemStack) {
+		Casting.removeBasinRecipe(output);
 	}
 
 	/*
 		Add a Drying Recipe
 	*/
 	function addDrying(output as IItemStack, input as IIngredient, time as int) {
-		Drying.addRecipe(ouput, input, time);
+		Drying.addRecipe(output, input, time);
 	}
 
 	/*

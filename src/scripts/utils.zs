@@ -1,4 +1,4 @@
-#priority 4000
+#priority 2999
 
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
@@ -19,6 +19,16 @@ import scripts.stages.stageDisabled;
 
 function capitalize(str as string) as string {
 	return str.substring(0, 1).toUpperCase() + str.substring(1);
+}
+
+function squareNum(number as int, timesToSquare as int) as int {
+	var returnNumber = number;
+
+	for i in 0 to timesToSquare {
+		returnNumber = returnNumber * 2;
+	}
+
+	return returnNumber;
 }
 
 // Add item to oreDict if it does not exist already
@@ -81,21 +91,19 @@ function formatBucketIngredient(bucket as IItemStack, liquidName as string) as I
 	return formatBucket(bucket, liquidName) as IIngredient;
 }
 
-static stagePriorityMap as string[int] = {
-	stageTutorial.stage: 0,
-	stageZero.stage: 1,
-	stageOne.stage: 2,
-	stageTwo.stage: 3,
-	stageThree.stage: 4,
-	stageFour.stage: 5,
-	stageFive.stage: 6,
-	stageCreative.stage: 7,
-	stageDisabled.stage: 8
-};
-
 // Compares two stages and returns whichever is higher priority
 function getHighestStage(firstStage as Stage, secondStage as Stage) as Stage {
-	var stagePriorityMap as string[int] = scripts.utils.stagePriorityMap;
+	var stagePriorityMap as int[string] = {
+		stageTutorial.stage: 0,
+		stageZero.stage: 1,
+		stageOne.stage: 2,
+		stageTwo.stage: 3,
+		stageThree.stage: 4,
+		stageFour.stage: 5,
+		stageFive.stage: 6,
+		stageCreative.stage: 7,
+		stageDisabled.stage: 8
+	};
 
 	// Stage names
 	var firstStageName as string = firstStage.stage;
@@ -115,8 +123,8 @@ function getHighestStage(firstStage as Stage, secondStage as Stage) as Stage {
 	}
 	// Compare the stages and return whichever has higher priority
 	else {
-		var firstStagePriority as int = stagePriorityMap[firstStageName];
-		var secondStagePriority as int = stagePriorityMap[secondStageName];
+		var firstStagePriority as int = stagePriorityMap[firstStageName] as int;
+		var secondStagePriority as int = stagePriorityMap[secondStageName] as int;
 
 		if (secondStagePriority > firstStagePriority) {
 			return secondStage;
@@ -124,4 +132,11 @@ function getHighestStage(firstStage as Stage, secondStage as Stage) as Stage {
 			return firstStage;
 		}
 	}
+}
+
+/*
+	Create a recipe name.
+*/
+function createRecipeName(string1 as string, string2 as string) as string {
+	return string1 + "_" + string2;
 }

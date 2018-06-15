@@ -12,13 +12,12 @@
 import mods.sevtweaks.stager.Stager;
 import mods.sevtweaks.stager.Stage;
 
-global PACK_VERSION as string = "3.1.0";
-
 // ==================================
 // Stage Naming
 static stageNames as string[string] = {
 	// Core Stages
 	tutorial: "tutorial",
+	zero: "zero",
 	one: "one",
 	two: "two",
 	three: "three",
@@ -78,4 +77,4 @@ print("ddhdhhyyssssssssssssssssssssssssssyys+-");
 print("hddhhhhhhhhhhhhyyyyyhhyyyyyssyhdms-`");
 print("hhhhhhhhddddhhhdhhhhhhyhhhdddddhhdy/`");
 print("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdy-");
-print("Loading SevTech: Ages: " ~ PACK_VERSION ~ "...")
+print("Loading SevTech: Ages: 3.1.0 ...");

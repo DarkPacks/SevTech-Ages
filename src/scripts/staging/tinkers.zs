@@ -234,8 +234,8 @@ function init() {
 			for subItem in part.definition.subItems {
 				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 					var subItemMaterial as string = subItem.tag.Material.asString();
-					var materialStage as string = Stager.getTiCMaterialStage(subItemMaterial);
-					var stage = scripts.utils.getHighestStage(partStageName, materialStage);
+					var materialStage as Stage = Stager.getTiCMaterialStage(subItemMaterial);
+					var stage as Stage = scripts.utils.getHighestStage(partStage, materialStage);
 
 					partStage.addIngredient(subItem);
 				}

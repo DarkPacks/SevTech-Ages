@@ -16,7 +16,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 
-import scripts.mod_integrations.modular_machinery.base.createRecipeName;
+import scripts.utils.createRecipeName;
 
 /*
     OreMatic Class to intergrate with the custom machine even easier!

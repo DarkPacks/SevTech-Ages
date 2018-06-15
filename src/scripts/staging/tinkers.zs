@@ -212,16 +212,12 @@ static partsStages as IItemStack[][string] = {
 function init() {
 	// Add the tool types to be staged.
 	for _stage, toolTypes in scripts.staging.tinkers.toolTypeStages {
-		for toolType in toolTypes {
-			Stager.getStage(_stage).addTiCToolType(toolType);
-		}
+		Stager.getStage(_stage).addTiCToolTypes(toolTypes);
 	}
 
 	// Add the materials to be staged.
 	for _stage, materials in scripts.staging.tinkers.materialsForStage {
-		for material in materials {
-			Stager.getStage(_stage).addTiCMaterial(material);
-		}
+		Stager.getStage(_stage).addTiCMaterials(materials);
 	}
 
 	// Add the part items to be staged.

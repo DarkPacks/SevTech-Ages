@@ -50,6 +50,6 @@ static mobsMap as string[][string] = {
 */
 function init() {
 	for _stage, mobs in scripts.staging.mobs.mobsMap {
-		Stager.getStage(_stage).addMob(mobs);
+		Stager.getStage(_stage).addMobs(mobs);
 	}
 }

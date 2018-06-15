@@ -16,7 +16,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 
-import scripts.utils.squareNum;
 import scripts.mod_integrations.modular_machinery.base.createRecipeName;
 
 /*
@@ -35,7 +34,7 @@ zenClass DryingUnit {
 	*/
 	function formBaseRecipe(tier as int, name as string) as RecipePrimer {
 		var machineSlug = tier > 1 ? machineName ~ "_mk" ~ tier : machineName;
-		var timeScaler = (tier + 1) > 2 ? squareNum(2, tier - 1) : tier + 1;
+		var timeScaler = (tier + 1) > 2 ? pow(2, tier - 1) : tier + 1;
 
 		var builder = RecipeBuilder.newBuilder(
 			createRecipeName(machineName ~ "_mk" ~ tier, name),

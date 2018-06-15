@@ -1,5 +1,14 @@
 #priority 2999
 
+/*
+	SevTech: Ages Utils Script
+
+	This script provides utility functions for use in other scripts
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;

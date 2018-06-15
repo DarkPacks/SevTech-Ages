@@ -1,5 +1,5 @@
 /*
-	SevTech: Ages Tinkers Script
+	SevTech: Ages Tinkers Staging Script
 
 	This script handles the staging of Tinker's parts, materials, and modifiers.
 

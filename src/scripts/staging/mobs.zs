@@ -1,5 +1,5 @@
 /*
-	SevTech: Ages Mobs Script
+	SevTech: Ages Mob Staging Script
 
 	This script handles the staging of mobs to set stages for them to appear.
 

@@ -13,12 +13,12 @@ import mods.sevtweaks.stager.Stage;
 import mods.sevtweaks.stager.Stager;
 import mods.TinkerStages;
 
-import scripts.stages.stageOne;
-import scripts.stages.stageTwo;
-import scripts.stages.stageThree;
-import scripts.stages.stageFour;
-import scripts.stages.stageFive;
-import scripts.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 /*
 	GENERAL RESTRICTIONS
@@ -211,17 +211,17 @@ static partsStages as IItemStack[][string] = {
 */
 function init() {
 	// Add the tool types to be staged.
-	for _stage, toolTypes in scripts.staging.tinkers.toolTypeStages {
+	for _stage, toolTypes in scripts.crafttweaker.staging.tinkers.toolTypeStages {
 		Stager.getStage(_stage).addTiCToolTypes(toolTypes);
 	}
 
 	// Add the materials to be staged.
-	for _stage, materials in scripts.staging.tinkers.materialsForStage {
+	for _stage, materials in scripts.crafttweaker.staging.tinkers.materialsForStage {
 		Stager.getStage(_stage).addTiCMaterials(materials);
 	}
 
 	// Add the part items to be staged.
-	for partStageName, parts in scripts.staging.tinkers.partsStages {
+	for partStageName, parts in scripts.crafttweaker.staging.tinkers.partsStages {
 		var partStage as Stage = Stager.getStage(partStageName);
 
 		for part in parts {
@@ -235,7 +235,7 @@ function init() {
 				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 					var subItemMaterial as string = subItem.tag.Material.asString();
 					var materialStage as Stage = Stager.getTiCMaterialStage(subItemMaterial);
-					var stage as Stage = scripts.utils.getHighestStage(partStage, materialStage);
+					var stage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
 
 					partStage.addIngredient(subItem);
 				}

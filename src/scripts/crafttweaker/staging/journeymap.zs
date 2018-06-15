@@ -9,7 +9,7 @@
 */
 import mods.jmapstages.JMapStages;
 
-import scripts.stages.stageMapping;
+import scripts.crafttweaker.stages.stageMapping;
 
 /*
 	Init method to perform the logic for the script.

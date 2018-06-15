@@ -10,10 +10,10 @@
 import mods.sevtweaks.stager.Stage;
 import mods.sevtweaks.stager.Stager;
 
-import scripts.stages.stageOne;
-import scripts.stages.stageTwo;
-import scripts.stages.stageThree;
-import scripts.stages.stageFour;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
 
 // ==================================
 // Mobs Staging
@@ -49,7 +49,7 @@ static mobsMap as string[][string] = {
 	Init method to perform the logic for the script.
 */
 function init() {
-	for _stage, mobs in scripts.staging.mobs.mobsMap {
+	for _stage, mobs in scripts.crafttweaker.staging.mobs.mobsMap {
 		Stager.getStage(_stage).addMobs(mobs);
 	}
 }

@@ -1,15 +1,19 @@
-#priority 1050
-
-import crafttweaker.item.IItemStack;
-import crafttweaker.oredict.IOreDictEntry;
+#priority 2600
 
 /*
-	Barrel Ore Dict
+	SevTech: Ages Barrels Tweaks Script.
 
 	This allows other wood types to be used when trying to craft the Primal Barrels.
 	We can get around this by changing the oak barrel to use a custom OreDict w/o the main
 	woods so people can still craft the other ones.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 var oreBarrelPlank as IOreDictEntry = <ore:barrelPlank>;
 oreBarrelPlank.addAll(<ore:plankWood>);
 

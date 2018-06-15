@@ -16,8 +16,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 
-import scripts.utils.createRecipeName;
-import scripts.utils.squareNum;
+import scripts.crafttweaker.utils.createRecipeName;
+import scripts.crafttweaker.utils.squareNum;
 
 /*
 	TODO: Look into making this class generic for possible conversion from other MM machines.

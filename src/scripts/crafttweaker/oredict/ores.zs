@@ -1,4 +1,12 @@
-#priority 1050
+#priority 2550
+
+/*
+	SevTech: Ages OreDict Ores Script.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 
 /*
 	Geolosys Ores
@@ -53,3 +61,11 @@
 
 // Add this oredict to differentiate between the two ores
 <ore:oreBasicCertusQuartz>.add(<appliedenergistics2:quartz_ore>);
+
+// Space Platinum
+<ore:blockPlatinum>.remove(<extraplanets:kepler22b:14>);
+<ore:blockSpacePlatinum>.add(<extraplanets:kepler22b:14>);
+<ore:ingotPlatinum>.remove(<extraplanets:tier11_items:5>);
+<ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
+<ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
+<ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);

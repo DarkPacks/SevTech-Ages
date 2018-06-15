@@ -7,15 +7,15 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import mods.sevtweaks.stager.Stage;
 
-import scripts.stages.stageTutorial;
-import scripts.stages.stageZero;
-import scripts.stages.stageOne;
-import scripts.stages.stageTwo;
-import scripts.stages.stageThree;
-import scripts.stages.stageFour;
-import scripts.stages.stageFive;
-import scripts.stages.stageCreative;
-import scripts.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageTutorial;
+import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreative;
+import scripts.crafttweaker.stages.stageDisabled;
 
 function capitalize(str as string) as string {
 	return str.substring(0, 1).toUpperCase() + str.substring(1);

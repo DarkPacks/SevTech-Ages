@@ -1,15 +1,19 @@
-#priority 1050
+#priority 2600
 
 /*
-	Fix Mekanism
-	Mekanism registers oredict late, so we need to add manually.
+	SevTech: Ages OreDict Mod Script.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
-//Ores
+
+// Ores
 <ore:oreCopper>.add(<mekanism:oreblock:1>);
 <ore:oreOsmium>.add(<mekanism:oreblock>);
 <ore:oreTin>.add(<mekanism:oreblock:2>);
 
-//Copper
+// Copper
 <ore:blockCopper>.add(<mekanism:basicblock:12>);
 <ore:clumpCopper>.add(<mekanism:clump:3>);
 <ore:crystalCopper>.add(<mekanism:crystal:3>);
@@ -19,28 +23,28 @@
 <ore:nuggetCopper>.add(<mekanism:nugget:5>);
 <ore:shardCopper>.add(<mekanism:shard:3>);
 
-//Gold
+// Gold
 <ore:clumpGold>.add(<mekanism:clump:1>);
 <ore:crystalGold>.add(<mekanism:crystal:1>);
 <ore:dustDirtyGold>.add(<mekanism:dirtydust:1>);
 <ore:dustGold>.add(<mekanism:dust:1>);
 <ore:shardGold>.add(<mekanism:shard:1>);
 
-//Iron
+// Iron
 <ore:clumpIron>.add(<mekanism:clump>);
 <ore:crystalIron>.add(<mekanism:crystal>);
 <ore:dustDirtyIron>.add(<mekanism:dirtydust>);
 <ore:dustIron>.add(<mekanism:dust>);
 <ore:shardIron>.add(<mekanism:shard>);
 
-//Lead
+// Lead
 <ore:clumpLead>.add(<mekanism:clump:6>);
 <ore:crystalLead>.add(<mekanism:crystal:6>);
 <ore:dustDirtyLead>.add(<mekanism:dirtydust:6>);
 <ore:dustLead>.add(<mekanism:dust:6>);
 <ore:shardLead>.add(<mekanism:shard:6>);
 
-//Osmium
+// Osmium
 <ore:blockOsmium>.add(<mekanism:basicblock>);
 <ore:clumpOsmium>.add(<mekanism:clump:2>);
 <ore:crystalOsmium>.add(<mekanism:crystal:2>);
@@ -50,14 +54,14 @@
 <ore:nuggetOsmium>.add(<mekanism:nugget:1>);
 <ore:shardOsmium>.add(<mekanism:shard:2>);
 
-//Silver
+// Silver
 <ore:clumpSilver>.add(<mekanism:clump:5>);
 <ore:crystalSilver>.add(<mekanism:crystal:5>);
 <ore:dustDirtySilver>.add(<mekanism:dirtydust:5>);
 <ore:dustSilver>.add(<mekanism:dust:5>);
 <ore:shardSilver>.add(<mekanism:shard:5>);
 
-//Tin
+// Tin
 <ore:blockTin>.add(<mekanism:basicblock:13>);
 <ore:clumpTin>.add(<mekanism:clump:4>);
 <ore:crystalTin>.add(<mekanism:crystal:4>);
@@ -67,23 +71,23 @@
 <ore:nuggetTin>.add(<mekanism:nugget:6>);
 <ore:shardTin>.add(<mekanism:shard:4>);
 
-//Refined Obsidian
+// Refined Obsidian
 <ore:blockRefinedObsidian>.add(<mekanism:basicblock:2>);
 <ore:dustRefinedObsidian>.add(<mekanism:otherdust:5>);
 <ore:ingotRefinedObsidian>.add(<mekanism:ingot>);
 <ore:nuggetRefinedObsidian>.add(<mekanism:nugget>);
 
-//Refined Glowstone
+// Refined Glowstone
 <ore:blockRefinedGlowstone>.add(<mekanism:basicblock:4>);
 <ore:ingotRefinedGlowstone>.add(<mekanism:ingot:3>);
 <ore:nuggetRefinedGlowstone>.add(<mekanism:nugget:3>);
 
-//Bronze
+// Bronze
 <ore:blockBronze>.add(<mekanism:basicblock:1>);
 <ore:ingotBronze>.add(<mekanism:ingot:2>);
 <ore:nuggetBronze>.add(<mekanism:nugget:2>);
 
-//Misc
+// Misc
 <ore:blockCharcoal>.add(<mekanism:basicblock:3>);
 <ore:blockSalt>.add(<mekanism:saltblock>);
 <ore:blockSteel>.add(<mekanism:basicblock:5>);

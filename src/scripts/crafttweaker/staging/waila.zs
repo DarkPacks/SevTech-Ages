@@ -9,8 +9,8 @@
 */
 import mods.WailaStages;
 
-import scripts.stages.stageOne;
-import scripts.stages.stageTwo;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
 
 // Stage One
 WailaStages.addWailaStage(stageOne.stage);

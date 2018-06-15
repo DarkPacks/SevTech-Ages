@@ -8,11 +8,11 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import scripts.stages.stageOne;
-import scripts.stages.stageTwo;
-import scripts.stages.stageThree;
-import scripts.stages.stageFour;
-import scripts.stages.stageFive;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
 
 /*
 	Init method to perform the logic for the script.

@@ -1,10 +1,13 @@
-#priority 1050
-
-import crafttweaker.oredict.IOreDictEntry;
+#priority 2600
 
 /*
-	Make metal ore:stickX ore:rodX, because... why must some mods be different?
+	SevTech: Ages ore:stickX ore:rodX Script.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.oredict.IOreDictEntry;
 
 var metalStickPairs as IOreDictEntry[][] = [
 	[<ore:stickAluminum>, <ore:rodAluminum>],

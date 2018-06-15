@@ -14,10 +14,10 @@
 
 // ==================================
 // Staging Specific Scripts
-scripts.staging.dimensions.init();
-scripts.staging.journeymap.init();
-scripts.staging.mobs.init();
-scripts.staging.tinkers.init();
+scripts.crafttweaker.staging.dimensions.init();
+scripts.crafttweaker.staging.journeymap.init();
+scripts.crafttweaker.staging.mobs.init();
+scripts.crafttweaker.staging.tinkers.init();
 
 // ==================================
 // Build the Stages

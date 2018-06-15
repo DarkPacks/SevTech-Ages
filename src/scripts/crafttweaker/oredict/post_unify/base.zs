@@ -1,5 +1,12 @@
-#priority 850
+#priority 2501
 
+/*
+	SevTech: Ages Post Unifiy Script.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IIngredient;
 
 var allDyes as IIngredient =

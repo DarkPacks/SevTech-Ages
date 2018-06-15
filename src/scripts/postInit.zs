@@ -1,7 +1,7 @@
 #priority -100
 
 /*
-	SevTech: Ages Run Script
+	SevTech: Ages Run (postInit) Script
 
 	This script is the main runner for the pack. This file should ONLY be
 	modified if you know what you are doing. Changing anything in here could cause

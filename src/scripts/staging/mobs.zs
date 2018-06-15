@@ -10,10 +10,10 @@
 import mods.sevtweaks.stager.Stage;
 import mods.sevtweaks.stager.Stager;
 
-var stageOne as Stage = STAGES.one;
-var stageTwo as Stage = STAGES.two;
-var stageThree as Stage = STAGES.three;
-var stageFour as Stage = STAGES.four;
+import scripts.stages.stageOne;
+import scripts.stages.stageTwo;
+import scripts.stages.stageThree;
+import scripts.stages.stageFour;
 
 // ==================================
 // Mobs Staging

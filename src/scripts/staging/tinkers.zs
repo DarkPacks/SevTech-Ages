@@ -9,17 +9,16 @@
 */
 import crafttweaker.item.IItemStack;
 
-import mods.ItemStages;
 import mods.sevtweaks.stager.Stage;
 import mods.sevtweaks.stager.Stager;
 import mods.TinkerStages;
 
-var stageOne as Stage = STAGES.one;
-var stageTwo as Stage = STAGES.two;
-var stageThree as Stage = STAGES.three;
-var stageFour as Stage = STAGES.four;
-var stageFive as Stage = STAGES.five;
-var stageDisabled as Stage = STAGES.disabled;
+import scripts.stages.stageOne;
+import scripts.stages.stageTwo;
+import scripts.stages.stageThree;
+import scripts.stages.stageFour;
+import scripts.stages.stageFive;
+import scripts.stages.stageDisabled;
 
 /*
 	GENERAL RESTRICTIONS

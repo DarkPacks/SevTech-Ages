@@ -1,6 +1,12 @@
-#priority 1149
 #loader contenttweaker
 
+/*
+	SevTech: Ages ContentTweaker Large Scale Script.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;
 
@@ -11,8 +17,9 @@ import scripts.contenttweaker.base.materials;
 /*
 	Large-scale registration
 */
+
 //==================================
-//Add default parts for materials
+// Add default parts for materials
 var materailsForDefaultParts as Material[] = [
 	materials.bronze,
 	materials.cobalt,
@@ -40,7 +47,7 @@ for i, metal in materailsForDefaultParts {
 }
 
 //==================================
-//Apply Molten to Materials
+// Apply Molten to Materials
 var fluidMaterials as Material[] = [
 	materials.enhancedGalgadorian,
 	materials.fiery,
@@ -60,7 +67,7 @@ for i, fluid in fluidMaterials {
 }
 
 //==================================
-//Custom gears to keep the same look
+// Custom gears to keep the same look
 var gearMaterialList as Material[] = [
 	materials.diamond,
 	materials.gold,
@@ -73,7 +80,7 @@ for material in gearMaterialList {
 }
 
 //==================================
-//Ore Samples
+// Ore Samples
 var oreSampleMaterials as Material[] = [
 	materials.osmium,
 	materials.silicon
@@ -90,7 +97,7 @@ for material in oreSampleMaterials {
 }
 
 //==================================
-//Clusters
+// Clusters
 var clusters as Material[] = [
 	materials.titanium
 ];

@@ -11,6 +11,7 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import mods.sevtweaks.stager.Stager;
 
 // ==================================
 // Staging Specific Scripts
@@ -21,4 +22,4 @@ scripts.crafttweaker.staging.tinkers.init();
 
 // ==================================
 // Build the Stages
-// TODO: Write code!
+Stager.buildAll();

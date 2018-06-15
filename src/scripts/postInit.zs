@@ -14,6 +14,8 @@
 
 // ==================================
 // Staging Specific Scripts
+scripts.staging.dimensions.init();
+scripts.staging.journeymap.init();
 scripts.staging.mobs.init();
 scripts.staging.tinkers.init();
 

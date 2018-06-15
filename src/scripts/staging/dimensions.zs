@@ -14,29 +14,34 @@ import scripts.stages.stageThree;
 import scripts.stages.stageFour;
 import scripts.stages.stageFive;
 
-// Beneath
-stageOne.addDimension(10);
+/*
+	Init method to perform the logic for the script.
+*/
+function init() {
+	// Beneath
+	stageOne.addDimension(10);
 
-// Twilight Forest
-stageTwo.addDimension(7);
+	// Twilight Forest
+	stageTwo.addDimension(7);
 
-// Betweenlands
-stageTwo.addDimension(20);
+	// Betweenlands
+	stageTwo.addDimension(20);
 
-// Nether
-stageThree.addDimension(-1);
+	// Nether
+	stageThree.addDimension(-1);
 
-// End
-stageFour.addDimension(1);
+	// End
+	stageFour.addDimension(1);
 
-// AE2 Spatial Storage
-stageFive.addDimension(2);
+	// AE2 Spatial Storage
+	stageFive.addDimension(2);
 
-// Abyssalcraft
-stageOne.addDimension(50);
-stageOne.addDimension(52);
-stageOne.addDimension(53);
-stageTwo.addDimension(51);
+	// Abyssalcraft
+	stageOne.addDimension(50);
+	stageOne.addDimension(52);
+	stageOne.addDimension(53);
+	stageTwo.addDimension(51);
 
-// Hunting Dimension
-stageOne.addDimension(28885);
+	// Hunting Dimension
+	stageOne.addDimension(28885);
+}

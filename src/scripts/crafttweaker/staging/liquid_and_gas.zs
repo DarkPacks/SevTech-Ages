@@ -1,9 +1,28 @@
+/*
+	SevTech: Ages Liquid and Gas Staging Script
+
+	This script handles the staging of Liquids and Gasses including buckets.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-//Liquid "Items"
+import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stager;
+
+import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
+
+// Liquid "Items"
 var liquidItemsForStage as IItemStack[][string] = {
-	STAGES.zero : [
+	stageZero.stage: [
 		<primal:bitumen>,
 		<primal:bitumen_boiling>,
 		<primal:brine_netjry>,
@@ -26,12 +45,12 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<thebetweenlands:tar>
 	],
 
-	STAGES.one : [
+	stageOne.stage: [
 		<abyssalcraft:antiwater>,
 		<abyssalcraft:cwater>
 	],
 
-	STAGES.three : [
+	stageThree.stage: [
 		<car:glycerin>,
 		<cyclicmagic:milk>,
 		<cyclicmagic:poison>,
@@ -45,7 +64,7 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<pneumaticcraft:fluid.kerosene>,
 	],
 
-	STAGES.four : [
+	stageFour.stage: [
 		<car:bio_diesel>,
 		<car:canola_methanol_mix>,
 		<car:canola_oil>,
@@ -55,7 +74,7 @@ var liquidItemsForStage as IItemStack[][string] = {
 		<pneumaticcraft:fluid.lpg>
 	],
 
-	STAGES.five : [
+	stageFive.stage: [
 		<actuallyadditions:block_canola_oil>,
 		<actuallyadditions:block_crystal_oil>,
 		<actuallyadditions:block_empowered_oil>,
@@ -63,20 +82,20 @@ var liquidItemsForStage as IItemStack[][string] = {
 	]
 };
 
-for stage, liquidItems in liquidItemsForStage {
-	for liquidItem in liquidItems {
-		mods.ItemStages.addItemStage(stage, liquidItem);
-	}
+for stageName, liquidItems in liquidItemsForStage {
+	var stage as Stage = Stager.getStage(stageName);
+
+	stage.addIngredients(liquidItems);
 }
 
-//Liquids
+// Liquids
 var liquidsForStage as ILiquidStack[][string] = {
-	STAGES.zero : [
+	stageZero.stage: [
 		<liquid:lava>,
 		<liquid:water>
 	],
 
-	STAGES.one : [
+	stageOne.stage: [
 		<liquid:ale>,
 		<liquid:blood>,
 		<liquid:cider>,
@@ -90,10 +109,10 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:wine>
 	],
 
-	STAGES.two : [
+	STAGES.two: [
 		<liquid:astralsorcery.liquidstarlight>,
 		<liquid:ender_pearl>,
-		<liquid:fiery>,  //Depricated will be removed in 3.1.0
+		<liquid:fiery>,  // Depricated will be removed in 3.1.0
 		<liquid:fiery_essence>,
 		<liquid:fierymetal>,
 		<liquid:glass>,
@@ -104,7 +123,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:tar>
 	],
 
-	STAGES.three : [
+	stageThree.stage: [
 		<liquid:biodiesel>,
 		<liquid:blueslime>,
 		<liquid:canolaoil>,
@@ -131,7 +150,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:steam>
 	],
 
-	STAGES.four : [
+	stageFour.stage: [
 		<liquid:bio_diesel>,
 		<liquid:biofuel>,
 		<liquid:canola_methanol_mix>,
@@ -151,7 +170,7 @@ var liquidsForStage as ILiquidStack[][string] = {
 		<liquid:sludge>
 	],
 
-	STAGES.five : [
+	stageFive.stage: [
 		<liquid:argon>,
 		<liquid:bacterialsludge>,
 		<liquid:base_essence>,
@@ -204,23 +223,28 @@ var liquidsForStage as ILiquidStack[][string] = {
 	]
 };
 
-for stage, liquidStacks in liquidsForStage {
-	for liquidStack in liquidStacks {
-		mods.ItemStages.stageLiquid(stage, liquidStack);
+for stageName, liquidStacks in liquidsForStage {
+	var stage as Stage = Stager.getStage(stageName);
 
-		//Stage buckets
-		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredient(liquidStack));
+	// Stage liquid
+	stage.addIngredients(liquidStacks);
+
+	for liquidStack in liquidStacks {
+		// Stage buckets
+		stage.addIngredient(scripts.crafting_utils.getBucketIngredient(liquidStack));
 	}
 }
 
 var liquidsNamesForBucketStaging as string[][string] = {
-	STAGES.three : [
+	stageThree.stage: [
 		"milk"
 	]
 };
 
-for stage, liquidNames in liquidsNamesForBucketStaging {
+for stageName, liquidNames in liquidsNamesForBucketStaging {
+	var stage as Stage = Stager.getStage(stageName);
+
 	for liquidName in liquidNames {
-		mods.ItemStages.addItemStage(stage, scripts.crafting_utils.getBucketIngredientFromName(liquidName));
+		stage.addIngredient(scripts.crafttweaker.crafting_utils.getBucketIngredientFromName(liquidName));
 	}
 }

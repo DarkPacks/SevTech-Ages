@@ -1,13 +1,17 @@
+/*
+	SevTech: Ages Item Descriptions Script
+
+	This script allows for the addition of JEI Descriptions to ItemStacks.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IItemStack;
+
 import mods.jei.JEI;
 
-/*
-	Add descriptions to items
-
-	http://crafttweaker.readthedocs.io/en/latest/#Mods/JEI/JEI/#add-description
-*/
-
-var descriptionPairs as string[][IItemStack] = {
+static descriptionPairs as string[][IItemStack] = {
 	<environmentaltech:solar_cont_1>: [
 		"Materials Needed:",
 		"4 x Null Modifier",
@@ -261,6 +265,8 @@ var descriptionPairs as string[][IItemStack] = {
 	]
 };
 
-for item, descriptionArray in descriptionPairs {
-	JEI.addDescription(item, descriptionArray);
+function init() {
+	for item, descriptionArray in scripts.crafttweaker.item_modifiers.descriptions.descriptionPairs {
+		JEI.addDescription(item, descriptionArray);
+	}
 }

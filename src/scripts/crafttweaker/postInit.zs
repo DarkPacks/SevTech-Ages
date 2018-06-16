@@ -21,5 +21,15 @@ scripts.crafttweaker.staging.mobs.init();
 scripts.crafttweaker.staging.tinkers.init();
 
 // ==================================
+// Item Modifiers
+scripts.crafttweaker.item_modifiers.burnTime.init();
+scripts.crafttweaker.item_modifiers.descriptions.init();
+scripts.crafttweaker.item_modifiers.durability.init();
+scripts.crafttweaker.item_modifiers.hardness.init();
+scripts.crafttweaker.item_modifiers.harvestLevel.init();
+scripts.crafttweaker.item_modifiers.rename.init();
+scripts.crafttweaker.item_modifiers.tooltips.init();
+
+// ==================================
 // Build the Stages
 Stager.buildAll();

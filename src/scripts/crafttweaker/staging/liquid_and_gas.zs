@@ -231,7 +231,7 @@ for stageName, liquidStacks in liquidsForStage {
 
 	for liquidStack in liquidStacks {
 		// Stage buckets
-		stage.addIngredient(scripts.craftingUtils.getBucketIngredient(liquidStack));
+		stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack));
 	}
 }
 

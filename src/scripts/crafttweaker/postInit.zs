@@ -15,10 +15,13 @@ import mods.sevtweaks.stager.Stager;
 
 // ==================================
 // Staging Specific Scripts
+scripts.crafttweaker.staging.containers.init();
 scripts.crafttweaker.staging.dimensions.init();
 scripts.crafttweaker.staging.journeymap.init();
+scripts.crafttweaker.staging.liquid_and_gas.init();
 scripts.crafttweaker.staging.mobs.init();
 scripts.crafttweaker.staging.tinkers.init();
+scripts.crafttweaker.staging.waila.init();
 
 // ==================================
 // Events

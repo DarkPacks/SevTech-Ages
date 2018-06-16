@@ -21,7 +21,7 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
 // Liquid "Items"
-var liquidItemsForStage as IItemStack[][string] = {
+static liquidItemsForStage as IItemStack[][string] = {
 	stageZero.stage: [
 		<primal:bitumen>,
 		<primal:bitumen_boiling>,
@@ -82,14 +82,8 @@ var liquidItemsForStage as IItemStack[][string] = {
 	]
 };
 
-for stageName, liquidItems in liquidItemsForStage {
-	var stage as Stage = Stager.getStage(stageName);
-
-	stage.addIngredients(liquidItems);
-}
-
 // Liquids
-var liquidsForStage as ILiquidStack[][string] = {
+static liquidsForStage as ILiquidStack[][string] = {
 	stageZero.stage: [
 		<liquid:lava>,
 		<liquid:water>
@@ -223,28 +217,36 @@ var liquidsForStage as ILiquidStack[][string] = {
 	]
 };
 
-for stageName, liquidStacks in liquidsForStage {
-	var stage as Stage = Stager.getStage(stageName);
-
-	// Stage liquid
-	stage.addIngredients(liquidStacks);
-
-	for liquidStack in liquidStacks {
-		// Stage buckets
-		stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack));
-	}
-}
-
-var liquidsNamesForBucketStaging as string[][string] = {
+static liquidsNamesForBucketStaging as string[][string] = {
 	stageThree.stage: [
 		"milk"
 	]
 };
 
-for stageName, liquidNames in liquidsNamesForBucketStaging {
-	var stage as Stage = Stager.getStage(stageName);
+function init() {
+	for stageName, liquidItems in scripts.crafttweaker.staging.liquid_and_gas.liquidItemsForStage {
+		var stage as Stage = Stager.getStage(stageName);
 
-	for liquidName in liquidNames {
-		stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName));
+		stage.addIngredients(liquidItems);
+	}
+
+	for stageName, liquidStacks in scripts.crafttweaker.staging.liquid_and_gas.liquidsForStage {
+		var stage as Stage = Stager.getStage(stageName);
+
+		// Stage liquid
+		stage.addIngredients(liquidStacks);
+
+		for liquidStack in liquidStacks {
+			// Stage buckets
+			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack));
+		}
+	}
+
+	for stageName, liquidNames in scripts.crafttweaker.staging.liquid_and_gas.liquidsNamesForBucketStaging {
+		var stage as Stage = Stager.getStage(stageName);
+
+		for liquidName in liquidNames {
+			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName));
+		}
 	}
 }

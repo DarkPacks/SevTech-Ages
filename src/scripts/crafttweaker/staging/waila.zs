@@ -12,13 +12,15 @@ import mods.WailaStages;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 
-// Stage One
-WailaStages.addWailaStage(stageOne.stage);
+function init() {
+	// Stage One
+	WailaStages.addWailaStage(stageOne.stage);
 
-// Stage Two
-WailaStages.addRequirement(stageTwo.stage, "Currently");
-WailaStages.addRequirement(stageTwo.stage, "Effective");
-WailaStages.addRequirement(stageTwo.stage, "Harvest");
-WailaStages.addRequirement(stageTwo.stage, "Harvestable");
-WailaStages.addRequirement(stageTwo.stage, "Progress");
-WailaStages.addRequirement(stageTwo.stage, "Progression");
+	// Stage Two
+	WailaStages.addRequirement(stageTwo.stage, "Currently");
+	WailaStages.addRequirement(stageTwo.stage, "Effective");
+	WailaStages.addRequirement(stageTwo.stage, "Harvest");
+	WailaStages.addRequirement(stageTwo.stage, "Harvestable");
+	WailaStages.addRequirement(stageTwo.stage, "Progress");
+	WailaStages.addRequirement(stageTwo.stage, "Progression");
+}

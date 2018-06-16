@@ -224,13 +224,13 @@ static liquidsNamesForBucketStaging as string[][string] = {
 };
 
 function init() {
-	for stageName, liquidItems in scripts.crafttweaker.staging.liquid_and_gas.liquidItemsForStage {
+	for stageName, liquidItems in scripts.crafttweaker.staging.liquidAndGas.liquidItemsForStage {
 		var stage as Stage = Stager.getStage(stageName);
 
 		stage.addIngredients(liquidItems);
 	}
 
-	for stageName, liquidStacks in scripts.crafttweaker.staging.liquid_and_gas.liquidsForStage {
+	for stageName, liquidStacks in scripts.crafttweaker.staging.liquidAndGas.liquidsForStage {
 		var stage as Stage = Stager.getStage(stageName);
 
 		// Stage liquid
@@ -242,7 +242,7 @@ function init() {
 		}
 	}
 
-	for stageName, liquidNames in scripts.crafttweaker.staging.liquid_and_gas.liquidsNamesForBucketStaging {
+	for stageName, liquidNames in scripts.crafttweaker.staging.liquidAndGas.liquidsNamesForBucketStaging {
 		var stage as Stage = Stager.getStage(stageName);
 
 		for liquidName in liquidNames {

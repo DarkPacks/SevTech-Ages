@@ -21,6 +21,10 @@ scripts.crafttweaker.staging.mobs.init();
 scripts.crafttweaker.staging.tinkers.init();
 
 // ==================================
+// Events
+scripts.crafttweaker.events.blockBreak.init();
+
+// ==================================
 // Item Modifiers
 scripts.crafttweaker.item_modifiers.burnTime.init();
 scripts.crafttweaker.item_modifiers.descriptions.init();

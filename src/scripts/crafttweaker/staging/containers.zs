@@ -9,6 +9,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import mods.sevtweaks.stager.Stage;
+import mods.sevtweaks.stager.Stager;
 
 import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
@@ -43,28 +44,28 @@ function init() {
 		Container Staging
 	*/
 	// Primal Tech work stump
-	scripts.crafttweaker.staging.containers.addContainerToStages("primal_tech.inventory.ContainerWorkStump", [stageTutorial, stageZero, stageBaykok]);
+	Stager.addContainer("primal_tech.inventory.ContainerWorkStump", [stageTutorial, stageZero, stageBaykok]);
 
 	/*
 		Package Staging
 	*/
 	// AE Crafting Terminal
-	scripts.crafttweaker.staging.containers.addPackageToStages("appeng", ALL_STAGES);
+	Stager.addPackage("appeng", ALL_STAGES);
 
 	// RS Crafting Grid
-	scripts.crafttweaker.staging.containers.addPackageToStages("com.raoulvdberge.refinedstorage", ALL_STAGES);
+	Stager.addPackage("com.raoulvdberge.refinedstorage", ALL_STAGES);
 
 	// RFtools Crafters
-	scripts.crafttweaker.staging.containers.addPackageToStages("mcjty.rftools.blocks.crafter", ALL_STAGES);
+	Stager.addPackage("mcjty.rftools.blocks.crafter", ALL_STAGES);
 
 	// Inductive Logistics Automatic Crafters
-	scripts.crafttweaker.staging.containers.addPackageToStages("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
+	Stager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Auto Workbench Buildcraft
-	scripts.crafttweaker.staging.containers.addPackageToStages("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
+	Stager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
-	scripts.crafttweaker.staging.containers.addPackageToStages("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
+	Stager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
 }
 
 /*

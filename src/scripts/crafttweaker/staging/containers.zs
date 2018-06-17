@@ -23,7 +23,7 @@ import scripts.crafttweaker.stages.stageBaykok;
 import scripts.crafttweaker.stages.stageMapping;
 
 // Contains all "useful" stages
-var ALL_STAGES as Stage[] = [
+static ALL_STAGES as Stage[] = [
 	// Core stages
 	stageTutorial,
 	stageZero,
@@ -40,6 +40,8 @@ var ALL_STAGES as Stage[] = [
 ];
 
 function init() {
+	var allStages as Stage[] = scripts.crafttweaker.staging.containers.ALL_STAGES;
+
 	/*
 		Container Staging
 	*/
@@ -50,13 +52,13 @@ function init() {
 		Package Staging
 	*/
 	// AE Crafting Terminal
-	Stager.addPackage("appeng", ALL_STAGES);
+	Stager.addPackage("appeng", allStages);
 
 	// RS Crafting Grid
-	Stager.addPackage("com.raoulvdberge.refinedstorage", ALL_STAGES);
+	Stager.addPackage("com.raoulvdberge.refinedstorage", allStages);
 
 	// RFtools Crafters
-	Stager.addPackage("mcjty.rftools.blocks.crafter", ALL_STAGES);
+	Stager.addPackage("mcjty.rftools.blocks.crafter", allStages);
 
 	// Inductive Logistics Automatic Crafters
 	Stager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
@@ -65,5 +67,5 @@ function init() {
 	Stager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
-	Stager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
+	Stager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", allStages);
 }

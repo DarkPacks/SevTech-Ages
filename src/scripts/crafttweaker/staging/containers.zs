@@ -67,18 +67,3 @@ function init() {
 	// Cyclic Auto Crafter
 	Stager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
 }
-
-/*
-	Helper Functions
-*/
-function addContainerToStages(container as string, stages as Stage[]) {
-	for stage in stages {
-		stage.addContainer(container);
-	}
-}
-
-function addPackageToStages(package as string, stages as Stage[]) {
-	for stage in stages {
-		stage.addPackage(package);
-	}
-}

@@ -9,8 +9,8 @@
 */
 import crafttweaker.item.IItemStack;
 
-import mods.sevtweaks.stager.Stage;
-import mods.sevtweaks.stager.Stager;
+import mods.zenstages.Stage;
+import mods.zenstages.ZenStager;
 import mods.TinkerStages;
 
 import scripts.crafttweaker.stages.stageOne;
@@ -212,17 +212,17 @@ static partsStages as IItemStack[][string] = {
 function init() {
 	// Add the tool types to be staged.
 	for _stage, toolTypes in scripts.crafttweaker.staging.tinkers.toolTypeStages {
-		Stager.getStage(_stage).addTiCToolTypes(toolTypes);
+		ZenStager.getStage(_stage).addTiCToolTypes(toolTypes);
 	}
 
 	// Add the materials to be staged.
 	for _stage, materials in scripts.crafttweaker.staging.tinkers.materialsForStage {
-		Stager.getStage(_stage).addTiCMaterials(materials);
+		ZenStager.getStage(_stage).addTiCMaterials(materials);
 	}
 
 	// Add the part items to be staged.
 	for partStageName, parts in scripts.crafttweaker.staging.tinkers.partsStages {
-		var partStage as Stage = Stager.getStage(partStageName);
+		var partStage as Stage = ZenStager.getStage(partStageName);
 
 		for part in parts {
 			// Stage pattern/cast
@@ -234,7 +234,7 @@ function init() {
 			for subItem in part.definition.subItems {
 				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 					var subItemMaterial as string = subItem.tag.Material.asString();
-					var materialStage as Stage = Stager.getTiCMaterialStage(subItemMaterial);
+					var materialStage as Stage = ZenStager.getTiCMaterialStage(subItemMaterial);
 					var stage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
 
 					partStage.addIngredient(subItem);

@@ -7,8 +7,8 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import mods.sevtweaks.stager.Stage;
-import mods.sevtweaks.stager.Stager;
+import mods.zenstages.Stage;
+import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -50,6 +50,6 @@ static mobsMap as string[][string] = {
 */
 function init() {
 	for _stage, mobs in scripts.crafttweaker.staging.mobs.mobsMap {
-		Stager.getStage(_stage).addMobs(mobs);
+		ZenStager.getStage(_stage).addMobs(mobs);
 	}
 }

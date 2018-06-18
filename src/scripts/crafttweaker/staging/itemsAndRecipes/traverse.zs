@@ -1,5 +1,7 @@
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.ZenStager;
+
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 
@@ -52,6 +54,6 @@ static stagedItems as IIngredient[][string] = {
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.traverse.stagedItems {
-		Stager.getStage(stageName).addIngredients(items);
+		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

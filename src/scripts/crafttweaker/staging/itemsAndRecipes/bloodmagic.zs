@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageOne: [
+static stagedItems as IIngredient[][string] = {
+	stageOne.stage: [
 		<bloodmagic:altar>,
 		<bloodmagic:arcane_ashes>,
 		<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),
@@ -43,7 +43,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<bloodmagic:soul_snare>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<bloodmagic:activation_crystal>,
 		<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}),
 		<bloodmagic:blood_rune:5>,
@@ -74,7 +74,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<bloodmagic:soul_gem:2>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<bloodmagic:activation_crystal:1>,
 		<bloodmagic:alchemic_vial>
 		<bloodmagic:alchemy_table>,
@@ -292,14 +292,14 @@ static stagedItems as IIngredient[][Stage] = {
 		<bloodmagic:upgrade_trainer>.withTag({key: "bloodmagic.upgrade.stormTrooper"})
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<bloodmagic:component:2>,
 		<bloodmagic:sigil_air>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.bloodmagic.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.bloodmagic.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

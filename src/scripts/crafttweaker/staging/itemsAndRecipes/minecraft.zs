@@ -7,8 +7,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<minecraft:beetroot_seeds>,
 		<minecraft:beetroot_soup>,
 		<minecraft:black_glazed_terracotta>,
@@ -167,7 +167,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<minecraft:yellow_glazed_terracotta>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Ore
 		<minecraft:coal_ore>,
 
@@ -234,7 +234,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<minecraft:wooden_button>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Ore
 		<minecraft:gold_ore>,
 
@@ -481,7 +481,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<minecraft:written_book>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Nether
 		<minecraft:blaze_powder>,
 		<minecraft:blaze_rod>,
@@ -557,7 +557,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<minecraft:trapped_chest>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		// End
 		<minecraft:chorus_flower>,
 		<minecraft:chorus_fruit_popped>,
@@ -600,7 +600,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<minecraft:totem_of_undying>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		// Ore
 		<minecraft:diamond_ore>,
 		<minecraft:emerald_ore>,
@@ -624,7 +624,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.minecraft.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.minecraft.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<tconstruct:casting:1>,
 		<tconstruct:casting>,
 		<tconstruct:dried_clay_slab>,
@@ -41,7 +41,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<tconstruct:stone_stick>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Bricks
 		<tconstruct:brownstone_slab:3>,
 		<tconstruct:brownstone_slab:4>,
@@ -92,7 +92,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<tconstruct:stone_torch>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<tconstruct:cast_custom:1>,
 		<tconstruct:cast_custom:2>,
 		<tconstruct:cast_custom:3>,
@@ -164,7 +164,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<tconstruct:toolforge>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}})
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Stairs
 		<tconstruct:firewood_stairs>,
 		<tconstruct:lavawood_stairs>,
@@ -266,7 +266,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 5 as short}})
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<tconstruct:fancy_frame:2>,
 		<tconstruct:fancy_frame:3>,
 		<tconstruct:fancy_frame:4>,
@@ -280,7 +280,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.tconstruct.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.tconstruct.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

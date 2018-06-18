@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<ferdinandsflowers:block_cff_dark:*>,
 		<ferdinandsflowers:block_cff_desert:*>,
 		<ferdinandsflowers:block_cff_doubles:*>,
@@ -20,7 +20,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<ferdinandsflowers:block_cff_ouch:*>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<ferdinandsflowers:block_cobble_light:*>,
 		<ferdinandsflowers:block_dirt_light:*>,
 		<ferdinandsflowers:block_gravel_light>,
@@ -30,19 +30,19 @@ static stagedItems as IIngredient[][Stage] = {
 		<ferdinandsflowers:block_stone_light:*>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<ferdinandsflowers:block_dye_glass:*>,
 		<ferdinandsflowers:block_metal_light:*>,
 		<ferdinandsflowers:block_stonebrick_light:*>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<ferdinandsflowers:block_birthday>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.ferdinandsflowers.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.ferdinandsflowers.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

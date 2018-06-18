@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageOne: [
+static stagedItems as IIngredient[][string] = {
+	stageOne.stage: [
 		// Chisel
 		<chisel:chisel_iron>,
 
@@ -145,7 +145,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<chisel:templemossy:*>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<chisel:antiblock:*>,
 		<chisel:blockgold:*>,
 		<chisel:blockiron:*>,
@@ -203,7 +203,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<chisel:waterstone2:*>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<chisel:auto_chisel>,
 		<chisel:blockaluminum:*>,
 		<chisel:blockcobalt:*>,
@@ -236,7 +236,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<chisel:voidstonerunic:*>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<chisel:endstone:*>,
 		<chisel:endstone1:*>,
 		<chisel:endstone2:*>,
@@ -245,7 +245,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<chisel:purpur2:*>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<chisel:chisel_diamond>,
 		<chisel:chisel_hitech>,
 		<chisel:diamond:*>,
@@ -254,7 +254,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.chisel.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.chisel.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

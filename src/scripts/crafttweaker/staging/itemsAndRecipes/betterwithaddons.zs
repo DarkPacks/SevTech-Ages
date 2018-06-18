@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<betterwithaddons:bag:17>,
 		<betterwithaddons:bundle:3>,
 		<betterwithaddons:bundle:4>,
@@ -73,7 +73,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithaddons:wool>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<betterwithaddons:adobe:1>,
 		<betterwithaddons:adobe:2>,
 		<betterwithaddons:adobe:3>,
@@ -182,7 +182,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithaddons:zen_sand>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Gold Stuff
 		<betterwithaddons:gold_carpentersaw>,
 		<betterwithaddons:gold_kukri>,
@@ -219,7 +219,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithaddons:whitebrick:*>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<betterwithaddons:ancestry_bottle>,
 		<betterwithaddons:ancestry_infuser>,
 		<betterwithaddons:ancestry_sand>,
@@ -336,7 +336,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithaddons:zen_soulsand>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		//Diamond Stuff
 		<betterwithaddons:diamond_carpentersaw>,
 		<betterwithaddons:diamond_kukri>,
@@ -355,7 +355,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.betterwithaddons.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.betterwithaddons.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

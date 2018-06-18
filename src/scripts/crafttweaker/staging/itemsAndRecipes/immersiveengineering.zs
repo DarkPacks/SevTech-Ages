@@ -5,13 +5,13 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<immersiveengineering:material:4>,
 		<immersiveengineering:seed>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<immersiveengineering:stone_decoration:10>,
 		<immersiveengineering:stone_decoration_slab:10>,
 		<immersiveengineering:storage_slab>,
@@ -19,7 +19,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<immersiveengineering:ore>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<immersiveengineering:aluminum_scaffolding_stairs0>,
 		<immersiveengineering:aluminum_scaffolding_stairs1>,
 		<immersiveengineering:aluminum_scaffolding_stairs2>,
@@ -265,7 +265,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<immersiveengineering:wooden_device1>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<immersiveengineering:metal_device0:5>,
 		<immersiveengineering:ore:5>,
 		<immersiveengineering:storage_slab:5>
@@ -273,7 +273,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.immersiveengineering.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.immersiveengineering.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

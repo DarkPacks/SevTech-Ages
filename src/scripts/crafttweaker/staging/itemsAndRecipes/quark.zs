@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<quark:prismarine_bricks_slab>,
 		<quark:prismarine_dark_slab>,
 		<quark:prismarine_rough_wall>,
@@ -23,7 +23,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<quark:witch_hat>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Bricks
 		<quark:polished_netherrack_bricks_slab>,
 		<quark:polished_netherrack_bricks_stairs>,
@@ -101,7 +101,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<quark:trowel>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<quark:arrow_explosive>,
 		<quark:brick_wall>,
 		<quark:glass_item_frame>,
@@ -111,7 +111,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<quark:stonebrick_wall>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Nether
 		<quark:blaze_lantern>,
 		<quark:charred_nether_brick_slab>,
@@ -138,7 +138,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<quark:soul_sandstone>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		// End
 		<quark:biotite_ore>,
 		<quark:biotite_stairs>,
@@ -167,7 +167,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.quark.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.quark.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

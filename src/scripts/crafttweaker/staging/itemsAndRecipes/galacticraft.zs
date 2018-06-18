@@ -5,18 +5,18 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageTwo: [
+static stagedItems as IIngredient[][string] = {
+	stageTwo.stage: [
 		<galacticraftcore:food:6>,
 		<galacticraftcore:food:7>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<galacticraftcore:bucket_oil>,
 		<galacticraftcore:food:5>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<galacticraftcore:air_fan>,
 		<galacticraftcore:air_lock_frame:1>,
 		<galacticraftcore:air_lock_frame>,
@@ -81,7 +81,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<galacticraftcore:steel_pole>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<galacticraftcore:aluminum_wire:1>,
 		<galacticraftcore:aluminum_wire:2>,
 		<galacticraftcore:aluminum_wire:3>,
@@ -367,7 +367,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.galacticraft.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.galacticraft.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

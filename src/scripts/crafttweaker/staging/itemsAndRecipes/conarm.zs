@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageTwo: [
+static stagedItems as IIngredient[][string] = {
+	stageTwo.stage: [
 		<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 3 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),
@@ -25,7 +25,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<conarm:travel_slowfall>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 1 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 2 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 4 as short}}),
@@ -45,20 +45,20 @@ static stagedItems as IIngredient[][Stage] = {
 		<conarm:travel_soul>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 0 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 		<conarm:armorforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}})
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<conarm:armorforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}})
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.conarm.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.conarm.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

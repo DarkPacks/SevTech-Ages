@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<natura:bluebells_flower>,
 		<natura:clouds>,
 		<natura:materials:1>,
@@ -64,7 +64,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<natura:saguaro_fruit_item>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Fences and Doors
 		<natura:amaranth_fence_gate>,
 		<natura:amaranth_fence>,
@@ -105,7 +105,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<natura:colored_grass>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Advanced Mapping Unlock Item
 		<natura:redwood_button>,
 
@@ -135,7 +135,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<natura:overworld_bookshelves>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Nether
 		<natura:materials:6>,
 		<natura:nether_berrybush_blightberry>,
@@ -200,7 +200,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.natura.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.natura.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

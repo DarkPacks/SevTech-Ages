@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageOne: [
+static stagedItems as IIngredient[][string] = {
+	stageOne.stage: [
 		<astralsorcery:blockaltar>,
 		<astralsorcery:blockmarble:1>,
 		<astralsorcery:blockmarble:2>,
@@ -22,7 +22,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<astralsorcery:itemjournal>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<astralsorcery:blockaltar:1>,
 		<astralsorcery:blockaltar:2>,
 		<astralsorcery:blockaltar:3>,
@@ -87,17 +87,17 @@ static stagedItems as IIngredient[][Stage] = {
 		<astralsorcery:itemwand>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}})
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<astralsorcery:blockchalice>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<astralsorcery:itemexchangewand>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.astralsorcery.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.astralsorcery.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

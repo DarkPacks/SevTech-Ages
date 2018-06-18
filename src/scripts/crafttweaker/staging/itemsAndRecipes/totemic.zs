@@ -2,8 +2,8 @@ import crafttweaker.item.IIngredient;
 
 import scripts.crafttweaker.stages.stageZero;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<totemic:bark_stripper>,
 		<totemic:buffalo_items:1>,
 		<totemic:buffalo_items>,
@@ -48,7 +48,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.totemic.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.totemic.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

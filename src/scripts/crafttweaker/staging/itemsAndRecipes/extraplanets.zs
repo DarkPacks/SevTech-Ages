@@ -4,12 +4,12 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageTwo: [
+static stagedItems as IIngredient[][string] = {
+	stageTwo.stage: [
 		<extraplanets:apple_iron>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<extraplanets:oxygen_tank_light_full_black:*>,
 		<extraplanets:oxygen_tank_light_full_blue:*>,
 		<extraplanets:oxygen_tank_light_full_brown:*>,
@@ -39,7 +39,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<extraplanets:tier11_items:6>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<extraplanets:advanced_battery>,
 		<extraplanets:advanced_fuel_loader>,
 		<extraplanets:advanced_launch_pad_full>,
@@ -719,7 +719,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.extraplanets.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.extraplanets.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

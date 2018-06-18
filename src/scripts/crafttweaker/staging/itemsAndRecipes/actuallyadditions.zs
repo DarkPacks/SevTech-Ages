@@ -7,8 +7,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<actuallyadditions:block_black_lotus>,
 		<actuallyadditions:block_compost>,
 		<actuallyadditions:item_canola_seed>,
@@ -29,7 +29,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<actuallyadditions:item_worm>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Ore
 		<actuallyadditions:block_misc:3>,
 
@@ -53,13 +53,13 @@ static stagedItems as IIngredient[][Stage] = {
 		<actuallyadditions:quartz_paxel>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<actuallyadditions:block_smiley_cloud>,
 		<actuallyadditions:iron_paxel>,
 		<actuallyadditions:item_dust:4>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<actuallyadditions:item_axe_obsidian>,
 		<actuallyadditions:item_boots_obsidian>,
 		<actuallyadditions:item_chest_obsidian>,
@@ -96,7 +96,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<actuallyadditions:obsidian_paxel>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<actuallyadditions:battery_bauble>,
 		<actuallyadditions:battery_double_bauble>,
 		<actuallyadditions:battery_quadruple_bauble>,
@@ -174,7 +174,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<actuallyadditions:magnet_ring_bauble>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<actuallyadditions:block_atomic_reconstructor>,
 		<actuallyadditions:block_colored_lamp:*>,
 		<actuallyadditions:block_colored_lamp:1>,
@@ -359,7 +359,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.actuallyadditions.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.actuallyadditions.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<rustic:aloe_vera>,
 		<rustic:apple_seeds>,
 		<rustic:bee>,
@@ -57,7 +57,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<rustic:wind_thistle>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Fences and Doors
 		<rustic:clay_wall_cross>,
 		<rustic:clay_wall_diag>,
@@ -103,7 +103,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<rustic:vase>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<rustic:apiary>,
 		<rustic:beehive>,
 		<rustic:brewing_barrel>,
@@ -172,14 +172,14 @@ static stagedItems as IIngredient[][Stage] = {
 		<rustic:stairs_slate_roof>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<rustic:elixir>,
 		<rustic:fluid_bottle>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.rustic.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.rustic.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

@@ -7,8 +7,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<pickletweaks:coal_piece:1>,
 		<pickletweaks:dye_powder:1>,
 		<pickletweaks:dye_powder:2>,
@@ -28,7 +28,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<pickletweaks:dye_powder>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<pickletweaks:bronze_axe>,
 		<pickletweaks:bronze_hoe>,
 		<pickletweaks:bronze_pickaxe>,
@@ -48,14 +48,14 @@ static stagedItems as IIngredient[][Stage] = {
 		<pickletweaks:repair_kit>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<pickletweaks:repair_kit:2>,
 		<pickletweaks:repair_kit:3>,
 		<pickletweaks:repair_kit:17>,
 		<pickletweaks:watering_can>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<pickletweaks:ppm4:2>,
 		<pickletweaks:repair_kit:12>,
 		<pickletweaks:repair_kit:16>,
@@ -67,13 +67,13 @@ static stagedItems as IIngredient[][Stage] = {
 		<pickletweaks:repair_kit:23>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<pickletweaks:magnet>,
 		<pickletweaks:nightvision_goggles_c>,
 		<pickletweaks:nightvision_goggles>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<pickletweaks:diamond_apple>,
 		<pickletweaks:emerald_apple>,
 		<pickletweaks:repair_kit:4> // Diamond Repair Kit
@@ -81,7 +81,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.pickletweaks.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.pickletweaks.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

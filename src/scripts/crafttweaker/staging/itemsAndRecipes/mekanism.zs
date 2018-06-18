@@ -4,12 +4,12 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<mekanism:salt>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<mekanism:balloon:1>,
 		<mekanism:balloon:2>,
 		<mekanism:balloon:3>,
@@ -28,7 +28,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<mekanism:balloon>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<mekanism:anchorupgrade>,
 		<mekanism:armoredjetpack>.withTag({mekData: {}}),
 		<mekanism:armoredjetpack>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
@@ -232,7 +232,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.mekanism.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mekanism.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

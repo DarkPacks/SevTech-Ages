@@ -17,8 +17,8 @@ var sidingSandstone as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:sand
 var mouldingSandstone as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
 var cornerSandstone as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<betterwithmods:aesthetic:6>,
 		<betterwithmods:aesthetic:7>,
 		<betterwithmods:beef_dinner>,
@@ -69,7 +69,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithmods:wolf_chop>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Custom MiniBlocks
 		cornerHardenedclay,
 		cornerSandstone,
@@ -199,7 +199,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithmods:wooden_gearbox>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Custom MiniBlocks
 		scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:1>),
 		scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:2>),
@@ -291,7 +291,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithmods:unfired_pottery:4>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Custom MiniBlocks
 		scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:2>),
 		scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:3>),
@@ -380,18 +380,18 @@ static stagedItems as IIngredient[][Stage] = {
 		<betterwithmods:urn>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<betterwithmods:material:25>,
 		<betterwithmods:material:39>,
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<betterwithmods:material:45>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.betterwithmods.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.betterwithmods.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<abyssalcraft:antibeef>,
 		<abyssalcraft:antibone>,
 		<abyssalcraft:antichicken>,
@@ -64,7 +64,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<abyssalcraft:whead>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Ore
 		<abyssalcraft:abycopore>,
 		<abyssalcraft:abytinore>,
@@ -177,7 +177,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<abyssalcraft:unique_scroll>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Ore
 		<abyssalcraft:abygolore>,
 		<abyssalcraft:abyiroore>,
@@ -424,7 +424,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<abyssalcraft:yogsothothcoin>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		<abyssalcraft:azathothcharm:2>,
 		<abyssalcraft:azathothcharm:3>,
 		<abyssalcraft:carboncluster>,
@@ -452,14 +452,14 @@ static stagedItems as IIngredient[][Stage] = {
 		<abyssalcraft:yogsothothcharm:3>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		// Ore
 		<abyssalcraft:abydiaore>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.abyssalcraft.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.abyssalcraft.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

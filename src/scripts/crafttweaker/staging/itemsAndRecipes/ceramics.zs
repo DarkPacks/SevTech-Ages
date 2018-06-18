@@ -4,8 +4,8 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<ceramics:clay_barrel_unfired:1>,
 		<ceramics:clay_barrel:1>,
 		<ceramics:clay_soft>,
@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<ceramics:unfired_clay:5>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<ceramics:channel>,
 		<ceramics:clay_barrel_stained_extension:*>,
 		<ceramics:clay_barrel_stained:*>,
@@ -85,7 +85,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<ceramics:unfired_clay:9>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		// Gold Stuff
 		<ceramics:clay_hard:3>,
 		<ceramics:clay_slab:3>,
@@ -95,7 +95,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.ceramics.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.ceramics.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

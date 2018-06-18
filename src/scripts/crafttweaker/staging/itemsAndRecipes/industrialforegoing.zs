@@ -4,14 +4,14 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageThree: [
+static stagedItems as IIngredient[][string] = {
+	stageThree.stage: [
 		<industrialforegoing:conveyor_upgrade:*>,
 		<industrialforegoing:conveyor:*>,
 		<industrialforegoing:plastic>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		<industrialforegoing:adult_filter>,
 		<industrialforegoing:animal_byproduct_recolector>,
 		<industrialforegoing:animal_growth_increaser>,
@@ -83,7 +83,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<industrialforegoing:wither_builder>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<industrialforegoing:black_hole_controller>,
 		<industrialforegoing:black_hole_tank>,
 		<industrialforegoing:black_hole_unit>
@@ -91,7 +91,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.industrialforegoing.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.industrialforegoing.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

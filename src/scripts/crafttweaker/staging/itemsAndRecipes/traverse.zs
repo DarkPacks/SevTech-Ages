@@ -3,8 +3,8 @@ import crafttweaker.item.IIngredient;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<traverse:blue_rock_cobblestone_slab>,
 		<traverse:blue_rock_cobblestone_wall>,
 		<traverse:blue_rock_cobblestone>,
@@ -32,7 +32,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<traverse:yellow_autumnal_sapling>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<traverse:blue_rock_bricks_chiseled>,
 		<traverse:blue_rock_bricks_slab>,
 		<traverse:blue_rock_bricks_stairs>,
@@ -51,7 +51,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.traverse.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.traverse.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

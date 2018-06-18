@@ -5,8 +5,8 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<waterstrainer:garden_trowel>,
 		<waterstrainer:net:1>,
 		<waterstrainer:net>,
@@ -17,24 +17,24 @@ static stagedItems as IIngredient[][Stage] = {
 		<waterstrainer:worm>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		<waterstrainer:bait_pot>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<waterstrainer:efficiency_meter>,
 		<waterstrainer:strainer_survivalist_dense_solid>,
 		<waterstrainer:strainer_survivalist_solid>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<waterstrainer:strainer_survivalist_dense_reinforced>,
 		<waterstrainer:strainer_survivalist_reinforced>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.waterstrainer.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.waterstrainer.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

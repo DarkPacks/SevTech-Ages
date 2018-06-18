@@ -7,8 +7,8 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<primal:aconite_petal>,
 		<primal:aconite_sprig>,
 		<primal:aconite>,
@@ -317,7 +317,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<primal:yew_stick>
 	],
 
-	stageOne: [
+	stageOne.stage: [
 		// Stairs
 		<primal:stairs_ironwood>,
 		<primal:stairs_mud>,
@@ -360,7 +360,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<primal:storage_crate>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<primal:blue_stone:7>,
 		<primal:carbonate_stone:7>,
 		<primal:ciniscotta_block:7>,
@@ -383,7 +383,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<primal:yew_bow>
 	],
 
-	stageThree: [
+	stageThree.stage: [
 		// Nether
 		<primal:aconite_root>,
 		<primal:armor_ovis_body>,
@@ -540,7 +540,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<primal:void_seed>
 	],
 
-	stageFour: [
+	stageFour.stage: [
 		// End
 		<primal:eroded_end_stone:1>,
 		<primal:eroded_end_stone:2>,
@@ -569,7 +569,7 @@ static stagedItems as IIngredient[][Stage] = {
 		<primal:void_seed>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<primal:diamond_knapp>,
 		<primal:diamond_point>,
 		<primal:diamond_saw>,
@@ -582,7 +582,7 @@ static stagedItems as IIngredient[][Stage] = {
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.primal.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.primal.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

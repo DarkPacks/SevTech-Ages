@@ -4,8 +4,8 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFive;
 
-static stagedItems as IIngredient[][Stage] = {
-	stageZero: [
+static stagedItems as IIngredient[][string] = {
+	stageZero.stage: [
 		<improvedbackpacks:backpack>,
 		<improvedbackpacks:backpack>.withTag({Color: 0}),
 		<improvedbackpacks:backpack>.withTag({Color: 1}),
@@ -28,18 +28,18 @@ static stagedItems as IIngredient[][Stage] = {
 		<improvedbackpacks:upgrade>
 	],
 
-	stageTwo: [
+	stageTwo.stage: [
 		<improvedbackpacks:upgrade:2>,
 		<improvedbackpacks:upgrade:3>
 	],
 
-	stageFive: [
+	stageFive.stage: [
 		<improvedbackpacks:upgrade:4>
 	]
 };
 
 function init() {
-	for stage, items in scripts.crafttweaker.staging.itemsAndRecipes.improvedbackpacks.stagedItems {
-		stage.addIngredients(items);
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.improvedbackpacks.stagedItems {
+		Stager.getStage(stageName).addIngredients(items);
 	}
 }

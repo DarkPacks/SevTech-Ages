@@ -9,8 +9,8 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import mods.sevtweaks.stager.Stager;
-import mods.sevtweaks.stager.Stage;
+import mods.zenstages.ZenStager;
+import mods.zenstages.Stage;
 
 var PACK_VERSION as string = "3.1.0"; // Keep below 11 characters
 
@@ -49,7 +49,7 @@ static stageNames as string[string] = {
 // ==================================
 // Stage Creation
 for key, stage in stageNames {
-	Stager.initStage(stage);
+	ZenStager.initStage(stage);
 }
 
 // ==================================

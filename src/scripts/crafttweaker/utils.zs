@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-import mods.sevtweaks.stager.Stage;
+import mods.zenstages.Stage;
 
 import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;

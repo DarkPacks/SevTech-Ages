@@ -8,8 +8,8 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import mods.sevtweaks.stager.Stage;
-import mods.sevtweaks.stager.Stager;
+import mods.zenstages.Stage;
+import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
@@ -46,26 +46,26 @@ function init() {
 		Container Staging
 	*/
 	// Primal Tech work stump
-	Stager.addContainer("primal_tech.inventory.ContainerWorkStump", [stageTutorial, stageZero, stageBaykok]);
+	ZenStager.addContainer("primal_tech.inventory.ContainerWorkStump", [stageTutorial, stageZero, stageBaykok]);
 
 	/*
 		Package Staging
 	*/
 	// AE Crafting Terminal
-	Stager.addPackage("appeng", allStages);
+	ZenStager.addPackage("appeng", allStages);
 
 	// RS Crafting Grid
-	Stager.addPackage("com.raoulvdberge.refinedstorage", allStages);
+	ZenStager.addPackage("com.raoulvdberge.refinedstorage", allStages);
 
 	// RFtools Crafters
-	Stager.addPackage("mcjty.rftools.blocks.crafter", allStages);
+	ZenStager.addPackage("mcjty.rftools.blocks.crafter", allStages);
 
 	// Inductive Logistics Automatic Crafters
-	Stager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
+	ZenStager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Auto Workbench Buildcraft
-	Stager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
+	ZenStager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
-	Stager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", allStages);
+	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", allStages);
 }

@@ -11,7 +11,7 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-import mods.sevtweaks.stager.Stager;
+import mods.zenstages.ZenStager;
 
 // ==================================
 // Staging Specific Scripts
@@ -39,4 +39,4 @@ scripts.crafttweaker.item_modifiers.tooltips.init();
 
 // ==================================
 // Build the Stages
-Stager.buildAll();
+ZenStager.buildAll();

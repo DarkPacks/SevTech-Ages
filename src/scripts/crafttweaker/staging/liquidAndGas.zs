@@ -10,8 +10,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 
-import mods.sevtweaks.stager.Stage;
-import mods.sevtweaks.stager.Stager;
+import mods.zenstages.Stage;
+import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
@@ -225,13 +225,13 @@ static liquidsNamesForBucketStaging as string[][string] = {
 
 function init() {
 	for stageName, liquidItems in scripts.crafttweaker.staging.liquidAndGas.liquidItemsForStage {
-		var stage as Stage = Stager.getStage(stageName);
+		var stage as Stage = ZenStager.getStage(stageName);
 
 		stage.addIngredients(liquidItems);
 	}
 
 	for stageName, liquidStacks in scripts.crafttweaker.staging.liquidAndGas.liquidsForStage {
-		var stage as Stage = Stager.getStage(stageName);
+		var stage as Stage = ZenStager.getStage(stageName);
 
 		// Stage liquid
 		stage.addIngredients(liquidStacks);
@@ -243,7 +243,7 @@ function init() {
 	}
 
 	for stageName, liquidNames in scripts.crafttweaker.staging.liquidAndGas.liquidsNamesForBucketStaging {
-		var stage as Stage = Stager.getStage(stageName);
+		var stage as Stage = ZenStager.getStage(stageName);
 
 		for liquidName in liquidNames {
 			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName));

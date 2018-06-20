@@ -369,7 +369,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.galacticraft.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.galacticraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

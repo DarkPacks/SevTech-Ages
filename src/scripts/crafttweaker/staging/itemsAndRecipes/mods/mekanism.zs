@@ -234,7 +234,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mekanism.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.mekanism.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

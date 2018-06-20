@@ -36,7 +36,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.waterstrainer.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.waterstrainer.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

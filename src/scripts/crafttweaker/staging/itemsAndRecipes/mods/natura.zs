@@ -202,7 +202,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.natura.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

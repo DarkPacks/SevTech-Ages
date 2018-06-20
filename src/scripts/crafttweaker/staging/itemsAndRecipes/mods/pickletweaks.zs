@@ -83,7 +83,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.pickletweaks.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

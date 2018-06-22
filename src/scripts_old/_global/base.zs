@@ -28,21 +28,8 @@ global stone as IItemStack = <minecraft:stone>;
 global str as IItemStack = <minecraft:string>;
 global wool as IOreDictEntry = <ore:wool>;
 
-//The filled bucket "main" item
-global buckets as IItemStack[] = [
-	<ceramics:clay_bucket>,
-	<forge:bucketfilled>,
-	<thebetweenlands:bl_bucket:1>,
-	<thebetweenlands:bl_bucket>
-];
-
 //AE Cores
 global aeCores as IItemStack[string] = {
 	annihilation: <appliedenergistics2:material:44>,
 	formation: <appliedenergistics2:material:43>
 };
-
-//Adding globals to be used in place of oredict entries for Better with Mods Siding, Moulding, and Corners
-global sidingWood as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:plankWood>);
-global mouldingWood as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
-global cornerWood as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:plankWood>);

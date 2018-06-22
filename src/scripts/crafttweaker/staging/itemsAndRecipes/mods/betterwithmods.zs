@@ -1,6 +1,5 @@
 import crafttweaker.item.IIngredient;
 
-import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageTutorial;
@@ -10,14 +9,6 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
-
-// Variables for Better with Mods miniBlock siding
-var sidingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:blockStainedHardenedClay>);
-var mouldingHardenedclay as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:blockStainedHardenedClay>);
-var cornerHardenedclay as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:blockStainedHardenedClay>);
-var sidingSandstone as IIngredient = MiniBlocks.getMiniBlock("siding", <ore:sandstone>);
-var mouldingSandstone as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:sandstone>);
-var cornerSandstone as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [

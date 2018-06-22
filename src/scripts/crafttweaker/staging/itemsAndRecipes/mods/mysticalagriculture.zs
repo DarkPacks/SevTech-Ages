@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<mysticalagriculture:soulstone_brick_slab>,
 		<mysticalagriculture:soulstone_brick_stairs>,
 		<mysticalagriculture:soulstone_brick_wall>,
-		<mysticalagriculture:soulstone_slab>
+		<mysticalagriculture:soulstone_slab>,
 		<mysticalagriculture:soulstone:1>,
 		<mysticalagriculture:soulstone:2>,
 		<mysticalagriculture:soulstone:3>,

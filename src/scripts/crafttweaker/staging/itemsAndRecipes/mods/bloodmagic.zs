@@ -78,7 +78,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageThree.stage: [
 		<bloodmagic:activation_crystal:1>,
-		<bloodmagic:alchemic_vial>
+		<bloodmagic:alchemic_vial>,
 		<bloodmagic:alchemy_table>,
 		<bloodmagic:base_fluid_filter>,
 		<bloodmagic:base_item_filter:1>,

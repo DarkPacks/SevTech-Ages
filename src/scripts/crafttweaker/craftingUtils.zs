@@ -1,4 +1,4 @@
-#priority 2999
+#priority 2998
 
 /*
 	SevTech: Ages Crafting Utils Script

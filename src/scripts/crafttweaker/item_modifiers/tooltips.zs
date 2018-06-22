@@ -10,8 +10,6 @@
 import crafttweaker.formatting.IFormattedText;
 import crafttweaker.item.IItemStack;
 
-var prospectingRodRange as int = 48;
-
 static itemTooltipMap as IFormattedText[][IItemStack] = {
 	// ==================================
 	// Prospecting Rods
@@ -19,31 +17,31 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 1 and below"),
 		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ prospectingRodRange ~ " block straight line")
+		format.red("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_low:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 2 and below"),
 		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ prospectingRodRange ~ " block straight line")
+		format.red("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_med:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for Age 3 and below ore"),
 		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ prospectingRodRange ~ " block straight line")
+		format.red("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_high:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 4 and below"),
 		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ prospectingRodRange ~ " block straight line")
+		format.red("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_best:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 5 and below"),
 		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ prospectingRodRange ~ " block straight line")
+		format.red("in a " ~ 48 ~ " block straight line")
 	],
 
 	// ==================================

@@ -61,7 +61,7 @@ for key, stage in stageNames {
 
 // ==================================
 // Functions
-function printHeader(packVersionForLogo) {
+function printHeader(packVersionForLogo as string) {
 	// Logo
 	print(" ____                     ______               __              ______");
 	print("/\\  _`\\                  /\\__  _\\             /\\ \\            /\\  _  \\");

@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreative;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
@@ -21,6 +22,12 @@ static stagedItems as IIngredient[][string] = {
 		<ironjetpacks:emerald_jetpack>,
 		<ironjetpacks:emerald_thruster>,
 		<ironjetpacks:strap>
+	],
+
+	stageCreative.stage: [
+		<ironjetpacks:creative_cell>,
+		<ironjetpacks:creative_jetpack>,
+		<ironjetpacks:creative_thruster>
 	]
 };
 

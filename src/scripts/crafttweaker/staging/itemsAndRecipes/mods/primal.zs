@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -10,6 +11,21 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<primal:bone_knapp>,
+		<primal:bone_point>,
+		<primal:fish_clown_cooked>,
+		<primal:fish_puffer_cooked>,
+		<primal:flint_hatchet>,
+		<primal:flint_knapp>,
+		<primal:flint_pickaxe>,
+		<primal:flint_workblade>,
+		<primal:plant_cordage>,
+		<primal:plant_fiber>,
+		<primal:potato_boiled>,
+		<primal:sharp_bone>
+	],
+
 	stageZero.stage: [
 		<primal:aconite_petal>,
 		<primal:aconite_sprig>,

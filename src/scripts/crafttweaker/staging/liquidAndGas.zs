@@ -47,7 +47,10 @@ static liquidItemsForStage as IItemStack[][string] = {
 
 	stageOne.stage: [
 		<abyssalcraft:antiwater>,
-		<abyssalcraft:cwater>
+		<abyssalcraft:cwater>,
+		<acintegration:moltenabyssalnite>,
+		<acintegration:moltencoralium>,
+		<acintegration:moltendreadium>
 	],
 
 	stageThree.stage: [

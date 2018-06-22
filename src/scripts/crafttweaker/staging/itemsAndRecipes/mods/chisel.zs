@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
@@ -9,6 +10,12 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<chisel:basalt2:7>,
+		<chisel:limestone2:7>,
+		<chisel:marble2:7>
+	],
+
 	stageOne.stage: [
 		// Chisel
 		<chisel:chisel_iron>,

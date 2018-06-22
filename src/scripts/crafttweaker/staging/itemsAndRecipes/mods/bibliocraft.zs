@@ -77,6 +77,7 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:biblioglasses:1>,
 		<bibliocraft:biblioglasses:2>,
 		<bibliocraft:biblioglasses>,
+		<bibliocraft:biblioredbook>.withTag({redstonebook: "by James Maxwell"}),
 		<bibliocraft:clock:*>,
 		<bibliocraft:cookiejar>,
 		<bibliocraft:deathcompass>,

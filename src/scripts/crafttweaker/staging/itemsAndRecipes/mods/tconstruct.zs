@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageCreative;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -278,6 +279,10 @@ static stagedItems as IIngredient[][string] = {
 		<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 1 as short}}),
 		<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 2 as short}}),
 		<tconstruct:toolforge>.withTag({textureBlock: {id: "tconstruct:metal", Count: 1 as byte, Damage: 4 as short}})
+	],
+
+	stageCreative.stage: [
+		<tconstruct:materials:50>
 	]
 };
 

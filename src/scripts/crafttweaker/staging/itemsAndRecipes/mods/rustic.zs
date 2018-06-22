@@ -2,12 +2,24 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<rustic:log:1>,
+		<rustic:log>,
+		<rustic:sapling_apple>,
+		<rustic:sapling:1>,
+		<rustic:sapling>,
+		<rustic:slate>,
+		<rustic:wildberries>,
+		<rustic:wildberry_bush>
+	],
+
 	stageZero.stage: [
 		<rustic:aloe_vera>,
 		<rustic:apple_seeds>,

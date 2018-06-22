@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreative;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -230,6 +231,11 @@ static stagedItems as IIngredient[][string] = {
 		<mekanism:transmitter>.withTag({tier: 2}),
 		<mekanism:transmitter>.withTag({tier: 3}),
 		<mekanism:walkietalkie>.withTag({mekData: {channel: 1}})
+	],
+
+	stageCreative.stage: [
+		<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
+		<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}})
 	]
 };
 

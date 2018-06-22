@@ -2,6 +2,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -10,6 +11,10 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<pickletweaks:grass_mesh>
+	],
+
 	stageZero.stage: [
 		<pickletweaks:coal_piece:1>,
 		<pickletweaks:dye_powder:1>,

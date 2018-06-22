@@ -4,6 +4,7 @@ import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageCreative;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -150,6 +151,10 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:volume_upgrade>,
 		<pneumaticcraft:vortex_cannon:*>,
 		<pneumaticcraft:vortex_tube>
+	],
+
+	stageCreative.stage: [
+		<pneumaticcraft:creative_compressor>
 	]
 };
 

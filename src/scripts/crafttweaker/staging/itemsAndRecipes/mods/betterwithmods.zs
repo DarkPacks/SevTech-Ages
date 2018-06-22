@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -19,6 +20,11 @@ var mouldingSandstone as IIngredient = MiniBlocks.getMiniBlock("moulding", <ore:
 var cornerSandstone as IIngredient = MiniBlocks.getMiniBlock("corner", <ore:sandstone>);
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<betterwithmods:cooked_mystery_meat>,
+		<betterwithmods:mystery_meat>
+	],
+
 	stageZero.stage: [
 		<betterwithmods:aesthetic:6>,
 		<betterwithmods:aesthetic:7>,

@@ -2,10 +2,22 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<primal_tech:bone_club>,
+		<primal_tech:fibre_torch_lit>,
+		<primal_tech:fibre_torch>,
+		<primal_tech:fire_sticks>,
+		<primal_tech:rock>,
+		<primal_tech:stone_club>,
+		<primal_tech:wood_club>,
+		<primal_tech:work_stump>
+	],
+
 	stageZero.stage: [
 		<primal_tech:bone_axe>,
 		<primal_tech:bone_knife>,

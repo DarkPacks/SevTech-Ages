@@ -2,9 +2,14 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
+	stageTutorial.stage: [
+		<horsepower:chopping_block:*>
+	],
+
 	stageZero.stage: [
 		<horsepower:chopper:*>,
 		<horsepower:dough>,

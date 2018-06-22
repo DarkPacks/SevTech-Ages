@@ -4,20 +4,6 @@ import crafttweaker.item.IItemStack;
 
 import mods.sevtweaks.stager.Stage;
 
-var stageCreative as Stage = STAGES.creative;
-
-var stageCreativeItems as IItemStack[] = [
-	<ironjetpacks:creative_cell>,
-	<ironjetpacks:creative_jetpack>,
-	<ironjetpacks:creative_thruster>,
-	<mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
-	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}),
-	<pneumaticcraft:creative_compressor>,
-	<tconstruct:materials:50>
-];
-
-stageCreative.addIngredients(stageCreativeItems, false);
-
 /*
 	Unused Creative Items
 */

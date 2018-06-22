@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageBaykok;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -198,6 +199,10 @@ static stagedItems as IIngredient[][string] = {
 		<natura:nether_tainted_soil:2>,
 		<natura:nether_tainted_soil>,
 		<natura:nether_thorn_vines>
+	],
+
+	stageBaykok.stage: [
+		<natura:materials:5>
 	]
 };
 

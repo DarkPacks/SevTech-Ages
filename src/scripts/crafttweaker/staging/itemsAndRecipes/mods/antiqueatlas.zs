@@ -3,23 +3,16 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageTutorial;
-import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<immcraft:chest>,
-		<immcraft:rock>
-	],
-
-	stageZero.stage: [
-		<immcraft:bookshelf>,
-		<immcraft:cupboard>,
-		<immcraft:shelf>
+		<antiqueatlas:antique_atlas>,
+		<antiqueatlas:empty_antique_atlas>
 	]
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.immcraft.stagedItems {
+	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.antiqueatlas.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

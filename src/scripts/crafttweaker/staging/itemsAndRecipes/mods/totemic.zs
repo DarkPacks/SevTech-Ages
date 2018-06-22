@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageBaykok;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -46,6 +47,10 @@ static stagedItems as IIngredient[][string] = {
 		<totemic:totemic_staff>,
 		<totemic:totempedia>,
 		<totemic:wind_chime>
+	],
+
+	stageBaykok.stage: [
+		<totemic:baykok_bow>
 	]
 };
 

@@ -13,6 +13,8 @@
 */
 import mods.zenstages.ZenStager;
 
+// ==================================
+// Initialize Scripts
 initSpecificStaging();
 initItemsAndRecipesStaging();
 

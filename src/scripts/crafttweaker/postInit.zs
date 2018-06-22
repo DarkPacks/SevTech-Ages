@@ -13,31 +13,12 @@
 */
 import mods.zenstages.ZenStager;
 
-// ==================================
-// Staging Specific Scripts
-scripts.crafttweaker.staging.containers.init();
-scripts.crafttweaker.staging.dimensions.init();
-scripts.crafttweaker.staging.journeymap.init();
-scripts.crafttweaker.staging.liquidAndGas.init();
-scripts.crafttweaker.staging.mobs.init();
-scripts.crafttweaker.staging.tinkers.init();
-scripts.crafttweaker.staging.waila.init();
-
+initSpecificStaging();
 initItemsAndRecipesStaging();
 
-// ==================================
-// Events
-scripts.crafttweaker.events.blockBreak.init();
+initEvents();
 
-// ==================================
-// Item Modifiers
-scripts.crafttweaker.item_modifiers.burnTime.init();
-scripts.crafttweaker.item_modifiers.descriptions.init();
-scripts.crafttweaker.item_modifiers.durability.init();
-scripts.crafttweaker.item_modifiers.hardness.init();
-scripts.crafttweaker.item_modifiers.harvestLevel.init();
-scripts.crafttweaker.item_modifiers.rename.init();
-scripts.crafttweaker.item_modifiers.tooltips.init();
+initItemModifiers();
 
 // ==================================
 // Build the Stages
@@ -45,6 +26,17 @@ ZenStager.buildAll();
 
 // ==================================
 // Init Functions
+function initSpecificStaging() {
+	// Staging Specific Scripts
+	scripts.crafttweaker.staging.containers.init();
+	scripts.crafttweaker.staging.dimensions.init();
+	scripts.crafttweaker.staging.journeymap.init();
+	scripts.crafttweaker.staging.liquidAndGas.init();
+	scripts.crafttweaker.staging.mobs.init();
+	scripts.crafttweaker.staging.tinkers.init();
+	scripts.crafttweaker.staging.waila.init();
+}
+
 function initItemsAndRecipesStaging() {
 	// ==================================
 	// Staging Items and Recipes
@@ -157,4 +149,18 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.wopper.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.xnet.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.yoyos.init();
+}
+
+function initEvents() {
+	scripts.crafttweaker.events.blockBreak.init();
+}
+
+function initItemModifiers() {
+	scripts.crafttweaker.item_modifiers.burnTime.init();
+	scripts.crafttweaker.item_modifiers.descriptions.init();
+	scripts.crafttweaker.item_modifiers.durability.init();
+	scripts.crafttweaker.item_modifiers.hardness.init();
+	scripts.crafttweaker.item_modifiers.harvestLevel.init();
+	scripts.crafttweaker.item_modifiers.rename.init();
+	scripts.crafttweaker.item_modifiers.tooltips.init();
 }

@@ -8,6 +8,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.zenstages.Stage;
@@ -64,7 +65,7 @@ static liquidItemsForStage as IItemStack[][string] = {
 		<immersiveengineering:fluidethanol>,
 		<immersiveengineering:fluidplantoil>,
 		<galacticraftcore:crude_oil_still>,
-		<pneumaticcraft:fluid.kerosene>,
+		<pneumaticcraft:fluid.kerosene>
 	],
 
 	stageFour.stage: [
@@ -106,7 +107,7 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:wine>
 	],
 
-	STAGES.two: [
+	stageTwo.stage: [
 		<liquid:astralsorcery.liquidstarlight>,
 		<liquid:ender_pearl>,
 		<liquid:fiery>,  // Depricated will be removed in 3.1.0
@@ -227,29 +228,38 @@ static liquidsNamesForBucketStaging as string[][string] = {
 };
 
 function init() {
-	for stageName, liquidItems in scripts.crafttweaker.staging.liquidAndGas.liquidItemsForStage {
+	var liquidItemsForStage as IItemStack[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidItemsForStage;
+	var liquidsForStage as ILiquidStack[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidsForStage;
+	var liquidsNamesForBucketStaging as string[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidsNamesForBucketStaging;
+
+	for stageName, liquidItems in liquidItemsForStage {
 		var stage as Stage = ZenStager.getStage(stageName);
 
-		stage.addIngredients(liquidItems);
-	}
-
-	for stageName, liquidStacks in scripts.crafttweaker.staging.liquidAndGas.liquidsForStage {
-		var stage as Stage = ZenStager.getStage(stageName);
-
-		// Stage liquid
-		stage.addIngredients(liquidStacks);
-
-		for liquidStack in liquidStacks {
-			// Stage buckets
-			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack));
+		for i, liquidItem in liquidItems {
+			if (!isNull(liquidItem)) {
+				stage.addIngredient(liquidItem);
+			}
 		}
 	}
 
-	for stageName, liquidNames in scripts.crafttweaker.staging.liquidAndGas.liquidsNamesForBucketStaging {
+	for stageName, liquidStacks in liquidsForStage {
+		var stage as Stage = ZenStager.getStage(stageName);
+
+		for i, liquidStack in liquidStacks {
+			if (!isNull(liquidStack)) {
+				// Stage Liquid
+				stage.addIngredient(liquidStack);
+				// Stage buckets
+				stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack) as IIngredient);
+			}
+		}
+	}
+
+	for stageName, liquidNames in liquidsNamesForBucketStaging {
 		var stage as Stage = ZenStager.getStage(stageName);
 
 		for liquidName in liquidNames {
-			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName));
+			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName) as IIngredient);
 		}
 	}
 }

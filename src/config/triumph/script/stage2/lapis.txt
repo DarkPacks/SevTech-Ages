@@ -2,7 +2,7 @@ setTitle("Roses are Red, Lapis is Blue")
 
 setIcon("minecraft:dye", 4)
 
-setDescription("Find a surface sample and dig for Lapis! The ore is located between Y10 - Y38")
+setDescription("Find a Lapis surface sample and dig for Lapis! The ore is located between Y10 and Y38")
 
 setParent("triumph:stage2/dowsingrod")
 setRequiresParent(true)

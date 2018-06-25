@@ -37,7 +37,7 @@ zenClass HorsePower {
 	function addChopping(input as IIngredient, output as IItemStack, time as int) {
 		addChopping(input, output, time, true);
 	}
-	function addChopping(input as IIngredient, output as IItemStack, time as int, manual as boolean) {
+	function addChopping(input as IIngredient, output as IItemStack, time as int, manual as bool) {
 		ChoppingBlock.add(input, output, time, manual);
 	}
 

@@ -25,3 +25,6 @@ global tinkers as scripts.crafttweaker.classes.mods.tinkers.Tinkers = scripts.cr
 // Integration
 global orematic as scripts.crafttweaker.classes.integration.orematic.OreMatic =  scripts.crafttweaker.classes.integration.orematic.OreMatic();
 global dryingUnit as scripts.crafttweaker.classes.integration.dryingUnit.DryingUnit =  scripts.crafttweaker.classes.integration.dryingUnit.DryingUnit();
+
+// Utils
+global recipeUtil as scripts.crafttweaker.classes.utils.recipeUtil.RecipeUtil = scripts.crafttweaker.classes.utils.recipeUtil.RecipeUtil();

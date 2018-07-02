@@ -46,17 +46,17 @@ function init() {
 	// Autunite (Uranium)
 	Excavator.addMineral("Autunite", 30, 0.15, [], [], [-1], true);
 	var autunite = Excavator.getMineral("Autunite");
-	autunite.addOre("geolosysOreUranium", 0.50);
+	autunite.addOre("oreClusterGeolosysUranium", 0.50);
 
 	// Azurite (Copper)
 	Excavator.addMineral("Azurite", 30, 0.15, [], [], [-1], true);
 	var azurite = Excavator.getMineral("Azurite");
-	azurite.addOre("geolosysOreCopper", 0.50);
+	azurite.addOre("oreClusterGeolosysCopper", 0.50);
 
 	// Bauxite (Aluminum)
 	Excavator.addMineral("Bauxite", 30, 0.15, [], [], [-1], true);
 	var bauxite = Excavator.getMineral("Bauxite");
-	bauxite.addOre("geolosysOreAluminum", 0.50);
+	bauxite.addOre("oreClusterGeolosysAluminum", 0.50);
 
 	// Beryl (Emerald)
 	Excavator.addMineral("Beryl", 5, 0.45, [], [], [-1], true);
@@ -66,7 +66,7 @@ function init() {
 	// Cassiterite (Tin)
 	Excavator.addMineral("Cassiterite", 30, 0.15, [], [], [-1], true);
 	var cassiterite = Excavator.getMineral("Cassiterite");
-	cassiterite.addOre("geolosysOreTin", 0.50);
+	cassiterite.addOre("oreClusterGeolosysTin", 0.50);
 
 	// Cinnabar (Redstone)
 	Excavator.addMineral("Cinnabar", 30, 0.15, [], [], [-1], true);
@@ -81,18 +81,18 @@ function init() {
 	// Galena (Silver and Lead)
 	Excavator.addMineral("Galena", 30, 0.15, [], [], [-1], true);
 	var galena = Excavator.getMineral("Galena");
-	galena.addOre("geolosysOreSilver", 0.70);
-	galena.addOre("geolosysOreLead", 0.30);
+	galena.addOre("oreClusterGeolosysSilver", 0.70);
+	galena.addOre("oreClusterGeolosysLead", 0.30);
 
 	// Gold
 	Excavator.addMineral("Gold", 30, 0.15, [], [], [-1], true);
 	var gold = Excavator.getMineral("Gold");
-	gold.addOre("geolosysOreGold", 0.50);
+	gold.addOre("oreClusterGeolosysGold", 0.50);
 
 	// Hematite (Iron)
 	Excavator.addMineral("Hematite", 30, 0.15, [], [], [-1], true);
 	var hematite = Excavator.getMineral("Hematite");
-	hematite.addOre("geolosysOreIron", 0.50);
+	hematite.addOre("oreClusterGeolosysIron", 0.50);
 
 	// Kimberlight (Diamond)
 	Excavator.addMineral("Kimberlight", 5, 0.45, [], [], [-1], true);
@@ -107,26 +107,26 @@ function init() {
 	// Limonite (Iron and Nickel)
 	Excavator.addMineral("Limonite", 30, 0.15, [], [], [-1], true);
 	var limonite = Excavator.getMineral("Limonite");
-	limonite.addOre("geolosysOreIron", 0.70);
-	limonite.addOre("geolosysOreNickel", 0.30);
+	limonite.addOre("oreClusterGeolosysIron", 0.70);
+	limonite.addOre("oreClusterGeolosysNickel", 0.30);
 
 	// Malachite (Copper)
 	Excavator.addMineral("Malachite", 30, 0.15, [], [], [-1], true);
 	var malachite = Excavator.getMineral("Malachite");
-	malachite.addOre("geolosysOreCopper", 0.50);
+	malachite.addOre("oreClusterGeolosysCopper", 0.50);
 
 	// Platinum
 	Excavator.addMineral("Platinum", 30, 0.15, [], [], [-1], true);
 	var platinum = Excavator.getMineral("Platinum");
-	platinum.addOre("geolosysOrePlatinum", 0.50);
+	platinum.addOre("oreClusterGeolosysPlatinum", 0.50);
 
 	// Osmium
 	Excavator.addMineral("Osmium", 30, 0.15, [], [], [-1], true);
 	var osmium = Excavator.getMineral("Osmium");
-	osmium.addOre("geolosysOreOsmium", 0.50);
+	osmium.addOre("oreClusterGeolosysOsmium", 0.50);
 
 	// Teallite (Tin)
 	Excavator.addMineral("Teallite", 30, 0.15, [], [], [-1], true);
 	var teallite = Excavator.getMineral("Teallite");
-	teallite.addOre("geolosysOreTin", 0.50);
+	teallite.addOre("oreClusterGeolosysTin", 0.50);
 }

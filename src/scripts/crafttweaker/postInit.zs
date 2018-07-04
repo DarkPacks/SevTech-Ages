@@ -44,6 +44,7 @@ function initSpecificStaging() {
 function initItemsAndRecipesStaging() {
 	// ==================================
 	// Staging Items and Recipes
+	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.oredict.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
 

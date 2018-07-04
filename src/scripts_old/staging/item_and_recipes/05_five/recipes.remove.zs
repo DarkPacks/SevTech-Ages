@@ -6,10 +6,6 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandunbreakable>,
 	<prospectors:prospector_low>,
 
-	// Minecraft
-	<minecraft:diamond_block>,
-	<minecraft:emerald_block>,
-
 	//Storage Drawers
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,
@@ -97,27 +93,6 @@ var removeItems as IItemStack[] = [
 
 	// GalactiCraft
 	<galacticraftcore:machine2:8>,
-
-	//Extra Planets
-	<extraplanets:advanced_fuel_loader>,
-	<extraplanets:fire_bomb>,
-	<extraplanets:nuclear_bomb>,
-	<extraplanets:tier1_space_suit_gravity_boots>,
-	<extraplanets:tier2_space_suit_boots>,
-	<extraplanets:tier2_space_suit_chest>,
-	<extraplanets:tier2_space_suit_gravity_boots>,
-	<extraplanets:tier2_space_suit_helmet>,
-	<extraplanets:tier2_space_suit_legings>,
-	<extraplanets:tier3_space_suit_boots>,
-	<extraplanets:tier3_space_suit_chest>,
-	<extraplanets:tier3_space_suit_gravity_boots>,
-	<extraplanets:tier3_space_suit_helmet>,
-	<extraplanets:tier3_space_suit_legings>,
-	<extraplanets:tier4_space_suit_boots>,
-	<extraplanets:tier4_space_suit_chest>,
-	<extraplanets:tier4_space_suit_gravity_boots>,
-	<extraplanets:tier4_space_suit_helmet>,
-	<extraplanets:tier4_space_suit_legings>,
 
 	//Environmental
 	<environmentaltech:modifier_creative_flight>,

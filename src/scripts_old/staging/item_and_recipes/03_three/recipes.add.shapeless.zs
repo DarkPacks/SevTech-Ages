@@ -22,11 +22,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	//Vanilla
-	<minecraft:torch> * 4 : [
-		[<immersiveengineering:material:6>, <betterwithmods:rope>, stick]
-	],
-
 	//Immersive Engineering
 	<immersiveengineering:material:20> : [
 		[<immersiveengineering:tool:1>, metals.copper.plate]

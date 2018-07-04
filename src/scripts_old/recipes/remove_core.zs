@@ -33,12 +33,7 @@ for id in modIDs2 {
 	}
 }
 
-recipes.remove(plank);
-recipes.remove(<ore:stickWood>);
-
 //Compressed
-recipes.removeShapeless(<minecraft:cobblestone>, [<overloaded:compressed_cobblestone>]);
-recipes.removeShapeless(<minecraft:obsidian>, [<overloaded:compressed_obsidian>]);
 recipes.remove(<overloaded:compressed_cobblestone:*>);
 
 //Industrial Foregoing TBD

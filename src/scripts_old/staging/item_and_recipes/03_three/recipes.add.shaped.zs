@@ -28,15 +28,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:enchanting_table> : [
-		[[<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>], [<minecraft:obsidian>, <ore:book>, <minecraft:obsidian>], [<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>]]
-	],
-	<minecraft:piston> : [
-		[[sidingWood, sidingWood, sidingWood], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <minecraft:redstone>, cobblestone]]
-	],
-	<minecraft:cake> : [
-		[[scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk"), scripts.crafting_utils.getBucketIngredientFromName("milk")], [<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [null, <ore:foodFlour>, null]]
-	],
 	<prospectors:prospector_med> : [
 		[[null, <minecraft:redstone>, <ore:blockGlass>], [null, <minecraft:dye:4>, <minecraft:redstone>], [<minecraft:dye:4>, null, null]]
 	],
@@ -98,28 +89,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <immersiveengineering:stone_decoration_slab:1>, null],
 			[null, null, null]
 		]
-	],
-
-	//Rails
-	<minecraft:activator_rail> * 2 : [
-		[
-			[metals.iron.plate, plank, metals.iron.plate],
-			[metals.iron.plate, <minecraft:redstone_torch>, metals.iron.plate],
-			[metals.iron.plate, plank, metals.iron.plate]
-		]
-	],
-	<minecraft:detector_rail> * 2 : [
-		[
-			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate],
-			[metals.iron.plate, <minecraft:light_weighted_pressure_plate>, metals.iron.plate],
-			[metals.iron.plate, <minecraft:redstone>, metals.iron.plate]
-		]
-	],
-	<minecraft:golden_rail> * 4 : [
-		[[metals.gold.plate, <minecraft:redstone>, metals.gold.plate], [metals.gold.plate, plank, metals.gold.plate], [metals.gold.plate, <minecraft:redstone>, metals.gold.plate]]
-	],
-	<minecraft:rail> * 8 : [
-		[[metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate], [metals.iron.plate, plank, metals.iron.plate]]
 	],
 	<tconstruct:wood_rail> * 8 : [
 		[[<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>]]
@@ -1374,17 +1343,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<industrialforegoing:conveyor:*>, <ore:dyeLightGray>, <industrialforegoing:conveyor:*>],
 			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>]
 		]
-	],
-
-	//Withering Souls to Skulls fix
-	<minecraft:skull:1> * 3 : [
-		[
-			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null],
-			[<mysticalagradditions:stuff:1>, null, null],
-			[null, null, null]
-		]
 	]
-
 };
 
 for item, recipesForItem in shapedRecipes {

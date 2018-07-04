@@ -47,12 +47,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<dungpipe:sewer_pipe> : [
 		[[null, null, null], [<dungpipe:dung_pipe>, metals.tin.plate, metals.tin.plate], [null, null, null]]
 	],
-	<minecraft:crafting_table> : [
-		[[plank, plank], [plank, plank]]
-	],
-	<minecraft:ladder> * 3: [
-		[[stick, null, stick], [stick, stick, stick], [stick, null, stick]]
-	],
 	<primal_tech:leaf_bed> : [
 		[[null, null, null], [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]]
 	],
@@ -161,14 +155,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, stick, null],
 			[null, stick, null],
 			[null, stick, null]
-		]
-	],
-	//Fix Cut Leather (Tanned) being used but removed
-	<minecraft:item_frame> : [
-		[
-			[mouldingWood, mouldingWood, mouldingWood],
-			[mouldingWood, <ore:hideTanned>, mouldingWood],
-			[mouldingWood, mouldingWood, mouldingWood]
 		]
 	],
 
@@ -322,13 +308,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
 			[<minecraft:planks>, <minecraft:chest>, <minecraft:planks>],
 			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
-		]
-	],
-	<minecraft:chest> : [
-		[
-			[<ore:plankWood>, null, <ore:plankWood>],
-			[null, <primalchests:primal_chest_advanced>, null],
-			[<ore:plankWood>, null, <ore:plankWood>]
 		]
 	],
 

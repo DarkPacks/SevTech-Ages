@@ -28,12 +28,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<actuallyadditions:item_coffee_seed> : [
 		[<actuallyadditions:item_coffee_beans>]
 	],
-	<minecraft:farmland> : [
-		[<minecraft:dirt>, <minecraft:dye:15>]
-	],
-	<minecraft:gunpowder> : [
-		[<betterwithmods:material:37>, <ore:dyeBlack>, <ore:foodSalt>]
-	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_shaft>, stick],
 		[<progressiontweaks:broken_spear_tip>, <primal:flint_knapp>]

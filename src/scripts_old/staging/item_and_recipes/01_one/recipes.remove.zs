@@ -11,9 +11,6 @@ var removeItems as IItemStack[] = [
 	<dungpipe:sewer_pipe>,
 	<huntingdim:frame>,
 	<immersiveengineering:tool>,
-	<minecraft:crafting_table>,
-	<minecraft:ladder>,
-	<minecraft:torch>,
 	<primal_tech:leaf_bed>,
 	<primal_tech:stone_anvil>,
 	<progressiontweaks:blank_teleporter>, //Beneath Porter Recipe

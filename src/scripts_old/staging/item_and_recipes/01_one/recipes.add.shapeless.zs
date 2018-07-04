@@ -22,11 +22,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	<minecraft:torch> * 2 : [
-		[<minecraft:coal:*>, cordage, stick],
-		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
-	],
-
 	<tconstruct:stone_torch> * 2 : [
 		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
 	],

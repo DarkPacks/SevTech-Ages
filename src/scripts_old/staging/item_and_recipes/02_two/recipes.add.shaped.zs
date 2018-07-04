@@ -39,117 +39,11 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:arrow> * 4: [
-		[[flint, null, null], [null, stick, null], [null, null, <minecraft:feather>]],
-		[[flint, null, null], [null, stick, null], [null, null, <twilightforest:raven_feather>]]
-	],
-	<minecraft:glass_bottle> * 3: [
-		[[<ore:blockGlass>, null, <ore:blockGlass>], [null, <ore:blockGlass>, null]]
-	],
 	<betterbuilderswands:wandiron> : [
 		[[null, null, metals.iron.plate], [null, log, null], [log, null, null]]
 	],
 	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}) : [
 		[[<minecraft:wool:*>, leather, <minecraft:wool:*>], [leather, <primal:storage_crate:*>, leather], [<minecraft:wool:*>, leather, <minecraft:wool:*>]]
-	],
-	<minecraft:bed:10> : [
-		[[<minecraft:wool:10>, <minecraft:wool:10>, <minecraft:wool:10>], [plank, plank, plank]]
-	],
-	<minecraft:bed:11> : [
-		[[<minecraft:wool:11>, <minecraft:wool:11>, <minecraft:wool:11>], [plank, plank, plank]]
-	],
-	<minecraft:bed:12> : [
-		[[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>], [plank, plank, plank]]
-	],
-	<minecraft:bed:13> : [
-		[[<minecraft:wool:13>, <minecraft:wool:13>, <minecraft:wool:13>], [plank, plank, plank]]
-	],
-	<minecraft:bed:14> : [
-		[[<minecraft:wool:14>, <minecraft:wool:14>, <minecraft:wool:14>], [plank, plank, plank]]
-	],
-	<minecraft:bed:15> : [
-		[[<minecraft:wool:15>, <minecraft:wool:15>, <minecraft:wool:15>], [plank, plank, plank]]
-	],
-	<minecraft:bed:1> : [
-		[[<minecraft:wool:1>, <minecraft:wool:1>, <minecraft:wool:1>], [plank, plank, plank]]
-	],
-	<minecraft:bed:2> : [
-		[[<minecraft:wool:2>, <minecraft:wool:2>, <minecraft:wool:2>], [plank, plank, plank]]
-	],
-	<minecraft:bed:3> : [
-		[[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>], [plank, plank, plank]]
-	],
-	<minecraft:bed:4> : [
-		[[<minecraft:wool:4>, <minecraft:wool:4>, <minecraft:wool:4>], [plank, plank, plank]]
-	],
-	<minecraft:bed:5> : [
-		[[<minecraft:wool:5>, <minecraft:wool:5>, <minecraft:wool:5>], [plank, plank, plank]]
-	],
-	<minecraft:bed:6> : [
-		[[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>], [plank, plank, plank]]
-	],
-	<minecraft:bed:7> : [
-		[[<minecraft:wool:7>, <minecraft:wool:7>, <minecraft:wool:7>], [plank, plank, plank]]
-	],
-	<minecraft:bed:8> : [
-		[[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>], [plank, plank, plank]]
-	],
-	<minecraft:bed:9> : [
-		[[<minecraft:wool:9>, <minecraft:wool:9>, <minecraft:wool:9>], [plank, plank, plank]]
-	],
-	<minecraft:bed> : [
-		[[<minecraft:wool:0>, <minecraft:wool:0>, <minecraft:wool:0>], [plank, plank, plank]]
-	],
-	<minecraft:light_weighted_pressure_plate> : [
-		[[metals.gold.plate, metals.gold.plate]]
-	],
-	<minecraft:heavy_weighted_pressure_plate> : [
-		[[metals.iron.plate, metals.iron.plate]]
-	],
-	<minecraft:bookshelf> : [
-		[[plank, plank, plank], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [plank, plank, plank]]
-	],
-	<minecraft:golden_axe> : [
-		[[metals.gold.plate, metals.gold.plate, null], [metals.gold.plate, stick, null], [null, stick, null]]
-	],
-	<minecraft:golden_boots> : [
-		[[metals.gold.plate, null, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
-	],
-	<minecraft:golden_chestplate> : [
-		[
-			[metals.gold.plate, null, metals.gold.plate],
-			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
-		]
-	],
-	<minecraft:golden_helmet> : [
-		[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
-	],
-	<minecraft:golden_hoe> : [
-		[[metals.gold.plate, metals.gold.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:golden_leggings> : [
-		[
-			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, null, metals.gold.plate],
-			[metals.gold.plate, null, metals.gold.plate]
-		]
-	],
-	<minecraft:golden_pickaxe> : [
-		[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:golden_shovel> : [
-		[[null, metals.gold.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:golden_sword> : [
-		[[null, metals.gold.plate, null], [null, metals.gold.plate, null], [null, stick, null]]
-	],
-	<minecraft:hopper> : [
-		[
-			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
-			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
-			[null, metals.iron.plate, null]
-		]
 	],
 	<uppers:upper> : [
 		[
@@ -157,107 +51,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
 			[metals.iron.plate, <minecraft:chest>, metals.iron.plate]
 		]
-	],
-	<minecraft:iron_bars>*16 : [
-		[
-			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
-			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
-			[null, null, null]
-		]
-	],
-	<minecraft:iron_axe> : [
-		[[metals.iron.plate, metals.iron.plate, null], [metals.iron.plate, stick, null], [null, stick, null]]
-	],
-	<minecraft:iron_boots> : [
-		[[metals.iron.plate, null, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
-	],
-	<minecraft:iron_chestplate> : [
-		[
-			[metals.iron.plate, null, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
-		]
-	],
-	<minecraft:iron_helmet> : [
-		[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
-	],
-	<minecraft:iron_hoe> : [
-		[[metals.iron.plate, metals.iron.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:iron_leggings> : [
-		[
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
-			[metals.iron.plate, null, metals.iron.plate],
-			[metals.iron.plate, null, metals.iron.plate]
-		]
-	],
-	<minecraft:iron_pickaxe> : [
-		[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:iron_shovel> : [
-		[[null, metals.iron.plate, null], [null, stick, null], [null, stick, null]]
-	],
-	<minecraft:iron_sword> : [
-		[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, stick, null]]
-	],
-	<minecraft:name_tag> : [
-		[[null, null, <minecraft:string>],
-		[null, <minecraft:paper>, null],
-		[null, <ore:dyeBlack>, null]]
-	],
-	<minecraft:piston> : [
-		[[sidingWood, sidingWood, sidingWood], [cobblestone, metals.iron.plate, cobblestone], [cobblestone, <thebetweenlands:octine_ingot>, cobblestone]]
-	],
-	<minecraft:stone_slab:5> * 3 : [
-		[[<minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]]
-	],
-	<minecraft:wool:10> : [
-		[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
-	],
-	<minecraft:wool:11> : [
-		[[null, <betterwithaddons:wool:11>, null], [<betterwithaddons:wool:11>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:11>], [null, <betterwithaddons:wool:11>, null]]
-	],
-	<minecraft:wool:12> : [
-		[[null, <betterwithaddons:wool:12>, null], [<betterwithaddons:wool:12>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:12>], [null, <betterwithaddons:wool:12>, null]]
-	],
-	<minecraft:wool:13> : [
-		[[null, <betterwithaddons:wool:13>, null], [<betterwithaddons:wool:13>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:13>], [null, <betterwithaddons:wool:13>, null]]
-	],
-	<minecraft:wool:14> : [
-		[[null, <betterwithaddons:wool:14>, null], [<betterwithaddons:wool:14>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:14>], [null, <betterwithaddons:wool:14>, null]]
-	],
-	<minecraft:wool:15> : [
-		[[null, <betterwithaddons:wool:15>, null], [<betterwithaddons:wool:15>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:15>], [null, <betterwithaddons:wool:15>, null]]
-	],
-	<minecraft:wool:1> : [
-		[[null, <betterwithaddons:wool:1>, null], [<betterwithaddons:wool:1>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:1>], [null, <betterwithaddons:wool:1>, null]]
-	],
-	<minecraft:wool:2> : [
-		[[null, <betterwithaddons:wool:2>, null], [<betterwithaddons:wool:2>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:2>], [null, <betterwithaddons:wool:2>, null]]
-	],
-	<minecraft:wool:3> : [
-		[[null, <betterwithaddons:wool:3>, null], [<betterwithaddons:wool:3>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:3>], [null, <betterwithaddons:wool:3>, null]]
-	],
-	<minecraft:wool:4> : [
-		[[null, <betterwithaddons:wool:4>, null], [<betterwithaddons:wool:4>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:4>], [null, <betterwithaddons:wool:4>, null]]
-	],
-	<minecraft:wool:5> : [
-		[[null, <betterwithaddons:wool:5>, null], [<betterwithaddons:wool:5>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:5>], [null, <betterwithaddons:wool:5>, null]]
-	],
-	<minecraft:wool:6> : [
-		[[null, <betterwithaddons:wool:6>, null], [<betterwithaddons:wool:6>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:6>], [null, <betterwithaddons:wool:6>, null]]
-	],
-	<minecraft:wool:7> : [
-		[[null, <betterwithaddons:wool:7>, null], [<betterwithaddons:wool:7>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:7>], [null, <betterwithaddons:wool:7>, null]]
-	],
-	<minecraft:wool:8> : [
-		[[null, <betterwithaddons:wool:8>, null], [<betterwithaddons:wool:8>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:8>], [null, <betterwithaddons:wool:8>, null]]
-	],
-	<minecraft:wool:9> : [
-		[[null, <betterwithaddons:wool:9>, null], [<betterwithaddons:wool:9>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:9>], [null, <betterwithaddons:wool:9>, null]]
-	],
-	<minecraft:wool> : [
-		[[null, <betterwithaddons:wool>, null], [<betterwithaddons:wool>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool>], [null, <betterwithaddons:wool>, null]]
 	],
 	<pickletweaks:watering_can> : [
 		[[metals.iron.plate, <actuallyadditions:item_fertilizer>, null], [metals.iron.plate, <minecraft:bucket>, metals.iron.plate], [null, metals.iron.plate, null]]
@@ -313,26 +106,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:wool:*>, scripts.crafting_utils.getBucketIngredientFromName("xpjuice"), <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
-	],
-
-	//Boats in Stage2
-	<minecraft:acacia_boat> : [
-		[[sidingAcacia, null, sidingAcacia], [sidingAcacia, sidingAcacia, sidingAcacia]]
-	],
-	<minecraft:birch_boat> : [
-		[[sidingBirch, null, sidingBirch], [sidingBirch, sidingBirch, sidingBirch]]
-	],
-	<minecraft:boat> : [
-		[[sidingOak, null, sidingOak], [sidingOak, sidingOak, sidingOak]]
-	],
-	<minecraft:dark_oak_boat> : [
-		[[sidingDarkoak, null, sidingDarkoak], [sidingDarkoak, sidingDarkoak, sidingDarkoak]]
-	],
-	<minecraft:jungle_boat> : [
-		[[sidingJungle, null, sidingJungle], [sidingJungle, sidingJungle, sidingJungle]]
-	],
-	<minecraft:spruce_boat> : [
-		[[sidingSpruce, null, sidingSpruce], [sidingSpruce, sidingSpruce, sidingSpruce]]
 	],
 
 	//Applied Energistics
@@ -478,12 +251,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	  	[[null, <minecraft:paper>, null],
 	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>],
 	  	[null, <minecraft:paper>, null]]
-	],
-	<minecraft:clock> : [
-		[[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>], [metals.gold.plate, <minecraft:dye:4>, metals.gold.plate], [<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]]
-	],
-	<minecraft:compass> : [
-		[[null, metals.iron.plate, null], [metals.iron.plate, <tconstruct:arrow_head>.withTag({Material: "iron"}), metals.iron.plate], [null, metals.iron.plate, null]]
 	],
 
 	//Tinkers'

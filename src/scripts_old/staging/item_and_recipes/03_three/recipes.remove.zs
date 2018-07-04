@@ -11,17 +11,8 @@ var removeItems as IItemStack[] = [
 	<cyclicmagic:charm_wing>,
 	<cyclicmagic:placer_block>,
 	<cyclicmagic:tool_auto_torch>,
-	<minecraft:cake>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,
-
-	//Minecraft
-	<minecraft:activator_rail>,
-	<minecraft:detector_rail>,
-	<minecraft:golden_rail>,
-	<minecraft:jukebox>,
-	<minecraft:rail>,
-	<minecraft:enchanting_table>,
 
 	//Actually Additions
 	<actuallyadditions:item_food:8>,

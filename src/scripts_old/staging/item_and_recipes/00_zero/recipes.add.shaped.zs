@@ -95,45 +95,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<cyclicmagic:tool_harvest_leaves> : [
 		[[null, str, <minecraft:stone_axe>], [null, stick, str], [stick, null, null]]
 	],
-	<minecraft:stone_slab2> * 3 : [
-		[[<minecraft:red_sandstone>, <minecraft:red_sandstone>, <minecraft:red_sandstone>]]
-	],
-	<minecraft:stone_slab:1> * 3 : [
-		[[<minecraft:sandstone>, <minecraft:sandstone>, <minecraft:sandstone>]]
-	],
-	<minecraft:stone_slab:3> * 3 : [
-		[[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]
-	],
-	<minecraft:stone_slab:4> * 3 : [
-		[[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
-	],
-	<minecraft:stone_slab:7> * 3 : [
-		[[<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]
-	],
-	<minecraft:stone_slab> * 3 : [
-		[[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]
-	],
-	<minecraft:stone_sword> : [
-		[[cobblestone], [cobblestone], [stick]]
-	],
-	<minecraft:wooden_slab:1> * 3 : [
-		[[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]
-	],
-	<minecraft:wooden_slab:2> * 3 : [
-		[[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]]
-	],
-	<minecraft:wooden_slab:3> * 3 : [
-		[[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]]
-	],
-	<minecraft:wooden_slab:4> * 3 : [
-		[[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
-	],
-	<minecraft:wooden_slab:5> * 3 : [
-		[[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
-	],
-	<minecraft:wooden_slab> * 3 : [
-		[[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]
-	],
 	<natura:nether_slab:1> * 3 : [
 		[[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]]
 	],

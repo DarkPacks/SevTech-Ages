@@ -22,17 +22,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	<minecraft:book> : [
-		[<minecraft:paper>, leather, <minecraft:paper>, <betterwithmods:material:12>]
-	],
-	<minecraft:writable_book> : [
-		[<minecraft:book>, <minecraft:dye>, <minecraft:feather>]
-	],
-	// Arrow bundle -> arrows
-	<minecraft:arrow> * 8 : [
-		[<betterwithaddons:bundle:1>]
-	],
-
 	<primal:plant_fiber_pulp> * 3 : [
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
@@ -63,9 +52,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	//Upper to hopper and reversed
 	<uppers:upper> : [
 		[<minecraft:hopper>]
-	],
-	<minecraft:hopper> : [
-		[<uppers:upper>]
 	],
 
 	/*

@@ -22,6 +22,8 @@ initEvents();
 
 initItemModifiers();
 
+initRecipes();
+
 // ==================================
 // Build the Stages
 ZenStager.buildAll();
@@ -151,6 +153,11 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.wopper.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.xnet.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.yoyos.init();
+}
+
+function initRecipes() {
+	scripts.crafttweaker.recipes.mods.extraplanets.init();
+	scripts.crafttweaker.recipes.mods.minecraft.init();
 }
 
 function initEvents() {

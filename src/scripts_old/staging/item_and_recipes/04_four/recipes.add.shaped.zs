@@ -81,19 +81,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	<minecraft:ender_chest> : [
-		[
-			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>],
-			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
-			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
-		],
-		[
-			[<minecraft:obsidian>, <minecraft:ender_eye>, <minecraft:obsidian>],
-			[<quark:biotite>, <ironchest:iron_chest:6>, <quark:biotite>],
-			[<minecraft:obsidian>, <quark:biotite>, <minecraft:obsidian>]
-		]
-	],
-
 	<immersiveengineering:metal_device0:5> : [
 		[
 			[plastic, <immersiveengineering:material:9>, plastic],
@@ -1269,76 +1256,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:quartz_block>, <actuallyadditions:block_misc:2>],
 			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block>]
-		]
-	],
-
-	//Extra Planet Tier 1 Space Suits
-	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}): [
-		[
-			[null, <extraplanets:tier1_armor_layer>, null],
-			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
-		]
-	],
-	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): [
-		[
-			[null, <extraplanets:tier1_armor_layer>, null],
-			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
-		]
-	],
-	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0f}): [
-		[
-			[null, <extraplanets:tier1_armor_layer>, null],
-			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_legings>, <extraplanets:tier1_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
-		]
-	],
-	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0f}): [
-		[
-			[null, <extraplanets:tier1_armor_layer>, null],
-			[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],
-			[null, <extraplanets:tier1_armor_layer>, null]
-		]
-	],
-	<extraplanets:tier1_pressure_layer> : [
-		[
-			[<minecraft:wool:*>, null, <minecraft:wool:*>],
-			[<galacticraftcore:oxygen_concentrator>, null, <galacticraftcore:oxygen_concentrator>],
-			[<minecraft:wool:*>, null, <minecraft:wool:*>]
-		]
-	],
-	<extraplanets:tier1_radiation_layer> : [
-		[
-			[metals.lead.plate, <minecraft:wool:*>, metals.lead.plate],
-			[metals.lead.plate, null, metals.lead.plate],
-			[metals.lead.plate, <minecraft:wool:*>, metals.lead.plate]
-		]
-	],
-	<extraplanets:tier1_un_prepared_space_suit_helmet> : [
-		[
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
-			[metals.aluminum.plate, null, metals.aluminum.plate]
-		]
-	],
-	<extraplanets:tier1_un_prepared_space_suit_chest> : [
-		[
-			[metals.aluminum.plate, null, metals.aluminum.plate],
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
-			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]
-		]
-	],
-	<extraplanets:tier1_un_prepared_space_suit_legings> : [
-		[
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
-			[metals.aluminum.plate, null, metals.aluminum.plate],
-			[metals.aluminum.plate, null, metals.aluminum.plate]
-		]
-	],
-	<extraplanets:tier1_un_prepared_space_suit_boots> : [
-		[
-			[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>],
-			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
 	],
 

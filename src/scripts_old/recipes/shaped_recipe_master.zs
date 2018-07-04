@@ -1,19 +1,11 @@
 //Ores
 //TODO: Most of this probably can be removed
-recipes.remove(<minecraft:iron_ingot>);
-recipes.remove(<minecraft:gold_ingot>);
-recipes.remove(<minecraft:brick>);
-recipes.remove(<minecraft:netherbrick>);
 recipes.remove(<abyssalcraft:abyingot>);
 recipes.remove(<abyssalcraft:cingot>);
 recipes.remove(<abyssalcraft:dreadiumingot>);
-recipes.remove(<minecraft:iron_block>);
-recipes.remove(<minecraft:gold_block>);
 recipes.remove(<abyssalcraft:ingotblock>);
 recipes.remove(<abyssalcraft:ingotblock:1>);
 recipes.remove(<abyssalcraft:ingotblock:2>);
-recipes.remove(<minecraft:gold_nugget>);
-recipes.remove(<minecraft:iron_nugget>);
 recipes.remove(<abyssalcraft:ingotnugget>);
 recipes.remove(<abyssalcraft:ingotnugget:1>);
 recipes.remove(<abyssalcraft:ingotnugget:2>);
@@ -22,53 +14,6 @@ recipes.remove(<abyssalcraft:ingotnugget:3>);
 //Random
 recipes.remove(<horsepower:dough>);
 recipes.remove(<actuallyadditions:item_misc:9>);
-
-//==================================
-//Vanilla
-recipes.addShaped(<minecraft:furnace>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<minecraft:cobblestone_wall> * 6, [[cobblestone, cobblestone, cobblestone], [cobblestone, cobblestone, cobblestone]]);
-recipes.addShaped(<minecraft:wooden_button>, [[plank]]);
-recipes.addShaped(<minecraft:stone_button>, [[stone]]);
-recipes.addShaped(<minecraft:web>, [[stick, str, stick], [str, str, str], [stick, str, stick]]);
-
-// Force the map recipe using a compass.
-recipes.remove(<minecraft:map>);
-recipes.addShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <ore:paper>], [<ore:paper>, <minecraft:compass>, <ore:paper>], [<ore:paper>, <ore:paper>, <ore:paper>]]);
-
-recipes.remove(<minecraft:lead>);
-recipes.addShapedMirrored(<minecraft:lead>, [[str, null, null], [null, <ore:cordageLeather>, null], [null, null, str]]);
-
-recipes.remove(<minecraft:brick_block>);
-recipes.addShaped(<minecraft:brick_block>, [[<minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>]]);
-
-recipes.remove(<minecraft:saddle>);
-recipes.addShaped(<minecraft:saddle>, [
-	[leather, leather, leather],
-	[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
-]);
-
-//Leather armor
-recipes.remove(<minecraft:leather_helmet>);
-recipes.addShaped(<minecraft:leather_helmet>, [[leather, leather, leather], [leather, null, leather]]);
-
-recipes.remove(<minecraft:leather_chestplate>);
-recipes.addShaped(<minecraft:leather_chestplate>, [[leather, null, leather], [leather, leather, leather], [leather, leather, leather]]);
-
-recipes.remove(<minecraft:leather_leggings>);
-recipes.addShaped(<minecraft:leather_leggings>, [[leather, leather, leather], [leather, null, leather], [leather, null, leather]]);
-
-recipes.remove(<minecraft:leather_boots>);
-recipes.addShaped(<minecraft:leather_boots>, [[leather, null, leather], [leather, null, leather]]);
-
-//Bowl
-recipes.remove(<minecraft:bowl>);
-recipes.addShapeless(<minecraft:bowl>, [<primal:flint_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:quartz_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:iron_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:emerald_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:diamond_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:opal_workblade:*>, plank]);
-recipes.addShapeless(<minecraft:bowl>, [<primal:obsidian_workblade:*>, plank]);
 
 //==================================
 //Iron Chests
@@ -228,25 +173,11 @@ recipes.removeShaped(<quantumstorage:quantum_bag>, [
 	[<ore:wool>, <ore:wool>, <ore:wool>]
 ]);
 
-recipes.removeShaped(<minecraft:skull:1> * 3);
-
-
-
-
-
-
-
-
-
-
-
-
 ////==================================
 //Misc
 recipes.remove(<betterwithmods:material:9>);
 recipes.addShaped(<betterwithmods:material:9>, [[null, <ore:cordageLeather>, null], [<ore:cordageLeather>, <ore:slimeball>, <ore:cordageLeather>], [null, <ore:cordageLeather>, null]]);
 
-recipes.remove(<minecraft:bread>);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)]);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)]);
 recipes.addShapeless(<horsepower:dough>, [<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);
@@ -268,17 +199,8 @@ recipes.addShaped(<horsepower:press>, [[<minecraft:lead>, stick, <minecraft:lead
 //I'm tired of the annoyance of getting flint and we've changed that! Thanks to BlakeBr0! <3
 recipes.remove(<pickletweaks:mesh>);
 
-recipes.remove(<minecraft:flint>);
-recipes.addShapeless(<minecraft:flint> * 9, [<betterwithmods:aesthetic:5>]);
-recipes.addShapeless(<minecraft:flint>, [<pickletweaks:grass_mesh:*>, <minecraft:gravel>]);
-
 recipes.remove(<pickletweaks:grass_mesh>);
 recipes.addShapedMirrored(<pickletweaks:grass_mesh>, [[<minecraft:stick>, <primal:plant_cordage>], [<primal:plant_cordage>, <minecraft:stick>]]);
-
-//String Recipes
-recipes.remove(str);
-recipes.addShapeless(str * 8, [<betterwithaddons:bolt:6>]);
-recipes.addShapeless(str, [<ore:toolWorkBlade>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 
 recipes.remove(<betterwithaddons:loom>);
 recipes.addShaped(<betterwithaddons:loom>, [[plank, plank, plank], [plank, <betterwithmods:material>, plank], [plank, plank, plank]]);

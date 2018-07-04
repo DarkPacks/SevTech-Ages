@@ -218,7 +218,10 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:unbaked:3>,
 		<betterwithaddons:unbaked>,
 		<betterwithaddons:wet_soap>,
-		<betterwithaddons:whitebrick:*>
+		<betterwithaddons:whitebrick:1>,
+		<betterwithaddons:whitebrick:2>,
+		<betterwithaddons:whitebrick:3>,
+		<betterwithaddons:whitebrick>
 	],
 
 	stageThree.stage: [

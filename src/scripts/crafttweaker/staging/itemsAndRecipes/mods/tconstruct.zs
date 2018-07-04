@@ -290,4 +290,9 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	// Handle the Tool Tables
+	for subItem in <tconstruct:tooltables>.definition.subItems {
+		stageTwo.addIngredient(subItem);
+	}
 }

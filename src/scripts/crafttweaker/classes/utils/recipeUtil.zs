@@ -38,6 +38,14 @@ zenClass RecipeUtil {
 		}
 	}
 
+	function process(map as IIngredient[][][IItemStack]) {
+		for item, itemRecipes in map {
+			for recipe in itemRecipes {
+				recipes.addShapeless(item, recipe);
+			}
+		}
+	}
+
 	/*
 		Process Method to handle Shaped and Mirrored Recipes.
 	*/
@@ -63,6 +71,18 @@ zenClass RecipeUtil {
 							recipes.addShaped(toName, item, recipe);
 						}
 					}
+				}
+			}
+		}
+	}
+
+	function process(map as IIngredient[][][][IItemStack], isMirrored as bool) {
+		for item, itemRecipes in map {
+			for recipe in itemRecipes {
+				if (isMirrored) {
+					recipes.addShapedMirrored(item, recipe);
+				} else {
+					recipes.addShaped(item, recipe);
 				}
 			}
 		}

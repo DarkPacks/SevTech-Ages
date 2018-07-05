@@ -22,7 +22,10 @@ import scripts.crafttweaker.stages.stageFive;
 /*
 	Shaped Recipes
 */
-static shapedRecipes as IIngredient[][][][string][IItemStack] = {
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+};
+
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	/*
 		Stage Four
 	*/
@@ -294,13 +297,19 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 /*
 	Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][string][IItemStack] = {
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 };
 
 /*
 	Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][string][IItemStack] = {
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 /*
@@ -344,16 +353,31 @@ static removeRegex as string[] = [
 ];
 
 function init() {
-	var shapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapelessRecipes;
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapelessRecipes;
+
+	// Removals
 	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRecipes;
 
+	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
 
+	// Named recipes
+	recipeUtil.process(namedShapedRecipes, false);
+    recipeUtil.process(namedMirroredRecipes, true);
+    recipeUtil.process(namedShapelessRecipes);
+
+	// Removals
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeRecipes(removeRegex);
 }

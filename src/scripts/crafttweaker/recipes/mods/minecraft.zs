@@ -22,117 +22,90 @@ import scripts.crafttweaker.stages.stageFive;
 /*
 	Shaped Recipes
 */
-static shapedRecipes as IIngredient[][][][string][IItemStack] = {
-	/*
-		Non-Staged Recipes
-	*/
-	<minecraft:furnace>: {
-		"nameless": [
-			[
-				[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-				[<ore:cobblestone>, null, <ore:cobblestone>],
-				[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
-			]
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:furnace>: [
+		[
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+			[<ore:cobblestone>, null, <ore:cobblestone>],
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 		]
-	},
-	<minecraft:cobblestone_wall>: {
-		"nameless": [
-			[
-				[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-				[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
-			]
+	],
+	<minecraft:cobblestone_wall>: [
+		[
+			[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+			[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
 		]
-	},
-	<minecraft:wooden_button>: {
-		"nameless": [
-			[[<ore:plankWood>]]
+	],
+	<minecraft:wooden_button>: [
+		[[<ore:plankWood>]]
+	],
+	<minecraft:stone_button>: [
+		[[<minecraft:stone>]]
+	],
+	<minecraft:web>: [
+		[
+			[<ore:stickWood>, <minecraft:string>, <ore:stickWood>],
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]
 		]
-	},
-	<minecraft:stone_button>: {
-		"nameless": [
-			[[<minecraft:stone>]]
+	],
+	<minecraft:map>: [
+		[
+			[<ore:paper>, <ore:paper>, <ore:paper>],
+			[<ore:paper>, <minecraft:compass>, <ore:paper>],
+			[<ore:paper>, <ore:paper>, <ore:paper>]
 		]
-	},
-	<minecraft:web>: {
-		"nameless": [
-			[
-				[<ore:stickWood>, <minecraft:string>, <ore:stickWood>],
-				[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-				[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]
-			]
+	],
+	<minecraft:brick_block>: [
+		[
+			[<minecraft:brick>, <minecraft:brick>],
+			[<minecraft:brick>, <minecraft:brick>]
 		]
-	},
-	<minecraft:map>: {
-		"nameless": [
-			[
-				[<ore:paper>, <ore:paper>, <ore:paper>],
-				[<ore:paper>, <minecraft:compass>, <ore:paper>],
-				[<ore:paper>, <ore:paper>, <ore:paper>]
-			]
+	],
+	<minecraft:saddle>: [
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
 		]
-	},
-	<minecraft:brick_block>: {
-		"nameless": [
-			[
-				[<minecraft:brick>, <minecraft:brick>],
-				[<minecraft:brick>, <minecraft:brick>]
-			]
+	],
+	<minecraft:leather_helmet>: [
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, null, <minecraft:leather>]
 		]
-	},
-	<minecraft:saddle>: {
-		"nameless": [
-			[
-				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-				[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
-			]
+	],
+	<minecraft:leather_chestplate>: [
+		[
+			[<minecraft:leather>, null, <minecraft:leather>],
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
 		]
-	},
-	<minecraft:leather_helmet>: {
-		"nameless": [
-			[
-				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-				[<minecraft:leather>, null, <minecraft:leather>]
-			]
+	],
+	<minecraft:leather_leggings>: [
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, null, <minecraft:leather>],
+			[<minecraft:leather>, null, <minecraft:leather>]
 		]
-	},
-	<minecraft:leather_chestplate>: {
-		"nameless": [
-			[
-				[<minecraft:leather>, null, <minecraft:leather>],
-				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
-			]
+	],
+	<minecraft:leather_boots>: [
+		[
+			[<minecraft:leather>, null, <minecraft:leather>],
+			[<minecraft:leather>, null, <minecraft:leather>]
 		]
-	},
-	<minecraft:leather_leggings>: {
-		"nameless": [
-			[
-				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-				[<minecraft:leather>, null, <minecraft:leather>],
-				[<minecraft:leather>, null, <minecraft:leather>]
-			]
-		]
-	},
-	<minecraft:leather_boots>: {
-		"nameless": [
-			[
-				[<minecraft:leather>, null, <minecraft:leather>],
-				[<minecraft:leather>, null, <minecraft:leather>]
-			]
-		]
-	},
-	<minecraft:bowl>: {
-		"nameless": [
-			[[<primal:flint_workblade:*>, <ore:plankWood>]],
-			[[<primal:quartz_workblade:*>, <ore:plankWood>]],
-			[[<primal:iron_workblade:*>, <ore:plankWood>]],
-			[[<primal:emerald_workblade:*>, <ore:plankWood>]],
-			[[<primal:diamond_workblade:*>, <ore:plankWood>]],
-			[[<primal:opal_workblade:*>, <ore:plankWood>]],
-			[[<primal:obsidian_workblade:*>, <ore:plankWood>]]
-		]
-	},
+	],
+	<minecraft:bowl>: [
+		[[<primal:flint_workblade:*>, <ore:plankWood>]],
+		[[<primal:quartz_workblade:*>, <ore:plankWood>]],
+		[[<primal:iron_workblade:*>, <ore:plankWood>]],
+		[[<primal:emerald_workblade:*>, <ore:plankWood>]],
+		[[<primal:diamond_workblade:*>, <ore:plankWood>]],
+		[[<primal:opal_workblade:*>, <ore:plankWood>]],
+		[[<primal:obsidian_workblade:*>, <ore:plankWood>]]
+	]
+};
 
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	/*
 		Stage Zero Recipes
 	*/
@@ -932,53 +905,43 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 /*
 	Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][string][IItemStack] = {
-	<minecraft:lead>: {
-		"nameless": [
-			[
-				[<minecraft:string>, null, null],
-				[null, <ore:cordageLeather>, null],
-				[null, null, <minecraft:string>]
-			]
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:lead>: [
+		[
+			[<minecraft:string>, null, null],
+			[null, <ore:cordageLeather>, null],
+			[null, null, <minecraft:string>]
 		]
-	}
+	]
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 };
 
 /*
 	Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][string][IItemStack] = {
-	/*
-		Non-Staged Recipes
-	*/
-	<minecraft:flint> * 9: {
-		"nameless": [
-			[<betterwithmods:aesthetic:5>]
-		]
-	},
-	<minecraft:flint>: {
-		"nameless": [
-			[<pickletweaks:grass_mesh:*>, <minecraft:gravel>],
-			[<pickletweaks:reinforced_mesh:*>, <betterwithmods:gravel_pile>]
-		]
-	},
-	<minecraft:string> * 4: {
-		"nameless": [
-			[<betterwithaddons:wool:*>, <ore:toolShears>.transformNew(scripts.crafttweaker.transformers.shearsTransformFunction)],
-			[<betterwithaddons:wool:*>, <ore:toolWorkBlade>]
-		]
-	},
-	<minecraft:string> * 8: {
-		"nameless": [
-			 [<betterwithaddons:bolt:6>]
-		]
-	},
-	<minecraft:string>: {
-		"nameless": [
-			 [<ore:toolWorkBlade>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]
-		]
-	},
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<minecraft:flint> * 9: [
+		[<betterwithmods:aesthetic:5>]
+	],
+	<minecraft:flint>: [
+		[<pickletweaks:grass_mesh:*>, <minecraft:gravel>],
+		[<pickletweaks:reinforced_mesh:*>, <betterwithmods:gravel_pile>]
+	],
+	<minecraft:string> * 4: [
+		[<betterwithaddons:wool:*>, <ore:toolShears>.transformNew(scripts.crafttweaker.transformers.shearsTransformFunction)],
+		[<betterwithaddons:wool:*>, <ore:toolWorkBlade>]
+	],
+	<minecraft:string> * 8: [
+		[<betterwithaddons:bolt:6>]
+	],
+	<minecraft:string>: [
+		[<ore:toolWorkBlade>, <ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]
+	]
+};
 
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	/*
 		Stage Zero
 	*/
@@ -1144,14 +1107,27 @@ static removeRecipes as IItemStack[] = [
 ];
 
 function init() {
-	var shapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
+
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
 
+	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.process(namedShapedRecipes, false);
+    recipeUtil.process(namedMirroredRecipes, true);
+    recipeUtil.process(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
 

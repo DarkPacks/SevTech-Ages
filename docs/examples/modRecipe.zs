@@ -17,8 +17,18 @@ import scripts.crafttweaker.stages.stageOne;
 /*
     Shaped Recipes
 */
-static shapedRecipes as IIngredient[][][][string][IItemStack] = {
-    null * 3 : {
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:furnace>: [
+		[
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+			[<ore:cobblestone>, null, <ore:cobblestone>],
+			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+		]
+	]
+};
+
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+    null * 3: {
         "nameless": [
             [[null, null, null]]
         ],
@@ -31,8 +41,18 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 /*
     Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][string][IItemStack] = {
-    <minecraft:stick> : {
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:lead>: [
+		[
+			[<minecraft:string>, null, null],
+			[null, <ore:cordageLeather>, null],
+			[null, null, <minecraft:string>]
+		]
+	]
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
+    <minecraft:stick>: {
         "nameless": [
             [[], [], []],
             [[], [], []]
@@ -46,8 +66,14 @@ static mirroredRecipes as IIngredient[][][][string][IItemStack] = {
 /*
     Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][string][IItemStack] = {
-    <minecraft:stick> : {
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<minecraft:flint> * 9: [
+		[<betterwithmods:aesthetic:5>]
+	]
+};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+    <minecraft:stick>: {
         "nameless": [
             [],
             []
@@ -64,14 +90,27 @@ static shapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IIngredient[] = [];
 
 function init() {
-    var shapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
-    var mirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
-    var shapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
-    var removeRecipes as IIngredient[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
 
-    recipeUtil.process(shapedRecipes, false);
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
+
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
+
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
 
-    recipeUtil.removeRecipes(removeRecipes);
+	// Named recipes
+	recipeUtil.process(namedShapedRecipes, false);
+    recipeUtil.process(namedMirroredRecipes, true);
+    recipeUtil.process(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
 }

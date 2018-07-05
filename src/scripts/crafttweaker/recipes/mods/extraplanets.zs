@@ -82,7 +82,10 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<extraplanets:tier1_un_prepared_space_suit_helmet> : {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_helmet>) : [
-			[[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate], [metals.aluminum.plate, null, metals.aluminum.plate]]
+			[
+				[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
+				[metals.aluminum.plate, null, metals.aluminum.plate]
+			]
 		]
 	},
 	<extraplanets:tier1_un_prepared_space_suit_chest> : {
@@ -105,7 +108,10 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<extraplanets:tier1_un_prepared_space_suit_boots> : {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_boots>) : [
-			[[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>], [metals.aluminum.plate, null, metals.aluminum.plate]]
+			[
+				[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>],
+				[metals.aluminum.plate, null, metals.aluminum.plate]
+			]
 		]
 	},
 

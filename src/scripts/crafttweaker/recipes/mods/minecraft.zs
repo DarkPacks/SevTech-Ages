@@ -28,12 +28,19 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	*/
 	<minecraft:furnace> : {
 		"nameless" : [
-			[[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]
+			[
+				[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+				[<ore:cobblestone>, null, <ore:cobblestone>],
+				[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+			]
 		]
 	},
 	<minecraft:cobblestone_wall> : {
 		"nameless" : [
-			[[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>], [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]
+			[
+				[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+				[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
+			]
 		]
 	},
 	<minecraft:wooden_button> : {
@@ -48,42 +55,70 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:web> : {
 		"nameless" : [
-			[[<ore:stickWood>, <minecraft:string>, <ore:stickWood>], [<minecraft:string>, <minecraft:string>, <minecraft:string>], [<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]
+			[
+				[<ore:stickWood>, <minecraft:string>, <ore:stickWood>],
+				[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+				[<ore:stickWood>, <minecraft:string>, <ore:stickWood>]
+			]
 		]
 	},
 	<minecraft:map> : {
 		"nameless" : [
-			[[<ore:paper>, <ore:paper>, <ore:paper>], [<ore:paper>, <minecraft:compass>, <ore:paper>], [<ore:paper>, <ore:paper>, <ore:paper>]]
+			[
+				[<ore:paper>, <ore:paper>, <ore:paper>],
+				[<ore:paper>, <minecraft:compass>, <ore:paper>],
+				[<ore:paper>, <ore:paper>, <ore:paper>]
+			]
 		]
 	},
 	<minecraft:brick_block> : {
 		"nameless" : [
-			[[<minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>]]
+			[
+				[<minecraft:brick>, <minecraft:brick>],
+				[<minecraft:brick>, <minecraft:brick>]
+			]
 		]
 	},
 	<minecraft:saddle> : {
 		"nameless" : [
-			[[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]]
+			[
+				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+				[<primal:leather_cordage>, <primal:leather_cordage>, <primal:leather_cordage>]
+			]
 		]
 	},
 	<minecraft:leather_helmet> : {
 		"nameless" : [
-			[[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]
+			[
+				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+				[<minecraft:leather>, null, <minecraft:leather>]
+			]
 		]
 	},
 	<minecraft:leather_chestplate> : {
 		"nameless" : [
-			[[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]
+			[
+				[<minecraft:leather>, null, <minecraft:leather>],
+				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
+			]
 		]
 	},
 	<minecraft:leather_leggings> : {
 		"nameless" : [
-			[[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]
+			[
+				[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+				[<minecraft:leather>, null, <minecraft:leather>],
+				[<minecraft:leather>, null, <minecraft:leather>]
+			]
 		]
 	},
 	<minecraft:leather_boots> : {
 		"nameless" : [
-			[[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]
+			[
+				[<minecraft:leather>, null, <minecraft:leather>],
+				[<minecraft:leather>, null, <minecraft:leather>]
+			]
 		]
 	},
 	<minecraft:bowl> : {
@@ -168,7 +203,11 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:ladder> * 3 : {
 		Utils.genRecipeName(stageOne, "ladder") : [
-			[[<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>]]
+			[
+				[<ore:stickWood>, null, <ore:stickWood>],
+				[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+				[<ore:stickWood>, null, <ore:stickWood>]
+			]
 		]
 	},
 	<minecraft:crafting_table> : {
@@ -178,16 +217,20 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:item_frame> : {
 		Utils.genRecipeName(stageOne, "item_frame") : [
-			[[mouldingWood, mouldingWood, mouldingWood],
-			[mouldingWood, <ore:hideTanned>, mouldingWood],
-			[mouldingWood, mouldingWood, mouldingWood]]
+			[
+				[mouldingWood, mouldingWood, mouldingWood],
+				[mouldingWood, <ore:hideTanned>, mouldingWood],
+				[mouldingWood, mouldingWood, mouldingWood]
+			]
 		]
 	},
 	<minecraft:chest> : {
 		Utils.genRecipeName(stageOne, "chest") : [
-			[[<ore:plankWood>, null, <ore:plankWood>],
-			[null, <primalchests:primal_chest_advanced>, null],
-			[<ore:plankWood>, null, <ore:plankWood>]]
+			[
+				[<ore:plankWood>, null, <ore:plankWood>],
+				[null, <primalchests:primal_chest_advanced>, null],
+				[<ore:plankWood>, null, <ore:plankWood>]
+			]
 		]
 	},
 
@@ -196,10 +239,18 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	*/
 	<minecraft:arrow> * 4 : {
 		Utils.genRecipeName(stageTwo, "arrow_with_feather") : [
-			[[<minecraft:flint>, null, null], [null, <ore:stickWood>, null], [null, null, <minecraft:feather>]],
+			[
+				[<minecraft:flint>, null, null],
+				[null, <ore:stickWood>, null],
+				[null, null, <minecraft:feather>]
+			]
 		],
 		Utils.genRecipeName(stageTwo, "arrow_with_raven") : [
-			[[<minecraft:flint>, null, null], [null, <ore:stickWood>, null], [null, null, <twilightforest:raven_feather>]]
+			[
+				[<minecraft:flint>, null, null],
+				[null, <ore:stickWood>, null],
+				[null, null, <twilightforest:raven_feather>]
+			]
 		]
 	},
 	<minecraft:glass_bottle> * 3 : {
@@ -214,82 +265,130 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:bed:10> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:10>) : [
-			[[<minecraft:wool:10>, <minecraft:wool:10>, <minecraft:wool:10>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:10>, <minecraft:wool:10>, <minecraft:wool:10>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:11> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:11>) : [
-			[[<minecraft:wool:11>, <minecraft:wool:11>, <minecraft:wool:11>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:11>, <minecraft:wool:11>, <minecraft:wool:11>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:12> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:12>) : [
-			[[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:13> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:13>) : [
-			[[<minecraft:wool:13>, <minecraft:wool:13>, <minecraft:wool:13>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:13>, <minecraft:wool:13>, <minecraft:wool:13>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:14> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:14>) : [
-			[[<minecraft:wool:14>, <minecraft:wool:14>, <minecraft:wool:14>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:14>, <minecraft:wool:14>, <minecraft:wool:14>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:15> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:15>) : [
-			[[<minecraft:wool:15>, <minecraft:wool:15>, <minecraft:wool:15>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:15>, <minecraft:wool:15>, <minecraft:wool:15>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:1> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:1>) : [
-			[[<minecraft:wool:1>, <minecraft:wool:1>, <minecraft:wool:1>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:1>, <minecraft:wool:1>, <minecraft:wool:1>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:2> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:2>) : [
-			[[<minecraft:wool:2>, <minecraft:wool:2>, <minecraft:wool:2>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:2>, <minecraft:wool:2>, <minecraft:wool:2>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:3> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:3>) : [
-			[[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:4> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:4>) : [
-			[[<minecraft:wool:4>, <minecraft:wool:4>, <minecraft:wool:4>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:4>, <minecraft:wool:4>, <minecraft:wool:4>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:5> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:5>) : [
-			[[<minecraft:wool:5>, <minecraft:wool:5>, <minecraft:wool:5>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:5>, <minecraft:wool:5>, <minecraft:wool:5>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:6> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:6>) : [
-			[[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:7> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:7>) : [
-			[[<minecraft:wool:7>, <minecraft:wool:7>, <minecraft:wool:7>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:7>, <minecraft:wool:7>, <minecraft:wool:7>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:8> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:8>) : [
-			[[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed:9> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed:9>) : [
-			[[<minecraft:wool:9>, <minecraft:wool:9>, <minecraft:wool:9>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:9>, <minecraft:wool:9>, <minecraft:wool:9>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:bed> : {
 		Utils.genRecipeName(stageTwo, <minecraft:bed>) : [
-			[[<minecraft:wool:0>, <minecraft:wool:0>, <minecraft:wool:0>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<minecraft:wool:0>, <minecraft:wool:0>, <minecraft:wool:0>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:light_weighted_pressure_plate> : {
@@ -304,211 +403,348 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:bookshelf> : {
 		Utils.genRecipeName(stageTwo, "bookshelf") : [
-			[[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]
+			[
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+				[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
 		]
 	},
 	<minecraft:golden_axe> : {
 		Utils.genRecipeName(stageTwo, "golden_axe") : [
-			[[metals.gold.plate, metals.gold.plate, null], [metals.gold.plate, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.gold.plate, metals.gold.plate, null],
+				[metals.gold.plate, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:golden_boots> : {
 		Utils.genRecipeName(stageTwo, "golden_boots") : [
-			[[metals.gold.plate, null, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
+			[
+				[metals.gold.plate, null, metals.gold.plate],
+				[metals.gold.plate, null, metals.gold.plate]
+			]
 		]
 	},
 	<minecraft:golden_chestplate> : {
 		Utils.genRecipeName(stageTwo, "golden_chestplate") : [
-			[[metals.gold.plate, null, metals.gold.plate],
-			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, metals.gold.plate, metals.gold.plate]]
+			[
+				[metals.gold.plate, null, metals.gold.plate],
+				[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+				[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+			]
 		]
 	},
 	<minecraft:golden_helmet> : {
 		Utils.genRecipeName(stageTwo, "golden_helmet") : [
-			[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [metals.gold.plate, null, metals.gold.plate]]
+			[
+				[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+				[metals.gold.plate, null, metals.gold.plate]
+			]
 		]
 	},
 	<minecraft:golden_hoe> : {
 		Utils.genRecipeName(stageTwo, "golden_hoe") : [
-			[[metals.gold.plate, metals.gold.plate, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.gold.plate, metals.gold.plate, null],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:golden_leggings> : {
 		Utils.genRecipeName(stageTwo, "golden_leggings") : [
-			[[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, null, metals.gold.plate],
-			[metals.gold.plate, null, metals.gold.plate]]
+			[
+				[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+				[metals.gold.plate, null, metals.gold.plate],
+				[metals.gold.plate, null, metals.gold.plate]
+			]
 		]
 	},
 	<minecraft:golden_pickaxe> : {
 		Utils.genRecipeName(stageTwo, "golden_pickaxe") : [
-			[[metals.gold.plate, metals.gold.plate, metals.gold.plate], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.gold.plate, metals.gold.plate, metals.gold.plate],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:golden_shovel> : {
 		Utils.genRecipeName(stageTwo, "golden_shovel") : [
-			[[null, metals.gold.plate, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[null, metals.gold.plate, null],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:golden_sword> : {
 		Utils.genRecipeName(stageTwo, "golden_sword") : [
-			[[null, metals.gold.plate, null], [null, metals.gold.plate, null], [null, <ore:stickWood>, null]]
+			[
+				[null, metals.gold.plate, null],
+				[null, metals.gold.plate, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:hopper> : {
 		Utils.genRecipeName(stageTwo, "hopper") : [
-			[[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
-			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
-			[null, metals.iron.plate, null]]
+			[
+				[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+				[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
+				[null, metals.iron.plate, null]
+			]
 		]
 	},
 	<minecraft:iron_bars> * 16 : {
 		Utils.genRecipeName(stageTwo, "iron_bars") : [
-			[[metals.iron.rod, metals.iron.rod, metals.iron.rod],
-			[metals.iron.rod, metals.iron.rod, metals.iron.rod],
-			[null, null, null]]
+			[
+				[metals.iron.rod, metals.iron.rod, metals.iron.rod],
+				[metals.iron.rod, metals.iron.rod, metals.iron.rod]
+			]
 		]
 	},
 	<minecraft:iron_axe> : {
 		Utils.genRecipeName(stageTwo, "iron_axe") : [
-			[[metals.iron.plate, metals.iron.plate, null], [metals.iron.plate, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.iron.plate, metals.iron.plate, null],
+				[metals.iron.plate, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:iron_boots> : {
 		Utils.genRecipeName(stageTwo, "iron_boots") : [
-			[[metals.iron.plate, null, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
+			[
+				[metals.iron.plate, null, metals.iron.plate],
+				[metals.iron.plate, null, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:iron_chestplate> : {
 		Utils.genRecipeName(stageTwo, "iron_chestplate") : [
-			[[metals.iron.plate, null, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate]]
+			[
+				[metals.iron.plate, null, metals.iron.plate],
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:iron_helmet> : {
 		Utils.genRecipeName(stageTwo, "iron_helmet") : [
-			[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [metals.iron.plate, null, metals.iron.plate]]
+			[
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+				[metals.iron.plate, null, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:iron_hoe> : {
 		Utils.genRecipeName(stageTwo, "iron_hoe") : [
-			[[metals.iron.plate, metals.iron.plate, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.iron.plate, metals.iron.plate, null],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:iron_leggings> : {
 		Utils.genRecipeName(stageTwo, "iron_leggings") : [
-			[[metals.iron.plate, metals.iron.plate, metals.iron.plate],
-			[metals.iron.plate, null, metals.iron.plate],
-			[metals.iron.plate, null, metals.iron.plate]]
+			[
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+				[metals.iron.plate, null, metals.iron.plate],
+				[metals.iron.plate, null, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:iron_pickaxe> : {
 		Utils.genRecipeName(stageTwo, "iron_pickaxe") : [
-			[[metals.iron.plate, metals.iron.plate, metals.iron.plate], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:iron_shovel> : {
 		Utils.genRecipeName(stageTwo, "iron_shovel") : [
-			[[null, metals.iron.plate, null], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]
+			[
+				[null, metals.iron.plate, null],
+				[null, <ore:stickWood>, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:iron_sword> : {
 		Utils.genRecipeName(stageTwo, "iron_sword") : [
-			[[null, metals.iron.plate, null], [null, metals.iron.plate, null], [null, <ore:stickWood>, null]]
+			[
+				[null, metals.iron.plate, null],
+				[null, metals.iron.plate, null],
+				[null, <ore:stickWood>, null]
+			]
 		]
 	},
 	<minecraft:name_tag> : {
 		Utils.genRecipeName(stageTwo, "name_tag") : [
-			[[null, null, <minecraft:string>],
-			[null, <minecraft:paper>, null],
-			[null, <ore:dyeBlack>, null]]
+			[
+				[null, null, <minecraft:string>],
+				[null, <minecraft:paper>, null],
+				[null, <ore:dyeBlack>, null]
+			]
 		]
 	},
 	<minecraft:piston> : {
 		Utils.genRecipeName(stageTwo, "piston") : [
-			[[sidingWood, sidingWood, sidingWood], [<minecraft:cobblestone>, metals.iron.plate, <minecraft:cobblestone>], [<minecraft:cobblestone>, <thebetweenlands:octine_ingot>, <minecraft:cobblestone>]]
+			[
+				[sidingWood, sidingWood, sidingWood],
+				[<minecraft:cobblestone>, metals.iron.plate, <minecraft:cobblestone>],
+				[<minecraft:cobblestone>, <thebetweenlands:octine_ingot>, <minecraft:cobblestone>]
+			]
 		]
 	},
 	<minecraft:wool:10> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:10>) : [
-			[[null, <betterwithaddons:wool:10>, null], [<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>], [null, <betterwithaddons:wool:10>, null]]
+			[
+				[null, <betterwithaddons:wool:10>, null],
+				[<betterwithaddons:wool:10>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:10>],
+				[null, <betterwithaddons:wool:10>, null]
+			]
 		]
 	},
 	<minecraft:wool:11> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:11>) : [
-			[[null, <betterwithaddons:wool:11>, null], [<betterwithaddons:wool:11>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:11>], [null, <betterwithaddons:wool:11>, null]]
+			[
+				[null, <betterwithaddons:wool:11>, null],
+				[<betterwithaddons:wool:11>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:11>],
+				[null, <betterwithaddons:wool:11>, null]
+			]
 		]
 	},
 	<minecraft:wool:12> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:12>) : [
-			[[null, <betterwithaddons:wool:12>, null], [<betterwithaddons:wool:12>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:12>], [null, <betterwithaddons:wool:12>, null]]
+			[
+				[null, <betterwithaddons:wool:12>, null],
+				[<betterwithaddons:wool:12>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:12>],
+				[null, <betterwithaddons:wool:12>, null]
+			]
 		]
 	},
 	<minecraft:wool:13> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:13>) : [
-			[[null, <betterwithaddons:wool:13>, null], [<betterwithaddons:wool:13>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:13>], [null, <betterwithaddons:wool:13>, null]]
+			[
+				[null, <betterwithaddons:wool:13>, null],
+				[<betterwithaddons:wool:13>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:13>],
+				[null, <betterwithaddons:wool:13>, null]
+			]
 		]
 	},
 	<minecraft:wool:14> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:14>) : [
-			[[null, <betterwithaddons:wool:14>, null], [<betterwithaddons:wool:14>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:14>], [null, <betterwithaddons:wool:14>, null]]
+			[
+				[null, <betterwithaddons:wool:14>, null],
+				[<betterwithaddons:wool:14>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:14>],
+				[null, <betterwithaddons:wool:14>, null]
+			]
 		]
 	},
 	<minecraft:wool:15> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:15>) : [
-			[[null, <betterwithaddons:wool:15>, null], [<betterwithaddons:wool:15>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:15>], [null, <betterwithaddons:wool:15>, null]]
+			[
+				[null, <betterwithaddons:wool:15>, null],
+				[<betterwithaddons:wool:15>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:15>],
+				[null, <betterwithaddons:wool:15>, null]
+			]
 		]
 	},
 	<minecraft:wool:1> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:1>) : [
-			[[null, <betterwithaddons:wool:1>, null], [<betterwithaddons:wool:1>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:1>], [null, <betterwithaddons:wool:1>, null]]
+			[
+				[null, <betterwithaddons:wool:1>, null],
+				[<betterwithaddons:wool:1>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:1>],
+				[null, <betterwithaddons:wool:1>, null]
+			]
 		]
 	},
 	<minecraft:wool:2> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:2>) : [
-			[[null, <betterwithaddons:wool:2>, null], [<betterwithaddons:wool:2>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:2>], [null, <betterwithaddons:wool:2>, null]]
+			[
+				[null, <betterwithaddons:wool:2>, null],
+				[<betterwithaddons:wool:2>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:2>],
+				[null, <betterwithaddons:wool:2>, null]
+			]
 		]
 	},
 	<minecraft:wool:3> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:3>) : [
-			[[null, <betterwithaddons:wool:3>, null], [<betterwithaddons:wool:3>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:3>], [null, <betterwithaddons:wool:3>, null]]
+			[
+				[null, <betterwithaddons:wool:3>, null],
+				[<betterwithaddons:wool:3>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:3>],
+				[null, <betterwithaddons:wool:3>, null]
+			]
 		]
 	},
 	<minecraft:wool:4> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:4>) : [
-			[[null, <betterwithaddons:wool:4>, null], [<betterwithaddons:wool:4>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:4>], [null, <betterwithaddons:wool:4>, null]]
+			[
+				[null, <betterwithaddons:wool:4>, null],
+				[<betterwithaddons:wool:4>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:4>],
+				[null, <betterwithaddons:wool:4>, null]
+			]
 		]
 	},
 	<minecraft:wool:5> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:5>) : [
-			[[null, <betterwithaddons:wool:5>, null], [<betterwithaddons:wool:5>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:5>], [null, <betterwithaddons:wool:5>, null]]
+			[
+				[null, <betterwithaddons:wool:5>, null],
+				[<betterwithaddons:wool:5>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:5>],
+				[null, <betterwithaddons:wool:5>, null]
+			]
 		]
 	},
 	<minecraft:wool:6> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:6>) : [
-			[[null, <betterwithaddons:wool:6>, null], [<betterwithaddons:wool:6>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:6>], [null, <betterwithaddons:wool:6>, null]]
+			[
+				[null, <betterwithaddons:wool:6>, null],
+				[<betterwithaddons:wool:6>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:6>],
+				[null, <betterwithaddons:wool:6>, null]
+			]
 		]
 	},
 	<minecraft:wool:7> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:7>) : [
-			[[null, <betterwithaddons:wool:7>, null], [<betterwithaddons:wool:7>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:7>], [null, <betterwithaddons:wool:7>, null]]
+			[
+				[null, <betterwithaddons:wool:7>, null],
+				[<betterwithaddons:wool:7>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:7>],
+				[null, <betterwithaddons:wool:7>, null]
+			]
 		]
 	},
 	<minecraft:wool:8> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:8>) : [
-			[[null, <betterwithaddons:wool:8>, null], [<betterwithaddons:wool:8>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:8>], [null, <betterwithaddons:wool:8>, null]]
+			[
+				[null, <betterwithaddons:wool:8>, null],
+				[<betterwithaddons:wool:8>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:8>],
+				[null, <betterwithaddons:wool:8>, null]
+			]
 		]
 	},
 	<minecraft:wool:9> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool:9>) : [
-			[[null, <betterwithaddons:wool:9>, null], [<betterwithaddons:wool:9>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:9>], [null, <betterwithaddons:wool:9>, null]]
+			[
+				[null, <betterwithaddons:wool:9>, null],
+				[<betterwithaddons:wool:9>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool:9>],
+				[null, <betterwithaddons:wool:9>, null]
+			]
 		]
 	},
 	<minecraft:wool> : {
 		Utils.genRecipeName(stageTwo, <minecraft:wool>) : [
-			[[null, <betterwithaddons:wool>, null], [<betterwithaddons:wool>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool>], [null, <betterwithaddons:wool>, null]]
+			[
+				[null, <betterwithaddons:wool>, null],
+				[<betterwithaddons:wool>, <betterwithmods:aesthetic:12>, <betterwithaddons:wool>],
+				[null, <betterwithaddons:wool>, null]
+			]
 		]
 	},
 	<minecraft:acacia_boat> : {
@@ -543,12 +779,20 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:clock> : {
 		Utils.genRecipeName(stageTwo, "clock") : [
-			[[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>], [metals.gold.plate, <minecraft:dye:4>, metals.gold.plate], [<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]]
+			[
+				[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>],
+				[metals.gold.plate, <minecraft:dye:4>, metals.gold.plate],
+				[<minecraft:dye:4>, metals.gold.plate, <minecraft:dye:4>]
+			]
 		]
 	},
 	<minecraft:compass> : {
 		Utils.genRecipeName(stageTwo, "compass") : [
-			[[null, metals.iron.plate, null], [metals.iron.plate, <tconstruct:arrow_head>.withTag({Material: "iron"}), metals.iron.plate], [null, metals.iron.plate, null]]
+			[
+				[null, metals.iron.plate, null],
+				[metals.iron.plate, <tconstruct:arrow_head>.withTag({Material: "iron"}), metals.iron.plate],
+				[null, metals.iron.plate, null]
+			]
 		]
 	},
 
@@ -557,12 +801,20 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	*/
 	<minecraft:enchanting_table> : {
 		Utils.genRecipeName(stageThree, "enchanting_table") : [
-			[[<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>], [<minecraft:obsidian>, <ore:book>, <minecraft:obsidian>], [<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>]]
+			[
+				[<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>],
+				[<minecraft:obsidian>, <ore:book>, <minecraft:obsidian>],
+				[<minecraft:dye:4>, <minecraft:obsidian>, <minecraft:dye:4>]
+			]
 		]
 	},
 	<minecraft:piston> : {
 		Utils.genRecipeName(stageThree, "piston") : [
-			[[sidingWood, sidingWood, sidingWood], [<minecraft:cobblestone>, metals.iron.plate, <minecraft:cobblestone>], [<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>]]
+			[
+				[sidingWood, sidingWood, sidingWood],
+				[<minecraft:cobblestone>, metals.iron.plate, <minecraft:cobblestone>],
+				[<minecraft:cobblestone>, <minecraft:redstone>, <minecraft:cobblestone>]
+			]
 		]
 	},
 	<minecraft:cake> : {
@@ -576,27 +828,47 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	},
 	<minecraft:activator_rail> * 2 : {
 		Utils.genRecipeName(stageThree, "activator_rail") : [
-			[[metals.iron.plate, <ore:plankWood>, metals.iron.plate], [metals.iron.plate, <minecraft:redstone_torch>, metals.iron.plate], [metals.iron.plate, <ore:plankWood>, metals.iron.plate]]
+			[
+				[metals.iron.plate, <ore:plankWood>, metals.iron.plate],
+				[metals.iron.plate, <minecraft:redstone_torch>, metals.iron.plate],
+				[metals.iron.plate, <ore:plankWood>, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:detector_rail> * 2 : {
 		Utils.genRecipeName(stageThree, "detector_rail") : [
-			[[metals.iron.plate, <minecraft:redstone>, metals.iron.plate], [metals.iron.plate, <minecraft:light_weighted_pressure_plate>, metals.iron.plate], [metals.iron.plate, <minecraft:redstone>, metals.iron.plate]]
+			[
+				[metals.iron.plate, <minecraft:redstone>, metals.iron.plate],
+				[metals.iron.plate, <minecraft:light_weighted_pressure_plate>, metals.iron.plate],
+				[metals.iron.plate, <minecraft:redstone>, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:golden_rail> * 4 : {
 		Utils.genRecipeName(stageThree, "golden_rail") : [
-			[[metals.gold.plate, <minecraft:redstone>, metals.gold.plate], [metals.gold.plate, <ore:plankWood>, metals.gold.plate], [metals.gold.plate, <minecraft:redstone>, metals.gold.plate]]
+			[
+				[metals.gold.plate, <minecraft:redstone>, metals.gold.plate],
+				[metals.gold.plate, <ore:plankWood>, metals.gold.plate],
+				[metals.gold.plate, <minecraft:redstone>, metals.gold.plate]
+			]
 		]
 	},
 	<minecraft:rail> * 8 : {
 		Utils.genRecipeName(stageThree, "rail") : [
-			[[metals.iron.plate, <ore:plankWood>, metals.iron.plate], [metals.iron.plate, <ore:plankWood>, metals.iron.plate], [metals.iron.plate, <ore:plankWood>, metals.iron.plate]]
+			[
+				[metals.iron.plate, <ore:plankWood>, metals.iron.plate],
+				[metals.iron.plate, <ore:plankWood>, metals.iron.plate],
+				[metals.iron.plate, <ore:plankWood>, metals.iron.plate]
+			]
 		]
 	},
 	<minecraft:skull:1> * 3 : {
 		Utils.genRecipeName(stageThree, <minecraft:skull:1>) : [
-			[[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null], [<mysticalagradditions:stuff:1>, null, null], [null, null, null]]
+			[
+				[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null],
+				[<mysticalagradditions:stuff:1>, null, null],
+				[null, null, null]
+			]
 		]
 	},
 
@@ -623,22 +895,36 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	*/
 	<minecraft:diamond_helmet> : {
 		Utils.genRecipeName(stageFive, <minecraft:diamond_helmet>) : [
-			[[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]
+			[
+				[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+				[<minecraft:diamond>, null, <minecraft:diamond>]
+			]
 		]
 	},
 	<minecraft:diamond_chestplate> : {
 		Utils.genRecipeName(stageFive, <minecraft:diamond_chestplate>) : [
-			[[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]
+			[
+				[<minecraft:diamond>, null, <minecraft:diamond>],
+				[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+				[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+			]
 		]
 	},
 	<minecraft:diamond_leggings> : {
 		Utils.genRecipeName(stageFive, <minecraft:diamond_leggings>) : [
-			[[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]
+			[
+				[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+				[<minecraft:diamond>, null, <minecraft:diamond>],
+				[<minecraft:diamond>, null, <minecraft:diamond>]
+			]
 		]
 	},
 	<minecraft:diamond_boots> : {
 		Utils.genRecipeName(stageFive, <minecraft:diamond_boots>) : [
-			[[<minecraft:diamond>, null, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]
+			[
+				[<minecraft:diamond>, null, <minecraft:diamond>],
+				[<minecraft:diamond>, null, <minecraft:diamond>]
+			]
 		]
 	}
 };
@@ -649,7 +935,11 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 static mirroredRecipes as IIngredient[][][][string][IItemStack] = {
 	<minecraft:lead> : {
 		"nameless" : [
-			[[<minecraft:string>, null, null], [null, <ore:cordageLeather>, null], [null, null, <minecraft:string>]]
+			[
+				[<minecraft:string>, null, null],
+				[null, <ore:cordageLeather>, null],
+				[null, null, <minecraft:string>]
+			]
 		]
 	}
 };

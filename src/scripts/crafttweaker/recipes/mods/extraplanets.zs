@@ -26,8 +26,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	/*
 		Stage Four
 	*/
-	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}) : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_helmet:0>) : [
+	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}): {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_helmet:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
@@ -35,8 +35,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}) : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>) : [
+	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
+		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
@@ -44,8 +44,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0f}) : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_legings:0>) : [
+	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0f}): {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_legings:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_legings>, <extraplanets:tier1_pressure_layer>],
@@ -53,8 +53,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0f}) : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_boots:0>) : [
+	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0f}): {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_boots:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],
@@ -62,8 +62,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_pressure_layer> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_pressure_layer>) : [
+	<extraplanets:tier1_pressure_layer>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_pressure_layer>): [
 			[
 				[<minecraft:wool:*>, null, <minecraft:wool:*>],
 				[<galacticraftcore:oxygen_concentrator>, null, <galacticraftcore:oxygen_concentrator>],
@@ -71,8 +71,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_radiation_layer> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_radiation_layer>) : [
+	<extraplanets:tier1_radiation_layer>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_radiation_layer>): [
 			[
 				[metals.lead.plate, <minecraft:wool:*>, metals.lead.plate],
 				[metals.lead.plate, null, metals.lead.plate],
@@ -80,16 +80,16 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_un_prepared_space_suit_helmet> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_helmet>) : [
+	<extraplanets:tier1_un_prepared_space_suit_helmet>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_helmet>): [
 			[
 				[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
 				[metals.aluminum.plate, null, metals.aluminum.plate]
 			]
 		]
 	},
-	<extraplanets:tier1_un_prepared_space_suit_chest> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_chest>) : [
+	<extraplanets:tier1_un_prepared_space_suit_chest>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_chest>): [
 			[
 				[metals.aluminum.plate, null, metals.aluminum.plate],
 				[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
@@ -97,8 +97,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_un_prepared_space_suit_legings> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_legings>) : [
+	<extraplanets:tier1_un_prepared_space_suit_legings>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_legings>): [
 			[
 				[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
 				[metals.aluminum.plate, null, metals.aluminum.plate],
@@ -106,8 +106,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_un_prepared_space_suit_boots> : {
-		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_boots>) : [
+	<extraplanets:tier1_un_prepared_space_suit_boots>: {
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_un_prepared_space_suit_boots>): [
 			[
 				[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>],
 				[metals.aluminum.plate, null, metals.aluminum.plate]
@@ -118,8 +118,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 	/*
 		Stage Five
 	*/
-	<extraplanets:advanced_fuel_loader> : {
-		Utils.genRecipeName(stageFive, <extraplanets:advanced_fuel_loader>) : [
+	<extraplanets:advanced_fuel_loader>: {
+		Utils.genRecipeName(stageFive, <extraplanets:advanced_fuel_loader>): [
 			[
 				[metals.nickel.ingot, metals.nickel.ingot, metals.nickel.ingot],
 				[metals.nickel.ingot, <galacticraftcore:fuel_loader>, metals.nickel.ingot],
@@ -127,8 +127,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:fire_bomb> : {
-		Utils.genRecipeName(stageFive, <extraplanets:fire_bomb>) : [
+	<extraplanets:fire_bomb>: {
+		Utils.genRecipeName(stageFive, <extraplanets:fire_bomb>): [
 			[
 				[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot],
 				[<ore:sand>, <extraplanets:tier5_items:11>, <ore:sand>],
@@ -136,8 +136,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:nuclear_bomb> : {
-		Utils.genRecipeName(stageFive, <extraplanets:nuclear_bomb>) : [
+	<extraplanets:nuclear_bomb>: {
+		Utils.genRecipeName(stageFive, <extraplanets:nuclear_bomb>): [
 			[
 				[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>],
 				[<ore:sand>, metals.uranium.ingot, <ore:sand>],
@@ -145,8 +145,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier1_space_suit_gravity_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_gravity_boots>) : [
+	<extraplanets:tier1_space_suit_gravity_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_gravity_boots>): [
 			[
 				[null, <extraplanets:gravity_controller>, null],
 				[<extraplanets:gravity_controller>, <extraplanets:tier1_space_suit_boots>, <extraplanets:gravity_controller>],
@@ -154,8 +154,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier2_space_suit_helmet> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_helmet>) : [
+	<extraplanets:tier2_space_suit_helmet>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_helmet>): [
 			[
 				[null, <extraplanets:tier2_armor_layer>, null],
 				[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_helmet>, <extraplanets:tier2_pressure_layer>],
@@ -163,8 +163,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier2_space_suit_chest> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_chest>) : [
+	<extraplanets:tier2_space_suit_chest>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_chest>): [
 			[
 				[null, <extraplanets:tier2_armor_layer>, null],
 				[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_chest>, <extraplanets:tier2_pressure_layer>],
@@ -172,8 +172,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier2_space_suit_legings> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_legings>) : [
+	<extraplanets:tier2_space_suit_legings>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_legings>): [
 			[
 				[null, <extraplanets:tier2_armor_layer>, null],
 				[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_legings>, <extraplanets:tier2_pressure_layer>],
@@ -181,8 +181,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier2_space_suit_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_boots>) : [
+	<extraplanets:tier2_space_suit_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_boots>): [
 			[
 				[null, <extraplanets:tier2_armor_layer>, null],
 				[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_boots>, <extraplanets:tier2_pressure_layer>],
@@ -190,8 +190,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier2_space_suit_gravity_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_gravity_boots>) : [
+	<extraplanets:tier2_space_suit_gravity_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier2_space_suit_gravity_boots>): [
 			[
 				[null, <extraplanets:gravity_controller>, null],
 				[<extraplanets:gravity_controller>, <extraplanets:tier2_space_suit_boots>, <extraplanets:gravity_controller>],
@@ -199,8 +199,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier3_space_suit_helmet> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_helmet>) : [
+	<extraplanets:tier3_space_suit_helmet>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_helmet>): [
 			[
 				[null, <extraplanets:tier3_armor_layer>, null],
 				[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_helmet>, <extraplanets:tier3_pressure_layer>],
@@ -208,8 +208,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier3_space_suit_chest> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_chest>) : [
+	<extraplanets:tier3_space_suit_chest>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_chest>): [
 			[
 				[null, <extraplanets:tier3_armor_layer>, null],
 				[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_chest>, <extraplanets:tier3_pressure_layer>],
@@ -217,8 +217,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier3_space_suit_legings> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_legings>) : [
+	<extraplanets:tier3_space_suit_legings>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_legings>): [
 			[
 				[null, <extraplanets:tier3_armor_layer>, null],
 				[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_legings>, <extraplanets:tier3_pressure_layer>],
@@ -226,8 +226,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier3_space_suit_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_boots>) : [
+	<extraplanets:tier3_space_suit_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_boots>): [
 			[
 				[null, <extraplanets:tier3_armor_layer>, null],
 				[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_boots>, <extraplanets:tier3_pressure_layer>],
@@ -235,8 +235,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier3_space_suit_gravity_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_gravity_boots>) : [
+	<extraplanets:tier3_space_suit_gravity_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier3_space_suit_gravity_boots>): [
 			[
 				[null, <extraplanets:gravity_controller>, null],
 				[<extraplanets:gravity_controller>, <extraplanets:tier3_space_suit_boots>, <extraplanets:gravity_controller>],
@@ -244,8 +244,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier4_space_suit_helmet> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_helmet>) : [
+	<extraplanets:tier4_space_suit_helmet>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_helmet>): [
 			[
 				[null, <extraplanets:tier4_armor_layer>, null],
 				[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_helmet>, <extraplanets:tier4_pressure_layer>],
@@ -253,8 +253,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier4_space_suit_chest> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_chest>) : [
+	<extraplanets:tier4_space_suit_chest>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_chest>): [
 			[
 				[null, <extraplanets:tier4_armor_layer>, null],
 				[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_chest>, <extraplanets:tier4_pressure_layer>],
@@ -262,8 +262,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier4_space_suit_legings> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_legings>) : [
+	<extraplanets:tier4_space_suit_legings>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_legings>): [
 			[
 				[null, <extraplanets:tier4_armor_layer>, null],
 				[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_legings>, <extraplanets:tier4_pressure_layer>],
@@ -271,8 +271,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier4_space_suit_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_boots>) : [
+	<extraplanets:tier4_space_suit_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_boots>): [
 			[
 				[null, <extraplanets:tier4_armor_layer>, null],
 				[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_boots>, <extraplanets:tier4_pressure_layer>],
@@ -280,8 +280,8 @@ static shapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<extraplanets:tier4_space_suit_gravity_boots> : {
-		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_gravity_boots>) : [
+	<extraplanets:tier4_space_suit_gravity_boots>: {
+		Utils.genRecipeName(stageFive, <extraplanets:tier4_space_suit_gravity_boots>): [
 			[
 				[null, <extraplanets:gravity_controller>, null],
 				[<extraplanets:gravity_controller>, <extraplanets:tier4_space_suit_boots>, <extraplanets:gravity_controller>],

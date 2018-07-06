@@ -883,6 +883,7 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
 
+	// Removals
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
 
 	// Un-named recipes
@@ -891,10 +892,11 @@ function init() {
     recipeUtil.process(shapelessRecipes);
 
 	// Named recipes
-	recipeUtil.process(namedShapedRecipes, false);
-    recipeUtil.process(namedMirroredRecipes, true);
-    recipeUtil.process(namedShapelessRecipes);
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
 
+	// Removals
 	recipeUtil.removeRecipes(removeRecipes);
 
 	/*

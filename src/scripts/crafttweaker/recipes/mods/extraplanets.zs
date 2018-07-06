@@ -319,9 +319,9 @@ function init() {
     recipeUtil.process(shapelessRecipes);
 
 	// Named recipes
-	recipeUtil.process(namedShapedRecipes, false);
-    recipeUtil.process(namedMirroredRecipes, true);
-    recipeUtil.process(namedShapelessRecipes);
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
 
 	// Removals
 	recipeUtil.removeRecipes(removeRecipes);

@@ -20,7 +20,7 @@ zenClass RecipeUtil {
 	/*
 		Process Method to handle Shapless Recipes.
 	*/
-	function process(map as IIngredient[][][string][IItemStack]) {
+	function processNamed(map as IIngredient[][][string][IItemStack]) {
 		for item, itemRecipes in map {
 			for recipeName, recipesInner in itemRecipes {
 				for i, recipe in recipesInner {
@@ -49,7 +49,7 @@ zenClass RecipeUtil {
 	/*
 		Process Method to handle Shaped and Mirrored Recipes.
 	*/
-	function process(map as IIngredient[][][][string][IItemStack], isMirrored as bool) {
+	function processNamed(map as IIngredient[][][][string][IItemStack], isMirrored as bool) {
 		for item, itemRecipes in map {
 			for recipeName, recipesInner in itemRecipes {
 				for i, recipe in recipesInner {

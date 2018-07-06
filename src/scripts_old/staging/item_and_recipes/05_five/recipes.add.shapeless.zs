@@ -23,12 +23,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 */
 
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	//Clear Mekanism creative tank
-	<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}): [
-	    [
-			<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}, false).onlyWithTag({tier: 4})
-		]
-	],
 	<valkyrielib:guide>: [
 		[
 			<minecraft:book>, <environmentaltech:litherite_crystal>

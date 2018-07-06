@@ -319,15 +319,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Abyssalcraft
-	<abyssalcraft:gatewaykey> : [
-		[
-			[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>],
-			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
-			[<thebetweenlands:items_misc:14>, null, null]
-		]
-	],
-
 	//Improved Backpacks
 	<improvedbackpacks:upgrade:2> : [
 		[

@@ -165,15 +165,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Mekanism
-	<mekanism:basicblock:7> * 4: [
-		[
-			[<galacticraftplanets:item_basic_mars:5>, <mekanism:ingot>, <galacticraftplanets:item_basic_mars:5>],
-			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
-			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
-		]
-	],
-
 	//Iron Chest
 	<ironchest:iron_chest:2>: [
 		[
@@ -187,21 +178,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 			[<mekanism:compresseddiamond>, <ironchest:iron_chest:1>, <mekanism:compresseddiamond>],
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
-		]
-	],
-
-	//Mystical Agriculture
-	<mysticalagriculture:ultimate_furnace>: [
-		[
-			[<minecraft:skull:1>, <minecraft:nether_star>, <minecraft:skull:1>],
-			[<mysticalagradditions:storage>, <mysticalagriculture:supremium_furnace>, <mysticalagradditions:storage>],
-			[<minecraft:skull:1>, <mysticalagradditions:storage>, <minecraft:skull:1>]
-		]
-	],
-	<mysticalagriculture:supremium_boots>: [
-		[
-			[<mysticalagriculture:crafting:37>, <environmentaltech:modifier_creative_flight>, <mysticalagriculture:gear:9>],
-			[<mysticalagriculture:crafting:37>, null, <mysticalagriculture:crafting:37>]
 		]
 	],
 

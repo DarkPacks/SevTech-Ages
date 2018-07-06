@@ -155,8 +155,11 @@ function initItemsAndRecipesStaging() {
 }
 
 function initRecipes() {
+	scripts.crafttweaker.recipes.mods.abyssalcraft.init();
 	scripts.crafttweaker.recipes.mods.extraplanets.init();
+	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
+	scripts.crafttweaker.recipes.mods.mysticalagriculture.init();
 }
 
 function initIntegration() {

@@ -22,18 +22,11 @@ var removeItems as IItemStack[] = [
 	//Actually Additions
 	<actuallyadditions:block_atomic_reconstructor>,
 
-	//Mekanism
-	<mekanism:basicblock:7>,
-
 	//RFTools
 	<rftools:machine_frame>,
 	<rftools:matter_receiver>,
 	<rftools:matter_transmitter>,
 	<rftools:machine_base>,
-
-	//Mystical Agriculture
-	<mysticalagriculture:ultimate_furnace>,
-	<mysticalagriculture:supremium_boots>,
 
 	//Xnet
 	<xnet:controller>,

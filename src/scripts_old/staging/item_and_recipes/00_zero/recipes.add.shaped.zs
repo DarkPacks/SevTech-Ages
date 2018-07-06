@@ -28,9 +28,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapedRecipes as IIngredient[][][][IItemStack] = {
-	<abyssalcraft:dltslab1> * 3 : [
-		[[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]
-	],
 	<primal:slab_yew> * 3 : [
 		[[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>]]
 	],

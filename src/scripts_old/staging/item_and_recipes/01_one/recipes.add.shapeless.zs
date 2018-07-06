@@ -26,11 +26,6 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
 	],
 
-	//Abyssalcraft for Stage1
-	<abyssalcraft:corflesh> : [
-		[<abyssalcraft:corbone>.transformReplace(<minecraft:bone>), <ore:toolWorkBlade>]
-	],
-
 	//Astral Sorcery Start
 	<betterwithaddons:japanmat:8> : [
 		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>]

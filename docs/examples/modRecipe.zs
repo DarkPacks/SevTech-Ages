@@ -12,76 +12,38 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
 
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:furnace>: [
-		[
-			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-			[<ore:cobblestone>, null, <ore:cobblestone>],
-			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
-		]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-    null * 3: {
-        "nameless": [
-            [[null, null, null]]
-        ],
-        Utils.genRecipeName(stageOne, "notforyou"): [
-            [[],[], []]
-        ]
-    }
 };
 
 /*
     Mirrored Recipes
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
-	<minecraft:lead>: [
-		[
-			[<minecraft:string>, null, null],
-			[null, <ore:cordageLeather>, null],
-			[null, null, <minecraft:string>]
-		]
-	]
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-    <minecraft:stick>: {
-        "nameless": [
-            [[], [], []],
-            [[], [], []]
-        ],
-        Utils.genRecipeName(stageOne, "notforyou"): [
-            [[],[], []]
-        ]
-    }
 };
 
 /*
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<minecraft:flint> * 9: [
-		[<betterwithmods:aesthetic:5>]
-	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-    <minecraft:stick>: {
-        "nameless": [
-            [],
-            []
-        ],
-        Utils.genRecipeName(stageOne, "notforyou"): [
-            []
-        ]
-    }
 };
 
 /*
@@ -108,9 +70,9 @@ function init() {
     recipeUtil.process(shapelessRecipes);
 
 	// Named recipes
-	recipeUtil.process(namedShapedRecipes, false);
-    recipeUtil.process(namedMirroredRecipes, true);
-    recipeUtil.process(namedShapelessRecipes);
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
 }

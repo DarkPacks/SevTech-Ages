@@ -167,23 +167,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Abyssalcraft for Stage1
-	<abyssalcraft:necronomicon> : [
-		[
-			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>],
-			[<abyssalcraft:corflesh>, <primal:plant_cloth>, <abyssalcraft:corflesh>],
-			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]
-		]
-	],
-	<abyssalcraft:charm> : [
-		[
-			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>],
-			[<ore:dyeYellow>, metals.bronze.ingot, <ore:dyeYellow>],
-			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]
-		]
-	],
-
-
 	//Beneath Porter Recipe
 	<progressiontweaks:blank_teleporter> : [
 		[
@@ -485,99 +468,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[stone, stone, stone],
 			[null, stone, null],
 			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
-		]
-	],
-
-	//Abyssalcraft Statues
-	<abyssalcraft:decorativestatue> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeCyan>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:1> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeYellow>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:2> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeGray>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:3> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyePurple>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:4> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeBlue>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:5> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeOrange>, null]
-		]
-	],
-	<abyssalcraft:decorativestatue:6> : [
-		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
-			[<ore:dyeBlack>, null]
-		]
-	],
-	<abyssalcraft:statue> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:1> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:1>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:2> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:2>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:3> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:3>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:4> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:4>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:5> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:5>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
-		]
-	],
-	<abyssalcraft:statue:6> : [
-		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:6>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
 		]
 	],
 

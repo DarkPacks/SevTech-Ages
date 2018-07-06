@@ -39,9 +39,6 @@ var removeItems as IItemStack[] = [
 	<infoaccessories:info_accessory:6>,
 	<infoaccessories:info_accessory>,
 
-	//Abyssalcraft
-	<abyssalcraft:gatewaykey>,
-
 	//Blood Magic
 	<bloodmagic:experience_tome>,
 	<bloodmagic:lava_crystal>,

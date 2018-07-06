@@ -17,12 +17,10 @@ import mods.zenstages.ZenStager;
 // Initialize Scripts
 initSpecificStaging();
 initItemsAndRecipesStaging();
-
 initEvents();
-
 initItemModifiers();
-
 initRecipes();
+initIntegration();
 
 // ==================================
 // Build the Stages
@@ -159,6 +157,27 @@ function initItemsAndRecipesStaging() {
 function initRecipes() {
 	scripts.crafttweaker.recipes.mods.extraplanets.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
+}
+
+function initIntegration() {
+	scripts.crafttweaker.modIntegrations.abyssalcraft.init();
+	scripts.crafttweaker.modIntegrations.actuallyAdditions.init();
+	scripts.crafttweaker.modIntegrations.appliedenergistics2.init();
+	scripts.crafttweaker.modIntegrations.astralsorcery.init();
+	scripts.crafttweaker.modIntegrations.bloodmagic.init.init();
+	scripts.crafttweaker.modIntegrations.chisel.init();
+	scripts.crafttweaker.modIntegrations.galacticcraftAndExtraplanets.init();
+	scripts.crafttweaker.modIntegrations.horsepower.init();
+	scripts.crafttweaker.modIntegrations.immersive.engineering.init.init();
+	scripts.crafttweaker.modIntegrations.immersive.petroleum.init();
+	scripts.crafttweaker.modIntegrations.tinkers.init.init();
+	scripts.crafttweaker.modIntegrations.loottweaker.init();
+	scripts.crafttweaker.modIntegrations.mekanism.init();
+	scripts.crafttweaker.modIntegrations.pneumaticcraft.init();
+	scripts.crafttweaker.modIntegrations.primalCore.init();
+	scripts.crafttweaker.modIntegrations.primalTech.init();
+	scripts.crafttweaker.modIntegrations.refinedStorage.init();
+	scripts.crafttweaker.modIntegrations.rustic.init();
 }
 
 function initEvents() {

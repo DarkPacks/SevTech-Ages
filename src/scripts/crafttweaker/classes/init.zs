@@ -18,7 +18,7 @@ global appliedEnergistics as scripts.crafttweaker.classes.mods.appliedEnergistic
 global astralSorcery as scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery = scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery();
 global bloodMagic as scripts.crafttweaker.classes.mods.bloodMagic.BloodMagic = scripts.crafttweaker.classes.mods.bloodMagic.BloodMagic();
 global horsePower as scripts.crafttweaker.classes.mods.horsePower.HorsePower = scripts.crafttweaker.classes.mods.horsePower.HorsePower(4, 16);
-global immersiveEngineering as scripts.crafttweaker.classes.mods.immersiveEngineering.ImmersiveEngineering = scripts.crafttweaker.classes.mods.immersiveEngineering.ImmersiveEngineering(6000);
+global immersiveEngineering as scripts.crafttweaker.classes.mods.immersiveEngineering.ImmersiveEngineering = scripts.crafttweaker.classes.mods.immersiveEngineering.ImmersiveEngineering(6000, 600);
 global mekanism as scripts.crafttweaker.classes.mods.mekanism.Mekanism = scripts.crafttweaker.classes.mods.mekanism.Mekanism();
 global tinkers as scripts.crafttweaker.classes.mods.tinkers.Tinkers = scripts.crafttweaker.classes.mods.tinkers.Tinkers();
 

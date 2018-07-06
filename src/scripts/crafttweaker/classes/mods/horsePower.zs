@@ -31,13 +31,13 @@ zenClass HorsePower {
 
 		By default if not set recipes would be set to manual only.
 	*/
-	function addChopping(input as IIngredient, output as IItemStack) {
-		addChopping(input, output, def_chop, true);
+	function addChopping(output as IItemStack, input as IIngredient) {
+		addChopping(output, input, def_chop, true);
 	}
-	function addChopping(input as IIngredient, output as IItemStack, time as int) {
-		addChopping(input, output, time, true);
+	function addChopping(output as IItemStack, input as IIngredient, time as int) {
+		addChopping(output, input, time, true);
 	}
-	function addChopping(input as IIngredient, output as IItemStack, time as int, manual as bool) {
+	function addChopping(output as IItemStack, input as IIngredient, time as int, manual as bool) {
 		ChoppingBlock.add(input, output, time, manual);
 	}
 
@@ -46,16 +46,16 @@ zenClass HorsePower {
 
 		By default if not set recipes would be set to manual only.
 	*/
-	function addGrindstone(input as IIngredient, output as IItemStack) {
-		addGrindstone(input, output, def_grind, true);
+	function addGrindstone(output as IItemStack, input as IIngredient) {
+		addGrindstone(output, input, def_grind, true);
 	}
-	function addGrindstone(input as IIngredient, output as IItemStack, secondaryOutput as IItemStack, secondaryChance as int) {
-		addGrindstone(input, output, def_grind, true, secondaryOutput, secondaryChance);
+	function addGrindstone(output as IItemStack, input as IIngredient, secondaryOutput as IItemStack, secondaryChance as int) {
+		addGrindstone(output, input, def_grind, true, secondaryOutput, secondaryChance);
 	}
-	function addGrindstone(input as IIngredient, output as IItemStack, time as int, hand as bool) {
+	function addGrindstone(output as IItemStack, input as IIngredient, time as int, hand as bool) {
 		Grindstone.add(input, output, time, hand);
 	}
-	function addGrindstone(input as IIngredient, output as IItemStack, time as int, hand as bool, secondaryOutput as IItemStack, secondaryChance as int) {
+	function addGrindstone(output as IItemStack, input as IIngredient, time as int, hand as bool, secondaryOutput as IItemStack, secondaryChance as int) {
 		Grindstone.add(input, output, time, hand, secondaryOutput, secondaryChance);
 	}
 

@@ -12,14 +12,18 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-
+import mods.immersiveengineering.AlloySmelter;
+import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.MetalPress;
 
 zenClass ImmersiveEngineering {
 	val default_energy as int;
+	val default_alloy as int;
 
-	zenConstructor(defaultEnergy as int) {
+	zenConstructor(defaultEnergy as int, defaultAlloy as int) {
 		default_energy = defaultEnergy;
+		default_alloy = defaultAlloy;
 	}
 
 	/*
@@ -47,5 +51,42 @@ zenClass ImmersiveEngineering {
 	}
 	function addCrusher(output as IItemStack, input as IIngredient, energy as int, secondaryOutput as IItemStack, secondaryChance as double) {
 		Crusher.addRecipe(output, input, energy, secondaryOutput, secondaryChance);
+	}
+
+	/*
+		Remove a Crusher Recipe
+	*/
+	function removeAlloy(output as IItemStack) {
+		AlloySmelter.removeRecipe(output);
+	}
+
+	/*
+		Add a Crusher Recipe
+	*/
+	function addAlloy(output as IItemStack, input as IIngredient, input2 as IIngredient) {
+		AlloySmelter.addRecipe(output, input, input2, default_alloy);
+	}
+	function addAlloy(output as IItemStack, input as IIngredient, input2 as IIngredient, time as int) {
+		AlloySmelter.addRecipe(output, input, input2, time);
+	}
+
+	/*
+		Add a Arc Furnace Recipe
+	*/
+	function addArcFurn(output as IItemStack, input as IIngredient, slag as IItemStack, time as int, energy as int) {
+		ArcFurnace.addRecipe(output, input, slag, time, energy);
+	}
+	function addArcFurn(output as IItemStack, input as IIngredient, slag as IItemStack, time as int, energy as int, additives as IIngredient[]) {
+		ArcFurnace.addRecipe(output, input, slag, time, energy, additives);
+	}
+
+	/*
+		Add a Metal Press Recipe
+	*/
+	function addPress(output as IItemStack, input as IIngredient, mold as IItemStack, inputSize as int) {
+		MetalPress.addRecipe(output, input, mold, 500, inputSize);
+	}
+	function addPress(output as IItemStack, input as IIngredient, mold as IItemStack, energy as int, inputSize as int) {
+		MetalPress.addRecipe(output, input, mold, energy, inputSize);
 	}
 }

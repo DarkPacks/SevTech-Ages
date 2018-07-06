@@ -18,6 +18,7 @@ import mods.mekanism.chemical.injection as Injection;
 import mods.mekanism.combiner as Combiner;
 import mods.mekanism.crusher as Crusher;
 import mods.mekanism.enrichment as Enrichment;
+import mods.mekanism.infuser as Infuser;
 
 zenClass Mekanism {
 	zenConstructor() {
@@ -79,5 +80,12 @@ zenClass Mekanism {
 	}
 	function removeCrusher(output as IIngredient, input as IIngredient) {
 		Crusher.removeRecipe(output, input);
+	}
+
+	/*
+		Add a Infuser Recipe
+	*/
+	function addInfusion(infusionType as string, toConsume as int, input as IItemStack, output as IItemStack) {
+		Infuser.addRecipe(infusionType, toConsume, input, output);
 	}
 }

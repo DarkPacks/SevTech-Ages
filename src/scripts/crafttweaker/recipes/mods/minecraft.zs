@@ -12,12 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.stages.stageZero;
-import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
-import scripts.crafttweaker.stages.stageFour;
-import scripts.crafttweaker.stages.stageFive;
 
 /*
 	Shaped Recipes
@@ -680,6 +675,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	// ==================================
+	// Stage Three
+	// ==================================
 	<minecraft:piston>: {
 		Utils.genRecipeName(stageThree, "piston"): [
 			[
@@ -754,6 +752,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+	// ==================================
+	// Stage Three
+	// ==================================
 	<minecraft:torch> * 2: {
 		Utils.genRecipeName(stageThree, "torch"): [
 			[<immersiveengineering:material:6>, <betterwithmods:rope>, <ore:stickWood>]

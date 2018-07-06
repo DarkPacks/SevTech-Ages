@@ -12,10 +12,6 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.stages.stageZero;
-import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
-import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
@@ -199,23 +195,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	/*
-		Stage Four
-	*/
+	// ==================================
+	// Stage Four
+	// ==================================
 	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}): {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_helmet:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
-				[null, <extraplanets:tier1_armor_layer>, null]
-			]
-		]
-	},
-	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
-		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
-			[
-				[null, <extraplanets:tier1_armor_layer>, null],
-				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
 				[null, <extraplanets:tier1_armor_layer>, null]
 			]
 		]
@@ -234,6 +221,19 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			[
 				[null, <extraplanets:tier1_armor_layer>, null],
 				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],
+				[null, <extraplanets:tier1_armor_layer>, null]
+			]
+		]
+	},
+
+	// ==================================
+	// Stage Five
+	// ==================================
+	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
+		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
+			[
+				[null, <extraplanets:tier1_armor_layer>, null],
+				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
 				[null, <extraplanets:tier1_armor_layer>, null]
 			]
 		]

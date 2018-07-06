@@ -22,7 +22,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
 			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
 		]
-	],
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -46,7 +46,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	    [
 			<mekanism:machineblock2:11>.withTag({tier: 4, mekData: {}}, false).onlyWithTag({tier: 4})
 		]
-	],
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {

@@ -136,6 +136,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]
 		]
 	],
+	<betterwithaddons:loom>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, <betterwithmods:material>, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -183,6 +190,7 @@ static removeRecipes as IIngredient[] = [
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:6>,
+	<betterwithaddons:loom>,
 	<betterwithaddons:redstone_emitter>,
 	<betterwithaddons:spindle>
 ];

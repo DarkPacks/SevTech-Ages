@@ -165,7 +165,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<abyssalcraft:abyingot>,
 	<abyssalcraft:charm>,
+	<abyssalcraft:cingot>,
 	<abyssalcraft:decorativestatue:1>,
 	<abyssalcraft:decorativestatue:2>,
 	<abyssalcraft:decorativestatue:3>,
@@ -174,7 +176,15 @@ static removeRecipes as IIngredient[] = [
 	<abyssalcraft:decorativestatue:6>,
 	<abyssalcraft:decorativestatue>,
 	<abyssalcraft:dltslab1>,
+	<abyssalcraft:dreadiumingot>,
 	<abyssalcraft:gatewaykey>,
+	<abyssalcraft:ingotblock:1>,
+	<abyssalcraft:ingotblock:2>,
+	<abyssalcraft:ingotblock>,
+	<abyssalcraft:ingotnugget:1>,
+	<abyssalcraft:ingotnugget:2>,
+	<abyssalcraft:ingotnugget:3>,
+	<abyssalcraft:ingotnugget>,
 	<abyssalcraft:necronomicon>,
 	<abyssalcraft:shadowfragment>,
 	<abyssalcraft:shadowgem>,

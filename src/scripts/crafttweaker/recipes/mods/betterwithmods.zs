@@ -178,6 +178,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>]
 		]
+	],
+	<betterwithmods:material:9>: [
+		[
+			[null, <ore:cordageLeather>, null],
+			[<ore:cordageLeather>, <ore:slimeball>, <ore:cordageLeather>],
+			[null, <ore:cordageLeather>, null]
+		]
+	],
+	<betterwithmods:single_machine>: [
+		[
+			[<minecraft:stone>, <minecraft:stone_slab>, <minecraft:stone>],
+			[<minecraft:stone>, <horsepower:hand_grindstone>, <minecraft:stone>],
+			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+		]
 	]
 };
 
@@ -242,11 +256,13 @@ static removeRecipes as IIngredient[] = [
 	<betterwithmods:material:24>,
 	<betterwithmods:material:36>,
 	<betterwithmods:material:8>,
+	<betterwithmods:material:9>,
 	<betterwithmods:material>,
 	<betterwithmods:rope>,
 	<betterwithmods:saw>,
 	<betterwithmods:shaft>,
 	<betterwithmods:single_machine:3>,
+	<betterwithmods:single_machine>,
 	<betterwithmods:wicker>,
 	<betterwithmods:wooden_axle>,
 	<betterwithmods:wooden_gearbox>

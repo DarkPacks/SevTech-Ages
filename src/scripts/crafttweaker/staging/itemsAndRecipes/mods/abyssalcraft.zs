@@ -145,7 +145,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:tieredenergyrelay>,
 		<abyssalcraft:tieredsacrificialaltar>,
 		<abyssalcraft:unique_scroll:1>,
-		<abyssalcraft:unique_scroll>
+		<abyssalcraft:unique_scroll>,
 		<abyssalcraft:aaxe>,
 		<abyssalcraft:aboots>,
 		<abyssalcraft:ahelmet>,
@@ -154,7 +154,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:apick>,
 		<abyssalcraft:aplate>,
 		<abyssalcraft:ashovel>,
-		<abyssalcraft:asword>,
+		<abyssalcraft:asword>
 	],
 
 	stageTwo.stage: [
@@ -392,7 +392,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:wastelandsthorn>,
 		<abyssalcraft:yogsothothcharm:1>,
 		<abyssalcraft:yogsothothcharm>,
-		<abyssalcraft:yogsothothcoin>
+		<abyssalcraft:yogsothothcoin>,
 		<abyssalcraft:calcifiedstone>,
 		<abyssalcraft:cchunk>,
 		<abyssalcraft:coraliumcobblestoneslab2>,
@@ -427,7 +427,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:tieredenergycontainer:1>,
 		<abyssalcraft:tieredenergypedestal:1>,
 		<abyssalcraft:tieredenergyrelay:1>,
-		<abyssalcraft:tieredsacrificialaltar:1>,
+		<abyssalcraft:tieredsacrificialaltar:1>
 	],
 
 	stageThree.stage: [

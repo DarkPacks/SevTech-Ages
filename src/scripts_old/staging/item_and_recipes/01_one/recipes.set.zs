@@ -53,14 +53,6 @@ var itemsForStage as IIngredient[] = [
 	<tconstruct:dried_clay:1>,
 	<tconstruct:dried_clay_slab:1>,
 	<tconstruct:mudbrick_stairs>,
-	<traverse:blue_rock_bricks>,
-	<traverse:blue_rock_bricks_chiseled>,
-	<traverse:blue_rock_bricks_slab>,
-	<traverse:blue_rock_bricks_stairs>,
-	<traverse:red_rock_bricks>,
-	<traverse:red_rock_bricks_chiseled>,
-	<traverse:red_rock_bricks_slab>,
-	<traverse:red_rock_bricks_stairs>,
 
 	//Fences and Doors
 	<abyssalcraft:abydreadbrickfence>,

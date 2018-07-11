@@ -22,11 +22,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	<primal:plant_fiber_pulp> * 3 : [
-		[<betterwithmods:material:22>, <betterwithmods:material:12>, scripts.crafting_utils.getBucketIngredient(<liquid:water>)],
-		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
-	],
-
 	//Twilight Forest
 	<twilightforest:magic_map_focus> : [
 		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]

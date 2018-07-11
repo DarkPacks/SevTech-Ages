@@ -5,19 +5,8 @@ import crafttweaker.item.IItemStack;
 var removeItems as IItemStack[] = [
 	<buildcraftcore:engine>,
 	<buildcrafttransport:pipe_void_item>,
-	<cyclicmagic:charm_antidote>,
-	<cyclicmagic:charm_fire>,
-	<cyclicmagic:charm_water>,
-	<cyclicmagic:charm_wing>,
-	<cyclicmagic:placer_block>,
-	<cyclicmagic:tool_auto_torch>,
 	<oeintegration:excavatemodifier>,
 	<prospectors:prospector_med>,
-
-	//Actually Additions
-	<actuallyadditions:item_food:8>,
-	<actuallyadditions:item_food:12>,
-	<actuallyadditions:item_food:14>,
 
 	//Extended Crafting
 	<extendedcrafting:material:7>,
@@ -124,12 +113,6 @@ var removeItems as IItemStack[] = [
 	<storagedrawers:controllerslave>,
 	<storagedrawers:upgrade_storage:2>,
 
-	//Tinkers
-	<tconstruct:edible:1>,
-	<tconstruct:edible:2>,
-	<tconstruct:edible:4>,
-	<tconstruct:wood_rail>,
-
 	//ViesCraft
 	<vc:item_logic_chip>,
 	<vc:modules/item_module_type:2>,
@@ -171,8 +154,6 @@ var removeItems as IItemStack[] = [
 	//Blood Magic
 	<bloodmagic:ritual_diviner:1>,
 	<bloodmagic:ritual_diviner>,
-
-	<betterwithmods:material:8>
 ];
 
 for item in removeItems {

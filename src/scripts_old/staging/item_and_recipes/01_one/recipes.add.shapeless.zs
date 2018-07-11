@@ -22,15 +22,6 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	<tconstruct:stone_torch> * 2 : [
-		[<minecraft:coal:*>, cordage, <tconstruct:stone_stick>]
-	],
-
-	//Astral Sorcery Start
-	<betterwithaddons:japanmat:8> : [
-		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>]
-	],
-
 	//Chisel & Bits
 	<chiselsandbits:negativeprint> : [
 		[<chiselsandbits:negativeprint>]
@@ -47,17 +38,11 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<guideapi:cyclicmagic-guide> : [
 		[<primal:plant_cloth>, <cyclicmagic:apple>]
 	],
-	<tconstruct:book> : [
-		[<primal:plant_cloth>, <ore:dyeBrown>]
-	],
+
 
 	<geolosys:field_manual> : [
 		[<minecraft:stone_pickaxe>, <primal:plant_cloth>]
 	],
-
-	<betterwithmods:rope> * 9: [
-		[<betterwithmods:aesthetic:4>]
-	]
 };
 
 for item, recipesForItem in shapelessRecipes {

@@ -22,45 +22,9 @@ Put the normal recipe you make inside of the main array from the item (<betterwi
 ]
 */
 var shapelessRecipes as IIngredient[][][IItemStack] = {
-	<actuallyadditions:item_booklet> : [
-		[<actuallyadditions:item_coffee_seed>, <primal:plant_cloth>]
-	],
-	<actuallyadditions:item_coffee_seed> : [
-		[<actuallyadditions:item_coffee_beans>]
-	],
 	<progressiontweaks:spear> : [
 		[<progressiontweaks:broken_spear_shaft>, stick],
 		[<progressiontweaks:broken_spear_tip>, <primal:flint_knapp>]
-	],
-
-	<primal:bark_acacia> : [
-		[<minecraft:log2>.transformReplace(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_bigoak> : [
-		[<minecraft:log2:1>.transformReplace(<primal:logs_stripped:5>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_birch> : [
-		[<minecraft:log:2>.transformReplace(<primal:logs_stripped:2>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_jungle> : [
-		[<minecraft:log:3>.transformReplace(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_oak> : [
-		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_spruce> : [
-		[<minecraft:log:1>.transformReplace(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
-	],
-	<primal:bark_yew> : [
-		[<primal:logs:1>.transformReplace(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
-	],
-
-	//Now you can make fleece in stage 0
-	<betterwithaddons:wool> : [
-		[str, str, str, str]
-	],
-	<betterwithmods:manual> : [
-		[<primal:plant_cloth>, <betterwithmods:material>]
 	],
 
 	//Coal/Charcoal Piece Fix

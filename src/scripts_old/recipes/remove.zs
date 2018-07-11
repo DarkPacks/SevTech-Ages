@@ -20,10 +20,6 @@ for item in removeItems {
 }
 
 var removeRecipes as string[] = [
-	"betterwithaddons:glass_bottle",
-	"betterwithmods:higheff/item_frame",
-	"betterwithmods:decompress/melon_decompress",
-	"natura:common/glass_bottle",
 	"pneumaticcraft:color_drone",
 	"pneumaticcraft:logistic_to_drone",
 	"rustic:bottle_emptying"

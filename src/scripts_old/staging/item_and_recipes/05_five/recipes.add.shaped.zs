@@ -32,22 +32,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[null, <minecraft:diamond>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:diamond>], [<minecraft:blaze_rod>, null, null]]
 	],
 
-	// Primal Core
-	<primal:diamond_workblade>: [
-		[
-			[<minecraft:diamond>, <minecraft:stick>, <minecraft:diamond>],
-			[<minecraft:diamond>, <minecraft:stick>, <minecraft:diamond>],
-			[null, <minecraft:stick>, null]
-		]
-	],
-	<primal:emerald_workblade>: [
-		[
-			[<minecraft:emerald>, <minecraft:stick>, <minecraft:emerald>],
-			[<minecraft:emerald>, <minecraft:stick>, <minecraft:emerald>],
-			[null, <minecraft:stick>, null]
-		]
-	],
-
 	//Improved Backpacks
 	<improvedbackpacks:upgrade:4> : [
 		[
@@ -101,22 +85,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <immersiveengineering:wirecoil:4>, metals.galgadorian.rod],
 			[<immersiveengineering:wirecoil:5>, metals.galgadorian.rod, <immersiveengineering:wirecoil:5>],
 			[metals.galgadorian.rod, <immersiveengineering:wirecoil:4>, null]
-		]
-	],
-
-	//Cyclic
-	<cyclicmagic:harvester_block>: [
-		[
-			[<minecraft:emerald>, <mekanism:compressedobsidian>, <minecraft:emerald>],
-			[metals.compressedIron.plate, <minecraft:diamond>, metals.compressedIron.plate],
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
-		]
-	],
-	<cyclicmagic:block_forester>: [
-		[
-			[<mekanism:compressedobsidian>, <minecraft:daylight_detector>, <mekanism:compressedobsidian>],
-			[metals.compressedIron.plate, <cyclicmagic:placer_block>, metals.compressedIron.plate],
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
 		]
 	],
 
@@ -713,32 +681,6 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-
-////
-//
-// TO DO
-//
-////
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:horse_upgrade_type>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_swap_match>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:book_ender>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:beacon_potion>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:password_remote>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:water_spreader>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_slowness>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_weakness>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_warp_home>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:inventory_food>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:heart_food>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:apple_emerald>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:builder_pattern>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:charm_boat>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_warp_spawn>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:magic_net>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:ender_wool>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:tool_elevate>);
-mods.recipestages.Recipes.setRecipeStage("five", <cyclicmagic:sword_ender>);
 
 
 //NEEDS RECIPES

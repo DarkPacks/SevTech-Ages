@@ -15,13 +15,6 @@ var removeItems as IItemStack[] = [
 	<ironjetpacks:basic_coil>,
 	<ironjetpacks:electrum_capacitor>,
 
-	//Cyclic
-	<cyclicmagic:block_forester>,
-	<cyclicmagic:harvester_block>,
-
-	//Actually Additions
-	<actuallyadditions:block_atomic_reconstructor>,
-
 	//RFTools
 	<rftools:machine_frame>,
 	<rftools:matter_receiver>,
@@ -96,15 +89,4 @@ var removeItems as IItemStack[] = [
 
 for item in removeItems {
 	recipes.remove(item);
-}
-
-var removeRecipeNames as string[] = [
-	"primal:diamond_boots",
-	"primal:diamond_chestplate",
-	"primal:diamond_helmet",
-	"primal:diamond_leggings"
-];
-
-for recipeName in removeRecipeNames {
-	recipes.removeByRecipeName(recipeName);
 }

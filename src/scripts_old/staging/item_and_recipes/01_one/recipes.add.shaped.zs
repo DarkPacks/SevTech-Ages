@@ -34,13 +34,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<bibliocraft:plumbline> : [
 		[[<betterwithaddons:bolt:6>, null, null], [null, <betterwithaddons:bolt:6>, null], [null, null, <ore:rock>]]
 	],
-	<cyclicmagic:ender_torch> * 8 : [
-		[
-			[<ore:knightTorch>, <ore:knightTorch>, <ore:knightTorch>],
-			[<ore:knightTorch>, <betterwithmods:material:12>, <ore:knightTorch>],
-			[<ore:knightTorch>, <ore:knightTorch>, <ore:knightTorch>]
-		]
-	],
 	<dungpipe:dung_pipe> : [
 		[[null, <ore:slabWood>, plank], [<ore:slabWood>, null, <ore:slabWood>], [null, <ore:slabWood>, null]]
 	],
@@ -76,87 +69,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[null, metals.copper.plate, null], [metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate], [null, metals.copper.plate, null]]
 	],
 
-	//Better With Mods
-	<betterwithaddons:aqueduct:10> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]]
-	],
-	<betterwithaddons:aqueduct:1> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]
-	],
-	<betterwithaddons:aqueduct:2> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:quartz_block:*>, <minecraft:quartz_block:*>, <minecraft:quartz_block:*>]]
-	],
-	<betterwithaddons:aqueduct:3> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>]]
-	],
-	<betterwithaddons:aqueduct:4> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:sandstone:*>, <minecraft:sandstone:*>, <minecraft:sandstone:*>]]
-	],
-	<betterwithaddons:aqueduct:5> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>]]
-	],
-	<betterwithaddons:aqueduct:6> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [stone, stone, stone]]
-	],
-	<betterwithaddons:aqueduct:7> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>]]
-	],
-	<betterwithaddons:aqueduct:8> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]]
-	],
-	<betterwithaddons:aqueduct:9> * 3 : [
-		[[null, null, null], [<minecraft:clay>, <minecraft:clay>, <minecraft:clay>], [<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]]
-	],
-	<betterwithmods:axle_generator:1> : [
-		[
-			[<betterwithmods:material:10>, <betterwithmods:material:10>, <betterwithmods:material:10>],
-			[<betterwithmods:material:10>, metals.copper.gear, <betterwithmods:material:10>],
-			[<betterwithmods:material:10>, <betterwithmods:material:10>, <betterwithmods:material:10>]
-		]
-	],
-	<betterwithmods:material:10> : [
-		[[<ore:slabWood>, null, null], [<ore:slabWood>, <ore:slimeball>, <ore:slabWood>], [<ore:slabWood>, null, null]]
-	],
-	<betterwithmods:material:24> : [
-		[[metals.bronze.rod, metals.bronze.rod, null], [null, metals.bronze.rod, metals.bronze.rod], [metals.bronze.rod, metals.bronze.rod, null]],
-		[[metals.copper.rod, metals.copper.rod, null], [null, metals.copper.rod, metals.copper.rod], [metals.copper.rod, metals.copper.rod, null]],
-		[[metals.tin.rod, metals.tin.rod, null], [null, metals.tin.rod, metals.tin.rod], [metals.tin.rod, metals.tin.rod, null]]
-	],
-	<betterwithmods:rope> : [
-		[
-			[<betterwithmods:material:3>, <betterwithmods:material:3>],
-			[<betterwithmods:material:3>, <betterwithmods:material:3>],
-			[<betterwithmods:material:3>, <betterwithmods:material:3>]
-		]
-	],
-	<betterwithmods:saw> : [
-		[[null, <primal_tech:flint_edged_disc>, null], [metals.copper.gear, <betterwithmods:material:9>, metals.copper.gear], [plank, metals.bronze.gear, plank]]
-	],
-	<betterwithmods:single_machine:3> : [
-		[[sidingWood, sidingWood, sidingWood], [stone, metals.copper.gear, stone], [stone, <betterwithmods:wooden_axle>, stone]]
-	],
-	<betterwithmods:wooden_axle> : [
-		[[null, stick, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, stick, null]]
-	],
-	<betterwithmods:wooden_gearbox> : [
-		[
-			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>],
-			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
-			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]
-		],
-		[
-			[null, <betterwithmods:material>, null],
-			[null, <betterwithmods:wooden_broken_gearbox>, null],
-			[null, <betterwithmods:material>, null]
-		]
-	],
-	<betterwithaddons:spindle> : [
-		[
-			[null, stick, null],
-			[null, stick, null],
-			[null, stick, null]
-		]
-	],
 
 	//Antique Atlas
 	<antiqueatlas:empty_antique_atlas> : [
@@ -189,108 +101,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
 			[metals.copper.plate, log, metals.copper.plate],
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate]
-		]
-	],
-
-	//Tinkers'
-	<tcomplement:porcelain_melter:8> : [
-		[
-			[null, <ceramics:unfired_clay:5>, null],
-			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
-			[<ceramics:unfired_clay:5>, <minecraft:furnace>, <ceramics:unfired_clay:5>]
-		]
-	],
-	<tcomplement:porcelain_melter> : [
-		[
-			[null, <ceramics:unfired_clay:5>, null],
-			[<ceramics:unfired_clay:5>, <minecraft:furnace>, <ceramics:unfired_clay:5>],
-			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
-		]
-	],
-	<tcomplement:melter:8> : [
-		[
-			[null, <tconstruct:materials:0>, null],
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>]
-		]
-	],
-	<tcomplement:melter> : [
-		[
-			[null, <tconstruct:materials:0>, null],
-			[<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
-		]
-	],
-
-	//Primal
-	<primal:storage_crate:1> : [
-		[
-			[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
-			[<minecraft:planks:1>, <minecraft:chest>, <minecraft:planks:1>],
-			[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]
-		]
-	],
-	<primal:storage_crate:2> : [
-		[
-			[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
-			[<minecraft:planks:2>, <minecraft:chest>, <minecraft:planks:2>],
-			[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]
-		]
-	],
-	<primal:storage_crate:3> : [
-		[
-			[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
-			[<minecraft:planks:3>, <minecraft:chest>, <minecraft:planks:3>],
-			[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]
-		]
-	],
-	<primal:storage_crate:4> : [
-		[
-			[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
-			[<minecraft:planks:4>, <minecraft:chest>, <minecraft:planks:4>],
-			[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]
-		]
-	],
-	<primal:storage_crate:5> : [
-		[
-			[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
-			[<minecraft:planks:5>, <minecraft:chest>, <minecraft:planks:5>],
-			[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]
-		]
-	],
-	<primal:storage_crate:6> : [
-		[
-			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>],
-			[<rustic:planks:1>, <minecraft:chest>, <rustic:planks:1>],
-			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]
-		]
-	],
-	<primal:storage_crate:7> : [
-		[
-			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>],
-			[<primal:planks:1>, <minecraft:chest>, <primal:planks:1>],
-			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>]
-		]
-	],
-	<primal:storage_crate:8> : [
-		[
-			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>],
-			[<primal:planks:2>, <minecraft:chest>, <primal:planks:2>],
-			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>]
-		]
-	],
-	<primal:storage_crate:9> : [
-		[
-			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>],
-			[<primal:planks:3>, <minecraft:chest>, <primal:planks:3>],
-			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>]
-		]
-	],
-	<primal:storage_crate> : [
-		[
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
-			[<minecraft:planks>, <minecraft:chest>, <minecraft:planks>],
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
 		]
 	],
 
@@ -347,39 +157,10 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<primal:plant_cloth>, null]
 		]
 	],
-
-	//Upgraded Recipes from previous stages
-	/* TODO: Can this be deleted?
-	<primal:hide_salted> : [
-		[
-			[<primal:hide_raw>, <ore:foodSalt>, <primal:hide_raw>],
-			[<primal:hide_raw>, <ceramics:clay_bucket>.withTag({fluids: {FluidName: "water", Amount: 1000}}), <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>]
-		]
-	],
-	<primal:hide_tanned> : [
-		[
-			[<primal:hide_dried>, <primal:tannin_ground>, <primal:hide_dried>],
-			[<primal:hide_dried>, <minecraft:water_bucket>, <primal:hide_dried>],
-			[<primal:hide_dried>, <primal:hide_dried>, <primal:hide_dried>]
-		]
-	],
-	*/
 	<primal_tech:charcoal_hopper> : [
 		[[null, null, null],
 		[null, <tconstruct:firewood>, null],
 		[null, <primal_tech:wooden_hopper>, null]]
-	],
-
-	//BWM changes
-	<betterwithmods:bellows> : [
-		[[sidingWood, sidingWood, sidingWood], [<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>], [<ore:hideBelt>, <ore:gearWood>, <ore:hideBelt>]]
-	],
-	<betterwithmods:breeding_harness> : [
-		[[<ore:cordageLeather>, leather, <ore:cordageLeather>], [leather, leather, leather], [<ore:cordageLeather>, leather, <ore:cordageLeather>]]
-	],
-	<betterwithmods:material> : [
-		[[stick, plank, stick], [plank, <betterwithmods:material:12>, plank], [stick, plank, stick]]
 	],
 
 	//Primal_tech stuff

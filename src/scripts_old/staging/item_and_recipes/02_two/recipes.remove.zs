@@ -3,14 +3,10 @@
 import crafttweaker.item.IItemStack;
 
 var removeItems as IItemStack[] = [
-	<actuallyadditions:block_smiley_cloud>,
 	<appliedenergistics2:crank>,
 	<appliedenergistics2:grindstone>,
 	<astralsorcery:itemwand>,
 	<betterbuilderswands:wandiron>,
-	<betterwithaddons:redstone_emitter>,
-	<betterwithmods:aesthetic:12>,
-	<betterwithmods:material:36>,
 	<ferdinandsflowers:block_dye_glass:*>,
 	<ironbackpacks:backpack>,
 	<pickletweaks:watering_can>,
@@ -22,14 +18,6 @@ var removeItems as IItemStack[] = [
 	<twilightforest:magic_map_focus>,
 	<uppers:upper>,
 	<weirdinggadget:weirding_gadget>,
-
-	//Tinkers
-	<tconstruct:materials:16>,
-	<tconstruct:pattern>,
-	<tconstruct:piggybackpack>,
-	<tconstruct:seared_furnace_controller>,
-	<tconstruct:smeltery_controller>,
-	<tconstruct:tinker_tank_controller>,
 
 	//Info Accessories
 	<infoaccessories:info_accessory:1>,

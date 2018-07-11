@@ -61,14 +61,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	<immersiveengineering:tool:1> : [
 		[[<ore:stickTreatedWood>, <tconstruct:knife_blade>.withTag({Material: "iron"})], [null, <ore:stickTreatedWood>]]
 	],
-
-	<betterwithmods:rope> : [
-		[
-			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
-			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
-			[<immersiveengineering:material:4>, <immersiveengineering:material:4>]
-		]
-	],
 	<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}) : [
 		[
 			[null, <immersiveengineering:material:18>, null],
@@ -90,9 +82,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, null, null]
 		]
 	],
-	<tconstruct:wood_rail> * 8 : [
-		[[<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>], [<ore:thinWood>, plank, <ore:thinWood>]]
-	],
+
 
 	//Storage Drawers
 	<storagedrawers:compdrawers> : [
@@ -121,188 +111,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
 			[metals.gold.ingot, <storagedrawers:upgrade_template>, metals.gold.ingot],
 			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
-		]
-	],
-
-	//Actually Additions
-	//This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made)
-	//I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me
-	//and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry
-	<actuallyadditions:item_food:14> : [
-		[[<actuallyadditions:item_food>, <betterwithaddons:food_meatballs>, <actuallyadditions:item_food>],
-		[<actuallyadditions:item_food:20>, <rustic:tomato>, <rustic:chili_pepper>],
-		[<horsepower:dough>, <horsepower:dough>, <horsepower:dough>]]
-	],
-	//Ant Anne's Best Chocolate cookies!
-	<actuallyadditions:item_food:12> * 3 : [
-		[[null, <minecraft:dye:3>, null],
-		[null, <horsepower:dough>, null]]
-	],
-	//I didn't have red ants to put on top since the item has little red dots on.
-	<actuallyadditions:item_food:8> : [
-		[
-			[
-				scripts.crafting_utils.getBucketIngredientFromName("milk"),
-				scripts.crafting_utils.getBucketIngredientFromName("milk"),
-				scripts.crafting_utils.getBucketIngredientFromName("milk")
-			],
-			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
-			[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]
-		]
-	],
-
-	//Natura
-	<natura:netherrack_furnace> : [
-		[
-			[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
-			[<minecraft:nether_brick>, <minecraft:furnace>, <minecraft:nether_brick>],
-			[<minecraft:nether_brick>, <minecraft:blaze_powder>, <minecraft:nether_brick>]
-		]
-	],
-	<natura:nether_bookshelves> : [
-		[
-			[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>],
-			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
-			[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]
-		]
-	],
-	<natura:nether_bookshelves:1> : [
-		[
-			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>],
-			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
-			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
-		]
-	],
-	<natura:nether_bookshelves:2> : [
-		[
-			[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>],
-			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
-			[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>]
-		]
-	],
-	<natura:nether_bookshelves:3> : [
-		[
-			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>],
-			[<minecraft:book>, <minecraft:book>, <minecraft:book>],
-			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
-		]
-	],
-	<natura:ghostwood_fence_gate> : [
-		[
-			[null, null, null],
-			[stick, <natura:nether_planks>, stick],
-			[stick, <natura:nether_planks>, stick]
-		]
-	],
-	<natura:bloodwood_fence_gate> : [
-		[
-			[null, null, null],
-			[stick, <natura:nether_planks:1>, stick],
-			[stick, <natura:nether_planks:1>, stick]
-		]
-	],
-	<natura:darkwood_fence_gate> : [
-		[
-			[null, null, null],
-			[stick, <natura:nether_planks:2>, stick],
-			[stick, <natura:nether_planks:2>, stick]
-		]
-	],
-	<natura:fusewood_fence_gate> : [
-		[
-			[null, null, null],
-			[stick, <natura:nether_planks:3>, stick],
-			[stick, <natura:nether_planks:3>, stick]
-		]
-	],
-	<natura:ghostwood_fence> * 3 : [
-		[
-			[null, null, null],
-			[<natura:nether_planks>, stick, <natura:nether_planks>],
-			[<natura:nether_planks>, stick, <natura:nether_planks>]
-		]
-	],
-	<natura:bloodwood_fence> * 3 : [
-		[
-			[null, null, null],
-			[<natura:nether_planks:1>, stick, <natura:nether_planks:1>],
-			[<natura:nether_planks:1>, stick, <natura:nether_planks:1>]
-		]
-	],
-	<natura:darkwood_fence> * 3 : [
-		[
-			[null, null, null],
-			[<natura:nether_planks:2>, stick, <natura:nether_planks:2>],
-			[<natura:nether_planks:2>, stick, <natura:nether_planks:2>]
-		]
-	],
-	<natura:fusewood_fence> * 3 : [
-		[
-			[null, null, null],
-			[<natura:nether_planks:3>, stick, <natura:nether_planks:3>],
-			[<natura:nether_planks:3>, stick, <natura:nether_planks:3>]
-		]
-	],
-	<natura:nether_doors> * 3 : [
-		[
-			[<natura:nether_planks>, <natura:nether_planks>],
-			[<natura:nether_planks>, <natura:nether_planks>],
-			[<natura:nether_planks>, <natura:nether_planks>]
-		]
-	],
-	<natura:nether_doors:1> * 3 : [
-		[
-			[<natura:nether_planks:1>, <natura:nether_planks:1>],
-			[<natura:nether_planks:1>, <natura:nether_planks:1>],
-			[<natura:nether_planks:1>, <natura:nether_planks:1>]
-		]
-	],
-
-	//Tinkers' Construct
-	 <tconstruct:smeltery_controller> : [
-		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
-		]
-	],
-	 <tconstruct:seared_furnace_controller> : [
-		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
-		]
-	],
-	 <tconstruct:tinker_tank_controller> : [
-		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
-		]
-	],
-	 <tconstruct:materials:16> : [
-		[
-			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials:15>],
-			[null, <tconstruct:materials:15>, null]
-		],
-		[
-			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials:15>],
-			[null, <tconstruct:materials:15>, null]
-		],
-		[
-			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:green_middle_gem>, <tconstruct:materials:15>],
-			[null, <tconstruct:materials:15>, null]
-		]
-	],
-
-	<tconstruct:edible:4> * 4 : [
-		[
-			[null, <minecraft:magma_cream>, null],
-			[<minecraft:magma_cream>, scripts.crafting_utils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream>],
-			[null, <minecraft:magma_cream>, null]
 		]
 	],
 
@@ -1227,65 +1035,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
 		]
 	],
-
-	//Cyclic
-	<cyclicmagic:placer_block> : [
-		[
-			[stone, <minecraft:dispenser>, stone],
-			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate],
-			[stone, metals.platinum.plate, stone]
-		]
-	],
-	<cyclicmagic:clock> : [
-		[
-			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate],
-			[metals.redstoneAlloy.plate, <minecraft:quartz_block>, metals.redstoneAlloy.plate],
-			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate]
-		]
-	],
-	<cyclicmagic:sprinkler> : [
-		[
-			[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"}), <darkutils:grate>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})],
-			[metals.aluminum.plate, <immersiveengineering:metal_device1:6>,metals.aluminum.plate],
-			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
-		]
-	],
-	<cyclicmagic:charm_fire>: [
-		[
-			[<minecraft:nether_wart>, null, <minecraft:blaze_rod>],
-			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
-		]
-	],
-	<cyclicmagic:charm_wing>: [
-		[
-			[<minecraft:nether_wart>, null, <minecraft:rabbit_foot>],
-			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
-		]
-	],
-	<cyclicmagic:tool_auto_torch>: [
-		[
-			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>],
-			[null, <stevescarts:cartmodule:44>, null],
-			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>]
-		]
-	],
-	<cyclicmagic:charm_antidote>: [
-		[
-			[<minecraft:nether_wart>, null, <minecraft:fermented_spider_eye>],
-			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
-		]
-	],
-	<cyclicmagic:charm_water>: [
-		[
-			[<minecraft:nether_wart>, null, <minecraft:fish:1>],
-			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
-		]
-	],
-
 	//Blood Magic
 	<bloodmagic:ritual_diviner> : [
 		[
@@ -1318,15 +1067,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 
-	//Leather Strap Fix
-	<betterwithmods:material:8>  : [
-		[
-			[null, null, <primal:leather_strip>],
-			[null, <primal:leather_strip>, null],
-			[<primal:leather_strip>, null, null]
-		]
-	],
-
 	//Light Blue Industrial Foregoing Conveyor
 	<industrialforegoing:conveyor:3> : [
 		[
@@ -1351,24 +1091,3 @@ for item, recipesForItem in shapedRecipes {
 		mods.recipestages.Recipes.addShaped(STAGE, item, recipe);
 	}
 }
-
-mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_ghostwood> * 4, [
-	[null, null, <natura:nether_planks>],
-	[null, <natura:nether_planks>, <natura:nether_planks>],
-	[<natura:nether_planks>, <natura:nether_planks>, <natura:nether_planks>]
-]);
-mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_bloodwood> * 4, [
-	[null, null, <natura:nether_planks:1>],
-	[null, <natura:nether_planks:1>, <natura:nether_planks:1>],
-	[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
-]);
-mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_darkwood> * 4, [
-	[null, null, <natura:nether_planks:2>],
-	[null, <natura:nether_planks:2>, <natura:nether_planks:2>],
-	[<natura:nether_planks:2>, <natura:nether_planks:2>, <natura:nether_planks:2>]
-]);
-mods.recipestages.Recipes.addShapedMirrored(STAGE, <natura:nether_stairs_fusewood> * 4, [
-	[null, null, <natura:nether_planks:3>],
-	[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
-	[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
-]);

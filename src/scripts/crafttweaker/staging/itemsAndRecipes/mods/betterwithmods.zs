@@ -2,6 +2,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.utils;
+
 import scripts.crafttweaker.stages.stageTutorial;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
@@ -75,10 +77,10 @@ static stagedItems as IIngredient[][string] = {
 		mouldingHardenedclay,
 		mouldingSandstone,
 		mouldingWood,
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:6>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:brick_block>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:hardened_clay>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stone>),
+		utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:6>),
+		utils.createAllMiniBlockIngredient(<minecraft:brick_block>),
+		utils.createAllMiniBlockIngredient(<minecraft:hardened_clay>),
+		utils.createAllMiniBlockIngredient(<minecraft:stone>),
 		sidingHardenedclay,
 		sidingSandstone,
 		sidingWood,
@@ -199,10 +201,10 @@ static stagedItems as IIngredient[][string] = {
 
 	stageTwo.stage: [
 		// Custom MiniBlocks
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:1>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:2>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick:3>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:stonebrick>),
+		utils.createAllMiniBlockIngredient(<minecraft:stonebrick:1>),
+		utils.createAllMiniBlockIngredient(<minecraft:stonebrick:2>),
+		utils.createAllMiniBlockIngredient(<minecraft:stonebrick:3>),
+		utils.createAllMiniBlockIngredient(<minecraft:stonebrick>),
 
 		// Gold Stuff
 		<betterwithmods:aesthetic:8>,
@@ -291,13 +293,13 @@ static stagedItems as IIngredient[][string] = {
 
 	stageThree.stage: [
 		// Custom MiniBlocks
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:2>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<betterwithmods:aesthetic:3>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:nether_brick>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:obsidian>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:quartz_block:1>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:quartz_block:2>),
-		// scripts.mod_integrations.better_with_mods.createAllMiniBlockIngredient(<minecraft:quartz_block>),
+		utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:2>),
+		utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:3>),
+		utils.createAllMiniBlockIngredient(<minecraft:nether_brick>),
+		utils.createAllMiniBlockIngredient(<minecraft:obsidian>),
+		utils.createAllMiniBlockIngredient(<minecraft:quartz_block:1>),
+		utils.createAllMiniBlockIngredient(<minecraft:quartz_block:2>),
+		utils.createAllMiniBlockIngredient(<minecraft:quartz_block>),
 
 		// Nether
 		<betterwithmods:aesthetic:2>,

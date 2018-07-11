@@ -14,6 +14,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.Stage;
 
 import scripts.crafttweaker.stages.stageTutorial;
@@ -148,4 +149,27 @@ function getHighestStage(firstStage as Stage, secondStage as Stage) as Stage {
 */
 function createRecipeName(string1 as string, string2 as string) as string {
 	return string1 + "_" + string2;
+}
+
+function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
+	var allMiniBlocks as IIngredient = null;
+	var miniBlockTypes as string[] = [
+		"corner",
+		"moulding",
+		"siding"
+	];
+
+	for miniBlockType in miniBlockTypes {
+		var miniBlock as IIngredient = MiniBlocks.getMiniBlock(miniBlockType, item);
+
+		if (!isNull(miniBlock)) {
+			if (isNull(allMiniBlocks)) {
+				allMiniBlocks = miniBlock;
+			} else {
+				allMiniBlocks |= miniBlock;
+			}
+		}
+	}
+
+	return allMiniBlocks;
 }

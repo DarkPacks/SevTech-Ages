@@ -235,9 +235,9 @@ function init() {
 				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 					var subItemMaterial as string = subItem.tag.Material.asString();
 					var materialStage as Stage = ZenStager.getTiCMaterialStage(subItemMaterial);
-					var stage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
+					var materialPartStage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
 
-					partStage.addIngredient(subItem);
+					materialPartStage.addIngredient(subItem);
 				}
 			}
 		}

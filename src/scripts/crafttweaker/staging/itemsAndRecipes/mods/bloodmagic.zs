@@ -6,6 +6,8 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
@@ -127,7 +129,11 @@ static stagedItems as IIngredient[][string] = {
 		<bloodmagic:demon_brick_1:*>,
 		<bloodmagic:demon_brick_2:*>,
 		<bloodmagic:demon_crucible>,
-		<bloodmagic:demon_crystal:*>,
+		<bloodmagic:demon_crystal:4>,
+		<bloodmagic:demon_crystal:3>,
+		<bloodmagic:demon_crystal:2>,
+		<bloodmagic:demon_crystal:1>,
+		<bloodmagic:demon_crystal>,
 		<bloodmagic:demon_crystallizer>,
 		<bloodmagic:demon_extras:*>,
 		<bloodmagic:demon_light:*>,
@@ -297,11 +303,27 @@ static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
 		<bloodmagic:component:2>,
 		<bloodmagic:sigil_air>
+	],
+
+	stageCreativeUnused.stage: [
+		<bloodmagic:activation_crystal:2>,
+		<bloodmagic:altar_maker>,
+		<bloodmagic:sacrificial_dagger:1>
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<bloodmagic:blood_rune:2>, // TODO: Remove this one the mod its self adds functionality to the block / adds a recipe.
+	<bloodmagic:component:14>,
+	<bloodmagic:sigil_compression>
+];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

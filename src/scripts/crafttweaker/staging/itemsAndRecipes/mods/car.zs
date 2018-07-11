@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
@@ -133,8 +134,17 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<car:canola_seeds>,
+	<car:canola>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.car.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.car.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

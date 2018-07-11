@@ -8,6 +8,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
@@ -170,8 +171,28 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<cyclicmagic:block_fishing>,
+	<cyclicmagic:block_miner>,
+	<cyclicmagic:block_miner_smart>,
+	<cyclicmagic:block_workbench>,
+	<cyclicmagic:charm_air>,
+	<cyclicmagic:glowing_chorus>,
+	<cyclicmagic:mattock>,
+	<cyclicmagic:robot_spawner>,
+	<cyclicmagic:sack_ender>,
+	<cyclicmagic:storage_bag>,
+	<cyclicmagic:tool_prospector>,
+	<cyclicmagic:tool_randomize>,
+	<cyclicmagic:uncrafting_block>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.cyclicmagic.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.cyclicmagic.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

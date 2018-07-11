@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -359,8 +360,52 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<betterwithaddons:bag:10>,
+	<betterwithaddons:bolt:3>,
+	<betterwithaddons:bolt:4>,
+	<betterwithaddons:bolt:5>,
+	<betterwithaddons:boots_samurai>,
+	<betterwithaddons:chest_samurai>,
+	<betterwithaddons:crop_rush>,
+	<betterwithaddons:decomat:3>,
+	<betterwithaddons:extra_grass:1>,
+	<betterwithaddons:extra_grass:2>,
+	<betterwithaddons:extra_grass:3>,
+	<betterwithaddons:extra_grass>,
+	<betterwithaddons:food_clownfish_cooked>,
+	<betterwithaddons:food_pufferfish_baked>,
+	<betterwithaddons:helmet_samurai>,
+	<betterwithaddons:ink_and_quill>,
+	<betterwithaddons:japanmat:31>,
+	<betterwithaddons:japanmat:32>,
+	<betterwithaddons:japanmat:33>,
+	<betterwithaddons:japanmat:34>,
+	<betterwithaddons:leafpile_sakura>,
+	<betterwithaddons:legs_samurai>,
+	<betterwithaddons:log_termite>,
+	<betterwithaddons:material:4>,
+	<betterwithaddons:material:5>,
+	<betterwithaddons:material:6>,
+	<betterwithaddons:poisoned_ya>,
+	<betterwithaddons:rail_rusted>,
+	<betterwithaddons:rotten_food>,
+	<betterwithaddons:tatami_full>,
+	<betterwithaddons:wheatmat>,
+	<betterwithaddons:writing_table:1>,
+	<betterwithaddons:writing_table:2>,
+	<betterwithaddons:writing_table:3>,
+	<betterwithaddons:writing_table:4>,
+	<betterwithaddons:writing_table:5>,
+	<betterwithaddons:writing_table>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

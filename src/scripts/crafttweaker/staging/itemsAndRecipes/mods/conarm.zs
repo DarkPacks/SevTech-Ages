@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -59,8 +60,19 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<conarm:travel_belt>,
+	<conarm:travel_belt_base>,
+	<conarm:travel_potion>,
+	<conarm:travel_sack>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.conarm.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.conarm.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

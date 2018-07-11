@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageCreative;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -239,8 +240,18 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<mekanism:oreblock:1>,
+	<mekanism:oreblock:2>,
+	<mekanism:machineblock:4>, //Bye bye miner!
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.mekanism.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.mekanism.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

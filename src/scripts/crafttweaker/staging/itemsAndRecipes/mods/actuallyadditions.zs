@@ -8,6 +8,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -360,8 +361,34 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<actuallyadditions:block_misc:5>,
+	<actuallyadditions:block_treasure_chest>,
+	<actuallyadditions:gold_paxel>,
+	<actuallyadditions:iron_paxel>,
+	<actuallyadditions:item_color_lens>,
+	<actuallyadditions:item_crafter_on_a_stick>,
+	<actuallyadditions:item_dust:1>,
+	<actuallyadditions:item_hairy_ball>,
+	<actuallyadditions:item_jam:*>, // No
+	<actuallyadditions:item_misc:10>,
+	<actuallyadditions:item_misc:11>,
+	<actuallyadditions:item_misc:15>,
+	<actuallyadditions:item_misc:17>,
+	<actuallyadditions:item_misc:4>,
+	<actuallyadditions:item_solidified_experience>,
+	<actuallyadditions:item_water_bowl>,
+	<actuallyadditions:item_wings_of_the_bats>,
+	<actuallyadditions:stone_paxel>,
+	<actuallyadditions:wooden_paxel>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

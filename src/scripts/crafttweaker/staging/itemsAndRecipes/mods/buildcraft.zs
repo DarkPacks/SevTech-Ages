@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -89,8 +90,27 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<buildcraftbuilders:filler_planner>,
+	<buildcraftbuilders:replacer>,
+	<buildcraftcore:decorated:3>,
+	<buildcraftcore:decorated:4>,
+	<buildcraftcore:decorated>,
+	<buildcraftcore:spring:1>,
+	<buildcraftcore:spring>,
+	<buildcraftcore:volume_box>,
+	<buildcraftfactory:distiller>,
+	<buildcraftlib:debugger>,
+	<buildcraftlib:guide_note>,
+	<buildcraftsilicon:redstone_chipset:*>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.buildcraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.buildcraft.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

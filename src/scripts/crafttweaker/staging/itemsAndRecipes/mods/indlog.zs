@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
@@ -32,8 +33,24 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<cd4017be_lib:m>,
+	<indlog:tank:8>,
+	<indlog:tank:9>,
+	<indlog:tank:10>,
+	<indlog:tank:11>,
+	<indlog:tank:12>,
+	<indlog:tank:13>,
+	<indlog:tank:14>,
+	<indlog:tank:15>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.indlog.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.indlog.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

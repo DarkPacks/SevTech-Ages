@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
@@ -42,13 +43,6 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:bookcase:5>,
 		<bibliocraft:bookcase:6>,
 		<bibliocraft:bookcase>,
-		<bibliocraft:bookcasecreative:1>,
-		<bibliocraft:bookcasecreative:2>,
-		<bibliocraft:bookcasecreative:3>,
-		<bibliocraft:bookcasecreative:4>,
-		<bibliocraft:bookcasecreative:5>,
-		<bibliocraft:bookcasecreative:6>,
-		<bibliocraft:bookcasecreative>,
 		<bibliocraft:case:1>,
 		<bibliocraft:case:2>,
 		<bibliocraft:case:3>,
@@ -332,6 +326,16 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:typewriter:8>,
 		<bibliocraft:typewriter:9>,
 		<bibliocraft:typewriter>
+	],
+
+	stageCreativeUnused.stage: [
+		<bibliocraft:bookcasecreative:6>,
+		<bibliocraft:bookcasecreative:5>,
+		<bibliocraft:bookcasecreative:4>,
+		<bibliocraft:bookcasecreative:3>,
+		<bibliocraft:bookcasecreative:2>,
+		<bibliocraft:bookcasecreative:1>,
+		<bibliocraft:bookcasecreative>
 	]
 };
 

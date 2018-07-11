@@ -8,6 +8,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageCreative;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -286,9 +287,32 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<tconstruct:moms_spaghetti>,
+	<tconstruct:slime_grass_tall:1>,
+	<tconstruct:slime_grass_tall:4>,
+	<tconstruct:slime_grass_tall:5>,
+	<tconstruct:slime_grass_tall:8>,
+	<tconstruct:slime_grass_tall:9>,
+	<tconstruct:slime_grass_tall>,
+	<tconstruct:slime_vine_blue>,
+	<tconstruct:slime_vine_blue_end>,
+	<tconstruct:slime_vine_blue_mid>,
+	<tconstruct:slime_vine_purple>,
+	<tconstruct:slime_vine_purple_end>,
+	<tconstruct:slime_vine_purple_mid>,
+	<tconstruct:spaghetti>,
+	<tconstruct:throwball:1>,
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}})
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 
 	// Handle the Tool Tables

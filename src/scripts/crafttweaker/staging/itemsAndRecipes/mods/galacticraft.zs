@@ -6,6 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -365,11 +367,31 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftplanets:walkway>,
 		<galacticraftplanets:web_torch:1>,
 		<galacticraftplanets:web_torch>
+	],
+
+	stageCreativeUnused.stage: [
+		<galacticraftcore:concealed_detector>,
+		<galacticraftcore:dungeonfinder>,
+		<galacticraftcore:infinite_battery>,
+		<galacticraftcore:infinite_oxygen>,
+		<galacticraftcore:rocket_t1:4>,
+		<galacticraftplanets:rocket_t2:14>,
+		<galacticraftplanets:rocket_t2:4>,
+		<galacticraftplanets:rocket_t3:4>
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<galacticraftcore:bucket_fuel>,
+	<galacticraftcore:refinery>
+];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.galacticraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.galacticraft.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

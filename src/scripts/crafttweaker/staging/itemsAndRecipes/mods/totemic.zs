@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 import scripts.crafttweaker.stages.stageBaykok;
 
 static stagedItems as IIngredient[][string] = {
@@ -51,6 +52,10 @@ static stagedItems as IIngredient[][string] = {
 
 	stageBaykok.stage: [
 		<totemic:baykok_bow>
+	],
+
+	stageCreativeUnused.stage: [
+		<totemic:ceremony_cheat>
 	]
 };
 

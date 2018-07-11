@@ -9,6 +9,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
@@ -699,8 +700,44 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<minecraft:barrier>,
+	<minecraft:bedrock>,
+	<minecraft:chain_command_block>,
+	<minecraft:command_block>,
+	<minecraft:command_block_minecart>,
+	<minecraft:dye:10>,
+	<minecraft:dye:11>,
+	<minecraft:dye:12>,
+	<minecraft:dye:13>,
+	<minecraft:dye:14>,
+	<minecraft:dye:1>,
+	<minecraft:dye:5>,
+	<minecraft:dye:6>,
+	<minecraft:dye:7>,
+	<minecraft:dye:8>,
+	<minecraft:dye:9>,
+	<minecraft:monster_egg:1>,
+	<minecraft:monster_egg:2>,
+	<minecraft:monster_egg:3>,
+	<minecraft:monster_egg:4>,
+	<minecraft:monster_egg:5>,
+	<minecraft:repeating_command_block>,
+	<minecraft:structure_block>,
+	<minecraft:structure_void>,
+	<minecraft:wooden_axe>,
+	<minecraft:wooden_hoe>,
+	<minecraft:wooden_pickaxe>,
+	<minecraft:wooden_shovel>,
+	<minecraft:wooden_sword>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.minecraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.minecraft.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

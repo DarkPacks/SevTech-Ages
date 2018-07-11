@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageBaykok;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -206,8 +207,111 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<natura:amaranth_button>,
+	<natura:amaranth_pressure_plate>,
+	<natura:amaranth_trap_door>,
+	<natura:blaze_hopper>,
+	<natura:blaze_rail>,
+	<natura:blaze_rail_activator>,
+	<natura:blaze_rail_detector>,
+	<natura:blaze_rail_golden>,
+	<natura:bloodwood_button>,
+	<natura:bloodwood_pressure_plate>,
+	<natura:bloodwood_trap_door>,
+	<natura:bonemeal_bag>,
+	<natura:darkwood_button>,
+	<natura:darkwood_pressure_plate>,
+	<natura:darkwood_trap_door>,
+	<natura:edibles:10>,
+	<natura:edibles:11>,
+	<natura:edibles:2>,
+	<natura:edibles:3>,
+	<natura:edibles:4>,
+	<natura:edibles:5>,
+	<natura:empty_bowls:1>,
+	<natura:empty_bowls:2>,
+	<natura:empty_bowls:3>,
+	<natura:empty_bowls>,
+	<natura:eucalyptus_button>,
+	<natura:eucalyptus_pressure_plate>,
+	<natura:eucalyptus_trap_door>,
+	<natura:fusewood_button>,
+	<natura:fusewood_pressure_plate>,
+	<natura:fusewood_trap_door>,
+	<natura:ghostwood_button>,
+	<natura:ghostwood_pressure_plate>,
+	<natura:ghostwood_trap_door>,
+	<natura:hopseed_button>,
+	<natura:hopseed_pressure_plate>,
+	<natura:hopseed_trap_door>,
+	<natura:maple_button>,
+	<natura:maple_pressure_plate>,
+	<natura:maple_trap_door>,
+	<natura:materials:2>, // every mod has its own flour and it's totally awesome -_-
+	<natura:materials:8>,
+	<natura:nether_button>,
+	<natura:nether_lever>,
+	<natura:nether_pressure_plate>,
+	<natura:nether_workbenches:1>,
+	<natura:nether_workbenches:2>,
+	<natura:nether_workbenches:3>,
+	<natura:nether_workbenches>,
+	<natura:overworld_berrybush_blackberry>,
+	<natura:overworld_berrybush_blueberry>,
+	<natura:overworld_berrybush_maloberry>,
+	<natura:overworld_berrybush_raspberry>,
+	<natura:overworld_seed_bags:1>,
+	<natura:overworld_seed_bags>,
+	<natura:overworld_workbenches:1>,
+	<natura:overworld_workbenches:2>,
+	<natura:overworld_workbenches:3>,
+	<natura:overworld_workbenches:4>,
+	<natura:overworld_workbenches:5>,
+	<natura:overworld_workbenches:6>,
+	<natura:overworld_workbenches:7>,
+	<natura:overworld_workbenches:8>,
+	<natura:overworld_workbenches>,
+	<natura:redwood_pressure_plate>,
+	<natura:redwood_trap_door>,
+	<natura:respawn_obelisk>,
+	<natura:saguaro>,
+	<natura:saguaro_baby>,
+	<natura:saguaro_fruit>,
+	<natura:sakura_button>,
+	<natura:sakura_pressure_plate>,
+	<natura:sakura_trap_door>,
+	<natura:seed_bags:1>,
+	<natura:seed_bags:2>,
+	<natura:seed_bags:3>,
+	<natura:seed_bags>,
+	<natura:silverbell_button>,
+	<natura:silverbell_pressure_plate>,
+	<natura:silverbell_trap_door>,
+	<natura:soups:1>,
+	<natura:soups:2>,
+	<natura:soups:3>,
+	<natura:soups:4>,
+	<natura:soups:5>,
+	<natura:soups:6>,
+	<natura:soups:7>,
+	<natura:soups:8>,
+	<natura:soups:9>,
+	<natura:soups>,
+	<natura:tiger_button>,
+	<natura:tiger_pressure_plate>,
+	<natura:tiger_trap_door>,
+	<natura:willow_button>,
+	<natura:willow_pressure_plate>,
+	<natura:willow_trap_door>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

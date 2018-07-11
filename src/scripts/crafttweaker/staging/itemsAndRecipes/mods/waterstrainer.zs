@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -32,6 +33,10 @@ static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
 		<waterstrainer:strainer_survivalist_dense_reinforced>,
 		<waterstrainer:strainer_survivalist_reinforced>
+	],
+
+	stageCreativeUnused.stage: [
+		<waterstrainer:super_worm>
 	]
 };
 

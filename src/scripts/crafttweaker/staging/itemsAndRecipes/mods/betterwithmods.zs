@@ -11,6 +11,8 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreativeUnused;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
@@ -387,11 +389,46 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFive.stage: [
 		<betterwithmods:material:45>
+	],
+
+	stageCreativeUnused.stage: [
+		<betterwithmods:creative_generator>
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<betterwithmods:cobblestone:1>,
+	<betterwithmods:cobblestone:2>,
+	<betterwithmods:cobblestone>,
+	<betterwithmods:fertile_farmland>,
+	<betterwithmods:fertilizer>,
+	<betterwithmods:material:30>,
+	<betterwithmods:material:31>,
+	<betterwithmods:material:32>,
+	<betterwithmods:material:33>,
+	<betterwithmods:material:5>,
+	<betterwithmods:material:6>,
+	<betterwithmods:material:7>,
+	<betterwithmods:raw_pastry:3>,
+	<betterwithmods:stump_remover>,
+	<betterwithmods:wood_table:1>,
+	<betterwithmods:wood_table:2>,
+	<betterwithmods:wood_table:3>,
+	<betterwithmods:wood_table:4>,
+	<betterwithmods:wood_table:5>,
+	<betterwithmods:wood_table>,
+	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:10>),
+	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:11>),
+	utils.createAllMiniBlockIngredient(<betterwithmods:nether_clay>),
+	utils.createAllMiniBlockIngredient(<minecraft:clay>)
+];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

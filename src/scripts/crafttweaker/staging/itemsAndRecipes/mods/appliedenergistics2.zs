@@ -5,6 +5,8 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreativeUnused;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -273,11 +275,32 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:part:514>,
 		<appliedenergistics2:part:515>,
 		<appliedenergistics2:part:516>
+	],
+
+	stageCreativeUnused.stage: [
+		<appliedenergistics2:creative_energy_cell>,
+		<appliedenergistics2:creative_storage_cell>.withTag({})
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
+	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}),
+	<appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
+	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 200}),
+	<appliedenergistics2:crystal_seed>.withTag({progress: 400}),
+	<appliedenergistics2:material:21>, //Inscriber Name Press
+	<appliedenergistics2:material:45>, //Skystone Dust
+	<appliedenergistics2:vibration_chamber>
+];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

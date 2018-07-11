@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
@@ -13,6 +14,12 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorageaddons:network_picker>,
 		<refinedstorageaddons:wireless_crafting_grid:1>,
 		<refinedstorageaddons:wireless_crafting_grid>
+	],
+
+	stageCreativeUnused.stage: [
+		<refinedstorageaddons:network_bag:1>,
+		<refinedstorageaddons:network_picker:1>,
+		<refinedstorageaddons:wireless_crafting_grid:1>
 	]
 };
 

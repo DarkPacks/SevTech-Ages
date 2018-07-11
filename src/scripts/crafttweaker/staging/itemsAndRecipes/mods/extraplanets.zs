@@ -5,6 +5,8 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -717,11 +719,32 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:yellow_diamond_shovel>,
 		<extraplanets:yellow_diamond_sword>,
 		<extraplanets:zinc_battery>
+	],
+
+	stageCreativeUnused.stage: [
+		<extraplanets:item_tier10_electric_rocket:4>,
+		<extraplanets:item_tier10_rocket:4>,
+		<extraplanets:item_tier4_rocket:4>,
+		<extraplanets:item_tier5_rocket:4>,
+		<extraplanets:item_tier6_rocket:4>,
+		<extraplanets:item_tier7_rocket:4>,
+		<extraplanets:item_tier8_rocket:4>,
+		<extraplanets:item_tier9_rocket:4>
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<extraplanets:advanced_refinery>,
+	<extraplanets:block_multi>,
+	<extraplanets:ultimate_refinery>
+];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.extraplanets.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.extraplanets.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

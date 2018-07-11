@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -182,8 +183,54 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<ferdinandsflowers:block_dye_brick:1>,
+	<ferdinandsflowers:block_dye_brick:2>,
+	<ferdinandsflowers:block_dye_brick:3>,
+	<ferdinandsflowers:block_dye_brick:4>,
+	<ferdinandsflowers:block_dye_brick:5>,
+	<ferdinandsflowers:block_dye_brick:6>,
+	<ferdinandsflowers:block_dye_brick:7>,
+	<ferdinandsflowers:block_dye_brick:8>,
+	<ferdinandsflowers:block_dye_brick:9>,
+	<ferdinandsflowers:block_dye_brick:10>,
+	<ferdinandsflowers:block_dye_brick:11>,
+	<ferdinandsflowers:block_dye_brick:12>,
+	<ferdinandsflowers:block_dye_brick:13>,
+	<ferdinandsflowers:block_dye_brick:14>,
+	<ferdinandsflowers:block_dye_brick:15>,
+	<ferdinandsflowers:block_dye_brick>,
+	<ferdinandsflowers:block_dye_brick_half:*>,
+	<ferdinandsflowers:block_dye_brick_halfb:*>,
+	<ferdinandsflowers:block_dye_brick_halfc:*>,
+	<ferdinandsflowers:block_dye_brick_halfd:*>,
+	<ferdinandsflowers:block_dye_brickb:1>,
+	<ferdinandsflowers:block_dye_brickb:2>,
+	<ferdinandsflowers:block_dye_brickb:3>,
+	<ferdinandsflowers:block_dye_brickb:4>,
+	<ferdinandsflowers:block_dye_brickb:5>,
+	<ferdinandsflowers:block_dye_brickb:6>,
+	<ferdinandsflowers:block_dye_brickb:7>,
+	<ferdinandsflowers:block_dye_brickb:8>,
+	<ferdinandsflowers:block_dye_brickb:9>,
+	<ferdinandsflowers:block_dye_brickb:10>,
+	<ferdinandsflowers:block_dye_brickb:11>,
+	<ferdinandsflowers:block_dye_brickb:12>,
+	<ferdinandsflowers:block_dye_brickb:13>,
+	<ferdinandsflowers:block_dye_brickb:14>,
+	<ferdinandsflowers:block_dye_brickb:15>,
+	<ferdinandsflowers:block_dye_brickb>,
+	<ferdinandsflowers:flower_dye:*>,
+	<ferdinandsflowers:flower_dyeb:*>,
+	<ferdinandsflowers:item_test>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

@@ -5,6 +5,8 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageCreativeUnused;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -53,11 +55,25 @@ static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
 		<storagedrawers:upgrade_storage:3>,
 		<storagedrawers:upgrade_storage:4>
+	],
+
+	stageCreativeUnused.stage: [
+		<storagedrawers:upgrade_creative:1>,
+		<storagedrawers:upgrade_creative>
 	]
 };
+
+static hiddenItems as IIngredient[] = [
+	<storagedrawers:basicdrawers:*>
+];
+
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.storagedrawers.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.storagedrawers.hiddenItems {
+		mods.jei.JEI.removeAndHide(ingredient);
+		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}
 }

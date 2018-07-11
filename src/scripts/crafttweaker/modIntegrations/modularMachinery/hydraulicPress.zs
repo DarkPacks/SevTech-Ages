@@ -1,13 +1,26 @@
+/*
+	SevTech: Ages Table Hydraulic Press Recipes Script
+
+	This script handles custom integration control to a mod.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.data.IData;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 
-import scripts.mod_integrations.modular_machinery.base.createRecipeName;
+import scripts.crafttweaker.utils;
 
-var hydraulicRecipes as IItemStack[][IItemStack] = {
+// The machine name.
+static machineName as string = "hydraulic_press";
+
+static recipes as IItemStack[][IItemStack] = {
 	<galacticraftcore:basic_item:9> * 2: [ <immersiveengineering:metal:8> * 4 ], // Compressed Steel
 	<galacticraftcore:basic_item:6> * 2: [ metals.copper.ingot.firstItem * 4 ], // Compressed Copper
 	<galacticraftcore:basic_item:7> * 2: [ metals.tin.ingot.firstItem * 4 ], // Compressed Tin
@@ -16,7 +29,7 @@ var hydraulicRecipes as IItemStack[][IItemStack] = {
 	<galacticraftcore:basic_item:11> * 2: [	metals.iron.ingot.firstItem * 4 ], // Compressed Iron
 	<galacticraftcore:item_basic_moon:1> * 2: [	<galacticraftcore:item_basic_moon> * 2 ], // Compressed Meteoric Iron
 	<galacticraftplanets:item_basic_mars:5> * 2: [ <galacticraftplanets:item_basic_mars:2> * 2 ], // Compressed Desh
-	<galacticraftplanets:item_basic_asteroids:6> * 4: [	metals.titanium.ingot.firstItem * 4 ], // Compressed Titanium
+	// <galacticraftplanets:item_basic_asteroids:6> * 4: [	metals.titanium.ingot.firstItem * 4 ], // Compressed Titanium // TODO: RE-ADD WHEN DONE
 	<extraplanets:tier7_items:6> * 2: [ <extraplanets:tier7_items:4> * 4 ], // Compressed Reinfored Crystal
 	<extraplanets:compressed_mercury>: [ <extraplanets:ingot_mercury> * 2 ], // Compressed Mercury
 	<extraplanets:tier4_items:4>: [	<extraplanets:tier4_items:5> * 2 ], // Compressed Carbon
@@ -40,23 +53,21 @@ var hydraulicRecipes as IItemStack[][IItemStack] = {
 	<extraplanets:tier10_items:3>: [ <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4> * 5 ] // Heavy Duty Plate Tier 10
 };
 
-/*
-	Create a recipe primer for the press.
-*/
-function createBuilder(inputs as IItemStack[], output as IItemStack) as RecipePrimer {
-	var builder = RecipeBuilder.newBuilder(createRecipeName("hydraulic_press", output.definition.id ~ "_" ~ output.metadata), "hydraulic_press", 50)
-		.addEnergyPerTickInput(100)
-		.addFluidInput(<liquid:lubricant> * 50)
-		.addItemOutput(output);
+function init() {
+	var machineName as string = scripts.crafttweaker.modIntegrations.modularMachinery.hydraulicPress.machineName;
+	var machineRecipes as IItemStack[][IItemStack] = scripts.crafttweaker.modIntegrations.modularMachinery.hydraulicPress.recipes;
 
-	for input in inputs {
-		builder
-			.addItemInput(input);
+	for output, inputs in machineRecipes {
+		var primer as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, output.definition.id ~ "_" ~ output.metadata), machineName, 50)
+			.addEnergyPerTickInput(100)
+			.addFluidInput(<liquid:lubricant> * 50)
+			.addItemOutput(output);
+
+		for input in inputs {
+			primer
+				.addItemInput(input);
+		}
+
+		primer.build();
 	}
-
-	return builder;
-}
-
-for output, inputs in hydraulicRecipes {
-	createBuilder(inputs, output).build();
 }

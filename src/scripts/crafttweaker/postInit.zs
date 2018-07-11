@@ -42,6 +42,7 @@ function initSpecificStaging() {
 function initItemsAndRecipesStaging() {
 	// ==================================
 	// Staging Items and Recipes
+	scripts.crafttweaker.staging.itemsAndRecipes.misc.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.oredict.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
@@ -118,8 +119,8 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.pneumaticcraft.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.poweradapters.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.primal.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.primalchests.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.primalchests.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.progressiontweaks.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.prospectors.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.quantumstorage.init();
@@ -128,6 +129,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rebornstorage.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorageaddons.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.rftools.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.simplyarrows.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.spartanshields.init();
@@ -155,11 +157,26 @@ function initItemsAndRecipesStaging() {
 }
 
 function initRecipes() {
+	// ==================================
+	// Core Recipe Script
+	scripts.crafttweaker.recipes.remove.init();
+
+	// ==================================
+	// Mod Recipes
 	scripts.crafttweaker.recipes.mods.abyssalcraft.init();
+	scripts.crafttweaker.recipes.mods.actuallyadditions.init();
+	scripts.crafttweaker.recipes.mods.betterwithaddons.init();
+	scripts.crafttweaker.recipes.mods.betterwithmods.init();
+	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
 	scripts.crafttweaker.recipes.mods.extraplanets.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
 	scripts.crafttweaker.recipes.mods.mysticalagriculture.init();
+	scripts.crafttweaker.recipes.mods.natura.init();
+	scripts.crafttweaker.recipes.mods.primal.init();
+	scripts.crafttweaker.recipes.mods.traverse.init();
+	scripts.crafttweaker.recipes.mods.rustic.init();
+	scripts.crafttweaker.recipes.mods.spartanshields.init();
 }
 
 function initIntegration() {
@@ -169,18 +186,22 @@ function initIntegration() {
 	scripts.crafttweaker.modIntegrations.astralsorcery.init();
 	scripts.crafttweaker.modIntegrations.bloodmagic.init.init();
 	scripts.crafttweaker.modIntegrations.chisel.init();
+	scripts.crafttweaker.modIntegrations.extendedCrafting.init.init();
 	scripts.crafttweaker.modIntegrations.galacticcraftAndExtraplanets.init();
 	scripts.crafttweaker.modIntegrations.horsepower.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.init.init();
 	scripts.crafttweaker.modIntegrations.immersive.petroleum.init();
-	scripts.crafttweaker.modIntegrations.tinkers.init.init();
 	scripts.crafttweaker.modIntegrations.loottweaker.init();
 	scripts.crafttweaker.modIntegrations.mekanism.init();
+	scripts.crafttweaker.modIntegrations.modularMachinery.init.init();
 	scripts.crafttweaker.modIntegrations.pneumaticcraft.init();
 	scripts.crafttweaker.modIntegrations.primalCore.init();
 	scripts.crafttweaker.modIntegrations.primalTech.init();
 	scripts.crafttweaker.modIntegrations.refinedStorage.init();
 	scripts.crafttweaker.modIntegrations.rustic.init();
+	scripts.crafttweaker.modIntegrations.tinkers.init.init();
+	scripts.crafttweaker.recipes.mods.tcomplement.init();
+	scripts.crafttweaker.recipes.mods.tconstruct.init();
 }
 
 function initEvents() {

@@ -17,4 +17,5 @@ for usage. Such as OreDict/Classes and global vars for quick access.
 | 2301 - 2400       | Classes               |
 | 2300              | Class Registering     |
 | 0 - 2299          | Normal Scripts        |
+| -50               | Mod Inter Loader      | Init Script      |
 | -100              | Run Script            | **DON'T CHANGE** |

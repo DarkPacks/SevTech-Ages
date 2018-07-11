@@ -1,0 +1,214 @@
+/*
+    SevTech: Ages Better With Addons Recipe Script
+
+    This script handles the recipes for Better With Addons.
+
+    Note: These scripts are created and for the usage in SevTech: Ages and other
+    modpacks curated by DarkPacks. You can use these scripts for reference and for
+    learning but not for copying and pasting and claiming as your own.
+*/
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+import mods.zenstages.Utils;
+
+import scripts.crafttweaker.craftingUtils;
+import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
+
+/*
+    Shaped Recipes
+*/
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<betterwithaddons:bolt:1> : [
+		[
+			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
+			[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
+			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+		]
+	],
+	<betterwithaddons:bolt:3> : [
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, <betterwithaddons:spindle>, <minecraft:leather>],
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
+		]
+	],
+	<betterwithaddons:bolt:6> : [
+		[
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<minecraft:string>, <betterwithaddons:spindle>, <minecraft:string>],
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+		]
+	],
+	<betterwithaddons:spindle> : [
+		[
+			[null, <ore:stickWood>.firstItem, null],
+			[null, <ore:stickWood>.firstItem, null],
+			[null, <ore:stickWood>.firstItem, null]
+		]
+	],
+	<betterwithaddons:aqueduct:10> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]
+		]
+	],
+	<betterwithaddons:aqueduct:1> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]
+		]
+	],
+	<betterwithaddons:aqueduct:2> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:quartz_block:*>, <minecraft:quartz_block:*>, <minecraft:quartz_block:*>]
+		]
+	],
+	<betterwithaddons:aqueduct:3> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>]
+		]
+	],
+	<betterwithaddons:aqueduct:4> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:sandstone:*>, <minecraft:sandstone:*>, <minecraft:sandstone:*>]
+		]
+	],
+	<betterwithaddons:aqueduct:5> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>]
+		]
+	],
+	<betterwithaddons:aqueduct:6> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+		]
+	],
+	<betterwithaddons:aqueduct:7> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>]
+		]
+	],
+	<betterwithaddons:aqueduct:8> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]
+		]
+	],
+	<betterwithaddons:aqueduct:9> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]
+		]
+	],
+	<betterwithaddons:redstone_emitter> : [
+		[
+			[sidingWood, sidingWood, sidingWood],
+			[<betterwithmods:wicker>, <betterwithmods:wooden_gearbox>, <minecraft:lever>],
+			[sidingWood, sidingWood, sidingWood]
+		]
+	],
+	<betterwithaddons:aqueduct> * 3 : [
+		[
+			[null, null, null],
+			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]
+		]
+	],
+};
+
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+};
+
+/*
+    Mirrored Recipes
+*/
+static mirroredRecipes as IIngredient[][][][IItemStack] = {
+};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
+};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<betterwithaddons:wool> : [
+		[<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>]
+	],
+	<betterwithaddons:japanmat:8> : [
+		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>]
+	],
+};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+};
+
+/*
+    Recipe Removals
+*/
+static removeRecipes as IIngredient[] = [
+	<betterwithaddons:aqueduct:0>,
+	<betterwithaddons:aqueduct:10>,
+	<betterwithaddons:aqueduct:1>,
+	<betterwithaddons:aqueduct:2>,
+	<betterwithaddons:aqueduct:3>,
+	<betterwithaddons:aqueduct:4>,
+	<betterwithaddons:aqueduct:5>,
+	<betterwithaddons:aqueduct:6>,
+	<betterwithaddons:aqueduct:7>,
+	<betterwithaddons:aqueduct:8>,
+	<betterwithaddons:aqueduct:9>,
+	<betterwithaddons:bolt:1>,
+	<betterwithaddons:bolt:3>,
+	<betterwithaddons:bolt:6>,
+	<betterwithaddons:redstone_emitter>,
+	<betterwithaddons:spindle>
+];
+
+function init() {
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedShapelessRecipes;
+
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.betterwithaddons.removeRecipes;
+
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
+    recipeUtil.process(mirroredRecipes, true);
+    recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
+}

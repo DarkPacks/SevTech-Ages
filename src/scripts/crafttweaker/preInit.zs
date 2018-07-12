@@ -16,39 +16,39 @@ var PACK_VERSION as string = "3.1.0"; // Keep below 11 characters
 
 // ==================================
 // Stage Naming
-static stageNames as string[string] = {
+static stageNames as string[] = [
 	// Core Stages
-	tutorial: "tutorial",
-	zero: "zero",
-	one: "one",
-	two: "two",
-	three: "three",
-	four: "four",
-	five: "five",
-	creative: "creative",
+	"tutorial",
+	"zero",
+	"one",
+	"two",
+	"three",
+	"four",
+	"five",
+	"creative",
 
 	// Mob Stages
-	zeroMob: "zero_mob",
-	oneMob: "one_mob",
-	twoMob: "two_mob",
-	threeMob: "three_mob",
-	fourMob: "four_mob",
-	fiveMob: "five_mob",
+	"zero_mob",
+	"one_mob",
+	"two_mob",
+	"three_mob",
+	"four_mob",
+	"five_mob",
 
 	// Unique Stages
-	baykok: "baykok",
-	mapping: "mapping",
+	"baykok",
+	"mapping",
 
 	// Unique stage intended to disable existing items/etc
-	disabled: "disabled",
+	"disabled",
 
 	// Stage for unused creative items
-	creativeUnused: "creative_unused"
-};
+	"creative_unused"
+];
 
 // ==================================
 // Stage Creation
-for key, stage in stageNames {
+for stage in stageNames {
 	ZenStager.initStage(stage);
 }
 

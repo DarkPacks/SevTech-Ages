@@ -14,11 +14,16 @@ import crafttweaker.item.IItemStack;
 
 import mod.mekanism.gas.IGasStack;
 
+import mods.mekanism.chemical.crystallizer as Crystallizer;
 import mods.mekanism.chemical.injection as Injection;
 import mods.mekanism.combiner as Combiner;
+import mods.mekanism.compressor as Compressor;
 import mods.mekanism.crusher as Crusher;
 import mods.mekanism.enrichment as Enrichment;
 import mods.mekanism.infuser as Infuser;
+import mods.mekanism.purification as PurificationChamber;
+import mods.mekanism.sawmill as Sawmill;
+import mods.mekanism.smelter as Smelter;
 
 zenClass Mekanism {
 	zenConstructor() {
@@ -46,6 +51,13 @@ zenClass Mekanism {
 	*/
 	function addChemicalInjection(input as IItemStack, gasInput as IGasStack, output as IItemStack) {
 		Injection.addRecipe(input, gasInput, output);
+	}
+
+	/*
+		Remove a Chemical Injection Chamber Recipe
+	*/
+	function removeChemicalInjection(output as IIngredient) {
+		Injection.removeRecipe(output);
 	}
 
 	/*
@@ -83,9 +95,116 @@ zenClass Mekanism {
 	}
 
 	/*
-		Add a Infuser Recipe
+		Add an Infuser Recipe
 	*/
 	function addInfusion(infusionType as string, toConsume as int, input as IItemStack, output as IItemStack) {
 		Infuser.addRecipe(infusionType, toConsume, input, output);
+	}
+
+	/*
+		Remove an Infuser Recipe
+	*/
+	function removeInfusion(output as IIngredient) {
+		Infuser.removeRecipe(output);
+	}
+	function removeInfusion(output as IIngredient, input as IIngredient, infusionType as string) {
+		Infuser.removeRecipe(output, input, infusionType);
+	}
+
+	/*
+		Add a Chemical Crystallizer Recipe
+	*/
+	function addChemicalCrystallizer(inputGas as IGasStack, output as IItemStack) {
+		Crystallizer.addRecipe(inputGas, output);
+	}
+
+	/*
+		Remove a Chemical Crystallizer Recipe
+	*/
+	function removeChemicalCrystallizer(output as IIngredient) {
+		Crystallizer.removeRecipe(output);
+	}
+	function removeChemicalCrystallizer(output as IIngredient, inputGas as IIngredient) {
+		Crystallizer.removeRecipe(output, inputGas);
+	}
+
+	/*
+		Add an Energized Smelter Recipe
+	*/
+	function addSmelter(input as IItemStack, output as IItemStack) {
+		Smelter.addRecipe(input, output);
+	}
+
+	/*
+		Remove an Energized Smelter Recipe
+	*/
+	function removeSmelter(input as IIngredient) {
+		Smelter.addRecipe(input);
+	}
+	function removeSmelter(input as IIngredient, output as IIngredient) {
+		Smelter.addRecipe(input, output);
+	}
+
+	/*
+		Add an Osmium Compressor Recipe
+	*/
+	function addCompressor(input as IItemStack, output as IItemStack) {
+		Compressor.addRecipe(input, output);
+	}
+	function addCompressor(input as IItemStack, inputGas as IGasStack, output as IItemStack) {
+		Compressor.addRecipe(input, inputGas, output);
+	}
+
+	/*
+		Remove an Osmium Compressor Recipe
+	*/
+	function removeCompressor(output as IItemStack) {
+		Compressor.removeRecipe(output);
+	}
+	function removeCompressor(output as IItemStack, input as IIngredient, inputGas as IIngredient) {
+		Compressor.removeRecipe(output, input, inputGas);
+	}
+
+	/*
+		Add a Sawmill Recipe
+	*/
+	function addSawmill(input as IItemStack, output as IItemStack) {
+		Sawmill.addRecipe(input, output);
+	}
+	function addSawmill(input as IItemStack, output as IItemStack, bonusOutput as IItemStack, bonusChance as double) {
+		Sawmill.addRecipe(input, output);
+	}
+
+	/*
+		Remove a Sawmill Recipe
+	*/
+	function removeSawmill(input as IIngredient, output as IIngredient) {
+		Sawmill.removeRecipe(input);
+	}
+	function removeSawmill(input as IIngredient, output as IIngredient) {
+		Sawmill.removeRecipe(input, output);
+	}
+	function removeSawmill(input as IIngredient, output as IIngredient, bonusOutput as IIngredient) {
+		Sawmill.removeRecipe(input, output, bonusOutput);
+	}
+
+	/*
+		Add a Purification Chamber Recipe
+	*/
+	function addPurification(input as IItemStack, output as IItemStack) {
+		PurificationChamber.addRecipe(input, output);
+	}
+	function addPurification(input as IItemStack, inputGas as IGasStack, output as IItemStack) {
+		PurificationChamber.addRecipe(input, inputGas, output);
+	}
+
+	/*
+		Remove a Purification Chamber Recipe
+	*/
+	function removePurification(output as IItemStack) {
+		PurificationChamber.removeRecipe(output);
+	}
+	function removePurification(output as IItemStack, input as IIngredient, inputGas as IIngredient) {
+		PurificationChamber.removeRecipe(output, input, inputGas);
 	}
 }

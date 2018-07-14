@@ -71,6 +71,13 @@ zenClass ImmersiveEngineering {
 	}
 
 	/*
+		Remove an Arc Furnace Recipe
+	*/
+	function removeArcFurn(output as IItemStack) {
+		ArcFurnace.removeRecipe(output);
+	}
+
+	/*
 		Add a Arc Furnace Recipe
 	*/
 	function addArcFurn(output as IItemStack, input as IIngredient, slag as IItemStack, time as int, energy as int) {
@@ -78,6 +85,13 @@ zenClass ImmersiveEngineering {
 	}
 	function addArcFurn(output as IItemStack, input as IIngredient, slag as IItemStack, time as int, energy as int, additives as IIngredient[]) {
 		ArcFurnace.addRecipe(output, input, slag, time, energy, additives);
+	}
+
+	/*
+		Remove a Metal Press Recipe
+	*/
+	function removePress(output as IItemStack) {
+		MetalPress.removeRecipe(output);
 	}
 
 	/*

@@ -575,7 +575,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 };
 
 function init() {
-	for item, tooltips in scripts.crafttweaker.item_modifiers.tooltips.itemTooltipMap {
+	for item, tooltips in scripts.crafttweaker.itemModifiers.tooltips.itemTooltipMap {
 		for tooltip in tooltips {
 			item.addTooltip(tooltip);
 		}

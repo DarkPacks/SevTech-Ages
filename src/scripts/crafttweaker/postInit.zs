@@ -209,11 +209,11 @@ function initEvents() {
 }
 
 function initItemModifiers() {
-	scripts.crafttweaker.item_modifiers.burnTime.init();
-	scripts.crafttweaker.item_modifiers.descriptions.init();
-	scripts.crafttweaker.item_modifiers.durability.init();
-	scripts.crafttweaker.item_modifiers.hardness.init();
-	scripts.crafttweaker.item_modifiers.harvestLevel.init();
-	scripts.crafttweaker.item_modifiers.rename.init();
-	scripts.crafttweaker.item_modifiers.tooltips.init();
+	scripts.crafttweaker.itemModifiers.burnTime.init();
+	scripts.crafttweaker.itemModifiers.descriptions.init();
+	scripts.crafttweaker.itemModifiers.durability.init();
+	scripts.crafttweaker.itemModifiers.hardness.init();
+	scripts.crafttweaker.itemModifiers.harvestLevel.init();
+	scripts.crafttweaker.itemModifiers.rename.init();
+	scripts.crafttweaker.itemModifiers.tooltips.init();
 }

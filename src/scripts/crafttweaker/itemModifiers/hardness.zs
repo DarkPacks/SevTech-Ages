@@ -45,7 +45,7 @@ static hardnessItems as float[IItemStack] = {
 };
 
 function init() {
-	for item, hardness in scripts.crafttweaker.item_modifiers.hardness.hardnessItems {
+	for item, hardness in scripts.crafttweaker.itemModifiers.hardness.hardnessItems {
 		item.hardness = hardness;
 	}
 }

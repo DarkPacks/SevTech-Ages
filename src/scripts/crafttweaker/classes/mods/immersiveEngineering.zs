@@ -54,14 +54,14 @@ zenClass ImmersiveEngineering {
 	}
 
 	/*
-		Remove a Crusher Recipe
+		Remove an Alloy Smelter Recipe
 	*/
 	function removeAlloy(output as IItemStack) {
 		AlloySmelter.removeRecipe(output);
 	}
 
 	/*
-		Add a Crusher Recipe
+		Add an Alloy Smelter Recipe
 	*/
 	function addAlloy(output as IItemStack, input as IIngredient, input2 as IIngredient) {
 		AlloySmelter.addRecipe(output, input, input2, default_alloy);

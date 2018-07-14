@@ -16,7 +16,7 @@ import scripts.contenttweaker.materials.utils.addDefaultMoltenData;
 import scripts.contenttweaker.materials.utils.addDefaultOreData;
 import scripts.contenttweaker.materials.init.materials;
 
-//==================================
+// ==================================
 // Add default parts for materials
 var materailsForDefaultParts as Material[] = [
 	materials.bronze,
@@ -44,7 +44,7 @@ for i, metal in materailsForDefaultParts {
 	metal.registerParts(defaultPartNames);
 }
 
-//==================================
+// ==================================
 // Apply Molten to Materials
 var fluidMaterials as Material[] = [
 	materials.enhancedGalgadorian,
@@ -64,7 +64,7 @@ for i, fluid in fluidMaterials {
 	addDefaultMoltenData(fluidMaterialsData);
 }
 
-//==================================
+// ==================================
 // Custom gears to keep the same look
 var gearMaterialList as Material[] = [
 	materials.diamond,
@@ -77,7 +77,7 @@ for material in gearMaterialList {
 	material.registerPart("gear");
 }
 
-//==================================
+// ==================================
 // Ore Samples
 var oreSampleMaterials as Material[] = [
 	materials.osmium,
@@ -94,7 +94,7 @@ for material in oreSampleMaterials {
 	sampleData.addDataValue("drops", oreSampleDrops[material]);
 }
 
-//==================================
+// ==================================
 // Clusters
 var clusters as Material[] = [
 	materials.titanium

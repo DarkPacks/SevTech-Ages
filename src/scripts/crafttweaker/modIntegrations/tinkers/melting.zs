@@ -25,7 +25,7 @@ function init() {
 	tinkers.addMelting(<liquid:stone> * 72, <tconstruct:soil:0>);
 	tinkers.addMelting(<liquid:stone> * 72, <tconstruct:materials>);
 
-	val searedBlock = <tconstruct:seared>.definition;
+	var searedBlock = <tconstruct:seared>.definition;
 	for i in 0 .. 10{
 		if (i != 1){
 			tinkers.addMelting(<liquid:stone> * 288, searedBlock.makeStack(i));

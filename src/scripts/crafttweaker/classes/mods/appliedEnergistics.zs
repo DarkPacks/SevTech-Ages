@@ -16,7 +16,7 @@ import mods.appliedenergistics2.Inscriber;
 import mods.appliedenergistics2.Grinder;
 
 zenClass AppliedEnergistics {
-	val default_spins as int;
+	var default_spins as int;
 
 	zenConstructor(defaultSpins as int) {
 		default_spins = defaultSpins;

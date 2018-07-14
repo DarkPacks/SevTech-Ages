@@ -18,8 +18,8 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.MetalPress;
 
 zenClass ImmersiveEngineering {
-	val default_energy as int;
-	val default_alloy as int;
+	var default_energy as int;
+	var default_alloy as int;
 
 	zenConstructor(defaultEnergy as int, defaultAlloy as int) {
 		default_energy = defaultEnergy;

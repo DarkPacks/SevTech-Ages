@@ -23,9 +23,9 @@ import scripts.crafttweaker.utils.squareNum;
 	TODO: Look into making this class generic for possible conversion from other MM machines.
 */
 zenClass DryingUnit {
-	val machineName as string = "industrial_drying_unit";
-	val energyScalingMultiplier as int[] = [1, 4, 8];
-	val tickTimeValue as int = 600;
+	var machineName as string = "industrial_drying_unit";
+	var energyScalingMultiplier as int[] = [1, 4, 8];
+	var tickTimeValue as int = 600;
 
 	zenConstructor() {
 	}

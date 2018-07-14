@@ -17,7 +17,7 @@ import mods.abyssalcraft.Transmutator;
 import mods.abyssalcraft.RitualStages;
 
 zenClass AbyssalCraft {
-	val default_xp as float;
+	var default_xp as float;
 
 	zenConstructor(defaultXP as float) {
 		default_xp as defaultXP;

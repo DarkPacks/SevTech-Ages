@@ -70,6 +70,35 @@ static hiddenItems as IIngredient[] = [
 	<modularmachinery:blockoutputbus:0>
 ];
 
+static multiblockMachinesForStages as string[][string] = {
+	stageThree.stage : [
+		"modularmachinery:chemical_mixer",
+		"modularmachinery:industrial_drying_unit",
+		"modularmachinery:industrial_loom",
+		"modularmachinery:industrial_mill",
+		"modularmachinery:liquid_processor",
+		"modularmachinery:mixer",
+		"modularmachinery:plastic_molder"
+	],
+
+	stageFour.stage : [
+		"modularmachinery:industrial_drying_unit_mk2",
+		"modularmachinery:industrial_drying_unit_mk3",
+		"modularmachinery:mixer_mk2",
+		"modularmachinery:mixer_mk3",
+		"modularmachinery:volcanic_crystalizer"
+	],
+
+	stageFive.stage : [
+		"modularmachinery:ethylitic_enricher",
+		"modularmachinery:paperclip_factory",
+		"modularmachinery:orematic5000",
+		"modularmachinery:orematic5000_mk2",
+		"modularmachinery:orematic5000_mk3",
+		"modularmachinery:hydraulic_press"
+	]
+};
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
@@ -77,5 +106,16 @@ function init() {
 	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.hiddenItems {
 		mods.jei.JEI.removeAndHide(ingredient);
 		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
+	}
+
+	var multiblockMachinesForStages as string[][string] =
+		scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.multiblockMachinesForStages;
+
+	for stageName, multiblockMachines in multiblockMachinesForStages {
+		for multiblockMachine in multiblockMachines {
+			var item as IItemStack = <modularmachinery:itemblueprint>.withTag({dynamicmachine: multiblockMachine});
+
+			ZenStager.getStage(stageName).addIngredient(item);
+		}
 	}
 }

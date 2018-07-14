@@ -1,10 +1,21 @@
-#priority -10
-//Run at -10 priority as long as this is done with item/recipe staging
+/*
+	SevTech: Ages Modular Machinery Blueprint Staging Script
 
+	This script handles the staging of Modular Machinery Blueprints to set stages
+	for them to appear. This will stage both the item and the recipe.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IItemStack;
 
-var multiblockMachinesForStages = {
-	STAGES.three : [
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
+
+var multiblockMachinesForStages as string[][string] = {
+	stageThree.stage : [
 		"modularmachinery:chemical_mixer",
 		"modularmachinery:industrial_drying_unit",
 		"modularmachinery:industrial_loom",
@@ -14,7 +25,7 @@ var multiblockMachinesForStages = {
 		"modularmachinery:plastic_molder"
 	],
 
-	STAGES.four : [
+	stageFour.stage : [
 		"modularmachinery:industrial_drying_unit_mk2",
 		"modularmachinery:industrial_drying_unit_mk3",
 		"modularmachinery:mixer_mk2",
@@ -22,7 +33,7 @@ var multiblockMachinesForStages = {
 		"modularmachinery:volcanic_crystalizer"
 	],
 
-	STAGES.five : [
+	stageFive.stage : [
 		"modularmachinery:ethylitic_enricher",
 		"modularmachinery:paperclip_factory",
 		"modularmachinery:orematic5000",
@@ -30,13 +41,12 @@ var multiblockMachinesForStages = {
 		"modularmachinery:orematic5000_mk3",
 		"modularmachinery:hydraulic_press"
 	]
-} as string[][string];
+};
 
-for stage, multiblockMachines in multiblockMachinesForStages {
+for stageName, multiblockMachines in multiblockMachinesForStages {
 	for multiblockMachine in multiblockMachines {
 		var item as IItemStack = <modularmachinery:itemblueprint>.withTag({dynamicmachine: multiblockMachine});
 
-		mods.ItemStages.addItemStage(stage, item);
-		mods.recipestages.Recipes.setRecipeStage(stage, item);
+		ZenStager.getStage(stageName).addIngredient(item);
 	}
 }

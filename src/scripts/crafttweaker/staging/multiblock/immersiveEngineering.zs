@@ -52,6 +52,11 @@ var multiblockMachinesForStages as string[][string] = {
 	]
 };
 
-for stageName, multiblockMachines in multiblockMachinesForStages {
-	ZenStager.getStage(stageName).addIEMultiBlocks(multiblockMachines);
+function init() {
+	var multiblockMachinesForStages as string[][string] =
+		scripts.crafttweaker.staging.multiblock.immersiveEngineering.multiblockMachinesForStages;
+
+	for stageName, multiblockMachines in multiblockMachinesForStages {
+		ZenStager.getStage(stageName).addIEMultiBlocks(multiblockMachines);
+	}
 }

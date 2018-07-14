@@ -35,6 +35,8 @@ function initSpecificStaging() {
 	scripts.crafttweaker.staging.journeymap.init();
 	scripts.crafttweaker.staging.liquidAndGas.init();
 	scripts.crafttweaker.staging.mobs.init();
+	scripts.crafttweaker.staging.multiblock.immersiveEngineering.init();
+	scripts.crafttweaker.staging.multiblock.modularMachinery.init();
 	scripts.crafttweaker.staging.ores.init();
 	scripts.crafttweaker.staging.tinkers.init();
 	scripts.crafttweaker.staging.waila.init();

@@ -14,7 +14,7 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 
-var multiblockMachinesForStages as string[][string] = {
+static multiblockMachinesForStages as string[][string] = {
 	stageThree.stage : [
 		"modularmachinery:chemical_mixer",
 		"modularmachinery:industrial_drying_unit",
@@ -43,10 +43,15 @@ var multiblockMachinesForStages as string[][string] = {
 	]
 };
 
-for stageName, multiblockMachines in multiblockMachinesForStages {
-	for multiblockMachine in multiblockMachines {
-		var item as IItemStack = <modularmachinery:itemblueprint>.withTag({dynamicmachine: multiblockMachine});
+function init() {
+	var multiblockMachinesForStages as string[][string] =
+		scripts.crafttweaker.staging.multiblock.modularMachinery.multiblockMachinesForStages;
 
-		ZenStager.getStage(stageName).addIngredient(item);
+	for stageName, multiblockMachines in multiblockMachinesForStages {
+		for multiblockMachine in multiblockMachines {
+			var item as IItemStack = <modularmachinery:itemblueprint>.withTag({dynamicmachine: multiblockMachine});
+
+			ZenStager.getStage(stageName).addIngredient(item);
+		}
 	}
 }

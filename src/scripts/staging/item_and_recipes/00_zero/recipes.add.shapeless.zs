@@ -28,6 +28,9 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	<actuallyadditions:item_coffee_seed> : [
 		[<actuallyadditions:item_coffee_beans>]
 	],
+	<primal:corn_seeds> : [
+		[<primal:corn_cob>]
+	],
 	<minecraft:farmland> : [
 		[<minecraft:dirt>, <minecraft:dye:15>]
 	],

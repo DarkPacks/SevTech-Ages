@@ -274,7 +274,7 @@ static replacementItemsForStage as IIngredient[][][string] = {
 	]
 };
 
-var nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
+static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 	stageOne.stage : [
 		[<minecraft:ladder:*>, <minecraft:planks>],
 

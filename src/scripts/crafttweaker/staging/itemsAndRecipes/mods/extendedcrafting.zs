@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -83,6 +84,11 @@ static stagedItems as IIngredient[][string] = {
 		<extendedcrafting:trimmed:3>,
 		<extendedcrafting:trimmed:4>,
 		<extendedcrafting:trimmed:5>
+	],
+
+	stageCreativeUnused.stage: [
+		<extendedcrafting:recipe_maker>.withTag({Shapeless: 0 as byte}),
+		<extendedcrafting:recipe_maker>.withTag({Shapeless: 1 as byte})
 	]
 };
 

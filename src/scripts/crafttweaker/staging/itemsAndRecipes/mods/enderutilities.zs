@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
@@ -105,6 +106,12 @@ static stagedItems as IIngredient[][string] = {
 		<enderutilities:syringe:3>,
 		<enderutilities:syringe>,
 		<enderutilities:void_pickaxe>
+	],
+
+	stageCreativeUnused.stage: [
+		<enderutilities:endercapacitor:3>,
+		<enderutilities:enderpart:30>,
+		<enderutilities:enderpart:81>
 	]
 };
 

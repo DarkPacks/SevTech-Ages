@@ -4,6 +4,7 @@ import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageCreative;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
@@ -28,6 +29,10 @@ static stagedItems as IIngredient[][string] = {
 		<ironjetpacks:creative_cell>,
 		<ironjetpacks:creative_jetpack>,
 		<ironjetpacks:creative_thruster>
+	],
+
+	stageCreativeUnused.stage: [
+		<ironjetpacks:creative_capacitor>
 	]
 };
 

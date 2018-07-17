@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -87,6 +88,10 @@ static stagedItems as IIngredient[][string] = {
 		<buildcrafttransport:pipe_diamond_wood_fluid>,
 		<buildcrafttransport:pipe_diamond_wood_item:*>,
 		<buildcrafttransport:pipe_emzuli_item>
+	],
+
+	stageCreativeUnused.stage: [
+		<buildcraftcore:engine:3>
 	]
 };
 
@@ -102,7 +107,11 @@ static hiddenItems as IIngredient[] = [
 	<buildcraftfactory:distiller>,
 	<buildcraftlib:debugger>,
 	<buildcraftlib:guide_note>,
-	<buildcraftsilicon:redstone_chipset:*>
+	<buildcraftsilicon:redstone_chipset:4>,
+	<buildcraftsilicon:redstone_chipset:3>,
+	<buildcraftsilicon:redstone_chipset:2>,
+	<buildcraftsilicon:redstone_chipset:1>,
+	<buildcraftsilicon:redstone_chipset>
 ];
 
 function init() {

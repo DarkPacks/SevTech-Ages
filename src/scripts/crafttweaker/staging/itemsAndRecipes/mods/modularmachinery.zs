@@ -1,10 +1,13 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -62,6 +65,10 @@ static stagedItems as IIngredient[][string] = {
 		<modularmachinery:blockoutputbus:4>,
 		<modularmachinery:blockoutputbus:5>,
 		<modularmachinery:blockoutputbus:6>
+	],
+
+	stageCreativeUnused.stage: [
+		<modularmachinery:itemconstructtool>
 	]
 };
 

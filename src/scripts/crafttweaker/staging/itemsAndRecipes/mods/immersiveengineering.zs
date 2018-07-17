@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -271,6 +272,10 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:metal_device0:5>,
 		<immersiveengineering:ore:5>,
 		<immersiveengineering:storage_slab:5>
+	],
+
+	stageCreativeUnused.stage: [
+		<immersiveengineering:metal_device0:3>
 	]
 };
 

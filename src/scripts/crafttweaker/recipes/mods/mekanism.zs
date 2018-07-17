@@ -56,7 +56,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<mekanism:basicblock:7>
+	<mekanism:basicblock:7>,
+	<mekanism:saltblock>
 ];
 
 function init() {

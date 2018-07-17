@@ -150,6 +150,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.trumpetskeleton.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.twilightforest.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.valkyrielib.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.vc.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.waterstrainer.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.weirdinggadget.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.witherskelefix.init();
@@ -167,18 +168,28 @@ function initRecipes() {
 	// Mod Recipes
 	scripts.crafttweaker.recipes.mods.abyssalcraft.init();
 	scripts.crafttweaker.recipes.mods.actuallyadditions.init();
+	scripts.crafttweaker.recipes.mods.animalium.init();
 	scripts.crafttweaker.recipes.mods.betterwithaddons.init();
 	scripts.crafttweaker.recipes.mods.betterwithmods.init();
+	scripts.crafttweaker.recipes.mods.contenttweaker.init();
 	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
 	scripts.crafttweaker.recipes.mods.extraplanets.init();
+	scripts.crafttweaker.recipes.mods.improvedbackpacks.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
 	scripts.crafttweaker.recipes.mods.mysticalagriculture.init();
 	scripts.crafttweaker.recipes.mods.natura.init();
+	scripts.crafttweaker.recipes.mods.naturescompass.init();
+	scripts.crafttweaker.recipes.mods.pickletweaks.init();
 	scripts.crafttweaker.recipes.mods.primal.init();
-	scripts.crafttweaker.recipes.mods.traverse.init();
+	scripts.crafttweaker.recipes.mods.progressiontweaks.init();
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.spartanshields.init();
+	scripts.crafttweaker.recipes.mods.tcomplement.init();
+	scripts.crafttweaker.recipes.mods.tconstruct.init();
+	scripts.crafttweaker.recipes.mods.totemic.init();
+	scripts.crafttweaker.recipes.mods.traverse.init();
+	scripts.crafttweaker.recipes.mods.waterstrainer.init();
 }
 
 function initIntegration() {
@@ -202,8 +213,6 @@ function initIntegration() {
 	scripts.crafttweaker.modIntegrations.refinedStorage.init();
 	scripts.crafttweaker.modIntegrations.rustic.init();
 	scripts.crafttweaker.modIntegrations.tinkers.init.init();
-	scripts.crafttweaker.recipes.mods.tcomplement.init();
-	scripts.crafttweaker.recipes.mods.tconstruct.init();
 }
 
 function initEvents() {

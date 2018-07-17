@@ -8,11 +8,13 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import mods.zenstages.ZenStager;
+
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 
-var multiblockMachinesForStages as string[][string] = {
+static multiblockMachinesForStages as string[][string] = {
 	stageOne.stage : [
 		"IE:AlloySmelter"
 	],

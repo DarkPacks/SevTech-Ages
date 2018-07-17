@@ -52,9 +52,7 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.plate, <minecraft:chest>, metals.iron.plate]
 		]
 	],
-	<pickletweaks:watering_can> : [
-		[[metals.iron.plate, <actuallyadditions:item_fertilizer>, null], [metals.iron.plate, <minecraft:bucket>, metals.iron.plate], [null, metals.iron.plate, null]]
-	],
+
 	<prospectors:prospector_low> : [
 		[[null, <minecraft:coal:*>, <ore:blockGlass>], [null, log, <minecraft:coal:*>], [log, null, null]]
 	],
@@ -205,25 +203,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 	  	[[null, <minecraft:paper>, null],
 	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>],
 	  	[null, <minecraft:paper>, null]]
-	],
-
-	//Recipes to allow lift in Stage2
-
-
-	//Improved Backpacks
-	<improvedbackpacks:upgrade:2> : [
-		[
-			[null, leather, null],
-			[metals.iron.ingot, <improvedbackpacks:upgrade:1>, metals.iron.ingot],
-			[null, metals.iron.ingot, null]
-		]
-	],
-	<improvedbackpacks:upgrade:3> : [
-		[
-			[null, leather, null],
-			[metals.gold.ingot, <improvedbackpacks:upgrade:2>, metals.gold.ingot],
-			[null, metals.gold.ingot, null]
-		]
 	],
 
 	//Blood Magic

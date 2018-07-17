@@ -9,7 +9,6 @@ var removeItems as IItemStack[] = [
 	<betterbuilderswands:wandiron>,
 	<ferdinandsflowers:block_dye_glass:*>,
 	<ironbackpacks:backpack>,
-	<pickletweaks:watering_can>,
 	<prospectors:prospector_low>,
 	<stevescarts:cartmodule>,
 	<storagedrawers:upgrade_storage>,

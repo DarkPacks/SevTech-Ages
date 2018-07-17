@@ -32,15 +32,6 @@ var shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[null, <minecraft:diamond>, <ore:blockGlass>], [null, <minecraft:blaze_rod>, <minecraft:diamond>], [<minecraft:blaze_rod>, null, null]]
 	],
 
-	//Improved Backpacks
-	<improvedbackpacks:upgrade:4> : [
-		[
-			[null, leather, null],
-			[<minecraft:diamond>, <improvedbackpacks:upgrade:3>, <minecraft:diamond>],
-			[null, <minecraft:diamond>, null]
-		]
-	],
-
 	//Spartan Shields
 	<spartanshields:shield_basic_diamond> : [
 		[[null, <minecraft:diamond>, null], [<minecraft:diamond>, <spartanshields:shield_basic_iron>, <minecraft:diamond>], [null, <minecraft:diamond>, null]]

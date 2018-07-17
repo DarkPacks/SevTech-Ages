@@ -14,12 +14,6 @@ var removeItems as IItemStack[] = [
 	<progressiontweaks:blank_teleporter>, //Beneath Porter Recipe
 	<progressiontweaks:unfired_clay_bowl>,
 	<prospectors:prospector_lowest>, //Prospector
-	<tconstruct:book>,
-	<tconstruct:stone_stick>,
-	<tconstruct:stone_torch>,
-
-	//Water Strain
-	<waterstrainer:bait_pot>,
 
 	//Blood Magic
 	<bloodmagic:altar>,

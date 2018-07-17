@@ -1,4 +1,4 @@
-#priority 2500
+#priority 2750
 
 /*
 	SevTech: Ages Unifier Class Script

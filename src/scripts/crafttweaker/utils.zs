@@ -1,4 +1,4 @@
-#priority 2999
+#priority 3501
 
 /*
 	SevTech: Ages Utils Script
@@ -43,6 +43,12 @@ function squareNum(number as int, timesToSquare as int) as int {
 
 // Add item to oreDict if it does not exist already
 function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
+	print(itemOreDict.name);
+	if (!isNull(item)) {
+		print(item.definition.id);
+	} else {
+		print("Item is freaking null man!");
+	}
 	if (!(itemOreDict in item)) {
 		itemOreDict.add(item);
 	}
@@ -172,4 +178,62 @@ function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
 	}
 
 	return allMiniBlocks;
+}
+
+function getFluidAmount(metalPartName as string) as int {
+	if (metalPartName == "ingot" | metalPartName == "plate") {
+		return 144;
+	} else if (metalPartName == "rod") {
+		return 72;
+	} else if (metalPartName == "block") {
+		return 1296;
+	} else if (metalPartName == "gear") {
+		return 576;
+	} else if (metalPartName == "nugget") {
+		return 16;
+	}
+
+	return 0;
+}
+
+function getCast(metalPartName as string) as IItemStack {
+	if (metalPartName == "ingot") {
+		return <tconstruct:cast_custom>;
+	} else if (metalPartName == "gear") {
+		return <tconstruct:cast_custom:4>;
+	} else if (metalPartName == "plate") {
+		return <tconstruct:cast_custom:3>;
+	} else if (metalPartName == "nugget") {
+		return <tconstruct:cast_custom:1>;
+	}
+
+	return null;
+}
+
+function getMold(metalPartName as string) as IItemStack {
+	if (metalPartName == "plate") {
+		return <immersiveengineering:mold>;
+	} else if (metalPartName == "gear") {
+		return <immersiveengineering:mold:1>;
+	} else if (metalPartName == "rod") {
+		return <immersiveengineering:mold:2>;
+	}
+
+	return null;
+}
+
+function getPressInputCount(metalPartName as string) as int {
+	if (metalPartName == "gear") {
+		return 4;
+	}
+
+	return 1;
+}
+
+function getPressOutputCount(metalPartName as string) as int {
+	if (metalPartName == "rod") {
+		return 2;
+	}
+
+	return 2;
 }

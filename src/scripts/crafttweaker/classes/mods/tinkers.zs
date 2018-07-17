@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Tinkers Construct Script
@@ -116,7 +116,7 @@ zenClass Tinkers {
 	function removeMelting(output as ILiquidStack) {
 		Melting.removeRecipe(output);
 	}
-	function removeMelting(output as ILiquidStack, input as IIngredient) {
+	function removeMelting(output as ILiquidStack, input as IItemStack) {
 		Melting.removeRecipe(output, input);
 	}
 	function removeMeltingEntity(entity as IEntityDefinition) {

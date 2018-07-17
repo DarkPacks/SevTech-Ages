@@ -15,6 +15,7 @@ import mods.zenstages.ZenStager;
 
 // ==================================
 // Initialize Scripts
+initResources();
 initSpecificStaging();
 initItemsAndRecipesStaging();
 initEvents();
@@ -28,6 +29,20 @@ ZenStager.buildAll();
 
 // ==================================
 // Init Functions
+function initResources() {
+	var resources as scripts.crafttweaker.classes.resources.resources.Resources = scripts.crafttweaker.classes.resources.resources.Resources();
+
+	for metalName, metal in metals {
+		resources.processMetal(metalName, metal);
+	}
+	for metal, cluster in clusters {
+		resources.processCluster(metal, cluster);
+	}
+
+	// Init the custom resources script.
+	scripts.crafttweaker.resources.custom.init();
+}
+
 function initSpecificStaging() {
 	// Staging Specific Scripts
 	scripts.crafttweaker.staging.containers.init();

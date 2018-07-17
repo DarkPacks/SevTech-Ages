@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Immersive Engineering Script
@@ -48,6 +48,9 @@ zenClass ImmersiveEngineering {
 	}
 	function addCrusher(output as IItemStack, input as IIngredient, energy as int) {
 		Crusher.addRecipe(output, input, energy);
+	}
+	function addCrusher(output as IItemStack, input as IIngredient, secondaryOutput as IItemStack, secondaryChance as double) {
+		Crusher.addRecipe(output, input, default_energy, secondaryOutput, secondaryChance);
 	}
 	function addCrusher(output as IItemStack, input as IIngredient, energy as int, secondaryOutput as IItemStack, secondaryChance as double) {
 		Crusher.addRecipe(output, input, energy, secondaryOutput, secondaryChance);

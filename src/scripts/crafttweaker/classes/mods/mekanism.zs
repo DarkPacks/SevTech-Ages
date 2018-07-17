@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Mekanism Script
@@ -139,10 +139,10 @@ zenClass Mekanism {
 		Remove an Energized Smelter Recipe
 	*/
 	function removeSmelter(input as IIngredient) {
-		Smelter.addRecipe(input);
+		Smelter.removeRecipe(input);
 	}
 	function removeSmelter(input as IIngredient, output as IIngredient) {
-		Smelter.addRecipe(input, output);
+		Smelter.removeRecipe(input, output);
 	}
 
 	/*
@@ -178,7 +178,7 @@ zenClass Mekanism {
 	/*
 		Remove a Sawmill Recipe
 	*/
-	function removeSawmill(input as IIngredient, output as IIngredient) {
+	function removeSawmill(input as IIngredient) {
 		Sawmill.removeRecipe(input);
 	}
 	function removeSawmill(input as IIngredient, output as IIngredient) {

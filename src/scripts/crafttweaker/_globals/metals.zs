@@ -1,4 +1,4 @@
-#priority 3500
+#priority 4100
 
 import crafttweaker.oredict.IOreDictEntry;
 

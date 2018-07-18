@@ -190,6 +190,7 @@ static removeRecipes as IIngredient[] = [
 	<betterwithaddons:bolt:1>,
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:6>,
+	<betterwithaddons:decomat:3>,
 	<betterwithaddons:loom>,
 	<betterwithaddons:redstone_emitter>,
 	<betterwithaddons:spindle>

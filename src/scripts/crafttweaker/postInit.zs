@@ -178,33 +178,91 @@ function initRecipes() {
 	// ==================================
 	// Core Recipe Script
 	scripts.crafttweaker.recipes.remove.init();
+	scripts.crafttweaker.recipes.resources.init();
 
 	// ==================================
 	// Mod Recipes
 	scripts.crafttweaker.recipes.mods.abyssalcraft.init();
 	scripts.crafttweaker.recipes.mods.actuallyadditions.init();
 	scripts.crafttweaker.recipes.mods.animalium.init();
+	scripts.crafttweaker.recipes.mods.antiqueatlas.init();
+	scripts.crafttweaker.recipes.mods.appliedenergistics.init();
+	scripts.crafttweaker.recipes.mods.astikoor.init();
+	scripts.crafttweaker.recipes.mods.astralsorcery.init();
+	scripts.crafttweaker.recipes.mods.betterbuilderswands.init();
 	scripts.crafttweaker.recipes.mods.betterwithaddons.init();
 	scripts.crafttweaker.recipes.mods.betterwithmods.init();
+	scripts.crafttweaker.recipes.mods.bibliocraft.init();
+	scripts.crafttweaker.recipes.mods.bloodmagic.init();
+	scripts.crafttweaker.recipes.mods.buildcraft.init();
+	scripts.crafttweaker.recipes.mods.car.init();
+	scripts.crafttweaker.recipes.mods.chiselsandbits.init();
 	scripts.crafttweaker.recipes.mods.contenttweaker.init();
+	scripts.crafttweaker.recipes.mods.cookingforblockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
+	scripts.crafttweaker.recipes.mods.dungpipe.init();
+	scripts.crafttweaker.recipes.mods.enderutilities.init();
+	scripts.crafttweaker.recipes.mods.extendedcrafting.init();
 	scripts.crafttweaker.recipes.mods.extraplanets.init();
+	scripts.crafttweaker.recipes.mods.farmingforblockheads.init();
+	scripts.crafttweaker.recipes.mods.ferdinandsflowers.init();
+	scripts.crafttweaker.recipes.mods.galacticraft.init();
+	scripts.crafttweaker.recipes.mods.geolosys.init();
+	scripts.crafttweaker.recipes.mods.guideapi.init();
+	scripts.crafttweaker.recipes.mods.horsepower.init();
+	scripts.crafttweaker.recipes.mods.huntingdim.init();
+	scripts.crafttweaker.recipes.mods.immcraft.init();
+	scripts.crafttweaker.recipes.mods.immersiveengineering.init();
 	scripts.crafttweaker.recipes.mods.improvedbackpacks.init();
+	scripts.crafttweaker.recipes.mods.indlog.init();
+	scripts.crafttweaker.recipes.mods.industrialforegoing.init();
+	scripts.crafttweaker.recipes.mods.infoaccessories.init();
+	scripts.crafttweaker.recipes.mods.integrateddynamics.init();
+	scripts.crafttweaker.recipes.mods.ironbackpacks.init();
+	scripts.crafttweaker.recipes.mods.ironchest.init();
+	scripts.crafttweaker.recipes.mods.ironjetpacks.init();
 	scripts.crafttweaker.recipes.mods.mekanism.init();
 	scripts.crafttweaker.recipes.mods.minecraft.init();
+	scripts.crafttweaker.recipes.mods.mobgrindingutils.init();
+	scripts.crafttweaker.recipes.mods.modularmachinery.init();
+	scripts.crafttweaker.recipes.mods.modularrouters.init();
 	scripts.crafttweaker.recipes.mods.mysticalagriculture.init();
 	scripts.crafttweaker.recipes.mods.natura.init();
 	scripts.crafttweaker.recipes.mods.naturescompass.init();
+	scripts.crafttweaker.recipes.mods.oeintegration.init();
+	scripts.crafttweaker.recipes.mods.overloaded.init();
 	scripts.crafttweaker.recipes.mods.pickletweaks.init();
+	scripts.crafttweaker.recipes.mods.pneumaticcraft.init();
+	scripts.crafttweaker.recipes.mods.poweradapters.init();
 	scripts.crafttweaker.recipes.mods.primal.init();
+	scripts.crafttweaker.recipes.mods.primalchests.init();
+	scripts.crafttweaker.recipes.mods.primaltech.init();
 	scripts.crafttweaker.recipes.mods.progressiontweaks.init();
+	scripts.crafttweaker.recipes.mods.prospectors.init();
+	scripts.crafttweaker.recipes.mods.quantumstorage.init();
+	scripts.crafttweaker.recipes.mods.quark.init();
+	scripts.crafttweaker.recipes.mods.rebornstorage.init();
+	scripts.crafttweaker.recipes.mods.refinedstorage.init();
+	scripts.crafttweaker.recipes.mods.refinedstorageaddons.init();
+	scripts.crafttweaker.recipes.mods.rftools.init();
 	scripts.crafttweaker.recipes.mods.rustic.init();
 	scripts.crafttweaker.recipes.mods.spartanshields.init();
+	scripts.crafttweaker.recipes.mods.stevescarts.init();
+	scripts.crafttweaker.recipes.mods.storagedrawers.init();
+	scripts.crafttweaker.recipes.mods.storagenetwork.init();
+	scripts.crafttweaker.recipes.mods.supersoundmuffler.init();
 	scripts.crafttweaker.recipes.mods.tcomplement.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
 	scripts.crafttweaker.recipes.mods.totemic.init();
 	scripts.crafttweaker.recipes.mods.traverse.init();
+	scripts.crafttweaker.recipes.mods.twilightforest.init();
+	scripts.crafttweaker.recipes.mods.uppers.init();
+	scripts.crafttweaker.recipes.mods.valkyrielib.init();
+	scripts.crafttweaker.recipes.mods.vc.init();
 	scripts.crafttweaker.recipes.mods.waterstrainer.init();
+	scripts.crafttweaker.recipes.mods.weirdinggadget.init();
+	scripts.crafttweaker.recipes.mods.wopper.init();
+	scripts.crafttweaker.recipes.mods.xnet.init();
 }
 
 function initIntegration() {

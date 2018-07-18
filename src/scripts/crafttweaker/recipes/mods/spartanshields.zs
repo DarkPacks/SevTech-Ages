@@ -38,6 +38,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, null]
 		]
+	],
+	<spartanshields:shield_basic_diamond> : [
+		[
+			[null, <minecraft:diamond>, null],
+			[<minecraft:diamond>, <spartanshields:shield_basic_iron>, <minecraft:diamond>],
+			[null, <minecraft:diamond>, null]
+		]
+	],
+	<spartanshields:shield_riot_rftools> : [
+		[
+			[null, <actuallyadditions:item_battery_quadruple>, null],
+			[<tconstruct:materials:14>, <spartanshields:shield_basic_copper>, <tconstruct:materials:14>],
+			[null, <rftools:shield_block3>, null]
+		]
 	]
 };
 

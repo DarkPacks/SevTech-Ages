@@ -1,58 +1,51 @@
-#priority -2
+/*
+    SevTech: Ages BiblioCraft Recipe Script
 
+    This script handles the recipes for BiblioCraft.
+
+    Note: These scripts are created and for the usage in SevTech: Ages and other
+    modpacks curated by DarkPacks. You can use these scripts for reference and for
+    learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-var STAGE = STAGES.two;
+import mods.zenstages.Utils;
+
+import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
 
 /*
-<item> : [
-	[RECIPE1],
-	[RECIPE2],
-	[Recipe3],
-	[etc...]
-]
-
-Put the normal recipe you make inside of the main array from the item (<betterwithaddons:bolt:1> : [])
-
-<testmod:test_item> : [
-	//You can do one recipe or as many recipes as you want
-	[<testmod:test_item>, <minecraft:paper>],
-	[<testmod:test_item>]
-]
+    Shaped Recipes
 */
-var shapelessRecipes as IIngredient[][][IItemStack] = {
-	//Twilight Forest
-	<twilightforest:magic_map_focus> : [
-		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]
-	],
-	//Re-add recipe for fiery since removed in metals script
-	metals.fiery.ingot.firstItem : [
-		[<ore:bottleFiery>, metals.iron.ingot]
-	],
-	// Dye recipes for castle doors
-	<twilightforest:castle_door>: [
-		[<twilightforest:castle_door:*>, <ore:dyeYellow>]
-	],
-	<twilightforest:castle_door:1>: [
-		[<twilightforest:castle_door:*>, <ore:dyePurple>]
-	],
-	<twilightforest:castle_door:2>: [
-		[<twilightforest:castle_door:*>, <ore:dyePink>]
-	],
-	<twilightforest:castle_door:3>: [
-		[<twilightforest:castle_door:*>, <ore:dyeLightBlue>]
-	],
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<bibliocraft:plumbline> : [
+		[
+			[<betterwithaddons:bolt:6>, null, null],
+			[null, <betterwithaddons:bolt:6>, null],
+			[null, null, <ore:rock>]
+		]
+	]
+};
 
-	//Upper to hopper and reversed
-	<uppers:upper> : [
-		[<minecraft:hopper>]
-	],
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
-	/*
-		I guess I'll be the one who makes sure Bibliocraft uses oredict
-	*/
-	//Lantern Gold
+/*
+    Mirrored Recipes
+*/
+static mirroredRecipes as IIngredient[][][][IItemStack] = {};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {
+	// Lantern Gold
 	<bibliocraft:lanterngold:0> : [
 		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder>]
 	],
@@ -102,7 +95,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder:12>]
 	],
 
-	//Lantern Iron
+	// Lantern Iron
 	<bibliocraft:lanterniron:0> : [
 		[<bibliocraft:lanterniron:*>, <pickletweaks:dye_powder>]
 	],
@@ -152,7 +145,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<bibliocraft:lanterniron:*>, <pickletweaks:dye_powder:12>]
 	],
 
-	//Lamp Gold
+	// Lamp Gold
 	<bibliocraft:lampgold:0> : [
 		[<bibliocraft:lampgold:*>, <pickletweaks:dye_powder>]
 	],
@@ -202,7 +195,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<bibliocraft:lampgold:*>, <pickletweaks:dye_powder:12>]
 	],
 
-	//Iron Lamps
+	// Iron Lamps
 	<bibliocraft:lampiron:0> : [
 		[<bibliocraft:lampiron:*>, <pickletweaks:dye_powder>]
 	],
@@ -252,7 +245,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<bibliocraft:lampiron:*>, <pickletweaks:dye_powder:12>]
 	],
 
-	//Typewriter
+	// Typewriter
 	<bibliocraft:typewriter:0> : [
 		[<bibliocraft:typewriter:*>, <pickletweaks:dye_powder>]
 	],
@@ -302,7 +295,7 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<bibliocraft:typewriter:*>, <pickletweaks:dye_powder:12>]
 	],
 
-	//Sword Pedestal
+	// Sword Pedestal
 	<bibliocraft:swordpedestal:0> : [
 		[<bibliocraft:swordpedestal:*>, <pickletweaks:dye_powder>]
 	],
@@ -353,8 +346,45 @@ var shapelessRecipes as IIngredient[][][IItemStack] = {
 	]
 };
 
-for item, recipesForItem in shapelessRecipes {
-	for recipe in recipesForItem {
-		mods.recipestages.Recipes.addShapeless(STAGE, item, recipe);
-	}
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
+
+/*
+    Recipe Removals
+*/
+static removeRecipes as IIngredient[] = [
+	<bibliocraft:plumbline>,
+];
+
+function init() {
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.bibliocraft.namedShapelessRecipes;
+
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.bibliocraft.removeRecipes;
+
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
+    recipeUtil.process(mirroredRecipes, true);
+    recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
+
+	// Remove only shapeless bibliocraft color recipes.
+	recipes.removeShapeless(<bibliocraft:lanterngold:*>);
+	recipes.removeShapeless(<bibliocraft:lanterniron:*>);
+	recipes.removeShapeless(<bibliocraft:lampgold:*>);
+	recipes.removeShapeless(<bibliocraft:lampiron:*>);
+	recipes.removeShapeless(<bibliocraft:typewriter:*>);
+	recipes.removeShapeless(<bibliocraft:swordpedestal:*>);
 }

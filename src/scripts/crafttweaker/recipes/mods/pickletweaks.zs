@@ -111,6 +111,12 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     Mirrored Recipes
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
+	<pickletweaks:grass_mesh>: [
+		[
+			[<minecraft:stick>, <primal:plant_cordage>],
+			[<primal:plant_cordage>, <minecraft:stick>]
+		]
+	]
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
@@ -135,6 +141,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<pickletweaks:grass_mesh>,
+	<pickletweaks:mesh>,
 	<pickletweaks:watering_can>
 ];
 

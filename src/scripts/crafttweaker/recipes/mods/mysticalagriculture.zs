@@ -60,7 +60,7 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:steel_essence>: metals.steel.ingot.firstItem * 3,
 	<mysticalagriculture:steeleaf_essence>: metals.steeleaf.ingot.firstItem * 5,
 	<mysticalagriculture:tin_essence>: metals.tin.ingot.firstItem * 4,
-	// <mysticalagriculture:titanium_essence>: metals.titanium.ingot.firstItem * 2, TODO: Uncomment when things work again.
+	<mysticalagriculture:titanium_essence>: metals.titanium.ingot.firstItem * 2,
 	<mysticalagriculture:uranium_essence>: metals.uranium.ingot.firstItem * 2
 };
 

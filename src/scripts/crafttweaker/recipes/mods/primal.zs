@@ -518,6 +518,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<primal:plant_cordage>: [
 		[<primal:plant_fiber>, <primal:plant_fiber>, <primal:plant_fiber>]
+	],
+	<primal:leather_strip> * 9: [
+		[<minecraft:leather>, <ore:toolWorkBlade>]
+	],
+	<primal:plant_cloth>: [
+		[<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]
 	]
 };
 

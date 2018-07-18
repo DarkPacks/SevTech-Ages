@@ -263,6 +263,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<extraplanets:advanced_fuel_loader>,
+	<extraplanets:apple_iron>,
 	<extraplanets:fire_bomb>,
 	<extraplanets:nuclear_bomb>,
 	<extraplanets:tier1_pressure_layer>,

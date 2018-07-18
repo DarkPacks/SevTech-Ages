@@ -28,29 +28,95 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <totemic:eagle_drops>],
 			[<totemic:eagle_drops:1>, null]
 		]
+	],
+	<totemic:drum> : [
+		[
+			[<ore:plankWood>, <minecraft:leather>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>]
+		]
+	],
+	<totemic:flute> : [
+		[
+			[null, <minecraft:tallgrass:*>, <minecraft:reeds>],
+			[null, <minecraft:reeds>, null],
+			[<minecraft:reeds>, null, null]
+		]
+	],
+	<totemic:jingle_dress> : [
+		[
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<totemic:sub_items:1>, <totemic:sub_items:1>, <totemic:sub_items:1>]
+		]
+	],
+	<totemic:rattle> : [
+		[
+			[null, <totemic:sub_items:1>],
+			[<ore:stickWood>.firstItem, null]
+		]
+	],
+	<totemic:sub_items:1> : [
+		[
+			[<minecraft:bone>, <minecraft:reeds>, <minecraft:bone>],
+			[<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>],
+			[null, null, null]
+		]
+	],
+	<totemic:tipi> : [
+		[
+			[<ore:stickWood>.firstItem, <minecraft:leather>, <ore:stickWood>.firstItem],
+			[<minecraft:leather>, <ore:stickWood>.firstItem, <minecraft:leather>],
+			[<minecraft:leather>, <ore:stickWood>.firstItem, <minecraft:leather>]
+		]
+	],
+	<totemic:totem_torch> : [
+		[
+			[null, <primal_tech:fibre_torch_lit>, null],
+			[null, <ore:stickWood>.firstItem, null],
+			[null, <ore:stickWood>.firstItem, null]
+		]
+	],
+	<totemic:totem_whittling_knife> : [
+		[
+			[null, <primal:flint_knapp>],
+			[<ore:stickWood>.firstItem, null]
+		]
+	],
+	<totemic:totemic_staff> : [
+		[
+			[null, <minecraft:red_flower>, <minecraft:double_plant>],
+			[null, <ore:stickWood>.firstItem, <minecraft:yellow_flower>],
+			[<ore:stickWood>.firstItem, null, null]
+		]
+	],
+	<totemic:wind_chime> : [
+		[
+			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
+			[<minecraft:string>, <minecraft:flint>, <minecraft:string>],
+			[<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>]
+		]
 	]
 };
 
-static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][IItemStack] = {
-};
+static mirroredRecipes as IIngredient[][][][IItemStack] = {};
 
-static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<totemic:totempedia>: [
+		[<ore:treeSapling>, <primal:plant_cloth>]
+	]
 };
 
-static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-};
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
     Recipe Removals

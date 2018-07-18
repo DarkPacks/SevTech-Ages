@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.Utils;
 
 import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFive;
 
 /*
 	Shaped Recipes
@@ -687,6 +688,114 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
+	<ore:dyeBlack>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeBlack>.firstItem): [
+			[
+				[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+				[null, null, null],
+				[null, null, null]
+			]
+		]
+	},
+	<ore:dyeRed>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeRed>.firstItem): [
+			[
+				[null, null, null],
+				[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>],
+				[null, null, null]
+			]
+		]
+	},
+	<ore:dyePurple>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyePurple>.firstItem): [
+			[
+				[null, null, null],
+				[null, null, null],
+				[<mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>, <mysticalagriculture:dye_essence>]
+			]
+		]
+	},
+	<ore:dyeCyan>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeCyan>.firstItem): [
+			[
+				[<mysticalagriculture:dye_essence>, null, null],
+				[<mysticalagriculture:dye_essence>, null, null],
+				[<mysticalagriculture:dye_essence>, null, null]
+			]
+		]
+	},
+	<ore:dyeLightGray>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeLightGray>.firstItem): [
+			[
+				[null, <mysticalagriculture:dye_essence>, null],
+				[null, <mysticalagriculture:dye_essence>, null],
+				[null, <mysticalagriculture:dye_essence>, null]
+			]
+		]
+	},
+	<ore:dyeGray>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeGray>.firstItem): [
+			[
+				[null, null, <mysticalagriculture:dye_essence>],
+				[null, null, <mysticalagriculture:dye_essence>],
+				[null, null, <mysticalagriculture:dye_essence>]
+			]
+		]
+	},
+	<ore:dyePink>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyePink>.firstItem): [
+			[
+				[<mysticalagriculture:dye_essence>, null, null],
+				[null, <mysticalagriculture:dye_essence>, null],
+				[null, null, <mysticalagriculture:dye_essence>]
+			]
+		]
+	},
+	<ore:dyeLime>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeLime>.firstItem): [
+			[
+				[null, null, <mysticalagriculture:dye_essence>],
+				[null, <mysticalagriculture:dye_essence>, null],
+				[<mysticalagriculture:dye_essence>, null, null]
+			]
+		]
+	},
+	<ore:dyeYellow>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeYellow>.firstItem): [
+			[
+				[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+				[null, <mysticalagriculture:dye_essence>, null],
+				[null, null, null]
+			]
+		]
+	},
+	<ore:dyeLightBlue>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeLightBlue>.firstItem): [
+			[
+				[null, <mysticalagriculture:dye_essence>, null],
+				[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+				[null, null, null]
+			]
+		]
+	},
+	<ore:dyeMagenta>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeMagenta>.firstItem): [
+			[
+				[null, null, null],
+				[null, <mysticalagriculture:dye_essence>, null],
+				[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>]
+			]
+		]
+	},
+	<ore:dyeOrange>.firstItem: {
+		Utils.genRecipeName(stageFive, <ore:dyeOrange>.firstItem): [
+			[
+				[null, null, null],
+				[<mysticalagriculture:dye_essence>, null, <mysticalagriculture:dye_essence>],
+				[null, <mysticalagriculture:dye_essence>, null]
+			]
+		]
+	}
 };
 
 /*
@@ -795,6 +904,7 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:diamond_chestplate>,
 	<minecraft:diamond_helmet>,
 	<minecraft:diamond_leggings>,
+	<minecraft:dye:15>,
 	<minecraft:emerald_block>,
 	<minecraft:enchanting_table>,
 	<minecraft:ender_chest>,
@@ -873,6 +983,12 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:writable_book>
 ];
 
+static removeRegex as string[] = [
+	"minecraft:emerald",
+	"minecraft:lapis_lazuli",
+	"minecraft:redstone"
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
@@ -885,6 +1001,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
 
 	// Removals
+	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.minecraft.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
 
 	// Un-named recipes
@@ -899,6 +1016,7 @@ function init() {
 
 	// Removals
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeRecipes(removeRegex);
 
 	/*
 		Specific Overrides

@@ -1,7 +1,7 @@
 /*
-    SevTech: Ages Rustic Recipe Script
+    SevTech: Ages Dung Pipe Recipe Script
 
-    This script handles the recipes for Rustic.
+    This script handles the recipes for Dung Pipe.
 
     Note: These scripts are created and for the usage in SevTech: Ages and other
     modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -10,10 +10,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.craftingUtils;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -25,14 +23,18 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<rustic:ironwood_slab_item> * 3 : [
+	<dungpipe:dung_pipe> : [
 		[
-			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]
+			[null, <ore:slabWood>, <ore:plankWood>],
+			[<ore:slabWood>, null, <ore:slabWood>],
+			[null, <ore:slabWood>, null]
 		]
 	],
-	<rustic:olive_slab_item> * 3 : [
+	<dungpipe:sewer_pipe> : [
 		[
-			[<rustic:planks>, <rustic:planks>, <rustic:planks>]
+			[null, null, null],
+			[<dungpipe:dung_pipe>, metals.tin.plate, metals.tin.plate],
+			[null, null, null]
 		]
 	]
 };
@@ -62,28 +64,22 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<rustic:fertile_soil>,
-	<rustic:ironwood_slab_item>,
-	<rustic:olive_slab_item>
-];
-
-static removeRegex as string[] = [
-	"rustic:bottle_emptying"
+	<dungpipe:dung_pipe>,
+	<dungpipe:sewer_pipe>
 ];
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.shapelessRecipes;
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.shapelessRecipes;
 
 	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rustic.namedShapelessRecipes;
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.dungpipe.namedShapelessRecipes;
 
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.rustic.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.rustic.removeRecipes;
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.dungpipe.removeRecipes;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -96,5 +92,4 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
-	recipeUtil.removeRecipes(removeRegex);
 }

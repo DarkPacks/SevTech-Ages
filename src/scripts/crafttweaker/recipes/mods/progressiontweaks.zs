@@ -22,7 +22,47 @@ import scripts.crafttweaker.stages.stageFive;
 /*
     Shaped Recipes
 */
-static shapedRecipes as IIngredient[][][][IItemStack] = {};
+static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<progressiontweaks:unfired_clay_bowl>: [
+		[
+			[<minecraft:clay_ball>, null, <minecraft:clay_ball>],
+			[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]
+		]
+	],
+	<progressiontweaks:blank_teleporter>: [
+		[
+			[<ore:dyeBlack>, <abyssalcraft:cpearl>, <ore:dyeBlack>],
+			[metals.copper.block, metals.bronze.block, metals.tin.block],
+			[<minecraft:coal_block>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <minecraft:coal_block>]
+		]
+	],
+	<progressiontweaks:spear>: [
+		[
+			[null, null, <primal:flint_knapp>],
+			[null, <ore:stickWood>.firstItem, null],
+			[<ore:stickWood>.firstItem, null, null]
+		]
+	],
+	<progressiontweaks:stone_hammer>: [
+		[
+			[<ore:cordageGeneral>, <ore:rock>],
+			[<ore:stickWood>.firstItem, null]
+		]
+	],
+	<progressiontweaks:tomahawk>: [
+		[
+			[<ore:cordageGeneral>, <primal:flint_knapp>],
+			[<primal:flint_point>, <ore:stickWood>.firstItem]
+		]
+	],
+	<progressiontweaks:fire_pit_unlit>: [
+		[
+			[null, <ore:stickWood>.firstItem, null],
+			[<ore:stickWood>.firstItem, <ore:cordageGeneral>, <ore:stickWood>.firstItem],
+			[<ore:rock>, <ore:rock>, <ore:rock>]
+		]
+	]
+};
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 };
@@ -52,7 +92,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [];
+static removeRecipes as IIngredient[] = [
+	<progressiontweaks:blank_teleporter>,
+	<progressiontweaks:spear>,
+	<progressiontweaks:stone_hammer>,
+	<progressiontweaks:tomahawk>,
+	<progressiontweaks:unfired_clay_bowl>
+];
 
 function init() {
 	// Un-named recipes

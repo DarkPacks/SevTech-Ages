@@ -43,12 +43,6 @@ function squareNum(number as int, timesToSquare as int) as int {
 
 // Add item to oreDict if it does not exist already
 function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
-	print(itemOreDict.name);
-	if (!isNull(item)) {
-		print(item.definition.id);
-	} else {
-		print("Item is freaking null man!");
-	}
 	if (!(itemOreDict in item)) {
 		itemOreDict.add(item);
 	}

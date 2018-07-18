@@ -69,9 +69,9 @@ function init() {
 	// Redstone Alloy
 	immersiveEngineering.addArcFurn(metals.redstoneAlloy.ingot.firstItem * 2, metals.constantan.ingot, slag, 100, 512, [<minecraft:glowstone_dust>, <minecraft:redstone>]);
 
-	// Modularium TOOD: Re-enable WHEN WE HAZ METALS!
-	// immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone>]);
-	// immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone>]);
+	// Modularium
+	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone>]);
+	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone>]);
 
 	/* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 	// Aluminum Brass

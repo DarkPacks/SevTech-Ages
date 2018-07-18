@@ -10,7 +10,7 @@
 
 function init() {
 	immersiveEngineering.addPress(<minecraft:blaze_rod>, <minecraft:blaze_powder>, <immersiveengineering:mold:2>, 4);
-	// immersiveEngineering.addPress(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1); TODO: Uncomment when things work again.
+	immersiveEngineering.addPress(metals.compressedIron.ingot.firstItem * 4, metals.iron.block.firstItem, <immersiveengineering:mold:5>, 2000, 1);
 	immersiveEngineering.addPress(<pickletweaks:ppm4:2> * 4, <galacticraftcore:item_basic_moon>, <immersiveengineering:mold:4>, 1);
 
 	// Coal and Charcoal Blocks / Pieces

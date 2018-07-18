@@ -29,7 +29,7 @@ static recipes as IItemStack[][IItemStack] = {
 	<galacticraftcore:basic_item:11> * 2: [	metals.iron.ingot.firstItem * 4 ], // Compressed Iron
 	<galacticraftcore:item_basic_moon:1> * 2: [	<galacticraftcore:item_basic_moon> * 2 ], // Compressed Meteoric Iron
 	<galacticraftplanets:item_basic_mars:5> * 2: [ <galacticraftplanets:item_basic_mars:2> * 2 ], // Compressed Desh
-	// <galacticraftplanets:item_basic_asteroids:6> * 4: [	metals.titanium.ingot.firstItem * 4 ], // Compressed Titanium // TODO: RE-ADD WHEN DONE
+	<galacticraftplanets:item_basic_asteroids:6> * 4: [	metals.titanium.ingot.firstItem * 4 ], // Compressed Titanium
 	<extraplanets:tier7_items:6> * 2: [ <extraplanets:tier7_items:4> * 4 ], // Compressed Reinfored Crystal
 	<extraplanets:compressed_mercury>: [ <extraplanets:ingot_mercury> * 2 ], // Compressed Mercury
 	<extraplanets:tier4_items:4>: [	<extraplanets:tier4_items:5> * 2 ], // Compressed Carbon

@@ -303,7 +303,11 @@ static hiddenItems as IIngredient[] = [
 	<tconstruct:slime_vine_purple_mid>,
 	<tconstruct:spaghetti>,
 	<tconstruct:throwball:1>,
-	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}})
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
+	<tconstruct:toolforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
+
+	// YoYo is here because we don't use the Vanilla system and force the Tinkers Path. So it can be hidden and disabled here!
+	<yoyos:cord>
 ];
 
 function init() {

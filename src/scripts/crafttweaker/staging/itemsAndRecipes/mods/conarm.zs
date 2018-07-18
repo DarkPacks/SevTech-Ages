@@ -61,6 +61,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<conarm:armorforge>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 	<conarm:travel_belt>,
 	<conarm:travel_belt_base>,
 	<conarm:travel_potion>,

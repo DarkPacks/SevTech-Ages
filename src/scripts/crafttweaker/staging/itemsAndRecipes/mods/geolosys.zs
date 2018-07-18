@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
@@ -67,6 +68,12 @@ static stagedItems as IIngredient[][string] = {
 		<geolosys:ore_vanilla:5>,
 		<geolosys:ore_vanilla:6>,
 		<geolosys:ore:9>
+	],
+
+	stageDisabled.stage: [
+		<geolosys:cluster:10>,
+		<geolosys:ore:10>,
+		<geolosys:ore_sample:10>
 	]
 };
 

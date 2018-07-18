@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
@@ -37,6 +38,10 @@ static stagedItems as IIngredient[][string] = {
 		<materialpart:osmium:ore_sample>,
 		<materialpart:prosperity:ore_extraplanets_kepler22b_stone>,
 		<materialpart:titanium:cluster> // Titanium Cluster
+	],
+
+	stageDisabled.stage: [
+		<contenttweaker:creeper_tear> //TODO: Make texture and find use once SevTweaks is updated to make sad creeper item shedding possible.
 	]
 };
 

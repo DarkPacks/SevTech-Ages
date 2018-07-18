@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageDisabled;
 import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
@@ -59,6 +60,8 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
+		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),
+		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
 		<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
@@ -272,6 +275,13 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:metal_device0:5>,
 		<immersiveengineering:ore:5>,
 		<immersiveengineering:storage_slab:5>
+	],
+
+	stageDisabled.stage: [
+		<immersiveengineering:axe_steel>,
+		<immersiveengineering:pickaxe_steel>,
+		<immersiveengineering:shovel_steel>,
+		<immersiveengineering:sword_steel>
 	],
 
 	stageCreativeUnused.stage: [

@@ -45,6 +45,10 @@ zenClass Unifier {
 		return oreDictEntry.firstItem;
 	}
 
+	function clearOreDict(oreDictEntry as IOreDictEntry, liquid as ILiquidStack) {
+		unify(oreDictEntry, null, liquid);
+	}
+
 	function unify(oreDictEntry as IOreDictEntry) {
 		unify(oreDictEntry, getPreferredItem(oreDictEntry), null);
 	}

@@ -158,7 +158,6 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.teslacorelib.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.thebetweenlands.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.tombmanygraves.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.totemic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.translocators.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.traverse.init();

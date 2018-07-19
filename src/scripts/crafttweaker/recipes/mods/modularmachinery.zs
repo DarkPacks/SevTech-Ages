@@ -110,7 +110,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<immersiveengineering:material:6>, <betterwithmods:rope>, <ore:stickWood>.firstItem, <ore:dyeBlue>]
 	],
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_loom"}) : [
-		[<minecraft:paper>, str, <ore:dyeBlue>]
+		[<minecraft:paper>, <minecraft:string>, <ore:dyeBlue>]
 	],
 	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:volcanic_crystalizer"}) : [
 		[<minecraft:paper>, <minecraft:obsidian>, <ore:dyeBlue>]

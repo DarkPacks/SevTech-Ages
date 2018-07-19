@@ -108,7 +108,7 @@ function init() {
 	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.furnaceRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.galacticraft.removeRecipes;
-	var removeFurnace as IItemStack[] = scripts.crafttweaker.recipes.mods.galacticraft.removeFurnace;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.galacticraft.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);

@@ -65,6 +65,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.gear, <modularmachinery:blockcontroller>, metals.iron.gear]
 		]
 	],
+	<buildcraftcore:marker_path> : [
+		[
+			[<ore:dyeGreen>],
+			[<minecraft:redstone_torch>]
+		]
+	],
+	<buildcraftcore:marker_volume> : [
+		[
+			[<ore:dyeBlue>],
+			[<minecraft:redstone_torch>]
+		]
+	],
+	<buildcraftcore:list> : [
+		[
+			[<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>],
+			[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
+			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+		]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -95,10 +114,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<buildcraftcore:engine>,
-	<buildcrafttransport:pipe_void_item>,
 	<buildcraftbuilders:quarry>,
+	<buildcraftcore:engine>,
+	<buildcraftcore:list>,
+	<buildcraftcore:marker_path>,
+	<buildcraftcore:marker_volume>,
 	<buildcrafttransport:filtered_buffer>,
+	<buildcrafttransport:pipe_void_item>
 ];
 
 function init() {

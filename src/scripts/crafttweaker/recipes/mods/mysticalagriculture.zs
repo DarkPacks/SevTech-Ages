@@ -28,6 +28,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<mysticalagriculture:crafting:37>, <environmentaltech:modifier_creative_flight>, <mysticalagriculture:gear:9>],
 			[<mysticalagriculture:crafting:37>, null, <mysticalagriculture:crafting:37>]
 		]
+	],
+	<mysticalagriculture:crafting:7>: [
+		[
+			[<ore:dyeBlack>, <ore:dyeOrange>],
+			[<ore:dyeCyan>, <ore:dyeMagenta>]
+		]
 	]
 };
 
@@ -64,33 +70,29 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:uranium_essence>: metals.uranium.ingot.firstItem * 2
 };
 
-static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][IItemStack] = {
-};
+static mirroredRecipes as IIngredient[][][][IItemStack] = {};
 
-static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][IItemStack] = {
-};
+static shapelessRecipes as IIngredient[][][IItemStack] = {};
 
-static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-};
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
 	<mysticalagriculture:supremium_boots>,
-	<mysticalagriculture:ultimate_furnace>
+	<mysticalagriculture:ultimate_furnace>,
+	<mysticalagriculture:crafting:7>
 ];
 
 function init() {

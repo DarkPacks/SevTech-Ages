@@ -29,6 +29,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <betterwithaddons:bolt:6>, null],
 			[null, null, <ore:rock>]
 		]
+	],
+	<bibliocraft:stockroomcatalog> : [
+		[
+			[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
+			[<minecraft:paper>, <minecraft:writable_book>, <minecraft:paper>],
+			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+		]
+	],
+	<bibliocraft:biblioglasses:1> : [
+		[
+			[<bibliocraft:biblioglasses>, <ore:dyeGray>]
+		]
+	],
+	<bibliocraft:tape> : [
+		[
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<minecraft:string>, <ore:dyeYellow>, <minecraft:string>],
+			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+		]
 	]
 };
 
@@ -352,7 +371,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<bibliocraft:biblioglasses:1>,
 	<bibliocraft:plumbline>,
+	<bibliocraft:stockroomcatalog>,
+	<bibliocraft:tape>
 ];
 
 function init() {

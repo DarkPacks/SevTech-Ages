@@ -14,6 +14,7 @@ function init() {
 	scripts.crafttweaker.modIntegrations.immersive.engineering.arcFurnace.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.bottlingMachine.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.crusher.init();
+	scripts.crafttweaker.modIntegrations.immersive.engineering.excavator.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.metalPress.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.mixer.init();
 	scripts.crafttweaker.modIntegrations.immersive.engineering.refinery.init();

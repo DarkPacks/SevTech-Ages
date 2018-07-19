@@ -13,6 +13,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.recipes.IRecipeFunction;
 
 import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.Stage;
@@ -151,6 +152,9 @@ function createRecipeName(string1 as string, string2 as string) as string {
 	return string1 + "_" + string2;
 }
 
+/*
+	Create a mini block ingredient for the ingredient provided.
+*/
 function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
 	var allMiniBlocks as IIngredient = null;
 	var miniBlockTypes as string[] = [
@@ -174,6 +178,11 @@ function createAllMiniBlockIngredient(item as IIngredient) as IIngredient {
 	return allMiniBlocks;
 }
 
+/*
+	Resource (Metal) Functions
+
+	These are mainly used in the main class for creating recipes based on parts.
+*/
 function getFluidAmount(metalPartName as string) as int {
 	if (metalPartName == "ingot" | metalPartName == "plate") {
 		return 144;
@@ -189,7 +198,6 @@ function getFluidAmount(metalPartName as string) as int {
 
 	return 0;
 }
-
 function getCast(metalPartName as string) as IItemStack {
 	if (metalPartName == "ingot") {
 		return <tconstruct:cast_custom>;
@@ -203,7 +211,6 @@ function getCast(metalPartName as string) as IItemStack {
 
 	return null;
 }
-
 function getMold(metalPartName as string) as IItemStack {
 	if (metalPartName == "plate") {
 		return <immersiveengineering:mold>;
@@ -215,7 +222,6 @@ function getMold(metalPartName as string) as IItemStack {
 
 	return null;
 }
-
 function getPressInputCount(metalPartName as string) as int {
 	if (metalPartName == "gear") {
 		return 4;
@@ -223,11 +229,54 @@ function getPressInputCount(metalPartName as string) as int {
 
 	return 1;
 }
-
 function getPressOutputCount(metalPartName as string) as int {
 	if (metalPartName == "rod") {
 		return 2;
 	}
 
 	return 2;
+}
+
+/*
+	Function used in the recipe creation for Iron BackPacks.
+*/
+static ironbackpacksRecipeFunc as IRecipeFunction = function(out, ins, cInfo) {
+	var currentTag = ins.bag.tag;
+
+	var packInfoData as IData = {
+		spec: out.tag.packInfo.spec,
+		type: out.tag.packInfo.type
+	};
+
+	var mergeData as IData = {
+		packInfo: currentTag.packInfo.update(packInfoData)
+	};
+
+	var newTag = currentTag.update(mergeData);
+
+	return out.withTag(newTag);
+};
+
+/*
+	Helper function used for when you need easier/dynamic access to the Dye OreDict.
+*/
+
+// ==================================
+// Get the dye color from the Dye IItemStack passed
+function getDyeColor(dye as IItemStack) as string {
+	for dyeOredict in dye.ores {
+		if (dyeOredict.name.startsWith("dye") & dyeOredict.name.length > 3) {
+			return dyeOredict.name.substring(3);
+		}
+	}
+}
+
+// ==================================
+// Get the dye Id from the Color name
+function getDyeIdFromColor(color as string) as int {
+	for id, colorName in minecraftDyeIdTable {
+		if (colorName.toLowerCase() == color.toLowerCase()) {
+			return id as int;
+		}
+	}
 }

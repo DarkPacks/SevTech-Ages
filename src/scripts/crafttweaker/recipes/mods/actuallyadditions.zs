@@ -408,6 +408,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<actuallyadditions:item_misc:5>: [<actuallyadditions:item_dust:7>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
@@ -460,6 +467,11 @@ static removeRecipes as IIngredient[] = [
 	<actuallyadditions:item_misc:9>
 ];
 
+static removeFurnace as IIngredient[] = [
+	<actuallyadditions:item_food:15>,
+	<actuallyadditions:item_misc:5>
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapedRecipes;
@@ -471,7 +483,11 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.furnaceRecipes;
+
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -483,5 +499,9 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
+
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

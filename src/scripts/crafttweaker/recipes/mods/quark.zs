@@ -49,6 +49,14 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {};
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<quark:glass_shards>: [<betterwithmods:red_sand_pile>],
+	<quark:glass_shards>: [<betterwithmods:sand_pile>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
@@ -66,6 +74,9 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.quark.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.quark.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.quark.furnaceRecipes;
+
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.quark.removeRecipes;
 
 	// Un-named recipes
@@ -77,6 +88,9 @@ function init() {
 	recipeUtil.processNamed(namedShapedRecipes, false);
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
+
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
 }

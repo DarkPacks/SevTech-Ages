@@ -536,6 +536,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<primal:shark_meat_cooked>: [<primal:shark_meat_raw>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
@@ -551,6 +558,14 @@ static removeRegex as string[] = [
 	"primal:diamond_leggings"
 ];
 
+static removeFurnace as IIngredient[] = [
+	<primal:carbonate_stone>,
+	<primal:diamond_plate>,
+	<primal:pelt_wolf>,
+	<primal:ironglass>,
+	<primal:valus_bread>
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primal.shapedRecipes;
@@ -562,8 +577,12 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primal.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primal.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.primal.furnaceRecipes;
+
 	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.primal.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.primal.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.primal.removeFurnace;
 
 
 	// Un-named recipes
@@ -576,6 +595,10 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
+
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeRecipes(removeRegex);
+	recipeUtil.removeFurnace(removeFurnace);
 }

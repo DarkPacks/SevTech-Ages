@@ -90,6 +90,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<progressiontweaks:flat_bread>: [<horsepower:flour>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
@@ -111,6 +118,9 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.progressiontweaks.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.progressiontweaks.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.progressiontweaks.furnaceRecipes;
+
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.progressiontweaks.removeRecipes;
 
 	// Un-named recipes
@@ -122,6 +132,9 @@ function init() {
 	recipeUtil.processNamed(namedShapedRecipes, false);
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
+
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
 }

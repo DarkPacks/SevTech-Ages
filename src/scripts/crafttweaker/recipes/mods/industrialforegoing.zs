@@ -164,6 +164,10 @@ static removeRecipes as IIngredient[] = [
 	<industrialforegoing:villager_trade_exchanger>
 ];
 
+static removeFurnace as IIngredient[] = [
+	<industrialforegoing:plastic>
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.industrialforegoing.shapedRecipes;
@@ -176,6 +180,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.industrialforegoing.namedShapelessRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.industrialforegoing.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.industrialforegoing.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -188,4 +193,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

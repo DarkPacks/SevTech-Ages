@@ -30,8 +30,6 @@ static modIdRecipeRemoval as string[] = [
 ];
 
 static itemRecipeRemoval as IItemStack[] = [
-	<ceramics:unfired_clay:4>,
-	<ceramics:unfired_clay>,
 	<charcoalblock:charcoal_block>,
 	<environmentaltech:modifier_creative_flight>,
 	<teslacorelib:machine_case>

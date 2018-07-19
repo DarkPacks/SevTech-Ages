@@ -101,4 +101,29 @@ zenClass RecipeUtil {
 			recipes.removeByRegex(toRemove);
 		}
 	}
+
+	/*
+		Process Method for handling Furnace Recipes.
+	*/
+	function processFurnace(recipesToAdd as IIngredient[][IItemStack]) {
+		for output, inputs in recipesToAdd {
+			for input in inputs {
+				furnace.addRecipe(output, input);
+			}
+		}
+	}
+
+	/*
+		Remove recipes from the Vanilla Furnace
+	*/
+	function removeFurnace(removals as IIngredient[]) {
+		for toRemove in removals {
+			furnace.remove(toRemove);
+		}
+	}
+	function removeFurnace(removals as IIngredient[IIngredient]) {
+		for input, output in removals {
+			furnace.remove(input, output);
+		}
+	}
 }

@@ -94,6 +94,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IIngredient[] = [
 ];
 
+static removeFurnace as IIngredient[] = [
+	<improvedbackpacks:tanned_leather>
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.improvedbackpacks.shapedRecipes;
@@ -106,6 +110,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.improvedbackpacks.namedShapelessRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.improvedbackpacks.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.improvedbackpacks.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -118,4 +123,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

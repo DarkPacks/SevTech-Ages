@@ -191,6 +191,10 @@ static removeRecipes as IIngredient[] = [
 	<abyssalcraft:shadowshard>
 ];
 
+static removeFurnace as IIngredient[] = [
+	<abyssalcraft:friedegg>
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.abyssalcraft.shapedRecipes;
@@ -203,6 +207,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.abyssalcraft.namedShapelessRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.abyssalcraft.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.abyssalcraft.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -215,4 +220,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

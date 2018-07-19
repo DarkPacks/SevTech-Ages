@@ -68,6 +68,14 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>],
+	metals.titanium.ingot.firstItem: [<ore:oreIlmenite>, <ore:shardTitanium>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
@@ -77,6 +85,12 @@ static removeRecipes as IIngredient[] = [
 	<galacticraftcore:machine:12>,
 	<galacticraftcore:rocket_workbench>,
 	<galacticraftplanets:carbon_fragments>
+];
+
+static removeFurnace as IIngredient[] = [
+	<galacticraftcore:basic_item:3>,
+	<galacticraftcore:basic_item:5>,
+	<galacticraftplanets:basic_item_venus:1>
 ];
 
 function init() {
@@ -90,7 +104,11 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.furnaceRecipes;
+
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.galacticraft.removeRecipes;
+	var removeFurnace as IItemStack[] = scripts.crafttweaker.recipes.mods.galacticraft.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -102,5 +120,9 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
+
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

@@ -299,6 +299,30 @@ static removeRegex as string[] = [
 	"extraplanets:chest_alt.*"
 ];
 
+static removeFurnace as IIngredient[] = [
+	<extraplanets:ingot_mercury>,
+	<extraplanets:tier10_items:5>,
+	<extraplanets:tier11_items:1>,
+	<extraplanets:tier11_items:1>,
+	<extraplanets:tier11_items:2>,
+	<extraplanets:tier11_items:3>,
+	<extraplanets:tier11_items:4>,
+	<extraplanets:tier11_items:5>,
+	<extraplanets:tier11_items>,
+	<extraplanets:tier4_items:5>,
+	<extraplanets:tier5_items:5>,
+	<extraplanets:tier5_items:8>,
+	<extraplanets:tier6_items:5>,
+	<extraplanets:tier7_items:5>,
+	<extraplanets:tier7_items:7>,
+	<extraplanets:tier8_items:6>,
+	<extraplanets:tier9_items:5>
+];
+
+static removeFurnaceInput as IIngredient[IIngredient] = {
+	<extraplanets:tier11_items:5>: <extraplanets:kepler22b:13>
+};
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapedRecipes;
@@ -313,6 +337,8 @@ function init() {
 	// Removals
 	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnace;
+	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnaceInput;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -327,4 +353,6 @@ function init() {
 	// Removals
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeRecipes(removeRegex);
+	recipeUtil.removeFurnace(removeFurnace);
+	recipeUtil.removeFurnace(removeFurnaceInput);
 }

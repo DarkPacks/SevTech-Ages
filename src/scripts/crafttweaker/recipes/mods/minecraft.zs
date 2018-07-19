@@ -872,6 +872,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<minecraft:bread>: [<horsepower:dough>]
+};
+
+/*
 	Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
@@ -989,6 +996,22 @@ static removeRegex as string[] = [
 	"minecraft:redstone"
 ];
 
+static removeFurnace as IIngredient[] = [
+	<minecraft:bread>,
+	<minecraft:brick>,
+	<minecraft:coal:1>, // Charcoal Revamp
+	<minecraft:glass>, // Glass Revamp
+	<minecraft:leather>,
+	<minecraft:netherbrick>,
+	<minecraft:diamond>,
+	<minecraft:emerald>
+];
+
+static removeFurnaceInput as IIngredient[IIngredient] = {
+	<minecraft:coal_block>: <extraplanets:kepler22b:5>,
+	<minecraft:quartz>: <galacticraftplanets:venus:9>
+};
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
@@ -1000,9 +1023,14 @@ function init() {
 	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
 
+	// Furnace recipes
+	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.furnaceRecipes;
+
 	// Removals
 	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.minecraft.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnace;
+	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnaceInput;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -1014,9 +1042,14 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
+	// Furnace recipes
+	recipeUtil.processFurnace(furnaceRecipes);
+
 	// Removals
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeRecipes(removeRegex);
+	recipeUtil.removeFurnace(removeFurnace);
+	recipeUtil.removeFurnace(removeFurnaceInput);
 
 	/*
 		Specific Overrides

@@ -196,6 +196,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.bloodmagic.init();
 	scripts.crafttweaker.recipes.mods.buildcraft.init();
 	scripts.crafttweaker.recipes.mods.car.init();
+	scripts.crafttweaker.recipes.mods.ceramics.init();
 	scripts.crafttweaker.recipes.mods.chiselsandbits.init();
 	scripts.crafttweaker.recipes.mods.contenttweaker.init();
 	scripts.crafttweaker.recipes.mods.cookingforblockheads.init();

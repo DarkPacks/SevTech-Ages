@@ -176,9 +176,9 @@ function init() {
 	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead>, <ore:stickWood>, <minecraft:lead>], [<ore:plankWood>, <minecraft:flint>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
 
 	// Recipe Map Imports
-	var grinderRecipes as IIngredient[][][int] = scripts.crafttweaker.modIntegrations.horsepower.grinderRecipes;
-	var pressRecipes as IIngredient[IItemStack] = scripts.crafttweaker.modIntegrations.horsepower.pressRecipes;
-	var choppingRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.modIntegrations.horsepower.choppingRecipes;
+	var grinderRecipes as IIngredient[][][int] = scripts.crafttweaker.integrations.mods.horsepower.grinderRecipes;
+	var pressRecipes as IIngredient[IItemStack] = scripts.crafttweaker.integrations.mods.horsepower.pressRecipes;
+	var choppingRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.integrations.mods.horsepower.choppingRecipes;
 
 	// Add the Grindstone Recipes.
 	for time, grindRecipes in grinderRecipes {

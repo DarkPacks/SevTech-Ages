@@ -54,8 +54,8 @@ static recipes as IItemStack[][IItemStack] = {
 };
 
 function init() {
-	var machineName as string = scripts.crafttweaker.modIntegrations.modularMachinery.hydraulicPress.machineName;
-	var machineRecipes as IItemStack[][IItemStack] = scripts.crafttweaker.modIntegrations.modularMachinery.hydraulicPress.recipes;
+	var machineName as string = scripts.crafttweaker.integrations.mods.modularMachinery.hydraulicPress.machineName;
+	var machineRecipes as IItemStack[][IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.hydraulicPress.recipes;
 
 	for output, inputs in machineRecipes {
 		var primer as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, output.definition.id ~ "_" ~ output.metadata), machineName, 50)

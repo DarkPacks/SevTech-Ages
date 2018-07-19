@@ -10,8 +10,8 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 function init() {
-	scripts.crafttweaker.modIntegrations.tinkers.alloy.init();
-	scripts.crafttweaker.modIntegrations.tinkers.casting.init();
-	scripts.crafttweaker.modIntegrations.tinkers.dryingRack.init();
-	scripts.crafttweaker.modIntegrations.tinkers.melting.init();
+	scripts.crafttweaker.integrations.mods.tinkers.alloy.init();
+	scripts.crafttweaker.integrations.mods.tinkers.casting.init();
+	scripts.crafttweaker.integrations.mods.tinkers.dryingRack.init();
+	scripts.crafttweaker.integrations.mods.tinkers.melting.init();
 }

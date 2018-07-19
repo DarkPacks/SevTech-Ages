@@ -10,8 +10,8 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 function init() {
-	scripts.crafttweaker.modIntegrations.bloodmagic.alchemyArray.init();
-	scripts.crafttweaker.modIntegrations.bloodmagic.alchemyTable.init();
-	scripts.crafttweaker.modIntegrations.bloodmagic.bloodAltar.init();
-	scripts.crafttweaker.modIntegrations.bloodmagic.tartaricForge.init();
+	scripts.crafttweaker.integrations.mods.bloodmagic.alchemyArray.init();
+	scripts.crafttweaker.integrations.mods.bloodmagic.alchemyTable.init();
+	scripts.crafttweaker.integrations.mods.bloodmagic.bloodAltar.init();
+	scripts.crafttweaker.integrations.mods.bloodmagic.tartaricForge.init();
 }

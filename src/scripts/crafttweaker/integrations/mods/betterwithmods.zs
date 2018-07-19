@@ -139,14 +139,14 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 
 function init() {
 	// Recipe Map Imports
-	var kilnRemovals as IItemStack[][] = scripts.crafttweaker.modIntegrations.betterwithmods.kilnRemovals;
-	var millRemovals as IItemStack[][] = scripts.crafttweaker.modIntegrations.betterwithmods.millRemovals;
-	var soakingRemovals as IItemStack[] = scripts.crafttweaker.modIntegrations.betterwithmods.soakingRemovals;
-	var cauldronRemovals as IItemStack[][] = scripts.crafttweaker.modIntegrations.betterwithmods.cauldronRemovals;
-	var crucibleRemovals as IItemStack[][] = scripts.crafttweaker.modIntegrations.betterwithmods.crucibleRemovals;
-	var sawRemovals as IItemStack[][] = scripts.crafttweaker.modIntegrations.betterwithmods.sawRemovals;
+	var kilnRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.kilnRemovals;
+	var millRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.millRemovals;
+	var soakingRemovals as IItemStack[] = scripts.crafttweaker.integrations.mods.betterwithmods.soakingRemovals;
+	var cauldronRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.cauldronRemovals;
+	var crucibleRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.crucibleRemovals;
+	var sawRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.sawRemovals;
 
-	var sawRecipes as IIngredient[][IItemStack[]] = scripts.crafttweaker.modIntegrations.betterwithmods.sawRecipes;
+	var sawRecipes as IIngredient[][IItemStack[]] = scripts.crafttweaker.integrations.mods.betterwithmods.sawRecipes;
 
 	/*
 		Removals
@@ -248,8 +248,8 @@ function init() {
 	betterWithMods.addCauldron([<ore:dustWood> * 16], [<betterwithmods:material:21>], true);
 
 	// Pelt Recipes
-	var pelts as IIngredient[] = scripts.crafttweaker.modIntegrations.betterwithmods.pelts;
-	var largePelts as IIngredient[] = scripts.crafttweaker.modIntegrations.betterwithmods.largePelts;
+	var pelts as IIngredient[] = scripts.crafttweaker.integrations.mods.betterwithmods.pelts;
+	var largePelts as IIngredient[] = scripts.crafttweaker.integrations.mods.betterwithmods.largePelts;
 
 	for pelt in pelts {
 		betterWithMods.addCauldron([pelt], [<betterwithmods:material:12>]);

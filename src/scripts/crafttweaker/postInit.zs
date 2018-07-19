@@ -21,7 +21,7 @@ initItemsAndRecipesStaging();
 initEvents();
 initItemModifiers();
 initRecipes();
-initIntegration();
+initIntegrations();
 
 // ==================================
 // Build the Stages
@@ -266,27 +266,33 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.xnet.init();
 }
 
-function initIntegration() {
-	scripts.crafttweaker.modIntegrations.abyssalcraft.init();
-	scripts.crafttweaker.modIntegrations.actuallyAdditions.init();
-	scripts.crafttweaker.modIntegrations.appliedenergistics2.init();
-	scripts.crafttweaker.modIntegrations.astralsorcery.init();
-	scripts.crafttweaker.modIntegrations.bloodmagic.init.init();
-	scripts.crafttweaker.modIntegrations.chisel.init();
-	scripts.crafttweaker.modIntegrations.extendedCrafting.init.init();
-	scripts.crafttweaker.modIntegrations.galacticcraftAndExtraplanets.init();
-	scripts.crafttweaker.modIntegrations.horsepower.init();
-	scripts.crafttweaker.modIntegrations.immersive.engineering.init.init();
-	scripts.crafttweaker.modIntegrations.immersive.petroleum.init();
-	scripts.crafttweaker.modIntegrations.loottweaker.init();
-	scripts.crafttweaker.modIntegrations.mekanism.init();
-	scripts.crafttweaker.modIntegrations.modularMachinery.init.init();
-	scripts.crafttweaker.modIntegrations.pneumaticcraft.init();
-	scripts.crafttweaker.modIntegrations.primalCore.init();
-	scripts.crafttweaker.modIntegrations.primalTech.init();
-	scripts.crafttweaker.modIntegrations.refinedStorage.init();
-	scripts.crafttweaker.modIntegrations.rustic.init();
-	scripts.crafttweaker.modIntegrations.tinkers.init.init();
+function initIntegrations() {
+	// ==================================
+	// Other
+	scripts.crafttweaker.integrations.wood.init();
+
+	// ==================================
+	// Mods Integrations
+	scripts.crafttweaker.integrations.mods.abyssalcraft.init();
+	scripts.crafttweaker.integrations.mods.actuallyAdditions.init();
+	scripts.crafttweaker.integrations.mods.appliedenergistics2.init();
+	scripts.crafttweaker.integrations.mods.astralsorcery.init();
+	scripts.crafttweaker.integrations.mods.bloodmagic.init.init();
+	scripts.crafttweaker.integrations.mods.chisel.init();
+	scripts.crafttweaker.integrations.mods.extendedCrafting.init.init();
+	scripts.crafttweaker.integrations.mods.galacticcraftAndExtraplanets.init();
+	scripts.crafttweaker.integrations.mods.horsepower.init();
+	scripts.crafttweaker.integrations.mods.immersive.engineering.init.init();
+	scripts.crafttweaker.integrations.mods.immersive.petroleum.init();
+	scripts.crafttweaker.integrations.mods.loottweaker.init();
+	scripts.crafttweaker.integrations.mods.mekanism.init();
+	scripts.crafttweaker.integrations.mods.modularMachinery.init.init();
+	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();
+	scripts.crafttweaker.integrations.mods.primalCore.init();
+	scripts.crafttweaker.integrations.mods.primalTech.init();
+	scripts.crafttweaker.integrations.mods.refinedStorage.init();
+	scripts.crafttweaker.integrations.mods.rustic.init();
+	scripts.crafttweaker.integrations.mods.tinkers.init.init();
 }
 
 function initEvents() {

@@ -1,12 +1,22 @@
+/*
+	SevTech: Ages Wood Script
+
+	This script handles adding/removing recipes for logs to planks.
+
+	Note: These scripts are created and for the usage in SevTech: Ages and other
+	modpacks curated by DarkPacks. You can use these scripts for reference and for
+	learning but not for copying and pasting and claiming as your own.
+*/
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.betterwithmods.Saw;
-import mods.horsepower.ChoppingBlock;
-import mods.mekanism.sawmill;
 import mods.primaltech.WaterSaw;
 
-var plankLogPairs as IIngredient[][IItemStack]  = {
+/*
+	This listing contains the pairs for the Logs -> Planks.
+*/
+static plankLogPairs as IIngredient[][IItemStack] = {
 	<abyssalcraft:dltplank>: [
 		<abyssalcraft:dltlog>
 	],
@@ -150,45 +160,52 @@ var plankLogPairs as IIngredient[][IItemStack]  = {
 	]
 };
 
-for plank, logs in plankLogPairs {
-	for log in logs {
-		//Horsepower
-		//Add recipe for manual and automatic with different times for each. Makes it consistent for all
-		ChoppingBlock.add(log, plank * 4, 4, true);
-		ChoppingBlock.add(log, plank * 4, 2, false);
-
-		//Primal Tech
-		WaterSaw.addRecipe(plank, log, 80);
-
-		//Mekanism
-		sawmill.removeRecipe(log); //TODO: Try just removing the oredict
-
-		//For any recipes that need logs as an IItemStack
-		for logItem in log.items {
-			//Better With Mods
-			Saw.builder()
-				.buildRecipe(log, [plank * 6, <ore:dustWood>.firstItem * 2])
-				.setInputBlockDrop(logItem as IItemStack)
-				.build();
-
-			//Mekanism
-			sawmill.addRecipe(logItem, plank * 6, <ore:dustWood>.firstItem * 2);
-		}
-	}
-}
-
 /*
 	This array listing should only contain logs which don't have planks from the mod or don't make sense to convert to Vanilla Planks.
 
 	This will then remove the log from processig recipes (in higher tech) to not turn out as chopping blocks.
 */
-var logsToRemove as IItemStack[] = [
+static logsToRemove as IItemStack[] = [
 	<natura:redwood_logs:2>,
 	<natura:redwood_logs>,
 	<thebetweenlands:log_nibbletwig>,
 	<twilightforest:magic_log:1>
 ];
 
-for log in logsToRemove {
-	sawmill.removeRecipe(log);
+function init() {
+	// Imports
+	var plankLogPairs as IIngredient[][IItemStack] = scripts.crafttweaker.integrations.wood.plankLogPairs;
+	var logsToRemove as IItemStack[] = scripts.crafttweaker.integrations.wood.logsToRemove;
+
+	// Add the recipes needed.
+	for plank, logs in plankLogPairs {
+		for log in logs {
+			// Horse Power
+			horsePower.addChopping(plank * 4, log, 4, true);
+			horsePower.addChopping(plank * 4, log, 2, false);
+
+			// Primal Tech
+			WaterSaw.addRecipe(plank, log, 80);
+
+			// Mekanism
+			mekanism.removeSawmill(log);
+
+			// For any recipes that need logs as an IItemStack.
+			for logItem in log.items {
+				// Better With Mods
+				Saw.builder()
+					.buildRecipe(log, [plank * 6, <ore:dustWood>.firstItem * 2])
+					.setInputBlockDrop(logItem as IItemStack)
+					.build();
+
+				// Mekanism
+				mekanism.addSawmill(logItem, plank * 6, <ore:dustWood>.firstItem * 2, 0.25);
+			}
+		}
+	}
+
+	// Remove the recipes for the log.
+	for log in logsToRemove {
+		mekanism.removeSawmill(log);
+	}
 }

@@ -18,10 +18,10 @@ import mods.extendedcrafting.EnderCrafting;
 import mods.extendedcrafting.TableCrafting;
 
 function init() {
-	var enderRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.modIntegrations.extendedCrafting.enderRecipes.recipes;
-	var tableRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.modIntegrations.extendedCrafting.tableRecipes.recipes;
-	var tierShapedRecipes as IIngredient[][][IItemStack][int] = scripts.crafttweaker.modIntegrations.extendedCrafting.tierTableRecipes.shapedRecipes;
-	var tierShapelessRecipes as IIngredient[][IItemStack][int] = scripts.crafttweaker.modIntegrations.extendedCrafting.tierTableRecipes.shapelessRecipes;
+	var enderRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.integrations.mods.extendedCrafting.enderRecipes.recipes;
+	var tableRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.integrations.mods.extendedCrafting.tableRecipes.recipes;
+	var tierShapedRecipes as IIngredient[][][IItemStack][int] = scripts.crafttweaker.integrations.mods.extendedCrafting.tierTableRecipes.shapedRecipes;
+	var tierShapelessRecipes as IIngredient[][IItemStack][int] = scripts.crafttweaker.integrations.mods.extendedCrafting.tierTableRecipes.shapelessRecipes;
 
 	// Add the Recipes to the Game.
 	for output, _recipe in enderRecipes {
@@ -42,7 +42,7 @@ function init() {
 	}
 
 	// Create the Compressions.
-	scripts.crafttweaker.modIntegrations.extendedCrafting.init.initCompressions();
+	scripts.crafttweaker.integrations.mods.extendedCrafting.init.initCompressions();
 }
 
 /*
@@ -81,8 +81,8 @@ static rfRates as int[] = [
 	Method to handle the compression creating, along with the decompression.
 */
 function initCompressions() {
-	var craftingPairs as IItemStack[][] = scripts.crafttweaker.modIntegrations.extendedCrafting.init.compressionCraftingPairs;
-	var rfRates as int[] = scripts.crafttweaker.modIntegrations.extendedCrafting.init.rfRates;
+	var craftingPairs as IItemStack[][] = scripts.crafttweaker.integrations.mods.extendedCrafting.init.compressionCraftingPairs;
+	var rfRates as int[] = scripts.crafttweaker.integrations.mods.extendedCrafting.init.rfRates;
 
 	for pair in compressionCraftingPairs {
 		// Check at the start of every pair loop to see if it is one of the unique types.

@@ -40,9 +40,9 @@ static recipeData as IData[IItemStack] = {
 };
 
 function init() {
-	var machineName as string = scripts.crafttweaker.modIntegrations.modularMachinery.volcanicCrystalizer.machineName;
-	var machineRecipes as ILiquidStack[][IItemStack] = scripts.crafttweaker.modIntegrations.modularMachinery.volcanicCrystalizer.recipes;
-	var recipeData as IData[IItemStack] = scripts.crafttweaker.modIntegrations.modularMachinery.volcanicCrystalizer.recipeData;
+	var machineName as string = scripts.crafttweaker.integrations.mods.modularMachinery.volcanicCrystalizer.machineName;
+	var machineRecipes as ILiquidStack[][IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.volcanicCrystalizer.recipes;
+	var recipeData as IData[IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.volcanicCrystalizer.recipeData;
 
 	for outputItem, _fluids in machineRecipes {
 		var primer as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, recipeData[outputItem].name.asString()), machineName, recipeData[outputItem].tickTime.asInt())

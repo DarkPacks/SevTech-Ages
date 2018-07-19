@@ -1,9 +1,7 @@
-/*
-	SevTech: Ages Metal Block Fix Script
+#priority 2600
 
-	This script removes Chisel blocks from becomming the chosen block for mods
-	when processing. In addiiton, if they are left in the oredict, the unification
-	will remove and hide these blocks.
+/*
+	SevTech: Ages OreDict Mod Script.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -12,7 +10,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-// <chiselBlock>: <oreDict>
+// Usage: <chiselBlock>: <oreDict>
 var oreDictChiselPairs as IOreDictEntry[IItemStack] = {
 	<chisel:blockaluminum>: <ore:blockAluminum>,
 	<chisel:blockbronze>: <ore:blockBronze>,

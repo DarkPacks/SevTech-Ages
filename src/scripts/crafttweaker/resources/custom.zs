@@ -9,8 +9,66 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+import scripts.crafttweaker.utils;
+
+/*
+	Metals which are needing removal from the Game.
+*/
+function initMetalRemovals() {
+	var partsToRemove as string[] = [
+		"block",
+		"dust",
+		"ingot",
+		"nugget",
+		"plate"
+	];
+	var metalsToRemove as ILiquidStack[string] = {
+		brass: <liquid:brass>,
+		pigIron: null,
+		vanadium: null,
+		wootz: null
+	};
+
+	for metalName, metalLiquid in metalsToRemove {
+		// Hide liquid
+		if (metalLiquid as bool) {
+			mods.jei.JEI.hide(metalLiquid);
+		}
+
+		for partName in partsToRemove {
+			unifier.clearOreDict(oreDict.get(partName ~ utils.capitalize(metalName)), metalLiquid);
+		}
+	}
+}
+
+/*
+	Seeds
+
+	http://crafttweaker.readthedocs.io/en/latest/#Vanilla/Recipes/Seeds/#seeds
+*/
+function initGrass() {
+	var seedsToRemove as IItemStack[] = [
+		<betterwithmods:hemp>,
+		<minecraft:beetroot_seeds>,
+		<minecraft:melon_seeds>,
+		<minecraft:pumpkin_seeds>,
+		<minecraft:stick>,
+		<minecraft:wheat_seeds>
+	];
+
+	for seed in seedsToRemove {
+		vanilla.seeds.removeSeed(seed);
+	}
+}
 
 function init() {
+	// Call other methods.
+	scripts.crafttweaker.resources.custom.initMetalRemovals();
+	scripts.crafttweaker.resources.custom.initGrass();
+
 	// Dimensional Shard Processing. (One not included by default from the Mod)
 	immersiveEngineering.addCrusher(<rftools:dimensional_shard> * 2, <ore:oreDimensionalShard>);
 

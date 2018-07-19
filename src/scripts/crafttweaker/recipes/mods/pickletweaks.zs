@@ -131,6 +131,48 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<pickletweaks:coal_piece:1> * 8: [
 		[<minecraft:coal:1>]
+	],
+
+	// ==================================
+	// Dye Unification
+	<pickletweaks:dye_powder:1> * 2 : [
+		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:4>]
+	],
+	<pickletweaks:dye_powder:2> * 2 : [
+		[<pickletweaks:dye_powder:6>, <pickletweaks:dye_powder:10>]
+	],
+	<pickletweaks:dye_powder:2> * 3 : [
+		[<pickletweaks:dye_powder:6>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+	],
+	<pickletweaks:dye_powder:2> * 4 : [
+		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+	],
+	<pickletweaks:dye_powder:3> * 2 : [
+		[<pickletweaks:dye_powder:11>, <pickletweaks:dye_powder:0>]
+	],
+	<pickletweaks:dye_powder:5> * 2 : [
+		[<pickletweaks:dye_powder:13>, <pickletweaks:dye_powder:0>]
+	],
+	<pickletweaks:dye_powder:6> * 2 : [
+		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:0>]
+	],
+	<pickletweaks:dye_powder:7> * 2 : [
+		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:15>]
+	],
+	<pickletweaks:dye_powder:8> * 3 : [
+		[<pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:0>, <pickletweaks:dye_powder:15>]
+	],
+	<pickletweaks:dye_powder:9> * 2 : [
+		[<pickletweaks:dye_powder:13>, <pickletweaks:dye_powder:11>]
+	],
+	<pickletweaks:dye_powder:10> * 2 : [
+		[<pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:11>]
+	],
+	<pickletweaks:dye_powder:12> * 2 : [
+		[<pickletweaks:dye_powder:15>, <pickletweaks:dye_powder:1>]
+	],
+	<pickletweaks:dye_powder:12> * 3 : [
+		[<pickletweaks:dye_powder:15>, <pickletweaks:dye_powder:14>, <pickletweaks:dye_powder:4>]
 	]
 };
 
@@ -141,6 +183,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<pickletweaks:dye_powder:*>,
 	<pickletweaks:grass_mesh>,
 	<pickletweaks:mesh>,
 	<pickletweaks:watering_can>

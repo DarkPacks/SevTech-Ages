@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.utils.ironbackpacksRecipeFunc;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -59,6 +60,110 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IIngredient[] = [
 	<ironbackpacks:backpack>
 ];
+
+function initSpecRecipes() {
+	// ==================================
+	// Iron
+
+	// Upgrade Spec
+	recipes.addShaped("ct-ironbackpacks-iron-upgrade_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+		[
+			[metals.iron.plate, <ironbackpacks:upgrade>, metals.iron.plate],
+			[
+				metals.iron.plate,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
+				metals.iron.plate
+			],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+	// Storage Spec
+	recipes.addShaped("ct-ironbackpacks-iron-storage_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
+		[
+			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[
+				metals.iron.plate,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
+				metals.iron.plate
+			],
+			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+
+	// ==================================
+	// Gold
+
+	// Upgrade Spec
+	recipes.addShaped("ct-ironbackpacks-gold-upgrade_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+		[
+			[metals.gold.plate, <ironbackpacks:upgrade>, metals.gold.plate],
+			[
+				metals.gold.plate,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "UPGRADE"}}).marked("bag"),
+				metals.gold.plate
+			],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+	// Storage Spec
+	recipes.addShaped("ct-ironbackpacks-gold-storage_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
+		[
+			[metals.gold.plate, <minecraft:chest>, metals.gold.plate],
+			[
+				metals.gold.plate,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "STORAGE"}}).marked("bag"),
+				metals.gold.plate
+			],
+			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+
+	// ==================================
+	// Diamond
+
+	// Upgrade Spec
+	recipes.addShaped("ct-ironbackpacks-diamond-upgrade_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
+		[
+			[<minecraft:diamond>, <ironbackpacks:upgrade>, <minecraft:diamond>],
+			[
+				<minecraft:diamond>,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "UPGRADE"}}).marked("bag"),
+				<minecraft:diamond>
+			],
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+	// Storage Spec
+	recipes.addShaped("ct-ironbackpacks-diamond-storage_spec",
+		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
+		[
+			[<minecraft:diamond>, <minecraft:chest>, <minecraft:diamond>],
+			[
+				<minecraft:diamond>,
+				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "STORAGE"}}).marked("bag"),
+				<minecraft:diamond>
+			],
+			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+		],
+		ironbackpacksRecipeFunc,
+		null
+	);
+}
 
 function init() {
 	// Un-named recipes

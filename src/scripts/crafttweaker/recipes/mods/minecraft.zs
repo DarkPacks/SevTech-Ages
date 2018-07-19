@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.utils;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
@@ -1012,6 +1013,24 @@ static removeFurnaceInput as IIngredient[IIngredient] = {
 	<minecraft:quartz>: <galacticraftplanets:venus:9>
 };
 
+function initElytraRecipe() {
+	recipes.addShapeless("colored_elytra",
+		<minecraft:elytra>.withTag({}),
+		[<minecraft:elytra:*>.marked("elytra"), <ore:dye>.marked("dye")],
+		function(out, ins, cInfo) {
+			//Get dye color
+			var color as string = utils.getDyeColor(ins.dye);
+			var colorId as int = utils.getDyeIdFromColor(color);
+
+			var currentTag = ins.elytra.tag;
+			var newTag = currentTag.update({"quark:elytraDye": colorId});
+
+			return ins.elytra.withTag(newTag);
+		},
+		null
+	);
+}
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
@@ -1050,6 +1069,9 @@ function init() {
 	recipeUtil.removeRecipes(removeRegex);
 	recipeUtil.removeFurnace(removeFurnace);
 	recipeUtil.removeFurnace(removeFurnaceInput);
+
+	// Init the Elytra recipe
+	scripts.crafttweaker.recipes.mods.minecraft.initElytraRecipe();
 
 	/*
 		Specific Overrides

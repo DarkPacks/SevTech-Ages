@@ -472,6 +472,18 @@ static removeFurnace as IIngredient[] = [
 	<actuallyadditions:item_misc:5>
 ];
 
+function initDrillRecipe() {
+	recipes.addShapeless("colored_drill",
+		<actuallyadditions:item_drill:*>,
+		[<ore:toolDrill>.marked("drill"), <ore:plasticColored>.marked("plastic")],
+		function(out, ins, cInfo) {
+			var drillMeta = 15 - ins.plastic.metadata;
+			return out.definition.makeStack(drillMeta).withTag(ins.drill.tag);
+		},
+		null
+	);
+}
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapedRecipes;
@@ -504,4 +516,7 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeFurnace(removeFurnace);
+
+	// Init the drill recipe
+	scripts.crafttweaker.recipes.mods.actuallyadditions.initDrillRecipe();
 }

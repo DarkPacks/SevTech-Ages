@@ -197,10 +197,12 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.buildcraft.init();
 	scripts.crafttweaker.recipes.mods.car.init();
 	scripts.crafttweaker.recipes.mods.ceramics.init();
+	scripts.crafttweaker.recipes.mods.chisel.init();
 	scripts.crafttweaker.recipes.mods.chiselsandbits.init();
 	scripts.crafttweaker.recipes.mods.contenttweaker.init();
 	scripts.crafttweaker.recipes.mods.cookingforblockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
+	scripts.crafttweaker.recipes.mods.darkutils.init();
 	scripts.crafttweaker.recipes.mods.dungpipe.init();
 	scripts.crafttweaker.recipes.mods.enderutilities.init();
 	scripts.crafttweaker.recipes.mods.extendedcrafting.init();
@@ -269,6 +271,7 @@ function initRecipes() {
 function initIntegrations() {
 	// ==================================
 	// Other
+	scripts.crafttweaker.integrations.dye.init();
 	scripts.crafttweaker.integrations.wood.init();
 
 	// ==================================

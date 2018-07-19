@@ -10,6 +10,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.crafttweaker.utils;
+
 /*
     Shaped Recipes
 */
@@ -93,6 +95,18 @@ static removeFurnace as IIngredient[] = [
 	<galacticraftplanets:basic_item_venus:1>
 ];
 
+function initParachuteRecipes() {
+	for i in 0 to 16 {
+		var parachute as IItemStack = <galacticraftcore:parachute>.definition.makeStack(i);
+		if (i == 0) {
+			recipes.removeByRecipeName("galacticraftcore:parachute_" ~ i ~ "_alt");
+		} else {
+			recipes.removeByRecipeName("galacticraftcore:parachute_" ~ i);
+		}
+		recipes.addShapeless(parachute, [<galacticraftcore:parachute:*>, oreDict.get("dye" ~ utils.capitalize(parachuteDyeIdTable[i]))]);
+	}
+}
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.shapedRecipes;
@@ -125,4 +139,7 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeFurnace(removeFurnace);
+
+	// Create the parachute reicpes
+	scripts.crafttweaker.recipes.mods.galacticraft.initParachuteRecipes();
 }

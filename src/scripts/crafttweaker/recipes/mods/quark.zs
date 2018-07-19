@@ -10,15 +10,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.zenstages.Utils;
-
-import scripts.crafttweaker.stages.stageZero;
-import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
-import scripts.crafttweaker.stages.stageThree;
-import scripts.crafttweaker.stages.stageFour;
-import scripts.crafttweaker.stages.stageFive;
-
 /*
     Shaped Recipes
 */
@@ -63,6 +54,10 @@ static removeRecipes as IIngredient[] = [
 	<quark:trowel>
 ];
 
+static removeRegex as string[] = [
+	"quark:elytra_dying"
+];
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.quark.shapedRecipes;
@@ -77,6 +72,7 @@ function init() {
 	// Furnace recipes
 	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.quark.furnaceRecipes;
 
+	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.quark.removeRegex;
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.quark.removeRecipes;
 
 	// Un-named recipes
@@ -92,5 +88,6 @@ function init() {
 	// Furnace recipes
 	recipeUtil.processFurnace(furnaceRecipes);
 
+	recipeUtil.removeRecipes(removeRegex);
 	recipeUtil.removeRecipes(removeRecipes);
 }

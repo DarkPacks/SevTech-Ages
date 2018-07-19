@@ -27,7 +27,14 @@ static kilnRemovals as IItemStack[][] = [
 */
 static millRemovals as IItemStack[][] = [
 	[<betterwithmods:material:33>],
-	[<betterwithmods:raw_pastry:3>]
+	[<betterwithmods:raw_pastry:3>],
+	[<minecraft:dye:11>],
+	[<minecraft:dye:12>],
+	[<minecraft:dye:13>],
+	[<minecraft:dye:1>],
+	[<minecraft:dye:3>],
+	[<minecraft:dye:7>],
+	[<minecraft:dye:9>]
 ];
 
 /*

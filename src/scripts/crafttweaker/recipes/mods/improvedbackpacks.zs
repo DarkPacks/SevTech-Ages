@@ -64,6 +64,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:diamond>, <improvedbackpacks:upgrade:3>, <minecraft:diamond>],
 			[null, <minecraft:diamond>, null]
 		]
+	],
+	<improvedbackpacks:backpack>: [
+		[
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+			[<minecraft:leather>, <immcraft:chest>, <minecraft:leather>],
+			[<minecraft:leather>, <primal:leather_cordage>, <minecraft:leather>]
+		]
 	]
 };
 
@@ -98,6 +105,32 @@ static removeFurnace as IIngredient[] = [
 	<improvedbackpacks:tanned_leather>
 ];
 
+function initColourRecipes() {
+	var backpack = <improvedbackpacks:backpack>;
+
+	for i in 0 to 16 {
+		recipes.addShapeless(
+			"ct-improvedbackpacks-backpack-color_" + i,
+			backpack.withTag({Color: i}),
+			[
+				backpack.marked("bag"),
+				<pickletweaks:dye_powder>.definition.makeStack(i)
+			],
+
+			// Recipe Function
+			function(out, ins, cInfo) {
+				var currentTag = ins.bag.tag;
+				var mergeData = out.tag;
+				var newTag = currentTag.update(mergeData);
+				return out.withTag(newTag);
+			},
+
+			// recipeAction (null)
+			null
+		);
+	}
+}
+
 function init() {
 	// Un-named recipes
 	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.improvedbackpacks.shapedRecipes;
@@ -124,4 +157,7 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeFurnace(removeFurnace);
+
+	// Init the colours function. This handles using the correct Dyes we use in the modpack.
+	scripts.crafttweaker.recipes.mods.improvedbackpacks.initColourRecipes();
 }

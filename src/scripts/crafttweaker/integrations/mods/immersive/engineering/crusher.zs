@@ -31,4 +31,7 @@ function init() {
 	immersiveEngineering.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block>, 3000); // Lapis Block -> Lapis
 	immersiveEngineering.addCrusher(<minecraft:redstone> * 9, <minecraft:redstone_block>, 3000); // Redstone Block -> Redstone
 	immersiveEngineering.addCrusher(<minecraft:emerald> * 9, <minecraft:emerald_block>, 3000); // Emerald Block -> Emerald
+
+	// Remove wool -> minecraft dye and string.
+	immersiveEngineering.removeCrusher(<minecraft:string>);
 }

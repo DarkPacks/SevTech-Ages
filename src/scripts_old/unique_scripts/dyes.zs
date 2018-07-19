@@ -379,53 +379,9 @@ for i in 0 to 16 {
 	oredictParachuteRecipes(i);
 }
 
-recipes.remove(<buildcraftcore:list>);
-recipes.addShaped(<buildcraftcore:list>, [
-	[<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>],
-	[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
-	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
-]);
-
-recipes.remove(<bibliocraft:stockroomcatalog>);
-recipes.addShaped(<bibliocraft:stockroomcatalog>, [
-	[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
-	[<minecraft:paper>, <minecraft:writable_book>, <minecraft:paper>],
-	[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
-]);
-
-recipes.remove(<bibliocraft:biblioglasses:1>);
-recipes.addShaped(<bibliocraft:biblioglasses:1>, [
-	[<bibliocraft:biblioglasses>, <ore:dyeGray>]
-]);
-
-recipes.remove(<buildcraftcore:marker_volume>);
-recipes.addShaped(<buildcraftcore:marker_volume>, [
-	[<ore:dyeBlue>],
-	[<minecraft:redstone_torch>]
-]);
-
-recipes.remove(<buildcraftcore:marker_path>);
-recipes.addShaped(<buildcraftcore:marker_path>, [
-	[<ore:dyeGreen>],
-	[<minecraft:redstone_torch>]
-]);
-
 recipes.remove(<chisel:temple>);
 recipes.addShaped(<chisel:temple>, [
 	[stone, stone, stone],
 	[stone, <ore:dyeCyan>, stone],
 	[stone, stone, stone]
-]);
-
-recipes.remove(<mysticalagriculture:crafting:7>);
-recipes.addShaped(<mysticalagriculture:crafting:7>, [
-	[<ore:dyeBlack>, <ore:dyeOrange>],
-	[<ore:dyeCyan>, <ore:dyeMagenta>]
-]);
-
-recipes.remove(<bibliocraft:tape>);
-recipes.addShaped(<bibliocraft:tape>, [
-	[str, str, str],
-	[str, <ore:dyeYellow>, str],
-	[str, str, str]
 ]);

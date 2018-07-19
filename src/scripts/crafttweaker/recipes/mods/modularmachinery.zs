@@ -10,15 +10,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.zenstages.Utils;
-
-import scripts.crafttweaker.stages.stageZero;
-import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
-import scripts.crafttweaker.stages.stageThree;
-import scripts.crafttweaker.stages.stageFour;
-import scripts.crafttweaker.stages.stageFive;
-
 /*
     Shaped Recipes
 */
@@ -102,26 +93,76 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	]
 };
 
-static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Mirrored Recipes
 */
-static mirroredRecipes as IIngredient[][][][IItemStack] = {
-};
+static mirroredRecipes as IIngredient[][][][IItemStack] = {};
 
-static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-};
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chemical_mixer"}) : [
+		[<immersiveengineering:material:6>, <betterwithmods:rope>, <ore:stickWood>.firstItem, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_loom"}) : [
+		[<minecraft:paper>, str, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:volcanic_crystalizer"}) : [
+		[<minecraft:paper>, <minecraft:obsidian>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ethylitic_enricher"}) : [
+		[<minecraft:paper>, <actuallyadditions:item_fertilizer>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit"}) : [
+		[<minecraft:paper>, <minecraft:leather>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit_mk2"}) : [
+		[<minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_drying_unit_mk3"}) : [
+		[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:leather>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:plastic_molder"}) : [
+		[<minecraft:paper>, <minecraft:paper>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:industrial_mill"}) : [
+		[<minecraft:paper>, <minecraft:wheat>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:liquid_processor"}) : [
+		[<minecraft:paper>, <minecraft:water_bucket>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer"}) : [
+		[<minecraft:paper>, <minecraft:bucket>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk2"}) : [
+		[<minecraft:paper>, <minecraft:paper>, <minecraft:bucket>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mixer_mk3"}) : [
+		[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:bucket>, <ore:dyeBlue>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:paperclip_factory"}) : [
+		[<minecraft:paper>, <pickletweaks:ppm4:2>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:orematic5000"}) : [
+		[<minecraft:paper>, <geolosys:cluster:8>, <geolosys:cluster:12>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:orematic5000_mk2"}) : [
+		[<minecraft:paper>, <geolosys:cluster:8>, <geolosys:cluster:8>, <geolosys:cluster:12>,  <geolosys:cluster:12>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:orematic5000_mk3"}) : [
+		[<minecraft:paper>, <geolosys:cluster:8>, <geolosys:cluster:8>, <geolosys:cluster:8>, <geolosys:cluster:12>, <geolosys:cluster:12>,  <geolosys:cluster:12>]
+	],
+	<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:hydraulic_press"}) : [
+		[<minecraft:paper>, <galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:7>]
+	]
 };
 
-static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-};
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
     Recipe Removals

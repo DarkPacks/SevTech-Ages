@@ -179,7 +179,6 @@ static hiddenItems as IIngredient[] = [
 	<cyclicmagic:charm_air>,
 	<cyclicmagic:glowing_chorus>,
 	<cyclicmagic:mattock>,
-	<cyclicmagic:robot_spawner>,
 	<cyclicmagic:sack_ender>,
 	<cyclicmagic:storage_bag>,
 	<cyclicmagic:tool_prospector>,

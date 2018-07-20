@@ -94,7 +94,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<industrialforegoing:artificial_dye:*>,
 	<industrialforegoing:laser_base>,
 	<industrialforegoing:laser_drill>,
 	<industrialforegoing:laser_lens:*>,

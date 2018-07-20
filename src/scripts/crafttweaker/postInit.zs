@@ -300,6 +300,7 @@ function initIntegrations() {
 
 function initEvents() {
 	scripts.crafttweaker.events.blockBreak.init();
+	scripts.crafttweaker.events.playerLoggedIn.init();
 }
 
 function initItemModifiers() {

@@ -18,7 +18,7 @@ zenClass ArmoreableMobs {
 	var mobEntities as ArmorEntity[string][string] = {};
 
 	var defaultArmorDropChance as double = 0.15;
-	var blankGroup = ArmorHandler.createArmorGroup("Blank", 1.0);
+	var blankGroup as ArmorGroup = ArmorHandler.createArmorGroup("Blank", 1.0);
 
 	zenConstructor() {
 		// Set up "Blank" group
@@ -30,21 +30,27 @@ zenClass ArmoreableMobs {
 		blankGroup.addArmor(ArmorHandler.createArmorSlot("offhand", null, 1, 0));
 	}
 
-	function addMobEntity(mobType as string, mobName as string) {
-		mobEntities[mobName] = ArmorHandler.createArmorEntity(mobName);
-	}
+	function addMobEntity(mobEntityType as string, mobName as string) {
+		var mobEntityTypeExists as bool = (mobEntities has mobEntityType);
 
-	function addMobEntities(mobType as string, mobNames as string[]) {
-		for mobName in mobNames {
-			addMobEntity(mobName);
-		}
-	}
-
-	function build() {
-		for mobEntityType, mobEntitiesForType in mobEntities {
-			for mobName, mobEntity in mobEntitiesForType {
-				clearMobGear(mobEntity);
+		if (mobEntityTypeExists) {
+			if (mobEntities[mobEntityType] has mobName) {
+				logger.logWarning("Attempted to add " ~ mobName
+					~ " as a mob armor entity but already exists in " ~ mobEntityType ~ " type");
+				return null;
 			}
+		}
+
+		if (!mobEntityTypeExists) {
+			mobEntities[mobEntityType] = {};
+		}
+
+		mobEntities[mobEntityType][mobName] = ArmorHandler.createArmorEntity(mobName);
+	}
+
+	function addMobEntities(mobEntityType as string, mobNames as string[]) {
+		for mobName in mobNames {
+			addMobEntity(mobEntityType, mobName);
 		}
 	}
 
@@ -52,7 +58,11 @@ zenClass ArmoreableMobs {
 	 * Clears all gear from the mob
 	 */
 	function clearMobGear(mobEntity as ArmorEntity) {
-		blankGroup.addEntity(mobEntity);
+		for mobEntityType, mobEntitiesForType in mobEntities {
+			for mobName, mobEntity in mobEntitiesForType {
+				blankGroup.addEntity(mobEntity);
+			}
+		}
 	}
 
 	/**
@@ -63,8 +73,8 @@ zenClass ArmoreableMobs {
 			logger.logWarning("Attempted to add armor group to " ~ mobEntityType ~ " mobs but none exist");
 		}
 
-		for mobEntitiesForType in mobEntities[mobEntityType] {
-			armorGroup.addEntity(mobEntitiesForType);
+		for mobName, mobEntity in mobEntities[mobEntityType] {
+			armorGroup.addEntity(mobEntity);
 		}
 	}
 

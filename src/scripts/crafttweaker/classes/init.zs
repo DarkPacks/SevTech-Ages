@@ -15,6 +15,7 @@
 global abyssalcraft as scripts.crafttweaker.classes.mods.abyssalcraft.AbyssalCraft = scripts.crafttweaker.classes.mods.abyssalcraft.AbyssalCraft(0.5f);
 global actuallyAdditions as scripts.crafttweaker.classes.mods.actuallyAdditions.ActuallyAdditions = scripts.crafttweaker.classes.mods.actuallyAdditions.ActuallyAdditions();
 global appliedEnergistics as scripts.crafttweaker.classes.mods.appliedEnergistics.AppliedEnergistics = scripts.crafttweaker.classes.mods.appliedEnergistics.AppliedEnergistics(8);
+global armoreablemobs as scripts.crafttweaker.classes.mods.armoreablemobs.ArmoreableMobs = scripts.crafttweaker.classes.mods.armoreablemobs.ArmoreableMobs();
 global astralSorcery as scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery = scripts.crafttweaker.classes.mods.astralSorcery.AstralSorcery();
 global betterWithMods as scripts.crafttweaker.classes.mods.betterwithmods.BetterWithMods = scripts.crafttweaker.classes.mods.betterwithmods.BetterWithMods();
 global bloodMagic as scripts.crafttweaker.classes.mods.bloodMagic.BloodMagic = scripts.crafttweaker.classes.mods.bloodMagic.BloodMagic();

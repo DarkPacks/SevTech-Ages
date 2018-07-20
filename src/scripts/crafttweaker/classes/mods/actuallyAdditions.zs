@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Actually Additions Script
@@ -32,9 +32,5 @@ zenClass ActuallyAdditions {
 	}
 	function addCrusher(output as IItemStack, input as IItemStack, outputSecondary as IItemStack, secondaryChance as int) {
 		Crusher.addRecipe(output, input, outputSecondary, secondaryChance);
-	}
-
-	function test() {
-		print("Called!");
 	}
 }

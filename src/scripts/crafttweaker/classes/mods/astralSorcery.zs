@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Astral Sorcery Script
@@ -42,7 +42,7 @@ zenClass AstralSorcery {
 	/*
 		Add a Starlight Infusion Recipe
 	*/
-	function addStarlight(input as IItemStack, output as IItemStack, consumeMultiple as boolean, consumptionChance as float, tickTime as int) {
+	function addStarlight(input as IItemStack, output as IItemStack, consumeMultiple as bool, consumptionChance as float, tickTime as int) {
 		StarlightInfusion.addInfusion(input, output, consumeMultiple, consumptionChance, tickTime);
 	}
 }

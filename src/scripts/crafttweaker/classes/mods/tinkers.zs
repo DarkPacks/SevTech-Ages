@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Tinkers Construct Script
@@ -46,10 +46,10 @@ zenClass Tinkers {
 	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
 		Casting.addTableRecipe(output, cast, fluid, amount);
 	}
-	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean) {
+	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool) {
 		Casting.addTableRecipe(output, cast, fluid, amount, consumeCast);
 	}
-	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean, time as int) {
+	function addCastingTable(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool, time as int) {
 		Casting.addTableRecipe(output, cast, fluid, amount, consumeCast, time);
 	}
 
@@ -66,10 +66,10 @@ zenClass Tinkers {
 	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int) {
 		Casting.addBasinRecipe(output, cast, fluid, amount);
 	}
-	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean) {
+	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool) {
 		Casting.addBasinRecipe(output, cast, fluid, amount, consumeCast);
 	}
-	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as boolean, time as int) {
+	function addCastingBasin(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool, time as int) {
 		Casting.addBasinRecipe(output, cast, fluid, amount, consumeCast, time);
 	}
 
@@ -115,6 +115,9 @@ zenClass Tinkers {
 	*/
 	function removeMelting(output as ILiquidStack) {
 		Melting.removeRecipe(output);
+	}
+	function removeMelting(output as ILiquidStack, input as IItemStack) {
+		Melting.removeRecipe(output, input);
 	}
 	function removeMeltingEntity(entity as IEntityDefinition) {
 		Melting.removeEntityMelting(entity);

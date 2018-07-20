@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages OreMatic Script
@@ -22,11 +22,11 @@ import scripts.crafttweaker.utils.createRecipeName;
     OreMatic Class to intergrate with the custom machine even easier!
 */
 zenClass OreMatic {
-    val machine_name as string = "orematic5000";
-    val energyScalingMultiplier as int[] = [4, 5, 10];
-    val default_priority as int[] = [125, 250, 500];
-    val default_ticktime as int = 125;
-    val default_type as string = "";
+    var machine_name as string = "orematic5000";
+    var energyScalingMultiplier as int[] = [4, 5, 10];
+    var default_priority as int[] = [125, 250, 500];
+    var default_ticktime as int = 125;
+    var default_type as string = "";
 
     zenConstructor() {
     }

@@ -1,0 +1,93 @@
+/*
+    SevTech: Ages Resources Recipe Script
+
+    Note: These scripts are created and for the usage in SevTech: Ages and other
+    modpacks curated by DarkPacks. You can use these scripts for reference and for
+    learning but not for copying and pasting and claiming as your own.
+*/
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+import mods.zenstages.Utils;
+
+import scripts.crafttweaker.stages.stageOne;
+
+/*
+    Shaped Recipes
+*/
+static shapedRecipes as IIngredient[][][][IItemStack] = {};
+
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	metals.bronze.gear.firstItem: {
+		Utils.genRecipeName(stageOne, "bronze_gear"): [
+			[
+				[null, metals.bronze.plate, null],
+				[metals.bronze.plate, <teslacorelib:gear_stone>, metals.bronze.plate],
+				[null, metals.bronze.plate, null]
+			]
+		]
+	},
+	metals.tin.gear.firstItem: {
+		Utils.genRecipeName(stageOne, "tin_gear"): [
+			[
+				[null, metals.tin.plate, null],
+				[metals.tin.plate, <teslacorelib:gear_stone>, metals.tin.plate],
+				[null, metals.tin.plate, null]
+			]
+		]
+	},
+	metals.copper.gear.firstItem: {
+		Utils.genRecipeName(stageOne, "copper_gear"): [
+			[
+				[null, metals.copper.plate, null],
+				[metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate],
+				[null, metals.copper.plate, null]
+			]
+		]
+	}
+};
+
+/*
+    Mirrored Recipes
+*/
+static mirroredRecipes as IIngredient[][][][IItemStack] = {};
+
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
+
+/*
+    Shapeless Recipes
+*/
+static shapelessRecipes as IIngredient[][][IItemStack] = {};
+
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
+
+/*
+    Recipe Removals
+*/
+static removeRecipes as IIngredient[] = [];
+
+function init() {
+	// Un-named recipes
+	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.resources.shapedRecipes;
+	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.resources.mirroredRecipes;
+	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.resources.shapelessRecipes;
+
+	// Named recipes
+	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.resources.namedShapedRecipes;
+	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.resources.namedMirroredRecipes;
+	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.resources.namedShapelessRecipes;
+
+	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.resources.removeRecipes;
+
+	// Un-named recipes
+	recipeUtil.process(shapedRecipes, false);
+    recipeUtil.process(mirroredRecipes, true);
+    recipeUtil.process(shapelessRecipes);
+
+	// Named recipes
+	recipeUtil.processNamed(namedShapedRecipes, false);
+    recipeUtil.processNamed(namedMirroredRecipes, true);
+    recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.removeRecipes(removeRecipes);
+}

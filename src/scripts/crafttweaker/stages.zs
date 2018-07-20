@@ -1,4 +1,4 @@
-#priority 3000
+#priority 3999
 
 /*
 	SevTech: Ages Stages Stages Script
@@ -39,3 +39,46 @@ static stageDisabled as Stage = ZenStager.getStage("disabled");
 
 // Stage for unused creative items
 static stageCreativeUnused as Stage = ZenStager.getStage("creative_unused");
+
+// ==================================
+// Metal Stages
+static metalStages as string[string] = {
+	abyssalnite: "two",
+	aluminum: "three",
+	aluminumBrass: "three",
+	ardite: "four",
+	blackIron: "two",
+	bronze: "one",
+	cobalt: "three",
+	compressedIron: "four",
+	constantan: "three",
+	copper: "one",
+	dreadium: "two",
+	electrum: "three",
+	enhancedGalgadorian: "three",
+	ethaxium: "two",
+	fiery: "two",
+	galgadorian: "three",
+	gold: "two",
+	invar: "three",
+	iron: "two",
+	knightslime: "four",
+	lead: "three",
+	manyullyn: "four",
+	modularium: "three",
+	nickel: "three",
+	osmium: "five",
+	pigiron: "three",
+	platinum: "three",
+	redstoneAlloy: "three",
+	refinedCoralium: "one",
+	reinforcedMetal: "three",
+	silver: "three",
+	spacePlatinum: "five",
+	steel: "three",
+	steeleaf: "two",
+	tin: "one",
+	titanium: "five",
+	uranium: "four",
+	zinc: "five"
+};

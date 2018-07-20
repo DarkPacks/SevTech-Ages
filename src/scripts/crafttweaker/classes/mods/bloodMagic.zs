@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Blood Magic Script
@@ -12,7 +12,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.bloodmagic.AlchemyArray;
 import mods.bloodmagic.AlchemyTable;
+import mods.bloodmagic.BloodAltar;
 
 zenClass BloodMagic {
 	zenConstructor() {
@@ -23,7 +25,7 @@ zenClass BloodMagic {
 
 		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/AlchemyTable/#removal
 	*/
-	function removeAlchemy(inputs as IItemStack[]) {
+	function removeAlchemyTable(inputs as IItemStack[]) {
 		AlchemyTable.removeRecipe(inputs);
 	}
 
@@ -32,7 +34,43 @@ zenClass BloodMagic {
 
 		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/AlchemyTable/#addition
 	*/
-	function addAlchemy(output as IItemStack, inputs as IIngredient[], syphon as int, tickTime as int, minTier as int) {
+	function addAlchemyTable(output as IItemStack, inputs as IIngredient[], syphon as int, tickTime as int, minTier as int) {
 		AlchemyTable.addRecipe(output, inputs, syphon, tickTime, minTier);
+	}
+
+	/*
+		Remove a Alchemy Table Recipe
+
+		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/AlchemyArray/#removal
+	*/
+	function removeAlchemyArray(input as IItemStack, catalyst as IItemStack) {
+		AlchemyArray.removeRecipe(input, catalyst);
+	}
+
+	/*
+		Add a Alchemy Array Recipe
+
+		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/AlchemyArray/#addition
+	*/
+	function addAlchemyArray(input as IItemStack, catalyst as IItemStack, output as IItemStack) {
+		AlchemyArray.addRecipe(input, catalyst, output);
+	}
+
+	/*
+		Remove a Blood Altar Recipe
+
+		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/BloodAltar/#removal
+	*/
+	function removeAltar(input as IItemStack) {
+		BloodAltar.removeRecipe(input);
+	}
+
+	/*
+		Add a Blood Altar Recipe
+
+		http://crafttweaker.readthedocs.io/en/latest/#Mods/Modtweaker/BloodMagic/BloodAltar/#addition
+	*/
+	function addAltar(output as IItemStack, input as IItemStack, minimumTier as int, syphon as int, consumeRate as int, drainRate as int) {
+		BloodAltar.addRecipe(output, input, minimumTier, syphon, consumeRate, drainRate);
 	}
 }

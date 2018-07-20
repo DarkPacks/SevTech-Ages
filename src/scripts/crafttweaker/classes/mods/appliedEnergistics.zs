@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages Applied Energistics Script
@@ -12,10 +12,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.appliedenergistics2.Inscriber;
 import mods.appliedenergistics2.Grinder;
 
 zenClass AppliedEnergistics {
-	val default_spins as int;
+	var default_spins as int;
 
 	zenConstructor(defaultSpins as int) {
 		default_spins = defaultSpins;
@@ -39,5 +40,25 @@ zenClass AppliedEnergistics {
 	}
 	function addGrindstone(output as IItemStack, input as IItemStack, spins as int, outputSecondary as IItemStack, secondaryChance as int) {
 		Grinder.addRecipe(output, input, spins, outputSecondary, secondaryChance);
+	}
+
+	/*
+		Remove an Inscriber Recipe.
+	*/
+	function removeInscribe(output as IItemStack) {
+		Inscriber.removeRecipe(output);
+	}
+
+	/*
+		Add an Inscriber Recipe.
+	*/
+	function addInscribe(output as IItemStack, input as IIngredient, inscribe as bool) {
+		Inscriber.addRecipe(output, input, inscribe);
+	}
+	function addInscribe(output as IItemStack, input as IIngredient, inscribe as bool, top as IIngredient) {
+		Inscriber.addRecipe(output, input, inscribe, top);
+	}
+	function addInscribe(output as IItemStack, input as IIngredient, inscribe as bool, top as IIngredient, bottom as IIngredient) {
+		Inscriber.addRecipe(output, input, inscribe, top, bottom);
 	}
 }

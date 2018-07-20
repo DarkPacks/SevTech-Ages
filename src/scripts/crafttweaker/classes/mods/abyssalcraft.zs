@@ -1,4 +1,4 @@
-#priority 2400
+#priority 3400
 
 /*
 	SevTech: Ages AbyssalCraft Script
@@ -12,10 +12,12 @@
 import crafttweaker.item.IItemStack;
 
 import mods.abyssalcraft.Crystallizer;
+import mods.abyssalcraft.Materializer;
 import mods.abyssalcraft.Transmutator;
+import mods.abyssalcraft.RitualStages;
 
 zenClass AbyssalCraft {
-	val default_xp as float;
+	var default_xp as float;
 
 	zenConstructor(defaultXP as float) {
 		default_xp as defaultXP;
@@ -63,5 +65,26 @@ zenClass AbyssalCraft {
 	}
 	function addCrystallization(input as IItemStack, output as IItemStack, output2 as IItemStack, exp as float) {
 		Crystallizer.addCrystallization(input, output, output2, exp);
+	}
+
+	/*
+		Remove a Materializer Recipe
+	*/
+	function removeMaterialization(output as IItemStack) {
+		Materializer.removeMaterialization(output);
+	}
+
+	/*
+		Add a Materializer Recipe
+	*/
+	function addMaterialization(output as IItemStack, input as IItemStack[]) {
+		Materializer.addMaterialization(output, input);
+	}
+
+	/*
+		Add a Ritual to a Stage.
+	*/
+	function addRitualStage(stage as string, ritual as string) {
+		RitualStages.addRitualStage(stage, ritual);
 	}
 }

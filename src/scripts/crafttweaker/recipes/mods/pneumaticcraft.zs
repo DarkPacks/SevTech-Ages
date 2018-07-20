@@ -153,6 +153,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.compressedIron.rod, null, metals.compressedIron.rod],
 			[metals.compressedIron.rod, null, metals.compressedIron.rod]
 		]
+	],
+	<pneumaticcraft:armor_upgrade> : [
+		[
+			[<minecraft:dye:4>, metals.reinforcedMetal.ingot, <minecraft:dye:4>],
+			[metals.reinforcedMetal.ingot, metals.compressedIron.ingot, metals.reinforcedMetal.ingot],
+			[<minecraft:dye:4>, metals.reinforcedMetal.ingot, <minecraft:dye:4>]
+		]
 	]
 };
 
@@ -184,6 +191,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<pneumaticcraft:armor_upgrade>,
 	<pneumaticcraft:assembly_drill>,
 	<pneumaticcraft:flux_compressor>,
 	<pneumaticcraft:gps_tool:0>,

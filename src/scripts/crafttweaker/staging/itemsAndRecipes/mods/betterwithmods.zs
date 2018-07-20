@@ -21,6 +21,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageZero.stage: [
+		<betterwithmods:aesthetic:13>,
 		<betterwithmods:aesthetic:6>,
 		<betterwithmods:aesthetic:7>,
 		<betterwithmods:beef_dinner>,
@@ -417,6 +418,10 @@ static hiddenItems as IIngredient[] = [
 	<betterwithmods:wood_table:4>,
 	<betterwithmods:wood_table:5>,
 	<betterwithmods:wood_table>,
+	<betterwithmods:wool_boots>,
+	<betterwithmods:wool_chest>,
+	<betterwithmods:wool_helmet>,
+	<betterwithmods:wool_pants>,
 	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:10>),
 	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:11>),
 	utils.createAllMiniBlockIngredient(<betterwithmods:nether_clay>),

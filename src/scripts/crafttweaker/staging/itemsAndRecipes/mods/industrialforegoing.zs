@@ -88,6 +88,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFive.stage: [
 		<industrialforegoing:black_hole_controller>,
+		<industrialforegoing:black_hole_label>,
 		<industrialforegoing:black_hole_tank>,
 		<industrialforegoing:black_hole_unit>
 	]

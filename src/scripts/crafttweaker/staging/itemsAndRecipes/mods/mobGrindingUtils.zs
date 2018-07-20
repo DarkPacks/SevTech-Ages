@@ -31,6 +31,9 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<mob_grinding_utils:ender_inhibitor_off>,
+	<mob_grinding_utils:ender_inhibitor_on>,
+	<mob_grinding_utils:entity_conveyor>,
 	<mob_grinding_utils:gm_chicken_feed>,
 	<mob_grinding_utils:mob_swab>,
 	<mob_grinding_utils:null_sword>

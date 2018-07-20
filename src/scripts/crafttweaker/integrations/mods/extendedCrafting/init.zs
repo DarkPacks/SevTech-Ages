@@ -1,4 +1,3 @@
-#debug
 #priority -50
 
 /*

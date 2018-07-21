@@ -17,7 +17,10 @@ unifier.unify(<ore:dustCoal>, <betterwithmods:material:18>, null);
 unifier.unify(<ore:dustWood>, <betterwithmods:material:22>, null);
 unifier.unify(<ore:pulpWood>, <betterwithmods:material:22>, null);
 unifier.unify(<ore:dustDiamond>, <mekanism:otherdust:0>, null);
-// unifier.unify(<ore:dustEmerald>, null, null);
 unifier.unify(<ore:dustSulfur>, <immersiveengineering:material:25>, null);
 unifier.unify(<ore:blockCharcoal>, <charcoalblock:charcoal_block:0>, null);
 unifier.unify(<ore:nuggetDiamond>, <extendedcrafting:material:128>, null);
+
+// ==================================
+// Clear ore dicts
+unifier.clearOreDict(<ore:dustEmerald>, null, null);

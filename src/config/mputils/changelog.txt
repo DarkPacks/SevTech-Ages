@@ -8,6 +8,25 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+GameStages 2.0 (3.1.0) TBC.
+
+Mod Updates:
+* B.A.S.E (3.9.0)
+* Bookshelf (2.3.550)
+* Content Tweaker (4.6.0)
+* Dimension Stages (2.0.20)
+* Game Stages (2.0.91)
+* Item Stages (2.0.35)
+* MTLib (3.0.5)
+* MulitBlock Stages (1.1.1)
+* Ore Stages (2.0.30)
+* Recipe Stages (1.1.1)
+* SevTweaks (0.2.0)
+* Together Forever (1.0.10-17)
+* Tinker Stages (2.0.15)
+
+---------------------------------------------------------------------
+
 3.0.9
 
 Bug Fixes:

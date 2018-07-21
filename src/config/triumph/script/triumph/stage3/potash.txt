@@ -1,0 +1,15 @@
+setTitle("Potash")
+
+setIcon("betterwithmods:material", 21)
+
+setDescription("Use Logs, Planks, or Sawdust in a Stoked Cauldron to create Potash")
+
+addParent("triumph:stage3/bellows")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:material", 21)
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTitle("The Market")
+
+setIcon("farmingforblockheads:market")
+
+setDescription("Use the Farming for Blockheads Market to order Seeds and Saplings")
+
+addParent("triumph:stage2/gold")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("farmingforblockheads:market")
+
+//Rewards
+setRewardExperience(8)

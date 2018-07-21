@@ -133,6 +133,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>],
 			[<primal:thin_slab_thatch:0>, <primal:thin_slab_thatch:0>, <primal:thin_slab_thatch:0>]
 		]
+	],
+	<cyclicmagic:tool_launcher:0> : [
+		[
+			[<minecraft:glowstone_dust:0>, <ore:slimeball>, <minecraft:quartz:0>],
+			[null, <minecraft:glowstone_dust:0>, <ore:slimeball>],
+			[<ore:string>, null, <minecraft:glowstone_dust:0>]
+		]
 	]
 };
 
@@ -174,7 +181,8 @@ static removeRecipes as IIngredient[] = [
 	<cyclicmagic:placer_block:0>,
 	<cyclicmagic:sleeping_mat:0>,
 	<cyclicmagic:sprinkler:0>,
-	<cyclicmagic:tool_auto_torch:0>
+	<cyclicmagic:tool_auto_torch:0>,
+	<cyclicmagic:tool_launcher:0>
 ];
 
 function init() {

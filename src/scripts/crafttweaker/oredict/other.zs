@@ -12,11 +12,11 @@ import crafttweaker.item.IItemStack;
 /*
 	Misc
 */
-<ore:rock>.add(<immcraft:rock>);
+<ore:rock>.add(<immcraft:rock:0>);
 
 <ore:dung>.remove(<betterwithmods:material:5>);
 
-<ore:table>.add(<bibliocraft:table>);
+<ore:table>.add(<bibliocraft:table:0>);
 <ore:table>.add(<bibliocraft:table:1>);
 <ore:table>.add(<bibliocraft:table:2>);
 <ore:table>.add(<bibliocraft:table:3>);
@@ -24,20 +24,20 @@ import crafttweaker.item.IItemStack;
 <ore:table>.add(<bibliocraft:table:5>);
 
 // AS Crystal
-<ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
-<ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal>);
-<ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
+<ore:asCrystal>.add(<astralsorcery:itemrockcrystalsimple:0>);
+<ore:asCrystal>.add(<astralsorcery:itemcelestialcrystal:0>);
+<ore:asCrystal>.add(<astralsorcery:itemtunedcelestialcrystal:0>);
 
 // Hide
 <ore:hideTanned>.remove(<betterwithmods:material:6>);
 <ore:hideScoured>.remove(<betterwithmods:material:7>);
 
 // Fiery bottles
-<ore:bottleFiery>.add(<twilightforest:fiery_blood>);
-<ore:bottleFiery>.add(<twilightforest:fiery_tears>);
+<ore:bottleFiery>.add(<twilightforest:fiery_blood:0>);
+<ore:bottleFiery>.add(<twilightforest:fiery_tears:0>);
 
 // Natura oredicts glass wrong
-<ore:glass>.remove(<natura:nether_glass>);
+<ore:glass>.remove(<natura:nether_glass:0>);
 <ore:glass>.remove(<natura:nether_glass:1>);
 <ore:glassBlock>.add(<natura:nether_glass:*>);
 
@@ -61,20 +61,20 @@ import crafttweaker.item.IItemStack;
 <ore:hideTanned>.remove(<betterwithmods:material:32>);
 
 // The Betweenlands
-<ore:stoneLimestone>.add(<thebetweenlands:limestone>);
-<ore:stoneLimestone>.add(<thebetweenlands:limestone_chiseled>);
-<ore:stoneLimestone>.add(<thebetweenlands:cracked_limestone_bricks>);
-<ore:stoneLimestone>.add(<thebetweenlands:limestone_bricks>);
-<ore:stoneLimestone>.add(<thebetweenlands:limestone_tiles>);
-<ore:stoneLimestone>.add(<thebetweenlands:mossy_limestone_bricks>);
-<ore:stoneLimestonePolished>.add(<thebetweenlands:polished_limestone>);
-<ore:stoneLimestonePolished>.add(<thebetweenlands:weak_polished_limestone>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone:0>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_chiseled:0>);
+<ore:stoneLimestone>.add(<thebetweenlands:cracked_limestone_bricks:0>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_bricks:0>);
+<ore:stoneLimestone>.add(<thebetweenlands:limestone_tiles:0>);
+<ore:stoneLimestone>.add(<thebetweenlands:mossy_limestone_bricks:0>);
+<ore:stoneLimestonePolished>.add(<thebetweenlands:polished_limestone:0>);
+<ore:stoneLimestonePolished>.add(<thebetweenlands:weak_polished_limestone:0>);
 
 // Cobblestone Slab
 <ore:slabCobblestone>.add(<minecraft:stone_slab:3>);
-<ore:slabCobblestone>.add(<abyssalcraft:darkcobbleslab1>);
-<ore:slabCobblestone>.add(<traverse:red_rock_cobblestone_slab>);
-<ore:slabCobblestone>.add(<traverse:blue_rock_cobblestone_slab>);
+<ore:slabCobblestone>.add(<abyssalcraft:darkcobbleslab1:0>);
+<ore:slabCobblestone>.add(<traverse:red_rock_cobblestone_slab:0>);
+<ore:slabCobblestone>.add(<traverse:blue_rock_cobblestone_slab:0>);
 
 // String
 <ore:string>.add(<natura:materials:7>);

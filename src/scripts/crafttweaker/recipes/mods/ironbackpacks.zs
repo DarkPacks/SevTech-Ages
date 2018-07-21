@@ -24,11 +24,11 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}) : [
+	<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}) : [
 		[
-			[<minecraft:wool:*>, <minecraft:leather>, <minecraft:wool:*>],
-			[<minecraft:leather>, <primal:storage_crate:*>, <minecraft:leather>],
-			[<minecraft:wool:*>, <minecraft:leather>, <minecraft:wool:*>]
+			[<minecraft:wool:*>, <minecraft:leather:0>, <minecraft:wool:*>],
+			[<minecraft:leather:0>, <primal:storage_crate:*>, <minecraft:leather:0>],
+			[<minecraft:wool:*>, <minecraft:leather:0>, <minecraft:wool:*>]
 		]
 	]
 };
@@ -58,7 +58,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<ironbackpacks:backpack>
+	<ironbackpacks:backpack:0>
 ];
 
 function initSpecRecipes() {
@@ -67,12 +67,12 @@ function initSpecRecipes() {
 
 	// Upgrade Spec
 	recipes.addShaped("ct-ironbackpacks-iron-upgrade_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}),
 		[
-			[metals.iron.plate, <ironbackpacks:upgrade>, metals.iron.plate],
+			[metals.iron.plate, <ironbackpacks:upgrade:0>, metals.iron.plate],
 			[
 				metals.iron.plate,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
 				metals.iron.plate
 			],
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
@@ -82,12 +82,12 @@ function initSpecRecipes() {
 	);
 	// Storage Spec
 	recipes.addShaped("ct-ironbackpacks-iron-storage_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}),
 		[
-			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest:0>, metals.iron.plate],
 			[
 				metals.iron.plate,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:basic", spec: "NONE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:basic"}}).marked("bag"),
 				metals.iron.plate
 			],
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
@@ -101,12 +101,12 @@ function initSpecRecipes() {
 
 	// Upgrade Spec
 	recipes.addShaped("ct-ironbackpacks-gold-upgrade_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}),
 		[
-			[metals.gold.plate, <ironbackpacks:upgrade>, metals.gold.plate],
+			[metals.gold.plate, <ironbackpacks:upgrade:0>, metals.gold.plate],
 			[
 				metals.gold.plate,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "UPGRADE"}}).marked("bag"),
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "UPGRADE"}}).marked("bag"),
 				metals.gold.plate
 			],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
@@ -116,12 +116,12 @@ function initSpecRecipes() {
 	);
 	// Storage Spec
 	recipes.addShaped("ct-ironbackpacks-gold-storage_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}),
 		[
-			[metals.gold.plate, <minecraft:chest>, metals.gold.plate],
+			[metals.gold.plate, <minecraft:chest:0>, metals.gold.plate],
 			[
 				metals.gold.plate,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "STORAGE"}}).marked("bag"),
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:iron", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:iron", spec: "STORAGE"}}).marked("bag"),
 				metals.gold.plate
 			],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
@@ -135,30 +135,30 @@ function initSpecRecipes() {
 
 	// Upgrade Spec
 	recipes.addShaped("ct-ironbackpacks-diamond-upgrade_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "UPGRADE"}}),
 		[
-			[<minecraft:diamond>, <ironbackpacks:upgrade>, <minecraft:diamond>],
+			[<minecraft:diamond:0>, <ironbackpacks:upgrade:0>, <minecraft:diamond:0>],
 			[
-				<minecraft:diamond>,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "UPGRADE"}}).marked("bag"),
-				<minecraft:diamond>
+				<minecraft:diamond:0>,
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "UPGRADE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "UPGRADE"}}).marked("bag"),
+				<minecraft:diamond:0>
 			],
-			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+			[<minecraft:diamond:0>, <minecraft:diamond:0>, <minecraft:diamond:0>]
 		],
 		ironbackpacksRecipeFunc,
 		null
 	);
 	// Storage Spec
 	recipes.addShaped("ct-ironbackpacks-diamond-storage_spec",
-		<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
+		<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:diamond", spec: "STORAGE"}}),
 		[
-			[<minecraft:diamond>, <minecraft:chest>, <minecraft:diamond>],
+			[<minecraft:diamond:0>, <minecraft:chest:0>, <minecraft:diamond:0>],
 			[
-				<minecraft:diamond>,
-				<ironbackpacks:backpack>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "STORAGE"}}).marked("bag"),
-				<minecraft:diamond>
+				<minecraft:diamond:0>,
+				<ironbackpacks:backpack:0>.withTag({packInfo: {upgrade: [], type: "ironbackpacks:gold", spec: "STORAGE"}}).onlyWithTag({packInfo: {type: "ironbackpacks:gold", spec: "STORAGE"}}).marked("bag"),
+				<minecraft:diamond:0>
 			],
-			[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+			[<minecraft:diamond:0>, <minecraft:diamond:0>, <minecraft:diamond:0>]
 		],
 		ironbackpacksRecipeFunc,
 		null

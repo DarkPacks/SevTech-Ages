@@ -23,19 +23,19 @@ import scripts.crafttweaker.stages.stageDisabled;
 static replacementItemsForStage as IIngredient[][][string] = {
 	stageOne.stage : [
 		// Village Replacement for stage1
-		[<minecraft:oak_stairs:*>, <minecraft:planks>],
-		[<minecraft:stone_stairs:*>, <minecraft:cobblestone>],
-		[<abyssalcraft:dltfence:*>, <abyssalcraft:dltplank>],
+		[<minecraft:oak_stairs:*>, <minecraft:planks:0>],
+		[<minecraft:stone_stairs:*>, <minecraft:cobblestone:0>],
+		[<abyssalcraft:dltfence:*>, <abyssalcraft:dltplank:0>],
 		[<minecraft:spruce_fence:*>, <minecraft:planks:1>],
 		[<minecraft:birch_fence:*>, <minecraft:planks:2>],
 		[<minecraft:jungle_fence:*>, <minecraft:planks:3>],
 		[<minecraft:dark_oak_fence:*>, <minecraft:planks:5>],
 		[<minecraft:acacia_fence:*>, <minecraft:planks:4>],
-		[<abyssalcraft:dltstairs:*>, <abyssalcraft:dltplank>],
-		[<abyssalcraft:dcstairs:*>, <abyssalcraft:cobblestone>],
-		[<minecraft:fence:*>, <minecraft:planks>],
+		[<abyssalcraft:dltstairs:*>, <abyssalcraft:dltplank:0>],
+		[<abyssalcraft:dcstairs:*>, <abyssalcraft:cobblestone:0>],
+		[<minecraft:fence:*>, <minecraft:planks:0>],
 
-		[<betterwithmods:wood_table:*>, <minecraft:planks>],
+		[<betterwithmods:wood_table:*>, <minecraft:planks:0>],
 
 		[<minecraft:spruce_stairs:*>, <minecraft:planks:1>],
 		[<minecraft:birch_stairs:*>, <minecraft:planks:2>],
@@ -44,51 +44,51 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:acacia_stairs:*>, <minecraft:planks:4>],
 		[<minecraft:sandstone_stairs:*>, <minecraft:sandstone:2>],
 
-		[<minecraft:wool>, <minecraft:planks>],
-		[<minecraft:wool:1>, <minecraft:planks>],
-		[<minecraft:wool:2>, <minecraft:planks>],
-		[<minecraft:wool:3>, <minecraft:planks>],
-		[<minecraft:wool:4>, <minecraft:planks>],
-		[<minecraft:wool:5>, <minecraft:planks>],
-		[<minecraft:wool:6>, <minecraft:planks>],
-		[<minecraft:wool:7>, <minecraft:planks>],
-		[<minecraft:wool:8>, <minecraft:planks>],
-		[<minecraft:wool:9>, <minecraft:planks>],
-		[<minecraft:wool:10>, <minecraft:planks>],
-		[<minecraft:wool:11>, <minecraft:planks>],
-		[<minecraft:wool:12>, <minecraft:planks>],
-		[<minecraft:wool:13>, <minecraft:planks>],
-		[<minecraft:wool:14>, <minecraft:planks>],
-		[<minecraft:wool:15>, <minecraft:planks>],
+		[<minecraft:wool:0>, <minecraft:planks:0>],
+		[<minecraft:wool:1>, <minecraft:planks:0>],
+		[<minecraft:wool:2>, <minecraft:planks:0>],
+		[<minecraft:wool:3>, <minecraft:planks:0>],
+		[<minecraft:wool:4>, <minecraft:planks:0>],
+		[<minecraft:wool:5>, <minecraft:planks:0>],
+		[<minecraft:wool:6>, <minecraft:planks:0>],
+		[<minecraft:wool:7>, <minecraft:planks:0>],
+		[<minecraft:wool:8>, <minecraft:planks:0>],
+		[<minecraft:wool:9>, <minecraft:planks:0>],
+		[<minecraft:wool:10>, <minecraft:planks:0>],
+		[<minecraft:wool:11>, <minecraft:planks:0>],
+		[<minecraft:wool:12>, <minecraft:planks:0>],
+		[<minecraft:wool:13>, <minecraft:planks:0>],
+		[<minecraft:wool:14>, <minecraft:planks:0>],
+		[<minecraft:wool:15>, <minecraft:planks:0>],
 
 		// Coal
-		[<minecraft:coal_ore>],
-		[<geolosys:ore_vanilla>],
-		[<geolosys:ore_sample_vanilla>, <immcraft:rock>],
+		[<minecraft:coal_ore:0>],
+		[<geolosys:ore_vanilla:0>],
+		[<geolosys:ore_sample_vanilla:0>, <immcraft:rock:0>],
 
 		// Abyssalcraft
-		[<abyssalcraft:coraliumore>],
-		[<abyssalcraft:abypcorore>, <abyssalcraft:stone:1>],
-		[<abyssalcraft:abylcorore>, <abyssalcraft:stone:1>],
+		[<abyssalcraft:coraliumore:0>],
+		[<abyssalcraft:abypcorore:0>, <abyssalcraft:stone:1>],
+		[<abyssalcraft:abylcorore:0>, <abyssalcraft:stone:1>],
 
 		// Nitre
-		[<abyssalcraft:nitreore>],
-		[<abyssalcraft:abynitore>, <abyssalcraft:stone:1>],
+		[<abyssalcraft:nitreore:0>],
+		[<abyssalcraft:abynitore:0>, <abyssalcraft:stone:1>],
 
 		// Copper
-		[<immersiveengineering:ore>],
+		[<immersiveengineering:ore:0>],
 		[<geolosys:ore:2>],
-		[<geolosys:ore_sample:2>, <immcraft:rock>],
+		[<geolosys:ore_sample:2>, <immcraft:rock:0>],
 		[<geolosys:ore:3>],
-		[<geolosys:ore_sample:3>, <immcraft:rock>],
-		[<abyssalcraft:abycopore>, <abyssalcraft:stone:1>],
+		[<geolosys:ore_sample:3>, <immcraft:rock:0>],
+		[<abyssalcraft:abycopore:0>, <abyssalcraft:stone:1>],
 
 		// Tin
 		[<geolosys:ore:4>],
 		[<geolosys:ore:5>],
-		[<geolosys:ore_sample:4>, <immcraft:rock>],
-		[<geolosys:ore_sample:5>, <immcraft:rock>],
-		[<abyssalcraft:abytinore>, <abyssalcraft:stone:1>],
+		[<geolosys:ore_sample:4>, <immcraft:rock:0>],
+		[<geolosys:ore_sample:5>, <immcraft:rock:0>],
+		[<abyssalcraft:abytinore:0>, <abyssalcraft:stone:1>],
 
 		// Black Quarts
 		[<actuallyadditions:block_misc:3>],
@@ -100,44 +100,44 @@ static replacementItemsForStage as IIngredient[][][string] = {
 	stageTwo.stage : [
 		[<minecraft:iron_bars:*>],
 
-		[<minecraft:stonebrick:0>, <minecraft:cobblestone>],
-		[<minecraft:stonebrick:1>, <minecraft:cobblestone>],
-		[<minecraft:stonebrick:2>, <minecraft:cobblestone>],
-		[<minecraft:stonebrick:3>, <minecraft:cobblestone>],
-		[<minecraft:mossy_cobblestone>, <minecraft:cobblestone>],
-		[<minecraft:bookshelf>, <minecraft:planks>],
+		[<minecraft:stonebrick:0>, <minecraft:cobblestone:0>],
+		[<minecraft:stonebrick:1>, <minecraft:cobblestone:0>],
+		[<minecraft:stonebrick:2>, <minecraft:cobblestone:0>],
+		[<minecraft:stonebrick:3>, <minecraft:cobblestone:0>],
+		[<minecraft:mossy_cobblestone:0>, <minecraft:cobblestone:0>],
+		[<minecraft:bookshelf:0>, <minecraft:planks:0>],
 
 		// Iron
-		[<minecraft:iron_ore>],
+		[<minecraft:iron_ore:0>],
 		[<geolosys:ore:0>],
-		[<geolosys:ore_sample:0>, <immcraft:rock>],
-		[<abyssalcraft:abyiroore>, <abyssalcraft:stone:1>],
+		[<geolosys:ore_sample:0>, <immcraft:rock:0>],
+		[<abyssalcraft:abyiroore:0>, <abyssalcraft:stone:1>],
 
 		// Lapis
-		[<minecraft:lapis_ore>],
+		[<minecraft:lapis_ore:0>],
 		[<minecraft:lapis_block:0>],
 		[<geolosys:ore_vanilla:3>],
-		[<geolosys:ore_sample_vanilla:3>, <immcraft:rock>],
+		[<geolosys:ore_sample_vanilla:3>, <immcraft:rock:0>],
 
 		// Gold
-		[<minecraft:gold_ore>],
+		[<minecraft:gold_ore:0>],
 		[<geolosys:ore_vanilla:2>],
-		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock>],
-		[<minecraft:gold_block>],
-		[<abyssalcraft:abygolore>, <abyssalcraft:stone:1>],
+		[<geolosys:ore_sample_vanilla:2>, <immcraft:rock:0>],
+		[<minecraft:gold_block:0>],
+		[<abyssalcraft:abygolore:0>, <abyssalcraft:stone:1>],
 
 		// Redstone
-		[<minecraft:redstone_ore>],
+		[<minecraft:redstone_ore:0>],
 
 		// Astral Sorcery
-		[<astralsorcery:blockcustomsandore>, <minecraft:sand>],
-		[<astralsorcery:blockcustomore>],
-		[<astralsorcery:blockgeolosyssamplecluster>, <immcraft:rock>]
+		[<astralsorcery:blockcustomsandore:0>, <minecraft:sand:0>],
+		[<astralsorcery:blockcustomore:0>],
+		[<astralsorcery:blockgeolosyssamplecluster:0>, <immcraft:rock:0>]
 	],
 
 	stageThree.stage : [
-		[<minecraft:obsidian>, <chisel:basalt>],
-		[<chisel:obsidian>, <chisel:basalt:1>],
+		[<minecraft:obsidian:0>, <chisel:basalt:0>],
+		[<chisel:obsidian:0>, <chisel:basalt:1>],
 		[<chisel:obsidian:1>, <chisel:basalt:2>],
 		[<chisel:obsidian:2>, <chisel:basalt:3>],
 		[<chisel:obsidian:3>, <chisel:basalt:4>],
@@ -155,12 +155,12 @@ static replacementItemsForStage as IIngredient[][][string] = {
 
 		// Silver + Lead
 		[<geolosys:ore:6>],
-		[<geolosys:ore_sample:6>, <immcraft:rock>],
+		[<geolosys:ore_sample:6>, <immcraft:rock:0>],
 
 		// Bauxite
 		[<immersiveengineering:ore:1>],
 		[<geolosys:ore:7>],
-		[<geolosys:ore_sample:7>, <immcraft:rock>],
+		[<geolosys:ore_sample:7>, <immcraft:rock:0>],
 
 		// Lead
 		[<immersiveengineering:ore:2>],
@@ -168,24 +168,24 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		// Nickel
 		[<immersiveengineering:ore:4>],
 		[<geolosys:ore:1>],
-		[<geolosys:ore_sample:1>, <immcraft:rock>],
+		[<geolosys:ore_sample:1>, <immcraft:rock:0>],
 
 		// Nether
-		[<minecraft:soul_sand>, <minecraft:dirt>],
-		[<minecraft:glowstone>],
-		[<minecraft:quartz_ore>, <minecraft:netherrack>],
-		[<abyssalcraft:abyore>],
+		[<minecraft:soul_sand:0>, <minecraft:dirt:0>],
+		[<minecraft:glowstone:0>],
+		[<minecraft:quartz_ore:0>, <minecraft:netherrack:0>],
+		[<abyssalcraft:abyore:0>],
 
 		// Platinum
 		[<geolosys:ore:8>],
-		[<geolosys:ore_sample:8>, <immcraft:rock>],
+		[<geolosys:ore_sample:8>, <immcraft:rock:0>],
 
 		// Redstone
-		[<mundaneredstone:redstone_ore>],
+		[<mundaneredstone:redstone_ore:0>],
 		[<geolosys:ore_vanilla:1>],
-		[<geolosys:ore_sample_vanilla:1>, <immcraft:rock>],
-		[<minecraft:redstone_block>, <minecraft:stone:1>],
-		[<chisel:redstone>, <chisel:granite>],
+		[<geolosys:ore_sample_vanilla:1>, <immcraft:rock:0>],
+		[<minecraft:redstone_block:0>, <minecraft:stone:1>],
+		[<chisel:redstone:0>, <chisel:granite:0>],
 		[<chisel:redstone:1>, <chisel:granite:1>],
 		[<chisel:redstone:2>, <chisel:granite:2>],
 		[<chisel:redstone:3>, <chisel:granite:3>],
@@ -201,7 +201,7 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<chisel:redstone:13>, <chisel:granite:13>],
 		[<chisel:redstone:14>, <chisel:granite:14>],
 		[<chisel:redstone:15>, <chisel:granite:15>],
-		[<chisel:redstone1>, <chisel:granite1>],
+		[<chisel:redstone1:0>, <chisel:granite1:0>],
 		[<chisel:redstone1:1>, <chisel:granite1:1>],
 		[<chisel:redstone1:2>, <chisel:granite1:2>],
 		[<chisel:redstone1:3>, <chisel:granite1:3>],
@@ -219,48 +219,48 @@ static replacementItemsForStage as IIngredient[][][string] = {
 	],
 
 	stageFour.stage : [
-		[<tconstruct:ore:0>, <minecraft:netherrack>],
-		[<tconstruct:ore:1>, <minecraft:netherrack>],
+		[<tconstruct:ore:0>, <minecraft:netherrack:0>],
+		[<tconstruct:ore:1>, <minecraft:netherrack:0>],
 
 		// Quartz
 		[<geolosys:ore_vanilla:4>],
-		[<geolosys:ore_sample_vanilla:4>, <immcraft:rock>],
+		[<geolosys:ore_sample_vanilla:4>, <immcraft:rock:0>],
 
 		// Certus Quartz
-		[<appliedenergistics2:quartz_ore>],
-		[<appliedenergistics2:charged_quartz_ore>],
+		[<appliedenergistics2:quartz_ore:0>],
+		[<appliedenergistics2:charged_quartz_ore:0>],
 
 		// Silicon
 		[<galacticraftcore:basic_block_core:8>],
-		[<contenttweaker:sub_block_holder_0:5>, <immcraft:rock>]
+		[<contenttweaker:sub_block_holder_0:5>, <immcraft:rock:0>]
 	],
 
 	stageFive.stage : [
 		// Diamond
-		[<minecraft:diamond_ore>],
+		[<minecraft:diamond_ore:0>],
 		[<geolosys:ore_vanilla:5>],
-		[<geolosys:ore_sample_vanilla:5>, <immcraft:rock>],
-		[<abyssalcraft:abydiaore>, <abyssalcraft:stone:1>],
+		[<geolosys:ore_sample_vanilla:5>, <immcraft:rock:0>],
+		[<abyssalcraft:abydiaore:0>, <abyssalcraft:stone:1>],
 
 		// Emerald
-		[<minecraft:emerald_ore>],
+		[<minecraft:emerald_ore:0>],
 		[<geolosys:ore_vanilla:6>],
-		[<geolosys:ore_sample_vanilla:6>, <immcraft:rock>],
+		[<geolosys:ore_sample_vanilla:6>, <immcraft:rock:0>],
 
 		// Uranium
 		[<immersiveengineering:ore:5>],
 		[<geolosys:ore:9>],
-		[<geolosys:ore_sample:9>, <immcraft:rock>],
+		[<geolosys:ore_sample:9>, <immcraft:rock:0>],
 
 		// Dimensional Shard Ore
-		[<rftools:dimensional_shard_ore>, <minecraft:magma>],
-		[<rftools:dimensional_shard_ore:1>, <minecraft:glowstone>],
-		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone>],
+		[<rftools:dimensional_shard_ore:0>, <minecraft:magma:0>],
+		[<rftools:dimensional_shard_ore:1>, <minecraft:glowstone:0>],
+		[<rftools:dimensional_shard_ore:2>, <minecraft:glowstone:0>],
 
 		// Osmium
-		[<mekanism:oreblock>],
+		[<mekanism:oreblock:0>],
 		[<materialpart:osmium:ore_minecraft_stone>],
-		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock>]
+		[<contenttweaker:sub_block_holder_0:6>, <immcraft:rock:0>]
 	],
 
 	// Just to hide any in generation etc going forward, disable these
@@ -268,15 +268,15 @@ static replacementItemsForStage as IIngredient[][][string] = {
 	stageDisabled.stage : [
 		[<geolosys:cluster:10>],
 		[<geolosys:ore:10>],
-		[<geolosys:ore_sample:10>, <immcraft:rock>],
+		[<geolosys:ore_sample:10>, <immcraft:rock:0>],
 		[<primal:ore_magnetite:*>],
-		[<cyclicmagic:uncrafting_block>]
+		[<cyclicmagic:uncrafting_block:0>]
 	]
 };
 
 static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 	stageOne.stage : [
-		[<minecraft:ladder:*>, <minecraft:planks>],
+		[<minecraft:ladder:*>, <minecraft:planks:0>],
 
 		// Torches
 		[<minecraft:torch:0>, <primal_tech:fibre_torch_lit:0>],
@@ -289,10 +289,10 @@ static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 
 	stageThree.stage : [
 		// Worldgen Items
-		[<minecraft:rail:*>, <immcraft:rock>],
+		[<minecraft:rail:*>, <immcraft:rock:0>],
 
 		// Nether
-		[<minecraft:netherrack>, <primal_tech:charcoal_block>]
+		[<minecraft:netherrack:0>, <primal_tech:charcoal_block>]
 	]
 };
 

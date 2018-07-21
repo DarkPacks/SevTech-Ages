@@ -7,12 +7,12 @@ import scripts.crafttweaker.stages.stageFour;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<guideapi:bloodmagic-guide>,
-		<guideapi:cyclicmagic-guide>
+		<guideapi:bloodmagic-guide:0>,
+		<guideapi:cyclicmagic-guide:0>
 	],
 
 	stageFour.stage: [
-		<guideapi:modularrouters-guidebook>
+		<guideapi:modularrouters-guidebook:0>
 	]
 };
 

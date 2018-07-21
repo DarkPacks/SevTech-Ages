@@ -27,40 +27,40 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<astralsorcery:itemcraftingcomponent:5> : [
 		[
 			[null, <betterwithaddons:japanmat:11>, null],
-			[<betterwithaddons:japanmat:11>, <astralsorcery:itemcraftingcomponent>, <betterwithaddons:japanmat:11>],
+			[<betterwithaddons:japanmat:11>, <astralsorcery:itemcraftingcomponent:0>, <betterwithaddons:japanmat:11>],
 			[null, <betterwithaddons:japanmat:11>, null]
 		]
 	],
-	<astralsorcery:itemjournal> : [
+	<astralsorcery:itemjournal:0> : [
 		[
 			[null, <astralsorcery:itemcraftingcomponent:5>, null],
-			[<astralsorcery:itemcraftingcomponent>, <primal:plant_cloth>, <astralsorcery:itemcraftingcomponent>],
-			[null, <astralsorcery:itemcraftingcomponent>, null]
+			[<astralsorcery:itemcraftingcomponent:0>, <primal:plant_cloth:0>, <astralsorcery:itemcraftingcomponent:0>],
+			[null, <astralsorcery:itemcraftingcomponent:0>, null]
 		]
 	],
-	<astralsorcery:itemskyresonator> : [
+	<astralsorcery:itemskyresonator:0> : [
 		[
-			[null, <astralsorcery:itemcraftingcomponent>, null],
+			[null, <astralsorcery:itemcraftingcomponent:0>, null],
 			[<ore:stoneMarble>, craftingUtils.getBucketIngredient(<liquid:astralsorcery.liquidstarlight>), <ore:stoneMarble>],
 			[null, metals.bronze.rod, null]
 		]
 	],
-	<astralsorcery:itemwand> : [
+	<astralsorcery:itemwand:0> : [
 		[
-			[null, <astralsorcery:itemcraftingcomponent>, <minecraft:ender_pearl>],
-			[null, <ore:stoneMarble>, <astralsorcery:itemcraftingcomponent>],
+			[null, <astralsorcery:itemcraftingcomponent:0>, <minecraft:ender_pearl:0>],
+			[null, <ore:stoneMarble>, <astralsorcery:itemcraftingcomponent:0>],
 			[<ore:stoneMarble>, null, null]
 		]
 	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<astralsorcery:itemjournal>: {
-		Utils.genRecipeName(stageTwo, <astralsorcery:itemjournal>): [
+	<astralsorcery:itemjournal:0>: {
+		Utils.genRecipeName(stageTwo, <astralsorcery:itemjournal:0>): [
 			[
 				[null, <astralsorcery:itemcraftingcomponent:5>, null],
-				[<astralsorcery:itemcraftingcomponent>, <minecraft:book>, <astralsorcery:itemcraftingcomponent>],
-				[null, <astralsorcery:itemcraftingcomponent>, null]
+				[<astralsorcery:itemcraftingcomponent:0>, <minecraft:book:0>, <astralsorcery:itemcraftingcomponent:0>],
+				[null, <astralsorcery:itemcraftingcomponent:0>, null]
 			]
 		]
 	}
@@ -88,7 +88,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<astralsorcery:itemwand>
+	<astralsorcery:itemwand:0>
 ];
 
 function init() {

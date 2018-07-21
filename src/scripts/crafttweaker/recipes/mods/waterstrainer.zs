@@ -23,31 +23,31 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<waterstrainer:strainer_base> : [
+	<waterstrainer:strainer_base:0> : [
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
-			[<ore:plankWood>, <immcraft:chest>, <ore:plankWood>]
+			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>]
 		]
 	],
-	<waterstrainer:garden_trowel> : [
+	<waterstrainer:garden_trowel:0> : [
 		[
-			[null, null, <minecraft:dirt>],
-			[null, <minecraft:flint>, null],
+			[null, null, <minecraft:dirt:0>],
+			[null, <minecraft:flint:0>, null],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<waterstrainer:bait_pot> : [
+	<waterstrainer:bait_pot:0> : [
 		[
-			[null, <waterstrainer:net>, null],
-			[null, <minecraft:flower_pot>, null]
+			[null, <waterstrainer:net:0>, null],
+			[null, <minecraft:flower_pot:0>, null]
 		]
 	],
-	<waterstrainer:strainer_base>: [
+	<waterstrainer:strainer_base:0>: [
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>]
+			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>]
 		]
 	]
 };
@@ -77,9 +77,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<waterstrainer:bait_pot>,
-	<waterstrainer:garden_trowel>,
-	<waterstrainer:strainer_base>
+	<waterstrainer:bait_pot:0>,
+	<waterstrainer:garden_trowel:0>,
+	<waterstrainer:strainer_base:0>
 ];
 
 function init() {

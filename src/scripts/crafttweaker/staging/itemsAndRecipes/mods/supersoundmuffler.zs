@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<supersoundmuffler:sound_muffler_bauble>,
-		<supersoundmuffler:sound_muffler>
+		<supersoundmuffler:sound_muffler_bauble:0>,
+		<supersoundmuffler:sound_muffler:0>
 	]
 };
 

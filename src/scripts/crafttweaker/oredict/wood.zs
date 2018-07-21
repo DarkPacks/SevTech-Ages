@@ -25,53 +25,53 @@
 
 // Add subblocks of wildcarded ones
 <ore:logWood>.add(<minecraft:log2:1>);
-<ore:logWood>.add(<minecraft:log2>);
+<ore:logWood>.add(<minecraft:log2:0>);
 <ore:logWood>.add(<minecraft:log:1>);
 <ore:logWood>.add(<minecraft:log:2>);
 <ore:logWood>.add(<minecraft:log:3>);
-<ore:logWood>.add(<minecraft:log>);
+<ore:logWood>.add(<minecraft:log:0>);
 <ore:logWood>.add(<natura:nether_logs2:15>);
-<ore:logWood>.add(<natura:nether_logs2>);
+<ore:logWood>.add(<natura:nether_logs2:0>);
 <ore:logWood>.add(<natura:nether_logs:1>);
 <ore:logWood>.add(<natura:nether_logs:2>);
-<ore:logWood>.add(<natura:nether_logs>);
+<ore:logWood>.add(<natura:nether_logs:0>);
 <ore:logWood>.add(<natura:overworld_logs2:1>);
 <ore:logWood>.add(<natura:overworld_logs2:2>);
 <ore:logWood>.add(<natura:overworld_logs2:3>);
-<ore:logWood>.add(<natura:overworld_logs2>);
+<ore:logWood>.add(<natura:overworld_logs2:0>);
 <ore:logWood>.add(<natura:overworld_logs:1>);
 <ore:logWood>.add(<natura:overworld_logs:2>);
 <ore:logWood>.add(<natura:overworld_logs:3>);
-<ore:logWood>.add(<natura:overworld_logs>);
+<ore:logWood>.add(<natura:overworld_logs:0>);
 <ore:logWood>.add(<natura:redwood_logs:1>);
 <ore:logWood>.add(<natura:redwood_logs:2>);
-<ore:logWood>.add(<natura:redwood_logs>);
+<ore:logWood>.add(<natura:redwood_logs:0>);
 <ore:logWood>.add(<twilightforest:magic_log:1>);
 <ore:logWood>.add(<twilightforest:magic_log:2>);
 <ore:logWood>.add(<twilightforest:magic_log:3>);
-<ore:logWood>.add(<twilightforest:magic_log>);
+<ore:logWood>.add(<twilightforest:magic_log:0>);
 <ore:logWood>.add(<twilightforest:twilight_log:1>);
 <ore:logWood>.add(<twilightforest:twilight_log:2>);
 <ore:logWood>.add(<twilightforest:twilight_log:3>);
-<ore:logWood>.add(<twilightforest:twilight_log>);
+<ore:logWood>.add(<twilightforest:twilight_log:0>);
 
 // Add these to ensure theyre in oredict at CrT time
-<ore:logWood>.add(<betterwithaddons:log_mulberry>);
-<ore:logWood>.add(<betterwithaddons:log_sakura>);
-<ore:logWood>.add(<betterwithmods:blood_log>);
-<ore:logWood>.add(<totemic:cedar_log>);
-<ore:logWood>.add(<traverse:fir_log>);
+<ore:logWood>.add(<betterwithaddons:log_mulberry:0>);
+<ore:logWood>.add(<betterwithaddons:log_sakura:0>);
+<ore:logWood>.add(<betterwithmods:blood_log:0>);
+<ore:logWood>.add(<totemic:cedar_log:0>);
+<ore:logWood>.add(<traverse:fir_log:0>);
 
 // Add to oredict
-<ore:logWood>.add(<betterwithaddons:log_luretree>);
-<ore:logWood>.add(<betterwithaddons:log_luretree_face>);
+<ore:logWood>.add(<betterwithaddons:log_luretree:0>);
+<ore:logWood>.add(<betterwithaddons:log_luretree_face:0>);
 <ore:logWood>.add(<extraplanets:kepler22b_maple_logs2:1>);
-<ore:logWood>.add(<extraplanets:kepler22b_maple_logs2>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs2:0>);
 <ore:logWood>.add(<extraplanets:kepler22b_maple_logs:1>);
 <ore:logWood>.add(<extraplanets:kepler22b_maple_logs:2>);
 <ore:logWood>.add(<extraplanets:kepler22b_maple_logs:3>);
-<ore:logWood>.add(<extraplanets:kepler22b_maple_logs>);
-<ore:logWood>.add(<primal:logs>);
+<ore:logWood>.add(<extraplanets:kepler22b_maple_logs:0>);
+<ore:logWood>.add(<primal:logs:0>);
 <ore:logWood>.add(<primal:logs_stripped:1>);
 <ore:logWood>.add(<primal:logs_stripped:2>);
 <ore:logWood>.add(<primal:logs_stripped:3>);
@@ -79,22 +79,22 @@
 <ore:logWood>.add(<primal:logs_stripped:5>);
 <ore:logWood>.add(<primal:logs_stripped:6>);
 <ore:logWood>.add(<primal:logs_stripped:7>);
-<ore:logWood>.add(<primal:logs_stripped>);
-<ore:logWood>.add(<thebetweenlands:log_rubber>);
-<ore:logWood>.add(<thebetweenlands:log_sap>);
+<ore:logWood>.add(<primal:logs_stripped:0>);
+<ore:logWood>.add(<thebetweenlands:log_rubber:0>);
+<ore:logWood>.add(<thebetweenlands:log_sap:0>);
 <ore:logWood>.add(<thebetweenlands:log_weedwood:12>);
-<ore:logWood>.add(<thebetweenlands:log_weedwood>);
-<ore:logWood>.add(<totemic:stripped_cedar_log>);
+<ore:logWood>.add(<thebetweenlands:log_weedwood:0>);
+<ore:logWood>.add(<totemic:stripped_cedar_log:0>);
 
 /*
 	Wood Planks
 */
 
 // Add these to ensure theyre in oredict at CrT time
-<ore:plankWood>.add(<betterwithaddons:planks_mulberry>);
-<ore:plankWood>.add(<betterwithaddons:planks_sakura>);
-<ore:plankWood>.add(<totemic:cedar_plank>);
-<ore:plankWood>.add(<traverse:fir_planks>);
+<ore:plankWood>.add(<betterwithaddons:planks_mulberry:0>);
+<ore:plankWood>.add(<betterwithaddons:planks_sakura:0>);
+<ore:plankWood>.add(<totemic:cedar_plank:0>);
+<ore:plankWood>.add(<traverse:fir_planks:0>);
 
 // Remove from oredict
 <ore:plankWood>.add(<primal:planks:1>);
@@ -102,8 +102,8 @@
 // Add to oredict
 <ore:plankWood>.add(<extraplanets:kepler22b_planks:*>);
 <ore:plankWood>.add(<primal:planks:*>);
-<ore:plankWood>.add(<thebetweenlands:rubber_tree_planks>);
-<ore:plankWood>.add(<thebetweenlands:weedwood_planks>);
+<ore:plankWood>.add(<thebetweenlands:rubber_tree_planks:0>);
+<ore:plankWood>.add(<thebetweenlands:weedwood_planks:0>);
 
 /*
 	Bark Wood
@@ -113,8 +113,8 @@
 /*
 	Slab Wood
 */
-<ore:slabWood>.add(<abyssalcraft:dltslab1>);
-<ore:slabWood>.add(<primal:slab_yew>);
+<ore:slabWood>.add(<abyssalcraft:dltslab1:0>);
+<ore:slabWood>.add(<primal:slab_yew:0>);
 
 /*
 	Sticks
@@ -134,7 +134,7 @@
 <ore:stickWood>.add(<natura:sticks:10>);
 <ore:stickWood>.add(<natura:sticks:11>);
 <ore:stickWood>.add(<natura:sticks:12>);
-<ore:stickWood>.add(<primal:yew_stick>);
+<ore:stickWood>.add(<primal:yew_stick:0>);
 
 /*
 	Misc

@@ -28,8 +28,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<valkyrielib:guide>: [
-		[<minecraft:book>, <environmentaltech:litherite_crystal>]
+	<valkyrielib:guide:0>: [
+		[<minecraft:book:0>, <environmentaltech:litherite_crystal:0>]
 	]
 };
 
@@ -39,7 +39,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<valkyrielib:guide>
+	<valkyrielib:guide:0>
 ];
 
 function init() {

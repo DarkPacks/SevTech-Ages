@@ -16,13 +16,13 @@ function init() {
 	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "paperclips"), machineName, 64)
 		.addEnergyPerTickInput(8)
 		.addItemOutput(<pickletweaks:ppm4:2> * 8)
-		.addItemInput(<galacticraftcore:item_basic_moon>)
+		.addItemInput(<galacticraftcore:item_basic_moon:0>)
 		.build();
 
 	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "paperclipsandlube"), machineName, 32)
 		.addEnergyPerTickInput(16)
 		.addFluidInput(<liquid:lubricant> * 100)
 		.addItemOutput(<pickletweaks:ppm4:2> * 8)
-		.addItemInput(<galacticraftcore:item_basic_moon>)
+		.addItemInput(<galacticraftcore:item_basic_moon:0>)
 		.build();
 }

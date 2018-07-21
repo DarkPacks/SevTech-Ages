@@ -9,5 +9,5 @@
 */
 
 function init() {
-	bloodMagic.removeAlchemyTable([<minecraft:wheat>, <minecraft:sugar>]);
+	bloodMagic.removeAlchemyTable([<minecraft:wheat:0>, <minecraft:sugar:0>]);
 }

@@ -14,38 +14,38 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<immcraft:shelf> : [
+	<immcraft:shelf:0> : [
 		[
-			[<ore:plankWood>, <immcraft:rock>, <ore:plankWood>],
+			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
-	<immcraft:furnace> : [
+	<immcraft:furnace:0> : [
 		[
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-			[<minecraft:stone>, <primal_tech:stone_grill>, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <primal_tech:stone_grill>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
-	<immcraft:cupboard> : [
+	<immcraft:cupboard:0> : [
  		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:plankWood>, <immcraft:rock>, <ore:plankWood>]
+			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>]
 		]
 	],
-	<immcraft:chest> : [
+	<immcraft:chest:0> : [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:plankWood>, <immcraft:rock>, <ore:plankWood>],
+			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	],
-	<immcraft:bookshelf> : [
+	<immcraft:bookshelf:0> : [
 		[
-			[<ore:plankWood>, <immcraft:rock>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:book>, <ore:plankWood>],
+			[<ore:plankWood>, <immcraft:rock:0>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:book:0>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	]
@@ -71,11 +71,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<immcraft:bookshelf>,
-	<immcraft:chest>,
-	<immcraft:cupboard>,
-	<immcraft:furnace>,
-	<immcraft:shelf>
+	<immcraft:bookshelf:0>,
+	<immcraft:chest:0>,
+	<immcraft:cupboard:0>,
+	<immcraft:furnace:0>,
+	<immcraft:shelf:0>
 ];
 
 function init() {

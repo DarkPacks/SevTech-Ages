@@ -16,11 +16,11 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFive.stage: [
-		<mysticalagradditions:dragon_egg_crop>,
-		<mysticalagradditions:nether_star_crop>,
-		<mysticalagradditions:nether_star_essence>,
-		<mysticalagradditions:tier6_inferium_crop>,
-		<mysticalagradditions:tinkering_table>
+		<mysticalagradditions:dragon_egg_crop:0>,
+		<mysticalagradditions:nether_star_crop:0>,
+		<mysticalagradditions:nether_star_essence:0>,
+		<mysticalagradditions:tier6_inferium_crop:0>,
+		<mysticalagradditions:tinkering_table:0>
 	]
 };
 

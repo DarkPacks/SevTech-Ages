@@ -7,8 +7,8 @@ import scripts.crafttweaker.stages.stageOne;
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
 		<huntingdim:biome_changer:*>,
-		<huntingdim:frame>,
-		<huntingdim:portal>
+		<huntingdim:frame:0>,
+		<huntingdim:portal:0>
 	]
 };
 

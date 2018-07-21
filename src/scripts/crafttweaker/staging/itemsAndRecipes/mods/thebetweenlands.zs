@@ -6,13 +6,13 @@ import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<thebetweenlands:aspectrus_fruit>,
-		<thebetweenlands:bl_bucket_infusion>,
-		<thebetweenlands:bog_bean_stalk>,
-		<thebetweenlands:golden_club_stalk>,
-		<thebetweenlands:marsh_marigold_stalk>,
-		<thebetweenlands:present>,
-		<thebetweenlands:syrmorite_bucket_solid_rubber>
+		<thebetweenlands:aspectrus_fruit:0>,
+		<thebetweenlands:bl_bucket_infusion:0>,
+		<thebetweenlands:bog_bean_stalk:0>,
+		<thebetweenlands:golden_club_stalk:0>,
+		<thebetweenlands:marsh_marigold_stalk:0>,
+		<thebetweenlands:present:0>,
+		<thebetweenlands:syrmorite_bucket_solid_rubber:0>
 	]
 };
 

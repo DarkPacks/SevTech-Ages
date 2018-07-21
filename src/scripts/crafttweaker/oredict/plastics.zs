@@ -13,7 +13,7 @@ import crafttweaker.item.IItemStack;
 	Plastics
 */
 var coloredPlastics as IItemStack[string] = {
-	black: <pneumaticcraft:plastic>,
+	black: <pneumaticcraft:plastic:0>,
 	red: <pneumaticcraft:plastic:1>,
 	green: <pneumaticcraft:plastic:2>,
 	brown: <pneumaticcraft:plastic:3>,

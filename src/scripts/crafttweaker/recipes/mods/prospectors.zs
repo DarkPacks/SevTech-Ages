@@ -23,39 +23,39 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<prospectors:prospector_lowest> : [
+	<prospectors:prospector_lowest:0> : [
 		[
 			[null, <ore:stickWood>.firstItem, <ore:logWood>],
 			[null, <ore:logWood>, <ore:stickWood>.firstItem],
 			[<ore:logWood>, null, null]
 		]
 	],
-	<prospectors:prospector_low> : [
+	<prospectors:prospector_low:0> : [
 		[
 			[null, <minecraft:coal:*>, <ore:blockGlass>],
 			[null, <ore:logWood>, <minecraft:coal:*>],
 			[<ore:logWood>, null, null]
 		]
 	],
-	<prospectors:prospector_med> : [
+	<prospectors:prospector_med:0> : [
 		[
-			[null, <minecraft:redstone>, <ore:blockGlass>],
-			[null, <minecraft:dye:4>, <minecraft:redstone>],
+			[null, <minecraft:redstone:0>, <ore:blockGlass>],
+			[null, <minecraft:dye:4>, <minecraft:redstone:0>],
 			[<minecraft:dye:4>, null, null]
 		]
 	],
-	<prospectors:prospector_high> : [
+	<prospectors:prospector_high:0> : [
 		[
-			[null, <minecraft:redstone>, <ore:blockGlass>],
-			[null, <minecraft:blaze_rod>, <minecraft:redstone>],
-			[<minecraft:blaze_rod>, null, null]
+			[null, <minecraft:redstone:0>, <ore:blockGlass>],
+			[null, <minecraft:blaze_rod:0>, <minecraft:redstone:0>],
+			[<minecraft:blaze_rod:0>, null, null]
 		]
 	],
-	<prospectors:prospector_best> : [
+	<prospectors:prospector_best:0> : [
 		[
-			[null, <minecraft:diamond>, <ore:blockGlass>],
-			[null, <minecraft:blaze_rod>, <minecraft:diamond>],
-			[<minecraft:blaze_rod>, null, null]
+			[null, <minecraft:diamond:0>, <ore:blockGlass>],
+			[null, <minecraft:blaze_rod:0>, <minecraft:diamond:0>],
+			[<minecraft:blaze_rod:0>, null, null]
 		]
 	]
 };
@@ -85,11 +85,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<prospectors:prospector_high>,
-	<prospectors:prospector_low>,
-	<prospectors:prospector_low>,
-	<prospectors:prospector_lowest>,
-	<prospectors:prospector_med>
+	<prospectors:prospector_high:0>,
+	<prospectors:prospector_low:0>,
+	<prospectors:prospector_low:0>,
+	<prospectors:prospector_lowest:0>,
+	<prospectors:prospector_med:0>
 ];
 
 function init() {

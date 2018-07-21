@@ -16,5 +16,5 @@ import mods.rustic.EvaporatingBasin;
 	Evapor Basin: https://github.com/the-realest-stu/Rustic/wiki/CraftTweaker-Support#evaporating-basin-recipes
 */
 function init() {
-	EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron>);
+	EvaporatingBasin.removeRecipe(<rustic:dust_tiny_iron:0>);
 }

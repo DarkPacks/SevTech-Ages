@@ -11,7 +11,7 @@ import scripts.crafttweaker.stages.stageDisabled;
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
 		<ferdinandsflowers:block_cff_dark:1>,
-		<ferdinandsflowers:block_cff_dark>,
+		<ferdinandsflowers:block_cff_dark:0>,
 		<ferdinandsflowers:block_cff_desert:1>,
 		<ferdinandsflowers:block_cff_desert:2>,
 		<ferdinandsflowers:block_cff_desert:3>,
@@ -27,31 +27,31 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_cff_desert:13>,
 		<ferdinandsflowers:block_cff_desert:14>,
 		<ferdinandsflowers:block_cff_desert:15>,
-		<ferdinandsflowers:block_cff_desert>,
+		<ferdinandsflowers:block_cff_desert:0>,
 		<ferdinandsflowers:block_cff_doubles:1>,
 		<ferdinandsflowers:block_cff_doubles:2>,
 		<ferdinandsflowers:block_cff_doubles:3>,
 		<ferdinandsflowers:block_cff_doubles:4>,
 		<ferdinandsflowers:block_cff_doubles:5>,
-		<ferdinandsflowers:block_cff_doubles>,
+		<ferdinandsflowers:block_cff_doubles:0>,
 		<ferdinandsflowers:block_cff_doublesb:1>,
 		<ferdinandsflowers:block_cff_doublesb:2>,
 		<ferdinandsflowers:block_cff_doublesb:3>,
 		<ferdinandsflowers:block_cff_doublesb:4>,
 		<ferdinandsflowers:block_cff_doublesb:5>,
-		<ferdinandsflowers:block_cff_doublesb>,
+		<ferdinandsflowers:block_cff_doublesb:0>,
 		<ferdinandsflowers:block_cff_doublesc:1>,
 		<ferdinandsflowers:block_cff_doublesc:2>,
 		<ferdinandsflowers:block_cff_doublesc:3>,
 		<ferdinandsflowers:block_cff_doublesc:4>,
 		<ferdinandsflowers:block_cff_doublesc:5>,
-		<ferdinandsflowers:block_cff_doublesc>,
+		<ferdinandsflowers:block_cff_doublesc:0>,
 		<ferdinandsflowers:block_cff_doublesd:1>,
 		<ferdinandsflowers:block_cff_doublesd:2>,
 		<ferdinandsflowers:block_cff_doublesd:3>,
 		<ferdinandsflowers:block_cff_doublesd:4>,
 		<ferdinandsflowers:block_cff_doublesd:5>,
-		<ferdinandsflowers:block_cff_doublesd>,
+		<ferdinandsflowers:block_cff_doublesd:0>,
 		<ferdinandsflowers:block_cff_flowers:1>,
 		<ferdinandsflowers:block_cff_flowers:2>,
 		<ferdinandsflowers:block_cff_flowers:3>,
@@ -67,7 +67,7 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_cff_flowers:13>,
 		<ferdinandsflowers:block_cff_flowers:14>,
 		<ferdinandsflowers:block_cff_flowers:15>,
-		<ferdinandsflowers:block_cff_flowers>,
+		<ferdinandsflowers:block_cff_flowers:0>,
 		<ferdinandsflowers:block_cff_flowersb:1>,
 		<ferdinandsflowers:block_cff_flowersb:2>,
 		<ferdinandsflowers:block_cff_flowersb:3>,
@@ -83,7 +83,7 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_cff_flowersb:13>,
 		<ferdinandsflowers:block_cff_flowersb:14>,
 		<ferdinandsflowers:block_cff_flowersb:15>,
-		<ferdinandsflowers:block_cff_flowersb>,
+		<ferdinandsflowers:block_cff_flowersb:0>,
 		<ferdinandsflowers:block_cff_flowersc:1>,
 		<ferdinandsflowers:block_cff_flowersc:2>,
 		<ferdinandsflowers:block_cff_flowersc:3>,
@@ -99,7 +99,7 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_cff_flowersc:13>,
 		<ferdinandsflowers:block_cff_flowersc:14>,
 		<ferdinandsflowers:block_cff_flowersc:15>,
-		<ferdinandsflowers:block_cff_flowersc>,
+		<ferdinandsflowers:block_cff_flowersc:0>,
 		<ferdinandsflowers:block_cff_flowersd:1>,
 		<ferdinandsflowers:block_cff_flowersd:2>,
 		<ferdinandsflowers:block_cff_flowersd:3>,
@@ -115,39 +115,39 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_cff_flowersd:13>,
 		<ferdinandsflowers:block_cff_flowersd:14>,
 		<ferdinandsflowers:block_cff_flowersd:15>,
-		<ferdinandsflowers:block_cff_flowersd>,
+		<ferdinandsflowers:block_cff_flowersd:0>,
 		<ferdinandsflowers:block_cff_ouch:1>,
 		<ferdinandsflowers:block_cff_ouch:2>,
-		<ferdinandsflowers:block_cff_ouch>
+		<ferdinandsflowers:block_cff_ouch:0>
 	],
 
 	stageOne.stage: [
 		<ferdinandsflowers:block_cobble_light:1>,
-		<ferdinandsflowers:block_cobble_light>,
+		<ferdinandsflowers:block_cobble_light:0>,
 		<ferdinandsflowers:block_dirt_light:1>,
-		<ferdinandsflowers:block_dirt_light>,
-		<ferdinandsflowers:block_gravel_light>,
+		<ferdinandsflowers:block_dirt_light:0>,
+		<ferdinandsflowers:block_gravel_light:0>,
 		<ferdinandsflowers:block_log_light:1>,
 		<ferdinandsflowers:block_log_light:2>,
 		<ferdinandsflowers:block_log_light:3>,
 		<ferdinandsflowers:block_log_light:4>,
 		<ferdinandsflowers:block_log_light:5>,
-		<ferdinandsflowers:block_log_light>,
+		<ferdinandsflowers:block_log_light:0>,
 		<ferdinandsflowers:block_plank_light:1>,
 		<ferdinandsflowers:block_plank_light:2>,
 		<ferdinandsflowers:block_plank_light:3>,
 		<ferdinandsflowers:block_plank_light:4>,
 		<ferdinandsflowers:block_plank_light:5>,
-		<ferdinandsflowers:block_plank_light>,
+		<ferdinandsflowers:block_plank_light:0>,
 		<ferdinandsflowers:block_sand_light:1>,
-		<ferdinandsflowers:block_sand_light>,
+		<ferdinandsflowers:block_sand_light:0>,
 		<ferdinandsflowers:block_stone_light:1>,
 		<ferdinandsflowers:block_stone_light:2>,
 		<ferdinandsflowers:block_stone_light:3>,
 		<ferdinandsflowers:block_stone_light:4>,
 		<ferdinandsflowers:block_stone_light:5>,
 		<ferdinandsflowers:block_stone_light:6>,
-		<ferdinandsflowers:block_stone_light>
+		<ferdinandsflowers:block_stone_light:0>
 	],
 
 	stageTwo.stage: [
@@ -166,20 +166,20 @@ static stagedItems as IIngredient[][string] = {
 		<ferdinandsflowers:block_dye_glass:13>,
 		<ferdinandsflowers:block_dye_glass:14>,
 		<ferdinandsflowers:block_dye_glass:15>,
-		<ferdinandsflowers:block_dye_glass>,
+		<ferdinandsflowers:block_dye_glass:0>,
 		<ferdinandsflowers:block_metal_light:1>,
 		<ferdinandsflowers:block_metal_light:2>,
 		<ferdinandsflowers:block_metal_light:3>,
 		<ferdinandsflowers:block_metal_light:4>,
-		<ferdinandsflowers:block_metal_light>,
+		<ferdinandsflowers:block_metal_light:0>,
 		<ferdinandsflowers:block_stonebrick_light:1>,
 		<ferdinandsflowers:block_stonebrick_light:2>,
 		<ferdinandsflowers:block_stonebrick_light:3>,
-		<ferdinandsflowers:block_stonebrick_light>
+		<ferdinandsflowers:block_stonebrick_light:0>
 	],
 
 	stageThree.stage: [
-		<ferdinandsflowers:block_birthday>
+		<ferdinandsflowers:block_birthday:0>
 	]
 };
 
@@ -199,7 +199,7 @@ static hiddenItems as IIngredient[] = [
 	<ferdinandsflowers:block_dye_brick:13>,
 	<ferdinandsflowers:block_dye_brick:14>,
 	<ferdinandsflowers:block_dye_brick:15>,
-	<ferdinandsflowers:block_dye_brick>,
+	<ferdinandsflowers:block_dye_brick:0>,
 	<ferdinandsflowers:block_dye_brick_half:*>,
 	<ferdinandsflowers:block_dye_brick_halfb:*>,
 	<ferdinandsflowers:block_dye_brick_halfc:*>,
@@ -219,10 +219,10 @@ static hiddenItems as IIngredient[] = [
 	<ferdinandsflowers:block_dye_brickb:13>,
 	<ferdinandsflowers:block_dye_brickb:14>,
 	<ferdinandsflowers:block_dye_brickb:15>,
-	<ferdinandsflowers:block_dye_brickb>,
+	<ferdinandsflowers:block_dye_brickb:0>,
 	<ferdinandsflowers:flower_dye:*>,
 	<ferdinandsflowers:flower_dyeb:*>,
-	<ferdinandsflowers:item_test>
+	<ferdinandsflowers:item_test:0>
 ];
 
 function init() {

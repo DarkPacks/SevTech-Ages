@@ -8,31 +8,31 @@ import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<ironjetpacks:advanced_coil>,
-		<ironjetpacks:basic_coil>,
-		<ironjetpacks:diamond_capacitor>,
-		<ironjetpacks:diamond_cell>,
-		<ironjetpacks:diamond_jetpack>,
-		<ironjetpacks:diamond_thruster>,
-		<ironjetpacks:electrum_capacitor>,
-		<ironjetpacks:electrum_cell>,
-		<ironjetpacks:electrum_jetpack>,
-		<ironjetpacks:electrum_thruster>,
-		<ironjetpacks:emerald_capacitor>,
-		<ironjetpacks:emerald_cell>,
-		<ironjetpacks:emerald_jetpack>,
-		<ironjetpacks:emerald_thruster>,
-		<ironjetpacks:strap>
+		<ironjetpacks:advanced_coil:0>,
+		<ironjetpacks:basic_coil:0>,
+		<ironjetpacks:diamond_capacitor:0>,
+		<ironjetpacks:diamond_cell:0>,
+		<ironjetpacks:diamond_jetpack:0>,
+		<ironjetpacks:diamond_thruster:0>,
+		<ironjetpacks:electrum_capacitor:0>,
+		<ironjetpacks:electrum_cell:0>,
+		<ironjetpacks:electrum_jetpack:0>,
+		<ironjetpacks:electrum_thruster:0>,
+		<ironjetpacks:emerald_capacitor:0>,
+		<ironjetpacks:emerald_cell:0>,
+		<ironjetpacks:emerald_jetpack:0>,
+		<ironjetpacks:emerald_thruster:0>,
+		<ironjetpacks:strap:0>
 	],
 
 	stageCreative.stage: [
-		<ironjetpacks:creative_cell>,
-		<ironjetpacks:creative_jetpack>,
-		<ironjetpacks:creative_thruster>
+		<ironjetpacks:creative_cell:0>,
+		<ironjetpacks:creative_jetpack:0>,
+		<ironjetpacks:creative_thruster:0>
 	],
 
 	stageCreativeUnused.stage: [
-		<ironjetpacks:creative_capacitor>
+		<ironjetpacks:creative_capacitor:0>
 	]
 };
 

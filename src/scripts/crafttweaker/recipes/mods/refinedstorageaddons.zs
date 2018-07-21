@@ -14,25 +14,25 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<refinedstorageaddons:wireless_crafting_grid>: [
+	<refinedstorageaddons:wireless_crafting_grid:0>: [
 		[
-			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
-			[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid:1>, <refinedstorage:quartz_enriched_iron>],
-			[<refinedstorage:quartz_enriched_iron>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron>]
+			[<refinedstorage:quartz_enriched_iron:0>, <minecraft:ender_pearl:0>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <refinedstorage:grid:1>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorEngineering>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	],
-	<refinedstorageaddons:network_picker>: [
+	<refinedstorageaddons:network_picker:0>: [
 		[
-			[<refinedstorage:quartz_enriched_iron>, <minecraft:ender_pearl>, <refinedstorage:quartz_enriched_iron>],
-			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:43>, <refinedstorage:quartz_enriched_iron>],
-			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+			[<refinedstorage:quartz_enriched_iron:0>, <minecraft:ender_pearl:0>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:material:43>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	],
-	<refinedstorageaddons:network_bag>: [
+	<refinedstorageaddons:network_bag:0>: [
 		[
-			[<minecraft:chest>, <minecraft:ender_pearl>, <minecraft:chest>],
-			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:44>, <refinedstorage:quartz_enriched_iron>],
-			[<refinedstorage:quartz_enriched_iron>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron>]
+			[<minecraft:chest:0>, <minecraft:ender_pearl:0>, <minecraft:chest:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:material:44>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	]
 };
@@ -57,9 +57,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<refinedstorageaddons:network_bag>,
-	<refinedstorageaddons:network_picker>,
-	<refinedstorageaddons:wireless_crafting_grid>
+	<refinedstorageaddons:network_bag:0>,
+	<refinedstorageaddons:network_picker:0>,
+	<refinedstorageaddons:wireless_crafting_grid:0>
 ];
 
 function init() {

@@ -10,23 +10,23 @@ import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<prospectors:prospector_lowest>
+		<prospectors:prospector_lowest:0>
 	],
 
 	stageTwo.stage: [
-		<prospectors:prospector_low>
+		<prospectors:prospector_low:0>
 	],
 
 	stageThree.stage: [
-		<prospectors:prospector_med>
+		<prospectors:prospector_med:0>
 	],
 
 	stageFour.stage: [
-		<prospectors:prospector_high>
+		<prospectors:prospector_high:0>
 	],
 
 	stageFive.stage: [
-		<prospectors:prospector_best>
+		<prospectors:prospector_best:0>
 	]
 };
 

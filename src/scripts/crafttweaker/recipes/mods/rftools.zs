@@ -14,26 +14,26 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<rftools:machine_base>: [
+	<rftools:machine_base:0>: [
 		[
 			[<pneumaticcraft:plastic:8>, metals.invar.plate, <pneumaticcraft:plastic:8>]
 		]
 	],
-	<rftools:matter_transmitter>: [
+	<rftools:matter_transmitter:0>: [
 		[
-			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore>, <galacticraftplanets:item_basic_mars:5>],
-			[<galacticraftcore:cheese_curd>, <rftools:machine_frame>, <galacticraftcore:cheese_curd>],
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore:0>, <galacticraftplanets:item_basic_mars:5>],
+			[<galacticraftcore:cheese_curd:0>, <rftools:machine_frame:0>, <galacticraftcore:cheese_curd:0>],
 			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate]
 		]
 	],
-	<rftools:matter_receiver>: [
+	<rftools:matter_receiver:0>: [
 		[
 			[metals.platinum.plate, metals.platinum.plate, metals.platinum.plate],
-			[<galacticraftcore:cheese_curd>, <rftools:machine_frame>, <galacticraftcore:cheese_curd>],
-			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore>, <galacticraftplanets:item_basic_mars:5>]
+			[<galacticraftcore:cheese_curd:0>, <rftools:machine_frame:0>, <galacticraftcore:cheese_curd:0>],
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:teleportationcore:0>, <galacticraftplanets:item_basic_mars:5>]
 		]
 	],
-	<rftools:machine_frame>: [
+	<rftools:machine_frame:0>: [
 		[
 			[metals.invar.rod, <pneumaticcraft:plastic:8>, metals.invar.rod],
 			[<pneumaticcraft:plastic:8>, null, <pneumaticcraft:plastic:8>],
@@ -62,10 +62,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<rftools:machine_base>,
-	<rftools:machine_frame>,
-	<rftools:matter_receiver>,
-	<rftools:matter_transmitter>
+	<rftools:machine_base:0>,
+	<rftools:machine_frame:0>,
+	<rftools:matter_receiver:0>,
+	<rftools:matter_transmitter:0>
 ];
 
 function init() {

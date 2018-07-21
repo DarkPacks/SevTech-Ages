@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<rangedpumps:pump>
+		<rangedpumps:pump:0>
 	]
 };
 

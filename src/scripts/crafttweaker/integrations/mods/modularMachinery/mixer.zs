@@ -56,7 +56,7 @@ function init() {
 
 		RecipeBuilder.newBuilder(utils.createRecipeName(machineNameComplete, "paper_pulp"), machineNameComplete, 300 / defaultTimeScaler)
 			.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
-			.addItemOutput(<primal:plant_fiber_pulp> * 4)
+			.addItemOutput(<primal:plant_fiber_pulp:0> * 4)
 			.addItemInput(<ore:glue>)
 			.addItemInput(<ore:dustWood>, 4)
 			.addFluidInput(<liquid:water> * 250)

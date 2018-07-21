@@ -7,13 +7,13 @@ import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<refinedstorageaddons:infinite_wireless_transmitter>,
+		<refinedstorageaddons:infinite_wireless_transmitter:0>,
 		<refinedstorageaddons:network_bag:1>,
-		<refinedstorageaddons:network_bag>,
+		<refinedstorageaddons:network_bag:0>,
 		<refinedstorageaddons:network_picker:1>,
-		<refinedstorageaddons:network_picker>,
+		<refinedstorageaddons:network_picker:0>,
 		<refinedstorageaddons:wireless_crafting_grid:1>,
-		<refinedstorageaddons:wireless_crafting_grid>
+		<refinedstorageaddons:wireless_crafting_grid:0>
 	],
 
 	stageCreativeUnused.stage: [

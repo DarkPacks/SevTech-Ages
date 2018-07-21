@@ -18,7 +18,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageOne.stage: [
 		// Chisel
-		<chisel:chisel_iron>,
+		<chisel:chisel_iron:0>,
 
 		// Blocks
 		<chisel:andesite:*>,
@@ -32,7 +32,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:basalt2:4>,
 		<chisel:basalt2:5>,
 		<chisel:basalt2:6>,
-		<chisel:basalt2>,
+		<chisel:basalt2:0>,
 		<chisel:block_charcoal:*>,
 		<chisel:block_charcoal1:*>,
 		<chisel:block_charcoal2:*>,
@@ -122,7 +122,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:limestone2:4>,
 		<chisel:limestone2:5>,
 		<chisel:limestone2:6>,
-		<chisel:limestone2>,
+		<chisel:limestone2:0>,
 		<chisel:marble:*>,
 		<chisel:marble1:*>,
 		<chisel:marble2:0>,
@@ -133,7 +133,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:marble2:5>,
 		<chisel:marble2:6>,
 		<chisel:marblepillar:*>,
-		<chisel:offsettool>,
+		<chisel:offsettool:0>,
 		<chisel:planks-acacia:*>,
 		<chisel:planks-birch:*>,
 		<chisel:planks-dark-oak:*>,
@@ -203,7 +203,7 @@ static stagedItems as IIngredient[][string] = {
 		<chisel:lavastone:*>,
 		<chisel:lavastone1:*>,
 		<chisel:lavastone2:*>,
-		<chisel:offsettool>,
+		<chisel:offsettool:0>,
 		<chisel:stonebrick:*>,
 		<chisel:stonebrick1:*>,
 		<chisel:stonebrick2:*>,
@@ -213,7 +213,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageThree.stage: [
-		<chisel:auto_chisel>,
+		<chisel:auto_chisel:0>,
 		<chisel:blockaluminum:*>,
 		<chisel:blockcobalt:*>,
 		<chisel:blockelectrum:*>,
@@ -255,8 +255,8 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFive.stage: [
-		<chisel:chisel_diamond>,
-		<chisel:chisel_hitech>,
+		<chisel:chisel_diamond:0>,
+		<chisel:chisel_hitech:0>,
 		<chisel:diamond:*>,
 		<chisel:emerald:*>
 	]

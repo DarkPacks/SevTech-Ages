@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageOne;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<beneath:teleporterbeneath>
+		<beneath:teleporterbeneath:0>
 	]
 };
 

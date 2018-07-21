@@ -228,7 +228,7 @@ zenClass Metals {
 			// Remove the ore from Applied Energistics.
 			appliedEnergistics.removeGrindstone(ore);
 			// Remove the ore from Blood Magic.
-			bloodMagic.removeAlchemyTable([ore, <bloodmagic:cutting_fluid>] as IItemStack[]);
+			bloodMagic.removeAlchemyTable([ore, <bloodmagic:cutting_fluid:0>] as IItemStack[]);
 			// Remove the ore from AbyssalCraft.
 			abyssalcraft.removeCrystallization(ore);
 		}

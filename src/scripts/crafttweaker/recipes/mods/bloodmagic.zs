@@ -24,63 +24,63 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<bloodmagic:altar> : [
+	<bloodmagic:altar:0> : [
 		[
-			[<minecraft:stone>, null, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:furnace>, <minecraft:stone>],
-			[metals.bronze.ingot, <bloodmagic:monster_soul>, metals.bronze.ingot]
+			[<minecraft:stone:0>, null, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:furnace:0>, <minecraft:stone:0>],
+			[metals.bronze.ingot, <bloodmagic:monster_soul:0>, metals.bronze.ingot]
 		]
 	],
-	<bloodmagic:sacrificial_dagger> : [
+	<bloodmagic:sacrificial_dagger:0> : [
 		[
-			[null, null, <primal:sharp_bone>],
+			[null, null, <primal:sharp_bone:0>],
 			[null, metals.bronze.ingot, null],
 			[metals.bronze.ingot, null, null]
 		]
 	],
-	<bloodmagic:soul_snare> * 4: [
+	<bloodmagic:soul_snare:0> * 4: [
 		[
-			[<minecraft:string>, metals.tin.ingot, <minecraft:string>],
-			[metals.tin.ingot, <betterwithaddons:tweakmat>, metals.tin.ingot],
-			[<minecraft:string>, metals.tin.ingot, <minecraft:string>]
+			[<minecraft:string:0>, metals.tin.ingot, <minecraft:string:0>],
+			[metals.tin.ingot, <betterwithaddons:tweakmat:0>, metals.tin.ingot],
+			[<minecraft:string:0>, metals.tin.ingot, <minecraft:string:0>]
 		]
 	],
-	<bloodmagic:soul_forge> : [
+	<bloodmagic:soul_forge:0> : [
 		[
 			[metals.tin.ingot, null, metals.tin.ingot],
-			[<minecraft:stone>, metals.bronze.ingot, <minecraft:stone>],
-			[<minecraft:stone>, metals.copper.block, <minecraft:stone>]
+			[<minecraft:stone:0>, metals.bronze.ingot, <minecraft:stone:0>],
+			[<minecraft:stone:0>, metals.copper.block, <minecraft:stone:0>]
 		]
 	],
 	<bloodmagic:blood_rune:3> : [
 		[
-			[<minecraft:stone>, <bloodmagic:slate:1>, <minecraft:stone>],
-			[metals.bronze.ingot, <bloodmagic:blood_rune>, metals.bronze.ingot],
-			[<minecraft:stone>, <bloodmagic:blood_orb:*>, <minecraft:stone>]
+			[<minecraft:stone:0>, <bloodmagic:slate:1>, <minecraft:stone:0>],
+			[metals.bronze.ingot, <bloodmagic:blood_rune:0>, metals.bronze.ingot],
+			[<minecraft:stone:0>, <bloodmagic:blood_orb:*>, <minecraft:stone:0>]
 		]
 	],
 	<bloodmagic:blood_rune:4> : [
 		[
-			[<minecraft:stone>, <bloodmagic:slate:1>, <minecraft:stone>],
-			[<ore:dyeYellow>, <bloodmagic:blood_rune>, <ore:dyeYellow>],
-			[<minecraft:stone>, <bloodmagic:blood_orb:*>, <minecraft:stone>]
+			[<minecraft:stone:0>, <bloodmagic:slate:1>, <minecraft:stone:0>],
+			[<ore:dyeYellow>, <bloodmagic:blood_rune:0>, <ore:dyeYellow>],
+			[<minecraft:stone:0>, <bloodmagic:blood_orb:*>, <minecraft:stone:0>]
 		]
 	],
-	<bloodmagic:lava_crystal> : [
+	<bloodmagic:lava_crystal:0> : [
 		[
 			[<ore:blockGlass>, craftingUtils.getBucketIngredient(<liquid:lava>), <ore:blockGlass>],
 			[craftingUtils.getBucketIngredient(<liquid:lava>), <bloodmagic:blood_orb:*>, craftingUtils.getBucketIngredient(<liquid:lava>)],
-			[<tconstruct:firewood>, <ore:bottleFiery>, <tconstruct:firewood>]
+			[<tconstruct:firewood:0>, <ore:bottleFiery>, <tconstruct:firewood:0>]
 		]
 	],
-	<bloodmagic:experience_tome> : [
+	<bloodmagic:experience_tome:0> : [
 		[
-			[<minecraft:string>, <ore:blockLapis>, <minecraft:string>],
+			[<minecraft:string:0>, <ore:blockLapis>, <minecraft:string:0>],
 			[<bloodmagic:slate:2>, <betterwithmods:arcane_scroll:*>, <bloodmagic:slate:2>],
 			[metals.gold.ingot, <bloodmagic:blood_orb:*>, metals.gold.ingot]
 		]
 	],
-	<bloodmagic:ritual_diviner> : [
+	<bloodmagic:ritual_diviner:0> : [
 		[
 			[metals.platinum.ingot, <bloodmagic:inscription_tool:2>, metals.platinum.ingot],
 			[<bloodmagic:inscription_tool:4>, <ore:stickTreatedWood>, <bloodmagic:inscription_tool:3>],
@@ -90,7 +90,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<bloodmagic:ritual_diviner:1>.withTag({}) : [
 		[
 			[null, <bloodmagic:slate:3>, null],
-			[<bloodmagic:inscription_tool:5>, <bloodmagic:ritual_diviner>, <bloodmagic:inscription_tool:5>],
+			[<bloodmagic:inscription_tool:5>, <bloodmagic:ritual_diviner:0>, <bloodmagic:inscription_tool:5>],
 			[null, <bloodmagic:slate:3>, null]
 		]
 	],
@@ -98,7 +98,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<bloodmagic:item_demon_crystal:1>, <bloodmagic:activation_crystal:1>, <bloodmagic:item_demon_crystal:2>],
 			[<bloodmagic:slate:4>, <bloodmagic:decorative_brick:1>, <bloodmagic:slate:4>],
-			[<bloodmagic:item_demon_crystal:3>, <bloodmagic:item_demon_crystal>, <bloodmagic:item_demon_crystal:4>]
+			[<bloodmagic:item_demon_crystal:3>, <bloodmagic:item_demon_crystal:0>, <bloodmagic:item_demon_crystal:4>]
 		]
 	]
 };
@@ -119,17 +119,17 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<bloodmagic:bound_sword>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
-		[<bloodmagic:bound_sword>]
+	<bloodmagic:bound_sword:0>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_sword:0>]
 	],
-	<bloodmagic:bound_pickaxe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
-		[<bloodmagic:bound_pickaxe>]
+	<bloodmagic:bound_pickaxe:0>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_pickaxe:0>]
 	],
-	<bloodmagic:bound_axe>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
-		[<bloodmagic:bound_axe>]
+	<bloodmagic:bound_axe:0>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_axe:0>]
 	],
-	<bloodmagic:bound_shovel>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
-		[<bloodmagic:bound_shovel>]
+	<bloodmagic:bound_shovel:0>.withTag({Unbreakable: 1 as byte, activated: 0 as byte}) : [
+		[<bloodmagic:bound_shovel:0>]
 	]
 };
 
@@ -140,16 +140,16 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<bloodmagic:altar>,
+	<bloodmagic:altar:0>,
 	<bloodmagic:blood_rune:3>,
 	<bloodmagic:blood_rune:4>,
-	<bloodmagic:experience_tome>,
-	<bloodmagic:lava_crystal>,
+	<bloodmagic:experience_tome:0>,
+	<bloodmagic:lava_crystal:0>,
 	<bloodmagic:ritual_diviner:1>,
-	<bloodmagic:ritual_diviner>,
-	<bloodmagic:sacrificial_dagger>,
-	<bloodmagic:soul_forge>,
-	<bloodmagic:soul_snare>
+	<bloodmagic:ritual_diviner:0>,
+	<bloodmagic:sacrificial_dagger:0>,
+	<bloodmagic:soul_forge:0>,
+	<bloodmagic:soul_snare:0>
 ];
 
 function init() {

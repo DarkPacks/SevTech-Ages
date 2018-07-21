@@ -12,24 +12,24 @@ import crafttweaker.oredict.IOreDictEntry;
 
 // Usage: <chiselBlock>: <oreDict>
 var oreDictChiselPairs as IOreDictEntry[IItemStack] = {
-	<chisel:blockaluminum>: <ore:blockAluminum>,
-	<chisel:blockbronze>: <ore:blockBronze>,
-	<chisel:blockcobalt>: <ore:blockCobalt>,
-	<chisel:blockcopper>: <ore:blockCopper>,
-	<chisel:diamond>: <ore:blockDiamond>,
-	<chisel:blockelectrum>: <ore:blockElectrum>,
-	<chisel:emerald>: <ore:blockEmerald>,
-	<chisel:gold>: <ore:blockGold>,
-	<chisel:iron>: <ore:blockIron>,
-	<chisel:lapis>: <ore:blockLapis>,
-	<chisel:blocklead>: <ore:blockLead>,
-	<chisel:blocknickel>: <ore:blockNickel>,
-	<chisel:blockplatinum>: <ore:blockPlatinum>,
-	<chisel:redstone>: <ore:blockRedstone>,
-	<chisel:redstone1>: <ore:blockRedstone>,
-	<chisel:blocksilver>: <ore:blockSilver>,
-	<chisel:blocksteel>: <ore:blockSteel>,
-	<chisel:blocktin>: <ore:blockTin>
+	<chisel:blockaluminum:0>: <ore:blockAluminum>,
+	<chisel:blockbronze:0>: <ore:blockBronze>,
+	<chisel:blockcobalt:0>: <ore:blockCobalt>,
+	<chisel:blockcopper:0>: <ore:blockCopper>,
+	<chisel:diamond:0>: <ore:blockDiamond>,
+	<chisel:blockelectrum:0>: <ore:blockElectrum>,
+	<chisel:emerald:0>: <ore:blockEmerald>,
+	<chisel:gold:0>: <ore:blockGold>,
+	<chisel:iron:0>: <ore:blockIron>,
+	<chisel:lapis:0>: <ore:blockLapis>,
+	<chisel:blocklead:0>: <ore:blockLead>,
+	<chisel:blocknickel:0>: <ore:blockNickel>,
+	<chisel:blockplatinum:0>: <ore:blockPlatinum>,
+	<chisel:redstone:0>: <ore:blockRedstone>,
+	<chisel:redstone1:0>: <ore:blockRedstone>,
+	<chisel:blocksilver:0>: <ore:blockSilver>,
+	<chisel:blocksteel:0>: <ore:blockSteel>,
+	<chisel:blocktin:0>: <ore:blockTin>
 };
 
 for chiselBlock, oreDict in oreDictChiselPairs {

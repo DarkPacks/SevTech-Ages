@@ -18,118 +18,118 @@ import scripts.crafttweaker.stages.stageOne;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<abyssalcraft:dltslab1> * 3: [
-		[[<abyssalcraft:dltplank>, <abyssalcraft:dltplank>, <abyssalcraft:dltplank>]]
+	<abyssalcraft:dltslab1:0> * 3: [
+		[[<abyssalcraft:dltplank:0>, <abyssalcraft:dltplank:0>, <abyssalcraft:dltplank:0>]]
 	],
-	<abyssalcraft:necronomicon>: [
+	<abyssalcraft:necronomicon:0>: [
 		[
-			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>],
-			[<abyssalcraft:corflesh>, <primal:plant_cloth>, <abyssalcraft:corflesh>],
-			[<minecraft:rotten_flesh>, <abyssalcraft:corflesh>, <minecraft:rotten_flesh>]
+			[<minecraft:rotten_flesh:0>, <abyssalcraft:corflesh:0>, <minecraft:rotten_flesh:0>],
+			[<abyssalcraft:corflesh:0>, <primal:plant_cloth:0>, <abyssalcraft:corflesh:0>],
+			[<minecraft:rotten_flesh:0>, <abyssalcraft:corflesh:0>, <minecraft:rotten_flesh:0>]
 		]
 	],
-	<abyssalcraft:charm>: [
+	<abyssalcraft:charm:0>: [
 		[
 			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>],
 			[<ore:dyeYellow>, metals.bronze.ingot, <ore:dyeYellow>],
 			[<ore:dyeYellow>, <ore:dyeYellow>, <ore:dyeYellow>]
 		]
 	],
-	<abyssalcraft:decorativestatue>: [
+	<abyssalcraft:decorativestatue:0>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeCyan>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:1>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeYellow>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:2>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeGray>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:3>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyePurple>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:4>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeBlue>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:5>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeOrange>, null]
 		]
 	],
 	<abyssalcraft:decorativestatue:6>: [
 		[
-			[<abyssalcraft:stone:7>, <minecraft:clay_ball>],
+			[<abyssalcraft:stone:7>, <minecraft:clay_ball:0>],
 			[<ore:dyeBlack>, null]
 		]
 	],
-	<abyssalcraft:statue>: [
+	<abyssalcraft:statue:0>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:1>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:1>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:1>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:2>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:2>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:2>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:3>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:3>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:3>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:4>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:4>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:4>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:5>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:5>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:5>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
 	<abyssalcraft:statue:6>: [
 		[
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:decorativestatue:6>, <abyssalcraft:shoggothflesh>],
-			[<abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>, <abyssalcraft:shoggothflesh>]
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:decorativestatue:6>, <abyssalcraft:shoggothflesh:0>],
+			[<abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>, <abyssalcraft:shoggothflesh:0>]
 		]
 	],
-	<abyssalcraft:gatewaykey>: [
+	<abyssalcraft:gatewaykey:0>: [
 		[
-			[null, <abyssalcraft:cpearl>, <abyssalcraft:oc>],
-			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl>],
+			[null, <abyssalcraft:cpearl:0>, <abyssalcraft:oc:0>],
+			[null, <thebetweenlands:items_misc:14>, <abyssalcraft:cpearl:0>],
 			[<thebetweenlands:items_misc:14>, null, null]
 		]
 	]
@@ -154,9 +154,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-	<abyssalcraft:corflesh>: {
-		Utils.genRecipeName(stageOne, <abyssalcraft:corflesh>): [
-			[<abyssalcraft:corbone>.transformReplace(<minecraft:bone>), <ore:toolWorkBlade>]
+	<abyssalcraft:corflesh:0>: {
+		Utils.genRecipeName(stageOne, <abyssalcraft:corflesh:0>): [
+			[<abyssalcraft:corbone:0>.transformReplace(<minecraft:bone:0>), <ore:toolWorkBlade>]
 		]
 	}
 };
@@ -165,34 +165,34 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<abyssalcraft:abyingot>,
-	<abyssalcraft:charm>,
-	<abyssalcraft:cingot>,
+	<abyssalcraft:abyingot:0>,
+	<abyssalcraft:charm:0>,
+	<abyssalcraft:cingot:0>,
 	<abyssalcraft:decorativestatue:1>,
 	<abyssalcraft:decorativestatue:2>,
 	<abyssalcraft:decorativestatue:3>,
 	<abyssalcraft:decorativestatue:4>,
 	<abyssalcraft:decorativestatue:5>,
 	<abyssalcraft:decorativestatue:6>,
-	<abyssalcraft:decorativestatue>,
-	<abyssalcraft:dltslab1>,
-	<abyssalcraft:dreadiumingot>,
-	<abyssalcraft:gatewaykey>,
+	<abyssalcraft:decorativestatue:0>,
+	<abyssalcraft:dltslab1:0>,
+	<abyssalcraft:dreadiumingot:0>,
+	<abyssalcraft:gatewaykey:0>,
 	<abyssalcraft:ingotblock:1>,
 	<abyssalcraft:ingotblock:2>,
-	<abyssalcraft:ingotblock>,
+	<abyssalcraft:ingotblock:0>,
 	<abyssalcraft:ingotnugget:1>,
 	<abyssalcraft:ingotnugget:2>,
 	<abyssalcraft:ingotnugget:3>,
-	<abyssalcraft:ingotnugget>,
-	<abyssalcraft:necronomicon>,
-	<abyssalcraft:shadowfragment>,
-	<abyssalcraft:shadowgem>,
-	<abyssalcraft:shadowshard>
+	<abyssalcraft:ingotnugget:0>,
+	<abyssalcraft:necronomicon:0>,
+	<abyssalcraft:shadowfragment:0>,
+	<abyssalcraft:shadowgem:0>,
+	<abyssalcraft:shadowshard:0>
 ];
 
 static removeFurnace as IIngredient[] = [
-	<abyssalcraft:friedegg>
+	<abyssalcraft:friedegg:0>
 ];
 
 function init() {

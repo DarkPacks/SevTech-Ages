@@ -17,41 +17,41 @@ import mods.primaltech.WaterSaw;
 	This listing contains the pairs for the Logs -> Planks.
 */
 static plankLogPairs as IIngredient[][IItemStack] = {
-	<abyssalcraft:dltplank>: [
-		<abyssalcraft:dltlog>
+	<abyssalcraft:dltplank:0>: [
+		<abyssalcraft:dltlog:0>
 	],
-	<abyssalcraft:dreadplanks>: [
-		<abyssalcraft:dreadlog>
+	<abyssalcraft:dreadplanks:0>: [
+		<abyssalcraft:dreadlog:0>
 	],
-	<betterwithaddons:planks_mulberry>: [
-		<betterwithaddons:log_mulberry>
+	<betterwithaddons:planks_mulberry:0>: [
+		<betterwithaddons:log_mulberry:0>
 	],
-	<betterwithaddons:planks_sakura>: [
-		<betterwithaddons:log_sakura>
+	<betterwithaddons:planks_sakura:0>: [
+		<betterwithaddons:log_sakura:0>
 	],
 	<minecraft:planks:1>: [
-		<thebetweenlands:log_sap>,
+		<thebetweenlands:log_sap:0>,
 		<minecraft:log:1>,
 		<primal:logs_stripped:1>,
-		<twilightforest:magic_log>,
+		<twilightforest:magic_log:0>,
 		<twilightforest:twilight_log:1>,
 		<twilightforest:twilight_log:3>
 	],
 	<minecraft:planks:2>: [
-		<betterwithaddons:log_luretree_face>,
-		<betterwithaddons:log_luretree>,
+		<betterwithaddons:log_luretree_face:0>,
+		<betterwithaddons:log_luretree:0>,
 		<minecraft:log:2>,
 		<primal:logs_stripped:2>,
 		<twilightforest:magic_log:2>,
 		<twilightforest:twilight_log:2>
 	],
 	<minecraft:planks:3>: [
-		<betterwithmods:blood_log>,
+		<betterwithmods:blood_log:0>,
 		<minecraft:log:3>,
 		<primal:logs_stripped:3>
 	],
 	<minecraft:planks:4>: [
-		<minecraft:log2>,
+		<minecraft:log2:0>,
 		<primal:logs_stripped:4>
 	],
 	<minecraft:planks:5>: [
@@ -59,14 +59,14 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 		<primal:logs_stripped:5>,
 		<twilightforest:magic_log:3>
 	],
-	<minecraft:planks>: [
-		<minecraft:log>,
-		<primal:logs_stripped>,
-		<twilightforest:twilight_log>
+	<minecraft:planks:0>: [
+		<minecraft:log:0>,
+		<primal:logs_stripped:0>,
+		<twilightforest:twilight_log:0>
 	],
 	<natura:nether_planks:1>: [
 		<natura:nether_logs2:15>,
-		<natura:nether_logs2>
+		<natura:nether_logs2:0>
 	],
 	<natura:nether_planks:2>: [
 		<natura:nether_logs:1>
@@ -74,8 +74,8 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<natura:nether_planks:3>: [
 		<natura:nether_logs:2>
 	],
-	<natura:nether_planks>: [
-		<natura:nether_logs>
+	<natura:nether_planks:0>: [
+		<natura:nether_logs:0>
 	],
 	<natura:overworld_planks:1>: [
 		<natura:overworld_logs:1>
@@ -87,7 +87,7 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 		<natura:overworld_logs:3>
 	],
 	<natura:overworld_planks:4>: [
-		<natura:overworld_logs2>
+		<natura:overworld_logs2:0>
 	],
 	<natura:overworld_planks:5>: [
 		<natura:overworld_logs2:1>
@@ -101,11 +101,11 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<natura:overworld_planks:8>: [
 		<natura:redwood_logs:1>
 	],
-	<natura:overworld_planks>: [
-		<natura:overworld_logs>
+	<natura:overworld_planks:0>: [
+		<natura:overworld_logs:0>
 	],
-	<primal:planks>: [
-		<primal:logs>,
+	<primal:planks:0>: [
+		<primal:logs:0>,
 		<primal:logs_stripped:6>
 	],
 	<primal:planks:1>: [
@@ -115,33 +115,33 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<rustic:planks:1>: [
 		<rustic:log:1>
 	],
-	<rustic:planks>: [
-		<rustic:log>
+	<rustic:planks:0>: [
+		<rustic:log:0>
 	],
-	<thebetweenlands:weedwood_planks>: [
+	<thebetweenlands:weedwood_planks:0>: [
 		<thebetweenlands:log_weedwood:12>,
-		<thebetweenlands:log_weedwood>,
-		<thebetweenlands:weedwood>
+		<thebetweenlands:log_weedwood:0>,
+		<thebetweenlands:weedwood:0>
 	],
-	<totemic:cedar_plank>: [
-		<totemic:cedar_log>,
-		<totemic:stripped_cedar_log>
+	<totemic:cedar_plank:0>: [
+		<totemic:cedar_log:0>,
+		<totemic:stripped_cedar_log:0>
 	],
-	<traverse:fir_planks>: [
-		<traverse:fir_log>
+	<traverse:fir_planks:0>: [
+		<traverse:fir_log:0>
 	],
-	<thebetweenlands:rubber_tree_planks>: [
-		<thebetweenlands:log_rubber>
+	<thebetweenlands:rubber_tree_planks:0>: [
+		<thebetweenlands:log_rubber:0>
 	],
-	<thebetweenlands:giant_root_planks>: [
-		<thebetweenlands:giant_root>
+	<thebetweenlands:giant_root_planks:0>: [
+		<thebetweenlands:giant_root:0>
 	],
-	<integrateddynamics:menril_planks>: [
-		<integrateddynamics:menril_log>,
-		<integrateddynamics:menril_log_filled>
+	<integrateddynamics:menril_planks:0>: [
+		<integrateddynamics:menril_log:0>,
+		<integrateddynamics:menril_log_filled:0>
 	],
-	<extraplanets:kepler22b_planks>: [
-		<extraplanets:kepler22b_maple_logs>
+	<extraplanets:kepler22b_planks:0>: [
+		<extraplanets:kepler22b_maple_logs:0>
 	],
 	<extraplanets:kepler22b_planks:1>: [
 		<extraplanets:kepler22b_maple_logs:1>
@@ -153,7 +153,7 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 		<extraplanets:kepler22b_maple_logs:3>
 	],
 	<extraplanets:kepler22b_planks:4>: [
-		<extraplanets:kepler22b_maple_logs2>
+		<extraplanets:kepler22b_maple_logs2:0>
 	],
 	<extraplanets:kepler22b_planks:5>: [
 		<extraplanets:kepler22b_maple_logs2:1>
@@ -167,8 +167,8 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 */
 static logsToRemove as IItemStack[] = [
 	<natura:redwood_logs:2>,
-	<natura:redwood_logs>,
-	<thebetweenlands:log_nibbletwig>,
+	<natura:redwood_logs:0>,
+	<thebetweenlands:log_nibbletwig:0>,
 	<twilightforest:magic_log:1>
 ];
 

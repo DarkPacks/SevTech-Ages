@@ -23,35 +23,35 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<storagedrawers:upgrade_storage> : [
+	<storagedrawers:upgrade_storage:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<minecraft:coal_block>, <storagedrawers:upgrade_template>, <minecraft:coal_block>],
+			[<minecraft:coal_block:0>, <storagedrawers:upgrade_template:0>, <minecraft:coal_block:0>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem]
 		]
 	],
-	<storagedrawers:upgrade_template> : [
+	<storagedrawers:upgrade_template:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <ore:drawerTrim>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem]
 		]
 	],
-	<storagedrawers:compdrawers> : [
+	<storagedrawers:compdrawers:0> : [
 		[
 			[metals.iron.plate, metals.platinum.plate, metals.iron.plate],
-			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
+			[<minecraft:piston:0>, <ore:drawerTrim>, <minecraft:piston:0>],
 			[metals.iron.plate, <astralsorcery:itemcraftingcomponent:1>, metals.iron.plate]
 		]
 	],
-	<storagedrawers:controller> : [
+	<storagedrawers:controller:0> : [
 		[
-			[metals.platinum.plate, <nex:block_amethyst>, metals.platinum.plate],
+			[metals.platinum.plate, <nex:block_amethyst:0>, metals.platinum.plate],
 			[<immersiveengineering:metal_decoration0:3>, <ore:drawerTrim>, <immersiveengineering:metal_decoration0:3>],
 			[metals.platinum.plate, <astralsorcery:itemcraftingcomponent:1>, metals.platinum.plate]
 		]
 	],
-	<storagedrawers:controllerslave> : [
+	<storagedrawers:controllerslave:0> : [
 		[
 			[metals.platinum.plate, <ore:plateRedstoneAlloy>, metals.platinum.plate],
 			[metals.iron.plate, <ore:drawerTrim>, metals.iron.plate],
@@ -60,37 +60,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<storagedrawers:upgrade_storage:2> : [
 		[
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
-			[metals.gold.ingot, <storagedrawers:upgrade_template>, metals.gold.ingot],
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>],
+			[metals.gold.ingot, <storagedrawers:upgrade_template:0>, metals.gold.ingot],
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>]
 		]
 	],
-	<storagedrawers:controller> : [
+	<storagedrawers:controller:0> : [
 		[
 			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
-			[<minecraft:comparator>, <ore:drawerTrim>, <minecraft:comparator>],
+			[<minecraft:comparator:0>, <ore:drawerTrim>, <minecraft:comparator:0>],
 			[metals.compressedIron.plate, metals.redstoneAlloy.plate, metals.compressedIron.plate]
 		]
 	],
-	<storagedrawers:compdrawers> : [
+	<storagedrawers:compdrawers:0> : [
 		[
 			[metals.iron.plate, metals.compressedIron.plate, metals.iron.plate],
-			[<minecraft:piston>, <ore:drawerTrim>, <minecraft:piston>],
+			[<minecraft:piston:0>, <ore:drawerTrim>, <minecraft:piston:0>],
 			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate]
 		]
 	],
 	<storagedrawers:upgrade_storage:3> : [
 		[
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
-			[<minecraft:diamond>, <storagedrawers:upgrade_template>, <minecraft:diamond>],
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>],
+			[<minecraft:diamond:0>, <storagedrawers:upgrade_template:0>, <minecraft:diamond:0>],
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>]
 		]
 	],
 	<storagedrawers:upgrade_storage:4> : [
 		[
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
-			[<minecraft:emerald>, <storagedrawers:upgrade_template>, <minecraft:emerald>],
-			[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>]
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>],
+			[<minecraft:emerald:0>, <storagedrawers:upgrade_template:0>, <minecraft:emerald:0>],
+			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>]
 		]
 	]
 };
@@ -120,14 +120,14 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<storagedrawers:compdrawers>,
-	<storagedrawers:controller>,
-	<storagedrawers:controllerslave>,
+	<storagedrawers:compdrawers:0>,
+	<storagedrawers:controller:0>,
+	<storagedrawers:controllerslave:0>,
 	<storagedrawers:upgrade_storage:2>,
 	<storagedrawers:upgrade_storage:3>,
 	<storagedrawers:upgrade_storage:4>,
-	<storagedrawers:upgrade_storage>,
-	<storagedrawers:upgrade_template>
+	<storagedrawers:upgrade_storage:0>,
+	<storagedrawers:upgrade_template:0>
 ];
 
 function init() {

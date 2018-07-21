@@ -23,10 +23,10 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<naturescompass:naturescompass>: [
+	<naturescompass:naturescompass:0>: [
 		[
 			[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>],
-			[<ore:logWood>, <primal:bone_knapp>, <ore:logWood>],
+			[<ore:logWood>, <primal:bone_knapp:0>, <ore:logWood>],
 			[<ore:treeSapling>, <ore:logWood>, <ore:treeSapling>]
 		]
 	]
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<naturescompass:naturescompass>
+	<naturescompass:naturescompass:0>
 ];
 
 function init() {

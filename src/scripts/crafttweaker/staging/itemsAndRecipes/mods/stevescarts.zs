@@ -10,22 +10,22 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<stevescarts:cartmodule> //Steves Carts Stage 3 Trigger Item
+		<stevescarts:cartmodule:0> //Steves Carts Stage 3 Trigger Item
 	],
 
 	stageThree.stage: [
-		<stevescarts:blockactivator>,
-		<stevescarts:blockadvdetector>,
-		<stevescarts:blockcargomanager>,
-		<stevescarts:blockcartassembler>,
+		<stevescarts:blockactivator:0>,
+		<stevescarts:blockadvdetector:0>,
+		<stevescarts:blockcargomanager:0>,
+		<stevescarts:blockcartassembler:0>,
 		<stevescarts:blockdetector:1>,
 		<stevescarts:blockdetector:2>,
 		<stevescarts:blockdetector:3>,
 		<stevescarts:blockdetector:4>,
-		<stevescarts:blockdetector>,
-		<stevescarts:blockdistributor>,
-		<stevescarts:blockjunction>,
-		<stevescarts:blockliquidmanager>,
+		<stevescarts:blockdetector:0>,
+		<stevescarts:blockdistributor:0>,
+		<stevescarts:blockjunction:0>,
+		<stevescarts:blockliquidmanager:0>,
 		<stevescarts:cartmodule:2>,
 		<stevescarts:cartmodule:3>,
 		<stevescarts:cartmodule:4>,
@@ -178,7 +178,7 @@ static stagedItems as IIngredient[][string] = {
 		<stevescarts:upgrade:16>,
 		<stevescarts:upgrade:17>,
 		<stevescarts:upgrade:18>,
-		<stevescarts:upgrade>
+		<stevescarts:upgrade:0>
 	],
 
 	stageFour.stage: [
@@ -203,7 +203,7 @@ static stagedItems as IIngredient[][string] = {
 static hiddenItems as IIngredient[] = [
 	<stevescarts:cartmodule:87>,
 	<stevescarts:cartmodule:92>,
-	<stevescarts:modularcart>,
+	<stevescarts:modularcart:0>,
 	<stevescarts:modulecomponents:9>
 ];
 

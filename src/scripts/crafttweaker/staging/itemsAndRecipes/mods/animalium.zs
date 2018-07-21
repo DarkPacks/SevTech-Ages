@@ -6,14 +6,14 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<animalium:bear_claw_paxel>,
-		<animalium:bear_claw>,
-		<animalium:bear_meat_cooked>,
-		<animalium:bear_meat>,
-		<animalium:dog_boots>,
-		<animalium:rat_meat_cooked>,
-		<animalium:rat_meat>,
-		<animalium:wild_dog_pelt>
+		<animalium:bear_claw_paxel:0>,
+		<animalium:bear_claw:0>,
+		<animalium:bear_meat_cooked:0>,
+		<animalium:bear_meat:0>,
+		<animalium:dog_boots:0>,
+		<animalium:rat_meat_cooked:0>,
+		<animalium:rat_meat:0>,
+		<animalium:wild_dog_pelt:0>
 	]
 };
 

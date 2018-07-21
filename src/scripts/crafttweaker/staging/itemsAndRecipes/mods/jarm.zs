@@ -6,12 +6,12 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<jarm:acacia_raft>,
-		<jarm:birch_raft>,
-		<jarm:dark_oak_raft>,
-		<jarm:jungle_raft>,
-		<jarm:oak_raft>,
-		<jarm:spruce_raft>
+		<jarm:acacia_raft:0>,
+		<jarm:birch_raft:0>,
+		<jarm:dark_oak_raft:0>,
+		<jarm:jungle_raft:0>,
+		<jarm:oak_raft:0>,
+		<jarm:spruce_raft:0>
 	]
 };
 

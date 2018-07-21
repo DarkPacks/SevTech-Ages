@@ -14,42 +14,42 @@ static stagedItems as IIngredient[][string] = {
 		<storagedrawers:customdrawers:2>,
 		<storagedrawers:customdrawers:3>,
 		<storagedrawers:customdrawers:4>,
-		<storagedrawers:customdrawers>,
-		<storagedrawers:customtrim>,
-		<storagedrawers:drawer_key>,
-		<storagedrawers:framingtable>,
-		<storagedrawers:personal_key>,
-		<storagedrawers:quantify_key>,
-		<storagedrawers:shroud_key>,
-		<storagedrawers:tape>,
+		<storagedrawers:customdrawers:0>,
+		<storagedrawers:customtrim:0>,
+		<storagedrawers:drawer_key:0>,
+		<storagedrawers:framingtable:0>,
+		<storagedrawers:personal_key:0>,
+		<storagedrawers:quantify_key:0>,
+		<storagedrawers:shroud_key:0>,
+		<storagedrawers:tape:0>,
 		<storagedrawers:trim:1>,
 		<storagedrawers:trim:2>,
 		<storagedrawers:trim:3>,
 		<storagedrawers:trim:4>,
 		<storagedrawers:trim:5>,
-		<storagedrawers:trim>,
-		<storagedrawers:upgrade_conversion>,
-		<storagedrawers:upgrade_one_stack>,
+		<storagedrawers:trim:0>,
+		<storagedrawers:upgrade_conversion:0>,
+		<storagedrawers:upgrade_one_stack:0>,
 		<storagedrawers:upgrade_storage:1>,
-		<storagedrawers:upgrade_storage>,
-		<storagedrawers:upgrade_template>
+		<storagedrawers:upgrade_storage:0>,
+		<storagedrawers:upgrade_template:0>
 	],
 
 	stageThree.stage: [
-		<storagedrawers:compdrawers>,
-		<storagedrawers:controller>,
-		<storagedrawers:controllerslave>,
+		<storagedrawers:compdrawers:0>,
+		<storagedrawers:controller:0>,
+		<storagedrawers:controllerslave:0>,
 		<storagedrawers:keybutton:1>,
 		<storagedrawers:keybutton:2>,
 		<storagedrawers:keybutton:3>,
-		<storagedrawers:keybutton>,
+		<storagedrawers:keybutton:0>,
 		<storagedrawers:upgrade_redstone:1>,
 		<storagedrawers:upgrade_redstone:2>,
-		<storagedrawers:upgrade_redstone>,
+		<storagedrawers:upgrade_redstone:0>,
 		<storagedrawers:upgrade_status:1>,
-		<storagedrawers:upgrade_status>,
+		<storagedrawers:upgrade_status:0>,
 		<storagedrawers:upgrade_storage:2>,
-		<storagedrawers:upgrade_void>
+		<storagedrawers:upgrade_void:0>
 	],
 
 	stageFive.stage: [
@@ -59,7 +59,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageCreativeUnused.stage: [
 		<storagedrawers:upgrade_creative:1>,
-		<storagedrawers:upgrade_creative>
+		<storagedrawers:upgrade_creative:0>
 	]
 };
 

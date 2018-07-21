@@ -23,7 +23,7 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<farmingforblockheads:market> : [
+	<farmingforblockheads:market:0> : [
 		[
 			[<ore:plankWood>, <totemic:flute:1>, <ore:plankWood>],
 			[<ore:logWood>, null, <ore:logWood>],
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<farmingforblockheads:market>
+	<farmingforblockheads:market:0>
 ];
 
 function init() {

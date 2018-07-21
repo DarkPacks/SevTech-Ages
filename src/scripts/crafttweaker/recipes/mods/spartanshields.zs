@@ -25,32 +25,32 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<spartanshields:shield_basic_stone> : [
+	<spartanshields:shield_basic_stone:0> : [
 		[
-			[null, <minecraft:stone>, null],
-			[<minecraft:stone>, <spartanshields:shield_basic_wood>, <minecraft:stone>],
-			[null, <minecraft:stone>, null]
+			[null, <minecraft:stone:0>, null],
+			[<minecraft:stone:0>, <spartanshields:shield_basic_wood:0>, <minecraft:stone:0>],
+			[null, <minecraft:stone:0>, null]
 		]
 	],
-	<spartanshields:shield_basic_wood> : [
+	<spartanshields:shield_basic_wood:0> : [
 		[
 			[null, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, null]
 		]
 	],
-	<spartanshields:shield_basic_diamond> : [
+	<spartanshields:shield_basic_diamond:0> : [
 		[
-			[null, <minecraft:diamond>, null],
-			[<minecraft:diamond>, <spartanshields:shield_basic_iron>, <minecraft:diamond>],
-			[null, <minecraft:diamond>, null]
+			[null, <minecraft:diamond:0>, null],
+			[<minecraft:diamond:0>, <spartanshields:shield_basic_iron:0>, <minecraft:diamond:0>],
+			[null, <minecraft:diamond:0>, null]
 		]
 	],
-	<spartanshields:shield_riot_rftools> : [
+	<spartanshields:shield_riot_rftools:0> : [
 		[
-			[null, <actuallyadditions:item_battery_quadruple>, null],
-			[<tconstruct:materials:14>, <spartanshields:shield_basic_copper>, <tconstruct:materials:14>],
-			[null, <rftools:shield_block3>, null]
+			[null, <actuallyadditions:item_battery_quadruple:0>, null],
+			[<tconstruct:materials:14>, <spartanshields:shield_basic_copper:0>, <tconstruct:materials:14>],
+			[null, <rftools:shield_block3:0>, null]
 		]
 	]
 };

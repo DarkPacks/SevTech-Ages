@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageFour;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
-		<poweradapters:mj>
+		<poweradapters:mj:0>
 	]
 };
 

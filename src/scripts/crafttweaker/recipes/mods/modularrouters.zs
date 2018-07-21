@@ -16,58 +16,58 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<modularrouters:module:13> : [
 		[
-			[null, <tcomplement:manyullyn_helmet>, null],
+			[null, <tcomplement:manyullyn_helmet:0>, null],
 			[<modularrouters:module:7>, <minecraft:skull:*>, <modularrouters:module:9>],
-			[null, <tcomplement:manyullyn_chestplate>, null]
+			[null, <tcomplement:manyullyn_chestplate:0>, null]
 		]
 	],
-	<modularrouters:filter> : [
+	<modularrouters:filter:0> : [
 		[
 			[metals.iron.plate, <ore:blockGlass>, metals.iron.plate],
-			[<modularrouters:blank_module>, metals.platinum.plate, <modularrouters:blank_module>],
+			[<modularrouters:blank_module:0>, metals.platinum.plate, <modularrouters:blank_module:0>],
 			[metals.iron.plate, <ore:blockGlass>, metals.iron.plate]
 		]
 	],
-	<modularrouters:augment_core> * 4: [
+	<modularrouters:augment_core:0> * 4: [
 		[
-			[<modularrouters:blank_module>, <modularrouters:blank_upgrade>, null],
+			[<modularrouters:blank_module:0>, <modularrouters:blank_upgrade:0>, null],
 			[null, null, null],
 			[null, null, null]
 		]
 	],
-	<modularrouters:blank_upgrade> * 4: [
+	<modularrouters:blank_upgrade:0> * 4: [
 		[
-			[<minecraft:paper>, <minecraft:paper>, metals.gold.plate],
-			[<minecraft:paper>, <minecraft:dye:4>, metals.gold.plate],
-			[null, <minecraft:paper>, metals.gold.plate]
+			[<minecraft:paper:0>, <minecraft:paper:0>, metals.gold.plate],
+			[<minecraft:paper:0>, <minecraft:dye:4>, metals.gold.plate],
+			[null, <minecraft:paper:0>, metals.gold.plate]
 		]
 	],
-	<modularrouters:blank_module> * 6: [
+	<modularrouters:blank_module:0> * 6: [
 		[
-			[null, <minecraft:paper>, null],
-			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+			[null, <minecraft:paper:0>, null],
+			[<minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],
-	<modularrouters:item_router> * 4: [
+	<modularrouters:item_router:0> * 4: [
 		[
-			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate],
-			[<minecraft:iron_bars>, <minecraft:paper>, <minecraft:iron_bars>],
-			[metals.iron.plate, <minecraft:iron_bars>, metals.iron.plate]
+			[metals.iron.plate, <minecraft:iron_bars:0>, metals.iron.plate],
+			[<minecraft:iron_bars:0>, <minecraft:paper:0>, <minecraft:iron_bars:0>],
+			[metals.iron.plate, <minecraft:iron_bars:0>, metals.iron.plate]
 		]
 	],
 	<modularrouters:upgrade:4> * 8: [
 		[
 			[null, null, null],
-			[metals.redstoneAlloy.plate, <minecraft:clock>, metals.redstoneAlloy.plate],
-			[metals.redstoneAlloy.plate, <modularrouters:blank_upgrade>, metals.redstoneAlloy.plate]
+			[metals.redstoneAlloy.plate, <minecraft:clock:0>, metals.redstoneAlloy.plate],
+			[metals.redstoneAlloy.plate, <modularrouters:blank_upgrade:0>, metals.redstoneAlloy.plate]
 		]
 	],
 	<modularrouters:upgrade:5> * 8: [
 		[
 			[null, null, null],
-			[null, <minecraft:bucket>, null],
-			[<ore:blockGlass>, <modularrouters:blank_upgrade>, <ore:blockGlass>]
+			[null, <minecraft:bucket:0>, null],
+			[<ore:blockGlass>, <modularrouters:blank_upgrade:0>, <ore:blockGlass>]
 		]
 	]
 };
@@ -92,11 +92,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<modularrouters:augment_core>,
-	<modularrouters:blank_module>,
-	<modularrouters:blank_upgrade>,
-	<modularrouters:filter>,
-	<modularrouters:item_router>,
+	<modularrouters:augment_core:0>,
+	<modularrouters:blank_module:0>,
+	<modularrouters:blank_upgrade:0>,
+	<modularrouters:filter:0>,
+	<modularrouters:item_router:0>,
 	<modularrouters:module:13>,
 	<modularrouters:upgrade:4>,
 	<modularrouters:upgrade:5>

@@ -46,7 +46,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	// ==================================
 	// Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things
-	<geolosys:ore>: [
+	<geolosys:ore:0>: [
 		format.red("Iron Ore")
 	],
 	<geolosys:ore:1>: [
@@ -94,166 +94,166 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<chisel:antiblock:15>: [
 		format.gold("Craftable")
 	],
-	<chisel:brownstone>: [
+	<chisel:brownstone:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:factory>: [
+	<chisel:factory:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:futura>: [
+	<chisel:futura:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:laboratory>: [
+	<chisel:laboratory:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:lavastone>: [
+	<chisel:lavastone:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:temple>: [
+	<chisel:temple:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:tyrian>: [
+	<chisel:tyrian:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:voidstone>: [
+	<chisel:voidstone:0>: [
 		format.gold("Craftable")
 	],
-	<chisel:waterstone>: [
+	<chisel:waterstone:0>: [
 		format.gold("Craftable")
 	],
 
 	// ==================================
 	// Environmental Tech Structures
 	// Lightning
-	<environmentaltech:lightning_cont_1>: [
+	<environmentaltech:lightning_cont_1:0>: [
 		format.aqua("Structure Size: 3x7x3")
 	],
-	<environmentaltech:lightning_cont_2>: [
+	<environmentaltech:lightning_cont_2:0>: [
 		format.aqua("Structure Size: 3x9x3")
 	],
-	<environmentaltech:lightning_cont_3>: [
+	<environmentaltech:lightning_cont_3:0>: [
 		format.aqua("Structure Size: 3x11x3")
 	],
-	<environmentaltech:lightning_cont_4>: [
+	<environmentaltech:lightning_cont_4:0>: [
 		format.aqua("Structure Size: 3x13x3")
 	],
-	<environmentaltech:lightning_cont_5>: [
+	<environmentaltech:lightning_cont_5:0>: [
 		format.aqua("Structure Size: 3x18x3")
 	],
-	<environmentaltech:lightning_cont_6>: [
+	<environmentaltech:lightning_cont_6:0>: [
 		format.aqua("Structure Size: 3x23x3")
 	],
 
 	// Nano
-	<environmentaltech:nano_cont_personal_1>: [
+	<environmentaltech:nano_cont_personal_1:0>: [
 		format.aqua("Structure Size: 5x3x5")
 	],
-	<environmentaltech:nano_cont_personal_2>: [
+	<environmentaltech:nano_cont_personal_2:0>: [
 		format.aqua("Structure Size: 7x4x7")
 	],
-	<environmentaltech:nano_cont_personal_3>: [
+	<environmentaltech:nano_cont_personal_3:0>: [
 		format.aqua("Structure Size: 9x5x9")
 	],
-	<environmentaltech:nano_cont_personal_4>: [
+	<environmentaltech:nano_cont_personal_4:0>: [
 		format.aqua("Structure Size: 11x6x11")
 	],
-	<environmentaltech:nano_cont_personal_5>: [
+	<environmentaltech:nano_cont_personal_5:0>: [
 		format.aqua("Structure Size: 13x7x13")
 	],
-	<environmentaltech:nano_cont_personal_6>: [
+	<environmentaltech:nano_cont_personal_6:0>: [
 		format.aqua("Structure Size: 15x8x15")
 	],
 
 	// Solar
-	<environmentaltech:solar_cont_1>: [
+	<environmentaltech:solar_cont_1:0>: [
 		format.aqua("Structure Size: 5x2x5")
 	],
-	<environmentaltech:solar_cont_2>: [
+	<environmentaltech:solar_cont_2:0>: [
 		format.aqua("Structure Size: 7x2x7")
 	],
-	<environmentaltech:solar_cont_3>: [
+	<environmentaltech:solar_cont_3:0>: [
 		format.aqua("Structure Size: 9x2x9")
 	],
-	<environmentaltech:solar_cont_4>: [
+	<environmentaltech:solar_cont_4:0>: [
 		format.aqua("Structure Size: 11x2x11")
 	],
-	<environmentaltech:solar_cont_5>: [
+	<environmentaltech:solar_cont_5:0>: [
 		format.aqua("Structure Size: 13x2x13")
 	],
-	<environmentaltech:solar_cont_6>: [
+	<environmentaltech:solar_cont_6:0>: [
 		format.aqua("Structure Size: 15x2x15")
 	],
 
 	// Void Botanic Miner
-	<environmentaltech:void_botanic_miner_cont_1>: [
+	<environmentaltech:void_botanic_miner_cont_1:0>: [
 		format.aqua("Structure Size: 7x4x7")
 	],
-	<environmentaltech:void_botanic_miner_cont_2>: [
+	<environmentaltech:void_botanic_miner_cont_2:0>: [
 		format.aqua("Structure Size: 7x5x7")
 	],
-	<environmentaltech:void_botanic_miner_cont_3>: [
+	<environmentaltech:void_botanic_miner_cont_3:0>: [
 		format.aqua("Structure Size: 11x6x11")
 	],
-	<environmentaltech:void_botanic_miner_cont_4>: [
+	<environmentaltech:void_botanic_miner_cont_4:0>: [
 		format.aqua("Structure Size: 11x7x11")
 	],
-	<environmentaltech:void_botanic_miner_cont_5>: [
+	<environmentaltech:void_botanic_miner_cont_5:0>: [
 		format.aqua("Structure Size: 11x8x11")
 	],
-	<environmentaltech:void_botanic_miner_cont_6>: [
+	<environmentaltech:void_botanic_miner_cont_6:0>: [
 		format.aqua("Structure Size: 13x8x13")
 	],
 
 	// Void Ore Miner
-	<environmentaltech:void_ore_miner_cont_1>: [
+	<environmentaltech:void_ore_miner_cont_1:0>: [
 		format.aqua("Structure Size: 7x4x7")
 	],
-	<environmentaltech:void_ore_miner_cont_2>: [
+	<environmentaltech:void_ore_miner_cont_2:0>: [
 		format.aqua("Structure Size: 7x5x7")
 	],
-	<environmentaltech:void_ore_miner_cont_3>: [
+	<environmentaltech:void_ore_miner_cont_3:0>: [
 		format.aqua("Structure Size: 11x6x11")
 	],
-	<environmentaltech:void_ore_miner_cont_4>: [
+	<environmentaltech:void_ore_miner_cont_4:0>: [
 		format.aqua("Structure Size: 11x7x11")
 	],
-	<environmentaltech:void_ore_miner_cont_5>: [
+	<environmentaltech:void_ore_miner_cont_5:0>: [
 		format.aqua("Structure Size: 11x8x11")
 	],
-	<environmentaltech:void_ore_miner_cont_6>: [
+	<environmentaltech:void_ore_miner_cont_6:0>: [
 		format.aqua("Structure Size: 13x8x13")
 	],
 
 	// Void Res Miner
-	<environmentaltech:void_res_miner_cont_1>: [
+	<environmentaltech:void_res_miner_cont_1:0>: [
 		format.aqua("Structure Size: 7x4x7")
 	],
-	<environmentaltech:void_res_miner_cont_2>: [
+	<environmentaltech:void_res_miner_cont_2:0>: [
 		format.aqua("Structure Size: 7x5x7")
 	],
-	<environmentaltech:void_res_miner_cont_3>: [
+	<environmentaltech:void_res_miner_cont_3:0>: [
 		format.aqua("Structure Size: 11x6x11")
 	],
-	<environmentaltech:void_res_miner_cont_4>: [
+	<environmentaltech:void_res_miner_cont_4:0>: [
 		format.aqua("Structure Size: 11x7x11")
 	],
-	<environmentaltech:void_res_miner_cont_5>: [
+	<environmentaltech:void_res_miner_cont_5:0>: [
 		format.aqua("Structure Size: 11x8x11")
 	],
-	<environmentaltech:void_res_miner_cont_6>: [
+	<environmentaltech:void_res_miner_cont_6:0>: [
 		format.aqua("Structure Size: 13x8x13")
 	],
 
 	// ==================================
 	// Galacticraft Schematic Helpful Hints
-	<galacticraftcore:schematic>: [
+	<galacticraftcore:schematic:0>: [
 		format.gray("Tier 1 treasure chests, found after completing tier 1 dungeons on the moon")
 	],
 	<galacticraftcore:schematic:1>: [
 		format.gray("The Tier 2 Rocket Schematic can be found in Tier 1 treasure chests, found after completing the Moon Dungeon")
 	],
 
-	<galacticraftplanets:schematic>: [
+	<galacticraftplanets:schematic:0>: [
 		format.gray("The Tier 3 Rocket Schematic can be found in Tier 2 Treasure Chests which can sometimes be found after completing Mars Dungeons")
 	],
 	<galacticraftplanets:schematic:1>: [
@@ -263,38 +263,38 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.gray("Treasure item in a Tier 2 Treasure Chest after defeating the Creeper Boss")
 	],
 
-	<extraplanets:schematic_tier4>: [
+	<extraplanets:schematic_tier4:0>: [
 		format.gray("The schematic can be found in a Tier 4 Treasure Chest on Mercury")
 	],
-	<extraplanets:schematic_tier5>: [
+	<extraplanets:schematic_tier5:0>: [
 		format.gray("The schematic can be found in a Tier 5 Treasure Chest on Jupiter")
 	],
-	<extraplanets:schematic_tier6>: [
+	<extraplanets:schematic_tier6:0>: [
 		format.gray("The schematic can be found in a Tier 6 Treasure Chest on Saturn")
 	],
-	<extraplanets:schematic_tier7>: [
+	<extraplanets:schematic_tier7:0>: [
 		format.gray("The schematic can be found in a Tier 7 Treasure Chest on Uranus")
 	],
-	<extraplanets:schematic_tier8>: [
+	<extraplanets:schematic_tier8:0>: [
 		format.gray("The schematic can be found in a Tier 8 Treasure Chest on Neptune")
 	],
-	<extraplanets:schematic_tier9>: [
+	<extraplanets:schematic_tier9:0>: [
 		format.gray("The schematic can be found in a Tier 9 Treasure Chest on Pluto")
 	],
-	<extraplanets:schematic_tier10>: [
+	<extraplanets:schematic_tier10:0>: [
 		format.gray("The schematic can be found in a Tier 10 Treasure Chest on Eris")
 	],
 
-	<extraplanets:schematic_mars_rover>: [
+	<extraplanets:schematic_mars_rover:0>: [
 		format.gray("The schematic can be found in a Treasure Chest")
 	],
-	<extraplanets:schematic_venus_rover>: [
+	<extraplanets:schematic_venus_rover:0>: [
 		format.gray("The schematic can be found in a Tier 4 Treasure Chest on Venus")
 	],
 
 	// ==================================
 	// Misc
-	<animalium:rat_meat>: [
+	<animalium:rat_meat:0>: [
 		format.red("Loved by Wild Bears!")
 	],
 
@@ -305,30 +305,30 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("An advanced Wooden Hopper")
 	],
 
-	<jarm:oak_raft>: [
+	<jarm:oak_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
-	<jarm:spruce_raft>: [
+	<jarm:spruce_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
-	<jarm:birch_raft>: [
+	<jarm:birch_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
-	<jarm:jungle_raft>: [
+	<jarm:jungle_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
-	<jarm:acacia_raft>: [
+	<jarm:acacia_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
-	<jarm:dark_oak_raft>: [
+	<jarm:dark_oak_raft:0>: [
 		format.red("A Tom Hanks Style Boat")
 	],
 
-	<minecraft:mob_spawner>: [
+	<minecraft:mob_spawner:0>: [
 		format.red("Only has 400 total spawns!")
 	],
 
-	<totemic:tipi>: [
+	<totemic:tipi:0>: [
 		format.red("It's like a fancy bed!")
 	],
 
@@ -336,15 +336,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Needs heat source below")
 	],
 
-	<dungpipe:sewer_pipe>: [
+	<dungpipe:sewer_pipe:0>: [
 		format.red("Pipes items through a solid block")
 	],
 
-	<ceramics:clay_bucket>: [
+	<ceramics:clay_bucket:0>: [
 		format.red("Will literally melt away after transporting HOT liquid")
 	],
 
-	<progressiontweaks:spear>: [
+	<progressiontweaks:spear:0>: [
 		format.red("Hold Mouse Button To Charge"),
 		format.red("Release to throw")
 	],
@@ -359,7 +359,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Right Click on Table to craft recipe")
 	],
 
-	<tconstruct:sharpening_kit>: [
+	<tconstruct:sharpening_kit:0>: [
 		format.red("Only used to repair tools")
 	],
 
@@ -383,24 +383,24 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Can not be repaired")
 	],
 
-	<teslacorelib:energy_tier1>: [
+	<teslacorelib:energy_tier1:0>: [
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
-	<teslacorelib:energy_tier2>: [
+	<teslacorelib:energy_tier2:0>: [
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
-	<teslacorelib:speed_tier1>: [
+	<teslacorelib:speed_tier1:0>: [
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
-	<teslacorelib:speed_tier2>: [
+	<teslacorelib:speed_tier2:0>: [
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
 
-	<astikoor:plowcart>: [
+	<astikoor:plowcart:0>: [
 		format.yellow("Use the Astikoor Action"),
 		format.yellow("Key to attach to Horses")
 	],
-	<astikoor:cargocart>: [
+	<astikoor:cargocart:0>: [
 		format.yellow("Use the Astikoor Action"),
 		format.yellow("Key to attach to Horses")
 	],
@@ -424,22 +424,22 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Can not be repaired")
 	],
 
-	<waterstrainer:garden_trowel>: [
+	<waterstrainer:garden_trowel:0>: [
 		format.red("Repaired with Flint")
 	],
 
-	<betterwithmods:wooden_broken_gearbox>: [
+	<betterwithmods:wooden_broken_gearbox:0>: [
 		format.red("Right click with two"),
 		format.red("Wooden Gears in hand to Repair"),
 		format.red("Or craft back into a repaired block")
 	],
 
-	<extraplanets:apple_iron>: [
+	<extraplanets:apple_iron:0>: [
 		format.red("Eating this item will"),
 		format.red("unlock Advanced Mapping")
 	],
 
-	<thebetweenlands:ring_of_flight>: [
+	<thebetweenlands:ring_of_flight:0>: [
 		format.red("Can be found as Loot from chests in"),
 		format.red("Shrines, Cragrock Towers"),
 		format.red("and the Wight Fortress"),
@@ -448,37 +448,37 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("from certain Betweenlands enemies")
 	],
 
-	<indlog:auto_craft>: [
+	<indlog:auto_craft:0>: [
 		format.red("Only able to craft Age 4 items and below")
 	],
-	<indlog:portable_craft>: [
-		format.red("Only able to craft Age 4 items and below")
-	],
-
-	<buildcraftfactory:autoworkbench_item>: [
+	<indlog:portable_craft:0>: [
 		format.red("Only able to craft Age 4 items and below")
 	],
 
-	<rftools:crafter1>: [
+	<buildcraftfactory:autoworkbench_item:0>: [
+		format.red("Only able to craft Age 4 items and below")
+	],
+
+	<rftools:crafter1:0>: [
 		format.red("Able to craft Age 5 items and below")
 	],
-	<rftools:crafter2>: [
+	<rftools:crafter2:0>: [
 		format.red("Able to craft Age 5 items and below")
 	],
-	<rftools:crafter3>: [
+	<rftools:crafter3:0>: [
 		format.red("Able to craft Age 5 items and below")
 	],
 
-	<cyclicmagic:auto_crafter>: [
+	<cyclicmagic:auto_crafter:0>: [
 		format.red("Able to craft Age 5 items and below")
 	],
 
-	<betterwithmods:hand_crank>: [
+	<betterwithmods:hand_crank:0>: [
 		format.red("Needed to power early machines"),
 		format.red("like the Mill Stone")
 	],
 
-	<abyssalcraft:statue>: [
+	<abyssalcraft:statue:0>: [
 		format.red("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:1>: [
@@ -500,23 +500,23 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Requires open sky above to function")
 	],
 
-	<totemic:cedar_log>: [
+	<totemic:cedar_log:0>: [
 		format.red("Not found in the world"),
 		format.red("Red Cedar is acquired via a Totemic Ceremony")
 	],
-	<totemic:stripped_cedar_log>: [
+	<totemic:stripped_cedar_log:0>: [
 		format.red("Not found in the world"),
 		format.red("Red Cedar is acquired via a Totemic Ceremony")
 	],
-	<totemic:cedar_plank>: [
+	<totemic:cedar_plank:0>: [
 		format.red("Not found in the world"),
 		format.red("Red Cedar is acquired via a Totemic Ceremony")
 	],
-	<totemic:cedar_sapling>: [
+	<totemic:cedar_sapling:0>: [
 		format.red("Not found in the world"),
 		format.red("Red Cedar is acquired via a Totemic Ceremony")
 	],
-	<totemic:cedar_leaves>: [
+	<totemic:cedar_leaves:0>: [
 		format.red("Not found in the world"),
 		format.red("Red Cedar is acquired via a Totemic Ceremony")
 	],
@@ -542,16 +542,16 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	// Space!
-	<buildcraftbuilders:quarry>: [
+	<buildcraftbuilders:quarry:0>: [
 		format.red("This machine will only work in space! But watch out for a flying car however")
 	],
 
 	// Creeping Moss
-	<huntingdim:biome_changer>: [
+	<huntingdim:biome_changer:0>: [
 		format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be")
 	],
 
-	<betterwithmods:hibachi>: [
+	<betterwithmods:hibachi:0>: [
 		format.red("Needs a Redstone signal to light")
 	],
 

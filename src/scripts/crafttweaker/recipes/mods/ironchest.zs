@@ -26,25 +26,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<ironchest:iron_chest:3> : [
 		[
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
-			[metals.copper.plate, <minecraft:chest>, metals.copper.plate],
+			[metals.copper.plate, <minecraft:chest:0>, metals.copper.plate],
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate]
 		]
 	],
-	<ironchest:wood_copper_chest_upgrade> : [
+	<ironchest:wood_copper_chest_upgrade:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
 			[metals.copper.plate, <ore:logWood>, metals.copper.plate],
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate]
 		]
 	],
-	<ironchest:copper_iron_chest_upgrade> : [
+	<ironchest:copper_iron_chest_upgrade:0> : [
 		[
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
 			[metals.iron.plate, metals.copper.plate, metals.iron.plate],
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
 		]
 	],
-	<ironchest:copper_silver_chest_upgrade> : [
+	<ironchest:copper_silver_chest_upgrade:0> : [
 		[
 			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
 			[metals.silver.plate, metals.copper.plate, metals.silver.plate],
@@ -54,39 +54,39 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<ironchest:iron_chest:1> : [
 		[
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
-			[metals.gold.plate, <minecraft:chest>, metals.gold.plate],
+			[metals.gold.plate, <minecraft:chest:0>, metals.gold.plate],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],
 	<ironchest:iron_chest:4> : [
 		[
 			[metals.silver.plate, metals.silver.plate, metals.silver.plate],
-			[metals.silver.plate, <minecraft:chest>, metals.silver.plate],
+			[metals.silver.plate, <minecraft:chest:0>, metals.silver.plate],
 			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
 	],
-	<ironchest:iron_chest> : [
+	<ironchest:iron_chest:0> : [
 		[
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
-			[metals.iron.plate, <minecraft:chest>, metals.iron.plate],
+			[metals.iron.plate, <minecraft:chest:0>, metals.iron.plate],
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
 		]
 	],
-	<ironchest:iron_gold_chest_upgrade> : [
+	<ironchest:iron_gold_chest_upgrade:0> : [
 		[
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
 			[metals.gold.plate, metals.iron.plate, metals.gold.plate],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],
-	<ironchest:silver_gold_chest_upgrade> : [
+	<ironchest:silver_gold_chest_upgrade:0> : [
 		[
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate],
 			[metals.gold.plate, metals.silver.plate, metals.gold.plate],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]
 	],
-	<ironchest:wood_iron_chest_upgrade> : [
+	<ironchest:wood_iron_chest_upgrade:0> : [
 		[
 			[metals.iron.plate, metals.iron.plate, metals.iron.plate],
 			[metals.iron.plate, <ore:logWood>, metals.iron.plate],
@@ -95,51 +95,51 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<ironchest:iron_chest:6> : [
 		[
-			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>],
-			[<minecraft:obsidian>, <minecraft:chest>, <minecraft:obsidian>],
-			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+			[<minecraft:obsidian:0>, <minecraft:obsidian:0>, <minecraft:obsidian:0>],
+			[<minecraft:obsidian:0>, <minecraft:chest:0>, <minecraft:obsidian:0>],
+			[<minecraft:obsidian:0>, <minecraft:obsidian:0>, <minecraft:obsidian:0>]
 		]
 	],
 	<ironchest:iron_chest:2>: [
 		[
-			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
-			[<mekanism:compresseddiamond>, <minecraft:chest>, <mekanism:compresseddiamond>],
-			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
+			[<mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>],
+			[<mekanism:compresseddiamond:0>, <minecraft:chest:0>, <mekanism:compresseddiamond:0>],
+			[<mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>]
 		]
 	],
 	<ironchest:iron_chest:5>: [
 		[
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-			[<mekanism:compresseddiamond>, <ironchest:iron_chest:1>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond:0>, <ironchest:iron_chest:1>, <mekanism:compresseddiamond:0>],
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
 		]
 	],
-	<ironchest:diamond_obsidian_chest_upgrade>: [
+	<ironchest:diamond_obsidian_chest_upgrade:0>: [
 		[
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>],
-			[<mekanism:compressedobsidian>, <mekanism:compresseddiamond>, <mekanism:compressedobsidian>],
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+			[<mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>],
+			[<mekanism:compressedobsidian:0>, <mekanism:compresseddiamond:0>, <mekanism:compressedobsidian:0>],
+			[<mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>]
 		]
 	],
-	<ironchest:diamond_crystal_chest_upgrade>: [
+	<ironchest:diamond_crystal_chest_upgrade:0>: [
 		[
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
+			[<mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>],
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
 		]
 	],
-	<ironchest:gold_diamond_chest_upgrade>: [
+	<ironchest:gold_diamond_chest_upgrade:0>: [
 		[
-			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>],
-			[<mekanism:compresseddiamond>, metals.gold.plate, <mekanism:compresseddiamond>],
-			[<mekanism:compresseddiamond>, <mekanism:compresseddiamond>, <mekanism:compresseddiamond>]
+			[<mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>],
+			[<mekanism:compresseddiamond:0>, metals.gold.plate, <mekanism:compresseddiamond:0>],
+			[<mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>, <mekanism:compresseddiamond:0>]
 		]
 	],
 	<ironchest:iron_chest:7>: [
 		[
-			[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],
-			[<minecraft:dirt>, <minecraft:chest>, <minecraft:dirt>],
-			[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]
+			[<minecraft:dirt:0>, <minecraft:dirt:0>, <minecraft:dirt:0>],
+			[<minecraft:dirt:0>, <minecraft:chest:0>, <minecraft:dirt:0>],
+			[<minecraft:dirt:0>, <minecraft:dirt:0>, <minecraft:dirt:0>]
 		]
 	]
 };
@@ -169,9 +169,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<ironchest:diamond_crystal_chest_upgrade>,
-	<ironchest:diamond_obsidian_chest_upgrade>,
-	<ironchest:gold_diamond_chest_upgrade>
+	<ironchest:diamond_crystal_chest_upgrade:0>,
+	<ironchest:diamond_obsidian_chest_upgrade:0>,
+	<ironchest:gold_diamond_chest_upgrade:0>
 ];
 
 function init() {

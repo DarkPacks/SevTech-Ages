@@ -23,14 +23,14 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<quantumstorage:quantum_bag>: [
+	<quantumstorage:quantum_bag:0>: [
 		[
-			[<ore:wool>, <betterwithmods:rope>, <ore:wool>],
+			[<ore:wool>, <betterwithmods:rope:0>, <ore:wool>],
 			[<ore:wool>, <ironchest:iron_chest:2>, <ore:wool>],
 			[<ore:wool>, <ore:wool>, <ore:wool>]
 		]
 	],
-	<quantumstorage:quantum_storage_unit>: [
+	<quantumstorage:quantum_storage_unit:0>: [
 		[
 			[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>],
 			[metals.iron.ingot, <ironchest:iron_chest:2>, metals.iron.ingot],
@@ -59,8 +59,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<quantumstorage:quantum_bag>,
-	<quantumstorage:quantum_storage_unit>
+	<quantumstorage:quantum_bag:0>,
+	<quantumstorage:quantum_storage_unit:0>
 ];
 
 function init() {
@@ -90,9 +90,9 @@ function init() {
 
 
 	// We have to remove this one manually cos it uses ForgeOreShapless Children for the dye recipes.
-	recipes.removeShaped(<quantumstorage:quantum_bag>, [
-		[<ore:wool>, <minecraft:string>, <ore:wool>],
-		[<ore:wool>, <quantumstorage:chest_diamond>, <ore:wool>],
+	recipes.removeShaped(<quantumstorage:quantum_bag:0>, [
+		[<ore:wool>, <minecraft:string:0>, <ore:wool>],
+		[<ore:wool>, <quantumstorage:chest_diamond:0>, <ore:wool>],
 		[<ore:wool>, <ore:wool>, <ore:wool>]
 	]);
 }

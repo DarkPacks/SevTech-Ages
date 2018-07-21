@@ -11,31 +11,31 @@ import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<extendedcrafting:guide>,
-		<extendedcrafting:handheld_table>,
+		<extendedcrafting:guide:0>,
+		<extendedcrafting:handheld_table:0>,
 		<extendedcrafting:material:8>,
 		<extendedcrafting:material:14>,
-		<extendedcrafting:table_basic>
+		<extendedcrafting:table_basic:0>
 	],
 
 	stageThree.stage: [
-		<extendedcrafting:frame>,
+		<extendedcrafting:frame:0>,
 		<extendedcrafting:lamp:1>,
-		<extendedcrafting:lamp>,
+		<extendedcrafting:lamp:0>,
 		<extendedcrafting:material:7>,
 		<extendedcrafting:material:9>,
 		<extendedcrafting:material:15>,
-		<extendedcrafting:pedestal>,
+		<extendedcrafting:pedestal:0>,
 		<extendedcrafting:storage:1>,
-		<extendedcrafting:table_advanced>,
+		<extendedcrafting:table_advanced:0>,
 		<extendedcrafting:trimmed:1>,
-		<extendedcrafting:trimmed>
+		<extendedcrafting:trimmed:0>
 	],
 
 	stageFour.stage: [
-		<extendedcrafting:ender_alternator>,
-		<extendedcrafting:ender_crafter>,
-		<extendedcrafting:interface>,
+		<extendedcrafting:ender_alternator:0>,
+		<extendedcrafting:ender_crafter:0>,
+		<extendedcrafting:interface:0>,
 		<extendedcrafting:material:10>,
 		<extendedcrafting:material:16>,
 		<extendedcrafting:material:36>,
@@ -47,12 +47,12 @@ static stagedItems as IIngredient[][string] = {
 		<extendedcrafting:storage:5>,
 		<extendedcrafting:storage:6>,
 		<extendedcrafting:storage:7>,
-		<extendedcrafting:table_elite>
+		<extendedcrafting:table_elite:0>
 	],
 
 	stageFive.stage: [
-		<extendedcrafting:compressor>,
-		<extendedcrafting:crafting_core>,
+		<extendedcrafting:compressor:0>,
+		<extendedcrafting:crafting_core:0>,
 		<extendedcrafting:material:11>,
 		<extendedcrafting:material:12>,
 		<extendedcrafting:material:13>,
@@ -74,12 +74,12 @@ static stagedItems as IIngredient[][string] = {
 		<extendedcrafting:singularity_custom:6>,
 		<extendedcrafting:singularity_custom:7>,
 		<extendedcrafting:singularity_custom:8>,
-		<extendedcrafting:singularity_ultimate>,
+		<extendedcrafting:singularity_ultimate:0>,
 		<extendedcrafting:singularity:*>,
 		<extendedcrafting:storage:2>,
 		<extendedcrafting:storage:3>,
 		<extendedcrafting:storage:4>,
-		<extendedcrafting:table_ultimate>,
+		<extendedcrafting:table_ultimate:0>,
 		<extendedcrafting:trimmed:2>,
 		<extendedcrafting:trimmed:3>,
 		<extendedcrafting:trimmed:4>,
@@ -87,13 +87,13 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreativeUnused.stage: [
-		<extendedcrafting:recipe_maker>.withTag({Shapeless: 0 as byte}),
-		<extendedcrafting:recipe_maker>.withTag({Shapeless: 1 as byte})
+		<extendedcrafting:recipe_maker:0>.withTag({Shapeless: 0 as byte}),
+		<extendedcrafting:recipe_maker:0>.withTag({Shapeless: 1 as byte})
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<extendedcrafting:crafting_table>
+	<extendedcrafting:crafting_table:0>
 ];
 
 function init() {

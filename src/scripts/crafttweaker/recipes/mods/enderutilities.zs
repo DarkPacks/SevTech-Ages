@@ -39,14 +39,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<enderutilities:endercapacitor:1>: [
 		[
-			[null, <minecraft:ender_pearl>, null],
+			[null, <minecraft:ender_pearl:0>, null],
 			[<enderutilities:enderpart:1>, metals.reinforcedMetal.ingot, <enderutilities:enderpart:1>],
 			[<ore:obsidian>, <enderutilities:enderpart:1>, <ore:obsidian>]
 		]
 	],
 	<enderutilities:endercapacitor:2>: [
 		[
-			[<ore:obsidian>, <minecraft:ender_pearl>, <ore:obsidian>],
+			[<ore:obsidian>, <minecraft:ender_pearl:0>, <ore:obsidian>],
 			[<enderutilities:enderpart:2>, metals.enhancedGalgadorian.ingot, <enderutilities:enderpart:2>],
 			[<ore:obsidian>, <enderutilities:enderpart:2>, <ore:obsidian>]
 		]
@@ -85,7 +85,7 @@ static removeRecipes as IIngredient[] = [
 	<enderutilities:enderpart:11>,
 	<enderutilities:enderpart:12>,
 	<enderutilities:enderpart:20>,
-	<enderutilities:enderpart>
+	<enderutilities:enderpart:0>
 ];
 
 function init() {

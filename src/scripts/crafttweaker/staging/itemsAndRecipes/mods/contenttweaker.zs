@@ -10,14 +10,14 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<contenttweaker:bronze_chest>,
-		<contenttweaker:bronze_feet>,
-		<contenttweaker:bronze_head>,
-		<contenttweaker:bronze_legs>,
-		<contenttweaker:copper_chest>,
-		<contenttweaker:copper_feet>,
-		<contenttweaker:copper_head>,
-		<contenttweaker:copper_legs>,
+		<contenttweaker:bronze_chest:0>,
+		<contenttweaker:bronze_feet:0>,
+		<contenttweaker:bronze_head:0>,
+		<contenttweaker:bronze_legs:0>,
+		<contenttweaker:copper_chest:0>,
+		<contenttweaker:copper_feet:0>,
+		<contenttweaker:copper_head:0>,
+		<contenttweaker:copper_legs:0>,
 		<materialpart:aquamarine:ore_minecraft_stone>
 	],
 
@@ -41,7 +41,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageDisabled.stage: [
-		<contenttweaker:creeper_tear> //TODO: Make texture and find use once SevTweaks is updated to make sad creeper item shedding possible.
+		<contenttweaker:creeper_tear:0> //TODO: Make texture and find use once SevTweaks is updated to make sad creeper item shedding possible.
 	]
 };
 

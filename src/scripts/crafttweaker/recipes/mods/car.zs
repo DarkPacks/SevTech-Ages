@@ -23,69 +23,69 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<car:sign_post>: [
+	<car:sign_post:0>: [
 		[
 			[null, metals.iron.rod, null],
 			[null, metals.iron.rod, null]
 		]
 	],
-	<car:screw_driver>: [
+	<car:screw_driver:0>: [
 		[
 			[null, metals.iron.rod, null],
 			[null, metals.iron.rod, null],
 			[null, metals.iron.ingot, null]
 		]
 	],
-	<car:hammer>: [
+	<car:hammer:0>: [
 		[
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
 			[null, metals.iron.rod, null],
 			[null, metals.iron.rod, null]
 		]
 	],
-	<car:sign> * 3: [
+	<car:sign:0> * 3: [
 		[
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
 			[null, metals.iron.rod, null]
 		]
 	],
-	<car:engine_piston>: [
+	<car:engine_piston:0>: [
 		[
 			[null, null, metals.iron.ingot],
 			[null, metals.iron.rod, null],
 			[metals.iron.rod, null, null]
 		]
 	],
-	<car:wrench>: [
+	<car:wrench:0>: [
 		[
 			[null, metals.iron.ingot, null],
 			[null, metals.iron.rod, metals.iron.ingot],
 			[metals.iron.rod, null, null]
 		]
 	],
-	<car:axle>: [
+	<car:axle:0>: [
 		[
 			[null, null, null],
-			[<car:wheel>, metals.iron.rod, <car:wheel>],
+			[<car:wheel:0>, metals.iron.rod, <car:wheel:0>],
 			[null, null, null]
 		]
 	],
-	<car:battery>: [
+	<car:battery:0>: [
 		[
 			[metals.iron.rod, null, metals.iron.rod],
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
 		]
 	],
-	<car:number_plate>: [
+	<car:number_plate:0>: [
 		[
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot],
 			[metals.iron.ingot, metals.iron.rod, metals.iron.ingot],
 			[metals.iron.ingot, metals.iron.ingot, metals.iron.ingot]
 		]
 	],
-	<car:painter_yellow>: [
+	<car:painter_yellow:0>: [
 		[
 			[null, <ore:dyeYellow>, null],
 			[null, <ore:stickWood>, <ore:dyeYellow>],
@@ -114,16 +114,16 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<car:axle>,
-	<car:battery>,
-	<car:engine_piston>,
-	<car:hammer>,
-	<car:number_plate>,
-	<car:painter_yellow>,
-	<car:screw_driver>,
-	<car:sign>,
-	<car:sign_post>,
-	<car:wrench>
+	<car:axle:0>,
+	<car:battery:0>,
+	<car:engine_piston:0>,
+	<car:hammer:0>,
+	<car:number_plate:0>,
+	<car:painter_yellow:0>,
+	<car:screw_driver:0>,
+	<car:sign:0>,
+	<car:sign_post:0>,
+	<car:wrench:0>
 ];
 
 function init() {

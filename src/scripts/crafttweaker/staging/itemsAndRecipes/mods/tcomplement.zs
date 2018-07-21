@@ -10,9 +10,9 @@ import scripts.crafttweaker.stages.stageFour;
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
 		<tcomplement:melter:8>,
-		<tcomplement:melter>,
+		<tcomplement:melter:0>,
 		<tcomplement:porcelain_melter:8>,
-		<tcomplement:porcelain_melter>
+		<tcomplement:porcelain_melter:0>
 	],
 
 	stageOne.stage: [
@@ -20,23 +20,23 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageTwo.stage: [
-		<tcomplement:cast>,
-		<tcomplement:materials>,
-		<tcomplement:porcelain_casting>,
+		<tcomplement:cast:0>,
+		<tcomplement:materials:0>,
+		<tcomplement:porcelain_casting:0>,
 		<tcomplement:porcelain_tank:1>,
 		<tcomplement:porcelain_tank:2>,
-		<tcomplement:porcelain_tank>
+		<tcomplement:porcelain_tank:0>
 	],
 
 	stageFour.stage: [
-		<tcomplement:knightslime_boots>,
-		<tcomplement:knightslime_chestplate>,
-		<tcomplement:knightslime_helmet>,
-		<tcomplement:knightslime_leggings>,
-		<tcomplement:manyullyn_boots>,
-		<tcomplement:manyullyn_chestplate>,
-		<tcomplement:manyullyn_helmet>,
-		<tcomplement:manyullyn_leggings>
+		<tcomplement:knightslime_boots:0>,
+		<tcomplement:knightslime_chestplate:0>,
+		<tcomplement:knightslime_helmet:0>,
+		<tcomplement:knightslime_leggings:0>,
+		<tcomplement:manyullyn_boots:0>,
+		<tcomplement:manyullyn_chestplate:0>,
+		<tcomplement:manyullyn_helmet:0>,
+		<tcomplement:manyullyn_leggings:0>
 	]
 };
 

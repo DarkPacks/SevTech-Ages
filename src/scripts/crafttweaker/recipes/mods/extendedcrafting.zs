@@ -23,10 +23,10 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<extendedcrafting:table_basic>: [
+	<extendedcrafting:table_basic:0>: [
 		[
 			[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
-			[<minecraft:crafting_table>, metals.iron.block, <minecraft:crafting_table>],
+			[<minecraft:crafting_table:0>, metals.iron.block, <minecraft:crafting_table:0>],
 			[<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
 		]
 	],
@@ -36,11 +36,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<extendedcrafting:material:2>, <astralsorcery:itemcraftingcomponent:2>]
 		]
 	],
-	<extendedcrafting:table_elite> : [
+	<extendedcrafting:table_elite:0> : [
 		[
 			[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>],
-			[metals.manyullyn.block, <extendedcrafting:table_advanced>, metals.manyullyn.block],
-			[<extendedcrafting:material:16>, <quark:biotite>, <extendedcrafting:material:16>]
+			[metals.manyullyn.block, <extendedcrafting:table_advanced:0>, metals.manyullyn.block],
+			[<extendedcrafting:material:16>, <quark:biotite:0>, <extendedcrafting:material:16>]
 		]
 	],
 	<extendedcrafting:material:16> : [
@@ -53,22 +53,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<extendedcrafting:material:10> : [
 		[
 			[null, <extendedcrafting:material:16>, null],
-			[<extendedcrafting:material:16>, <extendedcrafting:material>, <extendedcrafting:material:16>],
+			[<extendedcrafting:material:16>, <extendedcrafting:material:0>, <extendedcrafting:material:16>],
 			[null, <extendedcrafting:material:16>, null]
 		]
 	],
-	<extendedcrafting:ender_crafter>: [
+	<extendedcrafting:ender_crafter:0>: [
 		[
 			[<enderutilities:enderpart:1>, <enderutilities:enderpart:1>, <enderutilities:enderpart:1>],
-			[<enderutilities:enderpart>, <astralsorcery:blockaltar>, <enderutilities:enderpart>],
-			[<enderutilities:enderpart>, <enderutilities:enderpart>, <enderutilities:enderpart>]
+			[<enderutilities:enderpart:0>, <astralsorcery:blockaltar:0>, <enderutilities:enderpart:0>],
+			[<enderutilities:enderpart:0>, <enderutilities:enderpart:0>, <enderutilities:enderpart:0>]
 		]
 	],
-	<extendedcrafting:ender_alternator>: [
+	<extendedcrafting:ender_alternator:0>: [
 		[
-			[null, <minecraft:ender_eye>, null],
-			[null, <enderutilities:enderpart>, null],
-			[<enderutilities:enderpart>, <enderutilities:enderpart>, <enderutilities:enderpart>]
+			[null, <minecraft:ender_eye:0>, null],
+			[null, <enderutilities:enderpart:0>, null],
+			[<enderutilities:enderpart:0>, <enderutilities:enderpart:0>, <enderutilities:enderpart:0>]
 		]
 	]
 };
@@ -96,7 +96,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[metals.gold.rod, metals.gold.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
 	<extendedcrafting:material:7>*2 : [
-		[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:gunpowder>, <astralsorcery:itemcraftingcomponent:2>]
+		[<minecraft:redstone:0>, <minecraft:glowstone_dust:0>, <minecraft:gunpowder:0>, <astralsorcery:itemcraftingcomponent:2>]
 	]
 };
 
@@ -107,16 +107,16 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<extendedcrafting:ender_alternator>,
-	<extendedcrafting:ender_crafter>,
+	<extendedcrafting:ender_alternator:0>,
+	<extendedcrafting:ender_crafter:0>,
 	<extendedcrafting:material:10>,
 	<extendedcrafting:material:14>,
 	<extendedcrafting:material:14>,
 	<extendedcrafting:material:15>,
 	<extendedcrafting:material:16>,
 	<extendedcrafting:material:7>,
-	<extendedcrafting:table_basic>,
-	<extendedcrafting:table_elite>
+	<extendedcrafting:table_basic:0>,
+	<extendedcrafting:table_elite:0>
 ];
 
 function init() {

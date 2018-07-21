@@ -25,113 +25,113 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<cyclicmagic:block_fragile> : [
+	<cyclicmagic:block_fragile:0> : [
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[null, <ore:stickWood>.firstItem, null],
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem]
 		]
 	],
-	<cyclicmagic:block_fragile_auto> : [
+	<cyclicmagic:block_fragile_auto:0> : [
 		[
-			[<minecraft:dirt:*>, <cyclicmagic:block_fragile>]
+			[<minecraft:dirt:*>, <cyclicmagic:block_fragile:0>]
 		]
 	],
-	<cyclicmagic:tool_harvest_leaves> : [
+	<cyclicmagic:tool_harvest_leaves:0> : [
 		[
-			[null, <minecraft:string>, <minecraft:stone_axe>],
-			[null, <ore:stickWood>.firstItem, <minecraft:string>],
+			[null, <minecraft:string:0>, <minecraft:stone_axe:0>],
+			[null, <ore:stickWood>.firstItem, <minecraft:string:0>],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<cyclicmagic:ender_torch> * 8 : [
+	<cyclicmagic:ender_torch:0> * 8 : [
 		[
 			[<ore:knightTorch>, <ore:knightTorch>, <ore:knightTorch>],
 			[<ore:knightTorch>, <betterwithmods:material:12>, <ore:knightTorch>],
 			[<ore:knightTorch>, <ore:knightTorch>, <ore:knightTorch>]
 		]
 	],
-	<cyclicmagic:placer_block> : [
+	<cyclicmagic:placer_block:0> : [
 		[
-			[<minecraft:stone>, <minecraft:dispenser>, <minecraft:stone>],
+			[<minecraft:stone:0>, <minecraft:dispenser:0>, <minecraft:stone:0>],
 			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate],
-			[<minecraft:stone>, metals.platinum.plate, <minecraft:stone>]
+			[<minecraft:stone:0>, metals.platinum.plate, <minecraft:stone:0>]
 		]
 	],
-	<cyclicmagic:clock> : [
+	<cyclicmagic:clock:0> : [
 		[
 			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate],
-			[metals.redstoneAlloy.plate, <minecraft:quartz_block>, metals.redstoneAlloy.plate],
+			[metals.redstoneAlloy.plate, <minecraft:quartz_block:0>, metals.redstoneAlloy.plate],
 			[metals.aluminum.plate, metals.redstoneAlloy.plate, metals.aluminum.plate]
 		]
 	],
-	<cyclicmagic:sprinkler> : [
+	<cyclicmagic:sprinkler:0> : [
 		[
-			[<minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"}), <darkutils:grate>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})],
+			[<minecraft:splash_potion:0>.withTag({Potion: "minecraft:strong_swiftness"}), <darkutils:grate:0>, <minecraft:splash_potion:0>.withTag({Potion: "minecraft:strong_regeneration"})],
 			[metals.aluminum.plate, <immersiveengineering:metal_device1:6>,metals.aluminum.plate],
 			[metals.lead.plate, metals.aluminum.plate, metals.lead.plate]
 		]
 	],
-	<cyclicmagic:charm_fire>: [
+	<cyclicmagic:charm_fire:0>: [
 		[
-			[<minecraft:nether_wart>, null, <minecraft:blaze_rod>],
-			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+			[<minecraft:nether_wart:0>, null, <minecraft:blaze_rod:0>],
+			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:0>, null],
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart:0>]
 		]
 	],
-	<cyclicmagic:charm_wing>: [
+	<cyclicmagic:charm_wing:0>: [
 		[
-			[<minecraft:nether_wart>, null, <minecraft:rabbit_foot>],
+			[<minecraft:nether_wart:0>, null, <minecraft:rabbit_foot:0>],
 			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart:0>]
 		]
 	],
-	<cyclicmagic:tool_auto_torch>: [
+	<cyclicmagic:tool_auto_torch:0>: [
 		[
-			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>],
+			[<ore:blockCoal>, <minecraft:iron_bars:0>, <ore:blockCoal>],
 			[null, <stevescarts:cartmodule:44>, null],
-			[<ore:blockCoal>, <minecraft:iron_bars>, <ore:blockCoal>]
+			[<ore:blockCoal>, <minecraft:iron_bars:0>, <ore:blockCoal>]
 		]
 	],
-	<cyclicmagic:charm_antidote>: [
+	<cyclicmagic:charm_antidote:0>: [
 		[
-			[<minecraft:nether_wart>, null, <minecraft:fermented_spider_eye>],
+			[<minecraft:nether_wart:0>, null, <minecraft:fermented_spider_eye:0>],
 			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart:0>]
 		]
 	],
-	<cyclicmagic:charm_water>: [
+	<cyclicmagic:charm_water:0>: [
 		[
-			[<minecraft:nether_wart>, null, <minecraft:fish:1>],
+			[<minecraft:nether_wart:0>, null, <minecraft:fish:1>],
 			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart:0>]
 		]
 	],
-	<cyclicmagic:charm_void>: [
+	<cyclicmagic:charm_void:0>: [
 		[
-			[<minecraft:nether_wart>, null, <minecraft:ender_eye>],
+			[<minecraft:nether_wart:0>, null, <minecraft:ender_eye:0>],
 			[metals.iron.ingot, <astralsorcery:itemcraftingcomponent:4>, null],
-			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart>]
+			[metals.iron.ingot, metals.iron.ingot, <minecraft:nether_wart:0>]
 		]
 	],
-	<cyclicmagic:harvester_block>: [
+	<cyclicmagic:harvester_block:0>: [
 		[
-			[<minecraft:emerald>, <mekanism:compressedobsidian>, <minecraft:emerald>],
-			[metals.compressedIron.plate, <minecraft:diamond>, metals.compressedIron.plate],
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+			[<minecraft:emerald:0>, <mekanism:compressedobsidian:0>, <minecraft:emerald:0>],
+			[metals.compressedIron.plate, <minecraft:diamond:0>, metals.compressedIron.plate],
+			[<mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>]
 		]
 	],
-	<cyclicmagic:block_forester>: [
+	<cyclicmagic:block_forester:0>: [
 		[
-			[<mekanism:compressedobsidian>, <minecraft:daylight_detector>, <mekanism:compressedobsidian>],
-			[metals.compressedIron.plate, <cyclicmagic:placer_block>, metals.compressedIron.plate],
-			[<mekanism:compressedobsidian>, <mekanism:compressedobsidian>, <mekanism:compressedobsidian>]
+			[<mekanism:compressedobsidian:0>, <minecraft:daylight_detector:0>, <mekanism:compressedobsidian:0>],
+			[metals.compressedIron.plate, <cyclicmagic:placer_block:0>, metals.compressedIron.plate],
+			[<mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>, <mekanism:compressedobsidian:0>]
 		]
 	],
-	<cyclicmagic:sleeping_mat>: [
+	<cyclicmagic:sleeping_mat:0>: [
 		[
-			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-			[<primal:thin_slab_thatch>, <primal:thin_slab_thatch>, <primal:thin_slab_thatch>]
+			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>],
+			[<primal:thin_slab_thatch:0>, <primal:thin_slab_thatch:0>, <primal:thin_slab_thatch:0>]
 		]
 	]
 };
@@ -161,20 +161,20 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<cyclicmagic:block_forester>,
-	<cyclicmagic:charm_antidote>,
-	<cyclicmagic:charm_fire>,
-	<cyclicmagic:charm_void>,
-	<cyclicmagic:charm_water>,
-	<cyclicmagic:charm_wing>,
-	<cyclicmagic:clock>,
-	<cyclicmagic:ender_torch>,
-	<cyclicmagic:food_step>,
-	<cyclicmagic:harvester_block>,
-	<cyclicmagic:placer_block>,
-	<cyclicmagic:sleeping_mat>,
-	<cyclicmagic:sprinkler>,
-	<cyclicmagic:tool_auto_torch>
+	<cyclicmagic:block_forester:0>,
+	<cyclicmagic:charm_antidote:0>,
+	<cyclicmagic:charm_fire:0>,
+	<cyclicmagic:charm_void:0>,
+	<cyclicmagic:charm_water:0>,
+	<cyclicmagic:charm_wing:0>,
+	<cyclicmagic:clock:0>,
+	<cyclicmagic:ender_torch:0>,
+	<cyclicmagic:food_step:0>,
+	<cyclicmagic:harvester_block:0>,
+	<cyclicmagic:placer_block:0>,
+	<cyclicmagic:sleeping_mat:0>,
+	<cyclicmagic:sprinkler:0>,
+	<cyclicmagic:tool_auto_torch:0>
 ];
 
 function init() {

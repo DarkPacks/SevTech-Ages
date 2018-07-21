@@ -14,17 +14,17 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<primalchests:primal_chest>: [
+	<primalchests:primal_chest:0>: [
 		[
-			[<abyssalcraft:dltplank>, <ore:plankWood>, <abyssalcraft:dltplank>],
-			[<ore:plankWood>, <immcraft:chest>, <ore:plankWood>],
-			[<abyssalcraft:dltplank>, <ore:plankWood>, <abyssalcraft:dltplank>]
+			[<abyssalcraft:dltplank:0>, <ore:plankWood>, <abyssalcraft:dltplank:0>],
+			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>],
+			[<abyssalcraft:dltplank:0>, <ore:plankWood>, <abyssalcraft:dltplank:0>]
 		]
 	],
-	<primalchests:primal_chest_advanced>: [
+	<primalchests:primal_chest_advanced:0>: [
 		[
 			[null, <ore:barkWood>, null],
-			[<ore:barkWood>, <primalchests:primal_chest>, <ore:barkWood>],
+			[<ore:barkWood>, <primalchests:primal_chest:0>, <ore:barkWood>],
 			[null, <ore:barkWood>, null]
 		]
 	]

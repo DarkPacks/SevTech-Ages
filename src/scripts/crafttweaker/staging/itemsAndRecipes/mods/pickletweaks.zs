@@ -13,7 +13,7 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<pickletweaks:grass_mesh>
+		<pickletweaks:grass_mesh:0>
 	],
 
 	stageZero.stage: [
@@ -33,34 +33,34 @@ static stagedItems as IIngredient[][string] = {
 		<pickletweaks:dye_powder:13>,
 		<pickletweaks:dye_powder:14>,
 		<pickletweaks:dye_powder:15>,
-		<pickletweaks:dye_powder>
+		<pickletweaks:dye_powder:0>
 	],
 
 	stageOne.stage: [
-		<pickletweaks:bronze_axe>,
-		<pickletweaks:bronze_hoe>,
-		<pickletweaks:bronze_pickaxe>,
-		<pickletweaks:bronze_shovel>,
-		<pickletweaks:bronze_sword>,
-		<pickletweaks:coal_piece>,
-		<pickletweaks:copper_axe>,
-		<pickletweaks:copper_hoe>,
-		<pickletweaks:copper_pickaxe>,
-		<pickletweaks:copper_shovel>,
-		<pickletweaks:copper_sword>,
+		<pickletweaks:bronze_axe:0>,
+		<pickletweaks:bronze_hoe:0>,
+		<pickletweaks:bronze_pickaxe:0>,
+		<pickletweaks:bronze_shovel:0>,
+		<pickletweaks:bronze_sword:0>,
+		<pickletweaks:coal_piece:0>,
+		<pickletweaks:copper_axe:0>,
+		<pickletweaks:copper_hoe:0>,
+		<pickletweaks:copper_pickaxe:0>,
+		<pickletweaks:copper_shovel:0>,
+		<pickletweaks:copper_sword:0>,
 		<pickletweaks:repair_kit:1>,
 		<pickletweaks:repair_kit:5>,
 		<pickletweaks:repair_kit:13>,
 		<pickletweaks:repair_kit:14>,
 		<pickletweaks:repair_kit:15>,
-		<pickletweaks:repair_kit>
+		<pickletweaks:repair_kit:0>
 	],
 
 	stageTwo.stage: [
 		<pickletweaks:repair_kit:2>,
 		<pickletweaks:repair_kit:3>,
 		<pickletweaks:repair_kit:17>,
-		<pickletweaks:watering_can>
+		<pickletweaks:watering_can:0>
 	],
 
 	stageThree.stage: [
@@ -76,24 +76,24 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFour.stage: [
-		<pickletweaks:magnet>,
-		<pickletweaks:nightvision_goggles_c>,
-		<pickletweaks:nightvision_goggles>
+		<pickletweaks:magnet:0>,
+		<pickletweaks:nightvision_goggles_c:0>,
+		<pickletweaks:nightvision_goggles:0>
 	],
 
 	stageFive.stage: [
-		<pickletweaks:diamond_apple>,
-		<pickletweaks:emerald_apple>,
+		<pickletweaks:diamond_apple:0>,
+		<pickletweaks:emerald_apple:0>,
 		<pickletweaks:repair_kit:4> // Diamond Repair Kit
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<pickletweaks:grass_fiber>,
-	<pickletweaks:mesh>,
+	<pickletweaks:grass_fiber:0>,
+	<pickletweaks:mesh:0>,
 	<pickletweaks:ppm4:1>,
-	<pickletweaks:ppm4>,
-	<pickletweaks:reinforced_mesh>
+	<pickletweaks:ppm4:0>,
+	<pickletweaks:reinforced_mesh:0>
 ];
 
 function init() {

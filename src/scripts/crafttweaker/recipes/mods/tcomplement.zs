@@ -32,11 +32,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:seared:3>, <primal_tech:stone_grill>, <tconstruct:seared:3>]
 		]
 	],
-	<tcomplement:melter> : [
+	<tcomplement:melter:0> : [
 		[
 			[<tconstruct:seared:3>, <primal_tech:charcoal_hopper>, <tconstruct:seared:3>],
 			[<tconstruct:seared:3>, <primal_tech:stone_grill>, <tconstruct:seared:3>],
-			[<tconstruct:seared:3>, <primalchests:primal_chest_advanced>, <tconstruct:seared:3>]
+			[<tconstruct:seared:3>, <primalchests:primal_chest_advanced:0>, <tconstruct:seared:3>]
 		]
 	],
 	<tcomplement:porcelain_melter:8> : [
@@ -46,17 +46,17 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ceramics:unfired_clay:5>, <primal_tech:stone_grill>, <ceramics:unfired_clay:5>]
 		]
 	],
-	<tcomplement:porcelain_melter> : [
+	<tcomplement:porcelain_melter:0> : [
 		[
 			[<ceramics:unfired_clay:5>, <primal_tech:charcoal_hopper>, <ceramics:unfired_clay:5>],
 			[<ceramics:unfired_clay:5>, <primal_tech:stone_grill>, <ceramics:unfired_clay:5>],
-			[<ceramics:unfired_clay:5>, <primalchests:primal_chest_advanced>, <ceramics:unfired_clay:5>]
+			[<ceramics:unfired_clay:5>, <primalchests:primal_chest_advanced:0>, <ceramics:unfired_clay:5>]
 		]
 	],
-	<tcomplement:porcelain_tank> : [
+	<tcomplement:porcelain_tank:0> : [
 		[
 			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
-			[<ceramics:unfired_clay:5>, <ceramics:clay_barrel>, <ceramics:unfired_clay:5>],
+			[<ceramics:unfired_clay:5>, <ceramics:clay_barrel:0>, <ceramics:unfired_clay:5>],
 			[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
 		]
 	],
@@ -75,15 +75,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			[
 				[null, <ceramics:unfired_clay:5>, null],
 				[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
-				[<ceramics:unfired_clay:5>, <minecraft:furnace>, <ceramics:unfired_clay:5>]
+				[<ceramics:unfired_clay:5>, <minecraft:furnace:0>, <ceramics:unfired_clay:5>]
 			]
 		]
 	},
-	<tcomplement:porcelain_melter>: {
-		Utils.genRecipeName(stageOne, <tcomplement:porcelain_melter>): [
+	<tcomplement:porcelain_melter:0>: {
+		Utils.genRecipeName(stageOne, <tcomplement:porcelain_melter:0>): [
 			[
 				[null, <ceramics:unfired_clay:5>, null],
-				[<ceramics:unfired_clay:5>, <minecraft:furnace>, <ceramics:unfired_clay:5>],
+				[<ceramics:unfired_clay:5>, <minecraft:furnace:0>, <ceramics:unfired_clay:5>],
 				[<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]
 			]
 		]
@@ -93,15 +93,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			[
 				[null, <tconstruct:materials:0>, null],
 				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-				[<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>]
+				[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
 			]
 		]
 	},
-	<tcomplement:melter>: {
-		Utils.genRecipeName(stageOne, <tcomplement:melter>): [
+	<tcomplement:melter:0>: {
+		Utils.genRecipeName(stageOne, <tcomplement:melter:0>): [
 			[
 				[null, <tconstruct:materials:0>, null],
-				[<tconstruct:materials:0>, <minecraft:furnace>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>],
 				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
 			]
 		]
@@ -131,10 +131,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IIngredient[] = [
 	<tcomplement:melter:8>,
-	<tcomplement:melter>,
+	<tcomplement:melter:0>,
 	<tcomplement:porcelain_casting:1>,
 	<tcomplement:porcelain_melter:8>,
-	<tcomplement:porcelain_melter>
+	<tcomplement:porcelain_melter:0>
 ];
 
 function init() {

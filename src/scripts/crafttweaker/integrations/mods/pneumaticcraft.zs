@@ -42,14 +42,14 @@ function init() {
 	LiquidFuel.addFuel(<liquid:diesel>, 700 * 1000);
 
 	// Presses available in stage 4
-	Assembly.addDrillRecipe(<darkutils:pearl_block>, <appliedenergistics2:material:15>); // Inscriber Logic Press
-	Assembly.addDrillRecipe(<quark:biotite_block>, <appliedenergistics2:material:19>); // Insciber Silicon Press
-	Assembly.addDrillRecipe(<minecraft:purpur_block>, <appliedenergistics2:material:14>); // Inscriber Engineering Press
+	Assembly.addDrillRecipe(<darkutils:pearl_block:0>, <appliedenergistics2:material:15>); // Inscriber Logic Press
+	Assembly.addDrillRecipe(<quark:biotite_block:0>, <appliedenergistics2:material:19>); // Insciber Silicon Press
+	Assembly.addDrillRecipe(<minecraft:purpur_block:0>, <appliedenergistics2:material:14>); // Inscriber Engineering Press
 	Assembly.addDrillRecipe(<galacticraftcore:basic_block_moon:14>, <appliedenergistics2:material:13>); // Inscriber Calculation Press
 
 	// Remove Rose Red recipe
 	Assembly.removeDrillRecipe(<minecraft:dye:1>);
 
 	// Removing coal to diamond in pressure chamber
-	mods.pneumaticcraft.pressurechamber.removeRecipe([<minecraft:diamond>]);
+	mods.pneumaticcraft.pressurechamber.removeRecipe([<minecraft:diamond:0>]);
 }

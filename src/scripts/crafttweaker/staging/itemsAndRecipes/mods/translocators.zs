@@ -7,7 +7,7 @@ import scripts.crafttweaker.stages.stageFive;
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
 		<translocators:translocator_part:1>,
-		<translocators:translocator_part>
+		<translocators:translocator_part:0>
 	]
 };
 

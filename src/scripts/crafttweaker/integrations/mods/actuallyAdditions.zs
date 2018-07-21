@@ -22,33 +22,33 @@ import mods.actuallyadditions.Empowerer;
 */
 function init() {
 	// Atomic Reconstructor
-	AtomicReconstructor.addRecipe(<mysticalagriculture:crafting>, <extraplanets:saturn:12>, 500000);
-	AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens>);
+	AtomicReconstructor.addRecipe(<mysticalagriculture:crafting:0>, <extraplanets:saturn:12>, 500000);
+	AtomicReconstructor.removeRecipe(<actuallyadditions:item_color_lens:0>);
 
 	// Crusher
-	actuallyAdditions.addCrusher(<minecraft:diamond> * 9 , <minecraft:diamond_block>); // Diamond Block -> Diamonds
-	actuallyAdditions.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block>); // Lapis Block -> Lapis
-	actuallyAdditions.addCrusher(<minecraft:redstone> * 9, <minecraft:redstone_block>); // Redstone Block -> Redstone
-	actuallyAdditions.addCrusher(<minecraft:emerald> * 9, <minecraft:emerald_block>); // Emerald Block -> Emerald
-	actuallyAdditions.addCrusher(<minecraft:prismarine_shard> * 4, <minecraft:prismarine>); // Prismarine -> Prismarine Shard
+	actuallyAdditions.addCrusher(<minecraft:diamond:0> * 9 , <minecraft:diamond_block:0>); // Diamond Block -> Diamonds
+	actuallyAdditions.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block:0>); // Lapis Block -> Lapis
+	actuallyAdditions.addCrusher(<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>); // Redstone Block -> Redstone
+	actuallyAdditions.addCrusher(<minecraft:emerald:0> * 9, <minecraft:emerald_block:0>); // Emerald Block -> Emerald
+	actuallyAdditions.addCrusher(<minecraft:prismarine_shard:0> * 4, <minecraft:prismarine:0>); // Prismarine -> Prismarine Shard
 
 	// Ball of Fur
 
 	// Removing items from Balls of Fur
 	var ballOfFurRemovalItems as IItemStack[] = [
-		<minecraft:diamond>,
-		<minecraft:ender_pearl>,
-		<minecraft:gold_ingot>,
-		<minecraft:iron_ingot>,
-		<minecraft:leather>
+		<minecraft:diamond:0>,
+		<minecraft:ender_pearl:0>,
+		<minecraft:gold_ingot:0>,
+		<minecraft:iron_ingot:0>,
+		<minecraft:leather:0>
 	];
 	for item in ballOfFurRemovalItems {
 		BallOfFur.removeReturn(item);
 	}
 
 	// Empowerer
-	Empowerer.addRecipe(<mysticalagriculture:crafting:5> * 4, <minecraft:prismarine_shard>,
-		<stevescarts:modulecomponents:45>, <extraplanets:jupiter:4>, <mysticalagriculture:crafting>, <extraplanets:neptune:6>,
+	Empowerer.addRecipe(<mysticalagriculture:crafting:5> * 4, <minecraft:prismarine_shard:0>,
+		<stevescarts:modulecomponents:45>, <extraplanets:jupiter:4>, <mysticalagriculture:crafting:0>, <extraplanets:neptune:6>,
 		5000, 200,  [0.698, 0.870, 0.960]
 	);
 }

@@ -23,10 +23,10 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<supersoundmuffler:sound_muffler> : [
+	<supersoundmuffler:sound_muffler:0> : [
 		[
 			[null, <minecraft:wool:*>, null],
-			[<minecraft:wool:*>, <thebetweenlands:weedwood_jukebox>, <minecraft:wool:*>],
+			[<minecraft:wool:*>, <thebetweenlands:weedwood_jukebox:0>, <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
 	]
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<supersoundmuffler:sound_muffler>
+	<supersoundmuffler:sound_muffler:0>
 ];
 
 function init() {

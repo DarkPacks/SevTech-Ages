@@ -8,29 +8,29 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<immcraft:chest>,
-		<immcraft:rock>
+		<immcraft:chest:0>,
+		<immcraft:rock:0>
 	],
 
 	stageZero.stage: [
-		<immcraft:bookshelf>,
-		<immcraft:cupboard>,
-		<immcraft:shelf>
+		<immcraft:bookshelf:0>,
+		<immcraft:cupboard:0>,
+		<immcraft:shelf:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<immcraft:bookstand>,
-	<immcraft:chisel>,
-	<immcraft:dummybook>,
-	<immcraft:furnace>,
-	<immcraft:in_world_placer>,
-	<immcraft:in_world_vertical_placer>,
-	<immcraft:manual>,
-	<immcraft:saw>,
-	<immcraft:sticks>,
-	<immcraft:workbench>,
-	<immcraft:workbench_sec>
+	<immcraft:bookstand:0>,
+	<immcraft:chisel:0>,
+	<immcraft:dummybook:0>,
+	<immcraft:furnace:0>,
+	<immcraft:in_world_placer:0>,
+	<immcraft:in_world_vertical_placer:0>,
+	<immcraft:manual:0>,
+	<immcraft:saw:0>,
+	<immcraft:sticks:0>,
+	<immcraft:workbench:0>,
+	<immcraft:workbench_sec:0>
 ];
 
 function init() {

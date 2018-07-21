@@ -13,16 +13,16 @@ import crafttweaker.item.IItemStack;
 // Set block pickaxe harvest level
 static pickaxeLevelPairs as IItemStack[][int] = {
 	1: [
-		<abyssalcraft:coraliumore>,
-		<bloodmagic:blood_rune>,
-		<poweradapters:mj>
+		<abyssalcraft:coraliumore:0>,
+		<bloodmagic:blood_rune:0>,
+		<poweradapters:mj:0>
 	],
 
 	3: [
 		<nex:ore_quartz:1>,
 		<nex:ore_quartz:2>,
 		<nex:ore_quartz:3>,
-		<nex:ore_quartz>
+		<nex:ore_quartz:0>
 	]
 };
 

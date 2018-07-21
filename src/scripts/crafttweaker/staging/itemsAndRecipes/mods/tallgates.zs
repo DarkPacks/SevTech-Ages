@@ -11,7 +11,7 @@ static stagedItems as IIngredient[][string] = {
 		<tallgates:tall_gate:3>,
 		<tallgates:tall_gate:4>,
 		<tallgates:tall_gate:5>,
-		<tallgates:tall_gate>
+		<tallgates:tall_gate:0>
 	]
 };
 

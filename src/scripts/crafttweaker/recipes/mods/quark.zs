@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<quark:trowel> : [
+	<quark:trowel:0> : [
 		[
 			[null, null, null],
 			[<ore:stickWood>, null, null],
@@ -43,15 +43,15 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 	Furnace Recipes
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
-	<quark:glass_shards>: [<betterwithmods:red_sand_pile>],
-	<quark:glass_shards>: [<betterwithmods:sand_pile>]
+	<quark:glass_shards:0>: [<betterwithmods:red_sand_pile:0>],
+	<quark:glass_shards:0>: [<betterwithmods:sand_pile:0>]
 };
 
 /*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<quark:trowel>
+	<quark:trowel:0>
 ];
 
 static removeRegex as string[] = [

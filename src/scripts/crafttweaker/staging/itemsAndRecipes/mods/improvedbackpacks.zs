@@ -9,26 +9,26 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<improvedbackpacks:backpack>,
-		<improvedbackpacks:backpack>.withTag({Color: 0}),
-		<improvedbackpacks:backpack>.withTag({Color: 1}),
-		<improvedbackpacks:backpack>.withTag({Color: 2}),
-		<improvedbackpacks:backpack>.withTag({Color: 3}),
-		<improvedbackpacks:backpack>.withTag({Color: 4}),
-		<improvedbackpacks:backpack>.withTag({Color: 5}),
-		<improvedbackpacks:backpack>.withTag({Color: 6}),
-		<improvedbackpacks:backpack>.withTag({Color: 7}),
-		<improvedbackpacks:backpack>.withTag({Color: 8}),
-		<improvedbackpacks:backpack>.withTag({Color: 9}),
-		<improvedbackpacks:backpack>.withTag({Color: 10}),
-		<improvedbackpacks:backpack>.withTag({Color: 11}),
-		<improvedbackpacks:backpack>.withTag({Color: 12}),
-		<improvedbackpacks:backpack>.withTag({Color: 13}),
-		<improvedbackpacks:backpack>.withTag({Color: 14}),
-		<improvedbackpacks:backpack>.withTag({Color: 15}),
-		<improvedbackpacks:blank_upgrade>,
+		<improvedbackpacks:backpack:0>,
+		<improvedbackpacks:backpack:0>.withTag({Color: 0}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 1}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 2}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 3}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 4}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 5}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 6}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 7}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 8}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 9}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 10}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 11}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 12}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 13}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 14}),
+		<improvedbackpacks:backpack:0>.withTag({Color: 15}),
+		<improvedbackpacks:blank_upgrade:0>,
 		<improvedbackpacks:upgrade:1>,
-		<improvedbackpacks:upgrade>
+		<improvedbackpacks:upgrade:0>
 	],
 
 	stageTwo.stage: [
@@ -42,9 +42,9 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<improvedbackpacks:bound_leather>,
-	<improvedbackpacks:ender_backpack>, // We have the ender pouch and this has no def recipe, darkoLUL
-	<improvedbackpacks:tanned_leather>
+	<improvedbackpacks:bound_leather:0>,
+	<improvedbackpacks:ender_backpack:0>, // We have the ender pouch and this has no def recipe, darkoLUL
+	<improvedbackpacks:tanned_leather:0>
 ];
 
 function init() {

@@ -31,45 +31,45 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, metals.platinum.plate, null]
 		]
 	],
-	<cookingforblockheads:oven> : [
+	<cookingforblockheads:oven:0> : [
 		[
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
+			[metals.aluminum.plate, <natura:netherrack_furnace:0>, metals.aluminum.plate],
 			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]
 		]
 	],
-	<cookingforblockheads:sink> : [
+	<cookingforblockheads:sink:0> : [
 		[
 			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
-			[<minecraft:hardened_clay>, craftingUtils.getBucketIngredient(<liquid:water>), <minecraft:hardened_clay>],
-			[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]
+			[<minecraft:hardened_clay:0>, craftingUtils.getBucketIngredient(<liquid:water>), <minecraft:hardened_clay:0>],
+			[<minecraft:hardened_clay:0>, <minecraft:hardened_clay:0>, <minecraft:hardened_clay:0>]
 		]
 	],
-	<cookingforblockheads:tool_rack> : [
+	<cookingforblockheads:tool_rack:0> : [
 		[
 			[null, null, null],
 			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 			[metals.aluminum.rod, null, metals.aluminum.rod]
 		]
 	],
-	<cookingforblockheads:toaster> : [
+	<cookingforblockheads:toaster:0> : [
 		[
-			[null, null, <minecraft:stone_button>],
-			[metals.aluminum.plate, <minecraft:iron_trapdoor>, metals.aluminum.plate],
+			[null, null, <minecraft:stone_button:0>],
+			[metals.aluminum.plate, <minecraft:iron_trapdoor:0>, metals.aluminum.plate],
 			[metals.aluminum.plate, craftingUtils.getBucketIngredient(<liquid:lava>), metals.aluminum.plate]
 		]
 	],
-	<cookingforblockheads:milk_jar>: [
+	<cookingforblockheads:milk_jar:0>: [
 		[
 			[null, <ore:plankWood>, null],
-			[<ore:blockGlass>, <buildcraftfactory:tank>, <ore:blockGlass>],
+			[<ore:blockGlass>, <buildcraftfactory:tank:0>, <ore:blockGlass>],
 			[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
 		]
 	],
-	<cookingforblockheads:kitchen_floor> * 12: [
+	<cookingforblockheads:kitchen_floor:0> * 12: [
 		[
-			[<minecraft:quartz_block>, <actuallyadditions:block_misc:2>],
-			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block>]
+			[<minecraft:quartz_block:0>, <actuallyadditions:block_misc:2>],
+			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block:0>]
 		]
 	]
 };
@@ -94,13 +94,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<cookingforblockheads:kitchen_floor>,
-	<cookingforblockheads:milk_jar>,
-	<cookingforblockheads:oven>,
+	<cookingforblockheads:kitchen_floor:0>,
+	<cookingforblockheads:milk_jar:0>,
+	<cookingforblockheads:oven:0>,
 	<cookingforblockheads:recipe_book:2>,
-	<cookingforblockheads:sink>,
-	<cookingforblockheads:toaster>,
-	<cookingforblockheads:tool_rack>
+	<cookingforblockheads:sink:0>,
+	<cookingforblockheads:toaster:0>,
+	<cookingforblockheads:tool_rack:0>
 ];
 
 function init() {

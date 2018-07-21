@@ -23,17 +23,17 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<dungpipe:dung_pipe> : [
+	<dungpipe:dung_pipe:0> : [
 		[
 			[null, <ore:slabWood>, <ore:plankWood>],
 			[<ore:slabWood>, null, <ore:slabWood>],
 			[null, <ore:slabWood>, null]
 		]
 	],
-	<dungpipe:sewer_pipe> : [
+	<dungpipe:sewer_pipe:0> : [
 		[
 			[null, null, null],
-			[<dungpipe:dung_pipe>, metals.tin.plate, metals.tin.plate],
+			[<dungpipe:dung_pipe:0>, metals.tin.plate, metals.tin.plate],
 			[null, null, null]
 		]
 	]
@@ -64,8 +64,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<dungpipe:dung_pipe>,
-	<dungpipe:sewer_pipe>
+	<dungpipe:dung_pipe:0>,
+	<dungpipe:sewer_pipe:0>
 ];
 
 function init() {

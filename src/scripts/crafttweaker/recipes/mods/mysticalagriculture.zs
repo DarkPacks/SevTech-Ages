@@ -16,16 +16,16 @@ import mods.zenstages.Utils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<mysticalagriculture:ultimate_furnace>: [
+	<mysticalagriculture:ultimate_furnace:0>: [
 		[
-			[<minecraft:skull:1>, <minecraft:nether_star>, <minecraft:skull:1>],
-			[<mysticalagradditions:storage>, <mysticalagriculture:supremium_furnace>, <mysticalagradditions:storage>],
-			[<minecraft:skull:1>, <mysticalagradditions:storage>, <minecraft:skull:1>]
+			[<minecraft:skull:1>, <minecraft:nether_star:0>, <minecraft:skull:1>],
+			[<mysticalagradditions:storage:0>, <mysticalagriculture:supremium_furnace:0>, <mysticalagradditions:storage:0>],
+			[<minecraft:skull:1>, <mysticalagradditions:storage:0>, <minecraft:skull:1>]
 		]
 	],
-	<mysticalagriculture:supremium_boots>: [
+	<mysticalagriculture:supremium_boots:0>: [
 		[
-			[<mysticalagriculture:crafting:37>, <environmentaltech:modifier_creative_flight>, <mysticalagriculture:gear:9>],
+			[<mysticalagriculture:crafting:37>, <environmentaltech:modifier_creative_flight:0>, <mysticalagriculture:gear:9>],
 			[<mysticalagriculture:crafting:37>, null, <mysticalagriculture:crafting:37>]
 		]
 	],
@@ -41,33 +41,33 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	Recipes which need to be generated and added to the Map to be ran via our recipeUtil.
 */
 static recipesToGenerate as IItemStack[IIngredient] = {
-	<mysticalagriculture:aluminum_brass_essence>: metals.aluminumBrass.ingot.firstItem * 6,
-	<mysticalagriculture:aluminum_essence>: metals.aluminum.ingot.firstItem * 8,
-	<mysticalagriculture:ardite_essence>: metals.ardite.ingot.firstItem * 3,
-	<mysticalagriculture:bronze_essence>: metals.bronze.ingot.firstItem * 4,
-	<mysticalagriculture:coal_essence>: <minecraft:coal> * 12,
-	<mysticalagriculture:cobalt_essence>: metals.cobalt.ingot.firstItem * 3,
-	<mysticalagriculture:constantan_essence>: metals.constantan.ingot.firstItem * 4,
-	<mysticalagriculture:copper_essence>: metals.copper.ingot.firstItem * 6,
-	<mysticalagriculture:creeper_essence>: <minecraft:gunpowder> * 6,
-	<mysticalagriculture:diamond_essence>: <minecraft:diamond>,
-	<mysticalagriculture:electrum_essence>: metals.electrum.ingot.firstItem * 4,
-	<mysticalagriculture:fiery_ingot_essence>: metals.fiery.ingot.firstItem * 3,
-	<mysticalagriculture:gold_essence>: metals.gold.ingot.firstItem * 4,
-	<mysticalagriculture:iron_essence>: metals.iron.ingot.firstItem * 6,
-	<mysticalagriculture:knightslime_essence>: metals.knightslime.ingot.firstItem * 4,
-	<mysticalagriculture:lead_essence>: metals.lead.ingot.firstItem * 4,
-	<mysticalagriculture:manyullyn_essence>: metals.manyullyn.ingot.firstItem * 2,
-	<mysticalagriculture:nickel_essence>: metals.nickel.ingot.firstItem * 4,
-	<mysticalagriculture:osmium_essence>: metals.osmium.ingot.firstItem * 4,
-	<mysticalagriculture:platinum_essence>: metals.platinum.ingot.firstItem * 2,
-	<mysticalagriculture:quartz_enriched_iron_essence>: <refinedstorage:quartz_enriched_iron> * 8,
-	<mysticalagriculture:silver_essence>: metals.silver.ingot.firstItem * 4,
-	<mysticalagriculture:steel_essence>: metals.steel.ingot.firstItem * 3,
-	<mysticalagriculture:steeleaf_essence>: metals.steeleaf.ingot.firstItem * 5,
-	<mysticalagriculture:tin_essence>: metals.tin.ingot.firstItem * 4,
-	<mysticalagriculture:titanium_essence>: metals.titanium.ingot.firstItem * 2,
-	<mysticalagriculture:uranium_essence>: metals.uranium.ingot.firstItem * 2
+	<mysticalagriculture:aluminum_brass_essence:0>: metals.aluminumBrass.ingot.firstItem * 6,
+	<mysticalagriculture:aluminum_essence:0>: metals.aluminum.ingot.firstItem * 8,
+	<mysticalagriculture:ardite_essence:0>: metals.ardite.ingot.firstItem * 3,
+	<mysticalagriculture:bronze_essence:0>: metals.bronze.ingot.firstItem * 4,
+	<mysticalagriculture:coal_essence:0>: <minecraft:coal:0> * 12,
+	<mysticalagriculture:cobalt_essence:0>: metals.cobalt.ingot.firstItem * 3,
+	<mysticalagriculture:constantan_essence:0>: metals.constantan.ingot.firstItem * 4,
+	<mysticalagriculture:copper_essence:0>: metals.copper.ingot.firstItem * 6,
+	<mysticalagriculture:creeper_essence:0>: <minecraft:gunpowder:0> * 6,
+	<mysticalagriculture:diamond_essence:0>: <minecraft:diamond:0>,
+	<mysticalagriculture:electrum_essence:0>: metals.electrum.ingot.firstItem * 4,
+	<mysticalagriculture:fiery_ingot_essence:0>: metals.fiery.ingot.firstItem * 3,
+	<mysticalagriculture:gold_essence:0>: metals.gold.ingot.firstItem * 4,
+	<mysticalagriculture:iron_essence:0>: metals.iron.ingot.firstItem * 6,
+	<mysticalagriculture:knightslime_essence:0>: metals.knightslime.ingot.firstItem * 4,
+	<mysticalagriculture:lead_essence:0>: metals.lead.ingot.firstItem * 4,
+	<mysticalagriculture:manyullyn_essence:0>: metals.manyullyn.ingot.firstItem * 2,
+	<mysticalagriculture:nickel_essence:0>: metals.nickel.ingot.firstItem * 4,
+	<mysticalagriculture:osmium_essence:0>: metals.osmium.ingot.firstItem * 4,
+	<mysticalagriculture:platinum_essence:0>: metals.platinum.ingot.firstItem * 2,
+	<mysticalagriculture:quartz_enriched_iron_essence:0>: <refinedstorage:quartz_enriched_iron:0> * 8,
+	<mysticalagriculture:silver_essence:0>: metals.silver.ingot.firstItem * 4,
+	<mysticalagriculture:steel_essence:0>: metals.steel.ingot.firstItem * 3,
+	<mysticalagriculture:steeleaf_essence:0>: metals.steeleaf.ingot.firstItem * 5,
+	<mysticalagriculture:tin_essence:0>: metals.tin.ingot.firstItem * 4,
+	<mysticalagriculture:titanium_essence:0>: metals.titanium.ingot.firstItem * 2,
+	<mysticalagriculture:uranium_essence:0>: metals.uranium.ingot.firstItem * 2
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
@@ -90,8 +90,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<mysticalagriculture:supremium_boots>,
-	<mysticalagriculture:ultimate_furnace>,
+	<mysticalagriculture:supremium_boots:0>,
+	<mysticalagriculture:ultimate_furnace:0>,
 	<mysticalagriculture:crafting:7>
 ];
 

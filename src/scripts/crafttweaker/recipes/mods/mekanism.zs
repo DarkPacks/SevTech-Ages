@@ -18,8 +18,8 @@ import mods.zenstages.Utils;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<mekanism:basicblock:7> * 4: [
 		[
-			[<galacticraftplanets:item_basic_mars:5>, <mekanism:ingot>, <galacticraftplanets:item_basic_mars:5>],
-			[<galacticraftcore:cheese_curd>, null, <galacticraftcore:cheese_curd>],
+			[<galacticraftplanets:item_basic_mars:5>, <mekanism:ingot:0>, <galacticraftplanets:item_basic_mars:5>],
+			[<galacticraftcore:cheese_curd:0>, null, <galacticraftcore:cheese_curd:0>],
 			[metals.platinum.plate, <mekanism:ingot:3>, metals.platinum.plate]
 		]
 	]
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IIngredient[] = [
 	<mekanism:basicblock:7>,
-	<mekanism:saltblock>
+	<mekanism:saltblock:0>
 ];
 
 function init() {

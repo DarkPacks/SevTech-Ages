@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageOne;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<dungpipe:dung_pipe>,
-		<dungpipe:sewer_pipe>
+		<dungpipe:dung_pipe:0>,
+		<dungpipe:sewer_pipe:0>
 	]
 };
 

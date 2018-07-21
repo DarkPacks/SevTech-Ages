@@ -7,11 +7,11 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<twilightforest:spiral_bricks>
+		<twilightforest:spiral_bricks:0>
 	],
 
 	stageDisabled.stage: [
-		<twilightforest:ore_map_empty>
+		<twilightforest:ore_map_empty:0>
 	]
 };
 

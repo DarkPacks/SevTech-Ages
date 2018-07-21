@@ -15,7 +15,7 @@ function init() {
 
 	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "fertilizer"), machineName, 200)
 		.addEnergyPerTickInput(15)
-		.addItemOutput(<actuallyadditions:item_fertilizer> * 2)
+		.addItemOutput(<actuallyadditions:item_fertilizer:0> * 2)
 		.addFluidInput(<liquid:liquidethene> * 1000)
 		.build();
 }

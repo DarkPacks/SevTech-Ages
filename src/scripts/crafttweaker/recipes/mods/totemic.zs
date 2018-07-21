@@ -23,33 +23,33 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<totemic:eagle_bone_whistle> : [
+	<totemic:eagle_bone_whistle:0> : [
 		[
-			[null, <totemic:eagle_drops>],
+			[null, <totemic:eagle_drops:0>],
 			[<totemic:eagle_drops:1>, null]
 		]
 	],
-	<totemic:drum> : [
+	<totemic:drum:0> : [
 		[
-			[<ore:plankWood>, <minecraft:leather>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:leather:0>, <ore:plankWood>],
 			[<ore:plankWood>, null, <ore:plankWood>],
 			[<ore:plankWood>, null, <ore:plankWood>]
 		]
 	],
-	<totemic:flute> : [
+	<totemic:flute:0> : [
 		[
-			[null, <minecraft:tallgrass:*>, <minecraft:reeds>],
-			[null, <minecraft:reeds>, null],
-			[<minecraft:reeds>, null, null]
+			[null, <minecraft:tallgrass:*>, <minecraft:reeds:0>],
+			[null, <minecraft:reeds:0>, null],
+			[<minecraft:reeds:0>, null, null]
 		]
 	],
-	<totemic:jingle_dress> : [
+	<totemic:jingle_dress:0> : [
 		[
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
 			[<totemic:sub_items:1>, <totemic:sub_items:1>, <totemic:sub_items:1>]
 		]
 	],
-	<totemic:rattle> : [
+	<totemic:rattle:0> : [
 		[
 			[null, <totemic:sub_items:1>],
 			[<ore:stickWood>.firstItem, null]
@@ -57,43 +57,43 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<totemic:sub_items:1> : [
 		[
-			[<minecraft:bone>, <minecraft:reeds>, <minecraft:bone>],
-			[<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>],
+			[<minecraft:bone:0>, <minecraft:reeds:0>, <minecraft:bone:0>],
+			[<minecraft:reeds:0>, <minecraft:bone:0>, <minecraft:reeds:0>],
 			[null, null, null]
 		]
 	],
-	<totemic:tipi> : [
+	<totemic:tipi:0> : [
 		[
-			[<ore:stickWood>.firstItem, <minecraft:leather>, <ore:stickWood>.firstItem],
-			[<minecraft:leather>, <ore:stickWood>.firstItem, <minecraft:leather>],
-			[<minecraft:leather>, <ore:stickWood>.firstItem, <minecraft:leather>]
+			[<ore:stickWood>.firstItem, <minecraft:leather:0>, <ore:stickWood>.firstItem],
+			[<minecraft:leather:0>, <ore:stickWood>.firstItem, <minecraft:leather:0>],
+			[<minecraft:leather:0>, <ore:stickWood>.firstItem, <minecraft:leather:0>]
 		]
 	],
-	<totemic:totem_torch> : [
+	<totemic:totem_torch:0> : [
 		[
 			[null, <primal_tech:fibre_torch_lit>, null],
 			[null, <ore:stickWood>.firstItem, null],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<totemic:totem_whittling_knife> : [
+	<totemic:totem_whittling_knife:0> : [
 		[
-			[null, <primal:flint_knapp>],
+			[null, <primal:flint_knapp:0>],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
-	<totemic:totemic_staff> : [
+	<totemic:totemic_staff:0> : [
 		[
-			[null, <minecraft:red_flower>, <minecraft:double_plant>],
-			[null, <ore:stickWood>.firstItem, <minecraft:yellow_flower>],
+			[null, <minecraft:red_flower:0>, <minecraft:double_plant:0>],
+			[null, <ore:stickWood>.firstItem, <minecraft:yellow_flower:0>],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<totemic:wind_chime> : [
+	<totemic:wind_chime:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<minecraft:string>, <minecraft:flint>, <minecraft:string>],
-			[<minecraft:reeds>, <minecraft:bone>, <minecraft:reeds>]
+			[<minecraft:string:0>, <minecraft:flint:0>, <minecraft:string:0>],
+			[<minecraft:reeds:0>, <minecraft:bone:0>, <minecraft:reeds:0>]
 		]
 	]
 };
@@ -111,8 +111,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<totemic:totempedia>: [
-		[<ore:treeSapling>, <primal:plant_cloth>]
+	<totemic:totempedia:0>: [
+		[<ore:treeSapling>, <primal:plant_cloth:0>]
 	]
 };
 

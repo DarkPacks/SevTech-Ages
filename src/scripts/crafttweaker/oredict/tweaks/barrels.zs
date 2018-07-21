@@ -26,7 +26,7 @@ var removeFromWoodDict as IItemStack[] = [
 	<primal:planks:1>,
 	<primal:planks:2>,
 	<primal:planks:3>,
-	<primal:planks>
+	<primal:planks:0>
 ];
 
 for plankName in removeFromWoodDict {
@@ -42,10 +42,10 @@ var removeFromSlabDict as IItemStack[] = [
 	<minecraft:wooden_slab:3>,
 	<minecraft:wooden_slab:4>,
 	<minecraft:wooden_slab:5>,
-	<primal:slab_corypha>,
-	<primal:slab_ironwood>,
-	<primal:slab_lacquer>,
-	<primal:slab_yew>
+	<primal:slab_corypha:0>,
+	<primal:slab_ironwood:0>,
+	<primal:slab_lacquer:0>,
+	<primal:slab_yew:0>
 ];
 
 for slabName in removeFromSlabDict {

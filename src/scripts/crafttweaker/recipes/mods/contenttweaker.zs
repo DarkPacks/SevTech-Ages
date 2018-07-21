@@ -23,52 +23,52 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<contenttweaker:bronze_chest> : [
+	<contenttweaker:bronze_chest:0> : [
 		[
 			[metals.bronze.plate, null, metals.bronze.plate],
 			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
 			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate]
 		]
 	],
-	<contenttweaker:bronze_feet> : [
+	<contenttweaker:bronze_feet:0> : [
 		[
 			[metals.bronze.plate, null, metals.bronze.plate],
 			[metals.bronze.plate, null, metals.bronze.plate]
 		]
 	],
-	<contenttweaker:bronze_head> : [
+	<contenttweaker:bronze_head:0> : [
 		[
 			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
 			[metals.bronze.plate, null, metals.bronze.plate]
 		]
 	],
-	<contenttweaker:bronze_legs> : [
+	<contenttweaker:bronze_legs:0> : [
 		[
 			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
 			[metals.bronze.plate, null, metals.bronze.plate],
 			[metals.bronze.plate, null, metals.bronze.plate]
 		]
 	],
-	<contenttweaker:copper_chest> : [
+	<contenttweaker:copper_chest:0> : [
 		[
 			[metals.copper.plate, null, metals.copper.plate],
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate]
 		]
 	],
-	<contenttweaker:copper_feet> : [
+	<contenttweaker:copper_feet:0> : [
 		[
 			[metals.copper.plate, null, metals.copper.plate],
 			[metals.copper.plate, null, metals.copper.plate]
 		]
 	],
-	<contenttweaker:copper_head> : [
+	<contenttweaker:copper_head:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
 			[metals.copper.plate, null, metals.copper.plate]
 		]
 	],
-	<contenttweaker:copper_legs> : [
+	<contenttweaker:copper_legs:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
 			[metals.copper.plate, null, metals.copper.plate],

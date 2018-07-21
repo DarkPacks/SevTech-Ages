@@ -23,39 +23,39 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<progressiontweaks:unfired_clay_bowl>: [
+	<progressiontweaks:unfired_clay_bowl:0>: [
 		[
-			[<minecraft:clay_ball>, null, <minecraft:clay_ball>],
-			[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]
+			[<minecraft:clay_ball:0>, null, <minecraft:clay_ball:0>],
+			[<minecraft:clay_ball:0>, <minecraft:clay_ball:0>, <minecraft:clay_ball:0>]
 		]
 	],
-	<progressiontweaks:blank_teleporter>: [
+	<progressiontweaks:blank_teleporter:0>: [
 		[
-			[<ore:dyeBlack>, <abyssalcraft:cpearl>, <ore:dyeBlack>],
+			[<ore:dyeBlack>, <abyssalcraft:cpearl:0>, <ore:dyeBlack>],
 			[metals.copper.block, metals.bronze.block, metals.tin.block],
-			[<minecraft:coal_block>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <minecraft:coal_block>]
+			[<minecraft:coal_block:0>, <bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:apprentice"}), <minecraft:coal_block:0>]
 		]
 	],
-	<progressiontweaks:spear>: [
+	<progressiontweaks:spear:0>: [
 		[
-			[null, null, <primal:flint_knapp>],
+			[null, null, <primal:flint_knapp:0>],
 			[null, <ore:stickWood>.firstItem, null],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<progressiontweaks:stone_hammer>: [
+	<progressiontweaks:stone_hammer:0>: [
 		[
 			[<ore:cordageGeneral>, <ore:rock>],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
-	<progressiontweaks:tomahawk>: [
+	<progressiontweaks:tomahawk:0>: [
 		[
-			[<ore:cordageGeneral>, <primal:flint_knapp>],
-			[<primal:flint_point>, <ore:stickWood>.firstItem]
+			[<ore:cordageGeneral>, <primal:flint_knapp:0>],
+			[<primal:flint_point:0>, <ore:stickWood>.firstItem]
 		]
 	],
-	<progressiontweaks:fire_pit_unlit>: [
+	<progressiontweaks:fire_pit_unlit:0>: [
 		[
 			[null, <ore:stickWood>.firstItem, null],
 			[<ore:stickWood>.firstItem, <ore:cordageGeneral>, <ore:stickWood>.firstItem],
@@ -80,9 +80,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<progressiontweaks:spear> : [
-		[<progressiontweaks:broken_spear_shaft>, <ore:stickWood>.firstItem],
-		[<progressiontweaks:broken_spear_tip>, <primal:flint_knapp>]
+	<progressiontweaks:spear:0> : [
+		[<progressiontweaks:broken_spear_shaft:0>, <ore:stickWood>.firstItem],
+		[<progressiontweaks:broken_spear_tip:0>, <primal:flint_knapp:0>]
 	]
 };
 
@@ -93,18 +93,18 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
-	<progressiontweaks:flat_bread>: [<horsepower:flour>]
+	<progressiontweaks:flat_bread:0>: [<horsepower:flour:0>]
 };
 
 /*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<progressiontweaks:blank_teleporter>,
-	<progressiontweaks:spear>,
-	<progressiontweaks:stone_hammer>,
-	<progressiontweaks:tomahawk>,
-	<progressiontweaks:unfired_clay_bowl>
+	<progressiontweaks:blank_teleporter:0>,
+	<progressiontweaks:spear:0>,
+	<progressiontweaks:stone_hammer:0>,
+	<progressiontweaks:tomahawk:0>,
+	<progressiontweaks:unfired_clay_bowl:0>
 ];
 
 function init() {

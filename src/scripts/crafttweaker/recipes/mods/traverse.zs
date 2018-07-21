@@ -25,19 +25,19 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<traverse:blue_rock_cobblestone_slab> * 3 : [
+	<traverse:blue_rock_cobblestone_slab:0> * 3 : [
 		[
-			[<traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>, <traverse:blue_rock_cobblestone>]
+			[<traverse:blue_rock_cobblestone:0>, <traverse:blue_rock_cobblestone:0>, <traverse:blue_rock_cobblestone:0>]
 		]
 	],
-	<traverse:blue_rock_slab> * 3 : [
+	<traverse:blue_rock_slab:0> * 3 : [
 	  	[
-			[<traverse:blue_rock>, <traverse:blue_rock>, <traverse:blue_rock>]
+			[<traverse:blue_rock:0>, <traverse:blue_rock:0>, <traverse:blue_rock:0>]
 		]
 	],
-	<traverse:fir_slab> * 3 : [
+	<traverse:fir_slab:0> * 3 : [
 		[
-			[<traverse:fir_planks>, <traverse:fir_planks>, <traverse:fir_planks>]
+			[<traverse:fir_planks:0>, <traverse:fir_planks:0>, <traverse:fir_planks:0>]
 		]
 	]
 };
@@ -67,9 +67,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<traverse:blue_rock_cobblestone_slab>,
-	<traverse:blue_rock_slab>,
-	<traverse:fir_slab>
+	<traverse:blue_rock_cobblestone_slab:0>,
+	<traverse:blue_rock_slab:0>,
+	<traverse:fir_slab:0>
 ];
 
 function init() {

@@ -37,88 +37,88 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>]
 		]
 	],
-	<industrialforegoing:petrified_fuel_generator>: [
+	<industrialforegoing:petrified_fuel_generator:0>: [
 		[
-			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>],
-			[metals.gold.gear, <teslacorelib:machine_case>, metals.gold.gear],
-			[<industrialforegoing:plastic>, <natura:netherrack_furnace>, <industrialforegoing:plastic>]
+			[<industrialforegoing:plastic:0>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic:0>],
+			[metals.gold.gear, <teslacorelib:machine_case:0>, metals.gold.gear],
+			[<industrialforegoing:plastic:0>, <natura:netherrack_furnace:0>, <industrialforegoing:plastic:0>]
 		]
 	],
-	<industrialforegoing:enchantment_refiner>: [
+	<industrialforegoing:enchantment_refiner:0>: [
 		[
-			[<industrialforegoing:plastic>, <minecraft:ender_pearl>, <industrialforegoing:plastic>],
-			[<minecraft:book>, <teslacorelib:machine_case>, <minecraft:enchanted_book>],
-			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>]
+			[<industrialforegoing:plastic:0>, <minecraft:ender_pearl:0>, <industrialforegoing:plastic:0>],
+			[<minecraft:book:0>, <teslacorelib:machine_case:0>, <minecraft:enchanted_book:0>],
+			[<industrialforegoing:plastic:0>, metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic:0>]
 		]
 	],
-	<industrialforegoing:enchantment_extractor>: [
+	<industrialforegoing:enchantment_extractor:0>: [
 		[
-			[<industrialforegoing:plastic>, <minecraft:nether_brick>, <industrialforegoing:plastic>],
-			[<minecraft:book>, <teslacorelib:machine_case>, <minecraft:book>],
+			[<industrialforegoing:plastic:0>, <minecraft:nether_brick:0>, <industrialforegoing:plastic:0>],
+			[<minecraft:book:0>, <teslacorelib:machine_case:0>, <minecraft:book:0>],
 			[metals.enhancedGalgadorian.ingot, metals.gold.gear, metals.enhancedGalgadorian.ingot]
 		]
 	],
-	<industrialforegoing:animal_independence_selector>: [
+	<industrialforegoing:animal_independence_selector:0>: [
 		[
-			[<industrialforegoing:plastic>, metals.reinforcedMetal.ingot, <industrialforegoing:plastic>],
-			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case>, metals.reinforcedMetal.ingot],
+			[<industrialforegoing:plastic:0>, metals.reinforcedMetal.ingot, <industrialforegoing:plastic:0>],
+			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case:0>, metals.reinforcedMetal.ingot],
 			[<ore:dyePurple>, metals.gold.gear, <ore:dyePurple>]
 		]
 	],
-	<industrialforegoing:mob_duplicator>: [
+	<industrialforegoing:mob_duplicator:0>: [
 		[
-			[<industrialforegoing:plastic>, <minecraft:nether_wart>, <industrialforegoing:plastic>],
-			[<minecraft:magma_cream>, <teslacorelib:machine_case>, <minecraft:magma_cream>],
-			[metals.reinforcedMetal.ingot, <minecraft:redstone>, metals.reinforcedMetal.ingot]
+			[<industrialforegoing:plastic:0>, <minecraft:nether_wart:0>, <industrialforegoing:plastic:0>],
+			[<minecraft:magma_cream:0>, <teslacorelib:machine_case:0>, <minecraft:magma_cream:0>],
+			[metals.reinforcedMetal.ingot, <minecraft:redstone:0>, metals.reinforcedMetal.ingot]
 		]
 	],
-	<industrialforegoing:enchantment_invoker>: [
+	<industrialforegoing:enchantment_invoker:0>: [
 		[
-			[<industrialforegoing:plastic>, <minecraft:book>, <industrialforegoing:plastic>],
-			[metals.enhancedGalgadorian.ingot, <teslacorelib:machine_case>, metals.enhancedGalgadorian.ingot],
-			[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+			[<industrialforegoing:plastic:0>, <minecraft:book:0>, <industrialforegoing:plastic:0>],
+			[metals.enhancedGalgadorian.ingot, <teslacorelib:machine_case:0>, metals.enhancedGalgadorian.ingot],
+			[<minecraft:obsidian:0>, <minecraft:obsidian:0>, <minecraft:obsidian:0>]
 		]
 	],
-	<industrialforegoing:villager_trade_exchanger>: [
+	<industrialforegoing:villager_trade_exchanger:0>: [
 		[
-			[<industrialforegoing:plastic>, metals.gold.plate, <industrialforegoing:plastic>],
-			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case>, metals.reinforcedMetal.ingot],
-			[<industrialforegoing:plastic>, metals.gold.gear, <industrialforegoing:plastic>]
+			[<industrialforegoing:plastic:0>, metals.gold.plate, <industrialforegoing:plastic:0>],
+			[metals.reinforcedMetal.ingot, <teslacorelib:machine_case:0>, metals.reinforcedMetal.ingot],
+			[<industrialforegoing:plastic:0>, metals.gold.gear, <industrialforegoing:plastic:0>]
 		]
 	],
-	<industrialforegoing:energy_field_provider>: [
+	<industrialforegoing:energy_field_provider:0>: [
 		[
-			[metals.gold.plate, <industrialforegoing:energy_field_addon>, metals.gold.plate],
-			[metals.gold.plate, <teslacorelib:machine_case>, metals.gold.plate],
-			[<minecraft:repeater>, metals.enhancedGalgadorian.gear, <minecraft:repeater>]
+			[metals.gold.plate, <industrialforegoing:energy_field_addon:0>, metals.gold.plate],
+			[metals.gold.plate, <teslacorelib:machine_case:0>, metals.gold.plate],
+			[<minecraft:repeater:0>, metals.enhancedGalgadorian.gear, <minecraft:repeater:0>]
 		]
 	],
-	<industrialforegoing:black_hole_controller>: [
+	<industrialforegoing:black_hole_controller:0>: [
 		[
-			[<industrialforegoing:plastic>, metals.enhancedGalgadorian.block, <industrialforegoing:plastic>],
-			[<minecraft:ender_eye>, <minecraft:ender_chest>, <minecraft:ender_eye>],
-			[<industrialforegoing:plastic>, <teslacorelib:machine_case>, <industrialforegoing:plastic>]
+			[<industrialforegoing:plastic:0>, metals.enhancedGalgadorian.block, <industrialforegoing:plastic:0>],
+			[<minecraft:ender_eye:0>, <minecraft:ender_chest:0>, <minecraft:ender_eye:0>],
+			[<industrialforegoing:plastic:0>, <teslacorelib:machine_case:0>, <industrialforegoing:plastic:0>]
 		]
 	],
 	<industrialforegoing:range_addon:9>: [
 		[
-			[metals.platinum.plate, <industrialforegoing:plastic>, metals.platinum.plate],
+			[metals.platinum.plate, <industrialforegoing:plastic:0>, metals.platinum.plate],
 			[metals.platinum.plate, <ore:paneGlass>, metals.platinum.plate],
-			[metals.platinum.plate, <industrialforegoing:plastic>, metals.platinum.plate]
+			[metals.platinum.plate, <industrialforegoing:plastic:0>, metals.platinum.plate]
 		]
 	],
 	<industrialforegoing:range_addon:10>: [
 		[
-			[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>],
-			[<minecraft:prismarine_shard>, <ore:paneGlass>, <minecraft:prismarine_shard>],
-			[<minecraft:prismarine_shard>, <industrialforegoing:plastic>, <minecraft:prismarine_shard>]
+			[<minecraft:prismarine_shard:0>, <industrialforegoing:plastic:0>, <minecraft:prismarine_shard:0>],
+			[<minecraft:prismarine_shard:0>, <ore:paneGlass>, <minecraft:prismarine_shard:0>],
+			[<minecraft:prismarine_shard:0>, <industrialforegoing:plastic:0>, <minecraft:prismarine_shard:0>]
 		]
 	],
 	<industrialforegoing:range_addon:11>: [
 		[
-			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot],
+			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic:0>, metals.enhancedGalgadorian.ingot],
 			[metals.enhancedGalgadorian.ingot, <ore:paneGlass>, metals.enhancedGalgadorian.ingot],
-			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic>, metals.enhancedGalgadorian.ingot]
+			[metals.enhancedGalgadorian.ingot, <industrialforegoing:plastic:0>, metals.enhancedGalgadorian.ingot]
 		]
 	]
 };
@@ -148,24 +148,24 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<industrialforegoing:animal_independence_selector>,
-	<industrialforegoing:black_hole_controller>,
+	<industrialforegoing:animal_independence_selector:0>,
+	<industrialforegoing:black_hole_controller:0>,
 	<industrialforegoing:conveyor:3>,
 	<industrialforegoing:conveyor:8>,
-	<industrialforegoing:enchantment_extractor>,
-	<industrialforegoing:enchantment_invoker>,
-	<industrialforegoing:enchantment_refiner>,
-	<industrialforegoing:energy_field_provider>,
-	<industrialforegoing:mob_duplicator>,
-	<industrialforegoing:petrified_fuel_generator>,
+	<industrialforegoing:enchantment_extractor:0>,
+	<industrialforegoing:enchantment_invoker:0>,
+	<industrialforegoing:enchantment_refiner:0>,
+	<industrialforegoing:energy_field_provider:0>,
+	<industrialforegoing:mob_duplicator:0>,
+	<industrialforegoing:petrified_fuel_generator:0>,
 	<industrialforegoing:range_addon:10>,
 	<industrialforegoing:range_addon:11>,
 	<industrialforegoing:range_addon:9>,
-	<industrialforegoing:villager_trade_exchanger>
+	<industrialforegoing:villager_trade_exchanger:0>
 ];
 
 static removeFurnace as IIngredient[] = [
-	<industrialforegoing:plastic>
+	<industrialforegoing:plastic:0>
 ];
 
 function init() {

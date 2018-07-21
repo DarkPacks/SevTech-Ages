@@ -14,11 +14,11 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<chisel:temple> : [
+	<chisel:temple:0> : [
 		[
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-			[<minecraft:stone>, <ore:dyeCyan>, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <ore:dyeCyan>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	]
 };
@@ -43,7 +43,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<chisel:temple>
+	<chisel:temple:0>
 ];
 
 function init() {

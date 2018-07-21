@@ -45,8 +45,8 @@ static removeRegex as string[] = [
 
 function initSlimeBlockRecipes() {
 	for i in 0 to 16 {
-		var slimeBlock as IItemStack = <darkutils:slime_dyed>.definition.makeStack(i);
-		var dye as IItemStack = <minecraft:dye>.definition.makeStack(15 - i);
+		var slimeBlock as IItemStack = <darkutils:slime_dyed:0>.definition.makeStack(i);
+		var dye as IItemStack = <minecraft:dye:0>.definition.makeStack(15 - i);
 		var dyeOredict as IOreDictEntry = oreDict.get("dye" ~ utils.capitalize(minecraftDyeIdTable[15 - i]));
 		recipes.addShaped(slimeBlock, [
 			[<ore:blockSlime>, <ore:blockSlime>, <ore:blockSlime>],

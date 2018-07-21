@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<primalchests:primal_chest_advanced>,
-		<primalchests:primal_chest>
+		<primalchests:primal_chest_advanced:0>,
+		<primalchests:primal_chest:0>
 	]
 };
 

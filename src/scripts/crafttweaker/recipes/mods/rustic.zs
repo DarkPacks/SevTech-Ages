@@ -25,14 +25,14 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<rustic:ironwood_slab_item> * 3 : [
+	<rustic:ironwood_slab_item:0> * 3 : [
 		[
 			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]
 		]
 	],
-	<rustic:olive_slab_item> * 3 : [
+	<rustic:olive_slab_item:0> * 3 : [
 		[
-			[<rustic:planks>, <rustic:planks>, <rustic:planks>]
+			[<rustic:planks:0>, <rustic:planks:0>, <rustic:planks:0>]
 		]
 	]
 };
@@ -62,9 +62,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<rustic:fertile_soil>,
-	<rustic:ironwood_slab_item>,
-	<rustic:olive_slab_item>
+	<rustic:fertile_soil:0>,
+	<rustic:ironwood_slab_item:0>,
+	<rustic:olive_slab_item:0>
 ];
 
 static removeRegex as string[] = [

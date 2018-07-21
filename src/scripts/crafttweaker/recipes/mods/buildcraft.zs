@@ -23,65 +23,65 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<buildcraftcore:engine> : [
+	<buildcraftcore:engine:0> : [
 		[
-			[<minecraft:glass>, <minecraft:sticky_piston>, <minecraft:glass>],
+			[<minecraft:glass:0>, <minecraft:sticky_piston:0>, <minecraft:glass:0>],
 			[metals.redstoneAlloy.gear, <immersiveengineering:material:27>, metals.redstoneAlloy.gear],
-			[<immersiveengineering:treated_wood>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:treated_wood>]
+			[<immersiveengineering:treated_wood:0>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:treated_wood:0>]
 		]
 	],
-	<buildcrafttransport:pipe_void_item> * 8 : [
+	<buildcrafttransport:pipe_void_item:0> * 8 : [
 		[
 			[null, null, null],
-			[<ore:dyeBlack>, <ore:blockGlass>, <minecraft:redstone>],
+			[<ore:dyeBlack>, <ore:blockGlass>, <minecraft:redstone:0>],
 			[null, null, null]
 		]
 	],
-	<buildcrafttransport:pipe_void_item> * 1 : [
+	<buildcrafttransport:pipe_void_item:0> * 1 : [
 		[
 			[null, null, null],
-			[null, <buildcrafttransport:pipe_void_fluid>, null],
+			[null, <buildcrafttransport:pipe_void_fluid:0>, null],
 			[null, null, null]
 		]
 	],
-	<buildcraftcore:engine> : [
+	<buildcraftcore:engine:0> : [
 		[
 			[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
 			[<ore:blockGlass>, metals.steel.gear, <ore:blockGlass>],
-			[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>]
+			[<minecraft:redstone:0>, <minecraft:piston:0>, <minecraft:redstone:0>]
 		]
 	],
-	<buildcrafttransport:filtered_buffer> : [
+	<buildcrafttransport:filtered_buffer:0> : [
 		[
-			[<ore:plankWood>, <buildcrafttransport:pipe_stripes_item>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]
+			[<ore:plankWood>, <buildcrafttransport:pipe_stripes_item:0>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:piston:0>, <ore:plankWood>]
 		]
 	],
-	<buildcraftbuilders:quarry> : [
+	<buildcraftbuilders:quarry:0> : [
 		[
 			[metals.platinum.gear, <stevescarts:cartmodule:9>, metals.platinum.gear],
-			[metals.gold.gear, <teslacorelib:machine_case>, metals.gold.gear],
-			[metals.iron.gear, <modularmachinery:blockcontroller>, metals.iron.gear]
+			[metals.gold.gear, <teslacorelib:machine_case:0>, metals.gold.gear],
+			[metals.iron.gear, <modularmachinery:blockcontroller:0>, metals.iron.gear]
 		]
 	],
-	<buildcraftcore:marker_path> : [
+	<buildcraftcore:marker_path:0> : [
 		[
 			[<ore:dyeGreen>],
-			[<minecraft:redstone_torch>]
+			[<minecraft:redstone_torch:0>]
 		]
 	],
-	<buildcraftcore:marker_volume> : [
+	<buildcraftcore:marker_volume:0> : [
 		[
 			[<ore:dyeBlue>],
-			[<minecraft:redstone_torch>]
+			[<minecraft:redstone_torch:0>]
 		]
 	],
-	<buildcraftcore:list> : [
+	<buildcraftcore:list:0> : [
 		[
-			[<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>],
-			[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
-			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+			[<minecraft:paper:0>, <minecraft:redstone:0>, <minecraft:paper:0>],
+			[<minecraft:paper:0>, <ore:dyeGreen>, <minecraft:paper:0>],
+			[<minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>]
 		]
 	]
 };
@@ -102,8 +102,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<buildcraftsilicon:plug_pulsar> : [
-		[<buildcraftcore:engine>, metals.iron.ingot.firstItem]
+	<buildcraftsilicon:plug_pulsar:0> : [
+		[<buildcraftcore:engine:0>, metals.iron.ingot.firstItem]
 	]
 };
 
@@ -114,13 +114,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<buildcraftbuilders:quarry>,
-	<buildcraftcore:engine>,
-	<buildcraftcore:list>,
-	<buildcraftcore:marker_path>,
-	<buildcraftcore:marker_volume>,
-	<buildcrafttransport:filtered_buffer>,
-	<buildcrafttransport:pipe_void_item>
+	<buildcraftbuilders:quarry:0>,
+	<buildcraftcore:engine:0>,
+	<buildcraftcore:list:0>,
+	<buildcraftcore:marker_path:0>,
+	<buildcraftcore:marker_volume:0>,
+	<buildcrafttransport:filtered_buffer:0>,
+	<buildcrafttransport:pipe_void_item:0>
 ];
 
 function init() {

@@ -18,19 +18,19 @@ import scripts.crafttweaker.utils;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<galacticraftcore:machine:12>: [
 		[
-			[metals.aluminum.plate, <minecraft:piston>, metals.aluminum.plate],
-			[metals.aluminum.plate, <natura:netherrack_furnace>, metals.aluminum.plate],
-			[<enderutilities:enderpart:2>, <betterwithmods:steel_anvil>, <enderutilities:enderpart:2>]
+			[metals.aluminum.plate, <minecraft:piston:0>, metals.aluminum.plate],
+			[metals.aluminum.plate, <natura:netherrack_furnace:0>, metals.aluminum.plate],
+			[<enderutilities:enderpart:2>, <betterwithmods:steel_anvil:0>, <enderutilities:enderpart:2>]
 		]
 	],
-	<galacticraftcore:fuel_loader>: [
+	<galacticraftcore:fuel_loader:0>: [
 		[
 			[<galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:6>],
-			[<appliedenergistics2:material:22>, <galacticraftcore:canister>, <appliedenergistics2:material:24>],
-			[<galacticraftcore:basic_item:7>, <pneumaticcraft:printed_circuit_board>, <galacticraftcore:basic_item:7>]
+			[<appliedenergistics2:material:22>, <galacticraftcore:canister:0>, <appliedenergistics2:material:24>],
+			[<galacticraftcore:basic_item:7>, <pneumaticcraft:printed_circuit_board:0>, <galacticraftcore:basic_item:7>]
 		]
 	],
-	<galacticraftcore:air_fan>: [
+	<galacticraftcore:air_fan:0>: [
 		[
 			[<galacticraftcore:basic_item:9>, null, <galacticraftcore:basic_item:9>],
 			[null, metals.invar.gear, null],
@@ -59,11 +59,11 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<galacticraftplanets:carbon_fragments> * 16 : [
+	<galacticraftplanets:carbon_fragments:0> * 16 : [
 		 [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
 	],
-	<galacticraftplanets:carbon_fragments> * 32 : [
-		[<minecraft:coal>, <minecraft:coal>, <minecraft:coal>, <minecraft:coal>]
+	<galacticraftplanets:carbon_fragments:0> * 32 : [
+		[<minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>]
 	]
 };
 
@@ -81,12 +81,12 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<galacticraftcore:air_fan>,
-	<galacticraftcore:fuel_loader>,
+	<galacticraftcore:air_fan:0>,
+	<galacticraftcore:fuel_loader:0>,
 	<galacticraftcore:machine2:8>,
 	<galacticraftcore:machine:12>,
-	<galacticraftcore:rocket_workbench>,
-	<galacticraftplanets:carbon_fragments>
+	<galacticraftcore:rocket_workbench:0>,
+	<galacticraftplanets:carbon_fragments:0>
 ];
 
 static removeFurnace as IIngredient[] = [
@@ -97,7 +97,7 @@ static removeFurnace as IIngredient[] = [
 
 function initParachuteRecipes() {
 	for i in 0 to 16 {
-		var parachute as IItemStack = <galacticraftcore:parachute>.definition.makeStack(i);
+		var parachute as IItemStack = <galacticraftcore:parachute:0>.definition.makeStack(i);
 		if (i == 0) {
 			recipes.removeByRecipeName("galacticraftcore:parachute_" ~ i ~ "_alt");
 		} else {

@@ -23,11 +23,11 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<animalium:dog_boots>: [
+	<animalium:dog_boots:0>: [
 		[
-			[<betterwithaddons:bundle>, <animalium:wild_dog_pelt>, <betterwithaddons:bundle>],
-			[<animalium:wild_dog_pelt>, <minecraft:leather_boots>, <animalium:wild_dog_pelt>],
-			[<ore:slimeball>, <animalium:wild_dog_pelt>, <ore:slimeball>]
+			[<betterwithaddons:bundle:0>, <animalium:wild_dog_pelt:0>, <betterwithaddons:bundle:0>],
+			[<animalium:wild_dog_pelt:0>, <minecraft:leather_boots:0>, <animalium:wild_dog_pelt:0>],
+			[<ore:slimeball>, <animalium:wild_dog_pelt:0>, <ore:slimeball>]
 		]
 	]
 };
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<animalium:dog_boots>
+	<animalium:dog_boots:0>
 ];
 
 function init() {

@@ -14,25 +14,25 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<astikoor:cargocart> : [
+	<astikoor:cargocart:0> : [
 		[
 			[<ore:plankWood>, null, <ore:plankWood>],
-			[<primalchests:primal_chest_advanced>, <ore:plankWood>, <primalchests:primal_chest_advanced>],
-			[<astikoor:wheel>, <ore:slabWood>, <astikoor:wheel>]
+			[<primalchests:primal_chest_advanced:0>, <ore:plankWood>, <primalchests:primal_chest_advanced:0>],
+			[<astikoor:wheel:0>, <ore:slabWood>, <astikoor:wheel:0>]
 		]
 	],
-	<astikoor:wheel> : [
+	<astikoor:wheel:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem]
 		]
 	],
-	<astikoor:plowcart> : [
+	<astikoor:plowcart:0> : [
 		[
 			[null, null, null],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<astikoor:wheel>, <astikoor:wheel>, <minecraft:stone>]
+			[<astikoor:wheel:0>, <astikoor:wheel:0>, <minecraft:stone:0>]
 		]
 	]
 };

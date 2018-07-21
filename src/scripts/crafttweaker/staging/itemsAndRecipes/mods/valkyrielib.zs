@@ -7,13 +7,13 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<valkyrielib:guide>
+		<valkyrielib:guide:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<valkyrielib:modifier_component>,
-	<valkyrielib:modifier_speed>
+	<valkyrielib:modifier_component:0>,
+	<valkyrielib:modifier_speed:0>
 ];
 
 function init() {

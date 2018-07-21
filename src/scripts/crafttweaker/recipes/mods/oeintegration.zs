@@ -23,9 +23,9 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<oeintegration:excavatemodifier> * 25: [
+	<oeintegration:excavatemodifier:0> * 25: [
 		[
-			[<thebetweenlands:octine_ingot>, metals.modularium.plate, <thebetweenlands:items_misc:11>],
+			[<thebetweenlands:octine_ingot:0>, metals.modularium.plate, <thebetweenlands:items_misc:11>],
 			[metals.steel.plate, <twilightforest:maze_stone:*>, metals.steel.plate],
 			[<astralsorcery:itemrockcrystalsimple:*>, metals.platinum.plate, <astralsorcery:itemrockcrystalsimple:*>]
 		]
@@ -52,7 +52,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<oeintegration:excavatemodifier>
+	<oeintegration:excavatemodifier:0>
 ];
 
 function init() {

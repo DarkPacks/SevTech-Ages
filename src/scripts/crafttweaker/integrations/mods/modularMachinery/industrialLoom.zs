@@ -15,7 +15,7 @@ function init() {
 
 	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "string"), machineName, 150)
 		.addEnergyPerTickInput(10)
-		.addItemOutput(<minecraft:string>)
+		.addItemOutput(<minecraft:string:0>)
 		.addItemInput(<ore:cropCotton>, 2)
 		.build();
 }

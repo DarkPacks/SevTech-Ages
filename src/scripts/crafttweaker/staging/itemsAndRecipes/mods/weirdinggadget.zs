@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<weirdinggadget:weirding_gadget>
+		<weirdinggadget:weirding_gadget:0>
 	]
 };
 

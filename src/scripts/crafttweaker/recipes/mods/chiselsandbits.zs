@@ -24,39 +24,39 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<chiselsandbits:bit_bag> : [
+	<chiselsandbits:bit_bag:0> : [
 		[
 			[<betterwithaddons:wool:*>, <betterwithaddons:wool:*>, <betterwithaddons:wool:*>],
-			[<betterwithaddons:wool:*>, <minecraft:stone_button>, <betterwithaddons:wool:*>],
+			[<betterwithaddons:wool:*>, <minecraft:stone_button:0>, <betterwithaddons:wool:*>],
 			[<betterwithaddons:wool:*>, <betterwithaddons:wool:*>, <betterwithaddons:wool:*>]
 		]
 	],
-	<chiselsandbits:bittank> : [
+	<chiselsandbits:bittank:0> : [
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[null, null, null],
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem]
 		]
 	],
-	<chiselsandbits:negativeprint> : [
+	<chiselsandbits:negativeprint:0> : [
 		[
 			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeRed>],
-			[<primal:plant_cloth>, null]
+			[<primal:plant_cloth:0>, null]
 		]
 	],
-	<chiselsandbits:mirrorprint> : [
+	<chiselsandbits:mirrorprint:0> : [
 		[
 			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeGreen>],
-			[<primal:plant_cloth>, null]
+			[<primal:plant_cloth:0>, null]
 		]
 	],
-	<chiselsandbits:positiveprint> : [
+	<chiselsandbits:positiveprint:0> : [
 		[
 			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeBlue>],
-			[<primal:plant_cloth>, null]
+			[<primal:plant_cloth:0>, null]
 		]
 	],
-	<chiselsandbits:chisel_iron> : [
+	<chiselsandbits:chisel_iron:0> : [
 		[
 			[metals.tin.ingot, <ore:stickWood>.firstItem],
 		]
@@ -79,14 +79,14 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<chiselsandbits:negativeprint> : [
-		[<chiselsandbits:negativeprint>]
+	<chiselsandbits:negativeprint:0> : [
+		[<chiselsandbits:negativeprint:0>]
 	],
-	<chiselsandbits:mirrorprint> : [
-		[<chiselsandbits:mirrorprint>]
+	<chiselsandbits:mirrorprint:0> : [
+		[<chiselsandbits:mirrorprint:0>]
 	],
-	<chiselsandbits:positiveprint> : [
-		[<chiselsandbits:positiveprint>]
+	<chiselsandbits:positiveprint:0> : [
+		[<chiselsandbits:positiveprint:0>]
 	]
 };
 
@@ -97,8 +97,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<chiselsandbits:bittank>,
-	<chiselsandbits:chisel_iron>
+	<chiselsandbits:bittank:0>,
+	<chiselsandbits:chisel_iron:0>
 ];
 
 function init() {

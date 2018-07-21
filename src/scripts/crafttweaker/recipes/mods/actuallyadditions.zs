@@ -24,40 +24,40 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<actuallyadditions:block_compost>: [
+	<actuallyadditions:block_compost:0>: [
 		[
-			[<betterwithmods:wicker>, null, <betterwithmods:wicker>],
-			[<betterwithmods:wicker>, null, <betterwithmods:wicker>],
-			[<betterwithmods:wicker>, <immcraft:chest>, <betterwithmods:wicker>]
+			[<betterwithmods:wicker:0>, null, <betterwithmods:wicker:0>],
+			[<betterwithmods:wicker:0>, null, <betterwithmods:wicker:0>],
+			[<betterwithmods:wicker:0>, <immcraft:chest:0>, <betterwithmods:wicker:0>]
 		]
 	],
-	<actuallyadditions:block_smiley_cloud> : [
+	<actuallyadditions:block_smiley_cloud:0> : [
 		[
 			[null, <minecraft:wool:*>, null],
 			[<minecraft:wool:*>, craftingUtils.getBucketIngredientFromName("xpjuice"), <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
 	],
-	<actuallyadditions:block_compost> : [
+	<actuallyadditions:block_compost:0> : [
 		[
 			[<betterwithmods:slats:*>, null, <betterwithmods:slats:*>],
 			[<betterwithmods:slats:*>, null, <betterwithmods:slats:*>],
-			[<betterwithmods:slats:*>, <minecraft:chest>, <betterwithmods:slats:*>]
+			[<betterwithmods:slats:*>, <minecraft:chest:0>, <betterwithmods:slats:*>]
 		]
 	],
 	// This is not a real pizze (And just because someone gave me a hard time on how I spell pizze (assumptions about my spelling were made)
 	// I'm going to leave it in here and people are going to have to deal with it) just FYI. It does not have olives on it but chat bullied me
 	// and now it has meatballs and chili peppers instead. Thanks Obama. I'm also not sorry.
 	<actuallyadditions:item_food:14> : [
-		[[<actuallyadditions:item_food>, <betterwithaddons:food_meatballs>, <actuallyadditions:item_food>],
-		[<actuallyadditions:item_food:20>, <rustic:tomato>, <rustic:chili_pepper>],
-		[<horsepower:dough>, <horsepower:dough>, <horsepower:dough>]]
+		[[<actuallyadditions:item_food:0>, <betterwithaddons:food_meatballs:0>, <actuallyadditions:item_food:0>],
+		[<actuallyadditions:item_food:20>, <rustic:tomato:0>, <rustic:chili_pepper:0>],
+		[<horsepower:dough:0>, <horsepower:dough:0>, <horsepower:dough:0>]]
 	],
 	// Ant Anne's Best Chocolate cookies!
 	<actuallyadditions:item_food:12> * 3 : [
 		[
 			[null, <minecraft:dye:3>, null],
-			[null, <horsepower:dough>, null]
+			[null, <horsepower:dough:0>, null]
 		]
 	],
 	// I didn't have red ants to put on top since the item has little red dots on.
@@ -65,55 +65,55 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk")],
 			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
-			[<minecraft:egg>, <horsepower:dough>, <minecraft:sugar>]
+			[<minecraft:egg:0>, <horsepower:dough:0>, <minecraft:sugar:0>]
 		]
 	],
-	<actuallyadditions:block_coal_generator> : [
+	<actuallyadditions:block_coal_generator:0> : [
 		[
-			[<minecraft:cobblestone>, <stevescarts:cartmodule>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <teslacorelib:machine_case>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <stevescarts:cartmodule>, <minecraft:cobblestone>]
+			[<minecraft:cobblestone:0>, <stevescarts:cartmodule:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <teslacorelib:machine_case:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <stevescarts:cartmodule:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<actuallyadditions:block_oil_generator> : [
+	<actuallyadditions:block_oil_generator:0> : [
 		[
-			[<minecraft:cobblestone>, <actuallyadditions:block_canola_press>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <teslacorelib:machine_case>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <actuallyadditions:block_canola_press>, <minecraft:cobblestone>]
+			[<minecraft:cobblestone:0>, <actuallyadditions:block_canola_press:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <teslacorelib:machine_case:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <actuallyadditions:block_canola_press:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<actuallyadditions:block_feeder> : [
+	<actuallyadditions:block_feeder:0> : [
 		[
-			[metals.compressedIron.plate, <darkutils:grate>, metals.compressedIron.plate],
-			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case>, <immersiveengineering:metal_decoration0:1>],
+			[metals.compressedIron.plate, <darkutils:grate:0>, metals.compressedIron.plate],
+			[<immersiveengineering:metal_decoration0:1>, <teslacorelib:machine_case:0>, <immersiveengineering:metal_decoration0:1>],
 			[metals.compressedIron.ingot, metals.compressedIron.plate, metals.compressedIron.ingot]
 		]
 	],
-	<actuallyadditions:block_grinder> : [
+	<actuallyadditions:block_grinder:0> : [
 		[
-			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate],
-			[<minecraft:piston>, <teslacorelib:machine_case>, <minecraft:piston>],
-			[metals.compressedIron.plate, <minecraft:piston>, metals.compressedIron.plate]
+			[metals.compressedIron.plate, <minecraft:piston:0>, metals.compressedIron.plate],
+			[<minecraft:piston:0>, <teslacorelib:machine_case:0>, <minecraft:piston:0>],
+			[metals.compressedIron.plate, <minecraft:piston:0>, metals.compressedIron.plate]
 		]
 	],
-	<actuallyadditions:block_grinder_double> : [
+	<actuallyadditions:block_grinder_double:0> : [
 		[
 			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
-			[<actuallyadditions:block_grinder>, <teslacorelib:machine_case>, <actuallyadditions:block_grinder>],
+			[<actuallyadditions:block_grinder:0>, <teslacorelib:machine_case:0>, <actuallyadditions:block_grinder:0>],
 			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
 		]
 	],
-	<actuallyadditions:block_furnace_double> : [
+	<actuallyadditions:block_furnace_double:0> : [
 		[
-			[metals.compressedIron.plate, <natura:netherrack_furnace>, metals.compressedIron.plate],
-			[<tconstruct:seared_furnace_controller>, <actuallyadditions:block_coal_generator>, <tconstruct:seared_furnace_controller>],
-			[metals.compressedIron.ingot, <natura:netherrack_furnace>, metals.compressedIron.ingot]
+			[metals.compressedIron.plate, <natura:netherrack_furnace:0>, metals.compressedIron.plate],
+			[<tconstruct:seared_furnace_controller:0>, <actuallyadditions:block_coal_generator:0>, <tconstruct:seared_furnace_controller:0>],
+			[metals.compressedIron.ingot, <natura:netherrack_furnace:0>, metals.compressedIron.ingot]
 		]
 	],
-	<actuallyadditions:block_farmer> : [
+	<actuallyadditions:block_farmer:0> : [
 		[
 			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot],
-			[metals.compressedIron.gear, <teslacorelib:machine_case>, metals.compressedIron.gear],
+			[metals.compressedIron.gear, <teslacorelib:machine_case:0>, metals.compressedIron.gear],
 			[metals.compressedIron.ingot, <stevescarts:cartmodule:14>, metals.compressedIron.ingot]
 		]
 	],
@@ -131,37 +131,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<actuallyadditions:item_misc:5>, <immersiveengineering:wirecoil:1>, null]
 		]
 	],
-	<actuallyadditions:item_battery>: [
+	<actuallyadditions:item_battery:0>: [
 		[
 			[null, <immersiveengineering:wirecoil:5>, null],
 			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
 			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
 		]
 	],
-	<actuallyadditions:item_battery_double>: [
+	<actuallyadditions:item_battery_double:0>: [
 		[
-			[null, <actuallyadditions:item_battery>, null],
+			[null, <actuallyadditions:item_battery:0>, null],
 			[metals.nickel.plate, <actuallyadditions:item_misc:8>, metals.nickel.plate],
 			[metals.nickel.plate, metals.nickel.plate, metals.nickel.plate]
 		]
 	],
-	<actuallyadditions:item_battery_triple>: [
+	<actuallyadditions:item_battery_triple:0>: [
 		[
-			[null, <actuallyadditions:item_battery_double>, null],
+			[null, <actuallyadditions:item_battery_double:0>, null],
 			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
 			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
 		]
 	],
-	<actuallyadditions:item_battery_quadruple>: [
+	<actuallyadditions:item_battery_quadruple:0>: [
 		[
-			[null, <actuallyadditions:item_battery_triple>, null],
+			[null, <actuallyadditions:item_battery_triple:0>, null],
 			[metals.invar.plate, <actuallyadditions:item_misc:8>, metals.invar.plate],
 			[metals.invar.plate, metals.invar.plate, metals.invar.plate]
 		]
 	],
-	<actuallyadditions:item_battery_quintuple>: [
+	<actuallyadditions:item_battery_quintuple:0>: [
 		[
-			[null, <actuallyadditions:item_battery_quadruple>, null],
+			[null, <actuallyadditions:item_battery_quadruple:0>, null],
 			[metals.silver.plate, <actuallyadditions:item_misc:8>, metals.silver.plate],
 			[metals.silver.plate, metals.silver.plate, metals.silver.plate]
 		]
@@ -173,21 +173,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.iron.plate, <ore:stickWood>.firstItem, metals.iron.plate]
 		]
 	],
-	<actuallyadditions:block_bio_reactor>: [
+	<actuallyadditions:block_bio_reactor:0>: [
 		[
 			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate],
 			[metals.modularium.plate, <ore:treeSapling>, metals.modularium.plate],
 			[metals.modularium.plate, <actuallyadditions:block_misc:9>, metals.modularium.plate]
 		]
 	],
-	<actuallyadditions:block_canola_press>: [
+	<actuallyadditions:block_canola_press:0>: [
 		[
-			[<minecraft:cobblestone>, metals.iron.plate, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <actuallyadditions:item_misc:13>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <actuallyadditions:item_misc:8>, <minecraft:cobblestone>]
+			[<minecraft:cobblestone:0>, metals.iron.plate, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <actuallyadditions:item_misc:13>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <actuallyadditions:item_misc:8>, <minecraft:cobblestone:0>]
 		]
 	],
-	<actuallyadditions:block_fermenting_barrel>: [
+	<actuallyadditions:block_fermenting_barrel:0>: [
 		[
 			[<ore:logWood>, metals.iron.plate, <ore:logWood>],
 			[<ore:logWood>, <actuallyadditions:item_misc:13>, <ore:logWood>],
@@ -196,148 +196,148 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<actuallyadditions:block_misc:8>: [
 		[
-			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>],
+			[<minecraft:ender_eye:0>, metals.modularium.plate, <minecraft:ender_eye:0>],
 			[metals.modularium.plate, <actuallyadditions:block_misc:2>, metals.modularium.plate],
-			[<minecraft:ender_eye>, metals.modularium.plate, <minecraft:ender_eye>]
+			[<minecraft:ender_eye:0>, metals.modularium.plate, <minecraft:ender_eye:0>]
 		]
 	],
-	<actuallyadditions:block_giant_chest_medium>: [
+	<actuallyadditions:block_giant_chest_medium:0>: [
 		[
-			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest:0>, <ore:plankTreatedWood>],
 			[metals.nickel.plate, null, metals.nickel.plate],
-			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>]
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest:0>, <ore:plankTreatedWood>]
 		]
 	],
-	<actuallyadditions:block_giant_chest_large>: [
+	<actuallyadditions:block_giant_chest_large:0>: [
 		[
-			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest>, <ore:plankTreatedWood>],
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest:0>, <ore:plankTreatedWood>],
 			[metals.modularium.plate, null, metals.modularium.plate],
-			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest_medium>, <ore:plankTreatedWood>]
+			[<ore:plankTreatedWood>, <actuallyadditions:block_giant_chest_medium:0>, <ore:plankTreatedWood>]
 		]
 	],
-	<actuallyadditions:block_breaker>: [
+	<actuallyadditions:block_breaker:0>: [
 		[
-			[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-			[<minecraft:cobblestone>, <actuallyadditions:item_misc:7>, <immersiveengineering:drillhead:1>],
-			[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+			[<minecraft:cobblestone:0>, <actuallyadditions:item_misc:7>, <immersiveengineering:drillhead:1>],
+			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<actuallyadditions:block_directional_breaker>: [
+	<actuallyadditions:block_directional_breaker:0>: [
 		[
 			[null, null, null],
-			[<actuallyadditions:block_breaker>, <actuallyadditions:block_breaker>, <actuallyadditions:block_breaker>],
+			[<actuallyadditions:block_breaker:0>, <actuallyadditions:block_breaker:0>, <actuallyadditions:block_breaker:0>],
 			[null, <stevescarts:cartmodule:42>, null]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_speed>: [
+	<actuallyadditions:item_drill_upgrade_speed:0>: [
 		[
-			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate],
-			[<minecraft:sugar>, metals.redstoneAlloy.plate, <minecraft:sugar>],
-			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate]
+			[metals.nickel.plate, <minecraft:sugar:0>, metals.nickel.plate],
+			[<minecraft:sugar:0>, metals.redstoneAlloy.plate, <minecraft:sugar:0>],
+			[metals.nickel.plate, <minecraft:sugar:0>, metals.nickel.plate]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_speed_ii>: [
+	<actuallyadditions:item_drill_upgrade_speed_ii:0>: [
 		[
-			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate],
-			[<minecraft:sugar>, <minecraft:cake>, <minecraft:sugar>],
-			[metals.nickel.plate, <minecraft:sugar>, metals.nickel.plate]
+			[metals.nickel.plate, <minecraft:sugar:0>, metals.nickel.plate],
+			[<minecraft:sugar:0>, <minecraft:cake:0>, <minecraft:sugar:0>],
+			[metals.nickel.plate, <minecraft:sugar:0>, metals.nickel.plate]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_speed_iii>: [
+	<actuallyadditions:item_drill_upgrade_speed_iii:0>: [
 		[
-			[metals.modularium.plate, <minecraft:sugar>, metals.modularium.plate],
-			[<minecraft:sugar>, <stevescarts:modulecomponents:21>, <minecraft:sugar>],
-			[metals.modularium.plate, <minecraft:sugar>, metals.modularium.plate]
+			[metals.modularium.plate, <minecraft:sugar:0>, metals.modularium.plate],
+			[<minecraft:sugar:0>, <stevescarts:modulecomponents:21>, <minecraft:sugar:0>],
+			[metals.modularium.plate, <minecraft:sugar:0>, metals.modularium.plate]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_silk_touch>: [
+	<actuallyadditions:item_drill_upgrade_silk_touch:0>: [
 		[
 			[<tconstruct:materials:16>, metals.platinum.plate, <tconstruct:materials:16>],
 			[metals.platinum.plate, <actuallyadditions:item_misc:8>, metals.platinum.plate],
 			[<tconstruct:materials:16>, metals.platinum.plate, <tconstruct:materials:16>]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_fortune>: [
+	<actuallyadditions:item_drill_upgrade_fortune:0>: [
 		[
-			[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>],
-			[<minecraft:redstone>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone>],
-			[<minecraft:glowstone>, <minecraft:redstone>, <minecraft:glowstone>]
+			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>],
+			[<minecraft:redstone:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone:0>],
+			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_fortune_ii>: [
+	<actuallyadditions:item_drill_upgrade_fortune_ii:0>: [
 		[
-			[<minecraft:glowstone>, metals.redstoneAlloy.plate, <minecraft:glowstone>],
-			[metals.redstoneAlloy.plate, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), metals.redstoneAlloy.plate],
-			[<minecraft:glowstone>, metals.redstoneAlloy.plate, <minecraft:glowstone>]
+			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>],
+			[metals.redstoneAlloy.plate, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), metals.redstoneAlloy.plate],
+			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_three_by_three>: [
+	<actuallyadditions:item_drill_upgrade_three_by_three:0>: [
 		[
 			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate],
 			[metals.nickel.plate, <actuallyadditions:item_misc:7>, metals.nickel.plate],
 			[metals.platinum.plate, <tconstruct:materials:13>, metals.platinum.plate]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_five_by_five>: [
+	<actuallyadditions:item_drill_upgrade_five_by_five:0>: [
 		[
 			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate],
 			[<tconstruct:materials:13>, <actuallyadditions:item_misc:8>, <tconstruct:materials:13>],
 			[metals.platinum.plate, <tconstruct:materials:12>, metals.platinum.plate]
 		]
 	],
-	<actuallyadditions:item_drill_upgrade_block_placing>: [
+	<actuallyadditions:item_drill_upgrade_block_placing:0>: [
 		[
-			[<minecraft:cobblestone>, <minecraft:paper>, <minecraft:cobblestone>],
+			[<minecraft:cobblestone:0>, <minecraft:paper:0>, <minecraft:cobblestone:0>],
 			[metals.nickel.plate, <actuallyadditions:item_misc:7>, metals.nickel.plate],
-			[<minecraft:cobblestone>, <minecraft:paper>, <minecraft:cobblestone>]
+			[<minecraft:cobblestone:0>, <minecraft:paper:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<actuallyadditions:item_laser_wrench>: [
+	<actuallyadditions:item_laser_wrench:0>: [
 		[
 			[<actuallyadditions:item_misc:8>, null, null],
 			[null, metals.nickel.rod, null],
 			[null, null, metals.nickel.rod]
 		]
 	],
-	<actuallyadditions:block_furnace_solar>: [
+	<actuallyadditions:block_furnace_solar:0>: [
 		[
 			[<galacticraftcore:basic_item:12>, <actuallyadditions:block_misc:9>, <galacticraftcore:basic_item:12>],
-			[<actuallyadditions:item_misc:8>, <minecraft:glowstone_dust>, <actuallyadditions:item_misc:8>],
-			[<galacticraftcore:basic_item:12>, <minecraft:iron_bars>, <galacticraftcore:basic_item:12>]
+			[<actuallyadditions:item_misc:8>, <minecraft:glowstone_dust:0>, <actuallyadditions:item_misc:8>],
+			[<galacticraftcore:basic_item:12>, <minecraft:iron_bars:0>, <galacticraftcore:basic_item:12>]
 		]
 	],
-	<actuallyadditions:block_greenhouse_glass> * 2: [
+	<actuallyadditions:block_greenhouse_glass:0> * 2: [
 		[
-			[<appliedenergistics2:quartz_vibrant_glass>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass>],
-			[<ore:treeSapling>, <minecraft:lapis_block>, <ore:treeSapling>],
-			[<appliedenergistics2:quartz_vibrant_glass>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass>]
+			[<appliedenergistics2:quartz_vibrant_glass:0>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass:0>],
+			[<ore:treeSapling>, <minecraft:lapis_block:0>, <ore:treeSapling>],
+			[<appliedenergistics2:quartz_vibrant_glass:0>, <ore:treeSapling>, <appliedenergistics2:quartz_vibrant_glass:0>]
 		]
 	],
-	<actuallyadditions:block_coffee_machine>: [
+	<actuallyadditions:block_coffee_machine:0>: [
 		[
 			[null, <actuallyadditions:item_misc:13>, null],
 			[null, <actuallyadditions:block_misc:9>, null],
 			[<actuallyadditions:item_misc:7>, metals.nickel.plate, <actuallyadditions:item_misc:7>]
 		]
 	],
-	<actuallyadditions:block_fishing_net>: [
+	<actuallyadditions:block_fishing_net:0>: [
 		[
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-			[<minecraft:string>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61 as short}]}), <minecraft:string>],
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61 as short}]}), <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	],
-	<actuallyadditions:block_heat_collector>: [
+	<actuallyadditions:block_heat_collector:0>: [
 		[
-			[<minecraft:iron_bars>, <minecraft:repeater>, <minecraft:iron_bars>],
+			[<minecraft:iron_bars:0>, <minecraft:repeater:0>, <minecraft:iron_bars:0>],
 			[<actuallyadditions:item_misc:8>, metals.nickel.plate, <actuallyadditions:item_misc:8>],
-			[<minecraft:iron_bars>, <actuallyadditions:block_misc:9>, <minecraft:iron_bars>]
+			[<minecraft:iron_bars:0>, <actuallyadditions:block_misc:9>, <minecraft:iron_bars:0>]
 		]
 	],
 	<actuallyadditions:item_misc:16>: [
 		[
-			[null, <immersiveengineering:material:20>, <immersiveengineering:drillhead>],
-			[<immersiveengineering:material:20>, <immersiveengineering:metal_device0>, <immersiveengineering:material:20>],
+			[null, <immersiveengineering:material:20>, <immersiveengineering:drillhead:0>],
+			[<immersiveengineering:material:20>, <immersiveengineering:metal_device0:0>, <immersiveengineering:material:20>],
 			[<immersiveengineering:metal_decoration1:1>, <immersiveengineering:material:20>, null]
 		]
 	],
@@ -348,11 +348,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<stevescarts:modulecomponents:12>, <stevescarts:modulecomponents:12>, null]
 		]
 	],
-	<pneumaticcraft:assembly_drill>: [
+	<pneumaticcraft:assembly_drill:0>: [
 		[
-			[<actuallyadditions:item_misc:16>, <pneumaticcraft:pneumatic_cylinder>, <pneumaticcraft:pneumatic_cylinder>],
-			[null, null, <pneumaticcraft:pneumatic_cylinder>],
-			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board>, metals.compressedIron.ingot]
+			[<actuallyadditions:item_misc:16>, <pneumaticcraft:pneumatic_cylinder:0>, <pneumaticcraft:pneumatic_cylinder:0>],
+			[null, null, <pneumaticcraft:pneumatic_cylinder:0>],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board:0>, metals.compressedIron.ingot]
 		]
 	],
 	<actuallyadditions:item_misc:12>: [
@@ -391,14 +391,14 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<actuallyadditions:item_booklet>: [
-		[<actuallyadditions:item_coffee_seed>, <primal:plant_cloth>]
+	<actuallyadditions:item_booklet:0>: [
+		[<actuallyadditions:item_coffee_seed:0>, <primal:plant_cloth:0>]
 	],
-	<actuallyadditions:item_coffee_seed> : [
-		[<actuallyadditions:item_coffee_beans>]
+	<actuallyadditions:item_coffee_seed:0> : [
+		[<actuallyadditions:item_coffee_beans:0>]
 	],
 	<actuallyadditions:item_misc:9>: [
-		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)],
+		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
@@ -418,48 +418,48 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<actuallyadditions:block_atomic_reconstructor>,
-	<actuallyadditions:block_bio_reactor>,
-	<actuallyadditions:block_breaker>,
-	<actuallyadditions:block_canola_press>,
-	<actuallyadditions:block_coal_generator>,
-	<actuallyadditions:block_coffee_machine>,
-	<actuallyadditions:block_compost>,
-	<actuallyadditions:block_directional_breaker>,
-	<actuallyadditions:block_farmer>,
-	<actuallyadditions:block_feeder>,
-	<actuallyadditions:block_fermenting_barrel>,
-	<actuallyadditions:block_furnace_double>,
-	<actuallyadditions:block_furnace_solar>,
-	<actuallyadditions:block_giant_chest_large>,
-	<actuallyadditions:block_giant_chest_medium>,
-	<actuallyadditions:block_greenhouse_glass>,
-	<actuallyadditions:block_grinder>,
-	<actuallyadditions:block_grinder_double>,
-	<actuallyadditions:block_heat_collector>,
+	<actuallyadditions:block_atomic_reconstructor:0>,
+	<actuallyadditions:block_bio_reactor:0>,
+	<actuallyadditions:block_breaker:0>,
+	<actuallyadditions:block_canola_press:0>,
+	<actuallyadditions:block_coal_generator:0>,
+	<actuallyadditions:block_coffee_machine:0>,
+	<actuallyadditions:block_compost:0>,
+	<actuallyadditions:block_directional_breaker:0>,
+	<actuallyadditions:block_farmer:0>,
+	<actuallyadditions:block_feeder:0>,
+	<actuallyadditions:block_fermenting_barrel:0>,
+	<actuallyadditions:block_furnace_double:0>,
+	<actuallyadditions:block_furnace_solar:0>,
+	<actuallyadditions:block_giant_chest_large:0>,
+	<actuallyadditions:block_giant_chest_medium:0>,
+	<actuallyadditions:block_greenhouse_glass:0>,
+	<actuallyadditions:block_grinder:0>,
+	<actuallyadditions:block_grinder_double:0>,
+	<actuallyadditions:block_heat_collector:0>,
 	<actuallyadditions:block_misc:8>,
 	<actuallyadditions:block_misc:9>,
-	<actuallyadditions:block_oil_generator>,
-	<actuallyadditions:block_smiley_cloud>,
-	<actuallyadditions:item_battery>,
-	<actuallyadditions:item_battery_double>,
-	<actuallyadditions:item_battery_quadruple>,
-	<actuallyadditions:item_battery_quintuple>,
-	<actuallyadditions:item_battery_triple>,
+	<actuallyadditions:block_oil_generator:0>,
+	<actuallyadditions:block_smiley_cloud:0>,
+	<actuallyadditions:item_battery:0>,
+	<actuallyadditions:item_battery_double:0>,
+	<actuallyadditions:item_battery_quadruple:0>,
+	<actuallyadditions:item_battery_quintuple:0>,
+	<actuallyadditions:item_battery_triple:0>,
 	<actuallyadditions:item_drill:*>,
-	<actuallyadditions:item_drill_upgrade_block_placing>,
-	<actuallyadditions:item_drill_upgrade_five_by_five>,
-	<actuallyadditions:item_drill_upgrade_fortune>,
-	<actuallyadditions:item_drill_upgrade_fortune_ii>,
-	<actuallyadditions:item_drill_upgrade_silk_touch>,
-	<actuallyadditions:item_drill_upgrade_speed>,
-	<actuallyadditions:item_drill_upgrade_speed_ii>,
-	<actuallyadditions:item_drill_upgrade_speed_iii>,
-	<actuallyadditions:item_drill_upgrade_three_by_three>,
+	<actuallyadditions:item_drill_upgrade_block_placing:0>,
+	<actuallyadditions:item_drill_upgrade_five_by_five:0>,
+	<actuallyadditions:item_drill_upgrade_fortune:0>,
+	<actuallyadditions:item_drill_upgrade_fortune_ii:0>,
+	<actuallyadditions:item_drill_upgrade_silk_touch:0>,
+	<actuallyadditions:item_drill_upgrade_speed:0>,
+	<actuallyadditions:item_drill_upgrade_speed_ii:0>,
+	<actuallyadditions:item_drill_upgrade_speed_iii:0>,
+	<actuallyadditions:item_drill_upgrade_three_by_three:0>,
 	<actuallyadditions:item_food:12>,
 	<actuallyadditions:item_food:14>,
 	<actuallyadditions:item_food:8>,
-	<actuallyadditions:item_laser_wrench>,
+	<actuallyadditions:item_laser_wrench:0>,
 	<actuallyadditions:item_misc:12>,
 	<actuallyadditions:item_misc:16>,
 	<actuallyadditions:item_misc:7>,

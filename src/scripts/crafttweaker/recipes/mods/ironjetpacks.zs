@@ -14,21 +14,21 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<ironjetpacks:electrum_capacitor>: [
+	<ironjetpacks:electrum_capacitor:0>: [
 		[
-			[<galacticraftcore:basic_item:9>, <ironjetpacks:electrum_cell>, <galacticraftcore:basic_item:9>],
-			[metals.electrum.plate, <ironjetpacks:electrum_cell>, metals.electrum.plate],
-			[<mekanism:compressedobsidian>, metals.compressedIron.gear, <mekanism:compressedobsidian>]
+			[<galacticraftcore:basic_item:9>, <ironjetpacks:electrum_cell:0>, <galacticraftcore:basic_item:9>],
+			[metals.electrum.plate, <ironjetpacks:electrum_cell:0>, metals.electrum.plate],
+			[<mekanism:compressedobsidian:0>, metals.compressedIron.gear, <mekanism:compressedobsidian:0>]
 		]
 	],
-	<ironjetpacks:basic_coil>: [
+	<ironjetpacks:basic_coil:0>: [
 		[
 			[null, <immersiveengineering:wirecoil:1>, metals.redstoneAlloy.rod],
 			[<immersiveengineering:wirecoil:5>, metals.redstoneAlloy.rod, <immersiveengineering:wirecoil:5>],
 			[metals.redstoneAlloy.rod, <immersiveengineering:wirecoil:1>, null]
 		]
 	],
-	<ironjetpacks:advanced_coil>: [
+	<ironjetpacks:advanced_coil:0>: [
 		[
 			[null, <immersiveengineering:wirecoil:4>, metals.galgadorian.rod],
 			[<immersiveengineering:wirecoil:5>, metals.galgadorian.rod, <immersiveengineering:wirecoil:5>],
@@ -57,9 +57,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<ironjetpacks:advanced_coil>,
-	<ironjetpacks:basic_coil>,
-	<ironjetpacks:electrum_capacitor>
+	<ironjetpacks:advanced_coil:0>,
+	<ironjetpacks:basic_coil:0>,
+	<ironjetpacks:electrum_capacitor:0>
 ];
 
 function init() {

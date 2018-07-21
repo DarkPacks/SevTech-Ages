@@ -23,9 +23,9 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<immersiveengineering:tool> : [
+	<immersiveengineering:tool:0> : [
 		[
-			[null, metals.copper.ingot, <minecraft:string>],
+			[null, metals.copper.ingot, <minecraft:string:0>],
 			[null, <ore:stickWood>.firstItem, metals.copper.ingot],
 			[<ore:stickWood>.firstItem, null, null]
 		]
@@ -39,22 +39,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<immersiveengineering:tool:1> : [
 		[
-			[<ore:stickTreatedWood>, <tconstruct:knife_blade>.withTag({Material: "iron"})],
+			[<ore:stickTreatedWood>, <tconstruct:knife_blade:0>.withTag({Material: "iron"})],
 			[null, <ore:stickTreatedWood>]
 		]
 	],
-	<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}) : [
+	<immersiveengineering:blueprint:0>.withTag({blueprint: "electrode"}) : [
 		[
 			[null, <immersiveengineering:material:18>, null],
 			[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
-			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+			[<minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>]
 		]
 	],
 	<immersiveengineering:stone_decoration:1> * 3 : [
 		[
-			[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>],
-			[<minecraft:brick>, <minecraft:blaze_powder>, <minecraft:brick>],
-			[<minecraft:netherbrick>, <minecraft:brick>, <minecraft:netherbrick>]
+			[<minecraft:netherbrick:0>, <minecraft:brick:0>, <minecraft:netherbrick:0>],
+			[<minecraft:brick:0>, <minecraft:blaze_powder:0>, <minecraft:brick:0>],
+			[<minecraft:netherbrick:0>, <minecraft:brick:0>, <minecraft:netherbrick:0>]
 		]
 	],
 	<immersiveengineering:stone_decoration:1> : [
@@ -66,7 +66,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<immersiveengineering:metal_device0:5> : [
 		[
-			[<industrialforegoing:plastic>, <immersiveengineering:material:9>, <industrialforegoing:plastic>],
+			[<industrialforegoing:plastic:0>, <immersiveengineering:material:9>, <industrialforegoing:plastic:0>],
 			[metals.steel.plate, <immersiveengineering:material:9>, metals.steel.plate],
 			[<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>]
 		]
@@ -119,19 +119,19 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<immersiveengineering:axe_steel>,
+	<immersiveengineering:axe_steel:0>,
 	<immersiveengineering:material:20>,
 	<immersiveengineering:material:21>,
 	<immersiveengineering:material:22>,
 	<immersiveengineering:material:23>,
 	<immersiveengineering:metal_decoration0:3>,
 	<immersiveengineering:metal_device0:5>,
-	<immersiveengineering:pickaxe_steel>,
-	<immersiveengineering:shovel_steel>,
+	<immersiveengineering:pickaxe_steel:0>,
+	<immersiveengineering:shovel_steel:0>,
 	<immersiveengineering:stone_decoration:1>,
-	<immersiveengineering:sword_steel>,
+	<immersiveengineering:sword_steel:0>,
 	<immersiveengineering:tool:1>,
-	<immersiveengineering:tool>
+	<immersiveengineering:tool:0>
 ];
 
 function init() {

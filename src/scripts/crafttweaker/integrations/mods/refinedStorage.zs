@@ -22,7 +22,7 @@ function init() {
 	var rs as IItemStack[string][string] = {
 		printed: {
 			advanced: <refinedstorage:processor:2>,
-			basic: <refinedstorage:processor>,
+			basic: <refinedstorage:processor:0>,
 			improved: <refinedstorage:processor:1>,
 			silicon: <refinedstorage:processor:6>
 		},
@@ -42,19 +42,19 @@ function init() {
 
 	// All solderer recipe's outputs
 	var soldererRecipeOutputs as IItemStack[] = [
-		<refinedstorage:fluid_interface>,
+		<refinedstorage:fluid_interface:0>,
 		<refinedstorage:fluid_storage:1>,
 		<refinedstorage:fluid_storage:2>,
 		<refinedstorage:fluid_storage:3>,
-		<refinedstorage:fluid_storage>,
+		<refinedstorage:fluid_storage:0>,
 		<refinedstorage:grid:1>,
 		<refinedstorage:grid:2>,
 		<refinedstorage:grid:3>,
-		<refinedstorage:interface>,
+		<refinedstorage:interface:0>,
 		<refinedstorage:storage:1>,
 		<refinedstorage:storage:2>,
 		<refinedstorage:storage:3>,
-		<refinedstorage:storage>,
+		<refinedstorage:storage:0>,
 		<refinedstorage:upgrade:1>,
 		<refinedstorage:upgrade:2>,
 		<refinedstorage:upgrade:3>,

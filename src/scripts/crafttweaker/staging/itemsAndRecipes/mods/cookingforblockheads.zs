@@ -6,20 +6,20 @@ import scripts.crafttweaker.stages.stageFour;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
-		<cookingforblockheads:cooking_table>,
-		<cookingforblockheads:corner>,
-		<cookingforblockheads:counter>,
-		<cookingforblockheads:fridge>,
-		<cookingforblockheads:kitchen_floor>,
-		<cookingforblockheads:milk_jar>,
-		<cookingforblockheads:oven>,
+		<cookingforblockheads:cooking_table:0>,
+		<cookingforblockheads:corner:0>,
+		<cookingforblockheads:counter:0>,
+		<cookingforblockheads:fridge:0>,
+		<cookingforblockheads:kitchen_floor:0>,
+		<cookingforblockheads:milk_jar:0>,
+		<cookingforblockheads:oven:0>,
 		<cookingforblockheads:recipe_book:1>,
 		<cookingforblockheads:recipe_book:2>,
-		<cookingforblockheads:recipe_book>,
-		<cookingforblockheads:sink>,
-		<cookingforblockheads:spice_rack>,
-		<cookingforblockheads:toaster>,
-		<cookingforblockheads:tool_rack>
+		<cookingforblockheads:recipe_book:0>,
+		<cookingforblockheads:sink:0>,
+		<cookingforblockheads:spice_rack:0>,
+		<cookingforblockheads:toaster:0>,
+		<cookingforblockheads:tool_rack:0>
 	]
 };
 

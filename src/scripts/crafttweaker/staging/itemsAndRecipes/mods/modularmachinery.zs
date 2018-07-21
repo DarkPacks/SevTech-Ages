@@ -14,11 +14,11 @@ static stagedItems as IIngredient[][string] = {
 		<modularmachinery:blockcasing:1>,
 		<modularmachinery:blockcasing:3>,
 		<modularmachinery:blockcasing:5>,
-		<modularmachinery:blockcasing>,
-		<modularmachinery:blockcontroller>,
-		<modularmachinery:blockenergyinputhatch>,
-		<modularmachinery:blockfluidinputhatch>,
-		<modularmachinery:blockfluidoutputhatch>,
+		<modularmachinery:blockcasing:0>,
+		<modularmachinery:blockcontroller:0>,
+		<modularmachinery:blockenergyinputhatch:0>,
+		<modularmachinery:blockfluidinputhatch:0>,
+		<modularmachinery:blockfluidoutputhatch:0>,
 		<modularmachinery:blockinputbus:1>,
 		<modularmachinery:blockoutputbus:1>
 	],
@@ -40,7 +40,7 @@ static stagedItems as IIngredient[][string] = {
 		<modularmachinery:blockenergyoutputhatch:5>,
 		<modularmachinery:blockenergyoutputhatch:6>,
 		<modularmachinery:blockenergyoutputhatch:7>,
-		<modularmachinery:blockenergyoutputhatch>,
+		<modularmachinery:blockenergyoutputhatch:0>,
 		<modularmachinery:blockfluidinputhatch:1>,
 		<modularmachinery:blockfluidinputhatch:2>,
 		<modularmachinery:blockfluidinputhatch:3>,
@@ -68,7 +68,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreativeUnused.stage: [
-		<modularmachinery:itemconstructtool>
+		<modularmachinery:itemconstructtool:0>
 	]
 };
 
@@ -120,7 +120,7 @@ function init() {
 
 	for stageName, multiblockMachines in multiblockMachinesForStages {
 		for multiblockMachine in multiblockMachines {
-			var item as IItemStack = <modularmachinery:itemblueprint>.withTag({dynamicmachine: multiblockMachine});
+			var item as IItemStack = <modularmachinery:itemblueprint:0>.withTag({dynamicmachine: multiblockMachine});
 
 			ZenStager.getStage(stageName).addIngredient(item);
 		}

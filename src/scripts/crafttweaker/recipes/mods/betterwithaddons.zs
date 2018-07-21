@@ -26,26 +26,26 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterwithaddons:bolt:1> : [
 		[
-			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>],
-			[<minecraft:vine>, <betterwithaddons:spindle>, <minecraft:vine>],
-			[<minecraft:vine>, <minecraft:vine>, <minecraft:vine>]
+			[<minecraft:vine:0>, <minecraft:vine:0>, <minecraft:vine:0>],
+			[<minecraft:vine:0>, <betterwithaddons:spindle:0>, <minecraft:vine:0>],
+			[<minecraft:vine:0>, <minecraft:vine:0>, <minecraft:vine:0>]
 		]
 	],
 	<betterwithaddons:bolt:3> : [
 		[
-			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-			[<minecraft:leather>, <betterwithaddons:spindle>, <minecraft:leather>],
-			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
+			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>],
+			[<minecraft:leather:0>, <betterwithaddons:spindle:0>, <minecraft:leather:0>],
+			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>]
 		]
 	],
 	<betterwithaddons:bolt:6> : [
 		[
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-			[<minecraft:string>, <betterwithaddons:spindle>, <minecraft:string>],
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <betterwithaddons:spindle:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	],
-	<betterwithaddons:spindle> : [
+	<betterwithaddons:spindle:0> : [
 		[
 			[null, <ore:stickWood>.firstItem, null],
 			[null, <ore:stickWood>.firstItem, null],
@@ -55,91 +55,91 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<betterwithaddons:aqueduct:10> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]
 		]
 	],
 	<betterwithaddons:aqueduct:1> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
-			[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
+			[<minecraft:brick_block:0>, <minecraft:brick_block:0>, <minecraft:brick_block:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:2> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:quartz_block:*>, <minecraft:quartz_block:*>, <minecraft:quartz_block:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:3> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
-			[<betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>, <betterwithaddons:whitebrick>]
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
+			[<betterwithaddons:whitebrick:0>, <betterwithaddons:whitebrick:0>, <betterwithaddons:whitebrick:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:4> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:sandstone:*>, <minecraft:sandstone:*>, <minecraft:sandstone:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:5> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:6> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:7> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>]
 		]
 	],
 	<betterwithaddons:aqueduct:8> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]
 		]
 	],
 	<betterwithaddons:aqueduct:9> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
-			[<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>]
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
+			[<minecraft:prismarine:0>, <minecraft:prismarine:0>, <minecraft:prismarine:0>]
 		]
 	],
-	<betterwithaddons:redstone_emitter> : [
+	<betterwithaddons:redstone_emitter:0> : [
 		[
 			[sidingWood, sidingWood, sidingWood],
-			[<betterwithmods:wicker>, <betterwithmods:wooden_gearbox>, <minecraft:lever>],
+			[<betterwithmods:wicker:0>, <betterwithmods:wooden_gearbox:0>, <minecraft:lever:0>],
 			[sidingWood, sidingWood, sidingWood]
 		]
 	],
-	<betterwithaddons:aqueduct> * 3 : [
+	<betterwithaddons:aqueduct:0> * 3 : [
 		[
 			[null, null, null],
-			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]
 		]
 	],
-	<betterwithaddons:loom>: [
+	<betterwithaddons:loom:0>: [
 		[
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:plankWood>, <betterwithmods:material>, <ore:plankWood>],
+			[<ore:plankWood>, <betterwithmods:material:0>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
 	]
@@ -161,8 +161,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<betterwithaddons:wool> : [
-		[<minecraft:string>, <minecraft:string>, <minecraft:string>, <minecraft:string>]
+	<betterwithaddons:wool:0> : [
+		[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 	],
 	<betterwithaddons:japanmat:8> : [
 		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <betterwithaddons:japanmat:36>]
@@ -191,9 +191,9 @@ static removeRecipes as IIngredient[] = [
 	<betterwithaddons:bolt:3>,
 	<betterwithaddons:bolt:6>,
 	<betterwithaddons:decomat:3>,
-	<betterwithaddons:loom>,
-	<betterwithaddons:redstone_emitter>,
-	<betterwithaddons:spindle>
+	<betterwithaddons:loom:0>,
+	<betterwithaddons:redstone_emitter:0>,
+	<betterwithaddons:spindle:0>
 ];
 
 function init() {

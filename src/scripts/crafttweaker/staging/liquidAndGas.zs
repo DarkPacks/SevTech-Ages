@@ -24,65 +24,65 @@ import scripts.crafttweaker.stages.stageFive;
 // Liquid "Items"
 static liquidItemsForStage as IItemStack[][string] = {
 	stageZero.stage: [
-		<primal:bitumen>,
-		<primal:bitumen_boiling>,
-		<primal:brine_netjry>,
-		<primal:magma_basaltic>,
-		<primal:ovis_atre_milk>,
-		<primal:paraffin>,
-		<primal:tannin>,
-		<primal:urushi>,
-		<primal:waste>,
-		<rustic:ale_wort>,
-		<rustic:apple_juice>,
-		<rustic:grape_juice>,
-		<rustic:honey>,
-		<rustic:ironberry_juice>,
-		<rustic:olive_oil>,
-		<rustic:wildberry_juice>,
-		<thebetweenlands:rubber>,
-		<thebetweenlands:stagnant_water>,
-		<thebetweenlands:swamp_water>,
-		<thebetweenlands:tar>
+		<primal:bitumen:0>,
+		<primal:bitumen_boiling:0>,
+		<primal:brine_netjry:0>,
+		<primal:magma_basaltic:0>,
+		<primal:ovis_atre_milk:0>,
+		<primal:paraffin:0>,
+		<primal:tannin:0>,
+		<primal:urushi:0>,
+		<primal:waste:0>,
+		<rustic:ale_wort:0>,
+		<rustic:apple_juice:0>,
+		<rustic:grape_juice:0>,
+		<rustic:honey:0>,
+		<rustic:ironberry_juice:0>,
+		<rustic:olive_oil:0>,
+		<rustic:wildberry_juice:0>,
+		<thebetweenlands:rubber:0>,
+		<thebetweenlands:stagnant_water:0>,
+		<thebetweenlands:swamp_water:0>,
+		<thebetweenlands:tar:0>
 	],
 
 	stageOne.stage: [
-		<abyssalcraft:antiwater>,
-		<abyssalcraft:cwater>,
-		<acintegration:moltenabyssalnite>,
-		<acintegration:moltencoralium>,
-		<acintegration:moltendreadium>
+		<abyssalcraft:antiwater:0>,
+		<abyssalcraft:cwater:0>,
+		<acintegration:moltenabyssalnite:0>,
+		<acintegration:moltencoralium:0>,
+		<acintegration:moltendreadium:0>
 	],
 
 	stageThree.stage: [
-		<car:glycerin>,
-		<cyclicmagic:milk>,
-		<cyclicmagic:poison>,
-		<cyclicmagic:xpjuice>,
-		<immersiveengineering:fluidbiodiesel>,
-		<immersiveengineering:fluidconcrete>,
-		<immersiveengineering:fluidcreosote>,
-		<immersiveengineering:fluidethanol>,
-		<immersiveengineering:fluidplantoil>,
-		<galacticraftcore:crude_oil_still>,
+		<car:glycerin:0>,
+		<cyclicmagic:milk:0>,
+		<cyclicmagic:poison:0>,
+		<cyclicmagic:xpjuice:0>,
+		<immersiveengineering:fluidbiodiesel:0>,
+		<immersiveengineering:fluidconcrete:0>,
+		<immersiveengineering:fluidcreosote:0>,
+		<immersiveengineering:fluidethanol:0>,
+		<immersiveengineering:fluidplantoil:0>,
+		<galacticraftcore:crude_oil_still:0>,
 		<pneumaticcraft:fluid.kerosene>
 	],
 
 	stageFour.stage: [
-		<car:bio_diesel>,
-		<car:canola_methanol_mix>,
-		<car:canola_oil>,
-		<car:methanol>,
-		<galacticraftcore:fuel>,
+		<car:bio_diesel:0>,
+		<car:canola_methanol_mix:0>,
+		<car:canola_oil:0>,
+		<car:methanol:0>,
+		<galacticraftcore:fuel:0>,
 		<pneumaticcraft:fluid.etchacid>,
 		<pneumaticcraft:fluid.lpg>
 	],
 
 	stageFive.stage: [
-		<actuallyadditions:block_canola_oil>,
-		<actuallyadditions:block_crystal_oil>,
-		<actuallyadditions:block_empowered_oil>,
-		<actuallyadditions:block_refined_canola_oil>
+		<actuallyadditions:block_canola_oil:0>,
+		<actuallyadditions:block_crystal_oil:0>,
+		<actuallyadditions:block_empowered_oil:0>,
+		<actuallyadditions:block_refined_canola_oil:0>
 	]
 };
 

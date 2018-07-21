@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageThree;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
-		<oeintegration:excavatemodifier>
+		<oeintegration:excavatemodifier:0>
 	]
 };
 

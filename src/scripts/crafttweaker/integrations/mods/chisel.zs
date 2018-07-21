@@ -13,8 +13,8 @@ function init() {
 	/*
 		Tinkers' Clear Glass
 	*/
-	Carving.addVariation("glass", <tconstruct:clear_glass>);
-	Carving.addVariation("glassdyedwhite", <tconstruct:clear_stained_glass>);
+	Carving.addVariation("glass", <tconstruct:clear_glass:0>);
+	Carving.addVariation("glassdyedwhite", <tconstruct:clear_stained_glass:0>);
 	Carving.addVariation("glassdyedorange", <tconstruct:clear_stained_glass:1>);
 	Carving.addVariation("glassdyedmagenta", <tconstruct:clear_stained_glass:2>);
 	Carving.addVariation("glassdyedlightblue", <tconstruct:clear_stained_glass:3>);
@@ -37,37 +37,37 @@ function init() {
 
 	// Add CragRock.
 	Carving.addGroup("cragrock");
-	Carving.addVariation("cragrock", <thebetweenlands:cragrock_chiseled>);
-	Carving.addVariation("cragrock", <thebetweenlands:cragrock_bricks>);
-	Carving.addVariation("cragrock", <thebetweenlands:cragrock_tiles>);
-	Carving.addVariation("cragrock", <thebetweenlands:smooth_cragrock>);
+	Carving.addVariation("cragrock", <thebetweenlands:cragrock_chiseled:0>);
+	Carving.addVariation("cragrock", <thebetweenlands:cragrock_bricks:0>);
+	Carving.addVariation("cragrock", <thebetweenlands:cragrock_tiles:0>);
+	Carving.addVariation("cragrock", <thebetweenlands:smooth_cragrock:0>);
 
 	// Add BetweenStone.
 	Carving.addGroup("betweenstone");
-	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_bricks>);
-	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_bricks_mirage>);
-	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_tiles>);
-	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_chiseled>);
-	Carving.addVariation("betweenstone", <thebetweenlands:cracked_betweenstone_bricks>);
-	Carving.addVariation("betweenstone", <thebetweenlands:cracked_betweenstone_tiles>);
-	Carving.addVariation("betweenstone", <thebetweenlands:smooth_betweenstone>);
-	Carving.addVariation("betweenstone", <thebetweenlands:weak_betweenstone_tiles>);
+	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_bricks:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_bricks_mirage:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_tiles:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:betweenstone_chiseled:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:cracked_betweenstone_bricks:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:cracked_betweenstone_tiles:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:smooth_betweenstone:0>);
+	Carving.addVariation("betweenstone", <thebetweenlands:weak_betweenstone_tiles:0>);
 
 	// Add PitStone.
 	Carving.addGroup("pitstone");
-	Carving.addVariation("pitstone", <thebetweenlands:pitstone_chiseled>);
-	Carving.addVariation("pitstone", <thebetweenlands:pitstone_bricks>);
-	Carving.addVariation("pitstone", <thebetweenlands:pitstone_tiles>);
-	Carving.addVariation("pitstone", <thebetweenlands:smooth_pitstone>);
+	Carving.addVariation("pitstone", <thebetweenlands:pitstone_chiseled:0>);
+	Carving.addVariation("pitstone", <thebetweenlands:pitstone_bricks:0>);
+	Carving.addVariation("pitstone", <thebetweenlands:pitstone_tiles:0>);
+	Carving.addVariation("pitstone", <thebetweenlands:smooth_pitstone:0>);
 
 	// Add the Limestone to the already Chisel one.
-	Carving.addVariation("limestone", <thebetweenlands:limestone>);
-	Carving.addVariation("limestone", <thebetweenlands:limestone_chiseled>);
-	Carving.addVariation("limestone", <thebetweenlands:cracked_limestone_bricks>);
-	Carving.addVariation("limestone", <thebetweenlands:limestone_bricks>);
-	Carving.addVariation("limestone", <thebetweenlands:limestone_tiles>);
-	Carving.addVariation("limestone", <thebetweenlands:polished_limestone>);
-	Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone>);
+	Carving.addVariation("limestone", <thebetweenlands:limestone:0>);
+	Carving.addVariation("limestone", <thebetweenlands:limestone_chiseled:0>);
+	Carving.addVariation("limestone", <thebetweenlands:cracked_limestone_bricks:0>);
+	Carving.addVariation("limestone", <thebetweenlands:limestone_bricks:0>);
+	Carving.addVariation("limestone", <thebetweenlands:limestone_tiles:0>);
+	Carving.addVariation("limestone", <thebetweenlands:polished_limestone:0>);
+	Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone:0>);
 
 	/*
 		Remove Iron Pane group

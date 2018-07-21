@@ -19,177 +19,177 @@ import scripts.crafttweaker.stages.stageFive;
 	Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<extraplanets:tier1_pressure_layer>: [
+	<extraplanets:tier1_pressure_layer:0>: [
 		[
 			[<minecraft:wool:*>, null, <minecraft:wool:*>],
-			[<galacticraftcore:oxygen_concentrator>, null, <galacticraftcore:oxygen_concentrator>],
+			[<galacticraftcore:oxygen_concentrator:0>, null, <galacticraftcore:oxygen_concentrator:0>],
 			[<minecraft:wool:*>, null, <minecraft:wool:*>]
 		]
 	],
-	<extraplanets:tier1_radiation_layer>: [
+	<extraplanets:tier1_radiation_layer:0>: [
 		[
 			[metals.lead.plate, <minecraft:wool:*>, metals.lead.plate],
 			[metals.lead.plate, null, metals.lead.plate],
 			[metals.lead.plate, <minecraft:wool:*>, metals.lead.plate]
 		]
 	],
-	<extraplanets:tier1_un_prepared_space_suit_helmet>: [
+	<extraplanets:tier1_un_prepared_space_suit_helmet:0>: [
 		[
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
+			[metals.aluminum.plate, <industrialforegoing:plastic:0>, metals.aluminum.plate],
 			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
 	],
-	<extraplanets:tier1_un_prepared_space_suit_chest>: [
+	<extraplanets:tier1_un_prepared_space_suit_chest:0>: [
 		[
 			[metals.aluminum.plate, null, metals.aluminum.plate],
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
+			[metals.aluminum.plate, <industrialforegoing:plastic:0>, metals.aluminum.plate],
 			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate]
 		]
 	],
-	<extraplanets:tier1_un_prepared_space_suit_legings>: [
+	<extraplanets:tier1_un_prepared_space_suit_legings:0>: [
 		[
-			[metals.aluminum.plate, <industrialforegoing:plastic>, metals.aluminum.plate],
+			[metals.aluminum.plate, <industrialforegoing:plastic:0>, metals.aluminum.plate],
 			[metals.aluminum.plate, null, metals.aluminum.plate],
 			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
 	],
-	<extraplanets:tier1_un_prepared_space_suit_boots>: [
+	<extraplanets:tier1_un_prepared_space_suit_boots:0>: [
 		[
-			[<industrialforegoing:plastic>, null, <industrialforegoing:plastic>],
+			[<industrialforegoing:plastic:0>, null, <industrialforegoing:plastic:0>],
 			[metals.aluminum.plate, null, metals.aluminum.plate]
 		]
 	],
-	<extraplanets:advanced_fuel_loader>: [
+	<extraplanets:advanced_fuel_loader:0>: [
 		[
 			[metals.nickel.ingot, metals.nickel.ingot, metals.nickel.ingot],
-			[metals.nickel.ingot, <galacticraftcore:fuel_loader>, metals.nickel.ingot],
+			[metals.nickel.ingot, <galacticraftcore:fuel_loader:0>, metals.nickel.ingot],
 			[<extraplanets:tier5_items:5>, <extraplanets:tier5_items:8>, <extraplanets:tier5_items:5>]
 		]
 	],
-	<extraplanets:fire_bomb>: [
+	<extraplanets:fire_bomb:0>: [
 		[
 			[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot],
 			[<ore:sand>, <extraplanets:tier5_items:11>, <ore:sand>],
 			[metals.uranium.ingot, <extraplanets:tier5_items:10>, metals.uranium.ingot]
 		]
 	],
-	<extraplanets:nuclear_bomb>: [
+	<extraplanets:nuclear_bomb:0>: [
 		[
-			[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>],
+			[<minecraft:gunpowder:0>, <ore:sand>, <minecraft:gunpowder:0>],
 			[<ore:sand>, metals.uranium.ingot, <ore:sand>],
-			[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>]
+			[<minecraft:gunpowder:0>, <ore:sand>, <minecraft:gunpowder:0>]
 		]
 	],
-	<extraplanets:tier1_space_suit_gravity_boots>: [
+	<extraplanets:tier1_space_suit_gravity_boots:0>: [
 		[
-			[null, <extraplanets:gravity_controller>, null],
-			[<extraplanets:gravity_controller>, <extraplanets:tier1_space_suit_boots>, <extraplanets:gravity_controller>],
-			[null, <extraplanets:gravity_controller>, null]
+			[null, <extraplanets:gravity_controller:0>, null],
+			[<extraplanets:gravity_controller:0>, <extraplanets:tier1_space_suit_boots:0>, <extraplanets:gravity_controller:0>],
+			[null, <extraplanets:gravity_controller:0>, null]
 		]
 	],
-	<extraplanets:tier2_space_suit_helmet>: [
+	<extraplanets:tier2_space_suit_helmet:0>: [
 		[
-			[null, <extraplanets:tier2_armor_layer>, null],
-			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_helmet>, <extraplanets:tier2_pressure_layer>],
-			[null, <extraplanets:tier2_armor_layer>, null]
+			[null, <extraplanets:tier2_armor_layer:0>, null],
+			[<extraplanets:tier2_radiation_layer:0>, <extraplanets:tier2_un_prepared_space_suit_helmet:0>, <extraplanets:tier2_pressure_layer:0>],
+			[null, <extraplanets:tier2_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier2_space_suit_chest>: [
+	<extraplanets:tier2_space_suit_chest:0>: [
 		[
-			[null, <extraplanets:tier2_armor_layer>, null],
-			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_chest>, <extraplanets:tier2_pressure_layer>],
-			[null, <extraplanets:tier2_armor_layer>, null]
+			[null, <extraplanets:tier2_armor_layer:0>, null],
+			[<extraplanets:tier2_radiation_layer:0>, <extraplanets:tier2_un_prepared_space_suit_chest:0>, <extraplanets:tier2_pressure_layer:0>],
+			[null, <extraplanets:tier2_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier2_space_suit_legings>: [
+	<extraplanets:tier2_space_suit_legings:0>: [
 		[
-			[null, <extraplanets:tier2_armor_layer>, null],
-			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_legings>, <extraplanets:tier2_pressure_layer>],
-			[null, <extraplanets:tier2_armor_layer>, null]
+			[null, <extraplanets:tier2_armor_layer:0>, null],
+			[<extraplanets:tier2_radiation_layer:0>, <extraplanets:tier2_un_prepared_space_suit_legings:0>, <extraplanets:tier2_pressure_layer:0>],
+			[null, <extraplanets:tier2_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier2_space_suit_boots>: [
+	<extraplanets:tier2_space_suit_boots:0>: [
 		[
-			[null, <extraplanets:tier2_armor_layer>, null],
-			[<extraplanets:tier2_radiation_layer>, <extraplanets:tier2_un_prepared_space_suit_boots>, <extraplanets:tier2_pressure_layer>],
-			[null, <extraplanets:tier2_armor_layer>, null]
+			[null, <extraplanets:tier2_armor_layer:0>, null],
+			[<extraplanets:tier2_radiation_layer:0>, <extraplanets:tier2_un_prepared_space_suit_boots:0>, <extraplanets:tier2_pressure_layer:0>],
+			[null, <extraplanets:tier2_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier2_space_suit_gravity_boots>: [
+	<extraplanets:tier2_space_suit_gravity_boots:0>: [
 		[
-			[null, <extraplanets:gravity_controller>, null],
-			[<extraplanets:gravity_controller>, <extraplanets:tier2_space_suit_boots>, <extraplanets:gravity_controller>],
-			[null, <extraplanets:gravity_controller>, null]
+			[null, <extraplanets:gravity_controller:0>, null],
+			[<extraplanets:gravity_controller:0>, <extraplanets:tier2_space_suit_boots:0>, <extraplanets:gravity_controller:0>],
+			[null, <extraplanets:gravity_controller:0>, null]
 		]
 	],
-	<extraplanets:tier3_space_suit_helmet>: [
+	<extraplanets:tier3_space_suit_helmet:0>: [
 		[
-			[null, <extraplanets:tier3_armor_layer>, null],
-			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_helmet>, <extraplanets:tier3_pressure_layer>],
-			[null, <extraplanets:tier3_armor_layer>, null]
+			[null, <extraplanets:tier3_armor_layer:0>, null],
+			[<extraplanets:tier3_radiation_layer:0>, <extraplanets:tier3_un_prepared_space_suit_helmet:0>, <extraplanets:tier3_pressure_layer:0>],
+			[null, <extraplanets:tier3_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier3_space_suit_chest>: [
+	<extraplanets:tier3_space_suit_chest:0>: [
 		[
-			[null, <extraplanets:tier3_armor_layer>, null],
-			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_chest>, <extraplanets:tier3_pressure_layer>],
-			[null, <extraplanets:tier3_armor_layer>, null]
+			[null, <extraplanets:tier3_armor_layer:0>, null],
+			[<extraplanets:tier3_radiation_layer:0>, <extraplanets:tier3_un_prepared_space_suit_chest:0>, <extraplanets:tier3_pressure_layer:0>],
+			[null, <extraplanets:tier3_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier3_space_suit_legings>: [
+	<extraplanets:tier3_space_suit_legings:0>: [
 		[
-			[null, <extraplanets:tier3_armor_layer>, null],
-			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_legings>, <extraplanets:tier3_pressure_layer>],
-			[null, <extraplanets:tier3_armor_layer>, null]
+			[null, <extraplanets:tier3_armor_layer:0>, null],
+			[<extraplanets:tier3_radiation_layer:0>, <extraplanets:tier3_un_prepared_space_suit_legings:0>, <extraplanets:tier3_pressure_layer:0>],
+			[null, <extraplanets:tier3_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier3_space_suit_boots>: [
+	<extraplanets:tier3_space_suit_boots:0>: [
 		[
-			[null, <extraplanets:tier3_armor_layer>, null],
-			[<extraplanets:tier3_radiation_layer>, <extraplanets:tier3_un_prepared_space_suit_boots>, <extraplanets:tier3_pressure_layer>],
-			[null, <extraplanets:tier3_armor_layer>, null]
+			[null, <extraplanets:tier3_armor_layer:0>, null],
+			[<extraplanets:tier3_radiation_layer:0>, <extraplanets:tier3_un_prepared_space_suit_boots:0>, <extraplanets:tier3_pressure_layer:0>],
+			[null, <extraplanets:tier3_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier3_space_suit_gravity_boots>: [
+	<extraplanets:tier3_space_suit_gravity_boots:0>: [
 		[
-			[null, <extraplanets:gravity_controller>, null],
-			[<extraplanets:gravity_controller>, <extraplanets:tier3_space_suit_boots>, <extraplanets:gravity_controller>],
-			[null, <extraplanets:gravity_controller>, null]
+			[null, <extraplanets:gravity_controller:0>, null],
+			[<extraplanets:gravity_controller:0>, <extraplanets:tier3_space_suit_boots:0>, <extraplanets:gravity_controller:0>],
+			[null, <extraplanets:gravity_controller:0>, null]
 		]
 	],
-	<extraplanets:tier4_space_suit_helmet>: [
+	<extraplanets:tier4_space_suit_helmet:0>: [
 		[
-			[null, <extraplanets:tier4_armor_layer>, null],
-			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_helmet>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier4_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer:0>, null],
+			[<extraplanets:tier4_radiation_layer:0>, <extraplanets:tier4_un_prepared_space_suit_helmet:0>, <extraplanets:tier4_pressure_layer:0>],
+			[null, <extraplanets:tier4_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier4_space_suit_chest>: [
+	<extraplanets:tier4_space_suit_chest:0>: [
 		[
-			[null, <extraplanets:tier4_armor_layer>, null],
-			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_chest>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier4_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer:0>, null],
+			[<extraplanets:tier4_radiation_layer:0>, <extraplanets:tier4_un_prepared_space_suit_chest:0>, <extraplanets:tier4_pressure_layer:0>],
+			[null, <extraplanets:tier4_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier4_space_suit_legings>: [
+	<extraplanets:tier4_space_suit_legings:0>: [
 		[
-			[null, <extraplanets:tier4_armor_layer>, null],
-			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_legings>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier4_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer:0>, null],
+			[<extraplanets:tier4_radiation_layer:0>, <extraplanets:tier4_un_prepared_space_suit_legings:0>, <extraplanets:tier4_pressure_layer:0>],
+			[null, <extraplanets:tier4_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier4_space_suit_boots>: [
+	<extraplanets:tier4_space_suit_boots:0>: [
 		[
-			[null, <extraplanets:tier4_armor_layer>, null],
-			[<extraplanets:tier4_radiation_layer>, <extraplanets:tier4_un_prepared_space_suit_boots>, <extraplanets:tier4_pressure_layer>],
-			[null, <extraplanets:tier4_armor_layer>, null]
+			[null, <extraplanets:tier4_armor_layer:0>, null],
+			[<extraplanets:tier4_radiation_layer:0>, <extraplanets:tier4_un_prepared_space_suit_boots:0>, <extraplanets:tier4_pressure_layer:0>],
+			[null, <extraplanets:tier4_armor_layer:0>, null]
 		]
 	],
-	<extraplanets:tier4_space_suit_gravity_boots>: [
+	<extraplanets:tier4_space_suit_gravity_boots:0>: [
 		[
-			[null, <extraplanets:gravity_controller>, null],
-			[<extraplanets:gravity_controller>, <extraplanets:tier4_space_suit_boots>, <extraplanets:gravity_controller>],
-			[null, <extraplanets:gravity_controller>, null]
+			[null, <extraplanets:gravity_controller:0>, null],
+			[<extraplanets:gravity_controller:0>, <extraplanets:tier4_space_suit_boots:0>, <extraplanets:gravity_controller:0>],
+			[null, <extraplanets:gravity_controller:0>, null]
 		]
 	]
 };
@@ -201,27 +201,27 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<extraplanets:tier1_space_suit_helmet:0>.withTag({electricity: 50000.0f}): {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_helmet:0>): [
 			[
-				[null, <extraplanets:tier1_armor_layer>, null],
-				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_helmet>, <extraplanets:tier1_pressure_layer>],
-				[null, <extraplanets:tier1_armor_layer>, null]
+				[null, <extraplanets:tier1_armor_layer:0>, null],
+				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_helmet:0>, <extraplanets:tier1_pressure_layer:0>],
+				[null, <extraplanets:tier1_armor_layer:0>, null]
 			]
 		]
 	},
 	<extraplanets:tier1_space_suit_legings:0>.withTag({electricity: 50000.0f}): {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_legings:0>): [
 			[
-				[null, <extraplanets:tier1_armor_layer>, null],
-				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_legings>, <extraplanets:tier1_pressure_layer>],
-				[null, <extraplanets:tier1_armor_layer>, null]
+				[null, <extraplanets:tier1_armor_layer:0>, null],
+				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_legings:0>, <extraplanets:tier1_pressure_layer:0>],
+				[null, <extraplanets:tier1_armor_layer:0>, null]
 			]
 		]
 	},
 	<extraplanets:tier1_space_suit_boots:0>.withTag({electricity: 50000.0f}): {
 		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_boots:0>): [
 			[
-				[null, <extraplanets:tier1_armor_layer>, null],
-				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_boots>, <extraplanets:tier1_pressure_layer>],
-				[null, <extraplanets:tier1_armor_layer>, null]
+				[null, <extraplanets:tier1_armor_layer:0>, null],
+				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_boots:0>, <extraplanets:tier1_pressure_layer:0>],
+				[null, <extraplanets:tier1_armor_layer:0>, null]
 			]
 		]
 	},
@@ -232,9 +232,9 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
 		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
 			[
-				[null, <extraplanets:tier1_armor_layer>, null],
-				[<extraplanets:tier1_radiation_layer>, <extraplanets:tier1_un_prepared_space_suit_chest>, <extraplanets:tier1_pressure_layer>],
-				[null, <extraplanets:tier1_armor_layer>, null]
+				[null, <extraplanets:tier1_armor_layer:0>, null],
+				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_chest:0>, <extraplanets:tier1_pressure_layer:0>],
+				[null, <extraplanets:tier1_armor_layer:0>, null]
 			]
 		]
 	}
@@ -262,36 +262,36 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
-	<extraplanets:advanced_fuel_loader>,
-	<extraplanets:apple_iron>,
-	<extraplanets:fire_bomb>,
-	<extraplanets:nuclear_bomb>,
-	<extraplanets:tier1_pressure_layer>,
-	<extraplanets:tier1_radiation_layer>,
-	<extraplanets:tier1_space_suit_boots>,
-	<extraplanets:tier1_space_suit_chest>,
-	<extraplanets:tier1_space_suit_gravity_boots>,
-	<extraplanets:tier1_space_suit_helmet>,
-	<extraplanets:tier1_space_suit_legings>,
-	<extraplanets:tier1_un_prepared_space_suit_boots>,
-	<extraplanets:tier1_un_prepared_space_suit_chest>,
-	<extraplanets:tier1_un_prepared_space_suit_helmet>,
-	<extraplanets:tier1_un_prepared_space_suit_legings>,
-	<extraplanets:tier2_space_suit_boots>,
-	<extraplanets:tier2_space_suit_chest>,
-	<extraplanets:tier2_space_suit_gravity_boots>,
-	<extraplanets:tier2_space_suit_helmet>,
-	<extraplanets:tier2_space_suit_legings>,
-	<extraplanets:tier3_space_suit_boots>,
-	<extraplanets:tier3_space_suit_chest>,
-	<extraplanets:tier3_space_suit_gravity_boots>,
-	<extraplanets:tier3_space_suit_helmet>,
-	<extraplanets:tier3_space_suit_legings>,
-	<extraplanets:tier4_space_suit_boots>,
-	<extraplanets:tier4_space_suit_chest>,
-	<extraplanets:tier4_space_suit_gravity_boots>,
-	<extraplanets:tier4_space_suit_helmet>,
-	<extraplanets:tier4_space_suit_legings>
+	<extraplanets:advanced_fuel_loader:0>,
+	<extraplanets:apple_iron:0>,
+	<extraplanets:fire_bomb:0>,
+	<extraplanets:nuclear_bomb:0>,
+	<extraplanets:tier1_pressure_layer:0>,
+	<extraplanets:tier1_radiation_layer:0>,
+	<extraplanets:tier1_space_suit_boots:0>,
+	<extraplanets:tier1_space_suit_chest:0>,
+	<extraplanets:tier1_space_suit_gravity_boots:0>,
+	<extraplanets:tier1_space_suit_helmet:0>,
+	<extraplanets:tier1_space_suit_legings:0>,
+	<extraplanets:tier1_un_prepared_space_suit_boots:0>,
+	<extraplanets:tier1_un_prepared_space_suit_chest:0>,
+	<extraplanets:tier1_un_prepared_space_suit_helmet:0>,
+	<extraplanets:tier1_un_prepared_space_suit_legings:0>,
+	<extraplanets:tier2_space_suit_boots:0>,
+	<extraplanets:tier2_space_suit_chest:0>,
+	<extraplanets:tier2_space_suit_gravity_boots:0>,
+	<extraplanets:tier2_space_suit_helmet:0>,
+	<extraplanets:tier2_space_suit_legings:0>,
+	<extraplanets:tier3_space_suit_boots:0>,
+	<extraplanets:tier3_space_suit_chest:0>,
+	<extraplanets:tier3_space_suit_gravity_boots:0>,
+	<extraplanets:tier3_space_suit_helmet:0>,
+	<extraplanets:tier3_space_suit_legings:0>,
+	<extraplanets:tier4_space_suit_boots:0>,
+	<extraplanets:tier4_space_suit_chest:0>,
+	<extraplanets:tier4_space_suit_gravity_boots:0>,
+	<extraplanets:tier4_space_suit_helmet:0>,
+	<extraplanets:tier4_space_suit_legings:0>
 ];
 
 static removeRegex as string[] = [
@@ -300,7 +300,7 @@ static removeRegex as string[] = [
 ];
 
 static removeFurnace as IIngredient[] = [
-	<extraplanets:ingot_mercury>,
+	<extraplanets:ingot_mercury:0>,
 	<extraplanets:tier10_items:5>,
 	<extraplanets:tier11_items:1>,
 	<extraplanets:tier11_items:1>,
@@ -308,7 +308,7 @@ static removeFurnace as IIngredient[] = [
 	<extraplanets:tier11_items:3>,
 	<extraplanets:tier11_items:4>,
 	<extraplanets:tier11_items:5>,
-	<extraplanets:tier11_items>,
+	<extraplanets:tier11_items:0>,
 	<extraplanets:tier4_items:5>,
 	<extraplanets:tier5_items:5>,
 	<extraplanets:tier5_items:8>,

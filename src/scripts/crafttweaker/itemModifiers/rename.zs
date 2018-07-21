@@ -10,7 +10,7 @@
 import crafttweaker.item.IItemStack;
 
 static renameMap as string[IItemStack] = {
-	<primal:hide_tanned>: "Wet Tanned Hide",
+	<primal:hide_tanned:0>: "Wet Tanned Hide",
 
 	<betterwithaddons:japanmat:4>: "Rice Flour",
 
@@ -18,11 +18,11 @@ static renameMap as string[IItemStack] = {
 
 	<totemic:sub_items:1>: "Jingles",
 
-	<primal:plant_fiber_pulp>: "Pulp",
+	<primal:plant_fiber_pulp:0>: "Pulp",
 
-	<primal:golden_stick>: "Golden Rod",
+	<primal:golden_stick:0>: "Golden Rod",
 
-	<betterbuilderswands:wanddiamond>: "Platinum Wand",
+	<betterbuilderswands:wanddiamond:0>: "Platinum Wand",
 
 	//Space Platinum
 	<extraplanets:kepler22b:14>: "Block of Space Platinum",
@@ -30,9 +30,9 @@ static renameMap as string[IItemStack] = {
 	<extraplanets:tier11_items:6>: "§9Compressed Space Platinum",
 
 	//Chisel & Bits
-	<chiselsandbits:chisel_iron>: "Bit Chisel",
+	<chiselsandbits:chisel_iron:0>: "Bit Chisel",
 
-	<extraplanets:apple_iron>: "JourneyMap Token"
+	<extraplanets:apple_iron:0>: "JourneyMap Token"
 };
 
 function init() {

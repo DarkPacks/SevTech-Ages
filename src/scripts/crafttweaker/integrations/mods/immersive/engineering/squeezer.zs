@@ -10,5 +10,5 @@
 import mods.immersiveengineering.Squeezer;
 
 function init() {
-	Squeezer.removeItemRecipe(<minecraft:leather>); // Remove Rotten Flesh -> Leather
+	Squeezer.removeItemRecipe(<minecraft:leather:0>); // Remove Rotten Flesh -> Leather
 }

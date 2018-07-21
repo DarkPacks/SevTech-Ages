@@ -53,14 +53,14 @@ function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
 function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack {
 	var data as IData = null;
 
-	if (bucket.matches(<ceramics:clay_bucket>)) {
+	if (bucket.matches(<ceramics:clay_bucket:0>)) {
 		data = {
 			fluids: {
 				FluidName: liquidName,
 				Amount: 1000
 			}
 		};
-	} else if (bucket.matches(<thebetweenlands:bl_bucket:1>) | bucket.matches(<thebetweenlands:bl_bucket>)) {
+	} else if (bucket.matches(<thebetweenlands:bl_bucket:1>) | bucket.matches(<thebetweenlands:bl_bucket:0>)) {
 		data = {
 			Fluid: {
 				FluidName: liquidName,
@@ -77,11 +77,11 @@ function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack 
 	// Minecraft unique buckets
 	if (bucket.definition.owner == "forge") {
 		if (liquidName == "lava") {
-			return <minecraft:lava_bucket>;
+			return <minecraft:lava_bucket:0>;
 		} else if (liquidName == "milk") {
-			return <minecraft:milk_bucket>;
+			return <minecraft:milk_bucket:0>;
 		} else if (liquidName == "water") {
-			return <minecraft:water_bucket>;
+			return <minecraft:water_bucket:0>;
 		}
 	}
 
@@ -200,7 +200,7 @@ function getFluidAmount(metalPartName as string) as int {
 }
 function getCast(metalPartName as string) as IItemStack {
 	if (metalPartName == "ingot") {
-		return <tconstruct:cast_custom>;
+		return <tconstruct:cast_custom:0>;
 	} else if (metalPartName == "gear") {
 		return <tconstruct:cast_custom:4>;
 	} else if (metalPartName == "plate") {
@@ -213,7 +213,7 @@ function getCast(metalPartName as string) as IItemStack {
 }
 function getMold(metalPartName as string) as IItemStack {
 	if (metalPartName == "plate") {
-		return <immersiveengineering:mold>;
+		return <immersiveengineering:mold:0>;
 	} else if (metalPartName == "gear") {
 		return <immersiveengineering:mold:1>;
 	} else if (metalPartName == "rod") {

@@ -25,12 +25,12 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {};
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
-	<antiqueatlas:empty_antique_atlas>: {
-		Utils.genRecipeName(stageOne, <antiqueatlas:empty_antique_atlas>): [
+	<antiqueatlas:empty_antique_atlas:0>: {
+		Utils.genRecipeName(stageOne, <antiqueatlas:empty_antique_atlas:0>): [
 			[
-				[<minecraft:leather>, <primal:plant_cloth>, null],
-				[<minecraft:leather>, <primal:plant_cloth>, null],
-				[<minecraft:leather>, <primal:plant_cloth>, null]
+				[<minecraft:leather:0>, <primal:plant_cloth:0>, null],
+				[<minecraft:leather:0>, <primal:plant_cloth:0>, null],
+				[<minecraft:leather:0>, <primal:plant_cloth:0>, null]
 			]
 		]
 	}
@@ -54,7 +54,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<antiqueatlas:empty_antique_atlas>
+	<antiqueatlas:empty_antique_atlas:0>
 ];
 
 function init() {

@@ -22,7 +22,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		Utils.genRecipeName(stageOne, "bronze_gear"): [
 			[
 				[null, metals.bronze.plate, null],
-				[metals.bronze.plate, <teslacorelib:gear_stone>, metals.bronze.plate],
+				[metals.bronze.plate, <teslacorelib:gear_stone:0>, metals.bronze.plate],
 				[null, metals.bronze.plate, null]
 			]
 		]
@@ -31,7 +31,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		Utils.genRecipeName(stageOne, "tin_gear"): [
 			[
 				[null, metals.tin.plate, null],
-				[metals.tin.plate, <teslacorelib:gear_stone>, metals.tin.plate],
+				[metals.tin.plate, <teslacorelib:gear_stone:0>, metals.tin.plate],
 				[null, metals.tin.plate, null]
 			]
 		]
@@ -40,7 +40,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		Utils.genRecipeName(stageOne, "copper_gear"): [
 			[
 				[null, metals.copper.plate, null],
-				[metals.copper.plate, <teslacorelib:gear_stone>, metals.copper.plate],
+				[metals.copper.plate, <teslacorelib:gear_stone:0>, metals.copper.plate],
 				[null, metals.copper.plate, null]
 			]
 		]

@@ -7,26 +7,26 @@ import scripts.crafttweaker.stages.stageThree;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<nex:food_meat_ghast_cooked>,
-		<nex:food_meat_ghast_raw>,
-		<nex:tool_axe_bone>,
-		<nex:tool_hammer_bone>,
-		<nex:tool_hoe_bone>,
-		<nex:tool_pickaxe_bone>,
-		<nex:tool_shovel_bone>,
-		<nex:tool_sword_bone>
+		<nex:food_meat_ghast_cooked:0>,
+		<nex:food_meat_ghast_raw:0>,
+		<nex:tool_axe_bone:0>,
+		<nex:tool_hammer_bone:0>,
+		<nex:tool_hoe_bone:0>,
+		<nex:tool_pickaxe_bone:0>,
+		<nex:tool_shovel_bone:0>,
+		<nex:tool_sword_bone:0>
 	],
 
 	stageThree.stage: [
 		<nex:slab_basalt_double:1>,
 		<nex:slab_basalt_double:2>,
 		<nex:slab_basalt_double:3>,
-		<nex:slab_basalt_double>,
+		<nex:slab_basalt_double:0>,
 		<nex:slab_brick_nether_double:1>,
 		<nex:slab_brick_nether_double:2>,
 		<nex:slab_brick_nether_double:3>,
-		<nex:slab_brick_nether_double>,
-		<nex:slab_vanilla_double>
+		<nex:slab_brick_nether_double:0>,
+		<nex:slab_vanilla_double:0>
 	]
 };
 

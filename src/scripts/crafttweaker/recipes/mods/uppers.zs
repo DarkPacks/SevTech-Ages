@@ -23,11 +23,11 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<uppers:upper> : [
+	<uppers:upper:0> : [
 		[
 			[null, metals.iron.plate, null],
 			[metals.iron.plate, metals.bronze.gear, metals.iron.plate],
-			[metals.iron.plate, <minecraft:chest>, metals.iron.plate]
+			[metals.iron.plate, <minecraft:chest:0>, metals.iron.plate]
 		]
 	]
 };
@@ -45,8 +45,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<uppers:upper> : [
-		[<minecraft:hopper>]
+	<uppers:upper:0> : [
+		[<minecraft:hopper:0>]
 	]
 };
 
@@ -56,7 +56,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<uppers:upper>
+	<uppers:upper:0>
 ];
 
 function init() {

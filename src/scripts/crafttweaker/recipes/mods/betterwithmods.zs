@@ -25,24 +25,24 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<betterwithmods:material> : [
+	<betterwithmods:material:0> : [
 		[
-			[<totemic:buffalo_items:1>, <totemic:cedar_plank>, <totemic:buffalo_items:1>],
-			[<totemic:cedar_plank>, null, <totemic:cedar_plank>],
-			[<totemic:buffalo_items:1>, <totemic:cedar_plank>, <totemic:buffalo_items:1>]
+			[<totemic:buffalo_items:1>, <totemic:cedar_plank:0>, <totemic:buffalo_items:1>],
+			[<totemic:cedar_plank:0>, null, <totemic:cedar_plank:0>],
+			[<totemic:buffalo_items:1>, <totemic:cedar_plank:0>, <totemic:buffalo_items:1>]
 		]
 	],
-	<betterwithmods:wicker> : [
+	<betterwithmods:wicker:0> : [
 		[
-			[<minecraft:reeds>, <minecraft:reeds>],
-			[<minecraft:reeds>, <minecraft:reeds>]
+			[<minecraft:reeds:0>, <minecraft:reeds:0>],
+			[<minecraft:reeds:0>, <minecraft:reeds:0>]
 		]
 	],
-	<betterwithmods:shaft> : [
+	<betterwithmods:shaft:0> : [
 		[
-			[<ore:stickWood>.firstItem, <primal:plant_cordage>],
-			[<ore:stickWood>.firstItem, <primal:plant_cordage>],
-			[<ore:stickWood>.firstItem, <primal:plant_cordage>]
+			[<ore:stickWood>.firstItem, <primal:plant_cordage:0>],
+			[<ore:stickWood>.firstItem, <primal:plant_cordage:0>],
+			[<ore:stickWood>.firstItem, <primal:plant_cordage:0>]
 		]
 	],
 	<betterwithmods:axle_generator:1> : [
@@ -77,49 +77,49 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.tin.rod, metals.tin.rod, null]
 		]
 	],
-	<betterwithmods:rope> : [
+	<betterwithmods:rope:0> : [
 		[
 			[<betterwithmods:material:3>, <betterwithmods:material:3>],
 			[<betterwithmods:material:3>, <betterwithmods:material:3>],
 			[<betterwithmods:material:3>, <betterwithmods:material:3>]
 		]
 	],
-	<betterwithmods:saw> : [
+	<betterwithmods:saw:0> : [
 		[[null, <primal_tech:flint_edged_disc>, null], [metals.copper.gear, <betterwithmods:material:9>, metals.copper.gear], [<ore:plankWood>, metals.bronze.gear, <ore:plankWood>]]
 	],
 	<betterwithmods:single_machine:3> : [
-		[[sidingWood, sidingWood, sidingWood], [<minecraft:stone>, metals.copper.gear, <minecraft:stone>], [<minecraft:stone>, <betterwithmods:wooden_axle>, <minecraft:stone>]]
+		[[sidingWood, sidingWood, sidingWood], [<minecraft:stone:0>, metals.copper.gear, <minecraft:stone:0>], [<minecraft:stone:0>, <betterwithmods:wooden_axle:0>, <minecraft:stone:0>]]
 	],
-	<betterwithmods:wooden_axle> : [
-		[[null, <ore:stickWood>.firstItem, null], [<betterwithmods:rope>, <actuallyadditions:item_misc:5>, <betterwithmods:rope>], [null, <ore:stickWood>.firstItem, null]]
+	<betterwithmods:wooden_axle:0> : [
+		[[null, <ore:stickWood>.firstItem, null], [<betterwithmods:rope:0>, <actuallyadditions:item_misc:5>, <betterwithmods:rope:0>], [null, <ore:stickWood>.firstItem, null]]
 	],
-	<betterwithmods:wooden_gearbox> : [
+	<betterwithmods:wooden_gearbox:0> : [
 		[
-			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>],
-			[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
-			[<ore:thinWood>, <betterwithmods:material>, <ore:thinWood>]
+			[<ore:thinWood>, <betterwithmods:material:0>, <ore:thinWood>],
+			[metals.bronze.plate, <betterwithmods:wooden_axle:0>, metals.bronze.plate],
+			[<ore:thinWood>, <betterwithmods:material:0>, <ore:thinWood>]
 		],
 		[
-			[null, <betterwithmods:material>, null],
-			[null, <betterwithmods:wooden_broken_gearbox>, null],
-			[null, <betterwithmods:material>, null]
+			[null, <betterwithmods:material:0>, null],
+			[null, <betterwithmods:wooden_broken_gearbox:0>, null],
+			[null, <betterwithmods:material:0>, null]
 		]
 	],
-	<betterwithmods:bellows> : [
+	<betterwithmods:bellows:0> : [
 		[
 			[sidingWood, sidingWood, sidingWood],
 			[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>],
 			[<ore:hideBelt>, <ore:gearWood>, <ore:hideBelt>]
 		]
 	],
-	<betterwithmods:breeding_harness> : [
+	<betterwithmods:breeding_harness:0> : [
 		[
-			[<ore:cordageLeather>, <minecraft:leather>, <ore:cordageLeather>],
-			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-			[<ore:cordageLeather>, <minecraft:leather>, <ore:cordageLeather>]
+			[<ore:cordageLeather>, <minecraft:leather:0>, <ore:cordageLeather>],
+			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>],
+			[<ore:cordageLeather>, <minecraft:leather:0>, <ore:cordageLeather>]
 		]
 	],
-	<betterwithmods:material> : [
+	<betterwithmods:material:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
 			[<ore:plankWood>, <betterwithmods:material:12>, <ore:plankWood>],
@@ -128,8 +128,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:aesthetic:12> : [
 		[
-			[<betterwithmods:wicker>, <betterwithmods:wicker>],
-			[<betterwithmods:wicker>, <betterwithmods:wicker>]
+			[<betterwithmods:wicker:0>, <betterwithmods:wicker:0>],
+			[<betterwithmods:wicker:0>, <betterwithmods:wicker:0>]
 		]
 	],
 	<betterwithmods:material:36> : [
@@ -139,14 +139,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, mouldingWood, null]
 		]
 	],
-	<betterwithmods:ender_spectacles> : [
+	<betterwithmods:ender_spectacles:0> : [
 		[
 			[null, null, null],
 			[<betterwithmods:material:40>, <ore:cordageLeather>, <betterwithmods:material:40>],
 			[null, null, null]
 		]
 	],
-	<betterwithmods:anchor> : [
+	<betterwithmods:anchor:0> : [
 		[
 			[null, metals.iron.plate, null],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
@@ -154,7 +154,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:material:34>: [
 		[
-			[<minecraft:lever>, null],
+			[<minecraft:lever:0>, null],
 			[metals.gold.plate, null]
 		]
 	],
@@ -167,12 +167,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:material:8>: [
 		[
-			[null, null, <primal:leather_strip>],
-			[null, <primal:leather_strip>, null],
-			[<primal:leather_strip>, null, null]
+			[null, null, <primal:leather_strip:0>],
+			[null, <primal:leather_strip:0>, null],
+			[<primal:leather_strip:0>, null, null]
 		]
 	],
-	<betterwithmods:rope> : [
+	<betterwithmods:rope:0> : [
 		[
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
 			[<immersiveengineering:material:4>, <immersiveengineering:material:4>],
@@ -186,11 +186,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:cordageLeather>, null]
 		]
 	],
-	<betterwithmods:single_machine>: [
+	<betterwithmods:single_machine:0>: [
 		[
-			[<minecraft:stone>, <minecraft:stone_slab>, <minecraft:stone>],
-			[<minecraft:stone>, <horsepower:hand_grindstone>, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:stone:0>, <minecraft:stone_slab:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <horsepower:hand_grindstone:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	]
 };
@@ -199,21 +199,21 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	// ==================================
 	// Stage Two
 	// ==================================
-	<betterwithmods:wooden_axle> : {
-		Utils.genRecipeName(stageTwo, <betterwithmods:wooden_axle>): [
+	<betterwithmods:wooden_axle:0> : {
+		Utils.genRecipeName(stageTwo, <betterwithmods:wooden_axle:0>): [
 			[
 				[null, mouldingWood, null],
-				[null, <betterwithmods:rope>, null],
+				[null, <betterwithmods:rope:0>, null],
 				[null, mouldingWood, null]
 			]
 		]
 	},
-	<betterwithmods:wooden_gearbox> : {
-		Utils.genRecipeName(stageTwo, <betterwithmods:wooden_gearbox>): [
+	<betterwithmods:wooden_gearbox:0> : {
+		Utils.genRecipeName(stageTwo, <betterwithmods:wooden_gearbox:0>): [
 			[
-				[mouldingWood, <betterwithmods:material>, mouldingWood],
-				[metals.bronze.plate, <betterwithmods:wooden_axle>, metals.bronze.plate],
-				[mouldingWood, <betterwithmods:material>, mouldingWood]
+				[mouldingWood, <betterwithmods:material:0>, mouldingWood],
+				[metals.bronze.plate, <betterwithmods:wooden_axle:0>, metals.bronze.plate],
+				[mouldingWood, <betterwithmods:material:0>, mouldingWood]
 			]
 		]
 	}
@@ -232,10 +232,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<betterwithmods:manual> : [
-		[<primal:plant_cloth>, <betterwithmods:material>]
+	<betterwithmods:manual:0> : [
+		[<primal:plant_cloth:0>, <betterwithmods:material:0>]
 	],
-	<betterwithmods:rope> * 9: [
+	<betterwithmods:rope:0> * 9: [
 		[<betterwithmods:aesthetic:4>]
 	]
 };
@@ -250,23 +250,23 @@ static removeRecipes as IIngredient[] = [
 	<betterwithmods:aesthetic:8>,
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:axle_generator:1>,
-	<betterwithmods:bellows>,
+	<betterwithmods:bellows:0>,
 	<betterwithmods:cooking_pot:1>,
-	<betterwithmods:manual>,
+	<betterwithmods:manual:0>,
 	<betterwithmods:material:10>,
 	<betterwithmods:material:24>,
 	<betterwithmods:material:36>,
 	<betterwithmods:material:8>,
 	<betterwithmods:material:9>,
-	<betterwithmods:material>,
-	<betterwithmods:rope>,
-	<betterwithmods:saw>,
-	<betterwithmods:shaft>,
+	<betterwithmods:material:0>,
+	<betterwithmods:rope:0>,
+	<betterwithmods:saw:0>,
+	<betterwithmods:shaft:0>,
 	<betterwithmods:single_machine:3>,
-	<betterwithmods:single_machine>,
-	<betterwithmods:wicker>,
-	<betterwithmods:wooden_axle>,
-	<betterwithmods:wooden_gearbox>
+	<betterwithmods:single_machine:0>,
+	<betterwithmods:wicker:0>,
+	<betterwithmods:wooden_axle:0>,
+	<betterwithmods:wooden_gearbox:0>
 ];
 
 static removeRegex as string[] = [

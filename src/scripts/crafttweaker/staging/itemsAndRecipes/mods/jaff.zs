@@ -7,21 +7,21 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<jaff:fish_bucket_clownfish>,
-		<jaff:fish_bucket_cod>,
-		<jaff:fish_bucket_pufferfish>,
-		<jaff:fish_bucket_salmon>,
-		<jaff:tank>
+		<jaff:fish_bucket_clownfish:0>,
+		<jaff:fish_bucket_cod:0>,
+		<jaff:fish_bucket_pufferfish:0>,
+		<jaff:fish_bucket_salmon:0>,
+		<jaff:tank:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<jaff:diamond_fishing_rod>,
-	<jaff:fish_bones>,
-	<jaff:golden_fishing_rod>,
-	<jaff:iron_fishing_rod>,
-	<jaff:iron_hook>,
-	<jaff:wooden_fishing_rod>
+	<jaff:diamond_fishing_rod:0>,
+	<jaff:fish_bones:0>,
+	<jaff:golden_fishing_rod:0>,
+	<jaff:iron_fishing_rod:0>,
+	<jaff:iron_hook:0>,
+	<jaff:wooden_fishing_rod:0>
 ];
 
 function init() {

@@ -23,25 +23,25 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<appliedenergistics2:crank> : [
+	<appliedenergistics2:crank:0> : [
 		[
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[null, null, <ore:stickWood>.firstItem],
 			[null, null, <ore:stickWood>.firstItem]
 		]
 	],
-	<appliedenergistics2:grindstone> : [
+	<appliedenergistics2:grindstone:0> : [
 		[
-			[<minecraft:stone>, <betterwithmods:material>, <minecraft:stone>],
-			[<minecraft:flint>, <minecraft:stone>, <minecraft:flint>],
-			[<minecraft:cobblestone>, <minecraft:flint>, <minecraft:cobblestone>]
+			[<minecraft:stone:0>, <betterwithmods:material:0>, <minecraft:stone:0>],
+			[<minecraft:flint:0>, <minecraft:stone:0>, <minecraft:flint:0>],
+			[<minecraft:cobblestone:0>, <minecraft:flint:0>, <minecraft:cobblestone:0>]
 		]
 	],
 	<appliedenergistics2:part:180>: [
 		[
-			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass>],
-			[<refinedstorage:quartz_enriched_iron>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass>]
+			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <minecraft:redstone:0>, <appliedenergistics2:quartz_glass:0>],
+			[null, <extendedcrafting:material:7>, <appliedenergistics2:quartz_glass:0>]
 		]
 	],
 	<appliedenergistics2:part:380>: [
@@ -53,15 +53,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<appliedenergistics2:part:360>: [
 		[
 			[<appliedenergistics2:part:380>],
-			[<extendedcrafting:table_advanced>],
+			[<extendedcrafting:table_advanced:0>],
 			[<appliedenergistics2:material:24>]
 		]
 	],
-	<appliedenergistics2:interface>: [
+	<appliedenergistics2:interface:0>: [
 		[
-			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>],
+			[<refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:quartz_glass:0>, <refinedstorage:quartz_enriched_iron:0>],
 			[<appliedenergistics2:material:43>, <appliedenergistics2:material:22>, <appliedenergistics2:material:44>],
-			[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:quartz_glass>, <refinedstorage:quartz_enriched_iron>]
+			[<refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:quartz_glass:0>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	],
 };
@@ -91,14 +91,14 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<appliedenergistics2:crank>,
-	<appliedenergistics2:grindstone>,
-	<appliedenergistics2:interface>,
+	<appliedenergistics2:crank:0>,
+	<appliedenergistics2:grindstone:0>,
+	<appliedenergistics2:interface:0>,
 	<appliedenergistics2:material:40>,
 	<appliedenergistics2:part:180>,
 	<appliedenergistics2:part:360>,
 	<appliedenergistics2:part:380>,
-	<appliedenergistics2:quartz_glass>
+	<appliedenergistics2:quartz_glass:0>
 ];
 
 function init() {

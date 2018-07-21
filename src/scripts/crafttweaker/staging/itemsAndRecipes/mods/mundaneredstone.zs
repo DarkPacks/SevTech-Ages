@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageThree;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
-		<mundaneredstone:redstone_ore>,
+		<mundaneredstone:redstone_ore:0>,
 	]
 };
 

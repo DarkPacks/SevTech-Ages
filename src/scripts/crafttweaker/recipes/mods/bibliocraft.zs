@@ -23,30 +23,30 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<bibliocraft:plumbline> : [
+	<bibliocraft:plumbline:0> : [
 		[
 			[<betterwithaddons:bolt:6>, null, null],
 			[null, <betterwithaddons:bolt:6>, null],
 			[null, null, <ore:rock>]
 		]
 	],
-	<bibliocraft:stockroomcatalog> : [
+	<bibliocraft:stockroomcatalog:0> : [
 		[
-			[<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>],
-			[<minecraft:paper>, <minecraft:writable_book>, <minecraft:paper>],
-			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+			[<minecraft:paper:0>, <ore:dyeGreen>, <minecraft:paper:0>],
+			[<minecraft:paper:0>, <minecraft:writable_book:0>, <minecraft:paper:0>],
+			[<minecraft:paper:0>, <minecraft:paper:0>, <minecraft:paper:0>]
 		]
 	],
 	<bibliocraft:biblioglasses:1> : [
 		[
-			[<bibliocraft:biblioglasses>, <ore:dyeGray>]
+			[<bibliocraft:biblioglasses:0>, <ore:dyeGray>]
 		]
 	],
-	<bibliocraft:tape> : [
+	<bibliocraft:tape:0> : [
 		[
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-			[<minecraft:string>, <ore:dyeYellow>, <minecraft:string>],
-			[<minecraft:string>, <minecraft:string>, <minecraft:string>]
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
+			[<minecraft:string:0>, <ore:dyeYellow>, <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	]
 };
@@ -66,7 +66,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 static shapelessRecipes as IIngredient[][][IItemStack] = {
 	// Lantern Gold
 	<bibliocraft:lanterngold:0> : [
-		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:lanterngold:1> : [
 		[<bibliocraft:lanterngold:*>, <pickletweaks:dye_powder:8>]
@@ -116,7 +116,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	// Lantern Iron
 	<bibliocraft:lanterniron:0> : [
-		[<bibliocraft:lanterniron:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:lanterniron:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:lanterniron:1> : [
 		[<bibliocraft:lanterniron:*>, <pickletweaks:dye_powder:8>]
@@ -166,7 +166,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	// Lamp Gold
 	<bibliocraft:lampgold:0> : [
-		[<bibliocraft:lampgold:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:lampgold:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:lampgold:1> : [
 		[<bibliocraft:lampgold:*>, <pickletweaks:dye_powder:8>]
@@ -216,7 +216,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	// Iron Lamps
 	<bibliocraft:lampiron:0> : [
-		[<bibliocraft:lampiron:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:lampiron:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:lampiron:1> : [
 		[<bibliocraft:lampiron:*>, <pickletweaks:dye_powder:8>]
@@ -266,7 +266,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	// Typewriter
 	<bibliocraft:typewriter:0> : [
-		[<bibliocraft:typewriter:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:typewriter:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:typewriter:1> : [
 		[<bibliocraft:typewriter:*>, <pickletweaks:dye_powder:8>]
@@ -316,7 +316,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 	// Sword Pedestal
 	<bibliocraft:swordpedestal:0> : [
-		[<bibliocraft:swordpedestal:*>, <pickletweaks:dye_powder>]
+		[<bibliocraft:swordpedestal:*>, <pickletweaks:dye_powder:0>]
 	],
 	<bibliocraft:swordpedestal:1> : [
 		[<bibliocraft:swordpedestal:*>, <pickletweaks:dye_powder:8>]
@@ -372,9 +372,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 */
 static removeRecipes as IIngredient[] = [
 	<bibliocraft:biblioglasses:1>,
-	<bibliocraft:plumbline>,
-	<bibliocraft:stockroomcatalog>,
-	<bibliocraft:tape>
+	<bibliocraft:plumbline:0>,
+	<bibliocraft:stockroomcatalog:0>,
+	<bibliocraft:tape:0>
 ];
 
 function init() {

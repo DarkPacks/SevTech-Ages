@@ -23,10 +23,10 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<weirdinggadget:weirding_gadget> : [
+	<weirdinggadget:weirding_gadget:0> : [
 		[
 			[metals.gold.ingot, metals.gold.ingot, metals.gold.ingot],
-			[metals.gold.block, <minecraft:ender_pearl>, metals.gold.block],
+			[metals.gold.block, <minecraft:ender_pearl:0>, metals.gold.block],
 			[metals.gold.block, metals.gold.block, metals.gold.block]
 		]
 	]
@@ -57,7 +57,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<weirdinggadget:weirding_gadget>
+	<weirdinggadget:weirding_gadget:0>
 ];
 
 function init() {

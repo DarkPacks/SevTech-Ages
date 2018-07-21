@@ -36,13 +36,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 */
 static removeRecipes as IIngredient[] = [
 	<ceramics:unfired_clay:4>,
-	<ceramics:unfired_clay>
+	<ceramics:unfired_clay:0>
 ];
 
 static removeFurnace as IIngredient[] = [
 	<ceramics:clay_barrel:1>,
-	<ceramics:clay_barrel>,
-	<ceramics:clay_bucket>
+	<ceramics:clay_barrel:0>,
+	<ceramics:clay_bucket:0>
 ];
 
 function init() {

@@ -37,8 +37,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<geolosys:field_manual> : [
-		[<minecraft:stone_pickaxe>, <primal:plant_cloth>]
+	<geolosys:field_manual:0> : [
+		[<minecraft:stone_pickaxe:0>, <primal:plant_cloth:0>]
 	]
 };
 
@@ -48,7 +48,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<geolosys:field_manual>
+	<geolosys:field_manual:0>
 ];
 
 function init() {

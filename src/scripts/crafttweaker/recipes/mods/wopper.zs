@@ -23,15 +23,15 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<wopper:wopper> : [
+	<wopper:wopper:0> : [
 		[
 			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest>, <ore:plankWood>],
+			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>],
 			[null, <ore:plankWood>, null]
 		],
 		[
 			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:plankWood>, <immcraft:chest>, <ore:plankWood>],
+			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>],
 			[null, <ore:plankWood>, null]
 		]
 	]
@@ -62,7 +62,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<wopper:wopper>
+	<wopper:wopper:0>
 ];
 
 function init() {

@@ -12,11 +12,11 @@ static stagedItems as IIngredient[][string] = {
 
 	stageZero.stage: [
 		<horsepower:chopper:*>,
-		<horsepower:dough>,
-		<horsepower:flour>,
-		<horsepower:grindstone>,
-		<horsepower:hand_grindstone>,
-		<horsepower:press>
+		<horsepower:dough:0>,
+		<horsepower:flour:0>,
+		<horsepower:grindstone:0>,
+		<horsepower:hand_grindstone:0>,
+		<horsepower:press:0>
 	]
 };
 

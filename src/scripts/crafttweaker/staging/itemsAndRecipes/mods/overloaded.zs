@@ -9,38 +9,38 @@ static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
 		<overloaded:compressed_cobblestone:*>,
 		<overloaded:compressed_obsidian:*>,
-		<overloaded:energy_extractor>,
-		<overloaded:hyper_energy_receiver>,
-		<overloaded:hyper_energy_sender>,
-		<overloaded:hyper_fluid_receiver>,
-		<overloaded:hyper_fluid_sender>,
-		<overloaded:hyper_item_receiver>,
-		<overloaded:hyper_item_sender>,
-		<overloaded:infinite_barrel>,
-		<overloaded:infinite_capacitor>,
-		<overloaded:infinite_tank>,
-		<overloaded:infinite_water_source>,
-		<overloaded:item_interface>,
-		<overloaded:linking_card>,
-		<overloaded:multi_tool>,
-		<overloaded:player_interface>
+		<overloaded:energy_extractor:0>,
+		<overloaded:hyper_energy_receiver:0>,
+		<overloaded:hyper_energy_sender:0>,
+		<overloaded:hyper_fluid_receiver:0>,
+		<overloaded:hyper_fluid_sender:0>,
+		<overloaded:hyper_item_receiver:0>,
+		<overloaded:hyper_item_sender:0>,
+		<overloaded:infinite_barrel:0>,
+		<overloaded:infinite_capacitor:0>,
+		<overloaded:infinite_tank:0>,
+		<overloaded:infinite_water_source:0>,
+		<overloaded:item_interface:0>,
+		<overloaded:linking_card:0>,
+		<overloaded:multi_tool:0>,
+		<overloaded:player_interface:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
 	<overloaded:compressed_cobblestone:*>,
-	<overloaded:energy_core>,
-	<overloaded:fluid_core>,
-	<overloaded:item_core>,
-	<overloaded:multi_boots>,
-	<overloaded:multi_chestplate>,
-	<overloaded:multi_helmet>,
-	<overloaded:multi_leggings>,
-	<overloaded:nether_star_block>,
-	<overloaded:ray_gun>,
-	<overloaded:creative_generator>,
-	<overloaded:railgun>,
-	<overloaded:settings_editor>
+	<overloaded:energy_core:0>,
+	<overloaded:fluid_core:0>,
+	<overloaded:item_core:0>,
+	<overloaded:multi_boots:0>,
+	<overloaded:multi_chestplate:0>,
+	<overloaded:multi_helmet:0>,
+	<overloaded:multi_leggings:0>,
+	<overloaded:nether_star_block:0>,
+	<overloaded:ray_gun:0>,
+	<overloaded:creative_generator:0>,
+	<overloaded:railgun:0>,
+	<overloaded:settings_editor:0>
 ];
 
 function init() {

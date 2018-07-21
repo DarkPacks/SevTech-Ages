@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<wopper:wopper>
+		<wopper:wopper:0>
 	]
 };
 

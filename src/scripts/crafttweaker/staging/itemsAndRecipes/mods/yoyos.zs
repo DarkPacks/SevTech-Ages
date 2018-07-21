@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<yoyos:book>
+		<yoyos:book:0>
 	]
 };
 

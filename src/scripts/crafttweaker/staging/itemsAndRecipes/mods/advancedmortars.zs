@@ -8,7 +8,7 @@ import scripts.crafttweaker.stages.stageDisabled;
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
 		<advancedmortars:mortar:1>,
-		<advancedmortars:mortar>
+		<advancedmortars:mortar:0>
 	]
 };
 

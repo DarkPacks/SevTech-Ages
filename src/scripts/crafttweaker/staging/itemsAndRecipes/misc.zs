@@ -10,28 +10,28 @@ import scripts.crafttweaker.stages.stageDisabled;
 	Basically a temp holder until they are sorted.
 */
 static hiddenItems as IIngredient[] = [
-	<base:wrench>,
-	<baubles:ring>,
-	<bibliocraft:printingpress>, //This can be re-shown once the mod is updated/fixed.
+	<base:wrench:0>,
+	<baubles:ring:0>,
+	<bibliocraft:printingpress:0>, //This can be re-shown once the mod is updated/fixed.
 	<chisel:ironpane:*>,
-	<cookingforblockheads:cow_jar>,
+	<cookingforblockheads:cow_jar:0>,
 	<geolosys:cluster:11>,
-	<microblockcbe:saw_diamond>,
-	<microblockcbe:saw_iron>,
-	<microblockcbe:saw_stone>,
-	<microblockcbe:stone_rod>,
+	<microblockcbe:saw_diamond:0>,
+	<microblockcbe:saw_iron:0>,
+	<microblockcbe:saw_stone:0>,
+	<microblockcbe:stone_rod:0>,
 	<primal_tech:plant_fibres>,
-	<progressiontweaks:lime>,
-	<progressiontweaks:machine_frame>,
-	<progressiontweaks:nanomachine_frame>,
-	<quark:arrow_torch>,
-	<quark:obsidian_pressure_plate>,
-	<rustic:dust_tiny_iron>,
-	<rustic:fertile_soil>,
-	<scannable:module_structure>,
+	<progressiontweaks:lime:0>,
+	<progressiontweaks:machine_frame:0>,
+	<progressiontweaks:nanomachine_frame:0>,
+	<quark:arrow_torch:0>,
+	<quark:obsidian_pressure_plate:0>,
+	<rustic:dust_tiny_iron:0>,
+	<rustic:fertile_soil:0>,
+	<scannable:module_structure:0>,
 	<sev_tweaks_npc:golden_ladder_of_ascension>,
-	<totemic:medicine_bag>,
-	<twilightforest:ore_map_empty>
+	<totemic:medicine_bag:0>,
+	<twilightforest:ore_map_empty:0>
 ];
 
 function init() {

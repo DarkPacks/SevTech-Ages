@@ -23,7 +23,7 @@ static machineName as string = "plastic_molder";
 // Recipes which are going to be added to the machine.
 // Output: [Inputs]
 static recipes as ILiquidStack[][IItemStack] = {
-	<industrialforegoing:plastic> * 4: [
+	<industrialforegoing:plastic:0> * 4: [
 		<liquid:plastic> * 1000
 	]
 };
@@ -31,7 +31,7 @@ static recipes as ILiquidStack[][IItemStack] = {
 // Recipe Data which is linked to the Recipe above. Needs to set the name and the values for power and tick time.
 // Output (As Above): { name: "recipe name", tickTime: 80, powerTick: 1 }
 static recipeData as IData[IItemStack] = {
-	<industrialforegoing:plastic> * 4: {
+	<industrialforegoing:plastic:0> * 4: {
 		name: "plastic_sheets",
 		tickTime: 200,
 		powerTick: 10

@@ -21,24 +21,24 @@ import mods.horsepower.Recipes;
 */
 static grinderRecipes as IIngredient[][][int] = {
 	12: [
-		[<minecraft:clay_ball> * 4, <minecraft:clay>],
+		[<minecraft:clay_ball:0> * 4, <minecraft:clay:0>],
 		[<minecraft:dye:1>, <minecraft:double_plant:4>],
 		[<minecraft:dye:1>, <minecraft:red_flower:4>],
-		[<minecraft:dye:1>, <minecraft:red_flower>],
+		[<minecraft:dye:1>, <minecraft:red_flower:0>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>],
 		[<ore:dyePink>.firstItem, <minecraft:double_plant:5>],
 		[<ore:dyePink>.firstItem, <minecraft:red_flower:7>],
-		[<minecraft:dye:11>, <minecraft:double_plant>],
-		[<minecraft:dye:11>, <minecraft:yellow_flower>],
+		[<minecraft:dye:11>, <minecraft:double_plant:0>],
+		[<minecraft:dye:11>, <minecraft:yellow_flower:0>],
 		[<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>],
 		[<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>],
 		[<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>],
 		[<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>],
-		[<minecraft:sand> * 2, <minecraft:sandstone>],
-		[<minecraft:sugar> * 1, <minecraft:reeds>],
-		[<natura:materials:1>, <natura:materials>],
+		[<minecraft:sand:0> * 2, <minecraft:sandstone:0>],
+		[<minecraft:sugar:0> * 1, <minecraft:reeds:0>],
+		[<natura:materials:1>, <natura:materials:0>],
 		[<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>],
 		[<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowers:4>],
 		[<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowersc:6>],
@@ -46,41 +46,41 @@ static grinderRecipes as IIngredient[][][int] = {
 		[<betterwithmods:material:44>, <minecraft:dye:3>],
 		[<ore:dyeGreen>.firstItem * 2, <minecraft:dye:2>],
 		[<ore:dyeRed>.firstItem * 2, <minecraft:dye:1>],
-		[<ore:dyeBlack>.firstItem * 2, <actuallyadditions:block_black_lotus>],
-		[<ore:dyeBlack>.firstItem * 2, <minecraft:dye>],
+		[<ore:dyeBlack>.firstItem * 2, <actuallyadditions:block_black_lotus:0>],
+		[<ore:dyeBlack>.firstItem * 2, <minecraft:dye:0>],
 		[<ore:dyeWhite>.firstItem * 2, <minecraft:dye:15>]
 	],
 	16: [
 		[<ore:dustWood>.firstItem * 4, <ore:logWood>],
-		[<abyssalcraft:shadowfragment> * 9, <abyssalcraft:shadowshard>],
+		[<abyssalcraft:shadowfragment:0> * 9, <abyssalcraft:shadowshard:0>],
 		[<actuallyadditions:item_dust:7>, <actuallyadditions:block_misc:3>],
 		[<betterwithaddons:japanmat:4>, <actuallyadditions:item_food:16>],
-		[<horsepower:flour>, <minecraft:wheat>],
+		[<horsepower:flour:0>, <minecraft:wheat:0>],
 		[<pickletweaks:coal_piece:1> * 8, <minecraft:coal:1>],
-		[<ore:dyeRed>.firstItem, <rustic:wildberries>],
-		[<primal:bone_knapp> * 2, <minecraft:bone>],
-		[<primal:tannin_ground> * 2, <ore:barkWood>]
+		[<ore:dyeRed>.firstItem, <rustic:wildberries:0>],
+		[<primal:bone_knapp:0> * 2, <minecraft:bone:0>],
+		[<primal:tannin_ground:0> * 2, <ore:barkWood>]
 	],
 	24: [
-		[<abyssalcraft:shadowshard> * 9, <abyssalcraft:shadowgem>],
+		[<abyssalcraft:shadowshard:0> * 9, <abyssalcraft:shadowgem:0>],
 		[<minecraft:coal:1> * 4, <primal_tech:charcoal_block>],
-		[<minecraft:coal:1> * 9, <charcoalblock:charcoal_block>],
-		[<minecraft:coal> * 9, <minecraft:coal_block>],
-		[<minecraft:dye:15> * 9, <minecraft:bone_block>],
-		[<minecraft:gravel>, <minecraft:cobblestone>],
-		[<pickletweaks:coal_piece> * 8, <minecraft:coal>],
-		[<primal:salt_dust_rock>, <minecraft:sand>],
+		[<minecraft:coal:1> * 9, <charcoalblock:charcoal_block:0>],
+		[<minecraft:coal:0> * 9, <minecraft:coal_block:0>],
+		[<minecraft:dye:15> * 9, <minecraft:bone_block:0>],
+		[<minecraft:gravel:0>, <minecraft:cobblestone:0>],
+		[<pickletweaks:coal_piece:0> * 8, <minecraft:coal:0>],
+		[<primal:salt_dust_rock:0>, <minecraft:sand:0>],
 
 		// Salt Grinding
-		[<primal:salt_dust_netjry> * 4, <primal:salt_netjry_block>],
-		[<primal:salt_dust_rock> * 4, <primal:ore_salt>],
-		[<primal:salt_dust_fire> * 4, <primal:ore_salt:1>],
-		[<mekanism:salt> * 4, <mekanism:saltblock>]
+		[<primal:salt_dust_netjry:0> * 4, <primal:salt_netjry_block:0>],
+		[<primal:salt_dust_rock:0> * 4, <primal:ore_salt:0>],
+		[<primal:salt_dust_fire:0> * 4, <primal:ore_salt:1>],
+		[<mekanism:salt:0> * 4, <mekanism:saltblock:0>]
 	],
 	32: [
-		[<tconstruct:stone_stick>, <minecraft:cobblestone>],
-		[<minecraft:dye:15> * 2, <primal:shark_tooth>],
-		[<minecraft:prismarine_shard> * 4, <minecraft:prismarine>]
+		[<tconstruct:stone_stick:0>, <minecraft:cobblestone:0>],
+		[<minecraft:dye:15> * 2, <primal:shark_tooth:0>],
+		[<minecraft:prismarine_shard:0> * 4, <minecraft:prismarine:0>]
 	]
 };
 
@@ -90,32 +90,32 @@ static grinderRecipes as IIngredient[][][int] = {
 	IItemStack output: IIngredient input
 */
 static pressRecipes as IIngredient[IItemStack] = {
-	<abyssalcraft:shadowgem>: <abyssalcraft:shadowshard> * 9,
-	<abyssalcraft:shadowshard>: <abyssalcraft:shadowfragment> * 9,
+	<abyssalcraft:shadowgem:0>: <abyssalcraft:shadowshard:0> * 9,
+	<abyssalcraft:shadowshard:0>: <abyssalcraft:shadowfragment:0> * 9,
 	<betterwithaddons:japanmat:11>: <betterwithaddons:japanmat:10>,
-	<charcoalblock:charcoal_block>: <minecraft:coal:1> * 9,
-	<minecraft:clay>: <minecraft:clay_ball> * 4,
+	<charcoalblock:charcoal_block:0>: <minecraft:coal:1> * 9,
+	<minecraft:clay:0>: <minecraft:clay_ball:0> * 4,
 	<minecraft:coal:1>: <pickletweaks:coal_piece:1> * 8,
-	<minecraft:coal>: <pickletweaks:coal_piece> * 8,
-	<minecraft:coal_block>: <minecraft:coal> * 9,
-	<minecraft:prismarine_crystals>: <minecraft:prismarine_shard> * 4,
+	<minecraft:coal:0>: <pickletweaks:coal_piece:0> * 8,
+	<minecraft:coal_block:0>: <minecraft:coal:0> * 9,
+	<minecraft:prismarine_crystals:0>: <minecraft:prismarine_shard:0> * 4,
 
 	// Salt Pressing
-	<primal:salt_netjry_block>: <primal:salt_dust_netjry> * 4,
-	<primal:ore_salt>: <primal:salt_dust_rock> * 4,
-	<primal:ore_salt:1>: <primal:salt_dust_fire> * 4,
-	<mekanism:saltblock>: <mekanism:salt> * 4,
-	<minecraft:diamond_block>: <minecraft:diamond> * 9,
-	<minecraft:lapis_block>: <minecraft:dye:4> * 9,
-	<minecraft:redstone_block>: <minecraft:redstone> * 9,
-	<minecraft:emerald_block>: <minecraft:emerald> * 9
+	<primal:salt_netjry_block:0>: <primal:salt_dust_netjry:0> * 4,
+	<primal:ore_salt:0>: <primal:salt_dust_rock:0> * 4,
+	<primal:ore_salt:1>: <primal:salt_dust_fire:0> * 4,
+	<mekanism:saltblock:0>: <mekanism:salt:0> * 4,
+	<minecraft:diamond_block:0>: <minecraft:diamond:0> * 9,
+	<minecraft:lapis_block:0>: <minecraft:dye:4> * 9,
+	<minecraft:redstone_block:0>: <minecraft:redstone:0> * 9,
+	<minecraft:emerald_block:0>: <minecraft:emerald:0> * 9
 };
 
 var plankWoodCopy = <ore:plankWoodCopy>; // Create an oreDict to hold our plank clone.
 plankWoodCopy.addAll(<ore:plankWood>); // Clone the main oreDict.
 // Array containing all the betweenland planks we want to remove from the main cloned one.
 var betweenlandPlanks as IItemStack[] = [
-	<thebetweenlands:weedwood_planks>
+	<thebetweenlands:weedwood_planks:0>
 ];
 // Remove the planks in the array from the cloned oreDict.
 for plank in betweenlandPlanks {
@@ -132,37 +132,37 @@ static choppingRecipes as IIngredient[][IItemStack] = {
 		<ore:plankWoodCopy>
 	],
 	<thebetweenlands:items_misc:20> * 4: [
-		<thebetweenlands:weedwood_planks>
+		<thebetweenlands:weedwood_planks:0>
 	],
-	<primal:thin_slab_acacia> * 2 : [
+	<primal:thin_slab_acacia:0> * 2 : [
 		<minecraft:wooden_slab:4>
 	],
-	<primal:thin_slab_bigoak> * 2 : [
+	<primal:thin_slab_bigoak:0> * 2 : [
 		<minecraft:wooden_slab:5>
 	],
-	<primal:thin_slab_birch> * 2 : [
+	<primal:thin_slab_birch:0> * 2 : [
 		<minecraft:wooden_slab:2>
 	],
-	<primal:thin_slab_corypha> * 2 : [
-		<primal:slab_corypha>
+	<primal:thin_slab_corypha:0> * 2 : [
+		<primal:slab_corypha:0>
 	],
-	<primal:thin_slab_ironwood> * 2 : [
-		<rustic:ironwood_slab_item>
+	<primal:thin_slab_ironwood:0> * 2 : [
+		<rustic:ironwood_slab_item:0>
 	],
-	<primal:thin_slab_jungle> * 2 : [
+	<primal:thin_slab_jungle:0> * 2 : [
 		<minecraft:wooden_slab:3>
 	],
-	<primal:thin_slab_lacquer> * 2 : [
-		<primal:slab_lacquer>
+	<primal:thin_slab_lacquer:0> * 2 : [
+		<primal:slab_lacquer:0>
 	],
-	<primal:thin_slab_oak> * 2 : [
-		<minecraft:wooden_slab>
+	<primal:thin_slab_oak:0> * 2 : [
+		<minecraft:wooden_slab:0>
 	],
-	<primal:thin_slab_spruce> * 2 : [
+	<primal:thin_slab_spruce:0> * 2 : [
 		<minecraft:wooden_slab:1>
 	],
-	<primal:thin_slab_thatch> * 2 : [
-		<primal:thatch>
+	<primal:thin_slab_thatch:0> * 2 : [
+		<primal:thatch:0>
 	]
 };
 
@@ -172,8 +172,8 @@ function init() {
 
 		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 	*/
-	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
-	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead>, <ore:stickWood>, <minecraft:lead>], [<ore:plankWood>, <minecraft:flint>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
+	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block:0>, [<ore:logWood>]);
+	Recipes.addShaped(<horsepower:chopping_block:0>, <horsepower:chopper:0>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block:0>, <ore:plankWood>]]);
 
 	// Recipe Map Imports
 	var grinderRecipes as IIngredient[][][int] = scripts.crafttweaker.integrations.mods.horsepower.grinderRecipes;
@@ -190,8 +190,8 @@ function init() {
 	}
 
 	// Recipes with Secondary Outputs
-	horsePower.addGrindstone(<minecraft:dye:15>, <primal:bone_knapp>, 16, false, <minecraft:dye:15>, 20);
-	horsePower.addGrindstone(<minecraft:dye:15>, <primal:bone_point>, 16, false, <minecraft:dye:15>, 20);
+	horsePower.addGrindstone(<minecraft:dye:15>, <primal:bone_knapp:0>, 16, false, <minecraft:dye:15>, 20);
+	horsePower.addGrindstone(<minecraft:dye:15>, <primal:bone_point:0>, 16, false, <minecraft:dye:15>, 20);
 	horsePower.addGrindstone(<minecraft:dye:15>, <primal_tech:bone_shard>, 16, false, <minecraft:dye:15>, 20);
 
 	// Add the Press Recipes.
@@ -202,7 +202,7 @@ function init() {
 	// Add the Press Recipes for Seeds.
 	var seedOreDict = <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>;
 	for seed in seedOreDict.items {
-		horsePower.addPress(<minecraft:dirt>, seed * 12);
+		horsePower.addPress(<minecraft:dirt:0>, seed * 12);
 	}
 
 	// Add the Chopping Block Recipes.

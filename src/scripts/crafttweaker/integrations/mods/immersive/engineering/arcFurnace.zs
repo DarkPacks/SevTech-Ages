@@ -13,20 +13,20 @@ function init() {
 	var slag as IItemStack = <ore:itemSlag>.firstItem;
 
 	// Quartz Glass
-	immersiveEngineering.addArcFurn(<appliedenergistics2:quartz_glass> * 4, <ore:blockGlass> * 4, null, 200, 512,
+	immersiveEngineering.addArcFurn(<appliedenergistics2:quartz_glass:0> * 4, <ore:blockGlass> * 4, null, 200, 512,
 		[<ore:dustQuartz> * 5]
 	);
 	// Vanilla Glass
-	immersiveEngineering.addArcFurn(<minecraft:glass>, <minecraft:sand>, null, 150, 256);
+	immersiveEngineering.addArcFurn(<minecraft:glass:0>, <minecraft:sand:0>, null, 150, 256);
 
 	// Vanilla Glass Panes
-	immersiveEngineering.addArcFurn(<minecraft:glass_pane>, <betterwithmods:sand_pile> * 2, null, 100, 150);
+	immersiveEngineering.addArcFurn(<minecraft:glass_pane:0>, <betterwithmods:sand_pile:0> * 2, null, 100, 150);
 
 	//==============================================================
 	// Add Steve's carts recipes
 	// Lump of Galgador
 	immersiveEngineering.addArcFurn(<stevescarts:modulecomponents:46> * 2, metals.platinum.block.firstItem, slag, 200, 512,
-		[<minecraft:glowstone_dust> * 3, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
+		[<minecraft:glowstone_dust:0> * 3, <stevescarts:modulecomponents:45> * 3, <stevescarts:modulecomponents:21> * 2]
 	);
 	//Stabilized Metal
 	immersiveEngineering.addArcFurn(<stevescarts:modulecomponents:21> * 5, <stevescarts:modulecomponents:20>, slag, 200, 512,
@@ -52,26 +52,26 @@ function init() {
 	immersiveEngineering.addArcFurn(metals.invar.ingot.firstItem * 3, metals.nickel.ingot, slag, 100, 512, [metals.iron.dust * 2]);
 
 	// Ender Utilities
-	immersiveEngineering.addArcFurn(<enderutilities:enderpart> * 4, <minecraft:ender_pearl>, slag, 100, 512, [<quark:biotite> * 8]);
-	immersiveEngineering.addArcFurn(<enderutilities:enderpart:1> * 4, <minecraft:ender_eye>, slag, 100, 512, [<minecraft:chorus_fruit> * 8]);
-	immersiveEngineering.addArcFurn(<enderutilities:enderpart:2> * 2, <minecraft:ender_eye>, slag, 100, 512, [<minecraft:purpur_block> * 4, <minecraft:end_rod> * 2, <minecraft:shulker_shell>]);
-	immersiveEngineering.addArcFurn(<enderutilities:enderpart:20> * 4, <minecraft:ender_pearl>, slag, 100, 512, [<minecraft:end_rod> * 4]);
+	immersiveEngineering.addArcFurn(<enderutilities:enderpart:0> * 4, <minecraft:ender_pearl:0>, slag, 100, 512, [<quark:biotite:0> * 8]);
+	immersiveEngineering.addArcFurn(<enderutilities:enderpart:1> * 4, <minecraft:ender_eye:0>, slag, 100, 512, [<minecraft:chorus_fruit:0> * 8]);
+	immersiveEngineering.addArcFurn(<enderutilities:enderpart:2> * 2, <minecraft:ender_eye:0>, slag, 100, 512, [<minecraft:purpur_block:0> * 4, <minecraft:end_rod:0> * 2, <minecraft:shulker_shell:0>]);
+	immersiveEngineering.addArcFurn(<enderutilities:enderpart:20> * 4, <minecraft:ender_pearl:0>, slag, 100, 512, [<minecraft:end_rod:0> * 4]);
 
 	// Black Iron
-	immersiveEngineering.addArcFurn(<extendedcrafting:material>, metals.iron.ingot, slag, 100, 512, [<actuallyadditions:item_dust:7>]);
+	immersiveEngineering.addArcFurn(<extendedcrafting:material:0>, metals.iron.ingot, slag, 100, 512, [<actuallyadditions:item_dust:7>]);
 
 	// Refined Energistics 2.3333333 <- YA! YOU LIKE THAT
-	immersiveEngineering.addArcFurn(<refinedstorage:quartz_enriched_iron> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material>]);
+	immersiveEngineering.addArcFurn(<refinedstorage:quartz_enriched_iron:0> * 4, metals.iron.ingot * 3, slag, 100, 512, [<appliedenergistics2:material:0>]);
 
 	// Bronze Alloying
 	immersiveEngineering.addArcFurn(metals.bronze.ingot.firstItem * 4, metals.copper.ingot * 3, slag, 100, 512, [metals.tin.dust]);
 
 	// Redstone Alloy
-	immersiveEngineering.addArcFurn(metals.redstoneAlloy.ingot.firstItem * 2, metals.constantan.ingot, slag, 100, 512, [<minecraft:glowstone_dust>, <minecraft:redstone>]);
+	immersiveEngineering.addArcFurn(metals.redstoneAlloy.ingot.firstItem * 2, metals.constantan.ingot, slag, 100, 512, [<minecraft:glowstone_dust:0>, <minecraft:redstone:0>]);
 
 	// Modularium
-	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone>]);
-	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone>]);
+	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone:0>]);
+	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone:0>]);
 
 	/* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 	// Aluminum Brass

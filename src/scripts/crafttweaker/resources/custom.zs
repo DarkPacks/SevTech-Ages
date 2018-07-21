@@ -51,12 +51,12 @@ function initMetalRemovals() {
 */
 function initGrass() {
 	var seedsToRemove as IItemStack[] = [
-		<betterwithmods:hemp>,
-		<minecraft:beetroot_seeds>,
-		<minecraft:melon_seeds>,
-		<minecraft:pumpkin_seeds>,
-		<minecraft:stick>,
-		<minecraft:wheat_seeds>
+		<betterwithmods:hemp:0>,
+		<minecraft:beetroot_seeds:0>,
+		<minecraft:melon_seeds:0>,
+		<minecraft:pumpkin_seeds:0>,
+		<minecraft:stick:0>,
+		<minecraft:wheat_seeds:0>
 	];
 
 	for seed in seedsToRemove {
@@ -70,13 +70,13 @@ function init() {
 	scripts.crafttweaker.resources.custom.initGrass();
 
 	// Dimensional Shard Processing. (One not included by default from the Mod)
-	immersiveEngineering.addCrusher(<rftools:dimensional_shard> * 2, <ore:oreDimensionalShard>);
+	immersiveEngineering.addCrusher(<rftools:dimensional_shard:0> * 2, <ore:oreDimensionalShard>);
 
 	/*
 		Hardcoded recipe removals from processing. For the ones not handling correctly in the Ore Dict.
 	*/
 	appliedEnergistics.removeGrindstone(<galacticraftplanets:asteroids_block:4>);
-	immersiveEngineering.addCrusher(<appliedenergistics2:material> * 3, <ore:oreBasicCertusQuartz>);
+	immersiveEngineering.addCrusher(<appliedenergistics2:material:0> * 3, <ore:oreBasicCertusQuartz>);
 	immersiveEngineering.addCrusher(<appliedenergistics2:material:1> * 3, <ore:oreChargedCertusQuartz>);
 
 	// Silcon

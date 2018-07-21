@@ -39,18 +39,18 @@ function init() {
 	*/
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "grout"), machineName, 128)
 		.addEnergyPerTickInput(4)
-		.addItemOutput(<tconstruct:soil> * 2)
-		.addItemInput(<minecraft:sand>)
-		.addItemInput(<minecraft:clay_ball>)
-		.addItemInput(<minecraft:gravel>)
+		.addItemOutput(<tconstruct:soil:0> * 2)
+		.addItemInput(<minecraft:sand:0>)
+		.addItemInput(<minecraft:clay_ball:0>)
+		.addItemInput(<minecraft:gravel:0>)
 		.build();
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "porcelain"), machineName, 128)
 		.addEnergyPerTickInput(4)
 		.addItemOutput(<ceramics:unfired_clay:4>)
 		.addItemInput(<minecraft:dye:15>)
-		.addItemInput(<minecraft:clay_ball>)
-		.addItemInput(<minecraft:flint>)
+		.addItemInput(<minecraft:clay_ball:0>)
+		.addItemInput(<minecraft:flint:0>)
 		.build();
 
 	/*
@@ -58,7 +58,7 @@ function init() {
 	*/
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "resin"), machineName, 128)
 		.addEnergyPerTickInput(4)
-		.addItemOutput(<primal:tannin_ground>)
+		.addItemOutput(<primal:tannin_ground:0>)
 		.addItemInput(<ore:barkWood>)
 		.build();
 
@@ -71,13 +71,13 @@ function init() {
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "ground_netherrack"), machineName, 128)
 		.addEnergyPerTickInput(4)
 		.addItemOutput(<betterwithmods:material:15>)
-		.addItemInput(<minecraft:netherrack>)
+		.addItemInput(<minecraft:netherrack:0>)
 		.build();
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "coal_dust"), machineName, 128)
 		.addEnergyPerTickInput(4)
 		.addItemOutput(<betterwithmods:material:18>)
-		.addItemInput(<minecraft:coal>)
+		.addItemInput(<minecraft:coal:0>)
 		.build();
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "charcoal_dust"), machineName, 128)
@@ -88,8 +88,8 @@ function init() {
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "sugar"), machineName, 128)
 		.addEnergyPerTickInput(4)
-		.addItemOutput(<minecraft:sugar> * 2)
-		.addItemInput(<minecraft:reeds>)
+		.addItemOutput(<minecraft:sugar:0> * 2)
+		.addItemInput(<minecraft:reeds:0>)
 		.build();
 
 	/*
@@ -97,14 +97,14 @@ function init() {
 	*/
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "flour"), machineName, 128)
 		.addEnergyPerTickInput(4)
-		.addItemOutput(<horsepower:flour>)
-		.addItemInput(<minecraft:wheat>)
+		.addItemOutput(<horsepower:flour:0>)
+		.addItemInput(<minecraft:wheat:0>)
 		.build();
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "barley_flour"), machineName, 128)
 		.addEnergyPerTickInput(4)
 		.addItemOutput(<natura:materials:1>)
-		.addItemInput(<natura:materials>)
+		.addItemInput(<natura:materials:0>)
 		.build();
 
 	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "rice_flour"), machineName, 128)

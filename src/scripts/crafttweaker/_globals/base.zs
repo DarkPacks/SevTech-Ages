@@ -29,15 +29,15 @@ global sidingAcacia as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraf
 global sidingBirch as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:2>);
 global sidingDarkoak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:5>);
 global sidingJungle as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:3>);
-global sidingOak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks>);
+global sidingOak as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:0>);
 global sidingSpruce as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraft:planks:1>);
 
 // The filled bucket "main" item
 global buckets as IItemStack[] = [
-	<ceramics:clay_bucket>,
-	<forge:bucketfilled>,
+	<ceramics:clay_bucket:0>,
+	<forge:bucketfilled:0>,
 	<thebetweenlands:bl_bucket:1>,
-	<thebetweenlands:bl_bucket>
+	<thebetweenlands:bl_bucket:0>
 ];
 
 // Minecraft Dye Id table (Kinda says what it's used for Kappa)
@@ -76,7 +76,7 @@ global minecraftDyes as IItemStack[] = [
 	<minecraft:dye:13>,
 	<minecraft:dye:14>,
 	<minecraft:dye:15>,
-	<minecraft:dye>
+	<minecraft:dye:0>
 ];
 
 // Parachute Dye Id table. Because they need to be special and use their own order...

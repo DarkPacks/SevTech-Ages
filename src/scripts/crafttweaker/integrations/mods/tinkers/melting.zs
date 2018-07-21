@@ -23,9 +23,9 @@ function init() {
 	// New seared stone mechanic
 	tinkers.removeMelting(<liquid:stone>);
 	tinkers.addMelting(<liquid:stone> * 72, <tconstruct:soil:0>);
-	tinkers.addMelting(<liquid:stone> * 72, <tconstruct:materials>);
+	tinkers.addMelting(<liquid:stone> * 72, <tconstruct:materials:0>);
 
-	var searedBlock = <tconstruct:seared>.definition;
+	var searedBlock = <tconstruct:seared:0>.definition;
 	for i in 0 .. 10{
 		if (i != 1){
 			tinkers.addMelting(<liquid:stone> * 288, searedBlock.makeStack(i));
@@ -60,10 +60,10 @@ function init() {
 	*/
 
 	// Liquid Glowstone
-	tinkers.addMelting(<liquid:glowstone> * 100, <minecraft:glowstone_dust>);
-	tinkers.addMelting(<liquid:glowstone> * 400, <minecraft:glowstone>);
+	tinkers.addMelting(<liquid:glowstone> * 100, <minecraft:glowstone_dust:0>);
+	tinkers.addMelting(<liquid:glowstone> * 400, <minecraft:glowstone:0>);
 
 	// Liquid Redstone
-	tinkers.addMelting(<liquid:redstone> * 100, <minecraft:redstone>);
-	tinkers.addMelting(<liquid:redstone> * 900, <minecraft:redstone_block>);
+	tinkers.addMelting(<liquid:redstone> * 100, <minecraft:redstone:0>);
+	tinkers.addMelting(<liquid:redstone> * 900, <minecraft:redstone_block:0>);
 }

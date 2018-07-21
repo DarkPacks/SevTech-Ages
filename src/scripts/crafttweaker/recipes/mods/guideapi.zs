@@ -37,11 +37,11 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<guideapi:bloodmagic-guide> : [
-		[<primal:plant_cloth>, <ore:feather>]
+	<guideapi:bloodmagic-guide:0> : [
+		[<primal:plant_cloth:0>, <ore:feather>]
 	],
-	<guideapi:cyclicmagic-guide> : [
-		[<primal:plant_cloth>, <cyclicmagic:apple>]
+	<guideapi:cyclicmagic-guide:0> : [
+		[<primal:plant_cloth:0>, <cyclicmagic:apple:0>]
 	]
 };
 
@@ -51,8 +51,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<guideapi:bloodmagic-guide>,
-	<guideapi:cyclicmagic-guide>
+	<guideapi:bloodmagic-guide:0>,
+	<guideapi:cyclicmagic-guide:0>
 ];
 
 function init() {

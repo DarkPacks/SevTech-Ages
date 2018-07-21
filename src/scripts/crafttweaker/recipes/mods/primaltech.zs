@@ -25,19 +25,19 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<primal_tech:stone_mallet> : [
 		[
-			[<minecraft:stone>, null],
+			[<minecraft:stone:0>, null],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:charcoal_hopper> : [
 		[
 			[null, null, null],
-			[null, <tconstruct:firewood>, null],
+			[null, <tconstruct:firewood:0>, null],
 			[null, <primal_tech:wooden_hopper>, null]
 		],
 		[
-			[<totemic:cedar_plank>, <abyssalcraft:shadowgem>, <totemic:cedar_plank>],
-			[<betterwithmods:material:37>, <primal:shark_tooth>, <betterwithmods:material:37>],
+			[<totemic:cedar_plank:0>, <abyssalcraft:shadowgem:0>, <totemic:cedar_plank:0>],
+			[<betterwithmods:material:37>, <primal:shark_tooth:0>, <betterwithmods:material:37>],
 			[null, <primal_tech:wooden_hopper>, null]
 		]
 	],
@@ -50,59 +50,59 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:stone_anvil> : [
 		[
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-			[null, <minecraft:stone>, null],
-			[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
+			[null, <minecraft:stone:0>, null],
+			[<minecraft:stone_slab:0>, <minecraft:stone_slab:0>, <minecraft:stone_slab:0>]
 		]
 	],
 	<primal_tech:leaf_bed> : [
 		[
 			[null, null, null],
 			[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],
-			[<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>]
+			[<minecraft:hay_block:0>, <minecraft:hay_block:0>, <minecraft:hay_block:0>]
 		]
 	],
 	<primal_tech:flint_edged_disc> : [
 		[
-			[null, <primal:flint_knapp>, null],
-			[<primal:flint_knapp>, <ore:gearTin>, <primal:flint_knapp>],
-			[null, <primal:flint_knapp>, null]
+			[null, <primal:flint_knapp:0>, null],
+			[<primal:flint_knapp:0>, <ore:gearTin>, <primal:flint_knapp:0>],
+			[null, <primal:flint_knapp:0>, null]
 		]
 	],
 	<primal_tech:bone_shears>: [
 		[
-			[<minecraft:bone>, null],
-			[<ore:cordageGeneral>, <minecraft:bone>]
+			[<minecraft:bone:0>, null],
+			[<ore:cordageGeneral>, <minecraft:bone:0>]
 		]
 	],
 	<primal_tech:work_stump>: [
 		[
-			[<horsepower:chopping_block>],
+			[<horsepower:chopping_block:0>],
 			[<ore:logWood>]
 		]
 	],
 	<primal_tech:work_stump_upgraded>: [
 		[
-			[null, <immcraft:shelf>, null],
-			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
+			[null, <immcraft:shelf:0>, null],
+			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
 			[null, <minecraft:log2:1>, null]
 		],
 		[
-			[null, <immcraft:shelf>, null],
-			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
+			[null, <immcraft:shelf:0>, null],
+			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
 			[null, <natura:overworld_logs2:1>, null]
 		],
 		[
-			[null, <immcraft:shelf>, null],
-			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
-			[null, <natura:overworld_logs2:3> | <betterwithaddons:log_sakura>, null]
+			[null, <immcraft:shelf:0>, null],
+			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[null, <natura:overworld_logs2:3> | <betterwithaddons:log_sakura:0>, null]
 		]
 	],
 	<primal_tech:clay_kiln>: [
 		[
-			[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-			[<minecraft:clay_ball>, null, <minecraft:clay_ball>],
-			[<minecraft:clay_ball>, <ore:slabCobblestone>, <minecraft:clay_ball>]
+			[<minecraft:clay_ball:0>, <minecraft:clay_ball:0>, <minecraft:clay_ball:0>],
+			[<minecraft:clay_ball:0>, null, <minecraft:clay_ball:0>],
+			[<minecraft:clay_ball:0>, <ore:slabCobblestone>, <minecraft:clay_ball:0>]
 		]
 	],
 	<primal_tech:wood_club>: [
@@ -113,41 +113,41 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:bone_club>: [
 		[
-			[null, <minecraft:bone_block>],
+			[null, <minecraft:bone_block:0>],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:stone_club>: [
 		[
-			[null, <minecraft:stone>],
+			[null, <minecraft:stone:0>],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:bone_pickaxe>: [
 		[
-			[<primal:sharp_bone>, <minecraft:bone>, <primal:sharp_bone>],
+			[<primal:sharp_bone:0>, <minecraft:bone:0>, <primal:sharp_bone:0>],
 			[null, <ore:stickWood>.firstItem, null],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:bone_axe>: [
 		[
-			[<primal:bone_knapp>, <minecraft:bone>, null],
-			[<primal:bone_knapp>, <ore:stickWood>.firstItem, null],
+			[<primal:bone_knapp:0>, <minecraft:bone:0>, null],
+			[<primal:bone_knapp:0>, <ore:stickWood>.firstItem, null],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:bone_shovel>: [
 		[
-			[null, <primal:bone_knapp>, null],
+			[null, <primal:bone_knapp:0>, null],
 			[null, <ore:stickWood>.firstItem, null],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
 	<primal_tech:bone_sword>: [
 		[
-			[null, <primal:sharp_bone>, null],
-			[null, <minecraft:bone>, null],
+			[null, <primal:sharp_bone:0>, null],
+			[null, <minecraft:bone:0>, null],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
@@ -166,22 +166,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:stone_grill>: [
 		[
-			[null, <immcraft:rock>, null],
-			[<immcraft:rock>, null, <immcraft:rock>],
+			[null, <immcraft:rock:0>, null],
+			[<immcraft:rock:0>, null, <immcraft:rock:0>],
 			[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>]
 		]
 	],
 	<primal_tech:fluid_bladder>: [
 		[
 			[null, null, null],
-			[<ore:dyeBrown>, <minecraft:dye>, <ore:dyeBrown>],
-			[<primal:plant_cordage>, <primal:plant_cordage>, <primal:plant_cordage>]
+			[<ore:dyeBrown>, <minecraft:dye:0>, <ore:dyeBrown>],
+			[<primal:plant_cordage:0>, <primal:plant_cordage:0>, <primal:plant_cordage:0>]
 		]
 	],
 	<primal_tech:wooden_hopper>: [
 		[
-			[<ore:barkWood>, <minecraft:web>, <ore:barkWood>],
-			[<ore:barkWood>, <wopper:wopper>, <ore:barkWood>],
+			[<ore:barkWood>, <minecraft:web:0>, <ore:barkWood>],
+			[<ore:barkWood>, <wopper:wopper:0>, <ore:barkWood>],
 			[null, <ore:barkWood>, null]
 		]
 	]
@@ -192,8 +192,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [
 			[
 				[null, null, null],
-				[null, <tconstruct:firewood>, null],
-				[null, <minecraft:hopper>, null]
+				[null, <tconstruct:firewood:0>, null],
+				[null, <minecraft:hopper:0>, null]
 			]
 		]
 	}
@@ -213,7 +213,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<primal_tech:rock>: [
-		[<immcraft:rock>]
+		[<immcraft:rock:0>]
 	]
 };
 

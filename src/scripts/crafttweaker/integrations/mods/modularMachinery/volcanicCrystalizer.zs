@@ -23,7 +23,7 @@ static machineName as string = "volcanic_crystalizer";
 // Recipes which are going to be added to the machine.
 // Output: [Inputs]
 static recipes as ILiquidStack[][IItemStack] = {
-	<minecraft:obsidian>: [
+	<minecraft:obsidian:0>: [
 		<liquid:water> * 1000,
 		<liquid:lava> * 1000
 	]
@@ -32,7 +32,7 @@ static recipes as ILiquidStack[][IItemStack] = {
 // Recipe Data which is linked to the Recipe above. Needs to set the name and the values for power and tick time.
 // Output (As Above): { name: "recipe name", tickTime: 80, powerTick: 1 }
 static recipeData as IData[IItemStack] = {
-	<minecraft:obsidian>: {
+	<minecraft:obsidian:0>: {
 		name: "obsidian",
 		tickTime: 80,
 		powerTick: 1

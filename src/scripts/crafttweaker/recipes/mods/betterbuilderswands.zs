@@ -23,30 +23,30 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<betterbuilderswands:wandstone> : [
+	<betterbuilderswands:wandstone:0> : [
 		[
 			[null, null, <ore:stone>],
 			[null, <ore:logWood>, null],
 			[<ore:logWood>, null, null]
 		]
 	],
-	<betterbuilderswands:wandiron> : [
+	<betterbuilderswands:wandiron:0> : [
 		[
 			[null, null, metals.iron.plate],
 			[null, <ore:logWood>, null],
 			[<ore:logWood>, null, null]
 		]
 	],
-	<betterbuilderswands:wanddiamond> : [
+	<betterbuilderswands:wanddiamond:0> : [
 		[
 			[null, null, metals.platinum.plate],
 			[null, <ore:logWood>, null],
 			[<ore:logWood>, null, null]
 		]
 	],
-	<betterbuilderswands:wandunbreakable> : [
+	<betterbuilderswands:wandunbreakable:0> : [
 		[
-			[null, null, <minecraft:nether_star>],
+			[null, null, <minecraft:nether_star:0>],
 			[null, <ore:logWood>, null],
 			[<ore:logWood>, null, null]
 		]
@@ -73,10 +73,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<betterbuilderswands:wanddiamond>,
-	<betterbuilderswands:wandiron>,
-	<betterbuilderswands:wandstone>,
-	<betterbuilderswands:wandunbreakable>
+	<betterbuilderswands:wanddiamond:0>,
+	<betterbuilderswands:wandiron:0>,
+	<betterbuilderswands:wandstone:0>,
+	<betterbuilderswands:wandunbreakable:0>
 ];
 
 function init() {

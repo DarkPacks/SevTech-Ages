@@ -23,7 +23,7 @@ function init() {
 	// Distillation
 	Distillation.addRecipe(
 		[<liquid:diesel> * 50, <liquid:naphtha> * 50],
-		[<immersivepetroleum:material>],
+		[<immersivepetroleum:material:0>],
 		<liquid:oil> * 100,
 		2048, 1,
 		[0.07]
@@ -31,7 +31,7 @@ function init() {
 
 	Distillation.addRecipe(
 		[<liquid:lubricant> * 20, <liquid:gasoline> * 40, <liquid:kerosene> * 40],
-		[<immersivepetroleum:material>],
+		[<immersivepetroleum:material:0>],
 		<liquid:diesel> * 100,
 		2048, 1,
 		[0.07]

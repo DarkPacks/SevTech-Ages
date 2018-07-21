@@ -14,72 +14,72 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<storagenetwork:master>: [
+	<storagenetwork:master:0>: [
 		[
-			[metals.compressedIron.plate, <storagenetwork:kabel>, metals.compressedIron.plate],
-			[<storagenetwork:kabel>, <teslacorelib:machine_case>, <storagenetwork:kabel>],
-			[metals.compressedIron.plate, <storagenetwork:kabel>, metals.compressedIron.plate]
+			[metals.compressedIron.plate, <storagenetwork:kabel:0>, metals.compressedIron.plate],
+			[<storagenetwork:kabel:0>, <teslacorelib:machine_case:0>, <storagenetwork:kabel:0>],
+			[metals.compressedIron.plate, <storagenetwork:kabel:0>, metals.compressedIron.plate]
 		]
 	],
-	<storagenetwork:kabel> * 8 : [
+	<storagenetwork:kabel:0> * 8 : [
 		[
 			[metals.compressedIron.plate, <immersiveengineering:wirecoil:4>, metals.compressedIron.plate],
 		]
 	],
-	<storagenetwork:request>: [
+	<storagenetwork:request:0>: [
 		[
-			[metals.compressedIron.plate, <minecraft:glass_pane>, metals.compressedIron.plate],
-			[<storagenetwork:kabel>, <immersiveengineering:metal_decoration0:5>, <storagenetwork:kabel>],
-			[metals.compressedIron.plate, <storagedrawers:controller>, metals.compressedIron.plate]
+			[metals.compressedIron.plate, <minecraft:glass_pane:0>, metals.compressedIron.plate],
+			[<storagenetwork:kabel:0>, <immersiveengineering:metal_decoration0:5>, <storagenetwork:kabel:0>],
+			[metals.compressedIron.plate, <storagedrawers:controller:0>, metals.compressedIron.plate]
 		]
 	],
-	<storagenetwork:im_kabel> * 4: [
+	<storagenetwork:im_kabel:0> * 4: [
 		[
-			[null, <storagenetwork:kabel>, null],
-			[<storagenetwork:kabel>, <minecraft:hopper>, <storagenetwork:kabel>],
-			[null, <storagenetwork:kabel>, null]
+			[null, <storagenetwork:kabel:0>, null],
+			[<storagenetwork:kabel:0>, <minecraft:hopper:0>, <storagenetwork:kabel:0>],
+			[null, <storagenetwork:kabel:0>, null]
 		]
 	],
-	<storagenetwork:ex_kabel> * 4: [
+	<storagenetwork:ex_kabel:0> * 4: [
 		[
-			[null, <storagenetwork:kabel>, null],
-			[<storagenetwork:kabel>, <minecraft:piston>, <storagenetwork:kabel>],
-			[null, <storagenetwork:kabel>, null]
+			[null, <storagenetwork:kabel:0>, null],
+			[<storagenetwork:kabel:0>, <minecraft:piston:0>, <storagenetwork:kabel:0>],
+			[null, <storagenetwork:kabel:0>, null]
 		]
 	],
-	<storagenetwork:storage_kabel> * 4: [
+	<storagenetwork:storage_kabel:0> * 4: [
 		[
-			[null, <storagenetwork:kabel>, null],
-			[<storagenetwork:kabel>, <minecraft:chest>, <storagenetwork:kabel>],
-			[null, <storagenetwork:kabel>, null]
+			[null, <storagenetwork:kabel:0>, null],
+			[<storagenetwork:kabel:0>, <minecraft:chest:0>, <storagenetwork:kabel:0>],
+			[null, <storagenetwork:kabel:0>, null]
 		]
 	],
 	<storagenetwork:upgrade:1> * 4: [
 		[
-			[null, <minecraft:comparator>, null],
-			[<minecraft:redstone>, <storagenetwork:kabel>, <minecraft:redstone>],
-			[null, <minecraft:comparator>, null]
+			[null, <minecraft:comparator:0>, null],
+			[<minecraft:redstone:0>, <storagenetwork:kabel:0>, <minecraft:redstone:0>],
+			[null, <minecraft:comparator:0>, null]
 		]
 	],
-	<storagenetwork:upgrade> * 4: [
+	<storagenetwork:upgrade:0> * 4: [
 		[
 			[null, metals.redstoneAlloy.plate, null],
-			[metals.gold.plate, <storagenetwork:kabel>, metals.gold.plate],
+			[metals.gold.plate, <storagenetwork:kabel:0>, metals.gold.plate],
 			[null, metals.redstoneAlloy.plate, null]
 		]
 	],
 	<storagenetwork:upgrade:2> * 4: [
 		[
 			[null, metals.redstoneAlloy.plate, null],
-			[<minecraft:blaze_powder>, <storagenetwork:kabel>, <minecraft:blaze_powder>],
+			[<minecraft:blaze_powder:0>, <storagenetwork:kabel:0>, <minecraft:blaze_powder:0>],
 			[null, metals.redstoneAlloy.plate, null]
 		]
 	],
 	<storagenetwork:upgrade:3> * 4: [
 		[
-			[null, <minecraft:comparator>, null],
-			[null, <storagenetwork:kabel>, null],
-			[null, <minecraft:comparator>, null]
+			[null, <minecraft:comparator:0>, null],
+			[null, <storagenetwork:kabel:0>, null],
+			[null, <minecraft:comparator:0>, null]
 		]
 	]
 };
@@ -104,16 +104,16 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<storagenetwork:ex_kabel>,
-	<storagenetwork:im_kabel>,
-	<storagenetwork:kabel>,
-	<storagenetwork:master>,
-	<storagenetwork:request>,
-	<storagenetwork:storage_kabel>,
+	<storagenetwork:ex_kabel:0>,
+	<storagenetwork:im_kabel:0>,
+	<storagenetwork:kabel:0>,
+	<storagenetwork:master:0>,
+	<storagenetwork:request:0>,
+	<storagenetwork:storage_kabel:0>,
 	<storagenetwork:upgrade:1>,
 	<storagenetwork:upgrade:2>,
 	<storagenetwork:upgrade:3>,
-	<storagenetwork:upgrade>
+	<storagenetwork:upgrade:0>
 ];
 
 function init() {

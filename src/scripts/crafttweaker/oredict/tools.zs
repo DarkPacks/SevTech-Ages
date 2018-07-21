@@ -36,20 +36,20 @@ for shear in shears {
 	Actually Additions Drills
 */
 for i in 0 to 16 {
-	var drill = <actuallyadditions:item_drill>.definition.makeStack(i);
+	var drill = <actuallyadditions:item_drill:0>.definition.makeStack(i);
 	<ore:toolDrill>.add(drill);
 }
 
 // Knightminer made me do it! XD
-<ore:knightTorch>.add(<minecraft:torch>);
-<ore:knightTorch>.add(<tconstruct:stone_torch>);
+<ore:knightTorch>.add(<minecraft:torch:0>);
+<ore:knightTorch>.add(<tconstruct:stone_torch:0>);
 
 <ore:torch>.add(<primal_tech:fibre_torch>);
 <ore:torch>.add(<primal_tech:fibre_torch_lit>);
 
 // AE Wrenches
-<ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench>);
-<ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench>);
+<ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench:0>);
+<ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench:0>);
 
 // Certus Quartz Charged (This is for IE Excavator support)
 <ore:crystalCertusQuartzCharged>.add(<appliedenergistics2:material:1>);

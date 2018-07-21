@@ -10,36 +10,36 @@ import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<spartanshields:shield_basic_stone>,
-		<spartanshields:shield_basic_wood>
+		<spartanshields:shield_basic_stone:0>,
+		<spartanshields:shield_basic_wood:0>
 	],
 
 	stageOne.stage: [
-		<spartanshields:shield_basic_bronze>,
-		<spartanshields:shield_basic_copper>,
-		<spartanshields:shield_basic_tin>
+		<spartanshields:shield_basic_bronze:0>,
+		<spartanshields:shield_basic_copper:0>,
+		<spartanshields:shield_basic_tin:0>
 	],
 
 	stageTwo.stage: [
-		<spartanshields:shield_basic_gold>,
-		<spartanshields:shield_basic_iron>
+		<spartanshields:shield_basic_gold:0>,
+		<spartanshields:shield_basic_iron:0>
 	],
 
 	stageThree.stage: [
-		<spartanshields:shield_basic_constantan>,
-		<spartanshields:shield_basic_electrum>,
-		<spartanshields:shield_basic_invar>,
-		<spartanshields:shield_basic_lead>,
-		<spartanshields:shield_basic_nickel>,
-		<spartanshields:shield_basic_obsidian>,
-		<spartanshields:shield_basic_platinum>,
-		<spartanshields:shield_basic_silver>,
-		<spartanshields:shield_basic_steel>
+		<spartanshields:shield_basic_constantan:0>,
+		<spartanshields:shield_basic_electrum:0>,
+		<spartanshields:shield_basic_invar:0>,
+		<spartanshields:shield_basic_lead:0>,
+		<spartanshields:shield_basic_nickel:0>,
+		<spartanshields:shield_basic_obsidian:0>,
+		<spartanshields:shield_basic_platinum:0>,
+		<spartanshields:shield_basic_silver:0>,
+		<spartanshields:shield_basic_steel:0>
 	],
 
 	stageFive.stage: [
-		<spartanshields:shield_basic_diamond>,
-		<spartanshields:shield_riot_rftools>
+		<spartanshields:shield_basic_diamond:0>,
+		<spartanshields:shield_riot_rftools:0>
 	]
 };
 

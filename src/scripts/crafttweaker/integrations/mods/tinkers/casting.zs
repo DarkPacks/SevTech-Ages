@@ -23,9 +23,9 @@ function init() {
 
 	// [IItemStack cast, IItemStack consumedItem]
 	var castCreationRecipes as IItemStack[][] = [
-		[<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent>], // Gem cast with Astral Sorcery Aquamarine
+		[<tconstruct:cast_custom:2>, <astralsorcery:itemcraftingcomponent:0>], // Gem cast with Astral Sorcery Aquamarine
 		// Gear Cast Allows Stone now. You're welcome. -________________- Oh, it's also made from stone so all the people don't get upset with me and call me names or tell me I don't know rocket surgery.
-		[<tconstruct:cast_custom:4>, <teslacorelib:gear_stone>],
+		[<tconstruct:cast_custom:4>, <teslacorelib:gear_stone:0>],
 		[<tconstruct:cast_custom:1>, <materialpart:stone:nugget>]
 	];
 
@@ -72,32 +72,32 @@ function init() {
 		var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^spartanshields:shield_basic_" + shieldMetal + ":0$")[0];
 		var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
 
-		tinkers.addCastingTable(shield, <spartanshields:shield_basic_wood>, liquid, 576, true);
+		tinkers.addCastingTable(shield, <spartanshields:shield_basic_wood:0>, liquid, 576, true);
 	}
 
 	/*
 		Standard Casting
 	*/
-	tinkers.removeCastingTable(<minecraft:glass_pane>);
-	tinkers.addCastingTable(<minecraft:glass_pane>, null, <liquid:glass>, 500);
+	tinkers.removeCastingTable(<minecraft:glass_pane:0>);
+	tinkers.addCastingTable(<minecraft:glass_pane:0>, null, <liquid:glass>, 500);
 
-	tinkers.removeCastingBasin(<tconstruct:clear_glass>);
-	tinkers.addCastingBasin(<minecraft:glass>, null, <liquid:glass>, 1000);
+	tinkers.removeCastingBasin(<tconstruct:clear_glass:0>);
+	tinkers.addCastingBasin(<minecraft:glass:0>, null, <liquid:glass>, 1000);
 
-	tinkers.addCastingTable(<minecraft:ender_pearl>, <tconstruct:cast>.withTag({PartType: "tconstruct:pan_head"}), <liquid:ender_pearl>, 250, false);
+	tinkers.addCastingTable(<minecraft:ender_pearl:0>, <tconstruct:cast:0>.withTag({PartType: "tconstruct:pan_head"}), <liquid:ender_pearl>, 250, false);
 	tinkers.addCastingBasin(<betterwithmods:aesthetic:8>, null, <liquid:ender_pearl>, 2250);
 
-	tinkers.addCastingTable(metals.steeleaf.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
+	tinkers.addCastingTable(metals.steeleaf.rod.firstItem, <tconstruct:cast:0>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.steeleaf.liquid.liquids[0], 144, false);
 
 	// Redstone Alloy Rod
 	// TODO: Is this being handled by metals?
-	tinkers.addCastingTable(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
+	tinkers.addCastingTable(metals.redstoneAlloy.rod.firstItem, <tconstruct:cast:0>.withTag({PartType: "tconstruct:tool_rod"}), metalItems.redstoneAlloy.liquid.liquids[0], 144, false);
 
 	// Nugget Removal
 	tinkers.removeCastingTable(<mysticalagriculture:crafting:45>); // Soulium Nugget
 
 	// Iron Chests
-	tinkers.addCastingBasin(<ironchest:iron_chest>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0], 1152, true, 300);
+	tinkers.addCastingBasin(<ironchest:iron_chest:0>, <ironchest:iron_chest:7>, metalItems.iron.liquid.liquids[0], 1152, true, 300);
 	tinkers.addCastingBasin(<ironchest:iron_chest:1>, <ironchest:iron_chest:7>, metalItems.gold.liquid.liquids[0], 1152, true, 300);
 	tinkers.addCastingBasin(<ironchest:iron_chest:3>, <ironchest:iron_chest:7>, metalItems.copper.liquid.liquids[0], 1152, true, 300);
 	tinkers.addCastingBasin(<ironchest:iron_chest:4>, <ironchest:iron_chest:7>, metalItems.silver.liquid.liquids[0], 1152, true, 300);
@@ -107,16 +107,16 @@ function init() {
 	// Slime Ball Casting
 	tinkers.addCastingTable(<tconstruct:edible:2>, null, <liquid:purpleslime>, 250, false, 40);
 	tinkers.addCastingTable(<tconstruct:edible:1>, null, <liquid:blueslime>, 250, false, 40);
-	tinkers.addCastingTable(<minecraft:slime_ball>, null, <liquid:slime>, 250, false, 40);
+	tinkers.addCastingTable(<minecraft:slime_ball:0>, null, <liquid:slime>, 250, false, 40);
 	tinkers.addCastingBasin(<tconstruct:slime_congealed:3>, null, <liquid:blood>, 640, false, 60);
 
-	tinkers.removeCastingBasin(<tconstruct:seared_furnace_controller>);
+	tinkers.removeCastingBasin(<tconstruct:seared_furnace_controller:0>);
 
 	// Liquid Redstone
-	tinkers.addCastingTable(<minecraft:redstone>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
-	tinkers.addCastingBasin(<minecraft:redstone_block>, null, <liquid:redstone>, 900);
+	tinkers.addCastingTable(<minecraft:redstone:0>, <tconstruct:cast_custom:2>, <liquid:redstone>, 100, false);
+	tinkers.addCastingBasin(<minecraft:redstone_block:0>, null, <liquid:redstone>, 900);
 
 	// Liquid Glowstone
-	tinkers.addCastingTable(<minecraft:glowstone_dust>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
-	tinkers.addCastingBasin(<minecraft:glowstone>, null, <liquid:glowstone>, 400);
+	tinkers.addCastingTable(<minecraft:glowstone_dust:0>, <tconstruct:cast_custom:2>, <liquid:glowstone>, 100, false);
+	tinkers.addCastingBasin(<minecraft:glowstone:0>, null, <liquid:glowstone>, 400);
 }

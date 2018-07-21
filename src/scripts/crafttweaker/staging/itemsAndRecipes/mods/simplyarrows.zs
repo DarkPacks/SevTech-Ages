@@ -7,18 +7,18 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageBaykok.stage: [
-		<simplyarrows:arrow_bone>,
-		<simplyarrows:arrow_flint>
+		<simplyarrows:arrow_bone:0>,
+		<simplyarrows:arrow_flint:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<simplyarrows:arrow_cake>,
-	<simplyarrows:arrow_flame>,
-	<simplyarrows:arrow_iron>,
-	<simplyarrows:arrow_love>,
-	<simplyarrows:arrow_tnt>,
-	<simplyarrows:arrow_torch>
+	<simplyarrows:arrow_cake:0>,
+	<simplyarrows:arrow_flame:0>,
+	<simplyarrows:arrow_iron:0>,
+	<simplyarrows:arrow_love:0>,
+	<simplyarrows:arrow_tnt:0>,
+	<simplyarrows:arrow_torch:0>
 ];
 
 function init() {

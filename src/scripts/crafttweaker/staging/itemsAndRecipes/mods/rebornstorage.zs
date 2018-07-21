@@ -10,15 +10,15 @@ static stagedItems as IIngredient[][string] = {
 		<rebornstorage:multicrafter:2>,
 		<rebornstorage:multicrafter:3>,
 		<rebornstorage:multicrafter:4>,
-		<rebornstorage:multicrafter>,
+		<rebornstorage:multicrafter:0>,
 		<rebornstorage:storagecell:1>,
 		<rebornstorage:storagecell:2>,
 		<rebornstorage:storagecell:3>,
-		<rebornstorage:storagecell>,
+		<rebornstorage:storagecell:0>,
 		<rebornstorage:storagecellfluid:1>,
 		<rebornstorage:storagecellfluid:2>,
 		<rebornstorage:storagecellfluid:3>,
-		<rebornstorage:storagecellfluid>,
+		<rebornstorage:storagecellfluid:0>,
 		<rebornstorage:storagepart:1>,
 		<rebornstorage:storagepart:2>,
 		<rebornstorage:storagepart:3>,
@@ -26,7 +26,7 @@ static stagedItems as IIngredient[][string] = {
 		<rebornstorage:storagepart:5>,
 		<rebornstorage:storagepart:6>,
 		<rebornstorage:storagepart:7>,
-		<rebornstorage:storagepart>
+		<rebornstorage:storagepart:0>
 	]
 };
 

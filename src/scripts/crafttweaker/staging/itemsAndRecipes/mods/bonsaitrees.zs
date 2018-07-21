@@ -7,7 +7,7 @@ import scripts.crafttweaker.stages.stageFour;
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
 		<bonsaitrees:bonsaipot:1>,
-		<bonsaitrees:bonsaipot>
+		<bonsaitrees:bonsaipot:0>
 	]
 };
 

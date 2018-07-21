@@ -23,18 +23,18 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<indlog:inv_connector> : [
+	<indlog:inv_connector:0> : [
 		[
 			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>],
-			[metals.aluminum.plate, <minecraft:ender_eye>, metals.aluminum.plate],
+			[metals.aluminum.plate, <minecraft:ender_eye:0>, metals.aluminum.plate],
 			[<indlog:buffer:10>, <indlog:buffer:10>, <indlog:buffer:10>]
 		]
 	],
 	<indlog:buffer:1> : [
 		[
-			[sidingWood, <minecraft:iron_bars>, sidingWood],
-			[<minecraft:iron_bars>, <minecraft:chest>, <minecraft:iron_bars>],
-			[sidingWood, <minecraft:iron_bars>, sidingWood]
+			[sidingWood, <minecraft:iron_bars:0>, sidingWood],
+			[<minecraft:iron_bars:0>, <minecraft:chest:0>, <minecraft:iron_bars:0>],
+			[sidingWood, <minecraft:iron_bars:0>, sidingWood]
 		]
 	],
 	<indlog:buffer:5> : [
@@ -53,44 +53,44 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<indlog:buffer:13> : [
 		[
-			[<minecraft:ender_eye>, metals.platinum.gear, <minecraft:ender_eye>],
+			[<minecraft:ender_eye:0>, metals.platinum.gear, <minecraft:ender_eye:0>],
 			[metals.platinum.gear, <indlog:buffer:9>, metals.platinum.gear],
 			[metals.platinum.plate, metals.platinum.gear, metals.platinum.plate]
 		]
 	],
-	<indlog:fluid_pipe> * 8: [
+	<indlog:fluid_pipe:0> * 8: [
 		[
-			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
-			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
-			[<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>]
+			[<appliedenergistics2:quartz_glass:0>, <appliedenergistics2:quartz_glass:0>, <appliedenergistics2:quartz_glass:0>],
+			[<minecraft:iron_bars:0>, null, <minecraft:iron_bars:0>],
+			[<appliedenergistics2:quartz_glass:0>, <appliedenergistics2:quartz_glass:0>, <appliedenergistics2:quartz_glass:0>]
 		]
 	],
 	<indlog:fluid_pipe:1> * 4 : [
 		[
-			[null, <indlog:fluid_pipe>, null],
-			[<indlog:fluid_pipe>, <minecraft:piston>, <indlog:fluid_pipe>],
-			[null, <indlog:fluid_pipe>, null]
+			[null, <indlog:fluid_pipe:0>, null],
+			[<indlog:fluid_pipe:0>, <minecraft:piston:0>, <indlog:fluid_pipe:0>],
+			[null, <indlog:fluid_pipe:0>, null]
 		]
 	],
 	<indlog:fluid_pipe:2> * 4 : [
 		[
 			[null, <indlog:fluid_pipe:1>, null],
-			[<indlog:fluid_pipe:1>, <thebetweenlands:octine_ingot>, <indlog:fluid_pipe:1>],
+			[<indlog:fluid_pipe:1>, <thebetweenlands:octine_ingot:0>, <indlog:fluid_pipe:1>],
 			[null, <indlog:fluid_pipe:1>, null]
 		]
 	],
-	<indlog:item_pipe> * 8: [
+	<indlog:item_pipe:0> * 8: [
 		[
 			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>],
-			[<minecraft:iron_bars>, null, <minecraft:iron_bars>],
+			[<minecraft:iron_bars:0>, null, <minecraft:iron_bars:0>],
 			[<pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>, <pneumaticcraft:plastic:3>]
 		]
 	],
 	<indlog:item_pipe:1> * 4: [
 		[
-			[null, <indlog:item_pipe>, null],
-			[<indlog:item_pipe>, <pneumaticcraft:plastic:2>, <indlog:item_pipe>],
-			[null, <indlog:item_pipe>, null]
+			[null, <indlog:item_pipe:0>, null],
+			[<indlog:item_pipe:0>, <pneumaticcraft:plastic:2>, <indlog:item_pipe:0>],
+			[null, <indlog:item_pipe:0>, null]
 		]
 	],
 	<indlog:item_pipe:2> * 4: [
@@ -100,14 +100,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <indlog:item_pipe:1>, null]
 		]
 	],
-	<indlog:warp_pipe> * 12: [
+	<indlog:warp_pipe:0> * 12: [
 		[
-			[<indlog:fluid_pipe>, <indlog:fluid_pipe>, <indlog:fluid_pipe>],
-			[<minecraft:ender_eye>, <quark:biotite_block>, <minecraft:ender_eye>],
-			[<indlog:item_pipe>, <indlog:item_pipe>, <indlog:item_pipe>]
+			[<indlog:fluid_pipe:0>, <indlog:fluid_pipe:0>, <indlog:fluid_pipe:0>],
+			[<minecraft:ender_eye:0>, <quark:biotite_block:0>, <minecraft:ender_eye:0>],
+			[<indlog:item_pipe:0>, <indlog:item_pipe:0>, <indlog:item_pipe:0>]
 		]
 	],
-	<indlog:tank>: [
+	<indlog:tank:0>: [
 		[
 			[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
 			[<ore:paneGlass>, <mob_grinding_utils:tank>, <ore:paneGlass>],
@@ -121,9 +121,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <ore:blockGlass>, null]
 		],
 		[
-			[<indlog:tank>, <indlog:tank>, <indlog:tank>],
-			[<indlog:tank>, null, <indlog:tank>],
-			[<indlog:tank>, <indlog:tank>, <indlog:tank>]
+			[<indlog:tank:0>, <indlog:tank:0>, <indlog:tank:0>],
+			[<indlog:tank:0>, null, <indlog:tank:0>],
+			[<indlog:tank:0>, <indlog:tank:0>, <indlog:tank:0>]
 		]
 	],
 	<indlog:tank:2>: [
@@ -147,9 +147,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<indlog:tank:4>: [
 		[
-			[null, <quark:biotite_block>, null],
-			[<minecraft:purpur_block>, <indlog:tank:3>, <minecraft:purpur_block>],
-			[null, <quark:biotite_block>, null]
+			[null, <quark:biotite_block:0>, null],
+			[<minecraft:purpur_block:0>, <indlog:tank:3>, <minecraft:purpur_block:0>],
+			[null, <quark:biotite_block:0>, null]
 		]
 	],
 	<indlog:tank:5>: [
@@ -161,9 +161,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<indlog:tank:6>: [
 		[
-			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>],
-			[<minecraft:nether_star>, <indlog:tank:5>, <minecraft:nether_star>],
-			[<minecraft:ender_eye>, <minecraft:end_stone>, <minecraft:ender_eye>]
+			[<minecraft:ender_eye:0>, <minecraft:end_stone:0>, <minecraft:ender_eye:0>],
+			[<minecraft:nether_star:0>, <indlog:tank:5>, <minecraft:nether_star:0>],
+			[<minecraft:ender_eye:0>, <minecraft:end_stone:0>, <minecraft:ender_eye:0>]
 		]
 	],
 	<indlog:tank:7>: [
@@ -180,10 +180,10 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<indlog:tank:7>, <indlog:tank:7>, <indlog:tank:7>]
 		]
 	],
-	<indlog:remote_inv>: [
+	<indlog:remote_inv:0>: [
 		[
-			[<indlog:item_pipe:2>, <indlog:warp_pipe>, <indlog:item_pipe:1>],
-			[<indlog:item_pipe:2>, <minecraft:ender_chest>, <indlog:item_pipe:1>],
+			[<indlog:item_pipe:2>, <indlog:warp_pipe:0>, <indlog:item_pipe:1>],
+			[<indlog:item_pipe:2>, <minecraft:ender_chest:0>, <indlog:item_pipe:1>],
 			[<immersiveengineering:material:4>, <indlog:tank:6>, <immersiveengineering:material:4>]
 		]
 	]
@@ -266,12 +266,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	    [<indlog:buffer:3>]
 	],
 	<indlog:buffer:1> : [
-		[<indlog:buffer>, <indlog:buffer>]
+		[<indlog:buffer:0>, <indlog:buffer:0>]
 	],
 	<indlog:buffer:1> * 2 : [
 	    [<indlog:buffer:2>]
 	],
-	<indlog:buffer> * 2 : [
+	<indlog:buffer:0> * 2 : [
 	    [<indlog:buffer:1>]
 	]
 };
@@ -297,15 +297,15 @@ static removeRecipes as IIngredient[] = [
 	<indlog:buffer:13>,
 	<indlog:buffer:14>,
 	<indlog:buffer:15>,
-	<indlog:buffer>,
+	<indlog:buffer:0>,
 	<indlog:fluid_pipe:1>,
 	<indlog:fluid_pipe:2>,
-	<indlog:fluid_pipe>,
-	<indlog:inv_connector>,
+	<indlog:fluid_pipe:0>,
+	<indlog:inv_connector:0>,
 	<indlog:item_pipe:1>,
 	<indlog:item_pipe:2>,
-	<indlog:item_pipe>,
-	<indlog:remote_inv>,
+	<indlog:item_pipe:0>,
+	<indlog:remote_inv:0>,
 	<indlog:tank:1>,
 	<indlog:tank:2>,
 	<indlog:tank:3>,
@@ -313,8 +313,8 @@ static removeRecipes as IIngredient[] = [
 	<indlog:tank:5>,
 	<indlog:tank:6>,
 	<indlog:tank:7>,
-	<indlog:tank>,
-	<indlog:warp_pipe>
+	<indlog:tank:0>,
+	<indlog:warp_pipe:0>
 ];
 
 function init() {

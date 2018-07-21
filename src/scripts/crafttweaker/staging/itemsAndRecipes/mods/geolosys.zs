@@ -13,13 +13,13 @@ static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
 		<geolosys:cluster:2>,
 		<geolosys:cluster:3>,
-		<geolosys:field_manual>,
-		<geolosys:ore_sample_vanilla>,
+		<geolosys:field_manual:0>,
+		<geolosys:ore_sample_vanilla:0>,
 		<geolosys:ore_sample:2>,
 		<geolosys:ore_sample:3>,
 		<geolosys:ore_sample:4>,
 		<geolosys:ore_sample:5>,
-		<geolosys:ore_vanilla>,
+		<geolosys:ore_vanilla:0>,
 		<geolosys:ore:2>,
 		<geolosys:ore:3>,
 		<geolosys:ore:4>,
@@ -28,13 +28,13 @@ static stagedItems as IIngredient[][string] = {
 
 	stageTwo.stage: [
 		<geolosys:cluster:1>,
-		<geolosys:cluster>,
+		<geolosys:cluster:0>,
 		<geolosys:ore_sample_vanilla:2>,
 		<geolosys:ore_sample_vanilla:3>,
-		<geolosys:ore_sample>,
+		<geolosys:ore_sample:0>,
 		<geolosys:ore_vanilla:2>,
 		<geolosys:ore_vanilla:3>,
-		<geolosys:ore>
+		<geolosys:ore:0>
 	],
 
 	stageThree.stage: [

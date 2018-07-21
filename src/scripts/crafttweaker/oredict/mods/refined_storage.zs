@@ -7,4 +7,4 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-<ore:itemSilicon>.add(<refinedstorage:silicon>);
+<ore:itemSilicon>.add(<refinedstorage:silicon:0>);

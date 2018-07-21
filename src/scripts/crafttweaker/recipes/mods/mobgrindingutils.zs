@@ -16,16 +16,16 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<mob_grinding_utils:tank_sink>: [
 		[
-			[null, <minecraft:iron_bars>, null],
-			[<minecraft:ender_eye>, <pneumaticcraft:liquid_hopper>, <minecraft:ender_eye>],
+			[null, <minecraft:iron_bars:0>, null],
+			[<minecraft:ender_eye:0>, <pneumaticcraft:liquid_hopper:0>, <minecraft:ender_eye:0>],
 			[null, <mob_grinding_utils:tank>, null]
 		]
 	],
 	<mob_grinding_utils:saw>: [
 		[
-			[<minecraft:iron_sword>, <appliedenergistics2:material>, <minecraft:iron_sword>],
-			[<mob_grinding_utils:spikes>, <minecraft:redstone_block>, <mob_grinding_utils:spikes>],
-			[<appliedenergistics2:material>, metals.iron.block, <appliedenergistics2:material>]
+			[<minecraft:iron_sword:0>, <appliedenergistics2:material:0>, <minecraft:iron_sword:0>],
+			[<mob_grinding_utils:spikes>, <minecraft:redstone_block:0>, <mob_grinding_utils:spikes>],
+			[<appliedenergistics2:material:0>, metals.iron.block, <appliedenergistics2:material:0>]
 		]
 	]
 };

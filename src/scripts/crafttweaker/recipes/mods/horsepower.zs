@@ -16,23 +16,23 @@ import scripts.crafttweaker.craftingUtils;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<horsepower:hand_grindstone>: [
+	<horsepower:hand_grindstone:0>: [
 		[
 			[null, <ore:stickWood>.firstItem, null],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
-	<horsepower:grindstone>: [
+	<horsepower:grindstone:0>: [
 		[
-			[<minecraft:lead>, <ore:stickWood>.firstItem, <minecraft:lead>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
-			[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
+			[<minecraft:lead:0>, <ore:stickWood>.firstItem, <minecraft:lead:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
+			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
-	<horsepower:press>: [
+	<horsepower:press:0>: [
 		[
-			[<minecraft:lead>, <ore:stickWood>.firstItem, <minecraft:lead>],
+			[<minecraft:lead:0>, <ore:stickWood>.firstItem, <minecraft:lead:0>],
 			[<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
 			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 		]
@@ -52,8 +52,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<horsepower:dough>: [
-		[<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)],
+	<horsepower:dough:0>: [
+		[<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
 		[<ore:foodFlour>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
 		[<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
@@ -65,10 +65,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<horsepower:dough>,
-	<horsepower:grindstone>,
-	<horsepower:hand_grindstone>,
-	<horsepower:press>,
+	<horsepower:dough:0>,
+	<horsepower:grindstone:0>,
+	<horsepower:hand_grindstone:0>,
+	<horsepower:press:0>,
 ];
 
 function init() {

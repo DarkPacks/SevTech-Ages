@@ -19,7 +19,7 @@ import mods.betterwithmods.Saw;
 	Recipes to be removed from the Kiln.
 */
 static kilnRemovals as IItemStack[][] = [
-	[<minecraft:bread>]
+	[<minecraft:bread:0>]
 ];
 
 /*
@@ -41,7 +41,7 @@ static millRemovals as IItemStack[][] = [
 	Recipes to be removed from the Soaking Box.
 */
 static soakingRemovals as IItemStack[] = [
-	<betterwithaddons:log_mulberry>,
+	<betterwithaddons:log_mulberry:0>,
 	<betterwithaddons:japanmat:36>
 ];
 
@@ -56,7 +56,7 @@ static cauldronRemovals as IItemStack[][] = [
 	[<betterwithmods:material:12> * 3],
 	[<betterwithmods:material:12> * 4],
 	[<betterwithmods:material:6>],
-	[<rustic:tallow>],
+	[<rustic:tallow:0>],
 	// Remove Cut Leather (Tanned) from Cauldron and oredict
 	[<betterwithmods:material:32> * 2],
 	// Remove Pot As recipes because a single recipe with all wooden items is confusing.
@@ -70,8 +70,8 @@ static cauldronRemovals as IItemStack[][] = [
 static crucibleRemovals as IItemStack[][] = [
 	[<betterwithaddons:decomat:3>],
 	[<betterwithaddons:decomat:3> * 2],
-	[<minecraft:glass>],
-	[<minecraft:iron_ingot> * 3]
+	[<minecraft:glass:0>],
+	[<minecraft:iron_ingot:0> * 3]
 ];
 
 /*
@@ -79,69 +79,69 @@ static crucibleRemovals as IItemStack[][] = [
 */
 static sawRemovals as IItemStack[][] = [
 	//Sawing Corners only give 1 gear instead of 2
-	[<betterwithmods:material> * 2],
+	[<betterwithmods:material:0> * 2],
 
-	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material>, <minecraft:iron_ingot> * 2],
-	[<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material>, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2],
-	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material> * 3, <betterwithmods:material:34>],
-	[<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot>, <betterwithmods:material>, <betterwithmods:material:34>],
-	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material>, <minecraft:wooden_pressure_plate>],
-	[<betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond>]
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <betterwithmods:material:9>, <betterwithmods:material:0>, <minecraft:iron_ingot:0> * 2],
+	[<betterwithmods:material:32> * 3, <betterwithmods:material:9>, <betterwithmods:material:0>, <betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 2],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0> * 3, <betterwithmods:material:34>],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot:0>, <betterwithmods:material:0>, <betterwithmods:material:34>],
+	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0>, <minecraft:wooden_pressure_plate:0>],
+	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
 ];
 
 /*
 	Pelt Mapping for both Large and Standard.
 */
 static pelts as IIngredient[] = [
-	<minecraft:rabbit_hide>,
-	<primal:pelt_animal>,
-	<primal:pelt_dog>,
-	<primal:pelt_gator>,
-	<primal:pelt_ovis>,
-	<primal:pelt_pig>,
-	<primal:pelt_shark>,
-	<primal:pelt_sheep>,
-	<primal:pelt_wolf>
+	<minecraft:rabbit_hide:0>,
+	<primal:pelt_animal:0>,
+	<primal:pelt_dog:0>,
+	<primal:pelt_gator:0>,
+	<primal:pelt_ovis:0>,
+	<primal:pelt_pig:0>,
+	<primal:pelt_shark:0>,
+	<primal:pelt_sheep:0>,
+	<primal:pelt_wolf:0>
 ];
 static largePelts as IIngredient[] = [
-	<primal:pelt_animal_large>,
-	<primal:pelt_bear_black>,
-	<primal:pelt_bear_brown>,
-	<primal:pelt_bear_polar>,
-	<primal:pelt_cow>,
-	<primal:pelt_donkey>,
-	<primal:pelt_horse>,
-	<primal:pelt_llama>,
-	<primal:pelt_mooshroom>,
-	<primal:pelt_mule>
+	<primal:pelt_animal_large:0>,
+	<primal:pelt_bear_black:0>,
+	<primal:pelt_bear_brown:0>,
+	<primal:pelt_bear_polar:0>,
+	<primal:pelt_cow:0>,
+	<primal:pelt_donkey:0>,
+	<primal:pelt_horse:0>,
+	<primal:pelt_llama:0>,
+	<primal:pelt_mooshroom:0>,
+	<primal:pelt_mule:0>
 ];
 
 // TODO: USE THIS FOR THE REST OF RECIPE ADDITIONS!
 
 // [Outputs] : [Inputs]
 static sawRecipes as IIngredient[][IItemStack[]]  = {
-	[<minecraft:stick> * 2]: [
+	[<minecraft:stick:0> * 2]: [
 		<minecraft:leaves:*>,
 		<minecraft:leaves2:*>,
-		<abyssalcraft:dltleaves>,
-		<abyssalcraft:dreadleaves>,
-		<betterwithmods:blood_leaves>,
-		<betterwithaddons:leaves_luretree>,
-		<betterwithaddons:leaves_mulberry>,
-		<betterwithaddons:leaves_sakura>,
+		<abyssalcraft:dltleaves:0>,
+		<abyssalcraft:dreadleaves:0>,
+		<betterwithmods:blood_leaves:0>,
+		<betterwithaddons:leaves_luretree:0>,
+		<betterwithaddons:leaves_mulberry:0>,
+		<betterwithaddons:leaves_sakura:0>,
 		<natura:overworld_leaves:*>,
 		<natura:overworld_leaves2:*>,
-		<natura:redwood_leaves>,
+		<natura:redwood_leaves:0>,
 		<natura:nether_leaves:*>,
 		<natura:nether_leaves2:*>,
-		<rustic:leaves_apple>,
+		<rustic:leaves_apple:0>,
 		<twilightforest:twilight_leaves:*>,
-		<twilightforest:magic_leaves>,
-		<totemic:cedar_leaves>,
-		<traverse:fir_leaves>
+		<twilightforest:magic_leaves:0>,
+		<totemic:cedar_leaves:0>,
+		<traverse:fir_leaves:0>
 	],
-	[<betterwithmods:material>]: [ MiniBlocks.getMiniBlock("corner", <ore:plankWood>) ],
-	[<minecraft:melon> * 9]: [ <minecraft:melon_block> ]
+	[<betterwithmods:material:0>]: [ MiniBlocks.getMiniBlock("corner", <ore:plankWood>) ],
+	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ]
 };
 
 function init() {
@@ -194,12 +194,12 @@ function init() {
 
 	// Turntable
 	Turntable.builder()
-		.buildRecipe(<ceramics:clay_barrel_unfired>, [])
+		.buildRecipe(<ceramics:clay_barrel_unfired:0>, [])
 		.setProductState(<ceramics:clay_barrel_unfired:1>)
 		.build();
 	Turntable.builder()
 		.buildRecipe(<ceramics:clay_barrel_unfired:1>, [])
-		.setProductState(<ceramics:clay_bucket_block>)
+		.setProductState(<ceramics:clay_bucket_block:0>)
 		.build();
 
 	// Mill
@@ -208,43 +208,43 @@ function init() {
 	betterWithMods.addMilling([<actuallyadditions:item_food:16>], [<betterwithaddons:japanmat:4>]);
 
 	// THERE CAN BE ONLY 1 FLOUR!
-	betterWithMods.addMilling([<minecraft:wheat>], [<horsepower:flour>]);
-	betterWithMods.addMilling([<natura:materials>], [<natura:materials:1>]);
+	betterWithMods.addMilling([<minecraft:wheat:0>], [<horsepower:flour:0>]);
+	betterWithMods.addMilling([<natura:materials:0>], [<natura:materials:1>]);
 
 	// Other
-	betterWithMods.addMilling([<minecraft:flint>, <minecraft:clay_ball>, <pickletweaks:dye_powder>], [<ceramics:unfired_clay:4>]);
-	betterWithMods.addMilling([<minecraft:sand>, <minecraft:clay_ball>, <minecraft:gravel>], [<tconstruct:soil> * 2]);
+	betterWithMods.addMilling([<minecraft:flint:0>, <minecraft:clay_ball:0>, <pickletweaks:dye_powder:0>], [<ceramics:unfired_clay:4>]);
+	betterWithMods.addMilling([<minecraft:sand:0>, <minecraft:clay_ball:0>, <minecraft:gravel:0>], [<tconstruct:soil:0> * 2]);
 	betterWithMods.addMilling([<actuallyadditions:block_misc:3>], [<actuallyadditions:item_dust:7>]);
-	betterWithMods.addMilling([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent> * 1]);
-	betterWithMods.addMilling([<primal_tech:flint_block>], [<minecraft:flint> * 2]);
-	betterWithMods.addMilling([<charcoalblock:charcoal_block>], [<minecraft:coal:1> * 9]);
+	betterWithMods.addMilling([<materialpart:aquamarine:ore_minecraft_stone>], [<astralsorcery:itemcraftingcomponent:0> * 1]);
+	betterWithMods.addMilling([<primal_tech:flint_block>], [<minecraft:flint:0> * 2]);
+	betterWithMods.addMilling([<charcoalblock:charcoal_block:0>], [<minecraft:coal:1> * 9]);
 	betterWithMods.addMilling([<primal_tech:charcoal_block>], [<minecraft:coal:1> * 4]);
-	betterWithMods.addMilling([<minecraft:coal_block>], [<minecraft:coal> * 9]);
-	betterWithMods.addMilling([<minecraft:cobblestone>], [<tconstruct:stone_stick> * 1]);
+	betterWithMods.addMilling([<minecraft:coal_block:0>], [<minecraft:coal:0> * 9]);
+	betterWithMods.addMilling([<minecraft:cobblestone:0>], [<tconstruct:stone_stick:0> * 1]);
 	betterWithMods.addMilling([<astralsorcery:itemcraftingcomponent:1>], [<astralsorcery:itemcraftingcomponent:2>]);
-	betterWithMods.addMilling([<minecraft:quartz>], [<actuallyadditions:item_dust:5>]);
-	betterWithMods.addMilling([<primal:sharp_bone>], [<primal:bone_knapp>]);
-	betterWithMods.addMilling([<primal:shark_tooth>], [<minecraft:dye:15> * 2]);
+	betterWithMods.addMilling([<minecraft:quartz:0>], [<actuallyadditions:item_dust:5>]);
+	betterWithMods.addMilling([<primal:sharp_bone:0>], [<primal:bone_knapp:0>]);
+	betterWithMods.addMilling([<primal:shark_tooth:0>], [<minecraft:dye:15> * 2]);
 
 	// Bark
 	for bark in <ore:barkWood>.items {
-		betterWithMods.addMilling([bark], [<primal:tannin_ground> * 2]);
+		betterWithMods.addMilling([bark], [<primal:tannin_ground:0> * 2]);
 	}
 
 	// Spindle
-	betterWithMods.addSpindle([<primal:leather_cordage>], <primal:leather_strip> * 4, false);
+	betterWithMods.addSpindle([<primal:leather_cordage:0>], <primal:leather_strip:0> * 4, false);
 
 	// Condensed
-	Condensed.setContainer(<betterwithaddons:bolt>, <betterwithaddons:spindle>);
+	Condensed.setContainer(<betterwithaddons:bolt:0>, <betterwithaddons:spindle:0>);
 
 	// Cauldron
-	betterWithMods.addCauldron([<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<betterwithmods:material:12>]);
-	betterWithMods.addCauldron([<primal:pigman_hide_raw>], [<betterwithmods:material:12> * 2]);
-	betterWithMods.addCauldron([<animalium:wild_dog_pelt>], [<betterwithmods:material:12>]);
-	betterWithMods.addCauldron([<totemic:buffalo_items>], [<betterwithmods:material:12> * 2]);
-	betterWithMods.addCauldron([<primal:wolf_head_item>], [<betterwithmods:material:12>, <primal:bone_knapp>]);
+	betterWithMods.addCauldron([<minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>], [<betterwithmods:material:12>]);
+	betterWithMods.addCauldron([<primal:pigman_hide_raw:0>], [<betterwithmods:material:12> * 2]);
+	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);
+	betterWithMods.addCauldron([<totemic:buffalo_items:0>], [<betterwithmods:material:12> * 2]);
+	betterWithMods.addCauldron([<primal:wolf_head_item:0>], [<betterwithmods:material:12>, <primal:bone_knapp:0>]);
 	// Remake laxative recipe using foodFlour instead of BWM flour only.
-	betterWithMods.addCauldron([<betterwithaddons:food_mulberry> * 3, <minecraft:sugar>, <ore:foodFlour>], [<betterwithaddons:laxative>]);
+	betterWithMods.addCauldron([<betterwithaddons:food_mulberry:0> * 3, <minecraft:sugar:0>, <ore:foodFlour>], [<betterwithaddons:laxative:0>]);
 
 	//==============================
 	// Stoked

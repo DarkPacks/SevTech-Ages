@@ -13,7 +13,7 @@ function init() {
 	*/
 
 	// Add a recipe to make Sulfer using the Chemical Injection. TODO: Use the resources global once completed.
-	mekanism.addChemicalInjection(<minecraft:gunpowder>, <gas:hydrogenChloride>, <ore:dustSulfur>.firstItem);
+	mekanism.addChemicalInjection(<minecraft:gunpowder:0>, <gas:hydrogenChloride>, <ore:dustSulfur>.firstItem);
 
 	/*
 		Combiner Recipes
@@ -29,29 +29,29 @@ function init() {
 	mekanism.removeCombiner(<geolosys:cluster:8>);
 	mekanism.removeCombiner(<geolosys:cluster:9>);
 	mekanism.removeCombiner(<geolosys:cluster:12>);
-	mekanism.removeCombiner(<minecraft:iron_ore>);
-	mekanism.removeCombiner(<minecraft:gold_ore>);
-	mekanism.removeCombiner(<minecraft:coal_ore>);
-	mekanism.removeCombiner(<minecraft:diamond_ore>);
-	mekanism.removeCombiner(<minecraft:redstone_ore>);
-	mekanism.removeCombiner(<minecraft:emerald_ore>);
+	mekanism.removeCombiner(<minecraft:iron_ore:0>);
+	mekanism.removeCombiner(<minecraft:gold_ore:0>);
+	mekanism.removeCombiner(<minecraft:coal_ore:0>);
+	mekanism.removeCombiner(<minecraft:diamond_ore:0>);
+	mekanism.removeCombiner(<minecraft:redstone_ore:0>);
+	mekanism.removeCombiner(<minecraft:emerald_ore:0>);
 
 	/*
 		Enrichment Recipes
 	*/
 
 	// Obsidian Fix
-	mekanism.removeEnrichment(<minecraft:obsidian>);
-	mekanism.addEnrichment(<minecraft:obsidian>, <ore:dustObsidian>.firstItem * 4);
+	mekanism.removeEnrichment(<minecraft:obsidian:0>);
+	mekanism.addEnrichment(<minecraft:obsidian:0>, <ore:dustObsidian>.firstItem * 4);
 
 	/*
 		Metallurgic Infuser
 	*/
-	mekanism.addInfusion("OBSIDIAN", 20, <ore:oreCheese>.firstItem, <appliedenergistics2:sky_stone_block> * 2);
-	mekanism.addInfusion("OBSIDIAN", 20, <galacticraftcore:cheese_curd>, <appliedenergistics2:sky_stone_block>);
+	mekanism.addInfusion("OBSIDIAN", 20, <ore:oreCheese>.firstItem, <appliedenergistics2:sky_stone_block:0> * 2);
+	mekanism.addInfusion("OBSIDIAN", 20, <galacticraftcore:cheese_curd:0>, <appliedenergistics2:sky_stone_block:0>);
 
 	// Correct steel dust
-	mekanism.addInfusion("CARBON", 10, <mekanism:enrichediron>, metals.steel.dust.firstItem);
+	mekanism.addInfusion("CARBON", 10, <mekanism:enrichediron:0>, metals.steel.dust.firstItem);
 
 	mekanism.addInfusion("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest:2>);
 }

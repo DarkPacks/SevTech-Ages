@@ -6,9 +6,9 @@ import scripts.crafttweaker.stages.stageFive;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<enderstorage:ender_pouch>,
+		<enderstorage:ender_pouch:0>,
 		<enderstorage:ender_storage:1>,
-		<enderstorage:ender_storage>
+		<enderstorage:ender_storage:0>
 	]
 };
 

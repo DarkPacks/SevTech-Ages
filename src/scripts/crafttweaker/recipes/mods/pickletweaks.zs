@@ -24,81 +24,81 @@ import scripts.crafttweaker.stages.stageFive;
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Bronze Tools
-	<pickletweaks:bronze_sword> : [
+	<pickletweaks:bronze_sword:0> : [
 		[
 			[null, metals.bronze.plate, null],
 			[null, metals.bronze.plate, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:bronze_pickaxe> : [
+	<pickletweaks:bronze_pickaxe:0> : [
 		[
 			[metals.bronze.plate, metals.bronze.plate, metals.bronze.plate],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:bronze_shovel> : [
+	<pickletweaks:bronze_shovel:0> : [
 		[
 			[null, metals.bronze.plate, null],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:bronze_axe> : [
+	<pickletweaks:bronze_axe:0> : [
 		[
 			[metals.bronze.plate, metals.bronze.plate, null],
-			[metals.bronze.plate, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[metals.bronze.plate, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:bronze_hoe> : [
+	<pickletweaks:bronze_hoe:0> : [
 		[
 			[metals.bronze.plate, metals.bronze.plate, null],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
 	// Copper Tools
-	<pickletweaks:copper_sword> : [
+	<pickletweaks:copper_sword:0> : [
 		[
 			[null, metals.copper.plate, null],
 			[null, metals.copper.plate, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:copper_pickaxe> : [
+	<pickletweaks:copper_pickaxe:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, metals.copper.plate],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:copper_shovel> : [
+	<pickletweaks:copper_shovel:0> : [
 		[
 			[null, metals.copper.plate, null],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:copper_axe> : [
+	<pickletweaks:copper_axe:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, null],
-			[metals.copper.plate, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[metals.copper.plate, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:copper_hoe> : [
+	<pickletweaks:copper_hoe:0> : [
 		[
 			[metals.copper.plate, metals.copper.plate, null],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<pickletweaks:watering_can> : [
+	<pickletweaks:watering_can:0> : [
 		[
-			[metals.iron.plate, <actuallyadditions:item_fertilizer>, null],
-			[metals.iron.plate, <minecraft:bucket>, metals.iron.plate],
+			[metals.iron.plate, <actuallyadditions:item_fertilizer:0>, null],
+			[metals.iron.plate, <minecraft:bucket:0>, metals.iron.plate],
 			[null, metals.iron.plate, null]
 		]
 	]
@@ -111,10 +111,10 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
     Mirrored Recipes
 */
 static mirroredRecipes as IIngredient[][][][IItemStack] = {
-	<pickletweaks:grass_mesh>: [
+	<pickletweaks:grass_mesh:0>: [
 		[
-			[<minecraft:stick>, <primal:plant_cordage>],
-			[<primal:plant_cordage>, <minecraft:stick>]
+			[<minecraft:stick:0>, <primal:plant_cordage:0>],
+			[<primal:plant_cordage:0>, <minecraft:stick:0>]
 		]
 	]
 };
@@ -126,8 +126,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<pickletweaks:coal_piece> * 8: [
-		[<minecraft:coal>]
+	<pickletweaks:coal_piece:0> * 8: [
+		[<minecraft:coal:0>]
 	],
 	<pickletweaks:coal_piece:1> * 8: [
 		[<minecraft:coal:1>]
@@ -184,9 +184,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IIngredient[] = [
 	<pickletweaks:dye_powder:*>,
-	<pickletweaks:grass_mesh>,
-	<pickletweaks:mesh>,
-	<pickletweaks:watering_can>
+	<pickletweaks:grass_mesh:0>,
+	<pickletweaks:mesh:0>,
+	<pickletweaks:watering_can:0>
 ];
 
 function init() {

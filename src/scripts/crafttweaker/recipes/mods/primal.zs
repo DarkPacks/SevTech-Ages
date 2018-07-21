@@ -24,106 +24,106 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<primal:slab_yew> * 3 : [
+	<primal:slab_yew:0> * 3 : [
 		[
 			[<primal:planks:1>,<primal:planks:1>, <primal:planks:1>]
 		]
 	],
-	<primal:armor_wolf_body> : [
+	<primal:armor_wolf_body:0> : [
 		[
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, <primal:pelt_wolf>, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, <primal:pelt_wolf>, <primal:pelt_wolf>]
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, <primal:pelt_wolf:0>, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, <primal:pelt_wolf:0>, <primal:pelt_wolf:0>]
 		]
 	],
-	<primal:armor_wolf_feet> : [
+	<primal:armor_wolf_feet:0> : [
 		[
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>]
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>]
 		]
 	],
-	<primal:armor_wolf_head> : [
+	<primal:armor_wolf_head:0> : [
 		[
-			[<primal:pelt_wolf>, <primal:wolf_head_item>, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>]
+			[<primal:pelt_wolf:0>, <primal:wolf_head_item:0>, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>]
 		]
 	],
-	<primal:armor_wolf_legs> : [
+	<primal:armor_wolf_legs:0> : [
 		[
-			[<primal:pelt_wolf>, <primal:pelt_wolf>, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>],
-			[<primal:pelt_wolf>, null, <primal:pelt_wolf>]
+			[<primal:pelt_wolf:0>, <primal:pelt_wolf:0>, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>],
+			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>]
 		]
 	],
-	<primal:slab_ironwood> * 3 : [
+	<primal:slab_ironwood:0> * 3 : [
 		[
 			[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]
 		]
 	],
-	<primal:slat_acacia> * 3 : [
+	<primal:slat_acacia:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]
 		]
 	],
-	<primal:slat_bigoak> * 3 : [
+	<primal:slat_bigoak:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]
 		]
 	],
-	<primal:slat_birch> * 3 : [
+	<primal:slat_birch:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]
 		]
 	],
-	<primal:slat_corypha> * 3 : [
+	<primal:slat_corypha:0> * 3 : [
 		[
-			[<primal:slab_corypha>, <primal:slab_corypha>, <primal:slab_corypha>],
+			[<primal:slab_corypha:0>, <primal:slab_corypha:0>, <primal:slab_corypha:0>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<primal:slab_corypha>, <primal:slab_corypha>, <primal:slab_corypha>]
+			[<primal:slab_corypha:0>, <primal:slab_corypha:0>, <primal:slab_corypha:0>]
 		]
 	],
-	<primal:slat_ironwood> * 3 : [
+	<primal:slat_ironwood:0> * 3 : [
 		[
-			[<primal:slab_ironwood>, <primal:slab_ironwood>, <primal:slab_ironwood>],
+			[<primal:slab_ironwood:0>, <primal:slab_ironwood:0>, <primal:slab_ironwood:0>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<primal:slab_ironwood>, <primal:slab_ironwood>, <primal:slab_ironwood>]
+			[<primal:slab_ironwood:0>, <primal:slab_ironwood:0>, <primal:slab_ironwood:0>]
 		]
 	],
-	<primal:slat_jungle> * 3 : [
+	<primal:slat_jungle:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]
 		]
 	],
-	<primal:slat_lacquer> * 3 : [
+	<primal:slat_lacquer:0> * 3 : [
 		[
-			[<primal:slab_lacquer>, <primal:slab_lacquer>, <primal:slab_lacquer>],
+			[<primal:slab_lacquer:0>, <primal:slab_lacquer:0>, <primal:slab_lacquer:0>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<primal:slab_lacquer>, <primal:slab_lacquer>, <primal:slab_lacquer>]
+			[<primal:slab_lacquer:0>, <primal:slab_lacquer:0>, <primal:slab_lacquer:0>]
 		]
 	],
-	<primal:slat_oak> * 3 : [
+	<primal:slat_oak:0> * 3 : [
 		[
-			[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>],
+			[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]
+			[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>]
 		]
 	],
-	<primal:slat_spruce> * 3 : [
+	<primal:slat_spruce:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]
 		]
 	],
-	<primal:barrel> : [
+	<primal:barrel:0> : [
 		[
 			[<ore:barrelPlank>, null, <ore:barrelPlank>],
 			[<ore:barrelPlank>, null, <ore:barrelPlank>],
@@ -167,277 +167,277 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal:barrel:6> : [
 		[
-			[<primal:planks>, null, <primal:planks>],
-			[<primal:planks>, null, <primal:planks>],
-			[<primal:planks>, <primal:slab_ironwood>, <primal:planks>]
+			[<primal:planks:0>, null, <primal:planks:0>],
+			[<primal:planks:0>, null, <primal:planks:0>],
+			[<primal:planks:0>, <primal:slab_ironwood:0>, <primal:planks:0>]
 		]
 	],
 	<primal:barrel:7> : [
 		[
 			[<primal:planks:1>, null, <primal:planks:1>],
 			[<primal:planks:1>, null, <primal:planks:1>],
-			[<primal:planks:1>, <primal:slab_yew>, <primal:planks:1>]
+			[<primal:planks:1>, <primal:slab_yew:0>, <primal:planks:1>]
 		]
 	],
 	<primal:barrel:8> : [
 		[
 			[<primal:planks:2>, null, <primal:planks:2>],
 			[<primal:planks:2>, null, <primal:planks:2>],
-			[<primal:planks:2>, <primal:slab_lacquer>, <primal:planks:2>]
+			[<primal:planks:2>, <primal:slab_lacquer:0>, <primal:planks:2>]
 		]
 	],
 	<primal:barrel:9> : [
 		[
 			[<primal:planks:3>, null, <primal:planks:3>],
 			[<primal:planks:3>, null, <primal:planks:3>],
-			[<primal:planks:3>, <primal:slab_corypha>, <primal:planks:3>]
+			[<primal:planks:3>, <primal:slab_corypha:0>, <primal:planks:3>]
 		]
 	],
 
-	<primal:barrel_oak_lid> : [
+	<primal:barrel_oak_lid:0> : [
 		[
 			[null, <ore:slabOak>, null],
 			[<ore:slabOak>, null, <ore:slabOak>],
 			[null, <ore:slabOak>, null]
 		]
 	],
-	<primal:barrel_spruce_lid> : [
+	<primal:barrel_spruce_lid:0> : [
 		[
 			[null, <ore:slabSpruce>, null],
 			[<ore:slabSpruce>, null, <ore:slabSpruce>],
 			[null, <ore:slabSpruce>, null]
 		]
 	],
-	<primal:barrel_birch_lid> : [
+	<primal:barrel_birch_lid:0> : [
 		[
 			[null, <ore:slabBirch>, null],
 			[<ore:slabBirch>, null, <ore:slabBirch>],
 			[null, <ore:slabBirch>, null]
 		]
 	],
-	<primal:barrel_jungle_lid> : [
+	<primal:barrel_jungle_lid:0> : [
 		[
 			[null, <ore:slabJungle>, null],
 			[<ore:slabJungle>, null, <ore:slabJungle>],
 			[null, <ore:slabJungle>, null]
 		]
 	],
-	<primal:barrel_acacia_lid> : [
+	<primal:barrel_acacia_lid:0> : [
 		[
 			[null, <ore:slabAcacia>, null],
 			[<ore:slabAcacia>, null, <ore:slabAcacia>],
 			[null, <ore:slabAcacia>, null]
 		]
 	],
-	<primal:barrel_dark_oak_lid> : [
+	<primal:barrel_dark_oak_lid:0> : [
 		[
 			[null, <ore:slabDarkOak>, null],
 			[<ore:slabDarkOak>, null, <ore:slabDarkOak>],
 			[null, <ore:slabDarkOak>, null]
 		]
 	],
-	<primal:barrel_ironwood_lid> : [
+	<primal:barrel_ironwood_lid:0> : [
 		[
-			[null, <primal:slab_ironwood>, null],
-			[<primal:slab_ironwood>, null, <primal:slab_ironwood>],
-			[null, <primal:slab_ironwood>, null]
+			[null, <primal:slab_ironwood:0>, null],
+			[<primal:slab_ironwood:0>, null, <primal:slab_ironwood:0>],
+			[null, <primal:slab_ironwood:0>, null]
 		]
 	],
-	<primal:barrel_yew_lid> : [
+	<primal:barrel_yew_lid:0> : [
 		[
-			[null, <primal:slab_yew>, null],
-			[<primal:slab_yew>, null, <primal:slab_yew>],
-			[null, <primal:slab_yew>, null]
+			[null, <primal:slab_yew:0>, null],
+			[<primal:slab_yew:0>, null, <primal:slab_yew:0>],
+			[null, <primal:slab_yew:0>, null]
 		]
 	],
-	<primal:barrel_corypha_lid> : [
+	<primal:barrel_corypha_lid:0> : [
 		[
-			[null, <primal:slab_corypha>, null],
-			[<primal:slab_corypha>, null, <primal:slab_corypha>],
-			[null, <primal:slab_corypha>, null]
+			[null, <primal:slab_corypha:0>, null],
+			[<primal:slab_corypha:0>, null, <primal:slab_corypha:0>],
+			[null, <primal:slab_corypha:0>, null]
 		]
 	],
-	<primal:barrel_lacquer_lid> : [
+	<primal:barrel_lacquer_lid:0> : [
 		[
-			[null, <primal:slab_lacquer>, null],
-			[<primal:slab_lacquer>, null, <primal:slab_lacquer>],
-			[null, <primal:slab_lacquer>, null]
+			[null, <primal:slab_lacquer:0>, null],
+			[<primal:slab_lacquer:0>, null, <primal:slab_lacquer:0>],
+			[null, <primal:slab_lacquer:0>, null]
 		]
 	],
 	<primal:storage_crate:1> : [
 		[
 			[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
-			[<minecraft:planks:1>, <minecraft:chest>, <minecraft:planks:1>],
+			[<minecraft:planks:1>, <minecraft:chest:0>, <minecraft:planks:1>],
 			[<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]
 		]
 	],
 	<primal:storage_crate:2> : [
 		[
 			[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
-			[<minecraft:planks:2>, <minecraft:chest>, <minecraft:planks:2>],
+			[<minecraft:planks:2>, <minecraft:chest:0>, <minecraft:planks:2>],
 			[<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]
 		]
 	],
 	<primal:storage_crate:3> : [
 		[
 			[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
-			[<minecraft:planks:3>, <minecraft:chest>, <minecraft:planks:3>],
+			[<minecraft:planks:3>, <minecraft:chest:0>, <minecraft:planks:3>],
 			[<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]
 		]
 	],
 	<primal:storage_crate:4> : [
 		[
 			[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
-			[<minecraft:planks:4>, <minecraft:chest>, <minecraft:planks:4>],
+			[<minecraft:planks:4>, <minecraft:chest:0>, <minecraft:planks:4>],
 			[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]
 		]
 	],
 	<primal:storage_crate:5> : [
 		[
 			[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
-			[<minecraft:planks:5>, <minecraft:chest>, <minecraft:planks:5>],
+			[<minecraft:planks:5>, <minecraft:chest:0>, <minecraft:planks:5>],
 			[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]
 		]
 	],
 	<primal:storage_crate:6> : [
 		[
 			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>],
-			[<rustic:planks:1>, <minecraft:chest>, <rustic:planks:1>],
+			[<rustic:planks:1>, <minecraft:chest:0>, <rustic:planks:1>],
 			[<rustic:planks:1>, <rustic:planks:1>, <rustic:planks:1>]
 		]
 	],
 	<primal:storage_crate:7> : [
 		[
 			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>],
-			[<primal:planks:1>, <minecraft:chest>, <primal:planks:1>],
+			[<primal:planks:1>, <minecraft:chest:0>, <primal:planks:1>],
 			[<primal:planks:1>, <primal:planks:1>, <primal:planks:1>]
 		]
 	],
 	<primal:storage_crate:8> : [
 		[
 			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>],
-			[<primal:planks:2>, <minecraft:chest>, <primal:planks:2>],
+			[<primal:planks:2>, <minecraft:chest:0>, <primal:planks:2>],
 			[<primal:planks:2>, <primal:planks:2>, <primal:planks:2>]
 		]
 	],
 	<primal:storage_crate:9> : [
 		[
 			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>],
-			[<primal:planks:3>, <minecraft:chest>, <primal:planks:3>],
+			[<primal:planks:3>, <minecraft:chest:0>, <primal:planks:3>],
 			[<primal:planks:3>, <primal:planks:3>, <primal:planks:3>]
 		]
 	],
-	<primal:storage_crate> : [
+	<primal:storage_crate:0> : [
 		[
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
-			[<minecraft:planks>, <minecraft:chest>, <minecraft:planks>],
-			[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]
+			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>],
+			[<minecraft:planks:0>, <minecraft:chest:0>, <minecraft:planks:0>],
+			[<minecraft:planks:0>, <minecraft:planks:0>, <minecraft:planks:0>]
 		]
 	],
-	<primal:iron_workblade> : [
+	<primal:iron_workblade:0> : [
 		[
 			[metals.iron.plate, <ore:stickWood>.firstItem, metals.iron.plate],
 			[metals.iron.plate, <ore:stickWood>.firstItem, metals.iron.plate],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<primal:diamond_workblade>: [
+	<primal:diamond_workblade:0>: [
 		[
-			[<minecraft:diamond>, <ore:stickWood>.firstItem, <minecraft:diamond>],
-			[<minecraft:diamond>, <ore:stickWood>.firstItem, <minecraft:diamond>],
+			[<minecraft:diamond:0>, <ore:stickWood>.firstItem, <minecraft:diamond:0>],
+			[<minecraft:diamond:0>, <ore:stickWood>.firstItem, <minecraft:diamond:0>],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<primal:emerald_workblade>: [
+	<primal:emerald_workblade:0>: [
 		[
-			[<minecraft:emerald>, <ore:stickWood>.firstItem, <minecraft:emerald>],
-			[<minecraft:emerald>, <ore:stickWood>.firstItem, <minecraft:emerald>],
+			[<minecraft:emerald:0>, <ore:stickWood>.firstItem, <minecraft:emerald:0>],
+			[<minecraft:emerald:0>, <ore:stickWood>.firstItem, <minecraft:emerald:0>],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
 	// Thatching
-	<primal:thatching_wet> * 4: [
+	<primal:thatching_wet:0> * 4: [
 		[
 			[<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>],
 			[<ore:thatchingMaterialBasic>, <ore:thatchingMaterialBasic>]
 		]
 	],
-	<primal:thatch_wet>: [
+	<primal:thatch_wet:0>: [
 		[
-			[<primal:thatching_wet>, <primal:thatching_wet>],
-			[<primal:thatching_wet>, <primal:thatching_wet>]
+			[<primal:thatching_wet:0>, <primal:thatching_wet:0>],
+			[<primal:thatching_wet:0>, <primal:thatching_wet:0>]
 		]
 	],
-	<primal:thatch>: [
+	<primal:thatch:0>: [
 		[
-			[<primal:thatching_dry>, <primal:thatching_dry>]
+			[<primal:thatching_dry:0>, <primal:thatching_dry:0>]
 		]
 	],
-	<primal:leather_cordage>: [
+	<primal:leather_cordage:0>: [
 		[
-			[null, <primal:leather_strip>, null],
-			[<primal:leather_strip>, <minecraft:string>, <primal:leather_strip>]
+			[null, <primal:leather_strip:0>, null],
+			[<primal:leather_strip:0>, <minecraft:string:0>, <primal:leather_strip:0>]
 		]
 	],
-	<primal:mud_wet>: [
+	<primal:mud_wet:0>: [
 		[
-			[<primal:mud_clump>, <primal:mud_clump>],
-			[<primal:mud_clump>, <primal:mud_clump>]
+			[<primal:mud_clump:0>, <primal:mud_clump:0>],
+			[<primal:mud_clump:0>, <primal:mud_clump:0>]
 		]
 	],
 	// Flint tools
-	<primal:flint_hatchet>: [
+	<primal:flint_hatchet:0>: [
 		[
-			[<ore:cordageGeneral>, <primal:flint_knapp>],
+			[<ore:cordageGeneral>, <primal:flint_knapp:0>],
 			[<ore:stickWood>.firstItem, null]
 		]
 	],
-	<primal:flint_shovel>: [
+	<primal:flint_shovel:0>: [
 		[
-			[null, <ore:cordageGeneral>, <primal:flint_knapp>],
+			[null, <ore:cordageGeneral>, <primal:flint_knapp:0>],
 			[null, <ore:stickWood>.firstItem, <ore:cordageGeneral>],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<primal:flint_hoe>: [
+	<primal:flint_hoe:0>: [
 		[
-			[null, <primal:flint_knapp>, <minecraft:flint>],
+			[null, <primal:flint_knapp:0>, <minecraft:flint:0>],
 			[null, <ore:stickWood>.firstItem, <ore:cordageGeneral>],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	],
-	<primal:flint_axe>: [
+	<primal:flint_axe:0>: [
 		[
-			[null, <primal:flint_knapp>, <primal:flint_knapp>],
-			[<ore:cordageGeneral>, <ore:stickWood>.firstItem, <minecraft:flint>],
+			[null, <primal:flint_knapp:0>, <primal:flint_knapp:0>],
+			[<ore:cordageGeneral>, <ore:stickWood>.firstItem, <minecraft:flint:0>],
 			[<ore:stickWood>.firstItem, <ore:cordageGeneral>, null]
 		]
 	],
-	<primal:flint_shears>: [
+	<primal:flint_shears:0>: [
 		[
-			[<primal:flint_knapp>, null, null],
-			[<primal:flint_knapp>, null, null],
-			[<ore:cordageGeneral>, <primal:flint_knapp>, <primal:flint_knapp>]
+			[<primal:flint_knapp:0>, null, null],
+			[<primal:flint_knapp:0>, null, null],
+			[<ore:cordageGeneral>, <primal:flint_knapp:0>, <primal:flint_knapp:0>]
 		]
 	],
-	<primal:flint_workblade>: [
+	<primal:flint_workblade:0>: [
 		[
-			[<primal:flint_knapp>, <ore:cordageGeneral>, <primal:flint_knapp>],
-			[<primal:flint_knapp>, <ore:stickWood>.firstItem, <primal:flint_knapp>],
+			[<primal:flint_knapp:0>, <ore:cordageGeneral>, <primal:flint_knapp:0>],
+			[<primal:flint_knapp:0>, <ore:stickWood>.firstItem, <primal:flint_knapp:0>],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<primal:flint_saw>: [
+	<primal:flint_saw:0>: [
 		[
 			[<ore:cordageGeneral>, null, null],
-			[<primal:flint_knapp>, <ore:stickWood>.firstItem, null],
-			[null, <primal:flint_knapp>, <ore:stickWood>.firstItem]
+			[<primal:flint_knapp:0>, <ore:stickWood>.firstItem, null],
+			[null, <primal:flint_knapp:0>, <ore:stickWood>.firstItem]
 		]
 	],
-	<primal:flint_pickaxe>: [
+	<primal:flint_pickaxe:0>: [
 		[
-			[null, <primal:flint_knapp>, <ore:cordageGeneral>],
-			[null, <ore:stickWood>.firstItem, <primal:flint_knapp>],
+			[null, <primal:flint_knapp:0>, <ore:cordageGeneral>],
+			[null, <ore:stickWood>.firstItem, <primal:flint_knapp:0>],
 			[<ore:stickWood>.firstItem, null, null]
 		]
 	]
@@ -459,78 +459,78 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<primal:bark_acacia> : [
-		[<minecraft:log2>.transformReplace(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
+	<primal:bark_acacia:0> : [
+		[<minecraft:log2:0>.transformReplace(<primal:logs_stripped:4>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_bigoak> : [
+	<primal:bark_bigoak:0> : [
 		[<minecraft:log2:1>.transformReplace(<primal:logs_stripped:5>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_birch> : [
+	<primal:bark_birch:0> : [
 		[<minecraft:log:2>.transformReplace(<primal:logs_stripped:2>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_jungle> : [
+	<primal:bark_jungle:0> : [
 		[<minecraft:log:3>.transformReplace(<primal:logs_stripped:3>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_oak> : [
-		[<minecraft:log>.transformReplace(<primal:logs_stripped>), <ore:toolWorkBlade>]
+	<primal:bark_oak:0> : [
+		[<minecraft:log:0>.transformReplace(<primal:logs_stripped:0>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_spruce> : [
+	<primal:bark_spruce:0> : [
 		[<minecraft:log:1>.transformReplace(<primal:logs_stripped:1>), <ore:toolWorkBlade>]
 	],
-	<primal:bark_yew> : [
+	<primal:bark_yew:0> : [
 		[<primal:logs:1>.transformReplace(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
 	],
-	<primal:plant_fiber_pulp> * 3 : [
+	<primal:plant_fiber_pulp:0> * 3 : [
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, craftingUtils.getBucketIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
-	<primal:hide_raw> * 1: [
-		[<ore:toolWorkBlade>, <minecraft:rabbit_hide>, <minecraft:rabbit_hide>, <minecraft:rabbit_hide>, <minecraft:rabbit_hide>]
+	<primal:hide_raw:0> * 1: [
+		[<ore:toolWorkBlade>, <minecraft:rabbit_hide:0>, <minecraft:rabbit_hide:0>, <minecraft:rabbit_hide:0>, <minecraft:rabbit_hide:0>]
 	],
-	<primal:hide_raw> * 6: [
-		[<ore:toolWorkBlade>, <totemic:buffalo_items>]
+	<primal:hide_raw:0> * 6: [
+		[<ore:toolWorkBlade>, <totemic:buffalo_items:0>]
 	],
-	<primal:hide_raw> * 4: [
+	<primal:hide_raw:0> * 4: [
 		[<ore:toolWorkBlade>, <ore:peltLarge>]
 	],
-	<primal:hide_raw> * 2: [
-		[<ore:toolWorkBlade>, <primal:pelt_animal>],
+	<primal:hide_raw:0> * 2: [
+		[<ore:toolWorkBlade>, <primal:pelt_animal:0>],
 		[<ore:toolWorkBlade>, <ore:peltWolf>],
 		[<ore:toolWorkBlade>, <ore:peltPig>],
 		[<ore:toolWorkBlade>, <ore:peltOvis>],
-		[<ore:toolWorkBlade>, <animalium:wild_dog_pelt>]
+		[<ore:toolWorkBlade>, <animalium:wild_dog_pelt:0>]
 	],
-	<primal:hide_raw> * 3: [
+	<primal:hide_raw:0> * 3: [
 		[<ore:toolWorkBlade>, <ore:peltSheep>],
-		[<ore:toolWorkBlade>, <primal:pelt_shark>]
+		[<ore:toolWorkBlade>, <primal:pelt_shark:0>]
 	],
 	// Leather Processing
-	<primal:hide_salted>: [
-		[<primal:pigman_hide_raw>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
-		[<primal:hide_raw>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
-		[<primal:hide_dried>, <primal:tannin_ground>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
+	<primal:hide_salted:0>: [
+		[<primal:pigman_hide_raw:0>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
+		[<primal:hide_raw:0>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
+		[<primal:hide_dried:0>, <primal:tannin_ground:0>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
 	// Mud Clump
-	<primal:mud_clump>: [
-		[<minecraft:dirt>, <minecraft:dirt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle>)],
-		[<minecraft:dirt>, <minecraft:dirt>, craftingUtils.getBucketIngredient(<liquid:water>)],
-		[<minecraft:dirt>, <minecraft:dirt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
+	<primal:mud_clump:0>: [
+		[<minecraft:dirt:0>, <minecraft:dirt:0>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
+		[<minecraft:dirt:0>, <minecraft:dirt:0>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<minecraft:dirt:0>, <minecraft:dirt:0>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
-	<primal:plant_cordage>: [
-		[<primal:plant_fiber>, <primal:plant_fiber>, <primal:plant_fiber>]
+	<primal:plant_cordage:0>: [
+		[<primal:plant_fiber:0>, <primal:plant_fiber:0>, <primal:plant_fiber:0>]
 	],
-	<primal:leather_strip> * 9: [
-		[<minecraft:leather>, <ore:toolWorkBlade>]
+	<primal:leather_strip:0> * 9: [
+		[<minecraft:leather:0>, <ore:toolWorkBlade>]
 	],
-	<primal:plant_cloth>: [
+	<primal:plant_cloth:0>: [
 		[<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]
 	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-	<primal:nether_cordage>: {
-		Utils.genRecipeName(stageThree, <primal:nether_cordage>): [
-			[<primal:nether_fiber>, <primal:nether_fiber>, <primal:nether_fiber>]
+	<primal:nether_cordage:0>: {
+		Utils.genRecipeName(stageThree, <primal:nether_cordage:0>): [
+			[<primal:nether_fiber:0>, <primal:nether_fiber:0>, <primal:nether_fiber:0>]
 		]
 	}
 };
@@ -539,16 +539,16 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	Furnace Recipes
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
-	<primal:shark_meat_cooked>: [<primal:shark_meat_raw>]
+	<primal:shark_meat_cooked:0>: [<primal:shark_meat_raw:0>]
 };
 
 /*
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<primal:slab_ironwood>,
-	<primal:thatching_wet>,
-	<primal:leather_cordage>
+	<primal:slab_ironwood:0>,
+	<primal:thatching_wet:0>,
+	<primal:leather_cordage:0>
 ];
 
 static removeRegex as string[] = [
@@ -559,11 +559,11 @@ static removeRegex as string[] = [
 ];
 
 static removeFurnace as IIngredient[] = [
-	<primal:carbonate_stone>,
-	<primal:diamond_plate>,
-	<primal:pelt_wolf>,
-	<primal:ironglass>,
-	<primal:valus_bread>
+	<primal:carbonate_stone:0>,
+	<primal:diamond_plate:0>,
+	<primal:pelt_wolf:0>,
+	<primal:ironglass:0>,
+	<primal:valus_bread:0>
 ];
 
 function init() {

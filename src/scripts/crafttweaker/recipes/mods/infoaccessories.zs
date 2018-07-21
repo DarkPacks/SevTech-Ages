@@ -31,29 +31,29 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<infoaccessories:info_accessory:2> : [
-		[[null, <twilightforest:ironwood_ingot>, null], [<twilightforest:ironwood_ingot>, <minecraft:compass>, <twilightforest:ironwood_ingot>], [null, metals.tin.gear, null]]
+		[[null, <twilightforest:ironwood_ingot:0>, null], [<twilightforest:ironwood_ingot:0>, <minecraft:compass:0>, <twilightforest:ironwood_ingot:0>], [null, metals.tin.gear, null]]
 	],
 	<infoaccessories:info_accessory:6> : [
 		[
-			[null, <twilightforest:torchberries>, null],
-			[<twilightforest:twilight_plant:8>, <twilightforest:magic_map_empty>, <twilightforest:twilight_sapling>],
+			[null, <twilightforest:torchberries:0>, null],
+			[<twilightforest:twilight_plant:8>, <twilightforest:magic_map_empty:0>, <twilightforest:twilight_sapling:0>],
 			[null, <twilightforest:twilight_sapling:1>, null]
 		]
 	],
-	<infoaccessories:info_accessory> : [
-		[[null, <abyssalcraft:dsbutton>, null],
-		[<twilightforest:firefly_jar>, <minecraft:clock>, <twilightforest:firefly_jar>],
+	<infoaccessories:info_accessory:0> : [
+		[[null, <abyssalcraft:dsbutton:0>, null],
+		[<twilightforest:firefly_jar:0>, <minecraft:clock:0>, <twilightforest:firefly_jar:0>],
 		[null, metals.tin.gear, null]]
 	],
 	<infoaccessories:info_accessory:4> : [
-		[[null, <minecraft:slime_ball>, null],
-		[<minecraft:slime_ball>, <minecraft:compass>, <minecraft:slime_ball>],
-		[null, <minecraft:slime_ball>, null]]
+		[[null, <minecraft:slime_ball:0>, null],
+		[<minecraft:slime_ball:0>, <minecraft:compass:0>, <minecraft:slime_ball:0>],
+		[null, <minecraft:slime_ball:0>, null]]
 	],
 	<infoaccessories:info_accessory:5> : [
-	  	[[null, <minecraft:paper>, null],
-	  	[<minecraft:paper>, <minecraft:clock>, <minecraft:paper>],
-	  	[null, <minecraft:paper>, null]]
+	  	[[null, <minecraft:paper:0>, null],
+	  	[<minecraft:paper:0>, <minecraft:clock:0>, <minecraft:paper:0>],
+	  	[null, <minecraft:paper:0>, null]]
 	]
 };
 
@@ -87,7 +87,7 @@ static removeRecipes as IIngredient[] = [
 	<infoaccessories:info_accessory:4>,
 	<infoaccessories:info_accessory:5>,
 	<infoaccessories:info_accessory:6>,
-	<infoaccessories:info_accessory>,
+	<infoaccessories:info_accessory:0>,
 ];
 
 function init() {

@@ -23,25 +23,25 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<twilightforest:uncrafting_table> : [
+	<twilightforest:uncrafting_table:0> : [
 		[
-			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables>,<immersiveengineering:stone_decoration:1>],
-			[<immersiveengineering:stone_decoration:1>, <twilightforest:maze_map_focus>, <immersiveengineering:stone_decoration:1>],
-			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables>,<immersiveengineering:stone_decoration:1>]
+			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables:0>,<immersiveengineering:stone_decoration:1>],
+			[<immersiveengineering:stone_decoration:1>, <twilightforest:maze_map_focus:0>, <immersiveengineering:stone_decoration:1>],
+			[<immersiveengineering:stone_decoration:1>, <tconstruct:tooltables:0>,<immersiveengineering:stone_decoration:1>]
 		]
 	],
-	<twilightforest:fiery_pickaxe> : [
+	<twilightforest:fiery_pickaxe:0> : [
 		[
 			[metals.fiery.plate, metals.fiery.plate, metals.fiery.plate],
-			[null, <minecraft:stick>, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null],
+			[null, <minecraft:stick:0>, null]
 		]
 	],
-	<twilightforest:fiery_sword> : [
+	<twilightforest:fiery_sword:0> : [
 		[
 			[null, metals.fiery.plate, null],
 			[null, metals.fiery.plate, null],
-			[null, <minecraft:stick>, null]
+			[null, <minecraft:stick:0>, null]
 		]
 	]
 };
@@ -62,11 +62,11 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<twilightforest:magic_map_focus> : [
-		[<twilightforest:firefly>, <twilightforest:torchberries>, <twilightforest:raven_feather>]
+	<twilightforest:magic_map_focus:0> : [
+		[<twilightforest:firefly:0>, <twilightforest:torchberries:0>, <twilightforest:raven_feather:0>]
 	],
 	// Dye recipes for castle doors
-	<twilightforest:castle_door>: [
+	<twilightforest:castle_door:0>: [
 		[<twilightforest:castle_door:*>, <ore:dyeYellow>]
 	],
 	<twilightforest:castle_door:1>: [
@@ -91,10 +91,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<twilightforest:fiery_pickaxe>,
-	<twilightforest:fiery_sword>,
-	<twilightforest:magic_map_focus>,
-	<twilightforest:uncrafting_table>
+	<twilightforest:fiery_pickaxe:0>,
+	<twilightforest:fiery_sword:0>,
+	<twilightforest:magic_map_focus:0>,
+	<twilightforest:uncrafting_table:0>
 ];
 
 function init() {

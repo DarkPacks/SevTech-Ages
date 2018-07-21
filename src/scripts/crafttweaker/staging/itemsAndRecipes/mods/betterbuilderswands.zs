@@ -9,19 +9,19 @@ import scripts.crafttweaker.stages.stageFour;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<betterbuilderswands:wandstone>
+		<betterbuilderswands:wandstone:0>
 	],
 
 	stageTwo.stage: [
-		<betterbuilderswands:wandiron>
+		<betterbuilderswands:wandiron:0>
 	],
 
 	stageThree.stage: [
-		<betterbuilderswands:wanddiamond> // Platinum wand
+		<betterbuilderswands:wanddiamond:0> // Platinum wand
 	],
 
 	stageFour.stage: [
-		<betterbuilderswands:wandunbreakable>
+		<betterbuilderswands:wandunbreakable:0>
 	]
 };
 

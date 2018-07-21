@@ -25,25 +25,25 @@ function init() {
 	var defaultKilnCookTime as int = 200;
 	var defaultKilnCookTimeRecipes as IItemStack[][IItemStack] = {
 		<betterwithmods:cooking_pot:1>: [
-			<progressiontweaks:unfired_clay_bowl>
+			<progressiontweaks:unfired_clay_bowl:0>
 		],
-		<ceramics:clay_barrel>: [
-			<ceramics:clay_barrel_unfired>
+		<ceramics:clay_barrel:0>: [
+			<ceramics:clay_barrel_unfired:0>
 		],
 		<ceramics:clay_barrel:1>: [
 			<ceramics:clay_barrel_unfired:1>
 		],
-		<ceramics:clay_bucket>: [
-			<ceramics:clay_bucket_block>
+		<ceramics:clay_bucket:0>: [
+			<ceramics:clay_bucket_block:0>
 		],
-		<minecraft:brick>: [
-			<minecraft:clay_ball>
+		<minecraft:brick:0>: [
+			<minecraft:clay_ball:0>
 		],
-		<minecraft:stone>: [
-			<minecraft:cobblestone>
+		<minecraft:stone:0>: [
+			<minecraft:cobblestone:0>
 		],
 		<minecraft:stone:1>: [
-			<betterwithmods:cobblestone>
+			<betterwithmods:cobblestone:0>
 		],
 		<minecraft:stone:3>: [
 			<betterwithmods:cobblestone:1>
@@ -51,17 +51,17 @@ function init() {
 		<minecraft:stone:5>: [
 			<betterwithmods:cobblestone:2>
 		],
-		<primal:mud_dried>: [
-			<primal:mud_wet>
+		<primal:mud_dried:0>: [
+			<primal:mud_wet:0>
 		],
-		<primal:thatch>: [
-			<primal:thatch_wet>
+		<primal:thatch:0>: [
+			<primal:thatch_wet:0>
 		],
 		<primal_tech:flint_block>: [
-			<minecraft:gravel>
+			<minecraft:gravel:0>
 		],
-		<tconstruct:materials>: [
-			<tconstruct:soil>
+		<tconstruct:materials:0>: [
+			<tconstruct:soil:0>
 		],
 		<ceramics:unfired_clay:5>: [
 			<ceramics:unfired_clay:4>
@@ -87,10 +87,10 @@ function init() {
 
 	//[output, input]
 	var stoneAnvilPair as IItemStack[][] = [
-		[<minecraft:flint> * 4, <primal_tech:flint_block>],
-		[<materialpart:stone:nugget>, <minecraft:stone>],
-		[<minecraft:dye:4> * 9, <minecraft:lapis_block>],
-		[<minecraft:redstone> * 9, <minecraft:redstone_block>]
+		[<minecraft:flint:0> * 4, <primal_tech:flint_block>],
+		[<materialpart:stone:nugget>, <minecraft:stone:0>],
+		[<minecraft:dye:4> * 9, <minecraft:lapis_block:0>],
+		[<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>]
 	];
 
 	for pair in stoneAnvilPair {
@@ -122,62 +122,62 @@ function init() {
 	var defaultWoodenBasinFluid as ILiquidStack = <liquid:water>;
 	var defaultWoodenBasinRecipes as IIngredient[][][IItemStack] = {
 		<actuallyadditions:item_misc:9> * 3: [
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <primal:salt_dust_fire>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <primal:salt_dust_rock>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <primal:salt_dust_void>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<betterwithaddons:japanmat:4>, <mekanism:salt>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<primal:salt_dust_fire>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<primal:salt_dust_netjry>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<primal:salt_dust_rock>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<primal:salt_dust_void>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
-			[<mekanism:salt>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>]
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire:0>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry:0>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock:0>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void:0>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt:0>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_fire:0>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_netjry:0>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_rock:0>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <primal:salt_dust_void:0>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <mekanism:salt:0>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <primal:salt_dust_fire:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <primal:salt_dust_netjry:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <primal:salt_dust_rock:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <primal:salt_dust_void:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<betterwithaddons:japanmat:4>, <mekanism:salt:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<primal:salt_dust_fire:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<primal:salt_dust_netjry:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<primal:salt_dust_rock:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<primal:salt_dust_void:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>],
+			[<mekanism:salt:0>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>, <betterwithaddons:japanmat:4>]
 		],
 		<betterwithaddons:japanmat:8> * 4: [
 			[<betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>, <betterwithaddons:japanmat:36>]
 		],
-		<primal:hide_salted> * 3: [
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_fire>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_netjry>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_rock>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_void>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>, <mekanism:salt>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_fire>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_netjry>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_rock>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:hide_raw>, <primal:salt_dust_void>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:hide_raw>, <mekanism:salt>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:salt_dust_fire>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:salt_dust_netjry>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:salt_dust_rock>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:hide_raw>, <primal:salt_dust_void>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:hide_raw>, <mekanism:salt>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:salt_dust_fire>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:salt_dust_netjry>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:salt_dust_rock>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
-			[<primal:salt_dust_void>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>],
-			[<mekanism:salt>, <primal:hide_raw>, <primal:hide_raw>, <primal:hide_raw>]
+		<primal:hide_salted:0> * 3: [
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_fire:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_netjry:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_rock:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_void:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <mekanism:salt:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_fire:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_netjry:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_rock:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <primal:salt_dust_void:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:hide_raw:0>, <mekanism:salt:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:salt_dust_fire:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:salt_dust_netjry:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:salt_dust_rock:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <primal:salt_dust_void:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:hide_raw:0>, <mekanism:salt:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:salt_dust_fire:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:salt_dust_netjry:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:salt_dust_rock:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<primal:salt_dust_void:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>],
+			[<mekanism:salt:0>, <primal:hide_raw:0>, <primal:hide_raw:0>, <primal:hide_raw:0>]
 		],
-		<primal:hide_tanned> * 3: [
-			[<primal:hide_dried>, <primal:hide_dried>, <primal:hide_dried>, <primal:tannin_ground>],
-			[<primal:hide_dried>, <primal:hide_dried>, <primal:tannin_ground>, <primal:hide_dried>],
-			[<primal:hide_dried>, <primal:tannin_ground>, <primal:hide_dried>, <primal:hide_dried>],
-			[<primal:tannin_ground>, <primal:hide_dried>, <primal:hide_dried>, <primal:hide_dried>]
+		<primal:hide_tanned:0> * 3: [
+			[<primal:hide_dried:0>, <primal:hide_dried:0>, <primal:hide_dried:0>, <primal:tannin_ground:0>],
+			[<primal:hide_dried:0>, <primal:hide_dried:0>, <primal:tannin_ground:0>, <primal:hide_dried:0>],
+			[<primal:hide_dried:0>, <primal:tannin_ground:0>, <primal:hide_dried:0>, <primal:hide_dried:0>],
+			[<primal:tannin_ground:0>, <primal:hide_dried:0>, <primal:hide_dried:0>, <primal:hide_dried:0>]
 		],
-		<primal:mud_clump> * 4: [
-			[<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]
+		<primal:mud_clump:0> * 4: [
+			[<minecraft:dirt:0>, <minecraft:dirt:0>, <minecraft:dirt:0>, <minecraft:dirt:0>]
 		],
-		<primal:plant_fiber_pulp> * 3: [
+		<primal:plant_fiber_pulp:0> * 3: [
 			[<betterwithmods:material:12>, <betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:22>],
 			[<betterwithmods:material:22>, <betterwithmods:material:12>, <betterwithmods:material:22>, <betterwithmods:material:22>],
 			[<betterwithmods:material:22>, <betterwithmods:material:22>, <betterwithmods:material:12>, <betterwithmods:material:22>],
@@ -207,7 +207,7 @@ function init() {
 		}
 	}
 
-	defaultWoodenBasinRecipes[<horsepower:dough> * 3] = doughRecipes;
+	defaultWoodenBasinRecipes[<horsepower:dough:0> * 3] = doughRecipes;
 
 	for output, inputs in defaultWoodenBasinRecipes {
 		for inputIngredients in inputs {

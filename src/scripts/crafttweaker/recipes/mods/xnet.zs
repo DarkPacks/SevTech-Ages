@@ -14,18 +14,18 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<xnet:controller>: [
+	<xnet:controller:0>: [
 		[
-			[metals.nickel.plate, <mekanism:transmitter>, metals.nickel.plate],
-			[metals.redstoneAlloy.plate, <teslacorelib:machine_case>, metals.redstoneAlloy.plate],
+			[metals.nickel.plate, <mekanism:transmitter:0>, metals.nickel.plate],
+			[metals.redstoneAlloy.plate, <teslacorelib:machine_case:0>, metals.redstoneAlloy.plate],
 			[metals.nickel.plate, <galacticraftplanets:item_basic_mars:5>, metals.nickel.plate]
 		]
 	],
-	<xnet:router>: [
+	<xnet:router:0>: [
 		[
-			[metals.aluminum.plate, <xnet:netcable>, metals.aluminum.plate],
-			[<xnet:netcable>, <rftools:machine_frame>, <xnet:netcable>],
-			[metals.aluminum.plate, <xnet:netcable>, metals.aluminum.plate]
+			[metals.aluminum.plate, <xnet:netcable:0>, metals.aluminum.plate],
+			[<xnet:netcable:0>, <rftools:machine_frame:0>, <xnet:netcable:0>],
+			[metals.aluminum.plate, <xnet:netcable:0>, metals.aluminum.plate]
 		]
 	]
 };
@@ -50,8 +50,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<xnet:controller>,
-	<xnet:router>
+	<xnet:controller:0>,
+	<xnet:router:0>
 ];
 
 function init() {

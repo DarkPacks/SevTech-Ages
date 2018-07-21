@@ -52,8 +52,8 @@ function init() {
 	[<firstOutput>, <firstInput>]
 */
 static compressionCraftingPairs as IItemStack[][] = [
-	[<overloaded:compressed_cobblestone>, <minecraft:cobblestone>],
-	[<overloaded:compressed_obsidian>, <minecraft:obsidian>]
+	[<overloaded:compressed_cobblestone:0>, <minecraft:cobblestone:0>],
+	[<overloaded:compressed_obsidian:0>, <minecraft:obsidian:0>]
 ];
 
 // The RF Rates to be used when making the compression recipes.
@@ -85,8 +85,8 @@ function initCompressions() {
 
 	for pair in compressionCraftingPairs {
 		// Check at the start of every pair loop to see if it is one of the unique types.
-		var isObsidian = pair[1].matches(<minecraft:obsidian>);
-		var isNetherrack = pair[1].matches(<minecraft:netherrack>);
+		var isObsidian = pair[1].matches(<minecraft:obsidian:0>);
+		var isNetherrack = pair[1].matches(<minecraft:netherrack:0>);
 
 		// Loop i = 0 through 15 (doesnt do 16)
 		for i in 0 to 16 {
@@ -116,7 +116,7 @@ function initCompressions() {
 			}
 
 			// Now that we have the meta wanted for the catalyst, create the item.
-			var catalyst = <extendedcrafting:material>.definition.makeStack(catalystMeta);
+			var catalyst = <extendedcrafting:material:0>.definition.makeStack(catalystMeta);
 
 			// Add compression crafting recipe to compress.
 			CompressionCrafting.addRecipe(output, input, 9, catalyst, baseCost, rfRates[i]);

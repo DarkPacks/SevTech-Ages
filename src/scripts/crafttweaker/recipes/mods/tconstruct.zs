@@ -30,92 +30,92 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:firewood:1>, <tconstruct:firewood:1>, <tconstruct:firewood:1>]
 		]
 	],
-	<tconstruct:firewood_slab> * 3 : [
+	<tconstruct:firewood_slab:0> * 3 : [
 		[
-			[<tconstruct:firewood>, <tconstruct:firewood>, <tconstruct:firewood>]
+			[<tconstruct:firewood:0>, <tconstruct:firewood:0>, <tconstruct:firewood:0>]
 		]
 	],
-	<tconstruct:seared_tank> : [
+	<tconstruct:seared_tank:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <ceramics:clay_barrel>, <tconstruct:materials>],
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <ceramics:clay_barrel:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:piggybackpack> : [
+	<tconstruct:piggybackpack:0> : [
 		[
 			[null, <ore:stickWood>.firstItem, null],
-			[<minecraft:leather>, null, <minecraft:leather>],
+			[<minecraft:leather:0>, null, <minecraft:leather:0>],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<tconstruct:seared_furnace_controller> : [
+	<tconstruct:seared_furnace_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <thebetweenlands:crimson_middle_gem:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:smeltery_controller> : [
+	<tconstruct:smeltery_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials>],
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <thebetweenlands:aqua_middle_gem:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:tinker_tank_controller> : [
+	<tconstruct:tinker_tank_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <thebetweenlands:green_middle_gem>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <thebetweenlands:green_middle_gem:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:smeltery_controller> : [
+	<tconstruct:smeltery_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:seared_furnace_controller> : [
+	<tconstruct:seared_furnace_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:furnace>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:tinker_tank_controller> : [
+	<tconstruct:tinker_tank_controller:0> : [
 		[
-			[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-			[<tconstruct:materials>, <betterwithmods:material:27>, <tconstruct:materials>],
-			[<tconstruct:materials>, <minecraft:bucket>, <tconstruct:materials>]
+			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
 		]
 	],
 	<tconstruct:materials:16> : [
 		[
 			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:crimson_middle_gem>, <tconstruct:materials:15>],
+			[<tconstruct:materials:15>, <thebetweenlands:crimson_middle_gem:0>, <tconstruct:materials:15>],
 			[null, <tconstruct:materials:15>, null]
 		],
 		[
 			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:aqua_middle_gem>, <tconstruct:materials:15>],
+			[<tconstruct:materials:15>, <thebetweenlands:aqua_middle_gem:0>, <tconstruct:materials:15>],
 			[null, <tconstruct:materials:15>, null]
 		],
 		[
 			[null, <tconstruct:materials:15>, null],
-			[<tconstruct:materials:15>, <thebetweenlands:green_middle_gem>, <tconstruct:materials:15>],
+			[<tconstruct:materials:15>, <thebetweenlands:green_middle_gem:0>, <tconstruct:materials:15>],
 			[null, <tconstruct:materials:15>, null]
 		]
 	],
 	<tconstruct:edible:4> * 4 : [
 		[
-			[null, <minecraft:magma_cream>, null],
-			[<minecraft:magma_cream>, craftingUtils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream>],
-			[null, <minecraft:magma_cream>, null]
+			[null, <minecraft:magma_cream:0>, null],
+			[<minecraft:magma_cream:0>, craftingUtils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream:0>],
+			[null, <minecraft:magma_cream:0>, null]
 		]
 	],
-	<tconstruct:wood_rail> * 8 : [
+	<tconstruct:wood_rail:0> * 8 : [
 		[
 			[<ore:thinWood>, <ore:plankWood>, <ore:thinWood>],
 			[<ore:thinWood>, <ore:plankWood>, <ore:thinWood>],
@@ -134,8 +134,8 @@ static mirroredRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
-	<tconstruct:pattern> * 4: {
-		Utils.genRecipeName(stageTwo, <tconstruct:pattern>): [
+	<tconstruct:pattern:0> * 4: {
+		Utils.genRecipeName(stageTwo, <tconstruct:pattern:0>): [
 			[
 				[<ore:barkWood>, sidingWood],
 				[sidingWood, <ore:barkWood>]
@@ -148,11 +148,11 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<tconstruct:stone_torch> * 2 : [
-		[<minecraft:coal:*>, <ore:cordageGeneral>, <tconstruct:stone_stick>]
+	<tconstruct:stone_torch:0> * 2 : [
+		[<minecraft:coal:*>, <ore:cordageGeneral>, <tconstruct:stone_stick:0>]
 	],
-	<tconstruct:book> : [
-		[<primal:plant_cloth>, <ore:dyeBrown>]
+	<tconstruct:book:0> : [
+		[<primal:plant_cloth:0>, <ore:dyeBrown>]
 	],
 	<tconstruct:materials:16> * 9 : [
 		[<tconstruct:metal:6>]
@@ -175,24 +175,24 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<tconstruct:book>,
-	<tconstruct:clear_glass>,
+	<tconstruct:book:0>,
+	<tconstruct:clear_glass:0>,
 	<tconstruct:clear_stained_glass:*>,
 	<tconstruct:edible:1>,
 	<tconstruct:edible:2>,
 	<tconstruct:edible:4>,
 	<tconstruct:firewood_slab:1>,
-	<tconstruct:firewood_slab>,
+	<tconstruct:firewood_slab:0>,
 	<tconstruct:materials:16>,
-	<tconstruct:pattern>,
-	<tconstruct:piggybackpack>,
-	<tconstruct:seared_furnace_controller>,
-	<tconstruct:smeltery_controller>,
-	<tconstruct:soil>,
-	<tconstruct:stone_stick>,
-	<tconstruct:stone_torch>,
-	<tconstruct:tinker_tank_controller>,
-	<tconstruct:wood_rail>
+	<tconstruct:pattern:0>,
+	<tconstruct:piggybackpack:0>,
+	<tconstruct:seared_furnace_controller:0>,
+	<tconstruct:smeltery_controller:0>,
+	<tconstruct:soil:0>,
+	<tconstruct:stone_stick:0>,
+	<tconstruct:stone_torch:0>,
+	<tconstruct:tinker_tank_controller:0>,
+	<tconstruct:wood_rail:0>
 ];
 
 function init() {

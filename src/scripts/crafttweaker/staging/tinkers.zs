@@ -159,50 +159,50 @@ static materialsForStage as string[][string] = {
 */
 static partsStages as IItemStack[][string] = {
 	stageTwo.stage: [
-		<conarm:armor_plate>,
-		<conarm:armor_trim>,
-		<conarm:boots_core>,
-		<conarm:chest_core>,
-		<conarm:helmet_core>,
-		<conarm:leggings_core>,
-		<conarm:polishing_kit>,
-		<tconstruct:arrow_head>,
-		<tconstruct:arrow_shaft>,
-		<tconstruct:axe_head>,
-		<tconstruct:binding>,
-		<tconstruct:bow_limb>,
-		<tconstruct:bow_string>,
-		<tconstruct:broad_axe_head>,
-		<tconstruct:cross_guard>,
-		<tconstruct:excavator_head>,
-		<tconstruct:fletching>,
-		<tconstruct:hammer_head>,
-		<tconstruct:hand_guard>,
-		<tconstruct:large_plate>,
-		<tconstruct:pan_head>,
-		<tconstruct:pick_head>,
-		<tconstruct:scythe_head>,
-		<tconstruct:sharpening_kit>,
-		<tconstruct:shovel_head>,
-		<tconstruct:sign_head>,
-		<tconstruct:sword_blade>,
-		<tconstruct:tool_rod>,
-		<tconstruct:tough_binding>,
-		<tconstruct:tough_tool_rod>,
-		<tconstruct:wide_guard>
+		<conarm:armor_plate:0>,
+		<conarm:armor_trim:0>,
+		<conarm:boots_core:0>,
+		<conarm:chest_core:0>,
+		<conarm:helmet_core:0>,
+		<conarm:leggings_core:0>,
+		<conarm:polishing_kit:0>,
+		<tconstruct:arrow_head:0>,
+		<tconstruct:arrow_shaft:0>,
+		<tconstruct:axe_head:0>,
+		<tconstruct:binding:0>,
+		<tconstruct:bow_limb:0>,
+		<tconstruct:bow_string:0>,
+		<tconstruct:broad_axe_head:0>,
+		<tconstruct:cross_guard:0>,
+		<tconstruct:excavator_head:0>,
+		<tconstruct:fletching:0>,
+		<tconstruct:hammer_head:0>,
+		<tconstruct:hand_guard:0>,
+		<tconstruct:large_plate:0>,
+		<tconstruct:pan_head:0>,
+		<tconstruct:pick_head:0>,
+		<tconstruct:scythe_head:0>,
+		<tconstruct:sharpening_kit:0>,
+		<tconstruct:shovel_head:0>,
+		<tconstruct:sign_head:0>,
+		<tconstruct:sword_blade:0>,
+		<tconstruct:tool_rod:0>,
+		<tconstruct:tough_binding:0>,
+		<tconstruct:tough_tool_rod:0>,
+		<tconstruct:wide_guard:0>
 	],
 
 	stageThree.stage: [
-		<tcomplement:chisel_head>,
-		<tconstruct:knife_blade>,
-		<tconstruct:large_sword_blade>,
-		<yoyos:yoyo_axle>,
-		<yoyos:yoyo_body>,
-		<yoyos:yoyo_cord>
+		<tcomplement:chisel_head:0>,
+		<tconstruct:knife_blade:0>,
+		<tconstruct:large_sword_blade:0>,
+		<yoyos:yoyo_axle:0>,
+		<yoyos:yoyo_body:0>,
+		<yoyos:yoyo_cord:0>
 	],
 
 	stageDisabled.stage: [
-		<tconstruct:kama_head>
+		<tconstruct:kama_head:0>
 	]
 };
 
@@ -226,9 +226,9 @@ function init() {
 
 		for part in parts {
 			// Stage pattern/cast
-			partStage.addIngredient(<tconstruct:pattern>.withTag({PartType: part.definition.id}));
-			partStage.addIngredient(<tconstruct:cast>.withTag({PartType: part.definition.id}));
-			partStage.addIngredient(<tconstruct:clay_cast>.withTag({PartType: part.definition.id}));
+			partStage.addIngredient(<tconstruct:pattern:0>.withTag({PartType: part.definition.id}));
+			partStage.addIngredient(<tconstruct:cast:0>.withTag({PartType: part.definition.id}));
+			partStage.addIngredient(<tconstruct:clay_cast:0>.withTag({PartType: part.definition.id}));
 
 			// Stage part materials
 			for subItem in part.definition.subItems {

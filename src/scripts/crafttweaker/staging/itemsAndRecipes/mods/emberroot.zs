@@ -6,7 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<emberroot:owl_egg>
+		<emberroot:owl_egg:0>
 	]
 };
 

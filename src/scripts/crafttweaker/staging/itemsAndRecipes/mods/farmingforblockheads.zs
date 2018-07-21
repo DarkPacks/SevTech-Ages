@@ -7,15 +7,15 @@ import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<farmingforblockheads:market>
+		<farmingforblockheads:market:0>
 	],
 
 	stageTwo.stage: [
-		<farmingforblockheads:chicken_nest>,
-		<farmingforblockheads:feeding_trough>,
+		<farmingforblockheads:chicken_nest:0>,
+		<farmingforblockheads:feeding_trough:0>,
 		<farmingforblockheads:fertilizer:1>,
 		<farmingforblockheads:fertilizer:2>,
-		<farmingforblockheads:fertilizer>
+		<farmingforblockheads:fertilizer:0>
 	]
 };
 

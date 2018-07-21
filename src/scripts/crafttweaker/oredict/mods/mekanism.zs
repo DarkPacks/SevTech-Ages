@@ -10,7 +10,7 @@
 
 // Ores
 <ore:oreCopper>.add(<mekanism:oreblock:1>);
-<ore:oreOsmium>.add(<mekanism:oreblock>);
+<ore:oreOsmium>.add(<mekanism:oreblock:0>);
 <ore:oreTin>.add(<mekanism:oreblock:2>);
 
 // Copper
@@ -31,11 +31,11 @@
 <ore:shardGold>.add(<mekanism:shard:1>);
 
 // Iron
-<ore:clumpIron>.add(<mekanism:clump>);
-<ore:crystalIron>.add(<mekanism:crystal>);
-<ore:dustDirtyIron>.add(<mekanism:dirtydust>);
-<ore:dustIron>.add(<mekanism:dust>);
-<ore:shardIron>.add(<mekanism:shard>);
+<ore:clumpIron>.add(<mekanism:clump:0>);
+<ore:crystalIron>.add(<mekanism:crystal:0>);
+<ore:dustDirtyIron>.add(<mekanism:dirtydust:0>);
+<ore:dustIron>.add(<mekanism:dust:0>);
+<ore:shardIron>.add(<mekanism:shard:0>);
 
 // Lead
 <ore:clumpLead>.add(<mekanism:clump:6>);
@@ -45,7 +45,7 @@
 <ore:shardLead>.add(<mekanism:shard:6>);
 
 // Osmium
-<ore:blockOsmium>.add(<mekanism:basicblock>);
+<ore:blockOsmium>.add(<mekanism:basicblock:0>);
 <ore:clumpOsmium>.add(<mekanism:clump:2>);
 <ore:crystalOsmium>.add(<mekanism:crystal:2>);
 <ore:dustDirtyOsmium>.add(<mekanism:dirtydust:2>);
@@ -74,8 +74,8 @@
 // Refined Obsidian
 <ore:blockRefinedObsidian>.add(<mekanism:basicblock:2>);
 <ore:dustRefinedObsidian>.add(<mekanism:otherdust:5>);
-<ore:ingotRefinedObsidian>.add(<mekanism:ingot>);
-<ore:nuggetRefinedObsidian>.add(<mekanism:nugget>);
+<ore:ingotRefinedObsidian>.add(<mekanism:ingot:0>);
+<ore:nuggetRefinedObsidian>.add(<mekanism:nugget:0>);
 
 // Refined Glowstone
 <ore:blockRefinedGlowstone>.add(<mekanism:basicblock:4>);
@@ -89,18 +89,18 @@
 
 // Misc
 <ore:blockCharcoal>.add(<mekanism:basicblock:3>);
-<ore:blockSalt>.add(<mekanism:saltblock>);
+<ore:blockSalt>.add(<mekanism:saltblock:0>);
 <ore:blockSteel>.add(<mekanism:basicblock:5>);
-<ore:dustDiamond>.add(<mekanism:otherdust>);
+<ore:dustDiamond>.add(<mekanism:otherdust:0>);
 <ore:dustLithium>.add(<mekanism:otherdust:4>);
 <ore:dustObsidian>.add(<mekanism:otherdust:6>);
-<ore:dustSalt>.add(<mekanism:salt>);
+<ore:dustSalt>.add(<mekanism:salt:0>);
 <ore:dustSteel>.add(<mekanism:otherdust:1>);
 <ore:dustSulfur>.add(<mekanism:otherdust:3>);
-<ore:dustWood>.add(<mekanism:sawdust>);
-<ore:foodSalt>.add(<mekanism:salt>);
-<ore:foodSalt>.add(<mekanism:saltblock>);
+<ore:dustWood>.add(<mekanism:sawdust:0>);
+<ore:foodSalt>.add(<mekanism:salt:0>);
+<ore:foodSalt>.add(<mekanism:saltblock:0>);
 <ore:ingotSteel>.add(<mekanism:ingot:4>);
-<ore:itemSalt>.add(<mekanism:salt>);
+<ore:itemSalt>.add(<mekanism:salt:0>);
 <ore:nuggetSteel>.add(<mekanism:nugget:4>);
-<ore:pulpWood>.add(<mekanism:sawdust>);
+<ore:pulpWood>.add(<mekanism:sawdust:0>);

@@ -31,7 +31,7 @@ static ae as IItemStack[string][string] = {
 static rs as IItemStack[string][string] = {
 	printed: {
 		advanced: <refinedstorage:processor:2>,
-		basic: <refinedstorage:processor>,
+		basic: <refinedstorage:processor:0>,
 		improved: <refinedstorage:processor:1>,
 		silicon: <refinedstorage:processor:6>
 	},
@@ -51,35 +51,35 @@ function init() {
 	appliedEnergistics.addInscribe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);
 
 	// Use GC heavy plating as alternative recipe for printed engineering
-	appliedEnergistics.addInscribe(ae.printed.engineering, <galacticraftcore:heavy_plating>, true, ae.press.engineering);
+	appliedEnergistics.addInscribe(ae.printed.engineering, <galacticraftcore:heavy_plating:0>, true, ae.press.engineering);
 
 	// ==============================================
 	// Refined Storage re-creation
-	appliedEnergistics.addInscribe(<refinedstorage:fluid_interface>, <refinedstorage:interface>, false, <minecraft:bucket>, <minecraft:redstone>);
+	appliedEnergistics.addInscribe(<refinedstorage:fluid_interface:0>, <refinedstorage:interface:0>, false, <minecraft:bucket:0>, <minecraft:redstone:0>);
 
-	appliedEnergistics.addInscribe(<refinedstorage:grid:2>, <refinedstorage:grid>, false, ae.processor.engineering, <refinedstorage:pattern>);
-	appliedEnergistics.addInscribe(<refinedstorage:grid:3>, <refinedstorage:grid>, false, ae.processor.engineering, <minecraft:bucket>);
+	appliedEnergistics.addInscribe(<refinedstorage:grid:2>, <refinedstorage:grid:0>, false, ae.processor.engineering, <refinedstorage:pattern:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:grid:3>, <refinedstorage:grid:0>, false, ae.processor.engineering, <minecraft:bucket:0>);
 
-	appliedEnergistics.addInscribe(<refinedstorage:storage>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:storage_part>);
-	appliedEnergistics.addInscribe(<refinedstorage:storage:1>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:storage_part:1>);
-	appliedEnergistics.addInscribe(<refinedstorage:storage:2>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:storage_part:2>);
-	appliedEnergistics.addInscribe(<refinedstorage:storage:3>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:storage_part:3>);
+	appliedEnergistics.addInscribe(<refinedstorage:storage:0>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:storage_part:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:storage:1>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:storage_part:1>);
+	appliedEnergistics.addInscribe(<refinedstorage:storage:2>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:storage_part:2>);
+	appliedEnergistics.addInscribe(<refinedstorage:storage:3>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:storage_part:3>);
 
-	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:fluid_storage_part>);
-	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:1>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:1>);
-	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:2>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:2>);
-	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:3>, <refinedstorage:machine_casing>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:3>);
+	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:0>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:1>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:1>);
+	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:2>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:2>);
+	appliedEnergistics.addInscribe(<refinedstorage:fluid_storage:3>, <refinedstorage:machine_casing:0>, false, ae.processor.logic, <refinedstorage:fluid_storage_part:3>);
 
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:1>, <refinedstorage:upgrade>, false, <minecraft:ender_pearl>, <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:2>, <refinedstorage:upgrade>, false, <minecraft:sugar>, <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:3>, <refinedstorage:upgrade>, false, <ore:workbench>, <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:5>, <refinedstorage:upgrade>, false, <minecraft:nether_star>, <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:6>, <refinedstorage:upgrade>, false,
-			<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}), <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:7>, <refinedstorage:upgrade>, false,
-			<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade>, false,
-			<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}), <minecraft:redstone>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade>, false,
-			<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:redstone>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:1>, <refinedstorage:upgrade:0>, false, <minecraft:ender_pearl:0>, <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:2>, <refinedstorage:upgrade:0>, false, <minecraft:sugar:0>, <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:3>, <refinedstorage:upgrade:0>, false, <ore:workbench>, <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:5>, <refinedstorage:upgrade:0>, false, <minecraft:nether_star:0>, <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:6>, <refinedstorage:upgrade:0>, false,
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}), <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:7>, <refinedstorage:upgrade:0>, false,
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade:0>, false,
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}), <minecraft:redstone:0>);
+	appliedEnergistics.addInscribe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade:0>, false,
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:redstone:0>);
 }

@@ -8,12 +8,12 @@ import scripts.crafttweaker.stages.stageFive;
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
 		<chargers:charger:1>,
-		<chargers:charger>
+		<chargers:charger:0>
 	],
 
 	stageFive.stage: [
 		<chargers:charger:2>,
-		<chargers:wireless_charger>
+		<chargers:wireless_charger:0>
 	]
 };
 

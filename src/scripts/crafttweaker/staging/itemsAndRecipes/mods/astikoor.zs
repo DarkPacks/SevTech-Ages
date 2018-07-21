@@ -7,15 +7,15 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<astikoor:cargocart>,
-		<astikoor:plowcart>,
-		<astikoor:wheel>
+		<astikoor:cargocart:0>,
+		<astikoor:plowcart:0>,
+		<astikoor:wheel:0>
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<astikoor:carriage>,
-	<astikoor:chariot>
+	<astikoor:carriage:0>,
+	<astikoor:chariot:0>
 ];
 
 function init() {

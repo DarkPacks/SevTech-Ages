@@ -23,53 +23,53 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<improvedbackpacks:blank_upgrade> : [
+	<improvedbackpacks:blank_upgrade:0> : [
 		[
-			[null, <minecraft:leather>, null],
+			[null, <minecraft:leather:0>, null],
 			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
-			[null, <minecraft:leather>, null]
+			[null, <minecraft:leather:0>, null]
 		]
 	],
-	<improvedbackpacks:upgrade> : [
+	<improvedbackpacks:upgrade:0> : [
 		[
-			[null, <minecraft:leather>, null],
-			[<ore:logWood>, <improvedbackpacks:blank_upgrade>, <ore:logWood>],
+			[null, <minecraft:leather:0>, null],
+			[<ore:logWood>, <improvedbackpacks:blank_upgrade:0>, <ore:logWood>],
 			[null, <ore:logWood>, null]
 		]
 	],
 	<improvedbackpacks:upgrade:1> : [
 		[
-			[null, <minecraft:leather>, null],
-			[<minecraft:stone>, <improvedbackpacks:upgrade>, <minecraft:stone>],
-			[null, <minecraft:stone>, null]
+			[null, <minecraft:leather:0>, null],
+			[<minecraft:stone:0>, <improvedbackpacks:upgrade:0>, <minecraft:stone:0>],
+			[null, <minecraft:stone:0>, null]
 		]
 	],
 	<improvedbackpacks:upgrade:2> : [
 		[
-			[null, <minecraft:leather>, null],
+			[null, <minecraft:leather:0>, null],
 			[metals.iron.ingot, <improvedbackpacks:upgrade:1>, metals.iron.ingot],
 			[null, metals.iron.ingot, null]
 		]
 	],
 	<improvedbackpacks:upgrade:3> : [
 		[
-			[null, <minecraft:leather>, null],
+			[null, <minecraft:leather:0>, null],
 			[metals.gold.ingot, <improvedbackpacks:upgrade:2>, metals.gold.ingot],
 			[null, metals.gold.ingot, null]
 		]
 	],
 	<improvedbackpacks:upgrade:4> : [
 		[
-			[null, <minecraft:leather>, null],
-			[<minecraft:diamond>, <improvedbackpacks:upgrade:3>, <minecraft:diamond>],
-			[null, <minecraft:diamond>, null]
+			[null, <minecraft:leather:0>, null],
+			[<minecraft:diamond:0>, <improvedbackpacks:upgrade:3>, <minecraft:diamond:0>],
+			[null, <minecraft:diamond:0>, null]
 		]
 	],
-	<improvedbackpacks:backpack>: [
+	<improvedbackpacks:backpack:0>: [
 		[
-			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
-			[<minecraft:leather>, <immcraft:chest>, <minecraft:leather>],
-			[<minecraft:leather>, <primal:leather_cordage>, <minecraft:leather>]
+			[<minecraft:leather:0>, <minecraft:leather:0>, <minecraft:leather:0>],
+			[<minecraft:leather:0>, <immcraft:chest:0>, <minecraft:leather:0>],
+			[<minecraft:leather:0>, <primal:leather_cordage:0>, <minecraft:leather:0>]
 		]
 	]
 };
@@ -102,11 +102,11 @@ static removeRecipes as IIngredient[] = [
 ];
 
 static removeFurnace as IIngredient[] = [
-	<improvedbackpacks:tanned_leather>
+	<improvedbackpacks:tanned_leather:0>
 ];
 
 function initColourRecipes() {
-	var backpack = <improvedbackpacks:backpack>;
+	var backpack = <improvedbackpacks:backpack:0>;
 
 	for i in 0 to 16 {
 		recipes.addShapeless(
@@ -114,7 +114,7 @@ function initColourRecipes() {
 			backpack.withTag({Color: i}),
 			[
 				backpack.marked("bag"),
-				<pickletweaks:dye_powder>.definition.makeStack(i)
+				<pickletweaks:dye_powder:0>.definition.makeStack(i)
 			],
 
 			// Recipe Function

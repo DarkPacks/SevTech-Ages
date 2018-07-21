@@ -10,5 +10,5 @@
 import mods.immersiveengineering.BottlingMachine;
 
 function init() {
-	BottlingMachine.addRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:glass_bottle>, <liquid:water> * 1000);
+	BottlingMachine.addRecipe(<minecraft:potion:0>.withTag({Potion: "minecraft:water"}), <minecraft:glass_bottle:0>, <liquid:water> * 1000);
 }

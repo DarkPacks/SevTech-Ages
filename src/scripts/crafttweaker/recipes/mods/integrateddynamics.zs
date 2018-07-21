@@ -14,11 +14,11 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<integrateddynamics:mechanical_squeezer>: [
+	<integrateddynamics:mechanical_squeezer:0>: [
 		[
-			[null, <appliedenergistics2:nether_quartz_pickaxe>, null],
-			[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>],
-			[null, <minecraft:obsidian>, null]
+			[null, <appliedenergistics2:nether_quartz_pickaxe:0>, null],
+			[<integrateddynamics:energy_battery:0>, <integrateddynamics:squeezer:0>, <integrateddynamics:energy_battery:0>],
+			[null, <minecraft:obsidian:0>, null]
 		]
 	]
 };
@@ -43,7 +43,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
-	<integrateddynamics:mechanical_squeezer>
+	<integrateddynamics:mechanical_squeezer:0>
 ];
 
 function init() {

@@ -2,7 +2,7 @@ setTitle("Error 404: Heart Not Found")
 
 setIcon("mekanism:ingot", 6)
 
-setDescription("Find a surface sample and dig for tin! Located Y8 to 68 and called Cassiterite or Teallite. Note, surface samples will unhide in already explored areas")
+setDescription("Find a Cassiterite or Teallite surface sample and dig for Tin! The ore is located between Y8 and Y68. Note, surface samples will unhide in already explored areas.")
 
 addParent("triumph:stage1/prospector")
 setRequiresParents()

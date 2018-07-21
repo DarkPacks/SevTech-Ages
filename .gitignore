@@ -13,3 +13,6 @@ config/worldutils/*
 
 #IDE
 .idea/
+
+#Mac Desktop Services Store
+.DS_Store

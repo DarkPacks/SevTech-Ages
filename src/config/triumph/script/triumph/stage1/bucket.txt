@@ -1,0 +1,15 @@
+setTitle("Bucket List")
+
+setIcon("ceramics:clay_bucket")
+
+setDescription("Use the Turntable to shape a clay bucket and cook it in the Kiln")
+
+addParent("triumph:stage1/turntable")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("ceramics:clay_bucket")
+
+//Rewards
+setRewardExperience(4)

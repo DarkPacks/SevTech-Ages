@@ -1,0 +1,15 @@
+setTitle("Chop! Chop! Chop!")
+
+setIcon("horsepower:chopper")
+
+setDescription("No more chopping wood by hand! Place a Horse Power Chopper, attach a Horse using a lead, and insert items to automatically chop")
+
+addParent("triumph:stage0/horsepower")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("horsepower:chopper")
+
+//Rewards
+setRewardExperience(4)

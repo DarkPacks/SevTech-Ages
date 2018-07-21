@@ -1,0 +1,15 @@
+setTitle("Leather, Rinse, Repeat")
+
+setIcon("minecraft:leather")
+
+setDescription("Acquire Leather!")
+
+addParent("triumph:stage0/fluidbladder")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:leather")
+
+//Rewards
+setRewardExperience(4)

@@ -1,0 +1,27 @@
+setTitle("Something to Write On")
+
+setIcon("astralsorcery:itemcraftingcomponent", 5)
+
+setDescription("Begin keeping records of your knowledge on Parchment. It requires the bark from Mulberry trees which spawn out in the world")
+
+addParent("triumph:stage1/aquamarine")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setRequirements("any")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("astralsorcery:itemcraftingcomponent", 5)
+
+criteria2 = addCriteria("hasCraftedRock", "triumph:player_crafted_item")
+criteria2.setItem("astralsorcery:itemcraftingcomponent", 5)
+
+//Rewards
+setRewardExperience(4)

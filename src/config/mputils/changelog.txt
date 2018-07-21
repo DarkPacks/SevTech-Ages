@@ -8,22 +8,144 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
-GameStages 2.0 (3.1.0) TBC.
+3.1.0
+
+Important Notes:
+* The modpack has had a complete re-write of all the CraftTweaker Scripts to make our lives easier during development along with easier updates. However in the process some bugs may show from items
+being staged wrong. Or recipes not working correctly, we have done all the testing we can to ensure this won't happen. But with all development processes things will get past QA. So if you find
+any problems please report them to our tracker, thanks!
+* Tomb Many Graves has been removed! So what does this mean for me? Well if you have any graves lying around they are now gone. The change has been done due to the lack of support from other mods
+in the pack which TMG was not getting all the player items. Leading to item loss and users not playing the pack again. So we have changed to using Corails Tombstone which has the mod support we
+need, along with some added items which will help the player in the long run. Also for you builders out there, you now have graves to place around your base! We're sorry if you've lost items from
+the old graves. But this is a major update and we had to make the change now rather than later. We hope you can understand this.
+* If you get a crash relating to `java.lang.NoSuchFieldError: OpenGL45` your LWJGL is out of date. The needed version is 2.9.4 if your using MultiMC you can change the version in the instance settings.
+Twitch you should use the Jar Launcher as this will auto use the correct version. Likewise for ATLauncher.
+
+Bug Fixes:
+* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
+* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
+* Fixed "Broken" tooltip from displaying on the Cyclic swords
+* Fixed Cyclic player launcher recipe
+* Disable "What is 11?" Easter Egg with Actually Additions (#3140)
+* Disabled Coal Block to Diamonds in PneumaticCraft in the config to force it off.
+
+Enhancements:
+* Disabled more Cyclic Enhancements not needed for this pack.
+* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+* Made ore advancement descriptions uniform and corrected Y values.
+
+Forge:
+
+Mods Added:
+* Corails Tombstone
+    * This replaces Tomb Many Graves.
+* ZenStages
+
+Mods Removed:
+* Tomb Many Graves
+    * This mod was causing more problems than solving. So we have decided to drop the mod in favour of another which has mod support
+      and active development.
 
 Mod Updates:
+* A Block of Charcoal (1.2)
+* AbyssalCraft (1.9.4.10)
+    * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
+    * Fixed a dupe bug in the Materializer GUI
+    * Reduced the range of Cha'garoth's melee attacks
+    * Slowed down the initial velocity of the Acid Projectile, increased the time between each projectile being fired, and made it so baby Lesser Shoggoths won't fire them
+* AbyssalCraft Integration (1.6.5)
+* Actually Additions (r137)
+* Apple Core (3.1.3)
+* Aroma Backup (2.1.1.4)
+* Astikoor (1.1.1a)
+* Astral Sorcery (1.9.3)
+* AutoRegLib (1.3-18)
 * B.A.S.E (3.9.0)
-* Bookshelf (2.3.550)
+* Better Advancements (0.0.8.50)
+* Better With Addons (0.42)
+* Better With Mods (2.3.2)
+* BiblioCraft (2.4.5)
+* Blood Magic (2.3.0-98)
+* BnBGamingCore (0.9.0)
+* Bookshelf (2.3.552)
+* CarryOn (1.9.1)
+* Chisel & Bits (14.19)
+* Clumps (3.1.1)
+* Code Chicken Lib (3.2.0.345)
+* Connected Textures Mod (0.32.18)
+* Construct's Armory (1.0.2)
 * Content Tweaker (4.6.0)
+* CraftTweaker (4.1.9)
+* Cucumber (1.1.1)
+* Cyclic (1.16.2)
+* Cyclops Core (0.11.8)
+* Dark Utilities (1.8.211)
+* Despawning Spawners (1.2.0-2)
 * Dimension Stages (2.0.20)
+* EmberRootZoo (1.3.8)
+* Ender Storage (2.4.4.132)
+* Ender Utilities (0.7.11)
+* Environmental Tech (2.0.12a)
+* Extended Crafting (1.4.0)
+* ExtraPlanets (0.4.0)
+* Farseek (2.3.1)
+* FastWorkbench (1.5.1)
+* FindMe (1.0.2-6)
+* Forge Multi Part (2.4.2.60)
+* ForgeLin (1.7.4)
+* Galacticraft (4.0.1.181)
+* Galacticraft Planets (4.0.1.181)
 * Game Stages (2.0.91)
+* Guide API (2.1.6-61)
+* Horse Power (2.6.1.67)
+* Hunting Dimension (1.0.28)
+* Immersive Engineering (0.12 - 84)
+* Improved Backpacks (1.3.0.0)
+* Industrial Foregoing (1.10.4-187)
+* Integrated Dynamics (0.11.14)
 * Item Stages (2.0.35)
+* Just Enough Items (4.11.0.202)
 * MTLib (3.0.5)
+* Mekanism (9.4.13.349)
+* MicDoodleCore (4.0.1.181)
+* Mob Grinding Utils (0.3.7)
 * MulitBlock Stages (1.1.1)
+* Mystical Agriculture (1.6.12)
+* Neat (1.4-16)
+* Ore Excavation (1.4.119)
+* Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
+* Placebo (1.4.0)
+* PneumaticCraft (0.7.3-239)
+* Prestige (1.0.17)
+* Quark (r1.4-125)
+* Reborn Core (3.9.2.319)
 * Recipe Stages (1.1.1)
+* Rustic (1.0.6)
 * SevTweaks (0.2.0)
-* Together Forever (1.0.10-17)
+* Simple Generators (2.0.12a)
+* Simple Storage Network (1.2.7)
+* Steve Carts (2.4.22.109)
+* Storage Drawers (5.3.7)
+* Tesla Core Lib (1.0.15.13)
+* The Beneath (1.4.2)
+* Triumph (2.1.1)
+* The Betweenlands (3.3.10)
+    * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
+    * Fixed a crash when certain items were rendered in Weedwood Workbench
+    * Fixed apparent crash when entering the Betweenlands
 * Tinker Stages (2.0.15)
+* Tinkers Construct (2.10.1.87)
+* To The Bat Poles (1.1.0.1)
+* Toast Control (1.7.0)
+* Together Forever (1.0.10-17)
+* Totemic (0.11.2)
+* Translocators (2.5.0.73)
+* Traverse (1.5.4-61)
+* ValkyrieLib (2.0.12a)
+* Wither Skeleton Tweaks (2.6.1)
+
+* TODO: Geolosys!
 
 ---------------------------------------------------------------------
 

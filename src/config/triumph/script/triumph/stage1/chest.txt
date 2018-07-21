@@ -1,0 +1,15 @@
+setTitle("I Need to Get This Off My Chest")
+
+setIcon("minecraft:chest")
+
+setDescription("Upgrade your chest")
+
+addParent("triumph:stage1/crafting")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("brokeLog", "minecraft:inventory_changed")
+criteria.setItem("minecraft:chest", 0)
+
+//Rewards
+setRewardExperience(4)

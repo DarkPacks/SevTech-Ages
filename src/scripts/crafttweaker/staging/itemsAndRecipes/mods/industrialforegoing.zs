@@ -94,7 +94,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<industrialforegoing:laser_base:0>,
 	<industrialforegoing:laser_drill:0>,
 	<industrialforegoing:laser_lens:*>,
@@ -105,8 +105,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.industrialforegoing.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.industrialforegoing.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.industrialforegoing.hiddenRemove as IIngredient[], true);
 }

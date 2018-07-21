@@ -16,8 +16,11 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<jaff:fish_bones:0>
+];
+
+static hiddenRemove as IIngredient[] = [
 	<jaff:diamond_fishing_rod:0>,
-	<jaff:fish_bones:0>,
 	<jaff:golden_fishing_rod:0>,
 	<jaff:iron_fishing_rod:0>,
 	<jaff:iron_hook:0>,
@@ -28,8 +31,6 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.jaff.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.jaff.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.jaff.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.jaff.hiddenRemove as IIngredient[], true);
 }

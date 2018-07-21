@@ -361,7 +361,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:block_treasure_chest:0>,
 	<actuallyadditions:gold_paxel:0>,
@@ -387,8 +387,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.hiddenRemove as IIngredient[], true);
 }

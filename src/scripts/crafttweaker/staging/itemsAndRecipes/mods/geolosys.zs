@@ -77,8 +77,13 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<geolosys:cluster:11>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.geolosys.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.geolosys.hiddenItems as IIngredient[]);
 }

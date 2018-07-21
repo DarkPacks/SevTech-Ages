@@ -13,6 +13,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.ZenStager;
+
+import scripts.crafttweaker.stages.stageDisabled;
+
 zenClass RecipeUtil {
 	zenConstructor() {
 	}
@@ -124,6 +128,30 @@ zenClass RecipeUtil {
 	function removeFurnace(removals as IIngredient[IIngredient]) {
 		for input, output in removals {
 			furnace.remove(input, output);
+		}
+	}
+
+	/*
+		Hide an item from JEI.
+
+		You can also set true to the second param to remove the recipes also.
+		This also sets the Stage to Disabled incase people still have them or find them.
+	*/
+	function hideItems(removals as IIngredient[]) {
+		hideItems(removals, false);
+	}
+	function hideItems(removals as IIngredient[], removeRecipe as bool) {
+		if (removeRecipe) {
+			for toHide in removals {
+				mods.jei.JEI.removeAndHide(toHide);
+				ZenStager.getStage(stageDisabled.stage).addIngredient(toHide, false);
+			}
+		} else {
+			for toHide in removals {
+				for toHideItem in toHide.items {
+					mods.jei.JEI.hide(toHideItem);
+				}
+			}
 		}
 	}
 }

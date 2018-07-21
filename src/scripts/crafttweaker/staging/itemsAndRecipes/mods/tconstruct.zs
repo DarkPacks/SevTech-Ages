@@ -302,7 +302,10 @@ static hiddenItems as IIngredient[] = [
 	<tconstruct:slime_vine_purple_end:0>,
 	<tconstruct:slime_vine_purple_mid:0>,
 	<tconstruct:spaghetti:0>,
-	<tconstruct:throwball:1>,
+	<tconstruct:throwball:1>
+];
+
+static hiddenRemove as IIngredient[] = [
 	<tconstruct:toolforge:0>.withTag({textureBlock: {id: "extraplanets:neptune", Count: 1 as byte, Damage: 7 as short}}),
 	<tconstruct:toolforge:0>.withTag({textureBlock: {id: "primal:metalblock", Count: 1 as byte, Damage: 12 as short}}),
 
@@ -314,10 +317,8 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.hiddenRemove as IIngredient[], true);
 
 	// Handle the Tool Tables
 	for subItem in <tconstruct:tooltables:0>.definition.subItems {

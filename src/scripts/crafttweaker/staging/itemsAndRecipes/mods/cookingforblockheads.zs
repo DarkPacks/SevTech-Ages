@@ -23,8 +23,13 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<cookingforblockheads:cow_jar:0>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.cookingforblockheads.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.cookingforblockheads.hiddenItems as IIngredient[]);
 }

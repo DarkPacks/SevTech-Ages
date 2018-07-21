@@ -26,8 +26,15 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<progressiontweaks:lime>,
+	<progressiontweaks:machine_frame>,
+	<progressiontweaks:nanomachine_frame>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.progressiontweaks.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.progressiontweaks.hiddenItems as IIngredient[]);
 }

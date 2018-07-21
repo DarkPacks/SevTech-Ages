@@ -12,7 +12,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<simplyarrows:arrow_cake:0>,
 	<simplyarrows:arrow_flame:0>,
 	<simplyarrows:arrow_iron:0>,
@@ -25,8 +25,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.simplyarrows.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.simplyarrows.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.simplyarrows.hiddenRemove as IIngredient[], true);
 }

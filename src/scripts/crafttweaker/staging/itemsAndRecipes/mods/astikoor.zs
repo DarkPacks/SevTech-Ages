@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<astikoor:carriage:0>,
 	<astikoor:chariot:0>
 ];
@@ -22,8 +22,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.astikoor.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.astikoor.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.astikoor.hiddenRemove as IIngredient[], true);
 }

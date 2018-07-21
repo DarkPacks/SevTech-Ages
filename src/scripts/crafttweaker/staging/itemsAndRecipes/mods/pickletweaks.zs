@@ -89,10 +89,13 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<pickletweaks:grass_fiber:0>,
 	<pickletweaks:mesh:0>,
 	<pickletweaks:ppm4:1>,
-	<pickletweaks:ppm4:0>,
+	<pickletweaks:ppm4:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<pickletweaks:grass_fiber:0>,
 	<pickletweaks:reinforced_mesh:0>
 ];
 
@@ -100,8 +103,6 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenRemove as IIngredient[], true);
 }

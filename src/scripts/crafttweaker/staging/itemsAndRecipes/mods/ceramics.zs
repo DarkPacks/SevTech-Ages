@@ -97,7 +97,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<ceramics:clay_boots_raw:0>,
 	<ceramics:clay_chestplate_raw:0>,
 	<ceramics:clay_helmet_raw:0>,
@@ -108,8 +108,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.hiddenRemove as IIngredient[], true);
 }

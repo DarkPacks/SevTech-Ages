@@ -43,16 +43,17 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<improvedbackpacks:bound_leather:0>,
-	<improvedbackpacks:ender_backpack:0>, // We have the ender pouch and this has no def recipe, darkoLUL
 	<improvedbackpacks:tanned_leather:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<improvedbackpacks:ender_backpack:0> // We have the ender pouch and this has no def recipe, darkoLUL
 ];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.improvedbackpacks.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.improvedbackpacks.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.improvedbackpacks.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.improvedbackpacks.hiddenRemove as IIngredient[], true);
 }

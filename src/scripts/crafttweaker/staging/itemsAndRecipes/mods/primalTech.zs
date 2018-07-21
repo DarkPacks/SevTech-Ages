@@ -48,8 +48,13 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<primal_tech:plant_fibres:0>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.hiddenItems as IIngredient[]);
 }

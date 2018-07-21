@@ -573,6 +573,11 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<abyssalcraft:dirtyplate:0>,
+	<abyssalcraft:friedegg:0>
+];
+
+static hiddenRemove as IIngredient[] = [
 	<abyssalcraft:abyssalniteu:0>,
 	<abyssalcraft:beefp:0>,
 	<abyssalcraft:chickenp:0>,
@@ -580,12 +585,10 @@ static hiddenItems as IIngredient[] = [
 	<abyssalcraft:cobbleu:0>,
 	<abyssalcraft:coraliumu:0>,
 	<abyssalcraft:diamondu:0>,
-	<abyssalcraft:dirtyplate:0>,
 	<abyssalcraft:dreadiumu:0>,
 	<abyssalcraft:eggp:0>,
 	<abyssalcraft:ethaxiumu:0>,
 	<abyssalcraft:fishp:0>,
-	<abyssalcraft:friedegg:0>,
 	<abyssalcraft:goldu:0>,
 	<abyssalcraft:ironp:0>,
 	<abyssalcraft:ironu:0>,
@@ -597,8 +600,6 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.hiddenRemove as IIngredient[], true);
 }

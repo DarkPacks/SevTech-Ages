@@ -104,7 +104,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<astralsorcery:blockmarbleslab:0>, // This is not a finshed Block; advised to not use it till completed.
 	<astralsorcery:itemchargedcrystalpickaxe:0> // <-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
 ];
@@ -113,8 +113,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.hiddenRemove as IIngredient[], true);
 }

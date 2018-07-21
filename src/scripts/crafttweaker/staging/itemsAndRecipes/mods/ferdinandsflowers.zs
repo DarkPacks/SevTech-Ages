@@ -184,6 +184,10 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<ferdinandsflowers:item_test:0>
+];
+
+static hiddenRemove as IIngredient[] = [
 	<ferdinandsflowers:block_dye_brick:1>,
 	<ferdinandsflowers:block_dye_brick:2>,
 	<ferdinandsflowers:block_dye_brick:3>,
@@ -221,16 +225,13 @@ static hiddenItems as IIngredient[] = [
 	<ferdinandsflowers:block_dye_brickb:15>,
 	<ferdinandsflowers:block_dye_brickb:0>,
 	<ferdinandsflowers:flower_dye:*>,
-	<ferdinandsflowers:flower_dyeb:*>,
-	<ferdinandsflowers:item_test:0>
+	<ferdinandsflowers:flower_dyeb:*>
 ];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.ferdinandsflowers.hiddenRemove as IIngredient[], true);
 }

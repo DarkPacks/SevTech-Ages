@@ -361,10 +361,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<betterwithaddons:bag:10>,
-	<betterwithaddons:bolt:3>,
-	<betterwithaddons:bolt:4>,
-	<betterwithaddons:bolt:5>,
 	<betterwithaddons:boots_samurai:0>,
 	<betterwithaddons:chest_samurai:0>,
 	<betterwithaddons:crop_rush:0>,
@@ -376,22 +372,29 @@ static hiddenItems as IIngredient[] = [
 	<betterwithaddons:food_clownfish_cooked:0>,
 	<betterwithaddons:food_pufferfish_baked:0>,
 	<betterwithaddons:helmet_samurai:0>,
+	<betterwithaddons:leafpile_sakura:0>,
+	<betterwithaddons:legs_samurai:0>,
+	<betterwithaddons:poisoned_ya:0>,
+	<betterwithaddons:rotten_food:0>,
+	<betterwithaddons:wheatmat:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<betterwithaddons:bag:10>,
+	<betterwithaddons:bolt:3>,
+	<betterwithaddons:bolt:4>,
+	<betterwithaddons:bolt:5>,
 	<betterwithaddons:ink_and_quill:0>,
 	<betterwithaddons:japanmat:31>,
 	<betterwithaddons:japanmat:32>,
 	<betterwithaddons:japanmat:33>,
 	<betterwithaddons:japanmat:34>,
-	<betterwithaddons:leafpile_sakura:0>,
-	<betterwithaddons:legs_samurai:0>,
-	<betterwithaddons:log_termite:0>,
+	<betterwithaddons:log_termite>,
 	<betterwithaddons:material:4>,
 	<betterwithaddons:material:5>,
 	<betterwithaddons:material:6>,
-	<betterwithaddons:poisoned_ya:0>,
 	<betterwithaddons:rail_rusted:0>,
-	<betterwithaddons:rotten_food:0>,
 	<betterwithaddons:tatami_full:0>,
-	<betterwithaddons:wheatmat:0>,
 	<betterwithaddons:writing_table:1>,
 	<betterwithaddons:writing_table:2>,
 	<betterwithaddons:writing_table:3>,
@@ -404,8 +407,6 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithaddons.hiddenRemove as IIngredient[], true);
 }

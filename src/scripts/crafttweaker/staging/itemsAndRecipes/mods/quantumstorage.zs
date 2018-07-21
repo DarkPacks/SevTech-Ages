@@ -23,7 +23,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<quantumstorage:chest_diamond:0>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_gold:0>, //Quantum Storage Metal Chests
 	<quantumstorage:chest_iron:0>, //Quantum Storage Metal Chests
@@ -39,8 +39,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.quantumstorage.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.quantumstorage.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.quantumstorage.hiddenRemove as IIngredient[], true);
 }

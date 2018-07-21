@@ -31,20 +31,21 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<mob_grinding_utils:ender_inhibitor_off>,
-	<mob_grinding_utils:ender_inhibitor_on>,
-	<mob_grinding_utils:entity_conveyor>,
-	<mob_grinding_utils:gm_chicken_feed>,
-	<mob_grinding_utils:mob_swab>,
-	<mob_grinding_utils:null_sword>
+	<mob_grinding_utils:gm_chicken_feed:0>,
+	<mob_grinding_utils:null_sword:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<mob_grinding_utils:ender_inhibitor_off:0>,
+	<mob_grinding_utils:ender_inhibitor_on:0>,
+	<mob_grinding_utils:entity_conveyor:0>,
+	<mob_grinding_utils:mob_swab:0>
 ];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.mobGrindingUtils.hiddenRemove as IIngredient[], true);
 }

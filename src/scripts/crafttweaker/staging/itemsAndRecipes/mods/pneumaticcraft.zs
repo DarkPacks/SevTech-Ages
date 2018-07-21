@@ -164,7 +164,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<pneumaticcraft:refinery:0>,
 	<pneumaticcraft:thermopneumatic_processing_plant:0>,
 	<pneumaticcraft:jet_boots_upgrade:0>,
@@ -174,8 +174,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.pneumaticcraft.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.pneumaticcraft.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pneumaticcraft.hiddenRemove as IIngredient[], true);
 }

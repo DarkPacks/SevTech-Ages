@@ -72,7 +72,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<modularmachinery:blockinputbus:0>,
 	<modularmachinery:blockoutputbus:0>
 ];
@@ -110,10 +110,7 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.hiddenRemove as IIngredient[], true);
 
 	var multiblockMachinesForStages as string[][string] =
 		scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.multiblockMachinesForStages;

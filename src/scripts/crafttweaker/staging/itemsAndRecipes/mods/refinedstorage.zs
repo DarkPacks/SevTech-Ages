@@ -110,10 +110,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	// The beginning of bringing down the Minecraft community as we know it
-	// by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM!
-	<refinedstorage:core:1>,
-	<refinedstorage:core:0>,
 	<refinedstorage:processor:1>,
 	<refinedstorage:processor:2>,
 	<refinedstorage:processor:3>,
@@ -121,15 +117,20 @@ static hiddenItems as IIngredient[] = [
 	<refinedstorage:processor:5>,
 	<refinedstorage:processor:6>,
 	<refinedstorage:processor:0>,
-	<refinedstorage:solderer:0>,
+	<refinedstorage:solderer:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	// The beginning of bringing down the Minecraft community as we know it
+	// by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM!
+	<refinedstorage:core:1>,
+	<refinedstorage:core:0>
 ];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.hiddenRemove as IIngredient[], true);
 }

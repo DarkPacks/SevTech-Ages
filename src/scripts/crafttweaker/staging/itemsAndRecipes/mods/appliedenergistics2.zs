@@ -289,7 +289,10 @@ static hiddenItems as IIngredient[] = [
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
 	<appliedenergistics2:crystal_seed:0>.withTag({progress: 200}),
-	<appliedenergistics2:crystal_seed:0>.withTag({progress: 400}),
+	<appliedenergistics2:crystal_seed:0>.withTag({progress: 400})
+];
+
+static hiddenRemove as IIngredient[] = [
 	<appliedenergistics2:material:21>, //Inscriber Name Press
 	<appliedenergistics2:material:45>, //Skystone Dust
 	<appliedenergistics2:vibration_chamber:0>
@@ -299,8 +302,6 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenRemove as IIngredient[], true);
 }

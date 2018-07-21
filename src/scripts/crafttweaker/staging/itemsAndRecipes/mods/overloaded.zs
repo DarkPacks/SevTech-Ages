@@ -28,27 +28,28 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<overloaded:compressed_cobblestone:*>,
-	<overloaded:energy_core:0>,
-	<overloaded:fluid_core:0>,
-	<overloaded:item_core:0>,
-	<overloaded:multi_boots:0>,
-	<overloaded:multi_chestplate:0>,
-	<overloaded:multi_helmet:0>,
-	<overloaded:multi_leggings:0>,
-	<overloaded:nether_star_block:0>,
-	<overloaded:ray_gun:0>,
 	<overloaded:creative_generator:0>,
 	<overloaded:railgun:0>,
 	<overloaded:settings_editor:0>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<overloaded:compressed_cobblestone:*>,
+	<overloaded:energy_core>,
+	<overloaded:fluid_core>,
+	<overloaded:item_core>,
+	<overloaded:multi_boots>,
+	<overloaded:multi_chestplate>,
+	<overloaded:multi_helmet>,
+	<overloaded:multi_leggings>,
+	<overloaded:nether_star_block>,
+	<overloaded:ray_gun>
 ];
 
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.overloaded.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.overloaded.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.overloaded.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.overloaded.hiddenRemove as IIngredient[], true);
 }

@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static hiddenItems as IIngredient[] = [
+static hiddenRemove as IIngredient[] = [
 	<tombstone:advancement_001:0>,
 	<tombstone:advancement_002:0>,
 	<tombstone:advancement_003:0>,
@@ -31,7 +31,11 @@ static hiddenItems as IIngredient[] = [
 	<tombstone:fishing_rod_of_misadventure:0>,
 	<tombstone:grave_key:0>,
 	<tombstone:lost_tablet:0>.withTag({cooldown_time: 101286 as long}),
-	<tombstone:scroll_buff:*>,
+	<tombstone:scroll_buff:4>,
+	<tombstone:scroll_buff:3>,
+	<tombstone:scroll_buff:2>,
+	<tombstone:scroll_buff:1>,
+	<tombstone:scroll_buff:0>,
 	<tombstone:scroll_of_knowledge:0>,
 	<tombstone:soul:0>,
 	<tombstone:strange_scroll:0>,
@@ -45,8 +49,5 @@ function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.tombstone.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.tombstone.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.tombstone.hiddenRemove as IIngredient[], true);
 }

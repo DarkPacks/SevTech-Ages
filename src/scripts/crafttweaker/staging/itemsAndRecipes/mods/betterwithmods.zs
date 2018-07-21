@@ -404,39 +404,37 @@ static hiddenItems as IIngredient[] = [
 	<betterwithmods:fertile_farmland:0>,
 	<betterwithmods:fertilizer:0>,
 	<betterwithmods:material:30>,
-	<betterwithmods:material:31>,
-	<betterwithmods:material:32>,
-	<betterwithmods:material:33>,
 	<betterwithmods:material:5>,
-	<betterwithmods:material:6>,
-	<betterwithmods:material:7>,
-	<betterwithmods:raw_pastry:3>,
-	<betterwithmods:stump_remover:0>,
-	<betterwithmods:wood_table:1>,
-	<betterwithmods:wood_table:2>,
-	<betterwithmods:wood_table:3>,
-	<betterwithmods:wood_table:4>,
-	<betterwithmods:wood_table:5>,
-	<betterwithmods:wood_table:0>,
-	<betterwithmods:wool_boots>,
-	<betterwithmods:wool_chest>,
-	<betterwithmods:wool_helmet>,
-	<betterwithmods:wool_pants>,
-	// TEMP
-	<betterwithmods:wool_pants:*>,
-	<betterwithmods:wool_pants:0>,
 	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:10>),
 	utils.createAllMiniBlockIngredient(<betterwithmods:aesthetic:11>),
 	utils.createAllMiniBlockIngredient(<betterwithmods:nether_clay:0>),
 	utils.createAllMiniBlockIngredient(<minecraft:clay:0>)
 ];
 
+static hiddenRemove as IIngredient[] = [
+	<betterwithmods:material:31>,
+	<betterwithmods:material:32>,
+	<betterwithmods:material:33>,
+	<betterwithmods:material:6>,
+	<betterwithmods:material:7>,
+	<betterwithmods:raw_pastry:3>,
+	<betterwithmods:stump_remover:0>,
+	<betterwithmods:wood_table:0>,
+	<betterwithmods:wood_table:1>,
+	<betterwithmods:wood_table:2>,
+	<betterwithmods:wood_table:3>,
+	<betterwithmods:wood_table:4>,
+	<betterwithmods:wood_table:5>,
+	<betterwithmods:wool_boots:*>,
+	<betterwithmods:wool_chest:*>,
+	<betterwithmods:wool_helmet:*>,
+	<betterwithmods:wool_pants:*>
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenItems {
-		mods.jei.JEI.removeAndHide(ingredient);
-		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
-	}
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenRemove as IIngredient[], true);
 }

@@ -2,7 +2,7 @@ setTitle("Galena Ore")
 
 setIcon("immersiveengineering:metal", 2)
 
-setDescription("Find a surface sample and dig for Galena which will give both Silver and Lead! The ore is located from Y16 to 50")
+setDescription("Find a Galena surface sample and dig for Silver and Lead! The ore is located between Y16 and Y50")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

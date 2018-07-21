@@ -2,7 +2,7 @@ setTitle("Rock, Paper, Crystals")
 
 setIcon("astralsorcery:itemrockcrystalsimple", 0)
 
-setDescription("Rock Crystals are important for Astral Sorcery progression, locate a Rock Crystal Sample on the surface and dig down to find the vein below Y10")
+setDescription("Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down to find the ore between Y3 and Y18")
 
 addParent("triumph:stage2/starpowder")
 setRequiresParents()

@@ -201,13 +201,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<stevescarts:cartmodule:87>,
-	<stevescarts:cartmodule:92>,
-	<stevescarts:modularcart:0>,
-	<stevescarts:modulecomponents:9>
-];
-
-static hiddenItems as IIngredient[] = [
 	<stevescarts:modularcart>
 ];
 

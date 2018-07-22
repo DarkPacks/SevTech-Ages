@@ -172,8 +172,8 @@ function init() {
 
 		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
 	*/
-	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block:0>, [<ore:logWood>]);
-	Recipes.addShaped(<horsepower:chopping_block:0>, <horsepower:chopper:0>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block:0>, <ore:plankWood>]]);
+	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
+	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
 
 	// Recipe Map Imports
 	var grinderRecipes as IIngredient[][][int] = scripts.crafttweaker.integrations.mods.horsepower.grinderRecipes;

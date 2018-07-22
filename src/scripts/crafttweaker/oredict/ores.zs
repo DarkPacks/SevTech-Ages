@@ -69,3 +69,7 @@
 <ore:ingotSpacePlatinum>.add(<extraplanets:tier11_items:5>);
 <ore:orePlatinum>.remove(<extraplanets:kepler22b:13>);
 <ore:oreSpacePlatinum>.add(<extraplanets:kepler22b:13>);
+
+// Black Quartz
+<ore:gemQuartzBlack>.remove(<primal:quartz_vitrified>);
+<ore:gemQuartzVitrified>.remove(<primal:quartz_vitrified>);

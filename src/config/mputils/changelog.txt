@@ -26,12 +26,14 @@ Bug Fixes:
 * Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
 * Fixed "Broken" tooltip from displaying on the Cyclic swords
 * Fixed Cyclic player launcher recipe
-* Disable "What is 11?" Easter Egg with Actually Additions (#3140)
+* Fixed Steve's Carts Liquid Sensor recipe to fit age 3 (#3152)
+* Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
+* Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
 * Disabled Coal Block to Diamonds in PneumaticCraft in the config to force it off.
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
-* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+* Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 * Made ore advancement descriptions uniform and corrected Y values.
 
 Forge:

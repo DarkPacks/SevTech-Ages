@@ -35,6 +35,7 @@ Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
 * Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 * Made ore advancement descriptions uniform and corrected Y values.
+* Added Abyssalcraft ritual to get Mooshroom Essence for RF Tools Peaceful Dimlet (#3093)
 
 Forge:
 

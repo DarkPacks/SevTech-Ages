@@ -258,13 +258,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron:0>],
 			[<refinedstorage:quartz_enriched_iron:0>, <ore:blockGlass>, <refinedstorage:quartz_enriched_iron:0>]
 		]
-	],
-	<refinedstorage:wrench:0>: [
-		[
-			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorCalculation>, <refinedstorage:quartz_enriched_iron:0>],
-			[<refinedstorage:quartz_enriched_iron:0>, <refinedstorage:quartz_enriched_iron:0>, <refinedstorage:quartz_enriched_iron:0>],
-			[null, <refinedstorage:quartz_enriched_iron:0>, null]
-		]
 	]
 };
 
@@ -322,8 +315,14 @@ static removeRecipes as IIngredient[] = [
 	<refinedstorage:wireless_fluid_grid:0>,
 	<refinedstorage:wireless_grid:0>,
 	<refinedstorage:wireless_transmitter:0>,
-	<refinedstorage:wrench:0>,
 	<refinedstorage:writer:0>
+];
+
+static removeRegex as string[] = [
+	"refinedstorage:cut_advanced_processor",
+	"refinedstorage:cut_basic_processor",
+	"refinedstorage:cut_improved_processor",
+	"refinedstorage:cut_silicon"
 ];
 
 function init() {
@@ -338,6 +337,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.refinedstorage.namedShapelessRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.refinedstorage.removeRecipes;
+	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.refinedstorage.removeRegex;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -350,4 +350,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeRecipes(removeRegex);
 }

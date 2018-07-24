@@ -294,7 +294,6 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();
 	scripts.crafttweaker.integrations.mods.primalCore.init();
 	scripts.crafttweaker.integrations.mods.primalTech.init();
-	scripts.crafttweaker.integrations.mods.refinedStorage.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
 	scripts.crafttweaker.integrations.mods.tinkers.init.init();
 }

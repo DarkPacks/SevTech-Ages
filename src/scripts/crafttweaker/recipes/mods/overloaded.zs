@@ -95,7 +95,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:linking_card:0>: [
 		[
-			[<refinedstorage:wrench:0>, <rftools:powercell_card:0>, <enderutilities:linkcrystal:1>],
+			[<appliedenergistics2:nether_quartz_wrench:0>, <rftools:powercell_card:0>, <enderutilities:linkcrystal:1>],
 			[<mekanism:teleportationcore:0>, <astralsorcery:itemlinkingtool:0>, <mekanism:teleportationcore:0>],
 			[<enderutilities:linkcrystal:0>, <rftools:powercell_card:0>, <integrateddynamics:wrench:0>]
 		]

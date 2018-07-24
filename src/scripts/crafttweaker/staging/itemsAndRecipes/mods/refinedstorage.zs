@@ -92,8 +92,8 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:wireless_grid:1>,
 		<refinedstorage:wireless_grid:0>,
 		<refinedstorage:wireless_transmitter:0>,
-		<refinedstorage:wrench:0>,
-		<refinedstorage:writer:0>
+		<refinedstorage:writer:0>,
+		<refinedstorage:cutting_tool:1>
 	],
 
 	stageCreativeUnused.stage: [
@@ -116,15 +116,14 @@ static hiddenItems as IIngredient[] = [
 	<refinedstorage:processor:4>,
 	<refinedstorage:processor:5>,
 	<refinedstorage:processor:6>,
-	<refinedstorage:processor:0>,
-	<refinedstorage:solderer:0>
+	<refinedstorage:processor:0>
 ];
 
 static hiddenRemove as IIngredient[] = [
 	// The beginning of bringing down the Minecraft community as we know it
 	// by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM!
-	<refinedstorage:core:1>,
-	<refinedstorage:core:0>
+	<refinedstorage:core:0>,
+	<refinedstorage:core:1>
 ];
 
 function init() {

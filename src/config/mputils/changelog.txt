@@ -41,7 +41,7 @@ Forge:
 Mods Added:
 * Corails Tombstone (2.10.0)
     * This replaces Tomb Many Graves.
-* JustEnoughIDs
+* JustEnoughIDs (1.0.1-14)
 * ZenStages
 
 Mods Removed:
@@ -67,9 +67,13 @@ Mod Updates:
 * B.A.S.E (3.9.0)
 * Better Advancements (0.0.8.50)
 * Better With Addons (0.42)
-* Better With Mods (2.3.2)
+* Better With Mods (2.3.3)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.0-99)
+    * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
+    * Fixed Lava Crystal not syphoning LP
+    * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
+    * Fixed Mob Sacrifice Array so it no longer kills bosses and players
 * BnBGamingCore (0.9.0)
 * Bookshelf (2.3.552)
 * CarryOn (1.9.2)
@@ -80,6 +84,15 @@ Mod Updates:
 * Connected Textures Mod (0.32.18)
 * Construct's Armory (1.0.2)
 * Content Tweaker (4.6.0)
+* Cooking With Blockheads (6.4.40)
+    * Added Storage Drawers support
+        * Only actual drawer blocks are supported, controllers can not be connected.
+    * Added Heating Unit
+        * Apply it to an oven (via right-click) to power the oven via Forge Energy compatible mods
+    * Added rendering of water inside the sink
+    * Made tool racks and spice racks placeable on non-solid blocks (like glass)
+    * Fixed crafting of recipes with tools not working when the tool is damaged
+    * Fixed wrong rock material of the placed cutting board (instead of wood)
 * CraftTweaker (4.1.9)
 * Cucumber (1.1.1)
 * Cyclic (1.16.3)
@@ -105,8 +118,10 @@ Mod Updates:
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.67)
 * Hunting Dimension (1.0.28)
+* Immersive Craft (1.5.0)
 * Immersive Engineering (0.12 - 84)
 * Improved Backpacks (1.3.0.0)
+* In Control (3.8.1)
 * Industrial Foregoing (1.10.6-192)
 * Integrated Dynamics (0.11.14)
 * Item Stages (2.0.35)
@@ -114,6 +129,7 @@ Mod Updates:
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
+* MicJty Lib (3.0.3)
 * Mob Grinding Utils (0.3.8)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
@@ -126,8 +142,24 @@ Mod Updates:
 * Ore Stages (2.0.30)
 * Placebo (1.4.0)
 * PneumaticCraft (0.7.3-239)
+    * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
+    * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
+    * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
+    * Fixed drones having their AI overridden by carried entities (Entity Import program piece)
+    * Fixed possible lockup (endless loop) on startup with drones
+    * Fixed occasional crashes when teleporting into areas with client-side (TESR) renderers
+    * Drones will now auto-equip the best (highest damage, taking enchantments into account) weapon in their inventory when entering combat (only applies with upgraded inventories, of course).
+    * Drones have been taught how to melee 1.9 style. They were still fighting 1.7.10 style, which made them hopeless at melee.
+    * Fix: server crash if a drone carrying multiple buckets tried to milk a cow. Now the drone will drop any milk buckets that it has no inventory space for on the ground.
+    * Fix: right clicking a refinery block with a bucket or other fluid container will now extract the right fluid (previously it always tried to extract from the bottom block in the stack, regardless of which block was clicked)
+    * Pneumatic Door now plays a (suitably pneumatic) opening/closing sound effect.
+    * Some performance improvement work, particularly around Omni and Liquid Hoppers. In particular, extracting from the Refinery with Liquid Hoppers caused significant FPS drops.
+    * Liquid Hoppers no longer accept input fluids on their output face, and will no longer output fluids from their input face. (Related to performance improvements mentioned above)
+    * Reworked 3rd party wrench support: many more wrenches are now supported
 * Prestige (1.0.17)
 * Quark (r1.4-125)
+* RFTools (7.55)
+* RFTools Control (1.9.1)
 * Reborn Core (3.9.2.319)
 * Recipe Stages (1.1.1)
 * Rustic (1.0.6)
@@ -153,6 +185,8 @@ Mod Updates:
 * Traverse (1.5.4-61)
 * ValkyrieLib (2.0.12a)
 * Wither Skeleton Tweaks (2.6.1)
+* XNet (1.7.3)
+* YNot (0.2.3)
 
 * TODO: Geolosys!
 

@@ -42,6 +42,7 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:fluid_transfer_addon_pull:0>,
 		<industrialforegoing:fluid_transfer_addon_push:0>,
 		<industrialforegoing:fluiddictionary_converter:0>,
+		<industrialforegoing:froster:0>,
 		<industrialforegoing:hydrator:0>,
 		<industrialforegoing:item_splitter:0>,
 		<industrialforegoing:itemstack_transfer_addon_pull:0>,

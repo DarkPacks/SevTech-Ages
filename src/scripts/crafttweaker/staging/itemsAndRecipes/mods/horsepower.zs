@@ -7,11 +7,11 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<horsepower:chopping_block>
+		<horsepower:chopping_block:*>
 	],
 
 	stageZero.stage: [
-		<horsepower:chopper>,
+		<horsepower:chopper:*>,
 		<horsepower:dough:0>,
 		<horsepower:flour:0>,
 		<horsepower:grindstone:0>,

@@ -66,11 +66,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 */
 static removeRecipes as IIngredient[] = [
 	<horsepower:chopper:0>,
-	<horsepower:chopping_block:0>
+	<horsepower:chopping_block:0>,
 	<horsepower:dough:0>,
 	<horsepower:grindstone:0>,
 	<horsepower:hand_grindstone:0>,
-	<horsepower:press:0>,
+	<horsepower:press:0>
 ];
 
 function init() {

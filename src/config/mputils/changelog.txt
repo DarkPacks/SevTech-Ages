@@ -39,7 +39,7 @@ Enhancements:
 Forge:
 
 Mods Added:
-* Corails Tombstone
+* Corails Tombstone (2.10.0)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs
 * ZenStages
@@ -59,6 +59,7 @@ Mod Updates:
 * AbyssalCraft Integration (1.6.5)
 * Actually Additions (r137)
 * Apple Core (3.1.3)
+* Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
 * Astikoor (1.1.1a)
 * Astral Sorcery (1.9.3)
@@ -68,10 +69,11 @@ Mod Updates:
 * Better With Addons (0.42)
 * Better With Mods (2.3.2)
 * BiblioCraft (2.4.5)
-* Blood Magic (2.3.0-98)
+* Blood Magic (2.3.0-99)
 * BnBGamingCore (0.9.0)
 * Bookshelf (2.3.552)
-* CarryOn (1.9.1)
+* CarryOn (1.9.2)
+    * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.0.345)
@@ -80,7 +82,7 @@ Mod Updates:
 * Content Tweaker (4.6.0)
 * CraftTweaker (4.1.9)
 * Cucumber (1.1.1)
-* Cyclic (1.16.2)
+* Cyclic (1.16.3)
 * Cyclops Core (0.11.8)
 * Dark Utilities (1.8.211)
 * Despawning Spawners (1.2.0-2)
@@ -89,7 +91,7 @@ Mod Updates:
 * Ender Storage (2.4.4.132)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.12a)
-* Extended Crafting (1.4.0)
+* Extended Crafting (1.4.1)
 * ExtraPlanets (0.4.0)
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
@@ -105,14 +107,17 @@ Mod Updates:
 * Hunting Dimension (1.0.28)
 * Immersive Engineering (0.12 - 84)
 * Improved Backpacks (1.3.0.0)
-* Industrial Foregoing (1.10.4-187)
+* Industrial Foregoing (1.10.6-192)
 * Integrated Dynamics (0.11.14)
 * Item Stages (2.0.35)
 * Just Enough Items (4.11.0.202)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
-* Mob Grinding Utils (0.3.7)
+* Mob Grinding Utils (0.3.8)
+    * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
+    * Changed some code with the Fans due to reports of them causing server crashes when broken.
+* Mod Tweaker (4.0.13)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
 * Neat (1.4-16)

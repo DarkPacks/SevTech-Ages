@@ -71,6 +71,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:quartz_block:0>, <actuallyadditions:block_misc:2>],
 			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block:0>]
 		]
+	],
+	<cookingforblockheads:preservation_chamber:0> : [
+		[
+			[null, null, null],
+			[metals.electrum.nugget, metals.electrum.nugget, metals.electrum.nugget],
+			[metals.electrum.ingot, <pneumaticcraft:heat_sink>, metals.electrum.ingot]
+		]
+	],
+	<cookingforblockheads:heating_unit:0> : [
+		[
+			[null, null, null],
+			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+			[metals.electrum.ingot, <storagedrawers:controller>, metals.electrum.ingot]
+		]
 	]
 };
 
@@ -94,9 +108,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<cookingforblockheads:heating_unit:0>,
+	<cookingforblockheads:ice_unit:0>,
 	<cookingforblockheads:kitchen_floor:0>,
 	<cookingforblockheads:milk_jar:0>,
 	<cookingforblockheads:oven:0>,
+	<cookingforblockheads:preservation_chamber:0>,
 	<cookingforblockheads:recipe_book:2>,
 	<cookingforblockheads:sink:0>,
 	<cookingforblockheads:toaster:0>,

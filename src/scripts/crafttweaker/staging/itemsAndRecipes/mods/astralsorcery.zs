@@ -33,7 +33,7 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:blockattunementrelay:0>,
 		<astralsorcery:blockblackmarble:*>,
 		<astralsorcery:blockbore:0>,
-		<astralsorcery:blockborehead:*>,
+		<astralsorcery:blockborehead:0>,
 		<astralsorcery:blockcelestialcollectorcrystal:*>,
 		<astralsorcery:blockcelestialcrystals:*>,
 		<astralsorcery:blockcelestialgateway:0>,
@@ -46,7 +46,6 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:blocklens:0>,
 		<astralsorcery:blockmachine:*>,
 		<astralsorcery:blockmapdrawingtable:0>,
-		<astralsorcery:blockobservatory:0>,
 		<astralsorcery:blockprism:0>,
 		<astralsorcery:blockrituallink:0>,
 		<astralsorcery:blockritualpedestal:0>,
@@ -71,7 +70,6 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:itemcrystalpickaxe:0>,
 		<astralsorcery:itemcrystalshovel:0>,
 		<astralsorcery:itemcrystalsword:0>,
-		<astralsorcery:itemenchantmentamulet:0>.withTag({astralsorcery: {amuletEnchantments: [{ench: "minecraft:depth_strider", level: 1, type: 0}, {ench: "minecraft:sharpness", level: 1, type: 1}], amuletColor: -6579}}),
 		<astralsorcery:itemgrapplewand:0>,
 		<astralsorcery:itemhandtelescope:0>,
 		<astralsorcery:itemilluminationwand:0>,
@@ -79,8 +77,6 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:itemknowledgeshare:*>,
 		<astralsorcery:itemlinkingtool:0>,
 		<astralsorcery:itemrockcrystalsimple:0>,
-		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {advanced: 1 as byte}}),
-		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {}}),
 		<astralsorcery:itemshiftingstar:0>,
 		<astralsorcery:itemskyresonator:0>,
 		<astralsorcery:itemtunedcelestialcrystal:*>,
@@ -96,11 +92,19 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageThree.stage: [
-		<astralsorcery:blockchalice:0>
+		<astralsorcery:blockborehead:1>,
+		<astralsorcery:blockchalice:0>,
+		<astralsorcery:blockobservatory:0>,
+		<astralsorcery:itemenchantmentamulet:0>.withTag({astralsorcery: {}})
 	],
 
 	stageFive.stage: [
 		<astralsorcery:itemexchangewand:0>
+	],
+
+	stageDisabled.stage: [
+		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {advanced: 1 as byte}}),
+		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {}})
 	]
 };
 

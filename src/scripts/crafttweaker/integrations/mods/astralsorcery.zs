@@ -105,6 +105,10 @@ function init() {
 		<astralsorcery:itemcraftingcomponent:0>
 	]);
 
+	// Sextants
+	Altar.removeAltarRecipe(<astralsorcery:itemsextant>, 2);
+	Altar.removeAltarRecipe(<astralsorcery:itemsextant>, 0);
+
 	/*
 		Starlight Infusion
 

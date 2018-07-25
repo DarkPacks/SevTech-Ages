@@ -30,7 +30,7 @@ Bug Fixes:
 * Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
 * Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
 * Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.
-* Disabled "Right-Click Places Torch from Hotbar" in Darkutils config to fix incompatibility with Tinkers Construct Smelteries. (#2892)
+* Disabled "Right-Click Places Torch from Hotbar" in ClientTweaks config to fix incompatibility with Tinkers Construct Smelteries. (#2892)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

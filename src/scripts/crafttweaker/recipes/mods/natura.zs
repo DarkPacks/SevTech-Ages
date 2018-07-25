@@ -25,9 +25,14 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<natura:nether_slab:1> * 3 : [
+	<natura:nether_slab:0> * 3 : [
 		[
 			[<natura:nether_planks:0>, <natura:nether_planks:0>, <natura:nether_planks:0>]
+		]
+	],
+	<natura:nether_slab:1> * 3 : [
+		[
+			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
 		]
 	],
 	<natura:nether_slab:2> * 3 : [
@@ -40,9 +45,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
 		]
 	],
-	<natura:nether_slab:0> * 3 : [
+	<natura:overworld_slab2:0> * 3 : [
 		[
-			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
 		]
 	],
 	<natura:overworld_slab2:1> * 3 : [
@@ -60,9 +65,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>]
 		]
 	],
-	<natura:overworld_slab2:0> * 3 : [
+	<natura:overworld_slab:0> * 3 : [
 		[
-			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
+			[<natura:overworld_planks:0>, <natura:overworld_planks:0>, <natura:overworld_planks:0>]
 		]
 	],
 	<natura:overworld_slab:1> * 3 : [
@@ -83,11 +88,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<natura:overworld_slab:4> * 3 : [
 		[
 			[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>]
-		]
-	],
-	<natura:overworld_slab:0> * 3 : [
-		[
-			[<natura:overworld_planks:0>, <natura:overworld_planks:0>, <natura:overworld_planks:0>]
 		]
 	],
 	<natura:overworld_bookshelves:0> : [

@@ -24,12 +24,13 @@ Twitch you should use the Jar Launcher as this will auto use the correct version
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
 * Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
-* Fixed "Broken" tooltip from displaying on the Cyclic swords
+* Fixed "Broken" tooltip from displaying on the Cyclic swords and Twilight Forest's Glass Sword
 * Fixed Cyclic player launcher recipe
 * Fixed Steve's Carts Liquid Sensor recipe to fit age 3 (#3152)
 * Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
 * Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
-* Disabled Coal Block to Diamonds in PneumaticCraft in the config to force it off.
+* Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.
+* Disabled "Right-Click Places Torch from Hotbar" in ClientTweaks config to fix incompatibility with Tinkers Construct Smelteries. (#2892)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

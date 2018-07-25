@@ -66,6 +66,19 @@ function init() {
 
 	// =======================================
 	// Constellation
+	
+	// Resplendent Prism
+	Altar.removeAltarRecipe(<astralsorcery:itemenchantmentamulet:0>, 2);
+	Altar.addConstellationAltarRecipe(<astralsorcery:itemenchantmentamulet:0>, 3100, 600, [
+		<astralsorcery:itemcraftingcomponent:1>, <ore:string>, <astralsorcery:itemcraftingcomponent:1>,
+		<twilightforest:trollber:0>, <nex:item_crystal_amethyst:0>, <twilightforest:trollber:0>,
+		<minecraft:ender_eye:0>, <astralsorcery:itemshiftingstar:0>, <minecraft:ender_eye:0>,
+		null, null, null, null,
+		<ore:string>, <ore:string>, <thebetweenlands:items_misc:18>, <thebetweenlands:items_misc:18>,
+		<twilightforest:trollber:0>, <twilightforest:trollber:0>, <twilightforest:trollber:0>, <twilightforest:trollber:0>
+	]);
+	
+	// Coal Engine
 	Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>, 3000, 900, [
 		metals.fiery.gear, <tconstruct:seared_furnace_controller:0>, metals.fiery.gear,
 		<minecraft:ghast_tear:0>, <twilightforest:tower_device:12>, <minecraft:ghast_tear:0>,

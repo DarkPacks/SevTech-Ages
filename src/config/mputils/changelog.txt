@@ -20,6 +20,9 @@ need, along with some added items which will help the player in the long run. Al
 the old graves. But this is a major update and we had to make the change now rather than later. We hope you can understand this.
 * If you get a crash relating to `java.lang.NoSuchFieldError: OpenGL45` your LWJGL is out of date. The needed version is 2.9.4 if your using MultiMC you can change the version in the instance settings.
 Twitch you should use the Jar Launcher as this will auto use the correct version. Likewise for ATLauncher.
+* Refined Storage (1.6) has a major change in how the mod works. So please review the changes to see what's broken on your network. There is nothing we can do on the pack side to help with, the possible
+breakage of your networks/autocrafting etc... So please ensure you read the changelog and understand the changes done by the mod. The modder has put work into upgrading current networks. But expect to find
+issues! This is your only warning about this. So don't open issues on the tracker about issues. Unless it's an actual bug with the mod!
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
@@ -37,6 +40,8 @@ Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
 * Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 * Made ore advancement descriptions uniform and corrected Y values.
+* Added trade with the FFBH mod to get Corn Seeds.
+* Fixed inconsistent recipes with Rice and some Bread recipes.
 
 Forge:
 
@@ -44,6 +49,8 @@ Mods Added:
 * Corails Tombstone (2.10.0)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs (1.0.1-14)
+* LibEx (1.0.2)
+    * Now required by Nether Ex (2.0.0+)
 * ZenStages
 
 Mods Removed:
@@ -64,7 +71,7 @@ Mod Updates:
 * Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
 * Astikoor (1.1.1a)
-* Astral Sorcery (1.9.3)
+* Astral Sorcery (1.9.4)
 * AutoRegLib (1.3-18)
 * B.A.S.E (3.9.0)
 * Better Advancements (0.0.8.50)
@@ -97,7 +104,7 @@ Mod Updates:
     * Fixed wrong rock material of the placed cutting board (instead of wood)
 * CraftTweaker (4.1.9)
 * Cucumber (1.1.1)
-* Cyclic (1.16.3)
+* Cyclic (1.16.4)
 * Cyclops Core (0.11.8)
 * Dark Utilities (1.8.211)
 * Despawning Spawners (1.2.0-2)
@@ -105,7 +112,7 @@ Mod Updates:
 * EmberRootZoo (1.3.8)
 * Ender Storage (2.4.4.132)
 * Ender Utilities (0.7.11)
-* Environmental Tech (2.0.12a)
+* Environmental Tech (2.0.13a)
 * Extended Crafting (1.4.1)
 * ExtraPlanets (0.4.0)
 * Farseek (2.3.1)
@@ -115,7 +122,7 @@ Mod Updates:
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
-* Game Stages (2.0.91)
+* Game Stages (2.0.96)
 * Geolosys (2.0.0)
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.67)
@@ -127,11 +134,12 @@ Mod Updates:
 * Industrial Foregoing (1.10.6-192)
 * Integrated Dynamics (0.11.14)
 * Item Stages (2.0.35)
-* Just Enough Items (4.11.0.202)
+* Just Enough Items (4.11.0.206)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
 * MicJty Lib (3.0.3)
+* MJRLegends Lib (1.1.5)
 * Mob Grinding Utils (0.3.8)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
@@ -139,11 +147,16 @@ Mod Updates:
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
 * Neat (1.4-16)
+* Nether Ex (2.0.2)
+    * Pigtificate Villages not spawning
+    * Potion effects from decreasing performance
+    * Forge population not being triggered
+    * Features not generating during the correct stages
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
 * Placebo (1.4.0)
-* PneumaticCraft (0.7.3-239)
+* PneumaticCraft (0.7.3-248)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
     * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
@@ -158,15 +171,24 @@ Mod Updates:
     * Some performance improvement work, particularly around Omni and Liquid Hoppers. In particular, extracting from the Refinery with Liquid Hoppers caused significant FPS drops.
     * Liquid Hoppers no longer accept input fluids on their output face, and will no longer output fluids from their input face. (Related to performance improvements mentioned above)
     * Reworked 3rd party wrench support: many more wrenches are now supported
+    * Fixed NPE when using a newly-crafted GPS Area Tool
 * Prestige (1.0.17)
+* Quantum Storage (4.6.0)
 * Quark (r1.4-125)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
 * Reborn Core (3.9.2.319)
+* Reborn Storage (3.2.0.60)
 * Recipe Stages (1.1.1)
+* Refined Storage (1.6)
+    * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
+    * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
+* Refined Storage Addons (0.4)
+    * Removed Network Bag
+    * Removed Network Picker
 * Rustic (1.0.6)
 * SevTweaks (0.2.0)
-* Simple Generators (2.0.12a)
+* Simple Generators (2.0.13a)
 * Simple Storage Network (1.2.7)
 * Steve Carts (2.4.22.109)
 * Storage Drawers (5.3.7)
@@ -185,7 +207,7 @@ Mod Updates:
 * Totemic (0.11.2)
 * Translocators (2.5.0.73)
 * Traverse (1.5.4-61)
-* ValkyrieLib (2.0.12a)
+* ValkyrieLib (2.0.13a)
 * Wither Skeleton Tweaks (2.6.1)
 * XNet (1.7.3)
 * YNot (0.2.3)

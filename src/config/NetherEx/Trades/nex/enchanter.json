@@ -1,0 +1,247 @@
+{
+    "career": "enchanter",
+    "trades": [
+        {
+            "output": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 5,
+                "maxStackSize": 10
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:glowstone_dust",
+                "meta": 0,
+                "minStackSize": 3,
+                "maxStackSize": 6
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "minecraft:blaze_rod",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 2
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 8,
+                "maxStackSize": 32
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:protection",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 3
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "inputTwo": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 8,
+                "maxStackSize": 32
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:sharpness",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 4
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "inputTwo": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 8,
+                "maxStackSize": 32
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:fire_protection",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 4
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "inputTwo": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 16,
+                "maxStackSize": 48
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:fortune",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 3
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "inputTwo": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 24,
+                "maxStackSize": 64
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:enchanted_book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1,
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:looting",
+                        "minEnchantmentLevel": 1,
+                        "maxEnchantmentLevel": 1
+                    }
+                ]
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "inputTwo": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 24,
+                "maxStackSize": 64
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:experience_bottle",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 3
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 6,
+                "maxStackSize": 16
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 3
+        }
+    ]
+}

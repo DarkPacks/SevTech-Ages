@@ -1,0 +1,177 @@
+{
+    "career": "scavenger",
+    "trades": [
+        {
+            "output": {
+                "item": "minecraft:cobblestone",
+                "minStackSize": 4,
+                "maxStackSize": 16
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 16,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "minecraft:stone",
+                "properties": {
+                    "variant": "stone"
+                },
+                "minStackSize": 16,
+                "maxStackSize": 28
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:dirt",
+                "properties": {
+                    "variant": "dirt"
+                },
+                "minStackSize": 1,
+                "maxStackSize": 4
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 16,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:gravel",
+                "minStackSize": 8,
+                "maxStackSize": 16
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 16,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:log",
+                "properties": {
+                    "variant": "oak"
+                },
+                "minStackSize": 1,
+                "maxStackSize": 4
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 3,
+                "maxStackSize": 8
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:iron_ingot",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 3
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:coal_ore",
+                "minStackSize": 3,
+                "maxStackSize": 7
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:diamond",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 5,
+                "maxStackSize": 9
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 3,
+            "tradeLevel": 3
+        },
+        {
+            "output": {
+                "item": "minecraft:book",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 6,
+                "maxStackSize": 10
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 3
+        },
+        {
+            "output": {
+                "item": "minecraft:potion",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "itemBlock": "nex:amethyst_block",
+                "minStackSize": 1,
+                "maxStackSize": 3
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 3,
+            "tradeLevel": 4
+        }
+    ]
+}

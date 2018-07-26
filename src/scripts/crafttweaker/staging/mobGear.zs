@@ -33,6 +33,9 @@ function init() {
 		"minecraft:skeleton"
 	]);
 
+	// Clear gear
+	armoreablemobs.clearAllMobGear();
+
 	// Create & add armor to mobs
 	addstageZeroMobArmor();
 	addStageOneMobArmor();

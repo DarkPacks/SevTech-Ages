@@ -55,9 +55,9 @@ zenClass ArmoreableMobs {
 	}
 
 	/**
-	 * Clears all gear from the mob
+	 * Clears all gear from the mobs added to mobEntities
 	 */
-	function clearMobGear(mobEntity as ArmorEntity) {
+	function clearAllMobGear() {
 		for mobEntityType, mobEntitiesForType in mobEntities {
 			for mobName, mobEntity in mobEntitiesForType {
 				blankGroup.addEntity(mobEntity);

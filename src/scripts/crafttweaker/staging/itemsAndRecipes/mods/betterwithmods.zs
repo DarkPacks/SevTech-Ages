@@ -60,7 +60,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:raw_egg:0>,
 		<betterwithmods:raw_kebab:0>,
 		<betterwithmods:raw_omelet:0>,
-		<betterwithmods:raw_pastry:3>,
 		<betterwithmods:red_sand_pile:0>,
 		<betterwithmods:sand_pile:0>,
 		<betterwithmods:shaft:0>,

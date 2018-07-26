@@ -18,8 +18,8 @@ import mods.betterwithmods.Saw;
 /*
 	Recipes to be removed from the Kiln.
 */
-static kilnRemovals as IItemStack[][] = [
-	[<minecraft:bread:0>]
+static kilnRemovals as IItemStack[] = [
+	<betterwithmods:raw_pastry:3>
 ];
 
 /*
@@ -146,7 +146,7 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 
 function init() {
 	// Recipe Map Imports
-	var kilnRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.kilnRemovals;
+	var kilnRemovals as IItemStack[] = scripts.crafttweaker.integrations.mods.betterwithmods.kilnRemovals;
 	var millRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.millRemovals;
 	var soakingRemovals as IItemStack[] = scripts.crafttweaker.integrations.mods.betterwithmods.soakingRemovals;
 	var cauldronRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.cauldronRemovals;
@@ -264,4 +264,7 @@ function init() {
 	for largePelt in largePelts {
 		betterWithMods.addCauldron([largePelt], [<betterwithmods:material:12> * 2]);
 	}
+
+	// Drying Box
+	betterWithMods.removeDrying(<betterwithaddons:japanmat:2>);
 }

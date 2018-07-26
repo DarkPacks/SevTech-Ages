@@ -193,7 +193,12 @@ static removeRecipes as IIngredient[] = [
 	<betterwithaddons:decomat:3>,
 	<betterwithaddons:loom:0>,
 	<betterwithaddons:redstone_emitter:0>,
-	<betterwithaddons:spindle:0>
+	<betterwithaddons:spindle:0>,
+	<betterwithaddons:tatami:0>
+];
+
+static removeFurnace as IIngredient[] = [
+	<betterwithaddons:japanmat:2>
 ];
 
 function init() {
@@ -208,6 +213,7 @@ function init() {
 	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedShapelessRecipes;
 
 	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.betterwithaddons.removeRecipes;
+	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.betterwithaddons.removeFurnace;
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -220,4 +226,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

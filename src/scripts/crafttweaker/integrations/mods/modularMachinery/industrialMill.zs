@@ -113,4 +113,9 @@ function init() {
 		.addItemInput(<betterwithaddons:japanmat:2>)
 		.build();
 
+	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "rice_flour_aa"), machineName, 128)
+		.addEnergyPerTickInput(4)
+		.addItemOutput(<betterwithaddons:japanmat:4>)
+		.addItemInput(<actuallyadditions:item_food:16>)
+		.build();
 }

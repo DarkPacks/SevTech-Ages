@@ -281,6 +281,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.actuallyAdditions.init();
 	scripts.crafttweaker.integrations.mods.appliedenergistics2.init();
 	scripts.crafttweaker.integrations.mods.astralsorcery.init();
+	scripts.crafttweaker.integrations.mods.betterwithmods.init();
 	scripts.crafttweaker.integrations.mods.bloodmagic.init.init();
 	scripts.crafttweaker.integrations.mods.chisel.init();
 	scripts.crafttweaker.integrations.mods.extendedCrafting.init.init();

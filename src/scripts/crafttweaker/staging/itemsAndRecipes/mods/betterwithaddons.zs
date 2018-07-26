@@ -41,8 +41,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:food_pufferfish_prepared:0>,
 		<betterwithaddons:food_sashimi:0>,
 		<betterwithaddons:japanmat:1>,
-		<betterwithaddons:japanmat:2>,
-		<betterwithaddons:japanmat:3>,
 		<betterwithaddons:japanmat:4>,
 		<betterwithaddons:japanmat:5>,
 		<betterwithaddons:japanmat:0>,
@@ -55,7 +53,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:salt:0>,
 		<betterwithaddons:sapling_mulberry:0>,
 		<betterwithaddons:sapling_sakura:0>,
-		<betterwithaddons:tatami:0>,
 		<betterwithaddons:tweakmat:0>,
 		<betterwithaddons:wood_lamp:0>,
 		<betterwithaddons:wool:1>,
@@ -246,7 +243,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:cherrybox:0>,
 		<betterwithaddons:chest_paper:0>,
 		<betterwithaddons:congealed:5>,
-		<betterwithaddons:crop_rice:0>,
 		<betterwithaddons:crop_tea:0>,
 		<betterwithaddons:ecksie_sapling:1>,
 		<betterwithaddons:ecksie_sapling:2>,
@@ -357,6 +353,13 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:world_scale_ore:0>,
 		<betterwithaddons:world_scale:0>,
 		<betterwithaddons:worldshard:0>
+	],
+
+	stageDisabled.stage: [
+		<betterwithaddons:crop_rice:0>,
+		<betterwithaddons:japanmat:2>,
+		<betterwithaddons:japanmat:3>,
+		<betterwithaddons:tatami:0>
 	]
 };
 

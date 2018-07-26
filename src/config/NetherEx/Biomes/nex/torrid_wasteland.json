@@ -42,73 +42,33 @@
     {
       "entity": "minecraft:magma_cube",
       "creatureType": "monster",
+      "weight": 15,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "nex:ember",
+      "creatureType": "monster",
       "weight": 25,
       "minGroupCount": 1,
       "maxGroupCount": 4,
       "spawn": true
     },
     {
-      "entity": "nex:ember",
-      "creatureType": "monster",
-      "weight": 50,
-      "minGroupCount": 4,
-      "maxGroupCount": 6,
-      "spawn": true
-    },
-    {
       "entity": "nex:salamander",
       "creatureType": "monster",
-      "weight": 100,
+      "weight": 50,
       "minGroupCount": 1,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "natura:heatscarspider",
-      "creatureType": "monster",
-      "weight": 10,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "natura:babyheatscarspider",
-      "creatureType": "monster",
-      "weight": 10,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "natura:nitrocreeper",
-      "creatureType": "monster",
-      "weight": 8,
-      "minGroupCount": 4,
-      "maxGroupCount": 6,
-      "spawn": true
-    },
-    {
-      "entity": "primal:creeper_nether",
-      "creatureType": "monster",
-      "weight": 3,
-      "minGroupCount": 0,
-      "maxGroupCount": 1,
+      "maxGroupCount": 3,
       "spawn": true
     },
     {
       "entity": "natura:imp",
       "creatureType": "creature",
-      "weight": 10,
-      "minGroupCount": 8,
-      "maxGroupCount": 12,
-      "spawn": true
-    },
-    {
-      "entity": "primal:ovis_atre",
-      "creatureType": "creature",
-      "weight": 90,
+      "weight": 20,
       "minGroupCount": 1,
-      "maxGroupCount": 6,
+      "maxGroupCount": 4,
       "spawn": true
     }
   ],
@@ -129,7 +89,7 @@
       "genAttempts": 16,
       "genProbability": 1.0,
       "minHeight": 4,
-      "maxHeight": 124,
+      "maxHeight": 128,
       "randomizeGenAttempts": false,
       "generate": true
     },
@@ -149,7 +109,7 @@
       "genAttempts": 20,
       "genProbability": 1.0,
       "minHeight": 4,
-      "maxHeight": 124,
+      "maxHeight": 128,
       "randomizeGenAttempts": true,
       "generate": true
     },
@@ -169,7 +129,7 @@
       "genAttempts": 10,
       "genProbability": 1.0,
       "minHeight": 4,
-      "maxHeight": 124,
+      "maxHeight": 128,
       "randomizeGenAttempts": true,
       "generate": true
     },
@@ -212,7 +172,7 @@
       "genAttempts": 16,
       "genProbability": 1.0,
       "minHeight": 10,
-      "maxHeight": 108,
+      "maxHeight": 118,
       "randomizeGenAttempts": false,
       "generate": true
     },

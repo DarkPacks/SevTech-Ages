@@ -46,7 +46,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<storagedrawers:controller:0> : [
 		[
-			[metals.platinum.plate, <nex:block_amethyst:0>, metals.platinum.plate],
+			[metals.platinum.plate, <nex:amethyst_block:0>, metals.platinum.plate],
 			[<immersiveengineering:metal_decoration0:3>, <ore:drawerTrim>, <immersiveengineering:metal_decoration0:3>],
 			[metals.platinum.plate, <astralsorcery:itemcraftingcomponent:1>, metals.platinum.plate]
 		]

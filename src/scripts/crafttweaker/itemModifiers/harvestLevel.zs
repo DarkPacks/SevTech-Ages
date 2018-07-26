@@ -19,10 +19,10 @@ static pickaxeLevelPairs as IItemStack[][int] = {
 	],
 
 	3: [
-		<nex:ore_quartz:1>,
-		<nex:ore_quartz:2>,
-		<nex:ore_quartz:3>,
-		<nex:ore_quartz:0>
+		<nex:quartz_ore:1>,
+		<nex:quartz_ore:2>,
+		<nex:quartz_ore:3>,
+		<nex:quartz_ore:0>
 	]
 };
 

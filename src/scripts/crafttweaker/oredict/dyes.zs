@@ -18,14 +18,14 @@ import crafttweaker.item.IItemStack;
 
 // Add to then be removed
 <ore:dyeBrown>.add(<betterwithmods:material:5>);
-<ore:dyeBlack>.add(<nex:item_dust_wither:0>);
+<ore:dyeBlack>.add(<nex:wither_dust:0>);
 
 // Flowers and Lapis no longer are just dye!
 <ore:dye>.remove(<minecraft:dye:*>);
 
 <ore:dyeBlack>.remove(<actuallyadditions:item_misc:17>);
 <ore:dyeBlack>.remove(<minecraft:dye:0>);
-<ore:dyeBlack>.remove(<nex:item_dust_wither:0>);
+<ore:dyeBlack>.remove(<nex:wither_dust:0>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
 <ore:dyeBrown>.remove(<betterwithmods:material:5>);
 <ore:dyeBrown>.remove(<industrialforegoing:fertilizer:0>);

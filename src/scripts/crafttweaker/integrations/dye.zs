@@ -211,7 +211,7 @@ static dyeCrushingRecipes as IItemStack[][IItemStack] = {
 	<ore:dyeBlack>.firstItem : [
 		<actuallyadditions:block_black_lotus:0>,
 		<minecraft:dye:0>,
-		<nex:item_dust_wither:0>
+		<nex:wither_dust:0>
 	]
 };
 

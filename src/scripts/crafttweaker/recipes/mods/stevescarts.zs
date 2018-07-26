@@ -445,7 +445,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:cartmodule:22> : [
 
-			[[null, <nex:item_crystal_amethyst:0>, null],
+			[[null, <nex:amethyst_crystal:0>, null],
 			[<minecraft:glowstone:0>, <stevescarts:modulecomponents:28>, <minecraft:glowstone:0>],
 			[null, null, null]
 		]

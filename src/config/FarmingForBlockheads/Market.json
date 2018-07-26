@@ -31,7 +31,8 @@
   "custom entries": {
     "__comment": "You can define additional items to be sold by the Market here. Defaults can be overridden. Prefix with ! to blacklist instead.",
     "immersiveengineering:seed": "2*minecraft:gold_ingot",
-    "abyssalcraft:shoggothflesh": "24*abyssalcraft:stone:7"
+    "abyssalcraft:shoggothflesh": "24*abyssalcraft:stone:7",
+    "primal:corn_seeds": "8*actuallyadditions:item_fertilizer"
   },
   "defaults amount": {
     "Vanilla Seeds": 1,

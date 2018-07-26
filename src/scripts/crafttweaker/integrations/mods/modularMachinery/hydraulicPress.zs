@@ -37,7 +37,6 @@ static recipes as IItemStack[][IItemStack] = {
 	<extraplanets:tier5_items:6>: [	metals.nickel.ingot.firstItem * 2 ], // Compressed Nickel
 	<extraplanets:tier6_items:4>: [ <extraplanets:tier6_items:5> * 2 ], // Compressed Magnesium
 	<extraplanets:tier7_items:4>: [ <extraplanets:tier7_items:5> * 2 ], // Compressed Crystal
-	<extraplanets:tier8_items:4>: [ <extraplanets:tier8_items:5> * 2 ], // Compressed Zinc
 	<extraplanets:tier9_items:4>: [ <extraplanets:tier9_items:5> * 2 ], // Compressed Tungsten
 	<extraplanets:tier10_items:4>: [ <extraplanets:tier10_items:5> * 2 ], // Compressed Dark Iron
 	<extraplanets:tier11_items:6>: [ <extraplanets:tier11_items:5> * 6 ], // Compressed Space Platinum

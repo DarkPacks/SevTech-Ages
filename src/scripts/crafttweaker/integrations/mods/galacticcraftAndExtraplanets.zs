@@ -15,6 +15,9 @@
 	https://github.com/MJRLegends/GalacticraftTweaker/wiki/CraftTweakerSupport
 */
 function init() {
+	// Remove compressed zinc recipe.
+	mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:4>);
+
 	// Remove all compressed steel plate recipes.
 	mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:9>);
 	// Add the correct steel recipe back.

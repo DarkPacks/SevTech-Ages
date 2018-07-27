@@ -35,6 +35,8 @@ Bug Fixes:
 * Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
 * Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.
 * Disabled "Right-Click Places Torch from Hotbar" in ClientTweaks config to fix incompatibility with Tinkers Construct Smelteries. (#2892)
+* Disabled Iridium Singularity (#2985)
+* Disabled Compressed Zinc (#3168)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

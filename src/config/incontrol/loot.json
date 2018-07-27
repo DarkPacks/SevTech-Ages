@@ -507,17 +507,17 @@
     "itemcount": "0-1/0-2/1-3"
   },
   {
-    "mob": "nex:monster_spinout",
+    "mob": "nex:spinout",
     "item": "teslacorelib:gear_stone",
     "random": 0.33
   },
   {
-    "mob": "nex:monster_spinout",
+    "mob": "nex:spinout",
     "item": "contenttweaker:material_part",
     "random": 0.015
   },
   {
-    "mob": "nex:monster_spinout",
+    "mob": "nex:spinout",
     "remove": "minecraft:quartz"
   },
   {

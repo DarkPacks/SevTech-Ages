@@ -25,6 +25,90 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<betterwithmods:bamboo_chime:0> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_oak>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:bamboo_chime:1> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_spruce>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:bamboo_chime:2> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_birch>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:bamboo_chime:3> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_jungle>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:bamboo_chime:4> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_acacia>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:bamboo_chime:5> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_bigoak>, <ore:string>],
+			[<ore:sugarcane>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}), <ore:sugarcane>]
+		]
+	],
+	<betterwithmods:metal_chime:0> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_oak>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
+	<betterwithmods:metal_chime:1> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_spruce>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
+	<betterwithmods:metal_chime:2> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_birch>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
+	<betterwithmods:metal_chime:3> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_jungle>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
+	<betterwithmods:metal_chime:4> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_acacia>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
+	<betterwithmods:metal_chime:5> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <primal:thin_slab_bigoak>, <ore:string>],
+			[<minecraft:iron_ingot:0>, <betterwithmods:moulding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}), <minecraft:iron_ingot:0>]
+		]
+	],
 	<betterwithmods:material:0> : [
 		[
 			[<totemic:buffalo_items:1>, <totemic:cedar_plank:0>, <totemic:buffalo_items:1>],
@@ -266,7 +350,9 @@ static removeRecipes as IIngredient[] = [
 	<betterwithmods:single_machine:0>,
 	<betterwithmods:wicker:0>,
 	<betterwithmods:wooden_axle:0>,
-	<betterwithmods:wooden_gearbox:0>
+	<betterwithmods:wooden_gearbox:0>,
+	<betterwithmods:bamboo_chime:*>,
+	<betterwithmods:metal_chime:*>
 ];
 
 static removeRegex as string[] = [

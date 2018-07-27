@@ -31,6 +31,7 @@ Bug Fixes:
 * Fixed Cyclic player launcher recipe
 * Fixed Bloodwood and Ghostwood planks crafting each others slabs (#3173)
 * Fixed Steve's Carts Liquid Sensor recipe to fit age 3 (#3152)
+* Fixed Better With Mod's Bamboo Chimes recipe to be craftable in age 1, and made the Metal Chimes recipe match
 * Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
 * Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
 * Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.

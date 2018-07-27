@@ -383,7 +383,7 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<galacticraftcore:bucket_fuel:0>,
-	<galacticraftcore:refinery:0>
+	<galacticraftcore:refinery:0>,
 ];
 
 function init() {

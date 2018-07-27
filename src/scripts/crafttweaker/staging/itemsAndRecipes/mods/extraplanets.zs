@@ -630,7 +630,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:tier8_items:1>,
 		<extraplanets:tier8_items:2>,
 		<extraplanets:tier8_items:3>,
-		<extraplanets:tier8_items:4>,
 		<extraplanets:tier8_items:5>,
 		<extraplanets:tier8_items:6>,
 		<extraplanets:tier8_items:0>,
@@ -745,7 +744,8 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<extraplanets:advanced_refinery:0>,
 	<extraplanets:block_multi:0>,
-	<extraplanets:ultimate_refinery:0>
+	<extraplanets:ultimate_refinery:0>,
+	<extraplanets:tier8_items:4>
 ];
 
 function init() {

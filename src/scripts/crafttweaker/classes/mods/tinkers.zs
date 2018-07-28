@@ -26,7 +26,7 @@ zenClass Tinkers {
 	/*
 		Add an Alloying recipe.
 	*/
-	function addAlloying(inputs as ILiquidStack[], output as ILiquidStack) {
+	function addAlloying(output as ILiquidStack, inputs as ILiquidStack[]) {
 		Alloy.addRecipe(output, inputs);
 	}
 

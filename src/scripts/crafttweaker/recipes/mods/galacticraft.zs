@@ -74,7 +74,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 */
 static furnaceRecipes as IIngredient[][IItemStack] = {
 	<ore:ingotSpacePlatinum>.firstItem: [<ore:oreSpacePlatinum>],
-	metals.titanium.ingot.firstItem: [<ore:oreIlmenite>, <ore:shardTitanium>]
+	metals.titanium.ingot.firstItem: [<ore:oreIlmenite>, <ore:shardTitanium>],
+	<ore:ingotDesh>.firstItem: [<galacticraftplanets:item_basic_mars>]
 };
 
 /*
@@ -92,7 +93,8 @@ static removeRecipes as IIngredient[] = [
 static removeFurnace as IIngredient[] = [
 	<galacticraftcore:basic_item:3>,
 	<galacticraftcore:basic_item:5>,
-	<galacticraftplanets:basic_item_venus:1>
+	<galacticraftplanets:basic_item_venus:1>,
+	<ore:ingotDesh>
 ];
 
 function initParachuteRecipes() {

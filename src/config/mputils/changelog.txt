@@ -37,6 +37,7 @@ Bug Fixes:
 * Disabled "Right-Click Places Torch from Hotbar" in ClientTweaks config to fix incompatibility with Tinkers Construct Smelteries (#2892)
 * Disabled Iridium Singularity (#2985)
 * Disabled Compressed Zinc (#3168)
+* Fixed Unrefined Desh not smelting in Mekanism smelters
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

@@ -16,6 +16,8 @@ static hiddenItems as IIngredient[] = [
 	<chisel:ironpane:*>,
 	<cookingforblockheads:cow_jar:0>,
 	<geolosys:cluster:11>,
+	<industrialforegoing:oredictionary_converter>,
+	<mekanism:machineblock3:3>,
 	<microblockcbe:saw_diamond:0>,
 	<microblockcbe:saw_iron:0>,
 	<microblockcbe:saw_stone:0>,

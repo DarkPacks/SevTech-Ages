@@ -41,6 +41,7 @@ Bug Fixes:
 * Blacklisted Tinkers' Tools & Construct's Armory Armor from the Powered Diamond Anvil to prevent some issues. As well, we feel these items
 should not be repairable anyways using this method. (#2925)
 * Fix exploit to obtain Mystical Agriculture ores early using oredict conversion machines. (#2840)
+* Fixed Chisel Temple block recipe giving incorrect recipe output amount. (#2814)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

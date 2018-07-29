@@ -171,7 +171,6 @@ static stagedItems as IIngredient[][string] = {
 		<mekanism:machineblock2:15>,
 		<mekanism:machineblock2:0>,
 		<mekanism:machineblock3:1>,
-		<mekanism:machineblock3:3>,
 		<mekanism:machineblock3:4>,
 		<mekanism:machineblock3:5>,
 		<mekanism:machineblock3:6>,

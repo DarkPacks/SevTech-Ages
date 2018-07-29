@@ -38,6 +38,8 @@ Bug Fixes:
 * Disabled Iridium Singularity (#2985)
 * Disabled Compressed Zinc (#3168)
 * Fixed Unrefined Desh not smelting in Mekanism smelters
+* Blacklisted Tinkers' Tools & Construct's Armory Armor from the Powered Diamond Anvil to prevent some issues. As well, we feel these items
+should not be repairable anyways using this method. (#2925)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

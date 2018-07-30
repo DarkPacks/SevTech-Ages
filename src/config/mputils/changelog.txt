@@ -55,8 +55,8 @@ Forge:
 Mods Added:
 * Corails Tombstone (2.10.0)
     * This replaces Tomb Many Graves.
-* JustEnoughIDs (1.0.1-14)
-* LibEx (1.0.2)
+* JustEnoughIDs (1.0.1-16)
+* LibEx (1.0.4)
     * Now required by Nether Ex (2.0.0+)
 * ZenStages
 
@@ -73,7 +73,11 @@ Mod Updates:
     * Reduced the range of Cha'garoth's melee attacks
     * Slowed down the initial velocity of the Acid Projectile, increased the time between each projectile being fired, and made it so baby Lesser Shoggoths won't fire them
 * AbyssalCraft Integration (1.6.5)
-* Actually Additions (r137)
+* Actually Additions (r138)
+    * Added redstone sensitivity / comparator output to Bio Reactor.
+    * The farmer will now only plant from seed slots.
+    * The farmer will now only attempt to plant if the current block can be replaced.
+    * The crusher is no longer animated when not crushing.
 * Apple Core (3.1.3)
 * Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
@@ -83,7 +87,7 @@ Mod Updates:
 * B.A.S.E (3.9.0)
 * Better Advancements (0.0.8.50)
 * Better With Addons (0.42)
-* Better With Mods (2.3.3)
+* Better With Mods (2.3.4)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.0-99)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -96,11 +100,11 @@ Mod Updates:
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
-* Code Chicken Lib (3.2.0.345)
+* Code Chicken Lib (3.2.0.349)
 * Connected Textures Mod (0.32.18)
 * Construct's Armory (1.0.2)
 * Content Tweaker (4.6.0)
-* Cooking With Blockheads (6.4.40)
+* Cooking With Blockheads (6.4.44)
     * Added Storage Drawers support
         * Only actual drawer blocks are supported, controllers can not be connected.
     * Added Heating Unit
@@ -117,19 +121,21 @@ Mod Updates:
 * Despawning Spawners (1.2.0-2)
 * Dimension Stages (2.0.20)
 * EmberRootZoo (1.3.8)
-* Ender Storage (2.4.4.132)
+* Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.13a)
 * Extended Crafting (1.4.1)
-* ExtraPlanets (0.4.0)
+* ExtraPlanets (0.4.1)
+* Farming For Blockheads (3.1.19)
+    * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
 * FindMe (1.0.2-6)
-* Forge Multi Part (2.4.2.60)
+* Forge Multi Part (2.5.0.69)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
-* Game Stages (2.0.96)
+* Game Stages (2.0.97)
 * Geolosys (2.0.0)
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.67)
@@ -138,8 +144,12 @@ Mod Updates:
 * Immersive Engineering (0.12 - 84)
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.1)
-* Industrial Foregoing (1.10.6-192)
+* Industrial Foregoing (1.10.7-204)
 * Integrated Dynamics (0.11.14)
+    * Add visual indicator in operator dropdown list on next/prev elements
+    * Fix simple omnidirectional copy recipe resetting IDs
+    * Fix variables with operations not updating after chunk reload
+    * Fix incomplete flipped operators throwing errors
 * Item Stages (2.0.35)
 * Just Enough Items (4.11.0.206)
 * MTLib (3.0.5)
@@ -153,12 +163,14 @@ Mod Updates:
 * Mod Tweaker (4.0.13)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
+* Natura (4.3.2.62)
 * Neat (1.4-16)
-* Nether Ex (2.0.2)
+* Nether Ex (2.0.4)
     * Pigtificate Villages not spawning
     * Potion effects from decreasing performance
     * Forge population not being triggered
     * Features not generating during the correct stages
+* Not Enough Items (4.2.1.238)
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
@@ -201,11 +213,16 @@ Mod Updates:
 * Storage Drawers (5.3.7)
 * Tesla Core Lib (1.0.15.13)
 * The Beneath (1.4.2)
+* Traverse (1.5.5)
+* Translocators (2.5.1.77)
 * Triumph (2.1.1)
-* The Betweenlands (3.3.10)
+* The Betweenlands (3.3.11)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench
     * Fixed apparent crash when entering the Betweenlands
+    * Fixed some shader textures uninitialized in first frame when loading world causing a crash with Optifine
+    * Fixed player mounting Harlequinn Toad when healing with Dragonfly Wings
+    * Fixed Harlequinn Toad healing causing a null stack crash in a specific situation
 * Tinker Stages (2.0.15)
 * Tinkers Construct (2.10.1.87)
 * To The Bat Poles (1.1.0.1)

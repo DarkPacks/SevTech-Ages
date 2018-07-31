@@ -43,6 +43,7 @@ should not be repairable anyways using this method. (#2925)
 * Fix exploit to obtain Mystical Agriculture ores early using oredict conversion machines. (#2840)
 * Fixed Chisel Temple block recipe giving incorrect recipe output amount. (#2814)
 * Disabled pickup of the GCPlan spout with the sack of holding.
+* Fixed custom bedrock not being in the allowed bedrock for Ender Utilities (#3201)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

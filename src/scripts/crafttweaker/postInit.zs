@@ -27,10 +27,6 @@ initIntegrations();
 // Build the Stages
 ZenStager.buildAll();
 
-// Stage recipes by regex after building
-// SEE https://github.com/DarkPacks/SevTech-Ages/commit/2a0098fcf52681e1f65e358f009a670f1ae523ff
-scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
-
 // ==================================
 // Init Functions
 function initResources() {
@@ -67,6 +63,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.misc.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.oredict.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
 
 	// ==================================
 	// Staging Mod's Items and Recipes

@@ -1,0 +1,26 @@
+[
+    {
+        "fakePlayerName" : "rftools_builder",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName" : "rftools_elevator",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName" : "cyclicmagic.fake_player.block_forester",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName" : "cyclicmagic.fake_player.block_user",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName" : "cyclicmagic.fake_player.spikes",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName": "[IF]",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    }
+  ]

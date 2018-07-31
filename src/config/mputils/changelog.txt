@@ -55,6 +55,7 @@ Enhancements:
 * Fixed remaning recipes using the wrong lead ingot, also hiden the ingot and block in JEI to prevent confusions.
 * Added Industrial Mill recipes for Bone Meal (#3189)
 * Added some more ingredients to the CWBH compat module (#2051)
+* Fixed some FakePlayers not being staged (more will be added as we find them). #progress!
 
 Forge:
 

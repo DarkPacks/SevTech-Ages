@@ -42,6 +42,7 @@ Bug Fixes:
 should not be repairable anyways using this method. (#2925)
 * Fix exploit to obtain Mystical Agriculture ores early using oredict conversion machines. (#2840)
 * Fixed Chisel Temple block recipe giving incorrect recipe output amount. (#2814)
+* Disabled pickup of the GCPlan spout with the sack of holding.
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -50,6 +51,7 @@ Enhancements:
 * Added trade with the FFBH mod to get Corn Seeds.
 * Fixed inconsistent recipes with Rice and some Bread recipes.
 * Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
+* Fixed remaning recipes using the wrong lead ingot, also hiden the ingot and block in JEI to prevent confusions.
 
 Forge:
 
@@ -151,6 +153,7 @@ Mod Updates:
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
+* Iron Chests (7.0.46.831)
 * Item Stages (2.0.35)
 * Just Enough Items (4.11.0.206)
 * MTLib (3.0.5)
@@ -193,21 +196,21 @@ Mod Updates:
     * Reworked 3rd party wrench support: many more wrenches are now supported
     * Fixed NPE when using a newly-crafted GPS Area Tool
 * Prestige (1.0.17)
-* Quantum Storage (4.6.0)
+* Quantum Storage (4.6.1)
 * Quark (r1.4-125)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
 * Reborn Core (3.9.2.319)
-* Reborn Storage (3.2.0.60)
+* Reborn Storage (3.2.1.63)
 * Recipe Stages (1.1.1)
-* Refined Storage (1.6)
+* Refined Storage (1.6.2)
     * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
     * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
-* Refined Storage Addons (0.4)
+* Refined Storage Addons (0.4.1)
     * Removed Network Bag
     * Removed Network Picker
 * Rustic (1.0.6)
-* SevTweaks (0.2.0)
+* SevTweaks (0.2.1-17)
 * Simple Generators (2.0.13a)
 * Simple Storage Network (1.2.7)
 * Steve Carts (2.4.22.109)

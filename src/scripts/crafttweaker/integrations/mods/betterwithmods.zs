@@ -51,6 +51,7 @@ static soakingRemovals as IItemStack[] = [
 	Note: Removing by output also requires the amount of the output item that is given.
 */
 static cauldronRemovals as IItemStack[][] = [
+	[<betterwithmods:material:1> * 4],
 	[<betterwithmods:material:12>],
 	[<betterwithmods:material:12> * 2],
 	[<betterwithmods:material:12> * 3],
@@ -238,6 +239,7 @@ function init() {
 	Condensed.setContainer(<betterwithaddons:bolt:0>, <betterwithaddons:spindle:0>);
 
 	// Cauldron
+	betterWithMods.addCauldron([<ore:dustCarbon>, <betterwithmods:material:16>], [<betterwithmods:material:1>]);
 	betterWithMods.addCauldron([<minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>], [<betterwithmods:material:12>]);
 	betterWithMods.addCauldron([<primal:pigman_hide_raw:0>], [<betterwithmods:material:12> * 2]);
 	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);

@@ -49,6 +49,7 @@ Enhancements:
 * Made ore advancement descriptions uniform and corrected Y values.
 * Added trade with the FFBH mod to get Corn Seeds.
 * Fixed inconsistent recipes with Rice and some Bread recipes.
+* Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
 
 Forge:
 

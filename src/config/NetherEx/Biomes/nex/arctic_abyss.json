@@ -87,10 +87,10 @@
       "placement": "on_ground",
       "genAttempts": 5,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -107,10 +107,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -127,10 +127,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:ore",
@@ -150,10 +150,10 @@
       "veinSize": 14,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:ore",
@@ -170,10 +170,10 @@
       "veinSize": 7,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:pool",
@@ -186,10 +186,10 @@
       },
       "genAttempts": 1,
       "genProbability": 0.125,
-      "minHeight": 36,
-      "maxHeight": 96,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 36,
+      "maxGenHeight": 96
     }
   ]
 }

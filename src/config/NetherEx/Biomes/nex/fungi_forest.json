@@ -85,14 +85,14 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
       "generate": true,
       "blockToAttachTo": {
         "block": "minecraft:barrier",
         "properties": {}
-      }
+      },
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -109,14 +109,14 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
       "generate": true,
       "blockToAttachTo": {
         "block": "minecraft:barrier",
         "properties": {}
-      }
+      },
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:ore",
@@ -136,10 +136,10 @@
       "veinSize": 14,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:big_mushroom",
@@ -159,10 +159,10 @@
       "shape": "flat",
       "genAttempts": 256,
       "genProbability": 1.0,
-      "minHeight": 32,
-      "maxHeight": 108,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 32,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:big_mushroom",
@@ -182,20 +182,20 @@
       "shape": "bulb",
       "genAttempts": 256,
       "genProbability": 1.0,
-      "minHeight": 32,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 32,
+      "maxGenHeight": 108
     },
     {
       "feature": "nex:enoki",
       "genStage": "decorate",
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 64,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 64,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:structure",
@@ -205,8 +205,6 @@
       "genAttempts": 1,
       "genProbability": 0.0125,
       "randomizeGenAttempts": false,
-      "minHeight": 32,
-      "maxHeight": 116,
       "mirror": "random",
       "rotation": "random",
       "ignoredBlock": {
@@ -214,7 +212,9 @@
         "properties": {}
       },
       "clearancePercentage": 1.0,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 32,
+      "maxGenHeight": 116
     }
   ]
 }

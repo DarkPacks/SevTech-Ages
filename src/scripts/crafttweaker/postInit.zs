@@ -27,6 +27,9 @@ initIntegrations();
 // Build the Stages
 ZenStager.buildAll();
 
+// Stage recipes by regex after building
+scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
+
 // ==================================
 // Init Functions
 function initResources() {
@@ -63,7 +66,6 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.misc.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.modId.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.oredict.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.stages.init();
 
 	// ==================================
 	// Staging Mod's Items and Recipes

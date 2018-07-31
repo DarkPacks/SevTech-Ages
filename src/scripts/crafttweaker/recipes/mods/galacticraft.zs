@@ -43,6 +43,34 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:tankOxygenHeavy>, <ore:tankOxygenHeavy>, <ore:tankOxygenHeavy>],
 			[<ore:compressedSteel>, <ore:compressedSteel>, <ore:compressedSteel>]
 		]
+	],
+	<galacticraftplanets:geothermal_generator:0>: [
+		[
+			[<galacticraftcore:basic_item:10>, <galacticraftplanets:atmospheric_valve:0>, <galacticraftcore:basic_item:10>],
+			[<galacticraftcore:aluminum_wire:0>, <galacticraftcore:machine:0>, <galacticraftcore:aluminum_wire:0>],
+			[<galacticraftcore:basic_item:10>, metals.lead.ingot, <galacticraftcore:basic_item:10>]
+		]
+	],
+	<galacticraftplanets:atomic_battery:0>: [
+		[
+			[metals.lead.ingot, metals.lead.ingot, metals.lead.ingot],
+			[metals.lead.ingot, <galacticraftplanets:basic_item_venus:2>, metals.lead.ingot],
+			[metals.lead.ingot, metals.lead.ingot, metals.lead.ingot]
+		]
+	],
+	<extraplanets:electric_parts:1>: [
+		[
+			[metals.lead.ingot, <ore:ingotDesh>, metals.lead.ingot],
+			[<ore:ingotDesh>, metals.lead.ingot, <ore:ingotDesh>],
+			[metals.lead.ingot, <ore:ingotDesh>, metals.lead.ingot]
+		]
+	],
+	<extraplanets:electric_parts:0>: [
+		[
+			[metals.lead.ingot, <galacticraftplanets:item_basic_mars:3>, metals.lead.ingot],
+			[<galacticraftplanets:item_basic_mars:3>, metals.lead.ingot, <galacticraftplanets:item_basic_mars:3>],
+			[metals.lead.ingot, <galacticraftplanets:item_basic_mars:3>, metals.lead.ingot]
+		]
 	]
 };
 
@@ -82,12 +110,16 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<extraplanets:electric_parts:0>,
+	<extraplanets:electric_parts:1>,
 	<galacticraftcore:air_fan:0>,
 	<galacticraftcore:fuel_loader:0>,
 	<galacticraftcore:machine2:8>,
 	<galacticraftcore:machine:12>,
 	<galacticraftcore:rocket_workbench:0>,
-	<galacticraftplanets:carbon_fragments:0>
+	<galacticraftplanets:atomic_battery:0>,
+	<galacticraftplanets:carbon_fragments:0>,
+	<galacticraftplanets:geothermal_generator:0>
 ];
 
 static removeFurnace as IIngredient[] = [
@@ -144,4 +176,13 @@ function init() {
 
 	// Create the parachute reicpes
 	scripts.crafttweaker.recipes.mods.galacticraft.initParachuteRecipes();
+
+	// Remove the Lead Block recipe.
+	recipes.removeShaped(<galacticraftplanets:venus:12>, [
+		[<galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>],
+		[<galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>],
+		[<galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>, <galacticraftplanets:basic_item_venus:1>]
+	]);
+	// Remove the conversion recipe.
+	recipes.removeShaped(<galacticraftplanets:basic_item_venus:1> * 9, [ [<galacticraftplanets:venus:12>] ]);
 }

@@ -384,6 +384,8 @@ static stagedItems as IIngredient[][string] = {
 static hiddenItems as IIngredient[] = [
 	<galacticraftcore:bucket_fuel:0>,
 	<galacticraftcore:refinery:0>,
+	<galacticraftplanets:basic_item_venus:1>,
+	<galacticraftplanets:venus:12>
 ];
 
 function init() {

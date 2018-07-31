@@ -52,6 +52,7 @@ Enhancements:
 * Fixed inconsistent recipes with Rice and some Bread recipes.
 * Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
 * Fixed remaning recipes using the wrong lead ingot, also hiden the ingot and block in JEI to prevent confusions.
+* Added Industrial Mill recipes for Bone Meal (#3198)
 
 Forge:
 
@@ -61,7 +62,7 @@ Mods Added:
 * JustEnoughIDs (1.0.1-16)
 * LibEx (1.0.4)
     * Now required by Nether Ex (2.0.0+)
-* ZenStages
+* ZenStages (0.2.0-8)
 
 Mods Removed:
 * Tomb Many Graves

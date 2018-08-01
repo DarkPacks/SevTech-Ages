@@ -22,5 +22,9 @@
     {
         "fakePlayerName": "[IF]",
         "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName": "Mob Masher",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
     }
   ]

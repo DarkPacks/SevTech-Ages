@@ -59,6 +59,27 @@ static recipes as IIngredient[][][IItemStack] = {
 		[metals.compressedIron.plate, <quark:biotite:0>, <minecraft:obsidian:0>, <appliedenergistics2:material:17>, <minecraft:obsidian:0>, <quark:biotite:0>, metals.compressedIron.plate],
 		[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
 	],
+	// Building Gadgets #SorryDire
+	<buildinggadgets:buildingtool>: [
+		[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, <betterbuilderswands:wanddiamond:0>, <galacticraftcore:battery:0>, <betterbuilderswands:wanddiamond:0>, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, <minecraft:torch:0>, <galacticraftcore:battery:0>, <primal:pelt_wolf:0>, <galacticraftcore:battery:0>, <minecraft:torch:0>, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, <betterbuilderswands:wanddiamond:0>, <galacticraftcore:battery:0>, <betterbuilderswands:wanddiamond:0>, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
+	],
+	<buildinggadgets:exchangertool>: [
+		[null, null, null, null, null, null, null, null, null],
+		[null, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <galacticraftcore:battery:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, <minecraft:torch:0>, <galacticraftcore:battery:0>, <astralsorcery:itemexchangewand:0>, <galacticraftcore:battery:0>, <minecraft:torch:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <galacticraftcore:battery:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <minecraft:torch>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, null, null, null, null, null, null, null, null]
+	],
 
 	// ==================================
 	// Creative Items

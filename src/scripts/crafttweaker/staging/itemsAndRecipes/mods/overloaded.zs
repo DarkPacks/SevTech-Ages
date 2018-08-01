@@ -34,7 +34,6 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
-	<overloaded:compressed_cobblestone:*>,
 	<overloaded:energy_core>,
 	<overloaded:fluid_core>,
 	<overloaded:item_core>,

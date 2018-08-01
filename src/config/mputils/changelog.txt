@@ -60,6 +60,7 @@ Enhancements:
 Forge:
 
 Mods Added:
+* Building Gadgets (1.6.2)
 * Corails Tombstone (2.10.0)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs (1.0.1-16)

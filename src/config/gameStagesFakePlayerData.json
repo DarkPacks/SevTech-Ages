@@ -26,5 +26,9 @@
     {
         "fakePlayerName": "Mob Masher",
         "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName": "[Minecraft]",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
     }
   ]

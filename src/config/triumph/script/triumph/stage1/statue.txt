@@ -2,7 +2,7 @@ setTitle("Abyssal Trophy Case")
 
 setIcon("abyssalcraft:statue", 4)
 
-setDescription("To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the �4Necronomicon �7for more information")
+setDescription("To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the §4Necronomicon §7for more information")
 
 addParent("triumph:stage1/necro")
 setRequiresParents()

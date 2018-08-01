@@ -6,10 +6,7 @@ import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageCreativeUnused.stage: [
-		<vc:airships/item_creative_airship_v1:0>,
-		<vc:airships/item_creative_airship_v2:0>,
-		<vc:airships/item_creative_airship_v3:0>,
-		<vc:airships/item_creative_airship_v4:0>,
+		<vc:airships/item_airship_creative:0>,
 		<vc:modules/item_module_creative:0>
 	]
 };

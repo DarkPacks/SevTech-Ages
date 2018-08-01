@@ -11,8 +11,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 static recipes as IIngredient[][][IItemStack] = {
-	// NASA Workbench
-	<vc:airship_ignition:0>: [
+	<vc:item_airship_ignition:0>: [
 		[<galacticraftcore:basic_item:9>, <pneumaticcraft:assembly_io_unit:0>, <galacticraftcore:basic_item:9>],
 		[<appliedenergistics2:material:22>, <extendedcrafting:table_basic:0>, <appliedenergistics2:material:24>],
 		[<galacticraftcore:basic_item:9>, <pneumaticcraft:printed_circuit_board:0>, <galacticraftcore:basic_item:9>]

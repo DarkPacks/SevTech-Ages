@@ -154,6 +154,15 @@ static materialsForStage as string[][string] = {
 	]
 };
 
+// ==================================
+// Material Stage
+// Prevents the material from being used.
+static modifierForStage as string[][string] = {
+	stageDisabled.stage: [
+		"gardening"
+	]
+};
+
 /*
 	Part Item Staging
 */
@@ -213,6 +222,11 @@ function init() {
 	// Add the tool types to be staged.
 	for _stage, toolTypes in scripts.crafttweaker.staging.tinkers.toolTypeStages {
 		ZenStager.getStage(_stage).addTiCToolTypes(toolTypes);
+	}
+
+	// Add the modifiers to be staged.
+	for _stage, materials in scripts.crafttweaker.staging.tinkers.modifierForStage {
+		ZenStager.getStage(_stage).addTiCModifier(materials);
 	}
 
 	// Add the materials to be staged.

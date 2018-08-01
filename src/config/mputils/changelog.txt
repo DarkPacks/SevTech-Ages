@@ -23,6 +23,8 @@ Twitch you should use the Jar Launcher as this will auto use the correct version
 * Refined Storage (1.6) has a major change in how the mod works. So please review the changes to see what's broken on your network. There is nothing we can do on the pack side to help with, the possible
 breakage of your networks/autocrafting etc... So please ensure you read the changelog and understand the changes done by the mod. The modder has put work into upgrading current networks. But expect to find
 issues! This is your only warning about this. So don't open issues on the tracker about issues. Unless it's an actual bug with the mod!
+* Viescraft has been updated (which the mod did a refactor) this means that your ships will vanish, along with some items. This is another thing we can't control with mod updates. All we can say is sorry. Feel free to
+spawn in components to re-make your ships. Note: Ship building changed a bit so please read up on the changes.
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
@@ -92,7 +94,7 @@ Mod Updates:
 * Astikoor (1.1.1a)
 * Astral Sorcery (1.9.4)
 * AutoRegLib (1.3-18)
-* B.A.S.E (3.9.0)
+* B.A.S.E (3.10.0)
 * Better Advancements (0.0.8.50)
 * Better With Addons (0.42)
 * Better With Mods (2.3.4)
@@ -103,15 +105,17 @@ Mod Updates:
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
     * Fixed Mob Sacrifice Array so it no longer kills bosses and players
 * BnBGamingCore (0.9.0)
+* BnBGamingLib (2.12.0)
 * Bookshelf (2.3.552)
-* CarryOn (1.9.2)
+* CarryOn (1.9.3)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
+    * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.0.349)
 * Connected Textures Mod (0.32.18)
 * Construct's Armory (1.0.2)
-* Content Tweaker (4.6.0)
+* Content Tweaker (4.7.0)
 * Cooking With Blockheads (6.4.44)
     * Added Storage Drawers support
         * Only actual drawer blocks are supported, controllers can not be connected.
@@ -127,6 +131,7 @@ Mod Updates:
 * Cyclops Core (0.11.8)
 * Dark Utilities (1.8.211)
 * Despawning Spawners (1.2.0-2)
+* Dimensional Control (2.10.3)
 * Dimension Stages (2.0.20)
 * EmberRootZoo (1.3.8)
 * Ender Storage (2.4.5.135)
@@ -134,7 +139,7 @@ Mod Updates:
 * Environmental Tech (2.0.13a)
 * Extended Crafting (1.4.1)
 * ExtraPlanets (0.4.1)
-* Farming For Blockheads (3.1.19)
+* Farming For Blockheads (3.1.21)
     * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
@@ -173,7 +178,7 @@ Mod Updates:
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
 * Natura (4.3.2.62)
-* Neat (1.4-16)
+* Neat (1.4-17)
 * Nether Ex (2.0.4)
     * Pigtificate Villages not spawning
     * Potion effects from decreasing performance
@@ -183,6 +188,7 @@ Mod Updates:
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
+* PrimalCore (0.6.67)
 * Placebo (1.4.0)
 * PneumaticCraft (0.7.3-248)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
@@ -224,7 +230,7 @@ Mod Updates:
 * The Beneath (1.4.2)
 * Traverse (1.5.5)
 * Translocators (2.5.1.77)
-* Triumph (2.1.1)
+* Triumph (2.2.0)
 * The Betweenlands (3.3.11)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench
@@ -241,6 +247,7 @@ Mod Updates:
 * Translocators (2.5.0.73)
 * Traverse (1.5.4-61)
 * ValkyrieLib (2.0.13a)
+* Viescraft (5.9.13)
 * Wither Skeleton Tweaks (2.6.1)
 * XNet (1.7.3)
 * YNot (0.2.3)

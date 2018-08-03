@@ -121,7 +121,7 @@ Mod Updates:
     * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
-* Code Chicken Lib (3.2.0.349)
+* Code Chicken Lib (3.2.1.350)
 * Connected Textures Mod (0.32.18)
 * Construct's Armory (1.0.2)
 * Content Tweaker (4.7.0)
@@ -153,7 +153,7 @@ Mod Updates:
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
 * FindMe (1.0.2-6)
-* Forge Multi Part (2.5.0.69)
+* Forge Multi Part (2.5.0.70)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
@@ -194,6 +194,7 @@ Mod Updates:
     * Forge population not being triggered
     * Features not generating during the correct stages
 * Not Enough Items (4.2.1.238)
+* Nutrition (3.5.0)
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)

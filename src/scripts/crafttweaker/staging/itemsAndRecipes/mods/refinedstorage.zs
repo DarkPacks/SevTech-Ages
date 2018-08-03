@@ -18,7 +18,8 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:network_card:0>,
 		<refinedstorage:quartz_enriched_iron_block:0>,
 		<refinedstorage:quartz_enriched_iron:0>,
-		<refinedstorage:security_card:0>
+		<refinedstorage:security_card:0>,
+		<refinedstorage:wrench:0>
 	],
 
 	stageFive.stage: [

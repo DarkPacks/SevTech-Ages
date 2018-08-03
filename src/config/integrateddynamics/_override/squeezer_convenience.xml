@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="1">minecraft:sponge</item>
+        </input>
+        <output>
+            <item>minecraft:sponge</item>
+            <fluid amount="50">water</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:snowball</item>
+        </input>
+        <output>
+            <fluid amount="250">water</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:ice</item>
+        </input>
+        <output>
+            <fluid amount="1000">water</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:snow</item>
+        </input>
+        <output>
+            <fluid amount="1000">water</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:blaze_powder</item>
+        </input>
+        <output>
+            <fluid amount="250">lava</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:cactus</item>
+        </input>
+        <output>
+            <fluid amount="500">water</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">minefactoryreloaded</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:brown_mushroom</item>
+        </input>
+        <output>
+            <fluid amount="250">mushroomsoup</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">minefactoryreloaded</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:red_mushroom</item>
+        </input>
+        <output>
+            <fluid amount="250">mushroomsoup</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">evilcraft</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>evilcraft:dark_ore</item>
+        </input>
+        <output>
+            <item amount="2">evilcraft:dark_gem</item>
+            <item chance="0.5">evilcraft:dark_gem_crushed</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">evilcraft</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>evilcraft:dark_gem</item>
+        </input>
+        <output>
+            <item>evilcraft:dark_gem_crushed</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">evilcraft</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>evilcraft:undead_log</item>
+        </input>
+        <output>
+            <fluid amount="100">evilcraftblood</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">evilcraft</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>evilcraft:undead_leaves</item>
+        </input>
+        <output>
+            <fluid amount="50">evilcraftblood</fluid>
+            <item chance="0.25">evilcraft:hardened_blood_shard</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="fluid">evilcraftpoison</condition>
+        <condition type="oredict">materialPoisonous</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item type="oredict">materialPoisonous</item>
+        </input>
+        <output>
+            <fluid amount="250">evilcraftpoison</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="0">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="50">seed.oil</fluid>
+            <item chance="0.05">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="1">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="180">seed.oil</fluid>
+            <item chance="0.05">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="2">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="220">seed.oil</fluid>
+            <item chance="0.02">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:wheat_seeds</item>
+        </input>
+        <output>
+            <fluid amount="10">seed.oil</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:pumpkin_seeds</item>
+        </input>
+        <output>
+            <fluid amount="10">seed.oil</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:melon_seeds</item>
+        </input>
+        <output>
+            <fluid amount="10">seed.oil</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:beetroot_seeds</item>
+        </input>
+        <output>
+            <fluid amount="10">seed.oil</fluid>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="3">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="400">juice</fluid>
+            <item chance="0.1">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="4">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="100">juice</fluid>
+            <item chance="0.6">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="5">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="50">juice</fluid>
+            <item chance="0.2">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="6">forestry:fruits</item>
+        </input>
+        <output>
+            <fluid amount="600">juice</fluid>
+            <item chance="0.1">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="0">forestry:honey_drop</item>
+        </input>
+        <output>
+            <fluid amount="180">for.honey</fluid>
+            <item chance="0.05">forestry:propolis</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:carrot</item>
+        </input>
+        <output>
+            <fluid amount="200">juice</fluid>
+            <item chance="0.2">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="mod">forestry</condition>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:apple</item>
+        </input>
+        <output>
+            <fluid amount="200">juice</fluid>
+            <item chance="0.2">forestry:mulch</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <condition type="oredict">dustCoal</condition>
+        <input>
+            <item meta="*">minecraft:coal</item>
+        </input>
+        <output>
+            <item type="oredict">dustCoal</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:brick_block</item>
+        </input>
+        <output>
+            <item amount="4">minecraft:brick</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item type="oredict">blockGlass</item>
+        </input>
+        <output>
+            <item>minecraft:sand</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item meta="*">minecraft:wool</item>
+        </input>
+        <output>
+            <item amount="2">minecraft:string</item>
+            <item amount="1" chance="0.5">minecraft:string</item>
+            <item amount="1" chance="0.5">minecraft:string</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>convenience</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:bone</item>
+        </input>
+        <output>
+            <item meta="15" amount="6">minecraft:dye</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>ores</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:reeds</item>
+        </input>
+        <output>
+            <item amount="2">minecraft:sugar</item>
+            <item chance="0.5">minecraft:sugar</item>
+        </output>
+    </recipe>
+
+    <recipe type="integrateddynamics:squeezer">
+        <tag>ores</tag>
+        <condition type="config">squeezer</condition>
+        <input>
+            <item>minecraft:blaze_rod</item>
+        </input>
+        <output>
+            <item amount="3">minecraft:blaze_powder</item>
+            <item chance="0.5">minecraft:blaze_powder</item>
+        </output>
+    </recipe>
+
+</recipes>

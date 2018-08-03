@@ -31,10 +31,12 @@ static millRemovals as IItemStack[][] = [
 	[<minecraft:dye:11>],
 	[<minecraft:dye:12>],
 	[<minecraft:dye:13>],
+	[<minecraft:dye:14>],
 	[<minecraft:dye:1>],
 	[<minecraft:dye:3>],
 	[<minecraft:dye:7>],
-	[<minecraft:dye:9>]
+	[<minecraft:dye:9>],
+	[<minecraft:string>, <minecraft:dye:1>]
 ];
 
 /*
@@ -226,6 +228,7 @@ function init() {
 	betterWithMods.addMilling([<minecraft:quartz:0>], [<actuallyadditions:item_dust:5>]);
 	betterWithMods.addMilling([<primal:sharp_bone:0>], [<primal:bone_knapp:0>]);
 	betterWithMods.addMilling([<primal:shark_tooth:0>], [<minecraft:dye:15> * 2]);
+	betterWithMods.addMilling([<betterwithmods:companion_cube>], [<minecraft:string> * 10, <pickletweaks:dye_powder:14> * 2]);
 
 	// Bark
 	for bark in <ore:barkWood>.items {

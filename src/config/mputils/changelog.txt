@@ -46,6 +46,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed Chisel Temple block recipe giving incorrect recipe output amount. (#2814)
 * Disabled pickup of the GCPlan spout with the sack of holding.
 * Fixed custom bedrock not being in the allowed bedrock for Ender Utilities (#3201)
+* Fixed dye recipes not being removed (some missed ones) and fixed current recipes (#3217)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -63,12 +64,14 @@ Forge:
 
 Mods Added:
 * Building Gadgets (1.6.2)
-* Corails Tombstone (2.10.0)
+* Corails Tombstone (2.10.1)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs (1.0.1-16)
+    * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.4)
     * Now required by Nether Ex (2.0.0+)
 * ZenStages (0.2.0-8)
+    * Allows us to create staging modpacks far easier.
 
 Mods Removed:
 * Tomb Many Graves
@@ -77,11 +80,17 @@ Mods Removed:
 
 Mod Updates:
 * A Block of Charcoal (1.2)
-* AbyssalCraft (1.9.4.10)
+* AbyssalCraft (1.9.4.11)
     * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
     * Fixed a dupe bug in the Materializer GUI
     * Reduced the range of Cha'garoth's melee attacks
     * Slowed down the initial velocity of the Acid Projectile, increased the time between each projectile being fired, and made it so baby Lesser Shoggoths won't fire them
+    * Any NBT checks for crafting recipes and/or rituals are now a lot less strict (the placed item needs to contain the recipe item NBT tags)
+    * Increased the range of the Corruption, Cleansing and Purging rituals to 8x8 chunks (previously 3x3)
+    * Lesser Shoggoths now swim faster (and can move against flowing water)
+    * If two mobs/players/whatevers close to each other both have Dread Plague I, they can infect each other with Dread Plague II
+    * Lesser Shoggoths now have an AI for monolith construction, which makes the construction happen more frequently
+    * The purging ritual now only converts biomes that are Dreadlands biomes
 * AbyssalCraft Integration (1.6.5)
 * Actually Additions (r138)
     * Added redstone sensitivity / comparator output to Bio Reactor.
@@ -148,7 +157,7 @@ Mod Updates:
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
-* Game Stages (2.0.97)
+* Game Stages (2.0.98)
 * Geolosys (2.0.0)
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.67)
@@ -189,6 +198,7 @@ Mod Updates:
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
 * PrimalCore (0.6.67)
+* Prestige (1.0.019)
 * Placebo (1.4.0)
 * PneumaticCraft (0.7.3-248)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
@@ -211,10 +221,10 @@ Mod Updates:
 * Quark (r1.4-125)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
-* Reborn Core (3.9.2.319)
+* Reborn Core (3.9.3.324)
 * Reborn Storage (3.2.1.63)
 * Recipe Stages (1.1.1)
-* Refined Storage (1.6.2)
+* Refined Storage (1.6.3)
     * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
     * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
 * Refined Storage Addons (0.4.1)

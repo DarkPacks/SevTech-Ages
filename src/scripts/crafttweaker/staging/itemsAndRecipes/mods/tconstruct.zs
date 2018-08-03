@@ -165,7 +165,8 @@ static stagedItems as IIngredient[][string] = {
 		<tconstruct:toolforge:0>.withTag({textureBlock: {id: "minecraft:gold_block", Count: 1 as byte, Damage: 0 as short}}),
 		<tconstruct:toolforge:0>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}),
 		<tconstruct:toolforge:0>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 1 as short}}),
-		<tconstruct:toolforge:0>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}})
+		<tconstruct:toolforge:0>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}}),
+		<tconstruct:tooltables:*>
 	],
 
 	stageThree.stage: [
@@ -321,7 +322,7 @@ function init() {
 	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.hiddenRemove as IIngredient[], true);
 
 	// Handle the Tool Tables
-	for subItem in <tconstruct:tooltables:0>.definition.subItems {
-		stageTwo.addIngredient(subItem);
-	}
+	// for subItem in <tconstruct:tooltables>.definition.subItems {
+	// 	stageTwo.addIngredient(subItem);
+	// }
 }

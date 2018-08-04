@@ -48,7 +48,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<primal_tech:plant_fibres:0>
+	<primal_tech:plant_fibres:0>,
 	<primal_tech:water_saw:0>
 ];
 

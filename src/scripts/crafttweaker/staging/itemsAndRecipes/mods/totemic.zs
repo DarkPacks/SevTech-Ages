@@ -8,7 +8,6 @@ import scripts.crafttweaker.stages.stageBaykok;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
-		<totemic:bark_stripper:0>,
 		<totemic:buffalo_items:1>,
 		<totemic:buffalo_items:0>,
 		<totemic:buffalo_meat:0>,
@@ -24,7 +23,6 @@ static stagedItems as IIngredient[][string] = {
 		<totemic:flute:1>,
 		<totemic:flute:0>,
 		<totemic:jingle_dress:0>,
-		<totemic:nether_pipe:0>,
 		<totemic:rattle:0>,
 		<totemic:stripped_cedar_log:0>,
 		<totemic:sub_items:1>,
@@ -55,7 +53,9 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreativeUnused.stage: [
-		<totemic:ceremony_cheat:0>
+		<totemic:ceremony_cheat:0>,
+		<totemic:nether_pipe:0>,
+		<totemic:bark_stripper:0>
 	]
 };
 

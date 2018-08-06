@@ -47,6 +47,7 @@ should not be repairable anyways using this method. (#2925)
 * Disabled pickup of the GCPlan spout with the sack of holding.
 * Fixed custom bedrock not being in the allowed bedrock for Ender Utilities (#3201)
 * Fixed dye recipes not being removed (some missed ones) and fixed current recipes (#3217)
+* Fixed Constructs Armory's book not being able to go into bookshelves (#3227)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -55,10 +56,11 @@ Enhancements:
 * Added trade with the FFBH mod to get Corn Seeds.
 * Fixed inconsistent recipes with Rice and some Bread recipes.
 * Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
-* Fixed remaning recipes using the wrong lead ingot, also hiden the ingot and block in JEI to prevent confusions.
+* Fixed remaining recipes using the wrong lead ingot, also hidden the ingot and block in JEI to prevent confusions.
 * Added Industrial Mill recipes for Bone Meal (#3189)
-* Added some more ingredients to the CWBH compat module (#2051)
+* Added some more ingredients to the CWBH compact module (#2051)
 * Fixed some FakePlayers not being staged (more will be added as we find them). #progress!
+* Hid Totemic's netherumbrian pipes, bark stripper, and Primal Tech's water powered saw from JEI
 
 Forge:
 

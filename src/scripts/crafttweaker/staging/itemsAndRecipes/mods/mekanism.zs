@@ -117,6 +117,7 @@ static stagedItems as IIngredient[][string] = {
 		<mekanism:jetpack:0>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
 		<mekanism:machineblock:1>,
 		<mekanism:machineblock:2>,
+		<mekanism:machineblock:3>,
 		<mekanism:machineblock:5>.withTag({recipeType: 0}),
 		<mekanism:machineblock:5>.withTag({recipeType: 1}),
 		<mekanism:machineblock:5>.withTag({recipeType: 2}),

@@ -698,6 +698,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:drying_rack:*>,
 	<primal:earthwax_block:0>,
 	<primal:egg_boiled:0>,
+	<primal:egg_death:0>,
 	<primal:emerald_axe:0>,
 	<primal:emerald_hatchet:0>,
 	<primal:emerald_hoe:0>,

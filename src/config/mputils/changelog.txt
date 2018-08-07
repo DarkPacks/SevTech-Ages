@@ -62,7 +62,7 @@ Enhancements:
 * Fixed some FakePlayers not being staged (more will be added as we find them). #progress!
 * Hid Totemic's netherumbrian pipes, bark stripper, and Primal Tech's water powered saw from JEI
 
-Forge:
+Forge: 14.23.4.2747
 
 Mods Added:
 * Building Gadgets (1.6.2)
@@ -149,7 +149,7 @@ Mod Updates:
 * Despawning Spawners (1.2.0-2)
 * Dimensional Control (2.10.3)
 * Dimension Stages (2.0.20)
-* EmberRootZoo (1.3.8)
+* EmberRootZoo (1.3.9)
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.13a)
@@ -206,7 +206,7 @@ Mod Updates:
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.30)
-* PrimalCore (0.6.67)
+* PrimalCore (0.6.68)
 * Prestige (1.0.019)
 * Placebo (1.4.0)
 * PneumaticCraft (0.7.3-248)
@@ -270,8 +270,6 @@ Mod Updates:
 * Wither Skeleton Tweaks (2.6.1)
 * XNet (1.7.3)
 * YNot (0.2.3)
-
-* TODO: Geolosys!
 
 ---------------------------------------------------------------------
 

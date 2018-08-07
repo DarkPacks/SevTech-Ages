@@ -117,7 +117,6 @@ static stagedItems as IIngredient[][string] = {
 		<mekanism:jetpack:0>.withTag({mekData: {stored: {amount: 24000, gasName: "hydrogen"}}}),
 		<mekanism:machineblock:1>,
 		<mekanism:machineblock:2>,
-		<mekanism:machineblock:3>,
 		<mekanism:machineblock:5>.withTag({recipeType: 0}),
 		<mekanism:machineblock:5>.withTag({recipeType: 1}),
 		<mekanism:machineblock:5>.withTag({recipeType: 2}),
@@ -242,14 +241,16 @@ static stagedItems as IIngredient[][string] = {
 	stageCreativeUnused.stage: [
 		<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}),
 		<mekanism:energycube:0>.withTag({tier: 4, mekData: {}}),
-		<mekanism:machineblock2:11>
+		<mekanism:machineblock2:11>,
+		<mekanism:machineblock3:3>,
+		<mekanism:machineblock3:3>.withTag({mekData: {}})
 	]
 };
 
 static hiddenItems as IIngredient[] = [
-	<mekanism:oreblock:1>,
-	<mekanism:oreblock:2>,
 	<mekanism:machineblock:4>, //Bye bye miner!
+	<mekanism:oreblock:1>,
+	<mekanism:oreblock:2>
 ];
 
 function init() {

@@ -66,11 +66,11 @@ Forge:
 
 Mods Added:
 * Building Gadgets (1.6.2)
-* Corails Tombstone (2.10.1)
+* Corails Tombstone (2.10.2)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs (1.0.1-16)
     * Allows us to add more content #ContentUpdateAnyone?
-* LibEx (1.0.4)
+* LibEx (1.0.5)
     * Now required by Nether Ex (2.0.0+)
 * ZenStages (0.2.0-8)
     * Allows us to create staging modpacks far easier.
@@ -94,11 +94,12 @@ Mod Updates:
     * Lesser Shoggoths now have an AI for monolith construction, which makes the construction happen more frequently
     * The purging ritual now only converts biomes that are Dreadlands biomes
 * AbyssalCraft Integration (1.6.5)
-* Actually Additions (r138)
+* Actually Additions (r139)
     * Added redstone sensitivity / comparator output to Bio Reactor.
     * The farmer will now only plant from seed slots.
     * The farmer will now only attempt to plant if the current block can be replaced.
     * The crusher is no longer animated when not crushing.
+    * Fixed the farmer (and other inventories) failing to add items if all items have a stacksize of 1.
 * Apple Core (3.1.3)
 * Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
@@ -107,8 +108,8 @@ Mod Updates:
 * AutoRegLib (1.3-18)
 * B.A.S.E (3.10.0)
 * Better Advancements (0.0.8.50)
-* Better With Addons (0.42)
-* Better With Mods (2.3.4)
+* Better With Addons (0.43)
+* Better With Mods (2.3.5)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.0-99)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -116,11 +117,12 @@ Mod Updates:
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
     * Fixed Mob Sacrifice Array so it no longer kills bosses and players
 * BnBGamingCore (0.9.0)
-* BnBGamingLib (2.12.0)
-* Bookshelf (2.3.552)
+* BnBGamingLib (2.13.0)
+* Bookshelf (2.3.556)
 * CarryOn (1.9.3)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
     * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
+* Caliper (1.1.36)
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.1.350)
@@ -138,7 +140,10 @@ Mod Updates:
     * Fixed wrong rock material of the placed cutting board (instead of wood)
 * CraftTweaker (4.1.9)
 * Cucumber (1.1.1)
-* Cyclic (1.16.4)
+* Cyclic (1.16.6)
+    * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
+    * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
+    * Forester GUI now has size and height controls.
 * Cyclops Core (0.11.8)
 * Dark Utilities (1.8.211)
 * Despawning Spawners (1.2.0-2)
@@ -175,22 +180,23 @@ Mod Updates:
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
 * Iron Chests (7.0.46.831)
-* Item Stages (2.0.35)
+* Item Stages (2.0.36)
 * Just Enough Items (4.11.0.206)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
 * MicJty Lib (3.0.3)
 * MJRLegends Lib (1.1.5)
-* Mob Grinding Utils (0.3.8)
+* Mob Grinding Utils (0.3.9)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
+    * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
 * Mod Tweaker (4.0.13)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
 * Natura (4.3.2.62)
 * Neat (1.4-17)
-* Nether Ex (2.0.4)
+* Nether Ex (2.0.5)
     * Pigtificate Villages not spawning
     * Potion effects from decreasing performance
     * Forge population not being triggered

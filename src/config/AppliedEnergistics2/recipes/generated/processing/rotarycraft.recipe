@@ -1,9 +1,0 @@
-crusher= ae2:material.FluixCrystal -> ae2:material.FluixDust
-crusher= ae2:sky_stone_block:0 -> ae2:material.SkyDust
-crusher= mc:ender_pearl -> ae2:material.EnderDust
-crusher= oredictionary:cropWheat -> ae2:material.Flour
-crusher= ae2:material.CertusQuartzCrystalCharged -> ae2:material.CertusQuartzDust
-crusher= ae2:material.CertusQuartzCrystal -> ae2:material.CertusQuartzDust
-crusher= mc:quartz -> ae2:material.NetherQuartzDust
-crusher= ae2:quartz_ore -> 2 ae2:material.CertusQuartzDust
-crusher= ae2:charged_quartz_ore -> 2 ae2:material.CertusQuartzDust

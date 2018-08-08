@@ -1,4 +1,4 @@
-setIcon("vc:airship_ignition")
+setIcon("vc:item_airship_ignition")
 
 setTitle("Flight!")
 

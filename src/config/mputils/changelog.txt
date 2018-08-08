@@ -33,6 +33,7 @@ Bug Fixes:
 * Fixed Cyclic player launcher recipe.
 * Fixed Bloodwood and Ghostwood planks crafting each others slabs (#3173)
 * Fixed Steve's Carts Liquid Sensor recipe to fit age 3 (#3152)
+* Fixed Primal Tech fibre torch to vanilla torch recipe to allow lit fibre torches (#797)
 * Disabled "pistons move t es" from Quark to prevent crash with Cyclic Redstone Clock (#3110)
 * Disabled "What is 11?" Easter Egg with Actually Additions (#3140)
 * Disabled Coal Block to Diamonds in PneumaticCraft config to force it off.
@@ -55,6 +56,7 @@ Enhancements:
 * Made ore advancement descriptions uniform and corrected Y values.
 * Added trade with the FFBH mod to get Corn Seeds.
 * Fixed inconsistent recipes with Rice and some Bread recipes.
+* Increased age 3 coal coke torch recipe to make 4 torches instead of 2.
 * Nerfed Better With Mod's nether coal recipe to make 1 instead of 4.
 * Fixed remaining recipes using the wrong lead ingot, also hidden the ingot and block in JEI to prevent confusions.
 * Added Industrial Mill recipes for Bone Meal (#3189)

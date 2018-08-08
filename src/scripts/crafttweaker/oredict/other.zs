@@ -78,3 +78,7 @@ import crafttweaker.item.IItemStack;
 
 // String
 <ore:string>.add(<natura:materials:7>);
+
+// Fibre Torch
+<ore:fibreTorch>.add(<primal_tech:fibre_torch>);
+<ore:fibreTorch>.add(<primal_tech:fibre_torch_lit>);

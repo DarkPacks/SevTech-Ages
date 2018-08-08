@@ -844,7 +844,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<minecraft:torch:0> * 2: [
 		[<minecraft:coal:*>, <ore:cordageGeneral>, <ore:stickWood>],
-		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
+		[<minecraft:coal:*>, <ore:fibreTorch>]
 	],
 	<minecraft:book:0>: [
 		[<minecraft:paper:0>, <minecraft:leather:0>, <minecraft:paper:0>, <betterwithmods:material:12>]
@@ -865,7 +865,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	// ==================================
 	// Stage Three
 	// ==================================
-	<minecraft:torch:0> * 2: {
+	<minecraft:torch:0> * 4: {
 		Utils.genRecipeName(stageThree, "torch"): [
 			[<immersiveengineering:material:6>, <betterwithmods:rope:0>, <ore:stickWood>]
 		]

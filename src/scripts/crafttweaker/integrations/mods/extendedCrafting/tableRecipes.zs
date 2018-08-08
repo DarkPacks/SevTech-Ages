@@ -12,7 +12,7 @@ import crafttweaker.item.IItemStack;
 
 static recipes as IIngredient[][][IItemStack] = {
 	// Viescraft Airship Ignition
-	<vc:airship_ignition:0>: [
+	<vc:item_airship_ignition:0>: [
 		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod:0>, metals.iron.plate, metals.iron.plate],
 		[metals.iron.plate, <minecraft:quartz:0>, metals.platinum.gear, <minecraft:quartz:0>, metals.iron.plate],
 		[metals.iron.rod, metals.platinum.gear, <stevescarts:cartmodule:0>, metals.platinum.gear, metals.iron.rod],
@@ -20,7 +20,7 @@ static recipes as IIngredient[][][IItemStack] = {
 		[metals.iron.plate, metals.iron.plate, <minecraft:blaze_rod:0>, metals.iron.plate, metals.iron.plate]
 	],
 	// Viescraft Ship Engine
-	<vc:airship_engine:0>: [
+	<vc:item_airship_engine:0>: [
 		[metals.steel.plate, <minecraft:piston:0>, <minecraft:piston:0>, <minecraft:piston:0>, metals.steel.plate],
 		[metals.iron.plate, metals.fiery.rod, metals.fiery.rod, metals.fiery.rod, metals.iron.plate],
 		[metals.iron.plate, metals.steeleaf.gear, <stevescarts:cartmodule:44>, metals.steeleaf.gear, metals.iron.plate],
@@ -28,7 +28,7 @@ static recipes as IIngredient[][][IItemStack] = {
 		[metals.steel.plate, metals.steel.plate, <minecraft:redstone_block:0>, metals.steel.plate, metals.steel.plate]
 	],
 	// Viescraft Ship Balloon
-	<vc:airship_balloon:0>: [
+	<vc:item_airship_balloon:0>: [
 		[<betterwithmods:rope:0>, <minecraft:string:0>, <betterwithmods:material:4>, <minecraft:string:0>, <betterwithmods:rope:0>],
 		[<minecraft:string:0>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <minecraft:string:0>],
 		[<betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>, <betterwithmods:material:4>],
@@ -59,6 +59,27 @@ static recipes as IIngredient[][][IItemStack] = {
 		[metals.compressedIron.plate, <quark:biotite:0>, <minecraft:obsidian:0>, <appliedenergistics2:material:17>, <minecraft:obsidian:0>, <quark:biotite:0>, metals.compressedIron.plate],
 		[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate, <mekanism:basicblock:8>, metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate]
 	],
+	// Building Gadgets #SorryDire
+	<buildinggadgets:buildingtool>: [
+		[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, <betterbuilderswands:wanddiamond:0>, <galacticraftcore:battery:0>, <betterbuilderswands:wanddiamond:0>, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, <minecraft:torch:0>, <galacticraftcore:battery:0>, <primal:pelt_wolf:0>, <galacticraftcore:battery:0>, <minecraft:torch:0>, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, <betterbuilderswands:wanddiamond:0>, <galacticraftcore:battery:0>, <betterbuilderswands:wanddiamond:0>, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <minecraft:cobblestone:0>],
+		[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
+	],
+	<buildinggadgets:exchangertool>: [
+		[null, null, null, null, null, null, null, null, null],
+		[null, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <minecraft:torch:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <galacticraftcore:battery:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, <minecraft:torch:0>, <galacticraftcore:battery:0>, <astralsorcery:itemexchangewand:0>, <galacticraftcore:battery:0>, <minecraft:torch:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <galacticraftcore:battery:0>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, null, null, <minecraft:torch>, null, null, <overloaded:compressed_cobblestone:0>, null],
+		[null, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, null],
+		[null, null, null, null, null, null, null, null, null]
+	],
 
 	// ==================================
 	// Creative Items
@@ -78,10 +99,10 @@ static recipes as IIngredient[][][IItemStack] = {
 		[<thebetweenlands:chiromaw_wing:0>, <thebetweenlands:chiromaw_wing:0>, <thebetweenlands:chiromaw_wing:0>, <extraplanets:wafer:1>, <extendedcrafting:singularity:34>, <extraplanets:wafer:1>, <thebetweenlands:chiromaw_wing:0>, <thebetweenlands:chiromaw_wing:0>, <thebetweenlands:chiromaw_wing:0>],
 		[null, <minecraft:elytra:0>, <mysticalagriculture:supremium_chestplate:0>, <extendedcrafting:material:13>, <extendedcrafting:singularity:24>, <extendedcrafting:material:13>, <mysticalagriculture:supremium_chestplate:0>, <minecraft:elytra:0>, null],
 		[null, <ore:jetpackTier2>, <mysticalagriculture:supremium_chestplate:0>, <extraplanets:wafer:1>, <extendedcrafting:singularity:18>, <extraplanets:wafer:1>, <mysticalagriculture:supremium_chestplate:0>, <ore:jetpackTier2>, null],
-		[<ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship_v1:0>, null, <ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>],
-		[<ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell:0>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship_v2:0>, null, <ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell:0>, <ore:ingotAstralStarmetal>],
-		[<actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>, null, <vc:airships/item_airship_v3:0>, null, <actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>],
-		[<actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>, null, <vc:airships/item_airship_v4:0>, null, <actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>],
+		[<ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship:1>, null, <ore:ingotAstralStarmetal>, <ore:jetpackTier2>, <ore:ingotAstralStarmetal>],
+		[<ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell:0>, <ore:ingotAstralStarmetal>, null, <vc:airships/item_airship:2>, null, <ore:ingotAstralStarmetal>, <ironjetpacks:creative_cell:0>, <ore:ingotAstralStarmetal>],
+		[<actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>, null, <vc:airships/item_airship:3>, null, <actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>],
+		[<actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>, null, <vc:airships/item_airship:4>, null, <actuallyadditions:item_leaf_blower_advanced:0>, <ironjetpacks:creative_cell:0>, <actuallyadditions:item_leaf_blower_advanced:0>],
 		[null, <ironjetpacks:creative_thruster:0>, null, null, null, null, null, <ironjetpacks:creative_thruster:0>, null]
 	],
 	<ironjetpacks:creative_thruster:0>: [

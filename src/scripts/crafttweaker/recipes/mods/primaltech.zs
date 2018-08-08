@@ -77,24 +77,24 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:work_stump>: [
 		[
-			[<horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>],
 			[<ore:logWood>]
 		]
 	],
 	<primal_tech:work_stump_upgraded>: [
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <minecraft:log2:1>, null]
 		],
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <natura:overworld_logs2:1>, null]
 		],
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <natura:overworld_logs2:3> | <betterwithaddons:log_sakura:0>, null]
 		]
 	],

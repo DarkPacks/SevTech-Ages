@@ -1,6 +1,6 @@
 setTitle("The Nether Has Frozen Over")
 
-setIcon("nex:block_ice_frostburn")
+setIcon("nex:frostburn_ice")
 
 setDescription("Locate and enter the Arctic Abyss Biome")
 

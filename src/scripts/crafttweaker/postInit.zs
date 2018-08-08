@@ -83,6 +83,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.bonsaitrees.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.buildcraft.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.buildinggadgets.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.car.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.chargers.init();

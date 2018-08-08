@@ -172,6 +172,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
+	<cyclicmagic:auto_packager:0>,
 	<cyclicmagic:block_fishing:0>,
 	<cyclicmagic:block_miner:0>,
 	<cyclicmagic:block_miner_smart:0>,

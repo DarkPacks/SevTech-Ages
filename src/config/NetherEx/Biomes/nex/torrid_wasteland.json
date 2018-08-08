@@ -70,6 +70,54 @@
       "minGroupCount": 1,
       "maxGroupCount": 4,
       "spawn": true
+    },
+    {
+      "entity": "natura:heatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:babyheatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": false
+    },
+    {
+      "entity": "primal:creeper_nether",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 0,
+      "maxGroupCount": 1,
+      "spawn": false
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": false
+    },
+    {
+      "entity": "primal:ovis_atre",
+      "creatureType": "creature",
+      "weight": 90,
+      "minGroupCount": 1,
+      "maxGroupCount": 6,
+      "spawn": false
     }
   ],
   "features": [
@@ -88,10 +136,10 @@
       "hidden": false,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:scatter",
@@ -108,10 +156,10 @@
       "placement": "on_ground",
       "genAttempts": 20,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 128,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:cluster",
@@ -128,10 +176,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 128,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:cluster",
@@ -148,10 +196,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:ore",
@@ -171,10 +219,10 @@
       "veinSize": 14,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 118,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 118
     },
     {
       "feature": "lex:ore",
@@ -194,10 +242,10 @@
       "veinSize": 24,
       "genAttempts": 14,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:ore",
@@ -214,10 +262,10 @@
       "veinSize": 32,
       "genAttempts": 8,
       "genProbability": 1.0,
-      "minHeight": 28,
-      "maxHeight": 38,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 28,
+      "maxGenHeight": 38
     },
     {
       "feature": "lex:fluid",
@@ -234,10 +282,10 @@
       "hidden": true,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 118,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 118
     },
     {
       "feature": "lex:pool",
@@ -253,10 +301,10 @@
       },
       "genAttempts": 8,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     }
   ]
 }

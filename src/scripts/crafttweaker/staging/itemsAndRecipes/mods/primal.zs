@@ -241,8 +241,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:rush:0>,
 		<primal:rush_seeds:0>,
 		<primal:rush_stems:0>,
-		<primal:rush_tips:0>,
-		<primal:rush_tips_bloom:0>,
 		<primal:salo:0>,
 		<primal:salt_dust_netjry:0>,
 		<primal:salt_dust_rock:0>,
@@ -628,6 +626,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:arrow_torch_redstone:0>,
 	<primal:arrow_torch_wood:0>,
 	<primal:arrow_water:0>,
+	<primal:ash_bone:0>,
 	<primal:ash_wolf:0>,
 	<primal:barrel_trap:0>,
 	<primal:bear_meat_rotten:0>,
@@ -662,10 +661,10 @@ static hiddenItems as IIngredient[] = [
 	<primal:cauldron_ladle_lacquer:0>,
 	<primal:cauldron_ladle_yew:0>,
 	<primal:cauldron_lid:0>,
-	<primal:cauldron_slag:0>,
 	<primal:charcoal_fair:0>,
 	<primal:charcoal_good:0>,
 	<primal:charcoal_high:0>,
+	<primal:charcoal_mote:0>,
 	<primal:charcoal_pure:0>,
 	<primal:charcoal_stack:0>,
 	<primal:charcoal_stack:1>,
@@ -699,6 +698,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:drying_rack:*>,
 	<primal:earthwax_block:0>,
 	<primal:egg_boiled:0>,
+	<primal:egg_death:0>,
 	<primal:emerald_axe:0>,
 	<primal:emerald_hatchet:0>,
 	<primal:emerald_hoe:0>,
@@ -753,6 +753,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:hide_spoiled:0>,
 	<primal:horse_meat_rotten:0>,
 	<primal:inferum_ground:0>,
+	<primal:iron_bloom:0>,
 	<primal:iron_clippers:0>,
 	<primal:iron_gallagher:0>,
 	<primal:iron_mesh:0>,
@@ -817,9 +818,9 @@ static hiddenItems as IIngredient[] = [
 	<primal:obsidian_plate:0>,
 	<primal:obsidian_saw:0>,
 	<primal:obsidian_shovel:0>,
-	<primal:obsidian_transparent:2>,
-	<primal:obsidian_transparent:1>,
 	<primal:obsidian_transparent:0>,
+	<primal:obsidian_transparent:1>,
+	<primal:obsidian_transparent:2>,
 	<primal:obsidian_workblade:0>,
 	<primal:opal:0>,
 	<primal:opal_axe:0>,
@@ -883,6 +884,10 @@ static hiddenItems as IIngredient[] = [
 	<primal:silver_dust:0>,
 	<primal:slab_glass:0>,
 	<primal:slab_soulglass:0>,
+	<primal:slag:0>,
+	<primal:smelter_lid_cinis:0>,
+	<primal:smelter_lid_mud:0>,
+	<primal:smelter_lid_terra:0>,
 	<primal:smoke:0>,
 	<primal:soul_residue:0>,
 	<primal:soul_stone:0>,
@@ -891,12 +896,13 @@ static hiddenItems as IIngredient[] = [
 	<primal:stairs_lacquer:0>,
 	<primal:stone_basin:0>,
 	<primal:stone_gallagher:0>,
+	<primal:sword_crude_bone:0>,
 	<primal:sword_crude_flint:0>,
 	<primal:sword_crude_pig_iron:0>,
 	<primal:sword_crude_quartz:0>,
 	<primal:sword_crude_wootz:0>,
 	<primal:tall_grass_seeds:0>,
-	<primal:tamahagane_clump:0>,
+	<primal:tamahagane_bloom:0>,
 	<primal:tamahagane_ingot:0>,
 	<primal:tannin_bottle:0>,
 	<primal:thin_slab_glass:0>,
@@ -922,9 +928,16 @@ static hiddenItems as IIngredient[] = [
 	<primal:worktable_slab:*>
 ];
 
+static hiddenRemove as IIngredient[] = [
+	<primal:smelter:2>.withTag({type: "cinis"}),
+	<primal:smelter:1>.withTag({type: "terra"}),
+	<primal:smelter:0>.withTag({type: "mud"})
+];
+
 function init() {
 	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.primal.stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.primal.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.primal.hiddenRemove as IIngredient[], true);
 }

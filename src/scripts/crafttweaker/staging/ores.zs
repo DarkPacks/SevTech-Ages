@@ -12,6 +12,7 @@ import crafttweaker.item.IItemStack;
 
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
+import mods.orestages.OreStages;
 
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -297,10 +298,10 @@ static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 };
 
 // TODO: Add support for staging these in ZenStages
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:0", "minecraft:beetroots:0");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:1", "minecraft:beetroots:1");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:2", "minecraft:beetroots:2");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:3", "minecraft:beetroots:3");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:0", "minecraft:beetroots:0");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:1", "minecraft:beetroots:1");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:2", "minecraft:beetroots:2");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:3", "minecraft:beetroots:3");
 
 /*
 	Init method to perform the logic for the script.

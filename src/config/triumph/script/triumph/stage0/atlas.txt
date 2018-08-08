@@ -1,4 +1,4 @@
-setTitle("�1�lLost but Now Found")
+setTitle("§1§lLost but Now Found")
 
 setIcon("antiqueatlas:empty_antique_atlas")
 

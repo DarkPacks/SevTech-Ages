@@ -573,8 +573,11 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<abyssalcraft:altar:0>,
+	<abyssalcraft:crystallizer_on:0>,
 	<abyssalcraft:dirtyplate:0>,
-	<abyssalcraft:friedegg:0>
+	<abyssalcraft:friedegg:0>,
+	<abyssalcraft:transmutator_on:0>,
 ];
 
 static hiddenRemove as IIngredient[] = [
@@ -584,16 +587,18 @@ static hiddenRemove as IIngredient[] = [
 	<abyssalcraft:cloth:0>,
 	<abyssalcraft:cobbleu:0>,
 	<abyssalcraft:coraliumu:0>,
+	<abyssalcraft:devsword:0>,
 	<abyssalcraft:diamondu:0>,
 	<abyssalcraft:dreadiumu:0>,
 	<abyssalcraft:eggp:0>,
+	<abyssalcraft:engraver_on:0>,
 	<abyssalcraft:ethaxiumu:0>,
 	<abyssalcraft:fishp:0>,
 	<abyssalcraft:goldu:0>,
 	<abyssalcraft:ironp:0>,
 	<abyssalcraft:ironu:0>,
 	<abyssalcraft:mre:0>,
-	<abyssalcraft:porkp:0>
+	<abyssalcraft:porkp:0>,
 ];
 
 function init() {

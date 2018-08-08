@@ -8,114 +8,99 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
 
 import scripts.crafttweaker.utils;
 
 /*
-	Function to create recipes.
+	Helper function to create a Mill Recipe for the MM Machine.
 */
-function createIMRecipe(input as IItemStack, output as IItemStack) {
-	RecipeBuilder.newBuilder(utils.createRecipeName("industrial_mill", input.displayName), "industrial_mill", 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(output)
-		.addItemInput(input)
-		.build();
+function createMillRecipe(name as string, output as IItemStack, inputs as IItemStack[]) as void {
+	var machineName = "industrial_mill";
+
+	var builder as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, name), machineName, 128);
+	builder.addEnergyPerTickInput(4); // Set the power input.
+	builder.addItemOutput(output); // Set the output item.
+	for input in inputs { // Loop over the inputs and add them to the builder.
+		builder.addItemInput(input);
+	}
+	builder.build(); // Build the recipe.
+}
+
+function createOreMillRecipe(name as string, output as IItemStack, inputs as IOreDictEntry[]) as void {
+	var machineName = "industrial_mill";
+
+	var builder as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, name), machineName, 128);
+	builder.addEnergyPerTickInput(4); // Set the power input.
+	builder.addItemOutput(output); // Set the output item.
+	for input in inputs { // Loop over the inputs and add them to the builder.
+		builder.addItemInput(input);
+	}
+	builder.build(); // Build the recipe.
 }
 
 function init() {
-	// Machine name
-	var machineName = "industrial_mill";
-
-	// TODO: Enable Once Unique Scripts Back
-	// for dye, items in dyeCrushingRecipes {
-	// 	for item in items {
-	// 		scripts.crafttweaker.modIntegrations.modularMachinery.industrialMill.createIMRecipe(item, dye * 2);
-	// 	}
-	// }
+	for dye, items in scripts.crafttweaker.integrations.dye.dyeCrushingRecipes {
+		for item in items {
+			createMillRecipe(item.displayName, dye * 2, [item]);
+		}
+	}
 
 	/*
 		Multi Input Recipes
 	*/
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "grout"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<tconstruct:soil:0> * 2)
-		.addItemInput(<minecraft:sand:0>)
-		.addItemInput(<minecraft:clay_ball:0>)
-		.addItemInput(<minecraft:gravel:0>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "porcelain"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<ceramics:unfired_clay:4>)
-		.addItemInput(<minecraft:dye:15>)
-		.addItemInput(<minecraft:clay_ball:0>)
-		.addItemInput(<minecraft:flint:0>)
-		.build();
+	createMillRecipe("grout", <tconstruct:soil:0> * 2, [
+		<minecraft:sand:0>, <minecraft:clay_ball:0>, <minecraft:gravel:0>
+	]);
+	createMillRecipe("porcelain", <ceramics:unfired_clay:4>, [
+		<minecraft:dye:15>, <minecraft:clay_ball:0>, <minecraft:flint:0>
+	]);
 
 	/*
 		Resource/Plant Based
 	*/
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "resin"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<primal:tannin_ground:0>)
-		.addItemInput(<ore:barkWood>)
-		.build();
+	createOreMillRecipe("resin", <primal:tannin_ground:0>, [
+		<ore:barkWood>
+	]);
+	createMillRecipe("hemp_fibre", <betterwithmods:material:3> * 2, [
+		<betterwithmods:material:2>
+	]);
+	createMillRecipe("ground_netherrack", <betterwithmods:material:15>, [
+		<minecraft:netherrack:0>
+	]);
+	createMillRecipe("coal_dust", <betterwithmods:material:18>, [
+		<minecraft:coal:0>
+	]);
+	createMillRecipe("charcoal_dust", <betterwithmods:material:37>, [
+		<minecraft:coal:1>
+	]);
+	createMillRecipe("sugar", <minecraft:sugar:0> * 2, [
+		<minecraft:reeds:0>
+	]);
 
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "hemp_fibre"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithmods:material:3> * 2)
-		.addItemInput(<betterwithmods:material:2>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "ground_netherrack"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithmods:material:15>)
-		.addItemInput(<minecraft:netherrack:0>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "coal_dust"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithmods:material:18>)
-		.addItemInput(<minecraft:coal:0>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "charcoal_dust"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithmods:material:37>)
-		.addItemInput(<minecraft:coal:1>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "sugar"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<minecraft:sugar:0> * 2)
-		.addItemInput(<minecraft:reeds:0>)
-		.build();
+	/*
+		Bone Meal
+	*/
+	createMillRecipe("bonemeal_bone", <minecraft:dye:15> * 6, [
+		<minecraft:bone>
+	]);
+	createMillRecipe("bonemeal_block", <minecraft:dye:15> * 9, [
+		<minecraft:bone_block>
+	]);
 
 	/*
 		Flour
 	*/
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "flour"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<horsepower:flour:0>)
-		.addItemInput(<minecraft:wheat:0>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "barley_flour"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<natura:materials:1>)
-		.addItemInput(<natura:materials:0>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "rice_flour"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithaddons:japanmat:4>)
-		.addItemInput(<betterwithaddons:japanmat:2>)
-		.build();
-
-	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "rice_flour_aa"), machineName, 128)
-		.addEnergyPerTickInput(4)
-		.addItemOutput(<betterwithaddons:japanmat:4>)
-		.addItemInput(<actuallyadditions:item_food:16>)
-		.build();
+	createMillRecipe("flour", <horsepower:flour:0>, [
+		<minecraft:wheat:0>
+	]);
+	createMillRecipe("barley_flour", <natura:materials:1>, [
+		<natura:materials:0>
+	]);
+	createMillRecipe("rice_flour", <betterwithaddons:japanmat:4>, [
+		<actuallyadditions:item_food:16>
+	]);
 }

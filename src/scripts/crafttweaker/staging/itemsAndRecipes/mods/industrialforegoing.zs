@@ -57,7 +57,6 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:mob_relocator:0>,
 		<industrialforegoing:mob_slaughter_factory:0>,
 		<industrialforegoing:ore_processor:0>,
-		<industrialforegoing:oredictionary_converter:0>,
 		<industrialforegoing:petrified_fuel_generator:0>,
 		<industrialforegoing:pink_slime:0>,
 		<industrialforegoing:plant_interactor:0>,

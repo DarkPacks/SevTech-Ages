@@ -72,6 +72,70 @@
       "minGroupCount": 1,
       "maxGroupCount": 1,
       "spawn": true
+    },
+    {
+      "entity": "natura:heatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:babyheatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": false
+    },
+    {
+      "entity": "primal:creeper_nether",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 0,
+      "maxGroupCount": 1,
+      "spawn": false
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": false
+    },
+    {
+      "entity": "primal:canis_campestris",
+      "creatureType": "creature",
+      "weight": 6,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": false
+    },
+    {
+      "entity": "primal:bear_black",
+      "creatureType": "creature",
+      "weight": 4,
+      "minGroupCount": 0,
+      "maxGroupCount": 2,
+      "spawn": false
+    },
+    {
+      "entity": "primal:ovis_atre",
+      "creatureType": "creature",
+      "weight": 90,
+      "minGroupCount": 1,
+      "maxGroupCount": 6,
+      "spawn": false
     }
   ],
   "features": [
@@ -87,10 +151,10 @@
       "placement": "on_ground",
       "genAttempts": 5,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -107,10 +171,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -127,10 +191,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:ore",
@@ -150,10 +214,10 @@
       "veinSize": 14,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:ore",
@@ -170,10 +234,10 @@
       "veinSize": 7,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:pool",
@@ -186,10 +250,10 @@
       },
       "genAttempts": 1,
       "genProbability": 0.125,
-      "minHeight": 36,
-      "maxHeight": 96,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 36,
+      "maxGenHeight": 96
     }
   ]
 }

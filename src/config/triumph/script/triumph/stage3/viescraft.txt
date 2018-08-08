@@ -1,4 +1,4 @@
-setIcon("vc:airship_ignition")
+setIcon("vc:item_airship_ignition")
 
 setTitle("Flight!")
 
@@ -11,16 +11,16 @@ setRequirements("any")
 
 //Criteria
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
-criteria1.setItem("vc:airships/item_airship_v1")
+criteria1.setItem("vc:airships/item_airship", 1)
 
 criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
-criteria2.setItem("vc:airships/item_airship_v2")
+criteria2.setItem("vc:airships/item_airship", 2)
 
 criteria3 = addCriteria("hasRock3", "minecraft:inventory_changed")
-criteria3.setItem("vc:airships/item_airship_v3")
+criteria3.setItem("vc:airships/item_airship", 3)
 
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
-criteria4.setItem("vc:airships/item_airship_v4")
+criteria4.setItem("vc:airships/item_airship", 4)
 
 //Rewards
 setRewardExperience(8)

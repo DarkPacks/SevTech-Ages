@@ -1,6 +1,6 @@
 setTitle("Nether Tools")
 
-setIcon("nex:tool_hoe_bone")
+setIcon("nex:golden_wither_bone_hoe")
 
 setDescription("Use the Bone Hoe to till dirt and also for Tilled Soul Sand")
 
@@ -9,7 +9,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("nex:tool_hoe_bone")
+criteria.setItem("nex:golden_wither_bone_hoe")
 
 //Rewards
 setRewardExperience(8)

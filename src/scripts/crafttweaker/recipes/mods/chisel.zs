@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<chisel:temple:0> : [
+	<chisel:temple:0> * 8: [
 		[
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>],
 			[<minecraft:stone:0>, <ore:dyeCyan>, <minecraft:stone:0>],

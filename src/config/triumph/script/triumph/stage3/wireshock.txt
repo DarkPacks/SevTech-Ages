@@ -1,0 +1,20 @@
+setTitle("A Dire Shock")
+
+setIcon("immersiveengineering:wirecoil", 6)
+
+setDescription("A DireWire installation can lead to a lot of shocking. So you can now insulate your wires. §oBut it won't solve the DireWire install.")
+
+addParent("triumph:stage3/wire")
+setRequiresParents()
+
+setRequirements("any")
+
+//Criteria
+criteria0 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria0.setItem("immersiveengineering:wirecoil", 6)
+
+criteria1 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria1.setItem("immersiveengineering:wirecoil", 7)
+
+//Rewards
+setRewardExperience(2)

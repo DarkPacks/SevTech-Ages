@@ -30,5 +30,9 @@
     {
         "fakePlayerName": "[Minecraft]",
         "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
+    },
+    {
+        "fakePlayerName": "[Modular Routers]",
+        "stages": [ "tutorial", "zero", "one", "two", "three", "four", "five" ]
     }
   ]

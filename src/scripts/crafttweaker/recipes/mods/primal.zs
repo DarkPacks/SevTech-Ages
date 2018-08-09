@@ -497,7 +497,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<ore:toolWorkBlade>, <primal:pelt_animal:0>],
 		[<ore:toolWorkBlade>, <ore:peltWolf>],
 		[<ore:toolWorkBlade>, <ore:peltPig>],
-		[<ore:toolWorkBlade>, <ore:peltOvis>],
+		[<ore:toolWorkBlade>, <ore:peltAtre>],
 		[<ore:toolWorkBlade>, <animalium:wild_dog_pelt:0>]
 	],
 	<primal:hide_raw:0> * 3: [

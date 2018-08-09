@@ -71,7 +71,6 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:ender_snow:0>,
 		<cyclicmagic:ender_water:0>,
 		<cyclicmagic:entity_detector:0>,
-		<cyclicmagic:evoker_fang:0>,
 		<cyclicmagic:fire_dark_anim:0>,
 		<cyclicmagic:fire_dark:0>,
 		<cyclicmagic:fire_killer:0>,
@@ -90,8 +89,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:tool_push:0>,
 		<cyclicmagic:tool_swap:0>,
 		<cyclicmagic:turret_minecart:0>,
-		<cyclicmagic:wand_hypno:0>,
-		<cyclicmagic:wand_missile:0>
+		<cyclicmagic:wand_hypno:0>
 	],
 
 	stageFour.stage: [
@@ -149,6 +147,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:crafting_food:0>,
 		<cyclicmagic:cyclic_wand_build:0>,
 		<cyclicmagic:ender_wool:0>,
+		<cyclicmagic:evoker_fang:0>,
 		<cyclicmagic:harvester_block:0>,
 		<cyclicmagic:heart_food:0>,
 		<cyclicmagic:horse_upgrade_type:0>,
@@ -167,6 +166,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:tool_swap_match:0>,
 		<cyclicmagic:tool_warp_home:0>,
 		<cyclicmagic:tool_warp_spawn:0>,
+		<cyclicmagic:wand_missile:0>,
 		<cyclicmagic:water_spreader:0>
 	]
 };

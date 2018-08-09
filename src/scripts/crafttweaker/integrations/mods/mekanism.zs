@@ -54,4 +54,22 @@ function init() {
 	mekanism.addInfusion("CARBON", 10, <mekanism:enrichediron:0>, metals.steel.dust.firstItem);
 
 	mekanism.addInfusion("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest:2>);
+	
+	/*
+		Energized Smelter
+	*/
+	mekanism.removeSmelter(<betterwithaddons:japanmat:4>);
+	
+	/*
+		Crusher
+	*/
+	mekanism.addCrusher(<minecraft:blaze_rod:0>, <minecraft:blaze_powder:0> * 4);
+	mekanism.addCrusher(<actuallyadditions:item_food:16>, <betterwithaddons:japanmat:4>);
+	mekanism.addCrusher(<minecraft:wheat:0>, <horsepower:flour:0>);
+	mekanism.addCrusher(<natura:materials:0>, <natura:materials:1>);
+	mekanism.addCrusher(<minecraft:bone:0>, <minecraft:dye:15>);
+	mekanism.addCrusher(<minecraft:bone_block:0>, <minecraft:dye:15> * 9);
+	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);
+	mekanism.addCrusher(<actuallyadditions:item_misc:5>, <actuallyadditions:item_dust:7>);
+	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
 }

@@ -1005,7 +1005,8 @@ static removeFurnace as IIngredient[] = [
 	<minecraft:leather:0>,
 	<minecraft:netherbrick:0>,
 	<minecraft:diamond:0>,
-	<minecraft:emerald:0>
+	<minecraft:emerald:0>,
+	<betterwithaddons:japanmat:4>
 ];
 
 static removeFurnaceInput as IIngredient[IIngredient] = {

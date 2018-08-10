@@ -50,6 +50,8 @@ should not be repairable anyways using this method. (#2925)
 * Fixed dye recipes not being removed (some missed ones) and fixed current recipes (#3217)
 * Fixed Constructs Armory's book not being able to go into bookshelves (#3227)
 * Fixed jukebox missing recipe (#2905)
+* Fixed removed dupe processing recipe for Lapis (#3083)
+* Added missing recipes for some power inputs for MM (#3090)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -64,6 +66,8 @@ Enhancements:
 * Added some more ingredients to the CWBH compact module (#2051)
 * Fixed some FakePlayers not being staged (more will be added as we find them). #progress!
 * Hid Totemic's netherumbrian pipes, bark stripper, and Primal Tech's water powered saw from JEI
+* Add recipe to the Industrial Mill to process Low Grade Charcoal to Charcoal (#2843)
+* Add better bucket recipe via the Hydraulic Press (Age 5) (#2777)
 
 Forge: 14.23.4.2747
 

@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.Utils;
 
 import scripts.crafttweaker.utils;
+import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
@@ -806,8 +807,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-	<minecraft:chest:0>: [
-		Utils.genRecipeName(stageOne, "cheaper_chest"): [
+	<minecraft:chest:0>: {
+		Utils.genRecipeName(stageTwo, "cheaper_chest"): [
 			[
 				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 				[<ore:plankWood>, null, <ore:plankWood>],
@@ -819,7 +820,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[sidingWood, sidingWood, sidingWood]
 			]
 		]
-	]
+	}
 };
 
 /*

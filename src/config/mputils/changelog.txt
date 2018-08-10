@@ -163,7 +163,7 @@ Mod Updates:
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
 * FindMe (1.0.2-6)
-* Forge Multi Part (2.5.0.70)
+* Forge Multi Part (2.5.0.71)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
@@ -190,7 +190,7 @@ Mod Updates:
 * MicDoodleCore (4.0.1.181)
 * MicJty Lib (3.0.3)
 * MJRLegends Lib (1.1.5)
-* Mob Grinding Utils (0.3.9)
+* Mob Grinding Utils (0.3.10)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
     * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
@@ -211,7 +211,7 @@ Mod Updates:
 * Ore Stages (2.0.30)
 * PrimalCore (0.6.68)
 * Prestige (1.0.019)
-* Placebo (1.4.0)
+* Placebo (1.4.1)
 * PneumaticCraft (0.7.3-248)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.

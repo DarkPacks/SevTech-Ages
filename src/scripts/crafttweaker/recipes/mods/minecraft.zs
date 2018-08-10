@@ -673,6 +673,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>],
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>]
 		]
+	],
+	<minecraft:chest:0>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		],
+		[
+			[sidingWood, sidingWood, sidingWood],
+			[sidingWood, null, sidingWood],
+			[sidingWood, sidingWood, sidingWood]
+		]
 	]
 };
 

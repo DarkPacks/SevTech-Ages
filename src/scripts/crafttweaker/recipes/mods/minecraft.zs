@@ -673,18 +673,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>],
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>]
 		]
-	],
-	<minecraft:chest:0>: [
-		[
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
-		],
-		[
-			[sidingWood, sidingWood, sidingWood],
-			[sidingWood, null, sidingWood],
-			[sidingWood, sidingWood, sidingWood]
-		]
 	]
 };
 
@@ -817,7 +805,21 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[null, <mysticalagriculture:dye_essence:0>, null]
 			]
 		]
-	}
+	},
+	<minecraft:chest:0>: [
+		Utils.genRecipeName(stageOne, "cheaper_chest"): [
+			[
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+				[<ore:plankWood>, null, <ore:plankWood>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			],
+			[
+				[sidingWood, sidingWood, sidingWood],
+				[sidingWood, null, sidingWood],
+				[sidingWood, sidingWood, sidingWood]
+			]
+		]
+	]
 };
 
 /*

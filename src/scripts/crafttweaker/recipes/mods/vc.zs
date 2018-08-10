@@ -60,37 +60,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<vc:upgrades/item_upgrade_airship_frame:1> : [
 		[
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>],
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>],
 			[<vc:upgrades/item_upgrade_airship_core:0>, <vc:item_airship_frame:0>, <vc:upgrades/item_upgrade_airship_core:0>],
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>]
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>]
 		]
 	],
 	<vc:upgrades/item_upgrade_airship_frame:2> : [
 		[
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>],
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>],
 			[<vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame:1>.reuse(), <vc:upgrades/item_upgrade_airship_core:0>],
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>]
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>]
 		]
 	],
 	<vc:upgrades/item_upgrade_airship_frame:3> : [
 		[
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>],
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>],
 			[<vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame:2>.reuse(), <vc:upgrades/item_upgrade_airship_core:0>],
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>]
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>]
 		]
 	],
 	<vc:upgrades/item_upgrade_airship_frame:4> : [
 		[
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>],
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>],
 			[<vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame:3>.reuse(), <vc:upgrades/item_upgrade_airship_core:0>],
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>]
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>]
 		]
 	],
 	<vc:upgrades/item_upgrade_airship_frame:5> : [
 		[
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>],
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>],
 			[<vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame:4>.reuse(), <vc:upgrades/item_upgrade_airship_core:0>],
-			[<vc:item_logic_chip:0>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:item_logic_chip:0>]
+			[<vc:upgrades/item_upgrade_airship_frame>, <vc:upgrades/item_upgrade_airship_core:0>, <vc:upgrades/item_upgrade_airship_frame>]
 		]
 	],
 	<vc:upgrades/item_upgrade_airship_engine:1> : [

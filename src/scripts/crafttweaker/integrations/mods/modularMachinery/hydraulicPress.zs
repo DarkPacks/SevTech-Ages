@@ -49,7 +49,8 @@ static recipes as IItemStack[][IItemStack] = {
 	<extraplanets:tier7_items:3>: [ <extraplanets:tier6_items:3>, <extraplanets:tier7_items:6> * 5], // Heavy Duty Plate Tier 7
 	<extraplanets:tier8_items:3>: [ <extraplanets:tier7_items:3>, <extraplanets:tier8_items:5> * 5 ], // Heavy Duty Plate Tier 8
 	<extraplanets:tier9_items:3>: [ <extraplanets:tier8_items:3>, <extraplanets:tier9_items:4> * 5 ], // Heavy Duty Plate Tier 9
-	<extraplanets:tier10_items:3>: [ <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4> * 5 ] // Heavy Duty Plate Tier 10
+	<extraplanets:tier10_items:3>: [ <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4> * 5 ], // Heavy Duty Plate Tier 10
+	<minecraft:bucket>: [<immersiveengineering:metal:39> * 3] // Iron Bucket
 };
 
 function init() {

@@ -49,6 +49,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed custom bedrock not being in the allowed bedrock for Ender Utilities (#3201)
 * Fixed dye recipes not being removed (some missed ones) and fixed current recipes (#3217)
 * Fixed Constructs Armory's book not being able to go into bookshelves (#3227)
+* Fixed jukebox missing recipe (#2905)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

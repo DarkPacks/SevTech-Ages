@@ -689,6 +689,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
+	<minecraft:jukebox:0>: {
+		Utils.genRecipeName(stageThree, "jukebox"): [
+			[
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+				[<ore:plankWood>, <minecraft:quartz:0>, <ore:plankWood>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
+		]
+	},
 	<ore:dyeBlack>.firstItem: {
 		Utils.genRecipeName(stageFive, <ore:dyeBlack>.firstItem): [
 			[

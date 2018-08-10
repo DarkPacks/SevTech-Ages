@@ -80,6 +80,9 @@ function init() {
 	createMillRecipe("sugar", <minecraft:sugar:0> * 2, [
 		<minecraft:reeds:0>
 	]);
+	createMillRecipe("charcoal_low_grade", <minecraft:coal:1> * 4, [
+		<primal_tech:charcoal_block>
+	]);
 
 	/*
 		Bone Meal

@@ -90,6 +90,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.cobalt.gear, <modularmachinery:blockcasing:0>, metals.cobalt.gear],
 			[null, metals.cobalt.gear, null]
 		]
+	],
+	<modularmachinery:blockenergyinputhatch:2> : [
+		[
+			[<minecraft:redstone>, <minecraft:repeater>, <minecraft:redstone>],
+			[metals.redstoneAlloy.block, <modularmachinery:blockenergyinputhatch:1>, metals.redstoneAlloy.block],
+			[<minecraft:redstone>, metals.redstoneAlloy.block, <minecraft:redstone>]
+		]
+	],
+	<modularmachinery:blockenergyinputhatch:3> : [
+		[
+			[<modularmachinery:blockcasing:4>, <minecraft:repeater>, <modularmachinery:blockcasing:4>],
+			[<modularmachinery:blockenergyinputhatch:2>, metals.redstoneAlloy.block, <modularmachinery:blockenergyinputhatch:2>],
+			[<modularmachinery:blockcasing:4>, <minecraft:repeater>, <modularmachinery:blockcasing:4>]
+		]
 	]
 };
 
@@ -171,6 +185,8 @@ static removeRecipes as IIngredient[] = [
 	<modularmachinery:blockcasing:1>,
 	<modularmachinery:blockcasing:0>,
 	<modularmachinery:blockcontroller:0>,
+	<modularmachinery:blockenergyinputhatch:3>,
+	<modularmachinery:blockenergyinputhatch:2>,
 	<modularmachinery:blockenergyinputhatch:0>,
 	<modularmachinery:blockfluidinputhatch:0>,
 	<modularmachinery:blockinputbus:1>,

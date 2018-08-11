@@ -34,8 +34,6 @@
 <ore:oreGeolosysTeallite>.add(<geolosys:ore:5>);
 
 // Remove ore oredict on geolosys-styled CoT ores.
-<ore:oreGold>.remove(<materialpart:gold:ore_galacticraftplanets_bottom>);
-<ore:oreIron>.remove(<materialpart:iron:ore_galacticraftcore_bottom>);
 <ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);
 
 // Remove Geolosys Zinc ore from oredict

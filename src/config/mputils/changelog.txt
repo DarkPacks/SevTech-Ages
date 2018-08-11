@@ -53,6 +53,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed removed dupe processing recipe for Lapis (#3083)
 * Added missing recipes for some power inputs for MM (#3090)
 * Fixed inconsistent recipe for VC frame upgrades (#2568)
+* Fixed raw pigman pelt processing recipe (#2912)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

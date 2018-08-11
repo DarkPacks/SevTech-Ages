@@ -501,12 +501,12 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<ore:toolWorkBlade>, <animalium:wild_dog_pelt:0>]
 	],
 	<primal:hide_raw:0> * 3: [
+		[<ore:toolWorkBlade>, <primal:pigman_hide_raw:0>],
 		[<ore:toolWorkBlade>, <ore:peltSheep>],
 		[<ore:toolWorkBlade>, <primal:pelt_shark:0>]
 	],
 	// Leather Processing
 	<primal:hide_salted:0>: [
-		[<primal:pigman_hide_raw:0>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
 		[<primal:hide_raw:0>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
 		[<primal:hide_dried:0>, <primal:tannin_ground:0>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],

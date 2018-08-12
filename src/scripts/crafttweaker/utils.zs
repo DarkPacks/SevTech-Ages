@@ -234,7 +234,7 @@ function getPressOutputCount(metalPartName as string) as int {
 		return 2;
 	}
 
-	return 2;
+	return 1;
 }
 
 /*

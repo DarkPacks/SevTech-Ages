@@ -546,9 +546,13 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IIngredient[] = [
+	<primal:leather_cordage:0>,
 	<primal:slab_ironwood:0>,
-	<primal:thatching_wet:0>,
-	<primal:leather_cordage:0>
+	<primal:smelter:2>.withTag({type: "cinis"}),
+	<primal:smelter:1>.withTag({type: "terra"}),
+	<primal:smelter:0>.withTag({type: "mud"}),
+	<primal:smelter:*>,
+	<primal:thatching_wet:0>
 ];
 
 static removeRegex as string[] = [

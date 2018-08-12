@@ -1,8 +1,8 @@
-setTitle("Don't Saddle For Anything Less")
+setTranslatedTitle("advancements.stage0.saddle.title")
 
 setIcon("minecraft:saddle")
 
-setDescription("Gotta Go Fast! Use a Saddle to travel around much faster")
+setTranslatedDescription("advancements.stage0.saddle.description")
 
 addParent("triumph:stage0/lead")
 setRequiresParents()

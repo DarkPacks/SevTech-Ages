@@ -1,8 +1,8 @@
-setTitle("§4§lHot Grill!")
+setTranslatedTitle("advancements.stage0.grill.title")
 
 setIcon("primal_tech:stone_grill")
 
-setDescription("Upgrade your firepit with something a bit more grate. The grill needs a heatsource below it such as a fire to properly cook")
+setTranslatedDescription("advancements.stage0.grill.description")
 
 addParent("triumph:stage0/firepit")
 setRequiresParents()

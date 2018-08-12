@@ -1,8 +1,8 @@
-setTitle("Bed Boys, Bed Boys")
+setTranslatedTitle("advancements.stage0.mat.title")
 
 setIcon("cyclicmagic:sleeping_mat")
 
-setDescription("The Sleeping Mat will allow you to sleep on the go! Make sure to set the correct mode for whether or not you'd like to set your spawn while sleeping")
+setTranslatedDescription("advancements.stage0.mat.description")
 
 addParent("triumph:stage0/leather")
 setRequiresParents()

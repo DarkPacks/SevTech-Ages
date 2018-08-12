@@ -1,8 +1,8 @@
-setTitle("It's Business Time")
+setTranslatedTitle("advancements.stage0.weaponize.title")
 
 setIcon("primal:sharp_bone")
 
-setDescription("Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone")
+setTranslatedDescription("Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone")
 
 addParent("triumph:stage0/firsttool")
 setRequiresParents()

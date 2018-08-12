@@ -1,8 +1,8 @@
-setTitle("Grind It")
+setTranslatedTitle("advancements.stage0.handgrind.title")
 
 setIcon("horsepower:hand_grindstone")
 
-setDescription("The Hand Grindstone isn't quick by any means, but it will let you grind stuff up easily")
+setTranslatedDescription("advancements.stage0.handgrind.description")
 
 addParent("triumph:stage0/workstump")
 setRequiresParents()

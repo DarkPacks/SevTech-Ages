@@ -1,8 +1,8 @@
-setTitle("You'll Make a Great Lead-er")
+setTranslatedTitle("advancements.stage0.lead.title")
 
 setIcon("minecraft:lead")
 
-setDescription("Acquire a lead to herd animals")
+setTranslatedDescription("advancements.stage0.lead.description")
 
 addParent("triumph:stage0/leather")
 setRequiresParents()

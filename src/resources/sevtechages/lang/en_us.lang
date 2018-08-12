@@ -1,0 +1,153 @@
+# Stage Zero
+advancements.stage0.abyssalcraft.title=Enter the Darklands
+advancements.stage0.abyssalcraft.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
+
+advancements.stage0.abyssalgem.title=§5§lDark Gems
+advancements.stage0.abyssalgem.description=Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems
+
+advancements.stage0.atlas.title=§1§lLost but Now Found
+advancements.stage0.atlas.description=Trade for an Antique Atlas map from a Cartographer or Librarian Villager
+
+advancements.stage0.baykok.title=Spooky Boss Battle
+advancements.stage0.baykok.description=Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow and unlock ranged combat early
+
+advancements.stage0.buffalo.title=Ancient Animals
+advancements.stage0.buffalo.description=Buffalo provide valuable resources to hunters. Use a Totemic Ceremony to spawn them. Collect their Hide and Teeth. Consult the Totempedia for more information
+
+advancements.stage0.charcoal.title=Pressing Your Luck
+advancements.stage0.charcoal.description=Press charcoal into a larger block using the Horse Power Press
+
+advancements.stage0.chestupgrade.title=Storage Upgrade
+advancements.stage0.chestupgrade.description=Ditch your old wooden box and upgrade to a nicer Primal Chest!
+
+advancements.stage0.collectplank.title=On the Chopping Block
+advancements.stage0.collectplank.description=Use a log to craft a Chopping Block. Place a Log or Plank on the chopping block and use an Axe to cut it into Planks or Sticks
+
+advancements.stage0.farmland.title=Teach A Man To Farm
+advancements.stage0.farmland.description=Learn the basics of farming from a Farmer Villager trade by trading for Farmland. Farmland cannot be tilled by a hoe in age zero, you will need to craft and place it near water
+
+advancements.stage0.fiber.title=Fibrous Diet
+advancements.stage0.fiber.description=To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine. Sticks can be found on the floor or by trimming some leaves.
+
+advancements.stage0.fire.title=I HAVE CREATED FIRE
+advancements.stage0.fire.description=Hold a Fire Stick in Each hand and click on a block to create fire
+
+advancements.stage0.firepit.title=Fire!
+advancements.stage0.firepit.description=Use some rocks, twine, and sticks to make a fire pit. Use typical fuel items to light it and insert items to be cooked
+
+advancements.stage0.firstbreak.title=Caveman Hate Tree!
+advancements.stage0.firstbreak.description=Punching trees hurts and you won't get wood from using your hands! Use the appropriate tool
+
+advancements.stage0.firstchest.title=A Place to Put My Stuff"
+advancements.stage0.firstchest.description=Craft some wood together to make a chest for your things
+
+advancements.stage0.firsttool.title=It's Too Dangerous to Go Alone
+advancements.stage0.firsttool.description=Craft a Flint Hatchet so you can cut down trees
+
+advancements.stage0.fish.title=Spear Fishing
+advancements.stage0.fish.description=Use your spear or other tools to fish for a tasty meal!
+
+advancements.stage0.flamehopper.title=Flame Grilled Goodness
+advancements.stage0.flamehopper.description=A hopper that moves items and keeps blocks above it hot
+
+advancements.stage0.flintknapp.title=Flint Sharpening
+advancements.stage0.flintknapp.description=Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point
+
+advancements.stage0.fluidbladder.title=Bladder Than Nothing
+advancements.stage0.fluidbladder.description=No buckets! Use a Fluid Bladder to craft with
+
+advancements.stage0.gear.title=Geared Up For Ratios
+advancements.stage0.gear.description=Use your knowledge of the wheel to make a gear!
+
+advancements.stage0.grill.title=§4§lHot Grill!
+advancements.stage0.grill.description=Upgrade your firepit with something a bit more grate. The grill needs a heatsource below it such as a fire to properly cook
+
+advancements.stage0.handgrind.title=Grind It
+advancements.stage0.handgrind.description=The Hand Grindstone isn't quick by any means, but it will let you grind stuff up easily
+
+advancements.stage0.horsechopper.title=Chop! Chop! Chop!
+advancements.stage0.horsechopper.description=No more chopping wood by hand! Place a Horse Power Chopper, attach a Horse using a lead, and insert items to automatically chop
+
+advancements.stage0.horsepower.title=Horse Power!
+advancements.stage0.horsepower.description=Craft a Horse Power Grindstone and attach a horse using a lead to automate item grinding. Among Horses you can use  Parrots, Buffalo, Pigs, Cows, Llamas, and Wolves to work
+
+advancements.stage0.kiln.title=Cook It Up
+advancements.stage0.kiln.description=Use Clay Balls and a Cobblestone Slab to craft a Kiln. Once placed, you'll need to fire the kiln using a heat source below. Once it's fired it can cook items
+
+advancements.stage0.lead.title=You'll Make a Great Lead-er
+advancements.stage0.lead.description=Acquire a lead to herd animals
+
+advancements.stage0.leather.title=Leather, Rinse, Repeat
+advancements.stage0.leather.description=Acquire Leather!
+
+advancements.stage0.lowgradecharcoal.title=Forever Fire
+advancements.stage0.lowgradecharcoal.description=Low Grade Charcoal blocks are a great source of Charcoal and you can light a fire on top that will never go out
+
+advancements.stage0.mat.title=Bed Boys, Bed Boys
+advancements.stage0.mat.description=The Sleeping Mat will allow you to sleep on the go! Make sure to set the correct mode for whether or not you'd like to set your spawn while sleeping
+
+advancements.stage0.melter.title=Let's Get Down and Melty
+advancements.stage0.melter.description=Craft a Melter to begin smelting down ores. It will need the matching heater below to work properly
+
+advancements.stage0.melterbase.title=Ace of Melter Base
+advancements.stage0.melterbase.description=You don't have liquid fuel so try solid ones! Craft a Heater to get started. Note, you'll need to match the Melter and Heater types for them to work together. Porcelain will not match the seared version
+
+advancements.stage0.mesh.title=Mesh Your Flint
+advancements.stage0.mesh.description=Flint won't drop from breaking gravel. Use the Grass Fiber Mesh in a crafting grid with Gravel to obtain flint consistently
+
+advancements.stage0.mill.title=Quit Millin' Around
+advancements.stage0.mill.description=It's Mill-er time. Craft the Millstone from Better With Mods
+
+advancements.stage0.naturescompass.title=Dude Where's My Biome?
+advancements.stage0.naturescompass.description=You'll need to seek out Darkland Biomes to continue your journey. Use the Nature's Compass to locate the nearest biome
+
+advancements.stage0.root.title=SevTech: Ages Tutorial
+advancements.stage0.root.description=Welcome to SevTech: Ages! To complete the tutorial complete the advancement to craft a Work Stump to move into Age Zero
+
+advancements.stage0.saddle.title=Don't Saddle For Anything Less
+advancements.stage0.saddle.description=Gotta Go Fast! Use a Saddle to travel around much faster
+
+advancements.stage0.saltflats.title=reSalt of Your Labors
+advancements.stage0.saltflats.description=Find Salt in Dry Biomes or Riverbeds. You'll need it for food and curing hide
+
+advancements.stage0.spear.title=Spearmint
+advancements.stage0.spear.description=Craft a spear for fishing and ranged combat
+
+advancements.stage0.stonetools.title=Stone Age!
+advancements.stage0.stonetools.description=Craft a Stone Pickaxe to upgrade your aresenal
+
+advancements.stage0.tipi.title=Out of the Weather
+advancements.stage0.tipi.description=Need a place to sleep at home? Craft a Tipi!
+
+advancements.stage0.tomahawk.title=Free Range Hawks
+advancements.stage0.tomahawk.description=Craft a Tomahawk to use a ranged weapon. Note, the recipe needs 1 Flaked Flint Point
+
+advancements.stage0.totemic.title=Shake, Rattle, and Roll
+advancements.stage0.totemic.description=Craft the Rattle, Flute, and Drum needed for Totemic Ceremonies. This advancement will give you a Totempedia. Consult the book for how to perform Totemic Ceremonies and other information
+
+advancements.stage0.upgrade.title=Upgrade!
+advancements.stage0.upgrade.description=Upgrade to a Flint Pickaxe!
+
+advancements.stage0.waterstrainer.title=This is Getting Strainuous
+advancements.stage0.waterstrainer.description=If you cannot locate certain resources from under water, use a Water Strainer Base and insert a Strainer. Each Strainer type has a different loot table. Make sure to check them out! You'll need to craft the Strainer Base and a Dense Survivalist's Strainer to complete the advancement
+
+advancements.stage0.weaponize.title=It's Business Time
+advancements.stage0.weaponize.description=Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone
+
+advancements.stage0.wheel.title=§5§lThe Wheels on the Bus
+advancements.stage0.wheel.description=Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts
+
+advancements.stage0.woodenbarrel.title=Barrel of Vadis
+advancements.stage0.woodenbarrel.description=Craft a Primal Core Wooden Barrel to hold liquids
+
+advancements.stage0.woodhopper1.title=Have It Your Way
+advancements.stage0.woodhopper1.description=Craft a Wooden Hopper to route your items automatically
+
+advancements.stage0.woodhopper2.title=Supersize It!
+advancements.stage0.woodhopper2.description=Is your current Wooden Hopper not cutting it? Craft a Wopper Mk2 to add more functionality!
+
+advancements.stage0.workblade.title=Working for the Weekend
+advancements.stage0.workblade.description=If you want to work, you'll need a work blade. Among many other uses, you may use it to break leaves and rushes quickly
+
+advancements.stage0.workstump.title=I'm Stumped!
+advancements.stage0.workstump.description=No crafting tables yet! Use a Work Stump instead. To craft the items, place them on the table in the correct pattern and use a Crafting Rock to right-click the recipe into existence. When you're finished place the rock in its home at the front of the table

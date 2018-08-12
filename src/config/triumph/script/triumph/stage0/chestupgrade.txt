@@ -1,8 +1,8 @@
-setTitle("Storage Upgrade")
+setTranslatedTitle("Storage Upgrade")
 
-setIcon("primalchests:primal_chest_advanced")
+setIcon("advancements.stage0.chestupgrade.title")
 
-setDescription("Ditch your old wooden box and upgrade to a nicer Primal Chest!")
+setTranslatedDescription("advancements.stage0.chestupgrade.description")
 
 addParent("triumph:stage0/firstchest")
 setRequiresParents()

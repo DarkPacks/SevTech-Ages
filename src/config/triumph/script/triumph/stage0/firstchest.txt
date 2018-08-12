@@ -1,8 +1,8 @@
-setTitle("A Place to Put My Stuff")
+setTranslatedTitle("advancements.stage0.firstchest.title")
 
 setIcon("immcraft:chest")
 
-setDescription("Craft some wood together to make a chest for your things")
+setTranslatedDescription("advancements.stage0.firstchest.description")
 
 addParent("triumph:stage0/workstump")
 setRequiresParents()

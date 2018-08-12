@@ -1,8 +1,8 @@
-setTitle("Free Range Hawks")
+setTranslatedTitle("advancements.stage0.tomahawk.title")
 
 setIcon("progressiontweaks:tomahawk")
 
-setDescription("Craft a Tomahawk to use a ranged weapon. Note, the recipe needs 1 Flaked Flint Point")
+setTranslatedDescription("advancements.stage0.tomahawk.description")
 
 addParent("triumph:stage0/weaponize")
 setRequiresParents()

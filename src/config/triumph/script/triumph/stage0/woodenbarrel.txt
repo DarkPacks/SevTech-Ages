@@ -1,8 +1,8 @@
-setTitle("Barrel of Vadis")
+setTranslatedTitle("advancements.stage0.woodenbarrel.title")
 
 setIcon("primal:barrel")
 
-setDescription("Craft a Primal Core Wooden Barrel to hold liquids")
+setTranslatedDescription("advancements.stage0.woodenbarrel.description")
 
 addParent("triumph:stage0/fluidbladder")
 setRequiresParents()

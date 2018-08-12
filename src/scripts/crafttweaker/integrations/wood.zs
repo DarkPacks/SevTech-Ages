@@ -10,6 +10,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+import mods.betterwithmods.Kiln;
 import mods.betterwithmods.Saw;
 import mods.primaltech.WaterSaw;
 
@@ -196,6 +197,10 @@ function init() {
 				Saw.builder()
 					.buildRecipe(log, [plank * 6, <ore:dustWood>.firstItem * 2])
 					.setInputBlockDrop(logItem as IItemStack)
+					.build();
+				Kiln.builder()
+					.buildRecipe(log, [<primal_tech:charcoal_block>])
+					.setHeat(2)
 					.build();
 
 				// Mekanism

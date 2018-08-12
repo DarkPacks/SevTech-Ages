@@ -208,4 +208,11 @@ function init() {
 	for log in logsToRemove {
 		mekanism.removeSawmill(log);
 	}
+
+	// Better stick recipes. (Lower tech recipe to use slabs to convert to sticks before players unlock higher tech)
+	for slab in <ore:slabWood>.items {
+		Saw.builder()
+			.buildRecipe(slab, [<minecraft:stick> * 4])
+			.build();
+	}
 }

@@ -1,6 +1,6 @@
-setIcon("extendedcrafting:ender_crafter")
-
 setTitle("Ender Crafter")
+
+setIcon("extendedcrafting:ender_crafter")
 
 setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafting")
 

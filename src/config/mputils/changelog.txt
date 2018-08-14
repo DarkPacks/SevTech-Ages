@@ -54,6 +54,7 @@ should not be repairable anyways using this method. (#2925)
 * Added missing recipes for some power inputs for MM (#3090)
 * Fixed inconsistent recipe for VC frame upgrades (#2568)
 * Fixed raw pigman pelt processing recipe (#2912)
+* Fixed Content Tweaker ores only working in quartz grindstone (#3147)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

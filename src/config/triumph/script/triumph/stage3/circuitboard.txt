@@ -1,8 +1,8 @@
-setTitle("I'm Board")
+setTranslatedTitle("advancements.stage3.circuitboard.title")
 
 setIcon("immersiveengineering:material", 27)
 
-setDescription("Use the Engineer's Workbench to craft a Circuit Board")
+setTranslatedDescription("advancements.stage3.circuitboard.description")
 
 addParent("triumph:stage3/vacuumtube")
 setRequiresParents()

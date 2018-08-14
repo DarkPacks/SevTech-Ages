@@ -1,8 +1,8 @@
-setTitle("Storage Drawer Controller")
+setTranslatedTitle("advancements.stage3.drawercontroller.title")
 
 setIcon("storagedrawers:controller")
 
-setDescription("The Storage Drawer Controller allows you to turn your drawers into a network")
+setTranslatedDescription("advancements.stage3.drawercontroller.description")
 
 addParent("triumph:stage3/workbench")
 setRequiresParents()

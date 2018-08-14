@@ -1,8 +1,8 @@
-setTitle("Windmill!")
+setTranslatedTitle("advancements.stage3.windmill.title")
 
 setIcon("immersiveengineering:wooden_device1", 1)
 
-setDescription("Craft and connect a Windmill to a Kinetic Dynamo to provide power from wind")
+setTranslatedDescription("advancements.stage3.windmill.description")
 
 addParent("triumph:stage3/creosote")
 setRequiresParents()

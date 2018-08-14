@@ -1,8 +1,8 @@
-setTitle("Galgadorian Metal")
+setTranslatedTitle("advancements.stage3.galgadorian.title")
 
 setIcon("stevescarts:modulecomponents", 49)
 
-setDescription("Collect an Enhanced Galgadorian Ingot to further upgrade your infrastructure")
+setTranslatedDescription("advancements.stage3.galgadorian.description")
 
 addParent("triumph:stage3/standardhull")
 setRequiresParents()

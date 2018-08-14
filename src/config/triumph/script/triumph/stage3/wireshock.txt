@@ -1,8 +1,8 @@
-setTitle("A Dire Shock")
+setTranslatedTitle("advancements.stage3.wireshock.title")
 
 setIcon("immersiveengineering:wirecoil", 6)
 
-setDescription("A DireWire installation can lead to a lot of shocking. So you can now insulate your wires. §oBut it won't solve the DireWire install.")
+setTranslatedDescription("advancements.stage3.wireshock.description")
 
 addParent("triumph:stage3/wire")
 setRequiresParents()

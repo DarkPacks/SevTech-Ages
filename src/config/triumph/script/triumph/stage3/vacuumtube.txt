@@ -1,8 +1,8 @@
-setTitle("Vacuum Tube")
+setTranslatedTitle("advancements.stage3.vacuumtube.title")
 
 setIcon("immersiveengineering:material", 26)
 
-setDescription("Craft a Vacuum Tube in the Engineer's Workbench")
+setTranslatedDescription("advancements.stage3.vacuumtube.description")
 
 addParent("triumph:stage3/workbench")
 setRequiresParents()

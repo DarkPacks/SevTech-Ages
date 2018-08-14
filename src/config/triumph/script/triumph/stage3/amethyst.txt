@@ -1,8 +1,8 @@
-setTitle("Nether Amethyst Ore")
+setTranslatedTitle("advancements.stage3.amethyst.title")
 
 setIcon("nex:amethyst_crystal")
 
-setDescription("A rare gem found in the Nether. Can be located using the Age 3 and above Prospectors")
+setTranslatedDescription("advancements.stage3.amethyst.description")
 
 addParent("triumph:stage3/nether")
 setRequiresParents()

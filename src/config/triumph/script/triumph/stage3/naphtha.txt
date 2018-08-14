@@ -1,8 +1,8 @@
-setTitle("Distillation")
+setTranslatedTitle("advancements.stage3.naphtha.title")
 
 setIcon("forge:bucketfilled", 0, {FluidName:"naphtha",Amount:1000})
 
-setDescription("Now that you have extracted Oil, build an Immersive Petroleum Distillation Tower to process Oil into Naphtha and Diesel and grab a bucket of each to complete the advancement")
+setTranslatedDescription("advancements.stage3.naphtha.description")
 
 addParent("triumph:stage3/crudeoil")
 setRequiresParents()

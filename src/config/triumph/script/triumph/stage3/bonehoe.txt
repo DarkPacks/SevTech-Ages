@@ -1,8 +1,8 @@
-setTitle("Nether Tools")
+setTranslatedTitle("advancements.stage3.bonehoe.title")
 
 setIcon("nex:golden_wither_bone_hoe")
 
-setDescription("Use the Bone Hoe to till dirt and also for Tilled Soul Sand")
+setTranslatedDescription("advancements.stage3.bonehoe.description")
 
 addParent("triumph:stage3/netherwart")
 setRequiresParents()

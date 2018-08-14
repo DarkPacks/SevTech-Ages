@@ -1,8 +1,8 @@
-setTitle("Extended Crafting: Gold")
+setTranslatedTitle("advancements.stage3.extendedcrafting1.title")
 
 setIcon("extendedcrafting:table_advanced")
 
-setDescription("Craft the Advanced Crafting Table from Extended Crafting for more complex recipes")
+setTranslatedDescription("advancements.stage3.extendedcrafting1.description")
 
 addParent("triumph:stage3/nether")
 setRequiresParents()

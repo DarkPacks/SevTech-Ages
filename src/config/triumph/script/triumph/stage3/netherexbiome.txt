@@ -1,8 +1,8 @@
-setTitle("The Nether Has Frozen Over")
+setTranslatedTitle("advancements.stage3.netherexbiome.title")
 
 setIcon("nex:frostburn_ice")
 
-setDescription("Locate and enter the Arctic Abyss Biome")
+setTranslatedDescription("advancements.stage3.netherexbiome.description")
 
 addParent("triumph:stage3/nether")
 setRequiresParents()

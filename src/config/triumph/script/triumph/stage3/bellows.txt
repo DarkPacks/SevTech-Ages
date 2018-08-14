@@ -1,8 +1,8 @@
-setTitle("Bellows")
+setTranslatedTitle("advancements.stage3.bellows.title")
 
 setIcon("betterwithmods:bellows")
 
-setDescription("Craft and mechanically power the Bellows to Stoke your Better With Mods Hibachi Fire")
+setTranslatedDescription("advancements.stage3.bellows.description")
 
 addParent("triumph:stage3/hibachi")
 setRequiresParents()

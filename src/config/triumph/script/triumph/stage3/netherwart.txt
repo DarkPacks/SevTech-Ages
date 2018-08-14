@@ -1,8 +1,8 @@
-setTitle("Nether Wart")
+setTranslatedTitle("advancements.stage3.netherwart.title")
 
 setIcon("minecraft:nether_wart", 0)
 
-setDescription("Find and collect Nether Wart. It's most commonly found in Nether Fortresses")
+setTranslatedDescription("advancements.stage3.netherwart.description")
 
 addParent("triumph:stage3/netherexbiome")
 setRequiresParents()

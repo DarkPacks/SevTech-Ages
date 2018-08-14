@@ -1,8 +1,8 @@
-setTitle("Modularity")
+setTranslatedTitle("advancements.stage3.modularmachinery.title")
 
 setIcon("modularmachinery:blockcontroller")
 
-setDescription("The Modular Machinery Controller is the main block needed in every M.M. Machine. Check the Blueprint recipes for how to build each structure")
+setTranslatedDescription("advancements.stage3.modularmachinery.description")
 
 addParent("triumph:stage3/circuitboard")
 setRequiresParents()

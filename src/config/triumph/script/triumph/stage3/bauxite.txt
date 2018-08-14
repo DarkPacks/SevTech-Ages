@@ -1,8 +1,8 @@
-setTitle("Bauxite Ore")
+setTranslatedTitle("advancements.stage3.bauxite.title")
 
 setIcon("immersiveengineering:metal", 1)
 
-setDescription("Find a Bauxite surface sample and dig for Aluminum! The ore is located between Y45 and Y70")
+setTranslatedDescription("advancements.stage3.bauxite.description")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

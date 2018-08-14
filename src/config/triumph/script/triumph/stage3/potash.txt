@@ -1,8 +1,8 @@
-setTitle("Potash")
+setTranslatedTitle("advancements.stage3.potash.title")
 
 setIcon("betterwithmods:material", 21)
 
-setDescription("Use Logs, Planks, or Sawdust in a Stoked Cauldron to create Potash")
+setTranslatedDescription("advancements.stage3.potash.description")
 
 addParent("triumph:stage3/bellows")
 setRequiresParents()

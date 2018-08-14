@@ -1,8 +1,8 @@
-setTitle("What's My Biome?")
+setTranslatedTitle("advancements.stage2.biomealyzer.title")
 
 setIcon("infoaccessories:info_accessory", 6)
 
-setDescription("Use a Biomealyzer to learn the name of the biome you're currently in")
+setTranslatedDescription("advancements.stage2.biomealyzer.description")
 
 addParent("triumph:stage2/compass")
 setRequiresParents()

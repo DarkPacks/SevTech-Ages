@@ -1,8 +1,8 @@
-setTitle("Into The Depths")
+setTranslatedTitle("advancements.stage2.depth.title")
 
 setIcon("infoaccessories:info_accessory", 2)
 
-setDescription("Craft a Depth Meter to better monitor your Y level")
+setTranslatedDescription("advancements.stage2.depth.description")
 
 addParent("triumph:stage2/compass")
 setRequiresParents()

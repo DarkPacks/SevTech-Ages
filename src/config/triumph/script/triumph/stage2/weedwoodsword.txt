@@ -1,8 +1,8 @@
-setTitle("The Betweenlands")
+setTranslatedTitle("advancements.stage2.weedwoodsword.title")
 
 setIcon("thebetweenlands:weedwood_sword")
 
-setDescription("Tools brought into the Betweenlands from other dimensions will not be effective. You'll need to craft new tools and weapons to progress. Note, This advancement specifically requires you to craft a Weedwood Sword to complete")
+setTranslatedDescription("advancements.stage2.weedwoodsword.description")
 
 addParent("triumph:stage2/betweenlands")
 

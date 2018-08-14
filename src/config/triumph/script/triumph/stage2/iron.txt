@@ -1,8 +1,8 @@
-setTitle("Iron Sights")
+setTranslatedTitle("advancements.stage2.iron.title")
 
 setIcon("minecraft:iron_ingot")
 
-setDescription("Find a Hematite surface sample and dig for Iron! The ore is located between Y32 and Y60")
+setTranslatedDescription("advancements.stage2.iron.description")
 
 addParent("triumph:stage2/dowsingrod")
 setRequiresParents()

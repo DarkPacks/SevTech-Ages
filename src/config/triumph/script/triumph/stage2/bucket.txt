@@ -1,8 +1,8 @@
-setTitle("They Be Stealin' My Bucket")
+setTranslatedTitle("advancements.stage2.bucket.title")
 
 setIcon("minecraft:bucket")
 
-setDescription("Now that you have acquired Iron, use your smeltery to cast an Iron Bucket")
+setTranslatedDescription("advancements.stage2.bucket.description")
 
 addParent("triumph:stage2/controller")
 setRequiresParents()

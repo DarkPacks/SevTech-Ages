@@ -1,8 +1,8 @@
-setTitle("Top 10 Weirdest Gadgets")
+setTranslatedTitle("advancements.stage2.weird.title")
 
 setIcon("weirdinggadget:weirding_gadget")
 
-setDescription("If you would like a chunk loader, craft a Weirding Gadget and place it down to load a 3x3 area of chunks")
+setTranslatedDescription("advancements.stage2.weird.description")
 
 addParent("triumph:stage2/enderman")
 setRequiresParents()

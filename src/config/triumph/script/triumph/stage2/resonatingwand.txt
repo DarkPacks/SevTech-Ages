@@ -1,8 +1,8 @@
-setTitle("Resonation")
+setTranslatedTitle("advancements.stage2.resonatingwand.title")
 
 setIcon("astralsorcery:itemwand")
 
-setDescription("You'll need a Resonating Wand from Astral Sorcery to continue your journey")
+setTranslatedDescription("advancements.stage2.resonatingwand.description")
 
 addParent("triumph:stage2/enderman")
 setRequiresParents()

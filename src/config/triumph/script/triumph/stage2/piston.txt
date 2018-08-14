@@ -1,8 +1,8 @@
-setTitle("Push It Real Good")
+setTranslatedTitle("advancements.stage2.piston.title")
 
 setIcon("minecraft:piston")
 
-setDescription("Need to push items around?! Find a Piston in the Ur-Ghast Tower located in the Twilight Forest or locate the resources to craft it")
+setTranslatedDescription("advancements.stage2.piston.description")
 
 addParent("triumph:stage2/twilight")
 setRequiresParents()

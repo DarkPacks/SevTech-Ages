@@ -1,8 +1,8 @@
-setTitle("Advanced Mapping")
+setTranslatedTitle("advancements.stage2.mapping.title")
 
 setIcon("minecraft:filled_map")
 
-setDescription("Upgrade your current map to something much more advanced by eating an Iron Apple. Note, this is an early unlock and does not have to be completed. The reward can be granted in a later stage")
+setTranslatedDescription("advancements.stage2.mapping.description")
 
 addParent("triumph:stage2/extendedcraftingbasic")
 setRequiresParents()

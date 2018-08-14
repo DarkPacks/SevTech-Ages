@@ -1,8 +1,8 @@
-setTitle("Casting a Nugget")
+setTranslatedTitle("advancements.stage2.nuggetcast.title")
 
 setIcon("tconstruct:cast_custom", 1)
 
-setDescription("To obtain a Nugget Cast you will need to create a Stone Nugget with a block of Stone on the Stone Anvil")
+setTranslatedDescription("advancements.stage2.nuggetcast.description")
 
 addParent("triumph:stage2/gold")
 setRequiresParents()

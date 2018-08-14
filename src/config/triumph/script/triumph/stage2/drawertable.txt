@@ -1,8 +1,8 @@
-setTitle("A Place for My Things")
+setTranslatedTitle("advancements.stage2.drawertable.title")
 
 setIcon("storagedrawers:framingtable")
 
-setDescription("Use the Framing Table to build a custom Storage Drawers using Framed Drawers and blocks you want as decoration")
+setTranslatedDescription("advancements.stage2.drawertable.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()

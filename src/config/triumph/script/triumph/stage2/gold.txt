@@ -1,8 +1,8 @@
-setTitle("Gold Standard")
+setTranslatedTitle("advancements.stage2.gold.title")
 
 setIcon("minecraft:gold_ingot")
 
-setDescription("Find a Gold surface sample and dig for Gold! The ore is located between Y5 and Y40")
+setTranslatedDescription("advancements.stage2.gold.description")
 
 addParent("triumph:stage2/dowsingrod")
 setRequiresParents()

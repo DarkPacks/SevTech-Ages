@@ -1,8 +1,8 @@
-setTitle("Part Maker")
+setTranslatedTitle("advancements.stage2.tcontable2.title")
 
 setIcon("tconstruct:tooltables", 1)
 
-setDescription("You can start working on replacing your tools by crafting a Stencil Table and Part Builder")
+setTranslatedDescription("advancements.stage2.tcontable2.description")
 
 addParent("triumph:stage2/tcontable1")
 setRequiresParents()

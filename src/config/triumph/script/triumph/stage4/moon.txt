@@ -1,8 +1,8 @@
-setTitle("To the Moon!")
+setTranslatedTitle("advancements.stage4.moon.title")
 
 setIcon("chisel:iron", 12)
 
-setDescription("Launch a Rocket and land on the Moon")
+setTranslatedDescription("advancements.stage4.moon.description")
 
 addParent("triumph:stage4/t1rocket")
 setRequiresParents()

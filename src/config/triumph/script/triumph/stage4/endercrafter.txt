@@ -1,8 +1,8 @@
-setTitle("Ender Crafter")
+setTranslatedTitle("advancements.stage4.endercrafter.title")
 
 setIcon("extendedcrafting:ender_crafter")
 
-setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafting")
+setTranslatedDescription("advancements.stage4.endercrafter.description")
 
 addParent("triumph:stage4/enderalloy2")
 setRequiresParents()

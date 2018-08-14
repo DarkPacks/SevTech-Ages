@@ -1,8 +1,8 @@
-setTitle("Pneumatic Iron Ingot")
+setTranslatedTitle("advancements.stage4.compressediron.title")
 
 setIcon("pneumaticcraft:ingot_iron_compressed")
 
-setDescription("Create a Compressed Iron Ingot")
+setTranslatedDescription("advancements.stage4.compressediron.description")
 
 addParent("triumph:stage4/root")
 setRequiresParents()

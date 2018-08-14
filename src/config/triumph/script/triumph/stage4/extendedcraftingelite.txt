@@ -1,8 +1,8 @@
-setTitle("Elite Crafting Table")
+setTranslatedTitle("advancements.stage4.extendedcraftingelite.title")
 
 setIcon("extendedcrafting:table_elite")
 
-setDescription("Some recipes need more space. Craft an Elite Crafting Table to begin")
+setTranslatedDescription("advancements.stage4.extendedcraftingelite.description")
 
 addParent("triumph:stage4/manyullyn")
 setRequiresParents()

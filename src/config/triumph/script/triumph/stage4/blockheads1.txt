@@ -1,8 +1,8 @@
-setTitle("Modern Style Kitchen")
+setTranslatedTitle("advancements.stage4.blockheads1.title")
 
 setIcon("cookingforblockheads:recipe_book", 1)
 
-setDescription("Cooking Food in a furnace is a bit cumbersome, install a new kitchen into your base. Start off with the Cooking for Blockheads I book")
+setTranslatedDescription("advancements.stage4.blockheads1.description")
 
 addParent("triumph:stage4/root")
 setRequiresParents()

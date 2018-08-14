@@ -1,8 +1,8 @@
-setTitle("Amadron Delivery")
+setTranslatedTitle("advancements.stage4.amadrontablet.title")
 
 setIcon("pneumaticcraft:amadron_tablet")
 
-setDescription("Fill the Amadron Tablet with air pressure and use it to order items. Make sure to set the pickup and dropoff locations by using Shift Right-Click")
+setTranslatedDescription("advancements.stage4.amadrontablet.description")
 
 addParent("triumph:stage4/plasticmixer")
 setRequiresParents()

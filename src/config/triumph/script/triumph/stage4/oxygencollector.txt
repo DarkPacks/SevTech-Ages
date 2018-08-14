@@ -1,8 +1,8 @@
-setTitle("Oxygen is Included")
+setTranslatedTitle("advancements.stage4.oxygencollector.title")
 
 setIcon("galacticraftcore:collector")
 
-setDescription("To create Galacticraft Fuel, you will need to combine Kerosene and Oxygen in an Immersive Engineering Refinery. Oxygen can initially be collected by the Oxygen Collector")
+setTranslatedDescription("advancements.stage4.oxygencollector.description")
 
 addParent("triumph:stage4/compressor")
 setRequiresParents()

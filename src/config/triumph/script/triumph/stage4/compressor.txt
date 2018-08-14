@@ -1,8 +1,8 @@
-setTitle("Under Pressure")
+setTranslatedTitle("advancements.stage4.compressor.title")
 
 setIcon("galacticraftcore:machine", 12)
 
-setDescription("Craft the Compressor Machine from Galacticraft to create Compressed Plates")
+setTranslatedDescription("advancements.stage4.compressor.description")
 
 addParent("triumph:stage4/enderalloy3")
 setRequiresParents()

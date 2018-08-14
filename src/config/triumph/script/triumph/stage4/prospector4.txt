@@ -1,8 +1,8 @@
-setTitle("Ore Prospector Tier 4")
+setTranslatedTitle("advancements.stage4.prospector4.title")
 
 setIcon("prospectors:prospector_high")
 
-setDescription("Craft the Advanced Prospector to locate Age 4 ores")
+setTranslatedDescription("advancements.stage4.prospector4.description")
 
 addParent("triumph:stage4/root")
 setRequiresParents()

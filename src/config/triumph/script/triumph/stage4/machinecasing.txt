@@ -1,8 +1,8 @@
-setTitle("Machine Casing")
+setTranslatedTitle("advancements.stage4.machinecasing.title")
 
 setIcon("teslacorelib:machine_case")
 
-setDescription("Advanced Machines need more complex casing")
+setTranslatedDescription("advancements.stage4.machinecasing.description")
 
 addParent("triumph:stage4/printedcircuitboard")
 setRequiresParents()

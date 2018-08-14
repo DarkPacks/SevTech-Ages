@@ -1,8 +1,8 @@
-setTitle("Thrusters Are Go")
+setTranslatedTitle("advancements.stage4.launchpad.title")
 
 setIcon("galacticraftcore:landing_pad", 0)
 
-setDescription("To take off, you'll need to place 9 Landing Pads in a 3x3 and then place your rocket on the center pad")
+setTranslatedDescription("advancements.stage4.launchpad.description")
 
 addParent("triumph:stage4/nasaworkbench")
 setRequiresParents()

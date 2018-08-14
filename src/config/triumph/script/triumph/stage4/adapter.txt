@@ -1,8 +1,8 @@
-setTitle("Don't Underestimate My Power")
+setTranslatedTitle("advancements.stage4.adapter.title")
 
 setIcon("poweradapters:mj")
 
-setDescription("When you're unable to transfer energy between different mods, the Power Adapter block can help convert")
+setTranslatedDescription("advancements.stage4.adapter.description")
 
 addParent("triumph:stage4/root")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Enhanced Ender Alloy")
+setTranslatedTitle("advancements.stage4.enderalloy2.title")
 
 setIcon("enderutilities:enderpart", 1)
 
-setDescription("Locate Chorus in the End and use the Fruit to create Enhanced Ender Alloy")
+setTranslatedDescription("advancements.stage4.enderalloy2.description")
 
 addParent("triumph:stage4/theend")
 setRequiresParents()

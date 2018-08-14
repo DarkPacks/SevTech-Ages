@@ -1,8 +1,8 @@
-setTitle("Ultimate Prospector")
+setTranslatedTitle("advancements.stage5.prospectorstage5.title")
 
 setIcon("prospectors:prospector_best", 0)
 
-setDescription("Craft the Ultimate Prospector to search for all ore in the ground")
+setTranslatedDescription("advancements.stage5.prospectorstage5.description")
 
 addParent("triumph:stage5/root")
 setRequiresParents()

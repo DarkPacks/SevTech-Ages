@@ -1,8 +1,8 @@
-setTitle("Locating Desh Ore")
+setTranslatedTitle("advancements.stage5.desh.title")
 
 setIcon("galacticraftplanets:mars", 2)
 
-setDescription("Locate and mine Desh ore on the planet Mars")
+setTranslatedDescription("advancements.stage5.desh.description")
 
 addParent("triumph:stage5/mars")
 setRequiresParents()

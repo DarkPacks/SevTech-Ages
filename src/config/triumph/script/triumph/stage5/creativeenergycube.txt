@@ -1,8 +1,8 @@
-setTitle("Creative Energy Cube")
+setTranslatedTitle("advancements.stage5.creativeenergycube.title")
 
 setIcon("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
 
-setDescription("Craft the Creative Energy Cube from Mekanism")
+setTranslatedDescription("advancements.stage5.creativeenergycube.description")
 
 addParent("triumph:stage5/ultimateingot")
 setRequiresParents()

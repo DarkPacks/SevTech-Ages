@@ -1,8 +1,8 @@
-setTitle("You're a Harry, Wizard")
+setTranslatedTitle("advancements.stage5.spawnerseeker.title")
 
 setIcon("cyclicmagic:ender_dungeon", 0)
 
-setDescription("Finding Dungeons to acquire blueprints can be tough. Craft a Spawner Seeker wand to locate any spawner within a 128 block range")
+setTranslatedDescription("advancements.stage5.spawnerseeker.description")
 
 addParent("triumph:stage5/root")
 setRequiresParents()

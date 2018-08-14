@@ -1,8 +1,8 @@
-setTitle("Creative Modifier")
+setTranslatedTitle("advancements.stage5.creativemodifer.title")
 
 setIcon("tconstruct:materials", 50)
 
-setDescription("Craft the Creative Modifier from Tinker's Construct")
+setTranslatedDescription("advancements.stage5.creativemodifer.description")
 
 addParent("triumph:stage5/ultimateingot")
 setRequiresParents()

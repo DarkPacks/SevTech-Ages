@@ -1,8 +1,8 @@
-setTitle("Sharpest Dressed Man")
+setTranslatedTitle("advancements.stage5.spacesuit4.title")
 
 setIcon("extraplanets:tier4_space_suit_helmet")
 
-setDescription("Craft the full Tier 4 Space Suit to protect you from higher levels of pressure and radiation when going to farther planets")
+setTranslatedDescription("advancements.stage5.spacesuit4.description")
 
 addParent("triumph:stage5/saturn")
 setRequiresParents()

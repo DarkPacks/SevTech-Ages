@@ -1,8 +1,8 @@
-setTitle("Love and Carriage")
+setTranslatedTitle("advancements.stage1.cart.title")
 
 setIcon("astikoor:cargocart")
 
-setDescription("Tired of carrying your stuff around in your pockets? Craft a Cart and attach it to a horse to help carry your things. Shift-click the cart to open its inventory!")
+setTranslatedDescription("advancements.stage1.cart.description")
 
 addParent("triumph:stage0/wheel")
 setRequiresParents()

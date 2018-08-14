@@ -1,8 +1,8 @@
-setTitle("Turning the Tables")
+setTranslatedTitle("advancements.stage1.turntable.title")
 
 setIcon("betterwithmods:single_machine", 3)
 
-setDescription("Craft a Turntable, connect the bottom with Mechanical Power, and place a block on top to begin shaping")
+setTranslatedDescription("advancements.stage1.turntable.description")
 
 addParent("triumph:stage1/gearbox")
 setRequiresParents()

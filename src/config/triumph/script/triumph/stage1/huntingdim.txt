@@ -1,8 +1,8 @@
-setTitle("Hunt or be Hunted")
+setTranslatedTitle("advancements.stage1.huntingdim.title")
 
 setIcon("huntingdim:frame", 0)
 
-setDescription("If you need to find hostile mobs, use the Hunting Dimension. Craft the portal frame just like you would the Nether Portal, light it using a Vanilla Sword and sneak in the portal to enter")
+setTranslatedDescription("advancements.stage1.huntingdim.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()

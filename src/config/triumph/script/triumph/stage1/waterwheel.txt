@@ -1,8 +1,8 @@
-setTitle("Water We Doing")
+setTranslatedTitle("advancements.stage1.waterwheel.title")
 
 setIcon("betterwithmods:axle_generator", 1)
 
-setDescription("Getting started in Mechanical Power will require a source such as the Better With Mods Waterwheel")
+setTranslatedDescription("advancements.stage1.waterwheel.description")
 
 addParent("triumph:stage1/axle")
 setRequiresParents()

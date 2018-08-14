@@ -1,8 +1,8 @@
-setTitle("I Need to Get This Off My Chest")
+setTranslatedTitle("advancements.stage1.chest.title")
 
 setIcon("minecraft:chest")
 
-setDescription("Upgrade your chest")
+setTranslatedDescription("advancements.stage1.chest.description")
 
 addParent("triumph:stage1/crafting")
 setRequiresParents()

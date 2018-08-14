@@ -1,8 +1,8 @@
-setTitle("Locate and mine coal")
+setTranslatedTitle("advancements.stage1.coal.title")
 
 setIcon("minecraft:coal")
 
-setDescription("Find a Coal surface sample and dig for Coal! The ore is located between Y28 and Y78. Note, surface samples will unhide in already explored areas.")
+setTranslatedDescription("advancements.stage1.coal.description")
 
 addParent("triumph:stage1/prospector")
 setRequiresParents()

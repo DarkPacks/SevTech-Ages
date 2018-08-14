@@ -1,13 +1,13 @@
-ï»¿# Stage 0
+# Stage 0
 advancements.stage0.abyssalbiome.title=Enter the Darklands
 advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
 
 
-advancements.stage0.abyssalgem.title=Â§5Â§lDark Gems
+advancements.stage0.abyssalgem.title=§5§lDark Gems
 advancements.stage0.abyssalgem.description=Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems
 
 
-advancements.stage0.atlas.title=Â§1Â§lLost but Now Found
+advancements.stage0.atlas.title=§1§lLost but Now Found
 advancements.stage0.atlas.description=Trade for an Antique Atlas map from a Cartographer or Librarian Villager
 
 
@@ -79,7 +79,7 @@ advancements.stage0.gear.title=Geared Up For Ratios
 advancements.stage0.gear.description=Use your knowledge of the wheel to make a gear!
 
 
-advancements.stage0.grill.title=Â§4Â§lHot Grill!
+advancements.stage0.grill.title=§4§lHot Grill!
 advancements.stage0.grill.description=Upgrade your firepit with something a bit more grate. The grill needs a heatsource below it such as a fire to properly cook
 
 
@@ -179,7 +179,7 @@ advancements.stage0.weaponize.title=It's Business Time
 advancements.stage0.weaponize.description=Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone
 
 
-advancements.stage0.wheel.title=Â§5Â§lThe Wheels on the Bus
+advancements.stage0.wheel.title=§5§lThe Wheels on the Bus
 advancements.stage0.wheel.description=Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts
 
 
@@ -329,7 +329,7 @@ advancements.stage1.root.description=Welcome to the next age! Blocks previously 
 
 
 advancements.stage1.statue.title=Abyssal Trophy Case
-advancements.stage1.statue.description=To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the Â§4Necronomicon Â§7for more information
+advancements.stage1.statue.description=To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the §4Necronomicon §7for more information
 
 
 advancements.stage1.stepup.title=I Don't Want it Anymore!
@@ -723,7 +723,7 @@ advancements.stage3.wire.description=Now you have power, you'll need to transfer
 
 
 advancements.stage3.wireshock.title=A Dire Shock
-advancements.stage3.wireshock.description=A DireWire installation can lead to a lot of shocking. So you can now insulate your wires. Â§oBut it won't solve the DireWire install.
+advancements.stage3.wireshock.description=A DireWire installation can lead to a lot of shocking. So you can now insulate your wires. §oBut it won't solve the DireWire install.
 
 
 advancements.stage3.woodhull.title=Steve's Carts Wooden Hull

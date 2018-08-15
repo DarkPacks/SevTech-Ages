@@ -1,8 +1,8 @@
-setTitle("Age 2")
+setTranslatedTitle("advancements.stage2.root.title")
 
 setIcon("astralsorcery:itemcraftingcomponent", 4)
 
-setDescription("Welcome to the next age!")
+setTranslatedDescription("advancements.stage2.root.description")
 
 setBackground("minecraft:textures/blocks/stonebrick_mossy.png")
 

@@ -1,8 +1,8 @@
-setTitle("Programming the Assembly")
+setTranslatedTitle("advancements.stage4.laserassembly.title")
 
 setIcon("pneumaticcraft:assembly_program", 1)
 
-setDescription("Order an Assembly Program: Laser from your Amadron Tablet")
+setTranslatedDescription("advancements.stage4.laserassembly.description")
 
 addParent("triumph:stage4/amadrontablet")
 setRequiresParents()

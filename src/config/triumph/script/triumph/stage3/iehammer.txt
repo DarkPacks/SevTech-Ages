@@ -1,8 +1,8 @@
-setTitle("Engineer's Hammer")
+setTranslatedTitle("advancements.stage3.iehammer.title")
 
 setIcon("immersiveengineering:tool")
 
-setDescription("Craft an Engineer's Hammer for creating multiblock machines and rotating blocks")
+setTranslatedDescription("advancements.stage3.iehammer.description")
 
 addParent("triumph:stage3/iebook")
 setRequiresParents()

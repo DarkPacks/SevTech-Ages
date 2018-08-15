@@ -1,8 +1,8 @@
-setTitle("Creative Air Compressor")
+setTranslatedTitle("advancements.stage5.creativecompressor.title")
 
 setIcon("pneumaticcraft:creative_compressor")
 
-setDescription("Craft the Creative Air Compressor from Pneumaticraft")
+setTranslatedDescription("advancements.stage5.creativecompressor.description")
 
 addParent("triumph:stage5/ultimateingot")
 setRequiresParents()

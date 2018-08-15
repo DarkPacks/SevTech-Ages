@@ -1,8 +1,8 @@
-setTitle("This Is Going in My Diary")
+setTranslatedTitle("advancements.stage1.journal.title")
 
 setIcon("astralsorcery:itemjournal")
 
-setDescription("Access the knowledge of the stars by crafting the Astral Sorcery Journal. Note, the Astral Sorcery Shrines do not exist in the world. Recipes have been altered to account for this")
+setTranslatedDescription("advancements.stage1.journal.description")
 
 addParent("triumph:stage1/parchment")
 setRequiresParents()

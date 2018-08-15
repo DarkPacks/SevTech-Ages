@@ -1,8 +1,8 @@
-setTitle("Geared Up For Ratios")
+setTranslatedTitle("advancements.stage0.gear.title")
 
 setIcon("betterwithmods:material")
 
-setDescription("Use your knowledge of the wheel to make a gear!")
+setTranslatedDescription("advancements.stage0.gear.description")
 
 addParent("triumph:stage0/wheel")
 setRequiresParents()

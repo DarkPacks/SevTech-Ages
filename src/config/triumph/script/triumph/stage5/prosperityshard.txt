@@ -1,8 +1,8 @@
-setTitle("Prosperity Shard")
+setTranslatedTitle("advancements.stage5.prosperityshard.title")
 
 setIcon("mysticalagriculture:crafting", 5)
 
-setDescription("Prosperity Shards are needed to progress further into Mystical Agriculture. Use the Empowerer to create it")
+setTranslatedDescription("advancements.stage5.prosperityshard.description")
 
 addParent("triumph:stage5/inferiumessence")
 setRequiresParents()

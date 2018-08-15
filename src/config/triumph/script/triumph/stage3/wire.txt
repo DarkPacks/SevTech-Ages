@@ -1,8 +1,8 @@
-setTitle("DireWires")
+setTranslatedTitle("advancements.stage3.wire.title")
 
 setIcon("immersiveengineering:wirecoil")
 
-setDescription("Now you have power, you'll need to transfer it around your base!")
+setTranslatedDescription("advancements.stage3.wire.description")
 
 addParent("triumph:stage3/windmill")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Pressure Chamber")
+setTranslatedTitle("advancements.stage4.pressurechamberwall.title")
 
 setIcon("pneumaticcraft:pressure_chamber_wall")
 
-setDescription("Craft Pressue Chamber Walls and build a Pneumaticraft Pressure Chamber")
+setTranslatedDescription("advancements.stage4.pressurechamberwall.description")
 
 addParent("triumph:stage4/compressediron")
 setRequiresParents()

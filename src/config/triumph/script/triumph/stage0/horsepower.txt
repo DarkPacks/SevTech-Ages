@@ -1,8 +1,8 @@
-setTitle("Horse Power!")
+setTranslatedTitle("advancements.stage0.horsepower.title")
 
 setIcon("horsepower:grindstone")
 
-setDescription("Craft a Horse Power Grindstone and attach a horse using a lead to automate item grinding. Among Horses you can use  Parrots, Buffalo, Pigs, Cows, Llamas, and Wolves to work")
+setTranslatedDescription("advancements.stage0.horsepower.description")
 
 addParent("triumph:stage0/lead")
 setRequiresParents()

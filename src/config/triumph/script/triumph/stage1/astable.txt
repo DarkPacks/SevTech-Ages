@@ -1,8 +1,8 @@
-setTitle("Link to the Stars")
+setTranslatedTitle("advancements.stage1.astable.title")
 
 setIcon("astralsorcery:blockaltar")
 
-setDescription("Complete the ritual to transform a crafting table into the Luminous Crafting Table")
+setTranslatedDescription("advancements.stage1.astable.description")
 
 addParent("triumph:stage1/journal")
 setRequiresParents()

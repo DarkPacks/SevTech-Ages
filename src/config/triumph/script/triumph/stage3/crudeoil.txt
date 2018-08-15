@@ -1,8 +1,8 @@
-setTitle("Drilling for Oil")
+setTranslatedTitle("advancements.stage3.crudeoil.title")
 
 setIcon("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})
 
-setDescription("Use the Core Sample Drill to locate oil in a chunk. Setup an Immersive Petroleum Pumpjack to extract it and grab a bucket of it to complete the advancement")
+setTranslatedDescription("advancements.stage3.crudeoil.description")
 
 addParent("triumph:stage3/sampledrill")
 setRequiresParents()

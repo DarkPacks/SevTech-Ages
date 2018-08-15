@@ -1,8 +1,8 @@
-setTitle("Cinnabar Ore")
+setTranslatedTitle("advancements.stage3.redstone.title")
 
 setIcon("minecraft:redstone")
 
-setDescription("Find a Cinnabar surface sample and dig for Redstone! The ore is located between Y5 and Y12")
+setTranslatedDescription("advancements.stage3.redstone.description")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

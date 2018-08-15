@@ -1,8 +1,8 @@
-setTitle("Fibrous Diet")
+setTranslatedTitle("advancements.stage0.fiber.title")
 
 setIcon("primal:plant_fiber")
 
-setDescription("To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine. Sticks can be found on the floor or by trimming some leaves.")
+setTranslatedDescription("advancements.stage0.fiber.description")
 
 addParent("triumph:stage0/root")
 setRequiresParents()

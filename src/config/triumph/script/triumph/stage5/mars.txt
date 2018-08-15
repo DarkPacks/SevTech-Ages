@@ -1,8 +1,8 @@
-setTitle("The Red Planet")
+setTranslatedTitle("advancements.stage5.mars.title")
 
 setIcon("tconstruct:edible", 3)
 
-setDescription("Launch a Rocket and land on the Mars")
+setTranslatedDescription("advancements.stage5.mars.description")
 
 addParent("triumph:stage5/t2rocket")
 setRequiresParents()

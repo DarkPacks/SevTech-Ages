@@ -1,8 +1,8 @@
-setTitle("Spearmint")
+setTranslatedTitle("advancements.stage0.spear.title")
 
 setIcon("progressiontweaks:spear")
 
-setDescription("Craft a spear for fishing and ranged combat")
+setTranslatedDescription("advancements.stage0.spear.description")
 
 addParent("triumph:stage0/weaponize")
 setRequiresParents()

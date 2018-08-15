@@ -1,8 +1,8 @@
-setTitle("Upgrade Your Prospects")
+setTranslatedTitle("advancements.stage2.dowsingrod.title")
 
 setIcon("prospectors:prospector_low")
 
-setDescription("Craft Tough Dowsing Rod to help locate a larger variety of ores. You can use it to find ore within 48 blocks of where you click")
+setTranslatedDescription("advancements.stage2.dowsingrod.description")
 
 addParent("triumph:stage2/glass")
 setRequiresParents()

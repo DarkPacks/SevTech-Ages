@@ -1,8 +1,8 @@
-setTitle("Plasticity")
+setTranslatedTitle("advancements.stage3.plastic.title")
 
 setIcon("industrialforegoing:plastic")
 
-setDescription("The Plastic Molder from Modular Machinery will convert Liquid Plastic into Plastic Sheets useable for a number of new recipes")
+setTranslatedDescription("advancements.stage3.plastic.description")
 
 addParent("triumph:stage3/liquidplastic")
 setRequiresParents()

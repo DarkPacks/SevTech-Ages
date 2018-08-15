@@ -1,8 +1,8 @@
-setTitle("Pipe Me Up Inside")
+setTranslatedTitle("advancements.stage1.dung.title")
 
 setIcon("dungpipe:dung_pipe")
 
-setDescription("Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block")
+setTranslatedDescription("advancements.stage1.dung.description")
 
 addParent("triumph:stage1/claybarrel")
 setRequiresParents()

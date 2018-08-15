@@ -1,8 +1,8 @@
-setTitle("Emerald Jetpack")
+setTranslatedTitle("advancements.stage5.emeraldjetpack.title")
 
 setIcon("ironjetpacks:emerald_jetpack")
 
-setDescription("Craft the Emerald Jetpack")
+setTranslatedDescription("advancements.stage5.emeraldjetpack.description")
 
 addParent("triumph:stage5/diamondjetpack")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Galena Ore")
+setTranslatedTitle("advancements.stage3.silverlead.title")
 
 setIcon("immersiveengineering:metal", 2)
 
-setDescription("Find a Galena surface sample and dig for Silver and Lead! The ore is located between Y16 and Y50")
+setTranslatedDescription("advancements.stage3.silverlead.description")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("It's Too Dangerous to Go Alone")
+setTranslatedTitle("advancements.stage0.firsttool.title")
 
 setIcon("primal:flint_hatchet")
 
-setDescription("Craft a Flint Hatchet so you can cut down trees")
+setTranslatedDescription("advancements.stage0.firsttool.description")
 
 addParent("triumph:stage0/root")
 setRequiresParents()

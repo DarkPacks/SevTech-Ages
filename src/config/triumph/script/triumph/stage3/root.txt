@@ -1,8 +1,8 @@
-setTitle("Age 3")
+setTranslatedTitle("advancements.stage3.root.title")
 
 setIcon("rustic:iron_lantern")
 
-setDescription("Welcome to the next age!")
+setTranslatedDescription("advancements.stage3.root.description")
 
 setBackground("minecraft:textures/blocks/soul_sand.png")
 

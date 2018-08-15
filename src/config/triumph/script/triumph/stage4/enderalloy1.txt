@@ -1,8 +1,8 @@
-setTitle("Ender Alloy")
+setTranslatedTitle("advancements.stage4.enderalloy1.title")
 
 setIcon("enderutilities:enderpart")
 
-setDescription("Defeat the Dragon and mine the Biotite in the End to use in Ender Alloy creation")
+setTranslatedDescription("advancements.stage4.enderalloy1.description")
 
 addParent("triumph:stage4/theend")
 setRequiresParents()

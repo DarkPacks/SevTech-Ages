@@ -1,8 +1,8 @@
-setTitle("Abyssalcrafted")
+setTranslatedTitle("advancements.stage1.necro.title")
 
 setIcon("abyssalcraft:necronomicon")
 
-setDescription("Craft the Necronomicon to guide you through Abyssalcraft")
+setTranslatedDescription("advancements.stage1.necro.description")
 
 addParent("triumph:stage1/bronze")
 setRequiresParents()

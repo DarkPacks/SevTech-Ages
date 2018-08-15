@@ -1,8 +1,8 @@
-setTitle("Steve's Carts Wooden Hull")
+setTranslatedTitle("advancements.stage3.woodhull.title")
 
 setIcon("stevescarts:cartmodule", 37)
 
-setDescription("Craft a Wood Hull to make a very basic Steve's Cart")
+setTranslatedDescription("advancements.stage3.woodhull.description")
 
 addParent("triumph:stage3/stevescartsassembler")
 setRequiresParents()

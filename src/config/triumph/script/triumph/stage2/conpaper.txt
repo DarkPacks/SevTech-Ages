@@ -1,8 +1,8 @@
-setTitle("Filling in the Gaps")
+setTranslatedTitle("advancements.stage2.conpaper.title")
 
 setIcon("astralsorcery:itemconstellationpaper")
 
-setDescription("Acquire Constellation Paper to fill the information in your Astral Sorcery Journal. Right-click while holding the Astral Sorcery Journal to store your Constellation Paper to save space")
+setTranslatedDescription("advancements.stage2.conpaper.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()

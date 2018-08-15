@@ -1,8 +1,8 @@
-setTitle("Spear Fishing")
+setTranslatedTitle("advancements.stage0.fish.title")
 
 setIcon("minecraft:fish")
 
-setDescription("Use your spear or other tools to fish for a tasty meal!")
+setTranslatedDescription("advancements.stage0.fish.description")
 
 addParent("triumph:stage0/spear")
 setRequiresParents()

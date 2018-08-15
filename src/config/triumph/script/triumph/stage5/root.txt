@@ -1,8 +1,8 @@
-setTitle("Age 5")
+setTranslatedTitle("advancements.stage5.root.title")
 
 setIcon("chisel:futura", 2)
 
-setDescription("Welcome to the next age!")
+setTranslatedDescription("advancements.stage5.root.description")
 
 setBackground("chisel:textures/blocks/tyrian/diagonal.png")
 

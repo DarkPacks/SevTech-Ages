@@ -1,8 +1,8 @@
-setTitle("Manyullyn")
+setTranslatedTitle("advancements.stage4.manyullyn.title")
 
 setIcon("tconstruct:metal", 2)
 
-setDescription("Combine Ardite and Cobalt in a Smeltery to create Manyullyn")
+setTranslatedDescription("advancements.stage4.manyullyn.description")
 
 addParent("triumph:stage4/cobalt")
 setRequiresParents()

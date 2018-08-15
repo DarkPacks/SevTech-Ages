@@ -1,8 +1,8 @@
-setTitle("The Moon is Made of Cheese")
+setTranslatedTitle("advancements.stage5.cheese.title")
 
 setIcon("galacticraftcore:cheese_curd", 0)
 
-setDescription("Cheese is a rare ore found only on the Moon. Like all other ore on the moon, Quarries will work to mine it")
+setTranslatedDescription("advancements.stage5.cheese.description")
 
 addParent("triumph:stage5/prospectorstage5")
 setRequiresParents()

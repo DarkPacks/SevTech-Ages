@@ -1,8 +1,8 @@
-setTitle("Refined Storage")
+setTranslatedTitle("advancements.stage4.rsgrid.title")
 
 setIcon("refinedstorage:grid")
 
-setDescription("Craft a Refined Storage Grid and choose your path to Applied Energistics, Refined Storage, or both!")
+setTranslatedDescription("advancements.stage4.rsgrid.description")
 
 addParent("triumph:stage4/inscriber")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Sky Stone")
+setTranslatedTitle("advancements.stage5.skystone.title")
 
 setIcon("appliedenergistics2:smooth_sky_stone_block", 0)
 
-setDescription("Moon Cheese can be further refined into Sky Stone using the Metallurgic Infuser from Mekanism")
+setTranslatedDescription("advancements.stage5.skystone.description")
 
 addParent("triumph:stage5/cheese")
 setRequiresParents()

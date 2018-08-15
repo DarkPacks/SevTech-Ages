@@ -1,8 +1,8 @@
-setTitle("Caveman Hate Tree!")
+setTranslatedTitle("advancements.stage0.firstbreak.title")
 
 setIcon("minecraft:log")
 
-setDescription("Punching trees hurts and you won't get wood from using your hands! Use the appropriate tool")
+setTranslatedDescription("advancements.stage0.firstbreak.description")
 
 addParent("triumph:stage0/firsttool")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Overhead Projector")
+setTranslatedTitle("advancements.stage3.projector.title")
 
 setIcon("immersivepetroleum:schematic", 0)
 
-setDescription("Use a Projector by finding the Immersive Engineering structure you want to make and then craft the manual and projector together. You can use the projector to help build the structure using ghost blocks in the world")
+setTranslatedDescription("advancements.stage3.projector.description")
 
 addParent("triumph:stage3/iebook")
 setRequiresParents()

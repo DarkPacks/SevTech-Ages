@@ -1,8 +1,8 @@
-setTitle("Plumbing the Depths")
+setTranslatedTitle("advancements.stage1.plumbline.title")
 
 setIcon("bibliocraft:plumbline")
 
-setDescription("Use the Plumb Line to discover your Y level")
+setTranslatedDescription("advancements.stage1.plumbline.description")
 
 addParent("triumph:stage1/crafting")
 setRequiresParents()

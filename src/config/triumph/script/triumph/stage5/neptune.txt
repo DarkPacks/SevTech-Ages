@@ -1,8 +1,8 @@
-setTitle("The Neptunians")
+setTranslatedTitle("advancements.stage5.neptune.title")
 
 setIcon("tconstruct:edible", 1)
 
-setDescription("Launch a Rocket and land on Neptune. Collect Neptune Surface Rocks to complete the advancement")
+setTranslatedDescription("advancements.stage5.neptune.description")
 
 addParent("triumph:stage5/saturn")
 setRequiresParents()

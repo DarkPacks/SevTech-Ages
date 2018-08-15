@@ -1,8 +1,8 @@
-setTitle("Platinum Ore")
+setTranslatedTitle("advancements.stage3.platinum.title")
 
 setIcon("contenttweaker:material_part", 37)
 
-setDescription("Find a Platinum surface sample and dig for Platinum! The ore is located between Y3 and Y25")
+setTranslatedDescription("advancements.stage3.platinum.description")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

@@ -1,8 +1,8 @@
-setTitle("Bigger, Better, Faster")
+setTranslatedTitle("advancements.stage5.t2rocket.title")
 
 setIcon("galacticraftplanets:rocket_t2")
 
-setDescription("Build a Tier 2 Rocket to further your exploration range")
+setTranslatedDescription("advancements.stage5.t2rocket.description")
 
 addParent("triumph:stage5/spawnerseeker")
 setRequiresParents()

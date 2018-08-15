@@ -1,8 +1,8 @@
-setTitle("Train-ing with Coal")
+setTranslatedTitle("advancements.stage2.stevescarts.title")
 
 setIcon("stevescarts:cartmodule", 0)
 
-setDescription("You have discovered the power of combustion! Craft a Coal Engine")
+setTranslatedDescription("advancements.stage2.stevescarts.description")
 
 addParent("triumph:stage2/piston")
 setRequiresParents()

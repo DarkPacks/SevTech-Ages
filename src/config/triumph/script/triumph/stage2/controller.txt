@@ -1,8 +1,8 @@
-setTitle("Controlling")
+setTranslatedTitle("advancements.stage2.controller.title")
 
 setIcon("tconstruct:smeltery_controller")
 
-setDescription("If flint or bone tools aren't cutting it any longer, you'll need a Smeltery. After you place all your smeltery blocks place a Smeltery Controller to complete the structure and the advancement")
+setTranslatedDescription("advancements.stage2.controller.description")
 
 addParent("triumph:stage2/betweenlands")
 setRequiresParents()

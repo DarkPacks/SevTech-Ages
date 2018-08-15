@@ -1,0 +1,1012 @@
+﻿# Stage 0
+advancements.stage0.abyssalbiome.title=Enter the Darklands
+advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
+
+
+advancements.stage0.abyssalgem.title=§5§lDark Gems
+advancements.stage0.abyssalgem.description=Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems
+
+
+advancements.stage0.atlas.title=§1§lLost but Now Found
+advancements.stage0.atlas.description=Trade for an Antique Atlas map from a Cartographer or Librarian Villager
+
+
+advancements.stage0.baykok.title=Spooky Boss Battle
+advancements.stage0.baykok.description=Summon the boss Baykok via a Totemic Ceremony and defeat him to acquire his powerful bow and unlock ranged combat early
+
+
+advancements.stage0.buffalo.title=Ancient Animals
+advancements.stage0.buffalo.description=Buffalo provide valuable resources to hunters. Use a Totemic Ceremony to spawn them. Collect their Hide and Teeth. Consult the Totempedia for more information
+
+
+advancements.stage0.charcoal.title=Pressing Your Luck
+advancements.stage0.charcoal.description=Press charcoal into a larger block using the Horse Power Press
+
+
+advancements.stage0.chestupgrade.title=Storage Upgrade
+advancements.stage0.chestupgrade.description=Ditch your old wooden box and upgrade to a nicer Primal Chest!
+
+
+advancements.stage0.collectplank.title=On the Chopping Block
+advancements.stage0.collectplank.description=Use a log to craft a Chopping Block. Place a Log or Plank on the chopping block and use an Axe to cut it into Planks or Sticks
+
+
+advancements.stage0.farmland.title=Teach A Man To Farm
+advancements.stage0.farmland.description=Learn the basics of farming from a Farmer Villager trade by trading for Farmland. Farmland cannot be tilled by a hoe in age zero, you will need to craft and place it near water
+
+
+advancements.stage0.fiber.title=Fibrous Diet
+advancements.stage0.fiber.description=To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine. Sticks can be found on the floor or by trimming some leaves.
+
+
+advancements.stage0.fire.title=I HAVE CREATED FIRE
+advancements.stage0.fire.description=Hold a Fire Stick in Each hand and click on a block to create fire
+
+
+advancements.stage0.firepit.title=Fire!
+advancements.stage0.firepit.description=Use some rocks, twine, and sticks to make a fire pit. Use typical fuel items to light it and insert items to be cooked
+
+
+advancements.stage0.firstbreak.title=Caveman Hate Tree!
+advancements.stage0.firstbreak.description=Punching trees hurts and you won't get wood from using your hands! Use the appropriate tool
+
+
+advancements.stage0.firstchest.title=A Place to Put My Stuff
+advancements.stage0.firstchest.description=Craft some wood together to make a chest for your things
+
+
+advancements.stage0.firsttool.title=It's Too Dangerous to Go Alone
+advancements.stage0.firsttool.description=Craft a Flint Hatchet so you can cut down trees
+
+
+advancements.stage0.fish.title=Spear Fishing
+advancements.stage0.fish.description=Use your spear or other tools to fish for a tasty meal!
+
+
+advancements.stage0.flamehopper.title=Flame Grilled Goodness
+advancements.stage0.flamehopper.description=A hopper that moves items and keeps blocks above it hot
+
+
+advancements.stage0.flintknapp.title=Flint Sharpening
+advancements.stage0.flintknapp.description=Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point
+
+
+advancements.stage0.fluidbladder.title=Bladder Than Nothing
+advancements.stage0.fluidbladder.description=No buckets! Use a Fluid Bladder to craft with
+
+
+advancements.stage0.gear.title=Geared Up For Ratios
+advancements.stage0.gear.description=Use your knowledge of the wheel to make a gear!
+
+
+advancements.stage0.grill.title=§4§lHot Grill!
+advancements.stage0.grill.description=Upgrade your firepit with something a bit more grate. The grill needs a heatsource below it such as a fire to properly cook
+
+
+advancements.stage0.handgrind.title=Grind It
+advancements.stage0.handgrind.description=The Hand Grindstone isn't quick by any means, but it will let you grind stuff up easily
+
+
+advancements.stage0.horsechopper.title=Chop! Chop! Chop!
+advancements.stage0.horsechopper.description=No more chopping wood by hand! Place a Horse Power Chopper, attach a Horse using a lead, and insert items to automatically chop
+
+
+advancements.stage0.horsepower.title=Horse Power!
+advancements.stage0.horsepower.description=Craft a Horse Power Grindstone and attach a horse using a lead to automate item grinding. Among Horses you can use  Parrots, Buffalo, Pigs, Cows, Llamas, and Wolves to work
+
+
+advancements.stage0.kiln.title=Cook It Up
+advancements.stage0.kiln.description=Use Clay Balls and a Cobblestone Slab to craft a Kiln. Once placed, you'll need to fire the kiln using a heat source below. Once it's fired it can cook items
+
+
+advancements.stage0.lead.title=You'll Make a Great Lead-er
+advancements.stage0.lead.description=Acquire a lead to herd animals
+
+
+advancements.stage0.leather.title=Leather, Rinse, Repeat
+advancements.stage0.leather.description=Acquire Leather!
+
+
+advancements.stage0.lowgradecharcoal.title=Forever Fire
+advancements.stage0.lowgradecharcoal.description=Low Grade Charcoal blocks are a great source of Charcoal and you can light a fire on top that will never go out
+
+
+advancements.stage0.mat.title=Bed Boys, Bed Boys
+advancements.stage0.mat.description=The Sleeping Mat will allow you to sleep on the go! Make sure to set the correct mode for whether or not you'd like to set your spawn while sleeping
+
+
+advancements.stage0.melter.title=Let's Get Down and Melty
+advancements.stage0.melter.description=Craft a Melter to begin smelting down ores. It will need the matching heater below to work properly
+
+
+advancements.stage0.melterbase.title=Ace of Melter Base
+advancements.stage0.melterbase.description=You don't have liquid fuel so try solid ones! Craft a Heater to get started. Note, you'll need to match the Melter and Heater types for them to work together. Porcelain will not match the seared version
+
+
+advancements.stage0.mesh.title=Mesh Your Flint
+advancements.stage0.mesh.description=Flint won't drop from breaking gravel. Use the Grass Fiber Mesh in a crafting grid with Gravel to obtain flint consistently
+
+
+advancements.stage0.mill.title=Quit Millin' Around
+advancements.stage0.mill.description=It's Mill-er time. Craft the Millstone from Better With Mods
+
+
+advancements.stage0.naturescompass.title=Dude Where's My Biome?
+advancements.stage0.naturescompass.description=You'll need to seek out Darkland Biomes to continue your journey. Use the Nature's Compass to locate the nearest biome
+
+
+advancements.stage0.root.title=SevTech: Ages Tutorial
+advancements.stage0.root.description=Welcome to SevTech: Ages! To complete the tutorial complete the advancement to craft a Work Stump to move into Age Zero
+
+
+advancements.stage0.saddle.title=Don't Saddle For Anything Less
+advancements.stage0.saddle.description=Gotta Go Fast! Use a Saddle to travel around much faster
+
+
+advancements.stage0.saltflats.title=reSalt of Your Labors
+advancements.stage0.saltflats.description=Find Salt in Dry Biomes or Riverbeds. You'll need it for food and curing hide
+
+
+advancements.stage0.spear.title=Spearmint
+advancements.stage0.spear.description=Craft a spear for fishing and ranged combat
+
+
+advancements.stage0.stonetools.title=Stone Age!
+advancements.stage0.stonetools.description=Craft a Stone Pickaxe to upgrade your aresenal
+
+
+advancements.stage0.tipi.title=Out of the Weather
+advancements.stage0.tipi.description=Need a place to sleep at home? Craft a Tipi!
+
+
+advancements.stage0.tomahawk.title=Free Range Hawks
+advancements.stage0.tomahawk.description=Craft a Tomahawk to use a ranged weapon. Note, the recipe needs 1 Flaked Flint Point
+
+
+advancements.stage0.totemic.title=Shake, Rattle, and Roll
+advancements.stage0.totemic.description=Craft the Rattle, Flute, and Drum needed for Totemic Ceremonies. This advancement will give you a Totempedia. Consult the book for how to perform Totemic Ceremonies and other information
+
+
+advancements.stage0.upgrade.title=Upgrade!
+advancements.stage0.upgrade.description=Upgrade to a Flint Pickaxe!
+
+
+advancements.stage0.waterstrainer.title=This is Getting Strainuous
+advancements.stage0.waterstrainer.description=If you cannot locate certain resources from under water, use a Water Strainer Base and insert a Strainer. Each Strainer type has a different loot table. Make sure to check them out! You'll need to craft the Strainer Base and a Dense Survivalist's Strainer to complete the advancement
+
+
+advancements.stage0.weaponize.title=It's Business Time
+advancements.stage0.weaponize.description=Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone
+
+
+advancements.stage0.wheel.title=§5§lThe Wheels on the Bus
+advancements.stage0.wheel.description=Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts
+
+
+advancements.stage0.woodenbarrel.title=Barrel of Vadis
+advancements.stage0.woodenbarrel.description=Craft a Primal Core Wooden Barrel to hold liquids
+
+
+advancements.stage0.woodhopper1.title=Have It Your Way
+advancements.stage0.woodhopper1.description=Craft a Wooden Hopper to route your items automatically
+
+
+advancements.stage0.woodhopper2.title=Supersize It!
+advancements.stage0.woodhopper2.description=Is your current Wooden Hopper not cutting it? Craft a Wopper Mk2 to add more functionality!
+
+
+advancements.stage0.workblade.title=Working for the Weekend
+advancements.stage0.workblade.description=If you want to work, you'll need a work blade. Among many other uses, you may use it to break leaves and rushes quickly
+
+
+advancements.stage0.workstump.title=I'm Stumped!
+advancements.stage0.workstump.description=No crafting tables yet! Use a Work Stump instead. To craft the items, place them on the table in the correct pattern and use a Crafting Rock to right-click the recipe into existence. When you're finished place the rock in its home at the front of the table
+
+
+# Stage 1
+advancements.stage1.alloykiln.title=All Mixed Up
+advancements.stage1.alloykiln.description=Build the Alloy Kiln from Immersive Engineering to create bronze. You'll need 8 Kiln bricks in a 2x2x2 and Right-Click with the Engineer's Hammer to create the structure
+
+
+advancements.stage1.aquamarine.title=The Search for Aquamarine
+advancements.stage1.aquamarine.description=Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore
+
+
+advancements.stage1.aqueduct.title=Aqueducts
+advancements.stage1.aqueduct.description=Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape. Note, This advancement requires that you place the block to complete
+
+
+advancements.stage1.astable.title=Link to the Stars
+advancements.stage1.astable.description=Complete the ritual to transform a crafting table into the Luminous Crafting Table
+
+
+advancements.stage1.axle.title=Axle F
+advancements.stage1.axle.description=Mechanical Power needs to be routed using an Axle. You can connect them directly to Waterwheels and Wind Mills or Gearboxes. You can have no more than 3 Axles between each Gearbox or Source
+
+
+advancements.stage1.beneath.title=The Beneath
+advancements.stage1.beneath.description=Use an Abyssalcraft Ritual to create the Beneath teleporter. Remember to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension
+
+
+advancements.stage1.blackquartz.title=Par for the Quartz
+advancements.stage1.blackquartz.description=Travel to the bottom of the Beneath dimension to find Black Quartz
+
+
+advancements.stage1.bloodaltar.title=Altered State
+advancements.stage1.bloodaltar.description=Capture Demonic Will to build a Blood Altar
+
+
+advancements.stage1.bronze.title=Brains Over Bronze
+advancements.stage1.bronze.description=Use the Alloy Kiln to produce Bronze Ingots
+
+
+advancements.stage1.bucket.title=Bucket List
+advancements.stage1.bucket.description=Use the Turntable to shape a clay bucket and cook it in the Kiln
+
+
+advancements.stage1.cart.title=Love and Carriage
+advancements.stage1.cart.description=Tired of carrying your stuff around in your pockets? Craft a Cart and attach it to a horse to help carry your things. Shift-click the cart to open its inventory!
+
+
+advancements.stage1.chest.title=I Need to Get This Off My Chest
+advancements.stage1.chest.description=Upgrade your chest
+
+
+advancements.stage1.claybarrel.title=Bottom of the Barrel
+advancements.stage1.claybarrel.description=Clay barrels can hold fluids, such as water or liquid metals
+
+
+advancements.stage1.coal.title=Locate and mine coal
+advancements.stage1.coal.description=Find a Coal surface sample and dig for Coal! The ore is located between Y28 and Y78. Note, surface samples will unhide in already explored areas.
+
+
+advancements.stage1.copper.title=Get To The Copper
+advancements.stage1.copper.description=Find a Malachite or Azurite surface sample and dig for Copper! The ore is located between Y12 and Y52. Note, surface samples will unhide in already explored areas.
+
+
+advancements.stage1.crafting.title=Upgrade your crafting
+advancements.stage1.crafting.description=Craft a regular table
+
+
+advancements.stage1.dung.title=Pipe Me Up Inside
+advancements.stage1.dung.description=Use a Dung Pipe to pull items out of a block or use a Sewer Pipe to pull through solid block
+
+
+advancements.stage1.extension.title=Extensions
+advancements.stage1.extension.description=Craft a Barrel Extension and place it on top of a Barrel to increase the amount of liquid it can hold
+
+
+advancements.stage1.furnace.title=It's Getting Hot in Here
+advancements.stage1.furnace.description=Light up your life with a new furnace
+
+
+advancements.stage1.gearbox.title=Grinding Your Gears
+advancements.stage1.gearbox.description=The Gearbox allows you to extend the reach of your Mechanical Power, Shift+Right Click a side to move the input/outputs. A powered Axle must go into the side with a cross on it
+
+
+advancements.stage1.hoe.title=Can We Hoe It?!
+advancements.stage1.hoe.description=Craft a Hoe to begin farming more efficiently
+
+
+advancements.stage1.huntingdim.title=Hunt or be Hunted
+advancements.stage1.huntingdim.description=If you need to find hostile mobs, use the Hunting Dimension. Craft the portal frame just like you would the Nether Portal, light it using a Vanilla Sword and sneak in the portal to enter
+
+
+advancements.stage1.journal.title=This Is Going in My Diary
+advancements.stage1.journal.description=Access the knowledge of the stars by crafting the Astral Sorcery Journal. Note, the Astral Sorcery Shrines do not exist in the world. Recipes have been altered to account for this
+
+
+advancements.stage1.leafbed.title=Crunchy Pillows
+advancements.stage1.leafbed.description=Is your current sleeping situation not good enough? Throw some leaves on top of hay to make a Leaf Bed!
+
+
+advancements.stage1.necro.title=Abyssalcrafted
+advancements.stage1.necro.description=Craft the Necronomicon to guide you through Abyssalcraft
+
+
+advancements.stage1.parchment.title=Something to Write On
+advancements.stage1.parchment.description=Begin keeping records of your knowledge on Parchment. It requires the bark from Mulberry trees which spawn out in the world
+
+
+advancements.stage1.parrot.title=I Can't Find a Jungle?!
+advancements.stage1.parrot.description=Consult the Necromicon Normal Rituals section to discover how to summon a Parrot and tame it using seeds to complete the Advancement. Or just go find a Jungle
+
+
+advancements.stage1.pedestal.title=Pedestalling for Time
+advancements.stage1.pedestal.description=To charge your Necronomicon you can either stand in range of Statues holding the book, or craft a Pedestal to place the book on. Make sure the statues are 3 blocks from the Pedestal and at the same height
+
+
+advancements.stage1.plumbline.title=Plumbing the Depths
+advancements.stage1.plumbline.description=Use the Plumb Line to discover your Y level
+
+
+advancements.stage1.prospector.title=Prospecting
+advancements.stage1.prospector.description=Craft a Weak Dowsing Rod to help you locate ore
+
+
+advancements.stage1.root.title=Welcome to Age 1
+advancements.stage1.root.description=Welcome to the next age! Blocks previously hidden will now become visible, such as ore samples and others
+
+
+advancements.stage1.statue.title=Abyssal Trophy Case
+advancements.stage1.statue.description=To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the §4Necronomicon §7for more information
+
+
+advancements.stage1.stepup.title=I Don't Want it Anymore!
+advancements.stage1.stepup.description=Now that you are traveling less, you can use the Blood Altar to create an Apple of Lofty Stature which will remove your step-up abilities.
+
+
+advancements.stage1.stoneanvil.title=Anvil Lavigne
+advancements.stage1.stoneanvil.description=Need plates? Smash some ingots with a mallet on the Stone Anvil
+
+
+advancements.stage1.tchannel.title=Follow My Channel Plz
+advancements.stage1.tchannel.description=A Channel is a great way to transport liquids from tanks and other sources. When placing down the Channel, follow the arrow on top and Right Click to change directions/disconnect/etc. Pour liquids onto the channel using a normal or porcelain Faucet
+
+
+advancements.stage1.tin.title=Error 404: Heart Not Found
+advancements.stage1.tin.description=Find a Cassiterite or Teallite surface sample and dig for Tin! The ore is located between Y8 and Y68. Note, surface samples will unhide in already explored areas.
+
+
+advancements.stage1.turntable.title=Turning the Tables
+advancements.stage1.turntable.description=Craft a Turntable, connect the bottom with Mechanical Power, and place a block on top to begin shaping
+
+
+advancements.stage1.waterwheel.title=Water We Doing
+advancements.stage1.waterwheel.description=Getting started in Mechanical Power will require a source such as the Better With Mods Waterwheel
+
+
+advancements.stage1.woodbasin.title=Stirring the Pot
+advancements.stage1.woodbasin.description=Looking for a more efficient way to make leather or dough? Craft the Wooden Basin, fill it with the correct liquid and items, then stir!
+
+
+# Stage 2
+advancements.stage2.astable2.title=Starlight Upgrade
+advancements.stage2.astable2.description=Upgrade the Luminous table the next tier. Aside from the table, you'll need to construct a structure to begin the crafting process. Consult the Astral Sorcery Journal's Exploration section
+
+
+advancements.stage2.betweenlands.title=The Betweenlands
+advancements.stage2.betweenlands.description=Locate a Druid Circle in Swamp Biome, kill the druids, and use their talisman pieces to create the Swamp Talisman. Click the Talisman on a placed Sapling to create the large portal to the Betweenlands
+
+
+advancements.stage2.biomealyzer.title=What's My Biome?
+advancements.stage2.biomealyzer.description=Use a Biomealyzer to learn the name of the biome you're currently in
+
+
+advancements.stage2.bucket.title=They Be Stealin' My Bucket
+advancements.stage2.bucket.description=Now that you have acquired Iron, use your smeltery to cast an Iron Bucket
+
+
+advancements.stage2.carminitereactor.title=Reactor Idle
+advancements.stage2.carminitereactor.description=You are going to need a Carminite Reactor to create your first engine. Locate the Reactor either by searching the Ur-Ghast Tower in the Twilight Forest or by crafting using resource found in the Twilight
+
+
+advancements.stage2.compass.title=Get Lost, Oh Wait...
+advancements.stage2.compass.description=A Compass will help you determine your X and Z coordinates
+
+
+advancements.stage2.conpaper.title=Filling in the Gaps
+advancements.stage2.conpaper.description=Acquire Constellation Paper to fill the information in your Astral Sorcery Journal. Right-click while holding the Astral Sorcery Journal to store your Constellation Paper to save space
+
+
+advancements.stage2.controller.title=Controlling
+advancements.stage2.controller.description=If flint or bone tools aren't cutting it any longer, you'll need a Smeltery. After you place all your smeltery blocks place a Smeltery Controller to complete the structure and the advancement
+
+
+advancements.stage2.depth.title=Into The Depths
+advancements.stage2.depth.description=Craft a Depth Meter to better monitor your Y level
+
+
+advancements.stage2.dowsingrod.title=Upgrade Your Prospects
+advancements.stage2.dowsingrod.description=Craft Tough Dowsing Rod to help locate a larger variety of ores. You can use it to find ore within 48 blocks of where you click
+
+
+advancements.stage2.drawertable.title=A Place for My Things
+advancements.stage2.drawertable.description=Use the Framing Table to build a custom Storage Drawers using Framed Drawers and blocks you want as decoration
+
+
+advancements.stage2.enderman.title=Defeat the Endermenace!
+advancements.stage2.enderman.description=Endermen have begun spawning in the world, slay them to obtain their Ender Dust
+
+
+advancements.stage2.extendedcraftingbasic.title=Extended Crafting: Iron
+advancements.stage2.extendedcraftingbasic.description=Craft the Basic Crafting Table from Extended Crafting for more complex recipes
+
+
+advancements.stage2.glass.title=Glass Blowing
+advancements.stage2.glass.description=Create glass by first melting Sand in the Melter or Smeltery and pouring it into a basin
+
+
+advancements.stage2.gold.title=Gold Standard
+advancements.stage2.gold.description=Find a Gold surface sample and dig for Gold! The ore is located between Y5 and Y40
+
+
+advancements.stage2.iron.title=Iron Sights
+advancements.stage2.iron.description=Find a Hematite surface sample and dig for Iron! The ore is located between Y32 and Y60
+
+
+advancements.stage2.lapis.title=Roses are Red, Lapis is Blue
+advancements.stage2.lapis.description=Find a Lapis surface sample and dig for Lapis! The ore is located between Y10 and Y38
+
+
+advancements.stage2.lightwell.title=Liquify
+advancements.stage2.lightwell.description=The Lightwell from Astral Sorcery will allow certain items to be liquefied into Liquid Starlight
+
+
+advancements.stage2.mapping.title=Advanced Mapping
+advancements.stage2.mapping.description=Upgrade your current map to something much more advanced by eating an Iron Apple. Note, this is an early unlock and does not have to be completed. The reward can be granted in a later stage
+
+
+advancements.stage2.market.title=The Market
+advancements.stage2.market.description=Use the Farming for Blockheads Market to order Seeds and Saplings
+
+
+advancements.stage2.nuggetcast.title=Casting a Nugget
+advancements.stage2.nuggetcast.description=To obtain a Nugget Cast you will need to create a Stone Nugget with a block of Stone on the Stone Anvil
+
+
+advancements.stage2.paper.title=Papers Please
+advancements.stage2.paper.description=Evolve your paper production technique by making Minecraft Paper
+
+
+advancements.stage2.piston.title=Push It Real Good
+advancements.stage2.piston.description=Need to push items around?! Find a Piston in the Ur-Ghast Tower located in the Twilight Forest or locate the resources to craft it
+
+
+advancements.stage2.resonatingwand.title=Resonation
+advancements.stage2.resonatingwand.description=You'll need a Resonating Wand from Astral Sorcery to continue your journey
+
+
+advancements.stage2.rockcrystal.title=Rock, Paper, Crystals
+advancements.stage2.rockcrystal.description=Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down to find the ore between Y3 and Y18
+
+
+advancements.stage2.root.title=Age 2
+advancements.stage2.root.description=Welcome to the next age!
+
+
+advancements.stage2.sealantern.title=Under Da Sea Lantern
+advancements.stage2.sealantern.description=The Tier 3 Blood Magic Altar caps can be made from Sea Lanterns or Glowstone. Locate Prismarine from an Ocean Monument or as a drop from the Dark Forest Maze in the Twilight Forest
+
+
+advancements.stage2.skywave.title=Starlight Geolocation
+advancements.stage2.skywave.description=The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be completed. Craft and use the Fosic Resonator to locate an area in the world that is rich in starlight to craft with. You'll have a difficult time finding it during the daytime. It's best to wait until night
+
+
+advancements.stage2.smeltertank.title=Smelter Tank
+advancements.stage2.smeltertank.description=Solid fuels only get you so far. Craft and place a Porcelain or Seared Tank beneath your melter to melt Iron and other materials needing higher temperatures. Note, you'll need to let the current fuel source run out or break/replace the melter to see the new temperature
+
+
+advancements.stage2.starpowder.title=Star Power
+advancements.stage2.starpowder.description=Stardust can be found when breaking Rock Crystal Samples, don't forget to mark your map because the samples will also indicate a vein of Rock Crystal Ore beneath! Once your Astral Sorcery infrastructure is complete you can begin making them
+
+
+advancements.stage2.stevescarts.title=Train-ing with Coal
+advancements.stage2.stevescarts.description=You have discovered the power of combustion! Craft a Coal Engine
+
+
+advancements.stage2.stopwatch.title=Speedrunner
+advancements.stage2.stopwatch.description=The Stopwatch will display information on the player's motion
+
+
+advancements.stage2.tcontable1.title=Tinkerer
+advancements.stage2.tcontable1.description=Time to ditch your old Crafting Table and upgrade to a Crafting Station, it will let you keep your items in the grid and attach to nearby inventories
+
+
+advancements.stage2.tcontable2.title=Part Maker
+advancements.stage2.tcontable2.description=You can start working on replacing your tools by crafting a Stencil Table and Part Builder
+
+
+advancements.stage2.tcontable3.title=Tool Station
+advancements.stage2.tcontable3.description=To build your new tools, you'll need a Tool Station
+
+
+advancements.stage2.twilight.title=Enter the Twilight
+advancements.stage2.twilight.description=Enter the Twilight Forest dimension to continue your journey. Fill a 2x2 hole with water, surround it with plants, saplings, or flowers and throw an Astral Sorcery Starmetal Ingot into the water to create the portal
+
+
+advancements.stage2.wateringcan.title=Fast Farm
+advancements.stage2.wateringcan.description=If you're tired of waiting for crops to grow craft a Watering Can
+
+
+advancements.stage2.weedwoodsticks.title=Weedwood
+advancements.stage2.weedwoodsticks.description=Weedwood sticks are found by breaking Weedwood Bushes. Commonly found around the Betweenlands. Note, they are not available by chopping wood
+
+
+advancements.stage2.weedwoodsword.title=The Betweenlands
+advancements.stage2.weedwoodsword.description=Tools brought into the Betweenlands from other dimensions will not be effective. You'll need to craft new tools and weapons to progress. Note, This advancement specifically requires you to craft a Weedwood Sword to complete
+
+
+advancements.stage2.weird.title=Top 10 Weirdest Gadgets
+advancements.stage2.weird.description=If you would like a chunk loader, craft a Weirding Gadget and place it down to load a 3x3 area of chunks
+
+
+advancements.stage2.wool.title=Wooly Blankets
+advancements.stage2.wool.description=Craft some wool from Fleece and Wicker
+
+
+# Stage 3
+advancements.stage3.amethyst.title=Nether Amethyst Ore
+advancements.stage3.amethyst.description=A rare gem found in the Nether. Can be located using the Age 3 and above Prospectors
+
+
+advancements.stage3.bauxite.title=Bauxite Ore
+advancements.stage3.bauxite.description=Find a Bauxite surface sample and dig for Aluminum! The ore is located between Y45 and Y70
+
+
+advancements.stage3.bellows.title=Bellows
+advancements.stage3.bellows.description=Craft and mechanically power the Bellows to Stoke your Better With Mods Hibachi Fire
+
+
+advancements.stage3.blazerod.title=Blaze Rod
+advancements.stage3.blazerod.description=Travel to the Nether, collect Blaze Powder, and use the Metal Press to convert them into Blaze Rods
+
+
+advancements.stage3.bonehoe.title=Nether Tools
+advancements.stage3.bonehoe.description=Use the Bone Hoe to till dirt and also for Tilled Soul Sand
+
+
+advancements.stage3.buildcraft.title=Upgrade Your Line
+advancements.stage3.buildcraft.description=Craft a Redstone Engine to begin powering your Buildcraft Pipes
+
+
+advancements.stage3.circuitboard.title=I'm Board
+advancements.stage3.circuitboard.description=Use the Engineer's Workbench to craft a Circuit Board
+
+
+advancements.stage3.compactmachines.title=Project Miniaturization
+advancements.stage3.compactmachines.description=Want to create your own pocket dimensions and another machine case recipe? Craft the Miniaturization Field Projectors and place them in the world to begin
+
+
+advancements.stage3.conveyorbelt.title=Conveyor Belt
+advancements.stage3.conveyorbelt.description=Immersive Engineering Conveyor Belts are great for item transport!
+
+
+advancements.stage3.creosote.title=Creosote
+advancements.stage3.creosote.description=Use the Coke Oven to produce both Creosote liquid and Coal Coke
+
+
+advancements.stage3.crudeoil.title=Drilling for Oil
+advancements.stage3.crudeoil.description=Use the Core Sample Drill to locate oil in a chunk. Setup an Immersive Petroleum Pumpjack to extract it and grab a bucket of it to complete the advancement
+
+
+advancements.stage3.distillation2.title=Give it Some Gas
+advancements.stage3.distillation2.description=Further processing Diesel in a Distillation Tower will create Kerosene, Gasoline, and Lubricant. You'll need 1 bucket of each to complete the advancement. These liquids will provide sources of fuel, speed up certain machines, or allow further processing
+
+
+advancements.stage3.drawercontroller.title=Storage Drawer Controller
+advancements.stage3.drawercontroller.description=The Storage Drawer Controller allows you to turn your drawers into a network
+
+
+advancements.stage3.extendedcrafting1.title=Extended Crafting: Gold
+advancements.stage3.extendedcrafting1.description=Craft the Advanced Crafting Table from Extended Crafting for more complex recipes
+
+
+advancements.stage3.filteredhopper.title=Filtered Hopper
+advancements.stage3.filteredhopper.description=Use the Filtered Hopper to collect Hellfire Dust and fill Soul Urns
+
+
+advancements.stage3.galgadorian.title=Galgadorian Metal
+advancements.stage3.galgadorian.description=Collect an Enhanced Galgadorian Ingot to further upgrade your infrastructure
+
+
+advancements.stage3.hibachi.title=Hibachi
+advancements.stage3.hibachi.description=The Better With Mods Hibachi will allow you to have a Stoked Fire below your Cauldron and Crucible
+
+
+advancements.stage3.iebook.title=Engineer Manual
+advancements.stage3.iebook.description=The Immersive Engineering Manual is good. use it
+
+
+advancements.stage3.iehammer.title=Engineer's Hammer
+advancements.stage3.iehammer.description=Craft an Engineer's Hammer for creating multiblock machines and rotating blocks
+
+
+advancements.stage3.liquidplastic.title=The Invention of Plastic
+advancements.stage3.liquidplastic.description=Using the Modular Machinery liquid Processor, convert Propene into Liquid Plastic
+
+
+advancements.stage3.modularmachinery.title=Modularity
+advancements.stage3.modularmachinery.description=The Modular Machinery Controller is the main block needed in every M.M. Machine. Check the Blueprint recipes for how to build each structure
+
+
+advancements.stage3.naphtha.title=Distillation
+advancements.stage3.naphtha.description=Now that you have extracted Oil, build an Immersive Petroleum Distillation Tower to process Oil into Naphtha and Diesel and grab a bucket of each to complete the advancement
+
+
+advancements.stage3.nether.title=Enter the Nether
+advancements.stage3.nether.description=Travel to the Nether. Pre-built Portals exist in hot biomes such as Deserts and Savannahs. Remember, the world is setup in a logical heat map. If you need to find a hot biome you can travel North or South until you reach that climate
+
+
+advancements.stage3.netherbrick.title=Nether Brick
+advancements.stage3.netherbrick.description=Place Nether Sludge in a Better With Mods Kiln to cook it into Nether Bricks. Consult the Book of Single on how to assemble the Kiln
+
+
+advancements.stage3.netherexbiome.title=The Nether Has Frozen Over
+advancements.stage3.netherexbiome.description=Locate and enter the Arctic Abyss Biome
+
+
+advancements.stage3.netherwart.title=Nether Wart
+advancements.stage3.netherwart.description=Find and collect Nether Wart. It's most commonly found in Nether Fortresses
+
+
+advancements.stage3.nickel.title=Limonite Ore
+advancements.stage3.nickel.description=Find a Limonite surface sample and dig for Nickel! The ore is located between Y6 and Y40
+
+
+advancements.stage3.oreexcavation.title=Ore Excavation
+advancements.stage3.oreexcavation.description=Use the Ore Excavation Modifier item to add an Excavation ability to a Tinkers' Tool. You can also add an Excavation Enchantment to non-Tinkers' tools using the Enchantment Table
+
+
+advancements.stage3.oreprospector.title=Ore Prospector
+advancements.stage3.oreprospector.description=Craft an Ore Prospector to locate ore in Age 3
+
+
+advancements.stage3.plastic.title=Plasticity
+advancements.stage3.plastic.description=The Plastic Molder from Modular Machinery will convert Liquid Plastic into Plastic Sheets useable for a number of new recipes
+
+
+advancements.stage3.platinum.title=Platinum Ore
+advancements.stage3.platinum.description=Find a Platinum surface sample and dig for Platinum! The ore is located between Y3 and Y25
+
+
+advancements.stage3.potash.title=Potash
+advancements.stage3.potash.description=Use Logs, Planks, or Sawdust in a Stoked Cauldron to create Potash
+
+
+advancements.stage3.projector.title=Overhead Projector
+advancements.stage3.projector.description=Use a Projector by finding the Immersive Engineering structure you want to make and then craft the manual and projector together. You can use the projector to help build the structure using ghost blocks in the world
+
+
+advancements.stage3.propene.title=Propene and Propene Accessories
+advancements.stage3.propene.description=Using a Modular Machinery Chemical Mixer will allow you to mix Naphtha and Steam to create Propene. Grab a bucket to progress towards plastic
+
+
+advancements.stage3.rails.title=Railways
+advancements.stage3.rails.description=Craft and use Rails to travel long distances quickly
+
+
+advancements.stage3.redstone.title=Cinnabar Ore
+advancements.stage3.redstone.description=Find a Cinnabar surface sample and dig for Redstone! The ore is located between Y5 and Y12
+
+
+advancements.stage3.root.title=Age 3
+advancements.stage3.root.description=Welcome to the next age!
+
+
+advancements.stage3.sampledrill.title=A Small Sample
+advancements.stage3.sampledrill.description=Use the Core Sample Drill to locate both Ore Veins and Liquid under the surface per chunk. Don't forget it requires power and you can place the Samples on the ground by Shift-Clicking
+
+
+advancements.stage3.silverlead.title=Galena Ore
+advancements.stage3.silverlead.description=Find a Galena surface sample and dig for Silver and Lead! The ore is located between Y16 and Y50
+
+
+advancements.stage3.soundmuffler.title=Sound Muffler
+advancements.stage3.soundmuffler.description=Loud noises driving you crazy? Place down a Super Sound Muffler and configure it to mute the sounds you don't want to hear any more
+
+
+advancements.stage3.standardhull.title=Steve's Carts Standard Hull
+advancements.stage3.standardhull.description=The Standard Hull from Steve's Carts will allow you to craft better carts
+
+
+advancements.stage3.steam.title=Hot and Steamy
+advancements.stage3.steam.description=Using the Immersive Tech Boiler or Solar Tower, produce and grab a bucket of Steam to complete the advancement
+
+
+advancements.stage3.steel.title=Steel Ingot
+advancements.stage3.steel.description=The Blast Oven will allow you to create Steel from Coal Coke and Iron Ingots
+
+
+advancements.stage3.stevescartsassembler.title=Steve's Carts
+advancements.stage3.stevescartsassembler.description=The Cart Assembler will allow you to build a modular cart. Remember, you can craft upgrades and attach them via Shift-Clicking to the outside of the Assembler to speed up production time or use other features
+
+
+advancements.stage3.vacuumtube.title=Vacuum Tube
+advancements.stage3.vacuumtube.description=Craft a Vacuum Tube in the Engineer's Workbench
+
+
+advancements.stage3.viescraft.title=Flight!
+advancements.stage3.viescraft.description=Using all the Engine items, craft a V1 Viescraft Airship. Open the GUI to see what you can upgrade and to customize the look of your ship
+
+
+advancements.stage3.waterwheel.title=Water Wheel
+advancements.stage3.waterwheel.description=A Waterwheel connected to a Kinetic Dynamo will provide power when spun by flowing water
+
+
+advancements.stage3.windmill.title=Windmill!
+advancements.stage3.windmill.description=Craft and connect a Windmill to a Kinetic Dynamo to provide power from wind
+
+
+advancements.stage3.wire.title=DireWires
+advancements.stage3.wire.description=Now you have power, you'll need to transfer it around your base!
+
+
+advancements.stage3.wireshock.title=A Dire Shock
+advancements.stage3.wireshock.description=A DireWire installation can lead to a lot of shocking. So you can now insulate your wires. §oBut it won't solve the DireWire install.
+
+
+advancements.stage3.woodhull.title=Steve's Carts Wooden Hull
+advancements.stage3.woodhull.description=Craft a Wood Hull to make a very basic Steve's Cart
+
+
+advancements.stage3.workbench.title=Engineer's Workbench
+advancements.stage3.workbench.description=Craft an Engineer's Workbench to craft items from Blueprints
+
+
+# Stage 4
+advancements.stage4.adapter.title=Don't Underestimate My Power
+advancements.stage4.adapter.description=When you're unable to transfer energy between different mods, the Power Adapter block can help convert
+
+
+advancements.stage4.ae2panel.title=Applied Energistics
+advancements.stage4.ae2panel.description=Craft an ME Terminal and choose your path to Applied Energistics, Refined Storage, or both!
+
+
+advancements.stage4.amadrontablet.title=Amadron Delivery
+advancements.stage4.amadrontablet.description=Fill the Amadron Tablet with air pressure and use it to order items. Make sure to set the pickup and dropoff locations by using Shift Right-Click
+
+
+advancements.stage4.ardite.title=Ardite Ore
+advancements.stage4.ardite.description=Locate and mine Ardite Ore in the Nether using a Cobalt Level pickaxe
+
+
+advancements.stage4.blockheads1.title=Modern Style Kitchen
+advancements.stage4.blockheads1.description=Cooking Food in a furnace is a bit cumbersome, install a new kitchen into your base. Start off with the Cooking for Blockheads I book
+
+
+advancements.stage4.blockheads2.title=Moving on Up!
+advancements.stage4.blockheads2.description=Use the Cooking for Blockheads Book II to craft available recipes from your inventory or as a crafting material for appliances
+
+
+advancements.stage4.blockheads3.title=Full Kitchen
+advancements.stage4.blockheads3.description=Cooking for Blockheads appliance blocks all act as a multiblock when placed next to each other. Craft and place the Cooking Table to get started. Then you can place the Oven, Fridge, Sink, and other items to gain more functionality
+
+
+advancements.stage4.certusquartz.title=Certus Quartz
+advancements.stage4.certusquartz.description=Find an Assorted Quartz surface sample and dig for Certus Quartz! The ore is located between Y6 and Y40
+
+
+advancements.stage4.cobalt.title=Cobalt
+advancements.stage4.cobalt.description=Locate and mine Cobalt, found throughout the Nether
+
+
+advancements.stage4.compressediron.title=Pneumatic Iron Ingot
+advancements.stage4.compressediron.description=Create a Compressed Iron Ingot
+
+
+advancements.stage4.compressor.title=Under Pressure
+advancements.stage4.compressor.description=Craft the Compressor Machine from Galacticraft to create Compressed Plates
+
+
+advancements.stage4.endcrystal.title=Reincarnation
+advancements.stage4.endcrystal.description=If you want to respawn the Ender Dragon, craft 4 End Crystals and place them on the exit portal in the end. Each Crystal needs to be placed on the center of three bedrock blocks
+
+
+advancements.stage4.enderalloy1.title=Ender Alloy
+advancements.stage4.enderalloy1.description=Defeat the Dragon and mine the Biotite in the End to use in Ender Alloy creation
+
+
+advancements.stage4.enderalloy2.title=Enhanced Ender Alloy
+advancements.stage4.enderalloy2.description=Locate Chorus in the End and use the Fruit to create Enhanced Ender Alloy
+
+
+advancements.stage4.enderalloy3.title=Advanced Ender Alloy
+advancements.stage4.enderalloy3.description=Locate Purpur, End Rods, and a Shulker Shell to create Advanced Ender Alloy
+
+
+advancements.stage4.endercrafter.title=Ender Crafter
+advancements.stage4.endercrafter.description=Craft the Ender Crafter and Ender Alternator for advanced crafting
+
+
+advancements.stage4.extendedcraftingelite.title=Elite Crafting Table
+advancements.stage4.extendedcraftingelite.description=Some recipes need more space. Craft an Elite Crafting Table to begin
+
+
+advancements.stage4.fuelloader.title=Fill Her Up
+advancements.stage4.fuelloader.description=The Fuel Loader will be needed to fuel a Rocket before Take off
+
+
+advancements.stage4.inscriber.title=Inscribing
+advancements.stage4.inscriber.description=Craft and connect the Inscriber to begin creating processors and other machines
+
+
+advancements.stage4.laserassembly.title=Programming the Assembly
+advancements.stage4.laserassembly.description=Order an Assembly Program: Laser from your Amadron Tablet
+
+
+advancements.stage4.launchpad.title=Thrusters Are Go
+advancements.stage4.launchpad.description=To take off, you'll need to place 9 Landing Pads in a 3x3 and then place your rocket on the center pad
+
+
+advancements.stage4.machinecasing.title=Machine Casing
+advancements.stage4.machinecasing.description=Advanced Machines need more complex casing
+
+
+advancements.stage4.manyullyn.title=Manyullyn
+advancements.stage4.manyullyn.description=Combine Ardite and Cobalt in a Smeltery to create Manyullyn
+
+
+advancements.stage4.moon.title=To the Moon!
+advancements.stage4.moon.description=Launch a Rocket and land on the Moon
+
+
+advancements.stage4.nasaworkbench.title=Space Program Foundation
+advancements.stage4.nasaworkbench.description=Craft a NASA Workbench to begin your journey to the Moon
+
+
+advancements.stage4.oxygencollector.title=Oxygen is Included
+advancements.stage4.oxygencollector.description=To create Galacticraft Fuel, you will need to combine Kerosene and Oxygen in an Immersive Engineering Refinery. Oxygen can initially be collected by the Oxygen Collector
+
+
+advancements.stage4.plasticmixer.title=Plastic Mixer
+advancements.stage4.plasticmixer.description=Craft a Plastic Mixer to create colored Plastic Sheets
+
+
+advancements.stage4.presses.title=Hold the Presses
+advancements.stage4.presses.description=Locate the materials needed to create the Engineering, Logic, and Silicon Presses to allow for Applied Energistics and Refined Storage networks
+
+
+advancements.stage4.pressurechamberwall.title=Pressure Chamber
+advancements.stage4.pressurechamberwall.description=Craft Pressue Chamber Walls and build a Pneumaticraft Pressure Chamber
+
+
+advancements.stage4.printedcircuitboard.title=Printed Circuit Board
+advancements.stage4.printedcircuitboard.description=Using your Pneumaticraft setup, create a Printed Circuit Board
+
+
+advancements.stage4.prospector4.title=Ore Prospector Tier 4
+advancements.stage4.prospector4.description=Craft the Advanced Prospector to locate Age 4 ores
+
+
+advancements.stage4.root.title=Age 4
+advancements.stage4.root.description=Welcome to the next age!
+
+
+advancements.stage4.rsgrid.title=Refined Storage
+advancements.stage4.rsgrid.description=Craft a Refined Storage Grid and choose your path to Applied Energistics, Refined Storage, or both!
+
+
+advancements.stage4.silicon.title=Silicon Ore
+advancements.stage4.silicon.description=Find a Silicon surface sample and dig for Silicon! The ore is located between Y24 and Y48
+
+
+advancements.stage4.solidendereye.title=Reusable Eye
+advancements.stage4.solidendereye.description=Craft and use the Solid Ender Eye to locate the End easily
+
+
+advancements.stage4.spacesuit.title=Sharp Dressed Man
+advancements.stage4.spacesuit.description=Craft the full Tier 1 Space Suit to protect you from pressure and radiation when going to the moon
+
+
+advancements.stage4.t1rocket.title=Rocket Ship
+advancements.stage4.t1rocket.description=Build a Tier 1 Galacticraft Rocket
+
+
+advancements.stage4.theend.title=Enter the End
+advancements.stage4.theend.description=Locate a Stronghold and enter the End Dimension
+
+
+# Stage 5
+advancements.stage5.charger3.title=Charge it Up
+advancements.stage5.charger3.description=The Charger Tier III allows you to charge up items much quicker than previous tiers
+
+
+advancements.stage5.cheese.title=The Moon is Made of Cheese
+advancements.stage5.cheese.description=Cheese is a rare ore found only on the Moon. Like all other ore on the moon, Quarries will work to mine it
+
+
+advancements.stage5.creativecompressor.title=Creative Air Compressor
+advancements.stage5.creativecompressor.description=Craft the Creative Air Compressor from Pneumaticraft
+
+
+advancements.stage5.creativeenergycube.title=Creative Energy Cube
+advancements.stage5.creativeenergycube.description=Craft the Creative Energy Cube from Mekanism
+
+
+advancements.stage5.creativefluidtank.title=Creative Fluid Tank
+advancements.stage5.creativefluidtank.description=Craft the Creative Fluid Tank from Mekanism
+
+
+advancements.stage5.creativejetpack.title=Creative Jetpack
+advancements.stage5.creativejetpack.description=Craft the Creative Jetpack
+
+
+advancements.stage5.creativemodifer.title=Creative Modifier
+advancements.stage5.creativemodifer.description=Craft the Creative Modifier from Tinker's Construct
+
+
+advancements.stage5.desh.title=Locating Desh Ore
+advancements.stage5.desh.description=Locate and mine Desh ore on the planet Mars
+
+
+advancements.stage5.diamond.title=Diamonds!
+advancements.stage5.diamond.description=Find a Kimberlite surface sample and dig for Diamonds! The ore is located between Y2 and Y20
+
+
+advancements.stage5.diamondjetpack.title=Diamond Jetpack
+advancements.stage5.diamondjetpack.description=Upgrade to the Diamond Jetpack
+
+
+advancements.stage5.electrumjetpack.title=Electrum Jetpack
+advancements.stage5.electrumjetpack.description=Craft the Electrum Jetpack
+
+
+advancements.stage5.emerald.title=Emerald Dream
+advancements.stage5.emerald.description=Find a Beryl surface sample and dig for Emeralds! The ore is located between Y4 and Y32
+
+
+advancements.stage5.emeraldjetpack.title=Emerald Jetpack
+advancements.stage5.emeraldjetpack.description=Craft the Emerald Jetpack
+
+
+advancements.stage5.inferiumessence.title=Inferium Essence
+advancements.stage5.inferiumessence.description=Inferium Essence is an important item to begin Mystical Agriculture. Create it using items from a number of location
+
+
+advancements.stage5.mars.title=The Red Planet
+advancements.stage5.mars.description=Launch a Rocket and land on the Mars
+
+
+advancements.stage5.marsrover.title=Roving Around
+advancements.stage5.marsrover.description=Traveling around Mars can be a bit slow, craft and use the Mars Rover! Find the NASA Workbench Schemetic as possible loot in dungeons
+
+
+advancements.stage5.neptune.title=The Neptunians
+advancements.stage5.neptune.description=Launch a Rocket and land on Neptune. Collect Neptune Surface Rocks to complete the advancement
+
+
+advancements.stage5.osmium.title=Osmium Ore
+advancements.stage5.osmium.description=Find an Osmium surface sample and dig for Osmium! The ore is located between Y3 and Y11
+
+
+advancements.stage5.paperclip.title=Universal Paperclip
+advancements.stage5.paperclip.description=Create the world's first Paperclip
+
+
+advancements.stage5.prospectorstage5.title=Ultimate Prospector
+advancements.stage5.prospectorstage5.description=Craft the Ultimate Prospector to search for all ore in the ground
+
+
+advancements.stage5.prosperityshard.title=Prosperity Shard
+advancements.stage5.prosperityshard.description=Prosperity Shards are needed to progress further into Mystical Agriculture. Use the Empowerer to create it
+
+
+advancements.stage5.root.title=Age 5
+advancements.stage5.root.description=Welcome to the next age!
+
+
+advancements.stage5.saturn.title=The Rings of Saturn
+advancements.stage5.saturn.description=Launch a Rocket to Saturn... and land on it... yes. Collect Saturn Surface Rocks to complete the advancement
+
+
+advancements.stage5.scanner.title=Scannable
+advancements.stage5.scanner.description=Once powered, the Scanner will allow you to locate blocks around you. Install modules and insert them into the GUI by shift-clicking to open. Hold the use button to initiate a scan
+
+
+advancements.stage5.skystone.title=Sky Stone
+advancements.stage5.skystone.description=Moon Cheese can be further refined into Sky Stone using the Metallurgic Infuser from Mekanism
+
+
+advancements.stage5.spacesuit4.title=Sharpest Dressed Man
+advancements.stage5.spacesuit4.description=Craft the full Tier 4 Space Suit to protect you from higher levels of pressure and radiation when going to farther planets
+
+
+advancements.stage5.spawnerseeker.title=You're a Harry, Wizard
+advancements.stage5.spawnerseeker.description=Finding Dungeons to acquire blueprints can be tough. Craft a Spawner Seeker wand to locate any spawner within a 128 block range
+
+
+advancements.stage5.t2rocket.title=Bigger, Better, Faster
+advancements.stage5.t2rocket.description=Build a Tier 2 Rocket to further your exploration range
+
+
+advancements.stage5.ultimatecraftingtable.title=Ultimate Crafting Table
+advancements.stage5.ultimatecraftingtable.description=Craft and use the Ultimate Crafting Table for powerful creative style items
+
+
+advancements.stage5.ultimateingot.title=Ultimate Ingot!
+advancements.stage5.ultimateingot.description=Crafting a number of ingots together in an Extended Crafting table will give you the Ultimate Ingot!
+
+
+advancements.stage5.wirelesscharger.title=Wireless Chargin
+advancements.stage5.wirelesscharger.description=The Wireless Charger is a convenient machine to have in your base for anything you want charged easily

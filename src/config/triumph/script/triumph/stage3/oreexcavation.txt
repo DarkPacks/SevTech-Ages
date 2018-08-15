@@ -1,8 +1,8 @@
-setTitle("Ore Excavation")
+setTranslatedTitle("advancements.stage3.oreexcavation.title")
 
 setIcon("oeintegration:excavatemodifier")
 
-setDescription("Use the Ore Excavation Modifier item to add an Excavation ability to a Tinkers' Tool. You can also add an Excavation Enchantment to non-Tinkers' tools using the Enchantment Table")
+setTranslatedDescription("advancements.stage3.oreexcavation.description")
 
 addParent("triumph:stage3/oreprospector")
 setRequiresParents()

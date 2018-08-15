@@ -1,8 +1,8 @@
-setTitle("Age 4")
+setTranslatedTitle("advancements.stage4.root.title")
 
 setIcon("industrialforegoing:plastic")
 
-setDescription("Welcome to the next age!")
+setTranslatedDescription("advancements.stage4.root.description")
 
 setBackground("immersiveengineering:textures/blocks/sheetmetal_steel.png")
 

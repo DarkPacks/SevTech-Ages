@@ -1,8 +1,8 @@
-setTitle("I HAVE CREATED FIRE")
+setTranslatedTitle("advancements.stage0.fire.title")
 
 setIcon("primal_tech:fire_sticks")
 
-setDescription("Hold a Fire Stick in Each hand and click on a block to create fire")
+setTranslatedDescription("advancements.stage0.fire.description")
 
 addParent("triumph:stage0/firsttool")
 setRequiresParents()

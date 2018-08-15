@@ -1,8 +1,8 @@
-setTitle("Tinkerer")
+setTranslatedTitle("advancements.stage2.tcontable1.title")
 
 setIcon("tconstruct:tooltables", 0)
 
-setDescription("Time to ditch your old Crafting Table and upgrade to a Crafting Station, it will let you keep your items in the grid and attach to nearby inventories")
+setTranslatedDescription("advancements.stage2.tcontable1.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()

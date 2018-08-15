@@ -76,11 +76,11 @@ Enhancements:
 * Added recipe for Sticks from the BWM Saw via Wood Slabs (#2786)
 * Added more recipes to the Industrial Loom (#2293)
 
-Forge: 14.23.4.2747
+Forge: 14.23.4.2749
 
 Mods Added:
 * Building Gadgets (1.6.2)
-* Corails Tombstone (2.10.2)
+* Corails Tombstone (2.10.3)
     * This replaces Tomb Many Graves.
 * JustEnoughIDs (1.0.1-16)
     * Allows us to add more content #ContentUpdateAnyone?
@@ -122,8 +122,10 @@ Mod Updates:
 * AutoRegLib (1.3-18)
 * B.A.S.E (3.10.0)
 * Better Advancements (0.0.8.50)
-* Better With Addons (0.44)
-* Better With Mods (2.3.6)
+* Better With Addons (0.45)
+    * Changes Lanterns to only extinguish when sneaking while rightclicking.
+    * Fixes some networking issues in multiplayer when using a writing table
+* Better With Mods (2.3.8)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.0-99)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -133,16 +135,18 @@ Mod Updates:
 * BnBGamingCore (0.9.0)
 * BnBGamingLib (2.13.0)
 * Bookshelf (2.3.556)
-* CarryOn (1.9.3)
+* CarryOn (1.10)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
     * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
+    * Carry-Key could get stuck when entering through dimensions
+    * More blocks are now rotated properly when placed down
 * Caliper (1.1.36)
 * Chisel & Bits (14.20)
 * Clumps (3.1.1)
-* Code Chicken Lib (3.2.1.350)
+* Code Chicken Lib (3.2.1.351)
 * Connected Textures Mod (0.32.18)
 * Construct's Armory (1.0.2)
-* Content Tweaker (4.7.0)
+* Content Tweaker (4.8.0)
 * Cooking With Blockheads (6.4.44)
     * Added Storage Drawers support
         * Only actual drawer blocks are supported, controllers can not be connected.
@@ -170,7 +174,11 @@ Mod Updates:
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.13a)
-* Extended Crafting (1.4.1)
+* Extended Crafting (1.4.2)
+    * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
+    * Fixed the Automation Interface not working properly with the Ender Crafter
+    * Fixed the Ender Crafter not saving it's inventory in some cases
+    * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
 * ExtraPlanets (0.4.1)
 * Farming For Blockheads (3.1.21)
     * Remove villager idle noises from merchants because they're so annoying
@@ -185,7 +193,9 @@ Mod Updates:
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
 * Game Stages (2.0.98)
-* Geolosys (2.0.0)
+* Geolosys (2.1.0)
+    * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
+    * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.67)
 * Hunting Dimension (1.0.28)
@@ -201,16 +211,17 @@ Mod Updates:
     * Fix incomplete flipped operators throwing errors
 * Iron Chests (7.0.46.831)
 * Item Stages (2.0.36)
-* Just Enough Items (4.11.0.206)
+* Just Enough Items (4.12.0.215)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
 * MicJty Lib (3.0.3)
 * MJRLegends Lib (1.1.5)
-* Mob Grinding Utils (0.3.10)
+* Mob Grinding Utils (0.3.11)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
     * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
+    * Should fix beheading attribute on mobmasher returning null for mobs without heads and crashing people - whoops.
 * Mod Tweaker (4.0.13)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.12)
@@ -227,11 +238,15 @@ Mod Updates:
 * Nutrition (3.5.0)
 * Ore Excavation (1.4.119)
 * Ore Prospector (1.0.2)
-* Ore Stages (2.0.30)
-* PrimalCore (0.6.68)
+* Ore Stages (2.0.31)
+* PickleTweaks (2.0.17)
+* PrimalCore (0.6.69)
+    * Cauldron item storage size has increased, existing cauldrons will need to be picked up and placed again
+    * Fix Corn worldgen issues
+    * Fix Worldgen issues
 * Prestige (1.0.019)
 * Placebo (1.4.1)
-* PneumaticCraft (0.7.3-248)
+* PneumaticCraft (0.7.6-254)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
     * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
@@ -247,6 +262,7 @@ Mod Updates:
     * Liquid Hoppers no longer accept input fluids on their output face, and will no longer output fluids from their input face. (Related to performance improvements mentioned above)
     * Reworked 3rd party wrench support: many more wrenches are now supported
     * Fixed NPE when using a newly-crafted GPS Area Tool
+    * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.0.17)
 * Quantum Storage (4.6.1)
 * Quark (r1.4-125)

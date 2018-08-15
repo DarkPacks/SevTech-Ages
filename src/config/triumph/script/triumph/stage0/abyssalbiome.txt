@@ -2,7 +2,7 @@ setTranslatedTitle("advancements.stage0.abyssalcraft.title")
 
 setIcon("abyssalcraft:necronomicon")
 
-setTranslatedDescription("advancements.stage0.abyssalcraft.description")
+setTranslatedDescription("advancements.stage0.abyssalbiome.description")
 
 addParent("triumph:stage0/naturescompass")
 setRequiresParents()

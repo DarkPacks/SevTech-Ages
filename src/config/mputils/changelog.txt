@@ -56,6 +56,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed inconsistent recipe for VC frame upgrades (#2568)
 * Fixed raw pigman pelt processing recipe (#2912)
 * Fixed Content Tweaker ores only working in quartz grindstone (#3147)
+* Fixed custom Geolosys Ores generating in un-wanted dimensions (#2184)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -82,11 +83,13 @@ Mods Added:
 * Building Gadgets (1.6.2)
 * Corails Tombstone (2.10.3)
     * This replaces Tomb Many Graves.
+* In-Game Wiki
+    * Needed for the mods which don't have only docs but support IGW.
 * JustEnoughIDs (1.0.1-16)
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.6)
     * Now required by Nether Ex (2.0.0+)
-* ZenStages (0.2.0-8)
+* ZenStages (0.2.0-13)
     * Allows us to create staging modpacks far easier.
 
 Mods Removed:
@@ -171,6 +174,7 @@ Mod Updates:
 * Dimensional Control (2.10.3)
 * Dimension Stages (2.0.20)
 * EmberRootZoo (1.3.9)
+* Enchantment Descriptions (1.1.9)
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.13a)
@@ -179,7 +183,7 @@ Mod Updates:
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
     * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
-* ExtraPlanets (0.4.1)
+* ExtraPlanets (0.4.2)
 * Farming For Blockheads (3.1.21)
     * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
@@ -246,7 +250,7 @@ Mod Updates:
     * Fix Worldgen issues
 * Prestige (1.0.019)
 * Placebo (1.4.1)
-* PneumaticCraft (0.7.6-254)
+* PneumaticCraft (0.7.6-255)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
     * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)

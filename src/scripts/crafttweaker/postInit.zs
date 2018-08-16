@@ -197,6 +197,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.bibliocraft.init();
 	scripts.crafttweaker.recipes.mods.bloodmagic.init();
 	scripts.crafttweaker.recipes.mods.buildcraft.init();
+	scripts.crafttweaker.recipes.mods.buildinggadgets.init();
 	scripts.crafttweaker.recipes.mods.car.init();
 	scripts.crafttweaker.recipes.mods.ceramics.init();
 	scripts.crafttweaker.recipes.mods.chisel.init();

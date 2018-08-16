@@ -232,18 +232,6 @@ static removeRecipes as IIngredient[] = [
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.primaltech.removeRecipes;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

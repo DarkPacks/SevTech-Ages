@@ -187,18 +187,6 @@ static removeRecipes as IIngredient[] = [
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cyclicmagic.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.cyclicmagic.removeRecipes;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

@@ -174,10 +174,6 @@ static logsToRemove as IItemStack[] = [
 ];
 
 function init() {
-	// Imports
-	var plankLogPairs as IIngredient[][IItemStack] = scripts.crafttweaker.integrations.wood.plankLogPairs;
-	var logsToRemove as IItemStack[] = scripts.crafttweaker.integrations.wood.logsToRemove;
-
 	// Add the recipes needed.
 	for plank, logs in plankLogPairs {
 		for log in logs {

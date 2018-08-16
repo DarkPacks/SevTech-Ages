@@ -180,7 +180,7 @@ static durabilityMap as int[IItemStack] = {
 };
 
 function init() {
-	for item, durability in scripts.crafttweaker.itemModifiers.durability.durabilityMap {
+	for item, durability in durabilityMap {
 		item.maxDamage = durability;
 	}
 }

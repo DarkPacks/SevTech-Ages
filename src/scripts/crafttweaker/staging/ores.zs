@@ -307,11 +307,8 @@ OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wa
 	Init method to perform the logic for the script.
 */
 function init() {
-	var replacementItemsForStage as IIngredient[][][string] = scripts.crafttweaker.staging.ores.replacementItemsForStage;
-	var nonDefaultReplacementItemsForStage as IIngredient[][][string] = scripts.crafttweaker.staging.ores.nonDefaultReplacementItemsForStage;
-
-	scripts.crafttweaker.staging.ores.addOreReplacements(replacementItemsForStage, false);
-	scripts.crafttweaker.staging.ores.addOreReplacements(nonDefaultReplacementItemsForStage, true);
+	addOreReplacements(replacementItemsForStage, false);
+	addOreReplacements(nonDefaultReplacementItemsForStage, true);
 }
 
 function addOreReplacements(replacementItemsForStage as IIngredient[][][string], isNonDefaulting as bool) {

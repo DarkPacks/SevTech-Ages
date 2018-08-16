@@ -384,8 +384,8 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

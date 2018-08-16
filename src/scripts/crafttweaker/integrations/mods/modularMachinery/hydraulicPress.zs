@@ -20,7 +20,7 @@ import scripts.crafttweaker.utils;
 // The machine name.
 static machineName as string = "hydraulic_press";
 
-static recipes as IItemStack[][IItemStack] = {
+static machineRecipes as IItemStack[][IItemStack] = {
 	<galacticraftcore:basic_item:9> * 2: [ <immersiveengineering:metal:8> * 4 ], // Compressed Steel
 	<galacticraftcore:basic_item:6> * 2: [ metals.copper.ingot.firstItem * 4 ], // Compressed Copper
 	<galacticraftcore:basic_item:7> * 2: [ metals.tin.ingot.firstItem * 4 ], // Compressed Tin
@@ -54,9 +54,6 @@ static recipes as IItemStack[][IItemStack] = {
 };
 
 function init() {
-	var machineName as string = scripts.crafttweaker.integrations.mods.modularMachinery.hydraulicPress.machineName;
-	var machineRecipes as IItemStack[][IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.hydraulicPress.recipes;
-
 	for output, inputs in machineRecipes {
 		var primer as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, output.definition.id ~ "_" ~ output.metadata), machineName, 50)
 			.addEnergyPerTickInput(100)

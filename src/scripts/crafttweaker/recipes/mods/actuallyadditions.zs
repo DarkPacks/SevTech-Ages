@@ -486,22 +486,6 @@ function initDrillRecipe() {
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.furnaceRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeFurnace;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

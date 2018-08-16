@@ -1058,25 +1058,6 @@ function initElytraRecipe() {
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.furnaceRecipes;
-
-	// Removals
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.minecraft.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnace;
-	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnaceInput;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

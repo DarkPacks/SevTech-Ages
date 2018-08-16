@@ -165,8 +165,8 @@ static hiddenItems as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.ironchest.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.ironchest.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 }

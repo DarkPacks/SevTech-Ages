@@ -22,7 +22,7 @@ static machineName as string = "plastic_molder";
 
 // Recipes which are going to be added to the machine.
 // Output: [Inputs]
-static recipes as ILiquidStack[][IItemStack] = {
+static machineRecipes as ILiquidStack[][IItemStack] = {
 	<industrialforegoing:plastic:0> * 4: [
 		<liquid:plastic> * 1000
 	]
@@ -39,10 +39,6 @@ static recipeData as IData[IItemStack] = {
 };
 
 function init() {
-	var machineName as string = scripts.crafttweaker.integrations.mods.modularMachinery.plasticMolder.machineName;
-	var machineRecipes as ILiquidStack[][IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.plasticMolder.recipes;
-	var recipeData as IData[IItemStack] = scripts.crafttweaker.integrations.mods.modularMachinery.plasticMolder.recipeData;
-
 	for outputItem, _fluids in machineRecipes {
 		var primer as RecipePrimer = RecipeBuilder.newBuilder(utils.createRecipeName(machineName, recipeData[outputItem].name.asString()), machineName, recipeData[outputItem].tickTime.asInt())
 			.addEnergyPerTickInput(recipeData[outputItem].powerTick.asInt())

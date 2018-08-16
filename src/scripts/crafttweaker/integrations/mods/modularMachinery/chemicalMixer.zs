@@ -7,13 +7,15 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import mods.modularmachinery.RecipeBuilder;
+
 import scripts.crafttweaker.utils;
 
 function init() {
 	// Machine name
 	var machineName = "chemical_mixer";
 
-	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "propene"), machineName, 200)
+	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "propene"), machineName, 200)
 		.addEnergyPerTickInput(1)
 		.addFluidOutput(<liquid:propene> * 1500)
 		.addFluidInput(<liquid:naphtha> * 1000)

@@ -7,6 +7,7 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import mods.GalacticraftTweaker;
 
 /*
 	GalacticCraft & ExtraPlanets
@@ -16,15 +17,15 @@
 */
 function init() {
 	// Remove compressed zinc recipe.
-	mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:4>);
+	GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:4>);
 
 	// Remove all compressed steel plate recipes.
-	mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:9>);
+	GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:9>);
 	// Add the correct steel recipe back.
-	mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:9>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>);
+	GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:9>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>);
 
 	// Remove the compressed nickle plate recipe.
-	mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:6>);
+	GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:6>);
 	// Add back one which is using the correct ingot.
-	mods.GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:6>, metals.nickel.ingot.firstItem, metals.nickel.ingot.firstItem);
+	GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:6>, metals.nickel.ingot.firstItem, metals.nickel.ingot.firstItem);
 }

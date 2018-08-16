@@ -220,22 +220,22 @@ static partsStages as IItemStack[][string] = {
 */
 function init() {
 	// Add the tool types to be staged.
-	for _stage, toolTypes in scripts.crafttweaker.staging.tinkers.toolTypeStages {
+	for _stage, toolTypes in toolTypeStages {
 		ZenStager.getStage(_stage).addTiCToolTypes(toolTypes);
 	}
 
 	// Add the modifiers to be staged.
-	for _stage, materials in scripts.crafttweaker.staging.tinkers.modifierForStage {
+	for _stage, materials in modifierForStage {
 		ZenStager.getStage(_stage).addTiCModifier(materials);
 	}
 
 	// Add the materials to be staged.
-	for _stage, materials in scripts.crafttweaker.staging.tinkers.materialsForStage {
+	for _stage, materials in materialsForStage {
 		ZenStager.getStage(_stage).addTiCMaterials(materials);
 	}
 
 	// Add the part items to be staged.
-	for partStageName, parts in scripts.crafttweaker.staging.tinkers.partsStages {
+	for partStageName, parts in partsStages {
 		var partStage as Stage = ZenStager.getStage(partStageName);
 
 		for part in parts {

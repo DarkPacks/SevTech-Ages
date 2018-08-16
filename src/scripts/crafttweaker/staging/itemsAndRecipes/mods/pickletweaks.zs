@@ -100,9 +100,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

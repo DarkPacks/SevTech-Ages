@@ -27,7 +27,7 @@ static pickaxeLevelPairs as IItemStack[][int] = {
 };
 
 function init() {
-	for pickaxeLevel, items in scripts.crafttweaker.itemModifiers.harvestLevel.pickaxeLevelPairs {
+	for pickaxeLevel, items in pickaxeLevelPairs {
 		for item in items {
 			var blockDefinition as IBlockDefinition = item.asBlock().definition;
 			blockDefinition.setHarvestLevel("pickaxe", pickaxeLevel);

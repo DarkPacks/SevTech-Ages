@@ -143,22 +143,6 @@ function initParachuteRecipes() {
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.galacticraft.furnaceRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.galacticraft.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.galacticraft.removeFurnace;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

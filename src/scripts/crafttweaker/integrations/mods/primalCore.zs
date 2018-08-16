@@ -60,9 +60,6 @@ static dryingRemovals as string[] = [
 	Hibachi: https://github.com/An-Sar/PrimalCore/wiki/CraftTweaker:-Hibachi
 */
 function init() {
-	// Imports
-	var dryingRemovals as string[] = scripts.crafttweaker.integrations.mods.primalCore.dryingRemovals;
-
 	for dryingRecipe in dryingRemovals {
 		DryingRack.removeRecipe(dryingRecipe);
 	}

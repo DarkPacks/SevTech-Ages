@@ -37,7 +37,7 @@ static hiddenItems as IIngredient[] = [
 ];
 
 function init() {
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.misc.hiddenItems {
+	for ingredient in hiddenItems {
 		mods.jei.JEI.removeAndHide(ingredient);
 		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}

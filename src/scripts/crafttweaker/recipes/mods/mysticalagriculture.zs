@@ -96,19 +96,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.shapelessRecipes;
-	var recipesToGenerate as IItemStack[IIngredient] = scripts.crafttweaker.recipes.mods.mysticalagriculture.recipesToGenerate;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.mysticalagriculture.removeRecipes;
-
 	// Build the recipes to be generated from the Generated Map.
 	var generatedShapedRecipes as IIngredient[][][][IItemStack] = {};
 	for essence, output in recipesToGenerate {

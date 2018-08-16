@@ -66,8 +66,8 @@ function initGrass() {
 
 function init() {
 	// Call other methods.
-	scripts.crafttweaker.resources.custom.initMetalRemovals();
-	scripts.crafttweaker.resources.custom.initGrass();
+	initMetalRemovals();
+	initGrass();
 
 	// Dimensional Shard Processing. (One not included by default from the Mod)
 	immersiveEngineering.addCrusher(<rftools:dimensional_shard:0> * 2, <ore:oreDimensionalShard>);

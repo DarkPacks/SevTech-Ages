@@ -43,9 +43,6 @@ static rs as IItemStack[string][string] = {
 };
 
 function init() {
-	var ae as IItemStack[string][string] = scripts.crafttweaker.integrations.mods.appliedenergistics2.ae;
-	var rs as IItemStack[string][string] = scripts.crafttweaker.integrations.mods.appliedenergistics2.rs;
-
 	// Re-create silicon recipe
 	appliedEnergistics.removeInscribe(ae.printed.silicon);
 	appliedEnergistics.addInscribe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);

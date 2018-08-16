@@ -12,14 +12,9 @@
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
-var PACK_VERSION as string = "3.1.0"; // Keep below 11 characters
+static PACK_VERSION as string = "3.1.0"; // Keep below 11 characters
 
-var packVersionForLogo as string = "v" ~ PACK_VERSION;
-while packVersionForLogo.length < 12 {
-	packVersionForLogo = " " ~ packVersionForLogo;
-}
-
-printHeader(packVersionForLogo);
+printHeader();
 
 // ==================================
 // Stage Naming
@@ -61,7 +56,12 @@ for stage in stageNames {
 
 // ==================================
 // Functions
-function printHeader(packVersionForLogo as string) {
+function printHeader() {
+	var packVersionForLogo as string = "v" ~ PACK_VERSION;
+	while packVersionForLogo.length < 12 {
+		packVersionForLogo = " " ~ packVersionForLogo;
+	}
+
 	// Logo
 	print(" ____                     ______               __              ______");
 	print("/\\  _`\\                  /\\__  _\\             /\\ \\            /\\  _  \\");

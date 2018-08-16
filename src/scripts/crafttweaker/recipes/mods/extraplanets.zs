@@ -325,22 +325,6 @@ static removeFurnaceInput as IIngredient[IIngredient] = {
 
 function init() {
 	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapelessRecipes;
-
-	// Removals
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnace;
-	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnaceInput;
-
-	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);

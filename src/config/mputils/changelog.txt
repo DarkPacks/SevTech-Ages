@@ -76,6 +76,7 @@ Enhancements:
 * Added recipe for low grade charcoal to the BWM Kiln (#2786)
 * Added recipe for Sticks from the BWM Saw via Wood Slabs (#2786)
 * Added more recipes to the Industrial Loom (#2293)
+* Added Bibliocraft shelf recipe with BWM siding (#1476)
 
 Forge: 14.23.4.2749
 

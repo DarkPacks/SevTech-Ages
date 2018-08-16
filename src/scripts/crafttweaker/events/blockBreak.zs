@@ -114,8 +114,6 @@ function init() {
 			blockId += ":" ~ event.block.meta;
 		}
 
-		print(blockId);
-
 		// Skip overrides if the block is silk touched
 		if (event.silkTouch) {
 			return;

@@ -545,14 +545,36 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<primal:leather_cordage:0>,
 	<primal:slab_ironwood:0>,
 	<primal:smelter:2>.withTag({type: "cinis"}),
 	<primal:smelter:1>.withTag({type: "terra"}),
 	<primal:smelter:0>.withTag({type: "mud"}),
 	<primal:smelter:*>,
-	<primal:thatching_wet:0>
+	<primal:thatching_wet:0>,
+	// Remove all the Wall Recipes to be sure about the mod adding them somehow.
+	<primal:wall:*>,
+	<primal:common_stone:*>,
+	<primal:sarsen_stone:*>,
+	<primal:blue_stone:*>,
+	<primal:ortho_stone:*>,
+	<primal:schist_green_stone:*>,
+	<primal:schist_blue_stone:*>,
+	<primal:scoria_stone:*>,
+	<primal:purpurite_stone:*>,
+	<primal:ferro_stone:*>,
+	<primal:carbonate_stone:*>,
+	<primal:nether_stone:*>,
+	<primal:eroded_end_stone:*>,
+	<primal:soul_stone:*>,
+	<primal:terracotta_block:*>,
+	<primal:ciniscotta_block:*>,
+	<primal:desiccated_stone:*>,
+	<primal:mud_dried:*>,
+	<primal:nether_earth:*>,
+	<primal:night_stone:*>,
+	<primal:porphyry_stone:*>
 ];
 
 static removeRegex as string[] = [
@@ -571,24 +593,6 @@ static removeFurnace as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primal.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primal.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.primal.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primal.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primal.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primal.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.primal.furnaceRecipes;
-
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.primal.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.primal.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.primal.removeFurnace;
-
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

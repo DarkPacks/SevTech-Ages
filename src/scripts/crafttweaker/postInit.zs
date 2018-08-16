@@ -240,7 +240,8 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.pickletweaks.init();
 	scripts.crafttweaker.recipes.mods.pneumaticcraft.init();
 	scripts.crafttweaker.recipes.mods.poweradapters.init();
-	scripts.crafttweaker.recipes.mods.primal.init();
+	scripts.crafttweaker.recipes.mods.primal.core.init();
+	scripts.crafttweaker.recipes.mods.primal.stones.init();
 	scripts.crafttweaker.recipes.mods.primalchests.init();
 	scripts.crafttweaker.recipes.mods.primaltech.init();
 	scripts.crafttweaker.recipes.mods.progressiontweaks.init();

@@ -144,7 +144,10 @@ Mod Updates:
     * Carry-Key could get stuck when entering through dimensions
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.36)
-* Chisel & Bits (14.20)
+* Chisel & Bits (14.21)
+    * Fix a crash when rendering invalid ghost blocks.
+    * Enhance API to provide collisions and other bounding box information
+    * Fix performance when placing bits with a ridiculous surplus of extra bits.
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.1.351)
 * Connected Textures Mod (0.32.18)
@@ -201,7 +204,8 @@ Mod Updates:
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
 * Guide API (2.1.6-61)
-* Horse Power (2.6.1.67)
+* Horse Power (2.6.1.68)
+    * Fixed rare crash with the error display of the blocks while holding a lead.
 * Hunting Dimension (1.0.28)
 * Immersive Craft (1.5.0)
 * Immersive Engineering (0.12 - 84)
@@ -244,7 +248,7 @@ Mod Updates:
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.31)
 * PickleTweaks (2.0.17)
-* PrimalCore (0.6.69)
+* PrimalCore (0.6.70)
     * Cauldron item storage size has increased, existing cauldrons will need to be picked up and placed again
     * Fix Corn worldgen issues
     * Fix Worldgen issues

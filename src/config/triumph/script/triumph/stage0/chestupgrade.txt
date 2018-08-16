@@ -1,6 +1,6 @@
-setTranslatedTitle("Storage Upgrade")
+setTranslatedTitle("advancements.stage0.chestupgrade.title")
 
-setIcon("advancements.stage0.chestupgrade.title")
+setIcon("primalchests:primal_chest_advanced")
 
 setTranslatedDescription("advancements.stage0.chestupgrade.description")
 

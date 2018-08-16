@@ -1,6 +1,6 @@
-setTranslatedTitle("Ancient Animals")
+setTranslatedTitle("advancements.stage0.buffalo.title")
 
-setIcon("advancements.stage0.buffalo.title")
+setIcon("totemic:buffalo_items")
 
 setTranslatedDescription("advancements.stage0.buffalo.description")
 

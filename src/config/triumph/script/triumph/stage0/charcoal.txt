@@ -1,6 +1,6 @@
-setTranslatedTitle("Pressing Your Luck")
+setTranslatedTitle("advancements.stage0.charcoal.title")
 
-setIcon("advancements.stage0.charcoal.title")
+setIcon("horsepower:press")
 
 setTranslatedDescription("advancements.stage0.charcoal.description")
 

@@ -17,44 +17,6 @@ static PACK_VERSION as string = "3.1.0"; // Keep below 11 characters
 printHeader();
 
 // ==================================
-// Stage Naming
-static stageNames as string[] = [
-	// Core Stages
-	"tutorial",
-	"zero",
-	"one",
-	"two",
-	"three",
-	"four",
-	"five",
-	"creative",
-
-	// Mob Stages
-	"zero_mob",
-	"one_mob",
-	"two_mob",
-	"three_mob",
-	"four_mob",
-	"five_mob",
-
-	// Unique Stages
-	"baykok",
-	"mapping",
-
-	// Unique stage intended to disable existing items/etc
-	"disabled",
-
-	// Stage for unused creative items
-	"creative_unused"
-];
-
-// ==================================
-// Stage Creation
-for stage in stageNames {
-	ZenStager.initStage(stage);
-}
-
-// ==================================
 // Functions
 function printHeader() {
 	var packVersionForLogo as string = "v" ~ PACK_VERSION;

@@ -13,32 +13,32 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 
 // Core Stages
-static stageTutorial as Stage = ZenStager.getStage("tutorial");
-static stageZero as Stage = ZenStager.getStage("zero");
-static stageOne as Stage = ZenStager.getStage("one");
-static stageTwo as Stage = ZenStager.getStage("two");
-static stageThree as Stage = ZenStager.getStage("three");
-static stageFour as Stage = ZenStager.getStage("four");
-static stageFive as Stage = ZenStager.getStage("five");
-static stageCreative as Stage = ZenStager.getStage("creative");
+static stageTutorial as Stage = ZenStager.initStage("tutorial");
+static stageZero as Stage = ZenStager.initStage("zero");
+static stageOne as Stage = ZenStager.initStage("one");
+static stageTwo as Stage = ZenStager.initStage("two");
+static stageThree as Stage = ZenStager.initStage("three");
+static stageFour as Stage = ZenStager.initStage("four");
+static stageFive as Stage = ZenStager.initStage("five");
+static stageCreative as Stage = ZenStager.initStage("creative");
 
 // Mob Stages
-static stageZeroMob as Stage = ZenStager.getStage("zero_mob");
-static stageOneMob as Stage = ZenStager.getStage("one_mob");
-static stageTwoMob as Stage = ZenStager.getStage("two_mob");
-static stageThreeMob as Stage = ZenStager.getStage("three_mob");
-static stageFourMob as Stage = ZenStager.getStage("four_mob");
-static stageFiveMob as Stage = ZenStager.getStage("five_mob");
+static stageZeroMob as Stage = ZenStager.initStage("zero_mob");
+static stageOneMob as Stage = ZenStager.initStage("one_mob");
+static stageTwoMob as Stage = ZenStager.initStage("two_mob");
+static stageThreeMob as Stage = ZenStager.initStage("three_mob");
+static stageFourMob as Stage = ZenStager.initStage("four_mob");
+static stageFiveMob as Stage = ZenStager.initStage("five_mob");
 
 // Unique Stages
-static stageBaykok as Stage = ZenStager.getStage("baykok");
-static stageMapping as Stage = ZenStager.getStage("mapping");
+static stageBaykok as Stage = ZenStager.initStage("baykok");
+static stageMapping as Stage = ZenStager.initStage("mapping");
 
 // Unique stage intended to disable existing items/etc
-static stageDisabled as Stage = ZenStager.getStage("disabled");
+static stageDisabled as Stage = ZenStager.initStage("disabled");
 
 // Stage for unused creative items
-static stageCreativeUnused as Stage = ZenStager.getStage("creative_unused");
+static stageCreativeUnused as Stage = ZenStager.initStage("creative_unused");
 
 // ==================================
 // Metal Stages

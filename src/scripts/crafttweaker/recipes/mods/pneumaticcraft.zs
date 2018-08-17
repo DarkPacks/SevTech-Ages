@@ -21,6 +21,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:redstone:0>, <minecraft:furnace:0>, <pneumaticcraft:printed_circuit_board:0>]
 		]
 	],
+	<pneumaticcraft:assembly_laser:0> : [
+		[
+			[<pickletweaks:dye_powder:14>, <pneumaticcraft:pneumatic_cylinder:0>, <pneumaticcraft:pneumatic_cylinder:0>],
+			[null, null, <pneumaticcraft:pneumatic_cylinder:0>],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board:0>, metals.compressedIron.ingot]
+		]
+	],
 	<pneumaticcraft:pneumatic_dynamo:0> : [
 		[
 			[null, <pneumaticcraft:advanced_pressure_tube:0>, null],
@@ -212,7 +219,8 @@ static removeRecipes as IIngredient[] = [
 	<pneumaticcraft:programming_puzzle:5>,
 	<pneumaticcraft:programming_puzzle:6>,
 	<pneumaticcraft:programming_puzzle:8>,
-	<pneumaticcraft:programming_puzzle:9>
+	<pneumaticcraft:programming_puzzle:9>,
+	<pneumaticcraft:assembly_laser:0>
 ];
 
 static removeRegex as string[] = [

@@ -58,6 +58,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed Content Tweaker ores only working in quartz grindstone (#3147)
 * Fixed custom Geolosys Ores generating in un-wanted dimensions (#2184)
 * Added recipes for Priaml cosmetic stones (#1672)
+* Fixed Pneumaticraft assembly laser recipe to use correct dye.
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

@@ -99,7 +99,7 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<progressiontweaks:blank_teleporter:0>,
 	<progressiontweaks:spear:0>,
 	<progressiontweaks:stone_hammer:0>,

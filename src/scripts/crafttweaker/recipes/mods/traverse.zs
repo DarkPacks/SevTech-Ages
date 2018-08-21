@@ -66,7 +66,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<traverse:blue_rock_cobblestone_slab:0>,
 	<traverse:blue_rock_slab:0>,
 	<traverse:fir_slab:0>

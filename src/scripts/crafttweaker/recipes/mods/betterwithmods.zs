@@ -330,7 +330,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<betterwithmods:aesthetic:8>,
 	<betterwithmods:aesthetic:12>,
 	<betterwithmods:axle_generator:1>,

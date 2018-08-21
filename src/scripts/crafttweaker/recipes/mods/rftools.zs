@@ -61,7 +61,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<rftools:machine_base:0>,
 	<rftools:machine_frame:0>,
 	<rftools:matter_receiver:0>,

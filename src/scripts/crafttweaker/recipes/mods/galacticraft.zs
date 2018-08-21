@@ -109,7 +109,7 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<extraplanets:electric_parts:0>,
 	<extraplanets:electric_parts:1>,
 	<galacticraftcore:air_fan:0>,

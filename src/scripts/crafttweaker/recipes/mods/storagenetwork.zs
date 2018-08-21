@@ -103,7 +103,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<storagenetwork:ex_kabel:0>,
 	<storagenetwork:im_kabel:0>,
 	<storagenetwork:kabel:0>,

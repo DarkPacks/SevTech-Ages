@@ -58,7 +58,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<quantumstorage:quantum_bag:0>,
 	<quantumstorage:quantum_storage_unit:0>
 ];

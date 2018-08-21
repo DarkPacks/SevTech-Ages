@@ -107,7 +107,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<cookingforblockheads:heating_unit:0>,
 	<cookingforblockheads:ice_unit:0>,
 	<cookingforblockheads:kitchen_floor:0>,

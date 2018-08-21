@@ -76,7 +76,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<waterstrainer:bait_pot:0>,
 	<waterstrainer:garden_trowel:0>,
 	<waterstrainer:strainer_base:0>

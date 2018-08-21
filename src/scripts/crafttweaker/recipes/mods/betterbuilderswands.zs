@@ -72,7 +72,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<betterbuilderswands:wanddiamond:0>,
 	<betterbuilderswands:wandiron:0>,
 	<betterbuilderswands:wandstone:0>,

@@ -280,7 +280,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<refinedstorage:cable:0>,
 	<refinedstorage:constructor:0>,
 	<refinedstorage:controller:0>,

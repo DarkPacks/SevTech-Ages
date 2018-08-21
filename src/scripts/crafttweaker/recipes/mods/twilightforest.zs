@@ -90,7 +90,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<twilightforest:fiery_pickaxe:0>,
 	<twilightforest:fiery_sword:0>,
 	<twilightforest:magic_map_focus:0>,

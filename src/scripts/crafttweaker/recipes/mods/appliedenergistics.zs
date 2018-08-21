@@ -90,7 +90,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<appliedenergistics2:crank:0>,
 	<appliedenergistics2:grindstone:0>,
 	<appliedenergistics2:interface:0>,

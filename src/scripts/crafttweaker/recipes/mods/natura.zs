@@ -536,7 +536,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<natura:nether_slab:1>,
 	<natura:nether_slab:2>,
 	<natura:nether_slab:3>,

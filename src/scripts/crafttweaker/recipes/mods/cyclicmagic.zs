@@ -167,7 +167,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<cyclicmagic:block_forester:0>,
 	<cyclicmagic:charm_antidote:0>,
 	<cyclicmagic:charm_fire:0>,

@@ -175,7 +175,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<betterwithaddons:aqueduct:0>,
 	<betterwithaddons:aqueduct:10>,
 	<betterwithaddons:aqueduct:1>,

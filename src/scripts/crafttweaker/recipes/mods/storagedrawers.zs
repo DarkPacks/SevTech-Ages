@@ -121,7 +121,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<storagedrawers:compdrawers:0>,
 	<storagedrawers:controller:0>,
 	<storagedrawers:controllerslave:0>,

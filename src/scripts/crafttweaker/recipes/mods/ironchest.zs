@@ -168,7 +168,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<ironchest:diamond_crystal_chest_upgrade:0>,
 	<ironchest:diamond_obsidian_chest_upgrade:0>,
 	<ironchest:gold_diamond_chest_upgrade:0>

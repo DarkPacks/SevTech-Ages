@@ -638,7 +638,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<stevescarts:blockcartassembler:0>,
 	<stevescarts:blockliquidmanager:0>,
 	<stevescarts:blockdistributor:0>,

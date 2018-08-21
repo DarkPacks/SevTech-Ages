@@ -412,7 +412,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<bibliocraft:biblioglasses:1>,
 	<bibliocraft:plumbline:0>,
 	<bibliocraft:stockroomcatalog:0>,

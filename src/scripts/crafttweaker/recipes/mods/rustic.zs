@@ -61,7 +61,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<rustic:fertile_soil:0>,
 	<rustic:ironwood_slab_item:0>,
 	<rustic:olive_slab_item:0>

@@ -164,7 +164,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<abyssalcraft:abyingot:0>,
 	<abyssalcraft:charm:0>,
 	<abyssalcraft:cingot:0>,

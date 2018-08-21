@@ -139,7 +139,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<bloodmagic:altar:0>,
 	<bloodmagic:blood_rune:3>,
 	<bloodmagic:blood_rune:4>,

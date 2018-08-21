@@ -37,7 +37,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [];
+static removeRecipes as IItemStack[] = [];
 
 static removeRegex as string[] = [
 	"darkutils:dyed_slime_block_.*"

@@ -113,7 +113,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<buildcraftbuilders:quarry:0>,
 	<buildcraftcore:engine:0>,
 	<buildcraftcore:list:0>,

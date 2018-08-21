@@ -91,7 +91,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<modularrouters:augment_core:0>,
 	<modularrouters:blank_module:0>,
 	<modularrouters:blank_upgrade:0>,

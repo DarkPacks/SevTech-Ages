@@ -147,7 +147,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<industrialforegoing:animal_independence_selector:0>,
 	<industrialforegoing:black_hole_controller:0>,
 	<industrialforegoing:conveyor:3>,

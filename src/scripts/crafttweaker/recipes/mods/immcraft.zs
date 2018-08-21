@@ -70,7 +70,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<immcraft:bookshelf:0>,
 	<immcraft:chest:0>,
 	<immcraft:cupboard:0>,

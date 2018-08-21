@@ -296,7 +296,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<vc:item_airship_balloon:0>,
 	<vc:item_airship_engine:0>,
 	<vc:item_airship_ignition:0>,

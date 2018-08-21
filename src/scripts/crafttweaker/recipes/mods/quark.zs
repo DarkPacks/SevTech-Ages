@@ -50,7 +50,7 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<quark:trowel:0>
 ];
 

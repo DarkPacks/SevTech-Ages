@@ -42,7 +42,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<refinedstorageaddons:wireless_crafting_grid:0>
 ];
 

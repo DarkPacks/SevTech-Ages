@@ -89,7 +89,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<mysticalagriculture:supremium_boots:0>,
 	<mysticalagriculture:ultimate_furnace:0>,
 	<mysticalagriculture:crafting:7>

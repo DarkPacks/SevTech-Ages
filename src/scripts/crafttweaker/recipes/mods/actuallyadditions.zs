@@ -417,7 +417,7 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<actuallyadditions:block_atomic_reconstructor:0>,
 	<actuallyadditions:block_bio_reactor:0>,
 	<actuallyadditions:block_breaker:0>,

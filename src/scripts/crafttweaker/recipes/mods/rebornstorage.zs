@@ -119,7 +119,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<rebornstorage:multicrafter:1>,
 	<rebornstorage:multicrafter:2>,
 	<rebornstorage:multicrafter:3>,

@@ -174,7 +174,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<tconstruct:book:0>,
 	<tconstruct:clear_glass:0>,
 	<tconstruct:clear_stained_glass:*>,

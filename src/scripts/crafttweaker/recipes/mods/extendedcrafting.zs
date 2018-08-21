@@ -106,7 +106,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<extendedcrafting:ender_alternator:0>,
 	<extendedcrafting:ender_crafter:0>,
 	<extendedcrafting:material:10>,

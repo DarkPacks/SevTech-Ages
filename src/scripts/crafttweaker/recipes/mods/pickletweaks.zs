@@ -182,7 +182,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<pickletweaks:dye_powder:*>,
 	<pickletweaks:grass_mesh:0>,
 	<pickletweaks:mesh:0>,

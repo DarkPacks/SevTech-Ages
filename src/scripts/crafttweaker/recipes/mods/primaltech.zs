@@ -223,7 +223,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<primal_tech:leaf_bed>,
 	<primal_tech:rock>,
 	<primal_tech:stone_anvil>,

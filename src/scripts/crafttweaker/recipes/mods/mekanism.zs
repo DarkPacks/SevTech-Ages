@@ -55,7 +55,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<mekanism:basicblock:7>,
 	<mekanism:machineblock3:3>,
 	<mekanism:saltblock:0>

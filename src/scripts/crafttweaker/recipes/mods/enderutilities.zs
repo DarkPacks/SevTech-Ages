@@ -77,7 +77,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<enderutilities:endercapacitor:1>,
 	<enderutilities:endercapacitor:2>,
 	<enderutilities:enderpart:1>,

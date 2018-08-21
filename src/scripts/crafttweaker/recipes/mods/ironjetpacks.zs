@@ -56,7 +56,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<ironjetpacks:advanced_coil:0>,
 	<ironjetpacks:basic_coil:0>,
 	<ironjetpacks:electrum_capacitor:0>

@@ -214,7 +214,7 @@ Mod Updates:
 * Immersive Engineering (0.12 - 84)
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.1)
-* Industrial Foregoing (1.10.7-204)
+* Industrial Foregoing (1.11.1-206)
 * Integrated Dynamics (0.11.16)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
@@ -278,7 +278,7 @@ Mod Updates:
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.0.17)
 * Quantum Storage (4.6.1)
-* Quark (r1.4-125)
+* Quark (r1.5-127)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
 * Reborn Core (3.10.0.332)

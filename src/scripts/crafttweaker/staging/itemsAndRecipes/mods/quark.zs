@@ -108,6 +108,8 @@ static stagedItems as IIngredient[][string] = {
 		<quark:brick_wall:0>,
 		<quark:glass_item_frame:0>,
 		<quark:glass_shards:*>,
+		<quark:gold_button:0>,
+		<quark:iron_button:0>,
 		<quark:iron_ladder:0>,
 		<quark:paper_wall:0>,
 		<quark:stonebrick_wall:0>
@@ -153,18 +155,19 @@ static stagedItems as IIngredient[][string] = {
 
 		// Misc
 		<quark:arrow_ender:0>,
+		<quark:biotite_block:0>,
 		<quark:biotite_block:1>,
 		<quark:biotite_block:2>,
-		<quark:biotite_block:0>,
 		<quark:biotite_slab:0>,
 		<quark:biotite_wall:0>,
+		<quark:duskbound_block:0>,
 		<quark:duskbound_block_slab:0>,
 		<quark:duskbound_block_wall:0>,
-		<quark:duskbound_block:0>,
 		<quark:duskbound_lantern:0>,
 		<quark:ender_watcher:0>,
 		<quark:iron_rod:0>,
-		<quark:rain_detector:0>
+		<quark:rain_detector:0>,
+		<quark:redstone_randomizer:0>
 	]
 };
 

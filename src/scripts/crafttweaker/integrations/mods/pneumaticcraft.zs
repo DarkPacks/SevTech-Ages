@@ -53,4 +53,7 @@ function init() {
 
 	// Removing coal to diamond in pressure chamber
 	PressureChamber.removeRecipe([<minecraft:diamond:0>]);
+
+	// Slime Ingot (IF)
+	PressureChamber.addRecipe([<industrialforegoing:pink_slime> * 4, metals.iron.ingot.firstItem * 1], 3.5, [<industrialforegoing:pink_slime_ingot> * 1]);
 }

@@ -5,7 +5,6 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
-import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -59,6 +58,7 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:ore_processor:0>,
 		<industrialforegoing:petrified_fuel_generator:0>,
 		<industrialforegoing:pink_slime:0>,
+		<industrialforegoing:pink_slime_ingot:0>,
 		<industrialforegoing:plant_interactor:0>,
 		<industrialforegoing:potion_enervator:0>,
 		<industrialforegoing:protein_generator:0>,
@@ -90,7 +90,8 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:black_hole_controller:0>,
 		<industrialforegoing:black_hole_label:0>,
 		<industrialforegoing:black_hole_tank:0>,
-		<industrialforegoing:black_hole_unit:0>
+		<industrialforegoing:black_hole_unit:0>,
+		<industrialforegoing:fortune_addon:0>
 	]
 };
 

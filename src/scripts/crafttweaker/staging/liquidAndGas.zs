@@ -21,6 +21,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 // Liquid "Items"
 static liquidItemsForStage as IItemStack[][string] = {
@@ -219,6 +220,11 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:sulphuricacid>,
 		<liquid:superium>,
 		<liquid:supremium>
+	],
+
+	stageDisabled.stage: [
+		<liquid:if.ore_fluid_fermented>,
+		<liquid:if.ore_fluid_raw>
 	]
 };
 

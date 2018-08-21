@@ -418,6 +418,28 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:nether_planks:1>, <natura:nether_planks:1>],
 			[<natura:nether_planks:1>, <natura:nether_planks:1>]
 		]
+	],
+	<natura:colored_grass:0> : [
+		[
+			[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, null],
+			[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <minecraft:dirt>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>],
+			[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, null]
+		]
+	],
+	<natura:colored_grass_slab:0> * 3 : [
+		[
+			[<natura:colored_grass:0>, <natura:colored_grass:0>, <natura:colored_grass:0>]
+		]
+	],
+	<natura:colored_grass_slab:1> * 3 : [
+		[
+			[<natura:colored_grass:1>, <natura:colored_grass:1>, <natura:colored_grass:1>]
+		]
+	],
+	<natura:colored_grass_slab:2> * 3 : [
+		[
+			[<natura:colored_grass:2>, <natura:colored_grass:2>, <natura:colored_grass:2>]
+		]
 	]
 };
 
@@ -518,6 +540,27 @@ static mirroredRecipes as IIngredient[][][][IItemStack] = {
 			[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
 			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
 		]
+	],
+	<natura:colored_grass_stairs_topiary:0>: [
+		[
+			[null, null, <natura:colored_grass:0>],
+			[null, <natura:colored_grass:0>, <natura:colored_grass:0>],
+			[<natura:colored_grass:0>, <natura:colored_grass:0>, <natura:colored_grass:0>]
+		]
+	],
+	<natura:colored_grass_stairs_bluegrass:0>: [
+		[
+			[null, null, <natura:colored_grass:1>],
+			[null, <natura:colored_grass:1>, <natura:colored_grass:1>],
+			[<natura:colored_grass:1>, <natura:colored_grass:1>, <natura:colored_grass:1>]
+		]
+	],
+	<natura:colored_grass_stairs_autumnal:0>: [
+		[
+			[null, null, <natura:colored_grass:2>],
+			[null, <natura:colored_grass:2>, <natura:colored_grass:2>],
+			[<natura:colored_grass:2>, <natura:colored_grass:2>, <natura:colored_grass:2>]
+		]
 	]
 };
 
@@ -528,6 +571,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<natura:colored_grass:1> : [
+		[<natura:colored_grass:0>, <minecraft:dye:4>]
+	],
+	<natura:colored_grass:2> : [
+		[<natura:colored_grass:0>, <ore:dyeRed>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -537,19 +586,28 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<natura:colored_grass:0>,
+	<natura:colored_grass:1>,
+	<natura:colored_grass:2>,
+	<natura:colored_grass_slab:0>,
+	<natura:colored_grass_slab:1>,
+	<natura:colored_grass_slab:2>,
+	<natura:colored_grass_stairs_autumnal:0>,
+	<natura:colored_grass_stairs_bluegrass:0>,
+	<natura:colored_grass_stairs_topiary:0>,
+	<natura:nether_slab:0>,
 	<natura:nether_slab:1>,
 	<natura:nether_slab:2>,
 	<natura:nether_slab:3>,
-	<natura:nether_slab:0>,
+	<natura:overworld_slab2:0>,
 	<natura:overworld_slab2:1>,
 	<natura:overworld_slab2:2>,
 	<natura:overworld_slab2:3>,
-	<natura:overworld_slab2:0>,
+	<natura:overworld_slab:0>,
 	<natura:overworld_slab:1>,
 	<natura:overworld_slab:2>,
 	<natura:overworld_slab:3>,
-	<natura:overworld_slab:4>,
-	<natura:overworld_slab:0>,
+	<natura:overworld_slab:4>
 ];
 
 static removeRegex as string[] = [

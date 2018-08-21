@@ -72,7 +72,6 @@ var seeds = [
 	<primal:nether_seed:0>,
 	<primal:rush_seeds:0>,
 	<primal:searing_ember:0>,
-	<primal:sinuous_spores:0>,
 	<primal:valus_seed:0>,
 	<primal:void_seed:0>
 ] as IItemStack[];

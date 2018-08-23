@@ -225,12 +225,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-
-	// ==================================
-	// Stage Five
-	// ==================================
 	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
-		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_chest:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer:0>, null],
 				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_chest:0>, <extraplanets:tier1_pressure_layer:0>],

@@ -158,6 +158,13 @@ static materialsForStage as string[][string] = {
 // Material Stage
 // Prevents the material from being used.
 static modifierForStage as string[][string] = {
+	stageThree.stage : [
+		"haste",
+		"luck",
+		"mending_moss",
+		"oreexcavate"
+	],
+
 	stageDisabled.stage: [
 		"gardening"
 	]

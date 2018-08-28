@@ -81,7 +81,7 @@ Enhancements:
 * Added more recipes to the Industrial Loom (#2293)
 * Added Bibliocraft shelf recipe with BWM siding (#1476)
 
-Forge: 14.23.4.2757
+Forge: 14.23.4.2758
 
 Mods Added:
 * Building Gadgets (1.6.2)
@@ -91,7 +91,7 @@ Mods Added:
     * Needed for the mods which don't have only docs but support IGW.
 * JustEnoughIDs (1.0.1-16)
     * Allows us to add more content #ContentUpdateAnyone?
-* LibEx (1.0.6)
+* LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
 * ZenStages (0.2.0-13)
     * Allows us to create staging modpacks far easier.
@@ -114,7 +114,7 @@ Mod Updates:
     * If two mobs/players/whatevers close to each other both have Dread Plague I, they can infect each other with Dread Plague II
     * Lesser Shoggoths now have an AI for monolith construction, which makes the construction happen more frequently
     * The purging ritual now only converts biomes that are Dreadlands biomes
-* AbyssalCraft Integration (1.6.5)
+* AbyssalCraft Integration (1.6.6)
 * Actually Additions (r140)
     * Added redstone sensitivity / comparator output to Bio Reactor.
     * The farmer will now only plant from seed slots.
@@ -128,19 +128,21 @@ Mod Updates:
 * Astral Sorcery (1.9.4)
 * AutoRegLib (1.3-20)
 * B.A.S.E (3.10.0)
-* Better Advancements (0.0.8.52)
+* Better Advancements (0.0.11.56)
 * Better With Addons (0.45)
     * Changes Lanterns to only extinguish when sneaking while rightclicking.
     * Fixes some networking issues in multiplayer when using a writing table
-* Better With Mods (2.3.9)
+* Better With Mods (2.3.10)
 * BiblioCraft (2.4.5)
-* Blood Magic (2.3.0-99)
+* Blood Magic (2.3.2-100)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
     * Fixed Lava Crystal not syphoning LP
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
     * Fixed Mob Sacrifice Array so it no longer kills bosses and players
+    * Fixed issues with inter-dimensional teleportation
+    * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
 * BnBGamingCore (0.9.0)
-* BnBGamingLib (2.13.0)
+* BnBGamingLib (2.14.0)
 * Bookshelf (2.3.557)
 * CarryOn (1.10)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
@@ -148,7 +150,7 @@ Mod Updates:
     * Carry-Key could get stuck when entering through dimensions
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.36)
-* Chisel & Bits (14.21)
+* Chisel & Bits (14.23)
     * Fix a crash when rendering invalid ghost blocks.
     * Enhance API to provide collisions and other bounding box information
     * Fix performance when placing bits with a ridiculous surplus of extra bits.
@@ -185,7 +187,7 @@ Mod Updates:
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
 * Environmental Tech (2.0.15.1)
-* Extended Crafting (1.4.2)
+* Extended Crafting (1.4.3)
     * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
@@ -196,23 +198,26 @@ Mod Updates:
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
 * FindMe (1.0.2-6)
-* FoamFix (0.10.0)
+* FoamFix (0.10.1)
     * Please note that this is the formerly "Anarchy" version; the "Lawful" version is no longer distributed.
     * Optimized model deduplication speed, though with the increased number of recursion it won't be noticeable in practice - however, it should lead to more RAM saved.
 * Forge Multi Part (2.5.0.71)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
+* Galacticraft Tweaker (1.0.2)
 * Game Stages (2.0.98)
-* Geolosys (2.1.1)
+* Geolosys (2.1.2)
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
+    * FIX: log outputs with the Mineral tracking process; this was causing lots of lag.
+    * CHANGED: storage method of internal variables to an almost-no-latency method; helps with mineral tracking too.
 * Guide API (2.1.6-61)
 * Horse Power (2.6.1.68)
     * Fixed rare crash with the error display of the blocks while holding a lead.
 * Hunting Dimension (1.0.28)
 * Immersive Craft (1.5.0)
-* Immersive Engineering (0.12 - 84)
+* Immersive Engineering (0.12 - 85)
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.1)
 * Industrial Foregoing (1.11.1-206)
@@ -235,13 +240,15 @@ Mod Updates:
     * Changed some code with the Fans due to reports of them causing server crashes when broken.
     * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
     * Should fix beheading attribute on mobmasher returning null for mobs without heads and crashing people - whoops.
+* Modular Routers (3.2.0)
+    * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
 * Mod Tweaker (4.0.13)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.13)
     * Fixed a crash involving PneumaticCraft harvest drones
 * Natura (4.3.2.62)
 * Neat (1.4-17)
-* Nether Ex (2.0.6)
+* Nether Ex (2.0.8)
     * Pigtificate Villages not spawning
     * Potion effects from decreasing performance
     * Forge population not being triggered
@@ -250,11 +257,12 @@ Mod Updates:
     * A crash caused when right-clicking Zombie Pigmen
 * Not Enough Items (4.2.1.238)
 * Nutrition (3.5.0)
-* Ore Excavation (1.4.119)
+* Ore Excavation (1.4.123)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.31)
+* Overloaded (0.0.53)
 * PickleTweaks (2.0.17)
-* PrimalCore (0.6.70)
+* PrimalCore (0.6.78)
     * Cauldron item storage size has increased, existing cauldrons will need to be picked up and placed again
     * Fix Corn worldgen issues
     * Fix Worldgen issues
@@ -292,6 +300,7 @@ Mod Updates:
     * Removed Network Bag
     * Removed Network Picker
 * Rustic (1.0.8)
+* Scannable (1.6.3.22)
 * SevTweaks (0.2.1-19)
 * Simple Generators (2.0.15.1)
 * Simple Storage Network (1.2.9)

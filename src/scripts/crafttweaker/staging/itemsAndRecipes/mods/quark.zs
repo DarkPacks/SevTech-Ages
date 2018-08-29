@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
@@ -168,6 +169,10 @@ static stagedItems as IIngredient[][string] = {
 		<quark:iron_rod:0>,
 		<quark:rain_detector:0>,
 		<quark:redstone_randomizer:0>
+	],
+
+	stageDisabled.stage: [
+		<quark:paper_wall_big>
 	]
 };
 

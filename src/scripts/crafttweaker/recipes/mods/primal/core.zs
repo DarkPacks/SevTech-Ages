@@ -510,6 +510,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<primal:hide_raw:0>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})],
 		[<primal:hide_dried:0>, <primal:tannin_ground:0>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
+	<primal:hide_tanned:0>: [
+		[<primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <primal:hide_dried:0>, <primal:tannin_ground:0>]
+	],
 	// Mud Clump
 	<primal:mud_clump:0>: [
 		[<minecraft:dirt:0>, <minecraft:dirt:0>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],

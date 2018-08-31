@@ -343,7 +343,6 @@ static removeRecipes as IItemStack[] = [
 	<betterwithmods:material:8>,
 	<betterwithmods:material:9>,
 	<betterwithmods:material:0>,
-	<betterwithmods:rope:0>,
 	<betterwithmods:saw:0>,
 	<betterwithmods:shaft:0>,
 	<betterwithmods:single_machine:3>,

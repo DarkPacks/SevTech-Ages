@@ -597,15 +597,14 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:enchanting_table:0>,
 		<minecraft:ender_chest:0>,
 		<minecraft:furnace_minecart:0>,
-		<minecraft:glowstone_dust:0>,
 		<minecraft:glowstone:0>,
+		<minecraft:glowstone_dust:0>,
 		<minecraft:hopper_minecart:0>,
-		<minecraft:lingering_potion:*>,
 		<minecraft:minecart:0>,
 		<minecraft:noteblock:0>,
 		<minecraft:observer:0>,
 		<minecraft:obsidian:0>,
-		<minecraft:potion:*>,
+		<minecraft:potion:0>,
 		<minecraft:record_11:0>,
 		<minecraft:record_13:0>,
 		<minecraft:record_blocks:0>,
@@ -621,7 +620,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:skull:1>,
 		<minecraft:soul_sand:0>,
 		<minecraft:spectral_arrow:0>,
-		<minecraft:splash_potion:*>,
 		<minecraft:tipped_arrow:*>,
 		<minecraft:tnt_minecart:0>,
 		<minecraft:trapped_chest:0>
@@ -734,4 +732,22 @@ function init() {
 	}
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
+
+	// Handle Potion bottle Staging.
+	for subItem in <minecraft:potion>.definition.subItems {
+		// Water should be allowed in Stage Two rest are in Stage Three.
+		if (subItem.tag has "Potion" & subItem.tag.Potion == "minecraft:water") {
+			ZenStager.getStage(stageTwo.stage).addIngredient(subItem);
+		} else {
+			ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+		}
+	}
+	// Handle Splash Potion Staging.
+	for subItem in <minecraft:splash_potion>.definition.subItems {
+		ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+	}
+	// Handle Lingering Potion Staging.
+	for subItem in <minecraft:lingering_potion>.definition.subItems {
+		ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+	}
 }

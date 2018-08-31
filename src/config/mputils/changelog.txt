@@ -82,6 +82,7 @@ Enhancements:
 * Added more recipes to the Industrial Loom (#2293)
 * Added Bibliocraft shelf recipe with BWM siding (#1476)
 * Tweaked the spawn weight for Steppe Wolves (#3315)
+* Re-Stage water bottle to Stage Two (#1648)
 
 Forge: 14.23.4.2758
 

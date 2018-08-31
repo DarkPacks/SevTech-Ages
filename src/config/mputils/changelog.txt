@@ -93,7 +93,7 @@ Mods Added:
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
-* ZenStages (0.2.0-13)
+* ZenStages (0.5.0-15)
     * Allows us to create staging modpacks far easier.
 
 Mods Removed:
@@ -134,7 +134,7 @@ Mod Updates:
     * Fixes some networking issues in multiplayer when using a writing table
 * Better With Mods (2.3.10)
 * BiblioCraft (2.4.5)
-* Blood Magic (2.3.2-100)
+* Blood Magic (2.3.2-101)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
     * Fixed Lava Crystal not syphoning LP
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
@@ -157,7 +157,7 @@ Mod Updates:
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.1.351)
 * Connected Textures Mod (0.32.18)
-* Construct's Armory (1.0.2)
+* Construct's Armory (1.1.0)
 * Content Tweaker (4.8.0)
 * Cooking With Blockheads (6.4.44)
     * Added Storage Drawers support
@@ -206,7 +206,7 @@ Mod Updates:
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
 * Galacticraft Tweaker (1.0.2)
-* Game Stages (2.0.98)
+* Game Stages (2.0.105)
 * Geolosys (2.1.2)
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
@@ -220,7 +220,7 @@ Mod Updates:
 * Immersive Engineering (0.12 - 85)
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.1)
-* Industrial Foregoing (1.11.1-206)
+* Industrial Foregoing (1.11.2-212)
 * Integrated Dynamics (0.11.16)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
@@ -257,7 +257,7 @@ Mod Updates:
     * A crash caused when right-clicking Zombie Pigmen
 * Not Enough Items (4.2.1.238)
 * Nutrition (3.5.0)
-* Ore Excavation (1.4.123)
+* Ore Excavation (1.4.126)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.31)
 * Overloaded (0.0.53)
@@ -268,7 +268,7 @@ Mod Updates:
     * Fix Worldgen issues
 * Prestige (1.0.019)
 * Placebo (1.4.1)
-* PneumaticCraft (0.7.6-255)
+* PneumaticCraft (0.7.8-259)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
     * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
@@ -286,7 +286,7 @@ Mod Updates:
     * Fixed NPE when using a newly-crafted GPS Area Tool
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.0.17)
-* Quantum Storage (4.6.1)
+* Quantum Storage (4.6.2)
 * Quark (r1.5-127)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
@@ -301,7 +301,7 @@ Mod Updates:
     * Removed Network Picker
 * Rustic (1.0.8)
 * Scannable (1.6.3.22)
-* SevTweaks (0.2.1-19)
+* SevTweaks (0.2.1-20)
 * Simple Generators (2.0.15.1)
 * Simple Storage Network (1.2.9)
 * Steve Carts (2.4.22.109)

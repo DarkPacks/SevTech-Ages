@@ -60,6 +60,7 @@ should not be repairable anyways using this method. (#2925)
 * Added recipes for Priaml cosmetic stones (#1672)
 * Fixed Pneumaticraft assembly laser recipe to use correct dye.
 * Added recipes for missing Natura Grass blocks/slabs/stairs (#3310)
+* Fixed missing recipe for emptying rustic bottles (#2157)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

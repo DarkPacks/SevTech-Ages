@@ -84,4 +84,18 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeRecipes(removeRegex);
+
+	// Rustic Bottle -> Empty Bottle
+	recipes.addShapeless("rutic_empting",
+		<minecraft:glass_bottle>,
+		[<rustic:fluid_bottle>.marked("bottle")],
+		function (out, ins, cInfo) {
+			// Only allow conversion with the bottles which actually contain something.
+			if (ins.bottle.tag has "Fluid") {
+				return out;
+			}
+			return null;
+		},
+		null
+	);
 }

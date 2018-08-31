@@ -184,7 +184,6 @@ static removeRecipes as IItemStack[] = [
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:firewood_slab:0>,
 	<tconstruct:materials:16>,
-	<tconstruct:pattern:0>,
 	<tconstruct:piggybackpack:0>,
 	<tconstruct:seared_furnace_controller:0>,
 	<tconstruct:smeltery_controller:0>,
@@ -193,6 +192,10 @@ static removeRecipes as IItemStack[] = [
 	<tconstruct:stone_torch:0>,
 	<tconstruct:tinker_tank_controller:0>,
 	<tconstruct:wood_rail:0>
+];
+
+static removeRegex as string[] = [
+	"tconstruct:tools/pattern"
 ];
 
 function init() {
@@ -207,4 +210,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeRecipes(removeRegex);
 }

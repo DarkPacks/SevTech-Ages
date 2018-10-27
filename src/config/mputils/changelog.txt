@@ -86,6 +86,7 @@ Enhancements:
 * Tweaked the spawn weight for Steppe Wolves (#3315)
 * Re-Stage water bottle to Stage Two (#1648)
 * Added recipes to the Squeezer to help Alcohol Production (#2724)
+* Added more wood items from Natura to OreDict to enforce more barrel compat.
 
 Forge: 14.23.4.2758
 

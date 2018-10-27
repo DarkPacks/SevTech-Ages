@@ -88,7 +88,7 @@ Enhancements:
 * Added recipes to the Squeezer to help Alcohol Production (#2724)
 * Added more wood items from Natura to OreDict to enforce more barrel compat.
 
-Forge: 14.23.4.2758
+Forge: 14.23.5.2768
 
 Mods Added:
 * BetterWithLib (1.5)

@@ -93,7 +93,7 @@ Mods Added:
     * This replaces Tomb Many Graves.
 * In-Game Wiki
     * Needed for the mods which don't have only docs but support IGW.
-* JustEnoughIDs (1.0.1-16)
+* JustEnoughIDs (1.0.2-26)
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
@@ -107,7 +107,7 @@ Mods Removed:
 
 Mod Updates:
 * A Block of Charcoal (1.2)
-* AbyssalCraft (1.9.4.11)
+* AbyssalCraft (1.9.4.12)
     * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
     * Fixed a dupe bug in the Materializer GUI
     * Reduced the range of Cha'garoth's melee attacks
@@ -133,10 +133,11 @@ Mod Updates:
 * AutoRegLib (1.3-20)
 * B.A.S.E (3.10.0)
 * Better Advancements (0.0.11.56)
+* Better Foliage (2.2.0)
 * Better With Addons (0.45)
     * Changes Lanterns to only extinguish when sneaking while rightclicking.
     * Fixes some networking issues in multiplayer when using a writing table
-* Better With Mods (2.3.10)
+* Better With Mods (2.3.11)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.2-101)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -147,20 +148,23 @@ Mod Updates:
     * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
 * BnBGamingCore (0.9.0)
 * BnBGamingLib (2.14.0)
-* Bookshelf (2.3.557)
+* Bookshelf (2.3.267)
 * CarryOn (1.10)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
     * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
     * Carry-Key could get stuck when entering through dimensions
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.36)
+* Chisel (0.2.1.35)
 * Chisel & Bits (14.23)
     * Fix a crash when rendering invalid ghost blocks.
     * Enhance API to provide collisions and other bounding box information
     * Fix performance when placing bits with a ridiculous surplus of extra bits.
+* Client Tweaks (3.1.9)
+    * Removed Hotbar Torch Tweaks
 * Clumps (3.1.1)
-* Code Chicken Lib (3.2.1.351)
-* Connected Textures Mod (0.32.18)
+* Code Chicken Lib (3.2.2.353)
+* Connected Textures Mod (0.3.2.20)
 * Construct's Armory (1.1.0)
 * Content Tweaker (4.8.0)
 * Cooking With Blockheads (6.4.44)
@@ -196,13 +200,13 @@ Mod Updates:
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
     * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
-* ExtraPlanets (0.4.2)
-* Farming For Blockheads (3.1.21)
+* ExtraPlanets (0.4.3)
+* Farming For Blockheads (3.1.25)
     * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
 * FastWorkbench (1.5.1)
 * FindMe (1.0.2-6)
-* FoamFix (0.10.1)
+* FoamFix (0.10.2)
     * Please note that this is the formerly "Anarchy" version; the "Lawful" version is no longer distributed.
     * Optimized model deduplication speed, though with the increased number of recursion it won't be noticeable in practice - however, it should lead to more RAM saved.
 * Forge Multi Part (2.5.0.71)
@@ -210,7 +214,7 @@ Mod Updates:
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
 * Galacticraft Tweaker (1.0.2)
-* Game Stages (2.0.105)
+* Game Stages (2.0.109)
 * Geolosys (2.1.2)
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
@@ -221,7 +225,7 @@ Mod Updates:
     * Fixed rare crash with the error display of the blocks while holding a lead.
 * Hunting Dimension (1.0.28)
 * Immersive Craft (1.5.0)
-* Immersive Engineering (0.12 - 85)
+* Immersive Engineering (0.12-86)
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.1)
 * Industrial Foregoing (1.11.2-212)
@@ -232,8 +236,9 @@ Mod Updates:
     * Fix incomplete flipped operators throwing errors
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
 * Iron Chests (7.0.46.831)
-* Item Stages (2.0.36)
-* Just Enough Items (4.12.0.215)
+* Item Stages (2.0.41)
+* Just Enough Items (4.12.1.217)
+* KleeSlabs (5.4.11)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
@@ -246,11 +251,12 @@ Mod Updates:
     * Should fix beheading attribute on mobmasher returning null for mobs without heads and crashing people - whoops.
 * Modular Routers (3.2.0)
     * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
-* Mod Tweaker (4.0.13)
+* Mod Tweaker (4.0.15)
 * MulitBlock Stages (1.1.1)
 * Mystical Agriculture (1.6.13)
     * Fixed a crash involving PneumaticCraft harvest drones
 * Natura (4.3.2.62)
+* Not Enough Items (2.4.2.240)
 * Neat (1.4-17)
 * Nether Ex (2.0.8)
     * Pigtificate Villages not spawning
@@ -261,7 +267,7 @@ Mod Updates:
     * A crash caused when right-clicking Zombie Pigmen
 * Not Enough Items (4.2.1.238)
 * Nutrition (3.5.0)
-* Ore Excavation (1.4.126)
+* Ore Excavation (1.4.129)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.31)
 * Overloaded (0.0.53)
@@ -291,29 +297,30 @@ Mod Updates:
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.0.17)
 * Quantum Storage (4.6.2)
-* Quark (r1.5-127)
+* Quark (r1.5-129)
 * RFTools (7.55)
 * RFTools Control (1.9.1)
 * Reborn Core (3.10.0.332)
 * Reborn Storage (3.2.2.65)
 * Recipe Stages (1.1.1)
-* Refined Storage (1.6.3)
+* Refined Storage (1.6.4)
     * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
     * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
-* Refined Storage Addons (0.4.1)
+* Refined Storage Addons (0.4.2)
     * Removed Network Bag
     * Removed Network Picker
+    * Removed Infinite Wireless Transmitter
 * Rustic (1.0.8)
 * Scannable (1.6.3.22)
 * SevTweaks (0.2.1-20)
 * Simple Generators (2.0.15.1)
 * Simple Storage Network (1.2.9)
-* Steve Carts (2.4.22.109)
+* Steve Carts (2.4.23.113)
 * Storage Drawers (5.3.7)
 * Tesla Core Lib (1.0.15.13)
 * The Beneath (1.4.2)
 * Together Forever (1.0.11-20)
-* Traverse (1.5.5)
+* Traverse (1.6.0-66)
 * Translocators (2.5.1.77)
 * Triumph (2.2.0)
 * The Betweenlands (3.3.11)

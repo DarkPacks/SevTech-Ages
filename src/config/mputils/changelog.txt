@@ -62,6 +62,7 @@ should not be repairable anyways using this method. (#2925)
 * Added recipes for missing Natura Grass blocks/slabs/stairs (#3310)
 * Fixed missing recipe for emptying rustic bottles (#2157)
 * Tweaked staging for rustic slate blocks (#3372)
+* Fixed conflicting recipes with a diamond apple (#3446)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.

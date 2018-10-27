@@ -20,6 +20,7 @@ static stagedItems as IIngredient[][string] = {
 		<conarm:armorforge:0>.withTag({textureBlock: {id: "twilightforest:block_storage", Count: 1 as byte, Damage: 2 as short}}),
 		<conarm:armorstation:0>,
 		<conarm:book:0>,
+		<conarm:frosty_soles:0>,
 		<conarm:gauntlet_mat:0>,
 		<conarm:gauntlet_mat_speed:0>,
 		<conarm:invisible_ink:0>,

@@ -39,7 +39,6 @@ static hardnessItems as float[IItemStack] = {
 	<nex:netherrack:3>: 2,
 	<poweradapters:mj:0>: 2,
 	<primal_tech:leaf_bed:*>: 0.2,
-	<primal:earthwax_block:0>: 2,
 	<primal:scoria_stone:0>: 2,
 	<uppers:upper:0>: 3
 };

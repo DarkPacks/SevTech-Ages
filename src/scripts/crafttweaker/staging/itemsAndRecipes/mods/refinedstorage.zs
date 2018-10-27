@@ -111,13 +111,14 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<refinedstorage:processor:0>,
 	<refinedstorage:processor:1>,
 	<refinedstorage:processor:2>,
 	<refinedstorage:processor:3>,
 	<refinedstorage:processor:4>,
 	<refinedstorage:processor:5>,
 	<refinedstorage:processor:6>,
-	<refinedstorage:processor:0>
+	<refinedstorage:processor_binding:0>
 ];
 
 static hiddenRemove as IIngredient[] = [

@@ -270,7 +270,6 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:cluster:10>],
 		[<geolosys:ore:10>],
 		[<geolosys:ore_sample:10>, <immcraft:rock:0>],
-		[<primal:ore_magnetite:*>],
 		[<cyclicmagic:uncrafting_block:0>]
 	]
 };

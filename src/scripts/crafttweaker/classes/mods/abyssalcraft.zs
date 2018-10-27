@@ -20,7 +20,7 @@ zenClass AbyssalCraft {
 	var default_xp as float;
 
 	zenConstructor(defaultXP as float) {
-		default_xp as defaultXP;
+		default_xp = defaultXP;
 	}
 
 	/*

@@ -176,6 +176,7 @@ static hiddenRemove as IIngredient[] = [
 	<cyclicmagic:block_miner:0>,
 	<cyclicmagic:block_miner_smart:0>,
 	<cyclicmagic:block_workbench:0>,
+	<cyclicmagic:card_location:0>,
 	<cyclicmagic:charm_air:0>,
 	<cyclicmagic:glowing_chorus:0>,
 	<cyclicmagic:mattock:0>,

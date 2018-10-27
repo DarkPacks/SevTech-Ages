@@ -322,7 +322,10 @@ static removeRegex as string[] = [
 	"refinedstorage:cut_advanced_processor",
 	"refinedstorage:cut_basic_processor",
 	"refinedstorage:cut_improved_processor",
-	"refinedstorage:cut_silicon"
+	"refinedstorage:cut_silicon",
+	"refinedstorage:raw_advanced_processor",
+	"refinedstorage:raw_basic_processor",
+	"refinedstorage:raw_improved_processor"
 ];
 
 function init() {

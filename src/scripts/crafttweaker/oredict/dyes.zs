@@ -30,7 +30,6 @@ import crafttweaker.item.IItemStack;
 <ore:dyeBrown>.remove(<betterwithmods:material:5>);
 <ore:dyeBrown>.remove(<industrialforegoing:fertilizer:0>);
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
-<ore:dyeBrown>.remove(<primal:earthwax_clump:0>);
 <ore:dyeCyan>.remove(<minecraft:dye:6>);
 <ore:dyeGray>.remove(<minecraft:dye:8>);
 <ore:dyeGreen>.remove(<minecraft:dye:2>);

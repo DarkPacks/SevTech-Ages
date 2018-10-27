@@ -7,6 +7,7 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
+		<cookingforblockheads:cabinet:0>,
 		<cookingforblockheads:cooking_table:0>,
 		<cookingforblockheads:corner:0>,
 		<cookingforblockheads:counter:0>,

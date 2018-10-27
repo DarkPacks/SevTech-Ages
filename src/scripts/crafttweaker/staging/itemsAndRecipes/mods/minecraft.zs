@@ -391,6 +391,8 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 40 as short}]}),
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 41 as short}]}),
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 42 as short}]}),
+		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 42 as short}]}),
+		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 42 as short}]}),
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 43 as short}]}),
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 44 as short}]}),
 		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}),

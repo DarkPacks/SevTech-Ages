@@ -61,6 +61,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed Pneumaticraft assembly laser recipe to use correct dye.
 * Added recipes for missing Natura Grass blocks/slabs/stairs (#3310)
 * Fixed missing recipe for emptying rustic bottles (#2157)
+* Tweaked staging for rustic slate blocks (#3372)
 
 Enhancements:
 * Disabled more Cyclic Enhancements not needed for this pack.
@@ -93,6 +94,8 @@ Mods Added:
 * Building Gadgets (1.6.2)
 * Corails Tombstone (3.2.6)
     * This replaces Tomb Many Graves.
+* Fast Furnace (1.1.1)
+    * Caches the last recipe used. Helps with tick time and look up speed etc...
 * In-Game Wiki
     * Needed for the mods which don't have only docs but support IGW.
 * JustEnoughIDs (1.0.2-26)

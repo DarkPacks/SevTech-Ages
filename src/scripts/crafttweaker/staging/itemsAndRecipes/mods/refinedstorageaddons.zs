@@ -7,7 +7,6 @@ import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageFive.stage: [
-		<refinedstorageaddons:infinite_wireless_transmitter:0>,
 		<refinedstorageaddons:wireless_crafting_grid:1>,
 		<refinedstorageaddons:wireless_crafting_grid:0>
 	],

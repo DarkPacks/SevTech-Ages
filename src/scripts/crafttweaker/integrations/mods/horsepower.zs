@@ -10,8 +10,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.horsepower.Recipes;
-
 /*
 	Grinder Recipes
 
@@ -167,14 +165,6 @@ static choppingRecipes as IIngredient[][IItemStack] = {
 };
 
 function init() {
-	/*
-		Dynamic Chopping Block Recipes
-
-		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
-	*/
-	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
-	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
-
 	// Add the Grindstone Recipes.
 	for time, grindRecipes in grinderRecipes {
 		for itemRecipe in grindRecipes {

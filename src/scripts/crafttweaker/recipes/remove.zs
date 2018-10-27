@@ -14,6 +14,7 @@ static modIdRecipeRemoval as string[] = [
 	"antiqueatlas",
 	"astikoor",
 	"dungpipe",
+	"horsepower",
 	"improvedbackpacks",
 	"ironchest",
 	"natura",

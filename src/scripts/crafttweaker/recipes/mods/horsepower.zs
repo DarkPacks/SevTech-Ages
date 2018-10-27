@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import scripts.crafttweaker.craftingUtils;
 
+import mods.horsepower.Recipes;
+
 /*
     Shaped Recipes
 */
@@ -61,18 +63,6 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
-/*
-    Recipe Removals
-*/
-static removeRecipes as IItemStack[] = [
-	<horsepower:chopper:0>,
-	<horsepower:chopping_block:0>,
-	<horsepower:dough:0>,
-	<horsepower:grindstone:0>,
-	<horsepower:hand_grindstone:0>,
-	<horsepower:press:0>
-];
-
 function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -84,5 +74,11 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
-	recipeUtil.removeRecipes(removeRecipes);
+	/*
+		Dynamic Chopping Block Recipes
+
+		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
+	*/
+	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
+	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
 }

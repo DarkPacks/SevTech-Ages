@@ -1,4 +1,4 @@
-VERSION = 0;
+VERSION = 1;
 
 !Energy API: multiplier for conversion into J [Joules] with 1kJ ~ 1 tick furnace fuel burn time.
 !To disable conversion or reading for a mod, set the value to 'NaN'
@@ -7,3 +7,7 @@ energy_value_RF = 100;	!Forge energy
 energy_value_EU = 400;	!Industrialcraft EU
 energy_value_OC = 1000;	!OpenComputers
 energy_value_VC = 1000;	!VoidCraft
+
+!For mod development purposes only: allows convenient ingame editing of tooltips and other localization strings by pressing F4 (only works for my mods).
+!This defines the directory of language files where changes should be written to. Setting no or an invalid directory will disable this feature.
+tooltip_editor_file = nil; !"../../src/resources/assets/cd4017be_lib/lang";

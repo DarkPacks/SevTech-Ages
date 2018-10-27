@@ -1,0 +1,126 @@
+[
+  {
+    "energy": 64000,
+    "id": "minecraft:skull:3"
+  },
+  {
+    "energy": 80000,
+    "id": "minecraft:skull:2"
+  },
+  {
+    "energy": 96000,
+    "id": "minecraft:skull:0"
+  },
+  {
+    "energy": 128000,
+    "id": "minecraft:skull:4"
+  },
+  {
+    "energy": 256000,
+    "id": "minecraft:skull:1"
+  },
+  {
+    "energy": 2147483647,
+    "id": "minecraft:skull:5"
+  },
+  {
+    "energy": 2147483647,
+    "id": "minecraft:dragon_egg"
+  },
+  {
+    "energy": 32000,
+    "id": "OD:egg"
+  },
+  {
+    "energy": 32000,
+    "id": "OD:bone"
+  },
+  {
+    "energy": 72000,
+    "id": "OD:boneWithered"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragon_skull:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragon_skull:1"
+  },
+  {
+    "energy": 400000,
+    "id": "iceandfire:dragonbone"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_red:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_green:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_bronze:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_gray:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_blue:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_white:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_sapphire:0"
+  },
+  {
+    "energy": 32000000,
+    "id": "iceandfire:dragonegg_silver:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_red:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_green:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_bronze:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_gray:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_blue:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_white:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_sapphire:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:dragonscales_silver:0"
+  },
+  {
+    "energy": 800000,
+    "id": "iceandfire:shiny_scales:0"
+  },
+  {
+    "energy": 64000,
+    "id": "headcrumbs:skull"
+  }
+]

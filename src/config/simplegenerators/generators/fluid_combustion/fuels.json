@@ -1,0 +1,122 @@
+[
+  {
+    "energy_per_mb": 1500,
+    "id": "refined_fuel"
+  },
+  {
+    "energy_per_mb": 64,
+    "id": "ic2biogas"
+  },
+  {
+    "energy_per_mb": 80,
+    "id": "seed_oil"
+  },
+  {
+    "energy_per_mb": 80,
+    "id": "seed.oil"
+  },
+  {
+    "energy_per_mb": 400,
+    "id": "tree_oil"
+  },
+  {
+    "energy_per_mb": 400,
+    "id": "crude_oil"
+  },
+  {
+    "energy_per_mb": 40,
+    "id": "creosote"
+  },
+  {
+    "energy_per_mb": 1000,
+    "id": "refined_oil"
+  },
+  {
+    "energy_per_mb": 400,
+    "id": "coal"
+  },
+  {
+    "energy_per_mb": 800,
+    "id": "refined_biofuel"
+  },
+  {
+    "energy_per_mb": 500,
+    "id": "bio_diesel"
+  },
+  {
+    "energy_per_mb": 500,
+    "id": "biodiesel"
+  },
+  {
+    "energy_per_mb": 800,
+    "id": "diesel"
+  },
+  {
+    "energy_per_mb": 1500,
+    "id": "fuel"
+  },
+  {
+    "energy_per_mb": 1120,
+    "id": "rocket_fuel"
+  },
+  {
+    "energy_per_mb": 800,
+    "id": "fluiddiesel"
+  },
+  {
+    "energy_per_mb": 1600,
+    "id": "fluidnitrodiesel"
+  },
+  {
+    "energy_per_mb": 200,
+    "id": "refinedcanolaoil"
+  },
+  {
+    "energy_per_mb": 400,
+    "id": "crystaloil"
+  },
+  {
+    "energy_per_mb": 700,
+    "id": "empoweredoil"
+  },
+  {
+    "energy_per_mb": 400,
+    "id": "oil"
+  },
+  {
+    "energy_per_mb": 80,
+    "id": "canolaoil"
+  },
+  {
+    "energy_per_mb": 80,
+    "id": "canola_oil"
+  },
+  {
+    "energy_per_mb": 360,
+    "id": "hootch"
+  },
+  {
+    "energy_per_mb": 1500,
+    "id": "kerosene"
+  },
+  {
+    "energy_per_mb": 1800,
+    "id": "lpg"
+  },
+  {
+    "energy_per_mb": 1200,
+    "id": "gasoline"
+  },
+  {
+    "energy_per_mb": 1200,
+    "id": "fire_water"
+  },
+  {
+    "energy_per_mb": 800,
+    "id": "ethanol"
+  },
+  {
+    "energy_per_mb": 800,
+    "id": "bio.ethanol"
+  }
+]

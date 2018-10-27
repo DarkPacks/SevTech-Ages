@@ -1,0 +1,14 @@
+[
+  {
+    "energy_per_mb": 2,
+    "id": "steam"
+  },
+  {
+    "energy_per_mb": 2,
+    "id": "ic2steam"
+  },
+  {
+    "energy_per_mb": 4,
+    "id": "ic2superheated_steam"
+  }
+]

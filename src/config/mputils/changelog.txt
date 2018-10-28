@@ -87,6 +87,10 @@ Enhancements:
 * Re-Stage water bottle to Stage Two (#1648)
 * Added recipes to the Squeezer to help Alcohol Production (#2724)
 * Added more wood items from Natura to OreDict to enforce more barrel compat.
+* Changed stage advancements to now show regardless of their parent being completed (If you have the age, you can see all advancements)
+* Tweaked the portal color of the Hunting Dimension Portal
+* Removed Shoggoth Acid Spit
+* Disabled Shoggoth item destruction
 
 Forge: 14.23.5.2768
 
@@ -104,6 +108,7 @@ Mods Added:
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
+* Proportional Destruction Particles (1.2.3)
 * ZenStages (0.5.0-15)
     * Allows us to create staging modpacks far easier.
 

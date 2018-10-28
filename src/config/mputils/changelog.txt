@@ -29,6 +29,10 @@ spawn in components to re-make your ships. Note: Ship building changed a bit so 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
 * Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
+* Fixed "Broken" tooltip from displaying on the Cyclic swords
+* Fixed Cyclic player launcher recipe
+* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
+* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
 * Fixed "Broken" tooltip from displaying on the Cyclic swords and Twilight Forest's Glass Sword.
 * Fixed Cyclic player launcher recipe.
 * Fixed Bloodwood and Ghostwood planks crafting each others slabs (#3173)
@@ -65,6 +69,8 @@ should not be repairable anyways using this method. (#2925)
 * Fixed conflicting recipes with a diamond apple (#3446)
 
 Enhancements:
+* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
+* Made ore advancement descriptions uniform and corrected Y values.
 * Disabled more Cyclic Enhancements not needed for this pack.
 * Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 * Made ore advancement descriptions uniform and corrected Y values.
@@ -377,21 +383,6 @@ Mod Updates:
 * Wither Skeleton Tweaks (2.6.1)
 * XNet (1.7.5)
 * YNot (0.2.3)
-
----------------------------------------------------------------------
-
-3.0.9
-
-Bug Fixes:
-
-* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
-* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
-* Fixed "Broken" tooltip from displaying on the Cyclic swords
-* Fixed Cyclic player launcher recipe
-
-Enhancements:
-* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
-* Made ore advancement descriptions uniform and corrected Y values.
 
 ---------------------------------------------------------------------
 

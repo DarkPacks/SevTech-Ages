@@ -45,3 +45,5 @@ criteria10.setBlock("betterwithaddons:aqueduct", 10)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

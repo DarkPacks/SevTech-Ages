@@ -13,3 +13,5 @@ criteria.setItem("weirdinggadget:weirding_gadget", 0)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -24,3 +24,5 @@ setRewardItem("geolosys:field_manual", 0, 1)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

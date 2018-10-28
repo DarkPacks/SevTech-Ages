@@ -13,3 +13,5 @@ criteria.setItem("mysticalagriculture:crafting", 5)
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

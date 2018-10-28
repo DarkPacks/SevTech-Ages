@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:material", 0)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

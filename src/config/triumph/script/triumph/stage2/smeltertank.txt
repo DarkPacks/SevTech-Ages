@@ -18,3 +18,5 @@ criteria2.setItem("tconstruct:seared_tank")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

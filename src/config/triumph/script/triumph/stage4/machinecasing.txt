@@ -13,3 +13,5 @@ criteria.setItem("teslacorelib:machine_case")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

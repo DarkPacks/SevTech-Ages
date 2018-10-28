@@ -13,3 +13,5 @@ criteria.setItem("tconstruct:metal", 2)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("primal:plant_fiber")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

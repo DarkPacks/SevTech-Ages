@@ -20,3 +20,5 @@ criteria.setItem("abyssalcraft:necronomicon")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

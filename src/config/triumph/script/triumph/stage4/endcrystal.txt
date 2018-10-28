@@ -13,3 +13,5 @@ criteria.setEntityType("minecraft:ender_dragon")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

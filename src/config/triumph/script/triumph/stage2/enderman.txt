@@ -27,3 +27,5 @@ criteria5.setEntityType("galacticraftcore:evolved_enderman")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

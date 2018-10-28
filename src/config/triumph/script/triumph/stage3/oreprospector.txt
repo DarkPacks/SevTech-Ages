@@ -13,3 +13,5 @@ criteria.setItem("prospectors:prospector_med")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

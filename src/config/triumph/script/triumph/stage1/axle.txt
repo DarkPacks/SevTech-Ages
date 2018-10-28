@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:wooden_axle")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

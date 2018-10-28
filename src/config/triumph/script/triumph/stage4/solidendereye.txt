@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:ender_eye_orb")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

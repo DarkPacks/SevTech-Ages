@@ -14,3 +14,5 @@ criteria.setItem("tconstruct:materials", 50)
 //Rewards
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
+
+alwaysVisible()

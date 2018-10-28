@@ -13,3 +13,5 @@ criteria.setItem("chargers:charger", 2)
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

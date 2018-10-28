@@ -13,3 +13,5 @@ criteria.setItem("primal_tech:clay_kiln")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

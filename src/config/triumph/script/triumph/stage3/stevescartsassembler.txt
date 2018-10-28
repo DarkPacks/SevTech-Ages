@@ -13,3 +13,5 @@ criteria.setItem("stevescarts:blockcartassembler")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("minecraft:saddle")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

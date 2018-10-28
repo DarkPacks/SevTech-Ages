@@ -42,3 +42,5 @@ criteria10.setItem("primal:barrel", 9)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

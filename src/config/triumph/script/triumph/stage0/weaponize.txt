@@ -13,3 +13,5 @@ criteria.setItem("primal:sharp_bone")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("galacticraftcore:collector")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:tool", 3)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

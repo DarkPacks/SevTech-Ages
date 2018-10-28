@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:assembly_program", 1)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

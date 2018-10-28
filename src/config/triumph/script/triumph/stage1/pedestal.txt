@@ -13,3 +13,5 @@ criteria.setItem("abyssalcraft:energypedestal")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

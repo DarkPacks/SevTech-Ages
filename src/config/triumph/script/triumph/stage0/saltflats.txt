@@ -27,3 +27,5 @@ criteria5.setItem("mekanism:salt")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

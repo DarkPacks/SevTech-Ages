@@ -23,3 +23,5 @@ criteria2.setItem("extendedcrafting:ender_alternator")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

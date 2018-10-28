@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:wooden_device0", 2)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

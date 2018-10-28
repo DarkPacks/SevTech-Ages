@@ -13,3 +13,5 @@ criteria.setBlock("geolosys:ore_vanilla", 2)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

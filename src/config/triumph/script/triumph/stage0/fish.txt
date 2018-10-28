@@ -24,3 +24,5 @@ criteria4.setEntityType("jaff:salmon")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("naturescompass:naturescompass")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

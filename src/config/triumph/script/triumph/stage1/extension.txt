@@ -13,3 +13,5 @@ criteria.setBlock("ceramics:clay_barrel", 1)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

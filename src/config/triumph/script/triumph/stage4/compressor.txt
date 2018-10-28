@@ -13,3 +13,5 @@ criteria.setItem("galacticraftcore:machine", 12)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

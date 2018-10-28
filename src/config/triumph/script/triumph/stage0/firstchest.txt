@@ -31,3 +31,5 @@ criteria4.setItem("immcraft:bookshelf")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

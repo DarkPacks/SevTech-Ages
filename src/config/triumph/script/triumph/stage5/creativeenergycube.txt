@@ -14,3 +14,5 @@ criteria.addItem("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7
 //Rewards
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
+
+alwaysVisible()

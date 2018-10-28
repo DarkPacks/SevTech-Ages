@@ -26,3 +26,5 @@ criteria2.setItem("tcomplement:melter", 0)
 setRewardExperience(4)
 setRewardFunction("triumph:stage-1_trigger")
 setRewardItem("tconstruct:book", 0, 1)
+
+alwaysVisible()

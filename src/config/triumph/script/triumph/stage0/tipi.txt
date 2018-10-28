@@ -13,3 +13,5 @@ criteria.setItem("totemic:tipi", 0)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

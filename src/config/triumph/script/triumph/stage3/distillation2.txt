@@ -19,3 +19,5 @@ criteria3.addItem("forge:bucketfilled", 0, {FluidName:"lubricant",Amount:1000})
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

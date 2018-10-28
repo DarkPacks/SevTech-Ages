@@ -13,3 +13,5 @@ criteria.setItem("geolosys:cluster", 12)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

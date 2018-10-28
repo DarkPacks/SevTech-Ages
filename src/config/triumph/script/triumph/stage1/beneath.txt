@@ -20,3 +20,5 @@ criteria.setDimensionDestination("The Beneath")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

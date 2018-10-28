@@ -13,3 +13,5 @@ criteria.setItem("horsepower:chopper")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

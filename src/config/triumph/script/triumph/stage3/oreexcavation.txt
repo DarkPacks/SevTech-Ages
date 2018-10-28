@@ -13,3 +13,5 @@ criteria.setItem("oeintegration:excavatemodifier")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

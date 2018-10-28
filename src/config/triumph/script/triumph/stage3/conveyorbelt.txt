@@ -13,3 +13,5 @@ criteria.addItem("immersiveengineering:conveyor", 0, {conveyorType: "immersiveen
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("infoaccessories:info_accessory", 6)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setEntityType("minecraft:parrot")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -21,3 +21,5 @@ criteria.setItem("astralsorcery:blockaltar")
 //Rewards
 setRewardExperience(8)
 setRewardFunction("triumph:stage-2_trigger")
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("minecraft:leather")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

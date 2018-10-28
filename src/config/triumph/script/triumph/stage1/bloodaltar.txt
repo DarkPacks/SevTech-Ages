@@ -14,3 +14,5 @@ criteria.setItem("bloodmagic:altar")
 //Rewards
 setRewardExperience(8)
 setRewardItem("guideapi:bloodmagic-guide", 0, 1)
+
+alwaysVisible()

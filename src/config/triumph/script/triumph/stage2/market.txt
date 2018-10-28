@@ -13,3 +13,5 @@ criteria.setItem("farmingforblockheads:market")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

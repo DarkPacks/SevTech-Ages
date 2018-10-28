@@ -13,3 +13,5 @@ criteria.setItem("primal_tech:charcoal_block")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

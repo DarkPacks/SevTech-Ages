@@ -13,3 +13,5 @@ criteria.setItem("minecraft:bucket")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

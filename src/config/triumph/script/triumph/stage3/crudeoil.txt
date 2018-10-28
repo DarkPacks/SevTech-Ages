@@ -20,3 +20,5 @@ criteria.addItem("forge:bucketfilled", 0, {FluidName:"oil",Amount:1000})
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

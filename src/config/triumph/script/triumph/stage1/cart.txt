@@ -13,3 +13,5 @@ criteria.setItem("astikoor:cargocart")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

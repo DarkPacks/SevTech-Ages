@@ -13,3 +13,5 @@ criteria.setItem("immersiveengineering:metal", 8)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

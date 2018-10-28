@@ -20,3 +20,5 @@ criteria.setItem("horsepower:chopping_block")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

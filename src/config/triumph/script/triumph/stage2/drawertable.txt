@@ -13,3 +13,5 @@ criteria.setItem("storagedrawers:framingtable")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

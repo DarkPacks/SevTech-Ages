@@ -13,3 +13,5 @@ criteria.setItem("tconstruct:ore", 0)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

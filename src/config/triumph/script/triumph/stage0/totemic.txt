@@ -20,3 +20,5 @@ criteria3.setItem("totemic:drum")
 //Rewards
 setRewardItem("totemic:totempedia", 0, 1)
 setRewardExperience(4)
+
+alwaysVisible()

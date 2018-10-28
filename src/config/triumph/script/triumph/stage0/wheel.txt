@@ -13,3 +13,5 @@ criteria.setItem("astikoor:wheel", 0)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

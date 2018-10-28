@@ -13,3 +13,5 @@ criteria.setItem("actuallyadditions:item_misc", 5)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

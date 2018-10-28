@@ -13,3 +13,5 @@ criteria.setItem("antiqueatlas:empty_antique_atlas")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

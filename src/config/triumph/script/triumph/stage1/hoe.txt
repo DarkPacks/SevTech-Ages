@@ -105,3 +105,5 @@ criteria30.setItem("twilightforest:steeleaf_hoe", 0)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

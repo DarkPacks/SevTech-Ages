@@ -13,3 +13,5 @@ criteria.setItem("poweradapters:mj")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

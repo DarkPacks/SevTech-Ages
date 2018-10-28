@@ -20,3 +20,5 @@ criteria.setItem("minecraft:piston")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

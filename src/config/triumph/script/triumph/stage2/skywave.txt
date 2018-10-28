@@ -13,3 +13,5 @@ criteria.setItem("astralsorcery:itemskyresonator")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -15,3 +15,5 @@ criteria.setItem("extraplanets:apple_iron", 0)
 setRewardFunction("triumph:advanced_mapping")
 setRewardFunction("triumph:prestige_add_100")
 setRewardExperience(8)
+
+alwaysVisible()

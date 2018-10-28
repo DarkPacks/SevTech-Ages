@@ -13,3 +13,5 @@ criteria.setItem("buildcraftcore:engine")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

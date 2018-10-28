@@ -13,3 +13,5 @@ criteria.setItem("astralsorcery:itemcraftingcomponent", 2)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

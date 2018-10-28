@@ -31,3 +31,5 @@ criteria4.setItem("galacticraftcore:rocket_t1", 3)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

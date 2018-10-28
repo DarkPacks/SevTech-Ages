@@ -12,3 +12,5 @@ criteria.setDimensionDestination("betweenlands")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

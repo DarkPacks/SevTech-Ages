@@ -15,3 +15,5 @@ criteria.setItem("minecraft:redstone")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

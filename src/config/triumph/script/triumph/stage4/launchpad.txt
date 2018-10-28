@@ -13,3 +13,5 @@ criteria.setItem("galacticraftcore:landing_pad", 0)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

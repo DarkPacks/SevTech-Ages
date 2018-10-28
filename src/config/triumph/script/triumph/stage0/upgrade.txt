@@ -13,3 +13,5 @@ criteria.setItem("primal:flint_pickaxe")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

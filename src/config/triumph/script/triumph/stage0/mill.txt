@@ -14,3 +14,5 @@ criteria.setItem("betterwithmods:single_machine")
 //Rewards
 setRewardExperience(4)
 setRewardItem("betterwithmods:manual", 0, 1)
+
+alwaysVisible()

@@ -22,3 +22,5 @@ criteria4.setItem("extraplanets:tier4_space_suit_boots")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

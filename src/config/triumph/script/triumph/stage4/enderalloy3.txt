@@ -13,3 +13,5 @@ criteria.setItem("enderutilities:enderpart", 2)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

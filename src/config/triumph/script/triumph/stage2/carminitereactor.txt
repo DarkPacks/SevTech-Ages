@@ -13,3 +13,5 @@ criteria.setItem("twilightforest:tower_device", 12)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

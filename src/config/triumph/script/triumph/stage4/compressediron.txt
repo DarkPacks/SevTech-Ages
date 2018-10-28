@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:ingot_iron_compressed")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

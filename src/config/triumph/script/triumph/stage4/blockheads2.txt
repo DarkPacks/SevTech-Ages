@@ -13,3 +13,5 @@ criteria.setItem("cookingforblockheads:recipe_book", 2)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

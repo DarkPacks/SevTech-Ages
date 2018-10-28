@@ -13,3 +13,5 @@ criteria.setItem("supersoundmuffler:sound_muffler")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -12,3 +12,5 @@ criteria.setDimensionDestination("the_nether")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

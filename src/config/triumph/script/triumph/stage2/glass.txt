@@ -13,3 +13,5 @@ criteria.setItem("minecraft:glass")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

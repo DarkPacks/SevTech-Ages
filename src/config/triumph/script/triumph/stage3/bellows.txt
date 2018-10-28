@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:bellows")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

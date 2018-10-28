@@ -20,3 +20,5 @@ criteria.setItem("astralsorcery:blockwell")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

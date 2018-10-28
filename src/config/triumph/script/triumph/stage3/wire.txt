@@ -18,3 +18,5 @@ criteria1.setItem("immersiveengineering:wirecoil", 1)
 
 //Rewards
 setRewardExperience(2)
+
+alwaysVisible()

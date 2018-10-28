@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:pressure_chamber_wall")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

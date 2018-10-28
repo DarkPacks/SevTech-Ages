@@ -13,3 +13,5 @@ criteria.setItem("pickletweaks:grass_mesh")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

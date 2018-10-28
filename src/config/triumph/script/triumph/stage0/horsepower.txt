@@ -13,3 +13,5 @@ criteria.setItem("horsepower:grindstone")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

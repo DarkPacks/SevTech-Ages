@@ -20,3 +20,5 @@ criteria.setItem("minecraft:crafting_table", 0)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

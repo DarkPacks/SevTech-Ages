@@ -13,3 +13,5 @@ criteria.setItem("primalchests:primal_chest")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

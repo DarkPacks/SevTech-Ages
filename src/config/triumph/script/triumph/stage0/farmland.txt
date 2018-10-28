@@ -14,3 +14,5 @@ criteria.setItem("minecraft:farmland")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

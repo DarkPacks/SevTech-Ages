@@ -16,3 +16,5 @@ criteria2.setItem("tconstruct:tooltables", 2)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

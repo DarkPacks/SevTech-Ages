@@ -13,3 +13,5 @@ criteria.setItem("extendedcrafting:table_elite")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:smooth_sky_stone_block", 0)
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

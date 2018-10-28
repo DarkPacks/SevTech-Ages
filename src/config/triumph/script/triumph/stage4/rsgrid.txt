@@ -13,3 +13,5 @@ criteria.setItem("refinedstorage:grid")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

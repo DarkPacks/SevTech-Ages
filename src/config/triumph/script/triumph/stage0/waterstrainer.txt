@@ -16,3 +16,5 @@ criteria2.setItem("waterstrainer:strainer_base", 0)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

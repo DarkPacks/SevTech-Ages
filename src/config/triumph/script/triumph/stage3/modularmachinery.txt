@@ -13,3 +13,5 @@ criteria.setItem("modularmachinery:blockcontroller")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

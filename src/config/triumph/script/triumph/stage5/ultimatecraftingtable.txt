@@ -14,3 +14,5 @@ criteria.setItem("extendedcrafting:table_ultimate", 0)
 //Rewards
 setRewardExperience(15)
 setRewardFunction("triumph:stage-creative_trigger")
+
+alwaysVisible()

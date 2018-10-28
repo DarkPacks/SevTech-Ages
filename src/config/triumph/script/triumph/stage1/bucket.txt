@@ -13,3 +13,5 @@ criteria.setItem("ceramics:clay_bucket")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

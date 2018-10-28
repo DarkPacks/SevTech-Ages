@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:wooden_gearbox")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

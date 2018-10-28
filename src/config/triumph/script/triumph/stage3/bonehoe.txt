@@ -13,3 +13,5 @@ criteria.setItem("nex:golden_wither_bone_hoe")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("stevescarts:modulecomponents", 49)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

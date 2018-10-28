@@ -20,3 +20,5 @@ criteria1.setItem("totemic:baykok_bow")
 setRewardExperience(16)
 setRewardFunction("triumph:prestige_add_100")
 setRewardFunction("triumph:baykok_trigger")
+
+alwaysVisible()

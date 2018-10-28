@@ -13,3 +13,5 @@ criteria.setItem("totemic:buffalo_items")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

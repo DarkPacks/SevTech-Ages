@@ -20,3 +20,5 @@ criteria.setItem("primal:flint_hatchet")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("minecraft:compass")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

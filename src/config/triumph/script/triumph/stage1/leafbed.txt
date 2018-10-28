@@ -13,3 +13,5 @@ criteria.setItem("primal_tech:leaf_bed")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

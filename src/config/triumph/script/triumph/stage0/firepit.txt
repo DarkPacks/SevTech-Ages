@@ -13,3 +13,5 @@ criteria.setItem("progressiontweaks:fire_pit_unlit")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

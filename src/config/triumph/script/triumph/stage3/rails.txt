@@ -33,3 +33,5 @@ criteria6.setItem("tconstruct:wood_rail")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

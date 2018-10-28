@@ -13,3 +13,5 @@ criteria.setDimensionDestination("Mars")
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

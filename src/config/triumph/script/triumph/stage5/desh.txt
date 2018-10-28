@@ -18,3 +18,5 @@ criteria2.setItem("galacticraftplanets:item_basic_mars", 0)
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

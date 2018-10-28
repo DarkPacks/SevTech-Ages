@@ -20,3 +20,5 @@ criteria.setBlock("astralsorcery:blockaltar", 1)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

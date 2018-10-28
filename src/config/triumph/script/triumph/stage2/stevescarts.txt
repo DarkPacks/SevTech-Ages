@@ -21,3 +21,5 @@ criteria.setItem("stevescarts:cartmodule", 0)
 //Rewards
 setRewardExperience(8)
 setRewardFunction("triumph:stage-3_trigger")
+
+alwaysVisible()

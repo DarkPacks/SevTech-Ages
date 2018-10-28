@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:food_step")
 
 //Rewards
 setRewardExperience(1)
+
+alwaysVisible()

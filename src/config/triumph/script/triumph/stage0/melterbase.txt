@@ -24,3 +24,5 @@ criteria2.setItem("tcomplement:melter", 8)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

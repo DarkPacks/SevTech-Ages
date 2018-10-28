@@ -20,3 +20,5 @@ criteria.setItem("galacticraftcore:rocket_workbench")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

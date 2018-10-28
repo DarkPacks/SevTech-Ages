@@ -14,3 +14,5 @@ criteria.setItem("primal_tech:fire_sticks")
 //Rewards
 setRewardItem("primal_tech:fire_sticks", 0, 1)
 setRewardExperience(4)
+
+alwaysVisible()

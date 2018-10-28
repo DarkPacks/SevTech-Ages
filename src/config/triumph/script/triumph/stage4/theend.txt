@@ -19,3 +19,5 @@ criteria.setDimensionDestination("the_end")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

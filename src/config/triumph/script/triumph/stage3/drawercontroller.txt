@@ -13,3 +13,5 @@ criteria.setItem("storagedrawers:controller")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

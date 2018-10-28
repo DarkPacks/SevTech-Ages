@@ -13,3 +13,5 @@ criteria.setBiome("nex:arctic_abyss")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

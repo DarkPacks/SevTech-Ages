@@ -13,3 +13,5 @@ criteria.setItem("progressiontweaks:spear")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

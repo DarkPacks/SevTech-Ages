@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:plastic_mixer")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("galacticraftcore:fuel_loader", 0)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

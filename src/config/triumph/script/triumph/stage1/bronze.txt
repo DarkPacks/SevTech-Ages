@@ -20,3 +20,5 @@ criteria.setItem("mekanism:ingot", 2)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

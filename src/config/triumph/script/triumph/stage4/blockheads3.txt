@@ -13,3 +13,5 @@ criteria.setItem("cookingforblockheads:cooking_table")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

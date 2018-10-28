@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:axle_generator", 1)
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

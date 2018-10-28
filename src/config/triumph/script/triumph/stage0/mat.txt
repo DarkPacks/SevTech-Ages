@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:sleeping_mat")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

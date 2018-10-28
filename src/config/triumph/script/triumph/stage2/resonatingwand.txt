@@ -13,3 +13,5 @@ criteria.setItem("astralsorcery:itemwand")
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

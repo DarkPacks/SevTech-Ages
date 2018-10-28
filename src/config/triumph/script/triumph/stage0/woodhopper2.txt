@@ -20,3 +20,5 @@ criteria.setItem("primal_tech:wooden_hopper")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

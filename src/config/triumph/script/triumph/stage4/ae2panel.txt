@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:part", 380)
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

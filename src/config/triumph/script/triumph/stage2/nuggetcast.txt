@@ -13,3 +13,5 @@ criteria.setItem("tconstruct:cast_custom", 1)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

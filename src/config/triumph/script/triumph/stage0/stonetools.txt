@@ -13,3 +13,5 @@ criteria.setItem("minecraft:stone_pickaxe")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

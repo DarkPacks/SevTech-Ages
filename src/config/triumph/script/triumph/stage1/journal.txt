@@ -20,3 +20,5 @@ criteria.setItem("astralsorcery:itemjournal")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("thebetweenlands:weedwood_sword")
 //Rewards
 setRewardExperience(8)
 setRewardItem("thebetweenlands:rotten_food", 0, 16)
+
+alwaysVisible()

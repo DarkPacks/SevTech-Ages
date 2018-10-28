@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:inscriber")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

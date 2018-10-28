@@ -18,3 +18,5 @@ criteria2.setBlock("dungpipe:sewer_pipe")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

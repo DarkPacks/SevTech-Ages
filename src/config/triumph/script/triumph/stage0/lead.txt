@@ -13,3 +13,5 @@ criteria.setItem("minecraft:lead")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

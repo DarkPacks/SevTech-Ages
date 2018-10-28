@@ -27,3 +27,5 @@ criteria5.setBiome("abyssalcraft:darklands_mountains")
 
 //Rewards
 setRewardExperience(4)
+
+alwaysVisible()

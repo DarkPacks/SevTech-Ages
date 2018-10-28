@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:ender_dungeon", 0)
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

@@ -13,3 +13,5 @@ criteria.setItem("ironjetpacks:emerald_jetpack")
 
 //Rewards
 setRewardExperience(15)
+
+alwaysVisible()

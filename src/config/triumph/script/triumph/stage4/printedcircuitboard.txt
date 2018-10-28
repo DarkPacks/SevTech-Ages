@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:printed_circuit_board")
 
 //Rewards
 setRewardExperience(12)
+
+alwaysVisible()

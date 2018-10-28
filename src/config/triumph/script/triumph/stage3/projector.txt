@@ -13,3 +13,5 @@ criteria.setItem("immersivepetroleum:schematic", 0)
 
 //Rewards
 setRewardExperience(8)
+
+alwaysVisible()

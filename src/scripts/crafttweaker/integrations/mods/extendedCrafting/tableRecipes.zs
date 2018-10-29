@@ -80,6 +80,17 @@ static recipes as IIngredient[][][IItemStack] = {
 		[null, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, <overloaded:compressed_cobblestone:0>, null],
 		[null, null, null, null, null, null, null, null, null]
 	],
+	<buildinggadgets:copypastetool>: [
+		[null, null, null, null, null, null, null, null, null],
+		[null, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <buildinggadgets:constructionpaste:0>, <ore:slimeball>, <buildinggadgets:constructionpaste:0>, <ore:slimeball>, <buildinggadgets:constructionpaste:0>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <ore:slimeball>, null, <minecraft:paper:0>, null, <ore:slimeball>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <buildinggadgets:constructionpaste:0>, <minecraft:paper:0>, <buildinggadgets:buildingtool:*>, <minecraft:paper:0>, <buildinggadgets:constructionpaste>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <ore:slimeball>, null, <minecraft:paper:0>, null, <ore:slimeball>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <buildinggadgets:constructionpaste:0>, <ore:slimeball>, <buildinggadgets:constructionpaste:0>, <ore:slimeball>, <buildinggadgets:constructionpaste:0>, <overloaded:compressed_cobblestone:1>, null],
+		[null, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, <overloaded:compressed_cobblestone:1>, null],
+		[null, null, null, null, null, null, null, null, null]
+	],
 
 	// ==================================
 	// Creative Items

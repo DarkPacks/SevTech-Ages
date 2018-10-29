@@ -36,6 +36,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 */
 static removeRecipes as IItemStack[] = [
 	<buildinggadgets:buildingtool>,
+	<buildinggadgets:copypastetool>,
 	<buildinggadgets:exchangertool>
 ];
 

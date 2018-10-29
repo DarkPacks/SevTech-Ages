@@ -22,9 +22,8 @@ function init() {
 
 	// =======================================
 	// Discovery
-	Altar.removeAltarRecipe(<astralsorcery:blockaltar:1>, 0);
-
-	Altar.addDiscoveryAltarRecipe(<astralsorcery:blockaltar:1>, 200, 1600, [
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+	Altar.addDiscoveryAltarRecipe("sevtech/altar/upgrade_tier2", <astralsorcery:blockaltar:1>, 200, 1600, [
 		<astralsorcery:blockmarble:2>, <ore:asCrystal>, <astralsorcery:blockmarble:2>,
 		<astralsorcery:blockmarble:4>, craftingUtils.getBucketIngredient(<liquid:astralsorcery.liquidstarlight>), <astralsorcery:blockmarble:4>,
 		<astralsorcery:blockmarble:2>, null, <astralsorcery:blockmarble:2>
@@ -32,14 +31,14 @@ function init() {
 
 	// =======================================
 	// Attunement
-	Altar.addAttunmentAltarRecipe(<astralsorcery:itemusabledust:0> * 8, 80, 600, [
+	Altar.addAttunementAltarRecipe("sevtech/altar/illimination_powder", <astralsorcery:itemusabledust:0> * 8, 80, 600, [
 		<betterwithmods:sand_pile:0>, <astralsorcery:itemcraftingcomponent:0>, <betterwithmods:sand_pile:0>,
 		null, <minecraft:gunpowder:0>, null,
 		<betterwithmods:sand_pile:0>, null, <betterwithmods:sand_pile:0>,
 		<quark:glass_shards:0>, <quark:glass_shards:0>, <quark:glass_shards:0>, <quark:glass_shards:0>
 	]);
 
-	Altar.addAttunmentAltarRecipe(<astralsorcery:blockcustomore:1> * 1, 1400, 600, [
+	Altar.addAttunementAltarRecipe("sevtech/altar/starmetal_ore", <astralsorcery:blockcustomore:1> * 1, 1400, 600, [
 		<astralsorcery:itemusabledust:0>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemusabledust:0>,
 		<minecraft:stone:0>, <geolosys:cluster:0>, <minecraft:stone:0>,
 		<astralsorcery:itemusabledust:0>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemusabledust:0>,
@@ -47,8 +46,8 @@ function init() {
 	]);
 
 	// Conversion Wand
-	Altar.removeAltarRecipe(<astralsorcery:itemexchangewand:0>, 1);
-	Altar.addAttunmentAltarRecipe(<astralsorcery:itemexchangewand:0> * 1, 600, 180, [
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_exchange");
+	Altar.addAttunementAltarRecipe("sevtech/altar/conversion_wand", <astralsorcery:itemexchangewand:0> * 1, 600, 180, [
 		null, <astralsorcery:itemcraftingcomponent:2>, <thebetweenlands:crimson_middle_gem:0>,
 		<minecraft:diamond:0>, <astralsorcery:blockmarble:6>, null,
 		<astralsorcery:blockmarble:6>, null, null,
@@ -56,8 +55,8 @@ function init() {
 	]);
 
 	// Modifies the Altar recipe to use TF items
-	Altar.removeAltarRecipe(<astralsorcery:blockaltar:2>, 1);
-	Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 1250, 600, [
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
+	Altar.addAttunementAltarRecipe("sevtech/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 1250, 600, [
 		<astralsorcery:blockworldilluminator:0>, <twilightforest:firefly_jar:0>, <astralsorcery:blockworldilluminator:0>,
 		<twilightforest:maze_stone:3>, <ore:asCrystal>, <twilightforest:maze_stone:3>,
 		<twilightforest:maze_stone:6>, <twilightforest:ironwood_ingot:0>, <twilightforest:maze_stone:6>,
@@ -68,8 +67,8 @@ function init() {
 	// Constellation
 
 	// Resplendent Prism
-	Altar.removeAltarRecipe(<astralsorcery:itemenchantmentamulet:0>, 2);
-	Altar.addConstellationAltarRecipe(<astralsorcery:itemenchantmentamulet:0>, 3100, 600, [
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_craft");
+	Altar.addConstellationAltarRecipe("sevtech/altar/resplendent_prism", <astralsorcery:itemenchantmentamulet:0>, 3100, 600, [
 		<astralsorcery:itemcraftingcomponent:1>, <ore:string>, <astralsorcery:itemcraftingcomponent:1>,
 		<twilightforest:trollber:0>, <nex:amethyst_crystal:0>, <twilightforest:trollber:0>,
 		<minecraft:ender_eye:0>, <astralsorcery:itemshiftingstar:0>, <minecraft:ender_eye:0>,
@@ -79,7 +78,7 @@ function init() {
 	]);
 
 	// Coal Engine
-	Altar.addConstellationAltarRecipe(<stevescarts:cartmodule:0>, 3000, 900, [
+	Altar.addConstellationAltarRecipe("sevtech/coal_engine", <stevescarts:cartmodule:0>, 3000, 900, [
 		metals.fiery.gear, <tconstruct:seared_furnace_controller:0>, metals.fiery.gear,
 		<minecraft:ghast_tear:0>, <twilightforest:tower_device:12>, <minecraft:ghast_tear:0>,
 		metals.fiery.gear, <betterwithmods:cooking_pot:1>, metals.fiery.gear,
@@ -92,8 +91,8 @@ function init() {
 
 	// =======================================
 	// Trait
-	Altar.removeAltarRecipe(<astralsorcery:blockchalice:0>, 3);
-	Altar.addTraitAltarRecipe(<astralsorcery:blockchalice:0>, 5500, 700, [
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/chalice");
+	Altar.addTraitAltarRecipe("sevtech/altar/chalice", <astralsorcery:blockchalice:0>, 5500, 700, [
 		// 0-2
 		null, null, null,
 		// 3-5
@@ -119,8 +118,7 @@ function init() {
 	]);
 
 	// Sextants
-	Altar.removeAltarRecipe(<astralsorcery:itemsextant>, 2);
-	Altar.removeAltarRecipe(<astralsorcery:itemsextant>, 0);
+	Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/sextant");
 
 	/*
 		Starlight Infusion

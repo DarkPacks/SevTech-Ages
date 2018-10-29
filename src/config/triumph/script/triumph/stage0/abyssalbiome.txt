@@ -1,4 +1,4 @@
-setTranslatedTitle("advancements.stage0.abyssalcraft.title")
+setTranslatedTitle("advancements.stage0.abyssalbiome.title")
 
 setIcon("abyssalcraft:necronomicon")
 

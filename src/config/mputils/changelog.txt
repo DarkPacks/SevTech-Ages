@@ -25,6 +25,7 @@ breakage of your networks/autocrafting etc... So please ensure you read the chan
 issues! This is your only warning about this. So don't open issues on the tracker about issues. Unless it's an actual bug with the mod!
 * Viescraft has been updated (which the mod did a refactor) this means that your ships will vanish, along with some items. This is another thing we can't control with mod updates. All we can say is sorry. Feel free to
 spawn in components to re-make your ships. Note: Ship building changed a bit so please read up on the changes.
+* ContentTweaker Molten Fiery is now removed (deprecated in 3.0.8)
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.

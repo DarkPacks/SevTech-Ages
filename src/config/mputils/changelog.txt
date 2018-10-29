@@ -204,7 +204,7 @@ Mod Updates:
     * Fixed wrong rock material of the placed cutting board (instead of wood)
 * CraftTweaker (4.1.9)
 * Cucumber (1.1.1)
-* Cyclic (1.17.5)
+* Cyclic (1.17.6)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
     * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
     * Forester GUI now has size and height controls.
@@ -221,7 +221,7 @@ Mod Updates:
 * Enchantment Descriptions (1.1.9)
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.11)
-* Environmental Tech (2.0.17.1)
+* Environmental Tech (2.0.18.1)
 * Extended Crafting (1.5.0)
     * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
     * Fixed the Automation Interface not working properly with the Ender Crafter
@@ -349,7 +349,7 @@ Mod Updates:
 * Rustic (1.0.12)
 * Scannable (1.6.3.22)
 * SevTweaks (0.2.1-20)
-* Simple Generators (2.0.17.2)
+* Simple Generators (2.0.18.1)
 * Simple Storage Network (1.2.9)
 * Smooth Font (1.16.1)
 * Steve Carts (2.4.24.118)
@@ -381,7 +381,7 @@ Mod Updates:
 * Totemic (0.11.3)
 * Translocators (2.5.0.73)
 * Traverse (1.6.0-69)
-* ValkyrieLib (2.0.17.3)
+* ValkyrieLib (2.0.18.1)
 * Viescraft (5.9.13)
 * WanionLib (1.7)
 * Wawla (2.5.264)

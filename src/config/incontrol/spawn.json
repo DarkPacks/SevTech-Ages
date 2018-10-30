@@ -117,11 +117,11 @@
     "nbt": {
       "Attributes": [
         {
-          "Base": 75.0,
+          "Base": 50.0,
           "Name": "generic.maxHealth"
         }
       ],
-      "Health": 75.0
+      "Health": 50.0
     }
   },
   {

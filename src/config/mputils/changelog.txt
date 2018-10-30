@@ -98,6 +98,12 @@ Enhancements:
 * Tweaked the portal color of the Hunting Dimension Portal
 * Removed Shoggoth Acid Spit
 * Disabled Shoggoth item destruction
+* Decreased the health of Lesser Shoggoths to 50
+* Decreased the health of Shadow Beasts to 50
+* Decreased the health of Shadow Creatures to 10
+* Decreased the health of Shadow Monsters to 35
+* Increased the spawn chance of meteors
+* Disabled Galacticraft "Harder Difficulty" & enabled "Quick Game Mode" - This reduces the cost of plates, and in general aims to reduce the grind
 
 Forge: 14.23.5.2768
 
@@ -115,6 +121,7 @@ Mods Added:
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
+* Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.3)
 * ZenStages (0.3.0-15)
     * Allows us to create staging modpacks far easier.

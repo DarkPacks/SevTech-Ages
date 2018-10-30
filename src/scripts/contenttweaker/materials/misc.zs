@@ -128,6 +128,9 @@ function init() {
 	// Space Platinum
 	materials.spacePlatinum.registerPart("dust");
 
+	// Meteoric Iron
+	materials.meteoricIron.registerPart("dust");
+
 	// NOTE! Reduction = Footwear, Leggins, Chestplate, Headslot
 
 	// Copper Armor

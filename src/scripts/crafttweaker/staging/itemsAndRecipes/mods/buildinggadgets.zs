@@ -10,6 +10,7 @@ static stagedItems as IIngredient[][string] = {
 	stageFour.stage: [
 		<buildinggadgets:buildingtool:*>
 	],
+
 	stageFive.stage: [
 		<buildinggadgets:constructionblock:0>,
 		<buildinggadgets:constructionblockpowder:0>,

@@ -105,7 +105,9 @@ zenClass Resources {
 
 				if (preferredMetalItem as bool) {
 					// Stage the part.
-					ZenStager.getStage(metalStage).addIngredient(preferredMetalItem);
+					if (metalStage != "") {
+						ZenStager.getStage(metalStage).addIngredient(preferredMetalItem);
+					}
 
 					if (!(partsToSkip has partName)) {
 						processPart(metalName, partName, metal, preferredMetalItem, metalLiquid, partName == "ingot", metalStage, hasLiquid);

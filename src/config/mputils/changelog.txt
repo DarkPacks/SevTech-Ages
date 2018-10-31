@@ -104,6 +104,7 @@ Enhancements:
 * Decreased the health of Shadow Monsters to 35
 * Increased the spawn chance of meteors
 * Disabled Galacticraft "Harder Difficulty" & enabled "Quick Game Mode" - This reduces the cost of plates, and in general aims to reduce the grind
+* Added a Meteoric Iron dust and unified Meteoric Iron
 
 Forge: 14.23.5.2768
 

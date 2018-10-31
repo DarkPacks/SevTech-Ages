@@ -65,6 +65,7 @@ static metalStages as string[string] = {
 	knightslime: "four",
 	lead: "three",
 	manyullyn: "four",
+	meteoricIron: "five",
 	modularium: "three",
 	nickel: "three",
 	osmium: "five",

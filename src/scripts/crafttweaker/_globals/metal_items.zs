@@ -252,6 +252,15 @@ global metalItems as IIngredient[string][string] = {
 		plate: null,
 		rod: null
 	},
+	meteoricIron: {
+		block: <galacticraftcore:basic_block_core:12>,
+		dust: <materialpart:meteoric_iron:dust>,
+		gear: null,
+		ingot: <galacticraftcore:item_basic_moon:0>,
+		nugget: null,
+		plate: null,
+		rod: null
+	},
 	modularium: {
 		block: null,
 		dust: null,

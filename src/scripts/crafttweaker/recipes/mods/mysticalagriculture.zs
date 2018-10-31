@@ -58,6 +58,7 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:knightslime_essence:0>: metals.knightslime.ingot.firstItem * 4,
 	<mysticalagriculture:lead_essence:0>: metals.lead.ingot.firstItem * 4,
 	<mysticalagriculture:manyullyn_essence:0>: metals.manyullyn.ingot.firstItem * 2,
+	<mysticalagriculture:meteoric_iron_essence>: metals.meteoricIron.ingot.firstItem * 3,
 	<mysticalagriculture:nickel_essence:0>: metals.nickel.ingot.firstItem * 4,
 	<mysticalagriculture:osmium_essence:0>: metals.osmium.ingot.firstItem * 4,
 	<mysticalagriculture:platinum_essence:0>: metals.platinum.ingot.firstItem * 2,

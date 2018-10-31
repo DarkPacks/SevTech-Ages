@@ -105,6 +105,7 @@ Enhancements:
 * Increased the spawn chance of meteors
 * Disabled Galacticraft "Harder Difficulty" & enabled "Quick Game Mode" - This reduces the cost of plates, and in general aims to reduce the grind
 * Added a Meteoric Iron dust and unified Meteoric Iron
+* Allow fire sticks to be used as a fire source (for lighting torches, etc)
 
 Forge: 14.23.5.2768
 

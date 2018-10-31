@@ -44,9 +44,6 @@ for i in 0 to 16 {
 <ore:knightTorch>.add(<minecraft:torch:0>);
 <ore:knightTorch>.add(<tconstruct:stone_torch:0>);
 
-<ore:torch>.add(<primal_tech:fibre_torch>);
-<ore:torch>.add(<primal_tech:fibre_torch_lit>);
-
 // AE Wrenches
 <ore:wrenchQuartz>.add(<appliedenergistics2:certus_quartz_wrench:0>);
 <ore:wrenchQuartz>.add(<appliedenergistics2:nether_quartz_wrench:0>);

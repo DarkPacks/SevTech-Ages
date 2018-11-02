@@ -47,7 +47,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>]
+			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>]
 		]
 	]
 };

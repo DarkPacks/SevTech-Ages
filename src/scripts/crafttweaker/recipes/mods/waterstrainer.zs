@@ -53,6 +53,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<waterstrainer:strainer_base:0>: {
+		Utils.genRecipeName(stageOne, <waterstrainer:strainer_base:0>): [
+			[
+				[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
+				[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
+				[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>]
+			]
+		]
+	}
 };
 
 /*

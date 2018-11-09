@@ -1,3 +1,6 @@
+###############################################
+###### SevTech: Ages Custom Advancements ######
+###############################################
 # Stage 0
 advancements.stage0.abyssalbiome.title=Enter the Darklands
 advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
@@ -1010,3 +1013,36 @@ advancements.stage5.ultimateingot.description=Crafting a number of ingots togeth
 
 advancements.stage5.wirelesscharger.title=Wireless Chargin
 advancements.stage5.wirelesscharger.description=The Wireless Charger is a convenient machine to have in your base for anything you want charged easily
+
+
+###############################################
+########## SevTech: Ages Custom Tips ##########
+###############################################
+mods.tips.tips.1=Water is only infinite in River and Ocean biomes.
+mods.tips.tips.2=The world generates in a logical heat map. Need snow or a desert? Travel North or South until you find it!
+mods.tips.tips.3=While walking, your player will change position.
+mods.tips.tips.4=WAILA is already installed, you just need to unlock it!
+mods.tips.tips.5=SevTech has map mods! You don't have to add your own!
+mods.tips.tips.6=Ore Excavation is in the pack. You'll need to discover and unlock it.
+mods.tips.tips.7=The Advancement page will lead you through the pack. You can find it in the escape menu or by pressing "L" (default).
+mods.tips.tips.8=The carrot in your inventory is where you can view your nutrition levels. If you raise the nutrition levels high enough you will get buffs. Let them drop too low and you'll have debuffs.
+mods.tips.tips.9=New items are revealed as you unlock new stages!
+mods.tips.tips.10=Ores are hidden until you unlock them via new stages.
+mods.tips.tips.11=Can't figure out how to get an item? Check JEI. It may have your answer.
+mods.tips.tips.12=You can move faster on certain blocks like Grass Paths.
+mods.tips.tips.13=The Ore is setup in large veins. Locate the chunk a vein is in by finding a Sample on the surface.
+mods.tips.tips.14=Use F7 to see the light levels on the ground and F9 to see the chunk borders.
+mods.tips.tips.15=Want to get to the next stage? Follow the Advancements.
+mods.tips.tips.16=Dimensions can only be entered when you unlock them via new stages.
+mods.tips.tips.17=Some blocks are disguised as other blocks. They are revealed in the correct stage. Always go back and check out areas you've already explored to see what's new.
+mods.tips.tips.18=Ore doubling is available later on in the Industrial stage.
+mods.tips.tips.19=Make sure to let Glen out of your park so he can eat and sleep.
+mods.tips.tips.20=All enemies do not appear at the beginning of the pack. Some will only spawn later on.
+mods.tips.tips.21=Need to locate an ore vein in a chunk? Use items from the Prospectors mod.
+mods.tips.tips.22=Coordinates in the F3 screen are not available. Unlock and use Info Accessories to see this information or use markers in the world to find your way.
+mods.tips.tips.23=If you die a Death Compass will spawn in your inventory this will point you to the direction of your grave.
+mods.tips.tips.24=Shift/Sneak on your grave to retrieve your items.
+mods.tips.tips.25=Rafts are an earlier form of water transportation. They are just a bit weaker and slower.
+mods.tips.tips.26=Morney cheese sauce (makes 1 gal); 2qt whole milk; 2 qts heavy cream; roux (250g butter/250g flour); sachet (bay, peppercorns, thyme); dijon (to taste); shredded comte cheese (lots/to taste); bring milk/cream/sachet to a boil (remove sachet) then reduce heat to simmer add roux (should be blonde) and whisk until absorbed add dijon and shredded cheese to taste
+mods.tips.tips.27=Holding the Drawer Key in your off-hand will automatically lock a newly placed Storage Drawer
+mods.tips.tips.28=Try not to let horsepower leads cross chunk borders

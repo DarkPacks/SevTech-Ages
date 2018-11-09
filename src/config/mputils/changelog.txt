@@ -125,10 +125,13 @@ Mods Added:
     * Now required by Nether Ex (2.0.0+)
 * Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.4)
+* Tips (1.0.1)
+    * JustTheTips replacement
 * ZenStages (0.3.0-15)
     * Allows us to create staging modpacks far easier.
 
 Mods Removed:
+* JustTheTips
 * Tomb Many Graves
     * This mod was causing more problems than solving. So we have decided to drop the mod in favour of another which has mod support
       and active development.

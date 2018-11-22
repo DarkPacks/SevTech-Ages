@@ -31,11 +31,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:charcoal_hopper> : [
 		[
-			[null, null, null],
-			[null, <tconstruct:firewood:0>, null],
-			[null, <primal_tech:wooden_hopper>, null]
-		],
-		[
 			[<totemic:cedar_plank:0>, <abyssalcraft:shadowgem:0>, <totemic:cedar_plank:0>],
 			[<betterwithmods:material:37>, <primal:shark_tooth:0>, <betterwithmods:material:37>],
 			[null, <primal_tech:wooden_hopper>, null]
@@ -189,6 +184,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<primal_tech:charcoal_hopper>: {
+		Utils.genRecipeName(stageOne, "charcoal_hopper"): [
+			[
+				[null, null, null],
+				[null, <tconstruct:firewood:0>, null],
+				[null, <primal_tech:wooden_hopper>, null]
+			]
+		],
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [
 			[
 				[null, null, null],

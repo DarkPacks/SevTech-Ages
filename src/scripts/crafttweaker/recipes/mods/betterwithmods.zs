@@ -203,13 +203,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:cordageLeather>, <minecraft:leather:0>, <ore:cordageLeather>]
 		]
 	],
-	<betterwithmods:material:0> : [
-		[
-			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
-			[<ore:plankWood>, <betterwithmods:material:12>, <ore:plankWood>],
-			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem]
-		]
-	],
 	<betterwithmods:aesthetic:12> : [
 		[
 			[<betterwithmods:wicker:0>, <betterwithmods:wicker:0>],
@@ -280,6 +273,19 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	// ==================================
+	// Stage One
+	// ==================================
+	<betterwithmods:material:0>: {
+		Utils.genRecipeName(stageOne, <betterwithmods:material:0>): [
+			[
+				[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
+				[<ore:plankWood>, <betterwithmods:material:12>, <ore:plankWood>],
+				[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem]
+			]
+		]
+	},
+
 	// ==================================
 	// Stage Two
 	// ==================================

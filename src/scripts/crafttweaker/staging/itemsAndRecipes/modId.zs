@@ -51,6 +51,6 @@ static stagedMods as string[][string] = {
 
 function init() {
 	for stageName, modId in stagedMods {
-		ZenStager.getStage(stageName).addModId(modId);
+		ZenStager.getStage(stageName).addModId(modId, true);
 	}
 }

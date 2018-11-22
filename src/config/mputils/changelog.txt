@@ -127,7 +127,7 @@ Mods Added:
 * Proportional Destruction Particles (1.2.4)
 * Tips (1.0.1)
     * JustTheTips replacement
-* ZenStages (0.3.0-15)
+* ZenStages (0.4.0-18)
     * Allows us to create staging modpacks far easier.
 
 Mods Removed:

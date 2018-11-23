@@ -112,10 +112,10 @@ Forge: 14.23.5.2775
 Mods Added:
 * BetterWithLib (1.5)
     * Now needed with a BWM update. Yay more libs! >.<
-* Building Gadgets (2.3.8)
-* Corails Tombstone (3.2.6)
+* Building Gadgets (2.4.6)
+* Corails Tombstone (3.3.0)
     * This replaces Tomb Many Graves.
-* Fast Furnace (1.1.1)
+* Fast Furnace (1.2.1)
     * Caches the last recipe used. Helps with tick time and look up speed etc...
 * In-Game Wiki
     * Needed for the mods which don't have only docs but support IGW.
@@ -125,7 +125,7 @@ Mods Added:
     * Now required by Nether Ex (2.0.0+)
 * Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.4)
-* Tips (1.0.1)
+* Tips (1.0.2)
     * JustTheTips replacement
 * ZenStages (0.4.0-18)
     * Allows us to create staging modpacks far easier.
@@ -165,12 +165,12 @@ Mod Updates:
 * Astral Sorcery (1.10.2)
 * AutoRegLib (1.3-20)
 * B.A.S.E (3.10.0)
-* Better Advancements (0.0.14.66)
+* Better Advancements (0.0.14.68)
 * Better Foliage (2.2.0)
 * Better With Addons (0.46)
     * Changes Lanterns to only extinguish when sneaking while rightclicking.
     * Fixes some networking issues in multiplayer when using a writing table
-* Better With Mods (2.3.16)
+* Better With Mods (2.3.17)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.2-101)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -181,11 +181,11 @@ Mod Updates:
     * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
 * BnBGamingCore (0.10.0)
 * BnBGamingLib (2.17.0)
-* Bookshelf (2.3.267)
+* Bookshelf (2.3.568)
 * Bonsai Trees (1.1.1-b138)
-* BuildCraft (7.99.18)
+* BuildCraft (7.99.19)
 * Car Mod (1.2.12)
-* CarryOn (1.11.1)
+* CarryOn (1.12)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
     * Fixed a bug that could force-close certain GUI's even if the block was blacklisted
     * Carry-Key could get stuck when entering through dimensions
@@ -214,7 +214,7 @@ Mod Updates:
     * Made tool racks and spice racks placeable on non-solid blocks (like glass)
     * Fixed crafting of recipes with tools not working when the tool is damaged
     * Fixed wrong rock material of the placed cutting board (instead of wood)
-* CraftTweaker (4.1.9)
+* CraftTweaker (4.1.13)
 * Cucumber (1.1.1)
 * Cyclic (1.17.6)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
@@ -224,7 +224,7 @@ Mod Updates:
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
 * Cyclops Core (0.11.10)
-* Dark Utilities (1.8.217)
+* Dark Utilities (1.8.218)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
 * Dimensional Control (2.10.3)
@@ -239,16 +239,18 @@ Mod Updates:
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
     * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
-* ExtraPlanets (0.4.4)
+* ExtraPlanets (0.4.5)
 * Fancy Block Particles (2.4.1)
 * Farming For Blockheads (3.1.26)
     * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
-* FastWorkbench (1.5.3)
+* FastWorkbench (1.6.0)
 * FindMe (1.0.2-6)
-* FoamFix (0.10.2)
+* FoamFix (0.10.3)
     * Please note that this is the formerly "Anarchy" version; the "Lawful" version is no longer distributed.
     * Optimized model deduplication speed, though with the increased number of recursion it won't be noticeable in practice - however, it should lead to more RAM saved.
+    * Add patch which lowers the expensive "player presence" check for mob spawners from being done every tick to being done every 10 ticks (by default; you can increase or decrease it). The default will be changed to vanilla behaviour if it's proven that it causes a perceptible difference in gameplay, particularly with regards to automation - but it really shouldn't...
+    * Fix compatibility with ArmorPlus.
 * Forge Multi Part (2.6.0.79)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
@@ -276,8 +278,8 @@ Mod Updates:
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
-* Iron Chests (7.0.52.837)
-* Item Stages (2.0.42)
+* Iron Chests (7.0.54.838)
+* Item Stages (2.0.44)
 * Just Enough Items (4.12.1.217)
 * KleeSlabs (5.4.11)
 * Mantle (1.3.3.39)
@@ -379,7 +381,7 @@ Mod Updates:
     * Fixed some shader textures uninitialized in first frame when loading world causing a crash with Optifine
     * Fixed player mounting Harlequinn Toad when healing with Dragonfly Wings
     * Fixed Harlequinn Toad healing causing a null stack crash in a specific situation
-    * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583
+    * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583 and https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2635610
 * The Twilight Forest (3.8.689)
 * Tinkers Construct (2.10.1.87)
     * New Pattern Chest model!
@@ -397,7 +399,8 @@ Mod Updates:
 * Viescraft (5.9.13)
 * WanionLib (1.7)
 * Wawla (2.5.264)
-* Wither Skeleton Tweaks (2.6.1)
+* Wither Skeleton Tweaks (2.6.2)
+* World Stripper (1.6.0)
 * XNet (1.7.5)
 * YNot (0.2.3)
 

@@ -195,6 +195,7 @@ static removeRecipes as IItemStack[] = [
 ];
 
 static removeRegex as string[] = [
+	"tconstruct:gadgets/slimesling/green",
 	"tconstruct:tools/pattern"
 ];
 

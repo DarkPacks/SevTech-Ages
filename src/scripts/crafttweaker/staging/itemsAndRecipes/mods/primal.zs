@@ -879,6 +879,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:stairs_carbonate_flag:0>,
 	<primal:stairs_ferro_flag:0>,
 	<primal:stairs_lacquer:0>,
+	<primal:stairs_night_stone>,
 	<primal:stone_basin:0>,
 	<primal:stone_gallagher:0>,
 	<primal:sword_crude_bone:0>,

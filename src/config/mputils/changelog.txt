@@ -138,7 +138,7 @@ Mods Removed:
 
 Mod Updates:
 * A Block of Charcoal (1.2)
-* AbyssalCraft (1.9.4.13)
+* AbyssalCraft (1.9.4.14)
     * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
     * Fixed a dupe bug in the Materializer GUI
     * Reduced the range of Cha'garoth's melee attacks
@@ -149,6 +149,12 @@ Mod Updates:
     * If two mobs/players/whatevers close to each other both have Dread Plague I, they can infect each other with Dread Plague II
     * Lesser Shoggoths now have an AI for monolith construction, which makes the construction happen more frequently
     * The purging ritual now only converts biomes that are Dreadlands biomes
+    * Cha'garoth now opens his mouth during his barf attack (courtesy of Enderman_Of_D00m)
+    * Fixed the crystallizer recipes for processing Bronze
+    * J'zahar has been buffed with new attacks (including shouts, earthquakes and conjuring black holes and gravity anomalies)
+    * The Dreadlands Portal now spawn Dreadlings instead of Dread Spawns
+    * Energy Containers can now display values over 32767 in their GUIs
+    * Doubled the time it takes for a Lesser Dreadbeast to spawn a Dread Spawn
 * AbyssalCraft Integration (1.6.6)
 * Actually Additions (r143)
     * Added redstone sensitivity / comparator output to Bio Reactor.
@@ -158,7 +164,7 @@ Mod Updates:
     * Fixed the farmer (and other inventories) failing to add items if all items have a stacksize of 1.
 * Advanced Mortars (1.6.22)
 * Apple Core (3.1.4)
-* Applied Energistics 2 (rv6-stable-3)
+* Applied Energistics 2 (rv6-stable-4)
 * Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
 * Astikoor (1.1.1a)
@@ -192,6 +198,7 @@ Mod Updates:
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.37)
 * CD4017BE Lib (6.2.7)
+* Ceramics (1.3.6)
 * Chisel (0.2.1.35)
 * Chisel & Bits (14.26)
     * Fix a crash when rendering invalid ghost blocks.
@@ -216,14 +223,15 @@ Mod Updates:
     * Fixed wrong rock material of the placed cutting board (instead of wood)
 * CraftTweaker (4.1.13)
 * Cucumber (1.1.1)
-* Cyclic (1.17.6)
+* CustomMainMenu (2.0.9)
+* Cyclic (1.17.9)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
     * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
     * Forester GUI now has size and height controls.
     * Fixed Auto User not gathering drops from certain plants and bushes.
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
-* Cyclops Core (0.11.10)
+* Cyclops Core (0.11.11)
 * Dark Utilities (1.8.218)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
@@ -232,8 +240,8 @@ Mod Updates:
 * EmberRootZoo (1.3.10)
 * Enchantment Descriptions (1.1.9)
 * Ender Storage (2.4.5.135)
-* Ender Utilities (0.7.11)
-* Environmental Tech (2.0.18.1)
+* Ender Utilities (0.7.12)
+* Environmental Tech (2.0.18.2)
 * Extended Crafting (1.5.0)
     * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
     * Fixed the Automation Interface not working properly with the Ender Crafter
@@ -245,6 +253,7 @@ Mod Updates:
     * Remove villager idle noises from merchants because they're so annoying
 * Farseek (2.3.1)
 * FastWorkbench (1.6.0)
+* Ferdinand's Flowers (1.10.4.1)
 * FindMe (1.0.2-6)
 * FoamFix (0.10.3)
     * Please note that this is the formerly "Anarchy" version; the "Lawful" version is no longer distributed.
@@ -271,8 +280,8 @@ Mod Updates:
 * Improved Backpacks (1.3.0.0)
 * In Control (3.8.2)
 * Inductive Logistics (1.3.2)
-* Industrial Foregoing (1.11.5-215)
-* Integrated Dynamics (0.11.17)
+* Industrial Foregoing (1.11.6-216)
+* Integrated Dynamics (0.11.18)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
@@ -280,13 +289,13 @@ Mod Updates:
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
 * Iron Chests (7.0.54.838)
 * Item Stages (2.0.44)
-* Just Enough Items (4.12.1.217)
+* Just Enough Items (4.13.1.225)
 * KleeSlabs (5.4.11)
 * Mantle (1.3.3.39)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
-* MicJty Lib (3.0.6)
+* MicJty Lib (3.0.7)
 * MJRLegends Lib (1.1.6)
 * Mob Grinding Utils (0.3.11)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
@@ -326,7 +335,7 @@ Mod Updates:
     * Tonnes of other changes/fixes. #Content!
 * Prestige (1.0.019)
 * Placebo (1.5.0)
-* PneumaticCraft (0.7.8-259)
+* PneumaticCraft (0.8.3.299)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
     * Fix: items not always transferring in Logistics Network (using tubes & Logistics Modules)
@@ -344,29 +353,32 @@ Mod Updates:
     * Fixed NPE when using a newly-crafted GPS Area Tool
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.1.29)
+* PrimalCore (0.6.104)
 * Quantum Storage (4.6.2)
 * Quark (r1.5-129)
 * RFTools (7.56)
 * RFTools Control (1.9.1)
 * Realistic Item Drops (1.2.14)
-* Reborn Core (3.10.2.337)
+* Reborn Core (3.10.5.350)
 * Reborn Storage (3.2.2.65)
 * Recipe Stages (1.1.1)
 * Redstone Flux (2.1.0.6)
-* Refined Storage (1.6.9)
+* Refined Storage (1.6.10)
     * TLDR: The mod changed a lot and some things are gone/changed. So check your networks/recipes, basically check all your setup! And read the changelog below!
     * Changes: https://minecraft.curseforge.com/projects/refined-storage/files/2587374
 * Refined Storage Addons (0.4.3)
     * Removed Network Bag
     * Removed Network Picker
     * Removed Infinite Wireless Transmitter
+* RFTools (7.58)
+* RFTools Control (1.9.2)
 * Rustic (1.0.12)
 * Scannable (1.6.3.22)
 * SevTweaks (0.2.1-20)
-* Simple Generators (2.0.18.1)
+* Simple Generators (2.0.18.3)
 * Simple Storage Network (1.5.3)
 * Smooth Font (1.16.1)
-* Steve Carts (2.4.24.118)
+* Steve Carts (2.4.25.121)
 * Storage Drawers (5.3.7)
 * Tesla Core Lib (1.0.15.13)
 * The Beneath (1.4.2)
@@ -374,7 +386,7 @@ Mod Updates:
 * Traverse (1.6.0-66)
 * Translocators (2.5.1.77)
 * Triumph (3.3.0)
-* The Betweenlands (3.4.0)
+* The Betweenlands (3.4.1)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench
     * Fixed apparent crash when entering the Betweenlands
@@ -383,7 +395,7 @@ Mod Updates:
     * Fixed Harlequinn Toad healing causing a null stack crash in a specific situation
     * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583 and https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2635610
 * The Twilight Forest (3.8.689)
-* Tinkers Construct (2.10.1.87)
+* Tinkers Construct (2.11.0.106)
     * New Pattern Chest model!
     * Patterns/Toolparts can now be rightclicked into chests
 * Tinker Tool Leveling (1.1.0)
@@ -395,9 +407,9 @@ Mod Updates:
 * Totemic (0.11.3)
 * Translocators (2.5.0.73)
 * Traverse (1.6.0-69)
-* ValkyrieLib (2.0.18.1)
+* ValkyrieLib (2.0.18.3)
 * Viescraft (5.9.13)
-* WanionLib (1.7)
+* WanionLib (1.9)
 * Wawla (2.5.264)
 * Wither Skeleton Tweaks (2.6.2)
 * World Stripper (1.6.0)

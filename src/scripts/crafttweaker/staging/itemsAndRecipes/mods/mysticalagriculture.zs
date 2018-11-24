@@ -1,10 +1,12 @@
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.utils.stageRecipeNameOrRegex;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -111,6 +113,12 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static stagedRecipeNames as string[][string] = {
+	stageFive.stage: [
+		"REGEX:mysticalagriculture:.*"
+	]
+};
+
 static hiddenRemove as IIngredient[] = [
 	<mysticalagradditions:insanium:3>,
 	<mysticalagriculture:crafting:45>  //Soulium Nugget
@@ -120,5 +128,10 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	for stageName, recipeNames in stagedRecipeNames {
+		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
+	}
+
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

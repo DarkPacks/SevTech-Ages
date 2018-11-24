@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.stages.stageFive;
+
 /*
     Shaped Recipes
 */
@@ -98,24 +100,25 @@ static removeRecipes as IItemStack[] = [
 
 function init() {
 	// Build the recipes to be generated from the Generated Map.
-	var generatedShapedRecipes as IIngredient[][][][IItemStack] = {};
+	var generatedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
+
 	for essence, output in recipesToGenerate {
+		var recipeName = Utils.genRecipeName(stageFive);
+
 		var essenceRecipe as IIngredient[][] = [
 			[essence, essence, essence],
 			[essence, null, essence],
 			[essence, essence, essence]
 		];
 
-		if (generatedShapedRecipes has output) {
-			generatedShapedRecipes[output] += essenceRecipe;
-		} else {
-			generatedShapedRecipes[output] = [essenceRecipe];
+		if (!(generatedShapedRecipes has output)) {
+			generatedShapedRecipes[output] = {};
 		}
+		generatedShapedRecipes[output][recipeName] = [essenceRecipe];
 	}
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
-	recipeUtil.process(generatedShapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
 
@@ -123,6 +126,7 @@ function init() {
 	recipeUtil.processNamed(namedShapedRecipes, false);
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
+	recipeUtil.processNamed(generatedShapedRecipes, false);
 
 	recipeUtil.removeRecipes(removeRecipes);
 }

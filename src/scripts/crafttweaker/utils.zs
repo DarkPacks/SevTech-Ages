@@ -280,3 +280,17 @@ function getDyeIdFromColor(color as string) as int {
 		}
 	}
 }
+
+/*
+	Add a recipe string array to a given Stage also checking if `REGEX:` is prepended
+	to handle those strings differently
+*/
+function stageRecipeNameOrRegex(stage as Stage, recipeNames as string[]) {
+	for recipeName in recipeNames {
+		if (recipeName.startsWith("REGEX:")) {
+			stage.addRecipeRegex(recipeName.substring(6, recipeName.length));
+		} else {
+			stage.addRecipeName(recipeName);
+		}
+	}
+}

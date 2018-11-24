@@ -8,6 +8,7 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
 import scripts.crafttweaker.stages.stageCreativeUnused;
+import scripts.crafttweaker.utils.stageRecipeNameOrRegex;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -381,6 +382,12 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static stagedRecipeNames as string[][string] = {
+	stageFive.stage: [
+		"galacticraftcore:slime_ball"
+	]
+};
+
 static hiddenItems as IIngredient[] = [
 	<galacticraftcore:bucket_fuel:0>,
 	<galacticraftcore:refinery:0>,
@@ -392,5 +399,10 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	for stageName, recipeNames in stagedRecipeNames {
+		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
+	}
+
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 }

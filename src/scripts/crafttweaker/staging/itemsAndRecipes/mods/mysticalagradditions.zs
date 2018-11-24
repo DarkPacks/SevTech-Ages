@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.utils.stageRecipeNameOrRegex;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -24,8 +25,18 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static stagedRecipeNames as string[][string] = {
+	stageFive.stage: [
+		"REGEX:mysticalagradditions:.*"
+	]
+};
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+
+	for stageName, recipeNames in stagedRecipeNames {
+		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
 	}
 }

@@ -942,6 +942,7 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:ender_chest:0>,
 	<minecraft:farmland:0>,
 	<minecraft:flint:0>,
+	<minecraft:furnace:0>,
 	<minecraft:glass:0>,
 	<minecraft:glass_bottle:0>,
 	<minecraft:glass_pane:0>,

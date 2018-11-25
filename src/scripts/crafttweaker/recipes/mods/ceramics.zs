@@ -32,6 +32,13 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {};
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
 /*
+	Furnace Recipes
+*/
+static furnaceRecipes as IIngredient[][IItemStack] = {
+	<ceramics:clay_bucket:0>: [<ceramics:clay_bucket_block:0>]
+};
+
+/*
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
@@ -55,6 +62,8 @@ function init() {
 	recipeUtil.processNamed(namedShapedRecipes, false);
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
+
+	recipeUtil.processFurnace(furnaceRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
 	recipeUtil.removeFurnace(removeFurnace);

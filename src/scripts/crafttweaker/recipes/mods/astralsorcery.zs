@@ -98,6 +98,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<astralsorcery:itemcraftingcomponent:5>,
+	<astralsorcery:itemjournal:0>,
 	<astralsorcery:itemwand:0>
 ];
 

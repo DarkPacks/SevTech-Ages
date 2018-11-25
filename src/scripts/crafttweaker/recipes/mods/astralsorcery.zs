@@ -55,6 +55,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<astralsorcery:itemcraftingcomponent:5>: {
+		Utils.genRecipeName(stageTwo, <astralsorcery:itemcraftingcomponent:5>): [
+			[
+				[null, <minecraft:paper:0>, null],
+				[<minecraft:paper:0>, <astralsorcery:itemcraftingcomponent:0>, <minecraft:paper:0>],
+				[null, <minecraft:paper:0>, null]
+			]
+		]
+	},
 	<astralsorcery:itemjournal:0>: {
 		Utils.genRecipeName(stageTwo, <astralsorcery:itemjournal:0>): [
 			[
@@ -88,6 +97,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<astralsorcery:itemcraftingcomponent:5>,
 	<astralsorcery:itemwand:0>
 ];
 

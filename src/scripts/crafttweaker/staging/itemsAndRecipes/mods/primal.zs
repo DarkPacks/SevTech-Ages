@@ -930,14 +930,12 @@ static hiddenItems as IIngredient[] = [
 	<primal:adobe_brick_dry:0>,
 	<primal:smelter_lid_adobe:0>,
 	<primal:hibachi:3>,
-	<primal:smelter:3>,
 	<primal:adobe_brick:0>,
 	<primal:adamant_nugget:0>,
 	<primal:adamant_dust:0>,
 	<primal:adamant_ingot:0>,
 	<primal:adamant_plate:0>,
 	<primal:hibachi:3>.withTag({type: "adobe"}),
-	<primal:smelter:3>.withTag({type: "adobe"}),
 	<primal:paraffin_clump:0>,
 	<primal:fermented_jungle:0>,
 	<primal:rock_end:0>,
@@ -957,9 +955,6 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
-	<primal:smelter:2>.withTag({type: "cinis"}),
-	<primal:smelter:1>.withTag({type: "terra"}),
-	<primal:smelter:0>.withTag({type: "mud"})
 ];
 
 function init() {
@@ -968,4 +963,14 @@ function init() {
 	}
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
+
+	/*
+		Hide & remove all smelter items
+	*/
+	var hiddenSmelters as IIngredient[] = [];
+	for smelter in <primal:smelter:0>.definition.subItems {
+		hiddenSmelters += smelter;
+		hiddenSmelters += smelter.withTag({BlockEntityTag: {covered: 1 as byte}});
+	}
+	recipeUtil.hideItems(hiddenSmelters as IIngredient[], true);
 }

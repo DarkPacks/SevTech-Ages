@@ -89,9 +89,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
-	<extendedcrafting:material:14> : [
-		[metals.iron.rod, metals.iron.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
-	],
 	<extendedcrafting:material:15> : [
 		[metals.gold.rod, metals.gold.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
 	],
@@ -101,6 +98,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+	<extendedcrafting:material:14>: {
+		Utils.genRecipeName(stageThree, <extendedcrafting:material:14>): [
+			[metals.iron.rod, metals.iron.rod, metals.blackIron.plate, <extendedcrafting:material:7>]
+		]
+	}
 };
 
 /*

@@ -380,13 +380,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, metals.iron.rod, null]
 		]
 	],
-	<stevescarts:cartmodule:0> : [
-		[
-			[<minecraft:piston:0>, <minecraft:piston:0>, <minecraft:piston:0>],
-			[metals.iron.plate, <natura:netherrack_furnace:0>, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
-		]
-	],
 	<stevescarts:cartmodule:8> : [
 		[
 			[metals.steel.plate, metals.steel.plate, null],
@@ -615,6 +608,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<stevescarts:cartmodule:0>: {
+		Utils.genRecipeName(stageThree, <stevescarts:cartmodule:0>): [
+			[
+				[<minecraft:piston:0>, <minecraft:piston:0>, <minecraft:piston:0>],
+				[metals.iron.plate, <natura:netherrack_furnace:0>, metals.iron.plate],
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+			]
+		]
+	}
 };
 
 /*

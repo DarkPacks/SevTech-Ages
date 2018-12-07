@@ -70,27 +70,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:smeltery_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
-		]
-	],
-	<tconstruct:seared_furnace_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
-		]
-	],
-	<tconstruct:tinker_tank_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
-		]
-	],
 	<tconstruct:materials:16> : [
 		[
 			[null, <tconstruct:materials:15>, null],
@@ -125,6 +104,33 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<tconstruct:seared_furnace_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:seared_furnace_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
+			]
+		]
+	},
+	<tconstruct:smeltery_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:smeltery_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
+			]
+		]
+	},
+	<tconstruct:tinker_tank_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:tinker_tank_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
+			]
+		]
+	}
 };
 
 /*

@@ -352,7 +352,7 @@ Mod Updates:
     * Reworked 3rd party wrench support: many more wrenches are now supported
     * Fixed NPE when using a newly-crafted GPS Area Tool
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
-* Prestige (1.1.29)
+* Prestige (1.1.30)
 * PrimalCore (0.6.104)
 * Quantum Storage (4.6.2)
 * Quark (r1.5-129)

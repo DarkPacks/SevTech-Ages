@@ -68,7 +68,13 @@ function init() {
 	Carving.addVariation("limestone", <thebetweenlands:limestone_tiles:0>);
 	Carving.addVariation("limestone", <thebetweenlands:polished_limestone:0>);
 	Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone:0>);
-
+	
+	// Add the Basalt to the already Chisel one.
+	Carving.addVariation("basalt", <nex:block_basalt:0>);
+	Carving.addVariation("basalt", <nex:block_basalt:1>);
+	Carving.addVariation("basalt", <nex:block_basalt:2>);
+	Carving.addVariation("basalt", <nex:block_basalt:3>);
+	
 	/*
 		Remove Iron Pane group
 		All items are WIP and thus hidden in JEI by us

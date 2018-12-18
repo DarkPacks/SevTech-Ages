@@ -49,6 +49,7 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:bronze_essence:0>: metals.bronze.ingot.firstItem * 4,
 	<mysticalagriculture:coal_essence:0>: <minecraft:coal:0> * 12,
 	<mysticalagriculture:cobalt_essence:0>: metals.cobalt.ingot.firstItem * 3,
+	<mysticalagriculture:compressed_iron_essence:0>: metals.compressedIron.firstItem * 6,
 	<mysticalagriculture:constantan_essence:0>: metals.constantan.ingot.firstItem * 4,
 	<mysticalagriculture:copper_essence:0>: metals.copper.ingot.firstItem * 6,
 	<mysticalagriculture:creeper_essence:0>: <minecraft:gunpowder:0> * 6,

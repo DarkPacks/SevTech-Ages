@@ -265,7 +265,7 @@ Mod Updates:
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
 * Galacticraft Tweaker (1.0.2)
-* Game Stages (2.0.110)
+* Game Stages (2.0.112)
 * Geolosys (2.1.2)
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level

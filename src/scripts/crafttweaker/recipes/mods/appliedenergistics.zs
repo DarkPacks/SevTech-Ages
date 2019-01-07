@@ -99,6 +99,7 @@ static removeRecipes as IItemStack[] = [
 	<appliedenergistics2:part:360>,
 	<appliedenergistics2:part:380>,
 	<appliedenergistics2:quartz_glass:0>
+	<appliedenergistics2:sky_compass:0>
 ];
 
 function init() {

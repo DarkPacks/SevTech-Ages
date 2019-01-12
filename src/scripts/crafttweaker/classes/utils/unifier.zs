@@ -122,6 +122,8 @@ zenClass Unifier {
 			}
 		}
 
-		scripts.crafttweaker.utils.ensureOreDict(oreDictEntry, preferredItem);
+		if (!isNull(preferredItem)) {
+			scripts.crafttweaker.utils.ensureOreDict(oreDictEntry, preferredItem);
+		}
 	}
 }

@@ -16,7 +16,7 @@ import scripts.crafttweaker.stages.stageTwo;
 
 function init() {
 	// Materializer
-	abyssalcraft.removeMaterialization(<minecraft:elytra:0>.withTag({}));
+	abyssalcraft.removeMaterialization(<minecraft:elytra:0>);
 
 	// Crystallizer
 	abyssalcraft.addSingleCrystallization(<charcoalblock:charcoal_block:0>, <abyssalcraft:crystal:3> * 2, 0.1);

@@ -106,6 +106,7 @@ Enhancements:
 * Disabled Galacticraft "Harder Difficulty" & enabled "Quick Game Mode" - This reduces the cost of plates, and in general aims to reduce the grind
 * Added a Meteoric Iron dust and unified Meteoric Iron
 * Allow fire sticks to be used as a fire source (for lighting torches, etc)
+* Removed Meteorite Compass as it was not used for anything (#3517)
 
 Forge: 14.23.5.2775
 

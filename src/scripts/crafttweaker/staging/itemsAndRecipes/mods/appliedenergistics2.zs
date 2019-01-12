@@ -165,7 +165,6 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:quantum_ring:0>,
 		<appliedenergistics2:quartz_growth_accelerator:0>,
 		<appliedenergistics2:security_station:0>,
-		<appliedenergistics2:sky_compass:0>,
 		<appliedenergistics2:sky_stone_block:0>,
 		<appliedenergistics2:sky_stone_brick_slab:0>,
 		<appliedenergistics2:sky_stone_brick_stairs:0>,

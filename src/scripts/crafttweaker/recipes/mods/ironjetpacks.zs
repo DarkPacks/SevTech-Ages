@@ -62,6 +62,11 @@ static removeRecipes as IItemStack[] = [
 	<ironjetpacks:electrum_capacitor:0>
 ];
 
+static hiddenRemove as IIngredient[] = [
+	<ironjetpacks:elite_coil>,
+	<ironjetpacks:ultimate_coil>
+];
+
 function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -74,4 +79,6 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

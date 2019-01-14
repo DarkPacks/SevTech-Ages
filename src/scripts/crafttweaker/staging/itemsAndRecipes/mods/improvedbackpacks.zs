@@ -43,11 +43,8 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<improvedbackpacks:bound_leather:0>,
+	<improvedbackpacks:ender_backpack:0>,
 	<improvedbackpacks:tanned_leather:0>
-];
-
-static hiddenRemove as IIngredient[] = [
-	<improvedbackpacks:ender_backpack:0> // We have the ender pouch and this has no def recipe, darkoLUL
 ];
 
 function init() {
@@ -55,5 +52,4 @@ function init() {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

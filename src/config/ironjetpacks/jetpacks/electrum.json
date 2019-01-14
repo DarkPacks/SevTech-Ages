@@ -1,23 +1,20 @@
 {
-  "jetpack_type": {
-    "name": "electrum",
-    "disable": false,
-    "tier": 0,
-    "color": 10981685,
-    "armor_points": 2,
-    "enchantability": 18,
-    "crafting_material": "ore:ingotElectrum",
-    "force_recipes": false
-  },
-  "jetpack_info": {
-    "capacity": 10000000,
-    "usage": 310,
-    "speed_vertical": 0.79,
-    "accel_vertical": 0.14,
-    "speed_sideways": 0.17,
-    "speed_hover_descend": 0.37,
-    "speed_hover": 0.03,
-    "sprint_speed_multi": 1.6,
-    "sprint_fuel_multi": 3.5
-  }
+  "name": "electrum",
+  "disable": false,
+  "tier": 0,
+  "color": "a79135",
+  "armorPoints": 2,
+  "enchantability": 18,
+  "craftingMaterial": "ore:ingotElectrum",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 10000000,
+  "usage": 310,
+  "speedVertical": 0.79,
+  "accelVertical": 0.14,
+  "speedSideways": 0.17,
+  "speedHoverDescend": 0.37,
+  "speedHover": 0.03,
+  "sprintSpeedMulti": 1.6,
+  "sprintFuelMulti": 3.5
 }

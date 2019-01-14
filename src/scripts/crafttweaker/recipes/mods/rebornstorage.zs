@@ -42,6 +42,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron:0>, <refinedstorage:storage_part:0>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	],
+	<rebornstorage:multicrafter:4>: [
+		[
+			[<rebornstorage:multicrafter>, <appliedenergistics2:material:43>, <rebornstorage:multicrafter>],
+			[<appliedenergistics2:material:24>, <refinedstorage:interface:*>, <appliedenergistics2:material:24>],
+			[<rebornstorage:multicrafter>, <appliedenergistics2:material:44>, <rebornstorage:multicrafter>]
+		]
+	],
 	<rebornstorage:storagepart:0>: [
 		[
 			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:material:24>],
@@ -123,6 +130,7 @@ static removeRecipes as IItemStack[] = [
 	<rebornstorage:multicrafter:1>,
 	<rebornstorage:multicrafter:2>,
 	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter:4>,
 	<rebornstorage:multicrafter:0>,
 	<rebornstorage:storagepart:1>,
 	<rebornstorage:storagepart:2>,

@@ -165,6 +165,7 @@ Mod Updates:
     * Fixed the farmer (and other inventories) failing to add items if all items have a stacksize of 1.
 * Advanced Mortars (1.6.22)
 * Animalium (0.3.8)
+* Antique Atlas (4.5.0)
 * Apple Core (3.1.4)
 * Applied Energistics 2 (rv6-stable-6)
 * Aroma Core (2.0.0.0)

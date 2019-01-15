@@ -546,7 +546,6 @@ Enhancements:
 * Added more blocks to be classed as sealable for GC thanks to @Iorce! (#2764)
 * Added Charcoal Block recipe to the Crystallizer (#2791)
 * Changed the size of the Bit Bag by x4
-* Removed Meteorite Compass as it was not used for anything (#3517)
 
 Forge: 14.23.4.2707
 

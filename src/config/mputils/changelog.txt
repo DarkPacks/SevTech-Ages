@@ -176,10 +176,10 @@ Mod Updates:
 * B.A.S.E (3.11.0)
 * Better Advancements (0.0.16.71)
 * Better Foliage (2.2.0)
-* Better With Addons (0.46)
+* Better With Addons (0.47-hotfix)
     * Changes Lanterns to only extinguish when sneaking while rightclicking.
     * Fixes some networking issues in multiplayer when using a writing table
-* Better With Mods (2.3.17)
+* Better With Mods (2.3.20-1027)
 * BiblioCraft (2.4.5)
 * Blood Magic (2.3.2-101)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
@@ -221,7 +221,7 @@ Mod Updates:
 * Connected Textures Mod (0.3.3.22)
 * Construct's Armory (1.2.2)
 * ContentTweaker (4.9.1)
-* Cooking With Blockheads (6.4.65)
+* Cooking With Blockheads (6.4.69)
     * Added Storage Drawers support
         * Only actual drawer blocks are supported, controllers can not be connected.
     * Added Heating Unit
@@ -233,7 +233,7 @@ Mod Updates:
 * CraftTweaker (4.1.13)
 * Cucumber (1.1.3)
 * CustomMainMenu (2.0.9)
-* Cyclic (1.17.13)
+* Cyclic (1.17.14)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
     * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
     * Forester GUI now has size and height controls.
@@ -284,11 +284,11 @@ Mod Updates:
 * Horse Power (2.6.1.68)
     * Fixed rare crash with the error display of the blocks while holding a lead.
 * Hunting Dimension (1.0.36)
-* Immersive Craft (1.5.0)
+* Immersive Craft (1.5.1)
 * Immersive Engineering (0.12-88)
     * Added a "Distribute Inputs" button to the ArcFurnace GUI. It keeps splitting the biggest stacks in the input if there is space available
 * Improved Backpacks (1.4.0.0)
-* In Control (3.8.2)
+* In Control (3.8.3)
 * Inductive Logistics (1.3.2)
 * Industrial Foregoing (1.11.6-216)
 * Informational Accessories (1.0.11)
@@ -310,7 +310,7 @@ Mod Updates:
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
-* MicJty Lib (3.0.7)
+* MicJty Lib (3.1.0)
 * MJRLegends Lib (1.1.8)
 * Mob Grinding Utils (0.3.13)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
@@ -372,7 +372,7 @@ Mod Updates:
 * Prestige (1.1.30)
 * PrimalCore (0.6.104)
 * Quantum Storage (4.6.5)
-* Quark (r1.5-142)
+* Quark (r1.5-144)
 * RFTools (7.56)
 * RFTools Control (1.9.1)
 * Realistic Item Drops (1.2.14)
@@ -387,14 +387,16 @@ Mod Updates:
     * Removed Network Bag
     * Removed Network Picker
     * Removed Infinite Wireless Transmitter
-* RFTools (7.59)
-* RFTools Control (1.9.2)
+* RFTools (7.60)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
+* RFTools Control (1.9.3)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
 * Rustic (1.0.15)
 * Scannable (1.6.3.22)
 * SevTweaks (0.2.1-20)
 * Simple Generators (2.0.19.1)
 * SimpleHarvest (1.2.7-20)
-* Simple Storage Network (1.5.3)
+* Simple Storage Network (1.5.5)
 * Smooth Font (1.16.2)
 * Steve Carts (2.4.28.130)
 * Storage Drawers (5.3.8)
@@ -433,7 +435,8 @@ Mod Updates:
 * Wawla (2.5.265)
 * Wither Skeleton Tweaks (2.6.2)
 * World Stripper (1.6.0)
-* XNet (1.7.5)
+* XNet (1.7.6)
+    * Support for COFH RF API is removed. Only Forge Energy is supported now
 * YNot (0.2.3)
 
 ---------------------------------------------------------------------

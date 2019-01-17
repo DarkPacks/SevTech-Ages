@@ -96,6 +96,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
+	<industrialforegoing:infinity_drill:*>,
 	<industrialforegoing:laser_base:0>,
 	<industrialforegoing:laser_drill:0>,
 	<industrialforegoing:laser_lens:*>,

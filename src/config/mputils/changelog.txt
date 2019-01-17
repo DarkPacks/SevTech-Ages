@@ -290,7 +290,7 @@ Mod Updates:
 * Improved Backpacks (1.4.0.0)
 * In Control (3.8.3)
 * Inductive Logistics (1.3.2)
-* Industrial Foregoing (1.11.6-216)
+* Industrial Foregoing (1.12.4-228)
 * Informational Accessories (1.0.11)
 * Integrated Dynamics (0.11.18)
     * Add visual indicator in operator dropdown list on next/prev elements

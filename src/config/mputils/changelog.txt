@@ -192,7 +192,7 @@ Mod Updates:
 * BnBGamingLib (2.17.0)
 * Bookshelf (2.3.569)
 * Bonsai Trees (1.1.2-b144)
-* BuildCraft (7.99.19)
+* BuildCraft (7.99.21)
 * Caliper (1.1.40)
 * Car Mod (1.2.12)
 * CarryOn (1.12.1)
@@ -219,7 +219,7 @@ Mod Updates:
 * Coloured Tooltips (1.0.7)
 * Compact Machines (3.0.13-b236)
 * Connected Textures Mod (0.3.3.22)
-* Construct's Armory (1.2.2)
+* Construct's Armory (1.2.3)
 * ContentTweaker (4.9.1)
 * Cooking With Blockheads (6.4.69)
     * Added Storage Drawers support
@@ -310,7 +310,7 @@ Mod Updates:
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
-* MicJty Lib (3.1.0)
+* MicJty Lib (3.1.1)
 * MJRLegends Lib (1.1.8)
 * Mob Grinding Utils (0.3.13)
     * Changed mob masher to extend kill zone slightly past the block bounds - now exceeds the block by 1 pixel all around - be careful.
@@ -396,7 +396,7 @@ Mod Updates:
 * SevTweaks (0.2.1-20)
 * Simple Generators (2.0.19.1)
 * SimpleHarvest (1.2.7-20)
-* Simple Storage Network (1.5.5)
+* Simple Storage Network (1.5.6)
 * Smooth Font (1.16.2)
 * Steve Carts (2.4.28.130)
 * Storage Drawers (5.3.8)
@@ -415,6 +415,7 @@ Mod Updates:
     * Fixed Harlequinn Toad healing causing a null stack crash in a specific situation
     * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583 and https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2635610
 * The Twilight Forest (3.8.689)
+* The Weirding Gadget (2.0.13)
 * Tinkers Construct (2.12.0.113)
     * New Pattern Chest model!
     * Patterns/Toolparts can now be rightclicked into chests

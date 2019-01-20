@@ -132,6 +132,7 @@ Mods Added:
     * Allows us to create staging modpacks far easier.
 
 Mods Removed:
+* CraftStudio API
 * JustTheTips
 * Tomb Many Graves
     * This mod was causing more problems than solving. So we have decided to drop the mod in favour of another which has mod support

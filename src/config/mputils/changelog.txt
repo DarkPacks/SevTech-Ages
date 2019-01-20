@@ -217,6 +217,7 @@ Mod Updates:
 * Clumps (3.1.1)
 * Code Chicken Lib (3.2.2.353)
 * Coloured Tooltips (1.0.7)
+* Common Capabilities (2.0.0)
 * Compact Machines (3.0.13-b236)
 * Connected Textures Mod (0.3.3.22)
 * Construct's Armory (1.2.3)
@@ -240,7 +241,7 @@ Mod Updates:
     * Fixed Auto User not gathering drops from certain plants and bushes.
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
-* Cyclops Core (0.11.11)
+* Cyclops Core (1.0.1)
 * Dark Utilities (1.8.222)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
@@ -256,7 +257,7 @@ Mod Updates:
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
     * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
-* ExtraPlanets (0.4.6)
+* ExtraPlanets (0.4.7)
 * Fancy Block Particles (2.4.1)
 * Farming For Blockheads (3.1.26)
     * Remove villager idle noises from merchants because they're so annoying
@@ -269,7 +270,7 @@ Mod Updates:
     * Optimized model deduplication speed, though with the increased number of recursion it won't be noticeable in practice - however, it should lead to more RAM saved.
     * Add patch which lowers the expensive "player presence" check for mob spawners from being done every tick to being done every 10 ticks (by default; you can increase or decrease it). The default will be changed to vanilla behaviour if it's proven that it causes a perceptible difference in gameplay, particularly with regards to automation - but it really shouldn't...
     * Fix compatibility with ArmorPlus.
-* Forge Multi Part (2.6.0.79)
+* Forge Multi Part (2.6.1.81)
 * ForgeLin (1.7.4)
 * Galacticraft (4.0.1.181)
 * Galacticraft Planets (4.0.1.181)
@@ -292,7 +293,7 @@ Mod Updates:
 * Inductive Logistics (1.3.2)
 * Industrial Foregoing (1.12.4-228)
 * Informational Accessories (1.0.11)
-* Integrated Dynamics (0.11.18)
+* Integrated Dynamics (1.0.1)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
@@ -351,7 +352,7 @@ Mod Updates:
     * Fix Worldgen issues
     * Tonnes of other changes/fixes. #Content!
 * Prestige (1.0.019)
-* Placebo (1.5.0)
+* Placebo (1.5.1)
 * PneumaticCraft (0.8.4-303)
     * The Omnidirectional Hopper and Liquid Hopper now have comparator support to measure their fullness.
     * Logistics Drones now grab as many of the requested item type as can fit in a single item stack, instead of taking simply the first stack from the inventory.
@@ -371,12 +372,12 @@ Mod Updates:
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.1.30)
 * PrimalCore (0.6.104)
-* Quantum Storage (4.6.5)
+* Quantum Storage (4.6.6)
 * Quark (r1.5-144)
 * RFTools (7.56)
 * RFTools Control (1.9.1)
 * Realistic Item Drops (1.2.14)
-* Reborn Core (3.13.1.402)
+* Reborn Core (3.13.2.411)
 * Reborn Storage (3.3.2.79)
 * Recipe Stages (1.1.1)
 * Redstone Flux (2.1.0.6)
@@ -392,13 +393,13 @@ Mod Updates:
 * RFTools Control (1.9.3)
     * Support for COFH RF API is removed. Only Forge Energy is supported now
 * Rustic (1.0.15)
-* Scannable (1.6.3.22)
+* Scannable (1.6.3.24)
 * SevTweaks (0.2.1-20)
 * Simple Generators (2.0.19.1)
 * SimpleHarvest (1.2.7-20)
 * Simple Storage Network (1.5.6)
 * Smooth Font (1.16.2)
-* Steve Carts (2.4.28.130)
+* Steve Carts (2.4.29.132)
 * Storage Drawers (5.3.8)
 * Tesla Core Lib (1.0.15.13)
 * The Beneath (1.4.2)
@@ -416,7 +417,7 @@ Mod Updates:
     * Tonnes of other changes see: https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2631583 and https://minecraft.curseforge.com/projects/angry-pixel-the-betweenlands-mod/files/2635610
 * The Twilight Forest (3.8.689)
 * The Weirding Gadget (2.0.13)
-* Tinkers Construct (2.12.0.113)
+* Tinkers Construct (2.12.0.115)
     * New Pattern Chest model!
     * Patterns/Toolparts can now be rightclicked into chests
 * Tinker Tool Leveling (1.1.0)
@@ -424,7 +425,7 @@ Mod Updates:
 * Tinkers Construct (2.10.1.87)
 * TipTheScales (1.0.3)
 * To The Bat Poles (1.1.0.1)
-* Toast Control (1.7.1)
+* Toast Control (1.8.0)
 * Together Forever (1.0.10-17)
 * Totemic (0.11.4)
 * Translocators (2.5.0.73)
@@ -434,7 +435,7 @@ Mod Updates:
 * Viescraft (5.9.13)
 * WanionLib (2.2)
 * Wawla (2.5.265)
-* Wither Skeleton Tweaks (2.6.2)
+* Wither Skeleton Tweaks (2.6.3)
 * World Stripper (1.6.0)
 * XNet (1.7.6)
     * Support for COFH RF API is removed. Only Forge Energy is supported now

@@ -411,7 +411,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:schist_blue_stone:7>,
 		<primal:schist_green_stone:7>,
 		<primal:scoria_stone:7>,
-		<primal:soul_stone:7>,
 		<primal:yew_bow:0>
 	],
 
@@ -501,6 +500,7 @@ static stagedItems as IIngredient[][string] = {
 		<primal:soul_stone:4>,
 		<primal:soul_stone:5>,
 		<primal:soul_stone:6>,
+		<primal:soul_stone:7>,
 		<primal:stairs_nether_earth:0>,
 		<primal:stairs_nether_path:0>,
 		<primal:stairs_netherrack:0>,

@@ -27,6 +27,8 @@ initIntegrations();
 // Build the Stages
 ZenStager.buildAll();
 
+initOverrides();
+
 // ==================================
 // Init Functions
 function initResources() {
@@ -315,4 +317,9 @@ function initItemModifiers() {
 	scripts.crafttweaker.itemModifiers.harvestLevel.init();
 	scripts.crafttweaker.itemModifiers.rename.init();
 	scripts.crafttweaker.itemModifiers.tooltips.init();
+}
+
+function initOverrides() {
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.mysticalagradditions.initOverride();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.mysticalagriculture.initOverride();
 }

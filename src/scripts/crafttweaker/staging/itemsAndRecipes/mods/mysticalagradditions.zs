@@ -32,3 +32,14 @@ function init() {
 		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
 	}
 }
+
+function initOverride() {
+	for stageName, items in stagedItems {
+		if (stageName != stageFive.stage) {
+			for item in items {
+				mods.ItemStages.removeItemStage(item);
+				mods.ItemStages.addItemStage(stageName, item);
+			}
+		}
+	}
+}

@@ -183,7 +183,7 @@ Mod Updates:
     * Fixes some networking issues in multiplayer when using a writing table
 * Better With Mods (2.3.20-1027)
 * BiblioCraft (2.4.5)
-* Blood Magic (2.3.2-101)
+* Blood Magic (2.3.3-101)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
     * Fixed Lava Crystal not syphoning LP
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds

@@ -396,7 +396,7 @@ Mod Updates:
     * Support for COFH RF API is removed. Only Forge Energy is supported now
 * Rustic (1.0.15)
 * Scannable (1.6.3.24)
-* SevTweaks (0.2.1-20)
+* SevTweaks (0.2.3-20)
 * Simple Generators (2.0.19.1)
 * SimpleHarvest (1.2.7-20)
 * Simple Storage Network (1.5.6)

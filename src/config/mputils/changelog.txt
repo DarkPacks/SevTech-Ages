@@ -27,6 +27,7 @@ issues! This is your only warning about this. So don't open issues on the tracke
 spawn in components to re-make your ships. Note: Ship building changed a bit so please read up on the changes.
 * ContentTweaker Molten Fiery is now removed (deprecated in 3.0.8)
 * Astral Sorcery has a new perk system, and as a result the mod will reset your perk experience.
+* Astral Sorcery rituals may not be active after upgrading. To restart them, simply pick up the crystal from the pedestal and place it back down.
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.

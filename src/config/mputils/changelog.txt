@@ -109,6 +109,7 @@ Enhancements:
 * Added a Meteoric Iron dust and unified Meteoric Iron
 * Allow fire sticks to be used as a fire source (for lighting torches, etc)
 * Removed Meteorite Compass as it was not used for anything (#3517)
+* Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
 
 Forge: 14.23.5.2807
 

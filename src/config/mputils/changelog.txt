@@ -142,7 +142,7 @@ Mods Removed:
 
 Mod Updates:
 * A Block of Charcoal (1.2)
-* AbyssalCraft (1.9.4.14)
+* AbyssalCraft (1.9.4.15)
     * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
     * Fixed a dupe bug in the Materializer GUI
     * Reduced the range of Cha'garoth's melee attacks
@@ -159,6 +159,8 @@ Mod Updates:
     * The Dreadlands Portal now spawn Dreadlings instead of Dread Spawns
     * Energy Containers can now display values over 32767 in their GUIs
     * Doubled the time it takes for a Lesser Dreadbeast to spawn a Dread Spawn
+    * Lesser Shoggoths have a new model
+    * Lesser Shoggoths are now multipart entities
 * AbyssalCraft Integration (1.6.6)
 * Actually Additions (r144)
     * Added redstone sensitivity / comparator output to Bio Reactor.
@@ -208,7 +210,7 @@ Mod Updates:
 * Ceramics (1.3.6)
 * Chargers (1.1.0.2)
 * Chisel (0.2.1.35)
-* Chisel & Bits (14.29)
+* Chisel & Bits (14.30)
     * Fix a crash when rendering invalid ghost blocks.
     * Enhance API to provide collisions and other bounding box information
     * Fix performance when placing bits with a ridiculous surplus of extra bits.
@@ -237,14 +239,14 @@ Mod Updates:
 * CraftTweaker (4.1.13)
 * Cucumber (1.1.3)
 * CustomMainMenu (2.0.9)
-* Cyclic (1.17.14)
+* Cyclic (1.17.15)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
     * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
     * Forester GUI now has size and height controls.
     * Fixed Auto User not gathering drops from certain plants and bushes.
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
-* Cyclops Core (1.0.1)
+* Cyclops Core (1.0.2)
 * Dark Utilities (1.8.222)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
@@ -296,14 +298,14 @@ Mod Updates:
 * Inductive Logistics (1.3.2)
 * Industrial Foregoing (1.12.4-228)
 * Informational Accessories (1.0.11)
-* Integrated Dynamics (1.0.1)
+* Integrated Dynamics (1.0.2)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
 * Inventory Tweaks (1.64+dev.145)
-* Iron Chests (7.0.55.839)
+* Iron Chests (7.0.58.841)
 * Iron Jetpacks (1.1.0)
 * Item Stages (2.0.46)
 * JourneyMap (5.5.3)
@@ -322,6 +324,7 @@ Mod Updates:
     * Fixed overlooked derp that meant Mob Mashers could be broken by Withers and the Dragon - doh!
     * Should fix beheading attribute on mobmasher returning null for mobs without heads and crashing people - whoops.
 * Mob Stages (2.0.13)
+* Modular Machinery (1.9.5)
 * Modular Routers (3.2.1)
     * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
 * Mod Tweaker (4.0.15)
@@ -409,7 +412,7 @@ Mod Updates:
 * Together Forever (1.0.11-20)
 * Traverse (1.6.0-66)
 * Translocators (2.5.1.77)
-* Triumph (3.3.0)
+* Triumph (3.12.0)
 * The Betweenlands (3.4.3)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench

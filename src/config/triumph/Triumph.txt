@@ -5,3 +5,6 @@ removeModAdvancements(false)
 forceReloadFunctions(true)
 keepAdvancements(["twilightforest", "thebetweenlands"])
 removeAdvancements([""])
+
+pageOrder(["triumph:stage0/root","triumph:stage1/root","triumph:stage2/root","triumph:stage3/root","triumph:stage4/root","triumph:stage5/root"])
+

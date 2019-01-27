@@ -70,7 +70,6 @@ function init() {
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:1>, <refinedstorage:upgrade:0>, false, <minecraft:ender_pearl:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:2>, <refinedstorage:upgrade:0>, false, <minecraft:sugar:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:3>, <refinedstorage:upgrade:0>, false, <ore:workbench>, <minecraft:redstone:0>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:5>, <refinedstorage:upgrade:0>, false, <minecraft:nether_star:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:6>, <refinedstorage:upgrade:0>, false,
 			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:7>, <refinedstorage:upgrade:0>, false,

@@ -162,6 +162,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, null, <ore:plankWood>],
 			[null, <primalchests:primal_chest_advanced:0>, null],
 			[<ore:plankWood>, null, <ore:plankWood>]
+		],
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		],
+		[
+			[sidingWood, sidingWood, sidingWood],
+			[sidingWood, null, sidingWood],
+			[sidingWood, sidingWood, sidingWood]
 		]
 	],
 	<minecraft:arrow:0> * 4: [
@@ -804,20 +814,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[null, null, null],
 				[<mysticalagriculture:dye_essence:0>, null, <mysticalagriculture:dye_essence:0>],
 				[null, <mysticalagriculture:dye_essence:0>, null]
-			]
-		]
-	},
-	<minecraft:chest:0>: {
-		Utils.genRecipeName(stageTwo, "cheaper_chest"): [
-			[
-				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-				[<ore:plankWood>, null, <ore:plankWood>],
-				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
-			],
-			[
-				[sidingWood, sidingWood, sidingWood],
-				[sidingWood, null, sidingWood],
-				[sidingWood, sidingWood, sidingWood]
 			]
 		]
 	}

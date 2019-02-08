@@ -111,7 +111,7 @@ Enhancements:
 * Removed Meteorite Compass as it was not used for anything (#3517)
 * Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
 
-Forge: 14.23.5.2807
+Forge: 14.23.5.2811
 
 Mods Added:
 * BetterWithLib (1.5)
@@ -163,7 +163,7 @@ Mod Updates:
     * Lesser Shoggoths have a new model
     * Lesser Shoggoths are now multipart entities
 * AbyssalCraft Integration (1.6.6)
-* Actually Additions (r144)
+* Actually Additions (r145)
     * Added redstone sensitivity / comparator output to Bio Reactor.
     * The farmer will now only plant from seed slots.
     * The farmer will now only attempt to plant if the current block can be replaced.
@@ -177,7 +177,7 @@ Mod Updates:
 * Aroma Core (2.0.0.0)
 * Aroma Backup (2.1.1.4)
 * Astikoor (1.1.1a)
-* Astral Sorcery (1.10.10)
+* Astral Sorcery (1.10.11)
 * AutoRegLib (1.3-24)
 * B.A.S.E (3.11.0)
 * Better Advancements (0.0.16.71)
@@ -187,7 +187,7 @@ Mod Updates:
     * Fixes some networking issues in multiplayer when using a writing table
 * Better With Mods (2.3.20-1027)
 * BiblioCraft (2.4.5)
-* Blood Magic (2.3.3-101)
+* Blood Magic (2.4.0-102)
     * Fixed Teleposition Sigil not checking for a Teleposer at it's destination
     * Fixed Lava Crystal not syphoning LP
     * Fixed the Ritual of the Green Grove not working on Cactus and Reeds
@@ -195,11 +195,11 @@ Mod Updates:
     * Fixed issues with inter-dimensional teleportation
     * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
 * BnBGamingCore (0.10.0)
-* BnBGamingLib (2.17.0)
-* Bookshelf (2.3.569)
+* BnBGamingLib (2.17.2)
+* Bookshelf (2.3.574)
 * Bonsai Trees (1.1.2-b144)
 * BuildCraft (7.99.21)
-* Caliper (1.1.40)
+* Caliper (1.1.41)
 * Car Mod (1.2.12)
 * CarryOn (1.12.1)
     * When a carried object somehow gets out of the hand of the player and gets moved anywhere in the inventory, it gets automatically removed and placed in the world.
@@ -207,7 +207,7 @@ Mod Updates:
     * Carry-Key could get stuck when entering through dimensions
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.37)
-* CD4017BE Lib (6.2.8)
+* CD4017BE Lib (6.3.0)
 * Ceramics (1.3.6)
 * Chargers (1.1.0.2)
 * Chisel (0.2.1.35)
@@ -220,10 +220,10 @@ Mod Updates:
     * Rotate X / Z buttons.
 * Client Tweaks (3.1.11)
     * Removed Hotbar Torch Tweaks
-* Clumps (3.1.1)
+* Clumps (3.1.2)
 * Code Chicken Lib (3.2.2.353)
 * Coloured Tooltips (1.0.7)
-* Common Capabilities (2.0.0)
+* Common Capabilities (2.0.1)
 * Compact Machines (3.0.13-b236)
 * Connected Textures Mod (0.3.3.22)
 * Construct's Armory (1.2.3)
@@ -237,10 +237,10 @@ Mod Updates:
     * Made tool racks and spice racks placeable on non-solid blocks (like glass)
     * Fixed crafting of recipes with tools not working when the tool is damaged
     * Fixed wrong rock material of the placed cutting board (instead of wood)
-* CraftTweaker (4.1.13)
+* CraftTweaker (4.1.14)
 * Cucumber (1.1.3)
 * CustomMainMenu (2.0.9)
-* Cyclic (1.17.15)
+* Cyclic (1.17.16)
     * Entity Detector lag busting: it now only scans serverside, and ticks 4 times per second instead of 20 times per second.
     * Fixed RF Energy bars in machine GUI's not updating clientside when certain cables/fluxducts/generators would insert energy serverside.
     * Forester GUI now has size and height controls.
@@ -248,7 +248,7 @@ Mod Updates:
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
 * Cyclops Core (1.0.2)
-* Dark Utilities (1.8.222)
+* Dark Utilities (1.8.223)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
 * Dimensional Control (2.10.3)
@@ -258,7 +258,7 @@ Mod Updates:
 * Ender Storage (2.4.5.135)
 * Ender Utilities (0.7.12)
 * Environmental Tech (2.0.19.1)
-* Extended Crafting (1.5.1)
+* Extended Crafting (1.5.2)
     * WAILA will now show what's being crafted for the Crafting Core and Quantum Compressor
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
@@ -282,13 +282,13 @@ Mod Updates:
 * Galacticraft Planets (4.0.1.181)
 * Galacticraft Tweaker (1.0.3)
 * Game Stages (2.0.112)
-* Geolosys (2.1.2)
+* Geolosys (2.1.4)
     * NEW: Depleting a mineral resource prevents it from showing up with the prospector's pick on the surface
     * CHANGED: ProPick and guide book now use depth relative to sea-level instead of just Y level
     * FIX: log outputs with the Mineral tracking process; this was causing lots of lag.
     * CHANGED: storage method of internal variables to an almost-no-latency method; helps with mineral tracking too.
 * Guide API (2.1.8-63)
-* Horse Power (2.6.1.68)
+* Horse Power (2.6.2.71)
     * Fixed rare crash with the error display of the blocks while holding a lead.
 * Hunting Dimension (1.0.36)
 * Immersive Craft (1.5.1)
@@ -296,16 +296,16 @@ Mod Updates:
     * Added a "Distribute Inputs" button to the ArcFurnace GUI. It keeps splitting the biggest stacks in the input if there is space available
 * Improved Backpacks (1.4.0.0)
 * In Control (3.8.3)
-* Inductive Logistics (1.3.2)
-* Industrial Foregoing (1.12.4-228)
+* Inductive Logistics (1.3.3)
+* Industrial Foregoing (1.12.5-229)
 * Informational Accessories (1.0.11)
-* Integrated Dynamics (1.0.2)
+* Integrated Dynamics (1.0.3)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
-* Inventory Tweaks (1.64+dev.145)
+* Inventory Tweaks (1.64+dev.146)
 * Iron Chests (7.0.58.841)
 * Iron Jetpacks (1.1.0)
 * Item Stages (2.0.46)
@@ -328,11 +328,12 @@ Mod Updates:
 * Modular Machinery (1.9.5)
 * Modular Routers (3.2.1)
     * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
-* Mod Tweaker (4.0.15)
+* Mod Tweaker (4.0.16)
+* Morpheus (3.5.106)
 * MouseTweaks (2.9)
 * MulitBlock Stages (1.1.1)
 * Mundane Redstone Ore (1.1.4)
-* Mystical Agradditions (1.2.10)
+* Mystical Agradditions (1.3.0)
 * Mystical Agriculture (1.7.1)
     * Fixed a crash involving PneumaticCraft harvest drones
 * Natura (4.3.2.66)
@@ -384,7 +385,7 @@ Mod Updates:
 * RFTools (7.56)
 * RFTools Control (1.9.1)
 * Realistic Item Drops (1.2.14)
-* Reborn Core (3.13.2.411)
+* Reborn Core (3.13.3.416)
 * Reborn Storage (3.3.2.79)
 * Recipe Stages (1.1.1)
 * Redstone Flux (2.1.0.6)
@@ -414,7 +415,7 @@ Mod Updates:
 * Traverse (1.6.0-66)
 * Translocators (2.5.1.77)
 * Triumph (3.12.0)
-* The Betweenlands (3.4.3)
+* The Betweenlands (3.4.4)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench
     * Fixed apparent crash when entering the Betweenlands
@@ -437,11 +438,11 @@ Mod Updates:
 * Totemic (0.11.4)
 * Translocators (2.5.0.73)
 * Traverse (1.6.0-69)
-* Triumph (3.9.0)
+* Triumph (3.12.2)
 * ValkyrieLib (2.0.19.1)
 * Viescraft (5.9.13)
 * WanionLib (2.2)
-* Wawla (2.5.265)
+* Wawla (2.5.270)
 * Wither Skeleton Tweaks (2.6.3)
 * World Stripper (1.6.0)
 * XNet (1.7.6)

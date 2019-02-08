@@ -13,6 +13,7 @@ static hiddenItems as IIngredient[] = [
 	<base:wrench:0>,
 	<baubles:ring:0>,
 	<bibliocraft:printingpress:0>, //This can be re-shown once the mod is updated/fixed.
+	<cd4017be_lib:rrwi:0>,
 	<chisel:ironpane:*>,
 	<cookingforblockheads:cow_jar:0>,
 	<geolosys:cluster:11>,

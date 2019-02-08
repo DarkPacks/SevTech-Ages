@@ -411,7 +411,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:oxygen_tank_med_full_light_blue:0>,
 		<extraplanets:oxygen_tank_med_full_light_gray:0>,
 		<extraplanets:oxygen_tank_med_full_magenta:0>,
-		<extraplanets:oxygen_tank_med_full_orange:0>,
 		<extraplanets:oxygen_tank_med_full_pink:0>,
 		<extraplanets:oxygen_tank_med_full_purple:0>,
 		<extraplanets:oxygen_tank_med_full_red:0>,

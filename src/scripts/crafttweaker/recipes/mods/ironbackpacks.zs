@@ -166,6 +166,8 @@ function initSpecRecipes() {
 }
 
 function init() {
+	initSpecRecipes();
+
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

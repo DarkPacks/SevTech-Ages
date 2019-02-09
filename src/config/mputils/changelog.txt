@@ -110,6 +110,7 @@ Enhancements:
 * Allow fire sticks to be used as a fire source (for lighting torches, etc)
 * Removed Meteorite Compass as it was not used for anything (#3517)
 * Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
+* Astikoor Wheel & Steve's Carts Wooden Wheel recipes altered slightly
 
 Forge: 14.23.5.2811
 

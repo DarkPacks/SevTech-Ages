@@ -11,6 +11,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
+import mod.mekanism.gas.IGasStack;
+import mods.mekatweaks.GasStages;
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
@@ -233,6 +235,41 @@ static liquidsNamesForBucketStaging as string[][string] = {
 	]
 };
 
+static gassesForStage as IGasStack[][string] = {
+	stageFive.stage: [
+		<gas:brine>,
+		<gas:chlorine>,
+		<gas:cleancopper>,
+		<gas:cleangold>,
+		<gas:cleaniron>,
+		<gas:cleanlead>,
+		<gas:cleanosmium>,
+		<gas:cleansilver>,
+		<gas:cleantin>,
+		<gas:copper>,
+		<gas:deuterium>,
+		<gas:ethene>,
+		<gas:fusionfuel>,
+		<gas:gold>,
+		<gas:hydrogen>,
+		<gas:hydrogenchloride>,
+		<gas:iron>,
+		<gas:lead>,
+		<gas:liquidosmium>,
+		<gas:lithium>,
+		<gas:osmium>,
+		<gas:oxygen>,
+		<gas:silver>,
+		<gas:sodium>,
+		<gas:sulfurdioxide>,
+		<gas:sulfuricacid>,
+		<gas:sulfurtrioxide>,
+		<gas:tin>,
+		<gas:tritium>,
+		<gas:water>
+	]
+};
+
 function init() {
 	for stageName, liquidItems in liquidItemsForStage {
 		var stage as Stage = ZenStager.getStage(stageName);
@@ -262,6 +299,12 @@ function init() {
 
 		for liquidName in liquidNames {
 			stage.addIngredient(craftingUtils.getBucketIngredientFromName(liquidName) as IIngredient);
+		}
+	}
+
+	for stageName, gasStacks in gassesForStage {
+		for gas in gasStacks {
+			GasStages.addGasStage(stageName, gas);
 		}
 	}
 }

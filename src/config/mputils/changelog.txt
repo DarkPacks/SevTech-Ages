@@ -128,6 +128,7 @@ Mods Added:
     * Allows us to add more content #ContentUpdateAnyone?
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
+* Mekatweaks (1.0.0)
 * Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.4)
 * Tips (1.0.2)

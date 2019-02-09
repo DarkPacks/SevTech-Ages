@@ -23,9 +23,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<astikoor:wheel:0> : [
 		[
-			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
+			[null, <ore:stickWood>.firstItem, null],
 			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
-			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem]
+			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
 	<astikoor:plowcart:0> : [

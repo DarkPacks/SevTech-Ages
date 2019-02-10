@@ -14,4 +14,4 @@ criteria.setItem("minecraft:lead")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

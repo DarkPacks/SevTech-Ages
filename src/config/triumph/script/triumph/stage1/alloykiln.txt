@@ -21,4 +21,4 @@ criteria.setItem("immersiveengineering:stone_decoration", 10)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

@@ -137,4 +137,4 @@ criteria40.setBlock("twilightforest:twilight_log", 3)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

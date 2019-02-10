@@ -15,4 +15,4 @@ criteria.setItem("pneumaticcraft:creative_compressor")
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

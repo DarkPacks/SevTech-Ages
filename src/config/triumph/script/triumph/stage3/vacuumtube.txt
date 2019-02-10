@@ -21,4 +21,4 @@ criteria.setItem("immersiveengineering:material", 26)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

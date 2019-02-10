@@ -15,4 +15,4 @@ criteria.addItem("mekanism:machineblock2", 11, {tier: 4, mekData: {}})
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

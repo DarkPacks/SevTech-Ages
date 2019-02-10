@@ -16,4 +16,4 @@ criteria.setBlock("geolosys:ore_vanilla", 3)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

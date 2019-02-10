@@ -18,4 +18,4 @@ criteria2.setItem("geolosys:cluster", 5)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

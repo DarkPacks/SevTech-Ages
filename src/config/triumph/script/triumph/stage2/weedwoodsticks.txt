@@ -13,4 +13,4 @@ criteria.setItem("thebetweenlands:items_misc", 20)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

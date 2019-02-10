@@ -21,4 +21,4 @@ criteria.setItem("galacticraftcore:rocket_workbench")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

@@ -14,4 +14,4 @@ criteria.setItem("betterwithmods:wooden_gearbox")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

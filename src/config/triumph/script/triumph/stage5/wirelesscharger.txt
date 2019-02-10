@@ -14,4 +14,4 @@ criteria.setItem("chargers:wireless_charger", 0)
 //Rewards
 setRewardExperience(15)
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

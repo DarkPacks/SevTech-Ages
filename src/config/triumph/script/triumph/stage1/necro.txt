@@ -21,4 +21,4 @@ criteria.setItem("abyssalcraft:necronomicon")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

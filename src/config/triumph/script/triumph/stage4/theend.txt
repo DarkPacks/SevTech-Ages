@@ -20,4 +20,4 @@ criteria.setDimensionDestination("the_end")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

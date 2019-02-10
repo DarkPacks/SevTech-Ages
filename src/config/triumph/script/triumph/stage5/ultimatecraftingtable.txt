@@ -15,4 +15,4 @@ criteria.setItem("extendedcrafting:table_ultimate", 0)
 setRewardExperience(15)
 setRewardFunction("triumph:stage-creative_trigger")
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

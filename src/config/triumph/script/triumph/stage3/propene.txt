@@ -21,4 +21,4 @@ criteria.addItem("forge:bucketfilled", 0, {FluidName: "propene", Amount: 1000})
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

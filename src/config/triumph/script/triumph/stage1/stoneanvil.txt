@@ -15,4 +15,4 @@ criteria.setItem("primal_tech:stone_anvil")
 setRewardItem("primal_tech:stone_mallet", 0, 1)
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

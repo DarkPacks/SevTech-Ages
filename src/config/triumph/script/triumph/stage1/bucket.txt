@@ -14,4 +14,4 @@ criteria.setItem("ceramics:clay_bucket")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

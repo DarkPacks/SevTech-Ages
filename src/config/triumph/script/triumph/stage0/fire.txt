@@ -15,4 +15,4 @@ criteria.setItem("primal_tech:fire_sticks")
 setRewardItem("primal_tech:fire_sticks", 0, 1)
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

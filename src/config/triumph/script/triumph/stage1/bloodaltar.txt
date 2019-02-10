@@ -15,4 +15,4 @@ criteria.setItem("bloodmagic:altar")
 setRewardExperience(8)
 setRewardItem("guideapi:bloodmagic-guide", 0, 1)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

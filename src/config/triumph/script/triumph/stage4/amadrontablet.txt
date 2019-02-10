@@ -14,4 +14,4 @@ criteria.setItem("pneumaticcraft:amadron_tablet")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

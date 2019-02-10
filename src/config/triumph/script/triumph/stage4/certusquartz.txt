@@ -14,4 +14,4 @@ criteria.setItem("appliedenergistics2:material")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

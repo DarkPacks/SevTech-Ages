@@ -27,4 +27,4 @@ setRewardExperience(4)
 setRewardFunction("triumph:stage-1_trigger")
 setRewardItem("tconstruct:book", 0, 1)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

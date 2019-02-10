@@ -14,4 +14,4 @@ criteria.setItem("primal_tech:stone_grill")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

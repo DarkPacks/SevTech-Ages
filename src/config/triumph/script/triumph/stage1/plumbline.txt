@@ -14,4 +14,4 @@ criteria.setItem("bibliocraft:plumbline", 0)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

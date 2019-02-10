@@ -25,4 +25,4 @@ criteria4.setItem("vc:airships/item_airship", 4)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

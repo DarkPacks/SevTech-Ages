@@ -14,4 +14,4 @@ criteria.setItem("abyssalcraft:shadowgem", 0)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

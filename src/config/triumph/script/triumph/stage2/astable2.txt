@@ -21,4 +21,4 @@ criteria.setBlock("astralsorcery:blockaltar", 1)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

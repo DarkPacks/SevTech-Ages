@@ -112,13 +112,13 @@ Enhancements:
 * Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
 * Astikoor Wheel & Steve's Carts Wooden Wheel recipes altered slightly
 
-Forge: 14.23.5.2814
+Forge: 14.23.5.2815
 
 Mods Added:
 * BetterWithLib (1.5)
     * Now needed with a BWM update. Yay more libs! >.<
 * Building Gadgets (2.4.6)
-* Corails Tombstone (3.3.0)
+* Corails Tombstone (3.3.1)
     * This replaces Tomb Many Graves.
 * Fast Furnace (1.2.1)
     * Caches the last recipe used. Helps with tick time and look up speed etc...
@@ -144,7 +144,7 @@ Mods Removed:
 
 Mod Updates:
 * A Block of Charcoal (1.2)
-* AbyssalCraft (1.9.4.15)
+* AbyssalCraft (1.9.5.1)
     * Acid Projectiles no longer break blocks with Tile Entities when hitting Players or other mobs
     * Fixed a dupe bug in the Materializer GUI
     * Reduced the range of Cha'garoth's melee attacks
@@ -175,7 +175,7 @@ Mod Updates:
 * Antique Atlas (4.5.0)
 * Apple Core (3.1.4)
 * Applied Energistics 2 (rv6-stable-6)
-* Aroma Core (2.0.0.0)
+* Aroma Core (2.0.0.1)
 * Aroma Backup (2.1.1.4)
 * Astikoor (1.1.1a)
 * Astral Sorcery (1.10.11)
@@ -196,7 +196,7 @@ Mod Updates:
     * Fixed issues with inter-dimensional teleportation
     * Fixed the Lava, Water, and Void sigils so they now work properly with tanks
 * BnBGamingCore (0.10.0)
-* BnBGamingLib (2.17.2)
+* BnBGamingLib (2.17.5)
 * Bookshelf (2.3.574)
 * Bonsai Trees (1.1.2-b144)
 * BuildCraft (7.99.21)
@@ -208,7 +208,7 @@ Mod Updates:
     * Carry-Key could get stuck when entering through dimensions
     * More blocks are now rotated properly when placed down
 * Caliper (1.1.37)
-* CD4017BE Lib (6.3.0)
+* CD4017BE Lib (6.3.1)
 * Ceramics (1.3.6)
 * Chargers (1.1.0.2)
 * Chisel (0.2.1.35)
@@ -224,7 +224,7 @@ Mod Updates:
 * Clumps (3.1.2)
 * Code Chicken Lib (3.2.2.353)
 * Coloured Tooltips (1.0.7)
-* Common Capabilities (2.0.1)
+* Common Capabilities (2.0.2)
 * Compact Machines (3.0.13-b236)
 * Connected Textures Mod (0.3.3.22)
 * Construct's Armory (1.2.3)
@@ -248,7 +248,7 @@ Mod Updates:
     * Fixed Auto User not gathering drops from certain plants and bushes.
     * Fix crash when Block Placer uses some directional blocks.
     * Block Placer no longer has a timer bar, it just places when it can.
-* Cyclops Core (1.0.2)
+* Cyclops Core (1.0.3)
 * Dark Utilities (1.8.223)
 * Default Options (9.2.8)
 * Despawning Spawners (1.2.0-2)
@@ -296,25 +296,25 @@ Mod Updates:
 * Immersive Engineering (0.12-88)
     * Added a "Distribute Inputs" button to the ArcFurnace GUI. It keeps splitting the biggest stacks in the input if there is space available
 * Improved Backpacks (1.4.0.0)
-* In Control (3.8.3)
+* In Control (3.9.2)
 * Inductive Logistics (1.3.3)
 * Industrial Foregoing (1.12.5-229)
 * Informational Accessories (1.0.11)
-* Integrated Dynamics (1.0.3)
+* Integrated Dynamics (1.0.4)
     * Add visual indicator in operator dropdown list on next/prev elements
     * Fix simple omnidirectional copy recipe resetting IDs
     * Fix variables with operations not updating after chunk reload
     * Fix incomplete flipped operators throwing errors
     * Add state-type check to display panel TESR this fixes a rare crash where swapping dimensions could cause conflicting part states.
 * Inventory Tweaks (1.64+dev.146)
-* Iron Chests (7.0.58.841)
+* Iron Chests (7.0.59.842)
 * Iron Jetpacks (1.1.0)
 * Item Stages (2.0.46)
 * JourneyMap (5.5.3)
 * JourneyMapStages (2.0.7)
 * Just Enough Items (4.14.4.264)
 * KleeSlabs (5.4.11)
-* Mantle (1.3.3.39)
+* Mantle (1.3.3.42)
 * MTLib (3.0.5)
 * Mekanism (9.4.13.349)
 * MicDoodleCore (4.0.1.181)
@@ -331,10 +331,10 @@ Mod Updates:
     * Added the Distributor Module, a way to distribute items across multiple target inventories. Can do round-robin, random, nearest-first or furthest-first.
 * Mod Tweaker (4.0.16)
 * Morpheus (3.5.106)
-* MouseTweaks (2.9)
+* MouseTweaks (2.10)
 * MulitBlock Stages (1.1.1)
 * Mundane Redstone Ore (1.1.4)
-* Mystical Agradditions (1.3.0)
+* Mystical Agradditions (1.3.1)
 * Mystical Agriculture (1.7.1)
     * Fixed a crash involving PneumaticCraft harvest drones
 * Natura (4.3.2.66)
@@ -349,7 +349,7 @@ Mod Updates:
     * A crash caused when right-clicking Zombie Pigmen
 * Not Enough Items (4.2.1.238)
 * Nutrition (3.5.0)
-* Ore Excavation (1.4.133)
+* Ore Excavation (1.4.137)
 * Ore Excavation Integration (2.3.4)
 * Ore Prospector (1.0.2)
 * Ore Stages (2.0.37)
@@ -383,10 +383,8 @@ Mod Updates:
 * PrimalCore (0.6.104)
 * Quantum Storage (4.6.6)
 * Quark (r1.5-144)
-* RFTools (7.56)
-* RFTools Control (1.9.1)
 * Realistic Item Drops (1.2.14)
-* Reborn Core (3.13.3.416)
+* Reborn Core (3.13.4.419)
 * Reborn Storage (3.3.2.79)
 * Recipe Stages (1.1.1)
 * Redstone Flux (2.1.0.6)
@@ -397,7 +395,7 @@ Mod Updates:
     * Removed Network Bag
     * Removed Network Picker
     * Removed Infinite Wireless Transmitter
-* RFTools (7.60)
+* RFTools (7.61)
     * Support for COFH RF API is removed. Only Forge Energy is supported now
 * RFTools Control (1.9.3)
     * Support for COFH RF API is removed. Only Forge Energy is supported now
@@ -406,7 +404,7 @@ Mod Updates:
 * SevTweaks (0.2.3-20)
 * Simple Generators (2.0.19.1)
 * SimpleHarvest (1.2.7-20)
-* Simple Storage Network (1.5.6)
+* Simple Storage Network (1.5.7)
 * Smooth Font (1.16.2)
 * Steve Carts (2.4.29.132)
 * Storage Drawers (5.3.8)

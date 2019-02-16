@@ -15,6 +15,8 @@ static pickaxeLevelPairs as IItemStack[][int] = {
 	1: [
 		<abyssalcraft:coraliumore:0>,
 		<bloodmagic:blood_rune:0>,
+		<geolosys:ore:3>,
+		<geolosys:ore:5>,
 		<poweradapters:mj:0>
 	],
 

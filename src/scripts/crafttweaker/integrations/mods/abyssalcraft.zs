@@ -62,6 +62,15 @@ function init() {
 	game.setLocalization("ac.ritual.parrots", "Parrot Summoning Ritual");
 	game.setLocalization("ac.ritual.parrots.desc", "This ritual allows you to summon a Parrot without searching for a jungle");
 
+	// Infuse RF Tools Syringe with cow essence to make mooshroom essence for the Peace Essence for the Peaceful Environment Dimlet
+	InfusionRitual.addRitual("mooshroomessence", 0, -1, 100, true, <rftools:syringe>.withTag({mobName: "Mooshroom", level: 10, mobId: "minecraft:mooshroom"}), <rftools:syringe>, [
+		<minecraft:red_mushroom_block>, <minecraft:red_mushroom_block>,
+		<minecraft:red_mushroom>, <minecraft:red_mushroom>, <minecraft:red_mushroom>,
+		<primal:pelt_cow>, <minecraft:bone>, <minecraft:beef>
+	], false, []);
+	game.setLocalization("ac.ritual.mooshroomessence", "Mooshroom Essence Syringe Ritual");
+	game.setLocalization("ac.ritual.mooshroomessence.desc", "This ritual fills a syringe with mooshroom essence for creating an RF Tools peaceful dimlet");
+
 	// Ritual Modifications
 	Rituals.modifyRitualOfferings("transmutationGem", [
 		<minecraft:ender_pearl:0>, <astralsorcery:itemcraftingcomponent:0>, <twilightforest:transformation_powder:0>,

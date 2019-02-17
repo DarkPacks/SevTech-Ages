@@ -957,6 +957,10 @@ static hiddenItems as IIngredient[] = [
 static hiddenRemove as IIngredient[] = [
 ];
 
+static hiddenCategories as string[] = [
+	"primal.hibachi"
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
@@ -973,4 +977,8 @@ function init() {
 		hiddenSmelters += smelter.withTag({BlockEntityTag: {covered: 1 as byte}});
 	}
 	recipeUtil.hideItems(hiddenSmelters as IIngredient[], true);
+
+	for category in hiddenCategories {
+		mods.jei.JEI.hideCategory(category);
+	}
 }

@@ -63,7 +63,6 @@ function init() {
 	game.setLocalization("ac.ritual.parrots.desc", "This ritual allows you to summon a Parrot without searching for a jungle");
 	
 	// Infuse RF Tools Syringe with cow essence to make mooshroom essence for the Peace Essence for the Peaceful Environment Dimlet
-	// Currently not working, just summons empty syringe
 	InfusionRitual.addRitual("mooshroomessence", 0, -1, 100, true, <rftools:syringe>.withTag({mobName: "Mooshroom", level: 10, mobId: "minecraft:mooshroom"}), <rftools:syringe>, [
 		<minecraft:red_mushroom_block>, <minecraft:red_mushroom_block>,
 		<minecraft:red_mushroom>, <minecraft:red_mushroom>, <minecraft:red_mushroom>,

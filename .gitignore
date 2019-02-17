@@ -4,6 +4,7 @@ src/config/AppliedEnergistics2/aerecipes/*
 src/config/cd4017be/inductiveLogistics.rcp
 src/config/cd4017be/inductiveLogistics.rcp.old
 src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
 
 # Client Only Files
 src/config/InvTweaks.cfg

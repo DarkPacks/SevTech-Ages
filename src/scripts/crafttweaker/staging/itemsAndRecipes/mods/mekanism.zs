@@ -241,7 +241,6 @@ static stagedItems as IIngredient[][string] = {
 
 	stageCreativeUnused.stage: [
 		<mekanism:basicblock:6>.withTag({tier: 4, mekData: {}}),
-		<mekanism:energycube:0>.withTag({tier: 4, mekData: {}}),
 		<mekanism:machineblock2:11>,
 		<mekanism:machineblock3:3>,
 		<mekanism:machineblock3:3>.withTag({mekData: {}})
@@ -259,4 +258,8 @@ function init() {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+
+	// Hide empty energy cube instead of staging to creative_unusued
+	// This prevents conflicts where the filled cube appeared staged to creative_unused
+	mods.jei.JEI.hide(<mekanism:energycube:0>.withTag({tier: 4, mekData: {}}));
 }

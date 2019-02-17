@@ -135,7 +135,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
 	],
 	<minecraft:wooden_slab:5> * 3: [
-		[[<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>]]
+		[[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
 	],
 	<minecraft:stone_sword:0>: [
 		[[<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>], [<ore:stickWood>]]

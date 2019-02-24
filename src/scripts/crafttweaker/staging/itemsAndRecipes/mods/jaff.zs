@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -27,10 +28,22 @@ static hiddenRemove as IIngredient[] = [
 	<jaff:wooden_fishing_rod:0>
 ];
 
+static stagedEnchants as IEnchantmentDefinition[][string] = {
+	stageTwo.stage: [
+		<enchantment:jaff:roasting>
+	]
+};
+
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	for stageName, enchant in stagedEnchants {
+		ZenStager.getStage(stageName).addEnchantment(enchant);
+	}
+
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

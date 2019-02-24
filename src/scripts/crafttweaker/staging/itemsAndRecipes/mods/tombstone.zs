@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -20,6 +21,14 @@ static stagedItems as IIngredient[][string] = {
 		<tombstone:dark_marble:0>
 	]
 };
+
+static stagedEnchants as IEnchantmentDefinition[][string] = {
+	stageTwo.stage: [
+		<enchantment:tombstone:shadow_step>,
+		<enchantment:tombstone:soulbound>
+	]
+};
+
 
 static hiddenRemove as IIngredient[] = [
 	<tombstone:advancement_001:0>,
@@ -50,5 +59,10 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	
+	for stageName, enchant in stagedEnchants {
+		ZenStager.getStage(stageName).addEnchantment(enchant);
+	}
+
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

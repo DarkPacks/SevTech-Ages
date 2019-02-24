@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -171,6 +172,19 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static stagedEnchants as IEnchantmentDefinition[][string] = {
+	stageTwo.stage: [
+		<enchantment:cyclicmagic:enchantment.autosmelt>,
+		<enchantment:cyclicmagic:enchantment.beheading>,
+		<enchantment:cyclicmagic:enchantment.lifeleech>,
+		<enchantment:cyclicmagic:enchantment.quickdraw>,
+		<enchantment:cyclicmagic:enchantment.reach>,
+		<enchantment:cyclicmagic:enchantment.waterwalking>,
+		<enchantment:cyclicmagic:enchantment.expboost>
+	]
+};
+
+
 static hiddenRemove as IIngredient[] = [
 	<cyclicmagic:block_fishing:0>,
 	<cyclicmagic:block_miner:0>,
@@ -191,5 +205,10 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	for stageName, enchant in stagedEnchants {
+		ZenStager.getStage(stageName).addEnchantment(enchant);
+	}
+
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

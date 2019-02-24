@@ -32,23 +32,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:infinite_barrel:0>: [
 		[
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_storage_unit:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_storage_unit:0>]
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <quantumstorage:quantum_storage_unit:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]})],
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <quantumstorage:quantum_storage_unit:0>]
 		]
 	],
 	<overloaded:infinite_tank:0>: [
 		[
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_tank:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_tank:0>]
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <quantumstorage:quantum_tank:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]})],
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <quantumstorage:quantum_tank:0>]
 		]
 	],
 	<overloaded:infinite_capacitor:0>: [
 		[
-			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <actuallyadditions:item_battery_quintuple:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <extraplanets:ultimate_battery:0>]
+			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <actuallyadditions:item_battery_quintuple:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]})],
+			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51}]}), <extraplanets:ultimate_battery:0>]
 		]
 	],
 	<overloaded:hyper_item_receiver:0>: [

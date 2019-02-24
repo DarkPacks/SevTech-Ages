@@ -84,8 +84,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
 				null
 			],
 			[null, <minecraft:redstone:0>, null],
@@ -95,8 +95,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]}),
 				null
 			],
 			[metals.iron.ingot, <immersiveengineering:material:27>, metals.iron.ingot],
@@ -106,8 +106,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]}),
 				<minecraft:redstone:0>
 			],
 			[metals.iron.ingot, <stevescarts:modulecomponents:16>, metals.iron.ingot],
@@ -117,8 +117,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]}),
 				<minecraft:redstone:0>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -128,8 +128,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<immersiveengineering:material:27>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]}),
 				<immersiveengineering:material:27>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -141,8 +141,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				metals.galgadorian.ingot,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
 				metals.galgadorian.ingot
 			],
 			[metals.galgadorian.ingot, <stevescarts:modulecomponents:16>, metals.galgadorian.ingot],

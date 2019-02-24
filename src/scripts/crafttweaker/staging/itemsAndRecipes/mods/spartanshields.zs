@@ -56,7 +56,7 @@ function init() {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 	
-	for stageName, enchant in stagedEnchants {
-		ZenStager.getStage(stageName).addEnchantment(enchant);
+	for stageName, enchants in stagedEnchants {
+		ZenStager.getStage(stageName).addEnchantments(enchants);
 	}
 }

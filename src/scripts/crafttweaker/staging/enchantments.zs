@@ -78,7 +78,8 @@ function init() {
 		for enchantmentDefinition in enchantmentDefinitions {
 			for i in enchantmentDefinition.minLevel to (enchantmentDefinition.maxLevel + 1) {
 				var enchantment as IEnchantment = enchantmentDefinition.makeEnchantment(i);
-				stage.addIngredient(<minecraft:enchanted_book:0>.withTag(enchantment.makeTag()));
+
+				stage.addIngredient(<minecraft:enchanted_book:0>.withTag({StoredEnchantments: enchantment.makeTag().ench}));
 			}
 		}
 	}

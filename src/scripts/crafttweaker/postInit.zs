@@ -49,6 +49,7 @@ function initSpecificStaging() {
 	// Staging Specific Scripts
 	scripts.crafttweaker.staging.containers.init();
 	scripts.crafttweaker.staging.dimensions.init();
+	scripts.crafttweaker.staging.enchantments.init();
 	scripts.crafttweaker.staging.journeymap.init();
 	scripts.crafttweaker.staging.liquidAndGas.init();
 	scripts.crafttweaker.staging.mobGear.init();

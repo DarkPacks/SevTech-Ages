@@ -179,7 +179,7 @@ Mod Updates:
 * Applied Energistics 2 (rv6-stable-6)
 * Aroma Core (2.0.0.2)
 * Aroma Backup (2.1.1.4)
-* Astikoor (1.1.1a)
+* AstikorCarts (0.1.2.5)
 * Astral Sorcery (1.10.11)
 * AutoRegLib (1.3-26)
 * B.A.S.E (3.12.0)

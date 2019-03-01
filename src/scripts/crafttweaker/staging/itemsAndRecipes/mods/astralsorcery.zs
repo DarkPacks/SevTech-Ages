@@ -131,5 +131,6 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

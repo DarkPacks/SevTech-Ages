@@ -579,7 +579,7 @@ static hiddenItems as IIngredient[] = [
 	<abyssalcraft:crystallizer_on:0>,
 	<abyssalcraft:dirtyplate:0>,
 	<abyssalcraft:friedegg:0>,
-	<abyssalcraft:transmutator_on:0>,
+	<abyssalcraft:transmutator_on:0>
 ];
 
 static hiddenRemove as IIngredient[] = [
@@ -600,13 +600,14 @@ static hiddenRemove as IIngredient[] = [
 	<abyssalcraft:ironp:0>,
 	<abyssalcraft:ironu:0>,
 	<abyssalcraft:mre:0>,
-	<abyssalcraft:porkp:0>,
+	<abyssalcraft:porkp:0>
 ];
 
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

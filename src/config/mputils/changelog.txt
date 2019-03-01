@@ -132,7 +132,7 @@ Mods Added:
 * Mekatweaks (1.0.0)
 * Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.4)
-* Tips (1.0.2)
+* Tips (1.0.7)
     * JustTheTips replacement
 * ZenStages (0.4.0-18)
     * Allows us to create staging modpacks far easier.
@@ -385,7 +385,7 @@ Mod Updates:
 * Prestige (1.1.30)
 * PrimalCore (0.6.104)
 * Quantum Storage (4.6.7)
-* Quark (r1.5-144)
+* Quark (r1.5-146)
 * Realistic Item Drops (1.2.14)
 * Reborn Core (3.13.5.421)
 * Reborn Storage (3.3.2.79)
@@ -402,7 +402,7 @@ Mod Updates:
     * Support for COFH RF API is removed. Only Forge Energy is supported now
 * RFTools Control (1.9.3)
     * Support for COFH RF API is removed. Only Forge Energy is supported now
-* Rustic (1.0.15)
+* Rustic (1.1.0)
 * Scannable (1.6.3.24)
 * SevTweaks (0.2.3-20)
 * Simple Generators (2.0.19.1)

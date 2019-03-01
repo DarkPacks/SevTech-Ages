@@ -76,7 +76,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.animalium.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.astikoor.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.astikorCarts.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.beneath.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.betterbuilderswands.init();
@@ -192,7 +192,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.animalium.init();
 	scripts.crafttweaker.recipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.recipes.mods.appliedenergistics.init();
-	scripts.crafttweaker.recipes.mods.astikoor.init();
+	scripts.crafttweaker.recipes.mods.astikorCarts.init();
 	scripts.crafttweaker.recipes.mods.astralsorcery.init();
 	scripts.crafttweaker.recipes.mods.betterbuilderswands.init();
 	scripts.crafttweaker.recipes.mods.betterwithaddons.init();

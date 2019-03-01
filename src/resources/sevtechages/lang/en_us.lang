@@ -38,6 +38,10 @@ advancements.stage0.farmland.title=Teach A Man To Farm
 advancements.stage0.farmland.description=Learn the basics of farming from a Farmer Villager trade by trading for Farmland. Farmland cannot be tilled by a hoe in age zero, you will need to craft and place it near water
 
 
+advancements.stage0.fertility.title=Rite of Spring
+advancements.stage0.fertility.description=When the Rite of Spring is performed, nearby animals will breed, but only if you drop food on the ground near the totem
+
+
 advancements.stage0.fiber.title=Fibrous Diet
 advancements.stage0.fiber.description=To get started, you'll need to collect Plant Fibers from breaking tall grass. Craft 3 together to get Plant Twine. Sticks can be found on the floor or by trimming some leaves.
 

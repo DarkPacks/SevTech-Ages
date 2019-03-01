@@ -396,12 +396,16 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
 
-	<astikoor:plowcart:0>: [
-		format.yellow("Use the Astikoor Action"),
+	<astikorcarts:plowcart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
 		format.yellow("Key to attach to Horses")
 	],
-	<astikoor:cargocart:0>: [
-		format.yellow("Use the Astikoor Action"),
+	<astikorcarts:cargocart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
+		format.yellow("Key to attach to Horses")
+	],
+	<astikorcarts:mobcart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
 		format.yellow("Key to attach to Horses")
 	],
 

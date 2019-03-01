@@ -196,9 +196,18 @@ static hiddenItems as IIngredient[] = [
 	<rustic:dust_tiny_iron>
 ];
 
+static hiddenRemove as IIngredient[] = [
+	<rustic:candle_gold>,
+	<rustic:chain_gold>,
+	<rustic:chandelier_gold>,
+	<rustic:golden_lantern>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

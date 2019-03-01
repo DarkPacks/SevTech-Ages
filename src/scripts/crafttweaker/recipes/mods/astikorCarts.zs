@@ -1,7 +1,7 @@
 /*
-    SevTech: Ages Astikoor Recipe Script
+    SevTech: Ages AstikorCarts Recipe Script
 
-    This script handles the recipes for Astikoor.
+    This script handles the recipes for AstikorCarts.
 
     Note: These scripts are created and for the usage in SevTech: Ages and other
     modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -14,25 +14,32 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<astikoor:cargocart:0> : [
+	<astikorcarts:cargocart:0> : [
 		[
 			[<ore:plankWood>, null, <ore:plankWood>],
 			[<primalchests:primal_chest_advanced:0>, <ore:plankWood>, <primalchests:primal_chest_advanced:0>],
-			[<astikoor:wheel:0>, <ore:slabWood>, <astikoor:wheel:0>]
+			[<astikorcarts:wheel:0>, <ore:slabWood>, <astikorcarts:wheel:0>]
 		]
 	],
-	<astikoor:wheel:0> : [
+	<astikorcarts:wheel:0> : [
 		[
 			[null, <ore:stickWood>.firstItem, null],
 			[<ore:stickWood>.firstItem, <ore:plankWood>, <ore:stickWood>.firstItem],
 			[null, <ore:stickWood>.firstItem, null]
 		]
 	],
-	<astikoor:plowcart:0> : [
+	<astikorcarts:mobcart:0>: [
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<primalchests:primal_chest_advanced:0>, <ore:plankWood>, <primalchests:primal_chest_advanced:0>],
+			[<astikorcarts:wheel:0>, <ore:slabWood>, <astikorcarts:wheel:0>]
+		]
+	],
+	<astikorcarts:plowcart:0> : [
 		[
 			[null, null, null],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<astikoor:wheel:0>, <astikoor:wheel:0>, <minecraft:stone:0>]
+			[<astikorcarts:wheel:0>, <astikorcarts:wheel:0>, <minecraft:stone:0>]
 		]
 	]
 };
@@ -56,7 +63,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IItemStack[] = [];
+static removeRecipes as IItemStack[] = [
+	<astikorcarts:cargocart:0>,
+	<astikorcarts:mobcart:0>,
+	<astikorcarts:plowcart:0>,
+	<astikorcarts:wheel:0>
+];
 
 function init() {
 	// Un-named recipes

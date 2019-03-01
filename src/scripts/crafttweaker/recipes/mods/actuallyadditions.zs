@@ -260,14 +260,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:item_drill_upgrade_fortune:0>: [
 		[
 			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>],
-			[<minecraft:redstone:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35}]}), <minecraft:redstone:0>],
+			[<minecraft:redstone:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>],
 			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>]
 		]
 	],
 	<actuallyadditions:item_drill_upgrade_fortune_ii:0>: [
 		[
 			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>],
-			[metals.redstoneAlloy.plate, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35}]}), metals.redstoneAlloy.plate],
+			[metals.redstoneAlloy.plate, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(3).makeTag().ench}), metals.redstoneAlloy.plate],
 			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>]
 		]
 	],
@@ -323,7 +323,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:block_fishing_net:0>: [
 		[
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
-			[<minecraft:string:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61}]}), <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:luck_of_the_sea>.makeEnchantment(1).makeTag().ench}), <minecraft:string:0>],
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	],

@@ -60,6 +60,7 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:conveyor"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:covered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:dropper"}),
+		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:extract"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:splitter"}),

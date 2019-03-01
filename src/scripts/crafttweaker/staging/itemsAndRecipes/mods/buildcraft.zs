@@ -91,6 +91,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreativeUnused.stage: [
+		<buildinggadgets:constructionpastecontainercreative>,
 		<buildcraftcore:engine:3>
 	]
 };

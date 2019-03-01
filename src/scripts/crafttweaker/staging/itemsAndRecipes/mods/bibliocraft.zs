@@ -1,5 +1,4 @@
 import crafttweaker.item.IIngredient;
-import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -340,19 +339,8 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static stagedEnchants as IEnchantmentDefinition[][string] = {
-	stageTwo.stage: [
-		<enchantment:bibliocraft:bibliocraft.deathcompassench>,
-		<enchantment:bibliocraft:bibliocraft.readingench>
-	]
-};
-
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
-	}
-
-	for stageName, enchants in stagedEnchants {
-		ZenStager.getStage(stageName).addEnchantments(enchants);
 	}
 }

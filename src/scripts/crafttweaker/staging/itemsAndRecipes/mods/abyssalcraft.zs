@@ -1,5 +1,4 @@
 import crafttweaker.item.IIngredient;
-import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -575,16 +574,6 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-
-static stagedEnchants as IEnchantmentDefinition[][string] = {
-	stageTwo.stage: [
-		<enchantment:abyssalcraft:iron_wall>,
-		<enchantment:abyssalcraft:light_pierce>,
-		<enchantment:abyssalcraft:coralium>,
-		<enchantment:abyssalcraft:dread>
-	]
-};
-
 static hiddenItems as IIngredient[] = [
 	<abyssalcraft:altar:0>,
 	<abyssalcraft:crystallizer_on:0>,
@@ -617,10 +606,6 @@ static hiddenRemove as IIngredient[] = [
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
-	}
-
-	for stageName, enchants in stagedEnchants {
-		ZenStager.getStage(stageName).addEnchantments(enchants);
 	}
 
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);

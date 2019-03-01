@@ -1,5 +1,4 @@
 import crafttweaker.item.IIngredient;
-import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -584,48 +583,9 @@ static hiddenRemove as IIngredient[] = [
 	<minecraft:wooden_sword:0>
 ];
 
-static stagedEnchants as IEnchantmentDefinition[][string] = {
-	stageTwo.stage: [
-		<enchantment:minecraft:protection>,
-		<enchantment:minecraft:fire_protection>,
-		<enchantment:minecraft:feather_falling>,
-		<enchantment:minecraft:blast_protection>,
-		<enchantment:minecraft:projectile_protection>,
-		<enchantment:minecraft:respiration>,
-		<enchantment:minecraft:aqua_affinity>,
-		<enchantment:minecraft:thorns>,
-		<enchantment:minecraft:depth_strider>,
-		<enchantment:minecraft:frost_walker>,
-		<enchantment:minecraft:binding_curse>,
-		<enchantment:minecraft:sharpness>,
-		<enchantment:minecraft:smite>,
-		<enchantment:minecraft:bane_of_arthropods>,
-		<enchantment:minecraft:knockback>,
-		<enchantment:minecraft:fire_aspect>,
-		<enchantment:minecraft:looting>,
-		<enchantment:minecraft:sweeping>,
-		<enchantment:minecraft:efficiency>,
-		<enchantment:minecraft:silk_touch>,
-		<enchantment:minecraft:unbreaking>,
-		<enchantment:minecraft:fortune>,
-		<enchantment:minecraft:power>,
-		<enchantment:minecraft:punch>,
-		<enchantment:minecraft:flame>,
-		<enchantment:minecraft:infinity>,
-		<enchantment:minecraft:luck_of_the_sea>,
-		<enchantment:minecraft:lure>,
-		<enchantment:minecraft:mending>,
-		<enchantment:minecraft:vanishing_curse>
-	]
-};
-
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
-	}
-
-	for stageName, enchants in stagedEnchants {
-		ZenStager.getStage(stageName).addEnchantments(enchants);
 	}
 
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);

@@ -1,5 +1,4 @@
 import crafttweaker.item.IIngredient;
-import crafttweaker.enchantments.IEnchantmentDefinition;
 
 import mods.zenstages.ZenStager;
 
@@ -123,13 +122,6 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
-static stagedEnchants as IEnchantmentDefinition[][string] = {
-	stageTwo.stage: [
-		<enchantment:astralsorcery:enchantment.as.nightvision>,
-		<enchantment:astralsorcery:enchantment.as.smelting>
-	]
-};
-
 static hiddenRemove as IIngredient[] = [
 	<astralsorcery:blockmarbleslab:0>, // This is not a finshed Block; advised to not use it till completed.
 	<astralsorcery:itemchargedcrystalpickaxe:0> // <-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
@@ -138,10 +130,6 @@ static hiddenRemove as IIngredient[] = [
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
-	}
-
-	for stageName, enchants in stagedEnchants {
-		ZenStager.getStage(stageName).addEnchantments(enchants);
 	}
 
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);

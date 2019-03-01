@@ -13,6 +13,8 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageTwo;
+
 static stagedEnchants as IEnchantmentDefinition[][string] = {
 	stageTwo.stage: [
 		<enchantment:abyssalcraft:coralium>,

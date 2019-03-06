@@ -23,6 +23,30 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<totemic:cedar_fence_gate>: [
+		[
+			[<minecraft:stick:0>, <totemic:cedar_plank:0>, <minecraft:stick:0>],
+			[<minecraft:stick:0>, <totemic:cedar_plank:0>, <minecraft:stick:0>]
+		]
+	],
+	<totemic:cedar_fence> * 3: [
+		[
+			[<totemic:cedar_plank:0>, <minecraft:stick:0>, <totemic:cedar_plank:0>],
+			[<totemic:cedar_plank:0>, <minecraft:stick:0>, <totemic:cedar_plank:0>]
+		]
+	],
+	<totemic:cedar_slab:0> * 3: [
+		[
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, <totemic:cedar_plank:0>]
+		]
+	],
+	<totemic:cedar_stairs:0> * 4: [
+		[
+			[<totemic:cedar_plank:0>, null, null],
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, null],
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, <totemic:cedar_plank:0>]
+		]
+	],
 	<totemic:eagle_bone_whistle:0> : [
 		[
 			[null, <totemic:eagle_drops:0>],

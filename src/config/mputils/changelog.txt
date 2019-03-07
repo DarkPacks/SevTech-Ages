@@ -112,6 +112,7 @@ Enhancements:
 * Reordered advancement tabs so SevTech advancements are first (in order of stage) followed by the remaining in alphabetical order
 * Astikoor Wheel & Steve's Carts Wooden Wheel recipes altered slightly
 * Added Abyssalcraft ritual to get Mooshroom Essence for RF Tools Peaceful Dimlet (#3093)
+* Increased the chances of finding Shoggoth Lairs
 
 Forge: 14.23.5.2815
 

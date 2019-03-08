@@ -120,6 +120,7 @@ Enhancements:
 * Remove useless Wafers
 * Add tooltip to Death Compass Singularity to indicate how a Death Compass can be obtained
 * Add tooltip to Coralium Ore & Pearl (#3591)
+* Add tooltip to BWM Mill Stone (#3585)
 
 Forge: 14.23.5.2815
 

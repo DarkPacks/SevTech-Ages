@@ -482,6 +482,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("like the Mill Stone")
 	],
 
+	<betterwithmods:single_machine:0>: [
+		format.aqua("Use Hand Crank until kinetic"),
+		format.aqua("power is available")
+	],
+
 	<abyssalcraft:statue:0>: [
 		format.red("Requires open sky above to function")
 	],

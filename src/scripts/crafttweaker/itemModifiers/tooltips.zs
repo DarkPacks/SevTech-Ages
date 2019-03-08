@@ -544,6 +544,10 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<death_compass:death_compass>: [
 		format.red("Sneak on your grave to retrieve your items")
 	],
+	<extendedcrafting:singularity_custom:8>: [
+		format.blue("Compasses obtained through player death or"),
+		format.blue("from Player Skin Mobs")
+	]
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [

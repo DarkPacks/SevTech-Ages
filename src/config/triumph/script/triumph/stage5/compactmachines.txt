@@ -1,8 +1,8 @@
-setTranslatedTitle("advancements.stage3.compactmachines.title")
+setTranslatedTitle("advancements.stage5.compactmachines.title")
 
 setIcon("compactmachines3:fieldprojector", 0)
 
-setTranslatedDescription("advancements.stage3.compactmachines.description")
+setTranslatedDescription("advancements.stage5.compactmachines.description")
 
 addParent("triumph:stage5/diamond")
 setRequiresParents()
@@ -14,4 +14,4 @@ criteria.setItem("compactmachines3:fieldprojector", 0)
 //Rewards
 setRewardExperience(15)
 
-visibleIf("triumph:stage3/root")
+visibleIf("triumph:stage5/root")

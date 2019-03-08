@@ -28,6 +28,7 @@ spawn in components to re-make your ships. Note: Ship building changed a bit so 
 * ContentTweaker Molten Fiery is now removed (deprecated in 3.0.8)
 * Astral Sorcery has a new perk system, and as a result the mod will reset your perk experience.
 * Astral Sorcery rituals may not be active after upgrading. To restart them, simply pick up the crystal from the pedestal and place it back down.
+* The Compact Machines Advancement ("Project Miniaturization") may have been reset if you currently had the advancement. See https://github.com/DarkPacks/SevTech-Ages/issues/3594#issuecomment-471080837 for a resolution.
 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
@@ -71,6 +72,7 @@ should not be repairable anyways using this method. (#2925)
 * Tweaked staging for rustic slate blocks (#3372)
 * Fixed conflicting recipes with a diamond apple (#3446)
 * Fixed Creative advancement trigger being called by two advancements (#3596)
+* Fixed Compact Machines Advancement ("Project Miniaturization") being in incorrect stage (#3594)
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)

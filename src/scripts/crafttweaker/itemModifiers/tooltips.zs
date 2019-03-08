@@ -545,8 +545,8 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Sneak on your grave to retrieve your items")
 	],
 	<extendedcrafting:singularity_custom:8>: [
-		format.blue("Compasses obtained through player death or"),
-		format.blue("from Player Skin Mobs")
+		format.aqua("Compasses obtained through player death or"),
+		format.aqua("from Player Skin Mobs")
 	],
 
 	// Space!

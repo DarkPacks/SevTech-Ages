@@ -579,6 +579,20 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<extraplanets:tier1_space_suit_boots:*>: [
 		format.red("Only requires power when modules are installed"),
 		format.red("can only be charged with an Energy Storage Module")
+	],
+
+	// Coralium
+	<abyssalcraft:coraliumore:0>: [
+		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
+		format.aqua("in the Necromonicon for more information."),
+		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("and Swamp Biomes")
+	],
+	<abyssalcraft:cpearl:0>: [
+		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
+		format.aqua("in the Necromonicon for more information."),
+		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("and Swamp Biomes")
 	]
 };
 

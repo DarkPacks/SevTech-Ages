@@ -119,6 +119,7 @@ Enhancements:
 * Changed Carbon Wafer to Advanced Wafer in Creative Jetpack recipe
 * Remove useless Wafers
 * Add tooltip to Death Compass Singularity to indicate how a Death Compass can be obtained
+* Add tooltip to Coralium Ore & Pearl (#3591)
 
 Forge: 14.23.5.2815
 

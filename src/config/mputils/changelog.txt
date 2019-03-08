@@ -113,6 +113,7 @@ Enhancements:
 * Astikoor Wheel & Steve's Carts Wooden Wheel recipes altered slightly
 * Added Abyssalcraft ritual to get Mooshroom Essence for RF Tools Peaceful Dimlet (#3093)
 * Increased the chances of finding Shoggoth Lairs
+* Changed Carbon Wafer to Advanced Wafer in Creative Jetpack recipe
 
 Forge: 14.23.5.2815
 

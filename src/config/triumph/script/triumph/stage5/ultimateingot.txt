@@ -13,6 +13,5 @@ criteria.setItem("extendedcrafting:material", 32)
 
 //Rewards
 setRewardExperience(15)
-setRewardFunction("triumph:stage-creative_trigger")
 
 visibleIf("triumph:stage5/root")

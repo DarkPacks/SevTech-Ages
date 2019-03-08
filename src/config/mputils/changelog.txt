@@ -70,6 +70,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed missing recipe for emptying rustic bottles (#2157)
 * Tweaked staging for rustic slate blocks (#3372)
 * Fixed conflicting recipes with a diamond apple (#3446)
+* Fixed Creative advancement trigger being called by two advancements (#3596)
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)

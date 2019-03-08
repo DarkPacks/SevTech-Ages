@@ -121,6 +121,7 @@ Enhancements:
 * Add tooltip to Death Compass Singularity to indicate how a Death Compass can be obtained
 * Add tooltip to Coralium Ore & Pearl (#3591)
 * Add tooltip to BWM Mill Stone (#3585)
+* Disable Better Foliage's falling leaves to help improve performance
 
 Forge: 14.23.5.2815
 

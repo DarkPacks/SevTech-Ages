@@ -708,12 +708,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:venus_rover:3>,
 		<extraplanets:venus_rover:0>,
 		<extraplanets:volcanic_rock:0>,
-		<extraplanets:wafer:1>,
-		<extraplanets:wafer:2>,
-		<extraplanets:wafer:3>,
-		<extraplanets:wafer:4>,
-		<extraplanets:wafer:5>,
-		<extraplanets:wafer:0>,
 		<extraplanets:white_sugar_cane_item:0>,
 		<extraplanets:white_sugar_cane:0>,
 		<extraplanets:yellow_diamond_axe:0>,
@@ -745,7 +739,13 @@ static hiddenRemove as IIngredient[] = [
 	<extraplanets:apple_diamond:0>,
 	<extraplanets:block_multi:0>,
 	<extraplanets:tier8_items:4>,
-	<extraplanets:ultimate_refinery:0>
+	<extraplanets:ultimate_refinery:0>,
+	<extraplanets:wafer:0>,
+	<extraplanets:wafer:1>,
+	<extraplanets:wafer:2>,
+	<extraplanets:wafer:3>,
+	<extraplanets:wafer:4>,
+	<extraplanets:wafer:5>
 ];
 
 function init() {

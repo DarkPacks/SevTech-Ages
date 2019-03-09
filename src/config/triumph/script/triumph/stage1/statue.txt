@@ -41,4 +41,4 @@ criteria7.setItem("abyssalcraft:statue", 6)
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

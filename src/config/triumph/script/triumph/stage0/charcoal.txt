@@ -14,4 +14,4 @@ criteria.setItem("charcoalblock:charcoal_block")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

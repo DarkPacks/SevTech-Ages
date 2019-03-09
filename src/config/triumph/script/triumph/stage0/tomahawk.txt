@@ -14,4 +14,4 @@ criteria.setItem("progressiontweaks:tomahawk")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

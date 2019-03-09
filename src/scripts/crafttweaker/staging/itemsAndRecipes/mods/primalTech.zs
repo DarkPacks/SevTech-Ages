@@ -30,7 +30,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal_tech:charcoal_hopper>,
 		<primal_tech:clay_kiln>,
 		<primal_tech:flint_block>,
-		<primal_tech:flint_edged_disc>,
 		<primal_tech:fluid_bladder>,
 		<primal_tech:stick_bundle>,
 		<primal_tech:stone_grill>,
@@ -40,6 +39,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageOne.stage: [
+		<primal_tech:flint_edged_disc>,
 		<primal_tech:leaf_bed>,
 		<primal_tech:stone_anvil>,
 		<primal_tech:stone_mallet>,

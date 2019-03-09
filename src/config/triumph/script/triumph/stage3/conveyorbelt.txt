@@ -14,4 +14,4 @@ criteria.addItem("immersiveengineering:conveyor", 0, {conveyorType: "immersiveen
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

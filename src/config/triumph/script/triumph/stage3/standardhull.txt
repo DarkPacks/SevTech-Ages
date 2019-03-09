@@ -14,4 +14,4 @@ criteria.setItem("stevescarts:cartmodule", 38)
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

@@ -15,4 +15,4 @@ criteria.addItem("mekanism:energycube", 0, {tier: 4, mekData: {energyStored: 1.7
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

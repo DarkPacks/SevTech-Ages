@@ -13,8 +13,16 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenRemove as IIngredient[] = [
+	<thebetweenlands:glue:0>,
+	<thebetweenlands:location_debug:0>,
+	<thebetweenlands:test_item:0>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

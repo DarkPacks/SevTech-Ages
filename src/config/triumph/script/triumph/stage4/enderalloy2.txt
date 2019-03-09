@@ -21,4 +21,4 @@ criteria.setItem("enderutilities:enderpart", 1)
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

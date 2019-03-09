@@ -14,4 +14,4 @@ criteria.setEntityType("minecraft:ender_dragon")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

@@ -14,4 +14,4 @@ criteria.setItem("galacticraftcore:collector")
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

@@ -14,4 +14,4 @@ criteria.setItem("thebetweenlands:weedwood_sword")
 setRewardExperience(8)
 setRewardItem("thebetweenlands:rotten_food", 0, 16)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

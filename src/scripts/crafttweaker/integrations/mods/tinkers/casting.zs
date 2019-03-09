@@ -69,7 +69,7 @@ function init() {
 	];
 
 	for shieldMetal in shieldMetals {
-		var shield as IItemStack = itemUtils.getItemsByRegexRegistryName("^spartanshields:shield_basic_" + shieldMetal + ":0$")[0];
+		var shield as IItemStack = itemUtils.getItem("spartanshields:shield_basic_" + shieldMetal);
 		var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
 
 		tinkers.addCastingTable(shield, <spartanshields:shield_basic_wood:0>, liquid, 576, true);

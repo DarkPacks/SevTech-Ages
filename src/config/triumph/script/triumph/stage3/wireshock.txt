@@ -19,4 +19,4 @@ criteria1.setItem("immersiveengineering:wirecoil", 7)
 //Rewards
 setRewardExperience(2)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

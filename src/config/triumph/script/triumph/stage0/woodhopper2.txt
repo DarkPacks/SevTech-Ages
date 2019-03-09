@@ -21,4 +21,4 @@ criteria.setItem("primal_tech:wooden_hopper")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

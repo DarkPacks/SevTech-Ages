@@ -13,4 +13,4 @@ criteria.setDimensionDestination("the_nether")
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage3/root")

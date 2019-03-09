@@ -80,7 +80,6 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:upgrade:2>,
 		<refinedstorage:upgrade:3>,
 		<refinedstorage:upgrade:4>,
-		<refinedstorage:upgrade:5>,
 		<refinedstorage:upgrade:6>,
 		<refinedstorage:upgrade:7>,
 		<refinedstorage:upgrade:8>,

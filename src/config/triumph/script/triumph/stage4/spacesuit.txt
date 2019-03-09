@@ -23,4 +23,4 @@ criteria4.setItem("extraplanets:tier1_space_suit_boots")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

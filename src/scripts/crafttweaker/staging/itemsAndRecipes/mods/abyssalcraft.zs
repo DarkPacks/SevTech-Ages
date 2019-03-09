@@ -83,6 +83,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:cstonebrickfence:0>,
 		<abyssalcraft:darkethaxiumbrickfence:0>,
 		<abyssalcraft:dltfence:0>,
+		<abyssalcraft:door_dlt:0>,
 		<abyssalcraft:dreadbrickfence:0>,
 		<abyssalcraft:drtfence:0>,
 		<abyssalcraft:dsbfence:0>,
@@ -107,6 +108,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:charm:0>,
 		<abyssalcraft:coralium:0>,
 		<abyssalcraft:coraliumore:0>,
+		<abyssalcraft:coraliumstone:0>,
 		<abyssalcraft:cpearl:0>,
 		<abyssalcraft:crate:0>,
 		<abyssalcraft:decorativestatue:1>,
@@ -238,6 +240,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:dhelmet:0>,
 		<abyssalcraft:dlegs:0>,
 		<abyssalcraft:dltpplate:0>,
+		<abyssalcraft:door_drt:0>,
 		<abyssalcraft:dplate:0>,
 		<abyssalcraft:drainstaff:1>,
 		<abyssalcraft:drainstaff:2>,
@@ -397,7 +400,6 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:calcifiedstone:0>,
 		<abyssalcraft:cchunk:0>,
 		<abyssalcraft:coraliumcobblestoneslab2:0>,
-		<abyssalcraft:coraliumstone:0>,
 		<abyssalcraft:coraxe:0>,
 		<abyssalcraft:corboots:0>,
 		<abyssalcraft:corbootsp:0>,
@@ -577,7 +579,7 @@ static hiddenItems as IIngredient[] = [
 	<abyssalcraft:crystallizer_on:0>,
 	<abyssalcraft:dirtyplate:0>,
 	<abyssalcraft:friedegg:0>,
-	<abyssalcraft:transmutator_on:0>,
+	<abyssalcraft:transmutator_on:0>
 ];
 
 static hiddenRemove as IIngredient[] = [
@@ -598,13 +600,14 @@ static hiddenRemove as IIngredient[] = [
 	<abyssalcraft:ironp:0>,
 	<abyssalcraft:ironu:0>,
 	<abyssalcraft:mre:0>,
-	<abyssalcraft:porkp:0>,
+	<abyssalcraft:porkp:0>
 ];
 
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

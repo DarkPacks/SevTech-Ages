@@ -14,4 +14,4 @@ criteria.setItem("ironjetpacks:emerald_jetpack")
 //Rewards
 setRewardExperience(15)
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

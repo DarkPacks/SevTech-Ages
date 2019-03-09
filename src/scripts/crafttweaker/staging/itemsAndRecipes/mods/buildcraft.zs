@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<buildcraftcore:engine:0>,
 		<buildcraftcore:wrench:0>,
 		<buildcraftfactory:tank:0>,
-		<buildcraftlib:guide:0>,
+		<buildcraftlib:guide:*>,
 		<buildcrafttransport:pipe_clay_fluid:*>,
 		<buildcrafttransport:pipe_clay_item:*>,
 		<buildcrafttransport:pipe_cobble_fluid:*>,
@@ -91,6 +91,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreativeUnused.stage: [
+		<buildinggadgets:constructionpastecontainercreative>,
 		<buildcraftcore:engine:3>
 	]
 };

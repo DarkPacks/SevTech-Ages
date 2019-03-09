@@ -27,6 +27,7 @@
     "npcVillageSmallHouse": "HOUSE_SMALL",
     "npcVillageSmithy": "SMITHY",
     "npcVillageTorch": "VILLAGE_TORCH",
-    "npcVillageWell": "WELL"
+    "npcVillageWell": "WELL",
+    "ravine": "RAVINE"
   }
 }

@@ -4,10 +4,12 @@ src/config/AppliedEnergistics2/aerecipes/*
 src/config/cd4017be/inductiveLogistics.rcp
 src/config/cd4017be/inductiveLogistics.rcp.old
 src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
 
 # Client Only Files
 src/config/InvTweaks.cfg
 src/config/MouseTweaks.cfg
+src/config/jei/bookmarks.ini
 src/config/jei/worldSettings.cfg
 src/config/jei/lookupHistory.zip
 src/config/buildcraft/detailed.properties

@@ -25,4 +25,4 @@ criteria4.setItem("extraplanets:mars_rover", 3)
 //Rewards
 setRewardExperience(15)
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

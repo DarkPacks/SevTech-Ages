@@ -14,4 +14,4 @@ criteria.setItem("astralsorcery:itemwand")
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

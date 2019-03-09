@@ -22,4 +22,4 @@ criteria.setItem("astralsorcery:blockaltar")
 setRewardExperience(8)
 setRewardFunction("triumph:stage-2_trigger")
 
-alwaysVisible()
+visibleIf("triumph:stage1/root")

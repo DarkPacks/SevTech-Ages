@@ -1,5 +1,5 @@
-gamestage remove @p three_mob
-gamestage add @p four_mob
+gamestage silentremove @p three_mob
+gamestage silentadd @p four_mob
 gamestage add @p four
 summon minecraft:fireworks_rocket ~ ~ ~
 mpa notify @p stage_four

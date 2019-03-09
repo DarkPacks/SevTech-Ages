@@ -411,12 +411,12 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:oxygen_tank_med_full_light_blue:0>,
 		<extraplanets:oxygen_tank_med_full_light_gray:0>,
 		<extraplanets:oxygen_tank_med_full_magenta:0>,
-		<extraplanets:oxygen_tank_med_full_orange:0>,
 		<extraplanets:oxygen_tank_med_full_pink:0>,
 		<extraplanets:oxygen_tank_med_full_purple:0>,
 		<extraplanets:oxygen_tank_med_full_red:0>,
 		<extraplanets:oxygen_tank_med_full_white:0>,
 		<extraplanets:oxygen_tank_med_full_yellow:0>,
+		<extraplanets:oxygen_tank_med_full_lime:0>,
 		<extraplanets:oxygen_tank_very_heavy_full:7200>,
 		<extraplanets:oxygen_tank_very_heavy_full:0>,
 		<extraplanets:phobos_gravel:0>,
@@ -708,12 +708,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:venus_rover:3>,
 		<extraplanets:venus_rover:0>,
 		<extraplanets:volcanic_rock:0>,
-		<extraplanets:wafer:1>,
-		<extraplanets:wafer:2>,
-		<extraplanets:wafer:3>,
-		<extraplanets:wafer:4>,
-		<extraplanets:wafer:5>,
-		<extraplanets:wafer:0>,
 		<extraplanets:white_sugar_cane_item:0>,
 		<extraplanets:white_sugar_cane:0>,
 		<extraplanets:yellow_diamond_axe:0>,
@@ -745,7 +739,13 @@ static hiddenRemove as IIngredient[] = [
 	<extraplanets:apple_diamond:0>,
 	<extraplanets:block_multi:0>,
 	<extraplanets:tier8_items:4>,
-	<extraplanets:ultimate_refinery:0>
+	<extraplanets:ultimate_refinery:0>,
+	<extraplanets:wafer:0>,
+	<extraplanets:wafer:1>,
+	<extraplanets:wafer:2>,
+	<extraplanets:wafer:3>,
+	<extraplanets:wafer:4>,
+	<extraplanets:wafer:5>
 ];
 
 function init() {

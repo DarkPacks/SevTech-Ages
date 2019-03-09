@@ -1,7 +1,7 @@
 /*
-	SevTech: Ages Hardness Modification Script
+	SevTech: Ages Harvest Level Modification Script
 
-	This script allows for the modification of an ItemStack's hardness.
+	This script allows for the modification of an ItemStack's Harvest Level.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -15,6 +15,8 @@ static pickaxeLevelPairs as IItemStack[][int] = {
 	1: [
 		<abyssalcraft:coraliumore:0>,
 		<bloodmagic:blood_rune:0>,
+		<geolosys:ore:3>,
+		<geolosys:ore:5>,
 		<poweradapters:mj:0>
 	],
 

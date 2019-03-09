@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage0.fertility.title")
+
+setIcon("minecraft:wheat")
+
+setTranslatedDescription("advancements.stage0.fertility.description")
+
+addParent("triumph:stage0/totemic")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("ceremony", "totemic:perform_ceremony")
+criteria.setCeremony("totemic:fertility")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage0/root")

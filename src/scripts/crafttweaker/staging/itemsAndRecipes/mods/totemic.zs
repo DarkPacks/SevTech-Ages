@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageZero;
+import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageCreativeUnused;
 import scripts.crafttweaker.stages.stageBaykok;
 
@@ -46,12 +47,15 @@ static stagedItems as IIngredient[][string] = {
 		<totemic:totemic_staff:0>,
 		<totemic:totempedia:0>,
 		<totemic:wind_chime:0>,
-		<totemic:cedar_stairs:0>,
 		<totemic:cedar_slab:0>,
-		<totemic:cedar_fence:0>,
-		<totemic:cedar_fence_gate:0>,
 		<totemic:wooden_pillar:*>,
 		<totemic:wooden_pillar_base:*>,
+	],
+
+	stageOne.stage: [
+		<totemic:cedar_fence_gate:0>,
+		<totemic:cedar_fence:0>,
+		<totemic:cedar_stairs:0>
 	],
 
 	stageBaykok.stage: [

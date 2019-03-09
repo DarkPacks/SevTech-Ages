@@ -25,4 +25,4 @@ criteria4.setEntityType("jaff:salmon")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

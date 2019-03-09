@@ -1,6 +1,5 @@
 import crafttweaker.item.IIngredient;
 
-import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageThree;
@@ -28,8 +27,22 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static stagedRecipeNames as string[][string] = {
+	stageThree.stage: [
+		"mysticalagriculture:cobbled_soulstone_slab",
+		"mysticalagriculture:cobbled_soulstone_stairs",
+		"mysticalagriculture:cobbled_soulstone_wall",
+		"mysticalagriculture:soulstone",
+		"mysticalagriculture:soulstone_1",
+		"mysticalagriculture:soulstone_2",
+		"mysticalagriculture:soulstone_3",
+		"mysticalagriculture:soulstone_4",
+		"mysticalagriculture:soulstone_brick_slab",
+		"mysticalagriculture:soulstone_brick_stairs",
+		"mysticalagriculture:soulstone_brick_wall",
+		"mysticalagriculture:soulstone_slab"
+	],
 	stageFive.stage: [
-		"REGEX:mysticalagriculture:.*"
+		"REGEX:mysticalagriculture:(?!.*soulstone.*).*?$" // All in stage 5 unless it contains "soulstone"
 	]
 };
 
@@ -48,4 +61,27 @@ function init() {
 	}
 
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
+}
+
+function initOverride() {
+	for stageName, items in stagedItems {
+		if (stageName != stageFive.stage) {
+			for item in items {
+				mods.ItemStages.removeItemStage(item);
+				mods.ItemStages.addItemStage(stageName, item);
+			}
+		}
+	}
+
+	for stageName, recipeNames in stagedRecipeNames {
+		if (stageName != stageFive.stage) {
+			for recipeName in recipeNames {
+				if (recipeName.startsWith("REGEX:")) {
+					mods.recipestages.Recipes.setRecipeStageByRegex(stageName, recipeName.substring(6, recipeName.length));
+				} else {
+					mods.recipestages.Recipes.setRecipeStage(stageName, recipeName);
+				}
+			}
+		}
+	}
 }

@@ -23,4 +23,4 @@ setRewardFunction("triumph:stage-0_trigger")
 setRewardItem("primal_tech:rock", 0, 1)
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

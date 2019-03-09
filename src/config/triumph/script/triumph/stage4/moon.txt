@@ -22,4 +22,4 @@ criteria.setDimensionDestination("Moon")
 setRewardExperience(25)
 setRewardFunction("triumph:stage-5_trigger")
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

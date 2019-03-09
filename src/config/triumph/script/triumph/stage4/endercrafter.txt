@@ -24,4 +24,4 @@ criteria2.setItem("extendedcrafting:ender_alternator")
 //Rewards
 setRewardExperience(12)
 
-alwaysVisible()
+visibleIf("triumph:stage4/root")

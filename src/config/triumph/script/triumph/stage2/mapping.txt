@@ -16,4 +16,4 @@ setRewardFunction("triumph:advanced_mapping")
 setRewardFunction("triumph:prestige_add_100")
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

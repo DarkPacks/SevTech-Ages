@@ -14,4 +14,4 @@ criteria.setItem("extendedcrafting:table_basic")
 //Rewards
 setRewardExperience(8)
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

@@ -28,4 +28,4 @@ criteria5.setBiome("abyssalcraft:darklands_mountains")
 //Rewards
 setRewardExperience(4)
 
-alwaysVisible()
+visibleIf("triumph:stage0/root")

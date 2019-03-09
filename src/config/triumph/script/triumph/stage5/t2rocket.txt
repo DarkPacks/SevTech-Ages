@@ -25,4 +25,4 @@ criteria4.setItem("galacticraftplanets:rocket_t2", 3)
 //Rewards
 setRewardExperience(15)
 
-alwaysVisible()
+visibleIf("triumph:stage5/root")

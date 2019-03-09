@@ -22,4 +22,4 @@ criteria.setItem("stevescarts:cartmodule", 0)
 setRewardExperience(8)
 setRewardFunction("triumph:stage-3_trigger")
 
-alwaysVisible()
+visibleIf("triumph:stage2/root")

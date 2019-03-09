@@ -554,8 +554,8 @@ advancements.stage3.circuitboard.title=Я карт... плата!
 advancements.stage3.circuitboard.description=Используйте Верстак инженера для создания Монтажной платы.
 
 
-advancements.stage3.compactmachines.title=Проект по миниатюризации
-advancements.stage3.compactmachines.description=Хотите создавать свои собственные карманные измерения и строить внутри них громоздкие машины? Тогда для начала Вам стоит создать Проекторы поля миниатюризации, а затем разместить их в мире.
+advancements.stage5.compactmachines.title=Проект по миниатюризации
+advancements.stage5.compactmachines.description=Хотите создавать свои собственные карманные измерения и строить внутри них громоздкие машины? Тогда для начала Вам стоит создать Проекторы поля миниатюризации, а затем разместить их в мире.
 
 
 advancements.stage3.conveyorbelt.title=Конвейерная лента

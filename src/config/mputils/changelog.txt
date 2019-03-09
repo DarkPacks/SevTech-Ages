@@ -73,6 +73,7 @@ should not be repairable anyways using this method. (#2925)
 * Fixed conflicting recipes with a diamond apple (#3446)
 * Fixed Creative advancement trigger being called by two advancements (#3596)
 * Fixed Compact Machines Advancement ("Project Miniaturization") being in incorrect stage (#3594)
+* Fix IE excavator not yielding geolosys clusters (#3025)
 
 Enhancements:
 * Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
@@ -541,7 +542,6 @@ Bug Fixes:
 * Fix missing recipe for the pipe pulsar due to the pack not having the assembler table (#2762)
 * Staged Skeleton Trap Horses in Age 1 (#1611)
 * Add hardness to Reinforced Coke Brick (#2784)
-* Fix IE excavator not yielding geolosys clusters (#3025)
 
 Enhancements:
 * Updated Privacy Policy

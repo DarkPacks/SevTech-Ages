@@ -124,7 +124,7 @@ Enhancements:
 * Disable Better Foliage's falling leaves to help improve performance
 * Add chocolate recipe to Modular Machinery Mixer
 * Reduce HP of Steppe Wolf by half (25-12.5)
-* Allow death compasses to be stackable
+* Allow death compasses to be stackable & add a recipe to clear NBT data
 
 Forge: 14.23.5.2815
 

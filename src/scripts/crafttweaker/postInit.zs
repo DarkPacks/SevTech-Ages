@@ -209,6 +209,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.cookingforblockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
+	scripts.crafttweaker.recipes.mods.deathCompass.init();
 	scripts.crafttweaker.recipes.mods.dungpipe.init();
 	scripts.crafttweaker.recipes.mods.enderutilities.init();
 	scripts.crafttweaker.recipes.mods.extendedcrafting.init();

@@ -554,10 +554,6 @@ advancements.stage3.circuitboard.title=Я карт... плата!
 advancements.stage3.circuitboard.description=Используйте Верстак инженера для создания Монтажной платы.
 
 
-advancements.stage5.compactmachines.title=Проект по миниатюризации
-advancements.stage5.compactmachines.description=Хотите создавать свои собственные карманные измерения и строить внутри них громоздкие машины? Тогда для начала Вам стоит создать Проекторы поля миниатюризации, а затем разместить их в мире.
-
-
 advancements.stage3.conveyorbelt.title=Конвейерная лента
 advancements.stage3.conveyorbelt.description=Конвейерные ленты из Immersive Engineering отлично подходят для транспортировки предметов!
 
@@ -894,6 +890,10 @@ advancements.stage5.charger3.description=Зарядное устройство 3
 
 advancements.stage5.cheese.title=Луна сделана из сыра
 advancements.stage5.cheese.description=Сыр - это редкая руда, которую можно найти только на Луне. Карьеры будут взаимодействовать с ней точно также, как и со всеми остальными рудами Луны.
+
+
+advancements.stage5.compactmachines.title=Проект по миниатюризации
+advancements.stage5.compactmachines.description=Хотите создавать свои собственные карманные измерения и строить внутри них громоздкие машины? Тогда для начала Вам стоит создать Проекторы поля миниатюризации, а затем разместить их в мире.
 
 
 advancements.stage5.creativecompressor.title=Творческий компрессор

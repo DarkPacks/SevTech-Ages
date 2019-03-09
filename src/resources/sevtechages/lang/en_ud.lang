@@ -554,10 +554,6 @@ advancements.stage3.circuitboard.title=pɹɐoᗺ ɯ,I
 advancements.stage3.circuitboard.description=pɹɐoᗺ ʇᴉnɔɹᴉƆ ɐ ʇɟɐɹɔ oʇ ɥɔuǝqʞɹoM s,ɹǝǝuᴉᵷuƎ ǝɥʇ ǝs∩
 
 
-advancements.stage5.compactmachines.title=uoᴉʇɐzᴉɹnʇɐᴉuᴉW ʇɔǝɾoɹԀ
-advancements.stage5.compactmachines.description=uᴉᵷǝq oʇ pꞁɹoʍ ǝɥʇ uᴉ ɯǝɥʇ ǝɔɐꞁd puɐ sɹoʇɔǝɾoɹԀ pꞁǝᴉℲ uoᴉʇɐzᴉɹnʇɐᴉuᴉW ǝɥʇ ʇɟɐɹƆ ¿ǝdᴉɔǝɹ ǝsɐɔ ǝuᴉɥɔɐɯ ɹǝɥʇouɐ puɐ suoᴉsuǝɯᴉp ʇǝʞɔod uʍo ɹnoʎ ǝʇɐǝɹɔ oʇ ʇuɐM
-
-
 advancements.stage3.conveyorbelt.title=ʇꞁǝᗺ ɹoʎǝʌuoƆ
 advancements.stage3.conveyorbelt.description=¡ʇɹodsuɐɹʇ ɯǝʇᴉ ɹoɟ ʇɐǝɹᵷ ǝɹɐ sʇꞁǝᗺ ɹoʎǝʌuoƆ ᵷuᴉɹǝǝuᴉᵷuƎ ǝʌᴉsɹǝɯɯI
 
@@ -894,6 +890,10 @@ advancements.stage5.charger3.description=sɹǝᴉʇ snoᴉʌǝɹd uɐɥʇ ɹǝʞ
 
 advancements.stage5.cheese.title=ǝsǝǝɥƆ ɟo ǝpɐW sᴉ uooW ǝɥ⟘
 advancements.stage5.cheese.description=ʇᴉ ǝuᴉɯ oʇ ʞɹoʍ ꞁꞁᴉʍ sǝᴉɹɹɐnΌ 'uooɯ ǝɥʇ uo ǝɹo ɹǝɥʇo ꞁꞁɐ ǝʞᴉꞀ ˙uooW ǝɥʇ uo ʎꞁuo punoɟ ǝɹo ǝɹɐɹ ɐ sᴉ ǝsǝǝɥƆ
+
+
+advancements.stage5.compactmachines.title=uoᴉʇɐzᴉɹnʇɐᴉuᴉW ʇɔǝɾoɹԀ
+advancements.stage5.compactmachines.description=uᴉᵷǝq oʇ pꞁɹoʍ ǝɥʇ uᴉ ɯǝɥʇ ǝɔɐꞁd puɐ sɹoʇɔǝɾoɹԀ pꞁǝᴉℲ uoᴉʇɐzᴉɹnʇɐᴉuᴉW ǝɥʇ ʇɟɐɹƆ ¿ǝdᴉɔǝɹ ǝsɐɔ ǝuᴉɥɔɐɯ ɹǝɥʇouɐ puɐ suoᴉsuǝɯᴉp ʇǝʞɔod uʍo ɹnoʎ ǝʇɐǝɹɔ oʇ ʇuɐM
 
 
 advancements.stage5.creativecompressor.title=ɹossǝɹdɯoƆ ɹᴉⱯ ǝʌᴉʇɐǝɹƆ

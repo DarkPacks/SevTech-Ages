@@ -151,5 +151,19 @@
       ],
       "Health": 35.0
     }
+  },
+  {
+    "mob": "primal:canis_campestris",
+    "result": "default",
+    "onjoin": true,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 12.5,
+          "Name": "generic.maxHealth"
+        }
+      ],
+      "Health": 12.5
+    }
   }
 ]

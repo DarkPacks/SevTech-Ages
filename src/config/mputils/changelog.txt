@@ -155,6 +155,8 @@ Mods Added:
 Mods Removed:
 * CraftStudio API
 * JustTheTips
+* NotEnoughItems
+    * Conflicting more and more with JEI and other utilities
 * Tomb Many Graves
     * This mod was causing more problems than solving. So we have decided to drop the mod in favour of another which has mod support
       and active development.

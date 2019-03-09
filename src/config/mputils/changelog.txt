@@ -125,6 +125,7 @@ Enhancements:
 * Add chocolate recipe to Modular Machinery Mixer
 * Reduce HP of Steppe Wolf by half (25-12.5)
 * Allow death compasses to be stackable & add a recipe to clear NBT data
+* Allow NetherEx Basalt Blocks to be obtained by chiseling other basalt blocks
 
 Forge: 14.23.5.2815
 

@@ -33,7 +33,7 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:blockattunementrelay:0>,
 		<astralsorcery:blockblackmarble:*>,
 		<astralsorcery:blockbore:0>,
-		<astralsorcery:blockborehead:*>,
+		<astralsorcery:blockborehead:0>,
 		<astralsorcery:blockcelestialcollectorcrystal:*>,
 		<astralsorcery:blockcelestialcrystals:*>,
 		<astralsorcery:blockcelestialgateway:0>,
@@ -41,12 +41,16 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:blockcustomflower:0>,
 		<astralsorcery:blockcustomore:*>,
 		<astralsorcery:blockcustomsandore:0>,
+		<astralsorcery:blockgemcrystals:0>,
+		<astralsorcery:blockgemcrystals:1>,
+		<astralsorcery:blockgemcrystals:2>,
+		<astralsorcery:blockgemcrystals:3>,
+		<astralsorcery:blockgemcrystals:4>,
 		<astralsorcery:blockgeolosyssamplecluster:0>,
 		<astralsorcery:blockinfusedwood:*>,
 		<astralsorcery:blocklens:0>,
 		<astralsorcery:blockmachine:*>,
 		<astralsorcery:blockmapdrawingtable:0>,
-		<astralsorcery:blockobservatory:0>,
 		<astralsorcery:blockprism:0>,
 		<astralsorcery:blockrituallink:0>,
 		<astralsorcery:blockritualpedestal:0>,
@@ -71,36 +75,50 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:itemcrystalpickaxe:0>,
 		<astralsorcery:itemcrystalshovel:0>,
 		<astralsorcery:itemcrystalsword:0>,
-		<astralsorcery:itemenchantmentamulet:0>.withTag({astralsorcery: {amuletEnchantments: [{ench: "minecraft:depth_strider", level: 1, type: 0}, {ench: "minecraft:sharpness", level: 1, type: 1}], amuletColor: -6579}}),
 		<astralsorcery:itemgrapplewand:0>,
 		<astralsorcery:itemhandtelescope:0>,
 		<astralsorcery:itemilluminationwand:0>,
 		<astralsorcery:iteminfusedglass:*>,
 		<astralsorcery:itemknowledgeshare:*>,
 		<astralsorcery:itemlinkingtool:0>,
+		<astralsorcery:itemperkgem:0>.withTag({astralsorcery: {modifiers: [{mode: 1, baseValue: 0.06940986 as float, idMost: -3500271140658593275 as long, type: "astralsorcery.projectileattackdamage", idLeast: -5690853214501329548 as long}, {mode: 1, baseValue: 0.06523435 as float, idMost: -2094018233178700936 as long, type: "astralsorcery.maxhealth", idLeast: -5799080309016450669 as long}, {mode: 1, baseValue: 0.051517107 as float, idMost: -8549864506479328231 as long, type: "astralsorcery.movespeed", idLeast: -6323431257470054066 as long}]}}),
+		<astralsorcery:itemperkgem:1>.withTag({astralsorcery: {modifiers: [{mode: 1, baseValue: 0.053532366 as float, idMost: 8383532414938792242 as long, type: "astralsorcery.maxhealth", idLeast: -5746197697084733003 as long}, {mode: 1, baseValue: 0.0526237 as float, idMost: -3021617303100896076 as long, type: "astralsorcery.attackspeed", idLeast: -5303091824141759005 as long}]}}),
+		<astralsorcery:itemperkgem:2>.withTag({astralsorcery: {modifiers: [{mode: 1, baseValue: 0.05758308 as float, idMost: 6815915475742640333 as long, type: "astralsorcery.projectileattackdamage", idLeast: -8343551605423860456 as long}, {mode: 1, baseValue: 0.08 as float, idMost: -26675097360904430 as long, type: "astralsorcery.armor", idLeast: -8806404208308977082 as long}]}}),
+		<astralsorcery:itemperkseal>,
 		<astralsorcery:itemrockcrystalsimple:0>,
-		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {advanced: 1 as byte}}),
-		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {}}),
 		<astralsorcery:itemshiftingstar:0>,
+		<astralsorcery:itemshiftingstar:0>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}}),
+		<astralsorcery:itemshiftingstar:0>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.armara"}}),
+		<astralsorcery:itemshiftingstar:0>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.discidia"}}),
+		<astralsorcery:itemshiftingstar:0>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.evorsio"}}),
+		<astralsorcery:itemshiftingstar:0>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.vicio"}}),
 		<astralsorcery:itemskyresonator:0>,
 		<astralsorcery:itemtunedcelestialcrystal:*>,
 		<astralsorcery:itemtunedrockcrystal:*>,
 		<astralsorcery:itemusabledust:*>,
 		<astralsorcery:itemwand:0>,
+		<astralsorcery:itemwand:0>.withTag({astralsorcery: {}}),
 		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.aevitas"}}),
 		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.armara"}}),
 		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.discidia"}}),
 		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.evorsio"}}),
-		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}}),
-		<astralsorcery:itemwand:0>.withTag({astralsorcery: {}})
+		<astralsorcery:itemwand:0>.withTag({astralsorcery: {AugmentName: "astralsorcery.constellation.vicio"}})
 	],
 
 	stageThree.stage: [
-		<astralsorcery:blockchalice:0>
+		<astralsorcery:blockborehead:1>,
+		<astralsorcery:blockchalice:0>,
+		<astralsorcery:blockobservatory:0>,
+		<astralsorcery:itemenchantmentamulet:0>.withTag({astralsorcery: {}})
 	],
 
 	stageFive.stage: [
 		<astralsorcery:itemexchangewand:0>
+	],
+
+	stageDisabled.stage: [
+		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {advanced: 1 as byte}}),
+		<astralsorcery:itemsextant:0>.withTag({astralsorcery: {}})
 	]
 };
 
@@ -110,8 +128,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.hiddenRemove as IIngredient[], true);
+
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

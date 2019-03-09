@@ -1,8 +1,8 @@
-setTitle("Glass Blowing")
+setTranslatedTitle("advancements.stage2.glass.title")
 
 setIcon("minecraft:glass")
 
-setDescription("Create glass by first melting Sand in the Melter or Smeltery and pouring it into a basin")
+setTranslatedDescription("advancements.stage2.glass.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:glass")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

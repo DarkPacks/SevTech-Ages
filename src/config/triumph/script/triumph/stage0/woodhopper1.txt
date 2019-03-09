@@ -1,8 +1,8 @@
-setTitle("Have It Your Way")
+setTranslatedTitle("advancements.stage0.woodhopper1.title")
 
 setIcon("wopper:wopper")
 
-setDescription("Craft a Wooden Hopper to route your items automatically")
+setTranslatedDescription("advancements.stage0.woodhopper1.description")
 
 addParent("triumph:stage0/firstchest")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("wopper:wopper", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

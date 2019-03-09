@@ -31,7 +31,7 @@ import crafttweaker.item.IItemStack;
 <ore:listAllmeatcooked>.add(<thebetweenlands:snail_flesh_cooked:0>);
 <ore:listAllmeatcooked>.add(<thebetweenlands:frog_legs_cooked:0>);
 <ore:listAllmeatcooked>.add(<thebetweenlands:angler_meat_cooked:0>);
-<ore:listAllmeatcooked>.add(<nex:food_meat_ghast_cooked:0>);
+<ore:listAllmeatcooked>.add(<nex:ghast_meat_cooked:0>);
 <ore:listAllmeatcooked>.add(<natura:edibles:1>);
 
 <ore:cordageGeneral>.remove(<primal:silk_cordage:0>);
@@ -72,7 +72,6 @@ var seeds = [
 	<primal:nether_seed:0>,
 	<primal:rush_seeds:0>,
 	<primal:searing_ember:0>,
-	<primal:sinuous_spores:0>,
 	<primal:valus_seed:0>,
 	<primal:void_seed:0>
 ] as IItemStack[];

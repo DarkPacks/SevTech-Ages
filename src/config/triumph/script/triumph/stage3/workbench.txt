@@ -1,8 +1,8 @@
-setTitle("Engineer's Workbench")
+setTranslatedTitle("advancements.stage3.workbench.title")
 
 setIcon("immersiveengineering:wooden_device0", 2)
 
-setDescription("Craft an Engineer's Workbench to craft items from Blueprints")
+setTranslatedDescription("advancements.stage3.workbench.description")
 
 addParent("triumph:stage3/iebook")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:wooden_device0", 2)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

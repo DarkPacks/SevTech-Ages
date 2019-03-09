@@ -7,11 +7,11 @@ import scripts.crafttweaker.stages.stageZero;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<horsepower:chopping_block>
+		<horsepower:chopping_block:*>
 	],
 
 	stageZero.stage: [
-		<horsepower:chopper>,
+		<horsepower:chopper:*>,
 		<horsepower:dough:0>,
 		<horsepower:flour:0>,
 		<horsepower:grindstone:0>,
@@ -21,7 +21,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.horsepower.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items, false);
 	}
 }

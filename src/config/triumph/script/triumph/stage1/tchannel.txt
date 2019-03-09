@@ -1,8 +1,8 @@
-setTitle("Follow My Channel Plz")
+setTranslatedTitle("advancements.stage1.tchannel.title")
 
 setIcon("ceramics:channel")
 
-setDescription("A Channel is a great way to transport liquids from tanks and other sources. When placing down the Channel, follow the arrow on top and Right Click to change directions/disconnect/etc. Pour liquids onto the channel using a normal or porcelain Faucet")
+setTranslatedDescription("advancements.stage1.tchannel.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()
@@ -18,3 +18,5 @@ criteria2.setItem("tconstruct:channel")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

@@ -1,8 +1,8 @@
-setTitle("Par for the Quartz")
+setTranslatedTitle("advancements.stage1.blackquartz.title")
 
 setIcon("actuallyadditions:item_misc", 5)
 
-setDescription("Travel to the bottom of the Beneath dimension to find Black Quartz")
+setTranslatedDescription("advancements.stage1.blackquartz.description")
 
 addParent("triumph:stage1/beneath")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("actuallyadditions:item_misc", 5)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

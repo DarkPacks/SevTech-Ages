@@ -234,7 +234,7 @@ function getPressOutputCount(metalPartName as string) as int {
 		return 2;
 	}
 
-	return 2;
+	return 1;
 }
 
 /*
@@ -277,6 +277,20 @@ function getDyeIdFromColor(color as string) as int {
 	for id, colorName in minecraftDyeIdTable {
 		if (colorName.toLowerCase() == color.toLowerCase()) {
 			return id as int;
+		}
+	}
+}
+
+/*
+	Add a recipe string array to a given Stage also checking if `REGEX:` is prepended
+	to handle those strings differently
+*/
+function stageRecipeNameOrRegex(stage as Stage, recipeNames as string[]) {
+	for recipeName in recipeNames {
+		if (recipeName.startsWith("REGEX:")) {
+			stage.addRecipeRegex(recipeName.substring(6, recipeName.length));
+		} else {
+			stage.addRecipeName(recipeName);
 		}
 	}
 }

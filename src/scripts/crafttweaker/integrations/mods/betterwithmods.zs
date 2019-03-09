@@ -18,8 +18,8 @@ import mods.betterwithmods.Saw;
 /*
 	Recipes to be removed from the Kiln.
 */
-static kilnRemovals as IItemStack[][] = [
-	[<minecraft:bread:0>]
+static kilnRemovals as IItemStack[] = [
+	<betterwithmods:raw_pastry:3>
 ];
 
 /*
@@ -31,10 +31,12 @@ static millRemovals as IItemStack[][] = [
 	[<minecraft:dye:11>],
 	[<minecraft:dye:12>],
 	[<minecraft:dye:13>],
+	[<minecraft:dye:14>],
 	[<minecraft:dye:1>],
 	[<minecraft:dye:3>],
 	[<minecraft:dye:7>],
-	[<minecraft:dye:9>]
+	[<minecraft:dye:9>],
+	[<minecraft:string>, <minecraft:dye:1>]
 ];
 
 /*
@@ -51,6 +53,7 @@ static soakingRemovals as IItemStack[] = [
 	Note: Removing by output also requires the amount of the output item that is given.
 */
 static cauldronRemovals as IItemStack[][] = [
+	[<betterwithmods:material:1> * 4],
 	[<betterwithmods:material:12>],
 	[<betterwithmods:material:12> * 2],
 	[<betterwithmods:material:12> * 3],
@@ -145,16 +148,6 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 };
 
 function init() {
-	// Recipe Map Imports
-	var kilnRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.kilnRemovals;
-	var millRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.millRemovals;
-	var soakingRemovals as IItemStack[] = scripts.crafttweaker.integrations.mods.betterwithmods.soakingRemovals;
-	var cauldronRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.cauldronRemovals;
-	var crucibleRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.crucibleRemovals;
-	var sawRemovals as IItemStack[][] = scripts.crafttweaker.integrations.mods.betterwithmods.sawRemovals;
-
-	var sawRecipes as IIngredient[][IItemStack[]] = scripts.crafttweaker.integrations.mods.betterwithmods.sawRecipes;
-
 	/*
 		Removals
 	*/
@@ -225,6 +218,7 @@ function init() {
 	betterWithMods.addMilling([<minecraft:quartz:0>], [<actuallyadditions:item_dust:5>]);
 	betterWithMods.addMilling([<primal:sharp_bone:0>], [<primal:bone_knapp:0>]);
 	betterWithMods.addMilling([<primal:shark_tooth:0>], [<minecraft:dye:15> * 2]);
+	betterWithMods.addMilling([<betterwithmods:companion_cube>], [<minecraft:string> * 10, <pickletweaks:dye_powder:14> * 2]);
 
 	// Bark
 	for bark in <ore:barkWood>.items {
@@ -238,6 +232,7 @@ function init() {
 	Condensed.setContainer(<betterwithaddons:bolt:0>, <betterwithaddons:spindle:0>);
 
 	// Cauldron
+	betterWithMods.addCauldron([<ore:dustCarbon>, <betterwithmods:material:16>], [<betterwithmods:material:1>]);
 	betterWithMods.addCauldron([<minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>, <minecraft:rotten_flesh:0>], [<betterwithmods:material:12>]);
 	betterWithMods.addCauldron([<primal:pigman_hide_raw:0>], [<betterwithmods:material:12> * 2]);
 	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);
@@ -255,13 +250,13 @@ function init() {
 	betterWithMods.addCauldron([<ore:dustWood> * 16], [<betterwithmods:material:21>], true);
 
 	// Pelt Recipes
-	var pelts as IIngredient[] = scripts.crafttweaker.integrations.mods.betterwithmods.pelts;
-	var largePelts as IIngredient[] = scripts.crafttweaker.integrations.mods.betterwithmods.largePelts;
-
 	for pelt in pelts {
 		betterWithMods.addCauldron([pelt], [<betterwithmods:material:12>]);
 	}
 	for largePelt in largePelts {
 		betterWithMods.addCauldron([largePelt], [<betterwithmods:material:12> * 2]);
 	}
+
+	// Drying Box
+	betterWithMods.removeDrying(<betterwithaddons:japanmat:2>);
 }

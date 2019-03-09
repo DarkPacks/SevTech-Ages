@@ -175,7 +175,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<betterwithaddons:aqueduct:0>,
 	<betterwithaddons:aqueduct:10>,
 	<betterwithaddons:aqueduct:1>,
@@ -193,22 +193,15 @@ static removeRecipes as IIngredient[] = [
 	<betterwithaddons:decomat:3>,
 	<betterwithaddons:loom:0>,
 	<betterwithaddons:redstone_emitter:0>,
-	<betterwithaddons:spindle:0>
+	<betterwithaddons:spindle:0>,
+	<betterwithaddons:tatami:0>
+];
+
+static removeFurnace as IIngredient[] = [
+	<betterwithaddons:japanmat:2>
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.betterwithaddons.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.betterwithaddons.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
@@ -220,4 +213,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeFurnace(removeFurnace);
 }

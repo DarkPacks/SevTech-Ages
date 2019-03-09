@@ -1,8 +1,8 @@
-setTitle("Get Lost, Oh Wait...")
+setTranslatedTitle("advancements.stage2.compass.title")
 
 setIcon("minecraft:compass")
 
-setDescription("A Compass will help you determine your X and Z coordinates")
+setTranslatedDescription("advancements.stage2.compass.description")
 
 addParent("triumph:stage2/controller")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:compass")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

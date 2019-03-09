@@ -70,27 +70,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
 		]
 	],
-	<tconstruct:smeltery_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
-		]
-	],
-	<tconstruct:seared_furnace_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
-		]
-	],
-	<tconstruct:tinker_tank_controller:0> : [
-		[
-			[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
-			[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
-		]
-	],
 	<tconstruct:materials:16> : [
 		[
 			[null, <tconstruct:materials:15>, null],
@@ -125,6 +104,33 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<tconstruct:seared_furnace_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:seared_furnace_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <minecraft:furnace:0>, <tconstruct:materials:0>]
+			]
+		]
+	},
+	<tconstruct:smeltery_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:smeltery_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>]
+			]
+		]
+	},
+	<tconstruct:tinker_tank_controller:0>: {
+		Utils.genRecipeName(stageThree, <tconstruct:tinker_tank_controller:0>): [
+			[
+				[<tconstruct:materials:0>, <tconstruct:materials:0>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <betterwithmods:material:27>, <tconstruct:materials:0>],
+				[<tconstruct:materials:0>, <minecraft:bucket:0>, <tconstruct:materials:0>]
+			]
+		]
+	}
 };
 
 /*
@@ -174,7 +180,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<tconstruct:book:0>,
 	<tconstruct:clear_glass:0>,
 	<tconstruct:clear_stained_glass:*>,
@@ -184,7 +190,6 @@ static removeRecipes as IIngredient[] = [
 	<tconstruct:firewood_slab:1>,
 	<tconstruct:firewood_slab:0>,
 	<tconstruct:materials:16>,
-	<tconstruct:pattern:0>,
 	<tconstruct:piggybackpack:0>,
 	<tconstruct:seared_furnace_controller:0>,
 	<tconstruct:smeltery_controller:0>,
@@ -195,19 +200,12 @@ static removeRecipes as IIngredient[] = [
 	<tconstruct:wood_rail:0>
 ];
 
+static removeRegex as string[] = [
+	"tconstruct:gadgets/slimesling/green",
+	"tconstruct:tools/pattern"
+];
+
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.tconstruct.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.tconstruct.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
@@ -219,4 +217,5 @@ function init() {
     recipeUtil.processNamed(namedShapelessRecipes);
 
 	recipeUtil.removeRecipes(removeRecipes);
+	recipeUtil.removeRecipes(removeRegex);
 }

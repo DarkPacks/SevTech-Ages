@@ -60,7 +60,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:raw_egg:0>,
 		<betterwithmods:raw_kebab:0>,
 		<betterwithmods:raw_omelet:0>,
-		<betterwithmods:raw_pastry:3>,
 		<betterwithmods:red_sand_pile:0>,
 		<betterwithmods:sand_pile:0>,
 		<betterwithmods:shaft:0>,
@@ -432,9 +431,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.betterwithmods.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

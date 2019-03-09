@@ -32,20 +32,19 @@ static hardnessItems as float[IItemStack] = {
 	<minecraft:quartz_ore:0>: 2,
 	<minecraft:stone_slab:6>: 2,
 	<mysticalagriculture:soulstone:0>: 2,
-	<nex:block_basalt:0>: 2,
-	<nex:block_netherrack:0>: 2,
-	<nex:block_netherrack:1>: 2,
-	<nex:block_netherrack:2>: 2,
-	<nex:block_netherrack:3>: 2,
+	<nex:basalt:0>: 2,
+	<nex:netherrack:0>: 2,
+	<nex:netherrack:1>: 2,
+	<nex:netherrack:2>: 2,
+	<nex:netherrack:3>: 2,
 	<poweradapters:mj:0>: 2,
 	<primal_tech:leaf_bed:*>: 0.2,
-	<primal:earthwax_block:0>: 2,
 	<primal:scoria_stone:0>: 2,
 	<uppers:upper:0>: 3
 };
 
 function init() {
-	for item, hardness in scripts.crafttweaker.itemModifiers.hardness.hardnessItems {
+	for item, hardness in hardnessItems {
 		item.hardness = hardness;
 	}
 }

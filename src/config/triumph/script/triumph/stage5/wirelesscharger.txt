@@ -1,8 +1,8 @@
-setTitle("Wireless Chargin")
+setTranslatedTitle("advancements.stage5.wirelesscharger.title")
 
 setIcon("chargers:wireless_charger", 0)
 
-setDescription("The Wireless Charger is a convenient machine to have in your base for anything you want charged easily")
+setTranslatedDescription("advancements.stage5.wirelesscharger.description")
 
 addParent("triumph:stage5/charger3")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("chargers:wireless_charger", 0)
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

@@ -1,8 +1,8 @@
-setTitle("Osmium Ore")
+setTranslatedTitle("advancements.stage5.osmium.title")
 
 setIcon("geolosys:cluster", 12)
 
-setDescription("Find an Osmium surface sample and dig for Osmium! The ore is located between Y3 and Y11")
+setTranslatedDescription("advancements.stage5.osmium.description")
 
 addParent("triumph:stage5/prospectorstage5")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("geolosys:cluster", 12)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage5/root")

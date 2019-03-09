@@ -1,8 +1,8 @@
-setTitle("Hold the Presses")
+setTranslatedTitle("advancements.stage4.presses.title")
 
 setIcon("appliedenergistics2:material", 14)
 
-setDescription("Locate the materials needed to create the Engineering, Logic, and Silicon Presses to allow for Applied Energistics and Refined Storage networks")
+setTranslatedDescription("advancements.stage4.presses.description")
 
 addParent("triumph:stage4/theend")
 setRequiresParents()
@@ -19,3 +19,5 @@ criteria3.setItem("appliedenergistics2:material", 19)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

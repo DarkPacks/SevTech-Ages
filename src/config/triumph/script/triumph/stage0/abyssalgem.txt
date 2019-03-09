@@ -1,8 +1,8 @@
-setTitle("�5�lDark Gems")
+setTranslatedTitle("advancements.stage0.abyssalgem.title")
 
 setIcon("abyssalcraft:shadowgem")
 
-setDescription("Acquire a Shadow Gem from Shadow Creatures residing in the darklands. Smaller creatures have smaller gems while the larger, more dangerous Shadow Creatures drop full gems")
+setTranslatedDescription("advancements.stage0.abyssalgem.description")
 
 addParent("triumph:stage0/abyssalbiome")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("abyssalcraft:shadowgem", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

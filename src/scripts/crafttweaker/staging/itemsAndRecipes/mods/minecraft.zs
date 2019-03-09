@@ -342,149 +342,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:golden_shovel:0>,
 		<minecraft:golden_sword:0>,
 
-		// Enchantment Book
-		<minecraft:enchanted_book:0>,
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 0 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 1 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 2 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 3 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 4 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 5 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 6 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 7 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 8 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 9 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 10 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 13 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 14 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 15 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 16 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 17 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 18 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 19 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 20 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 21 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 22 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 23 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 24 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 25 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 26 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 27 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 28 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 28 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 28 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 28 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 28 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 29 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 31 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 34 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 36 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 37 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 39 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 40 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 41 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 42 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 43 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 44 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 48 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 49 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 50 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 62 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 70 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 71 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 0 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 1 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 2 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 3 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 4 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 5 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 7 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 8 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 9 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 14 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 15 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 16 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 17 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 18 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 19 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 20 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 21 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 22 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 23 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 26 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 34 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 36 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 38 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 39 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 40 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 44 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 48 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 49 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 61 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 62 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 0 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 1 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 2 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 3 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 4 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 5 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 7 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 8 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 14 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 15 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 16 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 17 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 18 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 21 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 22 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 23 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 26 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 34 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 36 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 38 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 39 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 44 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 48 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 61 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 62 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 0 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 1 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 2 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 3 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 4 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 14 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 15 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 16 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 17 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 18 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 26 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 38 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 48 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 14 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 15 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 17 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 18 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 26 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 38 as short}]}),
-		<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 48 as short}]}),
-
 		// Misc
 		<minecraft:acacia_boat:0>,
 		<minecraft:anvil:0>,
@@ -597,15 +454,14 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:enchanting_table:0>,
 		<minecraft:ender_chest:0>,
 		<minecraft:furnace_minecart:0>,
-		<minecraft:glowstone_dust:0>,
 		<minecraft:glowstone:0>,
+		<minecraft:glowstone_dust:0>,
 		<minecraft:hopper_minecart:0>,
-		<minecraft:lingering_potion:*>,
 		<minecraft:minecart:0>,
 		<minecraft:noteblock:0>,
 		<minecraft:observer:0>,
 		<minecraft:obsidian:0>,
-		<minecraft:potion:*>,
+		<minecraft:potion:0>,
 		<minecraft:record_11:0>,
 		<minecraft:record_13:0>,
 		<minecraft:record_blocks:0>,
@@ -621,7 +477,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:skull:1>,
 		<minecraft:soul_sand:0>,
 		<minecraft:spectral_arrow:0>,
-		<minecraft:splash_potion:*>,
 		<minecraft:tipped_arrow:*>,
 		<minecraft:tnt_minecart:0>,
 		<minecraft:trapped_chest:0>
@@ -706,7 +561,7 @@ static hiddenItems as IIngredient[] = [
 	<minecraft:monster_egg:5>,
 	<minecraft:repeating_command_block:0>,
 	<minecraft:structure_block:0>,
-	<minecraft:structure_void:0>,
+	<minecraft:structure_void:0>
 ];
 
 static hiddenRemove as IIngredient[] = [
@@ -729,9 +584,28 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.minecraft.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.minecraft.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.minecraft.hiddenRemove as IIngredient[], true);
+
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
+
+	// Handle Potion bottle Staging.
+	for subItem in <minecraft:potion>.definition.subItems {
+		// Water should be allowed in Stage Two rest are in Stage Three.
+		if (subItem.tag has "Potion" & subItem.tag.Potion == "minecraft:water") {
+			ZenStager.getStage(stageTwo.stage).addIngredient(subItem);
+		} else {
+			ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+		}
+	}
+	// Handle Splash Potion Staging.
+	for subItem in <minecraft:splash_potion>.definition.subItems {
+		ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+	}
+	// Handle Lingering Potion Staging.
+	for subItem in <minecraft:lingering_potion>.definition.subItems {
+		ZenStager.getStage(stageThree.stage).addIngredient(subItem);
+	}
 }

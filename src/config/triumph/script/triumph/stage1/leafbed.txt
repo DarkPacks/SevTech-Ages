@@ -1,8 +1,8 @@
-setTitle("Crunchy Pillows")
+setTranslatedTitle("advancements.stage1.leafbed.title")
 
 setIcon("primal_tech:leaf_bed")
 
-setDescription("Is your current sleeping situation not good enough? Throw some leaves on top of hay to make a Leaf Bed!")
+setTranslatedDescription("advancements.stage1.leafbed.description")
 
 addParent("triumph:stage1/crafting")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("primal_tech:leaf_bed")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

@@ -1,8 +1,8 @@
-setTitle("Dude Where's My Biome?")
+setTranslatedTitle("advancements.stage0.naturescompass.title")
 
 setIcon("naturescompass:naturescompass")
 
-setDescription("You'll need to seek out Darkland Biomes to continue your journey. Use the Nature's Compass to locate the nearest biome")
+setTranslatedDescription("advancements.stage0.naturescompass.description")
 
 addParent("triumph:stage0/workstump")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("naturescompass:naturescompass")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

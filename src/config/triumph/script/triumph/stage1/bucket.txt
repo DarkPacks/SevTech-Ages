@@ -1,8 +1,8 @@
-setTitle("Bucket List")
+setTranslatedTitle("advancements.stage1.bucket.title")
 
 setIcon("ceramics:clay_bucket")
 
-setDescription("Use the Turntable to shape a clay bucket and cook it in the Kiln")
+setTranslatedDescription("advancements.stage1.bucket.description")
 
 addParent("triumph:stage1/turntable")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("ceramics:clay_bucket")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

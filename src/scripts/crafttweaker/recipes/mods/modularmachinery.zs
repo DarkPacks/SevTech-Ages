@@ -90,6 +90,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.cobalt.gear, <modularmachinery:blockcasing:0>, metals.cobalt.gear],
 			[null, metals.cobalt.gear, null]
 		]
+	],
+	<modularmachinery:blockenergyinputhatch:2> : [
+		[
+			[<minecraft:redstone>, <minecraft:repeater>, <minecraft:redstone>],
+			[metals.redstoneAlloy.block, <modularmachinery:blockenergyinputhatch:1>, metals.redstoneAlloy.block],
+			[<minecraft:redstone>, metals.redstoneAlloy.block, <minecraft:redstone>]
+		]
+	],
+	<modularmachinery:blockenergyinputhatch:3> : [
+		[
+			[<modularmachinery:blockcasing:4>, <minecraft:repeater>, <modularmachinery:blockcasing:4>],
+			[<modularmachinery:blockenergyinputhatch:2>, metals.redstoneAlloy.block, <modularmachinery:blockenergyinputhatch:2>],
+			[<modularmachinery:blockcasing:4>, <minecraft:repeater>, <modularmachinery:blockcasing:4>]
+		]
 	]
 };
 
@@ -167,10 +181,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<modularmachinery:blockcasing:1>,
 	<modularmachinery:blockcasing:0>,
 	<modularmachinery:blockcontroller:0>,
+	<modularmachinery:blockenergyinputhatch:3>,
+	<modularmachinery:blockenergyinputhatch:2>,
 	<modularmachinery:blockenergyinputhatch:0>,
 	<modularmachinery:blockfluidinputhatch:0>,
 	<modularmachinery:blockinputbus:1>,
@@ -179,18 +195,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.modularmachinery.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.modularmachinery.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

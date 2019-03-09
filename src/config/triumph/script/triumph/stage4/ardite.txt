@@ -1,8 +1,8 @@
-setTitle("Ardite Ore")
+setTranslatedTitle("advancements.stage4.ardite.title")
 
 setIcon("tconstruct:ore", 1)
 
-setDescription("Locate and mine Ardite Ore in the Nether using a Cobalt Level pickaxe")
+setTranslatedDescription("advancements.stage4.ardite.description")
 
 addParent("triumph:stage4/prospector4")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("tconstruct:ore", 1)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

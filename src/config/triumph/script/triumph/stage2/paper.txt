@@ -1,8 +1,8 @@
-setTitle("Papers Please")
+setTranslatedTitle("advancements.stage2.paper.title")
 
 setIcon("minecraft:paper")
 
-setDescription("Evolve your paper production technique by making Minecraft Paper")
+setTranslatedDescription("advancements.stage2.paper.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:paper")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

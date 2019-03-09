@@ -1,8 +1,8 @@
-setTitle("Bladder Than Nothing")
+setTranslatedTitle("advancements.stage0.fluidbladder.title")
 
 setIcon("primal_tech:fluid_bladder")
 
-setDescription("No buckets! Use a Fluid Bladder to craft with")
+setTranslatedDescription("advancements.stage0.fluidbladder.description")
 
 addParent("triumph:stage0/workstump")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("primal_tech:fluid_bladder")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

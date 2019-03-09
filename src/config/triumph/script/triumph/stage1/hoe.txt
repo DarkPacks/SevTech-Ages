@@ -1,8 +1,8 @@
-setTitle("Can We Hoe It?!")
+setTranslatedTitle("advancements.stage1.hoe.title")
 
 setIcon("minecraft:stone_hoe")
 
-setDescription("Craft a Hoe to begin farming more efficiently")
+setTranslatedDescription("advancements.stage1.hoe.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()
@@ -105,3 +105,5 @@ criteria30.setItem("twilightforest:steeleaf_hoe", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

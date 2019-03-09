@@ -1,8 +1,8 @@
-setTitle("Inscribing")
+setTranslatedTitle("advancements.stage4.inscriber.title")
 
 setIcon("appliedenergistics2:inscriber")
 
-setDescription("Craft and connect the Inscriber to begin creating processors and other machines")
+setTranslatedDescription("advancements.stage4.inscriber.description")
 
 addParent("triumph:stage4/certusquartz")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:inscriber")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

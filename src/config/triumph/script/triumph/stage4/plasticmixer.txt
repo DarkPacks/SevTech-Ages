@@ -1,8 +1,8 @@
-setTitle("Plastic Mixer")
+setTranslatedTitle("advancements.stage4.plasticmixer.title")
 
 setIcon("pneumaticcraft:plastic_mixer")
 
-setDescription("Craft a Plastic Mixer to create colored Plastic Sheets")
+setTranslatedDescription("advancements.stage4.plasticmixer.description")
 
 addParent("triumph:stage4/compressediron")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:plastic_mixer")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

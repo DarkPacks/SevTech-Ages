@@ -12,7 +12,6 @@ import crafttweaker.item.IItemStack;
 // String Array listing of the modId's to which we want ALL recipes removed.
 static modIdRecipeRemoval as string[] = [
 	"antiqueatlas",
-	"astikoor",
 	"dungpipe",
 	"horsepower",
 	"improvedbackpacks",
@@ -41,11 +40,6 @@ static recipeNameRemoval as string[] = [
 ];
 
 function init() {
-	// Imports
-	var modIdRecipeRemoval as string[] = scripts.crafttweaker.recipes.remove.modIdRecipeRemoval;
-	var itemRecipeRemoval as IItemStack[] = scripts.crafttweaker.recipes.remove.itemRecipeRemoval;
-	var recipeNameRemoval as string[] = scripts.crafttweaker.recipes.remove.recipeNameRemoval;
-
 	// Remove ModId Recipes
 	for modId in modIdRecipeRemoval {
 		if (loadedMods in modId) {

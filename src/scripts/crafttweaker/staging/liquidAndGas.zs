@@ -11,15 +11,19 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
+import mod.mekanism.gas.IGasStack;
+import mods.mekatweaks.GasStages;
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.craftingUtils;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.stages.stageDisabled;
 
 // Liquid "Items"
 static liquidItemsForStage as IItemStack[][string] = {
@@ -110,7 +114,6 @@ static liquidsForStage as ILiquidStack[][string] = {
 	stageTwo.stage: [
 		<liquid:astralsorcery.liquidstarlight>,
 		<liquid:ender_pearl>,
-		<liquid:fiery>,  // Depricated will be removed in 3.1.0
 		<liquid:fiery_essence>,
 		<liquid:fierymetal>,
 		<liquid:glass>,
@@ -218,6 +221,11 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:sulphuricacid>,
 		<liquid:superium>,
 		<liquid:supremium>
+	],
+
+	stageDisabled.stage: [
+		<liquid:if.ore_fluid_fermented>,
+		<liquid:if.ore_fluid_raw>
 	]
 };
 
@@ -227,11 +235,42 @@ static liquidsNamesForBucketStaging as string[][string] = {
 	]
 };
 
-function init() {
-	var liquidItemsForStage as IItemStack[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidItemsForStage;
-	var liquidsForStage as ILiquidStack[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidsForStage;
-	var liquidsNamesForBucketStaging as string[][string] = scripts.crafttweaker.staging.liquidAndGas.liquidsNamesForBucketStaging;
+static gassesForStage as IGasStack[][string] = {
+	stageFive.stage: [
+		<gas:brine>,
+		<gas:chlorine>,
+		<gas:cleancopper>,
+		<gas:cleangold>,
+		<gas:cleaniron>,
+		<gas:cleanlead>,
+		<gas:cleanosmium>,
+		<gas:cleansilver>,
+		<gas:cleantin>,
+		<gas:copper>,
+		<gas:deuterium>,
+		<gas:ethene>,
+		<gas:fusionfuel>,
+		<gas:gold>,
+		<gas:hydrogen>,
+		<gas:hydrogenchloride>,
+		<gas:iron>,
+		<gas:lead>,
+		<gas:liquidosmium>,
+		<gas:lithium>,
+		<gas:osmium>,
+		<gas:oxygen>,
+		<gas:silver>,
+		<gas:sodium>,
+		<gas:sulfurdioxide>,
+		<gas:sulfuricacid>,
+		<gas:sulfurtrioxide>,
+		<gas:tin>,
+		<gas:tritium>,
+		<gas:water>
+	]
+};
 
+function init() {
 	for stageName, liquidItems in liquidItemsForStage {
 		var stage as Stage = ZenStager.getStage(stageName);
 
@@ -250,7 +289,7 @@ function init() {
 				// Stage Liquid
 				stage.addIngredient(liquidStack);
 				// Stage buckets
-				stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredient(liquidStack) as IIngredient);
+				stage.addIngredient(craftingUtils.getBucketIngredient(liquidStack) as IIngredient);
 			}
 		}
 	}
@@ -259,7 +298,13 @@ function init() {
 		var stage as Stage = ZenStager.getStage(stageName);
 
 		for liquidName in liquidNames {
-			stage.addIngredient(scripts.crafttweaker.craftingUtils.getBucketIngredientFromName(liquidName) as IIngredient);
+			stage.addIngredient(craftingUtils.getBucketIngredientFromName(liquidName) as IIngredient);
+		}
+	}
+
+	for stageName, gasStacks in gassesForStage {
+		for gas in gasStacks {
+			GasStages.addGasStage(stageName, gas);
 		}
 	}
 }

@@ -225,12 +225,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-
-	// ==================================
-	// Stage Five
-	// ==================================
 	<extraplanets:tier1_space_suit_chest:0>.withTag({electricity: 50000.0f}): {
-		Utils.genRecipeName(stageFive, <extraplanets:tier1_space_suit_chest:0>): [
+		Utils.genRecipeName(stageFour, <extraplanets:tier1_space_suit_chest:0>): [
 			[
 				[null, <extraplanets:tier1_armor_layer:0>, null],
 				[<extraplanets:tier1_radiation_layer:0>, <extraplanets:tier1_un_prepared_space_suit_chest:0>, <extraplanets:tier1_pressure_layer:0>],
@@ -263,6 +259,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<extraplanets:advanced_fuel_loader:0>,
+	<extraplanets:apple_diamond:0>,
 	<extraplanets:apple_iron:0>,
 	<extraplanets:fire_bomb:0>,
 	<extraplanets:nuclear_bomb:0>,
@@ -324,22 +321,6 @@ static removeFurnaceInput as IIngredient[IIngredient] = {
 };
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.extraplanets.namedShapelessRecipes;
-
-	// Removals
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.extraplanets.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnace;
-	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.extraplanets.removeFurnaceInput;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

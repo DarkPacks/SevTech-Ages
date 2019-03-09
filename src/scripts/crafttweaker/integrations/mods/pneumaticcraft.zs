@@ -11,6 +11,7 @@ import mods.pneumaticcraft.assembly as Assembly;
 import mods.pneumaticcraft.liquidfuel as LiquidFuel;
 import mods.pneumaticcraft.refinery as Refinery;
 import mods.pneumaticcraft.thermopneumaticprocessingplant as ThermopneumaticProcessingPlant;
+import mods.pneumaticcraft.pressurechamber as PressureChamber;
 
 /*
 	Support:
@@ -51,5 +52,8 @@ function init() {
 	Assembly.removeDrillRecipe(<minecraft:dye:1>);
 
 	// Removing coal to diamond in pressure chamber
-	mods.pneumaticcraft.pressurechamber.removeRecipe([<minecraft:diamond:0>]);
+	PressureChamber.removeRecipe([<minecraft:diamond:0>]);
+
+	// Slime Ingot (IF)
+	PressureChamber.addRecipe([<industrialforegoing:pink_slime> * 4, metals.iron.ingot.firstItem * 1], 3.5, [<industrialforegoing:pink_slime_ingot> * 1]);
 }

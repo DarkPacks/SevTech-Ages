@@ -1,8 +1,8 @@
-setTitle("Engineer Manual")
+setTranslatedTitle("advancements.stage3.iebook.title")
 
 setIcon("immersiveengineering:tool", 3)
 
-setDescription("The Immersive Engineering Manual is good. use it")
+setTranslatedDescription("advancements.stage3.iebook.description")
 
 addParent("triumph:stage3/root")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:tool", 3)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

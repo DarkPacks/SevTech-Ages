@@ -1,0 +1,1011 @@
+# Stage 0
+advancements.stage0.abyssalbiome.title=Entrez dans les Darklands
+advancements.stage0.abyssalbiome.description=Trouvez et entrez dans un biome sombre d'Abyssalcraft. Ces biomes se trouvent dans des environnements froid. La carte est divisée avec une logique de chaleur Nord/Sud. Vous trouverez les biomes froid au Nord et les plus chaud au Sud.
+
+
+advancements.stage0.abyssalgem.title=§5§lGemmes sombres
+advancements.stage0.abyssalgem.description=Obtenez une gemme sombre sur une créature de l'ombre se trouvant dans les Darklands. Les plus petites créatures auront des gemmes plus petites tandis que les plus gros lâcheront des gemmes complètes.
+
+
+advancements.stage0.atlas.title=§1§lPerdu mais retrouvé
+advancements.stage0.atlas.description=Echangez des ressources a un villageois cartographe ou a un libraire afin d'obtenir un Atlas antique.
+
+
+advancements.stage0.baykok.title=Combat de boss effrayant
+advancements.stage0.baykok.description=Invoquez Baykok grâce à une cérémonie totemique et battez le afin d'obtenir son puissant arc et débloquer la possibilité de se battre à distance.
+
+
+advancements.stage0.buffalo.title=Des animaux ancients
+advancements.stage0.buffalo.description=Les buffalo lâche de précieuse ressource pour les chasseurs. Invoquez les grâce à une cérémonique totémique puis récoltez leurs peau et leurs dents. Consultez le Totempedia pour plus plus d'informations.
+
+
+advancements.stage0.charcoal.title=Pressez votre chance
+advancements.stage0.charcoal.description=Pressez du charbon de bois en un bloc de charbon de bois en utilisant la presse. Cette presse nécessite d'y attacher un cheval en laisse pour fonctionner.
+
+
+advancements.stage0.chestupgrade.title=Amélioration de stockage
+advancements.stage0.chestupgrade.description=Oubliez votre ancienne boîte en bois et passez au Primal Chest !
+
+
+advancements.stage0.collectplank.title=Au billot !
+advancements.stage0.collectplank.description=Utilisez un tronc pour créer un billot. Placez un Tronc ou une Planche sur le billot et utilisez une hache pour le trancher en Planche ou Bâton, respectivement.
+
+
+advancements.stage0.farmland.title=La main verte
+advancements.stage0.farmland.description=Apprenez les bases de l'agriculture grâce à un villageois Agriculteur. Echangez lui des ressources contre une terre remuée. La terre remuée ne peut pas être crée grâce à une faux lors de l'âge zéro, vous devrez crafter la terre et la placer près de l'eau.
+
+
+advancements.stage0.fiber.title=Un régime de fibre
+advancements.stage0.fiber.description=Pour commencer, vous allez devoir récolter de la fibre de plante en cassant des herbes hautes. Assemblez en 3 pour créer une ficelle végétale. Les bâtons peuvent être trouvés au sol ou en cassant des feuilles.
+
+
+advancements.stage0.fire.title=J'AI CREE LE FEU
+advancements.stage0.fire.description=Tenez deux bâtons de feu, un dans chaque main, et cliquez sur un bloc afin d'y allumer un feu.
+
+
+advancements.stage0.firepit.title=C'est l'heure du barbuc'
+advancements.stage0.firepit.description=Utilisez des pierres, des bâtons et des ficelles pour créer un feu de camp. Faites un clic droit avec un combustile sur le feu de camp afin de l'allumer, puis insérez-y les objets à cuir.
+
+
+advancements.stage0.firstbreak.title=Je déteste les arbres.
+advancements.stage0.firstbreak.description=Tapez les arbres à la main vous blessera et vous n'obtiendrez pas de bois. Utilisez un outil approprié.
+
+
+advancements.stage0.firstchest.title=Un endroit ou ranger mes affaires
+advancements.stage0.firstchest.description=Assemblez du bois afin de créer un coffre pour vos objets.
+
+
+advancements.stage0.firsttool.title=Ne partez pas seul...
+advancements.stage0.firsttool.description=Créez une hachette en silex pour abattre des arbres.
+
+
+advancements.stage0.fish.title=Le poisson n'a qu'à bien se tenir
+advancements.stage0.fish.description=Utilisez une lance ou d'autres outils afin de vous pêcher un repas délicieux.
+
+
+advancements.stage0.flamehopper.title=Du bonheur bien grillé
+advancements.stage0.flamehopper.description=Un entonnoir qui déplacera vos items tout en gardant le bloc au dessus de lui chaud.
+
+
+advancements.stage0.flintknapp.title=Du silex aiguisé
+advancements.stage0.flintknapp.description=Faites un clic-gauche sur de la pierre avec un Silex à la main afin de l'aiguiser. Vous pouvez réitérer avec le silex aiguisé afin de créer une pointe en silex.
+
+
+advancements.stage0.fluidbladder.title=La vessie du vassal
+advancements.stage0.fluidbladder.description=Eh non ! Pas de seau. Utilisez une vessie retravaillée afin de la remplir d'eau pour vos craft.
+
+
+advancements.stage0.gear.title=Réinventer la roue
+advancements.stage0.gear.description=Utilisez vos connaissances sur la roue pour créer un engrenage.
+
+
+advancements.stage0.grill.title=§4§lCHAUD DEVANT !
+advancements.stage0.grill.description=Améliorez votre feu de camps pour en faire un gril. Le gril nécessite une source de chaleur en dessous de ce dernier afin de pouvoir cuir son contenant.
+
+
+advancements.stage0.handgrind.title=Un coup de moudre
+advancements.stage0.handgrind.description=La meule manuelle n'est pas très rapide, mais vous permettra de moudre assez facilement.
+
+
+advancements.stage0.horsechopper.title=Paf ! Crack ! Slash !
+advancements.stage0.horsechopper.description=Fini de couper du bois à la main ! Placez un billot pour cheval, et attachez-y un cheval avec une laisse afin qu'il coupe le bois pour vous.
+
+
+advancements.stage0.horsepower.title=La meule, le cheval
+advancements.stage0.horsepower.description=Créez une meule pour cheval et attachez-y un cheval avec une laisse afin qu'il puisse moudre des objets à votre place. Vous pouvez également attacher des perroquets, des buffalo, des cochon, des vaches, des lamas et des loups pour qu'il travaillent à votre place.
+
+
+advancements.stage0.kiln.title=Masterchef
+advancements.stage0.kiln.description=Utilisez de l'argile et des dalles de pierre taillée afin de créer un four d'argile. Une fois placé, vous devrez lui fournir une source de chaleur venant d'en dessous afin de pouvoir y cuir des objets.
+
+
+advancements.stage0.lead.title=Vous feriez un parfait berger
+advancements.stage0.lead.description=Obtenez une laisse afin de guider les animaux.
+
+
+advancements.stage0.leather.title=Cuir, rincez, puis recommencer
+advancements.stage0.leather.description=Obtenez du cuir !
+
+
+advancements.stage0.lowgradecharcoal.title=Les feu éternels
+advancements.stage0.lowgradecharcoal.description=Le bloc de charbon de basse qualitée est un bon combustible, et vous pouvez y allumer un feu éternel dessus.
+
+
+advancements.stage0.mat.title=Bonne nuit les petits
+advancements.stage0.mat.description=Le sac de couchage vous permettra de dormir n'importe où ! Assurez-vous d'avoir activé le bon mode selon si vous préferez changer votre point de réapparition ou non lorsque vous dormirez.
+
+
+advancements.stage0.melter.title=Vous me faites fondre
+advancements.stage0.melter.description=Créez un four à fusion afin de fondre des minerais. Il lui faudra un chauffage correspondant (porcelaine ou briques brûlées) en dessous afin de pouvoir fonctionner.
+
+
+advancements.stage0.melterbase.title=Les bases de la fonte
+advancements.stage0.melterbase.description=Vous n'avez pas de combustible liquide alors essayez donc d'utiliser des solides ! Créer un chauffage afin de transformer votre combustible en chaleur pour le four à fusion. Il faudra un chauffage correspondant au four (porcelaine ou briques brûlées) afin de pouvoir fonctionner.
+
+
+advancements.stage0.mesh.title=Tamisez votre silex
+advancements.stage0.mesh.description=Le silex ne tombera pas du gravier. Il vous faut utiliser un tamis en herbe et du gravier afin d'obtenir du silex.
+
+
+advancements.stage0.mill.title=Fini de mouliner ?
+advancements.stage0.mill.description=Il est temps de mouliner plus efficacement. Créez la meule de Better With Mods.
+
+
+advancements.stage0.naturescompass.title=J'ai perdu mon biome :|
+advancements.stage0.naturescompass.description=Vous allez devoir chercher le biome du Darkland pour continuer votre aventure. Utilisez une boussole de la nature pour localiser le biome le plus proche.
+
+
+advancements.stage0.root.title=SevTech: Le B.A.-BA du Survivant
+advancements.stage0.root.description=Bienvenue sur Sevtech: Ages ! Pour completer ce tutoriel et avancer dans l'arbre de progression, vous devez créer une souche de travail.
+
+
+advancements.stage0.saddle.title=La selle et l'unique
+advancements.stage0.saddle.description=Utilisez une selle afin d'explorer et voyager plus rapidement.
+
+
+advancements.stage0.saltflats.title=Trop de sel
+advancements.stage0.saltflats.description=Trouvez du sel dans un biome sec ou dans une rivière. Vous en aurez besoin pour la nourriture et la création du cuir.
+
+
+advancements.stage0.spear.title=La lance à un 110
+advancements.stage0.spear.description=Créez une lance afin de pêcher ou combattre à distance.
+
+
+advancements.stage0.stonetools.title=L'âge de pierre !
+advancements.stage0.stonetools.description=Créez une pioche en pierre afin d'améliorer votre arsenal.
+
+
+advancements.stage0.tipi.title=Un toit bien mérité
+advancements.stage0.tipi.description=Besoin d'un endroit où dormir chez vous ? Créez un tipi !
+
+
+advancements.stage0.tomahawk.title=Quelqu'un à vu mon Tomahawk ?
+advancements.stage0.tomahawk.description=Créez un Tomahawk afin d'avoir une arme à distance. Sa recette nécessite une pointe en silex.
+
+
+advancements.stage0.totemic.title=HEEEEEEEY Macarena
+advancements.stage0.totemic.description=Créez des maracas, une flute, et un tambour afin de réaliser une cérémonie totémique. Cet avancement vous donnera un Totempedia, consultez ce livre afin d'apprendre toutes les clefs du parfait chaman.
+
+
+advancements.stage0.upgrade.title=Amélioration !
+advancements.stage0.upgrade.description=Passez à la pioche en silex !
+
+
+advancements.stage0.waterstrainer.title=Poisson, passoire, poisson, passoi...
+advancements.stage0.waterstrainer.description= Si vous ne trouvez pas certaines ressources sous-marine, utilisez une passoire  aquatique et insérez-y le filtre de votre choix. Chaque filtre vous permet d'obtenir une liste d'objet différent.  Il vous faudra créer le filtre du survivant et l'installer dans une base de passoire afin de completer cet avancement
+
+
+advancements.stage0.weaponize.title=Show biz, baby
+advancements.stage0.weaponize.description=Faites un clic gauche avec un os sur de la pierre afin de l'aiguiser.
+
+
+advancements.stage0.wheel.title=§5§lRéinventer la roue, mais pour de bon.
+advancements.stage0.wheel.description= Créez la roue du mod Astikoor afin de l'utiliser sur un chariot à cheval. Il vous faudra utiliser la touche d'action définie pour attacher le chariot au cheval.
+
+
+advancements.stage0.woodenbarrel.title=Do a barrel roll
+advancements.stage0.woodenbarrel.description=Créez un tonneau afin d'y contenir des liquides.
+
+
+advancements.stage0.woodhopper1.title=Entonnoirs, ACTION !
+advancements.stage0.woodhopper1.description=Créez un entonnoir en bois afin qu'il redirige vos objets automatiquement.
+
+
+advancements.stage0.woodhopper2.title=Voir grand, plus grand
+advancements.stage0.woodhopper2.description=Votre entonnoir n'est pas assez efficace ? Passez a l'entonnoir Mk2 pour obtenir de nouvelle fonctionnalitées.
+
+
+advancements.stage0.workblade.title=Travailler le week-end
+advancements.stage0.workblade.description=Si vous voulez être plus efficace, il vous faudra un outil de travail. Créez en un afin de casser les feuilles et herbes plus rapidement. Ce dernier a beaucoup d'autre utilités que vous découvrirez plus tard.
+
+
+advancements.stage0.workstump.title=Comme au bon vieux temps
+advancements.stage0.workstump.description=Pas de table de craft pour le moment ! Utilisez plutôt un tronc de travail. Afin de composer une recette, placez les objets sur le tronc de la bonne façon puis faites un clic droit sur le tronc avec une roche de composition. Cette dernière peut être placée dans le tronc lorsque vous avez terminé.
+
+
+# Stage 1
+advancements.stage1.alloykiln.title=Un petit four pour un grand métallurge
+advancements.stage1.alloykiln.description=Fabriquez un four à alliage du mod Immersive Engineering afin de créer du bronze. Il vous faudra 8 briques de four placée sur un rayon de 2x2x2 puis faites un clic droit avec un marteau de l'ingénieur pour créer la structure.
+
+
+advancements.stage1.aquamarine.title=A la recherche de l'Aquamarine
+advancements.stage1.aquamarine.description=Voyagez jusqu'à la dimension de l'En Desssous et cherchez le haut des cavernes pour trouver de l'Aquamarine.
+
+
+advancements.stage1.aqueduct.title=Aqueducs
+advancements.stage1.aqueduct.description=Déplacez de l'eau en utilisant les aqueducs en créant un canal en forme de V avec les blocs d'aqueducs. Cette avancement requiert que vous posiez un bloc d'aqueduc.
+
+
+advancements.stage1.astable.title=L'enfant des étoiles
+advancements.stage1.astable.description=Complétez un rituel afin de transformer une table de craft en une table de craft lumineuse.
+
+
+advancements.stage1.axle.title=Faire tourner les serviettes
+advancements.stage1.axle.description=La puissance mécanique requiert d'être redirigée par des essieus. Vous pouvez les connecter directement au moulin à eau ou à vent ou un boitier mécanique. Vous ne pouvez pas avoir plus de trois essieus entre chaque boitier mécanique ou moulin.
+
+
+advancements.stage1.beneath.title=L'En Dessous
+advancements.stage1.beneath.description=Utilisez un rituel d'Abbysalcraft afin de créer un téléporteur vers l'En-Dessous. Assurez vous d'avoir assez de P.E. dans votre Necronomicon avant de commencer le rituel. Placez le téléporteur de l'En-Dessous et entrez dans la dimension.
+
+
+advancements.stage1.blackquartz.title=La quête du quartz
+advancements.stage1.blackquartz.description=Dirigez-vous vers les fins fonds de l'En Dessous pour trouver le quartz noir.
+
+
+advancements.stage1.bloodaltar.title=Tuez l'Enfant du démon
+advancements.stage1.bloodaltar.description=Capturez une âme démoniaque pour construire un autel du sang.
+
+
+advancements.stage1.bronze.title=Couler un bronze
+advancements.stage1.bronze.description=Utilisez le four à alliage pour produire des lingots de bronze.
+
+
+advancements.stage1.bucket.title=L'eau n'aura qu'à bien se tenir
+advancements.stage1.bucket.description=Utilisez la plaque tournante afin de fabriquer un seau d'argile et cuisez-le dans un four d'argile.
+
+
+advancements.stage1.cart.title=A bord, Bernade
+advancements.stage1.cart.description=Vous en avez marre de porter tout vos objets sur vous ? Fabriquez un chariot et attachez-le à un cheval afin de déplacez plus facilement vos bien. Il vous suffit de faire Shift + Clic droit pour ouvrir ses coffres.
+
+
+advancements.stage1.chest.title=Plus de place dans le coffre
+advancements.stage1.chest.description=Améliorez votre coffre !
+
+
+advancements.stage1.claybarrel.title=Tonneau par-ci, tonneau par-là
+advancements.stage1.claybarrel.description=Les tonneaux en cuivre vous permettent de stocker des fluides tels que l'eau ou des métaux liquides.
+
+
+advancements.stage1.coal.title=Chercher et miner du charbon
+advancements.stage1.coal.description=Trouvez des échantillons de charbon à la surface et creusez en dessous afin d'en trouver en grande quantité !
+
+
+advancements.stage1.copper.title=Vous reprendrez un peu de cuivre ?
+advancements.stage1.copper.description=Trouvez des échantillons de Malachite ou d'Azurite à la surface et creusez en dessous afin de trouver du Cuivre en grande quantité !
+
+
+advancements.stage1.crafting.title=Craftons peu, mais craftons bien.
+advancements.stage1.crafting.description=Fabriquez une table de craft.
+
+
+advancements.stage1.dung.title=Il y a de la dirt dans les tuyaux
+advancements.stage1.dung.description=Utilisez une pipe à objet pour extraire le contenu d'un bloc. Vous pouvez également utiliser un tuyeau d'égoût pour que les objets traversent un bloc.
+
+
+advancements.stage1.extension.title=Extensions
+advancements.stage1.extension.description=Fabriquez une extension de tonneau en argile et placez la sur un tonneau en argile pour augmenter la quantité de liquide que ce dernier peut contenir.
+
+
+advancements.stage1.furnace.title=Il fait chaud par ici
+advancements.stage1.furnace.description=Et si vous vous fabriquiez un meilleur four ?
+
+
+advancements.stage1.gearbox.title=En avoir mal aux méninges
+advancements.stage1.gearbox.description=Le boitier mécanique vous permet d'étendre la portée de votre énerge mécanique. Il vous suffit de faire Shift + Clic droit afin de changer la face qui reçoit la puissance des essieus connectés. La croix représente la face réceptrice, et les autres faces sont émettrices.
+
+
+advancements.stage1.hoe.title=La ferme !
+advancements.stage1.hoe.description=Créez une houe afin d'être plus efficace lors dans votre agricultue.
+
+
+advancements.stage1.huntingdim.title=Chasser, ou être chassé
+advancements.stage1.huntingdim.description=Si vous avez besoin de trouver des monstres, utilisez la dimension de chasse. Créez le portail de la même forme que le portail des enfers et activez le en faisant clic droit avec une épée. Il vous suffira ensuite de vous accroupir dans le portail pour le traverser.
+
+
+advancements.stage1.journal.title=Ok, je note.
+advancements.stage1.journal.description=Accèdez à la connaissance des étoiles en fabriquant un Journal d'Astromancie. Notez d'ailleurs que les Sanctuaires d'Astromancien n'existe pas dans ce monde, des recettes ont été créée afin de palier à cela.
+
+
+advancements.stage1.leafbed.title=Un coussin croustillant
+advancements.stage1.leafbed.description=Vous dormez mal ? Mettez quelques feuilles sur ce foin, et créer un lit de feuille !
+
+
+advancements.stage1.necro.title=Les Notes du Mal
+advancements.stage1.necro.description=Fabriquez un nécronomicon afin d'être guidé au travers d'Abyssalcraft
+
+
+advancements.stage1.parchment.title=Papier s'il vous plaît
+advancements.stage1.parchment.description=Commencez à prendre des notes en créant des parchemins. Cela nécessite des écorces de Mûrier, que vous trouverez en explorant.
+
+
+advancements.stage1.parrot.title=Je ne trouve pas de jungle ?!
+advancements.stage1.parrot.description=Consultez le nécronomicon dans la section rituel pour découvrir comment faire apparaître un perroquet et l'apprivoiser avec des graines afin de completer cet avancement. Ou trouvez juste une jungle.
+
+
+advancements.stage1.pedestal.title=Le temple du temps
+advancements.stage1.pedestal.description=Pour charger votre nécronomicon, vous pouvez soit vous tenir dans la portée des statues en tenant le livre ou vous pouvez fabriquer un piédestal afin de placer le livre dessus. Assurez-vous que les statues soit à 3 bloc du piédestal et à la même hauteur.
+
+
+advancements.stage1.plumbline.title=Sonder les profondeurs
+advancements.stage1.plumbline.description=Utilisez une sonde afin de découvrir votre altitude Y.
+
+
+advancements.stage1.prospector.title=Prospection
+advancements.stage1.prospector.description=Fabriquez un bâton de prospection afin de faciliter la découverte de minerais.
+
+
+advancements.stage1.root.title=Bienvenue dans l'âge 1
+advancements.stage1.root.description=Bienvenue dans le prochain ère ! Les blocs précédemment cachés sont maintenant visible, tel que les minerais ou autre.
+
+
+advancements.stage1.statue.title=Mes trophées
+advancements.stage1.statue.description=Pour faire un rituel, il vous faudra des statues afin de charger votre nécronomicon. Trouver un nid à Shoggoth dans les biomes de Marais ou de Rivière. Si plus de 6 Shoggoth apparaissent, ils créeront un autel sur lequel vous pourrez trouver une statue. Sinon, vous pouvez fabriquez ces dernières avec la chair des Shoggoth. Consultez votre §4nécronomicon §7 pour plus d'informations.
+
+
+advancements.stage1.stepup.title=Fini les âneries
+advancements.stage1.stepup.description=Maintenant que vous voyagez moins, vous pouvez utiliser l'autel de sang afin de créer une pomme d'haute stature afin de supprimer votre saut automatique.
+
+
+advancements.stage1.stoneanvil.title=Forger le futur
+advancements.stage1.stoneanvil.description=Besoin de plaques ? Tapez des lingots à l'aide d'un maillet sur une enclume.
+
+
+advancements.stage1.tchannel.title=Un canard, des canaux
+advancements.stage1.tchannel.description=Les canaux sont de bons moyens de transporter des liquides depuis des tanks et d'autres sources. Lorsques vous placez un canal, fiez-vous aux flèches indicatrice de direction afin de l'orienter. Pour changer la direction, faite un clic droit sur le canal. Il vous faudra un robinet afin de faire couler les liquides dans les canaux.
+
+
+advancements.stage1.tin.title=Etain pour tous
+advancements.stage1.tin.description=Cherchez des échantillons de Cassiterite ou de Teallite à la surface et creusez en dessous pour trouver de l'étain. Celui ci se trouve entre l'altitude Y8 et Y68.
+
+
+advancements.stage1.turntable.title=Henri poterie
+advancements.stage1.turntable.description=Fabriquez une plaque tournante puis connectez le dessous de cette dernière à de l'énergie mécanique et placez un bloc sur la plaque afin de le travailler.
+
+
+advancements.stage1.waterwheel.title=Le feu au moulin
+advancements.stage1.waterwheel.description=Pour commencer à générer de l'énergie mécanique, il vous faudra une source tel qu'un moulin à eau du mod Better With Mods.
+
+
+advancements.stage1.woodbasin.title=Et tourne tourne tourne, c'est ta façon d'crafter
+advancements.stage1.woodbasin.description=Vous cherchez un moyen plus efficace de créer du cuir ou de la pâte à pain ? Créez une bassine en bois et remplissez là avec le bon liquide et les bons objets, puis remuez !
+
+
+# Stage 2
+advancements.stage2.astable2.title=La puissance des étoiles
+advancements.stage2.astable2.description=Améliorez votre table lumineuse au prochain niveau. De plus, il vous faudra créer une structure pour commencer le procédé de fabrication. Consultez votre journal d'astromancien dans la section exploration.
+
+
+advancements.stage2.betweenlands.title=Les terres du milieu
+advancements.stage2.betweenlands.description=Cherchez un cercle druidique dans un marais et tuez les druides. Utilisez leurs pièces de talisman pour créer un Talisman des Marais. Cliquez, talisman à la main, sur une pousse d'arbre au sol afin de créer un portail vers les terres du milieu.
+
+
+advancements.stage2.biomealyzer.title=On m'appelle Jean-Analyse
+advancements.stage2.biomealyzer.description=Utilisez un analyseur de biome pour connaître le nom du biome dans lequel vous vous trouvez.
+
+
+advancements.stage2.bucket.title=Un seau de reconnaissance
+advancements.stage2.bucket.description=Maintenant que vous avez du fer, utilisez votre forge pour créer un seau en fer.
+
+
+advancements.stage2.carminitereactor.title=Action, réaction
+advancements.stage2.carminitereactor.description=Il vous faudra un réacteur en Carminite pour créer votre premier moteur. Localisez un réacteur en charchant la tour Ur-Ghast dans les forêts du Twilight ou fabriquez un réacteur à partir des ressources trouvez dans les forêts du Twilight.
+
+
+advancements.stage2.compass.title=Euh... Je suis perdu ?
+advancements.stage2.compass.description=Une boussole vous aidera à déterminer votre position X et Z.
+
+
+advancements.stage2.conpaper.title=Astromancien en herbe
+advancements.stage2.conpaper.description=Faites acquisition d'un parchemin de constellation afin de remplir les informations de votre journal d'astromancie. Faites un clic-droit en tenant le journal pour y stocker vos parchemins de constellation.
+
+
+advancements.stage2.controller.title=Le minerais coule dans mes veines
+advancements.stage2.controller.description=Maintenant que les outils de silex ou d'os ne vous servent plus, vous aurez besoin d'une forge. Une fois que vous aurez placé tout les blocs de structure pour créer votre forge, placez un contrôleur de forge afin de compléter celle-ci et finir cet avancement.
+
+
+advancements.stage2.depth.title=Dans les abysses
+advancements.stage2.depth.description=Utilisez un mètre de profondeur pour avoir une valeur plus certaines de votre altitude Y.
+
+
+advancements.stage2.dowsingrod.title=Prospecter pour mieux règner
+advancements.stage2.dowsingrod.description=Fabriquez un bâton de prospection de meilleure qualitée pour vous aider à localisez une plus grande variétés de minerais. Vous pouvez l'utilisez pour trouver des minerais dans les 48 blocs aux alentours de l'endroit ou vous cliquez.
+
+
+advancements.stage2.drawertable.title=Je suis quelqu'un d'organisé
+advancements.stage2.drawertable.description=Utilisez une table de cadrage afin de créer des étagères de rangement personnalisées.
+
+
+advancements.stage2.enderman.title=Mettre fin à l'endermenace
+advancements.stage2.enderman.description=Les endermans ont commencés à apparaître dans votre monde. Tuez les pour obtenir du sable de l'Ender.
+
+
+advancements.stage2.extendedcraftingbasic.title=Réévaluation de mon Q.I.
+advancements.stage2.extendedcraftingbasic.description=Fabriquez une table de fabriquation basique du mod Extended Crafting pour pouvoir établir des recettes plus complexes.
+
+
+advancements.stage2.glass.title=Souffler dans les verres
+advancements.stage2.glass.description=Fabriquez du verre en faisant fondre du sable dans un four à fusion ou dans une forge et faites le couler dans un bassin afin de pouvoir récolter le fruit de votre dur labeur, et patience.
+
+
+advancements.stage2.gold.title=D'or et déjà
+advancements.stage2.gold.description=Trouvez un échantillon d'or à la surface et creusez en dessous afin de trouver de l'or ! Le minerais se trouve entre l'altitude Y5 et Y40.
+
+
+advancements.stage2.iron.title=Fer le bien
+advancements.stage2.iron.description=Trouvez un échantillon d'Hematite à la surface et creusez en dessous afin de trouver du fer ! Le minerais se trouve entre l'altitude Y32 et Y60.
+
+
+advancements.stage2.lapis.title=Les roses sont rouges, le lapis est bleu
+advancements.stage2.lapis.description=Trouvez un échantillon de Lapis à la surface et creusez en dessous afin de trouver du Lapis ! Le minerais se trouve entre l'altitude Y10 et Y38.
+
+
+advancements.stage2.lightwell.title=Liquéfier
+advancements.stage2.lightwell.description=Le puit de lumière d'astromancie vous permettra de transformer certains objet en liquide de lumière d'étoiles.
+
+
+advancements.stage2.mapping.title=Un cartographe qui en jette
+advancements.stage2.mapping.description=Améliorez votre carte en une carte beaucoup plus avancée en mangeant une pomme de fer. Vous pouvez débloquer cet avancement quand vous le souhaitez.
+
+
+advancements.stage2.market.title=Un tour au marché
+advancements.stage2.market.description=Utilisez le marché du mod Farming for Blockheads pour acheter différentes graines et pousses d'arbre.
+
+
+advancements.stage2.nuggetcast.title=Un moule à pépite
+advancements.stage2.nuggetcast.description=Pour obtenir un moule de pépite, il vous faudra créer une pépite de pierre en cassant de la pierre polie sur une enclume.
+
+
+advancements.stage2.paper.title=Pierre, PAPIER, ciseaux
+advancements.stage2.paper.description=Améliorez votre production de papier en créant le papier de Minecraft.
+
+
+advancements.stage2.piston.title=Pistonné
+advancements.stage2.piston.description=Vous avez besoin de pousser des choses ? Trouvez un piston dans la tour Ur-Ghast de la forêt du Twilight ou trouvez les ressources afin de le fabriquer.
+
+
+advancements.stage2.resonatingwand.title=Echo... echo..... echo.......
+advancements.stage2.resonatingwand.description=Il vous faudra un bâton résonnant d'astromancien pour continuer votre aventure.
+
+
+advancements.stage2.rockcrystal.title=Les cristaux de tes yeux
+advancements.stage2.rockcrystal.description=La pierre de cristal est importante pour l'astromancie. Trouvez en un échantillon à la surface et creusez afin d'en trouver entre l'altitude Y3 et Y18.
+
+
+advancements.stage2.root.title=Age 2
+advancements.stage2.root.description=Bienvenue dans l'âge 2 !
+
+
+advancements.stage2.sealantern.title=La magie du sang
+advancements.stage2.sealantern.description=L'autel de sang niveau 3 requiert des lanternes aquatique ou de la pierre lumineuse. Trouvez de la prismarine dans un monument aquatique ou obtenez en dans la labyrinthe de la forêt sombre dans la forêt du Twilight.
+
+
+advancements.stage2.skywave.title=Réperage stellaire
+advancements.stage2.skywave.description=La table de craft lumineuse requière d'êtee chargée par la lumière avant utilisation. Fabriquez et uiliser un résonateur fosique afin de localiser un lieu riche en lumière d'étoile dans votre monde. Vous aurez du mal à en trouver durant la journée, vous feriez mieux d'attendre la nuit.
+
+
+advancements.stage2.smeltertank.title=Âme forgée
+advancements.stage2.smeltertank.description=Vous n'irez pas très loin en n'utilisant que du combustible solide. Fabriquez et placer un conteneur en briques brûlées ou en porcelaine au dessous du four à fusion afin d'y stocker le fer fondu et autres minéraux fondus nécessitant une chaleur plus élevée.
+
+
+advancements.stage2.starpowder.title=Pouvoir des étoiles
+advancements.stage2.starpowder.description=La poussière d'étoile peut être trouvée lorsque vous cassez un échantillon de pierre de cristal. Lorsque votre structure d'astromancie sera fonctionnelle, vous pourrez créer cette poudre vous même.
+
+
+advancements.stage2.stevescarts.title=Steve dit charbon, et le moteur fût
+advancements.stage2.stevescarts.description=Vous avez découvert le pouvoir de la combustion ! Fabriquez un moteur à charbon.
+
+advancements.stage2.stopwatch.title=Je vais vite, je m'appelle... ?
+advancements.stage2.stopwatch.description=Le chronomètre vous aidera à en savoir plus sur votre vélocité.
+
+
+advancements.stage2.tcontable1.title=Crafteur d'élite
+advancements.stage2.tcontable1.description=Il est temps de se débarasser de votre vielle table de craft et de passer à la station de craft. Celle-ci vous permettra de garder vos items dans la grille et s'attachera au coffre adjacent.
+
+
+advancements.stage2.tcontable2.title=Outilleur
+advancements.stage2.tcontable2.description=Vous pouvez commencer à remplacer vos outils en fabriquant une table à pochoir et un constructeur de pièces.
+
+
+advancements.stage2.tcontable3.title=La meilleure des stations
+advancements.stage2.tcontable3.description=Pour fabriquer vos nouveaux outils, il vous faudra une station à outils.
+
+
+advancements.stage2.twilight.title=Non, pas ce Twilight là
+advancements.stage2.twilight.description=Entrez dans la forêt du Twilight pour continuer votre aventure. Afin d'y parvenir, remplissez un trou de 2x2 avec de l'eau, entourez-le de plante et jetez un Métal d'étoile dans l'eau pour créer le portail.
+
+
+advancements.stage2.wateringcan.title=Je suis le meilleur farmeur
+advancements.stage2.wateringcan.description=Si vous êtes fatigué d'attendre que vos plantes poussent, fabriquez un arrosoir.
+
+
+advancements.stage2.weedwoodsticks.title=Bois de mauvaises herbes
+advancements.stage2.weedwoodsticks.description=Les bâtons de bois de mauvaises herbes peuvent être trouvés dans les buissons de mauvaises herbes. Vous trouverez ces derniers dans les terres du milieu. Vous ne pouvez pas les avoir en coupant du bois.
+
+
+advancements.stage2.weedwoodsword.title=Le seigneur des agneaux
+advancements.stage2.weedwoodsword.description=Les outils que vous ammenez dans les terres de milieu provenant d'une autre dimension ne seront pas efficace. Vous devrez fabriquer de nouveaux outils et arme pour progresser. Cet avancement requiert que vous fabriquiez une épée de bois de mauvaises herbes.
+
+
+advancements.stage2.weird.title=Charger les quoi ?
+advancements.stage2.weird.description=Si vous souhaitez créer un chargeur de chunk, fabriquez un gadget bizarre et placez le pour qu'il charge 3x3 chunks autour de ce dernier.
+
+
+advancements.stage2.wool.title=Laine et terre acide
+advancements.stage2.wool.description=Fabriquez de la laine a partir de pelotte et d'osier.
+
+
+# Stage 3
+advancements.stage3.amethyst.title=L'améthyste des enfers
+advancements.stage3.amethyst.description=Une gemme rare peut être trouvé en enfer. Vous pouvez la trouver en utilisant les bâton de prospection de l'âge 3 et au delà.
+
+
+advancements.stage3.bauxite.title=Bauxite
+advancements.stage3.bauxite.description=Trouvez un échantillon de bauxite à la surface et creusee afin de trouver de l'aluminium. Celui-ci se trouve entre l'altitude Y45 ey Y70.
+
+
+advancements.stage3.bellows.title=Souffler pour mieux cuisiner
+advancements.stage3.bellows.description=Fabriquez et fournissez de l'énergie mécanique à un soufflet afin de renforcer l'hibachi de Better With Mods
+
+
+advancements.stage3.blazerod.title=Taper au bâton sur un Blaze
+advancements.stage3.blazerod.description=Voyagez jusqu'en enfer afin de récolter de la poudre de Blaze et utilisez une presse en métal afin de la transformer en bâton de Blaze.
+
+
+advancements.stage3.bonehoe.title=Les outils infernaux
+advancements.stage3.bonehoe.description=Utilisez une houe en os pour labourer la terre et pour créer du sable d'âme des enfers labouré.
+
+
+advancements.stage3.buildcraft.title=On m'appelle Mario
+advancements.stage3.buildcraft.description=Fabriquez un moteur à Redstone pour commencer à faire fonctionner vos tuyaux du mod Buildcraft
+
+
+advancements.stage3.circuitboard.title=Bac+5 en Redstone
+advancements.stage3.circuitboard.description=Utilisez un établi d'ingénieur pour fabriquer un circuit imprimé.
+
+
+advancements.stage3.conveyorbelt.title=Aéroport ou usine ?
+advancements.stage3.conveyorbelt.description=Les tapis roulant du mod Immersive Engineering sont un bon moyen de transporter vos objets !
+
+
+advancements.stage3.creosote.title=Créosote
+advancements.stage3.creosote.description=Utilisez un four à charbon pour produire du liquide de créosote et du charbon fumé.
+
+
+advancements.stage3.crudeoil.title=Capitalisme
+advancements.stage3.crudeoil.description=Utilisez un échantillon de carotte minière pour trouvez de l'huile dans un chunk. Il vous faudra mettre en place un système de pompe à pétrole du mod Immersive Engineering et l'extraire avec un seau pour completer cet avancement.
+
+
+advancements.stage3.distillation2.title=Attention, j'ai les gas
+advancements.stage3.distillation2.description=Retravailler le diesel dans une tour à distillation créera du kerosen, du gasoil ainsi que du lubrifiant. Vous aurez besoin d'un seau de chaque pour valider cet avancement. Ces liquides vous fourniront un bon combustible, accélereront certaines machine ou permettront de travailler les objets encore plus.
+
+
+advancements.stage3.drawercontroller.title=Maître du stockage
+advancements.stage3.drawercontroller.description=Le controlleur de stockage armoire vous permettra de transformer vos armoire en un réseau connecté.
+
+
+advancements.stage3.extendedcrafting1.title=Je suis Einstein, en mieux
+advancements.stage3.extendedcrafting1.description=Fabriquez une table de fabrication avancée du mod Extended Crafting pour débloquer des recettes plus complexes.
+
+
+advancements.stage3.filteredhopper.title=Entonnoir filtré
+advancements.stage3.filteredhopper.description=Utilisez un entonnoir à filtre pour collecter de la poussière de feu des enfers et remplir des urnes d'âmes avec.
+
+
+advancements.stage3.galgadorian.title=Galgariste
+advancements.stage3.galgadorian.description=Récoltez un lingot de Galgadorian amélioré pour renforcer vos structures.
+
+
+advancements.stage3.hibachi.title=L'Hibachi du futur
+advancements.stage3.hibachi.description=L'Hibachi du mod Better With Mods vous permettra d'avoir un feu renforcé en dessous de vos chaudrons et vos creuset.
+
+
+advancements.stage3.iebook.title=Manuel de l'ingénieur novice
+advancements.stage3.iebook.description=Le manuel du mod Immersive Engineering est une bonne source d'information, utilisez le.
+
+
+advancements.stage3.iehammer.title=Marteau de l'ingénieur novice
+advancements.stage3.iehammer.description=Fabriquez un marteau d'ingénieur pour créer des machines multi-blocs et pour tourner des blocs.
+
+
+advancements.stage3.liquidplastic.title=Du plastique dans les cubes
+advancements.stage3.liquidplastic.description=Utilisez une processeur de liquide du mod Modular Machinery afin de convertir le Propene en plastique liquide.
+
+
+advancements.stage3.modularmachinery.title=Un plan à 1
+advancements.stage3.modularmachinery.description=Le contrôleur du mod Modular Machinery est le bloc central de toutes les machines de ce mod. Regardez donc les recettes des plans pour savoir comment construire chaque structure.
+
+
+advancements.stage3.naphtha.title=Distillation légale
+advancements.stage3.naphtha.description=Maintenant que vous avez extrait de l'huile, fabriquez un distillateur de pétrole du mod Immersive Engineering afin de pouvoir travailler l'huile en Naphta et en diesel. Ensuite, munissez vous d'un seau de chacun afin de compléter cet avancement.
+
+
+advancements.stage3.nether.title=Entrez en enfer
+advancements.stage3.nether.description=Voyagez jusqu'en enfer. Des portails pré-construit existe dans les biomes chaud tels que les désert les savannes. Souvenez-vous bien que la carte est divisée avec une logique de chaleur Nord/Sur. Pour les biomes les plus chaud, voyagez vers le sud et inversement.
+
+
+advancements.stage3.netherbrick.title=La brique des enfers
+advancements.stage3.netherbrick.description=Placez de la boue infernale dans un fourneau du mod Immersive Engineering afin de créer des briques infernales. Consultez le livre unique afin d'apprendre comment assembler un fourneau.
+
+
+advancements.stage3.netherexbiome.title=L'enfer est... gelé ?!
+advancements.stage3.netherexbiome.description=Cherchez et entrez dans un biome arcticque abyssal.
+
+
+advancements.stage3.netherwart.title=Les verrues infernales
+advancements.stage3.netherwart.description=Cherchez et récoltez une verrue des enfers. Vous les trouverez probablement dans une forteresse infernale.
+
+
+advancements.stage3.nickel.title=Nickel, j'ai trouvé de la Limonite
+advancements.stage3.nickel.description=Trouvez un échantillon de Limonite à la surface et creusez en dessous afin de trouver du nickel.
+
+
+advancements.stage3.oreexcavation.title=Mineur bientôt majeur
+advancements.stage3.oreexcavation.description=Utilisez un objet modificateur de propriété excavatrice pour ajouter une abilité à votre outil du mod Tinkers' Tool. Vous pouvez également ajouter cet abilité à d'autres outils grâce à une table d'enchantement.
+
+
+advancements.stage3.oreprospector.title=Prospecteur sans prospectus
+advancements.stage3.oreprospector.description=Fabriquez un prospecteur de minerais afin de localiser les minerais de l'âge 3.
+
+
+advancements.stage3.plastic.title=Plasticité
+advancements.stage3.plastic.description=Le fabricateur de plasique du mod Modular Machinery vous permettra de convenir du platisque liquide en barre de plastique afin de les utiliser dans beaucoup de nouvelles recettes.
+
+
+advancements.stage3.platinum.title=A moi les platines
+advancements.stage3.platinum.description=Trouvez un échantillon de platine à la surface et creusez pour en trouver entre l'altitude Y3 et Y25.
+
+
+advancements.stage3.potash.title=Elles font scier ces potasses
+advancements.stage3.potash.description=Utilisez des troncs, des planches et de la sciure dans un chaudron renforcé afin de créer de la potasse.
+
+
+advancements.stage3.projector.title=L'histoire des blocs fantômes
+advancements.stage3.projector.description=Utilisez un projecteur et trouvez la structure que vous souhaitez créer du mod Immersive Engineering, puis, assemblez le manuel et le projecteur ensemble. Vous pouvez utiliser ce projecteur pour vous aider à construire la structure car celui-ci fera apparaître des blocs fantômes.
+
+
+advancements.stage3.propene.title=Un pas de plus vers le plastique
+advancements.stage3.propene.description=Utilisez un mixeur chimique du mod Modular Machinery your mélanger du Naphta et de la vapeur afin de créer du propane. Récoltez en dans un seau afin de progresser dans la quête du plastique.
+
+
+advancements.stage3.rails.title=Mon premier rail
+advancements.stage3.rails.description=Fabriquez des rails afin de voyager sur de plus longues distance rapidement.
+
+
+advancements.stage3.redstone.title=Cinna... quoi ?
+advancements.stage3.redstone.description=Cherchez un échantillon de Cinnabar à la surfance et creusez en dessous afin de trouver de la Redstone. Cette dernière se trouve entre l'altitude Y5 et Y12.
+
+
+advancements.stage3.root.title=Age 3
+advancements.stage3.root.description=Bienvenue dans l'âge 3 !
+
+
+advancements.stage3.sampledrill.title=Un échantillon
+advancements.stage3.sampledrill.description=Utilisez un échantillon de carotte minière pour trouvez des minerais et des liquides sous la surface dans un chunk. N'oubliez pas que cela requiert de l'énergie et que vous pouvez placer les échantillons sur le sol avec shift + clic droit.
+
+
+advancements.stage3.silverlead.title=Vous êtes Galena ce soir
+advancements.stage3.silverlead.description=Trouvez un échantillon de Galena à la surface et creusez en dessous afin de trouver de l'argent et du plomb. Ces minerais se trouvent entre l'altitude Y16 et Y50.
+
+
+advancements.stage3.soundmuffler.title=Taisez-vous, enfin !
+advancements.stage3.soundmuffler.description=Vous en avez marre du bruit ? Placez un étouffeur de bruit and configurez le afin qu'il taise les sons que vous ne voulez plus entendre autour de vous.
+
+
+advancements.stage3.standardhull.title=Je retourne miner, moi
+advancements.stage3.standardhull.description=Utilisez le Hull du mod Steve's Carts afin de fabriquez de meilleur chariot.
+
+
+advancements.stage3.steam.title=Chaud comme la braise
+advancements.stage3.steam.description=Utilisez la tour solaire ou la chaudière du mod Immersive Engineering afin de produire de la vapeur. Récupèrez en un seau afin de compléter cet avancement.
+
+
+advancements.stage3.steel.title=J'ai le steel !
+advancements.stage3.steel.description=Utilisez un four à sablage afin de créer de l'acier en mélangeant du charbon fumé et des lingots de fer.
+
+
+advancements.stage3.stevescartsassembler.title=Mon chariot à moi
+advancements.stage3.stevescartsassembler.description=L'assembleur de chariot vous permettra de construire un chariot modulable. Notez que vous pouvez fabriquer des amélioration et les installer avec Shift + Clic-droit sur l'assembleur afin d'accélerer sa production ou pour d'autre bonus.
+
+
+advancements.stage3.vacuumtube.title=Faire le vide
+advancements.stage3.vacuumtube.description=Fabriquez un tuyau d'aspiration dans un atelier d'ingénieur.
+
+
+advancements.stage3.viescraft.title=I believe chicken fly
+advancements.stage3.viescraft.description=En utilisant tout les moteurs à votre disposition, fabriquer un avion Viescraft V1. Ouvrez le menu de ce dernier pour découvrir toutes les amélioration et customisation possible.
+
+
+advancements.stage3.waterwheel.title=L'eau tourne
+advancements.stage3.waterwheel.description=Un moulin à eau connecté à une Dynamo kinétique vous permettra de générer de l'énergie avec le courant de l'eau.
+
+
+advancements.stage3.windmill.title=Le vent en poupe
+advancements.stage3.windmill.description=Fabriquez et connectez un moulin à vent à une Dynamo kinétique afin de créer de l'énergie à partir du vent.
+
+
+advancements.stage3.wire.title=Electricien en herbe
+advancements.stage3.wire.description=Maintenant que vous avez de la puissance électrique, il vous faut la transferer tout autour de votre base !
+
+
+advancements.stage3.wireshock.title=Isoler pour moins se faire electrocuter
+advancements.stage3.wireshock.description=Une installation de câble avec le mod Dire Wire implique des risques d'éléctrocution. Vous pouvez donc maintenant isoler vos câbles.
+
+
+advancements.stage3.woodhull.title=Moi et mes chariots
+advancements.stage3.woodhull.description=Fabriquez une coque en bois afin de créer un chariot basique du mod Steve's Cart.
+
+
+advancements.stage3.workbench.title=Atelier de pro
+advancements.stage3.workbench.description=Fabriquez un atelier d'ingénieur pour fabriquer des objets à partir de plans.
+
+
+# Stage 4
+advancements.stage4.adapter.title=Vous allez le payer
+advancements.stage4.adapter.description=Si vous n'arrivez pas à convertir votre énergie entre les différents mods, il est idéal d'utiliser un bloc adaptateur d'énergie pour les conversions.
+
+
+advancements.stage4.ae2panel.title=Un choix difficile ?
+advancements.stage4.ae2panel.description=Fabriquez un Terminal ME and choisissez le chemin d'Applied Energistics, de Refined Storage, ou des deux !
+
+
+advancements.stage4.amadrontablet.title=La fameuse tablette
+advancements.stage4.amadrontablet.description=Remplissez la tablette d'Amadron avec de l'air pressurisé et utilisez là pour trier vos objets. Assurez-vous d'avoir défini le point de ramassage et de dépôt avec Shift + Clic-droit.
+
+
+advancements.stage4.ardite.title=Ardite
+advancements.stage4.ardite.description=Trouvez et minez de l'ardite dans les enfers en utilisant une pioche de niveau cobalt minimum.
+
+
+advancements.stage4.blockheads1.title=Ma cuisine de rêve
+advancements.stage4.blockheads1.description=Cuisiner de la nourriture dans un four peut devenir lassant, installez une nouvelle cuisine dans votre base ! Commencez par vous munir du manuel I de Cooking for Blockheads.
+
+
+advancements.stage4.blockheads2.title=C'est la soupe de votre vie
+advancements.stage4.blockheads2.description=Utilisez le manuel II de Cooking for Blockheads afin de cuisiner les recettes depuis votre inventaire, ou pour l'utiliser comme ressource dans une recette.
+
+
+advancements.stage4.blockheads3.title=Venez dîner ce soir
+advancements.stage4.blockheads3.description=Les blocs de Cooking for Blockheads se connectent entre eux afin de former une structure multibloc lorsqu'ils sont placés l'un à côté de l'autre. Fabriquez et placez une tabme de cuisine pour commencer. Puis, placez un four, un frigo, un lavabo et d'autres blocs afin de débloquez des fonctionnalités.
+
+
+advancements.stage4.certusquartz.title=Encore un autre type de Quartz ?
+advancements.stage4.certusquartz.description=Cherchez des échantillons de Quartz assortis à la surface et creusez en dessous afin de trouver du Certus Quartz. Ce minerais se trouve entre l'altitude Y6 et Y40.
+
+
+advancements.stage4.cobalt.title=Cobalt
+advancements.stage4.cobalt.description=Cherchez et miner du Cobalt. Vous en trouverez dans les enfers.
+
+
+advancements.stage4.compressediron.title=J'en ai que fer
+advancements.stage4.compressediron.description=Fabriquez un lingot de fer compressé.
+
+
+advancements.stage4.compressor.title=Coup de pression
+advancements.stage4.compressor.description=Fabriquez une machine à compression du mod Galactricraft pour fabriquer des plaques compressées.
+
+
+advancements.stage4.endcrystal.title=On prend les mêmes et on recommence
+advancements.stage4.endcrystal.description=Si vous voulez ré-invoquer le dragon de l'End, fabriquez 4 cristaux de l'End et placez le sur le portail de sortie de l'End. Chaque cristal doit être placé sur le centre de trois blocs de Bedrock.
+
+
+advancements.stage4.enderalloy1.title=Un alliage bizarre
+advancements.stage4.enderalloy1.description=Battez le dragon de l'End et minez de la Biotite dans l'End afin de l'utiliser dans la création d'un alliage de l'End.
+
+
+advancements.stage4.enderalloy2.title=Un alliage bizarre, mais amélioré
+advancements.stage4.enderalloy2.description=Trouvez Chorus dans l'End et utilisez le fruit pour créer un alliage de l'End amélioré.
+
+
+advancements.stage4.enderalloy3.title=Un alliage bizarre, mais vachement amélioré ?
+advancements.stage4.enderalloy3.description=Trouvez du Purpur, des bâtons de l'End et des carapaces de Shulker afin de créer un alliage de l'End avancé.
+
+
+advancements.stage4.endercrafter.title=Le dernier crafteur
+advancements.stage4.endercrafter.description=Fabriquez un Crafteur de l'End et un alternateur de l'End pour faire des recettes avancées.
+
+
+advancements.stage4.extendedcraftingelite.title=On m'appelle Craft. John Craft.
+advancements.stage4.extendedcraftingelite.description=Certaines recettes requierts plus de cases. Fabriquez une station de fabrication d'élite pour commencer.
+
+
+advancements.stage4.fuelloader.title=Remplissez-là
+advancements.stage4.fuelloader.description=Le chargeur de fuel sera nécessaire pour faire décoller une fusée.
+
+
+advancements.stage4.inscriber.title=Graver dans le marbre
+advancements.stage4.inscriber.description=Fabriquez et connectez un graveur pour commencer à créer des processeurs et autres machines.
+
+
+advancements.stage4.laserassembly.title=Commander sur Amadron
+advancements.stage4.laserassembly.description=Obtenez un programme d'assemblage laser avec votre tablette d'Amadron.
+
+
+advancements.stage4.launchpad.title=Viser la lune, tomber dans les étoiles
+advancements.stage4.launchpad.description=Pour décoller, il vous faudra 9 bloc de lancement sur une surface de 3x3 et placez votre fusée au centre de cette dernière.
+
+
+advancements.stage4.machinecasing.title=Une grosse coque
+advancements.stage4.machinecasing.description=Les machines avancées nécessiteront des coques plus complexes.
+
+
+advancements.stage4.manyullyn.title=... Manyullyn ?
+advancements.stage4.manyullyn.description=Combinez de l'Ardite et du Cobalt dans une forge afin de créer du Manyullyn.
+
+
+advancements.stage4.moon.title=Un petit pas pour les cubes, un grand pour moi
+advancements.stage4.moon.description=Faites décoller une fusée et atterissez sur la lune.
+
+
+advancements.stage4.nasaworkbench.title=La NASA n'aura qu'à bien se tenir
+advancements.stage4.nasaworkbench.description=Fabriquez un établi de la NASA pour commencer votre aventure sur la lune.
+
+
+advancements.stage4.oxygencollector.title=J'ai... besoin... d'air....
+advancements.stage4.oxygencollector.description=Pour fabriquer du fuel pour Galacticraft, vous devrez combiner du Kerosen et de l'Oxygène dans une raffinerie du mod Immersive Engineering. L'Oxygène peut initialement être collectée dans un collecteur d'oxygène... eh oui.
+
+
+advancements.stage4.plasticmixer.title=Du délicieux plastique
+advancements.stage4.plasticmixer.description=Fabriquez un mixeur à plastique pour créer des plaques de plastique colorés.
+
+
+advancements.stage4.presses.title=Ca presse
+advancements.stage4.presses.description=Rassemblez les matériaux nécessaire pour créer les presses d'ingénieur, de logique et de silicon afin de créer les réseaux logiques du mod Applied Energistics et du mod Refined Storage.
+
+
+advancements.stage4.pressurechamberwall.title=La chambre des pressions
+advancements.stage4.pressurechamberwall.description=Fabriquez des murs de chambre de pression et construisez une chambre de pression du mod Pneumaticraft.
+
+
+advancements.stage4.printedcircuitboard.title=Circuits imprimés
+advancements.stage4.printedcircuitboard.description=Grâce à votre installation du mod Pneumaticraft, fabriquez un circuit imprimé.
+
+
+advancements.stage4.prospector4.title=Bien vu, Prospecteur
+advancements.stage4.prospector4.description=Fabriquez le prospecteur avancé pour localisez les minerais de l'âge 4.
+
+
+advancements.stage4.root.title=Age 4
+advancements.stage4.root.description=Bienvenue dans l'âge 4 !
+
+
+advancements.stage4.rsgrid.title=Stocker peu, mais stocker bien
+advancements.stage4.rsgrid.description=Fabriquez une grille de stockage rafinée et choissisez la voie du mod Applied Energistics, de Refined Storage, ou des deux !
+
+
+advancements.stage4.silicon.title=Silicon Valley
+advancements.stage4.silicon.description=Localisez un échantillon de Silicon à la surface et creusez en dessous afin de trouver du silicon. Ce minerais se trouve entre l'altitude Y24 et Y48.
+
+
+advancements.stage4.solidendereye.title=Un oeil de rab
+advancements.stage4.solidendereye.description=Fabriquez et utilisez un oeil solide de l'End pour localiser le portail de l'End plus facilement.
+
+
+advancements.stage4.spacesuit.title=Direction la lune
+advancements.stage4.spacesuit.description=Construisez vous un équipement d'astronaute de niveau 1 pour vous proteger de la pression et des radiations lorsque vous vous rendez sur la lune.
+
+
+advancements.stage4.t1rocket.title=Pas le temps de niaiser
+advancements.stage4.t1rocket.description=Fabriquez une fusée de Galacticraft de niveau 1.
+
+
+advancements.stage4.theend.title=Sans retour
+advancements.stage4.theend.description=Trouver un bastion et entrez dans la dimension de l'End.
+
+
+# Stage 5
+advancements.stage5.charger3.title=J'ai changé de chargeur
+advancements.stage5.charger3.description=Le chargeur de niveau 3 vous permettra de charger vos items plus rapidement que les niveaux précedents.
+
+
+advancements.stage5.cheese.title=La lune est un géant fromage
+advancements.stage5.cheese.description=Le fromage est un minerais rare qui se trouve sur la lune, comme tout les autres minerais se trouvant sur la lune, vous pouvez utiliser une carrière automatisée.
+
+
+advancements.stage5.compactmachines.title=Chéri on a rétréci les cubes
+advancements.stage5.compactmachines.description=Vous souhaitez créer vos propres dimension et de nouvelles machines ? Fabriquez un projecteur de champs miniature et placez le dans votre monde pour commencer.
+
+
+advancements.stage5.creativecompressor.title=Décompressé
+advancements.stage5.creativecompressor.description=Fabriquez le compresseur d'air créatif du mod Pneumaticraft
+
+
+advancements.stage5.creativeenergycube.title=Tu l'as vus mon cube ?
+advancements.stage5.creativeenergycube.description=Fabriquez le cube d'énergie créatif du mod Mekanism
+
+
+advancements.stage5.creativefluidtank.title=Je suis le meilleur tank
+advancements.stage5.creativefluidtank.description=Fabriquez un tank à fluide créatif du mod Mekanism
+
+
+advancements.stage5.creativejetpack.title=Superman vs Moi
+advancements.stage5.creativejetpack.description=Fabriquez un Jetpack créatif.
+
+
+advancements.stage5.creativemodifer.title=Je suis créatif
+advancements.stage5.creativemodifer.description=Fabriquez des modificateurs créatif du mod Tinker's Construct.
+
+
+advancements.stage5.desh.title=C'est la Desh
+advancements.stage5.desh.description=Trouvez et minez du minerais de Desh sur la planète Mars.
+
+
+advancements.stage5.diamond.title=Whoop whoop, j'ai du diamant !!
+advancements.stage5.diamond.description=Trouvez un échantillon de Kimberlite à la surface et creusez en dessosu afin de trouver du diamant. Le minerais se trouve entre l'altitude Y2 et Y20.
+
+
+advancements.stage5.diamondjetpack.title=La limite ce n'est plus le ciel
+advancements.stage5.diamondjetpack.description=Fabriquez un jetpack en diamant.
+
+
+advancements.stage5.electrumjetpack.title=Où sont les stations d'essence pour Jetpack ?
+advancements.stage5.electrumjetpack.description=Fabriquez un jetpack en Electrum.
+
+
+advancements.stage5.emerald.title=Tes yeux émeraudes
+advancements.stage5.emerald.description=Trouvez un échantillon de Beryl à la surface et creusez en dessous pour trouver de l'émeraude. Ce minerais se trouve entre l'altitude Y4 et Y32.
+
+
+advancements.stage5.emeraldjetpack.title=Je me la pète
+advancements.stage5.emeraldjetpack.description=Fabriquez un jetpack en émeraude.
+
+
+advancements.stage5.inferiumessence.title=Les plantes mystiques
+advancements.stage5.inferiumessence.description=L'essence inférieure est une ressource importante pour commencer à travailler sur le mod Mystical Agriculture. Créez-en avec des ressources venu d'ailleurs.
+
+
+advancements.stage5.mars.title=On arrête de déconner, je pars sur Mars là
+advancements.stage5.mars.description=Fabriquez une fusée et atterissez sur Mars avec.
+
+
+advancements.stage5.marsrover.title=Ma voiture spatiale
+advancements.stage5.marsrover.description=Voyager sur Mars peut être un peu lent, fabriquez et utilisez une Rover ! Trouvez l'établi le plan de l'établi de la NASA dans les donjons de la planète.
+
+
+advancements.stage5.neptune.title=Les enfants de Neptune
+advancements.stage5.neptune.description=Lancez une fusée et atterissez sur Nepture. Récoltez des pierres à la surface de Nepture pour valider cet avancement.
+
+
+advancements.stage5.osmium.title=Osmium
+advancements.stage5.osmium.description=Trouvez un échantillon d'Osmium à la surface et creusez en dessous pour trouver de l'Osmium. Ce minerais se trouve entre la couche Y3 et Y11.
+
+
+advancements.stage5.paperclip.title=Le trombone de l'Origine
+advancements.stage5.paperclip.description=Créez le premier trombone de l'univers.
+
+
+advancements.stage5.prospectorstage5.title=Le meilleur des prospecteurs
+advancements.stage5.prospectorstage5.description=Fabriquez un prospecteur ultime afin de pouvoir découvrir tout les minerais se trouvant sous le sol.
+
+
+advancements.stage5.prosperityshard.title=Un semblant d'espoir
+advancements.stage5.prosperityshard.description=Les tessons de prospérité sont requis pour avancer dans le mod Mystical Agriculture. Utilisez un Empowerer pour en créer.
+
+
+advancements.stage5.root.title=Age 5
+advancements.stage5.root.description=Bienvenue dans l'âge 5 !
+
+
+advancements.stage5.saturn.title=Les anneaux de saturnes
+advancements.stage5.saturn.description=Fabriquez une fusée et utilisez là pour vous rendre sur Saturne. Récoltez les pierres à la surface de la planète pour valider cet avancement.
+
+
+advancements.stage5.scanner.title=Je scanne, tu scannes, nous scannons
+advancements.stage5.scanner.description=Une fois chargé, le scanner vous permettra de localiser des blocs dans les alentours. Installez des modules en ouvrant le GUI avec Shift + Clic-droit. Appuyez sur le bouton d'utilisation pour commencer le scan.
+
+
+advancements.stage5.skystone.title=Les pierres de l'au dela
+advancements.stage5.skystone.description=Le fromage de lune peut être raffiné en pierre du ciel en utilisant un infuseur métallurgique du mod Mekanism.
+
+
+advancements.stage5.spacesuit4.title=Promis je reviendrais Murphy
+advancements.stage5.spacesuit4.description=Fabbriquez une combinaison d'astronaute de niveau 4 pour vous protéger des plus haut niveaux de pression et de radiation sur les planètes lointaines.
+
+
+advancements.stage5.spawnerseeker.title=Magie magie
+advancements.stage5.spawnerseeker.description=Trouver des donjons pour obtenir des plans peut s'avérer compliquer. Créer un bâton chercheur de Spawner pour localiser les spawner dans les alentours de 128 blocs.
+
+
+advancements.stage5.t2rocket.title=Plus gros, plus rapide, plus fort
+advancements.stage5.t2rocket.description=Fabriquez une fusée de niveau 2 pour améliorer votre portée d'exploration spatiale.
+
+
+advancements.stage5.ultimatecraftingtable.title=Le crafteur qui battait le beurre
+advancements.stage5.ultimatecraftingtable.description=Fabriquez et utilisez la table de fabrication ultime pour fabriquer les objets créatif puissant.
+
+
+advancements.stage5.ultimateingot.title=Le lingot ultime !!
+advancements.stage5.ultimateingot.description=Assemblez un certains nombre de lingots ensemble afin de créer un lingot ultime dans une table de fabrication étendue.
+
+
+advancements.stage5.wirelesscharger.title=C'est quoi le code du WiFi ?
+advancements.stage5.wirelesscharger.description=Le chargeur sans fil est une machine pratique à avoir dans sa base pour charger ses objets facilement.

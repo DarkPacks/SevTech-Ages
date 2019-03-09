@@ -1,8 +1,8 @@
-setTitle("Out of the Weather")
+setTranslatedTitle("advancements.stage0.tipi.title")
 
 setIcon("totemic:tipi")
 
-setDescription("Need a place to sleep at home? Craft a Tipi!")
+setTranslatedDescription("advancements.stage0.tipi.description")
 
 addParent("triumph:stage0/leather")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("totemic:tipi", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

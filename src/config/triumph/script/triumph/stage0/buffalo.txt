@@ -1,8 +1,8 @@
-setTitle("Ancient Animals")
+setTranslatedTitle("advancements.stage0.buffalo.title")
 
 setIcon("totemic:buffalo_items")
 
-setDescription("Buffalo provide valuable resources to hunters. Use a Totemic Ceremony to spawn them. Collect their Hide and Teeth. Consult the Totempedia for more information")
+setTranslatedDescription("advancements.stage0.buffalo.description")
 
 addParent("triumph:stage0/totemic")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("totemic:buffalo_items")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

@@ -1,8 +1,8 @@
-setTitle("Axle F")
+setTranslatedTitle("advancements.stage1.axle.title")
 
 setIcon("betterwithmods:wooden_axle")
 
-setDescription("Mechanical Power needs to be routed using an Axle. You can connect them directly to Waterwheels and Wind Mills or Gearboxes. You can have no more than 3 Axles between each Gearbox or Source")
+setTranslatedDescription("advancements.stage1.axle.description")
 
 addParent("triumph:stage1/blackquartz")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:wooden_axle")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

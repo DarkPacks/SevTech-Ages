@@ -1,8 +1,8 @@
-setTitle("Fast Farm")
+setTranslatedTitle("advancements.stage2.wateringcan.title")
 
 setIcon("pickletweaks:watering_can")
 
-setDescription("If you're tired of waiting for crops to grow craft a Watering Can")
+setTranslatedDescription("advancements.stage2.wateringcan.description")
 
 addParent("triumph:stage2/smeltertank")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("pickletweaks:watering_can")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

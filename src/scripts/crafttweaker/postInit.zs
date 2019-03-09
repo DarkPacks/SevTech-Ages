@@ -27,6 +27,8 @@ initIntegrations();
 // Build the Stages
 ZenStager.buildAll();
 
+initOverrides();
+
 // ==================================
 // Init Functions
 function initResources() {
@@ -47,6 +49,7 @@ function initSpecificStaging() {
 	// Staging Specific Scripts
 	scripts.crafttweaker.staging.containers.init();
 	scripts.crafttweaker.staging.dimensions.init();
+	scripts.crafttweaker.staging.enchantments.init();
 	scripts.crafttweaker.staging.journeymap.init();
 	scripts.crafttweaker.staging.liquidAndGas.init();
 	scripts.crafttweaker.staging.mobGear.init();
@@ -73,7 +76,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.animalium.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.astikoor.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.astikorCarts.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.astralsorcery.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.beneath.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.betterbuilderswands.init();
@@ -83,6 +86,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.bonsaitrees.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.buildcraft.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.buildinggadgets.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.car.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.chargers.init();
@@ -188,7 +192,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.animalium.init();
 	scripts.crafttweaker.recipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.recipes.mods.appliedenergistics.init();
-	scripts.crafttweaker.recipes.mods.astikoor.init();
+	scripts.crafttweaker.recipes.mods.astikorCarts.init();
 	scripts.crafttweaker.recipes.mods.astralsorcery.init();
 	scripts.crafttweaker.recipes.mods.betterbuilderswands.init();
 	scripts.crafttweaker.recipes.mods.betterwithaddons.init();
@@ -196,6 +200,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.bibliocraft.init();
 	scripts.crafttweaker.recipes.mods.bloodmagic.init();
 	scripts.crafttweaker.recipes.mods.buildcraft.init();
+	scripts.crafttweaker.recipes.mods.buildinggadgets.init();
 	scripts.crafttweaker.recipes.mods.car.init();
 	scripts.crafttweaker.recipes.mods.ceramics.init();
 	scripts.crafttweaker.recipes.mods.chisel.init();
@@ -204,6 +209,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.cookingforblockheads.init();
 	scripts.crafttweaker.recipes.mods.cyclicmagic.init();
 	scripts.crafttweaker.recipes.mods.darkutils.init();
+	scripts.crafttweaker.recipes.mods.deathCompass.init();
 	scripts.crafttweaker.recipes.mods.dungpipe.init();
 	scripts.crafttweaker.recipes.mods.enderutilities.init();
 	scripts.crafttweaker.recipes.mods.extendedcrafting.init();
@@ -238,7 +244,8 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.pickletweaks.init();
 	scripts.crafttweaker.recipes.mods.pneumaticcraft.init();
 	scripts.crafttweaker.recipes.mods.poweradapters.init();
-	scripts.crafttweaker.recipes.mods.primal.init();
+	scripts.crafttweaker.recipes.mods.primal.core.init();
+	scripts.crafttweaker.recipes.mods.primal.stones.init();
 	scripts.crafttweaker.recipes.mods.primalchests.init();
 	scripts.crafttweaker.recipes.mods.primaltech.init();
 	scripts.crafttweaker.recipes.mods.progressiontweaks.init();
@@ -281,6 +288,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.actuallyAdditions.init();
 	scripts.crafttweaker.integrations.mods.appliedenergistics2.init();
 	scripts.crafttweaker.integrations.mods.astralsorcery.init();
+	scripts.crafttweaker.integrations.mods.betterwithmods.init();
 	scripts.crafttweaker.integrations.mods.bloodmagic.init.init();
 	scripts.crafttweaker.integrations.mods.chisel.init();
 	scripts.crafttweaker.integrations.mods.extendedCrafting.init.init();
@@ -294,7 +302,6 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();
 	scripts.crafttweaker.integrations.mods.primalCore.init();
 	scripts.crafttweaker.integrations.mods.primalTech.init();
-	scripts.crafttweaker.integrations.mods.refinedStorage.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
 	scripts.crafttweaker.integrations.mods.tinkers.init.init();
 }
@@ -312,4 +319,9 @@ function initItemModifiers() {
 	scripts.crafttweaker.itemModifiers.harvestLevel.init();
 	scripts.crafttweaker.itemModifiers.rename.init();
 	scripts.crafttweaker.itemModifiers.tooltips.init();
+}
+
+function initOverrides() {
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.mysticalagradditions.initOverride();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.mysticalagriculture.initOverride();
 }

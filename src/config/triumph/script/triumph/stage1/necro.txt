@@ -1,8 +1,8 @@
-setTitle("Abyssalcrafted")
+setTranslatedTitle("advancements.stage1.necro.title")
 
 setIcon("abyssalcraft:necronomicon")
 
-setDescription("Craft the Necronomicon to guide you through Abyssalcraft")
+setTranslatedDescription("advancements.stage1.necro.description")
 
 addParent("triumph:stage1/bronze")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("abyssalcraft:necronomicon")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

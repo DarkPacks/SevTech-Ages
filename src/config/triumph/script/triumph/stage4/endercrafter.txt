@@ -1,8 +1,8 @@
+setTranslatedTitle("advancements.stage4.endercrafter.title")
+
 setIcon("extendedcrafting:ender_crafter")
 
-setTitle("Ender Crafter")
-
-setDescription("Craft the Ender Crafter and Ender Alternator for advanced crafting")
+setTranslatedDescription("advancements.stage4.endercrafter.description")
 
 addParent("triumph:stage4/enderalloy2")
 setRequiresParents()
@@ -23,3 +23,5 @@ criteria2.setItem("extendedcrafting:ender_alternator")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

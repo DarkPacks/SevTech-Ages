@@ -1,8 +1,8 @@
-setTitle("Ultimate Ingot!")
+setTranslatedTitle("advancements.stage5.ultimateingot.title")
 
 setIcon("extendedcrafting:material", 32)
 
-setDescription("Crafting a number of ingots together in an Extended Crafting table will give you the Ultimate Ingot!")
+setTranslatedDescription("advancements.stage5.ultimateingot.description")
 
 addParent("triumph:stage5/ultimatecraftingtable")
 setRequiresParents()
@@ -13,4 +13,5 @@ criteria.setItem("extendedcrafting:material", 32)
 
 //Rewards
 setRewardExperience(15)
-setRewardFunction("triumph:stage-creative_trigger")
+
+visibleIf("triumph:stage5/root")

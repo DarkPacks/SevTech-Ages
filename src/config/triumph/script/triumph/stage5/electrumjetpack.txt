@@ -1,8 +1,8 @@
-setTitle("Electrum Jetpack")
+setTranslatedTitle("advancements.stage5.electrumjetpack.title")
 
 setIcon("ironjetpacks:electrum_jetpack")
 
-setDescription("Craft the Electrum Jetpack")
+setTranslatedDescription("advancements.stage5.electrumjetpack.description")
 
 addParent("triumph:stage5/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("ironjetpacks:electrum_jetpack")
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

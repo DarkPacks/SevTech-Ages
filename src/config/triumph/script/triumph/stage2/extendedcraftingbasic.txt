@@ -1,8 +1,8 @@
-setTitle("Extended Crafting: Iron")
+setTranslatedTitle("advancements.stage2.extendedcraftingbasic.title")
 
 setIcon("extendedcrafting:table_basic")
 
-setDescription("Craft the Basic Crafting Table from Extended Crafting for more complex recipes")
+setTranslatedDescription("advancements.stage2.extendedcraftingbasic.description")
 
 addParent("triumph:stage2/starpowder")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("extendedcrafting:table_basic")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

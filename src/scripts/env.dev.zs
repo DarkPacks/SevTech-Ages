@@ -9,4 +9,6 @@ global isDevelopment as bool = true;
 global developmentBuild as string = "Beta: 3.1.0";
 
 //Enable container output to console
-//mods.recipestages.Recipes.setPrintContainers(true);
+if (isDevelopment) {
+	mods.recipestages.Recipes.setPrintContainers(true);
+}

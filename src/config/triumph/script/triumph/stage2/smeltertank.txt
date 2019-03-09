@@ -1,8 +1,8 @@
-setTitle("Smelter Tank")
+setTranslatedTitle("advancements.stage2.smeltertank.title")
 
 setIcon("tcomplement:porcelain_tank")
 
-setDescription("Solid fuels only get you so far. Craft and place a Porcelain or Seared Tank beneath your melter to melt Iron and other materials needing higher temperatures. Note, you'll need to let the current fuel source run out or break/replace the melter to see the new temperature")
+setTranslatedDescription("advancements.stage2.smeltertank.description")
 
 addParent("triumph:stage2/iron")
 setRequiresParents()
@@ -18,3 +18,5 @@ criteria2.setItem("tconstruct:seared_tank")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

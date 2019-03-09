@@ -54,7 +54,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:advanced_oxygen_compressor:4>,
 		<extraplanets:advanced_oxygen_compressor:0>,
 		<extraplanets:apple_diamond:1>,
-		<extraplanets:apple_diamond:0>,
 		<extraplanets:apple_iron:1>,
 		<extraplanets:ash_rock:0>,
 		<extraplanets:basic_densifier:0>,
@@ -412,12 +411,12 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:oxygen_tank_med_full_light_blue:0>,
 		<extraplanets:oxygen_tank_med_full_light_gray:0>,
 		<extraplanets:oxygen_tank_med_full_magenta:0>,
-		<extraplanets:oxygen_tank_med_full_orange:0>,
 		<extraplanets:oxygen_tank_med_full_pink:0>,
 		<extraplanets:oxygen_tank_med_full_purple:0>,
 		<extraplanets:oxygen_tank_med_full_red:0>,
 		<extraplanets:oxygen_tank_med_full_white:0>,
 		<extraplanets:oxygen_tank_med_full_yellow:0>,
+		<extraplanets:oxygen_tank_med_full_lime:0>,
 		<extraplanets:oxygen_tank_very_heavy_full:7200>,
 		<extraplanets:oxygen_tank_very_heavy_full:0>,
 		<extraplanets:phobos_gravel:0>,
@@ -630,7 +629,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:tier8_items:1>,
 		<extraplanets:tier8_items:2>,
 		<extraplanets:tier8_items:3>,
-		<extraplanets:tier8_items:4>,
 		<extraplanets:tier8_items:5>,
 		<extraplanets:tier8_items:6>,
 		<extraplanets:tier8_items:0>,
@@ -710,12 +708,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:venus_rover:3>,
 		<extraplanets:venus_rover:0>,
 		<extraplanets:volcanic_rock:0>,
-		<extraplanets:wafer:1>,
-		<extraplanets:wafer:2>,
-		<extraplanets:wafer:3>,
-		<extraplanets:wafer:4>,
-		<extraplanets:wafer:5>,
-		<extraplanets:wafer:0>,
 		<extraplanets:white_sugar_cane_item:0>,
 		<extraplanets:white_sugar_cane:0>,
 		<extraplanets:yellow_diamond_axe:0>,
@@ -744,13 +736,21 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenRemove as IIngredient[] = [
 	<extraplanets:advanced_refinery:0>,
+	<extraplanets:apple_diamond:0>,
 	<extraplanets:block_multi:0>,
-	<extraplanets:ultimate_refinery:0>
+	<extraplanets:tier8_items:4>,
+	<extraplanets:ultimate_refinery:0>,
+	<extraplanets:wafer:0>,
+	<extraplanets:wafer:1>,
+	<extraplanets:wafer:2>,
+	<extraplanets:wafer:3>,
+	<extraplanets:wafer:4>,
+	<extraplanets:wafer:5>
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.extraplanets.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.extraplanets.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

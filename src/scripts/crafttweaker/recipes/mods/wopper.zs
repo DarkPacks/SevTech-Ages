@@ -12,23 +12,13 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
-import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
-import scripts.crafttweaker.stages.stageTwo;
-import scripts.crafttweaker.stages.stageThree;
-import scripts.crafttweaker.stages.stageFour;
-import scripts.crafttweaker.stages.stageFive;
 
 /*
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<wopper:wopper:0> : [
-		[
-			[<ore:plankWood>, null, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>],
-			[null, <ore:plankWood>, null]
-		],
 		[
 			[<ore:plankWood>, null, <ore:plankWood>],
 			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>],
@@ -38,6 +28,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<wopper:wopper:0> : {
+		Utils.genRecipeName(stageOne, "cheaper_whopper") : [
+			[
+				[<ore:plankWood>, null, <ore:plankWood>],
+				[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>],
+				[null, <ore:plankWood>, null]
+			]
+		]
+	}
 };
 
 /*
@@ -61,23 +60,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<wopper:wopper:0>
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.wopper.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.wopper.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

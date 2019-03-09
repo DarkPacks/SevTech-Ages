@@ -1,8 +1,8 @@
-setTitle("Reusable Eye")
+setTranslatedTitle("advancements.stage4.solidendereye.title")
 
 setIcon("cyclicmagic:ender_eye_orb")
 
-setDescription("Craft and  use the Solid Ender Eye to locate the End easily")
+setTranslatedDescription("advancements.stage4.solidendereye.description")
 
 addParent("triumph:stage4/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:ender_eye_orb")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

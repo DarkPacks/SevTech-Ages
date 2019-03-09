@@ -1,8 +1,8 @@
-setTitle("Flame Grilled Goodness")
+setTranslatedTitle("advancements.stage0.flamehopper.title")
 
 setIcon("primal_tech:charcoal_hopper")
 
-setDescription("A hopper that moves items and keeps blocks above it hot")
+setTranslatedDescription("advancements.stage0.flamehopper.description")
 
 addParent("triumph:stage0/woodhopper2")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("primal_tech:charcoal_hopper")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

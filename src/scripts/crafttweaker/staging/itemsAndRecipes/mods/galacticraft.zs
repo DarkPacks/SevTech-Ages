@@ -8,6 +8,7 @@ import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
 import scripts.crafttweaker.stages.stageCreativeUnused;
+import scripts.crafttweaker.utils.stageRecipeNameOrRegex;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
@@ -51,6 +52,7 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftcore:machine:12>,
 		<galacticraftcore:machine:0>,
 		<galacticraftcore:nose_cone:0>,
+		<galacticraftcore:oil_canister_partial:1>,
 		<galacticraftcore:oxygen_compressor:0>,
 		<galacticraftcore:oxygen_concentrator:0>,
 		<galacticraftcore:oxygen_gear:0>,
@@ -174,7 +176,6 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftcore:meteoric_iron_raw:0>,
 		<galacticraftcore:moon_stairs_brick:0>,
 		<galacticraftcore:moon_stairs_stone:0>,
-		<galacticraftcore:oil_canister_partial:1>,
 		<galacticraftcore:oil_canister_partial:1001>,
 		<galacticraftcore:oxygen_compressor:4>,
 		<galacticraftcore:oxygen_detector:0>,
@@ -381,14 +382,27 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static stagedRecipeNames as string[][string] = {
+	stageFive.stage: [
+		"galacticraftcore:slime_ball"
+	]
+};
+
 static hiddenItems as IIngredient[] = [
 	<galacticraftcore:bucket_fuel:0>,
-	<galacticraftcore:refinery:0>
+	<galacticraftcore:refinery:0>,
+	<galacticraftplanets:basic_item_venus:1>,
+	<galacticraftplanets:venus:12>
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.galacticraft.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.galacticraft.hiddenItems as IIngredient[]);
+
+	for stageName, recipeNames in stagedRecipeNames {
+		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
+	}
+
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 }

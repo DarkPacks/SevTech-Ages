@@ -1,8 +1,8 @@
-setTitle("Moving on Up!")
+setTranslatedTitle("advancements.stage4.blockheads2.title")
 
 setIcon("cookingforblockheads:recipe_book", 2)
 
-setDescription("Use the Cooking for Blockheads Book II to craft available recipes from your inventory or as a crafting material for appliances")
+setTranslatedDescription("advancements.stage4.blockheads2.description")
 
 addParent("triumph:stage4/blockheads1")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("cookingforblockheads:recipe_book", 2)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

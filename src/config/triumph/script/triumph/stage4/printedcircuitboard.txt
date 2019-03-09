@@ -1,8 +1,8 @@
-setTitle("Printed Circuit Board")
+setTranslatedTitle("advancements.stage4.printedcircuitboard.title")
 
 setIcon("pneumaticcraft:printed_circuit_board")
 
-setDescription("Using your Pneumaticraft setup, create a Printed Circuit Board")
+setTranslatedDescription("advancements.stage4.printedcircuitboard.description")
 
 addParent("triumph:stage4/compressediron")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("pneumaticcraft:printed_circuit_board")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

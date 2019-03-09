@@ -1,4 +1,4 @@
-#priority 2600
+#priority 2605
 
 /*
 	SevTech: Ages OreDict Wood Script.
@@ -104,6 +104,16 @@
 <ore:plankWood>.add(<primal:planks:*>);
 <ore:plankWood>.add(<thebetweenlands:rubber_tree_planks:0>);
 <ore:plankWood>.add(<thebetweenlands:weedwood_planks:0>);
+<ore:plankWood>.add(<natura:overworld_planks>);
+<ore:plankWood>.add(<natura:overworld_planks:1>);
+<ore:plankWood>.add(<natura:overworld_planks:2>);
+<ore:plankWood>.add(<natura:overworld_planks:3>);
+<ore:plankWood>.add(<natura:overworld_planks:4>);
+<ore:plankWood>.add(<natura:overworld_planks:5>);
+<ore:plankWood>.add(<natura:overworld_planks:6>);
+<ore:plankWood>.add(<natura:overworld_planks:7>);
+<ore:plankWood>.add(<natura:overworld_planks:8>);
+
 
 /*
 	Bark Wood
@@ -115,6 +125,15 @@
 */
 <ore:slabWood>.add(<abyssalcraft:dltslab1:0>);
 <ore:slabWood>.add(<primal:slab_yew:0>);
+<ore:slabWood>.add(<natura:overworld_slab>);
+<ore:slabWood>.add(<natura:overworld_slab:1>);
+<ore:slabWood>.add(<natura:overworld_slab:2>);
+<ore:slabWood>.add(<natura:overworld_slab:3>);
+<ore:slabWood>.add(<natura:overworld_slab:4>);
+<ore:slabWood>.add(<natura:overworld_slab2>);
+<ore:slabWood>.add(<natura:overworld_slab2:1>);
+<ore:slabWood>.add(<natura:overworld_slab2:2>);
+<ore:slabWood>.add(<natura:overworld_slab2:3>);
 
 /*
 	Sticks

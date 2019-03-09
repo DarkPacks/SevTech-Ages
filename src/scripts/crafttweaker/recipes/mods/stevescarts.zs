@@ -84,8 +84,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
 				null
 			],
 			[null, <minecraft:redstone:0>, null],
@@ -95,8 +95,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]}),
 				null
 			],
 			[metals.iron.ingot, <immersiveengineering:material:27>, metals.iron.ingot],
@@ -106,8 +106,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]}),
 				<minecraft:redstone:0>
 			],
 			[metals.iron.ingot, <stevescarts:modulecomponents:16>, metals.iron.ingot],
@@ -117,8 +117,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]}),
 				<minecraft:redstone:0>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -128,8 +128,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<immersiveengineering:material:27>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]}),
 				<immersiveengineering:material:27>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -141,8 +141,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				metals.galgadorian.ingot,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]}),
+					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
+					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
 				metals.galgadorian.ingot
 			],
 			[metals.galgadorian.ingot, <stevescarts:modulecomponents:16>, metals.galgadorian.ingot],
@@ -380,13 +380,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, metals.iron.rod, null]
 		]
 	],
-	<stevescarts:cartmodule:0> : [
-		[
-			[<minecraft:piston:0>, <minecraft:piston:0>, <minecraft:piston:0>],
-			[metals.iron.plate, <natura:netherrack_furnace:0>, metals.iron.plate],
-			[metals.iron.plate, metals.iron.plate, metals.iron.plate]
-		]
-	],
 	<stevescarts:cartmodule:8> : [
 		[
 			[metals.steel.plate, metals.steel.plate, null],
@@ -445,7 +438,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:cartmodule:22> : [
 
-			[[null, <nex:item_crystal_amethyst:0>, null],
+			[[null, <nex:amethyst_crystal:0>, null],
 			[<minecraft:glowstone:0>, <stevescarts:modulecomponents:28>, <minecraft:glowstone:0>],
 			[null, null, null]
 		]
@@ -615,6 +608,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<stevescarts:cartmodule:0>: {
+		Utils.genRecipeName(stageThree, <stevescarts:cartmodule:0>): [
+			[
+				[<minecraft:piston:0>, <minecraft:piston:0>, <minecraft:piston:0>],
+				[metals.iron.plate, <natura:netherrack_furnace:0>, metals.iron.plate],
+				[metals.iron.plate, metals.iron.plate, metals.iron.plate]
+			]
+		]
+	}
 };
 
 /*
@@ -638,7 +640,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<stevescarts:blockcartassembler:0>,
 	<stevescarts:blockliquidmanager:0>,
 	<stevescarts:blockdistributor:0>,
@@ -720,18 +722,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.stevescarts.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.stevescarts.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.stages.stageFive;
+
 /*
     Shaped Recipes
 */
@@ -47,6 +49,7 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:bronze_essence:0>: metals.bronze.ingot.firstItem * 4,
 	<mysticalagriculture:coal_essence:0>: <minecraft:coal:0> * 12,
 	<mysticalagriculture:cobalt_essence:0>: metals.cobalt.ingot.firstItem * 3,
+	<mysticalagriculture:compressed_iron_essence:0>: metals.compressedIron.ingot.firstItem * 6,
 	<mysticalagriculture:constantan_essence:0>: metals.constantan.ingot.firstItem * 4,
 	<mysticalagriculture:copper_essence:0>: metals.copper.ingot.firstItem * 6,
 	<mysticalagriculture:creeper_essence:0>: <minecraft:gunpowder:0> * 6,
@@ -58,6 +61,7 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:knightslime_essence:0>: metals.knightslime.ingot.firstItem * 4,
 	<mysticalagriculture:lead_essence:0>: metals.lead.ingot.firstItem * 4,
 	<mysticalagriculture:manyullyn_essence:0>: metals.manyullyn.ingot.firstItem * 2,
+	<mysticalagriculture:meteoric_iron_essence>: metals.meteoricIron.ingot.firstItem * 3,
 	<mysticalagriculture:nickel_essence:0>: metals.nickel.ingot.firstItem * 4,
 	<mysticalagriculture:osmium_essence:0>: metals.osmium.ingot.firstItem * 4,
 	<mysticalagriculture:platinum_essence:0>: metals.platinum.ingot.firstItem * 2,
@@ -89,45 +93,33 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<mysticalagriculture:supremium_boots:0>,
 	<mysticalagriculture:ultimate_furnace:0>,
 	<mysticalagriculture:crafting:7>
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.shapelessRecipes;
-	var recipesToGenerate as IItemStack[IIngredient] = scripts.crafttweaker.recipes.mods.mysticalagriculture.recipesToGenerate;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.mysticalagriculture.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.mysticalagriculture.removeRecipes;
-
 	// Build the recipes to be generated from the Generated Map.
-	var generatedShapedRecipes as IIngredient[][][][IItemStack] = {};
+	var generatedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
+
 	for essence, output in recipesToGenerate {
+		var recipeName = Utils.genRecipeName(stageFive);
+
 		var essenceRecipe as IIngredient[][] = [
 			[essence, essence, essence],
 			[essence, null, essence],
 			[essence, essence, essence]
 		];
 
-		if (generatedShapedRecipes has output) {
-			generatedShapedRecipes[output] += essenceRecipe;
-		} else {
-			generatedShapedRecipes[output] = [essenceRecipe];
+		if (!(generatedShapedRecipes has output)) {
+			generatedShapedRecipes[output] = {};
 		}
+		generatedShapedRecipes[output][recipeName] = [essenceRecipe];
 	}
 
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
-	recipeUtil.process(generatedShapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
 
@@ -135,6 +127,7 @@ function init() {
 	recipeUtil.processNamed(namedShapedRecipes, false);
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
+	recipeUtil.processNamed(generatedShapedRecipes, false);
 
 	recipeUtil.removeRecipes(removeRecipes);
 }

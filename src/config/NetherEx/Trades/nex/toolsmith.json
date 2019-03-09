@@ -1,0 +1,192 @@
+{
+    "career": "toolsmith",
+    "trades": [
+        {
+            "output": {
+                "item": "minecraft:iron_nugget",
+                "meta": 0,
+                "minStackSize": 10,
+                "maxStackSize": 24
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "minecraft:gold_ingot",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 8
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:stone_pickaxe",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 4
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:stone_sword",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 5
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:stone_shovel",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 3
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:diamond",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 4
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:iron_pickaxe",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 6
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:iron_axe",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 5
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:iron_sword",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 5,
+                "maxStackSize": 7
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:iron_shovel",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 5
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:gold_nugget",
+                "meta": 0,
+                "minStackSize": 12,
+                "maxStackSize": 28
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 6,
+                "maxStackSize": 9
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 3
+        }
+    ]
+}

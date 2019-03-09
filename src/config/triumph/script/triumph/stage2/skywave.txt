@@ -1,8 +1,8 @@
-setTitle("Starlight Geolocation")
+setTranslatedTitle("advancements.stage2.skywave.title")
 
 setIcon("astralsorcery:itemskyresonator")
 
-setDescription("The Luminous Crafting Table requires the Starlight meter to be filled before a crafting operation can be completed. Craft and use the Fosic Resonator to locate an area in the world that is rich in starlight to craft with. You'll have a difficult time finding it during the daytime. It's best to wait until night")
+setTranslatedDescription("advancements.stage2.skywave.description")
 
 addParent("triumph:stage2/conpaper")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("astralsorcery:itemskyresonator")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

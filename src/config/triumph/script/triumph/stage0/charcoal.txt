@@ -1,8 +1,8 @@
-setTitle("Pressing Your Luck")
+setTranslatedTitle("advancements.stage0.charcoal.title")
 
 setIcon("horsepower:press")
 
-setDescription("Press charcoal into a larger block using the Horse Power Press")
+setTranslatedDescription("advancements.stage0.charcoal.description")
 
 addParent("triumph:stage0/horsechopper")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("charcoalblock:charcoal_block")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

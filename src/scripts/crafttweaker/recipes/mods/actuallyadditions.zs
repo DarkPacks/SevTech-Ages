@@ -260,14 +260,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:item_drill_upgrade_fortune:0>: [
 		[
 			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>],
-			[<minecraft:redstone:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone:0>],
+			[<minecraft:redstone:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>],
 			[<minecraft:glowstone:0>, <minecraft:redstone:0>, <minecraft:glowstone:0>]
 		]
 	],
 	<actuallyadditions:item_drill_upgrade_fortune_ii:0>: [
 		[
 			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>],
-			[metals.redstoneAlloy.plate, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), metals.redstoneAlloy.plate],
+			[metals.redstoneAlloy.plate, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(3).makeTag().ench}), metals.redstoneAlloy.plate],
 			[<minecraft:glowstone:0>, metals.redstoneAlloy.plate, <minecraft:glowstone:0>]
 		]
 	],
@@ -323,7 +323,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:block_fishing_net:0>: [
 		[
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>],
-			[<minecraft:string:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 61 as short}]}), <minecraft:string:0>],
+			[<minecraft:string:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:luck_of_the_sea>.makeEnchantment(1).makeTag().ench}), <minecraft:string:0>],
 			[<minecraft:string:0>, <minecraft:string:0>, <minecraft:string:0>]
 		]
 	],
@@ -417,7 +417,7 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<actuallyadditions:block_atomic_reconstructor:0>,
 	<actuallyadditions:block_bio_reactor:0>,
 	<actuallyadditions:block_breaker:0>,
@@ -485,22 +485,6 @@ function initDrillRecipe() {
 }
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.actuallyadditions.furnaceRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.actuallyadditions.removeFurnace;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

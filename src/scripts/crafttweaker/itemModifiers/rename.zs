@@ -36,7 +36,7 @@ static renameMap as string[IItemStack] = {
 };
 
 function init() {
-	for item, displayName in scripts.crafttweaker.itemModifiers.rename.renameMap {
+	for item, displayName in renameMap {
 		item.displayName = displayName;
 	}
 }

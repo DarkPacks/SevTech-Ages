@@ -12,5 +12,5 @@ import mods.immersiveengineering.Mixer;
 function init() {
 	Mixer.addRecipe(<liquid:slime> * 500, <liquid:water> * 500, [<minecraft:wheat:0>, <minecraft:clay_ball:0>], 50);
 	Mixer.addRecipe(<liquid:blueslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:11>, <natura:nether_glowshroom:1>], 50);
-	Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:item_crystal_amethyst:0>], 50);
+	Mixer.addRecipe(<liquid:purpleslime> * 500, <liquid:slime> * 500, [<pickletweaks:dye_powder:10>, <nex:amethyst_crystal:0>], 50);
 }

@@ -1,8 +1,8 @@
-setTitle("Enter the Darklands")
+setTranslatedTitle("advancements.stage0.abyssalbiome.title")
 
 setIcon("abyssalcraft:necronomicon")
 
-setDescription("Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South")
+setTranslatedDescription("advancements.stage0.abyssalbiome.description")
 
 addParent("triumph:stage0/naturescompass")
 setRequiresParents()
@@ -27,3 +27,5 @@ criteria5.setBiome("abyssalcraft:darklands_mountains")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

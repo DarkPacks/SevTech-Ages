@@ -10,8 +10,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-import mods.horsepower.Recipes;
-
 /*
 	Grinder Recipes
 
@@ -22,16 +20,16 @@ import mods.horsepower.Recipes;
 static grinderRecipes as IIngredient[][][int] = {
 	12: [
 		[<minecraft:clay_ball:0> * 4, <minecraft:clay:0>],
-		[<minecraft:dye:1>, <minecraft:double_plant:4>],
-		[<minecraft:dye:1>, <minecraft:red_flower:4>],
-		[<minecraft:dye:1>, <minecraft:red_flower:0>],
+		[<ore:dyeRed>.firstItem, <minecraft:double_plant:4>],
+		[<ore:dyeRed>.firstItem, <minecraft:red_flower:4>],
+		[<ore:dyeRed>.firstItem, <minecraft:red_flower:0>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:3>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:6>],
 		[<ore:dyeLightGray>.firstItem, <minecraft:red_flower:8>],
 		[<ore:dyePink>.firstItem, <minecraft:double_plant:5>],
 		[<ore:dyePink>.firstItem, <minecraft:red_flower:7>],
-		[<minecraft:dye:11>, <minecraft:double_plant:0>],
-		[<minecraft:dye:11>, <minecraft:yellow_flower:0>],
+		[<ore:dyeYellow>.firstItem, <minecraft:double_plant:0>],
+		[<ore:dyeYellow>.firstItem, <minecraft:yellow_flower:0>],
 		[<ore:dyeLightBlue>.firstItem, <minecraft:red_flower:1>],
 		[<ore:dyeMagenta>.firstItem, <minecraft:double_plant:1>],
 		[<ore:dyeMagenta>.firstItem, <minecraft:red_flower:2>],
@@ -167,19 +165,6 @@ static choppingRecipes as IIngredient[][IItemStack] = {
 };
 
 function init() {
-	/*
-		Dynamic Chopping Block Recipes
-
-		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
-	*/
-	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
-	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
-
-	// Recipe Map Imports
-	var grinderRecipes as IIngredient[][][int] = scripts.crafttweaker.integrations.mods.horsepower.grinderRecipes;
-	var pressRecipes as IIngredient[IItemStack] = scripts.crafttweaker.integrations.mods.horsepower.pressRecipes;
-	var choppingRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.integrations.mods.horsepower.choppingRecipes;
-
 	// Add the Grindstone Recipes.
 	for time, grindRecipes in grinderRecipes {
 		for itemRecipe in grindRecipes {

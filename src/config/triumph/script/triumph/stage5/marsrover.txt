@@ -1,8 +1,8 @@
-setTitle("Roving Around")
+setTranslatedTitle("advancements.stage5.marsrover.title")
 
 setIcon("extraplanets:mars_rover")
 
-setDescription("Traveling around Mars can be a bit slow, craft and use the Mars Rover! Find the NASA Workbench Schemetic as possible loot in dungeons")
+setTranslatedDescription("advancements.stage5.marsrover.description")
 
 addParent("triumph:stage5/t2rocket")
 setRequiresParents()
@@ -25,4 +25,4 @@ criteria4.setItem("extraplanets:mars_rover", 3)
 //Rewards
 setRewardExperience(15)
 
-
+visibleIf("triumph:stage5/root")

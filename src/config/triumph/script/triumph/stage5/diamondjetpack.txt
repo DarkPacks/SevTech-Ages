@@ -1,8 +1,8 @@
-setTitle("Diamond Jetpack")
+setTranslatedTitle("advancements.stage5.diamondjetpack.title")
 
 setIcon("ironjetpacks:diamond_jetpack")
 
-setDescription("Upgrade to the Diamond Jetpack")
+setTranslatedDescription("advancements.stage5.diamondjetpack.description")
 
 addParent("triumph:stage5/electrumjetpack")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("ironjetpacks:diamond_jetpack")
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

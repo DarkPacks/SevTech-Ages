@@ -1,23 +1,20 @@
 {
-  "jetpack_type": {
-    "name": "emerald",
-    "disable": false,
-    "tier": 2,
-    "color": 4322180,
-    "armor_points": 4,
-    "enchantability": 15,
-    "crafting_material": "ore:gemEmerald",
-    "force_recipes": false
-  },
-  "jetpack_info": {
-    "capacity": 100000000,
-    "usage": 880,
-    "speed_vertical": 1.03,
-    "accel_vertical": 0.17,
-    "speed_sideways": 0.21,
-    "speed_hover_descend": 0.45,
-    "speed_hover": 0.0,
-    "sprint_speed_multi": 2.0,
-    "sprint_fuel_multi": 4.0
-  }
+  "name": "emerald",
+  "disable": false,
+  "tier": 2,
+  "color": "41f384",
+  "armorPoints": 4,
+  "enchantability": 15,
+  "craftingMaterial": "ore:gemEmerald",
+  "forceRecipes": false,
+  "rarity": 0,
+  "capacity": 100000000,
+  "usage": 880,
+  "speedVertical": 1.03,
+  "accelVertical": 0.17,
+  "speedSideways": 0.21,
+  "speedHoverDescend": 0.45,
+  "speedHover": 0.0,
+  "sprintSpeedMulti": 2.0,
+  "sprintFuelMulti": 4.0
 }

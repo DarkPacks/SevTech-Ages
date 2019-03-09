@@ -1,8 +1,8 @@
-setTitle("�5�lThe Wheels on the Bus")
+setTranslatedTitle("advancements.stage0.wheel.title")
 
 setIcon("astikoor:wheel")
 
-setDescription("Craft the wheel from Astikoor to use on Horse Carts. Use the Astikoor action key to attach horses to carts")
+setTranslatedDescription("advancements.stage0.wheel.description")
 
 addParent("triumph:stage0/saddle")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("astikoor:wheel", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

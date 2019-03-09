@@ -1,8 +1,8 @@
-setTitle("�1�lLost but Now Found")
+setTranslatedTitle("advancements.stage0.atlas.title")
 
 setIcon("antiqueatlas:empty_antique_atlas")
 
-setDescription("Trade for an Antique Atlas map from a Cartographer or Librarian Villager")
+setTranslatedDescription("advancements.stage0.atlas.description")
 
 addParent("triumph:stage0/workblade")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("antiqueatlas:empty_antique_atlas")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

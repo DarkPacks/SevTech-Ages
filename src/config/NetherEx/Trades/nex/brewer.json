@@ -1,0 +1,106 @@
+{
+    "career": "brewer",
+    "trades": [
+        {
+            "output": {
+                "item": "nex:spore",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 5
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:magma_cream",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:glass_bottle",
+                "meta": 0,
+                "minStackSize": 3,
+                "maxStackSize": 6
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:blaze_powder",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 6,
+                "maxStackSize": 12
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:nether_wart",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 6
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 3,
+                "maxStackSize": 4
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "minecraft:speckled_melon",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "itemBlock": "nex:amethyst_block",
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 2,
+            "tradeLevel": 3
+        }
+    ]
+}

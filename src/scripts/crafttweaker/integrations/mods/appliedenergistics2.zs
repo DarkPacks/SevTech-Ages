@@ -43,9 +43,6 @@ static rs as IItemStack[string][string] = {
 };
 
 function init() {
-	var ae as IItemStack[string][string] = scripts.crafttweaker.integrations.mods.appliedenergistics2.ae;
-	var rs as IItemStack[string][string] = scripts.crafttweaker.integrations.mods.appliedenergistics2.rs;
-
 	// Re-create silicon recipe
 	appliedEnergistics.removeInscribe(ae.printed.silicon);
 	appliedEnergistics.addInscribe(ae.printed.silicon, <ore:itemSilicon>, true, ae.press.silicon);
@@ -73,13 +70,12 @@ function init() {
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:1>, <refinedstorage:upgrade:0>, false, <minecraft:ender_pearl:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:2>, <refinedstorage:upgrade:0>, false, <minecraft:sugar:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:3>, <refinedstorage:upgrade:0>, false, <ore:workbench>, <minecraft:redstone:0>);
-	appliedEnergistics.addInscribe(<refinedstorage:upgrade:5>, <refinedstorage:upgrade:0>, false, <minecraft:nether_star:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:6>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:silk_touch>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:7>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 35 as short}]}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(2).makeTag().ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(3).makeTag().ench}), <minecraft:redstone:0>);
 }

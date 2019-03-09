@@ -1,8 +1,8 @@
-setTitle("This is Getting Strainuous")
+setTranslatedTitle("advancements.stage0.waterstrainer.title")
 
 setIcon("waterstrainer:strainer_survivalist_dense", 0)
 
-setDescription("If you cannot locate certain resources from under water, use a Water Strainer Base and insert a Strainer. Each Strainer type has a different loot table. Make sure to check them out! You'll need to craft the Strainer Base and a Dense Survivalist's Strainer to complete the advancement")
+setTranslatedDescription("advancements.stage0.waterstrainer.description")
 
 addParent("triumph:stage0/workstump")
 setRequiresParents()
@@ -16,3 +16,5 @@ criteria2.setItem("waterstrainer:strainer_base", 0)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage0/root")

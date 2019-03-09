@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.Utils;
 
 import scripts.crafttweaker.utils;
+import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
 
@@ -134,7 +135,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[[<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]]
 	],
 	<minecraft:wooden_slab:5> * 3: [
-		[[<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>]]
+		[[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]]
 	],
 	<minecraft:stone_sword:0>: [
 		[[<minecraft:cobblestone:0>], [<minecraft:cobblestone:0>], [<ore:stickWood>]]
@@ -161,6 +162,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:plankWood>, null, <ore:plankWood>],
 			[null, <primalchests:primal_chest_advanced:0>, null],
 			[<ore:plankWood>, null, <ore:plankWood>]
+		],
+		[
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, null, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		],
+		[
+			[sidingWood, sidingWood, sidingWood],
+			[sidingWood, null, sidingWood],
+			[sidingWood, sidingWood, sidingWood]
 		]
 	],
 	<minecraft:arrow:0> * 4: [
@@ -689,6 +700,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
+	<minecraft:jukebox:0>: {
+		Utils.genRecipeName(stageThree, "jukebox"): [
+			[
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+				[<ore:plankWood>, <minecraft:quartz:0>, <ore:plankWood>],
+				[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
+		]
+	},
 	<ore:dyeBlack>.firstItem: {
 		Utils.genRecipeName(stageFive, <ore:dyeBlack>.firstItem): [
 			[
@@ -844,7 +864,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<minecraft:torch:0> * 2: [
 		[<minecraft:coal:*>, <ore:cordageGeneral>, <ore:stickWood>],
-		[<minecraft:coal:*>, <primal_tech:fibre_torch>]
+		[<minecraft:coal:*>, <ore:fibreTorch>]
 	],
 	<minecraft:book:0>: [
 		[<minecraft:paper:0>, <minecraft:leather:0>, <minecraft:paper:0>, <betterwithmods:material:12>]
@@ -865,7 +885,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	// ==================================
 	// Stage Three
 	// ==================================
-	<minecraft:torch:0> * 2: {
+	<minecraft:torch:0> * 4: {
 		Utils.genRecipeName(stageThree, "torch"): [
 			[<immersiveengineering:material:6>, <betterwithmods:rope:0>, <ore:stickWood>]
 		]
@@ -918,6 +938,7 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:ender_chest:0>,
 	<minecraft:farmland:0>,
 	<minecraft:flint:0>,
+	<minecraft:furnace:0>,
 	<minecraft:glass:0>,
 	<minecraft:glass_bottle:0>,
 	<minecraft:glass_pane:0>,
@@ -1005,7 +1026,8 @@ static removeFurnace as IIngredient[] = [
 	<minecraft:leather:0>,
 	<minecraft:netherbrick:0>,
 	<minecraft:diamond:0>,
-	<minecraft:emerald:0>
+	<minecraft:emerald:0>,
+	<betterwithaddons:japanmat:4>
 ];
 
 static removeFurnaceInput as IIngredient[IIngredient] = {
@@ -1032,25 +1054,6 @@ function initElytraRecipe() {
 }
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.namedShapelessRecipes;
-
-	// Furnace recipes
-	var furnaceRecipes as IIngredient[][IItemStack] = scripts.crafttweaker.recipes.mods.minecraft.furnaceRecipes;
-
-	// Removals
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.minecraft.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.minecraft.removeRecipes;
-	var removeFurnace as IIngredient[] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnace;
-	var removeFurnaceInput as IIngredient[IIngredient] = scripts.crafttweaker.recipes.mods.minecraft.removeFurnaceInput;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

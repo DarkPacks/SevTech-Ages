@@ -1,8 +1,8 @@
-setTitle("Flint Sharpening")
+setTranslatedTitle("advancements.stage0.flintknapp.title")
 
 setIcon("minecraft:flint")
 
-setDescription("Left-click Flint against a hard rock to create Flaked Flint. Doing the same to Flaked Flint will give you a Flaked Flint Point")
+setTranslatedDescription("advancements.stage0.flintknapp.description")
 
 addParent("triumph:stage0/mesh")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("primal:flint_knapp")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

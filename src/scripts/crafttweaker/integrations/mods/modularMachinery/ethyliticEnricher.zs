@@ -7,13 +7,14 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import mods.modularmachinery.RecipeBuilder;
 import scripts.crafttweaker.utils;
 
 function init() {
 	// Machine name
 	var machineName = "ethylitic_enricher";
 
-	mods.modularmachinery.RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "fertilizer"), machineName, 200)
+	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "fertilizer"), machineName, 200)
 		.addEnergyPerTickInput(15)
 		.addItemOutput(<actuallyadditions:item_fertilizer:0> * 2)
 		.addFluidInput(<liquid:liquidethene> * 1000)

@@ -1,8 +1,8 @@
-setTitle("Ore Prospector")
+setTranslatedTitle("advancements.stage3.oreprospector.title")
 
 setIcon("prospectors:prospector_med")
 
-setDescription("Craft an Ore Prospector to locate ore in Age 3")
+setTranslatedDescription("advancements.stage3.oreprospector.description")
 
 addParent("triumph:stage3/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("prospectors:prospector_med")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

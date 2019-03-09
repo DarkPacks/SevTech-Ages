@@ -1,8 +1,8 @@
-setTitle("Stone Age!")
+setTranslatedTitle("advancements.stage0.stonetools.title")
 
 setIcon("minecraft:stone_pickaxe")
 
-setDescription("Craft a Stone Pickaxe to upgrade your aresenal")
+setTranslatedDescription("advancements.stage0.stonetools.description")
 
 addParent("triumph:stage0/upgrade")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:stone_pickaxe")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

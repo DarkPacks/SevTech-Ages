@@ -1,8 +1,8 @@
-setTitle("Filtered Hopper")
+setTranslatedTitle("advancements.stage3.filteredhopper.title")
 
 setIcon("betterwithmods:single_machine", 2)
 
-setDescription("Use the Filtered Hopper to collect Hellfire Dust and fill Soul Urns")
+setTranslatedDescription("advancements.stage3.filteredhopper.description")
 
 addParent("triumph:stage3/nether")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:single_machine", 2)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

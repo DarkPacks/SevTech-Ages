@@ -107,13 +107,10 @@ static multiblockMachinesForStages as string[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.hiddenRemove as IIngredient[], true);
-
-	var multiblockMachinesForStages as string[][string] =
-		scripts.crafttweaker.staging.itemsAndRecipes.mods.modularmachinery.multiblockMachinesForStages;
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 
 	for stageName, multiblockMachines in multiblockMachinesForStages {
 		for multiblockMachine in multiblockMachines {

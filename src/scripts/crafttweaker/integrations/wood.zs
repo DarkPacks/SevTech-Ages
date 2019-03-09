@@ -10,6 +10,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+import mods.betterwithmods.Kiln;
 import mods.betterwithmods.Saw;
 import mods.primaltech.WaterSaw;
 
@@ -173,10 +174,6 @@ static logsToRemove as IItemStack[] = [
 ];
 
 function init() {
-	// Imports
-	var plankLogPairs as IIngredient[][IItemStack] = scripts.crafttweaker.integrations.wood.plankLogPairs;
-	var logsToRemove as IItemStack[] = scripts.crafttweaker.integrations.wood.logsToRemove;
-
 	// Add the recipes needed.
 	for plank, logs in plankLogPairs {
 		for log in logs {
@@ -197,6 +194,10 @@ function init() {
 					.buildRecipe(log, [plank * 6, <ore:dustWood>.firstItem * 2])
 					.setInputBlockDrop(logItem as IItemStack)
 					.build();
+				Kiln.builder()
+					.buildRecipe(log, [<primal_tech:charcoal_block>])
+					.setHeat(2)
+					.build();
 
 				// Mekanism
 				mekanism.addSawmill(logItem, plank * 6, <ore:dustWood>.firstItem * 2, 0.25);
@@ -207,5 +208,12 @@ function init() {
 	// Remove the recipes for the log.
 	for log in logsToRemove {
 		mekanism.removeSawmill(log);
+	}
+
+	// Better stick recipes. (Lower tech recipe to use slabs to convert to sticks before players unlock higher tech)
+	for slab in <ore:slabWood>.items {
+		Saw.builder()
+			.buildRecipe(slab, [<minecraft:stick> * 4])
+			.build();
 	}
 }

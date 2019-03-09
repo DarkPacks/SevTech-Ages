@@ -1,8 +1,8 @@
-setTitle("Certus Quartz")
+setTranslatedTitle("advancements.stage4.certusquartz.title")
 
 setIcon("appliedenergistics2:material")
 
-setDescription("Find an Assorted Quartz surface sample and dig for Certus Quartz! The ore is located between Y6 and Y40")
+setTranslatedDescription("advancements.stage4.certusquartz.description")
 
 addParent("triumph:stage4/prospector4")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:material")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

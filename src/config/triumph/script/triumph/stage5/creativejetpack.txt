@@ -1,8 +1,8 @@
-setTitle("Creative Jetpack")
+setTranslatedTitle("advancements.stage5.creativejetpack.title")
 
 setIcon("ironjetpacks:creative_jetpack")
 
-setDescription("Craft the Creative Jetpack")
+setTranslatedDescription("advancements.stage5.creativejetpack.description")
 
 addParent("triumph:stage5/ultimateingot")
 setRequiresParents()
@@ -14,3 +14,5 @@ criteria.setItem("ironjetpacks:creative_jetpack")
 //Rewards
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
+
+visibleIf("triumph:stage5/root")

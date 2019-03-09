@@ -1,8 +1,8 @@
-setTitle("All Mixed Up")
+setTranslatedTitle("advancements.stage1.alloykiln.title")
 
 setIcon("immersiveengineering:stone_device", 7)
 
-setDescription("Build the Alloy Kiln from Immersive Engineering to create bronze. You'll need 8 Kiln bricks in a 2x2x2 and Right-Click with the Engineer's Hammer to create the structure")
+setTranslatedDescription("advancements.stage1.alloykiln.description")
 
 addParent("triumph:stage1/copper")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:stone_decoration", 10)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

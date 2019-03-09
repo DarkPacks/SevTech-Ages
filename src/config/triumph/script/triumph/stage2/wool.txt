@@ -1,8 +1,8 @@
-setTitle("Wooly Blankets")
+setTranslatedTitle("advancements.stage2.wool.title")
 
 setIcon("minecraft:wool")
 
-setDescription("Craft some wool from Fleece and Wicker")
+setTranslatedDescription("advancements.stage2.wool.description")
 
 addParent("triumph:stage2/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:wool")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

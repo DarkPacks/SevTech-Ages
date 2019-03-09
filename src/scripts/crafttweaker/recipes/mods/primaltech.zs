@@ -31,11 +31,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:charcoal_hopper> : [
 		[
-			[null, null, null],
-			[null, <tconstruct:firewood:0>, null],
-			[null, <primal_tech:wooden_hopper>, null]
-		],
-		[
 			[<totemic:cedar_plank:0>, <abyssalcraft:shadowgem:0>, <totemic:cedar_plank:0>],
 			[<betterwithmods:material:37>, <primal:shark_tooth:0>, <betterwithmods:material:37>],
 			[null, <primal_tech:wooden_hopper>, null]
@@ -77,24 +72,24 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:work_stump>: [
 		[
-			[<horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>],
 			[<ore:logWood>]
 		]
 	],
 	<primal_tech:work_stump_upgraded>: [
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <minecraft:log2:1>, null]
 		],
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <natura:overworld_logs2:1>, null]
 		],
 		[
 			[null, <immcraft:shelf:0>, null],
-			[<horsepower:chopping_block:0>, <primal_tech:work_stump>, <horsepower:chopping_block:0>],
+			[<horsepower:chopping_block>, <primal_tech:work_stump>, <horsepower:chopping_block>],
 			[null, <natura:overworld_logs2:3> | <betterwithaddons:log_sakura:0>, null]
 		]
 	],
@@ -189,6 +184,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<primal_tech:charcoal_hopper>: {
+		Utils.genRecipeName(stageOne, "charcoal_hopper"): [
+			[
+				[null, null, null],
+				[null, <tconstruct:firewood:0>, null],
+				[null, <primal_tech:wooden_hopper>, null]
+			]
+		],
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [
 			[
 				[null, null, null],
@@ -223,7 +225,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<primal_tech:leaf_bed>,
 	<primal_tech:rock>,
 	<primal_tech:stone_anvil>,
@@ -231,18 +233,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.primaltech.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.primaltech.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

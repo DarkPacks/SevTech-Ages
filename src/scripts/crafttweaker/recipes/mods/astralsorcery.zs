@@ -55,6 +55,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<astralsorcery:itemcraftingcomponent:5>: {
+		Utils.genRecipeName(stageTwo, <astralsorcery:itemcraftingcomponent:5>): [
+			[
+				[null, <minecraft:paper:0>, null],
+				[<minecraft:paper:0>, <astralsorcery:itemcraftingcomponent:0>, <minecraft:paper:0>],
+				[null, <minecraft:paper:0>, null]
+			]
+		]
+	},
 	<astralsorcery:itemjournal:0>: {
 		Utils.genRecipeName(stageTwo, <astralsorcery:itemjournal:0>): [
 			[
@@ -87,23 +96,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
+	<astralsorcery:itemcraftingcomponent:5>,
+	<astralsorcery:itemjournal:0>,
 	<astralsorcery:itemwand:0>
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.astralsorcery.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.astralsorcery.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

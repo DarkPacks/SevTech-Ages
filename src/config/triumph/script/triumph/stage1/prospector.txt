@@ -1,8 +1,8 @@
-setTitle("Prospecting")
+setTranslatedTitle("advancements.stage1.prospector.title")
 
 setIcon("prospectors:prospector_lowest")
 
-setDescription("Craft a Weak Dowsing Rod to help you locate ore")
+setTranslatedDescription("advancements.stage1.prospector.description")
 
 addParent("triumph:stage1/crafting")
 setRequiresParents()
@@ -24,3 +24,5 @@ setRewardItem("geolosys:field_manual", 0, 1)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

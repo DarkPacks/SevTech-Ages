@@ -1,8 +1,8 @@
-setTitle("Sound Muffler")
+setTranslatedTitle("advancements.stage3.soundmuffler.title")
 
 setIcon("supersoundmuffler:sound_muffler")
 
-setDescription("Loud noises driving you crazy? Place down a Super Sound Muffler and configure it to mute the sounds you don't want to hear any more")
+setTranslatedDescription("advancements.stage3.soundmuffler.description")
 
 addParent("triumph:stage3/redstone")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("supersoundmuffler:sound_muffler")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

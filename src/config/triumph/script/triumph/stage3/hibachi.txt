@@ -1,8 +1,8 @@
-setTitle("Hibachi")
+setTranslatedTitle("advancements.stage3.hibachi.title")
 
 setIcon("betterwithmods:hibachi")
 
-setDescription("The Better With Mods Hibachi will allow you to have a Stoked Fire below your Cauldron and Crucible")
+setTranslatedDescription("advancements.stage3.hibachi.description")
 
 addParent("triumph:stage3/filteredhopper")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("betterwithmods:hibachi")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

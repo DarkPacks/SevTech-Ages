@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 
 import scripts.crafttweaker.craftingUtils;
 
+import mods.horsepower.Recipes;
+
 /*
     Shaped Recipes
 */
@@ -61,29 +63,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 
-/*
-    Recipe Removals
-*/
-static removeRecipes as IIngredient[] = [
-	<horsepower:dough:0>,
-	<horsepower:grindstone:0>,
-	<horsepower:hand_grindstone:0>,
-	<horsepower:press:0>,
-];
-
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.horsepower.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.horsepower.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
@@ -94,5 +74,11 @@ function init() {
     recipeUtil.processNamed(namedMirroredRecipes, true);
     recipeUtil.processNamed(namedShapelessRecipes);
 
-	recipeUtil.removeRecipes(removeRecipes);
+	/*
+		Dynamic Chopping Block Recipes
+
+		https://github.com/GoryMoon/HorsePower/wiki/CraftTweaker-Support
+	*/
+	Recipes.addShapeless(<ore:logWood>, <horsepower:chopping_block>, [<ore:logWood>]);
+	Recipes.addShaped(<horsepower:chopping_block>, <horsepower:chopper>, [[<minecraft:lead:0>, <ore:stickWood>, <minecraft:lead:0>], [<ore:plankWood>, <minecraft:flint:0>, <ore:plankWood>], [<ore:plankWood>, <horsepower:chopping_block>, <ore:plankWood>]]);
 }

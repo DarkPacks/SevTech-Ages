@@ -266,7 +266,7 @@ static descriptionPairs as string[][IItemStack] = {
 };
 
 function init() {
-	for item, descriptionArray in scripts.crafttweaker.itemModifiers.descriptions.descriptionPairs {
+	for item, descriptionArray in descriptionPairs {
 		JEI.addDescription(item, descriptionArray);
 	}
 }

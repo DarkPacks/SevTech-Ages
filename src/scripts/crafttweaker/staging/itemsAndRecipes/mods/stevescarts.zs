@@ -73,7 +73,6 @@ static stagedItems as IIngredient[][string] = {
 		<stevescarts:cartmodule:57>,
 		<stevescarts:cartmodule:58>,
 		<stevescarts:cartmodule:59>,
-		<stevescarts:cartmodule:61>,
 		<stevescarts:cartmodule:62>,
 		<stevescarts:cartmodule:63>,
 		<stevescarts:cartmodule:64>,
@@ -84,10 +83,8 @@ static stagedItems as IIngredient[][string] = {
 		<stevescarts:cartmodule:69>,
 		<stevescarts:cartmodule:70>,
 		<stevescarts:cartmodule:71>,
-		<stevescarts:cartmodule:72>,
 		<stevescarts:cartmodule:73>,
 		<stevescarts:cartmodule:75>,
-		<stevescarts:cartmodule:76>,
 		<stevescarts:cartmodule:77>,
 		<stevescarts:cartmodule:78>,
 		<stevescarts:cartmodule:79>,
@@ -211,9 +208,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.stevescarts.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.stevescarts.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.stevescarts.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

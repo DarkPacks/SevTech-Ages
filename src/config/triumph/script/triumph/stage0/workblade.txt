@@ -1,8 +1,8 @@
-setTitle("Working for the Weekend")
+setTranslatedTitle("advancements.stage0.workblade.title")
 
 setIcon("primal:flint_workblade")
 
-setDescription("If you want to work, you'll need a work blade. Among many other uses, you may use it to break leaves and rushes quickly")
+setTranslatedDescription("advancements.stage0.workblade.description")
 
 addParent("triumph:stage0/upgrade")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("primal:flint_workblade")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

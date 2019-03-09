@@ -1,8 +1,8 @@
-setTitle("Liquify")
+setTranslatedTitle("advancements.stage2.lightwell.title")
 
 setIcon("astralsorcery:blockwell")
 
-setDescription("The Lightwell from Astral Sorcery will allow certain items to be liquefied into Liquid Starlight")
+setTranslatedDescription("advancements.stage2.lightwell.description")
 
 addParent("triumph:stage2/conpaper")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("astralsorcery:blockwell")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

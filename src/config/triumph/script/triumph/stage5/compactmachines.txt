@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage5.compactmachines.title")
+
+setIcon("compactmachines3:fieldprojector", 0)
+
+setTranslatedDescription("advancements.stage5.compactmachines.description")
+
+addParent("triumph:stage5/diamond")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("compactmachines3:fieldprojector", 0)
+
+//Rewards
+setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

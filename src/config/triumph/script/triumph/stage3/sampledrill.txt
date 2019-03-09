@@ -1,8 +1,8 @@
-setTitle("A Small Sample")
+setTranslatedTitle("advancements.stage3.sampledrill.title")
 
 setIcon("immersiveengineering:metal_device1", 7)
 
-setDescription("Use the Core Sample Drill to locate both Ore Veins and Liquid under the surface per chunk. Don't forget it requires power and you can place the Samples on the ground by Shift-Clicking")
+setTranslatedDescription("advancements.stage3.sampledrill.description")
 
 addParent("triumph:stage3/circuitboard")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("immersiveengineering:metal_device1", 7)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

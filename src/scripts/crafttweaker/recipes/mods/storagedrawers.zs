@@ -46,7 +46,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<storagedrawers:controller:0> : [
 		[
-			[metals.platinum.plate, <nex:block_amethyst:0>, metals.platinum.plate],
+			[metals.platinum.plate, <nex:amethyst_block:0>, metals.platinum.plate],
 			[<immersiveengineering:metal_decoration0:3>, <ore:drawerTrim>, <immersiveengineering:metal_decoration0:3>],
 			[metals.platinum.plate, <astralsorcery:itemcraftingcomponent:1>, metals.platinum.plate]
 		]
@@ -63,13 +63,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>],
 			[metals.gold.ingot, <storagedrawers:upgrade_template:0>, metals.gold.ingot],
 			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>]
-		]
-	],
-	<storagedrawers:controller:0> : [
-		[
-			[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
-			[<minecraft:comparator:0>, <ore:drawerTrim>, <minecraft:comparator:0>],
-			[metals.compressedIron.plate, metals.redstoneAlloy.plate, metals.compressedIron.plate]
 		]
 	],
 	<storagedrawers:compdrawers:0> : [
@@ -96,6 +89,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<storagedrawers:controller:0> : {
+		Utils.genRecipeName(stageFour, <storagedrawers:controller:0>) : [
+			[
+				[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
+				[<minecraft:comparator:0>, <ore:drawerTrim>, <minecraft:comparator:0>],
+				[metals.compressedIron.plate, metals.redstoneAlloy.plate, metals.compressedIron.plate]
+			]
+		]
+	}
 };
 
 /*
@@ -119,7 +121,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<storagedrawers:compdrawers:0>,
 	<storagedrawers:controller:0>,
 	<storagedrawers:controllerslave:0>,
@@ -131,18 +133,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.storagedrawers.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.storagedrawers.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

@@ -1,8 +1,8 @@
-setTitle("Propene and Propene Accessories")
+setTranslatedTitle("advancements.stage3.propene.title")
 
 setIcon("forge:bucketfilled", 0, {FluidName: "propene", Amount: 1000})
 
-setDescription("Using a Modular Machinery Chemical Mixer will allow you to mix Naphtha and Steam to create Propene. Grab a bucket to progress towards plastic")
+setTranslatedDescription("advancements.stage3.propene.description")
 
 addParent("triumph:stage3/steam")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.addItem("forge:bucketfilled", 0, {FluidName: "propene", Amount: 1000})
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

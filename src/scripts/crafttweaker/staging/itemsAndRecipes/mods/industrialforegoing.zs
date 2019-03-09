@@ -5,7 +5,6 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
-import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -42,6 +41,7 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:fluid_transfer_addon_pull:0>,
 		<industrialforegoing:fluid_transfer_addon_push:0>,
 		<industrialforegoing:fluiddictionary_converter:0>,
+		<industrialforegoing:froster:0>,
 		<industrialforegoing:hydrator:0>,
 		<industrialforegoing:item_splitter:0>,
 		<industrialforegoing:itemstack_transfer_addon_pull:0>,
@@ -56,9 +56,9 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:mob_relocator:0>,
 		<industrialforegoing:mob_slaughter_factory:0>,
 		<industrialforegoing:ore_processor:0>,
-		<industrialforegoing:oredictionary_converter:0>,
 		<industrialforegoing:petrified_fuel_generator:0>,
 		<industrialforegoing:pink_slime:0>,
+		<industrialforegoing:pink_slime_ingot:0>,
 		<industrialforegoing:plant_interactor:0>,
 		<industrialforegoing:potion_enervator:0>,
 		<industrialforegoing:protein_generator:0>,
@@ -90,11 +90,13 @@ static stagedItems as IIngredient[][string] = {
 		<industrialforegoing:black_hole_controller:0>,
 		<industrialforegoing:black_hole_label:0>,
 		<industrialforegoing:black_hole_tank:0>,
-		<industrialforegoing:black_hole_unit:0>
+		<industrialforegoing:black_hole_unit:0>,
+		<industrialforegoing:fortune_addon:0>
 	]
 };
 
 static hiddenRemove as IIngredient[] = [
+	<industrialforegoing:infinity_drill:*>,
 	<industrialforegoing:laser_base:0>,
 	<industrialforegoing:laser_drill:0>,
 	<industrialforegoing:laser_lens:*>,
@@ -102,8 +104,8 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.industrialforegoing.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.industrialforegoing.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

@@ -18,6 +18,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageZero.stage: [
 		<pickletweaks:coal_piece:1>,
+		<pickletweaks:colored_cobblestone:*>,
 		<pickletweaks:dye_powder:1>,
 		<pickletweaks:dye_powder:2>,
 		<pickletweaks:dye_powder:3>,
@@ -57,6 +58,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageTwo.stage: [
+		<pickletweaks:dark_glass:0>,
 		<pickletweaks:repair_kit:2>,
 		<pickletweaks:repair_kit:3>,
 		<pickletweaks:repair_kit:17>,
@@ -100,9 +102,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.pickletweaks.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

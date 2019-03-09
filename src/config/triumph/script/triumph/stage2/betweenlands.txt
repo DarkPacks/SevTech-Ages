@@ -1,8 +1,8 @@
-setTitle("The Betweenlands")
+setTranslatedTitle("advancements.stage2.betweenlands.title")
 
 setIcon("thebetweenlands:swamp_talisman")
 
-setDescription("Locate a Druid Circle in Swamp Biome, kill the druids, and use their talisman pieces to create the Swamp Talisman. Click the Talisman on a placed Sapling to create the large portal to the Betweenlands")
+setTranslatedDescription("advancements.stage2.betweenlands.description")
 
 addParent("triumph:stage2/root")
 
@@ -12,3 +12,5 @@ criteria.setDimensionDestination("betweenlands")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

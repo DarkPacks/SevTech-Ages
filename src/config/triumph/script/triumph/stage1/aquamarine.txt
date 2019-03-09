@@ -1,8 +1,8 @@
-setTitle("The Search for Aquamarine")
+setTranslatedTitle("advancements.stage1.aquamarine.title")
 
 setIcon("contenttweaker:sub_block_holder_0", 0)
 
-setDescription("Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore")
+setTranslatedDescription("advancements.stage1.aquamarine.description")
 
 addParent("triumph:stage1/beneath")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("astralsorcery:itemcraftingcomponent", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

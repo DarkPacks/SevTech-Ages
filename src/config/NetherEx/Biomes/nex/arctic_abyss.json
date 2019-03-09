@@ -1,0 +1,259 @@
+{
+  "biome": "nex:arctic_abyss",
+  "weight": 2,
+  "enabled": true,
+  "genDefaultFeatures": true,
+  "blocks": {
+    "topBlock": {
+      "block": "nex:frostburn_ice"
+    },
+    "fillerBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "icy"
+      }
+    },
+    "wallBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "icy"
+      }
+    },
+    "ceilingBottomBlock": {
+      "block": "nex:frostburn_ice"
+    },
+    "ceilingFillerBlock": {
+      "block": "nex:netherrack",
+      "properties": {
+        "type": "icy"
+      }
+    },
+    "oceanBlock": {
+      "block": "minecraft:magma"
+    }
+  },
+  "entities": [
+    {
+      "entity": "minecraft:ghast",
+      "creatureType": "monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "minecraft:zombie_pigman",
+      "creatureType": "monster",
+      "weight": 25,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "nex:bone_spider",
+      "creatureType": "monster",
+      "weight": 35,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "nex:wight",
+      "creatureType": "monster",
+      "weight": 75,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "nex:brute",
+      "creatureType": "monster",
+      "weight": 15,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "natura:heatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:babyheatscarspider",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": false
+    },
+    {
+      "entity": "natura:nitrocreeper",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 4,
+      "maxGroupCount": 6,
+      "spawn": false
+    },
+    {
+      "entity": "primal:creeper_nether",
+      "creatureType": "monster",
+      "weight": 3,
+      "minGroupCount": 0,
+      "maxGroupCount": 1,
+      "spawn": false
+    },
+    {
+      "entity": "natura:imp",
+      "creatureType": "creature",
+      "weight": 10,
+      "minGroupCount": 8,
+      "maxGroupCount": 12,
+      "spawn": false
+    },
+    {
+      "entity": "primal:canis_campestris",
+      "creatureType": "creature",
+      "weight": 6,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": false
+    },
+    {
+      "entity": "primal:bear_black",
+      "creatureType": "creature",
+      "weight": 4,
+      "minGroupCount": 0,
+      "maxGroupCount": 2,
+      "spawn": false
+    },
+    {
+      "entity": "primal:ovis_atre",
+      "creatureType": "creature",
+      "weight": 90,
+      "minGroupCount": 1,
+      "maxGroupCount": 6,
+      "spawn": false
+    }
+  ],
+  "features": [
+    {
+      "feature": "lex:scatter",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "nex:blue_fire"
+      },
+      "blockToTarget": {
+        "block": "nex:frostburn_ice"
+      },
+      "placement": "on_ground",
+      "genAttempts": 5,
+      "genProbability": 1.0,
+      "randomizeGenAttempts": true,
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
+    },
+    {
+      "feature": "lex:cluster",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:glowstone"
+      },
+      "blockToAttachTo": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "icy"
+        }
+      },
+      "direction": "down",
+      "genAttempts": 10,
+      "genProbability": 1.0,
+      "randomizeGenAttempts": true,
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
+    },
+    {
+      "feature": "lex:cluster",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "minecraft:glowstone"
+      },
+      "blockToAttachTo": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "icy"
+        }
+      },
+      "direction": "down",
+      "genAttempts": 10,
+      "genProbability": 1.0,
+      "randomizeGenAttempts": false,
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
+    },
+    {
+      "feature": "lex:ore",
+      "genStage": "ore",
+      "blockToSpawn": {
+        "block": "nex:quartz_ore",
+        "properties": {
+          "type": "icy"
+        }
+      },
+      "blockToReplace": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "icy"
+        }
+      },
+      "veinSize": 14,
+      "genAttempts": 16,
+      "genProbability": 1.0,
+      "randomizeGenAttempts": false,
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
+    },
+    {
+      "feature": "lex:ore",
+      "genStage": "ore",
+      "blockToSpawn": {
+        "block": "nex:rime_ore"
+      },
+      "blockToReplace": {
+        "block": "nex:netherrack",
+        "properties": {
+          "type": "icy"
+        }
+      },
+      "veinSize": 7,
+      "genAttempts": 16,
+      "genProbability": 1.0,
+      "randomizeGenAttempts": false,
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
+    },
+    {
+      "feature": "lex:pool",
+      "genStage": "populate",
+      "blockToSpawn": {
+        "block": "nex:ichor"
+      },
+      "blockToSurround": {
+        "block": "nex:frostburn_ice"
+      },
+      "genAttempts": 1,
+      "genProbability": 0.125,
+      "randomizeGenAttempts": false,
+      "generate": true,
+      "minGenHeight": 36,
+      "maxGenHeight": 96
+    }
+  ]
+}

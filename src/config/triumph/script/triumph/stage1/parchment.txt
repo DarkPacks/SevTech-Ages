@@ -1,8 +1,8 @@
-setTitle("Something to Write On")
+setTranslatedTitle("advancements.stage1.parchment.title")
 
 setIcon("astralsorcery:itemcraftingcomponent", 5)
 
-setDescription("Begin keeping records of your knowledge on Parchment. It requires the bark from Mulberry trees which spawn out in the world")
+setTranslatedDescription("advancements.stage1.parchment.description")
 
 addParent("triumph:stage1/aquamarine")
 setRequiresParents()
@@ -25,3 +25,5 @@ criteria2.setItem("astralsorcery:itemcraftingcomponent", 5)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

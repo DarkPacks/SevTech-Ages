@@ -1,8 +1,8 @@
-setTitle("Leather, Rinse, Repeat")
+setTranslatedTitle("advancements.stage0.leather.title")
 
 setIcon("minecraft:leather")
 
-setDescription("Acquire Leather!")
+setTranslatedDescription("advancements.stage0.leather.description")
 
 addParent("triumph:stage0/fluidbladder")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:leather")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

@@ -69,5 +69,13 @@ function init() {
 			.addItemInput(<betterwithaddons:japanmat:4> * 4)
 			.addFluidInput(<liquid:water> * 250)
 			.build();
+
+		RecipeBuilder.newBuilder(utils.createRecipeName(machineNameComplete, "chocolate"), machineNameComplete, 300 / defaultTimeScaler)
+			.addEnergyPerTickInput(20 * energyScalingMultiplier[i])
+			.addItemOutput(<betterwithmods:chocolate:0> * 2)
+			.addItemInput(<minecraft:sugar:0>)
+			.addItemInput(<ore:foodCocoapowder>)
+			.addFluidInput(<liquid:milk> * 1000)
+			.build();
 	}
 }

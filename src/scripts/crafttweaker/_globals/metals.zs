@@ -237,6 +237,16 @@ global metals as IOreDictEntry[string][string] = {
 		plate: null,
 		rod: null
 	},
+	meteoricIron: {
+		block: <ore:blockMeteoricIron>,
+		dust: <ore:dustMeteoricIron>,
+		gear: null,
+		ingot: <ore:ingotMeteoricIron>,
+		nugget: null,
+		ore: <ore:oreMeteoricIron>,
+		plate: null,
+		rod: null
+	},
 	modularium: {
 		block: null,
 		dust: null,

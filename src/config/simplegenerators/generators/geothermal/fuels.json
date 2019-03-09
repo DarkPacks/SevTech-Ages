@@ -1,0 +1,18 @@
+[
+  {
+    "energy_per_mb": 120,
+    "id": "lava"
+  },
+  {
+    "energy_per_mb": 2000,
+    "id": "pyrotheum"
+  },
+  {
+    "energy_per_mb": 40,
+    "id": "ic2hot_coolant"
+  },
+  {
+    "energy_per_mb": 80,
+    "id": "ic2pahoehoe_lava"
+  }
+]

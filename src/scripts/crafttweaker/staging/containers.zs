@@ -40,8 +40,6 @@ static ALL_STAGES as Stage[] = [
 ];
 
 function init() {
-	var allStages as Stage[] = scripts.crafttweaker.staging.containers.ALL_STAGES;
-
 	/*
 		Container Staging
 	*/
@@ -52,13 +50,13 @@ function init() {
 		Package Staging
 	*/
 	// AE Crafting Terminal
-	ZenStager.addPackage("appeng", allStages);
+	ZenStager.addPackage("appeng", ALL_STAGES);
 
 	// RS Crafting Grid
-	ZenStager.addPackage("com.raoulvdberge.refinedstorage", allStages);
+	ZenStager.addPackage("com.raoulvdberge.refinedstorage", ALL_STAGES);
 
 	// RFtools Crafters
-	ZenStager.addPackage("mcjty.rftools.blocks.crafter", allStages);
+	ZenStager.addPackage("mcjty.rftools.blocks.crafter", ALL_STAGES);
 
 	// Inductive Logistics Automatic Crafters
 	ZenStager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
@@ -67,5 +65,5 @@ function init() {
 	ZenStager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
-	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", allStages);
+	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
 }

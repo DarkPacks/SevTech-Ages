@@ -1,8 +1,8 @@
-setTitle("Upgrade your crafting")
+setTranslatedTitle("advancements.stage1.crafting.title")
 
 setIcon("minecraft:crafting_table")
 
-setDescription("Craft a regular table")
+setTranslatedDescription("advancements.stage1.crafting.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("minecraft:crafting_table", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

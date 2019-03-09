@@ -1,8 +1,8 @@
-setTitle("Tool Station")
+setTranslatedTitle("advancements.stage2.tcontable3.title")
 
 setIcon("tconstruct:tooltables", 3)
 
-setDescription("To build your new tools, you'll need a Tool Station")
+setTranslatedDescription("advancements.stage2.tcontable3.description")
 
 addParent("triumph:stage2/tcontable2")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("tconstruct:tooltables", 3)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

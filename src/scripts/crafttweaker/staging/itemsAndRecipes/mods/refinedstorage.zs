@@ -18,7 +18,8 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:network_card:0>,
 		<refinedstorage:quartz_enriched_iron_block:0>,
 		<refinedstorage:quartz_enriched_iron:0>,
-		<refinedstorage:security_card:0>
+		<refinedstorage:security_card:0>,
+		<refinedstorage:wrench:0>
 	],
 
 	stageFive.stage: [
@@ -79,7 +80,6 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:upgrade:2>,
 		<refinedstorage:upgrade:3>,
 		<refinedstorage:upgrade:4>,
-		<refinedstorage:upgrade:5>,
 		<refinedstorage:upgrade:6>,
 		<refinedstorage:upgrade:7>,
 		<refinedstorage:upgrade:8>,
@@ -92,8 +92,8 @@ static stagedItems as IIngredient[][string] = {
 		<refinedstorage:wireless_grid:1>,
 		<refinedstorage:wireless_grid:0>,
 		<refinedstorage:wireless_transmitter:0>,
-		<refinedstorage:wrench:0>,
-		<refinedstorage:writer:0>
+		<refinedstorage:writer:0>,
+		<refinedstorage:cutting_tool:1>
 	],
 
 	stageCreativeUnused.stage: [
@@ -110,27 +110,27 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<refinedstorage:processor:0>,
 	<refinedstorage:processor:1>,
 	<refinedstorage:processor:2>,
 	<refinedstorage:processor:3>,
 	<refinedstorage:processor:4>,
 	<refinedstorage:processor:5>,
 	<refinedstorage:processor:6>,
-	<refinedstorage:processor:0>,
-	<refinedstorage:solderer:0>
+	<refinedstorage:processor_binding:0>
 ];
 
 static hiddenRemove as IIngredient[] = [
 	// The beginning of bringing down the Minecraft community as we know it
 	// by combining AE2 and RS recipes to use many of the same items. DOWN WITH THE SYSTEM!
-	<refinedstorage:core:1>,
-	<refinedstorage:core:0>
+	<refinedstorage:core:0>,
+	<refinedstorage:core:1>
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorage.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

@@ -1,8 +1,8 @@
-setTitle("The Market")
+setTranslatedTitle("advancements.stage2.market.title")
 
 setIcon("farmingforblockheads:market")
 
-setDescription("Use the Farming for Blockheads Market to order Seeds and Saplings")
+setTranslatedDescription("advancements.stage2.market.description")
 
 addParent("triumph:stage2/gold")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("farmingforblockheads:market")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

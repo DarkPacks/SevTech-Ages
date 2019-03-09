@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.utils.stageRecipeNameOrRegex;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
@@ -13,19 +14,32 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFour.stage: [
 		<mysticalagradditions:stuff:3>
-	],
+	]
+};
 
+static stagedRecipeNames as string[][string] = {
 	stageFive.stage: [
-		<mysticalagradditions:dragon_egg_crop:0>,
-		<mysticalagradditions:nether_star_crop:0>,
-		<mysticalagradditions:nether_star_essence:0>,
-		<mysticalagradditions:tier6_inferium_crop:0>,
-		<mysticalagradditions:tinkering_table:0>
+		"REGEX:mysticalagradditions:.*"
 	]
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.mysticalagradditions.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
+	}
+
+	for stageName, recipeNames in stagedRecipeNames {
+		stageRecipeNameOrRegex(ZenStager.getStage(stageName), recipeNames);
+	}
+}
+
+function initOverride() {
+	for stageName, items in stagedItems {
+		if (stageName != stageFive.stage) {
+			for item in items {
+				mods.ItemStages.removeItemStage(item);
+				mods.ItemStages.addItemStage(stageName, item);
+			}
+		}
 	}
 }

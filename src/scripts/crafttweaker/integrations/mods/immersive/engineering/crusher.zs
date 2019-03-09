@@ -34,4 +34,6 @@ function init() {
 
 	// Remove wool -> minecraft dye and string.
 	immersiveEngineering.removeCrusher(<minecraft:string:0>);
+
+	immersiveEngineering.removeCrusher(<primal:quartz_vitrified:0>);
 }

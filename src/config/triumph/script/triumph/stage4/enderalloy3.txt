@@ -1,8 +1,8 @@
-setTitle("Advanced Ender Alloy")
+setTranslatedTitle("advancements.stage4.enderalloy3.title")
 
 setIcon("enderutilities:enderpart", 2)
 
-setDescription("Locate Purpur, End Rods, and a Shulker Shell to create Advanced Ender Alloy")
+setTranslatedDescription("advancements.stage4.enderalloy3.description")
 
 addParent("triumph:stage4/theend")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("enderutilities:enderpart", 2)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

@@ -42,6 +42,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron:0>, <refinedstorage:storage_part:0>, <refinedstorage:quartz_enriched_iron:0>]
 		]
 	],
+	<rebornstorage:multicrafter:4>: [
+		[
+			[<rebornstorage:multicrafter>, <appliedenergistics2:material:43>, <rebornstorage:multicrafter>],
+			[<appliedenergistics2:material:24>, <refinedstorage:interface:*>, <appliedenergistics2:material:24>],
+			[<rebornstorage:multicrafter>, <appliedenergistics2:material:44>, <rebornstorage:multicrafter>]
+		]
+	],
 	<rebornstorage:storagepart:0>: [
 		[
 			[<appliedenergistics2:material:24>, <refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:material:24>],
@@ -119,10 +126,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<rebornstorage:multicrafter:1>,
 	<rebornstorage:multicrafter:2>,
 	<rebornstorage:multicrafter:3>,
+	<rebornstorage:multicrafter:4>,
 	<rebornstorage:multicrafter:0>,
 	<rebornstorage:storagepart:1>,
 	<rebornstorage:storagepart:2>,
@@ -135,18 +143,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.rebornstorage.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.rebornstorage.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

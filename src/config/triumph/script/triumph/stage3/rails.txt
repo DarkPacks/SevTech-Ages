@@ -1,8 +1,8 @@
-setTitle("Railways")
+setTranslatedTitle("advancements.stage3.rails.title")
 
 setIcon("minecraft:rail")
 
-setDescription("Craft and use Rails to travel long distances quickly")
+setTranslatedDescription("advancements.stage3.rails.description")
 
 addParent("triumph:stage3/root")
 setRequiresParents()
@@ -33,3 +33,5 @@ criteria6.setItem("tconstruct:wood_rail")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

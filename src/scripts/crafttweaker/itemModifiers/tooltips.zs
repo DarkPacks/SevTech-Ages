@@ -396,12 +396,16 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.yellow("Upgrade for Industrial Foregoing Machines")
 	],
 
-	<astikoor:plowcart:0>: [
-		format.yellow("Use the Astikoor Action"),
+	<astikorcarts:plowcart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
 		format.yellow("Key to attach to Horses")
 	],
-	<astikoor:cargocart:0>: [
-		format.yellow("Use the Astikoor Action"),
+	<astikorcarts:cargocart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
+		format.yellow("Key to attach to Horses")
+	],
+	<astikorcarts:mobcart:0>: [
+		format.yellow("Use the AstikorCarts Action"),
 		format.yellow("Key to attach to Horses")
 	],
 
@@ -478,6 +482,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("like the Mill Stone")
 	],
 
+	<betterwithmods:single_machine:0>: [
+		format.aqua("Use Hand Crank until kinetic"),
+		format.aqua("power is available")
+	],
+
 	<abyssalcraft:statue:0>: [
 		format.red("Requires open sky above to function")
 	],
@@ -540,6 +549,10 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<death_compass:death_compass>: [
 		format.red("Sneak on your grave to retrieve your items")
 	],
+	<extendedcrafting:singularity_custom:8>: [
+		format.aqua("Compasses obtained through player death or"),
+		format.aqua("from Player Skin Mobs")
+	],
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [
@@ -571,11 +584,25 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<extraplanets:tier1_space_suit_boots:*>: [
 		format.red("Only requires power when modules are installed"),
 		format.red("can only be charged with an Energy Storage Module")
+	],
+
+	// Coralium
+	<abyssalcraft:coraliumore:0>: [
+		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
+		format.aqua("in the Necromonicon for more information."),
+		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("and Swamp Biomes")
+	],
+	<abyssalcraft:cpearl:0>: [
+		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
+		format.aqua("in the Necromonicon for more information."),
+		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("and Swamp Biomes")
 	]
 };
 
 function init() {
-	for item, tooltips in scripts.crafttweaker.itemModifiers.tooltips.itemTooltipMap {
+	for item, tooltips in itemTooltipMap {
 		for tooltip in tooltips {
 			item.addTooltip(tooltip);
 		}

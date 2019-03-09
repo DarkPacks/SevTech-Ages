@@ -1,0 +1,124 @@
+{
+    "career": "hunter",
+    "trades": [
+        {
+            "output": {
+                "item": "minecraft:rotten_flesh",
+                "meta": 0,
+                "minStackSize": 9,
+                "maxStackSize": 15
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 4,
+            "maxTradesAvailable": 16,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:spider_eye",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 6
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:magma_cream",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 1
+        },
+        {
+            "output": {
+                "item": "minecraft:cooked_rabbit",
+                "meta": 0,
+                "minStackSize": 3,
+                "maxStackSize": 7
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 2
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 4,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 2
+            },
+            "inputOne": {
+                "item": "nex:ghast_meat_raw",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 2
+        },
+        {
+            "output": {
+                "item": "nex:ghast_meat_cooked",
+                "meta": 0,
+                "minStackSize": 2,
+                "maxStackSize": 4
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 4,
+                "maxStackSize": 6
+            },
+            "minTradesAvailable": 2,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 3
+        },
+        {
+            "output": {
+                "item": "minecraft:ender_pearl",
+                "meta": 0,
+                "minStackSize": 1,
+                "maxStackSize": 1
+            },
+            "inputOne": {
+                "item": "nex:amethyst_crystal",
+                "meta": 0,
+                "minStackSize": 5,
+                "maxStackSize": 7
+            },
+            "minTradesAvailable": 1,
+            "maxTradesAvailable": 8,
+            "tradeLevel": 3
+        }
+    ]
+}

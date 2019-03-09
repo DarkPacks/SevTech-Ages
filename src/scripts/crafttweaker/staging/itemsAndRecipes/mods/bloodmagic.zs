@@ -89,7 +89,6 @@ static stagedItems as IIngredient[][string] = {
 		<bloodmagic:base_item_filter:0>,
 		<bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:archmage"}),
 		<bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:master"}),
-		<bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:transcendent"}),
 		<bloodmagic:blood_rune:7>,
 		<bloodmagic:blood_rune:8>,
 		<bloodmagic:blood_rune:9>,
@@ -182,6 +181,7 @@ static stagedItems as IIngredient[][string] = {
 		<bloodmagic:ritual_controller:1>,
 		<bloodmagic:ritual_controller:2>,
 		<bloodmagic:ritual_controller:0>,
+		<bloodmagic:ritual_dismantler:0>,
 		<bloodmagic:ritual_diviner:1>,
 		<bloodmagic:ritual_diviner:2>,
 		<bloodmagic:ritual_diviner:0>,
@@ -322,9 +322,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.bloodmagic.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

@@ -32,23 +32,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:infinite_barrel:0>: [
 		[
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_storage_unit:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_storage_unit:0>]
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_storage_unit:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_storage_unit:0>]
 		]
 	],
 	<overloaded:infinite_tank:0>: [
 		[
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_tank:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <quantumstorage:quantum_tank:0>]
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_tank:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_tank:0>]
 		]
 	],
 	<overloaded:infinite_capacitor:0>: [
 		[
-			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <actuallyadditions:item_battery_quintuple:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]})],
-			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 51 as short}]}), <extraplanets:ultimate_battery:0>]
+			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <actuallyadditions:item_battery_quintuple:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
+			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <extraplanets:ultimate_battery:0>]
 		]
 	],
 	<overloaded:hyper_item_receiver:0>: [
@@ -95,7 +95,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:linking_card:0>: [
 		[
-			[<refinedstorage:wrench:0>, <rftools:powercell_card:0>, <enderutilities:linkcrystal:1>],
+			[<appliedenergistics2:nether_quartz_wrench:0>, <rftools:powercell_card:0>, <enderutilities:linkcrystal:1>],
 			[<mekanism:teleportationcore:0>, <astralsorcery:itemlinkingtool:0>, <mekanism:teleportationcore:0>],
 			[<enderutilities:linkcrystal:0>, <rftools:powercell_card:0>, <integrateddynamics:wrench:0>]
 		]
@@ -154,21 +154,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [];
+static removeRecipes as IItemStack[] = [];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.overloaded.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.overloaded.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

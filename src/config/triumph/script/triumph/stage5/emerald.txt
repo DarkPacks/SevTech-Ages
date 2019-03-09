@@ -1,8 +1,8 @@
-setTitle("Emerald Dream")
+setTranslatedTitle("advancements.stage5.emerald.title")
 
 setIcon("minecraft:emerald", 0)
 
-setDescription("Find a Beryl surface sample and dig for Emeralds! The ore is located between Y4 and Y32")
+setTranslatedDescription("advancements.stage5.emerald.description")
 
 addParent("triumph:stage5/prospectorstage5")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:emerald", 0)
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

@@ -1,9 +1,0 @@
-VERSION = 0;
-
-!Energy API: multiplier for conversion into J [Joules] with 1kJ ~ 1 tick furnace fuel burn time.
-!To disable conversion or reading for a mod, set the value to 'NaN'
-!Don't use '0', '/0'(=infinity) or negative values unless you are crazy and absolutely know what you're doing!
-energy_value_RF = 100;	!Forge energy
-energy_value_EU = 400;	!Industrialcraft EU
-energy_value_OC = 1000;	!OpenComputers
-energy_value_VC = 1000;	!VoidCraft

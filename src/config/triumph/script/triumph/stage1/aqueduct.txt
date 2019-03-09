@@ -1,8 +1,8 @@
-setTitle("Aqueducts")
+setTranslatedTitle("advancements.stage1.aqueduct.title")
 
 setIcon("betterwithaddons:aqueduct", 6)
 
-setDescription("Move water using Aqueducts by creating a channel with the aqueduct on the bottom and any block on the sides creating a V shape. Note, This advancement requires that you place the block to complete")
+setTranslatedDescription("advancements.stage1.aqueduct.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()
@@ -45,3 +45,5 @@ criteria10.setBlock("betterwithaddons:aqueduct", 10)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

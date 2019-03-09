@@ -1,8 +1,8 @@
-setTitle("Upgrade Your Line")
+setTranslatedTitle("advancements.stage3.buildcraft.title")
 
 setIcon("buildcrafttransport:pipe_cobble_item")
 
-setDescription("Craft a Redstone Engine to begin powering your Buildcraft Pipes")
+setTranslatedDescription("advancements.stage3.buildcraft.description")
 
 addParent("triumph:stage3/circuitboard")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("buildcraftcore:engine")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

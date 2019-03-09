@@ -102,9 +102,17 @@ static stagedItems as IIngredient[][string] = {
 		<rustic:evaporating_basin:0>,
 		<rustic:granite_pillar:0>,
 		<rustic:rope:0>,
+		<rustic:slate_brick:0>,
+		<rustic:slate_brick_slab_item:0>,
+		<rustic:slate_chiseled:0>,
 		<rustic:slate_pillar:0>,
+		<rustic:slate_roof:0>,
+		<rustic:slate_roof_slab_item:0>,
+		<rustic:slate_tile:0>,
 		<rustic:stairs_ironwood:0>,
 		<rustic:stairs_olive:0>,
+		<rustic:stairs_slate_brick:0>,
+		<rustic:stairs_slate_roof:0>,
 		<rustic:stone_pillar:0>,
 		<rustic:table_acacia:0>,
 		<rustic:table_big_oak:0>,
@@ -175,15 +183,7 @@ static stagedItems as IIngredient[][string] = {
 		<rustic:iron_lattice:0>,
 		<rustic:liquid_barrel:0>,
 		<rustic:retort_advanced:0>,
-		<rustic:retort:0>,
-		<rustic:slate_brick_slab_item:0>,
-		<rustic:slate_brick:0>,
-		<rustic:slate_chiseled:0>,
-		<rustic:slate_roof_slab_item:0>,
-		<rustic:slate_roof:0>,
-		<rustic:slate_tile:0>,
-		<rustic:stairs_slate_brick:0>,
-		<rustic:stairs_slate_roof:0>
+		<rustic:retort:0>
 	],
 
 	stageThree.stage: [
@@ -196,9 +196,18 @@ static hiddenItems as IIngredient[] = [
 	<rustic:dust_tiny_iron>
 ];
 
+static hiddenRemove as IIngredient[] = [
+	<rustic:candle_gold>,
+	<rustic:chain_gold>,
+	<rustic:chandelier_gold>,
+	<rustic:golden_lantern>
+];
+
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.hiddenItems as IIngredient[]);
+
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

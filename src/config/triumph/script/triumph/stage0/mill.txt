@@ -1,8 +1,8 @@
-setTitle("Quit Millin' Around")
+setTranslatedTitle("advancements.stage0.mill.title")
 
 setIcon("betterwithmods:single_machine")
 
-setDescription("It's Mill-er time. Craft the Millstone from Better With Mods")
+setTranslatedDescription("advancements.stage0.mill.description")
 
 addParent("triumph:stage0/gear")
 setRequiresParents()
@@ -14,3 +14,5 @@ criteria.setItem("betterwithmods:single_machine")
 //Rewards
 setRewardExperience(4)
 setRewardItem("betterwithmods:manual", 0, 1)
+
+visibleIf("triumph:stage0/root")

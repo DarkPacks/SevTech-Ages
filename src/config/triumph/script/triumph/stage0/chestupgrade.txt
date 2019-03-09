@@ -1,8 +1,8 @@
-setTitle("Storage Upgrade")
+setTranslatedTitle("advancements.stage0.chestupgrade.title")
 
 setIcon("primalchests:primal_chest_advanced")
 
-setDescription("Ditch your old wooden box and upgrade to a nicer Primal Chest!")
+setTranslatedDescription("advancements.stage0.chestupgrade.description")
 
 addParent("triumph:stage0/firstchest")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("primalchests:primal_chest")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

@@ -23,6 +23,30 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
+	<totemic:cedar_fence_gate>: [
+		[
+			[<minecraft:stick:0>, <totemic:cedar_plank:0>, <minecraft:stick:0>],
+			[<minecraft:stick:0>, <totemic:cedar_plank:0>, <minecraft:stick:0>]
+		]
+	],
+	<totemic:cedar_fence> * 3: [
+		[
+			[<totemic:cedar_plank:0>, <minecraft:stick:0>, <totemic:cedar_plank:0>],
+			[<totemic:cedar_plank:0>, <minecraft:stick:0>, <totemic:cedar_plank:0>]
+		]
+	],
+	<totemic:cedar_slab:0> * 3: [
+		[
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, <totemic:cedar_plank:0>]
+		]
+	],
+	<totemic:cedar_stairs:0> * 4: [
+		[
+			[<totemic:cedar_plank:0>, null, null],
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, null],
+			[<totemic:cedar_plank:0>, <totemic:cedar_plank:0>, <totemic:cedar_plank:0>]
+		]
+	],
 	<totemic:eagle_bone_whistle:0> : [
 		[
 			[null, <totemic:eagle_drops:0>],
@@ -121,21 +145,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [];
+static removeRecipes as IItemStack[] = [];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.totemic.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.totemic.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

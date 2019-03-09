@@ -1,8 +1,8 @@
-setTitle("Speedrunner")
+setTranslatedTitle("advancements.stage2.stopwatch.title")
 
 setIcon("infoaccessories:info_accessory")
 
-setDescription("The Stopwatch will display information on the player's motion")
+setTranslatedDescription("advancements.stage2.stopwatch.description")
 
 addParent("triumph:stage2/compass")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("infoaccessories:info_accessory", 0)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

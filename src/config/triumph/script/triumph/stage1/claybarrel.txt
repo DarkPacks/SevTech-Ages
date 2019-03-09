@@ -1,8 +1,8 @@
-setTitle("Bottom of the Barrel")
+setTranslatedTitle("advancements.stage1.claybarrel.title")
 
 setIcon("ceramics:clay_barrel")
 
-setDescription("Clay barrels can hold fluids, such as water or liquid metals")
+setTranslatedDescription("advancements.stage1.claybarrel.description")
 
 addParent("triumph:stage1/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("ceramics:clay_barrel", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

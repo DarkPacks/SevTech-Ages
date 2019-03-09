@@ -1,8 +1,8 @@
-setTitle("Shake, Rattle, and Roll")
+setTranslatedTitle("advancements.stage0.totemic.title")
 
 setIcon("totemic:drum")
 
-setDescription("Craft the Rattle, Flute, and Drum needed for Totemic Ceremonies. This advancement will give you a Totempedia. Consult the book for how to perform Totemic Ceremonies and other information")
+setTranslatedDescription("advancements.stage0.totemic.description")
 
 addParent("triumph:stage0/leather")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria3.setItem("totemic:drum")
 //Rewards
 setRewardItem("totemic:totempedia", 0, 1)
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

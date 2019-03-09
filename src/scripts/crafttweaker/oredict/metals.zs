@@ -14,3 +14,6 @@
 
 // Add to oredict so it can be removed
 <ore:gearCompressedIron>.add(<pneumaticcraft:compressed_iron_gear:0>);
+
+// Remove Primal Metals (We don't need them and they'll cause confusion)
+<ore:nuggetPlatinum>.remove(<primal:platinum_nugget>);

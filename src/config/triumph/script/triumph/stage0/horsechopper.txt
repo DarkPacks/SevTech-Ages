@@ -1,8 +1,8 @@
-setTitle("Chop! Chop! Chop!")
+setTranslatedTitle("advancements.stage0.horsechopper.title")
 
 setIcon("horsepower:chopper")
 
-setDescription("No more chopping wood by hand! Place a Horse Power Chopper, attach a Horse using a lead, and insert items to automatically chop")
+setTranslatedDescription("advancements.stage0.horsechopper.description")
 
 addParent("triumph:stage0/horsepower")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("horsepower:chopper")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

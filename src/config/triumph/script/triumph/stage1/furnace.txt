@@ -1,8 +1,8 @@
-setTitle("It's Getting Hot in Here")
+setTranslatedTitle("advancements.stage1.furnace.title")
 
 setIcon("minecraft:furnace")
 
-setDescription("Light up your life with a new furnace")
+setTranslatedDescription("advancements.stage1.furnace.description")
 
 addParent("triumph:stage1/crafting")
 setRequiresParents()
@@ -14,3 +14,5 @@ criteria.setItem("minecraft:furnace", 0)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

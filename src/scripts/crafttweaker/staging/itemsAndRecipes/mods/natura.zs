@@ -86,6 +86,8 @@ static stagedItems as IIngredient[][string] = {
 		<natura:hopseed_fence:0>,
 		<natura:maple_fence_gate:0>,
 		<natura:maple_fence:0>,
+		<natura:nether_doors:3>,
+		<natura:nether_doors:2>,
 		<natura:nether_doors:1>,
 		<natura:nether_doors:0>,
 		<natura:overworld_doors:*>,
@@ -310,9 +312,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.natura.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

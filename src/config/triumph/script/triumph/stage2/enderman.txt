@@ -1,8 +1,8 @@
-setTitle("Defeat the Endermenace!")
+setTranslatedTitle("advancements.stage2.enderman.title")
 
 setIcon("appliedenergistics2:material", 46)
 
-setDescription("Endermen have begun spawning in the world, slay them to obtain their Ender Dust")
+setTranslatedDescription("advancements.stage2.enderman.description")
 
 addParent("triumph:stage2/conpaper")
 setRequiresParents()
@@ -27,3 +27,5 @@ criteria5.setEntityType("galacticraftcore:evolved_enderman")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

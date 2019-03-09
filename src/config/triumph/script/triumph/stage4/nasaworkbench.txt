@@ -1,8 +1,8 @@
-setTitle("Space Program Foundation")
+setTranslatedTitle("advancements.stage4.nasaworkbench.title")
 
 setIcon("galacticraftcore:rocket_workbench")
 
-setDescription("Craft a NASA Workbench to begin your journey to the Moon")
+setTranslatedDescription("advancements.stage4.nasaworkbench.description")
 
 addParent("triumph:stage4/endercrafter")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("galacticraftcore:rocket_workbench")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

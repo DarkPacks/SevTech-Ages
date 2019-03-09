@@ -1,8 +1,8 @@
-setTitle("Nether Brick")
+setTranslatedTitle("advancements.stage3.netherbrick.title")
 
 setIcon("minecraft:netherbrick")
 
-setDescription("Place Nether Sludge in a Better With Mods Kiln to cook it into Nether Bricks. Consult the Book of Single on how to assemble the Kiln")
+setTranslatedDescription("advancements.stage3.netherbrick.description")
 
 addParent("triumph:stage3/potash")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:netherbrick")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

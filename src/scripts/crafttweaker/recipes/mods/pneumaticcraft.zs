@@ -21,6 +21,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:redstone:0>, <minecraft:furnace:0>, <pneumaticcraft:printed_circuit_board:0>]
 		]
 	],
+	<pneumaticcraft:assembly_laser:0> : [
+		[
+			[<pickletweaks:dye_powder:14>, <pneumaticcraft:pneumatic_cylinder:0>, <pneumaticcraft:pneumatic_cylinder:0>],
+			[null, null, <pneumaticcraft:pneumatic_cylinder:0>],
+			[metals.compressedIron.ingot, <pneumaticcraft:printed_circuit_board:0>, metals.compressedIron.ingot]
+		]
+	],
 	<pneumaticcraft:pneumatic_dynamo:0> : [
 		[
 			[null, <pneumaticcraft:advanced_pressure_tube:0>, null],
@@ -190,7 +197,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<pneumaticcraft:armor_upgrade:0>,
 	<pneumaticcraft:assembly_drill:0>,
 	<pneumaticcraft:flux_compressor:0>,
@@ -212,7 +219,8 @@ static removeRecipes as IIngredient[] = [
 	<pneumaticcraft:programming_puzzle:5>,
 	<pneumaticcraft:programming_puzzle:6>,
 	<pneumaticcraft:programming_puzzle:8>,
-	<pneumaticcraft:programming_puzzle:9>
+	<pneumaticcraft:programming_puzzle:9>,
+	<pneumaticcraft:assembly_laser:0>
 ];
 
 static removeRegex as string[] = [
@@ -221,19 +229,6 @@ static removeRegex as string[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.pneumaticcraft.namedShapelessRecipes;
-
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.pneumaticcraft.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.pneumaticcraft.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

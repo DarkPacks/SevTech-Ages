@@ -13,9 +13,12 @@ static hiddenItems as IIngredient[] = [
 	<base:wrench:0>,
 	<baubles:ring:0>,
 	<bibliocraft:printingpress:0>, //This can be re-shown once the mod is updated/fixed.
+	<cd4017be_lib:rrwi:0>,
 	<chisel:ironpane:*>,
 	<cookingforblockheads:cow_jar:0>,
 	<geolosys:cluster:11>,
+	<industrialforegoing:oredictionary_converter>,
+	<mekanism:machineblock3:3>,
 	<microblockcbe:saw_diamond:0>,
 	<microblockcbe:saw_iron:0>,
 	<microblockcbe:saw_stone:0>,
@@ -35,7 +38,7 @@ static hiddenItems as IIngredient[] = [
 ];
 
 function init() {
-	for ingredient in scripts.crafttweaker.staging.itemsAndRecipes.misc.hiddenItems {
+	for ingredient in hiddenItems {
 		mods.jei.JEI.removeAndHide(ingredient);
 		ZenStager.getStage(stageDisabled.stage).addIngredient(ingredient, false);
 	}

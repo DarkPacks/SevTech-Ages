@@ -1,8 +1,8 @@
-setTitle("Charge it Up")
+setTranslatedTitle("advancements.stage5.charger3.title")
 
 setIcon("chargers:charger", 2)
 
-setDescription("The Charger Tier III allows you to charge up items much quicker than previous tiers")
+setTranslatedDescription("advancements.stage5.charger3.description")
 
 addParent("triumph:stage5/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("chargers:charger", 2)
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

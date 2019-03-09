@@ -50,7 +50,7 @@ static stagedMods as string[][string] = {
 };
 
 function init() {
-	for stageName, modId in scripts.crafttweaker.staging.itemsAndRecipes.modId.stagedMods {
-		ZenStager.getStage(stageName).addModId(modId);
+	for stageName, modId in stagedMods {
+		ZenStager.getStage(stageName).addModId(modId, true);
 	}
 }

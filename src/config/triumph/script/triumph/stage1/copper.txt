@@ -1,8 +1,8 @@
+setTranslatedTitle("advancements.stage1.copper.title")
+
 setIcon("immersiveengineering:metal")
 
-setTitle("Get To The Copper")
-
-setDescription("Find a Malachite or Azurite surface sample and dig for Copper! The ore is located between Y12 and Y52. Note, surface samples will unhide in already explored areas.")
+setTranslatedDescription("advancements.stage1.copper.description")
 
 addParent("triumph:stage1/prospector")
 setRequiresParents()
@@ -25,3 +25,5 @@ criteria2.setBlock("geolosys:ore", 3)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

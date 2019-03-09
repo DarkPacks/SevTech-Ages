@@ -33,6 +33,7 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_hard:4>,
 		<ceramics:clay_hard:5>,
 		<ceramics:clay_hard:6>,
+		<ceramics:clay_hard:7>,
 		<ceramics:clay_hard:0>,
 		<ceramics:clay_helmet:0>,
 		<ceramics:clay_leggings:0>,
@@ -42,6 +43,7 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_slab:4>,
 		<ceramics:clay_slab:5>,
 		<ceramics:clay_slab:6>,
+		<ceramics:clay_slab:7>,
 		<ceramics:clay_slab:0>,
 		<ceramics:clay_wall:1>,
 		<ceramics:clay_wall:2>,
@@ -49,12 +51,14 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_wall:5>,
 		<ceramics:clay_wall:6>,
 		<ceramics:clay_wall:7>,
+		<ceramics:clay_wall:8>,
 		<ceramics:clay_wall:0>,
 		<ceramics:dark_bricks_stairs:0>,
 		<ceramics:dragon_bricks_stairs:0>,
 		<ceramics:faucet:0>,
 		<ceramics:lava_bricks_stairs:0>,
 		<ceramics:marine_bricks_stairs:0>,
+		<ceramics:monochrome_bricks_stairs>,
 		<ceramics:porcelain_barrel_extension:*>,
 		<ceramics:porcelain_barrel:*>,
 		<ceramics:porcelain_bricks_stairs:0>,
@@ -105,8 +109,8 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.ceramics.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

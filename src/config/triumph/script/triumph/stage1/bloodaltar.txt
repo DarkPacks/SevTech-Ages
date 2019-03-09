@@ -1,8 +1,8 @@
-setTitle("Altered State")
+setTranslatedTitle("advancements.stage1.bloodaltar.title")
 
 setIcon("bloodmagic:altar")
 
-setDescription("Capture Demonic Will to build a Blood Altar")
+setTranslatedDescription("advancements.stage1.bloodaltar.description")
 
 addParent("triumph:stage1/alloykiln")
 setRequiresParents()
@@ -14,3 +14,5 @@ criteria.setItem("bloodmagic:altar")
 //Rewards
 setRewardExperience(8)
 setRewardItem("guideapi:bloodmagic-guide", 0, 1)
+
+visibleIf("triumph:stage1/root")

@@ -49,7 +49,6 @@ function init() {
 	// Apply Molten to Materials
 	var fluidMaterials as Material[] = [
 		materials.enhancedGalgadorian,
-		materials.fiery,
 		materials.galgadorian,
 		materials.invar,
 		materials.modularium,

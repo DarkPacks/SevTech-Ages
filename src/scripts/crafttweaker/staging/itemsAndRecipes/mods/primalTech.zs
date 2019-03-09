@@ -30,17 +30,16 @@ static stagedItems as IIngredient[][string] = {
 		<primal_tech:charcoal_hopper>,
 		<primal_tech:clay_kiln>,
 		<primal_tech:flint_block>,
-		<primal_tech:flint_edged_disc>,
 		<primal_tech:fluid_bladder>,
 		<primal_tech:stick_bundle>,
 		<primal_tech:stone_grill>,
 		<primal_tech:twine>,
-		<primal_tech:water_saw>,
 		<primal_tech:wooden_hopper>,
 		<primal_tech:work_stump_upgraded>
 	],
 
 	stageOne.stage: [
+		<primal_tech:flint_edged_disc>,
 		<primal_tech:leaf_bed>,
 		<primal_tech:stone_anvil>,
 		<primal_tech:stone_mallet>,
@@ -49,12 +48,13 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<primal_tech:plant_fibres:0>
+	<primal_tech:plant_fibres:0>,
+	<primal_tech:water_saw:0>
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 }

@@ -31,6 +31,9 @@ function init() {
 	actuallyAdditions.addCrusher(<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>); // Redstone Block -> Redstone
 	actuallyAdditions.addCrusher(<minecraft:emerald:0> * 9, <minecraft:emerald_block:0>); // Emerald Block -> Emerald
 	actuallyAdditions.addCrusher(<minecraft:prismarine_shard:0> * 4, <minecraft:prismarine:0>); // Prismarine -> Prismarine Shard
+	actuallyAdditions.removeCrusher(<minecraft:sugar:0>); // Remove the bad Rice Recipe
+	actuallyAdditions.addCrusher(<betterwithaddons:japanmat:4>, <actuallyadditions:item_food:16>); // Rice -> Rice Flower
+	actuallyAdditions.removeCrusher(<actuallyadditions:item_dust:4>); // Remove Crushed Lapis
 
 	// Ball of Fur
 

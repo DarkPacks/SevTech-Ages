@@ -1,8 +1,8 @@
-setTitle("Enter the End")
+setTranslatedTitle("advancements.stage4.theend.title")
 
 setIcon("minecraft:end_portal_frame")
 
-setDescription("Locate a Stronghold and enter the End Dimension")
+setTranslatedDescription("advancements.stage4.theend.description")
 
 addParent("triumph:stage4/root")
 
@@ -19,3 +19,5 @@ criteria.setDimensionDestination("the_end")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

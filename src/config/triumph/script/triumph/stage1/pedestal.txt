@@ -1,8 +1,8 @@
-setTitle("Pedestalling for Time")
+setTranslatedTitle("advancements.stage1.pedestal.title")
 
 setIcon("abyssalcraft:energypedestal")
 
-setDescription("To charge your Necronomicon you can either stand in range of Statues holding the book, or craft a Pedestal to place the book on. Make sure the statues are 3 blocks from the Pedestal and at the same height")
+setTranslatedDescription("advancements.stage1.pedestal.description")
 
 addParent("triumph:stage1/statue")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("abyssalcraft:energypedestal")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

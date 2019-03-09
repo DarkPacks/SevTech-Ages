@@ -30,6 +30,7 @@ static materials as Material[string] = {
 	"invar": MaterialSystem.getMaterialBuilder().setName("Invar").setColor(9872012).build(),
 	"iron": MaterialSystem.getMaterialBuilder().setName("Iron").setColor(14211288).build(),
 	"lead": MaterialSystem.getMaterialBuilder().setName("Lead").setColor(5658219).build(),
+	"meteoricIron": MaterialSystem.getMaterialBuilder().setName("Meteoric Iron").setColor(Color.fromHex("aba398")).build(),
 	"modularium": MaterialSystem.getMaterialBuilder().setName("Modularium").setColor(16730368).build(),
 	"naphtha": MaterialSystem.getMaterialBuilder().setName("Naphtha").setColor(10703708).build(),
 	"osmium": MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("aabbd2")).build(),

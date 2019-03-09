@@ -1,8 +1,8 @@
-setTitle("Supersize It!")
+setTranslatedTitle("advancements.stage0.woodhopper2.title")
 
 setIcon("primal_tech:wooden_hopper")
 
-setDescription("Is your current Wooden Hopper not cutting it? Craft a Wopper Mk2 to add more functionality!")
+setTranslatedDescription("advancements.stage0.woodhopper2.description")
 
 addParent("triumph:stage0/woodhopper1")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("primal_tech:wooden_hopper")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

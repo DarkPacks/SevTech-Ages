@@ -1,8 +1,8 @@
-setTitle("Rock, Paper, Crystals")
+setTranslatedTitle("advancements.stage2.rockcrystal.title")
 
 setIcon("astralsorcery:itemrockcrystalsimple", 0)
 
-setDescription("Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down to find the ore between Y3 and Y18")
+setTranslatedDescription("advancements.stage2.rockcrystal.description")
 
 addParent("triumph:stage2/starpowder")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("astralsorcery:itemrockcrystalsimple", 0)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

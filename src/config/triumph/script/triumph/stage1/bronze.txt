@@ -1,8 +1,8 @@
-setTitle("Brains Over Bronze")
+setTranslatedTitle("advancements.stage1.bronze.title")
 
 setIcon("mekanism:ingot", 2)
 
-setDescription("Use the Alloy Kiln to produce Bronze Ingots")
+setTranslatedDescription("advancements.stage1.bronze.description")
 
 addParent("triumph:stage1/alloykiln")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setItem("mekanism:ingot", 2)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

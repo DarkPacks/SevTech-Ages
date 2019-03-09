@@ -39,6 +39,68 @@ static blockHarvestDrops as IItemStack[][string] = {
 	],
 	"twilightforest:castle_door:3": [
 		<twilightforest:castle_door:3>
+	],
+
+	// Primal Stones (When broken should drop the cobble not the stone)
+	"primal:blue_stone" : [
+		<primal:blue_stone:4>
+	],
+	"primal:common_stone": [
+		<primal:common_stone:4>
+	],
+	"primal:sarsen_stone": [
+		<primal:sarsen_stone:4>
+	],
+	"primal:scoria_stone": [
+		<primal:scoria_stone:4>
+	],
+	"primal:porphyry_stone": [
+		<primal:porphyry_stone:4>
+	],
+	"primal:purpurite_stone": [
+		<primal:purpurite_stone:4>
+	],
+	"primal:ferro_stone": [
+		<primal:ferro_stone:4>
+	],
+	"primal:carbonate_stone": [
+		<primal:carbonate_stone:4>
+	],
+	"primal:terracotta_block": [
+		<primal:terracotta_block:4>
+	],
+	"primal:mud_dried": [
+		<primal:mud_dried:4>
+	],
+	"primal:nether_earth": [
+		<primal:nether_earth:4>
+	],
+	"primal:nether_stone": [
+		<primal:nether_stone:4>
+	],
+	"primal:eroded_end_stone": [
+		<primal:eroded_end_stone:4>
+	],
+	"primal:desiccated_stone": [
+		<primal:desiccated_stone:4>
+	],
+	"primal:soul_stone": [
+		<primal:soul_stone:4>
+	],
+	"primal:night_stone": [
+		<primal:night_stone:4>
+	],
+	"primal:ciniscotta_block": [
+		<primal:ciniscotta_block:4>
+	],
+	"primal:ortho_stone": [
+		<primal:ortho_stone:4>
+	],
+	"primal:schist_green_stone": [
+		<primal:schist_green_stone:4>
+	],
+	"primal:schist_blue_stone": [
+		<primal:schist_blue_stone:4>
 	]
 };
 
@@ -47,8 +109,6 @@ static blockHarvestDrops as IItemStack[][string] = {
 */
 function init() {
 	events.onBlockHarvestDrops(function (event as BlockHarvestDropsEvent) {
-		var blockHarvestDrops = scripts.crafttweaker.events.blockBreak.blockHarvestDrops;
-
 		var blockId = event.block.definition.id;
 		if (event.block.meta != 0) {
 			blockId += ":" ~ event.block.meta;

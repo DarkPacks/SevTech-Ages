@@ -1,8 +1,8 @@
-setTitle("Sharp Dressed Man")
+setTranslatedTitle("advancements.stage4.spacesuit.title")
 
 setIcon("extraplanets:tier1_space_suit_helmet")
 
-setDescription("Craft the full Tier 1 Space Suit to protect you from pressure and radiation when going to the moon")
+setTranslatedDescription("advancements.stage4.spacesuit.description")
 
 addParent("triumph:stage4/nasaworkbench")
 setRequiresParents()
@@ -22,3 +22,5 @@ criteria4.setItem("extraplanets:tier1_space_suit_boots")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

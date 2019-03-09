@@ -1,8 +1,8 @@
-setTitle("Applied Energistics")
+setTranslatedTitle("advancements.stage4.ae2panel.title")
 
 setIcon("appliedenergistics2:part", 380)
 
-setDescription("Craft an ME Terminal and choose your path to Applied Energistics, Refined Storage, or both!")
+setTranslatedDescription("advancements.stage4.ae2panel.description")
 
 addParent("triumph:stage4/inscriber")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("appliedenergistics2:part", 380)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

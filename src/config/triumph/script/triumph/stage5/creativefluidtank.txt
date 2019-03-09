@@ -1,8 +1,8 @@
-setTitle("Creative Fluid Tank")
+setTranslatedTitle("advancements.stage5.creativefluidtank.title")
 
 setIcon("mekanism:machineblock2", 11)
 
-setDescription("Craft the Creative Fluid Tank from Mekanism")
+setTranslatedDescription("advancements.stage5.creativefluidtank.description")
 
 addParent("triumph:stage5/ultimateingot")
 setRequiresParents()
@@ -14,3 +14,5 @@ criteria.addItem("mekanism:machineblock2", 11, {tier: 4, mekData: {}})
 //Rewards
 setRewardExperience(30)
 setRewardFunction("triumph:prestige_add_200")
+
+visibleIf("triumph:stage5/root")

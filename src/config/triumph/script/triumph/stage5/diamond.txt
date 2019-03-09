@@ -1,8 +1,8 @@
-setTitle("Diamonds!")
+setTranslatedTitle("advancements.stage5.diamond.title")
 
 setIcon("minecraft:diamond", 0)
 
-setDescription("Find a Kimberlite surface sample and dig for Diamonds! The ore is located between Y2 and Y20")
+setTranslatedDescription("advancements.stage5.diamond.description")
 
 addParent("triumph:stage5/prospectorstage5")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("minecraft:diamond", 0)
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

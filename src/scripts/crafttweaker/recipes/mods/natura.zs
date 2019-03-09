@@ -25,9 +25,14 @@ import scripts.crafttweaker.stages.stageFive;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<natura:nether_slab:1> * 3 : [
+	<natura:nether_slab:0> * 3 : [
 		[
 			[<natura:nether_planks:0>, <natura:nether_planks:0>, <natura:nether_planks:0>]
+		]
+	],
+	<natura:nether_slab:1> * 3 : [
+		[
+			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
 		]
 	],
 	<natura:nether_slab:2> * 3 : [
@@ -40,9 +45,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
 		]
 	],
-	<natura:nether_slab:0> * 3 : [
+	<natura:overworld_slab2:0> * 3 : [
 		[
-			[<natura:nether_planks:1>, <natura:nether_planks:1>, <natura:nether_planks:1>]
+			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
 		]
 	],
 	<natura:overworld_slab2:1> * 3 : [
@@ -60,9 +65,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:overworld_planks:8>, <natura:overworld_planks:8>, <natura:overworld_planks:8>]
 		]
 	],
-	<natura:overworld_slab2:0> * 3 : [
+	<natura:overworld_slab:0> * 3 : [
 		[
-			[<natura:overworld_planks:5>, <natura:overworld_planks:5>, <natura:overworld_planks:5>]
+			[<natura:overworld_planks:0>, <natura:overworld_planks:0>, <natura:overworld_planks:0>]
 		]
 	],
 	<natura:overworld_slab:1> * 3 : [
@@ -83,11 +88,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<natura:overworld_slab:4> * 3 : [
 		[
 			[<natura:overworld_planks:4>, <natura:overworld_planks:4>, <natura:overworld_planks:4>]
-		]
-	],
-	<natura:overworld_slab:0> * 3 : [
-		[
-			[<natura:overworld_planks:0>, <natura:overworld_planks:0>, <natura:overworld_planks:0>]
 		]
 	],
 	<natura:overworld_bookshelves:0> : [
@@ -418,6 +418,28 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<natura:nether_planks:1>, <natura:nether_planks:1>],
 			[<natura:nether_planks:1>, <natura:nether_planks:1>]
 		]
+	],
+	<natura:colored_grass:0> : [
+		[
+			[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, null],
+			[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <minecraft:dirt>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>],
+			[null, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, null]
+		]
+	],
+	<natura:colored_grass_slab:0> * 3 : [
+		[
+			[<natura:colored_grass:0>, <natura:colored_grass:0>, <natura:colored_grass:0>]
+		]
+	],
+	<natura:colored_grass_slab:1> * 3 : [
+		[
+			[<natura:colored_grass:1>, <natura:colored_grass:1>, <natura:colored_grass:1>]
+		]
+	],
+	<natura:colored_grass_slab:2> * 3 : [
+		[
+			[<natura:colored_grass:2>, <natura:colored_grass:2>, <natura:colored_grass:2>]
+		]
 	]
 };
 
@@ -518,6 +540,27 @@ static mirroredRecipes as IIngredient[][][][IItemStack] = {
 			[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
 			[<natura:nether_planks:3>, <natura:nether_planks:3>, <natura:nether_planks:3>]
 		]
+	],
+	<natura:colored_grass_stairs_topiary:0>: [
+		[
+			[null, null, <natura:colored_grass:0>],
+			[null, <natura:colored_grass:0>, <natura:colored_grass:0>],
+			[<natura:colored_grass:0>, <natura:colored_grass:0>, <natura:colored_grass:0>]
+		]
+	],
+	<natura:colored_grass_stairs_bluegrass:0>: [
+		[
+			[null, null, <natura:colored_grass:1>],
+			[null, <natura:colored_grass:1>, <natura:colored_grass:1>],
+			[<natura:colored_grass:1>, <natura:colored_grass:1>, <natura:colored_grass:1>]
+		]
+	],
+	<natura:colored_grass_stairs_autumnal:0>: [
+		[
+			[null, null, <natura:colored_grass:2>],
+			[null, <natura:colored_grass:2>, <natura:colored_grass:2>],
+			[<natura:colored_grass:2>, <natura:colored_grass:2>, <natura:colored_grass:2>]
+		]
 	]
 };
 
@@ -528,6 +571,12 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<natura:colored_grass:1> : [
+		[<natura:colored_grass:0>, <minecraft:dye:4>]
+	],
+	<natura:colored_grass:2> : [
+		[<natura:colored_grass:0>, <ore:dyeRed>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -536,20 +585,29 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
+	<natura:colored_grass:0>,
+	<natura:colored_grass:1>,
+	<natura:colored_grass:2>,
+	<natura:colored_grass_slab:0>,
+	<natura:colored_grass_slab:1>,
+	<natura:colored_grass_slab:2>,
+	<natura:colored_grass_stairs_autumnal:0>,
+	<natura:colored_grass_stairs_bluegrass:0>,
+	<natura:colored_grass_stairs_topiary:0>,
+	<natura:nether_slab:0>,
 	<natura:nether_slab:1>,
 	<natura:nether_slab:2>,
 	<natura:nether_slab:3>,
-	<natura:nether_slab:0>,
+	<natura:overworld_slab2:0>,
 	<natura:overworld_slab2:1>,
 	<natura:overworld_slab2:2>,
 	<natura:overworld_slab2:3>,
-	<natura:overworld_slab2:0>,
+	<natura:overworld_slab:0>,
 	<natura:overworld_slab:1>,
 	<natura:overworld_slab:2>,
 	<natura:overworld_slab:3>,
-	<natura:overworld_slab:4>,
-	<natura:overworld_slab:0>,
+	<natura:overworld_slab:4>
 ];
 
 static removeRegex as string[] = [
@@ -557,19 +615,6 @@ static removeRegex as string[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.natura.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.natura.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.natura.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.natura.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.natura.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.natura.namedShapelessRecipes;
-
-	var removeRegex as string[] = scripts.crafttweaker.recipes.mods.natura.removeRegex;
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.natura.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

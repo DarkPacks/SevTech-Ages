@@ -1,0 +1,22 @@
+setTranslatedTitle("advancements.stage3.wire.title")
+
+setIcon("immersiveengineering:wirecoil")
+
+setTranslatedDescription("advancements.stage3.wire.description")
+
+addParent("triumph:stage3/windmill")
+setRequiresParents()
+
+setRequirements("any")
+
+//Criteria
+criteria0 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria0.setItem("immersiveengineering:wirecoil")
+
+criteria1 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria1.setItem("immersiveengineering:wirecoil", 1)
+
+//Rewards
+setRewardExperience(2)
+
+visibleIf("triumph:stage3/root")

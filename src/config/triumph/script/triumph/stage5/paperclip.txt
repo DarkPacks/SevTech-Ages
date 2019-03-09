@@ -1,8 +1,8 @@
-setTitle("Universal Paperclip")
+setTranslatedTitle("advancements.stage5.paperclip.title")
 
 setIcon("pickletweaks:ppm4", 2)
 
-setDescription("Create the world's first Paperclip")
+setTranslatedDescription("advancements.stage5.paperclip.description")
 
 addParent("triumph:stage5/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("pickletweaks:ppm4", 2)
 
 //Rewards
 setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

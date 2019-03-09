@@ -1,8 +1,8 @@
-setTitle("Mesh Your Flint")
+setTranslatedTitle("advancements.stage0.mesh.title")
 
 setIcon("pickletweaks:grass_mesh")
 
-setDescription("Flint won't drop from breaking gravel. Use the Grass Fiber Mesh in a crafting grid with Gravel to obtain flint consistently")
+setTranslatedDescription("advancements.stage0.mesh.description")
 
 addParent("triumph:stage0/fiber")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("pickletweaks:grass_mesh")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

@@ -1,8 +1,8 @@
-setTitle("I Don't Want it Anymore!")
+setTranslatedTitle("advancements.stage1.stepup.title")
 
 setIcon("cyclicmagic:food_step")
 
-setDescription("Now that you are traveling less, you can use the Blood Altar to create an Apple of Lofty Stature which will remove your step-up abilities.")
+setTranslatedDescription("advancements.stage1.stepup.description")
 
 addParent("triumph:stage1/bloodaltar")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("cyclicmagic:food_step")
 
 //Rewards
 setRewardExperience(1)
+
+visibleIf("triumph:stage1/root")

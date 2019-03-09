@@ -12,6 +12,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+import mods.betterwithaddons.DryingBox;
 import mods.betterwithaddons.SoakingBox;
 import mods.betterwithaddons.Spindle;
 import mods.betterwithmods.Cauldron;
@@ -27,8 +28,8 @@ zenClass BetterWithMods {
 	/*
 		Remove a Kiln recipe
 	*/
-	function removeKiln(inputs as IItemStack[]) {
-		Kiln.remove(inputs);
+	function removeKiln(input as IItemStack) {
+		Kiln.remove(input);
 	}
 
 	/*
@@ -92,5 +93,12 @@ zenClass BetterWithMods {
 	*/
 	function removeCauldron(outputs as IItemStack[]) {
 		Cauldron.remove(outputs);
+	}
+
+	/*
+		Remove a Drying Box recipe.
+	*/
+	function removeDrying(input as IItemStack) {
+		DryingBox.remove(input);
 	}
 }

@@ -1,8 +1,8 @@
-setTitle("Silicon Ore")
+setTranslatedTitle("advancements.stage4.silicon.title")
 
 setIcon("galacticraftcore:basic_item", 2)
 
-setDescription("Find a Silicon surface sample and dig for Silicon! The ore is located between Y24 and Y48")
+setTranslatedDescription("advancements.stage4.silicon.description")
 
 addParent("triumph:stage4/prospector4")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("galacticraftcore:basic_item", 2)
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

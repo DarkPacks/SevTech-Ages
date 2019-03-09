@@ -1,8 +1,8 @@
-setTitle("Water Wheel")
+setTranslatedTitle("advancements.stage3.waterwheel.title")
 
 setIcon("immersiveengineering:wooden_device1")
 
-setDescription("A Waterwheel connected to a Kinetic Dynamo will provide power when spun by flowing water")
+setTranslatedDescription("advancements.stage3.waterwheel.description")
 
 addParent("triumph:stage3/creosote")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("immersiveengineering:wooden_device1", 0)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

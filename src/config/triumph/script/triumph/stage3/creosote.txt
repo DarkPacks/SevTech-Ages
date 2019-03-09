@@ -1,8 +1,8 @@
-setTitle("Creosote")
+setTranslatedTitle("advancements.stage3.creosote.title")
 
 setIcon("immersiveengineering:stone_device")
 
-setDescription("Use the Coke Oven to produce both Creosote liquid and Coal Coke")
+setTranslatedDescription("advancements.stage3.creosote.description")
 
 addParent("triumph:stage3/iehammer")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("immersiveengineering:material", 6)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

@@ -1,18 +1,26 @@
-config/AppliedEnergistics2/Facades.cfg
-config/AppliedEnergistics2/aerecipes/*
-config/AppliedEnergistics2/recipes/*
-config/InvTweaks.cfg
-config/Mercurius.cfg
-config/MouseTweaks.cfg
-config/buildcraft/detailed.properties
-config/cd4017be/inductiveLogistics.rcp
-config/cd4017be/compiled.dat
-config/jei/worldSettings.cfg
-config/splash.properties
-config/worldutils/*
+# Un-Needed Mod Bloat
+src/config/AppliedEnergistics2/items.csv
+src/config/AppliedEnergistics2/aerecipes/*
+src/config/cd4017be/inductiveLogistics.rcp
+src/config/cd4017be/inductiveLogistics.rcp.old
+src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
 
-#IDE
+# Client Only Files
+src/config/InvTweaks.cfg
+src/config/MouseTweaks.cfg
+src/config/jei/bookmarks.ini
+src/config/jei/worldSettings.cfg
+src/config/jei/lookupHistory.zip
+src/config/buildcraft/detailed.properties
+
+# Other
+src/config/worldutils/*
+src/config/sampler.ini
+
+# IDE
 .idea/
 
-#Mac Desktop Services Store
+# Stuff
 .DS_Store
+*.dat

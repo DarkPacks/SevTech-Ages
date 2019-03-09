@@ -1,8 +1,8 @@
-setTitle("reSalt of Your Labors")
+setTranslatedTitle("advancements.stage0.saltflats.title")
 
 setIcon("primal:salt_dust_netjry")
 
-setDescription("Find Salt in Dry Biomes or Riverbeds. You'll need it for food and curing hide")
+setTranslatedDescription("advancements.stage0.saltflats.description")
 
 addParent("triumph:stage0/grill")
 setRequiresParents()
@@ -27,3 +27,5 @@ criteria5.setItem("mekanism:salt")
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage0/root")

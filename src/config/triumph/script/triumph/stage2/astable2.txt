@@ -1,8 +1,8 @@
-setTitle("Starlight Upgrade")
+setTranslatedTitle("advancements.stage2.astable2.title")
 
 setIcon("astralsorcery:blockaltar", 1)
 
-setDescription("Upgrade the Luminous table the next tier. Aside from the table, you'll need to construct a structure to begin the crafting process. Consult the Astral Sorcery Journal's Exploration section")
+setTranslatedDescription("advancements.stage2.astable2.description")
 
 addParent("triumph:stage2/lightwell")
 setRequiresParents()
@@ -20,3 +20,5 @@ criteria.setBlock("astralsorcery:blockaltar", 1)
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage2/root")

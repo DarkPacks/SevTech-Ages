@@ -1,8 +1,8 @@
-setTitle("Error 404: Heart Not Found")
+setTranslatedTitle("advancements.stage1.tin.title")
 
 setIcon("mekanism:ingot", 6)
 
-setDescription("Find a Cassiterite or Teallite surface sample and dig for Tin! The ore is located between Y8 and Y68. Note, surface samples will unhide in already explored areas.")
+setTranslatedDescription("advancements.stage1.tin.description")
 
 addParent("triumph:stage1/prospector")
 setRequiresParents()
@@ -18,3 +18,5 @@ criteria2.setBlock("geolosys:ore", 5)
 
 //Rewards
 setRewardExperience(4)
+
+visibleIf("triumph:stage1/root")

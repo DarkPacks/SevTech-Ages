@@ -49,7 +49,7 @@ static mobsMap as string[][string] = {
 	Init method to perform the logic for the script.
 */
 function init() {
-	for _stage, mobs in scripts.crafttweaker.staging.mobs.mobsMap {
+	for _stage, mobs in mobsMap {
 		ZenStager.getStage(_stage).addMobs(mobs);
 	}
 }

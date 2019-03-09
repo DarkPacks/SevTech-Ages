@@ -1,8 +1,8 @@
-setTitle("Steve's Carts")
+setTranslatedTitle("advancements.stage3.stevescartsassembler.title")
 
 setIcon("stevescarts:blockcartassembler")
 
-setDescription("The Cart Assembler will allow you to build a modular cart. Remember, you can craft upgrades and attach them via Shift-Clicking to the outside of the Assembler to speed up production time or use other features")
+setTranslatedDescription("advancements.stage3.stevescartsassembler.description")
 
 addParent("triumph:stage3/root")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("stevescarts:blockcartassembler")
 
 //Rewards
 setRewardExperience(8)
+
+visibleIf("triumph:stage3/root")

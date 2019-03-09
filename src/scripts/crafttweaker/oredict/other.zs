@@ -78,3 +78,14 @@ import crafttweaker.item.IItemStack;
 
 // String
 <ore:string>.add(<natura:materials:7>);
+
+// Fibre Torch
+<ore:fibreTorch>.add(<primal_tech:fibre_torch>);
+<ore:fibreTorch>.add(<primal_tech:fibre_torch_lit>);
+<ore:torch>.add(<primal_tech:fibre_torch_lit>);
+
+// Someone removed this. So let's add it back!
+for item in <minecraft:stained_hardened_clay>.definition.subItems {
+	<ore:blockStainedHardenedClay>.add(item);
+}
+<ore:blockStainedHardenedClay>.add(<minecraft:hardened_clay>);

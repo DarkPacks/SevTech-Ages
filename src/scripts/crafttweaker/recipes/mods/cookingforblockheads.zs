@@ -71,6 +71,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:quartz_block:0>, <actuallyadditions:block_misc:2>],
 			[<actuallyadditions:block_misc:2>, <minecraft:quartz_block:0>]
 		]
+	],
+	<cookingforblockheads:preservation_chamber:0> : [
+		[
+			[null, null, null],
+			[metals.electrum.nugget, metals.electrum.nugget, metals.electrum.nugget],
+			[metals.electrum.ingot, <pneumaticcraft:heat_sink>, metals.electrum.ingot]
+		]
+	],
+	<cookingforblockheads:heating_unit:0> : [
+		[
+			[null, null, null],
+			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+			[metals.electrum.ingot, <storagedrawers:controller>, metals.electrum.ingot]
+		]
 	]
 };
 
@@ -93,10 +107,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
+	<cookingforblockheads:heating_unit:0>,
+	<cookingforblockheads:ice_unit:0>,
 	<cookingforblockheads:kitchen_floor:0>,
 	<cookingforblockheads:milk_jar:0>,
 	<cookingforblockheads:oven:0>,
+	<cookingforblockheads:preservation_chamber:0>,
 	<cookingforblockheads:recipe_book:2>,
 	<cookingforblockheads:sink:0>,
 	<cookingforblockheads:toaster:0>,
@@ -104,18 +121,6 @@ static removeRecipes as IIngredient[] = [
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.cookingforblockheads.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.cookingforblockheads.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

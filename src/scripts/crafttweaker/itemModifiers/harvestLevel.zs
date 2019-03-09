@@ -1,7 +1,7 @@
 /*
-	SevTech: Ages Hardness Modification Script
+	SevTech: Ages Harvest Level Modification Script
 
-	This script allows for the modification of an ItemStack's hardness.
+	This script allows for the modification of an ItemStack's Harvest Level.
 
 	Note: These scripts are created and for the usage in SevTech: Ages and other
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
@@ -15,19 +15,21 @@ static pickaxeLevelPairs as IItemStack[][int] = {
 	1: [
 		<abyssalcraft:coraliumore:0>,
 		<bloodmagic:blood_rune:0>,
+		<geolosys:ore:3>,
+		<geolosys:ore:5>,
 		<poweradapters:mj:0>
 	],
 
 	3: [
-		<nex:ore_quartz:1>,
-		<nex:ore_quartz:2>,
-		<nex:ore_quartz:3>,
-		<nex:ore_quartz:0>
+		<nex:quartz_ore:1>,
+		<nex:quartz_ore:2>,
+		<nex:quartz_ore:3>,
+		<nex:quartz_ore:0>
 	]
 };
 
 function init() {
-	for pickaxeLevel, items in scripts.crafttweaker.itemModifiers.harvestLevel.pickaxeLevelPairs {
+	for pickaxeLevel, items in pickaxeLevelPairs {
 		for item in items {
 			var blockDefinition as IBlockDefinition = item.asBlock().definition;
 			blockDefinition.setHarvestLevel("pickaxe", pickaxeLevel);

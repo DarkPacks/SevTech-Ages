@@ -1,8 +1,8 @@
-setTitle("Full Kitchen")
+setTranslatedTitle("advancements.stage4.blockheads3.title")
 
 setIcon("cookingforblockheads:cooking_table")
 
-setDescription("Cooking for Blockheads appliance blocks all act as a multiblock when placed next to each other. Craft and place the Cooking Table to get started. Then you can place the Oven, Fridge, Sink, and other items to gain more functionality")
+setTranslatedDescription("advancements.stage4.blockheads3.description")
 
 addParent("triumph:stage4/blockheads2")
 setRequiresParents()
@@ -13,3 +13,5 @@ criteria.setItem("cookingforblockheads:cooking_table")
 
 //Rewards
 setRewardExperience(12)
+
+visibleIf("triumph:stage4/root")

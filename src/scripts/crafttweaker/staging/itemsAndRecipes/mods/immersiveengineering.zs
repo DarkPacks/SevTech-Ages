@@ -60,6 +60,7 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:conveyor"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:covered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:dropper"}),
+		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:extract"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
 		<immersiveengineering:conveyor:0>.withTag({conveyorType: "immersiveengineering:splitter"}),
@@ -78,6 +79,7 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:fluorescent_tube:0>,
 		<immersiveengineering:graphite_electrode:0>,
 		<immersiveengineering:jerrycan:0>,
+		<immersiveengineering:maintenance_kit>,
 		<immersiveengineering:material:5>,
 		<immersiveengineering:material:6>,
 		<immersiveengineering:material:7>,
@@ -128,6 +130,8 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:metal_decoration2:3>,
 		<immersiveengineering:metal_decoration2:4>,
 		<immersiveengineering:metal_decoration2:5>,
+		<immersiveengineering:metal_decoration2:7>,
+		<immersiveengineering:metal_decoration2:8>,
 		<immersiveengineering:metal_decoration2:0>,
 		<immersiveengineering:metal_device0:1>,
 		<immersiveengineering:metal_device0:2>,
@@ -290,7 +294,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.immersiveengineering.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 }

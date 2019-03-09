@@ -47,12 +47,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
 			[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
-			[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>]
+			[<ore:plankWood>, <immcraft:chest:0>, <ore:plankWood>]
 		]
 	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<waterstrainer:strainer_base:0>: {
+		Utils.genRecipeName(stageOne, <waterstrainer:strainer_base:0>): [
+			[
+				[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem],
+				[<ore:plankWood>, <primal_tech:wooden_hopper>, <ore:plankWood>],
+				[<ore:plankWood>, <minecraft:chest:0>, <ore:plankWood>]
+			]
+		]
+	}
 };
 
 /*
@@ -76,25 +85,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*
     Recipe Removals
 */
-static removeRecipes as IIngredient[] = [
+static removeRecipes as IItemStack[] = [
 	<waterstrainer:bait_pot:0>,
 	<waterstrainer:garden_trowel:0>,
 	<waterstrainer:strainer_base:0>
 ];
 
 function init() {
-	// Un-named recipes
-	var shapedRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.shapedRecipes;
-	var mirroredRecipes as IIngredient[][][][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.mirroredRecipes;
-	var shapelessRecipes as IIngredient[][][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.shapelessRecipes;
-
-	// Named recipes
-	var namedShapedRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.namedShapedRecipes;
-	var namedMirroredRecipes as IIngredient[][][][string][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.namedMirroredRecipes;
-	var namedShapelessRecipes as IIngredient[][][string][IItemStack] = scripts.crafttweaker.recipes.mods.waterstrainer.namedShapelessRecipes;
-
-	var removeRecipes as IItemStack[] = scripts.crafttweaker.recipes.mods.waterstrainer.removeRecipes;
-
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);

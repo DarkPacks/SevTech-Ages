@@ -3,6 +3,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageTwo;
+import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageCreativeUnused;
@@ -12,7 +13,12 @@ static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
 		<appliedenergistics2:crank:0>,
 		<appliedenergistics2:grindstone:0>,
-		<appliedenergistics2:material:46> //Ender dust
+		<appliedenergistics2:material:46> // Ender dust
+	],
+
+	stageThree.stage: [
+		<appliedenergistics2:material:3>,
+		<appliedenergistics2:quartz_glass:0>
 	],
 
 	stageFour.stage: [
@@ -86,7 +92,6 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:part:0>,
 		<appliedenergistics2:quartz_block:0>,
 		<appliedenergistics2:quartz_fixture:0>,
-		<appliedenergistics2:quartz_glass:0>,
 		<appliedenergistics2:quartz_ore:0>,
 		<appliedenergistics2:quartz_pillar_slab:0>,
 		<appliedenergistics2:quartz_pillar_stairs:0>,
@@ -160,7 +165,6 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:quantum_ring:0>,
 		<appliedenergistics2:quartz_growth_accelerator:0>,
 		<appliedenergistics2:security_station:0>,
-		<appliedenergistics2:sky_compass:0>,
 		<appliedenergistics2:sky_stone_block:0>,
 		<appliedenergistics2:sky_stone_brick_slab:0>,
 		<appliedenergistics2:sky_stone_brick_stairs:0>,
@@ -274,7 +278,26 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:part:513>,
 		<appliedenergistics2:part:514>,
 		<appliedenergistics2:part:515>,
-		<appliedenergistics2:part:516>
+		<appliedenergistics2:part:516>,
+
+		// Fluids!
+		<appliedenergistics2:fluid_interface:0>,
+		<appliedenergistics2:fluid_storage_cell_1k:*>,
+		<appliedenergistics2:fluid_storage_cell_4k:*>,
+		<appliedenergistics2:fluid_storage_cell_16k:*>,
+		<appliedenergistics2:fluid_storage_cell_64k:*>,
+		<appliedenergistics2:material:56>,
+		<appliedenergistics2:material:54>,
+		<appliedenergistics2:material:55>,
+		<appliedenergistics2:material:57>,
+		<appliedenergistics2:part:302>,
+		<appliedenergistics2:part:261>,
+		<appliedenergistics2:part:321>,
+		<appliedenergistics2:part:241>,
+		<appliedenergistics2:part:441>,
+		<appliedenergistics2:part:281>,
+		<appliedenergistics2:part:221>,
+		<appliedenergistics2:part:520>
 	],
 
 	stageCreativeUnused.stage: [
@@ -293,15 +316,15 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
-	<appliedenergistics2:material:21>, //Inscriber Name Press
-	<appliedenergistics2:material:45>, //Skystone Dust
+	<appliedenergistics2:material:21>, // Inscriber Name Press
+	<appliedenergistics2:material:45>, // Skystone Dust
 	<appliedenergistics2:vibration_chamber:0>
 ];
 
 function init() {
-	for stageName, items in scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.stagedItems {
+	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenItems as IIngredient[]);
-	recipeUtil.hideItems(scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

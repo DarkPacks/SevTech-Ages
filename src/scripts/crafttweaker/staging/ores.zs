@@ -12,6 +12,7 @@ import crafttweaker.item.IItemStack;
 
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
+import mods.orestages.OreStages;
 
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -269,7 +270,6 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<geolosys:cluster:10>],
 		[<geolosys:ore:10>],
 		[<geolosys:ore_sample:10>, <immcraft:rock:0>],
-		[<primal:ore_magnetite:*>],
 		[<cyclicmagic:uncrafting_block:0>]
 	]
 };
@@ -297,20 +297,17 @@ static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 };
 
 // TODO: Add support for staging these in ZenStages
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:0", "minecraft:beetroots:0");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:1", "minecraft:beetroots:1");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:2", "minecraft:beetroots:2");
-mods.orestages.OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:3", "minecraft:beetroots:3");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:0", "minecraft:beetroots:0");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:1", "minecraft:beetroots:1");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:2", "minecraft:beetroots:2");
+OreStages.addNonDefaultingReplacementById(stageThree.stage, "minecraft:nether_wart:3", "minecraft:beetroots:3");
 
 /*
 	Init method to perform the logic for the script.
 */
 function init() {
-	var replacementItemsForStage as IIngredient[][][string] = scripts.crafttweaker.staging.ores.replacementItemsForStage;
-	var nonDefaultReplacementItemsForStage as IIngredient[][][string] = scripts.crafttweaker.staging.ores.nonDefaultReplacementItemsForStage;
-
-	scripts.crafttweaker.staging.ores.addOreReplacements(replacementItemsForStage, false);
-	scripts.crafttweaker.staging.ores.addOreReplacements(nonDefaultReplacementItemsForStage, true);
+	addOreReplacements(replacementItemsForStage, false);
+	addOreReplacements(nonDefaultReplacementItemsForStage, true);
 }
 
 function addOreReplacements(replacementItemsForStage as IIngredient[][][string], isNonDefaulting as bool) {

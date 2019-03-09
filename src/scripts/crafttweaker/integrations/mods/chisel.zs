@@ -60,7 +60,7 @@ function init() {
 	Carving.addVariation("pitstone", <thebetweenlands:pitstone_tiles:0>);
 	Carving.addVariation("pitstone", <thebetweenlands:smooth_pitstone:0>);
 
-	// Add the Limestone to the already Chisel one.
+	// Add Betweenlands Limestone to limestone group
 	Carving.addVariation("limestone", <thebetweenlands:limestone:0>);
 	Carving.addVariation("limestone", <thebetweenlands:limestone_chiseled:0>);
 	Carving.addVariation("limestone", <thebetweenlands:cracked_limestone_bricks:0>);
@@ -69,7 +69,7 @@ function init() {
 	Carving.addVariation("limestone", <thebetweenlands:polished_limestone:0>);
 	Carving.addVariation("limestone", <thebetweenlands:weak_polished_limestone:0>);
 
-	// Add the Basalt to the already Chisel one.
+	// Add NetherEx Basalt to basalt group
 	Carving.addVariation("basalt", <nex:basalt:0>);
 	Carving.addVariation("basalt", <nex:basalt:1>);
 	Carving.addVariation("basalt", <nex:basalt:2>);

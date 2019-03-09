@@ -143,6 +143,7 @@ Mods Added:
 * LibEx (1.0.8)
     * Now required by Nether Ex (2.0.0+)
 * Mekatweaks (1.0.0)
+* More Overlays (1.14)
 * Playerbosses (0.1.0)
 * Proportional Destruction Particles (1.2.4)
 * Tips (1.0.7)
@@ -353,7 +354,6 @@ Mod Updates:
 * Mystical Agriculture (1.7.3)
     * Fixed a crash involving PneumaticCraft harvest drones
 * Natura (4.3.2.66)
-* Not Enough Items (2.4.2.240)
 * Neat (1.4-17)
 * Nether Ex (2.0.8)
     * Pigtificate Villages not spawning

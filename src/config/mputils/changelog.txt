@@ -541,6 +541,7 @@ Bug Fixes:
 * Fix missing recipe for the pipe pulsar due to the pack not having the assembler table (#2762)
 * Staged Skeleton Trap Horses in Age 1 (#1611)
 * Add hardness to Reinforced Coke Brick (#2784)
+* Fix IE excavator not yielding geolosys clusters (#3025)
 
 Enhancements:
 * Updated Privacy Policy

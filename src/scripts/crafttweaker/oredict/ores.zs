@@ -33,6 +33,19 @@
 <ore:oreGeolosysSphalerite>.add(<geolosys:ore:10>);
 <ore:oreGeolosysTeallite>.add(<geolosys:ore:5>);
 
+// Register all geolosys clusters with unique oredict entries (used by the IE excavator)
+<ore:oreClusterAluminum>.add(<geolosys:cluster:6>);
+<ore:oreClusterCopper>.add(<geolosys:cluster:2>);
+<ore:oreClusterGold>.add(<geolosys:cluster:1>);
+<ore:oreClusterIron>.add(<geolosys:cluster:0>);
+<ore:oreClusterLead>.add(<geolosys:cluster:5>);
+<ore:oreClusterNickel>.add(<geolosys:cluster:7>);
+<ore:oreClusterOsmium>.add(<geolosys:cluster:12>);
+<ore:oreClusterPlatinum>.add(<geolosys:cluster:8>);
+<ore:oreClusterSilver>.add(<geolosys:cluster:4>);
+<ore:oreClusterTin>.add(<geolosys:cluster:3>);
+<ore:oreClusterUranium>.add(<geolosys:cluster:9>);
+
 // Remove ore oredict on geolosys-styled CoT ores.
 <ore:oreOsmium>.remove(<materialpart:osmium:ore_minecraft_stone>);
 

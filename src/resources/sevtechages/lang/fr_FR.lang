@@ -553,10 +553,6 @@ advancements.stage3.circuitboard.title=Bac+5 en Redstone
 advancements.stage3.circuitboard.description=Utilisez un établi d'ingénieur pour fabriquer un circuit imprimé.
 
 
-advancements.stage3.compactmachines.title=Chéri on a rétréci les cubes
-advancements.stage3.compactmachines.description=Vous souhaitez créer vos propres dimension et de nouvelles machines ? Fabriquez un projecteur de champs miniature et placez le dans votre monde pour commencer.
-
-
 advancements.stage3.conveyorbelt.title=Aéroport ou usine ?
 advancements.stage3.conveyorbelt.description=Les tapis roulant du mod Immersive Engineering sont un bon moyen de transporter vos objets !
 
@@ -893,6 +889,10 @@ advancements.stage5.charger3.description=Le chargeur de niveau 3 vous permettra 
 
 advancements.stage5.cheese.title=La lune est un géant fromage
 advancements.stage5.cheese.description=Le fromage est un minerais rare qui se trouve sur la lune, comme tout les autres minerais se trouvant sur la lune, vous pouvez utiliser une carrière automatisée.
+
+
+advancements.stage5.compactmachines.title=Chéri on a rétréci les cubes
+advancements.stage5.compactmachines.description=Vous souhaitez créer vos propres dimension et de nouvelles machines ? Fabriquez un projecteur de champs miniature et placez le dans votre monde pour commencer.
 
 
 advancements.stage5.creativecompressor.title=Décompressé

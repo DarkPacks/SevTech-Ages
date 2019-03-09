@@ -352,6 +352,7 @@ Mod Updates:
 * Mod Tweaker (4.0.16)
 * Morpheus (3.5.106)
 * MouseTweaks (2.10)
+* MPUtils (1.5.7)
 * MulitBlock Stages (1.1.1)
 * Mundane Redstone Ore (1.1.4)
 * Mystical Agradditions (1.3.1)
@@ -433,7 +434,7 @@ Mod Updates:
 * Together Forever (1.0.11-20)
 * Translocators (2.5.1.77)
 * Triumph (3.12.0)
-* The Betweenlands (3.4.5)
+* The Betweenlands (3.4.6)
     * Fixed water invisible when in Weedwood Rowboat with Galacticraft installed
     * Fixed a crash when certain items were rendered in Weedwood Workbench
     * Fixed apparent crash when entering the Betweenlands

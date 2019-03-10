@@ -278,7 +278,7 @@ Mod Updates:
     * Fixed the Automation Interface not working properly with the Ender Crafter
     * Fixed the Ender Crafter not saving it's inventory in some cases
     * Fixed the Automation Interface not saving the result of an Ender Crafting recipe properly
-* ExtraPlanets (0.4.9)
+* ExtraPlanets (0.5.0)
 * Fancy Block Particles (2.4.1)
 * Farming For Blockheads (3.1.26)
     * Remove villager idle noises from merchants because they're so annoying
@@ -312,7 +312,7 @@ Mod Updates:
 * Improved Backpacks (1.4.0.0)
 * In Control (3.9.4)
 * Inductive Logistics (1.3.3)
-* Industrial Foregoing (1.12.6-230)
+* Industrial Foregoing (1.12.7-231)
 * Informational Accessories (1.0.11)
 * Integrated Dynamics (1.0.7)
     * Add visual indicator in operator dropdown list on next/prev elements
@@ -330,7 +330,7 @@ Mod Updates:
 * KleeSlabs (5.4.11)
 * Mantle (1.3.3.42)
 * MTLib (3.0.5)
-* Mekanism (9.4.13.349)
+* Mekanism (9.6.0.351)
 * MicDoodleCore (4.0.1.181)
 * MicJty Lib (3.1.1)
 * MJRLegends Lib (1.1.8)

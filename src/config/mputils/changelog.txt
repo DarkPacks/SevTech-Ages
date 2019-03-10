@@ -395,7 +395,7 @@ Mod Updates:
     * Fixed (hopefully) semiblocks rendering leaking across dimensions (semiblocks are logistics frames, heat frames, crop supports, spawner agitators & transfer gadgets)
 * Prestige (1.1.30)
 * PrimalCore (0.6.104)
-* Quantum Storage (4.6.7)
+* Quantum Storage (4.6.8)
 * Quark (r1.5-146)
 * Realistic Item Drops (1.2.14)
 * Reborn Core (3.13.5.421)

@@ -33,10 +33,6 @@ spawn in components to re-make your ships. Note: Ship building changed a bit so 
 Bug Fixes:
 * Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
 * Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
-* Fixed "Broken" tooltip from displaying on the Cyclic swords
-* Fixed Cyclic player launcher recipe
-* Fixed Betweenland items being repairable in the Cyclic Anvil. As it's not intended from the mod.
-* Fixed Bronze Tool recipe issue and added Copper Tool recipes (#2802)
 * Fixed "Broken" tooltip from displaying on the Cyclic swords and Twilight Forest's Glass Sword.
 * Fixed Cyclic player launcher recipe.
 * Fixed Bloodwood and Ghostwood planks crafting each others slabs (#3173)

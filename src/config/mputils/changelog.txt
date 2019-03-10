@@ -72,8 +72,6 @@ should not be repairable anyways using this method. (#2925)
 * Fix IE excavator not yielding geolosys clusters (#3025)
 
 Enhancements:
-* Add Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
-* Made ore advancement descriptions uniform and corrected Y values.
 * Disabled more Cyclic Enhancements not needed for this pack.
 * Added Ferdiand's Flowers glass blocks to sealable block list for Galacticraft (#2797)
 * Made ore advancement descriptions uniform and corrected Y values.

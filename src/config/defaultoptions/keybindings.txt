@@ -96,7 +96,7 @@ key_Mekanism Item Mode Switch:50:NONE
 key_Mekanism Armor Mode Switch:34:NONE
 key_Mekanism Feet Mode Switch:35:NONE
 key_Mekanism Voice:22:NONE
-key_key.astikoor.desc:19:NONE
+key_key.astikorcarts.desc:19:NONE
 key_bbw.key.mode:50:NONE
 key_bbw.key.fluidmode:33:NONE
 key_key.columnshiftup:21:NONE

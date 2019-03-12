@@ -10,6 +10,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantment;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -293,4 +294,18 @@ function stageRecipeNameOrRegex(stage as Stage, recipeNames as string[]) {
 			stage.addRecipeName(recipeName);
 		}
 	}
+}
+
+/*
+	A makeTag replacement for Enchantments to support JEID's Integer IDs
+*/
+function makeJeidTag(enchantment as IEnchantment) as IData {
+	var tag as IData = enchantment.makeTag();
+	var newEnch = [] as IData;
+
+	for data in tag.ench.asList() {
+		newEnch += {lvl: data.lvl.asShort(), id: data.id.asInt()};
+	}
+
+	return {ench: newEnch} as IData;
 }

@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.utils;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -32,23 +33,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:infinite_barrel:0>: [
 		[
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_storage_unit:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
-			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_storage_unit:0>]
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <quantumstorage:quantum_storage_unit:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <industrialforegoing:black_hole_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench})],
+			[<quantumstorage:quantum_storage_unit:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <quantumstorage:quantum_storage_unit:0>]
 		]
 	],
 	<overloaded:infinite_tank:0>: [
 		[
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_tank:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
-			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <quantumstorage:quantum_tank:0>]
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <quantumstorage:quantum_tank:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <industrialforegoing:black_hole_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench})],
+			[<quantumstorage:quantum_tank:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <quantumstorage:quantum_tank:0>]
 		]
 	],
 	<overloaded:infinite_capacitor:0>: [
 		[
-			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <actuallyadditions:item_battery_quintuple:0>],
-			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench})],
-			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:infinity>.makeEnchantment(1).makeTag().ench}), <extraplanets:ultimate_battery:0>]
+			[<extraplanets:ultimate_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <actuallyadditions:item_battery_quintuple:0>],
+			[<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <integrateddynamics:energy_battery:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench})],
+			[<actuallyadditions:item_battery_quintuple:0>, <minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:infinity>.makeEnchantment(1)).ench}), <extraplanets:ultimate_battery:0>]
 		]
 	],
 	<overloaded:hyper_item_receiver:0>: [

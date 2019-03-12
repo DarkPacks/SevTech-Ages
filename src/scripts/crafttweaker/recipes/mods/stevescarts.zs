@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.utils;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
@@ -84,8 +85,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(5)).ench}),
 				null
 			],
 			[null, <minecraft:redstone:0>, null],
@@ -95,8 +95,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				null,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 4 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(4)).ench}),
 				null
 			],
 			[metals.iron.ingot, <immersiveengineering:material:27>, metals.iron.ingot],
@@ -106,8 +105,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 3 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(3)).ench}),
 				<minecraft:redstone:0>
 			],
 			[metals.iron.ingot, <stevescarts:modulecomponents:16>, metals.iron.ingot],
@@ -117,8 +115,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<minecraft:redstone:0>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 2 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(2)).ench}),
 				<minecraft:redstone:0>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -128,8 +125,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				<immersiveengineering:material:27>,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 1 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(1)).ench}),
 				<immersiveengineering:material:27>
 			],
 			[metals.reinforcedMetal.ingot, <stevescarts:modulecomponents:16>, metals.reinforcedMetal.ingot],
@@ -141,8 +137,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[
 				metals.galgadorian.ingot,
 				<minecraft:enchanted_book:0>
-					.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]})
-					.onlyWithTag({StoredEnchantments: [{lvl: 5 as short, id: 32}]}),
+					.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:efficiency>.makeEnchantment(5)).ench}),
 				metals.galgadorian.ingot
 			],
 			[metals.galgadorian.ingot, <stevescarts:modulecomponents:16>, metals.galgadorian.ingot],

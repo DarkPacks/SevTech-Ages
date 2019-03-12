@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage1.cart.title")
 
-setIcon("astikoor:cargocart")
+setIcon("astikorcarts:cargocart")
 
 setTranslatedDescription("advancements.stage1.cart.description")
 
@@ -9,7 +9,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("astikoor:cargocart")
+criteria.setItem("astikorcarts:cargocart")
 
 //Rewards
 setRewardExperience(4)

@@ -11,6 +11,8 @@
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.events.IEventManager;
 
+import scripts.crafttweaker.stages.stageTutorial;
+
 /*
 	Add event listener
 */
@@ -24,6 +26,12 @@ function init() {
 				"Issue Tracker."
 			);
 			event.player.sendChat("Thanks again for helping to test new updates!");
+		}
+
+		// Make sure the player has the tutorial stage
+		// This helps prevent issues when a new player joins
+		if (!event.player.hasGameStage(stageTutorial.stage)) {
+			event.player.addGameStage(stageTutorial.stage);
 		}
 	});
 }

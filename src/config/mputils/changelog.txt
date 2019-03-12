@@ -347,6 +347,7 @@ Mod Updates:
 * Mod Tweaker (4.0.16)
 * Morpheus (3.5.106)
 * MouseTweaks (2.10)
+* MPBasic Tools (1.4.11)
 * MPUtils (1.5.7)
 * MulitBlock Stages (1.1.1)
 * Mundane Redstone Ore (1.1.4)

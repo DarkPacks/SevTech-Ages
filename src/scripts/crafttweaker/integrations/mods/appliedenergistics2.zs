@@ -10,6 +10,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.crafttweaker.utils;
+
 static ae as IItemStack[string][string] = {
 	press: {
 		engineering: <appliedenergistics2:material:14>,
@@ -71,11 +73,11 @@ function init() {
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:2>, <refinedstorage:upgrade:0>, false, <minecraft:sugar:0>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:3>, <refinedstorage:upgrade:0>, false, <ore:workbench>, <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:6>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:silk_touch>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:silk_touch>.makeEnchantment(1)).ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:7>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(1).makeTag().ench}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:fortune>.makeEnchantment(1)).ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:8>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(2).makeTag().ench}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:fortune>.makeEnchantment(2)).ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade:0>, false,
-			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: <enchantment:minecraft:fortune>.makeEnchantment(3).makeTag().ench}), <minecraft:redstone:0>);
+			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:fortune>.makeEnchantment(3)).ench}), <minecraft:redstone:0>);
 }

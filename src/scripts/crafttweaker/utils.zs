@@ -304,7 +304,7 @@ function makeJeidTag(enchantment as IEnchantment) as IData {
 	var newEnch = [] as IData;
 
 	for data in tag.ench.asList() {
-		newEnch += {lvl: data.lvl.asShort(), id: data.id.asInt()};
+		newEnch += [{lvl: data.lvl.asShort(), id: data.id.asInt()}];
 	}
 
 	return {ench: newEnch} as IData;

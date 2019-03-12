@@ -19,7 +19,7 @@ function init() {
 		if (isDevelopment) {
 			event.player.sendChat(
 				"§4Warning!§r you are using a development build of " +
-				"§bSevTech: Ages " + developmentBuild +
+				"§bSevTech: Ages " + scripts.crafttweaker.preInit.PACK_VERSION +
 				"§r, please ensure you report any bugs to either Discord or the " +
 				"Issue Tracker."
 			);

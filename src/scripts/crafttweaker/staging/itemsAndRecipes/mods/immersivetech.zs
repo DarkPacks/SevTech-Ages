@@ -10,8 +10,15 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenRemove as IIngredient[] = [
+	<immersivetech:stone_multiblock>,
+	<immersivetech:metal_multiblock>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

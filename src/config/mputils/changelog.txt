@@ -12,6 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Propene recipe not matching inputs (#3614)
+* Made Dung obtainable
 
 Mod Updates:
 * Modular Machinery (1.9.5)

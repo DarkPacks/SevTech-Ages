@@ -115,6 +115,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.huntingdim.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.immcraft.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.immersiveengineering.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.immersivepetroleum.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.immersivetech.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.improvedbackpacks.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.indlog.init();

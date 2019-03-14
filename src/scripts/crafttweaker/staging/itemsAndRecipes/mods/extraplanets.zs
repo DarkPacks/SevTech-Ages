@@ -273,12 +273,6 @@ static stagedItems as IIngredient[][string] = {
 		<extraplanets:jupiter:13>,
 		<extraplanets:jupiter:0>,
 		<extraplanets:kepler22b_blue_grass:0>,
-		<extraplanets:kepler22b_flowers:1>,
-		<extraplanets:kepler22b_flowers:2>,
-		<extraplanets:kepler22b_flowers:3>,
-		<extraplanets:kepler22b_flowers:4>,
-		<extraplanets:kepler22b_flowers:5>,
-		<extraplanets:kepler22b_flowers:0>,
 		<extraplanets:kepler22b_grass:0>,
 		<extraplanets:kepler22b_infected_grass:0>,
 		<extraplanets:kepler22b_maple_logs:1>,
@@ -748,9 +742,19 @@ static hiddenRemove as IIngredient[] = [
 	<extraplanets:wafer:5>
 ];
 
+static hidden as IIngredient[] = [
+	<extraplanets:kepler22b_flowers:0>,
+	<extraplanets:kepler22b_flowers:1>,
+	<extraplanets:kepler22b_flowers:2>,
+	<extraplanets:kepler22b_flowers:3>,
+	<extraplanets:kepler22b_flowers:4>,
+	<extraplanets:kepler22b_flowers:5>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
+	recipeUtil.hideItems(hidden as IIngredient[], false);
 }

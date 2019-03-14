@@ -14,6 +14,9 @@ Bug Fixes:
 * Propene recipe not matching inputs (#3614)
 * Made Dung obtainable
 
+Enhancements:
+* Hide junk from JEI
+
 Mod Updates:
 * Modular Machinery (1.9.5)
 * MPBasic Tools (1.4.11)

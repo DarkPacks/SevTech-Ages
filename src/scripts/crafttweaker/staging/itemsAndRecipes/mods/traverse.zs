@@ -14,8 +14,6 @@ static stagedItems as IIngredient[][string] = {
 		<traverse:blue_rock:0>,
 		<traverse:brown_autumnal_leaves:0>,
 		<traverse:brown_autumnal_sapling:0>,
-		<traverse:cold_grass:0>,
-		<traverse:dead_grass:0>,
 		<traverse:fir_leaves:0>,
 		<traverse:fir_log:0>,
 		<traverse:fir_planks:0>,
@@ -52,8 +50,15 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hidden as IIngredient[] = [
+	<traverse:cold_grass:0>,
+	<traverse:dead_grass:0>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	recipeUtil.hideItems(hidden as IIngredient[], false);
 }

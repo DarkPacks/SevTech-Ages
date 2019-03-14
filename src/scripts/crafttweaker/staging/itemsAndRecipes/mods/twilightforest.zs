@@ -28,8 +28,14 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hidden as IIngredient[] = [
+	<twilightforest:twilight_plant:5>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+
+	recipeUtil.hideItems(hidden as IIngredient[], false);
 }

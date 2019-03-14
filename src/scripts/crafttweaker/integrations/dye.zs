@@ -288,7 +288,7 @@ function init() {
 			actuallyAdditions.addCrusher(dye * 2, item);
 			betterWithMods.addMilling([item], [dye * 2]);
 			immersiveEngineering.addCrusher(dye * 2, item, IE_CRUSHER_ENERGY);
-			horsePower.addGrindstone(item, dye, HP_GRINDSTONE_TIME, false);
+			horsePower.addGrindstone(dye, item, HP_GRINDSTONE_TIME, false);
 			mekanism.addCrusher(item, dye * 2);
 		}
 

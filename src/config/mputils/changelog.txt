@@ -12,7 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Propene recipe not matching inputs (#3614)
-* Made Dung obtainable
+* Changed BWM Adobe recipe to not require Dung
 
 Enhancements:
 * Hide junk from JEI

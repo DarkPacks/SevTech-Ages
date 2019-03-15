@@ -8,6 +8,27 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.1.2
+
+Mod Updates:
+* AbyssalCraft (1.9.5.4)
+* AbyssalCraft Integration (1.8.0)
+* Bookshelf (2.3.577)
+* BuildCraft (7.99.23)
+* Common Capabilities (2.1.0)
+* Corail Tombstone (3.3.3)
+* CraftTweaker (4.1.15)
+* Cyclops Core (1.0.6)
+* Dimensional Control (2.11.0)
+* Horse Power (2.6.3.72)
+* In Control! (3.9.6)
+* Integrated Dynamics (1.0.8)
+* MTLib (3.0.6)
+* Overloaded (0.0.54)
+* RebornCore (3.13.6.424)
+
+---------------------------------------------------------------------
+
 3.1.1
 
 Bug Fixes:

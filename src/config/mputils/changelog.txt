@@ -10,6 +10,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.1.2
 
+Bug Fixes:
+* Fixed Horse Power dye recipes being flipped
+
 Mod Updates:
 * AbyssalCraft (1.9.5.4)
 * AbyssalCraft Integration (1.8.0)

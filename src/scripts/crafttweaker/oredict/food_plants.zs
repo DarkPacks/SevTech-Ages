@@ -35,9 +35,10 @@ import crafttweaker.item.IItemStack;
 <ore:listAllmeatcooked>.add(<natura:edibles:1>);
 
 <ore:cordageGeneral>.remove(<primal:silk_cordage:0>);
-<ore:cordageGeneral>.add(<primal_tech:twine>);
 <ore:plantfiber>.add(<primal:plant_fiber:0>);
 <ore:thatchingMaterialBasic>.add(<primal:rush_stems:0>);
+
+<ore:string>.remove(<primal_tech:twine>);
 
 /*
 	Seeds

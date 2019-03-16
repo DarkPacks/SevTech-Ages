@@ -33,7 +33,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal_tech:fluid_bladder>,
 		<primal_tech:stick_bundle>,
 		<primal_tech:stone_grill>,
-		<primal_tech:twine>,
 		<primal_tech:wooden_hopper>,
 		<primal_tech:work_stump_upgraded>
 	],
@@ -49,6 +48,7 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<primal_tech:plant_fibres:0>,
+	<primal_tech:twine>,
 	<primal_tech:water_saw:0>
 ];
 

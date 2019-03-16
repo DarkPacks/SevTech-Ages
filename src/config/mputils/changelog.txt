@@ -13,6 +13,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Bug Fixes:
 * Fixed Horse Power dye recipes being flipped
 
+Enhancements:
+* Removed primal tech twine (had no use)
+
 Mod Updates:
 * AbyssalCraft (1.9.5.4)
 * AbyssalCraft Integration (1.8.0)

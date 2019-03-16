@@ -15,14 +15,12 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:shelf:3>,
 		<bibliocraft:shelf:4>,
 		<bibliocraft:shelf:5>,
-		<bibliocraft:shelf:6>,
 		<bibliocraft:shelf:0>,
 		<bibliocraft:toolrack:1>,
 		<bibliocraft:toolrack:2>,
 		<bibliocraft:toolrack:3>,
 		<bibliocraft:toolrack:4>,
 		<bibliocraft:toolrack:5>,
-		<bibliocraft:toolrack:6>,
 		<bibliocraft:toolrack:0>
 	],
 
@@ -248,6 +246,7 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:seatback5:5>,
 		<bibliocraft:seatback5:6>,
 		<bibliocraft:seatback5:0>,
+		<bibliocraft:shelf:6>,
 		<bibliocraft:slottedbook:0>.withTag({authorName: "by Sir Hidington"}),
 		<bibliocraft:stockroomcatalog:0>,
 		<bibliocraft:swordpedestal:10>,
@@ -272,7 +271,8 @@ static stagedItems as IIngredient[][string] = {
 		<bibliocraft:table:4>,
 		<bibliocraft:table:5>,
 		<bibliocraft:table:6>,
-		<bibliocraft:table:0>
+		<bibliocraft:table:0>,
+		<bibliocraft:toolrack:6>
 	],
 
 	stageThree.stage: [

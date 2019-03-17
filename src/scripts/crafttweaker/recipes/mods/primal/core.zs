@@ -549,12 +549,14 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<primal:leather_cordage:0>,
+	<primal:logs_stripped:*>,
 	<primal:slab_ironwood:0>,
 	<primal:smelter:2>.withTag({type: "cinis"}),
 	<primal:smelter:1>.withTag({type: "terra"}),
 	<primal:smelter:0>.withTag({type: "mud"}),
 	<primal:smelter:*>,
 	<primal:thatching_wet:0>,
+
 	// Remove all the Wall Recipes to be sure about the mod adding them somehow.
 	<primal:wall:*>,
 	<primal:common_stone:*>,

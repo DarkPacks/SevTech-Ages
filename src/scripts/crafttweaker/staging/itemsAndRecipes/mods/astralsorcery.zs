@@ -123,7 +123,6 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
-	<astralsorcery:blockmarbleslab:0> // This is not a finshed Block; advised to not use it till completed.
 ];
 
 function init() {

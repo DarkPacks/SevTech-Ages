@@ -123,8 +123,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
-	<astralsorcery:blockmarbleslab:0>, // This is not a finshed Block; advised to not use it till completed.
-	<astralsorcery:itemchargedcrystalpickaxe:0> // <-- like seriously? a pick that shows hidden ores. ples hellfirepvp >.<
+	<astralsorcery:blockmarbleslab:0> // This is not a finshed Block; advised to not use it till completed.
 ];
 
 function init() {

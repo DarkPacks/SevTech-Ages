@@ -298,9 +298,9 @@ function init() {
 		var dyeOredict as IOreDictEntry = oreDict.get("dye" ~ utils.capitalize(dyeName));
 		recipes.addShaped("dye_wool_" ~ dyeName,
 			<minecraft:wool:0>.definition.makeStack(dye.metadata) * 8, [
-				[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
-				[<ore:blockWool>, dyeOredict, <ore:blockWool>],
-				[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]
+				[<ore:wool>, <ore:wool>, <ore:wool>],
+				[<ore:wool>, dyeOredict, <ore:wool>],
+				[<ore:wool>, <ore:wool>, <ore:wool>]
 			]
 		);
 	}

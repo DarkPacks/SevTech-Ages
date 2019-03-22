@@ -14,6 +14,7 @@ Bug Fixes:
 * Fixed Horse Power dye recipes being flipped
 * Moved BiblioCraft Framed Tool Rack & Framed Shelf to correct stage (#3625)
 * Fixed bark workblade recipes on servers (#3621)
+* Fixed dyed wool crafting recipes (#3642)
 
 Enhancements:
 * Removed primal tech twine (had no use)

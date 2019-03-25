@@ -84,7 +84,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:adobe:14>,
 		<betterwithaddons:adobe:15>,
 		<betterwithaddons:adobe:0>,
-		<betterwithaddons:aqueduct:*>,
 		<betterwithaddons:aqueduct:1>,
 		<betterwithaddons:aqueduct:2>,
 		<betterwithaddons:aqueduct:3>,

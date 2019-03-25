@@ -1,4 +1,4 @@
-Open the Advancements Window to find out how to progress (Default key "L")
+
 
 WAILA and a Map are not available from the beginning of the modpack, they need to be unlocked. There are many blocks that are hidden until unlocked through progression!
 
@@ -20,6 +20,7 @@ Bug Fixes:
 * Prevent pickup of Transport Cart with carryon (#3640)
 * Restaged Better With Addons pies to two, where they are obtainbale (#3633)
 * Fixed item drops for various blocks that were overridden in scripts (#3673)
+* Correctly stage Aqueduct constructed from stone bricks (#3635)
 
 Enhancements:
 * Removed primal tech twine (had no use)

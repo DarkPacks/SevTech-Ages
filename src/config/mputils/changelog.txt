@@ -20,6 +20,7 @@ Bug Fixes:
 Enhancements:
 * Removed primal tech twine (had no use)
 * Re-introduce Infused Crystal Pickaxe
+* Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

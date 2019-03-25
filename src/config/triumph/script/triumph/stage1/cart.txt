@@ -7,11 +7,15 @@ setTranslatedDescription("advancements.stage1.cart.description")
 addParent("triumph:stage0/wheel")
 setRequiresParents()
 
+setRequirements("any")
+
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
 criteria.setItem("astikorcarts:cargocart")
+criteria1 = addCriteria("hasMobCart", "minecraft:inventory_changed")
+criteria1.setItem("astikorcarts:mobcart")
 
 //Rewards
 setRewardExperience(4)
 
-visibleIf("triumph:stage1/root")
+visibleIf("triumph:stage0/root") // Advancent is in wrong folder!

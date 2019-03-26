@@ -119,11 +119,6 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<rustic:planks:0>: [
 		<rustic:log:0>
 	],
-	<thebetweenlands:weedwood_planks:0>: [
-		<thebetweenlands:log_weedwood:12>,
-		<thebetweenlands:log_weedwood:0>,
-		<thebetweenlands:weedwood:0>
-	],
 	<totemic:cedar_plank:0>: [
 		<totemic:cedar_log:0>,
 		<totemic:stripped_cedar_log:0>
@@ -131,11 +126,24 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<traverse:fir_planks:0>: [
 		<traverse:fir_log:0>
 	],
+	<thebetweenlands:giant_root_planks:0>: [
+		<thebetweenlands:giant_root:0>
+	],
+	<thebetweenlands:hearthgrove_planks:0>: [
+		<thebetweenlands:log_hearthgrove:1>,
+		<thebetweenlands:log_hearthgrove:3>
+	],
+	<thebetweenlands:nibbletwig_planks:0>: [
+		<thebetweenlands:log_nibbletwig:0>,
+		<thebetweenlands:log_nibbletwig:12>
+	],
 	<thebetweenlands:rubber_tree_planks:0>: [
 		<thebetweenlands:log_rubber:0>
 	],
-	<thebetweenlands:giant_root_planks:0>: [
-		<thebetweenlands:giant_root:0>
+	<thebetweenlands:weedwood_planks:0>: [
+		<thebetweenlands:log_weedwood:12>,
+		<thebetweenlands:log_weedwood:0>,
+		<thebetweenlands:weedwood:0>
 	],
 	<integrateddynamics:menril_planks:0>: [
 		<integrateddynamics:menril_log:0>,
@@ -169,7 +177,6 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 static logsToRemove as IItemStack[] = [
 	<natura:redwood_logs:2>,
 	<natura:redwood_logs:0>,
-	<thebetweenlands:log_nibbletwig:0>,
 	<twilightforest:magic_log:1>
 ];
 

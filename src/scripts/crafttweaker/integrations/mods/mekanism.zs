@@ -7,6 +7,8 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.item.IIngredient;
+
 function init() {
 	/*
 		Chemical Injection Recipes
@@ -72,4 +74,10 @@ function init() {
 	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);
 	mekanism.addCrusher(<actuallyadditions:item_misc:5>, <actuallyadditions:item_dust:7>);
 	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
+
+	/*
+		Saw
+	*/
+	mekanism.removeSawmill(<minecraft:jukebox:0> as IIngredient);
+	mekanism.addSawmill(<minecraft:jukebox:0>, <minecraft:planks:0> * 8, <minecraft:quartz:0>, 1.0);
 }

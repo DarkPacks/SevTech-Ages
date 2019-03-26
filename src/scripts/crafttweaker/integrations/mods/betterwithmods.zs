@@ -90,7 +90,8 @@ static sawRemovals as IItemStack[][] = [
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0> * 3, <betterwithmods:material:34>],
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot:0>, <betterwithmods:material:0>, <betterwithmods:material:34>],
 	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0>, <minecraft:wooden_pressure_plate:0>],
-	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
+	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
 ];
 
 /*
@@ -145,7 +146,8 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 		<traverse:fir_leaves:0>
 	],
 	[<betterwithmods:material:0>]: [ MiniBlocks.getMiniBlock("corner", <ore:plankWood>) ],
-	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ]
+	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:quartz:0>]: [<minecraft:jukebox:0>]
 };
 
 function init() {

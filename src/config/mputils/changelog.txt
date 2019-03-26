@@ -21,6 +21,8 @@ Bug Fixes:
 * Restaged Better With Addons pies to two, where they are obtainbale (#3633)
 * Fixed item drops for various blocks that were overridden in scripts (#3673)
 * Fixed jukebox saw recipes giving diamond instead of quartz (#3667)
+* Added missing leaf -> stick recipes (#3668)
+* Added missing plank recipes (#3669)
 
 Enhancements:
 * Removed primal tech twine (had no use)

@@ -31,7 +31,8 @@ static modIdRecipeRemoval as string[] = [
 static itemRecipeRemoval as IItemStack[] = [
 	<charcoalblock:charcoal_block:0>,
 	<environmentaltech:modifier_creative_flight:0>,
-	<teslacorelib:machine_case:0>
+	<teslacorelib:machine_case:0>,
+	<thebetweenlands:nibblestick:0>
 ];
 
 static recipeNameRemoval as string[] = [

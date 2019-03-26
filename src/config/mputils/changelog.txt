@@ -17,10 +17,12 @@ Bug Fixes:
 * Fixed dyed wool crafting recipes (#3642)
 * Fixed Amadron trades using emeralds as currency (#3648)
 * Restaged Hemp Seeds to zero, matching when hemp may be obtained (#3649)
+* Prevent pickup of Transport Cart with carryon (#3640)
 
 Enhancements:
 * Removed primal tech twine (had no use)
 * Re-introduce Infused Crystal Pickaxe
+* Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

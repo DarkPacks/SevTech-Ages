@@ -15,6 +15,8 @@ Bug Fixes:
 * Moved BiblioCraft Framed Tool Rack & Framed Shelf to correct stage (#3625)
 * Fixed bark workblade recipes on servers (#3621)
 * Fixed dyed wool crafting recipes (#3642)
+* Fixed Amadron trades using emeralds as currency (#3648)
+* Restaged Hemp Seeds to zero, matching when hemp may be obtained (#3649)
 * Prevent pickup of Transport Cart with carryon (#3640)
 
 Enhancements:

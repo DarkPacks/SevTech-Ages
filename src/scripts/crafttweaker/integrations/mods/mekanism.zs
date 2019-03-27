@@ -8,6 +8,31 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+static sawRecipes as IIngredient[][IItemStack] = {
+	<ore:stickWood>.firstItem: [
+		<ore:plankWood>
+	],
+	<thebetweenlands:items_misc:20>: [
+		<thebetweenlands:weedwood_planks:0>
+	],
+	<thebetweenlands:nibblestick:0>: [
+		<thebetweenlands:nibbletwig_planks:0>
+	]
+};
+
+static sawRecipeRemove as IIngredient[] = [
+	<chisel:planks-spruce:*>,
+	<rustic:planks:*>,
+	<chisel:planks-acacia:*>,
+	<chisel:planks-oak:*>,
+	<chisel:planks-jungle:*>,
+	<chisel:planks-birch:*>,
+	<chisel:planks-dark-oak:*>,
+	<betterwithaddons:planks_sakura:*>,
+	<betterwithaddons:planks_mulberry:*>
+];
 
 function init() {
 	/*
@@ -78,6 +103,19 @@ function init() {
 	/*
 		Saw
 	*/
+	for input in sawRecipeRemove {
+		mekanism.removeSawmill(input);
+	}
+
+	for output, inputs in sawRecipes {
+		for inputIngredient in inputs {
+			mekanism.removeSawmill(inputIngredient);
+			for input in inputIngredient.items {
+				mekanism.addSawmill(input, output * 6, <ore:dustWood>.firstItem, 0.25);
+			}
+		}
+	}
+
 	mekanism.removeSawmill(<minecraft:jukebox:0> as IIngredient);
 	mekanism.addSawmill(<minecraft:jukebox:0>, <minecraft:planks:0> * 8, <minecraft:quartz:0>, 1.0);
 }

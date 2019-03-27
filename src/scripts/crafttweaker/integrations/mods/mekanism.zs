@@ -10,6 +10,8 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
+// Map for additional Precision Sawmill recipes - output: [inputs]. Will produce 6 times output, and
+// 25% chance of sawdust.
 static sawRecipes as IIngredient[][IItemStack] = {
 	<ore:stickWood>.firstItem: [
 		<ore:plankWood>
@@ -22,6 +24,8 @@ static sawRecipes as IIngredient[][IItemStack] = {
 	]
 };
 
+
+// These recipes must be explicitly removed - for some reason oredict removal doesn't catch them.
 static sawRecipeRemove as IIngredient[] = [
 	<chisel:planks-spruce:*>,
 	<rustic:planks:*>,
@@ -116,6 +120,7 @@ function init() {
 		}
 	}
 
+	// Jukebox handling
 	mekanism.removeSawmill(<minecraft:jukebox:0> as IIngredient);
 	mekanism.addSawmill(<minecraft:jukebox:0>, <minecraft:planks:0> * 8, <minecraft:quartz:0>, 1.0);
 }

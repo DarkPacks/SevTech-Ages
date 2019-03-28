@@ -14,6 +14,7 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.IBlockEvent;
 import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
 
 /*
 	Block Drops Mapping
@@ -23,84 +24,84 @@ import crafttweaker.item.IItemStack;
 
 	Then you can fill the array with the IItemStacks you want to drop.
 */
-static blockHarvestDrops as IItemStack[][string] = {
+static blockHarvestDrops as WeightedItemStack[][string] = {
     "galacticraftplanets:asteroids_block:4": [
-        <geolosys:cluster:0>,
-        <materialpart:titanium:cluster>
+        <geolosys:cluster:0>.weight(1.0),
+        <materialpart:titanium:cluster>.weight(1.0)
     ],
 	"twilightforest:castle_door:0": [
-		<twilightforest:castle_door:0>
+		<twilightforest:castle_door:0>.weight(1.0)
 	],
 	"twilightforest:castle_door:1": [
-		<twilightforest:castle_door:1>
+		<twilightforest:castle_door:1>.weight(1.0)
 	],
 	"twilightforest:castle_door:2": [
-		<twilightforest:castle_door:2>
+		<twilightforest:castle_door:2>.weight(1.0)
 	],
 	"twilightforest:castle_door:3": [
-		<twilightforest:castle_door:3>
+		<twilightforest:castle_door:3>.weight(1.0)
 	],
 
 	// Primal Stones (When broken should drop the cobble not the stone)
 	"primal:blue_stone" : [
-		<primal:blue_stone:4>
+		<primal:blue_stone:4>.weight(1.0)
 	],
 	"primal:common_stone": [
-		<primal:common_stone:4>
+		<primal:common_stone:4>.weight(1.0)
 	],
 	"primal:sarsen_stone": [
-		<primal:sarsen_stone:4>
+		<primal:sarsen_stone:4>.weight(1.0)
 	],
 	"primal:scoria_stone": [
-		<primal:scoria_stone:4>
+		<primal:scoria_stone:4>.weight(1.0)
 	],
 	"primal:porphyry_stone": [
-		<primal:porphyry_stone:4>
+		<primal:porphyry_stone:4>.weight(1.0)
 	],
 	"primal:purpurite_stone": [
-		<primal:purpurite_stone:4>
+		<primal:purpurite_stone:4>.weight(1.0)
 	],
 	"primal:ferro_stone": [
-		<primal:ferro_stone:4>
+		<primal:ferro_stone:4>.weight(1.0)
 	],
 	"primal:carbonate_stone": [
-		<primal:carbonate_stone:4>
+		<primal:carbonate_stone:4>.weight(1.0)
 	],
 	"primal:terracotta_block": [
-		<primal:terracotta_block:4>
+		<primal:terracotta_block:4>.weight(1.0)
 	],
 	"primal:mud_dried": [
-		<primal:mud_dried:4>
+		<primal:mud_dried:4>.weight(1.0)
 	],
 	"primal:nether_earth": [
-		<primal:nether_earth:4>
+		<primal:nether_earth:4>.weight(1.0)
 	],
 	"primal:nether_stone": [
-		<primal:nether_stone:4>
+		<primal:nether_stone:4>.weight(1.0)
 	],
 	"primal:eroded_end_stone": [
-		<primal:eroded_end_stone:4>
+		<primal:eroded_end_stone:4>.weight(1.0)
 	],
 	"primal:desiccated_stone": [
-		<primal:desiccated_stone:4>
+		<primal:desiccated_stone:4>.weight(1.0)
 	],
 	"primal:soul_stone": [
-		<primal:soul_stone:4>
+		<primal:soul_stone:4>.weight(1.0)
 	],
 	"primal:night_stone": [
-		<primal:night_stone:4>
+		<primal:night_stone:4>.weight(1.0)
 	],
 	"primal:ciniscotta_block": [
-		<primal:ciniscotta_block:4>
+		<primal:ciniscotta_block:4>.weight(1.0)
 	],
 	"primal:ortho_stone": [
-		<primal:ortho_stone:4>
+		<primal:ortho_stone:4>.weight(1.0)
 	],
 	"primal:schist_green_stone": [
-		<primal:schist_green_stone:4>
+		<primal:schist_green_stone:4>.weight(1.0)
 	],
 	"primal:schist_blue_stone": [
-		<primal:schist_blue_stone:4>
+		<primal:schist_blue_stone:4>.weight(1.0)
 	]
 };
 
@@ -123,7 +124,7 @@ function init() {
 		if (hasOverride) {
 			for i, block in blockHarvestDrops[blockId] {
 				if (i == 0) {
-					event.drops = block.items;
+					event.drops = [block];
 				} else {
 					event.drops += block;
 				}

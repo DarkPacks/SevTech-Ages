@@ -204,7 +204,17 @@ static hiddenItems as IIngredient[] = [
 static hiddenRemove as IIngredient[] = [
 	<stevescarts:cartmodule:87>,
 	<stevescarts:cartmodule:92>,
-	<stevescarts:modulecomponents:9>
+	<stevescarts:modulecomponents:9>,
+
+	// Easter event - the config option is just for show
+	<stevescarts:modulecomponents:66>,
+	<stevescarts:modulecomponents:67>,
+	<stevescarts:modulecomponents:68>,
+	<stevescarts:modulecomponents:69>,
+	<stevescarts:modulecomponents:70>,
+	<stevescarts:modulecomponents:71>,
+	<stevescarts:cartmodule:74>.withTag({Data: 1 as byte})
+
 ];
 
 function init() {

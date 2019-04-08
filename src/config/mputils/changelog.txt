@@ -20,6 +20,7 @@ Bug Fixes:
 * Prevent pickup of Transport Cart with carryon (#3640)
 * Restaged Better With Addons pies to two, where they are obtainbale (#3633)
 * Fixed item drops for various blocks that were overridden in scripts (#3673)
+* Replace certain recipes still using rose red with recipes that use Red Dye Powder (#3682)
 
 Enhancements:
 * Removed primal tech twine (had no use)

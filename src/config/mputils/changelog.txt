@@ -25,6 +25,7 @@ Enhancements:
 * Removed primal tech twine (had no use)
 * Re-introduce Infused Crystal Pickaxe
 * Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
+* More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

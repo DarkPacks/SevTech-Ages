@@ -480,6 +480,10 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<primal:bark_yew:0> : [
 		[<primal:logs:1>.transformReplace(<primal:logs_stripped:7>), <ore:toolWorkBlade>]
 	],
+	<primal:bark_ironwood:0> : [
+		[<primal:logs:0>.transformReplace(<primal:logs_stripped:6>), <ore:toolWorkBlade>],
+		[<rustic:log:1>.transformReplace(<primal:logs_stripped:6>), <ore:toolWorkBlade>]
+	],
 	<primal:plant_fiber_pulp:0> * 3 : [
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, craftingUtils.getBucketIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]

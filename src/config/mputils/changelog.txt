@@ -22,6 +22,7 @@ Bug Fixes:
 * Fixed item drops for various blocks that were overridden in scripts (#3673)
 * Removed JEID error biome from Nature's Compass search GUI (#3612)
 * Correctly stage Aqueduct constructed from stone bricks (#3635)
+* Galacticraft Emergency Kits can now be crafted using their normal recipe (#3692)
 
 Enhancements:
 * Removed primal tech twine (had no use)

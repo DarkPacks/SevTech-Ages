@@ -28,6 +28,7 @@ Enhancements:
 * Re-introduce Infused Crystal Pickaxe
 * Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
 * More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
+* Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

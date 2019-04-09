@@ -2,7 +2,7 @@
   "coal": {
     "minY": 28,
     "maxY": 78,
-    "chance": 20,
+    "chance": 22,
     "size": 64,
     "blacklist": [
         -1,
@@ -284,7 +284,7 @@
   "beryl": {
     "minY": 4,
     "maxY": 32,
-    "chance": 15,
+    "chance": 14,
     "size": 16,
     "blacklist": [
         -1,
@@ -518,7 +518,7 @@
   "cassiterite": {
     "minY": 44,
     "maxY": 68,
-    "chance": 16,
+    "chance": 18,
     "size": 72,
     "blacklist": [
         -1,
@@ -565,7 +565,7 @@
   "teallite": {
     "minY": 8,
     "maxY": 43,
-    "chance": 19,
+    "chance": 18,
     "size": 72,
     "blacklist": [
         -1,
@@ -612,7 +612,7 @@
   "galena": {
     "minY": 16,
     "maxY": 50,
-    "chance": 19,
+    "chance": 20,
     "size": 72,
     "blacklist": [
         -1,
@@ -659,7 +659,7 @@
   "bauxite": {
     "minY": 45,
     "maxY": 70,
-    "chance": 20,
+    "chance": 21,
     "size": 64,
     "blacklist": [
         -1,

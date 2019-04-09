@@ -304,4 +304,6 @@ function init() {
 			]
 		);
 	}
+
+	<ore:dyeSilver>.add(<ore:dyeLightGray>.firstItem); // TODO: remove when AE2 accepts dyeLightGray
 }

@@ -53,7 +53,7 @@
   "cinnabar": {
     "minY": 5,
     "maxY": 12,
-    "chance": 15,
+    "chance": 18,
     "size": 64,
     "blacklist": [
         -1,
@@ -99,7 +99,7 @@
   "gold": {
     "minY": 5,
     "maxY": 40,
-    "chance": 18,
+    "chance": 19,
     "size": 55,
     "blacklist": [
         -1,
@@ -145,7 +145,7 @@
   "lapis": {
     "minY": 10,
     "maxY": 38,
-    "chance": 46,
+    "chance": 31,
     "size": 32,
     "blacklist": [
         -1,
@@ -191,7 +191,7 @@
   "quartz": {
     "minY": 6,
     "maxY": 40,
-    "chance": 15,
+    "chance": 18,
     "size": 40,
     "blacklist": [
         -1,
@@ -238,7 +238,7 @@
   "kimberlite": {
     "minY": 2,
     "maxY": 20,
-    "chance": 11,
+    "chance": 15,
     "size": 20,
     "blacklist": [
         -1,
@@ -284,7 +284,7 @@
   "beryl": {
     "minY": 4,
     "maxY": 32,
-    "chance": 11,
+    "chance": 15,
     "size": 16,
     "blacklist": [
         -1,
@@ -330,7 +330,7 @@
   "hematite": {
     "minY": 32,
     "maxY": 60,
-    "chance": 22,
+    "chance": 21,
     "size": 72,
     "blacklist": [
         -1,
@@ -377,7 +377,7 @@
   "limonite": {
     "minY": 6,
     "maxY": 40,
-    "chance": 15,
+    "chance": 18,
     "size": 72,
     "blacklist": [
         -1,
@@ -424,7 +424,7 @@
   "malachite": {
     "minY": 25,
     "maxY": 52,
-    "chance": 13,
+    "chance": 16,
     "size": 72,
     "blacklist": [
         -1,
@@ -518,7 +518,7 @@
   "cassiterite": {
     "minY": 44,
     "maxY": 68,
-    "chance": 13,
+    "chance": 16,
     "size": 72,
     "blacklist": [
         -1,
@@ -565,7 +565,7 @@
   "teallite": {
     "minY": 8,
     "maxY": 43,
-    "chance": 18,
+    "chance": 19,
     "size": 72,
     "blacklist": [
         -1,
@@ -612,7 +612,7 @@
   "galena": {
     "minY": 16,
     "maxY": 50,
-    "chance": 18,
+    "chance": 19,
     "size": 72,
     "blacklist": [
         -1,
@@ -706,7 +706,7 @@
   "platinum": {
     "minY": 3,
     "maxY": 25,
-    "chance": 13,
+    "chance": 16,
     "size": 32,
     "blacklist": [
         -1,
@@ -752,7 +752,7 @@
   "autunite": {
     "minY": 3,
     "maxY": 25,
-    "chance": 11,
+    "chance": 15,
     "size": 24,
     "blacklist": [
         -1,

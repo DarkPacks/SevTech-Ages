@@ -39,6 +39,7 @@ Mod Updates:
 * CraftTweaker (4.1.15)
 * Cyclops Core (1.0.6)
 * Dimensional Control (2.11.0)
+* Geolosys (2.2.6)
 * Horse Power (2.6.3.72)
 * In Control! (3.9.6)
 * Integrated Dynamics (1.0.8)

@@ -102,6 +102,74 @@ static blockHarvestDrops as WeightedItemStack[][string] = {
 	],
 	"primal:schist_blue_stone": [
 		<primal:schist_blue_stone:4>.weight(1.0)
+	],
+
+	// Cyclic cables - prevent them from dropping sticks
+	"cyclicmagic:item_pipe": [
+		<cyclicmagic:item_pipe:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump:1": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump:2": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump:3": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump:4": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:item_pump:5": [
+		<cyclicmagic:item_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pipe": [
+		<cyclicmagic:energy_pipe:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump:1": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump:2": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump:3": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump:4": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:energy_pump:5": [
+		<cyclicmagic:energy_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pipe": [
+		<cyclicmagic:fluid_pipe:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump:1": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump:2": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump:3": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump:4": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:fluid_pump:5": [
+		<cyclicmagic:fluid_pump:0>.weight(1.0)
+	],
+	"cyclicmagic:bundled_pipe": [
+		<cyclicmagic:bundled_pipe:0>.weight(1.0)
 	]
 };
 

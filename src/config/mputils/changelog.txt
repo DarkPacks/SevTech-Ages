@@ -23,6 +23,7 @@ Bug Fixes:
 * Removed JEID error biome from Nature's Compass search GUI (#3612)
 * Correctly stage Aqueduct constructed from stone bricks (#3635)
 * Galacticraft Emergency Kits can now be crafted using their normal recipe (#3692)
+* Blacklist chisels and bits blocks from being picked up using carryon (#3711)
 * Cyclic cables should no longer drop sticks (#3709)
 
 Enhancements:

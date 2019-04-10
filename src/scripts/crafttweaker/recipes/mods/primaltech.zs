@@ -186,9 +186,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<primal_tech:charcoal_hopper>: {
 		Utils.genRecipeName(stageOne, "charcoal_hopper"): [
 			[
-				[null, null, null],
-				[null, <tconstruct:firewood:0>, null],
-				[null, <primal_tech:wooden_hopper>, null]
+				[<tconstruct:firewood:0>],
+				[<primal_tech:wooden_hopper>]
 			]
 		],
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [

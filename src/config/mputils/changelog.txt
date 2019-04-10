@@ -33,6 +33,7 @@ Enhancements:
 * More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
 * Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
 * Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
+* Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

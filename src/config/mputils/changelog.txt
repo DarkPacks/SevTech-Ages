@@ -20,12 +20,21 @@ Bug Fixes:
 * Prevent pickup of Transport Cart with carryon (#3640)
 * Restaged Better With Addons pies to two, where they are obtainbale (#3633)
 * Fixed item drops for various blocks that were overridden in scripts (#3673)
+* Removed JEID error biome from Nature's Compass search GUI (#3612)
+* Correctly stage Aqueduct constructed from stone bricks (#3635)
+* Galacticraft Emergency Kits can now be crafted using their normal recipe (#3692)
+* Blacklist chisels and bits blocks from being picked up using carryon (#3711)
+* Cyclic cables should no longer drop sticks (#3709)
 * Fixed Mekanism recipe staging (#3636, #3628)
 
 Enhancements:
 * Removed primal tech twine (had no use)
 * Re-introduce Infused Crystal Pickaxe
 * Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
+* More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
+* Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
+* Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
+* Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

@@ -38,7 +38,7 @@ Mod Updates:
 * AbyssalCraft (1.9.6)
 * AbyssalCraft Integration (1.8.1)
 * ArmoreableMobs (1.1.8)
-* Better Advancements (0.1.0.77)
+* Better Advancements (0.1.0.76)
 * Better Builders Wands (0.13.2.271)
 * Better with Addons (0.48)
 * Bookshelf (2.3.577)

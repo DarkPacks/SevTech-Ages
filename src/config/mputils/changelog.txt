@@ -29,6 +29,10 @@ Enhancements:
 * Both carts from AstikorCarts will now trigger the "Love and Carriage" advancement, text clarified
 * More Metal Press packaging recipes can be reversed using an unpacking mold (#3694)
 
+Mods Added:
+* JustEnoughIDsIntegration
+    * Fixes biome changing in various other mods
+
 Mod Updates:
 * Astral Sorcery (1.10.14)
 * AbyssalCraft (1.9.6)
@@ -49,6 +53,7 @@ Mod Updates:
 * Corail Tombstone (3.3.4)
 * CraftTweaker (4.1.17)
 * Cyclic (1.19.2)
+    * Fixes an issue with hydrator recipe caching (#3700)
 * Cyclops Core (1.1.1)
 * Dimensional Control (2.11.0)
 * Environmental Tech (2.0.20.1)
@@ -65,6 +70,7 @@ Mod Updates:
 * Item Stages (2.0.49)
 * JEI (4.15.0.275)
 * JourneyMapStages (2.0.9)
+    * Fixes an issue where JourneyMap minimap would not display when unlocked (#3613)
 * Mantle (1.3.3.49)
 * Mekanism (9.7.0.369)
 * ModTweaker (4.0.17)
@@ -74,6 +80,7 @@ Mod Updates:
 * Placebo (1.6.0)
 * PneumaticCraft: Repressurized (0.9.4-1)
 * Primal Tech (0.3.4)
+    * Fixes saw stripping NBT (#3542)
 * RebornCore (3.13.12.447)
 * Recurrent Complex (1.4.8.2)
 * Refine Storage (1.6.14)

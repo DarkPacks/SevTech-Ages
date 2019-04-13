@@ -35,6 +35,7 @@ Mod Updates:
 * Common Capabilities (2.1.0)
 * Corail Tombstone (3.3.3)
 * CraftTweaker (4.1.15)
+* Cyclic (1.19.2)
 * Cyclops Core (1.0.6)
 * Dimensional Control (2.11.0)
 * Horse Power (2.6.3.72)

@@ -225,7 +225,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<actuallyadditions:block_directional_breaker:0>: [
 		[
-			[null, null, null],
 			[<actuallyadditions:block_breaker:0>, <actuallyadditions:block_breaker:0>, <actuallyadditions:block_breaker:0>],
 			[null, <stevescarts:cartmodule:42>, null]
 		]

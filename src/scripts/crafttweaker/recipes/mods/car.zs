@@ -66,9 +66,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<car:axle:0>: [
 		[
-			[null, null, null],
-			[<car:wheel:0>, metals.iron.rod, <car:wheel:0>],
-			[null, null, null]
+			[<car:wheel:0>, metals.iron.rod, <car:wheel:0>]
 		]
 	],
 	<car:battery:0>: [

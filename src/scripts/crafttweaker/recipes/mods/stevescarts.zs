@@ -47,9 +47,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:blockdetector:0> : [
 		[
-			[null, <immersiveengineering:material:27>, null],
-			[null, <stevescarts:blockdetector:1>, null],
-			[null, null, null]
+			[<immersiveengineering:material:27>],
+			[<stevescarts:blockdetector:1>]
 		]
 	],
 	<stevescarts:blockdetector:1> : [
@@ -237,9 +236,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:modulecomponents:15> : [
 		[
-			[null, null, null],
-			[metals.iron.rod, metals.iron.rod, <primal_tech:flint_edged_disc>],
-			[null, null, null]
+			[metals.iron.rod, metals.iron.rod, <primal_tech:flint_edged_disc>]
 		]
 	],
 	<stevescarts:modulecomponents:16> : [
@@ -286,9 +283,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:modulecomponents:28> : [
 		[
-			[null, <minecraft:redstone:0>, null],
-			[null, <immersiveengineering:material:27>, null],
-			[null, null, null]
+			[<minecraft:redstone:0>],
+			[<immersiveengineering:material:27>]
 		]
 	],
 	<stevescarts:modulecomponents:30> * 32 : [
@@ -300,9 +296,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:modulecomponents:33> * 8 : [
 		[
-			[null, metals.iron.plate, null],
-			[null, <ore:stone>, null],
-			[null, null, null]
+			[metals.iron.plate],
+			[<ore:stone>]
 		]
 	],
 	<stevescarts:modulecomponents:34> * 8 : [
@@ -434,15 +429,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<stevescarts:cartmodule:22> : [
 
 			[[null, <nex:amethyst_crystal:0>, null],
-			[<minecraft:glowstone:0>, <stevescarts:modulecomponents:28>, <minecraft:glowstone:0>],
-			[null, null, null]
+			[<minecraft:glowstone:0>, <stevescarts:modulecomponents:28>, <minecraft:glowstone:0>]
 		]
 	],
 	<stevescarts:cartmodule:23> : [
 		[
-			[null, metals.lead.plate, null],
-			[null, <stevescarts:modulecomponents:28>, null],
-			[null, null, null]
+			[metals.lead.plate],
+			[<stevescarts:modulecomponents:28>]
 		]
 	],
 	<stevescarts:cartmodule:42> : [
@@ -595,9 +588,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<stevescarts:cartmodule:101> : [
 		[
-			[null, <stevescarts:cartmodule:41>, null],
-			[null, <immersiveengineering:material:27>, null],
-			[null, null, null]
+			[<stevescarts:cartmodule:41>],
+			[<immersiveengineering:material:27>]
 		]
 	]
 };

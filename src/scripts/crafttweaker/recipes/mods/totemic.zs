@@ -82,8 +82,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<totemic:sub_items:1> : [
 		[
 			[<minecraft:bone:0>, <minecraft:reeds:0>, <minecraft:bone:0>],
-			[<minecraft:reeds:0>, <minecraft:bone:0>, <minecraft:reeds:0>],
-			[null, null, null]
+			[<minecraft:reeds:0>, <minecraft:bone:0>, <minecraft:reeds:0>]
 		]
 	],
 	<totemic:tipi:0> : [

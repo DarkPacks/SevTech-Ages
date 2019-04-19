@@ -52,7 +52,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:leaf_bed> : [
 		[
-			[null, null, null],
 			[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],
 			[<minecraft:hay_block:0>, <minecraft:hay_block:0>, <minecraft:hay_block:0>]
 		]
@@ -168,7 +167,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:fluid_bladder>: [
 		[
-			[null, null, null],
 			[<ore:dyeBrown>, <minecraft:dye:0>, <ore:dyeBrown>],
 			[<primal:plant_cordage:0>, <primal:plant_cordage:0>, <primal:plant_cordage:0>]
 		]
@@ -192,9 +190,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		],
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [
 			[
-				[null, null, null],
-				[null, <tconstruct:firewood:0>, null],
-				[null, <minecraft:hopper:0>, null]
+				[<tconstruct:firewood:0>],
+				[<minecraft:hopper:0>]
 			]
 		]
 	}

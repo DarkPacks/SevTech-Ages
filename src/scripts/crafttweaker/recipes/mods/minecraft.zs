@@ -642,9 +642,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:skull:1> * 3: [
 		[
-			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null],
-			[<mysticalagradditions:stuff:1>, null, null],
-			[null, null, null]
+			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>],
+			[<mysticalagradditions:stuff:1>, null]
 		]
 	],
 	<minecraft:ender_chest:0>: [

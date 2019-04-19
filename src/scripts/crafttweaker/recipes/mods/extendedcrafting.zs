@@ -45,9 +45,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<extendedcrafting:material:16> : [
 		[
-			[<extendedcrafting:material:2>, <extendedcrafting:material:7>, null],
-			[metals.manyullyn.ingot, metals.manyullyn.ingot, null],
-			[null, null, null]
+			[<extendedcrafting:material:2>, <extendedcrafting:material:7>],
+			[metals.manyullyn.ingot, metals.manyullyn.ingot]
 		]
 	],
 	<extendedcrafting:material:10> : [

@@ -218,9 +218,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:ender_spectacles:0> : [
 		[
-			[null, null, null],
-			[<betterwithmods:material:40>, <ore:cordageLeather>, <betterwithmods:material:40>],
-			[null, null, null]
+			[<betterwithmods:material:40>, <ore:cordageLeather>, <betterwithmods:material:40>]
 		]
 	],
 	<betterwithmods:anchor:0> : [

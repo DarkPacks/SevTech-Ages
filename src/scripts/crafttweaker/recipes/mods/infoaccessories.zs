@@ -25,7 +25,6 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<infoaccessories:info_accessory:1>: [
 		[
-			[null, null, null],
 			[null, metals.gold.ingot, <astralsorcery:itemcraftingcomponent:3>],
 			[metals.gold.ingot, <astralsorcery:itemcraftingcomponent:2>, metals.gold.ingot]
 		]

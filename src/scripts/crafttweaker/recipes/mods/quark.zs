@@ -16,7 +16,6 @@ import crafttweaker.item.IIngredient;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<quark:trowel:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>, null, null],
 			[null, metals.copper.ingot, metals.copper.ingot]
 		]

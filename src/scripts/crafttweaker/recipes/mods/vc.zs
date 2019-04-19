@@ -165,7 +165,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<vc:item_logic_chip:0> : [
 		[
-			[null, null, null],
 			[<ore:dyeGreen>, metals.redstoneAlloy.plate, <ore:dyeGreen>],
 			[metals.gold.plate, metals.gold.plate, metals.gold.plate]
 		]

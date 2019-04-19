@@ -57,8 +57,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Ant Anne's Best Chocolate cookies!
 	<actuallyadditions:item_food:12> * 3 : [
 		[
-			[null, <minecraft:dye:3>, null],
-			[null, <horsepower:dough:0>, null]
+			[<minecraft:dye:3>],
+			[<horsepower:dough:0>]
 		]
 	],
 	// I didn't have red ants to put on top since the item has little red dots on.

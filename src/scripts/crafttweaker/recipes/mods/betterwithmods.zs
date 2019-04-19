@@ -229,8 +229,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:material:34>: [
 		[
-			[<minecraft:lever:0>, null],
-			[metals.gold.plate, null]
+			[<minecraft:lever:0>],
+			[metals.gold.plate]
 		]
 	],
 	<betterwithmods:single_machine:1>: [

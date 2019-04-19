@@ -25,8 +25,8 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<primal_tech:stone_mallet> : [
 		[
-			[<minecraft:stone:0>, null],
-			[<ore:stickWood>.firstItem, null]
+			[<minecraft:stone:0>],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:charcoal_hopper> : [

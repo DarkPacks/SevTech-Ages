@@ -184,9 +184,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:thinWood>, <betterwithmods:material:0>, <ore:thinWood>]
 		],
 		[
-			[null, <betterwithmods:material:0>, null],
-			[null, <betterwithmods:wooden_broken_gearbox:0>, null],
-			[null, <betterwithmods:material:0>, null]
+			[<betterwithmods:material:0>],
+			[<betterwithmods:wooden_broken_gearbox:0>],
+			[<betterwithmods:material:0>]
 		]
 	],
 	<betterwithmods:bellows:0> : [
@@ -211,9 +211,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:material:36> : [
 		[
-			[null, <ore:cordageLeather>, null],
-			[null, <ore:slimeball>, null],
-			[null, mouldingWood, null]
+			[<ore:cordageLeather>],
+			[<ore:slimeball>],
+			[mouldingWood]
 		]
 	],
 	<betterwithmods:ender_spectacles:0> : [
@@ -290,9 +290,9 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<betterwithmods:wooden_axle:0> : {
 		Utils.genRecipeName(stageTwo, <betterwithmods:wooden_axle:0>): [
 			[
-				[null, mouldingWood, null],
-				[null, <betterwithmods:rope:0>, null],
-				[null, mouldingWood, null]
+				[mouldingWood],
+				[<betterwithmods:rope:0>],
+				[mouldingWood]
 			]
 		]
 	},

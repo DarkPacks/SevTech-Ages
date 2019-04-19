@@ -117,16 +117,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<overloaded:player_interface:0>: [
 		[
-			[null, <appliedenergistics2:interface:0>, null],
-			[null, <modularrouters:module:13>, null],
-			[null, <refinedstorage:interface:0>, null]
+			[<appliedenergistics2:interface:0>],
+			[<modularrouters:module:13>],
+			[<refinedstorage:interface:0>]
 		]
 	],
 	<overloaded:item_interface:0>: [
 		[
-			[null, <appliedenergistics2:interface:0>, null],
-			[null, <actuallyadditions:block_item_viewer:0>, null],
-			[null, <refinedstorage:interface:0>, null]
+			[<appliedenergistics2:interface:0>],
+			[<actuallyadditions:block_item_viewer:0>],
+			[<refinedstorage:interface:0>]
 		]
 	]
 };

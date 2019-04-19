@@ -77,9 +77,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<storagenetwork:upgrade:3> * 4: [
 		[
-			[null, <minecraft:comparator:0>, null],
-			[null, <storagenetwork:kabel:0>, null],
-			[null, <minecraft:comparator:0>, null]
+			[<minecraft:comparator:0>],
+			[<storagenetwork:kabel:0>],
+			[<minecraft:comparator:0>]
 		]
 	]
 };

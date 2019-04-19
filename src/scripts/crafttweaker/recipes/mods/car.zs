@@ -25,15 +25,15 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<car:sign_post:0>: [
 		[
-			[null, metals.iron.rod, null],
-			[null, metals.iron.rod, null]
+			[metals.iron.rod],
+			[metals.iron.rod]
 		]
 	],
 	<car:screw_driver:0>: [
 		[
-			[null, metals.iron.rod, null],
-			[null, metals.iron.rod, null],
-			[null, metals.iron.ingot, null]
+			[metals.iron.rod],
+			[metals.iron.rod],
+			[metals.iron.ingot]
 		]
 	],
 	<car:hammer:0>: [

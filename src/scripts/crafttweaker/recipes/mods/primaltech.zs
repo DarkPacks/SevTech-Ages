@@ -126,23 +126,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:bone_axe>: [
 		[
-			[<primal:bone_knapp:0>, <minecraft:bone:0>, null],
-			[<primal:bone_knapp:0>, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:bone_knapp:0>, <minecraft:bone:0>],
+			[<primal:bone_knapp:0>, <ore:stickWood>.firstItem],
+			[null, <ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:bone_shovel>: [
 		[
-			[null, <primal:bone_knapp:0>, null],
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:bone_knapp:0>],
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:bone_sword>: [
 		[
-			[null, <primal:sharp_bone:0>, null],
-			[null, <minecraft:bone:0>, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:sharp_bone:0>],
+			[<minecraft:bone:0>],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:fibre_torch>: [

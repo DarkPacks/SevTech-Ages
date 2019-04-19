@@ -94,9 +94,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<totemic:totem_torch:0> : [
 		[
-			[null, <primal_tech:fibre_torch_lit>, null],
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal_tech:fibre_torch_lit>],
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<totemic:totem_whittling_knife:0> : [

@@ -47,9 +47,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:spindle:0> : [
 		[
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<betterwithaddons:aqueduct:10> * 3 : [

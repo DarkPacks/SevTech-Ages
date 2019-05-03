@@ -28,6 +28,8 @@ Bug Fixes:
 * Fixed Mekanism recipe staging (#3636, #3628)
 * Stop backpacks from being swapped to armour slots when right clicked
 * Stage RFTools Control Workbench container, allowing it to craft staged recipes (#3697)
+* Fixed crash when using carryon with enderstorage by blacklisting the mod (#3729)
+* Remove unused primal ores from world generation (#3730)
 
 Enhancements:
 * Removed primal tech twine (had no use)

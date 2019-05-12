@@ -36,6 +36,7 @@ Enhancements:
 * Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
 * Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
 * Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
+* Stripped unnecessary nulls from recipes; plenty of shaped recipes are now less picky about having their ingredients in the exact right spots in the crafting grid! (@pupnewfster)
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

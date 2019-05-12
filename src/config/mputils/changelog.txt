@@ -30,6 +30,10 @@ Bug Fixes:
 * Stage RFTools Control Workbench container, allowing it to craft staged recipes (#3697)
 * Fixed crash when using carryon with enderstorage by blacklisting the mod (#3729)
 * Remove unused primal ores from world generation (#3730)
+* Fixed jukebox saw recipes giving diamond instead of quartz (#3667)
+* Added missing leaf -> stick recipes (#3668)
+* Added missing plank recipes (#3669)
+* Replace certain recipes still using rose red with recipes that use Red Dye Powder (#3682)
 * Correctly stage Inductive Logistics Autocrafters
 
 Enhancements:
@@ -49,6 +53,7 @@ Mod Updates:
 * Common Capabilities (2.1.0)
 * Corail Tombstone (3.3.3)
 * CraftTweaker (4.1.15)
+* Cyclic (1.19.2)
 * Cyclops Core (1.0.6)
 * Dimensional Control (2.11.0)
 * Horse Power (2.6.3.72)

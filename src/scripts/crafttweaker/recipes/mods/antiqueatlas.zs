@@ -28,9 +28,9 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	<antiqueatlas:empty_antique_atlas:0>: {
 		Utils.genRecipeName(stageOne, <antiqueatlas:empty_antique_atlas:0>): [
 			[
-				[<minecraft:leather:0>, <primal:plant_cloth:0>, null],
-				[<minecraft:leather:0>, <primal:plant_cloth:0>, null],
-				[<minecraft:leather:0>, <primal:plant_cloth:0>, null]
+				[<minecraft:leather:0>, <primal:plant_cloth:0>],
+				[<minecraft:leather:0>, <primal:plant_cloth:0>],
+				[<minecraft:leather:0>, <primal:plant_cloth:0>]
 			]
 		]
 	}

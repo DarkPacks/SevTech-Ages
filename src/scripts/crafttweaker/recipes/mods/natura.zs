@@ -155,126 +155,108 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<natura:maple_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:0>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:0>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:silverbell_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:1>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:1>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:amaranth_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:2>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:2>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:tiger_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:3>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:3>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:willow_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:4>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:4>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:eucalyptus_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:5>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:5>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:hopseed_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:6>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:6>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:sakura_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:7>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:7>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:redwood_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:8>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:overworld_planks:8>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:maple_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:0>, <ore:stickWood>.firstItem, <natura:overworld_planks:0>],
 			[<natura:overworld_planks:0>, <ore:stickWood>.firstItem, <natura:overworld_planks:0>]
 		]
 	],
 	<natura:silverbell_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:1>, <ore:stickWood>.firstItem, <natura:overworld_planks:1>],
 			[<natura:overworld_planks:1>, <ore:stickWood>.firstItem, <natura:overworld_planks:1>]
 		]
 	],
 	<natura:amaranth_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:2>, <ore:stickWood>.firstItem, <natura:overworld_planks:2>],
 			[<natura:overworld_planks:2>, <ore:stickWood>.firstItem, <natura:overworld_planks:2>]
 		]
 	],
 	<natura:tiger_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:3>, <ore:stickWood>.firstItem, <natura:overworld_planks:3>],
 			[<natura:overworld_planks:3>, <ore:stickWood>.firstItem, <natura:overworld_planks:3>]
 		]
 	],
 	<natura:willow_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:4>, <ore:stickWood>.firstItem, <natura:overworld_planks:4>],
 			[<natura:overworld_planks:4>, <ore:stickWood>.firstItem, <natura:overworld_planks:4>]
 		]
 	],
 	<natura:eucalyptus_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:5>, <ore:stickWood>.firstItem, <natura:overworld_planks:5>],
 			[<natura:overworld_planks:5>, <ore:stickWood>.firstItem, <natura:overworld_planks:5>]
 		]
 	],
 	<natura:hopseed_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:6>, <ore:stickWood>.firstItem, <natura:overworld_planks:6>],
 			[<natura:overworld_planks:6>, <ore:stickWood>.firstItem, <natura:overworld_planks:6>]
 		]
 	],
 	<natura:sakura_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:7>, <ore:stickWood>.firstItem, <natura:overworld_planks:7>],
 			[<natura:overworld_planks:7>, <ore:stickWood>.firstItem, <natura:overworld_planks:7>]
 		]
 	],
 	<natura:redwood_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:overworld_planks:8>, <ore:stickWood>.firstItem, <natura:overworld_planks:8>],
 			[<natura:overworld_planks:8>, <ore:stickWood>.firstItem, <natura:overworld_planks:8>]
 		]
@@ -351,56 +333,48 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<natura:ghostwood_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:0>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:0>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:bloodwood_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:1>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:1>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:darkwood_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:2>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:2>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:fusewood_fence_gate:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:3>, <ore:stickWood>.firstItem],
 			[<ore:stickWood>.firstItem, <natura:nether_planks:3>, <ore:stickWood>.firstItem]
 		]
 	],
 	<natura:ghostwood_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:nether_planks:0>, <ore:stickWood>.firstItem, <natura:nether_planks:0>],
 			[<natura:nether_planks:0>, <ore:stickWood>.firstItem, <natura:nether_planks:0>]
 		]
 	],
 	<natura:bloodwood_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:nether_planks:1>, <ore:stickWood>.firstItem, <natura:nether_planks:1>],
 			[<natura:nether_planks:1>, <ore:stickWood>.firstItem, <natura:nether_planks:1>]
 		]
 	],
 	<natura:darkwood_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:nether_planks:2>, <ore:stickWood>.firstItem, <natura:nether_planks:2>],
 			[<natura:nether_planks:2>, <ore:stickWood>.firstItem, <natura:nether_planks:2>]
 		]
 	],
 	<natura:fusewood_fence:0> * 3 : [
 		[
-			[null, null, null],
 			[<natura:nether_planks:3>, <ore:stickWood>.firstItem, <natura:nether_planks:3>],
 			[<natura:nether_planks:3>, <ore:stickWood>.firstItem, <natura:nether_planks:3>]
 		]

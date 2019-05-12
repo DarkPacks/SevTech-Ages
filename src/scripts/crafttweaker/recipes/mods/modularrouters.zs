@@ -30,9 +30,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<modularrouters:augment_core:0> * 4: [
 		[
-			[<modularrouters:blank_module:0>, <modularrouters:blank_upgrade:0>, null],
-			[null, null, null],
-			[null, null, null]
+			[<modularrouters:blank_module:0>, <modularrouters:blank_upgrade:0>]
 		]
 	],
 	<modularrouters:blank_upgrade:0> * 4: [
@@ -58,14 +56,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<modularrouters:upgrade:4> * 8: [
 		[
-			[null, null, null],
 			[metals.redstoneAlloy.plate, <minecraft:clock:0>, metals.redstoneAlloy.plate],
 			[metals.redstoneAlloy.plate, <modularrouters:blank_upgrade:0>, metals.redstoneAlloy.plate]
 		]
 	],
 	<modularrouters:upgrade:5> * 8: [
 		[
-			[null, null, null],
 			[null, <minecraft:bucket:0>, null],
 			[<ore:blockGlass>, <modularrouters:blank_upgrade:0>, <ore:blockGlass>]
 		]

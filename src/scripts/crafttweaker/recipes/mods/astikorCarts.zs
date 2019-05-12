@@ -37,7 +37,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<astikorcarts:plowcart:0> : [
 		[
-			[null, null, null],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
 			[<astikorcarts:wheel:0>, <astikorcarts:wheel:0>, <minecraft:stone:0>]
 		]

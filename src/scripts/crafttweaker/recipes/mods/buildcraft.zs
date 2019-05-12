@@ -32,16 +32,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<buildcrafttransport:pipe_void_item:0> * 8 : [
 		[
-			[null, null, null],
-			[<ore:dyeBlack>, <ore:blockGlass>, <minecraft:redstone:0>],
-			[null, null, null]
+			[<ore:dyeBlack>, <ore:blockGlass>, <minecraft:redstone:0>]
 		]
 	],
 	<buildcrafttransport:pipe_void_item:0> * 1 : [
 		[
-			[null, null, null],
-			[null, <buildcrafttransport:pipe_void_fluid:0>, null],
-			[null, null, null]
+			[<buildcrafttransport:pipe_void_fluid:0>]
 		]
 	],
 	<buildcraftcore:engine:0> : [

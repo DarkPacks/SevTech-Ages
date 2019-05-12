@@ -39,8 +39,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<waterstrainer:bait_pot:0> : [
 		[
-			[null, <waterstrainer:net:0>, null],
-			[null, <minecraft:flower_pot:0>, null]
+			[<waterstrainer:net:0>],
+			[<minecraft:flower_pot:0>]
 		]
 	],
 	<waterstrainer:strainer_base:0>: [

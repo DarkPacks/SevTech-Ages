@@ -49,6 +49,7 @@ Enhancements:
 * Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
 * Added tooltip to clarify how to obtain a car key
 * Time limit on all Totemic rituals is 50% longer
+* Stripped unnecessary nulls from recipes; plenty of shaped recipes are now less picky about having their ingredients in the exact right spots in the crafting grid! (@pupnewfster)
 
 Mods Added:
 * ArcFurnacePatch (1.0.0.3)

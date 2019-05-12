@@ -59,9 +59,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<immersiveengineering:stone_decoration:1> : [
 		[
-			[null, <immersiveengineering:stone_decoration_slab:1>, null],
-			[null, <immersiveengineering:stone_decoration_slab:1>, null],
-			[null, null, null]
+			[<immersiveengineering:stone_decoration_slab:1>],
+			[<immersiveengineering:stone_decoration_slab:1>]
 		]
 	],
 	<immersiveengineering:metal_device0:5> : [

@@ -303,9 +303,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:golden_axe:0>: [
 		[
-			[metals.gold.plate, metals.gold.plate, null],
-			[metals.gold.plate, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.gold.plate, metals.gold.plate],
+			[metals.gold.plate, <ore:stickWood>],
+			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:golden_boots:0>: [
@@ -329,9 +329,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:golden_hoe:0>: [
 		[
-			[metals.gold.plate, metals.gold.plate, null],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.gold.plate, metals.gold.plate],
+			[null, <ore:stickWood>],
+			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:golden_leggings:0>: [
@@ -350,16 +350,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:golden_shovel:0>: [
 		[
-			[null, metals.gold.plate, null],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.gold.plate],
+			[<ore:stickWood>],
+			[<ore:stickWood>]
 		]
 	],
 	<minecraft:golden_sword:0>: [
 		[
-			[null, metals.gold.plate, null],
-			[null, metals.gold.plate, null],
-			[null, <ore:stickWood>, null]
+			[metals.gold.plate],
+			[metals.gold.plate],
+			[<ore:stickWood>]
 		]
 	],
 	<minecraft:hopper:0>: [
@@ -377,9 +377,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:iron_axe:0>: [
 		[
-			[metals.iron.plate, metals.iron.plate, null],
-			[metals.iron.plate, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.iron.plate, metals.iron.plate],
+			[metals.iron.plate, <ore:stickWood>],
+			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:iron_boots:0>: [
@@ -403,9 +403,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:iron_hoe:0>: [
 		[
-			[metals.iron.plate, metals.iron.plate, null],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.iron.plate, metals.iron.plate],
+			[null, <ore:stickWood>],
+			[null, <ore:stickWood>]
 		]
 	],
 	<minecraft:iron_leggings:0>: [
@@ -424,23 +424,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:iron_shovel:0>: [
 		[
-			[null, metals.iron.plate, null],
-			[null, <ore:stickWood>, null],
-			[null, <ore:stickWood>, null]
+			[metals.iron.plate],
+			[<ore:stickWood>],
+			[<ore:stickWood>]
 		]
 	],
 	<minecraft:iron_sword:0>: [
 		[
-			[null, metals.iron.plate, null],
-			[null, metals.iron.plate, null],
-			[null, <ore:stickWood>, null]
+			[metals.iron.plate],
+			[metals.iron.plate],
+			[<ore:stickWood>]
 		]
 	],
 	<minecraft:name_tag:0>: [
 		[
-			[null, null, <minecraft:string:0>],
-			[null, <minecraft:paper:0>, null],
-			[null, <ore:dyeBlack>, null]
+			[null, <minecraft:string:0>],
+			[<minecraft:paper:0>, null],
+			[<ore:dyeBlack>, null]
 		]
 	],
 	<minecraft:piston:0>: [
@@ -642,9 +642,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:skull:1> * 3: [
 		[
-			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>, null],
-			[<mysticalagradditions:stuff:1>, null, null],
-			[null, null, null]
+			[<mysticalagradditions:stuff:1>, <mysticalagradditions:stuff:1>],
+			[<mysticalagradditions:stuff:1>, null]
 		]
 	],
 	<minecraft:ender_chest:0>: [

@@ -32,9 +32,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<dungpipe:sewer_pipe:0> : [
 		[
-			[null, null, null],
-			[<dungpipe:dung_pipe:0>, metals.tin.plate, metals.tin.plate],
-			[null, null, null]
+			[<dungpipe:dung_pipe:0>, metals.tin.plate, metals.tin.plate]
 		]
 	]
 };

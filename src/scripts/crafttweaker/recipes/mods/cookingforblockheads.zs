@@ -47,7 +47,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<cookingforblockheads:tool_rack:0> : [
 		[
-			[null, null, null],
 			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
 			[metals.aluminum.rod, null, metals.aluminum.rod]
 		]
@@ -74,14 +73,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<cookingforblockheads:preservation_chamber:0> : [
 		[
-			[null, null, null],
 			[metals.electrum.nugget, metals.electrum.nugget, metals.electrum.nugget],
 			[metals.electrum.ingot, <pneumaticcraft:heat_sink>, metals.electrum.ingot]
 		]
 	],
 	<cookingforblockheads:heating_unit:0> : [
 		[
-			[null, null, null],
 			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
 			[metals.electrum.ingot, <storagedrawers:controller>, metals.electrum.ingot]
 		]

@@ -25,8 +25,8 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<primal_tech:stone_mallet> : [
 		[
-			[<minecraft:stone:0>, null],
-			[<ore:stickWood>.firstItem, null]
+			[<minecraft:stone:0>],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:charcoal_hopper> : [
@@ -52,7 +52,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:leaf_bed> : [
 		[
-			[null, null, null],
 			[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>],
 			[<minecraft:hay_block:0>, <minecraft:hay_block:0>, <minecraft:hay_block:0>]
 		]
@@ -127,23 +126,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:bone_axe>: [
 		[
-			[<primal:bone_knapp:0>, <minecraft:bone:0>, null],
-			[<primal:bone_knapp:0>, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:bone_knapp:0>, <minecraft:bone:0>],
+			[<primal:bone_knapp:0>, <ore:stickWood>.firstItem],
+			[null, <ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:bone_shovel>: [
 		[
-			[null, <primal:bone_knapp:0>, null],
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:bone_knapp:0>],
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:bone_sword>: [
 		[
-			[null, <primal:sharp_bone:0>, null],
-			[null, <minecraft:bone:0>, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<primal:sharp_bone:0>],
+			[<minecraft:bone:0>],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<primal_tech:fibre_torch>: [
@@ -168,7 +167,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal_tech:fluid_bladder>: [
 		[
-			[null, null, null],
 			[<ore:dyeBrown>, <minecraft:dye:0>, <ore:dyeBrown>],
 			[<primal:plant_cordage:0>, <primal:plant_cordage:0>, <primal:plant_cordage:0>]
 		]
@@ -192,9 +190,8 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		],
 		Utils.genRecipeName(stageTwo, "charcoal_hopper"): [
 			[
-				[null, null, null],
-				[null, <tconstruct:firewood:0>, null],
-				[null, <minecraft:hopper:0>, null]
+				[<tconstruct:firewood:0>],
+				[<minecraft:hopper:0>]
 			]
 		]
 	}

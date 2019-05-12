@@ -26,9 +26,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// Bronze Tools
 	<pickletweaks:bronze_sword:0> : [
 		[
-			[null, metals.bronze.plate, null],
-			[null, metals.bronze.plate, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.bronze.plate],
+			[metals.bronze.plate],
+			[<minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:bronze_pickaxe:0> : [
@@ -40,31 +40,31 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<pickletweaks:bronze_shovel:0> : [
 		[
-			[null, metals.bronze.plate, null],
-			[null, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.bronze.plate],
+			[<minecraft:stick:0>],
+			[<minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:bronze_axe:0> : [
 		[
-			[metals.bronze.plate, metals.bronze.plate, null],
-			[metals.bronze.plate, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.bronze.plate, metals.bronze.plate],
+			[metals.bronze.plate, <minecraft:stick:0>],
+			[null, <minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:bronze_hoe:0> : [
 		[
-			[metals.bronze.plate, metals.bronze.plate, null],
-			[null, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.bronze.plate, metals.bronze.plate],
+			[null, <minecraft:stick:0>],
+			[null, <minecraft:stick:0>]
 		]
 	],
 	// Copper Tools
 	<pickletweaks:copper_sword:0> : [
 		[
-			[null, metals.copper.plate, null],
-			[null, metals.copper.plate, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.copper.plate],
+			[metals.copper.plate],
+			[<minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:copper_pickaxe:0> : [
@@ -76,23 +76,23 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<pickletweaks:copper_shovel:0> : [
 		[
-			[null, metals.copper.plate, null],
-			[null, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.copper.plate],
+			[<minecraft:stick:0>],
+			[<minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:copper_axe:0> : [
 		[
-			[metals.copper.plate, metals.copper.plate, null],
-			[metals.copper.plate, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.copper.plate, metals.copper.plate],
+			[metals.copper.plate, <minecraft:stick:0>],
+			[null, <minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:copper_hoe:0> : [
 		[
-			[metals.copper.plate, metals.copper.plate, null],
-			[null, <minecraft:stick:0>, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.copper.plate, metals.copper.plate],
+			[null, <minecraft:stick:0>],
+			[null, <minecraft:stick:0>]
 		]
 	],
 	<pickletweaks:watering_can:0> : [

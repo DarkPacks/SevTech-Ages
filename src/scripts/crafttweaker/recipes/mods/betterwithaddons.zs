@@ -47,77 +47,67 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:spindle:0> : [
 		[
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null],
-			[null, <ore:stickWood>.firstItem, null]
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem],
+			[<ore:stickWood>.firstItem]
 		]
 	],
 	<betterwithaddons:aqueduct:10> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:prismarine:2>, <minecraft:prismarine:2>, <minecraft:prismarine:2>]
 		]
 	],
 	<betterwithaddons:aqueduct:1> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:brick_block:0>, <minecraft:brick_block:0>, <minecraft:brick_block:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:2> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:quartz_block:*>, <minecraft:quartz_block:*>, <minecraft:quartz_block:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:3> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<betterwithaddons:whitebrick:0>, <betterwithaddons:whitebrick:0>, <betterwithaddons:whitebrick:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:4> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:sandstone:*>, <minecraft:sandstone:*>, <minecraft:sandstone:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:5> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>, <minecraft:red_sandstone:*>]
 		]
 	],
 	<betterwithaddons:aqueduct:6> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stone:0>, <minecraft:stone:0>, <minecraft:stone:0>]
 		]
 	],
 	<betterwithaddons:aqueduct:7> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stone:2>, <minecraft:stone:2>, <minecraft:stone:2>]
 		]
 	],
 	<betterwithaddons:aqueduct:8> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>]
 		]
 	],
 	<betterwithaddons:aqueduct:9> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:prismarine:0>, <minecraft:prismarine:0>, <minecraft:prismarine:0>]
 		]
@@ -131,7 +121,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithaddons:aqueduct:0> * 3 : [
 		[
-			[null, null, null],
 			[<minecraft:clay:0>, <minecraft:clay:0>, <minecraft:clay:0>],
 			[<minecraft:stonebrick:*>, <minecraft:stonebrick:*>, <minecraft:stonebrick:*>]
 		]

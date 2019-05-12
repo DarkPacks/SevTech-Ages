@@ -39,9 +39,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<twilightforest:fiery_sword:0> : [
 		[
-			[null, metals.fiery.plate, null],
-			[null, metals.fiery.plate, null],
-			[null, <minecraft:stick:0>, null]
+			[metals.fiery.plate],
+			[metals.fiery.plate],
+			[<minecraft:stick:0>]
 		]
 	]
 };

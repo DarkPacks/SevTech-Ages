@@ -18,6 +18,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:advanced_pcb:0>,
 		<pneumaticcraft:advanced_pressure_tube:0>,
 		<pneumaticcraft:aerial_interface:0>,
+		<pneumaticcraft:air_canister:0>.withTag({air: 0}),
 		<pneumaticcraft:air_canister:*>,
 		<pneumaticcraft:air_cannon:0>,
 		<pneumaticcraft:air_compressor:0>,
@@ -170,7 +171,10 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreative.stage: [
-		<pneumaticcraft:creative_compressor:0>,
+		<pneumaticcraft:creative_compressor:0>
+	],
+
+	stageCreativeUnused.stage: [
 		<pneumaticcraft:creative_upgrade:0>
 	]
 };
@@ -178,7 +182,7 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<pneumaticcraft:refinery:0>,
 	<pneumaticcraft:thermopneumatic_processing_plant:0>,
-	<pneumaticcraft:jet_boots_upgrade:0>,
+	<pneumaticcraft:jet_boots_upgrade:0>
 ];
 
 function init() {

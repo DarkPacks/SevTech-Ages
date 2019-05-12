@@ -132,6 +132,9 @@ static choppingRecipes as IIngredient[][IItemStack] = {
 	<thebetweenlands:items_misc:20> * 4: [
 		<thebetweenlands:weedwood_planks:0>
 	],
+	<thebetweenlands:nibblestick:0> * 4: [
+		<thebetweenlands:nibbletwig_planks:0>
+	],
 	<primal:thin_slab_acacia:0> * 2 : [
 		<minecraft:wooden_slab:4>
 	],

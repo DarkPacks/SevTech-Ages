@@ -91,7 +91,8 @@ static sawRemovals as IItemStack[][] = [
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0> * 3, <betterwithmods:material:34>],
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot:0>, <betterwithmods:material:0>, <betterwithmods:material:34>],
 	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0>, <minecraft:wooden_pressure_plate:0>],
-	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
+	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
 ];
 
 /*
@@ -139,14 +140,31 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 		<natura:redwood_leaves:0>,
 		<natura:nether_leaves:*>,
 		<natura:nether_leaves2:*>,
+		<rustic:leaves:*>,
 		<rustic:leaves_apple:0>,
+		<twilightforest:dark_leaves:0>,
+		<twilightforest:giant_leaves:*>,
 		<twilightforest:twilight_leaves:*>,
-		<twilightforest:magic_leaves:0>,
+		<twilightforest:twilight_leaves_3:*>,
+		<twilightforest:magic_leaves:*>,
 		<totemic:cedar_leaves:0>,
+		<thebetweenlands:leaves_sap_tree:0>,
+		<thebetweenlands:leaves_rubber_tree:0>,
+		<thebetweenlands:leaves_hearthgrove_tree:0>,
+		<thebetweenlands:leaves_spirit_tree_top:0>,
+		<thebetweenlands:leaves_spirit_tree_middle:0>,
+		<thebetweenlands:leaves_spirit_tree_bottom:0>,
+		<traverse:brown_autumnal_leaves>,
+		<traverse:orange_autumnal_leaves>,
+		<traverse:red_autumnal_leaves>,
+		<traverse:yellow_autumnal_leaves>,
 		<traverse:fir_leaves:0>
 	],
+	[<thebetweenlands:items_misc:20> * 2]: [<thebetweenlands:leaves_weedwood_tree:0>],
+	[<thebetweenlands:nibblestick:0> * 2]: [<thebetweenlands:leaves_nibbletwig_tree:0>],
 	[<betterwithmods:material:0>]: [ MiniBlocks.getMiniBlock("corner", <ore:plankWood>) ],
-	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ]
+	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:quartz:0>]: [<minecraft:jukebox:0>]
 };
 
 function init() {

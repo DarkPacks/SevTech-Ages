@@ -99,6 +99,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<galacticraftplanets:carbon_fragments:0> * 32 : [
 		[<minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>]
+	],
+	<galacticraftcore:prelaunch_checklist:0>: [
+		[<galacticraftcore:canvas>, <pickletweaks:dye_powder:14>]
 	]
 };
 
@@ -127,7 +130,8 @@ static removeRecipes as IItemStack[] = [
 	<galacticraftplanets:atomic_battery:0>,
 	<galacticraftplanets:carbon_fragments:0>,
 	<galacticraftplanets:geothermal_generator:0>,
-	<galacticraftcore:emergency_kit:0>
+	<galacticraftcore:emergency_kit:0>,
+  <galacticraftcore:prelaunch_checklist:0>
 ];
 
 static removeFurnace as IIngredient[] = [

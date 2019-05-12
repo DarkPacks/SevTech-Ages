@@ -65,7 +65,8 @@ static cauldronRemovals as IItemStack[][] = [
 	// Remove Pot As recipes because a single recipe with all wooden items is confusing.
 	[<betterwithmods:material:21>],
 	[<betterwithmods:material:21> * 2],
-	[<betterwithaddons:adobe> * 1]
+	[<betterwithaddons:adobe> * 1],
+	[<betterwithaddons:sapling_luretree:0>]
 ];
 
 /*
@@ -257,6 +258,7 @@ function init() {
 	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);
 	betterWithMods.addCauldron([<totemic:buffalo_items:0>], [<betterwithmods:material:12> * 2]);
 	betterWithMods.addCauldron([<primal:wolf_head_item:0>], [<betterwithmods:material:12>, <primal:bone_knapp:0>]);
+	betterWithMods.addCauldron([<minecraft:sapling:2>, <minecraft:wheat:0> * 16, <pickletweaks:dye_powder:14> * 8, <minecraft:rotten_flesh:0> * 4], [<betterwithaddons:sapling_luretree:0>]);
 	// Remake laxative recipe using foodFlour instead of BWM flour only.
 	betterWithMods.addCauldron([<betterwithaddons:food_mulberry:0> * 3, <minecraft:sugar:0>, <ore:foodFlour>], [<betterwithaddons:laxative:0>]);
 

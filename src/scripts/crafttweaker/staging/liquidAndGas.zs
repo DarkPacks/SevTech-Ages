@@ -60,6 +60,7 @@ static liquidItemsForStage as IItemStack[][string] = {
 
 	stageThree.stage: [
 		<car:glycerin:0>,
+		<cyclicmagic:amber:0>,
 		<cyclicmagic:milk:0>,
 		<cyclicmagic:poison:0>,
 		<cyclicmagic:xpjuice:0>,
@@ -86,7 +87,8 @@ static liquidItemsForStage as IItemStack[][string] = {
 		<actuallyadditions:block_canola_oil:0>,
 		<actuallyadditions:block_crystal_oil:0>,
 		<actuallyadditions:block_empowered_oil:0>,
-		<actuallyadditions:block_refined_canola_oil:0>
+		<actuallyadditions:block_refined_canola_oil:0>,
+		<cyclicmagic:crystal>
 	]
 };
 
@@ -125,6 +127,7 @@ static liquidsForStage as ILiquidStack[][string] = {
 	],
 
 	stageThree.stage: [
+		<liquid:amber>,
 		<liquid:biodiesel>,
 		<liquid:blueslime>,
 		<liquid:canolaoil>,
@@ -178,6 +181,7 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:brine>,
 		<liquid:carbondioxide>,
 		<liquid:clean_water_fluid>,
+		<liquid:crystal>,
 		<liquid:emerald>,
 		<liquid:frozen_water_fluid>,
 		<liquid:glowstone_fluid>,
@@ -218,6 +222,7 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:radioactive_water_fluid>,
 		<liquid:salt_fluid>,
 		<liquid:soulium>,
+		<liquid:sulfuricacid>,
 		<liquid:sulphuricacid>,
 		<liquid:superium>,
 		<liquid:supremium>

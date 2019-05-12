@@ -34,6 +34,7 @@ Bug Fixes:
 * Added missing leaf -> stick recipes (#3668)
 * Added missing plank recipes (#3669)
 * Replace certain recipes still using rose red with recipes that use Red Dye Powder (#3682)
+* Correctly stage Inductive Logistics Autocrafters
 
 Enhancements:
 * Removed primal tech twine (had no use)

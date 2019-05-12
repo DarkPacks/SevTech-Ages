@@ -62,11 +62,14 @@ function init() {
 	ZenStager.addPackage("mcjty.rftoolscontrol.blocks.workbench", ALL_STAGES);
 
 	// Inductive Logistics Automatic Crafters
-	ZenStager.addPackage("cd4017be.lib.Gui", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
+	ZenStager.addPackage("cd4017be.lib.util.ItemFluidUtil", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Auto Workbench Buildcraft
 	ZenStager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
 	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
+
+	// Immersive Engineering Assembler
+	ZenStager.addPackage("blusunrize.immersiveengineering", ALL_STAGES);
 }

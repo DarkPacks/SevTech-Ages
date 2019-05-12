@@ -30,6 +30,9 @@ Bug Fixes:
 * Stage RFTools Control Workbench container, allowing it to craft staged recipes (#3697)
 * Fixed crash when using carryon with enderstorage by blacklisting the mod (#3729)
 * Remove unused primal ores from world generation (#3730)
+* Fixed jukebox saw recipes giving diamond instead of quartz (#3667)
+* Added missing leaf -> stick recipes (#3668)
+* Added missing plank recipes (#3669)
 
 Enhancements:
 * Removed primal tech twine (had no use)

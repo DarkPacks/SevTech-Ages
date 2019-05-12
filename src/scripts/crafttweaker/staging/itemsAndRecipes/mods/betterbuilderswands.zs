@@ -21,7 +21,10 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFour.stage: [
-		<betterbuilderswands:wandunbreakable:0>
+		<betterbuilderswands:wandunbreakable:0>,
+		<betterbuilderswands:wandunbreakable:12>,
+		<betterbuilderswands:wandunbreakable:13>,
+		<betterbuilderswands:wandunbreakable:14>
 	]
 };
 

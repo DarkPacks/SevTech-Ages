@@ -58,6 +58,11 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:gps_area_tool:0>,
 		<pneumaticcraft:gps_tool:0>,
 		<pneumaticcraft:gun_ammo:0>,
+		<pneumaticcraft:gun_ammo_incendiary:0>,
+		<pneumaticcraft:gun_ammo_weighted:0>,
+		<pneumaticcraft:gun_ammo_ap:0>,
+		<pneumaticcraft:gun_ammo_explosive:0>,
+		<pneumaticcraft:gun_ammo_freezing:0>,
 		<pneumaticcraft:harvesting_drone:0>,
 		<pneumaticcraft:heat_frame:0>,
 		<pneumaticcraft:heat_sink:0>,
@@ -74,6 +79,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:logistics_module:0>,
 		<pneumaticcraft:magnet_upgrade:0>,
 		<pneumaticcraft:manometer:*>,
+		<pneumaticcraft:micromissiles:0>,
 		<pneumaticcraft:minigun:0>,
 		<pneumaticcraft:network_component:1>,
 		<pneumaticcraft:network_component:2>,
@@ -136,6 +142,8 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:programming_puzzle:9>,
 		<pneumaticcraft:range_upgrade:0>,
 		<pneumaticcraft:regulator_tube_module:0>,
+		<pneumaticcraft:reinforced_air_canister:0>.withTag({air: 0}),
+		<pneumaticcraft:reinforced_air_canister:*>,
 		<pneumaticcraft:remote:0>,
 		<pneumaticcraft:safety_tube_module:0>,
 		<pneumaticcraft:scuba_upgrade:0>,
@@ -162,7 +170,8 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageCreative.stage: [
-		<pneumaticcraft:creative_compressor:0>
+		<pneumaticcraft:creative_compressor:0>,
+		<pneumaticcraft:creative_upgrade:0>
 	]
 };
 

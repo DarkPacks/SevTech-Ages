@@ -19,6 +19,8 @@ static stagedItems as IIngredient[][string] = {
 		<buildinggadgets:constructionpastecontainert2:0>,
 		<buildinggadgets:constructionpastecontainert3:0>,
 		<buildinggadgets:copypastetool:*>,
+		<buildinggadgets:constructionblock_dense:0>,
+		<buildinggadgets:construction_chunk_dense>,
 		<buildinggadgets:exchangertool:*>,
 		<buildinggadgets:template:0>,
 		<buildinggadgets:templatemanager:0>

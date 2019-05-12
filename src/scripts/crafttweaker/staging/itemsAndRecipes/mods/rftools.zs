@@ -16,7 +16,8 @@ static hiddenItems as IIngredient[] = [
 	<rftools:invisible_shield_block:0>,
 	<rftools:notick_invisible_shield_block:0>,
 	<rftools:notick_solid_shield_block:0>,
-	<rftools:solid_shield_block:0>
+	<rftools:solid_shield_block:0>,
+	<mcjtylib_ng:multipart>
 ];
 
 function init() {

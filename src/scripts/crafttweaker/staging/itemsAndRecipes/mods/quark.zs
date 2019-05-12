@@ -11,6 +11,10 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
+		<quark:elder_prismarine:0>,
+		<quark:elder_prismarine:1>,
+		<quark:elder_prismarine:2>,
+		<quark:elder_sea_lantern:0>,
 		<quark:prismarine_bricks_slab:0>,
 		<quark:prismarine_dark_slab:0>,
 		<quark:prismarine_rough_wall:0>,
@@ -23,6 +27,10 @@ static stagedItems as IIngredient[][string] = {
 		<quark:stone_granite_slab:0>,
 		<quark:stone_granite_wall:0>,
 		<quark:stone_wall:0>,
+		<quark:turf:0>,
+		<quark:turf_stairs:0>,
+		<quark:turf_slab:0>,
+		<quark:glowshroom_block:0>,
 		<quark:witch_hat:0>
 	],
 

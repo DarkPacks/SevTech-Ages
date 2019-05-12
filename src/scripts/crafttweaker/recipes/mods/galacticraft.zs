@@ -131,7 +131,7 @@ static removeRecipes as IItemStack[] = [
 	<galacticraftplanets:carbon_fragments:0>,
 	<galacticraftplanets:geothermal_generator:0>,
 	<galacticraftcore:emergency_kit:0>,
-  <galacticraftcore:prelaunch_checklist:0>
+  	<galacticraftcore:prelaunch_checklist:0>
 ];
 
 static removeFurnace as IIngredient[] = [

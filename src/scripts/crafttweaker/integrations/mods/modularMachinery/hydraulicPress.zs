@@ -37,6 +37,7 @@ static machineRecipes as IItemStack[][IItemStack] = {
 	<extraplanets:tier5_items:6> * 2: [	metals.nickel.ingot.firstItem * 2 ], // Compressed Nickel
 	<extraplanets:tier6_items:4> * 2: [ <extraplanets:tier6_items:5> * 2 ], // Compressed Magnesium
 	<extraplanets:tier7_items:4> * 2: [ <extraplanets:tier7_items:5> * 2 ], // Compressed Crystal
+	<extraplanets:tier8_items:4> * 2: [ <extraplanets:tier8_items:5> * 2 ], // Compressed Zinc
 	<extraplanets:tier9_items:4> * 2: [ <extraplanets:tier9_items:5> * 2 ], // Compressed Tungsten
 	<extraplanets:tier10_items:4> * 2: [ <extraplanets:tier10_items:5> * 2 ], // Compressed Dark Iron
 	<extraplanets:tier11_items:6> * 3: [ <extraplanets:tier11_items:5> * 6 ], // Compressed Space Platinum
@@ -47,7 +48,7 @@ static machineRecipes as IItemStack[][IItemStack] = {
 	<extraplanets:tier5_items:3>: [                	<extraplanets:tier4_items:3>, <extraplanets:tier5_items:4> * 5 ], // Heavy Duty Plate Tier 5
 	<extraplanets:tier6_items:3>: [ <extraplanets:tier5_items:3>, <extraplanets:tier6_items:4> * 5 ], // Heavy Duty Plate Tier 6
 	<extraplanets:tier7_items:3>: [ <extraplanets:tier6_items:3>, <extraplanets:tier7_items:6> * 5], // Heavy Duty Plate Tier 7
-	<extraplanets:tier8_items:3>: [ <extraplanets:tier7_items:3>, <extraplanets:tier8_items:5> * 5 ], // Heavy Duty Plate Tier 8
+	<extraplanets:tier8_items:3>: [ <extraplanets:tier7_items:3>, <extraplanets:tier8_items:4> * 5 ], // Heavy Duty Plate Tier 8
 	<extraplanets:tier9_items:3>: [ <extraplanets:tier8_items:3>, <extraplanets:tier9_items:4> * 5 ], // Heavy Duty Plate Tier 9
 	<extraplanets:tier10_items:3>: [ <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4> * 5 ], // Heavy Duty Plate Tier 10
 	<minecraft:bucket>: [<immersiveengineering:metal:39> * 3] // Iron Bucket

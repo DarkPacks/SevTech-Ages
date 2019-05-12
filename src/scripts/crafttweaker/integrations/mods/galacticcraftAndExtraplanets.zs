@@ -16,8 +16,10 @@ import mods.GalacticraftTweaker;
 	https://github.com/MJRLegends/GalacticraftTweaker/wiki/CraftTweakerSupport
 */
 function init() {
-	// Remove compressed zinc recipe.
-	GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:4>);
+	// Remove tier 8 HD plate recipe
+	GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:3>);
+	// Add corrected tier 8 HD plate recipe
+	GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier8_items:3>, <extraplanets:tier7_items:3>, <extraplanets:tier8_items:4>, <extraplanets:tier8_items:4>, <extraplanets:tier8_items:4>, <extraplanets:tier8_items:4>, <extraplanets:tier8_items:4>);
 
 	// Remove all compressed steel plate recipes.
 	GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:9>);

@@ -7,6 +7,37 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+// Map for additional Precision Sawmill recipes - output: [inputs]. Will produce 6 times output, and
+// 25% chance of sawdust.
+static sawRecipes as IIngredient[][IItemStack] = {
+	<ore:stickWood>.firstItem: [
+		<ore:plankWood>
+	],
+	<thebetweenlands:items_misc:20>: [
+		<thebetweenlands:weedwood_planks:0>
+	],
+	<thebetweenlands:nibblestick:0>: [
+		<thebetweenlands:nibbletwig_planks:0>
+	]
+};
+
+
+// These recipes must be explicitly removed - for some reason oredict removal doesn't catch them.
+static sawRecipeRemove as IIngredient[] = [
+	<chisel:planks-spruce:*>,
+	<rustic:planks:*>,
+	<chisel:planks-acacia:*>,
+	<chisel:planks-oak:*>,
+	<chisel:planks-jungle:*>,
+	<chisel:planks-birch:*>,
+	<chisel:planks-dark-oak:*>,
+	<betterwithaddons:planks_sakura:*>,
+	<betterwithaddons:planks_mulberry:*>
+];
+
 function init() {
 	/*
 		Chemical Injection Recipes
@@ -72,4 +103,24 @@ function init() {
 	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);
 	mekanism.addCrusher(<actuallyadditions:item_misc:5>, <actuallyadditions:item_dust:7>);
 	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
+
+	/*
+		Saw
+	*/
+	for input in sawRecipeRemove {
+		mekanism.removeSawmill(input);
+	}
+
+	for output, inputs in sawRecipes {
+		for inputIngredient in inputs {
+			mekanism.removeSawmill(inputIngredient);
+			for input in inputIngredient.items {
+				mekanism.addSawmill(input, output * 6, <ore:dustWood>.firstItem, 0.25);
+			}
+		}
+	}
+
+	// Jukebox handling
+	mekanism.removeSawmill(<minecraft:jukebox:0> as IIngredient);
+	mekanism.addSawmill(<minecraft:jukebox:0>, <minecraft:planks:0> * 8, <minecraft:quartz:0>, 1.0);
 }

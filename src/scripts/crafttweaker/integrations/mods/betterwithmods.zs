@@ -53,6 +53,7 @@ static soakingRemovals as IItemStack[] = [
 	Note: Removing by output also requires the amount of the output item that is given.
 */
 static cauldronRemovals as IItemStack[][] = [
+	[<betterwithmods:fertilizer:0> * 8],
 	[<betterwithmods:material:1> * 4],
 	[<betterwithmods:material:12>],
 	[<betterwithmods:material:12> * 2],
@@ -65,7 +66,8 @@ static cauldronRemovals as IItemStack[][] = [
 	// Remove Pot As recipes because a single recipe with all wooden items is confusing.
 	[<betterwithmods:material:21>],
 	[<betterwithmods:material:21> * 2],
-	[<betterwithaddons:adobe> * 1]
+	[<betterwithaddons:adobe> * 1],
+	[<betterwithaddons:sapling_luretree:0>]
 ];
 
 /*
@@ -90,7 +92,8 @@ static sawRemovals as IItemStack[][] = [
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0> * 3, <betterwithmods:material:34>],
 	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <minecraft:iron_ingot:0>, <betterwithmods:material:0>, <betterwithmods:material:34>],
 	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 3, <betterwithmods:material:0>, <minecraft:wooden_pressure_plate:0>],
-	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
+	[<betterwithmods:moulding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:diamond:0>]
 ];
 
 /*
@@ -138,14 +141,31 @@ static sawRecipes as IIngredient[][IItemStack[]]  = {
 		<natura:redwood_leaves:0>,
 		<natura:nether_leaves:*>,
 		<natura:nether_leaves2:*>,
+		<rustic:leaves:*>,
 		<rustic:leaves_apple:0>,
+		<twilightforest:dark_leaves:0>,
+		<twilightforest:giant_leaves:*>,
 		<twilightforest:twilight_leaves:*>,
-		<twilightforest:magic_leaves:0>,
+		<twilightforest:twilight_leaves_3:*>,
+		<twilightforest:magic_leaves:*>,
 		<totemic:cedar_leaves:0>,
+		<thebetweenlands:leaves_sap_tree:0>,
+		<thebetweenlands:leaves_rubber_tree:0>,
+		<thebetweenlands:leaves_hearthgrove_tree:0>,
+		<thebetweenlands:leaves_spirit_tree_top:0>,
+		<thebetweenlands:leaves_spirit_tree_middle:0>,
+		<thebetweenlands:leaves_spirit_tree_bottom:0>,
+		<traverse:brown_autumnal_leaves>,
+		<traverse:orange_autumnal_leaves>,
+		<traverse:red_autumnal_leaves>,
+		<traverse:yellow_autumnal_leaves>,
 		<traverse:fir_leaves:0>
 	],
+	[<thebetweenlands:items_misc:20> * 2]: [<thebetweenlands:leaves_weedwood_tree:0>],
+	[<thebetweenlands:nibblestick:0> * 2]: [<thebetweenlands:leaves_nibbletwig_tree:0>],
 	[<betterwithmods:material:0>]: [ MiniBlocks.getMiniBlock("corner", <ore:plankWood>) ],
-	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ]
+	[<minecraft:melon:0> * 9]: [ <minecraft:melon_block:0> ],
+	[<betterwithmods:siding_wood:0>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}) * 6, <minecraft:quartz:0>]: [<minecraft:jukebox:0>]
 };
 
 function init() {
@@ -239,6 +259,7 @@ function init() {
 	betterWithMods.addCauldron([<animalium:wild_dog_pelt:0>], [<betterwithmods:material:12>]);
 	betterWithMods.addCauldron([<totemic:buffalo_items:0>], [<betterwithmods:material:12> * 2]);
 	betterWithMods.addCauldron([<primal:wolf_head_item:0>], [<betterwithmods:material:12>, <primal:bone_knapp:0>]);
+	betterWithMods.addCauldron([<minecraft:sapling:2>, <minecraft:wheat:0> * 16, <pickletweaks:dye_powder:14> * 8, <minecraft:rotten_flesh:0> * 4], [<betterwithaddons:sapling_luretree:0>]);
 	// Remake laxative recipe using foodFlour instead of BWM flour only.
 	betterWithMods.addCauldron([<betterwithaddons:food_mulberry:0> * 3, <minecraft:sugar:0>, <ore:foodFlour>], [<betterwithaddons:laxative:0>]);
 

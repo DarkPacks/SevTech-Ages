@@ -83,7 +83,6 @@ static stagedItems as IIngredient[][string] = {
 		<car:fuelstation:0>,
 		<car:generator:0>,
 		<car:hammer:0>,
-		<car:key:0>,
 		<car:line_corner_yellow:0>,
 		<car:line_corner:0>,
 		<car:line_double_end_yellow:0>,
@@ -143,5 +142,6 @@ function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	ZenStager.getStage(stageFour.stage).addIngredient(<car:key:0>, false);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

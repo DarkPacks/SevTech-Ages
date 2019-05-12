@@ -309,3 +309,135 @@ function makeJeidTag(enchantment as IEnchantment) as IData {
 
 	return {ench: newEnch} as IData;
 }
+
+/*
+	A utility function to generate the variations of Mekanism items that need staging
+*/
+function genMekIngredient(mekItem as IItemStack) as IIngredient {
+	var allItems as IIngredient = mekItem as IIngredient;
+	var possibleData as IData[] = [
+		{} as IData,
+		{mekData: {}} as IData
+	];
+
+	for data in possibleData {
+		var item as IIngredient = mekItem.withTag(data);
+
+		if (!isNull(item)) {
+			if (isNull(allItems)) {
+				allItems = item;
+			} else {
+				allItems |= item;
+			}
+		}
+	}
+	
+	return allItems;
+}
+
+/*
+	A utility function to generate the variations of Mekanism items with internal gas tanks that need staging
+*/
+function genGasMekIngredient(mekItem as IItemStack, gas as string, gasAmount as int) as IIngredient {
+	var allItems as IIngredient = mekItem as IIngredient;
+	var possibleData as IData[] = [
+		{} as IData,
+		{mekData: {}} as IData,
+		{mekData: {stored: {amount: gasAmount, gasName: gas}}} as IData
+	];
+
+	for data in possibleData {
+		var item as IIngredient = mekItem.withTag(data);
+
+		if (!isNull(item)) {
+			if (isNull(allItems)) {
+				allItems = item;
+			} else {
+				allItems |= item;
+			}
+		}
+	}
+	
+	return allItems;
+}
+
+/*
+	A utility function to generate the variations of Mekanism items with internal energy buffers that need staging
+*/
+function genEnergyMekIngredient(mekItem as IItemStack, maxEnergy as double) as IIngredient {
+	var allItems as IIngredient = mekItem as IIngredient;
+	var possibleData as IData[] = [
+		{} as IData,
+		{mekData: {}} as IData,
+		{mekData: {energyStored: maxEnergy}} as IData
+	];
+
+	for data in possibleData {
+		var item as IIngredient = mekItem.withTag(data);
+
+		if (!isNull(item)) {
+			if (isNull(allItems)) {
+				allItems = item;
+			} else {
+				allItems |= item;
+			}
+		}
+	}
+	
+	return allItems;
+}
+
+/*
+	A utility function to generate the variations of Mekanism items with tiers that need staging
+*/
+function genTieredMekIngredient(mekItem as IItemStack, maxTier as int) as IIngredient {
+	var allItems as IIngredient = null;
+	var possibleData as IData[] = [];
+
+	for i in 0 .. maxTier + 1 {
+		possibleData += {tier: i} as IData;
+		possibleData += {tier: i, mekData: {}} as IData;
+	}
+
+	for data in possibleData {
+		var item as IIngredient = mekItem.withTag(data);
+
+		if (!isNull(item)) {
+			if (isNull(allItems)) {
+				allItems = item;
+			} else {
+				allItems |= item;
+			}
+		}
+	}
+	
+	return allItems;
+}
+
+/*
+	A utility function to generate the variations of Mekanism items with tiered energy storage that need staging
+*/
+function genTieredEnergyMekIngredient(mekItem as IItemStack, maxTier as int, maxEnergy as double[]) as IIngredient {
+	var allItems as IIngredient = null;
+	var possibleData as IData[] = [];
+
+	for i in 0 .. maxTier + 1 {
+		possibleData += {tier: i} as IData;
+		possibleData += {tier: i, mekData: {}} as IData;
+		possibleData += {tier: i, mekData: {energyStored: maxEnergy[i]}} as IData;
+	}
+
+	for data in possibleData {
+		var item as IIngredient = mekItem.withTag(data);
+
+		if (!isNull(item)) {
+			if (isNull(allItems)) {
+				allItems = item;
+			} else {
+				allItems |= item;
+			}
+		}
+	}
+	
+	return allItems;
+}

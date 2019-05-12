@@ -35,6 +35,8 @@ Bug Fixes:
 * Added missing plank recipes (#3669)
 * Replace certain recipes still using rose red with recipes that use Red Dye Powder (#3682)
 * Correctly stage Inductive Logistics Autocrafters
+* Remove uncraftable recipes for BWM Fertilizer and prevent blank recipe for key displaying (#3651)
+* Stop Sports Car being casually carried around (#3666)
 
 Enhancements:
 * Removed primal tech twine (had no use)
@@ -44,6 +46,7 @@ Enhancements:
 * Light gray dye powder now accepted by the AE2 Color Applicator (#3683)
 * Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
 * Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
+* Added tooltip to clarify how to obtain a car key
 
 Mod Updates:
 * AbyssalCraft (1.9.5.4)

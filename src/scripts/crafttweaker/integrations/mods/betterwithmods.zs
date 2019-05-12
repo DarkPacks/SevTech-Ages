@@ -53,6 +53,7 @@ static soakingRemovals as IItemStack[] = [
 	Note: Removing by output also requires the amount of the output item that is given.
 */
 static cauldronRemovals as IItemStack[][] = [
+	[<betterwithmods:fertilizer:0> * 8],
 	[<betterwithmods:material:1> * 4],
 	[<betterwithmods:material:12>],
 	[<betterwithmods:material:12> * 2],

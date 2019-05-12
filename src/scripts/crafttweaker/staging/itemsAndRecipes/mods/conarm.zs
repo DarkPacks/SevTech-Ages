@@ -10,6 +10,9 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
+		<conarm:armorforge>.withTag({textureBlock: {id: "abyssalcraft:ingotblock", Count: 1 as byte, Damage: 0 as short}}),
+		<conarm:armorforge>.withTag({textureBlock: {id: "abyssalcraft:ingotblock", Count: 1 as byte, Damage: 1 as short}}),
+		<conarm:armorforge>.withTag({textureBlock: {id: "abyssalcraft:ingotblock", Count: 1 as byte, Damage: 2 as short}}),
 		<conarm:armorforge:0>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 0 as short}}),
 		<conarm:armorforge:0>.withTag({textureBlock: {id: "immersiveengineering:storage", Count: 1 as byte, Damage: 3 as short}}),
 		<conarm:armorforge:0>.withTag({textureBlock: {id: "mekanism:basicblock", Count: 1 as byte, Damage: 1 as short}}),

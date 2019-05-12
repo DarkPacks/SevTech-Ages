@@ -88,6 +88,8 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:rainbow_clay:7>,
 		<ceramics:rainbow_clay:0>,
 		<ceramics:unfired_clay:1>,
+		<ceramics:unfired_clay:6>,
+		<ceramics:unfired_clay:7>,
 		<ceramics:unfired_clay:8>,
 		<ceramics:unfired_clay:9>
 	],

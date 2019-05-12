@@ -21,6 +21,7 @@ function init() {
 
 	// Clay Balls -> Clay Block
 	immersiveEngineering.addPress(<minecraft:clay:0> * 1, <minecraft:clay_ball:0>, <immersiveengineering:mold:5>, 4);
+	immersiveEngineering.addPress(<minecraft:clay_ball:0> * 4, <minecraft:clay:0>, <immersiveengineering:mold:7>, 1);
 
 	// Shadowfragment -> Shadowshard
 	immersiveEngineering.addPress(<abyssalcraft:shadowshard:0> * 1, <abyssalcraft:shadowfragment:0>, <immersiveengineering:mold:6>, 9);
@@ -38,13 +39,17 @@ function init() {
 
 	// Diamond Block
 	immersiveEngineering.addPress(<minecraft:diamond_block:0> * 1, <minecraft:diamond:0>, <immersiveengineering:mold:6>, 9);
+	immersiveEngineering.addPress(<minecraft:diamond:0> * 9, <minecraft:diamond_block:0>, <immersiveengineering:mold:7>, 1);
 
 	// Lapis Block
 	immersiveEngineering.addPress(<minecraft:lapis_block:0> * 1, <minecraft:dye:4>, <immersiveengineering:mold:6>, 9);
+	immersiveEngineering.addPress(<minecraft:dye:4> * 9, <minecraft:lapis_block:0>, <immersiveengineering:mold:7>, 1);
 
 	// Redstone Block
 	immersiveEngineering.addPress(<minecraft:redstone_block:0> * 1, <minecraft:redstone:0>, <immersiveengineering:mold:6>, 9);
+	immersiveEngineering.addPress(<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>, <immersiveengineering:mold:7>, 1);
 
 	// Emerald Block
 	immersiveEngineering.addPress(<minecraft:emerald_block:0> * 1, <minecraft:emerald:0>, <immersiveengineering:mold:6>, 9);
+	immersiveEngineering.addPress(<minecraft:emerald:0> * 9, <minecraft:emerald_block:0>, <immersiveengineering:mold:7>, 1);
 }

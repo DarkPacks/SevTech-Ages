@@ -172,7 +172,7 @@ zenClass Mekanism {
 		Sawmill.addRecipe(input, output);
 	}
 	function addSawmill(input as IItemStack, output as IItemStack, bonusOutput as IItemStack, bonusChance as double) {
-		Sawmill.addRecipe(input, output);
+		Sawmill.addRecipe(input, output, bonusOutput, bonusChance);
 	}
 
 	/*

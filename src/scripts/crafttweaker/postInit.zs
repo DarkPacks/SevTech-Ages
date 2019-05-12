@@ -292,6 +292,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.betterwithmods.init();
 	scripts.crafttweaker.integrations.mods.bloodmagic.init.init();
 	scripts.crafttweaker.integrations.mods.chisel.init();
+	scripts.crafttweaker.integrations.mods.cyclicmagic.init();
 	scripts.crafttweaker.integrations.mods.extendedCrafting.init.init();
 	scripts.crafttweaker.integrations.mods.galacticcraftAndExtraplanets.init();
 	scripts.crafttweaker.integrations.mods.horsepower.init();

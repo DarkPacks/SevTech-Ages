@@ -298,6 +298,12 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Loved by Wild Bears!")
 	],
 
+	<car:key:0>: [
+		format.yellow("Comes with your car!"),
+		format.yellow("Press I in your car to obtain"),
+		format.yellow("Clone by crafting with iron")
+	],
+
 	<primal_tech:wooden_hopper>: [
 		format.red("An advanced Wooden Hopper")
 	],

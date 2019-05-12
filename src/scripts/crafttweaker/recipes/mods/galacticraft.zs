@@ -71,6 +71,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<galacticraftplanets:item_basic_mars:3>, metals.lead.ingot, <galacticraftplanets:item_basic_mars:3>],
 			[metals.lead.ingot, <galacticraftplanets:item_basic_mars:3>, metals.lead.ingot]
 		]
+	],
+	<galacticraftcore:emergency_kit>: [
+		[
+			[<galacticraftcore:steel_pickaxe:0>, <galacticraftcore:oxygen_mask:0>, <galacticraftcore:oxygen_gear:0>],
+			[<galacticraftcore:oxygen_tank_light_full:0>, <galacticraftcore:parachute:*>, <galacticraftcore:oxygen_tank_light_full>],
+			[<galacticraftcore:food:3>, <minecraft:potion:0>.withTag({Potion: "minecraft:healing"}), <minecraft:potion:0>.withTag({Potion: "minecraft:long_night_vision"})]
+		]
 	]
 };
 
@@ -92,6 +99,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<galacticraftplanets:carbon_fragments:0> * 32 : [
 		[<minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>, <minecraft:coal:0>]
+	],
+	<galacticraftcore:prelaunch_checklist:0>: [
+		[<galacticraftcore:canvas>, <pickletweaks:dye_powder:14>]
 	]
 };
 
@@ -119,7 +129,9 @@ static removeRecipes as IItemStack[] = [
 	<galacticraftcore:rocket_workbench:0>,
 	<galacticraftplanets:atomic_battery:0>,
 	<galacticraftplanets:carbon_fragments:0>,
-	<galacticraftplanets:geothermal_generator:0>
+	<galacticraftplanets:geothermal_generator:0>,
+	<galacticraftcore:emergency_kit:0>,
+  <galacticraftcore:prelaunch_checklist:0>
 ];
 
 static removeFurnace as IIngredient[] = [

@@ -105,16 +105,13 @@ static plankLogPairs as IIngredient[][IItemStack] = {
 	<natura:overworld_planks:0>: [
 		<natura:overworld_logs:0>
 	],
-	<primal:planks:0>: [
-		<primal:logs:0>,
-		<primal:logs_stripped:6>
-	],
 	<primal:planks:1>: [
 		<primal:logs:1>,
 		<primal:logs_stripped:7>
 	],
 	<rustic:planks:1>: [
-		<rustic:log:1>
+		<rustic:log:1>,
+		<primal:logs_stripped:6>
 	],
 	<rustic:planks:0>: [
 		<rustic:log:0>

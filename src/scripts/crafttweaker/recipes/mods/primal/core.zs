@@ -55,11 +55,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<primal:pelt_wolf:0>, null, <primal:pelt_wolf:0>]
 		]
 	],
-	<primal:slab_ironwood:0> * 3 : [
-		[
-			[<primal:planks:0>, <primal:planks:0>, <primal:planks:0>]
-		]
-	],
 	<primal:slat_acacia:0> * 3 : [
 		[
 			[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>],
@@ -90,9 +85,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal:slat_ironwood:0> * 3 : [
 		[
-			[<primal:slab_ironwood:0>, <primal:slab_ironwood:0>, <primal:slab_ironwood:0>],
+			[<rustic:ironwood_slab_item>, <rustic:ironwood_slab_item>, <rustic:ironwood_slab_item>],
 			[<ore:stickWood>.firstItem, <ore:stickWood>.firstItem, <ore:stickWood>.firstItem],
-			[<primal:slab_ironwood:0>, <primal:slab_ironwood:0>, <primal:slab_ironwood:0>]
+			[<rustic:ironwood_slab_item>, <rustic:ironwood_slab_item>, <rustic:ironwood_slab_item>]
 		]
 	],
 	<primal:slat_jungle:0> * 3 : [
@@ -167,9 +162,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal:barrel:6> : [
 		[
-			[<primal:planks:0>, null, <primal:planks:0>],
-			[<primal:planks:0>, null, <primal:planks:0>],
-			[<primal:planks:0>, <primal:slab_ironwood:0>, <primal:planks:0>]
+			[<rustic:planks:1>, null, <rustic:planks:1>],
+			[<rustic:planks:1>, null, <rustic:planks:1>],
+			[<rustic:planks:1>, <rustic:ironwood_slab_item>, <rustic:planks:1>]
 		]
 	],
 	<primal:barrel:7> : [
@@ -238,9 +233,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<primal:barrel_ironwood_lid:0> : [
 		[
-			[null, <primal:slab_ironwood:0>, null],
-			[<primal:slab_ironwood:0>, null, <primal:slab_ironwood:0>],
-			[null, <primal:slab_ironwood:0>, null]
+			[null, <rustic:ironwood_slab_item>, null],
+			[<rustic:ironwood_slab_item>, null, <rustic:ironwood_slab_item>],
+			[null, <rustic:ironwood_slab_item>, null]
 		]
 	],
 	<primal:barrel_yew_lid:0> : [
@@ -554,7 +549,6 @@ static furnaceRecipes as IIngredient[][IItemStack] = {
 static removeRecipes as IItemStack[] = [
 	<primal:leather_cordage:0>,
 	<primal:logs_stripped:*>,
-	<primal:slab_ironwood:0>,
 	<primal:smelter:2>.withTag({type: "cinis"}),
 	<primal:smelter:1>.withTag({type: "terra"}),
 	<primal:smelter:0>.withTag({type: "mud"}),

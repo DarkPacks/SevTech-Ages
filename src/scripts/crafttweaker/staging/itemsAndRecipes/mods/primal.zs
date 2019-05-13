@@ -134,7 +134,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:fish_trap:3>.withTag({type: "jungle"}),
 		<primal:fish_trap:4>.withTag({type: "acacia"}),
 		<primal:fish_trap:5>.withTag({type: "dark_oak"}),
-		<primal:fish_trap:6>.withTag({type: "ironwood"}),
 		<primal:fish_trap:7>.withTag({type: "yew"}),
 		<primal:fish_trap:8>.withTag({type: "lacquer"}),
 		<primal:fish_trap:9>.withTag({type: "corypha"}),
@@ -229,7 +228,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:pigman_hide_spoiled:0>,
 		<primal:pigman_hide_tanned:0>,
 		<primal:pigman_leather:0>,
-		<primal:planks:0>,
 		<primal:planks:1>,
 		<primal:plant_cloth:0>,
 		<primal:plant_papyrus:0>,
@@ -279,7 +277,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:shark_meat_dried:0>,
 		<primal:shark_meat_raw:0>,
 		<primal:shark_tooth:0>,
-		<primal:slab_ironwood:0>,
 		<primal:slab_lacquer:0>,
 		<primal:slab_mud:0>,
 		<primal:slab_yew:0>,
@@ -352,7 +349,6 @@ static stagedItems as IIngredient[][string] = {
 
 	stageOne.stage: [
 		// Stairs
-		<primal:stairs_ironwood:0>,
 		<primal:stairs_mud:0>,
 		<primal:stairs_path:0>,
 
@@ -717,6 +713,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:fish_salmon_cured:0>,
 	<primal:fish_salmon_rotten:0>,
 	<primal:fish_salmon_salted:0>,
+	<primal:fish_trap:6>.withTag({type: "ironwood"}),
 	<primal:gate_corypha:0>,
 	<primal:gate_ironwood:0>,
 	<primal:gator_meat_cured:0>,
@@ -869,6 +866,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:silk_cordage_coiled:0>,
 	<primal:silver_dust:0>,
 	<primal:slab_glass:0>,
+	<primal:slab_ironwood:0>,
 	<primal:slab_soulglass:0>,
 	<primal:slag:0>,
 	<primal:smelter_lid_cinis:0>,
@@ -878,6 +876,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:soul_residue:0>,
 	<primal:stairs_carbonate_flag:0>,
 	<primal:stairs_ferro_flag:0>,
+	<primal:stairs_ironwood:0>,
 	<primal:stairs_lacquer:0>,
 	<primal:stairs_night_stone>,
 	<primal:stone_basin:0>,
@@ -955,6 +954,7 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
+	<primal:planks:0>
 ];
 
 static hiddenCategories as string[] = [

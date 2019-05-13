@@ -39,6 +39,7 @@ Bug Fixes:
 * Stop Sports Car being casually carried around (#3666)
 * Alter recipe of Tier 8 Heavy Duty Plates to match pattern set by previous tiers (#3676)
 * Barrel types are now craftable with different wood varieties (#3691)
+* Pink Slime ingots now consume steel instead of iron - preventing a conflict with compressed iron (#3751)
 
 Enhancements:
 * Removed primal tech twine (had no use)

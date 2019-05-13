@@ -52,6 +52,7 @@ import crafttweaker.item.IItemStack;
 
 // Quartz Dust
 <ore:dustQuartz>.add(<appliedenergistics2:material:2>); //Certus Quartz
+<ore:dustQuartz>.remove(<actuallyadditions:item_dust:5>); // No need for two nether quartz dusts
 
 // Add BWM Diamond Nugget to be removed in unification
 <ore:nuggetDiamond>.add(<betterwithmods:material:46>);

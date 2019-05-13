@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageCreative;
 import scripts.crafttweaker.stages.stageDisabled;
+import scripts.crafttweaker.stages.stageCreativeUnused;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [

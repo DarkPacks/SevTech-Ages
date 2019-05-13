@@ -236,7 +236,7 @@ function init() {
 	betterWithMods.addMilling([<minecraft:coal_block:0>], [<minecraft:coal:0> * 9]);
 	betterWithMods.addMilling([<minecraft:cobblestone:0>], [<tconstruct:stone_stick:0> * 1]);
 	betterWithMods.addMilling([<astralsorcery:itemcraftingcomponent:1>], [<astralsorcery:itemcraftingcomponent:2>]);
-	betterWithMods.addMilling([<minecraft:quartz:0>], [<actuallyadditions:item_dust:5>]);
+	betterWithMods.addMilling([<minecraft:quartz:0>], [<appliedenergistics2:material:3>]);
 	betterWithMods.addMilling([<primal:sharp_bone:0>], [<primal:bone_knapp:0>]);
 	betterWithMods.addMilling([<primal:shark_tooth:0>], [<minecraft:dye:15> * 2]);
 	betterWithMods.addMilling([<betterwithmods:companion_cube>], [<minecraft:string> * 10, <pickletweaks:dye_powder:14> * 2]);

@@ -66,7 +66,6 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_axe_obsidian:0>,
 		<actuallyadditions:item_boots_obsidian:0>,
 		<actuallyadditions:item_chest_obsidian:0>,
-		<actuallyadditions:item_dust:5>,
 		<actuallyadditions:item_food:1>,
 		<actuallyadditions:item_food:2>,
 		<actuallyadditions:item_food:3>,
@@ -369,6 +368,7 @@ static hiddenRemove as IIngredient[] = [
 	<actuallyadditions:item_color_lens:0>,
 	<actuallyadditions:item_crafter_on_a_stick:0>,
 	<actuallyadditions:item_dust:1>,
+	<actuallyadditions:item_dust:5>,
 	<actuallyadditions:item_hairy_ball:0>,
 	<actuallyadditions:item_jam:*>, // No
 	<actuallyadditions:item_misc:10>,

@@ -76,6 +76,9 @@ zenClass Mekanism {
 	function removeCombiner(output as IIngredient, input as IIngredient) {
 		Combiner.removeRecipe(output, input);
 	}
+	function removeCombiner(output as IIngredient, input as IIngredient, extra as IIngredient) {
+		Combiner.removeRecipe(output, input, extra);
+	}
 
 	/*
 		Add a Crusher Recipe

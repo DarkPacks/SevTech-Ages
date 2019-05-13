@@ -68,7 +68,7 @@ function init() {
 	createMillRecipe("hemp_fibre", <betterwithmods:material:3> * 2, [
 		<betterwithmods:material:2>
 	]);
-	createMillRecipe("ground_netherrack", <betterwithmods:material:15>, [
+	createOreMillRecipe("ground_netherrack", <betterwithmods:material:15>, [
 		<ore:netherrack>
 	]);
 	createMillRecipe("coal_dust", <betterwithmods:material:18>, [

@@ -67,6 +67,8 @@ function init() {
 	mekanism.removeCombiner(<minecraft:redstone_ore:0>);
 	mekanism.removeCombiner(<minecraft:emerald_ore:0>);
 
+	mekanism.removeCombiner(<minecraft:quartz_ore:0>, <actuallyadditions:item_dust:5> * 8, <minecraft:cobblestone:0>);
+
 	/*
 		Enrichment Recipes
 	*/
@@ -74,6 +76,8 @@ function init() {
 	// Obsidian Fix
 	mekanism.removeEnrichment(<minecraft:obsidian:0>);
 	mekanism.addEnrichment(<minecraft:obsidian:0>, <ore:dustObsidian>.firstItem * 4);
+
+	mekanism.removeEnrichment(<actuallyadditions:item_dust:5>, <minecraft:quartz:0>);
 
 	/*
 		Metallurgic Infuser

@@ -119,10 +119,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		]
 	],
 	<primal:barrel:0> : [
+		// [
+		// 	[<ore:barrelPlank>, null, <ore:barrelPlank>],
+		// 	[<ore:barrelPlank>, null, <ore:barrelPlank>],
+		// 	[<ore:barrelPlank>, <ore:barrelSlab>, <ore:barrelPlank>]
+		// ]
 		[
-			[<ore:barrelPlank>, null, <ore:barrelPlank>],
-			[<ore:barrelPlank>, null, <ore:barrelPlank>],
-			[<ore:barrelPlank>, <ore:barrelSlab>, <ore:barrelPlank>]
+			[<minecraft:planks:0>, null, <minecraft:planks:0>],
+			[<minecraft:planks:0>, null, <minecraft:planks:0>],
+			[<minecraft:planks:0>, <minecraft:wooden_slab:0>, <minecraft:planks:0>]
 		]
 	],
 	<primal:barrel:1> : [

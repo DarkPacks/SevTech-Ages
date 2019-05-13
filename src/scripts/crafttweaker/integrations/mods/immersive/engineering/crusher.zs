@@ -14,7 +14,7 @@ function init() {
 	immersiveEngineering.addCrusher(<betterwithmods:material:3> * 2, <betterwithmods:material:2>, 3000);
 	immersiveEngineering.addCrusher(<minecraft:dye:15> * 9, <minecraft:bone_block:0>, 3000);
 	immersiveEngineering.addCrusher(<minecraft:sugar:0> * 2, <minecraft:reeds:0>, 3000);
-	immersiveEngineering.addCrusher(<betterwithmods:material:15>, <minecraft:netherrack:0>, 3000); // Ground netherrack
+	immersiveEngineering.addCrusher(<betterwithmods:material:15>, <ore:netherrack>, 3000); // Ground netherrack
 	immersiveEngineering.addCrusher(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 3000); // Fluix dust can be made in immersiveEngineering
 	immersiveEngineering.addCrusher(metals.spacePlatinum.dust.firstItem * 2, <ore:oreSpacePlatinum>, 3000); // Osmium ore to dust
 	immersiveEngineering.addCrusher(<ore:dustCoal>.firstItem, <ore:coal>, 3000); // Coal to coal dust

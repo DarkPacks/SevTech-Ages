@@ -69,7 +69,7 @@ function init() {
 		<betterwithmods:material:2>
 	]);
 	createMillRecipe("ground_netherrack", <betterwithmods:material:15>, [
-		<minecraft:netherrack:0>
+		<ore:netherrack>
 	]);
 	createMillRecipe("coal_dust", <betterwithmods:material:18>, [
 		<minecraft:coal:0>

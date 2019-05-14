@@ -44,6 +44,7 @@ function init() {
 
 	// Global Items Removal
 	var globalItems as string[] = [
+		"abyssalcraft:mre",
 		"minecraft:blaze_powder",
 		"minecraft:blaze_rod",
 		"minecraft:bucket",

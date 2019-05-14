@@ -125,8 +125,6 @@ function init() {
 
 		http://crafttweaker.readthedocs.io/en/latest/#Mods/Astral_Sorcery/Infusion/
 	*/
-	StarlightInfusion.removeInfusion(<astralsorcery:itemchargedcrystalpickaxe:0>);
-
 	StarlightInfusion.addInfusion(<appliedenergistics2:material:3>, <astralsorcery:itemcraftingcomponent:2>, false, 0.25, 300);
 
 	/*

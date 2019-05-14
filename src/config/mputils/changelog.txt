@@ -41,6 +41,8 @@ Bug Fixes:
 * Barrel types are now craftable with different wood varieties (#3691)
 * Pink Slime ingots now consume steel instead of iron - preventing a conflict with compressed iron (#3765)
 * Prevent NetherEx Golden Wither Bone tools being placed in Item Repairer or Diamond Powered Anvil (#3774)
+* Mossy Cobblestone Blocks now have same stage as item and recipe - can be seen in the world from age 0 (#3775)
+* "Iron" Bits Chisel is now only in stage one (made from tin in this pack) preventing Unfamiliar Item and mis-staged recipe problems (#3775)
 
 Enhancements:
 * Removed primal tech twine (had no use)

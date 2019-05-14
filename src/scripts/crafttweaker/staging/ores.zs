@@ -14,6 +14,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
@@ -22,6 +23,10 @@ import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
 
 static replacementItemsForStage as IIngredient[][][string] = {
+	stageZero.stage: [
+		[<minecraft:mossy_cobblestone:0>, <minecraft:cobblestone:0>]
+	],
+
 	stageOne.stage : [
 		// Village Replacement for stage1
 		[<minecraft:oak_stairs:*>, <minecraft:planks:0>],
@@ -105,7 +110,6 @@ static replacementItemsForStage as IIngredient[][][string] = {
 		[<minecraft:stonebrick:1>, <minecraft:cobblestone:0>],
 		[<minecraft:stonebrick:2>, <minecraft:cobblestone:0>],
 		[<minecraft:stonebrick:3>, <minecraft:cobblestone:0>],
-		[<minecraft:mossy_cobblestone:0>, <minecraft:cobblestone:0>],
 		[<minecraft:bookshelf:0>, <minecraft:planks:0>],
 
 		// Iron

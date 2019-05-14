@@ -20,7 +20,6 @@ static stagedItems as IIngredient[][string] = {
 
 	stageTwo.stage: [
 		<chiselsandbits:chisel_gold:0>,
-		<chiselsandbits:chisel_iron:0>,
 		<chiselsandbits:tape_measure:0>
 	],
 

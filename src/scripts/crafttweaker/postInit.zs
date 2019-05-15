@@ -275,6 +275,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.weirdinggadget.init();
 	scripts.crafttweaker.recipes.mods.wopper.init();
 	scripts.crafttweaker.recipes.mods.xnet.init();
+	scripts.crafttweaker.recipes.mods.yoyos.init();
 }
 
 function initIntegrations() {

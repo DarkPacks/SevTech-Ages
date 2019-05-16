@@ -45,6 +45,7 @@ Bug Fixes:
 * "Iron" Bits Chisel is now only in stage one (made from tin in this pack) preventing Unfamiliar Item and mis-staged recipe problems (#3775)
 * Remove MREs from loot tables (#3776)
 * Replace disabled cord in Yoyo book recipe with String Cord (#3717)
+* Fixed chiselling of some metal blocks (iron and gold). TODO: modded metals need manually adding (#2092)
 
 Enhancements:
 * Removed primal tech twine (had no use)

@@ -11,6 +11,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.chisel.Carving;
+
 zenClass Unifier {
 	// In order of priority
 	var defaultPreferredMods as string[] = [
@@ -18,6 +20,12 @@ zenClass Unifier {
 		"contenttweaker",
 		"immersiveengineering",
 		"mekanism"
+	];
+
+	var specialChiselOreDicts as string[] = [
+		"blockCharcoal",
+		"blockGold",
+		"blockIron"
 	];
 
 	zenConstructor() {
@@ -66,6 +74,16 @@ zenClass Unifier {
 	}
 	function unify(oreDictEntry as IOreDictEntry, preferredItem as IItemStack, liquid as ILiquidStack) {
 		var hasLiquid = liquid as bool;
+
+		var vgName = "vg_" + oreDictEntry.name.toLowerCase();
+		if (!isNull(preferredItem) && specialChiselOreDicts has oreDictEntry.name) {
+			print("[Chisel] Removing " + oreDictEntry.name);
+			Carving.removeGroup(oreDictEntry.name);
+			print("[Chisel] Creating " + vgName);
+			Carving.addGroup(vgName);
+			print("[Chisel] Adding " + preferredItem.definition.id + " to " + vgName);
+			Carving.addVariation(oreDictEntry.name, preferredItem);
+		}
 
 		for item in oreDictEntry.items {
 			if (!item.matches(preferredItem)) {
@@ -118,6 +136,11 @@ zenClass Unifier {
 
 				if (hasLiquid) {
 					tinkers.removeMelting(liquid, item);
+				}
+
+				if (item.definition.owner == "chisel" && specialChiselOreDicts has oreDictEntry.name) {
+					print("[Chisel] Adding " + item.definition.id + " to " + vgName);
+					Carving.addVariation(oreDictEntry.name, item);
 				}
 			}
 		}

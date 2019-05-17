@@ -91,10 +91,10 @@ function init() {
 		Metals
 	*/
 	for oreDictEntry, blocks in chiselBlocks {
-    	var vgName = "vg_" + oreDictEntry.name.toLowerCase();
-    	for block in blocks {
-        	print("[Chisel] Adding " + block.definition.id + " to " + vgName);
+		var vgName = "vg_" + oreDictEntry.name.toLowerCase();
+		for block in blocks {
+		  	print("[Chisel] Adding " + block.definition.id + " to " + vgName);
 			Carving.addVariation(vgName, block);
-    	}
+		}
 	}
 }

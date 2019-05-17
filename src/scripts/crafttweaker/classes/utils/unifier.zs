@@ -72,8 +72,8 @@ zenClass Unifier {
 		var vgName = "vg_" + oreDictEntry.name.toLowerCase();
 		if (!isNull(preferredItem) & chiselBlocks.keys has oreDictEntry) {
 			print("[Chisel] Removing " + oreDictEntry.name);
-    		Carving.removeGroup(oreDictEntry.name);
-    		print("[Chisel] Creating " + vgName);
+			Carving.removeGroup(oreDictEntry.name);
+			print("[Chisel] Creating " + vgName);
 			Carving.addGroup(vgName);
 			print("[Chisel] Adding " + preferredItem.definition.id + " to " + vgName);
 			Carving.addVariation(vgName, preferredItem);

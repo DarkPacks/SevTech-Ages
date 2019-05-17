@@ -10,6 +10,8 @@
 import crafttweaker.item.IItemStack;
 
 import mods.chisel.Carving;
+import mods.integrateddynamics.DryingBasin;
+import mods.integrateddynamics.MechanicalDryingBasin;
 
 static primalStones as IItemStack[string] = {
 	"common_stone": <primal:common_stone>,
@@ -53,6 +55,23 @@ static primalWalls as IItemStack[string] = {
 	"terracotta_block": <primal:wall:14>
 };
 
+static primalClays	as IItemStack[][string] = {
+		"ciniscotta" : [
+		<primal:cinis_block:0>,
+		<primal:cinis_clump:0>,
+		<primal:cinis_brick_wet:0>,
+		<primal:cinis_brick_dry:0>,
+		<primal:ciniscotta_block>
+	],
+	"terracotta" : [
+		<primal:terra_block:0>,
+		<primal:terra_clump:0>,
+		<primal:terra_brick_wet:0>,
+		<primal:terra_brick_dry:0>,
+		<primal:terracotta_block>
+	]
+};
+
 /*
 	Primal Stones have 8 sub-blocks they are all the same for all stone "types". So that in mind this script will
 	create recipes for all the types and assign the processing recipes also. So they are all be crafted/smelted etc...
@@ -85,5 +104,30 @@ function init() {
 				[stone, stone, stone]
 			]);
 		}
+	}
+
+	for name, items in primalClays {
+		furnace.remove(items[3]);
+
+		// Clay balls back to blocks
+		recipes.addShaped(items[0].name, items[0], [
+			[items[1], items[1]],
+			[items[1], items[1]]
+		]);
+
+		// Ball to wet brick
+		recipes.addShapeless(items[2].name, items[2], [items[1]]);
+
+		// Wet brick to dry brick
+		tinkers.addDrying(items[3], items[2], 400);
+		// DryingBasin.addRecipe(items[2], null, items[3], null, 80);
+		// MechanicalDryingBasin.addRecipe(items[2], null, items[3], null, 20);
+		dryingUnit.addAllTiers(items[2], items[3]);
+
+		// Brick to block
+		recipes.addShaped(items[4].name, items[4], [
+			[items[3], items[3]],
+			[items[3], items[3]]
+		]);
 	}
 }

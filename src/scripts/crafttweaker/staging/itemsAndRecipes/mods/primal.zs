@@ -91,14 +91,6 @@ static stagedItems as IIngredient[][string] = {
 		<primal:carbonate_stone:6>,
 		<primal:cheese_white:0>,
 		<primal:chum:0>,
-		<primal:ciniscotta_block:0>,
-		<primal:ciniscotta_block:1>,
-		<primal:ciniscotta_block:2>,
-		<primal:ciniscotta_block:3>,
-		<primal:ciniscotta_block:4>,
-		<primal:ciniscotta_block:5>,
-		<primal:ciniscotta_block:6>,
-		<primal:ciniscotta_block:7>,
 		<primal:common_stone:0>,
 		<primal:common_stone:1>,
 		<primal:common_stone:2>,
@@ -416,6 +408,18 @@ static stagedItems as IIngredient[][string] = {
 		<primal:armor_ovis_legs:0>,
 		<primal:arrow_quartz:0>,
 		<primal:arrow_torch_nether:0>,
+		<primal:ciniscotta_block:0>,
+		<primal:ciniscotta_block:1>,
+		<primal:ciniscotta_block:2>,
+		<primal:ciniscotta_block:3>,
+		<primal:ciniscotta_block:4>,
+		<primal:ciniscotta_block:5>,
+		<primal:ciniscotta_block:6>,
+		<primal:ciniscotta_block:7>,
+		<primal:cinis_clump:0>,
+		<primal:cinis_brick_wet:0>,
+		<primal:cinis_brick_dry:0>,
+		<primal:cinis_block:0>,
 		<primal:corypha_pin:0>,
 		<primal:corypha_seed:0>,
 		<primal:corypha_stick:0>,
@@ -911,10 +915,6 @@ static hiddenItems as IIngredient[] = [
 	<primal:wootz_plate:0>,
 	<primal:worktable_shelf:*>,
 	<primal:worktable_slab:*>,
-	<primal:cinis_clump:0>,
-	<primal:cinis_brick_wet:0>,
-	<primal:cinis_brick_dry:0>,
-	<primal:cinis_block:0>,
 	<primal:ore_cluster_magnetite:0>,
 	<primal:fletching:0>,
 	<primal:pelt_deer:0>,
@@ -958,7 +958,9 @@ static hiddenRemove as IIngredient[] = [
 ];
 
 static hiddenCategories as string[] = [
-	"primal.hibachi"
+	"primal.hibachi",
+	"primal.brick",
+	"primal.drying_rack"
 ];
 
 function init() {

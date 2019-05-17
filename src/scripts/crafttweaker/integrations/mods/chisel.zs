@@ -86,4 +86,15 @@ function init() {
 	*/
 	Carving.removeVariation("prismarine", <minecraft:prismarine:2>);
 	Carving.removeVariation("prismarine", <minecraft:prismarine:1>);
+
+	/*
+		Metals
+	*/
+	for oreDictEntry, blocks in chiselBlocks {
+    	var vgName = "vg_" + oreDictEntry.name.toLowerCase();
+    	for block in blocks {
+        	print("[Chisel] Adding " + block.definition.id + " to " + vgName);
+			Carving.addVariation(vgName, block);
+    	}
+	}
 }

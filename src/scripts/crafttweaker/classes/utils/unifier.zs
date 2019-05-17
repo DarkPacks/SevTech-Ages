@@ -22,12 +22,6 @@ zenClass Unifier {
 		"mekanism"
 	];
 
-	var specialChiselOreDicts as string[] = [
-		"blockCharcoal",
-		"blockGold",
-		"blockIron"
-	];
-
 	zenConstructor() {
 	}
 
@@ -76,13 +70,13 @@ zenClass Unifier {
 		var hasLiquid = liquid as bool;
 
 		var vgName = "vg_" + oreDictEntry.name.toLowerCase();
-		if (!isNull(preferredItem) && specialChiselOreDicts has oreDictEntry.name) {
+		if (!isNull(preferredItem) & chiselBlocks.keys has oreDictEntry) {
 			print("[Chisel] Removing " + oreDictEntry.name);
-			Carving.removeGroup(oreDictEntry.name);
-			print("[Chisel] Creating " + vgName);
+    		Carving.removeGroup(oreDictEntry.name);
+    		print("[Chisel] Creating " + vgName);
 			Carving.addGroup(vgName);
 			print("[Chisel] Adding " + preferredItem.definition.id + " to " + vgName);
-			Carving.addVariation(oreDictEntry.name, preferredItem);
+			Carving.addVariation(vgName, preferredItem);
 		}
 
 		for item in oreDictEntry.items {
@@ -138,9 +132,9 @@ zenClass Unifier {
 					tinkers.removeMelting(liquid, item);
 				}
 
-				if (item.definition.owner == "chisel" && specialChiselOreDicts has oreDictEntry.name) {
+				if (item.definition.owner == "chisel" & chiselBlocks.keys has oreDictEntry) {
 					print("[Chisel] Adding " + item.definition.id + " to " + vgName);
-					Carving.addVariation(oreDictEntry.name, item);
+					Carving.addVariation(vgName, item);
 				}
 			}
 		}

@@ -546,11 +546,6 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Eagles are spawned via a Totemic Ceremony")
 	],
 
-	// Make sure people know about the recipe needs to match the one in JEI to actually work.
-	<ceramics:unfired_clay:4>: [
-		format.red("For the MillStone recipe to work you need to match the slots to the one shown on JEI. Otherwise it will not work correctly")
-	],
-
 	// Death Releated
 	<death_compass:death_compass>: [
 		format.red("Sneak on your grave to retrieve your items")

@@ -60,6 +60,7 @@ Enhancements:
 * Stripped unnecessary nulls from recipes; plenty of shaped recipes are now less picky about having their ingredients in the exact right spots in the crafting grid! (@pupnewfster)
 * Ground Netherrack can now be made in the Industrial Mill or the IE Crusher from all types of Netherrack (#3757)
 * Actually Additions Crushed Quartz replaced with AE2 Nether Quartz Dust in all recipes (#3757)
+* Full range of BWM Adobe can now be crafted using Betweenlands Compost in place of dung - see https://ftb.gamepedia.com/Adobe
 
 Mods Added:
 * ArcFurnacePatch (1.0.0.3)

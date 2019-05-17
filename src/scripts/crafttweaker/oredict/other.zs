@@ -14,7 +14,13 @@ import crafttweaker.item.IItemStack;
 */
 <ore:rock>.add(<immcraft:rock:0>);
 
+// Due to this, adobe will be crafted using compost rather than dung
+// Doing it this way allows the full range of adobe to be crafted
+// See https://ftb.gamepedia.com/Adobe
 <ore:dung>.remove(<betterwithmods:material:5>);
+<ore:dung>.add(<thebetweenlands:items_misc:2>);
+<ore:blockDung>.remove(<betterwithmods:aesthetic:11>);
+<ore:blockDung>.add(<thebetweenlands:compost_block:0>);
 
 <ore:table>.add(<bibliocraft:table:0>);
 <ore:table>.add(<bibliocraft:table:1>);

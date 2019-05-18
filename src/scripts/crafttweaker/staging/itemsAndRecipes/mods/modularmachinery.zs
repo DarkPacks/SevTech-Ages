@@ -89,6 +89,7 @@ static multiblockMachinesForStages as string[][string] = {
 	],
 
 	stageFour.stage : [
+		"modularmachinery:auto_cauldron",
 		"modularmachinery:industrial_drying_unit_mk2",
 		"modularmachinery:industrial_drying_unit_mk3",
 		"modularmachinery:mixer_mk2",

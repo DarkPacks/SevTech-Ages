@@ -120,6 +120,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
     Shapeless Recipes
 */
 static shapelessRecipes as IIngredient[][][IItemStack] = {
+	<modularmachinery:itemblueprint:0>.withTag({dynamicmachine: "modularmachinery:auto_cauldron"}) : [
+		[<minecraft:paper:0>, <betterwithmods:cooking_pot:1>, <ore:dyeBlue>]
+	],
 	<modularmachinery:itemblueprint:0>.withTag({dynamicmachine: "modularmachinery:chemical_mixer"}) : [
 		[<immersiveengineering:material:6>, <betterwithmods:rope:0>, <ore:stickWood>.firstItem, <ore:dyeBlue>]
 	],

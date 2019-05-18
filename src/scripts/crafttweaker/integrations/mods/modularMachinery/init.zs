@@ -8,6 +8,7 @@
 	learning but not for copying and pasting and claiming as your own.
 */
 function init() {
+	scripts.crafttweaker.integrations.mods.modularMachinery.autoCauldron.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.chemicalMixer.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.ethyliticEnricher.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.hydraulicPress.init();

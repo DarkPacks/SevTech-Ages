@@ -293,8 +293,13 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<immersiveengineering:fake_light:0>
+];
+
 function init() {
 	for stageName, items in stagedItems {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 }

@@ -93,7 +93,9 @@ static stagedItems as IIngredient[][string] = {
 static hiddenItems as IIngredient[] = [
 	<pickletweaks:mesh:0>,
 	<pickletweaks:ppm4:1>,
-	<pickletweaks:ppm4:0>
+	<pickletweaks:ppm4:0>,
+	<pickletweaks:repair_kit_custom:0>
+
 ];
 
 static hiddenRemove as IIngredient[] = [

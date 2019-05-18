@@ -367,6 +367,7 @@ static hiddenItems as IIngredient[] = [
 	<betterwithaddons:chest_samurai:0>,
 	<betterwithaddons:crop_rush:0>,
 	<betterwithaddons:decomat:3>,
+	<betterwithaddons:explosion:0>,
 	<betterwithaddons:extra_grass:1>,
 	<betterwithaddons:extra_grass:2>,
 	<betterwithaddons:extra_grass:3>,
@@ -377,7 +378,10 @@ static hiddenItems as IIngredient[] = [
 	<betterwithaddons:leafpile_sakura:0>,
 	<betterwithaddons:legs_samurai:0>,
 	<betterwithaddons:poisoned_ya:0>,
+	<betterwithaddons:pond_replacement:0>,
 	<betterwithaddons:rotten_food:0>,
+	<betterwithaddons:thorns:0>,
+	<betterwithaddons:tool_shard:0>,
 	<betterwithaddons:wheatmat:0>
 ];
 
@@ -391,7 +395,7 @@ static hiddenRemove as IIngredient[] = [
 	<betterwithaddons:japanmat:32>,
 	<betterwithaddons:japanmat:33>,
 	<betterwithaddons:japanmat:34>,
-	<betterwithaddons:log_termite>,
+	<betterwithaddons:log_termite:0>,
 	<betterwithaddons:material:4>,
 	<betterwithaddons:material:5>,
 	<betterwithaddons:material:6>,

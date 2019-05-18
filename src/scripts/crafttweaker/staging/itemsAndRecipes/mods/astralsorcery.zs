@@ -122,6 +122,10 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 
+static hiddenItems as IIngredient[] = [
+	<astralsorcery:blockflarelight:0>
+];
+
 static hiddenRemove as IIngredient[] = [
 ];
 
@@ -130,5 +134,6 @@ function init() {
 		ZenStager.getStage(stageName).addIngredients(items);
 	}
 
+	recipeUtil.hideItems(hiddenItems as IIngredient[]);
 	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

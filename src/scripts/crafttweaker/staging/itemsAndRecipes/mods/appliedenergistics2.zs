@@ -307,12 +307,15 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
+	<appliedenergistics2:cable_bus:0>,
 	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
 	<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1600}),
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
 	<appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
 	<appliedenergistics2:crystal_seed:0>.withTag({progress: 200}),
-	<appliedenergistics2:crystal_seed:0>.withTag({progress: 400})
+	<appliedenergistics2:crystal_seed:0>.withTag({progress: 400}),
+	<appliedenergistics2:dummy_fluid_item:0>,
+	<appliedenergistics2:matrix_frame:0>
 ];
 
 static hiddenRemove as IIngredient[] = [

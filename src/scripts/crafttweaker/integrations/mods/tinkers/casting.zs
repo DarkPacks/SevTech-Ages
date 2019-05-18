@@ -70,9 +70,11 @@ function init() {
 
 	for shieldMetal in shieldMetals {
 		var shield as IItemStack = itemUtils.getItem("spartanshields:shield_basic_" + shieldMetal);
+		var towerShield as IItemStack = itemUtils.getItem("spartanshields:shield_tower_" + shieldMetal);
 		var liquid as ILiquidStack = shieldMetal == "obsidian" ? <liquid:obsidian> : metalItems[shieldMetal].liquid.liquids[0];
 
-		tinkers.addCastingTable(shield, <spartanshields:shield_basic_wood:0>, liquid, 576, true);
+		tinkers.addCastingTable(shield, <spartanshields:shield_basic_wood:0> | <spartanshields:shield_basic_stone:0>, liquid, 576, true);
+		// tinkers.addCastingBasin(towerShield, <spartanshields:shield_tower_wood:0> | <spartanshields:shield_tower_stone:0>, liquid, 576, true); // TODO: Enable if model issue resolved
 	}
 
 	/*

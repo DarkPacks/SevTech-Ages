@@ -143,6 +143,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:programming_puzzle:8>,
 		<pneumaticcraft:programming_puzzle:9>,
 		<pneumaticcraft:range_upgrade:0>,
+		<pneumaticcraft:redstone_module>,
 		<pneumaticcraft:regulator_tube_module:0>,
 		<pneumaticcraft:reinforced_air_canister:0>.withTag({air: 0}),
 		<pneumaticcraft:reinforced_air_canister:*>,
@@ -158,6 +159,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:speed_upgrade:0>,
 		<pneumaticcraft:stone_base:0>,
 		<pneumaticcraft:stop_worm:0>,
+		<pneumaticcraft:thermal_compressor>,
 		<pneumaticcraft:transfer_gadget:0>,
 		<pneumaticcraft:transistor:0>,
 		<pneumaticcraft:turbine_blade:0>,
@@ -169,6 +171,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:volume_upgrade:0>,
 		<pneumaticcraft:vortex_cannon:*>,
 		<pneumaticcraft:vortex_tube:0>
+
 	],
 
 	stageCreative.stage: [

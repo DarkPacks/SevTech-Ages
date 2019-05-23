@@ -12,7 +12,7 @@ static stagedItems as IIngredient[][string] = {
 		<tombstone:decorative_grave_normal:0>,
 		<tombstone:decorative_grave_simple:0>,
 		<tombstone:decorative_tombstone:0>,
-		<tombstone:grave_dust:0>
+		<tombstone:crafting_ingredient:3>
 	],
 
 	stageTwo.stage: [
@@ -24,7 +24,11 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<tombstone:ankh_of_pray:0>,
 	<tombstone:book_of_disenchantment:0>,
+	<tombstone:crafting_ingredient:0>,
+	<tombstone:crafting_ingredient:1>,
+	<tombstone:crafting_ingredient:2>,
 	<tombstone:dust_of_vanishing:0>,
+	<tombstone:familiar_receptacle>,
 	<tombstone:fishing_rod_of_misadventure:0>,
 	<tombstone:grave_key:0>,
 	<tombstone:lost_tablet:0>.withTag({cooldown_time: 101286 as long}),
@@ -34,8 +38,6 @@ static hiddenRemove as IIngredient[] = [
 	<tombstone:scroll_buff:3>,
 	<tombstone:scroll_buff:4>,
 	<tombstone:scroll_of_knowledge:0>,
-	<tombstone:strange_scroll:0>,
-	<tombstone:strange_tablet:0>,
 	<tombstone:tablet_of_assistance:0>,
 	<tombstone:tablet_of_recall:0>,
 	<tombstone:voodoo_poppet:0>

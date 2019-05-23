@@ -5,6 +5,7 @@ import mods.zenstages.ZenStager;
 import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageFour;
+import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
@@ -37,6 +38,9 @@ static stagedItems as IIngredient[][string] = {
 		<tcomplement:manyullyn_chestplate:0>,
 		<tcomplement:manyullyn_helmet:0>,
 		<tcomplement:manyullyn_leggings:0>
+	],
+	stageFive.stage: [
+		<tcomplement:materials:6>
 	]
 };
 

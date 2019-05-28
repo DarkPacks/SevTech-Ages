@@ -71,5 +71,5 @@ function init() {
 	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
 
 	// Immersive Engineering Assembler
-	ZenStager.addPackage("blusunrize.immersiveengineering", ALL_STAGES);
+	ZenStager.addPackage("blusunrize.immersiveengineering", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 }

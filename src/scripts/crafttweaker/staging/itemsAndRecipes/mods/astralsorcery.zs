@@ -59,6 +59,7 @@ static stagedItems as IIngredient[][string] = {
 		<astralsorcery:blockwell:0>,
 		<astralsorcery:blockworldilluminator:0>,
 		<astralsorcery:itemarchitectwand:0>,
+		<astralsorcery:itemcape:0>,
 		<astralsorcery:itemcape:*>,
 		<astralsorcery:itemcelestialcrystal:0>,
 		<astralsorcery:itemchargedcrystalaxe:0>,

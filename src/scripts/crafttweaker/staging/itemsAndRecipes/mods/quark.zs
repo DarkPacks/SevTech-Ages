@@ -50,6 +50,7 @@ static stagedItems as IIngredient[][string] = {
 		<quark:stone_granite_bricks_stairs:0>,
 		<quark:stone_granite_bricks_wall:0>,
 		<quark:world_stone_bricks:*>,
+		<quark:world_stone_carved:*>,
 
 		// Stairs
 		<quark:hardened_clay_tiles_stairs:0>,

@@ -47,7 +47,7 @@ function getBucketIngredient(liquid as ILiquidStack) as IIngredient {
 	return getBucketAndTankIngredient(liquid, false);
 }
 
-global fluidRecipeFunction as IRecipeFunction = function (output as IItemStack, inputs as IIngredient[string], cInfo as ICraftingInfo) as IItemStack {
+static fluidRecipeFunction as IRecipeFunction = function (output as IItemStack, inputs as IIngredient[string], cInfo as ICraftingInfo) as IItemStack {
 	// Check recipe has a tank in any of the possible fluid slots
 	var hasTank = false;
 	for _, fluidIngredient in inputs {

@@ -17,6 +17,8 @@ import mods.zenstages.ZenStager;
 
 import scripts.crafttweaker.stages.stageDisabled;
 
+import scripts.crafttweaker.craftingUtils;
+
 zenClass RecipeUtil {
 	zenConstructor() {
 	}
@@ -63,9 +65,9 @@ zenClass RecipeUtil {
 						toName = toName ~ "_" ~ i;
 					}
 					if (recipeName == "nameless") {
-						recipes.addShapeless(item, recipe, fluidRecipeFunction);
+						recipes.addShapeless(item, recipe, craftingUtils.fluidRecipeFunction);
 					} else {
-						recipes.addShapeless(toName, item, recipe, fluidRecipeFunction);
+						recipes.addShapeless(toName, item, recipe, craftingUtils.fluidRecipeFunction);
 					}
 				}
 			}
@@ -75,7 +77,7 @@ zenClass RecipeUtil {
 	function processFluid(map as IIngredient[][][IItemStack]) {
 		for item, itemRecipes in map {
 			for recipe in itemRecipes {
-				recipes.addShapeless(item, recipe, fluidRecipeFunction);
+				recipes.addShapeless(item, recipe, craftingUtils.fluidRecipeFunction);
 			}
 		}
 	}
@@ -133,15 +135,15 @@ zenClass RecipeUtil {
 
 					if (recipeName == "nameless") {
 						if (isMirrored) {
-							recipes.addShapedMirrored(item, recipe, fluidRecipeFunction);
+							recipes.addShapedMirrored(item, recipe, craftingUtils.fluidRecipeFunction);
 						} else {
-							recipes.addShaped(item, recipe, fluidRecipeFunction);
+							recipes.addShaped(item, recipe, craftingUtils.fluidRecipeFunction);
 						}
 					} else {
 						if (isMirrored) {
-							recipes.addShapedMirrored(toName, item, recipe, fluidRecipeFunction);
+							recipes.addShapedMirrored(toName, item, recipe, craftingUtils.fluidRecipeFunction);
 						} else {
-							recipes.addShaped(toName, item, recipe, fluidRecipeFunction);
+							recipes.addShaped(toName, item, recipe, craftingUtils.fluidRecipeFunction);
 						}
 					}
 				}
@@ -153,9 +155,9 @@ zenClass RecipeUtil {
 		for item, itemRecipes in map {
 			for recipe in itemRecipes {
 				if (isMirrored) {
-					recipes.addShapedMirrored(item, recipe, fluidRecipeFunction);
+					recipes.addShapedMirrored(item, recipe, craftingUtils.fluidRecipeFunction);
 				} else {
-					recipes.addShaped(item, recipe, fluidRecipeFunction);
+					recipes.addShaped(item, recipe, craftingUtils.fluidRecipeFunction);
 				}
 			}
 		}

@@ -36,8 +36,13 @@ global sidingSpruce as IIngredient = MiniBlocks.getMiniBlock("siding", <minecraf
 global buckets as IItemStack[] = [
 	<ceramics:clay_bucket:0>,
 	<forge:bucketfilled:0>,
+	<immersiveengineering:jerrycan:0>,
 	<thebetweenlands:bl_bucket:1>,
 	<thebetweenlands:bl_bucket:0>
+];
+
+global tanks as IItemStack[] = [
+	<immersiveengineering:jerrycan:0>
 ];
 
 // Minecraft Dye Id table (Kinda says what it's used for Kappa)

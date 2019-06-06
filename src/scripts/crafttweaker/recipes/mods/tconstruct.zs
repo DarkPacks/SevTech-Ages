@@ -87,18 +87,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <tconstruct:materials:15>, null]
 		]
 	],
-	<tconstruct:edible:4> * 4 : [
-		[
-			[null, <minecraft:magma_cream:0>, null],
-			[<minecraft:magma_cream:0>, craftingUtils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream:0>],
-			[null, <minecraft:magma_cream:0>, null]
-		]
-	],
 	<tconstruct:wood_rail:0> * 8 : [
 		[
 			[<ore:thinWood>, <ore:plankWood>, <ore:thinWood>],
 			[<ore:thinWood>, <ore:plankWood>, <ore:thinWood>],
 			[<ore:thinWood>, <ore:plankWood>, <ore:thinWood>]
+		]
+	]
+};
+
+static shapedFluidRecipes as IIngredient[][][][IItemStack] = {
+	<tconstruct:edible:4> * 4 : [
+		[
+			[null, <minecraft:magma_cream:0>, null],
+			[<minecraft:magma_cream:0>, craftingUtils.getBucketAndTankIngredient(<liquid:lava>, true).marked("bucket0"), <minecraft:magma_cream:0>],
+			[null, <minecraft:magma_cream:0>, null]
 		]
 	]
 };
@@ -210,6 +213,7 @@ function init() {
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
+	recipeUtil.processFluid(shapedFluidRecipes, false);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

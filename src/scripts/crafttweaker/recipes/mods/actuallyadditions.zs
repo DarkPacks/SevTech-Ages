@@ -32,13 +32,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<betterwithmods:wicker:0>, <immcraft:chest:0>, <betterwithmods:wicker:0>]
 		]
 	],
-	<actuallyadditions:block_smiley_cloud:0> : [
-		[
-			[null, <minecraft:wool:*>, null],
-			[<minecraft:wool:*>, craftingUtils.getBucketIngredientFromName("xpjuice"), <minecraft:wool:*>],
-			[null, <minecraft:wool:*>, null]
-		]
-	],
 	<actuallyadditions:block_compost:0> : [
 		[
 			[<betterwithmods:slats:*>, null, <betterwithmods:slats:*>],
@@ -59,14 +52,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:dye:3>],
 			[<horsepower:dough:0>]
-		]
-	],
-	// I didn't have red ants to put on top since the item has little red dots on.
-	<actuallyadditions:item_food:8> : [
-		[
-			[craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk")],
-			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
-			[<minecraft:egg:0>, <horsepower:dough:0>, <minecraft:sugar:0>]
 		]
 	],
 	<actuallyadditions:block_coal_generator:0> : [
@@ -360,17 +345,37 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <actuallyadditions:item_misc:9>, null],
 			[<actuallyadditions:item_misc:9>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}}), <actuallyadditions:item_misc:9>],
 			[null, <actuallyadditions:item_misc:9>, null]
-		],
-		[
-			[null, <actuallyadditions:item_misc:9>, null],
-			[<actuallyadditions:item_misc:9>, craftingUtils.getBucketIngredient(<liquid:water>), <actuallyadditions:item_misc:9>],
-			[null, <actuallyadditions:item_misc:9>, null]
 		]
 	],
 	<actuallyadditions:item_misc:1>: [
 		[
 			[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>],
 			[<ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>, <ore:thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeeds>]
+		]
+	]
+};
+
+static shapedFluidRecipes as IIngredient[][][][IItemStack] = {
+	<actuallyadditions:block_smiley_cloud:0> : [
+		[
+			[null, <minecraft:wool:*>, null],
+			[<minecraft:wool:*>, craftingUtils.getBucketAndTankIngredientFromName("xpjuice", true).marked("bucket0"), <minecraft:wool:*>],
+			[null, <minecraft:wool:*>, null]
+		]
+	],
+	// I didn't have red ants to put on top since the item has little red dots on.
+	<actuallyadditions:item_food:8> : [
+		[
+			[craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket0"), craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket1"), craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket2")],
+			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
+			[<minecraft:egg:0>, <horsepower:dough:0>, <minecraft:sugar:0>]
+		]
+	],
+	<actuallyadditions:item_misc:12> : [
+		[
+			[null, <actuallyadditions:item_misc:9>, null],
+			[<actuallyadditions:item_misc:9>, craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <actuallyadditions:item_misc:9>],
+			[null, <actuallyadditions:item_misc:9>, null]
 		]
 	]
 };
@@ -399,12 +404,17 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<actuallyadditions:item_misc:9>: [
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
-		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+};
+
+static shapelessFluidRecipes as IIngredient[][][IItemStack] = {
+	<actuallyadditions:item_misc:9>: [
+		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0")]
+	]
 };
 
 /*
@@ -489,6 +499,8 @@ function init() {
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
+	recipeUtil.processFluid(shapedFluidRecipes, false);
+	recipeUtil.processFluid(shapelessFluidRecipes);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

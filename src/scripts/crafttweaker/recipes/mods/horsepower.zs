@@ -53,10 +53,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 /*
     Shapeless Recipes
 */
-static shapelessRecipes as IIngredient[][][IItemStack] = {
+static shapelessFluidRecipes as IIngredient[][][IItemStack] = {
 	<horsepower:dough:0>: [
 		[<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
-		[<ore:foodFlour>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<ore:foodFlour>, <ore:foodSalt>, craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0")],
 		[<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
 };
@@ -67,7 +67,7 @@ function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
-    recipeUtil.process(shapelessRecipes);
+    recipeUtil.processFluid(shapelessFluidRecipes);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

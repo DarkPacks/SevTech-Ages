@@ -38,27 +38,42 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<ore:stickWood>.firstItem, null, <ore:stickWood>.firstItem]
 		]
 	],
+	<chiselsandbits:chisel_iron:0> : [
+		[
+			[metals.tin.ingot, <ore:stickWood>.firstItem],
+		]
+	]
+};
+
+static shapedFluidRecipes as IIngredient[][][][IItemStack] = {
 	<chiselsandbits:negativeprint:0> : [
 		[
-			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeRed>],
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:dyeRed>],
 			[<primal:plant_cloth:0>, null]
+		],
+		[
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:dustRedstone>],
+			[<minecraft:paper:0>, null]
 		]
 	],
 	<chiselsandbits:mirrorprint:0> : [
 		[
-			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeGreen>],
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:dyeGreen>],
 			[<primal:plant_cloth:0>, null]
+		],
+		[
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:dustGlowstone>],
+			[<minecraft:paper:0>, null]
 		]
 	],
 	<chiselsandbits:positiveprint:0> : [
 		[
-			[craftingUtils.getBucketIngredient(<liquid:water>), <ore:dyeBlue>],
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:dyeBlue>],
 			[<primal:plant_cloth:0>, null]
-		]
-	],
-	<chiselsandbits:chisel_iron:0> : [
+		],
 		[
-			[metals.tin.ingot, <ore:stickWood>.firstItem],
+			[craftingUtils.getBucketAndTankIngredient(<liquid:water>, true).marked("bucket0"), <ore:gemLapis>],
+			[<minecraft:paper:0>, null]
 		]
 	]
 };
@@ -98,7 +113,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<chiselsandbits:bittank:0>,
-	<chiselsandbits:chisel_iron:0>
+	<chiselsandbits:chisel_iron:0>,
+	<chiselsandbits:negativeprint:0>,
+	<chiselsandbits:mirrorprint:0>,
+	<chiselsandbits:positiveprint:0>
 ];
 
 function init() {
@@ -106,6 +124,7 @@ function init() {
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
+	recipeUtil.processFluid(shapedFluidRecipes, false);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

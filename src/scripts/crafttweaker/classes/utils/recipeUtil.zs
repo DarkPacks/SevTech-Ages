@@ -51,6 +51,36 @@ zenClass RecipeUtil {
 	}
 
 	/*
+		Use processNamedFluid and processFluid when registering a recipe that accepts tanks
+		This prevents a tank with less than 1 bucket of fluid being used to perform the craft
+	*/
+	function processNamedFluid(map as IIngredient[][][string][IItemStack]) {
+		for item, itemRecipes in map {
+			for recipeName, recipesInner in itemRecipes {
+				for i, recipe in recipesInner {
+					var toName = recipeName;
+					if (i > 0) {
+						toName = toName ~ "_" ~ i;
+					}
+					if (recipeName == "nameless") {
+						recipes.addShapeless(item, recipe, fluidRecipeFunction);
+					} else {
+						recipes.addShapeless(toName, item, recipe, fluidRecipeFunction);
+					}
+				}
+			}
+		}
+	}
+
+	function processFluid(map as IIngredient[][][IItemStack]) {
+		for item, itemRecipes in map {
+			for recipe in itemRecipes {
+				recipes.addShapeless(item, recipe, fluidRecipeFunction);
+			}
+		}
+	}
+
+	/*
 		Process Method to handle Shaped and Mirrored Recipes.
 	*/
 	function processNamed(map as IIngredient[][][][string][IItemStack], isMirrored as bool) {
@@ -87,6 +117,45 @@ zenClass RecipeUtil {
 					recipes.addShapedMirrored(item, recipe);
 				} else {
 					recipes.addShaped(item, recipe);
+				}
+			}
+		}
+	}
+
+	function processNamedFluid(map as IIngredient[][][][string][IItemStack], isMirrored as bool) {
+		for item, itemRecipes in map {
+			for recipeName, recipesInner in itemRecipes {
+				for i, recipe in recipesInner {
+					var toName = recipeName;
+					if (i > 0) {
+						toName = toName ~ "_" ~ i;
+					}
+
+					if (recipeName == "nameless") {
+						if (isMirrored) {
+							recipes.addShapedMirrored(item, recipe, fluidRecipeFunction);
+						} else {
+							recipes.addShaped(item, recipe, fluidRecipeFunction);
+						}
+					} else {
+						if (isMirrored) {
+							recipes.addShapedMirrored(toName, item, recipe, fluidRecipeFunction);
+						} else {
+							recipes.addShaped(toName, item, recipe, fluidRecipeFunction);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function processFluid(map as IIngredient[][][][IItemStack], isMirrored as bool) {
+		for item, itemRecipes in map {
+			for recipe in itemRecipes {
+				if (isMirrored) {
+					recipes.addShapedMirrored(item, recipe, fluidRecipeFunction);
+				} else {
+					recipes.addShaped(item, recipe, fluidRecipeFunction);
 				}
 			}
 		}

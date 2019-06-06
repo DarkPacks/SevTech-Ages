@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.Utils;
 
+import scripts.crafttweaker.craftingUtils;
 import scripts.crafttweaker.utils;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
@@ -601,17 +602,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:dye:4>, <minecraft:obsidian:0>, <minecraft:dye:4>]
 		]
 	],
-	<minecraft:cake:0>: [
-		[
-			[
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk"),
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk"),
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk")
-			],
-			[<minecraft:sugar:0>, <minecraft:egg:0>, <minecraft:sugar:0>],
-			[null, <ore:foodFlour>, null]
-		]
-	],
 	<minecraft:activator_rail:0> * 2: [
 		[
 			[metals.iron.plate, <ore:plankWood>, metals.iron.plate],
@@ -682,6 +672,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>],
 			[<minecraft:diamond:0>, null, <minecraft:diamond:0>]
+		]
+	]
+};
+
+static shapedFluidRecipes as IIngredient[][][][IItemStack] = {
+	<minecraft:cake:0>: [
+		[
+			[
+				craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket0"),
+				craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket1"),
+				craftingUtils.getBucketAndTankIngredientFromName("milk", true).marked("bucket2")
+			],
+			[<minecraft:sugar:0>, <minecraft:egg:0>, <minecraft:sugar:0>],
+			[null, <ore:foodFlour>, null]
 		]
 	]
 };
@@ -1057,6 +1061,7 @@ function init() {
 	recipeUtil.process(shapedRecipes, false);
     recipeUtil.process(mirroredRecipes, true);
     recipeUtil.process(shapelessRecipes);
+	recipeUtil.processFluid(shapedFluidRecipes, false);
 
 	// Named recipes
 	recipeUtil.processNamed(namedShapedRecipes, false);

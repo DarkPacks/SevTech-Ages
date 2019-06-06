@@ -52,28 +52,6 @@ function ensureOreDict(itemOreDict as IOreDictEntry, item as IItemStack) {
 
 // Formats a bucket with liquid NBT
 function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack {
-	var data as IData = null;
-
-	if (bucket.matches(<ceramics:clay_bucket:0>)) {
-		data = {
-			fluids: {
-				FluidName: liquidName,
-				Amount: 1000
-			}
-		};
-	} else if (bucket.matches(<thebetweenlands:bl_bucket:1>) | bucket.matches(<thebetweenlands:bl_bucket:0>)) {
-		data = {
-			Fluid: {
-				FluidName: liquidName,
-				Amount: 1000
-			}
-		};
-	} else {
-		data = {
-			FluidName: liquidName,
-			Amount: 1000
-		};
-	}
 
 	// Minecraft unique buckets
 	if (bucket.definition.owner == "forge") {
@@ -94,6 +72,35 @@ function formatBucket(bucket as IItemStack, liquidName as string) as IItemStack 
 			// No support for betweenlands bucket
 			return null;
 		}
+	}
+
+	var data as IData = null;
+
+	if (bucket.matches(<ceramics:clay_bucket:0>)) {
+		data = {
+			fluids: {
+				FluidName: liquidName,
+				Amount: 1000
+			}
+		};
+	} else if (bucket.matches(<thebetweenlands:bl_bucket:1>) | bucket.matches(<thebetweenlands:bl_bucket:0>)) {
+		data = {
+			Fluid: {
+				FluidName: liquidName,
+				Amount: 1000
+			}
+		};
+	} else if (bucket.matches(<immersiveengineering:jerrycan:0>)) {
+		data = {
+			Fluid: {
+				FluidName: liquidName
+			}
+		};
+	} else {
+		data = {
+			FluidName: liquidName,
+			Amount: 1000
+		};
 	}
 
 	return bucket.withTag(data);

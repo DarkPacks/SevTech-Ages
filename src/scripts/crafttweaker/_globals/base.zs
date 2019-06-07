@@ -40,6 +40,10 @@ global buckets as IItemStack[] = [
 	<thebetweenlands:bl_bucket:0>
 ];
 
+global tanks as IItemStack[] = [
+	<immersiveengineering:jerrycan:0>
+];
+
 // Minecraft Dye Id table (Kinda says what it's used for Kappa)
 global minecraftDyeIdTable as string[int] = {
 	0: "black",

@@ -90,7 +90,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<tconstruct:edible:4> * 4 : [
 		[
 			[null, <minecraft:magma_cream:0>, null],
-			[<minecraft:magma_cream:0>, craftingUtils.getBucketIngredient(<liquid:lava>), <minecraft:magma_cream:0>],
+			[<minecraft:magma_cream:0>, craftingUtils.getBucketAndTankIngredient(<liquid:lava>), <minecraft:magma_cream:0>],
 			[null, <minecraft:magma_cream:0>, null]
 		]
 	],

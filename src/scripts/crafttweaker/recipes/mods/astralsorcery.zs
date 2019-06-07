@@ -41,7 +41,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<astralsorcery:itemskyresonator:0> : [
 		[
 			[null, <astralsorcery:itemcraftingcomponent:0>, null],
-			[<ore:stoneMarble>, craftingUtils.getBucketIngredient(<liquid:astralsorcery.liquidstarlight>), <ore:stoneMarble>],
+			[<ore:stoneMarble>, craftingUtils.getBucketAndTankIngredient(<liquid:astralsorcery.liquidstarlight>), <ore:stoneMarble>],
 			[null, metals.bronze.rod, null]
 		]
 	],

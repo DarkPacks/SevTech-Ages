@@ -56,7 +56,7 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {};
 static shapelessRecipes as IIngredient[][][IItemStack] = {
 	<horsepower:dough:0>: [
 		[<ore:foodFlour>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
-		[<ore:foodFlour>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<ore:foodFlour>, <ore:foodSalt>, craftingUtils.getBucketAndTankIngredient(<liquid:water>)],
 		[<ore:foodFlour>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
 };

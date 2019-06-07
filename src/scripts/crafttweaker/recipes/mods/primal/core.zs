@@ -485,7 +485,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 		[<rustic:log:1>.transformReplace(<primal:logs_stripped:6>), <ore:toolWorkBlade>]
 	],
 	<primal:plant_fiber_pulp:0> * 3 : [
-		[<betterwithmods:material:22>, <betterwithmods:material:12>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<betterwithmods:material:22>, <betterwithmods:material:12>, craftingUtils.getBucketAndTankIngredient(<liquid:water>)],
 		[<betterwithmods:material:22>, <betterwithmods:material:12>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
 	<primal:hide_raw:0> * 1: [
@@ -519,7 +519,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	// Mud Clump
 	<primal:mud_clump:0>: [
 		[<minecraft:dirt:0>, <minecraft:dirt:0>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
-		[<minecraft:dirt:0>, <minecraft:dirt:0>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<minecraft:dirt:0>, <minecraft:dirt:0>, craftingUtils.getBucketAndTankIngredient(<liquid:water>)],
 		[<minecraft:dirt:0>, <minecraft:dirt:0>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	],
 	<primal:plant_cordage:0>: [

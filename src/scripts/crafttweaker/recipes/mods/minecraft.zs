@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import mods.zenstages.Utils;
 
 import scripts.crafttweaker.utils;
+import scripts.crafttweaker.craftingUtils;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFive;
@@ -604,9 +605,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<minecraft:cake:0>: [
 		[
 			[
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk"),
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk"),
-				scripts.crafttweaker.craftingUtils.getBucketIngredientFromName("milk")
+				craftingUtils.getBucketAndTankIngredientFromName("milk"),
+				craftingUtils.getBucketAndTankIngredientFromName("milk"),
+				craftingUtils.getBucketAndTankIngredientFromName("milk")
 			],
 			[<minecraft:sugar:0>, <minecraft:egg:0>, <minecraft:sugar:0>],
 			[null, <ore:foodFlour>, null]

@@ -41,7 +41,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<cookingforblockheads:sink:0> : [
 		[
 			[metals.aluminum.plate, metals.aluminum.plate, metals.aluminum.plate],
-			[<minecraft:hardened_clay:0>, craftingUtils.getBucketIngredient(<liquid:water>), <minecraft:hardened_clay:0>],
+			[<minecraft:hardened_clay:0>, craftingUtils.getBucketAndTankIngredient(<liquid:water>), <minecraft:hardened_clay:0>],
 			[<minecraft:hardened_clay:0>, <minecraft:hardened_clay:0>, <minecraft:hardened_clay:0>]
 		]
 	],
@@ -55,7 +55,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[null, null, <minecraft:stone_button:0>],
 			[metals.aluminum.plate, <minecraft:iron_trapdoor:0>, metals.aluminum.plate],
-			[metals.aluminum.plate, craftingUtils.getBucketIngredient(<liquid:lava>), metals.aluminum.plate]
+			[metals.aluminum.plate, craftingUtils.getBucketAndTankIngredient(<liquid:lava>), metals.aluminum.plate]
 		]
 	],
 	<cookingforblockheads:milk_jar:0>: [

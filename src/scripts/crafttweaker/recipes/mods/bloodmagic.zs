@@ -68,8 +68,8 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<bloodmagic:lava_crystal:0> : [
 		[
-			[<ore:blockGlass>, craftingUtils.getBucketIngredient(<liquid:lava>), <ore:blockGlass>],
-			[craftingUtils.getBucketIngredient(<liquid:lava>), <bloodmagic:blood_orb:*>, craftingUtils.getBucketIngredient(<liquid:lava>)],
+			[<ore:blockGlass>, craftingUtils.getBucketAndTankIngredient(<liquid:lava>), <ore:blockGlass>],
+			[craftingUtils.getBucketAndTankIngredient(<liquid:lava>), <bloodmagic:blood_orb:*>, craftingUtils.getBucketAndTankIngredient(<liquid:lava>)],
 			[<tconstruct:firewood:0>, <ore:bottleFiery>, <tconstruct:firewood:0>]
 		]
 	],

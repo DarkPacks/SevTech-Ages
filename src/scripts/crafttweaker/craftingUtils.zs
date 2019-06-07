@@ -12,6 +12,30 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
+function getBucketAndTankIngredientFromName(liquidName as string) as IIngredient {
+	var bucketsIngredient as IIngredient = getBucketIngredientFromName(liquidName);
+
+	var tanksIngredient as IIngredient = null;
+
+	for tank in tanks {
+		var tankIngredient as IIngredient = scripts.crafttweaker.utils.formatTankIngredient(tank, liquidName);
+
+		if (!isNull(tankIngredient)) {
+			if (isNull(tanksIngredient)) {
+				tanksIngredient = tankIngredient;
+			} else {
+				tanksIngredient |= tankIngredient;
+			}
+		}
+	}
+
+	return bucketsIngredient | tanksIngredient;
+}
+
+function getBucketAndTankIngredient(liquid as ILiquidStack) as IIngredient {
+	return getBucketAndTankIngredientFromName(liquid.name);
+}
+
 function getBucketIngredientFromName(liquidName as string) as IIngredient {
 	var bucketsIngredient as IIngredient = null;
 

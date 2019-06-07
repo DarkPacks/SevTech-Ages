@@ -35,7 +35,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<actuallyadditions:block_smiley_cloud:0> : [
 		[
 			[null, <minecraft:wool:*>, null],
-			[<minecraft:wool:*>, craftingUtils.getBucketIngredientFromName("xpjuice"), <minecraft:wool:*>],
+			[<minecraft:wool:*>, craftingUtils.getBucketAndTankIngredientFromName("xpjuice"), <minecraft:wool:*>],
 			[null, <minecraft:wool:*>, null]
 		]
 	],
@@ -64,7 +64,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	// I didn't have red ants to put on top since the item has little red dots on.
 	<actuallyadditions:item_food:8> : [
 		[
-			[craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk"), craftingUtils.getBucketIngredientFromName("milk")],
+			[craftingUtils.getBucketAndTankIngredientFromName("milk"), craftingUtils.getBucketAndTankIngredientFromName("milk"), craftingUtils.getBucketAndTankIngredientFromName("milk")],
 			[<minecraft:dye:3>, <minecraft:dye:3>, <minecraft:dye:3>],
 			[<minecraft:egg:0>, <horsepower:dough:0>, <minecraft:sugar:0>]
 		]
@@ -363,7 +363,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		],
 		[
 			[null, <actuallyadditions:item_misc:9>, null],
-			[<actuallyadditions:item_misc:9>, craftingUtils.getBucketIngredient(<liquid:water>), <actuallyadditions:item_misc:9>],
+			[<actuallyadditions:item_misc:9>, craftingUtils.getBucketAndTankIngredient(<liquid:water>), <actuallyadditions:item_misc:9>],
 			[null, <actuallyadditions:item_misc:9>, null]
 		]
 	],
@@ -399,7 +399,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<actuallyadditions:item_misc:9>: [
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <ore:bottleWater>.transformReplace(<minecraft:glass_bottle:0>)],
-		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, craftingUtils.getBucketIngredient(<liquid:water>)],
+		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, craftingUtils.getBucketAndTankIngredient(<liquid:water>)],
 		[<betterwithaddons:japanmat:4>, <ore:foodSalt>, <primal_tech:fluid_bladder:1>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]
 	]
 };

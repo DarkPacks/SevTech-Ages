@@ -52,6 +52,7 @@ Bug Fixes:
     * Interdiction Pulsar moved to stage 5 as it seems to serve the same purpose as the fan, only better
     * Merchant Almanac disabled as it offers no real benefit in this pack - villager trading is a thing of the past by the time it's available
     * Entity Detector has a new recipe that only uses items from stage 3
+* Increase output of Hemp Fibers and Ground Resin from the Industrial Mill (#3791)
 
 Enhancements:
 * Removed primal tech twine (had no use)

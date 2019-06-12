@@ -62,10 +62,10 @@ function init() {
 	/*
 		Resource/Plant Based
 	*/
-	createOreMillRecipe("resin", <primal:tannin_ground:0>, [
+	createOreMillRecipe("resin", <primal:tannin_ground:0> * 2, [
 		<ore:barkWood>
 	]);
-	createMillRecipe("hemp_fibre", <betterwithmods:material:3> * 2, [
+	createMillRecipe("hemp_fibre", <betterwithmods:material:3> * 3, [
 		<betterwithmods:material:2>
 	]);
 	createOreMillRecipe("ground_netherrack", <betterwithmods:material:15>, [

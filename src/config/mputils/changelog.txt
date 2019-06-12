@@ -48,6 +48,10 @@ Bug Fixes:
 * Many more blocks now work with the chisel as expected - inc. metals, (char)coal, gem blocks, etc. (#2092)
 * Ciniscotta and Terracotta from Primal now have crafting paths (#3714)
 * Resolved issue with crafting of metal Spartan Shields (#3650)
+* Adjusted staging and recipes of certain items from Cyclic (#3805)
+    * Interdiction Pulsar moved to stage 5 as it seems to serve the same purpose as the fan, only better
+    * Merchant Almanac disabled as it offers no real benefit in this pack - villager trading is a thing of the past by the time it's available
+    * Entity Detector has a new recipe that only uses items from stage 3
 
 Enhancements:
 * Removed primal tech twine (had no use)

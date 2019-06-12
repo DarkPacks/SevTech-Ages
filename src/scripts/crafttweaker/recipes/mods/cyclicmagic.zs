@@ -140,6 +140,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[null, <minecraft:glowstone_dust:0>, <ore:slimeball>],
 			[<ore:string>, null, <minecraft:glowstone_dust:0>]
 		]
+	],
+	<cyclicmagic:entity_detector:0> : [
+		[
+			[<minecraft:quartz:0>, <ore:blockCoal>, <minecraft:quartz:0>],
+			[null, <nex:amethyst_crystal:0>, null],
+			[<minecraft:redstone:0>, null, <minecraft:redstone:0>]
+		]
 	]
 };
 
@@ -176,6 +183,7 @@ static removeRecipes as IItemStack[] = [
 	<cyclicmagic:charm_wing:0>,
 	<cyclicmagic:clock:0>,
 	<cyclicmagic:ender_torch:0>,
+	<cyclicmagic:entity_detector:0>,
 	<cyclicmagic:food_step:0>,
 	<cyclicmagic:harvester_block:0>,
 	<cyclicmagic:placer_block:0>,

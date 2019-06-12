@@ -45,7 +45,6 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:tool_spawn_inspect:0>,
 		<cyclicmagic:tool_spelunker:0>,
 		<cyclicmagic:tool_torch_launcher:0>,
-		<cyclicmagic:tool_trade:0>,
 		<cyclicmagic:trash:0>,
 		<cyclicmagic:water_freezer:0>
 	],
@@ -80,7 +79,6 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:gold_minecart:0>,
 		<cyclicmagic:horse_upgrade_jump:0>,
 		<cyclicmagic:horse_upgrade_speed:0>,
-		<cyclicmagic:magnet_anti_block:0>,
 		<cyclicmagic:melter:0>,
 		<cyclicmagic:password_block:0>,
 		<cyclicmagic:placer_block:0>,
@@ -166,6 +164,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:horse_upgrade_type:0>,
 		<cyclicmagic:inventory_food:0>,
 		<cyclicmagic:magic_net:0>,
+		<cyclicmagic:magnet_anti_block:0>,
 		<cyclicmagic:password_remote:0>,
 		<cyclicmagic:purple_boots:0>,
 		<cyclicmagic:purple_chestplate:0>,
@@ -197,6 +196,7 @@ static hiddenRemove as IIngredient[] = [
 	<cyclicmagic:storage_bag:0>,
 	<cyclicmagic:tool_prospector:0>,
 	<cyclicmagic:tool_randomize:0>,
+	<cyclicmagic:tool_trade:0>,
 	<cyclicmagic:uncrafting_block:0>
 ];
 

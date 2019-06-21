@@ -15,3 +15,8 @@ var liquidSlime = VanillaFactory.createFluid("slime", Color.fromHex("3f5329"));
 liquidSlime.vaporize = true;
 liquidSlime.viscosity = 3000;
 liquidSlime.register();
+
+var liquidCheese = VanillaFactory.createFluid("cheese", Color.fromHex("FFE000"));
+liquidCheese.density = 6000;
+liquidCheese.viscosity = 1000;
+liquidCheese.register();

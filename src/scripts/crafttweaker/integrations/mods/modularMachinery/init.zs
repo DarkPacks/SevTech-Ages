@@ -19,5 +19,6 @@ function init() {
 	scripts.crafttweaker.integrations.mods.modularMachinery.mixer.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.paperclipFactory.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.plasticMolder.init();
+	scripts.crafttweaker.integrations.mods.modularMachinery.scamulator.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.volcanicCrystalizer.init();
 }

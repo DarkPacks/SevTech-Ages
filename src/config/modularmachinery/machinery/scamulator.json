@@ -1,0 +1,143 @@
+{
+  "registryname": "scamulator",
+  "localizedname": "Scamulator",
+  "color": "31323A",
+  "parts": [
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "appliedenergistics2:sky_stone_block@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockoutputbus"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "extendedcrafting:lamp@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "elements": [
+        "appliedenergistics2:sky_stone_block@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "appliedenergistics2:sky_stone_block@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockinputbus"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@4"
+      ]
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockenergyinputhatch"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "elements": [
+        "modularmachinery:blockfluidinputhatch"
+      ]
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "elements": [
+        "appliedenergistics2:sky_stone_block@0"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "elements": [
+        "modularmachinery:blockcasing@4"
+      ]
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@4"
+      ]
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@0"
+      ]
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "elements": [
+        "modularmachinery:blockcasing@4"
+      ]
+    }
+  ]
+}

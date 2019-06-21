@@ -63,13 +63,15 @@ Enhancements:
 * Added a crafting recipe for Ironwood Bark/Stripped Ironwood (#3622)
 * Made Charcoal Hopper's Age One recipe to be craftable in a 2x2 grid
 * Added tooltip to clarify how to obtain a car key
-* Time limit on all Totemic rituals is 50% longer
 * Stripped unnecessary nulls from recipes; plenty of shaped recipes are now less picky about having their ingredients in the exact right spots in the crafting grid! (@pupnewfster)
 * Ground Netherrack can now be made in the Industrial Mill or the IE Crusher from all types of Netherrack (#3757)
 * Actually Additions Crushed Quartz replaced with AE2 Nether Quartz Dust in all recipes (#3757)
 * Full range of BWM Adobe can now be crafted using Betweenlands Compost in place of dung - see https://ftb.gamepedia.com/Adobe
 * Added an auto-cauldron multiblock machine - making glue now 10x more futuristic (#2545)
 * Hide most Armor Forge variants from JEI - same as is done for the Tool Forge
+* Increased the ceremony times for many of the Totemic Ceremonies. The most difficult: Eagle, Baykok, flute imbuing have been made much easier to attain especially for Single Player worlds. Every ceremony is at least 50% longer
+* Added a new machine to Modular Machinery "Scamulator". This machine's purpose is to allow the crafting of all Galacticraft and Extra Planet schematics by using resources found on planets. This should alleviate the headache of randomly searching for dungeons and hoping the loot you needed dropped. Every schematic requires Liquid Cheese, (because science)!
+* Antique Atlas Markers can now be copied to JourneyMap waypoints. This is done automatically when the JMapStages Waypoint stage is reached. This can also be triggered manually using "/waypoints"
 
 Mods Added:
 * ArcFurnacePatch (1.0.0.3)

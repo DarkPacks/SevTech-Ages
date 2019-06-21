@@ -159,6 +159,7 @@ static liquidsForStage as ILiquidStack[][string] = {
 		<liquid:biofuel>,
 		<liquid:canola_methanol_mix>,
 		<liquid:canola_oil>,
+		<liquid:cheese>,
 		<liquid:essence>,
 		<liquid:etchacid>,
 		<liquid:fuel>,

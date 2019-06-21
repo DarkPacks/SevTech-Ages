@@ -66,4 +66,8 @@ function init() {
 	// Liquid Redstone
 	tinkers.addMelting(<liquid:redstone> * 100, <minecraft:redstone:0>);
 	tinkers.addMelting(<liquid:redstone> * 900, <minecraft:redstone_block:0>);
+
+	// Cheese
+	tinkers.addMelting(<liquid:cheese> * 100, <galacticraftcore:cheese:0>);
+	tinkers.addMelting(<liquid:cheese> * 10, <galacticraftcore:cheese_curd:0>);
 }

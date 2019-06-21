@@ -103,7 +103,8 @@ static multiblockMachinesForStages as string[][string] = {
 		"modularmachinery:orematic5000",
 		"modularmachinery:orematic5000_mk2",
 		"modularmachinery:orematic5000_mk3",
-		"modularmachinery:hydraulic_press"
+		"modularmachinery:hydraulic_press",
+		"modularmachinery:scamulator"
 	]
 };
 

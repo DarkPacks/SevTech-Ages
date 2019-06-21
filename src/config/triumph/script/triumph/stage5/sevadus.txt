@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage5.sevadus.title")
+
+setIcon(<minecraft:skull:3>)
+
+setTranslatedDescription("advancements.stage5.sevadus.description")
+
+addParent("triumph:stage5/neptune")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem(<minecraft:skull:3>)
+
+//Rewards
+setRewardExperience(15)
+
+visibleIf("triumph:stage5/root")

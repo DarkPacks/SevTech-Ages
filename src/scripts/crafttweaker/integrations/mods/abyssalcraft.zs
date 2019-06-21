@@ -62,6 +62,17 @@ function init() {
 	game.setLocalization("ac.ritual.parrots", "Parrot Summoning Ritual");
 	game.setLocalization("ac.ritual.parrots.desc", "This ritual allows you to summon a Parrot without searching for a jungle");
 
+	//Summons the Sevadus Boss to your world. Prepare for the rektening
+	SummonRitual.addRitual("sevadus", 0, -1, 5000, false, "playerbosses:player_boss", [<minecraft:skull:2>, <extendedcrafting:material:32>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:material:32>, <extraplanets:tier7_items:7>, <extendedcrafting:material:32>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:material:32>]);
+	game.setLocalization("ac.ritual.parrots", "Sevadus Summoning Ritual");
+	game.setLocalization("ac.ritual.parrots.desc", "Summons Sevadus the ultimate boss of the Universe. Defeat him to defeat SevTech: Ages");
+
+
+
+
+
+
+
 	// Infuse RF Tools Syringe with cow essence to make mooshroom essence for the Peace Essence for the Peaceful Environment Dimlet
 	InfusionRitual.addRitual("mooshroomessence", 0, -1, 100, true, <rftools:syringe>.withTag({mobName: "Mooshroom", level: 10, mobId: "minecraft:mooshroom"}), <rftools:syringe>, [
 		<minecraft:red_mushroom_block>, <minecraft:red_mushroom_block>,

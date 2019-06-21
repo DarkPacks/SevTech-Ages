@@ -165,5 +165,11 @@
       ],
       "Health": 12.5
     }
+  },
+  {
+    "mob": "emberroot:dire_wolf",
+    "onjoin": true,
+    "maxlight": 7,
+    "result": "deny"
   }
 ]

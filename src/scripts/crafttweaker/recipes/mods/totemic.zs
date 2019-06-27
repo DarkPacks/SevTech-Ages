@@ -159,3 +159,6 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 }
+
+//Testing to confirm fix for knife duplication bug
+<totemic:totem_whittling_knife>.definition.setNoRepair();

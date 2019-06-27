@@ -68,8 +68,10 @@ function init() {
 	ZenStager.addPackage("buildcraft.lib.tile.craft.WorkbenchCrafting", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 
 	// Cyclic Auto Crafter
-	ZenStager.addPackage("com.lothrazar.cyclicmagic.component.crafter.TileEntityCrafter", ALL_STAGES);
+	ZenStager.addPackage("com.lothrazar.cyclicmagic", ALL_STAGES);
 
 	// Immersive Engineering Assembler
 	ZenStager.addPackage("blusunrize.immersiveengineering", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 }
+
+

@@ -34,6 +34,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<rustic:planks:0>, <rustic:planks:0>, <rustic:planks:0>]
 		]
+	],
+	<rustic:crushing_tub> : [
+		[
+			[<ore:slabWood>, null, <ore:slabWood>],
+			[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+
+
+		]
 	]
 };
 
@@ -64,7 +72,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
 	<rustic:fertile_soil:0>,
 	<rustic:ironwood_slab_item:0>,
-	<rustic:olive_slab_item:0>
+	<rustic:olive_slab_item:0>,
+	<rustic:crushing_tub>
 ];
 
 static removeRegex as string[] = [
@@ -99,3 +108,4 @@ function init() {
 		null
 	);
 }
+

@@ -73,5 +73,3 @@ function init() {
 	// Immersive Engineering Assembler
 	ZenStager.addPackage("blusunrize.immersiveengineering", [stageTutorial, stageBaykok, stageZero, stageOne, stageTwo, stageThree, stageFour]);
 }
-
-

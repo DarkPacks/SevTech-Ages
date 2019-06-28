@@ -6,6 +6,7 @@ import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageOne;
 import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
+import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
 import scripts.crafttweaker.stages.stageDisabled;
 
@@ -140,7 +141,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:crate:10>,
 		<betterwithaddons:crate:11>,
 		<betterwithaddons:crate:0>,
-		<betterwithaddons:elytra_magma:0>,
 		<betterwithaddons:food_beetroot_cooked:0>,
 		<betterwithaddons:food_carrot_cooked:0>,
 		<betterwithaddons:food_egg_cooked:0>,
@@ -333,6 +333,11 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:ya:0>,
 		<betterwithaddons:yumi:0>,
 		<betterwithaddons:zen_soulsand:0>
+	],
+
+	stageFour.stage: [
+		<betterwithaddons:elytra_magma:0>,
+		<betterwithaddons:material:6>
 	],
 
 	stageFive.stage: [

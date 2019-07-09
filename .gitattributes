@@ -1,0 +1,28 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+*.cfg text
+*.conf text
+*.config text
+*.csv text
+*.ini text
+*.json text
+*.lang text
+*.mcmeta text
+*.md text
+*.properties text
+*.txt text
+*.xml text
+*.yml text
+*.zs text
+
+*.dat binary
+*.gif binary
+*.nbt binary
+*.ogg binary
+*.png binary
+*.rcbp binary
+*.rcdp binary
+*.rcmt binary
+*.rcp binary
+*.rcst binary

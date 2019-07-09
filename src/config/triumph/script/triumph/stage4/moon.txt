@@ -16,7 +16,7 @@ setCompletedTitleColor(6570404)
 
 //Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-criteria.setDimensionDestination("Moon")
+criteria.setDimensionDestination("moon.moon")
 
 //Rewards
 setRewardExperience(25)

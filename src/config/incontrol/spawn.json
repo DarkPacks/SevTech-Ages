@@ -168,7 +168,6 @@
   },
   {
     "mob": "emberroot:dire_wolf",
-    "onjoin": true,
     "minlight": 8,
     "result": "deny"
   }

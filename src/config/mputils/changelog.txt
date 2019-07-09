@@ -53,6 +53,7 @@ Bug Fixes:
     * Merchant Almanac disabled as it offers no real benefit in this pack - villager trading is a thing of the past by the time it's available
     * Entity Detector has a new recipe that only uses items from stage 3
 * Increase output of Hemp Fibers and Ground Resin from the Industrial Mill (#3791)
+* Fixed recipe name mismatch between server and client that was causing certain Mystical Agriculture essence recipes to behave strangely (#3818)
 
 Enhancements:
 * Removed primal tech twine (had no use)

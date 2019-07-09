@@ -104,7 +104,7 @@ function init() {
 	var generatedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
 	for essence, output in recipesToGenerate {
-		var recipeName = Utils.genRecipeName(stageFive);
+		var recipeName = Utils.genRecipeName(stageFive, output);
 
 		var essenceRecipe as IIngredient[][] = [
 			[essence, essence, essence],
@@ -131,4 +131,3 @@ function init() {
 
 	recipeUtil.removeRecipes(removeRecipes);
 }
-

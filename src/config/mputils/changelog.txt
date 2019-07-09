@@ -144,7 +144,7 @@ Mod Updates:
     * Fixes an issue where JourneyMap minimap would not display when unlocked (#3613)
 * Mantle (1.3.3.55)
 * MCJtyLib (3.5.3)
-* Mekanism (9.7.7.378)
+* Mekanism (9.7.9.380)
 * MicDoodleCore (4.0.2.211)
 * ModTweaker (4.0.17)
 * MTLib (3.0.6)

@@ -73,6 +73,7 @@ Enhancements:
 * Added a new machine to Modular Machinery "Scamulator". This machine's purpose is to allow the crafting of all Galacticraft and Extra Planet schematics by using resources found on planets. This should alleviate the headache of randomly searching for dungeons and hoping the loot you needed dropped. Every schematic requires Liquid Cheese, (because science)!
 * Antique Atlas Markers can now be copied to JourneyMap waypoints. This is done automatically when the JMapStages Waypoint stage is reached. This can also be triggered manually using "/waypoints"
 * Added a final quest to the modpack to summon Sevadus. You will need to use AbyssalCraft to summon him
+* Huge number of mobs added to RFTools Spawner (#3825)
 
 Mods Added:
 * ArcFurnacePatch (1.0.0.3)

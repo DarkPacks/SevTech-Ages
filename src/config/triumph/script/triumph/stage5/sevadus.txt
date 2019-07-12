@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage5.sevadus.title")
 
-setIcon(<minecraft:skull:3>)
+setIcon(<contenttweaker:the_oj:0>)
 
 setTranslatedDescription("advancements.stage5.sevadus.description")
 

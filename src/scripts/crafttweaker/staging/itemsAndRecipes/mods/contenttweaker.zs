@@ -31,6 +31,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFive.stage: [
 		<contenttweaker:sub_block_holder_0:6>, // Osmium Ore Sample // TODO: materialpart:osmium:ore_sample (?)
+		<contenttweaker:the_oj>,
 		<materialpart:gold:ore_galacticraftplanets_bottom>,
 		<materialpart:inferium:ore_extraplanets_kepler22b_stone>,
 		<materialpart:iron:ore_galacticraftcore_bottom>,

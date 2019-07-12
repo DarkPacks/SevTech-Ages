@@ -12,3 +12,6 @@ import mods.contenttweaker.Item;
 
 var creeperTear as Item = VanillaFactory.createItem("creeper_tear");
 creeperTear.register();
+
+var theOj as Item = VanillaFactory.createItem("the_oj");
+theOj.register();

@@ -89,6 +89,7 @@ static stagedItems as IIngredient[][string] = {
 		<bloodmagic:base_item_filter:0>,
 		<bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:archmage"}),
 		<bloodmagic:blood_orb:0>.withTag({orb: "bloodmagic:master"}),
+		<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}),
 		<bloodmagic:blood_rune:7>,
 		<bloodmagic:blood_rune:8>,
 		<bloodmagic:blood_rune:9>,

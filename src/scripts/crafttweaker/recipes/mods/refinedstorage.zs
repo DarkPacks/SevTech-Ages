@@ -258,6 +258,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<refinedstorage:quartz_enriched_iron:0>, <ore:processorLogic>, <refinedstorage:quartz_enriched_iron:0>],
 			[<refinedstorage:quartz_enriched_iron:0>, <ore:blockGlass>, <refinedstorage:quartz_enriched_iron:0>]
 		]
+	],
+	<refinedstorage:wrench>: [
+		[
+			[<refinedstorage:quartz_enriched_iron:0>, <appliedenergistics2:material:22>, <refinedstorage:quartz_enriched_iron:0>],
+			[<refinedstorage:quartz_enriched_iron:0>, <refinedstorage:quartz_enriched_iron:0>, <refinedstorage:quartz_enriched_iron:0>],
+			[null, <refinedstorage:quartz_enriched_iron:0>, null]
+		]
 	]
 };
 
@@ -293,9 +300,12 @@ static removeRecipes as IItemStack[] = [
 	<refinedstorage:disk_manipulator:0>,
 	<refinedstorage:exporter:0>,
 	<refinedstorage:external_storage:0>,
+	<refinedstorage:fluid_interface>,
 	<refinedstorage:fluid_storage_part:1>,
 	<refinedstorage:fluid_storage_part:2>,
 	<refinedstorage:fluid_storage_part:3>,
+	<refinedstorage:grid:2>,
+	<refinedstorage:grid:3>,
 	<refinedstorage:grid:1>,
 	<refinedstorage:grid:0>,
 	<refinedstorage:importer:0>,
@@ -315,6 +325,7 @@ static removeRecipes as IItemStack[] = [
 	<refinedstorage:wireless_fluid_grid:0>,
 	<refinedstorage:wireless_grid:0>,
 	<refinedstorage:wireless_transmitter:0>,
+	<refinedstorage:wrench>,
 	<refinedstorage:writer:0>
 ];
 

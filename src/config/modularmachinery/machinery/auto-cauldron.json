@@ -8,7 +8,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:fire@0"
+                "minecraft:fire"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus@2"
+                "modularmachinery:blockoutputbus@0"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -128,7 +128,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "minecraft:cauldron@0"
+                "minecraft:cauldron"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -144,7 +144,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -152,8 +152,8 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -161,8 +161,8 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -178,7 +178,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -194,8 +194,8 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -203,8 +203,8 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -220,7 +220,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -228,8 +228,8 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -245,8 +245,8 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -254,7 +254,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -414,7 +414,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -446,7 +446,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -486,8 +486,8 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -495,7 +495,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {
@@ -503,8 +503,8 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -520,8 +520,8 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "minecraft:netherrack@0",
-                "primal_tech:charcoal_block@0"
+                "minecraft:netherrack",
+                "primal_tech:charcoal_block"
             ]
         },
         {
@@ -537,7 +537,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {

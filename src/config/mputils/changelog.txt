@@ -17,6 +17,7 @@ Bug Fixes:
 * Black Quartz and Silicon can now be crafted using their respective essences (#3833, #3913)
 * Scamulator blueprint now has a recipe (#3870)
 * Painted wood crafting recipe readded (#3685)
+* The colour of quantum storage bags can now be changed (#3743)
 
 ---------------------------------------------------------------------
 

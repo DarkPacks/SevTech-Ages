@@ -42,7 +42,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 /*
 	Recipes which need to be generated and added to the Map to be ran via our recipeUtil.
 */
-static recipesToGenerate as IItemStack[IIngredient] = {
+static squareRecipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:aluminum_brass_essence:0>: metals.aluminumBrass.ingot.firstItem * 6,
 	<mysticalagriculture:aluminum_essence:0>: metals.aluminum.ingot.firstItem * 8,
 	<mysticalagriculture:ardite_essence:0>: metals.ardite.ingot.firstItem * 3,
@@ -74,6 +74,11 @@ static recipesToGenerate as IItemStack[IIngredient] = {
 	<mysticalagriculture:uranium_essence:0>: metals.uranium.ingot.firstItem * 2
 };
 
+static lineRecipesToGenerate as IItemStack[IIngredient] = {
+	<mysticalagriculture:silicon_essence:0>: <galacticraftcore:basic_item:2> * 8,
+	<mysticalagriculture:black_quartz_essence:0>: <actuallyadditions:item_misc:5> * 2
+};
+
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
 /*
@@ -103,13 +108,28 @@ function init() {
 	// Build the recipes to be generated from the Generated Map.
 	var generatedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
 
-	for essence, output in recipesToGenerate {
+	for essence, output in squareRecipesToGenerate {
 		var recipeName = Utils.genRecipeName(stageFive, output);
 
 		var essenceRecipe as IIngredient[][] = [
 			[essence, essence, essence],
 			[essence, null, essence],
 			[essence, essence, essence]
+		];
+
+		if (!(generatedShapedRecipes has output)) {
+			generatedShapedRecipes[output] = {};
+		}
+		generatedShapedRecipes[output][recipeName] = [essenceRecipe];
+	}
+
+	for essence, output in lineRecipesToGenerate {
+		var recipeName = Utils.genRecipeName(stageFive, output);
+
+		var essenceRecipe as IIngredient[][] = [
+			[essence],
+			[essence],
+			[essence]
 		];
 
 		if (!(generatedShapedRecipes has output)) {

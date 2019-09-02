@@ -14,6 +14,7 @@ Bug Fixes:
 * Remove/alter additional recipes using Refined Storage Processors
 * Use a staged output bus in the auto-cauldron structure (#3851)
 * Dying eight slime blocks will now produce eight slime blocks rather than just one (#3899)
+* Black Quartz and Silicon can now be crafted using their respective essences (#3833, #3913)
 
 ---------------------------------------------------------------------
 

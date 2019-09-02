@@ -93,7 +93,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:repeater:0>, metals.enhancedGalgadorian.gear, <minecraft:repeater:0>]
 		]
 	],
-	<industrialforegoing:black_hole_controller:0>: [
+	<industrialforegoing:black_hole_controller_reworked:0>: [
 		[
 			[<industrialforegoing:plastic:0>, metals.enhancedGalgadorian.block, <industrialforegoing:plastic:0>],
 			[<minecraft:ender_eye:0>, <minecraft:ender_chest:0>, <minecraft:ender_eye:0>],
@@ -149,7 +149,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 */
 static removeRecipes as IItemStack[] = [
 	<industrialforegoing:animal_independence_selector:0>,
-	<industrialforegoing:black_hole_controller:0>,
+	<industrialforegoing:black_hole_controller_reworked:0>,
 	<industrialforegoing:conveyor:3>,
 	<industrialforegoing:conveyor:8>,
 	<industrialforegoing:enchantment_extractor:0>,

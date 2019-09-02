@@ -9,6 +9,7 @@
 */
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.betterwithmods.MiniBlocks;
 import mods.zenstages.Utils;
@@ -20,6 +21,7 @@ import scripts.crafttweaker.stages.stageTwo;
 import scripts.crafttweaker.stages.stageThree;
 import scripts.crafttweaker.stages.stageFour;
 import scripts.crafttweaker.stages.stageFive;
+import scripts.crafttweaker.utils;
 
 /*
     Shaped Recipes
@@ -80,6 +82,18 @@ static removeRegex as string[] = [
 	"rustic:bottle_emptying"
 ];
 
+function initPaintedWoodRecipes() {
+	for i in 0 to 16 {
+		var pWoodBlock as IItemStack = itemUtils.getItem("rustic:painted_wood_" + utils.convertCamelToSnake(minecraftDyeIdTableAlternate[i]));
+		var dyeOredict as IOreDictEntry = oreDict.get("dye" ~ utils.capitalize(minecraftDyeIdTable[i]));
+		recipes.addShaped(pWoodBlock * 8, [
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<ore:plankWood>, dyeOredict, <ore:plankWood>],
+			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+		]);
+	}
+}
+
 function init() {
 	// Un-named recipes
 	recipeUtil.process(shapedRecipes, false);
@@ -107,5 +121,7 @@ function init() {
 		},
 		null
 	);
+
+	initPaintedWoodRecipes();
 }
 

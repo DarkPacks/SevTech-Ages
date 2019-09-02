@@ -64,6 +64,25 @@ global minecraftDyeIdTable as string[int] = {
 	15: "white"
 };
 
+global minecraftDyeIdTableAlternate as string[int] = {
+	0: "black",
+	1: "red",
+	2: "green",
+	3: "brown",
+	4: "blue",
+	5: "purple",
+	6: "cyan",
+	7: "silver",
+	8: "gray",
+	9: "pink",
+	10: "lime",
+	11: "yellow",
+	12: "lightBlue",
+	13: "magenta",
+	14: "orange",
+	15: "white"
+};
+
 // Array listing containing all the Vanilla Dyes.
 global minecraftDyes as IItemStack[] = [
 	<minecraft:dye:1>,

@@ -16,6 +16,7 @@ Bug Fixes:
 * Dying eight slime blocks will now produce eight slime blocks rather than just one (#3899)
 * Black Quartz and Silicon can now be crafted using their respective essences (#3833, #3913)
 * Scamulator blueprint now has a recipe (#3870)
+* Painted wood crafting recipe readded (#3685)
 
 ---------------------------------------------------------------------
 

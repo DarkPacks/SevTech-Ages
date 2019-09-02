@@ -33,6 +33,10 @@ function capitalize(str as string) as string {
 	return str.substring(0, 1).toUpperCase() + str.substring(1);
 }
 
+function convertCamelToSnake(str as string) as string {
+	return str.replaceAll("(.)(\\p{Upper})", "$1_$2").toLowerCase();
+}
+
 function squareNum(number as int, timesToSquare as int) as int {
 	var returnNumber = number;
 

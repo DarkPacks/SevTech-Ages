@@ -176,6 +176,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<modularmachinery:itemblueprint:0>.withTag({dynamicmachine: "modularmachinery:hydraulic_press"}) : [
 		[<minecraft:paper:0>, <galacticraftcore:basic_item:6>, <galacticraftcore:basic_item:7>]
+	],
+	<modularmachinery:itemblueprint:0>.withTag({dynamicmachine: "modularmachinery:scamulator"}) : [
+		[<minecraft:paper:0>, <galacticraftcore:basic_item:14>, <ore:dyeBlue>]
 	]
 };
 

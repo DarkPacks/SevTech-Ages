@@ -13,6 +13,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Bug Fixes:
 * Remove/alter additional recipes using Refined Storage Processors
 * Use a staged output bus in the auto-cauldron structure (#3851)
+* Dying eight slime blocks will now produce eight slime blocks rather than just one (#3899)
 
 ---------------------------------------------------------------------
 

@@ -48,7 +48,7 @@ function initSlimeBlockRecipes() {
 		var slimeBlock as IItemStack = <darkutils:slime_dyed:0>.definition.makeStack(i);
 		var dye as IItemStack = <minecraft:dye:0>.definition.makeStack(15 - i);
 		var dyeOredict as IOreDictEntry = oreDict.get("dye" ~ utils.capitalize(minecraftDyeIdTable[15 - i]));
-		recipes.addShaped(slimeBlock, [
+		recipes.addShaped(slimeBlock * 8, [
 			[<ore:blockSlime>, <ore:blockSlime>, <ore:blockSlime>],
 			[<ore:blockSlime>, dyeOredict, <ore:blockSlime>],
 			[<ore:blockSlime>, <ore:blockSlime>, <ore:blockSlime>]

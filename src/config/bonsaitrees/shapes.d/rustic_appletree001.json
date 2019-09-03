@@ -1,0 +1,69 @@
+{
+  "type": "rustic:sapling_apple",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "minecraft:log",
+      "meta": 0
+    },
+    "b": {
+      "name": "rustic:leaves_apple",
+      "meta": 0
+    },
+    "c": {
+      "name": "rustic:leaves_apple",
+      "meta": 9
+    },
+    "d": {
+      "name": "rustic:leaves_apple",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " bbb ",
+      " bbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  d  ",
+      " db  ",
+      "bbbbb",
+      "bbbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " bbd ",
+      " bab ",
+      "bbabb",
+      "bdabb",
+      "  a  ",
+      "  a  ",
+      "  a  "
+    ],
+    [
+      "  d  ",
+      " bb  ",
+      "bbbbb",
+      "bcbbb",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " bbb ",
+      " bbbb",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

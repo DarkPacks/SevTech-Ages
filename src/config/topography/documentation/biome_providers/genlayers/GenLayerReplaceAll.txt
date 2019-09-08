@@ -1,0 +1,26 @@
+A layer for replacing all biomes with a single biome.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its base seed and parent layer.
+
+Constructor:
+    Arguments:
+        long, GenLayer, Non_Null_Biome_ID
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its base seed and parent layer and sets the replacement biome.
+
+setReplacement:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        Sets the biome this layer will replace all biomes with
+

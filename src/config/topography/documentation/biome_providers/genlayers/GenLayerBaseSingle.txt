@@ -1,0 +1,29 @@
+A layer to be used as a base to fill the world with a single biome. Good for when 
+you want a single base biome.
+
+
+
+Constructor:
+    Arguments:
+        long
+    Argument Usage:
+        layer base seed
+    Notes:
+        Constructs the layer with the single biome set to 0/"Ocean".
+
+Constructor:
+    Arguments:
+        long, Non_Null_Biome_ID
+    Argument Usage:
+        layer base seed, biome ID
+    Notes:
+        Constructs the layer and sets the biome it will fill the world with.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome ID
+    Notes:
+        Sets the biome this layer will fill the world with.
+

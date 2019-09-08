@@ -1,0 +1,63 @@
+
+//Sets up the biomes for the dimension
+addBiomes("minecraft:desert")
+addHills("minecraft:desert", "desert_hills")
+addBiomes("minecraft:mesa")
+addBiomes("minecraft:mutated_mesa")
+addHills("minecraft:mesa", "minecraft:mesa_clear_rock")
+setRiver("minecraft:mesa_clear_rock", "minecraft:mutated_mesa_clear_rock")
+
+
+//Adds a basic overworld terrain generator. Handles base block/fluid generator and biome block replacement. It uses multithreading for its noise generators, so it's slightly faster than vanilla.
+overworld = new OverworldGenerator()
+addGenerator(overworld)
+
+//Adds the vanilla caves.
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+//Adds the vanilla ravines.
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+//Adds the various structures of the overworld.
+generateMineshaft()
+generateVillage()
+generateStronghold()
+generateTemple()
+generateMonument()
+//The mansion takes a generator to find acceptable spawn positions. Our overworld generator is best for this.
+generateMansion(overworld)
+
+//Adds water lakes. Blacklisted in deserts and desert hills as per vanilla.
+waterLake = new VanillaLakeGenerator(<minecraft:water>)
+waterLake.blacklistBiome(["minecraft:desert", "minecraft:desert_hills"])
+addGenerator(waterLake)
+
+//Add lava lakes for above sea level. These are fairly rare.
+lavaLake = new VanillaLakeGenerator(<minecraft:lava>)
+lavaLake.setSpawnChance(100)
+lavaLake.setHeight(63, 247)
+addGenerator(lavaLake)
+
+//Add laval lakes for below sea level. This are fairly common.
+lavaLake = new VanillaLakeGenerator(<minecraft:lava>)
+lavaLake.setSpawnChance(32)
+lavaLake.setHeight(8, 62)
+addGenerator(lavaLake)
+
+//Adds vanilla dungeons.
+dungeon = new VanillaDungeonGenerator()
+addGenerator(dungeon)
+
+//Adds vanilla decorations. This includes trees, ores, etc.
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+//Generates animals.
+animals = new VanillaAnimalGenerator()
+addGenerator(animals)
+
+//Generates snow and freezes ice in cold areas.
+ice = new IceAndSnowGenerator()
+addGenerator(ice)

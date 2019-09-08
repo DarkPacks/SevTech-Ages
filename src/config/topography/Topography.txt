@@ -1,0 +1,39 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+overworld = registerPreset("SevTech v3", "", "Normal sevtech world, but with Topography generation. Will probably have less extreme elevations than before.", null, {"coordinateScale":175.0,"heightScale":75.0,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":165.0,"mainNoiseScaleY":106.61267,"mainNoiseScaleZ":165.0,"baseSize":8.267606,"stretchY":13.387607,"biomeDepthWeight":1.2,"biomeDepthOffset":0.2,"biomeScaleWeight":3.4084506,"biomeScaleOffset":0.0,"seaLevel":63,"useCaves":true,"useDungeons":true,"dungeonChance":7,"useStrongholds":true,"useVillages":true,"useMineShafts":true,"useTemples":true,"useMonuments":true,"useRavines":true,"useWaterLakes":true,"waterLakeChance":49,"useLavaLakes":true,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":-1,"biomeSize":4,"riverSize":5,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16})
+overworld.registerDimension(0, "overworld/SevTechV3")
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.", "default")
+basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
+
+overworld = registerPreset("Desert Overworld", "images/Desert_Overworld", "Overworld with only desert and mesa biomes.")
+overworld.registerDimension(0, "examples/Overworld_With_Only_Desert_Biomes")
+
+overworld = registerPreset("Thick Rivers", "images/River_Comparison", "Overworld with thicker rivers.")
+overworld.registerDimension(0, "examples/Overworld_With_Thick_Rivers")
+
+overworld = registerPreset("Repeating Heat Map", "images/Repeating_Heat_Map", "Overworld with a biome heat map made of repeating bands on the Z axis. Bands are heavily squished for image. Bands are approximately 2.5k blocks thick.")
+overworld.registerDimension(0, "examples/Overworld_With_Z_Axis_Repeating_Heat_Map")
+
+cellNether = registerPreset("Cell Nether", "images/Cell_Nether", "Replaces the nether with a nether made with cell noise tendrils.")
+cellNether.registerDimension(-1, "examples/Cell_Nether")
+
+structureExample = registerPreset("Spawn Structure Example", "images/Basic_Tree", "A basic tree spawn structure.")
+structureExample.registerDimension(0, "examples/Spawn_Structure")
+
+layerGeneratorExample = registerPreset("Layer Example", "images/Basic_Tree_With_Water", "A basic tree spawn structure over a layer of bedrock and 59 layers of water.")
+layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
+
+fogExample = registerPreset("Fog Transition Example", "", "Fog that transitions between blue in the day and purple at night.")
+fogExample.registerDimension(0, "examples/Transitioning_Fog")
+
+skyboxExample = registerPreset("Sky Box Transition Example", "", "A sky box that transitions between the light blue concrete texture in the day and the black concrete texture at night.")
+skyboxExample.registerDimension(0, "examples/Transitioning_Skybox")
+

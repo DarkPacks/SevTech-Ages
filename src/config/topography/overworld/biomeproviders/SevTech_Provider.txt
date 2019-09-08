@@ -1,0 +1,505 @@
+//This file is incredibly messy. Don't even try to understand it. I'm too lazy to document the changes right now.
+
+
+addSpawnBiome("minecraft:forest")
+addSpawnBiome("minecraft:birch_forest")
+addSpawnBiome("minecraft:mutated_forest")
+addSpawnBiome("minecraft:mutated_birch_forest")
+addSpawnBiome("traverse:autumnal_woods")
+addSpawnBiome("integrateddynamics:biome_meneglin")
+addSpawnBiome("traverse:meadow")
+addSpawnBiome("minecraft:forest_hills")
+addSpawnBiome("minecraft:birch_forest_hills")
+addSpawnBiome("minecraft:mutated_birch_forest_hills")
+addSpawnBiome("traverse:forested_hills")
+addSpawnBiome("traverse:birch_forested_hills")
+addSpawnBiome("traverse:autumnal_wooded_hills")
+
+#This is vanilla, except for certain parts. All changes from vanilla are within lines of # characters.
+
+genLayer = new GenLayerBaseSingle(1, "minecraft:plains")
+
+
+//genLayer = new GenLayerIsland(1)
+
+genLayer = new GenLayerFuzzyZoom(2000, genLayer)
+
+//genLayer = new GenLayerAddIsland(1, genLayer)
+
+genLayer = new GenLayerZoom(2001, genLayer)
+
+genLayer = new GenLayerTouching(1000, genLayer)
+genLayer.addData("minecraft:plains", "minecraft:plains", null, 8, "minecraft:ocean", 3)
+
+genLayer = new GenLayerTouching(1001, genLayer)
+genLayer.addData("ocean", "ocean", null, 3, "plains")
+
+genLayer = new GenLayerTouching(1002, genLayer)
+genLayer.addData("minecraft:plains", "minecraft:plains", null, 8, "minecraft:ocean", 3)
+
+genLayer = new GenLayerTouching(1003, genLayer)
+genLayer.addData("ocean", "ocean", null, 3, "plains")
+
+//genLayer = new GenLayerAddIsland(2, genLayer)
+
+//genLayer = new GenLayerAddIsland(50, genLayer)
+
+//genLayer = new GenLayerAddIsland(70, genLayer)
+
+//genLayer = new GenLayerRemoveTooMuchOcean(2, genLayer)
+
+
+##########################################################################
+#Remove this layer, as it is part of making the vanilla heat map
+
+#genLayer = new GenLayerAddSnow(2, genLayer)
+
+##########################################################################
+
+
+//genLayer = new GenLayerAddIsland(3, genLayer)
+
+
+##########################################################################
+//Replace oceans surrounded by at least 7 other oceans with plains.
+
+genLayer = new GenLayerTouching(1000, genLayer)
+genLayer.addData("plains", "ocean", null, 6, "ocean")
+
+//genLayer = new GenLayerTouching(1000, genLayer)
+//genLayer.addData("ocean", "plains", null, 4, "plains")
+
+##########################################################################
+
+
+##########################################################################
+#Remove these 3 layers, as they make the default vanilla heat map
+
+#genLayer = new GenLayerEdge(2, genLayer, Edge_Mode_Cool_Warm)
+#genLayer = new GenLayerEdge(2, genLayer, Edge_Mode_Heat_Ice)
+#genLayer = new GenLayerEdge(3, genLayer, Edge_Mode_Special)
+
+#Create Z repeating heat map. Vanilla uses 1, 2, 3 and 4 for heat levels. 1 is hot, 2 is warm, 3 is cool, 4 is icy
+tempGenLayer = new GenLayerHeatZ(1, [2, 1, 2, 3, 4, 3])
+
+#Create X repeating humidty map. 1 is dry, 2 is average, 3 is wet
+humidGenLayer = new GenLayerHeatX(1, [2, 3, 2, 1])
+
+#Combine the heat and humidity layers. 1 is dry hot, 2 is average hot, 3 is wet hot, 4 is dry warm, 5 is average warm, 6 is wet warm, 7 is dry cool, 8 is average cool, 9 is wet cool, 10 is dry icy, 11 is average icy, 12 is wet icy
+combineLayer = new GenLayerCombine(1, tempGenLayer, humidGenLayer)
+combineLayer.addCombination([ 1, 1, 301])
+combineLayer.addCombination([ 1, 2, 302])
+combineLayer.addCombination([ 1, 3, 303])
+combineLayer.addCombination([ 2, 1, 304])
+combineLayer.addCombination([ 2, 2, 305])
+combineLayer.addCombination([ 2, 3, 306])
+combineLayer.addCombination([ 3, 1, 307])
+combineLayer.addCombination([ 3, 2, 308])
+combineLayer.addCombination([ 3, 3, 309])
+combineLayer.addCombination([ 4, 1, 310])
+combineLayer.addCombination([ 4, 2, 311])
+combineLayer.addCombination([ 4, 3, 312])
+
+#Zoom heat map to the wanted level. Simple change the last variable to increase or decrease heat map size. 1 is around 10k for a loop, 2 is around 25k for a loop.
+combineLayer = magnify(1000, combineLayer, 1)
+
+#Combine the heat map layer chain with the main layer chain. We keep all ocean and override the rest with the heat map.
+genLayer = new GenLayerCombineWhitelist(1000, genLayer, combineLayer, ["minecraft:ocean"])
+
+genLayer = new GenLayerCombine(1, genLayer, combineLayer)
+genLayer.addCombination([0, 310, 315])
+genLayer.addCombination([0, 311, 315])
+genLayer.addCombination([0, 312, 315])
+
+##########################################################################
+
+
+genLayer = new GenLayerZoom(2002, genLayer)
+
+genLayer = new GenLayerZoom(2003, genLayer)
+
+//genLayer = new GenLayerAddIsland(4, genLayer)
+
+//genLayer = new GenLayerAddMushroomIsland(5, genLayer)
+
+//genLayer = new GenLayerDeepOcean(4, genLayer)
+
+genLayer2 = magnify(1000, genLayer, 0)
+
+genLayer3 = magnify(1000, genLayer2, 0)
+
+genLayer3 = new GenLayerRiverInit(100, genLayer3)
+
+genLayer4 = magnify(1000, genLayer3, 2)
+
+genLayer2 = new GenLayerHeatToBiomes(200, genLayer2)
+
+genLayer2.addBiome(301, "traverse:red_desert", 10)
+genLayer2.addBiome(301, "minecraft:desert", 10)
+genLayer2.addBiome(301, "minecraft:mesa", 10)
+
+genLayer2.addBiome(302, "minecraft:plains", 10)
+genLayer2.addBiome(302, "minecraft:mutated_plains", 10)
+genLayer2.addBiome(302, "traverse:woodlands", 10)
+
+genLayer2.addBiome(303, "minecraft:jungle", 10)
+genLayer2.addBiome(303, "minecraft:swampland", 10)
+genLayer2.addBiome(303, "traverse:mini_jungle", 10)
+
+
+genLayer2.addBiome(304, "traverse:badlands", 10)
+genLayer2.addBiome(304, "minecraft:savanna", 10)
+
+genLayer2.addBiome(305, "minecraft:forest", 5)
+genLayer2.addBiome(305, "minecraft:birch_forest", 5)
+genLayer2.addBiome(305, "minecraft:mutated_forest", 5)
+genLayer2.addBiome(305, "minecraft:mutated_birch_forest", 5)
+genLayer2.addBiome(305, "traverse:autumnal_woods", 5)
+genLayer2.addBiome(305, "integrateddynamics:biome_meneglin", 10)
+genLayer2.addBiome(305, "traverse:meadow", 25)
+
+genLayer2.addBiome(306, "minecraft:roofed_forest", 10)
+genLayer2.addBiome(306, "traverse:temperate_rainforest", 10)
+genLayer2.addBiome(306, "traverse:lush_hills", 10)
+genLayer2.addBiome(306, "traverse:green_swamp", 10)
+
+
+genLayer2.addBiome(307, "minecraft:extreme_hills", 10)
+genLayer2.addBiome(307, "abyssalcraft:darklands_plains", 10)
+
+genLayer2.addBiome(308, "abyssalcraft:darklands_forest", 10)
+genLayer2.addBiome(308, "abyssalcraft:darklands", 10)
+genLayer2.addBiome(308, "minecraft:taiga", 10)
+
+genLayer2.addBiome(309, "abyssalcraft:coralium_infested_swamp", 10)
+genLayer2.addBiome(309, "minecraft:mutated_redwood_taiga", 10)
+genLayer2.addBiome(309, "minecraft:redwood_taiga", 10)
+
+
+genLayer2.addBiome(310, "minecraft:ice_flats", 10)
+genLayer2.addBiome(310, "minecraft:mutated_ice_flats", 10)
+
+genLayer2.addBiome(311, "traverse:snowy_coniferous_forest", 10)
+genLayer2.addBiome(311, "minecraft:taiga_cold", 10)
+
+genLayer2.addBiome(312, "traverse:glacier_spikes", 10)
+genLayer2.addBiome(312, "traverse:glacier", 10)
+
+
+//Add frozen ocean
+genLayer2.addBiome(315, "minecraft:frozen_ocean", 10)
+
+
+
+
+//genLayer2 = new GenLayerBiome(200, genLayer2, worldType, null)
+
+
+genLayer2 = magnify(1000, genLayer2, 2)
+
+//genLayer2 = new GenLayerBiomeEdge(1000, genLayer2)
+
+
+genLayer2 = new GenLayerBiomeEdgeDC(1000, genLayer2)
+
+genLayer2.addBiomeEdge(["minecraft:extreme_hills"], null, ["minecraft:extreme_hills"], "minecraft:smaller_extreme_hills")
+genLayer2.addBiomeEdge(["minecraft:jungle"], null, ["minecraft:jungle"], "minecraft:jungle_edge")
+genLayer2.addBiomeEdge(["minecraft:mesa"], null, ["minecraft:mesa", "traverse:red_desert"], "traverse:red_desert")
+
+
+
+
+genLayer2 = new GenLayerTouching(1000, genLayer2)
+genLayer2.addData("minecraft:ocean", "minecraft:ocean", null, 8, "minecraft:deep_ocean")
+
+##########################################################################
+
+//Switch from vanilla hill layer to DC hill layer and remove the hill biomes from "deep_ocean" (This hill is what causes the tiny islands in the ocean)
+//genLayer2 = new GenLayerHills(1000, genLayer2, genLayer4)
+
+
+genLayer2 = new GenLayerHillsDC(1000, genLayer2, genLayer4)
+
+//genLayer2.setHill("ocean", "deep_ocean")
+
+
+genLayer2.setHill("minecraft:ice_flats", "minecraft:ice_mountains")
+genLayer2.setHill("minecraft:mutated_ice_flats", "minecraft:ice_mountains")
+
+genLayer2.setHill("minecraft:taiga_cold", ["minecraft:mutated_taiga_cold", "minecraft:taiga_cold_hills"])
+
+
+genLayer2.setHill("minecraft:extreme_hills", ["minecraft:mutated_extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:extreme_hills_with_trees"])
+
+genLayer2.setHill("minecraft:taiga", ["minecraft:mutated_taiga", "minecraft:taiga_hills"])
+genLayer2.setHill("abyssalcraft:darklands", "abyssalcraft:darklands_hills")
+genLayer2.setHill("abyssalcraft:darklands_forest", "abyssalcraft:darklands_hills")
+
+genLayer2.setHill("minecraft:redwood_taiga", "minecraft:redwood_taiga_hills")
+
+
+genLayer2.setHill("minecraft:savanna", "minecraft:savanna_rock")
+
+genLayer2.setHill("minecraft:forest", ["traverse:forested_hills", "minecraft:forest_hills"])
+genLayer2.setHill("minecraft:birch_forest", ["traverse:birch_forested_hills", "minecraft:birch_forest_hills"])
+genLayer2.setHill("minecraft:mutated_forest", "minecraft:forest_hills")
+genLayer2.setHill("minecraft:mutated_birch_forest", "minecraft:mutated_birch_forest_hills")
+genLayer2.setHill("traverse:autumnal_woods", "traverse:autumnal_wooded_hills")
+
+genLayer2.setHill("minecraft:roofed_forest", "minecraft:mutated_roofed_forest")
+
+
+genLayer2.setHill("minecraft:mesa", ["minecraft:mesa_rock", "minecraft:mesa_clear_rock"])
+genLayer2.setHill("traverse:red_desert", ["minecraft:mutated_mesa_clear_rock", "minecraft:mutated_mesa"])
+genLayer2.setHill("minecraft:desert", ["minecraft:mutated_desert", "minecraft:desert_hills"])
+
+genLayer2.setHill("minecraft:plains", "traverse:rocky_plateau")
+
+genLayer2.setHill("minecraft:jungle", ["minecraft:mutated_jungle", "minecraft:jungle_hills"])
+genLayer2.setHill("minecraft:swampland", "minecraft:mutated_swampland")
+
+
+genLayer2.setMutation("minecraft:jungle_edge", "minecraft:mutated_jungle_edge")
+
+
+
+
+//genLayer2.addDefaultHills()
+//genLayer2.addDefaultMutations()
+//genLayer2.removeHill("deep_ocean")
+
+##########################################################################
+
+genLayer3 = magnify(1000, genLayer3, 2)
+
+##########################################################################
+
+#If you want to keep the rivers in the same place, then for every level of magnify added later to increase river size, decrease the level of this magnify layer by 1. Currently this is reduced by 2 (to 2) to counteract the 2 levels of magnify already set.
+genLayer3 = magnify(1000, genLayer3, 2)
+
+##########################################################################
+
+genLayer3 = new GenLayerRiver(1, genLayer3)
+
+##########################################################################
+
+#Add magnify call to the river layer chain to increase size. Increase last variable of magnify call to increase size even more.
+genLayer3 = magnify(1000, genLayer3, 2)
+
+##########################################################################
+
+genLayer3 = new GenLayerSmooth(1000, genLayer3)
+
+//genLayer2 = new GenLayerRareBiome(1001, genLayer2)
+
+genLayer2 = new GenLayerZoom(1000, genLayer2)
+
+//genLayer2 = new GenLayerAddIsland(3, genLayer2)
+
+genLayer2 = new GenLayerZoom(1001, genLayer2)
+
+//genLayer2 = new GenLayerShore(1000, genLayer2)
+
+#Add custom edge layer for shores. 
+genLayer2 = new GenLayerBiomeEdgeDC(1000, genLayer2)
+
+
+//Ocean Shores
+genLayer2.addBiomeEdge("mushroom_island", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "mushroom_island_shore")
+
+
+//Hot Shores
+
+genLayer2.addBiomeEdge("minecraft:mutated_desert", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:desert")
+genLayer2.addBiomeEdge("minecraft:desert_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:desert")
+
+genLayer2.addBiomeEdge("traverse:woodlands", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:rocky_plateau", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:plains")
+
+genLayer2.addBiomeEdge("minecraft:jungle", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:jungle_edge", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:jungle_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_swampland", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:swampland")
+genLayer2.addBiomeEdge("minecraft:mutated_jungle", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_jungle_edge", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+
+
+//Warm Shores
+
+genLayer2.addBiomeEdge("traverse:badlands", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:savanna_rock", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:savanna")
+
+genLayer2.addBiomeEdge("minecraft:forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:birch_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_birch_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:autumnal_woods", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("integrateddynamics:biome_meneglin", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:forest_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:birch_forest_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_birch_forest_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:forested_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:birch_forested_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:autumnal_wooded_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+
+genLayer2.addBiomeEdge("minecraft:roofed_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:temperate_rainforest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("traverse:lush_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_roofed_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+
+
+//Cool Shores
+
+genLayer2.addBiomeEdge("minecraft:extreme_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:stone_beach")
+genLayer2.addBiomeEdge("minecraft:smaller_extreme_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:stone_beach")
+genLayer2.addBiomeEdge("abyssalcraft:darklands_plains", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_extreme_hills_with_trees", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:stone_beach")
+genLayer2.addBiomeEdge("minecraft:extreme_hills_with_trees", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:stone_beach")
+genLayer2.addBiomeEdge("minecraft:mutated_extreme_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:stone_beach")
+
+genLayer2.addBiomeEdge("abyssalcraft:darklands_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("abyssalcraft:darklands", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:taiga", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("abyssalcraft:darklands_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:taiga_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:mutated_taiga", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+
+genLayer2.addBiomeEdge("minecraft:mutated_redwood_taiga", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:redwood_taiga", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+genLayer2.addBiomeEdge("minecraft:redwood_taiga_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:beaches")
+
+
+//Freezing Shores
+
+genLayer2.addBiomeEdge("minecraft:mutated_ice_flats", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:ice_flats")
+genLayer2.addBiomeEdge("minecraft:ice_mountains", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:ice_flats")
+
+genLayer2.addBiomeEdge("minecraft:taiga_cold", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:cold_beach")
+genLayer2.addBiomeEdge("traverse:snowy_coniferous_forest", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:cold_beach")
+genLayer2.addBiomeEdge("minecraft:taiga_cold_hills", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:cold_beach")
+genLayer2.addBiomeEdge("minecraft:mutated_taiga_cold", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:cold_beach")
+
+genLayer2.addBiomeEdge("traverse:glacier_spikes", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean"], null, "minecraft:ice_flats")
+genLayer2.addBiomeEdge("traverse:glacier", ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:frozen_ocean"], null, "minecraft:ice_flats")
+
+
+
+genLayer2 = magnify(1002, genLayer2, 2)
+
+genLayer2 = new GenLayerSmooth(1000, genLayer2)
+
+//finalGenLayer1 = new GenLayerRiverMix(100, genLayer2, genLayer3)
+
+#Add custom river mix layer
+finalGenLayer1 = new GenLayerRiverMixDC(100, genLayer2, genLayer3)
+
+//Ocean rivers
+
+finalGenLayer1.setRiverBiome("minecraft:ocean", "minecraft:ocean")
+finalGenLayer1.setRiverBiome("minecraft:deep_ocean", "minecraft:deep_ocean")
+finalGenLayer1.setRiverBiome("minecraft:frozen_ocean", "minecraft:frozen_ocean")
+finalGenLayer1.setRiverBiome("minecraft:mushroom_island", "minecraft:mushroom_island_shore")
+finalGenLayer1.setRiverBiome("minecraft:mushroom_island_shore", "minecraft:mushroom_island_shore")
+
+
+//Hot Rivers
+
+finalGenLayer1.setRiverBiome("minecraft:desert", "minecraft:desert")
+finalGenLayer1.setRiverBiome("minecraft:mesa", "minecraft:mesa")
+finalGenLayer1.setRiverBiome("minecraft:mutated_mesa", "minecraft:mutated_mesa")
+finalGenLayer1.setRiverBiome("traverse:red_desert", "traverse:red_desert")
+finalGenLayer1.setRiverBiome("minecraft:mutated_desert", "minecraft:mutated_desert")
+finalGenLayer1.setRiverBiome("minecraft:desert_hills", "minecraft:desert_hills")
+finalGenLayer1.setRiverBiome("minecraft:mesa_rock", "minecraft:mesa_rock")
+finalGenLayer1.setRiverBiome("minecraft:mesa_clear_rock", "minecraft:mesa_clear_rock")
+finalGenLayer1.setRiverBiome("minecraft:mutated_mesa_clear_rock", "minecraft:mutated_mesa_clear_rock")
+
+finalGenLayer1.setRiverBiome("minecraft:plains", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_plains", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:woodlands", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:rocky_plateau", "minecraft:river")
+
+finalGenLayer1.setRiverBiome("minecraft:jungle", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:swampland", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:jungle_edge", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:mini_jungle", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:jungle_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_swampland", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_jungle", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_jungle_edge", "minecraft:river")
+
+
+//Warm Rivers
+
+finalGenLayer1.setRiverBiome("traverse:badlands", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:savanna", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:savanna_rock", "minecraft:river")
+
+finalGenLayer1.setRiverBiome("minecraft:forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:birch_forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_birch_forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:autumnal_woods", "minecraft:river")
+finalGenLayer1.setRiverBiome("integrateddynamics:biome_meneglin", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:meadow", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:forest_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:birch_forest_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_birch_forest_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:forested_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:birch_forested_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:autumnal_wooded_hills", "minecraft:river")
+
+finalGenLayer1.setRiverBiome("minecraft:roofed_forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:temperate_rainforest", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:lush_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("traverse:green_swamp", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_roofed_forest", "minecraft:river")
+
+
+//Cool Rivers
+
+finalGenLayer1.setRiverBiome("minecraft:extreme_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:smaller_extreme_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("abyssalcraft:darklands_plains", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_extreme_hills_with_trees", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:extreme_hills_with_trees", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_extreme_hills", "minecraft:river")
+
+finalGenLayer1.setRiverBiome("abyssalcraft:darklands_forest", "minecraft:river")
+finalGenLayer1.setRiverBiome("abyssalcraft:darklands", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:taiga", "minecraft:river")
+finalGenLayer1.setRiverBiome("abyssalcraft:darklands_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:taiga_hills", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_taiga", "minecraft:river")
+
+finalGenLayer1.setRiverBiome("abyssalcraft:coralium_infested_swamp", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_redwood_taiga", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:redwood_taiga", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:redwood_taiga_hills", "minecraft:river")
+
+
+//Freezing Rivers
+
+finalGenLayer1.setRiverBiome("minecraft:ice_flats", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_ice_flats", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("minecraft:ice_mountains", "minecraft:frozen_river")
+
+finalGenLayer1.setRiverBiome("minecraft:taiga_cold", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("traverse:snowy_coniferous_forest", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("minecraft:taiga_cold_hills", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("minecraft:mutated_taiga_cold", "minecraft:frozen_river")
+
+finalGenLayer1.setRiverBiome("traverse:glacier_spikes", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("traverse:glacier", "minecraft:frozen_river")
+
+
+//Beaches
+finalGenLayer1.setRiverBiome("minecraft:cold_beach", "minecraft:frozen_river")
+finalGenLayer1.setRiverBiome("minecraft:stone_beach", "minecraft:river")
+finalGenLayer1.setRiverBiome("minecraft:beaches", "minecraft:river")
+
+
+
+finalGenLayer2 = new GenLayerVoronoiZoom(10, finalGenLayer1)
+
+setGenLayers(finalGenLayer1, finalGenLayer2)

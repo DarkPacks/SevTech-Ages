@@ -1,0 +1,104 @@
+
+compatSurface()
+
+//Sets the dimension to generate as the void biome. The sky islands will override this where they generate, so this will only be the biome between the islands.
+setSingleBiome("minecraft:void")
+
+
+
+//Creates a new SkyIslandType. The argument is a biome id.
+forest = new SkyIslandType("minecraft:forest")
+
+cold_taiga = new SkyIslandType("minecraft:taiga_cold")
+
+desert = new SkyIslandType("minecraft:desert")
+
+mesa = new SkyIslandType("minecraft:mesa")
+
+jungle = new SkyIslandType("minecraft:jungle")
+
+plains = new SkyIslandType("minecraft:plains")
+
+taiga = new SkyIslandType("minecraft:taiga")
+
+swamp = new SkyIslandType("minecraft:swampland")
+
+mushroom = new SkyIslandType("minecraft:mushroom_island")
+
+ice_plains = new SkyIslandType("minecraft:ice_flats")
+
+savanna = new SkyIslandType("minecraft:savanna")
+
+roofed_forest = new SkyIslandType("minecraft:roofed_forest")
+
+redwood_taiga = new SkyIslandType("minecraft:redwood_taiga")
+
+
+//Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(50)
+addGenerator(skyIslands)
+
+
+//Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+large = skyIslands.addSkyIslands(100, 4, true)
+
+//Adds a SkyIslandType we created above to the island generator.
+//large.addType(forest)
+//large.addType(cold_taiga)
+//large.addType(desert)
+//large.addType(mesa)
+//large.addType(jungle)
+//large.addType(plains)
+//large.addType(taiga)
+large.addType(swamp)
+//large.addType(mushroom)
+//large.addType(ice_plains)
+//large.addType(savanna)
+//large.addType(roofed_forest)
+//large.addType(redwood_taiga)
+
+medium = skyIslands.addSkyIslands(50, 64, true)
+//medium.addType(forest)
+//medium.addType(cold_taiga)
+//medium.addType(desert)
+//medium.addType(mesa)
+//medium.addType(jungle)
+//medium.addType(plains)
+//medium.addType(taiga)
+medium.addType(swamp)
+//medium.addType(mushroom)
+//medium.addType(ice_plains)
+//medium.addType(savanna)
+//medium.addType(roofed_forest)
+//medium.addType(redwood_taiga)
+
+//small = skyIslands.addSkyIslands(25, 64, true)
+//small.addType(forest)
+//small.addType(cold_taiga)
+//small.addType(desert)
+//small.addType(mesa)
+//small.addType(jungle)
+//small.addType(plains)
+//small.addType(taiga)
+//small.addType(swamp)
+//small.addType(mushroom)
+//small.addType(ice_plains)
+//small.addType(savanna)
+//small.addType(roofed_forest)
+//small.addType(redwood_taiga)
+//
+//tiny = skyIslands.addSkyIslands(10, 128, true)
+//tiny.addType(forest)
+//tiny.addType(cold_taiga)
+//tiny.addType(desert)
+//tiny.addType(mesa)
+//tiny.addType(jungle)
+//tiny.addType(plains)
+//tiny.addType(taiga)
+//tiny.addType(swamp)
+//tiny.addType(mushroom)
+//tiny.addType(ice_plains)
+//tiny.addType(savanna)
+//tiny.addType(roofed_forest)
+//tiny.addType(redwood_taiga)

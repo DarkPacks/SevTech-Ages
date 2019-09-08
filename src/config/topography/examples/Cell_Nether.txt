@@ -1,0 +1,81 @@
+
+//Sets the fog color to the same as the vanilla nether
+setFogColor(#330707)
+
+//Sets a static celestial angle so it's always night
+setCelestialAngle(0.5)
+
+//Disables sky rendering.
+disableSky()
+
+//Disables clouds.
+disableClouds()
+
+//Enables nether fortress spawning with somewhat increased rates.
+generateNetherFortress(2, 16, 4)
+
+//Disables skylight.
+disableSkylight()
+
+//Sets a custom light brightness table. This is the same as is used in the vanilla nether. Makes it a bit brighter, especially at low light levels.
+setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
+
+//Enables relight checks post-generation. Causes lag, but it's required to fix all the lighting issues.
+enableRelightChecks()
+
+//Sets the entire dimension to be the hell biome.
+setSingleBiome("minecraft:hell")
+
+//Disables respawning in the dimension.
+disableRespawning()
+
+//Vaporizes all water/ice placed in the dimension.
+vaporizeWater()
+
+//Adds a layer generator to create the lava at the bottom of the dimension.
+layers = new LayerGenerator()
+layers.addLayer(1~20, <minecraft:lava>)
+addGenerator(layers)
+
+//Adds a cell noise generator to generate tendrils of netherrack, set to form a roof at the top of the dimension.
+tendrils = new CellNoiseGenerator(<minecraft:netherrack>)
+tendrils.closeTop()
+addGenerator(tendrils)
+
+//Adds a layer generator to create a layer of bedrock at the bottom of the dimension.
+layers = new LayerGenerator()
+layers.addLayer(0~0, <minecraft:bedrock>)
+addGenerator(layers)
+
+//Adds a layer generator to create a layer of bedrock at the top of the dimension.
+layers = new LayerGenerator()
+layers.addLayer(255~255, <minecraft:bedrock>)
+addGenerator(layers)
+
+//Adds a deformed sphere generator to generate large areas of soulsand in the netherrack tendrils.
+spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(spheres)
+
+//Adds a scattered block generator to generate fire on the tendrils.
+fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
+fire.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(fire)
+
+//Adds a fluid pocket generator to generate lava pockets in the tendrils.
+lava = new FluidPocketGenerator(<minecraft:flowing_lava>, 16, false)
+lava.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(lava)
+
+//Adds a hanging crystal generator to generate hanging glowstone clusters on the tendrils.
+glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
+glowstone.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(glowstone)
+
+//Adds a deformed sphere generator to generate small areas of nether quartz in the tendrils.
+quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(quartz)
+
+

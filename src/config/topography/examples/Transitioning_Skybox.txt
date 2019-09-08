@@ -1,0 +1,31 @@
+setSpawnStructure("basic tree")
+
+//Skybox transition is created using layers. Each skybox is rendered in order, applying its texture over top of the last.
+//The celestial angle bounds are the lower and upper limits that the particular skybox should be used at all.
+//The alpha bounds are used for the alpha that should be used for the skybox texture at the relative limits in the celestial angle bounds.
+//The % through the celestial angle bounds is used to get a % alpha value from the alpha bounds.
+//This way multiple skyboxes can be set and only the ones you want for certain times of day will be visible, with the textures being blended together during transitions.
+
+
+//We start by setting a custom sky renderer for the dimension.
+sky = setSkyRenderer()
+
+//Next we add a skybox for the night. I'm just using a normal texture as an example, but for proper skyboxes you should use ResourceLoader to load in a proper skybox texture.
+night = sky.addSkybox("minecraft:textures/blocks/concrete_black.png")
+
+//And one for the day. Since it's added second, it will completely cover the night skybox if its alpha isn't set lower than 1.
+day = sky.addSkybox("minecraft:textures/blocks/concrete_light_blue.png")
+
+//Next we add a transition period during sunset to the day skybox.
+//Since we set two different values in the alpha bounds, it will slowly transition through them as we go through the period in the celestial angle bounds,
+//allowing the night skybox to be visible through it.
+day.addAlpha(0.19904304~0.29625022, 1~0)
+
+//Next we set the alpha on the daytime skybox to 0 during the night. This way only the night skybox is visible.
+day.addAlpha(0.29625022~0.719889, 0~0)
+
+//Then we add a transition period during sunrise, with alpha bounds opposite to the sunset one. This will transition back to the daytime skybox as sunrise progresses.
+day.addAlpha(0.719889~0.8037514, 0~1)
+
+//Lastly we add the vanilla sun and moon to the sky renderer. Custom suns and moons cannot currently be added except by making them part of the skybox texture.
+sky.addSunMoon()

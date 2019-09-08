@@ -1,0 +1,29 @@
+A configurable version of the vanilla GenLayerBiomeEdge. Replaces biomes with objectionable 
+neighbors with biomes that make more sense.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its seed and parent layer.
+
+addBiomeEdge:
+    Arguments:
+        Non_Null_Biome_ID_Array, Non_Null_Biome_ID
+    Usage:
+        biome IDs, edge biome ID
+    Notes:
+        Adds a biome edge for the provided biomes with no whitelist or blacklist.
+
+addBiomeEdge:
+    Arguments:
+        Non_Null_Biome_ID_Array, Biome_ID_Array, Biome_ID_Array, Non_Null_Biome_ID
+    Usage:
+        biome IDs, whitelist, blacklist, edge biome ID
+    Notes:
+        Adds a biome edge for the provided biomes with a whitelist/blacklist.
+

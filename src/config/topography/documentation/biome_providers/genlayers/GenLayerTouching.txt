@@ -1,0 +1,49 @@
+This layer is meant to be a combined/improved version of the edge and mushroom island 
+layers. The idea is you set a biome or list of biomes, a list of biomes to look for 
+around it, a required count of those biomes, a replacement biome and optionally a 
+random chance. If the biome is found, touching >= count biomes from the list to look 
+for, then it is replaced with the replacement biome. If using a chance, this has 
+a 1/chance chance of happening.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with its base seed and parent layer.
+
+addData:
+    Arguments:
+        Non_Null_Biome_ID_Array, int, Non_Null_Biome_ID, int
+    Usage:
+        biome IDs, required count, replacement biome ID, chance
+    Notes:
+        Sets the biomes to check neighbors for, the required count of acceptable neighbors, the replacement biome ID and a random chance. Chance for it to happen is 1/chance.
+
+addData:
+    Arguments:
+        Non_Null_Biome_ID_Array, Biome_ID_Array, Biome_ID_Array, int, Non_Null_Biome_ID
+    Usage:
+        biome IDs, whitelist, blacklist, required count, replacement biome ID
+    Notes:
+        Sets the biomes to check neighbors for, the whitelist/blacklist, the required count of acceptable neighbors and the replacement biome. If there are at least requiredCount number of neighbors nearby that are in the whitelist/not in the blacklist, the biome is replaced with the replacement biome.
+
+addData:
+    Arguments:
+        Non_Null_Biome_ID_Array, Biome_ID_Array, Biome_ID_Array, int, Non_Null_Biome_ID, int
+    Usage:
+        biome IDs, whitelist, blacklist, required count, replacement biome ID, chance
+    Notes:
+        Sets the biomes to check neighbors for, the whitelist/blacklist, the required count of acceptable neighbors, the replacement biome and a random chance. If there are at least requiredCount number of neighbors nearby that are in the whitelist/not in the blacklist, there is a 1/chance chance for the biome to be replaced with the replacement biome.
+
+addData:
+    Arguments:
+        Non_Null_Biome_ID_Array, int, Non_Null_Biome_ID
+    Usage:
+        biome IDs, required count, replacement biome ID
+    Notes:
+        Sets biomes to check neighbors for, the required count of acceptable neighbors and the replacement biome ID.
+

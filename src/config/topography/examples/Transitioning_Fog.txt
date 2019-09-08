@@ -1,0 +1,23 @@
+setSpawnStructure("basic tree")
+
+//Fog transition is created using layers. Each fog color is used in order, applying its color over top of the last.
+//The celestial angle bounds are the lower and upper limits that the particular fog color should be used at all.
+//The alpha bounds are used for the alpha that should be used for the fog color at the relative limits in the celestial angle bounds.
+//The % through the celestial angle bounds is used to get a % alpha value from the alpha bounds.
+//This way multiple fog colors can be set and only the ones you want for certain times of day will be visible, with the colors being blended together during transitions.
+
+
+//We start here by setting a base color. This is what will appear during the day, since we will only be setting fog colors for other times of day.
+addFogColor(#2F80C1)
+
+//Next we add a transition period during sunset, with the color we want during night time.
+//Since we set two different values in the alpha bounds, it will slowly transition through them as we go through the period in the celestial angle bounds,
+//applying it on top of the base color, creating a blend.
+addFogColor(#22053c, 0.19904304~0.29625022, 0~1)
+
+//Next we add the color we want to appear during the night. Since we set it with an alpha of 1, it will completely cover the base color.
+addFogColor(#22053c, 0.29625022~0.719889, 1~1)
+
+//Lastly we add the transition period during sunrise, with the color we used during night time.
+//Since the alpha values we set as opposite that of the ones we used for the sunrise transition, the transition will happen in the opposite direction.
+addFogColor(#22053c, 0.719889~0.8037514, 1~0)

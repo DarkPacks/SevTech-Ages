@@ -1,0 +1,37 @@
+This file is for the VineGenerator. This generator generates vines. Made of vines. 
+Incredible, isn't it?
+
+
+
+setLength:
+    Arguments:
+        int, int
+    Usage:
+        min length, max length
+    Notes:
+        Sets the minimum and maximum length of the vines. Vines will not generate if there is insufficient space for minimum length. Default is 3 and 20.
+
+setBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block to generate
+    Notes:
+        Sets the block to generate vines out of. Must extend vanilla vines.
+
+setAttemptsPerChunk:
+    Arguments:
+        int
+    Usage:
+        attempt count
+    Notes:
+        Sets the number of positions on the horizontal plane to attempt to generate vines per chunk. Default is 3 and 20.
+
+setHeightRange:
+    Arguments:
+        int, int
+    Usage:
+        min height(exclusive), max height(inclusive)
+    Notes:
+        Sets the min and max heights the top of vines will generate. Vines can hang below as long as their top is within the range. Default is 0 and 255.
+

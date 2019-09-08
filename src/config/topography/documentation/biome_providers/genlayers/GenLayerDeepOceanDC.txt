@@ -1,0 +1,21 @@
+A copy of the vanilla GenLayerDeepOcean with an optional disable. I can't think of 
+a single reason to use this rather than just not adding the layer.
+
+
+
+Constructor:
+    Arguments:
+        long, GenLayer
+    Argument Usage:
+        base layer seed, parent layer
+    Notes:
+        Constructs the layer with the seed and parent.
+
+disableDeepOceanLayer:
+    Arguments:
+        boolean
+    Default Values:
+        false
+    Notes:
+        Disables the layer
+

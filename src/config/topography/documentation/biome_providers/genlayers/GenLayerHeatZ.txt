@@ -1,0 +1,29 @@
+This GenLayer is used to create a repeating set of ids on the Z axis based upon an 
+array. This is mainly used to create a semi-realistic wrapping heat map.
+
+
+
+Constructor:
+    Arguments:
+        long
+    Argument Usage:
+        seed
+    Notes:
+        Constructors the layer, setting the seed to be used.
+
+Constructor:
+    Arguments:
+        long, Non_Null_Biome_ID_Array
+    Argument Usage:
+        seed, heat array
+    Notes:
+        Constructors the layer, setting the seed and heat array to be used.
+
+setHeatArray:
+    Arguments:
+        Non_Null_Biome_ID_Array
+    Usage:
+        heat array
+    Notes:
+        Sets the heat array the layer will use.
+

@@ -1,0 +1,41 @@
+This file is for the CellNoiseGenerator. This generator generates tendrils of blocks 
+using cell noise skewed with simplex noise. This generator is multithreaded.
+
+
+
+Constructor:
+    Notes:
+        This constructs a CellNoiseGenerator that generates air blocks.
+
+Constructor:
+    Arguments:
+        ItemBlockData
+    Argument Usage:
+        block to generate
+    Notes:
+        This constructs a CellNoiseGenerator.
+
+setCellFrequency:
+    Arguments:
+        float
+    Usage:
+        frequency
+    Notes:
+        Sets the frequency for the cell noise used for the generator. Higher values = more frequent changes. Default is 0.005.
+
+openTop:
+    Notes:
+        Sets the generator to scale noise in such a way that tendrils will taper off towards the top of the dimension. This is set by default.
+
+setCutoff:
+    Arguments:
+        double
+    Usage:
+        cutoff
+    Notes:
+        Sets the noise cutoff for blocks to be placed. Higher values = more blocks. Default is -0.15.
+
+closeTop:
+    Notes:
+        Sets the generator to scale noise in such a way that a roof will be generated at the top of the dimension.
+

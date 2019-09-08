@@ -1,0 +1,61 @@
+
+compatSurface()
+
+
+//Sets the BiomeProvider, lifted directly from the Dimensional Control configs.
+setBiomeProviderScript("overworld/biomeproviders/SevTech_Provider")
+
+//Adds a basic overworld terrain generator. Handles base block/fluid generator and biome block replacement. It uses multithreading for its noise generators, so it's slightly faster than vanilla.
+overworld = new OverworldGenerator()
+overworld.setGeneratorString({"coordinateScale":175.0,"heightScale":75.0,"lowerLimitScale":512.0,"upperLimitScale":512.0,"depthNoiseScaleX":200.0,"depthNoiseScaleZ":200.0,"depthNoiseScaleExponent":0.5,"mainNoiseScaleX":165.0,"mainNoiseScaleY":106.61267,"mainNoiseScaleZ":165.0,"baseSize":8.267606,"stretchY":13.387607,"biomeDepthWeight":1.2,"biomeDepthOffset":0.2,"biomeScaleWeight":3.4084506,"biomeScaleOffset":0.0,"seaLevel":63,"useCaves":true,"useDungeons":true,"dungeonChance":7,"useStrongholds":true,"useVillages":true,"useMineShafts":true,"useTemples":true,"useMonuments":true,"useRavines":true,"useWaterLakes":true,"waterLakeChance":49,"useLavaLakes":true,"lavaLakeChance":80,"useLavaOceans":false,"fixedBiome":-1,"biomeSize":4,"riverSize":5,"dirtSize":33,"dirtCount":10,"dirtMinHeight":0,"dirtMaxHeight":256,"gravelSize":33,"gravelCount":8,"gravelMinHeight":0,"gravelMaxHeight":256,"graniteSize":33,"graniteCount":10,"graniteMinHeight":0,"graniteMaxHeight":80,"dioriteSize":33,"dioriteCount":10,"dioriteMinHeight":0,"dioriteMaxHeight":80,"andesiteSize":33,"andesiteCount":10,"andesiteMinHeight":0,"andesiteMaxHeight":80,"coalSize":17,"coalCount":20,"coalMinHeight":0,"coalMaxHeight":128,"ironSize":9,"ironCount":20,"ironMinHeight":0,"ironMaxHeight":64,"goldSize":9,"goldCount":2,"goldMinHeight":0,"goldMaxHeight":32,"redstoneSize":8,"redstoneCount":8,"redstoneMinHeight":0,"redstoneMaxHeight":16,"diamondSize":8,"diamondCount":1,"diamondMinHeight":0,"diamondMaxHeight":16,"lapisSize":7,"lapisCount":1,"lapisCenterHeight":16,"lapisSpread":16})
+addGenerator(overworld)
+
+//Adds the vanilla caves.
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+//Adds the vanilla ravines.
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+//Adds the various structures of the overworld.
+generateMineshaft()
+generateVillage()
+generateStronghold()
+generateTemple()
+generateMonument()
+//The mansion takes a generator to find acceptable spawn positions. Our overworld generator is best for this.
+generateMansion(overworld)
+
+//Adds water lakes. Blacklisted in deserts and desert hills as per vanilla.
+waterLake = new VanillaLakeGenerator(<minecraft:water>)
+waterLake.blacklistBiome(["minecraft:desert", "minecraft:desert_hills"])
+addGenerator(waterLake)
+
+//Add lava lakes for above sea level. These are fairly rare.
+lavaLake = new VanillaLakeGenerator(<minecraft:lava>)
+lavaLake.setSpawnChance(100)
+lavaLake.setHeight(63, 247)
+addGenerator(lavaLake)
+
+//Add laval lakes for below sea level. This are fairly common.
+lavaLake = new VanillaLakeGenerator(<minecraft:lava>)
+lavaLake.setSpawnChance(32)
+lavaLake.setHeight(8, 62)
+addGenerator(lavaLake)
+
+//Adds vanilla dungeons.
+dungeon = new VanillaDungeonGenerator()
+addGenerator(dungeon)
+
+//Adds vanilla decorations. This includes trees, ores, etc.
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+//Generates animals.
+animals = new VanillaAnimalGenerator()
+addGenerator(animals)
+
+//Generates snow and freezes ice in cold areas.
+ice = new IceAndSnowGenerator()
+addGenerator(ice)

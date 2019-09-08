@@ -1,0 +1,102 @@
+#This is vanilla, except for certain parts. All changes from vanilla are within lines of # characters.
+
+
+genLayer = new GenLayerIsland(1)
+
+genLayer = new GenLayerFuzzyZoom(2000, genLayer)
+
+genLayer = new GenLayerAddIsland(1, genLayer)
+
+genLayer = new GenLayerZoom(2001, genLayer)
+
+genLayer = new GenLayerAddIsland(2, genLayer)
+
+genLayer = new GenLayerAddIsland(50, genLayer)
+
+genLayer = new GenLayerAddIsland(70, genLayer)
+
+genLayer = new GenLayerRemoveTooMuchOcean(2, genLayer)
+
+
+##########################################################################
+#Remove this layer, as it is part of making the vanilla heat map
+
+#genLayer = new GenLayerAddSnow(2, genLayer)
+
+##########################################################################
+
+
+genLayer = new GenLayerAddIsland(3, genLayer)
+
+
+##########################################################################
+#Remove these 3 layers, as they make the default vanilla heat map
+
+#genLayer = new GenLayerEdge(2, genLayer, Edge_Mode_Cool_Warm)
+#genLayer = new GenLayerEdge(2, genLayer, Edge_Mode_Heat_Ice)
+#genLayer = new GenLayerEdge(3, genLayer, Edge_Mode_Special)
+
+#Create Z repeating heat map. Vanilla uses 1, 2, 3 and 4 for heat levels. 1 is hot, 2 is warm, 3 is cool, 4 is icy
+tempGenLayer = new GenLayerHeatZ(1, [2, 3, 4, 3, 2, 1])
+
+#Zoom heat map to the wanted level. Simple change the last variable to increase or decrease heat map size. 1 is around 10k for a loop, 2 is around 25k for a loop.
+tempGenLayer = magnify(1000, tempGenLayer, 1)
+
+#Combine the heat map layer chain with the main layer chain. We keep all ocean and override the rest with the heat map.
+genLayer = new GenLayerCombineWhitelist(1000, genLayer, tempGenLayer, [0])
+
+##########################################################################
+
+
+genLayer = new GenLayerZoom(2002, genLayer)
+
+genLayer = new GenLayerZoom(2003, genLayer)
+
+genLayer = new GenLayerAddIsland(4, genLayer)
+
+genLayer = new GenLayerAddMushroomIsland(5, genLayer)
+
+genLayer = new GenLayerDeepOcean(4, genLayer)
+
+genLayer2 = magnify(1000, genLayer, 0)
+
+genLayer3 = magnify(1000, genLayer2, 0)
+
+genLayer3 = new GenLayerRiverInit(100, genLayer3)
+
+genLayer4 = magnify(1000, genLayer3, 2)
+
+genLayer2 = new GenLayerBiome(200, genLayer2, worldType, null)
+
+genLayer2 = magnify(1000, genLayer2, 2)
+
+genLayer2 = new GenLayerBiomeEdge(1000, genLayer2)
+
+genLayer2 = new GenLayerHills(1000, genLayer2, genLayer4)
+
+genLayer3 = magnify(1000, genLayer3, 2)
+
+genLayer3 = magnify(1000, genLayer3, 4)
+
+genLayer3 = new GenLayerRiver(1, genLayer3)
+
+genLayer3 = new GenLayerSmooth(1000, genLayer3)
+
+genLayer2 = new GenLayerRareBiome(1001, genLayer2)
+
+genLayer2 = new GenLayerZoom(1000, genLayer2)
+
+genLayer2 = new GenLayerAddIsland(3, genLayer2)
+
+genLayer2 = new GenLayerZoom(1001, genLayer2)
+
+genLayer2 = new GenLayerShore(1000, genLayer2)
+
+genLayer2 = magnify(1002, genLayer2, 2)
+
+genLayer2 = new GenLayerSmooth(1000, genLayer2)
+
+finalGenLayer1 = new GenLayerRiverMix(100, genLayer2, genLayer3)
+finalGenLayer2 = new GenLayerVoronoiZoom(10, finalGenLayer1)
+
+setGenLayers(finalGenLayer1, finalGenLayer2)

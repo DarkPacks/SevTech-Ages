@@ -1,0 +1,14 @@
+//Sets the spawn structure at y 60
+setSpawnStructure("basic tree", 60)
+
+//Creates a new LayerGenerator and saves it as a variable
+layers = new LayerGenerator()
+
+//Adds a layer of bedrock in y 0
+layers.addLayer(0~0, <minecraft:bedrock>)
+
+//Adds a layer of water from y 1 to y 60
+layers.addLayer(1~60, <minecraft:water>)
+
+//Adds the layer generator to the dimension
+addGenerator(layers)

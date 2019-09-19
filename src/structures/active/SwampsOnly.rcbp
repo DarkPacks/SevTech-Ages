@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "biomes": "$SWAMP"
+    }
+  ],
+  "metadata": {
+    "title": "Swamps Only",
+    "description": [
+      "This is swamps. Only."
+    ]
+  }
+}

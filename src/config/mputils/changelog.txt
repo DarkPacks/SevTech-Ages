@@ -18,6 +18,7 @@ Bug Fixes:
 * Scamulator blueprint now has a recipe (#3870)
 * Painted wood crafting recipe readded (#3685)
 * The colour of quantum storage bags can now be changed (#3743)
+* Fix Together Forever command in getting started text (#3943)
 
 Mod Updates:
 * Astral Sorcery (1.10.20)

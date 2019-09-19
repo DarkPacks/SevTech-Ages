@@ -1,26 +1,49 @@
 
 compatSurface()
+generateMineshaft()
+generateVillage()
+generateStronghold()
 
 //Sets the dimension to generate as the void biome. The sky islands will override this where they generate, so this will only be the biome between the islands.
 setSingleBiome("minecraft:void")
 
-//Creates a new SkyIslandType. The argument is a biome id.
-
-//Ocean biomes
+//Unused biomes
 ocean = new SkyIslandType("minecraft:ocean")
 deep_ocean = new SkyIslandType("minecraft:deep_ocean")
 frozen_ocean = new SkyIslandType("minecraft:frozen_ocean")
-mushroom_island = new SkyIslandType("minecraft:mushroom_island")
 mushroom_island_shore = new SkyIslandType("minecraft:mushroom_island_shore")
+cold_beach = new SkyIslandType("minecraft:cold_beach")
+stone_beach = new SkyIslandType("minecraft:stone_beach")
+beaches = new SkyIslandType("minecraft:beaches")
+mesa_clear_rock = new SkyIslandType("minecraft:mesa_clear_rock")
+forested_hills = new SkyIslandType("traverse:forested_hills")
+birch_forested_hills = new SkyIslandType("traverse:birch_forested_hills")
+autumnal_wooded_hills = new SkyIslandType("traverse:autumnal_wooded_hills")
+mutated_mesa = new SkyIslandType("minecraft:mutated_mesa")
+birch_forest_hills = new SkyIslandType("minecraft:birch_forest_hills")
+forest_hills = new SkyIslandType("minecraft:forest_hills")
+mutated_birch_forest_hills = new SkyIslandType("minecraft:mutated_birch_forest_hills")
+
+
+
+//Fancy special spawn island
+spawn = new SkyIslandType("minecraft:forest")
+//spawn.setMainBlock(<tconstruct:clear_glass>)
+spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
+spawn.setBlockInRange(<minecraft:gravel>, 0.15~0.16)
+
+
+
+
+//Ocean biomes
+mushroom_island = new SkyIslandType("minecraft:mushroom_island")
 //Hot biomes
 desert = new SkyIslandType("minecraft:desert")
 mesa = new SkyIslandType("minecraft:mesa")
-mutated_mesa = new SkyIslandType("minecraft:mutated_mesa")
 red_desert = new SkyIslandType("traverse:red_desert")
 mutated_desert = new SkyIslandType("minecraft:mutated_desert")
 desert_hills = new SkyIslandType("minecraft:desert_hills")
 mesa_rock = new SkyIslandType("minecraft:mesa_rock")
-mesa_clear_rock = new SkyIslandType("minecraft:mesa_clear_rock")
 mutated_mesa_clear_rock = new SkyIslandType("minecraft:mutated_mesa_clear_rock")
 
 plains = new SkyIslandType("minecraft:plains")
@@ -42,18 +65,19 @@ savanna = new SkyIslandType("minecraft:savanna")
 savanna_rock = new SkyIslandType("minecraft:savanna_rock")
  
 forest = new SkyIslandType("minecraft:forest")
+forest.setMainBlock(<tconstruct:clear_glass>)
+forest.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.2)
+
 birch_forest = new SkyIslandType("minecraft:birch_forest")
 mutated_forest = new SkyIslandType("minecraft:mutated_forest")
 mutated_birch_forest = new SkyIslandType("minecraft:mutated_birch_forest")
+
 autumnal_woods = new SkyIslandType("traverse:autumnal_woods")
+autumnal_woods.setMainBlock(<tconstruct:clear_glass>)
+autumnal_woods.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.2)
+
 biome_meneglin = new SkyIslandType("integrateddynamics:biome_meneglin")
 meadow = new SkyIslandType("traverse:meadow")
-forest_hills = new SkyIslandType("minecraft:forest_hills")
-birch_forest_hills = new SkyIslandType("minecraft:birch_forest_hills")
-mutated_birch_forest_hills = new SkyIslandType("minecraft:mutated_birch_forest_hills")
-forested_hills = new SkyIslandType("traverse:forested_hills")
-birch_forested_hills = new SkyIslandType("traverse:birch_forested_hills")
-autumnal_wooded_hills = new SkyIslandType("traverse:autumnal_wooded_hills")
 
 roofed_forest = new SkyIslandType("minecraft:roofed_forest")
 temperate_rainforest = new SkyIslandType("traverse:temperate_rainforest")
@@ -91,10 +115,7 @@ mutated_taiga_cold = new SkyIslandType("minecraft:mutated_taiga_cold")
  
 glacier_spikes = new SkyIslandType("traverse:glacier_spikes")
 glacier = new SkyIslandType("traverse:glacier")
-//Beaches
-cold_beach = new SkyIslandType("minecraft:cold_beach")
-stone_beach = new SkyIslandType("minecraft:stone_beach")
-beaches = new SkyIslandType("minecraft:beaches")
+
 
 
 //Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
@@ -105,25 +126,19 @@ addGenerator(skyIslands)
 
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 //Spawn biomes
-large = skyIslands.addSkyIslands(100, 1, true)
-large.addType(forest)
-large.addType(birch_forest)
-large.addType(mutated_forest)
-large.addType(mutated_birch_forest)
-large.addType(autumnal_woods)
-large.addType(biome_meneglin)
-large.addType(meadow)
+large = skyIslands.addSkyIslands(36, 1, false)
+large.addType(spawn)
 
-medium = skyIslands.addSkyIslands(50, 128, true)
+
+//medium = skyIslands.addSkyIslands(50, 128, true)
+medium = skyIslands.addSkyIslands(26, 148, true)
 medium.addType(mushroom_island)
 medium.addType(desert)
 medium.addType(mesa)
-medium.addType(mutated_mesa)
 medium.addType(red_desert)
 medium.addType(mutated_desert)
 medium.addType(desert_hills)
 medium.addType(mesa_rock)
-medium.addType(mesa_clear_rock)
 medium.addType(mutated_mesa_clear_rock)
 medium.addType(plains)
 medium.addType(mutated_plains)
@@ -147,12 +162,6 @@ medium.addType(mutated_birch_forest)
 medium.addType(autumnal_woods)
 medium.addType(biome_meneglin)
 medium.addType(meadow)
-medium.addType(forest_hills)
-medium.addType(birch_forest_hills)
-medium.addType(mutated_birch_forest_hills)
-medium.addType(forested_hills)
-medium.addType(birch_forested_hills)
-medium.addType(autumnal_wooded_hills)
 medium.addType(roofed_forest)
 medium.addType(temperate_rainforest)
 medium.addType(lush_hills)
@@ -183,6 +192,8 @@ medium.addType(taiga_cold_hills)
 medium.addType(mutated_taiga_cold)
 medium.addType(glacier_spikes)
 medium.addType(glacier)
+
+
 
 //small = skyIslands.addSkyIslands(25, 64, true)
 //small.addType()

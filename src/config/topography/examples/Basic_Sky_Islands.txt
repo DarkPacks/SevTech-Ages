@@ -25,8 +25,9 @@ forest_hills = new SkyIslandType("minecraft:forest_hills")
 mutated_birch_forest_hills = new SkyIslandType("minecraft:mutated_birch_forest_hills")
 
 
-
+////
 //Fancy special spawn island
+////
 spawn = new SkyIslandType("minecraft:forest")
 //spawn.setMainBlock(<tconstruct:clear_glass>)
 spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
@@ -37,6 +38,7 @@ spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 
 //Ocean biomes
 mushroom_island = new SkyIslandType("minecraft:mushroom_island")
+
 //Hot biomes
 desert = new SkyIslandType("minecraft:desert")
 mesa = new SkyIslandType("minecraft:mesa")
@@ -45,12 +47,10 @@ mutated_desert = new SkyIslandType("minecraft:mutated_desert")
 desert_hills = new SkyIslandType("minecraft:desert_hills")
 mesa_rock = new SkyIslandType("minecraft:mesa_rock")
 mutated_mesa_clear_rock = new SkyIslandType("minecraft:mutated_mesa_clear_rock")
-
 plains = new SkyIslandType("minecraft:plains")
 mutated_plains = new SkyIslandType("minecraft:mutated_plains")
 woodlands = new SkyIslandType("traverse:woodlands")
 rocky_plateau = new SkyIslandType("traverse:rocky_plateau")
- 
 jungle = new SkyIslandType("minecraft:jungle")
 swampland = new SkyIslandType("minecraft:swampland")
 jungle_edge = new SkyIslandType("minecraft:jungle_edge")
@@ -59,31 +59,31 @@ jungle_hills = new SkyIslandType("minecraft:jungle_hills")
 mutated_swampland = new SkyIslandType("minecraft:mutated_swampland")
 mutated_jungle = new SkyIslandType("minecraft:mutated_jungle")
 mutated_jungle_edge = new SkyIslandType("minecraft:mutated_jungle_edge")
+
 //Warm
 badlands = new SkyIslandType("traverse:badlands")
 savanna = new SkyIslandType("minecraft:savanna")
+
 savanna_rock = new SkyIslandType("minecraft:savanna_rock")
- 
+
+
 forest = new SkyIslandType("minecraft:forest")
-forest.setMainBlock(<tconstruct:clear_glass>)
 forest.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.2)
 
 birch_forest = new SkyIslandType("minecraft:birch_forest")
 mutated_forest = new SkyIslandType("minecraft:mutated_forest")
 mutated_birch_forest = new SkyIslandType("minecraft:mutated_birch_forest")
-
 autumnal_woods = new SkyIslandType("traverse:autumnal_woods")
-autumnal_woods.setMainBlock(<tconstruct:clear_glass>)
 autumnal_woods.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.2)
-
 biome_meneglin = new SkyIslandType("integrateddynamics:biome_meneglin")
 meadow = new SkyIslandType("traverse:meadow")
-
 roofed_forest = new SkyIslandType("minecraft:roofed_forest")
 temperate_rainforest = new SkyIslandType("traverse:temperate_rainforest")
 lush_hills = new SkyIslandType("traverse:lush_hills")
 green_swamp = new SkyIslandType("traverse:green_swamp")
 mutated_roofed_forest = new SkyIslandType("minecraft:mutated_roofed_forest")
+
+
 //Cool
 extreme_hills = new SkyIslandType("minecraft:extreme_hills")
 smaller_extreme_hills = new SkyIslandType("minecraft:smaller_extreme_hills")
@@ -91,30 +91,33 @@ darklands_plains = new SkyIslandType("abyssalcraft:darklands_plains")
 mutated_extreme_hills_with_trees = new SkyIslandType("minecraft:mutated_extreme_hills_with_trees")
 extreme_hills_with_trees = new SkyIslandType("minecraft:extreme_hills_with_trees")
 mutated_extreme_hills = new SkyIslandType("minecraft:mutated_extreme_hills")
- 
 darklands_forest = new SkyIslandType("abyssalcraft:darklands_forest")
 darklands = new SkyIslandType("abyssalcraft:darklands")
 taiga = new SkyIslandType("minecraft:taiga")
 darklands_hills = new SkyIslandType("abyssalcraft:darklands_hills")
 taiga_hills = new SkyIslandType("minecraft:taiga_hills")
 mutated_taiga = new SkyIslandType("minecraft:mutated_taiga")
- 
 coralium_infested_swamp = new SkyIslandType("abyssalcraft:coralium_infested_swamp")
 mutated_redwood_taiga = new SkyIslandType("minecraft:mutated_redwood_taiga")
 redwood_taiga = new SkyIslandType("minecraft:redwood_taiga")
 redwood_taiga_hills = new SkyIslandType("minecraft:redwood_taiga_hills")
+
 //Freezing
 ice_flats = new SkyIslandType("minecraft:ice_flats")
 mutated_ice_flats = new SkyIslandType("minecraft:mutated_ice_flats")
 ice_mountains = new SkyIslandType("minecraft:ice_mountains")
- 
 taiga_cold = new SkyIslandType("minecraft:taiga_cold")
 snowy_coniferous_forest = new SkyIslandType("traverse:snowy_coniferous_forest")
 taiga_cold_hills = new SkyIslandType("minecraft:taiga_cold_hills")
 mutated_taiga_cold = new SkyIslandType("minecraft:mutated_taiga_cold")
- 
 glacier_spikes = new SkyIslandType("traverse:glacier_spikes")
 glacier = new SkyIslandType("traverse:glacier")
+
+
+
+
+
+
 
 
 
@@ -132,66 +135,57 @@ large.addType(spawn)
 
 //medium = skyIslands.addSkyIslands(50, 128, true)
 medium = skyIslands.addSkyIslands(26, 148, true)
-medium.addType(mushroom_island)
+medium.addType(autumnal_woods)
+medium.addType(badlands)
+medium.addType(biome_meneglin)
+medium.addType(birch_forest)
+medium.addType(coralium_infested_swamp)
+medium.addType(darklands)
+medium.addType(darklands_forest)
+medium.addType(darklands_plains)
 medium.addType(desert)
-medium.addType(mesa)
-medium.addType(red_desert)
-medium.addType(mutated_desert)
-medium.addType(desert_hills)
-medium.addType(mesa_rock)
-medium.addType(mutated_mesa_clear_rock)
-medium.addType(plains)
-medium.addType(mutated_plains)
-medium.addType(woodlands)
-medium.addType(rocky_plateau)
+medium.addType(extreme_hills)
+medium.addType(forest)
+medium.addType(glacier)
+medium.addType(glacier_spikes)
+medium.addType(green_swamp)
+medium.addType(ice_flats)
+medium.addType(ice_mountains)
 medium.addType(jungle)
-medium.addType(swampland)
-medium.addType(jungle_edge)
+medium.addType(lush_hills)
+medium.addType(meadow)
+medium.addType(mesa)
+medium.addType(mesa_rock)
 medium.addType(mini_jungle)
-medium.addType(jungle_hills)
-medium.addType(mutated_swampland)
+medium.addType(mushroom_island)
+medium.addType(mutated_birch_forest)
+medium.addType(mutated_desert)
+medium.addType(mutated_extreme_hills)
+medium.addType(mutated_extreme_hills_with_trees)
+medium.addType(mutated_forest)
+medium.addType(mutated_ice_flats)
 medium.addType(mutated_jungle)
 medium.addType(mutated_jungle_edge)
-medium.addType(badlands)
+medium.addType(mutated_mesa_clear_rock)
+medium.addType(mutated_plains)
+medium.addType(mutated_redwood_taiga)
+medium.addType(mutated_roofed_forest)
+medium.addType(mutated_swampland)
+medium.addType(mutated_taiga)
+medium.addType(mutated_taiga_cold)
+medium.addType(plains)
+medium.addType(red_desert)
+medium.addType(redwood_taiga)
+medium.addType(rocky_plateau)
+medium.addType(roofed_forest)
 medium.addType(savanna)
 medium.addType(savanna_rock)
-medium.addType(forest)
-medium.addType(birch_forest)
-medium.addType(mutated_forest)
-medium.addType(mutated_birch_forest)
-medium.addType(autumnal_woods)
-medium.addType(biome_meneglin)
-medium.addType(meadow)
-medium.addType(roofed_forest)
-medium.addType(temperate_rainforest)
-medium.addType(lush_hills)
-medium.addType(green_swamp)
-medium.addType(mutated_roofed_forest)
-medium.addType(extreme_hills)
-medium.addType(smaller_extreme_hills)
-medium.addType(darklands_plains)
-medium.addType(mutated_extreme_hills_with_trees)
-medium.addType(extreme_hills_with_trees)
-medium.addType(mutated_extreme_hills)
-medium.addType(darklands_forest)
-medium.addType(darklands)
-medium.addType(taiga)
-medium.addType(darklands_hills)
-medium.addType(taiga_hills)
-medium.addType(mutated_taiga)
-medium.addType(coralium_infested_swamp)
-medium.addType(mutated_redwood_taiga)
-medium.addType(redwood_taiga)
-medium.addType(redwood_taiga_hills)
-medium.addType(ice_flats)
-medium.addType(mutated_ice_flats)
-medium.addType(ice_mountains)
-medium.addType(taiga_cold)
 medium.addType(snowy_coniferous_forest)
-medium.addType(taiga_cold_hills)
-medium.addType(mutated_taiga_cold)
-medium.addType(glacier_spikes)
-medium.addType(glacier)
+medium.addType(swampland)
+medium.addType(taiga)
+medium.addType(taiga_cold)
+medium.addType(temperate_rainforest)
+medium.addType(woodlands)
 
 
 

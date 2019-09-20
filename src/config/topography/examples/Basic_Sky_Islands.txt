@@ -30,8 +30,8 @@ mutated_birch_forest_hills = new SkyIslandType("minecraft:mutated_birch_forest_h
 spawn = new SkyIslandType("minecraft:forest")
 //spawn.setMainBlock(<tconstruct:clear_glass>)
 spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
-spawn.setBlockInRange(<minecraft:gravel>, 0.15~0.16)
-
+spawn.setBlockInRange(<minecraft:gravel>, 0.15~0.17)
+spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 
 
 

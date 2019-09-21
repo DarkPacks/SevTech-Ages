@@ -115,11 +115,13 @@ swamplandHematite = new SkyIslandType("minecraft:swampland")
 //swamplandHematite.setMainBlock(<tconstruct:clear_glass>)
 swamplandHematite.setBlockInRange(<geolosys:ore, meta:0>, 0.0~0.2)
 swamplandHematite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+swamplandHematite.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 
 swamplandLapis = new SkyIslandType("minecraft:swampland")
 //swamplandLapis.setMainBlock(<tconstruct:clear_glass>)
 swamplandLapis.setBlockInRange(<geolosys:ore_vanilla, meta:3>, 0.0~0.2)
 swamplandLapis.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+swamplandLapis.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 
 mini_jungleBauxite = new SkyIslandType("traverse:mini_jungle")
 //mini_jungleBauxite.setMainBlock(<tconstruct:clear_glass>)
@@ -207,6 +209,7 @@ green_swampLapis = new SkyIslandType("traverse:green_swamp")
 //green_swampLapis.setMainBlock(<tconstruct:clear_glass>)
 green_swampLapis.setBlockInRange(<geolosys:ore_vanilla, meta:3>, 0.0~0.2)
 green_swampLapis.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+green_swampLapis.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 
 //Cool
 extreme_hills_with_treesBeryl = new SkyIslandType("minecraft:extreme_hills_with_trees")
@@ -243,6 +246,7 @@ coralium_infested_swampAutunite = new SkyIslandType("abyssalcraft:coralium_infes
 //coralium_infested_swampAutunite.setMainBlock(<tconstruct:clear_glass>)
 coralium_infested_swampAutunite.setBlockInRange(<geolosys:ore, meta:9>, 0.0~0.2)
 coralium_infested_swampAutunite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+coralium_infested_swampAutunite.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 
 mutated_redwood_taigaMundane = new SkyIslandType("minecraft:mutated_redwood_taiga")
 //mutated_redwood_taigaMundane.setMainBlock(<tconstruct:clear_glass>)

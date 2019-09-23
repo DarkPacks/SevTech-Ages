@@ -904,6 +904,7 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:birch_boat:0>,
 	<minecraft:boat:0>,
 	<minecraft:book:0>,
+	<minecraft:bookshelf:0>,
 	<minecraft:bowl:0>,
 	<minecraft:bread:0>,
 	<minecraft:brick:0>,

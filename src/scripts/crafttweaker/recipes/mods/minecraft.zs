@@ -35,12 +35,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<minecraft:wooden_button:0>: [
-		[[<ore:plankWood>]]
-	],
-	<minecraft:stone_button:0>: [
-		[[<minecraft:stone:0>]]
-	],
 	<minecraft:web:0>: [
 		[
 			[<ore:stickWood>, <minecraft:string:0>, <ore:stickWood>],

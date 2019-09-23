@@ -151,6 +151,7 @@ global chiselBlocks as IItemStack[][IOreDictEntry] = {
 		<chisel:iron:14>
 	],
 	<ore:blockLapis>: [
+		<minecraft:lapis_block:0>,
 		<chisel:lapis:0>,
 		<chisel:lapis:1>,
 		<chisel:lapis:2>,

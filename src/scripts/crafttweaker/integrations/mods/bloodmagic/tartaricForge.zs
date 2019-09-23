@@ -59,7 +59,7 @@ function init() {
 		128, 20
 	);
 
-	TartaricForge.removeRecipe([<bloodmagic:soul_forge:0>, <minecraft:stone:0>, <minecraft:dye:14>, <minecraft:glass:0>]);
+	TartaricForge.removeRecipe([<bloodmagic:soul_forge:0>, <minecraft:stone:0>, <minecraft:dye:4>, <minecraft:glass:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:demon_crystallizer:0>,
 		[<bloodmagic:soul_forge:0>, <ore:stone>, metals.manyullyn.ingot, <ore:blockGlass>],
@@ -94,14 +94,14 @@ function init() {
 		400, 5
 	);
 
-	TartaricForge.removeRecipe([<minecraft:glass:0>, <bloodmagic:slate:0>, <minecraft:dye:4>]);
+	TartaricForge.removeRecipe([<minecraft:glass:0>, <minecraft:stone:0>, <bloodmagic:slate:0>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:component:10>,
-		[<minecraft:glass:0>, <bloodmagic:slate:0>, <minecraft:dye:4>, metals.silver.ingot],
+		[<ore:blockGlass>, <bloodmagic:slate:0>, <minecraft:dye:4>, metals.silver.ingot],
 		400, 10
 	);
 
-	TartaricForge.removeRecipe([<minecraft:redstone:0>, <minecraft:gold_ingot:0>, <minecraft:glass:0>, <minecraft:dye:4>]);
+	TartaricForge.removeRecipe([<minecraft:redstone:0>, <minecraft:gold_ingot:0>, <minecraft:glass:0>, <pickletweaks:dye_powder:11>]);
 	TartaricForge.addRecipe(
 		<bloodmagic:soul_gem:0>,
 		[<betterwithaddons:tweakmat:0>, metals.bronze.ingot, <pickletweaks:dye_powder:11>, <abyssalcraft:shadowfragment:0>],

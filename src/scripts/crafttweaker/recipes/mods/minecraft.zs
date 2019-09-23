@@ -35,12 +35,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<minecraft:cobblestone:0>, <minecraft:cobblestone:0>, <minecraft:cobblestone:0>]
 		]
 	],
-	<minecraft:wooden_button:0>: [
-		[[<ore:plankWood>]]
-	],
-	<minecraft:stone_button:0>: [
-		[[<minecraft:stone:0>]]
-	],
 	<minecraft:web:0>: [
 		[
 			[<ore:stickWood>, <minecraft:string:0>, <ore:stickWood>],
@@ -297,9 +291,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:bookshelf:0>: [
 		[
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>],
 			[<minecraft:book:0>, <minecraft:book:0>, <minecraft:book:0>],
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			[<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]
 		]
 	],
 	<minecraft:golden_axe:0>: [
@@ -910,6 +904,7 @@ static removeRecipes as IItemStack[] = [
 	<minecraft:birch_boat:0>,
 	<minecraft:boat:0>,
 	<minecraft:book:0>,
+	<minecraft:bookshelf:0>,
 	<minecraft:bowl:0>,
 	<minecraft:bread:0>,
 	<minecraft:brick:0>,

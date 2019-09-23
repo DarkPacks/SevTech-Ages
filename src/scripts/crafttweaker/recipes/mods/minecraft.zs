@@ -297,9 +297,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<minecraft:bookshelf:0>: [
 		[
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+			[<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>],
 			[<minecraft:book:0>, <minecraft:book:0>, <minecraft:book:0>],
-			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			[<minecraft:planks:*>, <minecraft:planks:*>, <minecraft:planks:*>]
 		]
 	],
 	<minecraft:golden_axe:0>: [

@@ -20,6 +20,7 @@ Bug Fixes:
 * The colour of quantum storage bags can now be changed (#3743)
 * Fix Together Forever command in getting started text (#3943)
 * Update Tartaric Forge removed recipes as changed upstream (#3942)
+* Vanilla bookshelves can now only be crafted using vanilla planks, preventing conflict with natura (#3940)
 
 Mod Updates:
 * Astral Sorcery (1.10.20)

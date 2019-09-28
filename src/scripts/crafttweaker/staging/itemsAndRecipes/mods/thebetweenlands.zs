@@ -2,9 +2,17 @@ import crafttweaker.item.IIngredient;
 
 import mods.zenstages.ZenStager;
 
+import scripts.crafttweaker.stages.stageZero;
 import scripts.crafttweaker.stages.stageTwo;
 
 static stagedItems as IIngredient[][string] = {
+
+	stageZero.stage: [
+		<thebetweenlands:volarpad>,
+		<thebetweenlands:items_plant_drop:36>,
+		<thebetweenlands:volarkite:*>
+	],
+
 	stageTwo.stage: [
 		<thebetweenlands:aspectrus_fruit:0>,
 		<thebetweenlands:bl_bucket_infusion:0>,

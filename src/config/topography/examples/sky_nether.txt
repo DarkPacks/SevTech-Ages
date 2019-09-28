@@ -1,0 +1,133 @@
+//compatSurface()
+disableRespawning()
+//enableRelightChecks()
+vaporizeWater()
+setFogColor(#330707)
+setCelestialAngle(0.5)
+disableSky()
+disableClouds()
+generateNetherFortress(2, 32, 4)
+disableSkylight()
+
+//Lighting
+setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
+
+//Sets the dimension to generate as the void biome. The sky islands will override this where they generate, so this will only be the biome between the islands.
+setSingleBiome("minecraft:void")
+
+
+hell = new SkyIslandType("minecraft:hell")
+hell.disableBiomeBlockReplacement()
+hell.setMainBlock(<minecraft:netherrack>)
+
+arctic_abyss = new SkyIslandType("nex:arctic_abyss")
+
+fungi_forest = new SkyIslandType("nex:fungi_forest")
+
+ruthless_sands = new SkyIslandType("nex:ruthless_sands")
+
+
+torrid_wasteland = new SkyIslandType("nex:torrid_wasteland")
+
+
+////
+//Spawn Island
+////
+spawn = new SkyIslandType("minecraft:hell")
+spawn.setMainBlock(<minecraft:netherrack>)
+//spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
+//spawn.setBlockInRange(<minecraft:gravel>, 0.16~0.19)
+//spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+
+
+
+
+
+
+////
+//Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
+////
+skyIslands = new SkyIslandGenerator()
+skyIslands.setRegionSize(50)
+addGenerator(skyIslands)
+
+
+//Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+//Spawn biomes
+large = skyIslands.addSkyIslands(36, 1, false)
+large.addType(spawn)
+
+
+//medium = skyIslands.addSkyIslands(50, 128, true)
+medium = skyIslands.addSkyIslands(64, 148, true)
+//medium.addType(mushroom_islandLapis)
+medium.addType(hell)
+medium.addType(arctic_abyss)
+medium.addType(fungi_forest)
+medium.addType(ruthless_sands)
+medium.addType(torrid_wasteland)
+
+//small = skyIslands.addSkyIslands(25, 64, true)
+//small.addType()
+//
+//tiny = skyIslands.addSkyIslands(10, 128, true)
+//tiny.addType(mushroom_island)
+
+
+spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(spheres)
+
+fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
+fire.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(fire)
+
+lava = new FluidPocketGenerator(<minecraft:flowing_lava>, 16, false)
+lava.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(lava)
+
+glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
+glowstone.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(glowstone)
+
+quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(quartz)
+
+ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
+ardite.setDeformScale(4)
+ardite.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(ardite)
+
+cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 10)
+cobalt.setDeformScale(4)
+cobalt.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(cobalt)
+
+amethyst = new DeformedSphereGenerator(<nex:amethyst_ore>, 2, 1, 64, 8)
+amethyst.setDeformScale(4)
+amethyst.addRequiredBlock(<minecraft:netherrack>)
+addGenerator(amethyst)
+
+
+
+quartz = new DeformedSphereGenerator(<nex:quartz_ore>, 2, 4, 64, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<nex:netherrack>)
+addGenerator(quartz)
+
+quartz = new DeformedSphereGenerator(<nex:quartz_ore:1>, 2, 4, 64, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<nex:netherrack:1>)
+addGenerator(quartz)
+
+quartz = new DeformedSphereGenerator(<nex:quartz_ore:2>, 2, 4, 64, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<nex:netherrack:2>)
+addGenerator(quartz)
+
+quartz = new DeformedSphereGenerator(<nex:quartz_ore:3>, 2, 4, 64, 8)
+quartz.setDeformScale(4)
+quartz.addRequiredBlock(<nex:netherrack:3>)
+addGenerator(quartz)

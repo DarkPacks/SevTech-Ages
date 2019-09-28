@@ -176,7 +176,10 @@ static durabilityMap as int[IItemStack] = {
 	// Dog Boots
 	<animalium:dog_boots:0>: 260,
 
-	<cyclicmagic:ender_dungeon:0>: 1250
+	<cyclicmagic:ender_dungeon:0>: 1250,
+
+	//Volarkite
+	<thebetweenlands:volarkite>: 600
 };
 
 function init() {

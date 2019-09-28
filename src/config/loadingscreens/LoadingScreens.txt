@@ -1,5 +1,5 @@
 
-background = addStretchedTexture("top_left", "test:textures/gui/title/background/background.png")
+background = addStretchedTexture("top_left", "test:textures/gui/title/background/sevtech_gradients.png")
 background.setRelRender(1, 1)
 
 tips = addRandomText("bottom_left")

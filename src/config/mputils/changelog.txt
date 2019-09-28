@@ -13,6 +13,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Enhancements:
 * Increased the height of underground Clay generation and the total amount of veins
 * Added Sugar Cane to the Dense Water Strainer loot table
+* Increased Volarkite durability
 ---------------------------------------------------------------------
 
 3.1.3

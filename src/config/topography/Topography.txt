@@ -12,6 +12,12 @@ overworld.registerDimension(0, "overworld/SevTechV3")
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 basicSkyIslands = registerPreset("Basic Sky Islands", "images/Sky_Islands", "Sky Islands of various biomes and sizes.", "default")
 basicSkyIslands.registerDimension(0, "examples/Basic_Sky_Islands")
+basicSkyIslands.registerDimension(-1, "examples/sky_nether")
+
+
+
+
+
 
 overworld = registerPreset("Desert Overworld", "images/Desert_Overworld", "Overworld with only desert and mesa biomes.")
 overworld.registerDimension(0, "examples/Overworld_With_Only_Desert_Biomes")

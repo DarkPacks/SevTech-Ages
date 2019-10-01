@@ -22,6 +22,7 @@ Bug Fixes:
 * Update Tartaric Forge removed recipes as changed upstream (#3942)
 * Vanilla bookshelves can now only be crafted using vanilla planks, preventing conflict with natura (#3940)
 * Lapis blocks are now be chiselable (#3932)
+* Dupe bug as a result of TCon Crafting Station exposing Auto Chisel slots to JEI fixed (#3956)
 
 Mod Updates:
 * Astral Sorcery (1.10.20)

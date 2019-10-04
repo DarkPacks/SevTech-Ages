@@ -14,6 +14,11 @@ Enhancements:
 * Increased the height of underground Clay generation and the total amount of veins
 * Added Sugar Cane to the Dense Water Strainer loot table
 * Increased Volarkite durability
+* Added Betweenlands Weedwood sticks to ore:stickWood oredictionary entry
+* Added a number of foods to the nutrition item list
+* Added Loading Screens for a better player experience!
+* The Hunting Dimension will now generate terrain based on the overworld
+
 ---------------------------------------------------------------------
 
 3.1.3

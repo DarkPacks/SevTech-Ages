@@ -25,7 +25,7 @@ import scripts.crafttweaker.stages.stageFive;
 static shapedRecipes as IIngredient[][][][IItemStack] = {
 	<thebetweenlands:volarkite>: [
 		[
-			[<minecraft:waterlily>, <minecraft:waterlily>, <minecraft:waterlily>],
+			[<ore:lilypad>, <ore:lilypad>, <ore:lilypad>],
 			[<ore:cordagePlant>, <ore:stickWood>, <ore:cordagePlant>],
 			[null, <ore:stickWood>, null]
 		]

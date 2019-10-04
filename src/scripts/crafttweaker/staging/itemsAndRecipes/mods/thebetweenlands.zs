@@ -10,7 +10,7 @@ static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
 		<thebetweenlands:volarpad>,
 		<thebetweenlands:items_plant_drop:36>,
-		<thebetweenlands:volarkite:*>
+		<thebetweenlands:volarkite>
 	],
 
 	stageTwo.stage: [

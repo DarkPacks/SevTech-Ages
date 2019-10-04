@@ -154,6 +154,7 @@
 <ore:stickWood>.add(<natura:sticks:11>);
 <ore:stickWood>.add(<natura:sticks:12>);
 <ore:stickWood>.add(<primal:yew_stick:0>);
+<ore:stickWood>.add(<thebetweenlands:items_misc:20>);
 
 /*
 	Misc

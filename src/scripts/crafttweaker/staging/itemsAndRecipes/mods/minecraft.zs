@@ -324,7 +324,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:iron_leggings:0>,
 		<minecraft:iron_pickaxe:0>,
 		<minecraft:iron_shovel:0>,
-		<minecraft:iron_sword:0>,
+		<minecraft:iron_sword:*>,		
 		<minecraft:iron_trapdoor:0>,
 
 		// Gold Stuff

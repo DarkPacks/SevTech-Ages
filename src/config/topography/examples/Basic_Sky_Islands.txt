@@ -439,3 +439,16 @@ medium.addType(glacierGalena)
 //
 //tiny = skyIslands.addSkyIslands(10, 128, true)
 //tiny.addType(mushroom_island)
+
+//Scattered block gen (cluster count, cluster size)
+lilypad = new ScatteredBlockGenerator(<minecraft:waterlily>, 164, 16)
+lilypad.addRequiredBlock(<minecraft:water>)
+addGenerator(lilypad)
+
+
+
+//sugarcane = new ScatteredBlockGenerator(<minecraft:reeds>, 72, 8)
+//sugarcane.addRequiredBlock(<minecraft:sand>)
+//addGenerator(sugarcane)
+
+

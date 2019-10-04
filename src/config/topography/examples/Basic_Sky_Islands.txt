@@ -62,6 +62,14 @@ spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 ////
 
 //Ocean biomes
+
+oceanCoralium = new SkyIslandType("minecraft:ocean")
+//oceanCoralium.setMainBlock(<tconstruct:clear_glass>)
+oceanCoralium.setBlockInRange(<abyssalcraft:coraliumore>, 0.0~0.2)
+oceanCoralium.setBlockInRange(<minecraft:gravel>, 0.21~0.24)
+oceanCoralium.setBlockInRange(<chisel:limestone2:7>, 0.25~0.31)
+oceanCoralium.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+
 mushroom_islandLapis = new SkyIslandType("minecraft:mushroom_island")
 //mushroom_islandLapis.setMainBlock(<tconstruct:clear_glass>)
 mushroom_islandLapis.setBlockInRange(<geolosys:ore_vanilla, meta:3>, 0.0~0.2)
@@ -75,6 +83,7 @@ desertCinnabar.setBlockInRange(<geolosys:ore_vanilla, meta:1>, 0.0~0.2)
 desertCinnabar.setBlockInRange(<minecraft:gravel>, 0.21~0.24)
 desertCinnabar.setBlockInRange(<minecraft:stone:3>, 0.25~0.35)
 desertCinnabar.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+desertCinnabar.disableFluid()
 
 mesaGold = new SkyIslandType("minecraft:mesa")
 //mesaGold.setMainBlock(<tconstruct:clear_glass>)
@@ -82,6 +91,7 @@ mesaGold.setBlockInRange(<geolosys:ore_vanilla, meta:2>, 0.0~0.2)
 mesaGold.setBlockInRange(<minecraft:gravel>, 0.21~0.24)
 mesaGold.setBlockInRange(<minecraft:stone:1>, 0.25~0.35)
 mesaGold.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+mesaGold.disableFluid()
 
 plainsCassiterite = new SkyIslandType("minecraft:plains")
 //plainsCassiterite.setMainBlock(<tconstruct:clear_glass>)
@@ -375,21 +385,22 @@ glacierGalena.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 
 
 ////
-//Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
+//Creates a new SkyIslandGeneratorV2, sets its grid region size, and adds it to the generator list for the dimension.
 ////
-skyIslands = new SkyIslandGenerator()
+skyIslands = new SkyIslandGeneratorV2()
 skyIslands.setRegionSize(50)
 addGenerator(skyIslands)
 
 
-//Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
+//Adds sky islands. Arguments are horizontal radius, top height, bottom height, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 //Spawn biomes
-large = skyIslands.addSkyIslands(36, 1, false)
+large = skyIslands.addSkyIslands(36, 36, 36, 1, false, 1)
+large.setWaterHeight(3)
 large.addType(spawn)
 
 
 //medium = skyIslands.addSkyIslands(50, 128, true)
-medium = skyIslands.addSkyIslands(26, 148, true)
+medium = skyIslands.addSkyIslands(26, 26, 26, 148, true)
 medium.addType(mushroom_islandLapis)
 medium.addType(desertCinnabar)
 medium.addType(mesaGold)
@@ -433,6 +444,7 @@ medium.addType(taiga_coldRockCrystal)
 medium.addType(snowy_coniferous_forestRockCrystal)
 medium.addType(glacier_spikesKimberlite)
 medium.addType(glacierGalena)
+medium.addType(oceanCoralium)
 
 //small = skyIslands.addSkyIslands(25, 64, true)
 //small.addType()

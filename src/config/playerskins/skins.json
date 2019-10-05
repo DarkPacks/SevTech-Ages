@@ -1,101 +1,79 @@
 {
-  "Dumpgrah": {
+  "FatherToast": {
     "weight": 10
   },
-  "HieronGaming": {
+  "thrice01": {
+    "weight": 10
+  },
+  "k_nord": {
     "weight": 10
   },
   "artdude543": {
     "weight": 10
   },
   "Gen_Deathrow": {
+    "weight": 10,
+    "specialDrops": [
+      {
+        "itemID": "minecraft:cookie",
+        "metaID": 0,
+        "chance": 0.2,
+        "qty": 1,
+        "nbt": {
+          "display": {
+            "Lore": [
+              "Here have a cookie for your troubles.",
+              "Your Friend,",
+              "   GenDeathrow"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "tyrowl": {
     "weight": 10
   },
-  "darkosto": {
+  "Bahroth": {
     "weight": 10
   },
-  "Son_Of_Diablo": {
+  "blingden": {
     "weight": 10
   },
-  "usmc_Blockhead": {
+  "ersepul": {
     "weight": 10
   },
-  "Scrogs63": {
+  "Vazkii": {
     "weight": 10
   },
-  "HalfAssCraft": {
+  "MrImbers": {
     "weight": 10
   },
-  "Code_Monkey": {
+  "Shikumi": {
     "weight": 10
   },
-  "Tiredbunny1": {
-    "weight": 10
-  },
-  "KoObla": {
-    "weight": 10
-  },
-  "way2muchnoise": {
-    "weight": 10
-  },
-  "sarcastic6": {
-    "weight": 10
-  },
-  "TheJok3er": {
-    "weight": 10
-  },
-  "Yrlish": {
-    "weight": 10
-  },
-  "mybigfriendjo": {
-    "weight": 10
-  },
-  "Killer_121232": {
-    "weight": 10
-  },
-  "FragChip": {
-    "weight": 10
-  },
-  "chimeric13": {
-    "weight": 10
-  },
-  "BryanBoru": {
+  "ashzification": {
     "weight": 10
   },
   "HellFirePvP": {
     "weight": 10
   },
-  "icerogue": {
+  "Plutosion": {
     "weight": 10
   },
-  "RogerHL": {
+  "FMKilo": {
     "weight": 10
   },
-  "MissKittyNL": {
-    "weight": 10
-  },
-  "M_irish": {
-    "weight": 10
-  },
-  "fjzig": {
-    "weight": 10
-  },
-  "grannymc": {
-    "weight": 10
-  },
-  "mac2040": {
-    "weight": 10
-  },
-  "Grumpyhouse": {
+  "Tucker178": {
     "weight": 10
   },
   "SinfulDeity": {
     "weight": 10
   },
-  "SassyCultist": {
+  "LexManos": {
     "weight": 10
   },
-  "LexManos": {
+  "iChun": {
     "weight": 10
   },
   "TheMattaBase": {
@@ -110,208 +88,146 @@
   "C418": {
     "weight": 10
   },
-  "hippie101234": {
+  "Strange_Mallard": {
     "weight": 10
   },
-  "bovine_9": {
+  "Pahimar": {
     "weight": 10
   },
-  "lawfulrocky": {
-    "weight": 10
-  },
-  "Kithron": {
-    "weight": 10
-  },
-  "Livingshado": {
-    "weight": 10
-  },
-  "ArbitraryHubris": {
-    "weight": 10
-  },
-  "nateDog965": {
-    "weight": 10
-  },
-  "SrslyWhimsical": {
+  "SethBling": {
     "weight": 10
   },
   "Funwayguy": {
     "weight": 10
   },
-  "ZeroKazuma": {
+  "Etho": {
     "weight": 10
   },
-  "Phantom_Kasper": {
+  "Muffinlasher": {
     "weight": 10
   },
-  "Sverd": {
+  "Mousmn": {
     "weight": 10
   },
-  "tyra_oa": {
+  "Arogna": {
+    "weight": 10
+  },
+  "Enforcer__": {
     "weight": 10
   },
   "zapple94": {
     "weight": 10
   },
-  "Sunsetwhiskey": {
+  "DefiantZombie": {
     "weight": 10
   },
-  "snowjetx": {
+  "ThatGuySimplee": {
     "weight": 10
   },
-  "Senpai_Bloodshot": {
-    "weight": 10
-  },
-  "DerpLinkDoes": {
-    "weight": 10
-  },
-  "Fractius81": {
-    "weight": 10
-  },
-  "LovelessTie": {
-    "weight": 10
-  },
-  "ceejay68": {
-    "weight": 10
-  },
-  "Chelnoble": {
+  "Dinnerbone": {
     "weight": 10
   },
   "darkphan": {
     "weight": 10
   },
-  "missrobyn102": {
-    "weight": 10
-  },
-  "StephJ2Fan": {
-    "weight": 10
-  },
-  "CzarKirby": {
+  "TheMogMiner": {
     "weight": 10
   },
   "Kashdeya": {
     "weight": 10
   },
-  "GaylenPellaz": {
+  "lynn_phoenix": {
     "weight": 10
   },
-  "axp_99": {
+  "Buuz135": {
     "weight": 10
   },
-  "Burshaz": {
+  "CrustyMustard": {
     "weight": 10
   },
-  "DawsomeredGamer": {
+  "Jestercrafter": {
+    "weight": 10
+  },
+  "DannyStrider": {
     "weight": 10
   },
   "Jsl7": {
     "weight": 10
   },
-  "greynite001": {
-    "weight": 10
-  },
-  "Darkosto": {
-    "weight": 10
-  },
   "Bacon_Donut": {
     "weight": 10
   },
-  "Minikatalyst": {
+  "Darkosto": {
+    "weight": 10,
+    "specialDrops": [
+      {
+        "itemID": "minecraft:stick",
+        "metaID": 0,
+        "chance": 0.2,
+        "qty": 1,
+        "nbt": {
+          "display": {
+            "Name": "Builders Wand"
+          }
+        }
+      }
+    ]
+  },
+  "Muddr": {
     "weight": 10
   },
-  "Judicius": {
+  "UndeadGraduate": {
     "weight": 10
   },
-  "SirNo": {
+  "DanTDM": {
     "weight": 10
   },
-  "mickmulloy": {
+  "Soaryn": {
     "weight": 10
   },
-  "Leotomas": {
-    "weight": 10
-  },
-  "Terraj": {
-    "weight": 10
-  },
-  "jerbearjerry": {
-    "weight": 10
-  },
-  "fearme123": {
-    "weight": 10
-  },
-  "jsl7": {
-    "weight": 10
-  },
-  "silentpyro1": {
-    "weight": 10
-  },
-  "Ogini": {
-    "weight": 10
-  },
-  "rgasf": {
-    "weight": 10
-  },
-  "Bar0n3ss": {
-    "weight": 10
-  },
-  "daria530": {
-    "weight": 10
-  },
-  "tealoldman": {
-    "weight": 10
-  },
-  "Darkhax": {
-    "weight": 10
-  },
-  "ASCIIFish": {
+  "SkySom": {
     "weight": 10
   },
   "Ladon_Dragon": {
     "weight": 10
   },
-  "destroina": {
+  "shimwood": {
     "weight": 10
   },
-  "Jenzacade": {
+  "ChimneySwift": {
     "weight": 10
   },
-  "djnifos": {
-    "weight": 10
-  },
-  "Bustaj": {
-    "weight": 10
-  },
-  "muddr": {
-    "weight": 10
-  },
-  "DiscworldZA": {
-    "weight": 10
-  },
-  "Charles12875": {
+  "CaptainSparklez": {
     "weight": 10
   },
   "keb911": {
     "weight": 10
   },
-  "MiniKatalyst": {
+  "GiantWaffle": {
     "weight": 10
   },
-  "Dunstrum": {
+  "ANTRat": {
     "weight": 10
   },
-  "Fellwing94": {
+  "SWilliams26": {
+    "weight": 10
+  },
+  "SunsetWhiskey": {
     "weight": 10
   },
   "RisingPhoenix1": {
     "weight": 10
   },
-  "n3twoik": {
+  "Xephos": {
     "weight": 10
   },
   "EvilSeph": {
     "weight": 10
   },
-  "BlakeBr0": {
+  "SUBLIMITER": {
+    "weight": 10
+  },
+  "doogieboo": {
     "weight": 10
   },
   "ganymedes01": {
@@ -320,181 +236,130 @@
   "jeb_": {
     "weight": 10
   },
-  "Keldarium": {
-    "weight": 10
-  },
   "DatFailGamur": {
     "weight": 10
   },
-  "Kidoshi87": {
+  "AdamParamedic": {
     "weight": 10
   },
-  "flaborta": {
+  "Shadows_of_Fire": {
     "weight": 10
   },
-  "adamcirillo": {
-    "weight": 10
-  },
-  "Sp33dy75": {
-    "weight": 10
-  },
-  "DriaBennett": {
-    "weight": 10
-  },
-  "Drakma": {
-    "weight": 10
-  },
-  "normiereee": {
-    "weight": 10
-  },
-  "Zamar": {
+  "JayJay1989BE": {
     "weight": 10
   },
   "SlothMonster_": {
     "weight": 10
   },
-  "Banage": {
+  "Lothrazar": {
+    "weight": 10
+  },
+  "Kaayasan": {
     "weight": 10
   },
   "GWSheridan": {
     "weight": 10
   },
-  "jcgriff": {
+  "OnlyBentley": {
     "weight": 10
   },
-  "hixfd398": {
+  "KnightOfNorway": {
     "weight": 10
   },
-  "Lemein": {
-    "weight": 10
-  },
-  "c0_0ry": {
-    "weight": 10
-  },
-  "rickyjay": {
+  "PurpleMentat": {
     "weight": 10
   },
   "JackRuby1": {
     "weight": 10
   },
-  "Sno_": {
+  "Chimeric13": {
     "weight": 10
   },
-  "GregsGirl": {
+  "Samiratou": {
+    "weight": 10
+  },
+  "Chromogen": {
+    "weight": 10
+  },
+  "Tiredbunny": {
     "weight": 10
   },
   "Turkey2349": {
     "weight": 10
   },
-  "LordAralan": {
+  "Genoskwa": {
     "weight": 10
   },
-  "GrannySith": {
+  "josh_rpg": {
+    "weight": 10
+  },
+  "Tempest_Exile": {
+    "weight": 10
+  },
+  "KingLemming": {
     "weight": 10
   },
   "direwolf20": {
     "weight": 10
   },
-  "PRIMETOXINZ": {
+  "flashlego": {
     "weight": 10
   },
-  "tbiehn1243": {
-    "weight": 10
-  },
-  "willandforce": {
-    "weight": 10
-  },
-  "shimmerintime": {
-    "weight": 10
-  },
-  "mrdeviate": {
+  "calo_just_calo": {
     "weight": 10
   },
   "postal_insanity": {
     "weight": 10
   },
-  "Phantom_Smithy": {
+  "Venamah": {
     "weight": 10
   },
-  "neosghost": {
+  "TheNimbleNinja": {
     "weight": 10
   },
-  "Ugrashrath": {
-    "weight": 10
-  },
-  "Nevynx": {
-    "weight": 10
-  },
-  "Octoberly": {
-    "weight": 10
-  },
-  "Fletcher201224": {
-    "weight": 10
-  },
-  "redcricket6565": {
-    "weight": 10
-  },
-  "Pinguu": {
-    "weight": 10
-  },
-  "DoctorAnguus": {
-    "weight": 10
-  },
-  "Burzi86": {
+  "Marioluigi7896": {
     "weight": 10
   },
   "Gooderness": {
     "weight": 10
   },
-  "munkytos": {
-    "weight": 10
-  },
-  "munchkin604": {
-    "weight": 10
-  },
   "Tkdriverx": {
+    "weight": 10
+  },
+  "Bamboo97": {
     "weight": 10
   },
   "carnalizer": {
     "weight": 10
   },
-  "FFwarrior": {
+  "Wyld": {
     "weight": 10
   },
-  "Omegapheonix2001": {
+  "broken_amelia": {
     "weight": 10
   },
-  "VoodooMonkey": {
+  "UrjnaswX": {
     "weight": 10
   },
-  "darkpheonix33": {
+  "tfox83": {
     "weight": 10
   },
-  "Teraphina": {
+  "ProfMobius": {
     "weight": 10
   },
-  "LightningAvenger": {
+  "Kehaan": {
     "weight": 10
   },
-  "tomudding": {
+  "slowpoke101": {
     "weight": 10
   },
-  "Jandakast": {
+  "Geilolo": {
     "weight": 10
   },
-  "Sh686": {
+  "vadis365": {
     "weight": 10
   },
-  "cdub9501": {
-    "weight": 10
-  },
-  "Seabeejojo": {
-    "weight": 10
-  },
-  "Uniquekakarot": {
-    "weight": 10
-  },
-  "FPSaddiction": {
+  "Searge_DP": {
     "weight": 10
   },
   "Gory_Moon": {
@@ -503,40 +368,52 @@
   "cpw11": {
     "weight": 10
   },
-  "Zhombee": {
+  "Sevadus": {
     "weight": 10
   },
-  "Miss_Potatoes": {
+  "theawfullwaffle": {
     "weight": 10
   },
-  "garlicinyoureye": {
+  "WayofFlowingTime": {
+    "weight": 10
+  },
+  "PhantomSmithy": {
     "weight": 10
   },
   "Hexalan": {
     "weight": 10
   },
-  "janarron": {
+  "fireztonez": {
     "weight": 10
   },
-  "SuperIronBob": {
+  "Sacheverell": {
     "weight": 10
   },
-  "Rudolpher": {
+  "Grumm": {
     "weight": 10
   },
-  "Rawrite": {
+  "davenonymous": {
+    "weight": 10
+  },
+  "ZeldoKavira": {
     "weight": 10
   },
   "Vash505": {
     "weight": 10
   },
-  "recneps1337": {
+  "SigmaLP": {
     "weight": 10
   },
-  "Islandsteve1": {
+  "OtherWorlds": {
     "weight": 10
   },
-  "linuxjoe1": {
+  "Sjin": {
+    "weight": 10
+  },
+  "Mhykol": {
+    "weight": 10
+  },
+  "Terraj459": {
     "weight": 10
   }
 }

@@ -19,15 +19,23 @@ setSingleBiome("minecraft:void")
 hell = new SkyIslandType("minecraft:hell")
 hell.disableBiomeBlockReplacement()
 hell.setMainBlock(<minecraft:netherrack>)
+hell.setFluidBlock(<minecraft:lava>)
 
 arctic_abyss = new SkyIslandType("nex:arctic_abyss")
+arctic_abyss.setMainBlock(<minecraft:netherrack>)
 
 fungi_forest = new SkyIslandType("nex:fungi_forest")
+fungi_forest.setMainBlock(<minecraft:netherrack>)
+fungi_forest.setFluidBlock(<minecraft:lava>)
 
 ruthless_sands = new SkyIslandType("nex:ruthless_sands")
+ruthless_sands.setMainBlock(<minecraft:netherrack>)
+ruthless_sands.setFluidBlock(<minecraft:lava>)
 
 
 torrid_wasteland = new SkyIslandType("nex:torrid_wasteland")
+torrid_wasteland.setMainBlock(<minecraft:netherrack>)
+torrid_wasteland.setFluidBlock(<minecraft:lava>)
 
 
 ////
@@ -35,6 +43,8 @@ torrid_wasteland = new SkyIslandType("nex:torrid_wasteland")
 ////
 spawn = new SkyIslandType("minecraft:hell")
 spawn.setMainBlock(<minecraft:netherrack>)
+spawn.disableBiomeBlockReplacement()
+spawn.disableFluid()
 //spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
 //spawn.setBlockInRange(<minecraft:gravel>, 0.16~0.19)
 //spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
@@ -47,20 +57,20 @@ spawn.setMainBlock(<minecraft:netherrack>)
 ////
 //Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
 ////
-skyIslands = new SkyIslandGenerator()
+skyIslands = new SkyIslandGeneratorV2()
 skyIslands.setRegionSize(50)
 addGenerator(skyIslands)
 
 
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
 //Spawn biomes
-large = skyIslands.addSkyIslands(36, 1, false)
+large = skyIslands.addSkyIslands(36, 36, 36, 1, false, 1)
 large.addType(spawn)
 
 
-//medium = skyIslands.addSkyIslands(50, 128, true)
-medium = skyIslands.addSkyIslands(64, 148, true)
-//medium.addType(mushroom_islandLapis)
+//medium = skyIslands.addSkyIslands(50, 50, 50, 128, true)
+medium = skyIslands.addSkyIslands(64, 64, 64, 1, true)
+medium.setWaterHeight(3)
 medium.addType(hell)
 medium.addType(arctic_abyss)
 medium.addType(fungi_forest)
@@ -74,7 +84,7 @@ medium.addType(torrid_wasteland)
 //tiny.addType(mushroom_island)
 
 
-spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 8)
+spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 2)
 spheres.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(spheres)
 

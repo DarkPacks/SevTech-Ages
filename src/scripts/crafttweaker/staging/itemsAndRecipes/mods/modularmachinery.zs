@@ -60,6 +60,7 @@ static stagedItems as IIngredient[][string] = {
 		<modularmachinery:blockinputbus:4>,
 		<modularmachinery:blockinputbus:5>,
 		<modularmachinery:blockinputbus:6>,
+	        <modularmachinery:blockoutputbus:0>,
 		<modularmachinery:blockoutputbus:2>,
 		<modularmachinery:blockoutputbus:3>,
 		<modularmachinery:blockoutputbus:4>,
@@ -73,8 +74,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
-	<modularmachinery:blockinputbus:0>,
-	<modularmachinery:blockoutputbus:0>
+	<modularmachinery:blockinputbus:0>
 ];
 
 static multiblockMachinesForStages as string[][string] = {

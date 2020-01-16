@@ -21,6 +21,7 @@ static stagedEnchants as IEnchantmentDefinition[][string] = {
 		<enchantment:abyssalcraft:dread>,
 		<enchantment:abyssalcraft:iron_wall>,
 		<enchantment:abyssalcraft:light_pierce>,
+		<enchantment:abyssalcraft:sapping>,
 		<enchantment:astralsorcery:enchantment.as.nightvision>,
 		<enchantment:astralsorcery:enchantment.as.smelting>,
 		<enchantment:bibliocraft:bibliocraft.deathcompassench>,

@@ -31,18 +31,32 @@ Mods Added:
 * Loading Screens
 
 Mod Updates:
+* AbyssalCraft (1.9.15)
+    * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
+    * Resolves crash with Materializer (#3967)
 * Astral Sorcery (1.10.20)
     * Carminite ghastlings are now harmed by Discidia Ritual (#3817)
 * Extra Planets (0.5.6)
 * Galacticraft (4.0.2.236)
     * Fixes an incompatibility with Sponge (#3909)
+* Immersive Engineering (0.12-92)
+    * Assembler is now able to craft staged and scripted recipes (#1803)
 * Primal Tech (0.3.5)
     * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
+    * Work stumps will visibly show when close to breaking
 * Recipe Stages (1.1.3)
     * Fixes an issue where JEI would display certain staged shaped recipes as shapeless (#3863)
-    * Work stumps will visibly show when close to breaking
-* The Betweenlands (3.4.11)
+* Streams (0.4.8)
+    * Resolves ecursive stream generation issue (#3902)
+* The Betweenlands (3.5.5)
     * Fixes an incompatibility with Optifine (#3865)
+    * Adds Volarkite
+    * Elixir of Starvation no longer causes negative saturation (#3982)
+* Triumph (3.19.2)
+
+Mods Removed:
+* ArcFurnacePatch
+* Tips
 
 ---------------------------------------------------------------------
 

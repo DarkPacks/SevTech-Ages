@@ -21,6 +21,7 @@ static stagedEnchants as IEnchantmentDefinition[][string] = {
 		<enchantment:abyssalcraft:dread>,
 		<enchantment:abyssalcraft:iron_wall>,
 		<enchantment:abyssalcraft:light_pierce>,
+		<enchantment:abyssalcraft:multi_rend>,
 		<enchantment:abyssalcraft:sapping>,
 		<enchantment:astralsorcery:enchantment.as.nightvision>,
 		<enchantment:astralsorcery:enchantment.as.smelting>,
@@ -76,12 +77,6 @@ function init() {
 	for stageName, enchantmentDefinitions in stagedEnchants {
 		var stage as Stage = ZenStager.getStage(stageName);
 
-		for enchantmentDefinition in enchantmentDefinitions {
-			for i in enchantmentDefinition.minLevel to (enchantmentDefinition.maxLevel + 1) {
-				var enchantment as IEnchantment = enchantmentDefinition.makeEnchantment(i);
-
-				stage.addIngredient(<minecraft:enchanted_book:0>.withTag({StoredEnchantments: enchantment.makeTag().ench}));
-			}
-		}
+		stage.addEnchantments(enchantmentDefinitions);
 	}
 }

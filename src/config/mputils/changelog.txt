@@ -52,6 +52,8 @@ Mod Updates:
     * Fixes an incompatibility with Optifine (#3865)
     * Adds Volarkite
     * Elixir of Starvation no longer causes negative saturation (#3982)
+* Tinkers' Complement (0.4.3)
+    * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
 * Triumph (3.19.2)
 
 Mods Removed:

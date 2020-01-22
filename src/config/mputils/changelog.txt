@@ -32,12 +32,16 @@ Mods Added:
 * Loading Screens
 
 Mod Updates:
+* Forge (14.23.5.2847)
 * AbyssalCraft (1.9.15)
     * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
     * Resolves crash with Materializer (#3967)
-* Astral Sorcery (1.10.20)
+* Astral Sorcery (1.10.21)
     * Carminite ghastlings are now harmed by Discidia Ritual (#3817)
+    * Fixes potion handler, players should no longer find themselves
+    invincible (#3874)
 * Extra Planets (0.5.6)
+* Foamfix (0.10.10)
 * Galacticraft (4.0.2.236)
     * Fixes an incompatibility with Sponge (#3909)
 * Immersive Engineering (0.12-92)
@@ -49,7 +53,7 @@ Mod Updates:
     * Fixes an issue where JEI would display certain staged shaped recipes as shapeless (#3863)
 * Streams (0.4.8)
     * Resolves ecursive stream generation issue (#3902)
-* The Betweenlands (3.5.5)
+* The Betweenlands (3.5.6)
     * Fixes an incompatibility with Optifine (#3865)
     * Adds Volarkite
     * Elixir of Starvation no longer causes negative saturation (#3982)

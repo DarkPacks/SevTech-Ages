@@ -60,6 +60,7 @@ Mod Updates:
 * Tinkers' Complement (0.4.3)
     * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
 * Triumph (3.19.2)
+* ZenStages (0.4.2)
 
 Mods Removed:
 * ArcFurnacePatch

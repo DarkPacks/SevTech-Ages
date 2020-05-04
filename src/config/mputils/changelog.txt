@@ -25,6 +25,7 @@ Bug Fixes:
 * Dupe bug as a result of TCon Crafting Station exposing Auto Chisel slots to JEI fixed (#3956)
 * Enchantments now staged by definition, meaning books remain hidden even in old worlds where enchant IDs are different
 * Properly stage the "easy" recipe for the Compacting Storage Drawer (#4100)
+* Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
 
 Enhancements:
 * Graves will now have their outline highlighted

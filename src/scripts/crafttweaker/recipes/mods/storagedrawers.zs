@@ -65,13 +65,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>]
 		]
 	],
-	<storagedrawers:compdrawers:0> : [
-		[
-			[metals.iron.plate, metals.compressedIron.plate, metals.iron.plate],
-			[<minecraft:piston:0>, <ore:drawerTrim>, <minecraft:piston:0>],
-			[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate]
-		]
-	],
 	<storagedrawers:upgrade_storage:3> : [
 		[
 			[<immersiveengineering:material:0>, <immersiveengineering:material:0>, <immersiveengineering:material:0>],
@@ -95,6 +88,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[metals.compressedIron.plate, metals.compressedIron.plate, metals.compressedIron.plate],
 				[<minecraft:comparator:0>, <ore:drawerTrim>, <minecraft:comparator:0>],
 				[metals.compressedIron.plate, metals.redstoneAlloy.plate, metals.compressedIron.plate]
+			]
+		]
+	},
+	<storagedrawers:compdrawers:0> : {
+		Utils.genRecipeName(stageFour, <storagedrawers:compdrawers:0>) : [
+			[
+				[metals.iron.plate, metals.compressedIron.plate, metals.iron.plate],
+				[<minecraft:piston:0>, <ore:drawerTrim>, <minecraft:piston:0>],
+				[metals.iron.plate, metals.redstoneAlloy.plate, metals.iron.plate]
 			]
 		]
 	}

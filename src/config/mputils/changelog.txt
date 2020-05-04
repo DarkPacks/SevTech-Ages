@@ -24,9 +24,12 @@ Bug Fixes:
 * Lapis blocks are now be chiselable (#3932)
 * Dupe bug as a result of TCon Crafting Station exposing Auto Chisel slots to JEI fixed (#3956)
 * Enchantments now staged by definition, meaning books remain hidden even in old worlds where enchant IDs are different
+* Properly stage the "easy" recipe for the Compacting Storage Drawer (#4100)
+* Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
 
 Enhancements:
 * Graves will now have their outline highlighted
+* Applied Energistics standard energy cells are now available in stage 4 (#4082)
 * Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
 
 Mods Added:
@@ -61,6 +64,7 @@ Mod Updates:
 * Tinkers' Complement (0.4.3)
     * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
 * Triumph (3.19.2)
+* ZenStages (0.4.2)
 
 Mods Removed:
 * ArcFurnacePatch

@@ -13,6 +13,9 @@ src/config/jei/bookmarks.ini
 src/config/jei/worldSettings.cfg
 src/config/jei/lookupHistory.zip
 src/config/buildcraft/detailed.properties
+src/journeymap/data/*
+src/journeymap/server/*
+src/journeymap/journeymap.log
 
 # Other
 src/config/worldutils/*

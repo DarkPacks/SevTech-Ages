@@ -52,6 +52,7 @@ Mod Updates:
     * Fixes an incompatibility with Sponge (#3909)
 * Immersive Engineering (0.12-92)
     * Assembler is now able to craft staged and scripted recipes (#1803)
+* JustEnoughIDs (1.0.3-48)
 * Primal Tech (0.3.5)
     * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
     * Work stumps will visibly show when close to breaking
@@ -70,6 +71,8 @@ Mod Updates:
 
 Mods Removed:
 * ArcFurnacePatch
+* JustEnoughIDs Integration
+    * Deprecated with JEIDs update
 * Tips
 
 ---------------------------------------------------------------------

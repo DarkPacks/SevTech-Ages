@@ -10,6 +10,9 @@ setRequiresParents()
 setRequirements("any")
 
 //Criteria
+criteria0 = addCriteria("hasRock0", "minecraft:inventory_changed")
+criteria0.setItem("vc:airships/item_airship", 0)
+
 criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
 criteria1.setItem("vc:airships/item_airship", 1)
 
@@ -21,6 +24,9 @@ criteria3.setItem("vc:airships/item_airship", 3)
 
 criteria4 = addCriteria("hasRock4", "minecraft:inventory_changed")
 criteria4.setItem("vc:airships/item_airship", 4)
+
+criteria5 = addCriteria("hasRock0", "minecraft:inventory_changed")
+criteria5.setItem("vc:airships/item_airship", 5)
 
 //Rewards
 setRewardExperience(8)

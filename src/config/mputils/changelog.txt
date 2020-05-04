@@ -28,6 +28,7 @@ Bug Fixes:
 * Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
 * Removed recipe for TConstruct EFLN (as it was not intended to be craftable) (#4062)
 * Fix Biodiesel not working with UltimateCarMod (#3885)
+* Base tier Viescraft airship now triggers advancement (#4021)
 
 Enhancements:
 * Graves will now have their outline highlighted

@@ -27,6 +27,7 @@ Bug Fixes:
 * Properly stage the "easy" recipe for the Compacting Storage Drawer (#4100)
 * Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
 * Removed recipe for TConstruct EFLN (as it was not intended to be craftable) (#4062)
+* Fix Biodiesel not working with UltimateCarMod (#3885)
 
 Enhancements:
 * Graves will now have their outline highlighted

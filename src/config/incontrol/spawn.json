@@ -170,5 +170,10 @@
         "mob": "emberroot:dire_wolf",
         "minlight": 8,
         "result": "deny"
+    },
+    {
+        "mod": "jaff",
+        "mincount": "30",
+        "result": "deny"
     }
 ]

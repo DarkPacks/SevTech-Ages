@@ -1,174 +1,174 @@
 [
-  {
-    "mob": "Horse",
-    "mincount": "30,Horse",
-    "result": "deny"
-  },
-  {
-    "mob": "Squid",
-    "mincount": "30,Squid",
-    "result": "deny"
-  },
-  {
-    "mob": "Parrot",
-    "mincount": "15,Parrot",
-    "result": "deny"
-  },
-  {
-    "mob": "trumpetskeleton:trumpet_skeleton",
-    "dimension": 1,
-    "result": "deny"
-  },
-  {
-    "mob": [
-      "abyssalcraft:abygolem",
-      "abyssalcraft:abyssalzombie",
-      "abyssalcraft:antiabyssalzombie",
-      "abyssalcraft:antibat",
-      "abyssalcraft:antichicken",
-      "abyssalcraft:anticow",
-      "abyssalcraft:anticreeper",
-      "abyssalcraft:antighoul",
-      "abyssalcraft:antipig",
-      "abyssalcraft:antiplayer",
-      "abyssalcraft:antiskeleton",
-      "abyssalcraft:antispider",
-      "abyssalcraft:antizombie",
-      "abyssalcraft:chagaroth",
-      "abyssalcraft:chagarothfist",
-      "abyssalcraft:chagarothspawn",
-      "abyssalcraft:coraliumarrow",
-      "abyssalcraft:coraliumsquid",
-      "abyssalcraft:demonchicken",
-      "abyssalcraft:demoncow",
-      "abyssalcraft:demonpig",
-      "abyssalcraft:demonsheep",
-      "abyssalcraft:depthsghoul",
-      "abyssalcraft:dragonboss",
-      "abyssalcraft:dragonminion",
-      "abyssalcraft:dreadgolem",
-      "abyssalcraft:dreadguard",
-      "abyssalcraft:dreadling",
-      "abyssalcraft:dreadslug",
-      "abyssalcraft:dreadspawn",
-      "abyssalcraft:evilchicken",
-      "abyssalcraft:evilcow",
-      "abyssalcraft:evilpig",
-      "abyssalcraft:evilsheep",
-      "abyssalcraft:gatekeeperessence",
-      "abyssalcraft:greaterdreadspawn",
-      "abyssalcraft:gskeleton",
-      "abyssalcraft:inkprojectile",
-      "abyssalcraft:jzahar",
-      "abyssalcraft:jzaharminion",
-      "abyssalcraft:lesserdreadbeast",
-      "abyssalcraft:lessershoggoth",
-      "abyssalcraft:omotholghoul",
-      "abyssalcraft:powerstonetracker",
-      "abyssalcraft:primedodb",
-      "abyssalcraft:primedodbcore",
-      "abyssalcraft:remnant",
-      "abyssalcraft:shadowbeast",
-      "abyssalcraft:shadowboss",
-      "abyssalcraft:shadowcreature",
-      "abyssalcraft:shadowmonster",
-      "animalium:bear",
-      "animalium:bear_tamed",
-      "animalium:piranha",
-      "animalium:rat",
-      "animalium:wild_dog",
-      "primal:bear_black",
-      "primal:bear_brown",
-      "primal:canis_campestris",
-      "primal:creeper_nether",
-      "primal:gator",
-      "primal:ovis_atre",
-      "primal:rock",
-      "primal:shark_hammerhead",
-      "Blaze",
-      "trumpetskeleton:trumpet_skeleton"
-    ],
-    "dimension": 7,
-    "result": "deny"
-  },
-  {
-    "mob": "natura:imp",
-    "mincount": "15,natura:imp",
-    "result": "deny"
-  },
-  {
-    "mob": "abyssalcraft:lessershoggoth",
-    "result": "default",
-    "onjoin": true,
-    "nbt": {
-      "Attributes": [
-        {
-          "Base": 50.0,
-          "Name": "generic.maxHealth"
+    {
+        "mob": "Horse",
+        "mincount": "30,Horse",
+        "result": "deny"
+    },
+    {
+        "mob": "Squid",
+        "mincount": "30,Squid",
+        "result": "deny"
+    },
+    {
+        "mob": "Parrot",
+        "mincount": "15,Parrot",
+        "result": "deny"
+    },
+    {
+        "mob": "trumpetskeleton:trumpet_skeleton",
+        "dimension": 1,
+        "result": "deny"
+    },
+    {
+        "mob": [
+            "abyssalcraft:abygolem",
+            "abyssalcraft:abyssalzombie",
+            "abyssalcraft:antiabyssalzombie",
+            "abyssalcraft:antibat",
+            "abyssalcraft:antichicken",
+            "abyssalcraft:anticow",
+            "abyssalcraft:anticreeper",
+            "abyssalcraft:antighoul",
+            "abyssalcraft:antipig",
+            "abyssalcraft:antiplayer",
+            "abyssalcraft:antiskeleton",
+            "abyssalcraft:antispider",
+            "abyssalcraft:antizombie",
+            "abyssalcraft:chagaroth",
+            "abyssalcraft:chagarothfist",
+            "abyssalcraft:chagarothspawn",
+            "abyssalcraft:coraliumarrow",
+            "abyssalcraft:coraliumsquid",
+            "abyssalcraft:demonchicken",
+            "abyssalcraft:demoncow",
+            "abyssalcraft:demonpig",
+            "abyssalcraft:demonsheep",
+            "abyssalcraft:depthsghoul",
+            "abyssalcraft:dragonboss",
+            "abyssalcraft:dragonminion",
+            "abyssalcraft:dreadgolem",
+            "abyssalcraft:dreadguard",
+            "abyssalcraft:dreadling",
+            "abyssalcraft:dreadslug",
+            "abyssalcraft:dreadspawn",
+            "abyssalcraft:evilchicken",
+            "abyssalcraft:evilcow",
+            "abyssalcraft:evilpig",
+            "abyssalcraft:evilsheep",
+            "abyssalcraft:gatekeeperessence",
+            "abyssalcraft:greaterdreadspawn",
+            "abyssalcraft:gskeleton",
+            "abyssalcraft:inkprojectile",
+            "abyssalcraft:jzahar",
+            "abyssalcraft:jzaharminion",
+            "abyssalcraft:lesserdreadbeast",
+            "abyssalcraft:lessershoggoth",
+            "abyssalcraft:omotholghoul",
+            "abyssalcraft:powerstonetracker",
+            "abyssalcraft:primedodb",
+            "abyssalcraft:primedodbcore",
+            "abyssalcraft:remnant",
+            "abyssalcraft:shadowbeast",
+            "abyssalcraft:shadowboss",
+            "abyssalcraft:shadowcreature",
+            "abyssalcraft:shadowmonster",
+            "animalium:bear",
+            "animalium:bear_tamed",
+            "animalium:piranha",
+            "animalium:rat",
+            "animalium:wild_dog",
+            "primal:bear_black",
+            "primal:bear_brown",
+            "primal:canis_campestris",
+            "primal:creeper_nether",
+            "primal:gator",
+            "primal:ovis_atre",
+            "primal:rock",
+            "primal:shark_hammerhead",
+            "Blaze",
+            "trumpetskeleton:trumpet_skeleton"
+        ],
+        "dimension": 7,
+        "result": "deny"
+    },
+    {
+        "mob": "natura:imp",
+        "mincount": "15,natura:imp",
+        "result": "deny"
+    },
+    {
+        "mob": "abyssalcraft:lessershoggoth",
+        "result": "default",
+        "onjoin": true,
+        "nbt": {
+            "Attributes": [
+                {
+                    "Base": 50.0,
+                    "Name": "generic.maxHealth"
+                }
+            ],
+            "Health": 50.0
         }
-      ],
-      "Health": 50.0
-    }
-  },
-  {
-    "mob": "abyssalcraft:shadowbeast",
-    "result": "default",
-    "onjoin": true,
-    "nbt": {
-      "Attributes": [
-        {
-          "Base": 50.0,
-          "Name": "generic.maxHealth"
+    },
+    {
+        "mob": "abyssalcraft:shadowbeast",
+        "result": "default",
+        "onjoin": true,
+        "nbt": {
+            "Attributes": [
+                {
+                    "Base": 50.0,
+                    "Name": "generic.maxHealth"
+                }
+            ],
+            "Health": 50.0
         }
-      ],
-      "Health": 50.0
-    }
-  },
-  {
-    "mob": "abyssalcraft:shadowcreature",
-    "result": "default",
-    "onjoin": true,
-    "nbt": {
-      "Attributes": [
-        {
-          "Base": 10.0,
-          "Name": "generic.maxHealth"
+    },
+    {
+        "mob": "abyssalcraft:shadowcreature",
+        "result": "default",
+        "onjoin": true,
+        "nbt": {
+            "Attributes": [
+                {
+                    "Base": 10.0,
+                    "Name": "generic.maxHealth"
+                }
+            ],
+            "Health": 10.0
         }
-      ],
-      "Health": 10.0
-    }
-  },
-  {
-    "mob": "abyssalcraft:shadowmonster",
-    "result": "default",
-    "onjoin": true,
-    "nbt": {
-      "Attributes": [
-        {
-          "Base": 35.0,
-          "Name": "generic.maxHealth"
+    },
+    {
+        "mob": "abyssalcraft:shadowmonster",
+        "result": "default",
+        "onjoin": true,
+        "nbt": {
+            "Attributes": [
+                {
+                    "Base": 35.0,
+                    "Name": "generic.maxHealth"
+                }
+            ],
+            "Health": 35.0
         }
-      ],
-      "Health": 35.0
-    }
-  },
-  {
-    "mob": "primal:canis_campestris",
-    "result": "default",
-    "onjoin": true,
-    "nbt": {
-      "Attributes": [
-        {
-          "Base": 12.5,
-          "Name": "generic.maxHealth"
+    },
+    {
+        "mob": "primal:canis_campestris",
+        "result": "default",
+        "onjoin": true,
+        "nbt": {
+            "Attributes": [
+                {
+                    "Base": 12.5,
+                    "Name": "generic.maxHealth"
+                }
+            ],
+            "Health": 12.5
         }
-      ],
-      "Health": 12.5
+    },
+    {
+        "mob": "emberroot:dire_wolf",
+        "minlight": 8,
+        "result": "deny"
     }
-  },
-  {
-    "mob": "emberroot:dire_wolf",
-    "minlight": 8,
-    "result": "deny"
-  }
 ]

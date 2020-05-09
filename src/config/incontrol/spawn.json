@@ -175,5 +175,40 @@
         "mod": "jaff",
         "mincount": "15",
         "result": "deny"
+    },
+    {
+        "mob": "primal:canis_campestris",
+        "mincount": "15",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:pig",
+        "mincount": "100",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:cow",
+        "mincount": "100",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:sheep",
+        "mincount": "100",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:chicken",
+        "mincount": "100",
+        "result": "deny"
+    },
+    {
+        "mob": "primal:shark_hammerhead",
+        "maxcount": 2,
+        "result": "allow"
+    },
+    {
+        "mob": "primal:shark_hammerhead",
+        "mincount": 4,
+        "result": "deny"
     }
 ]

@@ -41,5 +41,17 @@
                 "groupcountmax": 2
             }
         ]
+    },
+    {
+        "dimension": 0,
+        "block": "minecraft:water",
+        "mobs": [
+            {
+                "mob": "primal:shark_hammerhead",
+                "weight": 100,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
     }
 ]

@@ -34,7 +34,11 @@ Enhancements:
 * Graves will now have their outline highlighted
 * Applied Energistics standard energy cells are now available in stage 4 (#4082)
 * Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
-* Limited the amount of JAFF fish from spawning to 15 to reduce lag
+* Adjusted the spawning of many mobs to reduce lag or increase diversity:
+    * Limited the amount of JAFF fishes to 15
+    * Increased weight of hammerhead sharks and applied minimums and maximums
+    * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
+    * Limited the amount of Steppe wolves to 15
 
 Mods Added:
 * Loading Screens

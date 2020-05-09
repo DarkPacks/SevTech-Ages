@@ -42,6 +42,7 @@ Enhancements:
 
 Mods Added:
 * Loading Screens
+* SevPatches
 
 Mod Updates:
 * Forge (14.23.5.2847)

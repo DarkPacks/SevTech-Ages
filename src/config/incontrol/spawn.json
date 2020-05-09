@@ -173,7 +173,7 @@
     },
     {
         "mod": "jaff",
-        "mincount": "30",
+        "mincount": "15",
         "result": "deny"
     }
 ]

@@ -34,7 +34,7 @@ Enhancements:
 * Graves will now have their outline highlighted
 * Applied Energistics standard energy cells are now available in stage 4 (#4082)
 * Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
-* Limited the amount of JAFF fish from spawning to 30 to reduce lag
+* Limited the amount of JAFF fish from spawning to 15 to reduce lag
 
 Mods Added:
 * Loading Screens

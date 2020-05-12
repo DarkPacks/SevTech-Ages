@@ -19,6 +19,12 @@ Enhancements:
 * Added Loading Screens for a better player experience!
 * The Hunting Dimension will now generate terrain based on the overworld
 
+Mods Added:
+* Topography
+
+Mod Updates:
+* Dimensional Control (2.13.0)
+
 ---------------------------------------------------------------------
 
 3.1.3

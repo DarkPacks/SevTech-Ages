@@ -117,6 +117,8 @@ function init() {
 	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);
 	mekanism.addCrusher(<actuallyadditions:item_misc:5>, <actuallyadditions:item_dust:7>);
 	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
+	mekanism.addCrusher(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>);
+	mekanism.addCrusher(<astralsorcery:blockcustomore:1>, <astralsorcery:itemcraftingcomponent:2> * 2);
 
 	/*
 		Saw

@@ -90,11 +90,11 @@
           "Count": {
             "min": 2,
             "max": 5
-          },
-          "sell": {
-            "id": "darkutils:charm_sleep",
-            "Count": 1
           }
+        },
+        "sell": {
+          "id": "darkutils:charm_sleep",
+          "Count": 1
         }
       }
     ]

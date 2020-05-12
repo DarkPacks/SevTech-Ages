@@ -35,17 +35,66 @@ Bug Fixes:
 * Update Tartaric Forge removed recipes as changed upstream (#3942)
 * Vanilla bookshelves can now only be crafted using vanilla planks, preventing conflict with natura (#3940)
 * Lapis blocks are now be chiselable (#3932)
+* Dupe bug as a result of TCon Crafting Station exposing Auto Chisel slots to JEI fixed (#3956)
+* Enchantments now staged by definition, meaning books remain hidden even in old worlds where enchant IDs are different
+* Properly stage the "easy" recipe for the Compacting Storage Drawer (#4100)
+* Re-Added Cyclic GPS Marker for use in the Sensor Display (#4093)
+* Removed recipe for TConstruct EFLN (as it was not intended to be craftable) (#4062)
+* Fix Biodiesel not working with UltimateCarMod (#3885)
+* Base tier Viescraft airship now triggers advancement (#4021)
+* Blacklisted The Betweenland's Item Shelf from carryon to prevent item loss (#4121)
+
+Enhancements:
+* Graves will now have their outline highlighted
+* Applied Energistics standard energy cells are now available in stage 4 (#4082)
+* Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
+* Adjusted the spawning of many mobs to reduce lag or increase diversity:
+    * Limited the amount of JAFF fishes to 15
+    * Increased weight of hammerhead sharks and applied minimums and maximums
+    * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
+    * Limited the amount of Steppe wolves to 15
+
+Mods Added:
+* Loading Screens
+* SevPatches
 
 Mod Updates:
-* Astral Sorcery (1.10.20)
+* Forge (14.23.5.2847)
+* AbyssalCraft (1.9.15)
+    * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
+    * Resolves crash with Materializer (#3967)
+* Astral Sorcery (1.10.21)
     * Carminite ghastlings are now harmed by Discidia Ritual (#3817)
+    * Fixes potion handler, players should no longer find themselves
+    invincible (#3874)
 * Extra Planets (0.5.6)
+* Foamfix (0.10.10)
 * Galacticraft (4.0.2.236)
     * Fixes an incompatibility with Sponge (#3909)
+* Immersive Engineering (0.12-92)
+    * Assembler is now able to craft staged and scripted recipes (#1803)
+* JustEnoughIDs (1.0.3-55)
+* Primal Tech (0.3.5)
+    * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
+    * Work stumps will visibly show when close to breaking
 * Recipe Stages (1.1.3)
     * Fixes an issue where JEI would display certain staged shaped recipes as shapeless (#3863)
-* The Betweenlands (3.4.11)
+* Streams (0.4.8)
+    * Resolves ecursive stream generation issue (#3902)
+* The Betweenlands (3.5.6)
     * Fixes an incompatibility with Optifine (#3865)
+    * Adds Volarkite
+    * Elixir of Starvation no longer causes negative saturation (#3982)
+* Tinkers' Complement (0.4.3)
+    * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
+* Triumph (3.19.2)
+* ZenStages (0.4.2)
+
+Mods Removed:
+* ArcFurnacePatch
+* JustEnoughIDs Integration
+    * Deprecated with JEIDs update
+* Tips
 
 ---------------------------------------------------------------------
 

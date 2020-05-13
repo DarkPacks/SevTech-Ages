@@ -53,7 +53,7 @@ Mods Added:
 * SevPatches
 
 Mod Updates:
-* Forge (14.23.5.2847)
+* Forge (14.23.5.2854)
 * AbyssalCraft (1.9.15)
     * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
     * Resolves crash with Materializer (#3967)

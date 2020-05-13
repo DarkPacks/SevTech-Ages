@@ -21,9 +21,19 @@ static sawRecipes as IIngredient[][IItemStack] = {
 	],
 	<thebetweenlands:nibblestick:0>: [
 		<thebetweenlands:nibbletwig_planks:0>
+	],
+	<natura:nether_planks:1>: [
+		<natura:nether_logs2:*>
 	]
 };
 
+// Sticks to be turned into a dust at a 1:1 ratio
+static sticksToDust as IItemStack[] = [
+	<natura:sticks:*>,
+	<ore:stickWood>.firstItem,
+	<primal:yew_stick>,
+	<thebetweenlands:items_misc:20>
+];
 
 // These recipes must be explicitly removed - for some reason oredict removal doesn't catch them.
 static sawRecipeRemove as IIngredient[] = [
@@ -89,12 +99,12 @@ function init() {
 	mekanism.addInfusion("CARBON", 10, <mekanism:enrichediron:0>, metals.steel.dust.firstItem);
 
 	mekanism.addInfusion("DIAMOND", 80, <ironchest:iron_chest:1>, <ironchest:iron_chest:2>);
-	
+
 	/*
 		Energized Smelter
 	*/
 	mekanism.removeSmelter(<betterwithaddons:japanmat:4>);
-	
+
 	/*
 		Crusher
 	*/
@@ -107,6 +117,8 @@ function init() {
 	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);
 	mekanism.addCrusher(<actuallyadditions:item_misc:5>, <actuallyadditions:item_dust:7>);
 	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
+	mekanism.addCrusher(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>);
+	mekanism.addCrusher(<astralsorcery:blockcustomore:1>, <astralsorcery:itemcraftingcomponent:2> * 2);
 
 	/*
 		Saw
@@ -122,6 +134,10 @@ function init() {
 				mekanism.addSawmill(input, output * 6, <ore:dustWood>.firstItem, 0.25);
 			}
 		}
+	}
+
+	for input in sticksToDust {
+		mekanism.addSawmill(input, <ore:dustWood>.firstItem);
 	}
 
 	// Jukebox handling

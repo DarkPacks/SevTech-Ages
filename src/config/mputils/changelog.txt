@@ -26,6 +26,7 @@ Bug Fixes:
 
 Enhancements:
 * Graves will now have their outline highlighted
+* Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
 
 Mods Added:
 * Loading Screens

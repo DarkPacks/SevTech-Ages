@@ -11,6 +11,7 @@
 */
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 import mod.mekanism.gas.IGasStack;
 
@@ -22,6 +23,7 @@ import mods.mekanism.crusher as Crusher;
 import mods.mekanism.enrichment as Enrichment;
 import mods.mekanism.infuser as Infuser;
 import mods.mekanism.purification as PurificationChamber;
+import mods.mekanism.reaction as PressurisedReactionChamber;
 import mods.mekanism.sawmill as Sawmill;
 import mods.mekanism.smelter as Smelter;
 
@@ -42,14 +44,14 @@ zenClass Mekanism {
 	/*
 		Add a Enrichment Chamber Recipe
 	*/
-	function addEnrichment(input as IItemStack, output as IItemStack) {
+	function addEnrichment(input as IIngredient, output as IItemStack) {
 		Enrichment.addRecipe(input, output);
 	}
 
 	/*
 		Add a Chemical Injection Chamber Recipe
 	*/
-	function addChemicalInjection(input as IItemStack, gasInput as IGasStack, output as IItemStack) {
+	function addChemicalInjection(input as IIngredient, gasInput as IGasStack, output as IItemStack) {
 		Injection.addRecipe(input, gasInput, output);
 	}
 
@@ -63,7 +65,7 @@ zenClass Mekanism {
 	/*
 		Add a Combiner Recipe
 	*/
-	function addCombiner(input as IItemStack, extraInput as IItemStack, output as IItemStack) {
+	function addCombiner(input as IIngredient, extraInput as IIngredient, output as IItemStack) {
 		Combiner.addRecipe(input, extraInput, output);
 	}
 
@@ -83,7 +85,7 @@ zenClass Mekanism {
 	/*
 		Add a Crusher Recipe
 	*/
-	function addCrusher(input as IItemStack, output as IItemStack) {
+	function addCrusher(input as IIngredient, output as IItemStack) {
 		Crusher.addRecipe(input, output);
 	}
 
@@ -100,7 +102,7 @@ zenClass Mekanism {
 	/*
 		Add an Infuser Recipe
 	*/
-	function addInfusion(infusionType as string, toConsume as int, input as IItemStack, output as IItemStack) {
+	function addInfusion(infusionType as string, toConsume as int, input as IIngredient, output as IItemStack) {
 		Infuser.addRecipe(infusionType, toConsume, input, output);
 	}
 
@@ -134,7 +136,7 @@ zenClass Mekanism {
 	/*
 		Add an Energized Smelter Recipe
 	*/
-	function addSmelter(input as IItemStack, output as IItemStack) {
+	function addSmelter(input as IIngredient, output as IItemStack) {
 		Smelter.addRecipe(input, output);
 	}
 
@@ -151,10 +153,10 @@ zenClass Mekanism {
 	/*
 		Add an Osmium Compressor Recipe
 	*/
-	function addCompressor(input as IItemStack, output as IItemStack) {
+	function addCompressor(input as IIngredient, output as IItemStack) {
 		Compressor.addRecipe(input, output);
 	}
-	function addCompressor(input as IItemStack, inputGas as IGasStack, output as IItemStack) {
+	function addCompressor(input as IIngredient, inputGas as IGasStack, output as IItemStack) {
 		Compressor.addRecipe(input, inputGas, output);
 	}
 
@@ -171,10 +173,10 @@ zenClass Mekanism {
 	/*
 		Add a Sawmill Recipe
 	*/
-	function addSawmill(input as IItemStack, output as IItemStack) {
+	function addSawmill(input as IIngredient, output as IItemStack) {
 		Sawmill.addRecipe(input, output);
 	}
-	function addSawmill(input as IItemStack, output as IItemStack, bonusOutput as IItemStack, bonusChance as double) {
+	function addSawmill(input as IIngredient, output as IItemStack, bonusOutput as IItemStack, bonusChance as double) {
 		Sawmill.addRecipe(input, output, bonusOutput, bonusChance);
 	}
 
@@ -194,10 +196,10 @@ zenClass Mekanism {
 	/*
 		Add a Purification Chamber Recipe
 	*/
-	function addPurification(input as IItemStack, output as IItemStack) {
+	function addPurification(input as IIngredient, output as IItemStack) {
 		PurificationChamber.addRecipe(input, output);
 	}
-	function addPurification(input as IItemStack, inputGas as IGasStack, output as IItemStack) {
+	function addPurification(input as IIngredient, inputGas as IGasStack, output as IItemStack) {
 		PurificationChamber.addRecipe(input, inputGas, output);
 	}
 
@@ -209,5 +211,24 @@ zenClass Mekanism {
 	}
 	function removePurification(output as IItemStack, input as IIngredient, inputGas as IIngredient) {
 		PurificationChamber.removeRecipe(output, input, inputGas);
+	}
+
+	/*
+		Add a Pressurised Reaction Chamber Recipe
+
+		An energy value of 0.0 uses a default value in Mekanism
+	*/
+	function addPRC(itemInput as IIngredient, liquidInput as ILiquidStack, gasInput as IGasStack, itemOutput as IItemStack, gasOutput as IGasStack, energy as double, duration as int) {
+		PressurisedReactionChamber.addRecipe(itemInput, liquidInput, gasInput, itemOutput, gasOutput, energy, duration);
+	}
+
+	/*
+		Remove a Pressurised Reaction Chamber Recipe
+	*/
+	function removePRC(itemOutput as IIngredient, gasOutput as IGasStack) {
+		PressurisedReactionChamber.removeRecipe(itemOutput, gasOutput);
+	}
+	function removePRC(itemOutput as IIngredient, gasOutput as IGasStack, itemInput as IIngredient, liquidInput as ILiquidStack, gasInput as IGasStack) {
+		PressurisedReactionChamber.removeRecipe(itemOutput, gasOutput, itemInput, liquidInput, gasInput);
 	}
 }

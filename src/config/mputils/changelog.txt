@@ -68,6 +68,7 @@ Mod Updates:
 * Immersive Engineering (0.12-92)
     * Assembler is now able to craft staged and scripted recipes (#1803)
 * JustEnoughIDs (1.0.3-55)
+* Mekanism (9.8.3.390)
 * Primal Tech (0.3.5)
     * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
     * Work stumps will visibly show when close to breaking

@@ -136,6 +136,10 @@ function init() {
 		}
 	}
 
+	// Slabs to sticks - re-create as they output mekanism sawdust
+	mekanism.removeSawmill(<ore:slabWood>);
+	mekanism.addSawmill(<ore:slabWood>, <ore:stickWood>.firstItem * 3, <ore:dustWood>.firstItem, 0.13);
+
 	for input in sticksToDust {
 		mekanism.addSawmill(input, <ore:dustWood>.firstItem);
 	}
@@ -143,4 +147,10 @@ function init() {
 	// Jukebox handling
 	mekanism.removeSawmill(<minecraft:jukebox:0> as IIngredient);
 	mekanism.addSawmill(<minecraft:jukebox:0>, <minecraft:planks:0> * 8, <minecraft:quartz:0>, 1.0);
+
+	/*
+		Pressurised Reaction Chamber
+	*/
+	// mekanism.removePRC(null, <gas:hydrogen>, <mekanism:sawdust>, <liquid:water>, <gas:oxygen>); // TODO: Was not able to remove the recipe
+	mekanism.addPRC(<ore:dustWood>, <liquid:water> * 20, <gas:oxygen> * 20, null, <gas:hydrogen> * 20, 0.0, 30);
 }

@@ -6,7 +6,7 @@
   "speed": 0.5,
   "fluids": [{
    "efficiency": 0.3,
-   "fluid": "bio_diesel"
+   "fluid": "biodiesel"
   }]
  },
  {
@@ -16,7 +16,7 @@
   "speed": 0.48,
   "fluids": [{
    "efficiency": 0.2,
-   "fluid": "bio_diesel"
+   "fluid": "biodiesel"
   }]
  },
  {
@@ -26,7 +26,7 @@
   "speed": 0.4,
   "fluids": [{
    "efficiency": 0.3,
-   "fluid": "bio_diesel"
+   "fluid": "biodiesel"
   }]
  },
  {
@@ -36,7 +36,7 @@
   "speed": 0.65,
   "fluids": [{
    "efficiency": 0.12,
-   "fluid": "bio_diesel"
+   "fluid": "biodiesel"
   }]
  }
 ]}

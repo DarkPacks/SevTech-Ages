@@ -1,0 +1,427 @@
+{
+  "schema": 2,
+  "author": "techbrew",
+  "name": "EndCity",
+  "directory": "flat",
+  "container": {
+    "toolbar": {
+      "horizontal": {
+        "useThemeImages": true,
+        "prefix": "h",
+        "margin": 4,
+        "padding": 0,
+        "begin": {
+          "width": 0,
+          "height": 24,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        },
+        "inner": {
+          "width": 24,
+          "height": 24,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        },
+        "end": {
+          "width": 0,
+          "height": 24,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        }
+      },
+      "vertical": {
+        "useThemeImages": true,
+        "prefix": "v",
+        "margin": 4,
+        "padding": 0,
+        "begin": {
+          "width": 24,
+          "height": 0,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        },
+        "inner": {
+          "width": 24,
+          "height": 24,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        },
+        "end": {
+          "width": 24,
+          "height": 0,
+          "color": "#1F1D2D",
+          "alpha": 0.8
+        }
+      }
+    }
+  },
+  "control": {
+    "button": {
+      "useThemeImages": true,
+      "width": 24,
+      "height": 24,
+      "prefix": "flat_",
+      "tooltipOnStyle": "§b",
+      "tooltipOffStyle": "§7",
+      "tooltipDisabledStyle": "§8",
+      "iconOn": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "iconOff": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "iconHoverOn": {
+        "color": "#CEB46A",
+        "alpha": 1.0
+      },
+      "iconHoverOff": {
+        "color": "#CEB46A",
+        "alpha": 1.0
+      },
+      "iconDisabled": {
+        "color": "#362744",
+        "alpha": 1.0
+      },
+      "buttonOn": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "buttonOff": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "buttonHoverOn": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "buttonHoverOff": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "buttonDisabled": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      }
+    },
+    "toggle": {
+      "useThemeImages": true,
+      "width": 24,
+      "height": 24,
+      "prefix": "flat_",
+      "tooltipOnStyle": "§b",
+      "tooltipOffStyle": "§7",
+      "tooltipDisabledStyle": "§8",
+      "iconOn": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "iconOff": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "iconHoverOn": {
+        "color": "#CEB46A",
+        "alpha": 1.0
+      },
+      "iconHoverOff": {
+        "color": "#CEB46A",
+        "alpha": 1.0
+      },
+      "iconDisabled": {
+        "color": "#362744",
+        "alpha": 1.0
+      },
+      "buttonOn": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "buttonOff": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "buttonHoverOn": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "buttonHoverOff": {
+        "color": "#5A5470",
+        "alpha": 1.0
+      },
+      "buttonDisabled": {
+        "color": "#362744",
+        "alpha": 1.0
+      }
+    }
+  },
+  "fullscreen": {
+    "background": {
+      "color": "#362744",
+      "alpha": 0.8
+    },
+    "statusLabel": {
+      "margin": 0,
+      "background": {
+        "color": "#1F1D2D",
+        "alpha": 0.7
+      },
+      "foreground": {
+        "color": "#EAEE9A",
+        "alpha": 1.0
+      },
+      "highlight": {
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "shadow": false
+    }
+  },
+  "icon": {
+    "width": 24,
+    "height": 24,
+    "color": "#ffffff",
+    "alpha": 1.0
+  },
+  "minimap": {
+    "circle": {
+      "rim256": {
+        "width": 256,
+        "height": 256,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "mask256": {
+        "width": 256,
+        "height": 256,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "rim512": {
+        "width": 512,
+        "height": 512,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "mask512": {
+        "width": 512,
+        "height": 512,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "rotates": false,
+      "margin": 6,
+      "labelTop": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.7
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "labelTopInside": false,
+      "labelBottom": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.7
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "labelBottomInside": false,
+      "compassLabel": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.0
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "compassPoint": {
+        "width": 16,
+        "height": 16,
+        "color": "#362744",
+        "alpha": 0.5
+      },
+      "compassPointLabelPad": 0,
+      "compassPointOffset": -14.0,
+      "compassShowNorth": true,
+      "compassShowSouth": true,
+      "compassShowEast": true,
+      "compassShowWest": true,
+      "waypointOffset": 0.0,
+      "reticle": {
+        "color": "#5A5470",
+        "alpha": 0.4
+      },
+      "reticleHeading": {
+        "color": "#5A5470",
+        "alpha": 0.4
+      },
+      "reticleThickness": 1.25,
+      "reticleHeadingThickness": 2.25,
+      "reticleOffsetOuter": 30,
+      "reticleOffsetInner": 20,
+      "frame": {
+        "color": "#362744",
+        "alpha": 1.0
+      },
+      "prefix": "flat_"
+    },
+    "square": {
+      "topLeft": {
+        "width": 8,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "top": {
+        "width": 1,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "topRight": {
+        "width": 8,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "right": {
+        "width": 8,
+        "height": 1,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "bottomRight": {
+        "width": 8,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "bottom": {
+        "width": 1,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "bottomLeft": {
+        "width": 8,
+        "height": 8,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "left": {
+        "width": 8,
+        "height": 1,
+        "color": "#ffffff",
+        "alpha": 1.0
+      },
+      "margin": 6,
+      "labelTop": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.7
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "labelTopInside": false,
+      "labelBottom": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.7
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "labelBottomInside": false,
+      "compassLabel": {
+        "margin": 0,
+        "background": {
+          "color": "#1F1D2D",
+          "alpha": 0.0
+        },
+        "foreground": {
+          "color": "#EAEE9A",
+          "alpha": 1.0
+        },
+        "highlight": {
+          "color": "#ffffff",
+          "alpha": 1.0
+        },
+        "shadow": false
+      },
+      "compassPoint": {
+        "width": 16,
+        "height": 16,
+        "color": "#362744",
+        "alpha": 0.5
+      },
+      "compassPointLabelPad": 0,
+      "compassPointOffset": -12.0,
+      "compassShowNorth": true,
+      "compassShowSouth": true,
+      "compassShowEast": true,
+      "compassShowWest": true,
+      "waypointOffset": 0.0,
+      "reticle": {
+        "color": "#5A5470",
+        "alpha": 0.4
+      },
+      "reticleHeading": {
+        "color": "#5A5470",
+        "alpha": 0.4
+      },
+      "reticleThickness": 1.25,
+      "reticleHeadingThickness": 2.25,
+      "reticleOffsetOuter": 24,
+      "reticleOffsetInner": 20,
+      "frame": {
+        "color": "#362744",
+        "alpha": 1.0
+      },
+      "prefix": "flat_"
+    }
+  }
+}

@@ -290,6 +290,7 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftplanets:item_basic_mars:6>,
 		<galacticraftplanets:key_t3:0>,
 		<galacticraftplanets:key:0>,
+		<galacticraftplanets:laser_turret>,
 		<galacticraftplanets:mars_machine_t2:0>,
 		<galacticraftplanets:mars_machine_t2:4>,
 		<galacticraftplanets:mars_machine_t2:8>,

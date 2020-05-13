@@ -106,4 +106,33 @@ function init() {
 	createMillRecipe("rice_flour", <betterwithaddons:japanmat:4>, [
 		<actuallyadditions:item_food:16>
 	]);
+	
+	/*
+		Ground Meat
+	*/
+	createMillRecipe("ground_meat_pork", <betterwithaddons:food_ground_meat:0> * 3, [
+		<minecraft:porkchop:0>
+	]);
+	createMillRecipe("ground_meat_beef", <betterwithaddons:food_ground_meat:0> * 3, [
+		<minecraft:beef:0>
+	]);
+	createMillRecipe("ground_meat_rabbit", <betterwithaddons:food_ground_meat:0> * 3, [
+		<minecraft:rabbit:0>
+	]);
+	
+	createMillRecipe("ground_meat_chicken", <betterwithaddons:food_ground_meat:0> * 2, [
+		<minecraft:chicken:0>
+	]);
+	createMillRecipe("ground_meat_mutton", <betterwithaddons:food_ground_meat:0> * 2, [
+		<minecraft:mutton:0>
+	]);
+	createMillRecipe("ground_meat_mystery", <betterwithaddons:food_ground_meat:0> * 2, [
+		<betterwithmods:mystery_meat:0>
+	]);
+	createMillRecipe("ground_meat_fish", <betterwithaddons:food_ground_meat:0> * 2, [
+		<minecraft:fish:0>
+	]);
+	createMillRecipe("ground_meat_salmon", <betterwithaddons:food_ground_meat:0> * 2, [
+		<minecraft:fish:1>
+	]);
 }

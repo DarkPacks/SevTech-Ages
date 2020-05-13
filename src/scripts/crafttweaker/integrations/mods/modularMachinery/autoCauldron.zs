@@ -86,4 +86,11 @@ function init() {
 		.addItemOutput(<betterwithmods:donut:0> * 4)
 		.addFluidInput(<liquid:lubricant> * 50)
 		.build();	
+		
+	RecipeBuilder.newBuilder(utils.createRecipeName(machineName, "meatballs"), machineName, 128)
+		.addEnergyPerTickInput(40)
+		.addItemInput(<betterwithaddons:food_ground_meat:0>)
+		.addItemOutput(<betterwithaddons:food_meatballs:0>)
+		.addFluidInput(<liquid:lubricant> * 50)
+		.build();
 }

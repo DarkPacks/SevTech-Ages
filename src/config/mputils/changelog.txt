@@ -45,13 +45,11 @@ Enhancements:
     * Limited the amount of Steppe wolves to 15
 * Manyullyn alloying added to arc furnace (#3965)
 * Crusher recipes for stardust from starmetal ore and ingots (#3963)
+* Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
 
 Mods Added:
 * Loading Screens
 * SevPatches
-
-Enhancements:
-* Added ability for Apple Trees to grow in Bonsai Pots (#3917)
 
 Mod Updates:
 * Forge (14.23.5.2847)

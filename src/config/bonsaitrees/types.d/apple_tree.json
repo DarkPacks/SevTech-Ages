@@ -1,0 +1,38 @@
+{
+  "name": "rustic:sapling_apple",
+  "mod": "rustic",
+  "sapling": {
+    "name": "rustic:sapling_apple",
+    "data": 0
+  },
+  "growTimeMultiplier": 1.0,
+  "drops": [
+    {
+      "name": "minecraft:stick",
+      "data": 0,
+      "type": "STICK"
+    },
+    {
+      "name": "minecraft:log",
+      "data": 0,
+      "type": "WOOD"
+    },
+    {
+      "name": "rustic:sapling_apple",
+      "data": 0,
+      "type": "SAPLING"
+    },
+    {
+      "name": "rustic:leaves_apple",
+      "data": 0,
+      "type": "LEAVES"
+    },
+    {
+      "name": "minecraft:apple",
+      "data": 0,
+      "type": "CUSTOM",
+      "count": 3,
+      "chance": 0.7
+    }
+  ]
+}

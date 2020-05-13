@@ -50,6 +50,9 @@ Mods Added:
 * Loading Screens
 * SevPatches
 
+Enhancements:
+* Added ability for Apple Trees to grow in Bonsai Pots (#3917)
+
 Mod Updates:
 * Forge (14.23.5.2847)
 * AbyssalCraft (1.9.15)

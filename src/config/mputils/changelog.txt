@@ -19,6 +19,9 @@ Bug Fixes:
 * Painted wood crafting recipe readded (#3685)
 * The colour of quantum storage bags can now be changed (#3743)
 
+Enhancements:
+* Added ability for Apple Trees to grow in Bonsai Pots (#3917)
+
 Mod Updates:
 * Astral Sorcery (1.10.20)
     * Carminite ghastlings are now harmed by Discidia Ritual (#3817)

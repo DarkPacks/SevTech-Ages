@@ -1,0 +1,6 @@
+{
+  "items": [
+    "tconstruct:pickaxe"
+  ],
+  "__comment": "To add items to NBT Whitelist, simply add its registry name as a String to the above array"
+}

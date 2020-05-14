@@ -10,6 +10,10 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 PRESTIGE UPDATE // TODO: Move this into correct place before finalizing
 
+Mods Added:
+* ProjectE (1.4.1)
+* ProjectE Integration (2.3.1)
+
 Mod Updates:
 * Prestige (1.1.58)
 

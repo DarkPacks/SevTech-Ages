@@ -47,6 +47,7 @@ Enhancements:
 * Crusher recipes for stardust from starmetal ore and ingots (#3963)
 * Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
 * Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
+* Crafting stumps show cracks before breaking
 
 Mods Added:
 * Loading Screens

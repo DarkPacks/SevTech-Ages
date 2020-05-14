@@ -57,6 +57,7 @@ function initSpecificStaging() {
 	scripts.crafttweaker.staging.multiblock.immersiveEngineering.init();
 	scripts.crafttweaker.staging.ores.init();
 	scripts.crafttweaker.staging.tinkers.init();
+	scripts.crafttweaker.staging.tooltips.init();
 	scripts.crafttweaker.staging.waila.init();
 }
 
@@ -145,6 +146,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.primalTech.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.primalchests.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.progressiontweaks.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.projectE.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.prospectors.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.quantumstorage.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.quark.init();

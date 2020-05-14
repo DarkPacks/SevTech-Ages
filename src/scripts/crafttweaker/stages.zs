@@ -34,6 +34,9 @@ static stageFiveMob as Stage = ZenStager.initStage("five_mob");
 static stageBaykok as Stage = ZenStager.initStage("baykok");
 static stageMapping as Stage = ZenStager.initStage("mapping");
 
+// Prestige stages
+static stageProjectE as Stage = ZenStager.initStage("project_e");
+
 // Unique stage intended to disable existing items/etc
 static stageDisabled as Stage = ZenStager.initStage("disabled");
 

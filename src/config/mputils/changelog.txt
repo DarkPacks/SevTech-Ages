@@ -49,6 +49,9 @@ Bug Fixes:
 * Fix Biodiesel not working with UltimateCarMod (#3885)
 * Base tier Viescraft airship now triggers advancement (#4021)
 * Blacklisted The Betweenland's Item Shelf from carryon to prevent item loss (#4121)
+* Fixed incorrect ouput from some recipes in the Mekanism sawmill (#4111)
+* Glass crafting in arc furnace now accepts all sand from the oredict (#3963)
+* Fixed Cinnabar mineral vein not being overriden as intended. Cinnabar mineral veins now give redstone dust. (#4071)
 
 Enhancements:
 * Graves will now have their outline highlighted
@@ -59,20 +62,30 @@ Enhancements:
     * Increased weight of hammerhead sharks and applied minimums and maximums
     * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
     * Limited the amount of Steppe wolves to 15
+* Manyullyn alloying added to arc furnace (#3965)
+* Crusher recipes for stardust from starmetal ore and ingots (#3963)
+* Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
+* Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
 
 Mods Added:
 * Loading Screens
 * SevPatches
 
 Mod Updates:
-* Forge (14.23.5.2847)
+* Forge (14.23.5.2854)
 * AbyssalCraft (1.9.15)
     * Using the sigil of the green grove (and other non-stackable bone meal like items) in purged lnads will no longer cause the item to be consumed (#3914)
     * Resolves crash with Materializer (#3967)
+* Applied Energistics 2 (rv6-stable-7)
 * Astral Sorcery (1.10.21)
     * Carminite ghastlings are now harmed by Discidia Ritual (#3817)
     * Fixes potion handler, players should no longer find themselves
     invincible (#3874)
+* Building Gadgets (2.8.3)
+* Carry On (1.12.3)
+* CodeChicken Lib (3.2.3.358)
+* Controlling (3.0.9)
+* CraftTweaker (4.1.20.570)
 * Extra Planets (0.5.6)
 * Foamfix (0.10.10)
 * Galacticraft (4.0.2.236)
@@ -80,20 +93,28 @@ Mod Updates:
 * Immersive Engineering (0.12-92)
     * Assembler is now able to craft staged and scripted recipes (#1803)
 * JustEnoughIDs (1.0.3-55)
+* Mekanism (9.8.3.390)
+* MultiBlock Stages (1.2.0)
+* Ore Excavation (1.4.150)
+* Overloaded (0.0.59)
 * Primal Tech (0.3.5)
     * Fixes an issue which meant the clay kiln would only become fired if it had an item inside it (#3846)
     * Work stumps will visibly show when close to breaking
 * Recipe Stages (1.1.3)
     * Fixes an issue where JEI would display certain staged shaped recipes as shapeless (#3863)
+* Smooth Font (2.1.2)
 * Streams (0.4.8)
     * Resolves ecursive stream generation issue (#3902)
-* The Betweenlands (3.5.6)
+* Stuff A Sock In It (1.1.32)
+* The Betweenlands (3.5.10)
     * Fixes an incompatibility with Optifine (#3865)
     * Adds Volarkite
     * Elixir of Starvation no longer causes negative saturation (#3982)
 * Tinkers' Complement (0.4.3)
     * Steel Nuggets recipe will no longer be registered without the corresponding item (#3911)
+* Translocators (2.5.2.81)
 * Triumph (3.19.2)
+* Tumbleweed (0.4.7)
 * ZenStages (0.4.2)
 
 Mods Removed:

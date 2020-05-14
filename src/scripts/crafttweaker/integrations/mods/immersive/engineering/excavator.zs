@@ -13,6 +13,7 @@ import mods.immersiveengineering.MineralMix;
 function init() {
 	// Remove Minerals
 	Excavator.removeMineral("Bauxite");
+	Excavator.removeMineral("Cinnabar");
 	Excavator.removeMineral("Coal");
 	Excavator.removeMineral("Copper");
 	Excavator.removeMineral("Galena");

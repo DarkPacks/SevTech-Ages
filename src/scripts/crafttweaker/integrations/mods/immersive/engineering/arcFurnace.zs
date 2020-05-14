@@ -17,7 +17,7 @@ function init() {
 		[<ore:dustQuartz> * 5]
 	);
 	// Vanilla Glass
-	immersiveEngineering.addArcFurn(<minecraft:glass:0>, <minecraft:sand:0>, null, 150, 256);
+	immersiveEngineering.addArcFurn(<minecraft:glass:0>, <ore:sand>, null, 150, 256);
 
 	// Vanilla Glass Panes
 	immersiveEngineering.addArcFurn(<minecraft:glass_pane:0>, <betterwithmods:sand_pile:0> * 2, null, 100, 150);
@@ -73,12 +73,18 @@ function init() {
 	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.aluminum.ingot, slag, 100, 512, [metals.iron.dust, <minecraft:redstone:0>]);
 	immersiveEngineering.addArcFurn(metals.modularium.ingot.firstItem * 2, metals.iron.ingot, slag, 100, 512, [metals.aluminum.dust, <minecraft:redstone:0>]);
 
-	/* TODO: Commented out because tinker's adds these recipes to the arc furnace way later in init stages so CrT cant remove them https://github.com/BluSunrize/ImmersiveEngineering/issues/2632
 	// Aluminum Brass
 	immersiveEngineering.addArcFurn(metals.aluminumBrass.ingot.firstItem * 4, metals.copper.ingot, slag, 100, 512, [metals.aluminum.dust * 3]);
 
 	// Manyullyn
 	immersiveEngineering.addArcFurn(metals.manyullyn.ingot.firstItem, metals.cobalt.ingot, slag, 300, 512, [metals.ardite.ingot]);
 	immersiveEngineering.addArcFurn(metals.manyullyn.ingot.firstItem, metals.ardite.ingot, slag, 300, 512, [metals.cobalt.ingot]);
-	*/
+
+	// Add a few ore to ingot recipes for metals without dust
+
+	// Cobalt
+	immersiveEngineering.addArcFurn(metals.cobalt.ingot.firstItem * 2, metals.cobalt.ore, null, 600, 512);
+
+	// Ardite
+	immersiveEngineering.addArcFurn(metals.ardite.ingot.firstItem * 2, metals.ardite.ore, null, 200, 512);
 }

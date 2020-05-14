@@ -20,7 +20,8 @@ Enhancements:
 * The Hunting Dimension will now generate terrain based on the overworld
 
 Mods Added:
-* Topography
+* Topography (1.13.3)
+* Wall-Jump! (1.2.3)
 
 Mod Updates:
 * Dimensional Control (2.13.0)

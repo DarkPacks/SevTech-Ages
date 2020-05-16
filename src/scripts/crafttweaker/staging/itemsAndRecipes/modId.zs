@@ -16,7 +16,6 @@ import scripts.crafttweaker.stages.stageFive;
 
 static stagedMods as string[][string] = {
 	stageTwo.stage : [
-		"thebetweenlands",
 		"twilightforest",
 		"uppers"
 	],
@@ -53,4 +52,7 @@ function init() {
 	for stageName, modId in stagedMods {
 		ZenStager.getStage(stageName).addModId(modId, true);
 	}
+
+	ZenStager.getStage(stageTwo.stage).addModId("thebetweenlands", true, <thebetweenlands:items_plant_drop:36>,
+		<thebetweenlands:volarkite:0>, <thebetweenlands:volarpad:0>);
 }

@@ -48,6 +48,7 @@ Enhancements:
 * Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
 * Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
 * Crafting stumps show cracks before breaking
+* Added recipe for corn seeds - work blade + corn cob (#4131)
 
 Mods Added:
 * Loading Screens

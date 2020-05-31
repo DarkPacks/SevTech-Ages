@@ -172,11 +172,6 @@
         "result": "deny"
     },
     {
-        "mod": "jaff",
-        "mincount": "15",
-        "result": "deny"
-    },
-    {
         "mob": "primal:canis_campestris",
         "mincount": "15",
         "result": "deny"
@@ -209,6 +204,30 @@
     {
         "mob": "primal:shark_hammerhead",
         "mincount": 4,
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:cod",
+        "onjoin": true,
+        "mincount": 20,
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:clownfish",
+        "onjoin": true,
+        "mincount": 6,
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:pufferfish",
+        "onjoin": true,
+        "mincount": 4,
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:salmon",
+        "onjoin": true,
+        "mincount": 20,
         "result": "deny"
     }
 ]

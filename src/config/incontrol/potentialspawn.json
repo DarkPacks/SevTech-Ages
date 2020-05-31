@@ -53,5 +53,53 @@
                 "groupcountmax": 1
             }
         ]
+    },
+    {
+        "dimension": 0,
+        "block": "minecraft:water",
+        "mobs": [
+            {
+                "mob": "jaff:cod",
+                "weight": 800,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "block": "minecraft:water",
+        "mobs": [
+            {
+                "mob": "jaff:clownfish",
+                "weight": 240,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "block": "minecraft:water",
+        "mobs": [
+            {
+                "mob": "jaff:pufferfish",
+                "weight": 160,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "block": "minecraft:water",
+        "mobs": [
+            {
+                "mob": "jaff:salmon",
+                "weight": 800,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
     }
 ]

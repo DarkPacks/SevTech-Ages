@@ -39,7 +39,11 @@ Enhancements:
 * Applied Energistics standard energy cells are now available in stage 4 (#4082)
 * Increased Gasoline energy density in Advanced Generators to be the same as Simple Generators' (#4076)
 * Adjusted the spawning of many mobs to reduce lag or increase diversity:
-    * Limited the amount of JAFF fishes to 15
+    * Limited the amount of JAFF fish:
+        * Cod: 20
+        * Clownfish: 6
+        * Pufferfish: 4
+        * salmon: 20
     * Increased weight of hammerhead sharks and applied minimums and maximums
     * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
     * Limited the amount of Steppe wolves to 15

@@ -1,8 +1,18 @@
 [
     {
         "dimension": 0,
-        "block": ["minecraft:grass", "minecraft:sand", "minecraft:sand@1"],
-        "biome": ["Desert", "Savanna", "Forest", "Beach", "Red Desert"],
+        "block": [
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:sand@1"
+        ],
+        "biome": [
+            "Desert",
+            "Savanna",
+            "Forest",
+            "Beach",
+            "Red Desert"
+        ],
         "mobs": [
             {
                 "mob": "Horse",
@@ -14,7 +24,9 @@
     },
     {
         "dimension": 0,
-        "block": ["minecraft:water"],
+        "block": [
+            "minecraft:water"
+        ],
         "mobs": [
             {
                 "mob": "Squid",
@@ -26,7 +38,11 @@
     },
     {
         "dimension": 0,
-        "block": ["minecraft:grass", "minecraft:sand", "minecraft:sand@1"],
+        "block": [
+            "minecraft:grass",
+            "minecraft:sand",
+            "minecraft:sand@1"
+        ],
         "biome": [
             "Jungle",
             "Swamp",

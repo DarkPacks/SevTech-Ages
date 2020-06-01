@@ -70,6 +70,9 @@ function init() {
 		"minecraft:redstone",
 		"minecraft:redstone_block",
 		"minecraft:water_bucket",
+		"primal:animal_fat",
+		"primal:animal_fat_nether",
+		"primal:salo",
 		"twilightforest:ore_magnet",
 		"twilightforest:uncrafting_table"
 	];

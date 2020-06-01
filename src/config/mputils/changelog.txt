@@ -57,6 +57,7 @@ Enhancements:
 Mods Added:
 * Loading Screens
 * SevPatches
+* Wall-Jump!
 
 Mod Updates:
 * Forge (14.23.5.2854)

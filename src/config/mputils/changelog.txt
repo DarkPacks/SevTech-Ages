@@ -20,6 +20,7 @@ Enhancements:
 * The Hunting Dimension will now generate terrain based on the overworld
 
 Mods Added:
+* Drafty Kites
 * Topography (1.13.3)
 
 Mod Updates:

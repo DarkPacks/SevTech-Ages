@@ -62,6 +62,7 @@ Enhancements:
 * Increase FBP particle effects
 * Increase range and size of underground clay clusters
 * Add Sugar Cane to Survivalist Strainer
+* Add glider tooltip to Volarkite
 
 Mods Added:
 * Loading Screens

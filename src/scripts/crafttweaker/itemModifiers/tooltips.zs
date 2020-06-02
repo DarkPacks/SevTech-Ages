@@ -599,6 +599,9 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.aqua("in the Necromonicon for more information."),
 		format.aqua("Ore can be found underground Ocean"),
 		format.aqua("and Swamp Biomes")
+	],
+	<thebetweenlands:volarkite>: [
+		format.aqua("Glider"),
 	]
 };
 

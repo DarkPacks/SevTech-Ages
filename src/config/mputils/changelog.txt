@@ -58,6 +58,7 @@ Enhancements:
 * Tweaked the biome texture for Void in Antique Atlas
 * Added repair options to the Volarkite using either a waterlilly or volarpad.
 * Set Odin Rounded as default font
+* Add Nutrient values for Sushi and Spirit Fruit
 
 Mods Added:
 * Loading Screens

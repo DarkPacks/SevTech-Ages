@@ -60,6 +60,7 @@ Enhancements:
 * Set Odin Rounded as default font
 * Add Nutrient values for Sushi and Spirit Fruit
 * Increase FBP particle effects
+* Increase range and size of underground clay clusters
 
 Mods Added:
 * Loading Screens

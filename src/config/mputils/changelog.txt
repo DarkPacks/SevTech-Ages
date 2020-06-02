@@ -33,6 +33,7 @@ Bug Fixes:
 * Fixed incorrect ouput from some recipes in the Mekanism sawmill (#4111)
 * Glass crafting in arc furnace now accepts all sand from the oredict (#3963)
 * Fixed Cinnabar mineral vein not being overriden as intended. Cinnabar mineral veins now give redstone dust. (#4071)
+* Removed Rusted Mineshafts from spawning
 
 Enhancements:
 * Graves will now have their outline highlighted

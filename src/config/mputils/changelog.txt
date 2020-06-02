@@ -48,6 +48,7 @@ Enhancements:
     * Increased weight of hammerhead sharks and applied minimums and maximums
     * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
     * Limited the amount of Steppe wolves to 15
+    * Made all Custom-constrolled mobs spawn with minecraft spawning rules (per chunk)
 * Manyullyn alloying added to arc furnace (#3965)
 * Crusher recipes for stardust from starmetal ore and ingots (#3963)
 * Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)

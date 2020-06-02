@@ -98,8 +98,5 @@ for item in <minecraft:stained_hardened_clay>.definition.subItems {
 }
 <ore:blockStainedHardenedClay>.add(<minecraft:hardened_clay>);
 
-
 //Volarleaves added to lily pad ore dict
 <ore:lilypad>.add(<thebetweenlands:items_plant_drop:36>);
-
-

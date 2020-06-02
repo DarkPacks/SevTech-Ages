@@ -21,7 +21,6 @@ Enhancements:
 
 Mods Added:
 * Topography (1.13.3)
-* Wall-Jump! (1.2.3)
 
 Mod Updates:
 * Dimensional Control (2.13.0)
@@ -53,6 +52,7 @@ Bug Fixes:
 * Fixed incorrect ouput from some recipes in the Mekanism sawmill (#4111)
 * Glass crafting in arc furnace now accepts all sand from the oredict (#3963)
 * Fixed Cinnabar mineral vein not being overriden as intended. Cinnabar mineral veins now give redstone dust. (#4071)
+* Removed Rusted Mineshafts from spawning
 
 Enhancements:
 * Graves will now have their outline highlighted
@@ -67,16 +67,26 @@ Enhancements:
     * Increased weight of hammerhead sharks and applied minimums and maximums
     * Limited pigs, cows, sheeps, and chickens to 100 to increase passive mob diversity
     * Limited the amount of Steppe wolves to 15
+    * Made all Custom-constrolled mobs spawn with minecraft spawning rules (per chunk)
 * Manyullyn alloying added to arc furnace (#3965)
 * Crusher recipes for stardust from starmetal ore and ingots (#3963)
 * Added ability for Apple Trees to grow in Bonsai Pots (#3916, #3917)
 * Add ground meat & meatball recipes for Modular Machinery (#3882, #4026)
 * Crafting stumps show cracks before breaking
 * Added recipe for corn seeds - work blade + corn cob (#4131)
+* Tweaked the biome texture for Void in Antique Atlas
+* Added repair options to the Volarkite using either a waterlilly or volarpad.
+* Set Odin Rounded as default font
+* Add Nutrient values for Sushi and Spirit Fruit
+* Increase FBP particle effects
+* Increase range and size of underground clay clusters
+* Add Sugar Cane to Survivalist Strainer
+* Add glider tooltip to Volarkite
 
 Mods Added:
 * Loading Screens
 * SevPatches
+* Wall-Jump!
 
 Mod Updates:
 * Forge (14.23.5.2854)
@@ -97,6 +107,7 @@ Mod Updates:
 * Foamfix (0.10.10)
 * Galacticraft (4.0.2.236)
     * Fixes an incompatibility with Sponge (#3909)
+* In Control! (3.9.16)
 * Immersive Engineering (0.12-92)
     * Assembler is now able to craft staged and scripted recipes (#1803)
 * JustEnoughIDs (1.0.3-55)

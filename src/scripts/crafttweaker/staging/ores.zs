@@ -294,6 +294,7 @@ static nonDefaultReplacementItemsForStage as IIngredient[][][string] = {
 	stageThree.stage : [
 		// Worldgen Items
 		[<minecraft:rail:*>, <immcraft:rock:0>],
+		[<betterwithaddons:rail_rusted:*>, <immcraft:rock:0>],
 
 		// Nether
 		[<minecraft:netherrack:0>, <primal_tech:charcoal_block>]

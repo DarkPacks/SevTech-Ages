@@ -1,17 +1,26 @@
 [
     {
-        "mob": "Horse",
-        "mincount": "30,Horse",
+        "mob": "minecraft:horse",
+        "mincount": {
+            "amount": 15,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
-        "mob": "Squid",
-        "mincount": "30,Squid",
+        "mob": "minecraft:squid",
+        "mincount": {
+            "amount": 30,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
-        "mob": "Parrot",
-        "mincount": "15,Parrot",
+        "mob": "minecraft:parrot",
+        "mincount": {
+            "amount": 15,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -93,7 +102,10 @@
     },
     {
         "mob": "natura:imp",
-        "mincount": "15,natura:imp",
+        "mincount": {
+            "amount": 15,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -172,28 +184,83 @@
         "result": "deny"
     },
     {
+        "mob": "jaff:cod",
+        "mincount": {
+            "amount": 20,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:pufferfish",
+        "mincount": {
+            "amount": 4,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:clownfish",
+        "mincount": {
+            "amount": 6,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "jaff:salmon",
+        "mincount": {
+            "amount": 20,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "jaff",
+        "mincount": {
+            "amount": 100,
+            "mod": "jaff"
+        },
+        "result": "deny"
+    },
+    {
         "mob": "primal:canis_campestris",
-        "mincount": "15",
+        "mincount": {
+            "amount": 15,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
         "mob": "minecraft:pig",
-        "mincount": "100",
+        "mincount": {
+            "amount": 100,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
         "mob": "minecraft:cow",
-        "mincount": "100",
+        "mincount": {
+            "amount": 100,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
         "mob": "minecraft:sheep",
-        "mincount": "100",
+        "mincount": {
+            "amount": 100,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
         "mob": "minecraft:chicken",
-        "mincount": "100",
+        "mincount": {
+            "amount": 100,
+            "perchunk": true
+        },
         "result": "deny"
     },
     {
@@ -203,31 +270,10 @@
     },
     {
         "mob": "primal:shark_hammerhead",
-        "mincount": 4,
-        "result": "deny"
-    },
-    {
-        "mob": "jaff:cod",
-        "onjoin": true,
-        "mincount": 20,
-        "result": "deny"
-    },
-    {
-        "mob": "jaff:clownfish",
-        "onjoin": true,
-        "mincount": 6,
-        "result": "deny"
-    },
-    {
-        "mob": "jaff:pufferfish",
-        "onjoin": true,
-        "mincount": 4,
-        "result": "deny"
-    },
-    {
-        "mob": "jaff:salmon",
-        "onjoin": true,
-        "mincount": 20,
+        "mincount": {
+            "amount": 4,
+            "perchunk": true
+        },
         "result": "deny"
     }
 ]

@@ -59,6 +59,7 @@ Enhancements:
 * Added repair options to the Volarkite using either a waterlilly or volarpad.
 * Set Odin Rounded as default font
 * Add Nutrient values for Sushi and Spirit Fruit
+* Increase FBP particle effects
 
 Mods Added:
 * Loading Screens

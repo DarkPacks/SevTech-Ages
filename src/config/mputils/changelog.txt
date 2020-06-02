@@ -55,6 +55,7 @@ Enhancements:
 * Crafting stumps show cracks before breaking
 * Added recipe for corn seeds - work blade + corn cob (#4131)
 * Tweaked the biome texture for Void in Antique Atlas
+* Added repair options to the Volarkite using either a waterlilly or volarpad.
 
 Mods Added:
 * Loading Screens

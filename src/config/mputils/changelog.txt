@@ -61,6 +61,7 @@ Enhancements:
 * Add Nutrient values for Sushi and Spirit Fruit
 * Increase FBP particle effects
 * Increase range and size of underground clay clusters
+* Add Sugar Cane to Survivalist Strainer
 
 Mods Added:
 * Loading Screens

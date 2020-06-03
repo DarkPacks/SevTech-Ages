@@ -4,83 +4,11 @@
     "color": "4c4c4c",
     "parts": [
         {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:fire"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus@1"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -104,7 +32,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "modularmachinery:blockfluidinputhatch@0"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -178,7 +106,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars"
+                "minecraft:iron_bars@0"
             ]
         },
         {
@@ -186,7 +114,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockinputbus@1"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -212,7 +140,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {

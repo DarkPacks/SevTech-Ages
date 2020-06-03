@@ -104,10 +104,10 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
-	<ceramics:clay_boots_raw:0>,
-	<ceramics:clay_chestplate_raw:0>,
-	<ceramics:clay_helmet_raw:0>,
-	<ceramics:clay_leggings_raw:0>,
+	<ceramics:clay_boots_raw:*>,
+	<ceramics:clay_chestplate_raw:*>,
+	<ceramics:clay_helmet_raw:*>,
+	<ceramics:clay_leggings_raw:*>,
 ];
 
 function init() {

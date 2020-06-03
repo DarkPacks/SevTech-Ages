@@ -33,11 +33,11 @@ static stagedItems as IIngredient[][string] = {
 		<tcomplement:knightslime_boots:0>,
 		<tcomplement:knightslime_chestplate:0>,
 		<tcomplement:knightslime_helmet:*>,
-		<tcomplement:knightslime_leggings:0>,
+		<tcomplement:knightslime_leggings:*>,
 		<tcomplement:manyullyn_boots:0>,
 		<tcomplement:manyullyn_chestplate:0>,
 		<tcomplement:manyullyn_helmet:*>,
-		<tcomplement:manyullyn_leggings:0>
+		<tcomplement:manyullyn_leggings:*>
 	],
 	stageFive.stage: [
 		<tcomplement:materials:6>

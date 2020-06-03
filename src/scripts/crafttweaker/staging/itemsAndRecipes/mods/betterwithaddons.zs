@@ -238,7 +238,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:chandelier:0>,
 		<betterwithaddons:cherrybox:1>,
 		<betterwithaddons:cherrybox:0>,
-		<betterwithaddons:chest_paper:0>,
+		<betterwithaddons:chest_paper:*>,
 		<betterwithaddons:congealed:5>,
 		<betterwithaddons:crop_tea:0>,
 		<betterwithaddons:ecksie_sapling:1>,
@@ -369,7 +369,7 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<betterwithaddons:boots_samurai:*>,
-	<betterwithaddons:chest_samurai:0>,
+	<betterwithaddons:chest_samurai:*>,
 	<betterwithaddons:crop_rush:0>,
 	<betterwithaddons:decomat:3>,
 	<betterwithaddons:explosion:0>,

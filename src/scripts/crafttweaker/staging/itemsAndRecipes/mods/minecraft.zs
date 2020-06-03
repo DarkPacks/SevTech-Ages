@@ -312,7 +312,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stained_glass:*>,
 
 		// Iron Stuff
-		<minecraft:flint_and_steel:0>,
+		<minecraft:flint_and_steel:*>,
 		<minecraft:iron_axe:*>,
 		<minecraft:iron_bars:0>,
 		<minecraft:iron_boots:*>,

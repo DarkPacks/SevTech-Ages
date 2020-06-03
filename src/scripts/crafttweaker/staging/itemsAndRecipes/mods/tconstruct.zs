@@ -88,7 +88,7 @@ static stagedItems as IIngredient[][string] = {
 		<tconstruct:slime_boots:2>,
 		<tconstruct:slime_boots:3>,
 		<tconstruct:slime_boots:4>,
-		<tconstruct:slime_boots:0>,
+		<tconstruct:slime_boots:*>,
 		<tconstruct:slime_channel:3>,
 		<tconstruct:slime_congealed:3>,
 		<tconstruct:slime_dirt:0>,

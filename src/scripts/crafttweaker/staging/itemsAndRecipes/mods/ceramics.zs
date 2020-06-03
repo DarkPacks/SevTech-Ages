@@ -24,7 +24,7 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_barrel_unfired:3>,
 		<ceramics:clay_barrel_unfired:0>,
 		<ceramics:clay_barrel:0>,
-		<ceramics:clay_boots:0>,
+		<ceramics:clay_boots:*>,
 		<ceramics:clay_bucket_block:0>,
 		<ceramics:clay_bucket:0>,
 		<ceramics:clay_chestplate:*>,

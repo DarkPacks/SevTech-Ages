@@ -167,7 +167,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:magic_net:0>,
 		<cyclicmagic:magnet_anti_block:0>,
 		<cyclicmagic:password_remote:0>,
-		<cyclicmagic:purple_boots:0>,
+		<cyclicmagic:purple_boots:*>,
 		<cyclicmagic:purple_chestplate:*>,
 		<cyclicmagic:purple_helmet:*>,
 		<cyclicmagic:purple_leggings:*>,

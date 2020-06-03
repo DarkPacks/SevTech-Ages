@@ -392,7 +392,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:redstone_block:0>,
 		<minecraft:redstone_ore:0>,
 		<minecraft:redstone:0>,
-		<minecraft:shears:0>,
+		<minecraft:shears:*>,
 		<minecraft:shield:0>,
 		<minecraft:speckled_melon:0>,
 		<minecraft:spruce_boat:0>,

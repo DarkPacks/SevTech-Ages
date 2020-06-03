@@ -32,7 +32,7 @@ static stagedItems as IIngredient[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<mob_grinding_utils:gm_chicken_feed:0>,
-	<mob_grinding_utils:null_sword:0>
+	<mob_grinding_utils:null_sword:*>
 ];
 
 static hiddenRemove as IIngredient[] = [

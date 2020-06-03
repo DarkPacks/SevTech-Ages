@@ -43,7 +43,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:dpick:0>,
 		<abyssalcraft:dscwall:0>,
 		<abyssalcraft:dshovel:0>,
-		<abyssalcraft:dsword:0>,
+		<abyssalcraft:dsword:*>,
 		<abyssalcraft:energycollector:0>,
 		<abyssalcraft:energycontainer:0>,
 		<abyssalcraft:energyrelay:0>,
@@ -159,7 +159,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:apick:0>,
 		<abyssalcraft:aplate:0>,
 		<abyssalcraft:ashovel:0>,
-		<abyssalcraft:asword:0>
+		<abyssalcraft:asword:*>
 	],
 
 	stageTwo.stage: [
@@ -275,7 +275,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:dreadiumsamurailegs:0>,
 		<abyssalcraft:dreadiumsamuraiplate:0>,
 		<abyssalcraft:dreadiumshovel:0>,
-		<abyssalcraft:dreadiumsword:0>,
+		<abyssalcraft:dreadiumsword:*>,
 		<abyssalcraft:dreadkatana:0>,
 		<abyssalcraft:dreadkey:0>,
 		<abyssalcraft:dreadlandsdirt:0>,
@@ -323,7 +323,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:ethaxiumpillar:0>,
 		<abyssalcraft:ethaxiumplate:0>,
 		<abyssalcraft:ethaxiumshovel:0>,
-		<abyssalcraft:ethaxiumsword:0>,
+		<abyssalcraft:ethaxiumsword:*>,
 		<abyssalcraft:ethbrick:0>,
 		<abyssalcraft:fusedabyssalsand:0>,
 		<abyssalcraft:gatekeeperessence:0>,
@@ -414,7 +414,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:corplate:0>,
 		<abyssalcraft:corplatep:0>,
 		<abyssalcraft:corshovel:0>,
-		<abyssalcraft:corsword:0>,
+		<abyssalcraft:corsword:*>,
 		<abyssalcraft:cstonebutton:0>,
 		<abyssalcraft:depthsboots:0>,
 		<abyssalcraft:depthshelmet:0>,
@@ -591,7 +591,7 @@ static hiddenRemove as IIngredient[] = [
 	<abyssalcraft:cloth:0>,
 	<abyssalcraft:cobbleu:0>,
 	<abyssalcraft:coraliumu:0>,
-	<abyssalcraft:devsword:0>,
+	<abyssalcraft:devsword:*>,
 	<abyssalcraft:diamondu:0>,
 	<abyssalcraft:dreadiumu:0>,
 	<abyssalcraft:eggp:0>,

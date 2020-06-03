@@ -375,7 +375,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:steel_pressure_plate:0>,
 		<betterwithmods:steel_saw:0>,
 		<betterwithmods:steel_shovel:0>,
-		<betterwithmods:steel_sword:0>,
+		<betterwithmods:steel_sword:*>,
 		<betterwithmods:unfired_pottery:2>,
 		<betterwithmods:urn:8>,
 		<betterwithmods:urn:9>,

@@ -215,7 +215,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stone_slab:3>,
 		<minecraft:stone_slab:7>,
 		<minecraft:stone_slab:0>,
-		<minecraft:stone_sword:0>,
+		<minecraft:stone_sword:*>,
 		<minecraft:string:0>,
 		<minecraft:sugar:0>,
 		<minecraft:tallgrass:1>,
@@ -324,7 +324,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:iron_leggings:0>,
 		<minecraft:iron_pickaxe:0>,
 		<minecraft:iron_shovel:0>,
-		<minecraft:iron_sword:0>,
+		<minecraft:iron_sword:*>,
 		<minecraft:iron_trapdoor:0>,
 
 		// Gold Stuff
@@ -340,7 +340,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:golden_leggings:0>,
 		<minecraft:golden_pickaxe:0>,
 		<minecraft:golden_shovel:0>,
-		<minecraft:golden_sword:0>,
+		<minecraft:golden_sword:*>,
 
 		// Misc
 		<minecraft:acacia_boat:0>,
@@ -541,7 +541,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:diamond_leggings:0>,
 		<minecraft:diamond_pickaxe:0>,
 		<minecraft:diamond_shovel:0>,
-		<minecraft:diamond_sword:0>,
+		<minecraft:diamond_sword:*>,
 		<minecraft:diamond:0>,
 		<minecraft:emerald_block:0>,
 		<minecraft:emerald:0>
@@ -580,7 +580,7 @@ static hiddenRemove as IIngredient[] = [
 	<minecraft:wooden_hoe:0>,
 	<minecraft:wooden_pickaxe:0>,
 	<minecraft:wooden_shovel:0>,
-	<minecraft:wooden_sword:0>
+	<minecraft:wooden_sword:*>
 ];
 
 function init() {

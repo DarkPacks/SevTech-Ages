@@ -14,7 +14,7 @@ static stagedItems as IIngredient[][string] = {
 		<nex:golden_wither_bone_hoe:0>,
 		<nex:golden_wither_bone_pickaxe:0>,
 		<nex:golden_wither_bone_shovel:0>,
-		<nex:golden_wither_bone_sword:0>
+		<nex:golden_wither_bone_sword:*>
 	],
 
 	stageThree.stage: [

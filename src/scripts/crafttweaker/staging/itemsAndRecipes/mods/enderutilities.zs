@@ -52,7 +52,7 @@ static stagedItems as IIngredient[][string] = {
 		<enderutilities:enderpearlreusable:0>,
 		<enderutilities:enderporter:1>,
 		<enderutilities:enderporter:0>,
-		<enderutilities:endersword:0>,
+		<enderutilities:endersword:*>,
 		<enderutilities:endertool:1>,
 		<enderutilities:endertool:2>,
 		<enderutilities:endertool:3>,

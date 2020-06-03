@@ -76,7 +76,7 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:drillhead:1>,
 		<immersiveengineering:drillhead:0>,
 		<immersiveengineering:earmuffs:0>,
-		<immersiveengineering:faraday_suit_chest:0>,
+		<immersiveengineering:faraday_suit_chest:*>,
 		<immersiveengineering:faraday_suit_feet:0>,
 		<immersiveengineering:faraday_suit_head:0>,
 		<immersiveengineering:faraday_suit_legs:0>,

@@ -106,7 +106,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:iron_bars"
             ]
         },
         {

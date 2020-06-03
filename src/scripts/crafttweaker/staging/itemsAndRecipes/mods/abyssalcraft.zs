@@ -91,7 +91,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:ethaxiumfence:0>,
 
 		// Tools
-		<abyssalcraft:dhoe:0>,
+		<abyssalcraft:dhoe:*>,
 
 		// Misc
 		<abyssalcraft:abybutton:0>,
@@ -154,7 +154,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:aaxe:*>,
 		<abyssalcraft:aboots:0>,
 		<abyssalcraft:ahelmet:0>,
-		<abyssalcraft:ahoe:0>,
+		<abyssalcraft:ahoe:*>,
 		<abyssalcraft:alegs:0>,
 		<abyssalcraft:apick:*>,
 		<abyssalcraft:aplate:0>,
@@ -266,7 +266,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:dreadiumaxe:*>,
 		<abyssalcraft:dreadiumboots:0>,
 		<abyssalcraft:dreadiumhelmet:0>,
-		<abyssalcraft:dreadiumhoe:0>,
+		<abyssalcraft:dreadiumhoe:*>,
 		<abyssalcraft:dreadiumlegs:0>,
 		<abyssalcraft:dreadiumpickaxe:*>,
 		<abyssalcraft:dreadiumplate:0>,
@@ -317,7 +317,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:ethaxiumbrickslab2:0>,
 		<abyssalcraft:ethaxiumbrickstairs:0>,
 		<abyssalcraft:ethaxiumhelmet:0>,
-		<abyssalcraft:ethaxiumhoe:0>,
+		<abyssalcraft:ethaxiumhoe:*>,
 		<abyssalcraft:ethaxiumlegs:0>,
 		<abyssalcraft:ethaxiumpickaxe:*>,
 		<abyssalcraft:ethaxiumpillar:0>,
@@ -407,7 +407,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:corbootsp:0>,
 		<abyssalcraft:corhelmet:0>,
 		<abyssalcraft:corhelmetp:0>,
-		<abyssalcraft:corhoe:0>,
+		<abyssalcraft:corhoe:*>,
 		<abyssalcraft:corlegs:0>,
 		<abyssalcraft:corlegsp:0>,
 		<abyssalcraft:corpick:*>,

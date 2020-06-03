@@ -368,7 +368,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:steel_gearbox:0>,
 		<betterwithmods:steel_hacksaw:0>,
 		<betterwithmods:steel_helmet:0>,
-		<betterwithmods:steel_hoe:0>,
+		<betterwithmods:steel_hoe:*>,
 		<betterwithmods:steel_mattock:0>,
 		<betterwithmods:steel_pants:0>,
 		<betterwithmods:steel_pickaxe:*>,

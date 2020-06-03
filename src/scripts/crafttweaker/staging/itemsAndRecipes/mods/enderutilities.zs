@@ -105,7 +105,7 @@ static stagedItems as IIngredient[][string] = {
 		<enderutilities:syringe:2>,
 		<enderutilities:syringe:3>,
 		<enderutilities:syringe:0>,
-		<enderutilities:void_pickaxe:0>
+		<enderutilities:void_pickaxe:*>
 	],
 
 	stageCreativeUnused.stage: [

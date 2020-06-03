@@ -103,4 +103,15 @@ function init() {
 	for material in clusters {
 		material.registerPart("cluster");
 	}
+
+	// ==================================
+	// Dust
+	var dusts as Material[] = [
+		materials.ardite,
+		materials.cobalt
+	];
+
+	for material in dusts {
+		material.registerPart("dust");
+	}
 }

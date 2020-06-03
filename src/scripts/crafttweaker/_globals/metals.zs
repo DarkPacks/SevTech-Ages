@@ -45,7 +45,7 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	ardite: {
 		block: <ore:blockArdite>,
-		dust: null, // TODO: Cobalt needs a dust for better processing.
+		dust: <ore:dustArdite>,
 		gear: null,
 		ingot: <ore:ingotArdite>,
 		nugget: <ore:nuggetArdite>,
@@ -73,7 +73,7 @@ global metals as IOreDictEntry[string][string] = {
 	},
 	cobalt: {
 		block: <ore:blockCobalt>,
-		dust: null, // TODO: Cobalt needs a dust for better processing.
+		dust: <ore:dustCobalt>,
 		gear: <ore:gearCobalt>,
 		ingot: <ore:ingotCobalt>,
 		nugget: <ore:nuggetCobalt>,

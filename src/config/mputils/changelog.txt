@@ -63,6 +63,7 @@ Enhancements:
 * Increase range and size of underground clay clusters
 * Add Sugar Cane to Survivalist Strainer
 * Add glider tooltip to Volarkite
+* Add Ardite and Cobalt dusts
 
 Mods Added:
 * Loading Screens

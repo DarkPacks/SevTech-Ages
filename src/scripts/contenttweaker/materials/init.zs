@@ -14,6 +14,7 @@ import mods.contenttweaker.MaterialSystem;
 
 static materials as Material[string] = {
 	"aquamarine": MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(2009855).build(),
+	"ardite": MaterialSystem.getMaterialBuilder().setName("Ardite").setColor(Color.fromHex("d14210")).build(),
 	"bronze": MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(13467442).build(),
 	"cobalt": MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(18347).build(),
 	"compressedIron": MaterialSystem.getMaterialBuilder().setName("Compressed Iron").setColor(8947848).build(),

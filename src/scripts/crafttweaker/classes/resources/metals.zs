@@ -256,7 +256,7 @@ zenClass Metals {
 			astralSorcery.addGrindstone(ore, metalType.dust.firstItem);
 
 			// Tier 3 Recipes
-			mekanism.addCrusher(ore, metalType.dust.firstItem);
+			mekanism.addCrusher(ore, metalType.dust.firstItem * 2);
 
 			if (!isNull(oreSecondOutput)) {
 				// Tier 3 Recipes

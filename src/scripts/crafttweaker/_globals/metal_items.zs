@@ -48,7 +48,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	ardite: {
 		block: <tconstruct:metal:1>,
-		dust: null,
+		dust: <materialpart:ardite:dust>,
 		gear: null,
 		ingot: <tconstruct:ingots:1>,
 		liquid: <liquid:ardite>,
@@ -78,7 +78,7 @@ global metalItems as IIngredient[string][string] = {
 	},
 	cobalt: {
 		block: <tconstruct:metal:0>,
-		dust: null,
+		dust: <materialpart:cobalt:dust>,
 		gear: <materialpart:cobalt:gear>,
 		ingot: <tconstruct:ingots:0>,
 		liquid: <liquid:cobalt>,

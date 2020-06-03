@@ -186,7 +186,7 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<pneumaticcraft:refinery:0>,
 	<pneumaticcraft:thermopneumatic_processing_plant:0>,
-	<pneumaticcraft:jet_boots_upgrade:0>
+	<pneumaticcraft:jet_boots_upgrade:*>
 ];
 
 function init() {

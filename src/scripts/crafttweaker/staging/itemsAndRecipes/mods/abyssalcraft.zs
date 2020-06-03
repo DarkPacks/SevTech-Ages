@@ -404,7 +404,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:coraliumcobblestoneslab2:0>,
 		<abyssalcraft:coraxe:*>,
 		<abyssalcraft:corboots:*>,
-		<abyssalcraft:corbootsp:0>,
+		<abyssalcraft:corbootsp:*>,
 		<abyssalcraft:corhelmet:*>,
 		<abyssalcraft:corhelmetp:0>,
 		<abyssalcraft:corhoe:*>,

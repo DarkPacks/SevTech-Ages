@@ -38,13 +38,13 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageOne.stage: [
-		<pickletweaks:bronze_axe:0>,
+		<pickletweaks:bronze_axe:*>,
 		<pickletweaks:bronze_hoe:0>,
 		<pickletweaks:bronze_pickaxe:*>,
 		<pickletweaks:bronze_shovel:0>,
 		<pickletweaks:bronze_sword:*>,
 		<pickletweaks:coal_piece:0>,
-		<pickletweaks:copper_axe:0>,
+		<pickletweaks:copper_axe:*>,
 		<pickletweaks:copper_hoe:0>,
 		<pickletweaks:copper_pickaxe:*>,
 		<pickletweaks:copper_shovel:0>,

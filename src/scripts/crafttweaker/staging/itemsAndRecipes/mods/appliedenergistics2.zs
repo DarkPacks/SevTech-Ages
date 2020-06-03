@@ -23,7 +23,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFour.stage: [
 		<appliedenergistics2:biometric_card:0>,
-		<appliedenergistics2:certus_quartz_axe:0>,
+		<appliedenergistics2:certus_quartz_axe:*>,
 		<appliedenergistics2:certus_quartz_cutting_knife:0>,
 		<appliedenergistics2:certus_quartz_hoe:0>,
 		<appliedenergistics2:certus_quartz_pickaxe:*>,
@@ -57,7 +57,7 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:material:43>,
 		<appliedenergistics2:material:44>,
 		<appliedenergistics2:material:0>,
-		<appliedenergistics2:nether_quartz_axe:0>,
+		<appliedenergistics2:nether_quartz_axe:*>,
 		<appliedenergistics2:nether_quartz_cutting_knife:0>,
 		<appliedenergistics2:nether_quartz_hoe:0>,
 		<appliedenergistics2:nether_quartz_pickaxe:*>,

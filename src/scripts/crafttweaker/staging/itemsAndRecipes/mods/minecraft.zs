@@ -207,7 +207,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:stone:2>,
 		<minecraft:stone:4>,
 		<minecraft:stone:6>,
-		<minecraft:stone_axe:0>,
+		<minecraft:stone_axe:*>,
 		<minecraft:stone_pickaxe:*>,
 		<minecraft:stone_shovel:0>,
 		<minecraft:stone_slab2:0>,
@@ -313,7 +313,7 @@ static stagedItems as IIngredient[][string] = {
 
 		// Iron Stuff
 		<minecraft:flint_and_steel:0>,
-		<minecraft:iron_axe:0>,
+		<minecraft:iron_axe:*>,
 		<minecraft:iron_bars:0>,
 		<minecraft:iron_boots:0>,
 		<minecraft:iron_chestplate:0>,
@@ -330,7 +330,7 @@ static stagedItems as IIngredient[][string] = {
 		// Gold Stuff
 		<minecraft:golden_apple:1>,
 		<minecraft:golden_apple:0>,
-		<minecraft:golden_axe:0>,
+		<minecraft:golden_axe:*>,
 		<minecraft:golden_boots:0>,
 		<minecraft:golden_carrot:0>,
 		<minecraft:golden_chestplate:0>,
@@ -531,7 +531,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:emerald_ore:0>,
 
 		// Misc
-		<minecraft:diamond_axe:0>,
+		<minecraft:diamond_axe:*>,
 		<minecraft:diamond_block:0>,
 		<minecraft:diamond_boots:0>,
 		<minecraft:diamond_chestplate:0>,
@@ -576,7 +576,7 @@ static hiddenRemove as IIngredient[] = [
 	<minecraft:dye:12>,
 	<minecraft:dye:13>,
 	<minecraft:dye:14>,
-	<minecraft:wooden_axe:0>,
+	<minecraft:wooden_axe:*>,
 	<minecraft:wooden_hoe:0>,
 	<minecraft:wooden_pickaxe:*>,
 	<minecraft:wooden_shovel:0>,

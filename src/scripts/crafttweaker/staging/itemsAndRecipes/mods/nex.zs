@@ -9,7 +9,7 @@ static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
 		<nex:ghast_meat_cooked:0>,
 		<nex:ghast_meat_raw:0>,
-		<nex:golden_wither_bone_axe:0>,
+		<nex:golden_wither_bone_axe:*>,
 		<nex:golden_wither_bone_hammer:0>,
 		<nex:golden_wither_bone_hoe:0>,
 		<nex:golden_wither_bone_pickaxe:*>,

@@ -13,7 +13,7 @@ static stagedItems as IIngredient[][string] = {
 		<nex:golden_wither_bone_hammer:0>,
 		<nex:golden_wither_bone_hoe:0>,
 		<nex:golden_wither_bone_pickaxe:*>,
-		<nex:golden_wither_bone_shovel:0>,
+		<nex:golden_wither_bone_shovel:*>,
 		<nex:golden_wither_bone_sword:*>
 	],
 

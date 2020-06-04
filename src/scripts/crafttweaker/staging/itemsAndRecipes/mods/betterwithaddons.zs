@@ -182,7 +182,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:gold_machete:0>,
 		<betterwithaddons:gold_masonpick:*>,
 		<betterwithaddons:gold_matchpick:*>,
-		<betterwithaddons:gold_spade:0>,
+		<betterwithaddons:gold_spade:*>,
 
 		// Misc
 		<betterwithaddons:aqueduct:0>,
@@ -201,7 +201,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:iron_kukri:0>,
 		<betterwithaddons:iron_machete:0>,
 		<betterwithaddons:iron_masonpick:*>,
-		<betterwithaddons:iron_spade:0>,
+		<betterwithaddons:iron_spade:*>,
 		<betterwithaddons:lattice:0>,
 		<betterwithaddons:monument:0>,
 		<betterwithaddons:paper_wall:0>,
@@ -294,7 +294,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:steel_machete:0>,
 		<betterwithaddons:steel_masonpick:*>,
 		<betterwithaddons:steel_matchpick:*>,
-		<betterwithaddons:steel_spade:0>,
+		<betterwithaddons:steel_spade:*>,
 		<betterwithaddons:tanto:0>,
 		<betterwithaddons:tatara:0>,
 		<betterwithaddons:tea_leaves:0>.withTag({type: "assam"}),
@@ -347,7 +347,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:diamond_machete:0>,
 		<betterwithaddons:diamond_masonpick:*>,
 		<betterwithaddons:diamond_matchpick:*>,
-		<betterwithaddons:diamond_spade:0>,
+		<betterwithaddons:diamond_spade:*>,
 
 		// Misc
 		<betterwithaddons:world_scale_active:0>,

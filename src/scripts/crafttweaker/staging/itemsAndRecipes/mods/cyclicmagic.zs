@@ -24,7 +24,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:sandstone_axe:*>,
 		<cyclicmagic:sandstone_hoe:*>,
 		<cyclicmagic:sandstone_pickaxe:*>,
-		<cyclicmagic:sandstone_spade:0>,
+		<cyclicmagic:sandstone_spade:*>,
 		<cyclicmagic:sandstone_sword:*>,
 		<cyclicmagic:tool_harvest_leaves:0>,
 		<cyclicmagic:tool_harvest_weeds:0>
@@ -154,7 +154,7 @@ static stagedItems as IIngredient[][string] = {
 		<cyclicmagic:crystal_axe:*>,
 		<cyclicmagic:crystal_hoe:*>,
 		<cyclicmagic:crystal_pickaxe:*>,
-		<cyclicmagic:crystal_spade:0>,
+		<cyclicmagic:crystal_spade:*>,
 		<cyclicmagic:crystal_sword:*>,
 		<cyclicmagic:crystallized_obsidian:0>,
 		<cyclicmagic:cyclic_wand_build:0>,

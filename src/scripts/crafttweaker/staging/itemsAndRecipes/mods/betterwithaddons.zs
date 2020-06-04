@@ -177,9 +177,9 @@ static stagedItems as IIngredient[][string] = {
 
 	stageTwo.stage: [
 		// Gold Stuff
-		<betterwithaddons:gold_carpentersaw:0>,
-		<betterwithaddons:gold_kukri:0>,
-		<betterwithaddons:gold_machete:0>,
+		<betterwithaddons:gold_carpentersaw:*>,
+		<betterwithaddons:gold_kukri:*>,
+		<betterwithaddons:gold_machete:*>,
 		<betterwithaddons:gold_masonpick:*>,
 		<betterwithaddons:gold_matchpick:*>,
 		<betterwithaddons:gold_spade:*>,
@@ -197,9 +197,9 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:food_pie_meat:0>,
 		<betterwithaddons:food_pie_melon:0>,
 		<betterwithaddons:food_pie_mushroom:0>,
-		<betterwithaddons:iron_carpentersaw:0>,
-		<betterwithaddons:iron_kukri:0>,
-		<betterwithaddons:iron_machete:0>,
+		<betterwithaddons:iron_carpentersaw:*>,
+		<betterwithaddons:iron_kukri:*>,
+		<betterwithaddons:iron_machete:*>,
 		<betterwithaddons:iron_masonpick:*>,
 		<betterwithaddons:iron_spade:*>,
 		<betterwithaddons:lattice:0>,
@@ -289,9 +289,9 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithaddons:shinai:0>,
 		<betterwithaddons:slat:0>,
 		<betterwithaddons:soulsand_pile:0>,
-		<betterwithaddons:steel_carpentersaw:0>,
-		<betterwithaddons:steel_kukri:0>,
-		<betterwithaddons:steel_machete:0>,
+		<betterwithaddons:steel_carpentersaw:*>,
+		<betterwithaddons:steel_kukri:*>,
+		<betterwithaddons:steel_machete:*>,
 		<betterwithaddons:steel_masonpick:*>,
 		<betterwithaddons:steel_matchpick:*>,
 		<betterwithaddons:steel_spade:*>,
@@ -342,9 +342,9 @@ static stagedItems as IIngredient[][string] = {
 
 	stageFive.stage: [
 		//Diamond Stuff
-		<betterwithaddons:diamond_carpentersaw:0>,
-		<betterwithaddons:diamond_kukri:0>,
-		<betterwithaddons:diamond_machete:0>,
+		<betterwithaddons:diamond_carpentersaw:*>,
+		<betterwithaddons:diamond_kukri:*>,
+		<betterwithaddons:diamond_machete:*>,
 		<betterwithaddons:diamond_masonpick:*>,
 		<betterwithaddons:diamond_matchpick:*>,
 		<betterwithaddons:diamond_spade:*>,

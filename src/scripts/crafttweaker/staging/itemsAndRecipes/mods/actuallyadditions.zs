@@ -53,12 +53,12 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_pickaxe_quartz:*>,
 		<actuallyadditions:item_shovel_quartz:*>,
 		<actuallyadditions:item_sword_quartz:0>,
-		<actuallyadditions:quartz_paxel:0>
+		<actuallyadditions:quartz_paxel:*>
 	],
 
 	stageTwo.stage: [
 		<actuallyadditions:block_smiley_cloud:0>,
-		<actuallyadditions:iron_paxel:0>,
+		<actuallyadditions:iron_paxel:*>,
 		<actuallyadditions:item_dust:4>
 	],
 
@@ -95,7 +95,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_pickaxe_obsidian:*>,
 		<actuallyadditions:item_shovel_obsidian:*>,
 		<actuallyadditions:item_sword_obsidian:0>,
-		<actuallyadditions:obsidian_paxel:0>
+		<actuallyadditions:obsidian_paxel:*>
 	],
 
 	stageFour.stage: [
@@ -240,8 +240,8 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:block_testifi_bucks_white_stairs:0>,
 		<actuallyadditions:block_testifi_bucks_white_wall:0>,
 		<actuallyadditions:block_xp_solidifier:0>,
-		<actuallyadditions:diamond_paxel:0>,
-		<actuallyadditions:emerald_paxel:0>,
+		<actuallyadditions:diamond_paxel:*>,
+		<actuallyadditions:emerald_paxel:*>,
 		<actuallyadditions:item_axe_crystal_black:0>,
 		<actuallyadditions:item_axe_crystal_blue:0>,
 		<actuallyadditions:item_axe_crystal_green:0>,
@@ -319,12 +319,12 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_pants_crystal_red:0>,
 		<actuallyadditions:item_pants_crystal_white:0>,
 		<actuallyadditions:item_pants_emerald:0>,
-		<actuallyadditions:item_paxel_crystal_black:0>,
-		<actuallyadditions:item_paxel_crystal_blue:0>,
-		<actuallyadditions:item_paxel_crystal_green:0>,
-		<actuallyadditions:item_paxel_crystal_light_blue:0>,
-		<actuallyadditions:item_paxel_crystal_red:0>,
-		<actuallyadditions:item_paxel_crystal_white:0>,
+		<actuallyadditions:item_paxel_crystal_black:*>,
+		<actuallyadditions:item_paxel_crystal_blue:*>,
+		<actuallyadditions:item_paxel_crystal_green:*>,
+		<actuallyadditions:item_paxel_crystal_light_blue:*>,
+		<actuallyadditions:item_paxel_crystal_red:*>,
+		<actuallyadditions:item_paxel_crystal_white:*>,
 		<actuallyadditions:item_phantom_connector:0>,
 		<actuallyadditions:item_pickaxe_crystal_black:*>,
 		<actuallyadditions:item_pickaxe_crystal_blue:*>,
@@ -363,8 +363,8 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<actuallyadditions:block_misc:5>,
 	<actuallyadditions:block_treasure_chest:0>,
-	<actuallyadditions:gold_paxel:0>,
-	<actuallyadditions:iron_paxel:0>,
+	<actuallyadditions:gold_paxel:*>,
+	<actuallyadditions:iron_paxel:*>,
 	<actuallyadditions:item_color_lens:0>,
 	<actuallyadditions:item_crafter_on_a_stick:0>,
 	<actuallyadditions:item_dust:1>,
@@ -379,8 +379,8 @@ static hiddenRemove as IIngredient[] = [
 	<actuallyadditions:item_solidified_experience:0>,
 	<actuallyadditions:item_water_bowl:0>,
 	<actuallyadditions:item_wings_of_the_bats:0>,
-	<actuallyadditions:stone_paxel:0>,
-	<actuallyadditions:wooden_paxel:0>
+	<actuallyadditions:stone_paxel:*>,
+	<actuallyadditions:wooden_paxel:*>
 ];
 
 function init() {

@@ -265,7 +265,7 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftplanets:desh_helmet:*>,
 		<galacticraftplanets:desh_hoe:*>,
 		<galacticraftplanets:desh_leggings:*>,
-		<galacticraftplanets:desh_pick_slime:0>,
+		<galacticraftplanets:desh_pick_slime:*>,
 		<galacticraftplanets:desh_pick:*>,
 		<galacticraftplanets:desh_spade:0>,
 		<galacticraftplanets:desh_sword:*>,

@@ -6,8 +6,8 @@ import scripts.crafttweaker.stages.stageThree;
 
 static stagedItems as IIngredient[][string] = {
 	stageThree.stage: [
-		<witherskelefix:blade:0>,
-		<witherskelefix:blade2:0>,
+		<witherskelefix:blade:*>,
+		<witherskelefix:blade2:*>,
 		<witherskelefix:fragment:0>
 	]
 };

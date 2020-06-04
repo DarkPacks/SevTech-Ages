@@ -373,7 +373,7 @@ static stagedItems as IIngredient[][string] = {
 		<abyssalcraft:skin:1>,
 		<abyssalcraft:skin:2>,
 		<abyssalcraft:solidlava:0>,
-		<abyssalcraft:soulreaper:0>,
+		<abyssalcraft:soulreaper:*>,
 		<abyssalcraft:staff:0>.withTag({Mode: 1}),
 		<abyssalcraft:staff:0>.withTag({}),
 		<abyssalcraft:statetransformer:0>,

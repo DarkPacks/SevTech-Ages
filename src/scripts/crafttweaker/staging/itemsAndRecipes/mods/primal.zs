@@ -20,7 +20,7 @@ static stagedItems as IIngredient[][string] = {
 		<primal:flint_hatchet:0>,
 		<primal:flint_knapp:0>,
 		<primal:flint_pickaxe:*>,
-		<primal:flint_workblade:0>,
+		<primal:flint_workblade:*>,
 		<primal:plant_cordage:0>,
 		<primal:plant_fiber:0>,
 		<primal:potato_boiled:0>,
@@ -371,7 +371,7 @@ static stagedItems as IIngredient[][string] = {
 		<primal:common_stone:7>,
 		<primal:desiccated_stone:7>,
 		<primal:ferro_stone:7>,
-		<primal:iron_workblade:0>,
+		<primal:iron_workblade:*>,
 		<primal:ladder_block_stonebrick_cracked:0>,
 		<primal:ladder_block_stonebrick_mossy:0>,
 		<primal:ladder_block_stonebrick:0>,
@@ -591,11 +591,11 @@ static stagedItems as IIngredient[][string] = {
 		<primal:diamond_knapp:0>,
 		<primal:diamond_point:0>,
 		<primal:diamond_saw:*>,
-		<primal:diamond_workblade:0>,
+		<primal:diamond_workblade:*>,
 		<primal:emerald_knapp:0>,
 		<primal:emerald_point:0>,
 		<primal:emerald_saw:*>,
-		<primal:emerald_workblade:0>
+		<primal:emerald_workblade:*>
 	]
 };
 
@@ -812,7 +812,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:obsidian_transparent:0>,
 	<primal:obsidian_transparent:1>,
 	<primal:obsidian_transparent:2>,
-	<primal:obsidian_workblade:0>,
+	<primal:obsidian_workblade:*>,
 	<primal:opal:0>,
 	<primal:opal_axe:*>,
 	<primal:opal_hatchet:0>,
@@ -821,7 +821,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:opal_pickaxe:*>,
 	<primal:opal_point:0>,
 	<primal:opal_shovel:*>,
-	<primal:opal_workblade:0>,
+	<primal:opal_workblade:*>,
 	<primal:ore_iron:0>,
 	<primal:ore_magnetite:*>,
 	<primal:ore_salt:2>,
@@ -838,7 +838,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:platinum_nugget:0>,
 	<primal:quartz_vitrified>,
 	<primal:quartz_vitrified_lens:0>,
-	<primal:quartz_workblade:0>,
+	<primal:quartz_workblade:*>,
 	<primal:redstone_sand:0>,
 	<primal:rock_andesite:0>,
 	<primal:rock_diorite:0>,

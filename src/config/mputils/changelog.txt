@@ -11,13 +11,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 3.2.0 Skyblock
 
 Enhancements:
-* Increased the height of underground Clay generation and the total amount of veins
-* Added Sugar Cane to the Dense Water Strainer loot table
+* SevTech, but now in Skyblock!
 * Increased Volarkite durability
-* Added Betweenlands Weedwood sticks to ore:stickWood oredictionary entry
-* Added a number of foods to the nutrition item list
-* Added Loading Screens for a better player experience!
-* The Hunting Dimension will now generate terrain based on the overworld
+* The Hunting Dimension, Twilight Forest, and Nether have void generation
 * Added a recipe to turn rocks into gravel
 * Added additional methods to obtain clay
 

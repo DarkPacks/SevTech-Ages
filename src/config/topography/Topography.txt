@@ -7,6 +7,6 @@ printDocumentation(false)
 setAsDefaultWorldType()
 
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
-basicSkyIslands = registerPreset("Sky Block", "images/Sky_Islands", "SevTech, but it's Skyblock", "default")
+basicSkyIslands = registerPreset("Sky Block", "images/sky_islands", "SevTech, but it's Skyblock", "default")
 basicSkyIslands.registerDimension(0, "dimensions/sky_islands")
 basicSkyIslands.registerDimension(-1, "dimensions/sky_nether")

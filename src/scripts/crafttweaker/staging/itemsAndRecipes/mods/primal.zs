@@ -746,7 +746,7 @@ static hiddenItems as IIngredient[] = [
 	<primal:iron_bloom:0>,
 	<primal:iron_clippers:0>,
 	<primal:iron_gallagher:0>,
-	<primal:iron_mesh:0>,
+	<primal:iron_mesh:*>,
 	<primal:iron_pin:0>,
 	<primal:iron_ring:0>,
 	<primal:iron_saw:*>,

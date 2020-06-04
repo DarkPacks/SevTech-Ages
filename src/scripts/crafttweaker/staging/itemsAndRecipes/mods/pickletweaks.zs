@@ -13,7 +13,7 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTutorial.stage: [
-		<pickletweaks:grass_mesh:0>
+		<pickletweaks:grass_mesh:*>
 	],
 
 	stageZero.stage: [
@@ -91,7 +91,7 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenItems as IIngredient[] = [
-	<pickletweaks:mesh:0>,
+	<pickletweaks:mesh:*>,
 	<pickletweaks:ppm4:1>,
 	<pickletweaks:ppm4:0>,
 	<pickletweaks:repair_kit_custom:0>
@@ -100,7 +100,7 @@ static hiddenItems as IIngredient[] = [
 
 static hiddenRemove as IIngredient[] = [
 	<pickletweaks:grass_fiber:0>,
-	<pickletweaks:reinforced_mesh:0>
+	<pickletweaks:reinforced_mesh:*>
 ];
 
 function init() {

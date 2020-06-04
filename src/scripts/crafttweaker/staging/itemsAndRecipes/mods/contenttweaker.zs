@@ -13,11 +13,11 @@ static stagedItems as IIngredient[][string] = {
 		<contenttweaker:bronze_chest:*>,
 		<contenttweaker:bronze_feet:0>,
 		<contenttweaker:bronze_head:0>,
-		<contenttweaker:bronze_legs:0>,
+		<contenttweaker:bronze_legs:*>,
 		<contenttweaker:copper_chest:*>,
 		<contenttweaker:copper_feet:0>,
 		<contenttweaker:copper_head:0>,
-		<contenttweaker:copper_legs:0>,
+		<contenttweaker:copper_legs:*>,
 		<materialpart:aquamarine:ore_minecraft_stone>
 	],
 

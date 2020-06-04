@@ -19,6 +19,7 @@ Enhancements:
 * Added Loading Screens for a better player experience!
 * The Hunting Dimension will now generate terrain based on the overworld
 * Added a recipe to turn rocks into gravel
+* Added additional methods to obtain clay
 
 Mods Added:
 * Drafty Kites

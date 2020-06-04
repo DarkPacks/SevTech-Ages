@@ -18,6 +18,7 @@ Enhancements:
 * Added a number of foods to the nutrition item list
 * Added Loading Screens for a better player experience!
 * The Hunting Dimension will now generate terrain based on the overworld
+* Added a recipe to turn rocks into gravel
 
 Mods Added:
 * Drafty Kites

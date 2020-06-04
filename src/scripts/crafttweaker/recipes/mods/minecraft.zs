@@ -872,6 +872,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<minecraft:hopper:0>: [
 		[<uppers:upper:0>]
+	],
+	<minecraft:gravel:0>: [
+		[<ore:rock>, <ore:rock>, <ore:rock>, <ore:rock>]
 	]
 };
 

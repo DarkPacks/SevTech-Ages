@@ -52,7 +52,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_pants_quartz:0>,
 		<actuallyadditions:item_pickaxe_quartz:*>,
 		<actuallyadditions:item_shovel_quartz:*>,
-		<actuallyadditions:item_sword_quartz:0>,
+		<actuallyadditions:item_sword_quartz:*>,
 		<actuallyadditions:quartz_paxel:*>
 	],
 
@@ -94,7 +94,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_pants_obsidian:0>,
 		<actuallyadditions:item_pickaxe_obsidian:*>,
 		<actuallyadditions:item_shovel_obsidian:*>,
-		<actuallyadditions:item_sword_obsidian:0>,
+		<actuallyadditions:item_sword_obsidian:*>,
 		<actuallyadditions:obsidian_paxel:*>
 	],
 
@@ -345,13 +345,13 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_shovel_emerald:*>,
 		<actuallyadditions:item_spawner_changer:0>,
 		<actuallyadditions:item_suction_ring:0>,
-		<actuallyadditions:item_sword_crystal_black:0>,
-		<actuallyadditions:item_sword_crystal_blue:0>,
-		<actuallyadditions:item_sword_crystal_green:0>,
-		<actuallyadditions:item_sword_crystal_light_blue:0>,
-		<actuallyadditions:item_sword_crystal_red:0>,
-		<actuallyadditions:item_sword_crystal_white:0>,
-		<actuallyadditions:item_sword_emerald:0>,
+		<actuallyadditions:item_sword_crystal_black:*>,
+		<actuallyadditions:item_sword_crystal_blue:*>,
+		<actuallyadditions:item_sword_crystal_green:*>,
+		<actuallyadditions:item_sword_crystal_light_blue:*>,
+		<actuallyadditions:item_sword_crystal_red:*>,
+		<actuallyadditions:item_sword_crystal_white:*>,
+		<actuallyadditions:item_sword_emerald:*>,
 		<actuallyadditions:item_tele_staff:0>,
 		<actuallyadditions:item_water_removal_ring:0>,
 		<actuallyadditions:item_wings_of_the_bats:0>,

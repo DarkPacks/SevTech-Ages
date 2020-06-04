@@ -293,7 +293,7 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:axe_steel:*>,
 		<immersiveengineering:pickaxe_steel:*>,
 		<immersiveengineering:shovel_steel:*>,
-		<immersiveengineering:sword_steel:0>
+		<immersiveengineering:sword_steel:*>
 	],
 
 	stageCreativeUnused.stage: [

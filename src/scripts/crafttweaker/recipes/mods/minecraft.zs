@@ -875,7 +875,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<minecraft:gravel:0>: [
 		[<ore:rock>, <ore:rock>, <ore:rock>, <ore:rock>]
-	]
+	],
 	<minecraft:clay_ball:0>: [
 		[<pickletweaks:grass_mesh:*>, <minecraft:dirt:0>],
 	]

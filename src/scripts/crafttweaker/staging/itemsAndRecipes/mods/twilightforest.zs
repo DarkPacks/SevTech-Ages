@@ -20,7 +20,8 @@ static stagedItems as IIngredient[][string] = {
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "IE:MASTERWORK"}),
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "RARE"}),
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "TWILIGHT"}),
-		<twilightforest:shader_bag:0>.withTag({shader_rarity: "UNCOMMON"})
+		<twilightforest:shader_bag:0>.withTag({shader_rarity: "UNCOMMON"}),
+		<twilightforest:shader_bag:0>.withTag({shader_rarity: "COMMON"})
 	],
 
 	stageDisabled.stage: [

@@ -1,58 +1,93 @@
-//compatSurface()
 disableRespawning()
-//enableRelightChecks()
 vaporizeWater()
-setFogColor(#330707)
+setFogColor(#3000000)
 setCelestialAngle(0.5)
 disableSky()
 disableClouds()
 generateNetherFortress(2, 32, 4)
 disableSkylight()
 
+////
+//Failed Attempt to get rid of trees at y=0
+//layers = new LayerGenerator()
+//layers.addLayer(0~1, <minecraft:air>)
+//addGenerator(layers)
+////
+
 //Lighting
 setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
 
-//Sets the dimension to generate as the void biome. The sky islands will override this where they generate, so this will only be the biome between the islands.
-setSingleBiome("minecraft:void")
-
-
-hell = new SkyIslandType("minecraft:hell")
-hell.disableBiomeBlockReplacement()
-hell.setMainBlock(<minecraft:netherrack>)
-hell.setFluidBlock(<minecraft:lava>)
-
-arctic_abyss = new SkyIslandType("nex:arctic_abyss")
-arctic_abyss.setMainBlock(<minecraft:netherrack>)
-
-fungi_forest = new SkyIslandType("nex:fungi_forest")
-fungi_forest.setMainBlock(<minecraft:netherrack>)
-fungi_forest.setFluidBlock(<minecraft:lava>)
-
-ruthless_sands = new SkyIslandType("nex:ruthless_sands")
-ruthless_sands.setMainBlock(<minecraft:netherrack>)
-ruthless_sands.setFluidBlock(<minecraft:lava>)
-
-
-torrid_wasteland = new SkyIslandType("nex:torrid_wasteland")
-torrid_wasteland.setMainBlock(<minecraft:netherrack>)
-torrid_wasteland.setFluidBlock(<minecraft:lava>)
-
+setSingleBiome("minecraft:hell")
 
 ////
 //Spawn Island
 ////
 spawn = new SkyIslandType("minecraft:hell")
 spawn.setMainBlock(<minecraft:netherrack>)
+//spawn.setMainBlock(<tconstruct:clear_glass>)
 spawn.disableBiomeBlockReplacement()
 spawn.disableFluid()
-//spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
-//spawn.setBlockInRange(<minecraft:gravel>, 0.16~0.19)
-//spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+spawn.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+spawn.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+spawn.setBlockInRange(<minecraft:quartz_ore>, 0.38~0.44)
 
+//Non-spawn islands
+hell = new SkyIslandType("minecraft:hell")
+//hell.setMainBlock(<tconstruct:clear_glass>)
+hell.setMainBlock(<minecraft:netherrack>)
+hell.disableBiomeBlockReplacement()
+hell.setFluidBlock(<minecraft:lava>)
+hell.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+hell.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+hell.setBlockInRange(<minecraft:quartz_ore>, 0.38~0.44)
 
+//Ice
+arctic_abyss = new SkyIslandType("nex:arctic_abyss")
+//arctic_abyss.setMainBlock(<tconstruct:clear_glass>)
+arctic_abyss.setMainBlock(<minecraft:netherrack>)
+arctic_abyss.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+arctic_abyss.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+arctic_abyss.setBlockInRange(<nex:quartz_ore, meta:1>, 0.38~0.44)
 
+//Lively
+fungi_forest = new SkyIslandType("nex:fungi_forest")
+//fungi_forest.setMainBlock(<tconstruct:clear_glass>)
+fungi_forest.setMainBlock(<minecraft:netherrack>)
+fungi_forest.setFluidBlock(<minecraft:lava>)
+fungi_forest.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+fungi_forest.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+fungi_forest.setBlockInRange(<nex:quartz_ore, meta:2>, 0.38~0.44)
 
+//Gloomy
+ruthless_sands = new SkyIslandType("nex:ruthless_sands")
+//ruthless_sands.setMainBlock(<tconstruct:clear_glass>)
+ruthless_sands.setMainBlock(<minecraft:netherrack>)
+ruthless_sands.setFluidBlock(<minecraft:lava>)
+ruthless_sands.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+ruthless_sands.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+ruthless_sands.setBlockInRange(<nex:quartz_ore, meta:3>, 0.38~0.44)
 
+//Fiery
+torrid_wasteland = new SkyIslandType("nex:torrid_wasteland")
+//torrid_wasteland.setMainBlock(<tconstruct:clear_glass>)
+torrid_wasteland.setMainBlock(<minecraft:netherrack>)
+torrid_wasteland.setFluidBlock(<minecraft:lava>)
+torrid_wasteland.setBlockInRange(<minecraft:gravel>, 0.19~0.24)
+torrid_wasteland.setBlockInRange(<minecraft:soul_sand>, 0.28~0.34)
+torrid_wasteland.setBlockInRange(<nex:quartz_ore>, 0.38~0.44)
+
+//Gloomy
+//nex:netherrack:3
+//nex:quartz_ore:3
+//Lively
+//nex:netherrack:2
+//nex:quartz_ore:2
+//Firey
+//nex:netherrack
+//nex:quartz_ore
+//Ice
+//nex:netherrack:1
+//nex:quartz_ore:1
 
 ////
 //Creates a new SkyIslandGenerator, sets its grid region size, and adds it to the generator list for the dimension.
@@ -61,32 +96,30 @@ skyIslands = new SkyIslandGeneratorV2()
 skyIslands.setRegionSize(50)
 addGenerator(skyIslands)
 
-
 //Adds sky islands. Arguments are radius, number of times to attempt to generate in each region, and whether each island should choose a random type (true), or if types should be used in order (false).
-//Spawn biomes
+//Spawn biome
 large = skyIslands.addSkyIslands(36, 36, 36, 1, false, 1)
 large.addType(spawn)
 
-
 //medium = skyIslands.addSkyIslands(50, 50, 50, 128, true)
-medium = skyIslands.addSkyIslands(64, 64, 64, 1, true)
+medium = skyIslands.addSkyIslands(26, 26, 26, 148, true)
 medium.setWaterHeight(3)
+medium.addType(hell)
+medium.addType(hell)
 medium.addType(hell)
 medium.addType(arctic_abyss)
 medium.addType(fungi_forest)
+medium.addType(fungi_forest)
+medium.addType(ruthless_sands)
 medium.addType(ruthless_sands)
 medium.addType(torrid_wasteland)
+medium.addType(torrid_wasteland)
 
-//small = skyIslands.addSkyIslands(25, 64, true)
-//small.addType()
-//
-//tiny = skyIslands.addSkyIslands(10, 128, true)
-//tiny.addType(mushroom_island)
-
-
-spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 32, 32, 2)
-spheres.addRequiredBlock(<minecraft:netherrack>)
-addGenerator(spheres)
+//Ore Generation
+//regionSize, radius, count, mincount
+//spheres = new DeformedSphereGenerator(<minecraft:soul_sand>, 10, 8, 12, 1)
+//spheres.addRequiredBlock(<minecraft:netherrack>)
+//addGenerator(spheres)
 
 fire = new ScatteredBlockGenerator(<minecraft:fire>, 5, 64)
 fire.addRequiredBlock(<minecraft:netherrack>)
@@ -100,44 +133,22 @@ glowstone = new HangingCrystalGenerator(<minecraft:glowstone>, 20, 1500)
 glowstone.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(glowstone)
 
-quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
-quartz.setDeformScale(4)
-quartz.addRequiredBlock(<minecraft:netherrack>)
-addGenerator(quartz)
+//quartz = new DeformedSphereGenerator(<minecraft:quartz_ore>, 2, 3, 32, 8)
+//quartz.setDeformScale(4)
+//quartz.addRequiredBlock(<minecraft:netherrack>)
+//addGenerator(quartz)
 
-ardite = new DeformedSphereGenerator(<tconstruct:ore:1>, 3, 2, 64, 10)
+ardite = new DeformedSphereGenerator(<tconstruct:ore, meta:1>, 3, 2, 64, 4)
 ardite.setDeformScale(4)
 ardite.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(ardite)
 
-cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 10)
+cobalt = new DeformedSphereGenerator(<tconstruct:ore>, 2, 3, 52, 4)
 cobalt.setDeformScale(4)
 cobalt.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(cobalt)
 
-amethyst = new DeformedSphereGenerator(<nex:amethyst_ore>, 2, 1, 64, 8)
+amethyst = new DeformedSphereGenerator(<nex:amethyst_ore>, 3, 3, 52, 4)
 amethyst.setDeformScale(4)
 amethyst.addRequiredBlock(<minecraft:netherrack>)
 addGenerator(amethyst)
-
-
-
-quartz = new DeformedSphereGenerator(<nex:quartz_ore>, 2, 4, 64, 8)
-quartz.setDeformScale(4)
-quartz.addRequiredBlock(<nex:netherrack>)
-addGenerator(quartz)
-
-quartz = new DeformedSphereGenerator(<nex:quartz_ore:1>, 2, 4, 64, 8)
-quartz.setDeformScale(4)
-quartz.addRequiredBlock(<nex:netherrack:1>)
-addGenerator(quartz)
-
-quartz = new DeformedSphereGenerator(<nex:quartz_ore:2>, 2, 4, 64, 8)
-quartz.setDeformScale(4)
-quartz.addRequiredBlock(<nex:netherrack:2>)
-addGenerator(quartz)
-
-quartz = new DeformedSphereGenerator(<nex:quartz_ore:3>, 2, 4, 64, 8)
-quartz.setDeformScale(4)
-quartz.addRequiredBlock(<nex:netherrack:3>)
-addGenerator(quartz)

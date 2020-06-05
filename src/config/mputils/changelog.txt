@@ -13,7 +13,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Enhancements:
 * SevTech, but now in Skyblock!
 * Increased Volarkite durability
-* The Hunting Dimension, Twilight Forest, and Nether have void generation
+* The Hunting Dimension, Twilight Forest, Nether, and Beneath have void generation
 * Added a recipe to turn rocks into gravel
 * Added additional methods to obtain clay
 

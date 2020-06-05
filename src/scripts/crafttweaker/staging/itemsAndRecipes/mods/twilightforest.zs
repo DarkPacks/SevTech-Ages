@@ -8,7 +8,8 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageTwo.stage: [
-		<twilightforest:spiral_bricks:0>
+		<twilightforest:spiral_bricks:0>,
+		<twilightforest:shader_bag:0>.withTag({shader_rarity: "COMMON"})
 	],
 
 	stageThree.stage: [
@@ -20,8 +21,7 @@ static stagedItems as IIngredient[][string] = {
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "IE:MASTERWORK"}),
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "RARE"}),
 		<twilightforest:shader_bag:0>.withTag({shader_rarity: "TWILIGHT"}),
-		<twilightforest:shader_bag:0>.withTag({shader_rarity: "UNCOMMON"}),
-		<twilightforest:shader_bag:0>.withTag({shader_rarity: "COMMON"})
+		<twilightforest:shader_bag:0>.withTag({shader_rarity: "UNCOMMON"})
 	],
 
 	stageDisabled.stage: [

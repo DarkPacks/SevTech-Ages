@@ -68,6 +68,7 @@ Enhancements:
 
 Mods Added:
 * Loading Screens
+* RandomPatches (1.21.0.3)
 * SevPatches
 * Wall-Jump!
 

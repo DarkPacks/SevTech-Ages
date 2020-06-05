@@ -1,3 +1,4 @@
+#priority 1
 /*
 	SevTech: Ages Mod Id Staging Script
 
@@ -53,4 +54,13 @@ function init() {
 	for stageName, modId in stagedMods {
 		ZenStager.getStage(stageName).addModId(modId, true);
 	}
+}
+
+function containsMod(targetModId as string) as string {
+	for stageName, modIds in stagedMods {
+		if (modIds has targetModId) {
+			return stageName;
+		}
+	}
+	return "";
 }

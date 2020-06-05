@@ -18,6 +18,7 @@ src/journeymap/server/*
 src/journeymap/journeymap.log
 
 # Other
+src/config/topography/documentation/
 src/config/worldutils/*
 src/config/sampler.ini
 

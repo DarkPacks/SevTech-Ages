@@ -31,6 +31,7 @@ function init() {
 	immersiveEngineering.addCrusher(<minecraft:dye:4> * 9, <minecraft:lapis_block:0>, 3000); // Lapis Block -> Lapis
 	immersiveEngineering.addCrusher(<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>, 3000); // Redstone Block -> Redstone
 	immersiveEngineering.addCrusher(<minecraft:emerald:0> * 9, <minecraft:emerald_block:0>, 3000); // Emerald Block -> Emerald
+	immersiveEngineering.addCrusher(<minecraft:dye:15> * 3, <death_compass:death_compass>.withTag({}), 3000); // Death Compass -> Bone Meal
 
 	// Remove wool -> minecraft dye and string.
 	immersiveEngineering.removeCrusher(<minecraft:string:0>);

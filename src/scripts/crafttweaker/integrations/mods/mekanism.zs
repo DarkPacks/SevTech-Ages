@@ -119,6 +119,7 @@ function init() {
 	mekanism.addCrusher(<immersiveengineering:material:7>, <minecraft:sand:0>);
 	mekanism.addCrusher(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>);
 	mekanism.addCrusher(<astralsorcery:blockcustomore:1>, <astralsorcery:itemcraftingcomponent:2> * 2);
+	mekanism.addCrusher(<death_compass:death_compass>.withTag({}), <minecraft:dye:15> * 3); // Death Compass -> Bone Meal
 
 	/*
 		Saw

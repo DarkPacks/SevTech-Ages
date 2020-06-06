@@ -66,6 +66,7 @@ Enhancements:
 * Add Sugar Cane to Survivalist Strainer
 * Add glider tooltip to Volarkite
 * Add Ardite and Cobalt dusts
+* Death Compass can now be crushed into Bone Meal
 
 Mods Added:
 * Loading Screens

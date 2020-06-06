@@ -1,0 +1,20 @@
+name Dab
+
+use left_arm
+use right_arm
+use head
+
+animation parallel
+	move left_arm_z 420 1.57
+	move left_arm_x 420 -0.4
+	move left_arm_y 420 0.5
+
+	move right_arm_z 420 1.57
+	move right_arm_x 420 -0.4
+	move right_arm_y 420 0.5
+	
+	move head_z 420 -0.2
+	move head_x 420 0.7
+	
+yoyo 1 1000
+end

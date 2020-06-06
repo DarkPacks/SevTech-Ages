@@ -35,6 +35,7 @@ Bug Fixes:
 * Fixed Cinnabar mineral vein not being overriden as intended. Cinnabar mineral veins now give redstone dust. (#4071)
 * Removed Rusted Mineshafts from spawning
 * Mekanism ore crushing yielding incorrect amount of dust (now yields 2 dust)
+* Stage One Chisel recipe contained iron (which is unobtainable)
 
 Enhancements:
 * Graves will now have their outline highlighted

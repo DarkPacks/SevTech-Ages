@@ -10,6 +10,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import mods.zenstages.Utils;
+
+import scripts.crafttweaker.stages.stageOne;
+import scripts.crafttweaker.stages.stageTwo;
+
 /*
     Shaped Recipes
 */
@@ -23,7 +28,22 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	]
 };
 
-static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {};
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+	<chisel:chisel_iron:0>: {
+		Utils.genRecipeName(stageOne, <chisel:chisel_iron:0>): [
+			[
+				[null, metals.tin.plate],
+				[<ore:stickWood>, null]
+			]
+		],
+		Utils.genRecipeName(stageTwo, <chisel:chisel_iron:0>): [
+			[
+				[null, metals.iron.plate],
+				[<ore:stickWood>, null]
+			]
+		]
+	}
+};
 
 /*
     Mirrored Recipes
@@ -43,6 +63,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {};
     Recipe Removals
 */
 static removeRecipes as IItemStack[] = [
+	<chisel:chisel_iron:0>,
 	<chisel:temple:0>
 ];
 

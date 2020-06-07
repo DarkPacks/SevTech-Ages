@@ -36,6 +36,7 @@ Bug Fixes:
 * Removed Rusted Mineshafts from spawning
 * Mekanism ore crushing yielding incorrect amount of dust (now yields 2 dust)
 * Stage One Chisel recipe contained iron (which is unobtainable)
+* Many damaged items should now appear as staged
 
 Enhancements:
 * Graves will now have their outline highlighted

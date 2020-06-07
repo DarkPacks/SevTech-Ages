@@ -134,4 +134,6 @@ function init() {
 	*/
 	LightTransmutation.addTransmutation(<extraplanets:kepler22b:2>, <mysticalagriculture:inferium_ore:0>, 1000);
 	LightTransmutation.addTransmutation(<extraplanets:kepler22b:4>, <mysticalagriculture:prosperity_ore:0>, 1000);
+
+	astralSorcery.addGrindstone(<death_compass:death_compass>.withTag({}), <minecraft:dye:15> * 2); // Death Compass -> Bone Meal
 }

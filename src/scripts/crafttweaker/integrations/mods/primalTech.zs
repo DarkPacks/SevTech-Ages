@@ -90,7 +90,8 @@ function init() {
 		[<minecraft:flint:0> * 4, <primal_tech:flint_block>],
 		[<materialpart:stone:nugget>, <minecraft:stone:0>],
 		[<minecraft:dye:4> * 9, <minecraft:lapis_block:0>],
-		[<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>]
+		[<minecraft:redstone:0> * 9, <minecraft:redstone_block:0>],
+		[<minecraft:dye:15>, <death_compass:death_compass>.withTag({})] // Death Compass -> Bone Meal
 	];
 
 	for pair in stoneAnvilPair {

@@ -34,6 +34,7 @@ function init() {
 	actuallyAdditions.removeCrusher(<minecraft:sugar:0>); // Remove the bad Rice Recipe
 	actuallyAdditions.addCrusher(<betterwithaddons:japanmat:4>, <actuallyadditions:item_food:16>); // Rice -> Rice Flower
 	actuallyAdditions.removeCrusher(<actuallyadditions:item_dust:4>); // Remove Crushed Lapis
+	actuallyAdditions.addCrusher(<minecraft:dye:15> * 3, <death_compass:death_compass>.withTag({})); // Death Compass -> Bone Meal
 
 	// Ball of Fur
 

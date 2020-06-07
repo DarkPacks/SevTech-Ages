@@ -80,4 +80,6 @@ function init() {
 			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:fortune>.makeEnchantment(2)).ench}), <minecraft:redstone:0>);
 	appliedEnergistics.addInscribe(<refinedstorage:upgrade:9>, <refinedstorage:upgrade:0>, false,
 			<minecraft:enchanted_book:0>.withTag({StoredEnchantments: utils.makeJeidTag(<enchantment:minecraft:fortune>.makeEnchantment(3)).ench}), <minecraft:redstone:0>);
+
+	appliedEnergistics.addGrindstone(<minecraft:dye:15> * 2, <death_compass:death_compass>.withTag({})); // Death Compass -> Bone Meal
 }

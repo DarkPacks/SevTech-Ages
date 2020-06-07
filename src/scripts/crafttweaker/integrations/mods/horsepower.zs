@@ -78,6 +78,7 @@ static grinderRecipes as IIngredient[][][int] = {
 	32: [
 		[<tconstruct:stone_stick:0>, <minecraft:cobblestone:0>],
 		[<minecraft:dye:15> * 2, <primal:shark_tooth:0>],
+		[<minecraft:dye:15> * 2, <death_compass:death_compass>.withTag({})], // Death Compass -> Bone Meal
 		[<minecraft:prismarine_shard:0> * 4, <minecraft:prismarine:0>]
 	]
 };

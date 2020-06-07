@@ -116,7 +116,7 @@ static stagedItems as IIngredient[][string] = {
 		<pneumaticcraft:pneumatic_door:0>,
 		<pneumaticcraft:pneumatic_door_base:0>,
 		<pneumaticcraft:pneumatic_dynamo:0>,
-		<pneumaticcraft:pneumatic_helmet:0>,
+		<pneumaticcraft:pneumatic_helmet:*>,
 		<pneumaticcraft:pneumatic_leggings:*>,
 		<pneumaticcraft:pneumatic_wrench:*>,
 		<pneumaticcraft:pressure_chamber_glass:0>,
@@ -186,7 +186,7 @@ static stagedItems as IIngredient[][string] = {
 static hiddenRemove as IIngredient[] = [
 	<pneumaticcraft:refinery:0>,
 	<pneumaticcraft:thermopneumatic_processing_plant:0>,
-	<pneumaticcraft:jet_boots_upgrade:0>
+	<pneumaticcraft:jet_boots_upgrade:*>
 ];
 
 function init() {

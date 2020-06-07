@@ -24,7 +24,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFive.stage: [
-		<chiselsandbits:bitsaw_diamond:0>,
+		<chiselsandbits:bitsaw_diamond:*>,
 		<chiselsandbits:chisel_diamond:0>
 	]
 };

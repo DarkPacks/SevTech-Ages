@@ -33,7 +33,7 @@ static hiddenRemove as IIngredient[] = [
 	<immcraft:chisel:0>,
 	<immcraft:furnace:0>,
 	<immcraft:manual:0>,
-	<immcraft:saw:0>
+	<immcraft:saw:*>
 ];
 
 function init() {

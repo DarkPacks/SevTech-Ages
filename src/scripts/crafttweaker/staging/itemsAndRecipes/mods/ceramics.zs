@@ -24,10 +24,10 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_barrel_unfired:3>,
 		<ceramics:clay_barrel_unfired:0>,
 		<ceramics:clay_barrel:0>,
-		<ceramics:clay_boots:0>,
+		<ceramics:clay_boots:*>,
 		<ceramics:clay_bucket_block:0>,
 		<ceramics:clay_bucket:0>,
-		<ceramics:clay_chestplate:0>,
+		<ceramics:clay_chestplate:*>,
 		<ceramics:clay_hard:1>,
 		<ceramics:clay_hard:2>,
 		<ceramics:clay_hard:4>,
@@ -35,9 +35,9 @@ static stagedItems as IIngredient[][string] = {
 		<ceramics:clay_hard:6>,
 		<ceramics:clay_hard:7>,
 		<ceramics:clay_hard:0>,
-		<ceramics:clay_helmet:0>,
-		<ceramics:clay_leggings:0>,
-		<ceramics:clay_shears:0>,
+		<ceramics:clay_helmet:*>,
+		<ceramics:clay_leggings:*>,
+		<ceramics:clay_shears:*>,
 		<ceramics:clay_slab:1>,
 		<ceramics:clay_slab:2>,
 		<ceramics:clay_slab:4>,
@@ -104,10 +104,10 @@ static stagedItems as IIngredient[][string] = {
 };
 
 static hiddenRemove as IIngredient[] = [
-	<ceramics:clay_boots_raw:0>,
-	<ceramics:clay_chestplate_raw:0>,
-	<ceramics:clay_helmet_raw:0>,
-	<ceramics:clay_leggings_raw:0>,
+	<ceramics:clay_boots_raw:*>,
+	<ceramics:clay_chestplate_raw:*>,
+	<ceramics:clay_helmet_raw:*>,
+	<ceramics:clay_leggings_raw:*>,
 ];
 
 function init() {

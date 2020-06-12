@@ -13,6 +13,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)
+* Dimensional Control (2.13.0)
 
 ---------------------------------------------------------------------
 

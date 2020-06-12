@@ -10,14 +10,14 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 	stageOne.stage: [
-		<contenttweaker:bronze_chest:0>,
+		<contenttweaker:bronze_chest:*>,
 		<contenttweaker:bronze_feet:0>,
 		<contenttweaker:bronze_head:0>,
-		<contenttweaker:bronze_legs:0>,
-		<contenttweaker:copper_chest:0>,
+		<contenttweaker:bronze_legs:*>,
+		<contenttweaker:copper_chest:*>,
 		<contenttweaker:copper_feet:0>,
 		<contenttweaker:copper_head:0>,
-		<contenttweaker:copper_legs:0>,
+		<contenttweaker:copper_legs:*>,
 		<materialpart:aquamarine:ore_minecraft_stone>
 	],
 

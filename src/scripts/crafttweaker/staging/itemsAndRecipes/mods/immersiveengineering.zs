@@ -76,10 +76,10 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:drillhead:1>,
 		<immersiveengineering:drillhead:0>,
 		<immersiveengineering:earmuffs:0>,
-		<immersiveengineering:faraday_suit_chest:0>,
+		<immersiveengineering:faraday_suit_chest:*>,
 		<immersiveengineering:faraday_suit_feet:0>,
 		<immersiveengineering:faraday_suit_head:0>,
-		<immersiveengineering:faraday_suit_legs:0>,
+		<immersiveengineering:faraday_suit_legs:*>,
 		<immersiveengineering:fluorescent_tube:0>,
 		<immersiveengineering:graphite_electrode:0>,
 		<immersiveengineering:jerrycan:0>,
@@ -290,10 +290,10 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageDisabled.stage: [
-		<immersiveengineering:axe_steel:0>,
-		<immersiveengineering:pickaxe_steel:0>,
-		<immersiveengineering:shovel_steel:0>,
-		<immersiveengineering:sword_steel:0>
+		<immersiveengineering:axe_steel:*>,
+		<immersiveengineering:pickaxe_steel:*>,
+		<immersiveengineering:shovel_steel:*>,
+		<immersiveengineering:sword_steel:*>
 	],
 
 	stageCreativeUnused.stage: [

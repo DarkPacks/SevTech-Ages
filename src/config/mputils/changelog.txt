@@ -22,6 +22,8 @@ Mods Added:
 * Topography (1.13.3)
 
 Mod Updates:
+* AbyssalCraft (1.9.19.1)
+* AbyssalCraft Integration (1.11.2)
 * Dimensional Control (2.13.0)
 
 ---------------------------------------------------------------------
@@ -54,6 +56,7 @@ Bug Fixes:
 * Removed Rusted Mineshafts from spawning
 * Mekanism ore crushing yielding incorrect amount of dust (now yields 2 dust)
 * Stage One Chisel recipe contained iron (which is unobtainable)
+* Many damaged items should now appear as staged
 
 Enhancements:
 * Graves will now have their outline highlighted

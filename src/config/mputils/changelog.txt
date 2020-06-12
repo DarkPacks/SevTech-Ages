@@ -8,6 +8,14 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.2.0
+
+Mod Updates:
+* AbyssalCraft (1.9.19.1)
+* AbyssalCraft Integration (1.11.2)
+
+---------------------------------------------------------------------
+
 3.1.3
 
 Bug Fixes:

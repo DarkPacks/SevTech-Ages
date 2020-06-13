@@ -36,7 +36,7 @@ static grinderRecipes as IIngredient[][][int] = {
 		[<ore:dyeOrange>.firstItem, <minecraft:red_flower:5>],
 		[<minecraft:sand:0> * 2, <minecraft:sandstone:0>],
 		[<minecraft:sugar:0> * 1, <minecraft:reeds:0>],
-		[<natura:materials:1>, <natura:materials:0>],
+		[<horsepower:flour:0>, <natura:materials:0>],
 		[<ore:dyeYellow>.firstItem * 2, <minecraft:dye:11>],
 		[<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowers:4>],
 		[<ore:dyeBlue>.firstItem * 2, <ferdinandsflowers:block_cff_flowersc:6>],

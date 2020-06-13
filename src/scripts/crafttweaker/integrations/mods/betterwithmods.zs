@@ -223,7 +223,7 @@ function init() {
 
 	// THERE CAN BE ONLY 1 FLOUR!
 	betterWithMods.addMilling([<minecraft:wheat:0>], [<horsepower:flour:0>]);
-	betterWithMods.addMilling([<natura:materials:0>], [<natura:materials:1>]);
+	betterWithMods.addMilling([<natura:materials:0>], [<horsepower:flour:0>]);
 
 	// Other
 	betterWithMods.addMilling([<minecraft:flint:0>, <minecraft:clay_ball:0>, <pickletweaks:dye_powder:0>], [<ceramics:unfired_clay:4>]);

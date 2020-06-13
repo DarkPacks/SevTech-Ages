@@ -186,11 +186,6 @@ function init() {
 		]
 	};
 
-	// Custom / Additional Flour which needs processing but we do not want to effect the ore dictionary.
-	var flourItems = [
-		<natura:materials:1>
-	] as IIngredient[];
-
 	// Fill the flour items from the ore dictionary.
 	for flour in <ore:foodFlour>.items {
 		flourItems += flour;

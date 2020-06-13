@@ -12,6 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Correctly stage the Stray and its equipment
+* Wool being visible in the world before intended
 
 Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead

@@ -186,15 +186,11 @@ function init() {
 		]
 	};
 
-	// Fill the flour items from the ore dictionary.
-	for flour in <ore:foodFlour>.items {
-		flourItems += flour;
-	}
-
 	var doughRecipes = [] as IIngredient[][];
 	var oreSalt = <ore:foodSalt>;
+	var oreFlour = <ore:foodFlour>;
 
-	for flour in flourItems {
+	for flour in oreFlour.items {
 		for salt in oreSalt.items {
 			doughRecipes += [flour, flour, flour, salt] as IIngredient[];
 			doughRecipes += [flour, flour, salt, flour] as IIngredient[];

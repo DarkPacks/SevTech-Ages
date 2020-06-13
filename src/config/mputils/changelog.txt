@@ -22,6 +22,9 @@ Mods Added:
 * Drafty Kites
 * Topography (1.13.3)
 
+Bug Fixes:
+* Correctly stage the Stray and its equipment
+
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)

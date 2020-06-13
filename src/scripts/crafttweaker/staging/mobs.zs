@@ -22,7 +22,8 @@ static mobsMap as string[][string] = {
 		"emberroot:rainbowslime",
 		"emberroot:slime",
 		"minecraft:skeleton",
-		"minecraft:skeleton_horse"
+		"minecraft:skeleton_horse",
+		"minecraft:stray"
 	],
 
 	stageTwo.stage: [

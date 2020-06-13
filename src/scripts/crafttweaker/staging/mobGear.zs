@@ -30,7 +30,8 @@ function init() {
 	// Add ranged mobs
 	armoreablemobs.addMobEntities("ranged", [
 		"mekanism:babyskeleton",
-		"minecraft:skeleton"
+		"minecraft:skeleton",
+		"minecraft:stray"
 	]);
 
 	// Clear gear

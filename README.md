@@ -11,7 +11,7 @@ Things to keep in mind:
 
 ## Downloads
 Released files: 
-- [Curse/Twitch](https://minecraft.curseforge.com/projects/sevtech-ages)
+- [Curse/Twitch][curseLink]
 - [ATLauncher](https://www.atlauncher.com/pack/SevTechAges)
 
 [discordImg]: https://img.shields.io/discord/329440410839678986.svg?logo=discord&logoWidth=18&colorB=7289DA

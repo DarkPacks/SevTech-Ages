@@ -13,7 +13,6 @@ static stagedItems as IIngredient[][string] = {
 	stageZero.stage: [
 		<natura:bluebells_flower:0>,
 		<natura:clouds:0>,
-		<natura:materials:1>,
 		<natura:materials:3>,
 		<natura:materials:0>,
 		<natura:overworld_leaves:1>,
@@ -280,6 +279,7 @@ static hiddenRemove as IIngredient[] = [
 	<natura:maple_button:0>,
 	<natura:maple_pressure_plate:0>,
 	<natura:maple_trap_door:0>,
+	<natura:materials:1>,
 	<natura:nether_button:0>,
 	<natura:nether_pressure_plate:0>,
 	<natura:nether_workbenches:1>,

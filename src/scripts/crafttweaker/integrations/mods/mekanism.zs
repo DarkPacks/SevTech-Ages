@@ -111,7 +111,7 @@ function init() {
 	mekanism.addCrusher(<minecraft:blaze_rod:0>, <minecraft:blaze_powder:0> * 4);
 	mekanism.addCrusher(<actuallyadditions:item_food:16>, <betterwithaddons:japanmat:4>);
 	mekanism.addCrusher(<minecraft:wheat:0>, <horsepower:flour:0>);
-	mekanism.addCrusher(<natura:materials:0>, <natura:materials:1>);
+	mekanism.addCrusher(<natura:materials:0>, <horsepower:flour:0>);
 	mekanism.addCrusher(<minecraft:bone:0>, <minecraft:dye:15>);
 	mekanism.addCrusher(<minecraft:bone_block:0>, <minecraft:dye:15> * 9);
 	mekanism.addCrusher(<minecraft:reeds:0>, <minecraft:sugar:0> * 2);

@@ -62,6 +62,11 @@ function init() {
 	game.setLocalization("ac.ritual.parrots", "Parrot Summoning Ritual");
 	game.setLocalization("ac.ritual.parrots.desc", "This ritual allows you to summon a Parrot without searching for a jungle");
 
+	//Summon Raven from Twilight due to them not spawning in skyblock
+	SummonRitual.addRitual("ravens", 0, -1, 100, false, "twilightforest:raven", [<minecraft:feather:0>, <pickletweaks:dye_powder:15>, <minecraft:feather:0>, <minecraft:dye:4>, <minecraft:feather:0>, <pickletweaks:dye_powder:15>, <minecraft:feather:0>, <minecraft:dye:4>]);
+	game.setLocalization("ac.ritual.ravens", "Raven Summoning Ritual");
+	game.setLocalization("ac.ritual.ravens.desc", "This ritual allows you to summon a Raven from the Twilight Forest Dimension");
+
 	//Summons the Sevadus Boss to your world. Prepare for the rektening
 	SummonRitual.addRitual("sevadus", 0, -1, 5000, false, "playerbosses:player_boss", [<minecraft:skull:2>, <extendedcrafting:material:32>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:material:32>, <extraplanets:tier7_items:7>, <extendedcrafting:material:32>, <extendedcrafting:singularity_ultimate>, <extendedcrafting:material:32>]);
 	game.setLocalization("ac.ritual.sevadus", "Sevadus Summoning Ritual");

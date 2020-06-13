@@ -602,6 +602,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 	<thebetweenlands:volarkite>: [
 		format.aqua("Glider"),
+	],
+	<twilightforest:raven_feather>: [
+		format.red("Summon a Raven using an"),
+		format.red("Abyssalcraft Ritual. Check"),
+		format.red("the Necronomicon for information")		
 	]
 };
 

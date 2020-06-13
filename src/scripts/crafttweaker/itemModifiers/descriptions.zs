@@ -262,6 +262,11 @@ static descriptionPairs as string[][IItemStack] = {
 		"24 x Null Modifier",
 		"140 x Structure Frame tier 5 or above",
 		"112 x Structure Panel"
+	],
+	<twilightforest:raven_feather>: [
+		"Summon a Raven using an",
+		"Abyssalcraft Ritual. Check",
+		"the Necronomicon for information"
 	]
 };
 

@@ -51,11 +51,14 @@ spawn = new SkyIslandType("minecraft:forest")
 spawn.setBlockInRange(<geolosys:ore, meta:2>, 0.0~0.15)
 spawn.setBlockInRange(<minecraft:gravel>, 0.16~0.19)
 spawn.setBlockInRange(<minecraft:clay>, 0.62~0.65)
+malachite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:2>, 52, 4)
+malachite_sample.addRequiredBlock(<minecraft:grass>)
+malachite_sample.setHeight(35, 90)
+spawn.addGenerator(malachite_sample)
 
 ////
 //Other Islands
 ////
-
 //Ocean biomes
 oceanCoralium = new SkyIslandType("minecraft:ocean")
 //oceanCoralium.setMainBlock(<tconstruct:clear_glass>)
@@ -73,8 +76,16 @@ mushroom_islandLapis.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mushroom_islandLapis.generateMineshafts(5)
 mushroom_islandLapis.generateStrongholds(20)
 mushroom_islandLapis.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+lapis_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+lapis_sample.addRequiredBlock(<minecraft:mycelium>)
+lapis_sample.setHeight(35, 90)
+mushroom_islandLapis.addGenerator(lapis_sample)
 
+////
 //Hot biomes
+////
 desertCinnabar = new SkyIslandType("minecraft:desert")
 //desertCinnabar.setMainBlock(<tconstruct:clear_glass>)
 desertCinnabar.setBlockInRange(<geolosys:ore_vanilla, meta:1>, 0.0~0.2)
@@ -85,6 +96,12 @@ desertCinnabar.disableFluid()
 desertCinnabar.generateMineshafts(5)
 desertCinnabar.generateStrongholds(20)
 desertCinnabar.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cinnabar_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:1>, 52, 4)
+cinnabar_sample.addRequiredBlock(<minecraft:sand>)
+cinnabar_sample.setHeight(35, 90)
+desertCinnabar.addGenerator(cinnabar_sample)
 
 mesaGold = new SkyIslandType("minecraft:mesa")
 //mesaGold.setMainBlock(<tconstruct:clear_glass>)
@@ -96,6 +113,12 @@ mesaGold.disableFluid()
 mesaGold.generateMineshafts(5)
 mesaGold.generateStrongholds(20)
 mesaGold.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+gold_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:2>, 52, 4)
+gold_sample.addRequiredBlock(<minecraft:sand, meta:1>)
+gold_sample.setHeight(35, 90)
+mesaGold.addGenerator(gold_sample)
 
 plainsCassiterite = new SkyIslandType("minecraft:plains")
 //plainsCassiterite.setMainBlock(<tconstruct:clear_glass>)
@@ -106,6 +129,13 @@ plainsCassiterite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 plainsCassiterite.generateMineshafts(5)
 plainsCassiterite.generateStrongholds(20)
 plainsCassiterite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cassiterite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+cassiterite_sample.addRequiredBlock(<minecraft:grass>)
+cassiterite_sample.setHeight(35, 90)
+plainsCassiterite.addGenerator(cassiterite_sample)
+
 
 plainsHematite = new SkyIslandType("minecraft:plains")
 //plainsHematite.setMainBlock(<tconstruct:clear_glass>)
@@ -116,6 +146,12 @@ plainsHematite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 plainsHematite.generateMineshafts(5)
 plainsHematite.generateStrongholds(20)
 plainsHematite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+hematite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample>, 52, 4)
+hematite_sample.addRequiredBlock(<minecraft:grass>)
+hematite_sample.setHeight(35, 90)
+plainsHematite.addGenerator(hematite_sample)
 
 mutated_plainsSilicon = new SkyIslandType("minecraft:mutated_plains")
 //mutated_plainsSilicon.setMainBlock(<tconstruct:clear_glass>)
@@ -126,6 +162,12 @@ mutated_plainsSilicon.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mutated_plainsSilicon.generateMineshafts(5)
 mutated_plainsSilicon.generateStrongholds(20)
 mutated_plainsSilicon.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+hematite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample>, 52, 4)
+hematite_sample.addRequiredBlock(<minecraft:grass>)
+hematite_sample.setHeight(35, 90)
+plainsHematite.addGenerator(hematite_sample)
 
 woodlandsBauxite = new SkyIslandType("traverse:woodlands")
 //woodlandsBauxite.setMainBlock(<tconstruct:clear_glass>)
@@ -136,6 +178,12 @@ woodlandsBauxite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 woodlandsBauxite.generateMineshafts(5)
 woodlandsBauxite.generateStrongholds(20)
 woodlandsBauxite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+bauxite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:7>, 52, 4)
+bauxite_sample.addRequiredBlock(<minecraft:grass>)
+bauxite_sample.setHeight(35, 90)
+woodlandsBauxite.addGenerator(bauxite_sample)
 
 rocky_plateauPlatinum = new SkyIslandType("traverse:rocky_plateau")
 //rocky_plateauPlatinum.setMainBlock(<tconstruct:clear_glass>)
@@ -146,6 +194,12 @@ rocky_plateauPlatinum.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 rocky_plateauPlatinum.generateMineshafts(5)
 rocky_plateauPlatinum.generateStrongholds(20)
 rocky_plateauPlatinum.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+platinum_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:8>, 52, 4)
+platinum_sample.addRequiredBlock(<minecraft:grass>)
+platinum_sample.setHeight(35, 90)
+rocky_plateauPlatinum.addGenerator(platinum_sample)
 
 jungleLimonite = new SkyIslandType("minecraft:jungle")
 //jungleLimonite.setMainBlock(<tconstruct:clear_glass>)
@@ -156,6 +210,12 @@ jungleLimonite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 jungleLimonite.generateMineshafts(5)
 jungleLimonite.generateStrongholds(20)
 jungleLimonite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+limonite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample>, 52, 4)
+limonite_sample.addRequiredBlock(<minecraft:grass>)
+limonite_sample.setHeight(35, 90)
+jungleLimonite.addGenerator(limonite_sample)
 
 jungleSilicon = new SkyIslandType("minecraft:jungle")
 //jungleSilicon.setMainBlock(<tconstruct:clear_glass>)
@@ -166,6 +226,12 @@ jungleSilicon.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 jungleSilicon.generateMineshafts(5)
 jungleSilicon.generateStrongholds(20)
 jungleSilicon.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+silicon_sample = new ScatteredBlockGenerator(<contenttweaker:sub_block_holder_0, meta:5>, 52, 4)
+silicon_sample.addRequiredBlock(<minecraft:grass>)
+silicon_sample.setHeight(35, 90)
+jungleSilicon.addGenerator(silicon_sample)
 
 swamplandHematite = new SkyIslandType("minecraft:swampland")
 //swamplandHematite.setMainBlock(<tconstruct:clear_glass>)
@@ -177,6 +243,12 @@ swamplandHematite.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 swamplandHematite.generateMineshafts(5)
 swamplandHematite.generateStrongholds(20)
 swamplandHematite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+silicon_sample = new ScatteredBlockGenerator(<contenttweaker:sub_block_holder_0, meta:5>, 52, 4)
+silicon_sample.addRequiredBlock(<minecraft:grass>)
+silicon_sample.setHeight(35, 90)
+swamplandHematite.addGenerator(silicon_sample)
 
 swamplandLapis = new SkyIslandType("minecraft:swampland")
 //swamplandLapis.setMainBlock(<tconstruct:clear_glass>)
@@ -188,6 +260,12 @@ swamplandLapis.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 swamplandLapis.generateMineshafts(5)
 swamplandLapis.generateStrongholds(20)
 swamplandLapis.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+lapis_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+lapis_sample.addRequiredBlock(<minecraft:grass>)
+lapis_sample.setHeight(35, 90)
+swamplandLapis.addGenerator(lapis_sample)
 
 mini_jungleBauxite = new SkyIslandType("traverse:mini_jungle")
 //mini_jungleBauxite.setMainBlock(<tconstruct:clear_glass>)
@@ -198,6 +276,12 @@ mini_jungleBauxite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mini_jungleBauxite.generateMineshafts(5)
 mini_jungleBauxite.generateStrongholds(20)
 mini_jungleBauxite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+bauxite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:7>, 52, 4)
+bauxite_sample.addRequiredBlock(<minecraft:grass>)
+bauxite_sample.setHeight(35, 90)
+mini_jungleBauxite.addGenerator(bauxite_sample)
 
 //Warm
 badlandsGold = new SkyIslandType("traverse:badlands")
@@ -209,6 +293,12 @@ badlandsGold.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 badlandsGold.generateMineshafts(5)
 badlandsGold.generateStrongholds(20)
 badlandsGold.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+gold_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:2>, 52, 4)
+gold_sample.addRequiredBlock(<minecraft:sand, meta:1>)
+gold_sample.setHeight(35, 90)
+badlandsGold.addGenerator(gold_sample)
 
 savannaTeallite = new SkyIslandType("minecraft:savanna")
 //savannaTeallite.setMainBlock(<tconstruct:clear_glass>)
@@ -219,6 +309,12 @@ savannaTeallite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 savannaTeallite.generateMineshafts(5)
 savannaTeallite.generateStrongholds(20)
 savannaTeallite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+teallite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:5>, 52, 4)
+teallite_sample.addRequiredBlock(<minecraft:grass>)
+teallite_sample.setHeight(35, 90)
+savannaTeallite.addGenerator(teallite_sample)
 
 savannaHematite = new SkyIslandType("minecraft:savanna")
 //savannaHematite.setMainBlock(<tconstruct:clear_glass>)
@@ -229,6 +325,12 @@ savannaHematite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 savannaHematite.generateMineshafts(5)
 savannaHematite.generateStrongholds(20)
 savannaHematite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+teallite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:5>, 52, 4)
+teallite_sample.addRequiredBlock(<minecraft:grass>)
+teallite_sample.setHeight(35, 90)
+savannaTeallite.addGenerator(teallite_sample)
 
 forestCoal = new SkyIslandType("minecraft:forest")
 //forestCoal.setMainBlock(<tconstruct:clear_glass>)
@@ -239,6 +341,12 @@ forestCoal.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 forestCoal.generateMineshafts(5)
 forestCoal.generateStrongholds(20)
 forestCoal.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+coal_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla>, 52, 4)
+coal_sample.addRequiredBlock(<minecraft:grass>)
+coal_sample.setHeight(35, 90)
+forestCoal.addGenerator(coal_sample)
 
 forestMalachite = new SkyIslandType("minecraft:forest")
 //forestMalachite.setMainBlock(<tconstruct:clear_glass>)
@@ -249,6 +357,12 @@ forestMalachite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 forestMalachite.generateMineshafts(5)
 forestMalachite.generateStrongholds(20)
 forestMalachite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+coal_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla>, 52, 4)
+coal_sample.addRequiredBlock(<minecraft:grass>)
+coal_sample.setHeight(35, 90)
+forestMalachite.addGenerator(coal_sample)
 
 birch_forestCassiterite = new SkyIslandType("minecraft:birch_forest")
 //birch_forestCassiterite.setMainBlock(<tconstruct:clear_glass>)
@@ -259,6 +373,12 @@ birch_forestCassiterite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 birch_forestCassiterite.generateMineshafts(5)
 birch_forestCassiterite.generateStrongholds(20)
 birch_forestCassiterite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cassiterite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+cassiterite_sample.addRequiredBlock(<minecraft:grass>)
+cassiterite_sample.setHeight(35, 90)
+birch_forestCassiterite.addGenerator(cassiterite_sample)
 
 mutated_forestOsmium = new SkyIslandType("minecraft:mutated_forest")
 //mutated_forestOsmium.setMainBlock(<tconstruct:clear_glass>)
@@ -269,6 +389,12 @@ mutated_forestOsmium.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mutated_forestOsmium.generateMineshafts(5)
 mutated_forestOsmium.generateStrongholds(20)
 mutated_forestOsmium.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+osmium_sample = new ScatteredBlockGenerator(<contenttweaker:sub_block_holder_0, meta:6>, 52, 4)
+osmium_sample.addRequiredBlock(<minecraft:grass>)
+osmium_sample.setHeight(35, 90)
+mutated_forestOsmium.addGenerator(osmium_sample)
 
 mutated_birch_forestBauxite = new SkyIslandType("minecraft:mutated_birch_forest")
 //mutated_birch_forestBauxite.setMainBlock(<tconstruct:clear_glass>)
@@ -279,6 +405,12 @@ mutated_birch_forestBauxite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mutated_birch_forestBauxite.generateMineshafts(5)
 mutated_birch_forestBauxite.generateStrongholds(20)
 mutated_birch_forestBauxite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+bauxite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:7>, 52, 4)
+bauxite_sample.addRequiredBlock(<minecraft:grass>)
+bauxite_sample.setHeight(35, 90)
+mutated_birch_forestBauxite.addGenerator(bauxite_sample)
 
 autumnal_woodsLimonite = new SkyIslandType("traverse:autumnal_woods")
 //autumnal_woodsLimonite.setMainBlock(<tconstruct:clear_glass>)
@@ -289,6 +421,12 @@ autumnal_woodsLimonite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 autumnal_woodsLimonite.generateMineshafts(5)
 autumnal_woodsLimonite.generateStrongholds(20)
 autumnal_woodsLimonite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+limonite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample>, 52, 4)
+limonite_sample.addRequiredBlock(<minecraft:grass>)
+limonite_sample.setHeight(35, 90)
+autumnal_woodsLimonite.addGenerator(limonite_sample)
 
 biome_meneglinQuartz = new SkyIslandType("integrateddynamics:biome_meneglin")
 //biome_meneglinQuartz.setMainBlock(<tconstruct:clear_glass>)
@@ -299,6 +437,12 @@ biome_meneglinQuartz.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 biome_meneglinQuartz.generateMineshafts(5)
 biome_meneglinQuartz.generateStrongholds(20)
 biome_meneglinQuartz.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+quartz_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:4>, 52, 4)
+quartz_sample.addRequiredBlock(<minecraft:grass>)
+quartz_sample.setHeight(35, 90)
+biome_meneglinQuartz.addGenerator(quartz_sample)
 
 meadowHematite = new SkyIslandType("traverse:meadow")
 //meadowHematite.setMainBlock(<tconstruct:clear_glass>)
@@ -309,6 +453,12 @@ meadowHematite.setBlockInRange(<minecraft:clay>, 0.62~0.68)
 meadowHematite.generateMineshafts(5)
 meadowHematite.generateStrongholds(20)
 meadowHematite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+hematite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample>, 52, 4)
+hematite_sample.addRequiredBlock(<minecraft:grass>)
+hematite_sample.setHeight(35, 90)
+meadowHematite.addGenerator(hematite_sample)
 
 roofed_forestCoal = new SkyIslandType("minecraft:roofed_forest")
 //roofed_forestCoal.setMainBlock(<tconstruct:clear_glass>)
@@ -319,6 +469,12 @@ roofed_forestCoal.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 roofed_forestCoal.generateMineshafts(5)
 roofed_forestCoal.generateStrongholds(20)
 roofed_forestCoal.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+coal_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla>, 52, 4)
+coal_sample.addRequiredBlock(<minecraft:grass>)
+coal_sample.setHeight(35, 90)
+roofed_forestCoal.addGenerator(coal_sample)
 
 roofed_forestTeallite = new SkyIslandType("minecraft:roofed_forest")
 //roofed_forestTeallite.setMainBlock(<tconstruct:clear_glass>)
@@ -329,6 +485,12 @@ roofed_forestTeallite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 roofed_forestTeallite.generateMineshafts(5)
 roofed_forestTeallite.generateStrongholds(20)
 roofed_forestTeallite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+teallite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:5>, 52, 4)
+teallite_sample.addRequiredBlock(<minecraft:grass>)
+teallite_sample.setHeight(35, 90)
+roofed_forestTeallite.addGenerator(teallite_sample)
 
 temperate_rainforestLapis = new SkyIslandType("traverse:temperate_rainforest")
 //temperate_rainforestLapis.setMainBlock(<tconstruct:clear_glass>)
@@ -339,6 +501,12 @@ temperate_rainforestLapis.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 temperate_rainforestLapis.generateMineshafts(5)
 temperate_rainforestLapis.generateStrongholds(20)
 temperate_rainforestLapis.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+lapis_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+lapis_sample.addRequiredBlock(<minecraft:grass>)
+lapis_sample.setHeight(35, 90)
+temperate_rainforestLapis.addGenerator(lapis_sample)
 
 lush_hillsQuartz = new SkyIslandType("traverse:lush_hills")
 //lush_hillsQuartz.setMainBlock(<tconstruct:clear_glass>)
@@ -349,6 +517,12 @@ lush_hillsQuartz.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 lush_hillsQuartz.generateMineshafts(5)
 lush_hillsQuartz.generateStrongholds(20)
 lush_hillsQuartz.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+quartz_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:4>, 52, 4)
+quartz_sample.addRequiredBlock(<minecraft:grass>)
+quartz_sample.setHeight(35, 90)
+lush_hillsQuartz.addGenerator(quartz_sample)
 
 green_swampLapis = new SkyIslandType("traverse:green_swamp")
 //green_swampLapis.setMainBlock(<tconstruct:clear_glass>)
@@ -360,6 +534,12 @@ green_swampLapis.setBlockInRange(<abyssalcraft:coraliumore>, 0.40~0.43)
 green_swampLapis.generateMineshafts(5)
 green_swampLapis.generateStrongholds(20)
 green_swampLapis.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+lapis_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+lapis_sample.addRequiredBlock(<minecraft:grass>)
+lapis_sample.setHeight(35, 90)
+green_swampLapis.addGenerator(lapis_sample)
 
 //Cool
 extreme_hills_with_treesBeryl = new SkyIslandType("minecraft:extreme_hills_with_trees")
@@ -371,6 +551,12 @@ extreme_hills_with_treesBeryl.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 extreme_hills_with_treesBeryl.generateMineshafts(5)
 extreme_hills_with_treesBeryl.generateStrongholds(20)
 extreme_hills_with_treesBeryl.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+Beryl_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:4>, 52, 4)
+Beryl_sample.addRequiredBlock(<minecraft:grass>)
+Beryl_sample.setHeight(35, 90)
+extreme_hills_with_treesBeryl.addGenerator(Beryl_sample)
 
 darklands_forestAzurite = new SkyIslandType("abyssalcraft:darklands_forest")
 //darklands_forestAzurite.setMainBlock(<tconstruct:clear_glass>)
@@ -382,6 +568,12 @@ darklands_forestAzurite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 darklands_forestAzurite.generateMineshafts(5)
 darklands_forestAzurite.generateStrongholds(20)
 darklands_forestAzurite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+azurite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:3>, 52, 4)
+azurite_sample.addRequiredBlock(<minecraft:grass>)
+azurite_sample.setHeight(35, 90)
+darklands_forestAzurite.addGenerator(azurite_sample)
 
 darklands_forestGalena = new SkyIslandType("abyssalcraft:darklands_forest")
 //darklands_forestGalena.setMainBlock(<tconstruct:clear_glass>)
@@ -393,6 +585,12 @@ darklands_forestGalena.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 darklands_forestGalena.generateMineshafts(5)
 darklands_forestGalena.generateStrongholds(20)
 darklands_forestGalena.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+galena_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:6>, 52, 4)
+galena_sample.addRequiredBlock(<minecraft:grass>)
+galena_sample.setHeight(35, 90)
+darklands_forestGalena.addGenerator(galena_sample)
 
 darklandsCoal = new SkyIslandType("abyssalcraft:darklands")
 //darklandsCoal.setMainBlock(<tconstruct:clear_glass>)
@@ -404,6 +602,12 @@ darklandsCoal.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 darklandsCoal.generateMineshafts(5)
 darklandsCoal.generateStrongholds(20)
 darklandsCoal.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+coal_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla>, 52, 4)
+coal_sample.addRequiredBlock(<minecraft:grass>)
+coal_sample.setHeight(35, 90)
+darklandsCoal.addGenerator(coal_sample)
 
 darklandsAzurite = new SkyIslandType("abyssalcraft:darklands")
 //darklandsAzurite.setMainBlock(<tconstruct:clear_glass>)
@@ -415,6 +619,12 @@ darklandsAzurite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 darklandsAzurite.generateMineshafts(5)
 darklandsAzurite.generateStrongholds(20)
 darklandsAzurite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+azurite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:3>, 52, 4)
+azurite_sample.addRequiredBlock(<minecraft:grass>)
+azurite_sample.setHeight(35, 90)
+darklandsAzurite.addGenerator(azurite_sample)
 
 taigaMundane = new SkyIslandType("minecraft:taiga")
 //taigaMundane.setMainBlock(<tconstruct:clear_glass>)
@@ -425,6 +635,12 @@ taigaMundane.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 taigaMundane.generateMineshafts(5)
 taigaMundane.generateStrongholds(20)
 taigaMundane.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cinnabar_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:1>, 52, 4)
+cinnabar_sample.addRequiredBlock(<minecraft:grass>)
+cinnabar_sample.setHeight(35, 90)
+taigaMundane.addGenerator(cinnabar_sample)
 
 coralium_infested_swampAutunite = new SkyIslandType("abyssalcraft:coralium_infested_swamp")
 //coralium_infested_swampAutunite.setMainBlock(<tconstruct:clear_glass>)
@@ -445,6 +661,12 @@ mutated_redwood_taigaMundane.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mutated_redwood_taigaMundane.generateMineshafts(5)
 mutated_redwood_taigaMundane.generateStrongholds(20)
 mutated_redwood_taigaMundane.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cinnabar_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:1>, 52, 4)
+cinnabar_sample.addRequiredBlock(<minecraft:grass>)
+cinnabar_sample.setHeight(35, 90)
+mutated_redwood_taigaMundane.addGenerator(cinnabar_sample)
 
 redwood_taiga_hillsCinnabar = new SkyIslandType("minecraft:redwood_taiga_hills")
 //redwood_taiga_hillsCinnabar.setMainBlock(<tconstruct:clear_glass>)
@@ -455,6 +677,12 @@ redwood_taiga_hillsCinnabar.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 redwood_taiga_hillsCinnabar.generateMineshafts(5)
 redwood_taiga_hillsCinnabar.generateStrongholds(20)
 redwood_taiga_hillsCinnabar.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+cinnabar_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:1>, 52, 4)
+cinnabar_sample.addRequiredBlock(<minecraft:sand>)
+cinnabar_sample.setHeight(35, 90)
+redwood_taiga_hillsCinnabar.addGenerator(cinnabar_sample)
 
 //Freezing
 mutated_ice_flatsOsmium = new SkyIslandType("minecraft:mutated_ice_flats")
@@ -466,6 +694,12 @@ mutated_ice_flatsOsmium.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 mutated_ice_flatsOsmium.generateMineshafts(5)
 mutated_ice_flatsOsmium.generateStrongholds(20)
 mutated_ice_flatsOsmium.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+osmium_sample = new ScatteredBlockGenerator(<contenttweaker:sub_block_holder_0, meta:6>, 52, 4)
+osmium_sample.addRequiredBlock(<minecraft:snow>)
+osmium_sample.setHeight(35, 90)
+mutated_ice_flatsOsmium.addGenerator(osmium_sample)
 
 taiga_coldRockCrystal = new SkyIslandType("minecraft:taiga_cold")
 //taiga_coldRockCrystal.setMainBlock(<tconstruct:clear_glass>)
@@ -476,6 +710,12 @@ taiga_coldRockCrystal.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 taiga_coldRockCrystal.generateMineshafts(5)
 taiga_coldRockCrystal.generateStrongholds(20)
 taiga_coldRockCrystal.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+rock_crystal_sample = new ScatteredBlockGenerator(<astralsorcery:blockgeolosyssamplecluster>, 52, 4)
+rock_crystal_sample.addRequiredBlock(<minecraft:grass>)
+rock_crystal_sample.setHeight(35, 90)
+taiga_coldRockCrystal.addGenerator(rock_crystal_sample)
 
 snowy_coniferous_forestRockCrystal = new SkyIslandType("traverse:snowy_coniferous_forest")
 //snowy_coniferous_forestRockCrystal.setMainBlock(<tconstruct:clear_glass>)
@@ -486,6 +726,12 @@ snowy_coniferous_forestRockCrystal.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 snowy_coniferous_forestRockCrystal.generateMineshafts(5)
 snowy_coniferous_forestRockCrystal.generateStrongholds(20)
 snowy_coniferous_forestRockCrystal.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+rock_crystal_sample = new ScatteredBlockGenerator(<astralsorcery:blockgeolosyssamplecluster>, 52, 4)
+rock_crystal_sample.addRequiredBlock(<minecraft:grass>)
+rock_crystal_sample.setHeight(35, 90)
+snowy_coniferous_forestRockCrystal.addGenerator(rock_crystal_sample)
 
 glacier_spikesKimberlite = new SkyIslandType("traverse:glacier_spikes")
 //glacier_spikesKimberlite.setMainBlock(<tconstruct:clear_glass>)
@@ -496,6 +742,12 @@ glacier_spikesKimberlite.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 glacier_spikesKimberlite.generateMineshafts(5)
 glacier_spikesKimberlite.generateStrongholds(20)
 glacier_spikesKimberlite.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+kimberlite_sample = new ScatteredBlockGenerator(<geolosys:ore_sample_vanilla, meta:5>, 52, 4)
+kimberlite_sample.addRequiredBlock(<minecraft:snow>)
+kimberlite_sample.setHeight(35, 90)
+glacier_spikesKimberlite.addGenerator(kimberlite_sample)
 
 glacierGalena = new SkyIslandType("traverse:glacier")
 //glacierGalena.setMainBlock(<tconstruct:clear_glass>)
@@ -506,6 +758,12 @@ glacierGalena.setBlockInRange(<minecraft:clay>, 0.62~0.65)
 glacierGalena.generateMineshafts(5)
 glacierGalena.generateStrongholds(20)
 glacierGalena.generateVillages(10)
+//Ore samples
+//Cluster Counter, Cluster Size
+galena_sample = new ScatteredBlockGenerator(<geolosys:ore_sample, meta:6>, 52, 4)
+galena_sample.addRequiredBlock(<minecraft:snow>)
+galena_sample.setHeight(35, 90)
+glacierGalena.addGenerator(galena_sample)
 
 ////
 //Creates a new SkyIslandGeneratorV2, sets its grid region size, and adds it to the generator list for the dimension.

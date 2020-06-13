@@ -10,6 +10,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.2.0 Skyblock
 
+Bug Fixes:
+* Correctly stage the Stray and its equipment
+
 Enhancements:
 * SevTech, but now in Skyblock!
 * Increased Volarkite durability
@@ -21,9 +24,6 @@ Enhancements:
 Mods Added:
 * Drafty Kites
 * Topography (1.13.3)
-
-Bug Fixes:
-* Correctly stage the Stray and its equipment
 
 Mod Updates:
 * AbyssalCraft (1.9.19.1)

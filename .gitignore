@@ -31,3 +31,7 @@ src/config/sampler.ini
 
 # Mods
 mods/*
+
+# Pack Tools
+InstanceSync.jar
+TwitchExportBuilder.exe

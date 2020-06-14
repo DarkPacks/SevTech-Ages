@@ -1,0 +1,3 @@
+[submodule "pack-tools"]
+	path = pack-tools
+	url = https://github.com/DarkPacks/Pack-Tools.git

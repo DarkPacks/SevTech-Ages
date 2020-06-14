@@ -1,0 +1,5 @@
+https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.3.0.jar
+https://github.com/DarkPacks/SevTech-Ages/releases/download/v3.0.8/SevTweaksNPC-0.0.4.jar
+https://micdoodle8.com/new-builds/GC-1.12/236/GalacticraftCore-1.12.2-4.0.2.236.jar
+https://micdoodle8.com/new-builds/GC-1.12/236/Galacticraft-Planets-1.12.2-4.0.2.236.jar
+https://micdoodle8.com/new-builds/GC-1.12/236/MicdoodleCore-1.12.2-4.0.2.236.jar

@@ -28,3 +28,6 @@ src/config/sampler.ini
 # Stuff
 .DS_Store
 *.dat
+
+# Mods
+mods/*

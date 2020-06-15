@@ -16,6 +16,7 @@ Bug Fixes:
 
 Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead
+* Cutting a wooden slab using the BWM Saw will convert it to a thin slab if one exists for that material
 
 Mod Updates:
 * AbyssalCraft (1.9.19.1)

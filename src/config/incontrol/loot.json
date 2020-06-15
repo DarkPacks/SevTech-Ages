@@ -595,6 +595,10 @@
     "random": 1.0
   },
   {
+    "mob": "natura:imp",
+    "remove": "natura:materials@6"
+  },
+  {
     "mob": "twilightforest:hydra",
     "item": [
       "twilightforest:fiery_blood",

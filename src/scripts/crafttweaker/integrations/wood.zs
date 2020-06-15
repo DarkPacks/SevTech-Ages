@@ -219,6 +219,17 @@ static logsToRemove as IItemStack[] = [
 	<twilightforest:magic_log:1>
 ];
 
+static sawSlabs as IItemStack[IItemStack] = {
+	<thebetweenlands:thatch_slab:0> : <primal:thin_slab_thatch:0>,
+	<minecraft:wooden_slab:4> : <primal:thin_slab_acacia:0>,
+	<minecraft:wooden_slab:5> : <primal:thin_slab_bigoak:0>,
+	<minecraft:wooden_slab:2> : <primal:thin_slab_birch:0>,
+	<minecraft:wooden_slab:0> : <primal:thin_slab_oak:0>,
+	<minecraft:wooden_slab:3> : <primal:thin_slab_jungle:0>,
+	<minecraft:wooden_slab:1> : <primal:thin_slab_spruce:0>,
+	<rustic:ironwood_slab_item:0> : <primal:thin_slab_ironwood:0>
+};
+
 function init() {
 	// Add the recipes needed.
 	for plank, logs in plankLogPairs {
@@ -258,8 +269,30 @@ function init() {
 
 	// Better stick recipes. (Lower tech recipe to use slabs to convert to sticks before players unlock higher tech)
 	for slab in <ore:slabWood>.items {
+		var hasThinSlab = false;
+		for slabWithThin in sawSlabs.keys {
+			if (slab.matches(slabWithThin)) {
+				hasThinSlab = true;
+				break;
+			}
+		}
+		
+		if !hasThinSlab {
+			Saw.builder()
+				.buildRecipe(slab, [<minecraft:stick> * 4])
+				.build();
+		}
+	}
+
+	for slab, thinSlab in sawSlabs {
 		Saw.builder()
-			.buildRecipe(slab, [<minecraft:stick> * 4])
+			.buildRecipe(slab, [thinSlab * 2])
+			.setInputBlockDrop(slab)
+			.build();
+
+		Saw.builder()
+			.buildRecipe(thinSlab, [<minecraft:stick:0> * 2] as IItemStack[])
+			.setInputBlockDrop(thinSlab)
 			.build();
 	}
 }

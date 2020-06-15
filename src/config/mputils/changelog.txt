@@ -22,6 +22,7 @@ Enhancements:
 * Added additional methods to obtain clay
 * Added AbyssalCraft ritual to summon a Raven
 * Remove Barley Flour - Barley now produces regular flour instead
+* Cutting a wooden slab using the BWM Saw will convert it to a thin slab if one exists for that material
 
 Mods Added:
 * Drafty Kites

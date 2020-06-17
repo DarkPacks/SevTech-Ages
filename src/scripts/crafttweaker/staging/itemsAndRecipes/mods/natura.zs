@@ -142,7 +142,6 @@ static stagedItems as IIngredient[][string] = {
 
 	stageThree.stage: [
 		// Nether
-		<natura:materials:6>,
 		<natura:nether_berrybush_blightberry:0>,
 		<natura:nether_berrybush_duskberry:0>,
 		<natura:nether_berrybush_skyberry:0>,
@@ -221,6 +220,7 @@ static hiddenItems as IIngredient[] = [
 	<natura:empty_bowls:3>,
 	<natura:empty_bowls>,
 	<natura:materials:2>, //every mod has its own flour and it's totally awesome -_-
+	<natura:materials:6>,
 	<natura:materials:8>,
 	<natura:nether_lever:0>,
 	<natura:overworld_berrybush_blackberry:0>,

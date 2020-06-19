@@ -16,7 +16,7 @@ setCompletedTitleColor(6570404)
 
 //Criteria
 criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
-criteria.setDimensionDestination("The Beneath")
+criteria.setDimensionDestination("DIM_10")
 
 //Rewards
 setRewardExperience(4)

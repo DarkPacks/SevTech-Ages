@@ -14,6 +14,7 @@ Bug Fixes:
 * Correctly stage the Stray and its equipment
 * Wool being visible in the world before intended
 * Remove unnecessary imp leather drops (#4143)
+* Fixed BWM Anchor and Pulley uncraftable in stage one
 
 Enhancements:
 * SevTech, but now in Skyblock!
@@ -25,6 +26,7 @@ Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead
 * Cutting a wooden slab using the BWM Saw will convert it to a thin slab if one exists for that material
 * Stop Forge logging cascading world generation
+* Adjusted the Betweenland's Boulder Sprite spawn rates
 
 Mods Added:
 * Drafty Kites

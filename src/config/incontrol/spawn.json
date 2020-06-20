@@ -339,5 +339,13 @@
             "perchunk": true
         },
         "result": "deny"
+    },
+    {
+        "mob": "thebetweenlands:boulder_sprite",
+        "mincount": {
+            "amount": 70,
+            "perchunk": true
+        },
+        "result": "deny"
     }
 ]

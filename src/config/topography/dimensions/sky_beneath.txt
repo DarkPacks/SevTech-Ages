@@ -534,7 +534,7 @@ large = skyIslands.addSkyIslands(36, 36, 36, 1, false, 1)
 large.addType(spawn)
 
 //Non-spawn islands
-medium = skyIslands.addSkyIslands(26, 26, 26, 148, true)
+medium = skyIslands.addSkyIslands(26, 26, 26, 160, true)
 medium.setWaterHeight(3)
 medium.addType(Lapis1)
 medium.addType(Cinnabar1)

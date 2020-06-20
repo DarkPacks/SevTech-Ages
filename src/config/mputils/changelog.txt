@@ -14,6 +14,7 @@ Bug Fixes:
 * Correctly stage the Stray and its equipment
 * Wool being visible in the world before intended
 * Remove unnecessary imp leather drops (#4143)
+* Fixed BWM Anchor and Pulley uncraftable in stage one
 
 Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead

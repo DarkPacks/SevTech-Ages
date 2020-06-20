@@ -223,7 +223,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:anchor:0> : [
 		[
-			[null, metals.iron.plate, null],
+			[null, <betterwithmods:corner_rock>.withTag({texture: {Properties: {variant: "stone"}, Name: "minecraft:stone"}}), null],
 			[<ore:stone>, <ore:stone>, <ore:stone>]
 		]
 	],
@@ -235,9 +235,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	],
 	<betterwithmods:single_machine:1>: [
 		[
-			[<ore:plankWood>, metals.iron.plate, <ore:plankWood>],
-			[<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>],
-			[<ore:plankWood>, metals.iron.plate, <ore:plankWood>]
+			[<ore:plankWood>, metals.bronze.plate, <ore:plankWood>],
+			[<ore:gearWood>, <betterwithmods:wooden_axle>, <ore:gearWood>],
+			[<ore:plankWood>, metals.bronze.plate, <ore:plankWood>]
 		]
 	],
 	<betterwithmods:material:8>: [
@@ -304,6 +304,20 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 				[mouldingWood, <betterwithmods:material:0>, mouldingWood]
 			]
 		]
+	},
+
+	// ==================================
+	// Stage Three
+	// ==================================
+	<betterwithmods:single_machine:1>: {
+		Utils.genRecipeName(stageThree, <betterwithmods:single_machine:1>): [
+
+			[
+				[<ore:plankWood>, metals.iron.plate, <ore:plankWood>],
+				[<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>],
+				[<ore:plankWood>, metals.iron.plate, <ore:plankWood>]
+			]
+		]
 	}
 };
 
@@ -338,6 +352,7 @@ static removeRecipes as IItemStack[] = [
 	<betterwithmods:aesthetic:8>,
 	<betterwithmods:aesthetic:11>,
 	<betterwithmods:aesthetic:12>,
+	<betterwithmods:anchor:0>,
 	<betterwithmods:axle_generator:1>,
 	<betterwithmods:bellows:0>,
 	<betterwithmods:cooking_pot:1>,
@@ -350,6 +365,7 @@ static removeRecipes as IItemStack[] = [
 	<betterwithmods:material:0>,
 	<betterwithmods:saw:0>,
 	<betterwithmods:shaft:0>,
+	<betterwithmods:single_machine:1>,	
 	<betterwithmods:single_machine:3>,
 	<betterwithmods:single_machine:0>,
 	<betterwithmods:wicker:0>,

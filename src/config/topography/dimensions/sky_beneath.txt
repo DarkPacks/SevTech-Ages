@@ -5,6 +5,9 @@ disableSky()
 disableClouds()
 disableSkylight()
 
+//Lighting
+setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])
+
 setSingleBiome("beneath:the_beneath")
 
 beneath = new SkyIslandType("beneath:the_beneath")

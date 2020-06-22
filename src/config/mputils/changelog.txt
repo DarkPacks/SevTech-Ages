@@ -15,6 +15,7 @@ Bug Fixes:
 * Wool being visible in the world before intended
 * Remove unnecessary imp leather drops (#4143)
 * Fixed BWM Anchor and Pulley uncraftable in stage one
+* Slime boots in conflicting stages
 
 Enhancements:
 * SevTech, but now in Skyblock!

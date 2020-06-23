@@ -48,10 +48,3 @@ Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitH
 ## World Information
 * Modpack Version world created in:<!-- ✍️-->
 * Additional Content Installed:<!-- ✍️-->
-
-<!--- Additional Information if you are using a server setup (DELETE THIS SECTION IF YOUR ISSUE IS CLIENT ONLY) -->
-## Server Information
-* Java Version:
-* Operating System:
-* Hoster/Hosting Solution:
-* Sponge (Non-Vanilla Forge) Server:

@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41B Server Bug report"
+name: "\U0001F41B Server Bug Report"
 about: If you are experiencing an issue that exists when playing on a server
 title: ''
 labels: 'Env: Server'

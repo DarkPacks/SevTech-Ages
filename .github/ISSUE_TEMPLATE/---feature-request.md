@@ -1,5 +1,5 @@
 ---
-name: "\U0001F48E Feature request"
+name: "\U0001F48E Feature Request"
 about: Suggest a mod or a change to the config or scripts
 title: ''
 labels: 'Type: Request/Suggestion'

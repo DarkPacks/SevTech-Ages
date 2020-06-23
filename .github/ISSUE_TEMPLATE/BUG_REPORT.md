@@ -1,6 +1,9 @@
 ---
-name: "🐛 Bug report"
+name: "\U0001F41B Bug report"
 about: If you get a crash from the game, or something is not working 100% from a mod/game.
+title: ''
+labels: ''
+assignees: ''
 
 ---
 

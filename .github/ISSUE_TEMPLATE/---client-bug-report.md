@@ -20,9 +20,11 @@ NOTE: If you have other mods installed or you have changed versions; please reve
 <!-- 📝 A clear and concise description of the problem... -->
 <!-- ✍️-->
 
+
 ### Did this behavior use to work in the previous version?
 <!-- 📝 Yes, the previous version in which this bug was not present was: ... -->
 <!-- ✍️-->
+
 
 ## Steps to Reproduce (for bugs)
 <!-- 📝 A youtube video or a set of steps to reproduce... -->
@@ -30,6 +32,7 @@ NOTE: If you have other mods installed or you have changed versions; please reve
 1.
 2.
 3.
+
 
 ## Logs
 <!-- 📝
@@ -39,6 +42,7 @@ Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitH
 * Client/Server Log:<!-- ✍️-->
 * Crash Log:<!-- ✍️-->
 
+
 ## Client Information
 * Modpack Version:<!-- ✍️-->
 * Java Version:<!-- ✍️-->
@@ -47,6 +51,7 @@ Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitH
 * Server/LAN/Single Player:<!-- ✍️-->
 * Optifine Installed:<!-- ✍️-->
 * Shaders Enabled:<!-- ✍️-->
+
 
 ## World Information
 * Modpack Version world created in:<!-- ✍️-->

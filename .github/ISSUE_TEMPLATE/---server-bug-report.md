@@ -20,9 +20,11 @@ NOTE: If you have other mods installed or you have changed versions; please reve
 <!-- 📝 A clear and concise description of the problem... -->
 <!-- ✍️-->
 
+
 ### Did this behavior use to work in the previous version?
 <!-- 📝 Yes, the previous version in which this bug was not present was: ... -->
 <!-- ✍️-->
+
 
 ## Steps to Reproduce (for bugs)
 <!-- 📝 A youtube video or a set of steps to reproduce... -->
@@ -31,6 +33,7 @@ NOTE: If you have other mods installed or you have changed versions; please reve
 2.
 3.
 
+
 ## Logs
 <!-- 📝
 Twitch logs can be found in the installation directory for the Twitch App.  Or click the ... button on SevTech and hit "Open Folder"
@@ -38,6 +41,7 @@ ATLauncher logs can be found in the installation directory. Or you can "Open Fol
 Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitHub -->
 * Client/Server Log:<!-- ✍️-->
 * Crash Log:<!-- ✍️-->
+
 
 ## Client Information
 * Modpack Version:<!-- ✍️-->
@@ -48,9 +52,11 @@ Then upload the latest/crash logs to PasteBin or Gist. DON'T Upload them to GitH
 * Optifine Installed:<!-- ✍️-->
 * Shaders Enabled:<!-- ✍️-->
 
+
 ## World Information
 * Modpack Version world created in:<!-- ✍️-->
 * Additional Content Installed:<!-- ✍️-->
+
 
 ## Server Information
 * Java Version:<!-- ✍️-->

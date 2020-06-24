@@ -13,9 +13,11 @@ Thank you for submitting a feature request! Please ensure that you fill in all t
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟-->
 
+
 ## Context
 <!-- 📝 I believe that a new recipe should be added in stage 1 to improve the feel of progression during the later periods. -->
 <!-- ✍️-->
+
 
 ## Config/Script Details (if desired)
 <!-- ✍️-->

@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+<!--🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+
+Thank you for submitting a mod request! Please ensure that you fill in all the required information needed as specified by the template below. Enter text following any "<!-- ✍️\-\-\>" in the template below.
+
+🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟-->
+
 ## Context
 <!-- 📝 I would like to recommend that a "mod" should be added to the pack because x,y,z. -->
 <!-- ✍️-->

@@ -7,10 +7,9 @@ assignees: ''
 
 ---
 
-<!-- I.E. If suggesting a config/script change, why should it be changed? What does the change allow/fix? Etc... -->
-
 ## Context
-<!-- ✍️-->I believe that a new recipe should be added in stage 1 to improve the feel of progression during the later periods.
+<!-- 📝 I believe that a new recipe should be added in stage 1 to improve the feel of progression during the later periods. -->
+<!-- ✍️-->
 
 ## Config/Script Details (if desired)
 <!-- ✍️-->

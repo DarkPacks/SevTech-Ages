@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 ## Context
-<!-- ✍️-->I would like to recommend that a "mod" should be added to the pack because x,y,z.
+<!-- 📝 I would like to recommend that a "mod" should be added to the pack because x,y,z. -->
+<!-- ✍️-->
 
 ## Mod Details
 * Name:<!-- ✍️-->

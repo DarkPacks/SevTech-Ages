@@ -26,7 +26,16 @@ Enhancements:
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)
+* Bedrock B Gone/Better Bedrock (5.1.11)
+* Better Foliage (2.3.1)
+    * Now works with Optifine F4 and later
+* Bonsai Trees (1.1.4-b170)
+* CraftTweaker (4.1.20.57)
 * Dimensional Control (2.13.0)
+* Enchantment Descriptions (1.1.15)
+* FastWorkbench (1.7.3)
+* Game Stages (2.0.123)
+* Hunting Dimension (1.0.42)
 
 ---------------------------------------------------------------------
 

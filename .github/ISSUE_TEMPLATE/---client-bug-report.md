@@ -9,7 +9,7 @@ assignees: ''
 
 <!--🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
-Thank you for submitting an issue for the relevant topic. Please ensure that you fill in all the required information needed as specified by the template below. Enter text following any "<!-- ✍️-->" in the template below.
+Thank you for submitting an issue for the relevant topic. Please ensure that you fill in all the required information needed as specified by the template below. Enter text following any "<!-- ✍️\-\-\>" in the template below.
 
 NOTE: If you have other mods installed or you have changed versions; please revert to a clean install and test again with a crash/bug before posting.
 

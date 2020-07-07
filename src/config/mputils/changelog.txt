@@ -16,6 +16,8 @@ Bug Fixes:
 * Remove unnecessary imp leather drops (#4143)
 * Fixed BWM Anchor and Pulley uncraftable in stage one
 * Slime boots in conflicting stages
+* Moved Void Sack to Age 5 as the recipe reciquired items from that age
+* Staged the application of the iChisel (hitech) modifier on tinkers' tools
 
 Enhancements:
 * SevTech, but now in Skyblock!
@@ -36,7 +38,16 @@ Mods Added:
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)
+* Bedrock B Gone/Better Bedrock (5.1.11)
+* Better Foliage (2.3.1)
+    * Now works with Optifine F4 and later
+* Bonsai Trees (1.1.4-b170)
+* CraftTweaker (4.1.20.57)
 * Dimensional Control (2.13.0)
+* Enchantment Descriptions (1.1.15)
+* FastWorkbench (1.7.3)
+* Game Stages (2.0.123)
+* Hunting Dimension (1.0.42)
 
 ---------------------------------------------------------------------
 

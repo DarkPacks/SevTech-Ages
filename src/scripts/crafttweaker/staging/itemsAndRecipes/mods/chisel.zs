@@ -18,7 +18,7 @@ static stagedItems as IIngredient[][string] = {
 
 	stageOne.stage: [
 		// Chisel
-		<chisel:chisel_iron:0>,
+		<chisel:chisel_iron:*>,
 
 		// Blocks
 		<chisel:andesite:*>,
@@ -255,8 +255,8 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageFive.stage: [
-		<chisel:chisel_diamond:0>,
-		<chisel:chisel_hitech:0>,
+		<chisel:chisel_diamond:*>,
+		<chisel:chisel_hitech:*>,
 		<chisel:diamond:*>,
 		<chisel:emerald:*>
 	]

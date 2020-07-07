@@ -172,7 +172,6 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_misc:16>,
 		<actuallyadditions:item_resonant_rice:0>,
 		<actuallyadditions:item_small_to_medium_crate_upgrade:0>,
-		<actuallyadditions:item_void_bag:0>,
 		<actuallyadditions:magnet_ring_bauble:0>
 	],
 
@@ -353,6 +352,7 @@ static stagedItems as IIngredient[][string] = {
 		<actuallyadditions:item_sword_crystal_white:*>,
 		<actuallyadditions:item_sword_emerald:*>,
 		<actuallyadditions:item_tele_staff:0>,
+		<actuallyadditions:item_void_bag:*>,
 		<actuallyadditions:item_water_removal_ring:0>,
 		<actuallyadditions:item_wings_of_the_bats:0>,
 		<actuallyadditions:magnet_ring_bauble:0>,

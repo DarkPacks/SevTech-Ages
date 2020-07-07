@@ -45,6 +45,7 @@ Mod Updates:
 * CraftTweaker (4.1.20.57)
 * Dimensional Control (2.13.0)
 * Enchantment Descriptions (1.1.15)
+* Farseek (2.3.2 -> 2.5)
 * FastWorkbench (1.7.3)
 * Game Stages (2.0.123)
 * Hunting Dimension (1.0.42)

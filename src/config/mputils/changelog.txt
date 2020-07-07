@@ -17,6 +17,7 @@ Bug Fixes:
 * Fixed BWM Anchor and Pulley uncraftable in stage one
 * Slime boots in conflicting stages
 * Moved Void Sack to Age 5 as the recipe reciquired items from that age
+* Staged the application of the iChisel (hitech) modifier on tinkers' tools
 
 Enhancements:
 * Remove Barley Flour - Barley now produces regular flour instead

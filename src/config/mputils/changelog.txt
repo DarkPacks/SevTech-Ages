@@ -34,6 +34,7 @@ Mod Updates:
     * Now works with Optifine F4 and later
 * Bonsai Trees (1.1.4-b170)
 * CraftTweaker (4.1.20.57)
+* Cyclic (1.19.11 -> 1.20.3)
 * Dimensional Control (2.13.0)
 * Enchantment Descriptions (1.1.15)
 * Farseek (2.3.2 -> 2.5)

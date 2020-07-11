@@ -2,24 +2,21 @@
     {
         "mob": "minecraft:horse",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:squid",
         "mincount": {
-            "amount": 30,
-            "perchunk": true
+            "amount": 30
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:parrot",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
@@ -103,8 +100,7 @@
     {
         "mob": "natura:imp",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
@@ -186,32 +182,28 @@
     {
         "mob": "jaff:cod",
         "mincount": {
-            "amount": 20,
-            "perchunk": true
+            "amount": 20
         },
         "result": "deny"
     },
     {
         "mob": "jaff:pufferfish",
         "mincount": {
-            "amount": 4,
-            "perchunk": true
+            "amount": 4
         },
         "result": "deny"
     },
     {
         "mob": "jaff:clownfish",
         "mincount": {
-            "amount": 6,
-            "perchunk": true
+            "amount": 6
         },
         "result": "deny"
     },
     {
         "mob": "jaff:salmon",
         "mincount": {
-            "amount": 20,
-            "perchunk": true
+            "amount": 20
         },
         "result": "deny"
     },
@@ -226,40 +218,35 @@
     {
         "mob": "primal:canis_campestris",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:pig",
         "mincount": {
-            "amount": 100,
-            "perchunk": true
+            "amount": 100
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:cow",
         "mincount": {
-            "amount": 100,
-            "perchunk": true
+            "amount": 100
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:sheep",
         "mincount": {
-            "amount": 100,
-            "perchunk": true
+            "amount": 100
         },
         "result": "deny"
     },
     {
         "mob": "minecraft:chicken",
         "mincount": {
-            "amount": 100,
-            "perchunk": true
+            "amount": 100
         },
         "result": "deny"
     },
@@ -271,80 +258,70 @@
     {
         "mob": "primal:shark_hammerhead",
         "mincount": {
-            "amount": 4,
-            "perchunk": true
+            "amount": 4
         },
         "result": "deny"
     },
     {
         "mob": "magma_monsters:magma_monster",
         "mincount": {
-            "amount": 12,
-            "perchunk": true
+            "amount": 12
         },
         "result": "deny"
     },
     {
         "mob": "magma_monsters:magma_monster_grunt",
         "mincount": {
-            "amount": 12,
-            "perchunk": true
+            "amount": 12
         },
         "result": "deny"
     },
     {
         "mob": "primal:ovis_atre",
         "mincount": {
-            "amount": 40,
-            "perchunk": true
+            "amount": 40
         },
         "result": "deny"
     },
     {
         "mob": "nex:salamander",
         "mincount": {
-            "amount": 20,
-            "perchunk": true
+            "amount": 20
         },
         "result": "deny"
     },
     {
         "mob": "nex:wight",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
     {
         "mob": "nex:spore_creeper",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
     {
         "mob": "nex:spinout",
         "mincount": {
-            "amount": 15,
-            "perchunk": true
+            "amount": 15
         },
         "result": "deny"
     },
     {
         "mob": "nex:mogus",
         "mincount": {
-            "amount": 20,
-            "perchunk": true
+            "amount": 20
         },
         "result": "deny"
     },
     {
         "mob": "thebetweenlands:boulder_sprite",
         "mincount": {
-            "amount": 70,
-            "perchunk": true
+            "amount": 70
         },
         "result": "deny"
     }

@@ -26,6 +26,9 @@ Enhancements:
 * Stop Forge logging cascading world generation
 * Adjusted the Betweenland's Boulder Sprite spawn rates
 
+Mods Added:
+* Tombstone: Revived
+
 Mod Updates:
 * AbyssalCraft (1.9.19.1)
 * AbyssalCraft Integration (1.11.2)
@@ -75,6 +78,9 @@ Mod Updates:
 * ViesCraft - Airships! (5.9.13 -> 5.9.16)
 * Wawla - What Are We Looking At (2.5.273 -> 2.6.275)
 * XNet (1.8.1 -> 1.8.2)
+
+Mods Removed:
+* Coral's Tombstone
 
 ---------------------------------------------------------------------
 

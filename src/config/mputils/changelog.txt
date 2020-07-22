@@ -71,6 +71,7 @@ Mod Updates:
 * Refined Storage Addons (0.4.4 -> 0.4.5)
 * RFTools (7.71 -> 7.73)
 * Rustic (1.1.0 -> 1.1.4)
+* SevPatches (1.4-5 -> 1.5-6)
 * Simple Storage Network (1.7.6 -> 1.7.11)
 * Steve's Carts Reborn (2.4.30.134 -> 2.4.32.137)
 * Storage Drawers (5.3.8 -> 5.4.2)

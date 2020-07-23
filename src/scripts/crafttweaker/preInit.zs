@@ -9,4 +9,4 @@
 	modpacks curated by DarkPacks. You can use these scripts for reference and for
 	learning but not for copying and pasting and claiming as your own.
 */
-static PACK_VERSION as string = "3.1.4";
+static PACK_VERSION as string = "3.1.5";

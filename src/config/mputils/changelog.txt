@@ -8,6 +8,14 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.1.5
+
+Mods Updated:
+* Tombstone: Revived (4.0.0-2 -> 4.0.1-3)
+    * Fixes server startup crash
+
+---------------------------------------------------------------------
+
 3.1.4
 
 Bug Fixes:

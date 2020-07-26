@@ -10,6 +10,22 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.2.0 Skyblock
 
+Enhancements:
+* SevTech, but now in Skyblock!
+* Increased Volarkite durability
+* The Hunting Dimension, Twilight Forest, Nether, and Beneath have void generation
+* Added a recipe to turn rocks into gravel
+* Added additional methods to obtain clay
+* Added AbyssalCraft ritual to summon a Raven
+
+Mods Added:
+* Drafty Kites
+* Topography (1.13.3)
+
+---------------------------------------------------------------------
+
+3.1.4
+
 Bug Fixes:
 * Correctly stage the Stray and its equipment
 * Wool being visible in the world before intended
@@ -21,21 +37,13 @@ Bug Fixes:
 * Strange mob spawn counts potentially caused by low view distance
 
 Enhancements:
-* SevTech, but now in Skyblock!
-* Increased Volarkite durability
-* The Hunting Dimension, Twilight Forest, Nether, and Beneath have void generation
-* Added a recipe to turn rocks into gravel
-* Added additional methods to obtain clay
-* Added AbyssalCraft ritual to summon a Raven
 * Remove Barley Flour - Barley now produces regular flour instead
 * Cutting a wooden slab using the BWM Saw will convert it to a thin slab if one exists for that material
 * Stop Forge logging cascading world generation
 * Adjusted the Betweenland's Boulder Sprite spawn rates
 
 Mods Added:
-* Drafty Kites
 * Tombstone: Revived
-* Topography (1.13.3)
 
 Mod Updates:
 * AbyssalCraft (1.9.19.1)

@@ -8,6 +8,13 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.1.6
+
+Mods Removed:
+* Advanced Mortars
+
+---------------------------------------------------------------------
+
 3.1.5
 
 Mods Updated:

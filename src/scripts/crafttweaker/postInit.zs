@@ -72,7 +72,6 @@ function initItemsAndRecipesStaging() {
 	// Staging Mod's Items and Recipes
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.abyssalcraft.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.actuallyadditions.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.advancedmortars.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.animalium.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.antiqueatlas.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.appliedenergistics2.init();

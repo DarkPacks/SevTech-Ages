@@ -10,8 +10,14 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.1.6
 
+Mods Added:
+* Bring Back Bedrock (0.0.1)
+    * Resolves issue introduced with latest Better Bedrock update
+
 Mods Removed:
 * Advanced Mortars
+* Better Bedrock
+    * Latest update caused bedrock generation issues
 
 ---------------------------------------------------------------------
 

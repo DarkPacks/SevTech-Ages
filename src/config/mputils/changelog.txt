@@ -17,8 +17,6 @@ Mods Added:
 
 Mods Removed:
 * Advanced Mortars
-* Better Bedrock
-    * Latest update caused bedrock generation issues
 
 ---------------------------------------------------------------------
 

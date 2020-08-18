@@ -1,4 +1,6 @@
-# SevTech: Ages [![Discord][discordImg]][discordLink] [![Curseforge][curseImg]][curseLink]
+# SevTech: Ages [![Curseforge][curseImg]][curseLink]
+
+[![Twitch Status](https://img.shields.io/twitch/status/darkosto?color=411145&label=Darkosto&logo=twitch)](https://twitch.tv/darkosto) [![Discord][discordimg]][discordlink]
 
 ## Introduction
 SevTech: Ages was made by [Darkosto](https://www.twitch.tv/darkosto) for [Sevadus](https://www.twitch.tv/sevadus) on Twitch.

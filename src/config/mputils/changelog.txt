@@ -15,8 +15,13 @@ Mods Added:
     * A HUGE thank you to JayJay for making this for us!
     * Resolves issue introduced with latest Better Bedrock update
 
+Mods Added:
+* Corail Tombstone (4.0.0)
+
 Mods Removed:
 * Advanced Mortars
+* Tombstone: Revived
+    * Corail Tombstone is back
 
 ---------------------------------------------------------------------
 

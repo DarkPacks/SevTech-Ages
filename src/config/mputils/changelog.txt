@@ -10,6 +10,13 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.1.6
 
+Bug Fixes:
+* Fixed unintentional change to shoggoth generation chance in swamps
+
+---------------------------------------------------------------------
+
+3.1.6
+
 Mods Added:
 * Bring Back Bedrock (0.0.1)
     * A HUGE thank you to JayJay for making this for us!

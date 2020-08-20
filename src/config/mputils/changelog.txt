@@ -12,6 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Fixed unintentional change to shoggoth generation chance in swamps
+* Resolved potential issue with bedrock generation in unintended dimensions
 
 ---------------------------------------------------------------------
 

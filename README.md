@@ -30,4 +30,4 @@ Released files:
 [discord_img]: https://img.shields.io/discord/329440410839678986.svg?logo=discord&logoWidth=18&colorB=7289DA
 [discord_link]: https://discord.gg/darkosto
 [curse_img]: http://cf.way2muchnoise.eu/268208.svg
-[curse_link]: https://minecraft.curseforge.com/projects/sevtech-ages
+[curse_link]: https://www.curseforge.com/minecraft/modpacks/sevtech-ages

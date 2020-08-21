@@ -27,6 +27,6 @@ Released files:
 
 [discordLink]: https://discord.gg/darkosto
 
-[curseImg]: http://cf.way2muchnoise.eu/268208.svg
+[curseImg]: http://cf.way2muchnoise.eu/403521.svg
 
-[curseLink]: https://minecraft.curseforge.com/projects/sevtech-ages
+[curseLink]: https://www.curseforge.com/minecraft/modpacks/sevtech-ages-of-the-sky

@@ -558,7 +558,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [
-		format.red("This machine will only work in space! But watch out for a flying car however")
+		format.red("This machine will only work in space!")
 	],
 
 	// Creeping Moss
@@ -592,13 +592,13 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<abyssalcraft:coraliumore:0>: [
 		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
 		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("Ore can be found underground in Ocean"),
 		format.aqua("and Swamp Biomes")
 	],
 	<abyssalcraft:cpearl:0>: [
 		format.aqua("Consult Overworld Chapter in Forbidden Knowledge"),
 		format.aqua("in the Necromonicon for more information."),
-		format.aqua("Ore can be found underground Ocean"),
+		format.aqua("Ore can be found underground in Ocean"),
 		format.aqua("and Swamp Biomes")
 	],
 	<thebetweenlands:volarkite>: [

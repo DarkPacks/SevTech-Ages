@@ -182,6 +182,9 @@ advancements.stage0.waterstrainer.title=This is Getting Strainuous
 advancements.stage0.waterstrainer.description=If you cannot locate certain resources from under water, use a Water Strainer Base and insert a Strainer. Each Strainer type has a different loot table. Make sure to check them out! You'll need to craft the Strainer Base and a Dense Survivalist's Strainer to complete the advancement
 
 
+advancements.stage0.volarkite.title=Go Fly a Kite!
+advancements.stage0.volarkite.description=You will need a way to get around the world. Craft and use a Volarkite to glide to other islands. You can use updrafts in the void to ascend. Be careful, the volarkite has limited durability!
+
 advancements.stage0.weaponize.title=It's Business Time
 advancements.stage0.weaponize.description=Left-Click a Bone on a block like Cobblestone or Stone to turn it into a Sharp Bone
 

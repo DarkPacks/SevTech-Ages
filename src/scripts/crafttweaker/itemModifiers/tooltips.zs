@@ -347,7 +347,8 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<ceramics:clay_bucket:0>: [
-		format.red("Will literally melt away after transporting HOT liquid")
+		format.red("Will literally melt away after"),
+		format.red("transporting HOT liquid")
 	],
 
 	<progressiontweaks:spear:0>: [

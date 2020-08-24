@@ -257,11 +257,9 @@ advancements.stage1.claybarrel.description=Les tonneaux en cuivre vous permetten
 
 
 advancements.stage1.coal.title=Chercher et miner du charbon
-advancements.stage1.coal.description=Trouvez des échantillons de charbon à la surface et creusez en dessous afin d'en trouver en grande quantité !
 
 
 advancements.stage1.copper.title=Vous reprendrez un peu de cuivre ?
-advancements.stage1.copper.description=Trouvez des échantillons de Malachite ou d'Azurite à la surface et creusez en dessous afin de trouver du Cuivre en grande quantité !
 
 
 advancements.stage1.crafting.title=Craftons peu, mais craftons bien.
@@ -345,7 +343,6 @@ advancements.stage1.tchannel.description=Les canaux sont de bons moyens de trans
 
 
 advancements.stage1.tin.title=Etain pour tous
-advancements.stage1.tin.description=Cherchez des échantillons de Cassiterite ou de Teallite à la surface et creusez en dessous pour trouver de l'étain. Celui ci se trouve entre l'altitude Y8 et Y68.
 
 
 advancements.stage1.turntable.title=Henri poterie
@@ -418,15 +415,12 @@ advancements.stage2.glass.description=Fabriquez du verre en faisant fondre du sa
 
 
 advancements.stage2.gold.title=D'or et déjà
-advancements.stage2.gold.description=Trouvez un échantillon d'or à la surface et creusez en dessous afin de trouver de l'or ! Le minerais se trouve entre l'altitude Y5 et Y40.
 
 
 advancements.stage2.iron.title=Fer le bien
-advancements.stage2.iron.description=Trouvez un échantillon d'Hematite à la surface et creusez en dessous afin de trouver du fer ! Le minerais se trouve entre l'altitude Y32 et Y60.
 
 
 advancements.stage2.lapis.title=Les roses sont rouges, le lapis est bleu
-advancements.stage2.lapis.description=Trouvez un échantillon de Lapis à la surface et creusez en dessous afin de trouver du Lapis ! Le minerais se trouve entre l'altitude Y10 et Y38.
 
 
 advancements.stage2.lightwell.title=Liquéfier
@@ -458,7 +452,6 @@ advancements.stage2.resonatingwand.description=Il vous faudra un bâton résonna
 
 
 advancements.stage2.rockcrystal.title=Les cristaux de tes yeux
-advancements.stage2.rockcrystal.description=La pierre de cristal est importante pour l'astromancie. Trouvez en un échantillon à la surface et creusez afin d'en trouver entre l'altitude Y3 et Y18.
 
 
 advancements.stage2.root.title=Age 2
@@ -530,7 +523,6 @@ advancements.stage3.amethyst.description=Une gemme rare peut être trouvé en en
 
 
 advancements.stage3.bauxite.title=Bauxite
-advancements.stage3.bauxite.description=Trouvez un échantillon de bauxite à la surface et creusee afin de trouver de l'aluminium. Celui-ci se trouve entre l'altitude Y45 ey Y70.
 
 
 advancements.stage3.bellows.title=Souffler pour mieux cuisiner
@@ -626,7 +618,6 @@ advancements.stage3.netherwart.description=Cherchez et récoltez une verrue des 
 
 
 advancements.stage3.nickel.title=Nickel, j'ai trouvé de la Limonite
-advancements.stage3.nickel.description=Trouvez un échantillon de Limonite à la surface et creusez en dessous afin de trouver du nickel.
 
 
 advancements.stage3.oreexcavation.title=Mineur bientôt majeur
@@ -642,7 +633,6 @@ advancements.stage3.plastic.description=Le fabricateur de plasique du mod Modula
 
 
 advancements.stage3.platinum.title=A moi les platines
-advancements.stage3.platinum.description=Trouvez un échantillon de platine à la surface et creusez pour en trouver entre l'altitude Y3 et Y25.
 
 
 advancements.stage3.potash.title=Elles font scier ces potasses
@@ -662,7 +652,6 @@ advancements.stage3.rails.description=Fabriquez des rails afin de voyager sur de
 
 
 advancements.stage3.redstone.title=Cinna... quoi ?
-advancements.stage3.redstone.description=Cherchez un échantillon de Cinnabar à la surfance et creusez en dessous afin de trouver de la Redstone. Cette dernière se trouve entre l'altitude Y5 et Y12.
 
 
 advancements.stage3.root.title=Age 3
@@ -674,7 +663,6 @@ advancements.stage3.sampledrill.description=Utilisez un échantillon de carotte 
 
 
 advancements.stage3.silverlead.title=Vous êtes Galena ce soir
-advancements.stage3.silverlead.description=Trouvez un échantillon de Galena à la surface et creusez en dessous afin de trouver de l'argent et du plomb. Ces minerais se trouvent entre l'altitude Y16 et Y50.
 
 
 advancements.stage3.soundmuffler.title=Taisez-vous, enfin !
@@ -759,7 +747,6 @@ advancements.stage4.blockheads3.description=Les blocs de Cooking for Blockheads 
 
 
 advancements.stage4.certusquartz.title=Encore un autre type de Quartz ?
-advancements.stage4.certusquartz.description=Cherchez des échantillons de Quartz assortis à la surface et creusez en dessous afin de trouver du Certus Quartz. Ce minerais se trouve entre l'altitude Y6 et Y40.
 
 
 advancements.stage4.cobalt.title=Cobalt
@@ -863,7 +850,6 @@ advancements.stage4.rsgrid.description=Fabriquez une grille de stockage rafinée
 
 
 advancements.stage4.silicon.title=Silicon Valley
-advancements.stage4.silicon.description=Localisez un échantillon de Silicon à la surface et creusez en dessous afin de trouver du silicon. Ce minerais se trouve entre l'altitude Y24 et Y48.
 
 
 advancements.stage4.solidendereye.title=Un oeil de rab
@@ -920,7 +906,6 @@ advancements.stage5.desh.description=Trouvez et minez du minerais de Desh sur la
 
 
 advancements.stage5.diamond.title=Whoop whoop, j'ai du diamant !!
-advancements.stage5.diamond.description=Trouvez un échantillon de Kimberlite à la surface et creusez en dessosu afin de trouver du diamant. Le minerais se trouve entre l'altitude Y2 et Y20.
 
 
 advancements.stage5.diamondjetpack.title=La limite ce n'est plus le ciel
@@ -932,7 +917,6 @@ advancements.stage5.electrumjetpack.description=Fabriquez un jetpack en Electrum
 
 
 advancements.stage5.emerald.title=Tes yeux émeraudes
-advancements.stage5.emerald.description=Trouvez un échantillon de Beryl à la surface et creusez en dessous pour trouver de l'émeraude. Ce minerais se trouve entre l'altitude Y4 et Y32.
 
 
 advancements.stage5.emeraldjetpack.title=Je me la pète
@@ -956,7 +940,6 @@ advancements.stage5.neptune.description=Lancez une fusée et atterissez sur Nept
 
 
 advancements.stage5.osmium.title=Osmium
-advancements.stage5.osmium.description=Trouvez un échantillon d'Osmium à la surface et creusez en dessous pour trouver de l'Osmium. Ce minerais se trouve entre la couche Y3 et Y11.
 
 
 advancements.stage5.paperclip.title=Le trombone de l'Origine

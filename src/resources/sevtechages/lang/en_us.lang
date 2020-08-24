@@ -267,11 +267,11 @@ advancements.stage1.claybarrel.description=Clay barrels can hold fluids, such as
 
 
 advancements.stage1.coal.title=Locate and mine coal
-advancements.stage1.coal.description=Find a Coal surface sample and dig for Coal! The ore is located between Y28 and Y78. Note, surface samples will unhide in already explored areas.
+advancements.stage1.coal.description=Find a Coal surface sample and dig for Coal! The ore is located in Darklands, Forest, and Roofed Forest biomes. Note, surface samples will unhide in already explored areas
 
 
 advancements.stage1.copper.title=Get To The Copper
-advancements.stage1.copper.description=Find a Malachite or Azurite surface sample and dig for Copper! The ore is located between Y12 and Y52. Note, surface samples will unhide in already explored areas.
+advancements.stage1.copper.description=Find a Malachite or Azurite surface sample and dig for Copper! The ore is located in Darklands, Darklands Forest, and Forest Biomes. Note, surface samples will unhide in already explored areas
 
 
 advancements.stage1.crafting.title=Upgrade your crafting
@@ -339,7 +339,7 @@ advancements.stage1.root.description=Welcome to the next age! Blocks previously 
 
 
 advancements.stage1.statue.title=Abyssal Trophy Case
-advancements.stage1.statue.description=To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and River biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the Necronomicon for more information
+advancements.stage1.statue.description=To perform dark rituals you will need to collect statues to power your Necronomicon. Find a Shoggoth Lair in the Swamp and Ocean biomes. After 6 or more spawn they will eventually erect a Monolith with a statue on top. Or, craft a statue using the Shoggoth Flesh. Consult the Necronomicon for more information
 
 
 advancements.stage1.stepup.title=I Don't Want it Anymore!
@@ -355,7 +355,7 @@ advancements.stage1.tchannel.description=A Channel is a great way to transport l
 
 
 advancements.stage1.tin.title=Error 404: Heart Not Found
-advancements.stage1.tin.description=Find a Cassiterite or Teallite surface sample and dig for Tin! The ore is located between Y8 and Y68. Note, surface samples will unhide in already explored areas.
+advancements.stage1.tin.description=Find a Cassiterite or Teallite surface sample and dig for Tin! The ore is located in Birch Forest, Plains, Roofed Forest, and Savannah biomes. Note, surface samples will unhide in already explored areas.
 
 
 advancements.stage1.turntable.title=Turning the Tables
@@ -428,15 +428,15 @@ advancements.stage2.glass.description=Create glass by first melting Sand in the 
 
 
 advancements.stage2.gold.title=Gold Standard
-advancements.stage2.gold.description=Find a Gold surface sample and dig for Gold! The ore is located between Y5 and Y40
+advancements.stage2.gold.description=Find a Gold surface sample and dig for Gold! The ore is located in Badlands and Mesa biomes
 
 
 advancements.stage2.iron.title=Iron Sights
-advancements.stage2.iron.description=Find a Hematite surface sample and dig for Iron! The ore is located between Y32 and Y60
+advancements.stage2.iron.description=Find a Hematite surface sample and dig for Iron! The ore is located in Meadow, Plains, Savannah, and Swampland biomes
 
 
 advancements.stage2.lapis.title=Roses are Red, Lapis is Blue
-advancements.stage2.lapis.description=Find a Lapis surface sample and dig for Lapis! The ore is located between Y10 and Y38
+advancements.stage2.lapis.description=Find a Lapis surface sample and dig for Lapis! The ore is located in Green Swamp, Swampland, Temperate Rainforest, and Mushroom biomes
 
 
 advancements.stage2.lightwell.title=Liquify
@@ -468,7 +468,7 @@ advancements.stage2.resonatingwand.description=You'll need a Resonating Wand fro
 
 
 advancements.stage2.rockcrystal.title=Rock, Paper, Crystals
-advancements.stage2.rockcrystal.description=Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down to find the ore between Y3 and Y18
+advancements.stage2.rockcrystal.description=Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down in Snowy Coniferous Forest and Taiga Cold biomes
 
 
 advancements.stage2.root.title=Age 2
@@ -541,7 +541,7 @@ advancements.stage3.amethyst.description=A rare gem found in the Nether. Can be 
 
 
 advancements.stage3.bauxite.title=Bauxite Ore
-advancements.stage3.bauxite.description=Find a Bauxite surface sample and dig for Aluminum! The ore is located between Y45 and Y70
+advancements.stage3.bauxite.description=Find a Bauxite surface sample and dig for Aluminum! The ore is located in Mini Jungle, Birch Forest, and Woodlands biomes
 
 
 advancements.stage3.bellows.title=Bellows
@@ -637,7 +637,7 @@ advancements.stage3.netherwart.description=Find and collect Nether Wart. It's mo
 
 
 advancements.stage3.nickel.title=Limonite Ore
-advancements.stage3.nickel.description=Find a Limonite surface sample and dig for Nickel! The ore is located between Y6 and Y40
+advancements.stage3.nickel.description=Find a Limonite surface sample and dig for Nickel! The ore is located in Autumnal Woods and Jungle biomes
 
 
 advancements.stage3.oreexcavation.title=Ore Excavation
@@ -653,7 +653,7 @@ advancements.stage3.plastic.description=The Plastic Molder from Modular Machiner
 
 
 advancements.stage3.platinum.title=Platinum Ore
-advancements.stage3.platinum.description=Find a Platinum surface sample and dig for Platinum! The ore is located between Y3 and Y25
+advancements.stage3.platinum.description=Find a Platinum surface sample and dig for Platinum! The ore is located in the Rocky Plateau biome
 
 
 advancements.stage3.potash.title=Potash
@@ -673,7 +673,7 @@ advancements.stage3.rails.description=Craft and use Rails to travel long distanc
 
 
 advancements.stage3.redstone.title=Cinnabar Ore
-advancements.stage3.redstone.description=Find a Cinnabar surface sample and dig for Redstone! The ore is located between Y5 and Y12
+advancements.stage3.redstone.description=Find a Cinnabar surface sample and dig for Redstone! The ore is located in Desert, Redwood Taiga Hills, Taiga, and Mega Spruce Taiga
 
 
 advancements.stage3.root.title=Age 3
@@ -685,7 +685,7 @@ advancements.stage3.sampledrill.description=Use the Core Sample Drill to locate 
 
 
 advancements.stage3.silverlead.title=Galena Ore
-advancements.stage3.silverlead.description=Find a Galena surface sample and dig for Silver and Lead! The ore is located between Y16 and Y50
+advancements.stage3.silverlead.description=Find a Galena surface sample and dig for Silver and Lead! The ore is located in Darklands Forest and Glacier biomes
 
 
 advancements.stage3.soundmuffler.title=Sound Muffler
@@ -770,7 +770,7 @@ advancements.stage4.blockheads3.description=Cooking for Blockheads appliance blo
 
 
 advancements.stage4.certusquartz.title=Certus Quartz
-advancements.stage4.certusquartz.description=Find an Assorted Quartz surface sample and dig for Certus Quartz! The ore is located between Y6 and Y40
+advancements.stage4.certusquartz.description=Find an Assorted Quartz surface sample and dig for Certus Quartz! The ore is located in Meneglin and Lush Hills biomes
 
 
 advancements.stage4.cobalt.title=Cobalt
@@ -874,7 +874,7 @@ advancements.stage4.rsgrid.description=Craft a Refined Storage Grid and choose y
 
 
 advancements.stage4.silicon.title=Silicon Ore
-advancements.stage4.silicon.description=Find a Silicon surface sample and dig for Silicon! The ore is located between Y24 and Y48
+advancements.stage4.silicon.description=Find a Silicon surface sample and dig for Silicon! The ore is located in Jungle and Sunflower Plains biomes
 
 
 advancements.stage4.solidendereye.title=Reusable Eye
@@ -931,7 +931,7 @@ advancements.stage5.desh.description=Locate and mine Desh ore on the planet Mars
 
 
 advancements.stage5.diamond.title=Diamonds!
-advancements.stage5.diamond.description=Find a Kimberlite surface sample and dig for Diamonds! The ore is located between Y2 and Y20
+advancements.stage5.diamond.description=Find a Kimberlite surface sample and dig for Diamonds! The ore is located in the Glacier Spikes biome
 
 
 advancements.stage5.diamondjetpack.title=Diamond Jetpack
@@ -943,7 +943,7 @@ advancements.stage5.electrumjetpack.description=Craft the Electrum Jetpack
 
 
 advancements.stage5.emerald.title=Emerald Dream
-advancements.stage5.emerald.description=Find a Beryl surface sample and dig for Emeralds! The ore is located between Y4 and Y32
+advancements.stage5.emerald.description=Find a Beryl surface sample and dig for Emeralds! The ore is located in the Extreme Hills biome
 
 
 advancements.stage5.emeraldjetpack.title=Emerald Jetpack
@@ -967,7 +967,7 @@ advancements.stage5.neptune.description=Launch a Rocket and land on Neptune. Col
 
 
 advancements.stage5.osmium.title=Osmium Ore
-advancements.stage5.osmium.description=Find an Osmium surface sample and dig for Osmium! The ore is located between Y3 and Y11
+advancements.stage5.osmium.description=Find an Osmium surface sample and dig for Osmium! The ore is located in Flower Forest and Ice Spikes biomes
 
 
 advancements.stage5.paperclip.title=Universal Paperclip

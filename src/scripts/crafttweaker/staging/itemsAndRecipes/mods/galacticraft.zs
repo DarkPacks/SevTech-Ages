@@ -170,6 +170,7 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftcore:machine2:4>,
 		<galacticraftcore:machine2:8>,
 		<galacticraftcore:machine3:0>,
+		<galacticraftcore:machine4>,
 		<galacticraftcore:magnetic_table:0>,
 		<galacticraftcore:meteor_chunk:0>,
 		<galacticraftcore:meteor_chunk:1>,

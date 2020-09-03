@@ -22,6 +22,12 @@ Mods Added:
 * Drafty Kites
 * Topography (1.14.2)
 
+Mod Updates:
+* ExtraPlanets (0.5.6 -> 0.7.0)
+* Galacticraft (4.0.2.236 -> 4.0.2.280)
+    * Core, Planets, & MicdoodleCore
+* MJRLegendsLib (1.1.8 -> 1.2.0)
+
 Mods Removed:
 * Better Bedrock
 * BringBedrockBack

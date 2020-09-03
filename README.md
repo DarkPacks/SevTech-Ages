@@ -6,7 +6,7 @@
 
 SevTech: Ages was made by [Darkosto](https://www.twitch.tv/darkosto) for [Sevadus](https://www.twitch.tv/sevadus) on Twitch.
 
-SevTech: Ages is a massive modpack packed with content and progression. This pack focuses on providing the player a long term progression experience with purpose. SevTech introduces a number of mechanics never before done such as: hiding ore until unlocked, dynamically hidden items and recipes based on progress, new mobs appear as you progress further and much more! The modpack uses the vanilla advancement system to guide the player along while still allowing an open, sandbox experience. As you progress through the hundreds of custom advancements you will unlock new "ages" which will show you new mods to work through.
+SevTech: Ages is a massive modpack packed with content and progression. This pack focuses on providing the player a long term progression experience with purpose. SevTech introduces a number of mechanics never before done such as: hiding ore until unlocked, dynamically hidden items and recipes based on progress, new mobs appear as you progress further, and much more! The modpack uses the vanilla advancement system to guide the player along while still allowing an open, sandbox experience. As you progress through the hundreds of custom advancements you will unlock new "ages" which will show you new mods to work through.
 
 SevTech aims to introduce many mods not frequently used while altering some more widely known mods. The pack also features a ton of custom mods for the best player experience.
 

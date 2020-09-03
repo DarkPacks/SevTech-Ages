@@ -8,6 +8,17 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.1.7
+
+Enhancements:
+* Code cleanup
+* Tweaked tooltip grammar and lengths
+
+Mods Updated:
+* Bring Bedrock Back (0.0.1 -> 0.0.4)
+
+---------------------------------------------------------------------
+
 3.1.6 Hotfix 1
 
 Bug Fixes:

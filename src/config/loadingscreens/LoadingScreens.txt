@@ -2,9 +2,9 @@
 background = addStretchedTexture("top_left", "test:textures/gui/title/background/sevtech_gradients.png")
 background.setRelRender(1, 1)
 
-tips = addRandomText("bottom_left")
+tips = addRandomText("top_left")
 tips.setAbsXOffset(5)
-tips.setAbsYOffset(-50)
+tips.setAbsYOffset(5)
 tips.addTip("Water is only infinite in River and Ocean biomes.")
 tips.addTip("While walking, your player will change position.")
 tips.addTip("WAILA is already installed, you just need to unlock it!")

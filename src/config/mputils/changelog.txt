@@ -12,6 +12,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage0.volarkite.title")
+
+setIcon("thebetweenlands:volarkite", 0)
+
+setTranslatedDescription("advancements.stage0.volarkite.description")
+
+addParent("triumph:stage0/workstump")
+setRequiresParents()
+
+//Criteria
+criteria1 = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria1.setItem("thebetweenlands:volarkite", 0)
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage0/root")

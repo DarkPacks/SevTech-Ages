@@ -265,11 +265,9 @@ advancements.stage1.claybarrel.description=\u7c98\u571f\u6876\u80fd\u591f\u5b58\
 
 
 advancements.stage1.coal.title=\u5bfb\u627e\u5e76\u6316\u6398\u7164\u77ff
-advancements.stage1.coal.description=\u627e\u5bfb\u7164\u77ff\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u7164\u77ff\uff01 \u7164\u77ff\u901a\u5e38\u5728y\u503c28\u523070\u7684\u5730\u65b9
 
 
 advancements.stage1.copper.title=\u6211\u4eec\u5f97\u5230\u4e86\u94dc
-advancements.stage1.copper.description=\u627e\u5bfb\u5730\u8868\u7684\u94dc\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u94dc\u77ff\uff01 \u901a\u5e38\u5728y\u503c12%7e52\u7684\u5730\u65b9\uff0c\u540d\u5b57\u4e5f\u53ef\u80fd\u662f\u5b54\u96c0\u77f3\u6216\u8005\u84dd\u94dc\u77ff \u8c28\u8bb0\uff0c\u5730\u8868\u6837\u672c\u5728\u5df2\u7ecf\u63a2\u7d22\u8fc7\u7684\u533a\u57df\u4e5f\u80fd\u627e\u5230
 
 
 advancements.stage1.crafting.title=\u5408\u6210\u5347\u7ea7
@@ -353,7 +351,6 @@ advancements.stage1.tchannel.description=\u8f93\u6db2\u9053\u662f\u4e00\u79cd\u9
 
 
 advancements.stage1.tin.title=error 404: \u6211\u627e\u4e0d\u5230\u6838\u5fc3\uff01
-advancements.stage1.tin.description=\u5730\u8868\u5bfb\u627e\u9521\u6837\u672c\u5e76\u8fdb\u884c\u91c7\u6398\uff01\u901a\u5e38\u5728y\u503c8%7e68\u7684\u5730\u65b9\uff0c\u540d\u79f0\u53ef\u80fd\u662f\u9521\u77f3\u6216\u8005\u7b3c\u94c5\u77ff \u8c28\u8bb0\uff0c\u5730\u8868\u6837\u672c\u5728\u5df2\u7ecf\u63a2\u7d22\u8fc7\u7684\u533a\u57df\u4e5f\u80fd\u627e\u5230
 
 
 advancements.stage1.turntable.title=\u65cb\u8f6c\u5427\uff01\u65cb\u8f6c\u53f0
@@ -426,15 +423,12 @@ advancements.stage2.glass.description=\u901a\u8fc7\u5c06\u6c99\u5b50\u653e\u8fdb
 
 
 advancements.stage2.gold.title=\u9ec4\u91d1\u6807\u51c6
-advancements.stage2.gold.description=\u627e\u5230\u548c\u6316\u6398\u4e00\u4e2a\u91d1\u77ff\u6837\u672c\uff01\u5b83\u4f4d\u4e8ey\u503c8%7e40\u4e4b\u95f4\u3002
 
 
 advancements.stage2.iron.title=\u770b\u89c1\u94c1\u4e86
-advancements.stage2.iron.description=\u627e\u5230\u548c\u6316\u6398\u4e00\u4e2a\u94c1\u77ff\u6837\u672c\uff01\u5b83\u4f4d\u4e8ey32%7e60\u4e4b\u95f4\u3002
 
 
 advancements.stage2.lapis.title=\u73ab\u7470\u662f\u7ea2\u8272\u7684\uff0c\u9752\u91d1\u77f3\u662f\u84dd\u8272\u7684
-advancements.stage2.lapis.description=\u627e\u5230\u548c\u6316\u6398\u4e00\u4e2a\u9752\u91d1\u77f3\u6837\u672c\uff01\u5b83\u4f4d\u4e8ey10%7e38\u4e4b\u95f4\u3002
 
 
 advancements.stage2.lightwell.title=\u6db2\u5316
@@ -466,7 +460,6 @@ advancements.stage2.resonatingwand.description=\u4f60\u9700\u8981\u5236\u4f5c\u6
 
 
 advancements.stage2.rockcrystal.title=\u5ca9\u77f3\u3001\u7f8a\u76ae\u7eb8\u3001\u6c34\u6676
-advancements.stage2.rockcrystal.description=\u6c34\u6676\u77f3\u5bf9\u4e8e\u661f\u8f89\u9b54\u6cd5\u7684\u53d1\u5c55\u5f88\u91cd\u8981\uff0c\u5728\u5730\u8868\u4e0a\u627e\u5230\u548c\u6316\u6398\u4e00\u4e2a\u6c34\u6676\u6837\u672c\uff0c\u5b83\u4f4d\u4e8ey10\u4ee5\u4e0b\u3002
 
 
 advancements.stage2.root.title=\u7b2c\u4e8c\u7eaa\u5143
@@ -539,7 +532,6 @@ advancements.stage3.amethyst.description=\u5728\u5730\u72f1\u53d1\u73b0\u4e86\u4
 
 
 advancements.stage3.bauxite.title=\u94dd\u571f\u77ff
-advancements.stage3.bauxite.description=\u5730\u8868\u5bfb\u627e\u94dd\u571f\u77ff\u6837\u672c\u5e76\u8fdb\u884c\u91c7\u6398\uff01 \u901a\u5e38\u5728y\u503c45%7e70\u7684\u5730\u65b9
 
 
 advancements.stage3.bellows.title=\u98ce\u7bb1
@@ -635,7 +627,6 @@ advancements.stage3.netherwart.description=\u627e\u5230\u5e76\u6536\u96c6\u5730\
 
 
 advancements.stage3.nickel.title=\u8910\u94c1\u77ff
-advancements.stage3.nickel.description=\u627e\u5bfb\u5730\u8868\u7684\u8910\u94c1\u77ff\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u954d\u77ff\u7c07\uff01 \u901a\u5e38\u5728y\u503c6%7e32\u7684\u5730\u65b9\u3002
 
 
 advancements.stage3.oreexcavation.title=\u8fde\u9501\u77ff\u5de5
@@ -651,7 +642,6 @@ advancements.stage3.plastic.description=\u4ece\u6a21\u5757\u5316\u673a\u68b0\uff
 
 
 advancements.stage3.platinum.title=\u94c2\u77ff
-advancements.stage3.platinum.description=\u627e\u5bfb\u5730\u8868\u7684\u94c2\u77ff\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u94c2\u77ff\u7c07\uff01 \u901a\u5e38\u5728y\u503c3%7e25\u7684\u5730\u65b9\u3002
 
 
 advancements.stage3.potash.title=\u6728\u7070
@@ -671,7 +661,6 @@ advancements.stage3.rails.description=\u5236\u4f5c\u548c\u4f7f\u7528\u94c1\u8f68
 
 
 advancements.stage3.redstone.title=\u6731\u7802\u77ff
-advancements.stage3.redstone.description=\u627e\u5bfb\u5730\u8868\u7684\u6731\u7802\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u7ea2\u77f3\uff01 \u901a\u5e38\u5728y\u503c4%7e24\u7684\u5730\u65b9\uff0c\u540d\u5b57\u4e5f\u53ef\u80fd\u662f\u7ea2\u77f3\u6216\u8005\u6731\u7802
 
 
 advancements.stage3.root.title=\u7b2c\u4e09\u7eaa\u5143\uff01
@@ -683,7 +672,6 @@ advancements.stage3.sampledrill.description=\u5728\u6bcf\u4e2a\u533a\u5757\u8868
 
 
 advancements.stage3.silverlead.title=\u65b9\u94c5\u77ff
-advancements.stage3.silverlead.description=\u627e\u5bfb\u5730\u8868\u7684\u65b9\u94c5\u6837\u672c\uff0c\u5e76\u83b7\u53d6\u94f6\u77ff\u7c07\u548c\u94c5\u77ff\u7c07\uff01 \u901a\u5e38\u5728y\u503c16%7e50\u7684\u5730\u65b9\u3002
 
 
 advancements.stage3.soundmuffler.title=\u8d85\u7ea7\u6d88\u97f3\u5668
@@ -768,7 +756,6 @@ advancements.stage4.blockheads3.description=\u50bb\u74dc\u70f9\u996amod\u662f\u4
 
 
 advancements.stage4.certusquartz.title=\u77f3\u82f1\u77ff
-advancements.stage4.certusquartz.description=\u627e\u5230\u4e00\u4e2a\u5728\u5730\u8868\u7684\u77f3\u82f1\u6837\u672c\uff0c\u5e76\u6316\u6398\u5404\u79cd\u77f3\u82f1\uff01\u901a\u5e38\u5728y\u503c6%7e40\u7684\u5730\u65b9
 
 
 advancements.stage4.cobalt.title=\u94b4\u77ff\u77f3
@@ -872,7 +859,6 @@ advancements.stage4.rsgrid.description=\u5236\u4f5c\u4e00\u4e2a\u7cbe\u81f4\u50a
 
 
 advancements.stage4.silicon.title=\u7845\u77ff\u77f3
-advancements.stage4.silicon.description=\u627e\u5230\u4e00\u4e2a\u5728\u5730\u8868\u7684\u7845\u6837\u672c\uff0c\u5e76\u6316\u6398\u539f\u751f\u7845\uff01\u901a\u5e38\u5728y\u503c24%7e48\u7684\u5730\u65b9
 
 
 advancements.stage4.solidendereye.title=\u53ef\u91cd\u590d\u4f7f\u7528\u7684\u773c\u775b
@@ -929,7 +915,6 @@ advancements.stage5.desh.description=\u5728\u706b\u661f\u4e0a\u6316\u6398\u6234\
 
 
 advancements.stage5.diamond.title=\u94bb\u77f3\uff01
-advancements.stage5.diamond.description=\u627e\u5bfb\u5730\u9762\u7684\u91d1\u4f2f\u5229\u5ca9\u6837\u672c\u6765\u53d1\u73b0\u94bb\u77f3\u3002\u901a\u5e38\u77ff\u77f3\u4f4d\u4e8ey\u503c2%7e20\u7684\u5730\u65b9
 
 
 advancements.stage5.diamondjetpack.title=\u94bb\u77f3\u55b7\u5c04\u80cc\u5305
@@ -941,7 +926,6 @@ advancements.stage5.electrumjetpack.description=\u5408\u6210\u7425\u73c0\u91d1\u
 
 
 advancements.stage5.emerald.title=\u7eff\u5b9d\u77f3\u4e4b\u68a6
-advancements.stage5.emerald.description=\u627e\u5bfb\u5730\u9762\u7684\u7eff\u67f1\u77f3\u6837\u672c\u6765\u53d1\u73b0\u7eff\u5b9d\u77f3\u3002\u901a\u5e38\u77ff\u77f3\u4f4d\u4e8ey\u503c4%7e32\u7684\u5730\u65b9
 
 
 advancements.stage5.emeraldjetpack.title=\u7eff\u5b9d\u77f3\u55b7\u5c04\u80cc\u5305
@@ -965,7 +949,6 @@ advancements.stage5.neptune.description=\u53d1\u5c04\u706b\u7bad\uff0c\u767b\u96
 
 
 advancements.stage5.osmium.title=\u9507\u77ff\u77f3
-advancements.stage5.osmium.description=\u5730\u8868\u627e\u5bfb\u9507\u77ff\u6837\u672c\uff01\u9507\u77ff\u901a\u5e38\u4f4d\u4e8ey\u503c2%7e10\u7684\u5730\u65b9
 
 
 advancements.stage5.paperclip.title=\u901a\u7528\u56de\u5f62\u9488

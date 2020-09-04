@@ -18,16 +18,59 @@ Enhancements:
 * Added additional methods to obtain clay
 * Added AbyssalCraft ritual to summon a Raven
 
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+
 Mods Added:
 * Drafty Kites
-* Topography (1.13.3)
+* Topography (1.14.2)
+
+Mod Updates:
+* ExtraPlanets (0.5.6 -> 0.7.0)
+* Galacticraft (4.0.2.236 -> 4.0.2.280)
+    * Core, Planets, & MicdoodleCore
+* MJRLegendsLib (1.1.8 -> 1.2.0)
+
+Mods Removed:
+* Better Bedrock
+* BringBedrockBack
+
+---------------------------------------------------------------------
+
+3.1.7
+
+Enhancements:
+* Code cleanup
+* Tweaked tooltip grammar and lengths
+
+Mods Updated:
+* Bring Bedrock Back (0.0.1 -> 0.0.4)
+
+---------------------------------------------------------------------
+
+3.1.6 Hotfix 1
+
+Bug Fixes:
+* Fixed unintentional change to shoggoth generation chance in swamps
+* Resolved potential issue with bedrock generation in unintended dimensions
 
 ---------------------------------------------------------------------
 
 3.1.6
 
+Mods Added:
+* Bring Back Bedrock (0.0.1)
+    * A HUGE thank you to JayJay for making this for us!
+    * Resolves issue introduced with latest Better Bedrock update
+
+Mods Added:
+* Corail Tombstone (4.0.0)
+
 Mods Removed:
 * Advanced Mortars
+* Tombstone: Revived
+    * Corail Tombstone is back
 
 ---------------------------------------------------------------------
 

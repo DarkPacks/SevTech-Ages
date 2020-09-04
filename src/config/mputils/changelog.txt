@@ -31,6 +31,7 @@ Mod Updates:
 * Galacticraft (4.0.2.236 -> 4.0.2.280)
     * Core, Planets, & MicdoodleCore
 * MJRLegendsLib (1.1.8 -> 1.2.0)
+* SevTweaks (0.3.1-25 -> 0.4.0-1)
 
 Mods Removed:
 * Better Bedrock

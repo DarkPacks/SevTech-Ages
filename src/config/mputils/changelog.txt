@@ -10,6 +10,9 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.2.0
 
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)
 * Galacticraft (4.0.2.236 -> 4.0.2.280)

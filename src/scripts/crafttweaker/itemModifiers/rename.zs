@@ -32,7 +32,10 @@ static renameMap as string[IItemStack] = {
 	//Chisel & Bits
 	<chiselsandbits:chisel_iron:0>: "Bit Chisel",
 
-	<extraplanets:apple_iron:0>: "JourneyMap Token"
+	<extraplanets:apple_iron:0>: "JourneyMap Token",
+
+	//Fixing Localization
+	<primal:wolf_head_item>: "Wolf Head"
 };
 
 function init() {

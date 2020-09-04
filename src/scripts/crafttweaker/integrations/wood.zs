@@ -19,7 +19,8 @@ import mods.primaltech.WaterSaw;
 */
 static plankLogPairs as IIngredient[][IItemStack] = {
 	<abyssalcraft:dltplank:0>: [
-		<abyssalcraft:dltlog:0>
+		<abyssalcraft:dltlog:0>,
+		<abyssalcraft:dltlog2:0>
 	],
 	<abyssalcraft:dreadplanks:0>: [
 		<abyssalcraft:dreadlog:0>
@@ -276,7 +277,7 @@ function init() {
 				break;
 			}
 		}
-		
+
 		if !hasThinSlab {
 			Saw.builder()
 				.buildRecipe(slab, [<minecraft:stick> * 4])

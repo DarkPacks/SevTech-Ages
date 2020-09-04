@@ -798,6 +798,15 @@
     },
     {
         "mob": "animalium:rat",
+        "remove": "animalium:rat_meat"
+    },
+    {
+        "mob": "animalium:rat",
+        "item": "animalium:rat_meat",
+        "random": 0.35
+    },
+    {
+        "mob": "animalium:rat",
         "item": "minecraft:bone",
         "random": 0.25
     },
@@ -820,6 +829,15 @@
         "mob": "emberroot:dire_wolf",
         "item": "minecraft:bone",
         "random": 0.25
+    },
+    {
+        "mob": "animalium:rat",
+        "remove": "primal:wolf_meat_raw"
+    },
+    {
+        "mob": "emberroot:dire_wolf",
+        "item": "primal:wolf_meat_raw",
+        "random": 0.5
     },
     {
         "mob": "emberroot:timberwolf",

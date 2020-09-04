@@ -18,6 +18,10 @@ Enhancements:
 * Added additional methods to obtain clay
 * Added AbyssalCraft ritual to summon a Raven
 
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+
 Mods Added:
 * Drafty Kites
 * Topography (1.14.2)

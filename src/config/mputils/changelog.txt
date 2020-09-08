@@ -14,6 +14,7 @@ Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
 * Create recipes for Abyssalcraft's animated darklands log
 * Remove "WIP" natura doors
+* Rustic liquids appearing too early
 
 Enhancements:
 * Add tooltips for Rustic bees

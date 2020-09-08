@@ -13,6 +13,7 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
 * Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
 
 Enhancements:
 * Add tooltips for Rustic bees

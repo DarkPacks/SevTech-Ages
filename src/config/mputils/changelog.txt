@@ -10,18 +10,18 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 3.2.0
 
-Bug Fixes:
-* Correct rat's meat drops & added wolf meat drop to dire wolf
-* Create recipes for Abyssalcraft's animated darklands log
-* Remove "WIP" natura doors
-* Rustic liquids appearing too early
-
 Enhancements:
 * Add tooltips for Rustic bees
 * Added Primal's Stacked Logs and Charcoal Pit mechanics
 * Increased Rustic Apiaries crop aging frequency
 * Add Rustic bee advancement
 * Move Rustic bees to age 1 from age 2
+
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
+* Rustic liquids appearing too early
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

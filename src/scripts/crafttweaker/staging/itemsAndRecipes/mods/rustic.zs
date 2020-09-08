@@ -85,6 +85,8 @@ static stagedItems as IIngredient[][string] = {
 
 		// Misc
 		<rustic:andesite_pillar:0>,
+		<rustic:apiary:0>,
+		<rustic:beehive:0>,
 		<rustic:book:0>,
 		<rustic:cabinet:0>,
 		<rustic:chair_acacia:0>,
@@ -125,9 +127,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageTwo.stage: [
-		<rustic:apiary:0>,
 		<rustic:barrel:0>,
-		<rustic:beehive:0>,
 		<rustic:brewing_barrel:0>,
 		<rustic:candle:0>,
 		<rustic:chain:0>,

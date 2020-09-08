@@ -20,6 +20,7 @@ Enhancements:
 * Added Primal's Stacked Logs and Charcoal Pit mechanics
 * Increased Rustic Apiaries crop aging frequency
 * Add Rustic bee advancement
+* Move Rustic bees to age 1 from age 2
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

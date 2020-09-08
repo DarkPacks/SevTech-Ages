@@ -14,6 +14,9 @@ Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
 * Create recipes for Abyssalcraft's animated darklands log
 
+Enhancements:
+* Add tooltips for Rustic bees
+
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)
 * Galacticraft (4.0.2.236 -> 4.0.2.280)

@@ -16,6 +16,7 @@ Bug Fixes:
 
 Enhancements:
 * Add tooltips for Rustic bees
+* Added Primal's Stacked Logs and Charcoal Pit mechanics
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

@@ -37,13 +37,6 @@ static liquidItemsForStage as IItemStack[][string] = {
 		<primal:tannin:0>,
 		<primal:urushi:0>,
 		<primal:waste:0>,
-		<rustic:ale_wort:0>,
-		<rustic:apple_juice:0>,
-		<rustic:grape_juice:0>,
-		<rustic:honey:0>,
-		<rustic:ironberry_juice:0>,
-		<rustic:olive_oil:0>,
-		<rustic:wildberry_juice:0>,
 		<thebetweenlands:rubber:0>,
 		<thebetweenlands:stagnant_water:0>,
 		<thebetweenlands:swamp_water:0>,
@@ -55,7 +48,14 @@ static liquidItemsForStage as IItemStack[][string] = {
 		<abyssalcraft:cwater:0>,
 		<acintegration:moltenabyssalnite:0>,
 		<acintegration:moltencoralium:0>,
-		<acintegration:moltendreadium:0>
+		<acintegration:moltendreadium:0>,
+		<rustic:ale_wort:0>,
+		<rustic:apple_juice:0>,
+		<rustic:grape_juice:0>,
+		<rustic:honey:0>,
+		<rustic:ironberry_juice:0>,
+		<rustic:olive_oil:0>,
+		<rustic:wildberry_juice:0>
 	],
 
 	stageThree.stage: [
@@ -100,30 +100,30 @@ static liquidsForStage as ILiquidStack[][string] = {
 	],
 
 	stageOne.stage: [
-		<liquid:ale>,
 		<liquid:blood>,
-		<liquid:cider>,
 		<liquid:clay>,
 		<liquid:dirt>,
-		<liquid:ironwine>,
 		<liquid:lifeessence>,
-		<liquid:mead>,
-		<liquid:stone>,
-		<liquid:wildberrywine>,
-		<liquid:wine>
+		<liquid:stone>
 	],
 
 	stageTwo.stage: [
+		<liquid:ale>,
 		<liquid:astralsorcery.liquidstarlight>,
+		<liquid:cider>,
 		<liquid:ender_pearl>,
 		<liquid:fiery_essence>,
 		<liquid:fierymetal>,
 		<liquid:glass>,
+		<liquid:ironwine>,
 		<liquid:knightmetal>,
+		<liquid:mead>,
 		<liquid:rubber>,
 		<liquid:stagnant_water>,
 		<liquid:swamp_water>,
-		<liquid:tar>
+		<liquid:tar>,
+		<liquid:wildberrywine>,
+		<liquid:wine>
 	],
 
 	stageThree.stage: [

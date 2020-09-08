@@ -17,10 +17,17 @@ Enhancements:
 * Added a recipe to turn rocks into gravel
 * Added additional methods to obtain clay
 * Added AbyssalCraft ritual to summon a Raven
+* Add tooltips for Rustic bees
+* Added Primal's Stacked Logs and Charcoal Pit mechanics
+* Increased Rustic Apiaries crop aging frequency
+* Add Rustic bee advancement
+* Move Rustic bees to age 1 from age 2
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
 * Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
+* Rustic liquids appearing too early
 
 Mods Added:
 * Drafty Kites

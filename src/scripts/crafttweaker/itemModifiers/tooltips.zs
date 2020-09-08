@@ -608,6 +608,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.red("Summon a Raven using an"),
 		format.red("Abyssalcraft Ritual. Check"),
 		format.red("the Necronomicon for information")		
+	],
+	<rustic:apiary>: [
+		format.red("When bees are inserted this will increase"),
+		format.red("crop growth in a 4 block radius,"),
+		format.red("breeds bees, and creates honeycomb")
+	],
+	<rustic:bee>: [
+		format.red("Found in Rustic Beehives around the world"),
+		format.red("Insert into Rustic Apiary")
 	]
 };
 

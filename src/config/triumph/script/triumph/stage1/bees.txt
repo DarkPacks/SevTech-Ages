@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage1.bees.title")
+
+setIcon("rustic:bee")
+
+setTranslatedDescription("advancements.stage1.bees.description")
+
+addParent("triumph:stage1/hoe")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("rustic:apiary")
+
+//Rewards
+setRewardExperience(8)
+
+visibleIf("triumph:stage1/root")

@@ -151,6 +151,14 @@ static stagedItems as IIngredient[][string] = {
 		<primal:llama_meat_raw:0>,
 		<primal:loam_block:0>,
 		<primal:logs:1>,
+		<primal:logs_stacked:0>,
+		<primal:logs_stacked:1>,
+		<primal:logs_stacked:2>,
+		<primal:logs_stacked:3>,
+		<primal:logs_stacked:4>,
+		<primal:logs_stacked:5>,
+		<primal:logs_stacked:6>,
+		<primal:logs_stacked:7>,
 		<primal:logs_stripped:0>,
 		<primal:logs_stripped:1>,
 		<primal:logs_stripped:2>,
@@ -785,15 +793,6 @@ static hiddenItems as IIngredient[] = [
 	<primal:logs_split_oak:0>,
 	<primal:logs_split_spruce:0>,
 	<primal:logs_split_yew:0>,
-	<primal:logs_stacked:0>,
-	<primal:logs_stacked:1>,
-	<primal:logs_stacked:2>,
-	<primal:logs_stacked:3>,
-	<primal:logs_stacked:4>,
-	<primal:logs_stacked:5>,
-	<primal:logs_stacked:6>,
-	<primal:logs_stacked:7>,
-	<primal:logs_stacked_corypha:0>,
 	<primal:magnetite_dust:0>,
 	<primal:metalblock:0>,
 	<primal:metalblock:12>,
@@ -954,7 +953,8 @@ static hiddenItems as IIngredient[] = [
 ];
 
 static hiddenRemove as IIngredient[] = [
-	<primal:planks:0>
+	<primal:planks:0>,
+	<primal:logs_stacked_corypha:0>
 ];
 
 static hiddenCategories as string[] = [

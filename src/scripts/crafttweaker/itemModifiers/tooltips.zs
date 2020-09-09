@@ -16,77 +16,77 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<prospectors:prospector_lowest:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 1 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.green("Will detect unlocked Ores"),
+		format.green("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_low:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 2 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.green("Will detect unlocked Ores"),
+		format.green("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_med:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for Age 3 and below ore"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.green("Will detect unlocked Ores"),
+		format.green("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_high:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 4 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.green("Will detect unlocked Ores"),
+		format.green("in a " ~ 48 ~ " block straight line")
 	],
 	<prospectors:prospector_best:*>: [
 		format.yellow("This tool may only be used"),
 		format.yellow("for ore in Age 5 and below"),
-		format.red("Will detect unlocked Ores"),
-		format.red("in a " ~ 48 ~ " block straight line")
+		format.green("Will detect unlocked Ores"),
+		format.green("in a " ~ 48 ~ " block straight line")
 	],
 
 	// ==================================
 	// Geolosys Ore Names for User Friendliness AKA I'm tired of using my brain to remember things
 	<geolosys:ore:0>: [
-		format.red("Iron Ore")
+		format.green("Iron Ore")
 	],
 	<geolosys:ore:1>: [
-		format.red("Iron and Nickel Ore")
+		format.green("Iron and Nickel Ore")
 	],
 	<geolosys:ore:2>: [
-		format.red("Copper Ore")
+		format.green("Copper Ore")
 	],
 	<geolosys:ore:3>: [
-		format.red("Copper Ore")
+		format.green("Copper Ore")
 	],
 	<geolosys:ore:4>: [
-		format.red("Tin Ore")
+		format.green("Tin Ore")
 	],
 	<geolosys:ore:5>: [
-		format.red("Tin Ore")
+		format.green("Tin Ore")
 	],
 	<geolosys:ore:6>: [
-		format.red("Silver and Lead Ore")
+		format.green("Silver and Lead Ore")
 	],
 	<geolosys:ore:7>: [
-		format.red("Aluminum Ore")
+		format.green("Aluminum Ore")
 	],
 	<geolosys:ore:8>: [
-		format.red("Platinum Ore")
+		format.green("Platinum Ore")
 	],
 	<geolosys:ore:9>: [
-		format.red("Uranium Ore")
+		format.green("Uranium Ore")
 	],
 	<geolosys:ore:10>: [
-		format.red("Zinc Ore")
+		format.green("Zinc Ore")
 	],
 	<geolosys:ore_vanilla:1>: [
-		format.red("Redstone Ore")
+		format.green("Redstone Ore")
 	],
 	<geolosys:ore_vanilla:5>: [
-		format.red("Diamond Ore")
+		format.green("Diamond Ore")
 	],
 	<geolosys:ore_vanilla:6>: [
-		format.red("Emerald Ore")
+		format.green("Emerald Ore")
 	],
 
 	// ==================================
@@ -295,7 +295,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	// ==================================
 	// Misc
 	<animalium:rat_meat:0>: [
-		format.red("Loved by Wild Bears!")
+		format.green("Loved by Wild Bears!")
 	],
 
 	<car:key:0>: [
@@ -305,89 +305,89 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<primal_tech:wooden_hopper>: [
-		format.red("An advanced Wooden Hopper")
+		format.green("An advanced Wooden Hopper")
 	],
 	<primal_tech:charcoal_hopper>: [
-		format.red("An advanced Wooden Hopper")
+		format.green("An advanced Wooden Hopper")
 	],
 
 	<jarm:oak_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 	<jarm:spruce_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 	<jarm:birch_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 	<jarm:jungle_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 	<jarm:acacia_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 	<jarm:dark_oak_raft:0>: [
-		format.red("A Tom Hanks Style Boat")
+		format.green("A Tom Hanks Style Boat")
 	],
 
 	<minecraft:mob_spawner:0>: [
-		format.red("Only has 400 total spawns!")
+		format.green("Only has 400 total spawns!")
 	],
 
 	<totemic:tipi:0>: [
-		format.red("It's like a fancy bed!")
+		format.green("It's like a fancy bed!")
 	],
 
 	<primal_tech:clay_kiln>: [
-		format.red("Needs heat source below")
+		format.green("Needs heat source below")
 	],
 
 	<dungpipe:sewer_pipe:0>: [
-		format.red("Pipes items through a solid block")
+		format.green("Pipes items through a solid block")
 	],
 
 	<ceramics:clay_bucket:0>: [
-		format.red("Will literally melt away after"),
-		format.red("transporting HOT liquid")
+		format.green("Will literally melt away after"),
+		format.green("transporting HOT liquid")
 	],
 
 	<progressiontweaks:spear:0>: [
-		format.red("Hold Mouse Button To Charge"),
-		format.red("Release to throw")
+		format.green("Hold Mouse Button To Charge"),
+		format.green("Release to throw")
 	],
 
 	<primal_tech:fibre_torch>: [
-		format.red("Right Click on fire source"),
-		format.red("or lit torch to light")
+		format.green("Right Click on fire source"),
+		format.green("or lit torch to light")
 	],
 
 	<primal_tech:rock>: [
-		format.red("Used with the Work Stump"),
-		format.red("Right Click on Table to craft recipe")
+		format.green("Used with the Work Stump"),
+		format.green("Right Click on Table to craft recipe")
 	],
 
 	<tconstruct:sharpening_kit:0>: [
-		format.red("Only used to repair tools")
+		format.green("Only used to repair tools")
 	],
 
 	<betterwithaddons:japanmat:36>: [
-		format.red("Mulberry Trees rarely spawn in most biomes")
+		format.green("Mulberry Trees rarely spawn in most biomes")
 	],
 
 	<primal_tech:work_stump>: [
-		format.red("Needs a Crafting Rock"),
-		format.red("to craft recipes")
+		format.green("Needs a Crafting Rock"),
+		format.green("to craft recipes")
 	],
 	<primal_tech:work_stump_upgraded>: [
-		format.red("Needs a Crafting Rock"),
-		format.red("to craft recipes")
+		format.green("Needs a Crafting Rock"),
+		format.green("to craft recipes")
 	],
 
 	<primal:flint_hatchet:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:sharp_bone:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 
 	<teslacorelib:energy_tier1:0>: [
@@ -417,76 +417,76 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<primal:flint_workblade:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:quartz_workblade:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:iron_workblade:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:emerald_workblade:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:diamond_workblade:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 	<primal:flint_axe:*>: [
-		format.red("Can not be repaired")
+		format.green("Can not be repaired")
 	],
 
 	<waterstrainer:garden_trowel:0>: [
-		format.red("Repaired with Flint")
+		format.green("Repaired with Flint")
 	],
 
 	<betterwithmods:wooden_broken_gearbox:0>: [
-		format.red("Right click with two"),
-		format.red("Wooden Gears in hand to Repair"),
-		format.red("Or craft back into a repaired block")
+		format.green("Right click with two"),
+		format.green("Wooden Gears in hand to Repair"),
+		format.green("Or craft back into a repaired block")
 	],
 
 	<extraplanets:apple_iron:0>: [
-		format.red("Eating this item will"),
-		format.red("unlock Advanced Mapping")
+		format.green("Eating this item will"),
+		format.green("unlock Advanced Mapping")
 	],
 
 	<thebetweenlands:ring_of_flight:0>: [
-		format.red("Can be found as Loot from chests in"),
-		format.red("Shrines, Cragrock Towers"),
-		format.red("and the Wight Fortress"),
-		format.red("or looted from bosses"),
-		format.red("and a rare drop chance"),
-		format.red("from certain Betweenlands enemies")
+		format.green("Can be found as Loot from chests in"),
+		format.green("Shrines, Cragrock Towers"),
+		format.green("and the Wight Fortress"),
+		format.green("or looted from bosses"),
+		format.green("and a rare drop chance"),
+		format.green("from certain Betweenlands enemies")
 	],
 
 	<indlog:auto_craft:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.green("Only able to craft Age 4 items and below")
 	],
 	<indlog:portable_craft:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.green("Only able to craft Age 4 items and below")
 	],
 
 	<buildcraftfactory:autoworkbench_item:0>: [
-		format.red("Only able to craft Age 4 items and below")
+		format.green("Only able to craft Age 4 items and below")
 	],
 
 	<rftools:crafter1:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.green("Able to craft Age 5 items and below")
 	],
 	<rftools:crafter2:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.green("Able to craft Age 5 items and below")
 	],
 	<rftools:crafter3:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.green("Able to craft Age 5 items and below")
 	],
 
 	<cyclicmagic:auto_crafter:0>: [
-		format.red("Able to craft Age 5 items and below")
+		format.green("Able to craft Age 5 items and below")
 	],
 
 	<betterwithmods:hand_crank:0>: [
-		format.red("Needed to power early machines"),
-		format.red("like the Mill Stone")
+		format.green("Needed to power early machines"),
+		format.green("like the Mill Stone")
 	],
 
 	<betterwithmods:single_machine:0>: [
@@ -495,61 +495,61 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<abyssalcraft:statue:0>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:1>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:2>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:3>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:4>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:5>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 	<abyssalcraft:statue:6>: [
-		format.red("Requires open sky above to function")
+		format.green("Requires open sky above to function")
 	],
 
 	<totemic:cedar_log:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Red Cedar is acquired via a Totemic Ceremony")
 	],
 	<totemic:stripped_cedar_log:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Red Cedar is acquired via a Totemic Ceremony")
 	],
 	<totemic:cedar_plank:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Red Cedar is acquired via a Totemic Ceremony")
 	],
 	<totemic:cedar_sapling:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Red Cedar is acquired via a Totemic Ceremony")
 	],
 	<totemic:cedar_leaves:0>: [
-		format.red("Not found in the world"),
-		format.red("Red Cedar is acquired via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Red Cedar is acquired via a Totemic Ceremony")
 	],
 
 	// Add tooltips to explain how to find eagles / obtain the eagle drops
 	<totemic:eagle_drops:0>: [
-		format.red("Not found in the world"),
-		format.red("Eagles are spawned via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Eagles are spawned via a Totemic Ceremony")
 	],
 	<totemic:eagle_drops:1>: [
-		format.red("Not found in the world"),
-		format.red("Eagles are spawned via a Totemic Ceremony")
+		format.green("Not found in the world"),
+		format.green("Eagles are spawned via a Totemic Ceremony")
 	],
 
 	// Death Releated
 	<death_compass:death_compass>: [
-		format.red("Sneak on your grave to retrieve your items")
+		format.green("Sneak on your grave to retrieve your items")
 	],
 	<extendedcrafting:singularity_custom:8>: [
 		format.aqua("Compasses obtained through player death or"),
@@ -558,34 +558,34 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 
 	// Space!
 	<buildcraftbuilders:quarry:0>: [
-		format.red("This machine will only work in space!")
+		format.green("This machine will only work in space!")
 	],
 
 	// Creeping Moss
 	<huntingdim:biome_changer:0>: [
-		format.red("To change the Biome Type Shift-Click inside the biome you want the moss to be")
+		format.green("To change the Biome Type Shift-Click inside the biome you want the moss to be")
 	],
 
 	<betterwithmods:hibachi:0>: [
-		format.red("Needs a Redstone signal to light")
+		format.green("Needs a Redstone signal to light")
 	],
 
 	// Extra Planets space suit
 	<extraplanets:tier1_space_suit_helmet:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.green("Only requires power when modules are installed"),
+		format.green("can only be charged with an Energy Storage Module")
 	],
 	<extraplanets:tier1_space_suit_chest:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.green("Only requires power when modules are installed"),
+		format.green("can only be charged with an Energy Storage Module")
 	],
 	<extraplanets:tier1_space_suit_legings:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.green("Only requires power when modules are installed"),
+		format.green("can only be charged with an Energy Storage Module")
 	],
 	<extraplanets:tier1_space_suit_boots:*>: [
-		format.red("Only requires power when modules are installed"),
-		format.red("can only be charged with an Energy Storage Module")
+		format.green("Only requires power when modules are installed"),
+		format.green("can only be charged with an Energy Storage Module")
 	],
 
 	// Coralium
@@ -605,9 +605,18 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 		format.aqua("Glider"),
 	],
 	<twilightforest:raven_feather>: [
-		format.red("Summon a Raven using an"),
-		format.red("Abyssalcraft Ritual. Check"),
-		format.red("the Necronomicon for information")		
+		format.green("Summon a Raven using an"),
+		format.green("Abyssalcraft Ritual. Check"),
+		format.green("the Necronomicon for information")
+	],
+	<rustic:apiary>: [
+		format.green("When bees are inserted this will increase"),
+		format.green("crop growth in a 4 block radius,"),
+		format.green("breeds bees, and creates honeycomb")
+	],
+	<rustic:bee>: [
+		format.green("Found in Rustic Beehives around the world"),
+		format.green("Insert into Rustic Apiary")
 	]
 };
 

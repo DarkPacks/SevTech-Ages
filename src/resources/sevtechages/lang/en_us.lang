@@ -234,6 +234,10 @@ advancements.stage1.axle.title=Axle F
 advancements.stage1.axle.description=Mechanical Power needs to be routed using an Axle. You can connect them directly to Waterwheels and Wind Mills or Gearboxes. You can have no more than 3 Axles between each Gearbox or Source
 
 
+advancements.stage1.bees.title=Oh Beehave!
+advancements.stage1.bees.description=Craft the Rustic Apiary and insert a bee found in beehives around the world. The Apiary will increase crop growth around it when bees are added
+
+
 advancements.stage1.beneath.title=The Beneath
 advancements.stage1.beneath.description=Use an Abyssalcraft Ritual to create the Beneath teleporter. Remember to have P.E. in your Necronomicon before starting a ritual. Place the Beneath Teleporter and enter the dimension
 

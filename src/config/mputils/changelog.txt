@@ -24,6 +24,7 @@ Bug Fixes:
 * Create recipes for Abyssalcraft's animated darklands log
 * Remove "WIP" natura doors
 * Rustic liquids appearing too early
+* Add Primal's Yew Stick to stickWood oredict
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

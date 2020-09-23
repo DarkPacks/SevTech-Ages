@@ -25,6 +25,7 @@ Bug Fixes:
 * Remove "WIP" natura doors
 * Rustic liquids appearing too early
 * Add Primal's Yew Stick to stickWood oredict
+* Enabled AE2 paint balls
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

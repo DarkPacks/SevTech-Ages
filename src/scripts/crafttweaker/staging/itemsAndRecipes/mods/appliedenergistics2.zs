@@ -160,6 +160,7 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:memory_card:0>,
 		<appliedenergistics2:molecular_assembler:0>,
 		<appliedenergistics2:network_tool:0>,
+		<appliedenergistics2:paint_ball:*>,
 		<appliedenergistics2:portable_cell:0>,
 		<appliedenergistics2:quantum_link:0>,
 		<appliedenergistics2:quantum_ring:0>,

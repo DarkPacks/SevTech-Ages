@@ -31,6 +31,8 @@ Bug Fixes:
 * Create recipes for Abyssalcraft's animated darklands log
 * Remove "WIP" natura doors
 * Rustic liquids appearing too early
+* Add Primal's Yew Stick to stickWood oredict
+* Enabled AE2 paint balls
 
 Mods Added:
 * Drafty Kites

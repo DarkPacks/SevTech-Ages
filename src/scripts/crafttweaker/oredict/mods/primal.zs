@@ -10,3 +10,5 @@
 <ore:wool>.remove(<primal:ovis_atre_wool:0>);
 <ore:blockWool>.remove(<primal:ovis_atre_wool:0>);
 <ore:woolOvisAtre>.remove(<primal:ovis_atre_wool:0>);
+// Yew stick was not set as oredict stick. fixed to allow use in all stick recipes (#4267)
+<ore:stickWood>.add(<primal:yew_stick>);

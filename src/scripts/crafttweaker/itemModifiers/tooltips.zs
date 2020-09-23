@@ -617,6 +617,199 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<rustic:bee>: [
 		format.green("Found in Rustic Beehives around the world"),
 		format.green("Insert into Rustic Apiary")
+	],
+
+	/*
+		Location Descriptions for Ore and Samples
+	*/
+    // Malachite
+	<geolosys:ore:2>: [
+		format.green("Found in"),
+		format.green("Forest Biome Islands")
+	],
+	<geolosys:ore_sample:2>: [
+		format.green("Found in"),
+		format.green("Forest Biome Islands")
+	],
+    // Azurite
+	<geolosys:ore:3> : [
+		format.green("Found in"),
+		format.green("Darklands Biome Islands")
+	],
+	<geolosys:ore_sample:3> : [
+		format.green("Found in"),
+		format.green("Darklands Biome Islands")
+	],
+    // Cassiterite
+	<geolosys:ore:4>: [
+		format.green("Found in"),
+		format.green("Birch Forest & Plains Biome Islands")
+	],
+	<geolosys:ore_sample:4>: [
+		format.green("Found in"),
+		format.green("Birch Forest & Plains Biome Islands")
+	],
+    // Teallite
+	<geolosys:ore:5>: [
+		format.green("Found in"),
+		format.green("Roofed Forest & Savannah Biome Islands")
+	],
+	<geolosys:ore_sample:5>: [
+		format.green("Found in"),
+		format.green("Roofed Forest & Savannah Biome Islands")
+	],
+    // Coal
+	<geolosys:ore_vanilla:0>: [
+		format.green("Found in"),
+		format.green("Darklands, Forest, & Roofed Forest Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:0>: [
+		format.green("Found in"),
+		format.green("Darklands, Forest, & Roofed Forest Biome Islands")
+	],
+    // Hematite
+	<geolosys:ore:0>: [
+		format.green("Found in"),
+		format.green("Meadow, Plains, Savannah, & Swampland Biome Islands")
+	],
+	<geolosys:ore_sample:0>: [
+		format.green("Found in"),
+		format.green("Meadow, Plains, Savannah, & Swampland Biome Islands")
+	],
+    // Rock Crystal
+	<astralsorcery:blockcustomore>: [
+		format.green("Found in"),
+		format.green("Cold Taiga & Snowy Coniferous Forest Biome Islands")
+	],
+	<astralsorcery:blockgeolosyssamplecluster>: [
+		format.green("Found in"),
+		format.green("Cold Taiga & Snowy Coniferous Forest Biome Islands")
+	],
+    // Lapis
+	<geolosys:ore_vanilla:3>: [
+		format.green("Found in"),
+		format.green("Green Swamp, Swampland, Temperate Rainforest,"),
+		format.green("& Mushroom Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:3>: [
+		format.green("Found in"),
+		format.green("Green Swamp, Swampland, Temperate Rainforest,"),
+		format.green("& Mushroom Biome Islands")
+	],
+    // Gold
+	<geolosys:ore_vanilla:2>: [
+		format.green("Found in"),
+		format.green("Badlands & Mesa Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:2>: [
+		format.green("Found in"),
+		format.green("Badlands & Mesa Biome Islands")
+	],
+    // Platinum
+	<geolosys:ore:8>: [
+		format.green("Found in"),
+		format.green("Rocky Plateau Biome Islands")
+	],
+	<geolosys:ore_sample:8>: [
+		format.green("Found in"),
+		format.green("Rocky Plateau Biome Islands")
+	],
+    // Limonite
+	<geolosys:ore:1>  : [
+		format.green("Found in"),
+		format.green("Autumnal Woods & Jungle Biome Islands")
+	],
+	<geolosys:ore_sample:1>: [
+		format.green("Found in"),
+		format.green("Autumnal Woods & Jungle Biome Islands")
+	],
+    // Galena
+	<geolosys:ore:6>: [
+		format.green("Found in"),
+		format.green("Darklands Forest & Glacier Biome Islands")
+	],
+	<geolosys:ore_sample:6>: [
+		format.green("Found in"),
+		format.green("Darklands Forest & Glacier Biome Islands")
+	],
+    // Redstone / Cinnabar
+	<geolosys:ore_vanilla:1>: [
+		format.green("Found in"),
+		format.green("Desert & Redwood Taiga Hills Biome Islands")
+    ],
+	<mundaneredstone:redstone_ore>: [
+		format.green("Found in"),
+		format.green("Taiga Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:1>: [
+		format.green("Found in"),
+		format.green("Desert, Redwood Taiga Hills,"),
+		format.green("& Taiga Biome Islands")
+	],
+    // Bauxite
+	<geolosys:ore:7>: [
+		format.green("Found in"),
+		format.green("Mini Jungle, Mutated Birch Forest,"),
+		format.green("& Woodlansd Biome Islands")
+	],
+	<geolosys:ore_sample:7>: [
+		format.green("Found in"),
+		format.green("Mini Jungle, Mutated Birch Forest,"),
+		format.green("& Woodlansd Biome Islands")
+	],
+    // Quartz
+	<geolosys:ore_vanilla:4>: [
+		format.green("Found in"),
+		format.green("meneglin & Lush Hills Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:4>: [
+		format.green("Found in"),
+		format.green("meneglin & Lush Hills Biome Islands")
+	],
+    // Silicon
+	<galacticraftcore:basic_block_core:8>: [
+		format.green("Found in"),
+		format.green("Jungle & Mutated Plains Biome Islands")
+	],
+	<contenttweaker:sub_block_holder_0:5>: [
+		format.green("Found in"),
+		format.green("Jungle & Mutated Plains Biome Islands")
+	],
+    // Diamond
+	<geolosys:ore_vanilla:5>: [
+		format.green("Found in"),
+		format.green("Glacier Spikes Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:5>: [
+		format.green("Found in"),
+		format.green("Glacier Spikes Biome Islands")
+	],
+    // Osmium
+	<contenttweaker:sub_block_holder_0:4>: [
+		format.green("Found in"),
+		format.green("Mutated Forest & Ice Flats Biome Islands")
+	],
+	<contenttweaker:sub_block_holder_0:6>: [
+		format.green("Found in"),
+		format.green("Mutated Forest & Ice Flats Biome Islands")
+	],
+    // Emerald
+	<geolosys:ore_vanilla:6>: [
+		format.green("Found in"),
+		format.green("Extreme Hills Biome Islands")
+	],
+	<geolosys:ore_sample_vanilla:6>: [
+		format.green("Found in"),
+		format.green("Extreme Hills Biome Islands")
+	],
+    // Uranium
+	<geolosys:ore:9>: [
+		format.green("Found in"),
+		format.green("Coralium Infested Swamp Biome Islands")
+	],
+	<geolosys:ore_sample:9>: [
+		format.green("Found in"),
+		format.green("Coralium Infested Swamp Biome Islands")
 	]
 };
 

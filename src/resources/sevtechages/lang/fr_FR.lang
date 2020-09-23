@@ -1,6 +1,6 @@
 # Stage 0
 advancements.stage0.abyssalbiome.title=Entrez dans les Darklands
-advancements.stage0.abyssalbiome.description=Trouvez et entrez dans un biome sombre d'Abyssalcraft. Ces biomes se trouvent dans des environnements froid. La carte est divisée avec une logique de chaleur Nord/Sud. Vous trouverez les biomes froid au Nord et les plus chaud au Sud.
+advancements.stage0.abyssalbiome.description=Trouvez et entrez dans un biome sombre d'Abyssalcraft. Utiliser Nature's Compass vous aidera à trouver les biomes que vous recherchez
 
 
 advancements.stage0.abyssalgem.title=§5§lGemmes sombres
@@ -209,7 +209,7 @@ advancements.stage1.alloykiln.description=Fabriquez un four à alliage du mod Im
 
 
 advancements.stage1.aquamarine.title=A la recherche de l'Aquamarine
-advancements.stage1.aquamarine.description=Voyagez jusqu'à la dimension de l'En Desssous et cherchez le haut des cavernes pour trouver de l'Aquamarine.
+advancements.stage1.aquamarine.description=Voyagez jusqu'à la dimension Beneath et recherchez le minerai d'Aquamarine
 
 
 advancements.stage1.aqueduct.title=Aqueducs
@@ -229,7 +229,7 @@ advancements.stage1.beneath.description=Utilisez un rituel d'Abbysalcraft afin d
 
 
 advancements.stage1.blackquartz.title=La quête du quartz
-advancements.stage1.blackquartz.description=Dirigez-vous vers les fins fonds de l'En Dessous pour trouver le quartz noir.
+advancements.stage1.blackquartz.description=Voyage à The Beneath pour trouver le quartz noir.
 
 
 advancements.stage1.bloodaltar.title=Tuez l'Enfant du démon

@@ -3,7 +3,7 @@
 ###############################################
 # Stage 0
 advancements.stage0.abyssalbiome.title=Enter the Darklands
-advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
+advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. Using the Nature's Compass will help locate biomes you're searching for 
 
 
 advancements.stage0.abyssalgem.title=Dark Gems
@@ -219,7 +219,7 @@ advancements.stage1.alloykiln.description=Build the Alloy Kiln from Immersive En
 
 
 advancements.stage1.aquamarine.title=The Search for Aquamarine
-advancements.stage1.aquamarine.description=Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore
+advancements.stage1.aquamarine.description=Travel to the Beneath Dimension and search for Aquamarine ore
 
 
 advancements.stage1.aqueduct.title=Aqueducts
@@ -243,7 +243,7 @@ advancements.stage1.beneath.description=Use an Abyssalcraft Ritual to create the
 
 
 advancements.stage1.blackquartz.title=Par for the Quartz
-advancements.stage1.blackquartz.description=Travel to the bottom of the Beneath dimension to find Black Quartz
+advancements.stage1.blackquartz.description=Travel to the Beneath dimension to find Black Quartz
 
 
 advancements.stage1.bloodaltar.title=Altered State

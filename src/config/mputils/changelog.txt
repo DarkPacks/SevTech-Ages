@@ -22,6 +22,8 @@ Enhancements:
 * Increased Rustic Apiaries crop aging frequency
 * Add Rustic bee advancement
 * Move Rustic bees to age 1 from age 2
+* Add Twilight Forest trees to Bonsai pots
+* Add liveroot and liveroot block conversion recipes
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf

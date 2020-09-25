@@ -160,7 +160,6 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:memory_card:0>,
 		<appliedenergistics2:molecular_assembler:0>,
 		<appliedenergistics2:network_tool:0>,
-		<appliedenergistics2:paint_ball:*>,
 		<appliedenergistics2:portable_cell:0>,
 		<appliedenergistics2:quantum_link:0>,
 		<appliedenergistics2:quantum_ring:0>,
@@ -298,7 +297,10 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:part:441>,
 		<appliedenergistics2:part:281>,
 		<appliedenergistics2:part:221>,
-		<appliedenergistics2:part:520>
+		<appliedenergistics2:part:520>,
+
+		// Paintballs
+		<appliedenergistics2:paint_ball:*>,
 	],
 
 	stageCreativeUnused.stage: [

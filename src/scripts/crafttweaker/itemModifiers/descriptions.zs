@@ -391,7 +391,7 @@ static descriptionPairs as string[][IItemStack] = {
 	],
 	<geolosys:ore_sample_vanilla:1>: [
 		"Found in",
-		"Desert, Redwood Taiga Hills,"
+		"Desert, Redwood Taiga Hills,",
 		"& Taiga Biome Islands"
 	],
 	// Bauxite

@@ -813,10 +813,9 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	],
 
 	<twilightforest:liveroot>: [
-		format.red("Found in Twilight Forest Caves, Worldgen,"),
-		format.red("Twilight Forest Loot Chests,"),
-		format.red("or via Bonsai Trees")
-	]
+		format.green("Found in Twilight Forest Loot Chests"),
+		format.green("or via Bonsai Trees")
+	],
 };
 
 function init() {

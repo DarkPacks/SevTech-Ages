@@ -459,8 +459,7 @@ static descriptionPairs as string[][IItemStack] = {
 	],
 
 	<twilightforest:liveroot>: [
-		"Found in Twilight Forest Caves, Worldgen,",
-		"Twilight Forest Loot Chests,",
+		"Found in Twilight Forest Loot Chests",
 		"or via Bonsai Trees"
 	]
 };

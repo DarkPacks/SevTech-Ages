@@ -262,6 +262,12 @@ static descriptionPairs as string[][IItemStack] = {
 		"24 x Null Modifier",
 		"140 x Structure Frame tier 5 or above",
 		"112 x Structure Panel"
+	],
+
+	<twilightforest:liveroot>: [
+		"Found in Twilight Forest Caves, Worldgen,",
+		"Twilight Forest Loot Chests,",
+		"or via Bonsai Trees"
 	]
 };
 

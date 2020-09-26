@@ -612,6 +612,11 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<rustic:bee>: [
 		format.red("Found in Rustic Beehives around the world"),
 		format.red("Insert into Rustic Apiary")
+	],
+	<twilightforest:liveroot>: [
+		format.red("Found in Twilight Forest Caves, Worldgen,"),
+		format.red("Twilight Forest Loot Chests,"),
+		format.red("or via Bonsai Trees")
 	]
 };
 

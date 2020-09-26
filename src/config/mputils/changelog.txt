@@ -25,6 +25,7 @@ Enhancements:
 * Add Twilight Forest trees to Bonsai pots
 * Add liveroot and liveroot block conversion recipes
 * Added location description tooltips to all ores and ore samples
+* Add liveroot to Twilight Forest loot chests
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
@@ -43,6 +44,7 @@ Mod Updates:
 * Galacticraft (4.0.2.236 -> 4.0.2.280)
     * Core, Planets, & MicdoodleCore
 * MJRLegendsLib (1.1.8 -> 1.2.0)
+* SevPatches (1.5-6 -> 1.6-7)
 * SevTweaks (0.3.1-25 -> 0.4.0-1)
 
 Mods Removed:

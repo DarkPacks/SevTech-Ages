@@ -810,6 +810,12 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<geolosys:ore_sample:9>: [
 		format.green("Found in"),
 		format.green("Coralium Infested Swamp Biome Islands")
+	],
+
+	<twilightforest:liveroot>: [
+		format.red("Found in Twilight Forest Caves, Worldgen,"),
+		format.red("Twilight Forest Loot Chests,"),
+		format.red("or via Bonsai Trees")
 	]
 };
 

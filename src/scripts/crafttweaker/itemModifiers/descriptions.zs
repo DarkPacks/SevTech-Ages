@@ -456,6 +456,12 @@ static descriptionPairs as string[][IItemStack] = {
 	<geolosys:ore_sample:9>: [
 		"Found in",
 		"Coralium Infested Swamp Biome Islands"
+	],
+
+	<twilightforest:liveroot>: [
+		"Found in Twilight Forest Caves, Worldgen,",
+		"Twilight Forest Loot Chests,",
+		"or via Bonsai Trees"
 	]
 };
 

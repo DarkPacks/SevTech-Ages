@@ -267,6 +267,200 @@ static descriptionPairs as string[][IItemStack] = {
 		"Summon a Raven using an",
 		"Abyssalcraft Ritual. Check",
 		"the Necronomicon for information"
+	],
+
+	/*
+		Location Descriptions for Ore and Samples
+	*/
+	// Malachite
+	<geolosys:ore:2>: [
+		"Found in",
+		"Forest Biome Islands"
+	],
+	<geolosys:ore_sample:2>: [
+		"Found in",
+		"Forest Biome Islands"
+	],
+	// Azurite
+	<geolosys:ore:3> : [
+		"Found in",
+		"Darklands Biome Islands"
+	],
+	<geolosys:ore_sample:3> : [
+		"Found in",
+		"Darklands Biome Islands"
+	],
+	// Cassiterite
+	<geolosys:ore:4>: [
+		"Found in",
+		"Birch Forest & Plains Biome Islands"
+	],
+	<geolosys:ore_sample:4>: [
+		"Found in",
+		"Birch Forest & Plains Biome Islands"
+	],
+	// Teallite
+	<geolosys:ore:5>: [
+		"Found in",
+		"Roofed Forest & Savannah Biome Islands"
+	],
+	<geolosys:ore_sample:5>: [
+		"Found in",
+		"Roofed Forest & Savannah Biome Islands"
+	],
+	// Coal
+	<geolosys:ore_vanilla:0>: [
+		"Found in",
+		"Darklands, Forest, & Roofed Forest Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:0>: [
+		"Found in",
+		"Darklands, Forest, & Roofed Forest Biome Islands"
+	],
+	// Hematite
+	<geolosys:ore:0>: [
+		"Found in",
+		"Meadow, Plains, Savannah, & Swampland Biome Islands"
+	],
+	<geolosys:ore_sample:0>: [
+		"Found in",
+		"Meadow, Plains, Savannah, & Swampland Biome Islands"
+	],
+	// Rock Crystal
+	<astralsorcery:blockcustomore>: [
+		"Found in",
+		"Cold Taiga & Snowy Coniferous Forest Biome Islands"
+	],
+	<astralsorcery:blockgeolosyssamplecluster>: [
+		"Found in",
+		"Cold Taiga & Snowy Coniferous Forest Biome Islands"
+	],
+	// Lapis
+	<geolosys:ore_vanilla:3>: [
+		"Found in",
+		"Green Swamp, Swampland, Temperate Rainforest, & Mushroom Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:3>: [
+		"Found in",
+		"Green Swamp, Swampland, Temperate Rainforest, & Mushroom Biome Islands"
+	],
+	// Gold
+	<geolosys:ore_vanilla:2>: [
+		"Found in",
+		"Badlands & Mesa Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:2>: [
+		"Found in",
+		"Badlands & Mesa Biome Islands"
+	],
+	// Platinum
+	<geolosys:ore:8>: [
+		"Found in",
+		"Rocky Plateau Biome Islands"
+	],
+	<geolosys:ore_sample:8>: [
+		"Found in",
+		"Rocky Plateau Biome Islands"
+	],
+	// Limonite
+	<geolosys:ore:1>  : [
+		"Found in",
+		"Autumnal Woods & Jungle Biome Islands"
+	],
+	<geolosys:ore_sample:1>: [
+		"Found in",
+		"Autumnal Woods & Jungle Biome Islands"
+	],
+	// Galena
+	<geolosys:ore:6>: [
+		"Found in",
+		"Darklands Forest & Glacier Biome Islands"
+	],
+	<geolosys:ore_sample:6>: [
+		"Found in",
+		"Darklands Forest & Glacier Biome Islands"
+	],
+	// Redstone / Cinnabar
+	<geolosys:ore_vanilla:1>: [
+		"Found in",
+		"Desert & Redwood Taiga Hills Biome Islands"
+	],
+	<mundaneredstone:redstone_ore>: [
+		"Found in",
+		"Taiga Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:1>: [
+		"Found in",
+		"Desert, Redwood Taiga Hills,"
+		"& Taiga Biome Islands"
+	],
+	// Bauxite
+	<geolosys:ore:7>: [
+		"Found in",
+		"Mini Jungle, Mutated Birch Forest, & Woodlansd Biome Islands"
+	],
+	<geolosys:ore_sample:7>: [
+		"Found in",
+		"Mini Jungle, Mutated Birch Forest, & Woodlansd Biome Islands"
+	],
+	// Quartz
+	<geolosys:ore_vanilla:4>: [
+		"Found in",
+		"meneglin & Lush Hills Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:4>: [
+		"Found in",
+		"meneglin & Lush Hills Biome Islands"
+	],
+	// Silicon
+	<galacticraftcore:basic_block_core:8>: [
+		"Found in",
+		"Jungle & Mutated Plains Biome Islands"
+	],
+	<contenttweaker:sub_block_holder_0:5>: [
+		"Found in",
+		"Jungle & Mutated Plains Biome Islands"
+	],
+	// Diamond
+	<geolosys:ore_vanilla:5>: [
+		"Found in",
+		"Glacier Spikes Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:5>: [
+		"Found in",
+		"Glacier Spikes Biome Islands"
+	],
+	// Osmium
+	<contenttweaker:sub_block_holder_0:4>: [
+		"Found in",
+		"Mutated Forest & Ice Flats Biome Islands"
+	],
+	<contenttweaker:sub_block_holder_0:6>: [
+		"Found in",
+		"Mutated Forest & Ice Flats Biome Islands"
+	],
+	// Emerald
+	<geolosys:ore_vanilla:6>: [
+		"Found in",
+		"Extreme Hills Biome Islands"
+	],
+	<geolosys:ore_sample_vanilla:6>: [
+		"Found in",
+		"Extreme Hills Biome Islands"
+	],
+	// Uranium
+	<geolosys:ore:9>: [
+		"Found in",
+		"Coralium Infested Swamp Biome Islands"
+	],
+	<geolosys:ore_sample:9>: [
+		"Found in",
+		"Coralium Infested Swamp Biome Islands"
+	],
+
+	<twilightforest:liveroot>: [
+		"Found in Twilight Forest Loot Chests",
+		"or via Bonsai Trees"
 	]
 };
 

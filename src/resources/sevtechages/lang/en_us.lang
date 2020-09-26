@@ -3,7 +3,7 @@
 ###############################################
 # Stage 0
 advancements.stage0.abyssalbiome.title=Enter the Darklands
-advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. These biomes exist in colder temperature areas. The world is setup in a logical heatmap meaning hot or cold biomes can be reached by traveling North or South
+advancements.stage0.abyssalbiome.description=Find and enter a Abyssalcraft dark biome. Using the Nature's Compass will help locate biomes you're searching for 
 
 
 advancements.stage0.abyssalgem.title=Dark Gems
@@ -219,7 +219,7 @@ advancements.stage1.alloykiln.description=Build the Alloy Kiln from Immersive En
 
 
 advancements.stage1.aquamarine.title=The Search for Aquamarine
-advancements.stage1.aquamarine.description=Travel to the Beneath Dimension and search the top of the caves for Aquamarine ore
+advancements.stage1.aquamarine.description=Travel to the Beneath Dimension and search for Aquamarine ore
 
 
 advancements.stage1.aqueduct.title=Aqueducts
@@ -243,7 +243,7 @@ advancements.stage1.beneath.description=Use an Abyssalcraft Ritual to create the
 
 
 advancements.stage1.blackquartz.title=Par for the Quartz
-advancements.stage1.blackquartz.description=Travel to the bottom of the Beneath dimension to find Black Quartz
+advancements.stage1.blackquartz.description=Travel to the Beneath dimension to find Black Quartz
 
 
 advancements.stage1.bloodaltar.title=Altered State
@@ -472,7 +472,7 @@ advancements.stage2.resonatingwand.description=You'll need a Resonating Wand fro
 
 
 advancements.stage2.rockcrystal.title=Rock, Paper, Crystals
-advancements.stage2.rockcrystal.description=Rock Crystals are important for Astral Sorcery progression. Find a Rock Crystal sample on the surface and dig down in Snowy Coniferous Forest and Taiga Cold biomes
+advancements.stage2.rockcrystal.description=Rock Crystals are important for Astral Sorcery progression. You can locate Rock Crystal Ore beneath Rock Crystal Samples
 
 
 advancements.stage2.root.title=Age 2
@@ -492,7 +492,7 @@ advancements.stage2.smeltertank.description=Solid fuels only get you so far. Cra
 
 
 advancements.stage2.starpowder.title=Star Power
-advancements.stage2.starpowder.description=Stardust can be found when breaking Rock Crystal Samples, don't forget to mark your map because the samples will also indicate a vein of Rock Crystal Ore beneath! Once your Astral Sorcery infrastructure is complete you can begin making them
+advancements.stage2.starpowder.description=Stardust can be found when breaking Rock Crystal Samples, don't forget to mark your map because the samples will also indicate a vein of Rock Crystal Ore beneath! Once your Astral Sorcery infrastructure is complete you can begin making them. Find a Rock Crystal sample on the surface and dig down in Snowy Coniferous Forest and Taiga Cold biomes
 
 
 advancements.stage2.stevescarts.title=Train-ing with Coal
@@ -1061,3 +1061,4 @@ mods.tips.tips.25=Rafts are an earlier form of water transportation. They are ju
 mods.tips.tips.26=Morney cheese sauce (makes 1 gal); 2qt whole milk; 2 qts heavy cream; roux (250g butter/250g flour); sachet (bay, peppercorns, thyme); dijon (to taste); shredded comte cheese (lots/to taste); bring milk/cream/sachet to a boil (remove sachet) then reduce heat to simmer add roux (should be blonde) and whisk until absorbed add dijon and shredded cheese to taste
 mods.tips.tips.27=Holding the Drawer Key in your off-hand will automatically lock a newly placed Storage Drawer
 mods.tips.tips.28=Try not to let horsepower leads cross chunk borders
+mods.tips.tips.29=You can jump onto walls by holding sneak after leaping

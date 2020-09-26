@@ -43,6 +43,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[metals.fiery.plate],
 			[<minecraft:stick:0>]
 		]
+	],
+	// Converting liveroot to block
+	<twilightforest:root:1> : [
+		[
+			[<twilightforest:liveroot>, <twilightforest:liveroot>, <twilightforest:liveroot>],
+			[<twilightforest:liveroot>, <twilightforest:liveroot>, <twilightforest:liveroot>],
+			[<twilightforest:liveroot>, <twilightforest:liveroot>, <twilightforest:liveroot>]
+		]
 	]
 };
 
@@ -81,6 +89,10 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	// Re-add recipe for fiery since removed in metals script
 	metals.fiery.ingot.firstItem : [
 		[<ore:bottleFiery>, metals.iron.ingot]
+	],
+	// Liveroot block to liveroot conversion
+	<twilightforest:liveroot> * 9 : [
+		[<twilightforest:root:1>]
 	]
 };
 

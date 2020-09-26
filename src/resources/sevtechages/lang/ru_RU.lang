@@ -1,6 +1,6 @@
 # Stage 0 Translated by TimeConqueror
 advancements.stage0.abyssalbiome.title=Войдите в Тёмноземье
-advancements.stage0.abyssalbiome.description=Найдите тёмный биом Abyssalcraft'a, а затем войдите в него. Этот биом можно найти лишь в зонах с холодной температурой. Мир настроен таким образом, что он имеет логическую карту температур. Это означает, что достигнуть жарких или холодных биомов Вы можете, отправившись на юг или север.
+advancements.stage0.abyssalbiome.description=Найдите тёмный биом Abyssalcraft'a, а затем войдите в него. Вы можете найти нужные биомы при помощи Nature's Compass
 
 
 advancements.stage0.abyssalgem.title=Тёмные самоцветы
@@ -209,7 +209,7 @@ advancements.stage1.alloykiln.description=Создайте Плавильную 
 
 
 advancements.stage1.aquamarine.title=Поиск аквамарина
-advancements.stage1.aquamarine.description=Отправьтесь в измерение "Недра" и на верхушке пещер найдите Аквамариновую руду.
+advancements.stage1.aquamarine.description=Отправляйтесь в измерение Beneath и найдите Аквамариновую руду
 
 
 advancements.stage1.aqueduct.title=Акведуки
@@ -229,7 +229,7 @@ advancements.stage1.beneath.description=Используйте ритуал из
 
 
 advancements.stage1.blackquartz.title=Ничего необычного, просто кварц
-advancements.stage1.blackquartz.description=Доберитесь до нижней части Недр, чтобы найти Чёрный кварц.
+advancements.stage1.blackquartz.description=Отправляйтесь в измерение Beneath чтобы найти Черный кварц
 
 
 advancements.stage1.bloodaltar.title=Изменённое состояние

@@ -299,7 +299,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.horsepower.init();
 	scripts.crafttweaker.integrations.mods.immersive.engineering.init.init();
 	scripts.crafttweaker.integrations.mods.immersive.petroleum.init();
-	scripts.crafttweaker.integrations.mods.loottweaker.init();
+	// scripts.crafttweaker.integrations.mods.loottweaker.init();
 	scripts.crafttweaker.integrations.mods.mekanism.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.init.init();
 	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();

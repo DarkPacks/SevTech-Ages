@@ -19,6 +19,7 @@ Enhancements:
 * Add Twilight Forest trees to Bonsai pots
 * Add liveroot and liveroot block conversion recipes
 * Add liveroot to Twilight Forest loot chests
+* Staged loot in loot tables (chests, etc)
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
@@ -27,6 +28,9 @@ Bug Fixes:
 * Rustic liquids appearing too early
 * Add Primal's Yew Stick to stickWood oredict
 * Enabled AE2 paint balls
+
+Mods Added:
+* ZenLoot
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

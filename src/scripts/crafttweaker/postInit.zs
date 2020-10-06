@@ -264,7 +264,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.supersoundmuffler.init();
 	scripts.crafttweaker.recipes.mods.tcomplement.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
-	scripts.crafttweaker.recipes.mods.thebetweenlands.init();	
+	scripts.crafttweaker.recipes.mods.thebetweenlands.init();
 	scripts.crafttweaker.recipes.mods.totemic.init();
 	scripts.crafttweaker.recipes.mods.traverse.init();
 	scripts.crafttweaker.recipes.mods.twilightforest.init();

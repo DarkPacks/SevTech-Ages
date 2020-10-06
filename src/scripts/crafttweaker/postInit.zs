@@ -308,6 +308,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.primalTech.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
 	scripts.crafttweaker.integrations.mods.tinkers.init.init();
+	scripts.crafttweaker.integrations.mods.zenloot.init();
 }
 
 function initEvents() {

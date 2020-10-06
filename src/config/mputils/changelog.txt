@@ -26,6 +26,7 @@ Enhancements:
 * Add liveroot and liveroot block conversion recipes
 * Added location description tooltips to all ores and ore samples
 * Add liveroot to Twilight Forest loot chests
+* Staged loot in loot tables (chests, etc)
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
@@ -38,6 +39,7 @@ Bug Fixes:
 Mods Added:
 * Drafty Kites
 * Topography (1.14.4)
+* ZenLoot
 
 Mod Updates:
 * ExtraPlanets (0.5.6 -> 0.7.0)

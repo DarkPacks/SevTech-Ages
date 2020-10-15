@@ -21,6 +21,7 @@ Enhancements:
 * Add liveroot to Twilight Forest loot chests
 * Staged loot in loot tables (chests, etc)
 * Add trollber to Twilight Forest loot tables
+* Enabled fishing!
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf

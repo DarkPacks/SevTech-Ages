@@ -27,6 +27,7 @@ Enhancements:
 * Added location description tooltips to all ores and ore samples
 * Add liveroot to Twilight Forest loot chests
 * Staged loot in loot tables (chests, etc)
+* Changed saddle advancement to piggy backpack
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf

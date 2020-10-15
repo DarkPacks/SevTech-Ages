@@ -529,10 +529,11 @@ function init() {
 		}
 	}
 
-	// Add liveroot and torchberries to TF structure chest loot tables
+	// Add liveroot, torchberries, and trollber to TF structure chest loot tables
 	var lootTable = LootTable.editAllMatching("^twilightforest:structures\\/(\\w+)\\/\\1")
 		.addPool("skyblock_resources", 0, 2, 0, 0)
 			.addEntry(LootEntry.fromItemStack(<twilightforest:liveroot>).setCount(1, 5))
 			.addEntry(LootEntry.fromItemStack(<twilightforest:torchberries>).setCount(1, 5))
+			.addEntry(LootEntry.fromItemStack(<twilightforest:trollber>).setCount(1, 5))
 			.addEntry(LootEntry.empty(1));
 }

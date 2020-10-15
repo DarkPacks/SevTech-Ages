@@ -28,6 +28,8 @@ Enhancements:
 * Add liveroot to Twilight Forest loot chests
 * Staged loot in loot tables (chests, etc)
 * Changed saddle advancement to piggy backpack
+* Add trollber to Twilight Forest loot tables
+* Enabled fishing!
 
 Bug Fixes:
 * Correct rat's meat drops & added wolf meat drop to dire wolf
@@ -36,6 +38,7 @@ Bug Fixes:
 * Rustic liquids appearing too early
 * Add Primal's Yew Stick to stickWood oredict
 * Enabled AE2 paint balls
+* Added Amethyst, Cobalt, and Ardite to prospectors detection lists
 
 Mods Added:
 * Drafty Kites

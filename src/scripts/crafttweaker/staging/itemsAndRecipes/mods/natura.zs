@@ -85,11 +85,14 @@ static stagedItems as IIngredient[][string] = {
 		<natura:hopseed_fence:0>,
 		<natura:maple_fence_gate:0>,
 		<natura:maple_fence:0>,
-		<natura:nether_doors:3>,
 		<natura:nether_doors:2>,
 		<natura:nether_doors:1>,
 		<natura:nether_doors:0>,
-		<natura:overworld_doors:*>,
+		<natura:overworld_doors:0>,
+		<natura:overworld_doors:1>,
+		<natura:overworld_doors:2>,
+		<natura:overworld_doors:3>,
+		<natura:overworld_doors:4>,
 		<natura:redwood_fence_gate:0>,
 		<natura:redwood_fence:0>,
 		<natura:sakura_fence_gate:0>,
@@ -308,7 +311,11 @@ static hiddenRemove as IIngredient[] = [
 	<natura:tiger_trap_door:0>,
 	<natura:willow_button:0>,
 	<natura:willow_pressure_plate:0>,
-	<natura:willow_trap_door:0>
+	<natura:willow_trap_door:0>,
+	<natura:overworld_doors:5>,
+	<natura:overworld_doors:6>,
+	<natura:overworld_doors:7>,
+	<natura:nether_doors:3>
 ];
 
 function init() {

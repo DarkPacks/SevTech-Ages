@@ -533,6 +533,31 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	],
 	<primal:plant_cloth:0>: [
 		[<ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>, <ore:cordageGeneral>]
+	],
+	//Adding back primal core stacked logs
+	<primal:logs_stacked>: [
+		[<primal:logs_stripped>, <primal:logs_stripped>]
+	],
+	<primal:logs_stacked:1>: [
+		[<primal:logs_stripped:1>, <primal:logs_stripped:1>]
+	],
+	<primal:logs_stacked:2>: [
+		[<primal:logs_stripped:2>, <primal:logs_stripped:2>]
+	],
+	<primal:logs_stacked:3>: [
+		[<primal:logs_stripped:3>, <primal:logs_stripped:3>]
+	],
+	<primal:logs_stacked:4>: [
+		[<primal:logs_stripped:4>, <primal:logs_stripped:4>]
+	],
+	<primal:logs_stacked:5>: [
+		[<primal:logs_stripped:5>, <primal:logs_stripped:5>]
+	],
+	<primal:logs_stacked:6>: [
+		[<primal:logs_stripped:6>, <primal:logs_stripped:6>]
+	],
+	<primal:logs_stacked:7>: [
+		[<primal:logs_stripped:7>, <primal:logs_stripped:7>]
 	]
 };
 

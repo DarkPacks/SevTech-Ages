@@ -8,6 +8,44 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.2.0
+
+Enhancements:
+* Add tooltips for Rustic bees
+* Added Primal's Stacked Logs and Charcoal Pit mechanics
+* Increased Rustic Apiaries crop aging frequency
+* Add Rustic bee advancement
+* Move Rustic bees to age 1 from age 2
+* Add Twilight Forest trees to Bonsai pots
+* Add liveroot and liveroot block conversion recipes
+* Add liveroot to Twilight Forest loot chests
+* Staged loot in loot tables (chests, etc)
+* Add trollber to Twilight Forest loot tables
+* Enabled fishing!
+
+Bug Fixes:
+* Correct rat's meat drops & added wolf meat drop to dire wolf
+* Create recipes for Abyssalcraft's animated darklands log
+* Remove "WIP" natura doors
+* Rustic liquids appearing too early
+* Add Primal's Yew Stick to stickWood oredict
+* Enabled AE2 paint balls
+* Added Amethyst, Cobalt, and Ardite to prospectors detection lists
+
+Mods Added:
+* ZenLoot
+
+Mod Updates:
+* ExtraPlanets (0.5.6 -> 0.7.0)
+* Galacticraft (4.0.2.236 -> 4.0.2.280)
+    * Core, Planets, & MicdoodleCore
+* MJRLegendsLib (1.1.8 -> 1.2.0)
+* SevPatches (1.5-6 -> 1.6-7)
+* SevTweaks (0.3.1-25 -> 0.4.0-1)
+* Wall-Jump! (1.2.3 -> 1.3.2)
+
+---------------------------------------------------------------------
+
 3.1.7
 
 Enhancements:

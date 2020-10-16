@@ -297,7 +297,10 @@ static stagedItems as IIngredient[][string] = {
 		<appliedenergistics2:part:441>,
 		<appliedenergistics2:part:281>,
 		<appliedenergistics2:part:221>,
-		<appliedenergistics2:part:520>
+		<appliedenergistics2:part:520>,
+
+		// Paintballs
+		<appliedenergistics2:paint_ball:*>,
 	],
 
 	stageCreativeUnused.stage: [

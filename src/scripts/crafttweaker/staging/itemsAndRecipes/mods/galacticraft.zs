@@ -170,6 +170,7 @@ static stagedItems as IIngredient[][string] = {
 		<galacticraftcore:machine2:4>,
 		<galacticraftcore:machine2:8>,
 		<galacticraftcore:machine3:0>,
+		<galacticraftcore:machine4>,
 		<galacticraftcore:magnetic_table:0>,
 		<galacticraftcore:meteor_chunk:0>,
 		<galacticraftcore:meteor_chunk:1>,
@@ -397,9 +398,12 @@ static stagedRecipeNames as string[][string] = {
 
 static hiddenItems as IIngredient[] = [
 	<galacticraftcore:bucket_fuel:0>,
-	<galacticraftcore:refinery:0>,
 	<galacticraftplanets:basic_item_venus:1>,
 	<galacticraftplanets:venus:12>
+];
+
+static hiddenRemove as IIngredient[] = [
+	<galacticraftcore:refinery:0>
 ];
 
 function init() {
@@ -421,4 +425,5 @@ function init() {
 	}
 
 	recipeUtil.hideItems(hiddenItems as IIngredient[]);
+	recipeUtil.hideItems(hiddenRemove as IIngredient[], true);
 }

@@ -140,7 +140,7 @@ advancements.stage0.root.description=Добро пожаловать в SevTech:
 
 
 advancements.stage0.saddle.title=Седлать лошадей!
-advancements.stage0.saddle.description=Нужно ускоряться! Используйте Седло, чтобы перемещаться намного быстрее.
+advancements.stage0.saddle.description=Нужно ускоряться! Используйте Piggybackpack, чтобы собирать животных и безопасно переносить их. Вы также можете носить с собой животных во время полета на Volarkite
 
 
 advancements.stage0.saltflats.title=В чём соль Ваших исследований?
@@ -459,7 +459,7 @@ advancements.stage2.root.description=Добро пожаловать в след
 
 
 advancements.stage2.sealantern.title=В мире морскоооом...
-advancements.stage2.sealantern.description=Верхушки алтаря третьего уровня из Blood Magic могут быть сделаны из Морских фонарей или Светокамня. Призмарин для создания этих фонарей можно найти в Подводной крепости или выбить в лабиринте Тёмнолесья в измерении Сумеречного леса.
+advancements.stage2.sealantern.description=Верхушки алтаря третьего уровня из Blood Magic могут быть сделаны из Морских фонарей или Светокамня. Призмарин для создания этих фонарей можно найти или выбить в лабиринте Тёмнолесья в измерении Сумеречного леса.
 
 
 advancements.stage2.skywave.title=Местоположение звёздного света
@@ -603,7 +603,7 @@ advancements.stage3.naphtha.description=Теперь, когда Вы добыл
 
 
 advancements.stage3.nether.title=Войти в Незер
-advancements.stage3.nether.description=Отправьтесь в Незер. Уже построенные порталы, ведущие в это измерение, можно найти в жарких биомах, таких как Пустыня или Саванна. Помните, что этот мир сгенерирован с учётом логической карты температур. То есть, если Вы хотите найти жаркий биом, отправьтесь на Север или Юг, до тех пор пока не доберётесь до нужного климата.
+advancements.stage3.nether.description=Отправьтесь в Незер. Уже построенные порталы, ведущие в это измерение, можно найти в жарких биомах, таких как Пустыня или Саванна
 
 
 advancements.stage3.netherbrick.title=Незеритовый кирпич

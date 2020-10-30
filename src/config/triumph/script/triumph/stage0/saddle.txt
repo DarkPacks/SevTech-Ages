@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage0.saddle.title")
 
-setIcon("minecraft:saddle")
+setIcon("tconstruct:piggybackpack")
 
 setTranslatedDescription("advancements.stage0.saddle.description")
 
@@ -9,7 +9,7 @@ setRequiresParents()
 
 //Criteria
 criteria = addCriteria("hasRock", "minecraft:inventory_changed")
-criteria.setItem("minecraft:saddle")
+criteria.setItem("tconstruct:piggybackpack")
 
 //Rewards
 setRewardExperience(4)

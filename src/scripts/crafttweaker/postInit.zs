@@ -264,7 +264,7 @@ function initRecipes() {
 	scripts.crafttweaker.recipes.mods.supersoundmuffler.init();
 	scripts.crafttweaker.recipes.mods.tcomplement.init();
 	scripts.crafttweaker.recipes.mods.tconstruct.init();
-	scripts.crafttweaker.recipes.mods.thebetweenlands.init();	
+	scripts.crafttweaker.recipes.mods.thebetweenlands.init();
 	scripts.crafttweaker.recipes.mods.totemic.init();
 	scripts.crafttweaker.recipes.mods.traverse.init();
 	scripts.crafttweaker.recipes.mods.twilightforest.init();
@@ -300,7 +300,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.horsepower.init();
 	scripts.crafttweaker.integrations.mods.immersive.engineering.init.init();
 	scripts.crafttweaker.integrations.mods.immersive.petroleum.init();
-	scripts.crafttweaker.integrations.mods.loottweaker.init();
+	// scripts.crafttweaker.integrations.mods.loottweaker.init();
 	scripts.crafttweaker.integrations.mods.mekanism.init();
 	scripts.crafttweaker.integrations.mods.modularMachinery.init.init();
 	scripts.crafttweaker.integrations.mods.pneumaticcraft.init();
@@ -308,6 +308,7 @@ function initIntegrations() {
 	scripts.crafttweaker.integrations.mods.primalTech.init();
 	scripts.crafttweaker.integrations.mods.rustic.init();
 	scripts.crafttweaker.integrations.mods.tinkers.init.init();
+	scripts.crafttweaker.integrations.mods.zenloot.init();
 }
 
 function initEvents() {

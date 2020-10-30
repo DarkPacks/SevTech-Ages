@@ -147,7 +147,7 @@ advancements.stage0.root.description=Welcome to SevTech: Ages! To complete the t
 
 
 advancements.stage0.saddle.title=Don't Saddle For Anything Less
-advancements.stage0.saddle.description=Gotta Go Fast! Use a Saddle to travel around much faster
+advancements.stage0.saddle.description=Gotta Go Fast! Use a Piggybackpack to pick up animals to safely carry them around. You can also carry animals around while flying on the Volarkite
 
 
 advancements.stage0.saltflats.title=reSalt of Your Labors
@@ -480,7 +480,7 @@ advancements.stage2.root.description=Welcome to the next age!
 
 
 advancements.stage2.sealantern.title=Under Da Sea Lantern
-advancements.stage2.sealantern.description=The Tier 3 Blood Magic Altar caps can be made from Sea Lanterns or Glowstone. Locate Prismarine from an Ocean Monument or as a drop from the Dark Forest Maze in the Twilight Forest
+advancements.stage2.sealantern.description=The Tier 3 Blood Magic Altar caps can be made from Sea Lanterns or Glowstone. Locate Prismarine as a drop from the Dark Forest Maze in the Twilight Forest
 
 
 advancements.stage2.skywave.title=Starlight Geolocation
@@ -625,7 +625,7 @@ advancements.stage3.naphtha.description=Now that you have extracted Oil, build a
 
 
 advancements.stage3.nether.title=Enter the Nether
-advancements.stage3.nether.description=Travel to the Nether. Pre-built Portals exist in hot biomes such as Deserts and Savannahs. Remember, the world is setup in a logical heat map. If you need to find a hot biome you can travel North or South until you reach that climate
+advancements.stage3.nether.description=Travel to the Nether. Pre-built Portals exist in hot biomes such as Deserts and Savannahs
 
 
 advancements.stage3.netherbrick.title=Nether Brick

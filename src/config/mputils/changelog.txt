@@ -8,6 +8,13 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.2.1
+
+Bug Fixes:
+* Removed Sevadus skull drop to prevent potential lag
+
+---------------------------------------------------------------------
+
 3.2.0
 
 Enhancements:

@@ -1025,13 +1025,5 @@
         "mob": "playerbosses:player_boss",
         "item": "contenttweaker:the_oj",
         "random": 1.0
-    },
-    {
-        "mob": "playerbosses:player_boss",
-        "item": "minecraft:skull@3",
-        "random": 1.0,
-        "nbt": {
-            "SkullOwner": "Sevadus"
-        }
     }
 ]

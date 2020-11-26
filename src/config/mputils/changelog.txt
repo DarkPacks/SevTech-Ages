@@ -39,6 +39,7 @@ Bug Fixes:
 * Add Primal's Yew Stick to stickWood oredict
 * Enabled AE2 paint balls
 * Added Amethyst, Cobalt, and Ardite to prospectors detection lists
+* Removed Sevadus skull drop to prevent potential lag
 
 Mods Added:
 * Drafty Kites

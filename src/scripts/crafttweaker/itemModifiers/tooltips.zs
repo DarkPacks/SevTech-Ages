@@ -623,7 +623,7 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 function init() {
 	for item, tooltips in itemTooltipMap {
 		for tooltip in tooltips {
-			item.addTooltip(tooltip);
+			if (!isNull(item)) { item.addTooltip(tooltip); }
 		}
 	}
 }

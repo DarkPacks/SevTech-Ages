@@ -260,9 +260,20 @@ function init() {
 				if (!isNull(subItem.tag) & !isNull(subItem.tag.Material)) {
 					var subItemMaterial as string = subItem.tag.Material.asString();
 					var materialStage as Stage = ZenStager.getTiCMaterialStage(subItemMaterial);
-					var materialPartStage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
+					
+					// TODO humenius 01/07/2021: Not sure if this null check belongs here.
+					//			It looks a bit like a fundamental problem in scripts.crafttweaker.utils.getHighestStage.
+					//
+					// if (isNull(materialStage)) {
+					// 	log("Stage for material \"" + subItemMaterial + "\" is null.");
+					// 	log("Skipping staging for item \"" + subItem.name + "\"");
+					// } else {
+						var materialPartStage as Stage = scripts.crafttweaker.utils.getHighestStage(partStage, materialStage);
 
-					materialPartStage.addIngredient(subItem);
+						// TODO humenius 01/07/2021: If the null check above is not needed,
+						//			we should keep this sanity check as scripts.crafttweaker.utils.getHighestStage may return null.
+						if (!isNull(materialPartStage)) { materialPartStage.addIngredient(subItem); }
+					// }
 				}
 			}
 		}

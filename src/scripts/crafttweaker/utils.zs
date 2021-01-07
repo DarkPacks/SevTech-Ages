@@ -142,6 +142,17 @@ function getHighestStage(firstStage as Stage, secondStage as Stage) as Stage {
 		stageDisabled.stage: 8
 	};
 
+	// Check if stage instance even exists
+	// TODO humenius 01/07/2021: Is there in ZenScript something like Optionals?
+	//			e. g. convert parameter `firstStage` to Optional
+	//				-> (firstStage as Stage?)
+	if (!isNull(firstStage)) {
+		if (isNull(secondStage)) { return firstStage; }
+	} else {
+		if (!isNull(secondStage)) { return secondStage; }
+		else { return null; }
+	}
+
 	// Stage names
 	var firstStageName as string = firstStage.stage;
 	var secondStageName as string = secondStage.stage;

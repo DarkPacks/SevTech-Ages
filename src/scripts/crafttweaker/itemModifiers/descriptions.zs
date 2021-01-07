@@ -273,6 +273,6 @@ static descriptionPairs as string[][IItemStack] = {
 
 function init() {
 	for item, descriptionArray in descriptionPairs {
-		JEI.addDescription(item, descriptionArray);
+		if (!isNull(item)) { JEI.addDescription(item, descriptionArray); }
 	}
 }

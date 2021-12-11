@@ -78,6 +78,7 @@ global chiselBlocks as IItemStack[][IOreDictEntry] = {
 		<chisel:blockcopper:6>
 	],
 	<ore:blockDiamond>: [
+		<minecraft:diamond_block:0>,
 		<chisel:diamond:0>,
 		<chisel:diamond:1>,
 		<chisel:diamond:2>,
@@ -101,6 +102,7 @@ global chiselBlocks as IItemStack[][IOreDictEntry] = {
 		<chisel:blockelectrum:6>
 	],
 	<ore:blockEmerald>: [
+		<minecraft:emerald_block:0>,
 		<chisel:emerald:0>,
 		<chisel:emerald:1>,
 		<chisel:emerald:2>,

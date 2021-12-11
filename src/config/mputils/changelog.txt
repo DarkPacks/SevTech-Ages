@@ -6,6 +6,21 @@ WAILA and a Map are not available from the beginning of the modpack, they need t
 
 For Multiplayer Team information use the mod "Together Forever" and check the commands beginning with "/tofe" using in-game chat.
 
+
+---------------------------------------------------------------------
+
+3.2.2
+
+Features:
+* Added Traditional Chinese translations
+
+Bug Fixes:
+* Added missing Russian translation
+
+Mod Updates:
+* Forge (14.23.5.2854)
+    * Fixes a recent security vulnerability affecting Minecraft. Read more here regarding clients: http://redsto.ne/java
+
 ---------------------------------------------------------------------
 
 3.2.1 Skyblock

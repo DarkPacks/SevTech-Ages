@@ -8,6 +8,18 @@ For Multiplayer Team information use the mod "Together Forever" and check the co
 
 ---------------------------------------------------------------------
 
+3.2.3
+
+IMPORTANT: This update changes tombstone mods. Any old graves from the previous mod will be lost. Ensure any graves have been opened before updating the pack. Use a backup if you have already opened the world with this update.
+
+Mods Added:
+* Simple Tomb (1.0.0)
+
+Mods Removed:
+* Corail's Tombstone
+
+---------------------------------------------------------------------
+
 3.2.2
 
 Features:

@@ -4,28 +4,7 @@ import mods.zenloot.LootEntry;
 import mods.zenloot.LootFunction;
 
 // The pools in this loot table are added to other tables - editing them here will edit them in all tables they are added to
-static earlyLootTables as LootEntry[][string][string] = {
-	"tombstone:special": {
-		"lost_tablet": [
-			LootEntry.fromItemStack(<tombstone:lost_tablet>).setWeight(0).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:tablet_of_recall>.withTag({ancient: true})).setWeight(1).setQuality(-2).setStage(),
-			LootEntry.empty(99)
-		],
-		"chest_treasure": [
-			LootEntry.fromItemStack(<tombstone:scroll_buff>.withTag({enchant: true})).setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:1>.withTag({enchant: true}), "tombstone:scroll_buff#0").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:2>.withTag({enchant: true}), "tombstone:scroll_buff#1").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:3>.withTag({enchant: true}), "tombstone:scroll_buff#2").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:4>.withTag({enchant: true}), "tombstone:scroll_buff#3").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:5>.withTag({enchant: true}), "tombstone:scroll_buff#4").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_buff:6>.withTag({enchant: true}), "tombstone:scroll_buff#5").setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:tablet_of_cupidity>.withTag({enchant: true})).setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:scroll_of_knowledge>.withTag({stored_xp: 2000})).setWeight(1).setQuality(-2).setStage(),
-			LootEntry.fromItemStack(<tombstone:lost_tablet>).setWeight(1).setQuality(-2).setStage(),
-			LootEntry.empty(92)
-		]
-	}
-};
+static earlyLootTables as LootEntry[][string][string] = {};
 
 static lootTables as LootEntry[][string][string] = {
 	"minecraft:chests/simple_dungeon": {

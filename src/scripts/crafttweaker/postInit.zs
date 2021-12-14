@@ -153,6 +153,7 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.refinedstorageaddons.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rftools.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.rustic.init();
+	scripts.crafttweaker.staging.itemsAndRecipes.mods.simpletomb.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.simplyarrows.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.spartanshields.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.stevescarts.init();
@@ -163,7 +164,6 @@ function initItemsAndRecipesStaging() {
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.tconstruct.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.teslacorelib.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.thebetweenlands.init();
-	scripts.crafttweaker.staging.itemsAndRecipes.mods.tombstone.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.totemic.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.translocators.init();
 	scripts.crafttweaker.staging.itemsAndRecipes.mods.traverse.init();

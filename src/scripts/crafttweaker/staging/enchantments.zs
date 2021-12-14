@@ -67,10 +67,6 @@ static stagedEnchants as IEnchantmentDefinition[][string] = {
 		<enchantment:minecraft:vanishing_curse>,
 		<enchantment:oeintegration:oreexcavation>,
 		<enchantment:spartanshields:ssenchspikes>,
-		<enchantment:tombstone:shadow_step>,
-		<enchantment:tombstone:soulbound>,
-		<enchantment:tombstone:magic_siphon>,
-		<enchantment:tombstone:plague_bringer>,
 		<enchantment:yoyos:collecting>
 	]
 };

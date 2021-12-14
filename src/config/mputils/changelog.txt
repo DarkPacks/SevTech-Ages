@@ -17,6 +17,7 @@ Mods Added:
 
 Mods Updated:
 * Forge (14.23.5.2858 -> 14.23.5.2860)
+    * More vulnerability fixes & fixes bloat being logged
 
 Mods Removed:
 * Corail's Tombstone
